@@ -1,0 +1,15 @@
+{
+	x: 116.0d,
+	y: 0.0d,
+	dependencies: [
+		"dea01ded"
+	],
+	hide: true,
+	tasks: [{
+		uid: "af2609bf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sacred_acorn"
+		}]
+	}]
+}

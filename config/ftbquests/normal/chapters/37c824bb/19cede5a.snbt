@@ -1,0 +1,18 @@
+{
+	x: 75.5d,
+	y: 3.0d,
+	text: [
+		"This should come in handy for my fabrication needs..."
+	],
+	dependencies: [
+		"822903da"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8daaea68",
+		type: "item",
+		items: [{
+			item: "contenttweaker:runador_cap"
+		}]
+	}]
+}

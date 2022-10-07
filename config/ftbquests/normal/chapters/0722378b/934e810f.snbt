@@ -1,0 +1,39 @@
+{
+	x: 7.0d,
+	y: 0.0d,
+	text: [
+		"High pressure = better",
+		"For making steam from solid and liquid fuels."
+	],
+	dependencies: [
+		"0c6ceb78"
+	],
+	tasks: [{
+		uid: "dfb0aceb",
+		type: "item",
+		items: [{
+			item: "railcraft:boiler_tank_pressure_low"
+		}]
+	},
+	{
+		uid: "e1292788",
+		type: "item",
+		items: [{
+			item: "railcraft:boiler_tank_pressure_high"
+		}]
+	},
+	{
+		uid: "dba93e77",
+		type: "item",
+		items: [{
+			item: "railcraft:boiler_firebox_fluid"
+		}]
+	},
+	{
+		uid: "62d21ce7",
+		type: "item",
+		items: [{
+			item: "railcraft:boiler_firebox_solid"
+		}]
+	}]
+}

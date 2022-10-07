@@ -1,0 +1,30 @@
+{
+	icon: {
+		id: "redstonearsenal:tool.hammer_flux",
+		tag: {
+			Energy: 0
+		}
+	},
+	x: -2.5d,
+	y: 1.5d,
+	description: "You will unlock more pages as you progress - Follow 'Dimensional Ascension' to progress through the pack! The other quests are for info and tutorials!",
+	text: [
+		"There seems to be a lot of stuff to keep track of... I'll better start documenting my findings!",
+		"'Personal Augmentation' is to keep track of useful or powerful tools and gadgets.",
+		"The 'Energy Sources' manual will keep track of all the ways of making energy.",
+		"'Manufacturing and Fabrication' will be there to help me remember how to use machines.",
+		"If I ever need to automate a process or implement a logistical system, I will keep track of my findings in 'Logistics and Organization'.",
+		"If I come up with a way of producing resources autonomously, 'The Book of Creation' will keep track of these.",
+		"All the knowledge of magic will be held in the 'Magical Mastery' book.",
+		"'The book of Worlds' will be there to keep track of the places I visit!"
+	],
+	dependencies: [
+		"2f54d294"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a2cc1db4",
+		type: "checkmark",
+		title: "How do quests work?"
+	}]
+}

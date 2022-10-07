@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: 6.0d,
+	text: [
+		"Obtained by a Void Ore Miner Teir 4+",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"858e8da8"
+	],
+	tasks: [{
+		uid: "7c360822",
+		type: "item",
+		items: [{
+			item: "environmentaltech:ionite_crystal"
+		}]
+	}]
+}

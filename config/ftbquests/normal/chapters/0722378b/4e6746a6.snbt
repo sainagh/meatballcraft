@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 14.0d,
+	text: [
+		"9x9 yeah I get the drill...",
+		"Placed next to an unpackager for autocrafting.",
+		"A packager is required somewhere in the AE network, but it doesn't need to be close."
+	],
+	dependencies: [
+		"4788eb53"
+	],
+	tasks: [{
+		uid: "f613ef8d",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:ultimate_crafter"
+		}]
+	}]
+}

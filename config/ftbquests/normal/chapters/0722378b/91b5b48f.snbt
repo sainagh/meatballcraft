@@ -1,0 +1,17 @@
+{
+	x: 11.0d,
+	y: 2.0d,
+	text: [
+		"Dissolves solid items into fluids to make other fluids! (did you really need quest text to figure that out?!?)"
+	],
+	dependencies: [
+		"f40dd3ae"
+	],
+	tasks: [{
+		uid: "dd0efcb3",
+		type: "item",
+		items: [{
+			item: "enderio:block_vat"
+		}]
+	}]
+}

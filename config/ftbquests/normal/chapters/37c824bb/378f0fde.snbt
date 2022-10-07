@@ -1,0 +1,23 @@
+{
+	x: 14.0d,
+	y: -9.0d,
+	description: "Use the staff of iceika to reach to top of the castle of the grand wizard!",
+	text: [
+		"The power of wizardry is, well, seemingly unlimited.",
+		"Just like knowledge, an infinite process that tries to approximate reality in increasingly accurate ways, with this type of magic, the sky is the limit.",
+		"That said, the grand wizard that 'created' the land of Iceika may have flown too close to the sun, and paid the price for risking too much with their experiments.",
+		"If this is what supreme ice power looks like, I am curious to see what 'awakened' versions of the other branches of wizardry look like.",
+		"Definitely would be nice to learn how to change the climate of a planet.."
+	],
+	dependencies: [
+		"7063e03d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "165f9c85",
+		type: "item",
+		items: [{
+			item: "contenttweaker:soul_of_the_grand_wizard"
+		}]
+	}]
+}

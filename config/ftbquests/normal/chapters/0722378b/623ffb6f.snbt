@@ -1,0 +1,14 @@
+{
+	x: -11.5d,
+	y: 1.5d,
+	dependencies: [
+		"6916aca9"
+	],
+	tasks: [{
+		uid: "4913b426",
+		type: "item",
+		items: [{
+			item: "bloodmagic:alchemy_table"
+		}]
+	}]
+}

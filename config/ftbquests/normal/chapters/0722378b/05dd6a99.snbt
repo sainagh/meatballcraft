@@ -1,0 +1,12 @@
+{
+	x: 6.0d,
+	y: 6.0d,
+	dependencies: [
+		"89deb826"
+	],
+	tasks: [{
+		uid: "3de58bf2",
+		type: "checkmark",
+		title: "Bibliocraft"
+	}]
+}

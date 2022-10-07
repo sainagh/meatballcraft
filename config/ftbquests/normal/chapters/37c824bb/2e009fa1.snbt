@@ -1,0 +1,27 @@
+{
+	title: "Experiment #3",
+	x: 30.5d,
+	y: 4.5d,
+	text: [
+		"Furatto, it seems, was the last succesfull battle of the testificates.",
+		"This planet, just like Taerrapiatta and Furatto, was under the control of the Shyre Empire, but got 'claimed' by the testificates.",
+		"The next wormhole, I was warned, is where only few dared to adventure, and where the retaliation war from Terra became nothing more than a few idealistic warriors trying to accomplish the impossible.",
+		"Note for the future, no more wormhole portals until I'm more powerful, I guess I'll have time to practice..."
+	],
+	dependencies: [
+		"7a4c072b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "47cf409b",
+		type: "item",
+		items: [{
+			id: "contenttweaker:furatto_warper",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

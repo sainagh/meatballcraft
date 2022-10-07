@@ -1,0 +1,51 @@
+{
+    "pools": [
+      {
+        "name": "main",
+        "entries": [
+          {
+            "entryName": "extendedcrafting:singularity",
+            "weight": 6,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 2.0,
+                  "max": 5.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "extendedcrafting:singularity"
+          }
+        ],
+        "rolls": {
+          "min": 2.0,
+          "max": 3.0
+        }
+      },
+      {
+        "name": "pool2",
+        "entries": [
+            {
+                "entryName": "thaumcraft:sapling_silverwood",
+                "weight": 1,
+                "quality": 0,
+                "type": "item",
+                "functions": [
+                  {
+                    "count": {
+                      "min": 1.0,
+                      "max": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "thaumcraft:sapling_silverwood"
+              }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  }

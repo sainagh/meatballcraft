@@ -1,0 +1,17 @@
+{
+	x: 14.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"83006eef"
+	],
+	tasks: [{
+		uid: "afd84160",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 19"
+		}]
+	}]
+}

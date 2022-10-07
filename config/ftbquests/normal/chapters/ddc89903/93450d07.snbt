@@ -1,0 +1,14 @@
+{
+	x: 11.0d,
+	y: 9.5d,
+	dependencies: [
+		"87fda1d2"
+	],
+	tasks: [{
+		uid: "d08f9bc0",
+		type: "item",
+		items: [{
+			item: "draconicevolution:entity_detector"
+		}]
+	}]
+}

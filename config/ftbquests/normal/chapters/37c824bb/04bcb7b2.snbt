@@ -1,0 +1,20 @@
+{
+	title: "Mythic Witchery!",
+	x: 66.5d,
+	y: 3.0d,
+	text: [
+		"What have I learned, that witchery has some interactions with mythic powers that allow for higher manufacturing output.",
+		"Is it really worth it? Maybe?!?"
+	],
+	dependencies: [
+		"7dc9a073"
+	],
+	hide: true,
+	tasks: [{
+		uid: "db12e965",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mythic_machine_case"
+		}]
+	}]
+}

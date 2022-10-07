@@ -1,0 +1,31 @@
+{
+	icon: "industrialforegoing:villager_trade_exchanger",
+	x: 10.0d,
+	y: 5.0d,
+	text: [
+		"Trading is an act between two living things, but it doesn't have to be like that thanks to this device, which allows to automate this process.",
+		"A villager captured using a Mob Imprisonment Tool can be mercilessly forced to spend the rest of its life as an emerald farm!"
+	],
+	dependencies: [
+		"0ab08fce"
+	],
+	tasks: [{
+		uid: "fb3bd745",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:villager_trade_exchanger"
+		}]
+	},
+	{
+		uid: "55ac577c",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:mob_imprisonment_tool",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

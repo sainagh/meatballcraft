@@ -1,0 +1,17 @@
+{
+	x: -6.5d,
+	y: -5.5d,
+	text: [
+		"Salis Mundus is a strange powder used to activate many thaumic devices. Use on specific blocks to change them into magic tools."
+	],
+	dependencies: [
+		"2d513652"
+	],
+	tasks: [{
+		uid: "24ca0a6a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}]
+}

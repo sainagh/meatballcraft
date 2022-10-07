@@ -1,0 +1,18 @@
+{
+	icon: "simplevoidworld:portal",
+	x: 17.0d,
+	y: -1.5d,
+	text: [
+		"If I were you, I'd hold off on large automation until you unlock the void world...",
+		"Sorting systems are going to be easier to set up, and it'll be less laggy!"
+	],
+	dependencies: [
+		"a13a0880"
+	],
+	hide: true,
+	tasks: [{
+		uid: "573b896b",
+		type: "checkmark",
+		title: "Void Base FTW!"
+	}]
+}

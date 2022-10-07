@@ -1,0 +1,17 @@
+{
+	title: "Fire!",
+	x: 24.5d,
+	y: -13.5d,
+	description: "Found in the center of the fire swamp biome.",
+	dependencies: [
+		"62242ef6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "11848325",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 2"
+		}]
+	}]
+}

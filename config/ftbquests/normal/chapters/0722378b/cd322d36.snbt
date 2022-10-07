@@ -1,0 +1,20 @@
+{
+	x: 7.0d,
+	y: -5.0d,
+	text: [
+		"Laser go *zzzz",
+		"Crystal go *whooosh",
+		"Right click with aredstone torch to swap between deactivation and pulse mode.",
+		"Place next to a pressure plate in pulse mode to zap whatever is placed on the plate for simple automation."
+	],
+	dependencies: [
+		"e7285edc"
+	],
+	tasks: [{
+		uid: "c10688ba",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}]
+}

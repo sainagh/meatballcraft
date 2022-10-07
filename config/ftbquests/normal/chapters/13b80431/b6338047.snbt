@@ -1,0 +1,19 @@
+{
+	title: "The Emptiness",
+	icon: "thaumicaugmentation:stone 1 2",
+	x: -1.0d,
+	y: 12.5d,
+	description: "Use a voidseer caster gauntlet upgraded with an impetus conductor and charged with rifts on a fracture (find using a fracture locator)",
+	text: [
+		"Not sure on what the origin for such an occurrence could be, but in the past a great amount of thaumic energy has been unleashed, opening permanent rifts connecting Terra with a strange realm dominated by taint.",
+		"Likely, this realm had been created (or taken over) by a might thaumaturgist trying to dominate taint. Needless to say, they failed, and now this land is purely dominated by corruption."
+	],
+	dependencies: [
+		"446239db"
+	],
+	tasks: [{
+		uid: "c5707234",
+		type: "dimension",
+		dim: 14676
+	}]
+}

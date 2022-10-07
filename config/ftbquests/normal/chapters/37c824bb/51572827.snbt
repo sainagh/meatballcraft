@@ -1,0 +1,16 @@
+{
+	title: "String Theory Confirmed?!?",
+	x: 54.5d,
+	y: 1.5d,
+	dependencies: [
+		"2b6345ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1920a227",
+		type: "item",
+		items: [{
+			item: "contenttweaker:magnetic_monopole"
+		}]
+	}]
+}

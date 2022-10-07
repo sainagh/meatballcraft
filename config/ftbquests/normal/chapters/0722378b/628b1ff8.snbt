@@ -1,0 +1,18 @@
+{
+	x: 10.0d,
+	y: 2.0d,
+	text: [
+		"Infuses souls from soul vials into items!"
+	],
+	dependencies: [
+		"f40dd3ae"
+	],
+	tasks: [{
+		uid: "a277c17a",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}],
+		consume_items: false
+	}]
+}

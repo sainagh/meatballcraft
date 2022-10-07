@@ -1,0 +1,22 @@
+{
+	x: 33.5d,
+	y: -3.0d,
+	dependencies: [
+		"920dcfaa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2d7faf92",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_block"
+		}]
+	},
+	{
+		uid: "30558e36",
+		type: "item",
+		items: [{
+			item: "contenttweaker:meatballium_322"
+		}]
+	}]
+}

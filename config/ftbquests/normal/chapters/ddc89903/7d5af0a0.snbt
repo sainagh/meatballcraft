@@ -1,0 +1,14 @@
+{
+	x: -19.0d,
+	y: 5.5d,
+	dependencies: [
+		"fc5d626a"
+	],
+	tasks: [{
+		uid: "8ca4469d",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:part_redstone_reader_item"
+		}]
+	}]
+}

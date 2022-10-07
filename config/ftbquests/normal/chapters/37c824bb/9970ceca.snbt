@@ -1,0 +1,23 @@
+{
+	title: "Secret Coordinates",
+	x: 38.0d,
+	y: 1.5d,
+	description: "In these planets, ores don't just spawn underground!",
+	text: [
+		"This is quite interesting, the thaumic energy held in dragon remains hold some sort of code, coordinates...",
+		"...to a location just outside this solar system, there's no doubt about it!",
+		"It is clear that these coordinates are placed intentionally.",
+		"By travelling there I'll kill two birds with one stone! I can continue my research on gravity, and I can investigate what's going on at those coordinates."
+	],
+	dependencies: [
+		"0bdb8ab8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "046e0bef",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sedna_artifact"
+		}]
+	}]
+}

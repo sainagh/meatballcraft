@@ -1,0 +1,16 @@
+{
+	title: "Eldrich Creation",
+	x: 48.5d,
+	y: -1.5d,
+	dependencies: [
+		"25bd70ab"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9f2d50c8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tartarite_ore"
+		}]
+	}]
+}

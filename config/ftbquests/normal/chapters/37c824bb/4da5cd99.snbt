@@ -1,0 +1,28 @@
+{
+	title: "A powerful fluid",
+	x: 57.5d,
+	y: 1.5d,
+	text: [
+		"I do not know if this is going to be of any relevance, but myrmitite emits a strong aura of witchcraft"
+	],
+	dependencies: [
+		"ef7ba920"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e817303d",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "cursed_myrmitite",
+				Amount: 1000
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

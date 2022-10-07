@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 11.0d,
+	text: [
+		"Can be Found Below Y=15",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "09ceeba5",
+		type: "item",
+		items: [{
+			item: "divinerpg:arlemite_ingot"
+		}]
+	}]
+}

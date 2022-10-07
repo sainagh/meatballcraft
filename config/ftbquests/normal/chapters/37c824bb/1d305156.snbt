@@ -1,0 +1,20 @@
+{
+	title: "Interesting results",
+	x: 50.0d,
+	y: 3.0d,
+	text: [
+		"Got my hands on some vibrating stone, and this stuff is awesome!",
+		"It's ability to interact with the aura field makes making Adaminite soo much easier!"
+	],
+	dependencies: [
+		"94262032"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c58df932",
+		type: "item",
+		items: [{
+			item: "contenttweaker:vibrating_stone"
+		}]
+	}]
+}

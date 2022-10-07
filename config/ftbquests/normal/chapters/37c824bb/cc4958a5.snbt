@@ -1,0 +1,24 @@
+{
+	x: 87.5d,
+	y: -1.5d,
+	dependencies: [
+		"11887463"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d8824e8e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:immortallis_cap"
+		}]
+	},
+	{
+		uid: "ced1387a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:immortallis_callstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

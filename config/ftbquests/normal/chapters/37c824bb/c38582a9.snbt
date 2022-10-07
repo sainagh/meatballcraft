@@ -1,0 +1,24 @@
+{
+	x: 75.5d,
+	y: 4.5d,
+	dependencies: [
+		"52356aae"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5deaf0a1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:borean_cap"
+		}]
+	},
+	{
+		uid: "601eaf2e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:borean_callstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

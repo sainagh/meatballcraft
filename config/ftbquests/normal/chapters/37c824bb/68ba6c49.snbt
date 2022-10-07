@@ -1,0 +1,16 @@
+{
+	x: 24.5d,
+	y: -22.5d,
+	description: "Found in the palace at the center of the thornlands.",
+	dependencies: [
+		"16fa68b4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f74a56fe",
+		type: "item",
+		items: [{
+			item: "contenttweaker:harbinger_crystal"
+		}]
+	}]
+}

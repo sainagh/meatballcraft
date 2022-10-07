@@ -1,0 +1,29 @@
+{
+	title: "Experiment #1",
+	x: 30.5d,
+	y: 1.5d,
+	text: [
+		"Have I finally found allies? Well, sort of...",
+		"During an earlier recursion of Corallus, it seems, some Testificates were able to get their hands on wormhole tech, and ran experiments very similar to mine.",
+		"These testificates, though, appear to have seen too much...",
+		"The world of Taerrapiatta is full of people that have witnessed the might of the shyre empire, and just seeing what thay can do has scarred them for life...",
+		"Well, I'm already scarred for life, sooo...",
+		"And, as an extra plus, those PTSD testificates, wanting to help the effort against the great powers of the universe, have started breeding bees that, they say, will be helpful later..."
+	],
+	dependencies: [
+		"6eb0d0ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "49a0f5b3",
+		type: "item",
+		items: [{
+			id: "contenttweaker:taerrapiatta_warper",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Into the Twilit Skies!",
+	x: 44.0d,
+	y: 0.0d,
+	text: [
+		"I've learnt something new about astral magic! It's power is originated by the influence of imaginary gravity spreading through space time!",
+		"Those that harness this power, including me, use this influence to effect the world around them.",
+		"Those in the twilight horde, though, can use this power directly for much more powerful uses, including the opening of wormholes!",
+		"By reverse-engineering this theory, I can now use it to reopen portals to their world!"
+	],
+	dependencies: [
+		"11ba9e4c",
+		"27829ce9",
+		"a0a15d86"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0aa56804",
+		type: "item",
+		items: [{
+			item: "divinerpg:divine_rock"
+		}]
+	}]
+}

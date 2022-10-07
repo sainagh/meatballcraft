@@ -1,0 +1,44 @@
+{
+	title: "Life REALLY finds a way!",
+	x: 29.0d,
+	y: 4.5d,
+	text: [
+		"Nesting pens are cool and all, but they are kinda slow...",
+		"Erebus materials make for very good (lag friendly) coops!"
+	],
+	dependencies: [
+		"51d358d6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "86a6682a",
+		type: "item",
+		items: [{
+			item: "erebus:planks_petrified_wood"
+		}]
+	},
+	{
+		uid: "9c955ce0",
+		type: "item",
+		items: [{
+			item: "erebus:amber_bricks"
+		}]
+	},
+	{
+		uid: "fd23a781",
+		type: "item",
+		items: [{
+			item: "erebus:fence_eucalyptus"
+		}]
+	},
+	{
+		uid: "b72a27bf",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:mechanized_coop"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	dependencies: [
+		"d954adc2"
+	],
+	tasks: [{
+		uid: "2f277593",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_canola_seed"
+		}]
+	},
+	{
+		uid: "c9641380",
+		type: "fluid",
+		fluid: "empoweredoil"
+	}]
+}

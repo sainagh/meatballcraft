@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 11.0d,
+	text: [
+		"Found between Y=0 and Y=17",
+		"Will Be Dropped By 'The Eye'",
+		"",
+		"- Second Part Written by Bluecat"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "4ea31eaf",
+		type: "item",
+		items: [{
+			item: "divinerpg:rupee_ingot"
+		}]
+	}]
+}

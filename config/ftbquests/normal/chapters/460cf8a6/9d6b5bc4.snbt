@@ -1,0 +1,17 @@
+{
+	x: 24.5d,
+	y: 0.0d,
+	text: [
+		"As The Title Says!",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"47707370"
+	],
+	tasks: [{
+		uid: "b98f7e4a",
+		type: "checkmark",
+		title: "Fourth Mythic Shell"
+	}]
+}

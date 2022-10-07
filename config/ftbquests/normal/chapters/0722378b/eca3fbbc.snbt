@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: 8.0d,
+	text: [
+		"Just like wine makers in the middle ages.",
+		"Jump on it, and the juice will come out!"
+	],
+	dependencies: [
+		"0e9669cf"
+	],
+	tasks: [{
+		uid: "6b976de6",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:squeezer"
+		}]
+	}]
+}

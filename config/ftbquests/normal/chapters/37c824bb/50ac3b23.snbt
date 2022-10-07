@@ -1,0 +1,18 @@
+{
+	title: "Relic of a past warrior",
+	x: 56.0d,
+	y: 4.5d,
+	description: "Is that a One Piece reference?!?",
+	dependencies: [
+		"2dc6b39f"
+	],
+	tasks: [{
+		uid: "b881a9f7",
+		type: "item",
+		items: [{
+			item: "extrautils2:lawsword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

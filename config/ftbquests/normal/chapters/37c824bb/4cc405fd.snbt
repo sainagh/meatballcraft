@@ -1,0 +1,16 @@
+{
+	title: "Extreme Fabrication",
+	x: 81.5d,
+	y: 0.0d,
+	dependencies: [
+		"ef2aa05c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "26b42316",
+		type: "item",
+		items: [{
+			item: "avaritia:extreme_crafting_table"
+		}]
+	}]
+}

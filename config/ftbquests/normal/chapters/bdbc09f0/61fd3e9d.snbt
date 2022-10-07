@@ -1,0 +1,17 @@
+{
+	x: -9.0d,
+	y: -1.0d,
+	text: [
+		"Most Bettah!"
+	],
+	dependencies: [
+		"f352e4a2"
+	],
+	tasks: [{
+		uid: "a17db124",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel 1 3"
+		}]
+	}]
+}

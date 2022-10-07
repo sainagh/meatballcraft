@@ -1,0 +1,16 @@
+{
+	x: 36.5d,
+	y: -10.5d,
+	description: "Automate essences ASAP!",
+	dependencies: [
+		"5fe7c4e5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a68f1333",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fiery_pyrite"
+		}]
+	}]
+}

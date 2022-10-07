@@ -1,0 +1,16 @@
+{
+	x: 71.0d,
+	y: -1.5d,
+	description: "Start Making this ASAP",
+	dependencies: [
+		"40d98bd3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b17ad62b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sacrifice_metal_clump"
+		}]
+	}]
+}

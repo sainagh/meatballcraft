@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: -5.5d,
+	text: [
+		"Rudimentary snares are used to inflict mobs with a debuff that allows them to drop fragments of their will."
+	],
+	dependencies: [
+		"86e97a13"
+	],
+	tasks: [{
+		uid: "a4c201c8",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	}]
+}

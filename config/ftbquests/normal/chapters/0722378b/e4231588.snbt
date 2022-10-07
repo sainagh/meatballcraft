@@ -1,0 +1,46 @@
+{
+	x: -1.0d,
+	y: 8.0d,
+	text: [
+		"This bad boy can turn extended crafting tables into one-recipe crafters.",
+		"Useful for passive automation, just in case..."
+	],
+	dependencies: [
+		"4788eb53"
+	],
+	tasks: [{
+		uid: "c7e21aa8",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:interface"
+		}]
+	},
+	{
+		uid: "4a5056b7",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_basic"
+		}]
+	},
+	{
+		uid: "a913b995",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}]
+	},
+	{
+		uid: "a6dbc5b7",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_elite"
+		}]
+	},
+	{
+		uid: "12e3015c",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_ultimate"
+		}]
+	}]
+}

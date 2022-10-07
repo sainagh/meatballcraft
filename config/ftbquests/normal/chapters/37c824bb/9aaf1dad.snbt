@@ -1,0 +1,27 @@
+{
+	title: "Digital Space",
+	x: 24.5d,
+	y: -3.0d,
+	description: "This is a peaceful world, no mob spawns here!",
+	text: [
+		"It seems like the power of fluix is greater than I expected.",
+		"Not only I can digitalize matter, but space as well!"
+	],
+	dependencies: [
+		"829fbc56"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5f08be98",
+		type: "item",
+		items: [{
+			item: "simplevoidworld:portal"
+		}]
+	}],
+	rewards: [{
+		uid: "3a90db30",
+		type: "item",
+		item: "minecraft:bedrock",
+		count: 128
+	}]
+}

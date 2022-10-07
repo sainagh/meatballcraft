@@ -1,0 +1,17 @@
+{
+	x: 17.0d,
+	y: 12.0d,
+	text: [
+		"Found inside special trees"
+	],
+	dependencies: [
+		"0c2f0105"
+	],
+	tasks: [{
+		uid: "3ecc3664",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 118"
+		}]
+	}]
+}

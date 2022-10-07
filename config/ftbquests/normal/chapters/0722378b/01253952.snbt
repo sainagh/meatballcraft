@@ -1,0 +1,18 @@
+{
+	title: "Chaotic Condenser",
+	x: 0.0d,
+	y: -8.5d,
+	dependencies: [
+		"69404a6d"
+	],
+	tasks: [{
+		uid: "fb249f32",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:chaotic_condenser"
+			}
+		}]
+	}]
+}

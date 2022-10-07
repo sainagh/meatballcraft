@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: -7.0d,
+	dependencies: [
+		"d8cb2804"
+	],
+	tasks: [{
+		uid: "53cb12b2",
+		type: "item",
+		items: [{
+			item: "techreborn:medium_voltage_su"
+		}]
+	}]
+}

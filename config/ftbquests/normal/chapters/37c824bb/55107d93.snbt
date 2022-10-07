@@ -1,0 +1,34 @@
+{
+	title: "Cold Fusion Baby!",
+	x: 51.5d,
+	y: 0.0d,
+	text: [
+		"Took me long enough, but it's finally time to build a Tokamak!",
+		"Fusion is just a convenient way of making power, and the free gasses are nice too!"
+	],
+	dependencies: [
+		"25bd70ab"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dde4a145",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_core"
+		}]
+	},
+	{
+		uid: "05537ec5",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_connector"
+		}]
+	},
+	{
+		uid: "6ee1134f",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_electromagnet_idle"
+		}]
+	}]
+}

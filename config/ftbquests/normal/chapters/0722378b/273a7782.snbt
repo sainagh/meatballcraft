@@ -1,0 +1,17 @@
+{
+	x: -12.5d,
+	y: 3.5d,
+	dependencies: [
+		"89b5e044"
+	],
+	tasks: [{
+		uid: "d4a18fcd",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:baphomet_altar"
+			}
+		}]
+	}]
+}

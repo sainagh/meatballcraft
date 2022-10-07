@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -6.0d,
+	text: [
+		"The Black Hole Unit is a very efficient storage method that only accounts for one item. Is it better than a drawer tho?!"
+	],
+	dependencies: [
+		"3e43ff11"
+	],
+	tasks: [{
+		uid: "24f848b3",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:black_hole_unit",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

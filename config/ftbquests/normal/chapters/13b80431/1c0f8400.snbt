@@ -1,0 +1,21 @@
+{
+	title: "Proxima Belt",
+	icon: "contenttweaker:unidentified_body",
+	x: 25.0d,
+	y: -1.0d,
+	description: "Travel using a warp core with the right artifact on a space station",
+	text: [
+		""
+	],
+	dependencies: [
+		"fb5e5977",
+		"6ce4ba7f",
+		"8f6c3721",
+		"89945499"
+	],
+	tasks: [{
+		uid: "cef68391",
+		type: "dimension",
+		dim: 166
+	}]
+}

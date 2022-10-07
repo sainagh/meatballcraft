@@ -1,0 +1,18 @@
+{
+	x: -1.0d,
+	y: 15.0d,
+	text: [
+		"Ender autocrafting, it's that simple!",
+		"Works like the ender crafter, the more alternators, the better!"
+	],
+	dependencies: [
+		"4788eb53"
+	],
+	tasks: [{
+		uid: "1e287694",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:ender_crafter"
+		}]
+	}]
+}

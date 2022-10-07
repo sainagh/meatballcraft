@@ -1,0 +1,17 @@
+{
+	x: -7.5d,
+	y: 2.5d,
+	dependencies: [
+		"baf0c309"
+	],
+	tasks: [{
+		uid: "46415bed",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:essentia_crystallizer"
+			}
+		}]
+	}]
+}

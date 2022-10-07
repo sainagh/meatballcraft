@@ -1,0 +1,81 @@
+{
+	title: "Tools of the Master Worshipper",
+	x: 17.0d,
+	y: -7.5d,
+	dependencies: [
+		"fb4a13e3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "42302118",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:soulreaper",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3ff76d87",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:shockwave_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "be576f6b",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:ancient_helmet",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6f23cc05",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:ancient_chestplate",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7d75adff",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:ancient_leggings",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b9c9af6d",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:ancient_boots",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

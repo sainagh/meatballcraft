@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: 1.5d,
+	description: "There are many skills and abilities that can be levelled up!",
+	text: [
+		""
+	],
+	dependencies: [
+		"fb8062a2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "beeaae5e",
+		type: "checkmark",
+		title: "Skillful"
+	}]
+}

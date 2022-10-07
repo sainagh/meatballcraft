@@ -1,0 +1,17 @@
+{
+	title: "Alchemical Brothers",
+	x: 0.0d,
+	y: -3.5d,
+	text: [
+		"Alchemy is a great science, and it allows for the replication and conversion of objects that possess EMC.",
+		"This is the easiest way of making matter, but unfortnately, not everything has EMC..."
+	],
+	dependencies: [
+		"c5c58d79"
+	],
+	tasks: [{
+		uid: "68cc5de4",
+		type: "checkmark",
+		title: "Alchemical Exchange"
+	}]
+}

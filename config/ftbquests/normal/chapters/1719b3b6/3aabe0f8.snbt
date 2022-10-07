@@ -1,0 +1,13 @@
+{
+	title: "Chapter 8",
+	x: 7.0d,
+	y: 0.0d,
+	dependencies: [
+		"26216ac9"
+	],
+	tasks: [{
+		uid: "f05bc889",
+		type: "checkmark",
+		title: "Chapter 9"
+	}]
+}

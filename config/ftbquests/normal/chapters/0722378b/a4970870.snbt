@@ -1,0 +1,26 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	text: [
+		"To make all of the chipsets.",
+		"And a dope laser show!",
+		"Recipes are encoded by the assembly table, powered by surrounding lasers, the more the better!"
+	],
+	dependencies: [
+		"a728ea4e"
+	],
+	tasks: [{
+		uid: "9644dbc5",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:assembly_table"
+		}]
+	},
+	{
+		uid: "83a7a793",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:laser"
+		}]
+	}]
+}

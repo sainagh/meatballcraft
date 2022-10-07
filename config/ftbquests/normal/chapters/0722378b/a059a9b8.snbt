@@ -1,0 +1,17 @@
+{
+	x: 13.0d,
+	y: 1.0d,
+	text: [
+		"Seed oil, honey, and a few other things..."
+	],
+	dependencies: [
+		"36f5a834"
+	],
+	tasks: [{
+		uid: "2800b97e",
+		type: "item",
+		items: [{
+			item: "forestry:squeezer"
+		}]
+	}]
+}

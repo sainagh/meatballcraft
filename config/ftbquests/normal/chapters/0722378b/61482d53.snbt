@@ -1,0 +1,17 @@
+{
+	x: -10.5d,
+	y: 2.5d,
+	dependencies: [
+		"baf0c309"
+	],
+	tasks: [{
+		uid: "7c7ecb87",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:carminite_empowerer"
+			}
+		}]
+	}]
+}

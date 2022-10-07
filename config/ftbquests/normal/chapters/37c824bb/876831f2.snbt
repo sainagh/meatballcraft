@@ -1,0 +1,15 @@
+{
+	x: 63.5d,
+	y: 3.0d,
+	dependencies: [
+		"b8de447b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e9f2cbe3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:celeve_garnet"
+		}]
+	}]
+}

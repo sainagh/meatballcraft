@@ -1,0 +1,17 @@
+{
+	title: "Into the Maze!",
+	x: 24.5d,
+	y: -12.0d,
+	description: "Found on the bottom level of the mazes in swamp biomes. The maze map may help you at finding it.",
+	dependencies: [
+		"62242ef6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e3d49aa",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 6"
+		}]
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	x: 7.0d,
+	y: -2.0d,
+	text: [
+		"The dynamo can be upgraded to include cooling, thus highly increasing energy output, depending on coolant.",
+		"In order to accept cooling, upgraded compression dynamos have to be adjacent to the thermal mediator."
+	],
+	dependencies: [
+		"7ab44b83"
+	],
+	tasks: [{
+		uid: "fb3fa1c0",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 656"
+		}]
+	},
+	{
+		uid: "90ac21db",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			Damage: 2s,
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				]
+			}
+		}]
+	}]
+}

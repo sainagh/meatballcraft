@@ -1,0 +1,21 @@
+{
+	title: "A source?",
+	x: 36.5d,
+	y: 0.0d,
+	text: [
+		"This is interesting, I was able to generate matter that holds mythic powers.",
+		"Stuff like this is likely what powers the shyre empire's massive military power.",
+		"Well, if they can use it, so can I!"
+	],
+	dependencies: [
+		"2b7a5fd7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c8d8f435",
+		type: "item",
+		items: [{
+			item: "contenttweaker:divine_star"
+		}]
+	}]
+}

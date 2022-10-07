@@ -1,0 +1,480 @@
+[
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:divine_star",
+        "catalyst": "minecraft:nether_star",
+        "energy": 100000,
+        "tier": 1,
+        "ingredients": [
+            "divinerpg:divine_rock",
+            "divinerpg:divine_rock",
+            "divinerpg:divine_rock",
+            "divinerpg:divine_rock",
+            "divinerpg:divine_rock",
+            "divinerpg:divine_rock"
+        ]
+    },
+	{
+        "mode": "ADD",
+        "result": "contenttweaker:eden_star",
+        "catalyst": "minecraft:nether_star",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:rhenium_catalyst",
+            "contenttweaker:rhenium_catalyst",
+            "contenttweaker:rhenium_catalyst",
+            "contenttweaker:rhenium_catalyst",
+            "contenttweaker:rhenium_catalyst",
+            "contenttweaker:rhenium_catalyst",
+			"contenttweaker:rhenium_catalyst",
+			"contenttweaker:rhenium_catalyst"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_injector,1,2",
+        "catalyst": "draconicevolution:crafting_injector,1,1"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:crafting_injector,1,2",
+        "catalyst": "draconicevolution:crafting_injector,1,1",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconic_block",
+            "contenttweaker:jeweled_runium",
+            "contenttweaker:jeweled_runium",
+            "contenttweaker:jeweled_runium",
+			"contenttweaker:jeweled_runium"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:myrmex_artifact",
+        "catalyst": "minecraft:nether_star",
+        "energy": 500000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:rhenium_catalyst",
+            "contenttweaker:rhenium_catalyst",
+            "iceandfire:dread_shard",
+            "iceandfire:dread_shard"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:candyland_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 1000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:myrmitite_catalyst",
+            "contenttweaker:myrmitite_catalyst",
+            "nuclearcraft:americium,1,4",
+            "nuclearcraft:americium,1,4",
+            "thebetweenlands:weeping_blue_petal",
+            "thebetweenlands:weeping_blue_petal",
+            "twilightforest:twilight_sapling,1,9",
+            "twilightforest:twilight_sapling,1,9",
+            "contenttweaker:candyland_artifact"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:celeve_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 1000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:myrmitite_catalyst",
+            "contenttweaker:myrmitite_catalyst",
+            "nuclearcraft:americium,1,4",
+            "nuclearcraft:americium,1,4",
+            "thebetweenlands:weeping_blue_petal",
+            "thebetweenlands:weeping_blue_petal",
+            "erebus:sapling_marshwood",
+            "erebus:sapling_marshwood",
+            "contenttweaker:celeve_artifact"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:gardencia_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 1000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:myrmitite_catalyst",
+            "contenttweaker:myrmitite_catalyst",
+            "nuclearcraft:americium,1,4",
+            "nuclearcraft:americium,1,4",
+            "twilightforest:twilight_sapling,1,9",
+            "twilightforest:twilight_sapling,1,9",
+            "erebus:sapling_marshwood",
+            "erebus:sapling_marshwood",
+            "contenttweaker:gardencia_artifact"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:crystevia_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 1000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:myrmitite_catalyst",
+            "contenttweaker:myrmitite_catalyst",
+            "nuclearcraft:americium,1,4",
+            "nuclearcraft:americium,1,4",
+            "twilightforest:twilight_sapling,1,9",
+            "twilightforest:twilight_sapling,1,9",
+            "divinerpg:frozen_sapling",
+            "divinerpg:frozen_sapling",
+            "contenttweaker:crystevia_artifact"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:haven_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 1000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:myrmitite_catalyst",
+            "contenttweaker:myrmitite_catalyst",
+            "nuclearcraft:americium,1,4",
+            "nuclearcraft:americium,1,4",
+            "aether_legacy:golden_oak_sapling",
+            "aether_legacy:golden_oak_sapling",
+            "erebus:sapling_marshwood",
+            "erebus:sapling_marshwood",
+            "contenttweaker:haven_artifact"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:iromine_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 1000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:myrmitite_catalyst",
+            "contenttweaker:myrmitite_catalyst",
+            "nuclearcraft:americium,1,4",
+            "nuclearcraft:americium,1,4",
+            "aether_legacy:golden_oak_sapling",
+            "aether_legacy:golden_oak_sapling",
+            "thebetweenlands:sapling_hearthgrove",
+            "thebetweenlands:sapling_hearthgrove",
+            "contenttweaker:iromine_artifact"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:mysterium_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 1000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:myrmitite_catalyst",
+            "contenttweaker:myrmitite_catalyst",
+            "nuclearcraft:americium,1,4",
+            "nuclearcraft:americium,1,4",
+            "erebus:sapling_mossbark",
+            "erebus:sapling_mossbark",
+            "thebetweenlands:sapling_hearthgrove",
+            "thebetweenlands:sapling_hearthgrove",
+            "contenttweaker:mysterium_artifact"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:vox_ponds_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 1000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:myrmitite_catalyst",
+            "contenttweaker:myrmitite_catalyst",
+            "nuclearcraft:americium,1,4",
+            "nuclearcraft:americium,1,4",
+            "twilightforest:twilight_sapling,1,3",
+            "twilightforest:twilight_sapling,1,3",
+            "thebetweenlands:sapling_hearthgrove",
+            "thebetweenlands:sapling_hearthgrove",
+            "contenttweaker:voxponds_artifact"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:wildwood_star",
+        "catalyst": "minecraft:nether_star",
+        "energy": 5000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:pixonia_heart",
+            "contenttweaker:pixonia_heart",
+            "contenttweaker:pixonia_heart",
+            "contenttweaker:pixonia_heart"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:borean_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 18000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:mythic_machine_case",
+            "contenttweaker:mythic_machine_case",
+            "contenttweaker:universal_booster",
+            "contenttweaker:universal_booster",
+            "contenttweaker:universal_booster",
+            "contenttweaker:universal_booster",
+            "contenttweaker:borean_artifact",
+            "extrabotany:blockshadowium",
+            "extrabotany:blockphotonium"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:runandor_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 18000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:mythic_machine_case",
+            "contenttweaker:mythic_machine_case",
+            "contenttweaker:universal_booster",
+            "contenttweaker:universal_booster",
+            "contenttweaker:universal_booster",
+            "contenttweaker:universal_booster",
+            "contenttweaker:runandor_artifact",
+            "extrabotany:blockshadowium",
+            "extrabotany:blockphotonium"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:lunalus_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 18000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:mythic_machine_case",
+            "contenttweaker:mythic_machine_case",
+            "contenttweaker:universal_booster",
+            "contenttweaker:universal_booster",
+            "contenttweaker:universal_booster",
+            "contenttweaker:universal_booster",
+            "contenttweaker:lunalus_artifact",
+            "extrabotany:blockshadowium",
+            "extrabotany:blockphotonium"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:mythic_excavation_computer",
+        "catalyst": "contenttweaker:dark_soul_machine_chassis",
+        "energy": 90000000,
+        "tier": 3,
+        "ingredients": [
+            "bigreactors:mineralanglesite",
+            "bigreactors:mineralbenitoite",
+            "contenttweaker:mythic_excavation_engine",
+            "contenttweaker:mythic_excavation_engine",
+            "contenttweaker:refraction_focus_key",
+            "contenttweaker:refraction_focus_key",
+            "contenttweaker:instant_power_junction",
+            "contenttweaker:instant_power_junction",
+            "contenttweaker:apalachia_core",
+            "contenttweaker:apalachia_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:mythic_excavation_computer,3,0",
+        "catalyst": "contenttweaker:dark_soul_machine_chassis",
+        "energy": 90000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:cursed_sapphire",
+            "contenttweaker:cursed_sapphire",
+            "contenttweaker:mythic_excavation_engine",
+            "contenttweaker:mythic_excavation_engine",
+            "contenttweaker:refraction_focus_key",
+            "contenttweaker:refraction_focus_key",
+            "contenttweaker:instant_power_junction",
+            "contenttweaker:instant_power_junction",
+            "contenttweaker:apalachia_core",
+            "contenttweaker:apalachia_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "avaritia:resource,1,0",
+        "catalyst": "contenttweaker:unidentified_ingot",
+        "energy": 5000000,
+        "tier": 2,
+        "ingredients": [
+            "thaumicenergistics:essentia_component_64k",
+            "ore:ingotBrightsteel",
+            "minecraft:diamond",
+            "minecraft:diamond"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:ancient_cavern_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "avaritia:resource,1,1",
+            "avaritia:resource,1,1",
+            "avaritia:resource,1,1",
+            "avaritia:resource,1,1",
+            "contenttweaker:ancient_cavern_artifact",
+            "contenttweaker:unidentified_ingot",
+            "contenttweaker:unidentified_ingot",
+            "contenttweaker:unidentified_ingot"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:dustopia_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "avaritia:resource,1,1",
+            "avaritia:resource,1,1",
+            "avaritia:resource,1,1",
+            "avaritia:resource,1,1",
+            "contenttweaker:dustopia_artifact",
+            "contenttweaker:unidentified_ingot",
+            "contenttweaker:unidentified_ingot",
+            "contenttweaker:unidentified_ingot"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:greckon_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "avaritia:resource,1,1",
+            "avaritia:resource,1,1",
+            "avaritia:resource,1,1",
+            "avaritia:resource,1,1",
+            "contenttweaker:greckon_artifact",
+            "contenttweaker:unidentified_ingot",
+            "contenttweaker:unidentified_ingot",
+            "contenttweaker:unidentified_ingot"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "aoa3:immortallis_realmstone",
+        "catalyst": "contenttweaker:realmstone",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "avaritia:resource,1,1",
+            "avaritia:resource,1,1",
+            "avaritia:resource,1,1",
+            "avaritia:resource,1,1",
+            "contenttweaker:immortallis_artifact",
+            "contenttweaker:unidentified_ingot",
+            "contenttweaker:unidentified_ingot",
+            "contenttweaker:unidentified_ingot"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:neutronium_bombarder",
+        "catalyst": "contenttweaker:mythic_machine_case",
+        "energy": 100000000,
+        "tier": 1,
+        "ingredients": [
+            "avaritia:resource,1,4",
+            "avaritia:resource,1,4",
+            "avaritia:resource,1,4",
+            "avaritia:resource,1,4",
+            "contenttweaker:unidentified_plate",
+            "contenttweaker:unidentified_plate",
+            "draconicevolution:draconic_block",
+            "thaumadditions:adaminite_block"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:fusion_crafting_core",
+        "catalyst": "draconicevolution:draconic_core",
+        "energy": 10000,
+        "tier": 0,
+        "ingredients": [
+            "minecraft:lapis_block",
+            "minecraft:lapis_block",
+            "minecraft:lapis_block",
+            "minecraft:lapis_block",
+            "minecraft:diamond",
+            "minecraft:diamond",
+            "minecraft:diamond",
+            "minecraft:diamond"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "iceandfire:dragonsteel_fire_ingot",
+        "catalyst": "draconicevolution:draconium_ingot",
+        "energy": 100000,
+        "tier": 4,
+        "ingredients": [
+            "minecraft:magma",
+            "minecraft:magma",
+            "minecraft:magma",
+            "minecraft:magma",
+            "minecraft:magma",
+            "minecraft:magma"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "iceandfire:dragonsteel_fire_ingot",
+        "catalyst": "draconicevolution:draconium_ingot",
+        "energy": 100000,
+        "tier": 4,
+        "ingredients": [
+            "minecraft:packed_ice",
+            "minecraft:packed_ice",
+            "minecraft:packed_ice",
+            "minecraft:packed_ice",
+            "minecraft:packed_ice",
+            "minecraft:packed_ice"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:awakened_core,4,0",
+        "catalyst": "minecraft:nether_star",
+        "energy": 9000000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "contenttweaker:recursive_feather"
+        ]
+    }
+]

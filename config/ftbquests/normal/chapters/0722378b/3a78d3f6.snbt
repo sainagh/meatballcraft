@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: 9.0d,
+	text: [
+		"The alternators provide power to the crafter.",
+		"The more alternators in a 7x7 area around the machine, the better!"
+	],
+	dependencies: [
+		"4788eb53"
+	],
+	tasks: [{
+		uid: "2df219c1",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_crafter"
+		}]
+	},
+	{
+		uid: "76dffff0",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_alternator"
+		}]
+	}]
+}

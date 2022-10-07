@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	text: [
+		"The magmatic dynamo produces RF using lava.",
+		"A pump in the nether can be a good way to get lots of lava, but there are also ways of creating endless amounts of it (better longterm)."
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "35acbed2",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 1s,
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

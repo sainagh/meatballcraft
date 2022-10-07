@@ -1,0 +1,20 @@
+{
+	title: "Cooking!",
+	x: 0.5d,
+	y: 0.0d,
+	description: "Quests are here to tell you what CAN be done, but the order is up to you!",
+	text: [
+		"It seems like the soil here is abundant in coal, good to know, because now I can cook, and even smelt metal ore!"
+	],
+	dependencies: [
+		"aaa3246a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "50286f60",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "The druids are here!",
+	x: 15.5d,
+	y: -6.0d,
+	text: [
+		"This is freaky... I don't like it at all...",
+		"As I started reading the pages of the necronomicon, I became aware of something...",
+		"My destiny may be predetermined, and someone is responsible for it.",
+		"(No not Sainagh the pack author)",
+		"There is an order of druids that worships those that have written the book of the dead, and they, for some reason, have chosen me for a task I cannot avoid...",
+		"Now that I have read the pages I know this, and I know where they come from. Thos bastards will pay!"
+	],
+	dependencies: [
+		"fb4a13e3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3e1bb059",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:druid_altar"
+		}]
+	},
+	{
+		uid: "c9b07d4f",
+		type: "item",
+		items: [{
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "thebetweenlands:dark_druid"
+				}
+			}
+		}]
+	}]
+}

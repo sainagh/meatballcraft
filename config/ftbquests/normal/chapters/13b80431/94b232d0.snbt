@@ -1,0 +1,21 @@
+{
+	title: "The Shyrelands",
+	icon: "aoa3:shyrelands_grass",
+	x: 33.0d,
+	y: -2.5d,
+	description: "5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+	text: [
+		""
+	],
+	dependencies: [
+		"72c32dd9",
+		"94cbaa70",
+		"7b1d5320",
+		"6cadb2f0"
+	],
+	tasks: [{
+		uid: "ea67cc0d",
+		type: "dimension",
+		dim: 820
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: 4.0d,
+	text: [
+		"From a Void Ore Miner Teir 2+",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"858e8da8"
+	],
+	tasks: [{
+		uid: "f16da9e4",
+		type: "item",
+		items: [{
+			item: "environmentaltech:kyronite_crystal"
+		}]
+	}]
+}

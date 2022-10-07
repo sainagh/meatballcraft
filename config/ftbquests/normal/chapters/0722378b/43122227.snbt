@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 27.0d,
+	dependencies: [
+		"fe046b03"
+	],
+	tasks: [{
+		uid: "48840f24",
+		type: "item",
+		items: [{
+			item: "techreborn:fusion_control_computer"
+		}]
+	},
+	{
+		uid: "ceacfa59",
+		type: "item",
+		items: [{
+			item: "techreborn:fusion_coil"
+		}]
+	}]
+}

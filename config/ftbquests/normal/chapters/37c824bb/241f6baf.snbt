@@ -1,0 +1,19 @@
+{
+	title: "Compact Condensation",
+	x: 27.5d,
+	y: 6.0d,
+	text: [
+		"More slots! Less blocks!"
+	],
+	dependencies: [
+		"7e9b9548"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d26b7ab6",
+		type: "item",
+		items: [{
+			item: "projectex:compressed_refined_link"
+		}]
+	}]
+}

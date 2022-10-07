@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 12.0d,
+	dependencies: [
+		"fe046b03"
+	],
+	tasks: [{
+		uid: "3ed71d2b",
+		type: "item",
+		items: [{
+			item: "techreborn:industrial_electrolyzer"
+		}]
+	}]
+}

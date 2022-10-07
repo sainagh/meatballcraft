@@ -1,0 +1,21 @@
+{
+	x: 78.5d,
+	y: 3.0d,
+	description: "Start making a few...",
+	dependencies: [
+		"bf7f3ae9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ca05be8",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:abyssalnomicon",
+			tag: {
+				PotEnergy: 100000.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

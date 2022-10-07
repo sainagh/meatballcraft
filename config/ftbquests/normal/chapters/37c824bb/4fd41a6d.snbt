@@ -1,0 +1,19 @@
+{
+	title: "Power from Entropy",
+	x: 77.0d,
+	y: -3.0d,
+	text: [
+		"Woah! The using chaos makes good power, but I don't know if I want to mess with the second law of thermodynamics for this one..."
+	],
+	dependencies: [
+		"9e26752a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ff18675b",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_core"
+		}]
+	}]
+}

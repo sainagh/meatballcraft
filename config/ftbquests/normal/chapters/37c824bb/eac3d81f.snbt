@@ -1,0 +1,34 @@
+{
+	x: 17.0d,
+	y: -13.5d,
+	description: "Perform the ritual of shadows in the abyssal wastelands.",
+	text: [
+		"While I'm at it, it's time to investigate the phenomenon of 'recursion', which apparently is the ability to 'perennially exist'.",
+		"This is what allows me to come back every time after I 'die'.",
+		"Many of the creatures I am encountering have this power, but, unlike me, they have control over it, while I am still bound to the will of whoever deciced to give me recursion.",
+		"If I were able to learn this power, I may be able to gain the ability to split my being into multiple places as one, just like the ancient Entity...",
+		"Now at least I undertand why theres so many withers; apparently there are only 6 but they are able to exist 'everywhere they are summoned' thanks to the power of recursion.",
+		"The cause for why they are able to do so, is the Draconium that was used to originate the six original withers, or so testificate lore says.",
+		"Draconium may be the key to mastering recursion, and free myself!"
+	],
+	dependencies: [
+		"fb4a13e3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5d07e16a",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:scroll",
+			Damage: 3s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "34e1db6d",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:odb"
+		}]
+	}]
+}

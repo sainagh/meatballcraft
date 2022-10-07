@@ -1,0 +1,18 @@
+{
+	title: "Eden Islands",
+	icon: "divinerpg:eden_grass",
+	x: 13.0d,
+	y: -2.5d,
+	description: "Use a twilight clock on a frame of divine rock",
+	text: [
+		""
+	],
+	dependencies: [
+		"21b905c6"
+	],
+	tasks: [{
+		uid: "513d760a",
+		type: "dimension",
+		dim: 420
+	}]
+}

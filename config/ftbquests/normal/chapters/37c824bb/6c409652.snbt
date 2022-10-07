@@ -1,0 +1,16 @@
+{
+	x: 29.0d,
+	y: -7.5d,
+	description: "Found in the pyramid in the deep dark.",
+	dependencies: [
+		"f1e1204a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8b440ed7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dimensional_ingot"
+		}]
+	}]
+}

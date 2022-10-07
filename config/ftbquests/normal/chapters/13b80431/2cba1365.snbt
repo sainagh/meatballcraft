@@ -1,0 +1,20 @@
+{
+	title: "Aether Islands",
+	icon: "aether_legacy:aercloud 1 2",
+	x: -1.0d,
+	y: 2.0d,
+	description: "Use a skyroot bucket on a glowstone portal",
+	text: [
+		"The aether islands are located at the bottom of Terra's asteroid range.",
+		"There is enough atmosphere to allow for plenty of vegetation.",
+		"The strong influence of astral magic has led to interesting formations, that are made out of gases in their solid state."
+	],
+	dependencies: [
+		"446239db"
+	],
+	tasks: [{
+		uid: "029d4600",
+		type: "dimension",
+		dim: 4
+	}]
+}

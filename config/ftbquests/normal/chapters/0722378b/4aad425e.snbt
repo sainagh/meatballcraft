@@ -1,0 +1,17 @@
+{
+	x: 17.0d,
+	y: 1.0d,
+	text: [
+		"Because alcohol"
+	],
+	dependencies: [
+		"36f5a834"
+	],
+	tasks: [{
+		uid: "0c9f87ac",
+		type: "item",
+		items: [{
+			item: "extratrees:machine 1 6"
+		}]
+	}]
+}

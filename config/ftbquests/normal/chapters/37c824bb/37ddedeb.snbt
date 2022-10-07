@@ -1,0 +1,16 @@
+{
+	x: 93.5d,
+	y: 0.0d,
+	dependencies: [
+		"8bb6d106",
+		"e0b5358c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca38fb75",
+		type: "item",
+		items: [{
+			item: "divinerpg:nightmare_bed"
+		}]
+	}]
+}

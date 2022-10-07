@@ -1,0 +1,15 @@
+{
+	x: 11.5d,
+	y: 0.0d,
+	dependencies: [
+		"0d9d62d1"
+	],
+	tasks: [{
+		uid: "4d2a345b",
+		type: "item",
+		items: [{
+			item: "enderutilities:handybag"
+		}],
+		ignore_nbt: 1b
+	}]
+}

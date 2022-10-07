@@ -1,0 +1,27 @@
+{
+	title: "Time to Fight!",
+	x: 3.5d,
+	y: 0.0d,
+	description: "DivineRPG has the best starting armor. No point bothering with vanilla.",
+	text: [
+		"WOW! The creatures living here really do not like me!",
+		"It seems like evolution here happened in ways that are very different from Earth. There are so many different 'dominant species', which makes me wonder, is this what our planet looked like millions of years ago, before humanity started taking over?",
+		"This is crazy to believe, but some of these creatures are naturally able to travel through higher dimensions, it took us thousands of years just to open a single wormhole, and these things can do it naturally?!?"
+	],
+	dependencies: [
+		"c4bd8574"
+	],
+	hide: true,
+	tasks: [{
+		uid: "32b622c5",
+		type: "stat",
+		stat: "stat.mobKills",
+		value: 10
+	}],
+	rewards: [{
+		uid: "09553725",
+		type: "item",
+		item: "contenttweaker:aglio_olio_peperoncino_pasta",
+		count: 10
+	}]
+}

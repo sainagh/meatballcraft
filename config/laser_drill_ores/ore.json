@@ -1,0 +1,456 @@
+[
+  {
+    "item": "orePotash",
+    "color": 1,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 15
+      },
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 60,
+        "weight": 25
+      }
+    ]
+  },
+  {
+    "item": "oreSulfur",
+    "color": 4,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 5
+      },
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 15,
+        "weight": 20
+      }
+    ]
+  },
+  {
+    "item": "orePhosphorite",
+    "color": 12,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 5
+      },
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 60,
+        "weight": 15
+      }
+    ]
+  },
+  {
+    "item": "oreTar",
+    "color": 15,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 5
+      },
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 15,
+        "weight": 25
+      }
+    ]
+  },
+  {
+    "item": "oreManganese",
+    "color": 6,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 10
+      },
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 100,
+        "weight": 20
+      }
+    ]
+  },
+  {
+    "item": "oreZinc",
+    "color": 4,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 7
+      },
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 125,
+        "weight": 14
+      }
+    ]
+  },
+  {
+    "item": "orePrometheum",
+    "color": 13,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 15
+      },
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 15,
+        "weight": 25
+      }
+    ]
+  },
+  {
+    "item": "oreDeepIron",
+    "color": 7,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 10
+      },
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 50,
+        "depth_max": 120,
+        "weight": 20
+      }
+    ]
+  },
+  {
+    "item": "oreInfuscolium",
+    "color": 2,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 25
+      },
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 70,
+        "depth_max": 140,
+        "weight": 30
+      }
+    ]
+  },
+  {
+    "item": "oreManganese",
+    "color": 6,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 20
+      }
+    ]
+  },
+  {
+    "item": "oreOureclase",
+    "color": 2,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 60,
+        "weight": 10
+      }
+    ]
+  },
+  {
+    "item": "oreAstralSilver",
+    "color": 0,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 60,
+        "depth_max": 120,
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "item": "oreCarmot",
+    "color": 4,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 15
+      }
+    ]
+  },
+  {
+    "item": "oreRubracium",
+    "color": 14,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 11
+      }
+    ]
+  },
+  {
+    "item": "oreOsmium",
+    "color": 11,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 125,
+        "weight": 12
+      }
+    ]
+  },
+  {
+    "item": "oreLutetium",
+    "color": 4,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 125,
+        "weight": 6
+      }
+    ]
+  },
+  {
+    "item": "oreOrichalcum",
+    "color": 5,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 9
+      }
+    ]
+  },
+  {
+    "item": "oreAdamantine",
+    "color": 14,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 3
+      },
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 30,
+        "weight": 10
+      }
+    ]
+  },
+  {
+    "item": "oreAtlarus",
+    "color": 14,
+    "rarity": [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 3
+      },
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 30,
+        "weight": 10
+      }
+    ]
+  },
+  {
+    "item": "oreIgnatius",
+    "color": 4,
+    "rarity": [
+      {
+        "whitelist": "minecraft:hell",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 14
+      }
+    ]
+  },
+  {
+    "item": "oreShadowIron",
+    "color": 4,
+    "rarity": [
+      {
+        "whitelist": "minecraft:hell",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 12
+      }
+    ]
+  },
+  {
+    "item": "oreLemurite",
+    "color": 0,
+    "rarity": [
+      {
+        "whitelist": "minecraft:hell",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 9
+      }
+    ]
+  },
+  {
+    "item": "oreAlduorite",
+    "color": 3,
+    "rarity": [
+      {
+        "whitelist": "minecraft:hell",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 7
+      }
+    ]
+  },
+  {
+    "item": "oreCeruclase",
+    "color": 11,
+    "rarity": [
+      {
+        "whitelist": "minecraft:hell",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 7
+      }
+    ]
+  },
+  {
+    "item": "oreMidasium",
+    "color": 1,
+    "rarity": [
+      {
+        "whitelist": "minecraft:hell",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "item": "oreVulcanite",
+    "color": 14,
+    "rarity": [
+      {
+        "whitelist": "minecraft:hell",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 7
+      }
+    ]
+  },
+  {
+    "item": "oreSanguinite",
+    "color": 1,
+    "rarity": [
+      {
+        "whitelist": "minecraft:hell",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "item": "oreEximite",
+    "color": 10,
+    "rarity": [
+      {
+        "whitelist": "minecraft:sky",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 25
+      }
+    ]
+  },
+  {
+    "item": "oreMeutoite",
+    "color": 7,
+    "rarity": [
+      {
+        "whitelist": "minecraft:sky",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 25
+      }
+    ]
+  }
+]

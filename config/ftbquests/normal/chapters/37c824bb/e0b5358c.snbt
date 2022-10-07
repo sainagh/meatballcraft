@@ -1,0 +1,17 @@
+{
+	title: "Hardest wood in the Universe",
+	x: 92.0d,
+	y: 1.5d,
+	description: "And it's not even morning...",
+	dependencies: [
+		"fc10039f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c993a17e",
+		type: "item",
+		items: [{
+			item: "divinerpg:mortum_log"
+		}]
+	}]
+}

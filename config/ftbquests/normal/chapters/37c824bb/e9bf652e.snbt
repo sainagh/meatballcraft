@@ -1,0 +1,17 @@
+{
+	x: 90.5d,
+	y: 3.0d,
+	dependencies: [
+		"f69db306"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8b5be7e3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tulite_flower"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

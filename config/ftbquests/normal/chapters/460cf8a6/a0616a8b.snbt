@@ -1,0 +1,14 @@
+{
+	x: 21.5d,
+	y: 13.0d,
+	dependencies: [
+		"c85088a1"
+	],
+	tasks: [{
+		uid: "77ed3a8c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cursed_sapphire"
+		}]
+	}]
+}

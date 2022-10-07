@@ -1,0 +1,17 @@
+{
+	x: 9.0d,
+	y: -3.0d,
+	text: [
+		"Smart molten metal output, can be upgraded to fulfill a variety of needs."
+	],
+	dependencies: [
+		"cf94e2f1"
+	],
+	tasks: [{
+		uid: "164f7559",
+		type: "item",
+		items: [{
+			item: "tinker_io:smart_output"
+		}]
+	}]
+}

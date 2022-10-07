@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: 12.0d,
+	text: [
+		"Tier 4, supreme power!"
+	],
+	dependencies: [
+		"31ed6cfa"
+	],
+	tasks: [{
+		uid: "3f0b68ce",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 3"
+		}]
+	}]
+}

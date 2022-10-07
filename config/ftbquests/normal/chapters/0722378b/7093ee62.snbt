@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 8.0d,
+	text: [
+		"More Pulverizers!!!"
+	],
+	dependencies: [
+		"5f57ce40"
+	],
+	tasks: [{
+		uid: "1e91297d",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:manufactory_idle"
+		}]
+	}]
+}

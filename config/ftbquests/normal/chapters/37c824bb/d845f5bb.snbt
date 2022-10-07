@@ -1,0 +1,17 @@
+{
+	x: 95.0d,
+	y: 4.5d,
+	dependencies: [
+		"871e76a6",
+		"4b30cdc0",
+		"a50d3409"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b864d5dc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:perfected_gem_of_the_cosmos"
+		}]
+	}]
+}

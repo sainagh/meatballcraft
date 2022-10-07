@@ -1,0 +1,15 @@
+{
+	x: 90.5d,
+	y: 4.5d,
+	dependencies: [
+		"e9bf652e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e6eb24c1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:imperfect_gem_of_the_cosmos"
+		}]
+	}]
+}

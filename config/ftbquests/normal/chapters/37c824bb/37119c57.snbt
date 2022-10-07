@@ -1,0 +1,17 @@
+{
+	title: "Stronghold of Forgotten Spirits",
+	x: 24.5d,
+	y: -15.0d,
+	description: "Found in the stronghold in the dark forest.",
+	dependencies: [
+		"62242ef6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ed38f98c",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 4"
+		}]
+	}]
+}

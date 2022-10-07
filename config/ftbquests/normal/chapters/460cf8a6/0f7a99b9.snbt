@@ -1,0 +1,20 @@
+{
+	x: 24.5d,
+	y: 3.0d,
+	text: [
+		"Ore is found in the Greckon dimension from Advent of Ascension.",
+		"Found from Y=28 to Y=58",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"9d6b5bc4"
+	],
+	tasks: [{
+		uid: "959ff278",
+		type: "item",
+		items: [{
+			item: "aoa3:ghastly_ingot"
+		}]
+	}]
+}

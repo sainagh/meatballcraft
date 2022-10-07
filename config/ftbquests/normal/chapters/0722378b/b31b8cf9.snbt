@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 9.0d,
+	text: [
+		"You could place four of these around a block of water...",
+		"...or you could get an upgrade!",
+		"Requires energy from an AE network, even a very small one..."
+	],
+	dependencies: [
+		"b0b21afb"
+	],
+	tasks: [{
+		uid: "9066cb5b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quartz_growth_accelerator"
+		}]
+	}]
+}

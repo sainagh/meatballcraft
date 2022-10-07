@@ -1,0 +1,57 @@
+{
+	title: "Yellorite Reactor",
+	x: 2.0d,
+	y: -7.0d,
+	text: [
+		"The yellorite reactor uses yellorium to produce RF.",
+		"The reactor is a hollow cuboid made out of casings, including at least two access points (input & output), a power tap, and a controller.",
+		"A transparent version of casings can also be used.",
+		"In the hollow of the cuboid, it is possible to insert any number of vertical columns of fuel rods, capped with a control rod on the casing",
+		"Cooling (both fluids and blocks) can be added in the remaining hollow spaces."
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "ba798fcb",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontroller"
+		}]
+	},
+	{
+		uid: "b3417750",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcasing"
+		}]
+	},
+	{
+		uid: "cfbe6dae",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorfuelrod"
+		}]
+	},
+	{
+		uid: "b1f72eae",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontrolrod"
+		}]
+	},
+	{
+		uid: "e403715c",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactoraccessport"
+		}]
+	},
+	{
+		uid: "277970ca",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorpowertaprf"
+		}]
+	}]
+}

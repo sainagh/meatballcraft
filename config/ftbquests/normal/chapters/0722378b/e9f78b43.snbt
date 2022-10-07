@@ -1,0 +1,18 @@
+{
+	title: "Dyson Compressor",
+	x: 0.0d,
+	y: -13.0d,
+	dependencies: [
+		"a5d2c358"
+	],
+	tasks: [{
+		uid: "67c11e44",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:dyson_compressor"
+			}
+		}]
+	}]
+}

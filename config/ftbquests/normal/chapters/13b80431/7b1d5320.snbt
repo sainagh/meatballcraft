@@ -1,0 +1,18 @@
+{
+	title: "Nero",
+	icon: "contenttweaker:recursion_helplessness",
+	x: 31.0d,
+	y: -2.5d,
+	description: "Travel using a warp core with the right artifact on a space station",
+	text: [
+		""
+	],
+	dependencies: [
+		"634c203a"
+	],
+	tasks: [{
+		uid: "c968abea",
+		type: "dimension",
+		dim: 170
+	}]
+}

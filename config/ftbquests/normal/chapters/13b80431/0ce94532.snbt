@@ -1,0 +1,18 @@
+{
+	title: "Orcus",
+	icon: "minecraft:obsidian",
+	x: 9.0d,
+	y: 9.5d,
+	description: "Travel using a warp core on a space station",
+	text: [
+		""
+	],
+	dependencies: [
+		"8f9c8dfc"
+	],
+	tasks: [{
+		uid: "b2c27831",
+		type: "dimension",
+		dim: 161
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Hot Fusion",
+	x: 35.0d,
+	y: 1.5d,
+	text: [
+		"Well...now that I started playing with fission it is only natural that I'd eventually get to fusion, which should be a good, yet expensive, way of generating matter according to my needs."
+	],
+	dependencies: [
+		"65ea6518"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d1713cbc",
+		type: "item",
+		items: [{
+			item: "techreborn:fusion_control_computer"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "5b4f6163",
+		type: "item",
+		items: [{
+			item: "techreborn:fusion_coil"
+		}]
+	}],
+	rewards: [{
+		uid: "fcb50c21",
+		type: "item",
+		item: "nuclearcraft:ore 1 6",
+		count: 32
+	}]
+}

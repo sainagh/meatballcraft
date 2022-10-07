@@ -1,0 +1,18 @@
+{
+	x: 47.0d,
+	y: 0.0d,
+	description: "You may want to bring a way to escape...",
+	dependencies: [
+		"eb59e90c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a7990646",
+		type: "item",
+		items: [{
+			item: "contenttweaker:call_of_the_haunted"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

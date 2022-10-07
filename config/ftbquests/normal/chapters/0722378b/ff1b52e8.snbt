@@ -1,0 +1,28 @@
+{
+	title: "Plasmatic Condenser",
+	x: -1.0d,
+	y: -8.5d,
+	dependencies: [
+		"69404a6d"
+	],
+	tasks: [{
+		uid: "8d3ab9a1",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:plasmatic_condenser"
+			}
+		}]
+	},
+	{
+		uid: "6512835d",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:plasmatic_controller"
+			}
+		}]
+	}]
+}

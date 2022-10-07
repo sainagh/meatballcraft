@@ -1,0 +1,20 @@
+{
+	title: "Am I the Highlander?",
+	x: 3.5d,
+	y: -3.0d,
+	text: [
+		"It seems like I can gain some control over this 'undeath' power. ",
+		"By infusing stone with this weird powder, I can fast travel back to my point of 'death'."
+	],
+	dependencies: [
+		"e94d41bf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8eaca978",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_simple"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Death is just another journey...",
+	x: 3.5d,
+	y: -1.5d,
+	text: [
+		"What is going on? This is scary!",
+		"I thought I would be done for, I thought I was going to die...",
+		"Instead, everything turned dark, and a strange feeling came over me, and I suddenly woke up!",
+		"After killing some of the undead-looking creatures that roam this planet at night, I got my hands on this strange powder.",
+		"Touching it gave me a feeling similar to what I felt whenever I thought I would die.",
+		"It seems like I cannot die. Instead, I lose my ability to carry things, and I somehow manage to travel in some sort of 'ghostly shape' for a few hours after that.",
+		"Should I assume that someone, or something, wants me alive?!"
+	],
+	dependencies: [
+		"fb8062a2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bf12c07a",
+		type: "item",
+		items: [{
+			item: "tombstone:crafting_ingredient 1 3"
+		}]
+	}]
+}

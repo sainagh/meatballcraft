@@ -1,0 +1,19 @@
+{
+	x: 13.5d,
+	y: 4.0d,
+	dependencies: [
+		"c2b7e7ec"
+	],
+	tasks: [{
+		uid: "b0df9b29",
+		type: "item",
+		items: [{
+			id: "arcane_essentials:master_healing_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

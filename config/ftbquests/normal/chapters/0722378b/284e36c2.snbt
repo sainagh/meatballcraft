@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 26.0d,
+	text: [
+		"Make three of them, passive them, forget about them."
+	],
+	dependencies: [
+		"5f57ce40"
+	],
+	tasks: [{
+		uid: "63e6b159",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rock_crusher_idle"
+		}]
+	}]
+}

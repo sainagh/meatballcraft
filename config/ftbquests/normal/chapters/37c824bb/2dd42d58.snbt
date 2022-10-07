@@ -1,0 +1,26 @@
+{
+	title: "A contender for the underworld",
+	x: 23.0d,
+	y: 6.0d,
+	description: "Use in the nether!",
+	text: [
+		"From what I've seen so far, the nether region of Terra has been fairly unstable for the last few years, that said, the King of Scorchers is quickly gaining power and influence. ",
+		"But I am the one that's supposed to be gaining power and influence..."
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f767e4b3",
+		type: "item",
+		items: [{
+			id: "divinerpg:infernal_flame",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,99 @@
+{
+	x: 126.5d,
+	y: -1.5d,
+	dependencies: [
+		"7f13ea6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e4458f11",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimension_builder"
+		}]
+	},
+	{
+		uid: "f6163dfb",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimension_enscriber"
+		}]
+	},
+	{
+		uid: "44511100",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:empty_dimension_tab"
+		}]
+	},
+	{
+		uid: "5928602d",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimension_editor"
+		}]
+	},
+	{
+		uid: "ab925850",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimlet_workbench"
+		}]
+	},
+	{
+		uid: "3a46751c",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:activity_probe"
+		}]
+	},
+	{
+		uid: "a6ba11ea",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:energy_extractor"
+		}]
+	},
+	{
+		uid: "c5223edc",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:material_absorber"
+		}]
+	},
+	{
+		uid: "852eb613",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:liquid_absorber"
+		}]
+	},
+	{
+		uid: "af8e8571",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:biome_absorber"
+		}]
+	},
+	{
+		uid: "8d1db7c7",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:terrain_absorber"
+		}]
+	},
+	{
+		uid: "94963806",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:feature_absorber"
+		}]
+	},
+	{
+		uid: "d3620e58",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:time_absorber"
+		}]
+	}]
+}

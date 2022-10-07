@@ -1,0 +1,26 @@
+{
+	title: "Technomancy",
+	x: 27.5d,
+	y: 0.0d,
+	text: [
+		"My experiments paid off! Magic blocks and items can be used to produce machines to automate annoying magic rituals.",
+		"And so much more..."
+	],
+	dependencies: [
+		"88fe69fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bf0f1018",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "dd4d4bf8",
+		type: "item",
+		item: "modularmachinery:itemmodularium",
+		count: 16
+	}]
+}

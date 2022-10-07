@@ -1,0 +1,26 @@
+{
+	x: 13.0d,
+	y: -4.5d,
+	dependencies: [
+		"279d7e23"
+	],
+	tasks: [{
+		uid: "5da4d95e",
+		type: "item",
+		items: [{
+			id: "xnet:advanced_connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.advanced_connector_blue.name"
+				}
+			}
+		}]
+	},
+	{
+		uid: "0b8313d8",
+		type: "item",
+		items: [{
+			item: "xnet:connector_upgrade"
+		}]
+	}]
+}

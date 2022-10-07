@@ -1,0 +1,22 @@
+{
+	title: "Warriors of the lower sky!",
+	x: 20.0d,
+	y: -6.0d,
+	text: [
+		"Astral magic is so cool, yet, many of its users do not share my intents for liberation...",
+		"A group of testificates, long ago, has taken over some sky islands within Terra's atmosphere to experiment with artificial life.",
+		"Becuase of their crimes, Testificate history has decided to forget about them...",
+		"Unfortunately, the product of their work is still very much alive and dangerous."
+	],
+	dependencies: [
+		"774bc7f0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1bd78238",
+		type: "item",
+		items: [{
+			item: "aether_legacy:skyroot_bucket"
+		}]
+	}]
+}

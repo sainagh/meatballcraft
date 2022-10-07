@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 23.0d,
+	text: [
+		"For RadAway, and a few other things!"
+	],
+	dependencies: [
+		"5f57ce40"
+	],
+	tasks: [{
+		uid: "fddbe136",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:dissolver_idle"
+		}]
+	}]
+}

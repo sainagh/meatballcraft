@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"Found only in mountainous biomes, but testificates seem to have lots of it!"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "7b3af1b3",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 13.0d,
+	text: [
+		"Sheetmetal for days!",
+		"Use holo projector to see multiblock preview."
+	],
+	dependencies: [
+		"3b01a8a9"
+	],
+	tasks: [{
+		uid: "7e8a90cf",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rollingmachine"
+		}]
+	}]
+}

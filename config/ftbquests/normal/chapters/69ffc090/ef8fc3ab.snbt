@@ -1,0 +1,14 @@
+{
+	x: -12.5d,
+	y: -8.5d,
+	dependencies: [
+		"ce502a23"
+	],
+	tasks: [{
+		uid: "fb126477",
+		type: "item",
+		items: [{
+			item: "thaumcraft:sanity_soap"
+		}]
+	}]
+}

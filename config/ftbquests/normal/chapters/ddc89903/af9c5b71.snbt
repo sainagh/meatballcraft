@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: 6.5d,
+	dependencies: [
+		"0768cd15"
+	],
+	tasks: [{
+		uid: "f25b7e8c",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_wood_item"
+		}]
+	},
+	{
+		uid: "cbda867f",
+		type: "item",
+		items: [{
+			item: "buildcraftcore:engine"
+		}]
+	}]
+}

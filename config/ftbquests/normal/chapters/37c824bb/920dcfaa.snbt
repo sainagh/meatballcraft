@@ -1,0 +1,27 @@
+{
+	title: "Proper Fission",
+	x: 33.5d,
+	y: 0.0d,
+	text: [
+		"Yellorium is great and all, but I need some more proper fission sources!",
+		"And something tells me that using fission to generate compounds that are not as easy to find should make things better in the long run."
+	],
+	dependencies: [
+		"7382c725"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8bcdef29",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_controller_new_fixed"
+		}]
+	},
+	{
+		uid: "f7763236",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_block"
+		}]
+	}]
+}

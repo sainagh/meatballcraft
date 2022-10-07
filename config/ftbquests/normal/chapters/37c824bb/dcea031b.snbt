@@ -1,0 +1,16 @@
+{
+	title: "Pure Neutrinos",
+	x: 81.5d,
+	y: -1.5d,
+	dependencies: [
+		"4cc405fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cd9797f7",
+		type: "item",
+		items: [{
+			item: "avaritia:neutron_collector"
+		}]
+	}]
+}

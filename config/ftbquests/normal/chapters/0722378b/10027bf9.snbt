@@ -1,0 +1,22 @@
+{
+	title: "Dragonfire Crucible",
+	x: -6.5d,
+	y: -2.5d,
+	text: [
+		"The Dragonfire Crucible uses the extreme heat of eternal dragon fire and twilight fire to fuse materials together.",
+		"Fire can be passively supplied using fluid transport methods."
+	],
+	dependencies: [
+		"db2b859e"
+	],
+	tasks: [{
+		uid: "63f42927",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:dragonfire_crucible"
+			}
+		}]
+	}]
+}

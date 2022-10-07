@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"There are a lot of machines and processes to automate, I will leave this space to write down some info on each of them..."
+	],
+	dependencies: [
+		"c016f84c"
+	],
+	tasks: [{
+		uid: "41c71dc2",
+		type: "checkmark",
+		title: "Machines, Machines, Machines"
+	}]
+}

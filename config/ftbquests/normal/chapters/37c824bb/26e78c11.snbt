@@ -1,0 +1,16 @@
+{
+	title: "Cooking (Again)",
+	x: 95.0d,
+	y: -1.5d,
+	dependencies: [
+		"23cb5548"
+	],
+	hide: true,
+	tasks: [{
+		uid: "77aec33a",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}]
+}

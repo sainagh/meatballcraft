@@ -1,0 +1,67 @@
+{
+	title: "Mix and Match",
+	x: 6.5d,
+	y: 0.0d,
+	description: "Search for tinker modifier in JEI for list of modifiers. Any material can be used for the tool forge!",
+	text: [
+		"Modular is better! Now that I know I'm stuck here, at least for the forseeable future, I should start focusing on better tools and weapons."
+	],
+	dependencies: [
+		"427846dd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6cbda419",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}]
+	},
+	{
+		uid: "7e9fd670",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			Damage: 2s,
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aa7c87bf",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}]
+	},
+	{
+		uid: "7597b32f",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d23feb71",
+		type: "item",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "enderio:block_alloy",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

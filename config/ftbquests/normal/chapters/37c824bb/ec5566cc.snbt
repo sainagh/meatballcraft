@@ -1,0 +1,16 @@
+{
+	x: 24.5d,
+	y: -7.5d,
+	description: "Make this to find locations in the twilight forest.",
+	dependencies: [
+		"62242ef6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "af21604b",
+		type: "item",
+		items: [{
+			item: "twilightforest:magic_map_empty"
+		}]
+	}]
+}

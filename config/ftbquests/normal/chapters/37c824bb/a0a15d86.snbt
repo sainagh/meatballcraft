@@ -1,0 +1,17 @@
+{
+	icon: "contenttweaker:sednanite_ore",
+	x: 42.5d,
+	y: 1.5d,
+	text: [
+		"Many items have multiple ways to be obtained, but sometimes only one can lead to full automation. JEI is your friend!",
+		"For example, at this point you should have a passive production of sednanite."
+	],
+	dependencies: [
+		"782f8be1"
+	],
+	tasks: [{
+		uid: "7e59eb91",
+		type: "checkmark",
+		title: "Look and See..."
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 93.5d,
+	y: 4.5d,
+	dependencies: [
+		"831f26ca"
+	],
+	tasks: [{
+		uid: "869cced4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:big_slime"
+		}]
+	}]
+}

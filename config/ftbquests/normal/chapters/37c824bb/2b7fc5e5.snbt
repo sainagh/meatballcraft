@@ -1,0 +1,23 @@
+{
+	icon: "nuclearcraft:radaway",
+	x: -1.0d,
+	y: 1.5d,
+	description: "Beware of effects like weakness, hunger, poison! Radiation is a thing! Uranium, Thorium, Yellorium will poison you! There are tooltips for things that are radioactive!",
+	text: [
+		""
+	],
+	dependencies: [
+		"aaa3246a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b54b65c0",
+		type: "checkmark",
+		title: "Get poisoned!"
+	}],
+	rewards: [{
+		uid: "fbae48e3",
+		type: "item",
+		item: "bigreactors:ingotyellorium"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: 6.0d,
+	text: [
+		"Can Spawn in Loot Chests from Structures",
+		"Can Be Found in a Gem Bag",
+		"Can Be Traded From a Metalloid for 40 Copper Coins",
+		"Can Be Dropped by a Bane",
+		"Mobs Killed by a Crystaneer Have A Chance of Dropping It",
+		"Ore Spawns Between Y=13 to Y=31",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "9d4c6efe",
+		type: "item",
+		items: [{
+			item: "aoa3:amethyst"
+		}]
+	}]
+}

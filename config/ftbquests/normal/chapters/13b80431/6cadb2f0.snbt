@@ -1,0 +1,18 @@
+{
+	title: "Zoi",
+	icon: "contenttweaker:recursion_solitude",
+	x: 31.0d,
+	y: -4.0d,
+	description: "Travel using a warp core with the right artifact on a space station",
+	text: [
+		""
+	],
+	dependencies: [
+		"634c203a"
+	],
+	tasks: [{
+		uid: "dd411a44",
+		type: "dimension",
+		dim: 171
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	dependencies: [
+		"fb8062a2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1b339995",
+		type: "item",
+		items: [{
+			item: "dimdoors:world_thread"
+		}]
+	}]
+}

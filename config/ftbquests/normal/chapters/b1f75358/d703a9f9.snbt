@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: -2.5d,
+	text: [
+		"Failure, Once again. The fuel seems to deplete itself. Although I may be able to salvage isotopes again."
+	],
+	dependencies: [
+		"a81c6e8e"
+	],
+	tasks: [{
+		uid: "3f6db10a",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:depleted_fuel_plutonium"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: 8.0d,
+	text: [
+		"Uses a hefty amout of energy to dracinically infuse items from surrounding injectors.",
+		"Each injector consumes power.",
+		"The higher the tier of the injectors, the faster parts will craft.",
+		"Many items require a minimum tier for the injectors."
+	],
+	dependencies: [
+		"335e7052"
+	],
+	tasks: [{
+		uid: "058a9757",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	}]
+}

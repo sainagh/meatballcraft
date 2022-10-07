@@ -1,0 +1,16 @@
+{
+	title: "I love Hunger!",
+	x: 96.5d,
+	y: 0.0d,
+	dependencies: [
+		"51c7f602"
+	],
+	hide: true,
+	tasks: [{
+		uid: "67c4c9b6",
+		type: "item",
+		items: [{
+			item: "divinerpg:hammer_template"
+		}]
+	}]
+}

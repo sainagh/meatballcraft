@@ -1,0 +1,14 @@
+{
+	x: 78.5d,
+	y: 1.5d,
+	dependencies: [
+		"bf7f3ae9"
+	],
+	tasks: [{
+		uid: "1605a514",
+		type: "item",
+		items: [{
+			item: "contenttweaker:apalachia_refined_gem"
+		}]
+	}]
+}

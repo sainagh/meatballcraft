@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	text: [
+		"The compression dynamy accepts a variety of fluid inputs to produce RF. ",
+		"Generally, the more steps it takes to obtain the fluid, the higher the energy output."
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "146972cc",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 2s,
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

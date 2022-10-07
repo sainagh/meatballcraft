@@ -1,0 +1,16 @@
+{
+	title: "A new Age!",
+	x: 78.5d,
+	y: 0.0d,
+	dependencies: [
+		"9e26752a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8431b7c4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mythic_excavation_computer"
+		}]
+	}]
+}

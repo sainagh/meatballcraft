@@ -1,0 +1,16 @@
+{
+	x: 30.5d,
+	y: -9.0d,
+	description: "Assemble the gaia arena and click the beacon with terrasteel",
+	dependencies: [
+		"a852a933"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7d8f7dfa",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 5"
+		}]
+	}]
+}

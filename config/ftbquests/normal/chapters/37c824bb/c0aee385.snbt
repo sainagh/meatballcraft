@@ -1,0 +1,16 @@
+{
+	title: "Power from Apalachia",
+	x: 84.5d,
+	y: 0.0d,
+	dependencies: [
+		"b3969e7e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f90df673",
+		type: "item",
+		items: [{
+			item: "contenttweaker:apalachia_star"
+		}]
+	}]
+}

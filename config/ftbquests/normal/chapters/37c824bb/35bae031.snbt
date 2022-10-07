@@ -1,0 +1,24 @@
+{
+	x: 98.0d,
+	y: -4.5d,
+	dependencies: [
+		"2041c646"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2ec14929",
+		type: "item",
+		items: [{
+			item: "xreliquary:pyromancer_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "35abb171",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_powder"
+		}]
+	}]
+}

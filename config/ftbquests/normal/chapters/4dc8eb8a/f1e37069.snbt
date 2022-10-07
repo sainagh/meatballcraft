@@ -1,0 +1,18 @@
+{
+	title: "Crops and Forestry??",
+	x: -3.5d,
+	y: -5.5d,
+	text: [
+		"The emerald electron tube allows for the farming of crops!"
+	],
+	dependencies: [
+		"1ae929d9"
+	],
+	tasks: [{
+		uid: "518181e5",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 9"
+		}]
+	}]
+}

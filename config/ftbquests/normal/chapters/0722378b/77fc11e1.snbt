@@ -1,0 +1,21 @@
+{
+	title: "Corrupted Library",
+	x: -7.5d,
+	y: -1.5d,
+	text: [
+		"The corrupted library uses artifacts from Iceika and Arcana to fabricate things magically."
+	],
+	dependencies: [
+		"04a2f0d4"
+	],
+	tasks: [{
+		uid: "02f3fa89",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:corrupted_library"
+			}
+		}]
+	}]
+}

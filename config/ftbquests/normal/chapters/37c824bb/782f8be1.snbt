@@ -1,0 +1,27 @@
+{
+	title: "War to the Twilight Horde!",
+	x: 41.0d,
+	y: 1.5d,
+	text: [
+		"Well well well...",
+		"In some way, the twilight horde and the shyre empire are similar, like two sides of the same coin.",
+		"The way the former uses gravity is, in some way more primal, more natural...",
+		"The way they travel is connected to astral magic in some way."
+	],
+	dependencies: [
+		"4cccf702"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d4cb91f3",
+		type: "item",
+		items: [{
+			id: "divinerpg:twilight_clock",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

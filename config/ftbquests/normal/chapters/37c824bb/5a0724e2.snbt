@@ -1,0 +1,22 @@
+{
+	title: "The Arthropods made it here!",
+	x: 68.0d,
+	y: 0.0d,
+	text: [
+		"Next up, Pixonia",
+		"",
+		"",
+		""
+	],
+	dependencies: [
+		"6304b450"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ef804f82",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pixonia_artifact"
+		}]
+	}]
+}

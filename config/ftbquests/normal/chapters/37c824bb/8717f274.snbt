@@ -1,0 +1,28 @@
+{
+	title: "A mistake?",
+	x: 21.5d,
+	y: 3.0d,
+	dependencies: [
+		"e5343127"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8ba9fc26",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ancient_remnants"
+		}]
+	},
+	{
+		uid: "0c010cad",
+		type: "item",
+		items: [{
+			id: "divinerpg:bedrock_leggings",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

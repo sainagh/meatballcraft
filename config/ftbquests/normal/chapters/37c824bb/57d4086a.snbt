@@ -1,0 +1,17 @@
+{
+	title: "A suspicion",
+	x: 48.5d,
+	y: 1.5d,
+	description: "Start making these, just an advice...",
+	dependencies: [
+		"ea6a620f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "090cc8e8",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity 1 5"
+		}]
+	}]
+}

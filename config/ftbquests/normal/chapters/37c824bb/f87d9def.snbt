@@ -1,0 +1,15 @@
+{
+	x: 83.0d,
+	y: -3.0d,
+	dependencies: [
+		"dcea031b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2da2ea54",
+		type: "item",
+		items: [{
+			item: "contenttweaker:skotaninomicom"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Definitely a bad idea...",
+	x: 17.0d,
+	y: -6.0d,
+	text: [
+		"A lead! After I got close to this dark monster, the same feeling I experienced whenever I was about to die came over me, and a strange, deep voice started resonating in my mind.",
+		"The words were unclear, yet one of them lingered in my memory. Just one word, Necronomicon!"
+	],
+	dependencies: [
+		"55075fff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "486eb21f",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon",
+			tag: {
+				PotEnergy: 0.0f
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

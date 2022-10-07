@@ -1,0 +1,25 @@
+{
+	title: "The power of Terra",
+	x: 24.5d,
+	y: 3.0d,
+	dependencies: [
+		"b45d5e5c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "44dbf7f8",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	},
+	{
+		uid: "4be61752",
+		type: "item",
+		items: [{
+			item: "soulshardsrespawn:vile_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

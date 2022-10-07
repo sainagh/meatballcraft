@@ -1,0 +1,57 @@
+{
+	x: 92.0d,
+	y: -3.0d,
+	description: "Time to start thinking about some crafting components!",
+	dependencies: [
+		"8bb6d106"
+	],
+	tasks: [{
+		uid: "e20d4144",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 666"
+		}]
+	},
+	{
+		uid: "bfc90c50",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 656"
+		}]
+	},
+	{
+		uid: "73ce37d2",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 657"
+		}]
+	},
+	{
+		uid: "3c9afb57",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 658"
+		}]
+	},
+	{
+		uid: "4d2835b4",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 659"
+		}]
+	},
+	{
+		uid: "cd854d0d",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 660"
+		}]
+	},
+	{
+		uid: "db7af69f",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 654"
+		}]
+	}]
+}

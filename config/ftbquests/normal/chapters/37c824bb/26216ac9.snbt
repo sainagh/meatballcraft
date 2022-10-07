@@ -1,0 +1,16 @@
+{
+	title: "For the few...",
+	x: 107.0d,
+	y: 0.0d,
+	dependencies: [
+		"1135dd4b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0e5456dd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dynatos_artifact"
+		}]
+	}]
+}

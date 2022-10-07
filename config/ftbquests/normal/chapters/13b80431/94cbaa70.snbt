@@ -1,0 +1,18 @@
+{
+	title: "Akathartos",
+	icon: "contenttweaker:recursion_darkness",
+	x: 31.0d,
+	y: 0.5d,
+	description: "Travel using a warp core with the right artifact on a space station",
+	text: [
+		""
+	],
+	dependencies: [
+		"634c203a"
+	],
+	tasks: [{
+		uid: "1f5b0702",
+		type: "dimension",
+		dim: 172
+	}]
+}

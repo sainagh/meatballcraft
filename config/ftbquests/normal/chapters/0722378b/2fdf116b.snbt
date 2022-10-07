@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 19.0d,
+	dependencies: [
+		"fe046b03"
+	],
+	tasks: [{
+		uid: "72a3e627",
+		type: "item",
+		items: [{
+			item: "techreborn:assembling_machine"
+		}]
+	}]
+}

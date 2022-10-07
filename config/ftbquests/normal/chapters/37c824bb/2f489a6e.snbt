@@ -1,0 +1,15 @@
+{
+	x: 116.0d,
+	y: 1.5d,
+	dependencies: [
+		"4a85f171"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b9d2d63b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:shyrelands_garnet"
+		}]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "A new contender?",
+	x: 24.5d,
+	y: 6.0d,
+	text: [
+		"Well, terra is going through some serious power struggle!",
+		"But now that I am here, I gotta learn about who is leading this war, the Testificates deserve better!"
+	],
+	dependencies: [
+		"2dd42d58"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7c24b9b9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:scorcher_eternal_flame"
+		}]
+	},
+	{
+		uid: "74632c6d",
+		type: "item",
+		items: [{
+			item: "divinerpg:slime_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

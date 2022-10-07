@@ -1,0 +1,17 @@
+{
+	x: 10.0d,
+	y: 1.0d,
+	text: [
+		"Makes biomass from a variety of inputs."
+	],
+	dependencies: [
+		"36f5a834"
+	],
+	tasks: [{
+		uid: "bf6ad3fa",
+		type: "item",
+		items: [{
+			item: "forestry:fermenter"
+		}]
+	}]
+}

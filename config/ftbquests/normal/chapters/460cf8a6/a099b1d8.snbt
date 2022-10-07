@@ -1,0 +1,22 @@
+{
+	x: 3.5d,
+	y: 2.0d,
+	text: [
+		"Spawns in the Nether",
+		"Can Be Dropped from 'The Water' Which Spawns from Wildfires or in the Nether",
+		"The Ore Looks Like a Full block but it Requires Being Smelted",
+		"Destroyes Items Coming in Contact of It",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"06049c7f"
+	],
+	tasks: [{
+		uid: "e6833fb1",
+		type: "item",
+		items: [{
+			item: "divinerpg:netherite_ingot"
+		}]
+	}]
+}

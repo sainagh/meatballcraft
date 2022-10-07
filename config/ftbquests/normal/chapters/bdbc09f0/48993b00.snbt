@@ -1,0 +1,27 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	text: [
+		"The numismatic dynamo takes various types of coins to produce RF.",
+		"How does it work?? I don't really get it, but the physics on terra are, well, very different from earth, and value, for some reason, can be safely converted into energy.",
+		"A piece of solidified gold yields no energy, but as soon as I turn it into a coin, POWER!",
+		"Almost as if this world 'remembers' what people value.. which is, of course, absurd..."
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "4a885371",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 5s,
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

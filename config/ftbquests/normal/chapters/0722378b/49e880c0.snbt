@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 13.0d,
+	dependencies: [
+		"fe046b03"
+	],
+	tasks: [{
+		uid: "df571810",
+		type: "item",
+		items: [{
+			item: "techreborn:electric_furnace"
+		}]
+	}]
+}

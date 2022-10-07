@@ -1,0 +1,15 @@
+{
+	x: 71.0d,
+	y: -3.0d,
+	dependencies: [
+		"0ae451c7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "80cbc8d5",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:spatial_io_port"
+		}]
+	}]
+}

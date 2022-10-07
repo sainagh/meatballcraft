@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 12.0d,
+	text: [
+		"Only Spawn Above Y=60",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "9a6ae199",
+		type: "item",
+		items: [{
+			item: "forestry:apatite"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: -3.5d,
+	text: [
+		"Alkahestry is a weird art, some may call it a pallid imitation of EMC alchemy, yet, it has its advantages.",
+		"The Tome of Arcana is pretty good too!"
+	],
+	dependencies: [
+		"c5c58d79"
+	],
+	tasks: [{
+		uid: "ccd8d2e5",
+		type: "checkmark",
+		title: "A good read"
+	}]
+}

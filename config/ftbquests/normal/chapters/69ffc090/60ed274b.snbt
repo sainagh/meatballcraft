@@ -1,0 +1,14 @@
+{
+	x: -14.0d,
+	y: -1.0d,
+	dependencies: [
+		"8ba7525c"
+	],
+	tasks: [{
+		uid: "06f73bf2",
+		type: "item",
+		items: [{
+			item: "botania:brewery"
+		}]
+	}]
+}

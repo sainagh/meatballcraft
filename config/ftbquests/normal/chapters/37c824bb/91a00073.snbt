@@ -1,0 +1,13 @@
+{
+	x: 5.0d,
+	y: 10.5d,
+	description: "The creation forge allows you to summon minions!",
+	dependencies: [
+		"d8e398cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "31032720",
+		type: "checkmark"
+	}]
+}

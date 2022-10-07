@@ -1,0 +1,21 @@
+{
+	title: "Barathos falls",
+	x: 45.5d,
+	y: 1.5d,
+	description: "Baroness is summoned by using a warlock gem on a baroness altar - Use a hive egg on a hive spawner to summon the hive king",
+	text: [
+		"Barathos' is a very religious planet, and their religion is NOT PEACEFUL!",
+		"And, of course, the avatars of the god of war are recursion masters..."
+	],
+	dependencies: [
+		"c48be49f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "faf1e3fa",
+		type: "item",
+		items: [{
+			item: "contenttweaker:barathos_cap"
+		}]
+	}]
+}

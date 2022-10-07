@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	text: [
+		"Found between y=9 and y=70",
+		"Can Be Found in a Treasure Box or a Shiny Box",
+		"Can Be Found in Loot Chests from Structures",
+		"Can Be Traded From a Metalloid for 15 Copper Coins",
+		"",
+		"- Most Written by Bluecat"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "216f8855",
+		type: "item",
+		items: [{
+			item: "aoa3:limonite_ingot"
+		}]
+	}]
+}

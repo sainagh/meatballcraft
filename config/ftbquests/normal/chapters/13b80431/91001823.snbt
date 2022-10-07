@@ -1,0 +1,17 @@
+{
+	title: "Haumea",
+	icon: "minecraft:mycelium",
+	x: 9.0d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"8f9c8dfc"
+	],
+	tasks: [{
+		uid: "b29c4f16",
+		type: "dimension",
+		dim: 146
+	}]
+}

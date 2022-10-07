@@ -1,0 +1,15 @@
+{
+	x: 63.5d,
+	y: 4.5d,
+	dependencies: [
+		"29dba8e9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ea3ee20b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gardencia_garnet"
+		}]
+	}]
+}

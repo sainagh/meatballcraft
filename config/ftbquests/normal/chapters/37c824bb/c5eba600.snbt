@@ -1,0 +1,28 @@
+{
+	title: "Draconic Tech",
+	x: 53.0d,
+	y: 0.0d,
+	text: [
+		"Time for some major study time!",
+		"Vis, apparently, as a field, has macroscopic effects that can only be observed between planets.",
+		"For some reason, creatures like the dragon living in the end islands can bend this field to cause large scale effects, like forming clouds of oxygen around the end islands.",
+		"The physics and magic behind this phenomenon are yet unknown to me, but it's time to change that.",
+		"The good thing about being trapped in an endless cycle of undeath is that I can spend more time studying without feeling like I'm wasting my time."
+	],
+	dependencies: [
+		"55107d93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "220e8c08",
+		type: "item",
+		items: [{
+			id: "contenttweaker:draconic_key",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

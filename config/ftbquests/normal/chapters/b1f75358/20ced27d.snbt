@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: -2.5d,
+	text: [
+		"Perfect, I've found the right combination of Isotopes once again through my own bumbling stupidity and produced a new fuel source. If this doesn't work I may have to give up."
+	],
+	dependencies: [
+		"01c68c36"
+	],
+	tasks: [{
+		uid: "8c5e2c91",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_californium 1 2"
+		}]
+	}]
+}

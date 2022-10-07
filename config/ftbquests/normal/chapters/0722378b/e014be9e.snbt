@@ -1,0 +1,22 @@
+{
+	title: "Wizardry Combiner",
+	x: -6.5d,
+	y: -1.5d,
+	text: [
+		"The wizardry Combiner uses the powers of wizardry to make powerful magical artifacts...",
+		"...and some other things as well..."
+	],
+	dependencies: [
+		"04a2f0d4"
+	],
+	tasks: [{
+		uid: "a5bdb88c",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:wizardry_combiner"
+			}
+		}]
+	}]
+}

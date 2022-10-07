@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	text: [
+		"Found at every height"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "8e4e76e3",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 5"
+		}]
+	}]
+}

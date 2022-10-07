@@ -1,0 +1,24 @@
+{
+	title: "The realmshifters",
+	x: 36.5d,
+	y: -7.5d,
+	text: [
+		"The terra system is truly a wonderful world!",
+		"Thanks to the incredible powers provided by the resources here, civilizations evolved with incredible abilities!",
+		"Hator is the home planet of the realmshifters, beings able to bend and warp all dimensions of space as if it was nothing...",
+		"When the empire and the horde came, they used their powers to infiltrate their worlds. Unfortunately, their knowledge and affinity to alchemy was not enough, and they could achieve very little...",
+		"So they came to the bees for help, and they shared some of their knowledge on genetic manipulation.",
+		"But nothing comes for free. Some brave realmshifters decided to forsake their intelligence at the cost of strength, and were turned into large cyclopses. Using their space-bending abilities, they now wander the universe fighting invaders."
+	],
+	dependencies: [
+		"5fe7c4e5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3fe43c62",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pink_marble"
+		}]
+	}]
+}

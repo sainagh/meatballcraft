@@ -1,0 +1,14 @@
+{
+	x: 20.0d,
+	y: -1.5d,
+	dependencies: [
+		"adb65dd2"
+	],
+	tasks: [{
+		uid: "a85269b0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_accelerator"
+		}]
+	}]
+}

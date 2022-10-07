@@ -1,0 +1,19 @@
+{
+	title: "Minerals",
+	x: 2.0d,
+	y: 0.0d,
+	description: "All natural occurring minerals are found in the Material Compenduum tab",
+	text: [
+		"This planet's soil appears to be very rich of minerals and metals. This is good, because a lot of the creatures here are definitely not friendly, and I need weapons and some means of protection.",
+		"Some materials are harder than others, and some seem to have particular properties, I'll keep track of what I find to make sure I can figure out what to use them for..."
+	],
+	dependencies: [
+		"2b0e537a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6d4f1474",
+		type: "checkmark",
+		icon: "minecraft:iron_ore"
+	}]
+}

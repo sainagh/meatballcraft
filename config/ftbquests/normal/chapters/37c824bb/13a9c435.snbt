@@ -1,0 +1,20 @@
+{
+	title: "Big laser, much rupee",
+	x: 35.0d,
+	y: -4.5d,
+	description: "Drops are custom!",
+	text: [
+		"This laser is useful, it should provide a lot of very good minerals!"
+	],
+	dependencies: [
+		"72490c57"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fee671f9",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spacelaser"
+		}]
+	}]
+}

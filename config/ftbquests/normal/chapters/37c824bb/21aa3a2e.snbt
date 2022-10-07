@@ -1,0 +1,24 @@
+{
+	x: 125.0d,
+	y: 1.5d,
+	dependencies: [
+		"c5794c9e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "270f7e1d",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "magnatar_stabilizer",
+				Amount: 1000
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

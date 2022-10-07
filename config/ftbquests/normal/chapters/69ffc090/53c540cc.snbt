@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -4.5d,
+	dependencies: [
+		"86e97a13"
+	],
+	tasks: [{
+		uid: "787229c1",
+		type: "item",
+		items: [{
+			id: "guideapi:bloodmagic-guide",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Particle Accelerator",
+	x: 0.0d,
+	y: -9.5d,
+	dependencies: [
+		"69404a6d"
+	],
+	tasks: [{
+		uid: "492dad14",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:particle_accelerator"
+			}
+		}]
+	}]
+}

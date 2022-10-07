@@ -1,0 +1,16 @@
+{
+	x: 71.0d,
+	y: 1.5d,
+	description: "You really should have automated this by now",
+	dependencies: [
+		"40d98bd3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e1facf70",
+		type: "item",
+		items: [{
+			item: "contenttweaker:greater_mana_core"
+		}]
+	}]
+}

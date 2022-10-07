@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: 5.0d,
+	text: [
+		"Latex can be extracted from a wood log placing a tree fluid extractor next to it.",
+		"Multiple extractors can be placed around a single log.",
+		"Some sort of automatic placer can be used to replenish consumed logs once they are depleted by the extractors."
+	],
+	dependencies: [
+		"0ab08fce"
+	],
+	tasks: [{
+		uid: "257b6e70",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:tree_fluid_extractor"
+		}]
+	}]
+}

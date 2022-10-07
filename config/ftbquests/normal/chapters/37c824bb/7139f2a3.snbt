@@ -1,0 +1,15 @@
+{
+	x: 63.5d,
+	y: -4.5d,
+	dependencies: [
+		"b0b1458d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e95f0db3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mysterium_garnet"
+		}]
+	}]
+}

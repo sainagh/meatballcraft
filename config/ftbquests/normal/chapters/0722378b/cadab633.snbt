@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 22.0d,
+	text: [
+		"Weird solutes make for weird crystals..."
+	],
+	dependencies: [
+		"5f57ce40"
+	],
+	tasks: [{
+		uid: "413a2b91",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:crystallizer_idle"
+		}]
+	}]
+}

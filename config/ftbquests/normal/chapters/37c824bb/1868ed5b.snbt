@@ -1,0 +1,26 @@
+{
+	title: "Shyre Tech",
+	x: 68.0d,
+	y: 1.5d,
+	dependencies: [
+		"6304b450"
+	],
+	hide: true,
+	tasks: [{
+		uid: "249b7c35",
+		type: "item",
+		items: [{
+			item: "contenttweaker:infusion_catalyst"
+		}]
+	},
+	{
+		uid: "0e031ac6",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:infusinator"
+			}
+		}]
+	}]
+}

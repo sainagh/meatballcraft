@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: 12.5d,
+	dependencies: [
+		"23968262"
+	],
+	tasks: [{
+		uid: "01b3655d",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_clay_fluid"
+		}]
+	}]
+}

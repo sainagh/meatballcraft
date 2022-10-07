@@ -1,0 +1,18 @@
+{
+	title: "Creation Altar",
+	x: -2.0d,
+	y: -9.5d,
+	dependencies: [
+		"69404a6d"
+	],
+	tasks: [{
+		uid: "1ef9b993",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:creation_altar"
+			}
+		}]
+	}]
+}

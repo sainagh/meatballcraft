@@ -1,0 +1,17 @@
+{
+	x: 20.0d,
+	y: 4.0d,
+	text: [
+		"Spawns From Y=0 to Y=41"
+	],
+	dependencies: [
+		"4ed812bb"
+	],
+	tasks: [{
+		uid: "e89ed51c",
+		type: "item",
+		items: [{
+			item: "aoa3:skullbone_fragment"
+		}]
+	}]
+}

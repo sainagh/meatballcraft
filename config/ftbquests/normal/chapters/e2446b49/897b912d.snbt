@@ -1,0 +1,17 @@
+{
+	x: 7.0d,
+	y: -3.0d,
+	dependencies: [
+		"1a9cfbb7"
+	],
+	tasks: [{
+		uid: "9ee421d3",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:tool_launcher",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

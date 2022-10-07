@@ -1,0 +1,30 @@
+{
+	title: "Creeponia Falls",
+	x: 45.5d,
+	y: 3.0d,
+	description: "Use explosive gems on a creep altar",
+	text: [
+		"I was right, life on Creeponia is artificial!",
+		"This is very depressing, imagine existing and living solely to be a suicide bomber..."
+	],
+	dependencies: [
+		"565c986d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0df87ac0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:creeponian_cap"
+		}]
+	},
+	{
+		uid: "a8fc6502",
+		type: "item",
+		items: [{
+			item: "contenttweaker:creeponia_callstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

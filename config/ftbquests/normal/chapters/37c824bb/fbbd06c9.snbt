@@ -1,0 +1,21 @@
+{
+	title: "I am Insane!",
+	x: 50.0d,
+	y: -4.5d,
+	dependencies: [
+		"72f13da7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5c0a7388",
+		type: "item",
+		items: [{
+			id: "contenttweaker:eldritch_flower",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

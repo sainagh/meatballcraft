@@ -1,0 +1,25 @@
+{
+	title: "Haven Falls",
+	x: 62.5d,
+	y: -1.5d,
+	text: [
+		"The plot did thicken!",
+		"Finally, some info on the history of these two universal superpowers.",
+		"Apparently, both of them achieved Kardashev type 5 status thanks to their leader's study of recursion.",
+		"The hard step to achieve such a feat, accoding to the history of this land, is to obtain immortality.",
+		"Then, apparently it's just a matter of time until recursion 'levels-up' to allow for more universe-impacting abilities."
+		"At different points in time, the patriarchs of the horde and the empire discovered recursion, started expanding, and eventually ran into each other.",
+		"Haven was the home of their first battle, and ever since, the two have been at war."
+	],
+	dependencies: [
+		"20f80355"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8532a5cf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:haven_cap"
+		}]
+	}]
+}

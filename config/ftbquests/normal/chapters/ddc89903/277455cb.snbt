@@ -1,0 +1,28 @@
+{
+	x: 5.0d,
+	y: 7.5d,
+	dependencies: [
+		"23968262"
+	],
+	tasks: [{
+		uid: "0a38a033",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_cobble_fluid"
+		}]
+	},
+	{
+		uid: "d9a4e3f5",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_stone_fluid"
+		}]
+	},
+	{
+		uid: "e438e9e8",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_quartz_fluid"
+		}]
+	}]
+}

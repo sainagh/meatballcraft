@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: 6.0d,
+	dependencies: [
+		"29d5d0eb"
+	],
+	tasks: [{
+		uid: "e82edc7c",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemrockcrystalsimple",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

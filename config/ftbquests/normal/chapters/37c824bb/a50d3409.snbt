@@ -1,0 +1,14 @@
+{
+	x: 93.5d,
+	y: 6.0d,
+	dependencies: [
+		"cd0becc6"
+	],
+	tasks: [{
+		uid: "3801ab1b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:clunky_chunky_brick"
+		}]
+	}]
+}

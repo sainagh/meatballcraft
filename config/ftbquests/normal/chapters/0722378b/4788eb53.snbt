@@ -1,0 +1,12 @@
+{
+	x: -1.0d,
+	y: 7.0d,
+	dependencies: [
+		"89deb826"
+	],
+	tasks: [{
+		uid: "82fea8b4",
+		type: "checkmark",
+		title: "Extended Crafting"
+	}]
+}

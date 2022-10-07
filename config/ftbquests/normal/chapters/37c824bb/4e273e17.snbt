@@ -1,0 +1,30 @@
+{
+	title: "Tier 4 Mythical Resources",
+	x: 35.0d,
+	y: -1.5d,
+	text: [
+		"Some of my previous experiments have allowed me to use  now partially-known shyre powers to generate organic matter from weak shyre creatures, but the powers from advanced blood magic should greatly boost my abilities.",
+		"This form of magic, that I like to call mythic, holds a power of creation similar to alchemy, but it's more tricky to manage."
+	],
+	dependencies: [
+		"f5f8aeaf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3b8378f0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:nethersky_amber"
+		}]
+	},
+	{
+		uid: "0d954dc5",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:mythical_resource_miner_tier4"
+			}
+		}]
+	}]
+}

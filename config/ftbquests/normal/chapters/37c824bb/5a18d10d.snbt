@@ -1,0 +1,26 @@
+{
+	title: "Impossible Depths",
+	x: 44.0d,
+	y: 4.5d,
+	text: [
+		"Here's another case of the Syre Empire's ability to manipulate space time.",
+		"Just like the Erebus caves, the Deeplands exist as a flat 2D section with no curvature.",
+		"In this case, unlike lelyetia, there seems to be a clear culprit, charged runium!"
+	],
+	dependencies: [
+		"b2e50833"
+	],
+	hide: true,
+	tasks: [{
+		uid: "284e6bf0",
+		type: "item",
+		items: [{
+			id: "aoa3:deeplands_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

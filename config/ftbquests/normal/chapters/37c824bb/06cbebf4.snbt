@@ -1,0 +1,44 @@
+{
+	title: "Tier 2 Mythical Resources",
+	x: 29.0d,
+	y: -1.5d,
+	description: "Do this ASAP",
+	text: [
+		"More Mythic minerals, more Shyre matter!"
+	],
+	dependencies: [
+		"51d358d6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6cdd7618",
+		type: "item",
+		items: [{
+			item: "divinerpg:bloodgem_block"
+		}]
+	},
+	{
+		uid: "b87bb820",
+		type: "item",
+		items: [{
+			item: "aoa3:emberstone_block"
+		}]
+	},
+	{
+		uid: "aad3353d",
+		type: "item",
+		items: [{
+			item: "divinerpg:netherite_block"
+		}]
+	},
+	{
+		uid: "265fe839",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:mythical_resource_miner_tier2"
+			}
+		}]
+	}]
+}

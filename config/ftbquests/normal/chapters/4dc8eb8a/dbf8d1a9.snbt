@@ -1,0 +1,17 @@
+{
+	x: -5.5d,
+	y: 0.0d,
+	text: [
+		"Creatures can be duplicated with this machine consuming essence, given the programmation provided by an Imprisonment Tool."
+	],
+	dependencies: [
+		"dea6e5e5"
+	],
+	tasks: [{
+		uid: "d325e148",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 14.0d,
+	y: 0.0d,
+	text: [
+		"As The Title Says!"
+		""
+		"- Written by Bluecat"
+	],
+	tasks: [{
+		uid: "74311bef",
+		type: "checkmark",
+		title: "Betweenlands Minerals"
+	}]
+}

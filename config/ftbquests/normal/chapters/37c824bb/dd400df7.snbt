@@ -1,0 +1,21 @@
+{
+	title: "The Infinite Fortress",
+	x: 32.0d,
+	y: -6.0d,
+	text: [
+		"I do not understand why, but after becoming aware of botanical magic, things make more sense...",
+		"I can feel new things, including traces, traces left by some of the creatures roaming Terra, they came here through wormholes, just like me...",
+		"But now I can sense the 'scars' into spacetime they left while travelling here..."
+	],
+	dependencies: [
+		"a852a933"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb4a4506",
+		type: "item",
+		items: [{
+			item: "divinerpg:arcana_portal_frame"
+		}]
+	}]
+}

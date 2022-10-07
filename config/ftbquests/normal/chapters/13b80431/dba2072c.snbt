@@ -1,0 +1,18 @@
+{
+	title: "Celeve",
+	icon: "aoa3:celeve_grass",
+	x: 19.0d,
+	y: 3.5d,
+	description: "5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+	text: [
+		""
+	],
+	dependencies: [
+		"d1317694"
+	],
+	tasks: [{
+		uid: "f93db49a",
+		type: "dimension",
+		dim: 804
+	}]
+}

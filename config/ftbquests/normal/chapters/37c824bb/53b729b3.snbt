@@ -1,0 +1,15 @@
+{
+	x: 38.0d,
+	y: -6.0d,
+	dependencies: [
+		"5fe7c4e5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4befc4bb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:agate"
+		}]
+	}]
+}

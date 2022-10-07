@@ -1,0 +1,24 @@
+{
+	title: "Sp00ky",
+	x: 23.0d,
+	y: 4.5d,
+	description: "Found in the overworld",
+	text: [
+		"The local fauna is interesting.",
+		"Now I know what happens after a pact with the (a) devil...",
+		"Testificates, lured in by the whispers of the forest, were promised great riches and power, but, as it always happen when talking to trees, it did not end well for them.",
+		"They are now transformed into merciless monsters, which is quite sad...",
+		"The appeal of power is hard to resist, I won't lie..."
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c660cb8b",
+		type: "item",
+		items: [{
+			item: "aoa3:haunted_log"
+		}]
+	}]
+}

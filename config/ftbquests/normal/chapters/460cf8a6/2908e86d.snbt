@@ -1,0 +1,23 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	text: [
+		"Can be Traded From a Metalloid for 20 Copper Coins",
+		"Can be Harvested from lava at 40 Extraction, Stone at 85 Foraging and Logs at 95 Logging",
+		"Can be Found in Treasure Boxes and Shiny Boxes",
+		"Loot Chests from Structures may Have These",
+		"Rosite Ore Spawns in Y=15 to Y=49",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "2ae3f1f7",
+		type: "item",
+		items: [{
+			item: "aoa3:rosite_ingot"
+		}]
+	}]
+}

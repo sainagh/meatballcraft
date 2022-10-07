@@ -1,0 +1,29 @@
+{
+	title: "Now they know!!",
+	x: 21.5d,
+	y: 7.5d,
+	text: [
+		"I guess I may have just interrupted an espionage mission.",
+		"Nice, I made someone who I don't know angry at me!"
+	],
+	dependencies: [
+		"0efda3f8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "52a2179a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:watcher_eye"
+		}]
+	},
+	{
+		uid: "46d0dfb8",
+		type: "item",
+		items: [{
+			item: "divinerpg:crabclaw_maul"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

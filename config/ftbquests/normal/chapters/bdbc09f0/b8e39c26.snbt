@@ -1,0 +1,14 @@
+{
+	x: -11.0d,
+	y: -5.0d,
+	dependencies: [
+		"aa79a5d4"
+	],
+	tasks: [{
+		uid: "89cf5354",
+		type: "item",
+		items: [{
+			item: "environmentaltech:lightning_cont_6"
+		}]
+	}]
+}

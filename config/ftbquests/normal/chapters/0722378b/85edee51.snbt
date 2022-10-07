@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 18.0d,
+	dependencies: [
+		"fe046b03"
+	],
+	tasks: [{
+		uid: "733c9e13",
+		type: "item",
+		items: [{
+			item: "techreborn:implosion_compressor"
+		}]
+	}]
+}

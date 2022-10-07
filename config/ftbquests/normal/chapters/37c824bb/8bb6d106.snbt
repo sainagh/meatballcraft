@@ -1,0 +1,16 @@
+{
+	title: "A hint of what's coming...",
+	x: 92.0d,
+	y: -1.5d,
+	dependencies: [
+		"fc10039f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "66e1a9d6",
+		type: "item",
+		items: [{
+			item: "divinerpg:mortum_block"
+		}]
+	}]
+}

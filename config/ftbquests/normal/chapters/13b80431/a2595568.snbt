@@ -1,0 +1,19 @@
+{
+	title: "Taerrapiatta Wormhole",
+	icon: "minecraft:stone",
+	x: -1.0d,
+	y: -5.5d,
+	description: "Right click a warper item",
+	text: [
+		""
+	],
+	dependencies: [
+		"446239db"
+	],
+	tasks: [{
+		uid: "9e55d703",
+		type: "dimension",
+		disable_toast: true,
+		dim: 180
+	}]
+}

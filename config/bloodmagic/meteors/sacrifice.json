@@ -1,0 +1,23 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "contenttweaker",
+      "path": "weight_of_the_heart"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 100,
+      "oreName": "oreCursedSapphire"
+    },
+    {
+      "weight": 10,
+      "oreName": "oreAquamarine"
+    }],
+  "explosionStrength": 10.0,
+  "radius": 5,
+  "maxWeight": 100,
+  "version": 4,
+  "cost": 5000000
+}

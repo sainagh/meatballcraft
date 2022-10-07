@@ -1,0 +1,18 @@
+{
+	x: 9.0d,
+	y: 2.0d,
+	text: [
+		"Slices and Splices organic and inorganic things together consuming the durability of an axe and shears.",
+		"Durability is not consumed if the tools are unbreakable!"
+	],
+	dependencies: [
+		"f40dd3ae"
+	],
+	tasks: [{
+		uid: "075a1dce",
+		type: "item",
+		items: [{
+			item: "enderio:block_slice_and_splice"
+		}]
+	}]
+}

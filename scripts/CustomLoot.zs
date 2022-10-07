@@ -1,0 +1,377 @@
+import loottweaker.LootTweaker;
+import loottweaker.vanilla.loot.LootTable;
+import loottweaker.vanilla.loot.LootPool;
+
+mods.ltt.LootTable.removeGlobalItem("aoa3:blank_realmstone");
+
+mods.ltt.LootTable.removeGlobalItem("mysticalagriculture:crafting:4");
+
+mods.ltt.LootTable.removeGlobalItem("twilightforest:uncrafting_table");
+
+mods.ltt.LootTable.removeGlobalItem("thebetweenlands:lore_scrap");
+
+mods.ltt.LootTable.removeGlobalItem("thebetweenlands:ring_of_dispersion");
+
+mods.ltt.LootTable.removeGlobalItem("biomesoplenty:sapling_1:7");
+
+mods.ltt.LootTable.removeGlobalItem("aoa3:shiny_box");
+
+val firedragfem = LootTweaker.getTable("iceandfire:fire_dragon_female_cave");
+val firedragfemr1 = firedragfem.addPool("firedragfemr1", 1, 1, 0, 0);
+firedragfemr1.addItemEntry(<contenttweaker:botanic_alchemic_catalyst>, 1);
+firedragfemr1.addItemEntry(<thaumcraft:sapling_silverwood>, 5);
+firedragfemr1.addItemEntry(<aoa3:sapphire>, 7);
+firedragfemr1.addItemEntry(<xreliquary:mob_ingredient:3>*4, 5);
+
+val firedragmal = LootTweaker.getTable("iceandfire:fire_dragon_male_cave");
+val firedragmalr1 = firedragmal.addPool("firedragmalr1", 1, 1, 0, 0);
+firedragmalr1.addItemEntry(<contenttweaker:botanic_alchemic_catalyst>, 1);
+firedragmalr1.addItemEntry(<thaumcraft:loot_bag:1>, 5);
+firedragmalr1.addItemEntry(<aoa3:sapphire>, 1);
+firedragmalr1.addItemEntry(<minecraft:ghast_tear>, 10);
+
+val icedragfem = LootTweaker.getTable("iceandfire:ice_dragon_female_cave");
+val icedragfemr1 = icedragfem.addPool("icedragfemr1", 1, 1, 0, 0);
+icedragfemr1.addItemEntry(<contenttweaker:botanic_alchemic_catalyst>, 1);
+icedragfemr1.addItemEntry(<botania:blacklotus:1>, 5);
+icedragfemr1.addItemEntry(<aoa3:sapphire>, 2);
+icedragfemr1.addItemEntry(<xreliquary:mob_ingredient:3>*4, 5);
+
+val icedragmal = LootTweaker.getTable("iceandfire:ice_dragon_male_cave");
+val icedragmalr1 = icedragmal.addPool("icedragmalr1", 1, 1, 0, 0);
+icedragmalr1.addItemEntry(<contenttweaker:botanic_alchemic_catalyst>, 1);
+icedragmalr1.addItemEntry(<aoa3:sapphire>, 3);
+icedragmalr1.addItemEntry(<botania:blacklotus:1>*2, 5);
+
+val nethengeicwither = LootTweaker.getTable("aoa3:entities/bosses/nethengeic_wither");
+val nethengeicroll = nethengeicwither.addPool("nethengeicroll", 1, 1, 0, 0);
+nethengeicroll.addItemEntry(<bewitchment:demon_heart>*3, 5);
+nethengeicroll.addItemEntry(<divinerpg:divine_shards>, 5);
+val nethengeicbone = nethengeicwither.addPool("nethengeicbone", 1, 1, 0, 0);
+nethengeicbone.addItemEntry(<contenttweaker:nethengeic_bone>, 5);
+
+val thewatcher = LootTweaker.getTable("divinerpg:entities/boss/the_watcher");
+val thewatcherroll = thewatcher.addPool("thewatcherroll", 1, 1, 0, 0);
+thewatcherroll.addItemEntry(<bewitchment:demon_heart>*3, 5);
+thewatcherroll.addItemEntry(<aoa3:medium_skill_crystal>, 5);
+val watchereye = thewatcher.addPool("watchereye", 1, 1, 0, 0);
+watchereye.addItemEntry(<contenttweaker:watcher_eye>, 5);
+
+val ancientgolem = LootTweaker.getTable("aoa3:entities/mobs/overworld/ancient_golem");
+val ancientgolemroll = ancientgolem.addPool("ancientgolemroll", 1, 1, 0, 0);
+ancientgolemroll.addItemEntry(<aoa3:jade>, 5);
+
+val bonecreature = LootTweaker.getTable("aoa3:entities/mobs/overworld/bone_creature");
+val bonecreatureroll = bonecreature.addPool("bonecreatureroll", 1, 1, 0, 0);
+bonecreatureroll.addItemEntry(<aoa3:jade>, 5);
+bonecreatureroll.addItemEntry(<thaumcraft:loot_bag:2>, 5);
+
+val chimera = LootTweaker.getTable("aoa3:entities/mobs/overworld/chimera");
+val chimeraroll = chimera.addPool("chimeraroll", 1, 1, 0, 0);
+chimeraroll.addItemEntry(<aoa3:limonite_ingot>, 5);
+
+val polarursa = LootTweaker.getTable("aoa3:entities/mobs/overworld/polar_ursa");
+val polarursaroll = polarursa.addPool("polarursaroll", 1, 1, 0, 0);
+polarursaroll.addItemEntry(<aoa3:rosite_ingot>, 5);
+
+val dimdoordungeon = LootTweaker.getTable("dimdoors:dungeon_chest");
+val dimdoorsdungeonroll = dimdoordungeon.addPool("dimdoorsdungeonroll", 1, 1, 0, 0);
+dimdoorsdungeonroll.addItemEntry(<ebwizardry:grand_crystal>, 5);
+dimdoorsdungeonroll.addItemEntry(<projecte:item.pe_matter:1>, 2);
+
+val mothervoidwalker = LootTweaker.getTable("aoa3:entities/mobs/overworld/mother_void_walker");
+val mothervoidwalkerroll = mothervoidwalker.addPool("mothervoidwalkerroll", 1, 1, 0, 0);
+mothervoidwalkerroll.addItemEntry(<thaumcraft:curio:1>, 5);
+
+val epiphite = LootTweaker.getTable("divinerpg:entities/wildwood/epiphite");
+val epiphiteroll = epiphite.addPool("epiphiteroll", 1, 1, 0, 0);
+epiphiteroll.addItemEntry(<divinerpg:divine_shards>, 5);
+
+val anciententity = LootTweaker.getTable("divinerpg:entities/boss/ancient_entity");
+val ancientrenmants = anciententity.addPool("ancientrenmants", 1, 1, 0, 0);
+ancientrenmants.addItemEntry(<contenttweaker:ancient_remnants>, 5);
+
+val ayeracoblue = LootTweaker.getTable("divinerpg:entities/boss/ayeraco_blue");
+val ayeracoscale = ayeracoblue.addPool("ayeracoscale", 1, 1, 0, 0);
+ayeracoscale.addItemEntry(<contenttweaker:ayeraco_scale>, 5);
+
+val ayeracogreen = LootTweaker.getTable("divinerpg:entities/boss/ayeraco_green");
+val ayeracoscaleg = ayeracogreen.addPool("ayeracoscaleg", 1, 1, 0, 0);
+ayeracoscaleg.addItemEntry(<contenttweaker:ayeraco_scale>, 5);
+
+val densos = LootTweaker.getTable("divinerpg:entities/boss/densos");
+val densoseye = densos.addPool("densoseye", 1, 1, 0, 0);
+densoseye.addItemEntry(<contenttweaker:densos_eye>, 5);
+
+val dramix = LootTweaker.getTable("divinerpg:entities/boss/dramix");
+val dramixskin = dramix.addPool("dramixskin", 1, 1, 0, 0);
+dramixskin.addItemEntry(<contenttweaker:dramix_skin>, 5);
+
+val eternalarcher = LootTweaker.getTable("divinerpg:entities/boss/eternal_archer");
+val eternalshoulder = eternalarcher.addPool("eternalshoulder", 1, 1, 0, 0);
+eternalshoulder.addItemEntry(<contenttweaker:eternal_shoulder>, 5);
+
+val karot = LootTweaker.getTable("divinerpg:entities/boss/karot");
+val karothorn = karot.addPool("karothorn", 1, 1, 0, 0);
+karothorn.addItemEntry(<contenttweaker:karot_horn>, 5);
+
+val kingscorher = LootTweaker.getTable("divinerpg:entities/boss/king_of_scorchers");
+val scorcherflame = kingscorher.addPool("scorcherflame", 1, 1, 0, 0);
+scorcherflame.addItemEntry(<contenttweaker:scorcher_eternal_flame>, 5);
+
+val parasecta = LootTweaker.getTable("divinerpg:entities/boss/parasecta");
+val parasectawing = parasecta.addPool("parasectawing", 1, 1, 0, 0);
+parasectawing.addItemEntry(<contenttweaker:parasecta_wing>, 5);
+
+val reyvor = LootTweaker.getTable("divinerpg:entities/boss/reyvor");
+val reyvoreye = reyvor.addPool("reyvoreye", 1, 1, 0, 0);
+reyvoreye.addItemEntry(<contenttweaker:reyvor_eye>, 5);
+
+val soulfiend = LootTweaker.getTable("divinerpg:entities/boss/soul_fiend");
+val fiendsoul = soulfiend.addPool("fiendsoul", 1, 1, 0, 0);
+fiendsoul.addItemEntry(<contenttweaker:fiend_soul>, 5);
+
+val twilightdemon = LootTweaker.getTable("divinerpg:entities/boss/twilight_demon");
+val twilightantenna = twilightdemon.addPool("twilightantenna", 1, 1, 0, 0);
+twilightantenna.addItemEntry(<contenttweaker:twilight_antenna>, 5);
+
+val vamacheron = LootTweaker.getTable("divinerpg:entities/boss/vamacheron");
+val vamacheronfur = vamacheron.addPool("vamacheronfur", 1, 1, 0, 0);
+vamacheronfur.addItemEntry(<contenttweaker:vamacheron_fur>, 5);
+
+val termasect = LootTweaker.getTable("divinerpg:entities/boss/termasect");
+val termasectbark = termasect.addPool("termasectbark", 1, 1, 0, 0);
+termasectbark.addItemEntry(<contenttweaker:termasect_bark>, 5);
+
+val sunstorm = LootTweaker.getTable("divinerpg:entities/boss/sunstorm");
+val sunstormray = sunstorm.addPool("sunstormray", 1, 1, 0, 0);
+sunstormray.addItemEntry(<contenttweaker:sunstorm_ray>, 5);
+
+val experiencedcori = LootTweaker.getTable("divinerpg:entities/boss/experienced_cori");
+val coriexperience = experiencedcori.addPool("coriexperience", 1, 1, 0, 0);
+coriexperience.addItemEntry(<contenttweaker:cori_experience>, 5);
+
+val bane = LootTweaker.getTable("aoa3:entities/bosses/bane");
+val banetusk = bane.addPool("banetusk", 1, 1, 0, 0);
+banetusk.addItemEntry(<contenttweaker:bane_tusk>, 5);
+
+val baroness = LootTweaker.getTable("aoa3:entities/bosses/baroness");
+val baronessbrain = baroness.addPool("baronessbrain", 1, 1, 0, 0);
+baronessbrain.addItemEntry(<contenttweaker:baroness_brain>, 5);
+
+val clunkhead = LootTweaker.getTable("aoa3:entities/bosses/clunkhead");
+val clunkheadbrick = clunkhead.addPool("clunkheadbrick", 1, 1, 0, 0);
+clunkheadbrick.addItemEntry(<contenttweaker:clunkhead_brick>, 5);
+
+val coniferon = LootTweaker.getTable("aoa3:entities/bosses/coniferon");
+val coniferonbark = coniferon.addPool("coniferonbark", 1, 1, 0, 0);
+coniferonbark.addItemEntry(<contenttweaker:coniferon_bark>, 5);
+
+val corallus = LootTweaker.getTable("aoa3:entities/bosses/corallus");
+val coralluspolyp = corallus.addPool("coralluspolyp", 1, 1, 0, 0);
+coralluspolyp.addItemEntry(<contenttweaker:corallus_polyp>, 5);
+
+val cottoncandor = LootTweaker.getTable("aoa3:entities/bosses/cotton_candor");
+val cottoncandorfrosting = cottoncandor.addPool("cottoncandorfrosting", 1, 1, 0, 0);
+cottoncandorfrosting.addItemEntry(<contenttweaker:cotton_candor_frosting>, 5);
+
+val craexxeus = LootTweaker.getTable("aoa3:entities/bosses/craexxeus");
+val xxeusheart = craexxeus.addPool("xxeusheart", 1, 1, 0, 0);
+xxeusheart.addItemEntry(<contenttweaker:xxeus_heart>, 5);
+
+val creep = LootTweaker.getTable("aoa3:entities/bosses/creep");
+val creepheart = creep.addPool("creepheart", 1, 1, 0, 0);
+creepheart.addItemEntry(<contenttweaker:creep_explosive_gland>, 5);
+
+val crystocore = LootTweaker.getTable("aoa3:entities/bosses/crystocore");
+val crystocoreshard = crystocore.addPool("crystocoreshard", 1, 1, 0, 0);
+crystocoreshard.addItemEntry(<contenttweaker:crystocore_shard>, 5);
+
+val dracyon = LootTweaker.getTable("aoa3:entities/bosses/dracyon");
+val dracyontooth = dracyon.addPool("dracyontooth", 1, 1, 0, 0);
+dracyontooth.addItemEntry(<contenttweaker:dracyon_tooth>, 5);
+
+val elusive = LootTweaker.getTable("aoa3:entities/bosses/elusive");
+val elusivehorn = elusive.addPool("elusivehorn", 1, 1, 0, 0);
+elusivehorn.addItemEntry(<contenttweaker:elusive_horn>, 5);
+
+val flash = LootTweaker.getTable("aoa3:entities/bosses/flash");
+val flashskull = flash.addPool("flashskull", 1, 1, 0, 0);
+flashskull.addItemEntry(<contenttweaker:flash_skull>, 5);
+
+val goldorth = LootTweaker.getTable("aoa3:entities/bosses/goldorth");
+val goldortheye = goldorth.addPool("goldortheye", 1, 1, 0, 0);
+goldortheye.addItemEntry(<contenttweaker:goldorth_golden_eye>, 5);
+
+val graw = LootTweaker.getTable("aoa3:entities/bosses/graw");
+val grawfang = graw.addPool("grawfang", 1, 1, 0, 0);
+grawfang.addItemEntry(<contenttweaker:graw_fang>, 5);
+
+val guardian = LootTweaker.getTable("aoa3:entities/bosses/red_guardian");
+val guardianrune = guardian.addPool("guardianrune", 1, 1, 0, 0);
+guardianrune.addItemEntry(<contenttweaker:guardian_rune>, 5);
+
+val gyro = LootTweaker.getTable("aoa3:entities/bosses/gyro");
+val gyronose = gyro.addPool("gyronose", 1, 1, 0, 0);
+gyronose.addItemEntry(<contenttweaker:gyro_red_nose>, 5);
+
+val harkos = LootTweaker.getTable("aoa3:entities/bosses/harkos");
+val harkosrib = harkos.addPool("harkosrib", 1, 1, 0, 0);
+harkosrib.addItemEntry(<contenttweaker:harkos_rib>, 5);
+
+val hivekinggg = LootTweaker.getTable("aoa3:entities/bosses/hive_king");
+val hivekingtendrildd = hivekinggg.addPool("hivekingtendrildd", 1, 1, 0, 0);
+hivekingtendrildd.addItemEntry(<contenttweaker:hive_king_tendril>, 5);
+
+val horon = LootTweaker.getTable("aoa3:entities/bosses/horon");
+val horontendon = horon.addPool("horontendon", 1, 1, 0, 0);
+horontendon.addItemEntry(<contenttweaker:horon_tendon>, 5);
+
+val hydrolisk = LootTweaker.getTable("aoa3:entities/bosses/hydrolisk");
+val hydroliskpincher = hydrolisk.addPool("hydroliskpincher", 1, 1, 0, 0);
+hydroliskpincher.addItemEntry(<contenttweaker:hydrolisk_pincher>, 5);
+
+val kajaros = LootTweaker.getTable("aoa3:entities/bosses/kajaros");
+val kajarosrib = kajaros.addPool("kajarosrib", 1, 1, 0, 0);
+kajarosrib.addItemEntry(<contenttweaker:kajaros_rib>, 5);
+
+val bambambam = LootTweaker.getTable("aoa3:entities/bosses/king_bambambam");
+val kingbambambampelvis = bambambam.addPool("kingbambambampelvis", 1, 1, 0, 0);
+kingbambambampelvis.addItemEntry(<contenttweaker:king_bambambam_pelvis>, 5);
+
+val shroomus = LootTweaker.getTable("aoa3:entities/bosses/king_shroomus");
+val kingshroomuscap = shroomus.addPool("kingshroomuscap", 1, 1, 0, 0);
+kingshroomuscap.addItemEntry(<contenttweaker:king_shroomus_cap>, 5);
+
+val klobber = LootTweaker.getTable("aoa3:entities/bosses/klobber");
+val klobberhand = klobber.addPool("klobberhand", 1, 1, 0, 0);
+klobberhand.addItemEntry(<contenttweaker:klobber_hand>, 5);
+
+val kror = LootTweaker.getTable("aoa3:entities/bosses/kror");
+val krorsediment = kror.addPool("krorsediment", 1, 1, 0, 0);
+krorsediment.addItemEntry(<contenttweaker:kror_sediment>, 5);
+
+val mechbot = LootTweaker.getTable("aoa3:entities/bosses/mechbot");
+val mechbotcpu = mechbot.addPool("mechbotcpu", 1, 1, 0, 0);
+mechbotcpu.addItemEntry(<contenttweaker:mechbot_cpu>, 5);
+
+val mirage = LootTweaker.getTable("aoa3:entities/bosses/mirage");
+val miragefemur = mirage.addPool("miragefemur", 1, 1, 0, 0);
+miragefemur.addItemEntry(<contenttweaker:mirage_femur>, 5);
+
+val miskel = LootTweaker.getTable("aoa3:entities/bosses/miskel");
+val miskelrib = miskel.addPool("miskelrib", 1, 1, 0, 0);
+miskelrib.addItemEntry(<contenttweaker:miskel_rib>, 5);
+
+val okazor = LootTweaker.getTable("aoa3:entities/bosses/okazor");
+val okazorrib = okazor.addPool("okazorrib", 1, 1, 0, 0);
+okazorrib.addItemEntry(<contenttweaker:okazor_rib>, 5);
+
+val penumbra = LootTweaker.getTable("aoa3:entities/bosses/penumbra");
+val penumbraspike = penumbra.addPool("penumbraspike", 1, 1, 0, 0);
+penumbraspike.addItemEntry(<contenttweaker:penumbra_spike>, 5);
+
+val proshield = LootTweaker.getTable("aoa3:entities/bosses/proshield");
+val proshieldhand = proshield.addPool("proshieldhand", 1, 1, 0, 0);
+proshieldhand.addItemEntry(<contenttweaker:proshield_hand>, 5);
+
+val raxxan = LootTweaker.getTable("aoa3:entities/bosses/raxxan");
+val raxxanrib = raxxan.addPool("raxxanrib", 1, 1, 0, 0);
+raxxanrib.addItemEntry(<contenttweaker:raxxan_rib>, 5);
+
+val rockrider = LootTweaker.getTable("aoa3:entities/bosses/rock_rider");
+val rockriderstone = rockrider.addPool("rockriderstone", 1, 1, 0, 0);
+rockriderstone.addItemEntry(<contenttweaker:rockrider_stone>, 5);
+
+val shadowlord = LootTweaker.getTable("aoa3:entities/bosses/shadowlord");
+val shadowlordeye = shadowlord.addPool("shadowlordeye", 1, 1, 0, 0);
+shadowlordeye.addItemEntry(<contenttweaker:shadowlord_eye>, 5);
+
+val silverfoot = LootTweaker.getTable("aoa3:entities/bosses/silverfoot");
+val silverfootfoot = silverfoot.addPool("silverfootfoot", 1, 1, 0, 0);
+silverfootfoot.addItemEntry(<contenttweaker:silver_foot>, 5);
+
+val skeletron = LootTweaker.getTable("aoa3:entities/bosses/skeletron");
+val skeletronskull = skeletron.addPool("skeletronskull", 1, 1, 0, 0);
+skeletronskull.addItemEntry(<contenttweaker:skeletron_skull>, 5);
+
+val smash = LootTweaker.getTable("aoa3:entities/bosses/smash");
+val smashjaw = smash.addPool("smashjaw", 1, 1, 0, 0);
+smashjaw.addItemEntry(<contenttweaker:smash_jaw>, 5);
+
+val tyrosaur = LootTweaker.getTable("aoa3:entities/bosses/tyrosaur");
+val tyrosaurhorn = tyrosaur.addPool("tyrosaurhorn", 1, 1, 0, 0);
+tyrosaurhorn.addItemEntry(<contenttweaker:tyrosaur_horn>, 5);
+
+val vinocorne = LootTweaker.getTable("aoa3:entities/bosses/vinocorne");
+val vinocornepetal = vinocorne.addPool("vinocornepetal", 1, 1, 0, 0);
+vinocornepetal.addItemEntry(<contenttweaker:vinocorne_petal>, 5);
+
+val visualent = LootTweaker.getTable("aoa3:entities/bosses/visualent");
+val visualentfang = visualent.addPool("visualentfang", 1, 1, 0, 0);
+visualentfang.addItemEntry(<contenttweaker:visualent_fang>, 5);
+
+val voxxulon = LootTweaker.getTable("aoa3:entities/bosses/voxxulon");
+val voxxulonslime = voxxulon.addPool("voxxulonslime", 1, 1, 0, 0);
+voxxulonslime.addItemEntry(<contenttweaker:voxxulon_slime>, 5);
+
+val augmentrare = LootTweaker.getTable("thaumicaugmentation:block/loot_rare");
+val augmentraresingularity = augmentrare.addPool("augmentraresingularity", 1, 1, 0, 0);
+augmentraresingularity.addItemEntry(<extendedcrafting:singularity:3>, 2);
+augmentraresingularity.addItemEntry(<extendedcrafting:singularity:1>, 2);
+augmentraresingularity.addItemEntry(<extendedcrafting:singularity:6>, 2);
+augmentraresingularity.addItemEntry(<extendedcrafting:singularity:2>, 2);
+augmentraresingularity.addItemEntry(<extendedcrafting:singularity:0>, 2);
+augmentraresingularity.addItemEntry(<extendedcrafting:singularity:5>, 2);
+augmentraresingularity.addItemEntry(<extendedcrafting:singularity:7>, 1);
+
+val enthralleddramcryx = LootTweaker.getTable("divinerpg:entities/vanilla/enthralled_dramcryx");
+val enthralleddramcryxhollytop = enthralleddramcryx.addPool("enthralleddramcryxhollytop", 1, 1, 0, 0);
+enthralleddramcryxhollytop.addItemEntry(<aoa3:holly_top_seeds>, 5);
+
+val gorgon = LootTweaker.getTable("iceandfire:gorgon");
+val gorgongoodloot = gorgon.addPool("gorgongoodloot", 1, 1, 0, 0);
+gorgongoodloot.addItemEntry(<contenttweaker:petrified_snake>, 5);
+
+val bettergaiaguardian = LootTweaker.getTable("botania:gaia_guardian_2");
+val bettergaiaguardianloot = bettergaiaguardian.addPool("bettergaiaguardianloot", 1, 1, 0, 0);
+bettergaiaguardianloot.addItemEntry(<contenttweaker:greater_gaia_spirit>, 5);
+
+val questingramgood = LootTweaker.getTable("twilightforest:entities/questing_ram_rewards");
+val questingramgoodfading = questingramgood.addPool("questingramgoodfading", 1, 2, 1, 1);
+questingramgoodfading.addItemEntry(<projectex:matter:13>, 5);
+
+val cadillion = LootTweaker.getTable("divinerpg:entities/eden/eden_cadillion");
+val cadillionbloodmaster = cadillion.addPool("cadillionbloodmaster", 1, 2, 1, 1);
+cadillionbloodmaster.addItemEntry(<contenttweaker:bloodmaster_metal_head>, 5);
+cadillionbloodmaster.addItemEntry(<contenttweaker:bloodmaster_metal_feet>, 5);
+cadillionbloodmaster.addItemEntry(<contenttweaker:bloodmaster_metal_chest>, 5);
+cadillionbloodmaster.addItemEntry(<contenttweaker:bloodmaster_metal_legs>, 5);
+
+val chaoschicken = LootTweaker.getTable("mightyenderchicken:chaos_chicken");
+val chaoschickenfeather = chaoschicken.addPool("chaoschickenfeather", 1, 2, 1, 1);
+chaoschickenfeather.addItemEntry(<contenttweaker:chaotic_feather>, 15);
+
+val dreadfulmummy = LootTweaker.getTable("thebetweenlands:entities/dreadful_peat_mummy");
+val dreadfulmummybone = dreadfulmummy.addPool("dreadfulmummybone", 1, 2, 1, 1);
+dreadfulmummybone.addItemEntry(<contenttweaker:dreadful_bone>, 15);
+
+val menacetentacle = LootTweaker.getTable("thebetweenlands:entities/sludge_menace");
+val menacetentaclesludge = menacetentacle.addPool("menacetentaclesludge", 1, 2, 1, 1);
+menacetentaclesludge.addItemEntry(<contenttweaker:menacing_sludge>, 15);
+
+val harbingercube = LootTweaker.getTable("twilightforest:entities/harbinger_cube");
+val harbingercubedrop = harbingercube.addPool("harbingercubedrop", 1, 2, 1, 1);
+harbingercubedrop.addItemEntry(<contenttweaker:harbinger_crystal>, 15);
+
+val enderchicken = LootTweaker.getTable("mightyenderchicken:ender_chicken");
+val enderchickenfeather = enderchicken.addPool("enderchickenfeather", 1, 2, 1, 1);
+enderchickenfeather.addItemEntry(<contenttweaker:ender_feather>, 15);
+
+val quadroloot = LootTweaker.getTable("divinerpg:entities/boss/quadro");
+val quadrolootring = quadroloot.addPool("quadrolootring", 1, 2, 1, 1);
+quadrolootring.addItemEntry(<thebetweenlands:ring_of_dispersion>, 15);
+
+val primordialmalevolence = LootTweaker.getTable("thebetweenlands:entities/fortress_boss");
+val primordialmalevolenceprism = primordialmalevolence.addPool("primordialmalevolenceprism", 1, 2, 1, 1);
+primordialmalevolenceprism.addItemEntry(<contenttweaker:primordial_prism>, 35);

@@ -1,0 +1,22 @@
+{
+	x: 20.0d,
+	y: 6.0d,
+	text: [
+		"Found in the Barathos Dimension from Advent of Ascension",
+		"Can be Found when Opening a Shiny Box",
+		"Can be Found in a Baron Castle",
+		"Found from Y=0 to Y=21",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"4ed812bb"
+	],
+	tasks: [{
+		uid: "7e2d484e",
+		type: "item",
+		items: [{
+			item: "aoa3:blazium_ingot"
+		}]
+	}]
+}

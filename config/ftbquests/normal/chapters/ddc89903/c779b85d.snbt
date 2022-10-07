@@ -1,0 +1,14 @@
+{
+	x: 18.0d,
+	y: -1.5d,
+	dependencies: [
+		"c886443f"
+	],
+	tasks: [{
+		uid: "c9931f68",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:arcane_assembler"
+		}]
+	}]
+}

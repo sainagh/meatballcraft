@@ -1,0 +1,14 @@
+{
+	x: 17.0d,
+	y: -3.5d,
+	dependencies: [
+		"c886443f"
+	],
+	tasks: [{
+		uid: "88cc5a83",
+		type: "item",
+		items: [{
+			item: "extracells:fluidcrafter"
+		}]
+	}]
+}

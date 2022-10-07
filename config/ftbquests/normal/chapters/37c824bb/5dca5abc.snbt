@@ -1,0 +1,24 @@
+{
+	title: "Am I Evil?",
+	x: 50.0d,
+	y: -1.5d,
+	text: [
+		"All that abyssal damnation crap really put a toll on me...",
+		"Yes, I am gaining more control over recursion, but at what cost?",
+		"is my brain still in my control? Who is it that is thinking my thoughts?",
+		"I am still trying to save the testificates, but am I really going through that much effort for them?",
+		"Or am I just chasing power for the sake of it?",
+		"Am I a bad person?"
+	],
+	dependencies: [
+		"eef6edb3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "be4a5fec",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:fracture_locator"
+		}]
+	}]
+}

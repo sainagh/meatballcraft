@@ -1,0 +1,13 @@
+{
+	x: 6.5d,
+	y: 4.5d,
+	description: "Hurt mobs sometimes drop items that heals you, the more you do it, the better the healing.",
+	dependencies: [
+		"d8e398cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f7396923",
+		type: "checkmark"
+	}]
+}

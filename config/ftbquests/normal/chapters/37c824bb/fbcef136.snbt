@@ -1,0 +1,18 @@
+{
+	icon: "contenttweaker:dynatos_crystal",
+	x: 14.0d,
+	y: -1.5d,
+	text: [
+		"Help will be there for those who seek it!",
+		"Getting stuff is hard (sometimes), that said, for those that are willing to search, things may get easier...",
+		"Or you can be a cheater and read TheGoodShit.zs"
+	],
+	dependencies: [
+		"8d6470f9"
+	],
+	tasks: [{
+		uid: "c0b2ee20",
+		type: "checkmark",
+		title: "Good Stuff"
+	}]
+}

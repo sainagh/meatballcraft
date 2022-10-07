@@ -1,0 +1,24 @@
+{
+	title: "Eternal Dusk",
+	x: 24.5d,
+	y: -6.0d,
+	text: [
+		"As I am becoming more well-versed in thaumaturgy, things are starting to make more sense...",
+		"Well, they make less sense, but I can 'feel' more...",
+		"And I now feel like crabs are part of something bigger...",
+		"They are not from this world, well, not originally, they come from somewhere else, many generations ago, and they eventually evolved here on Terra to adapt to the current environment.",
+		"Someone brought them here, using a wormhole created using thaumic powers!",
+		""
+	],
+	dependencies: [
+		"74c81f2c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e2420b92",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fluix_lens"
+		}]
+	}]
+}

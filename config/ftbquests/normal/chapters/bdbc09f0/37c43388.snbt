@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: -4.0d,
+	text: [
+		"Seems like a solar panel with extra steps..."
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "97761724",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_1"
+		}]
+	}]
+}

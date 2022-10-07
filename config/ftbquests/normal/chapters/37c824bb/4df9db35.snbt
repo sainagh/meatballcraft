@@ -1,0 +1,93 @@
+{
+	title: "Tools of the Master Wizard",
+	x: 14.0d,
+	y: -7.5d,
+	dependencies: [
+		"7063e03d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f8fc2e78",
+		type: "item",
+		items: [{
+			id: "arcane_essentials:master_lightning_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "909dcb56",
+		type: "item",
+		items: [{
+			id: "arcane_essentials:master_fire_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bfdad8b0",
+		type: "item",
+		items: [{
+			id: "arcane_essentials:master_healing_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a8644ffd",
+		type: "item",
+		items: [{
+			id: "arcane_essentials:master_sorcery_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "726d4d4c",
+		type: "item",
+		items: [{
+			id: "arcane_essentials:master_nature_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f39a038f",
+		type: "item",
+		items: [{
+			id: "arcane_essentials:master_ice_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "81d14cc2",
+		type: "item",
+		items: [{
+			id: "arcane_essentials:master_necromancy_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: 8.0d,
+	text: [
+		"Makes neutrinos, really, really slowly..."
+	],
+	dependencies: [
+		"aa156294"
+	],
+	tasks: [{
+		uid: "a0732152",
+		type: "item",
+		items: [{
+			item: "avaritia:neutron_collector"
+		}]
+	}]
+}

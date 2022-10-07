@@ -1,0 +1,18 @@
+{
+	title: "Abyssal Wasteland",
+	icon: "abyssalcraft:fusedabyssalsand",
+	x: -1.0d,
+	y: 9.5d,
+	description: "Use a gateway key",
+	text: [
+		""
+	],
+	dependencies: [
+		"446239db"
+	],
+	tasks: [{
+		uid: "4c631615",
+		type: "dimension",
+		dim: 50
+	}]
+}

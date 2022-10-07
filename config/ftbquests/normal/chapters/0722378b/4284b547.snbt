@@ -1,0 +1,28 @@
+{
+	x: -6.5d,
+	y: 2.5d,
+	dependencies: [
+		"baf0c309"
+	],
+	tasks: [{
+		uid: "87bee27b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	},
+	{
+		uid: "231bd292",
+		type: "item",
+		items: [{
+			item: "thaumcraft:metal_alchemical"
+		}]
+	},
+	{
+		uid: "e6528896",
+		type: "item",
+		items: [{
+			item: "thaumcraft:brain_box"
+		}]
+	}]
+}

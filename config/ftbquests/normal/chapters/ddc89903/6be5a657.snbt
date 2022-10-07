@@ -1,0 +1,14 @@
+{
+	x: 17.0d,
+	y: -6.5d,
+	dependencies: [
+		"c886443f"
+	],
+	tasks: [{
+		uid: "79225d2a",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:ender_crafter"
+		}]
+	}]
+}

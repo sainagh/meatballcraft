@@ -1,0 +1,27 @@
+{
+	x: 17.0d,
+	y: -9.0d,
+	description: "Perform the ritual of the sleeper within the abyssal wasteland.",
+	text: [
+		"The necronomicon is, well, evil... The rituals hold a lot of power, but the price you pay is a seemingly permanent scar in the fabric of my being. It feels wrong...",
+		"That said, corrupting my entire being at least got me closer to answers. Those that control my immortality are higher dimensional beings, existing in multiple 3D 'sections' of reality.",
+		"Thanks to these extremely evil, but extremely effective, powers, I've been able to open a portal that'll grant me access to more dimensions of space.",
+		"This evil, cursed, wasteland is impregnated of the magic that binds my undeath, I feel it in my bones..."
+	],
+	dependencies: [
+		"fb4a13e3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "76656d7c",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:eoa",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

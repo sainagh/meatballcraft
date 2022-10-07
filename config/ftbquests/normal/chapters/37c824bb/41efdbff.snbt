@@ -1,0 +1,45 @@
+{
+	title: "Tools of the Master Witch",
+	x: 23.0d,
+	y: -7.5d,
+	dependencies: [
+		"7b03e812"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8f9ecd77",
+		type: "item",
+		items: [{
+			id: "erebus:war_hammer",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f0fce2e7",
+		type: "item",
+		items: [{
+			id: "redstonearsenal:tool.bow_flux",
+			tag: {
+				Energy: 0
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ccf33095",
+		type: "item",
+		items: [{
+			item: "erebus:spider_t_shirt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

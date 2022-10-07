@@ -1,0 +1,1494 @@
+{
+    "registryname": "dyson_compressor",
+    "localizedname": "Dyson Compressor",
+	"color": "590b7a",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:miniature_black_hole@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_item"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_item"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "casings_item"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "casings_item"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        }
+    ]}

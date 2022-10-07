@@ -1,0 +1,17 @@
+{
+	x: 17.0d,
+	y: 10.0d,
+	text: [
+		"Found in hard-to-see meteors"
+	],
+	dependencies: [
+		"0c2f0105"
+	],
+	tasks: [{
+		uid: "2f5a29f5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 76"
+		}]
+	}]
+}

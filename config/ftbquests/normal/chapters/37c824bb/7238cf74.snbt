@@ -1,0 +1,20 @@
+{
+	icon: "contenttweaker:rift_essence",
+	x: -5.5d,
+	y: 1.5d,
+	description: "This is a laggy pack, so try keeping large automation under control!",
+	text: [
+		"This is a story about portals and space-time, but all this cool and powerful stuff is not necessarily good for the fabric of reality, which may freeze and break, from time to time...",
+		"",
+		"*something something* there will be lag...",
+		"Thanks to Luctor for the quest suggestion!"
+	],
+	dependencies: [
+		"2e74a705"
+	],
+	tasks: [{
+		uid: "6b0a2b23",
+		type: "checkmark",
+		title: "The universe is shattering!"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Omothol",
+	icon: "abyssalcraft:stone 1 6",
+	x: 3.0d,
+	y: 9.5d,
+	description: "Use Cha'garoth r'lyehian gateway key",
+	text: [
+		""
+	],
+	dependencies: [
+		"45ad9145"
+	],
+	tasks: [{
+		uid: "326c7532",
+		type: "dimension",
+		dim: 52
+	}]
+}

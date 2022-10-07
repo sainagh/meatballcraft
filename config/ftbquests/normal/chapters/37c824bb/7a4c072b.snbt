@@ -1,0 +1,27 @@
+{
+	title: "Experiment #2",
+	x: 30.5d,
+	y: 3.0d,
+	text: [
+		"This is good news! Some of the testificated dared to explore more! They all eventually ended up getting defeated, but some of the exhiles of Furatto learned a few more things about recursion.",
+		"This power allows for masters of this art to be essentially 'gods', having the ability to exist in multiple places at once, and to escape death.",
+		"I do wonder if I will ever be able to escape my own Recursion prison and be able to unlock such powers...",
+		""
+	],
+	dependencies: [
+		"b22adae1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "433d4e08",
+		type: "item",
+		items: [{
+			id: "contenttweaker:diamerisma_warper",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

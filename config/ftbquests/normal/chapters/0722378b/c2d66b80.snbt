@@ -1,0 +1,17 @@
+{
+	x: -9.5d,
+	y: 1.5d,
+	dependencies: [
+		"6916aca9"
+	],
+	tasks: [{
+		uid: "9212f99d",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:dimensional_stabilizer"
+			}
+		}]
+	}]
+}

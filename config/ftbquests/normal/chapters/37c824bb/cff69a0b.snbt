@@ -1,0 +1,27 @@
+{
+	title: "BUZZwords",
+	x: 18.5d,
+	y: 1.5d,
+	description: "Gendustry is your friend! More info on book of creation",
+	text: [
+		"Bees are very abundant on Terra, and they seem to be similar to chickens, having the ability to be 'bound' to elements, I should experiment on them!"
+	],
+	dependencies: [
+		"ab2c32d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "680a998d",
+		type: "item",
+		items: [{
+			item: "forestry:bee_combs 1 5"
+		}]
+	},
+	{
+		uid: "b7cf8df9",
+		type: "item",
+		items: [{
+			item: "extrabees:honey_comb 1 11"
+		}]
+	}]
+}

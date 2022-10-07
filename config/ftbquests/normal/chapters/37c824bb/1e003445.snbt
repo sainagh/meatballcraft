@@ -1,0 +1,21 @@
+{
+	title: "Embracing Entropy",
+	x: 21.5d,
+	y: 9.0d,
+	text: [
+		"Despite their relatively low presence on Terra, sky dragons, including the very annoying chaotic ones, hold some serious power!",
+		"When it comes to the Twilight Horde and the Shyre Empire, I'm starting to believe I'm dealing with quite literal deities...",
+		"Will this make me strong enough..."
+	],
+	dependencies: [
+		"2d07ae9d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "702ce058",
+		type: "item",
+		items: [{
+			item: "tinymobfarm:ultimate_farm"
+		}]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Energetic Manipulation",
+	x: 54.5d,
+	y: 0.0d,
+	text: [
+		"No matter the scale of the war, it seems like everyone has the same motifs as on Earth.",
+		"Just like a certain western power in the early 2000s, it it all about resource control.",
+		"Many of the planets and planes under the control of the Shyre empire are composed of materials with interesting properties.",
+		"The affinity of these soils to the caotic, entropic effects I encountered on the upper sky of Terra is extremely interesting!",
+		"...and powerful, very powerful!"
+	],
+	dependencies: [
+		"c5eba600"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eb7bd3b0",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	},
+	{
+		uid: "a62a3706",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}]
+	}]
+}

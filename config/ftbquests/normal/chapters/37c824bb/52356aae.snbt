@@ -1,0 +1,21 @@
+{
+	title: "A land of coral",
+	x: 74.0d,
+	y: 4.5d,
+	dependencies: [
+		"e18a08ef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a5dbc0f7",
+		type: "item",
+		items: [{
+			id: "aoa3:borean_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

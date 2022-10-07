@@ -1,0 +1,24 @@
+{
+	title: "Imprisonment",
+	x: 11.0d,
+	y: -1.5d,
+	text: [
+		"I can now capture and transport other creatures for my own purposes, I promise I will not abuse this..."
+	],
+	dependencies: [
+		"a4aedc8f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a07c371d",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:mob_imprisonment_tool",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

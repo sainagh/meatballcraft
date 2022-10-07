@@ -1,0 +1,15 @@
+{
+	x: 84.5d,
+	y: -1.5d,
+	dependencies: [
+		"796ab2bc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "47c86af3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:corrupted_aragonite"
+		}]
+	}]
+}

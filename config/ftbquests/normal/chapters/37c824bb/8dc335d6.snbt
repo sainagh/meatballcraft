@@ -1,0 +1,80 @@
+{
+	x: 131.0d,
+	y: 0.0d,
+	dependencies: [
+		"5558a424"
+	],
+	hide: true,
+	tasks: [{
+		uid: "73980a3f",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d7c36816",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_bow",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c8e55513",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_helmet",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "75d64118",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_chestplate",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bbe50c9a",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_pants",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5263364d",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_boots",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

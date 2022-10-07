@@ -1,0 +1,20 @@
+{
+	x: 11.0d,
+	y: 5.0d,
+	text: [
+		"The enchantment extractor has two main functionalities.",
+		"Firstly, it can split a book with multiple enchants into separate ones.",
+		"Secondly, it can turn enchanted books into essence.",
+		"Unconventional essence farm idea? Enchant books without using experience!"
+	],
+	dependencies: [
+		"f7cac881"
+	],
+	tasks: [{
+		uid: "d3213253",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:enchantment_extractor"
+		}]
+	}]
+}

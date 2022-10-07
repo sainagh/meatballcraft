@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: 7.0d,
+	dependencies: [
+		"89deb826"
+	],
+	tasks: [{
+		uid: "c1dce5bc",
+		type: "checkmark",
+		title: "Tech Reborn"
+	}]
+}

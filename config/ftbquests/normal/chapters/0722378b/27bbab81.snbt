@@ -1,0 +1,12 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	dependencies: [
+		"89deb826"
+	],
+	tasks: [{
+		uid: "adfc212d",
+		type: "checkmark",
+		title: "Thermal"
+	}]
+}

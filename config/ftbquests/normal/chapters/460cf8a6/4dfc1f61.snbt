@@ -1,0 +1,19 @@
+{
+	x: 12.5d,
+	y: 4.0d,
+	text: [
+		"Only Found in a Goblin Stronghold",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"c3ccab1b"
+	],
+	tasks: [{
+		uid: "9e3c1a97",
+		type: "item",
+		items: [{
+			item: "twilightforest:knightmetal_ingot"
+		}]
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: 101.0d,
+	y: -4.5d,
+	dependencies: [
+		"458a752e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "839d2268",
+		type: "item",
+		items: [{
+			item: "bewitchment:catechu_brown"
+		}]
+	},
+	{
+		uid: "f62e2706",
+		type: "item",
+		items: [{
+			item: "bewitchment:nether_brick_witches_altar"
+		}]
+	},
+	{
+		uid: "3baacece",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_cauldron"
+		}]
+	},
+	{
+		uid: "b42c02f9",
+		type: "item",
+		items: [{
+			item: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

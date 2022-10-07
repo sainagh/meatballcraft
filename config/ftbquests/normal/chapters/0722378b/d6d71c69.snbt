@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 10.0d,
+	text: [
+		"For when the radioactive materials I need are not readily available from reactors..."
+	],
+	dependencies: [
+		"5f57ce40"
+	],
+	tasks: [{
+		uid: "a737dba8",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:decay_hastener_idle"
+		}]
+	}]
+}

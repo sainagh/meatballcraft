@@ -1,0 +1,19 @@
+{
+	x: 131.0d,
+	y: 1.5d,
+	dependencies: [
+		"5558a424"
+	],
+	tasks: [{
+		uid: "810fa20a",
+		type: "item",
+		items: [{
+			id: "erebus:wand_of_animation",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

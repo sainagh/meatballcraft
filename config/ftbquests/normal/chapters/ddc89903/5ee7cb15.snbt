@@ -1,0 +1,36 @@
+{
+	icon: "packagedauto:packager",
+	x: 17.0d,
+	y: -1.5d,
+	dependencies: [
+		"c886443f"
+	],
+	tasks: [{
+		uid: "4ec89545",
+		type: "item",
+		items: [{
+			item: "packagedauto:encoder"
+		}]
+	},
+	{
+		uid: "13eeca20",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	},
+	{
+		uid: "1caef10f",
+		type: "item",
+		items: [{
+			item: "packagedauto:unpackager"
+		}]
+	},
+	{
+		uid: "6b7ef201",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager_extension"
+		}]
+	}]
+}

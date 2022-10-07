@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: 1.0d,
+	text: [
+		"Found in the Nether",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"06049c7f"
+	],
+	tasks: [{
+		uid: "018207cb",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}]
+	}]
+}

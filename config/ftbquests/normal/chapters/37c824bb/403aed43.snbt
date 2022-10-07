@@ -1,0 +1,28 @@
+{
+	title: "The sky is free (sort of...)",
+	x: 24.5d,
+	y: 9.0d,
+	dependencies: [
+		"810a95e8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c0217365",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ayeraco_scale"
+		}]
+	},
+	{
+		uid: "b0424138",
+		type: "item",
+		items: [{
+			id: "divinerpg:black_ender_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

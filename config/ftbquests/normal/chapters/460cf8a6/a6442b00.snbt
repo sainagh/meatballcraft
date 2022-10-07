@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: 8.0d,
+	text: [
+		"Created From a Void Ore Minter",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"858e8da8"
+	],
+	tasks: [{
+		uid: "47ed321a",
+		type: "item",
+		items: [{
+			item: "environmentaltech:lonsdaleite_crystal"
+		}]
+	}]
+}

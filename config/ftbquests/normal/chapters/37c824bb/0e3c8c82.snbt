@@ -1,0 +1,16 @@
+{
+	title: "Embrace the Arts!",
+	x: 80.0d,
+	y: 0.0d,
+	dependencies: [
+		"62b05ac5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "356aa3ee",
+		type: "item",
+		items: [{
+			item: "extrabotany:blockorichalcos"
+		}]
+	}]
+}

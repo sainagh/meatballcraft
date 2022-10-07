@@ -1,0 +1,2150 @@
+{
+    "registryname": "plasmatic_condenser",
+    "localizedname": "Plasmatic Condenser",
+	"color": "330909",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "casings_item"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dark_soul_machine_chassis@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dark_soul_machine_chassis@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dark_soul_machine_chassis@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "casings_item"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:dark_soul_machine_chassis@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dark_soul_machine_chassis@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dark_soul_machine_chassis@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "casings_item"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:dark_soul_machine_chassis@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:dark_soul_machine_chassis@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:dark_soul_machine_chassis@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dark_soul_machine_chassis@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "casings_item"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_brick_2@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bloodmaster_block"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dark_soul_machine_chassis@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dark_soul_machine_chassis@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dark_soul_machine_chassis@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:block_depleted_plutonium@0"
+            ]
+        }
+    ]}

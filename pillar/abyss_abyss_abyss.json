@@ -1,0 +1,30 @@
+
+{
+	"generatorType": "ANYWHERE",
+	"minY": 90,
+	"maxY": 170,
+	"offsetX": 0,
+	"offsetY": 0,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [800],
+	"biomeNameSpawns": [],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": true,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "abyssalcraft:ingotblock",
+	"fillingMetadata": 2,
+	"fillingType": "AIR",
+	
+	"rarity": 1000
+}

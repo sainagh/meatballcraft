@@ -1,0 +1,29 @@
+{
+	x: 6.0d,
+	y: 1.0d,
+	text: [
+		"All Ore is Found Below Y=32",
+		"Specific Gemstones are Found in Their Own Biome",
+		"",
+		"Amber = Forest",
+		"Emerald = Moutain",
+		"Malachite = Swamp or Cold Biomes",
+		"Peridot = Plains",
+		"Ruby = Arid Biomes (Desert-Like)",
+		"Sapphire = Ocean",
+		"Tanzanite = Cold Biomes",
+		"Topaz = Lush Biomes (Jungle-Like)",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"b8958680"
+	],
+	tasks: [{
+		uid: "673a800d",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:gem"
+		}]
+	}]
+}

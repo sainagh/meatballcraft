@@ -1,0 +1,26 @@
+{
+	title: "Less Basic Fission",
+	x: 29.0d,
+	y: 1.5d,
+	description: "Best steam is from dynamos!",
+	text: [
+		"Using the renmants of yellorite fission, I was able to fabricate casing to effectively compress steam.",
+		""
+	],
+	dependencies: [
+		"51d358d6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fbd092f0",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinecontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "d602c87c",
+		type: "item",
+		item: "bigreactors:blockludicrite"
+	}]
+}

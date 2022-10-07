@@ -1,0 +1,30 @@
+{
+	title: "Warp Speed",
+	x: 38.0d,
+	y: 0.0d,
+	text: [
+		"Even though I now know that negative gravity and mass are possible, the strange properties of divine stars still do not make sense.",
+		"That said, I think I know what to try next.",
+		"Taking a distance from this planet has allowed me to observe phenomena impossible to see from its surface.",
+		"What if more stuff would become more evident after taking a distance from this solar system.",
+		"Also, while I generally believe to be quite far away from the milky way, I can try to get an idea on where the hell I might be relative to Earth.",
+		"To me to get speedy with dilithium!!"
+	],
+	dependencies: [
+		"71f69702"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b9dc5b5e",
+		type: "item",
+		items: [{
+			item: "libvulpes:productdust"
+		}]
+	}],
+	rewards: [{
+		uid: "83866c7d",
+		type: "item",
+		item: "libvulpes:productdust",
+		count: 100
+	}]
+}

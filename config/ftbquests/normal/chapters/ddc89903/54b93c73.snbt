@@ -1,0 +1,14 @@
+{
+	x: 16.0d,
+	y: 5.5d,
+	dependencies: [
+		"c886443f"
+	],
+	tasks: [{
+		uid: "0f726b53",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_terminal"
+		}]
+	}]
+}

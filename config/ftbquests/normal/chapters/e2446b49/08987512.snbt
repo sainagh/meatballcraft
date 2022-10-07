@@ -1,0 +1,14 @@
+{
+	x: 7.0d,
+	y: -4.5d,
+	dependencies: [
+		"1a9cfbb7"
+	],
+	tasks: [{
+		uid: "36b3d9d9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:burned_enchanted_feather"
+		}]
+	}]
+}

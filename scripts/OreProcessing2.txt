@@ -1,0 +1,363 @@
+#loader contenttweaker
+
+import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Item;
+import mods.contenttweaker.IItemRightClick;
+import mods.contenttweaker.Commands;
+
+
+var chunks1 = VanillaFactory.createItem("sapphire_destabilized_blend");
+chunks1.maxStackSize = 64;
+chunks1.register();
+
+var chunks2 = VanillaFactory.createItem("runium_destabilized_blend");
+chunks2.maxStackSize = 64;
+chunks2.register();
+
+var chunks3 = VanillaFactory.createItem("sednanite_destabilized_blend");
+chunks3.maxStackSize = 64;
+chunks3.register();
+
+var chunks4 = VanillaFactory.createItem("netherite_destabilized_blend");
+chunks4.maxStackSize = 64;
+chunks4.register();
+
+var chunks5 = VanillaFactory.createItem("bloodgem_destabilized_blend");
+chunks5.maxStackSize = 64;
+chunks5.register();
+
+var chunks6 = VanillaFactory.createItem("emberstone_destabilized_blend");
+chunks6.maxStackSize = 64;
+chunks6.register();
+
+var chunks7 = VanillaFactory.createItem("limonite_destabilized_blend");
+chunks7.maxStackSize = 64;
+chunks7.register();
+
+var chunks8 = VanillaFactory.createItem("rosite_destabilized_blend");
+chunks8.maxStackSize = 64;
+chunks8.register();
+
+var chunks9 = VanillaFactory.createItem("jade_destabilized_blend");
+chunks9.maxStackSize = 64;
+chunks9.register();
+
+var chunks10 = VanillaFactory.createItem("amethyst_destabilized_blend");
+chunks10.maxStackSize = 64;
+chunks10.register();
+
+var chunks11 = VanillaFactory.createItem("iridium_destabilized_blend");
+chunks11.maxStackSize = 64;
+chunks11.register();
+
+var chunks12 = VanillaFactory.createItem("starmetal_destabilized_blend");
+chunks12.maxStackSize = 64;
+chunks12.register();
+
+var chunks13 = VanillaFactory.createItem("shaded_destabilized_blend");
+chunks13.maxStackSize = 64;
+chunks13.register();
+
+var chunks14 = VanillaFactory.createItem("light_destabilized_blend");
+chunks14.maxStackSize = 64;
+chunks14.register();
+
+var chunks15 = VanillaFactory.createItem("magiccrystal_destabilized_blend");
+chunks15.maxStackSize = 64;
+chunks15.register();
+
+var chunks16 = VanillaFactory.createItem("gold_destabilized_blend");
+chunks16.maxStackSize = 64;
+chunks16.register();
+
+var chunks17 = VanillaFactory.createItem("iron_destabilized_blend");
+chunks17.maxStackSize = 64;
+chunks17.register();
+
+var chunks18 = VanillaFactory.createItem("coal_destabilized_blend");
+chunks18.maxStackSize = 64;
+chunks18.register();
+
+var chunks19 = VanillaFactory.createItem("lapis_destabilized_blend");
+chunks19.maxStackSize = 64;
+chunks19.register();
+
+var chunks20 = VanillaFactory.createItem("diamond_destabilized_blend");
+chunks20.maxStackSize = 64;
+chunks20.register();
+
+var chunks21 = VanillaFactory.createItem("redstone_destabilized_blend");
+chunks21.maxStackSize = 64;
+chunks21.register();
+
+var chunks22 = VanillaFactory.createItem("emerald_destabilized_blend");
+chunks22.maxStackSize = 64;
+chunks22.register();
+
+var chunks23 = VanillaFactory.createItem("quartz_destabilized_blend");
+chunks23.maxStackSize = 64;
+chunks23.register();
+
+var chunks24 = VanillaFactory.createItem("coralium_destabilized_blend");
+chunks24.maxStackSize = 64;
+chunks24.register();
+
+var chunks25 = VanillaFactory.createItem("abyssalnite_destabilized_blend");
+chunks25.maxStackSize = 64;
+chunks25.register();
+
+var chunks26 = VanillaFactory.createItem("baronyte_destabilized_blend");
+chunks26.maxStackSize = 64;
+chunks26.register();
+
+var chunks27 = VanillaFactory.createItem("blazium_destabilized_blend");
+chunks27.maxStackSize = 64;
+chunks27.register();
+
+var chunks28 = VanillaFactory.createItem("bloodstone_destabilized_blend");
+chunks28.maxStackSize = 64;
+chunks28.register();
+
+var chunks29 = VanillaFactory.createItem("bluecrystal_destabilized_blend");
+chunks29.maxStackSize = 64;
+chunks29.register();
+
+var chunks30 = VanillaFactory.createItem("chargedrunium_destabilized_blend");
+chunks30.maxStackSize = 64;
+chunks30.register();
+
+var chunks31 = VanillaFactory.createItem("chestbone_destabilized_blend");
+chunks31.maxStackSize = 64;
+chunks31.register();
+
+var chunks32 = VanillaFactory.createItem("crystallite_destabilized_blend");
+chunks32.maxStackSize = 64;
+chunks32.register();
+
+var chunks33 = VanillaFactory.createItem("elecanium_destabilized_blend");
+chunks33.maxStackSize = 64;
+chunks33.register();
+
+var chunks34 = VanillaFactory.createItem("footbone_destabilized_blend");
+chunks34.maxStackSize = 64;
+chunks34.register();
+
+var chunks35 = VanillaFactory.createItem("gemenyte_destabilized_blend");
+chunks35.maxStackSize = 64;
+chunks35.register();
+
+var chunks36 = VanillaFactory.createItem("ghastly_destabilized_blend");
+chunks36.maxStackSize = 64;
+chunks36.register();
+
+var chunks37 = VanillaFactory.createItem("ghoulish_destabilized_blend");
+chunks37.maxStackSize = 64;
+chunks37.register();
+
+var chunks38 = VanillaFactory.createItem("greencrystal_destabilized_blend");
+chunks38.maxStackSize = 64;
+chunks38.register();
+
+var chunks39 = VanillaFactory.createItem("jewelyte_destabilized_blend");
+chunks39.maxStackSize = 64;
+chunks39.register();
+
+var chunks40 = VanillaFactory.createItem("legbone_destabilized_blend");
+chunks40.maxStackSize = 64;
+chunks40.register();
+
+var chunks41 = VanillaFactory.createItem("lyon_destabilized_blend");
+chunks41.maxStackSize = 64;
+chunks41.register();
+
+var chunks42 = VanillaFactory.createItem("mystite_destabilized_blend");
+chunks42.maxStackSize = 64;
+chunks42.register();
+
+var chunks43 = VanillaFactory.createItem("ornamyte_destabilized_blend");
+chunks43.maxStackSize = 64;
+chunks43.register();
+
+var chunks44 = VanillaFactory.createItem("purplecrystal_destabilized_blend");
+chunks44.maxStackSize = 64;
+chunks44.register();
+
+var chunks45 = VanillaFactory.createItem("redcrystal_destabilized_blend");
+chunks45.maxStackSize = 64;
+chunks45.register();
+
+var chunks46 = VanillaFactory.createItem("shyregem_destabilized_blend");
+chunks46.maxStackSize = 64;
+chunks46.register();
+
+var chunks47 = VanillaFactory.createItem("shyrestone_destabilized_blend");
+chunks47.maxStackSize = 64;
+chunks47.register();
+
+var chunks48 = VanillaFactory.createItem("skullbone_destabilized_blend");
+chunks48.maxStackSize = 64;
+chunks48.register();
+
+var chunks49 = VanillaFactory.createItem("varsium_destabilized_blend");
+chunks49.maxStackSize = 64;
+chunks49.register();
+
+var chunks50 = VanillaFactory.createItem("whitecrystal_destabilized_blend");
+chunks50.maxStackSize = 64;
+chunks50.register();
+
+var chunks51 = VanillaFactory.createItem("yellowcrystal_destabilized_blend");
+chunks51.maxStackSize = 64;
+chunks51.register();
+
+var chunks52 = VanillaFactory.createItem("certus_destabilized_blend");
+chunks52.maxStackSize = 64;
+chunks52.register();
+
+var chunks53 = VanillaFactory.createItem("garnet_destabilized_blend");
+chunks53.maxStackSize = 64;
+chunks53.register();
+
+var chunks54 = VanillaFactory.createItem("opal_destabilized_blend");
+chunks54.maxStackSize = 64;
+chunks54.register();
+
+var chunks55 = VanillaFactory.createItem("salt_destabilized_blend");
+chunks55.maxStackSize = 64;
+chunks55.register();
+
+var chunks56 = VanillaFactory.createItem("silver_destabilized_blend");
+chunks56.maxStackSize = 64;
+chunks56.register();
+
+var chunks57 = VanillaFactory.createItem("ruby_destabilized_blend");
+chunks57.maxStackSize = 64;
+chunks57.register();
+
+var chunks58 = VanillaFactory.createItem("peridot_destabilized_blend");
+chunks58.maxStackSize = 64;
+chunks58.register();
+
+var chunks59 = VanillaFactory.createItem("topaz_destabilized_blend");
+chunks59.maxStackSize = 64;
+chunks59.register();
+
+var chunks60 = VanillaFactory.createItem("tanzanite_destabilized_blend");
+chunks60.maxStackSize = 64;
+chunks60.register();
+
+var chunks61 = VanillaFactory.createItem("malachite_destabilized_blend");
+chunks61.maxStackSize = 64;
+chunks61.register();
+
+var chunks62 = VanillaFactory.createItem("amber_destabilized_blend");
+chunks62.maxStackSize = 64;
+chunks62.register();
+
+var chunks63 = VanillaFactory.createItem("eden_destabilized_blend");
+chunks63.maxStackSize = 64;
+chunks63.register();
+
+var chunks64 = VanillaFactory.createItem("wildwood_destabilized_blend");
+chunks64.maxStackSize = 64;
+chunks64.register();
+
+var chunks65 = VanillaFactory.createItem("apalachia_destabilized_blend");
+chunks65.maxStackSize = 64;
+chunks65.register();
+
+var chunks66 = VanillaFactory.createItem("skythern_destabilized_blend");
+chunks66.maxStackSize = 64;
+chunks66.register();
+
+var chunks67 = VanillaFactory.createItem("mortum_destabilized_blend");
+chunks67.maxStackSize = 64;
+chunks67.register();
+
+var chunks68 = VanillaFactory.createItem("draconium_destabilized_blend");
+chunks68.maxStackSize = 64;
+chunks68.register();
+
+var chunks69 = VanillaFactory.createItem("yellorite_destabilized_blend");
+chunks69.maxStackSize = 64;
+chunks69.register();
+
+var chunks70 = VanillaFactory.createItem("apatite_destabilized_blend");
+chunks70.maxStackSize = 64;
+chunks70.register();
+
+var chunks71 = VanillaFactory.createItem("copper_destabilized_blend");
+chunks71.maxStackSize = 64;
+chunks71.register();
+
+var chunks72 = VanillaFactory.createItem("tin_destabilized_blend");
+chunks72.maxStackSize = 64;
+chunks72.register();
+
+var chunks73 = VanillaFactory.createItem("aluminum_destabilized_blend");
+chunks73.maxStackSize = 64;
+chunks73.register();
+
+var chunks74 = VanillaFactory.createItem("lead_destabilized_blend");
+chunks74.maxStackSize = 64;
+chunks74.register();
+
+var chunks75 = VanillaFactory.createItem("nickel_destabilized_blend");
+chunks75.maxStackSize = 64;
+chunks75.register();
+
+var chunks76 = VanillaFactory.createItem("uranium_destabilized_blend");
+chunks76.maxStackSize = 64;
+chunks76.register();
+
+var chunks77 = VanillaFactory.createItem("prosperity_destabilized_blend");
+chunks77.maxStackSize = 64;
+chunks77.register();
+
+var chunks78 = VanillaFactory.createItem("inferium_destabilized_blend");
+chunks78.maxStackSize = 64;
+chunks78.register();
+
+var chunks79 = VanillaFactory.createItem("boron_destabilized_blend");
+chunks79.maxStackSize = 64;
+chunks79.register();
+
+var chunks80 = VanillaFactory.createItem("lithium_destabilized_blend");
+chunks80.maxStackSize = 64;
+chunks80.register();
+
+var chunks81 = VanillaFactory.createItem("magnesium_destabilized_blend");
+chunks81.maxStackSize = 64;
+chunks81.register();
+
+var chunks82 = VanillaFactory.createItem("electrotine_destabilized_blend");
+chunks82.maxStackSize = 64;
+chunks82.register();
+
+var chunks83 = VanillaFactory.createItem("dimensionalshard_destabilized_blend");
+chunks83.maxStackSize = 64;
+chunks83.register();
+
+var chunks84 = VanillaFactory.createItem("sulfur_destabilized_blend");
+chunks84.maxStackSize = 64;
+chunks84.register();
+
+var chunks85 = VanillaFactory.createItem("tungsten_destabilized_blend");
+chunks85.maxStackSize = 64;
+chunks85.register();
+
+var chunks86 = VanillaFactory.createItem("platinum_destabilized_blend");
+chunks86.maxStackSize = 64;
+chunks86.register();
+
+var chunks87 = VanillaFactory.createItem("mithril_destabilized_blend");
+chunks87.maxStackSize = 64;
+chunks87.register();
+
+var chunks88 = VanillaFactory.createItem("dilithium_destabilized_blend");
+chunks88.maxStackSize = 64;
+chunks88.register();
+
+var chunks89 = VanillaFactory.createItem("thorium_destabilized_blend");
+chunks89.maxStackSize = 64;
+chunks89.register();

@@ -1,0 +1,20 @@
+{
+	x: 108.5d,
+	y: 0.0d,
+	dependencies: [
+		"dd32e62f",
+		"19146f21",
+		"a8414e77",
+		"528715c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "871845df",
+		type: "item",
+		items: [{
+			item: "contenttweaker:nightmare_callstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

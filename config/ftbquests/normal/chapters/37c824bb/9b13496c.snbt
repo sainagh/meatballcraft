@@ -1,0 +1,28 @@
+{
+	title: "More Material Science Improvements",
+	x: 69.5d,
+	y: -1.5d,
+	text: [
+		"More minerals, more ways to mix and match!",
+		"Time to build more crap!",
+		"Who would've thought that I'd be fighting gods using material science?"
+	],
+	dependencies: [
+		"ad772ec0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "885cd89f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:jeweled_runium"
+		}]
+	},
+	{
+		uid: "94d0e26d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 69"
+		}]
+	}]
+}

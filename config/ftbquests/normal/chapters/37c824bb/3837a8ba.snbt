@@ -1,0 +1,13 @@
+{
+	x: 5.0d,
+	y: 9.0d,
+	description: "Use an extraction device to obtain drops from lava!",
+	dependencies: [
+		"d8e398cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cd57a48d",
+		type: "checkmark"
+	}]
+}

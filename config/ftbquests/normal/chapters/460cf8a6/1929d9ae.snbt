@@ -1,0 +1,20 @@
+{
+	x: 20.0d,
+	y: 1.0d,
+	text: [
+		"Found in Precasia Dimension from Advent of Ascension",
+		"Found between Y=0 to Y=41",
+		"",
+		"- Most Written by Bluecat"
+	],
+	dependencies: [
+		"4ed812bb"
+	],
+	tasks: [{
+		uid: "9ea86265",
+		type: "item",
+		items: [{
+			item: "aoa3:footbone_fragment"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Life finds a way...",
+	x: 18.5d,
+	y: 4.5d,
+	text: [
+		"My experiments paid off!",
+		"I was able to make seeds that work like chickens and bees; I should be able to use them to create minerals from scratch."
+	],
+	dependencies: [
+		"74fb2766"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9891a785",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 16"
+		}]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 1.0d,
+	y: -10.0d,
+	text: [
+		"Drawer trim can be used to connect drawers to a controller without touching."
+	],
+	dependencies: [
+		"4a69e531"
+	],
+	tasks: [{
+		uid: "b405dc4d",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any drawerTrim"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "drawerTrim"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

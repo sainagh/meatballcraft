@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 12.0d,
+	text: [
+		"5x5 on autocraft?!?",
+		"Placed next to an unpackager for autocrafting.",
+		"A packager is required somewhere in the AE network, but it doesn't need to be close."
+	],
+	dependencies: [
+		"4788eb53"
+	],
+	tasks: [{
+		uid: "f3c3282e",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:advanced_crafter"
+		}]
+	}]
+}

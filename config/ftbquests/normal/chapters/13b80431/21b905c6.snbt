@@ -1,0 +1,18 @@
+{
+	title: "Sedna",
+	icon: "advancedrocketry:crystal 1 1",
+	x: 11.0d,
+	y: -1.0d,
+	description: "Travel using a warp core with the right artifact on a space station",
+	text: [
+		""
+	],
+	dependencies: [
+		"91001823"
+	],
+	tasks: [{
+		uid: "3bf0411c",
+		type: "dimension",
+		dim: 147
+	}]
+}

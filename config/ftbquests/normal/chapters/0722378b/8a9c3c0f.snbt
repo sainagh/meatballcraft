@@ -1,0 +1,17 @@
+{
+	x: 14.0d,
+	y: 1.0d,
+	text: [
+		"3x3 crafting, and glass"
+	],
+	dependencies: [
+		"36f5a834"
+	],
+	tasks: [{
+		uid: "f32ccaf4",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}]
+}

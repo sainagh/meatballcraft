@@ -1,0 +1,17 @@
+{
+	title: "Queen of Spiders",
+	x: 21.5d,
+	y: -9.0d,
+	description: "Found in a giant tree in the ulterior outback.",
+	dependencies: [
+		"7bd708c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "75b83387",
+		type: "item",
+		items: [{
+			item: "erebus:tarantula_egg"
+		}]
+	}]
+}

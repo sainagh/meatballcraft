@@ -1,0 +1,14 @@
+{
+	x: 10.5d,
+	y: 7.0d,
+	dependencies: [
+		"34a57df5"
+	],
+	tasks: [{
+		uid: "8cae30b4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:abyssal_wasteland_matter"
+		}]
+	}]
+}

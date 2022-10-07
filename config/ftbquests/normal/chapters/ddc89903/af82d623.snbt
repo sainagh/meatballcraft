@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: -9.0d,
+	dependencies: [
+		"fe429362"
+	],
+	tasks: [{
+		uid: "a1d17b0a",
+		type: "item",
+		items: [{
+			item: "railcraft:tank_steel_gauge"
+		}]
+	},
+	{
+		uid: "46cd3c7d",
+		type: "item",
+		items: [{
+			item: "railcraft:tank_steel_valve"
+		}]
+	},
+	{
+		uid: "c122fb41",
+		type: "item",
+		items: [{
+			item: "railcraft:tank_steel_wall"
+		}]
+	}]
+}

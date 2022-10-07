@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"There are a ton of different minerals and metals to be found, here is how to get the all!"
+	],
+	dependencies: [
+		"c4bd8574"
+	],
+	tasks: [{
+		uid: "e325edac",
+		type: "checkmark",
+		title: "All of the minerals!"
+	}]
+}

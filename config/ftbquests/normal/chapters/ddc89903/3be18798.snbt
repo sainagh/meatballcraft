@@ -1,0 +1,14 @@
+{
+	x: 11.0d,
+	y: -6.5d,
+	dependencies: [
+		"279d7e23"
+	],
+	tasks: [{
+		uid: "dfe7b604",
+		type: "item",
+		items: [{
+			item: "xnet:wireless_router"
+		}]
+	}]
+}

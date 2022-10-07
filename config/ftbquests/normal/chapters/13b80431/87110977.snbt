@@ -1,0 +1,18 @@
+{
+	title: "Barathos Desert",
+	icon: "aoa3:baron_ground",
+	x: 13.0d,
+	y: 2.0d,
+	description: "5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+	text: [
+		""
+	],
+	dependencies: [
+		"21b905c6"
+	],
+	tasks: [{
+		uid: "a005729a",
+		type: "dimension",
+		dim: 802
+	}]
+}

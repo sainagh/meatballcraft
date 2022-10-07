@@ -1,0 +1,6 @@
+
+recipes.addShaped(<thaumcraft:curio:1>,
+[[<projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>],
+[<projecte:item.pe_fuel:2>, <projecte:item.pe_matter:0>, <projecte:item.pe_fuel:2>],
+[<projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>]]);
+

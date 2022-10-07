@@ -1,0 +1,24 @@
+{
+	x: 33.5d,
+	y: 1.5d,
+	dependencies: [
+		"65ea6518"
+	],
+	tasks: [{
+		uid: "98f4c809",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:token_totem"
+			}
+		}]
+	},
+	{
+		uid: "98185f32",
+		type: "item",
+		items: [{
+			item: "contenttweaker:master_rune_box"
+		}]
+	}]
+}

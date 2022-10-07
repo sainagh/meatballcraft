@@ -1,0 +1,31 @@
+{
+	x: -7.5d,
+	y: -1.0d,
+	text: [
+		"Digital factories, digital monsters, real life essence!"
+	],
+	dependencies: [
+		"434f62fe"
+	],
+	tasks: [{
+		uid: "bbbddae9",
+		type: "item",
+		items: [{
+			item: "woot:upgradeb 1 3"
+		}]
+	},
+	{
+		uid: "825f10b0",
+		type: "item",
+		items: [{
+			item: "woot:upgradeb 1 6"
+		}]
+	},
+	{
+		uid: "29c728f4",
+		type: "item",
+		items: [{
+			item: "woot:upgradeb 1 12"
+		}]
+	}]
+}

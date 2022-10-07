@@ -1,0 +1,14 @@
+{
+	x: 51.5d,
+	y: 1.5d,
+	dependencies: [
+		"55107d93"
+	],
+	tasks: [{
+		uid: "2051c1fe",
+		type: "item",
+		items: [{
+			item: "contenttweaker:eden_refined_gem"
+		}]
+	}]
+}

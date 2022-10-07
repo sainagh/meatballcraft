@@ -1,0 +1,26 @@
+{
+	title: "Snowy Powers",
+	x: 12.5d,
+	y: -7.5d,
+	description: "Found in dungeons in the underground of iceika!",
+	text: [
+		"Not only somebody was able to use wizardry to open wormholes, but this 'master of frost' seemingly subjugated an entire planet to their power, turning it into a desolate icy land."
+	],
+	dependencies: [
+		"594a73d8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c3e53228",
+		type: "item",
+		items: [{
+			item: "divinerpg:snowflake"
+		}]
+	}],
+	rewards: [{
+		uid: "53f079bd",
+		type: "item",
+		item: "projecte:item.pe_matter 1 1",
+		count: 4
+	}]
+}

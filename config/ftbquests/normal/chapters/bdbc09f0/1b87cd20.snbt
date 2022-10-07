@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: 9.0d,
+	text: [
+		"Get some dragon's breath, make power!"
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "0ff11813",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_dragonsbreath"
+			}
+		}]
+	}]
+}

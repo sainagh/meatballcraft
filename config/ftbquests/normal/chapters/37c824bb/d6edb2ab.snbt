@@ -1,0 +1,16 @@
+{
+	x: 17.0d,
+	y: -15.0d,
+	description: "Found in the shadow world below omothol.",
+	dependencies: [
+		"fb4a13e3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "805169fd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:aeldunari"
+		}]
+	}]
+}

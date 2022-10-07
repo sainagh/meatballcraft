@@ -1,0 +1,20 @@
+{
+	title: "Advanced Equivalency",
+	x: 32.0d,
+	y: 0.0d,
+	text: [
+		"The druids from the Betweenlands do have some advanced knowledge of alchemy and equivalency.",
+		"Blue matter is a more powerful, and more expensive, version of red matter, which is pretty great."
+	],
+	dependencies: [
+		"6eb0d0ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b47f5f13",
+		type: "item",
+		items: [{
+			item: "contenttweaker:blue_matter"
+		}]
+	}]
+}

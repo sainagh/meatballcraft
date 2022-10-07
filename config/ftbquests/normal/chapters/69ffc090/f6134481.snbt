@@ -1,0 +1,14 @@
+{
+	x: -17.5d,
+	y: -10.5d,
+	dependencies: [
+		"8c9a42c4"
+	],
+	tasks: [{
+		uid: "758160f5",
+		type: "item",
+		items: [{
+			item: "thaumadditions:jar_mithrillium"
+		}]
+	}]
+}

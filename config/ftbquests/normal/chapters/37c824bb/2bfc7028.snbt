@@ -1,0 +1,40 @@
+{
+	title: "Free the forest!",
+	x: 24.5d,
+	y: 4.5d,
+	description: "Extremely Useful...",
+	text: [
+		"Exorcism does have its perks, in some way..."
+	],
+	dependencies: [
+		"2b55fa28"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9d67498d",
+		type: "item",
+		items: [{
+			item: "leshen:root_attack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "919512d9",
+		type: "item",
+		items: [{
+			item: "divinerpg:arksiane_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6a07ea74",
+		type: "item",
+		items: [{
+			item: "divinerpg:evernight"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

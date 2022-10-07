@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 18.0d,
+	text: [
+		"No casting tables needed!"
+	],
+	dependencies: [
+		"5f57ce40"
+	],
+	tasks: [{
+		uid: "1831889c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ingot_former_idle"
+		}]
+	}]
+}

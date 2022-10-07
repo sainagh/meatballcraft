@@ -1,0 +1,25 @@
+{
+	title: "This is big!",
+	x: 24.5d,
+	y: 7.5d,
+	dependencies: [
+		"a5b7ee06"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4afaba40",
+		type: "item",
+		items: [{
+			item: "contenttweaker:nethengeic_bone"
+		}]
+	},
+	{
+		uid: "1f64588a",
+		type: "item",
+		items: [{
+			item: "twilightforest:seeker_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

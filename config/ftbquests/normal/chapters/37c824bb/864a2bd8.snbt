@@ -1,0 +1,15 @@
+{
+	x: 48.5d,
+	y: 3.0d,
+	dependencies: [
+		"ea6a620f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bf93832b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lesser_mana_core"
+		}]
+	}]
+}

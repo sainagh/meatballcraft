@@ -1,0 +1,20 @@
+{
+	title: "Good or Evil?",
+	x: 26.0d,
+	y: -6.0d,
+	text: [
+		"Just like magnetism and gravity, the laws of nature allow for the existance of other 'fields', and some of them, vis and flux, hold magical properties.",
+		"Many of the beings I have met on Terra seem to be able to use either of the two. I've yet to fully figure out the nature of these fields, but they can be used for a variety of purposes, both constructive and destructive."
+	],
+	dependencies: [
+		"55075fff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3cb5462e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	}]
+}

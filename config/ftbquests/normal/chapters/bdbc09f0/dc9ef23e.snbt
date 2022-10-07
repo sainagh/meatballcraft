@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: 0.0d,
+	text: [
+		"This generator consumes leaves in a 7x7x7 range to produce RF."
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "cc5efa62",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_leaf_generator"
+		}]
+	}]
+}

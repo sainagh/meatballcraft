@@ -1,0 +1,22 @@
+{
+	title: "Dragonfire Forge",
+	x: -7.5d,
+	y: -2.5d,
+	text: [
+		"The Dragonfire Forge is used to produce fluids using the power of dragon fire.",
+		"Multiple of these should be built to passively automate high-heat fluids."
+	],
+	dependencies: [
+		"db2b859e"
+	],
+	tasks: [{
+		uid: "f7ff488d",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:dragonfire_forge"
+			}
+		}]
+	}]
+}

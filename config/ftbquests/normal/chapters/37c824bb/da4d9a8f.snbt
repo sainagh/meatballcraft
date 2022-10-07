@@ -1,0 +1,17 @@
+{
+	title: "More Fire!",
+	x: 24.5d,
+	y: -16.5d,
+	description: "Found in the large tower at the center of the dark forest.",
+	dependencies: [
+		"62242ef6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "72a16567",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 3"
+		}]
+	}]
+}

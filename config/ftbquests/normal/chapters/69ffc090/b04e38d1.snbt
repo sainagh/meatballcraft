@@ -1,0 +1,19 @@
+{
+	x: 12.5d,
+	y: -3.0d,
+	dependencies: [
+		"a2854dc8"
+	],
+	tasks: [{
+		uid: "9c3fed21",
+		type: "item",
+		items: [{
+			id: "ebwizardry:novice_lightning_wand",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 12.0d,
+	y: 1.0d,
+	text: [
+		"Let's distill something!"
+	],
+	dependencies: [
+		"36f5a834"
+	],
+	tasks: [{
+		uid: "065bdb3d",
+		type: "item",
+		items: [{
+			item: "forestry:still"
+		}]
+	}]
+}

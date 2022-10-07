@@ -1,0 +1,22 @@
+{
+	x: 83.0d,
+	y: -4.5d,
+	dependencies: [
+		"452a749f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ebb50d1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:strings_crystal"
+		}]
+	},
+	{
+		uid: "b98fb681",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:creative_energy_cell"
+		}]
+	}]
+}

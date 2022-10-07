@@ -1,0 +1,22 @@
+{
+	title: "Time for some beatings!",
+	x: 20.0d,
+	y: 1.5d,
+	description: "Throw it on the ground!",
+	text: [
+		"I really feel bad about the state of Terra...",
+		"I have gained some power, so I'm going to use it to fight back oppressors!",
+		"I hate bullies, and the king of Trolls is definitely one of them!"
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d3b7cffb",
+		type: "item",
+		items: [{
+			item: "aoa3:troll_idol"
+		}]
+	}]
+}

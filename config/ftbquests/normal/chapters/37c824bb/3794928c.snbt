@@ -1,0 +1,20 @@
+{
+	title: "6th sense?",
+	x: 5.0d,
+	y: 3.0d,
+	description: "Mobs marked by swords are hunter mobs. if the swords are red, your level is too low, if they're green you can use them to level up. Savannahs are a good place to start!",
+	text: [
+		"Some of the creatures here seem to possess some sort of 'protection'.",
+		"I don't know why, but I know this...",
+		"If I kill them, some of it seems to transfer to me.",
+		"If I absorb enough of it, I should be able to use it against them...or at least that's what my instict is telling me..."
+	],
+	dependencies: [
+		"d8e398cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "07f770e0",
+		type: "checkmark"
+	}]
+}

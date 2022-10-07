@@ -1,0 +1,33 @@
+{
+	title: "Tools of the Master Naturalist",
+	x: 30.5d,
+	y: -7.5d,
+	dependencies: [
+		"a852a933"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fb847a15",
+		type: "item",
+		items: [{
+			id: "botania:thundersword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "67cebf23",
+		type: "item",
+		items: [{
+			id: "divinerpg:arcanite_blade",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

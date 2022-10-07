@@ -1,0 +1,21 @@
+{
+	x: 21.5d,
+	y: 11.0d,
+	text: [
+		"Spawn in the Ironmine Dimension from Advent of Ascension",
+		"Spawns where Iro Stone Is",
+		"Spawns Below Y=64",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"c85088a1"
+	],
+	tasks: [{
+		uid: "542a054a",
+		type: "item",
+		items: [{
+			item: "aoa3:lyon_ingot"
+		}]
+	}]
+}

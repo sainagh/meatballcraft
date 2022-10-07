@@ -1,0 +1,20 @@
+{
+	title: "Ultimate fabrication (I think...)",
+	x: 20.0d,
+	y: -4.5d,
+	text: [
+		"Here's another table to build stuff!",
+		"I think it's gonna be the last one..."
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "32c99ba1",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_ultimate"
+		}]
+	}]
+}

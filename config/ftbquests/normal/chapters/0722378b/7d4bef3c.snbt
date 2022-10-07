@@ -1,0 +1,18 @@
+{
+	x: 11.0d,
+	y: 1.0d,
+	text: [
+		"Infuses water into items.",
+		"Basically a worse fluid transposer (but don't tell him that)."
+	],
+	dependencies: [
+		"36f5a834"
+	],
+	tasks: [{
+		uid: "c90b2527",
+		type: "item",
+		items: [{
+			item: "forestry:moistener"
+		}]
+	}]
+}

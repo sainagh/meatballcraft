@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 12.0d,
+	text: [
+		"Found between Y=16 and Y=68"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "d301c99d",
+		type: "item",
+		items: [{
+			item: "bigreactors:ingotyellorium"
+		}]
+	}]
+}

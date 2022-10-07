@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: 9.0d,
+	text: [
+		"Tier 1, pretty vanilla."
+	],
+	dependencies: [
+		"31ed6cfa"
+	],
+	tasks: [{
+		uid: "d434e078",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}]
+	}]
+}

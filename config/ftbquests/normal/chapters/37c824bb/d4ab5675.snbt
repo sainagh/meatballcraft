@@ -1,0 +1,20 @@
+{
+	x: 47.0d,
+	y: -1.5d,
+	text: [
+		"I was wrong, well, sort of...",
+		"The people of precasia do worship their masters, but not as gods, as avatars...",
+		"Their true deities are the Immortals... do I know the name of the leaders of the Empire?!"
+	],
+	dependencies: [
+		"f2f2e16d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1d352320",
+		type: "item",
+		items: [{
+			item: "contenttweaker:precasia_garnet"
+		}]
+	}]
+}

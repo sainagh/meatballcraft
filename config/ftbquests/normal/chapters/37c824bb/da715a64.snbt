@@ -1,0 +1,16 @@
+{
+	title: "Wildwood Falls",
+	x: 63.5d,
+	y: 0.0d,
+	dependencies: [
+		"386fb9ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c8d4900f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:wildwood_core"
+		}]
+	}]
+}

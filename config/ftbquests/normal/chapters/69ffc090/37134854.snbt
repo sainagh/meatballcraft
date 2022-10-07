@@ -1,0 +1,22 @@
+{
+	x: 8.5d,
+	y: 5.0d,
+	dependencies: [
+		"c693a278"
+	],
+	tasks: [{
+		uid: "57aa8027",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon",
+			tag: {
+				PotEnergy: 0.0f
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

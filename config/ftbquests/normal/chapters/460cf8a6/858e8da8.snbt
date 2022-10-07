@@ -1,0 +1,17 @@
+{
+	x: 9.5d,
+	y: 0.0d,
+	text: [
+		"As The Title Says!",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"47707370"
+	],
+	tasks: [{
+		uid: "e8d5671e",
+		type: "checkmark",
+		title: "Void Minerals"
+	}]
+}

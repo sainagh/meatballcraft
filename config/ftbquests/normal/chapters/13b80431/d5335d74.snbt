@@ -1,0 +1,18 @@
+{
+	title: "Immortallis",
+	icon: "aoa3:archaic_squares_breakable",
+	x: 27.0d,
+	y: 2.0d,
+	description: "5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+	text: [
+		""
+	],
+	dependencies: [
+		"1c0f8400"
+	],
+	tasks: [{
+		uid: "e2183d0f",
+		type: "dimension",
+		dim: 812
+	}]
+}

@@ -1,0 +1,70 @@
+{
+	title: "Tools of the Master Thaumaturgist",
+	x: 26.0d,
+	y: -7.5d,
+	dependencies: [
+		"74c81f2c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6930eff0",
+		type: "item",
+		items: [{
+			id: "twilightforest:block_and_chain",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fd81f889",
+		type: "item",
+		items: [{
+			id: "twilightforest:minotaur_axe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "014e1b50",
+		type: "item",
+		items: [{
+			id: "twilightforest:giant_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7f4b5104",
+		type: "item",
+		items: [{
+			item: "contenttweaker:master_spell_focus"
+		}]
+	},
+	{
+		uid: "1b99a863",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:primal_cutter",
+			tag: {
+				infench: [{
+					id: 5s,
+					lvl: 2s
+				},
+				{
+					id: 2s,
+					lvl: 1s
+				}]
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

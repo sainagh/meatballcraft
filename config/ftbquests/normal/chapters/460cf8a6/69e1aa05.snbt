@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	text: [
+		"Found between y=5 and y=21"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "868ea7e8",
+		type: "item",
+		items: [{
+			item: "aoa3:jade"
+		}]
+	}]
+}

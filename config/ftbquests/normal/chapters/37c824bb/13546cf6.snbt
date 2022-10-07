@@ -1,0 +1,24 @@
+{
+	x: 87.5d,
+	y: -3.0d,
+	dependencies: [
+		"c7b3082d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ff0775d3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ancient_cavern_cap"
+		}]
+	},
+	{
+		uid: "8e24634a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:terran_summoning"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

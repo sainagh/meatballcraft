@@ -1,0 +1,20 @@
+{
+	x: -12.5d,
+	y: 1.5d,
+	dependencies: [
+		"b0db200d"
+	],
+	tasks: [{
+		uid: "126128cd",
+		type: "item",
+		items: [{
+			id: "botania:manaring",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

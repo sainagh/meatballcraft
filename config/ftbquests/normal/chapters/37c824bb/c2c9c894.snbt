@@ -1,0 +1,16 @@
+{
+	x: 26.0d,
+	y: 1.5d,
+	description: "Just in case you haven't noticed, this has a special use with blaze...",
+	dependencies: [
+		"88fe69fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "54a6b37b",
+		type: "item",
+		items: [{
+			item: "iceandfire:fire_dragon_heart"
+		}]
+	}]
+}

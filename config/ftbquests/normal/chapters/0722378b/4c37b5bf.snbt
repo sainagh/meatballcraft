@@ -1,0 +1,17 @@
+{
+	x: 7.0d,
+	y: 1.0d,
+	text: [
+		"A device that fills (empties) fluid containers."
+	],
+	dependencies: [
+		"36f5a834"
+	],
+	tasks: [{
+		uid: "d03eee94",
+		type: "item",
+		items: [{
+			item: "forestry:bottler"
+		}]
+	}]
+}

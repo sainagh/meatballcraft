@@ -1,0 +1,25 @@
+{
+	title: "Crystevia Falls",
+	x: 62.0d,
+	y: 6.0d,
+	dependencies: [
+		"5df53a9e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a7ed672d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crystevia_cap"
+		}]
+	},
+	{
+		uid: "4fd4245a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crystevia_callstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

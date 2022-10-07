@@ -1,0 +1,70 @@
+{
+	title: "Tools of the Master Sorcerer",
+	x: 18.5d,
+	y: -7.5d,
+	description: "Why use a neromatic prime?",
+	dependencies: [
+		"774bc7f0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "934a2f50",
+		type: "item",
+		items: [{
+			id: "aether_legacy:holy_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "42f1f795",
+		type: "item",
+		items: [{
+			id: "aether_legacy:ice_ring",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "85b2f9b6",
+		type: "item",
+		items: [{
+			id: "aether_legacy:phoenix_gloves",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9c408446",
+		type: "item",
+		items: [{
+			id: "aether_legacy:ice_pendant",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "61796f61",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemcape",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

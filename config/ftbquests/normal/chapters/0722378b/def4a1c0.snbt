@@ -1,0 +1,21 @@
+{
+	x: -6.5d,
+	y: 4.5d,
+	text: [
+		"The Pure Daisy is used to transform the 8 blocks around it.",
+		"This can be easily automated using block placers and breakers, or by using formation and annhilation planes in a AE2 subnet."
+	],
+	dependencies: [
+		"d3221c04"
+	],
+	tasks: [{
+		uid: "8292837c",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Better Fabrication",
+	x: 11.0d,
+	y: 0.0d,
+	description: "Don't know how a machine or a recipe works? Info will be found in the manufacturing and fabrication tab!",
+	text: [
+		"YES! I can now build a better workbench, which should allow me to put together some machines to make my life easier!"
+	],
+	dependencies: [
+		"a4aedc8f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb9d8083",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_basic"
+		}]
+	}]
+}

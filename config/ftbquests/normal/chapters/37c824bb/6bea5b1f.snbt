@@ -1,0 +1,15 @@
+{
+	x: 54.5d,
+	y: -6.0d,
+	dependencies: [
+		"8152a747"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d6d4e560",
+		type: "item",
+		items: [{
+			item: "contenttweaker:recursive_powder"
+		}]
+	}]
+}

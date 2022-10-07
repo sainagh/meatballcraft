@@ -1,0 +1,17 @@
+{
+	x: -9.5d,
+	y: 2.5d,
+	dependencies: [
+		"baf0c309"
+	],
+	tasks: [{
+		uid: "eac42ddc",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:arcane_autoworkbench"
+			}
+		}]
+	}]
+}

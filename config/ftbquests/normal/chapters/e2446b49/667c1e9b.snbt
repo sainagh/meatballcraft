@@ -1,0 +1,19 @@
+{
+	x: 14.5d,
+	y: 0.0d,
+	dependencies: [
+		"0d9d62d1"
+	],
+	tasks: [{
+		uid: "088097a8",
+		type: "item",
+		items: [{
+			id: "extrabotany:masterhandbag",
+			ForgeCaps: {
+				Parent: []
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

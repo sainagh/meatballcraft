@@ -1,0 +1,15 @@
+{
+	x: 63.5d,
+	y: 6.0d,
+	dependencies: [
+		"d99bf9d6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4317c670",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crystevia_garnet"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 16.0d,
+	y: -1.5d,
+	dependencies: [
+		"c886443f"
+	],
+	tasks: [{
+		uid: "de85679a",
+		type: "item",
+		items: [{
+			item: "packagedauto:recipe_holder"
+		}]
+	}]
+}

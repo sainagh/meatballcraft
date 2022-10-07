@@ -1,0 +1,23 @@
+{
+	x: 21.5d,
+	y: -4.5d,
+	description: "This way for your first dimensions!",
+	text: [
+		"When doing magic, bad things may happen. In order to minimize negative effects to your world, the following order should be followed.",
+		"1. Start with blood magic, until unlocking the Ritual of Eldritch will. This will prevent flux from building up.",
+		"2. Start thaumcraft, until unlocking sanitizing soap. This will help out with temporary warp.",
+		"3. Go through abyssalcraft, craft the abyssal wasteland warpe cleanser to get you going, and automate dreadlands warp cleansers. With this, permanent warp will stop being a problem.",
+		"4. Now you are protected, feel free to right-click a Really Scary Vishroom!",
+		"When it comes to other magic mods, feel free to progress though them in whichever way you prefer :)",
+		"5. The omothol warp cleanser will completely eliminate the issue with warp!"
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "afc28deb",
+		type: "checkmark",
+		title: "Magic is Dangerous"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -10.5d,
+	y: 0.5d,
+	dependencies: [
+		"b86d8b41"
+	],
+	tasks: [{
+		uid: "d0a666bc",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:lp_harvester"
+			}
+		}]
+	}]
+}

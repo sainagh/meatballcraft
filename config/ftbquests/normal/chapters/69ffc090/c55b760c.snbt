@@ -1,0 +1,14 @@
+{
+	x: -16.5d,
+	y: -10.5d,
+	dependencies: [
+		"8c9a42c4"
+	],
+	tasks: [{
+		uid: "f9cdb225",
+		type: "item",
+		items: [{
+			item: "thaumadditions:jar_eldritch"
+		}]
+	}]
+}

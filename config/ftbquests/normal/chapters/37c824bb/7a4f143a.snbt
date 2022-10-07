@@ -1,0 +1,28 @@
+{
+	x: 110.0d,
+	y: 0.0d,
+	dependencies: [
+		"dd32e62f",
+		"19146f21",
+		"a8414e77",
+		"528715c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fd8a9f49",
+		type: "item",
+		items: [{
+			item: "contenttweaker:infinity_furnace_bricks"
+		}]
+	},
+	{
+		uid: "dbc39ac3",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:infinity_furnace"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Signal from the Belt",
+	x: 80.0d,
+	y: 1.5d,
+	dependencies: [
+		"0e3c8c82"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4d323a72",
+		type: "item",
+		items: [{
+			item: "contenttweaker:proxima_artifact"
+		}]
+	}]
+}

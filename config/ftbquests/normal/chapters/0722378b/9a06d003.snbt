@@ -1,0 +1,28 @@
+{
+	title: "Neutronium Bombarder",
+	x: -1.0d,
+	y: -9.5d,
+	dependencies: [
+		"69404a6d"
+	],
+	tasks: [{
+		uid: "9ab2f9d5",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:neutronium_cannon"
+			}
+		}]
+	},
+	{
+		uid: "e7e0775d",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:neutronium_bombarder"
+			}
+		}]
+	}]
+}

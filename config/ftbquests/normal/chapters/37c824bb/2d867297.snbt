@@ -1,0 +1,20 @@
+{
+	title: "Living Stone",
+	x: 32.0d,
+	y: -3.0d,
+	text: [
+		"The power of blue matter allows for the use of alchemical items without the need of a user (I.E. me).",
+		"Of course, this is pretty handy!"
+	],
+	dependencies: [
+		"7382c725"
+	],
+	hide: true,
+	tasks: [{
+		uid: "22949962",
+		type: "item",
+		items: [{
+			item: "projecte:dm_pedestal"
+		}]
+	}]
+}

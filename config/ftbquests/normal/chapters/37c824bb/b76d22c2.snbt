@@ -1,0 +1,18 @@
+{
+	x: 12.5d,
+	y: -1.5d,
+	description: "Looking for something in particular? more info in personal augmentation!",
+	dependencies: [
+		"0e71452d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "331a1f67",
+		type: "item",
+		items: [{
+			item: "scannable:scanner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

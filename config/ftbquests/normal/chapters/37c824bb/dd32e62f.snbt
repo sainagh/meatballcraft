@@ -1,0 +1,15 @@
+{
+	x: 108.5d,
+	y: 1.5d,
+	dependencies: [
+		"26216ac9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "12264261",
+		type: "item",
+		items: [{
+			item: "contenttweaker:recursion_darkness"
+		}]
+	}]
+}

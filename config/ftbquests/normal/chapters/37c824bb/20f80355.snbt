@@ -1,0 +1,26 @@
+{
+	title: "Twilight Diserters",
+	x: 60.5d,
+	y: -1.5d,
+	text: [
+		"The plot thickens...I guess?!?",
+		"Haven, now a stronghold of the Shyre empire, apparently, used to be part of that weird space-time origami that makes up the territories of the Twilight Horde.",
+		"I don't really understand their motifs, but who am I to ask?"
+	],
+	dependencies: [
+		"588d339b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c65c9c0b",
+		type: "item",
+		items: [{
+			id: "aoa3:haven_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: -4.0d,
+	text: [
+		"It seems even this fuel was depleted as well, although it generated me a lot of power when used in a Sufficient Fission reaction chamber. Hopefully there is some use for this."
+	],
+	dependencies: [
+		"20ced27d"
+	],
+	tasks: [{
+		uid: "244c0f05",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:depleted_fuel_californium 1 2"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 8.0d,
+	y: 4.0d,
+	text: [
+		"Can Spawn In the Nether and End",
+		"In RFTools Dimensions, Can Be Found Below Y=40",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"b8958680"
+	],
+	tasks: [{
+		uid: "81d4dfcc",
+		type: "item",
+		items: [{
+			item: "rftools:dimensional_shard"
+		}]
+	}]
+}

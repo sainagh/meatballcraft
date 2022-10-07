@@ -1,0 +1,22 @@
+{
+	x: 7.0d,
+	y: -7.0d,
+	description: "Active fluid coolers can be filled with fluids for better cooling. Ports are used to move fluids into the reactors. Pipes can be used inside the reactor.",
+	dependencies: [
+		"177d7078"
+	],
+	tasks: [{
+		uid: "aff07210",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:active_cooler"
+		}]
+	},
+	{
+		uid: "afe07377",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_port"
+		}]
+	}]
+}

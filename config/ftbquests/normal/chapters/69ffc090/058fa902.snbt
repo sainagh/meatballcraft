@@ -1,0 +1,14 @@
+{
+	x: -9.5d,
+	y: -9.5d,
+	dependencies: [
+		"4ddf266a"
+	],
+	tasks: [{
+		uid: "c25ab6d3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_eldritch"
+		}]
+	}]
+}

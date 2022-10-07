@@ -1,0 +1,12 @@
+{
+	title: "Betweenlands Minerals",
+	x: 14.0d,
+	y: 0.0d,
+	dependencies: [
+		"47707370"
+	],
+	tasks: [{
+		uid: "b042314e",
+		type: "checkmark"
+	}]
+}

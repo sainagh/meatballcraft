@@ -1,0 +1,328 @@
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:polonium_egg>,
+ <chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:polonium_chicken"}}), 
+ <bewitchment:hellebore>, 
+ 25000, 
+ <chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:polonium_chicken"}}), 
+ 101);
+ 
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:brightsteel_egg>,
+ <chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:brightsteel_chicken"}}), 
+ <bewitchment:hellebore>, 
+ 25000, 
+ <chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:brightsteel_chicken"}}), 
+ 101);
+
+ mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:ogerite_egg>,
+ <chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:ogerite_chicken"}}), 
+ <bewitchment:hellebore>, 
+ 25000, 
+ <chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:ogerite_chicken"}}), 
+ 101);
+
+ mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:mithrillium_egg>,
+ <chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:mithrillium_chicken"}}), 
+ <bewitchment:hellebore>, 
+ 25000, 
+ <chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:mithrillium_chicken"}}), 
+ 101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:palladium_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:palladium_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:palladium_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:jade_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:jade_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:jade_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:cold_iron_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:cold_iron_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:cold_iron_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:bloodgem_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:bloodgem_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:bloodgem_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:legbone_fragment_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:legbone_fragment_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:legbone_fragment_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:green_gemstone_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:green_gemstone_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:green_gemstone_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:limonite_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:limonite_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:limonite_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:arlemite_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:arlemite_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:arlemite_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:chalcedony_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:chalcedony_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:chalcedony_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:chaotic_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:chaos_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:chaos_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:vityte_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:vityte_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:vityte_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:purple_gemstone_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:purple_gemstone_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:purple_gemstone_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:mystite_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:mystite_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:mystite_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:blazium_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:blazium_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:blazium_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:footbone_fragment_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:footbone_fragment_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:footbone_fragment_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:bloodstone_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:bloodstone_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:bloodstone_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:realmite_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:realmite_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:realmite_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:amber_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:amber_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:amber_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:skullbone_fragment_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:skullbone_fragment_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:skullbone_fragment_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:amethyst_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:amethyst_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:amethyst_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:blue_gemstone_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:blue_gemstone_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:blue_gemstone_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:rupee_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:rupee_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:rupee_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:yellow_gemstone_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:yellow_gemstone_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:yellow_gemstone_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:runium_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:runium_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:runium_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:charged_runium_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:charged_runium_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:charged_runium_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:netherite_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:netherite_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:netherite_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:sapphire_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:sapphire_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:sapphire_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:candyte_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:candyte_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:candyte_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:lyon_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:lyon_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:lyon_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:rhenium_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:rhenium_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:rhenium_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:varsium_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:varsium_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:varsium_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:rosite_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:rosite_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:rosite_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:gemenyte_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:gemenyte_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:gemenyte_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:crystallite_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:crystallite_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:crystallite_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:lunastone_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:lunastone_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:lunastone_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:baronyte_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:baronyte_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:baronyte_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:jewelyte_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:jewelyte_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:jewelyte_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:unidentified_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:unidentified_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:unidentified_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:white_gemstone_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:white_gemstone_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:white_gemstone_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:chestbone_fragment_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:chestbone_fragment_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:chestbone_fragment_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:red_gemstone_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:red_gemstone_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:red_gemstone_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:emberstone_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:emberstone_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:emberstone_chicken"}}), 
+101);
+
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:fluctuatite_egg>,
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:fluctuatite_chicken"}}), 
+<bewitchment:hellebore>, 
+25000, 
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:fluctuatite_chicken"}}), 
+101);

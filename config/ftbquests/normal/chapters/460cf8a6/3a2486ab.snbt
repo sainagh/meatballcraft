@@ -1,0 +1,20 @@
+{
+	x: 21.5d,
+	y: 8.0d,
+	text: [
+		"Ore is Found in the Crystevia Dimension near Crystevian Rock",
+		"Found between Y=5 to Y=114",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"c85088a1"
+	],
+	tasks: [{
+		uid: "75652e64",
+		type: "item",
+		items: [{
+			item: "aoa3:white_gemstones"
+		}]
+	}]
+}

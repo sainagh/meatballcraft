@@ -1,0 +1,18 @@
+{
+	title: "Skythern Islands",
+	icon: "divinerpg:skythern_grass",
+	x: 27.0d,
+	y: -2.5d,
+	description: "Use a twilight clock on a frame of apalachia block",
+	text: [
+		""
+	],
+	dependencies: [
+		"1c0f8400"
+	],
+	tasks: [{
+		uid: "d9ef43e5",
+		type: "dimension",
+		dim: 423
+	}]
+}

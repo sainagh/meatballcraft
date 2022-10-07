@@ -1,0 +1,31 @@
+{
+	title: "This is war",
+	x: 21.5d,
+	y: 1.5d,
+	text: [
+		"As powerful he seemed to me, Smash had somebody way stronger backing him up, I guess this was a declaration of war to someone I don't even know!"
+	],
+	dependencies: [
+		"71678168"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2f3b6d80",
+		type: "item",
+		items: [{
+			item: "contenttweaker:smash_jaw"
+		}]
+	},
+	{
+		uid: "f5a6ae2e",
+		type: "item",
+		items: [{
+			id: "aoa3:limonite_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

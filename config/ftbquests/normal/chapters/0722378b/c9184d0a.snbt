@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 11.0d,
+	text: [
+		"Used to make rocket fuel!",
+		"Use holo projector to see multiblock preview."
+	],
+	dependencies: [
+		"3b01a8a9"
+	],
+	tasks: [{
+		uid: "5a2876fd",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:chemicalreactor"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 7.5d,
+	dependencies: [
+		"6ae70f30"
+	],
+	tasks: [{
+		uid: "a5a365ca",
+		type: "item",
+		items: [{
+			item: "randomthings:spectrecoil_redstone"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 10.0d,
+	text: [
+		"Squeezing automated!"
+	],
+	dependencies: [
+		"0e9669cf"
+	],
+	tasks: [{
+		uid: "cd3a9fd0",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:mechanical_squeezer"
+		}]
+	}]
+}

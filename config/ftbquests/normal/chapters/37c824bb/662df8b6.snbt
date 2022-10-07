@@ -1,0 +1,16 @@
+{
+	title: "Great Power at a Great Price",
+	x: 53.0d,
+	y: -1.5d,
+	dependencies: [
+		"2b6345ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aca84dd2",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 33"
+		}]
+	}]
+}

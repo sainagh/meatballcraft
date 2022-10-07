@@ -1,0 +1,24 @@
+{
+	x: 75.5d,
+	y: 1.5d,
+	dependencies: [
+		"5878f136"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1e243397",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lunalus_cap"
+		}]
+	},
+	{
+		uid: "f40dc723",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lunalus_callstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

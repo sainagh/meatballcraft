@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: 5.0d,
+	text: [
+		"Generate RF using Dew of the Void, which can be automated using a series of Vats."
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "8e8404f5",
+		type: "item",
+		items: [{
+			item: "enderio:block_ender_generator"
+		}]
+	}]
+}

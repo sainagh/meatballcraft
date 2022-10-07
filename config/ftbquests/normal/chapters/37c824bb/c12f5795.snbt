@@ -1,0 +1,23 @@
+{
+	title: "Soul manipulation!",
+	x: 26.0d,
+	y: -1.5d,
+	text: [
+		"This 'recursion prison' that prevents me from dying, combined with some blood magic, can be very beneficial!",
+		"Many of the creatures involved in this conflict, willingly or unwillingly, seem to be permeated by it. For most it's a small amount, much less than me.",
+		"Recursion seems to be directly tied to the soul, and thanks to the magic knowledge I now have, I can start using it.",
+		"It's nothing big, but I don't need essence to create living matter anymore!",
+		"This means of organic replication is much more involved than using the 'standard' essence method developed back on earth (which is what I've been using until now).",
+		"That said, on its upper end, it is much more effective!"
+	],
+	dependencies: [
+		"f2937072"
+	],
+	tasks: [{
+		uid: "53a3eb6d",
+		type: "item",
+		items: [{
+			item: "soulshardsrespawn:soul_cage"
+		}]
+	}]
+}

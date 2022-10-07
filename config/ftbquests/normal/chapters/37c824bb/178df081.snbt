@@ -1,0 +1,16 @@
+{
+	title: "WOW!",
+	x: 78.5d,
+	y: -3.0d,
+	dependencies: [
+		"9e26752a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dedfaedd",
+		type: "item",
+		items: [{
+			item: "tinymobfarm:ultimate_farm"
+		}]
+	}]
+}

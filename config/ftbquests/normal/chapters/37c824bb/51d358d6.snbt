@@ -1,0 +1,33 @@
+{
+	title: "Basic Fission",
+	x: 29.0d,
+	y: 0.0d,
+	text: [
+		"My experiments are really using a lot of power, and I think it's time to upgrade my generation infrastructure.",
+		"Yellorium, a mineral native to Terra, has some very interesting radioactive properties that I should be able to use to produce basic fission reactions."
+	],
+	dependencies: [
+		"f2937072"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ae1f1741",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "309dbc57",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "bigreactors:erguide"
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	}]
+}

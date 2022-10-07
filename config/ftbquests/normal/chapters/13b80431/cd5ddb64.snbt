@@ -1,0 +1,18 @@
+{
+	title: "Gardencia",
+	icon: "aoa3:gardencia_grass",
+	x: 19.0d,
+	y: 2.0d,
+	description: "5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+	text: [
+		""
+	],
+	dependencies: [
+		"d1317694"
+	],
+	tasks: [{
+		uid: "58337a60",
+		type: "dimension",
+		dim: 809
+	}]
+}

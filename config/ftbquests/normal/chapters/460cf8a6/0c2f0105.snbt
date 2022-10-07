@@ -1,0 +1,18 @@
+{
+	title: "Planet Minerals",
+	x: 17.0d,
+	y: 0.0d,
+	text: [
+		"As The Title Says!",
+		"",
+		"- Written By Bluecat"
+	],
+	dependencies: [
+		"47707370"
+	],
+	tasks: [{
+		uid: "24dd417a",
+		type: "checkmark",
+		title: "Planets"
+	}]
+}

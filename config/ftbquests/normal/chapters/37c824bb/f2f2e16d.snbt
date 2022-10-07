@@ -1,0 +1,22 @@
+{
+	title: "Precasia Falls",
+	x: 45.5d,
+	y: -1.5d,
+	description: "Tyrosaur is summoned with a bone horn - Right click the army block in the skeletar arena to summon the skeletal horde",
+	text: [
+		"Screw you dinos! and skeletons!",
+		"The leaders of precasia are interesting. They are beings that clearly posess recursion, and they are worshipped as deities...",
+		"I may be connecting too many dots here, but is it possible that the characters of legends were simply knowledgeable about recursion?"
+	],
+	dependencies: [
+		"fe73cc08"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fe20a7f0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:precasian_cap"
+		}]
+	}]
+}

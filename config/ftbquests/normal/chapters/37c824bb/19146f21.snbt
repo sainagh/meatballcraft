@@ -1,0 +1,15 @@
+{
+	x: 108.5d,
+	y: 3.0d,
+	dependencies: [
+		"26216ac9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9d463e66",
+		type: "item",
+		items: [{
+			item: "contenttweaker:recursion_solitude"
+		}]
+	}]
+}

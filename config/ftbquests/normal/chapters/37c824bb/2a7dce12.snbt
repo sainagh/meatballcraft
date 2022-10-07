@@ -1,0 +1,23 @@
+{
+	x: 72.5d,
+	y: 3.0d,
+	description: "Same here, lots of it!",
+	dependencies: [
+		"4b46b0a3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "41b5e4c3",
+		type: "item",
+		items: [{
+			item: "twilightforest:maze_wafer"
+		}]
+	},
+	{
+		uid: "9e9eba70",
+		type: "item",
+		items: [{
+			item: "contenttweaker:triple_compressed_wafer"
+		}]
+	}]
+}

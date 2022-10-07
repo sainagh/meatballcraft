@@ -1,0 +1,20 @@
+{
+	x: 24.5d,
+	y: 4.0d,
+	text: [
+		"Obtained in the Greckon Dimension from Advent of Ascension",
+		"Round From Y=0 to Y=28",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"9d6b5bc4"
+	],
+	tasks: [{
+		uid: "e2346716",
+		type: "item",
+		items: [{
+			item: "aoa3:ghoulish_ingot"
+		}]
+	}]
+}

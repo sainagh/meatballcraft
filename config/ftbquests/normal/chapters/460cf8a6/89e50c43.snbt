@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"Found below Y=30",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "c4c4c107",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:nitre"
+		}]
+	}]
+}

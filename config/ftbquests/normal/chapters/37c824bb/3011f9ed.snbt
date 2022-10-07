@@ -1,0 +1,27 @@
+{
+	x: 17.0d,
+	y: -12.0d,
+	description: "Get to the center of omothol.",
+	text: [
+		"I've finally met the master of my power, I think...",
+		"Delving even deeper, I found, well, a monster, a really powerful moster.",
+		"But this is my undeath that we are talking about, so I kicked its ass!",
+		"I feel, 'free', I think? The overwhelming feeling of imprisonment is gone, but what remains is I a deep sense of a lack of meaning in my life.",
+		"This Cthulhu shit really messed with my mind!",
+		"Oh yeah, and I'm still immortal, which, you know, its nice...",
+		"I think I found a purpose for my now apparently eternal life, at least for the forseeable future.",
+		"The Testificates of Terra deserve so much better than living under the feet of beings that treat them like insects that can be killed with no remorse.",
+		"This is a declaration of war to those that treat Terra as their resource-mining playground!"
+	],
+	dependencies: [
+		"fb4a13e3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1a771acf",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:gatekeeperessence"
+		}]
+	}]
+}

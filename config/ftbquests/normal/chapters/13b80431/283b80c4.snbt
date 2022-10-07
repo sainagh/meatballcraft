@@ -1,0 +1,26 @@
+{
+	title: "Pixonia",
+	icon: "minecraft:grass",
+	x: 21.0d,
+	y: -1.0d,
+	description: "Travel using a warp core with the right artifact on a space station",
+	text: [
+		""
+	],
+	dependencies: [
+		"8100db21",
+		"a141ad53",
+		"73e4f137",
+		"0f7e1d28",
+		"cd5ddb64",
+		"c63147db",
+		"b1927ef9",
+		"4884c27f",
+		"dba2072c"
+	],
+	tasks: [{
+		uid: "938a2ebd",
+		type: "dimension",
+		dim: 165
+	}]
+}

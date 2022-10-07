@@ -1,0 +1,33 @@
+{
+	title: "The Shyre Empire",
+	x: 23.0d,
+	y: 7.5d,
+	description: "Drop in the nether!",
+	text: [
+		"Well... I've finally met one of Smash's superiors, and it's a lieutenant for the Shyre Empire, a multiplanetary civilization that has been able to spread through all regions of space thanks to their immense power.",
+		"I'm probably f**ked, but hey, I can't die, and I can only get stronger!",
+		"The main leader of the Shyre Empire on Terra is a genetically modified monster that was given many of the Wither's abilities.",
+		""
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "354b6c5a",
+		type: "item",
+		items: [{
+			item: "aoa3:nethengeic_callstone"
+		}]
+	}],
+	rewards: [{
+		uid: "b4363631",
+		type: "item",
+		item: {
+			id: "ebwizardry:amulet_banishing",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	}]
+}

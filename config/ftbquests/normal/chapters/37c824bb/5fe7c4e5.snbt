@@ -1,0 +1,27 @@
+{
+	title: "Such Speed!",
+	x: 36.5d,
+	y: -4.5d,
+	text: [
+		"Travelling through the universe takes time, lots of time.",
+		"If only I could travel at warp speed with my space station..."
+	],
+	dependencies: [
+		"bf4a8787"
+	],
+	hide: true,
+	tasks: [{
+		uid: "80cf8534",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpcore"
+		}]
+	},
+	{
+		uid: "fb4f5d3b",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpmonitor"
+		}]
+	}]
+}

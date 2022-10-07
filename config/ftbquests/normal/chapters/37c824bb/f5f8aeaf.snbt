@@ -1,0 +1,28 @@
+{
+	title: "I may be losing it...",
+	x: 33.5d,
+	y: -1.5d,
+	text: [
+		"It is now evident that the great powers of the universe see me as some sort of threat. The enemies that are stalking me are definitely getting better equipment, so I think it's time for some upgrades.",
+		"Blood Magic is a tricky art, but the knowledge of a blood master could grant me some of the power I am looking for!",
+		"Being absolutely and totally mentally scarred from all of this elder gods stuff, I at least know of recursion.",
+		"The machines I built using material impregnated with mythic energy, the miners, now make more sense.",
+		"The power of recursion, which keeps me immortal, is a mythic art, and I am slowly starting to understand it."
+	],
+	dependencies: [
+		"920dcfaa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "222a83b4",
+		type: "item",
+		items: [{
+			id: "contenttweaker:bloodmaster_tome",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

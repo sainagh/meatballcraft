@@ -1,0 +1,16 @@
+{
+	title: "Incredible Technology",
+	x: 66.5d,
+	y: 0.0d,
+	dependencies: [
+		"e379bbf7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9abc5f38",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mythic_machine_case"
+		}]
+	}]
+}

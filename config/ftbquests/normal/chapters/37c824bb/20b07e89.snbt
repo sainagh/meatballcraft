@@ -1,0 +1,19 @@
+{
+	title: "More Bloodmaster!",
+	x: 51.5d,
+	y: -1.5d,
+	text: [
+		"See, material science is useful!"
+	],
+	dependencies: [
+		"25bd70ab"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a6a1ef92",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 31"
+		}]
+	}]
+}

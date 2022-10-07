@@ -1,0 +1,15 @@
+{
+	x: 89.0d,
+	y: -3.0d,
+	dependencies: [
+		"13546cf6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "320c684d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ancient_cavern_garnet"
+		}]
+	}]
+}

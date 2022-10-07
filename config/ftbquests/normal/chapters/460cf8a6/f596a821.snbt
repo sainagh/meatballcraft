@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 8.0d,
+	text: [
+		"Found between Y = 10 and Y = 120"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "fb36b2ca",
+		type: "item",
+		items: [{
+			item: "bewitchment:salt"
+		}]
+	}]
+}

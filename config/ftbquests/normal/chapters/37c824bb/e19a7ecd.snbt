@@ -1,0 +1,70 @@
+{
+	title: "Tools of the Bloodmaster",
+	x: 27.5d,
+	y: -7.5d,
+	dependencies: [
+		"71c3c11b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "baabaafc",
+		type: "item",
+		items: [{
+			id: "contenttweaker:bloodmaster_metal_head",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b969dbcb",
+		type: "item",
+		items: [{
+			id: "contenttweaker:bloodmaster_metal_chest",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "956d5e2d",
+		type: "item",
+		items: [{
+			id: "contenttweaker:bloodmaster_metal_legs",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9c89600d",
+		type: "item",
+		items: [{
+			id: "contenttweaker:bloodmaster_metal_feet",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0659cf42",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sentient_sword",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

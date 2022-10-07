@@ -1,0 +1,14 @@
+{
+	x: -7.0d,
+	y: 4.0d,
+	dependencies: [
+		"8c9b0b14"
+	],
+	tasks: [{
+		uid: "469e553c",
+		type: "item",
+		items: [{
+			item: "enderio:block_franken_zombie_generator"
+		}]
+	}]
+}

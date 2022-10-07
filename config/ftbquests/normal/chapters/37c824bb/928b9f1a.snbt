@@ -1,0 +1,28 @@
+{
+	title: "Cali Approved!",
+	x: 14.0d,
+	y: 0.0d,
+	description: "Nether time! Blaze it!",
+	text: [
+		"The testificates trust me enough to share some of their historical secrets.",
+		"At some point, they had the ability to build portals to connect different regions of this world, including the large caves that are located kilometers under the surface.",
+		"Obsidian seems to be a catalyst for magic, and if I light it up I may be able to reopen some of these portals.",
+		"I'll try to study this more in the hope that I may be able to use similar methods to get back home."
+	],
+	dependencies: [
+		"0e71452d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8d9c3f9f",
+		type: "item",
+		items: [{
+			id: "minecraft:flint_and_steel",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

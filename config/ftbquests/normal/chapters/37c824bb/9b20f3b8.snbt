@@ -1,0 +1,24 @@
+{
+	title: "Terra",
+	x: 5.0d,
+	y: -1.5d,
+	text: [
+		"I found a village of intelligent creatures! They call themselves the testificates, and they are native to this planet, which they call Terra.",
+		"The testificates have a troubled history, they used to be a powerful civilization, advanced in the use of magic, which they used to open portals to connect them to other parts of the planet, including the massive caves that fill Terra's underground.",
+		"Then, war from outside came. This has something to do with the fact that the Universe's rarest mineral, dimensional shards, appear naturally, and ever since their discovery, the mightiest powers in the universe have fought to gain control over it.",
+		"Most of the creatures currently on Terra are not natives, instead they are here to fight. Some of them, I was told, are from 'nations' that have been able to take over entire galaxies!",
+		"I should be very careful about who I fight, I'm dealing with Kardashev type 3 civilizations that have powers beyond any human understanding. ",
+		"I feel very sorry for the testificates, to see your planet be invaded and become a battleground between type 5 civilizations is truly tragic..."
+	],
+	dependencies: [
+		"427846dd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a311c7ff",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}]
+	}]
+}

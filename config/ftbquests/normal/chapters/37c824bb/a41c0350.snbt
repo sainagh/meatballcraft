@@ -1,0 +1,25 @@
+{
+	x: 64.0d,
+	y: -1.5d,
+	text: [
+		"Thicker and thicker!",
+		"Not only Haven was the birthplace of this universal war, but it is also where both superpowers started ascending to space-time manipulation",
+		"Before then, they were 'simply' intergalactic powers, but, after meeting, each started developing stronger powers to overcome the other.",
+		"The horde specialized on space-time folding, while the empire went on to master wormholes.",
+		"Despite using different methods, the two achieved very similar results, the ability to ignore space and distances, which allowed them to propagate through the universe at an even faster pace."
+		"...and the Haven asteroids is where the ancestral fathers of the Twilight horde first attempted to fold space-time, failing miserably and leaving it as a dead wasteland.",
+		"From these ruins, though, a group of Shyre officers, those that eventually became the four guardians, figured out how to perform simpler folds.",
+		"The empire never became as good as the horde at folding space-time, but it allowed them to create places like Lelyetia."
+	],
+	dependencies: [
+		"a7311d65"
+	],
+	hide: true,
+	tasks: [{
+		uid: "84e64b38",
+		type: "item",
+		items: [{
+			item: "contenttweaker:haven_garnet"
+		}]
+	}]
+}

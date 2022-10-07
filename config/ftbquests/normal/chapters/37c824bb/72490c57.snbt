@@ -1,0 +1,83 @@
+{
+	title: "Searching for answers",
+	x: 36.5d,
+	y: -1.5d,
+	description: "Cuz rockets are cool",
+	text: [
+		"The divine star was cool and all, but I cannot fully understand it. ",
+		"The shyre empire's wormhole capabilities seem to be driven by gravity, which, to us humans, is still a great mystery.",
+		"I think it's time to understand more about it...",
+		"And to do this, I believe it's important to discover how Terra's wacky gravity works by looking at it from a distance.",
+		"It's rocket time!",
+		"Thanks to Kdog0421 for the meme subtitles!"
+	],
+	dependencies: [
+		"265867ff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "851fe795",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketbuilder"
+		}]
+	},
+	{
+		uid: "54d70d8d",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:launchpad"
+		}]
+	},
+	{
+		uid: "d04aac36",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:structuretower"
+		}]
+	},
+	{
+		uid: "72ff3b8c",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:advrocketmotor"
+		}]
+	},
+	{
+		uid: "efa0e56d",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fueltank"
+		}]
+	},
+	{
+		uid: "5ac64bcf",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:guidancecomputer"
+		}]
+	},
+	{
+		uid: "7ab59e72",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:seat"
+		}]
+	},
+	{
+		uid: "6b806c89",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fuelingstation"
+		}]
+	},
+	{
+		uid: "93c1d063",
+		type: "item",
+		items: [{
+			item: "libvulpes:linker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

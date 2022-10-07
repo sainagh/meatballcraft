@@ -1,0 +1,19 @@
+{
+	title: "Quarries",
+	x: 20.0d,
+	y: -3.0d,
+	text: [
+		"At this point, I can fully automate mining and quarrying, and I love it! A sigle machine to create a very large hole is all I ever wanted."
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b879ffc5",
+		type: "item",
+		items: [{
+			item: "rftools:builder"
+		}]
+	}]
+}

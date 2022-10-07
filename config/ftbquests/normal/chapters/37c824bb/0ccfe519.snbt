@@ -1,0 +1,19 @@
+{
+	title: "Entropy Acceleration",
+	x: 32.0d,
+	y: -1.5d,
+	text: [
+		"Knowing that entropy in the universe is always increasing, I can use magic and some science to speed up this process in an area round a special torch."
+	],
+	dependencies: [
+		"7382c725"
+	],
+	hide: true,
+	tasks: [{
+		uid: "96454dcc",
+		type: "item",
+		items: [{
+			item: "torcherino:blocktorcherino"
+		}]
+	}]
+}

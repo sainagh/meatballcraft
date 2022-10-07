@@ -1,0 +1,21 @@
+{
+	title: "Alien technology is cool!",
+	x: 12.5d,
+	y: 1.5d,
+	description: "Used to craft machines from enderIO (see manufacturing and fabrication)",
+	text: [
+		"It seems like my unwanted connection with death has some other uses besides immortality.",
+		"This death energy can be used to make machines!"
+	],
+	dependencies: [
+		"8b210b51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "72503da5",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Tier 5 Mythical Resources",
+	x: 35.0d,
+	y: 0.0d,
+	text: [
+		"I guess I'm going down the mythic rabbithole...nothing wrong with that...yet..."
+	],
+	dependencies: [
+		"4e273e17"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c0f993c5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crimson_quartz"
+		}]
+	},
+	{
+		uid: "e62fdab0",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:mythical_resource_miner_tier5"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 8.0d,
+	y: 5.0d,
+	text: [
+		"The latex processing unit takes RF and water to make tiny dry rubber."
+	],
+	dependencies: [
+		"0ab08fce"
+	],
+	tasks: [{
+		uid: "31d7619b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:latex_processing_unit"
+		}]
+	}]
+}

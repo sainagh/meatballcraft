@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: -8.5d,
+	text: [
+		"Similar the using Uranium in the Isotope Seperator, if I use thorium I get another new fuel source, It seems to have different properties but will still explode if over heated too much."
+	],
+	dependencies: [
+		"4739218e"
+	],
+	tasks: [{
+		uid: "6c84c2cc",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_thorium"
+		}]
+	}]
+}

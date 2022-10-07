@@ -1,0 +1,17 @@
+{
+	x: 9.5d,
+	y: 2.0d,
+	text: [
+		"Created from a Void Ore Miner"
+	],
+	dependencies: [
+		"858e8da8"
+	],
+	tasks: [{
+		uid: "040480d3",
+		type: "item",
+		items: [{
+			item: "environmentaltech:litherite_crystal"
+		}]
+	}]
+}

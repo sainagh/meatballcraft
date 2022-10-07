@@ -1,0 +1,18 @@
+{
+	title: "Falacer",
+	icon: "minecraft:obsidian",
+	x: 9.0d,
+	y: 8.0d,
+	description: "Travel using a warp core on a space station",
+	text: [
+		""
+	],
+	dependencies: [
+		"8f9c8dfc"
+	],
+	tasks: [{
+		uid: "9d566cd3",
+		type: "dimension",
+		dim: 160
+	}]
+}

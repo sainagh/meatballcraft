@@ -1,0 +1,16 @@
+{
+	title: "Celeve Falls",
+	x: 62.0d,
+	y: 3.0d,
+	dependencies: [
+		"d41586d6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "81d76a5b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:celeve_cap"
+		}]
+	}]
+}

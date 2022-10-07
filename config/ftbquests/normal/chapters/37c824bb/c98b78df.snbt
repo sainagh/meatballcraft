@@ -1,0 +1,17 @@
+{
+	title: "Supreme Power in the Universe",
+	x: 117.5d,
+	y: 0.0d,
+	dependencies: [
+		"2568905a",
+		"2f489a6e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "44cee758",
+		type: "item",
+		items: [{
+			item: "contenttweaker:alkemia_artifact"
+		}]
+	}]
+}

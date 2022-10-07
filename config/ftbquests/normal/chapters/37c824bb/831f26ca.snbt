@@ -1,0 +1,16 @@
+{
+	x: 92.0d,
+	y: 4.5d,
+	dependencies: [
+		"e0b5358c"
+	],
+	tasks: [{
+		uid: "5dd21d62",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sticky_callstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

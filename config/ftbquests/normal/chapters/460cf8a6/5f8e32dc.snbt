@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: 3.0d,
+	text: [
+		"Found From a Void Ore Miner",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"858e8da8"
+	],
+	tasks: [{
+		uid: "08010f94",
+		type: "item",
+		items: [{
+			item: "environmentaltech:erodium_crystal"
+		}]
+	}]
+}

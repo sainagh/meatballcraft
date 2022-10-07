@@ -1,0 +1,15 @@
+{
+	x: 47.0d,
+	y: -4.5d,
+	dependencies: [
+		"35045c8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0aa550f8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:abyss_garnet"
+		}]
+	}]
+}

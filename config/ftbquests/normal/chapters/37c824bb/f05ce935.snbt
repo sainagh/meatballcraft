@@ -1,0 +1,16 @@
+{
+	title: "I have to Know",
+	x: 50.0d,
+	y: -6.0d,
+	dependencies: [
+		"fbbd06c9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4bb97716",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lost_memory"
+		}]
+	}]
+}

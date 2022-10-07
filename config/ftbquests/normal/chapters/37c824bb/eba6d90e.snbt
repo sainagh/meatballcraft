@@ -1,0 +1,16 @@
+{
+	x: 30.5d,
+	y: -15.0d,
+	dependencies: [
+		"a852a933"
+	],
+	tasks: [{
+		uid: "92b97662",
+		type: "item",
+		items: [{
+			item: "extrabotany:treasurebox"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

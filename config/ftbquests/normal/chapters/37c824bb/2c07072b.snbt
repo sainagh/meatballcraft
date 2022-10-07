@@ -1,0 +1,18 @@
+{
+	x: 27.5d,
+	y: -3.0d,
+	dependencies: [
+		"19de026a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5ef30289",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:advanced_compression_engine"
+			}
+		}]
+	}]
+}

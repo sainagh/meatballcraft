@@ -1,0 +1,30 @@
+{
+	title: "Mythic Magic",
+	x: 3.5d,
+	y: 4.5d,
+	description: "With apologies to Sandman366",
+	text: [
+		"Mythic magic is powerful, very powerful, yet it seems my mind may be simply too 'weak' to comprehend this.",
+		"Despite my inability to comprehend it, I feel extremely drawn to the remains from 'mythic creatures'. ",
+		"They are still permeated with the powers of this type of magic. ",
+		"Time to start experimenting with mythic remains. But i'll have to be careful, really careful, I don't know what could happen..."
+	],
+	dependencies: [
+		"54ac9acb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f65034a0",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:enchantment_aplicator"
+		}]
+	},
+	{
+		uid: "58c369ba",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:enchantment_extractor"
+		}]
+	}]
+}

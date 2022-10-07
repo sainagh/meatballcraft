@@ -1,0 +1,28 @@
+{
+	x: -4.0d,
+	y: 9.5d,
+	dependencies: [
+		"39345c7d"
+	],
+	tasks: [{
+		uid: "08fe543e",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal"
+		}]
+	},
+	{
+		uid: "ba289d38",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 3"
+		}]
+	},
+	{
+		uid: "635eb375",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 6"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "This may be a little evil...",
+	x: 15.5d,
+	y: 1.5d,
+	description: "More info about woot is found on book of creation",
+	text: [
+		"At this point I have no doubt I'm being manipulated in some way.",
+		"The same 'thing' that keeps me alive is driving me towards the making of stygian iron, which allows me to magically manipulate souls.",
+		"I know this power is wrong, but I can't help it! I have to figure out what's going on with me!"
+	],
+	dependencies: [
+		"8d6470f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1e0c6179",
+		type: "item",
+		items: [{
+			item: "woot:anvil"
+		}]
+	}]
+}

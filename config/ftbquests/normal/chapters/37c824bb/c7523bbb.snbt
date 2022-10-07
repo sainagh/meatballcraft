@@ -1,0 +1,23 @@
+{
+	title: "EZ Neutrinos",
+	x: 80.0d,
+	y: -4.5d,
+	dependencies: [
+		"452a749f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d6e32959",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 4"
+		}]
+	},
+	{
+		uid: "f6567648",
+		type: "item",
+		items: [{
+			item: "contenttweaker:muon_crystal"
+		}]
+	}]
+}

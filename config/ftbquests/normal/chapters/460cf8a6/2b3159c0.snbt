@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	text: [
+		"Found between Y=0 to Y=65"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "ad80f13d",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

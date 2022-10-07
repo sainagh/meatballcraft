@@ -1,0 +1,23 @@
+{
+	x: 24.5d,
+	y: 2.0d,
+	text: [
+		"Found in the Shyrelands Dimension from Advent of Ascension",
+		"Spawns from Y=65 to Y=104",
+		"Can be Dropped from 'Xxeus' and 'Stimulosus'"
+		"Can be Found in lootchests from 'Luxocron Dungeon', 'Ruined House', 'Shyre Mausoleum', and 'Shyre Shelter'",
+		"Can be Found in Shiny Boxes",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"1d4d7860"
+	],
+	tasks: [{
+		uid: "fc92bf38",
+		type: "item",
+		items: [{
+			item: "aoa3:shyrestone_ingot"
+		}]
+	}]
+}

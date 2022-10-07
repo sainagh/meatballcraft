@@ -1,0 +1,15 @@
+{
+	x: 63.5d,
+	y: -6.0d,
+	dependencies: [
+		"1c3ecdc9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1bc0dca9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:vox_ponds_garnet"
+		}]
+	}]
+}

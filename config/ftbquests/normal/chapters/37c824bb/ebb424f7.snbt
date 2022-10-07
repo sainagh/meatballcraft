@@ -1,0 +1,20 @@
+{
+	x: 102.5d,
+	y: 0.0d,
+	dependencies: [
+		"63f5b204"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c758e3ce",
+		type: "item",
+		items: [{
+			id: "enderstorage:ender_pouch",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

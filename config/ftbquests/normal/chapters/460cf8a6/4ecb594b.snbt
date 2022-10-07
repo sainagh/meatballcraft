@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 19.0d,
+	text: [
+		"Found at all heights in the overworld."
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "f2f7b000",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}]
+	}]
+}

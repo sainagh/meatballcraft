@@ -1,0 +1,15 @@
+{
+	x: 113.0d,
+	y: -1.5d,
+	dependencies: [
+		"20ec7210"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fed60cdd",
+		type: "item",
+		items: [{
+			item: "divinerpg:skythern_block"
+		}]
+	}]
+}

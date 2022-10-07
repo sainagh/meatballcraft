@@ -1,0 +1,27 @@
+{
+	title: "FEATHER FALLING IS CRAFTABLE",
+	x: 7.0d,
+	y: -6.0d,
+	dependencies: [
+		"1a9cfbb7"
+	],
+	tasks: [{
+		uid: "1cfe8e3d",
+		type: "item",
+		items: [{
+			id: "minecraft:diamond_boots",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6713e6cb",
+		type: "item",
+		items: [{
+			item: "simplyjetpacks:metaitemmods 1 42"
+		}]
+	}]
+}

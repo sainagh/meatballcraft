@@ -1,0 +1,17 @@
+{
+	title: "Powerful Knowledge",
+	x: -7.0d,
+	y: 0.0d,
+	description: "This is a checkmark quest, click on the white checkmark to complete it!",
+	text: [
+		"The equations make sense, string theory is true! We indeed live in a universe that has more dimensions than we can perceive...",
+		"This means that it is *theoretically* possible to travel through these dimensions!",
+		"Time to start looking at some ways to prove this theory. Nobel prize here I come!!"
+	],
+	tasks: [{
+		uid: "b8e61294",
+		type: "checkmark",
+		title: "Entry 0",
+		icon: "enderio:block_infinity_fog"
+	}]
+}

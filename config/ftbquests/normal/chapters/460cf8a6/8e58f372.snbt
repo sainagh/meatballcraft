@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"Found in the nether"
+	],
+	dependencies: [
+		"06049c7f"
+	],
+	tasks: [{
+		uid: "e7cefdc0",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots"
+		}]
+	}]
+}

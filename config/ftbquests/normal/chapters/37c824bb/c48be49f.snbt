@@ -1,0 +1,28 @@
+{
+	title: "Warriors of the Baron Desert",
+	x: 44.0d,
+	y: 1.5d,
+	text: [
+		"I gotta say, the Shyre Empire is extremely diverse, which I guess makes sense when it's ruled by immortal, recursive beings (or being?).",
+		"Barathos is a desert land of proud warriors. To their eyes, I look nothing more than a usurper to what they believe a righteous position of power.",
+		"Seems like, to become part of the empire, a civilization need to be considered 'powerful' by some sort of standard.",
+		"Guess the testificated did not fulfill these requirements... ",
+		"The fact that these almost omnipotent beings can choose what civilizations are worthy of existing is so sad...Kardashev was right I guess... Sad..."
+	],
+	dependencies: [
+		"b2e50833"
+	],
+	hide: true,
+	tasks: [{
+		uid: "348686c1",
+		type: "item",
+		items: [{
+			id: "aoa3:barathos_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

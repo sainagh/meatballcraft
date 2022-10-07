@@ -1,0 +1,363 @@
+#loader contenttweaker
+
+import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Item;
+import mods.contenttweaker.IItemRightClick;
+import mods.contenttweaker.Commands;
+
+
+var chunks1 = VanillaFactory.createItem("sapphire_irradiated_ore_chunks");
+chunks1.maxStackSize = 64;
+chunks1.register();
+
+var chunks2 = VanillaFactory.createItem("runium_irradiated_ore_chunks");
+chunks2.maxStackSize = 64;
+chunks2.register();
+
+var chunks3 = VanillaFactory.createItem("sednanite_irradiated_ore_chunks");
+chunks3.maxStackSize = 64;
+chunks3.register();
+
+var chunks4 = VanillaFactory.createItem("netherite_irradiated_ore_chunks");
+chunks4.maxStackSize = 64;
+chunks4.register();
+
+var chunks5 = VanillaFactory.createItem("bloodgem_irradiated_ore_chunks");
+chunks5.maxStackSize = 64;
+chunks5.register();
+
+var chunks6 = VanillaFactory.createItem("emberstone_irradiated_ore_chunks");
+chunks6.maxStackSize = 64;
+chunks6.register();
+
+var chunks7 = VanillaFactory.createItem("limonite_irradiated_ore_chunks");
+chunks7.maxStackSize = 64;
+chunks7.register();
+
+var chunks8 = VanillaFactory.createItem("rosite_irradiated_ore_chunks");
+chunks8.maxStackSize = 64;
+chunks8.register();
+
+var chunks9 = VanillaFactory.createItem("jade_irradiated_ore_chunks");
+chunks9.maxStackSize = 64;
+chunks9.register();
+
+var chunks10 = VanillaFactory.createItem("amethyst_irradiated_ore_chunks");
+chunks10.maxStackSize = 64;
+chunks10.register();
+
+var chunks11 = VanillaFactory.createItem("iridium_irradiated_ore_chunks");
+chunks11.maxStackSize = 64;
+chunks11.register();
+
+var chunks12 = VanillaFactory.createItem("starmetal_irradiated_ore_chunks");
+chunks12.maxStackSize = 64;
+chunks12.register();
+
+var chunks13 = VanillaFactory.createItem("shaded_irradiated_ore_chunks");
+chunks13.maxStackSize = 64;
+chunks13.register();
+
+var chunks14 = VanillaFactory.createItem("light_irradiated_ore_chunks");
+chunks14.maxStackSize = 64;
+chunks14.register();
+
+var chunks15 = VanillaFactory.createItem("magiccrystal_irradiated_ore_chunks");
+chunks15.maxStackSize = 64;
+chunks15.register();
+
+var chunks16 = VanillaFactory.createItem("gold_irradiated_ore_chunks");
+chunks16.maxStackSize = 64;
+chunks16.register();
+
+var chunks17 = VanillaFactory.createItem("iron_irradiated_ore_chunks");
+chunks17.maxStackSize = 64;
+chunks17.register();
+
+var chunks18 = VanillaFactory.createItem("coal_irradiated_ore_chunks");
+chunks18.maxStackSize = 64;
+chunks18.register();
+
+var chunks19 = VanillaFactory.createItem("lapis_irradiated_ore_chunks");
+chunks19.maxStackSize = 64;
+chunks19.register();
+
+var chunks20 = VanillaFactory.createItem("diamond_irradiated_ore_chunks");
+chunks20.maxStackSize = 64;
+chunks20.register();
+
+var chunks21 = VanillaFactory.createItem("redstone_irradiated_ore_chunks");
+chunks21.maxStackSize = 64;
+chunks21.register();
+
+var chunks22 = VanillaFactory.createItem("emerald_irradiated_ore_chunks");
+chunks22.maxStackSize = 64;
+chunks22.register();
+
+var chunks23 = VanillaFactory.createItem("quartz_irradiated_ore_chunks");
+chunks23.maxStackSize = 64;
+chunks23.register();
+
+var chunks24 = VanillaFactory.createItem("coralium_irradiated_ore_chunks");
+chunks24.maxStackSize = 64;
+chunks24.register();
+
+var chunks25 = VanillaFactory.createItem("abyssalnite_irradiated_ore_chunks");
+chunks25.maxStackSize = 64;
+chunks25.register();
+
+var chunks26 = VanillaFactory.createItem("baronyte_irradiated_ore_chunks");
+chunks26.maxStackSize = 64;
+chunks26.register();
+
+var chunks27 = VanillaFactory.createItem("blazium_irradiated_ore_chunks");
+chunks27.maxStackSize = 64;
+chunks27.register();
+
+var chunks28 = VanillaFactory.createItem("bloodstone_irradiated_ore_chunks");
+chunks28.maxStackSize = 64;
+chunks28.register();
+
+var chunks29 = VanillaFactory.createItem("bluecrystal_irradiated_ore_chunks");
+chunks29.maxStackSize = 64;
+chunks29.register();
+
+var chunks30 = VanillaFactory.createItem("chargedrunium_irradiated_ore_chunks");
+chunks30.maxStackSize = 64;
+chunks30.register();
+
+var chunks31 = VanillaFactory.createItem("chestbone_irradiated_ore_chunks");
+chunks31.maxStackSize = 64;
+chunks31.register();
+
+var chunks32 = VanillaFactory.createItem("crystallite_irradiated_ore_chunks");
+chunks32.maxStackSize = 64;
+chunks32.register();
+
+var chunks33 = VanillaFactory.createItem("elecanium_irradiated_ore_chunks");
+chunks33.maxStackSize = 64;
+chunks33.register();
+
+var chunks34 = VanillaFactory.createItem("footbone_irradiated_ore_chunks");
+chunks34.maxStackSize = 64;
+chunks34.register();
+
+var chunks35 = VanillaFactory.createItem("gemenyte_irradiated_ore_chunks");
+chunks35.maxStackSize = 64;
+chunks35.register();
+
+var chunks36 = VanillaFactory.createItem("ghastly_irradiated_ore_chunks");
+chunks36.maxStackSize = 64;
+chunks36.register();
+
+var chunks37 = VanillaFactory.createItem("ghoulish_irradiated_ore_chunks");
+chunks37.maxStackSize = 64;
+chunks37.register();
+
+var chunks38 = VanillaFactory.createItem("greencrystal_irradiated_ore_chunks");
+chunks38.maxStackSize = 64;
+chunks38.register();
+
+var chunks39 = VanillaFactory.createItem("jewelyte_irradiated_ore_chunks");
+chunks39.maxStackSize = 64;
+chunks39.register();
+
+var chunks40 = VanillaFactory.createItem("legbone_irradiated_ore_chunks");
+chunks40.maxStackSize = 64;
+chunks40.register();
+
+var chunks41 = VanillaFactory.createItem("lyon_irradiated_ore_chunks");
+chunks41.maxStackSize = 64;
+chunks41.register();
+
+var chunks42 = VanillaFactory.createItem("mystite_irradiated_ore_chunks");
+chunks42.maxStackSize = 64;
+chunks42.register();
+
+var chunks43 = VanillaFactory.createItem("ornamyte_irradiated_ore_chunks");
+chunks43.maxStackSize = 64;
+chunks43.register();
+
+var chunks44 = VanillaFactory.createItem("purplecrystal_irradiated_ore_chunks");
+chunks44.maxStackSize = 64;
+chunks44.register();
+
+var chunks45 = VanillaFactory.createItem("redcrystal_irradiated_ore_chunks");
+chunks45.maxStackSize = 64;
+chunks45.register();
+
+var chunks46 = VanillaFactory.createItem("shyregem_irradiated_ore_chunks");
+chunks46.maxStackSize = 64;
+chunks46.register();
+
+var chunks47 = VanillaFactory.createItem("shyrestone_irradiated_ore_chunks");
+chunks47.maxStackSize = 64;
+chunks47.register();
+
+var chunks48 = VanillaFactory.createItem("skullbone_irradiated_ore_chunks");
+chunks48.maxStackSize = 64;
+chunks48.register();
+
+var chunks49 = VanillaFactory.createItem("varsium_irradiated_ore_chunks");
+chunks49.maxStackSize = 64;
+chunks49.register();
+
+var chunks50 = VanillaFactory.createItem("whitecrystal_irradiated_ore_chunks");
+chunks50.maxStackSize = 64;
+chunks50.register();
+
+var chunks51 = VanillaFactory.createItem("yellowcrystal_irradiated_ore_chunks");
+chunks51.maxStackSize = 64;
+chunks51.register();
+
+var chunks52 = VanillaFactory.createItem("certus_irradiated_ore_chunks");
+chunks52.maxStackSize = 64;
+chunks52.register();
+
+var chunks53 = VanillaFactory.createItem("garnet_irradiated_ore_chunks");
+chunks53.maxStackSize = 64;
+chunks53.register();
+
+var chunks54 = VanillaFactory.createItem("opal_irradiated_ore_chunks");
+chunks54.maxStackSize = 64;
+chunks54.register();
+
+var chunks55 = VanillaFactory.createItem("salt_irradiated_ore_chunks");
+chunks55.maxStackSize = 64;
+chunks55.register();
+
+var chunks56 = VanillaFactory.createItem("silver_irradiated_ore_chunks");
+chunks56.maxStackSize = 64;
+chunks56.register();
+
+var chunks57 = VanillaFactory.createItem("ruby_irradiated_ore_chunks");
+chunks57.maxStackSize = 64;
+chunks57.register();
+
+var chunks58 = VanillaFactory.createItem("peridot_irradiated_ore_chunks");
+chunks58.maxStackSize = 64;
+chunks58.register();
+
+var chunks59 = VanillaFactory.createItem("topaz_irradiated_ore_chunks");
+chunks59.maxStackSize = 64;
+chunks59.register();
+
+var chunks60 = VanillaFactory.createItem("tanzanite_irradiated_ore_chunks");
+chunks60.maxStackSize = 64;
+chunks60.register();
+
+var chunks61 = VanillaFactory.createItem("malachite_irradiated_ore_chunks");
+chunks61.maxStackSize = 64;
+chunks61.register();
+
+var chunks62 = VanillaFactory.createItem("amber_irradiated_ore_chunks");
+chunks62.maxStackSize = 64;
+chunks62.register();
+
+var chunks63 = VanillaFactory.createItem("eden_irradiated_ore_chunks");
+chunks63.maxStackSize = 64;
+chunks63.register();
+
+var chunks64 = VanillaFactory.createItem("wildwood_irradiated_ore_chunks");
+chunks64.maxStackSize = 64;
+chunks64.register();
+
+var chunks65 = VanillaFactory.createItem("apalachia_irradiated_ore_chunks");
+chunks65.maxStackSize = 64;
+chunks65.register();
+
+var chunks66 = VanillaFactory.createItem("skythern_irradiated_ore_chunks");
+chunks66.maxStackSize = 64;
+chunks66.register();
+
+var chunks67 = VanillaFactory.createItem("mortum_irradiated_ore_chunks");
+chunks67.maxStackSize = 64;
+chunks67.register();
+
+var chunks68 = VanillaFactory.createItem("draconium_irradiated_ore_chunks");
+chunks68.maxStackSize = 64;
+chunks68.register();
+
+var chunks69 = VanillaFactory.createItem("yellorite_irradiated_ore_chunks");
+chunks69.maxStackSize = 64;
+chunks69.register();
+
+var chunks70 = VanillaFactory.createItem("apatite_irradiated_ore_chunks");
+chunks70.maxStackSize = 64;
+chunks70.register();
+
+var chunks71 = VanillaFactory.createItem("copper_irradiated_ore_chunks");
+chunks71.maxStackSize = 64;
+chunks71.register();
+
+var chunks72 = VanillaFactory.createItem("tin_irradiated_ore_chunks");
+chunks72.maxStackSize = 64;
+chunks72.register();
+
+var chunks73 = VanillaFactory.createItem("aluminum_irradiated_ore_chunks");
+chunks73.maxStackSize = 64;
+chunks73.register();
+
+var chunks74 = VanillaFactory.createItem("lead_irradiated_ore_chunks");
+chunks74.maxStackSize = 64;
+chunks74.register();
+
+var chunks75 = VanillaFactory.createItem("nickel_irradiated_ore_chunks");
+chunks75.maxStackSize = 64;
+chunks75.register();
+
+var chunks76 = VanillaFactory.createItem("uranium_irradiated_ore_chunks");
+chunks76.maxStackSize = 64;
+chunks76.register();
+
+var chunks77 = VanillaFactory.createItem("prosperity_irradiated_ore_chunks");
+chunks77.maxStackSize = 64;
+chunks77.register();
+
+var chunks78 = VanillaFactory.createItem("inferium_irradiated_ore_chunks");
+chunks78.maxStackSize = 64;
+chunks78.register();
+
+var chunks79 = VanillaFactory.createItem("boron_irradiated_ore_chunks");
+chunks79.maxStackSize = 64;
+chunks79.register();
+
+var chunks80 = VanillaFactory.createItem("lithium_irradiated_ore_chunks");
+chunks80.maxStackSize = 64;
+chunks80.register();
+
+var chunks81 = VanillaFactory.createItem("magnesium_irradiated_ore_chunks");
+chunks81.maxStackSize = 64;
+chunks81.register();
+
+var chunks82 = VanillaFactory.createItem("electrotine_irradiated_ore_chunks");
+chunks82.maxStackSize = 64;
+chunks82.register();
+
+var chunks83 = VanillaFactory.createItem("dimensionalshard_irradiated_ore_chunks");
+chunks83.maxStackSize = 64;
+chunks83.register();
+
+var chunks84 = VanillaFactory.createItem("sulfur_irradiated_ore_chunks");
+chunks84.maxStackSize = 64;
+chunks84.register();
+
+var chunks85 = VanillaFactory.createItem("tungsten_irradiated_ore_chunks");
+chunks85.maxStackSize = 64;
+chunks85.register();
+
+var chunks86 = VanillaFactory.createItem("platinum_irradiated_ore_chunks");
+chunks86.maxStackSize = 64;
+chunks86.register();
+
+var chunks87 = VanillaFactory.createItem("mithril_irradiated_ore_chunks");
+chunks87.maxStackSize = 64;
+chunks87.register();
+
+var chunks88 = VanillaFactory.createItem("dilithium_irradiated_ore_chunks");
+chunks88.maxStackSize = 64;
+chunks88.register();
+
+var chunks89 = VanillaFactory.createItem("thorium_irradiated_ore_chunks");
+chunks89.maxStackSize = 64;
+chunks89.register();

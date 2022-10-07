@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: 16.0d,
+	text: [
+		"Fluid chemistry? Fluid chemistry!",
+		"Good to have on autocraft, I will need a decent amount of these."
+	],
+	dependencies: [
+		"5f57ce40"
+	],
+	tasks: [{
+		uid: "2c26a347",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:electrolyser_idle"
+		}]
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Existential Matter",
+	x: 45.5d,
+	y: 0.0d,
+	text: [
+		"UU Matter, which is synthetically produced, has mythical properties.",
+		"This is nice because it will allow me to 'boost' my void resource miners!",
+		"I'm going to need a 'crucible' to refine this matter with alchemy, though..."
+	],
+	dependencies: [
+		"b2e50833"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ad274c1",
+		type: "item",
+		items: [{
+			item: "techreborn:uumatter"
+		}]
+	},
+	{
+		uid: "e1f066fe",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:spatial_crucible"
+			}
+		}]
+	},
+	{
+		uid: "141416d1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:spatial_pylon"
+		}]
+	}]
+}

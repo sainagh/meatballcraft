@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: 1.0d,
+	text: [
+		"The enervation dynamo uses power-infused items (such as redstone) as fuel to produce RF."
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "2efa8fb8",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 4s,
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

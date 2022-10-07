@@ -1,0 +1,18 @@
+{
+	title: "Luna",
+	icon: "advancedrocketry:moonturf",
+	x: 7.0d,
+	y: -1.0d,
+	description: "Launch a rocket",
+	text: [
+		""
+	],
+	dependencies: [
+		"347fb19a"
+	],
+	tasks: [{
+		uid: "331bdde3",
+		type: "dimension",
+		dim: 145
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Genetic Rampup",
+	x: 62.0d,
+	y: 0.0d,
+	dependencies: [
+		"588d339b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5fe3ab4f",
+		type: "item",
+		items: [{
+			item: "genetics:misc 1 3"
+		}]
+	}]
+}

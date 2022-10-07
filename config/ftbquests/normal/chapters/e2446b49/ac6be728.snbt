@@ -1,0 +1,21 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	text: [
+		"Alchemy is very powerful, so no surprises that alchemical bags are also OP."
+	],
+	dependencies: [
+		"0d9d62d1"
+	],
+	tasks: [{
+		uid: "0ec0e752",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_alchemical_bag",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

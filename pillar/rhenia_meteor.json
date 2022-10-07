@@ -1,0 +1,29 @@
+{
+	"generatorType": "SURFACE",
+	"minY": -1,
+	"maxY": -1,
+	"offsetX": 0,
+	"offsetY": 0,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [163],
+	"biomeNameSpawns": [],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": true,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	
+	"rarity": 500
+}

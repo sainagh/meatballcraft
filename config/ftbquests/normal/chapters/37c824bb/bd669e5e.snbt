@@ -1,0 +1,21 @@
+{
+	title: "Tech Rampup",
+	x: 21.5d,
+	y: -1.5d,
+	description: "Used to craft machines from tech reborn (see manufacturing and fabrication)",
+	text: [
+		"better fabrication, better machines!",
+		"The framing engineered using my upgraded table can be used to make machines that should be on par with Earth's current technology."
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "87fa12a8",
+		type: "item",
+		items: [{
+			item: "techreborn:machine_frame"
+		}]
+	}]
+}

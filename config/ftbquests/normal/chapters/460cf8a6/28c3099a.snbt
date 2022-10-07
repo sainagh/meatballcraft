@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 21.0d,
+	text: [
+		"Spawns from Gravel Which Spawns Near Water",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "8024b59e",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}]
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Sons of Witches",
+	x: 23.0d,
+	y: -6.0d,
+	text: [
+		"Some testificates, I found, also practice magic. Their religion seems to be based around some sort of demonic pantheon, and by using herbs and minerals, the powers of these beings is brought into this world.",
+		"Time for me to start experimenting with Witchery."
+	],
+	dependencies: [
+		"55075fff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f931b388",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any bewitchmentAltar"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "bewitchmentAltar"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

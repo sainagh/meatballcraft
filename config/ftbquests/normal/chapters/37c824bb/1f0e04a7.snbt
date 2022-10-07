@@ -1,0 +1,22 @@
+{
+	title: "Master of the lower sky",
+	x: 20.0d,
+	y: -10.5d,
+	description: "Rare and quite hard to find bell-shaped islands with golden oaks. Break blocks after finishing dungeon.",
+	text: [
+		"Mh, there is relatively little war happening on the skies above Terra",
+		"That was almost too easy...",
+		"Curious if it is because those who are involved in this war do not know of astral magic..."
+	],
+	dependencies: [
+		"56bc0b1a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b3a18e37",
+		type: "item",
+		items: [{
+			item: "aether_legacy:dungeon_block 1 4"
+		}]
+	}]
+}

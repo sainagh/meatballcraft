@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 9.5d,
+	text: [
+		"Better essences, better materials!"
+	],
+	dependencies: [
+		"e620c660"
+	],
+	tasks: [{
+		uid: "042ff895",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium"
+		}]
+	}]
+}

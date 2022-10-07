@@ -1,0 +1,24 @@
+{
+	x: 8.0d,
+	y: -5.0d,
+	text: [
+		"Four display stands, placed around the empowerer two blocks away."
+	],
+	dependencies: [
+		"e7285edc"
+	],
+	tasks: [{
+		uid: "ca8b8245",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	},
+	{
+		uid: "b5531ad5",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_display_stand"
+		}]
+	}]
+}

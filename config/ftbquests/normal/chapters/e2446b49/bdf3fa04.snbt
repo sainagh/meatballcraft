@@ -1,0 +1,23 @@
+{
+	x: -15.5d,
+	y: -6.0d,
+	text: [
+		"Gosh I love repeating myself, BETTER!"
+	],
+	dependencies: [
+		"e8f6c4ae"
+	],
+	tasks: [{
+		uid: "be4e3ba6",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:reservoir",
+			Damage: 3s,
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

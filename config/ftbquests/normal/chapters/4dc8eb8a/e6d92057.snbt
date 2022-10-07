@@ -1,0 +1,25 @@
+{
+	x: -5.5d,
+	y: -3.5d,
+	text: [
+		"The plant sower is used to plant up to 9 different types of plants.",
+		"The gatherer can automatically harvest plants, producing sludge as a byproduct."
+	],
+	dependencies: [
+		"f0ef01a2"
+	],
+	tasks: [{
+		uid: "81637fd0",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_sower"
+		}]
+	},
+	{
+		uid: "45d91177",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_recolector"
+		}]
+	}]
+}

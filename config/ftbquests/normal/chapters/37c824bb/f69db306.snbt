@@ -1,0 +1,15 @@
+{
+	x: 90.5d,
+	y: 1.5d,
+	dependencies: [
+		"fc10039f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6960d197",
+		type: "item",
+		items: [{
+			item: "contenttweaker:skythern_refined_gem"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 10.0d,
+	text: [
+		"A cutter for all your circuit needs!",
+		"Use holo projector to see multiblock preview."
+	],
+	dependencies: [
+		"3b01a8a9"
+	],
+	tasks: [{
+		uid: "cc8dd93f",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:cuttingmachine"
+		}]
+	}]
+}

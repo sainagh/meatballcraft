@@ -1,0 +1,15 @@
+{
+	x: 71.0d,
+	y: -9.0d,
+	dependencies: [
+		"8ec265b7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4b6d8763",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cursed_sapphire"
+		}]
+	}]
+}

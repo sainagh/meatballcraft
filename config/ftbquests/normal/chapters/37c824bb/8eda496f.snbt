@@ -1,0 +1,17 @@
+{
+	title: "Too Deep...",
+	x: 15.5d,
+	y: -10.5d,
+	description: "Found at the bottom of the sludgeon! Sludge plain clearing biome.",
+	dependencies: [
+		"09a8bf21"
+	],
+	hide: true,
+	tasks: [{
+		uid: "00de32b0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:menacing_sludge"
+		}]
+	}]
+}

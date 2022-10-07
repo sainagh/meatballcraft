@@ -1,0 +1,19 @@
+{
+	x: 12.5d,
+	y: 3.0d,
+	text: [
+		"Found in 'Labyrinth', 'Hollow Hill', and 'Dark Tower' Chests",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"c3ccab1b"
+	],
+	tasks: [{
+		uid: "95708b7a",
+		type: "item",
+		items: [{
+			item: "twilightforest:steeleaf_ingot"
+		}]
+	}]
+}

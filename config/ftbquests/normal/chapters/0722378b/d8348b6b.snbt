@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 13.0d,
+	text: [
+		"For all your fluid infusion needs, and a great way to make treated wood."
+	],
+	dependencies: [
+		"5f57ce40"
+	],
+	tasks: [{
+		uid: "089b5f7c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:infuser_idle"
+		}]
+	}]
+}

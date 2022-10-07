@@ -1,0 +1,22 @@
+{
+	x: 95.0d,
+	y: -4.5d,
+	dependencies: [
+		"13f18f23"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bd9993c0",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	},
+	{
+		uid: "a9a1b9b7",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}]
+	}]
+}

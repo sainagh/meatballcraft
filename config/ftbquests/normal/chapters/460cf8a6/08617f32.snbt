@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: 4.0d,
+	text: [
+		"Found between Y = 10 and Y = 40"
+	],
+	dependencies: [
+		"06049c7f"
+	],
+	tasks: [{
+		uid: "47de1774",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 894"
+		}]
+	}]
+}

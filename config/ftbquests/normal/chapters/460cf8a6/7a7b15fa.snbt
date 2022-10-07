@@ -1,0 +1,17 @@
+{
+	x: 18.5d,
+	y: 0.0d,
+	text: [
+		"As The Title Says!",
+		"",
+		"- Written By Bluecat"
+	],
+	dependencies: [
+		"47707370"
+	],
+	tasks: [{
+		uid: "dc64d69f",
+		type: "checkmark",
+		title: "Twilight Realms"
+	}]
+}

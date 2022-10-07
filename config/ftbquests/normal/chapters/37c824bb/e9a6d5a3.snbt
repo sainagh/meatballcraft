@@ -1,0 +1,33 @@
+{
+	title: "This is awesome!",
+	x: 17.0d,
+	y: 1.5d,
+	text: [
+		"Alchemical energy provided by fuels such as coal and redstone can also be converted to explosive power.",
+		"This catalyst should make mining very easy!"
+	],
+	dependencies: [
+		"a13a0880"
+	],
+	hide: true,
+	tasks: [{
+		uid: "57de7e07",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_destruction_catalyst",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2b083b9d",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	}]
+}

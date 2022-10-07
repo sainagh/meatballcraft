@@ -1,0 +1,21 @@
+{
+	x: 23.0d,
+	y: 4.0d,
+	text: [
+		"Come from the Runandor Dimension from Advent of Ascension",
+		"Can be Found in Shiny Boxes",
+		"The Ore Spawns Between Y=1 to Y=34 wherever there is Runic Bricks",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"57865bae"
+	],
+	tasks: [{
+		uid: "57e17ff6",
+		type: "item",
+		items: [{
+			item: "aoa3:elecanium_ingot"
+		}]
+	}]
+}

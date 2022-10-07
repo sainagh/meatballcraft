@@ -1,0 +1,23 @@
+{
+	title: "Eden Falls",
+	x: 48.5d,
+	y: 0.0d,
+	text: [
+		"The twilight horde is strange...they hold incredible power, and most of the beings I have encountered are naturally able to warp space-time, just as easily it would be for me to lift my hand.",
+		"I am truly fighting against higher dimensional beings!",
+		"Even their 'world' appears to exist in higer dimensions.",
+		"Yet, most of their 'soldiers' are no smarter than sheeps...",
+		"I defeated the ruler of the Eden Isles, yet, at the moment, I do not have the power to delve deeper into the world of the Horde..."
+	],
+	dependencies: [
+		"fc28e660"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3e876364",
+		type: "item",
+		items: [{
+			item: "contenttweaker:eden_core"
+		}]
+	}]
+}

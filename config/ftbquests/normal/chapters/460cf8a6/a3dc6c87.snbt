@@ -1,0 +1,14 @@
+{
+	title: "Nether Minerals",
+	x: 3.5d,
+	y: 0.0d,
+	text: [
+		"As The Title Says!"
+		""
+		"- Written by Bluecat"
+	],
+	tasks: [{
+		uid: "a8dbd7d3",
+		type: "checkmark"
+	}]
+}

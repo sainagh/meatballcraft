@@ -1,0 +1,18 @@
+{
+	title: "Precasia Forest",
+	icon: "aoa3:precasia_grass",
+	x: 13.0d,
+	y: 0.5d,
+	description: "5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+	text: [
+		""
+	],
+	dependencies: [
+		"21b905c6"
+	],
+	tasks: [{
+		uid: "0b311037",
+		type: "dimension",
+		dim: 818
+	}]
+}

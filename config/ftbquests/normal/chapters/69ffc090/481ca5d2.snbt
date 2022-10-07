@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: 8.0d,
+	dependencies: [
+		"60e57d31"
+	],
+	tasks: [{
+		uid: "9e060cf1",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemskyresonator",
+			tag: {
+				astralsorcery: {
+					enhanced: 1b,
+					upgrades: [
+						0,
+						1,
+						2
+					]
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

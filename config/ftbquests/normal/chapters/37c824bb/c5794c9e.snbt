@@ -1,0 +1,36 @@
+{
+	x: 125.0d,
+	y: 0.0d,
+	dependencies: [
+		"e98f5dcf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "146014fb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dyson_collector"
+		}]
+	},
+	{
+		uid: "7132b69c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dyson_conduit"
+		}]
+	},
+	{
+		uid: "8f004df3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:irradiator_casing"
+		}]
+	},
+	{
+		uid: "08e4cb89",
+		type: "item",
+		items: [{
+			item: "contenttweaker:miniature_pulsar"
+		}]
+	}]
+}

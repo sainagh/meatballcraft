@@ -1,0 +1,20 @@
+{
+	title: "Way better!",
+	x: 8.0d,
+	y: 3.0d,
+	description: "Getting your dynamos and machines to resonant tier is best!",
+	text: [
+		"Resonant is much, much better than the prior tiers..."
+	],
+	dependencies: [
+		"85e4506e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "90ea53ed",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 3"
+		}]
+	}]
+}

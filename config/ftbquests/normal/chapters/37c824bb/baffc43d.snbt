@@ -1,0 +1,15 @@
+{
+	x: 122.0d,
+	y: 1.5d,
+	dependencies: [
+		"86442c58"
+	],
+	hide: true,
+	tasks: [{
+		uid: "05ece4e4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:definer_core"
+		}]
+	}]
+}

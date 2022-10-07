@@ -1,0 +1,17 @@
+{
+	title: "Really Interesting results",
+	x: 50.0d,
+	y: 4.5d,
+	description: "It's easy now!",
+	dependencies: [
+		"1d305156"
+	],
+	hide: true,
+	tasks: [{
+		uid: "38935652",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_block"
+		}]
+	}]
+}

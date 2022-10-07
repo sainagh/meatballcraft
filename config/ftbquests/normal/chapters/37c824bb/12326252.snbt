@@ -1,0 +1,31 @@
+{
+	title: "Deeplands Fall",
+	x: 45.5d,
+	y: 4.5d,
+	description: "Place a charging table on top of kror altar, and right click with the boulder dash.",
+	text: [
+		"Interesting, the Shyre empire placed a master of recursion to protect a cave planet that barely has any useful resource...",
+		"Runium is useful, I guess, but it definitely isn't worth spending all this energy on, when it only possesses minor alchemical properties...",
+		"If you have the power to control space-time, wouldn't it be better to find a planet full of red matter?"
+	],
+	dependencies: [
+		"5a18d10d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f0abe6d7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:deepland_cap"
+		}]
+	},
+	{
+		uid: "0fdbd99d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:deeplands_callstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

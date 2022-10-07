@@ -1,0 +1,17 @@
+{
+	x: 51.5d,
+	y: 3.0d,
+	dependencies: [
+		"1d305156"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0e016ddc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:finem_warper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	icon: "iceandfire:fire_dragon_heart",
+	x: 2.0d,
+	y: 1.5d,
+	description: "1.2.5 dupes were the best!",
+	text: [
+		"The circle within 1200 blocks of spawn is safe(r).",
+		"No dragons here!"
+	],
+	dependencies: [
+		"c4bd8574"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b9883ffd",
+		type: "checkmark",
+		title: "We love our safe space!"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -18.5d,
+	y: -10.5d,
+	dependencies: [
+		"8c9a42c4"
+	],
+	tasks: [{
+		uid: "cbb53c36",
+		type: "item",
+		items: [{
+			item: "thaumadditions:jar_adaminite"
+		}]
+	}]
+}

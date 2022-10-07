@@ -1,0 +1,15 @@
+{
+	x: 105.5d,
+	y: 0.0d,
+	dependencies: [
+		"a6dda290"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3a15c8f5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:vethea_garnet"
+		}]
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	x: 9.5d,
+	y: 0.0d,
+	text: [
+		"More apiary useful stuff!"
+	],
+	dependencies: [
+		"f7af641f"
+	],
+	tasks: [{
+		uid: "1b80a227",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 2"
+		}]
+	},
+	{
+		uid: "486aa0c4",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 1"
+		}]
+	},
+	{
+		uid: "a49a0442",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 3"
+		}]
+	},
+	{
+		uid: "23883679",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade"
+		}]
+	},
+	{
+		uid: "ead5fbac",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 22"
+		}]
+	}]
+}

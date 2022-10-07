@@ -1,0 +1,20 @@
+{
+	title: "Magic or Science?",
+	x: 12.5d,
+	y: 3.0d,
+	description: "Used to craft machines from extra utilities (see manufacturing and fabrication)",
+	text: [
+		"The same magical affinity I used to make enchanted tables seems to allow for the making of machinery, this is very interesting!"
+	],
+	dependencies: [
+		"8b210b51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "35a071e5",
+		type: "item",
+		items: [{
+			item: "extrautils2:machine"
+		}]
+	}]
+}

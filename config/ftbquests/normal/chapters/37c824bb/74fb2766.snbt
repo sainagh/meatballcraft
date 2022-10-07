@@ -1,0 +1,19 @@
+{
+	title: "Custom Crystals",
+	x: 18.5d,
+	y: 3.0d,
+	text: [
+		"The improved means of fabrications I have developed seem to be working well with one of the metals found in the Terra underground."
+	],
+	dependencies: [
+		"cff69a0b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "37cb2f34",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crystalized_emberstone"
+		}]
+	}]
+}

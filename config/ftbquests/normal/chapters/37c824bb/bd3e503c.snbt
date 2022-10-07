@@ -1,0 +1,15 @@
+{
+	x: 89.0d,
+	y: 3.0d,
+	dependencies: [
+		"ef8cfe70"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1073e46f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dustopia_garnet"
+		}]
+	}]
+}

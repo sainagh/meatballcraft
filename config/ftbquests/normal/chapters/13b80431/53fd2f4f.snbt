@@ -1,0 +1,18 @@
+{
+	title: "Dark Realm",
+	icon: "abyssalcraft:stone",
+	x: 5.0d,
+	y: 9.5d,
+	description: "Jump into the omothol void...",
+	text: [
+		""
+	],
+	dependencies: [
+		"846c45bd"
+	],
+	tasks: [{
+		uid: "7b049dc9",
+		type: "dimension",
+		dim: 53
+	}]
+}

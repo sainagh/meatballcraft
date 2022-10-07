@@ -1,0 +1,16 @@
+{
+	title: "Draconic turbines!",
+	x: 54.5d,
+	y: 3.0d,
+	dependencies: [
+		"51572827"
+	],
+	hide: true,
+	tasks: [{
+		uid: "13e60346",
+		type: "item",
+		items: [{
+			item: "contenttweaker:highly_advanced_machine_casing"
+		}]
+	}]
+}

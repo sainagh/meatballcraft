@@ -1,0 +1,14 @@
+{
+  "dump": {
+    "__comment": "Whether classes transformed by this class transformer should be dumped to disk",
+    "enabled": false
+  },
+  "emergency_mode": {
+    "__comment": "If emergency mode is enabled, no transformers will load. Can be used for debugging, but DO NOT TURN IT ON!",
+    "enabled": false
+  },
+  "disable_jar_copying": {
+    "__comment": "Disables the JAR copying feature. This feature is necessary for Fermion to load correctly. Disabling it is not wise.",
+    "enabled": false
+  }
+}

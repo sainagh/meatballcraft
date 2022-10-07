@@ -1,0 +1,16 @@
+{
+	title: "Am I there yet?!?",
+	x: 86.0d,
+	y: 0.0d,
+	dependencies: [
+		"c0aee385"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9a3a1ce7",
+		type: "item",
+		items: [{
+			item: "divinerpg:apalachia_block"
+		}]
+	}]
+}

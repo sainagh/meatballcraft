@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 20.0d,
+	dependencies: [
+		"fe046b03"
+	],
+	tasks: [{
+		uid: "9f00d67e",
+		type: "item",
+		items: [{
+			item: "techreborn:chemical_reactor"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Laser Fabrication",
+	x: 23.0d,
+	y: -1.5d,
+	text: [
+		"Time for some some lasers!",
+		"The assembly table should allow me to build some good logic processors and circuits."
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e2c3e32b",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:assembly_table"
+		}]
+	},
+	{
+		uid: "ff40379f",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:laser"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 89.0d,
+	y: 1.5d,
+	dependencies: [
+		"e43c6b3a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5ce8babb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:greckon_garnet"
+		}]
+	}]
+}

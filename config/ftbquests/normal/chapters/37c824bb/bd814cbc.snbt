@@ -1,0 +1,15 @@
+{
+	x: 30.5d,
+	y: -16.5d,
+	description: "Use the arcane prison key",
+	dependencies: [
+		"a852a933"
+	],
+	tasks: [{
+		uid: "51b6a326",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sympan_spirit"
+		}]
+	}]
+}

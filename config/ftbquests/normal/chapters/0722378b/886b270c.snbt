@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: 11.0d,
+	text: [
+		"Tier 3, now we're cooking with gas!"
+	],
+	dependencies: [
+		"31ed6cfa"
+	],
+	tasks: [{
+		uid: "1c244da2",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 2"
+		}]
+	}]
+}

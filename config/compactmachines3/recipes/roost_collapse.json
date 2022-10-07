@@ -1,0 +1,55 @@
+{
+    "name": "compactmachines3:roost_collapse",
+    "target-item": "roost:roost",
+    "target-meta": 0,
+    "target-count": 4,
+
+    "duration": 200,
+
+    "catalyst": "draconicevolution:draconic_ingot",
+
+    "input-types": {
+        "m": {"id": "erebus:planks_petrified_wood"},
+        "e": {"id": "erebus:amber_bricks"},
+        "a": {"id": "erebus:fence_eucalyptus"}
+    },
+
+    "symmetrical": true,
+
+    "shape": [
+        [
+            ["m", "m", "m", "m", "m"],
+            ["m", "m", "m", "m", "m"],
+            ["m", "m", "m", "m", "m"],
+            ["m", "m", "m", "m", "m"],
+            ["m", "m", "m", "m", "m"]
+        ],
+        [
+            ["m", "a", "a", "a", "m"],
+            ["a", "e", "e", "e", "a"],
+            ["a", "e", "e", "e", "a"],
+            ["a", "e", "e", "e", "a"],
+            ["m", "a", "a", "a", "m"]
+        ],
+        [
+            ["m", "a", "a", "a", "m"],
+            ["a", "e", "e", "e", "a"],
+            ["a", "e", "e", "e", "a"],
+            ["a", "e", "e", "e", "a"],
+            ["m", "a", "a", "a", "m"]
+        ],
+        [
+            ["m", "a", "a", "a", "m"],
+            ["a", "e", "e", "e", "a"],
+            ["a", "e", "e", "e", "a"],
+            ["a", "e", "e", "e", "a"],
+            ["m", "a", "a", "a", "m"]
+        ],
+        [
+            ["m", "m", "m", "m", "m"],
+            ["m", "m", "m", "m", "m"],
+            ["m", "m", "m", "m", "m"],
+            ["m", "m", "m", "m", "m"],
+            ["m", "m", "m", "m", "m"]]
+    ]
+}

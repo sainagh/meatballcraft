@@ -1,0 +1,17 @@
+{
+	title: "Inorganic Life",
+	x: 20.0d,
+	y: -7.5d,
+	description: "Found inside sky islands, there will be 3x3 entrances. Break blocks after finishing dungeon.",
+	dependencies: [
+		"56bc0b1a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "df17b2e5",
+		type: "item",
+		items: [{
+			item: "aether_legacy:dungeon_block"
+		}]
+	}]
+}

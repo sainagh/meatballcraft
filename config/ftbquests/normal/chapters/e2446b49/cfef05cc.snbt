@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 8.5d,
+	text: [
+		"Faster! Higher!"
+	],
+	dependencies: [
+		"f46bc472"
+	],
+	tasks: [{
+		uid: "de854fa6",
+		type: "item",
+		items: [{
+			id: "botania:speedupbelt",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

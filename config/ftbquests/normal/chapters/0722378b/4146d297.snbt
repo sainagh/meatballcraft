@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: 4.0d,
+	text: [
+		"At the cost of some grid powewr and some RF, this machine can harness the power of enchanting to create some pretty cool things.",
+		"Just like an enchanting table, this requires some external boost (from bookshelves, magical wood, etc.)"
+	],
+	dependencies: [
+		"4e1e22b7"
+	],
+	tasks: [{
+		uid: "1e30acda",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:enchanter"
+			}
+		}]
+	}]
+}

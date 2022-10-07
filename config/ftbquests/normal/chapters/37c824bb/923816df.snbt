@@ -1,0 +1,44 @@
+{
+	x: 72.5d,
+	y: -1.5d,
+	dependencies: [
+		"0ae451c7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2256f844",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sacrifice_metal_head"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1237de3e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sacrifice_metal_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fafe9a9b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sacrifice_metal_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "075a88d6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sacrifice_metal_feet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

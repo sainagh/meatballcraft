@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: 5.0d,
+	text: [
+		"Found From a Void Ore Miner Teir 3+",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"858e8da8"
+	],
+	tasks: [{
+		uid: "1a6d9cf6",
+		type: "item",
+		items: [{
+			item: "environmentaltech:pladium_crystal"
+		}]
+	}]
+}

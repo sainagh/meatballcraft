@@ -1,0 +1,17 @@
+{
+	title: "Master of the Tower",
+	x: 24.5d,
+	y: -10.5d,
+	description: "Found in the large branching towers in the twilight forest.",
+	dependencies: [
+		"62242ef6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7c40765a",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Pauram",
+	icon: "contenttweaker:recursion_fear",
+	x: 31.0d,
+	y: 2.0d,
+	description: "Travel using a warp core with the right artifact on a space station",
+	text: [
+		""
+	],
+	dependencies: [
+		"634c203a"
+	],
+	tasks: [{
+		uid: "b6dcf0a8",
+		type: "dimension",
+		dim: 173
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Tier 6 Mythical Resources",
+	x: 36.5d,
+	y: 1.5d,
+	text: [
+		"...And it is thanks to fusion that I can now mythically generate matter from the ayeraco."
+	],
+	dependencies: [
+		"f5231d80"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fe2055dd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ayeraco_stone"
+		}]
+	},
+	{
+		uid: "e753430b",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:mythical_resource_miner_tier6"
+			}
+		}]
+	},
+	{
+		uid: "b016660b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:plasma_wood"
+		}]
+	}]
+}

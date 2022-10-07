@@ -1,0 +1,25 @@
+{
+	title: "Rhenia",
+	icon: "minecraft:obsidian",
+	x: 15.0d,
+	y: -1.0d,
+	description: "Travel using a warp core with the right artifact on a space station",
+	text: [
+		""
+	],
+	dependencies: [
+		"441e727c",
+		"dc6304d0",
+		"4b58903c",
+		"87110977",
+		"e988d23f",
+		"49746228",
+		"1ba8d017"
+	],
+	tasks: [{
+		uid: "20165f05",
+		type: "dimension",
+		disable_toast: true,
+		dim: 163
+	}]
+}

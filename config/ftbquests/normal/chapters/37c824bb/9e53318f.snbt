@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	description: "Found on the top floor of battle towers (the ones with spawners)",
+	dependencies: [
+		"fb8062a2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3165fa5d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:golem_core"
+		}]
+	}]
+}

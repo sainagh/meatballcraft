@@ -1,0 +1,17 @@
+{
+	x: 7.0d,
+	y: -1.0d,
+	text: [
+		"Oil separation is truly a wonderful process!"
+	],
+	dependencies: [
+		"a728ea4e"
+	],
+	tasks: [{
+		uid: "4feaa5a5",
+		type: "item",
+		items: [{
+			item: "buildcraftfactory:distiller"
+		}]
+	}]
+}

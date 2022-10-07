@@ -1,0 +1,48 @@
+{
+	title: "Demon Will Affinity",
+	x: 41.0d,
+	y: 3.0d,
+	text: [
+		"This when magic starts turning into science! Imaginary gravity, in some way, is connected to blood magic!",
+		"Sednanite can now be used to more simply alloy demon will metal."
+	],
+	dependencies: [
+		"eee537a9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4718641c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 1"
+		}]
+	},
+	{
+		uid: "8f4648a4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 7"
+		}]
+	},
+	{
+		uid: "fcab12f9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 13"
+		}]
+	},
+	{
+		uid: "daaacbec",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 19"
+		}]
+	},
+	{
+		uid: "5e8403cc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 25"
+		}]
+	}]
+}

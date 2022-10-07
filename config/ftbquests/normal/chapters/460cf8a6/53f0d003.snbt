@@ -1,0 +1,19 @@
+{
+	title: "Jade",
+	x: 15.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0e2212fc"
+	],
+	tasks: [{
+		uid: "10bdb700",
+		type: "item",
+		items: [{
+			item: "erebus:materials 1 1"
+		}],
+		consume_items: false
+	}]
+}

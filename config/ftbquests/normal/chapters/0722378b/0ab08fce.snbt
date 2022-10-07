@@ -1,0 +1,12 @@
+{
+	x: 6.0d,
+	y: 5.0d,
+	dependencies: [
+		"89deb826"
+	],
+	tasks: [{
+		uid: "1841a999",
+		type: "checkmark",
+		title: "Industrial Foregoing"
+	}]
+}

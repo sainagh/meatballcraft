@@ -1,0 +1,35 @@
+{
+	x: 99.5d,
+	y: 1.5d,
+	dependencies: [
+		"12059d50"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3bde9ec6",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sentient_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b279f9ca",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			Damage: 4s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5c8b8adb",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}]
+}

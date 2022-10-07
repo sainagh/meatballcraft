@@ -1,0 +1,18 @@
+{
+	title: "The Abyss",
+	icon: "aoa3:abyss_grass",
+	x: 13.0d,
+	y: 8.0d,
+	description: "5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+	text: [
+		""
+	],
+	dependencies: [
+		"21b905c6"
+	],
+	tasks: [{
+		uid: "49bbb721",
+		type: "dimension",
+		dim: 800
+	}]
+}

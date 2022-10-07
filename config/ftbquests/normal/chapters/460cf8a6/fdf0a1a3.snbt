@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 20.0d,
+	text: [
+		"Spawns From Y=0 to Y=127",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "7d3dc3ba",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}]
+	}]
+}

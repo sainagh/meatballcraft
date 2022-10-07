@@ -1,0 +1,20 @@
+{
+	title: "All of the bluefire!",
+	x: 59.0d,
+	y: -1.5d,
+	description: "Just thinking ahead...",
+	text: [
+		"I think you want to work on this..."
+	],
+	dependencies: [
+		"6f7c1c33"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb95b724",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 991"
+		}]
+	}]
+}

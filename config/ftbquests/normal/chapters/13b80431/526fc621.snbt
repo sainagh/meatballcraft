@@ -1,0 +1,15 @@
+{
+	icon: "extrautils2:decorativebedrock 1 2",
+	x: -1.0d,
+	y: 14.0d,
+	description: "Use a deep dark portal",
+	dependencies: [
+		"446239db"
+	],
+	tasks: [{
+		uid: "26126892",
+		type: "dimension",
+		title: "The deep dark",
+		dim: -11325
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 3.0d,
+	y: -10.0d,
+	text: [
+		"More radioactive isotopes? Better uranium fuel!"
+	],
+	dependencies: [
+		"c285e7e5",
+		"d4607fdd"
+	],
+	tasks: [{
+		uid: "4d455a16",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_uranium 1 2"
+		}]
+	}]
+}

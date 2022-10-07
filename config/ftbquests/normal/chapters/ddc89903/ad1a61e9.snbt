@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: 10.5d,
+	dependencies: [
+		"87fda1d2"
+	],
+	tasks: [{
+		uid: "e55f06d6",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_phantom_liquiface"
+		}]
+	}]
+}

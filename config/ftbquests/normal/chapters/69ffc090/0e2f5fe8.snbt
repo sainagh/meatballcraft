@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -13.5d,
+	dependencies: [
+		"8082c3c1"
+	],
+	tasks: [{
+		uid: "fe4535d2",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:transcendent"
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

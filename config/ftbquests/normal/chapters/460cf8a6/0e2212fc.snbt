@@ -1,0 +1,17 @@
+{
+	x: 15.5d,
+	y: 0.0d,
+	text: [
+		"As The Title Says!",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"47707370"
+	],
+	tasks: [{
+		uid: "a3fb39c0",
+		type: "checkmark",
+		title: "Erebus Minerals"
+	}]
+}

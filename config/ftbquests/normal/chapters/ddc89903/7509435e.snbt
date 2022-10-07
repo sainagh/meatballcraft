@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: 11.5d,
+	dependencies: [
+		"af9c5b71"
+	],
+	tasks: [{
+		uid: "2e6c8bb3",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_diamond_wood_item"
+		}]
+	}]
+}

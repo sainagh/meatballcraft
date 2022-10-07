@@ -1,0 +1,18 @@
+{
+	title: "Wildwood Islands",
+	icon: "divinerpg:wildwood_grass",
+	x: 19.0d,
+	y: -2.5d,
+	description: "Use a twilight clock on a frame of eden block",
+	text: [
+		""
+	],
+	dependencies: [
+		"d1317694"
+	],
+	tasks: [{
+		uid: "ad4f66f8",
+		type: "dimension",
+		dim: 421
+	}]
+}

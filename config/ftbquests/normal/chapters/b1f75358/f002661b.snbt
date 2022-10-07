@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: -2.5d,
+	text: [
+		"I was right! I did get new Isotopes from that fuel, I should be able to make a newer fuel using some of these, that should last longer with any luck."
+	],
+	dependencies: [
+		"c685bc6a"
+	],
+	tasks: [{
+		uid: "4346fa60",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:berkelium 1 4"
+		}]
+	},
+	{
+		uid: "f213a7aa",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:berkelium"
+		}]
+	}]
+}

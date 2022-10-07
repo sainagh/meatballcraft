@@ -1,0 +1,46 @@
+{
+	x: 24.5d,
+	y: -24.0d,
+	description: "Use the harbinger callstone.",
+	dependencies: [
+		"68ba6c49"
+	],
+	hide: true,
+	tasks: [{
+		uid: "34ab5811",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 8"
+		}]
+	},
+	{
+		uid: "b89bc47d",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 7"
+		}]
+	},
+	{
+		uid: "8f1515b9",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 5"
+		}]
+	},
+	{
+		uid: "c1cfd0af",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 6"
+		}]
+	},
+	{
+		uid: "ffe05bee",
+		type: "item",
+		items: [{
+			item: "contenttweaker:harbinger_callstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

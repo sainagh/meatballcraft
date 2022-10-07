@@ -1,0 +1,27 @@
+{
+	title: "Cool Chickens",
+	x: 9.5d,
+	y: -1.5d,
+	text: [
+		"Chickens here are weird.",
+		"The testificates told me that they are also native to this planet, and they have a very special affinity for materials and elements.",
+		"Ink, for some reason, is a very effective way to reinforce iron, and it just so happens that some chickens produce it naturally."
+	],
+	dependencies: [
+		"a4aedc8f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b55fbd81",
+		type: "item",
+		items: [{
+			item: "chickens:colored_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "b9738a6c",
+		type: "item",
+		item: "chickens:colored_egg",
+		count: 64
+	}]
+}

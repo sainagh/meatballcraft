@@ -1,0 +1,19 @@
+{
+	x: -6.0d,
+	y: -9.0d,
+	dependencies: [
+		"e3823ba7"
+	],
+	tasks: [{
+		uid: "1e7d2596",
+		type: "item",
+		items: [{
+			id: "modularrouters:module",
+			Damage: 2s,
+			tag: {
+				Flags: 13b,
+				ModuleFilter: []
+			}
+		}]
+	}]
+}

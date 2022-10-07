@@ -1,0 +1,17 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	text: [
+		"Turns solids into fluids!!"
+	],
+	dependencies: [
+		"e94f8c5a"
+	],
+	tasks: [{
+		uid: "0c26caf3",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:melter"
+		}]
+	}]
+}

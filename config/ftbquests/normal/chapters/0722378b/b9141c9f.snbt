@@ -1,0 +1,34 @@
+{
+	icon: "woot:anvil",
+	x: 3.0d,
+	y: 8.0d,
+	text: [
+		"Stygian Iron anvil are pretty awesome, but are not immediately straightforward to automate.",
+		"A magma block is required underneath the anvil to provide enough heat.",
+		"Specific casts can be used for multiple outcomes, so an anvil for each cast is recommended.",
+		"Recipe items can be dropped or dispensed directly on the anvil.",
+		"Some sort of user can be used to hit the anvil with a Ya Hammer."
+	],
+	dependencies: [
+		"3d2ba360"
+	],
+	tasks: [{
+		uid: "106e3c08",
+		type: "item",
+		items: [{
+			item: "woot:anvil"
+		}]
+	},
+	{
+		uid: "d32f1f6c",
+		type: "item",
+		items: [{
+			id: "woot:yahhammer",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

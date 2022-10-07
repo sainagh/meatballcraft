@@ -1,0 +1,19 @@
+{
+	x: 24.5d,
+	y: -1.5d,
+	text: [
+		"Seems like the same digitalization of space that happens with fluix crystals can be exploted in other ways.",
+		"Should make organization a bit easier."
+	],
+	dependencies: [
+		"829fbc56"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fbdf3a66",
+		type: "item",
+		items: [{
+			item: "compactmachines3:fieldprojector"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 113.0d,
+	y: 0.0d,
+	dependencies: [
+		"4a85f171",
+		"3acea339"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2ec502b6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:recursion_prison_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 17.0d,
+	y: 5.5d,
+	dependencies: [
+		"c886443f"
+	],
+	tasks: [{
+		uid: "6b76ed50",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:arcane_inscriber"
+		}]
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	x: 6.5d,
+	y: 7.5d,
+	description: "The more you mine, the better the random drops and luck.",
+	dependencies: [
+		"d8e398cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa2284bc",
+		type: "checkmark"
+	}]
+}

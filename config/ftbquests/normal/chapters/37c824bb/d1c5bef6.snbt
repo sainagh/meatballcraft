@@ -1,0 +1,43 @@
+{
+	x: 66.5d,
+	y: -1.5d,
+	dependencies: [
+		"6304b450"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3ff835a1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:draconium_electromagnet"
+		}]
+	},
+	{
+		uid: "481e9c44",
+		type: "item",
+		items: [{
+			item: "contenttweaker:awakened_electromagnet"
+		}]
+	},
+	{
+		uid: "c131a923",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mythic_coil_t1"
+		}]
+	},
+	{
+		uid: "c9db6903",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mythic_coil_t2"
+		}]
+	},
+	{
+		uid: "4919580a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mythic_coil_t3"
+		}]
+	}]
+}

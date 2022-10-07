@@ -1,0 +1,14 @@
+{
+	x: 6.5d,
+	y: 3.0d,
+	description: "Blank runes can be used on rune shrines to produce their respective counterparts. There are better ways of getting runes.",
+	dependencies: [
+		"d8e398cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "93f0205f",
+		type: "checkmark",
+		title: "Runes!"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 17.0d,
+	y: 4.0d,
+	text: [
+		"Found below y=50 on Europa"
+	],
+	dependencies: [
+		"0c2f0105"
+	],
+	tasks: [{
+		uid: "8ac69c06",
+		type: "item",
+		items: [{
+			item: "contenttweaker:metagabbro"
+		}]
+	}]
+}

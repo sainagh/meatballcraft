@@ -1,0 +1,17 @@
+{
+	x: -11.5d,
+	y: 2.5d,
+	dependencies: [
+		"baf0c309"
+	],
+	tasks: [{
+		uid: "96f8b52e",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:thaumic_replicator"
+			}
+		}]
+	}]
+}

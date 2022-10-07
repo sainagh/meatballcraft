@@ -1,0 +1,18 @@
+{
+	x: 13.0d,
+	y: 5.0d,
+	text: [
+		"Protein as an energy source?",
+		"Sure, just take some animal meat!"
+	],
+	dependencies: [
+		"0ab08fce"
+	],
+	tasks: [{
+		uid: "67ccfd0f",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:protein_reactor"
+		}]
+	}]
+}

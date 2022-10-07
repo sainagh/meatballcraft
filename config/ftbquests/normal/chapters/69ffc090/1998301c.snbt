@@ -1,0 +1,21 @@
+{
+	x: 9.5d,
+	y: 12.0d,
+	dependencies: [
+		"0456285e"
+	],
+	tasks: [{
+		uid: "19b07c54",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:crystalcluster 1 14"
+		}]
+	},
+	{
+		uid: "fd42be38",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:crystalcluster 1 12"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -14.5d,
+	y: -10.5d,
+	dependencies: [
+		"8c9a42c4"
+	],
+	tasks: [{
+		uid: "8de37e62",
+		type: "item",
+		items: [{
+			item: "thaumadditions:jar_brass"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 30.5d,
+	y: -10.5d,
+	description: "Assemble the gaia arena and click the beacon with gaia spirit ingot",
+	dependencies: [
+		"a852a933"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d22879db",
+		type: "item",
+		items: [{
+			item: "contenttweaker:greater_gaia_spirit"
+		}]
+	}]
+}

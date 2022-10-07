@@ -1,0 +1,21 @@
+{
+	title: "Shyre Magic",
+	x: 74.0d,
+	y: 3.0d,
+	dependencies: [
+		"e18a08ef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6a65bc64",
+		type: "item",
+		items: [{
+			id: "aoa3:runandor_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

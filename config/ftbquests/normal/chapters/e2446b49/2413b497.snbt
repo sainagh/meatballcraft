@@ -1,0 +1,17 @@
+{
+	x: 10.0d,
+	y: -1.5d,
+	text: [
+		"I don't know why this surprises me, but the dragons inhabiting the asteroids around Terra have two hearts, and guess what? One of them is suitable for magic infusion! More health!"
+	],
+	dependencies: [
+		"f7a56ba0"
+	],
+	tasks: [{
+		uid: "627a8500",
+		type: "item",
+		items: [{
+			item: "bhc:green_heart_canister"
+		}]
+	}]
+}

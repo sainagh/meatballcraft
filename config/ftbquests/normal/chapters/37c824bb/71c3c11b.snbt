@@ -1,0 +1,21 @@
+{
+	title: "Power through Sacrifice",
+	x: 27.5d,
+	y: -6.0d,
+	text: [
+		"Sooooo, blood can be used for magic, who would have thought?!",
+		"By performing blood sacrifices, I can infuse objects with a little bit of my life essence.",
+		"By exploring this 'science' further, I believe I will find some more information about my strange inability to die..."
+	],
+	dependencies: [
+		"55075fff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2b27ee2a",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	}]
+}

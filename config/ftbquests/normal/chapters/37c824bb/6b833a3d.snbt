@@ -1,0 +1,22 @@
+{
+	title: "Living Weapons",
+	x: 60.5d,
+	y: -3.0d,
+	description: "WARNING: You may want a good rapier, bow, and a katar...",
+	dependencies: [
+		"588d339b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "991abfee",
+		type: "item",
+		items: [{
+			id: "aoa3:iromine_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

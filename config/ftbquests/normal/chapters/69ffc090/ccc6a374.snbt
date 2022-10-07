@@ -1,0 +1,19 @@
+{
+	x: 13.5d,
+	y: -1.0d,
+	dependencies: [
+		"2eb7fd2e"
+	],
+	tasks: [{
+		uid: "bec7aa58",
+		type: "item",
+		items: [{
+			id: "arcane_essentials:master_fire_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

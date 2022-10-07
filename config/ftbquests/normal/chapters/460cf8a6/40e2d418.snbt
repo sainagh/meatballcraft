@@ -1,0 +1,20 @@
+{
+	x: 2.5d,
+	y: 2.0d,
+	text: [
+		"Found in the Nether",
+		"Found from Y=5 to Y=124",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"06049c7f"
+	],
+	tasks: [{
+		uid: "fb34eaf6",
+		type: "item",
+		items: [{
+			item: "aoa3:emberstone_ingot"
+		}]
+	}]
+}

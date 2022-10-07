@@ -1,0 +1,20 @@
+{
+	title: "Natural Energy",
+	x: 30.5d,
+	y: -6.0d,
+	text: [
+		"Flowers are awesome! And, of course, they can be used for magic!",
+		"Mana, the same 'thing' I found in the nether region of Terra, can also be produced and used by plants, this can definitely be used for my purposes!"
+	],
+	dependencies: [
+		"55075fff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "05d5e145",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}]
+}

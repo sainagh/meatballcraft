@@ -1,0 +1,23 @@
+{
+	x: 10.0d,
+	y: -7.5d,
+	text: [
+		"better flight, at the cost of EMC",
+		"Thanks to Tomato_Is_Life for the text!"
+	],
+	dependencies: [
+		"aaf5b5bd"
+	],
+	tasks: [{
+		uid: "3ce91cb1",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_arcana_ring",
+			tag: {
+				Mode: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

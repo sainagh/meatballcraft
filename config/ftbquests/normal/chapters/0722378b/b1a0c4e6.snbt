@@ -1,0 +1,14 @@
+{
+	x: 14.0d,
+	y: 5.0d,
+	dependencies: [
+		"0ab08fce"
+	],
+	tasks: [{
+		uid: "9ebc3a90",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:enchantment_aplicator"
+		}]
+	}]
+}

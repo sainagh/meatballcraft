@@ -1,0 +1,20 @@
+{
+	title: "Forestry",
+	x: 9.5d,
+	y: 3.0d,
+	description: "Used to craft machines from forestry and gendustry (see manufacturing and fabrication)",
+	text: [
+		"For some reason, the local vegetation seems to have an affinity for bronze, so I deviced a machine casing that should work very well at handling vegetation and farming."
+	],
+	dependencies: [
+		"8b210b51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "36deead3",
+		type: "item",
+		items: [{
+			item: "forestry:sturdy_machine"
+		}]
+	}]
+}

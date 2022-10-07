@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	text: [
+		"Spawns from Y=0 to Y=65",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"b8958680"
+	],
+	tasks: [{
+		uid: "5b8caf0e",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

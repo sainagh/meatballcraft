@@ -1,0 +1,67 @@
+{
+	x: 6.5d,
+	y: 11.0d,
+	dependencies: [
+		"ba8804a0"
+	],
+	tasks: [{
+		uid: "e3d5e4a9",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:tieredenergypedestal",
+			Damage: 3s,
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d1e736ac",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:tieredsacrificialaltar",
+			Damage: 3s,
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "992a0795",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:tieredenergycollector",
+			Damage: 3s,
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "311a5b4f",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:tieredenergyrelay",
+			Damage: 3s,
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b9258452",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:tieredenergycontainer",
+			Damage: 3s,
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

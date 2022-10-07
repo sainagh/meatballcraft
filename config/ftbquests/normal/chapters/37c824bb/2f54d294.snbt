@@ -1,0 +1,20 @@
+{
+	title: "Fabrication",
+	x: -2.5d,
+	y: 0.0d,
+	description: "Player upgrades are available in the Personal Augmentation tab! More quest pages will unlock as you keep going!",
+	text: [
+		"Ok, I used some wood to build a basic worktable, and I've been able to put together some basic tools. "
+	],
+	dependencies: [
+		"3c504fa7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "85133a58",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 20.0d,
+	text: [
+		"Only for the lucky ones!",
+		"and large world excavators..."
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "c7e4cace",
+		type: "item",
+		items: [{
+			item: "techreborn:ingot 1 14"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	text: [
+		"Produce RF using protein, which is made with a Protein Reactor."
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "54203bde",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:protein_generator"
+		}]
+	}]
+}

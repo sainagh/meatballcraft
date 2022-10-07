@@ -1,0 +1,15 @@
+{
+	x: 66.5d,
+	y: -3.0d,
+	dependencies: [
+		"6304b450"
+	],
+	hide: true,
+	tasks: [{
+		uid: "09285fb2",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_vessel"
+		}]
+	}]
+}

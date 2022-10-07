@@ -1,0 +1,21 @@
+{
+	title: "Better Agriculture",
+	x: 8.0d,
+	y: -3.0d,
+	text: [
+		"Crop sticks are awesome! They allow me to grow plants in better ways, and to better keep track of their properties.",
+		"This should allow me to do simple cross-breeding, and to improve my thoughput.",
+		""
+	],
+	dependencies: [
+		"171c54ed"
+	],
+	hide: true,
+	tasks: [{
+		uid: "24b54130",
+		type: "item",
+		items: [{
+			item: "agricraft:crop_sticks"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 9.0d,
+	y: 5.0d,
+	text: [
+		"Sludge, which is a byproduct of the Plant Gatherer, can be reprocessed in this machine to produce various terrous materials, includeing mycelium and some other goodies..."
+	],
+	dependencies: [
+		"0ab08fce"
+	],
+	tasks: [{
+		uid: "831baeec",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:sludge_refiner"
+		}]
+	}]
+}

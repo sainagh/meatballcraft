@@ -1,0 +1,20 @@
+{
+	x: 7.5d,
+	y: -1.0d,
+	text: [
+		"Excess drones? More mana!"
+	],
+	dependencies: [
+		"23f7241d"
+	],
+	tasks: [{
+		uid: "b9cdb615",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "beegonia"
+			}
+		}]
+	}]
+}

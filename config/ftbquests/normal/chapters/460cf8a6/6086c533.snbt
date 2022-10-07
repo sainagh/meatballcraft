@@ -1,0 +1,19 @@
+{
+	x: 11.0d,
+	y: 3.0d,
+	text: [
+		"Spawns in The Aether",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"f11cddba"
+	],
+	tasks: [{
+		uid: "757421a4",
+		type: "item",
+		items: [{
+			item: "aether_legacy:enchanted_gravitite"
+		}]
+	}]
+}

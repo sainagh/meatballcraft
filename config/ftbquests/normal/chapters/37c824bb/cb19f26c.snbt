@@ -1,0 +1,23 @@
+{
+	icon: "avaritia:cosmic_meatballs",
+	x: -5.5d,
+	y: -1.5d,
+	description: "This is an RPG-themed pack, so quests will tell you what you can do, not what you have to do. The way you do things is up to YOU!",
+	text: [
+		"I really aprreciate you for playing my pack <3"
+	],
+	dependencies: [
+		"2e74a705"
+	],
+	tasks: [{
+		uid: "4eb7106b",
+		type: "checkmark",
+		title: "Thanks for playing!"
+	}],
+	rewards: [{
+		uid: "a8eace46",
+		type: "item",
+		item: "avaritia:cosmic_meatballs",
+		count: 3
+	}]
+}

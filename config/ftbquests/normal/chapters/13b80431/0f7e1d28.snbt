@@ -1,0 +1,18 @@
+{
+	title: "Candyland",
+	icon: "aoa3:pink_cotton_candy",
+	x: 19.0d,
+	y: 0.5d,
+	description: "5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+	text: [
+		""
+	],
+	dependencies: [
+		"d1317694"
+	],
+	tasks: [{
+		uid: "d6c0fb24",
+		type: "dimension",
+		dim: 803
+	}]
+}

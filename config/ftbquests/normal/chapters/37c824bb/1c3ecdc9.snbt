@@ -1,0 +1,16 @@
+{
+	title: "Vox Ponds fall",
+	x: 62.0d,
+	y: -6.0d,
+	dependencies: [
+		"65472f88"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f6909f96",
+		type: "item",
+		items: [{
+			item: "contenttweaker:voxponds_cap"
+		}]
+	}]
+}

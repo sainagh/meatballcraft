@@ -1,0 +1,17 @@
+The Dimensional Ascension tab is the main guide through the pack's progression and story.
+
+The Personal Augmentation tab is there to make you aware of all the possible upgrades your player can receive as you progress through the pack.
+
+The Energy Sources tab describes all means of RF production.
+
+The Manufacturing and Fabrication tab lists all automatable machines and multiblocks in the pack, with explanations for each.
+
+The Logistics and Organization tab descibes all means of automation and inventory management available in the pack.
+
+The Book of Creation tab describes all means of passive automation available in the pack.
+
+The Magical Mastery tab is an extension of the main questline that walks the player through all magic progressions in the pack.
+
+The material Compenduum tab lists all minerals available in each dimension.
+
+The Book of Worlds tab showcases the dimensional progression around which the pack is built around.

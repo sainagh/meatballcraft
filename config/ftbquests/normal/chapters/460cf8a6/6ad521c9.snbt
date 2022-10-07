@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: 4.0d,
+	text: [
+		"Found between Y=0 to Y=65",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"06049c7f"
+	],
+	tasks: [{
+		uid: "873a1bb5",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

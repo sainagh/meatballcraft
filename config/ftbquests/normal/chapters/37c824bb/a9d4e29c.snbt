@@ -1,0 +1,17 @@
+{
+	title: "Greatest of snakes",
+	x: 24.5d,
+	y: -9.0d,
+	description: "Found in the stone edge mazes.",
+	dependencies: [
+		"62242ef6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0edd83c3",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy"
+		}]
+	}]
+}

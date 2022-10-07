@@ -1,0 +1,17 @@
+{
+	x: 71.0d,
+	y: -4.5d,
+	dependencies: [
+		"1af08a8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "52390309",
+		type: "item",
+		items: [{
+			item: "contenttweaker:nightmare_incense"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

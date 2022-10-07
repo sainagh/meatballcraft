@@ -1,0 +1,27 @@
+{
+	title: "All of the Molten Iron",
+	x: 72.5d,
+	y: 1.5d,
+	description: "Start early, this will take a while...",
+	text: [
+		"Seems like large amounts of molten metal may be required in my future..."
+	],
+	dependencies: [
+		"4b46b0a3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4fbcc658",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_tank 1 13"
+		}]
+	},
+	{
+		uid: "e3e629d5",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

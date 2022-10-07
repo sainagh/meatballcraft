@@ -1,0 +1,15 @@
+{
+	x: 26.0d,
+	y: -15.0d,
+	dependencies: [
+		"74c81f2c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bbbff127",
+		type: "item",
+		items: [{
+			item: "contenttweaker:master_spell_focus"
+		}]
+	}]
+}

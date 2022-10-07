@@ -1,0 +1,355 @@
+import mods.modularmachinery.RecipeBuilder;
+
+val chick1 = RecipeBuilder.newBuilder("chick1","mechanized_coop",480);
+chick1.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:polonium_chicken"}}));
+chick1.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:polonium_chicken"}}));
+chick1.addItemOutput(<contenttweaker:polonium_egg>*16);
+chick1.build();
+
+val chick2 = RecipeBuilder.newBuilder("chick2","mechanized_coop",480);
+chick2.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:brightsteel_chicken"}}));
+chick2.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:brightsteel_chicken"}}));
+chick2.addItemOutput(<contenttweaker:brightsteel_egg>*6);
+chick2.build();
+
+val chick3 = RecipeBuilder.newBuilder("chick3","mechanized_coop",480);
+chick3.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:ogerite_chicken"}}));
+chick3.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:ogerite_chicken"}}));
+chick3.addItemOutput(<contenttweaker:ogerite_egg>*16);
+chick3.build();
+
+val chick4 = RecipeBuilder.newBuilder("chick4","mechanized_coop",480);
+chick4.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:mithrillium_chicken"}}));
+chick4.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:mithrillium_chicken"}}));
+chick4.addItemOutput(<contenttweaker:mithrillium_egg>*16);
+chick4.build();
+
+val chick5 = RecipeBuilder.newBuilder("chick5","mechanized_coop",480);
+chick5.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:palladium_chicken"}}));
+chick5.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:palladium_chicken"}}));
+chick5.addItemOutput(<contenttweaker:palladium_egg>*16);
+chick5.build();
+
+val chick6 = RecipeBuilder.newBuilder("chick6","mechanized_coop",480);
+chick6.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:jade_chicken"}}));
+chick6.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:jade_chicken"}}));
+chick6.addItemOutput(<contenttweaker:jade_egg>*16);
+chick6.build();
+
+val chick7 = RecipeBuilder.newBuilder("chick7","mechanized_coop",480);
+chick7.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:cold_iron_chicken"}}));
+chick7.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:cold_iron_chicken"}}));
+chick7.addItemOutput(<contenttweaker:cold_iron_egg>*16);
+chick7.build();
+
+val chick8 = RecipeBuilder.newBuilder("chick8","mechanized_coop",480);
+chick8.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:chalcedony_chicken"}}));
+chick8.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:chalcedony_chicken"}}));
+chick8.addItemOutput(<contenttweaker:chalcedony_egg>*16);
+chick8.build();
+
+val chick9 = RecipeBuilder.newBuilder("chick9","mechanized_coop",480);
+chick9.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:arlemite_chicken"}}));
+chick9.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:arlemite_chicken"}}));
+chick9.addItemOutput(<contenttweaker:arlemite_egg>*16);
+chick9.build();
+
+val chick10 = RecipeBuilder.newBuilder("chick10","mechanized_coop",480);
+chick10.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:limonite_chicken"}}));
+chick10.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:limonite_chicken"}}));
+chick10.addItemOutput(<contenttweaker:limonite_egg>*16);
+chick10.build();
+
+val chick11 = RecipeBuilder.newBuilder("chick11","mechanized_coop",480);
+chick11.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:green_gemstone_chicken"}}));
+chick11.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:green_gemstone_chicken"}}));
+chick11.addItemOutput(<contenttweaker:green_gemstone_egg>*16);
+chick11.build();
+
+val chick12 = RecipeBuilder.newBuilder("chick12","mechanized_coop",480);
+chick12.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:legbone_fragment_chicken"}}));
+chick12.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:legbone_fragment_chicken"}}));
+chick12.addItemOutput(<contenttweaker:legbone_fragment_egg>*16);
+chick12.build();
+
+val chick13 = RecipeBuilder.newBuilder("chick13","mechanized_coop",480);
+chick13.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:bloodgem_chicken"}}));
+chick13.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:bloodgem_chicken"}}));
+chick13.addItemOutput(<contenttweaker:bloodgem_egg>*16);
+chick13.build();
+
+val chick14 = RecipeBuilder.newBuilder("chick14","mechanized_coop",480);
+chick14.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:chaos_chicken"}}));
+chick14.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:chaos_chicken"}}));
+chick14.addItemOutput(<contenttweaker:chaotic_egg>*16);
+chick14.build();
+
+val chick15 = RecipeBuilder.newBuilder("chick15","mechanized_coop",480);
+chick15.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:vityte_chicken"}}));
+chick15.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:vityte_chicken"}}));
+chick15.addItemOutput(<contenttweaker:vityte_egg>*16);
+chick15.build();
+
+val chick16 = RecipeBuilder.newBuilder("chick16","mechanized_coop",480);
+chick16.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:purple_gemstone_chicken"}}));
+chick16.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:purple_gemstone_chicken"}}));
+chick16.addItemOutput(<contenttweaker:purple_gemstone_egg>*16);
+chick16.build();
+
+val chick17 = RecipeBuilder.newBuilder("chick17","mechanized_coop",480);
+chick17.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:mystite_chicken"}}));
+chick17.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:mystite_chicken"}}));
+chick17.addItemOutput(<contenttweaker:mystite_egg>*16);
+chick17.build();
+
+val chick18 = RecipeBuilder.newBuilder("chick18","mechanized_coop",480);
+chick18.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:blazium_chicken"}}));
+chick18.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:blazium_chicken"}}));
+chick18.addItemOutput(<contenttweaker:blazium_egg>*16);
+chick18.build();
+
+val chick19 = RecipeBuilder.newBuilder("chick19","mechanized_coop",480);
+chick19.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:footbone_fragment_chicken"}}));
+chick19.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:footbone_fragment_chicken"}}));
+chick19.addItemOutput(<contenttweaker:footbone_fragment_egg>*16);
+chick19.build();
+
+val chick20 = RecipeBuilder.newBuilder("chick20","mechanized_coop",480);
+chick20.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:bloodstone_chicken"}}));
+chick20.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:bloodstone_chicken"}}));
+chick20.addItemOutput(<contenttweaker:bloodstone_egg>*16);
+chick20.build();
+
+val chick21 = RecipeBuilder.newBuilder("chick21","mechanized_coop",480);
+chick21.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:rupee_chicken"}}));
+chick21.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:rupee_chicken"}}));
+chick21.addItemOutput(<contenttweaker:rupee_egg>*16);
+chick21.build();
+
+val chick22 = RecipeBuilder.newBuilder("chick22","mechanized_coop",480);
+chick22.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:blue_gemstone_chicken"}}));
+chick22.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:blue_gemstone_chicken"}}));
+chick22.addItemOutput(<contenttweaker:blue_gemstone_egg>*16);
+chick22.build();
+
+val chick23 = RecipeBuilder.newBuilder("chick23","mechanized_coop",480);
+chick23.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:amethyst_chicken"}}));
+chick23.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:amethyst_chicken"}}));
+chick23.addItemOutput(<contenttweaker:amethyst_egg>*16);
+chick23.build();
+
+val chick24 = RecipeBuilder.newBuilder("chick24","mechanized_coop",480);
+chick24.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:skullbone_fragment_chicken"}}));
+chick24.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:skullbone_fragment_chicken"}}));
+chick24.addItemOutput(<contenttweaker:skullbone_fragment_egg>*16);
+chick24.build();
+
+val chick25 = RecipeBuilder.newBuilder("chick25","mechanized_coop",480);
+chick25.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:amber_chicken"}}));
+chick25.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:amber_chicken"}}));
+chick25.addItemOutput(<contenttweaker:amber_egg>*16);
+chick25.build();
+
+val chick26 = RecipeBuilder.newBuilder("chick26","mechanized_coop",480);
+chick26.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:realmite_chicken"}}));
+chick26.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:realmite_chicken"}}));
+chick26.addItemOutput(<contenttweaker:realmite_egg>*16);
+chick26.build();
+
+val chick27 = RecipeBuilder.newBuilder("chick27","mechanized_coop",480);
+chick27.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:yellow_gemstone_chicken"}}));
+chick27.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:yellow_gemstone_chicken"}}));
+chick27.addItemOutput(<contenttweaker:yellow_gemstone_egg>*16);
+chick27.build();
+
+val chick28 = RecipeBuilder.newBuilder("chick28","mechanized_coop",480);
+chick28.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:runium_chicken"}}));
+chick28.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:runium_chicken"}}));
+chick28.addItemOutput(<contenttweaker:runium_egg>*16);
+chick28.build();
+
+val chick29 = RecipeBuilder.newBuilder("chick29","mechanized_coop",480);
+chick29.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:charged_runium_chicken"}}));
+chick29.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:charged_runium_chicken"}}));
+chick29.addItemOutput(<contenttweaker:charged_runium_egg>*16);
+chick29.build();
+
+val chick30 = RecipeBuilder.newBuilder("chick30","mechanized_coop",480);
+chick30.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:netherite_chicken"}}));
+chick30.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:netherite_chicken"}}));
+chick30.addItemOutput(<contenttweaker:netherite_egg>*16);
+chick30.build();
+
+val chick31 = RecipeBuilder.newBuilder("chick31","mechanized_coop",480);
+chick31.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:sapphire_chicken"}}));
+chick31.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:sapphire_chicken"}}));
+chick31.addItemOutput(<contenttweaker:sapphire_egg>*16);
+chick31.build();
+
+val chick32 = RecipeBuilder.newBuilder("chick32","mechanized_coop",480);
+chick32.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:glitch_chicken"}}));
+chick32.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:glitch_chicken"}}));
+chick32.addItemOutput(<contenttweaker:glitch_infused_egg>*16);
+chick32.build();
+
+val chick33 = RecipeBuilder.newBuilder("chick33","mechanized_coop",480);
+chick33.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:crystallite_chicken"}}));
+chick33.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:crystallite_chicken"}}));
+chick33.addItemOutput(<contenttweaker:crystallite_egg>*16);
+chick33.build();
+
+val chick34 = RecipeBuilder.newBuilder("chick34","mechanized_coop",480);
+chick34.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:gemenyte_chicken"}}));
+chick34.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:gemenyte_chicken"}}));
+chick34.addItemOutput(<contenttweaker:gemenyte_egg>*16);
+chick34.build();
+
+val chick35 = RecipeBuilder.newBuilder("chick35","mechanized_coop",480);
+chick35.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:rosite_chicken"}}));
+chick35.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:rosite_chicken"}}));
+chick35.addItemOutput(<contenttweaker:rosite_egg>*16);
+chick35.build();
+
+val chick36 = RecipeBuilder.newBuilder("chick36","mechanized_coop",480);
+chick36.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:varsium_chicken"}}));
+chick36.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:varsium_chicken"}}));
+chick36.addItemOutput(<contenttweaker:varsium_egg>*16);
+chick36.build();
+
+val chick37 = RecipeBuilder.newBuilder("chick37","mechanized_coop",480);
+chick37.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:rhenium_chicken"}}));
+chick37.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:rhenium_chicken"}}));
+chick37.addItemOutput(<contenttweaker:rhenium_egg>*16);
+chick37.build();
+
+val chick38 = RecipeBuilder.newBuilder("chick38","mechanized_coop",480);
+chick38.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:lyon_chicken"}}));
+chick38.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:lyon_chicken"}}));
+chick38.addItemOutput(<contenttweaker:lyon_egg>*16);
+chick38.build();
+
+val chick39 = RecipeBuilder.newBuilder("chick39","mechanized_coop",480);
+chick39.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:candyte_chicken"}}));
+chick39.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:candyte_chicken"}}));
+chick39.addItemOutput(<contenttweaker:candyte_egg>*16);
+chick39.build();
+
+val chick40 = RecipeBuilder.newBuilder("chick40","mechanized_coop",480);
+chick40.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:lunastone_chicken"}}));
+chick40.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:lunastone_chicken"}}));
+chick40.addItemOutput(<contenttweaker:lunastone_egg>*16);
+chick40.build();
+
+val chick41 = RecipeBuilder.newBuilder("chick41","mechanized_coop",480);
+chick41.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:baronyte_chicken"}}));
+chick41.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:baronyte_chicken"}}));
+chick41.addItemOutput(<contenttweaker:baronyte_egg>*16);
+chick41.build();
+
+val chick42 = RecipeBuilder.newBuilder("chick42","mechanized_coop",480);
+chick42.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:jewelyte_chicken"}}));
+chick42.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:jewelyte_chicken"}}));
+chick42.addItemOutput(<contenttweaker:jewelyte_egg>*16);
+chick42.build();
+
+val chick43 = RecipeBuilder.newBuilder("chick43","mechanized_coop",480);
+chick43.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:unidentified_chicken"}}));
+chick43.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:unidentified_chicken"}}));
+chick43.addItemOutput(<contenttweaker:unidentified_egg>*16);
+chick43.build();
+
+val chick44 = RecipeBuilder.newBuilder("chick44","mechanized_coop",480);
+chick44.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:white_gemstone_chicken"}}));
+chick44.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:white_gemstone_chicken"}}));
+chick44.addItemOutput(<contenttweaker:white_gemstone_egg>*16);
+chick44.build();
+
+val chick45 = RecipeBuilder.newBuilder("chick45","mechanized_coop",480);
+chick45.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:chestbone_fragment_chicken"}}));
+chick45.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:chestbone_fragment_chicken"}}));
+chick45.addItemOutput(<contenttweaker:chestbone_fragment_egg>*16);
+chick45.build();
+
+val chick46 = RecipeBuilder.newBuilder("chick46","mechanized_coop",480);
+chick46.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:red_gemstone_chicken"}}));
+chick46.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:red_gemstone_chicken"}}));
+chick46.addItemOutput(<contenttweaker:red_gemstone_egg>*16);
+chick46.build();
+
+val chick47 = RecipeBuilder.newBuilder("chick47","mechanized_coop",480);
+chick47.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:emberstone_chicken"}}));
+chick47.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:emberstone_chicken"}}));
+chick47.addItemOutput(<contenttweaker:emberstone_egg>*16);
+chick47.build();
+
+val chick48 = RecipeBuilder.newBuilder("chick48","mechanized_coop",480);
+chick48.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:fluctuatite_chicken"}}));
+chick48.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:fluctuatite_chicken"}}));
+chick48.addItemOutput(<contenttweaker:fluctuatite_egg>*16);
+chick48.build();
+
+val chick49 = RecipeBuilder.newBuilder("chick49","mechanized_coop",480);
+chick49.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:ornamyte_chicken"}}));
+chick49.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:ornamyte_chicken"}}));
+chick49.addItemOutput(<contenttweaker:ornamyte_egg>*16);
+chick49.build();
+
+val chick50 = RecipeBuilder.newBuilder("chick50","mechanized_coop",480);
+chick50.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:infinity_chicken"}}));
+chick50.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:infinity_chicken"}}));
+chick50.addItemOutput(<contenttweaker:infinity_egg>*16);
+chick50.build();
+
+val chick51 = RecipeBuilder.newBuilder("chick51","mechanized_coop",480);
+chick51.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:pshardchicken"}}));
+chick51.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:pshardchicken"}}));
+chick51.addItemOutput(<minecraft:prismarine_shard>*64);
+chick51.build();
+
+val chick52 = RecipeBuilder.newBuilder("chick52","mechanized_coop",480);
+chick52.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:stringchicken"}}));
+chick52.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:stringchicken"}}));
+chick52.addItemOutput(<minecraft:string>*64);
+chick52.build();
+
+val chick53 = RecipeBuilder.newBuilder("chick53","mechanized_coop",480);
+chick53.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:emeraldchicken"}}));
+chick53.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:emeraldchicken"}}));
+chick53.addItemOutput(<minecraft:emerald>*64);
+chick53.build();
+
+val chick54 = RecipeBuilder.newBuilder("chick54","mechanized_coop",480);
+chick54.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:glasschicken"}}));
+chick54.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:glasschicken"}}));
+chick54.addItemOutput(<minecraft:glass>*64);
+chick54.build();
+
+val chick55 = RecipeBuilder.newBuilder("chick55","mechanized_coop",480);
+chick55.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:waterchicken"}}));
+chick55.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:waterchicken"}}));
+chick55.addItemOutput(<chickens:liquid_egg:0>*64);
+chick55.build();
+
+val chick56 = RecipeBuilder.newBuilder("chick56","mechanized_coop",480);
+chick56.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:slimechicken"}}));
+chick56.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:slimechicken"}}));
+chick56.addItemOutput(<minecraft:slime_ball>*64);
+chick56.build();
+
+val chick57 = RecipeBuilder.newBuilder("chick57","mechanized_coop",480);
+chick57.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:pcrystalchicken"}}));
+chick57.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:pcrystalchicken"}}));
+chick57.addItemOutput(<minecraft:prismarine_crystals>*64);
+chick57.build();
+
+val chick58 = RecipeBuilder.newBuilder("chick58","mechanized_coop",480);
+chick58.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:gunpowderchicken"}}));
+chick58.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:gunpowderchicken"}}));
+chick58.addItemOutput(<minecraft:gunpowder>*64);
+chick58.build();
+
+val chick59 = RecipeBuilder.newBuilder("chick59","mechanized_coop",480);
+chick59.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:lavachicken"}}));
+chick59.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:lavachicken"}}));
+chick59.addItemOutput(<chickens:liquid_egg:1>*64);
+chick59.build();

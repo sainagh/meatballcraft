@@ -1,0 +1,21 @@
+{
+	x: 57.5d,
+	y: -3.0d,
+	text: [
+		"A good ass shuriken..."
+	],
+	dependencies: [
+		"ef7ba920"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8ced2e17",
+		type: "item",
+		items: [{
+			id: "tconstruct:knife_blade",
+			tag: {
+				Material: "chaotic_plustic"
+			}
+		}]
+	}]
+}

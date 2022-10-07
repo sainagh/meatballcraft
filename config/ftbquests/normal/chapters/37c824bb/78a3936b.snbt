@@ -1,0 +1,16 @@
+{
+	x: 69.5d,
+	y: 3.0d,
+	description: "NOT a vibrator!",
+	dependencies: [
+		"4138225c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4ca02a14",
+		type: "item",
+		items: [{
+			item: "contenttweaker:resonating_stone"
+		}]
+	}]
+}

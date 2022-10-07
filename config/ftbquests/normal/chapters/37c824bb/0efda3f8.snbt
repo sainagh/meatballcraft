@@ -1,0 +1,26 @@
+{
+	title: "Spies!",
+	x: 20.0d,
+	y: 7.5d,
+	description: "Use in the nether!",
+	text: [
+		"The twilight horde's influence over the happenings in this world is crazy! It appears their spies on Terra are based in the nether world.",
+		"They probably already communicated with their superiors about me, I have to cut communications at all costs!"
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f4434266",
+		type: "item",
+		items: [{
+			id: "divinerpg:call_of_the_watcher",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

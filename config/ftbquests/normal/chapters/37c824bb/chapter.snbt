@@ -1,0 +1,7 @@
+{
+	title: "Dimensional Ascension",
+	icon: "avaritia:cosmic_meatballs",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

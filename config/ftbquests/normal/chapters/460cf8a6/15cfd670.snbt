@@ -1,0 +1,20 @@
+{
+	x: 2.5d,
+	y: 3.0d,
+	text: [
+		"Found Under Lava Lakes in The Nether",
+		"If You Hold It Fire Spreads Around You!",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"06049c7f"
+	],
+	tasks: [{
+		uid: "6d248da6",
+		type: "item",
+		items: [{
+			item: "railcraft:firestone_raw"
+		}]
+	}]
+}

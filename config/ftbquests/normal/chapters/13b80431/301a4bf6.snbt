@@ -1,0 +1,14 @@
+{
+	title: "Spatial Storage",
+	icon: "appliedenergistics2:spatial_pylon",
+	x: 23.0d,
+	y: -1.0d,
+	dependencies: [
+		"283b80c4"
+	],
+	tasks: [{
+		uid: "b5897972",
+		type: "dimension",
+		dim: -26
+	}]
+}

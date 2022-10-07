@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 23.0d,
+	dependencies: [
+		"fe046b03"
+	],
+	tasks: [{
+		uid: "e22680a6",
+		type: "item",
+		items: [{
+			item: "techreborn:distillation_tower"
+		}]
+	}]
+}

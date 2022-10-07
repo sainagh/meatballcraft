@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 11.0d,
+	text: [
+		"To unpackage all your 3x3 recipes!",
+		"Placed next to an unpackager for autocrafting.",
+		"A packager is required somewhere in the AE network, but it doesn't need to be close."
+	],
+	dependencies: [
+		"4788eb53"
+	],
+	tasks: [{
+		uid: "72c69a79",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:basic_crafter"
+		}]
+	}]
+}

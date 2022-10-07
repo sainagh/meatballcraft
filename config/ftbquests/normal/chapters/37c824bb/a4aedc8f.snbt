@@ -1,0 +1,25 @@
+{
+	title: "Alien Materials",
+	x: 9.5d,
+	y: 0.0d,
+	description: "You gotta explore to unlock this! Multiple structures use blast bricks and coal coke!",
+	text: [
+		"After spending some time here, I have really learned a lot, I think I can use this knowledge to improve my manufacturing capabilities."
+	],
+	dependencies: [
+		"bc0ba902"
+	],
+	hide: true,
+	tasks: [{
+		uid: "73e7667d",
+		type: "item",
+		items: [{
+			id: "contenttweaker:alien_material_manual",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

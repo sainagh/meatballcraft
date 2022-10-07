@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 24.0d,
+	dependencies: [
+		"fe046b03"
+	],
+	tasks: [{
+		uid: "4f98afbd",
+		type: "item",
+		items: [{
+			item: "techreborn:plate_bending_machine"
+		}]
+	}]
+}

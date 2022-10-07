@@ -1,0 +1,14 @@
+{
+	x: -12.0d,
+	y: 1.5d,
+	dependencies: [
+		"054263a6"
+	],
+	tasks: [{
+		uid: "eee4b170",
+		type: "item",
+		items: [{
+			item: "techreborn:auto_crafting_table"
+		}]
+	}]
+}

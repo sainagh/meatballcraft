@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 15.5d,
+	dependencies: [
+		"062aba4e"
+	],
+	tasks: [{
+		uid: "f3ba0c2e",
+		type: "item",
+		items: [{
+			item: "enderio:item_enchantment_filter_normal"
+		}]
+	}]
+}

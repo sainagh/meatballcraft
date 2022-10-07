@@ -1,0 +1,50 @@
+{
+	title: "Neutrino Experiments",
+	x: 81.5d,
+	y: -3.0d,
+	dependencies: [
+		"dcea031b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "91f99435",
+		type: "item",
+		items: [{
+			item: "contenttweaker:neutronium_cannon"
+		}]
+	},
+	{
+		uid: "73ecc58e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:neutronium_casing"
+		}]
+	},
+	{
+		uid: "ae809644",
+		type: "item",
+		items: [{
+			item: "contenttweaker:neutronium_bombarder"
+		}]
+	},
+	{
+		uid: "48d8bd01",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:neutronium_cannon"
+			}
+		}]
+	},
+	{
+		uid: "0670f6e7",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:neutronium_bombarder"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 20.0d,
+	y: 5.0d,
+	text: [
+		"Found in the Barathos Dimension from Advent of Ascension",
+		"Can be Found from Opening Shiny Boxes",
+		"Can be Found in Chests from a Baron Castle",
+		"Spawn Between Y=23 to Y=36",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"4ed812bb"
+	],
+	tasks: [{
+		uid: "59f67b6b",
+		type: "item",
+		items: [{
+			item: "aoa3:baronyte_ingot"
+		}]
+	}]
+}

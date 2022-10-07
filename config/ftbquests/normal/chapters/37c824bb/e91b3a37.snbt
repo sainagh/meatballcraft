@@ -1,0 +1,24 @@
+{
+	title: "Magic is Real!",
+	x: 3.5d,
+	y: 1.5d,
+	description: "Enchanting is important, and so are bedrock chunks!",
+	text: [
+		"There is so much about the universe humanity is not aware of.",
+		"We have spent so many years trying to reject things such as magic and superstition in the name of 'science'.",
+		"But it appears that magic and science are just two faces of the same medals, and the existance of other dimensions seems to be the catalyst behind what I'd normally call 'miracles'.",
+		"Diamonds and obsidian seem to be catalysts for magic energy, which is going to allow me to enhance my tools.",
+		"I don't really know what prompted me to study this phenomenon, but, for some reason, paper has something to do with it..."
+	],
+	dependencies: [
+		"fb8062a2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2f2f1315",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}]
+}

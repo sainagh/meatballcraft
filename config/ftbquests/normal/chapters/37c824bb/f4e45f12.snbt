@@ -1,0 +1,40 @@
+{
+	title: "Better than planes!",
+	x: 24.5d,
+	y: -4.5d,
+	text: [
+		"Just a few weeks here, and I already surpassed human tech!",
+		"By exploiting the power of dimensional doors, I can now make my own wormholes in a controlled environment!",
+		"Physics is so much easier with so many resources available"
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ec8d517f",
+		type: "item",
+		items: [{
+			item: "rftools:matter_transmitter"
+		}]
+	},
+	{
+		uid: "f2d5bbe1",
+		type: "item",
+		items: [{
+			item: "rftools:matter_receiver"
+		}]
+	},
+	{
+		uid: "2fba7a03",
+		type: "item",
+		items: [{
+			id: "rftools:advanced_charged_porter",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

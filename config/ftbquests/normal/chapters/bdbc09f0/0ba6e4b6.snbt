@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: -9.0d,
+	text: [
+		"Time to get theoretical! It IS possible to make a nuclear fuel out of neptunium, but nobody ever succeeded..."
+	],
+	dependencies: [
+		"285dab3c"
+	],
+	tasks: [{
+		uid: "71b97836",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:neptunium 1 4"
+		}]
+	},
+	{
+		uid: "8c074cea",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:neptunium"
+		}]
+	}]
+}

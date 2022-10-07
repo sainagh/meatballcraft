@@ -1,0 +1,20 @@
+{
+	title: "Even Deeper",
+	x: 29.0d,
+	y: -6.0d,
+	text: [
+		"I'm not the first one to discover fluix, and it seems like its power was used to hit even more profound depths within Terra.",
+		"By using fluix as a catalyst, I can reopen the portal that was opened by the one that came before me..."
+	],
+	dependencies: [
+		"71c3c11b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9a1ea737",
+		type: "item",
+		items: [{
+			item: "extrautils2:teleporter 1 1"
+		}]
+	}]
+}

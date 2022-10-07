@@ -1,0 +1,17 @@
+{
+	title: "Forbidden Experiments",
+	x: 15.5d,
+	y: -9.0d,
+	description: "Drop mummy bait in a betweenlands marsh or sludge plains biome!",
+	dependencies: [
+		"09a8bf21"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f58485e5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dreadful_bone"
+		}]
+	}]
+}

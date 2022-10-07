@@ -1,0 +1,16 @@
+{
+	title: "If you die in a dream...",
+	x: 95.0d,
+	y: 0.0d,
+	dependencies: [
+		"37ddedeb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5a755dde",
+		type: "item",
+		items: [{
+			item: "divinerpg:dirty_pearls"
+		}]
+	}]
+}

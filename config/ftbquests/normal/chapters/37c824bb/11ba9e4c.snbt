@@ -1,0 +1,18 @@
+{
+	icon: "contenttweaker:dark_soul_machine_chassis",
+	x: 42.5d,
+	y: -1.5d,
+	text: [
+		"From now on, your attitude should be to automate (passive or autocraft) everything you see!",
+		"A passive supply of Dark Soul Machine Chassis, for example, would be most desirable at this point."
+	],
+	dependencies: [
+		"29d7bed0"
+	],
+	tasks: [{
+		uid: "d060cb4a",
+		type: "checkmark",
+		title: "*All-the-Things intensifies!",
+		icon: "thermalfoundation:material 1 295"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "What's going on here?",
+	x: 60.5d,
+	y: -4.5d,
+	dependencies: [
+		"588d339b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4c986163",
+		type: "item",
+		items: [{
+			id: "aoa3:mysterium_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

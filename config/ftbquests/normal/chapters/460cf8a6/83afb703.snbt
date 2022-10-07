@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: 3.0d,
+	text: [
+		"Found in the nether"
+	],
+	dependencies: [
+		"06049c7f"
+	],
+	tasks: [{
+		uid: "c2989638",
+		type: "item",
+		items: [{
+			item: "techreborn:dust 1 39"
+		}]
+	}]
+}

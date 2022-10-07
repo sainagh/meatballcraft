@@ -1,0 +1,20 @@
+{
+	x: 20.0d,
+	y: 2.0d,
+	text: [
+		"Found in Precasia from Advent of Ascension",
+		"Spawns Between Y=0 to Y=41",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"4ed812bb"
+	],
+	tasks: [{
+		uid: "2e3e0b93",
+		type: "item",
+		items: [{
+			item: "aoa3:legbone_fragment"
+		}]
+	}]
+}

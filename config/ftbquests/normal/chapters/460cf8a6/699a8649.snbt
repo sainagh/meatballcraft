@@ -1,0 +1,20 @@
+{
+	x: 20.0d,
+	y: 3.0d,
+	text: [
+		"Spawn in the Precasia Dimension from Advent of Ascension",
+		"Spawns From Y=0 to Y=41",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"4ed812bb"
+	],
+	tasks: [{
+		uid: "43c5220a",
+		type: "item",
+		items: [{
+			item: "aoa3:chestbone_fragment"
+		}]
+	}]
+}

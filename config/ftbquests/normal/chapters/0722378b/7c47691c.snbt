@@ -1,0 +1,18 @@
+{
+	title: "Dreading Crucible",
+	x: 1.0d,
+	y: -7.0d,
+	dependencies: [
+		"69404a6d"
+	],
+	tasks: [{
+		uid: "1a489705",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:dreading_crucible"
+			}
+		}]
+	}]
+}

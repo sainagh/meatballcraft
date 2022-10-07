@@ -1,0 +1,29 @@
+{
+	"generatorType": "ANYWHERE",
+	"minY": 100,
+	"maxY": 200,
+	"offsetX": 0,
+	"offsetY": 0,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [150],
+	"biomeNameSpawns": [],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": true,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "minecraft:stained_hardened_clay",
+	"fillingMetadata": 1,
+	"fillingType": "AIR",
+	
+	"rarity": 4000
+}

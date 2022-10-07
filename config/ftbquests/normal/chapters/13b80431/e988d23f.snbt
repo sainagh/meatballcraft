@@ -1,0 +1,18 @@
+{
+	title: "Creeponia Hills",
+	icon: "aoa3:creeponia_grass",
+	x: 13.0d,
+	y: 5.0d,
+	description: "5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+	text: [
+		""
+	],
+	dependencies: [
+		"21b905c6"
+	],
+	tasks: [{
+		uid: "26ba15d1",
+		type: "dimension",
+		dim: 805
+	}]
+}

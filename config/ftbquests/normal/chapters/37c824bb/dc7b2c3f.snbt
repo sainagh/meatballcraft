@@ -1,0 +1,16 @@
+{
+	x: 26.0d,
+	y: -10.5d,
+	description: "Found in the crimson portal towers in the overworld.",
+	dependencies: [
+		"74c81f2c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1bd0b5d4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crimson_gem"
+		}]
+	}]
+}

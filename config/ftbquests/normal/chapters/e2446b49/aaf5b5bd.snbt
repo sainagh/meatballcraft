@@ -1,0 +1,16 @@
+{
+	x: 10.0d,
+	y: -6.0d,
+	dependencies: [
+		"eb22a0d0"
+	],
+	tasks: [{
+		uid: "740b710a",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_swrg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

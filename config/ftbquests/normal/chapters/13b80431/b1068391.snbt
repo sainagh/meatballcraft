@@ -1,0 +1,21 @@
+{
+	title: "Mortum Hills",
+	icon: "divinerpg:mortum_grass",
+	x: 33.0d,
+	y: 0.5d,
+	description: "Use a twilight clock on a frame of skythern block",
+	text: [
+		""
+	],
+	dependencies: [
+		"72c32dd9",
+		"94cbaa70",
+		"7b1d5320",
+		"6cadb2f0"
+	],
+	tasks: [{
+		uid: "9b0a3631",
+		type: "dimension",
+		dim: 424
+	}]
+}

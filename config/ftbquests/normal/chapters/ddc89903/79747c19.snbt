@@ -1,0 +1,17 @@
+{
+	x: 16.0d,
+	y: 0.5d,
+	text: [
+		"Dense cables carry up to 32 channels, and they display how many are in use."
+	],
+	dependencies: [
+		"0147a0ad"
+	],
+	tasks: [{
+		uid: "d0ca7ca4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 76"
+		}]
+	}]
+}

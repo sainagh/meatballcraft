@@ -1,0 +1,17 @@
+{
+	title: "A fortress of solitude",
+	x: 24.5d,
+	y: -19.5d,
+	description: "Found on top of the large fortress on top of the ice wall.",
+	dependencies: [
+		"62242ef6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8e8fb0ae",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 5"
+		}]
+	}]
+}

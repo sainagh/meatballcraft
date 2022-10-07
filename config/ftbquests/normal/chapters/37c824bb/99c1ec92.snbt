@@ -1,0 +1,21 @@
+{
+	title: "Diserters",
+	x: 20.0d,
+	y: 6.0d,
+	description: "Drop in the nether!",
+	text: [
+		"I still don't know much about the politics of this world, but from what I've heard, an officer from one of the factions involved in this conflict decided to disert and to attempt to take over regions of the nether world.",
+		"I may be doing someone else a favor by fighting this self-proclaimed king, but his presence is not good for the inhabitants of this planet."
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "61d0b5d8",
+		type: "item",
+		items: [{
+			item: "aoa3:explosive_idol"
+		}]
+	}]
+}

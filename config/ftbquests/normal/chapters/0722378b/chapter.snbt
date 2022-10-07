@@ -1,0 +1,7 @@
+{
+	title: "On Manufacturing and Fabrication",
+	icon: "enderio:item_basic_capacitor 1 2",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

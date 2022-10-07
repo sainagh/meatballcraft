@@ -1,0 +1,7 @@
+{
+	title: "The big picture",
+	icon: "contenttweaker:material_part 1 183",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

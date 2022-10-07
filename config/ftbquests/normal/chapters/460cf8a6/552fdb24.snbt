@@ -1,0 +1,33 @@
+{
+	x: -1.0d,
+	y: 21.0d,
+	text: [
+		"Found near bedrock.",
+		"Holding a resonating wand will illuminate regions above rock crystal ores"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "16180569",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemrockcrystalsimple",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

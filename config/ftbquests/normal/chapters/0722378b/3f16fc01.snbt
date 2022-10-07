@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: 10.0d,
+	text: [
+		"The crafting core holds a single item to be infused with the objects located on the surrounding pedestals.",
+		"Only the core requires energy."
+	],
+	dependencies: [
+		"4788eb53"
+	],
+	tasks: [{
+		uid: "1adeda4f",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:crafting_core"
+		}]
+	},
+	{
+		uid: "01f743ce",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:pedestal"
+		}]
+	}]
+}

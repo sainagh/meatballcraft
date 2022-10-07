@@ -1,0 +1,21 @@
+{
+	title: "Up & Down",
+	x: 38.0d,
+	y: -4.5d,
+	text: [
+		"Space elevators...",
+		"Are they better than magic travel? Nope!",
+		"Are they cooler? Yup!"
+	],
+	dependencies: [
+		"bf4a8787"
+	],
+	hide: true,
+	tasks: [{
+		uid: "013317ef",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spaceelevatorcontroller"
+		}]
+	}]
+}

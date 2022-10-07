@@ -1,0 +1,16 @@
+{
+	title: "What is this?",
+	x: 81.5d,
+	y: 1.5d,
+	dependencies: [
+		"a0c1d511"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f86bff37",
+		type: "item",
+		items: [{
+			item: "contenttweaker:unidentified_body"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 11.0d,
+	text: [
+		"Drying automated!"
+	],
+	dependencies: [
+		"0e9669cf"
+	],
+	tasks: [{
+		uid: "ecd37536",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:mechanical_drying_basin"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 47.0d,
+	y: -3.0d,
+	text: [
+		"...And once again, the answer is mythic excavation!",
+		"I found the compound responsible for Lelyetia's strange condition, fluctuatite, a mineral that seems to be part of most compounds in the land.",
+		"I don't have any fluctuatite in my own body, though, which is why I feel weird when I'm there.",
+		"Good news, I can make fluctuatite! Bad news, to achieve the folding of space-time I will need several planets worth of it, at least according to my math.",
+		"There's clearly not that much fluctuatite on Lelyetia, so I have to assume there are things I still do not know..."
+	],
+	dependencies: [
+		"6640f93d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7751e805",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lelyetia_garnet"
+		}]
+	}]
+}

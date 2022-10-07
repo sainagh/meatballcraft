@@ -1,0 +1,20 @@
+{
+	x: 26.0d,
+	y: -13.5d,
+	text: [
+		"Use only against mighty foes..."
+	],
+	dependencies: [
+		"74c81f2c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7fdad599",
+		type: "item",
+		items: [{
+			item: "contenttweaker:shield_of_terra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

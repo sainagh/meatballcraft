@@ -1,0 +1,17 @@
+{
+	x: 7.0d,
+	y: 4.0d,
+	text: [
+		"The resonator uses grid power to infuse some materials with grid power, which can be passively produced from a wide array of sources."
+	],
+	dependencies: [
+		"4e1e22b7"
+	],
+	tasks: [{
+		uid: "3ebf0d0f",
+		type: "item",
+		items: [{
+			item: "extrautils2:resonator"
+		}]
+	}]
+}

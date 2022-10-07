@@ -1,0 +1,48 @@
+{
+	x: 15.0d,
+	y: -2.5d,
+	dependencies: [
+		"d110f5ad"
+	],
+	tasks: [{
+		uid: "d9f64231",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e306fd7c",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:fluid_storage_cell_16k",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d718ce5f",
+		type: "item",
+		items: [{
+			id: "thaumicenergistics:essentia_cell_16k",
+			tag: {
+				filter: {}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

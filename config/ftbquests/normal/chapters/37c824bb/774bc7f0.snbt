@@ -1,0 +1,26 @@
+{
+	title: "Sorcerers of the Skies",
+	x: 18.5d,
+	y: -6.0d,
+	text: [
+		"Stars hold power, and a lot of it!",
+		"This is crazy, but the fusion reactions happening inside the core of stars not only produce light and heat, but another type of energy as well.",
+		"This 'astral power' can travel through higher dimensions. Through these pathways, stars are connected to each other forming 'real' constellations.",
+		"Some of these constellations hold particular properties, and I'll do my best to take advantage of them."
+	],
+	dependencies: [
+		"55075fff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9baad869",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockaltar",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

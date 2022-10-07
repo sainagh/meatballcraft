@@ -1,0 +1,15 @@
+{
+	x: 99.5d,
+	y: -1.5d,
+	dependencies: [
+		"861028bc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ad6bcaef",
+		type: "item",
+		items: [{
+			item: "divinerpg:pardimal_lump"
+		}]
+	}]
+}

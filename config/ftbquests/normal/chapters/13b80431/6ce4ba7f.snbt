@@ -1,0 +1,18 @@
+{
+	title: "L'Borean",
+	icon: "aoa3:borean_grass",
+	x: 23.0d,
+	y: 0.5d,
+	description: "5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+	text: [
+		""
+	],
+	dependencies: [
+		"283b80c4"
+	],
+	tasks: [{
+		uid: "97daf64f",
+		type: "dimension",
+		dim: 814
+	}]
+}

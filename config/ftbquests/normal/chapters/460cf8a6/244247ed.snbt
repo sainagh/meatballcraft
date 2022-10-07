@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	text: [
+		"Found in the coralium infested swamp.",
+		"Coralium Ore is craftable."
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "3055d215",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:coralium"
+		}]
+	}]
+}

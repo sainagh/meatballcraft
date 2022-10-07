@@ -1,0 +1,52 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		"Instead of moving my bees around, I can just emulate biomes from the comfort of my home!"
+	],
+	dependencies: [
+		"f7af641f"
+	],
+	tasks: [{
+		uid: "e898ee96",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 17"
+		}]
+	},
+	{
+		uid: "e358ea4f",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 20"
+		}]
+	},
+	{
+		uid: "9c138896",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 13"
+		}]
+	},
+	{
+		uid: "64a0e462",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 16"
+		}]
+	},
+	{
+		uid: "ad5baf0d",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 18"
+		}]
+	},
+	{
+		uid: "c11076c2",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 21"
+		}]
+	}]
+}

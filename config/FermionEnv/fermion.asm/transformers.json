@@ -1,0 +1,12 @@
+{
+  "transforming_utilities": {
+    "description": "This is a fundamental part of the API: do not disable",
+    "enabled": true,
+    "configuration": {}
+  },
+  "mod_discoverer": {
+    "description": "Transforms the ModDiscoverer class so that Fermion can inject their own Mod Container for event dispatch",
+    "enabled": true,
+    "configuration": {}
+  }
+}

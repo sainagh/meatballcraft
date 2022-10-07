@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 20.0d,
+	text: [
+		"Chemistry is fun OK!",
+		"OK!?!",
+		"Good to have on autocraft, I will need a decent amount of these."
+	],
+	dependencies: [
+		"5f57ce40"
+	],
+	tasks: [{
+		uid: "3c20b84b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:chemical_reactor_idle"
+		}]
+	}]
+}

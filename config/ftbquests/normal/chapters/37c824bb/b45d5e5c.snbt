@@ -1,0 +1,22 @@
+{
+	title: "A true native!",
+	x: 23.0d,
+	y: 3.0d,
+	description: "T-shape of netherrack, with three wither skulls on top, but you already knew it...",
+	text: [
+		"Nobody has a fully clean record, not even the Testificates.",
+		"At some point during their history, experiments on undeath and living matter led to the unleash of the Withers, a species of artificial skeletons.",
+		"Some of them ended up evolving into really powerful creatures. One of their organs, I was told, holds a lot of power; this should serve me for a variety of purposes."
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d8743338",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}]
+	}]
+}

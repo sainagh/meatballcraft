@@ -1,0 +1,22 @@
+{
+	title: "Vethea Nightmare",
+	icon: "divinerpg:dream_grass",
+	x: 29.0d,
+	y: -1.0d,
+	description: "Use the nightmare bed",
+	text: [
+		""
+	],
+	dependencies: [
+		"1a69a534",
+		"84b1e1d7",
+		"25c02e46",
+		"bafa5994",
+		"d5335d74"
+	],
+	tasks: [{
+		uid: "78f965cf",
+		type: "dimension",
+		dim: 427
+	}]
+}

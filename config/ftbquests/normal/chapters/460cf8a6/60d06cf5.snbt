@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 18.0d,
+	text: [
+		"Obtained by Smelting Cinnibar Ore",
+		"Found at Every Level",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "142d4062",
+		type: "item",
+		items: [{
+			item: "thaumcraft:quicksilver"
+		}]
+	}]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/hydrocarbon_coated_organic_mythic_board"
+  }
+}

@@ -1,0 +1,12 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	dependencies: [
+		"47707370"
+	],
+	tasks: [{
+		uid: "234702a6",
+		type: "checkmark",
+		title: "Nether Minerals"
+	}]
+}

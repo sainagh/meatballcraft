@@ -1,0 +1,15 @@
+{
+	x: 99.5d,
+	y: -3.0d,
+	dependencies: [
+		"2041c646"
+	],
+	hide: true,
+	tasks: [{
+		uid: "91b7f4be",
+		type: "item",
+		items: [{
+			item: "divinerpg:cermile_lump"
+		}]
+	}]
+}

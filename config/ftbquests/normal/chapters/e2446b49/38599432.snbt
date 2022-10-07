@@ -1,0 +1,14 @@
+{
+	x: -11.0d,
+	y: -9.0d,
+	dependencies: [
+		"75e5d0b0"
+	],
+	tasks: [{
+		uid: "ebb51ed0",
+		type: "item",
+		items: [{
+			item: "randomthings:spectrelens"
+		}]
+	}]
+}

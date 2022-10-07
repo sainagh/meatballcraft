@@ -1,0 +1,26 @@
+{
+	x: -1.0d,
+	y: 16.0d,
+	text: [
+		"1. Place next to interface or unpackager.",
+		"2. Add pedestals.",
+		"3. Profit."
+	],
+	dependencies: [
+		"4788eb53"
+	],
+	tasks: [{
+		uid: "4a69f274",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:combination_crafter"
+		}]
+	},
+	{
+		uid: "229fee5e",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:marked_pedestal"
+		}]
+	}]
+}

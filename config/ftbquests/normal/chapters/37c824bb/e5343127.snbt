@@ -1,0 +1,28 @@
+{
+	title: "The Twilight Horde",
+	x: 20.0d,
+	y: 3.0d,
+	description: "Use item!",
+	text: [
+		"Animals are animals, no matter how powerful.",
+		"The primary istict of life is to spread, but what if this puts an enture planet under control?! Such is the power of some of these creatures...",
+		"They seem to be organized in some way, and the Testificates call them the Twilight Horde.",
+		"It seems like the Ancient Entity is powerful amongst them, if I eliminate it, some of its weaker followers could give up..."
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7c384b7b",
+		type: "item",
+		items: [{
+			id: "divinerpg:mysterious_clock",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

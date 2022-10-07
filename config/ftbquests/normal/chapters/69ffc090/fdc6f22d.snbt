@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	dependencies: [
+		"644a72fc"
+	],
+	tasks: [{
+		uid: "969093a9",
+		type: "checkmark",
+		title: "Astral Sorcery"
+	}]
+}

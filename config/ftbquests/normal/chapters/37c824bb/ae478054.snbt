@@ -1,0 +1,17 @@
+{
+	x: 56.0d,
+	y: 1.5d,
+	dependencies: [
+		"2dc6b39f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "91ab6a17",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:dreadiumsamuraihelmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

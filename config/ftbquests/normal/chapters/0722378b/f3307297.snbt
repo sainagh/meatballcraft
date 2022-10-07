@@ -1,0 +1,17 @@
+{
+	x: -10.5d,
+	y: 1.5d,
+	dependencies: [
+		"6916aca9"
+	],
+	tasks: [{
+		uid: "f25b225d",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:blood_reprocessor"
+			}
+		}]
+	}]
+}

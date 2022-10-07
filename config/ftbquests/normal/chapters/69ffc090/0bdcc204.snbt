@@ -1,0 +1,16 @@
+{
+	x: -5.5d,
+	y: 5.0d,
+	dependencies: [
+		"b998a825"
+	],
+	tasks: [{
+		uid: "4a14d394",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_manual"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

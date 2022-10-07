@@ -1,0 +1,19 @@
+{
+	x: 47.0d,
+	y: 4.5d,
+	text: [
+		"I will say, I am very surprised that the Shyre empire has no knowledge of alchemy.",
+		"is it possible that it's something only humans can do?"
+	],
+	dependencies: [
+		"12326252"
+	],
+	hide: true,
+	tasks: [{
+		uid: "02798715",
+		type: "item",
+		items: [{
+			item: "contenttweaker:deeplands_garnet"
+		}]
+	}]
+}

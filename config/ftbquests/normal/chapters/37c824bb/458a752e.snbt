@@ -1,0 +1,15 @@
+{
+	x: 101.0d,
+	y: -3.0d,
+	dependencies: [
+		"b5e0deda"
+	],
+	hide: true,
+	tasks: [{
+		uid: "003abbdd",
+		type: "item",
+		items: [{
+			item: "divinerpg:arksiane_lump"
+		}]
+	}]
+}

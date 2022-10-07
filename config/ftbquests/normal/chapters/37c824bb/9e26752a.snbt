@@ -1,0 +1,16 @@
+{
+	title: "The Enemy Next Door...",
+	x: 77.0d,
+	y: 0.0d,
+	dependencies: [
+		"84c4c5e5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e213b472",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaos_shard"
+		}]
+	}]
+}

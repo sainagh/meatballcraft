@@ -1,0 +1,30 @@
+
+{
+	"generatorType": "ANYWHERE",
+	"minY": 63,
+	"maxY": 100,
+	"offsetX": 0,
+	"offsetY": 0,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [-11325],
+	"biomeNameSpawns": [],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": true,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "minecraft:mossy_cobblestone",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	
+	"rarity": 1800
+}

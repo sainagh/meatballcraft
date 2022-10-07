@@ -1,0 +1,22 @@
+{
+	title: "A Relic of Past Glory",
+	x: 23.0d,
+	y: 1.5d,
+	description: "Go to the end, duh!",
+	text: [
+		"At some point during their history, the Testificates were able to travel all the way to the asteroids surrounding Terra.",
+		"There, though, they met something that they could not handle, and decided to seal the portals they had created to prevent more disasters.",
+		"There is a 100% chance I will reopen one of these portals..."
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2104a825",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}]
+	}]
+}

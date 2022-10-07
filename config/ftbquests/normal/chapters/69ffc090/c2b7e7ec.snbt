@@ -1,0 +1,19 @@
+{
+	x: 12.5d,
+	y: 4.0d,
+	dependencies: [
+		"a2854dc8"
+	],
+	tasks: [{
+		uid: "3c2cf9cd",
+		type: "item",
+		items: [{
+			id: "ebwizardry:novice_healing_wand",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

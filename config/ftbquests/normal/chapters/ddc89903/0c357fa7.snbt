@@ -1,0 +1,14 @@
+{
+	x: -16.0d,
+	y: 5.5d,
+	dependencies: [
+		"fc5d626a"
+	],
+	tasks: [{
+		uid: "30937986",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:part_inventory_reader_item"
+		}]
+	}]
+}

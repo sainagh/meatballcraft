@@ -1,0 +1,18 @@
+{
+	title: "Crystevia Chasms",
+	icon: "aoa3:crystevia_stone",
+	x: 19.0d,
+	y: 5.0d,
+	description: "5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+	text: [
+		""
+	],
+	dependencies: [
+		"d1317694"
+	],
+	tasks: [{
+		uid: "44d9a204",
+		type: "dimension",
+		dim: 806
+	}]
+}

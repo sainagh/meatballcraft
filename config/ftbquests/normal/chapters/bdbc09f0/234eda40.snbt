@@ -1,0 +1,20 @@
+{
+	x: 3.5d,
+	y: 8.0d,
+	text: [
+		"Runs on potions, but let's be honest, you're only going to use water bottles..."
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "e37c38d0",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_potion"
+			}
+		}]
+	}]
+}

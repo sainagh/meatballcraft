@@ -1,0 +1,17 @@
+{
+	title: "Icy Rage",
+	x: 24.5d,
+	y: -18.0d,
+	description: "Found in the winter forest biome.",
+	dependencies: [
+		"62242ef6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "504df2ef",
+		type: "item",
+		items: [{
+			item: "twilightforest:alpha_fur"
+		}]
+	}]
+}

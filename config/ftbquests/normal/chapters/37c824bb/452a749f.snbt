@@ -1,0 +1,40 @@
+{
+	title: "More String Theory",
+	x: 81.5d,
+	y: -4.5d,
+	dependencies: [
+		"c6d81490"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7ed32fe4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:linear_accelerator_tube"
+		}]
+	},
+	{
+		uid: "388af43d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:accelerator_tube"
+		}]
+	},
+	{
+		uid: "7d551f94",
+		type: "item",
+		items: [{
+			item: "contenttweaker:experiment_casing"
+		}]
+	},
+	{
+		uid: "8f2e9e93",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:particle_accelerator"
+			}
+		}]
+	}]
+}

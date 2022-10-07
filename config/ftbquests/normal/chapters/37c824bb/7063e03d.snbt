@@ -1,0 +1,22 @@
+{
+	title: "Playing with Wizardry",
+	x: 14.0d,
+	y: -6.0d,
+	text: [
+		"Some of the creatures I've slayed seemed to be holding books that appear to have magical properties.",
+		"By building a table to analyze them, I stumbled into the art of Wizardry, a spellcasting technique based on knowledge. It seems like I can discover new aspects of this art by trial and error.",
+		"Try to cast spells until they make sense?! What could go wrong?",
+		"Around Terra, some testificates also appear to hold knowledge of this art. Some of them use it to help, others to destroy..."
+	],
+	dependencies: [
+		"55075fff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c606e82b",
+		type: "item",
+		items: [{
+			item: "ebwizardry:arcane_workbench"
+		}]
+	}]
+}

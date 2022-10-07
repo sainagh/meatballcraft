@@ -1,0 +1,15 @@
+{
+	x: 101.0d,
+	y: -1.5d,
+	dependencies: [
+		"b460c6ba"
+	],
+	hide: true,
+	tasks: [{
+		uid: "26b01233",
+		type: "item",
+		items: [{
+			item: "divinerpg:heliosis_lump"
+		}]
+	}]
+}

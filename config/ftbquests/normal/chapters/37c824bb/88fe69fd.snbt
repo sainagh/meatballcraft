@@ -1,0 +1,36 @@
+{
+	title: "Connecting the dots",
+	x: 26.0d,
+	y: 0.0d,
+	description: "Do this at your own risk...",
+	text: [
+		"The realization that magic is real changes everything, and it seems like I can use it to serve my manufacturing needs.",
+		"This will require some experimentation...",
+		"After extensive observation on mythic remains, and thanks to the branches of magic I am now adept to, I was able to 'understand' mythic powers.",
+		"Well 'understanding' is a strong word, but it 'makes sense'.",
+		"The power of 'gods', beings that are able to subject reality itself to their control, seems to be 'guiding' the horde and the empire.",
+		"This power has no bounds, I cannot imagine what beings able to weild it may look like."
+	],
+	dependencies: [
+		"829fbc56"
+	],
+	hide: true,
+	tasks: [{
+		uid: "231249d0",
+		type: "item",
+		items: [{
+			id: "contenttweaker:controller_manual",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bf072be7",
+		type: "item",
+		item: "botania:blacklotus 1 1",
+		count: 16
+	}]
+}

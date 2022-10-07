@@ -1,0 +1,18 @@
+{
+	x: 18.5d,
+	y: 2.0d,
+	text: [
+		"Found in the wildwood dimension from DivineRPG",
+		"Can be crafted from wildwood souls from wildwood native mobs"
+	],
+	dependencies: [
+		"7a7b15fa"
+	],
+	tasks: [{
+		uid: "5a4e2753",
+		type: "item",
+		items: [{
+			item: "divinerpg:wildwood_fragments"
+		}]
+	}]
+}

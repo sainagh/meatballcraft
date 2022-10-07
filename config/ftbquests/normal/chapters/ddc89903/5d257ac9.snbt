@@ -1,0 +1,24 @@
+{
+	x: 15.0d,
+	y: -7.5d,
+	dependencies: [
+		"f54a7b0b"
+	],
+	tasks: [{
+		uid: "3e319ca1",
+		type: "item",
+		items: [{
+			id: "extracells:storage.physical",
+			Damage: 3s,
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

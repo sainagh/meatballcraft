@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 14.0d,
+	text: [
+		"Found below Y = 32"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "11427fa8",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal 1 5"
+		}]
+	}]
+}

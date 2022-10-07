@@ -1,0 +1,102 @@
+{
+    "registryname": "essentia_solidifier",
+    "localizedname": "Essentia Solidifier",
+	"color": "4b2c7d",
+    "parts": [
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:crystal_block"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thaumadditions:crystal_block"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumadditions:brass_plated_silverwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumadditions:brass_plated_silverwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumadditions:brass_plated_silverwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thaumadditions:crystal_block"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmagic:blockaspectproviderinput@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumadditions:brass_plated_silverwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:crystal_block"
+            ]
+        }
+    ]}

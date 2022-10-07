@@ -1,0 +1,15 @@
+{
+	x: 99.5d,
+	y: 0.0d,
+	dependencies: [
+		"a67d9b51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ed9cca30",
+		type: "item",
+		items: [{
+			item: "divinerpg:quadrotic_lump"
+		}]
+	}]
+}

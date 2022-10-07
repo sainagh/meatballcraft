@@ -1,0 +1,18 @@
+{
+	title: "Apichisi Wormhole",
+	icon: "contenttweaker:resonating_stone",
+	x: 3.0d,
+	y: -4.0d,
+	description: "Right click a warper item",
+	text: [
+		""
+	],
+	dependencies: [
+		"df1a2ab1"
+	],
+	tasks: [{
+		uid: "2366d1a6",
+		type: "dimension",
+		dim: 184
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 35.0d,
+	y: -6.0d,
+	dependencies: [
+		"5fe7c4e5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f6d5a644",
+		type: "item",
+		items: [{
+			item: "contenttweaker:metagabbro"
+		}]
+	}]
+}

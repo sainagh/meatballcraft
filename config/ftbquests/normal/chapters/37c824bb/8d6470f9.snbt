@@ -1,0 +1,20 @@
+{
+	title: "More Fabrication!",
+	x: 15.5d,
+	y: 0.0d,
+	description: "Heads up! Quests will tell you what to do, figuring things out is up to you, and it's part of the fun!",
+	text: [
+		"By upgrading my current way of building work tables, I should gain access to more complex machines!"
+	],
+	dependencies: [
+		"928b9f1a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e0b90d8b",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}]
+	}]
+}

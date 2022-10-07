@@ -1,0 +1,24 @@
+{
+	title: "Abyss Falls",
+	x: 45.5d,
+	y: -4.5d,
+	description: "Use a staring eye on illusion altar to summon elusive - To summon the shadowlord usee a book of shadows on a shadow altar",
+	text: [
+		"Unexpectedly, I stumbled upon a very interesting piece of stage 5 politics...",
+		"The Horde and the Empire, as I've clearly seen on furatto, don't really have a problem at fighting each other at a larger scale.",
+		"Yet, on Terra, they do not, and it's because of dimensional shards...",
+		"Each civilization wants them so badly that they cannot risk escalating the conflict.",
+		"Good for me, 0% chance I would've survived if those damn chickens had been waiting for me on Terra!"
+	],
+	dependencies: [
+		"611a1c12"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c393977a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:abyssal_cap"
+		}]
+	}]
+}

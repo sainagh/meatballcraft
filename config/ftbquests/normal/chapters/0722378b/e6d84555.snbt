@@ -1,0 +1,17 @@
+{
+	x: -14.5d,
+	y: 4.5d,
+	dependencies: [
+		"d3221c04"
+	],
+	tasks: [{
+		uid: "9417fea6",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:botanic_condenser"
+			}
+		}]
+	}]
+}

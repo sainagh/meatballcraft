@@ -1,0 +1,17 @@
+{
+	title: "Master of the Haunted",
+	x: 15.5d,
+	y: -12.0d,
+	description: "Found on top of the wight fortress! rare in marsh biomes.",
+	dependencies: [
+		"09a8bf21"
+	],
+	hide: true,
+	tasks: [{
+		uid: "73fad12b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:primordial_prism"
+		}]
+	}]
+}

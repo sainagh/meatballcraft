@@ -1,0 +1,41 @@
+{
+	title: "I like big batteries and I cannot lie",
+	x: 12.5d,
+	y: 0.0d,
+	description: "Need to make some RF? All available ways will be in the enrgy sources tab!",
+	text: [
+		"Now that I have better means of fabrication, I can start collecting larger amounts of energy.",
+		"From now on I expect I'll ned lots of it!"
+	],
+	dependencies: [
+		"8b210b51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "55ee61cf",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 1000,
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Level: 0b,
+				Send: 1000
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 104.0d,
+	y: 0.0d,
+	dependencies: [
+		"ebb424f7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dec6f2cf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:nightmare_block"
+		}]
+	}]
+}

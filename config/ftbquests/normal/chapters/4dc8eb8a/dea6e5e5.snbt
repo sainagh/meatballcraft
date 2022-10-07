@@ -1,0 +1,12 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	dependencies: [
+		"c5c58d79"
+	],
+	tasks: [{
+		uid: "e912f733",
+		type: "checkmark",
+		title: "Spawning Szn"
+	}]
+}

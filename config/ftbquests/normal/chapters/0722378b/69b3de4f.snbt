@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 8.0d,
+	text: [
+		"This multiblock is used to fabricate circuits and machine parts.",
+		"Use holo projector to see multiblock preview."
+	],
+	dependencies: [
+		"3b01a8a9"
+	],
+	tasks: [{
+		uid: "d06217d6",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:precisionassemblingmachine"
+		}]
+	}]
+}

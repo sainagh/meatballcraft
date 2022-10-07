@@ -1,0 +1,17 @@
+{
+	x: 92.0d,
+	y: 3.0d,
+	dependencies: [
+		"e0b5358c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8ae35637",
+		type: "item",
+		items: [{
+			item: "contenttweaker:horrific_callstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

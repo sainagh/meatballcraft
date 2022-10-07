@@ -1,0 +1,20 @@
+{
+	title: "Exploration",
+	x: 5.0d,
+	y: 0.0d,
+	description: "Go out and explore! The overworld is full of good stuff both above and below ground!",
+	text: [
+		"Despite the abundance of monsters and other weird creatures, it seems like intelligent beings also live on this planet.",
+		"There are a lot of buildings randomly scattered around this land, so someone must have built them...",
+		"I need to find other intelligent beings, maybe they are like some of the other creatures I've seen, and can open a wormhole to get me out of here."
+	],
+	dependencies: [
+		"fb8062a2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1a752513",
+		type: "checkmark",
+		icon: "minecraft:compass"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Agents of Chaos",
+	x: 24.5d,
+	y: 1.5d,
+	dependencies: [
+		"cb2dbf56"
+	],
+	hide: true,
+	tasks: [{
+		uid: "be340913",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dragon_heart"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	icon: "contenttweaker:draconic_key",
+	x: 0.5d,
+	y: 1.5d,
+	description: "If you are unsure how to obtain or automate a given item, make sure to read the red text!",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b0e537a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5e7b4c57",
+		type: "checkmark",
+		title: "Look at tooltips!"
+	}]
+}

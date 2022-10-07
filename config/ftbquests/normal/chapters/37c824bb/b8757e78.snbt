@@ -1,0 +1,16 @@
+{
+	title: "I am Evil",
+	x: 50.0d,
+	y: -9.0d,
+	dependencies: [
+		"38042ce8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0ed6dc2e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pure_warp"
+		}]
+	}]
+}

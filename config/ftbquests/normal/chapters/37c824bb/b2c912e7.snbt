@@ -1,0 +1,20 @@
+{
+	x: 26.0d,
+	y: -12.0d,
+	description: "Found in the emptiness.",
+	dependencies: [
+		"74c81f2c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "54d03275",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:research_notes",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

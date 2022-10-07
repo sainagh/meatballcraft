@@ -1,0 +1,13 @@
+{
+	x: 5.0d,
+	y: 4.5d,
+	description: "The more logs you harvest, the better stuff they may drop!",
+	dependencies: [
+		"d8e398cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b50906de",
+		type: "checkmark"
+	}]
+}

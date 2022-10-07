@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 26.0d,
+	dependencies: [
+		"fe046b03"
+	],
+	tasks: [{
+		uid: "6407fa5c",
+		type: "item",
+		items: [{
+			item: "techreborn:wire_mill"
+		}]
+	}]
+}

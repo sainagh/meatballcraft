@@ -1,0 +1,17 @@
+{
+	x: 7.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b8958680"
+	],
+	tasks: [{
+		uid: "66ee058b",
+		type: "item",
+		items: [{
+			item: "techreborn:ingot 1 15"
+		}]
+	}]
+}

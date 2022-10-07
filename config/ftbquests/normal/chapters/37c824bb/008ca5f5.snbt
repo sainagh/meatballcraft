@@ -1,0 +1,22 @@
+{
+	x: 47.0d,
+	y: 1.5d,
+	text: [
+		"From visiting Shyre territories, I've been able to piece a few things together.",
+		"1. Whoever is leading this empire has power over recursion, essentially being a god.",
+		"2. The creatures inhabiting Shyre planets are not opposed to their rulers and, as a matter of fact, they respect them, and even aid them.",
+		"3. The inhabitants of Barathos believe in a 'god of war', who has come into this world to bring a 'holy crusade'.",
+		"I don't want to jump to conclusions, but, I think, the empire is not an 'empire', but a religion..."
+	],
+	dependencies: [
+		"9bf70d52"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1d440a09",
+		type: "item",
+		items: [{
+			item: "contenttweaker:barathos_garnet"
+		}]
+	}]
+}

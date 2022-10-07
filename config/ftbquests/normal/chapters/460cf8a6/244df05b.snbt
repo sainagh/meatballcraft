@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	text: [
+		"Spawns Below Y=16",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"b8958680"
+	],
+	tasks: [{
+		uid: "c86b76ae",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}]
+}

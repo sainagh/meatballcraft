@@ -1,0 +1,18 @@
+{
+	title: "Vox Ponds",
+	icon: "aoa3:toxic_grass",
+	x: 19.0d,
+	y: 11.0d,
+	description: "5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+	text: [
+		""
+	],
+	dependencies: [
+		"d1317694"
+	],
+	tasks: [{
+		uid: "a49093f4",
+		type: "dimension",
+		dim: 821
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 68.0d,
+	y: 3.0d,
+	dependencies: [
+		"1868ed5b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2ff09511",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mythic_machine_case"
+		}]
+	}]
+}

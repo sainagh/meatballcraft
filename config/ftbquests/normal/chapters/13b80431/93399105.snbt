@@ -1,0 +1,19 @@
+{
+	title: "Alkemia",
+	icon: "contenttweaker:white_fuel",
+	x: 35.0d,
+	y: -1.0d,
+	description: "Travel using a warp core with the right artifact on a space station",
+	text: [
+		""
+	],
+	dependencies: [
+		"94b232d0",
+		"b1068391"
+	],
+	tasks: [{
+		uid: "0aff13b2",
+		type: "dimension",
+		dim: 174
+	}]
+}

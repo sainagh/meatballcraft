@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: -9.0d,
+	dependencies: [
+		"177d7078"
+	],
+	tasks: [{
+		uid: "85fdb680",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lefhm_fuel"
+		}]
+	}]
+}

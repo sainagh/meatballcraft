@@ -1,0 +1,15 @@
+{
+	x: 93.5d,
+	y: -4.5d,
+	description: "Can be automated uring hoppers, droppers, and a redstone clock",
+	dependencies: [
+		"13f18f23"
+	],
+	tasks: [{
+		uid: "7423c552",
+		type: "item",
+		items: [{
+			item: "divinerpg:teaker_lump"
+		}]
+	}]
+}

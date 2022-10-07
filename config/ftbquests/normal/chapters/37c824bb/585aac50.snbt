@@ -1,0 +1,38 @@
+{
+	x: 101.0d,
+	y: 1.5d,
+	dependencies: [
+		"b460c6ba"
+	],
+	hide: true,
+	tasks: [{
+		uid: "360dc751",
+		type: "item",
+		items: [{
+			item: "bewitchment:athame"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "69ae39c9",
+		type: "item",
+		items: [{
+			item: "bewitchment:dragons_blood_sapling"
+		}]
+	},
+	{
+		uid: "e16de20c",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	},
+	{
+		uid: "381b459f",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 15"
+		}]
+	}]
+}

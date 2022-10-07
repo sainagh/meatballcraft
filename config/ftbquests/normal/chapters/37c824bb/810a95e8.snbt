@@ -1,0 +1,26 @@
+{
+	title: "Battle for the Skies!",
+	x: 23.0d,
+	y: 9.0d,
+	description: "Use in the end!",
+	text: [
+		"While the testificates did not dare messing with the dragons living in the asteroids around Terra, someone else definitely did!",
+		"These monsters from the Twilight Horde seem to have gained control over some of the regions in the asteroid belt, that said, there are places not even them dare to explore..."
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9a16b6b9",
+		type: "item",
+		items: [{
+			id: "divinerpg:horde_horn",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

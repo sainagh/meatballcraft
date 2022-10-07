@@ -1,0 +1,18 @@
+{
+	x: 7.0d,
+	y: 2.0d,
+	text: [
+		"Makes alloys accepting up to three materials.",
+		"And smelts things too!"
+	],
+	dependencies: [
+		"f40dd3ae"
+	],
+	tasks: [{
+		uid: "927b5fc9",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy_smelter"
+		}]
+	}]
+}

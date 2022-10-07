@@ -1,0 +1,16 @@
+{
+	title: "Gardencia Falls",
+	x: 62.0d,
+	y: 4.5d,
+	dependencies: [
+		"a720decf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "761c4fae",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gardencia_cap"
+		}]
+	}]
+}

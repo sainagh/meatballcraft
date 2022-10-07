@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: 25.0d,
+	text: [
+		"For all your centrifuging needs.",
+		"Definitely the better centrifuge, between you and me..."
+	],
+	dependencies: [
+		"5f57ce40"
+	],
+	tasks: [{
+		uid: "9f759b44",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:centrifuge_idle"
+		}]
+	}]
+}

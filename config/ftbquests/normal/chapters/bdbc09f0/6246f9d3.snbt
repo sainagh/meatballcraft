@@ -1,0 +1,17 @@
+{
+	x: -7.0d,
+	y: -1.0d,
+	text: [
+		"Bettah!"
+	],
+	dependencies: [
+		"65007c1c"
+	],
+	tasks: [{
+		uid: "5366c868",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel 1 1"
+		}]
+	}]
+}

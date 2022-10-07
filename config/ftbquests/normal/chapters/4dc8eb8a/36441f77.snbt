@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: -4.5d,
+	text: [
+		"Primal Mana is not the easiest resource to obtain, until it is...",
+		"And it can be made into EMC..."
+	],
+	dependencies: [
+		"6e3475c4"
+	],
+	tasks: [{
+		uid: "c38e05d9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:botanic_alchemic_catalyst"
+		}]
+	}]
+}

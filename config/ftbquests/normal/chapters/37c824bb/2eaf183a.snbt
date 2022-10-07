@@ -1,0 +1,24 @@
+{
+	icon: "contenttweaker:goldorth_golden_eye",
+	x: 0.5d,
+	y: -1.5d,
+	description: "There is a keybind (O by default) to show you favor",
+	text: [
+		"I cannot believe it, but, well, gods are real, and here, they are quite active...",
+		"Depending on how you behave during the day, they may bless you at night.",
+		"",
+		"Mine and forage random drops from stone and wood to gain luck.",
+		"Use stone and diamond bowls on pixons to gain invisibility.",
+		"Kill mobs to gain strength.",
+		"Harvest crops to gain speed."
+	],
+	dependencies: [
+		"2b0e537a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b36bc7e5",
+		type: "checkmark",
+		title: "The gods!"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 1.0d,
+	y: 4.5d,
+	text: [
+		"Crop sticks can be used to duplicate or improve crops.",
+		"If crossing crop sticks are placed next to planted crop sticks, the plant will spread, sharing its stats.",
+		"If two or more planted crops are placed around double crop sticks, the resulting plant may come out with better stats.",
+		"The seed analyzer can be used to look at a given plant's stats. The maximum for each stat is 10."
+	],
+	dependencies: [
+		"0400c016"
+	],
+	tasks: [{
+		uid: "61ce18e8",
+		type: "item",
+		items: [{
+			item: "agricraft:crop_sticks"
+		}]
+	},
+	{
+		uid: "6bef05db",
+		type: "item",
+		items: [{
+			item: "agricraft:seed_analyzer"
+		}]
+	}]
+}

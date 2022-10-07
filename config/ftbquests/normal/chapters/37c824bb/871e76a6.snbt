@@ -1,0 +1,15 @@
+{
+	x: 93.5d,
+	y: 3.0d,
+	dependencies: [
+		"69fe68b8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a66aafd9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cosmic_fracture"
+		}]
+	}]
+}

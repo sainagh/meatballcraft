@@ -1,0 +1,22 @@
+{
+	title: "The Myrmex Swarm",
+	x: 57.5d,
+	y: 0.0d,
+	text: [
+		"The 'coordinates' keep guiding me forward! Another planet!",
+		"Unlike the rhenia, though, this one should be inhabited...by myrmitites...",
+		"These fuckers managed to colonize their own planet?! How?",
+		"At this point, I guess, nothing should surprise me..."
+	],
+	dependencies: [
+		"2dc6b39f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "adc5a7ac",
+		type: "item",
+		items: [{
+			item: "contenttweaker:myrmex_artifact"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -5.5d,
+	y: -4.5d,
+	text: [
+		"The thaumonomicon is the magical guide to thaumic arts, and it holds all of its knowledge.",
+		"Each tab in the book refers to a different branch of the art.",
+		"Most of the knowledge in the book is hidden, and research needs to be performed to unlock such knowledge.",
+		"The requirements for each page are listed whenever they become available for discovery.",
+		"This knowledge can also be obtained through the chemicals held in Really Scary Vishrooms. They are indeed really scary, though, so be careful!"
+	],
+	dependencies: [
+		"2d513652"
+	],
+	tasks: [{
+		uid: "34e79160",
+		type: "item",
+		items: [{
+			id: "thaumcraft:thaumonomicon",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

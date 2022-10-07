@@ -1,0 +1,22 @@
+{
+	title: "Stone Age",
+	x: -1.0d,
+	y: 0.0d,
+	description: "Going right makes you progress through the pack, quests up and down are about what can be done (if you want to finish you'll have to do these eventually)",
+	text: [
+		"I guess the stone that makes up the soil in this planet makes for decent tools...",
+		"I've always thought what it would be like to live like a caveman, I guess now I know...",
+		"This sucks!"
+	],
+	dependencies: [
+		"2f54d294"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3316c288",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}]
+	}]
+}

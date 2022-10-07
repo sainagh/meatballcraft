@@ -1,0 +1,25 @@
+import mods.modularmachinery.RecipeBuilder;
+
+
+val bot2 = RecipeBuilder.newBuilder("bot2","gaia_altar",4000);
+bot2.addEnergyPerTickInput(4000);
+bot2.addItemInput(<botania:grassseds:0>*64);
+bot2.addItemInput(<randomthings:beans:0>*16);
+bot2.addItemOutput(<randomthings:beanpod>);
+bot2.build();
+
+val bot2 = RecipeBuilder.newBuilder("bot2","gaia_altar",4000);
+bot2.addEnergyPerTickInput(4000);
+bot2.addItemInput(<botania:manaresource:8>*16);
+bot2.addItemInput(<erebus:materials:21>*4);
+bot2.addItemOutput(<erebus:materials:2>);
+bot2.setChance(0.1);
+bot2.addItemOutput(<erebus:materials:47>);
+bot2.setChance(0.1);
+bot2.addItemOutput(<erebus:materials:7>);
+bot2.setChance(0.1);
+bot2.addItemOutput(<erebus:mud>);
+bot2.setChance(0.2);
+bot2.addItemOutput(<erebus:mud>);
+bot2.setChance(0.2);
+bot2.build();

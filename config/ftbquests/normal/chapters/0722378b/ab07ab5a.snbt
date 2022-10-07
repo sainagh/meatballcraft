@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 8.0d,
+	text: [
+		"For some of your processor-making needs.",
+		"Only one at a time :(",
+		"Requires energy from an AE network, even a very small one..."
+	],
+	dependencies: [
+		"b0b21afb"
+	],
+	tasks: [{
+		uid: "b711c4be",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}]
+}

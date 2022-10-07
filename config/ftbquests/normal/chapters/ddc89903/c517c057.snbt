@@ -1,0 +1,24 @@
+{
+	x: 11.0d,
+	y: -1.5d,
+	text: [
+		"Toggle busses can be used to connect or disconnect a section of a AE2 network using redstone."
+	],
+	dependencies: [
+		"c886443f"
+	],
+	tasks: [{
+		uid: "c9637765",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 100"
+		}]
+	},
+	{
+		uid: "a52818e0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 80"
+		}]
+	}]
+}

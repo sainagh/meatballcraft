@@ -1,0 +1,16 @@
+{
+	x: 7.0d,
+	y: -10.5d,
+	dependencies: [
+		"85791ae8"
+	],
+	tasks: [{
+		uid: "6d87f780",
+		type: "item",
+		items: [{
+			item: "scannable:module_range"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

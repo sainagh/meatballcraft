@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 9.0d,
+	text: [
+		"Used to process silicon boules.",
+		"May be a good one to put on passive...",
+		"Use holo projector to see multiblock preview."
+	],
+	dependencies: [
+		"3b01a8a9"
+	],
+	tasks: [{
+		uid: "d4d8e501",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:crystallizer"
+		}]
+	}]
+}

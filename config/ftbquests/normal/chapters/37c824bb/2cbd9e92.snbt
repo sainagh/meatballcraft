@@ -1,0 +1,28 @@
+{
+	title: "Digital Dismemberment",
+	x: 15.5d,
+	y: 3.0d,
+	description: "More info about deep mob learning is found on book of creation",
+	text: [
+		"I may have a problem, the ability to manipulate souls is so freaking useful!",
+		"I have no remorse for what I am doing, but I feel like I should..."
+	],
+	dependencies: [
+		"6421dbb8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "04c3bfe5",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:simulation_chamber"
+		}]
+	},
+	{
+		uid: "4227bf74",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:extraction_chamber"
+		}]
+	}]
+}

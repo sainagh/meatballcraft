@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 11.0d,
+	dependencies: [
+		"fe046b03"
+	],
+	tasks: [{
+		uid: "4d85ac6f",
+		type: "item",
+		items: [{
+			item: "techreborn:alloy_smelter"
+		}]
+	}]
+}

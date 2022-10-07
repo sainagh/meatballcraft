@@ -1,0 +1,17 @@
+{
+	x: 8.0d,
+	y: 1.0d,
+	text: [
+		"A crafting table with extra steps!"
+	],
+	dependencies: [
+		"36f5a834"
+	],
+	tasks: [{
+		uid: "e89f1fbb",
+		type: "item",
+		items: [{
+			item: "forestry:carpenter"
+		}]
+	}]
+}

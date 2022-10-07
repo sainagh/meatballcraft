@@ -1,0 +1,20 @@
+{
+	x: 86.0d,
+	y: 3.0d,
+	dependencies: [
+		"2e5c9fa5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "763c20be",
+		type: "item",
+		items: [{
+			id: "aoa3:dustopia_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

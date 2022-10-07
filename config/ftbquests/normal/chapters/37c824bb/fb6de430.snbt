@@ -1,0 +1,20 @@
+{
+	title: "F*ck radiation!",
+	x: 32.0d,
+	y: 1.5d,
+	text: [
+		"Radiation bad, lets not make it!",
+		""
+	],
+	dependencies: [
+		"7382c725"
+	],
+	hide: true,
+	tasks: [{
+		uid: "004ebc11",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:radiation_scrubber"
+		}]
+	}]
+}

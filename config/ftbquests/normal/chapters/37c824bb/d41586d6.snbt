@@ -1,0 +1,21 @@
+{
+	title: "Crazy Evil",
+	x: 60.5d,
+	y: 3.0d,
+	dependencies: [
+		"588d339b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2a383b0f",
+		type: "item",
+		items: [{
+			id: "aoa3:celeve_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

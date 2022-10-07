@@ -1,0 +1,16 @@
+{
+	x: 18.0d,
+	y: -0.5d,
+	dependencies: [
+		"c886443f"
+	],
+	tasks: [{
+		uid: "255da50a",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:blank_knowledge_core"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

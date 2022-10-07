@@ -1,0 +1,21 @@
+{
+	title: "Interesting",
+	x: 75.5d,
+	y: -1.5d,
+	dependencies: [
+		"9e26752a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1e24a1e3",
+		type: "item",
+		items: [{
+			id: "woot:endershard",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "A fold within a fold, within a fold",
+	x: 74.0d,
+	y: 0.0d,
+	dependencies: [
+		"4b46b0a3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "112cfbcf",
+		type: "item",
+		items: [{
+			item: "divinerpg:wildwood_block"
+		}]
+	}]
+}

@@ -1,0 +1,61 @@
+{
+	title: "Alloys",
+	x: 8.0d,
+	y: 0.0d,
+	text: [
+		"Finally at the bronze age! By building a smeltery, I can extract metal from ore more efficiently, and I can start making alloys!"
+	],
+	dependencies: [
+		"c016f84c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e50a4528",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "b30d60eb",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "684375aa",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "2336397d",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "0df71a15",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}]
+	},
+	{
+		uid: "b992e953",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}]
+	},
+	{
+		uid: "9e870d13",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	}]
+}

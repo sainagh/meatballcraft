@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: 9.5d,
+	text: [
+		"Can things get any better? Yes they can! ",
+		"If you know how to get CREATIVE..."
+	],
+	dependencies: [
+		"83576e9d"
+	],
+	tasks: [{
+		uid: "bef26a4c",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:watering_can",
+			Damage: 4s,
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

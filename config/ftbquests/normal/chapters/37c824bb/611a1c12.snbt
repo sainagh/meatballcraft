@@ -1,0 +1,26 @@
+{
+	title: "Corruption of a Planet",
+	x: 44.0d,
+	y: -4.5d,
+	text: [
+		"The Shyre empire is vast, and very powerful... so powerful that apparently they can afford leaving one of their main stronghold planets in a state of extreme corruption.",
+		"The very soil of this place is corrupted by what I assume were large scale experiments, yet, creatures still live there...",
+		"Not only that, this 'corruption' is used as a weapon...how annoying, and how gross!"
+	],
+	dependencies: [
+		"b2e50833"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca60050f",
+		type: "item",
+		items: [{
+			id: "aoa3:abyss_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

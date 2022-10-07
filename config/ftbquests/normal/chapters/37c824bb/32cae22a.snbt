@@ -1,0 +1,41 @@
+{
+	title: "Plasmatic condenser",
+	x: 39.5d,
+	y: 3.0d,
+	description: "Radiation scrubbers FTW!",
+	text: [
+		"My studies on plasma have led to an interesting discovery.",
+		"Blood magic, combined with some radioactivity, yields some interesting results.",
+		"This is not quite the cold fusion humanity has achieved, but it may have even greater potential!"
+	],
+	dependencies: [
+		"eee537a9"
+	],
+	tasks: [{
+		uid: "fa5b273d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dark_soul_machine_chassis"
+		}]
+	},
+	{
+		uid: "c46095bd",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:plasmatic_condenser"
+			}
+		}]
+	},
+	{
+		uid: "331d3fa6",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:plasmatic_controller"
+			}
+		}]
+	}]
+}

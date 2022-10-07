@@ -1,0 +1,15 @@
+{
+	x: 29.0d,
+	y: -9.0d,
+	description: "Found in the temple in the deep dark.",
+	dependencies: [
+		"f1e1204a"
+	],
+	tasks: [{
+		uid: "e5d664e4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cursed_rock"
+		}]
+	}]
+}

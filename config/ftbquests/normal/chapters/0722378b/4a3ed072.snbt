@@ -1,0 +1,65 @@
+{
+	x: 7.0d,
+	y: -3.0d,
+	text: [
+		"The smeltery is built out of seared bricks placed in a cuboid shell, with no roof and no edges.",
+		"The controller is where the interface is accessible, and acts as an item input (for automation).",
+		"The tank is the smeltery's lava (or other hot fluid) input.",
+		"Drains act as fluid output ports. Faucets and fluid pipes connect to drains.",
+		"Tables and basins are placed under faucets to accept molten fluids. Basins turn them into blocks, tables can be used with a variety of casts (gold is better).",
+		"Faucets output fluids when clicked, or with a redstone signal.",
+		"Redstone clocks and timers are good for automating faucet extraction, if you don't want to use pipes."
+	],
+	dependencies: [
+		"cf94e2f1"
+	],
+	tasks: [{
+		uid: "e9466bd5",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "fa97275b",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}]
+	},
+	{
+		uid: "43867e91",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "c031f53b",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "5b86a08a",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "22726104",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}]
+	},
+	{
+		uid: "4d04c439",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	}]
+}

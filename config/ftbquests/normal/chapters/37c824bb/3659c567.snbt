@@ -1,0 +1,16 @@
+{
+	x: 21.5d,
+	y: -7.5d,
+	description: "Found in the pyramid in volcanic deserts.",
+	dependencies: [
+		"7bd708c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e45a1c6e",
+		type: "item",
+		items: [{
+			item: "erebus:antlion_egg"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 54.5d,
+	y: -3.0d,
+	dependencies: [
+		"ca908556"
+	],
+	hide: true,
+	tasks: [{
+		uid: "90c987b5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ragnarok_sigil"
+		}]
+	}]
+}

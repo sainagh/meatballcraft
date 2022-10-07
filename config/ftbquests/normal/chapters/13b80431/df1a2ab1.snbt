@@ -1,0 +1,20 @@
+{
+	title: "Vibe Wormhole",
+	icon: "contenttweaker:vibrating_stone",
+	x: 1.0d,
+	y: -4.0d,
+	description: "Right click a warper item",
+	text: [
+		""
+	],
+	dependencies: [
+		"0207d863",
+		"582b1f83",
+		"a2595568"
+	],
+	tasks: [{
+		uid: "eda072af",
+		type: "dimension",
+		dim: 183
+	}]
+}

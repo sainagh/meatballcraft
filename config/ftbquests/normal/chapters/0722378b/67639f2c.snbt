@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 14.0d,
+	dependencies: [
+		"fe046b03"
+	],
+	tasks: [{
+		uid: "a172fdd1",
+		type: "item",
+		items: [{
+			id: "techreborn:industrial_blast_furnace",
+			tag: {}
+		}]
+	}]
+}

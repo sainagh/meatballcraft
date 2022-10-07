@@ -1,0 +1,37 @@
+{
+	title: "Space Garbage",
+	x: 35.0d,
+	y: -3.0d,
+	dependencies: [
+		"72490c57"
+	],
+	hide: true,
+	tasks: [{
+		uid: "61ce2bf9",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satellitebuilder"
+		}]
+	},
+	{
+		uid: "679d8bb0",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:loader 1 1"
+		}]
+	},
+	{
+		uid: "a4cd196a",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satelliteidchip"
+		}]
+	},
+	{
+		uid: "f24e1c4b",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satellitecontrolcenter"
+		}]
+	}]
+}

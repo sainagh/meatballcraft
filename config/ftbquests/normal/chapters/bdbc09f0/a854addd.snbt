@@ -1,0 +1,22 @@
+{
+	x: 5.0d,
+	y: -7.0d,
+	description: "Moderators increase the efficiency of cells (more power, less fuel), but they also increase heat. They need to be placed next to cells.",
+	dependencies: [
+		"177d7078"
+	],
+	tasks: [{
+		uid: "1c4ce85e",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ingot_block 1 8"
+		}]
+	},
+	{
+		uid: "b03cf23c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ingot_block 1 9"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "To the Icy Realm!",
+	x: 12.5d,
+	y: -6.0d,
+	text: [
+		"It is weird, but after encountering ice wizardry, I became aware of a calling from the cold...",
+		"Someone has used this type of magic to open a wormhole, and I want to know who it is!"
+	],
+	dependencies: [
+		"7063e03d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e224a15a",
+		type: "item",
+		items: [{
+			id: "divinerpg:snow_globe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Evil Crystals too!",
+	x: 60.5d,
+	y: 6.0d,
+	dependencies: [
+		"588d339b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c3d0dd73",
+		type: "item",
+		items: [{
+			id: "aoa3:crystevia_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

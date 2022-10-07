@@ -1,0 +1,21 @@
+{
+	title: "More Evil Plants!",
+	x: 60.5d,
+	y: 4.5d,
+	dependencies: [
+		"588d339b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "13a2e0d4",
+		type: "item",
+		items: [{
+			id: "aoa3:gardencia_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

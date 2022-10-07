@@ -1,0 +1,17 @@
+{
+	x: 17.0d,
+	y: 1.0d,
+	text: [
+		"Found below y=50 on Osiris"
+	],
+	dependencies: [
+		"0c2f0105"
+	],
+	tasks: [{
+		uid: "b3dfbf25",
+		type: "item",
+		items: [{
+			item: "contenttweaker:serpentine"
+		}]
+	}]
+}

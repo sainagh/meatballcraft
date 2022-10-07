@@ -1,0 +1,24 @@
+{
+	title: "Through the Looking Glass",
+	x: 3.0d,
+	y: -4.0d,
+	text: [
+		"It seems I can melt down this Depleted fuel, and use it with other fluids i've encountered to create some sort of Unidentified Material? Must Investigate Further."
+	],
+	dependencies: [
+		"d6c40044"
+	],
+	tasks: [{
+		uid: "9f0de0f3",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "depleted_fuel_hecf_249",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

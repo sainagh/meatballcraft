@@ -1,0 +1,25 @@
+{
+	title: "The Proxima System",
+	x: 56.0d,
+	y: 0.0d,
+	text: [
+		"Seems like, in order to figure out the true motifs behind this war, I gotta figure out what it truly is about.",
+		"Dimensional shards appear to be the end goal for both the Empire and the Horde, yet, other materials seem just as important.",
+		"From what I have seen so far, the more minerals and resources I get access to, the more powerful I become.",
+		"Meaning that, probably, the same applies to my enemies.",
+		"In that weird bank in Precasia, the bankers were talking about the proxima system.",
+		"If the coordinates I found are correct, this is the empire's next target",
+		"I guess I gotta beat them to it!"
+	],
+	dependencies: [
+		"2b6345ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "43b15add",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rhenia_artifact"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 11.0d,
+	y: 1.0d,
+	text: [
+		"Can Drop When using Holystone Tools",
+		"Ore Spawns in The Aether",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"f11cddba"
+	],
+	tasks: [{
+		uid: "f1564145",
+		type: "item",
+		items: [{
+			item: "aether_legacy:ambrosium_shard"
+		}]
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 36.5d,
+	y: -3.0d,
+	text: [
+		"Rockets are cool and all, but for some more stable space experiments I feel like a space station would be more feasible."
+	],
+	dependencies: [
+		"72490c57"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0da1ff7b",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:stationbuilder"
+		}]
+	},
+	{
+		uid: "30367db9",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spacestationchip"
+		}]
+	},
+	{
+		uid: "48075279",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:loader 1 1"
+		}]
+	}]
+}

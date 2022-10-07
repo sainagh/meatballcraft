@@ -1,0 +1,18 @@
+{
+	x: 12.0d,
+	y: 5.0d,
+	text: [
+		"In search of some fluid to put into an ender combustion generator?",
+		"Plant scraps would work pretty well here!"
+	],
+	dependencies: [
+		"0ab08fce"
+	],
+	tasks: [{
+		uid: "4ddfb244",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:bioreactor"
+		}]
+	}]
+}

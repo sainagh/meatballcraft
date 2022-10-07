@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: 10.5d,
+	dependencies: [
+		"0400c016"
+	],
+	tasks: [{
+		uid: "f7570821",
+		type: "item",
+		items: [{
+			item: "xreliquary:fertile_lilypad"
+		}]
+	}]
+}

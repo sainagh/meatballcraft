@@ -1,0 +1,20 @@
+{
+	title: "He controls the seas...",
+	x: 20.0d,
+	y: 4.5d,
+	description: "Belongs in the ocean!",
+	text: [
+		"The seas on Terra are definitely dangerous. It seems like the local fauna has made it difficult for alien invaders to take over the seas, yet, one of them seems to have no problem there..."
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5c3feece",
+		type: "item",
+		items: [{
+			item: "aoa3:amphibiyte_lung"
+		}]
+	}]
+}

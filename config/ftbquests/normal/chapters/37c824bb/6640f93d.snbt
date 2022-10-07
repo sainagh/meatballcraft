@@ -1,0 +1,21 @@
+{
+	title: "Lelyetia Falls",
+	x: 45.5d,
+	y: -3.0d,
+	description: "Use the guardian's eye on graw altar",
+	text: [
+		"The master of Lelyetia has been taken down, and the weird feeling I felt when I first eneterd is partially gone.",
+		"This land still holds some secrets, and I am set on figuring out what's going on!"
+	],
+	dependencies: [
+		"82cf056f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3dd85a3d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lelyetian_cap"
+		}]
+	}]
+}

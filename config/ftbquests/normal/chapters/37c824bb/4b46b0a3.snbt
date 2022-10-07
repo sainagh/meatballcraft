@@ -1,0 +1,16 @@
+{
+	title: "Power from Wildwood",
+	x: 72.5d,
+	y: 0.0d,
+	dependencies: [
+		"40d98bd3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "62e7fcbe",
+		type: "item",
+		items: [{
+			item: "contenttweaker:wildwood_star"
+		}]
+	}]
+}

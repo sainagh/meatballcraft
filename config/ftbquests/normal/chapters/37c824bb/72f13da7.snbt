@@ -1,0 +1,20 @@
+{
+	title: "Am I Insane?",
+	x: 50.0d,
+	y: -3.0d,
+	dependencies: [
+		"5dca5abc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "27b53a97",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:research_notes",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

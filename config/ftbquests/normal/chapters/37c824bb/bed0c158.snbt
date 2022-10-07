@@ -1,0 +1,16 @@
+{
+	x: 20.0d,
+	y: -1.5d,
+	description: "Used to craft machines from nuclearcraft (see manufacturing and fabrication)",
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d625e3eb",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part 1 10"
+		}]
+	}]
+}

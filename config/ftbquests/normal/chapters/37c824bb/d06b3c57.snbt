@@ -1,0 +1,36 @@
+{
+	x: 128.0d,
+	y: 0.0d,
+	dependencies: [
+		"7f13ea6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "85aec4e8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:miniature_black_hole"
+		}]
+	},
+	{
+		uid: "a9ffe4f4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:horizon_stabilizer"
+		}]
+	},
+	{
+		uid: "233abd34",
+		type: "item",
+		items: [{
+			item: "contenttweaker:infinity_dyson_conduit"
+		}]
+	},
+	{
+		uid: "b302d38f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dyson_compressor"
+		}]
+	}]
+}

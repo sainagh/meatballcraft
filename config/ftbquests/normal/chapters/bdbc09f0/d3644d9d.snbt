@@ -1,0 +1,20 @@
+{
+	x: 3.5d,
+	y: 9.0d,
+	text: [
+		"Milk and slime? Gross..."
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "98d0c1b9",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_slime"
+			}
+		}]
+	}]
+}

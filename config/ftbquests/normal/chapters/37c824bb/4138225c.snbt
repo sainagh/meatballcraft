@@ -1,0 +1,21 @@
+{
+	title: "Experiment #5",
+	x: 69.5d,
+	y: 1.5d,
+	dependencies: [
+		"5a0724e2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5dfb5503",
+		type: "item",
+		items: [{
+			id: "contenttweaker:apichisi_warper",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

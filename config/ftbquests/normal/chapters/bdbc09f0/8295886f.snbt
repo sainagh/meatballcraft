@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: 9.0d,
+	text: [
+		"RF from Nether Stars?!?"
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "af1f2d25",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_netherstar"
+			}
+		}]
+	}]
+}

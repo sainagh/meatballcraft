@@ -1,0 +1,20 @@
+{
+	icon: "contenttweaker:fluix_lens",
+	x: 5.0d,
+	y: -3.0d,
+	text: [
+		"The 'book of worlds' quests contain descriptions on how to reach each dimension, and the order of progression!",
+		"If you are unsure, follow the 'dimensional ascension' questline, it will guide you, sort of...",
+		"And if you're wondering about DivineRPG and Advent of Ascension, be reminded that this pack's progression starts when a normal kitchen sink pack's progression would end...",
+		"...So it will take a while until you get there."
+	],
+	dependencies: [
+		"427846dd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "15c7b986",
+		type: "checkmark",
+		title: "How do I reach this dimension?!?"
+	}]
+}

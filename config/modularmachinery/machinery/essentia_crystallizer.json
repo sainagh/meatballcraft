@@ -1,0 +1,93 @@
+{
+    "registryname": "essentia_crystallizer",
+    "localizedname": "Essentia Crystallizer",
+	"color": 582078,
+    "modifiers": [
+        {
+            "elements": "contenttweaker:vibrating_stone@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "Replace middle block to increase item output",
+            "modifier": {
+                "io": "output",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 4
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumadditions:mithrillium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:crucible@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumadditions:mithrillium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumadditions:mithrillium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumadditions:mithrillium_block@0"
+            ]
+        }
+    ]}

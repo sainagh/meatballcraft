@@ -1,0 +1,27 @@
+{
+	title: "Material Tinkering",
+	x: 50.0d,
+	y: 0.0d,
+	text: [
+		"New minerals! New alloys!",
+		"More cool things to make! (after some automation)"
+	],
+	dependencies: [
+		"ea6a620f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7c1f320c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:jeweled_runium"
+		}]
+	},
+	{
+		uid: "a678f51a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 69"
+		}]
+	}]
+}

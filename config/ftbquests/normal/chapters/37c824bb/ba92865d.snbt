@@ -1,0 +1,16 @@
+{
+	title: "Chaos",
+	x: 77.0d,
+	y: -1.5d,
+	dependencies: [
+		"9e26752a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cbb4341d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_block 1 1"
+		}]
+	}]
+}

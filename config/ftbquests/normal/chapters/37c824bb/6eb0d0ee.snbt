@@ -1,0 +1,28 @@
+{
+	title: "Wormhole Experiments",
+	x: 30.5d,
+	y: 0.0d,
+	text: [
+		"Corallus, the ruler of the seas, was also a scientist.",
+		"It seems like the shyre empire used him to perfect their wormhole technology.",
+		"I stopped him just in time...his last experiments appeared to be focused on opening a portal that would allow for the entire military might of the empire to enter Terra at once.",
+		"This type of science is way beyond my understanding, yet, I may be able to use its basic applications to open my own wormholes..."
+	],
+	dependencies: [
+		"51d358d6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2e64e6d4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:wormhole_catalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "0e7628ad",
+		type: "item",
+		item: "aoa3:corallus_statue",
+		count: 3
+	}]
+}

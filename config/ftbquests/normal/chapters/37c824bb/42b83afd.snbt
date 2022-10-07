@@ -1,0 +1,13 @@
+{
+	x: 6.5d,
+	y: 1.5d,
+	description: "Break leaves to get anima stones, use them on the ground to speed growth temporarily. Tablets can be used as temporary beacons at the cost of anima.",
+	dependencies: [
+		"d8e398cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b4cfa546",
+		type: "checkmark"
+	}]
+}

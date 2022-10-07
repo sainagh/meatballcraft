@@ -1,0 +1,22 @@
+{
+	title: "Erebus Caves",
+	icon: "erebus:umberstone",
+	x: -1.0d,
+	y: 3.5d,
+	description: "Build a frame of stone bricks and fill inside with leaves, right click a gaean keystone placed 7 blocks away using a staff of gaea (prepare two of these setups)",
+	text: [
+		"The erebus caves are a weird, really weird, place. ",
+		"While gravity has a defined direction, there is no sign that the soil either above or below these large caves will ever end.",
+		"It almost feels like they are not located on a planet. Rather, these caves feel like they are truly flat.",
+		"The powers of witchery definitely play a role in this, but it seems like this place is not even located on a planet.",
+		"The insects living in this world seem to be originated by some higher power, since they are not directly able to travel through higher dimensions by themselves."
+	],
+	dependencies: [
+		"446239db"
+	],
+	tasks: [{
+		uid: "649471ef",
+		type: "dimension",
+		dim: 66
+	}]
+}

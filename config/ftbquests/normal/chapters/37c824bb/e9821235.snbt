@@ -1,0 +1,63 @@
+{
+	title: "TRUE Draconic Power",
+	x: 74.0d,
+	y: -1.5d,
+	dependencies: [
+		"e18a08ef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9b601e34",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "afb88722",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "260a2085",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9b95f8b3",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1963461b",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6c54ddb9",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

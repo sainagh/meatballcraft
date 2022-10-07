@@ -1,0 +1,15 @@
+{
+	x: 122.0d,
+	y: 0.0d,
+	dependencies: [
+		"8b4dbc6b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c39dfcf6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:defined_ingot"
+		}]
+	}]
+}

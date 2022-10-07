@@ -1,0 +1,20 @@
+{
+	x: 20.0d,
+	y: 9.0d,
+	text: [
+		"Found in the Creeponia Dimension from Advent of Ascension",
+		"Found Between Y=21 to Y=37",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"4ed812bb"
+	],
+	tasks: [{
+		uid: "030dafb9",
+		type: "item",
+		items: [{
+			item: "aoa3:gemenyte"
+		}]
+	}]
+}

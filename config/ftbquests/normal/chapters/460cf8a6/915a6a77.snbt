@@ -1,0 +1,23 @@
+{
+	x: 18.5d,
+	y: 1.0d,
+	text: [
+		"May be Dropped by The Sunstorm",
+		"Bunnies and Eden Cadillions Drop Eden Souls Which Can Be Used to Make These Fragments",
+		"Found in the Eden Dimension from DivineRPG",
+		"Found Anywhere with Stone",
+		"Although the Ore is Rainbow the Gem is Red",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"7a7b15fa"
+	],
+	tasks: [{
+		uid: "e8aa91a9",
+		type: "item",
+		items: [{
+			item: "divinerpg:eden_fragments"
+		}]
+	}]
+}

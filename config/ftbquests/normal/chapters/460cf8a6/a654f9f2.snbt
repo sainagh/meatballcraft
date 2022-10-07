@@ -1,0 +1,17 @@
+{
+	x: 17.0d,
+	y: 7.0d,
+	text: [
+		"Found below y=50 on Orcus"
+	],
+	dependencies: [
+		"0c2f0105"
+	],
+	tasks: [{
+		uid: "e62036fa",
+		type: "item",
+		items: [{
+			item: "contenttweaker:onyx"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -8.5d,
+	y: -0.5d,
+	dependencies: [
+		"ed26caa0"
+	],
+	tasks: [{
+		uid: "028c32ab",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:auto_astral_altar"
+			}
+		}]
+	}]
+}

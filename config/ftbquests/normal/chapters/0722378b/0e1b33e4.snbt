@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: 10.0d,
+	text: [
+		"Tier 2, this is where things get interesting..."
+	],
+	dependencies: [
+		"31ed6cfa"
+	],
+	tasks: [{
+		uid: "cbfc381e",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Tier 3 Mythical resources",
+	x: 30.5d,
+	y: -1.5d,
+	description: "Do it ASAP",
+	text: [
+		"Minerals aren't the only things that hold shyre power, it seems.",
+		"I can sense that the ability to generate tools and weapons able to match shyre 'tech' is the key to defeating such powerful foes.",
+		"More experimentation!"
+	],
+	dependencies: [
+		"6eb0d0ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ce296f48",
+		type: "item",
+		items: [{
+			item: "divinerpg:purple_steel"
+		}]
+	},
+	{
+		uid: "46424c17",
+		type: "item",
+		items: [{
+			item: "divinerpg:bedrock_minibricks"
+		}]
+	},
+	{
+		uid: "395ba349",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:mythical_resource_miner_tier3"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: 1.0d,
+	y: 7.0d,
+	dependencies: [
+		"89deb826"
+	],
+	tasks: [{
+		uid: "89af9bd2",
+		type: "checkmark",
+		title: "Integrated Dynamics"
+	}]
+}

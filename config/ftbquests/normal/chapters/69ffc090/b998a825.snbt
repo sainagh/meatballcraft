@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: 5.0d,
+	text: [
+		"Alchemy is so cool!",
+		"A lot of matter present in the universe, including light, has an 'Energy Matter Covalence' value, which is conserved, and that can be manipulated to convert items into other items, and to convert light into matter."
+	],
+	dependencies: [
+		"644a72fc"
+	],
+	tasks: [{
+		uid: "bfc57150",
+		type: "checkmark",
+		title: "Equivalency"
+	}]
+}

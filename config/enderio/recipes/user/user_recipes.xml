@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <recipe name="Alloy: Knightslime, Variant: enderalloy" required="false">
+    <alloying energy="9000" exp="0.4">
+      <input name="ingotIron"/>
+      <input name="slimeballPurple"/>
+      <input name="ingotBrickSeared" amount="4"/>
+      <output name="ingotKnightslime"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: modularium, Variant: enderalloy" required="false">
+    <alloying energy="15000" exp="0.1">
+      <input name="ingotIron"/>
+      <input name="emcRedMatter" amount="4"/>
+      <input name="emcDarkMatter" amount="12"/>
+      <output name="ingotModularium"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: crystaltine, Variant: enderalloy" required="false">
+    <alloying energy="15000" exp="0.1">
+      <input name="ingotIron"/>
+      <input name="blockDiamond" amount="4"/>
+      <input name="blockLapis"/>
+      <output name="ingotCrystaltine"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: bettermithril, Variant: mithessence" required="false">
+    <alloying energy="2000" exp="0.1">
+      <input name="ingotColdIron"/>
+      <input name="essenceMithril" amount="4"/>
+      <input name="plateRhinoBeetle"/>
+      <output name="ingotMithril" amount="16"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: vibranium, Variant: base" required="false">
+    <alloying energy="20000" exp="0.1">
+      <input name="ingotBaronyte"/>
+      <input name="ingotSkeletal" amount="4"/>
+      <input name="ingotFluctuatite"/>
+      <output name="ingotVibranium"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: vibranium, Variant: better" required="false">
+    <alloying energy="10000" exp="0.1">
+      <input name="ingotBaronyte"/>
+      <input name="ingotSkeletal" amount="4"/>
+      <input name="ingotRhenium"/>
+      <output name="vibraniumRheniumBase"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: vibranium, Variant: bettertwo" required="false">
+    <alloying energy="10000" exp="0.1">
+      <input name="vibraniumRheniumBase"/>
+      <input name="ingotFluctuatite"/>
+      <output name="ingotVibranium" amount="8"/>
+    </alloying>
+  </recipe>
+</enderio:recipes>

@@ -1,0 +1,15 @@
+{
+	x: 71.0d,
+	y: -6.0d,
+	dependencies: [
+		"1e312a4c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "122a7fde",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sacrificial_shard"
+		}]
+	}]
+}

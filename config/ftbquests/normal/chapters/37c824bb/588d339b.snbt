@@ -1,0 +1,16 @@
+{
+	title: "Deeper skies!",
+	x: 60.5d,
+	y: 0.0d,
+	dependencies: [
+		"6f7c1c33"
+	],
+	hide: true,
+	tasks: [{
+		uid: "13ebc28b",
+		type: "item",
+		items: [{
+			item: "divinerpg:eden_block"
+		}]
+	}]
+}

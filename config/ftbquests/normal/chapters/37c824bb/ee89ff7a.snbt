@@ -1,0 +1,21 @@
+{
+	title: "Mythic = Alchemy?",
+	x: 27.5d,
+	y: 3.0d,
+	text: [
+		"This was unexpected!",
+		"Seems like mythic powers have some connection to alchemy.",
+		"Interfacing with my own EMC network should get easier..."
+	],
+	dependencies: [
+		"c1863810"
+	],
+	hide: true,
+	tasks: [{
+		uid: "56f015fd",
+		type: "item",
+		items: [{
+			item: "projectex:personal_link"
+		}]
+	}]
+}

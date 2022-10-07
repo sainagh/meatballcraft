@@ -1,0 +1,15 @@
+{
+	x: 77.0d,
+	y: 4.5d,
+	dependencies: [
+		"c38582a9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bca2be8f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:borean_garnet"
+		}]
+	}]
+}

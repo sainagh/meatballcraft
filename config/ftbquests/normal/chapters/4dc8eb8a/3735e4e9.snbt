@@ -1,0 +1,28 @@
+{
+	x: -1.0d,
+	y: 7.5d,
+	text: [
+		"The Moon Harvest blood ritual can be used to infuse life essence into plants, and crops too!"
+	],
+	dependencies: [
+		"0400c016"
+	],
+	tasks: [{
+		uid: "b4738aa4",
+		type: "item",
+		items: [{
+			id: "bloodmagic:ritual_diviner",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "28f42888",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	}]
+}

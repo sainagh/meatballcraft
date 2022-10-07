@@ -1,0 +1,26 @@
+{
+	title: "Empower me!",
+	x: 14.0d,
+	y: 1.5d,
+	text: [
+		"These alternative means of storing energy allow me to 'empower' things, this should be useful for manufacturing."
+	],
+	dependencies: [
+		"8d6470f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "099fbf05",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	},
+	{
+		uid: "7bbc59a9",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_display_stand"
+		}]
+	}]
+}

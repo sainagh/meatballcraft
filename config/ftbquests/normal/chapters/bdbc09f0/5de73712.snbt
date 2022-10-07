@@ -1,0 +1,19 @@
+{
+	title: "Salt Reactor",
+	x: 1.0d,
+	y: -7.0d,
+	description: "Are you really doing this??",
+	text: [
+		"These are complex, like for real!"
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "df0e787d",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_controller"
+		}]
+	}]
+}

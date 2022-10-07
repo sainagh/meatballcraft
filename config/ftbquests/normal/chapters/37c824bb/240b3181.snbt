@@ -1,0 +1,33 @@
+{
+	title: "Tools of the Dragons",
+	x: 53.0d,
+	y: 1.5d,
+	dependencies: [
+		"2b6345ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4429f273",
+		type: "item",
+		items: [{
+			id: "iceandfire:dragonbone_sword_ice",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "420dac3c",
+		type: "item",
+		items: [{
+			id: "iceandfire:dragonbone_sword_fire",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

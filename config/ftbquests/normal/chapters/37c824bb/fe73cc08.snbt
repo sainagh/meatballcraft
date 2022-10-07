@@ -1,0 +1,26 @@
+{
+	title: "A Primordial World",
+	x: 44.0d,
+	y: -1.5d,
+	text: [
+		"The Preistoric land of Precasia is one of the Shyre strongholds, yet, it does not feel like one...",
+		"Seems like the empire, due to some incredible power, maybe Recursion, the ruler up top has a way to keep every single one of their subordinates under some sort of spell.",
+		"The only other theory I have is that the inhabitants of the lands under the empire truly believe they have met their god, and actively worship it."
+	],
+	dependencies: [
+		"b2e50833"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e29c3d78",
+		type: "item",
+		items: [{
+			id: "aoa3:precasia_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

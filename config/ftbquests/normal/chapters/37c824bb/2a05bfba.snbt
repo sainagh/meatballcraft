@@ -1,0 +1,22 @@
+{
+	title: "Chickens aren't great... Let's fix them!",
+	x: 29.0d,
+	y: 3.0d,
+	description: "Automate Divinerpg and Advent of Ascension ores! (not the only way...)",
+	text: [
+		"The ability of Terra chickens to resonate with various types of matter is quite remarkable, but in terms of uses, it's pretty underwhelming.",
+		"Thanks to a bit of astral magic, though, I can make my own modified chickens!",
+		"Was really getting tired of searching for ascended sapphire!"
+	],
+	dependencies: [
+		"51d358d6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7e16208b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:resplendent_ingot"
+		}]
+	}]
+}

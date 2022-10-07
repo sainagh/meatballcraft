@@ -1,0 +1,14 @@
+{
+	x: 14.0d,
+	y: 10.5d,
+	dependencies: [
+		"87fda1d2"
+	],
+	tasks: [{
+		uid: "67dcd670",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_phantom_energyface"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	text: [
+		"Pulverizes things producing chance drops.",
+		"Grinding balls can be used to increase yield."
+	],
+	dependencies: [
+		"f40dd3ae"
+	],
+	tasks: [{
+		uid: "051494d7",
+		type: "item",
+		items: [{
+			item: "enderio:block_sag_mill"
+		}]
+	}]
+}

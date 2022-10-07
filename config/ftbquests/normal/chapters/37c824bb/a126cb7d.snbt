@@ -1,0 +1,20 @@
+{
+	x: 113.0d,
+	y: 1.5d,
+	dependencies: [
+		"20ec7210"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9d445ea2",
+		type: "item",
+		items: [{
+			id: "aoa3:shyrelands_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

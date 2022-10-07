@@ -1,0 +1,20 @@
+{
+	x: 7.0d,
+	y: 0.0d,
+	dependencies: [
+		"22d279d6"
+	],
+	tasks: [{
+		uid: "5f001f05",
+		type: "item",
+		items: [{
+			id: "xreliquary:alkahestry_tome",
+			Damage: 1001s,
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

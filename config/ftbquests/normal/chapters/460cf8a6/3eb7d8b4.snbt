@@ -1,0 +1,17 @@
+{
+	x: 17.0d,
+	y: 5.0d,
+	text: [
+		"Found below y=50 on Oi"
+	],
+	dependencies: [
+		"0c2f0105"
+	],
+	tasks: [{
+		uid: "d85d57f6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:feldspar"
+		}]
+	}]
+}

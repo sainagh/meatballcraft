@@ -1,0 +1,19 @@
+{
+	x: 12.5d,
+	y: 1.0d,
+	text: [
+		"Created by Combining a Liveroot, a Iron Ingot, and a Gold Nugget",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"c3ccab1b"
+	],
+	tasks: [{
+		uid: "ec01007c",
+		type: "item",
+		items: [{
+			item: "twilightforest:ironwood_ingot"
+		}]
+	}]
+}

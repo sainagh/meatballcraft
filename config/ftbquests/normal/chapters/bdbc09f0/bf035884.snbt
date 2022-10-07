@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: -3.0d,
+	text: [
+		"Generate RF by using a solid fuel and water.",
+		"Water can be automated using an Aqueous Accumulator, or an Infinite Water Source.",
+		"Fuels can be automated using EMC, or through a variety of other methods..."
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "a944595f",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

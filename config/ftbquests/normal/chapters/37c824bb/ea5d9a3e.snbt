@@ -1,0 +1,26 @@
+{
+	x: 9.5d,
+	y: -3.0d,
+	text: [
+		"I can put my chickens in a nesting pen, and they make eggs faster!"
+	],
+	dependencies: [
+		"a4aedc8f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fc93fb0d",
+		type: "item",
+		items: [{
+			item: "hatchery:pen"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "44fbc4bd",
+		type: "item",
+		items: [{
+			item: "hatchery:animalnet"
+		}]
+	}]
+}

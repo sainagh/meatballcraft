@@ -1,0 +1,17 @@
+{
+	x: 17.0d,
+	y: 9.0d,
+	text: [
+		"Found in floating crystal clusters"
+	],
+	dependencies: [
+		"0c2f0105"
+	],
+	tasks: [{
+		uid: "b76a8ed7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 54"
+		}]
+	}]
+}

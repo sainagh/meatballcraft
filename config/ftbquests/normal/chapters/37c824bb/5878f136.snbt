@@ -1,0 +1,21 @@
+{
+	title: "Asteroid World",
+	x: 74.0d,
+	y: 1.5d,
+	dependencies: [
+		"e18a08ef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aab423ae",
+		type: "item",
+		items: [{
+			id: "aoa3:lunalus_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,846 @@
+{
+    "registryname": "quark_decomposer",
+    "localizedname": "Quark Decomposer",
+	"color": "382e2d",
+    "parts": [
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "contenttweaker:neutronium_cannon@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_cannon@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "contenttweaker:neutronium_cannon@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_cannon@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "contenttweaker:neutronium_cannon@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_cannon@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "contenttweaker:neutronium_cannon@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_cannon@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        }
+    ]}

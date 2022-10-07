@@ -1,0 +1,17 @@
+{
+	x: -8.5d,
+	y: 1.5d,
+	dependencies: [
+		"6916aca9"
+	],
+	tasks: [{
+		uid: "1ae120b7",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:sentient_coagulator"
+			}
+		}]
+	}]
+}

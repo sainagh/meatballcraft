@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: 1.0d,
+	text: [
+		"This generator consumes seeds and meats to generate RF."
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "6e73e983",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_bio_reactor"
+		}]
+	}]
+}

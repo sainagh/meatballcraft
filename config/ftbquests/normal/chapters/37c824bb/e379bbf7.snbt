@@ -1,0 +1,16 @@
+{
+	title: "String Theory Findings",
+	x: 65.0d,
+	y: 0.0d,
+	dependencies: [
+		"da715a64"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ffd1fdd9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:magnetic_monopole"
+		}]
+	}]
+}

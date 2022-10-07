@@ -1,0 +1,18 @@
+{
+	x: 54.5d,
+	y: -4.5d,
+	dependencies: [
+		"8a1dd2db"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3885f61f",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "orechid"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Queen of Antlions",
+	x: 21.5d,
+	y: -7.5d,
+	text: [
+		"Insect society is weird, and I don\'t like it!",
+		"Why does there always need to be a queen?!",
+		"Why, insects, why?!"
+	],
+	dependencies: [
+		"7bd708c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb002da4",
+		type: "item",
+		items: [{
+			item: "erebus:antlion_egg"
+		}]
+	}]
+}

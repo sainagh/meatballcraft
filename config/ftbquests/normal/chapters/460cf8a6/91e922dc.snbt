@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 15.0d,
+	text: [
+		"Found below Y = 28"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "51a81a25",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ingot 1 5"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 17.0d,
+	y: 2.0d,
+	text: [
+		"Found below y=50 on Ptah"
+	],
+	dependencies: [
+		"0c2f0105"
+	],
+	tasks: [{
+		uid: "87cbf80e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:travertine"
+		}]
+	}]
+}

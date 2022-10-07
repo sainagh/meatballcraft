@@ -1,0 +1,20 @@
+{
+	title: "Thermal Energy",
+	x: 9.5d,
+	y: 1.5d,
+	description: "Used to craft machines from thermal and industrial foregoing (see manufacturing and fabrication)",
+	text: [
+		"I was able to put together a device that handles the internal thermal energy of matter fairly well, this should allow for a lot of cool machines!"
+	],
+	dependencies: [
+		"8b210b51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0112a2f1",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}]
+}

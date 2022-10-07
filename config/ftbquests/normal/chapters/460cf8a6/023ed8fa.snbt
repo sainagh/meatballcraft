@@ -1,0 +1,17 @@
+{
+	x: 2.5d,
+	y: 6.0d,
+	text: [
+		"Spawns from Y=0 to Y=16"
+	],
+	dependencies: [
+		"06049c7f"
+	],
+	tasks: [{
+		uid: "2ca48825",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	}]
+}

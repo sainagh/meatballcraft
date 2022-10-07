@@ -1,0 +1,16 @@
+{
+	x: 23.0d,
+	y: -9.0d,
+	description: "Use the unfathomatoble breaker to open the unfathomatoble gate in the deep dark.",
+	dependencies: [
+		"7b03e812"
+	],
+	hide: true,
+	tasks: [{
+		uid: "58c35fb6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:demonic_manastone"
+		}]
+	}]
+}

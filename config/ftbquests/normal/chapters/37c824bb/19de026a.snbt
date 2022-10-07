@@ -1,0 +1,19 @@
+{
+	x: 27.5d,
+	y: -1.5d,
+	description: "Your first multiblock!",
+	dependencies: [
+		"f2937072"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ab9d0fb8",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:compression_engine"
+			}
+		}]
+	}]
+}

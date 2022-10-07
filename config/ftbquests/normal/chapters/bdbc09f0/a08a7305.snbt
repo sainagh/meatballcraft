@@ -1,0 +1,18 @@
+{
+	x: 7.0d,
+	y: 0.0d,
+	text: [
+		"The elemental catalyzer allows for increased output from the reactant dynamo.",
+		"This limits the types of inputs the dynamo can accept."
+	],
+	dependencies: [
+		"a407fb4d"
+	],
+	tasks: [{
+		uid: "77e4cf14",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 688"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -7.5d,
+	y: 1.0d,
+	text: [
+		"Smaller digital factories, more life essence!"
+	],
+	dependencies: [
+		"50a10582"
+	],
+	tasks: [{
+		uid: "171a675c",
+		type: "item",
+		items: [{
+			item: "deepmoblearningbm:digital_agonizer"
+		}]
+	}]
+}

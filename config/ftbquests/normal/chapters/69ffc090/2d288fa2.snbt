@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	description: "Doable??",
+	text: [
+		"There are a lot of weapons that deal a lot of damage damage, and chaos protection is indeed available...",
+		"If only there were powerful spells and enchantments to help me..."
+	],
+	dependencies: [
+		"fdc6f22d"
+	],
+	tasks: [{
+		uid: "d141d15c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaos_shard"
+		}]
+	}]
+}

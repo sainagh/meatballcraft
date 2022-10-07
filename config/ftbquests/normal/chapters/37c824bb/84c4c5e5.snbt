@@ -1,0 +1,16 @@
+{
+	title: "Apalachia Falls",
+	x: 75.5d,
+	y: 0.0d,
+	dependencies: [
+		"e18a08ef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f4a61698",
+		type: "item",
+		items: [{
+			item: "contenttweaker:apalachia_core"
+		}]
+	}]
+}

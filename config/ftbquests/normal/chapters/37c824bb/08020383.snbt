@@ -1,0 +1,25 @@
+{
+	title: "Iromine Falls",
+	x: 62.0d,
+	y: -3.0d,
+	dependencies: [
+		"6b833a3d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7acfd6b6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iromine_cap"
+		}]
+	},
+	{
+		uid: "d07db462",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iromine_callstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

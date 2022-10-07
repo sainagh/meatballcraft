@@ -1,0 +1,15 @@
+{
+	x: 8.5d,
+	y: -4.5d,
+	dependencies: [
+		"1a9cfbb7"
+	],
+	tasks: [{
+		uid: "3f532786",
+		type: "item",
+		items: [{
+			item: "extrautils2:chickenring"
+		}],
+		ignore_nbt: 1b
+	}]
+}

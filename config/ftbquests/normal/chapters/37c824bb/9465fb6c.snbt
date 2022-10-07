@@ -1,0 +1,44 @@
+{
+	x: 27.5d,
+	y: -9.0d,
+	description: "Use the vengeance and retaliation keys on top of the nether.",
+	dependencies: [
+		"71c3c11b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d5f99086",
+		type: "item",
+		items: [{
+			item: "contenttweaker:steadfast_crystal_cluster"
+		}]
+	},
+	{
+		uid: "3642cf4b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:vengeful_crystal_cluster"
+		}]
+	},
+	{
+		uid: "d8eeaa62",
+		type: "item",
+		items: [{
+			item: "contenttweaker:demonic_crystal_cluster"
+		}]
+	},
+	{
+		uid: "42eb26d1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:corrosive_crystal_cluster"
+		}]
+	},
+	{
+		uid: "26c6c213",
+		type: "item",
+		items: [{
+			item: "contenttweaker:destructive_crystal_cluster"
+		}]
+	}]
+}

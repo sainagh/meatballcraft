@@ -1,0 +1,22 @@
+{
+	title: "Arthropods are here too!",
+	x: 21.5d,
+	y: -6.0d,
+	text: [
+		"Wow, literally nobody living on Terra is actually from Terra.",
+		"Dimensional shards are desired by everything that becomes aware of them, it seems...",
+		"And apparently, bugs with mastery of witchery used it to create wormholes and fight for a piece of the pie.",
+		"And now I think I know how they did it, and I may be able to travel back to their world..."
+	],
+	dependencies: [
+		"7b03e812"
+	],
+	hide: true,
+	tasks: [{
+		uid: "98b9f927",
+		type: "item",
+		items: [{
+			item: "erebus:gaean_keystone"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -2.0d,
+	y: 5.5d,
+	dependencies: [
+		"75e5d0b0"
+	],
+	tasks: [{
+		uid: "4e86a532",
+		type: "item",
+		items: [{
+			id: "enderio:item_xp_transfer",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

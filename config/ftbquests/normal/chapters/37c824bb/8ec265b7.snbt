@@ -1,0 +1,15 @@
+{
+	x: 71.0d,
+	y: -7.5d,
+	dependencies: [
+		"2709f0d8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "341d851e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:weight_of_the_heart"
+		}]
+	}]
+}

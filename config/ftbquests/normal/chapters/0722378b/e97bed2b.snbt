@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: 10.0d,
+	text: [
+		"For ALL your processor-making needs!",
+		"Requires energy from an AE network, even a very small one..."
+	],
+	dependencies: [
+		"b0b21afb"
+	],
+	tasks: [{
+		uid: "13d2854f",
+		type: "item",
+		items: [{
+			item: "ae2stuff:inscriber"
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Beeg Crafter!",
+	x: 39.5d,
+	y: -1.5d,
+	text: [
+		"Void miners have been pretty good at providing info about mythic powers, but, for the long term, they do not seem like a reliable option.",
+		"I drew the blueprints of a machine able to use the powers of fluix to better manage mythic resource generation.",
+		"It's going to be a bit of a long project, so better to start early, even if I may not have all the means to make it work as of right now..."
+	],
+	dependencies: [
+		"4cccf702"
+	],
+	hide: true,
+	tasks: [{
+		uid: "308988db",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:me_mythic_assembler"
+			}
+		}]
+	}]
+}

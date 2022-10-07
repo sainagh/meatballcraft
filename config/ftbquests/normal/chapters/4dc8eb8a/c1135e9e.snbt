@@ -1,0 +1,17 @@
+{
+	x: 9.5d,
+	y: 1.0d,
+	text: [
+		"Rock hives are a good source of princesses, if only there was a way to make an endless supply of them..."
+	],
+	dependencies: [
+		"629b6d34"
+	],
+	tasks: [{
+		uid: "5abef066",
+		type: "item",
+		items: [{
+			item: "extrabees:hive 1 1"
+		}]
+	}]
+}

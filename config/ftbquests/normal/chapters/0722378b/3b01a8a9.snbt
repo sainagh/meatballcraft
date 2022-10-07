@@ -1,0 +1,12 @@
+{
+	x: 4.0d,
+	y: 7.0d,
+	dependencies: [
+		"89deb826"
+	],
+	tasks: [{
+		uid: "df94e0ab",
+		type: "checkmark",
+		title: "Advanced Rocketry"
+	}]
+}

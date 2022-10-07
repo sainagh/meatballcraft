@@ -1,0 +1,15 @@
+{
+	x: 89.0d,
+	y: -1.5d,
+	dependencies: [
+		"cc4958a5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6d97089d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:immortallis_garnet"
+		}]
+	}]
+}

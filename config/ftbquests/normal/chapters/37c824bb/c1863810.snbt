@@ -1,0 +1,55 @@
+{
+	title: "Tier 1 Mythical Resources",
+	x: 27.5d,
+	y: 1.5d,
+	description: "Do this ASAP, you'll thank me later... - NOTE: this will consume power even if it's not enough! OTHER NOTE: you need a total of 31 output slots!",
+	text: [
+		"Combining litherite with some of the 'mythically charged' minerals, I was able do build a machine able to generate matter from Shyre creatures.",
+		"And apparently, a few extra goodies...",
+		"Mythic powers are tricky, they seem to permeate many of the creatures from the Twilight Horde and from the Shyre Empire, yet they also appear naturally.",
+		"Wonder if they are maybe used to 'create' beings the same way I create stuff in my Mythical Void Resource Miner.",
+		""
+	],
+	dependencies: [
+		"f2937072"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4c615617",
+		type: "item",
+		items: [{
+			item: "aoa3:limonite_block"
+		}]
+	},
+	{
+		uid: "8bb0ed8c",
+		type: "item",
+		items: [{
+			item: "aoa3:rosite_block"
+		}]
+	},
+	{
+		uid: "6749bd14",
+		type: "item",
+		items: [{
+			item: "divinerpg:rupee_block"
+		}]
+	},
+	{
+		uid: "6a8db2bd",
+		type: "item",
+		items: [{
+			item: "divinerpg:realmite_block"
+		}]
+	},
+	{
+		uid: "1d2eafc0",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:mythical_resource_miner_tier1"
+			}
+		}]
+	}]
+}

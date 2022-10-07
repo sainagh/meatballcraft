@@ -1,0 +1,24 @@
+{
+	x: 93.5d,
+	y: -3.0d,
+	dependencies: [
+		"df5af6a9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "729a9fba",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}]
+	},
+	{
+		uid: "dbb15d06",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,12 @@
+{
+  "mj_battery_receiver_transformer": {
+    "description": "Patches MjBatteryReceiver to add MjBattery getter",
+    "enabled": true,
+    "configuration": {}
+  },
+  "mj_battery_transformer": {
+    "description": "Patches MjBattery to implement Forge Energy",
+    "enabled": true,
+    "configuration": {}
+  }
+}

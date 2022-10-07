@@ -1,0 +1,63 @@
+{
+	x: 2.0d,
+	y: -8.0d,
+	text: [
+		"Yellorite reactors can be upgraded into accepting water, and producing steam instead of power.",
+		"Steam is consumed by a turbine, which is a hollow cuboid of casings (with a transparent variant) that has to include a controller, two fluid ports (input for steam & output for water) and a power tap.",
+		"A rotor bearing has to be included in the middle of one of the turbine's faces.",
+		"Starting from the bearing, any number of rotor shafts, blades, and coils (blocks of metals) can be used.",
+		""
+	],
+	dependencies: [
+		"3ce918d0"
+	],
+	tasks: [{
+		uid: "672abf60",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinecontroller"
+		}]
+	},
+	{
+		uid: "549d82e0",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinehousing"
+		}]
+	},
+	{
+		uid: "d2f362b3",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinefluidport"
+		}]
+	},
+	{
+		uid: "267109d1",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinepowertaprf"
+		}]
+	},
+	{
+		uid: "cda26c96",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinebearing"
+		}]
+	},
+	{
+		uid: "8fb0f495",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinerotorshaft"
+		}]
+	},
+	{
+		uid: "3fee274b",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinerotorblade"
+		}]
+	}]
+}

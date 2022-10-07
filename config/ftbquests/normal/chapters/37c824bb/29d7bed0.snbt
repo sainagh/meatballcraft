@@ -1,0 +1,21 @@
+{
+	title: "War to the Shyre Empire!",
+	x: 41.0d,
+	y: -1.5d,
+	text: [
+		"Gravity makes sense, and I feel pretty good about myself!",
+		"The knowledge of the way they manipulate space-time to open their portals should allow me to take the fight to their territory!",
+		"*one man army vibes intensify*"
+	],
+	dependencies: [
+		"4cccf702"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c1d382d4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:realmstone"
+		}]
+	}]
+}

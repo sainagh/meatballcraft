@@ -1,0 +1,17 @@
+{
+	x: -10.0d,
+	y: -4.0d,
+	text: [
+		"Ok I get it."
+	],
+	dependencies: [
+		"2063fa50"
+	],
+	tasks: [{
+		uid: "71d1ba09",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_5"
+		}]
+	}]
+}

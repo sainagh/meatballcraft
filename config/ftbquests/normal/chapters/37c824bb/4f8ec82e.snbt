@@ -1,0 +1,32 @@
+{
+	title: "...But I have Power!",
+	x: 50.0d,
+	y: -10.5d,
+	description: "And a great ass!",
+	text: [
+		"At the cost of *major* PTSD from exploring a world void of any hope or resolution, I at least gained an extremely deep understanding of refraction of magical fields.",
+		"Forces like vis or demonic will can be 'bent' just like electrical and magnetic fields (and like gravity if you have enough sednanite).",
+		"This is going to allow me to optimize the processing of garnets into minerals."
+	],
+	dependencies: [
+		"b8757e78"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f878e010",
+		type: "item",
+		items: [{
+			item: "contenttweaker:warped_stone"
+		}]
+	},
+	{
+		uid: "55b5f085",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:shadow_fracturer"
+			}
+		}]
+	}]
+}

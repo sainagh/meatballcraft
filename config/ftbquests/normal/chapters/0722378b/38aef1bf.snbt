@@ -1,0 +1,18 @@
+{
+	x: 8.0d,
+	y: 3.0d,
+	text: [
+		"Turns fluids into solids!",
+		"No way!"
+	],
+	dependencies: [
+		"e94f8c5a"
+	],
+	tasks: [{
+		uid: "72f71742",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:solidifier"
+		}]
+	}]
+}

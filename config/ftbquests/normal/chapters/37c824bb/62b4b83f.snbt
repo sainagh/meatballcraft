@@ -1,0 +1,28 @@
+{
+	title: "Digital Matter",
+	x: 23.0d,
+	y: 0.0d,
+	text: [
+		"The manufacturing ability I've recently discovered has allowed me to produce Fluix, which makes it possible to easily transition between matter and energy, this should be very useful for storage and item management",
+		"The knowledge of this science is hidden in asteroids, which were once part of the belt around Terra.",
+		"It seems like they were used to hide information about fluix in a place unreachable by most, no matter how powerful.",
+		"Fortunately for me, some of those asteroids made it back down."
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c2ff5a22",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "3bb9cf0e",
+		type: "item",
+		item: "appliedenergistics2:material 1 12",
+		count: 32
+	}]
+}

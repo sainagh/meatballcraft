@@ -1,0 +1,29 @@
+{
+	x: 11.0d,
+	y: 1.5d,
+	dependencies: [
+		"c886443f"
+	],
+	tasks: [{
+		uid: "3410e19c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:wireless_access_point"
+		}]
+	},
+	{
+		uid: "699ae904",
+		type: "item",
+		items: [{
+			id: "wct:wct",
+			tag: {
+				InfinityEnergy: 0
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

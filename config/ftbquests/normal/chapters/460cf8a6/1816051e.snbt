@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: 6.0d,
+	text: [
+		"Found in the Nether on Netherrack Roofs / Clifs",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"06049c7f"
+	],
+	tasks: [{
+		uid: "bab6656d",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Breakthrough",
+	x: 21.5d,
+	y: 0.0d,
+	description: "the magical mastery tab will provide info on how to progress through each magic mod!",
+	text: [
+		"YES! Mana was indeed the key to more power! Now I can build even better and more powerful machines."
+	],
+	dependencies: [
+		"1ac16e44"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a6f42a26",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_elite"
+		}]
+	}]
+}

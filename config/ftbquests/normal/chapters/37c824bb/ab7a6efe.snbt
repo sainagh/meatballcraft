@@ -1,0 +1,17 @@
+{
+	title: "Evil Trees",
+	x: 15.5d,
+	y: -7.5d,
+	description: "Found exploring the betweenlands surface!",
+	dependencies: [
+		"09a8bf21"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eaf6c60e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sapling_spirit_tree"
+		}]
+	}]
+}

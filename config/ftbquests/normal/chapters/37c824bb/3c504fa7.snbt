@@ -1,0 +1,32 @@
+{
+	title: "Where the f*** am I?!?",
+	x: -4.0d,
+	y: 0.0d,
+	description: "Day 1 advice: mobs are dangerous, get wood, build a shelter, stay away from the surface, be careful while caving!",
+	text: [
+		"The wormhole opened! But something went wrong! The rift started growing in size, and I touched it...",
+		"Now I am here... but where is here?",
+		"It seems like I landed on a planet that is similar to earth, the air is easily breathable, and there's life!",
+		"But the wormhole is now closed, so I'm stuck here...",
+		"The main priority now is to survive! I guess it's time to make some tools and to get some food. After what I've discovered, I WILL NOT DIE HERE!!"
+	],
+	dependencies: [
+		"19a22093",
+		"2e74a705",
+		"7238cf74",
+		"cb19f26c"
+	],
+	tasks: [{
+		uid: "75954b15",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	}],
+	rewards: [{
+		uid: "32bda476",
+		type: "item",
+		item: "minecraft:potato",
+		count: 32
+	}]
+}

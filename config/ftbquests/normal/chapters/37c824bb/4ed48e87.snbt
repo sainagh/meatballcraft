@@ -1,0 +1,19 @@
+{
+	title: "My servo is better than yours!",
+	x: 57.5d,
+	y: -1.5d,
+	text: [
+		"This servo should allow me to fabricate machines in a more effective way..."
+	],
+	dependencies: [
+		"ef7ba920"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b13cae51",
+		type: "item",
+		items: [{
+			item: "contenttweaker:vibranium_servo"
+		}]
+	}]
+}

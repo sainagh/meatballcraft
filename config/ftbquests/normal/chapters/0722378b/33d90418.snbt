@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 14.0d,
+	text: [
+		"Just in case you wanted to make more rods...",
+		"Use holo projector to see multiblock preview."
+	],
+	dependencies: [
+		"3b01a8a9"
+	],
+	tasks: [{
+		uid: "6b39359e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:lathe"
+		}]
+	}]
+}

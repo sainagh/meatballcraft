@@ -1,0 +1,19 @@
+{
+	title: "Engineering Time!",
+	x: 8.0d,
+	y: -1.5d,
+	text: [
+		"Now that I can make alloys, I can finally produce and use electricity, this should allow me to improve my manufacturing capabilities!"
+	],
+	dependencies: [
+		"bc0ba902"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e747cec0",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}]
+	}]
+}

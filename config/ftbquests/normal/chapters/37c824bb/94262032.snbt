@@ -1,0 +1,30 @@
+{
+	title: "Experiment #4",
+	x: 50.0d,
+	y: 1.5d,
+	text: [
+		"After kicking some major mythic ass, I think it's time for some wormholes of my own.",
+		"The testificates on Diamerisma let me know that the world of Vibe has something I may be looking for.",
+		"Every time a wormhole is opened, it is bound to a set of special locations scattered around the universe.",
+		"Each of this locations contains a special mineral, like dimensional shards on terra, that bends space time in such a way to 'bind' the wormhole singularity.",
+		"Most of these minerals are worthless, which is why my previous wormholes did not have any special resources, but Vibe contains something very interesting!",
+		"Vibrating stone is a naturally occuring time crystal, a state of matter able to vibrate without using energy.",
+		""
+	],
+	dependencies: [
+		"25bd70ab"
+	],
+	hide: true,
+	tasks: [{
+		uid: "768c322f",
+		type: "item",
+		items: [{
+			id: "contenttweaker:vibe_warper",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

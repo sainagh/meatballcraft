@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: -10.0d,
+	text: [
+		"Yup, made some plutonium!"
+	],
+	dependencies: [
+		"b6a1c300"
+	],
+	tasks: [{
+		uid: "c1104df3",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:plutonium 1 4"
+		}]
+	}]
+}

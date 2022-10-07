@@ -1,0 +1,46 @@
+{
+	x: 0.0d,
+	y: 22.0d,
+	text: [
+		"Found in a rare overworld location..."
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "da15ee5c",
+		type: "item",
+		items: [{
+			item: "projectx:xycronium_crystal 1 1"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "1820a245",
+		type: "item",
+		items: [{
+			item: "projectx:xycronium_crystal"
+		}]
+	},
+	{
+		uid: "9fc9fa28",
+		type: "item",
+		items: [{
+			item: "projectx:xycronium_crystal 1 2"
+		}]
+	},
+	{
+		uid: "72d0af9e",
+		type: "item",
+		items: [{
+			item: "projectx:xycronium_crystal 1 3"
+		}]
+	},
+	{
+		uid: "45e29928",
+		type: "item",
+		items: [{
+			item: "projectx:xycronium_crystal 1 4"
+		}]
+	}]
+}

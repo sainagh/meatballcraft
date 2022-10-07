@@ -1,0 +1,16 @@
+{
+	title: "Crystal Perfection",
+	x: 80.0d,
+	y: -1.5d,
+	dependencies: [
+		"50140e61"
+	],
+	hide: true,
+	tasks: [{
+		uid: "74692b93",
+		type: "item",
+		items: [{
+			item: "avaritia:resource"
+		}]
+	}]
+}

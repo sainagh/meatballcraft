@@ -1,0 +1,21 @@
+{
+	x: 18.5d,
+	y: 4.0d,
+	text: [
+		"Ore is Found in the Skythern Dimension",
+		"Can Be Crafted From Skythern Souls",
+		"Found Where Stone Is",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"7a7b15fa"
+	],
+	tasks: [{
+		uid: "08b72afa",
+		type: "item",
+		items: [{
+			item: "divinerpg:skythern_fragments"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: 4.0d,
+	text: [
+		"Nutrient Distillation for RF!"
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "ffd031e2",
+		type: "item",
+		items: [{
+			item: "enderio:block_zombie_generator"
+		}]
+	}]
+}

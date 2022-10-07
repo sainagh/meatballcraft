@@ -1,0 +1,17 @@
+{
+	x: 9.0d,
+	y: 1.0d,
+	text: [
+		"Centrifuges honey combs into their components."
+	],
+	dependencies: [
+		"36f5a834"
+	],
+	tasks: [{
+		uid: "385f2a65",
+		type: "item",
+		items: [{
+			item: "forestry:centrifuge"
+		}]
+	}]
+}

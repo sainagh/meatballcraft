@@ -1,0 +1,17 @@
+{
+	x: -12.5d,
+	y: 0.5d,
+	dependencies: [
+		"b86d8b41"
+	],
+	tasks: [{
+		uid: "e34ab965",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:valonite_gateway"
+			}
+		}]
+	}]
+}

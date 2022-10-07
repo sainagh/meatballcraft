@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: -6.5d,
+	text: [
+		"Farming stations are a relatively expensive, but very versatile, way to automatically farm both crops and trees."
+	],
+	dependencies: [
+		"f0ef01a2"
+	],
+	tasks: [{
+		uid: "146576e7",
+		type: "item",
+		items: [{
+			item: "enderio:block_farm_station"
+		}]
+	}]
+}

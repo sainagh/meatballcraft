@@ -1,0 +1,25 @@
+{
+	title: "Fundamentals of magic",
+	x: 3.5d,
+	y: 3.0d,
+	text: [
+		"Magic is real, and there seems to be multiple forces playing a role in what effects magic.",
+		"From what I've seen so far, there seem to be two methods.",
+		"The first is based off of manipulating the laws of physics to, for example, reinforce arrows shot from a bow just like I learned, or shoot magic missiles, just like the wizards dwelling in towers around the world.",
+		"This is done by bending 'fields' existing in higher dimensions, that allow for increased power.",
+		"There are different types of fields to tap magic energy from, but so far I've only become eable to discern the one that allows me to 'enchant' weapons and armor.",
+		"The second magic type, which I like to call Mythic, is more esotheric, and it reminds of the way deities were portrayed in folklore.",
+		"This allows for the 'breaking' of the rules of reality (as opposed to bending them). This power, which emanates an extremely strong aura, seems to permeate many of the creatures on this planet, allowing them to effortlessly appearing out of nothing"
+	],
+	dependencies: [
+		"e91b3a37"
+	],
+	hide: true,
+	tasks: [{
+		uid: "104b47d8",
+		type: "item",
+		items: [{
+			item: "divinerpg:altar_of_corruption"
+		}]
+	}]
+}

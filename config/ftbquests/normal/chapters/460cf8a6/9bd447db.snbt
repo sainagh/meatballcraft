@@ -1,0 +1,21 @@
+{
+	x: 14.0d,
+	y: 9.0d,
+	text: [
+		"Spawns in The Betweenlands",
+		"Spawns Below Mud",
+		"Requires Purification in a Purifier",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"83006eef"
+	],
+	tasks: [{
+		uid: "d6537941",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:green_middle_gem"
+		}]
+	}]
+}

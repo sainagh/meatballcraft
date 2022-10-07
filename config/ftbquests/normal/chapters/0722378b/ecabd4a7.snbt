@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 15.0d,
+	text: [
+		"Liquid gases freak me out a little bit..."
+	],
+	dependencies: [
+		"5f57ce40"
+	],
+	tasks: [{
+		uid: "6a5977db",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:supercooler_idle"
+		}]
+	}]
+}

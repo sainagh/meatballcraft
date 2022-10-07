@@ -1,0 +1,65 @@
+{
+	x: -1.0d,
+	y: 5.5d,
+	text: [
+		"Sprinklers can increase a plant's growth speed by acting as automatic watering cans, when provided with water."
+	],
+	dependencies: [
+		"0400c016"
+	],
+	tasks: [{
+		uid: "6e9b108d",
+		type: "item",
+		items: [{
+			id: "agricraft:water_channel_normal",
+			tag: {
+				agri_material_meta: 9,
+				agri_material: "forestry:planks.fireproof.0"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0827974e",
+		type: "item",
+		items: [{
+			id: "agricraft:water_tank",
+			tag: {
+				agri_material_meta: 9,
+				agri_material: "extratrees:planks.fireproof.1"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b40b08cc",
+		type: "item",
+		items: [{
+			id: "agricraft:water_channel_valve",
+			tag: {
+				agri_material_meta: 11,
+				agri_material: "chisel:planks-dark-oak"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9f0e81b1",
+		type: "item",
+		items: [{
+			id: "agricraft:grate",
+			tag: {
+				agri_material_meta: 0,
+				agri_material: "twilightforest:trans_planks"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "577a610e",
+		type: "item",
+		items: [{
+			item: "agricraft:sprinkler"
+		}]
+	}]
+}

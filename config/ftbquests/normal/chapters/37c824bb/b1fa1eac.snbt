@@ -1,0 +1,16 @@
+{
+	title: "Great Power at a Low (?) Price",
+	x: 75.5d,
+	y: -3.0d,
+	dependencies: [
+		"9e26752a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "04f5d56c",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:storage 1 4"
+		}]
+	}]
+}

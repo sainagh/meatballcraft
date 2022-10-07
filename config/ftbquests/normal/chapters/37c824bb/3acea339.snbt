@@ -1,0 +1,15 @@
+{
+	x: 114.5d,
+	y: -1.5d,
+	dependencies: [
+		"48d695d4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca097234",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mortum_core"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 9.0d,
+	dependencies: [
+		"fe046b03"
+	],
+	tasks: [{
+		uid: "a7065ddc",
+		type: "item",
+		items: [{
+			item: "techreborn:industrial_centrifuge"
+		}]
+	}]
+}

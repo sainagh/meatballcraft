@@ -1,0 +1,17 @@
+{
+	x: -13.5d,
+	y: 4.5d,
+	dependencies: [
+		"d3221c04"
+	],
+	tasks: [{
+		uid: "ff685dcc",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:gaia_altar"
+			}
+		}]
+	}]
+}

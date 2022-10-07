@@ -1,0 +1,28 @@
+{
+	title: "Dyson Sphere",
+	x: 0.0d,
+	y: -11.0d,
+	dependencies: [
+		"69404a6d"
+	],
+	tasks: [{
+		uid: "0e81b612",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:dyson_sphere"
+			}
+		}]
+	},
+	{
+		uid: "512babec",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:dyson_discharger"
+			}
+		}]
+	}]
+}

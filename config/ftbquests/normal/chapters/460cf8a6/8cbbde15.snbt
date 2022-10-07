@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 10.0d,
+	text: [
+		"Found below Y = 32 (only in some biomes), and as a chance drop from advent of ascension ores"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "66fbab38",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:gem 1 7"
+		}]
+	}]
+}

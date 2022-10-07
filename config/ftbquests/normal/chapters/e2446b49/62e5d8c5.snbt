@@ -1,0 +1,26 @@
+{
+	x: 11.5d,
+	y: -3.0d,
+	text: [
+		"Better Jetpacks!"
+	],
+	dependencies: [
+		"aa7bb4df"
+	],
+	tasks: [{
+		uid: "3e6e496f",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			Damage: 17s,
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

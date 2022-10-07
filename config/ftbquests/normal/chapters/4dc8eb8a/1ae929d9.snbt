@@ -1,0 +1,65 @@
+{
+	x: -4.5d,
+	y: -4.5d,
+	text: [
+		"While there are other, more compact ways of farming plants and trees, large material-based farms can be used for more than trees, and they have really good yield.",
+		"Possible EMC farm candidates!"
+	],
+	dependencies: [
+		"f0ef01a2"
+	],
+	tasks: [{
+		uid: "68b4b187",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			}
+		}]
+	},
+	{
+		uid: "f8fbe1a9",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			Damage: 2s,
+			tag: {
+				FarmBlock: 0
+			}
+		}]
+	},
+	{
+		uid: "f379c96a",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			Damage: 3s,
+			tag: {
+				FarmBlock: 0
+			}
+		}]
+	},
+	{
+		uid: "cd056077",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			Damage: 4s,
+			tag: {
+				FarmBlock: 0
+			}
+		}]
+	},
+	{
+		uid: "4b4f1ee8",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			Damage: 5s,
+			tag: {
+				FarmBlock: 0
+			}
+		}]
+	}]
+}

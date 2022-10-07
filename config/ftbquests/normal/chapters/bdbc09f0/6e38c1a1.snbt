@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: -11.0d,
+	text: [
+		"Reprocessing this New fuel gives me even more Isotopes, I wonder if I can combine them somehow."
+	],
+	dependencies: [
+		"7aaaa586"
+	],
+	tasks: [{
+		uid: "0291d1a7",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:plutonium 1 12"
+		}]
+	}]
+}

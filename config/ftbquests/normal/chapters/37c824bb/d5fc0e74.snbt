@@ -1,0 +1,36 @@
+{
+	x: 105.5d,
+	y: -1.5d,
+	dependencies: [
+		"1135dd4b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2fa53101",
+		type: "item",
+		items: [{
+			item: "contenttweaker:white_hole"
+		}]
+	},
+	{
+		uid: "ccef61af",
+		type: "item",
+		items: [{
+			item: "contenttweaker:collapser_casing"
+		}]
+	},
+	{
+		uid: "5a0d8297",
+		type: "item",
+		items: [{
+			item: "contenttweaker:collapser_conduit"
+		}]
+	},
+	{
+		uid: "3394d73c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gravity_inverter"
+		}]
+	}]
+}

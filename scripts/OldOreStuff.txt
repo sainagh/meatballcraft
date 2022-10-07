@@ -1,0 +1,156 @@
+recipes.addShaped(<aoa3:baronyte_ore>,
+[[<aoa3:baron_stone>, <mysticalagriculture:limestone_essence>, <aoa3:baron_stone>],
+[<mysticalagriculture:limestone_essence>, <aoa3:baronyte_ingot>, <mysticalagriculture:limestone_essence>],
+[<aoa3:baron_stone>, <mysticalagriculture:limestone_essence>, <aoa3:baron_stone>]]);
+
+
+recipes.addShaped(<aoa3:bloodstone_ore>,
+[[<aoa3:abyss_stone>, <mysticalagriculture:nether_essence>, <aoa3:abyss_stone>],
+[<mysticalagriculture:nether_essence>, <aoa3:bloodstone>, <mysticalagriculture:nether_essence>],
+[<aoa3:abyss_stone>, <mysticalagriculture:nether_essence>, <aoa3:abyss_stone>]]);
+
+recipes.addShaped(<aoa3:blazium_ore>,
+[[<aoa3:barathos_hellstone>, <mysticalagriculture:nether_essence>, <aoa3:barathos_hellstone>],
+[<mysticalagriculture:nether_essence>, <aoa3:blazium_ingot>, <mysticalagriculture:nether_essence>],
+[<aoa3:barathos_hellstone>, <mysticalagriculture:nether_essence>, <aoa3:barathos_hellstone>]]);
+
+recipes.addShaped(<aoa3:blue_crystal_ore>,
+[[<aoa3:crystevia_stone>, <mysticalagriculture:stone_essence>, <aoa3:crystevia_stone>],
+[<mysticalagriculture:stone_essence>, <aoa3:blue_gemstones>, <mysticalagriculture:stone_essence>],
+[<aoa3:crystevia_stone>, <mysticalagriculture:stone_essence>, <aoa3:crystevia_stone>]]);
+
+recipes.addShaped(<aoa3:green_crystal_ore>,
+[[<aoa3:crystevia_stone>, <mysticalagriculture:stone_essence>, <aoa3:crystevia_stone>],
+[<mysticalagriculture:stone_essence>, <aoa3:green_gemstones>, <mysticalagriculture:stone_essence>],
+[<aoa3:crystevia_stone>, <mysticalagriculture:stone_essence>, <aoa3:crystevia_stone>]]);
+
+recipes.addShaped(<aoa3:purple_crystal_ore>,
+[[<aoa3:crystevia_stone>, <mysticalagriculture:stone_essence>, <aoa3:crystevia_stone>],
+[<mysticalagriculture:stone_essence>, <aoa3:purple_gemstones>, <mysticalagriculture:stone_essence>],
+[<aoa3:crystevia_stone>, <mysticalagriculture:stone_essence>, <aoa3:crystevia_stone>]]);
+
+recipes.addShaped(<aoa3:red_crystal_ore>,
+[[<aoa3:crystevia_stone>, <mysticalagriculture:stone_essence>, <aoa3:crystevia_stone>],
+[<mysticalagriculture:stone_essence>, <aoa3:red_gemstones>, <mysticalagriculture:stone_essence>],
+[<aoa3:crystevia_stone>, <mysticalagriculture:stone_essence>, <aoa3:crystevia_stone>]]);
+
+recipes.addShaped(<aoa3:white_crystal_ore>,
+[[<aoa3:crystevia_stone>, <mysticalagriculture:stone_essence>, <aoa3:crystevia_stone>],
+[<mysticalagriculture:stone_essence>, <aoa3:white_gemstones>, <mysticalagriculture:stone_essence>],
+[<aoa3:crystevia_stone>, <mysticalagriculture:stone_essence>, <aoa3:crystevia_stone>]]);
+
+recipes.addShaped(<aoa3:yellow_crystal_ore>,
+[[<aoa3:crystevia_stone>, <mysticalagriculture:stone_essence>, <aoa3:crystevia_stone>],
+[<mysticalagriculture:stone_essence>, <aoa3:yellow_gemstones>, <mysticalagriculture:stone_essence>],
+[<aoa3:crystevia_stone>, <mysticalagriculture:stone_essence>, <aoa3:crystevia_stone>]]);
+
+recipes.addShaped(<aoa3:charged_runium_ore>,
+[[<aoa3:deeplands_stone>, <mysticalagriculture:stone_essence>, <aoa3:deeplands_stone>],
+[<mysticalagriculture:stone_essence>, <aoa3:charged_runium_chunk>, <mysticalagriculture:stone_essence>],
+[<aoa3:deeplands_stone>, <mysticalagriculture:stone_essence>, <aoa3:deeplands_stone>]]);
+
+recipes.addShaped(<aoa3:crystallite_ore>,
+[[<aoa3:haven_stone>, <mysticalagriculture:basalt_essence>, <aoa3:haven_stone>],
+[<mysticalagriculture:basalt_essence>, <aoa3:crystallite>, <mysticalagriculture:basalt_essence>],
+[<aoa3:haven_stone>, <mysticalagriculture:basalt_essence>, <aoa3:haven_stone>]]);
+
+recipes.addShaped(<aoa3:elecanium_ore>,
+[[<aoa3:runic_stone>, <mysticalagriculture:stone_essence>, <aoa3:runic_stone>],
+[<mysticalagriculture:stone_essence>, <aoa3:elecanium_ingot>, <mysticalagriculture:stone_essence>],
+[<aoa3:runic_stone>, <mysticalagriculture:stone_essence>, <aoa3:runic_stone>]]);
+
+recipes.addShaped(<aoa3:gemenyte_ore>,
+[[<aoa3:creep_stone>, <mysticalagriculture:basalt_essence>, <aoa3:creep_stone>],
+[<mysticalagriculture:basalt_essence>, <aoa3:gemenyte>, <mysticalagriculture:basalt_essence>],
+[<aoa3:creep_stone>, <mysticalagriculture:basalt_essence>, <aoa3:creep_stone>]]);
+
+recipes.addShaped(<aoa3:jewelyte_ore>,
+[[<aoa3:creep_stone>, <mysticalagriculture:basalt_essence>, <aoa3:creep_stone>],
+[<mysticalagriculture:basalt_essence>, <aoa3:jewelyte>, <mysticalagriculture:basalt_essence>],
+[<aoa3:creep_stone>, <mysticalagriculture:basalt_essence>, <aoa3:creep_stone>]]);
+
+recipes.addShaped(<aoa3:ghastly_ore>,
+[[<aoa3:greckon_stone>, <mysticalagriculture:nether_essence>, <aoa3:greckon_stone>],
+[<mysticalagriculture:nether_essence>, <aoa3:ghastly_ingot>, <mysticalagriculture:nether_essence>],
+[<aoa3:greckon_stone>, <mysticalagriculture:nether_essence>, <aoa3:greckon_stone>]]);
+
+recipes.addShaped(<aoa3:ghoulish_ore>,
+[[<aoa3:greckon_stone>, <mysticalagriculture:nether_essence>, <aoa3:greckon_stone>],
+[<mysticalagriculture:nether_essence>, <aoa3:ghoulish_ingot>, <mysticalagriculture:nether_essence>],
+[<aoa3:greckon_stone>, <mysticalagriculture:nether_essence>, <aoa3:greckon_stone>]]);
+
+recipes.addShaped(<aoa3:chestbone_fragments_ore>,
+[[<aoa3:low_precasia_stone>, <mysticalagriculture:stone_essence>, <aoa3:low_precasia_stone>],
+[<mysticalagriculture:stone_essence>, <aoa3:chestbone_fragment>, <mysticalagriculture:stone_essence>],
+[<aoa3:low_precasia_stone>, <mysticalagriculture:stone_essence>, <aoa3:low_precasia_stone>]]);
+
+recipes.addShaped(<aoa3:footbone_fragments_ore>,
+[[<aoa3:low_precasia_stone>, <mysticalagriculture:stone_essence>, <aoa3:low_precasia_stone>],
+[<mysticalagriculture:stone_essence>, <aoa3:footbone_fragment>, <mysticalagriculture:stone_essence>],
+[<aoa3:low_precasia_stone>, <mysticalagriculture:stone_essence>, <aoa3:low_precasia_stone>]]);
+
+recipes.addShaped(<aoa3:legbone_fragments_ore>,
+[[<aoa3:low_precasia_stone>, <mysticalagriculture:stone_essence>, <aoa3:low_precasia_stone>],
+[<mysticalagriculture:stone_essence>, <aoa3:legbone_fragment>, <mysticalagriculture:stone_essence>],
+[<aoa3:low_precasia_stone>, <mysticalagriculture:stone_essence>, <aoa3:low_precasia_stone>]]);
+
+recipes.addShaped(<aoa3:skullbone_fragments_ore>,
+[[<aoa3:low_precasia_stone>, <mysticalagriculture:stone_essence>, <aoa3:low_precasia_stone>],
+[<mysticalagriculture:stone_essence>, <aoa3:skullbone_fragment>, <mysticalagriculture:stone_essence>],
+[<aoa3:low_precasia_stone>, <mysticalagriculture:stone_essence>, <aoa3:low_precasia_stone>]]);
+
+recipes.addShaped(<aoa3:lyon_ore>,
+[[<aoa3:iromine_stone>, <mysticalagriculture:stone_essence>, <aoa3:iromine_stone>],
+[<mysticalagriculture:stone_essence>, <aoa3:lyon_ingot>, <mysticalagriculture:stone_essence>],
+[<aoa3:iromine_stone>, <mysticalagriculture:stone_essence>, <aoa3:iromine_stone>]]);
+
+recipes.addShaped(<aoa3:mystite_ore>,
+[[<aoa3:mysterium_stone>, <mysticalagriculture:basalt_essence>, <aoa3:mysterium_stone>],
+[<mysticalagriculture:basalt_essence>, <aoa3:mystite_ingot>, <mysticalagriculture:basalt_essence>],
+[<aoa3:mysterium_stone>, <mysticalagriculture:basalt_essence>, <aoa3:mysterium_stone>]]);
+
+recipes.addShaped(<aoa3:ornamyte_ore>,
+[[<aoa3:creep_stone>, <mysticalagriculture:basalt_essence>, <aoa3:creep_stone>],
+[<mysticalagriculture:basalt_essence>, <aoa3:ornamyte>, <mysticalagriculture:basalt_essence>],
+[<aoa3:creep_stone>, <mysticalagriculture:basalt_essence>, <aoa3:creep_stone>]]);
+
+recipes.addShaped(<aoa3:varsium_ore>,
+[[<aoa3:baron_stone>, <mysticalagriculture:limestone_essence>, <aoa3:baron_stone>],
+[<mysticalagriculture:limestone_essence>, <aoa3:varsium_ingot>, <mysticalagriculture:limestone_essence>],
+[<aoa3:baron_stone>, <mysticalagriculture:limestone_essence>, <aoa3:baron_stone>]]);
+
+recipes.addShaped(<aoa3:shyregem_ore>,
+[[<aoa3:shyrelands_stone>, <mysticalagriculture:marble_essence>, <aoa3:shyrelands_stone>],
+[<mysticalagriculture:marble_essence>, <aoa3:shyregem>, <mysticalagriculture:marble_essence>],
+[<aoa3:shyrelands_stone>, <mysticalagriculture:marble_essence>, <aoa3:shyrelands_stone>]]);
+
+recipes.addShaped(<aoa3:shyrestone_ore>,
+[[<aoa3:shyrelands_stone>, <mysticalagriculture:marble_essence>, <aoa3:shyrelands_stone>],
+[<mysticalagriculture:marble_essence>, <aoa3:shyrestone_ingot>, <mysticalagriculture:marble_essence>],
+[<aoa3:shyrelands_stone>, <mysticalagriculture:marble_essence>, <aoa3:shyrelands_stone>]]);
+
+
+recipes.addShaped(<divinerpg:eden_ore>,
+[[<divinerpg:twilight_stone>, <mysticalagriculture:end_essence>, <divinerpg:twilight_stone>],
+[<mysticalagriculture:end_essence>, <divinerpg:eden_fragments>, <mysticalagriculture:end_essence>],
+[<divinerpg:twilight_stone>, <mysticalagriculture:end_essence>, <divinerpg:twilight_stone>]]);
+
+recipes.addShaped(<divinerpg:wildwood_ore>,
+[[<divinerpg:twilight_stone>, <mysticalagriculture:end_essence>, <divinerpg:twilight_stone>],
+[<mysticalagriculture:end_essence>, <divinerpg:wildwood_fragments>, <mysticalagriculture:end_essence>],
+[<divinerpg:twilight_stone>, <mysticalagriculture:end_essence>, <divinerpg:twilight_stone>]]);
+
+recipes.addShaped(<divinerpg:apalachia_ore>,
+[[<divinerpg:twilight_stone>, <mysticalagriculture:end_essence>, <divinerpg:twilight_stone>],
+[<mysticalagriculture:end_essence>, <divinerpg:apalachia_fragments>, <mysticalagriculture:end_essence>],
+[<divinerpg:twilight_stone>, <mysticalagriculture:end_essence>, <divinerpg:twilight_stone>]]);
+
+recipes.addShaped(<divinerpg:skythern_ore>,
+[[<divinerpg:twilight_stone>, <mysticalagriculture:end_essence>, <divinerpg:twilight_stone>],
+[<mysticalagriculture:end_essence>, <divinerpg:skythern_fragments>, <mysticalagriculture:end_essence>],
+[<divinerpg:twilight_stone>, <mysticalagriculture:end_essence>, <divinerpg:twilight_stone>]]);
+
+recipes.addShaped(<divinerpg:mortum_ore>,
+[[<divinerpg:twilight_stone>, <mysticalagriculture:end_essence>, <divinerpg:twilight_stone>],
+[<mysticalagriculture:end_essence>, <divinerpg:mortum_fragments>, <mysticalagriculture:end_essence>],
+[<divinerpg:twilight_stone>, <mysticalagriculture:end_essence>, <divinerpg:twilight_stone>]]);

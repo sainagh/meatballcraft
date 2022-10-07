@@ -1,0 +1,18 @@
+{
+	title: "Ptah",
+	icon: "advancedrocketry:hotturf",
+	x: 9.0d,
+	y: 2.0d,
+	description: "Travel using a warp core on a space station",
+	text: [
+		""
+	],
+	dependencies: [
+		"8f9c8dfc"
+	],
+	tasks: [{
+		uid: "8f1c738f",
+		type: "dimension",
+		dim: 149
+	}]
+}

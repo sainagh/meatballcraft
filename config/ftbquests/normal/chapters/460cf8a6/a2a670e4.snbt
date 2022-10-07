@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	text: [
+		"Found between y=1 and y=28"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "d86d2992",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}]
+	}]
+}

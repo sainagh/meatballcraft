@@ -1,0 +1,58 @@
+{
+	title: "Follow the Traces",
+	x: 42.5d,
+	y: 0.0d,
+	text: [
+		"The Shyre Empire's ability to travel is strictly tied to the rocky material I've found in during my experiments with mythic excavation.",
+		"Different realmstones can be bound to key travel regions used as ports for the empire, and this ancient rock frame can restabilize existing connections used by this power.",
+		"",
+		"Right click the power stone using a realmstone!"
+	],
+	dependencies: [
+		"782f8be1",
+		"29d7bed0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "54ff2cd2",
+		type: "item",
+		items: [{
+			item: "aoa3:carved_rune_power"
+		}]
+	},
+	{
+		uid: "bbb8f6fd",
+		type: "item",
+		items: [{
+			item: "aoa3:ancient_rock"
+		}]
+	},
+	{
+		uid: "e7793e20",
+		type: "item",
+		items: [{
+			item: "aoa3:carved_rune_direction"
+		}]
+	},
+	{
+		uid: "3d6ef22e",
+		type: "item",
+		items: [{
+			item: "aoa3:carved_rune_space"
+		}]
+	},
+	{
+		uid: "0a4e6a32",
+		type: "item",
+		items: [{
+			item: "aoa3:carved_rune_reality"
+		}]
+	},
+	{
+		uid: "e3345b16",
+		type: "item",
+		items: [{
+			item: "aoa3:carved_rune_travel"
+		}]
+	}]
+}

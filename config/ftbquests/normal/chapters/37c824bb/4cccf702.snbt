@@ -1,0 +1,24 @@
+{
+	title: "A Point, THE Point",
+	x: 39.5d,
+	y: 0.0d,
+	text: [
+		"With this new understanding of gravity, things like singularities, which I have played with before, should make a lot more sense! Time to study some more!"
+	],
+	dependencies: [
+		"eee537a9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c8a88590",
+		type: "item",
+		items: [{
+			id: "contenttweaker:singularity_master",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

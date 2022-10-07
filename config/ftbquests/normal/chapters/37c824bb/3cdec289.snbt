@@ -1,0 +1,18 @@
+{
+	title: "This boline is special...",
+	x: 59.0d,
+	y: 1.5d,
+	dependencies: [
+		"6f7c1c33"
+	],
+	hide: true,
+	tasks: [{
+		uid: "be90d82c",
+		type: "item",
+		items: [{
+			item: "bewitchment:boline"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

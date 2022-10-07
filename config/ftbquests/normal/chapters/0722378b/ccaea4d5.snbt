@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 24.0d,
+	text: [
+		"Only the best fleeb juice for the best plumbus!"
+	],
+	dependencies: [
+		"5f57ce40"
+	],
+	tasks: [{
+		uid: "d0624445",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:extractor_idle"
+		}]
+	}]
+}

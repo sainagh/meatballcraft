@@ -1,0 +1,19 @@
+{
+	title: "Unlock all Research",
+	x: -7.5d,
+	y: -4.5d,
+	text: [
+		"The Really Scary Vishroom is really scary. It unlocks all Thaumcraft knowledge, at the cost of a lot of permanent warp!",
+		"having acces to at least the Dreading Warp Cleanser is a decent idea, having access to the Omothol Warp Cleanser is a very good idea."
+	],
+	dependencies: [
+		"2d513652"
+	],
+	tasks: [{
+		uid: "13a084b2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:magic_mushroom_dark"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Dimensional Doors",
+	icon: "dimdoors:fabric 1 15",
+	x: -1.0d,
+	y: 11.0d,
+	description: "Die in a dimensional door",
+	text: [
+		"While for many creatures it is impossible to perceive, nor travel through, higher dimensions, it is possible to explore them thanks to doors left all over the surface of Terra.",
+		"The key behind these 'rifts' appears to be blood magic. Apparently, if enough life essence is sacrificed, higher dimensions can be 'connected to each other'.",
+		"Some of the great secrets of blood arts are hidden in higher-dimensional fortresses that can only be reached through these doors."
+	],
+	dependencies: [
+		"446239db"
+	],
+	tasks: [{
+		uid: "a0b0aef4",
+		type: "dimension",
+		dim: 684
+	}]
+}

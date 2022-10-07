@@ -1,0 +1,22 @@
+{
+	title: "Advanced Storage",
+	x: 24.5d,
+	y: 0.0d,
+	description: "Better to build a base in the void world. At this point, you may want to take a peek at the logistics and organization tab.",
+	text: [
+		"The power of fluix is great!",
+		"Centralized networks can be created around a controller block, which can handle storage and transportation.",
+		"In addition to this, it seems like I can embed more complex logic into pipe systems, making it even easier to manage my belongings."
+	],
+	dependencies: [
+		"62b4b83f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d2203e30",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}]
+}

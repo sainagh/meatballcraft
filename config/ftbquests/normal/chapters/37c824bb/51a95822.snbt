@@ -1,0 +1,16 @@
+{
+	title: "Am I strong enough?",
+	x: 83.0d,
+	y: -1.5d,
+	dependencies: [
+		"dcea031b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "80fa9842",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mythic_excavation_reactor"
+		}]
+	}]
+}

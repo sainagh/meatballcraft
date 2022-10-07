@@ -1,0 +1,17 @@
+{
+	title: "Power from Skythern",
+	x: 90.5d,
+	y: 0.0d,
+	dependencies: [
+		"630280c4",
+		"6fe26961"
+	],
+	hide: true,
+	tasks: [{
+		uid: "82cbc6b9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:skythern_star"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -12.0d,
+	y: 6.5d,
+	dependencies: [
+		"fc5d626a"
+	],
+	tasks: [{
+		uid: "c8208ff2",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:part_effect_writer_item"
+		}]
+	}]
+}

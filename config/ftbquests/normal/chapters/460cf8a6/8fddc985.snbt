@@ -1,0 +1,20 @@
+{
+	x: 20.0d,
+	y: 7.0d,
+	text: [
+		"Spawn in the Barathos Dimension from Advent of Ascension",
+		"Spawns Between Y=24 to Y=64",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"4ed812bb"
+	],
+	tasks: [{
+		uid: "acfe4e77",
+		type: "item",
+		items: [{
+			item: "aoa3:varsium_ingot"
+		}]
+	}]
+}

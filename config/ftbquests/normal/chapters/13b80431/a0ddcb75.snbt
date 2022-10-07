@@ -1,0 +1,20 @@
+{
+	title: "Twilight Forest",
+	icon: "twilightforest:aurora_block",
+	x: -1.0d,
+	y: 0.5d,
+	description: "Drop a fluix lens into a 2x2 pool of water surrounded by flowers",
+	text: [
+		"This strange planet dominated by the influence of thaumic magic is tidally locked, meaning that, in each region of the planet, the time of day is conserved. ",
+		"The regions that are fully diurnal are too hot to allow for the presence of life, while the fully nocturnal regions are a barren, frozen wasteland.",
+		"In the regions in between though, called the Twilight Forest, life is abundant, and for some reason, those that master thaumic powers have decided to keep it as one of their strongholds."
+	],
+	dependencies: [
+		"446239db"
+	],
+	tasks: [{
+		uid: "b0c7760a",
+		type: "dimension",
+		dim: 7
+	}]
+}

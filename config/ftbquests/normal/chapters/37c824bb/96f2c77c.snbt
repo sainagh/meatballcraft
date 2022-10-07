@@ -1,0 +1,13 @@
+{
+	x: 6.5d,
+	y: 10.5d,
+	description: "Dealing high damage increases the chance of crit hits and increases rage.",
+	dependencies: [
+		"d8e398cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "554d41d9",
+		type: "checkmark"
+	}]
+}

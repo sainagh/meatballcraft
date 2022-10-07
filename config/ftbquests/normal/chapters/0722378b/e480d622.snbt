@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: 11.0d,
+	text: [
+		"Crystal growth done easy!",
+		"Requires energy from an AE network, even a very small one..."
+	],
+	dependencies: [
+		"b0b21afb"
+	],
+	tasks: [{
+		uid: "ad397764",
+		type: "item",
+		items: [{
+			item: "ae2stuff:grower"
+		}]
+	}]
+}

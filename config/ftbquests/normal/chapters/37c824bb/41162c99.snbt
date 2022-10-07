@@ -1,0 +1,26 @@
+{
+	icon: "contenttweaker:ender_feather",
+	x: 32.0d,
+	y: 4.5d,
+	text: [
+		"Well, First time seeing the extent of the effects of this 'recursion'...",
+		"If whatever process that leads to recursion is not done correctly, the result is an extremely mighty 'berserk'...",
+		"And when the stakes are high, this can be used as a weapon...",
+		"Terra Chickens, thanks to the influence of dimensional shards, are able to 'absorb' matter.",
+		"This is similar to my attitude towards alchemy, which I am starting to believe to be a human-only trait. Within me, I can store matter as EMC.",
+		"Chickens are similar, but they 'become what they absorb'.",
+		"Are there dimensional shards on earth? At home? That would explain why I can do such things...",
+		"Or maybe I'm overthinking it..."
+	],
+	dependencies: [
+		"2e009fa1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "71ecb637",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ender_feather"
+		}]
+	}]
+}

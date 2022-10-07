@@ -1,0 +1,25 @@
+{
+	title: "Life from Nitrate?!?",
+	x: 44.0d,
+	y: 3.0d,
+	text: [
+		"Again, despite being my enemies, I have to appreciate the beauty and diversity of the empire. There's a whole civilization that evolved from nitrate!",
+		"This is very cool, although there is something that does not feel right about this..."
+	],
+	dependencies: [
+		"b2e50833"
+	],
+	hide: true,
+	tasks: [{
+		uid: "68ebd441",
+		type: "item",
+		items: [{
+			id: "aoa3:creeponia_realmstone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

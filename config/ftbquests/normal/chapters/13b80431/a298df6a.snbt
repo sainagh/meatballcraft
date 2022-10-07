@@ -1,0 +1,20 @@
+{
+	title: "Iceika Hills",
+	icon: "divinerpg:frozen_grass",
+	x: -1.0d,
+	y: 6.5d,
+	description: "Use a snow globe on a frame made out of snow blocks",
+	text: [
+		"The frozen planet of Iceika is a testament to what the powers of wizardry can achieve in their most extreme version.",
+		"It seems hard to believe, but the state of this land was caused by a single individual, having unleashed enough power to cause effects comparable to the fall of a large meteor.",
+		"A single spell was able to fully change its climate, turning it into a desolate, icy, land."
+	],
+	dependencies: [
+		"446239db"
+	],
+	tasks: [{
+		uid: "b997bb64",
+		type: "dimension",
+		dim: 425
+	}]
+}

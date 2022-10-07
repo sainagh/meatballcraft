@@ -1,0 +1,21 @@
+{
+	title: "Elven Metallurgy",
+	x: 78.5d,
+	y: -1.5d,
+	dependencies: [
+		"bf7f3ae9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "32bc43ee",
+		type: "item",
+		items: [{
+			id: "contenttweaker:ancient_elven_knowledge",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

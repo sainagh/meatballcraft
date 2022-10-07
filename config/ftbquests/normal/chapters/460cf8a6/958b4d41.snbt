@@ -1,0 +1,17 @@
+{
+	x: 9.5d,
+	y: 1.0d,
+	text: [
+		"Obtained through the Void Resource Miner"
+	],
+	dependencies: [
+		"858e8da8"
+	],
+	tasks: [{
+		uid: "c2fc3c6b",
+		type: "item",
+		items: [{
+			item: "environmentaltech:mica"
+		}]
+	}]
+}

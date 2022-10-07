@@ -1,0 +1,12 @@
+{
+	title: "The Book of Worlds",
+	icon: {
+		id: "thebetweenlands:swamp_talisman",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

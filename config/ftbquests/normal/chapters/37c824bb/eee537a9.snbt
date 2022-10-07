@@ -1,0 +1,21 @@
+{
+	title: "Power in Metal",
+	x: 39.5d,
+	y: 1.5d,
+	text: [
+		"Eureka! I found the missing link! Not only gravity can be positive or negative, it can also be imaginary, producing rotations around non-existing objects.",
+		"Metals like the one found on sedna, this cold, strange planet, produce motion that would be otherwise impossible at such distance from a star.",
+		"This allows the planet to orbit a point located somewhere near Sol, yet this motion would happen anyway even if the star wasn't there!"
+	],
+	dependencies: [
+		"9970ceca"
+	],
+	hide: true,
+	tasks: [{
+		uid: "beca7630",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 54"
+		}]
+	}]
+}

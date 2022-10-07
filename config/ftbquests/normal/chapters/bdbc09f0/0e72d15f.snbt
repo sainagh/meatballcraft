@@ -1,0 +1,21 @@
+{
+	title: "Arc Reactor",
+	x: -2.0d,
+	y: -7.0d,
+	text: [
+		"The Arc Reactor passively produces RF, as well as Arc Residue."
+	],
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "daae9a26",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:arc_reactor"
+			}
+		}]
+	}]
+}

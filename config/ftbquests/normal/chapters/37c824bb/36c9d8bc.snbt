@@ -1,0 +1,24 @@
+{
+	x: 102.5d,
+	y: -3.0d,
+	dependencies: [
+		"458a752e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ab328eb6",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	},
+	{
+		uid: "ae92f269",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dream_callstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

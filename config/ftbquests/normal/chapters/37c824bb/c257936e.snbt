@@ -1,0 +1,20 @@
+{
+	title: "Digital Minerals",
+	x: 18.5d,
+	y: -4.5d,
+	description: "Maybe start with quarries, these are expensive",
+	text: [
+		"The alchemical powers of equivalency can be used to recreate the generation of minerals and plants, which means that I don't even need a quarry to excavate!"
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "55e5d6ef",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_1"
+		}]
+	}]
+}
