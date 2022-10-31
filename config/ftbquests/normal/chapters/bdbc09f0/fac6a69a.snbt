@@ -1,6 +1,6 @@
 {
 	title: "Mo Powa Bebeh!",
-	x: 0.0d,
+	x: -5.0d,
 	y: 0.0d,
 	text: [
 		"Here is a list of all possible ways of producing RF.",

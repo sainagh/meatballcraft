@@ -1,6 +1,6 @@
 {
-	x: 2.0d,
-	y: -8.0d,
+	x: 7.0d,
+	y: -3.0d,
 	text: [
 		"Yellorite reactors can be upgraded into accepting water, and producing steam instead of power.",
 		"Steam is consumed by a turbine, which is a hollow cuboid of casings (with a transparent variant) that has to include a controller, two fluid ports (input for steam & output for water) and a power tap.",

@@ -1,0 +1,17 @@
+{
+	x: 51.5d,
+	y: 6.0d,
+	dependencies: [
+		"01c8feff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aadf7371",
+		type: "item",
+		items: [{
+			item: "contenttweaker:secret_weapon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,11 +1,11 @@
 {
-	x: 3.5d,
-	y: 9.0d,
+	x: 21.0d,
+	y: 4.0d,
 	text: [
 		"Milk and slime? Gross..."
 	],
 	dependencies: [
-		"fac6a69a"
+		"ff287def"
 	],
 	tasks: [{
 		uid: "98d0c1b9",

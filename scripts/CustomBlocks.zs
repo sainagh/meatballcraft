@@ -1027,3 +1027,51 @@ brightsteelcase.setToolClass("pickaxe");
 brightsteelcase.setToolLevel(3);
 brightsteelcase.register();
 
+var gravititestone = VanillaFactory.createBlock("gravitite_stone", <blockmaterial:iron>);
+gravititestone.setBlockHardness(1.0);
+gravititestone.setBlockResistance(2.5);
+gravititestone.setToolClass("pickaxe");
+gravititestone.setToolLevel(3);
+gravititestone.register();
+
+var ancientscaleheart = VanillaFactory.createBlock("scale_of_the_ancient_heart", <blockmaterial:iron>);
+ancientscaleheart.setBlockHardness(-1.0);
+ancientscaleheart.setBlockResistance(2.5);
+ancientscaleheart.setToolClass("pickaxe");
+ancientscaleheart.setToolLevel(3);
+ancientscaleheart.register();
+
+var sentientmeatball = VanillaFactory.createBlock("sentient_meatball", <blockmaterial:iron>);
+sentientmeatball.setBlockHardness(1.0);
+sentientmeatball.setBlockResistance(2.5);
+sentientmeatball.setToolClass("pickaxe");
+sentientmeatball.setToolLevel(3);
+sentientmeatball.register();
+
+var everburner = VanillaFactory.createBlock("everburner", <blockmaterial:iron>);
+everburner.setBlockHardness(1.0);
+everburner.setBlockResistance(2.5);
+everburner.setToolClass("pickaxe");
+everburner.setToolLevel(3);
+everburner.register();
+
+var sentientfactorycover = VanillaFactory.createBlock("sentient_factory_core", <blockmaterial:iron>);
+sentientfactorycover.setBlockHardness(1.0);
+sentientfactorycover.setBlockResistance(2.5);
+sentientfactorycover.setToolClass("pickaxe");
+sentientfactorycover.setToolLevel(3);
+sentientfactorycover.register();
+
+var brightsteelbeam = VanillaFactory.createBlock("brightsteel_conduit", <blockmaterial:iron>);
+brightsteelbeam.setBlockHardness(1.0);
+brightsteelbeam.setBlockResistance(2.5);
+brightsteelbeam.setToolClass("pickaxe");
+brightsteelbeam.setToolLevel(3);
+brightsteelbeam.register();
+
+var asgardfurnacebrick = VanillaFactory.createBlock("asgard_furnace_brick", <blockmaterial:iron>);
+asgardfurnacebrick.setBlockHardness(-1.0);
+asgardfurnacebrick.setBlockResistance(2.5);
+asgardfurnacebrick.setToolClass("pickaxe");
+asgardfurnacebrick.setToolLevel(3);
+asgardfurnacebrick.register();

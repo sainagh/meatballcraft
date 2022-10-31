@@ -1,11 +1,11 @@
 {
-	x: -6.0d,
-	y: 3.0d,
+	x: 5.0d,
+	y: 2.0d,
 	text: [
 		"More solar panels!"
 	],
 	dependencies: [
-		"fac6a69a"
+		"024052db"
 	],
 	tasks: [{
 		uid: "c1fe298a",

@@ -271,7 +271,7 @@
             <atmosphereDensity>100</atmosphereDensity>
             <hasOxygen>true</hasOxygen>
             <fogColor>0.9,0.0,0.9</fogColor>
-            <skyColor>0.9,0.0,0.9</skyColor>
+            <skyColor>0.0,0.0,0.9</skyColor>
             <gravitationalMultiplier>200</gravitationalMultiplier>
             <orbitalDistance>200</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>

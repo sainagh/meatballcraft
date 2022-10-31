@@ -1,0 +1,15 @@
+{
+	x: 66.5d,
+	y: -4.5d,
+	dependencies: [
+		"78bcd476"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f020d00d",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:heat_exchanger_tube_thermoconducting"
+		}]
+	}]
+}

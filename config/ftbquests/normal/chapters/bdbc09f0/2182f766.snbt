@@ -1,11 +1,11 @@
 {
-	x: 0.5d,
-	y: 9.0d,
+	x: 20.0d,
+	y: 3.0d,
 	text: [
 		"Cold, icy stuff is all you need for RF!"
 	],
 	dependencies: [
-		"fac6a69a"
+		"ff287def"
 	],
 	tasks: [{
 		uid: "2fd48ef4",

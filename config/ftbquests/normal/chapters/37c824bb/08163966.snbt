@@ -1,0 +1,24 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	description: "The key will guide you to your grave",
+	dependencies: [
+		"2f54d294"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7d6b87d6",
+		type: "item",
+		items: [{
+			id: "tombstone:grave_key",
+			tag: {
+				tombPosX: 159,
+				tombPosY: 70,
+				tombPosZ: -248,
+				tombPosD: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

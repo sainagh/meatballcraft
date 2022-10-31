@@ -1,3 +1,6 @@
+
+import mods.modularmachinery.RecipeBuilder;
+
 // making krypton, neon, argon, and xenon
 
 mods.nuclearcraft.centrifuge.addRecipe([<fluid:aerotheum>*10, <fluid:nitrogen>*7, <fluid:oxygen>*2, <fluid:noble_gas_mix>*1, <fluid:argon>*1, 0.1, 6.1, 0.2]);
@@ -98,3 +101,42 @@ mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:hydrochloric_acid>*10, <flu
 mods.techreborn.industrialElectrolyzer.addRecipe(<contenttweaker:barium_chunk>, <abyssalcraft:crystalfragment:4>, null, null, null, <contenttweaker:barium_oxide>, 30, 40);
 
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:barium_chunk>, <fluid:barium>*72]);
+
+// making zirconium
+
+mods.nuclearcraft.melter.addRecipe([<nuclearcraft:ingot:10>, <fluid:molten_zirconium>*144]);
+
+// making niobium
+
+val niobiumaccelerator = RecipeBuilder.newBuilder("niobiumaccelerator","high_impulse_accelerator",100);
+niobiumaccelerator.addEnergyPerTickInput(10000000);
+niobiumaccelerator.addFluidInput(<fluid:titanium>*100);
+niobiumaccelerator.addFluidOutput(<fluid:niobium>*50);
+niobiumaccelerator.build();
+
+// making molybdenum
+
+mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:crystallized_tungstensteel>,[<contenttweaker:eternal_tulite>, <techreborn:storage2:0>, <enderio:item_alloy_endergy_ball:2>, <divinerpg:vamacheron_crystal>], 100,20);
+
+mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:crystallized_tungstensteel>, <contenttweaker:tungsten_molybdenum_dust>]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:tungsten_molybdenum_dust>, <fluid:molten_blood_infused_iron>*144, <fluid:tungsten_molybdenum_mix>*144]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:tungsten_molybdenum_mix>*144, <fluid:boric_acid>*50, <fluid:molten_molybdenum>*72, <fluid:tungsten>*72, 0.1, 2.5, 0.2]);
+
+// making einstenium
+
+mods.nuclearcraft.salt_fission.addRecipe([<fluid:unholy_radioactive_mix>*5, <fluid:einstenium>*5, 100.0, 600.0, 4.0]);
+
+// making lanthanum
+
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:lanthanum_salt>, <bewitchment:salt>, 5, 10, 20, 30);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:lanthanum_salt>, <fluid:fierymetal>*144, <fluid:lanthanum>*40]);
+
+// making meitnerium
+
+mods.nuclearcraft.supercooler.addRecipe([<fluid:dense_plasma>*1000, <fluid:triple_point_fluid>*10, 0.1, 1.5, 6.0]);
+
+mods.nuclearcraft.irradiator.addRecipe([<fluid:netrino_plasma>*10, <fluid:triple_point_fluid>*100, <fluid:meitnerium>*50, <fluid:neutron>*100, 0.2, 1.8, 2.5]);
+

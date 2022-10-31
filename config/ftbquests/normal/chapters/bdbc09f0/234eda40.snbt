@@ -1,11 +1,11 @@
 {
-	x: 3.5d,
-	y: 8.0d,
+	x: 18.0d,
+	y: 3.0d,
 	text: [
 		"Runs on potions, but let's be honest, you're only going to use water bottles..."
 	],
 	dependencies: [
-		"fac6a69a"
+		"ff287def"
 	],
 	tasks: [{
 		uid: "e37c38d0",

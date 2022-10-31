@@ -1,11 +1,11 @@
 {
-	x: -3.5d,
-	y: 8.0d,
+	x: 18.0d,
+	y: 4.0d,
 	text: [
 		"Exactly as it sounds, energy from pink stuff!"
 	],
 	dependencies: [
-		"fac6a69a"
+		"ff287def"
 	],
 	tasks: [{
 		uid: "b85ab41a",

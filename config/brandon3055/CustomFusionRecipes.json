@@ -74,7 +74,7 @@
         "ingredients": [
             "contenttweaker:myrmitite_catalyst",
             "contenttweaker:myrmitite_catalyst",
-            "nuclearcraft:americium,1,4",
+            "contenttweaker:tritium_chunk",
             "nuclearcraft:americium,1,4",
             "thebetweenlands:weeping_blue_petal",
             "thebetweenlands:weeping_blue_petal",
@@ -93,7 +93,7 @@
             "contenttweaker:myrmitite_catalyst",
             "contenttweaker:myrmitite_catalyst",
             "nuclearcraft:americium,1,4",
-            "nuclearcraft:americium,1,4",
+            "contenttweaker:tritium_chunk",
             "thebetweenlands:weeping_blue_petal",
             "thebetweenlands:weeping_blue_petal",
             "erebus:sapling_marshwood",
@@ -111,7 +111,7 @@
             "contenttweaker:myrmitite_catalyst",
             "contenttweaker:myrmitite_catalyst",
             "nuclearcraft:americium,1,4",
-            "nuclearcraft:americium,1,4",
+            "contenttweaker:tritium_chunk",
             "twilightforest:twilight_sapling,1,9",
             "twilightforest:twilight_sapling,1,9",
             "erebus:sapling_marshwood",
@@ -129,7 +129,7 @@
             "contenttweaker:myrmitite_catalyst",
             "contenttweaker:myrmitite_catalyst",
             "nuclearcraft:americium,1,4",
-            "nuclearcraft:americium,1,4",
+            "contenttweaker:tritium_chunk",
             "twilightforest:twilight_sapling,1,9",
             "twilightforest:twilight_sapling,1,9",
             "divinerpg:frozen_sapling",
@@ -147,7 +147,7 @@
             "contenttweaker:myrmitite_catalyst",
             "contenttweaker:myrmitite_catalyst",
             "nuclearcraft:americium,1,4",
-            "nuclearcraft:americium,1,4",
+            "contenttweaker:tritium_chunk",
             "aether_legacy:golden_oak_sapling",
             "aether_legacy:golden_oak_sapling",
             "erebus:sapling_marshwood",
@@ -165,7 +165,7 @@
             "contenttweaker:myrmitite_catalyst",
             "contenttweaker:myrmitite_catalyst",
             "nuclearcraft:americium,1,4",
-            "nuclearcraft:americium,1,4",
+            "contenttweaker:tritium_chunk",
             "aether_legacy:golden_oak_sapling",
             "aether_legacy:golden_oak_sapling",
             "thebetweenlands:sapling_hearthgrove",
@@ -183,7 +183,7 @@
             "contenttweaker:myrmitite_catalyst",
             "contenttweaker:myrmitite_catalyst",
             "nuclearcraft:americium,1,4",
-            "nuclearcraft:americium,1,4",
+            "contenttweaker:tritium_chunk",
             "erebus:sapling_mossbark",
             "erebus:sapling_mossbark",
             "thebetweenlands:sapling_hearthgrove",
@@ -200,7 +200,7 @@
         "ingredients": [
             "contenttweaker:myrmitite_catalyst",
             "contenttweaker:myrmitite_catalyst",
-            "nuclearcraft:americium,1,4",
+            "contenttweaker:tritium_chunk",
             "nuclearcraft:americium,1,4",
             "twilightforest:twilight_sapling,1,3",
             "twilightforest:twilight_sapling,1,3",
@@ -280,7 +280,7 @@
         "mode": "ADD",
         "result": "contenttweaker:mythic_excavation_computer",
         "catalyst": "contenttweaker:dark_soul_machine_chassis",
-        "energy": 90000000,
+        "energy": 900000000,
         "tier": 3,
         "ingredients": [
             "bigreactors:mineralanglesite",
@@ -299,7 +299,7 @@
         "mode": "ADD",
         "result": "contenttweaker:mythic_excavation_computer,3,0",
         "catalyst": "contenttweaker:dark_soul_machine_chassis",
-        "energy": 90000000,
+        "energy": 900000000,
         "tier": 3,
         "ingredients": [
             "contenttweaker:cursed_sapphire",
@@ -434,7 +434,7 @@
         "result": "iceandfire:dragonsteel_fire_ingot",
         "catalyst": "draconicevolution:draconium_ingot",
         "energy": 100000,
-        "tier": 4,
+        "tier": 2,
         "ingredients": [
             "minecraft:magma",
             "minecraft:magma",
@@ -449,7 +449,7 @@
         "result": "iceandfire:dragonsteel_fire_ingot",
         "catalyst": "draconicevolution:draconium_ingot",
         "energy": 100000,
-        "tier": 4,
+        "tier": 2,
         "ingredients": [
             "minecraft:packed_ice",
             "minecraft:packed_ice",
@@ -475,6 +475,28 @@
             "draconicevolution:draconic_ingot",
             "draconicevolution:draconic_ingot",
             "contenttweaker:recursive_feather"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:reactor_core",
+        "catalyst": "draconicevolution:chaos_shard,1,0"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:reactor_core",
+        "catalyst": "draconicevolution:chaos_shard,1,0",
+        "energy": 9000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:apalachia_core",
+            "contenttweaker:apalachia_core",
+            "extrautils2:opinium,1,8",
+            "extrautils2:opinium,1,8",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block"
         ]
     }
 ]

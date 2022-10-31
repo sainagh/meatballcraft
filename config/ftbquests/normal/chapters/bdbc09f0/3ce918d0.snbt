@@ -1,7 +1,7 @@
 {
 	title: "Yellorite Reactor",
-	x: 2.0d,
-	y: -7.0d,
+	x: 7.0d,
+	y: -2.0d,
 	text: [
 		"The yellorite reactor uses yellorium to produce RF.",
 		"The reactor is a hollow cuboid made out of casings, including at least two access points (input & output), a power tap, and a controller.",
@@ -10,7 +10,7 @@
 		"Cooling (both fluids and blocks) can be added in the remaining hollow spaces."
 	],
 	dependencies: [
-		"fac6a69a"
+		"024052db"
 	],
 	tasks: [{
 		uid: "ba798fcb",

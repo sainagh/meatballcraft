@@ -1,11 +1,11 @@
 {
-	x: 6.0d,
-	y: 4.0d,
+	x: 3.0d,
+	y: 0.0d,
 	text: [
 		"Produce RF using Biofuel, wich is made using a Bioreactor."
 	],
 	dependencies: [
-		"fac6a69a"
+		"0a0a6666"
 	],
 	tasks: [{
 		uid: "a4e2cc61",

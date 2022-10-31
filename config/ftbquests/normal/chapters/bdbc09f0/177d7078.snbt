@@ -1,7 +1,7 @@
 {
 	title: "Fission Reactor",
-	x: 3.0d,
-	y: -7.0d,
+	x: 13.0d,
+	y: -2.0d,
 	description: "A fission reactor is a cuboid of casings (edges & corners excluded) with at least one port for power output. For more info about the inside see attached quests.",
 	text: [
 		"Given a controller and casings around a cuboid, these reactors can be used for a variety of radioactive fuels.",
@@ -11,7 +11,7 @@
 		"https://imgur.com/gallery/vzBd16k"
 	],
 	dependencies: [
-		"fac6a69a"
+		"6c923efa"
 	],
 	tasks: [{
 		uid: "d4810392",

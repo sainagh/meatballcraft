@@ -318,11 +318,6 @@ recipes.addShaped(<divinerpg:ender_shards>*6,
 [<techreborn:dust:21>, <aoa3:silver_coin>, <techreborn:dust:21>],
 [<techreborn:dust:21>, <techreborn:dust:21>, <techreborn:dust:21>]]);
 
-recipes.addShaped(<divinerpg:purple_blaze>*6,
-[[null, <aoa3:nether_tokens>, null],
-[<aoa3:nether_tokens>, <minecraft:blaze_powder>, <aoa3:nether_tokens>],
-[null, <aoa3:nether_tokens>, null]]);
-
 recipes.addShaped(<bewitchment:boline>.withTag({biome_id: 226}),
 [[<thebetweenlands:mummy_bait>, <thaumadditions:mithrillium_resonator>, <thebetweenlands:mummy_bait>],
 [<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.fornax", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}), <bewitchment:boline>, <astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.bootes", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}})],

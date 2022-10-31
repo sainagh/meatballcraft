@@ -343,3 +343,27 @@ barium.register();
 
 var mildlyrecursivegoo = VanillaFactory.createFluid("mildly_recursive_goo", Color.fromHex("534a54"));
 mildlyrecursivegoo.register();
+
+var zirconium = VanillaFactory.createFluid("molten_zirconium", Color.fromHex("d6ff8a"));
+zirconium.register();
+
+var niobium = VanillaFactory.createFluid("niobium", Color.fromHex("5a8f69"));
+niobium.register();
+
+var molybdenum = VanillaFactory.createFluid("molten_molybdenum", Color.fromHex("5a8f69"));
+molybdenum.register();
+
+var tungstenmolybdenummix = VanillaFactory.createFluid("tungsten_molybdenum_mix", Color.fromHex("88965d"));
+tungstenmolybdenummix.register();
+
+var einstenium = VanillaFactory.createFluid("einstenium", Color.fromHex("a6fff3"));
+einstenium.register();
+
+var lanthanum = VanillaFactory.createFluid("lanthanum", Color.fromHex("612f40"));
+lanthanum.register();
+
+var meitnerium = VanillaFactory.createFluid("meitnerium", Color.fromHex("56466b"));
+meitnerium.register();
+
+var triplepointmatter = VanillaFactory.createFluid("triple_point_fluid", Color.fromHex("56466b"));
+triplepointmatter.register();

@@ -1,6 +1,6 @@
 {
-	x: 6.0d,
-	y: -7.0d,
+	x: 12.0d,
+	y: -2.0d,
 	description: "Coolers lower heat to prevent things from exploding. Each cooler has a different rule (only works if next to block x).",
 	dependencies: [
 		"177d7078"

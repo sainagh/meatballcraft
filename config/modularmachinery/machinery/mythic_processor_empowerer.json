@@ -17,7 +17,7 @@
             },
             {
                 "io": "input",
-                "target": "duration",
+                "target": "item",
                 "operation": 1,
                 "multiplier": 4
             }]

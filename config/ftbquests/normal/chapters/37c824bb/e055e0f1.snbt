@@ -10,6 +10,7 @@
 		type: "item",
 		items: [{
 			item: "contenttweaker:corrupted_aragonite"
-		}]
+		}],
+		consume_items: false
 	}]
 }

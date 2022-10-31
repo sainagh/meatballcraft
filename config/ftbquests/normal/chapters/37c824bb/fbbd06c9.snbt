@@ -1,9 +1,9 @@
 {
 	title: "I am Insane!",
 	x: 50.0d,
-	y: -4.5d,
+	y: -1.5d,
 	dependencies: [
-		"72f13da7"
+		"eef6edb3"
 	],
 	hide: true,
 	tasks: [{

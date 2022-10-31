@@ -1,11 +1,11 @@
 {
-	x: 2.5d,
-	y: 9.0d,
+	x: 21.0d,
+	y: 5.0d,
 	text: [
 		"Finally a use for rotten flesh (and other things)"
 	],
 	dependencies: [
-		"fac6a69a"
+		"ff287def"
 	],
 	tasks: [{
 		uid: "94e0828d",

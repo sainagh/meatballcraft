@@ -2893,3 +2893,78 @@ var coraliumshielding = VanillaFactory.createItem("coralium_shielding");
 coraliumshielding.maxStackSize = 64;
 coraliumshielding.beaconPayment = false;
 coraliumshielding.register();
+
+var restlessingot = VanillaFactory.createItem("restless_steel_ingot");
+restlessingot.maxStackSize = 64;
+restlessingot.beaconPayment = false;
+restlessingot.register();
+
+var restlessframe = VanillaFactory.createItem("restless_steel_frame");
+restlessframe.maxStackSize = 64;
+restlessframe.beaconPayment = false;
+restlessframe.register();
+
+var superconductingthread = VanillaFactory.createItem("superconducting_thread");
+superconductingthread.maxStackSize = 64;
+superconductingthread.beaconPayment = false;
+superconductingthread.register();
+
+var stellaralloyshaft = VanillaFactory.createItem("stellar_alloy_shaft");
+stellaralloyshaft.maxStackSize = 64;
+stellaralloyshaft.beaconPayment = false;
+stellaralloyshaft.register();
+
+var crystaltungstensteel = VanillaFactory.createItem("crystallized_tungstensteel");
+crystaltungstensteel.maxStackSize = 64;
+crystaltungstensteel.beaconPayment = false;
+crystaltungstensteel.register();
+
+var tungstenmolybdenum = VanillaFactory.createItem("tungsten_molybdenum_dust");
+tungstenmolybdenum.maxStackSize = 64;
+tungstenmolybdenum.beaconPayment = false;
+tungstenmolybdenum.register();
+
+var lanthanumdust = VanillaFactory.createItem("lanthanum_salt");
+lanthanumdust.maxStackSize = 64;
+lanthanumdust.beaconPayment = false;
+lanthanumdust.register();
+
+var technemiumremains = VanillaFactory.createItem("technetium_remains");
+technemiumremains.maxStackSize = 64;
+technemiumremains.beaconPayment = false;
+technemiumremains.register();
+
+var compressedrealgar = VanillaFactory.createItem("compressed_realgar");
+compressedrealgar.maxStackSize = 64;
+compressedrealgar.beaconPayment = false;
+compressedrealgar.register();
+
+var harbiterfrag = VanillaFactory.createItem("fragment_of_the_arbiter");
+harbiterfrag.maxStackSize = 64;
+harbiterfrag.beaconPayment = false;
+harbiterfrag.register();
+
+var floodstone = VanillaFactory.createItem("flood_stone");
+floodstone.maxStackSize = 64;
+floodstone.beaconPayment = false;
+floodstone.register();
+
+var sacredcinderslog = VanillaFactory.createItem("sacred_cinders_log");
+sacredcinderslog.maxStackSize = 64;
+sacredcinderslog.beaconPayment = false;
+sacredcinderslog.register();
+
+var sacredcindersseed = VanillaFactory.createItem("sacred_cinders_seed");
+sacredcindersseed.maxStackSize = 64;
+sacredcindersseed.beaconPayment = false;
+sacredcindersseed.register();
+
+var everburningseed = VanillaFactory.createItem("everburning_seed");
+everburningseed.maxStackSize = 64;
+everburningseed.beaconPayment = false;
+everburningseed.register();
+
+var alumitefork = VanillaFactory.createItem("alumite_fork");
+alumitefork.maxStackSize = 64;
+alumitefork.beaconPayment = false;
+alumitefork.register();

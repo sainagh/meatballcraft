@@ -1,0 +1,13 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	description: "Thermoelectric generators are the best way to get started",
+	dependencies: [
+		"fac6a69a"
+	],
+	tasks: [{
+		uid: "57a36b9d",
+		type: "checkmark",
+		title: "Chaper 1 Sources"
+	}]
+}

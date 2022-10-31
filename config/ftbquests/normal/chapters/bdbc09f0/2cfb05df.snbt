@@ -1,12 +1,12 @@
 {
-	x: -6.0d,
-	y: 6.0d,
+	x: 3.0d,
+	y: 1.0d,
 	text: [
 		"Generates RF by burning Peat",
 		"A dry peat bog placed in water can be tuned into peat fuel."
 	],
 	dependencies: [
-		"fac6a69a"
+		"0a0a6666"
 	],
 	tasks: [{
 		uid: "85a2cc3a",

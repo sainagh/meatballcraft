@@ -3599,6 +3599,114 @@
     {
       "item": "actuallyadditions:item_dust|5",
       "emc": 0
+    },
+    {
+      "item": "nuclearcraft:ingot_block|11",
+      "emc": 0
+    },
+    {
+      "item": "nuclearcraft:ingot_block|10",
+      "emc": 0
+    },
+    {
+      "item": "nuclearcraft:ingot_block|9",
+      "emc": 0
+    },
+    {
+      "item": "astralsorcery:blockmarbleslab|0",
+      "emc": 0
+    },
+    {
+      "item": "hatchery:chickenmanure|0",
+      "emc": 55
+    },
+    {
+      "item": "contenttweaker:recursive_feather|0",
+      "emc": 3000000000
+    },
+    {
+      "item": "aether_legacy:holystone|0",
+      "emc": 16
+    },
+    {
+      "item": "aether_legacy:mossy_holystone|0",
+      "emc": 16
+    },
+    {
+      "item": "ebwizardry:runestone|1",
+      "emc": 1024
+    },
+    {
+      "item": "ebwizardry:runestone|2",
+      "emc": 1024
+    },
+    {
+      "item": "ebwizardry:runestone|3",
+      "emc": 1024
+    },
+    {
+      "item": "ebwizardry:runestone|4",
+      "emc": 1024
+    },
+    {
+      "item": "ebwizardry:runestone|5",
+      "emc": 1024
+    },
+    {
+      "item": "ebwizardry:runestone|6",
+      "emc": 1024
+    },
+    {
+      "item": "ebwizardry:runestone|7",
+      "emc": 1024
+    },
+    {
+      "item": "ebwizardry:runestone_pedestal|7",
+      "emc": 1024
+    },
+    {
+      "item": "ebwizardry:runestone_pedestal|6",
+      "emc": 1024
+    },
+    {
+      "item": "ebwizardry:runestone_pedestal|5",
+      "emc": 1024
+    },
+    {
+      "item": "ebwizardry:runestone_pedestal|4",
+      "emc": 1024
+    },
+    {
+      "item": "ebwizardry:runestone_pedestal|3",
+      "emc": 1024
+    },
+    {
+      "item": "ebwizardry:runestone_pedestal|2",
+      "emc": 1024
+    },
+    {
+      "item": "ebwizardry:runestone_pedestal|1",
+      "emc": 1024
+    },
+    {
+      "item": "packagedauto:recipe_holder|0",
+      "emc": 0
+    },
+    {
+      "item": "projectex:knowledge_sharing_book|0",
+      "emc": 18645
+    },
+    {
+      "item": "minecraft:sandstone|0",
+      "emc": 4
+    },
+    {
+      "item": "divinerpg:arcanite_tubes|0",
+      "emc": 1024
+    },
+    {
+      "item": "mod_lavacow:mossy_stick|0",
+      "emc": 0
     }
   ]
 }

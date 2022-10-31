@@ -1,12 +1,12 @@
 {
-	x: -6.0d,
-	y: -2.0d,
+	x: 7.0d,
+	y: 2.0d,
 	text: [
 		"Passive RF from the sun!",
 		"The more compact, the better!"
 	],
 	dependencies: [
-		"fac6a69a"
+		"024052db"
 	],
 	tasks: [{
 		uid: "ecd04ba4",

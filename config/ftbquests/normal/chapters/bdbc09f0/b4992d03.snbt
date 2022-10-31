@@ -1,6 +1,6 @@
 {
-	x: 7.0d,
-	y: -7.0d,
+	x: 11.0d,
+	y: -2.0d,
 	description: "Active fluid coolers can be filled with fluids for better cooling. Ports are used to move fluids into the reactors. Pipes can be used inside the reactor.",
 	dependencies: [
 		"177d7078"

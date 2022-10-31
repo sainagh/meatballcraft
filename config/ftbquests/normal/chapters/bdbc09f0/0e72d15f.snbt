@@ -1,12 +1,12 @@
 {
 	title: "Arc Reactor",
-	x: -2.0d,
-	y: -7.0d,
+	x: 23.5d,
+	y: 2.0d,
 	text: [
 		"The Arc Reactor passively produces RF, as well as Arc Residue."
 	],
 	dependencies: [
-		"fac6a69a"
+		"248c48e3"
 	],
 	tasks: [{
 		uid: "daae9a26",

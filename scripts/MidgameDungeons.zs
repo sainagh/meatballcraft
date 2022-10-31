@@ -605,4 +605,96 @@ arcaneprisonkey.itemRightClick = function(stack, world, player, hand) {
 };
 arcaneprisonkey.register();
 
-// /summon divinerpg:death_hound ~ ~10 ~-5 {HandItems:[{Count:1,id:\"contenttweaker:sympan_spirit\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:20000.0},{Name:generic.attackDamage, Base:10000.0}],Health:20000f}
+// /summon abyssalcraft:shadowbeast ~ ~10 ~-5 {HandItems:[{Count:1,id:"contenttweaker:flood_stone"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:30000.0},{Name:generic.attackDamage, Base: 20000.0}],Health:30000f}
+
+
+var callofthejudge = VanillaFactory.createItem("call_of_the_arbiter");
+callofthejudge.maxStackSize = 1;
+callofthejudge.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var pos = player.position.asPosition3f();
+
+	// check if player is standing on beacon
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station to assemble this multiblock");
+	}
+    if(blockBelow != <blockstate:minecraft:purpur_block>) {
+        player.sendChat("THIS CANNOT BE UNDONE - Stand on a purpur block to mark where you want to place the multiblock");
+        return "FAIL";
+    }
+    
+	
+
+    Commands.call("setblock ~ ~6 ~ contenttweaker:scale_of_the_ancient_heart", player, world, true, true);
+
+    return "PASS";
+
+};
+callofthejudge.register();
+
+
+var aesirrift = VanillaFactory.createItem("aesir_rift");
+aesirrift.maxStackSize = 1;
+aesirrift.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+    // obtain position under player
+	var pos = player.position.asPosition3f();
+
+	// check if player is standing on beacon
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+    player.sendChat("This will place down a structure, place away from your other stuff");
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station to assemble this multiblock");
+	}
+    if(blockBelow != <blockstate:minecraft:purpur_block>) {
+        player.sendChat("THIS CANNOT BE UNDONE - Stand on a purpur block to mark where you want to place the multiblock");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn asgard_furnace", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+aesirrift.register();
+
+
+var mossygravedust = VanillaFactory.createItem("mossy_grave_dust");
+mossygravedust.maxStackSize = 1;
+mossygravedust.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+    // check if player is in spatial storage
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in the overworld");
+        return "FAIL";
+    }
+
+    Commands.call("time set night", player, world, true, true);
+    Commands.call("summon mod_lavacow:sludgelord ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, true, true);
+    player.sendChat("Kill it!");
+    stack.shrink(1);
+    return "PASS";
+
+};
+mossygravedust.register();

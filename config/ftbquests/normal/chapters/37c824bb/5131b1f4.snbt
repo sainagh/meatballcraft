@@ -12,5 +12,15 @@
 		items: [{
 			item: "contenttweaker:arc_reactor_coil"
 		}]
+	},
+	{
+		uid: "c50e946b",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:arc_reactor"
+			}
+		}]
 	}]
 }

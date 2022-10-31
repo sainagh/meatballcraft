@@ -1,11 +1,11 @@
 {
-	x: 6.0d,
-	y: 3.0d,
+	x: 3.0d,
+	y: -1.0d,
 	text: [
 		"Produce RF using protein, which is made with a Protein Reactor."
 	],
 	dependencies: [
-		"fac6a69a"
+		"0a0a6666"
 	],
 	tasks: [{
 		uid: "54203bde",

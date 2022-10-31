@@ -1,6 +1,6 @@
 {
 	title: "EZ Neutrinos",
-	x: 80.0d,
+	x: 83.0d,
 	y: -4.5d,
 	dependencies: [
 		"452a749f"

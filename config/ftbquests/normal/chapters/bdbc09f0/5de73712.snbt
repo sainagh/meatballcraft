@@ -1,13 +1,13 @@
 {
 	title: "Salt Reactor",
-	x: 1.0d,
-	y: -7.0d,
+	x: 23.5d,
+	y: -2.0d,
 	description: "Are you really doing this??",
 	text: [
 		"These are complex, like for real!"
 	],
 	dependencies: [
-		"fac6a69a"
+		"248c48e3"
 	],
 	tasks: [{
 		uid: "df0e787d",

@@ -167,7 +167,8 @@ reci14.build();
 
 val reci15 = RecipeBuilder.newBuilder("inf15","arcane_autoinfuser",120);
 reci15.addEnergyPerTickInput(100);
-reci15.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "motus"}]})*4096);
+reci15.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "motus"}]})*2048);
+reci15.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "motus"}]})*2048);
 reci15.addItemInput(<twilightforest:minotaur_axe_gold>);
 reci15.addItemInput(<contenttweaker:master_spell_focus>);
 reci15.addItemInput(<thaumadditions:mithminite_fabric>);
@@ -176,7 +177,8 @@ reci15.build();
 
 val reci16 = RecipeBuilder.newBuilder("inf16","arcane_autoinfuser",120);
 reci16.addEnergyPerTickInput(100);
-reci16.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})*4096);
+reci16.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})*2048);
+reci16.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})*2048);
 reci16.addItemInput(<contenttweaker:corallus_polyp>);
 reci16.addItemInput(<contenttweaker:master_spell_focus>);
 reci16.addItemInput(<thaumadditions:mithminite_fabric>);
@@ -185,7 +187,8 @@ reci16.build();
 
 val reci17 = RecipeBuilder.newBuilder("inf17","arcane_autoinfuser",120);
 reci17.addEnergyPerTickInput(100);
-reci17.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]})*4096);
+reci17.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]})*2048);
+reci17.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]})*2048);
 reci17.addItemInput(<divinerpg:snowflake>);
 reci17.addItemInput(<contenttweaker:master_spell_focus>);
 reci17.addItemInput(<thaumadditions:mithminite_fabric>);
@@ -194,7 +197,8 @@ reci17.build();
 
 val reci18 = RecipeBuilder.newBuilder("inf18","arcane_autoinfuser",120);
 reci18.addEnergyPerTickInput(100);
-reci18.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]})*4096);
+reci18.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]})*2048);
+reci18.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]})*2048);
 reci18.addItemInput(<astralsorcery:blockworldilluminator>);
 reci18.addItemInput(<contenttweaker:master_spell_focus>);
 reci18.addItemInput(<thaumadditions:mithminite_fabric>);
@@ -203,7 +207,8 @@ reci18.build();
 
 val reci19 = RecipeBuilder.newBuilder("inf19","arcane_autoinfuser",120);
 reci19.addEnergyPerTickInput(100);
-reci19.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})*4096);
+reci19.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})*2048);
+reci19.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})*2048);
 reci19.addItemInput(<bloodmagic:ritual_controller:1>);
 reci19.addItemInput(<contenttweaker:master_spell_focus>);
 reci19.addItemInput(<thaumadditions:mithminite_fabric>);
@@ -212,7 +217,8 @@ reci19.build();
 
 val reci20 = RecipeBuilder.newBuilder("inf20","arcane_autoinfuser",120);
 reci20.addEnergyPerTickInput(100);
-reci20.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})*4096);
+reci20.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})*2048);
+reci20.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})*2048);
 reci20.addItemInput(<bloodmagic:ritual_controller:1>);
 reci20.addItemInput(<contenttweaker:master_spell_focus>);
 reci20.addItemInput(<thaumadditions:mithminite_fabric>);
@@ -221,7 +227,8 @@ reci20.build();
 
 val reci21 = RecipeBuilder.newBuilder("inf21","arcane_autoinfuser",120);
 reci21.addEnergyPerTickInput(100);
-reci21.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]})*4096);
+reci21.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]})*2048);
+reci21.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]})*2048);
 reci21.addItemInput(<contenttweaker:living_gold>);
 reci21.addItemInput(<contenttweaker:master_spell_focus>);
 reci21.addItemInput(<thaumadditions:mithminite_fabric>);
@@ -230,7 +237,8 @@ reci21.build();
 
 val reci22 = RecipeBuilder.newBuilder("inf22","arcane_autoinfuser",120);
 reci22.addEnergyPerTickInput(100);
-reci22.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]})*4096);
+reci22.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]})*2048);
+reci22.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]})*2048);
 reci22.addItemInput(<contenttweaker:ancient_remnants>);
 reci22.addItemInput(<contenttweaker:master_spell_focus>);
 reci22.addItemInput(<thaumadditions:mithminite_fabric>);
@@ -239,7 +247,8 @@ reci22.build();
 
 val reci23 = RecipeBuilder.newBuilder("inf23","arcane_autoinfuser",120);
 reci23.addEnergyPerTickInput(100);
-reci23.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})*4096);
+reci23.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})*2048);
+reci23.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})*2048);
 reci23.addItemInput(<contenttweaker:ancient_remnants>);
 reci23.addItemInput(<contenttweaker:master_spell_focus>);
 reci23.addItemInput(<thaumadditions:mithminite_fabric>);
@@ -248,7 +257,8 @@ reci23.build();
 
 val reci24 = RecipeBuilder.newBuilder("inf24","arcane_autoinfuser",120);
 reci24.addEnergyPerTickInput(100);
-reci24.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "auram"}]})*4096);
+reci24.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "auram"}]})*2048);
+reci24.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "auram"}]})*2048);
 reci24.addItemInput(<contenttweaker:ancient_remnants>);
 reci24.addItemInput(<contenttweaker:master_spell_focus>);
 reci24.addItemInput(<thaumadditions:mithminite_fabric>);
@@ -257,7 +267,8 @@ reci24.build();
 
 val reci25 = RecipeBuilder.newBuilder("inf25","arcane_autoinfuser",120);
 reci25.addEnergyPerTickInput(100);
-reci25.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "lux"}]})*4096);
+reci25.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "lux"}]})*2048);
+reci25.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "lux"}]})*2048);
 reci25.addItemInput(<contenttweaker:ancient_remnants>);
 reci25.addItemInput(<contenttweaker:master_spell_focus>);
 reci25.addItemInput(<thaumadditions:mithminite_fabric>);
@@ -281,7 +292,8 @@ reci26.build();
 
 val reci27 = RecipeBuilder.newBuilder("inf27","arcane_autoinfuser",120);
 reci27.addEnergyPerTickInput(100);
-reci27.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "diabolus"}]})*4096);
+reci27.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "diabolus"}]})*2048);
+reci27.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "diabolus"}]})*2048);
 reci27.addItemInput(<contenttweaker:nethengeic_bone>);
 reci27.addItemInput(<contenttweaker:master_spell_focus>);
 reci27.addItemInput(<thaumadditions:mithminite_fabric>);
@@ -290,7 +302,8 @@ reci27.build();
 
 val reci28 = RecipeBuilder.newBuilder("inf28","arcane_autoinfuser",120);
 reci28.addEnergyPerTickInput(100);
-reci28.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praemunio"}]})*4096);
+reci28.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praemunio"}]})*2048);
+reci28.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praemunio"}]})*2048);
 reci28.addItemInput(<contenttweaker:greater_gaia_spirit>);
 reci28.addItemInput(<contenttweaker:master_spell_focus>);
 reci28.addItemInput(<thaumadditions:mithminite_fabric>);
@@ -299,7 +312,8 @@ reci28.build();
 
 val reci29 = RecipeBuilder.newBuilder("inf29","arcane_autoinfuser",120);
 reci29.addEnergyPerTickInput(100);
-reci29.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]})*4096);
+reci29.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]})*2048);
+reci29.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]})*2048);
 reci29.addItemInput(<iceandfire:amphithere_skull>);
 reci29.addItemInput(<contenttweaker:master_spell_focus>);
 reci29.addItemInput(<thaumadditions:mithminite_fabric>);
@@ -318,7 +332,8 @@ reci30.build();
 
 val reci31 = RecipeBuilder.newBuilder("inf31","arcane_autoinfuser",120);
 reci31.addEnergyPerTickInput(100);
-reci31.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "dreadia"}]})*4096);
+reci31.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "dreadia"}]})*2048);
+reci31.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "dreadia"}]})*2048);
 reci31.addItemInput(<abyssalcraft:eoa>);
 reci31.addItemInput(<contenttweaker:master_spell_focus>);
 reci31.addItemInput(<thaumadditions:mithminite_fabric>);

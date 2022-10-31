@@ -75,9 +75,10 @@ abyssaldyson.build();
 
 val dragondysirrad = RecipeBuilder.newBuilder("dragondysirrad","dragonfire_crucible",100);
 dragondysirrad.addFluidInput(<fluid:eternal_dragon_fire>*1000);
-dragondysirrad.addItemInput(<ebwizardry:large_mana_flask>*2);
 dragondysirrad.addItemInput(<botania:manaresource:15>*4);
 dragondysirrad.addItemInput(<minecraft:dragon_breath>*64);
+dragondysirrad.addItemInput(<materialpart:dreaded_steel:plate>*14);
+dragondysirrad.addItemInput(<contenttweaker:hyperchitinous_plate>*12);
 dragondysirrad.addItemInput(<contenttweaker:high_density_frame>);
 dragondysirrad.addItemOutput(<contenttweaker:annealed_high_density_frame>);
 dragondysirrad.build();

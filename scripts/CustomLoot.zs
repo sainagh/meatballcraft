@@ -16,6 +16,16 @@ mods.ltt.LootTable.removeGlobalItem("biomesoplenty:sapling_1:7");
 
 mods.ltt.LootTable.removeGlobalItem("aoa3:shiny_box");
 
+mods.ltt.LootTable.removeGlobalItem("ebwizardry:magic_wand");
+mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_ice_wand");
+mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_fire_wand");
+mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_lightning_wand");
+mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_necromancy_wand");
+mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_earth_wand");
+mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_sorcery_wand");
+mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_healing_wand");
+
+
 val firedragfem = LootTweaker.getTable("iceandfire:fire_dragon_female_cave");
 val firedragfemr1 = firedragfem.addPool("firedragfemr1", 1, 1, 0, 0);
 firedragfemr1.addItemEntry(<contenttweaker:botanic_alchemic_catalyst>, 1);
@@ -78,6 +88,8 @@ val dimdoordungeon = LootTweaker.getTable("dimdoors:dungeon_chest");
 val dimdoorsdungeonroll = dimdoordungeon.addPool("dimdoorsdungeonroll", 1, 1, 0, 0);
 dimdoorsdungeonroll.addItemEntry(<ebwizardry:grand_crystal>, 5);
 dimdoorsdungeonroll.addItemEntry(<projecte:item.pe_matter:1>, 2);
+dimdoorsdungeonroll.addItemEntry(<techreborn:ingot:14>, 3);
+dimdoorsdungeonroll.addItemEntry(<thermalfoundation:material:134>, 3);
 
 val mothervoidwalker = LootTweaker.getTable("aoa3:entities/mobs/overworld/mother_void_walker");
 val mothervoidwalkerroll = mothervoidwalker.addPool("mothervoidwalkerroll", 1, 1, 0, 0);

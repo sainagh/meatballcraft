@@ -1,7 +1,8 @@
 {
 	title: "Death is just another journey...",
-	x: 3.5d,
-	y: -1.5d,
+	x: -2.5d,
+	y: -3.0d,
+	description: "Undead mobs drop grave dust",
 	text: [
 		"What is going on? This is scary!",
 		"I thought I would be done for, I thought I was going to die...",
@@ -12,7 +13,7 @@
 		"Should I assume that someone, or something, wants me alive?!"
 	],
 	dependencies: [
-		"fb8062a2"
+		"08163966"
 	],
 	hide: true,
 	tasks: [{

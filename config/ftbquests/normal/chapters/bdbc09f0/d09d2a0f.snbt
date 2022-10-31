@@ -1,6 +1,6 @@
 {
-	x: 4.0d,
-	y: -9.0d,
+	x: 14.0d,
+	y: -4.0d,
 	text: [
 		"Thorium is not the best for energy throughput, but accelerating its decay should yield good isotopes to be further bred into more fuels!"
 	],

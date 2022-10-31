@@ -1,11 +1,11 @@
 {
-	x: -6.0d,
+	x: -1.0d,
 	y: 1.0d,
 	text: [
 		"This generator consumes seeds and meats to generate RF."
 	],
 	dependencies: [
-		"fac6a69a"
+		"0a0a6666"
 	],
 	tasks: [{
 		uid: "6e73e983",

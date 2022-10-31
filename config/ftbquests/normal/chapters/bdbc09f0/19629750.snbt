@@ -1,11 +1,11 @@
 {
-	x: -1.5d,
-	y: 8.0d,
+	x: 19.0d,
+	y: 3.0d,
 	text: [
 		"Energy from lava..."
 	],
 	dependencies: [
-		"fac6a69a"
+		"ff287def"
 	],
 	tasks: [{
 		uid: "6ae92655",

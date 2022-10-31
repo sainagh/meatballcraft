@@ -313,6 +313,13 @@ recipes.addShaped(<nuclearcraft:part:11>,
 [<minecraft:bucket>, null, <minecraft:bucket>],
 [<ore:plateLead>, <ore:ingotTin>, <ore:plateLead>]]);
 
+recipes.removeShaped(<nuclearcraft:fission_controller_new_fixed>);
+
+recipes.addShaped(<nuclearcraft:fission_controller_new_fixed>,
+[[<nuclearcraft:part:1>, <nuclearcraft:part:5>, <nuclearcraft:part:1>],
+[<nuclearcraft:nuclear_furnace_idle>, <nuclearcraft:part:10>, <nuclearcraft:nuclear_furnace_idle>],
+[<nuclearcraft:part:1>, <contenttweaker:blue_matter>, <nuclearcraft:part:1>]]);
+
 recipes.removeShaped(<nuclearcraft:salt_fission_controller>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:salt_fission_controller>, 
@@ -348,3 +355,86 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:salt_fission_vessel>
 [<contenttweaker:fiery_rhenium_ingot>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:salt_fission_frame>, <nuclearcraft:alloy:12>, <nuclearcraft:salt_fission_frame>, <materialpart:vibranium_alloy:gear>, <contenttweaker:fiery_rhenium_ingot>], 
 [<nuclearcraft:part:3>, <nuclearcraft:part:7>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:alloy:12>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:part:7>, <nuclearcraft:part:3>], 
 [<nuclearcraft:part:3>, <nuclearcraft:part:3>, <contenttweaker:fiery_rhenium_ingot>, <aoa3:ambient_infusion_stone>, <contenttweaker:fiery_rhenium_ingot>, <nuclearcraft:part:3>, <nuclearcraft:part:3>]]);  
+
+recipes.addShaped(<contenttweaker:restless_steel_frame>,
+[[<contenttweaker:restless_steel_ingot>, <ore:blockSoularium>, <contenttweaker:restless_steel_ingot>],
+[<ore:blockSoularium>, <nuclearcraft:part:12>, <ore:blockSoularium>],
+[<contenttweaker:restless_steel_ingot>, <ore:blockSoularium>, <contenttweaker:restless_steel_ingot>]]);
+
+recipes.removeShaped(<nuclearcraft:heat_exchanger_wall>);
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_wall>*8, 
+[[<ore:blockSteel>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <ore:blockSteel>], 
+[<nuclearcraft:alloy:11>, <railcraft:tank_iron_wall>, null, <railcraft:tank_iron_wall>, null, <railcraft:tank_iron_wall>, <nuclearcraft:alloy:11>], 
+[<nuclearcraft:alloy:11>, null, <thebetweenlands:items_misc:24>, <thaumicaugmentation:impetus_drainer>, <thebetweenlands:items_misc:24>, null, <nuclearcraft:alloy:11>], 
+[<forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <railcraft:tank_iron_wall>, <thaumicaugmentation:impetus_drainer>, <contenttweaker:restless_steel_frame>, <thaumicaugmentation:impetus_drainer>, <railcraft:tank_iron_wall>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000})], 
+[<nuclearcraft:alloy:11>, null, <thebetweenlands:items_misc:24>, <thaumicaugmentation:impetus_drainer>, <thebetweenlands:items_misc:24>, null, <nuclearcraft:alloy:11>], 
+[<nuclearcraft:alloy:11>, <railcraft:tank_iron_wall>, null, <railcraft:tank_iron_wall>, null, <railcraft:tank_iron_wall>, <nuclearcraft:alloy:11>], 
+[<ore:blockSteel>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <ore:blockSteel>]]);  
+
+recipes.addShaped(<contenttweaker:stellar_alloy_shaft>,
+[[<ore:blockSoularium>, <ore:blockStellarAlloy>, <ore:blockSoularium>],
+[<ore:blockSoularium>, <ore:blockStellarAlloy>, <ore:blockSoularium>],
+[<ore:blockSoularium>, <ore:blockStellarAlloy>, <ore:blockSoularium>]]);
+
+recipes.removeShaped(<nuclearcraft:heat_exchanger_frame>);
+
+recipes.addShaped(<nuclearcraft:heat_exchanger_frame>,
+[[<contenttweaker:shadow_steel>, <contenttweaker:stellar_alloy_shaft>, <contenttweaker:shadow_steel>],
+[<ore:blockSoularium>, <nuclearcraft:heat_exchanger_wall>, <ore:blockSoularium>],
+[<contenttweaker:shadow_steel>, <contenttweaker:stellar_alloy_shaft>, <contenttweaker:shadow_steel>]]);
+
+recipes.removeShaped(<nuclearcraft:heat_exchanger_controller>);
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_controller>, 
+[[<nuclearcraft:part:3>, <contenttweaker:lothlorien_dust>, <contenttweaker:lothlorien_dust>, <materialpart:vibranium_alloy:gear>, <contenttweaker:lothlorien_dust>, <contenttweaker:lothlorien_dust>, <nuclearcraft:part:3>], 
+[<contenttweaker:lothlorien_dust>, <ore:ingotUltimate>, <enderio:item_material:43>, <ore:ingotInsanium>, <enderio:item_material:43>, <ore:ingotUltimate>, <contenttweaker:lothlorien_dust>], 
+[<contenttweaker:lothlorien_dust>, <enderio:item_material:43>, <bloodmagic:decorative_brick:2>, <contenttweaker:supertranslucent_catalyst>, <bloodmagic:decorative_brick:2>, <enderio:item_material:43>, <contenttweaker:lothlorien_dust>], 
+[<materialpart:vibranium_alloy:gear>, <contenttweaker:supertranslucent_catalyst>, <ore:ingotInsanium>, <nuclearcraft:heat_exchanger_wall>, <ore:ingotInsanium>, <contenttweaker:supertranslucent_catalyst>, <materialpart:vibranium_alloy:gear>], 
+[<contenttweaker:lothlorien_dust>, <enderio:item_material:43>, <bloodmagic:decorative_brick:2>, <contenttweaker:supertranslucent_catalyst>, <bloodmagic:decorative_brick:2>, <enderio:item_material:43>, <contenttweaker:lothlorien_dust>], 
+[<contenttweaker:lothlorien_dust>, <ore:ingotUltimate>, <enderio:item_material:43>, <ore:ingotInsanium>, <enderio:item_material:43>, <ore:ingotUltimate>, <contenttweaker:lothlorien_dust>], 
+[<nuclearcraft:part:3>, <contenttweaker:lothlorien_dust>, <contenttweaker:lothlorien_dust>, <materialpart:vibranium_alloy:gear>, <contenttweaker:lothlorien_dust>, <contenttweaker:lothlorien_dust>, <nuclearcraft:part:3>]]);  
+
+recipes.removeShaped(<nuclearcraft:heat_exchanger_tube_thermoconducting>);
+recipes.removeShaped(<nuclearcraft:heat_exchanger_tube_copper>);
+recipes.removeShaped(<nuclearcraft:heat_exchanger_tube_hard_carbon>);
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<techreborn:upgrades:3>, <bewitchment:golden_thread>*32, <contenttweaker:superconducting_thread>]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_thermoconducting>, 
+[[<nuclearcraft:part:3>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
+<contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
+<aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <nuclearcraft:part:3>], 
+
+[<nuclearcraft:part:3>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <nuclearcraft:part:3>], 
+
+[<aoa3:radiant_infusion_stone>, <nuclearcraft:alloy:11>, <contenttweaker:horcrux>, 
+<contenttweaker:imperfect_neutronium_nugget>, <contenttweaker:superconducting_thread>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:horcrux>, <nuclearcraft:alloy:11>, <aoa3:radiant_infusion_stone>], 
+
+[<contenttweaker:inert_crystal>, <nuclearcraft:alloy:11>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:mythic_machine_case>, <libvulpes:advstructuremachine>, <contenttweaker:mythic_machine_case>, 
+<contenttweaker:imperfect_neutronium_nugget>, <nuclearcraft:alloy:11>, <contenttweaker:inert_crystal>], 
+
+[<openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <nuclearcraft:alloy:11>, <libvulpes:advstructuremachine>, 
+<contenttweaker:superconducting_thread>, <contenttweaker:arc_reactor_coil>, <contenttweaker:superconducting_thread>, 
+<libvulpes:advstructuremachine>, <nuclearcraft:alloy:11>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}})], 
+
+[<contenttweaker:inert_crystal>, <nuclearcraft:alloy:11>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:mythic_machine_case>, <libvulpes:advstructuremachine>, <contenttweaker:mythic_machine_case>, 
+<contenttweaker:imperfect_neutronium_nugget>, <nuclearcraft:alloy:11>, <contenttweaker:inert_crystal>], 
+
+[<aoa3:radiant_infusion_stone>, <nuclearcraft:alloy:11>, <contenttweaker:horcrux>, 
+<contenttweaker:imperfect_neutronium_nugget>, <contenttweaker:superconducting_thread>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:horcrux>, <nuclearcraft:alloy:11>, <aoa3:radiant_infusion_stone>], 
+
+[<nuclearcraft:part:3>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <nuclearcraft:part:3>], 
+
+[<nuclearcraft:part:3>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
+<contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
+<aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <nuclearcraft:part:3>]]);  
+

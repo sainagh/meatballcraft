@@ -1,6 +1,6 @@
 {
-	x: 7.0d,
-	y: 2.0d,
+	x: 1.0d,
+	y: -3.0d,
 	text: [
 		"This upgrade can be used to modify the numismatic dynamo into accepting gems as inputs."
 	],

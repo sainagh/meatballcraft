@@ -1,6 +1,6 @@
 {
-	x: 5.0d,
-	y: -7.0d,
+	x: 15.0d,
+	y: -2.0d,
 	description: "Moderators increase the efficiency of cells (more power, less fuel), but they also increase heat. They need to be placed next to cells.",
 	dependencies: [
 		"177d7078"

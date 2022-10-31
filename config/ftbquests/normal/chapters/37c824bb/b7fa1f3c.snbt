@@ -1,0 +1,15 @@
+{
+	x: 6.5d,
+	y: -3.0d,
+	dependencies: [
+		"32186641"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0e52e6cf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sentient_meatball"
+		}]
+	}]
+}

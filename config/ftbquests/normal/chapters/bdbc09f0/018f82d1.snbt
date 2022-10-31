@@ -1,6 +1,6 @@
 {
-	x: 0.0d,
-	y: -7.0d,
+	x: 19.0d,
+	y: -2.0d,
 	text: [
 		"This reactor uses the fusion between gases to produce A TON of RF.",
 		"It is built with a controller in the middle. Out of each of the four 'arms' of the controller, at least one fusion connector should be placed.",
@@ -9,7 +9,7 @@
 		"In a fusion reactor, central symmetry around the controller should be mantained for optimal results!"
 	],
 	dependencies: [
-		"fac6a69a"
+		"ff287def"
 	],
 	tasks: [{
 		uid: "b1514308",

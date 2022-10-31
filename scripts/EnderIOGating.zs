@@ -383,3 +383,10 @@ mods.extendedcrafting.TableCrafting.addShaped(<enderio:item_capacitor_melodic>*4
 [<contenttweaker:jeweled_runium>, <enderio:item_alloy_endergy_ingot:2>, <twilightforest:fiery_ingot>, <enderio:item_alloy_endergy_ingot:2>, <contenttweaker:jeweled_runium>], 
 [<bloodmagic:slate:1>, <enderio:item_alloy_endergy_ingot:2>, <enderio:item_alloy_endergy_ingot:2>, <enderio:item_alloy_endergy_ingot:2>, <bloodmagic:slate:1>], 
 [<enderio:item_capacitor_crystalline>, <bloodmagic:slate:1>, <ore:ingotEndSteel>, <bloodmagic:slate:1>, <enderio:item_capacitor_crystalline>]]);  
+
+recipes.remove(<enderio:item_material:38>);
+
+recipes.addShaped(<enderio:item_material:38>,
+[[<ore:dustLapis>, <ore:itemSilicon>, <ore:dustLapis>],
+[<ore:itemSilicon>, <ore:gemZanite>, <ore:itemSilicon>],
+[<ore:dustLapis>, <ore:itemSilicon>, <ore:dustLapis>]]);

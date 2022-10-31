@@ -179,3 +179,9 @@ recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "conarm:polishing_kit"
 [[null, <extrautils2:decorativesolid:2>, null],
 [<extrautils2:decorativesolid:2>, <tconstruct:pattern>, <extrautils2:decorativesolid:2>],
 [null, <extrautils2:decorativesolid:2>, null]]);
+
+recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "plustic:laser_medium"}),
+[[<environmentaltech:laser_lens_crystal>, <contenttweaker:flood_stone>, <environmentaltech:laser_lens_crystal>],
+[<environmentaltech:laser_lens_crystal>, <tconstruct:pattern>, <environmentaltech:laser_lens_crystal>],
+[<environmentaltech:laser_lens_crystal>, <contenttweaker:flood_stone>, <environmentaltech:laser_lens_crystal>]]);
+

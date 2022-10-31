@@ -1,6 +1,6 @@
 {
-	x: 4.0d,
-	y: -7.0d,
+	x: 14.0d,
+	y: -2.0d,
 	description: "Fuel cells are where your fuel goes. The more, the higher the energy and the higher the heat. If the heat is too high, things explode.",
 	dependencies: [
 		"177d7078"

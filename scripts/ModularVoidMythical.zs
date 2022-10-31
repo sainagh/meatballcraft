@@ -79,15 +79,15 @@ recipes.addShaped(<projectex:compressed_refined_link>,
 
 val mith2 = RecipeBuilder.newBuilder("mythicaltier2","mythical_resource_miner_tier2",800);
 mith2.addEnergyPerTickInput(30000);
-mith2.addItemOutput(<aoa3:carved_rune_travel>);
+mith2.addItemOutput(<aoa3:carved_rune_travel>*15);
 mith2.setChance(0.15);
-mith2.addItemOutput(<aoa3:carved_rune_reality>);
+mith2.addItemOutput(<aoa3:carved_rune_reality>*15);
 mith2.setChance(0.15);
-mith2.addItemOutput(<aoa3:carved_rune_space>);
+mith2.addItemOutput(<aoa3:carved_rune_space>*15);
 mith2.setChance(0.15);
-mith2.addItemOutput(<aoa3:carved_rune_direction>);
+mith2.addItemOutput(<aoa3:carved_rune_direction>*15);
 mith2.setChance(0.15);
-mith2.addItemOutput(<aoa3:carved_rune_power>);
+mith2.addItemOutput(<aoa3:carved_rune_power>*15);
 mith2.setChance(0.15);
 mith2.addItemOutput(<aoa3:chilli>*10);
 mith2.setChance(0.05);
@@ -125,7 +125,7 @@ cruc1.build();
 
 val mith3 = RecipeBuilder.newBuilder("mythicaltier3","mythical_resource_miner_tier3",800);
 mith3.addEnergyPerTickInput(45000);
-mith3.addFluidInput(<fluid:dimensional_essence>*100);
+mith3.addFluidInput(<fluid:dimensional_essence>*50);
 mith3.addItemOutput(<aoa3:small_skill_crystal>);
 mith3.setChance(0.01);
 mith3.addItemOutput(<aoa3:gem_bag>);
@@ -1870,7 +1870,7 @@ mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>,
 mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
 <aoa3:iromine_tokens>, 180, <extendedcrafting:material:11>, 10000000);
 
-mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:chaos_pearl>, <materialpart:chaos:ingot>, 100, <extendedcrafting:material:11>, 1000000000,10000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:chaos_pearl>, <materialpart:chaos:ingot>, 100, <extendedcrafting:material:11>, 1000000000,1000000);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:skythern_star>, 
 2000000, 
@@ -2187,7 +2187,7 @@ mods.techreborn.implosionCompressor.addRecipe(<contenttweaker:unidentified_plate
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:collapser_casing>*4, 
 [[<contenttweaker:nightmare_coil>, <materialpart:primal_ogerite:ingot>, <contenttweaker:nightmare_coil>, 
-<thaumadditions:adaminite_ingot>, <contenttweaker:unidentified_plate>, <thaumadditions:adaminite_ingot>, 
+<thaumadditions:adaminite_ingot>, <contenttweaker:gravitite_stone>, <thaumadditions:adaminite_ingot>, 
 <contenttweaker:nightmare_coil>, <materialpart:primal_ogerite:ingot>, <contenttweaker:nightmare_coil>], 
 
 [<materialpart:primal_ogerite:ingot>, <contenttweaker:instant_power_junction>, <contenttweaker:enchanted_myrmitite>, 
@@ -2202,9 +2202,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:collapser_casing>*
 <nuclearcraft:fusion_connector>, <contenttweaker:twilight_gear>, <nuclearcraft:fusion_connector>, 
 <contenttweaker:enchanted_myrmitite>, <contenttweaker:imperfect_gem_of_the_cosmos>, <thaumadditions:adaminite_ingot>], 
 
-[<contenttweaker:unidentified_plate>, <techreborn:fusion_coil>, <contenttweaker:unidentified_plate>, 
+[<contenttweaker:gravitite_stone>, <techreborn:fusion_coil>, <contenttweaker:unidentified_plate>, 
 <contenttweaker:twilight_gear>, <contenttweaker:nightmare_machine_case>, <contenttweaker:twilight_gear>, 
-<contenttweaker:unidentified_plate>, <techreborn:fusion_coil>, <contenttweaker:unidentified_plate>], 
+<contenttweaker:unidentified_plate>, <techreborn:fusion_coil>, <contenttweaker:gravitite_stone>], 
 
 [<thaumadditions:adaminite_ingot>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:enchanted_myrmitite>, 
 <nuclearcraft:fusion_connector>, <contenttweaker:twilight_gear>, <nuclearcraft:fusion_connector>, 
@@ -2219,7 +2219,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:collapser_casing>*
 <contenttweaker:enchanted_myrmitite>, <contenttweaker:instant_power_junction>, <materialpart:primal_ogerite:ingot>], 
 
 [<contenttweaker:nightmare_coil>, <materialpart:primal_ogerite:ingot>, <contenttweaker:nightmare_coil>, 
-<thaumadditions:adaminite_ingot>, <contenttweaker:unidentified_plate>, <thaumadditions:adaminite_ingot>, 
+<thaumadditions:adaminite_ingot>, <contenttweaker:gravitite_stone>, <thaumadditions:adaminite_ingot>, 
 <contenttweaker:nightmare_coil>, <materialpart:primal_ogerite:ingot>, <contenttweaker:nightmare_coil>]]);  
 
 
@@ -2444,13 +2444,19 @@ mods.extendedcrafting.TableCrafting.addShapeless(4, <contenttweaker:universal_re
 <contenttweaker:vethea_garnet>,
 <contenttweaker:eternal_tulite>]); 
 
+recipes.addShaped(<contenttweaker:compressed_realgar>,
+[[<contenttweaker:universal_realgar>, <contenttweaker:universal_realgar>, <contenttweaker:universal_realgar>],
+[<contenttweaker:universal_realgar>, <contenttweaker:universal_realgar>, <contenttweaker:universal_realgar>],
+[<contenttweaker:universal_realgar>, <contenttweaker:universal_realgar>, <contenttweaker:universal_realgar>]]);
+
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:infinity_furnace_bricks>, 
 [[<advancedrocketry:blastbrick>, <contenttweaker:draconic_machine_frame>, <advancedrocketry:blastbrick>, 
 <advancedrocketry:blastbrick>, <contenttweaker:ineffable_sun>, <advancedrocketry:blastbrick>, 
 <advancedrocketry:blastbrick>, <contenttweaker:draconic_machine_frame>, <advancedrocketry:blastbrick>], 
 
 [<contenttweaker:draconic_machine_frame>, <avaritia:block_resource:0>, <materialpart:hassium:ingot>, 
-<materialpart:hassium:ingot>, <contenttweaker:universal_realgar>, <materialpart:hassium:ingot>, 
+<materialpart:hassium:ingot>, <contenttweaker:compressed_realgar>, <materialpart:hassium:ingot>, 
 <materialpart:hassium:ingot>, <avaritia:block_resource:0>, <contenttweaker:draconic_machine_frame>], 
 
 [<advancedrocketry:blastbrick>, <materialpart:hassium:ingot>, <thermalfoundation:material:1027>, 
@@ -2461,9 +2467,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:infinity_furnace_b
 <nuclearcraft:heat_exchanger_wall>, <nuclearcraft:heat_exchanger_wall>, <nuclearcraft:heat_exchanger_wall>, 
 <thermalfoundation:material:1027>, <materialpart:hassium:ingot>, <advancedrocketry:blastbrick>], 
 
-[<contenttweaker:ineffable_sun>, <contenttweaker:universal_realgar>, <thermalfoundation:material:1027>, 
+[<contenttweaker:ineffable_sun>, <contenttweaker:compressed_realgar>, <thermalfoundation:material:1027>, 
 <nuclearcraft:heat_exchanger_wall>, <contenttweaker:mythic_excavation_reactor>, <nuclearcraft:heat_exchanger_wall>, 
-<thermalfoundation:material:1027>, <contenttweaker:universal_realgar>, <contenttweaker:ineffable_sun>], 
+<thermalfoundation:material:1027>, <contenttweaker:compressed_realgar>, <contenttweaker:ineffable_sun>], 
 
 [<advancedrocketry:blastbrick>, <materialpart:hassium:ingot>, <thermalfoundation:material:1027>, 
 <nuclearcraft:heat_exchanger_wall>, <nuclearcraft:heat_exchanger_wall>, <nuclearcraft:heat_exchanger_wall>, 
@@ -2474,7 +2480,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:infinity_furnace_b
 <thermalfoundation:material:1027>, <materialpart:hassium:ingot>, <advancedrocketry:blastbrick>], 
 
 [<contenttweaker:draconic_machine_frame>, <avaritia:block_resource:0>, <materialpart:hassium:ingot>, 
-<materialpart:hassium:ingot>, <contenttweaker:universal_realgar>, <materialpart:hassium:ingot>, 
+<materialpart:hassium:ingot>, <contenttweaker:compressed_realgar>, <materialpart:hassium:ingot>, 
 <materialpart:hassium:ingot>, <avaritia:block_resource:0>, <contenttweaker:draconic_machine_frame>], 
 
 [<advancedrocketry:blastbrick>, <contenttweaker:draconic_machine_frame>, <advancedrocketry:blastbrick>, 
@@ -2488,6 +2494,7 @@ spatcruc7.addEnergyPerTickInput(120000);
 spatcruc7.addItemInput(<contenttweaker:mortum_star>);
 spatcruc7.addItemInput(<projectex:matter:9>*5);
 spatcruc7.addItemInput(<contenttweaker:dynatos_catalyst>);
+spatcruc7.addItemInput(<materialpart:sednanite:dust>*16);
 spatcruc7.addItemInput(<contenttweaker:universal_realgar>);
 spatcruc7.addFluidOutput(<fluid:universal_matter>*2000);
 spatcruc7.build();
@@ -2817,3 +2824,30 @@ recipes.addShaped(<contenttweaker:call_of_the_haunted>,
 [[<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>],
 [<techreborn:uumatter>, <aoa3:ghostly_powder>, <techreborn:uumatter>],
 [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>]]);
+
+recipes.addShaped(<contenttweaker:recursive_feather>,
+[[<contenttweaker:ender_feather>, <contenttweaker:ender_feather>, <contenttweaker:ender_feather>],
+[<contenttweaker:ender_feather>, <contenttweaker:chaotic_feather>, <contenttweaker:ender_feather>],
+[<contenttweaker:ender_feather>, <contenttweaker:ender_feather>, <contenttweaker:ender_feather>]]);
+
+recipes.addShaped(<contenttweaker:sticky_callstone>,
+[[<contenttweaker:dimensional_ingot>, <avaritia:resource:7>, <contenttweaker:dimensional_ingot>],
+[<contenttweaker:forgotten_slime>, <contenttweaker:primordial_prism>, <contenttweaker:forgotten_slime>],
+[<contenttweaker:dimensional_ingot>, <avaritia:resource:7>, <contenttweaker:dimensional_ingot>]]);
+
+recipes.addShaped(<contenttweaker:sacred_cinders_log>,
+[[<twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>],
+[<contenttweaker:chaos_wood>, <twilightforest:cinder_log>, <contenttweaker:order_wood>],
+[<twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>]]);
+
+mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:sacred_cinders_seed>, <contenttweaker:sacred_cinders_log>, 1000, <extendedcrafting:material:11>, 100);
+
+furnace.addRecipe(<contenttweaker:everburning_seed>, <contenttweaker:sacred_cinders_seed>);
+
+recipes.addShaped(<contenttweaker:everburner>,
+[[<nuclearcraft:heat_exchanger_tube_thermoconducting>, <contenttweaker:infinity_furnace_bricks>, <nuclearcraft:heat_exchanger_tube_thermoconducting>],
+[<contenttweaker:infinity_furnace_bricks>, <contenttweaker:everburning_seed>, <contenttweaker:infinity_furnace_bricks>],
+[<nuclearcraft:heat_exchanger_tube_thermoconducting>, <contenttweaker:infinity_furnace_bricks>, <nuclearcraft:heat_exchanger_tube_thermoconducting>]]);
+
+
+

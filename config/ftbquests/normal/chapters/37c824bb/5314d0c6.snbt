@@ -1,0 +1,17 @@
+{
+	x: 11.0d,
+	y: -1.5d,
+	description: "Use this to rotate and disassemble cables and machines from all tech mods!",
+	dependencies: [
+		"8b210b51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9f563583",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:wrench"
+		}],
+		ignore_nbt: 1b
+	}]
+}

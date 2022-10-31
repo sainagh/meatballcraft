@@ -1,12 +1,12 @@
 {
 	title: "Draconic Reactor",
-	x: -1.0d,
-	y: -7.0d,
+	x: 26.5d,
+	y: -2.0d,
 	text: [
 		"The draconic reactor passively produces energy, at the cost of mantaining a forcefield around its core. If the core is stronger than the forcefield, expect a big (really big) boom."
 	],
 	dependencies: [
-		"fac6a69a"
+		"2e6d9937"
 	],
 	tasks: [{
 		uid: "46d46691",

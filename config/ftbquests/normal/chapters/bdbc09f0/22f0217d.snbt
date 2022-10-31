@@ -1,6 +1,6 @@
 {
-	x: 4.0d,
-	y: -8.0d,
+	x: 14.0d,
+	y: -3.0d,
 	description: "Many thanks to Dr Zoidberg for adding the fuel quests",
 	text: [
 		"Uhhh, and thorium generates naturally as well, this planet is truly amazing!"

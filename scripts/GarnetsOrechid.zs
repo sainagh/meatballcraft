@@ -50,7 +50,7 @@ mods.techreborn.industrialGrinder.addRecipe(<contenttweaker:aesir_gemstone>*2, <
 <contenttweaker:unidentified_norse_relic>, <enderio:item_alloy_ball:7>, <fluid:lving_gold_nak>*20, 100, 64);
 
 mods.techreborn.industrialGrinder.addRecipe(<contenttweaker:bifrost_gem>*3, <materialpart:sednanite:dust>, 
-<materialpart:sednanite:dust>, <materialpart:sednanite:dust>*2, 
+<materialpart:sednanite:dust>, null, 
 <contenttweaker:aesir_gemstone>, <enderio:item_alloy_endergy_ball:6>, <fluid:weakened_cryotheoum>*20, 100, 64);
 
 mods.techreborn.industrialGrinder.addRecipe(<contenttweaker:bifrost_dust>*2, <contenttweaker:vibrating_stone>*18, 

@@ -30,3 +30,5 @@ recipes.addShaped(<cyclicmagic:fire_starter>,
 [[<ore:cobblestone>, <minecraft:dispenser>, <ore:cobblestone>],
 [<ore:cobblestone>, <minecraft:flint_and_steel>, <ore:cobblestone>],
 [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+
+recipes.remove(<cyclicmagic:mattock>);

@@ -1,11 +1,11 @@
 {
-	x: -0.5d,
-	y: 9.0d,
+	x: 17.0d,
+	y: 3.0d,
 	text: [
 		"Get some dragon's breath, make power!"
 	],
 	dependencies: [
-		"fac6a69a"
+		"ff287def"
 	],
 	tasks: [{
 		uid: "0ff11813",

@@ -1,0 +1,17 @@
+{
+	x: 13.0d,
+	y: 2.0d,
+	dependencies: [
+		"6c923efa"
+	],
+	tasks: [{
+		uid: "759a3184",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:token_totem"
+			}
+		}]
+	}]
+}

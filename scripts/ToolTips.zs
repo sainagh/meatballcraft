@@ -590,6 +590,8 @@
 
 <contenttweaker:master_spell_focus>.addTooltip(format.red("Let this be a warning, you want to be REALLY CAREFUL with these - this is your one and only warning"));
 
+<contenttweaker:master_spell_focus>.addTooltip(format.red("Use 4096 crystals"));
+
 <thaumicaugmentation:research_notes>.addTooltip(format.red("Can be found in the Emptiness, or through a master spell (which one??)"));
 
 <thaumicenergistics:essentia_terminal>.addTooltip(format.red("Thanks to Dorambor for finding a better version!"));
@@ -772,7 +774,7 @@
 
 <contenttweaker:sacrificial_contract>.addTooltip(format.red("Combine with the friendly soul vials of the wild rainbow tree"));
 
-<extrabotany:material:3>.addTooltip(format.red("Dropped by a tier 3 Gaia Guardian, or from a full quantum mana storage"));
+<extrabotany:material:3>.addTooltip(format.red("Dropped by a tier 3 Gaia Guardian"));
 
 <bewitchment:blessed_stone>.addTooltip(format.red("CAREFUL: this block is unbreakable"));
 
@@ -1040,8 +1042,6 @@
 
 <modularmachinery:itemblueprint>.addTooltip(format.red("Blueprints are just guides for building, you don't have to use them in the controllers"));
 
-<projectx:xycronium_ore>.addTooltip(format.red("Found in the overworld, but not underground..."));
-
 <appliedenergistics2:material:53>.addTooltip(format.red("Bad, avoid using"));
 
 <careerbees:ingredients:1>.addTooltip(format.red("Obtained from the lumber bee"));
@@ -1127,3 +1127,23 @@
 <techreborn:distillation_tower>.addTooltip(format.red("17 standard machine casing, 17 advanced"));
 
 <astralsorcery:itemrockcrystalsimple>.addTooltip(format.red("Found in the overworld, use a resonating wand to find the ore"));
+
+<abyssalcraft:abyingot>.addTooltip(format.red("Found in the overworld, in darklands biomes"));
+
+<agricraft:crop_sticks>.addTooltip(format.red("Automated with a plant gatherer"));
+
+<contenttweaker:dreadful_bone>.addTooltip(format.red("Don't worry it's ketchup -reginull"));
+
+<advancedrocketry:rocketbuilder>.addTooltip(format.red("May cause lag, better to break it after using it"));
+
+<ae2wtlib:infinity_booster_card>.addTooltip(format.red("Do not right click into termina (causes crash), shift flick or auto-absorb instead"));
+
+<techreborn:fusion_control_computer>.addTooltip(format.red("If the recipe has a negative RF sign, it will use it instead of producing it, use the smallest size for those"));
+
+<forestry:bee_drone_ge>.addTooltip(format.red("Breed bees using the advanced mutatron, farm the drops using an industrial apiary"));
+
+<contenttweaker:mossy_grave_dust>.addTooltip(format.red("Right click for your First Boss Fight!"));
+
+<contenttweaker:master_spell_caeles>.addTooltip(format.red("Sandman366 can split stacks!"));
+
+<contenttweaker:master_spell_perditio>.addTooltip(format.red("erohw did it first!"));

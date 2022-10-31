@@ -15,6 +15,7 @@
 		type: "item",
 		items: [{
 			item: "actuallyadditions:block_atomic_reconstructor"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

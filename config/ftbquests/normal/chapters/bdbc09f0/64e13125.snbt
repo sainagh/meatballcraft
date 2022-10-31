@@ -1,13 +1,13 @@
 {
-	x: 6.0d,
-	y: -4.0d,
+	x: 3.0d,
+	y: 2.0d,
 	text: [
 		"Generate RF by putting water and lava on opposite sides of the block.",
 		"Generation is optimized by putting two water and two lava sources on four sides of the block, and by extracting energy from one of the remaining ones.",
 		"Three sources of lava and water each can be used if phantom energyfaces are available."
 	],
 	dependencies: [
-		"fac6a69a"
+		"0a0a6666"
 	],
 	tasks: [{
 		uid: "0b1fdaca",

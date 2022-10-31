@@ -1,0 +1,15 @@
+{
+	x: 72.5d,
+	y: -7.5d,
+	dependencies: [
+		"8ec265b7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6b8ccc8f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:scale_of_the_ancient_heart"
+		}]
+	}]
+}

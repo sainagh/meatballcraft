@@ -1,11 +1,11 @@
 {
-	x: -0.5d,
-	y: 8.0d,
+	x: 18.0d,
+	y: 2.0d,
 	text: [
 		"Any solid fuel will work in this bad boy!"
 	],
 	dependencies: [
-		"fac6a69a"
+		"ff287def"
 	],
 	tasks: [{
 		uid: "3e2f6199",

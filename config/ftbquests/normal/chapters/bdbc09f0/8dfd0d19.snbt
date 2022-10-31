@@ -1,26 +1,11 @@
 {
-	x: 0.0d,
-	y: 10.0d,
+	x: 29.5d,
+	y: 2.0d,
 	text: [
 		"One of these placed around each of the 16 running generators will make A TON of RF."
 	],
 	dependencies: [
-		"9b9fad9e",
-		"7e05f627",
-		"2182f766",
-		"6651f3d4",
-		"34968af0",
-		"1b87cd20",
-		"33b81434",
-		"aa6a5686",
-		"32656408",
-		"234eda40",
-		"26659035",
-		"19629750",
-		"eed6b883",
-		"d3644d9d",
-		"8295886f",
-		"9826e25c"
+		"5f3f9b89"
 	],
 	tasks: [{
 		uid: "0569173a",

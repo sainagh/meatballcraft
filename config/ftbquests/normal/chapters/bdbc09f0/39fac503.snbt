@@ -1,0 +1,17 @@
+{
+	x: 9.0d,
+	y: -3.0d,
+	dependencies: [
+		"aa231252"
+	],
+	tasks: [{
+		uid: "f792bc6e",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:compression_engine"
+			}
+		}]
+	}]
+}

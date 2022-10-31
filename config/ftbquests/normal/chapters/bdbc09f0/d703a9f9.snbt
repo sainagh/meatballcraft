@@ -1,6 +1,6 @@
 {
-	x: 5.0d,
-	y: -12.0d,
+	x: 15.0d,
+	y: -7.0d,
 	text: [
 		"Plutonium, on earth, is generally used to make more efficient nuclear plans.",
 		"The best fission reaction happens using uranium, but plutonium is a pain in the ass to dispose of, so instead, it's better to run it through fission again.",

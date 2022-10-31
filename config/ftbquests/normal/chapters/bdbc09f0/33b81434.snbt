@@ -1,11 +1,11 @@
 {
-	x: 1.5d,
-	y: 8.0d,
+	x: 20.0d,
+	y: 2.0d,
 	text: [
 		"Food for power, the higher the calories, the better!"
 	],
 	dependencies: [
-		"fac6a69a"
+		"ff287def"
 	],
 	tasks: [{
 		uid: "2c8e9d19",

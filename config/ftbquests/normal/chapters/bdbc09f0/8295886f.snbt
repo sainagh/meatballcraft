@@ -1,11 +1,11 @@
 {
-	x: -1.5d,
-	y: 9.0d,
+	x: 20.0d,
+	y: 4.0d,
 	text: [
 		"RF from Nether Stars?!?"
 	],
 	dependencies: [
-		"fac6a69a"
+		"ff287def"
 	],
 	tasks: [{
 		uid: "af1f2d25",

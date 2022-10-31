@@ -1,11 +1,11 @@
 {
-	x: 6.0d,
-	y: 0.0d,
+	x: 3.0d,
+	y: -2.0d,
 	text: [
 		"The reactant dynamo uses a combination of a fluid and an item to produce RF."
 	],
 	dependencies: [
-		"fac6a69a"
+		"0a0a6666"
 	],
 	tasks: [{
 		uid: "53d84878",

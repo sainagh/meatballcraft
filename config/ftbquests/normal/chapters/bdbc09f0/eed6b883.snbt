@@ -1,11 +1,11 @@
 {
-	x: -2.5d,
-	y: 8.0d,
+	x: 17.0d,
+	y: 2.0d,
 	text: [
 		"RF from ender pearls & ender eyers!"
 	],
 	dependencies: [
-		"fac6a69a"
+		"ff287def"
 	],
 	tasks: [{
 		uid: "a4b0764e",

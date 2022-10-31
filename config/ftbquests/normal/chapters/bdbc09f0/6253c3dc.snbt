@@ -1,6 +1,6 @@
 {
-	x: 7.0d,
-	y: -2.0d,
+	x: 0.0d,
+	y: -3.0d,
 	text: [
 		"The dynamo can be upgraded to include cooling, thus highly increasing energy output, depending on coolant.",
 		"In order to accept cooling, upgraded compression dynamos have to be adjacent to the thermal mediator."

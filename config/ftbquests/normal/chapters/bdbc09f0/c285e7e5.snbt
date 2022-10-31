@@ -1,6 +1,6 @@
 {
-	x: 3.0d,
-	y: -8.0d,
+	x: 13.0d,
+	y: -3.0d,
 	description: "Your first fission fuel! TSLEU-235 is also a thing! Same output, better power!",
 	text: [
 		"The uranium found on Terra seems to behave the same as Earth, time to split some isotopes!"

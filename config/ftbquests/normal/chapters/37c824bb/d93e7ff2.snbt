@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	description: "Use the chat command /sethome to set your home. Use /home to teleport there.",
+	dependencies: [
+		"c4bd8574"
+	],
+	hide: true,
+	tasks: [{
+		uid: "36ff76b5",
+		type: "checkmark",
+		title: "Home"
+	}]
+}

@@ -1,11 +1,11 @@
 {
-	x: -6.0d,
+	x: -1.0d,
 	y: 0.0d,
 	text: [
 		"This generator consumes leaves in a 7x7x7 range to produce RF."
 	],
 	dependencies: [
-		"fac6a69a"
+		"0a0a6666"
 	],
 	tasks: [{
 		uid: "cc5efa62",

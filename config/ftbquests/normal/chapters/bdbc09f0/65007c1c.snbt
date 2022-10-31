@@ -1,11 +1,11 @@
 {
-	x: -6.0d,
-	y: -1.0d,
+	x: 6.0d,
+	y: 2.0d,
 	text: [
 		"Passive RF from the sun!"
 	],
 	dependencies: [
-		"fac6a69a"
+		"024052db"
 	],
 	tasks: [{
 		uid: "b1763e29",

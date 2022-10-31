@@ -135,3 +135,9 @@ recipes.addShaped(<aoa3:nethengeic_banner>,
 [[<divinerpg:purple_blaze>, <contenttweaker:nethengeic_bone>, <divinerpg:purple_blaze>],
 [<divinerpg:purple_blaze>, <minecraft:banner>, <divinerpg:purple_blaze>],
 [<divinerpg:purple_blaze>, <contenttweaker:nethengeic_rune>, <divinerpg:purple_blaze>]]);
+
+
+recipes.addShaped(<techreborn:creative_solar_panel>,
+[[<techreborn:solar_panel:4>, <techreborn:solar_panel:4>, <techreborn:solar_panel:4>],
+[<techreborn:solar_panel:4>, <extendedcrafting:singularity_custom:650>, <techreborn:solar_panel:4>],
+[<techreborn:solar_panel:4>, <techreborn:solar_panel:4>, <techreborn:solar_panel:4>]]);

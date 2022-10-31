@@ -7,7 +7,7 @@ mods.tconstruct.Melting.addRecipe(<fluid:sednanite> * 144,<materialpart:sednanit
 mods.nuclearcraft.centrifuge.addRecipe([<fluid:sednanite>*288, 
 <fluid:dimensional_essence>*1000, <fluid:liquid_void>*1000, <fluid:overworldian_fluid>*1000, <fluid:nethengeic_fluid>*1000]);
 
-furnace.addRecipe(<materialpart:fluctuatite:dust>, <materialpart:fluctuatite:ingot>);
+furnace.addRecipe(<materialpart:fluctuatite:ingot>, <materialpart:fluctuatite:dust>);
 
 mods.tconstruct.Melting.addRecipe(<fluid:fluctuatite> * 144,<materialpart:fluctuatite:dust>);
 mods.tconstruct.Melting.addRecipe(<fluid:fluctuatite> * 144,<materialpart:fluctuatite:ingot>);

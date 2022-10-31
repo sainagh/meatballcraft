@@ -1,0 +1,23 @@
+{
+    "machine": "meteoric_befaller",
+    "registryName": "meteoric_befaller_sandstone",
+    "recipeTime": 100,
+    "requirements": [ 
+		{
+			"type": "mana",
+			"io-type": "input",
+			"mana": 250
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:sacrificial_shard"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:shining_sandstone",
+            "amount": 4
+		}
+	]
+}

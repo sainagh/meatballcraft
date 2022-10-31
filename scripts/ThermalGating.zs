@@ -204,3 +204,5 @@ recipes.addShaped(<thermalexpansion:augment:576>,
 [[<nuclearcraft:plutonium:8>, <thermalfoundation:material:295>, <nuclearcraft:plutonium:8>],
 [<ore:plateCopper>, <minecraft:bucket>, <ore:plateCopper>],
 [<nuclearcraft:plutonium:8>, <ore:blockGlassHardened>, <nuclearcraft:plutonium:8>]]);
+
+recipes.removeShaped(<thermalexpansion:device:10>);

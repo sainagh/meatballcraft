@@ -83,7 +83,7 @@ accelerator7.addFluidOutput(<fluid:gravitrons>*100);
 accelerator7.build();
 
 val accelerator8 = RecipeBuilder.newBuilder("accelerator8","mythic_accelerator",100);
-accelerator8.addEnergyPerTickInput(30000000);
+accelerator8.addEnergyPerTickInput(3000000);
 accelerator8.addFluidInput(<fluid:gravitrons>*100);
 accelerator8.addFluidOutput(<fluid:strings>*100);
 accelerator8.build();

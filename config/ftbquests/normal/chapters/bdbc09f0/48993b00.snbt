@@ -1,6 +1,6 @@
 {
-	x: 6.0d,
-	y: 2.0d,
+	x: 1.0d,
+	y: -2.0d,
 	text: [
 		"The numismatic dynamo takes various types of coins to produce RF.",
 		"How does it work?? I don't really get it, but the physics on terra are, well, very different from earth, and value, for some reason, can be safely converted into energy.",
@@ -8,7 +8,7 @@
 		"Almost as if this world 'remembers' what people value.. which is, of course, absurd..."
 	],
 	dependencies: [
-		"fac6a69a"
+		"0a0a6666"
 	],
 	tasks: [{
 		uid: "4a885371",

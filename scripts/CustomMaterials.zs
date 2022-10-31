@@ -331,7 +331,7 @@ blockbrightsteel.addDataValue("harvestTool", "pickaxe");
 var armorbrightsteel = brightsteel.registerPart("armor").getData();
 armorbrightsteel.addDataValue("durability", "1500000");
 armorbrightsteel.addDataValue("enchantability", "10");
-armorbrightsteel.addDataValue("reduction", "6,9,10,5");
+armorbrightsteel.addDataValue("reduction", "7,10,12,6");
 armorbrightsteel.addDataValue("toughness", "15");
 
 var colorcaesium = Color.fromHex("426334") as Color;
@@ -406,7 +406,7 @@ blockblackmetal.addDataValue("harvestTool", "pickaxe");
 var armorblackmetal = blackmetal.registerPart("armor").getData();
 armorblackmetal.addDataValue("durability", "1500000");
 armorblackmetal.addDataValue("enchantability", "100");
-armorblackmetal.addDataValue("reduction", "6,6,6,6");
+armorblackmetal.addDataValue("reduction", "8,9,12,7");
 armorblackmetal.addDataValue("toughness", "3");
 
 var colorpromethium = Color.fromHex("7df59d") as Color;

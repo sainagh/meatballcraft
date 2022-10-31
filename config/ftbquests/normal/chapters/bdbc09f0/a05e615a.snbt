@@ -1,6 +1,6 @@
 {
-	x: -6.0d,
-	y: -3.0d,
+	x: 5.0d,
+	y: -2.0d,
 	description: "For those who are too cool for lag...",
 	text: [
 		"Endergeic generators receive 'endergenic' pearls from a Pearl Injector, or an adjacent generator.",
@@ -10,7 +10,7 @@
 		"or you can be boring and go on youtube and look up a tutorial..."
 	],
 	dependencies: [
-		"fac6a69a"
+		"024052db"
 	],
 	tasks: [{
 		uid: "e7ff77ce",

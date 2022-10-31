@@ -1,5 +1,5 @@
 [
-    {
+  {
     "mob": ["minecraft:skeleton",
         "minecraft:zombie",
         "aoa3:ramradon",
@@ -19,6 +19,75 @@
     "result": "default",
     "healthmultiply": 1.3,
     "damagemultiply": 1,
+    "speedmultiply": 1
+  },
+  {
+    "mob": ["minecraft:skeleton",
+        "minecraft:zombie",
+        "aoa3:ramradon",
+        "aoa3:emperor_beast",
+        "aoa3:paravite",
+        "aoa3:cave_creep",
+        "aoa3:rockbiter",
+        "aoa3:rock_crawler",
+        "aoa3:rock_critter",
+        "aoa3:anemia",
+        "aoa3:fiend",
+        "aoa3:baumba",
+        "aoa3:refluct",
+        "aoa3:zarg",
+        "aoa3:zorp",
+        "aoa3:bugeye",
+        "aoa3:nightfly",
+        "aoa3:night_reaper",
+        "aoa3:dicer",
+        "aoa3:charger",
+        "aoa3:desert_charger",
+        "aoa3:hill_charger",
+        "aoa3:sea_charger",
+        "aoa3:snow_charger",
+        "aoa3:chimera",
+        "aoa3:chomper",
+        "aoa3:furlion",
+        "aoa3:king_charger",
+        "aoa3:mother_void_walker",
+        "aoa3:sand_giant",
+        "aoa3:nethengeic_beast",
+        "aoa3:amphibiyte",
+        "aoa3:sabretooth",
+        "aoa3:kaiyu",
+        "aoa3:zhinx",
+        "aoa3:host",
+        "aoa3:arocknid",
+        "aoa3:bloodsucker",
+        "aoa3:flesh_eater",
+        "aoa3:jawe",
+        "aoa3:occulent",
+        "aoa3:angelica",
+        "aoa3:voliant",
+        "aoa3:nightwing",
+        "aoa3:arkzyne",
+        "aoa3:basilisk",
+        "aoa3:crusilisk",
+        "aoa3:devourer",
+        "aoa3:dusteiva",
+        "aoa3:duston",
+        "aoa3:dust_strider",
+        "aoa3:lost_soul",
+        "aoa3:lurker",
+        "aoa3:merkyre",
+        "aoa3:stalker",
+        "aoa3:fenix",
+        "aoa3:goldus",
+        "aoa3:embrake",
+        "aoa3:tharafly",
+        "aoa3:lelyetian_caster",
+        "aoa3:flye",
+        "aoa3:distorter"],
+    "gamestage":"DivineStage",
+    "result": "default",
+    "healthmultiply": 15,
+    "damagemultiply": 15,
     "speedmultiply": 1
   },
   {
@@ -114,7 +183,7 @@
         "aoa3:sunny",
         "aoa3:vine_wizard"],
         "result": "default",
-    "healthmultiply": 4,
+    "healthmultiply": 8,
     "damagemultiply": 5,
     "speedmultiply": 1
   },
@@ -133,7 +202,14 @@
         "aoa3:runicorn_rider",
         "aoa3:runic_guardian",
         "aoa3:runic_lifeform",
-        "aoa3:spectral_wizard",
+        "aoa3:spectral_wizard"],
+        "result": "default",
+    "healthmultiply": 10,
+    "damagemultiply": 6,
+    "speedmultiply": 1
+  },
+  {
+    "mob": [
         "bewitchment:leonard",
         "bewitchment:baphomet",
         "bewitchment:shadow_person",
@@ -142,7 +218,7 @@
         "bewitchment:imp"],
         "result": "default",
     "healthmultiply": 10,
-    "damagemultiply": 4,
+    "damagemultiply": 3,
     "speedmultiply": 1
   },
   {
@@ -179,8 +255,8 @@
         "aoa3:skull_creature",
         "aoa3:valkyrie"],
         "result": "default",
-    "healthmultiply": 5,
-    "damagemultiply": 4,
+    "healthmultiply": 8,
+    "damagemultiply": 6,
     "speedmultiply": 1
   },
   {
@@ -198,8 +274,17 @@
         "aoa3:stimulo",
         "aoa3:stimulosus"],
         "result": "default",
-    "healthmultiply": 10,
+    "healthmultiply": 15,
     "damagemultiply":20,
+    "speedmultiply": 1
+  },
+  {
+    "mob": [
+        "aoa3:king_bambambam",
+        "aoa3:nethengeic_wither"],
+        "result": "default",
+    "healthmultiply": 3,
+    "damagemultiply": 1,
     "speedmultiply": 1
   },
   {
@@ -220,6 +305,8 @@
         "tehbetweenlands:wight",
         "tehbetweenlands:lurker",
         "tehbetweenlands:peat_mummy",
+        "aoa3:king_bambambam",
+        "aoa3:nethengeic_wither",
         "tehbetweenlands:chiromaw",
         "tehbetweenlands:large_sludge_worm"],
         "result": "default",
@@ -235,15 +322,13 @@
           "aoa3:hive_king",
           "aoa3:horon",
           "aoa3:kajaros",
-          "aoa3:king_bambambam",
-          "aoa3:nethengeic_wither",
           "aoa3:rockrider",
           "aoa3:silverfoot",
           "aoa3:visualent"],
     "onjoin": true,
     "result": "allow",
     "healthmultiply": 5,
-    "damagemultiply": 5,
+    "damagemultiply": 7,
     "speedmultiply": 1
   },
   {
@@ -291,7 +376,6 @@
     "mob": ["aoa3:craexxeus",
         "aoa3:mechbot",
         "aoa3:dracyon",
-        "aoa3:xxeus",
         "aoa3:clunkhead",
         "aoa3:penumbra",
         "aether_legacy:valkyrie",
@@ -320,15 +404,22 @@
     "speedmultiply": 1
   },
   {
+    "mob": ["aoa3:xxeus"],
+    "onjoin": true,
+    "result": "allow",
+    "healthmultiply": 5,
+    "damagemultiply": 180,
+    "speedmultiply": 1
+  },
+  {
     "mob": ["twilightforest:harbinger_cube",
       "twilightforest:roving_cube",
       "twilightforest:adherent",
-      "abyssalcraft:dragonboss",
       "abyssalcraft:chagarothspawn",
       "abyssalcraft:chagarothfist",
       "abyssalcraft:chagaroth",
-      "abyssalcraft:dragonminion",
-      "thaumicaugmentation:primal_wisp"],
+      "thaumicaugmentation:primal_wisp",
+      "aoa3:skeletron"],
     "onjoin": true,
     "result": "allow",
     "healthmultiply": 3,
@@ -338,8 +429,7 @@
   {
     "mob": ["thaumicaugmentation:eldritch_guardian",
       "thaumicaugmentation:eldritch_warden",
-      "thaumicaugmentation:eldritch_golem",
-      "thaumicaugmentation:primal_wisp"],
+      "thaumicaugmentation:eldritch_golem"],
     "onjoin": true,
     "result": "allow",
     "healthmultiply": 2,
@@ -351,8 +441,7 @@
       "thaumcraft:eldritchgolem",
       "thaumcraft:cultistknight",
       "thaumcraft:cultistleader",
-      "thaumcraft:cultistcleric",
-      "aoa3:skeletron"],
+      "thaumcraft:cultistcleric"],
     "onjoin": true,
     "result": "allow",
     "healthmultiply": 2,
@@ -364,7 +453,7 @@
     "dimension": 170,
     "onjoin": true,
     "result": "allow",
-    "damagemultiply": 6,
+    "damagemultiply": 16,
     "potion": "minecraft:strength,999999,50"
   }, 
   {
@@ -372,7 +461,7 @@
     "dimension": 171,
     "onjoin": true,
     "result": "allow",
-    "damagemultiply": 6,
+    "damagemultiply": 16,
     "potion": "minecraft:strength,999999,50"
   }, 
   {
@@ -380,7 +469,7 @@
     "dimension": 172,
     "onjoin": true,
     "result": "allow",
-    "damagemultiply": 6,
+    "damagemultiply": 16,
     "potion": "minecraft:strength,999999,50"
   }, 
   {
@@ -388,7 +477,7 @@
     "dimension": 173,
     "onjoin": true,
     "result": "allow",
-    "damagemultiply": 6,
+    "damagemultiply": 16,
     "potion": "minecraft:strength,999999,50"
   }
   

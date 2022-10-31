@@ -233,7 +233,7 @@ recipes.addShaped(<modularmachinery:blockoutputbus:6>,
 
 recipes.addShaped(<modularmagic:blockgridproviderinput>,
 [[<modularmachinery:blockcasing:1>, null, <modularmachinery:blockcasing:1>],
-[null, <extrautils2:decorativesolid:8>, null],
+[null, <extrautils2:passivegenerator:6>, null],
 [<modularmachinery:blockcasing:1>, null, <modularmachinery:blockcasing:1>]]);
 
 

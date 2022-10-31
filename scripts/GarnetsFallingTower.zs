@@ -2,9 +2,9 @@ import mods.modularmachinery.RecipeBuilder;
 
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:bifrost_dust>, <fluid:evanescent_bifrost>*144]);
 
-mods.nuclearcraft.infuser.addRecipe([<materialpart:sednanite:dust>, <fluid:evanescent_bifrost>*6, <contenttweaker:evanescent_sednanite_dust>]);
+mods.nuclearcraft.infuser.addRecipe([<materialpart:sednanite:dust>, <fluid:evanescent_bifrost>*50, <contenttweaker:evanescent_sednanite_dust>]);
 
-mods.nuclearcraft.rock_crusher.addRecipe([<contenttweaker:evanescent_sednanite_dust>, <contenttweaker:evanescent_sednanite_powder>*12, <contenttweaker:evanescent_sednanite_powder>*8, <contenttweaker:evanescent_sednanite_powder>*4]);
+mods.nuclearcraft.rock_crusher.addRecipe([<contenttweaker:evanescent_sednanite_dust>, <contenttweaker:evanescent_sednanite_powder>*5, <contenttweaker:evanescent_sednanite_powder>*3, <contenttweaker:evanescent_sednanite_powder>*2]);
 
 mods.nuclearcraft.pressurizer.addRecipe([<contenttweaker:evanescent_sednanite_powder>, <materialpart:sednanite:ingot>]);
 
@@ -68,6 +68,7 @@ unholyradioactivemix.addFluidInput(<fluid:nitrogen_16>*5);
 unholyradioactivemix.addFluidInput(<fluid:astatine>*5);
 unholyradioactivemix.addFluidInput(<fluid:fuel_len_236_fluoride>*5);
 unholyradioactivemix.addFluidInput(<fluid:tritium>*200);
+unholyradioactivemix.addFluidInput(<fluid:corium>*20);
 unholyradioactivemix.addFluidOutput(<fluid:unholy_radioactive_mix>*100);
 unholyradioactivemix.build();
 

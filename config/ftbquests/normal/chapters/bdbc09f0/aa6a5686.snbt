@@ -1,11 +1,11 @@
 {
-	x: 2.5d,
-	y: 8.0d,
+	x: 21.0d,
+	y: 2.0d,
 	text: [
 		"Redstone+Lava=Profit"
 	],
 	dependencies: [
-		"fac6a69a"
+		"ff287def"
 	],
 	tasks: [{
 		uid: "067f1e27",

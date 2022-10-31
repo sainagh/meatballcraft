@@ -1,12 +1,12 @@
 {
-	x: 6.0d,
-	y: 5.0d,
+	x: 8.0d,
+	y: -2.0d,
 	description: "Steam OP!",
 	text: [
 		"All dynamos can be upgraded into steam, which in return can be used on extreme turbines..."
 	],
 	dependencies: [
-		"fac6a69a"
+		"024052db"
 	],
 	tasks: [{
 		uid: "b6df343f",

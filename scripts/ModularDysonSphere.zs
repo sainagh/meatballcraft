@@ -18,11 +18,11 @@ recipes.addShaped(<contenttweaker:dyson_capacitor>,
 [<contenttweaker:magnetic_monopole>, <materialpart:chaos:dust>, <contenttweaker:muon_crystal>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_shell>*6, 
-[[<contenttweaker:atomic_mirror>, null, <avaritia:resource:5>, null, <contenttweaker:atomic_mirror>], 
-[null, <contenttweaker:muon_crystal>, <materialpart:chaos:dust>, <contenttweaker:magnetic_monopole>, null], 
+[[<contenttweaker:atomic_mirror>, <contenttweaker:collapser_casing>, <avaritia:resource:5>, <contenttweaker:collapser_casing>, <contenttweaker:atomic_mirror>], 
+[<contenttweaker:sentient_factory_core>, <contenttweaker:muon_crystal>, <materialpart:chaos:dust>, <contenttweaker:magnetic_monopole>, <contenttweaker:sentient_factory_core>], 
 [<aoa3:radiant_infusion_stone>, <materialpart:chaos:dust>, <techreborn:solar_panel:4>, <materialpart:chaos:dust>, <aoa3:radiant_infusion_stone>], 
-[null, <contenttweaker:magnetic_monopole>, <materialpart:chaos:dust>, <contenttweaker:muon_crystal>, null], 
-[<contenttweaker:atomic_mirror>, null, <avaritia:resource:5>, null, <contenttweaker:atomic_mirror>]]); 
+[<contenttweaker:sentient_factory_core>, <contenttweaker:magnetic_monopole>, <materialpart:chaos:dust>, <contenttweaker:muon_crystal>, <contenttweaker:sentient_factory_core>], 
+[<contenttweaker:atomic_mirror>, <contenttweaker:collapser_casing>, <avaritia:resource:5>, <contenttweaker:collapser_casing>, <contenttweaker:atomic_mirror>]]); 
 
 
 recipes.addShaped(<contenttweaker:atomic_mirror>*2,
@@ -52,7 +52,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:ultracapacitor_ban
 <libvulpes:advstructuremachine>, <contenttweaker:nightmare_coil>, <contenttweaker:brightsteel_alloy_ingot>], 
 
 [<contenttweaker:empowerment_core>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:nightmare_coil>, 
-<contenttweaker:highly_advanced_machine_casing>, <draconicevolution:crafting_injector:2>, <contenttweaker:highly_advanced_machine_casing>, 
+<contenttweaker:highly_advanced_machine_casing>, <extracells:storage.component:3>, <contenttweaker:highly_advanced_machine_casing>, 
 <contenttweaker:nightmare_coil>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:empowerment_core>], 
 
 [<appliedenergistics2:spatial_pylon>, <avaritia:resource:4>, <techreborn:fusion_coil>, 
@@ -60,7 +60,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:ultracapacitor_ban
 <techreborn:fusion_coil>, <avaritia:resource:4>, <appliedenergistics2:spatial_pylon>], 
 
 [<contenttweaker:empowerment_core>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:nightmare_coil>, 
-<contenttweaker:highly_advanced_machine_casing>, <draconicevolution:crafting_injector:2>, <contenttweaker:highly_advanced_machine_casing>, 
+<contenttweaker:highly_advanced_machine_casing>, <nuclearcraft:heat_exchanger_tube_thermoconducting>, <contenttweaker:highly_advanced_machine_casing>, 
 <contenttweaker:nightmare_coil>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:empowerment_core>], 
 
 [<contenttweaker:brightsteel_alloy_ingot>, <contenttweaker:nightmare_coil>, <libvulpes:advstructuremachine>, 
@@ -91,3 +91,41 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:miniature_st
 100000, 
 <extendedcrafting:singularity_ultimate>, 
 [<contenttweaker:hydrogen_chunk>, <contenttweaker:tritium_chunk>, <contenttweaker:deuterium_chunk>, <extrautils2:compressedcobblestone:7>, <extendedcrafting:storage:4>]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sentient_factory_core>, 
+[[<deepmoblearning:pristine_matter_shulker>, <deepmoblearning:pristine_matter_shulker>, null, 
+null, <woot:structure:9>, null, 
+null, <deepmoblearning:pristine_matter_shulker>, <deepmoblearning:pristine_matter_shulker>], 
+
+[<deepmoblearning:pristine_matter_shulker>, <deepmoblearning:pristine_matter_thermal_elemental>, <deepmoblearning:pristine_matter_thermal_elemental>, 
+null, <woot:structure:8>, null, 
+<deepmoblearning:pristine_matter_thermal_elemental>, <deepmoblearning:pristine_matter_thermal_elemental>, <deepmoblearning:pristine_matter_shulker>], 
+
+[null, <deepmoblearning:pristine_matter_thermal_elemental>, <deepmoblearning:pristine_matter_ghast>, 
+<deepmoblearning:pristine_matter_ghast>, <woot:structure:7>, <deepmoblearning:pristine_matter_ghast>, 
+<deepmoblearning:pristine_matter_ghast>, <deepmoblearning:pristine_matter_thermal_elemental>, null], 
+
+[null, null, <deepmoblearning:pristine_matter_ghast>, 
+<deepmoblearning:pristine_matter_guardian>, <woot:structure:6>, <deepmoblearning:pristine_matter_guardian>, 
+<deepmoblearning:pristine_matter_ghast>, null, null], 
+
+[<woot:structure:9>, <woot:structure:8>, <woot:structure:7>, 
+<woot:structure:6>, <contenttweaker:mythic_excavation_computer>, <woot:structure:6>, 
+<woot:structure:7>, <woot:structure:8>, <woot:structure:9>], 
+
+[null, null, <deepmoblearning:pristine_matter_ghast>, 
+<deepmoblearning:pristine_matter_guardian>, <woot:structure:6>, <deepmoblearning:pristine_matter_guardian>, 
+<deepmoblearning:pristine_matter_ghast>, null, null], 
+
+[null, <deepmoblearning:pristine_matter_thermal_elemental>, <deepmoblearning:pristine_matter_ghast>, 
+<deepmoblearning:pristine_matter_ghast>, <woot:structure:7>, <deepmoblearning:pristine_matter_ghast>, 
+<deepmoblearning:pristine_matter_ghast>, <deepmoblearning:pristine_matter_thermal_elemental>, null], 
+
+[<deepmoblearning:pristine_matter_shulker>, <deepmoblearning:pristine_matter_thermal_elemental>, <deepmoblearning:pristine_matter_thermal_elemental>, 
+null, <woot:structure:8>, null, 
+<deepmoblearning:pristine_matter_thermal_elemental>, <deepmoblearning:pristine_matter_thermal_elemental>, <deepmoblearning:pristine_matter_shulker>], 
+
+[<deepmoblearning:pristine_matter_shulker>, <deepmoblearning:pristine_matter_shulker>, null, 
+null, <woot:structure:9>, null, 
+null, <deepmoblearning:pristine_matter_shulker>, <deepmoblearning:pristine_matter_shulker>]]);  

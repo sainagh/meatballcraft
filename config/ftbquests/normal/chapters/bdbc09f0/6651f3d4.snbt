@@ -1,11 +1,11 @@
 {
-	x: -2.5d,
-	y: 9.0d,
+	x: 17.0d,
+	y: 4.0d,
 	text: [
 		"You can use gunpowder, but TNT is better!"
 	],
 	dependencies: [
-		"fac6a69a"
+		"ff287def"
 	],
 	tasks: [{
 		uid: "2fec7fde",

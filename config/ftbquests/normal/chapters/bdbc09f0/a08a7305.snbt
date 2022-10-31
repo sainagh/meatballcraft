@@ -1,6 +1,6 @@
 {
-	x: 7.0d,
-	y: 0.0d,
+	x: 3.0d,
+	y: -4.0d,
 	text: [
 		"The elemental catalyzer allows for increased output from the reactant dynamo.",
 		"This limits the types of inputs the dynamo can accept."

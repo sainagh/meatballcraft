@@ -22,4 +22,7 @@ mods.thaumcraft.Infusion.registerRecipe("alkemiaartifactinf", "",
 <contenttweaker:alkemia_artifact>, 9,
 [<aspect:alkimia>*420, <aspect:caeles>*30, <aspect:cognitio>*50], 
 <avaritia:resource:5>, 
-[<contenttweaker:shyre_crystal>, <contenttweaker:shyre_crystal>, <contenttweaker:shyre_crystal>, <contenttweaker:shyre_crystal>, <contenttweaker:shyre_crystal>, <contenttweaker:shyre_crystal>]);
+[<contenttweaker:shyre_crystal>, <contenttweaker:shyre_crystal>, 
+<contenttweaker:shyre_crystal>, <contenttweaker:shyre_crystal>, 
+<contenttweaker:sacred_cinders_log>, <contenttweaker:sacred_cinders_log>, 
+<projectex:power_flower:15>, <projectex:matter:11>]);
