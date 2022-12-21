@@ -1,6 +1,7 @@
 {
-	x: 93.5d,
+	x: 95.0d,
 	y: 0.0d,
+	description: "You should complete all other quests in dimensional ascension alongside vethea if you haven't done so already",
 	dependencies: [
 		"8bb6d106",
 		"e0b5358c"

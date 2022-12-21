@@ -2,6 +2,21 @@
     "registryname": "lp_harvester",
     "localizedname": "LP Harvester",
 	"color": "011112",
+    "modifiers": [
+        {
+            "elements": "abyssalcraft:tieredenergycontainer@3",
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "description": "Replace energy container for better output",
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 5.0
+            }
+        }
+    ],
     "parts": [
         {
             "x": -1,

@@ -1,0 +1,15 @@
+{
+	x: 90.5d,
+	y: -3.0d,
+	dependencies: [
+		"c23d47cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b3d18543",
+		type: "item",
+		items: [{
+			item: "contenttweaker:everlasting_fusor"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 80.0d,
+	y: 3.0d,
+	dependencies: [
+		"ef2aa05c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6e2ef8ff",
+		type: "item",
+		items: [{
+			item: "contenttweaker:summoning_computer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

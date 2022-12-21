@@ -11,5 +11,26 @@
 		items: [{
 			item: "nuclearcraft:heat_exchanger_tube_thermoconducting"
 		}]
+	},
+	{
+		uid: "2686fee3",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:heat_exchanger_controller"
+		}]
+	},
+	{
+		uid: "f5c419b2",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:heat_exchanger_wall"
+		}]
+	},
+	{
+		uid: "a3e33693",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:heat_exchanger_frame"
+		}]
 	}]
 }

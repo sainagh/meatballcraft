@@ -239,7 +239,7 @@ reci25.addItemInput(<ebwizardry:magic_crystal:6>*16);
 reci25.addItemInput(<ebwizardry:arcane_tome:3>*8);
 reci25.addItemInput(<materialpart:sednanite:ingot>*2);
 reci25.addItemInput(<materialpart:dreaded_steel:ingot>*2);
-reci25.addItemOutput(<arcane_essentials:master_sorcery_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Earth Flamberg"}}));
+reci25.addItemOutput(<arcane_essentials:master_sorcery_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Sorcery Flamberg"}}));
 reci25.build();
 
 val reci26 = RecipeBuilder.newBuilder("electroblob26","wizardry_combiner",4000);

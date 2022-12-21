@@ -284,15 +284,15 @@
 
 <aoa3:carved_rune_power>.addTooltip(format.red("Part of the ancient teleporter - right click with a realmstone to activate"));
 
-<divinerpg:divine_rock>.addTooltip(format.red("Used in a full portal frame (3x5) to enter Eden"));
+<divinerpg:divine_rock>.addTooltip(format.red("Used in a full portal frame (4x5) to enter Eden"));
 
-<divinerpg:eden_block>.addTooltip(format.red("Used in a full portal frame (3x5) to enter Wildwood"));
+<divinerpg:eden_block>.addTooltip(format.red("Used in a full portal frame (4x5) to enter Wildwood"));
 
-<divinerpg:wildwood_block>.addTooltip(format.red("Used in a full portal frame (3x5) to enter Apalachia"));
+<divinerpg:wildwood_block>.addTooltip(format.red("Used in a full portal frame (4x5) to enter Apalachia"));
 
-<divinerpg:apalachia_block>.addTooltip(format.red("Used in a full portal frame (3x5) to enter Skythern"));
+<divinerpg:apalachia_block>.addTooltip(format.red("Used in a full portal frame (4x5) to enter Skythern"));
 
-<divinerpg:skythern_block>.addTooltip(format.red("Used in a full portal frame (3x5) to enter Mortum"));
+<divinerpg:skythern_block>.addTooltip(format.red("Used in a full portal frame (4x5) to enter Mortum"));
 
 <divinerpg:twilight_clock>.addTooltip(format.red("Used to light DivineRPG portals like a flint and steel"));
 
@@ -544,8 +544,6 @@
 
 <contenttweaker:dense_gravitite_ore>.addTooltip(format.red("Found with Advanced Rocketry Asteroid Mining Missions"));
 
-<contenttweaker:tartarite_ore>.addTooltip(format.red("Crafted in the Deeplands"));
-
 <aoa3:amphibiyte_lung>.addTooltip(format.red("Found on the Amphibiyte Coves on coastlines in the overworld"));
 
 <techreborn:fusion_control_computer>.addTooltip(format.red("To charge properly, connect to four different independent glass fiber lines"));
@@ -708,7 +706,7 @@
 
 <contenttweaker:aesir_tribute>.addTooltip(format.red("How do I get it?"));
 
-<bewitchment:sigil_purity>.addTooltip(format.red("Reusable in crafting recipes"));
+<bewitchment:sigil_purity>.addTooltip(format.red("Reusable in (almost all) crafting recipes"));
 
 <contenttweaker:celestial_shield_fragment>.addTooltip(format.red("Thanks to Uchiwars for the texture!"));
 
@@ -820,7 +818,7 @@
 
 <thermalexpansion:augment:576>.addTooltip(format.red("Use with an extreme turbine for maximum profit!"));
 
-<contenttweaker:rainbow_core>.addTooltip(format.red("How do I make it?!?"));
+<contenttweaker:rainbow_core>.addTooltip(format.red("Use a shulker box of the right color containing the right colors of wool, and surround with rainbow wool"));
 
 <appliedenergistics2:material:10>.addTooltip(format.red("Grow its respective seed in a pool of water surrounded by crystal growth accelerators (slow), or in a crystal growth chamber (fast)"));
 
@@ -858,7 +856,7 @@
 
 <contenttweaker:skotaninomicom>.addTooltip(format.red("Yup, they need to be full"));
 
-<contenttweaker:anadrominomicom>.addTooltip(format.red("Use the right combination of bejewelled banners, the herald of the dark tower knows"));
+<contenttweaker:anadrominomicom>.addTooltip(format.red("Use the right combination of bejewelled banners, the herald of the purple world knows"));
 
 <minecraft:experience_bottle>.addTooltip(format.red("A master of wizardy can easily automate this"));
 
@@ -1040,6 +1038,8 @@
 
 <aoa3:creation_forge>.addTooltip(format.red("Right click with slabs to level up and summon minions"));
 
+<modularmachinery:itemblueprint>.addTooltip(format.red("Use a diamond chisel to swap between blueprints"));
+
 <modularmachinery:itemblueprint>.addTooltip(format.red("Blueprints are just guides for building, you don't have to use them in the controllers"));
 
 <appliedenergistics2:material:53>.addTooltip(format.red("Bad, avoid using"));
@@ -1128,7 +1128,7 @@
 
 <astralsorcery:itemrockcrystalsimple>.addTooltip(format.red("Found in the overworld, use a resonating wand to find the ore"));
 
-<abyssalcraft:abyingot>.addTooltip(format.red("Found in the overworld, in darklands biomes"));
+<abyssalcraft:abyingot>.addTooltip(format.red("Found in the overworld, in darklands biomes, and in dragon dens"));
 
 <agricraft:crop_sticks>.addTooltip(format.red("Automated with a plant gatherer"));
 
@@ -1136,7 +1136,7 @@
 
 <advancedrocketry:rocketbuilder>.addTooltip(format.red("May cause lag, better to break it after using it"));
 
-<ae2wtlib:infinity_booster_card>.addTooltip(format.red("Do not right click into termina (causes crash), shift flick or auto-absorb instead"));
+<ae2wtlib:infinity_booster_card>.addTooltip(format.red("Do not click into terminal (causes crash), shift click or auto-absorb instead"));
 
 <techreborn:fusion_control_computer>.addTooltip(format.red("If the recipe has a negative RF sign, it will use it instead of producing it, use the smallest size for those"));
 
@@ -1147,3 +1147,239 @@
 <contenttweaker:master_spell_caeles>.addTooltip(format.red("Sandman366 can split stacks!"));
 
 <contenttweaker:master_spell_perditio>.addTooltip(format.red("erohw did it first!"));
+
+<divinerpg:divine_shickaxe>.addTooltip(format.red("Can be super-enchanted"));
+
+<immersiveengineering:graphite_electrode>.addTooltip(format.red("Can be super-enchanted"));
+
+<aoa3:limonite_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<divinerpg:bedrock_leggings>.addTooltip(format.red("Can be super-enchanted"));
+
+<aoa3:tidal_greatblade>.addTooltip(format.red("Can be super-enchanted"));
+
+<aoa3:vulcammer_maul>.addTooltip(format.red("Can be super-enchanted"));
+
+<divinerpg:crabclaw_maul>.addTooltip(format.red("Can be super-enchanted"));
+
+<soulshardsrespawn:vile_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<divinerpg:slime_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<twilightforest:seeker_bow>.addTooltip(format.red("Can be super-enchanted"));
+
+<divinerpg:black_ender_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<arcane_essentials:master_lightning_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<arcane_essentials:master_sorcery_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<arcane_essentials:master_nature_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<arcane_essentials:master_fire_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<arcane_essentials:master_ice_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<arcane_essentials:master_healing_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<arcane_essentials:master_necromancy_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<abyssalcraft:soulreaper>.addTooltip(format.red("Can be super-enchanted"));
+
+<thebetweenlands:shockwave_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<thebetweenlands:ancient_helmet>.addTooltip(format.red("Can be super-enchanted"));
+
+<thebetweenlands:ancient_chestplate>.addTooltip(format.red("Can be super-enchanted"));
+
+<thebetweenlands:ancient_leggings>.addTooltip(format.red("Can be super-enchanted"));
+
+<thebetweenlands:ancient_boots>.addTooltip(format.red("Can be super-enchanted"));
+
+<aether_legacy:holy_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<aether_legacy:ice_ring>.addTooltip(format.red("Can be super-enchanted"));
+
+<aether_legacy:phoenix_gloves>.addTooltip(format.red("Can be super-enchanted"));
+
+<aether_legacy:ice_pendant>.addTooltip(format.red("Can be super-enchanted"));
+
+<astralsorcery:itemcape>.addTooltip(format.red("Can be super-enchanted"));
+
+<redstonearsenal:tool.bow_flux>.addTooltip(format.red("Can be super-enchanted"));
+
+<erebus:spider_t_shirt>.addTooltip(format.red("Can be super-enchanted"));
+
+<twilightforest:minotaur_axe>.addTooltip(format.red("Can be super-enchanted"));
+
+<twilightforest:block_and_chain>.addTooltip(format.red("Can be super-enchanted"));
+
+<twilightforest:giant_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<thaumicaugmentation:primal_cutter>.addTooltip(format.red("Can be super-enchanted"));
+
+<bloodmagic:sentient_sword>.addTooltip(format.red("Can be super-enchanted"));
+
+<contenttweaker:bloodmaster_metal_head>.addTooltip(format.red("Can be super-enchanted"));
+
+<contenttweaker:bloodmaster_metal_feet>.addTooltip(format.red("Can be super-enchanted"));
+
+<contenttweaker:bloodmaster_metal_chest>.addTooltip(format.red("Can be super-enchanted"));
+
+<contenttweaker:bloodmaster_metal_legs>.addTooltip(format.red("Can be super-enchanted"));
+
+<botania:thundersword>.addTooltip(format.red("Can be super-enchanted"));
+
+<divinerpg:arcanite_blade>.addTooltip(format.red("Can be super-enchanted"));
+
+<iceandfire:dragonbone_sword_ice>.addTooltip(format.red("Can be super-enchanted"));
+
+<iceandfire:dragonbone_sword_fire>.addTooltip(format.red("Can be super-enchanted"));
+
+<contenttweaker:sacrifice_metal_head>.addTooltip(format.red("Can be super-enchanted"));
+
+<contenttweaker:sacrifice_metal_feet>.addTooltip(format.red("Can be super-enchanted"));
+
+<contenttweaker:sacrifice_metal_chest>.addTooltip(format.red("Can be super-enchanted"));
+
+<contenttweaker:sacrifice_metal_legs>.addTooltip(format.red("Can be super-enchanted"));
+
+<contenttweaker:brightsteel_head>.addTooltip(format.red("Can be super-enchanted"));
+
+<contenttweaker:brightsteel_feet>.addTooltip(format.red("Can be super-enchanted"));
+
+<contenttweaker:brightsteel_legs>.addTooltip(format.red("Can be super-enchanted"));
+
+<contenttweaker:brightsteel_chest>.addTooltip(format.red("Can be super-enchanted"));
+
+<extrautils2:lawsword>.addTooltip(format.red("Can be super-enchanted"));
+
+<appliedenergistics2:part:340>.addTooltip(format.red("Use U (uses) and R (recipes) to select items from JEI"));
+
+<industrialforegoing:crop_sower>.addTooltip(format.red("Better to make farms away from your base"));
+
+<industrialforegoing:crop_recolector>.addTooltip(format.red("Better to make farms away from your base"));
+
+<industrialforegoing:plant_interactor>.addTooltip(format.red("Better to make farms away from your base"));
+
+<enderio:block_farm_station>.addTooltip(format.red("Better to make farms away from your base"));
+
+<aoa3:stone_bowl>.addTooltip(format.red("Used to harvest pixons"));
+
+<aoa3:diamond_bowl>.addTooltip(format.red("Used to harvest pixons"));
+
+<wrcbe:material:1>.addTooltip(format.red("Do not use to harvest pixons"));
+
+<industrialforegoing:enchantment_aplicator>.addTooltip(format.red("Can apply enchantments over the anvil limit"));
+
+<ae2fc:fluid_packet_decoder>.addTooltip(format.red("You need one fluid discretizer in your AE to make fluid recipes"));
+
+<contenttweaker:fluix_microcontroller>.addTooltip(format.red("Use a summoning computer"));
+
+<contenttweaker:core_of_undeath>.addTooltip(format.red("Combine with the right radioactive compounds"));
+
+<contenttweaker:heuf_fuel>.addTooltip(format.red("How do I make it?? Oi holds the answer"));
+
+<contenttweaker:singularity_master>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:bloodmaster_tome>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:ancient_elven_knowledge>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:controller_manual>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:imperfect_gem_of_the_cosmos>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:halite_warrior>.addTooltip(format.red("Woot is your friend here"));
+
+<contenttweaker:sideral_collector>.addTooltip(format.red("Reusable"));
+
+<appliedenergistics2:quantum_link>.addTooltip(format.red("Thanks to StaffiX for the pack performance boost!"));
+
+<bloodarsenal:slate:0>.addTooltip(format.red("Make sure you are using the right one in recipes! Name is broken"));
+
+<bloodarsenal:slate:1>.addTooltip(format.red("Make sure you are using the right one in recipes! Name is broken"));
+
+<bloodarsenal:slate:2>.addTooltip(format.red("Make sure you are using the right one in recipes! Name is broken"));
+
+<bloodarsenal:slate:3>.addTooltip(format.red("Make sure you are using the right one in recipes! Name is broken"));
+
+<bloodarsenal:slate:4>.addTooltip(format.red("Make sure you are using the right one in recipes! Name is broken"));
+
+<contenttweaker:apichisi_warper>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:taerrapiatta_warper>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:furatto_warper>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:vibe_warper>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:diamerisma_warper>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:finem_warper>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<soulshardsrespawn:vile_sword>.addTooltip(format.red("Thanks to ChaosStrikez for fixing the script!"));
+
+<contenttweaker:mythic_coil_t2>.addTooltip(format.red("Thanks to Sandman366 for fixing the upgrade script!"));
+
+<aoa3:rosidian_greatblade>.addTooltip(format.red("Can be super-enchanted"));
+
+<tconstruct:clear_glass:0>.addTooltip(format.red("Automate this in the smeltery"));
+
+<thaumadditions:mithminite_scythe>.addTooltip(format.red("Reusable in recipe"));
+
+<contenttweaker:cursed_rock>.addTooltip(format.red("Found in the Deep Dark - Reusable"));
+
+<contenttweaker:dimensional_ingot>.addTooltip(format.red("Found in the Deep Dark"));
+
+<techreborn:rebattery>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, put on passive if needed"));
+
+<techreborn:energycrystal>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, put on passive if needed"));
+
+<techreborn:lapotroncrystal>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, put on passive if needed"));
+
+<techreborn:lapotronicorb>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, put on passive if needed"));
+
+<contenttweaker:skeletal_callstone>.addTooltip(format.red("Your first callstone! Right click to summon a dungeon!"));
+
+<dimdoors:oak_dimensional_door>.addTooltip(format.red("Teleportation! Use a rift signature to bind two locations, and place doors on rifts to connect"));
+
+<rftools:matter_transmitter>.addTooltip(format.red("Teleportation! Sends to a location"));
+
+<rftools:matter_receiver>.addTooltip(format.red("Teleportation! For destinations"));
+
+<rftools:charged_porter>.addTooltip(format.red("Teleportation! Binds to matter reciver"));
+
+<rftools:advanced_charged_porter>.addTooltip(format.red("Teleportation! Binds to matter reciver"));
+
+<draconicevolution:dislocator>.addTooltip(format.red("Teleportation! Binds to specific location"));
+
+<draconicevolution:dislocator_bound:1>.addTooltip(format.red("Teleportation! Creates connection between points"));
+
+<draconicevolution:dislocator_advanced>.addTooltip(format.red("Teleportation! Teleports to points on a list"));
+
+<cyclicmagic:book_ender>.addTooltip(format.red("Teleportation! Teleports to points on a list"));
+
+<contenttweaker:call_of_the_haunted>.addTooltip(format.red("Callstone"));
+
+<contenttweaker:cerium_ingot>.addTooltip(format.red("Use any attuned celestial crystal"));
+
+<contenttweaker:holographic_ore>.addTooltip(format.red("Use the ore excavator on Rhenia, Projector Rhenium vein"));
+
+<contenttweaker:projector_gem>.addTooltip(format.red("Use the ore excavator on Rhenia, Projector Rhenium vein"));
+
+<contenttweaker:whispering_meatball>.addTooltip(format.red("Found on Pixonia - Reusable in recipe"));
+
+<contenttweaker:everlasting_fusor>.addTooltip(format.red("Reusable in recipes"));
+
+<simplevoidworld:portal>.addTooltip(format.red("Many thanks to Popi, ChaosStrikez, and Fios for making the skybox possible!"));
+
+<simplevoidworld:portal>.addTooltip(format.red("Set fancySkybox.normalWorlds=false in the botania config to disable the skybox"));
+
+<contenttweaker:nightmare_incense>.addTooltip(format.red("Right click to get a sacrificial contract"));
+
+<contenttweaker:ultimate_ore>.addTooltip(format.red("Use the ore excavator in Mortum, Ultimate vein"));
+
+<contenttweaker:sympan_spirit>.addTooltip(format.red("Reusable"));
+
+<contenttweaker:matrix_ore>.addTooltip(format.red("Use the ore excavator in Shyrelands, Matrix vein"));

@@ -32,6 +32,8 @@ firedragfemr1.addItemEntry(<contenttweaker:botanic_alchemic_catalyst>, 1);
 firedragfemr1.addItemEntry(<thaumcraft:sapling_silverwood>, 5);
 firedragfemr1.addItemEntry(<aoa3:sapphire>, 7);
 firedragfemr1.addItemEntry(<xreliquary:mob_ingredient:3>*4, 5);
+firedragfemr1.addItemEntry(<abyssalcraft:abyingot>*2, 5);
+firedragfemr1.addItemEntry(<aoa3:gold_coin>*10, 1);
 
 val firedragmal = LootTweaker.getTable("iceandfire:fire_dragon_male_cave");
 val firedragmalr1 = firedragmal.addPool("firedragmalr1", 1, 1, 0, 0);
@@ -39,6 +41,8 @@ firedragmalr1.addItemEntry(<contenttweaker:botanic_alchemic_catalyst>, 1);
 firedragmalr1.addItemEntry(<thaumcraft:loot_bag:1>, 5);
 firedragmalr1.addItemEntry(<aoa3:sapphire>, 1);
 firedragmalr1.addItemEntry(<minecraft:ghast_tear>, 10);
+firedragmalr1.addItemEntry(<abyssalcraft:abyingot>*2, 5);
+firedragmalr1.addItemEntry(<aoa3:gold_coin>*2, 1);
 
 val icedragfem = LootTweaker.getTable("iceandfire:ice_dragon_female_cave");
 val icedragfemr1 = icedragfem.addPool("icedragfemr1", 1, 1, 0, 0);
@@ -387,3 +391,4 @@ quadrolootring.addItemEntry(<thebetweenlands:ring_of_dispersion>, 15);
 val primordialmalevolence = LootTweaker.getTable("thebetweenlands:entities/fortress_boss");
 val primordialmalevolenceprism = primordialmalevolence.addPool("primordialmalevolenceprism", 1, 2, 1, 1);
 primordialmalevolenceprism.addItemEntry(<contenttweaker:primordial_prism>, 35);
+

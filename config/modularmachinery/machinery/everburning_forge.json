@@ -37,74 +37,50 @@
         },
         {
             "x": -2,
-            "y": 9,
+            "y": 0,
             "z": 4,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": 4,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 2,
             "elements": [
                 "contenttweaker:asgard_furnace_brick@0"
             ]
         },
         {
             "x": -1,
-            "y": 7,
-            "z": 3,
+            "y": 0,
+            "z": 4,
             "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
+                "botania:bifrostperm@0"
             ]
         },
         {
             "x": 0,
-            "y": 9,
+            "y": 0,
             "z": 4,
             "elements": [
-                "botania:bifrostperm@0"
+                "modularmachinery:blockoutputbus@0"
             ]
         },
         {
             "x": 1,
-            "y": 9,
+            "y": 0,
             "z": 4,
             "elements": [
                 "botania:bifrostperm@0"
             ]
         },
         {
-            "x": 0,
-            "y": 7,
-            "z": 3,
+            "x": 2,
+            "y": 0,
+            "z": 4,
             "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
+                "contenttweaker:asgard_furnace_brick@0"
             ]
         },
         {
-            "x": -1,
-            "y": 5,
-            "z": 2,
+            "x": 3,
+            "y": -1,
+            "z": 0,
             "elements": [
-                "contenttweaker:brightsteel_conduit@0"
+                "iceandfire:dragonsteel_fire_block@0"
             ]
         },
         {
@@ -113,30 +89,6 @@
             "z": 0,
             "elements": [
                 "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 9,
-            "z": 4,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
             ]
         },
         {
@@ -161,22 +113,6 @@
             "z": 0,
             "elements": [
                 "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
             ]
         },
         {
@@ -184,21 +120,13 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "contenttweaker:brightsteel_conduit@0"
+                "iceandfire:dragonsteel_ice_block@0"
             ]
         },
         {
             "x": -1,
             "y": 1,
             "z": 0,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 2,
             "elements": [
                 "contenttweaker:asgard_furnace_brick@0"
             ]
@@ -236,6 +164,22 @@
             ]
         },
         {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:asgard_furnace_brick@0"
+            ]
+        },
+        {
             "x": 2,
             "y": 1,
             "z": 0,
@@ -244,131 +188,83 @@
             ]
         },
         {
-            "x": -3,
-            "y": 8,
+            "x": -2,
+            "y": -1,
             "z": 3,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 10,
-            "z": 4,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": 3,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 10,
-            "z": 4,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 2,
             "elements": [
                 "contenttweaker:asgard_furnace_brick@0"
             ]
         },
         {
             "x": -1,
-            "y": 8,
-            "z": 3,
+            "y": 1,
+            "z": 4,
             "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
+                "contenttweaker:asgard_furnace_brick@0"
             ]
         },
         {
             "x": 0,
-            "y": 10,
+            "y": 1,
             "z": 4,
             "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
+                "contenttweaker:asgard_furnace_brick@0"
             ]
         },
         {
-            "x": 1,
-            "y": 10,
-            "z": 4,
+            "x": -1,
+            "y": -1,
+            "z": 3,
             "elements": [
                 "iceandfire:dragonsteel_fire_block@0"
             ]
         },
         {
             "x": 0,
-            "y": 8,
+            "y": -1,
             "z": 3,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 10,
-            "z": 4,
             "elements": [
                 "iceandfire:dragonsteel_ice_block@0"
             ]
         },
         {
             "x": 1,
-            "y": 8,
-            "z": 3,
+            "y": 1,
+            "z": 4,
             "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
+                "contenttweaker:asgard_furnace_brick@0"
             ]
         },
         {
             "x": 2,
-            "y": 8,
-            "z": 3,
+            "y": 1,
+            "z": 4,
             "elements": [
-                "botania:bifrostperm@0"
+                "contenttweaker:asgard_furnace_brick@0"
             ]
         },
         {
             "x": 1,
-            "y": 6,
-            "z": 2,
+            "y": -1,
+            "z": 3,
             "elements": [
-                "contenttweaker:brightsteel_conduit@0"
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:asgard_furnace_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
             ]
         },
         {
@@ -376,684 +272,12 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 8,
-            "z": 3,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 9,
-            "z": 3,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": 3,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": 3,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": 3,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 1,
-            "elements": [
                 "iceandfire:dragonsteel_fire_block@0"
             ]
         },
         {
-            "x": 2,
-            "y": 9,
-            "z": 3,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
             "x": 0,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 10,
-            "z": 3,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 10,
-            "z": 3,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 10,
-            "z": 3,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 10,
-            "z": 3,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 10,
-            "z": 3,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 9,
-            "z": 2,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 9,
-            "z": 2,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 10,
-            "z": 2,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 10,
-            "z": 2,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 10,
-            "z": 2,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 10,
-            "z": 2,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 10,
-            "z": 2,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 8,
-            "z": -1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": -1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": -1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": -1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": -1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": -1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 8,
-            "z": -1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 9,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 9,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
+            "y": 2,
             "z": 0,
             "elements": [
                 "iceandfire:dragonsteel_ice_block@0"
@@ -1061,438 +285,126 @@
         },
         {
             "x": -2,
-            "y": -1,
+            "y": 2,
             "z": 4,
             "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": -1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 10,
-            "z": 1,
-            "elements": [
                 "iceandfire:dragonsteel_fire_block@0"
             ]
         },
         {
-            "x": -2,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 10,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 10,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 10,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
             "x": 2,
-            "y": 10,
-            "z": 1,
+            "y": 2,
+            "z": 0,
             "elements": [
                 "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
             ]
         },
         {
             "x": -2,
             "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 4,
+            "z": 3,
             "elements": [
                 "botania:bifrostperm@0"
             ]
         },
         {
             "x": 0,
-            "y": 0,
+            "y": 2,
             "z": 4,
+            "elements": [
+                "iceandfire:dragonsteel_ice_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:brightsteel_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:brightsteel_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:brightsteel_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:asgard_furnace_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:asgard_furnace_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "iceandfire:dragonsteel_ice_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "iceandfire:dragonsteel_ice_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
             "elements": [
                 "modularmachinery:blockinputbus@0"
             ]
         },
         {
             "x": 1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": -1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 10,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 10,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 10,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 10,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 10,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 1,
             "y": 1,
             "z": 3,
             "elements": [
@@ -1512,21 +424,13 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
+                "iceandfire:dragonsteel_ice_block@0"
             ]
         },
         {
             "x": 2,
             "y": -1,
             "z": 2,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 5,
             "elements": [
                 "contenttweaker:asgard_furnace_brick@0"
             ]
@@ -1544,7 +448,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "contenttweaker:brightsteel_conduit@0"
+                "iceandfire:dragonsteel_ice_block@0"
             ]
         },
         {
@@ -1581,48 +485,8 @@
         },
         {
             "x": -2,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 5,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
             "y": 1,
             "z": 2,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 4,
             "elements": [
                 "contenttweaker:asgard_furnace_brick@0"
             ]
@@ -1632,7 +496,7 @@
             "y": 3,
             "z": 3,
             "elements": [
-                "contenttweaker:brightsteel_conduit@0"
+                "iceandfire:dragonsteel_ice_block@0"
             ]
         },
         {
@@ -1648,15 +512,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
+                "iceandfire:dragonsteel_ice_block@0"
             ]
         },
         {
@@ -1664,7 +520,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "contenttweaker:brightsteel_conduit@0"
+                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
             ]
         },
         {
@@ -1672,7 +528,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
+                "iceandfire:dragonsteel_fire_block@0"
             ]
         },
         {
@@ -1680,119 +536,87 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
                 "iceandfire:dragonsteel_ice_block@0"
             ]
         },
         {
-            "x": 2,
-            "y": -1,
-            "z": 1,
+            "x": 1,
+            "y": 1,
+            "z": 2,
             "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
+                "iceandfire:dragonsteel_ice_block@0"
             ]
         },
         {
             "x": -3,
-            "y": 8,
+            "y": -1,
             "z": 5,
             "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": 5,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 4,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 5,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 5,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 5,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
+                "iceandfire:dragonsteel_fire_block@0"
             ]
         },
         {
             "x": 2,
-            "y": 8,
-            "z": 5,
+            "y": 1,
+            "z": 2,
             "elements": [
                 "contenttweaker:asgard_furnace_brick@0"
             ]
         },
         {
             "x": 1,
-            "y": 6,
-            "z": 4,
+            "y": -1,
+            "z": 1,
             "elements": [
-                "modularmachinery:blockoutputbus@0"
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:asgard_furnace_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "iceandfire:dragonsteel_ice_block@0"
             ]
         },
         {
@@ -1800,7 +624,7 @@
             "y": 4,
             "z": 3,
             "elements": [
-                "contenttweaker:brightsteel_conduit@0"
+                "iceandfire:dragonsteel_fire_block@0"
             ]
         },
         {
@@ -1816,22 +640,6 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 8,
-            "z": 5,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 4,
-            "elements": [
                 "iceandfire:dragonsteel_ice_block@0"
             ]
         },
@@ -1840,7 +648,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "contenttweaker:brightsteel_conduit@0"
+                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
             ]
         },
         {
@@ -1864,268 +672,188 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 4,
-            "elements": [
                 "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "iceandfire:dragonsteel_fire_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
             ]
         },
         {
             "x": -3,
-            "y": 8,
-            "z": 4,
-            "elements": [
-                "contenttweaker:asgard_furnace_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": 4,
-            "elements": [
-                "iceandfire:dragonsteel_ice_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 3,
+            "y": 0,
+            "z": 5,
             "elements": [
                 "iceandfire:dragonsteel_fire_block@0"
             ]
         },
         {
-            "x": -1,
-            "y": 8,
-            "z": 4,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 4,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 4,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "contenttweaker:brightsteel_conduit@0"
-            ]
-        },
-        {
             "x": 2,
-            "y": 8,
-            "z": 4,
+            "y": 2,
+            "z": 2,
             "elements": [
                 "iceandfire:dragonsteel_ice_block@0"
             ]
         },
         {
             "x": 1,
-            "y": 6,
-            "z": 3,
+            "y": 0,
+            "z": 1,
             "elements": [
                 "contenttweaker:brightsteel_conduit@0"
             ]
         },
         {
-            "x": 0,
-            "y": 4,
-            "z": 2,
+            "x": -3,
+            "y": 0,
+            "z": -1,
             "elements": [
-                "contenttweaker:brightsteel_conduit@0"
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "botania:bifrostperm@0"
             ]
         },
         {
             "x": 3,
-            "y": 8,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:asgard_furnace_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "iceandfire:dragonsteel_ice_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_tube_thermoconducting@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "iceandfire:dragonsteel_ice_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "iceandfire:dragonsteel_ice_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:asgard_furnace_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:asgard_furnace_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:asgard_furnace_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:asgard_furnace_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
             "z": 4,
             "elements": [
                 "contenttweaker:asgard_furnace_brick@0"
@@ -2133,10 +861,34 @@
         },
         {
             "x": 2,
-            "y": 6,
-            "z": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:asgard_furnace_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
             "elements": [
                 "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "iceandfire:dragonsteel_fire_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@7"
             ]
         },
         {
@@ -2144,7 +896,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "contenttweaker:brightsteel_conduit@0"
+                "iceandfire:dragonsteel_fire_block@0"
             ]
         },
         {
@@ -2152,7 +904,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "contenttweaker:brightsteel_conduit@0"
+                "iceandfire:dragonsteel_ice_block@0"
             ]
         }
     ]}

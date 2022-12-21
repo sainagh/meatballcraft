@@ -6,8 +6,8 @@ recipes.removeShaped(<avaritia:resource:0>);
 
 recipes.addShaped(<avaritia:resource:0>,
 [[<materialpart:brightsteel:ingot>, <contenttweaker:rainbow_gemstones>, <materialpart:brightsteel:ingot>],
-[<contenttweaker:lyonite_plate>, <thaumicenergistics:essentia_component_64k>, <contenttweaker:lyonite_plate>],
-[<materialpart:brightsteel:ingot>, <extendedcrafting:singularity:50>, <materialpart:brightsteel:ingot>]]);
+[<contenttweaker:lyonite_plate>, <appliedenergistics2:material:38>, <contenttweaker:lyonite_plate>],
+[<contenttweaker:neodymium_magnetic_alloy>, <extendedcrafting:singularity:50>, <contenttweaker:neodymium_magnetic_alloy>]]);
 
 recipes.removeShaped(<avaritia:extreme_crafting_table>);
 
@@ -234,3 +234,8 @@ muonextraction.addEnergyPerTickInput(2000000);
 muonextraction.addItemInput(<mysticalagradditions:neutronium_essence>*2);
 muonextraction.addItemOutput(<avaritia:resource:4>);
 muonextraction.build();
+
+mods.extendedcrafting.EnderCrafting.addShaped(<avaritia:neutronium_compressor>, 
+[[<contenttweaker:lawrencium_262>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:lawrencium_262>], 
+[<avaritia:block_resource:0>, <biomesoplenty:earth>, <avaritia:block_resource:0>], 
+[<contenttweaker:lawrencium_262>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:lawrencium_262>]], 20); 

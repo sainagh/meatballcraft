@@ -20,11 +20,11 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacrifice_metal_cl
 [<ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>]]);  
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:nightmare_incense>, 
-[[<materialpart:sacrifice_metal:ingot>, <contenttweaker:forgotten_slime>, <materialpart:sacrifice_metal:ingot>, <contenttweaker:forgotten_slime>, <materialpart:sacrifice_metal:ingot>], 
+[[<ore:ingotUltimate>, <contenttweaker:forgotten_slime>, <contenttweaker:wildwood_refined_gem>, <contenttweaker:forgotten_slime>, <ore:ingotUltimate>], 
 [<contenttweaker:forgotten_slime>, <materialpart:sacrifice_metal:ingot>, <extrabees:honey_comb:57>, <materialpart:sacrifice_metal:ingot>, <contenttweaker:forgotten_slime>], 
 [<materialpart:sacrifice_metal:ingot>, <extrabees:honey_comb:57>, <botania:incensestick>.withTag({brewKey: "bloodthirst"}), <extrabees:honey_comb:57>, <materialpart:sacrifice_metal:ingot>], 
 [<contenttweaker:forgotten_slime>, <materialpart:sacrifice_metal:ingot>, <extrabees:honey_comb:57>, <materialpart:sacrifice_metal:ingot>, <contenttweaker:forgotten_slime>], 
-[<materialpart:sacrifice_metal:ingot>, <contenttweaker:forgotten_slime>, <soulshardsrespawn:soul_shard>.withTag({binding: {kills: 1024, bound: "aoa3:polytom"}}), <contenttweaker:forgotten_slime>, <materialpart:sacrifice_metal:ingot>]]);  
+[<ore:ingotUltimate>, <contenttweaker:forgotten_slime>, <soulshardsrespawn:soul_shard>.withTag({binding: {kills: 1024, bound: "aoa3:polytom"}}), <contenttweaker:forgotten_slime>, <ore:ingotUltimate>]]);  
 
 recipes.addHiddenShapeless("trulyaterriblesacrifice",<contenttweaker:eternally_stained_soul>,
 [<contenttweaker:sacrificial_contract>,

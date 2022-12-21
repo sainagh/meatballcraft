@@ -143,15 +143,15 @@ recipes.addShaped(<projecte:item.pe_repair_talisman>,
 [<minecraft:string>, <projectex:matter:8>, <minecraft:string>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<projectex:power_flower:5>, 
-[[<projectex:power_flower:3>, <aoa3:ivory>, <aoa3:opteryx_feather>, <aoa3:sticky_slime>, <projectex:power_flower:2>, <aoa3:sticky_slime>, <aoa3:opteryx_feather>, <aoa3:ivory>, <projectex:power_flower:3>], 
-[<aoa3:ivory>, <aoa3:yellow_spores>, <aoa3:yellow_spores>, null, <projectex:power_flower:1>, null, <aoa3:yellow_spores>, <aoa3:yellow_spores>, <aoa3:ivory>], 
-[<aoa3:opteryx_feather>, <aoa3:yellow_spores>, <aoa3:yellow_spores>, null, <projectex:power_flower:0>, null, <aoa3:yellow_spores>, <aoa3:yellow_spores>, <aoa3:opteryx_feather>], 
+[[<projectex:power_flower:3>, <aoa3:ivory>, <aoa3:opteryx_feather>, <aoa3:sticky_slime>, null, <aoa3:sticky_slime>, <aoa3:opteryx_feather>, <aoa3:ivory>, <projectex:power_flower:3>], 
+[<aoa3:ivory>, <aoa3:yellow_spores>, <aoa3:yellow_spores>, null, null, null, <aoa3:yellow_spores>, <aoa3:yellow_spores>, <aoa3:ivory>], 
+[<aoa3:opteryx_feather>, <aoa3:yellow_spores>, <aoa3:yellow_spores>, null, null, null, <aoa3:yellow_spores>, <aoa3:yellow_spores>, <aoa3:opteryx_feather>], 
 [<aoa3:sticky_slime>, null, null, <aoa3:zhinx_dust>, <aoa3:zhinx_dust>, <aoa3:zhinx_dust>, null, null, <aoa3:sticky_slime>], 
-[<projectex:power_flower:2>, <projectex:power_flower:1>, <projectex:power_flower:0>, <aoa3:zhinx_dust>, <projectex:power_flower:4>, <aoa3:zhinx_dust>, <projectex:power_flower:0>, <projectex:power_flower:1>, <projectex:power_flower:2>], 
+[null, null, null, <aoa3:zhinx_dust>, <projectex:power_flower:4>, <aoa3:zhinx_dust>, null, null, null], 
 [<aoa3:sticky_slime>, null, null, <aoa3:zhinx_dust>, <aoa3:zhinx_dust>, <aoa3:zhinx_dust>, null, null, <aoa3:sticky_slime>], 
-[<aoa3:opteryx_feather>, <aoa3:orange_spores>, <aoa3:orange_spores>, null, <projectex:power_flower:0>, null, <aoa3:orange_spores>, <aoa3:orange_spores>, <aoa3:opteryx_feather>],
-[<aoa3:ivory>, <aoa3:orange_spores>, <aoa3:orange_spores>, null, <projectex:power_flower:1>, null, <aoa3:orange_spores>, <aoa3:orange_spores>, <aoa3:ivory>], 
-[<projectex:power_flower:3>, <aoa3:ivory>, <aoa3:opteryx_feather>, <aoa3:sticky_slime>, <projectex:power_flower:2>, <aoa3:sticky_slime>, <aoa3:opteryx_feather>, <aoa3:ivory>, <projectex:power_flower:3>]]);  
+[<aoa3:opteryx_feather>, <aoa3:orange_spores>, <aoa3:orange_spores>, null, null, null, <aoa3:orange_spores>, <aoa3:orange_spores>, <aoa3:opteryx_feather>],
+[<aoa3:ivory>, <aoa3:orange_spores>, <aoa3:orange_spores>, null, null, null, <aoa3:orange_spores>, <aoa3:orange_spores>, <aoa3:ivory>], 
+[<projectex:power_flower:3>, <aoa3:ivory>, <aoa3:opteryx_feather>, <aoa3:sticky_slime>, null, <aoa3:sticky_slime>, <aoa3:opteryx_feather>, <aoa3:ivory>, <projectex:power_flower:3>]]);  
 
 mods.extendedcrafting.TableCrafting.addShaped(<projectex:power_flower:6>, 
 [[<projectex:power_flower:4>, <aoa3:unstable_gunpowder>, <aoa3:hive_chunk>, <aoa3:hive_egg>, null, <aoa3:hive_egg>, <aoa3:hive_chunk>, <aoa3:unstable_gunpowder>, <projectex:power_flower:4>], 
@@ -267,3 +267,73 @@ recipes.addShaped(<projecte:item.pe_dm_hammer>,
 [[<projecte:item.pe_matter:0>, <ore:ingotColdIron>, <projecte:item.pe_matter:0>],
 [null, <ore:ingotColdIron>, null],
 [null, <ore:ingotColdIron>, null]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<projectex:power_flower:12>, 
+[[<projectex:power_flower:10>, <techreborn:fusion_coil>, null, null, <aoa3:runic_energy>, null, null, <techreborn:fusion_coil>, <projectex:power_flower:10>], 
+[<techreborn:fusion_coil>, null, null, null, <aoa3:runic_energy>, null, null, null, <techreborn:fusion_coil>], 
+[<aoa3:bubble_berries>, <aoa3:orbulon>, null, null, null, null, null, <aoa3:orbulon>, <aoa3:bubble_berries>], 
+[<aoa3:bubble_berries>, <aoa3:orbulon>, null, null, null, null, null, <aoa3:orbulon>, <aoa3:bubble_berries>], 
+[<aoa3:bubble_berries>, <aoa3:orbulon>, null, null, <projectex:power_flower:11>, null, null, <aoa3:orbulon>, <aoa3:bubble_berries>], 
+[<aoa3:bubble_berries>, <aoa3:orbulon>, null, null, null, null, null, <aoa3:orbulon>, <aoa3:bubble_berries>], 
+[<aoa3:bubble_berries>, <aoa3:orbulon>, null, null, null, null, null, <aoa3:orbulon>, <aoa3:bubble_berries>], 
+[<techreborn:fusion_coil>, null, null, null, <aoa3:runic_energy>, null, null, null, <techreborn:fusion_coil>], 
+[<projectex:power_flower:10>, <techreborn:fusion_coil>, null, null, <aoa3:runic_energy>, null, null, <techreborn:fusion_coil>, <projectex:power_flower:10>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<projectex:power_flower:13>, 
+[[<projectex:power_flower:11>, <contenttweaker:corrupted_aragonite>, null, null, <contenttweaker:imperfect_gem_of_the_cosmos>, null, null, <contenttweaker:corrupted_aragonite>, <projectex:power_flower:11>], 
+[<contenttweaker:corrupted_aragonite>, null, null, null, <contenttweaker:imperfect_gem_of_the_cosmos>, null, null, null, <contenttweaker:corrupted_aragonite>], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null], 
+[<contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:imperfect_gem_of_the_cosmos>, null, null, <projectex:power_flower:12>, null, null, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:imperfect_gem_of_the_cosmos>], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null], 
+[<contenttweaker:corrupted_aragonite>, null, null, null, <contenttweaker:imperfect_gem_of_the_cosmos>, null, null, null, <contenttweaker:corrupted_aragonite>], 
+[<projectex:power_flower:11>, <contenttweaker:corrupted_aragonite>, null, null, <contenttweaker:imperfect_gem_of_the_cosmos>, null, null, <contenttweaker:corrupted_aragonite>, <projectex:power_flower:11>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<projectex:power_flower:14>, 
+[[<projectex:power_flower:12>, <divinerpg:amthirmis_lump>, <divinerpg:teaker_lump>, <divinerpg:teaker_lump>, <divinerpg:karos_lump>, <divinerpg:teaker_lump>, <divinerpg:teaker_lump>, <divinerpg:amthirmis_lump>, <projectex:power_flower:12>], 
+[<divinerpg:pardimal_lump>, null, null, null, null, null, null, null, <divinerpg:pardimal_lump>], 
+[<divinerpg:cermile_lump>, null, null, <divinerpg:quadrotic_lump>, <divinerpg:heliosis_lump>, <divinerpg:quadrotic_lump>, null, null, <divinerpg:cermile_lump>], 
+[<divinerpg:darven_lump>, null, null, null, <divinerpg:heliosis_lump>, null, null, null, <divinerpg:darven_lump>], 
+[<divinerpg:karos_lump>, null, null, <divinerpg:arksiane_lump>, <projectex:power_flower:13>, <divinerpg:arksiane_lump>, null, null, <divinerpg:karos_lump>], 
+[<divinerpg:darven_lump>, null, null, null, <divinerpg:heliosis_lump>, null, null, null, <divinerpg:darven_lump>], 
+[<divinerpg:cermile_lump>, null, null, <divinerpg:quadrotic_lump>, <divinerpg:heliosis_lump>, <divinerpg:quadrotic_lump>, null, null, <divinerpg:cermile_lump>], 
+[<divinerpg:pardimal_lump>, null, null, null, null, null, null, null, <divinerpg:pardimal_lump>], 
+[<projectex:power_flower:12>, <divinerpg:amthirmis_lump>, <divinerpg:teaker_lump>, <divinerpg:teaker_lump>, <divinerpg:karos_lump>, <divinerpg:teaker_lump>, <divinerpg:teaker_lump>, <divinerpg:amthirmis_lump>, <projectex:power_flower:12>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<projectex:power_flower:15>, 
+[[<projectex:power_flower:13>, null, null, null, <contenttweaker:blue_matter>, null, null, null, <projectex:power_flower:13>], 
+[null, null, null, null, <contenttweaker:blue_matter>, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, <contenttweaker:shyre_chunk>, null, null, null, null], 
+[<contenttweaker:mortum_star>, null, <contenttweaker:botanic_alchemic_catalyst>, <projectex:matter:11>, <projectex:power_flower:14>, <projectex:matter:11>, <contenttweaker:botanic_alchemic_catalyst>, null, <contenttweaker:mortum_star>], 
+[null, null, null, null, <contenttweaker:shyre_chunk>, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, <contenttweaker:blue_matter>, null, null, null, null], 
+[<projectex:power_flower:13>, null, null, null, <contenttweaker:blue_matter>, null, null, null, <projectex:power_flower:13>]]);  
+
+
+recipes.addShaped(<projectex:power_flower:0>,
+[[<divinerpg:molten_shards>, <ore:ingotColdIron>, <divinerpg:molten_shards>],
+[<aoa3:runium_chunk>, <contenttweaker:blue_matter>, <aoa3:runium_chunk>],
+[<divinerpg:molten_shards>, <materialpart:sednanite:ingot>, <divinerpg:molten_shards>]]);
+
+recipes.addShaped(<projectex:power_flower:1>,
+[[<divinerpg:ender_shards>, <materialpart:sednanite:ingot>, <divinerpg:ender_shards>],
+[<aoa3:runium_chunk>, <projectex:power_flower:0>, <aoa3:runium_chunk>],
+[<divinerpg:ender_shards>, <materialpart:sednanite:ingot>, <divinerpg:ender_shards>]]);
+
+recipes.addShaped(<projectex:power_flower:2>,
+[[<aoa3:amphibiyte_lung>, <materialpart:sednanite:ingot>, <aoa3:amphibiyte_lung>],
+[<materialpart:sednanite:ingot>, <projectex:power_flower:1>, <materialpart:sednanite:ingot>],
+[<aoa3:amphibiyte_lung>, <materialpart:sednanite:ingot>, <aoa3:amphibiyte_lung>]]);
+
+recipes.addShaped(<projectex:power_flower:3>,
+[[<divinerpg:fury_fire>, <materialpart:sednanite:ingot>, <divinerpg:fury_fire>],
+[<materialpart:sednanite:ingot>, <projectex:power_flower:2>, <materialpart:sednanite:ingot>],
+[<divinerpg:fury_fire>, <materialpart:sednanite:ingot>, <divinerpg:fury_fire>]]);
+
+recipes.addShaped(<projectex:power_flower:4>,
+[[<divinerpg:divine_shards>, <materialpart:sednanite:ingot>, <divinerpg:divine_shards>],
+[<materialpart:sednanite:ingot>, <projectex:power_flower:3>, <materialpart:sednanite:ingot>],
+[<divinerpg:divine_shards>, <materialpart:sednanite:ingot>, <divinerpg:divine_shards>]]);

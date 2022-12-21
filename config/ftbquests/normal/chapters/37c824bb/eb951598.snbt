@@ -1,0 +1,25 @@
+{
+	x: 3.5d,
+	y: -4.5d,
+	description: "Search 'Teleportation' in JEI for list of teleporters!",
+	dependencies: [
+		"75890369"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ff6df61a",
+		type: "item",
+		items: [{
+			item: "dimdoors:oak_dimensional_door"
+		}]
+	},
+	{
+		uid: "6e0808aa",
+		type: "item",
+		items: [{
+			item: "dimdoors:rift_signature"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

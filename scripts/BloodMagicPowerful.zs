@@ -147,7 +147,7 @@ recipes.addShaped(<contenttweaker:bloodmaster_metal_feet>,
 mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:infused_lightwood_sapling>, <advancedrocketry:aliensapling>, 5, 10000, 500, 600);
 
 
-mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:infused_rhenium_ingot>, [<contenttweaker:infused_lightwood_sapling>, <contenttweaker:fiery_rhenium_ingot>, <bloodarsenal:stasis_sword>, <contenttweaker:cursed_myrmitite_catalyst>], 100.0, 50.0);
+mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:infused_rhenium_ingot>, [<contenttweaker:infused_lightwood_sapling>, <contenttweaker:fiery_rhenium_ingot>, <bloodmagic:sentient_sword>, <contenttweaker:cursed_myrmitite_catalyst>], 100.0, 50.0);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<tconstruct:knife_blade>.withTag({Material: "chaotic_plustic"}), 
 10000000, 

@@ -5,6 +5,11 @@ recipes.addShaped(<draconicevolution:crafting_injector:0>,
 [<aoa3:low_precasia_stone>, <contenttweaker:draconic_machine_frame>, <aoa3:lelyetia_stone>],
 [<aoa3:baron_stone>, <thaumicaugmentation:rift_seed:1>, <aoa3:creep_stone>]]);
 
+recipes.addShaped(<draconicevolution:crafting_injector:0>*2,
+[[<ore:ingotStellarAlloy>, <draconicevolution:draconic_core>, <ore:ingotStellarAlloy>],
+[<aoa3:low_precasia_stone>, <contenttweaker:draconic_machine_frame>, <aoa3:lelyetia_stone>],
+[<aoa3:baron_stone>, <contenttweaker:projector_gem>, <aoa3:creep_stone>]]);
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:draconic_machine_frame>, 
 [[<minecraft:dragon_egg>, <minecraft:dragon_egg>, <draconicevolution:dragon_heart>, <minecraft:dragon_egg>, <minecraft:dragon_egg>], 
 [<minecraft:dragon_egg>, <draconicevolution:draconium_block:0>, <nuclearcraft:fuel_mixed_oxide:1>, <draconicevolution:draconium_block:0>, <minecraft:dragon_egg>], 

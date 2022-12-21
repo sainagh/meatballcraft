@@ -3707,6 +3707,50 @@
     {
       "item": "mod_lavacow:mossy_stick|0",
       "emc": 0
+    },
+    {
+      "item": "minecraft:purple_shulker_box|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:fluix_microcontroller|0",
+      "emc": 999999999
+    },
+    {
+      "item": "nuclearcraft:ingot_block|8",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:material|24",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:furnace|0",
+      "emc": 1
+    },
+    {
+      "item": "contenttweaker:the_dark_star|0",
+      "emc": 10000
+    },
+    {
+      "item": "contenttweaker:core_of_undeath|0",
+      "emc": 666666
+    },
+    {
+      "item": "forestry:propolis|0",
+      "emc": 0
+    },
+    {
+      "item": "forestry:propolis|1",
+      "emc": 0
+    },
+    {
+      "item": "forestry:propolis|3",
+      "emc": 0
+    },
+    {
+      "item": "abyssalcraft:abyssalsand|0",
+      "emc": 1
     }
   ]
 }

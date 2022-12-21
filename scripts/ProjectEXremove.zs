@@ -51,3 +51,4 @@ recipes.remove(<projectex:power_flower:12>);
 recipes.remove(<projectex:power_flower:13>);
 recipes.remove(<projectex:power_flower:14>);
 recipes.remove(<projectex:power_flower:15>);
+recipes.remove(<projectex:final_star>);

@@ -1,306 +1,708 @@
 [
+  
+
   {
-    "mob": ["minecraft:skeleton",
-        "minecraft:zombie",
-        "aoa3:ramradon",
-        "aoa3:emperor_beast",
-        "aoa3:paravite",
-        "aoa3:cave_creep",
-        "aoa3:rockbiter",
-        "aoa3:rock_crawler",
-        "aoa3:rock_critter",
-        "aoa3:anemia",
-        "aoa3:fiend",
-        "aoa3:baumba",
-        "aoa3:refluct",
-        "aoa3:zarg",
-        "aoa3:zorp"],
-    "gamestage":"ModularStage",
+    "dimension": 0,
+    "hostile": true,
+    "gamestage":"ExtendedCrafting",
     "result": "default",
-    "healthmultiply": 1.3,
-    "damagemultiply": 1,
-    "speedmultiply": 1
+    "multxp": 1.0,
+    "healthmultiply": 1.5,
+    "damagemultiply": 1.1,
+    "speedmultiply": 1.0
   },
   {
-    "mob": ["minecraft:skeleton",
-        "minecraft:zombie",
-        "aoa3:ramradon",
-        "aoa3:emperor_beast",
-        "aoa3:paravite",
-        "aoa3:cave_creep",
-        "aoa3:rockbiter",
-        "aoa3:rock_crawler",
-        "aoa3:rock_critter",
-        "aoa3:anemia",
-        "aoa3:fiend",
-        "aoa3:baumba",
-        "aoa3:refluct",
-        "aoa3:zarg",
-        "aoa3:zorp",
-        "aoa3:bugeye",
-        "aoa3:nightfly",
-        "aoa3:night_reaper",
-        "aoa3:dicer",
-        "aoa3:charger",
-        "aoa3:desert_charger",
-        "aoa3:hill_charger",
-        "aoa3:sea_charger",
-        "aoa3:snow_charger",
-        "aoa3:chimera",
-        "aoa3:chomper",
-        "aoa3:furlion",
-        "aoa3:king_charger",
-        "aoa3:mother_void_walker",
-        "aoa3:sand_giant",
-        "aoa3:nethengeic_beast",
-        "aoa3:amphibiyte",
-        "aoa3:sabretooth",
-        "aoa3:kaiyu",
-        "aoa3:zhinx",
-        "aoa3:host",
-        "aoa3:arocknid",
-        "aoa3:bloodsucker",
-        "aoa3:flesh_eater",
-        "aoa3:jawe",
-        "aoa3:occulent",
-        "aoa3:angelica",
-        "aoa3:voliant",
-        "aoa3:nightwing",
-        "aoa3:arkzyne",
-        "aoa3:basilisk",
-        "aoa3:crusilisk",
-        "aoa3:devourer",
-        "aoa3:dusteiva",
-        "aoa3:duston",
-        "aoa3:dust_strider",
-        "aoa3:lost_soul",
-        "aoa3:lurker",
-        "aoa3:merkyre",
-        "aoa3:stalker",
-        "aoa3:fenix",
-        "aoa3:goldus",
-        "aoa3:embrake",
-        "aoa3:tharafly",
-        "aoa3:lelyetian_caster",
-        "aoa3:flye",
-        "aoa3:distorter"],
+    "dimension": -1,
+    "hostile": true,
+    "gamestage":"ExtendedCrafting",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 1.5,
+    "damagemultiply": 1.1,
+    "speedmultiply": 1.0
+  },
+  {
+    "dimension": 1,
+    "hostile": true,
+    "gamestage":"ExtendedCrafting",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 1.5,
+    "damagemultiply": 1.1,
+    "speedmultiply": 1.0
+  },
+
+
+
+
+  {
+    "dimension": 1,
+    "hostile": true,
+    "gamestage":"ModularStage",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 2.5,
+    "damagemultiply": 2.1,
+    "speedmultiply": 1.0
+  },
+  {
+    "dimension": 0,
+    "hostile": true,
+    "gamestage":"ModularStage",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 2.5,
+    "damagemultiply": 2.1,
+    "speedmultiply": 1.0
+  },
+  {
+    "dimension": -1,
+    "hostile": true,
+    "gamestage":"ModularStage",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 2.5,
+    "damagemultiply": 2.1,
+    "speedmultiply": 1.0
+  },
+
+
+
+  {
+    "dimension": 0,
+    "hostile": true,
+    "gamestage":"BloodmasterStage",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 4.5,
+    "damagemultiply": 5.0,
+    "speedmultiply": 1.0
+  },
+  {
+    "dimension": -1,
+    "hostile": true,
+    "gamestage":"BloodmasterStage",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 4.5,
+    "damagemultiply": 5.0,
+    "speedmultiply": 1.0
+  },
+  {
+    "dimension": 1,
+    "hostile": true,
+    "gamestage":"BloodmasterStage",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 4.5,
+    "damagemultiply": 5.0,
+    "speedmultiply": 1.0
+  },
+
+
+
+  {
+    "dimension": 0,
+    "hostile": true,
     "gamestage":"DivineStage",
     "result": "default",
-    "healthmultiply": 15,
-    "damagemultiply": 15,
-    "speedmultiply": 1
+    "multxp": 1.0,
+    "healthmultiply": 15.0,
+    "damagemultiply": 15.0,
+    "speedmultiply": 1.0
   },
   {
-    "mob": ["aoa3:bugeye",
-        "aoa3:nightfly",
-        "aoa3:night_reaper",
-        "aoa3:dicer",
-        "aoa3:charger",
-        "aoa3:desert_charger",
-        "aoa3:hill_charger",
-        "aoa3:sea_charger",
-        "aoa3:snow_charger",
-        "aoa3:chimera",
-        "aoa3:chomper",
-        "aoa3:furlion"],
-        "result": "default",
-    "healthmultiply": 1.3,
-    "gamestage":"ModularStage",
-    "damagemultiply": 1.1,
-    "speedmultiply": 1.2
+    "dimension": -1,
+    "hostile": true,
+    "gamestage":"DivineStage",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 15.0,
+    "damagemultiply": 15.0,
+    "speedmultiply": 1.0
   },
   {
-    "mob": ["aoa3:king_charger",
-        "aoa3:mother_void_walker",
-        "aoa3:sand_giant",
-        "aoa3:nethengeic_beast",
-        "aoa3:amphibiyte",
-        "aoa3:sabretooth",
-        "aoa3:kaiyu",
-        "aoa3:zhinx",
-        "aoa3:host",
-        "aoa3:arocknid",
-        "aoa3:bloodsucker",
-        "aoa3:flesh_eater",
-        "aoa3:jawe",
-        "aoa3:occulent",
-        "aoa3:angelica",
-        "aoa3:voliant",
-        "aoa3:nightwing",
-        "aoa3:arkzyne",
-        "aoa3:basilisk",
-        "aoa3:crusilisk",
-        "aoa3:devourer",
-        "aoa3:dusteiva",
-        "aoa3:duston",
-        "aoa3:dust_strider",
-        "aoa3:lost_soul",
-        "aoa3:lurker",
-        "aoa3:merkyre",
-        "aoa3:stalker",
-        "aoa3:fenix",
-        "aoa3:goldus",
-        "aoa3:embrake",
-        "aoa3:tharafly",
-        "aoa3:lelyetian_caster",
-        "aoa3:flye",
-        "aoa3:distorter"],
-        "result": "default",
-        "gamestage":"ModularStage",
-    "healthmultiply": 2,
-    "damagemultiply": 3,
-    "speedmultiply": 1
+    "dimension": 1,
+    "hostile": true,
+    "gamestage":"DivineStage",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 15.0,
+    "damagemultiply": 15.0,
+    "speedmultiply": 1.0
+  },
+
+
+
+  {
+    "dimension": 0,
+    "hostile": true,
+    "gamestage":"DraconicStage",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 20.0,
+    "damagemultiply": 20.0,
+    "speedmultiply": 1.0
   },
   {
-    "mob": ["aoa3:bobo",
-        "aoa3:chocko",
-        "aoa3:happy",
-        "aoa3:jumbo",
-        "aoa3:koko",
-        "aoa3:kranky",
-        "aoa3:snappy",
-        "aoa3:sticky",
-        "aoa3:stitches",
-        "aoa3:tipsy",
-        "aoa3:eeo",
-        "aoa3:halycon",
-        "aoa3:dawnlight",
-        "aoa3:rainicorn",
-        "aoa3:airhead",
-        "aoa3:candy_corn",
-        "aoa3:cane_bug",
-        "aoa3:cherry_blaster",
-        "aoa3:gingerbird",
-        "aoa3:lollypopper",
-        "aoa3:archvine",
-        "aoa3:broccohead",
-        "aoa3:carrotop",
-        "aoa3:corny",
-        "aoa3:daysee",
-        "aoa3:flowerface",
-        "aoa3:pod_plant",
-        "aoa3:squasher",
-        "aoa3:sunny",
-        "aoa3:vine_wizard"],
-        "result": "default",
-    "healthmultiply": 8,
-    "damagemultiply": 5,
-    "speedmultiply": 1
+    "dimension": -1,
+    "hostile": true,
+    "gamestage":"DraconicStage",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 20.0,
+    "damagemultiply": 20.0,
+    "speedmultiply": 1.0
   },
   {
-    "mob": ["aoa3:enforcer",
-        "aoa3:mechachron",
-        "aoa3:mechamaton",
-        "aoa3:mechyon",
-        "aoa3:polytom",
-        "aoa3:voltron",
-        "aoa3:ariel",
-        "aoa3:bouncer",
-        "aoa3:paladin",
-        "aoa3:rune_templar",
-        "aoa3:runicorn",
-        "aoa3:runicorn_rider",
-        "aoa3:runic_guardian",
-        "aoa3:runic_lifeform",
-        "aoa3:spectral_wizard"],
-        "result": "default",
-    "healthmultiply": 10,
-    "damagemultiply": 6,
-    "speedmultiply": 1
+    "dimension": 1,
+    "hostile": true,
+    "gamestage":"DraconicStage",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 20.0,
+    "damagemultiply": 20.0,
+    "speedmultiply": 1.0
+  },
+
+
+
+  {
+    "dimension": 0,
+    "hostile": true,
+    "gamestage":"BrightsteelForging",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 50.0,
+    "damagemultiply": 50.0,
+    "speedmultiply": 1.0
   },
   {
-    "mob": [
-        "bewitchment:leonard",
-        "bewitchment:baphomet",
-        "bewitchment:shadow_person",
-        "bewitchment:demon",
-        "bewitchment:demoness",
-        "bewitchment:imp"],
-        "result": "default",
-    "healthmultiply": 10,
-    "damagemultiply": 3,
-    "speedmultiply": 1
+    "dimension": -1,
+    "hostile": true,
+    "gamestage":"BrightsteelForging",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 50.0,
+    "damagemultiply": 50.0,
+    "speedmultiply": 1.0
   },
   {
-    "mob": ["aoa3:construct_flight",
-        "aoa3:construct_mind",
-        "aoa3:construct_range",
-        "aoa3:construct_resistance",
-        "aoa3:construct_speed",
-        "aoa3:construct_strength",
-        "aoa3:construct_terror",
-        "aoa3:fungat",
-        "aoa3:fungback",
-        "aoa3:fungik",
-        "aoa3:fungock",
-        "aoa3:runic_golem",
-        "aoa3:alarmo",
-        "aoa3:centinel",
-        "aoa3:destructor",
-        "aoa3:fischer",
-        "aoa3:gadgetoid",
-        "aoa3:slimer",
-        "aoa3:toxxulous",
-        "aoa3:amphibior",
-        "aoa3:angler",
-        "aoa3:mermage",
-        "aoa3:muncher",
-        "aoa3:neptuno",
-        "aoa3:faceless_floater",
-        "aoa3:grillface",
-        "aoa3:hunter",
-        "aoa3:shifter",
-        "aoa3:silencer",
-        "aoa3:coralon",
-        "aoa3:skull_creature",
-        "aoa3:valkyrie"],
-        "result": "default",
-    "healthmultiply": 8,
-    "damagemultiply": 6,
-    "speedmultiply": 1
+    "dimension": 0,
+    "hostile": true,
+    "gamestage":"BrightsteelForging",
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 50.0,
+    "damagemultiply": 50.0,
+    "speedmultiply": 1.0
   },
+
+
+
   {
-    "mob": ["aoa3:arcbeast",
-        "aoa3:arc_flower",
-        "aoa3:arcworm",
-        "aoa3:axiolight",
-        "aoa3:lightwalker",
-        "aoa3:luxocron",
-        "aoa3:sea_viper",
-        "aoa3:omnilight",
-        "aoa3:shyre_knight",
-        "aoa3:soulscorne",
-        "aoa3:soulvyre",
-        "aoa3:stimulo",
-        "aoa3:stimulosus"],
-        "result": "default",
-    "healthmultiply": 15,
-    "damagemultiply":20,
-    "speedmultiply": 1
+    "dimension": 7,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 4.0,
+    "damagemultiply": 4.0,
+    "speedmultiply": 1.0
   },
+
   {
-    "mob": [
-        "aoa3:king_bambambam",
-        "aoa3:nethengeic_wither"],
-        "result": "default",
-    "healthmultiply": 3,
-    "damagemultiply": 1,
-    "speedmultiply": 1
+    "dimension": 66,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 4.0,
+    "damagemultiply": 4.0,
+    "speedmultiply": 1.0
   },
+
   {
-    "mob": ["twilightforest:minotaur",
-        "twilightforest:fire_beetle",
-        "twilightforest:slime_beetle",
-        "twilightforest:pinch_beetle",
-        "erebus:erebus.beetle",
-        "erebus:erebus.rhino_beetle",
-        "erebus:erebus.bombardier_beetle",
-        "erebus:erebus.titan_beetle",
-        "erebus:erebus.stag_beetle",
-        "erebus:erebus.tarantula",
-        "twilightforest:death_tome",
-        "twilightforest:kobold",
-        "tehbetweenlands:dark_druid",
+    "dimension": 425,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 4.0,
+    "damagemultiply": 4.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 426,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 6.0,
+    "damagemultiply": 4.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 50,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 2.0,
+    "damagemultiply": 2.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 51,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 2.0,
+    "damagemultiply": 2.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 52,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 2.0,
+    "damagemultiply": 3.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 53,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 3.0,
+    "damagemultiply": 2.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": -11325,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 6.0,
+    "damagemultiply": 4.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 180,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 6.0,
+    "damagemultiply": 6.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 181,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 6.0,
+    "damagemultiply": 6.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 182,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 6.0,
+    "damagemultiply": 6.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 183,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 30.0,
+    "damagemultiply": 30.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 184,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 40.0,
+    "damagemultiply": 40.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 152,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 15.0,
+    "damagemultiply": 15.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 420,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 5.0,
+    "damagemultiply": 5.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 421,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 10.0,
+    "damagemultiply": 10.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 422,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 10.0,
+    "damagemultiply": 20.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 423,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 10.0,
+    "damagemultiply": 20.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 424,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 20.0,
+    "damagemultiply": 20.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 818,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 5.0,
+    "damagemultiply": 5.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 802,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 5.0,
+    "damagemultiply": 5.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 815,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 5.0,
+    "damagemultiply": 10.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 805,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 5.0,
+    "damagemultiply": 5.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 807,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 5.0,
+    "damagemultiply": 5.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 800,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 5.0,
+    "damagemultiply": 10.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 803,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 10.0,
+    "damagemultiply": 10.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 809,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 10.0,
+    "damagemultiply": 10.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 804,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 10.0,
+    "damagemultiply": 10.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 806,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 10.0,
+    "damagemultiply": 10.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 811,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 10.0,
+    "damagemultiply": 10.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 813,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 20.0,
+    "damagemultiply": 20.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 817,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 10.0,
+    "damagemultiply": 10.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 821,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 10.0,
+    "damagemultiply": 10.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 165,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 20.0,
+    "damagemultiply": 15.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 814,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 15.0,
+    "damagemultiply": 15.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 819,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 15.0,
+    "damagemultiply": 20.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 816,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 15.0,
+    "damagemultiply": 20.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 801,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 20.0,
+    "damagemultiply": 20.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 812,
+    "hostile": true,
+    "multxp": 1.0,
+    "healthmultiply": 20.0,
+    "damagemultiply": 20.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 810,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 20.0,
+    "damagemultiply": 20.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 808,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 20.0,
+    "damagemultiply": 20.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 820,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 25.0,
+    "damagemultiply": 25.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 170,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 25.0,
+    "damagemultiply": 25.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 171,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 25.0,
+    "damagemultiply": 25.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 172,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 25.0,
+    "damagemultiply": 25.0,
+    "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 173,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 25.0,
+    "damagemultiply": 25.0,
+    "speedmultiply": 1.0
+  }, 
+
+
+  {
+    "passive": true,
+    "dimension": 170,
+    "onjoin": true,
+    "result": "allow",
+    "potion": "minecraft:strength,999999,50"
+  }, 
+  {
+    "passive": true,
+    "dimension": 171,
+    "onjoin": true,
+    "result": "allow",
+    "potion": "minecraft:strength,999999,50"
+  }, 
+  {
+    "passive": true,
+    "dimension": 172,
+    "onjoin": true,
+    "result": "allow",
+    "potion": "minecraft:strength,999999,50"
+  }, 
+  {
+    "passive": true,
+    "dimension": 173,
+    "onjoin": true,
+    "result": "allow",
+    "potion": "minecraft:strength,999999,50"
+  },
+
+
+
+  {
+    "mob": ["tehbetweenlands:dark_druid",
         "tehbetweenlands:swamp_hag",
         "tehbetweenlands:wight",
         "tehbetweenlands:lurker",
@@ -309,100 +711,115 @@
         "aoa3:nethengeic_wither",
         "tehbetweenlands:chiromaw",
         "tehbetweenlands:large_sludge_worm"],
-        "result": "default",
-    "healthmultiply": 2,
-    "damagemultiply": 2,
-    "speedmultiply": 1
+        "onjoin": true,
+        "result": "allow",
+        "potion": ["minecraft:strength,999999,3",
+        "minecraft:regeneration,60,255", 
+        "minecraft:health_boost,999999,30", 
+        "minecraft:absorption,999999,2", 
+        "minecraft:fire_resistance,999999,1",
+        "minecraft:magic_resistance,999999,1",
+        "minecraft:regeneration,999999,1"]
   },
-  {
-    "mob": ["aoa3:elusive",
-          "aoa3:graw",
-          "aoa3:gyro",
-          "aoa3:harkos",
-          "aoa3:hive_king",
-          "aoa3:horon",
-          "aoa3:kajaros",
-          "aoa3:rockrider",
-          "aoa3:silverfoot",
-          "aoa3:visualent"],
-    "onjoin": true,
-    "result": "allow",
-    "healthmultiply": 5,
-    "damagemultiply": 7,
-    "speedmultiply": 1
-  },
+
+
+
   {
     "mob": ["twilightforest:naga",
-          "twilightforest:lich",
-          "twilightforest:ur_ghast",
-          "aoa3:corallus",
-          "twilightforest:minoshroom",
-          "twilightforest:knight_phantom",
-          "twilightforest:yeti_alpha",
-          "twilightforest:snow_queen",
-          "erebus:erebus.tarantula_mini_boss",
-          "erebus:erebus.antlion_mini_boss"],
+      "twilightforest:lich",
+      "twilightforest:ur_ghast",
+      "aoa3:corallus",
+      "twilightforest:minoshroom",
+      "aether_legacy:valkyrie",
+      "aether_legacy:valkyrie_queen",
+      "aether_legacy:mimic",
+      "twilightforest:knight_phantom",
+      "twilightforest:yeti_alpha",
+      "twilightforest:snow_queen",
+      "erebus:erebus.tarantula_mini_boss",
+      "erebus:erebus.antlion_mini_boss",
+      "bewitchment:leonard",
+      "bewitchment:baphomet",
+      "bewitchment:shadow_person",
+      "bewitchment:demon",
+      "bewitchment:demoness",
+      "bewitchment:imp"],
     "onjoin": true,
     "result": "allow",
-    "healthmultiply": 3,
-    "damagemultiply": 3,
-    "speedmultiply": 1
+    "potion": ["minecraft:strength,999999,1",
+      "minecraft:regeneration,150,255", 
+      "minecraft:health_boost,999999,100", 
+      "minecraft:fire_resistance,999999,1",
+      "minecraft:magic_resistance,999999,1",
+      "minecraft:regeneration,999999,1"]
   },
+
+
+
   {
     "mob": ["aoa3:bane",
-          "aoa3:baroness",
-          "aoa3:coniferon",
-          "aoa3:creep",
-          "aoa3:crystocore",
-          "aoa3:tyrosaur",
-          "aoa3:flash",
-          "aoa3:goldorth",
-          "aoa3:guardian",
-          "aoa3:hydrolisk",
-          "aoa3:king_shroomus",
-          "aoa3:kror",
-          "aoa3:okazor",
-          "aoa3:raxxan",
-          "aoa3:shadowlord",
-          "aoa3:vinocorne",
-          "aoa3:voxxulon"],
+      "aoa3:baroness",
+      "aoa3:coniferon",
+      "aoa3:creep",
+      "aoa3:crystocore",
+      "aoa3:tyrosaur",
+      "aoa3:flash",
+      "aoa3:goldorth",
+      "aoa3:guardian",
+      "aoa3:hydrolisk",
+      "aoa3:king_shroomus",
+      "aoa3:kror",
+      "aoa3:okazor",
+      "aoa3:raxxan",
+      "aoa3:shadowlord",
+      "aoa3:vinocorne",
+      "aoa3:voxxulon"],
     "onjoin": true,
     "result": "allow",
-    "healthmultiply": 5,
-    "damagemultiply": 7,
-    "speedmultiply": 1
+    "potion": ["minecraft:strength,999999,1",
+      "minecraft:regeneration,50,255", 
+      "minecraft:health_boost,999999,100", 
+      "minecraft:fire_resistance,999999,1",
+      "minecraft:magic_resistance,999999,1",
+      "minecraft:regeneration,999999,1"]
   },
+
+
+
   {
     "mob": ["aoa3:craexxeus",
-        "aoa3:mechbot",
-        "aoa3:dracyon",
-        "aoa3:clunkhead",
-        "aoa3:penumbra",
-        "aether_legacy:valkyrie",
-        "aether_legacy:valkyrie_queen",
-        "aether_legacy:mimic",
-        "abyssalcraft:shadowboss",
-        "abyssalcraft:jzaharminion",
-        "aoa3:sysker",
-        "aoa3:ghastus",
-        "aoa3:urv",
-        "aoa3:visage",
-        "aoa3:shavo",
-        "aoa3:skelekyte",
-        "aoa3:goldum",
-        "aoa3:reaver",
-        "aoa3:urioh",
-        "aoa3:skeledon",
-        "aoa3:mirage",
-        "aoa3:miskel",
-        "aoa3:klobber",
-        "aoa3:proshield"],
+      "aoa3:mechbot",
+      "aoa3:dracyon",
+      "aoa3:clunkhead",
+      "aoa3:penumbra",
+      "abyssalcraft:shadowboss",
+      "abyssalcraft:jzaharminion",
+      "aoa3:sysker",
+      "aoa3:ghastus",
+      "aoa3:urv",
+      "aoa3:visage",
+      "aoa3:shavo",
+      "aoa3:skelekyte",
+      "aoa3:goldum",
+      "aoa3:reaver",
+      "aoa3:urioh",
+      "aoa3:skeledon",
+      "aoa3:mirage",
+      "aoa3:miskel",
+      "aoa3:klobber",
+      "aoa3:proshield"],
     "onjoin": true,
     "result": "allow",
     "healthmultiply": 5,
-    "damagemultiply": 10,
-    "speedmultiply": 1
+    "speedmultiply": 1,
+    "potion": ["minecraft:strength,999999,20", 
+      "minecraft:fire_resistance,999999,1",
+      "minecraft:magic_resistance,999999,1",
+      "minecraft:regeneration,999999,2"]
   },
+
+
+
   {
     "mob": ["aoa3:xxeus"],
     "onjoin": true,
@@ -411,21 +828,9 @@
     "damagemultiply": 180,
     "speedmultiply": 1
   },
-  {
-    "mob": ["twilightforest:harbinger_cube",
-      "twilightforest:roving_cube",
-      "twilightforest:adherent",
-      "abyssalcraft:chagarothspawn",
-      "abyssalcraft:chagarothfist",
-      "abyssalcraft:chagaroth",
-      "thaumicaugmentation:primal_wisp",
-      "aoa3:skeletron"],
-    "onjoin": true,
-    "result": "allow",
-    "healthmultiply": 3,
-    "damagemultiply": 5,
-    "speedmultiply": 1
-  },
+
+
+
   {
     "mob": ["thaumicaugmentation:eldritch_guardian",
       "thaumicaugmentation:eldritch_warden",
@@ -434,8 +839,12 @@
     "result": "allow",
     "healthmultiply": 2,
     "speedmultiply": 1,
-    "potion": ["minecraft:strength,999999,2", "minecraft:resistance,999999,1"]
+    "potion": ["minecraft:strength,999999,2", 
+      "minecraft:magic_resistance,999999,2"]
   },
+
+
+
   {
     "mob": ["thaumcraft:eldritchwarden",
       "thaumcraft:eldritchgolem",
@@ -444,41 +853,9 @@
       "thaumcraft:cultistcleric"],
     "onjoin": true,
     "result": "allow",
-    "healthmultiply": 2,
-    "damagemultiply": 3,
-    "speedmultiply": 1
-  }, 
-  {
-    "passive": true,
-    "dimension": 170,
-    "onjoin": true,
-    "result": "allow",
-    "damagemultiply": 16,
-    "potion": "minecraft:strength,999999,50"
-  }, 
-  {
-    "passive": true,
-    "dimension": 171,
-    "onjoin": true,
-    "result": "allow",
-    "damagemultiply": 16,
-    "potion": "minecraft:strength,999999,50"
-  }, 
-  {
-    "passive": true,
-    "dimension": 172,
-    "onjoin": true,
-    "result": "allow",
-    "damagemultiply": 16,
-    "potion": "minecraft:strength,999999,50"
-  }, 
-  {
-    "passive": true,
-    "dimension": 173,
-    "onjoin": true,
-    "result": "allow",
-    "damagemultiply": 16,
-    "potion": "minecraft:strength,999999,50"
+    "speedmultiply": 1,
+    "potion": ["minecraft:strength,999999,2", 
+    "minecraft:magic_resistance,999999,2"]
   }
-  
+
 ]

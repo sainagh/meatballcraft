@@ -295,3 +295,6 @@ recipes.addShaped(<appliedenergistics2:part:341>,
 [[<contenttweaker:mythic_excavation_engine>, <appliedenergistics2:part:76>, <contenttweaker:mythic_excavation_engine>],
 [<appliedenergistics2:part:340>, <appliedenergistics2:part:76>, <appliedenergistics2:part:340>],
 [<contenttweaker:mythic_excavation_engine>, <appliedenergistics2:part:76>, <contenttweaker:mythic_excavation_engine>]]);
+
+mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:600>, <minecraft:glowstone_dust>);
+mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:1200>, <minecraft:glowstone_dust>);

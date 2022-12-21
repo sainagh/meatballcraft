@@ -1,0 +1,15 @@
+{
+	x: 15.5d,
+	y: -3.0d,
+	dependencies: [
+		"a9add4a0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "589f2da5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:hard_bone"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 8.0d,
+	y: -4.5d,
+	dependencies: [
+		"bc0ba902"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1b9f063c",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_skull"
+		}],
+		ignore_nbt: 1b
+	}]
+}

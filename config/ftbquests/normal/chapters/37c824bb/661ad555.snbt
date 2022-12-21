@@ -1,6 +1,6 @@
 {
 	x: 3.5d,
-	y: -3.0d,
+	y: -1.5d,
 	description: "Good way to test how much damage you do",
 	dependencies: [
 		"fb8062a2"

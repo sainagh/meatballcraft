@@ -193,9 +193,24 @@ recipes.addHiddenShaped("lawkingofpirates",
 [<minecraft:paper>.withTag({RepairCost: 0, display: {Name: "S"}}), <contenttweaker:recursive_powder>, <minecraft:paper>.withTag({RepairCost: 0, display: {Name: "M"}})],
 [<minecraft:paper>.withTag({RepairCost: 0, display: {Name: "E"}}), <minecraft:paper>.withTag({RepairCost: 0, display: {Name: "R"}}), <minecraft:paper>.withTag({RepairCost: 0, display: {Name: "B"}})]]);
 
-recipes.removeShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}));
+recipes.addHiddenShaped("lawkingofpiratesone", 
+<contenttweaker:essence_of_the_room>, 
+[[<minecraft:paper>.withTag({RepairCost: 1, display: {Name: "C"}}), <minecraft:paper>.withTag({RepairCost: 1, display: {Name: "H"}}), <minecraft:paper>.withTag({RepairCost: 1, display: {Name: "A"}})],
+[<minecraft:paper>.withTag({RepairCost: 1, display: {Name: "S"}}), <contenttweaker:recursive_powder>, <minecraft:paper>.withTag({RepairCost: 1, display: {Name: "M"}})],
+[<minecraft:paper>.withTag({RepairCost: 1, display: {Name: "E"}}), <minecraft:paper>.withTag({RepairCost: 1, display: {Name: "R"}}), <minecraft:paper>.withTag({RepairCost: 1, display: {Name: "B"}})]]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}));
 
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}),
 [[null, <extrautils2:opinium:8>, null],
 [<divinerpg:corrupted_stone>, <extrautils2:machine:0>, <divinerpg:corrupted_stone>],
 [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+
+recipes.removeShaped(<extrautils2:playerchest>);
+
+recipes.removeShaped(<randomthings:playerinterface>);
+
+recipes.addShaped(<extrautils2:playerchest>,
+[[<actuallyadditions:block_player_interface>, <divinerpg:arksiane_lump>, <actuallyadditions:block_player_interface>],
+[<divinerpg:arksiane_lump>, <projecte:alchemical_chest>, <divinerpg:arksiane_lump>],
+[<actuallyadditions:block_player_interface>, <divinerpg:arksiane_lump>, <actuallyadditions:block_player_interface>]]);

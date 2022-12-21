@@ -91,7 +91,7 @@ mods.techreborn.chemicalReactor.addRecipe(<aoa3:elecanium_ingot>*2, <contenttwea
 
 mods.techreborn.chemicalReactor.addRecipe(<materialpart:lunastone:ingot>*2, <contenttweaker:lunastone_egg>, <contenttweaker:lunalus_garnet>, 80, 256);
 
-val creationunidentified = RecipeBuilder.newBuilder("creationunidentified","creation_altar",80);
+val creationunidentified = RecipeBuilder.newBuilder("creationunidentified","creation_altar",20);
 creationunidentified.addEnergyPerTickInput(400000);
 creationunidentified.addFluidInput(<fluid:lifeessence>*50);
 creationunidentified.addFluidInput(<fluid:astralsorcery.liquidstarlight>*50);

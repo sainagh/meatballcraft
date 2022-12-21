@@ -1,5 +1,5 @@
 {
-	x: 93.5d,
+	x: 95.0d,
 	y: -4.5d,
 	description: "Can be automated uring hoppers, droppers, and a redstone clock",
 	dependencies: [

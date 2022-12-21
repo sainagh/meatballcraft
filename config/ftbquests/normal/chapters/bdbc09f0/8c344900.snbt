@@ -1,6 +1,6 @@
 {
-	x: 6.0d,
-	y: -2.0d,
+	x: 5.0d,
+	y: 0.0d,
 	text: [
 		"Generate RF using Dew of the Void, which can be automated using a series of Vats."
 	],

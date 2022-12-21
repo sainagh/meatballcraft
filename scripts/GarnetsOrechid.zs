@@ -57,8 +57,8 @@ mods.techreborn.industrialGrinder.addRecipe(<contenttweaker:bifrost_dust>*2, <co
 <contenttweaker:vibrating_stone>*15, <contenttweaker:vibrating_stone>*13, 
 <contenttweaker:bifrost_gem>, <enderio:item_alloy_endergy_ball:2>, <fluid:luminous_lava>*20, 100, 64);
 
-mods.techreborn.industrialGrinder.addRecipe(<contenttweaker:recursive_powder>*3, <draconicevolution:draconic_ingot>, 
-<draconicevolution:nugget:1>, <draconicevolution:nugget:1>, 
+mods.techreborn.industrialGrinder.addRecipe(<contenttweaker:recursive_powder>*3, <magicbees:resource:5>, 
+<magicbees:resource:5>, <magicbees:resource:5>, 
 <contenttweaker:bifrost_dust>, <enderio:item_alloy_endergy_ball:0>, <fluid:spicy_pyrotheum>*20, 100, 64);
 
 val mythassnorsegem = RecipeBuilder.newBuilder("mythassnorsegem","me_mythic_assembler",100);

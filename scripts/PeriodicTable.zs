@@ -1,13 +1,21 @@
 
 import mods.modularmachinery.RecipeBuilder;
+import mods.astralsorcery.Utils;
+import mods.buildcraft.AssemblyTable;
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<liquid:fluidglyceryl> * 1000, <liquid:fluiddiesel> * 4000, <liquid:fluidnitrodiesel> * 1000, null]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:nitrogen> * 1000, <fluid:fluidcarbon> * 1000, <liquid:fluidnitrocarbon> * 1000, null]);
+
+mods.nuclearcraft.melter.addRecipe([<ore:dustCharcoal>, <fluid:fluidcarbon> * 250]);
 
 // making krypton, neon, argon, and xenon
 
-mods.nuclearcraft.centrifuge.addRecipe([<fluid:aerotheum>*10, <fluid:nitrogen>*7, <fluid:oxygen>*2, <fluid:noble_gas_mix>*1, <fluid:argon>*1, 0.1, 6.1, 0.2]);
+mods.nuclearcraft.centrifuge.addRecipe([<fluid:aerotheum>*100, <fluid:nitrogen>*70, <fluid:oxygen>*20, <fluid:noble_gas_mix>*10, <fluid:argon>*10, 0.1, 6.1, 0.2]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:noble_gas_mix>*1, <fluid:cryotheum>*5, <fluid:supercooled_noble_gas_mix>*1, <fluid:helium>*1, 0.1, 2.5, 0.2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:noble_gas_mix>*10, <fluid:cryotheum>*50, <fluid:supercooled_noble_gas_mix>*10, <fluid:helium>*10, 0.1, 2.5, 0.2]);
 
-mods.nuclearcraft.centrifuge.addRecipe([<fluid:supercooled_noble_gas_mix>*10, <fluid:krypton_xenon_mix>*5, <fluid:neon>*5, null, null, 0.1, 6.1, 0.2]);
+mods.nuclearcraft.centrifuge.addRecipe([<fluid:supercooled_noble_gas_mix>*100, <fluid:krypton_xenon_mix>*50, <fluid:neon>*50, null, null, 0.1, 6.1, 0.2]);
 
 mods.nuclearcraft.rock_crusher.addRecipe([<abyssalcraft:crystal:21>, <contenttweaker:silica_dust>*4, null, null]);
 
@@ -88,7 +96,11 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:selenium_dust>, <fluid:selen
 
 // making yttrium and barium
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:salt_water>*10, <fluid:sulfuric_acid>*10, <fluid:fluidchlorite>*10, <fluid:hydrochloric_acid>*10, 0.1, 2.5, 0.2]);
+mods.nuclearcraft.chemical_reactor.removeRecipeWithInput([<fluid:hydrogen>, <fluid:chlorine>]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:hydrogen>*500, <fluid:chlorine>*1000, <fluid:fluidchlorite>*100, <fluid:hydrogen_chloride>*1000, 0.1, 2.5, 0.2]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:salt_water>*10, <fluid:hydrogen_chloride>*10, <fluid:fluidchlorite>*10, <fluid:hydrochloric_acid>*10, 0.1, 2.5, 0.2]);
 
 mods.nuclearcraft.rock_crusher.addRecipe([<thaumcraft:nugget:10>, <contenttweaker:yttrium_oxide>, <contenttweaker:barium_oxide>, null]);
 
@@ -108,7 +120,7 @@ mods.nuclearcraft.melter.addRecipe([<nuclearcraft:ingot:10>, <fluid:molten_zirco
 
 // making niobium
 
-val niobiumaccelerator = RecipeBuilder.newBuilder("niobiumaccelerator","high_impulse_accelerator",100);
+val niobiumaccelerator = RecipeBuilder.newBuilder("niobiumaccelerator","high_impulse_accelerator",40);
 niobiumaccelerator.addEnergyPerTickInput(10000000);
 niobiumaccelerator.addFluidInput(<fluid:titanium>*100);
 niobiumaccelerator.addFluidOutput(<fluid:niobium>*50);
@@ -120,7 +132,7 @@ mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:crystallized_tungstenste
 
 mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:crystallized_tungstensteel>, <contenttweaker:tungsten_molybdenum_dust>]);
 
-mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:tungsten_molybdenum_dust>, <fluid:molten_blood_infused_iron>*144, <fluid:tungsten_molybdenum_mix>*144]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:tungsten_molybdenum_dust>, <fluid:manyullyn>*144, <fluid:tungsten_molybdenum_mix>*144]);
 
 mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:tungsten_molybdenum_mix>*144, <fluid:boric_acid>*50, <fluid:molten_molybdenum>*72, <fluid:tungsten>*72, 0.1, 2.5, 0.2]);
 
@@ -140,3 +152,353 @@ mods.nuclearcraft.supercooler.addRecipe([<fluid:dense_plasma>*1000, <fluid:tripl
 
 mods.nuclearcraft.irradiator.addRecipe([<fluid:netrino_plasma>*10, <fluid:triple_point_fluid>*100, <fluid:meitnerium>*50, <fluid:neutron>*100, 0.2, 1.8, 2.5]);
 
+// making ruthenium
+
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:bef2>*500, <contenttweaker:beryllium_fluoride_crystal>]);
+
+recipes.addShaped(<contenttweaker:crystalline_beryllium>, 
+[[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>], 
+[<contenttweaker:beryllium_fluoride_crystal>, <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "resource:emeryllis_plant", agri_growth: 1 as byte}), <contenttweaker:beryllium_fluoride_crystal>], 
+[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>]]);  
+
+mods.techreborn.fusionReactor.addRecipe(<contenttweaker:crystalline_beryllium>, <nuclearcraft:ingot:10>, <contenttweaker:ruthenium_ingot>, 1000000, 100000, 120);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:ruthenium_ingot>, <fluid:molten_ruthenium>*144]);
+
+// making rhodium
+
+mods.techreborn.industrialElectrolyzer.addRecipe(<contenttweaker:rhodium_mixture>, <techreborn:smalldust:10>, null, null, null, <nuclearcraft:gem:0>, 30, 40);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:rhodium_mixture>, <fluid:sulfuric_acid>*500, <fluid:rhodium>*100, 0.2, 1.4, 0.3]);
+
+// making cadmium
+
+mods.nuclearcraft.centrifuge.addRecipe([<fluid:exhaust_steam>*100, <fluid:cadmium>*20, <fluid:hydrogen>*50, <fluid:oxygen>*30, null]);
+
+// making seaborgion
+
+recipes.addShaped(<contenttweaker:erodite_chunk>, 
+[[<environmentaltech:litherite_crystal>, <environmentaltech:erodium_crystal>, <environmentaltech:litherite_crystal>], 
+[<environmentaltech:erodium_crystal>, <environmentaltech:litherite_crystal>, <environmentaltech:erodium_crystal>], 
+[<environmentaltech:litherite_crystal>, <environmentaltech:erodium_crystal>, <environmentaltech:litherite_crystal>]]);  
+
+recipes.addShaped(<contenttweaker:kyrothite_chunk>, 
+[[<environmentaltech:kyronite_crystal>, <environmentaltech:kyronite_crystal>, <environmentaltech:kyronite_crystal>], 
+[<environmentaltech:kyronite_crystal>, <contenttweaker:erodite_chunk>, <environmentaltech:kyronite_crystal>], 
+[<environmentaltech:kyronite_crystal>, <environmentaltech:kyronite_crystal>, <environmentaltech:kyronite_crystal>]]);  
+
+recipes.addShaped(<contenttweaker:pladite_chunk>, 
+[[<environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>], 
+[<environmentaltech:pladium_crystal>, <contenttweaker:kyrothite_chunk>, <environmentaltech:pladium_crystal>], 
+[<environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>]]);  
+
+recipes.addShaped(<contenttweaker:iotherite_chunk>, 
+[[<environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>], 
+[<environmentaltech:ionite_crystal>, <contenttweaker:pladite_chunk>, <environmentaltech:ionite_crystal>], 
+[<environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>]]);  
+
+recipes.addShaped(<contenttweaker:aethite_chunk>, 
+[[<environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>], 
+[<environmentaltech:aethium_crystal>, <contenttweaker:iotherite_chunk>, <environmentaltech:aethium_crystal>], 
+[<environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>]]);  
+
+recipes.addShaped(<contenttweaker:seaborgium_chunk>, 
+[[<environmentaltech:mica>, <contenttweaker:tritium_crystal>, <environmentaltech:mica>], 
+[<contenttweaker:tritium_crystal>, <contenttweaker:aethite_chunk>, <contenttweaker:tritium_crystal>], 
+[<environmentaltech:mica>, <contenttweaker:tritium_crystal>, <environmentaltech:mica>]]);  
+
+mods.tconstruct.Melting.addRecipe(<fluid:seaborgium> * 144,<contenttweaker:seaborgium_chunk>);
+
+// making indium
+
+mods.nuclearcraft.infuser.addRecipe([<thermalfoundation:material:134>*12, <fluid:boric_acid>*200, <contenttweaker:indium_dust>]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:indium_dust>, <fluid:indium>*144]);
+
+// making antimony
+
+mods.thaumcraft.Crucible.registerRecipe("makeantimony", "", <contenttweaker:antimony_crystal>, <bewitchment:opal>, [<aspect:auram>*15]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:antimony_crystal>, <fluid:antimony>*144]);
+
+// making tellurium
+
+mods.thaumcraft.Crucible.registerRecipe("maketellurium", "", <contenttweaker:tellurium_crystal>, <abyssalcraft:densecarboncluster>, [<aspect:dreadia>*15]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:tellurium_crystal>, <fluid:tellurium>*144]);
+
+// making iodine
+
+mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:iodine> * 1000, <forestry:iodine_capsule>, 360);
+
+// making tantalum and hafnium
+
+mods.nuclearcraft.melter.addRecipe([<extrautils2:decorativesolid:8>, <fluid:messy_rainbow_fluid>*1000]);
+
+mods.nuclearcraft.infuser.addRecipe([<thermalfoundation:ore:8>, <fluid:messy_rainbow_fluid> * 100, <contenttweaker:hafnium_chunk>]);
+
+mods.nuclearcraft.infuser.addRecipe([<astralsorcery:blockcustomore:1>, <fluid:messy_rainbow_fluid> * 100, <contenttweaker:tantalum_chunk>]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:hafnium_chunk>, <fluid:hafnium>*144]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:tantalum_chunk>, <fluid:tantalum>*144]);
+
+// making osmium
+
+mods.nuclearcraft.melter.addRecipe([<agricraft:agri_nugget:11>, <fluid:osmium>*20]);
+
+// making mercury
+
+mods.nuclearcraft.melter.addRecipe([<ore:dustCinnabar>, <fluid:fluidmercury>*1000]);
+
+// making thallium
+
+mods.nuclearcraft.dissolver.addRecipe([<nuclearcraft:dust:11>, <fluid:hot_spring_water>*1000, <fluid:manganese_thallium_mix>*1000]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:manganese_thallium_mix>*200, <fluid:sulfur_trioxide>*200, <fluid:sulfuric_acid>*1000, <fluid:thallium>*500, 0.1, 2.5, 0.2]);
+
+// making bismuth
+
+recipes.addShapeless(<contenttweaker:bismuth_cluster>,
+[<thaumadditions:mithminite_scythe>.reuse(), 
+<thaumcraft:cluster:2>, 
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fabrico"}]})]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:bismuth_cluster>, <fluid:hydrochloric_acid>*10, <fluid:bismuth>*144]);
+
+// making radon and radium
+
+mods.nuclearcraft.dissolver.addRecipe([<nuclearcraft:thorium:1>, <fluid:plasma>*10, <fluid:fastly_dacaying_thorium>*10]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:fastly_dacaying_thorium>*100, <fluid:oxygen>*1000, <fluid:oxygen>*800, <fluid:radium>*100, 0.1, 2.5, 0.2]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:radium>*100, <fluid:oxygen>*1000, <fluid:oxygen>*800, <fluid:radon>*100, 0.1, 2.5, 0.2]);
+
+// making actinium
+
+mods.nuclearcraft.irradiator.addRecipe([<fluid:decomposed_matter>*50, <fluid:neutron>*10, <fluid:oxygen>*200, <fluid:actinium>*100]);
+
+// making rutherfordium
+
+mods.nuclearcraft.dissolver.addRecipe([<nuclearcraft:plutonium:12>, <fluid:plasma>*10, <fluid:fastly_dacaying_plutonium>*10]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:fastly_dacaying_plutonium>*10, <fluid:chlorine>*40, <fluid:rutherfordium_chloride>*100, null, 0.1, 2.5, 0.2]);
+
+mods.nuclearcraft.electrolyser.addRecipe([<fluid:rutherfordium_chloride>*50, <fluid:chlorine>*10, <fluid:rutherfordium>*40, null, null, 0.1, 0.9, 0.2]);
+
+// making dubnium
+
+mods.nuclearcraft.fusion.addRecipe([<fluid:americium_243>*10, <fluid:neon>*10, <fluid:dubnium>*100, <fluid:neutron>*100, null, null, 200.0, 200000.0, 14555.0, 0.1]);
+
+// making bohrium
+
+mods.nuclearcraft.irradiator.addRecipe([<fluid:electrons>*50, <fluid:neutron>*50, <fluid:relativistic_matter>*200, null]);
+
+mods.nuclearcraft.dissolver.addRecipe([<materialpart:rhenium:dust>, <fluid:relativistic_matter>*20, <fluid:bohrium>*40]);
+
+// making cerium
+
+val crystalboth = Utils.getCrystalORIngredient(true, true);
+
+recipes.addShaped(<contenttweaker:cerium_ingot>, 
+[[<minecraft:blaze_powder>, <contenttweaker:resplendent_ingot>, <minecraft:blaze_powder>], 
+[<minecraft:blaze_powder>, crystalboth, <minecraft:blaze_powder>], 
+[<minecraft:blaze_powder>, <minecraft:blaze_powder>, <minecraft:blaze_powder>]]);  
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:cerium_ingot>, <fluid:cerium>*144]);
+
+// making praseodymium
+
+mods.nuclearcraft.dissolver.addRecipe([<thaumadditions:adaminite_ingot>, <fluid:knightmetal>*144, <fluid:praseodymium>*144]);
+
+// making neodymium
+
+recipes.addShaped(<contenttweaker:neodymium_earth>, 
+[[<divinerpg:dungeon_tokens>, <tconstruct:slime_dirt:3>, <divinerpg:dungeon_tokens>], 
+[<tconstruct:slime_dirt:3>, <contenttweaker:apalachia_refined_gem>, <tconstruct:slime_dirt:3>], 
+[<divinerpg:dungeon_tokens>, <tconstruct:slime_dirt:3>, <divinerpg:dungeon_tokens>]]);  
+
+recipes.addShaped(<contenttweaker:neodymium_earth>*4, 
+[[<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>], 
+[<techreborn:uumatter>, <contenttweaker:neodymium_earth>, <techreborn:uumatter>], 
+[<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>]]);  
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:neodymium_earth>, <contenttweaker:nethersky_steel_ingot>, <contenttweaker:neodymium_magnetic_alloy>]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:neodymium_earth>, <fluid:formic_acid>*5, <fluid:neodymium>*144]);
+
+// making samarium
+
+mods.nuclearcraft.infuser.addRecipe([<bloodmagic:demon_crystal:4>, <fluid:molten_blood_infused_iron>*144, <contenttweaker:samarium_dust>]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:samarium_dust>, <fluid:samarium>*144]);
+
+// making europium
+
+mods.nuclearcraft.dissolver.addRecipe([<bewitchment:dimensional_sand>, <fluid:depleted_fuel_hea_242>*50, <fluid:europium>*100]);
+
+// making gadolinium
+
+mods.nuclearcraft.manufactory.addRecipe([<immersiveengineering:stone_decoration:4>, <contenttweaker:hempcrete_dust>]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:hempcrete_dust>, <fluid:hydrochloric_acid>*5, <fluid:inorganic_remains>*20]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:fluidchlorite>*50, <fluid:inorganic_remains>*50, <fluid:tot>*100, null]);
+
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:tot>*200, <contenttweaker:seraphinite_gem>]);
+
+recipes.addShapeless(<contenttweaker:gadolinium_gem>,
+[<astralsorcery:itemgrapplewand>.reuse(), 
+<contenttweaker:seraphinite_gem>]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:gadolinium_gem>, <fluid:gadolinium>*144]);
+
+
+// making terbium
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:molten_ruthenium>*100, <fluid:oxygen>*200, <fluid:ruthenium_oxide>*300, null]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:yttrium_oxide>*50, <fluid:ruthenium_oxide>*50, <fluid:yttrium_ruthenium>*100, <fluid:oxygen>*50]);
+
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:yttrium_ruthenium>*200, <contenttweaker:yttrium_ruthenium_cluster>]);
+
+AssemblyTable.addRecipe("maketerbiumfrommix", <contenttweaker:terbium_crystal>, 10, [<contenttweaker:yttrium_ruthenium_cluster>]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:terbium_crystal>, <fluid:terbium>*144]);
+
+// making fermium
+
+mods.nuclearcraft.electrolyser.addRecipe([<fluid:einstenium>*100, <fluid:einstenium_253>*50, <fluid:einstenium_254>*50, null, null, 0.1, 0.9, 0.2]);
+
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:einstenium_253>*50, <contenttweaker:einstenium_253>]);
+
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:einstenium_254>*50, <contenttweaker:einstenium_254>]);
+
+recipes.addShapeless(<contenttweaker:lees_fuel>,
+[<contenttweaker:einstenium_253>, <contenttweaker:einstenium_253>,
+<contenttweaker:einstenium_254>, <contenttweaker:einstenium_254>]);
+
+mods.nuclearcraft.fission.addRecipe([<contenttweaker:lees_fuel>, <contenttweaker:depleted_lees_fuel>, 32000.0, 400.0, 70.0, "fissioneinstenium", 0.8]);
+
+mods.nuclearcraft.fuel_reprocessor.addRecipe([<contenttweaker:depleted_lees_fuel>, <contenttweaker:fermium_252>*5, <contenttweaker:fermium_254>*5, <contenttweaker:fermium_255>*5, <contenttweaker:fermium_257>*5]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:fermium_257>, <fluid:fermium>*72]);
+
+recipes.addShapeless(<contenttweaker:hefm_fuel>,
+[<contenttweaker:fermium_252>, <contenttweaker:fermium_252>,
+<contenttweaker:fermium_254>, <contenttweaker:fermium_254>,
+<contenttweaker:fermium_255>, <contenttweaker:fermium_255>,
+<contenttweaker:fermium_257>, <contenttweaker:fermium_257>]);
+
+// making proactinium
+
+mods.techreborn.industrialGrinder.addRecipe(<contenttweaker:proactinium_dust>, <bigreactors:dustyellorium>*3, null, null, <ore:oreYellorite>, null, <fluid:boric_acid>*100, 30, 50);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:proactinium_dust>, <fluid:proactinium>*72]);
+
+// making mendelevium
+
+mods.nuclearcraft.irradiator.addRecipe([<fluid:einstenium>*10, <fluid:atomic_nuclei>*50, <fluid:mendelevium>*100, null, 0.2, 1.8, 1.3]);
+
+// making oganesson
+
+mods.nuclearcraft.fusion.addRecipe([<fluid:astralsorcery.liquidstarlight>*1000, <fluid:lifeessence>*1000, <fluid:sideral_life_essence>*1000, null, null, null, 200.0, 200000.0, 14555.0, 0.1]);
+
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:sideral_life_essence>*1000, <contenttweaker:stable_fusor>, 0.1, 0.1, 0.1]);
+
+mods.avaritia.Compressor.add("compressorrelativistic", <contenttweaker:everlasting_fusor>, 100, <contenttweaker:stable_fusor>, true);
+
+recipes.addShapeless(<contenttweaker:stable_oganesson>,
+[<contenttweaker:everlasting_fusor>.reuse(), 
+<nuclearcraft:californium:12>,
+<ore:ingotBoron>,
+<ore:ingotBoron>]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:stable_oganesson>, <fluid:oganesson>*144]);
+
+
+// making nobelium
+
+mods.nuclearcraft.fission.addRecipe([<contenttweaker:hefm_fuel>, <contenttweaker:depleted_hefm_fuel>, 32000.0, 100.0, 101.0, "fissionfermium", 1.8]);
+
+mods.nuclearcraft.fuel_reprocessor.addRecipe([<contenttweaker:depleted_hefm_fuel>, <contenttweaker:fermium_260>*4, null, null, null]);
+
+recipes.addShapeless(<contenttweaker:amfm_fuel>,
+[<nuclearcraft:americium:0>,
+<contenttweaker:fermium_260>,
+<contenttweaker:fermium_260>]);
+
+mods.nuclearcraft.fission.addRecipe([<contenttweaker:amfm_fuel>, <contenttweaker:depleted_amfm_fuel>, 52000.0, 10.0, 10.0, "fissionfermiumamericium", 0.1]);
+
+mods.nuclearcraft.fuel_reprocessor.addRecipe([<contenttweaker:depleted_amfm_fuel>, <contenttweaker:nobelium_254>*2, <contenttweaker:nobelium_255>*3, null, null]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:nobelium_254>, <fluid:nobelium>*72]);
+
+// making lawrencium
+
+mods.nuclearcraft.fuel_reprocessor.addRecipe([<contenttweaker:depleted_polonium>, <contenttweaker:lawrencium_258>*4, null, null, null]);
+
+recipes.addShapeless(<contenttweaker:herrr_fuel>,
+[<contenttweaker:lawrencium_258>,
+<contenttweaker:nobelium_255>,
+<contenttweaker:meatballium_323>,
+<nuclearcraft:plutonium:6>]);
+
+mods.nuclearcraft.fission.addRecipe([<contenttweaker:herrr_fuel>, <contenttweaker:depleted_herrr_fuel>, 52000.0, 10.0, 999.0, "fissionlawrencium", 5.5]);
+
+mods.nuclearcraft.fuel_reprocessor.addRecipe([<contenttweaker:depleted_herrr_fuel>, <contenttweaker:lawrencium_262>*4, null, null, null]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:lawrencium_262>, <fluid:lawrencium>*72]);
+
+// making dysprosium
+
+mods.thermalexpansion.Centrifuge.addRecipe([(<contenttweaker:dysprosium_remains>) % 10], <abyssalcraft:abyssalsand>, null, 2000);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:dysprosium_remains>, <fluid:dysprosium>*50]);
+
+// making holmium
+
+recipes.addShaped(<contenttweaker:holmium_ingot>,
+[[<mysticalagriculture:dirt_essence>, <mysticalagriculture:dirt_essence>, <mysticalagriculture:dirt_essence>],
+[<mysticalagriculture:dirt_essence>, <contenttweaker:cold_iron_egg>, <mysticalagriculture:dirt_essence>],
+[<mysticalagriculture:dirt_essence>, <mysticalagriculture:dirt_essence>, <mysticalagriculture:dirt_essence>]]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:holmium_ingot>, <fluid:holmium>*144]);
+
+// making erbium
+
+recipes.addShaped(<contenttweaker:sedna_cluster>,
+[[<advancedrocketry:crystal:0>, <contenttweaker:hyperchitinous_plate>, <advancedrocketry:crystal:3>],
+[<advancedrocketry:crystal:1>, <ore:dustPetrotheum>, <advancedrocketry:crystal:4>],
+[<advancedrocketry:crystal:2>, <contenttweaker:hyperchitinous_plate>, <advancedrocketry:crystal:5>]]);
+
+mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:sedna_cluster>, <contenttweaker:sedna_dust>]);
+
+mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:sedna_dust>, <contenttweaker:erbium_dust>]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:erbium_dust>, <fluid:erbium>*72]);
+
+// making thulium
+
+mods.nuclearcraft.dissolver.addRecipe([<ore:blockAlumite>, <fluid:liquid_lp>*69, <fluid:thulium>*100]);
+
+// making ytterbium
+
+mods.botania.ManaInfusion.addAlchemy(<contenttweaker:ytterbium_dust>, <aoa3:gardencia_stone>, 5000);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:ytterbium_dust>, <fluid:ytterbium>*72]);
+
+// making lutetium
+
+recipes.addShapeless(<contenttweaker:lutetium_cluster>,
+[<arcane_essentials:master_nature_sword>.reuse(),
+<minecraft:enchanted_book>,
+<aoa3:toxic_stone>]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:lutetium_cluster>, <fluid:lutetium>*250]);
+
+// making darmstadtium
+
+mods.nuclearcraft.isotope_separator.addRecipe([<extendedcrafting:material:32>, <contenttweaker:stable_darmstadtium>, <extendedcrafting:material:48>]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:stable_darmstadtium>, <fluid:darmstadtium>*144]);

@@ -178,14 +178,7 @@
                     "menu:back21.png",
                     "menu:back22.png",
                     "menu:back23.png",
-                    "menu:back24.png",
-                    "menu:back25.png",
-                    "menu:back26.png",
-                    "menu:back27.png",
-                    "menu:back28.png",
-                    "menu:back29.png",
-                    "menu:back30.png",
-                    "menu:back31.png"],
+                    "menu:back24.png"],
                 "displayDuration" : 100,
                 "fadeDuration" : 40
             }

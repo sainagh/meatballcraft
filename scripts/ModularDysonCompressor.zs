@@ -6,6 +6,11 @@ recipes.addShaped(<contenttweaker:miniature_black_hole>,
 [<avaritia:block_resource:1>, <contenttweaker:miniature_pulsar>, <avaritia:block_resource:1>],
 [<advancedrocketry:terraformer>, <contenttweaker:charged_dyson_capacitor>, <advancedrocketry:gravitymachine>]]);
 
+recipes.addShaped(<contenttweaker:triple_compressed_realgar>,
+[[<contenttweaker:double_compressed_realgar>, <contenttweaker:double_compressed_realgar>, <contenttweaker:double_compressed_realgar>],
+[<contenttweaker:double_compressed_realgar>, <contenttweaker:double_compressed_realgar>, <contenttweaker:double_compressed_realgar>],
+[<contenttweaker:double_compressed_realgar>, <contenttweaker:double_compressed_realgar>, <contenttweaker:double_compressed_realgar>]]);
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:interdimensional_energy_orb>, 
 [[<dimdoors:world_thread>, <contenttweaker:divine_flake>, <contenttweaker:aether_rock>, <contenttweaker:twilight_essence>, <contenttweaker:collecting_stone>], 
 [<thebetweenlands:weeping_blue_petal>, <techreborn:lapotronicorb>, <techreborn:lapotronicorb>, <techreborn:lapotronicorb>, <contenttweaker:rift_essence>], 
@@ -75,14 +80,14 @@ mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:horizon_stabilizer
 [<contenttweaker:entropy_construct>, <contenttweaker:hypercubic_energy_orb>, <contenttweaker:entropy_construct>], 
 [<contenttweaker:dyson_collector>, <contenttweaker:recursion_infinity>, <contenttweaker:dyson_collector>]], 1);
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:infinity_dyson_conduit>*14, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:infinity_dyson_conduit>*8, 
 [[<appliedenergistics2:spatial_pylon>, <contenttweaker:barathos_cap>, <contenttweaker:abyssal_cap>, 
 <contenttweaker:creeponian_cap>, <contenttweaker:lelyetian_cap>, <contenttweaker:precasian_cap>, 
 <contenttweaker:crystevia_cap>, <contenttweaker:deepland_cap>, <appliedenergistics2:spatial_pylon>], 
 
-[<draconicevolution:reactor_component:0>, null, null, 
-null, null, null, 
-null, null, <draconicevolution:reactor_component:0>], 
+[<draconicevolution:reactor_component:0>, <contenttweaker:compressed_realgar>, null, 
+null, <contenttweaker:compressed_realgar>, null, 
+null, <contenttweaker:compressed_realgar>, <draconicevolution:reactor_component:0>], 
 
 [<contenttweaker:mythic_excavation_reactor>, null, null, 
 <extrautils2:opinium:8>, <extrautils2:opinium:8>, <extrautils2:opinium:8>, 
@@ -93,7 +98,7 @@ null, null, <contenttweaker:mythic_excavation_reactor>],
 <extrautils2:opinium:8>, null, <contenttweaker:neutronium_bombarder>], 
 
 [null, null, <extrautils2:opinium:8>, 
-<avaritia:endest_pearl>, <divinerpg:halite_slicer>, <avaritia:endest_pearl>, 
+<avaritia:endest_pearl>, <contenttweaker:halite_warrior>, <avaritia:endest_pearl>, 
 <extrautils2:opinium:8>, null, null], 
 
 [<contenttweaker:neutronium_bombarder>, null, <extrautils2:opinium:8>, 
@@ -104,9 +109,9 @@ null, null, <contenttweaker:mythic_excavation_reactor>],
 <extrautils2:opinium:8>, <extrautils2:opinium:8>, <extrautils2:opinium:8>, 
 null, null, <contenttweaker:mythic_excavation_reactor>], 
 
-[<draconicevolution:reactor_component:0>, null, null, 
-null, null, null, 
-null, null, <draconicevolution:reactor_component:0>], 
+[<draconicevolution:reactor_component:0>, <contenttweaker:compressed_realgar>, null, 
+null, <contenttweaker:compressed_realgar>, null, 
+null, <contenttweaker:compressed_realgar>, <draconicevolution:reactor_component:0>], 
 
 [<appliedenergistics2:spatial_pylon>, <contenttweaker:iromine_cap>, <contenttweaker:mysterium_cap>, 
 <contenttweaker:voxponds_cap>, <contenttweaker:candyland_cap>, <contenttweaker:haven_cap>, 
@@ -115,41 +120,41 @@ null, null, <draconicevolution:reactor_component:0>],
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_compressor>*4, 
 
-[[<divinerpg:legendary_ender_eye>, null, null, 
-null, <thaumadditions:mithminite_block>, null, 
-null, null, <divinerpg:legendary_ender_eye>], 
+[[<contenttweaker:mythic_coil_t2>, <contenttweaker:linear_accelerator_tube>, <contenttweaker:nightmare_block>, 
+<contenttweaker:mythic_excavation_reactor>, <contenttweaker:hypercubic_energy_orb>, <contenttweaker:mythic_excavation_reactor>, 
+<contenttweaker:nightmare_block>, <contenttweaker:linear_accelerator_tube>, <contenttweaker:mythic_coil_t2>], 
 
-[<divinerpg:legendary_ender_eye>, null, null, 
+[<extendedcrafting:singularity_custom:640>, <contenttweaker:defined_servo>, <draconicevolution:chaotic_core>, 
 <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, 
-null, null, <divinerpg:legendary_ender_eye>], 
+<draconicevolution:chaotic_core>, <contenttweaker:defined_servo>, <extendedcrafting:singularity_custom:640>], 
 
-[<divinerpg:legendary_ender_eye>, null, null, 
-null, <contenttweaker:greckon_cap>, null, 
-null, null, <divinerpg:legendary_ender_eye>], 
+[<contenttweaker:accelerator_tube>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:infinity_core>, 
+<thaumadditions:mithminite_block>, <contenttweaker:greckon_cap>, <thaumadditions:mithminite_block>, 
+<contenttweaker:infinity_core>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:accelerator_tube>], 
 
-[<divinerpg:legendary_ender_eye>, null, null, 
-null, <contenttweaker:dustopia_cap>, null, 
-null, null, <divinerpg:legendary_ender_eye>], 
+[<contenttweaker:accelerator_tube>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:imperfect_gem_of_the_cosmos>, 
+<thaumadditions:mithminite_block>, <contenttweaker:dustopia_cap>, <thaumadditions:mithminite_block>, 
+<contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:accelerator_tube>], 
 
-[<divinerpg:legendary_ender_eye>, null, null, 
+[<contenttweaker:triple_compressed_realgar>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:shyre_crystal>, 
 <contenttweaker:borean_cap>, <contenttweaker:lunalus_cap>, <contenttweaker:runador_cap>, 
-null, null, <divinerpg:legendary_ender_eye>], 
+<contenttweaker:shyre_crystal>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:triple_compressed_realgar>], 
 
-[<divinerpg:legendary_ender_eye>, null, null, 
-null, <contenttweaker:immortallis_cap>, null, 
-null, null, <divinerpg:legendary_ender_eye>], 
+[<contenttweaker:accelerator_tube>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:imperfect_gem_of_the_cosmos>, 
+<thaumadditions:mithminite_block>, <contenttweaker:immortallis_cap>, <thaumadditions:mithminite_block>, 
+<contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:accelerator_tube>], 
 
-[<divinerpg:legendary_ender_eye>, null, null, 
-null, <contenttweaker:ancient_cavern_cap>, null, 
-null, null, <divinerpg:legendary_ender_eye>], 
+[<contenttweaker:accelerator_tube>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:infinity_core>, 
+<thaumadditions:mithminite_block>, <contenttweaker:ancient_cavern_cap>, <thaumadditions:mithminite_block>, 
+<contenttweaker:infinity_core>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:accelerator_tube>], 
 
-[<divinerpg:legendary_ender_eye>, null, null, 
+[<extendedcrafting:singularity_custom:640>, <contenttweaker:defined_servo>, <draconicevolution:chaotic_core>, 
 <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, 
-null, null, <divinerpg:legendary_ender_eye>], 
+<draconicevolution:chaotic_core>, <contenttweaker:defined_servo>, <extendedcrafting:singularity_custom:640>], 
 
-[<divinerpg:legendary_ender_eye>, null, null, 
-null, <thaumadditions:mithminite_block>, null, 
-null, null, <divinerpg:legendary_ender_eye>]]);  
+[<contenttweaker:mythic_coil_t2>, <contenttweaker:linear_accelerator_tube>, <contenttweaker:nightmare_block>, 
+<contenttweaker:mythic_excavation_reactor>, <contenttweaker:hypercubic_energy_orb>, <contenttweaker:mythic_excavation_reactor>, 
+<contenttweaker:nightmare_block>, <contenttweaker:linear_accelerator_tube>, <contenttweaker:mythic_coil_t2>]]);  
 
 
 val haliteingotcompression = RecipeBuilder.newBuilder("haliteingotcompression","dyson_compressor",100);
@@ -164,3 +169,5 @@ makehorcrux.addFluidInput(<fluid:lifeessence>*12000);
 makehorcrux.addFluidInput(<fluid:liquid_lp>*12000);
 makehorcrux.addItemOutput(<contenttweaker:horcrux>);
 makehorcrux.build();
+
+

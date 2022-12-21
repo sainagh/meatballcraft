@@ -2,6 +2,21 @@
     "registryname": "pe_sterilizer",
     "localizedname": "PE Sterilizer",
 	"color": "011112",
+    "modifiers": [
+        {
+            "elements": "abyssalcraft:tieredenergycontainer@3",
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "description": "Replace energy container for better output",
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 5.0
+            }
+        }
+    ],
     "parts": [
         {
             "x": -1,

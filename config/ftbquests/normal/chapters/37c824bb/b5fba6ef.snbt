@@ -1,6 +1,6 @@
 {
 	title: "Some Protection",
-	x: 96.5d,
+	x: 98.0d,
 	y: -1.5d,
 	dependencies: [
 		"51c7f602",

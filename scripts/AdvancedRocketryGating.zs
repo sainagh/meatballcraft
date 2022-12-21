@@ -265,3 +265,5 @@ recipes.addShaped(<advancedrocketry:rollingmachine>,
 
 recipes.addShapeless(<libvulpes:metal0:7>,
 [<ore:blockTitanium>]);
+
+recipes.removeShaped(<advancedrocketry:lathe>);

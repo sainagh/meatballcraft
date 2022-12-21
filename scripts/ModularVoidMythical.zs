@@ -1,4 +1,5 @@
 import mods.modularmachinery.RecipeBuilder;
+import mods.astralsorcery.Utils;
 
 
 val mith1 = RecipeBuilder.newBuilder("mythicaltier1","mythical_resource_miner_tier1",800);
@@ -794,11 +795,41 @@ spatcruc1.addFluidInput(<fluid:binnie.dna.raw>*100);
 spatcruc1.addFluidOutput(<fluid:cosmic_matter>*16000);
 spatcruc1.build();
 
-mods.thermalexpansion.Crucible.addRecipe(<fluid:nightly_water>*100, <astralsorcery:itemperkgem:0>, 500);
+mods.astralsorcery.Altar.addConstellationAltarRecipe("MeatballCraft:shaped/internal/altar/makesideralreflector", <contenttweaker:sideral_reflector>, 1000, 10, [
+			<astralsorcery:itemperkgem:0>, <astralsorcery:itemperkgem:0>, <astralsorcery:itemperkgem:0>,
+			<astralsorcery:itemperkgem:1>, <astralsorcery:itemperkgem:1>, <astralsorcery:itemperkgem:1>,
+			<astralsorcery:itemperkgem:2>, <astralsorcery:itemperkgem:2>, <astralsorcery:itemperkgem:2>,
+			<thaumicaugmentation:impetus_mirror>, <thaumicaugmentation:impetus_mirror>, <thaumicaugmentation:impetus_mirror>, <thaumicaugmentation:impetus_mirror>,
+			<astralsorcery:itemcoloredlens:6>, <astralsorcery:itemcoloredlens:6>,
+			<astralsorcery:itemcoloredlens:6>, <astralsorcery:itemcoloredlens:6>,
+			<astralsorcery:itemcoloredlens:6>, <astralsorcery:itemcoloredlens:6>,
+			<astralsorcery:itemcoloredlens:6>, <astralsorcery:itemcoloredlens:6>]);
 
-mods.thermalexpansion.Crucible.addRecipe(<fluid:sunstruck_water>*100, <astralsorcery:itemperkgem:1>, 500);
+recipes.addShaped(<contenttweaker:sideral_collector>*3,
+[[<contenttweaker:sideral_reflector>, null, <contenttweaker:sideral_reflector>],
+[null, <astralsorcery:blockborehead:1>, null],
+[<contenttweaker:sideral_reflector>, null, <contenttweaker:sideral_reflector>]]);
 
-mods.thermalexpansion.Crucible.addRecipe(<fluid:crepuscular_water>*100, <astralsorcery:itemperkgem:2>, 500);
+val celestialcrystalgen = Utils.getCrystalORIngredient(true, false); //as crafttweaker.item.IIngredient
+
+recipes.addShaped(<contenttweaker:nightly_gem>,
+[[<astralsorcery:itemusabledust:1>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemusabledust:1>],
+[<astralsorcery:itemusabledust:1>, <contenttweaker:sideral_collector>.reuse(), <astralsorcery:itemusabledust:1>],
+[<astralsorcery:itemusabledust:1>, celestialcrystalgen, <astralsorcery:itemusabledust:1>]]);
+
+recipes.addShaped(<contenttweaker:sunstruck_gem>,
+[[<astralsorcery:itemusabledust:0>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemusabledust:0>],
+[<astralsorcery:itemusabledust:0>, <contenttweaker:sideral_collector>.reuse(), <astralsorcery:itemusabledust:0>],
+[<astralsorcery:itemusabledust:0>, celestialcrystalgen, <astralsorcery:itemusabledust:0>]]);
+
+recipes.addShaped(<contenttweaker:crepuscular_gem>,
+[[<astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:2>],
+[<astralsorcery:itemcraftingcomponent:2>, <contenttweaker:sideral_collector>.reuse(), <astralsorcery:itemcraftingcomponent:2>],
+[<astralsorcery:itemcraftingcomponent:2>, celestialcrystalgen, <astralsorcery:itemcraftingcomponent:2>]]);
+
+mods.thermalexpansion.Crucible.addRecipe(<fluid:nightly_water>*100, <contenttweaker:nightly_gem>, 500);
+mods.thermalexpansion.Crucible.addRecipe(<fluid:sunstruck_water>*100, <contenttweaker:sunstruck_gem>, 500);
+mods.thermalexpansion.Crucible.addRecipe(<fluid:crepuscular_water>*100, <contenttweaker:crepuscular_gem>, 500);
 
 val astralwatermix = RecipeBuilder.newBuilder("astralwatermix","iron_centrifuge",200);
 astralwatermix.addEnergyPerTickInput(10000);
@@ -831,12 +862,7 @@ mods.immersiveengineering.Mixer.addRecipe(<fluid:ghostly_matter>*1000, <fluid:gl
 
 mods.immersiveengineering.Mixer.addRecipe(<fluid:liquid_life>*500, <fluid:lifeessence>*300, [<iceandfire:shiny_scales>,<techreborn:ingot:3>], 128);
 
-val milkestchocolate = RecipeBuilder.newBuilder("milkestchocolate","iron_centrifuge",200);
-milkestchocolate.addEnergyPerTickInput(10000);
-milkestchocolate.addFluidInput(<fluid:milk_chocolate>*100);
-milkestchocolate.addFluidInput(<fluid:milk>*5000);
-milkestchocolate.addFluidOutput(<fluid:milkiest_chocolate>*200);
-milkestchocolate.build();
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:milk>*2000, <fluid:milk_chocolate>*100, <fluid:milkiest_chocolate>*200, null]);
 
 val mith13 = RecipeBuilder.newBuilder("mythicaltier13","mythical_resource_miner_tier13",800);
 mith13.addEnergyPerTickInput(85000);
@@ -1076,6 +1102,8 @@ mith19.addItemOutput(<aoa3:water_rune>*10);
 mith19.setChance(0.02);
 mith19.addItemOutput(<contenttweaker:mysterium_garnet>);
 mith19.setChance(0.5);
+mith19.addItemOutput(<aoa3:scream_shield>);
+mith19.setChance(0.1);
 mith19.addItemOutput(<contenttweaker:tier19_token>);
 mith19.build();
 
@@ -1132,7 +1160,7 @@ mods.techreborn.rollingMachine.addShaped(<contenttweaker:lyonite_plate>,
 
 mods.techreborn.fusionReactor.addRecipe(<aoa3:mystite_ingot>, <aoa3:crystallite>, <contenttweaker:supertranslucent_catalyst>, 100, -100, 120);
 
-val rainbowgemelectro = RecipeBuilder.newBuilder("rainbowgemelectro","wizardry_combiner",400);
+val rainbowgemelectro = RecipeBuilder.newBuilder("rainbowgemelectro","wizardry_combiner",40);
 rainbowgemelectro.addEnergyPerTickInput(15000);
 rainbowgemelectro.addItemInput(<aoa3:blue_gemstones>);
 rainbowgemelectro.addItemInput(<aoa3:green_gemstones>);
@@ -1385,7 +1413,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:complex_crank_shaf
 mods.techreborn.assemblingMachine.addRecipe(<contenttweaker:high_strength_transmission>, <contenttweaker:complex_gearbox>, <contenttweaker:complex_crank_shaft>, 60, 512);
 
 
-val mith21 = RecipeBuilder.newBuilder("mythicaltier21","mythical_resource_miner_tier21",800);
+val mith21 = RecipeBuilder.newBuilder("mythicaltier21","mythical_resource_miner_tier23",800);
 mith21.addEnergyPerTickInput(100000);
 mith21.addFluidInput(<fluid:galactic_matter>*50);
 mith21.addFluidInput(<fluid:lymph_of_pixonia>*12);
@@ -1430,7 +1458,7 @@ mythassborean.addItemInput(<contenttweaker:recursion_fragment_borean>);
 mythassborean.addItemOutput(<contenttweaker:borean_garnet>*64);
 mythassborean.build();
 
-val mith22 = RecipeBuilder.newBuilder("mythicaltier22","mythical_resource_miner_tier22",800);
+val mith22 = RecipeBuilder.newBuilder("mythicaltier22","mythical_resource_miner_tier21",800);
 mith22.addEnergyPerTickInput(100000);
 mith22.addFluidInput(<fluid:galactic_matter>*50);
 mith22.addFluidInput(<fluid:lymph_of_pixonia>*12);
@@ -1483,7 +1511,7 @@ mythassrunandor.addItemInput(<contenttweaker:recursion_fragment_runandor>);
 mythassrunandor.addItemOutput(<contenttweaker:runandor_garnet>*64);
 mythassrunandor.build();
 
-val mith23 = RecipeBuilder.newBuilder("mythicaltier23","mythical_resource_miner_tier23",800);
+val mith23 = RecipeBuilder.newBuilder("mythicaltier23","mythical_resource_miner_tier22",800);
 mith23.addEnergyPerTickInput(100000);
 mith23.addFluidInput(<fluid:galactic_matter>*50);
 mith23.addFluidInput(<fluid:lymph_of_pixonia>*12);
@@ -1675,7 +1703,7 @@ null,null,null]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:brightseel_alloy_plate>, 
 [[<bigreactors:mineralanglesite>, <contenttweaker:brightsteel_alloy_ingot>, <bigreactors:mineralbenitoite>], 
-[<contenttweaker:atomic_mirror>, <materialpart:brightsteel:ingot>, <contenttweaker:atomic_mirror>], 
+[<contenttweaker:tungsten_molybdenum_dust>, <materialpart:brightsteel:ingot>, <contenttweaker:tungsten_molybdenum_dust>], 
 [<bigreactors:mineralbenitoite>, <contenttweaker:brightsteel_alloy_ingot>, <bigreactors:mineralanglesite>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:brightseel_alloy_gear>, 
@@ -1733,9 +1761,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_excavation_
 <contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
 <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1 as byte, Damage: 4 as short}}), <extendedcrafting:singularity:26>, <environmentaltech:solar_cell_aethium>], 
 
-[<extendedcrafting:material:32>, <extrautils2:compressedcobblestone:7>, <ore:ingotUltimate>, 
+[<extendedcrafting:material:32>, <contenttweaker:fluix_microcontroller>, <ore:ingotUltimate>, 
 <contenttweaker:mythic_excavation_engine>, <contenttweaker:mythic_excavation_computer>, <contenttweaker:mythic_excavation_engine>, 
-<ore:ingotUltimate>, <extrautils2:compressedcobblestone:7>, <extendedcrafting:material:32>], 
+<ore:ingotUltimate>, <contenttweaker:fluix_microcontroller>, <extendedcrafting:material:32>], 
 
 [<environmentaltech:solar_cell_aethium>, <extendedcrafting:singularity:26>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1 as byte, Damage: 4 as short}}), 
 <contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
@@ -1789,7 +1817,7 @@ spatcruc5.addFluidOutput(<fluid:chaotic_matter>*8000);
 spatcruc5.build();
 
 mods.techreborn.rollingMachine.addShaped(<contenttweaker:matter_cluster>, 
-[[<thaumicenergistics:blank_knowledge_core>,<materialpart:strontium:ingot>,<thaumicenergistics:blank_knowledge_core>],
+[[<bloodmagic:slate:4>,<materialpart:strontium:ingot>,<bloodmagic:slate:4>],
 [<materialpart:primal_ogerite:ingot>,<materialpart:caesium:ingot>,<materialpart:primal_ogerite:ingot>],
 [<thaumadditions:mithminite_plate>,<materialpart:rubidium:ingot>,<thaumadditions:mithminite_plate>]]);
 
@@ -1804,7 +1832,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:dream_cluste
 <bloodmagic:demon_crystal:3>, <bloodmagic:demon_crystal:4>, 
 <thaumicaugmentation:material:5>, <astralsorcery:itemusabledust:1>]);
 
-mods.appliedenergistics2.Inscriber.addRecipe(<contenttweaker:doge_coin>, <materialpart:vibranium_alloy:ingot>, false, <aoa3:bejewelled_lotto_banner>);
+mods.appliedenergistics2.Inscriber.addRecipe(<contenttweaker:doge_coin>, <materialpart:vibranium_alloy:ingot>, true, <aoa3:bejewelled_lotto_banner>);
 
 val aoatokenOreDict = <ore:aoatoken>;
 aoatokenOreDict.add(<aoa3:abyss_tokens>);
@@ -2102,6 +2130,14 @@ mith28.addItemOutput(<divinerpg:dark_dream_bricks>*32);
 mith28.setChance(0.1);
 mith28.addItemOutput(<contenttweaker:tier28_token>);
 mith28.build();
+
+val mythassvethea = RecipeBuilder.newBuilder("mythassvethea","me_mythic_assembler",800);
+mythassvethea.addEnergyPerTickInput(800000);
+mythassvethea.addFluidInput(<fluid:nightmarish_matter>*1000);
+mythassvethea.addFluidInput(<fluid:twilight_fire>*1000);
+mythassvethea.addItemInput(<contenttweaker:recursion_fragment_vethea>);
+mythassvethea.addItemOutput(<contenttweaker:vethea_garnet>*64);
+mythassvethea.build();
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:twilight_gear>, 
@@ -2414,10 +2450,12 @@ recipes.addShaped(<materialpart:hassium:ingot>,
 [<contenttweaker:recursion_solitude>.reuse(), <contenttweaker:vethea_garnet>, <contenttweaker:recursion_darkness>.reuse()],
 [null, <contenttweaker:recursion_fear>.reuse(), null]]);
 
+mods.nuclearcraft.infuser.addRecipe([<materialpart:myrmitite:dust>, <fluid:niobium>*10, <contenttweaker:myrminiobite_ingot>]);
+
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_star>, 
 2000000, 
 <minecraft:nether_star>, 
-[<materialpart:hassium:ingot>, <materialpart:hassium:ingot>, <materialpart:hassium:ingot>, <materialpart:hassium:ingot>]);
+[<contenttweaker:myrminiobite_ingot>, <contenttweaker:hafnium_chunk>, <contenttweaker:tantalum_chunk>, <contenttweaker:cerium_ingot>, <materialpart:hassium:ingot>]);
 
 mods.extendedcrafting.TableCrafting.addShapeless(4, <contenttweaker:universal_realgar>, 
 [<contenttweaker:abyss_garnet>, 
@@ -2456,12 +2494,12 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:infinity_furnace_b
 <advancedrocketry:blastbrick>, <contenttweaker:draconic_machine_frame>, <advancedrocketry:blastbrick>], 
 
 [<contenttweaker:draconic_machine_frame>, <avaritia:block_resource:0>, <materialpart:hassium:ingot>, 
-<materialpart:hassium:ingot>, <contenttweaker:compressed_realgar>, <materialpart:hassium:ingot>, 
+<materialpart:hassium:ingot>, <contenttweaker:double_compressed_realgar>, <materialpart:hassium:ingot>, 
 <materialpart:hassium:ingot>, <avaritia:block_resource:0>, <contenttweaker:draconic_machine_frame>], 
 
-[<advancedrocketry:blastbrick>, <materialpart:hassium:ingot>, <thermalfoundation:material:1027>, 
+[<advancedrocketry:blastbrick>, <materialpart:hassium:ingot>, <contenttweaker:lawrencium_262>, 
 <thermalfoundation:material:1027>, <thermalfoundation:material:1027>, <thermalfoundation:material:1027>, 
-<thermalfoundation:material:1027>, <materialpart:hassium:ingot>, <advancedrocketry:blastbrick>], 
+<contenttweaker:lawrencium_262>, <materialpart:hassium:ingot>, <advancedrocketry:blastbrick>], 
 
 [<advancedrocketry:blastbrick>, <materialpart:hassium:ingot>, <thermalfoundation:material:1027>, 
 <nuclearcraft:heat_exchanger_wall>, <nuclearcraft:heat_exchanger_wall>, <nuclearcraft:heat_exchanger_wall>, 
@@ -2475,12 +2513,12 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:infinity_furnace_b
 <nuclearcraft:heat_exchanger_wall>, <nuclearcraft:heat_exchanger_wall>, <nuclearcraft:heat_exchanger_wall>, 
 <thermalfoundation:material:1027>, <materialpart:hassium:ingot>, <advancedrocketry:blastbrick>], 
 
-[<advancedrocketry:blastbrick>, <materialpart:hassium:ingot>, <thermalfoundation:material:1027>, 
+[<advancedrocketry:blastbrick>, <materialpart:hassium:ingot>, <contenttweaker:lawrencium_262>, 
 <thermalfoundation:material:1027>, <thermalfoundation:material:1027>, <thermalfoundation:material:1027>, 
-<thermalfoundation:material:1027>, <materialpart:hassium:ingot>, <advancedrocketry:blastbrick>], 
+<contenttweaker:lawrencium_262>, <materialpart:hassium:ingot>, <advancedrocketry:blastbrick>], 
 
 [<contenttweaker:draconic_machine_frame>, <avaritia:block_resource:0>, <materialpart:hassium:ingot>, 
-<materialpart:hassium:ingot>, <contenttweaker:compressed_realgar>, <materialpart:hassium:ingot>, 
+<materialpart:hassium:ingot>, <contenttweaker:double_compressed_realgar>, <materialpart:hassium:ingot>, 
 <materialpart:hassium:ingot>, <avaritia:block_resource:0>, <contenttweaker:draconic_machine_frame>], 
 
 [<advancedrocketry:blastbrick>, <contenttweaker:draconic_machine_frame>, <advancedrocketry:blastbrick>, 
@@ -2636,8 +2674,14 @@ recipes.addHiddenShaped("mysteriummysteryez",
 [<bloodmagic:blood_rune:4>, <aoa3:lunar_block>, <bloodmagic:blood_rune:10>],
 [null, <bloodmagic:blood_rune:1>, null]]);
 
+recipes.addShaped(<contenttweaker:summoning_computer>,
+[[<contenttweaker:fluix_lens>, <opencomputers:material:18>, <contenttweaker:fluix_lens>],
+[<opencomputers:material:18>, <extracells:storage.physical:3>, <opencomputers:material:18>],
+[<contenttweaker:fluix_lens>, <opencomputers:material:18>, <contenttweaker:fluix_lens>]]);
+
+
 recipes.addShaped(<contenttweaker:mythic_excavation_engine>,
-[[<avaritia:resource:0>, <contenttweaker:high_strength_transmission>, <avaritia:resource:0>],
+[[<contenttweaker:fluix_microcontroller>, <contenttweaker:high_strength_transmission>, <contenttweaker:fluix_microcontroller>],
 [<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>],
 [<aoa3:elecanium_ingot>, <nuclearcraft:salt_fission_heater>, <aoa3:elecanium_ingot>]]);
 
@@ -2703,9 +2747,9 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:planetary_es
 
 mods.avaritia.ExtremeCrafting.addShaped("makesupergemofthecosmos",
 <contenttweaker:perfected_gem_of_the_cosmos>, 
-[[<contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, null,
+[[<contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <extrautils2:decorativesolid:8>,
 <contenttweaker:vethea_garnet>, <contenttweaker:cursed_sapphire>, <contenttweaker:vethea_garnet>,
-null, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>],
+<extrautils2:decorativesolid:8>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>],
 
 [<contenttweaker:recursive_powder>, null, <contenttweaker:big_slime>,
 null, <contenttweaker:cursed_sapphire>, null,
@@ -2715,17 +2759,17 @@ null, <contenttweaker:cursed_sapphire>, null,
 <contenttweaker:astral_lizardite>, <contenttweaker:corrupted_aragonite>, <contenttweaker:astral_lizardite>,
 null, null, <contenttweaker:clunky_chunky_brick>],
 
-[null, null, <contenttweaker:astral_lizardite>,
+[<contenttweaker:stable_oganesson>, null, <contenttweaker:astral_lizardite>,
 <contenttweaker:nightmare_block>, <contenttweaker:planetary_essence>, <contenttweaker:nightmare_block>,
-<contenttweaker:astral_lizardite>, null, null],
+<contenttweaker:astral_lizardite>, null, <contenttweaker:stable_oganesson>],
 
 [<contenttweaker:cursed_sapphire>, <contenttweaker:cosmic_fracture>, <contenttweaker:corrupted_aragonite>,
 <contenttweaker:planetary_essence>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:planetary_essence>,
 <contenttweaker:corrupted_aragonite>, <contenttweaker:cosmic_fracture>, <contenttweaker:cursed_sapphire>],
 
-[null, null, <contenttweaker:astral_lizardite>,
+[<contenttweaker:stable_oganesson>, null, <contenttweaker:astral_lizardite>,
 <contenttweaker:nightmare_block>, <contenttweaker:planetary_essence>, <contenttweaker:nightmare_block>,
-<contenttweaker:astral_lizardite>, null, null],
+<contenttweaker:astral_lizardite>, null, <contenttweaker:stable_oganesson>],
 
 [<contenttweaker:clunky_chunky_brick>, null, null,
 <contenttweaker:astral_lizardite>, <contenttweaker:corrupted_aragonite>, <contenttweaker:astral_lizardite>,
@@ -2735,9 +2779,9 @@ null, null, <contenttweaker:clunky_chunky_brick>],
 null, <contenttweaker:cursed_sapphire>, null,
 <contenttweaker:big_slime>, null, <contenttweaker:recursive_powder>],
 
-[<contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, null,
+[<contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <extrautils2:decorativesolid:8>,
 <contenttweaker:vethea_garnet>, <contenttweaker:cursed_sapphire>, <contenttweaker:vethea_garnet>,
-null, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>]]);
+<extrautils2:decorativesolid:8>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>]]);
 
 
 recipes.addShaped(<contenttweaker:horrific_callstone>,
@@ -2749,11 +2793,6 @@ recipes.addShaped(<contenttweaker:big_slime>,
 [[<contenttweaker:cursed_slime>, <contenttweaker:cursed_slime>, <contenttweaker:cursed_slime>],
 [<contenttweaker:cursed_slime>, <contenttweaker:big_slime>.reuse(), <contenttweaker:cursed_slime>],
 [<contenttweaker:cursed_slime>, <contenttweaker:cursed_slime>, <contenttweaker:cursed_slime>]]);
-
-recipes.addShaped(<contenttweaker:horrific_callstone>,
-[[<contenttweaker:muon_crystal>, <contenttweaker:ender_feather>, <contenttweaker:muon_crystal>],
-[<contenttweaker:primordial_prism>, <extendedcrafting:singularity:32>, <contenttweaker:primordial_prism>],
-[<contenttweaker:muon_crystal>, <contenttweaker:ender_feather>, <contenttweaker:muon_crystal>]]);
 
 recipes.addShaped(<contenttweaker:runic_key>,
 [[<forge:bucketfilled>.withTag({FluidName: "astral_water", Amount: 1000}), <aoa3:agility_tablet>, <forge:bucketfilled>.withTag({FluidName: "astral_water", Amount: 1000})],
@@ -2848,6 +2887,13 @@ recipes.addShaped(<contenttweaker:everburner>,
 [[<nuclearcraft:heat_exchanger_tube_thermoconducting>, <contenttweaker:infinity_furnace_bricks>, <nuclearcraft:heat_exchanger_tube_thermoconducting>],
 [<contenttweaker:infinity_furnace_bricks>, <contenttweaker:everburning_seed>, <contenttweaker:infinity_furnace_bricks>],
 [<nuclearcraft:heat_exchanger_tube_thermoconducting>, <contenttweaker:infinity_furnace_bricks>, <nuclearcraft:heat_exchanger_tube_thermoconducting>]]);
+
+
+recipes.addShaped(<contenttweaker:brightsteel_conduit>,
+[[<contenttweaker:muon_crystal>, <avaritia:block_resource:0>, <contenttweaker:muon_crystal>],
+[<contenttweaker:hassium_alloy_ingot>, <contenttweaker:everburning_seed>, <contenttweaker:hassium_alloy_ingot>],
+[<contenttweaker:muon_crystal>, <contenttweaker:bright_matter>, <contenttweaker:muon_crystal>]]);
+
 
 
 

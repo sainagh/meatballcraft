@@ -1,0 +1,16 @@
+{
+	x: 74.0d,
+	y: -1.5d,
+	description: "Automate these",
+	dependencies: [
+		"e18a08ef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "999560c0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 38"
+		}]
+	}]
+}

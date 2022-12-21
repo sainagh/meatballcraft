@@ -16,11 +16,5 @@
 		items: [{
 			item: "modularmachinery:blockcontroller"
 		}]
-	}],
-	rewards: [{
-		uid: "dd4d4bf8",
-		type: "item",
-		item: "modularmachinery:itemmodularium",
-		count: 16
 	}]
 }

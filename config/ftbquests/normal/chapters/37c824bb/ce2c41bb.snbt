@@ -1,0 +1,19 @@
+{
+	x: 101.0d,
+	y: 3.0d,
+	description: "Can change the color of carpets and wool",
+	dependencies: [
+		"12059d50"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4bc34563",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

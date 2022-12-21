@@ -345,7 +345,7 @@ mythallo46.build();
 
 val mythallo47 = RecipeBuilder.newBuilder("mythallo47","mythic_processor_alloy_furnace",1);
 mythallo47.addEnergyPerTickInput(80000);
-mythallo47.addItemInput(<draconicevolution:draconic_spawner>);
+mythallo47.addItemInput(<draconicevolution:draconic_ingot>);
 mythallo47.addItemInput(<ore:ingotAdaminite>,4);
 mythallo47.addItemOutput(<contenttweaker:restless_steel_ingot>*2);
 mythallo47.build();

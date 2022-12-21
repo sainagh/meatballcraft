@@ -1,6 +1,6 @@
 {
 	title: "Basic Fabrication (Again)",
-	x: 93.5d,
+	x: 95.0d,
 	y: -1.5d,
 	dependencies: [
 		"37ddedeb"

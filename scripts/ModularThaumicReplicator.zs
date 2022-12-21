@@ -117,9 +117,9 @@ thaumrepl11.addAspectInput("aer",40);
 thaumrepl11.addFluidInput(<fluid:twilight_matter>*1500);
 thaumrepl11.addItemInput(<contenttweaker:haven_garnet>*2);
 thaumrepl11.addItemInput(<contenttweaker:resonating_stone>*16);
-thaumrepl11.addItemInput(<astralsorcery:itemperkgem:0>*2);
-thaumrepl11.addItemInput(<astralsorcery:itemperkgem:1>*2);
-thaumrepl11.addItemInput(<astralsorcery:itemperkgem:2>*2);
+thaumrepl11.addItemInput(<contenttweaker:nightly_gem>*2);
+thaumrepl11.addItemInput(<contenttweaker:sunstruck_gem>*2);
+thaumrepl11.addItemInput(<contenttweaker:crepuscular_gem>*2);
 thaumrepl11.addFluidOutput(<fluid:astral_water>*16000);
 thaumrepl11.build();
 

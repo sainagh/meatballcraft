@@ -65,7 +65,9 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<aoa3:large_skill_crystal>,
 <contenttweaker:alchemical_crystal>, 
 [<draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, <avaritia:resource:3>, <avaritia:resource:3>]);
 
-mods.nuclearcraft.fission.addRecipe([<ore:ingotPolonium>, <contenttweaker:depleted_polonium>, 4000.0, 1800.0, 1200.0, "fissionpolonium", 0.6]);
+mods.nuclearcraft.alloy_furnace.addRecipe([<materialpart:polonium:ingot>, <nuclearcraft:ingot:9>, <contenttweaker:polonium_beryllium_alloy_ingot>]);
+
+mods.nuclearcraft.fission.addRecipe([<contenttweaker:polonium_beryllium_alloy_ingot>, <contenttweaker:depleted_polonium>, 4000.0, 1800.0, 1200.0, "fissionpolonium", 0.6]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:nether_star>*3, 
 50000, <contenttweaker:depleted_polonium>, 
@@ -141,3 +143,93 @@ recipes.addShaped(<techreborn:creative_solar_panel>,
 [[<techreborn:solar_panel:4>, <techreborn:solar_panel:4>, <techreborn:solar_panel:4>],
 [<techreborn:solar_panel:4>, <extendedcrafting:singularity_custom:650>, <techreborn:solar_panel:4>],
 [<techreborn:solar_panel:4>, <techreborn:solar_panel:4>, <techreborn:solar_panel:4>]]);
+
+
+
+
+val holographicoredict = <ore:oreHolographic>;
+holographicoredict.add(<contenttweaker:holographic_ore>);
+
+mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:projector_gem>*8, <contenttweaker:holographic_ore>, 30);
+
+mods.immersiveengineering.Excavator.addMineral("Projector Rhenium", 80, 0.0001, ["oreRhenium", "oreHolographic"], [0.5, 0.5], [163]);
+
+recipes.addShaped(<contenttweaker:possessed_fluix>*8,
+[[<appliedenergistics2:material:12>, <appliedenergistics2:material:12>, <appliedenergistics2:material:12>],
+[<appliedenergistics2:material:12>, <contenttweaker:whispering_meatball>.reuse(), <appliedenergistics2:material:12>],
+[<appliedenergistics2:material:12>, <appliedenergistics2:material:12>, <appliedenergistics2:material:12>]]);
+
+
+recipes.addShaped(<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.discidia", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+[[<minecraft:arrow>, <minecraft:arrow>, <minecraft:arrow>],
+[<contenttweaker:possessed_fluix>, <mysticalagriculture:rock_crystal_essence>, <contenttweaker:possessed_fluix>],
+[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+
+recipes.addShaped(<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.armara", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+[[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+[<contenttweaker:possessed_fluix>, <mysticalagriculture:rock_crystal_essence>, <contenttweaker:possessed_fluix>],
+[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]]);
+
+recipes.addShaped(<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.vicio", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+[[<minecraft:string>, <minecraft:string>, <minecraft:string>],
+[<contenttweaker:possessed_fluix>, <mysticalagriculture:rock_crystal_essence>, <contenttweaker:possessed_fluix>],
+[<minecraft:sugar>, <minecraft:sugar>, <minecraft:sugar>]]);
+
+recipes.addShaped(<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.aevitas", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+[[<minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>],
+[<contenttweaker:possessed_fluix>, <mysticalagriculture:rock_crystal_essence>, <contenttweaker:possessed_fluix>],
+[<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]]);
+
+recipes.addShaped(<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.evorsio", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+[[<minecraft:flint>, <minecraft:flint>, <minecraft:flint>],
+[<contenttweaker:possessed_fluix>, <mysticalagriculture:rock_crystal_essence>, <contenttweaker:possessed_fluix>],
+[<minecraft:gunpowder>, <minecraft:gunpowder>, <minecraft:gunpowder>]]);
+
+recipes.addShaped(<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.lucerna", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+[[<minecraft:torch>, <minecraft:torch>, <minecraft:torch>],
+[<contenttweaker:possessed_fluix>, <mysticalagriculture:rock_crystal_essence>, <contenttweaker:possessed_fluix>],
+[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
+
+recipes.addShaped(<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.mineralis", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+[[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+[<contenttweaker:possessed_fluix>, <mysticalagriculture:rock_crystal_essence>, <contenttweaker:possessed_fluix>],
+[<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
+
+recipes.addShaped(<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.horologium", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+[[<minecraft:clock>, <minecraft:clock>, <minecraft:clock>],
+[<contenttweaker:possessed_fluix>, <mysticalagriculture:rock_crystal_essence>, <contenttweaker:possessed_fluix>],
+[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>]]);
+
+recipes.addShaped(<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.octans", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+[[<minecraft:fishing_rod>, <minecraft:fishing_rod>, <minecraft:fishing_rod>],
+[<contenttweaker:possessed_fluix>, <mysticalagriculture:rock_crystal_essence>, <contenttweaker:possessed_fluix>],
+[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]]);
+
+recipes.addShaped(<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.bootes", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+[[<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>],
+[<contenttweaker:possessed_fluix>, <mysticalagriculture:rock_crystal_essence>, <contenttweaker:possessed_fluix>],
+[<minecraft:apple>, <minecraft:apple>, <minecraft:apple>]]);
+
+recipes.addShaped(<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.fornax", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+[[<minecraft:coal>, <minecraft:coal>, <minecraft:coal>],
+[<contenttweaker:possessed_fluix>, <mysticalagriculture:rock_crystal_essence>, <contenttweaker:possessed_fluix>],
+[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
+
+recipes.addShaped(<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.pelotrio", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+[[<minecraft:blaze_powder>, <minecraft:blaze_powder>, <minecraft:blaze_powder>],
+[<contenttweaker:possessed_fluix>, <mysticalagriculture:rock_crystal_essence>, <contenttweaker:possessed_fluix>],
+[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]]);
+
+
+
+recipes.addShaped(<extrabotany:material:8>*2,
+[[<astralsorcery:itemusabledust:0>, <botania:manaresource:7>, <astralsorcery:itemusabledust:0>],
+[<astralsorcery:itemusabledust:0>, <aoa3:mystite_ingot>, <astralsorcery:itemusabledust:0>],
+[<astralsorcery:itemusabledust:0>, <contenttweaker:gadolinium_gem>, <astralsorcery:itemusabledust:0>]]);
+
+recipes.addShaped(<extrabotany:material:5>*2,
+[[<astralsorcery:itemusabledust:1>, <botania:manaresource:7>, <astralsorcery:itemusabledust:1>],
+[<astralsorcery:itemusabledust:1>, <aoa3:mystite_ingot>, <astralsorcery:itemusabledust:1>],
+[<astralsorcery:itemusabledust:1>, <contenttweaker:gadolinium_gem>, <astralsorcery:itemusabledust:1>]]);
+
+mods.thermalexpansion.Centrifuge.addRecipe([(<astralsorcery:itemusabledust:1> * 15), (<astralsorcery:itemusabledust:0> * 15)], <contenttweaker:projector_gem>, null, 15);

@@ -85,13 +85,13 @@ recipes.addShaped(<divinerpg:wildwood_heart>,
 recipes.removeShaped(<divinerpg:wildwood_block>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<divinerpg:wildwood_block>, 
-[[<divinerpg:wildwood_chunk>, null, <botania:storage:3>, 
+[[<divinerpg:wildwood_chunk>, <contenttweaker:projector_gem>, <botania:storage:3>, 
 <randomthings:spectreilluminator>, <divinerpg:wildwood_chunk>, <randomthings:spectreilluminator>, 
-<botania:storage:3>, null, <divinerpg:wildwood_chunk>], 
+<botania:storage:3>, <contenttweaker:projector_gem>, <divinerpg:wildwood_chunk>], 
 
-[null, <divinerpg:wildwood_heart>, null, 
+[null, <divinerpg:wildwood_heart>, <contenttweaker:cerium_ingot>, 
 <contenttweaker:starmetal_alloy_ingot>, <extendedcrafting:singularity_custom:990>, <contenttweaker:starmetal_alloy_ingot>, 
-null, <divinerpg:wildwood_heart>, null], 
+<contenttweaker:cerium_ingot>, <divinerpg:wildwood_heart>, null], 
 
 [<contenttweaker:mythic_machine_case>, null, <contenttweaker:mythic_machine_case>, 
 <nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:fusion_electromagnet_idle>, 
@@ -113,13 +113,13 @@ null, <thaumadditions:mithrillium_ingot>, null],
 <nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:fusion_electromagnet_idle>, 
 <contenttweaker:mythic_machine_case>, null, <contenttweaker:mythic_machine_case>], 
 
-[null, <divinerpg:wildwood_heart>, null, 
+[null, <divinerpg:wildwood_heart>, <contenttweaker:cerium_ingot>, 
 <contenttweaker:starmetal_alloy_ingot>, <extendedcrafting:singularity:29>, <contenttweaker:starmetal_alloy_ingot>, 
-null, <divinerpg:wildwood_heart>, null], 
+<contenttweaker:cerium_ingot>, <divinerpg:wildwood_heart>, null], 
 
-[<divinerpg:wildwood_chunk>, null, <botania:storage:3>, 
+[<divinerpg:wildwood_chunk>, <contenttweaker:projector_gem>, <botania:storage:3>, 
 <randomthings:spectreilluminator>, <divinerpg:wildwood_chunk>, <randomthings:spectreilluminator>, 
-<botania:storage:3>, null, <divinerpg:wildwood_chunk>]]); 
+<botania:storage:3>, <contenttweaker:projector_gem>, <divinerpg:wildwood_chunk>]]); 
 
 mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/apalachiaEMC", <contenttweaker:apalachia_core>, 4500, 400, [
 	<mysticalagradditions:insanium>, <enderio:item_material:18>, <mysticalagradditions:insanium>,<enderio:item_material:18>, <divinerpg:apalachia_chunk>, 
@@ -276,7 +276,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<divinerpg:skythern_block>*4,
 <materialpart:chaos:ingot>, <forestry:bee_combs:2>, <mysticalagradditions:insanium>], 
 
 [<draconicevolution:draconic_core>, <contenttweaker:high_refraction_alloy_ingot>, <materialpart:chaos:ingot>, 
-<divinerpg:mortum_block>, <avaritia:resource:5>, <divinerpg:mortum_block>, 
+<divinerpg:mortum_block>, <contenttweaker:infinity_fragment>, <divinerpg:mortum_block>, 
 <materialpart:chaos:ingot>, <contenttweaker:high_refraction_alloy_ingot>, <draconicevolution:draconic_core>], 
 
 [<mysticalagradditions:insanium>, <forestry:bee_combs:2>, <materialpart:chaos:ingot>, 

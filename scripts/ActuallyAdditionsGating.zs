@@ -9,7 +9,7 @@ recipes.removeShaped(<actuallyadditions:block_atomic_reconstructor>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<actuallyadditions:block_atomic_reconstructor>, 
 [[<techreborn:ingot:19>, <minecraft:redstone>, <techreborn:ingot:19>], 
-[<minecraft:redstone>, <actuallyadditions:block_misc:9>, <minecraft:redstone>], 
+[<minecraft:redstone>, <ore:blockCharcoal>, <minecraft:redstone>], 
 [<techreborn:ingot:19>, <minecraft:redstone>, <techreborn:ingot:19>]]); 
 
 recipes.removeShaped(<actuallyadditions:block_display_stand>);
@@ -32,11 +32,13 @@ recipes.remove(<actuallyadditions:block_coal_generator>);
 
 recipes.remove(<actuallyadditions:block_farmer>);
 
-recipes.remove(<actuallyadditions:block_player_interface>);
+// recipes.remove(<actuallyadditions:block_player_interface>);
 
-mods.extendedcrafting.TableCrafting.addShaped(<actuallyadditions:block_player_interface>, 
-[[<actuallyadditions:block_misc:8>, null, <divinerpg:arksiane_lump>, null, <actuallyadditions:block_misc:8>], 
-[null, null, <divinerpg:arksiane_lump>, null, null], 
-[<divinerpg:arksiane_lump>, <divinerpg:arksiane_lump>, <materialpart:sacrifice_metal:ingot>, <divinerpg:arksiane_lump>, <divinerpg:arksiane_lump>], 
-[null, null, <divinerpg:arksiane_lump>, null, null], 
-[<actuallyadditions:block_misc:8>, null, <divinerpg:arksiane_lump>, null, <actuallyadditions:block_misc:8>]]);
+// mods.extendedcrafting.TableCrafting.addShaped(<actuallyadditions:block_player_interface>, 
+// [[<actuallyadditions:block_misc:8>, null, <divinerpg:arksiane_lump>, null, <actuallyadditions:block_misc:8>], 
+// [null, null, <divinerpg:arksiane_lump>, null, null], 
+// [<divinerpg:arksiane_lump>, <divinerpg:arksiane_lump>, <materialpart:sacrifice_metal:ingot>, <divinerpg:arksiane_lump>, <divinerpg:arksiane_lump>], 
+// [null, null, <divinerpg:arksiane_lump>, null, null], 
+// [<actuallyadditions:block_misc:8>, null, <divinerpg:arksiane_lump>, null, <actuallyadditions:block_misc:8>]]);
+
+recipes.remove(<plethora:module:0>);

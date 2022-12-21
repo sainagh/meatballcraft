@@ -11,5 +11,26 @@
 		items: [{
 			item: "nuclearcraft:salt_fission_vessel"
 		}]
+	},
+	{
+		uid: "3170b634",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_controller"
+		}]
+	},
+	{
+		uid: "79dfd122",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_wall"
+		}]
+	},
+	{
+		uid: "28da7074",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_frame"
+		}]
 	}]
 }

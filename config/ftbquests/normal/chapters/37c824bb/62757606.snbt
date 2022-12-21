@@ -1,0 +1,15 @@
+{
+	x: 92.0d,
+	y: -1.5d,
+	dependencies: [
+		"fc10039f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2fa14af3",
+		type: "item",
+		items: [{
+			item: "extrautils2:rainbowgenerator"
+		}]
+	}]
+}

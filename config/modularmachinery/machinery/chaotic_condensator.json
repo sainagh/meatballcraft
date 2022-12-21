@@ -2,6 +2,21 @@
     "registryname": "chaotic_condenser",
     "localizedname": "Chaotic Condenser",
 	"color": "7332c2",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:defined_block",
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "description": "Replace charged draconium to make a lot more shards",
+            "modifier": {
+                "io": "output",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 15.0
+            }
+        }
+    ],
     "parts": [
         {
             "x": -1,

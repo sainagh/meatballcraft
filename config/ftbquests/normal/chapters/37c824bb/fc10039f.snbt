@@ -1,6 +1,6 @@
 {
 	title: "Power from Skythern",
-	x: 90.5d,
+	x: 92.0d,
 	y: 0.0d,
 	dependencies: [
 		"630280c4",

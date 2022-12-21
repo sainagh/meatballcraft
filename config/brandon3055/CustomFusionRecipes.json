@@ -321,10 +321,12 @@
         "energy": 5000000,
         "tier": 2,
         "ingredients": [
-            "thaumicenergistics:essentia_component_64k",
+            "appliedenergistics2:material,1,38",
             "ore:ingotBrightsteel",
             "minecraft:diamond",
-            "minecraft:diamond"
+            "minecraft:diamond",
+            "contenttweaker:neodymium_magnetic_alloy",
+            "contenttweaker:neodymium_magnetic_alloy"
         ]
     },
     {
@@ -446,7 +448,7 @@
     },
     {
         "mode": "ADD",
-        "result": "iceandfire:dragonsteel_fire_ingot",
+        "result": "iceandfire:dragonsteel_ice_ingot",
         "catalyst": "draconicevolution:draconium_ingot",
         "energy": 100000,
         "tier": 2,

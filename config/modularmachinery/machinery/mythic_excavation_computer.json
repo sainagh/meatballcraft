@@ -11,7 +11,7 @@
             "description": "Replace top block for reduced energy cost",
             "modifier": {
                 "io": "input",
-                "target": "energy",
+                "target": "duration",
                 "operation": 1,
                 "multiplier": 0.2
             }

@@ -206,3 +206,8 @@ recipes.addShaped(<thermalexpansion:augment:576>,
 [<nuclearcraft:plutonium:8>, <ore:blockGlassHardened>, <nuclearcraft:plutonium:8>]]);
 
 recipes.removeShaped(<thermalexpansion:device:10>);
+
+recipes.addShaped(<materialpart:bloodmaster_metal:ingot>,
+[[<materialpart:bloodmaster_metal:nugget>, <materialpart:bloodmaster_metal:nugget>, <materialpart:bloodmaster_metal:nugget>],
+[<materialpart:bloodmaster_metal:nugget>, <materialpart:bloodmaster_metal:nugget>, <materialpart:bloodmaster_metal:nugget>],
+[<materialpart:bloodmaster_metal:nugget>, <materialpart:bloodmaster_metal:nugget>, <materialpart:bloodmaster_metal:nugget>]]);

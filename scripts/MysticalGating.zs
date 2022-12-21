@@ -172,3 +172,15 @@ recipes.removeShapeless(<mysticalagriculture:crafting:1>, [<mysticalagriculture:
 recipes.removeShapeless(<mysticalagriculture:crafting:2>, [<mysticalagriculture:crafting:3>]);
 recipes.removeShapeless(<mysticalagriculture:crafting:3>, [<mysticalagriculture:crafting:4>]);
 recipes.removeShapeless(<mysticalagriculture:crafting:4>, [<mysticalagradditions:insanium:0>]);
+
+recipes.addShapeless(<mysticalagriculture:crafting:1>*4,
+[<mysticalagriculture:crafting:2>, <mysticalagriculture:master_infusion_crystal>.reuse()]);
+
+recipes.addShapeless(<mysticalagriculture:crafting:2>*4,
+[<mysticalagriculture:crafting:3>, <mysticalagriculture:master_infusion_crystal>.reuse()]);
+
+recipes.addShapeless(<mysticalagriculture:crafting:3>*4,
+[<mysticalagriculture:crafting:4>, <mysticalagriculture:master_infusion_crystal>.reuse()]);
+
+recipes.addShapeless(<mysticalagriculture:crafting:4>*4,
+[<mysticalagradditions:insanium:0>, <mysticalagriculture:master_infusion_crystal>.reuse()]);

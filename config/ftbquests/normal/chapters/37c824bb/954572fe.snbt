@@ -1,7 +1,7 @@
 {
 	icon: "contenttweaker:fluix_lens",
 	x: 5.0d,
-	y: -3.0d,
+	y: -4.5d,
 	text: [
 		"The 'book of worlds' quests contain descriptions on how to reach each dimension, and the order of progression!",
 		"If you are unsure, follow the 'dimensional ascension' questline, it will guide you, sort of...",

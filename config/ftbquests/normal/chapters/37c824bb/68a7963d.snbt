@@ -1,6 +1,7 @@
 {
 	x: 72.5d,
 	y: -7.5d,
+	description: "Make the call of the arbiter",
 	dependencies: [
 		"8ec265b7"
 	],

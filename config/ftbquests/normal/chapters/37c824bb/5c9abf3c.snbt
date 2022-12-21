@@ -1,0 +1,26 @@
+{
+	x: 5.0d,
+	y: -1.5d,
+	dependencies: [
+		"427846dd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e237578d",
+		type: "item",
+		items: [{
+			item: "iceandfire:gorgon_head"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4317b416",
+		type: "item",
+		items: [{
+			item: "iceandfire:blindfold"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

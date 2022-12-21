@@ -1,0 +1,15 @@
+{
+	x: 56.0d,
+	y: -1.5d,
+	dependencies: [
+		"2dc6b39f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "df199a4c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:holographic_ore"
+		}]
+	}]
+}

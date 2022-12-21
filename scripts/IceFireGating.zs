@@ -1,7 +1,7 @@
 mods.extendedcrafting.TableCrafting.addShaped(<iceandfire:dread_key>, 
 [[<iceandfire:dragon_skull:0>, <iceandfire:troll_tusk>, <iceandfire:dragon_skull:1>], 
 [null, <animus:keybinding>, null], 
-[<iceandfire:seaserpent_skull>, <iceandfire:cyclops_skull>, <iceandfire:hydra_skull>]]); 
+[<iceandfire:dragon_skull:0>, <iceandfire:cyclops_skull>, <iceandfire:dragon_skull:1>]]); 
 
 recipes.addShapeless(<iceandfire:dragonforge_fire_core_disabled>,[<iceandfire:dragonforge_fire_core>]);
 recipes.addShapeless(<iceandfire:dragonforge_fire_core>,[<iceandfire:dragonforge_fire_core_disabled>]);

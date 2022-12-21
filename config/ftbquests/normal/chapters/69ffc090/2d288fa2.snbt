@@ -3,7 +3,7 @@
 	y: 5.0d,
 	description: "Doable??",
 	text: [
-		"There are a lot of weapons that deal a lot of damage damage, and chaos protection is indeed available...",
+		"There are a lot of weapons that deal a lot of damage, and chaos protection is indeed available...",
 		"If only there were powerful spells and enchantments to help me..."
 	],
 	dependencies: [

@@ -698,3 +698,102 @@ mossygravedust.itemRightClick = function(stack, world, player, hand) {
 
 };
 mossygravedust.register();
+
+var unusuallyheavybone = VanillaFactory.createItem("unusually_heavy_bone");
+unusuallyheavybone.maxStackSize = 1;
+unusuallyheavybone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+    // check if player is in spatial storage
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in the overworld");
+        return "FAIL";
+    }
+
+    Commands.call("time set night", player, world, true, true);
+    Commands.call("summon aoa3:bone_creature ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:hard_bone\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:10.0}],Health:1000f}", player, world, true, true);
+    player.sendChat("Kill it!");
+    stack.shrink(1);
+    return "PASS";
+
+};
+unusuallyheavybone.register();
+
+var summoningcomputer = VanillaFactory.createItem("summoning_computer");
+summoningcomputer.maxStackSize = 1;
+summoningcomputer.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+    // check if player is in spatial storage
+    if(player.getDimension() != 166) {
+        player.sendChat("You gotta be in the proxima belt");
+        return "FAIL";
+    }
+
+    Commands.call("summon aoa3:polytom ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:fluix_microcontroller\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:300.0}],Health:3000f}", player, world, true, true);
+    player.sendChat("Kill it!");
+    stack.shrink(1);
+    return "PASS";
+
+};
+summoningcomputer.register();
+
+// summon aoa3:polytom ~ ~1 ~ {HandItems:[{Count:1,id:"contenttweaker:fluix_microcontroller"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:300.0}],Health:3000f}
+
+// summon aoa3:polytom ~ ~1 ~ {HandItems:[{Count:1,id:"contenttweaker:fluix_microcontroller"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:300.0}],Health:3000f,CustomName:"Skeleton Lord"}
+
+
+var skeletalcallstone = VanillaFactory.createItem("skeletal_callstone");
+skeletalcallstone.maxStackSize = 1;
+skeletalcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+    // check if player is in spatial storage
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in the overworld");
+        return "FAIL";
+    }
+
+    Commands.call("time set night", player, world, true, true);
+    Commands.call("pillar-spawn spring_bee_dungeon", player, world, true, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"iceandfire:dread_key\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+skeletalcallstone.register();
+
+
+var fluixcallstone = VanillaFactory.createItem("fluix_callstone");
+fluixcallstone.maxStackSize = 1;
+fluixcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+    // check if player is in spatial storage
+    if(player.getDimension() != 1) {
+        player.sendChat("You gotta be in the end");
+        return "FAIL";
+    }
+
+    Commands.call("time set night", player, world, true, true);
+    Commands.call("pillar-spawn arbiter_structure_end", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+fluixcallstone.register();

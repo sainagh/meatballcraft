@@ -1,0 +1,36 @@
+{
+	x: 81.5d,
+	y: 3.0d,
+	dependencies: [
+		"ef2aa05c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1df82f9e",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:turbine_controller"
+		}]
+	},
+	{
+		uid: "a4a7d165",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:turbine_wall"
+		}]
+	},
+	{
+		uid: "84963bbd",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:turbine_frame"
+		}]
+	},
+	{
+		uid: "46273813",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:turbine_rotor_shaft"
+		}]
+	}]
+}

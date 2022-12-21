@@ -367,3 +367,162 @@ meitnerium.register();
 
 var triplepointmatter = VanillaFactory.createFluid("triple_point_fluid", Color.fromHex("56466b"));
 triplepointmatter.register();
+
+var moltenruthenium = VanillaFactory.createFluid("molten_ruthenium", Color.fromHex("a6bdac"));
+moltenruthenium.register();
+
+var rhodium = VanillaFactory.createFluid("rhodium", Color.fromHex("ba363d"));
+rhodium.register();
+
+var cadmium = VanillaFactory.createFluid("cadmium", Color.fromHex("97dbc4"));
+cadmium.register();
+
+var seaborgium = VanillaFactory.createFluid("seaborgium", Color.fromHex("486b48"));
+seaborgium.register();
+
+var indium = VanillaFactory.createFluid("indium", Color.fromHex("787671"));
+indium.register();
+
+var antimony = VanillaFactory.createFluid("antimony", Color.fromHex("627a68"));
+antimony.register();
+
+var tellurium = VanillaFactory.createFluid("tellurium", Color.fromHex("8f8f8f"));
+tellurium.register();
+
+var definitionessence = VanillaFactory.createFluid("arbiterium", Color.fromHex("5e2f59"));
+definitionessence.register();
+
+var iodine = VanillaFactory.createFluid("iodine", Color.fromHex("f022cd"));
+iodine.register();
+
+var hafnium = VanillaFactory.createFluid("hafnium", Color.fromHex("926ca1"));
+hafnium.register();
+
+var messyrainbowfluid = VanillaFactory.createFluid("messy_rainbow_fluid", Color.fromHex("f3edf5"));
+messyrainbowfluid.register();
+
+var tantalum = VanillaFactory.createFluid("tantalum", Color.fromHex("898cb0"));
+tantalum.register();
+
+var thallium = VanillaFactory.createFluid("thallium", Color.fromHex("7bb380"));
+thallium.register();
+
+var manganesethalliummix = VanillaFactory.createFluid("manganese_thallium_mix", Color.fromHex("79b099"));
+manganesethalliummix.register();
+
+var bismuth = VanillaFactory.createFluid("bismuth", Color.fromHex("8a8a51"));
+bismuth.register();
+
+var radon = VanillaFactory.createFluid("radon", Color.fromHex("d7cbf7"));
+radon.register();
+
+var fastdecaythorium = VanillaFactory.createFluid("fastly_dacaying_thorium", Color.fromHex("5c5b5b"));
+fastdecaythorium.register();
+
+var radium = VanillaFactory.createFluid("radium", Color.fromHex("edcbf7"));
+radium.register();
+
+var actinium = VanillaFactory.createFluid("actinium", Color.fromHex("8d8f77"));
+actinium.register();
+
+var rutherfordium = VanillaFactory.createFluid("rutherfordium", Color.fromHex("8d8f77"));
+rutherfordium.register();
+
+var fastdecayplutonium = VanillaFactory.createFluid("fastly_dacaying_plutonium", Color.fromHex("686965"));
+fastdecayplutonium.register();
+
+var ritherfchl = VanillaFactory.createFluid("rutherfordium_chloride", Color.fromHex("d3d6ae"));
+ritherfchl.register();
+
+var dubnium = VanillaFactory.createFluid("dubnium", Color.fromHex("8d8f77"));
+dubnium.register();
+
+var bohrium = VanillaFactory.createFluid("bohrium", Color.fromHex("569190"));
+bohrium.register();
+
+var relativisticmatter = VanillaFactory.createFluid("relativistic_matter", Color.fromHex("327574"));
+relativisticmatter.register();
+
+var praseodymium = VanillaFactory.createFluid("praseodymium", Color.fromHex("56585e"));
+praseodymium.register();
+
+var neodymium = VanillaFactory.createFluid("neodymium", Color.fromHex("4f5252"));
+neodymium.register();
+
+var cerium = VanillaFactory.createFluid("cerium", Color.fromHex("959696"));
+cerium.register();
+
+var samarium = VanillaFactory.createFluid("samarium", Color.fromHex("826d31"));
+samarium.register();
+
+var europium = VanillaFactory.createFluid("europium", Color.fromHex("cca229"));
+europium.register();
+
+var inorganicremains = VanillaFactory.createFluid("inorganic_remains", Color.fromHex("1b4014"));
+inorganicremains.register();
+
+var hydrogenchloride = VanillaFactory.createFluid("hydrogen_chloride", Color.fromHex("278778"));
+hydrogenchloride.register();
+
+var tot = VanillaFactory.createFluid("tot", Color.fromHex("8d9493"));
+tot.register();
+
+var gadolinium = VanillaFactory.createFluid("gadolinium", Color.fromHex("4b660f"));
+gadolinium.register();
+
+var rutheniumoxide = VanillaFactory.createFluid("ruthenium_oxide", Color.fromHex("a8d448"));
+rutheniumoxide.register();
+
+var yttriumruthenium = VanillaFactory.createFluid("yttrium_ruthenium", Color.fromHex("273606"));
+yttriumruthenium.register();
+
+var terbium = VanillaFactory.createFluid("terbium", Color.fromHex("69430e"));
+terbium.register();
+
+var einstenium253 = VanillaFactory.createFluid("einstenium_253", Color.fromHex("84d1c7"));
+einstenium253.register();
+
+var einstenium254 = VanillaFactory.createFluid("einstenium_254", Color.fromHex("5accbd"));
+einstenium254.register();
+
+var fermium = VanillaFactory.createFluid("fermium", Color.fromHex("f683fc"));
+fermium.register();
+
+var proactinium = VanillaFactory.createFluid("proactinium", Color.fromHex("6e4531"));
+proactinium.register();
+
+var mendelevium = VanillaFactory.createFluid("mendelevium", Color.fromHex("11693d"));
+mendelevium.register();
+
+var siderallife = VanillaFactory.createFluid("sideral_life_essence", Color.fromHex("f268b0"));
+siderallife.register();
+
+var nobelium = VanillaFactory.createFluid("nobelium", Color.fromHex("949400"));
+nobelium.register();
+
+var lawrencium = VanillaFactory.createFluid("lawrencium", Color.fromHex("2f155c"));
+lawrencium.register();
+
+var dysprosium = VanillaFactory.createFluid("dysprosium", Color.fromHex("9e9586"));
+dysprosium.register();
+
+var holmium = VanillaFactory.createFluid("holmium", Color.fromHex("7a6f8c"));
+holmium.register();
+
+var erbium = VanillaFactory.createFluid("erbium", Color.fromHex("ff8797"));
+erbium.register();
+
+var thulium = VanillaFactory.createFluid("thulium", Color.fromHex("9e7575"));
+thulium.register();
+
+var ytterbium = VanillaFactory.createFluid("ytterbium", Color.fromHex("779e73"));
+ytterbium.register();
+
+var lutetium = VanillaFactory.createFluid("lutetium", Color.fromHex("685882"));
+lutetium.register();
+
+var darmstadtium = VanillaFactory.createFluid("darmstadtium", Color.fromHex("9e1e53"));
+darmstadtium.register();
+
+var oganesson = VanillaFactory.createFluid("oganesson", Color.fromHex("1e229e"));
+oganesson.register();

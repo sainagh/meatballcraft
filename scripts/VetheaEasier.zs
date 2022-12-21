@@ -32,6 +32,16 @@ recipes.addShaped(<minecraft:stick>*16,
 [null, <divinerpg:firewood_log>, null],
 [null, <divinerpg:firewood_log>, null]]);
 
+recipes.addShaped(<minecraft:string>*16,
+[[null, <divinerpg:clean_pearls>, null],
+[<divinerpg:hyrewood_log>, <divinerpg:clean_pearls>, <divinerpg:hyrewood_log>],
+[null, <divinerpg:clean_pearls>, null]]);
+
+recipes.addShaped(<projecte:item.pe_philosophers_stone>,
+[[<tconstruct:materials:0>, <divinerpg:clean_pearls>, <tconstruct:materials:0>],
+[<divinerpg:pardimal_lump>, <divinerpg:pardimal_lump>, <divinerpg:pardimal_lump>],
+[<tconstruct:materials:0>, <divinerpg:clean_pearls>, <tconstruct:materials:0>]]);
+
 mods.appliedenergistics2.Grinder.addRecipe(<minecraft:cobblestone>*2, 
 <divinerpg:dream_stone>, 
 4, 

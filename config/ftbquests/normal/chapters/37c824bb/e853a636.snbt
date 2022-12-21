@@ -1,0 +1,18 @@
+{
+	x: 17.0d,
+	y: 3.0d,
+	description: "Your first callstone! Callstones summon gungeons, so don't use them in your base!",
+	dependencies: [
+		"cff69a0b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f5eee67e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:skeletal_callstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

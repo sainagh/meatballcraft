@@ -17,11 +17,5 @@
 		items: [{
 			item: "simplevoidworld:portal"
 		}]
-	}],
-	rewards: [{
-		uid: "3a90db30",
-		type: "item",
-		item: "minecraft:bedrock",
-		count: 128
 	}]
 }

@@ -23,11 +23,35 @@ mapCrab += enclistCrab[1].makeEnchantment(20).makeTag();
 mapCrab += enclistCrab[2].makeEnchantment(5).makeTag();
 mapCrab += enclistCrab[3].makeEnchantment(5).makeTag();
 mapCrab += enclistCrab[4].makeEnchantment(1).makeTag();
+var mapCrabOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Crabsmasher Maul"}
+};
+mapCrab += mapCrabOther;
 
 val enchlistVile as IEnchantmentDefinition[] = [<enchantment:soulshardsrespawn:soul_stealer>, <enchantment:minecraft:unbreaking>];
 var mapVile as IData = {};
-mapVile += enchlistVile[0].makeEnchantment(60).makeTag();
+mapVile += enchlistVile[0].makeEnchantment(55).makeTag();
 mapVile += enchlistVile[1].makeEnchantment(6).makeTag();
+var mapVileOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Soul Stealer"}
+};
+mapVile += mapVileOther;
+
+val enchlistAbyss as IEnchantmentDefinition[] = [<enchantment:cofhcore:leech>, <enchantment:minecraft:sweeping>, <enchantment:minecraft:unbreaking>, <enchantment:minecraft:mending>];
+var mapAbyss as IData = {};
+mapAbyss += enchlistAbyss[0].makeEnchantment(16).makeTag();
+mapAbyss += enchlistAbyss[1].makeEnchantment(10).makeTag();
+mapAbyss += enchlistAbyss[2].makeEnchantment(5).makeTag();
+mapAbyss += enchlistAbyss[3].makeEnchantment(1).makeTag();
+var mapAbyssOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Vrangr"}
+};
+mapAbyss += mapAbyssOther;
+
+
 
 mods.extendedcrafting.TableCrafting.addShaped(<aoa3:limonite_sword>.withTag({ench: [{lvl: 29 as short, id: 16 as short}, {lvl: 3 as short, id: 34 as short}, {lvl: 49 as short, id: 19 as short}], RepairCost: 1, display: {Name: "Biggus Yeetus"}}), 
 [[<contenttweaker:smash_jaw>, null, null, null, null, null, <contenttweaker:smash_jaw>], 
@@ -81,7 +105,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<aoa3:vulcammer_maul>.withTag(mapH
 [null, <divinerpg:molten_stone>, <divinerpg:molten_stone>, <divinerpg:molten_stone>, <divinerpg:molten_stone>, <divinerpg:molten_stone>, null], 
 [<contenttweaker:king_bambambam_pelvis>, null, null, null, null, null, <contenttweaker:king_bambambam_pelvis>]]);  
 
-mods.extendedcrafting.TableCrafting.addShaped(<aoa3:rosidian_greatblade>.withTag({ench: [{lvl: 18 as short, id: 94 as short}, {lvl: 5 as short, id: 34 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 10 as short, id: 22 as short}], RepairCost: 1, display: {Name: "Vorpal Sword"}}), 
+mods.extendedcrafting.TableCrafting.addShaped(<aoa3:rosidian_greatblade>.withTag({ench: [{lvl: 3 as short, id: 94 as short}, {lvl: 5 as short, id: 34 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 10 as short, id: 22 as short}], RepairCost: 1, display: {Name: "Vorpal Sword"}}), 
 [[<twilightforest:magic_beans>, null, null, null, null, null, <twilightforest:magic_beans>], 
 [null, <ore:ingotStellarAlloy>, <divinerpg:corrupted_stone>, <divinerpg:corrupted_stone>, <divinerpg:corrupted_stone>, <ore:ingotStellarAlloy>, null], 
 [null, <divinerpg:corrupted_stone>, <contenttweaker:watcher_eye>, <minecraft:skull:5>, <contenttweaker:watcher_eye>, <divinerpg:corrupted_stone>, null], 
@@ -178,3 +202,15 @@ recipes.addShaped(<immersiveengineering:graphite_electrode>.withTag({ench: [{lvl
 [[<ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>],
 [<ore:ingotHOPGraphite>, <immersiveengineering:graphite_electrode>, <ore:ingotHOPGraphite>],
 [<ore:ingotHOPGraphite>, <projectex:matter:7>, <ore:ingotHOPGraphite>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:lawsword>.withTag({ench: [{lvl: 6 as short, id: 94 as short}], RepairCost: 1, display: {Name: "K-Room"}}), 
+[[<contenttweaker:ender_feather>, <contenttweaker:ender_feather>, <materialpart:promethium:ingot>, <contenttweaker:ender_feather>, <contenttweaker:ender_feather>], 
+[<contenttweaker:ender_feather>, null, <contenttweaker:ender_dolomite_dust>, null, <contenttweaker:ender_feather>], 
+[<materialpart:promethium:ingot>, <contenttweaker:ender_dolomite_dust>, <extrautils2:lawsword>, <contenttweaker:ender_dolomite_dust>, <materialpart:promethium:ingot>], 
+[<contenttweaker:ender_feather>, null, <contenttweaker:ender_dolomite_dust>, null, <contenttweaker:ender_feather>], 
+[<contenttweaker:ender_feather>, <contenttweaker:ender_feather>, <materialpart:promethium:ingot>, <contenttweaker:ender_feather>, <contenttweaker:ender_feather>]]); 
+
+recipes.addShaped(<abyssalcraft:soulreaper>.withTag(mapAbyss),
+[[<abyssalcraft:crystalcluster:7>, <abyssalcraft:essence:2>, <abyssalcraft:crystalcluster:5>],
+[<abyssalcraft:essence:2>, <abyssalcraft:soulreaper>, <abyssalcraft:essence:2>],
+[<abyssalcraft:crystalcluster:4>, <abyssalcraft:essence:2>, <abyssalcraft:crystalcluster:6>]]);

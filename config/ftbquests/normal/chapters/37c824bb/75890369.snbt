@@ -1,6 +1,6 @@
 {
 	x: 3.5d,
-	y: -1.5d,
+	y: -3.0d,
 	description: "Dimensional doors are found around the world and are a good source of starting materials.",
 	dependencies: [
 		"fb8062a2"

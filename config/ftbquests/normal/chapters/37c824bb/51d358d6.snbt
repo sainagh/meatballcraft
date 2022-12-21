@@ -16,18 +16,5 @@
 		items: [{
 			item: "bigreactors:reactorcontroller"
 		}]
-	}],
-	rewards: [{
-		uid: "309dbc57",
-		type: "item",
-		item: {
-			id: "patchouli:guide_book",
-			tag: {
-				"patchouli:book": "bigreactors:erguide"
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
 	}]
 }

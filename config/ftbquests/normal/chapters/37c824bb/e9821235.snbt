@@ -1,7 +1,7 @@
 {
 	title: "TRUE Draconic Power",
 	x: 74.0d,
-	y: -1.5d,
+	y: -3.0d,
 	dependencies: [
 		"e18a08ef"
 	],

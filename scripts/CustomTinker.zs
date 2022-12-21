@@ -77,6 +77,8 @@ bloodmastertic.addItem(<item:contenttweaker:bloodmaster_block>,1,144);
 bloodmastertic.representativeItem = <item:contenttweaker:bloodmaster_block>;
 bloodmastertic.addHeadMaterialStats(2000, 15.3f, 25.52f, 15);
 bloodmastertic.addHandleMaterialStats(3, 5000);
+bloodmastertic.addExtraMaterialStats(60);
+bloodmastertic.addProjectileMaterialStats();
 bloodmastertic.addBowMaterialStats(0.5, 18.4, 15);
 bloodmastertic.addMaterialTrait("blazing");
 bloodmastertic.itemLocalizer = function(thisMaterial, itemName){return "Bloodmaster " + itemName;};

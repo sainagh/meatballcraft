@@ -1075,3 +1075,52 @@ asgardfurnacebrick.setBlockResistance(2.5);
 asgardfurnacebrick.setToolClass("pickaxe");
 asgardfurnacebrick.setToolLevel(3);
 asgardfurnacebrick.register();
+
+var definedblock = VanillaFactory.createBlock("defined_block", <blockmaterial:iron>);
+definedblock.setBlockHardness(1.0);
+definedblock.setBlockResistance(2.5);
+definedblock.setToolClass("pickaxe");
+definedblock.setToolLevel(3);
+definedblock.register();
+
+var definercasing = VanillaFactory.createBlock("definer_casing", <blockmaterial:iron>);
+definercasing.setBlockHardness(1.0);
+definercasing.setBlockResistance(2.5);
+definercasing.setToolClass("pickaxe");
+definercasing.setToolLevel(3);
+definercasing.register();
+
+var welldefinercasing = VanillaFactory.createBlock("well_defined_machine_case", <blockmaterial:iron>);
+welldefinercasing.setBlockHardness(1.0);
+welldefinercasing.setBlockResistance(2.5);
+welldefinercasing.setToolClass("pickaxe");
+welldefinercasing.setToolLevel(3);
+welldefinercasing.register();
+
+var astralcollapserwall = VanillaFactory.createBlock("astral_collapser_wall", <blockmaterial:iron>);
+astralcollapserwall.setBlockHardness(1.0);
+astralcollapserwall.setBlockResistance(2.5);
+astralcollapserwall.setToolClass("pickaxe");
+astralcollapserwall.setToolLevel(3);
+astralcollapserwall.register();
+
+var holographicore = VanillaFactory.createBlock("holographic_ore", <blockmaterial:iron>);
+holographicore.setBlockHardness(1.0);
+holographicore.setBlockResistance(2.5);
+holographicore.setToolClass("pickaxe");
+holographicore.setToolLevel(3);
+holographicore.register();
+
+var ultimateore = VanillaFactory.createBlock("ultimate_ore", <blockmaterial:iron>);
+ultimateore.setBlockHardness(1.0);
+ultimateore.setBlockResistance(2.5);
+ultimateore.setToolClass("pickaxe");
+ultimateore.setToolLevel(3);
+ultimateore.register();
+
+var matrixore = VanillaFactory.createBlock("matrix_ore", <blockmaterial:iron>);
+matrixore.setBlockHardness(1.0);
+matrixore.setBlockResistance(2.5);
+matrixore.setToolClass("pickaxe");
+matrixore.setToolLevel(3);
+matrixore.register();

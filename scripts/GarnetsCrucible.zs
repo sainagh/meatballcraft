@@ -7,7 +7,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tulite_flower>,
 [null, null, <contenttweaker:eternal_tulite>, <contenttweaker:eternal_tulite>, <contenttweaker:eternal_tulite>, null, null], 
 [null, <contenttweaker:eternal_tulite>, null, <contenttweaker:eternal_tulite>, null, <contenttweaker:eternal_tulite>, null], 
 [null, null, null, <contenttweaker:eternal_tulite>, null, null, null], 
-[null, null, null, <contenttweaker:eternal_tulite>, null, null, null]]); 
+[null, null, null, <contenttweaker:skythern_refined_gem>, null, null, null]]); 
 
 recipes.addShaped(<contenttweaker:astral_lizardite>*2,
 [[<biomesoplenty:gem:0>, <biomesoplenty:gem:1>, <biomesoplenty:gem:2>],
@@ -19,15 +19,19 @@ recipes.addShaped(<contenttweaker:valtellina_ore>,
 [<divinerpg:mortum_log>, <contenttweaker:eternal_tulite>, <divinerpg:mortum_log>],
 [<contenttweaker:chaotic_comb>, <contenttweaker:astral_lizardite>, <contenttweaker:chaotic_comb>]]);
 
-val creationhoney = RecipeBuilder.newBuilder("creationhoney","creation_altar",50);
-creationhoney.addEnergyPerTickInput(400000);
-creationhoney.addFluidInput(<fluid:chaotic_honey_1>*5);
-creationhoney.addFluidInput(<fluid:chaotic_honey_2>*5);
-creationhoney.addFluidInput(<fluid:chaotic_honey_3>*5);
-creationhoney.addFluidInput(<fluid:chaotic_honey_4>*5);
-creationhoney.addItemInput(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "terra"}]}));
-creationhoney.addItemOutput(<contenttweaker:chaotic_comb>*8);
-creationhoney.build();
+
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:chaotic_honey_1>*5, <contenttweaker:chaotic_honey_shard_1>]);
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:chaotic_honey_2>*5, <contenttweaker:chaotic_honey_shard_2>]);
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:chaotic_honey_3>*5, <contenttweaker:chaotic_honey_shard_3>]);
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:chaotic_honey_4>*5, <contenttweaker:chaotic_honey_shard_4>]);
+
+mods.forestry.ThermionicFabricator.addCast(<contenttweaker:chaotic_propolis>, 
+[[<contenttweaker:chaotic_honey_shard_1>,<forge:bucketfilled>.withTag({FluidName: "low_quality_steam", Amount: 1000}),<contenttweaker:chaotic_honey_shard_2>],
+[<ore:dustMana>,<forestry:propolis:3>,<ore:dustMana>],
+[<contenttweaker:chaotic_honey_shard_4>,<forge:bucketfilled>.withTag({FluidName: "low_quality_steam", Amount: 1000}),<contenttweaker:chaotic_honey_shard_3>]], 
+<liquid: glass> * 1000, <forestry:wax_cast>);
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:chaotic_propolis>*4, <extrabees:honey_comb:76>, <contenttweaker:chaotic_comb>*4]);
 
 mods.thaumcraft.Crucible.registerRecipe("cruciblevaltellina", "", <contenttweaker:imperfect_gem_of_the_cosmos>*8, <contenttweaker:valtellina_ore>, [<aspect:caeles>*3]);
 

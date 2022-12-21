@@ -32,3 +32,10 @@ recipes.addShaped(<cyclicmagic:fire_starter>,
 [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 
 recipes.remove(<cyclicmagic:mattock>);
+
+recipes.remove(<cyclicmagic:book_ender>);
+
+recipes.addShaped(<cyclicmagic:book_ender>,
+[[<ore:gemEmerald>, <dimdoors:world_thread>, <ore:gemEmerald>],
+[<actuallyadditions:block_misc:6>, <minecraft:book>, <actuallyadditions:block_misc:6>],
+[<ore:gemEmerald>, <dimdoors:world_thread>, <ore:gemEmerald>]]);

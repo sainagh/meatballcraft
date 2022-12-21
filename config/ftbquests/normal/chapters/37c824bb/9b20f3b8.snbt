@@ -1,7 +1,7 @@
 {
 	title: "Terra",
 	x: 5.0d,
-	y: -1.5d,
+	y: -3.0d,
 	text: [
 		"I found a village of intelligent creatures! They call themselves the testificates, and they are native to this planet, which they call Terra.",
 		"The testificates have a troubled history, they used to be a powerful civilization, advanced in the use of magic, which they used to open portals to connect them to other parts of the planet, including the massive caves that fill Terra's underground.",

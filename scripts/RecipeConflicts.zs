@@ -144,7 +144,7 @@ recipes.addShaped(<divinerpg:lava_lamp>,
 mods.nuclearcraft.melter.addRecipe([<aoa3:raw_charger_shank>, <fluid:charger>*20]);
 mods.nuclearcraft.melter.addRecipe([<aoa3:charger_shank>, <fluid:charger>*17]);
 
-mods.nuclearcraft.alloy_furnace.addRecipe([<thermalfoundation:material:132>*5, <minecraft:iron_ingot>*3, <plustic:alumiteingot>]);
+mods.nuclearcraft.alloy_furnace.addRecipe([<ore:ingotAluminum>*5, <minecraft:iron_ingot>*3, <plustic:alumiteingot>]);
 
 recipes.remove(<mod_lavacow:mossy_stick>);
 
@@ -152,3 +152,10 @@ recipes.addShaped(<mod_lavacow:mossy_stick>,
 [[null, <tconstruct:materials:18>, null],
 [<tconstruct:materials:18>, <minecraft:stick>, <tconstruct:materials:18>],
 [null, <tconstruct:materials:18>, null]]);
+
+
+mods.nuclearcraft.manufactory.addRecipe([<minecraft:emerald>, <actuallyadditions:item_dust:3>]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:fluidnitrocarbon>*1000, <fluid:water>*1000, <fluid:fluidglyceryl>*100, null]);
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<ore:ingotCopper>, <ore:ingotAluminum>*3, <tconstruct:ingots:5>*4]);

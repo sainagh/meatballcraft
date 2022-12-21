@@ -25,12 +25,17 @@ recipes.addShaped(<contenttweaker:botanical_pillar>*4,
 [<contenttweaker:gaia_spirit_block>, <contenttweaker:radiant_scales>, <contenttweaker:gaia_spirit_block>]]);
 
 
+recipes.addShaped(<contenttweaker:double_compressed_realgar>,
+[[<contenttweaker:compressed_realgar>, <contenttweaker:compressed_realgar>, <contenttweaker:compressed_realgar>],
+[<contenttweaker:compressed_realgar>, <contenttweaker:compressed_realgar>, <contenttweaker:compressed_realgar>],
+[<contenttweaker:compressed_realgar>, <contenttweaker:compressed_realgar>, <contenttweaker:compressed_realgar>]]);
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_conduit>, 
-[[<cyclicmagic:beacon_potion>, <contenttweaker:mirroring_mithminite_prism>, <astralsorcery:blockcelestialgateway>, <contenttweaker:quantum_shard>, <cyclicmagic:beacon_potion>], 
+[[<environmentaltech:nano_cont_ranged_6>, <contenttweaker:mirroring_mithminite_prism>, <astralsorcery:blockcelestialgateway>, <contenttweaker:quantum_shard>, <environmentaltech:nano_cont_ranged_6>], 
 [<contenttweaker:quantum_shard>, <contenttweaker:botanical_pillar>, <extrabees:alveary:4>, <contenttweaker:botanical_pillar>, <contenttweaker:mirroring_mithminite_prism>], 
-[<astralsorcery:blockcelestialgateway>, <extrabees:alveary:4>, <contenttweaker:instant_power_junction>, <extrabees:alveary:4>, <astralsorcery:blockcelestialgateway>], 
+[<astralsorcery:blockcelestialgateway>, <contenttweaker:defined_gear>, <contenttweaker:instant_power_junction>, <contenttweaker:defined_gear>, <astralsorcery:blockcelestialgateway>], 
 [<contenttweaker:mirroring_mithminite_prism>, <contenttweaker:botanical_pillar>, <extrabees:alveary:4>, <contenttweaker:botanical_pillar>, <contenttweaker:quantum_shard>], 
-[<cyclicmagic:beacon_potion>, <contenttweaker:quantum_shard>, <astralsorcery:blockcelestialgateway>, <contenttweaker:mirroring_mithminite_prism>, <cyclicmagic:beacon_potion>]]);  
+[<environmentaltech:nano_cont_ranged_6>, <contenttweaker:quantum_shard>, <astralsorcery:blockcelestialgateway>, <contenttweaker:mirroring_mithminite_prism>, <environmentaltech:nano_cont_ranged_6>]]);  
 
 
 mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:irradiated_filler>, <extracells:fluidfiller>, 1000);
@@ -53,12 +58,19 @@ creationray.addItemOutput(<contenttweaker:high_energy_ray_collector>);
 creationray.build();
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_collector>*16, 
-[[<contenttweaker:dyson_shell>, <contenttweaker:dyson_shell>, <contenttweaker:dyson_shell>, <contenttweaker:dyson_shell>, <contenttweaker:dyson_shell>], 
-[<contenttweaker:dyson_shell>, <contenttweaker:defined_machine_case>, <abyssalcraft:tieredenergycontainer:3>, <contenttweaker:defined_machine_case>, <contenttweaker:dyson_shell>], 
-[<contenttweaker:dyson_shell>, <contenttweaker:high_energy_ray_collector>, <draconicevolution:reactor_core>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:dyson_shell>], 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_collector>*10, 
+[[<contenttweaker:dyson_shell>, <contenttweaker:dyson_shell>, <contenttweaker:collapser_conduit>, <contenttweaker:dyson_shell>, <contenttweaker:dyson_shell>], 
+[<contenttweaker:dyson_shell>, <contenttweaker:defined_machine_case>, <contenttweaker:double_compressed_realgar>, <contenttweaker:defined_machine_case>, <contenttweaker:dyson_shell>], 
+[<contenttweaker:collapser_conduit>, <contenttweaker:high_energy_ray_collector>, <draconicevolution:reactor_core>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:collapser_conduit>], 
 [<contenttweaker:dyson_shell>, <contenttweaker:defined_machine_case>, <contenttweaker:reinforced_shyre_bricks>, <contenttweaker:defined_machine_case>, <contenttweaker:dyson_shell>], 
-[<contenttweaker:dyson_shell>, <contenttweaker:dyson_shell>, <contenttweaker:dyson_shell>, <contenttweaker:dyson_shell>, <contenttweaker:dyson_shell>]]);  
+[<contenttweaker:dyson_shell>, <contenttweaker:dyson_shell>, <contenttweaker:collapser_conduit>, <contenttweaker:dyson_shell>, <contenttweaker:dyson_shell>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:defined_block>, 
+[[<contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>], 
+[<contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>], 
+[<contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>], 
+[<contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>], 
+[<contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>]]);  
 
 mods.extrautils2.Resonator.add(<contenttweaker:resonating_eldritch_artifact>, <abyssalcraft:statue:2>, 128);
 
@@ -100,11 +112,11 @@ dysonastralmat.addItemOutput(<contenttweaker:aeldunari>);
 dysonastralmat.build();
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:living_case>, 
-[[<bloodmagic:component:8>, <bloodmagic:component:8>, <aoa3:magic_mending_solution>, <bloodmagic:component:8>, <bloodmagic:component:8>], 
+[[<contenttweaker:infinity_core>, <bloodmagic:component:8>, <aoa3:magic_mending_solution>, <bloodmagic:component:8>, <contenttweaker:infinity_core>], 
 [<bloodmagic:component:8>, <contenttweaker:annealed_high_density_frame>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:annealed_high_density_frame>, <bloodmagic:component:8>], 
 [<aoa3:magic_mending_solution>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:aeldunari>, <contenttweaker:hassium_alloy_ingot>, <aoa3:magic_mending_solution>], 
 [<bloodmagic:component:8>, <contenttweaker:annealed_high_density_frame>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:annealed_high_density_frame>, <bloodmagic:component:8>], 
-[<bloodmagic:component:8>, <bloodmagic:component:8>, <aoa3:magic_mending_solution>, <bloodmagic:component:8>, <bloodmagic:component:8>]]);  
+[<contenttweaker:infinity_core>, <bloodmagic:component:8>, <aoa3:magic_mending_solution>, <bloodmagic:component:8>, <contenttweaker:infinity_core>]]);  
 
 val electroblobdyson = RecipeBuilder.newBuilder("electroblobdyson","wizardry_combiner",200);
 electroblobdyson.addEnergyPerTickInput(15000);
@@ -151,7 +163,7 @@ corruptedlibrarydefinedengine.addItemInput(<contenttweaker:defined_gear>*4);
 corruptedlibrarydefinedengine.addItemOutput(<contenttweaker:defined_engine>);
 corruptedlibrarydefinedengine.build();
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:irradiator_casing>*20, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:irradiator_casing>*10, 
 [[<contenttweaker:high_refraction_alloy_ingot>, <contenttweaker:infinity_plate>, <contenttweaker:radiation_crafter>, <contenttweaker:infinity_plate>, <contenttweaker:high_refraction_alloy_ingot>], 
 [<contenttweaker:infinity_plate>, <extendedcrafting:storage:4>, <nuclearcraft:fusion_core>, <extendedcrafting:storage:4>, <contenttweaker:infinity_plate>], 
 [<contenttweaker:radiation_crafter>, <extracells:storage.physical:3>, <contenttweaker:living_case>, <extracells:storage.physical:3>, <contenttweaker:radiation_crafter>], 
