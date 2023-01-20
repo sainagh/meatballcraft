@@ -16,18 +16,13 @@ val mythasspurityoffer = RecipeBuilder.newBuilder("mythasspurityoffer","me_mythi
 mythasspurityoffer.addEnergyPerTickInput(600000);
 mythasspurityoffer.addFluidInput(<fluid:terrasteel>*10000);
 mythasspurityoffer.addFluidInput(<fluid:short.mead>*10000);
-mythasspurityoffer.addItemInput(<contenttweaker:greater_gaia_spirit>*7);
-mythasspurityoffer.addItemInput(<contenttweaker:draconic_machine_frame>*5);
-mythasspurityoffer.addItemInput(<extendedcrafting:singularity:66>);
 mythasspurityoffer.addItemInput(<contenttweaker:eden_refined_gem>);
 mythasspurityoffer.addItemInput(<extendedcrafting:singularity_custom:990>);
 mythasspurityoffer.addItemInput(<magicbees:beecomb:4>*256);
 mythasspurityoffer.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})*64);
-mythasspurityoffer.addItemInput(<botania:manaresource:14>*64);
 mythasspurityoffer.addItemInput(<abyssalcraft:psdl>);
 mythasspurityoffer.addItemInput(<contenttweaker:warped_stone>*4);
 mythasspurityoffer.addItemInput(<contenttweaker:vibrating_stone>*4);
-mythasspurityoffer.addItemInput(<draconicevolution:fusion_crafting_core>*24);
 mythasspurityoffer.addItemOutput(<contenttweaker:purity_offer>);
 mythasspurityoffer.build();
 
@@ -53,8 +48,8 @@ mods.techreborn.industrialGrinder.addRecipe(<contenttweaker:bifrost_gem>*3, <mat
 <materialpart:sednanite:dust>, null, 
 <contenttweaker:aesir_gemstone>, <enderio:item_alloy_endergy_ball:6>, <fluid:weakened_cryotheoum>*20, 100, 64);
 
-mods.techreborn.industrialGrinder.addRecipe(<contenttweaker:bifrost_dust>*2, <contenttweaker:vibrating_stone>*18, 
-<contenttweaker:vibrating_stone>*15, <contenttweaker:vibrating_stone>*13, 
+mods.techreborn.industrialGrinder.addRecipe(<contenttweaker:bifrost_dust>*2, null, 
+null, null, 
 <contenttweaker:bifrost_gem>, <enderio:item_alloy_endergy_ball:2>, <fluid:luminous_lava>*20, 100, 64);
 
 mods.techreborn.industrialGrinder.addRecipe(<contenttweaker:recursive_powder>*3, <magicbees:resource:5>, 

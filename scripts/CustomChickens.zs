@@ -275,3 +275,13 @@ var elecaniumchicken = ChickenFactory.createChicken("elecanium_chicken", Color.f
 elecaniumchicken.setForegroundColor(Color.fromHex("5dc4cf"));
 elecaniumchicken.setSpawnType("NONE");
 elecaniumchicken.register();
+
+var purechicken = ChickenFactory.createChicken("pure_chicken", Color.fromHex("263373"), <item:contenttweaker:pure_egg>);
+purechicken.setForegroundColor(Color.fromHex("388a4e"));
+purechicken.setSpawnType("NONE");
+purechicken.register();
+
+var osmiumchicken = ChickenFactory.createChicken("osmium_chicken", Color.fromHex("263073"), <item:contenttweaker:osmium_egg>);
+osmiumchicken.setForegroundColor(Color.fromHex("388a2e"));
+osmiumchicken.setSpawnType("NONE");
+osmiumchicken.register();

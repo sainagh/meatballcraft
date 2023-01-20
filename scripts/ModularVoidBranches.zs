@@ -123,7 +123,7 @@ recipes.addShaped(<contenttweaker:secret_weapon>,
 [<thaumcraft:taint_rock>, <contenttweaker:resonating_stone>, <thaumcraft:taint_rock>]]);
 
 val makerecursivegoo = RecipeBuilder.newBuilder("makerecursivegoo","bloodmaster_crucible",1200);
-makerecursivegoo.addEnergyPerTickInput(1000);
+makerecursivegoo.addFluidInput(<fluid:lifeessence>*500);
 makerecursivegoo.addItemInput(<contenttweaker:nethengeic_rune>);
 makerecursivegoo.addItemInput(<contenttweaker:everwatching_eye>);
 makerecursivegoo.addItemInput(<contenttweaker:fiery_pyrite>*4);
@@ -145,14 +145,6 @@ recipes.addShaped(<techreborn:creative_solar_panel>,
 [<techreborn:solar_panel:4>, <techreborn:solar_panel:4>, <techreborn:solar_panel:4>]]);
 
 
-
-
-val holographicoredict = <ore:oreHolographic>;
-holographicoredict.add(<contenttweaker:holographic_ore>);
-
-mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:projector_gem>*8, <contenttweaker:holographic_ore>, 30);
-
-mods.immersiveengineering.Excavator.addMineral("Projector Rhenium", 80, 0.0001, ["oreRhenium", "oreHolographic"], [0.5, 0.5], [163]);
 
 recipes.addShaped(<contenttweaker:possessed_fluix>*8,
 [[<appliedenergistics2:material:12>, <appliedenergistics2:material:12>, <appliedenergistics2:material:12>],

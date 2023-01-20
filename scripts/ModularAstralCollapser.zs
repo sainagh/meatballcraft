@@ -9,5 +9,5 @@ recipes.addShaped(<contenttweaker:definer_casing>,
 recipes.addShaped(<contenttweaker:well_defined_machine_case>,
 [[<contenttweaker:compressed_realgar>, <contenttweaker:defined_gear>, <contenttweaker:compressed_realgar>],
 [<materialpart:promethium:ingot>, <contenttweaker:defined_machine_case>, <materialpart:promethium:ingot>],
-[<contenttweaker:everburning_seed>, <extendedcrafting:singularity:35>, <contenttweaker:everburning_seed>]]);
+[<contenttweaker:compressed_realgar>, <extendedcrafting:singularity:35>, <contenttweaker:compressed_realgar>]]);
 

@@ -27,10 +27,12 @@
 		}]
 	},
 	{
-		uid: "08e4cb89",
+		uid: "442b6a0d",
 		type: "item",
 		items: [{
-			item: "contenttweaker:miniature_pulsar"
-		}]
+			item: "contenttweaker:pulsar_core"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

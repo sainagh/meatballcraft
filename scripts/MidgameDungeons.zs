@@ -783,7 +783,7 @@ fluixcallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+
     if(player.getDimension() != 1) {
         player.sendChat("You gotta be in the end");
         return "FAIL";

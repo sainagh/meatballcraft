@@ -1,6 +1,7 @@
 {
 	x: 114.5d,
 	y: -1.5d,
+	description: "Make sure to get a woot model for each boss in mortum",
 	dependencies: [
 		"20ec7210"
 	],

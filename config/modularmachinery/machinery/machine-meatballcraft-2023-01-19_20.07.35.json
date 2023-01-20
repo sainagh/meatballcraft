@@ -1,0 +1,1792 @@
+{
+    "parts": [
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"9b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"multiblockData":{"Heat":"0L","Capacity":"100000L","comparatorSignal":"0","isReactorOn":"0b","computerActivated":"0b","cooling":"0.0d","heating":"0.0d","efficiency":"0.0d","maxEfficiency":"0.0d","heatMult":"0.0d","maxHeatMult":"0.0d","coolingRate":"0.0d"},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"9b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"9b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"14b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 14,
+            "nbt": {"id":"minecraft:tileenergyinputhatch","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"casingColor":"16730368","energy":"0L","hatchSize":"7"},
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"14b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "nbt": {"id":"minecraft:tilefluidoutputhatch","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"casingColor":"16730368","input":"0b","size":"7","tank":{"Empty":""}},
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 11,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 10,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 9,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"14b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 8,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"14b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:awakened_electromagnet@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "contenttweaker:awakened_electromagnet@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 12,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"9b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"10b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"multiblockData":{"Heat":"0L","Capacity":"50000L","comparatorSignal":"0","isReactorOn":"0b","computerActivated":"0b","cooling":"0.0d","heating":"0.0d","efficiency":"0.0d","maxEfficiency":"0.0d","heatMult":"0.0d","maxHeatMult":"0.0d","coolingRate":"0.0d"},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"multiblockData":{"Heat":"0L","Capacity":"100000L","comparatorSignal":"0","isReactorOn":"0b","computerActivated":"0b","cooling":"0.0d","heating":"0.0d","efficiency":"0.0d","maxEfficiency":"0.0d","heatMult":"0.0d","maxHeatMult":"0.0d","coolingRate":"0.0d"},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"10b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"10b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"multiblockData":{"Heat":"0L","Capacity":"100000L","comparatorSignal":"0","isReactorOn":"0b","computerActivated":"0b","cooling":"0.0d","heating":"0.0d","efficiency":"0.0d","maxEfficiency":"0.0d","heatMult":"0.0d","maxHeatMult":"0.0d","coolingRate":"0.0d"},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"10b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"5b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"5b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"5b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"5b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"11b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"11b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"11b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 7,
+            "nbt": {"id":"minecraft:tilefluidoutputhatch","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"casingColor":"16730368","input":"0b","size":"7","tank":{"Empty":""}},
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"11b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 9,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 8,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "contenttweaker:awakened_electromagnet@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"13b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 12,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 11,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 10,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"13b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:awakened_electromagnet@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "nbt": {"id":"minecraft:tilefluidoutputhatch","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"casingColor":"16730368","input":"0b","size":"7","tank":{"Empty":""}},
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"13b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 11,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 10,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:awakened_electromagnet@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 12,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:awakened_electromagnet@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"6b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"13b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"6b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"6b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"6b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"multiblockData":{"Heat":"0L","Capacity":"50000L","comparatorSignal":"0","isReactorOn":"0b","computerActivated":"0b","cooling":"0.0d","heating":"0.0d","efficiency":"0.0d","maxEfficiency":"0.0d","heatMult":"0.0d","maxHeatMult":"0.0d","coolingRate":"0.0d"},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"7b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 7,
+            "nbt": {"id":"minecraft:tilefluidoutputhatch","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"casingColor":"16730368","input":"0b","size":"7","tank":{"Empty":""}},
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:awakened_electromagnet@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"7b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"9b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 9,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 11,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 10,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:awakened_electromagnet@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 12,
+            "nbt": {"id":"nuclearcraft:fusion_electromagnet","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","energy":"0","capacity":"256000","maxTransfer":"64000","energyConnections0":"0","energyConnections1":"0","energyConnections2":"0","energyConnections3":"0","energyConnections4":"0","energyConnections5":"0","tank0":{"fluidAmount":"0","fluidName":"nullFluid"},"fluidConnection0":{"sorption0":"3"},"fluidConnection1":{"sorption0":"3"},"fluidConnection2":{"sorption0":"3"},"fluidConnection3":{"sorption0":"3"},"fluidConnection4":{"sorption0":"3"},"fluidConnection5":{"sorption0":"3"},"inputTanksSeparated":"0b","voidUnusableFluidInput0":"0b","tankOutputSetting0":"0","Items":[],"inventoryConnection0":{"sorption0":"3"},"inventoryConnection1":{"sorption0":"3"},"inventoryConnection2":{"sorption0":"3"},"inventoryConnection3":{"sorption0":"3"},"inventoryConnection4":{"sorption0":"3"},"inventoryConnection5":{"sorption0":"3"},"itemOutputSetting0":"0","isRunning":"0b","energyBool":"0b","stackBool":"0b","fluidBool":"0b"},
+            "elements": [
+                "nuclearcraft:fusion_electromagnet_transparent_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"9b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"7b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"9b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"9b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"7b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"5b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:plasma_collider@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 14,
+            "nbt": {"id":"minecraft:tilefluidinputhatch","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"casingColor":"16730368","input":"1b","size":"7","tank":{"Empty":""}},
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"10b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "contenttweaker:plasma_injector@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"10b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"15b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"5b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"10b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:plasma_injector@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"5b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"10b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "nbt": {"id":"minecraft:tilefluidinputhatch","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"casingColor":"16730368","input":"1b","size":"7","tank":{"Empty":""}},
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"5b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"6b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"multiblockData":{"Heat":"0L","Capacity":"125000L","comparatorSignal":"0","isReactorOn":"0b","computerActivated":"0b","cooling":"0.0d","heating":"0.0d","efficiency":"0.0d","maxEfficiency":"0.0d","heatMult":"0.0d","maxHeatMult":"0.0d","coolingRate":"0.0d"},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"6b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"6b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 14,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 13,
+            "nbt": {"id":"nuclearcraft:salt_fission_frame","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"isRedstonePowered":"0b","alternateComparator":"0b","redstoneControl":"0b","radiationLevel":"0.0d","isReactorOn":"0b"},
+            "elements": [
+                "nuclearcraft:salt_fission_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 12,
+            "nbt": {"id":"techreborn:cable","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"},"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"connectivity":"6b"},
+            "elements": [
+                "techreborn:cable@8"
+            ]
+        }
+    ]}

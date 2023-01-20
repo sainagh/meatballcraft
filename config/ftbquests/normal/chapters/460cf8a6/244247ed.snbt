@@ -3,7 +3,8 @@
 	y: 3.0d,
 	text: [
 		"Found in the coralium infested swamp.",
-		"Coralium Ore is craftable."
+		"Coralium Ore is craftable.",
+		"Found in nether fortress chests."
 	],
 	dependencies: [
 		"d707b772"

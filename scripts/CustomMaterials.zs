@@ -369,6 +369,11 @@ hassium.registerParts(["nugget", "ingot", "plate", "gear", "rod"] as string[]);
 var colorhalite = Color.fromHex("17c414") as Color;
 var halite = MaterialSystem.getMaterialBuilder().setName("Halite").setColor(colorhalite).build();
 halite.registerParts(["ingot", "rod"] as string[]);
+var armorhalite = halite.registerPart("armor").getData();
+armorhalite.addDataValue("durability", "9500000");
+armorhalite.addDataValue("enchantability", "100");
+armorhalite.addDataValue("reduction", "200,200,200,200");
+armorhalite.addDataValue("toughness", "200");
 
 var colorabyssite = Color.fromHex("1beb00") as Color;
 var abyssite = MaterialSystem.getMaterialBuilder().setName("Abyssite").setColor(colorabyssite).build();

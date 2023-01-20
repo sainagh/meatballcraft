@@ -2,10 +2,10 @@ mods.techreborn.implosionCompressor.addRecipe(<contenttweaker:hyperchitinous_pla
 
 recipes.removeShaped(<erebus:wand_of_animation>);
 
-recipes.addShaped(<erebus:wand_of_animation>,
-[[null, <materialpart:hassium:ingot>, <erebus:materials:64>],
-[null, <ore:stickWood>, <materialpart:hassium:ingot>],
-[<materialpart:halite:ingot>, null, null]]);
+// recipes.addShaped(<erebus:wand_of_animation>,
+// [[null, <materialpart:hassium:ingot>, <erebus:materials:64>],
+// [null, <ore:stickWood>, <materialpart:hassium:ingot>],
+// [<materialpart:halite:ingot>, null, null]]);
 
 recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "erebus:erebus.stag_beetle"}}),
 [[null, <bewitchment:triskelion>, null],

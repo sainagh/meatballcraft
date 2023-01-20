@@ -268,16 +268,16 @@ plasmamortum.addItemInput(<divinerpg:twilight_stone>*32);
 plasmamortum.addItemOutput(<divinerpg:mortum_ore>*30);
 plasmamortum.build();
 
-val plasmadefiner = RecipeBuilder.newBuilder("plasmadefiner","plasmatic_condenser",20);
-plasmadefiner.addFluidInput(<fluid:dense_plasma>*160000);
-plasmadefiner.addItemInput(<contenttweaker:definer_core>);
-plasmadefiner.addItemInput(<contenttweaker:bright_matter>*5);
-plasmadefiner.addItemInput(<divinerpg:twilight_stone>*32);
-plasmadefiner.addItemInput(<materialpart:chalcedony:ingot>);
-plasmadefiner.addItemInput(<materialpart:brightsteel:ingot>);
-plasmadefiner.addItemInput(<materialpart:lunastone:ingot>);
-plasmadefiner.addItemOutput(<contenttweaker:defined_ingot>*10);
-plasmadefiner.build();
+// val plasmadefiner = RecipeBuilder.newBuilder("plasmadefiner","plasmatic_condenser",20);
+// plasmadefiner.addFluidInput(<fluid:dense_plasma>*160000);
+// plasmadefiner.addItemInput(<contenttweaker:definer_core>);
+// plasmadefiner.addItemInput(<contenttweaker:bright_matter>*5);
+// plasmadefiner.addItemInput(<divinerpg:twilight_stone>*32);
+// plasmadefiner.addItemInput(<materialpart:chalcedony:ingot>);
+// plasmadefiner.addItemInput(<materialpart:brightsteel:ingot>);
+// plasmadefiner.addItemInput(<materialpart:lunastone:ingot>);
+// plasmadefiner.addItemOutput(<contenttweaker:defined_ingot>*10);
+// plasmadefiner.build();
 
 val plasmagravitite = RecipeBuilder.newBuilder("plasmagravitite","plasmatic_condenser",20);
 plasmagravitite.addFluidInput(<fluid:dense_plasma>*160000);

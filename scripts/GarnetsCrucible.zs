@@ -25,11 +25,10 @@ mods.nuclearcraft.crystallizer.addRecipe([<fluid:chaotic_honey_2>*5, <contenttwe
 mods.nuclearcraft.crystallizer.addRecipe([<fluid:chaotic_honey_3>*5, <contenttweaker:chaotic_honey_shard_3>]);
 mods.nuclearcraft.crystallizer.addRecipe([<fluid:chaotic_honey_4>*5, <contenttweaker:chaotic_honey_shard_4>]);
 
-mods.forestry.ThermionicFabricator.addCast(<contenttweaker:chaotic_propolis>, 
+recipes.addShaped(<contenttweaker:chaotic_propolis>*4,
 [[<contenttweaker:chaotic_honey_shard_1>,<forge:bucketfilled>.withTag({FluidName: "low_quality_steam", Amount: 1000}),<contenttweaker:chaotic_honey_shard_2>],
 [<ore:dustMana>,<forestry:propolis:3>,<ore:dustMana>],
-[<contenttweaker:chaotic_honey_shard_4>,<forge:bucketfilled>.withTag({FluidName: "low_quality_steam", Amount: 1000}),<contenttweaker:chaotic_honey_shard_3>]], 
-<liquid: glass> * 1000, <forestry:wax_cast>);
+[<contenttweaker:chaotic_honey_shard_4>,<forge:bucketfilled>.withTag({FluidName: "low_quality_steam", Amount: 1000}),<contenttweaker:chaotic_honey_shard_3>]]);
 
 mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:chaotic_propolis>*4, <extrabees:honey_comb:76>, <contenttweaker:chaotic_comb>*4]);
 

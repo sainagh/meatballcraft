@@ -1,4 +1,4 @@
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:ancient_cavern_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:ancient_cavern_cap>*8, 
 
 [[<avaritia:resource:3>, null, <bigreactors:blockludicrite>, 
 null, <avaritia:resource:0>, null, 
@@ -13,15 +13,15 @@ null, <bloodmagic:blood_shard:1>, null,
 <draconicevolution:chaos_shard:3>, null, <bigreactors:blockludicrite>], 
 
 [null, <bigreactors:mineralbenitoite>, null, 
-<contenttweaker:unidentified_plate>, <divinerpg:apalachia_block>, <contenttweaker:unidentified_plate>, 
+<contenttweaker:unidentified_plate>, <contenttweaker:technetium_remains>, <contenttweaker:unidentified_plate>, 
 null, <bigreactors:mineralbenitoite>, null], 
 
 [<avaritia:resource:0>, <thebetweenlands:items_misc:39>, <bloodmagic:blood_shard:1>, 
-<divinerpg:apalachia_block>, <avaritia:block_resource:2>, <divinerpg:apalachia_block>, 
+<contenttweaker:technetium_remains>, <avaritia:block_resource:2>, <contenttweaker:technetium_remains>, 
 <bloodmagic:blood_shard:1>, <thebetweenlands:items_misc:39>, <avaritia:resource:0>], 
 
 [null, <bigreactors:mineralbenitoite>, null, 
-<contenttweaker:unidentified_plate>, <divinerpg:apalachia_block>, <contenttweaker:unidentified_plate>, 
+<contenttweaker:unidentified_plate>, <contenttweaker:technetium_remains>, <contenttweaker:unidentified_plate>, 
 null, <bigreactors:mineralbenitoite>, null], 
 
 [<bigreactors:blockludicrite>, null, <draconicevolution:chaos_shard:3>, 
@@ -38,7 +38,7 @@ null, <avaritia:resource:0>, null,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:greckon_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:greckon_cap>*8, 
 
 [[<avaritia:resource:3>, null, <bigreactors:blockludicrite>, 
 null, <avaritia:resource:0>, null, 
@@ -53,15 +53,15 @@ null, <bloodmagic:blood_shard:1>, null,
 <draconicevolution:chaos_shard:3>, null, <bigreactors:blockludicrite>], 
 
 [null, <bigreactors:mineralbenitoite>, null, 
-<contenttweaker:unidentified_plate>, <divinerpg:apalachia_block>, <contenttweaker:unidentified_plate>, 
+<contenttweaker:unidentified_plate>, <contenttweaker:technetium_remains>, <contenttweaker:unidentified_plate>, 
 null, <bigreactors:mineralbenitoite>, null], 
 
 [<avaritia:resource:0>, <thebetweenlands:items_misc:39>, <bloodmagic:blood_shard:1>, 
-<divinerpg:apalachia_block>, <avaritia:block_resource:2>, <divinerpg:apalachia_block>, 
+<contenttweaker:technetium_remains>, <avaritia:block_resource:2>, <contenttweaker:technetium_remains>, 
 <bloodmagic:blood_shard:1>, <thebetweenlands:items_misc:39>, <avaritia:resource:0>], 
 
 [null, <bigreactors:mineralbenitoite>, null, 
-<contenttweaker:unidentified_plate>, <divinerpg:apalachia_block>, <contenttweaker:unidentified_plate>, 
+<contenttweaker:unidentified_plate>, <contenttweaker:technetium_remains>, <contenttweaker:unidentified_plate>, 
 null, <bigreactors:mineralbenitoite>, null], 
 
 [<bigreactors:blockludicrite>, null, <draconicevolution:chaos_shard:3>, 
@@ -78,7 +78,7 @@ null, <avaritia:resource:0>, null,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:immortallis_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:immortallis_cap>*8, 
 
 [[<avaritia:resource:3>, null, <bigreactors:blockludicrite>, 
 null, <avaritia:resource:0>, null, 
@@ -93,15 +93,15 @@ null, <bloodmagic:blood_shard:1>, null,
 <draconicevolution:chaos_shard:3>, null, <bigreactors:blockludicrite>], 
 
 [null, <bigreactors:mineralanglesite>, null, 
-<contenttweaker:unidentified_plate>, <divinerpg:apalachia_block>, <contenttweaker:unidentified_plate>, 
+<contenttweaker:unidentified_plate>, <contenttweaker:technetium_remains>, <contenttweaker:unidentified_plate>, 
 null, <bigreactors:mineralanglesite>, null], 
 
 [<avaritia:resource:0>, <thebetweenlands:items_misc:39>, <bloodmagic:blood_shard:1>, 
-<divinerpg:apalachia_block>, <avaritia:block_resource:2>, <divinerpg:apalachia_block>, 
+<contenttweaker:technetium_remains>, <avaritia:block_resource:2>, <contenttweaker:technetium_remains>, 
 <bloodmagic:blood_shard:1>, <thebetweenlands:items_misc:39>, <avaritia:resource:0>], 
 
 [null, <bigreactors:mineralanglesite>, null, 
-<contenttweaker:unidentified_plate>, <divinerpg:apalachia_block>, <contenttweaker:unidentified_plate>, 
+<contenttweaker:unidentified_plate>, <contenttweaker:technetium_remains>, <contenttweaker:unidentified_plate>, 
 null, <bigreactors:mineralanglesite>, null], 
 
 [<bigreactors:blockludicrite>, null, <draconicevolution:chaos_shard:3>, 
@@ -118,7 +118,7 @@ null, <avaritia:resource:0>, null,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dustopia_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dustopia_cap>*8, 
 
 [[<avaritia:resource:3>, null, <bigreactors:blockludicrite>, 
 null, <avaritia:resource:0>, null, 
@@ -133,15 +133,15 @@ null, <bloodmagic:blood_shard:1>, null,
 <draconicevolution:chaos_shard:3>, null, <bigreactors:blockludicrite>], 
 
 [null, <bigreactors:mineralanglesite>, null, 
-<contenttweaker:unidentified_plate>, <divinerpg:apalachia_block>, <contenttweaker:unidentified_plate>, 
+<contenttweaker:unidentified_plate>, <contenttweaker:technetium_remains>, <contenttweaker:unidentified_plate>, 
 null, <bigreactors:mineralanglesite>, null], 
 
 [<avaritia:resource:0>, <thebetweenlands:items_misc:39>, <bloodmagic:blood_shard:1>, 
-<divinerpg:apalachia_block>, <aoa3:raxxan_statue>, <divinerpg:apalachia_block>, 
+<contenttweaker:technetium_remains>, <aoa3:raxxan_statue>, <contenttweaker:technetium_remains>, 
 <bloodmagic:blood_shard:1>, <thebetweenlands:items_misc:39>, <avaritia:resource:0>], 
 
 [null, <bigreactors:mineralanglesite>, null, 
-<contenttweaker:unidentified_plate>, <divinerpg:apalachia_block>, <contenttweaker:unidentified_plate>, 
+<contenttweaker:unidentified_plate>, <contenttweaker:technetium_remains>, <contenttweaker:unidentified_plate>, 
 null, <bigreactors:mineralanglesite>, null], 
 
 [<bigreactors:blockludicrite>, null, <draconicevolution:chaos_shard:3>, 
@@ -158,7 +158,7 @@ null, <avaritia:resource:0>, null,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:precasian_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:precasian_cap>*8, 
 
 [[<erebus:gneiss:0>, <erebus:gneiss:0>, <erebus:gneiss:0>, 
 <erebus:gneiss:0>, <erebus:gneiss:0>, <erebus:gneiss:0>, 
@@ -198,7 +198,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:precasian_cap>*4,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:lelyetian_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:lelyetian_cap>*8, 
 
 [[<astralsorcery:itemusabledust:0>, <astralsorcery:itemusabledust:0>, <astralsorcery:itemusabledust:0>, 
 <astralsorcery:itemusabledust:0>, <astralsorcery:itemusabledust:0>, <astralsorcery:itemusabledust:0>, 
@@ -238,7 +238,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:lelyetian_cap>*4,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:barathos_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:barathos_cap>*8, 
 
 [[<aether_legacy:dungeon_block:0>, <aether_legacy:dungeon_block:0>, <aether_legacy:dungeon_block:0>, 
 <aether_legacy:dungeon_block:0>, <aether_legacy:dungeon_block:0>, <aether_legacy:dungeon_block:0>, 
@@ -278,7 +278,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:barathos_cap>*4,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:creeponian_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:creeponian_cap>*8, 
 
 [[<minecraft:skull:4>, <minecraft:skull:4>, <minecraft:skull:4>, 
 <minecraft:skull:4>, <minecraft:skull:4>, <minecraft:skull:4>, 
@@ -318,7 +318,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:creeponian_cap>*4,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:deepland_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:deepland_cap>*8, 
 
 [[<environmentaltech:mica>, <environmentaltech:mica>, <environmentaltech:mica>, 
 <environmentaltech:mica>, <environmentaltech:mica>, <environmentaltech:mica>, 
@@ -358,7 +358,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:deepland_cap>*4,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:abyssal_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:abyssal_cap>*8, 
 
 [[<twilightforest:carminite>, <twilightforest:carminite>, <twilightforest:carminite>, 
 <twilightforest:carminite>, <twilightforest:carminite>, <twilightforest:carminite>, 
@@ -405,7 +405,7 @@ recipes.addShaped(<contenttweaker:heart_of_darkness>,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:candyland_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:candyland_cap>*8, 
 [[<aoa3:cotton_candor_statue>, <thaumcraft:inlay>, <thaumcraft:inlay>, 
 <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, 
 <thaumcraft:inlay>, <thaumcraft:inlay>, <aoa3:cotton_candor_statue>], 
@@ -444,7 +444,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:candyland_cap>*4,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:celeve_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:celeve_cap>*8, 
 [[<aoa3:gyro_statue>, <thaumcraft:inlay>, <thaumcraft:inlay>, 
 <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, 
 <thaumcraft:inlay>, <thaumcraft:inlay>, <aoa3:gyro_statue>], 
@@ -483,7 +483,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:celeve_cap>*4,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:gardencia_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:gardencia_cap>*8, 
 [[<aoa3:vinocorne_statue>, <thaumcraft:inlay>, <thaumcraft:inlay>, 
 <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, 
 <thaumcraft:inlay>, <thaumcraft:inlay>, <aoa3:vinocorne_statue>], 
@@ -522,7 +522,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:gardencia_cap>*4,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:crystevia_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:crystevia_cap>*8, 
 [[<aoa3:crystocore_statue>, <thaumcraft:inlay>, <thaumcraft:inlay>, 
 <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, 
 <thaumcraft:inlay>, <thaumcraft:inlay>, <aoa3:crystocore_statue>], 
@@ -561,7 +561,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:crystevia_cap>*4,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:haven_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:haven_cap>*8, 
 [[<aoa3:guardian_statue>, <thaumcraft:inlay>, <thaumcraft:inlay>, 
 <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, 
 <thaumcraft:inlay>, <thaumcraft:inlay>, <aoa3:guardian_statue>], 
@@ -600,7 +600,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:haven_cap>*4,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:iromine_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:iromine_cap>*8, 
 [[<aoa3:silverfoot_statue>, <thaumcraft:inlay>, <thaumcraft:inlay>, 
 <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, 
 <thaumcraft:inlay>, <thaumcraft:inlay>, <aoa3:silverfoot_statue>], 
@@ -639,7 +639,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:iromine_cap>*4,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mysterium_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mysterium_cap>*8, 
 [[<aoa3:king_shroomus_statue>, <thaumcraft:inlay>, <thaumcraft:inlay>, 
 <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, 
 <thaumcraft:inlay>, <thaumcraft:inlay>, <aoa3:king_shroomus_statue>], 
@@ -678,7 +678,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mysterium_cap>*4,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:voxponds_cap>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:voxponds_cap>*8, 
 [[<aoa3:voxxulon_statue>, <thaumcraft:inlay>, <thaumcraft:inlay>, 
 <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, 
 <thaumcraft:inlay>, <thaumcraft:inlay>, <aoa3:voxxulon_statue>], 
@@ -717,10 +717,10 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:voxponds_cap>*4,
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:borean_cap>*4, 
-[[<contenttweaker:mythic_excavation_computer>, <rftools:shield_block4>, null, 
-<nuclearcraft:salt_fission_wall>, <nuclearcraft:salt_fission_wall>, <nuclearcraft:salt_fission_wall>, 
-null, <rftools:shield_block4>, <contenttweaker:mythic_excavation_computer>], 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:borean_cap>*8, 
+[[<contenttweaker:tellurium_crystal>, <rftools:shield_block4>, null, 
+<contenttweaker:antimony_crystal>, <nuclearcraft:salt_fission_wall>, <contenttweaker:antimony_crystal>, 
+null, <rftools:shield_block4>, <contenttweaker:tellurium_crystal>], 
 
 [<rftools:shield_block4>, <aoa3:hydrolisk_statue>, <nuclearcraft:californium:0>, 
 <draconicevolution:energy_crystal:2>, <draconicevolution:energy_crystal:2>, <draconicevolution:energy_crystal:2>, 
@@ -730,17 +730,17 @@ null, <rftools:shield_block4>, <contenttweaker:mythic_excavation_computer>],
 null, null, null, 
 null, <nuclearcraft:californium:0>, null], 
 
-[<nuclearcraft:salt_fission_wall>, <draconicevolution:energy_crystal:2>, null, 
+[<contenttweaker:antimony_crystal>, <draconicevolution:energy_crystal:2>, null, 
 <extrautils2:drum:3>, <modularmachinery:blockcasing:0>, <extrautils2:drum:3>, 
-null, <draconicevolution:energy_crystal:2>, <nuclearcraft:salt_fission_wall>], 
+null, <draconicevolution:energy_crystal:2>, <contenttweaker:antimony_crystal>], 
 
 [<nuclearcraft:salt_fission_wall>, <draconicevolution:energy_crystal:2>, null, 
-<modularmachinery:blockcasing:0>, <techreborn:solar_panel:3>, <modularmachinery:blockcasing:0>, 
+<modularmachinery:blockcasing:0>, <contenttweaker:mythic_excavation_computer>, <modularmachinery:blockcasing:0>, 
 null, <draconicevolution:energy_crystal:2>, <nuclearcraft:salt_fission_wall>], 
 
-[<nuclearcraft:salt_fission_wall>, <draconicevolution:energy_crystal:2>, null, 
+[<contenttweaker:antimony_crystal>, <draconicevolution:energy_crystal:2>, null, 
 <extrautils2:drum:3>, <modularmachinery:blockcasing:0>, <extrautils2:drum:3>, 
-null, <draconicevolution:energy_crystal:2>, <nuclearcraft:salt_fission_wall>], 
+null, <draconicevolution:energy_crystal:2>, <contenttweaker:antimony_crystal>], 
 
 [null, <nuclearcraft:californium:0>, null, 
 null, null, null, 
@@ -750,16 +750,16 @@ null, <nuclearcraft:californium:0>, null],
 <draconicevolution:energy_crystal:2>, <draconicevolution:energy_crystal:2>, <draconicevolution:energy_crystal:2>, 
 <nuclearcraft:californium:0>, <aoa3:dracyon_statue>, <rftools:shield_block4>], 
 
-[<contenttweaker:mythic_excavation_computer>, <rftools:shield_block4>, null, 
-<nuclearcraft:salt_fission_wall>, <nuclearcraft:salt_fission_wall>, <nuclearcraft:salt_fission_wall>, 
-null, <rftools:shield_block4>, <contenttweaker:mythic_excavation_computer>]]);  
+[<contenttweaker:tellurium_crystal>, <rftools:shield_block4>, null, 
+<contenttweaker:antimony_crystal>, <nuclearcraft:salt_fission_wall>, <contenttweaker:antimony_crystal>, 
+null, <rftools:shield_block4>, <contenttweaker:tellurium_crystal>]]);  
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:runador_cap>*4, 
-[[<contenttweaker:mythic_excavation_computer>, <rftools:shield_block4>, null, 
-<nuclearcraft:salt_fission_wall>, <nuclearcraft:salt_fission_wall>, <nuclearcraft:salt_fission_wall>, 
-null, <rftools:shield_block4>, <contenttweaker:mythic_excavation_computer>], 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:runador_cap>*8, 
+[[<contenttweaker:tellurium_crystal>, <rftools:shield_block4>, null, 
+<contenttweaker:antimony_crystal>, <nuclearcraft:salt_fission_wall>, <contenttweaker:antimony_crystal>, 
+null, <rftools:shield_block4>, <contenttweaker:tellurium_crystal>], 
 
 [<rftools:shield_block4>, <aoa3:clunkhead_statue>, <nuclearcraft:californium:0>, 
 <draconicevolution:energy_crystal:2>, <draconicevolution:energy_crystal:2>, <draconicevolution:energy_crystal:2>, 
@@ -769,17 +769,17 @@ null, <rftools:shield_block4>, <contenttweaker:mythic_excavation_computer>],
 null, null, null, 
 null, <nuclearcraft:californium:0>, null], 
 
-[<nuclearcraft:salt_fission_wall>, <draconicevolution:energy_crystal:2>, null, 
+[<contenttweaker:antimony_crystal>, <draconicevolution:energy_crystal:2>, null, 
 <extrautils2:drum:3>, <modularmachinery:blockcasing:0>, <extrautils2:drum:3>, 
-null, <draconicevolution:energy_crystal:2>, <nuclearcraft:salt_fission_wall>], 
+null, <draconicevolution:energy_crystal:2>, <contenttweaker:antimony_crystal>], 
 
 [<nuclearcraft:salt_fission_wall>, <draconicevolution:energy_crystal:2>, null, 
-<modularmachinery:blockcasing:0>, <techreborn:solar_panel:3>, <modularmachinery:blockcasing:0>, 
+<modularmachinery:blockcasing:0>, <contenttweaker:mythic_excavation_computer>, <modularmachinery:blockcasing:0>, 
 null, <draconicevolution:energy_crystal:2>, <nuclearcraft:salt_fission_wall>], 
 
-[<nuclearcraft:salt_fission_wall>, <draconicevolution:energy_crystal:2>, null, 
+[<contenttweaker:antimony_crystal>, <draconicevolution:energy_crystal:2>, null, 
 <extrautils2:drum:3>, <modularmachinery:blockcasing:0>, <extrautils2:drum:3>, 
-null, <draconicevolution:energy_crystal:2>, <nuclearcraft:salt_fission_wall>], 
+null, <draconicevolution:energy_crystal:2>, <contenttweaker:antimony_crystal>], 
 
 [null, <nuclearcraft:californium:0>, null, 
 null, null, null, 
@@ -789,16 +789,16 @@ null, <nuclearcraft:californium:0>, null],
 <draconicevolution:energy_crystal:2>, <draconicevolution:energy_crystal:2>, <draconicevolution:energy_crystal:2>, 
 <nuclearcraft:californium:0>, <aoa3:clunkhead_statue>, <rftools:shield_block4>], 
 
-[<contenttweaker:mythic_excavation_computer>, <rftools:shield_block4>, null, 
-<nuclearcraft:salt_fission_wall>, <nuclearcraft:salt_fission_wall>, <nuclearcraft:salt_fission_wall>, 
-null, <rftools:shield_block4>, <contenttweaker:mythic_excavation_computer>]]);  
+[<contenttweaker:tellurium_crystal>, <rftools:shield_block4>, null, 
+<contenttweaker:antimony_crystal>, <nuclearcraft:salt_fission_wall>, <contenttweaker:antimony_crystal>, 
+null, <rftools:shield_block4>, <contenttweaker:tellurium_crystal>]]);  
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:lunalus_cap>*4, 
-[[<contenttweaker:mythic_excavation_computer>, <rftools:shield_block4>, null, 
-<nuclearcraft:salt_fission_wall>, <nuclearcraft:salt_fission_wall>, <nuclearcraft:salt_fission_wall>, 
-null, <rftools:shield_block4>, <contenttweaker:mythic_excavation_computer>], 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:lunalus_cap>*8, 
+[[<contenttweaker:tellurium_crystal>, <rftools:shield_block4>, null, 
+<contenttweaker:antimony_crystal>, <nuclearcraft:salt_fission_wall>, <contenttweaker:antimony_crystal>, 
+null, <rftools:shield_block4>, <contenttweaker:tellurium_crystal>], 
 
 [<rftools:shield_block4>, <aoa3:visualent_statue>, <nuclearcraft:californium:0>, 
 <draconicevolution:energy_crystal:2>, <draconicevolution:energy_crystal:2>, <draconicevolution:energy_crystal:2>, 
@@ -808,17 +808,17 @@ null, <rftools:shield_block4>, <contenttweaker:mythic_excavation_computer>],
 null, null, null, 
 null, <nuclearcraft:californium:0>, null], 
 
-[<nuclearcraft:salt_fission_wall>, <draconicevolution:energy_crystal:2>, null, 
+[<contenttweaker:antimony_crystal>, <draconicevolution:energy_crystal:2>, null, 
 <extrautils2:drum:3>, <modularmachinery:blockcasing:0>, <extrautils2:drum:3>, 
-null, <draconicevolution:energy_crystal:2>, <nuclearcraft:salt_fission_wall>], 
+null, <draconicevolution:energy_crystal:2>, <contenttweaker:antimony_crystal>], 
 
 [<nuclearcraft:salt_fission_wall>, <draconicevolution:energy_crystal:2>, null, 
-<modularmachinery:blockcasing:0>, <techreborn:solar_panel:3>, <modularmachinery:blockcasing:0>, 
+<modularmachinery:blockcasing:0>, <contenttweaker:mythic_excavation_computer>, <modularmachinery:blockcasing:0>, 
 null, <draconicevolution:energy_crystal:2>, <nuclearcraft:salt_fission_wall>], 
 
-[<nuclearcraft:salt_fission_wall>, <draconicevolution:energy_crystal:2>, null, 
+[<contenttweaker:antimony_crystal>, <draconicevolution:energy_crystal:2>, null, 
 <extrautils2:drum:3>, <modularmachinery:blockcasing:0>, <extrautils2:drum:3>, 
-null, <draconicevolution:energy_crystal:2>, <nuclearcraft:salt_fission_wall>], 
+null, <draconicevolution:energy_crystal:2>, <contenttweaker:antimony_crystal>], 
 
 [null, <nuclearcraft:californium:0>, null, 
 null, null, null, 
@@ -828,6 +828,6 @@ null, <nuclearcraft:californium:0>, null],
 <draconicevolution:energy_crystal:2>, <draconicevolution:energy_crystal:2>, <draconicevolution:energy_crystal:2>, 
 <nuclearcraft:californium:0>, <aoa3:visualent_statue>, <rftools:shield_block4>], 
 
-[<contenttweaker:mythic_excavation_computer>, <rftools:shield_block4>, null, 
-<nuclearcraft:salt_fission_wall>, <nuclearcraft:salt_fission_wall>, <nuclearcraft:salt_fission_wall>, 
-null, <rftools:shield_block4>, <contenttweaker:mythic_excavation_computer>]]);  
+[<contenttweaker:tellurium_crystal>, <rftools:shield_block4>, null, 
+<contenttweaker:antimony_crystal>, <nuclearcraft:salt_fission_wall>, <contenttweaker:antimony_crystal>, 
+null, <rftools:shield_block4>, <contenttweaker:tellurium_crystal>]]);  

@@ -1,16 +1,36 @@
 import mods.modularmachinery.RecipeBuilder;
 
+mods.nuclearcraft.infuser.addRecipe([<thermalfoundation:material:136>*1, <fluid:atomic_nuclei>*600, <contenttweaker:positively_charged_mithril>]);
+
+mods.nuclearcraft.infuser.addRecipe([<thermalfoundation:material:136>*1, <fluid:electrons>*600, <contenttweaker:negatively_charged_mithril>]);
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:negatively_charged_mithril>, <contenttweaker:positively_charged_mithril>, <contenttweaker:superconducting_mithril>*2]);
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:linear_accelerator_tube>*2, 
 [[<nuclearcraft:fusion_electromagnet_idle>, <contenttweaker:arc_reactor_coil>, <techreborn:fusion_coil>, <contenttweaker:arc_reactor_coil>, <nuclearcraft:fusion_electromagnet_idle>], 
 [<nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>], 
-[<thermaldynamics:duct_0:5>, <techreborn:fusion_coil>, <thermaldynamics:duct_0:5>, <techreborn:fusion_coil>, <thermaldynamics:duct_0:5>], 
+[<thermaldynamics:duct_0:5>, <techreborn:part:17>, <thermaldynamics:duct_0:5>, <techreborn:part:17>, <thermaldynamics:duct_0:5>], 
+[<nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>], 
+[<nuclearcraft:fusion_electromagnet_idle>, <contenttweaker:arc_reactor_coil>, <techreborn:fusion_coil>, <contenttweaker:arc_reactor_coil>, <nuclearcraft:fusion_electromagnet_idle>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:linear_accelerator_tube>*4, 
+[[<nuclearcraft:fusion_electromagnet_idle>, <contenttweaker:arc_reactor_coil>, <techreborn:fusion_coil>, <contenttweaker:arc_reactor_coil>, <nuclearcraft:fusion_electromagnet_idle>], 
+[<nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>], 
+[<thermaldynamics:duct_0:5>, <techreborn:part:17>, <contenttweaker:superconducting_mithril>, <techreborn:part:17>, <thermaldynamics:duct_0:5>], 
 [<nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>, <nuclearcraft:cooler:10>], 
 [<nuclearcraft:fusion_electromagnet_idle>, <contenttweaker:arc_reactor_coil>, <techreborn:fusion_coil>, <contenttweaker:arc_reactor_coil>, <nuclearcraft:fusion_electromagnet_idle>]]);  
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:accelerator_tube>*4, 
 [[<nuclearcraft:fusion_electromagnet_idle>, <contenttweaker:arc_reactor_coil>, <techreborn:fusion_coil>, <contenttweaker:arc_reactor_coil>, <nuclearcraft:fusion_electromagnet_idle>], 
 [<nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>], 
-[<thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>], 
+[<thermaldynamics:duct_0:5>, <techreborn:part:17>, <thermaldynamics:duct_0:5>, <techreborn:part:17>, <thermaldynamics:duct_0:5>], 
+[<nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>], 
+[<nuclearcraft:fusion_electromagnet_idle>, <contenttweaker:arc_reactor_coil>, <techreborn:fusion_coil>, <contenttweaker:arc_reactor_coil>, <nuclearcraft:fusion_electromagnet_idle>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:accelerator_tube>*8, 
+[[<nuclearcraft:fusion_electromagnet_idle>, <contenttweaker:arc_reactor_coil>, <techreborn:fusion_coil>, <contenttweaker:arc_reactor_coil>, <nuclearcraft:fusion_electromagnet_idle>], 
+[<nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>], 
+[<thermaldynamics:duct_0:5>, <techreborn:part:17>, <contenttweaker:superconducting_mithril>, <techreborn:part:17>, <thermaldynamics:duct_0:5>], 
 [<nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>, <nuclearcraft:cooler:9>], 
 [<nuclearcraft:fusion_electromagnet_idle>, <contenttweaker:arc_reactor_coil>, <techreborn:fusion_coil>, <contenttweaker:arc_reactor_coil>, <nuclearcraft:fusion_electromagnet_idle>]]);  
 
@@ -21,15 +41,28 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:experiment_casing>
 [<nuclearcraft:fusion_electromagnet_idle>, <materialpart:vibranium_alloy:gear>, <contenttweaker:magnetic_monopole>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:fusion_electromagnet_idle>], 
 [<nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:fusion_electromagnet_idle>, <contenttweaker:arc_reactor_coil>, <nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:fusion_electromagnet_idle>]]);  
 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:experiment_casing>*2, 
+[[<nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:fusion_electromagnet_idle>, <contenttweaker:arc_reactor_coil>, <nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:fusion_electromagnet_idle>], 
+[<nuclearcraft:fusion_electromagnet_idle>, <materialpart:vibranium_alloy:gear>, <contenttweaker:magnetic_monopole>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:fusion_electromagnet_idle>], 
+[<contenttweaker:superconducting_mithril>, <contenttweaker:magnetic_monopole>, <appliedenergistics2:controller>, <contenttweaker:magnetic_monopole>, <contenttweaker:superconducting_mithril>], 
+[<nuclearcraft:fusion_electromagnet_idle>, <materialpart:vibranium_alloy:gear>, <contenttweaker:magnetic_monopole>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:fusion_electromagnet_idle>], 
+[<nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:fusion_electromagnet_idle>, <contenttweaker:arc_reactor_coil>, <nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:fusion_electromagnet_idle>]]);  
+
 recipes.remove(<nuclearcraft:accelerator_electromagnet_idle>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:accelerator_electromagnet_idle>*8, 
 [[<contenttweaker:awakened_electromagnet>, <nuclearcraft:part:3>, <nuclearcraft:part:3>, <nuclearcraft:part:3>, <contenttweaker:awakened_electromagnet>], 
 [<nuclearcraft:part:3>, <nuclearcraft:part:5>, <nuclearcraft:part:5>, <nuclearcraft:part:5>, <nuclearcraft:part:3>], 
-[<nuclearcraft:part:3>, <nuclearcraft:part:5>, <appliedenergistics2:controller>, <nuclearcraft:part:5>, <nuclearcraft:part:3>], 
+[<nuclearcraft:part:3>, <nuclearcraft:part:5>, <techreborn:part:17>, <nuclearcraft:part:5>, <nuclearcraft:part:3>], 
 [<nuclearcraft:part:3>, <nuclearcraft:part:5>, <nuclearcraft:part:5>, <nuclearcraft:part:5>, <nuclearcraft:part:3>], 
 [<contenttweaker:awakened_electromagnet>, <nuclearcraft:part:3>, <nuclearcraft:part:3>, <nuclearcraft:part:3>, <contenttweaker:awakened_electromagnet>]]);  
 
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:accelerator_electromagnet_idle>*14, 
+[[<contenttweaker:awakened_electromagnet>, <nuclearcraft:part:3>, <nuclearcraft:part:3>, <nuclearcraft:part:3>, <contenttweaker:awakened_electromagnet>], 
+[<nuclearcraft:part:3>, <nuclearcraft:part:5>, <nuclearcraft:part:5>, <nuclearcraft:part:5>, <nuclearcraft:part:3>], 
+[<contenttweaker:superconducting_mithril>, <nuclearcraft:part:5>, <techreborn:part:17>, <nuclearcraft:part:5>, <contenttweaker:superconducting_mithril>], 
+[<nuclearcraft:part:3>, <nuclearcraft:part:5>, <nuclearcraft:part:5>, <nuclearcraft:part:5>, <nuclearcraft:part:3>], 
+[<contenttweaker:awakened_electromagnet>, <nuclearcraft:part:3>, <nuclearcraft:part:3>, <nuclearcraft:part:3>, <contenttweaker:awakened_electromagnet>]]);  
 
 val accelerator1 = RecipeBuilder.newBuilder("accelerator1","particle_accelerator",100);
 accelerator1.addEnergyPerTickInput(1000000);

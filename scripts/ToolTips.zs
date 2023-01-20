@@ -138,11 +138,13 @@
 
 <abyssalcraft:coraliumstone>.addTooltip(format.red("Coralium Infused Stone is Craftable"));
 
-<abyssalcraft:shadowfragment>.addTooltip(format.red("Shadow Creature spawn eggs are craftable"));
+<abyssalcraft:shadowfragment>.addTooltip(format.red("Dropped by shadow monsters, found in darklands biomes"));
+<abyssalcraft:shadowshard>.addTooltip(format.red("Dropped by shadow monsters, found in darklands biomes"));
+<abyssalcraft:shadowgem>.addTooltip(format.red("Dropped by shadow monsters, found in darklands biomes"));
 
-<abyssalcraft:shadowshard>.addTooltip(format.red("Shadow Creature spawn eggs are craftable"));
-
-<abyssalcraft:shadowgem>.addTooltip(format.red("Shadow Creature spawn eggs are craftable"));
+<abyssalcraft:shadowfragment>.addTooltip(format.red("Shadow Creature spawn eggs are craftable if you're unlucky"));
+<abyssalcraft:shadowshard>.addTooltip(format.red("Shadow Creature spawn eggs are craftable if you're unlucky"));
+<abyssalcraft:shadowgem>.addTooltip(format.red("Shadow Creature spawn eggs are craftable if you're unlucky"));
 
 <abyssalcraft:shoggothflesh:0>.addTooltip(format.red("Dropped by Shoggoths in their lair found in the Overworld"));
 
@@ -992,7 +994,11 @@
 
 <bewitchment:dragons_blood_resin>.addTooltip(format.red("Use a boline on dragon's blood tree"));
 
-<contenttweaker:muon_crystal>.addTooltip(format.red("Do youself a favor, set this on autocrafting, automation is not worth it"));
+<contenttweaker:muon_crystal>.addTooltip(format.red("You can autocraft and save on accelerators"));
+<contenttweaker:muon_crystal>.addTooltip(format.red("You can automate and you'll have more"));
+
+<contenttweaker:strings_crystal>.addTooltip(format.red("You can autocraft and save on accelerators"));
+<contenttweaker:strings_crystal>.addTooltip(format.red("You can automate and you'll have more"));
 
 <contenttweaker:serpentine>.addTooltip(format.red("Found on a planet (or moon) in the sol system - mined using a netherite tinker's tool - found near iron blocks"));
 
@@ -1095,8 +1101,6 @@
 <rftools:builder>.addTooltip(format.red("use with a quarry card to mine automatically"));
 
 <environmentaltech:litherite_crystal>.addTooltip(format.red("You should get started with a builder in quarry mod, crafting these will take a while..."));
-
-<contenttweaker:golem_core>.addTooltip(format.red("Found at the top of battle towers"));
 
 <contenttweaker:dimensional_ingot>.addTooltip(format.red("Found in the deep dark"));
 
@@ -1370,7 +1374,7 @@
 
 <contenttweaker:whispering_meatball>.addTooltip(format.red("Found on Pixonia - Reusable in recipe"));
 
-<contenttweaker:everlasting_fusor>.addTooltip(format.red("Reusable in recipes"));
+<contenttweaker:everlasting_fusor>.addTooltip(format.red("Reusable in crafting recipe"));
 
 <simplevoidworld:portal>.addTooltip(format.red("Many thanks to Popi, ChaosStrikez, and Fios for making the skybox possible!"));
 
@@ -1383,3 +1387,91 @@
 <contenttweaker:sympan_spirit>.addTooltip(format.red("Reusable"));
 
 <contenttweaker:matrix_ore>.addTooltip(format.red("Use the ore excavator in Shyrelands, Matrix vein"));
+
+<contenttweaker:everlasting_fusor>.addTooltip(format.red("Make four of these"));
+
+<materialpart:abyssite:ingot>.addTooltip(format.red("You can pump plasma out of a fusion reactor"));
+
+<materialpart:abyssite:ingot>.addTooltip(format.red("Use redstone clocks to alternate when pump and fusion reactor are on"));
+
+<twilightforest:cube_talisman>.addTooltip(format.red("Dropped by Roving Cubes"));
+
+<aoa3:primordial_staff>.addTooltip(format.red("Reusable in recipe"));
+
+<contenttweaker:technetium_remains>.addTooltip(format.red("Can be multiplied in an infinite loop"));
+
+<ore:dragonScaleBlock>.addTooltip(format.red("Automate using the Aeldunari"));
+
+<contenttweaker:lanthanum_salt>.addTooltip(format.red("If you don't want to automate it, batch craft a large amount"));
+
+<contenttweaker:tennessine_gem>.addTooltip(format.red("Throw the various lumps into an infernal furnace"));
+
+<contenttweaker:tennessine_gem>.addTooltip(format.red("The higher the level, the higher the chance"));
+
+<contenttweaker:scale_of_the_ancient_heart>.addTooltip(format.red("Use the call of the arbiter"));
+
+<contenttweaker:pure_egg>.addTooltip(format.red("Found on Vibe"));
+
+<contenttweaker:star_core>.addTooltip(format.red("Stand on top of a sednanite stabilizer"));
+
+<contenttweaker:pulsar_core>.addTooltip(format.red("Stand on top of a sednanite stabilizer"));
+
+<contenttweaker:black_hole_core>.addTooltip(format.red("Stand on top of a sednanite stabilizer"));
+
+<contenttweaker:miniature_black_hole>.addTooltip(format.red("Use the black hole core"));
+
+<contenttweaker:miniature_pulsar>.addTooltip(format.red("Use the pulsar core"));
+
+<contenttweaker:miniature_star>.addTooltip(format.red("Use the star core"));
+
+<contenttweaker:defined_block>.addTooltip(format.red("You don't have to craft this if you don't want to..."));
+
+<contenttweaker:vibrating_stone>.addTooltip(format.red("Found on Vibe"));
+
+<contenttweaker:resonating_stone>.addTooltip(format.red("Found on Apichisi"));
+
+<contenttweaker:superconducting_mithril>.addTooltip(format.red("Automate this, to make the next accelerators easier"));
+
+<bloodmagic:soul_forge>.addTooltip(format.red("You can ignore one of the recipes"));
+
+<enderio:block_travel_anchor>.addTooltip(format.red("Teleportation! Communicate between each other at short range"));
+
+<enderio:item_travel_staff>.addTooltip(format.red("Teleportation! Moves a few blocks, or teleports to travel anchors"));
+
+<contenttweaker:fragment_of_the_arbiter>.addTooltip(format.red("Found on luna"));
+
+<contenttweaker:fragment_of_the_arbiter>.addTooltip(format.red("reusable in recipes to make moon turf"));
+
+<integrateddynamics:variablestore>.addTooltip(format.red("Use command /integrateddynamics networkdiagnostics to troubleshoot lag"));
+
+<integrateddynamics:variablestore>.addTooltip(format.red("This mod has a low chance to cause bad crashes on servers"));
+
+<contenttweaker:meatball_attuned_crystal>.addTooltip(format.red("Careful, making this causes a lot of radiation!"));
+
+<contenttweaker:meatball_attuned_crystal>.addTooltip(format.red("Whispering starlight can be duped after making the initial batch in a salt reactor"));
+
+<contenttweaker:singularity_master>.addTooltip(format.red("Increases the astral level cap to 40"));
+
+<contenttweaker:draconic_key>.addTooltip(format.red("Increases the astral level cap to 50"));
+
+<contenttweaker:ancient_elven_knowledge>.addTooltip(format.red("Increases the astral level cap to 70"));
+
+<contenttweaker:minor_vethea_binding>.addTooltip(format.red("Increases the astral level cap to 100"));
+
+<aoa3:primed_ghoulasm>.addTooltip(format.red("Use a ghoulasm on a haunting table"));
+
+<aoa3:ghoulasm>.addTooltip(format.red("Dropped by greckon mobs"));
+
+<aoa3:primed_ghoulasm>.addTooltip(format.red("Combine with the right essentia crystals - Greckon will guide you"));
+
+<contenttweaker:ghoul_spirit>.addTooltip(format.red("Start from some ghoulasm - Greckon will guide you"));
+
+<aoa3:dense_rock>.addTooltip(format.red("Dropped by deeplands mobs"));
+
+<contenttweaker:livermorium_sliver>.addTooltip(format.red("Make a runicorn farm"));
+
+<contenttweaker:arcane_prison_key>.addTooltip(format.red("Right click to summon a boss"));
+
+<contenttweaker:unusually_heavy_bone>.addTooltip(format.red("Right click to summon a boss"));
+
+<contenttweaker:recursion_prison_key>.addTooltip(format.red("Callstone"));

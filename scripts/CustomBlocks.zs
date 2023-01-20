@@ -1124,3 +1124,24 @@ matrixore.setBlockResistance(2.5);
 matrixore.setToolClass("pickaxe");
 matrixore.setToolLevel(3);
 matrixore.register();
+
+var sednanitestabilizer = VanillaFactory.createBlock("sednanite_stabilizer", <blockmaterial:iron>);
+sednanitestabilizer.setBlockHardness(1.0);
+sednanitestabilizer.setBlockResistance(2.5);
+sednanitestabilizer.setToolClass("pickaxe");
+sednanitestabilizer.setToolLevel(3);
+sednanitestabilizer.register();
+
+var plasmacannon = VanillaFactory.createBlock("plasma_collider", <blockmaterial:iron>);
+plasmacannon.setBlockHardness(1.0);
+plasmacannon.setBlockResistance(2.5);
+plasmacannon.setToolClass("pickaxe");
+plasmacannon.setToolLevel(3);
+plasmacannon.register();
+
+var plasmainject = VanillaFactory.createBlock("plasma_injector", <blockmaterial:iron>);
+plasmainject.setBlockHardness(1.0);
+plasmainject.setBlockResistance(2.5);
+plasmainject.setToolClass("pickaxe");
+plasmainject.setToolLevel(3);
+plasmainject.register();

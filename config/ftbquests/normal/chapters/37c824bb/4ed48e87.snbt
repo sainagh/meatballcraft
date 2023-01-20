@@ -1,12 +1,12 @@
 {
 	title: "My servo is better than yours!",
-	x: 57.5d,
-	y: -1.5d,
+	x: 65.0d,
+	y: 0.0d,
 	text: [
 		"This servo should allow me to fabricate machines in a more effective way..."
 	],
 	dependencies: [
-		"ef7ba920"
+		"da715a64"
 	],
 	hide: true,
 	tasks: [{

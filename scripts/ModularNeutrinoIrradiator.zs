@@ -11,6 +11,11 @@ recipes.addShaped(<contenttweaker:neutronium_casing>*4,
 [<modularmachinery:blockcasing:0>, <draconicevolution:awakened_core>, <modularmachinery:blockcasing:0>],
 [<avaritia:resource:4>, <openblocks:tank>.withTag({tank: {FluidName: "fluidnitrodiesel", Amount: 16000}}), <avaritia:resource:4>]]);
 
+recipes.addShaped(<contenttweaker:neutronium_casing>*8,
+[[<avaritia:resource:4>, <contenttweaker:superconducting_mithril>, <avaritia:resource:4>],
+[<modularmachinery:blockcasing:0>, <draconicevolution:awakened_core>, <modularmachinery:blockcasing:0>],
+[<avaritia:resource:4>, <openblocks:tank>.withTag({tank: {FluidName: "fluidnitrodiesel", Amount: 16000}}), <avaritia:resource:4>]]);
+
 val neutroniumcannon = RecipeBuilder.newBuilder("neutroniumcannon","neutronium_cannon",100);
 neutroniumcannon.addItemInput(<avaritia:resource:2>);
 neutroniumcannon.addFluidOutput(<fluid:netrino_plasma>*100);

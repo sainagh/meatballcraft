@@ -30,7 +30,7 @@ recipes.addShaped(<contenttweaker:double_compressed_realgar>,
 [<contenttweaker:compressed_realgar>, <contenttweaker:compressed_realgar>, <contenttweaker:compressed_realgar>],
 [<contenttweaker:compressed_realgar>, <contenttweaker:compressed_realgar>, <contenttweaker:compressed_realgar>]]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_conduit>, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_conduit>*4, 
 [[<environmentaltech:nano_cont_ranged_6>, <contenttweaker:mirroring_mithminite_prism>, <astralsorcery:blockcelestialgateway>, <contenttweaker:quantum_shard>, <environmentaltech:nano_cont_ranged_6>], 
 [<contenttweaker:quantum_shard>, <contenttweaker:botanical_pillar>, <extrabees:alveary:4>, <contenttweaker:botanical_pillar>, <contenttweaker:mirroring_mithminite_prism>], 
 [<astralsorcery:blockcelestialgateway>, <contenttweaker:defined_gear>, <contenttweaker:instant_power_junction>, <contenttweaker:defined_gear>, <astralsorcery:blockcelestialgateway>], 
@@ -140,7 +140,7 @@ infinityfurnacerefractall.build();
 
 mods.nuclearcraft.extractor.addRecipe([<aoa3:shyre_weed>, <forestry:mulch>, <fluid:shyre_weed_oil>*25, 0.1, 0.9, 0.2]);
 
-mods.nuclearcraft.irradiator.addRecipe([<fluid:shyre_weed_oil>*100, <fluid:aerotheum>*500, <fluid:energized_mulch>*500, <fluid:seed_oil>*100, 0.9, 0.4, 0.1]);
+mods.nuclearcraft.irradiator.addRecipe([<fluid:shyre_weed_oil>*100, <fluid:neutron>*50, <fluid:energized_mulch>*500, <fluid:seed_oil>*100, 0.9, 0.4, 0.1]);
 
 mods.nuclearcraft.crystallizer.addRecipe([<fluid:energized_mulch>*250, <contenttweaker:shyre_mulch>, 0.1, 0.9, 0.5]);
 
@@ -163,7 +163,7 @@ corruptedlibrarydefinedengine.addItemInput(<contenttweaker:defined_gear>*4);
 corruptedlibrarydefinedengine.addItemOutput(<contenttweaker:defined_engine>);
 corruptedlibrarydefinedengine.build();
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:irradiator_casing>*10, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:irradiator_casing>*12, 
 [[<contenttweaker:high_refraction_alloy_ingot>, <contenttweaker:infinity_plate>, <contenttweaker:radiation_crafter>, <contenttweaker:infinity_plate>, <contenttweaker:high_refraction_alloy_ingot>], 
 [<contenttweaker:infinity_plate>, <extendedcrafting:storage:4>, <nuclearcraft:fusion_core>, <extendedcrafting:storage:4>, <contenttweaker:infinity_plate>], 
 [<contenttweaker:radiation_crafter>, <extracells:storage.physical:3>, <contenttweaker:living_case>, <extracells:storage.physical:3>, <contenttweaker:radiation_crafter>], 
@@ -189,20 +189,9 @@ val irradiationultimate = RecipeBuilder.newBuilder("irradiationultimate","dyson_
 irradiationultimate.addEnergyPerTickInput(500000);
 irradiationultimate.addGridPowerInput(500);
 irradiationultimate.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationultimate.addFluidInput(<fluid:magnatar_stabilizer>*200);
 irradiationultimate.addItemInput(<contenttweaker:defined_ingot>);
 irradiationultimate.addItemInput(<avaritia:resource:5>*4);
-irradiationultimate.addItemInput(<materialpart:chaos:ingot>*10);
-irradiationultimate.addItemInput(<contenttweaker:twilight_alloy_ingot>);
-irradiationultimate.addItemInput(<contenttweaker:abyssal_alloy_ingot>);
-irradiationultimate.addItemInput(<contenttweaker:between_alloy_ingot>);
-irradiationultimate.addItemInput(<contenttweaker:thermionic_alloy_ingot>);
-irradiationultimate.addItemInput(<contenttweaker:high_refraction_alloy_ingot>);
-irradiationultimate.addItemInput(<divinerpg:divine_shards>*2);
-irradiationultimate.addItemInput(<thaumadditions:mithminite_ingot>);
-irradiationultimate.addItemInput(<botania:manaresource:14>);
-irradiationultimate.addItemInput(<contenttweaker:starmetal_alloy_ingot>);
-irradiationultimate.addItemInput(<thermalfoundation:material:136>*64);
-irradiationultimate.addItemInput(<abyssalcraft:ethaxiumingot>*4);
 irradiationultimate.addItemOutput(<avaritia:resource:6>);
 irradiationultimate.build();
 
@@ -213,18 +202,6 @@ irradiationultimate1.addFluidInput(<fluid:hyperdense_plasma>*100);
 irradiationultimate1.addFluidInput(<fluid:magnatar_stabilizer>*200);
 irradiationultimate1.addItemInput(<contenttweaker:defined_ingot>);
 irradiationultimate1.addItemInput(<avaritia:resource:5>*4);
-irradiationultimate1.addItemInput(<materialpart:chaos:ingot>*10);
-irradiationultimate1.addItemInput(<contenttweaker:twilight_alloy_ingot>);
-irradiationultimate1.addItemInput(<contenttweaker:abyssal_alloy_ingot>);
-irradiationultimate1.addItemInput(<contenttweaker:between_alloy_ingot>);
-irradiationultimate1.addItemInput(<contenttweaker:thermionic_alloy_ingot>);
-irradiationultimate1.addItemInput(<contenttweaker:high_refraction_alloy_ingot>);
-irradiationultimate1.addItemInput(<divinerpg:divine_shards>*2);
-irradiationultimate1.addItemInput(<thaumadditions:mithminite_ingot>);
-irradiationultimate1.addItemInput(<botania:manaresource:14>);
-irradiationultimate1.addItemInput(<contenttweaker:starmetal_alloy_ingot>);
-irradiationultimate1.addItemInput(<thermalfoundation:material:136>*64);
-irradiationultimate1.addItemInput(<abyssalcraft:ethaxiumingot>*4);
 irradiationultimate1.addItemInput(<contenttweaker:infinity_egg>);
 irradiationultimate1.addItemOutput(<avaritia:resource:6>*12);
 irradiationultimate1.build();
@@ -268,42 +245,6 @@ recipes.addShaped(<contenttweaker:evil_resonator>,
 [<contenttweaker:resonating_stone>, <enderio:block_death_pouch>, <contenttweaker:resonating_stone>]]);
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:miniature_pulsar>, 
-[[<contenttweaker:deuterium_chunk>, <contenttweaker:deuterium_chunk>, <contenttweaker:deuterium_chunk>, 
-<contenttweaker:hydrogen_chunk>, <contenttweaker:hydrogen_chunk>, <contenttweaker:hydrogen_chunk>, 
-<contenttweaker:tritium_chunk>, <contenttweaker:tritium_chunk>, <contenttweaker:tritium_chunk>], 
-
-[<contenttweaker:deuterium_chunk>, <contenttweaker:reinforced_shyre_bricks>, null, 
-null, <contenttweaker:muon_crystal>, null, 
-null, <contenttweaker:reinforced_shyre_bricks>, <contenttweaker:tritium_chunk>], 
-
-[<contenttweaker:deuterium_chunk>, null, <contenttweaker:mythic_excavation_reactor>, 
-null, <contenttweaker:strings_crystal>, null, 
-<contenttweaker:mythic_excavation_reactor>, null, <contenttweaker:tritium_chunk>], 
-
-[<contenttweaker:hydrogen_chunk>, null, null, 
-<contenttweaker:evil_resonator>, <contenttweaker:nightmare_block>, <contenttweaker:evil_resonator>, 
-null, null, <contenttweaker:hydrogen_chunk>], 
-
-[<contenttweaker:hydrogen_chunk>, <contenttweaker:muon_crystal>, <contenttweaker:strings_crystal>, 
-<contenttweaker:nightmare_block>, <contenttweaker:miniature_star>, <contenttweaker:nightmare_block>, 
-<contenttweaker:strings_crystal>, <contenttweaker:muon_crystal>, <contenttweaker:hydrogen_chunk>], 
-
-[<contenttweaker:hydrogen_chunk>, null, null, 
-<contenttweaker:evil_resonator>, <contenttweaker:nightmare_block>, <contenttweaker:evil_resonator>, 
-null, null, <contenttweaker:hydrogen_chunk>], 
-
-[<contenttweaker:tritium_chunk>, null, <contenttweaker:mythic_excavation_reactor>, 
-null, <contenttweaker:strings_crystal>, null, 
-<contenttweaker:mythic_excavation_reactor>, null, <contenttweaker:deuterium_chunk>], 
-
-[<contenttweaker:tritium_chunk>, <contenttweaker:reinforced_shyre_bricks>, null, 
-null, <contenttweaker:muon_crystal>, null, 
-null, <contenttweaker:reinforced_shyre_bricks>, <contenttweaker:deuterium_chunk>], 
-
-[<contenttweaker:tritium_chunk>, <contenttweaker:tritium_chunk>, <contenttweaker:tritium_chunk>, 
-<contenttweaker:hydrogen_chunk>, <contenttweaker:hydrogen_chunk>, <contenttweaker:hydrogen_chunk>, 
-<contenttweaker:deuterium_chunk>, <contenttweaker:deuterium_chunk>, <contenttweaker:deuterium_chunk>]]);  
 
 
 recipes.addShaped(<contenttweaker:energized_peat>,
@@ -537,108 +478,25 @@ spatialcruchalite.addFluidOutput(<fluid:halite_fluid>*1000);
 spatialcruchalite.build();
 
 
-val haliteshield = RecipeBuilder.newBuilder("haliteshield","dyson_irradiator",200);
-haliteshield.addEnergyPerTickInput(50000000);
-haliteshield.addFluidInput(<fluid:halite_fluid>*2000);
-haliteshield.addAspectInput("herba",50);
-haliteshield.addItemInput(<erebus:bamboo_shield>);
-haliteshield.addItemInput(<divinerpg:apalachia_shield>);
-haliteshield.addItemInput(<erebus:rhino_exoskeleton_shield>);
-haliteshield.addItemInput(<enderio:item_end_steel_shield>);
-haliteshield.addItemInput(<twilightforest:knightmetal_shield>);
-haliteshield.addItemInput(<redstonearsenal:tool.shield_flux>);
-haliteshield.addItemOutput(<divinerpg:halite_shield>);
-haliteshield.build();
+val halitewarrior = RecipeBuilder.newBuilder("halitewarrior","dyson_irradiator",200);
+halitewarrior.addEnergyPerTickInput(50000000);
+halitewarrior.addFluidInput(<fluid:halite_fluid>*2000);
+halitewarrior.addFluidInput(<fluid:magnatar_stabilizer>*2000);
+halitewarrior.addAspectInput("herba",50);
+halitewarrior.addItemInput(<divinerpg:halite_shield>);
+halitewarrior.addItemInput(<divinerpg:halite_blade>);
+halitewarrior.addItemInput(<divinerpg:halite_bow>);
+halitewarrior.addItemInput(<divinerpg:halite_slicer>);
+halitewarrior.addItemInput(<divinerpg:halite_blitz>);
+halitewarrior.addItemInput(<divinerpg:halite_phaser>);
+halitewarrior.addItemInput(<divinerpg:halite_helmet>);
+halitewarrior.addItemInput(<divinerpg:halite_chestplate>);
+halitewarrior.addItemInput(<divinerpg:halite_leggings>);
+halitewarrior.addItemInput(<divinerpg:halite_boots>);
+halitewarrior.addItemOutput(<contenttweaker:halite_warrior>);
+halitewarrior.build();
 
-val halitehelm = RecipeBuilder.newBuilder("halitehelm","dyson_irradiator",200);
-halitehelm.addEnergyPerTickInput(50000000);
-halitehelm.addFluidInput(<fluid:halite_fluid>*2000);
-halitehelm.addAspectInput("herba",50);
-halitehelm.addItemInput(<abyssalcraft:corhelmetp>);
-halitehelm.addItemInput(<abyssalcraft:dreadiumsamuraihelmet>);
-halitehelm.addItemInput(<botania:terrasteelhelm>);
-halitehelm.addItemInput(<divinerpg:kraken_helmet>);
-halitehelm.addItemInput(<erebus:rhino_exoskeleton_helmet>);
-halitehelm.addItemInput(<natura:imp_armor_helmet>);
-halitehelm.addItemOutput(<divinerpg:halite_helmet>);
-halitehelm.build();
-
-val halitesword = RecipeBuilder.newBuilder("halitesword","dyson_irradiator",200);
-halitesword.addEnergyPerTickInput(50000000);
-halitesword.addFluidInput(<fluid:halite_fluid>*2000);
-halitesword.addAspectInput("herba",50);
-halitesword.addItemInput(<projecte:item.pe_rm_katar>);
-halitesword.addItemInput(<divinerpg:scorching_sword>);
-halitesword.addItemInput(<mysticalagriculture:supremium_sword>);
-halitesword.addItemInput(<abyssalcraft:ethaxiumsword>);
-halitesword.addItemInput(<iceandfire:dragonbone_sword_ice>);
-halitesword.addItemInput(<divinerpg:aquatooth_sword>);
-halitesword.addItemOutput(<divinerpg:halite_blade>);
-halitesword.build();
-
-val halitebow = RecipeBuilder.newBuilder("halitebow","dyson_irradiator",200);
-halitebow.addEnergyPerTickInput(50000000);
-halitebow.addFluidInput(<fluid:halite_fluid>*2000);
-halitebow.addAspectInput("herba",50);
-halitebow.addItemInput(<aoa3:justice_bow>);
-halitebow.addItemInput(<aoa3:toxin_bow>);
-halitebow.addItemInput(<aoa3:weaken_bow>);
-halitebow.addItemInput(<botania:crystalbow>);
-halitebow.addItemInput(<iceandfire:dragonbone_bow>);
-halitebow.addItemInput(<mysticalagriculture:supremium_bow>);
-halitebow.addItemOutput(<divinerpg:halite_bow>);
-halitebow.build();
-
-val haliteslicer = RecipeBuilder.newBuilder("haliteslicer","dyson_irradiator",200);
-haliteslicer.addEnergyPerTickInput(50000000);
-haliteslicer.addFluidInput(<fluid:halite_fluid>*2000);
-haliteslicer.addAspectInput("herba",50);
-haliteslicer.addItemInput(<divinerpg:eden_slicer>);
-haliteslicer.addItemInput(<divinerpg:wildwood_slicer>);
-haliteslicer.addItemInput(<divinerpg:apalachia_slicer>);
-haliteslicer.addItemInput(<divinerpg:skythern_slicer>);
-haliteslicer.addItemInput(<divinerpg:mortum_slicer>);
-haliteslicer.addItemOutput(<divinerpg:halite_slicer>*200);
-haliteslicer.build();
-
-val haliteblitz = RecipeBuilder.newBuilder("haliteblitz","dyson_irradiator",200);
-haliteblitz.addEnergyPerTickInput(50000000);
-haliteblitz.addFluidInput(<fluid:halite_fluid>*2000);
-haliteblitz.addAspectInput("herba",50);
-haliteblitz.addItemInput(<divinerpg:eden_blitz>);
-haliteblitz.addItemInput(<divinerpg:wildwood_blitz>);
-haliteblitz.addItemInput(<divinerpg:apalachia_blitz>);
-haliteblitz.addItemInput(<divinerpg:skythern_blitz>);
-haliteblitz.addItemInput(<divinerpg:mortum_blitz>);
-haliteblitz.addItemOutput(<divinerpg:halite_blitz>);
-haliteblitz.build();
-
-val halitephaser = RecipeBuilder.newBuilder("halitephaser","dyson_irradiator",200);
-halitephaser.addEnergyPerTickInput(50000000);
-halitephaser.addFluidInput(<fluid:halite_fluid>*2000);
-halitephaser.addAspectInput("herba",50);
-halitephaser.addItemInput(<divinerpg:eden_phaser>);
-halitephaser.addItemInput(<divinerpg:wildwood_phaser>);
-halitephaser.addItemInput(<divinerpg:apalachia_phaser>);
-halitephaser.addItemInput(<divinerpg:skythern_phaser>);
-halitephaser.addItemInput(<divinerpg:mortum_phaser>);
-halitephaser.addItemOutput(<divinerpg:halite_phaser>);
-halitephaser.build();
-
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:halite_warrior>, 
-[[<divinerpg:halite_slicer>, <divinerpg:halite_slicer>, <divinerpg:halite_slicer>, <divinerpg:halite_slicer>, <divinerpg:halite_slicer>], 
-[<divinerpg:halite_slicer>, <divinerpg:halite_slicer>, <divinerpg:awakened_halite_helmet>, <divinerpg:halite_slicer>, <divinerpg:halite_slicer>], 
-[<divinerpg:halite_slicer>, <divinerpg:halite_blade>, <divinerpg:awakened_halite_chestplate>, <divinerpg:halite_blitz>, <divinerpg:halite_slicer>], 
-[<divinerpg:halite_slicer>, <divinerpg:halite_shield>, <divinerpg:awakened_halite_leggings>, <divinerpg:halite_phaser>, <divinerpg:halite_slicer>], 
-[<divinerpg:halite_slicer>, <divinerpg:halite_slicer>, <divinerpg:awakened_halite_boots>, <divinerpg:halite_slicer>, <divinerpg:halite_slicer>]]);  
-
-
-val dragonfiremagnatar = RecipeBuilder.newBuilder("dragonfiremagnatar","dragonfire_crucible",100);
-dragonfiremagnatar.addFluidInput(<fluid:eternal_dragon_fire>*1000);
-dragonfiremagnatar.addItemInput(<contenttweaker:magnetic_monopole>*4);
-dragonfiremagnatar.addItemInput(<minecraft:bucket>);
-dragonfiremagnatar.addItemOutput(<forge:bucketfilled>.withTag({FluidName: "magnatar_stabilizer", Amount: 1000}));
-dragonfiremagnatar.build();
+mods.nuclearcraft.fusion.addRecipe([<fluid:relativistic_matter>*10, <fluid:technetium>*10, <fluid:magnatar_stabilizer>*100, <fluid:technetium>*10, null, null, 150.0, 155.0, 6556.0]);
 
 val irradiationchaosbuff = RecipeBuilder.newBuilder("irradiationchaosbuff","dyson_irradiator",200);
 irradiationchaosbuff.addEnergyPerTickInput(500000);

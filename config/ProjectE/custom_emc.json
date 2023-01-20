@@ -3751,6 +3751,18 @@
     {
       "item": "abyssalcraft:abyssalsand|0",
       "emc": 1
+    },
+    {
+      "item": "contenttweaker:dysprosium_remains|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:divine_flake|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:ghoul_spirit|0",
+      "emc": 404404
     }
   ]
 }

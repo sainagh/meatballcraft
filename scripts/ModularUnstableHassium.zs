@@ -16,7 +16,7 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<nuclearcraft:alloy:14>,
 mods.techreborn.wireMill.addRecipe(<nuclearcraft:part:13>, 
 <nuclearcraft:alloy:13>, 60, 100);
 
-val expensivecompression = RecipeBuilder.newBuilder("expensivecompression","compression_turbine",1000);
+val expensivecompression = RecipeBuilder.newBuilder("expensivecompression","compression_turbine",80);
 expensivecompression.addFluidInput(<fluid:stellar_alloy>*144);
 expensivecompression.addFluidInput(<fluid:lif>*144);
 expensivecompression.addFluidOutput(<fluid:promethium>*1);
@@ -31,7 +31,7 @@ mods.techreborn.fusionReactor.addRecipe(<thermalfoundation:material:130>,
 
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:unstable_hassium_chunk>, <fluid:unstable_hassium>*144]);
 
-val cheapcompression = RecipeBuilder.newBuilder("cheapcompression","compression_turbine",1000);
+val cheapcompression = RecipeBuilder.newBuilder("cheapcompression","compression_turbine",80);
 cheapcompression.addFluidInput(<fluid:neutron>*10);
 cheapcompression.addFluidInput(<fluid:unstable_hassium>*144);
 cheapcompression.addFluidOutput(<fluid:promethium>*144);

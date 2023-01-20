@@ -1,14 +1,14 @@
 import mods.modularmachinery.RecipeBuilder;
 
 
-val opdra1 = RecipeBuilder.newBuilder("dragoncruc1","dragonfire_crucible",3000);
+val opdra1 = RecipeBuilder.newBuilder("dragoncruc1","dragonfire_crucible",100);
 opdra1.addFluidInput(<fluid:eternal_dragon_fire>*20);
 opdra1.addItemInput(<minecraft:potion>.withTag({Potion: "minecraft:long_fire_resistance"}));
 opdra1.addItemInput(<aoa3:emberstone_ingot>*12);
 opdra1.addItemOutput(<aoa3:hellfire>);
 opdra1.build();
 
-val opdra2 = RecipeBuilder.newBuilder("dragoncruc2","dragonfire_crucible",3000);
+val opdra2 = RecipeBuilder.newBuilder("dragoncruc2","dragonfire_crucible",100);
 opdra2.addFluidInput(<fluid:eternal_dragon_fire>*2000);
 opdra2.addItemInput(<minecraft:glass_bottle>);
 opdra2.addItemInput(<techreborn:ingot:25>*4);
@@ -16,7 +16,7 @@ opdra2.addItemInput(<minecraft:magma>*64);
 opdra2.addItemOutput(<iceandfire:fire_dragon_blood>);
 opdra2.build();
 
-val opdra3 = RecipeBuilder.newBuilder("dragoncruc3","dragonfire_crucible",3000);
+val opdra3 = RecipeBuilder.newBuilder("dragoncruc3","dragonfire_crucible",100);
 opdra3.addFluidInput(<fluid:eternal_dragon_fire>*2000);
 opdra3.addItemInput(<minecraft:glass_bottle>);
 opdra3.addItemInput(<techreborn:ingot:25>*4);
@@ -24,14 +24,14 @@ opdra3.addItemInput(<minecraft:packed_ice>*64);
 opdra3.addItemOutput(<iceandfire:ice_dragon_blood>);
 opdra3.build();
 
-val opdra4 = RecipeBuilder.newBuilder("dragoncruc4","dragonfire_crucible",300);
+val opdra4 = RecipeBuilder.newBuilder("dragoncruc4","dragonfire_crucible",100);
 opdra4.addFluidInput(<fluid:eternal_dragon_fire>*1000);
 opdra4.addItemInput(<minecraft:iron_ingot>);
 opdra4.addItemInput(<iceandfire:ice_dragon_blood>);
 opdra4.addItemOutput(<iceandfire:dragonsteel_ice_ingot>);
 opdra4.build();
 
-val opdra5 = RecipeBuilder.newBuilder("dragoncruc5","dragonfire_crucible",300);
+val opdra5 = RecipeBuilder.newBuilder("dragoncruc5","dragonfire_crucible",100);
 opdra5.addFluidInput(<fluid:eternal_dragon_fire>*1000);
 opdra5.addItemInput(<minecraft:iron_ingot>);
 opdra5.addItemInput(<iceandfire:fire_dragon_blood>);

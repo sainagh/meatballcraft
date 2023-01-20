@@ -29,7 +29,7 @@ null, <contenttweaker:jeweled_runium>, null,
 null, <materialpart:myrmitite:ingot>, <contenttweaker:jeweled_runium>], 
 
 [<materialpart:myrmitite:ingot>, <divinerpg:eden_heart>, null, 
-<divinerpg:eden_chunk>, null, <divinerpg:eden_chunk>, 
+<divinerpg:eden_chunk>, <contenttweaker:lanthanum_salt>, <divinerpg:eden_chunk>, 
 null, <divinerpg:eden_heart>, <materialpart:myrmitite:ingot>], 
 
 [<divinerpg:divine_shards>, null, <materialpart:vibranium:ingot>, 
@@ -40,9 +40,9 @@ null, <extendedcrafting:singularity:5>, null,
 <materialpart:vibranium:ingot>, <contenttweaker:eden_core>, <materialpart:vibranium:ingot>, 
 null, <divinerpg:eden_chunk>, null], 
 
-[<contenttweaker:jeweled_runium>, null, <abyssalcraft:essence:2>, 
+[<contenttweaker:jeweled_runium>, <contenttweaker:lanthanum_salt>, <abyssalcraft:essence:2>, 
 <contenttweaker:eden_core>, <divinerpg:divine_rock>, <contenttweaker:eden_core>, 
-<abyssalcraft:essence:2>, null, <contenttweaker:jeweled_runium>], 
+<abyssalcraft:essence:2>, <contenttweaker:lanthanum_salt>, <contenttweaker:jeweled_runium>], 
 
 [null, <divinerpg:eden_chunk>, null, 
 <materialpart:vibranium:ingot>, <contenttweaker:eden_core>, <materialpart:vibranium:ingot>, 
@@ -53,7 +53,7 @@ null, <extendedcrafting:singularity:5>, null,
 <materialpart:vibranium:ingot>, null, <divinerpg:divine_shards>], 
 
 [<materialpart:myrmitite:ingot>, <divinerpg:eden_heart>, null, 
-<divinerpg:eden_chunk>, null, <divinerpg:eden_chunk>, 
+<divinerpg:eden_chunk>, <contenttweaker:lanthanum_salt>, <divinerpg:eden_chunk>, 
 null, <divinerpg:eden_heart>, <materialpart:myrmitite:ingot>], 
 
 [<contenttweaker:jeweled_runium>, <materialpart:myrmitite:ingot>, null, 
@@ -145,7 +145,7 @@ recipes.removeShaped(<divinerpg:apalachia_block>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<divinerpg:apalachia_block>, 
 [[<materialpart:chalcedony:ingot>, <materialpart:chalcedony:ingot>, <materialpart:chalcedony:ingot>, 
-<extrabotany:material:1>, <divinerpg:enriched_magic_meat>, <extrabotany:material:1>, 
+<extrabotany:material:1>, <contenttweaker:rhodium_mixture>, <extrabotany:material:1>, 
 <materialpart:chalcedony:ingot>, <materialpart:chalcedony:ingot>, <materialpart:chalcedony:ingot>], 
 
 [<materialpart:brightsteel:ingot>, <materialpart:brightsteel:ingot>, <materialpart:brightsteel:ingot>, 
@@ -177,7 +177,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<divinerpg:apalachia_block>,
 <materialpart:brightsteel:ingot>, <materialpart:brightsteel:ingot>, <materialpart:brightsteel:ingot>], 
 
 [<materialpart:chalcedony:ingot>, <materialpart:chalcedony:ingot>, <materialpart:chalcedony:ingot>, 
-<extrabotany:material:1>, <divinerpg:enriched_magic_meat>, <extrabotany:material:1>, 
+<extrabotany:material:1>, <contenttweaker:rhodium_mixture>, <extrabotany:material:1>, 
 <materialpart:chalcedony:ingot>, <materialpart:chalcedony:ingot>, <materialpart:chalcedony:ingot>]]);  
 
 mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/skythernEMC", <contenttweaker:skythern_core>, 4500, 400, [
@@ -224,31 +224,31 @@ mods.extendedcrafting.TableCrafting.addShaped(<divinerpg:mortum_block>,
 <draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, <divinerpg:skythern_heart>], 
 
 [<draconicevolution:chaos_shard:3>, <contenttweaker:doge_coin>, <draconicevolution:chaos_shard:3>, 
-<avaritia:resource:0>, <avaritia:resource:0>, <avaritia:resource:0>, 
+<avaritia:resource:0>, <contenttweaker:aethite_chunk>, <avaritia:resource:0>, 
 <draconicevolution:chaos_shard:3>, <contenttweaker:doge_coin>, <draconicevolution:chaos_shard:3>], 
 
 [<draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, <divinerpg:skythern_blade>, 
-<contenttweaker:dream_cluster>, <contenttweaker:dream_cluster>, <contenttweaker:dream_cluster>, 
+<avaritia:resource:4>, <contenttweaker:dream_cluster>, <avaritia:resource:4>, 
 <divinerpg:skythern_blade>, <draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>], 
 
-[<ebwizardry:grand_crystal>, <avaritia:resource:0>, <contenttweaker:dream_cluster>, 
+[<ebwizardry:grand_crystal>, <avaritia:resource:0>, <avaritia:resource:4>, 
 <contenttweaker:dream_cluster>, <contenttweaker:arc_residue>, <contenttweaker:dream_cluster>, 
-<contenttweaker:dream_cluster>, <avaritia:resource:0>, <ebwizardry:grand_crystal>], 
+<avaritia:resource:4>, <avaritia:resource:0>, <ebwizardry:grand_crystal>], 
 
-[<ebwizardry:grand_crystal>, <avaritia:resource:0>, <contenttweaker:dream_cluster>, 
+[<ebwizardry:grand_crystal>, <contenttweaker:aethite_chunk>, <contenttweaker:dream_cluster>, 
 <contenttweaker:arc_residue>, <divinerpg:apalachia_block>, <contenttweaker:arc_residue>, 
-<contenttweaker:dream_cluster>, <avaritia:resource:0>, <ebwizardry:grand_crystal>], 
+<contenttweaker:dream_cluster>, <contenttweaker:aethite_chunk>, <ebwizardry:grand_crystal>], 
 
-[<ebwizardry:grand_crystal>, <avaritia:resource:0>, <contenttweaker:dream_cluster>, 
+[<ebwizardry:grand_crystal>, <avaritia:resource:0>, <avaritia:resource:4>, 
 <contenttweaker:dream_cluster>, <contenttweaker:arc_residue>, <contenttweaker:dream_cluster>, 
-<contenttweaker:dream_cluster>, <avaritia:resource:0>, <ebwizardry:grand_crystal>], 
+<avaritia:resource:4>, <avaritia:resource:0>, <ebwizardry:grand_crystal>], 
 
 [<draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, <divinerpg:skythern_blade>, 
-<contenttweaker:dream_cluster>, <contenttweaker:dream_cluster>, <contenttweaker:dream_cluster>, 
+<avaritia:resource:4>, <contenttweaker:dream_cluster>, <avaritia:resource:4>, 
 <divinerpg:skythern_blade>, <draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>], 
 
 [<draconicevolution:chaos_shard:3>, <contenttweaker:doge_coin>, <draconicevolution:chaos_shard:3>, 
-<avaritia:resource:0>, <avaritia:resource:0>, <avaritia:resource:0>, 
+<avaritia:resource:0>, <contenttweaker:aethite_chunk>, <avaritia:resource:0>, 
 <draconicevolution:chaos_shard:3>, <contenttweaker:doge_coin>, <draconicevolution:chaos_shard:3>], 
 
 [<divinerpg:skythern_heart>, <draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, 

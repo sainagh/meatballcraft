@@ -1,0 +1,14 @@
+{
+	x: 114.5d,
+	y: 3.0d,
+	dependencies: [
+		"a126cb7d"
+	],
+	tasks: [{
+		uid: "ae14ef67",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ultimate_ore"
+		}]
+	}]
+}

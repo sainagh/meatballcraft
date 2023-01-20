@@ -267,3 +267,11 @@ recipes.addShapeless(<libvulpes:metal0:7>,
 [<ore:blockTitanium>]);
 
 recipes.removeShaped(<advancedrocketry:lathe>);
+
+recipes.addShapeless(<advancedrocketry:moonturf>,
+[<contenttweaker:fragment_of_the_arbiter>.reuse(),
+<minecraft:cobblestone>]);
+
+recipes.addShapeless(<advancedrocketry:moonturf_dark>,
+[<contenttweaker:fragment_of_the_arbiter>.reuse(),
+<minecraft:mossy_cobblestone>]);

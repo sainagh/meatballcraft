@@ -79,11 +79,11 @@ mods.extendedcrafting.TableCrafting.addShaped(<appliedenergistics2:spatial_pylon
 <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <ore:ingotStellarAlloy>], 
 
 [<appliedenergistics2:quartz_glass>, <bewitchment:demon_heart>, <appliedenergistics2:quartz_glass>, 
-null, <extendedcrafting:singularity:2>, null, 
+<contenttweaker:tiny_germanium_dust>, <extendedcrafting:singularity:2>, <contenttweaker:tiny_germanium_dust>, 
 <appliedenergistics2:quartz_glass>, <bewitchment:demon_heart>, <appliedenergistics2:quartz_glass>], 
 
 [<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <enderio:item_endergy_conduit:9>, 
-null, <appliedenergistics2:material:47>, null, 
+<contenttweaker:tiny_gallium_dust>, <appliedenergistics2:material:47>, <contenttweaker:tiny_gallium_dust>, 
 <enderio:item_endergy_conduit:9>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>], 
 
 [<appliedenergistics2:material:8>, <appliedenergistics2:material:8>, <appliedenergistics2:material:8>, 
@@ -99,11 +99,11 @@ null, <appliedenergistics2:material:47>, null,
 <appliedenergistics2:material:8>, <appliedenergistics2:material:8>, <appliedenergistics2:material:8>], 
 
 [<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <enderio:item_endergy_conduit:9>, 
-null, <appliedenergistics2:material:47>, null, 
+<contenttweaker:tiny_gallium_dust>, <appliedenergistics2:material:47>, <contenttweaker:tiny_gallium_dust>, 
 <enderio:item_endergy_conduit:9>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>], 
 
 [<appliedenergistics2:quartz_glass>, <bewitchment:demon_heart>, <appliedenergistics2:quartz_glass>, 
-null, <extendedcrafting:singularity:2>, null, 
+<contenttweaker:tiny_germanium_dust>, <extendedcrafting:singularity:2>, <contenttweaker:tiny_germanium_dust>, 
 <appliedenergistics2:quartz_glass>, <bewitchment:demon_heart>, <appliedenergistics2:quartz_glass>], 
 
 [<ore:ingotStellarAlloy>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, 
@@ -298,3 +298,17 @@ recipes.addShaped(<appliedenergistics2:part:341>,
 
 mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:600>, <minecraft:glowstone_dust>);
 mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:1200>, <minecraft:glowstone_dust>);
+mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:0>, <minecraft:glowstone_dust>);
+
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:energetic_ogerite>*10, <contenttweaker:ogerite_crystal_matrix>, 0.1, 0.1, 0.0]);
+
+recipes.addShaped(<appliedenergistics2:material:35>*6,
+[[<minecraft:redstone>, <contenttweaker:ogerite_crystal_matrix>, <minecraft:redstone>],
+[<contenttweaker:ogerite_crystal_matrix>, <appliedenergistics2:material:22>, <contenttweaker:ogerite_crystal_matrix>],
+[<minecraft:redstone>, <contenttweaker:ogerite_crystal_matrix>, <minecraft:redstone>]]);
+
+recipes.addShaped(<appliedenergistics2:material:54>*6,
+[[<minecraft:dye:4>, <contenttweaker:ogerite_crystal_matrix>, <minecraft:dye:4>],
+[<contenttweaker:ogerite_crystal_matrix>, <appliedenergistics2:material:22>, <contenttweaker:ogerite_crystal_matrix>],
+[<minecraft:dye:4>, <contenttweaker:ogerite_crystal_matrix>, <minecraft:dye:4>]]);
+

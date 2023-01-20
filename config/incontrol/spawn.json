@@ -856,6 +856,24 @@
     "speedmultiply": 1,
     "potion": ["minecraft:strength,999999,2", 
     "minecraft:magic_resistance,999999,2"]
+  },
+
+
+
+  {
+      "mob": ["mod_lavacow:raven"],
+      "result": "deny"
+  },
+
+  {
+    "dimension": 170,
+    "mob": "minecraft:guardian",
+    "mincount": {
+      "amount": 30,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
   }
 
 ]

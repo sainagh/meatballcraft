@@ -1,0 +1,7 @@
+{
+	title: "Reaching Definition",
+	icon: "contenttweaker:defined_ingot",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

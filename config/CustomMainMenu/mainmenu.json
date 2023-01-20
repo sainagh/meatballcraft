@@ -17,6 +17,7 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
+            "hoverText" : "I got the power!",
             "posX" : -100,
             "posY" : 48,
             "width" : 200,
@@ -31,6 +32,7 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
+            "hoverText" : "We got the power!",
             "posX" : -100,
             "posY" : 72,
             "width" : 200,
@@ -45,6 +47,7 @@
         "mods":
         {
             "text" : "fml.menu.mods",
+            "hoverText" : "Powered by AoA",
             "posX" : -100,
             "posY" : 96,
             "width" : 200,
@@ -59,8 +62,9 @@
         "options":
         {
             "text" : "menu.options",
+            "hoverText" : "Check keybinds!",
             "posX" : -100,
-            "posY" : 132,
+            "posY" : 144,
             "width" : 98,
             "height" : 20,
             "action" : 
@@ -73,8 +77,9 @@
         "quit":
         {
             "text" : "menu.quit",
+            "hoverText" : "See ya!",
             "posX" : 2,
-            "posY" : 132,
+            "posY" : 144,
             "width" : 98,
             "height" : 20,
             "action" : 
@@ -83,11 +88,25 @@
             }
         },
         
+        "readme":
+        {
+            "text" : "ReadMe",
+            "hoverText" : "Beta Statement",
+            "posX" : 200,
+            "posY" : 200,
+            "width" : 98,
+            "height" : 20,
+            "action": {
+                "type": "openLink",
+                "link": "https://github.com/sainagh/meatballcraft/wiki/Beta-Statement"
+              }
+        },
+        
         "language":
         {
             "text" : "",
             "posX" : -124,
-            "posY" : 132,
+            "posY" : 144,
             "width" : 20,
             "height" : 20,
             "action" : 
@@ -101,7 +120,7 @@
         {
             "text" : "",
             "posX" : -154,
-            "posY" : 132,
+            "posY" : 144,
             "width" : 20,
             "height" : 20,
             "texture" : "custommainmenu:textures/gui/buttons.png",
@@ -109,6 +128,20 @@
             {
                 "type" : "refresh"
             }
+        },
+        
+        "discord":
+        {
+            "text" : "Discord",
+            "hoverText" : "Join the meatballs!",
+            "posX" : -100,
+            "posY" : 120,
+            "width" : 200,
+            "height" : 20,
+            "action": {
+                "type": "openLink",
+                "link": "https://discord.gg/wUNHjppppA"
+              }
         }
     },
     
@@ -178,7 +211,8 @@
                     "menu:back21.png",
                     "menu:back22.png",
                     "menu:back23.png",
-                    "menu:back24.png"],
+                    "menu:back24.png",
+                    "menu:back25.png"],
                 "displayDuration" : 100,
                 "fadeDuration" : 40
             }

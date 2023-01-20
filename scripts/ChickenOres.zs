@@ -241,3 +241,5 @@ mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:cut_immortallis_garnet>, 
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:cut_greckon_garnet>, <fluid:chaos>*144, <fluid:ghastly>*432]);
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:cut_greckon_garnet>, <fluid:chaos>*144, <aoa3:ghoulish_ingot>*2]);
+
+mods.forestry.Squeezer.addRecipe(<fluid:purifying_fluid>*1000, [<contenttweaker:pure_egg>], 120);

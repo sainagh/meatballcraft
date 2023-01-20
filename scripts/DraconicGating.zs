@@ -11,11 +11,11 @@ recipes.addShaped(<draconicevolution:crafting_injector:0>*2,
 [<aoa3:baron_stone>, <contenttweaker:projector_gem>, <aoa3:creep_stone>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:draconic_machine_frame>, 
-[[<minecraft:dragon_egg>, <minecraft:dragon_egg>, <draconicevolution:dragon_heart>, <minecraft:dragon_egg>, <minecraft:dragon_egg>], 
+[[<contenttweaker:indium_dust>, <minecraft:dragon_egg>, <draconicevolution:dragon_heart>, <minecraft:dragon_egg>, <contenttweaker:indium_dust>], 
 [<minecraft:dragon_egg>, <draconicevolution:draconium_block:0>, <nuclearcraft:fuel_mixed_oxide:1>, <draconicevolution:draconium_block:0>, <minecraft:dragon_egg>], 
 [<draconicevolution:dragon_heart>, <nuclearcraft:fuel_mixed_oxide:0>, <techreborn:machine_frame:2>, <nuclearcraft:fuel_mixed_oxide:0>, <draconicevolution:dragon_heart>], 
 [<minecraft:dragon_egg>, <draconicevolution:draconium_block:0>, <nuclearcraft:fuel_mixed_oxide:1>, <draconicevolution:draconium_block:0>, <minecraft:dragon_egg>], 
-[<minecraft:dragon_egg>, <minecraft:dragon_egg>, <draconicevolution:dragon_heart>, <minecraft:dragon_egg>, <minecraft:dragon_egg>]]);  
+[<contenttweaker:indium_dust>, <minecraft:dragon_egg>, <draconicevolution:dragon_heart>, <minecraft:dragon_egg>, <contenttweaker:indium_dust>]]);  
 
 recipes.addShapeless(<minecraft:dragon_egg>,
 [<mysticalagradditions:stuff:3>, <mysticalagradditions:stuff:2>]);

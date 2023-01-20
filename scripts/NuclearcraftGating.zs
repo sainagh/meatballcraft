@@ -214,6 +214,17 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:salt_fission_wall>*4
 [<thermalfoundation:material:131>, <erebus:materials:0>, <thebetweenlands:items_misc:11>, <tconstruct:large_plate>.withTag({Material: "dreadium"}), <thebetweenlands:items_misc:11>, <erebus:materials:0>, <thermalfoundation:material:131>], 
 [<bigreactors:ingotcyanite>, <thermalfoundation:material:131>, <nuclearcraft:part:2>, <contenttweaker:tellurium_crystal>, <nuclearcraft:part:2>, <thermalfoundation:material:131>, <bigreactors:ingotcyanite>]]);  
 
+mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:ogerite_crystal_lattice>, <contenttweaker:nightfly_egg>, <contenttweaker:meatball>, 10, <contenttweaker:nightfly_egg>, 100, 10);
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:salt_fission_wall>*8, 
+[[<bigreactors:ingotcyanite>, <thermalfoundation:material:131>, <nuclearcraft:part:2>, <contenttweaker:tellurium_crystal>, <nuclearcraft:part:2>, <thermalfoundation:material:131>, <bigreactors:ingotcyanite>], 
+[<thermalfoundation:material:131>, <erebus:materials:0>, <thebetweenlands:items_misc:11>, <tconstruct:large_plate>.withTag({Material: "dreadium"}), <thebetweenlands:items_misc:11>, <erebus:materials:0>, <thermalfoundation:material:131>], 
+[<nuclearcraft:part:2>, <thebetweenlands:items_misc:11>, <nuclearcraft:alloy:1>, <contenttweaker:ogerite_crystal_lattice>, <nuclearcraft:alloy:1>, <thebetweenlands:items_misc:11>, <nuclearcraft:part:2>], 
+[<nuclearcraft:berkelium:1>, <tconstruct:large_plate>.withTag({Material: "dreadium"}), <nuclearcraft:alloy:1>, <nuclearcraft:part:12>, <nuclearcraft:alloy:1>, <tconstruct:large_plate>.withTag({Material: "dreadium"}), <nuclearcraft:berkelium:1>], 
+[<nuclearcraft:part:2>, <thebetweenlands:items_misc:11>, <nuclearcraft:alloy:1>, <contenttweaker:ogerite_crystal_lattice>, <nuclearcraft:alloy:1>, <thebetweenlands:items_misc:11>, <nuclearcraft:part:2>], 
+[<thermalfoundation:material:131>, <erebus:materials:0>, <thebetweenlands:items_misc:11>, <tconstruct:large_plate>.withTag({Material: "dreadium"}), <thebetweenlands:items_misc:11>, <erebus:materials:0>, <thermalfoundation:material:131>], 
+[<bigreactors:ingotcyanite>, <thermalfoundation:material:131>, <nuclearcraft:part:2>, <contenttweaker:tellurium_crystal>, <nuclearcraft:part:2>, <thermalfoundation:material:131>, <bigreactors:ingotcyanite>]]);  
+
 
 recipes.removeShaped(<nuclearcraft:solar_panel_basic>);
 
@@ -350,11 +361,28 @@ recipes.removeShaped(<nuclearcraft:salt_fission_vessel>);
 mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:salt_fission_vessel>, 
 [[<nuclearcraft:part:3>, <nuclearcraft:part:3>, <contenttweaker:fiery_rhenium_ingot>, <aoa3:ambient_infusion_stone>, <contenttweaker:fiery_rhenium_ingot>, <nuclearcraft:part:3>, <nuclearcraft:part:3>], 
 [<nuclearcraft:part:3>, <nuclearcraft:part:7>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:alloy:12>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:part:7>, <nuclearcraft:part:3>], 
-[<contenttweaker:fiery_rhenium_ingot>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:salt_fission_frame>, <contenttweaker:bismuth_cluster>, <nuclearcraft:salt_fission_frame>, <materialpart:vibranium_alloy:gear>, <contenttweaker:fiery_rhenium_ingot>], 
+[<contenttweaker:fiery_rhenium_ingot>, <materialpart:sednanite:rod>, <nuclearcraft:salt_fission_frame>, <contenttweaker:bismuth_cluster>, <nuclearcraft:salt_fission_frame>, <materialpart:sednanite:rod>, <contenttweaker:fiery_rhenium_ingot>], 
 [<aoa3:ambient_infusion_stone>, <nuclearcraft:alloy:12>, <contenttweaker:bismuth_cluster>, <nuclearcraft:part:12>, <contenttweaker:bismuth_cluster>, <nuclearcraft:alloy:12>, <aoa3:ambient_infusion_stone>], 
-[<contenttweaker:fiery_rhenium_ingot>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:salt_fission_frame>, <contenttweaker:bismuth_cluster>, <nuclearcraft:salt_fission_frame>, <materialpart:vibranium_alloy:gear>, <contenttweaker:fiery_rhenium_ingot>], 
+[<contenttweaker:fiery_rhenium_ingot>, <materialpart:sednanite:rod>, <nuclearcraft:salt_fission_frame>, <contenttweaker:bismuth_cluster>, <nuclearcraft:salt_fission_frame>, <materialpart:sednanite:rod>, <contenttweaker:fiery_rhenium_ingot>], 
 [<nuclearcraft:part:3>, <nuclearcraft:part:7>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:alloy:12>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:part:7>, <nuclearcraft:part:3>], 
 [<nuclearcraft:part:3>, <nuclearcraft:part:3>, <contenttweaker:fiery_rhenium_ingot>, <aoa3:ambient_infusion_stone>, <contenttweaker:fiery_rhenium_ingot>, <nuclearcraft:part:3>, <nuclearcraft:part:3>]]);  
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:possessed_fluix>, <fluid:astralsorcery.liquidstarlight>*4000, <fluid:possessed_starlight>*1000]);
+
+mods.nuclearcraft.salt_fission.addRecipe([<fluid:possessed_starlight>*1000, <fluid:whispering_starlight>*1000, 1000.0, 100.0, 1.0]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:possessed_fluix>, <fluid:whispering_starlight>*2000, <fluid:whispering_starlight>*4000]);
+
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:whispering_starlight>*100, <contenttweaker:meatball_attuned_crystal>, 1.0, 1.4, 0.8]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:salt_fission_vessel>*2, 
+[[<nuclearcraft:part:3>, <nuclearcraft:part:3>, <contenttweaker:fiery_rhenium_ingot>, <contenttweaker:meatball_attuned_crystal>, <contenttweaker:fiery_rhenium_ingot>, <nuclearcraft:part:3>, <nuclearcraft:part:3>], 
+[<nuclearcraft:part:3>, <nuclearcraft:part:7>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:alloy:12>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:part:7>, <nuclearcraft:part:3>], 
+[<contenttweaker:fiery_rhenium_ingot>, <materialpart:sednanite:rod>, <nuclearcraft:salt_fission_frame>, <contenttweaker:bismuth_cluster>, <nuclearcraft:salt_fission_frame>, <materialpart:sednanite:rod>, <contenttweaker:fiery_rhenium_ingot>], 
+[<contenttweaker:meatball_attuned_crystal>, <nuclearcraft:alloy:12>, <contenttweaker:bismuth_cluster>, <nuclearcraft:part:12>, <contenttweaker:bismuth_cluster>, <nuclearcraft:alloy:12>, <contenttweaker:meatball_attuned_crystal>], 
+[<contenttweaker:fiery_rhenium_ingot>, <materialpart:sednanite:rod>, <nuclearcraft:salt_fission_frame>, <contenttweaker:bismuth_cluster>, <nuclearcraft:salt_fission_frame>, <materialpart:sednanite:rod>, <contenttweaker:fiery_rhenium_ingot>], 
+[<nuclearcraft:part:3>, <nuclearcraft:part:7>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:alloy:12>, <materialpart:vibranium_alloy:gear>, <nuclearcraft:part:7>, <nuclearcraft:part:3>], 
+[<nuclearcraft:part:3>, <nuclearcraft:part:3>, <contenttweaker:fiery_rhenium_ingot>, <contenttweaker:meatball_attuned_crystal>, <contenttweaker:fiery_rhenium_ingot>, <nuclearcraft:part:3>, <nuclearcraft:part:3>]]);  
 
 recipes.addShaped(<contenttweaker:restless_steel_frame>,
 [[<contenttweaker:restless_steel_ingot>, <ore:blockSoularium>, <contenttweaker:restless_steel_ingot>],
@@ -370,6 +398,15 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_wall>
 [<forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <railcraft:tank_iron_wall>, <thaumicaugmentation:impetus_drainer>, <contenttweaker:restless_steel_frame>, <thaumicaugmentation:impetus_drainer>, <railcraft:tank_iron_wall>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000})], 
 [<nuclearcraft:alloy:11>, null, <thebetweenlands:items_misc:24>, <thaumicaugmentation:impetus_drainer>, <thebetweenlands:items_misc:24>, null, <nuclearcraft:alloy:11>], 
 [<nuclearcraft:alloy:11>, <railcraft:tank_iron_wall>, null, <railcraft:tank_iron_wall>, null, <railcraft:tank_iron_wall>, <nuclearcraft:alloy:11>], 
+[<ore:blockSteel>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <ore:blockSteel>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_wall>*12, 
+[[<ore:blockSteel>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <ore:blockSteel>], 
+[<nuclearcraft:alloy:11>, <railcraft:tank_iron_wall>, null, <contenttweaker:ogerite_crystal_lattice>, null, <railcraft:tank_iron_wall>, <nuclearcraft:alloy:11>], 
+[<nuclearcraft:alloy:11>, null, <thebetweenlands:items_misc:24>, <thaumicaugmentation:impetus_drainer>, <thebetweenlands:items_misc:24>, null, <nuclearcraft:alloy:11>], 
+[<forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <contenttweaker:ogerite_crystal_lattice>, <thaumicaugmentation:impetus_drainer>, <contenttweaker:restless_steel_frame>, <thaumicaugmentation:impetus_drainer>, <contenttweaker:ogerite_crystal_lattice>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000})], 
+[<nuclearcraft:alloy:11>, null, <thebetweenlands:items_misc:24>, <thaumicaugmentation:impetus_drainer>, <thebetweenlands:items_misc:24>, null, <nuclearcraft:alloy:11>], 
+[<nuclearcraft:alloy:11>, <railcraft:tank_iron_wall>, null, <contenttweaker:ogerite_crystal_lattice>, null, <railcraft:tank_iron_wall>, <nuclearcraft:alloy:11>], 
 [<ore:blockSteel>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <ore:blockSteel>]]);  
 
 recipes.addShaped(<contenttweaker:stellar_alloy_shaft>,
@@ -399,7 +436,7 @@ recipes.removeShaped(<nuclearcraft:heat_exchanger_tube_thermoconducting>);
 recipes.removeShaped(<nuclearcraft:heat_exchanger_tube_copper>);
 recipes.removeShaped(<nuclearcraft:heat_exchanger_tube_hard_carbon>);
 
-mods.nuclearcraft.alloy_furnace.addRecipe([<techreborn:upgrades:3>, <bewitchment:golden_thread>*32, <contenttweaker:superconducting_thread>]);
+mods.nuclearcraft.alloy_furnace.addRecipe([<techreborn:upgrades:3>, <bewitchment:golden_thread>*32, <contenttweaker:superconducting_thread>*8]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_thermoconducting>*4, 
 [[<nuclearcraft:part:3>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
@@ -461,6 +498,15 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:turbine_wall>*4,
 [<techreborn:storage2:0>, <contenttweaker:meatballium_324>, <techreborn:storage2:0>, <nuclearcraft:alloy:15>, <techreborn:storage2:0>, <contenttweaker:meatballium_324>, <techreborn:storage2:0>], 
 [<ore:plateDU>, <techreborn:storage2:0>, <bewitchment:stew_of_the_grotesque>, <nuclearcraft:alloy:15>, <bewitchment:stew_of_the_grotesque>, <techreborn:storage2:0>, <ore:plateDU>]]);  
 
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:turbine_wall>*8, 
+[[<ore:plateDU>, <techreborn:storage2:0>, <bewitchment:stew_of_the_grotesque>, <contenttweaker:superconducting_mithril>, <bewitchment:stew_of_the_grotesque>, <techreborn:storage2:0>, <ore:plateDU>], 
+[<techreborn:storage2:0>, <contenttweaker:meatballium_324>, <techreborn:storage2:0>, <nuclearcraft:alloy:15>, <techreborn:storage2:0>, <contenttweaker:meatballium_324>, <techreborn:storage2:0>], 
+[<bewitchment:stew_of_the_grotesque>, <techreborn:storage2:0>, <ore:plateDU>, <nuclearcraft:alloy:15>, <ore:plateDU>, <techreborn:storage2:0>, <bewitchment:stew_of_the_grotesque>], 
+[<contenttweaker:superconducting_mithril>, <nuclearcraft:alloy:15>, <nuclearcraft:alloy:15>, <contenttweaker:restless_steel_frame>, <nuclearcraft:alloy:15>, <nuclearcraft:alloy:15>, <contenttweaker:superconducting_mithril>], 
+[<bewitchment:stew_of_the_grotesque>, <techreborn:storage2:0>, <ore:plateDU>, <nuclearcraft:alloy:15>, <ore:plateDU>, <techreborn:storage2:0>, <bewitchment:stew_of_the_grotesque>], 
+[<techreborn:storage2:0>, <contenttweaker:meatballium_324>, <techreborn:storage2:0>, <nuclearcraft:alloy:15>, <techreborn:storage2:0>, <contenttweaker:meatballium_324>, <techreborn:storage2:0>], 
+[<ore:plateDU>, <techreborn:storage2:0>, <bewitchment:stew_of_the_grotesque>, <contenttweaker:superconducting_mithril>, <bewitchment:stew_of_the_grotesque>, <techreborn:storage2:0>, <ore:plateDU>]]);  
+
 recipes.removeShaped(<nuclearcraft:turbine_frame>);
 
 recipes.addShaped(<nuclearcraft:turbine_frame>,
@@ -494,4 +540,19 @@ mods.nuclearcraft.fuel_reprocessor.addRecipe([<contenttweaker:depleted_heuf_fuel
 mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:meatballium_323>, <contenttweaker:meatballium_328>, <contenttweaker:meatballium_ingot>]);
 
 
+recipes.removeShaped(<nuclearcraft:salt_fission_heater>);
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:salt_fission_heater>, 
+[[<nuclearcraft:part:3>, <nuclearcraft:alloy:12>, <nuclearcraft:part:7>, <nuclearcraft:alloy:12>, <nuclearcraft:part:3>], 
+[<nuclearcraft:alloy:12>, <contenttweaker:jeweled_runium>, <materialpart:vibranium:rod>, <contenttweaker:jeweled_runium>, <nuclearcraft:alloy:12>], 
+[<aoa3:gleaming_infusion_stone>, <nuclearcraft:part:5>, <nuclearcraft:part:12>, <nuclearcraft:part:5>, <aoa3:gleaming_infusion_stone>], 
+[<nuclearcraft:alloy:12>, <contenttweaker:jeweled_runium>, <materialpart:vibranium:rod>, <contenttweaker:jeweled_runium>, <nuclearcraft:alloy:12>], 
+[<nuclearcraft:part:3>, <nuclearcraft:alloy:12>, <nuclearcraft:part:7>, <nuclearcraft:alloy:12>, <nuclearcraft:part:3>]]); 
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:salt_fission_heater>*2, 
+[[<nuclearcraft:part:3>, <nuclearcraft:alloy:12>, <nuclearcraft:part:7>, <nuclearcraft:alloy:12>, <nuclearcraft:part:3>], 
+[<nuclearcraft:alloy:12>, <contenttweaker:jeweled_runium>, <materialpart:vibranium:rod>, <contenttweaker:jeweled_runium>, <nuclearcraft:alloy:12>], 
+[<contenttweaker:meatball_attuned_crystal>, <nuclearcraft:part:5>, <nuclearcraft:part:12>, <nuclearcraft:part:5>, <contenttweaker:meatball_attuned_crystal>], 
+[<nuclearcraft:alloy:12>, <contenttweaker:jeweled_runium>, <materialpart:vibranium:rod>, <contenttweaker:jeweled_runium>, <nuclearcraft:alloy:12>], 
+[<nuclearcraft:part:3>, <nuclearcraft:alloy:12>, <nuclearcraft:part:7>, <nuclearcraft:alloy:12>, <nuclearcraft:part:3>]]); 
 

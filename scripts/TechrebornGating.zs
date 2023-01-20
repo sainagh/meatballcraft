@@ -102,6 +102,15 @@ mods.extendedcrafting.TableCrafting.addShaped(<techreborn:fusion_coil>,
 [<techreborn:part:0>, null, null, <techreborn:part:17>, null, null, <techreborn:part:0>], 
 [<techreborn:part:0>, <techreborn:part:0>, <forestry:peat>, <techreborn:plates:16>, <forestry:peat>, <techreborn:part:0>, <techreborn:part:0>]]);  
 
+mods.extendedcrafting.TableCrafting.addShaped(<techreborn:fusion_coil>*4, 
+[[<techreborn:part:0>, <techreborn:part:0>, <forestry:peat>, <techreborn:plates:16>, <forestry:peat>, <techreborn:part:0>, <techreborn:part:0>], 
+[<techreborn:part:0>, <draconicevolution:draconic_ingot>, null, <techreborn:part:17>, null, <draconicevolution:draconic_ingot>, <techreborn:part:0>], 
+[<forestry:peat>, null, <techreborn:iridiumneutronreflector>, <techreborn:part:14>, <techreborn:iridiumneutronreflector>, null, <forestry:peat>], 
+[<contenttweaker:crystalline_lens>, <contenttweaker:cursed_slime>, <techreborn:part:14>, <techreborn:machine_casing:2>, <techreborn:part:14>, <contenttweaker:cursed_slime>, <contenttweaker:crystalline_lens>], 
+[<forestry:peat>, null, <techreborn:iridiumneutronreflector>, <techreborn:part:14>, <techreborn:iridiumneutronreflector>, null, <forestry:peat>], 
+[<techreborn:part:0>, <draconicevolution:draconic_ingot>, null, <techreborn:part:17>, null, <draconicevolution:draconic_ingot>, <techreborn:part:0>], 
+[<techreborn:part:0>, <techreborn:part:0>, <forestry:peat>, <techreborn:plates:16>, <forestry:peat>, <techreborn:part:0>, <techreborn:part:0>]]);  
+
 recipes.addShaped(<contenttweaker:crystalline_lens>,
 [[<ore:paneGlass>, <botania:manaresource:0>, <ore:paneGlass>],
 [<botania:manaresource:0>, <bewitchment:crystal_ball>.reuse(), <botania:manaresource:0>],
@@ -174,3 +183,4 @@ recipes.addShaped(<techreborn:distillation_tower>,
 [<techreborn:extractor>, <techreborn:machine_frame:2>, <techreborn:extractor>],
 [<techreborn:industrial_electrolyzer>, <techreborn:part:0>, <techreborn:industrial_electrolyzer>]]);
 
+mods.techreborn.assemblingMachine.addRecipe(<techreborn:part:39>, <draconicevolution:draconic_ingot>, <techreborn:part:17>, 10, 8);

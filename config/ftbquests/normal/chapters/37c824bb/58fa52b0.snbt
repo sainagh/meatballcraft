@@ -1,0 +1,16 @@
+{
+	x: 107.0d,
+	y: 1.5d,
+	description: "You should make a lot of this!",
+	dependencies: [
+		"1135dd4b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ddfcfad6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:universal_realgar"
+		}]
+	}]
+}

@@ -87,13 +87,9 @@ mods.nuclearcraft.crystallizer.addRecipe([<fluid:hydrogen>*500, <contenttweaker:
 
 mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:hydrogen_chunk>, <contenttweaker:hydrogen_crystal>*8, 512);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:miniature_star>, 
-100000, 
-<extendedcrafting:singularity_ultimate>, 
-[<contenttweaker:hydrogen_chunk>, <contenttweaker:tritium_chunk>, <contenttweaker:deuterium_chunk>, <extrautils2:compressedcobblestone:7>, <extendedcrafting:storage:4>]);
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sentient_factory_core>, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sentient_factory_core>*4, 
 [[<deepmoblearning:pristine_matter_shulker>, <deepmoblearning:pristine_matter_shulker>, null, 
 null, <woot:structure:9>, null, 
 null, <deepmoblearning:pristine_matter_shulker>, <deepmoblearning:pristine_matter_shulker>], 

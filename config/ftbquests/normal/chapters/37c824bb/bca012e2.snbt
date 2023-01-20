@@ -1,0 +1,14 @@
+{
+	x: 114.5d,
+	y: -3.0d,
+	dependencies: [
+		"48d695d4"
+	],
+	tasks: [{
+		uid: "575e4e78",
+		type: "item",
+		items: [{
+			item: "contenttweaker:matrix_ore"
+		}]
+	}]
+}

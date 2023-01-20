@@ -34,10 +34,12 @@
 		}]
 	},
 	{
-		uid: "5c707c53",
+		uid: "eb581231",
 		type: "item",
 		items: [{
-			item: "contenttweaker:miniature_star"
-		}]
+			item: "contenttweaker:star_core"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

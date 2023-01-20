@@ -1,0 +1,17 @@
+{
+	x: 122.0d,
+	y: 1.5d,
+	dependencies: [
+		"8b4dbc6b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eee15b1b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:aesir_rift"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

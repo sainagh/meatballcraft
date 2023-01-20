@@ -58,11 +58,11 @@ mods.extendedcrafting.TableCrafting.addShaped(<environmentaltech:solar_cont_3>,
 recipes.removeShaped(<environmentaltech:solar_cell_pladium>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<environmentaltech:solar_cell_pladium>, 
-[[<environmentaltech:pladium_crystal>, null, <environmentaltech:pladium_crystal>, null, <environmentaltech:pladium_crystal>], 
+[[<environmentaltech:pladium_crystal>, <materialpart:bloodmaster_metal:ingot>, <environmentaltech:pladium_crystal>, <materialpart:bloodmaster_metal:ingot>, <environmentaltech:pladium_crystal>], 
 [null, <extendedcrafting:material:41>, <extendedcrafting:material:41>, <extendedcrafting:material:41>, null], 
 [null, <extendedcrafting:material:41>, <environmentaltech:solar_cell_kyronite>, <extendedcrafting:material:41>, null], 
 [null, <extendedcrafting:material:41>, <extendedcrafting:material:41>, <extendedcrafting:material:41>, null], 
-[<divinerpg:bluefire_stone>, null, <divinerpg:bluefire_stone>, null, <divinerpg:bluefire_stone>]]); 
+[<divinerpg:bluefire_stone>, <materialpart:bloodmaster_metal:ingot>, <divinerpg:bluefire_stone>, <materialpart:bloodmaster_metal:ingot>, <divinerpg:bluefire_stone>]]); 
 
 recipes.removeShaped(<environmentaltech:solar_cont_4>);
 
@@ -97,18 +97,18 @@ mods.extendedcrafting.TableCrafting.addShaped(<environmentaltech:solar_cell_ioni
 [<extendedcrafting:material:12>, null, <extendedcrafting:material:48>, <environmentaltech:solar_cell_pladium>, <extendedcrafting:material:48>, null, <extendedcrafting:material:12>], 
 [null, null, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, null, null], 
 [null, <contenttweaker:nethersky_steel_ingot>, null, null, null, <contenttweaker:nethersky_steel_ingot>, null], 
-[<materialpart:bloodmaster_metal:ingot>, null, <materialpart:bloodmaster_metal:ingot>, <materialpart:bloodmaster_metal:ingot>, <materialpart:bloodmaster_metal:ingot>, null, <materialpart:bloodmaster_metal:ingot>]]);  
+[<contenttweaker:nethengeic_gem>, null, null, <contenttweaker:nethengeic_gem>, null, null, <contenttweaker:nethengeic_gem>]]);  
 
 recipes.removeShaped(<environmentaltech:solar_cont_5>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<environmentaltech:solar_cont_5>, 
-[[<environmentaltech:ionite>, <twilightforest:transformation_powder>, <twilightforest:transformation_powder>, <twilightforest:transformation_powder>, <twilightforest:transformation_powder>, <twilightforest:transformation_powder>, <environmentaltech:ionite>], 
+[[<environmentaltech:ionite>, <twilightforest:transformation_powder>, <twilightforest:transformation_powder>, <contenttweaker:nethengeic_gem>, <twilightforest:transformation_powder>, <twilightforest:transformation_powder>, <environmentaltech:ionite>], 
 [<twilightforest:transformation_powder>, <contenttweaker:nethersky_steel_ingot>, <nuclearcraft:alloy:10>, <appliedenergistics2:controller>, <nuclearcraft:alloy:10>, <contenttweaker:nethersky_steel_ingot>, <twilightforest:transformation_powder>], 
 [<twilightforest:transformation_powder>, <nuclearcraft:alloy:10>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity:5>, <extendedcrafting:singularity:1>, <nuclearcraft:alloy:10>, <twilightforest:transformation_powder>], 
-[<twilightforest:transformation_powder>, <appliedenergistics2:controller>, <extendedcrafting:singularity:5>, <environmentaltech:solar_cont_4>, <extendedcrafting:singularity:5>, <appliedenergistics2:controller>, <twilightforest:transformation_powder>], 
+[<contenttweaker:nethengeic_gem>, <appliedenergistics2:controller>, <extendedcrafting:singularity:5>, <environmentaltech:solar_cont_4>, <extendedcrafting:singularity:5>, <appliedenergistics2:controller>, <contenttweaker:nethengeic_gem>], 
 [<twilightforest:transformation_powder>, <nuclearcraft:alloy:10>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity:5>, <extendedcrafting:singularity:1>, <nuclearcraft:alloy:10>, <twilightforest:transformation_powder>], 
 [<twilightforest:transformation_powder>, <contenttweaker:nethersky_steel_ingot>, <nuclearcraft:alloy:10>, <appliedenergistics2:controller>, <nuclearcraft:alloy:10>, <contenttweaker:nethersky_steel_ingot>, <twilightforest:transformation_powder>], 
-[<environmentaltech:ionite>, <twilightforest:transformation_powder>, <twilightforest:transformation_powder>, <twilightforest:transformation_powder>, <twilightforest:transformation_powder>, <twilightforest:transformation_powder>, <environmentaltech:ionite>]]);  
+[<environmentaltech:ionite>, <twilightforest:transformation_powder>, <twilightforest:transformation_powder>, <contenttweaker:nethengeic_gem>, <twilightforest:transformation_powder>, <twilightforest:transformation_powder>, <environmentaltech:ionite>]]);  
 
 recipes.removeShaped(<environmentaltech:solar_cont_6>);
 

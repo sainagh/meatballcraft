@@ -291,7 +291,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:shield_of_terra>,
 
 // twilight saplings & twilight duplication
 recipes.addShaped(<contenttweaker:harbinger_callstone>,
-[[<ore:ingotMithminite>, <thaumicaugmentation:research_notes:0>, <ore:ingotMithminite>],
+[[<ore:ingotMithminite>, <contenttweaker:crimson_gem>, <ore:ingotMithminite>],
 [<contenttweaker:crimson_gem>, <contenttweaker:harbinger_crystal>, <contenttweaker:crimson_gem>],
 [<ore:ingotMithminite>, <contenttweaker:crimson_gem>, <ore:ingotMithminite>]]);
 

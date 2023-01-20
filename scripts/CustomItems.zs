@@ -3378,3 +3378,128 @@ var stabledarmstadtium = VanillaFactory.createItem("stable_darmstadtium");
 stabledarmstadtium.maxStackSize = 64;
 stabledarmstadtium.beaconPayment = false;
 stabledarmstadtium.register();
+
+var abyssitecrystal = VanillaFactory.createItem("abyssite_crystal");
+abyssitecrystal.maxStackSize = 64;
+abyssitecrystal.beaconPayment = false;
+abyssitecrystal.register();
+
+var ogeritecrystalmatrix = VanillaFactory.createItem("ogerite_crystal_matrix");
+ogeritecrystalmatrix.maxStackSize = 64;
+ogeritecrystalmatrix.beaconPayment = false;
+ogeritecrystalmatrix.register();
+
+var stablenihonium = VanillaFactory.createItem("stable_nihonium");
+stablenihonium.maxStackSize = 64;
+stablenihonium.beaconPayment = false;
+stablenihonium.register();
+
+var fleroviummatrix = VanillaFactory.createItem("flerovium_matrix");
+fleroviummatrix.maxStackSize = 64;
+fleroviummatrix.beaconPayment = false;
+fleroviummatrix.register();
+
+var nethengeicgem = VanillaFactory.createItem("nethengeic_gem");
+nethengeicgem.maxStackSize = 64;
+nethengeicgem.beaconPayment = false;
+nethengeicgem.register();
+
+var rainbowegg = VanillaFactory.createItem("rainbow_egg");
+rainbowegg.maxStackSize = 64;
+rainbowegg.beaconPayment = false;
+rainbowegg.register();
+
+var disgustingomelette = VanillaFactory.createItem("disgusting_omelette");
+disgustingomelette.maxStackSize = 64;
+disgustingomelette.beaconPayment = false;
+disgustingomelette.register();
+
+var moscoviumtraces = VanillaFactory.createItem("moscovium_traces");
+moscoviumtraces.maxStackSize = 64;
+moscoviumtraces.beaconPayment = false;
+moscoviumtraces.register();
+
+var livermoriumsliver = VanillaFactory.createItem("livermorium_sliver");
+livermoriumsliver.maxStackSize = 64;
+livermoriumsliver.beaconPayment = false;
+livermoriumsliver.register();
+
+var technetiumdisulfide = VanillaFactory.createItem("technetium_disulfide");
+technetiumdisulfide.maxStackSize = 64;
+technetiumdisulfide.beaconPayment = false;
+technetiumdisulfide.register();
+
+var tennessinegem = VanillaFactory.createItem("tennessine_gem");
+tennessinegem.maxStackSize = 64;
+tennessinegem.beaconPayment = false;
+tennessinegem.register();
+
+var lowdensitysalt = VanillaFactory.createItem("low_density_salt");
+lowdensitysalt.maxStackSize = 64;
+lowdensitysalt.beaconPayment = false;
+lowdensitysalt.register();
+
+var pureegg = VanillaFactory.createItem("pure_egg");
+pureegg.maxStackSize = 64;
+pureegg.beaconPayment = false;
+pureegg.register();
+
+var superconductingfluix = VanillaFactory.createItem("superconducting_fluix");
+superconductingfluix.maxStackSize = 64;
+superconductingfluix.beaconPayment = false;
+superconductingfluix.register();
+
+var flyingmeatball = VanillaFactory.createItem("flying_meatball");
+flyingmeatball.maxStackSize = 64;
+flyingmeatball.beaconPayment = false;
+flyingmeatball.register();
+
+var mithminitecore = VanillaFactory.createItem("mithminite_core");
+mithminitecore.maxStackSize = 64;
+mithminitecore.beaconPayment = false;
+mithminitecore.register();
+
+var negativelychargedmithril = VanillaFactory.createItem("negatively_charged_mithril");
+negativelychargedmithril.maxStackSize = 64;
+negativelychargedmithril.beaconPayment = false;
+negativelychargedmithril.register();
+
+var positivelychargedmithril = VanillaFactory.createItem("positively_charged_mithril");
+positivelychargedmithril.maxStackSize = 64;
+positivelychargedmithril.beaconPayment = false;
+positivelychargedmithril.register();
+
+var superconductingmithril = VanillaFactory.createItem("superconducting_mithril");
+superconductingmithril.maxStackSize = 64;
+superconductingmithril.beaconPayment = false;
+superconductingmithril.register();
+
+var osmiumingot = VanillaFactory.createItem("osmium_ingot");
+osmiumingot.maxStackSize = 64;
+osmiumingot.beaconPayment = false;
+osmiumingot.register();
+
+var osmiumegg = VanillaFactory.createItem("osmium_egg");
+osmiumegg.maxStackSize = 64;
+osmiumegg.beaconPayment = false;
+osmiumegg.register();
+
+var meatballattunedcrystal = VanillaFactory.createItem("meatball_attuned_crystal");
+meatballattunedcrystal.maxStackSize = 64;
+meatballattunedcrystal.beaconPayment = false;
+meatballattunedcrystal.register();
+
+var nightflyegg = VanillaFactory.createItem("nightfly_egg");
+nightflyegg.maxStackSize = 64;
+nightflyegg.beaconPayment = false;
+nightflyegg.register();
+
+var ogeritelattice = VanillaFactory.createItem("ogerite_crystal_lattice");
+ogeritelattice.maxStackSize = 64;
+ogeritelattice.beaconPayment = false;
+ogeritelattice.register();
+
+var ghoulspirit = VanillaFactory.createItem("ghoul_spirit");
+ghoulspirit.maxStackSize = 64;
+ghoulspirit.beaconPayment = false;
+ghoulspirit.register();

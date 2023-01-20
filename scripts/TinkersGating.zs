@@ -185,3 +185,13 @@ recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "plustic:laser_medium"
 [<environmentaltech:laser_lens_crystal>, <tconstruct:pattern>, <environmentaltech:laser_lens_crystal>],
 [<environmentaltech:laser_lens_crystal>, <contenttweaker:flood_stone>, <environmentaltech:laser_lens_crystal>]]);
 
+recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "plustic:pipe_piece"}),
+[[<buildcrafttransport:wire:9>, <contenttweaker:flying_meatball>, <buildcrafttransport:wire:9>],
+[<buildcrafttransport:wire:9>, <tconstruct:pattern>, <buildcrafttransport:wire:9>],
+[<buildcrafttransport:wire:9>, <contenttweaker:flying_meatball>, <buildcrafttransport:wire:9>]]);
+
+recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "plustic:battery_cell"}),
+[[null, <techreborn:lapotronicorb>, null],
+[null, <tconstruct:pattern>, null],
+[null, <contenttweaker:mithminite_core>, null]]);
+

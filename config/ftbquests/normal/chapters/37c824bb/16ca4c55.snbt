@@ -1,7 +1,7 @@
 {
 	x: 74.0d,
 	y: -1.5d,
-	description: "Automate these",
+	description: "Automate these! Ogerite makes it easy!",
 	dependencies: [
 		"e18a08ef"
 	],

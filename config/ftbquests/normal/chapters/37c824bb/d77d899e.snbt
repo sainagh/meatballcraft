@@ -1,0 +1,23 @@
+{
+	icon: "projectred-fabrication:ic_blueprint",
+	x: 26.0d,
+	y: -1.5d,
+	description: "Use a diamond chisel to transition between blueprints!",
+	text: [
+		"The following blueprints are craftable, and can be turned into all others.",
+		"Iron Centrifuge for most machines!",
+		"Tier 1 mythic miner for all mythic miners!",
+		"Neutronium Cannon for chapter 6 multiblocks!",
+		"Relativistic Collapser for chapter 9 multiblocks!",
+		"Mythic Processor Alloy Fornace for all mythic processors!"
+	],
+	dependencies: [
+		"f2937072"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ab507a04",
+		type: "checkmark",
+		title: "Modular Machinery Info"
+	}]
+}

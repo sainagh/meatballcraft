@@ -417,3 +417,32 @@ recursivetesseract.itemRightClick = function(stack, world, player, hand) {
 };
 recursivetesseract.glowing = true;
 recursivetesseract.register();
+
+
+
+var starcore = VanillaFactory.createItem("star_core");
+starcore.maxStackSize = 1;
+starcore.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("fill ~-1 ~-1 ~-1 ~1 ~1 ~1 contenttweaker:miniature_star 0 replace contenttweaker:sednanite_stabilizer", player, world, true, true);
+	return "Pass";
+};
+starcore.glowing = true;
+starcore.register();
+
+var pulsarcore = VanillaFactory.createItem("pulsar_core");
+pulsarcore.maxStackSize = 1;
+pulsarcore.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("fill ~-1 ~-1 ~-1 ~1 ~1 ~1 contenttweaker:miniature_pulsar 0 replace contenttweaker:sednanite_stabilizer", player, world, true, true);
+	return "Pass";
+};
+pulsarcore.glowing = true;
+pulsarcore.register();
+
+var blackholecore = VanillaFactory.createItem("black_hole_core");
+blackholecore.maxStackSize = 1;
+blackholecore.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("fill ~-1 ~-1 ~-1 ~1 ~1 ~1 contenttweaker:miniature_black_hole 0 replace contenttweaker:sednanite_stabilizer", player, world, true, true);
+	return "Pass";
+};
+blackholecore.glowing = true;
+blackholecore.register();

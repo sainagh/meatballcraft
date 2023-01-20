@@ -526,3 +526,84 @@ darmstadtium.register();
 
 var oganesson = VanillaFactory.createFluid("oganesson", Color.fromHex("1e229e"));
 oganesson.register();
+
+var roentgenium = VanillaFactory.createFluid("roentgenium", Color.fromHex("3b0018"));
+roentgenium.register();
+
+var moltenawakened = VanillaFactory.createFluid("molten_awakened", Color.fromHex("ffa200"));
+moltenawakened.register();
+
+var decayinducingmatter = VanillaFactory.createFluid("decay_inducing_matter", Color.fromHex("452f08"));
+decayinducingmatter.register();
+
+var energeticogerite = VanillaFactory.createFluid("energetic_ogerite", Color.fromHex("1d6e26"));
+energeticogerite.register();
+
+var copernicium = VanillaFactory.createFluid("copernicium", Color.fromHex("5e68f2"));
+copernicium.register();
+
+var nihonium = VanillaFactory.createFluid("nihonium", Color.fromHex("1d1d1f"));
+nihonium.register();
+
+var flerovium = VanillaFactory.createFluid("flerovium", Color.fromHex("8f0a03"));
+flerovium.register();
+
+var moscovium = VanillaFactory.createFluid("moscovium", Color.fromHex("c9c74d"));
+moscovium.register();
+
+var livermorium = VanillaFactory.createFluid("livermorium", Color.fromHex("d77cde"));
+livermorium.register();
+
+var technetium = VanillaFactory.createFluid("technetium", Color.fromHex("a595a6"));
+technetium.register();
+
+var technetiumdiss = VanillaFactory.createFluid("technetium_disulfide", Color.fromHex("a595b6"));
+technetiumdiss.register();
+
+var primedtechnetium = VanillaFactory.createFluid("primed_technetium", Color.fromHex("a595a3"));
+primedtechnetium.register();
+
+var tennessine = VanillaFactory.createFluid("tennessine", Color.fromHex("96546b"));
+tennessine.register();
+
+var meatballium = VanillaFactory.createFluid("meatballium", Color.fromHex("70132f"));
+meatballium.register();
+
+var hassium = VanillaFactory.createFluid("hassium", Color.fromHex("555559"));
+hassium.register();
+
+var inbalancedmatter = VanillaFactory.createFluid("unbalanced_negative_matter", Color.fromHex("99ff00"));
+inbalancedmatter.register();
+
+var nightmarefluidhydrogen = VanillaFactory.createFluid("nightmare_binder_hydrogen", Color.fromHex("19a664"));
+nightmarefluidhydrogen.register();
+
+var nightmarefluidoxygen = VanillaFactory.createFluid("nightmare_binder_oxygen", Color.fromHex("097d47"));
+nightmarefluidoxygen.register();
+
+var nightmarefluidduterium = VanillaFactory.createFluid("nightmare_binder_deuterium", Color.fromHex("78ebb5"));
+nightmarefluidduterium.register();
+
+var nightmarefluidtritium = VanillaFactory.createFluid("nightmare_binder_tritium", Color.fromHex("90d4b4"));
+nightmarefluidtritium.register();
+
+var nightmarefluidiron = VanillaFactory.createFluid("nightmare_binder_iron", Color.fromHex("316b50"));
+nightmarefluidiron.register();
+
+var nightmarefluidnickel = VanillaFactory.createFluid("nightmare_binder_nickel", Color.fromHex("1d593d"));
+nightmarefluidnickel.register();
+
+var nightmarefluidlead = VanillaFactory.createFluid("nightmare_binder_lead", Color.fromHex("0a6e3f"));
+nightmarefluidlead.register();
+
+var nightmarefluidmercury = VanillaFactory.createFluid("nightmare_binder_mercury", Color.fromHex("0a6e3f"));
+nightmarefluidmercury.register();
+
+var nightmarefluidtin = VanillaFactory.createFluid("nightmare_binder_tin", Color.fromHex("0a6e3f"));
+nightmarefluidtin.register();
+
+var possessedstarlight = VanillaFactory.createFluid("possessed_starlight", Color.fromHex("8c8194"));
+possessedstarlight.register();
+
+var whisperingstarlight = VanillaFactory.createFluid("whispering_starlight", Color.fromHex("7b668a"));
+whisperingstarlight.register();

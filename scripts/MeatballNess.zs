@@ -21,3 +21,13 @@ recipes.addShaped(<contenttweaker:skeletal_callstone>,
 [<avaritia:cosmic_meatballs>, <contenttweaker:hard_bone>, <avaritia:cosmic_meatballs>],
 [<forestry:bee_combs:5>, <avaritia:cosmic_meatballs>, <forestry:bee_combs:5>]]);
 
+recipes.addShaped(<contenttweaker:fluix_callstone>,
+[[<appliedenergistics2:material:12>, <appliedenergistics2:material:1>, <appliedenergistics2:material:12>],
+[<appliedenergistics2:material:1>, <divinerpg:ender_shards>, <appliedenergistics2:material:1>],
+[<appliedenergistics2:material:12>, <appliedenergistics2:material:1>, <appliedenergistics2:material:12>]]);
+
+recipes.addShaped(<contenttweaker:aesir_rift>,
+[[<contenttweaker:bifrost_gem>, <contenttweaker:reinforced_shyre_bricks>, <contenttweaker:bifrost_gem>],
+[<contenttweaker:reinforced_shyre_bricks>, <contenttweaker:bright_matter>, <contenttweaker:reinforced_shyre_bricks>],
+[<contenttweaker:bifrost_gem>, <contenttweaker:reinforced_shyre_bricks>, <contenttweaker:bifrost_gem>]]);
+

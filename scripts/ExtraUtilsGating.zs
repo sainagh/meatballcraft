@@ -126,7 +126,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:rainbowgenerator:0>,
 <extrautils2:machine>.withTag({Type: "extrautils2:generator_netherstar"}), <extrautils2:machine>.withTag({Type: "extrautils2:generator_tnt"}), <extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"})], 
 
 [null, null, null, 
-null, null, null, 
+null, <contenttweaker:rainbow_egg>, null, 
 null, null, null], 
 
 [<contenttweaker:rainbow_core>, <contenttweaker:rainbow_core>, <contenttweaker:rainbow_core>, 
@@ -134,7 +134,7 @@ null, null, null],
 <contenttweaker:rainbow_core>, <contenttweaker:rainbow_core>, <contenttweaker:rainbow_core>], 
 
 [null, null, null, 
-null, null, null, 
+null, <contenttweaker:rainbow_egg>, null, 
 null, null, null], 
 
 [<buildcraftsilicon:redstone_chipset:4>, <nuclearcraft:fusion_connector>, <nuclearcraft:fusion_connector>, 
@@ -142,7 +142,7 @@ null, null, null],
 <nuclearcraft:fusion_connector>, <nuclearcraft:fusion_connector>, <buildcraftsilicon:redstone_chipset:4>], 
 
 [null, null, null, 
-null, null, null, 
+null, <contenttweaker:rainbow_egg>, null, 
 null, null, null], 
 
 [<contenttweaker:rainbow_core>, <contenttweaker:rainbow_core>, <contenttweaker:rainbow_core>, 
@@ -150,7 +150,7 @@ null, null, null],
 <contenttweaker:rainbow_core>, <contenttweaker:rainbow_core>, <contenttweaker:rainbow_core>], 
 
 [null, null, null, 
-null, null, null, 
+null, <contenttweaker:rainbow_egg>, null, 
 null, null, null], 
 
 [<extrautils2:machine>.withTag({Type: "extrautils2:generator_potion"}), <extrautils2:machine>.withTag({Type: "extrautils2:generator_ender"}), <extrautils2:machine>.withTag({Type: "extrautils2:generator_redstone"}), 
@@ -175,10 +175,10 @@ mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:machine:0>,
 
 recipes.removeShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}));
 
-recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}),
-[[null, <minecraft:enchanted_book>, null],
-[<minecraft:diamond>, <extrautils2:machine:0>, <minecraft:diamond>],
-[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+// recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}),
+// [[null, <minecraft:enchanted_book>, null],
+// [<minecraft:diamond>, <extrautils2:machine:0>, <minecraft:diamond>],
+// [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 
 recipes.removeShaped(<extrautils2:lawsword>);
 
@@ -202,7 +202,7 @@ recipes.addHiddenShaped("lawkingofpiratesone",
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}));
 
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}),
-[[null, <extrautils2:opinium:8>, null],
+[[null, <minecraft:enchanted_book>, null],
 [<divinerpg:corrupted_stone>, <extrautils2:machine:0>, <divinerpg:corrupted_stone>],
 [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 

@@ -2,7 +2,8 @@
 	x: -1.0d,
 	y: 4.0d,
 	text: [
-		"Found in Darklands biomes"
+		"Found in Darklands biomes",
+		"Found in dragon dens."
 	],
 	dependencies: [
 		"d707b772"

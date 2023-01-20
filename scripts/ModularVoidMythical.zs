@@ -347,6 +347,8 @@ mith5.addItemOutput(<projectex:power_flower:3>);
 mith5.setChance(0.05);
 mith5.addItemOutput(<aoa3:rune_box>);
 mith5.setChance(0.3);
+mith5.addItemOutput(<contenttweaker:nethengeic_gem>*12);
+mith5.setChance(0.5);
 mith5.addItemOutput(<contenttweaker:tier5_token>);
 mith5.build();
 
@@ -1259,15 +1261,11 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:fine_mineral_dust>
 
 mods.nuclearcraft.dissolver.addRecipe([
 	<contenttweaker:fine_mineral_dust>, 
-	<fluid:ogerite>*12, 
-	<fluid:primal_ogerite>*12, 
+	<fluid:ogerite>*144, 
+	<fluid:primal_ogerite>*144, 
 	0.2, 10.2, 0.5
 ]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:ogerite>*144, 
-<fluid:mana>*160, 
-<fluid:primal_ogerite>*144, 
-null]);
 
 mods.tconstruct.Melting.addRecipe(<fluid:ogerite> * 144,<materialpart:ogerite:ingot>);
 
@@ -1701,12 +1699,12 @@ null,null,null],
 null,null,null]]);
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:brightseel_alloy_plate>, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:brightseel_alloy_plate>*2, 
 [[<bigreactors:mineralanglesite>, <contenttweaker:brightsteel_alloy_ingot>, <bigreactors:mineralbenitoite>], 
 [<contenttweaker:tungsten_molybdenum_dust>, <materialpart:brightsteel:ingot>, <contenttweaker:tungsten_molybdenum_dust>], 
 [<bigreactors:mineralbenitoite>, <contenttweaker:brightsteel_alloy_ingot>, <bigreactors:mineralanglesite>]]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:brightseel_alloy_gear>, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:brightseel_alloy_gear>*4, 
 [[<materialpart:vibranium_alloy:gear>, <contenttweaker:brightsteel_alloy_ingot>, <materialpart:vibranium_alloy:gear>], 
 [<contenttweaker:brightsteel_alloy_ingot>, <aoa3:elecanium_block>, <contenttweaker:brightsteel_alloy_ingot>], 
 [<materialpart:vibranium_alloy:gear>, <contenttweaker:brightsteel_alloy_ingot>, <materialpart:vibranium_alloy:gear>]]);
@@ -1946,13 +1944,21 @@ null,null,null,
 <avaritia:resource:1>,<avaritia:resource:1>,<avaritia:resource:1>,
 <avaritia:resource:1>,<avaritia:resource:1>,<contenttweaker:dream_cluster>]]);
 
-val eterabyssite = RecipeBuilder.newBuilder("eterabyssite","dragonfire_crucible",100);
-eterabyssite.addFluidInput(<fluid:eternal_dragon_fire>*150);
-eterabyssite.addItemInput(<abyssalcraft:crystalcluster:13>);
-eterabyssite.addItemInput(<abyssalcraft:crystalcluster:14>);
-eterabyssite.addItemInput(<abyssalcraft:crystalcluster2:6>);
-eterabyssite.addItemOutput(<materialpart:abyssite:ingot>);
-eterabyssite.build();
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:abyssite_crystal>, 
+1000, 
+<abyssalcraft:crystalcluster:14>, 
+[
+<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.discidia", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}), 
+<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.armara", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.vicio", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.aevitas", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.evorsio", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.lucerna", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),
+<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.mineralis", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}})
+]);
+
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:abyssite_crystal>, <fluid:plasma>*10, <materialpart:abyssite:ingot>]);
+
 
 mods.nuclearcraft.melter.addRecipe([<materialpart:abyssite:ingot>, <fluid:abyssite>*144]);
 
@@ -2095,6 +2101,7 @@ val spatcruc6 = RecipeBuilder.newBuilder("spatialcruc6","spatial_crucible",200);
 spatcruc6.addEnergyPerTickInput(120000);
 spatcruc6.addItemInput(<contenttweaker:skythern_star>);
 spatcruc6.addItemInput(<projectex:matter:7>*6);
+spatcruc6.addItemInput(<materialpart:chaos:ingot>);
 spatcruc6.addItemInput(<contenttweaker:unidentified_ingot>);
 spatcruc6.addFluidOutput(<fluid:nightmarish_matter>*2000);
 spatcruc6.build();
@@ -2173,7 +2180,7 @@ true,
 game.setLocalization("ac.ritual.VetheaWhiteInfusion", "Vethea White Hole Infusion"); 
 game.setLocalization("ac.ritual.VetheaWhiteInfusion.desc", "Bring a white hole into existance through eldritch infusion!");
 
-val edendragonref = RecipeBuilder.newBuilder("edendragonref","dragonfire_crucible",300);
+val edendragonref = RecipeBuilder.newBuilder("edendragonref","dragonfire_crucible",100);
 edendragonref.addFluidInput(<fluid:twilight_fire>*1000);
 edendragonref.addItemInput(<divinerpg:eden_chunk>);
 edendragonref.addItemInput(<contenttweaker:precasia_garnet>);
@@ -2185,7 +2192,7 @@ edendragonref.addItemInput(<contenttweaker:abyss_garnet>);
 edendragonref.addItemOutput(<contenttweaker:eden_refined_gem>);
 edendragonref.build();
 
-val wildwooddragonref = RecipeBuilder.newBuilder("wildwooddragonref","dragonfire_crucible",300);
+val wildwooddragonref = RecipeBuilder.newBuilder("wildwooddragonref","dragonfire_crucible",100);
 wildwooddragonref.addFluidInput(<fluid:twilight_fire>*1000);
 wildwooddragonref.addItemInput(<divinerpg:wildwood_chunk>);
 wildwooddragonref.addItemInput(<contenttweaker:candyland_garnet>);
@@ -2199,7 +2206,7 @@ wildwooddragonref.addItemInput(<contenttweaker:vox_ponds_garnet>);
 wildwooddragonref.addItemOutput(<contenttweaker:wildwood_refined_gem>);
 wildwooddragonref.build();
 
-val apalachiadragonref = RecipeBuilder.newBuilder("apalachiadragonref","dragonfire_crucible",300);
+val apalachiadragonref = RecipeBuilder.newBuilder("apalachiadragonref","dragonfire_crucible",100);
 apalachiadragonref.addFluidInput(<fluid:twilight_fire>*1000);
 apalachiadragonref.addItemInput(<divinerpg:wildwood_chunk>);
 apalachiadragonref.addItemInput(<contenttweaker:runandor_garnet>);
@@ -2208,7 +2215,7 @@ apalachiadragonref.addItemInput(<contenttweaker:borean_garnet>);
 apalachiadragonref.addItemOutput(<contenttweaker:apalachia_refined_gem>);
 apalachiadragonref.build();
 
-val skytherndragonref = RecipeBuilder.newBuilder("skytherndragonref","dragonfire_crucible",300);
+val skytherndragonref = RecipeBuilder.newBuilder("skytherndragonref","dragonfire_crucible",100);
 skytherndragonref.addFluidInput(<fluid:twilight_fire>*1000);
 skytherndragonref.addItemInput(<divinerpg:wildwood_chunk>);
 skytherndragonref.addItemInput(<contenttweaker:ancient_cavern_garnet>);
@@ -2234,17 +2241,17 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:collapser_casing>*
 <contenttweaker:awakened_electromagnet>, <contenttweaker:unidentified_plate>, <contenttweaker:awakened_electromagnet>, 
 <contenttweaker:high_strength_transmission>, <contenttweaker:enchanted_myrmitite>, <contenttweaker:corrupted_aragonite>], 
 
-[<thaumadditions:adaminite_ingot>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:enchanted_myrmitite>, 
+[<thaumadditions:adaminite_ingot>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:tungsten_molybdenum_dust>, 
 <nuclearcraft:fusion_connector>, <contenttweaker:twilight_gear>, <nuclearcraft:fusion_connector>, 
-<contenttweaker:enchanted_myrmitite>, <contenttweaker:imperfect_gem_of_the_cosmos>, <thaumadditions:adaminite_ingot>], 
+<contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:imperfect_gem_of_the_cosmos>, <thaumadditions:adaminite_ingot>], 
 
 [<contenttweaker:gravitite_stone>, <techreborn:fusion_coil>, <contenttweaker:unidentified_plate>, 
 <contenttweaker:twilight_gear>, <contenttweaker:nightmare_machine_case>, <contenttweaker:twilight_gear>, 
 <contenttweaker:unidentified_plate>, <techreborn:fusion_coil>, <contenttweaker:gravitite_stone>], 
 
-[<thaumadditions:adaminite_ingot>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:enchanted_myrmitite>, 
+[<thaumadditions:adaminite_ingot>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:tungsten_molybdenum_dust>, 
 <nuclearcraft:fusion_connector>, <contenttweaker:twilight_gear>, <nuclearcraft:fusion_connector>, 
-<contenttweaker:enchanted_myrmitite>, <contenttweaker:imperfect_gem_of_the_cosmos>, <thaumadditions:adaminite_ingot>], 
+<contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:imperfect_gem_of_the_cosmos>, <thaumadditions:adaminite_ingot>], 
 
 [<contenttweaker:corrupted_aragonite>, <contenttweaker:enchanted_myrmitite>, <contenttweaker:high_strength_transmission>, 
 <contenttweaker:awakened_electromagnet>, <contenttweaker:unidentified_plate>, <contenttweaker:awakened_electromagnet>, 
@@ -2452,6 +2459,11 @@ recipes.addShaped(<materialpart:hassium:ingot>,
 
 mods.nuclearcraft.infuser.addRecipe([<materialpart:myrmitite:dust>, <fluid:niobium>*10, <contenttweaker:myrminiobite_ingot>]);
 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_star>*2, 
+2000000, 
+<minecraft:nether_star>, 
+[<contenttweaker:myrminiobite_ingot>, <contenttweaker:hafnium_chunk>, <contenttweaker:tantalum_chunk>, <contenttweaker:cerium_ingot>, <materialpart:hassium:ingot>, <contenttweaker:ruthenium_ingot>]);
+
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_star>, 
 2000000, 
 <minecraft:nether_star>, 
@@ -2488,7 +2500,7 @@ recipes.addShaped(<contenttweaker:compressed_realgar>,
 [<contenttweaker:universal_realgar>, <contenttweaker:universal_realgar>, <contenttweaker:universal_realgar>]]);
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:infinity_furnace_bricks>, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:infinity_furnace_bricks>*4, 
 [[<advancedrocketry:blastbrick>, <contenttweaker:draconic_machine_frame>, <advancedrocketry:blastbrick>, 
 <advancedrocketry:blastbrick>, <contenttweaker:ineffable_sun>, <advancedrocketry:blastbrick>, 
 <advancedrocketry:blastbrick>, <contenttweaker:draconic_machine_frame>, <advancedrocketry:blastbrick>], 
@@ -2588,10 +2600,10 @@ hassiumalloyinf.addItemInput(<aoa3:shyrestone_ingot>);
 hassiumalloyinf.addItemOutput(<contenttweaker:hassium_alloy_ingot>*3);
 hassiumalloyinf.build();
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:defined_ingot>*2, 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:arbiterite_crystal>*4, 
 1000000, 
-<contenttweaker:unidentified_ingot>, 
-[<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, <avaritia:block_resource:0>, <draconicevolution:chaotic_core>, <extendedcrafting:singularity_ultimate>, <contenttweaker:bright_matter>]);
+<contenttweaker:bright_matter>, 
+[<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>]);
 
 mods.techreborn.implosionCompressor.addRecipe(<contenttweaker:defined_plate>, <minecraft:stone:0>, <contenttweaker:defined_ingot>, <contenttweaker:bloodmaster_block>*4, 60, 512);
 
@@ -2752,7 +2764,7 @@ mods.avaritia.ExtremeCrafting.addShaped("makesupergemofthecosmos",
 <extrautils2:decorativesolid:8>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>],
 
 [<contenttweaker:recursive_powder>, null, <contenttweaker:big_slime>,
-null, <contenttweaker:cursed_sapphire>, null,
+<contenttweaker:tennessine_gem>, <contenttweaker:cursed_sapphire>, <contenttweaker:tennessine_gem>,
 <contenttweaker:big_slime>, null, <contenttweaker:recursive_powder>],
 
 [<contenttweaker:clunky_chunky_brick>, null, null,
@@ -2776,7 +2788,7 @@ null, null, <contenttweaker:clunky_chunky_brick>],
 null, null, <contenttweaker:clunky_chunky_brick>],
 
 [<contenttweaker:recursive_powder>, null, <contenttweaker:big_slime>,
-null, <contenttweaker:cursed_sapphire>, null,
+<contenttweaker:tennessine_gem>, <contenttweaker:cursed_sapphire>, <contenttweaker:tennessine_gem>,
 <contenttweaker:big_slime>, null, <contenttweaker:recursive_powder>],
 
 [<contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <extrautils2:decorativesolid:8>,
@@ -2891,7 +2903,7 @@ recipes.addShaped(<contenttweaker:everburner>,
 
 recipes.addShaped(<contenttweaker:brightsteel_conduit>,
 [[<contenttweaker:muon_crystal>, <avaritia:block_resource:0>, <contenttweaker:muon_crystal>],
-[<contenttweaker:hassium_alloy_ingot>, <contenttweaker:everburning_seed>, <contenttweaker:hassium_alloy_ingot>],
+[<contenttweaker:hassium_alloy_ingot>, <contenttweaker:brightsteel_case>, <contenttweaker:hassium_alloy_ingot>],
 [<contenttweaker:muon_crystal>, <contenttweaker:bright_matter>, <contenttweaker:muon_crystal>]]);
 
 

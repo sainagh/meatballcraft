@@ -6,13 +6,6 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "85aec4e8",
-		type: "item",
-		items: [{
-			item: "contenttweaker:miniature_black_hole"
-		}]
-	},
-	{
 		uid: "a9ffe4f4",
 		type: "item",
 		items: [{
@@ -32,5 +25,14 @@
 		items: [{
 			item: "contenttweaker:dyson_compressor"
 		}]
+	},
+	{
+		uid: "34b20064",
+		type: "item",
+		items: [{
+			item: "contenttweaker:black_hole_core"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

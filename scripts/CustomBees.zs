@@ -8,7 +8,7 @@ recipes.addShaped(<careerbees:ingredients:12>*15,
 [<minecraft:nether_star>, <gendustry:honey_comb:13349>, null],
 [<minecraft:nether_star>, null, null]]);
 
-mods.forestry.Squeezer.addRecipe(<fluid:hot_spring_water>*250, 
+mods.forestry.Squeezer.addRecipe(<fluid:hot_spring_water>*1000, 
 [<gendustry:honey_comb:13331>], 30);
 
 recipes.addShaped(<iceandfire:gorgon_head>,
@@ -16,5 +16,5 @@ recipes.addShaped(<iceandfire:gorgon_head>,
 [<minecraft:cobblestone>, <gendustry:honey_comb:13341>, <minecraft:cobblestone>],
 [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 
-mods.forestry.Squeezer.addRecipe(<fluid:formic_acid>*100, 
+mods.forestry.Squeezer.addRecipe(<fluid:formic_acid>*1000, 
 [<gendustry:honey_comb:13340>], 30);

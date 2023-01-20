@@ -4,7 +4,7 @@ mods.thaumcraft.Infusion.registerRecipe("sednaartifactinfusion", "",
 <contenttweaker:sedna_artifact>, 5,
 [<aspect:alienis>*100, <aspect:visum>*100, <aspect:ventus>*100], 
 <contenttweaker:divine_star>, 
-[<ore:dragonScaleBlock>, <iceandfire:dragon_skull:1>, <libvulpes:productgem:0>, <libvulpes:productgem:0>, <libvulpes:productgem:0>, <libvulpes:productgem:0>]);
+[<ore:dragonScaleBlock>, <thaumicaugmentation:research_notes:0>, <libvulpes:productgem:0>, <libvulpes:productgem:0>, <libvulpes:productgem:0>, <libvulpes:productgem:0>]);
 
 mods.thaumcraft.Infusion.registerRecipe("rheniaartifactinfusion", "", 
 <contenttweaker:rhenia_artifact>, 5,
@@ -16,7 +16,7 @@ mods.thaumcraft.Infusion.registerRecipe("pixoniaartifactinf", "",
 <contenttweaker:pixonia_artifact>, 5,
 [<aspect:alienis>*100, <aspect:praecantatio>*100, <aspect:cognitio>*100], 
 <draconicevolution:draconic_block>, 
-[<contenttweaker:rainbow_gemstones>, <contenttweaker:rainbow_gemstones>, <contenttweaker:lyonite_plate>, <contenttweaker:lyonite_plate>]);
+[<contenttweaker:rainbow_gemstones>, <contenttweaker:rainbow_gemstones>, <contenttweaker:lyonite_plate>, <contenttweaker:lyonite_plate>, <contenttweaker:fluxed_electrum_shaft>, <contenttweaker:fluxed_electrum_shaft>]);
 
 mods.thaumcraft.Infusion.registerRecipe("alkemiaartifactinf", "", 
 <contenttweaker:alkemia_artifact>, 9,
@@ -25,4 +25,4 @@ mods.thaumcraft.Infusion.registerRecipe("alkemiaartifactinf", "",
 [<contenttweaker:shyre_crystal>, <contenttweaker:shyre_crystal>, 
 <contenttweaker:shyre_crystal>, <contenttweaker:shyre_crystal>, 
 <contenttweaker:sacred_cinders_log>, <contenttweaker:sacred_cinders_log>, 
-<projectex:power_flower:15>, <projectex:matter:11>]);
+<projectex:power_flower:15>, <contenttweaker:low_density_salt>]);

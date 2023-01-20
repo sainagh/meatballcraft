@@ -18,7 +18,7 @@ mapBright += enchlistBright[4].makeEnchantment(10).makeTag();
 mapBright += enchlistBright[5].makeEnchantment(10).makeTag();
 mapBright += enchlistBright[6].makeEnchantment(10).makeTag();
 
-val reci1 = RecipeBuilder.newBuilder("electroblob1","wizardry_combiner",400);
+val reci1 = RecipeBuilder.newBuilder("electroblob1","wizardry_combiner",100);
 reci1.addEnergyPerTickInput(15000);
 reci1.addItemInput(<ebwizardry:magic_crystal:0>*4);
 reci1.addItemInput(<minecraft:ghast_tear>*4);
@@ -26,7 +26,7 @@ reci1.addItemInput(<minecraft:book>);
 reci1.addItemOutput(<ebwizardry:storage_upgrade>);
 reci1.build();
 
-val reci2 = RecipeBuilder.newBuilder("electroblob2","wizardry_combiner",400);
+val reci2 = RecipeBuilder.newBuilder("electroblob2","wizardry_combiner",100);
 reci2.addEnergyPerTickInput(15000);
 reci2.addItemInput(<ebwizardry:magic_crystal:5>*4);
 reci2.addItemInput(<minecraft:skull:2>*4);
@@ -34,7 +34,7 @@ reci2.addItemInput(<minecraft:book>);
 reci2.addItemOutput(<ebwizardry:siphon_upgrade>);
 reci2.build();
 
-val reci3 = RecipeBuilder.newBuilder("electroblob3","wizardry_combiner",400);
+val reci3 = RecipeBuilder.newBuilder("electroblob3","wizardry_combiner",100);
 reci3.addEnergyPerTickInput(15000);
 reci3.addItemInput(<ebwizardry:magic_crystal:1>*4);
 reci3.addItemInput(<minecraft:ghast_tear>*4);
@@ -42,7 +42,7 @@ reci3.addItemInput(<minecraft:book>);
 reci3.addItemOutput(<ebwizardry:condenser_upgrade>);
 reci3.build();
 
-val reci4 = RecipeBuilder.newBuilder("electroblob4","wizardry_combiner",400);
+val reci4 = RecipeBuilder.newBuilder("electroblob4","wizardry_combiner",100);
 reci4.addEnergyPerTickInput(15000);
 reci4.addItemInput(<ebwizardry:magic_crystal:6>*4);
 reci4.addItemInput(<minecraft:sponge>*4);
@@ -50,7 +50,7 @@ reci4.addItemInput(<minecraft:book>);
 reci4.addItemOutput(<ebwizardry:range_upgrade>);
 reci4.build();
 
-val reci5 = RecipeBuilder.newBuilder("electroblob5","wizardry_combiner",400);
+val reci5 = RecipeBuilder.newBuilder("electroblob5","wizardry_combiner",100);
 reci5.addEnergyPerTickInput(15000);
 reci5.addItemInput(<ebwizardry:magic_crystal:2>*4);
 reci5.addItemInput(<minecraft:skull:1>*4);
@@ -58,7 +58,7 @@ reci5.addItemInput(<minecraft:book>);
 reci5.addItemOutput(<ebwizardry:duration_upgrade>);
 reci5.build();
 
-val reci6 = RecipeBuilder.newBuilder("electroblob6","wizardry_combiner",400);
+val reci6 = RecipeBuilder.newBuilder("electroblob6","wizardry_combiner",100);
 reci6.addEnergyPerTickInput(15000);
 reci6.addItemInput(<ebwizardry:magic_crystal:7>*4);
 reci6.addItemInput(<minecraft:shulker_shell>*4);
@@ -66,7 +66,7 @@ reci6.addItemInput(<minecraft:book>);
 reci6.addItemOutput(<ebwizardry:cooldown_upgrade>);
 reci6.build();
 
-val reci7 = RecipeBuilder.newBuilder("electroblob7","wizardry_combiner",400);
+val reci7 = RecipeBuilder.newBuilder("electroblob7","wizardry_combiner",100);
 reci7.addEnergyPerTickInput(15000);
 reci7.addItemInput(<ebwizardry:magic_crystal:3>*4);
 reci7.addItemInput(<minecraft:skull:4>*4);
@@ -74,7 +74,7 @@ reci7.addItemInput(<minecraft:book>);
 reci7.addItemOutput(<ebwizardry:blast_upgrade>);
 reci7.build();
 
-val reci8 = RecipeBuilder.newBuilder("electroblob8","wizardry_combiner",400);
+val reci8 = RecipeBuilder.newBuilder("electroblob8","wizardry_combiner",100);
 reci8.addEnergyPerTickInput(15000);
 reci8.addItemInput(<ebwizardry:magic_crystal:4>*4);
 reci8.addItemInput(<minecraft:nether_star>*4);
@@ -82,7 +82,7 @@ reci8.addItemInput(<minecraft:book>);
 reci8.addItemOutput(<ebwizardry:attunement_upgrade>);
 reci8.build();
 
-val reci9 = RecipeBuilder.newBuilder("electroblob9","wizardry_combiner",400);
+val reci9 = RecipeBuilder.newBuilder("electroblob9","wizardry_combiner",100);
 reci9.addEnergyPerTickInput(15000);
 reci9.addItemInput(<ebwizardry:magic_crystal:7>*4);
 reci9.addItemInput(<minecraft:diamond>*4);
@@ -90,7 +90,7 @@ reci9.addItemInput(<minecraft:book>);
 reci9.addItemOutput(<ebwizardry:melee_upgrade>);
 reci9.build();
 
-val reci10 = RecipeBuilder.newBuilder("electroblob10","wizardry_combiner",400);
+val reci10 = RecipeBuilder.newBuilder("electroblob10","wizardry_combiner",100);
 reci10.addEnergyPerTickInput(15000);
 reci10.addItemInput(<ebwizardry:magic_crystal:0>);
 reci10.addItemInput(<ebwizardry:magic_crystal:1>);
@@ -104,28 +104,28 @@ reci10.addItemInput(<minecraft:diamond>);
 reci10.addItemOutput(<ebwizardry:grand_crystal>);
 reci10.build();
 
-val reci11 = RecipeBuilder.newBuilder("electroblob11","wizardry_combiner",400);
+val reci11 = RecipeBuilder.newBuilder("electroblob11","wizardry_combiner",100);
 reci11.addEnergyPerTickInput(15000);
 reci11.addItemInput(<ebwizardry:crystal_block:0>*2);
 reci11.addItemInput(<minecraft:book>);
 reci11.addItemOutput(<ebwizardry:arcane_tome:1>);
 reci11.build();
 
-val reci12 = RecipeBuilder.newBuilder("electroblob12","wizardry_combiner",400);
+val reci12 = RecipeBuilder.newBuilder("electroblob12","wizardry_combiner",100);
 reci12.addEnergyPerTickInput(15000);
 reci12.addItemInput(<ebwizardry:grand_crystal>*2);
 reci12.addItemInput(<minecraft:book>);
 reci12.addItemOutput(<ebwizardry:arcane_tome:2>);
 reci12.build();
 
-val reci13 = RecipeBuilder.newBuilder("electroblob13","wizardry_combiner",400);
+val reci13 = RecipeBuilder.newBuilder("electroblob13","wizardry_combiner",100);
 reci13.addEnergyPerTickInput(15000);
 reci13.addItemInput(<ebwizardry:astral_diamond>*2);
 reci13.addItemInput(<minecraft:book>);
 reci13.addItemOutput(<ebwizardry:arcane_tome:3>);
 reci13.build();
 
-val reci14 = RecipeBuilder.newBuilder("electroblob14","wizardry_combiner",400);
+val reci14 = RecipeBuilder.newBuilder("electroblob14","wizardry_combiner",100);
 reci14.addEnergyPerTickInput(15000);
 reci14.addItemInput(<botania:manaresource:2>);
 reci14.addItemInput(<astralsorcery:itemcraftingcomponent:2>*8);
@@ -275,7 +275,7 @@ reci28.addItemInput(<materialpart:dreaded_steel:ingot>*2);
 reci28.addItemOutput(<arcane_essentials:master_ice_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Ice Flamberg"}}));
 reci28.build();
 
-val reci29 = RecipeBuilder.newBuilder("electroblob29","wizardry_combiner",4000);
+val reci29 = RecipeBuilder.newBuilder("electroblob29","wizardry_combiner",100);
 reci29.addEnergyPerTickInput(15000);
 reci29.addItemInput(<advancedrocketry:moonturf>);
 reci29.addItemInput(<materialpart:chalcedony:ingot>*4);
@@ -322,7 +322,7 @@ reci33.addItemInput(<materialpart:lunastone:ingot>*5);
 reci33.addItemOutput(<contenttweaker:brightsteel_head>.withTag(mapBright));
 reci33.build();
 
-val reci34 = RecipeBuilder.newBuilder("electroblob34","wizardry_combiner",400);
+val reci34 = RecipeBuilder.newBuilder("electroblob34","wizardry_combiner",100);
 reci34.addEnergyPerTickInput(15000);
 reci34.addItemInput(<aoa3:ghostly_powder>);
 reci34.addItemInput(<xreliquary:mob_ingredient:9>);

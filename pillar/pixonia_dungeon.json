@@ -21,9 +21,9 @@
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "bewitchment:scorned_bricks_soft",
+	"filling": "minecraft:dirt",
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 800
+	"rarity": 1300
 }

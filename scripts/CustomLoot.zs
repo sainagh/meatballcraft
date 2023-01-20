@@ -392,3 +392,18 @@ val primordialmalevolence = LootTweaker.getTable("thebetweenlands:entities/fortr
 val primordialmalevolenceprism = primordialmalevolence.addPool("primordialmalevolenceprism", 1, 2, 1, 1);
 primordialmalevolenceprism.addItemEntry(<contenttweaker:primordial_prism>, 35);
 
+val rovingcube = LootTweaker.getTable("twilightforest:entities/roving_cube");
+val rovingcubeannhilation = rovingcube.addPool("rovingcubeannhilation", 1, 2, 1, 1);
+rovingcubeannhilation.addItemEntry(<twilightforest:cube_talisman>, 25);
+
+val netherfortress = LootTweaker.getTable("minecraft:chests/nether_bridge");
+val netherfortressspecial = netherfortress.addPool("netherfortressspecial", 1, 2, 1, 1);
+netherfortressspecial.addItemEntry(<abyssalcraft:coraliumore>*2, 10);
+
+val endcity = LootTweaker.getTable("minecraft:chests/end_city_treasure");
+val endcityspecial = endcity.addPool("endcityspecial", 1, 2, 1, 1);
+endcityspecial.addItemEntry(<thermalfoundation:material:134>, 15);
+
+val runicorn = LootTweaker.getTable("aoa3:entities/mobs/runandor/runicorn");
+val runicornprimordial = runicorn.addPool("runicornprimordial", 1, 1, 0, 0);
+runicornprimordial.addItemEntry(<contenttweaker:primordial_sliver>, 15);

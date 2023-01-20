@@ -500,5 +500,18 @@
             "draconicevolution:draconic_block",
             "draconicevolution:draconic_block"
         ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:flerovium_matrix",
+        "catalyst": "avaritia:resource,1,4",
+        "energy": 1000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:nethengeic_gem",
+            "contenttweaker:nethengeic_gem",
+            "contenttweaker:nethengeic_gem",
+            "contenttweaker:nethengeic_gem"
+        ]
     }
 ]

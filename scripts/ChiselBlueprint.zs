@@ -1,7 +1,7 @@
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:iron_centrifuge"}),
-[[<modularmachinery:itemmodularium>,<modularmachinery:itemmodularium>,<modularmachinery:itemmodularium>],
-[<modularmachinery:itemmodularium>,<minecraft:paper>,<modularmachinery:itemmodularium>],
-[<modularmachinery:itemmodularium>,<modularmachinery:itemmodularium>,<modularmachinery:itemmodularium>]]);
+[[<modularmachinery:itemmodularium>,null,<modularmachinery:itemmodularium>],
+[null,<minecraft:paper>,null],
+[<modularmachinery:itemmodularium>,null,<modularmachinery:itemmodularium>]]);
 
 mods.chisel.Carving.addGroup("modularblueprint");
 
@@ -99,10 +99,11 @@ mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itembluep
 
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:advanced_compression_engine"}));
 
+mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:herne_altar"}));
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:neutronium_cannon"}),
 [[null,null,null],
-[<avaritia:resource:2>,<minecraft:paper>,<modularmachinery:itemmodularium>],
+[<modularmachinery:itemmodularium>,<minecraft:paper>,<modularmachinery:itemmodularium>],
 [null,null,null]]);
 
 mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:neutronium_cannon"}));
@@ -114,9 +115,9 @@ mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:
 
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier1"}),
-[[<environmentaltech:structure_frame_1>,<modularmachinery:itemmodularium>,<environmentaltech:structure_frame_1>],
+[[null,<modularmachinery:itemmodularium>,null],
 [<modularmachinery:itemmodularium>,<minecraft:paper>,<modularmachinery:itemmodularium>],
-[<environmentaltech:structure_frame_1>,<modularmachinery:itemmodularium>,<environmentaltech:structure_frame_1>]]);
+[null,<modularmachinery:itemmodularium>,null]]);
 
 
 mods.chisel.Carving.addGroup("mythicvoidminer");
@@ -151,10 +152,10 @@ mods.chisel.Carving.addVariation("mythicvoidminer", <modularmachinery:itembluepr
 mods.chisel.Carving.addVariation("mythicvoidminer", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier29"}));
 
 
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_sphere"}),
-[[null,null,null],
-[<contenttweaker:magnetic_monopole>,<minecraft:paper>,<contenttweaker:magnetic_monopole>],
-[null,null,null]]);
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:relativistic_collapser"}),
+[[null,<modularmachinery:itemmodularium>,null],
+[null,<minecraft:paper>,null],
+[null,<modularmachinery:itemmodularium>,null]]);
 
 mods.chisel.Carving.addGroup("dysonstuff");
 
@@ -162,4 +163,20 @@ mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_irradiator"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_compressor"}));
-mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:herne_altar"}));
+mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:relativistic_collapser"}));
+
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_alloy_furnace"}),
+[[<modularmachinery:itemmodularium>,null,null],
+[null,<minecraft:paper>,null],
+[null,null,<modularmachinery:itemmodularium>]]);
+
+mods.chisel.Carving.addGroup("mythicprocessors");
+
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_alloy_furnace"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_empowerer"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_pulverizer"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_purifier"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_muon_extractor"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_gearworking_die"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_compactor"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:nightmare_electrolyzer"}));

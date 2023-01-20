@@ -32,5 +32,12 @@
 		items: [{
 			item: "nuclearcraft:salt_fission_frame"
 		}]
+	},
+	{
+		uid: "e86b825f",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_heater"
+		}]
 	}]
 }

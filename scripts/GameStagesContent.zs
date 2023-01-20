@@ -18,7 +18,12 @@ mods.MobStages.addStage("ModularStage", "thaumcraft:cultistknight", 0);
 
 mods.recipestages.Recipes.setRecipeStage("BloodmasterStage", <contenttweaker:nethersky_amber>);
 
-mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:bloodmaster_tome>, <nuclearcraft:depleted_fuel_uranium:4>, 0, 20,30,40);
+
+recipes.addShaped(<contenttweaker:bloodmaster_tome>,
+[[<bloodmagic:slate:0>, <nuclearcraft:depleted_fuel_uranium:4>, <bloodmagic:slate:0>],
+[<minecraft:redstone_block>, <minecraft:book>, <minecraft:redstone_block>],
+[<bloodmagic:slate:0>, <soulshardsrespawn:soul_shard>.withTag({binding: {kills: 1024, bound: "minecraft:blaze"}}), <bloodmagic:slate:0>]]);
+
 
 mods.recipestages.Recipes.setRecipeStage("DivineStage", <contenttweaker:realmstone>);
 
@@ -36,13 +41,13 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:singularity_master
 mods.recipestages.Recipes.setRecipeStage("DraconicStage", <draconicevolution:fusion_crafting_core>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:draconic_key>, 
-[[<extendedcrafting:material:12>, <extendedcrafting:material:12>, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, <extendedcrafting:material:12>, <extendedcrafting:material:12>], 
+[[<extendedcrafting:material:12>, <extendedcrafting:material:12>, <draconicevolution:draconium_block:0>, <contenttweaker:deeplands_garnet>, <draconicevolution:draconium_block:0>, <extendedcrafting:material:12>, <extendedcrafting:material:12>], 
 [<extendedcrafting:material:12>, <appliedenergistics2:spatial_pylon>, <contenttweaker:tritium_crystal>, <contenttweaker:ender_feather>, <contenttweaker:tritium_crystal>, <appliedenergistics2:spatial_pylon>, <extendedcrafting:material:12>], 
-[<draconicevolution:draconium_block:0>, <contenttweaker:tritium_crystal>, <extendedcrafting:singularity:49>, <materialpart:vibranium:ingot>, <extendedcrafting:singularity:50>, <contenttweaker:tritium_crystal>, <draconicevolution:draconium_block:0>], 
-[<draconicevolution:draconium_block:0>, <thaumicaugmentation:rift_jar>.withTag({seed: 1337, size: 100}), <materialpart:vibranium:ingot>, <minecraft:book>, <materialpart:vibranium:ingot>, <thaumicaugmentation:rift_jar>.withTag({seed: 1337, size: 100}), <draconicevolution:draconium_block:0>], 
-[<draconicevolution:draconium_block:0>, <contenttweaker:tritium_crystal>, <extendedcrafting:singularity:24>, <materialpart:vibranium:ingot>, <extendedcrafting:singularity:48>, <contenttweaker:tritium_crystal>, <draconicevolution:draconium_block:0>], 
+[<contenttweaker:abyss_garnet>, <contenttweaker:tritium_crystal>, <extendedcrafting:singularity:49>, <materialpart:vibranium:ingot>, <extendedcrafting:singularity:50>, <contenttweaker:tritium_crystal>, <contenttweaker:lelyetia_garnet>], 
+[<draconicevolution:draconium_block:0>, <thaumicaugmentation:rift_jar>.withTag({seed: 1337, size: 100}), <materialpart:vibranium:ingot>, <contenttweaker:crystalline_beryllium>, <materialpart:vibranium:ingot>, <thaumicaugmentation:rift_jar>.withTag({seed: 1337, size: 100}), <draconicevolution:draconium_block:0>], 
+[<contenttweaker:precasia_garnet>, <contenttweaker:tritium_crystal>, <extendedcrafting:singularity:24>, <materialpart:vibranium:ingot>, <extendedcrafting:singularity:48>, <contenttweaker:tritium_crystal>, <contenttweaker:barathos_garnet>], 
 [<extendedcrafting:material:12>, <appliedenergistics2:spatial_pylon>, <contenttweaker:tritium_crystal>, <contenttweaker:ender_feather>, <contenttweaker:tritium_crystal>, <appliedenergistics2:spatial_pylon>, <extendedcrafting:material:12>], 
-[<extendedcrafting:material:12>, <extendedcrafting:material:12>, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, <extendedcrafting:material:12>, <extendedcrafting:material:12>]]);
+[<extendedcrafting:material:12>, <extendedcrafting:material:12>, <draconicevolution:draconium_block:0>, <contenttweaker:creeponia_garnet>, <draconicevolution:draconium_block:0>, <extendedcrafting:material:12>, <extendedcrafting:material:12>]]);
 
 recipes.addShaped(<contenttweaker:minor_vethea_binding>, 
 [[null, <divinerpg:karos_lump>, null],
@@ -101,3 +106,4 @@ mods.DimensionStages.addDimensionStage("dynatos", 171);
 mods.DimensionStages.addDimensionStage("dynatos", 172);
 mods.DimensionStages.addDimensionStage("dynatos", 173);
 mods.DimensionStages.addDimensionStage("alkemia", 173);
+mods.DimensionStages.addDimensionStage("ExtendedCrafting", -1);
