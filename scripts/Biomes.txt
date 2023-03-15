@@ -1,0 +1,121 @@
+Biomes:
+-minecraft:ocean	Ocean
+-minecraft:plains	Plains
+-minecraft:desert	Desert
+-minecraft:extreme_hills	Extreme Hills
+-minecraft:forest	Forest
+-minecraft:taiga	Taiga
+-minecraft:swampland	Swampland
+-minecraft:river	River
+-minecraft:hell	Hell
+-minecraft:sky	The End
+-minecraft:frozen_ocean	FrozenOcean
+-minecraft:frozen_river	FrozenRiver
+-minecraft:ice_flats	Ice Plains
+-minecraft:ice_mountains	Ice Mountains
+-minecraft:mushroom_island	MushroomIsland
+-minecraft:mushroom_island_shore	MushroomIslandShore
+-minecraft:beaches	Beach
+-minecraft:desert_hills	DesertHills
+-minecraft:forest_hills	ForestHills
+-minecraft:taiga_hills	TaigaHills
+-minecraft:smaller_extreme_hills	Extreme Hills Edge
+-minecraft:jungle	Jungle
+-minecraft:jungle_hills	JungleHills
+-minecraft:jungle_edge	JungleEdge
+-minecraft:deep_ocean	Deep Ocean
+-minecraft:stone_beach	Stone Beach
+-minecraft:cold_beach	Cold Beach
+-minecraft:birch_forest	Birch Forest
+-minecraft:birch_forest_hills	Birch Forest Hills
+-minecraft:roofed_forest	Roofed Forest
+-minecraft:taiga_cold	Cold Taiga
+-minecraft:taiga_cold_hills	Cold Taiga Hills
+-minecraft:redwood_taiga	Mega Taiga
+-minecraft:redwood_taiga_hills	Mega Taiga Hills
+-minecraft:extreme_hills_with_trees	Extreme Hills+
+-minecraft:savanna	Savanna
+-minecraft:savanna_rock	Savanna Plateau
+-minecraft:mesa	Mesa
+-minecraft:mesa_rock	Mesa Plateau F
+-minecraft:mesa_clear_rock	Mesa Plateau
+-biomesoplenty:gravel_beach	Gravel Beach
+-biomesoplenty:white_beach	White Beach
+-biomesoplenty:origin_beach	Origin Beach
+-biomesoplenty:alps	Alps
+-biomesoplenty:bamboo_forest	Bamboo Forest
+-biomesoplenty:bayou	Bayou
+-biomesoplenty:bog	Bog
+-biomesoplenty:boreal_forest	Boreal Forest
+-biomesoplenty:brushland	Brushland
+-biomesoplenty:chaparral	Chaparral
+-biomesoplenty:cherry_blossom_grove	Cherry Blossom Grove
+-biomesoplenty:cold_desert	Cold Desert
+-biomesoplenty:coniferous_forest	Coniferous Forest
+-biomesoplenty:crag	Crag
+-biomesoplenty:dead_forest	Dead Forest
+-biomesoplenty:dead_swamp	Dead Swamp
+-biomesoplenty:eucalyptus_forest	Eucalyptus Forest
+-biomesoplenty:fen	Fen
+-biomesoplenty:flower_field	Flower Field
+-biomesoplenty:grassland	Grassland
+-biomesoplenty:grove	Grove
+-biomesoplenty:highland	Highland
+-biomesoplenty:land_of_lakes	Land of Lakes
+-biomesoplenty:lavender_fields	Lavender Fields
+-biomesoplenty:lush_desert	Lush Desert
+-biomesoplenty:lush_swamp	Lush Swamp
+-biomesoplenty:mangrove	Mangrove
+-biomesoplenty:maple_woods	Maple Woods
+-biomesoplenty:marsh	Marsh
+-biomesoplenty:meadow	Meadow
+-biomesoplenty:moor	Moor
+-biomesoplenty:mountain	Mountain
+-biomesoplenty:mystic_grove	Mystic Grove
+-biomesoplenty:ominous_woods	Ominous Woods
+-biomesoplenty:orchard	Orchard
+-biomesoplenty:outback	Outback
+-biomesoplenty:overgrown_cliffs	Overgrown Cliffs
+-biomesoplenty:prairie	Prairie
+-biomesoplenty:quagmire	Quagmire
+-biomesoplenty:rainforest	Rainforest
+-biomesoplenty:redwood_forest	RedwoodForest
+-biomesoplenty:sacred_springs	Sacred Springs
+-biomesoplenty:seasonal_forest	Seasonal Forest
+-biomesoplenty:shield	Shield
+-biomesoplenty:shrubland	Shrubland
+-biomesoplenty:snowy_coniferous_forest	Snowy Coniferous Forest
+-biomesoplenty:snowy_forest	Snowy Forest
+-biomesoplenty:steppe	Steppe
+-biomesoplenty:temperate_rainforest	Temperate Rainforest
+-biomesoplenty:tropical_rainforest	Tropical Rainforest
+-biomesoplenty:tundra	Tundra
+-biomesoplenty:wasteland	Wasteland
+-biomesoplenty:wetland	Wetland
+-biomesoplenty:woodland	Woodland
+-biomesoplenty:xeric_shrubland	Xeric Shrubland
+-biomesoplenty:alps_foothills	AlpsFoothills
+-biomesoplenty:mountain_foothills	MountainFoothills
+-biomesoplenty:redwood_forest_edge	RedwoodForestEdge
+-biomesoplenty:pasture	Pasture
+-biomesoplenty:glacier	Glacier
+-biomesoplenty:oasis	Oasis
+-biomesoplenty:snowy_tundra	SnowyTundra
+-biomesoplenty:coral_reef	Coral Reef
+-biomesoplenty:kelp_forest	Kelp Forest
+-biomesoplenty:origin_island	Origin Island
+-biomesoplenty:tropical_island	Tropical Island
+-biomesoplenty:volcanic_island	Volcanic Island
+-biomesoplenty:flower_island	Flower Island
+-biomesoplenty:corrupted_sands	Corrupted Sands
+-biomesoplenty:fungi_forest	Fungi Forest
+-biomesoplenty:phantasmagoric_inferno	Phantasmagoric Inferno
+-biomesoplenty:undergarden	Undergarden
+-biomesoplenty:visceral_heap	Visceral Heap
+-minecraft:void	The Void
+-minecraft:mutated_plains	Sunflower Plains
+-minecraft:mutated_desert	Desert M
+-minecraft:mutated_extreme_hills	Extreme Hills M
+-minecraft:mutated_forest	Flower Forest
+-minecraft:mutated_taiga	Taiga M
+-minecraft:mutated_swampland	Swampland M

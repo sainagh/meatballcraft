@@ -1,6 +1,7 @@
 {
-	x: 5.0d,
-	y: 9.0d,
+	icon: "minecraft:lava_bucket",
+	x: 6.5d,
+	y: 7.5d,
 	description: "Use an extraction device to obtain drops from lava!",
 	dependencies: [
 		"d8e398cb"

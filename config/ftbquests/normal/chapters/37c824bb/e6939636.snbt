@@ -1,7 +1,7 @@
 {
 	title: "Magic or Science?",
-	x: 12.5d,
-	y: 3.0d,
+	x: 14.0d,
+	y: 1.5d,
 	description: "Used to craft machines from extra utilities (see manufacturing and fabrication)",
 	text: [
 		"The same magical affinity I used to make enchanted tables seems to allow for the making of machinery, this is very interesting!"

@@ -94,10 +94,6 @@ mods.extendedcrafting.TableCrafting.addShaped(<enderstorage:ender_pouch>,
 [<divinerpg:purple_blaze>, <minecraft:leather>, <divinerpg:purple_blaze>], 
 [<minecraft:blaze_rod>, <minecraft:ender_eye>, <minecraft:blaze_rod>]]); 
 
-mods.recipestages.Recipes.addShapeless("minor_vethea_binding", "MinorVetheaBinding", <enderstorage:ender_pouch>, [
-    <divinerpg:hyrewood_log>, <divinerpg:fire_crystal>,
-    <divinerpg:fire_crystal>, <divinerpg:fire_crystal>
-]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "divinerpg:scorcher"}}), 
 [[<minecraft:blaze_rod>, <minecraft:blaze_rod>, <minecraft:blaze_rod>], 

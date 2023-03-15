@@ -1,5 +1,6 @@
 {
-	x: 6.5d,
+	icon: "aether_legacy:golden_feather",
+	x: 8.0d,
 	y: 9.0d,
 	description: "The more you run around, the higher the chance of speeding up!",
 	dependencies: [

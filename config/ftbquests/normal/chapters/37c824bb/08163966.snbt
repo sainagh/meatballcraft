@@ -1,5 +1,5 @@
 {
-	x: -2.5d,
+	x: -1.0d,
 	y: -1.5d,
 	description: "The key will guide you to your grave",
 	dependencies: [

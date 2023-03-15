@@ -1,5 +1,5 @@
 {
-	x: 2.0d,
+	x: 3.5d,
 	y: 3.0d,
 	description: "Use the chat command /sethome to set your home. Use /home to teleport there.",
 	dependencies: [

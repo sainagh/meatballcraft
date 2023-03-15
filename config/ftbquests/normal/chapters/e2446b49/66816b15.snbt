@@ -10,6 +10,7 @@
 		items: [{
 			id: "naturescompass:naturescompass",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

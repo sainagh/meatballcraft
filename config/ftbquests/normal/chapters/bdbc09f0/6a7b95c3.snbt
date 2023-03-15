@@ -1,0 +1,15 @@
+{
+	x: 11.0d,
+	y: -8.0d,
+	dependencies: [
+		"fea8f22a",
+		"545416aa"
+	],
+	tasks: [{
+		uid: "6210040c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:amfm_fuel"
+		}]
+	}]
+}

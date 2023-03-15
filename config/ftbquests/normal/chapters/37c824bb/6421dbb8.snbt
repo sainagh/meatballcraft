@@ -1,7 +1,7 @@
 {
 	title: "This may be a little evil...",
 	x: 15.5d,
-	y: 1.5d,
+	y: -4.5d,
 	description: "More info about woot is found on book of creation",
 	text: [
 		"At this point I have no doubt I'm being manipulated in some way.",

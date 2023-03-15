@@ -29,10 +29,7 @@
 		uid: "2fba7a03",
 		type: "item",
 		items: [{
-			id: "rftools:advanced_charged_porter",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "rftools:advanced_charged_porter"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

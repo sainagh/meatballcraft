@@ -1145,3 +1145,31 @@ plasmainject.setBlockResistance(2.5);
 plasmainject.setToolClass("pickaxe");
 plasmainject.setToolLevel(3);
 plasmainject.register();
+
+var ichorblock = VanillaFactory.createBlock("ichor", <blockmaterial:iron>);
+ichorblock.setBlockHardness(1.0);
+ichorblock.setBlockResistance(2.5);
+ichorblock.setToolClass("pickaxe");
+ichorblock.setToolLevel(3);
+ichorblock.register();
+
+var inertiallaserprojector = VanillaFactory.createBlock("inertial_laser_projector", <blockmaterial:iron>);
+inertiallaserprojector.setBlockHardness(1.0);
+inertiallaserprojector.setBlockResistance(2.5);
+inertiallaserprojector.setToolClass("pickaxe");
+inertiallaserprojector.setToolLevel(3);
+inertiallaserprojector.register();
+
+var hohlraum = VanillaFactory.createBlock("hohlraum", <blockmaterial:iron>);
+hohlraum.setBlockHardness(1.0);
+hohlraum.setBlockResistance(2.5);
+hohlraum.setToolClass("pickaxe");
+hohlraum.setToolLevel(3);
+hohlraum.register();
+
+var demonstone = VanillaFactory.createBlock("demon_stone", <blockmaterial:iron>);
+demonstone.setBlockHardness(1.0);
+demonstone.setBlockResistance(2.5);
+demonstone.setToolClass("pickaxe");
+demonstone.setToolLevel(3);
+demonstone.register();

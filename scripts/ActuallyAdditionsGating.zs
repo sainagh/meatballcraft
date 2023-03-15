@@ -2,7 +2,7 @@ recipes.removeShaped(<actuallyadditions:block_misc:9>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<actuallyadditions:block_misc:9>, 
 [[<techreborn:ingot:19>, <minecraft:stick>, <techreborn:ingot:19>], 
-[<minecraft:stick>, <actuallyadditions:item_misc:5>, <minecraft:stick>], 
+[<minecraft:stick>, <ore:blockCharcoal>, <minecraft:stick>], 
 [<techreborn:ingot:19>, <minecraft:stick>, <techreborn:ingot:19>]]); 
 
 recipes.removeShaped(<actuallyadditions:block_atomic_reconstructor>);

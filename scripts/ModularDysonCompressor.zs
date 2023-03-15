@@ -13,6 +13,13 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:interdimensional_e
 [<ebwizardry:grand_crystal>, <techreborn:lapotronicorb>, <techreborn:lapotronicorb>, <techreborn:lapotronicorb>, <minecraft:nether_star>], 
 [<abyssalcraft:ethaxiumingot>, <bloodmagic:slate:4>, <contenttweaker:cold_iron_egg>, <botania:rainbowrod>, <thaumcraft:plate:3>]]);  
 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:interdimensional_energy_orb>, 
+[[<dimdoors:world_thread>, <contenttweaker:divine_flake>, <contenttweaker:aether_rock>, <contenttweaker:twilight_essence>, <contenttweaker:collecting_stone>], 
+[<thebetweenlands:weeping_blue_petal>, <contenttweaker:better_lapotronic_orb>, <contenttweaker:better_lapotronic_orb>, <contenttweaker:better_lapotronic_orb>, <contenttweaker:rift_essence>], 
+[<minecraft:dragon_egg>, <contenttweaker:better_lapotronic_orb>, <contenttweaker:magnetic_monopole>, <contenttweaker:better_lapotronic_orb>, <contenttweaker:organic_jade_plate>], 
+[<ebwizardry:grand_crystal>, <contenttweaker:better_lapotronic_orb>, <contenttweaker:better_lapotronic_orb>, <contenttweaker:better_lapotronic_orb>, <minecraft:nether_star>], 
+[<abyssalcraft:ethaxiumingot>, <bloodmagic:slate:4>, <contenttweaker:cold_iron_egg>, <botania:rainbowrod>, <thaumcraft:plate:3>]]);  
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sideral_energy_orb>, 
 [[<redstonearsenal:material:0>, <advancedrocketry:ic:2>, <divinerpg:eden_chunk>, <advancedrocketry:ic:2>, <redstonearsenal:material:0>], 
 [<contenttweaker:lelyetia_garnet>, <techreborn:machine_frame:2>, <techreborn:machine_frame:2>, <techreborn:machine_frame:2>, <contenttweaker:barathos_garnet>], 

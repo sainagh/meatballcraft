@@ -8,7 +8,7 @@
             "x": 0,
             "y": 6,
             "z": 1,
-            "description": "Replace top block for reduced energy cost",
+            "description": "Replace top block for faster recipes",
             "modifier": {
                 "io": "input",
                 "target": "duration",

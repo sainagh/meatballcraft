@@ -1,4 +1,10 @@
 {
+	icon: {
+		id: "bloodmagic:blood_orb",
+		tag: {
+			orb: "bloodmagic:transcendent"
+		}
+	},
 	x: 0.0d,
 	y: -13.5d,
 	dependencies: [
@@ -17,5 +23,9 @@
 			}
 		}],
 		ignore_nbt: 1b
+	},
+	{
+		uid: "55cd9eed",
+		type: "checkmark"
 	}]
 }

@@ -1,0 +1,15 @@
+{
+	x: 12.0d,
+	y: -3.0d,
+	description: "This can only be done after salt reactors",
+	dependencies: [
+		"177d7078"
+	],
+	tasks: [{
+		uid: "ed864551",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lees_fuel"
+		}]
+	}]
+}

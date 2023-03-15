@@ -1,5 +1,6 @@
 {
-	x: 6.5d,
+	icon: "aoa3:fragmented_anima_stone",
+	x: 8.0d,
 	y: 1.5d,
 	description: "Break leaves to get anima stones, use them on the ground to speed growth temporarily. Tablets can be used as temporary beacons at the cost of anima.",
 	dependencies: [

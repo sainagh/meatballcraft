@@ -3,11 +3,11 @@
     {
         "title":
         {
-            "image" : "menu:titlesubt.png",
-            "posX" : -180,
-            "posY" : 25,
+            "image" : "menu:Meatball.png",
+            "posX" : -178,
+            "posY" : 0,
             "width" : 355,
-            "height" : 57,
+            "height" : 85,
             "alignment" : "top_center"
         }
     },
@@ -177,7 +177,7 @@
         "splash-text":
         {
             "posX" : 150,
-            "posY" : 85,
+            "posY" : 90,
             "color" : -256,
             "alignment" : "top_center",
             "texts" : "file:menu:text.txt"

@@ -2,7 +2,7 @@
 	x: -6.5d,
 	y: -6.5d,
 	text: [
-		"Obtained by using a salis mundus on a bookshelf, this is the workbench of thaumic arts."
+		"Obtained by using a salis mundus on a crafting table, this is the workbench of thaumic arts."
 	],
 	dependencies: [
 		"0aedb977"

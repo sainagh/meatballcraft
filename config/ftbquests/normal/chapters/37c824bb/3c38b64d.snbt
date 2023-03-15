@@ -1,0 +1,17 @@
+{
+	x: 56.0d,
+	y: -3.0d,
+	dependencies: [
+		"2dc6b39f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5d289f99",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mark_of_the_samurai"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

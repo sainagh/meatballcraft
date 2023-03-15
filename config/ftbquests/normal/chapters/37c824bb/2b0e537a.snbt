@@ -1,6 +1,6 @@
 {
 	title: "Cooking!",
-	x: 0.5d,
+	x: 2.0d,
 	y: 0.0d,
 	description: "Quests are here to tell you what CAN be done, but the order is up to you!",
 	text: [

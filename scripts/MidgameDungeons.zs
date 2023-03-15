@@ -797,3 +797,310 @@ fluixcallstone.itemRightClick = function(stack, world, player, hand) {
 
 };
 fluixcallstone.register();
+
+var terrestrialanimator0 = VanillaFactory.createItem("terrestrial_animator_0");
+terrestrialanimator0.maxStackSize = 1;
+terrestrialanimator0.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 165) {
+        player.sendChat("You gotta be in pixonia");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn compressed_cobble_0", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+terrestrialanimator0.register();
+
+var terrestrialanimator1 = VanillaFactory.createItem("terrestrial_animator_1");
+terrestrialanimator1.maxStackSize = 1;
+terrestrialanimator1.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 165) {
+        player.sendChat("You gotta be in pixonia");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn compressed_cobble_1", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+terrestrialanimator1.register();
+
+var terrestrialanimator2 = VanillaFactory.createItem("terrestrial_animator_2");
+terrestrialanimator2.maxStackSize = 1;
+terrestrialanimator2.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 165) {
+        player.sendChat("You gotta be in pixonia");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn compressed_cobble_2", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+terrestrialanimator2.register();
+
+var terrestrialanimator3 = VanillaFactory.createItem("terrestrial_animator_3");
+terrestrialanimator3.maxStackSize = 1;
+terrestrialanimator3.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 165) {
+        player.sendChat("You gotta be in pixonia");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn compressed_cobble_3", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+terrestrialanimator3.register();
+
+var terrestrialanimator4 = VanillaFactory.createItem("terrestrial_animator_4");
+terrestrialanimator4.maxStackSize = 1;
+terrestrialanimator4.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 165) {
+        player.sendChat("You gotta be in pixonia");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn compressed_cobble_4", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+terrestrialanimator4.register();
+
+var terrestrialanimator5 = VanillaFactory.createItem("terrestrial_animator_5");
+terrestrialanimator5.maxStackSize = 1;
+terrestrialanimator5.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 165) {
+        player.sendChat("You gotta be in pixonia");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn compressed_cobble_5", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+terrestrialanimator5.register();
+
+var terrestrialanimator6 = VanillaFactory.createItem("terrestrial_animator_6");
+terrestrialanimator6.maxStackSize = 1;
+terrestrialanimator6.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 165) {
+        player.sendChat("You gotta be in pixonia");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn compressed_cobble_6", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+terrestrialanimator6.register();
+
+var terrestrialanimator7 = VanillaFactory.createItem("terrestrial_animator_7");
+terrestrialanimator7.maxStackSize = 1;
+terrestrialanimator7.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 165) {
+        player.sendChat("You gotta be in pixonia");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn compressed_cobble_7", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+terrestrialanimator7.register();
+
+var vibratingmithminiteschythe = VanillaFactory.createItem("vibrating_mithminite_schythe");
+vibratingmithminiteschythe.maxStackSize = 1;
+vibratingmithminiteschythe.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 183) {
+        player.sendChat("You gotta be in vibe");
+        return "FAIL";
+    }
+    player.sendChat("Use on tainted soil");
+
+    Commands.call("fill ~1 ~1 ~1 ~-1 ~-1 ~-1 contenttweaker:ichor 0 replace thaumcraft:taint_soil", player, world, true, true);
+
+    return "PASS";
+
+};
+vibratingmithminiteschythe.register();
+
+
+var taintedcallstone = VanillaFactory.createItem("tainted_callstone");
+taintedcallstone.maxStackSize = 1;
+taintedcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 183) {
+        player.sendChat("You gotta be in vibe");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn taint_callstone_dungeon", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+taintedcallstone.register();
+
+var radiatingcallstone = VanillaFactory.createItem("radiating_callstone");
+radiatingcallstone.maxStackSize = 1;
+radiatingcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 1) {
+        player.sendChat("You gotta be in the end");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn uranium_bee_callstone", player, world, true, true);
+    Commands.call("summon aoa3:nightfly ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:blue_matter\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, true, true);
+    Commands.call("summon aoa3:nightfly ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:blue_matter\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, true, true);
+    Commands.call("summon aoa3:nightfly ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:blue_matter\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, true, true);
+    Commands.call("summon aoa3:nightfly ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:blue_matter\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+radiatingcallstone.register();
+
+
+var demonologistcallstone = VanillaFactory.createItem("demonologist_callstone");
+demonologistcallstone.maxStackSize = 1;
+demonologistcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 146) {
+        player.sendChat("You gotta be in Haumea");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn haumea_structure_callstone", player, world, true, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon aoa3:deinotherium ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:baku_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:300.0}],Health:3000f,CustomName:\"Baku\"}", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+demonologistcallstone.register();
+
+var armorercallstone = VanillaFactory.createItem("armorer_callstone");
+armorercallstone.maxStackSize = 1;
+armorercallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 148) {
+        player.sendChat("You gotta be in Osiris");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn osiris_structure_callstone", player, world, true, true);
+    Commands.call("give @p contenttweaker:osiris_spinel", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+armorercallstone.register();
+
+var undeadcallstone = VanillaFactory.createItem("undead_callstone");
+undeadcallstone.maxStackSize = 1;
+undeadcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 53) {
+        player.sendChat("You gotta be in The Dark Realm");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn hard_mode_callstone", player, world, true, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:100.0}],Health:100f}", player, world, true, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:100.0}],Health:100f}", player, world, true, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:100.0}],Health:100f}", player, world, true, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:100.0}],Health:100f}", player, world, true, true);
+    Commands.call("summon mod_lavacow:parasite ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:1.0}],Health:100f}", player, world, true, true);
+    Commands.call("summon mod_lavacow:ithaqua ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon mod_lavacow:ithaqua ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon mod_lavacow:sludgelord ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon mod_lavacow:sludgelord ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon mod_lavacow:unburied ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon mod_lavacow:unburied ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+undeadcallstone.register();

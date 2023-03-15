@@ -1,0 +1,15 @@
+{
+	x: 13.0d,
+	y: -7.0d,
+	dependencies: [
+		"6e38c1a1",
+		"51914cb4"
+	],
+	tasks: [{
+		uid: "60498661",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_plutonium 1 2"
+		}]
+	}]
+}

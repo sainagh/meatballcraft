@@ -1,0 +1,29 @@
+{
+	"generatorType": "ANYWHERE",
+	"minY": 75,
+	"maxY": 120,
+	"offsetX": 0,
+	"offsetY": 0,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [165],
+	"biomeNameSpawns": [],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": true,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "bewitchment:scorned_bricks_soft",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	
+	"rarity": 800
+}

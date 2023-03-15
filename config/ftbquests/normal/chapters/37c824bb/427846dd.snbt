@@ -1,6 +1,6 @@
 {
 	title: "Exploration",
-	x: 5.0d,
+	x: 6.5d,
 	y: 0.0d,
 	description: "Go out and explore! The overworld is full of good stuff both above and below ground!",
 	text: [

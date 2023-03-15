@@ -1,0 +1,14 @@
+{
+	x: 11.0d,
+	y: -5.0d,
+	dependencies: [
+		"177d7078"
+	],
+	tasks: [{
+		uid: "05d4abac",
+		type: "item",
+		items: [{
+			item: "contenttweaker:polonium_beryllium_alloy_ingot"
+		}]
+	}]
+}

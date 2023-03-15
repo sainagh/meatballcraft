@@ -90,6 +90,8 @@ mith2.addItemOutput(<aoa3:carved_rune_direction>*15);
 mith2.setChance(0.15);
 mith2.addItemOutput(<aoa3:carved_rune_power>*15);
 mith2.setChance(0.15);
+mith2.addItemOutput(<aoa3:carved_rune_empowering>*15);
+mith2.setChance(0.15);
 mith2.addItemOutput(<aoa3:chilli>*10);
 mith2.setChance(0.05);
 mith2.addItemOutput(<aoa3:copper_coin>*10);
@@ -114,6 +116,8 @@ mith2.addItemOutput(<iceandfire:stymphalian_bird_feather>);
 mith2.setChance(0.1);
 mith2.addItemOutput(<projectex:power_flower:0>);
 mith2.setChance(0.05);
+mith2.addItemOutput(<abyssalcraft:shadowgem>);
+mith2.setChance(0.5);
 mith2.addItemOutput(<contenttweaker:tier2_token>);
 mith2.build();
 
@@ -1148,7 +1152,7 @@ mythassvoxponds.addItemInput(<contenttweaker:recursion_fragment_vox>);
 mythassvoxponds.addItemOutput(<contenttweaker:vox_ponds_garnet>*64);
 mythassvoxponds.build();
 
-mods.nuclearcraft.salt_fission.addRecipe([<fluid:polonium>*144, <fluid:californium_250>*144, 800.0, 200.0, 3.0]);
+mods.nuclearcraft.salt_fission.addRecipe([<fluid:polonium>*144, <fluid:californium_250>*1000, 800.0, 200.0, 3.0]);
 
 mods.techreborn.rollingMachine.addShaped(<contenttweaker:arc_coil>, 
 [[<materialpart:palladium:ingot>,null,<materialpart:palladium:ingot>],
@@ -1742,6 +1746,15 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:coralium_shielding
 [<abyssalcraft:platec>, <abyssalcraft:platec>, <abyssalcraft:platec>], 
 [<abyssalcraft:platec>, <abyssalcraft:platec>, <abyssalcraft:platec>]]);
 
+recipes.addShapeless(<contenttweaker:unidentified_gem>*2,
+[<aoa3:warlock_gem>,
+<contenttweaker:unidentified_gem>]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:imperfect_neutronium_nugget>, <fluid:fluix_plasma>*1000, <fluid:fluix_plasma>*1100, 0.9, 0.2, 0.0]);
+
+
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:unidentified_gem>, <fluid:fluix_plasma>*100, <contenttweaker:reactive_fluix>, 0.5, 0.6, 0.0]);
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_excavation_reactor>, 
 [[<ore:ingotCrystalMatrix>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
 <contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity:29>, <contenttweaker:brightseel_alloy_gear>, 
@@ -1755,17 +1768,17 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_excavation_
 <contenttweaker:fluxed_electrum_shaft>, <contenttweaker:mythic_coil_t2>, <contenttweaker:fluxed_electrum_shaft>, 
 <contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
 
-[<environmentaltech:solar_cell_aethium>, <extendedcrafting:singularity:26>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1 as byte, Damage: 4 as short}}), 
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
 <contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
-<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1 as byte, Damage: 4 as short}}), <extendedcrafting:singularity:26>, <environmentaltech:solar_cell_aethium>], 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
 
 [<extendedcrafting:material:32>, <contenttweaker:fluix_microcontroller>, <ore:ingotUltimate>, 
 <contenttweaker:mythic_excavation_engine>, <contenttweaker:mythic_excavation_computer>, <contenttweaker:mythic_excavation_engine>, 
 <ore:ingotUltimate>, <contenttweaker:fluix_microcontroller>, <extendedcrafting:material:32>], 
 
-[<environmentaltech:solar_cell_aethium>, <extendedcrafting:singularity:26>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1 as byte, Damage: 4 as short}}), 
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
 <contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
-<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1 as byte, Damage: 4 as short}}), <extendedcrafting:singularity:26>, <environmentaltech:solar_cell_aethium>], 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
 
 [<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
 <contenttweaker:fluxed_electrum_shaft>, <contenttweaker:awakened_electromagnet>, <contenttweaker:fluxed_electrum_shaft>, 

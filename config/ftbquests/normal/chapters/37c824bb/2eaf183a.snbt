@@ -1,6 +1,6 @@
 {
 	icon: "contenttweaker:goldorth_golden_eye",
-	x: 0.5d,
+	x: 2.0d,
 	y: -1.5d,
 	description: "There is a keybind (O by default) to show you favor",
 	text: [

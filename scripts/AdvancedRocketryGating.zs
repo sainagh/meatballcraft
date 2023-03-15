@@ -144,6 +144,13 @@ recipes.addShaped(<advancedrocketry:ic:3>,
 [<modularmachinery:itemmodularium>, <minecraft:iron_block>, <modularmachinery:itemmodularium>],
 [<modularmachinery:itemmodularium>, <aether_legacy:aether_log:0>, <modularmachinery:itemmodularium>]]);
 
+recipes.removeShaped(<advancedrocketry:rocketbuilder>);
+
+recipes.addShaped(<advancedrocketry:rocketbuilder>,
+[[<libvulpes:productrod:7>, <advancedrocketry:misc:0>, <libvulpes:productrod:7>],
+[<advancedrocketry:ic:3>, <minecraft:iron_block>, <advancedrocketry:ic:3>],
+[<ore:gearTitanium>, <contenttweaker:divine_star>, <ore:gearTitanium>]]);
+
 recipes.removeShaped(<advancedrocketry:ic:4>);
 
 recipes.addShaped(<advancedrocketry:ic:4>,

@@ -130,10 +130,13 @@ recipes.addShaped(<projecte:item.pe_harvest_god>,
 
 recipes.remove(<projecte:item.pe_philosophers_stone>);
 
-recipes.addShaped(<projecte:item.pe_philosophers_stone>,
-[[<minecraft:glowstone>, <minecraft:redstone>, <minecraft:glowstone>],
-[<minecraft:redstone>, <thermalfoundation:material:136>, <minecraft:redstone>],
-[<minecraft:glowstone>, <minecraft:redstone>, <minecraft:glowstone>]]);
+mods.extendedcrafting.TableCrafting.addShaped(<projecte:item.pe_philosophers_stone>, 
+[[<minecraft:glowstone>, null, null, null, <minecraft:glowstone>], 
+[null, null, <minecraft:redstone>, null, null], 
+[null, <minecraft:redstone>, <ore:ingotMithril>, <minecraft:redstone>, null], 
+[null, null, <minecraft:redstone>, null, null], 
+[<minecraft:glowstone>, null, null, null, <minecraft:glowstone>]]);  
+
 
 recipes.remove(<projecte:item.pe_repair_talisman>);
 
@@ -166,13 +169,13 @@ mods.extendedcrafting.TableCrafting.addShaped(<projectex:power_flower:6>,
 
 mods.extendedcrafting.TableCrafting.addShaped(<projectex:power_flower:7>, 
 [[<projectex:power_flower:5>, <aoa3:dense_rock>, <aoa3:dense_rock>, <aoa3:dense_rock>, <aoa3:dense_rock>, <aoa3:dense_rock>, <aoa3:dense_rock>, <aoa3:dense_rock>, <projectex:power_flower:5>], 
-[<aoa3:dense_rock>, <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1 as byte, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1 as byte, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1 as byte, Damage: 0 as short}}), <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <aoa3:dense_rock>], 
-[<aoa3:dense_rock>, <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1 as byte, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1 as byte, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1 as byte, Damage: 0 as short}}), <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <aoa3:dense_rock>], 
-[<aoa3:dense_rock>, <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1 as byte, Damage: 0 as short}}), <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1 as byte, Damage: 0 as short}}), null, null, null, <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1 as byte, Damage: 0 as short}}), <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1 as byte, Damage: 0 as short}}), <aoa3:dense_rock>], 
-[<aoa3:dense_rock>, <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1 as byte, Damage: 0 as short}}), <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1 as byte, Damage: 0 as short}}), null, <projectex:power_flower:6>, null, <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1 as byte, Damage: 0 as short}}), <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1 as byte, Damage: 0 as short}}), <aoa3:dense_rock>], 
-[<aoa3:dense_rock>, <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1 as byte, Damage: 0 as short}}), <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1 as byte, Damage: 0 as short}}), null, null, null, <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1 as byte, Damage: 0 as short}}), <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1 as byte, Damage: 0 as short}}), <aoa3:dense_rock>], 
-[<aoa3:dense_rock>, <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1 as byte, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1 as byte, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1 as byte, Damage: 0 as short}}), <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <aoa3:dense_rock>], 
-[<aoa3:dense_rock>, <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1 as byte, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1 as byte, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1 as byte, Damage: 0 as short}}), <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <aoa3:dense_rock>], 
+[<aoa3:dense_rock>, <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1, Damage: 0 as short}}), <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <aoa3:dense_rock>], 
+[<aoa3:dense_rock>, <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1, Damage: 0 as short}}), <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <aoa3:dense_rock>], 
+[<aoa3:dense_rock>, <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1, Damage: 0 as short}}), <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1, Damage: 0 as short}}), null, null, null, <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1, Damage: 0 as short}}), <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1, Damage: 0 as short}}), <aoa3:dense_rock>], 
+[<aoa3:dense_rock>, <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1, Damage: 0 as short}}), <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1, Damage: 0 as short}}), null, <projectex:power_flower:6>, null, <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1, Damage: 0 as short}}), <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1, Damage: 0 as short}}), <aoa3:dense_rock>], 
+[<aoa3:dense_rock>, <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1, Damage: 0 as short}}), <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1, Damage: 0 as short}}), null, null, null, <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1, Damage: 0 as short}}), <conarm:armorforge>.withTag({textureBlock: {id: "aoa3:limonite_block", Count: 1, Damage: 0 as short}}), <aoa3:dense_rock>], 
+[<aoa3:dense_rock>, <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1, Damage: 0 as short}}), <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <aoa3:dense_rock>], 
+[<aoa3:dense_rock>, <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1, Damage: 0 as short}}), <tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:rosite_block", Count: 1, Damage: 0 as short}}), <aoa3:nightmare_flakes>, <aoa3:nightmare_flakes>, <aoa3:dense_rock>], 
 [<projectex:power_flower:5>, <aoa3:dense_rock>, <aoa3:dense_rock>, <aoa3:dense_rock>, <aoa3:dense_rock>, <aoa3:dense_rock>, <aoa3:dense_rock>, <aoa3:dense_rock>, <projectex:power_flower:5>]]);  
 
 mods.extendedcrafting.TableCrafting.addShaped(<projectex:power_flower:8>, 
@@ -337,3 +340,30 @@ recipes.addShaped(<projectex:power_flower:4>,
 [[<divinerpg:divine_shards>, <materialpart:sednanite:ingot>, <divinerpg:divine_shards>],
 [<materialpart:sednanite:ingot>, <projectex:power_flower:3>, <materialpart:sednanite:ingot>],
 [<divinerpg:divine_shards>, <materialpart:sednanite:ingot>, <divinerpg:divine_shards>]]);
+
+// recipes.remove(<projecte:transmutation_table>);
+recipes.remove(<projecte:item.pe_transmutation_tablet>);
+recipes.remove(<projectex:stone_table>);
+recipes.remove(<projectex:arcane_tablet>);
+
+// recipes.addShaped(<projectex:stone_table>,
+// [[<ore:obsidian>, <ore:stone>, <ore:obsidian>],
+// [<ore:stone>, <projecte:item.pe_philosophers_stone>.reuse(), <ore:stone>],
+// [<ore:obsidian>, <ore:stone>, <ore:obsidian>]]);
+
+recipes.addShaped(<projectex:arcane_tablet>,
+[[<projecte:matter_block:0>, <ore:stone>, <projecte:matter_block:0>],
+[<ore:stone>, <projectex:stone_table>, <ore:stone>],
+[<projecte:matter_block:0>, <ore:stone>, <projecte:matter_block:0>]]);
+
+recipes.addShapeless(<projectex:stone_table>,
+[<projecte:transmutation_table>]);
+
+recipes.addShapeless(<projecte:transmutation_table>,
+[<projectex:stone_table>]);
+
+recipes.addShapeless(<projectex:arcane_tablet>,
+[<projecte:item.pe_transmutation_tablet>]);
+
+recipes.addShapeless(<projecte:item.pe_transmutation_tablet>,
+[<projectex:arcane_tablet>]);

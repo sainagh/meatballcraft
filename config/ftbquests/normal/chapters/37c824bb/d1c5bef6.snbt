@@ -1,6 +1,8 @@
 {
+	title: "Mythic Processors!",
 	x: 66.5d,
 	y: -1.5d,
+	description: "Search \"mythic processor\" in JEI to find the list of machines!",
 	dependencies: [
 		"6304b450"
 	],

@@ -1,6 +1,6 @@
 {
 	icon: "nuclearcraft:radaway",
-	x: -1.0d,
+	x: 0.5d,
 	y: 1.5d,
 	description: "Beware of effects like weakness, hunger, poison! Radiation is a thing! Uranium, Thorium, Yellorium will poison you! There are tooltips for things that are radioactive!",
 	text: [

@@ -4,8 +4,10 @@ import mods.astralsorcery.Utils;
 import mods.buildcraft.AssemblyTable;
 
 mods.nuclearcraft.chemical_reactor.addRecipe([<liquid:fluidglyceryl> * 1000, <liquid:fluiddiesel> * 4000, <liquid:fluidnitrodiesel> * 1000, null]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<liquid:fluidglyceryl> * 1000, <liquid:diesel> * 4000, <liquid:fluidnitrodiesel> * 1000, null]);
 
 mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:nitrogen> * 1000, <fluid:fluidcarbon> * 1000, <liquid:fluidnitrocarbon> * 1000, null]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:nitrogen> * 1000, <fluid:hard_carbon> * 1000, <liquid:fluidnitrocarbon> * 1000, null]);
 
 mods.nuclearcraft.melter.addRecipe([<ore:dustCharcoal>, <fluid:fluidcarbon> * 250]);
 
@@ -131,7 +133,7 @@ niobiumaccelerator.build();
 
 // making molybdenum
 
-mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:crystallized_tungstensteel>,[<contenttweaker:ender_dolomite>, <techreborn:storage2:0>, <enderio:item_alloy_endergy_ball:2>, <divinerpg:vamacheron_crystal>], 100,20);
+mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:crystallized_tungstensteel>,[<contenttweaker:ender_dolomite>, <techreborn:storage2:0>, <enderio:item_alloy_endergy_ball:2>, <divinerpg:apalachia_chunk>], 100,20);
 
 mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:55>, <contenttweaker:tungsten_molybdenum_dust>, <thermalfoundation:material:96>, null, <contenttweaker:crystallized_tungstensteel>, null, 30, 25);
 
@@ -162,6 +164,11 @@ mods.nuclearcraft.crystallizer.addRecipe([<fluid:bef2>*500, <contenttweaker:bery
 recipes.addShaped(<contenttweaker:crystalline_beryllium>, 
 [[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>], 
 [<contenttweaker:beryllium_fluoride_crystal>, <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "resource:emeryllis_plant", agri_growth: 1 as byte}), <contenttweaker:beryllium_fluoride_crystal>], 
+[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>]]);  
+
+recipes.addShaped(<contenttweaker:crystalline_beryllium>, 
+[[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>], 
+[<contenttweaker:beryllium_fluoride_crystal>, <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "resource:emeryllis_plant", agri_growth: 10 as byte}), <contenttweaker:beryllium_fluoride_crystal>], 
 [<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>]]);  
 
 mods.techreborn.fusionReactor.addRecipe(<contenttweaker:crystalline_beryllium>, <nuclearcraft:ingot:10>, <contenttweaker:ruthenium_ingot>, 1000000, 100000, 120);
@@ -391,7 +398,7 @@ recipes.addShapeless(<contenttweaker:lees_fuel>,
 
 mods.nuclearcraft.fission.addRecipe([<contenttweaker:lees_fuel>, <contenttweaker:depleted_lees_fuel>, 32000.0, 400.0, 70.0, "fissioneinstenium", 0.8]);
 
-mods.nuclearcraft.fuel_reprocessor.addRecipe([<contenttweaker:depleted_lees_fuel>, <contenttweaker:fermium_252>*5, <contenttweaker:fermium_254>*5, <contenttweaker:fermium_255>*5, <contenttweaker:fermium_257>*5]);
+mods.nuclearcraft.fuel_reprocessor.addRecipe([<contenttweaker:depleted_lees_fuel>, <contenttweaker:fermium_252>*5, <contenttweaker:fermium_254>*5, <contenttweaker:fermium_255>*5, <contenttweaker:fermium_257>*15]);
 
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:fermium_257>, <fluid:fermium>*72]);
 
@@ -413,7 +420,7 @@ mods.nuclearcraft.irradiator.addRecipe([<fluid:einstenium>*10, <fluid:atomic_nuc
 
 // making oganesson
 
-mods.nuclearcraft.fusion.addRecipe([<fluid:astralsorcery.liquidstarlight>*1000, <fluid:lifeessence>*1000, <fluid:sideral_life_essence>*1000, null, null, null, 200.0, 200000.0, 14555.0, 0.1]);
+mods.nuclearcraft.fusion.addRecipe([<fluid:astralsorcery.liquidstarlight>*1000, <fluid:lifeessence>*1000, <fluid:sideral_life_essence>*1000, null, null, null, 200.0, 200.0, 14555.0, 0.1]);
 
 mods.nuclearcraft.crystallizer.addRecipe([<fluid:sideral_life_essence>*1000, <contenttweaker:stable_fusor>, 0.1, 0.1, 0.1]);
 
@@ -567,11 +574,11 @@ recipes.addShapeless(<contenttweaker:livermorium_sliver>,
 [<aoa3:primordial_staff>.reuse(),
 <contenttweaker:primordial_sliver>]);
 
-mods.nuclearcraft.melter.addRecipe([<contenttweaker:livermorium_sliver>, <fluid:livermorium>*20]);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:livermorium_sliver>, <fluid:livermorium>*40]);
 
 // making technetium
 
-mods.nuclearcraft.melter.addRecipe([<contenttweaker:technetium_remains>, <fluid:livermorium>*20]);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:technetium_remains>, <fluid:technetium>*40]);
 
 mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:technetium_remains>, <ore:dustSulfur>*2, <contenttweaker:technetium_disulfide>]);
 
@@ -606,3 +613,8 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:tennessine_gem>, <fluid:tenn
 // making meatballium
 
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:meatballium_ingot>, <fluid:meatballium>*144]);
+
+
+// making hassium
+
+mods.nuclearcraft.melter.addRecipe([<ore:ingotHassium>, <fluid:hassium> * 144]);

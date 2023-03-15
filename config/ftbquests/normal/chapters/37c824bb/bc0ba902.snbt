@@ -1,7 +1,7 @@
 {
 	title: "Alloys",
-	x: 8.0d,
-	y: 0.0d,
+	x: 9.5d,
+	y: -1.5d,
 	text: [
 		"Finally at the bronze age! By building a smeltery, I can extract metal from ore more efficiently, and I can start making alloys!"
 	],

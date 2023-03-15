@@ -201,9 +201,9 @@ recipes.addShapeless(<thermalfoundation:fertilizer:2>*64,
 recipes.removeShaped(<thermalexpansion:augment:576>);
 
 recipes.addShaped(<thermalexpansion:augment:576>,
-[[<nuclearcraft:plutonium:8>, <thermalfoundation:material:295>, <nuclearcraft:plutonium:8>],
+[[<ore:ingotPlutonium>, <thermalfoundation:material:295>, <ore:ingotPlutonium>],
 [<ore:plateCopper>, <minecraft:bucket>, <ore:plateCopper>],
-[<nuclearcraft:plutonium:8>, <ore:blockGlassHardened>, <nuclearcraft:plutonium:8>]]);
+[<ore:ingotPlutonium>, <ore:blockGlassHardened>, <ore:ingotPlutonium>]]);
 
 recipes.removeShaped(<thermalexpansion:device:10>);
 
@@ -211,3 +211,10 @@ recipes.addShaped(<materialpart:bloodmaster_metal:ingot>,
 [[<materialpart:bloodmaster_metal:nugget>, <materialpart:bloodmaster_metal:nugget>, <materialpart:bloodmaster_metal:nugget>],
 [<materialpart:bloodmaster_metal:nugget>, <materialpart:bloodmaster_metal:nugget>, <materialpart:bloodmaster_metal:nugget>],
 [<materialpart:bloodmaster_metal:nugget>, <materialpart:bloodmaster_metal:nugget>, <materialpart:bloodmaster_metal:nugget>]]);
+
+recipes.removeShaped(<redstonearsenal:util.quiver_flux>);
+
+recipes.addShaped(<redstonearsenal:util.quiver_flux>,
+[[<redstonearsenal:material:160>, <minecraft:arrow>, <redstonearsenal:material:160>],
+[<redstonearsenal:storage:0>, <contenttweaker:sentient_meatball>, <redstonearsenal:storage:0>],
+[<redstonearsenal:material:160>, <minecraft:arrow>, <redstonearsenal:material:160>]]);

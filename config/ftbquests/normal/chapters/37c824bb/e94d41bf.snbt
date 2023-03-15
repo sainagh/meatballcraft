@@ -1,6 +1,6 @@
 {
 	title: "Death is just another journey...",
-	x: -2.5d,
+	x: -1.0d,
 	y: -3.0d,
 	description: "Undead mobs drop grave dust",
 	text: [

@@ -5,7 +5,7 @@
 			Energy: 0
 		}
 	},
-	x: -2.5d,
+	x: -1.0d,
 	y: 1.5d,
 	description: "You will unlock more pages as you progress - Follow 'Dimensional Ascension' to progress through the pack! The other quests are for info and tutorials!",
 	text: [

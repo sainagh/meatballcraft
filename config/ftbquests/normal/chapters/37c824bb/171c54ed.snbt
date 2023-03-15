@@ -1,7 +1,7 @@
 {
 	title: "Engineering Time!",
-	x: 8.0d,
-	y: -1.5d,
+	x: 9.5d,
+	y: -3.0d,
 	text: [
 		"Now that I can make alloys, I can finally produce and use electricity, this should allow me to improve my manufacturing capabilities!"
 	],

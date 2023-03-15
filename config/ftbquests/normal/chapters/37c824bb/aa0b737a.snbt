@@ -1,7 +1,7 @@
 {
 	title: "Cool Chickens",
-	x: 9.5d,
-	y: -3.0d,
+	x: 11.0d,
+	y: -4.5d,
 	text: [
 		"Chickens here are weird.",
 		"The testificates told me that they are also native to this planet, and they have a very special affinity for materials and elements.",

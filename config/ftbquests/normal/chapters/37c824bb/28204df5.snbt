@@ -1,0 +1,16 @@
+{
+	x: 32.0d,
+	y: -7.5d,
+	description: "Lord vatticus will trade the wizard book, right click it on the Phoenix Altar",
+	dependencies: [
+		"dd400df7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d03ee534",
+		type: "item",
+		items: [{
+			item: "contenttweaker:parasecta_wing"
+		}]
+	}]
+}

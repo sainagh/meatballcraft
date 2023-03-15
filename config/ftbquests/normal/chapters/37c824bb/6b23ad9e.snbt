@@ -1,0 +1,31 @@
+{
+	x: 12.5d,
+	y: -4.5d,
+	description: "To charge items and armor with RF",
+	dependencies: [
+		"8b210b51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fd5fef17",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 9s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

@@ -1,6 +1,6 @@
 {
 	icon: "contenttweaker:draconic_key",
-	x: 0.5d,
+	x: 2.0d,
 	y: 1.5d,
 	description: "If you are unsure how to obtain or automate a given item, make sure to read the red text!",
 	text: [

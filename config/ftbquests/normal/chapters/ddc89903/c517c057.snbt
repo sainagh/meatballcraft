@@ -1,6 +1,6 @@
 {
-	x: 11.0d,
-	y: -1.5d,
+	x: 17.0d,
+	y: -4.0d,
 	text: [
 		"Toggle busses can be used to connect or disconnect a section of a AE2 network using redstone."
 	],

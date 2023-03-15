@@ -1,5 +1,6 @@
 {
-	x: 5.0d,
+	icon: "aoa3:blooming_infusion_stone",
+	x: 6.5d,
 	y: 6.0d,
 	description: "Harvesting pixons with a bowl and using infusion stones at the infusion tables allows you to produce better enchantments. There are better ways.",
 	dependencies: [

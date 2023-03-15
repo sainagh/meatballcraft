@@ -41,3 +41,22 @@ mods.thaumcraft.Infusion.registerRecipe("supercutter", "",
 [<aspect:humanus>*200, <aspect:auram>*100], 
 <thaumicaugmentation:primal_cutter>, 
 [<thaumcraft:vis_resonator>, <contenttweaker:concentrated_essence>, <contenttweaker:concentrated_essence>, <deepmoblearning:living_matter_twilight>, <thaumadditions:adaminite_plate>, <thaumictinkerer:repairer>, <abyssalcraft:crystalcluster:7>, <botania:brewvial>.withTag({brewKey: "oneforall"})]);
+
+
+mods.thaumcraft.Infusion.registerRecipe("makevibraniummithminitescythe", "", 
+<contenttweaker:vibrating_mithminite_schythe>, 10,
+[<aspect:caeles>*500, <aspect:praecantatio>*100], 
+<thaumadditions:mithminite_scythe>, 
+[<thaumadditions:mithminite_plate>, <contenttweaker:vibrating_stone>, 
+<thaumadditions:mithminite_plate>, <contenttweaker:vibrating_stone>, 
+<thaumadditions:mithminite_plate>, <contenttweaker:vibrating_stone>, 
+<thaumadditions:mithminite_plate>, <contenttweaker:vibrating_stone>]);
+
+mods.thaumcraft.Infusion.registerRecipe("maketaintcallstone", "", 
+<contenttweaker:tainted_callstone>, 10,
+[<aspect:vitium>*500, <aspect:humanus>*500], 
+<extendedcrafting:singularity_custom:628>, 
+[<thaumadditions:mithminite_plate>, <contenttweaker:vibrating_stone>, 
+<thaumadditions:mithminite_plate>, <contenttweaker:vibrating_stone>, 
+<thaumadditions:mithminite_plate>, <contenttweaker:vibrating_stone>, 
+<thaumadditions:mithminite_plate>, <contenttweaker:vibrating_stone>]);

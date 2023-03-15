@@ -3503,3 +3503,228 @@ var ghoulspirit = VanillaFactory.createItem("ghoul_spirit");
 ghoulspirit.maxStackSize = 64;
 ghoulspirit.beaconPayment = false;
 ghoulspirit.register();
+
+var branchoflife = VanillaFactory.createItem("branch_of_life");
+branchoflife.maxStackSize = 64;
+branchoflife.beaconPayment = false;
+branchoflife.register();
+
+var adamantiumstinger = VanillaFactory.createItem("adamantium_stinger");
+adamantiumstinger.maxStackSize = 64;
+adamantiumstinger.beaconPayment = false;
+adamantiumstinger.register();
+
+var gemofmidas = VanillaFactory.createItem("gem_of_midas");
+gemofmidas.maxStackSize = 64;
+gemofmidas.beaconPayment = false;
+gemofmidas.register();
+
+var adamantiumingot = VanillaFactory.createItem("adamantium_ingot");
+adamantiumingot.maxStackSize = 64;
+adamantiumingot.beaconPayment = false;
+adamantiumingot.register();
+
+var adamantiumplate = VanillaFactory.createItem("adamantium_plate");
+adamantiumplate.maxStackSize = 64;
+adamantiumplate.beaconPayment = false;
+adamantiumplate.register();
+
+var swordshield = VanillaFactory.createItem("sword_shield");
+swordshield.maxStackSize = 64;
+swordshield.beaconPayment = false;
+swordshield.register();
+
+var faultlessichorgem = VanillaFactory.createItem("faultless_ichor_gem");
+faultlessichorgem.maxStackSize = 64;
+faultlessichorgem.beaconPayment = false;
+faultlessichorgem.register();
+
+var heartoftheelderone = VanillaFactory.createItem("heart_of_the_elder_one");
+heartoftheelderone.maxStackSize = 64;
+heartoftheelderone.beaconPayment = false;
+heartoftheelderone.register();
+
+var naquadahchunk = VanillaFactory.createItem("naquadah_chunk");
+naquadahchunk.maxStackSize = 64;
+naquadahchunk.beaconPayment = false;
+naquadahchunk.register();
+
+var unidentifiedgem = VanillaFactory.createItem("unidentified_gem");
+unidentifiedgem.maxStackSize = 64;
+unidentifiedgem.beaconPayment = false;
+unidentifiedgem.register();
+
+var superconductingsednanite = VanillaFactory.createItem("superconducting_sednanite");
+superconductingsednanite.maxStackSize = 64;
+superconductingsednanite.beaconPayment = false;
+superconductingsednanite.register();
+
+var reactivefluix = VanillaFactory.createItem("reactive_fluix");
+reactivefluix.maxStackSize = 64;
+reactivefluix.beaconPayment = false;
+reactivefluix.register();
+
+var endergenicsediment = VanillaFactory.createItem("endergenic_sediment");
+endergenicsediment.maxStackSize = 64;
+endergenicsediment.beaconPayment = false;
+endergenicsediment.register();
+
+var uraniumhoneycluster = VanillaFactory.createItem("uranium_honey_cluster");
+uraniumhoneycluster.maxStackSize = 64;
+uraniumhoneycluster.beaconPayment = false;
+uraniumhoneycluster.register();
+
+var thoriumhoneycluster = VanillaFactory.createItem("thorium_honey_cluster");
+thoriumhoneycluster.maxStackSize = 64;
+thoriumhoneycluster.beaconPayment = false;
+thoriumhoneycluster.register();
+
+var infuseduranium = VanillaFactory.createItem("infused_uranium");
+infuseduranium.maxStackSize = 64;
+infuseduranium.beaconPayment = false;
+infuseduranium.register();
+
+var infusedthorium = VanillaFactory.createItem("infused_thorium");
+infusedthorium.maxStackSize = 64;
+infusedthorium.beaconPayment = false;
+infusedthorium.register();
+
+var ascendeddraconiumingot = VanillaFactory.createItem("ascended_draconium_ingot");
+ascendeddraconiumingot.maxStackSize = 64;
+ascendeddraconiumingot.beaconPayment = false;
+ascendeddraconiumingot.register();
+
+var energeticdraconiumingot = VanillaFactory.createItem("energetic_draconium_ingot");
+energeticdraconiumingot.maxStackSize = 64;
+energeticdraconiumingot.beaconPayment = false;
+energeticdraconiumingot.register();
+
+var deeplyetchedadamantium = VanillaFactory.createItem("deeply_etched_adamantium");
+deeplyetchedadamantium.maxStackSize = 64;
+deeplyetchedadamantium.beaconPayment = false;
+deeplyetchedadamantium.register();
+
+var betterlithiumbattery = VanillaFactory.createItem("better_lithium_battery");
+betterlithiumbattery.maxStackSize = 64;
+betterlithiumbattery.beaconPayment = false;
+betterlithiumbattery.register();
+
+var betterbattery = VanillaFactory.createItem("better_battery");
+betterbattery.maxStackSize = 64;
+betterbattery.beaconPayment = false;
+betterbattery.register();
+
+var betterenergycrystal = VanillaFactory.createItem("better_energy_crystal");
+betterenergycrystal.maxStackSize = 64;
+betterenergycrystal.beaconPayment = false;
+betterenergycrystal.register();
+
+var bettlapotroncrystal = VanillaFactory.createItem("better_lapotron_crystal");
+bettlapotroncrystal.maxStackSize = 64;
+bettlapotroncrystal.beaconPayment = false;
+bettlapotroncrystal.register();
+
+var bettlapotronorb = VanillaFactory.createItem("better_lapotronic_orb");
+bettlapotronorb.maxStackSize = 64;
+bettlapotronorb.beaconPayment = false;
+bettlapotronorb.register();
+
+var catears = VanillaFactory.createItem("cat_ears");
+catears.maxStackSize = 64;
+catears.beaconPayment = false;
+catears.register();
+
+var bluehair = VanillaFactory.createItem("blue_hair");
+bluehair.maxStackSize = 64;
+bluehair.beaconPayment = false;
+bluehair.register();
+
+var sigilofenergy = VanillaFactory.createItem("sigil_power");
+sigilofenergy.maxStackSize = 64;
+sigilofenergy.beaconPayment = false;
+sigilofenergy.register();
+
+var bakuheart = VanillaFactory.createItem("baku_heart");
+bakuheart.maxStackSize = 64;
+bakuheart.beaconPayment = false;
+bakuheart.register();
+
+var beechest = VanillaFactory.createItem("bee_chestplate");
+beechest.maxStackSize = 64;
+beechest.beaconPayment = false;
+beechest.register();
+
+var beehelm = VanillaFactory.createItem("bee_helmet");
+beehelm.maxStackSize = 64;
+beehelm.beaconPayment = false;
+beehelm.register();
+
+var beelegs = VanillaFactory.createItem("bee_leggings");
+beelegs.maxStackSize = 64;
+beelegs.beaconPayment = false;
+beelegs.register();
+
+var beefeet = VanillaFactory.createItem("bee_boots");
+beefeet.maxStackSize = 64;
+beefeet.beaconPayment = false;
+beefeet.register();
+
+var osirisspinel = VanillaFactory.createItem("osiris_spinel");
+osirisspinel.maxStackSize = 64;
+osirisspinel.beaconPayment = false;
+osirisspinel.register();
+
+var ptahspinel = VanillaFactory.createItem("ptah_spinel");
+ptahspinel.maxStackSize = 64;
+ptahspinel.beaconPayment = false;
+ptahspinel.register();
+
+var hatorspinel = VanillaFactory.createItem("hator_spinel");
+hatorspinel.maxStackSize = 64;
+hatorspinel.beaconPayment = false;
+hatorspinel.register();
+
+var europaspinel = VanillaFactory.createItem("europa_spinel");
+europaspinel.maxStackSize = 64;
+europaspinel.beaconPayment = false;
+europaspinel.register();
+
+var oispinel = VanillaFactory.createItem("oi_spinel");
+oispinel.maxStackSize = 64;
+oispinel.beaconPayment = false;
+oispinel.register();
+
+var falacerspinel = VanillaFactory.createItem("falacer_spinel");
+falacerspinel.maxStackSize = 64;
+falacerspinel.beaconPayment = false;
+falacerspinel.register();
+
+var orcusspinel = VanillaFactory.createItem("orcus_spinel");
+orcusspinel.maxStackSize = 64;
+orcusspinel.beaconPayment = false;
+orcusspinel.register();
+
+var haumeaspinel = VanillaFactory.createItem("haumea_spinel");
+haumeaspinel.maxStackSize = 64;
+haumeaspinel.beaconPayment = false;
+haumeaspinel.register();
+
+var sednaspinel = VanillaFactory.createItem("sedna_spinel");
+sednaspinel.maxStackSize = 64;
+sednaspinel.beaconPayment = false;
+sednaspinel.register();
+
+var italianflag = VanillaFactory.createItem("italian_flag");
+italianflag.maxStackSize = 64;
+italianflag.beaconPayment = false;
+italianflag.register();
+
+var nebuloussoul = VanillaFactory.createItem("nebulous_soul");
+nebuloussoul.maxStackSize = 64;
+nebuloussoul.beaconPayment = false;
+nebuloussoul.register();
+
+var medaloffreedom = VanillaFactory.createItem("medal_of_freedom");
+medaloffreedom.maxStackSize = 64;
+medaloffreedom.beaconPayment = false;
+medaloffreedom.register();

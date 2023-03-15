@@ -1,7 +1,7 @@
 {
 	title: "Portable Battery?",
-	x: 14.0d,
-	y: -10.0d,
+	x: 16.0d,
+	y: -11.0d,
 	text: [
 		"It appears I can contain one of the isotopes generated when reprocessing this new fuel, into a single block that will produce me 400 rf/t. Although it is a small amount, It seems to make a decent portable battery of sorts for small machines."
 	],

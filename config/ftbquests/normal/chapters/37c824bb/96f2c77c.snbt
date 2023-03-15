@@ -1,5 +1,6 @@
 {
-	x: 6.5d,
+	icon: "divinerpg:snowflake_shuriken",
+	x: 8.0d,
 	y: 10.5d,
 	description: "Dealing high damage increases the chance of crit hits and increases rage.",
 	dependencies: [

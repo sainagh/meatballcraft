@@ -87,7 +87,7 @@ null, <bewitchment:stew_of_the_grotesque>, null,
 <contenttweaker:mythic_excavation_reactor>, null, <botania:specialflower>.withTag({type: "dandelifeon"})], 
 
 [null, <contenttweaker:hypercubic_energy_orb>, null, 
-<rftools:space_chamber_controller>, <tconstruct:toolforge>.withTag({textureBlock: {id: "avaritia:block_resource", Count: 1 as byte, Damage: 1 as short}}), <rftools:space_chamber_controller>, 
+<rftools:space_chamber_controller>, <tconstruct:toolforge>.withTag({textureBlock: {id: "avaritia:block_resource", Count: 1, Damage: 1 as short}}), <rftools:space_chamber_controller>, 
 null, <contenttweaker:hypercubic_energy_orb>, null], 
 
 [<extendedcrafting:storage:4>, null, null, 
@@ -103,7 +103,7 @@ null, <draconicevolution:chaotic_core>, null,
 null, null, <extendedcrafting:storage:4>], 
 
 [null, <contenttweaker:hypercubic_energy_orb>, null, 
-<rftools:space_chamber_controller>, <tconstruct:toolforge>.withTag({textureBlock: {id: "avaritia:block_resource", Count: 1 as byte, Damage: 1 as short}}), <rftools:space_chamber_controller>, 
+<rftools:space_chamber_controller>, <tconstruct:toolforge>.withTag({textureBlock: {id: "avaritia:block_resource", Count: 1, Damage: 1 as short}}), <rftools:space_chamber_controller>, 
 null, <contenttweaker:hypercubic_energy_orb>, null], 
 
 [<botania:specialflower>.withTag({type: "dandelifeon"}), null, <contenttweaker:mythic_excavation_reactor>, 

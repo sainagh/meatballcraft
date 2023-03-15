@@ -197,13 +197,13 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:vibe_warper>,
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:apichisi_warper>, 
-[[<contenttweaker:divine_star>, <contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, 
-<contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, 
-<contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, <contenttweaker:divine_star>], 
+[[<materialpart:ogerite:ingot>, <contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, 
+<contenttweaker:rhenium_catalyst>, <contenttweaker:adamantium_ingot>, <contenttweaker:rhenium_catalyst>, 
+<contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, <materialpart:ogerite:ingot>], 
 
-[<contenttweaker:rhenium_catalyst>, <nuclearcraft:fusion_connector>, <nuclearcraft:fusion_connector>, 
+[<contenttweaker:rhenium_catalyst>, <extendedcrafting:singularity:26>, <nuclearcraft:fusion_connector>, 
 <nuclearcraft:fusion_connector>, <nuclearcraft:fusion_connector>, <nuclearcraft:fusion_connector>, 
-<nuclearcraft:fusion_connector>, <nuclearcraft:fusion_connector>, <contenttweaker:rhenium_catalyst>], 
+<nuclearcraft:fusion_connector>, <extendedcrafting:singularity:26>, <contenttweaker:rhenium_catalyst>], 
 
 [<contenttweaker:rhenium_catalyst>, <nuclearcraft:fusion_connector>, <environmentaltech:structure_frame_5>, 
 <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, 
@@ -213,9 +213,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:apichisi_warper>,
 <draconicevolution:draconic_block>, <contenttweaker:mythic_machine_case>, <draconicevolution:draconic_block>, 
 <environmentaltech:structure_frame_5>, <nuclearcraft:fusion_connector>, <contenttweaker:rhenium_catalyst>], 
 
-[<contenttweaker:rhenium_catalyst>, <nuclearcraft:fusion_connector>, <environmentaltech:structure_frame_5>, 
+[<contenttweaker:adamantium_ingot>, <nuclearcraft:fusion_connector>, <environmentaltech:structure_frame_5>, 
 <contenttweaker:mythic_machine_case>, <contenttweaker:wormhole_catalyst>, <contenttweaker:mythic_machine_case>, 
-<environmentaltech:structure_frame_5>, <nuclearcraft:fusion_connector>, <contenttweaker:rhenium_catalyst>], 
+<environmentaltech:structure_frame_5>, <nuclearcraft:fusion_connector>, <contenttweaker:adamantium_ingot>], 
 
 [<contenttweaker:rhenium_catalyst>, <nuclearcraft:fusion_connector>, <environmentaltech:structure_frame_5>, 
 <draconicevolution:draconic_block>, <contenttweaker:mythic_machine_case>, <draconicevolution:draconic_block>, 
@@ -225,13 +225,13 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:apichisi_warper>,
 <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, 
 <environmentaltech:structure_frame_5>, <nuclearcraft:fusion_connector>, <contenttweaker:rhenium_catalyst>], 
 
-[<contenttweaker:rhenium_catalyst>, <nuclearcraft:fusion_connector>, <nuclearcraft:fusion_connector>, 
+[<contenttweaker:rhenium_catalyst>, <extendedcrafting:singularity:26>, <nuclearcraft:fusion_connector>, 
 <nuclearcraft:fusion_connector>, <nuclearcraft:fusion_connector>, <nuclearcraft:fusion_connector>, 
-<nuclearcraft:fusion_connector>, <nuclearcraft:fusion_connector>, <contenttweaker:rhenium_catalyst>], 
+<nuclearcraft:fusion_connector>, <extendedcrafting:singularity:26>, <contenttweaker:rhenium_catalyst>], 
 
-[<contenttweaker:divine_star>, <contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, 
-<contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, 
-<contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, <contenttweaker:divine_star>]]);  
+[<materialpart:ogerite:ingot>, <contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, 
+<contenttweaker:rhenium_catalyst>, <contenttweaker:adamantium_ingot>, <contenttweaker:rhenium_catalyst>, 
+<contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, <materialpart:ogerite:ingot>]]);  
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:finem_warper>, 
 [[<projectex:power_flower:7>, <materialpart:sednanite:ingot>, <materialpart:sednanite:ingot>,

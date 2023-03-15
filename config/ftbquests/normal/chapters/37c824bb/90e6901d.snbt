@@ -1,5 +1,6 @@
 {
-	x: 6.5d,
+	icon: "randomthings:rezstone",
+	x: 8.0d,
 	y: 4.5d,
 	description: "Hurt mobs sometimes drop items that heals you, the more you do it, the better the healing.",
 	dependencies: [

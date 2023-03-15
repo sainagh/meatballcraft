@@ -26,3 +26,7 @@ mods.tconstruct.Casting.addBasinRecipe(<divinerpg:netherite_block>, null, <liqui
 mods.tconstruct.Melting.addRecipe(<liquid:bloodmaster_metal> * 144,<contenttweaker:bloodmaster_block>);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:bloodmaster_block>, null, <liquid:bloodmaster_metal>, 144);
 
+mods.tconstruct.Melting.addRecipe(<liquid:molten_adamantium> * 144,<contenttweaker:adamantium_ingot>);
+
+mods.tconstruct.Melting.addRecipe(<liquid:vibranium> * 144,<materialpart:vibranium:ingot>);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_vibranium_alloy> * 144,<materialpart:vibranium_alloy:ingot>);

@@ -21,6 +21,11 @@
       "id": "environmentaltech:pladium_crystal"
     },
     {
+      "target": "gray",
+      "weight": 602,
+      "id": "OD:oreGalena"
+    },
+    {
       "target": "crystal",
       "weight": 60,
       "id": "environmentaltech:ionite_crystal"

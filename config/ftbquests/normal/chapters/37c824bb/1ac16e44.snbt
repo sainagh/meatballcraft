@@ -7,59 +7,14 @@
 		"Mana appears to have a 'memory' for alchemical power, meaning that I can use it to create all remembered items at will."
 	],
 	dependencies: [
-		"ab2c32d7"
+		"1e58e692"
 	],
 	hide: true,
 	tasks: [{
-		uid: "2bec8da8",
+		uid: "e69857af",
 		type: "item",
 		items: [{
-			id: "projecte:item.pe_philosophers_stone",
-			tag: {},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
-		uid: "5c878a4e",
-		type: "item",
-		items: [{
-			id: "projecte:item.pe_klein_star",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}],
-		ignore_nbt: 1b
-	},
-	{
-		uid: "499d6e87",
-		type: "item",
-		items: [{
-			item: "projecte:transmutation_table"
-		}]
-	},
-	{
-		uid: "0b2aad3d",
-		type: "item",
-		items: [{
-			item: "projecte:collector_mk1"
-		}]
-	},
-	{
-		uid: "67b02cb2",
-		type: "item",
-		items: [{
-			item: "projecte:relay_mk1"
-		}]
-	},
-	{
-		uid: "51001b05",
-		type: "item",
-		items: [{
-			item: "projecte:condenser_mk1"
+			item: "projectex:stone_table"
 		}]
 	}]
 }

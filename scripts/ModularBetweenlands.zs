@@ -117,6 +117,7 @@ bot13.build();
 val bot14 = RecipeBuilder.newBuilder("gateval14","valonite_gateway",100);
 bot14.addFluidInput(<fluid:liquidcoralium>*500);
 bot14.addItemInput(<projecte:item.pe_matter:1>);
+bot14.addItemInput(<contenttweaker:energetic_draconium_ingot>);
 bot14.addItemInput(<thebetweenlands:spirit_fruit>*32);
 bot14.addItemInput(<projecte:item.pe_fuel:2>*64);
 bot14.addItemOutput(<contenttweaker:blue_matter>);

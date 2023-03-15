@@ -1,6 +1,6 @@
 {
-	x: 12.0d,
-	y: 2.5d,
+	x: 18.0d,
+	y: 0.0d,
 	dependencies: [
 		"c886443f"
 	],
@@ -10,6 +10,7 @@
 		items: [{
 			id: "appliedenergistics2:energy_cell",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

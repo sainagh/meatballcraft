@@ -1,6 +1,6 @@
 {
-	x: 11.0d,
-	y: 1.5d,
+	x: 17.0d,
+	y: -1.0d,
 	dependencies: [
 		"c886443f"
 	],
@@ -21,7 +21,8 @@
 			},
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			Count: 1b
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

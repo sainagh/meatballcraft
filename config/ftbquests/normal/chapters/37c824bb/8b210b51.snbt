@@ -1,6 +1,6 @@
 {
 	title: "Better Fabrication",
-	x: 11.0d,
+	x: 14.0d,
 	y: 0.0d,
 	description: "Don't know how a machine or a recipe works? Info will be found in the manufacturing and fabrication tab!",
 	text: [

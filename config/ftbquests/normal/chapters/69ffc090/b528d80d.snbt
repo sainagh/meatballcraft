@@ -5,13 +5,10 @@
 		"e43dad77"
 	],
 	tasks: [{
-		uid: "6041843c",
+		uid: "56378fee",
 		type: "item",
 		items: [{
-			id: "projecte:item.pe_transmutation_tablet",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "projectex:arcane_tablet"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

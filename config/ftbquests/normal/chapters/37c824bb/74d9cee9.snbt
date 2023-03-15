@@ -1,6 +1,6 @@
 {
 	title: "Forestry",
-	x: 9.5d,
+	x: 15.5d,
 	y: 3.0d,
 	description: "Used to craft machines from forestry and gendustry (see manufacturing and fabrication)",
 	text: [

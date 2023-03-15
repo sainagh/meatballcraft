@@ -16,7 +16,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockoutputbus@2"
+                "modularmachinery:blockoutputbus"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "bewitchment:gold_moloch_statue@0"
+                "bewitchment:gold_moloch_statue"
             ]
         },
         {
@@ -56,7 +56,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
+                "modularmachinery:blockfluidinputhatch"
             ]
         },
         {

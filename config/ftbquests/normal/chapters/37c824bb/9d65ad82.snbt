@@ -1,5 +1,18 @@
 {
-	x: 6.5d,
+	icon: {
+		id: "thaumcraft:elemental_pick",
+		tag: {
+			infench: [{
+				id: 4s,
+				lvl: 1s
+			},
+			{
+				id: 3s,
+				lvl: 2s
+			}]
+		}
+	},
+	x: 8.0d,
 	y: 7.5d,
 	description: "The more you mine, the better the random drops and luck.",
 	dependencies: [

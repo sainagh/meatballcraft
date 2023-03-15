@@ -39,6 +39,18 @@ var mapVileOther as IData = {
 };
 mapVile += mapVileOther;
 
+val enchlistBrave as IEnchantmentDefinition[] = [<enchantment:cofhcore:multishot>, <enchantment:minecraft:power>, <enchantment:minecraft:infinity>, <enchantment:cofhcore:leech>];
+var mapBrave as IData = {};
+mapBrave += enchlistBrave[0].makeEnchantment(6).makeTag();
+mapBrave += enchlistBrave[1].makeEnchantment(12).makeTag();
+mapBrave += enchlistBrave[2].makeEnchantment(1).makeTag();
+mapBrave += enchlistBrave[3].makeEnchantment(1).makeTag();
+var mapBraveOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Brave"}
+};
+mapBrave += mapBraveOther;
+
 val enchlistAbyss as IEnchantmentDefinition[] = [<enchantment:cofhcore:leech>, <enchantment:minecraft:sweeping>, <enchantment:minecraft:unbreaking>, <enchantment:minecraft:mending>];
 var mapAbyss as IData = {};
 mapAbyss += enchlistAbyss[0].makeEnchantment(16).makeTag();
@@ -50,6 +62,16 @@ var mapAbyssOther as IData = {
 	display: {Name: "Vrangr"}
 };
 mapAbyss += mapAbyssOther;
+
+
+val enchlistKikoku as IEnchantmentDefinition[] = [<enchantment:cofhcore:vorpal>];
+var mapKikoku as IData = {};
+mapKikoku += enchlistKikoku[0].makeEnchantment(6).makeTag();
+var mapKikokuOther as IData = {
+	RepairCost: 1,
+	display: {Name: "K-Room"}
+};
+mapKikoku += mapKikokuOther;
 
 
 
@@ -203,7 +225,7 @@ recipes.addShaped(<immersiveengineering:graphite_electrode>.withTag({ench: [{lvl
 [<ore:ingotHOPGraphite>, <immersiveengineering:graphite_electrode>, <ore:ingotHOPGraphite>],
 [<ore:ingotHOPGraphite>, <projectex:matter:7>, <ore:ingotHOPGraphite>]]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:lawsword>.withTag({ench: [{lvl: 6 as short, id: 94 as short}], RepairCost: 1, display: {Name: "K-Room"}}), 
+mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:lawsword>.withTag(mapKikoku), 
 [[<contenttweaker:ender_feather>, <contenttweaker:ender_feather>, <materialpart:promethium:ingot>, <contenttweaker:ender_feather>, <contenttweaker:ender_feather>], 
 [<contenttweaker:ender_feather>, null, <contenttweaker:ender_dolomite_dust>, null, <contenttweaker:ender_feather>], 
 [<materialpart:promethium:ingot>, <contenttweaker:ender_dolomite_dust>, <extrautils2:lawsword>, <contenttweaker:ender_dolomite_dust>, <materialpart:promethium:ingot>], 
@@ -214,3 +236,15 @@ recipes.addShaped(<abyssalcraft:soulreaper>.withTag(mapAbyss),
 [[<abyssalcraft:crystalcluster:7>, <abyssalcraft:essence:2>, <abyssalcraft:crystalcluster:5>],
 [<abyssalcraft:essence:2>, <abyssalcraft:soulreaper>, <abyssalcraft:essence:2>],
 [<abyssalcraft:crystalcluster:4>, <abyssalcraft:essence:2>, <abyssalcraft:crystalcluster:6>]]);
+
+recipes.addShaped(<abyssalcraft:dreadiumsamuraihelmet>.withTag({ench: [{lvl: 1 as short, id: 70 as short}, {lvl: 15 as short, id: 34 as short}, {lvl: 55 as short, id: 7 as short}], RepairCost: 1, display: {Name: "Stinger Samurai Helm"}}),
+[[null, <extendedcrafting:singularity_custom:629>, null],
+[null, <abyssalcraft:dreadiumsamuraihelmet>, null],
+[null, <contenttweaker:sword_shield>, null]]);
+
+
+recipes.addShaped(<redstonearsenal:tool.bow_flux>.withTag(mapBrave),
+[[<bewitchment:hellhound_horn>, <bewitchment:demon_heart>, <bewitchment:hellhound_horn>],
+[<contenttweaker:dragons_blood_plastic>, <bewitchment:sigil_ruin>, <contenttweaker:dragons_blood_plastic>],
+[<bewitchment:hellhound_horn>, <redstonearsenal:tool.bow_flux>, <bewitchment:hellhound_horn>]]);
+

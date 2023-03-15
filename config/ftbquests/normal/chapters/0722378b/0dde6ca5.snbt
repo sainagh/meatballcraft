@@ -1,0 +1,19 @@
+{
+	x: 16.0d,
+	y: -4.0d,
+	dependencies: [
+		"e1ef8d61"
+	],
+	tasks: [{
+		uid: "89726133",
+		type: "item",
+		items: [{
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IP:DistillationTower"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

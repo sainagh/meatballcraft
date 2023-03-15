@@ -1,6 +1,6 @@
 {
-	x: 20.0d,
-	y: -1.5d,
+	x: 21.5d,
+	y: -3.0d,
 	description: "Used to craft machines from nuclearcraft (see manufacturing and fabrication)",
 	dependencies: [
 		"d4a82bd8"

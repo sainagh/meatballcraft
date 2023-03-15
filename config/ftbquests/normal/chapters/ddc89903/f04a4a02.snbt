@@ -1,6 +1,6 @@
 {
-	x: 20.0d,
-	y: -1.5d,
+	x: 23.0d,
+	y: -4.0d,
 	dependencies: [
 		"adb65dd2"
 	],

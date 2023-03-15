@@ -11,7 +11,7 @@ import mods.contenttweaker.BlockMaterial;
 var warpNONO1 = VanillaFactory.createItem("dreading_warp_cleanser");
 warpNONO1.maxStackSize = 16;
 warpNONO1.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("thaumcraft warp @p add -5 perm", player, world, true, true);
+	Commands.call("thaumcraft warp @p add -20 perm", player, world, true, true);
 	stack.shrink(1);
 	return "Pass";
 };

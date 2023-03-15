@@ -1,6 +1,6 @@
 {
 	icon: "avaritia:cosmic_meatballs",
-	x: -5.5d,
+	x: -4.0d,
 	y: -1.5d,
 	description: "This is an RPG-themed pack, so quests will tell you what you can do, not what you have to do. The way you do things is up to YOU!",
 	text: [

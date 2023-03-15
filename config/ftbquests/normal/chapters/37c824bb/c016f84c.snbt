@@ -1,6 +1,6 @@
 {
 	title: "Mix and Match",
-	x: 6.5d,
+	x: 8.0d,
 	y: 0.0d,
 	description: "Search for tinker modifier in JEI for list of modifiers. Any material can be used for the tool forge!",
 	text: [

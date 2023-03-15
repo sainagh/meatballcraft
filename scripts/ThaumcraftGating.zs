@@ -73,29 +73,29 @@ mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:arcane_terminal
 
 recipes.removeShaped(<thaumcraft:plate:2>);
 recipes.removeShaped(<thaumcraft:plate:3>);
-recipes.removeShaped(<thaumadditions:mithrillium_plate>);
-recipes.removeShaped(<thaumadditions:adaminite_plate>);
-recipes.removeShaped(<thaumadditions:mithminite_plate>);
+// recipes.removeShaped(<thaumadditions:mithrillium_plate>);
+// recipes.removeShaped(<thaumadditions:adaminite_plate>);
+// recipes.removeShaped(<thaumadditions:mithminite_plate>);
 
-mods.thaumcraft.Infusion.removeRecipe(<thaumicenergistics:arcane_assembler>);
+// mods.thaumcraft.Infusion.removeRecipe(<thaumicenergistics:arcane_assembler>);
 
-val arcaneassembler = RecipeBuilder.newBuilder("arcaneassemblerinf","arcane_autoinfuser",120);
-arcaneassembler.addEnergyPerTickInput(100);
-arcaneassembler.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fabrico"}]})*64);
-arcaneassembler.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "permutatio"}]})*32);
-arcaneassembler.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "auram"}]})*16);
-arcaneassembler.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]})*16);
-arcaneassembler.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "metallum"}]})*8);
-arcaneassembler.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitreus"}]})*8);
-arcaneassembler.addItemInput(<appliedenergistics2:molecular_assembler>);
-arcaneassembler.addItemInput(<thaumicenergistics:coalescence_core>);
-arcaneassembler.addItemInput(<thaumicenergistics:diffusion_core>);
-arcaneassembler.addItemInput(<contenttweaker:mythic_excavation_engine>);
-arcaneassembler.addItemInput(<contenttweaker:complex_gearbox>);
-arcaneassembler.addItemOutput(<thaumicenergistics:arcane_assembler>);
-arcaneassembler.build();
+// val arcaneassembler = RecipeBuilder.newBuilder("arcaneassemblerinf","arcane_autoinfuser",120);
+// arcaneassembler.addEnergyPerTickInput(100);
+// arcaneassembler.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fabrico"}]})*64);
+// arcaneassembler.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "permutatio"}]})*32);
+// arcaneassembler.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "auram"}]})*16);
+// arcaneassembler.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]})*16);
+// arcaneassembler.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "metallum"}]})*8);
+// arcaneassembler.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitreus"}]})*8);
+// arcaneassembler.addItemInput(<appliedenergistics2:molecular_assembler>);
+// arcaneassembler.addItemInput(<thaumicenergistics:coalescence_core>);
+// arcaneassembler.addItemInput(<thaumicenergistics:diffusion_core>);
+// arcaneassembler.addItemInput(<contenttweaker:mythic_excavation_engine>);
+// arcaneassembler.addItemInput(<contenttweaker:complex_gearbox>);
+// arcaneassembler.addItemOutput(<thaumicenergistics:arcane_assembler>);
+// arcaneassembler.build();
 
-mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:blank_knowledge_core>);
+// mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:blank_knowledge_core>);
 
 mods.thaumcraft.Crucible.registerRecipe("easierseal1", "", <thaumcraft:seal:12>, <thaumcraft:seal:0>, [<aspect:instrumentum>*20,<aspect:humanus>*10]);
 mods.thaumcraft.Crucible.registerRecipe("easierseal2", "", <thaumcraft:seal:8>, <thaumcraft:seal:0>, [<aspect:bestia>*20,<aspect:sensus>*10]);

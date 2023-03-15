@@ -6,10 +6,10 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "817e7448",
+		uid: "31320094",
 		type: "item",
 		items: [{
-			item: "projecte:item.pe_transmutation_tablet"
+			item: "projectex:arcane_tablet"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

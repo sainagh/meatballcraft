@@ -1,6 +1,7 @@
 {
 	title: "6th sense?",
-	x: 5.0d,
+	icon: "divinerpg:aquatooth_sword",
+	x: 6.5d,
 	y: 3.0d,
 	description: "Mobs marked by swords are hunter mobs. if the swords are red, your level is too low, if they're green you can use them to level up. Savannahs are a good place to start!",
 	text: [

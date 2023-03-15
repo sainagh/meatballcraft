@@ -1,0 +1,16 @@
+{
+	x: 32.0d,
+	y: -9.0d,
+	description: "Lord vatticus will trade the wizard book, right click it on the Dramix Altar",
+	dependencies: [
+		"dd400df7"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "5302a043",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dramix_skin"
+		}]
+	}]
+}

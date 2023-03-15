@@ -607,3 +607,12 @@ possessedstarlight.register();
 
 var whisperingstarlight = VanillaFactory.createFluid("whispering_starlight", Color.fromHex("7b668a"));
 whisperingstarlight.register();
+
+var miltenadamantium = VanillaFactory.createFluid("molten_adamantium", Color.fromHex("332933"));
+miltenadamantium.register();
+
+var miltenvibraniumalloy = VanillaFactory.createFluid("molten_vibranium_alloy", Color.fromHex("1e2742"));
+miltenvibraniumalloy.register();
+
+var fluixplasma = VanillaFactory.createFluid("fluix_plasma", Color.fromHex("cc7fe3"));
+fluixplasma.register();

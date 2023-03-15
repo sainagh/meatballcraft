@@ -1,6 +1,7 @@
 {
 	x: 30.5d,
 	y: -13.5d,
+	description: "Assemble the gaia arena and click the beacon with a full nature orb",
 	dependencies: [
 		"a852a933"
 	],

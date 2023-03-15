@@ -1,6 +1,6 @@
 {
 	title: "Cali Approved!",
-	x: 14.0d,
+	x: 12.5d,
 	y: 0.0d,
 	description: "Nether time! Blaze it!",
 	text: [
@@ -10,7 +10,7 @@
 		"I'll try to study this more in the hope that I may be able to use similar methods to get back home."
 	],
 	dependencies: [
-		"0e71452d"
+		"a4aedc8f"
 	],
 	hide: true,
 	tasks: [{

@@ -1,6 +1,6 @@
 {
 	title: "A Rift",
-	x: -5.5d,
+	x: -4.0d,
 	y: 0.0d,
 	description: "I don't want to overload you with knowledge, so important info will become available through checkmark quests and subtitles when it's needed. If you feel like something is wrong, let me know on discord!",
 	text: [
@@ -15,15 +15,5 @@
 		type: "checkmark",
 		title: "First Day",
 		icon: "minecraft:grass"
-	}],
-	rewards: [{
-		uid: "04a4359e",
-		type: "item",
-		item: {
-			id: "akashictome:tome",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
 	}]
 }

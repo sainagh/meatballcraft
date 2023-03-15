@@ -942,6 +942,7 @@ val mythpulv153 = RecipeBuilder.newBuilder("mythpulv153","mythic_processor_pulve
 mythpulv153.addEnergyPerTickInput(60000);
 mythpulv153.addItemInput(<ore:oreYellorite>,16);
 mythpulv153.addItemOutput(<bigreactors:dustyellorium>*64);
+mythpulv153.addItemOutput(<bigreactors:dustcyanite>*32);
 mythpulv153.build();
 
 val mythpulv154 = RecipeBuilder.newBuilder("mythpulv154","mythic_processor_pulverizer",2);
@@ -1144,3 +1145,16 @@ mythpulv184.addEnergyPerTickInput(60000);
 mythpulv184.addItemInput(<ore:oreDilithium>,16);
 mythpulv184.addItemOutput(<libvulpes:productgem:0>*64);
 mythpulv184.build();
+
+val mythpulv185 = RecipeBuilder.newBuilder("mythpulv185","mythic_processor_pulverizer",2);
+mythpulv185.addEnergyPerTickInput(60000);
+mythpulv185.addItemInput(<ore:oreRutile>,16);
+mythpulv185.addItemOutput(<techreborn:dust:54>*64);
+mythpulv185.addItemOutput(<contenttweaker:vanadium_dust>*16);
+mythpulv185.build();
+
+val mythpulv186 = RecipeBuilder.newBuilder("mythpulv186","mythic_processor_pulverizer",2);
+mythpulv186.addEnergyPerTickInput(60000);
+mythpulv186.addItemInput(<ore:oreLead>,16);
+mythpulv186.addItemOutput(<thermalfoundation:material:67>*64);
+mythpulv186.build();

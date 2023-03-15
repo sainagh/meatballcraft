@@ -1,5 +1,6 @@
 {
-	x: 5.0d,
+	icon: "aoa3:shyregem_bow",
+	x: 6.5d,
 	y: 1.5d,
 	description: "There are many skills and abilities that can be levelled up!",
 	text: [

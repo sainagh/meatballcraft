@@ -1,0 +1,15 @@
+{
+	x: 68.0d,
+	y: -3.0d,
+	dependencies: [
+		"5a0724e2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dc50cded",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gem_of_midas"
+		}]
+	}]
+}

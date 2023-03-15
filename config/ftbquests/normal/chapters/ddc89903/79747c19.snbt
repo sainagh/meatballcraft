@@ -1,6 +1,6 @@
 {
-	x: 16.0d,
-	y: 0.5d,
+	x: 22.0d,
+	y: -2.0d,
 	text: [
 		"Dense cables carry up to 32 channels, and they display how many are in use."
 	],

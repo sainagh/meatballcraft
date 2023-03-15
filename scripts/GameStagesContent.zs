@@ -1,7 +1,7 @@
 import mods.recipestages.Recipes;
 
 recipes.removeShaped(<modularmachinery:blockcontroller>);
-mods.recipestages.Recipes.addShaped("modular_controller", "ModularStage", <modularmachinery:blockcontroller>, [
+mods.recipestages.Recipes.addShaped("modular_controller", "modularstage", <modularmachinery:blockcontroller>, [
     [null, <minecraft:diamond>, null],
     [<minecraft:redstone_block>, <modularmachinery:blockcasing:0>, <minecraft:redstone_block>],
     [<minecraft:gold_ingot>, <minecraft:redstone_block>, <minecraft:gold_ingot>]
@@ -12,11 +12,12 @@ recipes.addShaped(<modularmachinery:blockcontroller>,
 [<minecraft:redstone_block>, <modularmachinery:blockcontroller>.reuse(), <minecraft:redstone_block>],
 [<minecraft:gold_ingot>, <minecraft:redstone_block>, <minecraft:gold_ingot>]]);
 
-mods.MobStages.addStage("ModularStage", "thaumcraft:cultistleader", 0);
+mods.MobStages.addStage("modularstage", "thaumcraft:cultistleader", 0);
 
-mods.MobStages.addStage("ModularStage", "thaumcraft:cultistknight", 0);
+mods.MobStages.addStage("modularstage", "thaumcraft:cultistknight", 0);
 
-mods.recipestages.Recipes.setRecipeStage("BloodmasterStage", <contenttweaker:nethersky_amber>);
+mods.recipestages.Recipes.setRecipeStage("bloodmasterstage", <contenttweaker:nethersky_amber>);
+
 
 
 recipes.addShaped(<contenttweaker:bloodmaster_tome>,
@@ -25,9 +26,9 @@ recipes.addShaped(<contenttweaker:bloodmaster_tome>,
 [<bloodmagic:slate:0>, <soulshardsrespawn:soul_shard>.withTag({binding: {kills: 1024, bound: "minecraft:blaze"}}), <bloodmagic:slate:0>]]);
 
 
-mods.recipestages.Recipes.setRecipeStage("DivineStage", <contenttweaker:realmstone>);
+mods.recipestages.Recipes.setRecipeStage("divinestage", <contenttweaker:realmstone>);
 
-mods.recipestages.Recipes.setRecipeStage("DivineStage", <divinerpg:twilight_clock>);
+mods.recipestages.Recipes.setRecipeStage("divinestage", <divinerpg:twilight_clock>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:singularity_master>, 
 [[<extendedcrafting:singularity:1>, null, null, <extendedcrafting:singularity:2>, null, null, <extendedcrafting:singularity:3>], 
@@ -38,7 +39,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:singularity_master
 [null, null, null, <nuclearcraft:fuel_mixed_oxide:0>, null, null, null], 
 [<extendedcrafting:singularity:6>, null, null, <extendedcrafting:singularity:7>, null, null, <extendedcrafting:singularity:0>]]);
 
-mods.recipestages.Recipes.setRecipeStage("DraconicStage", <draconicevolution:fusion_crafting_core>);
+mods.recipestages.Recipes.setRecipeStage("draconicstage", <draconicevolution:fusion_crafting_core>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:draconic_key>, 
 [[<extendedcrafting:material:12>, <extendedcrafting:material:12>, <draconicevolution:draconium_block:0>, <contenttweaker:deeplands_garnet>, <draconicevolution:draconium_block:0>, <extendedcrafting:material:12>, <extendedcrafting:material:12>], 
@@ -55,27 +56,27 @@ recipes.addShaped(<contenttweaker:minor_vethea_binding>,
 [null, <divinerpg:karos_lump>, null]]);
 
 
-mods.recipestages.Recipes.setRecipeStage("BrightsteelForging", <avaritia:resource:0>);
+mods.recipestages.Recipes.setRecipeStage("brightsteelforging", <avaritia:resource:0>);
 
-mods.recipestages.Recipes.addShaped("brightsteel_head_gs", "BrightsteelForging", <contenttweaker:brightsteel_head>, [
+mods.recipestages.Recipes.addShaped("brightsteel_head_gs", "brightsteelforging", <contenttweaker:brightsteel_head>, [
     [<materialpart:brightsteel:ingot>, <iceandfire:dragonsteel_ice_helmet>, <materialpart:brightsteel:ingot>],
     [<materialpart:brightsteel:ingot>, <materialpart:brightsteel:ingot>, <materialpart:brightsteel:ingot>],
     [<materialpart:brightsteel:ingot>, <iceandfire:dragonsteel_fire_helmet>, <materialpart:brightsteel:ingot>]
 ]);
 
-mods.recipestages.Recipes.addShaped("brightsteel_chest_gs", "BrightsteelForging", <contenttweaker:brightsteel_chest>, [
+mods.recipestages.Recipes.addShaped("brightsteel_chest_gs", "brightsteelforging", <contenttweaker:brightsteel_chest>, [
     [<materialpart:brightsteel:ingot>, <iceandfire:dragonsteel_ice_chestplate>, <materialpart:brightsteel:ingot>],
     [<materialpart:brightsteel:ingot>, <materialpart:brightsteel:ingot>, <materialpart:brightsteel:ingot>],
     [<materialpart:brightsteel:ingot>, <iceandfire:dragonsteel_fire_chestplate>, <materialpart:brightsteel:ingot>]
 ]);
 
-mods.recipestages.Recipes.addShaped("brightsteel_legs_gs", "BrightsteelForging", <contenttweaker:brightsteel_legs>, [
+mods.recipestages.Recipes.addShaped("brightsteel_legs_gs", "brightsteelforging", <contenttweaker:brightsteel_legs>, [
     [<materialpart:brightsteel:ingot>, <iceandfire:dragonsteel_ice_leggings>, <materialpart:brightsteel:ingot>],
     [<materialpart:brightsteel:ingot>, <materialpart:brightsteel:ingot>, <materialpart:brightsteel:ingot>],
     [<materialpart:brightsteel:ingot>, <iceandfire:dragonsteel_fire_leggings>, <materialpart:brightsteel:ingot>]
 ]);
 
-mods.recipestages.Recipes.addShaped("brightsteel_feet_gs", "BrightsteelForging", <contenttweaker:brightsteel_feet>, [
+mods.recipestages.Recipes.addShaped("brightsteel_feet_gs", "brightsteelforging", <contenttweaker:brightsteel_feet>, [
     [<materialpart:brightsteel:ingot>, <iceandfire:dragonsteel_ice_boots>, <materialpart:brightsteel:ingot>],
     [<materialpart:brightsteel:ingot>, <materialpart:brightsteel:ingot>, <materialpart:brightsteel:ingot>],
     [<materialpart:brightsteel:ingot>, <iceandfire:dragonsteel_fire_boots>, <materialpart:brightsteel:ingot>]
@@ -90,7 +91,7 @@ recipes.addShaped(<contenttweaker:alien_material_manual>,
 
 mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:shadow_steel>, <divinerpg:shadow_bar>, 3000);
 
-mods.recipestages.Recipes.addShaped("make_table_basic", "ExtendedCrafting", <extendedcrafting:table_basic>, [
+mods.recipestages.Recipes.addShaped("make_table_basic", "extendedcrafting", <extendedcrafting:table_basic>, [
     [<extendedcrafting:material:14>, <extendedcrafting:material:8>, <extendedcrafting:material:14>],
     [<minecraft:crafting_table>, <tconstruct:metal:5>, <minecraft:crafting_table>],
     [<extendedcrafting:material:14>, <extendedcrafting:material:2>, <extendedcrafting:material:14>]
@@ -106,4 +107,16 @@ mods.DimensionStages.addDimensionStage("dynatos", 171);
 mods.DimensionStages.addDimensionStage("dynatos", 172);
 mods.DimensionStages.addDimensionStage("dynatos", 173);
 mods.DimensionStages.addDimensionStage("alkemia", 173);
-mods.DimensionStages.addDimensionStage("ExtendedCrafting", -1);
+mods.DimensionStages.addDimensionStage("extendedcrafting", -1);
+
+mods.recipestages.Recipes.addShaped("makedivinestonesedna", "sedna", <divinerpg:divine_rock>, [
+    [<aether_legacy:enchanted_gravitite>, <materialpart:sednanite:ingot>, <aether_legacy:enchanted_gravitite>],
+    [<materialpart:sednanite:ingot>, <contenttweaker:divine_star>, <materialpart:sednanite:ingot>],
+    [<aether_legacy:enchanted_gravitite>, <materialpart:sednanite:ingot>, <aether_legacy:enchanted_gravitite>]
+]);
+
+
+mods.recipestages.Recipes.addShapeless("minor_vethea_binding", "MinorVetheaBinding", <projecte:item.pe_alchemical_bag>, [
+    <divinerpg:hyrewood_log>, <divinerpg:fire_crystal>,
+    <divinerpg:fire_crystal>, <divinerpg:fire_crystal>
+]);

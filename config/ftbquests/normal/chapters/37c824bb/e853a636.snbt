@@ -1,7 +1,7 @@
 {
-	x: 17.0d,
+	x: 18.5d,
 	y: 3.0d,
-	description: "Your first callstone! Callstones summon gungeons, so don't use them in your base!",
+	description: "Your first callstone! Callstones summon dungeons, so don't use them in your base!",
 	dependencies: [
 		"cff69a0b"
 	],

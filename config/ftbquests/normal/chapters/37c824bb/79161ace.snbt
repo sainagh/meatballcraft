@@ -1,6 +1,6 @@
 {
 	title: "Alien technology is cool!",
-	x: 12.5d,
+	x: 15.5d,
 	y: 1.5d,
 	description: "Used to craft machines from enderIO (see manufacturing and fabrication)",
 	text: [

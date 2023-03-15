@@ -1,6 +1,6 @@
 {
 	title: "Stone Age",
-	x: -1.0d,
+	x: 0.5d,
 	y: 0.0d,
 	description: "Going right makes you progress through the pack, quests up and down are about what can be done (if you want to finish you'll have to do these eventually)",
 	text: [

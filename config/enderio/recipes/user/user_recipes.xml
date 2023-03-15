@@ -62,4 +62,16 @@
       <output name="ingotVibranium" amount="8"/>
     </alloying>
   </recipe>
+
+
+  <recipe name="Sagmill: oreYellorite Ore" disabled="true">
+ <sagmilling energy="3600">
+ <input name="oreYellorite" />
+ <output name="dustYellorium" amount="2" />
+ <output name="dustCyanite" chance="0.05" required="false" />
+ <output name="oredict:cobblestone" chance="0.15" />
+ </sagmilling>
+ </recipe>
+
+
 </enderio:recipes>

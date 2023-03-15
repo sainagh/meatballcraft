@@ -1,0 +1,18 @@
+{
+	x: 8.0d,
+	y: -1.5d,
+	description: "To keep track of things to do!",
+	dependencies: [
+		"c016f84c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3c2e5ad1",
+		type: "item",
+		items: [{
+			item: "bibliocraft:biblioclipboard"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

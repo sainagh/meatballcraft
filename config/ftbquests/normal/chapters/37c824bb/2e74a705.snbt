@@ -1,6 +1,6 @@
 {
 	title: "Powerful Knowledge",
-	x: -7.0d,
+	x: -5.5d,
 	y: 0.0d,
 	description: "This is a checkmark quest, click on the white checkmark to complete it!",
 	text: [

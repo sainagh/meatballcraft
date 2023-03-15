@@ -7,7 +7,7 @@
 		"By upgrading my current way of building work tables, I should gain access to more complex machines!"
 	],
 	dependencies: [
-		"928b9f1a"
+		"8b210b51"
 	],
 	hide: true,
 	tasks: [{

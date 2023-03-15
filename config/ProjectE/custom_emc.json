@@ -3763,6 +3763,1078 @@
     {
       "item": "contenttweaker:ghoul_spirit|0",
       "emc": 404404
+    },
+    {
+      "item": "contenttweaker:adamantium_stinger|0",
+      "emc": 12000000
+    },
+    {
+      "item": "contenttweaker:ogerite_crystal_lattice|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:seared|0",
+      "emc": 32
+    },
+    {
+      "item": "twilightforest:castle_brick|0",
+      "emc": 2048
+    },
+    {
+      "item": "minecraft:enchanted_book|0",
+      "emc": 0
+    },
+    {
+      "item": "twilightforest:maze_stone|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:naga_stone|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:naga_stone|1",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:deadrock|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:underbrick|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:aurora_pillar|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:aurora_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:auroralized_glass|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:deadrock|2",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:deadrock|1",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:maze_stone|7",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:maze_stone|6",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:maze_stone|5",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:maze_stone|4",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:maze_stone|3",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:maze_stone|2",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:maze_stone|1",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:underbrick|1",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:underbrick|2",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:underbrick|3",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:castle_brick|1",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:castle_brick|2",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:castle_brick|3",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:castle_brick|4",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:spiral_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:etched_nagastone|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:nagastone_pillar|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:etched_nagastone_mossy|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:nagastone_pillar_mossy|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:etched_nagastone_weathered|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:nagastone_pillar_weathered|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:terrorcotta_circle|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:terrorcotta_diagonal|0",
+      "emc": 2048
+    },
+    {
+      "item": "railcraft:gear|3",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:ingot|2",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:endergenic_sediment|0",
+      "emc": 8192
+    },
+    {
+      "item": "contenttweaker:ender_dolomite|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:ender_dolomite_dust|0",
+      "emc": 0
+    },
+    {
+      "item": "chisel:limestone|0",
+      "emc": 4
+    },
+    {
+      "item": "immersiveengineering:blueprint|0",
+      "emc": 0
+    },
+    {
+      "item": "chisel:basalt|0",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt1|7",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|10",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|11",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|12",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|5",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|4",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|3",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|2",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|1",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|9",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|8",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|7",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|6",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|13",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|14",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt|15",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt1|0",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt1|1",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt2|1",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt1|4",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt1|5",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt1|6",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt1|8",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt1|9",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt2|0",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt1|3",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt1|2",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt2|2",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt2|3",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt2|4",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt2|5",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt2|6",
+      "emc": 4
+    },
+    {
+      "item": "chisel:basalt2|7",
+      "emc": 4
+    },
+    {
+      "item": "forestry:royal_jelly|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumicwonders:transmuter_stone|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumicwonders:alchemist_stone|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:materials|9",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:materials|10",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:materials|11",
+      "emc": 0
+    },
+    {
+      "item": "techreborn:part|32",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:better_energy_crystal|0",
+      "emc": 0
+    },
+    {
+      "item": "chisel:limestone|1",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone|2",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone|3",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone|4",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone|5",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone|6",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone|7",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone|8",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone|9",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone|10",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone|11",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone|12",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone|13",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone|14",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone|15",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone1|0",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone1|1",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone1|2",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone2|1",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone2|0",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone1|9",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone1|8",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone1|7",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone1|6",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone1|5",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone1|4",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone1|3",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone2|2",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone2|3",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone2|4",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone2|5",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone2|6",
+      "emc": 4
+    },
+    {
+      "item": "chisel:limestone2|7",
+      "emc": 4
+    },
+    {
+      "item": "thebetweenlands:limestone|0",
+      "emc": 4
+    },
+    {
+      "item": "thebetweenlands:limestone_chiseled|0",
+      "emc": 4
+    },
+    {
+      "item": "thebetweenlands:cracked_limestone_bricks|0",
+      "emc": 4
+    },
+    {
+      "item": "thebetweenlands:limestone_bricks|0",
+      "emc": 4
+    },
+    {
+      "item": "thebetweenlands:limestone_tiles|0",
+      "emc": 4
+    },
+    {
+      "item": "thebetweenlands:mossy_limestone_bricks|0",
+      "emc": 4
+    },
+    {
+      "item": "thebetweenlands:polished_limestone|0",
+      "emc": 4
+    },
+    {
+      "item": "thebetweenlands:weak_polished_limestone|0",
+      "emc": 4
+    },
+    {
+      "item": "thebetweenlands:limestone_pillar|0",
+      "emc": 4
+    },
+    {
+      "item": "astralsorcery:blockmarblestairs|0",
+      "emc": 6
+    },
+    {
+      "item": "chisel:marble|0",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|1",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|2",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|3",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|4",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|5",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|6",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|7",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|8",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|9",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|10",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|11",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|12",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|13",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|14",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble|15",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble1|0",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble1|1",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble2|0",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble1|9",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble1|8",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble1|7",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble1|6",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble1|5",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble1|4",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble1|3",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble1|2",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble2|1",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble2|2",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble2|3",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble2|4",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble2|5",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble2|6",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marble2|7",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|0",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|1",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|2",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|3",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|4",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|5",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|6",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|7",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|8",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|9",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|10",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|11",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|12",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|13",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|14",
+      "emc": 4
+    },
+    {
+      "item": "chisel:marblepillar|15",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|0",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|9",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|8",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|7",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|6",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|5",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|4",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|3",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|2",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|1",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|10",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|11",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|12",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|13",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|14",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1|15",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_astralsorcery_blockmarble_1|0",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_astralsorcery_blockmarble_1|1",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_astralsorcery_blockmarble_1|2",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_astralsorcery_blockmarble_1|4",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_astralsorcery_blockmarble_1|3",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_astralsorcery_blockmarble_1|5",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_astralsorcery_blockmarble_1|6",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_astralsorcery_blockmarble_1|7",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_astralsorcery_blockmarble_1|8",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_astralsorcery_blockmarble_1|9",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_astralsorcery_blockmarble_1|0",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_astralsorcery_blockmarble_1|2",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_astralsorcery_blockmarble_1|1",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_astralsorcery_blockmarble_1|3",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_astralsorcery_blockmarble_1|4",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_astralsorcery_blockmarble_1|5",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_astralsorcery_blockmarble_1|6",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_astralsorcery_blockmarble_1|9",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_astralsorcery_blockmarble_1|8",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_astralsorcery_blockmarble_1|7",
+      "emc": 4
+    },
+    {
+      "item": "aether_legacy:aercloud|0",
+      "emc": 1024
+    },
+    {
+      "item": "aether_legacy:aercloud|1",
+      "emc": 1024
+    },
+    {
+      "item": "aether_legacy:aercloud|2",
+      "emc": 1024
+    },
+    {
+      "item": "aether_legacy:aercloud|3",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:gold_ore|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:iron_ore|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:coal_ore|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:diamond_ore|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:emerald_ore|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:quartz_ore|0",
+      "emc": 0
+    },
+    {
+      "item": "actuallyadditions:block_misc|3",
+      "emc": 0
+    },
+    {
+      "item": "techreborn:dust|16",
+      "emc": 0
+    },
+    {
+      "item": "actuallyadditions:item_dust|2",
+      "emc": 0
+    },
+    {
+      "item": "appliedenergistics2:material|51",
+      "emc": 0
+    },
+    {
+      "item": "actuallyadditions:item_dust|1",
+      "emc": 0
+    },
+    {
+      "item": "enderio:item_material|25",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:metal|19",
+      "emc": 0
+    },
+    {
+      "item": "techreborn:dust|24",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:material|1",
+      "emc": 0
+    },
+    {
+      "item": "careerbees:ingredients|5",
+      "emc": 0
+    },
+    {
+      "item": "libvulpes:productdust|2",
+      "emc": 0
+    },
+    {
+      "item": "libvulpes:productdust|1",
+      "emc": 0
+    },
+    {
+      "item": "careerbees:ingredients|4",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:material|0",
+      "emc": 0
+    },
+    {
+      "item": "techreborn:dust|27",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:metal|18",
+      "emc": 0
+    },
+    {
+      "item": "enderio:item_material|24",
+      "emc": 0
+    },
+    {
+      "item": "actuallyadditions:item_dust|0",
+      "emc": 0
+    },
+    {
+      "item": "appliedenergistics2:material|49",
+      "emc": 0
+    },
+    {
+      "item": "enderio:item_material|26",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:metal|9",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:component|19",
+      "emc": 0
+    },
+    {
+      "item": "nuclearcraft:dust|0",
+      "emc": 0
+    },
+    {
+      "item": "techreborn:dust|14",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:material|64",
+      "emc": 0
+    },
+    {
+      "item": "libvulpes:productdust|4",
+      "emc": 0
+    },
+    {
+      "item": "careerbees:ingredients|6",
+      "emc": 0
+    },
+    {
+      "item": "careerbees:ingredients|7",
+      "emc": 0
+    },
+    {
+      "item": "libvulpes:productdust|5",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:material|65",
+      "emc": 0
+    },
+    {
+      "item": "techreborn:dust|53",
+      "emc": 0
+    },
+    {
+      "item": "nuclearcraft:dust|1",
+      "emc": 0
+    },
+    {
+      "item": "enderio:item_material|27",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:metal|10",
+      "emc": 0
+    },
+    {
+      "item": "nuclearcraft:dust|12",
+      "emc": 0
+    },
+    {
+      "item": "techreborn:dust|1",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:material|68",
+      "emc": 0
+    },
+    {
+      "item": "libvulpes:productdust|9",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:stone_eldritch_tile|0",
+      "emc": 16000
+    },
+    {
+      "item": "thaumicaugmentation:stone|0",
+      "emc": 16000
+    },
+    {
+      "item": "thaumcraft:stone_ancient_tile|0",
+      "emc": 16000
+    },
+    {
+      "item": "thermalfoundation:tome_experience|0",
+      "emc": 0
     }
   ]
 }

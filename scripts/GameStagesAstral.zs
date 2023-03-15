@@ -1,7 +1,7 @@
-mods.astralsorcery.GameStages.addLevelCap("ExtendedCrafting", 30);
-mods.astralsorcery.GameStages.addLevelCap("DivineStage", 40);
-mods.astralsorcery.GameStages.addLevelCap("DraconicStage", 50);
-mods.astralsorcery.GameStages.addLevelCap("BrightsteelForging", 70);
-mods.astralsorcery.GameStages.addLevelCap("MinorVetheaBinding", 100);
+mods.astralsorcery.GameStages.addLevelCap("extendedcrafting", 30);
+mods.astralsorcery.GameStages.addLevelCap("divinestage", 40);
+mods.astralsorcery.GameStages.addLevelCap("draconicstage", 50);
+mods.astralsorcery.GameStages.addLevelCap("brightsteelforging", 70);
+mods.astralsorcery.GameStages.addLevelCap("minorvetheabinding", 100);
 
 

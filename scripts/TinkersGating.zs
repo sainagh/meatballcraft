@@ -81,7 +81,7 @@ recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "tconstruct:cross_guar
 [null, <erebus:materials:47>, null]]);
 
 recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}),
-[[<minecraft:diamond>, <abyssalcraft:abyingot>, <minecraft:diamond>],
+[[<minecraft:diamond>, <aoa3:sapphire>, <minecraft:diamond>],
 [<minecraft:diamond>, <tconstruct:pattern>, <minecraft:diamond>],
 [null, <ore:plankWood>, null]]);
 

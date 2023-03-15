@@ -1,7 +1,7 @@
 {
 	"generatorType": "ANYWHERE",
-	"minY": -1,
-	"maxY": -1,
+	"minY": 10,
+	"maxY": 100,
 	"offsetX": 0,
 	"offsetY": 0,
 	"offsetZ": 0,

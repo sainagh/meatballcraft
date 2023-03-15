@@ -369,7 +369,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:salt_fission_vessel>
 
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:possessed_fluix>, <fluid:astralsorcery.liquidstarlight>*4000, <fluid:possessed_starlight>*1000]);
 
-mods.nuclearcraft.salt_fission.addRecipe([<fluid:possessed_starlight>*1000, <fluid:whispering_starlight>*1000, 1000.0, 100.0, 1.0]);
+mods.nuclearcraft.salt_fission.addRecipe([<fluid:possessed_starlight>*10, <fluid:whispering_starlight>*10, 1000.0, 100.0, 1.0]);
 
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:possessed_fluix>, <fluid:whispering_starlight>*2000, <fluid:whispering_starlight>*4000]);
 
@@ -476,6 +476,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_
 <aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <nuclearcraft:part:3>]]);  
 
 
+
+
+
 recipes.removeShaped(<nuclearcraft:turbine_controller>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:turbine_controller>, 
@@ -489,23 +492,25 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:turbine_controller>,
 
 recipes.removeShaped(<nuclearcraft:turbine_wall>);
 
+mods.nuclearcraft.alloy_furnace.addRecipe([<bewitchment:stew_of_the_grotesque>, <contenttweaker:adamantium_ingot>, <contenttweaker:deeply_etched_adamantium>]);
+
 mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:turbine_wall>*4, 
-[[<ore:plateDU>, <techreborn:storage2:0>, <bewitchment:stew_of_the_grotesque>, <nuclearcraft:alloy:15>, <bewitchment:stew_of_the_grotesque>, <techreborn:storage2:0>, <ore:plateDU>], 
+[[<ore:plateDU>, <techreborn:storage2:0>, <contenttweaker:deeply_etched_adamantium>, <nuclearcraft:alloy:15>, <contenttweaker:deeply_etched_adamantium>, <techreborn:storage2:0>, <ore:plateDU>], 
 [<techreborn:storage2:0>, <contenttweaker:meatballium_324>, <techreborn:storage2:0>, <nuclearcraft:alloy:15>, <techreborn:storage2:0>, <contenttweaker:meatballium_324>, <techreborn:storage2:0>], 
-[<bewitchment:stew_of_the_grotesque>, <techreborn:storage2:0>, <ore:plateDU>, <nuclearcraft:alloy:15>, <ore:plateDU>, <techreborn:storage2:0>, <bewitchment:stew_of_the_grotesque>], 
+[<contenttweaker:deeply_etched_adamantium>, <techreborn:storage2:0>, <ore:plateDU>, <nuclearcraft:alloy:15>, <ore:plateDU>, <techreborn:storage2:0>, <contenttweaker:deeply_etched_adamantium>], 
 [<nuclearcraft:alloy:15>, <nuclearcraft:alloy:15>, <nuclearcraft:alloy:15>, <contenttweaker:restless_steel_frame>, <nuclearcraft:alloy:15>, <nuclearcraft:alloy:15>, <nuclearcraft:alloy:15>], 
-[<bewitchment:stew_of_the_grotesque>, <techreborn:storage2:0>, <ore:plateDU>, <nuclearcraft:alloy:15>, <ore:plateDU>, <techreborn:storage2:0>, <bewitchment:stew_of_the_grotesque>], 
+[<contenttweaker:deeply_etched_adamantium>, <techreborn:storage2:0>, <ore:plateDU>, <nuclearcraft:alloy:15>, <ore:plateDU>, <techreborn:storage2:0>, <contenttweaker:deeply_etched_adamantium>], 
 [<techreborn:storage2:0>, <contenttweaker:meatballium_324>, <techreborn:storage2:0>, <nuclearcraft:alloy:15>, <techreborn:storage2:0>, <contenttweaker:meatballium_324>, <techreborn:storage2:0>], 
-[<ore:plateDU>, <techreborn:storage2:0>, <bewitchment:stew_of_the_grotesque>, <nuclearcraft:alloy:15>, <bewitchment:stew_of_the_grotesque>, <techreborn:storage2:0>, <ore:plateDU>]]);  
+[<ore:plateDU>, <techreborn:storage2:0>, <contenttweaker:deeply_etched_adamantium>, <nuclearcraft:alloy:15>, <contenttweaker:deeply_etched_adamantium>, <techreborn:storage2:0>, <ore:plateDU>]]);  
 
 mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:turbine_wall>*8, 
-[[<ore:plateDU>, <techreborn:storage2:0>, <bewitchment:stew_of_the_grotesque>, <contenttweaker:superconducting_mithril>, <bewitchment:stew_of_the_grotesque>, <techreborn:storage2:0>, <ore:plateDU>], 
+[[<ore:plateDU>, <techreborn:storage2:0>, <contenttweaker:deeply_etched_adamantium>, <contenttweaker:superconducting_mithril>, <contenttweaker:deeply_etched_adamantium>, <techreborn:storage2:0>, <ore:plateDU>], 
 [<techreborn:storage2:0>, <contenttweaker:meatballium_324>, <techreborn:storage2:0>, <nuclearcraft:alloy:15>, <techreborn:storage2:0>, <contenttweaker:meatballium_324>, <techreborn:storage2:0>], 
-[<bewitchment:stew_of_the_grotesque>, <techreborn:storage2:0>, <ore:plateDU>, <nuclearcraft:alloy:15>, <ore:plateDU>, <techreborn:storage2:0>, <bewitchment:stew_of_the_grotesque>], 
+[<contenttweaker:deeply_etched_adamantium>, <techreborn:storage2:0>, <ore:plateDU>, <nuclearcraft:alloy:15>, <ore:plateDU>, <techreborn:storage2:0>, <contenttweaker:deeply_etched_adamantium>], 
 [<contenttweaker:superconducting_mithril>, <nuclearcraft:alloy:15>, <nuclearcraft:alloy:15>, <contenttweaker:restless_steel_frame>, <nuclearcraft:alloy:15>, <nuclearcraft:alloy:15>, <contenttweaker:superconducting_mithril>], 
-[<bewitchment:stew_of_the_grotesque>, <techreborn:storage2:0>, <ore:plateDU>, <nuclearcraft:alloy:15>, <ore:plateDU>, <techreborn:storage2:0>, <bewitchment:stew_of_the_grotesque>], 
+[<contenttweaker:deeply_etched_adamantium>, <techreborn:storage2:0>, <ore:plateDU>, <nuclearcraft:alloy:15>, <ore:plateDU>, <techreborn:storage2:0>, <contenttweaker:deeply_etched_adamantium>], 
 [<techreborn:storage2:0>, <contenttweaker:meatballium_324>, <techreborn:storage2:0>, <nuclearcraft:alloy:15>, <techreborn:storage2:0>, <contenttweaker:meatballium_324>, <techreborn:storage2:0>], 
-[<ore:plateDU>, <techreborn:storage2:0>, <bewitchment:stew_of_the_grotesque>, <contenttweaker:superconducting_mithril>, <bewitchment:stew_of_the_grotesque>, <techreborn:storage2:0>, <ore:plateDU>]]);  
+[<ore:plateDU>, <techreborn:storage2:0>, <contenttweaker:deeply_etched_adamantium>, <contenttweaker:superconducting_mithril>, <contenttweaker:deeply_etched_adamantium>, <techreborn:storage2:0>, <ore:plateDU>]]);  
 
 recipes.removeShaped(<nuclearcraft:turbine_frame>);
 
@@ -555,4 +560,57 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:salt_fission_heater>
 [<contenttweaker:meatball_attuned_crystal>, <nuclearcraft:part:5>, <nuclearcraft:part:12>, <nuclearcraft:part:5>, <contenttweaker:meatball_attuned_crystal>], 
 [<nuclearcraft:alloy:12>, <contenttweaker:jeweled_runium>, <materialpart:vibranium:rod>, <contenttweaker:jeweled_runium>, <nuclearcraft:alloy:12>], 
 [<nuclearcraft:part:3>, <nuclearcraft:alloy:12>, <nuclearcraft:part:7>, <nuclearcraft:alloy:12>, <nuclearcraft:part:3>]]); 
+
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:adamantium_stinger>, <contenttweaker:cursed_myrmitite_catalyst>, <contenttweaker:adamantium_ingot>]);
+
+recipes.addShaped(<contenttweaker:adamantium_plate>,
+[[<ore:plateSignalum>, <contenttweaker:adamantium_ingot>, <ore:plateSignalum>],
+[<contenttweaker:meatball_attuned_crystal>, <nuclearcraft:part:3>, <contenttweaker:meatball_attuned_crystal>],
+[<ore:plateSignalum>, <contenttweaker:adamantium_ingot>, <ore:plateSignalum>]]);
+
+recipes.removeShaped(<nuclearcraft:turbine_rotor_bearing>);
+
+recipes.addShaped(<nuclearcraft:turbine_rotor_bearing>,
+[[<nuclearcraft:alloy:15>, <contenttweaker:adamantium_plate>, <nuclearcraft:alloy:15>],
+[<contenttweaker:adamantium_plate>, <nuclearcraft:part:12>, <contenttweaker:adamantium_plate>],
+[<nuclearcraft:alloy:15>, <contenttweaker:adamantium_plate>, <nuclearcraft:alloy:15>]]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_thermoconducting>*8, 
+[[<contenttweaker:adamantium_plate>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
+<contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
+<aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <contenttweaker:adamantium_plate>], 
+
+[<nuclearcraft:part:3>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:part:3>], 
+
+[<aoa3:radiant_infusion_stone>, <nuclearcraft:alloy:11>, <contenttweaker:krypton_capture>, 
+<contenttweaker:imperfect_neutronium_nugget>, <contenttweaker:superconducting_thread>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:krypton_capture>, <nuclearcraft:alloy:11>, <aoa3:radiant_infusion_stone>], 
+
+[<contenttweaker:inert_crystal>, <nuclearcraft:alloy:11>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:mythic_machine_case>, <libvulpes:advstructuremachine>, <contenttweaker:mythic_machine_case>, 
+<contenttweaker:imperfect_neutronium_nugget>, <nuclearcraft:alloy:11>, <contenttweaker:inert_crystal>], 
+
+[<openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <nuclearcraft:alloy:11>, <libvulpes:advstructuremachine>, 
+<contenttweaker:superconducting_thread>, <contenttweaker:arc_reactor_coil>, <contenttweaker:superconducting_thread>, 
+<libvulpes:advstructuremachine>, <nuclearcraft:alloy:11>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}})], 
+
+[<contenttweaker:inert_crystal>, <nuclearcraft:alloy:11>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:mythic_machine_case>, <libvulpes:advstructuremachine>, <contenttweaker:mythic_machine_case>, 
+<contenttweaker:imperfect_neutronium_nugget>, <nuclearcraft:alloy:11>, <contenttweaker:inert_crystal>], 
+
+[<aoa3:radiant_infusion_stone>, <nuclearcraft:alloy:11>, <contenttweaker:krypton_capture>, 
+<contenttweaker:imperfect_neutronium_nugget>, <contenttweaker:superconducting_thread>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:krypton_capture>, <nuclearcraft:alloy:11>, <aoa3:radiant_infusion_stone>], 
+
+[<nuclearcraft:part:3>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:part:3>], 
+
+[<contenttweaker:adamantium_plate>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
+<contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
+<aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <contenttweaker:adamantium_plate>]]);  
 

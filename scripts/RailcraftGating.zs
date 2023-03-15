@@ -11,3 +11,5 @@ mods.extendedcrafting.TableCrafting.addShaped(<railcraft:blast_furnace:0>*4,
 [[<minecraft:soul_sand>, <immersiveengineering:stone_decoration:2>, <minecraft:soul_sand>], 
 [<immersiveengineering:stone_decoration:2>, <minecraft:magma_cream>, <immersiveengineering:stone_decoration:2>], 
 [<minecraft:soul_sand>, <immersiveengineering:stone_decoration:2>, <minecraft:soul_sand>]]); 
+
+mods.nuclearcraft.manufactory.addRecipe([<ore:fuelCoke>, <immersiveengineering:material:17>]);

@@ -21,12 +21,12 @@ recipes.removeShaped(<cyclicmagic:storage_bag>);
 
 recipes.removeShaped(<extrautils2:bagofholding>);
 
-mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:bagofholding>, 
-[[<projectred-core:resource_item:420>, null, <projectred-core:resource_item:420>, null, <projectred-core:resource_item:420>], 
-[null, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, null], 
-[<projectred-core:resource_item:420>, <ironchest:iron_chest>, <extrautils2:decorativesolidwood:1>, <ironchest:iron_chest>, <projectred-core:resource_item:420>], 
-[null, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, null], 
-[<projectred-core:resource_item:420>, null, <projectred-core:resource_item:420>, null, <projectred-core:resource_item:420>]]); 
+// mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:bagofholding>, 
+// [[<projectred-core:resource_item:420>, null, <projectred-core:resource_item:420>, null, <projectred-core:resource_item:420>], 
+// [null, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, null], 
+// [<projectred-core:resource_item:420>, <ironchest:iron_chest>, <extrautils2:decorativesolidwood:1>, <ironchest:iron_chest>, <projectred-core:resource_item:420>], 
+// [null, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, null], 
+// [<projectred-core:resource_item:420>, null, <projectred-core:resource_item:420>, null, <projectred-core:resource_item:420>]]); 
 
 recipes.removeShaped(<projecte:item.pe_alchemical_bag:0>);
 recipes.removeShaped(<projecte:item.pe_alchemical_bag:1>);

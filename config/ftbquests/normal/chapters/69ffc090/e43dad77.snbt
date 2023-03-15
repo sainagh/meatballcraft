@@ -5,10 +5,10 @@
 		"4a91c2a6"
 	],
 	tasks: [{
-		uid: "b9ef0ae3",
+		uid: "b8006425",
 		type: "item",
 		items: [{
-			item: "projecte:transmutation_table"
+			item: "projectex:stone_table"
 		}]
 	}]
 }

@@ -225,3 +225,59 @@ recipes.addShaped(<extrabotany:material:5>*2,
 [<astralsorcery:itemusabledust:1>, <contenttweaker:gadolinium_gem>, <astralsorcery:itemusabledust:1>]]);
 
 mods.thermalexpansion.Centrifuge.addRecipe([(<astralsorcery:itemusabledust:1> * 15), (<astralsorcery:itemusabledust:0> * 15)], <contenttweaker:projector_gem>, null, 15);
+
+recipes.addShaped(<extendedcrafting:singularity:5>,
+[[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+[<contenttweaker:living_gold>, <contenttweaker:gem_of_midas>.reuse(), <contenttweaker:living_gold>],
+[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]);
+
+
+recipes.addShapeless(<actuallyadditions:item_solidified_experience>*64,
+[<deepmoblearning:living_matter_overworldian>,
+<contenttweaker:resonating_stone>]);
+
+recipes.addShaped(<contenttweaker:endergenic_sediment>,
+[[<enderutilities:enderpart:17>, <openblocks:tank>.withTag({tank: {FluidName: "ender", Amount: 16000}}), <enderutilities:enderpart:17>],
+[<openblocks:tank>.withTag({tank: {FluidName: "ender", Amount: 16000}}), <extendedcrafting:singularity_custom:1030>, <openblocks:tank>.withTag({tank: {FluidName: "ender", Amount: 16000}})],
+[<enderutilities:enderpart:17>, <openblocks:tank>.withTag({tank: {FluidName: "ender", Amount: 16000}}), <enderutilities:enderpart:17>]]);
+
+recipes.addShapeless(<contenttweaker:ender_dolomite>*64,
+[<contenttweaker:endergenic_sediment>,
+<minecraft:ender_pearl>]);
+
+recipes.addShaped(<contenttweaker:ascended_draconium_ingot>*4,
+[[<mysticalagradditions:awakened_draconium_essence>, <mysticalagradditions:awakened_draconium_essence>, <mysticalagradditions:awakened_draconium_essence>],
+[<mysticalagradditions:awakened_draconium_essence>, <contenttweaker:ascended_draconium_ingot>, <mysticalagradditions:awakened_draconium_essence>],
+[<mysticalagradditions:awakened_draconium_essence>, <mysticalagradditions:awakened_draconium_essence>, <mysticalagradditions:awakened_draconium_essence>]]);
+
+recipes.addShapeless(<draconicevolution:dragon_heart>,
+[<contenttweaker:aeldunari>.reuse(),
+<contenttweaker:ascended_draconium_ingot>]);
+
+recipes.addShapeless(<abyssalcraft:statue:0>,
+[<aoa3:carved_rune_empowering>,
+<abyssalcraft:decorativestatue:0>]);
+
+recipes.addShapeless(<abyssalcraft:statue:1>,
+[<aoa3:carved_rune_empowering>,
+<abyssalcraft:decorativestatue:1>]);
+
+recipes.addShapeless(<abyssalcraft:statue:2>,
+[<aoa3:carved_rune_empowering>,
+<abyssalcraft:decorativestatue:2>]);
+
+recipes.addShapeless(<abyssalcraft:statue:3>,
+[<aoa3:carved_rune_empowering>,
+<abyssalcraft:decorativestatue:3>]);
+
+recipes.addShapeless(<abyssalcraft:statue:4>,
+[<aoa3:carved_rune_empowering>,
+<abyssalcraft:decorativestatue:4>]);
+
+recipes.addShapeless(<abyssalcraft:statue:5>,
+[<aoa3:carved_rune_empowering>,
+<abyssalcraft:decorativestatue:5>]);
+
+recipes.addShapeless(<abyssalcraft:statue:6>,
+[<aoa3:carved_rune_empowering>,
+<abyssalcraft:decorativestatue:6>]);

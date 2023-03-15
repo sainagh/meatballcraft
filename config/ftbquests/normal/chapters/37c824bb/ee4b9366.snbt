@@ -1,6 +1,6 @@
 {
-	x: 14.0d,
-	y: -1.5d,
+	x: 15.5d,
+	y: -3.0d,
 	description: "Some items have special recipes for powerful enchants. Search for 'super-enchanted' in JEI",
 	dependencies: [
 		"8d6470f9"

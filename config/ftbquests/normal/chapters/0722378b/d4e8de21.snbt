@@ -1,0 +1,20 @@
+{
+	x: 18.0d,
+	y: -4.0d,
+	dependencies: [
+		"e1ef8d61"
+	],
+	tasks: [{
+		uid: "bb370bd1",
+		type: "item",
+		items: [{
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:ExcavatorDemo",
+				flip: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

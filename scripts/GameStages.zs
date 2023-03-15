@@ -11,7 +11,7 @@ import mods.contenttweaker.BlockMaterial;
 var modularstage = VanillaFactory.createItem("controller_manual");
 modularstage.maxStackSize = 1;
 modularstage.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("gamestage add @p ModularStage", player, world, true, true);
+	Commands.call("gamestage add @p modularstage", player, world, true, true);
 	return "Pass";
 };
 modularstage.register();
@@ -19,7 +19,7 @@ modularstage.register();
 var extendedstage = VanillaFactory.createItem("alien_material_manual");
 extendedstage.maxStackSize = 1;
 extendedstage.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("gamestage add @p ExtendedCrafting", player, world, true, true);
+	Commands.call("gamestage add @p extendedcrafting", player, world, true, true);
 	return "Pass";
 };
 extendedstage.register();
@@ -27,7 +27,7 @@ extendedstage.register();
 var bloodmastertome = VanillaFactory.createItem("bloodmaster_tome");
 bloodmastertome.maxStackSize = 1;
 bloodmastertome.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("gamestage add @p BloodmasterStage", player, world, true, true);
+	Commands.call("gamestage add @p bloodmasterstage", player, world, true, true);
 	return "Pass";
 };
 bloodmastertome.register();
@@ -35,7 +35,7 @@ bloodmastertome.register();
 var singularitymaster = VanillaFactory.createItem("singularity_master");
 singularitymaster.maxStackSize = 1;
 singularitymaster.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("gamestage add @p DivineStage", player, world, true, true);
+	Commands.call("gamestage add @p divinestage", player, world, true, true);
 	return "Pass";
 };
 singularitymaster.register();
@@ -43,7 +43,7 @@ singularitymaster.register();
 var draconicstage = VanillaFactory.createItem("draconic_key");
 draconicstage.maxStackSize = 1;
 draconicstage.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("gamestage add @p DraconicStage", player, world, true, true);
+	Commands.call("gamestage add @p draconicstage", player, world, true, true);
 	return "Pass";
 };
 draconicstage.register();
@@ -51,7 +51,7 @@ draconicstage.register();
 var minorvetheabinding = VanillaFactory.createItem("minor_vethea_binding");
 minorvetheabinding.maxStackSize = 1;
 minorvetheabinding.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("gamestage add @p MinorVetheaBinding", player, world, true, true);
+	Commands.call("gamestage add @p minorvetheabinding", player, world, true, true);
 	return "Pass";
 };
 minorvetheabinding.register();
@@ -59,7 +59,7 @@ minorvetheabinding.register();
 var ancientelvenknowledge = VanillaFactory.createItem("ancient_elven_knowledge");
 ancientelvenknowledge.maxStackSize = 1;
 ancientelvenknowledge.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("gamestage add @p BrightsteelForging", player, world, true, true);
+	Commands.call("gamestage add @p brightsteelforging", player, world, true, true);
 	return "Pass";
 };
 ancientelvenknowledge.register();
@@ -120,3 +120,21 @@ alkemiaartifact.itemRightClick = function(stack, world, player, hand) {
 	return "Pass";
 };
 alkemiaartifact.register();
+
+var loreofthemeatballman = VanillaFactory.createItem("lore_of_the_meatball_man");
+loreofthemeatballman.maxStackSize = 64;
+loreofthemeatballman.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("gamestage add @p hardmode", player, world, true, true);
+	Commands.call("give @p contenttweaker:forgetful_serum", player, world, true, true);
+	return "Pass";
+};
+loreofthemeatballman.register();
+
+var forgetfulserum = VanillaFactory.createItem("forgetful_serum");
+forgetfulserum.maxStackSize = 64;
+forgetfulserum.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("gamestage remove @p hardmode", player, world, true, true);
+	Commands.call("give @p contenttweaker:lore_of_the_meatball_man", player, world, true, true);
+	return "Pass";
+};
+forgetfulserum.register();

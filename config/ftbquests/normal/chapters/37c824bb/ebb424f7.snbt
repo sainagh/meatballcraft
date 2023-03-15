@@ -6,15 +6,11 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "c758e3ce",
+		uid: "37d3f860",
 		type: "item",
 		items: [{
-			id: "enderstorage:ender_pouch",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "projecte:item.pe_alchemical_bag"
 		}],
-		ignore_damage: true,
 		ignore_nbt: 1b
 	}]
 }

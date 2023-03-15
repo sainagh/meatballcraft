@@ -47,8 +47,7 @@ reci3.addItemInput(<thaumcraft:tube>);
 reci3.addItemInput(<thaumcraft:tube>);
 reci3.addItemInput(<thaumcraft:tube_valve>);
 reci3.addItemInput(<thaumcraft:tube_valve>);
-reci3.addItemOutput(<thaumcraft:metal_alchemical>);
-reci3.addItemOutput(<thaumcraft:metal_alchemical>);
+reci3.addItemOutput(<thaumcraft:metal_alchemical>*2);
 reci3.build();
 
 val reci4 = RecipeBuilder.newBuilder("thaum4","arcane_autoworkbench",120);
@@ -1041,7 +1040,7 @@ thaum101.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1
 thaum101.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}));
 thaum101.addEnergyPerTickInput(100);
 thaum101.addItemInput(<divinerpg:crab_claw>*4);
-thaum101.addItemInput(<thaumcraft:ingot:2>*4);
+thaum101.addItemInput(<ore:ingotBrass>,4);
 thaum101.addItemInput(<appliedenergistics2:material:12>);
 thaum101.addItemOutput(<contenttweaker:fluix_lens>);
 thaum101.build();
@@ -1057,22 +1056,22 @@ thaum102.addItemInput(<minecraft:glass_pane>*3);
 thaum102.addItemOutput(<thaumcraft:mind:0>);
 thaum102.build();
 
-val thaum103 = RecipeBuilder.newBuilder("thaum103","arcane_autoworkbench",120);
-thaum103.addEnergyPerTickInput(100);
-thaum103.addItemInput(<appliedenergistics2:material:24>);
-thaum103.addItemInput(<appliedenergistics2:part:340>);
-thaum103.addItemInput(<thaumcraft:arcane_workbench>);
-thaum103.addItemOutput(<thaumicenergistics:arcane_inscriber>);
-thaum103.build();
+// val thaum103 = RecipeBuilder.newBuilder("thaum103","arcane_autoworkbench",120);
+// thaum103.addEnergyPerTickInput(100);
+// thaum103.addItemInput(<appliedenergistics2:material:24>);
+// thaum103.addItemInput(<appliedenergistics2:part:340>);
+// thaum103.addItemInput(<thaumcraft:arcane_workbench>);
+// thaum103.addItemOutput(<thaumicenergistics:arcane_inscriber>);
+// thaum103.build();
 
-val thaum104 = RecipeBuilder.newBuilder("thaum104","arcane_autoworkbench",120);
-thaum104.addEnergyPerTickInput(100);
-thaum104.addItemInput(<appliedenergistics2:quartz_vibrant_glass>*4);
-thaum104.addItemInput(<ore:dyeBlue>,3);
-thaum104.addItemInput(<contenttweaker:complex_gearbox>);
-thaum104.addItemInput(<appliedenergistics2:material:23>);
-thaum104.addItemOutput(<thaumicenergistics:blank_knowledge_core>);
-thaum104.build();
+// val thaum104 = RecipeBuilder.newBuilder("thaum104","arcane_autoworkbench",120);
+// thaum104.addEnergyPerTickInput(100);
+// thaum104.addItemInput(<appliedenergistics2:quartz_vibrant_glass>*4);
+// thaum104.addItemInput(<ore:dyeBlue>,3);
+// thaum104.addItemInput(<contenttweaker:complex_gearbox>);
+// thaum104.addItemInput(<appliedenergistics2:material:23>);
+// thaum104.addItemOutput(<thaumicenergistics:blank_knowledge_core>);
+// thaum104.build();
 
 val thaum105 = RecipeBuilder.newBuilder("thaum105","arcane_autoworkbench",120);
 thaum105.addEnergyPerTickInput(100);

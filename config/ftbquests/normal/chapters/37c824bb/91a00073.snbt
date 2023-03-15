@@ -1,6 +1,7 @@
 {
-	x: 5.0d,
-	y: 10.5d,
+	icon: "aoa3:penguin_slab",
+	x: 6.5d,
+	y: 9.0d,
 	description: "The creation forge allows you to summon minions!",
 	dependencies: [
 		"d8e398cb"

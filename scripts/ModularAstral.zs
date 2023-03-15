@@ -127,7 +127,8 @@ ast13.build();
 
 val ast14 = RecipeBuilder.newBuilder("ast14","auto_astral_altar",1200);
 ast14.addEnergyPerTickInput(1000);
-ast14.addItemInput(<astralsorcery:blockmarble:6>*4);
+ast14.addItemInput(<astralsorcery:blockmarble:6>*2);
+ast14.addItemInput(<astralsorcery:blockmarble:5>*2);
 ast14.addItemInput(<astralsorcery:itemcraftingcomponent:0>*2);
 ast14.addItemInput(<astralsorcery:itemusabledust:0>*2);
 ast14.addItemOutput(<astralsorcery:blockworldilluminator>);
@@ -244,7 +245,8 @@ ast25.build();
 
 val ast26 = RecipeBuilder.newBuilder("ast26","auto_astral_altar",1200);
 ast26.addEnergyPerTickInput(1000);
-ast26.addItemInput(<minecraft:glowstone_dust>*4);
+ast26.addItemInput(<minecraft:glowstone_dust>*2);
+ast26.addItemInput(<minecraft:redstone>*2);
 ast26.addItemInput(<astralsorcery:itemcraftingcomponent:0>);
 ast26.addItemOutput(<astralsorcery:itemusabledust:0>*16);
 ast26.build();
@@ -261,7 +263,7 @@ ast27.build();
 val ast28 = RecipeBuilder.newBuilder("ast28","auto_astral_altar",1200);
 ast28.addEnergyPerTickInput(1000);
 ast28.addItemInput(<minecraft:coal:0>*2);
-ast28.addItemInput(<minecraft:dye:0>);
+ast28.addItemInput(<minecraft:dye:4>);
 ast28.addItemInput(<ore:dyeBlack>);
 ast28.addItemInput(<astralsorcery:itemusabledust:0>);
 ast28.addItemOutput(<astralsorcery:itemusabledust:1>*4);

@@ -1,6 +1,6 @@
 {
 	title: "Minerals",
-	x: 2.0d,
+	x: 3.5d,
 	y: 0.0d,
 	description: "All natural occurring minerals are found in the Material Compenduum tab. JEI will help with some BUT NOT ALL ore locations and Y levels.",
 	text: [

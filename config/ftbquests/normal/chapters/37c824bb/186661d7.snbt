@@ -1,0 +1,32 @@
+{
+	x: 53.0d,
+	y: 4.5d,
+	dependencies: [
+		"3547dd56"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fe3c66ff",
+		type: "item",
+		items: [{
+			item: "contenttweaker:hohlraum"
+		}]
+	},
+	{
+		uid: "ddc82190",
+		type: "item",
+		items: [{
+			item: "contenttweaker:inertial_laser_projector"
+		}]
+	},
+	{
+		uid: "7682b41b",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:inertial_confinement_reactor"
+			}
+		}]
+	}]
+}

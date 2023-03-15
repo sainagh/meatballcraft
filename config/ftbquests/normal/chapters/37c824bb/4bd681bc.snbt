@@ -1,0 +1,23 @@
+{
+	x: 9.5d,
+	y: 1.5d,
+	description: "These can be find in overworld structures, no need to craft them!",
+	dependencies: [
+		"c016f84c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "957a9f39",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}]
+	},
+	{
+		uid: "a0fb793b",
+		type: "item",
+		items: [{
+			item: "chisel:block_coal_coke1 1 1"
+		}]
+	}]
+}

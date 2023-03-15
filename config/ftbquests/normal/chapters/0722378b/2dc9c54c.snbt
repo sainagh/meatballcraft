@@ -1,0 +1,19 @@
+{
+	x: 11.0d,
+	y: -4.0d,
+	dependencies: [
+		"e1ef8d61"
+	],
+	tasks: [{
+		uid: "e8ef50e9",
+		type: "item",
+		items: [{
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:Squeezer"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "Thermal Energy",
-	x: 9.5d,
-	y: 1.5d,
+	x: 12.5d,
+	y: 3.0d,
 	description: "Used to craft machines from thermal and industrial foregoing (see manufacturing and fabrication)",
 	text: [
 		"I was able to put together a device that handles the internal thermal energy of matter fairly well, this should allow for a lot of cool machines!"

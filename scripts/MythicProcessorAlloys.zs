@@ -110,7 +110,7 @@ val mythallo15 = RecipeBuilder.newBuilder("mythallo15","mythic_processor_alloy_f
 mythallo15.addEnergyPerTickInput(80000);
 mythallo15.addItemInput(<ore:ingotIron>);
 mythallo15.addItemInput(<ore:ingotLead>);
-mythallo15.addItemInput(<ore:ingotLead>);
+mythallo15.addItemInput(<ore:ingotCopper>);
 mythallo15.addItemOutput(<enderio:item_alloy_ingot:9>*3);
 mythallo15.build();
 

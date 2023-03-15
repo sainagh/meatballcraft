@@ -1,5 +1,6 @@
 {
-	x: 6.5d,
+	icon: "aoa3:lunar_rune",
+	x: 8.0d,
 	y: 3.0d,
 	description: "Blank runes can be used on rune shrines to produce their respective counterparts. There are better ways of getting runes.",
 	dependencies: [

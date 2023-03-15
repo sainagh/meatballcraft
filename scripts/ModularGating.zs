@@ -6,9 +6,9 @@ recipes.removeShaped(<modularmachinery:blockcasing:0>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<modularmachinery:blockcasing:0>, 
 [[<fluxnetworks:fluxcore>, <modularmachinery:itemmodularium>, <redstonearsenal:material:224>, <modularmachinery:itemmodularium>, <fluxnetworks:fluxcore>], 
-[<modularmachinery:itemmodularium>, <buildcraftsilicon:redstone_chipset:3>, <bewitchment:fiery_unguent>, <buildcraftsilicon:redstone_chipset:3>, <modularmachinery:itemmodularium>], 
-[<redstonearsenal:material:224>, <bewitchment:fiery_unguent>, <enderio:item_material:66>, <bewitchment:fiery_unguent>, <redstonearsenal:material:224>], 
-[<modularmachinery:itemmodularium>, <buildcraftsilicon:redstone_chipset:3>, <bewitchment:fiery_unguent>, <buildcraftsilicon:redstone_chipset:3>, <modularmachinery:itemmodularium>], 
+[<modularmachinery:itemmodularium>, <buildcraftsilicon:redstone_chipset:3>, <contenttweaker:fiery_unguent_bottle>, <buildcraftsilicon:redstone_chipset:3>, <modularmachinery:itemmodularium>], 
+[<redstonearsenal:material:224>, <contenttweaker:fiery_unguent_bottle>, <enderio:item_material:66>, <contenttweaker:fiery_unguent_bottle>, <redstonearsenal:material:224>], 
+[<modularmachinery:itemmodularium>, <buildcraftsilicon:redstone_chipset:3>, <contenttweaker:fiery_unguent_bottle>, <buildcraftsilicon:redstone_chipset:3>, <modularmachinery:itemmodularium>], 
 [<fluxnetworks:fluxcore>, <modularmachinery:itemmodularium>, <redstonearsenal:material:224>, <modularmachinery:itemmodularium>, <fluxnetworks:fluxcore>]]); 
 
 recipes.addShapeless(<contenttweaker:fiery_unguent_bottle>,[<bewitchment:fiery_unguent>, <minecraft:glass_bottle>]);

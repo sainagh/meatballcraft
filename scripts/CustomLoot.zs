@@ -407,3 +407,8 @@ endcityspecial.addItemEntry(<thermalfoundation:material:134>, 15);
 val runicorn = LootTweaker.getTable("aoa3:entities/mobs/runandor/runicorn");
 val runicornprimordial = runicorn.addPool("runicornprimordial", 1, 1, 0, 0);
 runicornprimordial.addItemEntry(<contenttweaker:primordial_sliver>, 15);
+
+val enderman = LootTweaker.getTable("minecraft:entities/enderman");
+val endermansoul = enderman.addPool("endermansoul", 1, 1, 0, 0);
+endermansoul.addItemEntry(<contenttweaker:nebulous_soul>, 15);
+

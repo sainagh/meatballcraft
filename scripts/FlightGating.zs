@@ -31,6 +31,13 @@ recipes.removeShaped(<extrautils2:angelring:3>);
 recipes.removeShaped(<extrautils2:angelring:4>);
 recipes.removeShaped(<extrautils2:angelring:5>);
 
+recipes.removeShaped(<simplyjetpacks:itemjetpack:15>);
+
+recipes.addShaped(<simplyjetpacks:itemjetpack:15>,
+[[<simplyjetpacks:metaitemmods:12>, <redstonearsenal:armor.plate_flux>, <simplyjetpacks:metaitemmods:12>],
+[<thermalfoundation:material:131>, <simplyjetpacks:itemjetpack:14>, <thermalfoundation:material:131>],
+[<simplyjetpacks:metaitemmods:11>, <simplyjetpacks:itemfluxpack:6>, <simplyjetpacks:metaitemmods:11>]]);
+
 //recipes.addShaped(<projecte:item.pe_swrg>,
 //[[<projecte:item.pe_matter:0>, <minecraft:feather>, <projecte:item.pe_matter:0>],
 //[<simplyjetpacks:itemjetpack:19>, <projecte:item.pe_ring_iron_band>, <simplyjetpacks:itemjetpack:10>],

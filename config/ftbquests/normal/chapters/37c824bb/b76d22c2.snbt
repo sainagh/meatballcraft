@@ -3,7 +3,7 @@
 	y: -1.5d,
 	description: "Looking for something in particular? more info in personal augmentation!",
 	dependencies: [
-		"0e71452d"
+		"8b210b51"
 	],
 	hide: true,
 	tasks: [{

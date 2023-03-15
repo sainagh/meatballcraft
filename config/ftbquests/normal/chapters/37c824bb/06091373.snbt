@@ -1,0 +1,18 @@
+{
+	x: 105.5d,
+	y: 1.5d,
+	dependencies: [
+		"a6dda290"
+	],
+	hide: true,
+	tasks: [{
+		uid: "573ce049",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:nightmare_electrolyzer"
+			}
+		}]
+	}]
+}

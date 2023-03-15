@@ -1,12 +1,12 @@
 {
 	title: "Compact Storage",
-	x: 8.0d,
-	y: 1.5d,
+	x: 5.0d,
+	y: -1.5d,
 	text: [
 		"For the sake of organization, I started building 'drawers' that can hold a lot of a single item. I don't know what it is, but I have a feeling I will need these eventually..."
 	],
 	dependencies: [
-		"bc0ba902"
+		"427846dd"
 	],
 	hide: true,
 	tasks: [{

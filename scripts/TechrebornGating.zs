@@ -91,6 +91,44 @@ null, <divinerpg:divine_shards>, null],
 <techreborn:part:0>, <techreborn:part:0>, <techreborn:part:0>, 
 null, null, null]]);  
 
+
+mods.extendedcrafting.TableCrafting.addShaped(<techreborn:fusion_control_computer>, 
+[[null, null, null, 
+<techreborn:part:0>, <techreborn:part:0>, <techreborn:part:0>, 
+null, null, null], 
+
+[null, <divinerpg:divine_shards>, null, 
+<contenttweaker:better_energy_crystal>, <contenttweaker:better_lapotron_crystal>, <contenttweaker:better_energy_crystal>, 
+null, <divinerpg:divine_shards>, null], 
+
+[null, null, null, 
+<techreborn:part:14>, <contenttweaker:better_energy_crystal>, <techreborn:part:14>, 
+null, null, null], 
+
+[<techreborn:part:0>, <ore:ingotStellarAlloy>, <techreborn:part:4>, 
+null, <techreborn:fusion_coil>, null, 
+<techreborn:part:4>, <ore:ingotStellarAlloy>, <techreborn:part:0>], 
+
+[<techreborn:part:0>, null, <extendedcrafting:singularity:6>, 
+<techreborn:fusion_coil>, <techreborn:fusion_coil>, <techreborn:fusion_coil>, 
+<extendedcrafting:singularity:6>, null, <techreborn:part:0>], 
+
+[<techreborn:part:0>, <ore:ingotStellarAlloy>, <techreborn:part:4>, 
+null, <techreborn:fusion_coil>, null, 
+<techreborn:part:4>, <ore:ingotStellarAlloy>, <techreborn:part:0>], 
+
+[null, null, null, 
+<techreborn:part:14>, <contenttweaker:better_energy_crystal>, <techreborn:part:14>, 
+null, null, null], 
+
+[null, <divinerpg:divine_shards>, null, 
+<contenttweaker:better_energy_crystal>, <contenttweaker:better_lapotron_crystal>, <contenttweaker:better_energy_crystal>, 
+null, <divinerpg:divine_shards>, null], 
+
+[null, null, null, 
+<techreborn:part:0>, <techreborn:part:0>, <techreborn:part:0>, 
+null, null, null]]);  
+
 recipes.removeShaped(<techreborn:fusion_coil>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<techreborn:fusion_coil>, 

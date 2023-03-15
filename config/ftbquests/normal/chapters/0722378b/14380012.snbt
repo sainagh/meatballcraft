@@ -1,0 +1,19 @@
+{
+	x: 13.0d,
+	y: -4.0d,
+	dependencies: [
+		"e1ef8d61"
+	],
+	tasks: [{
+		uid: "2d5501df",
+		type: "item",
+		items: [{
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:Refinery"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

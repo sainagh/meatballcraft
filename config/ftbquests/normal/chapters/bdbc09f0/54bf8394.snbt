@@ -1,0 +1,36 @@
+{
+	x: 10.0d,
+	y: -5.0d,
+	dependencies: [
+		"7e2d9db8",
+		"bcdd4c7a"
+	],
+	tasks: [{
+		uid: "f20c470b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:meatballium_328"
+		}]
+	},
+	{
+		uid: "08f89f66",
+		type: "item",
+		items: [{
+			item: "contenttweaker:meatballium_323"
+		}]
+	},
+	{
+		uid: "34b16ddb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:meatballium_324"
+		}]
+	},
+	{
+		uid: "e3b73b01",
+		type: "item",
+		items: [{
+			item: "contenttweaker:meatballium_322"
+		}]
+	}]
+}

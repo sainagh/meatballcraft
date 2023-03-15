@@ -229,8 +229,6 @@
 			<OreGen>
 				<ore block="contenttweaker:myrmitite_ore" minHeight="20" maxHeight="80" clumpSize="2" chancePerChunk="1" />
 			</OreGen>
-            <spawnable weight="30" groupMin="1" groupMax="5">iceandfire:myrmex_soldier</spawnable>
-            <spawnable weight="20" groupMin="1" groupMax="3">iceandfire:myrmex_sentinel</spawnable>
             <rotationalPeriod>72000</rotationalPeriod>
 			<biomeIds>advancedrocketry:alien forest,thaumcraft:magical_forest,biomesoplenty:cherry_blossom_grove</biomeIds>
 			<artifact>contenttweaker:myrmex_artifact</artifact>

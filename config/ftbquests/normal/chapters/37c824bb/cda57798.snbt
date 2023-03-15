@@ -1,5 +1,6 @@
 {
-	x: 5.0d,
+	icon: "aether_legacy:skyroot_axe",
+	x: 6.5d,
 	y: 4.5d,
 	description: "The more logs you harvest, the better stuff they may drop!",
 	dependencies: [

@@ -1,0 +1,29 @@
+{
+	x: 20.0d,
+	y: -1.5d,
+	dependencies: [
+		"1ac16e44"
+	],
+	hide: true,
+	tasks: [{
+		uid: "19b7c4ef",
+		type: "item",
+		items: [{
+			item: "projecte:relay_mk1"
+		}]
+	},
+	{
+		uid: "24d52701",
+		type: "item",
+		items: [{
+			item: "projecte:collector_mk1"
+		}]
+	},
+	{
+		uid: "4545570c",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk1"
+		}]
+	}]
+}

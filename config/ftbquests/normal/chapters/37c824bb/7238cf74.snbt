@@ -1,6 +1,6 @@
 {
 	icon: "contenttweaker:rift_essence",
-	x: -5.5d,
+	x: -4.0d,
 	y: 1.5d,
 	description: "This is a laggy pack, so try keeping large automation under control!",
 	text: [

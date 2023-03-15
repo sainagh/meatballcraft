@@ -1,3 +1,6 @@
+import mods.appliedenergistics2.Inscriber;
+
+
 recipes.removeShaped(<appliedenergistics2:energy_acceptor>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<appliedenergistics2:energy_acceptor>, 
@@ -311,4 +314,20 @@ recipes.addShaped(<appliedenergistics2:material:54>*6,
 [[<minecraft:dye:4>, <contenttweaker:ogerite_crystal_matrix>, <minecraft:dye:4>],
 [<contenttweaker:ogerite_crystal_matrix>, <appliedenergistics2:material:22>, <contenttweaker:ogerite_crystal_matrix>],
 [<minecraft:dye:4>, <contenttweaker:ogerite_crystal_matrix>, <minecraft:dye:4>]]);
+
+mods.techreborn.grinder.addRecipe(<appliedenergistics2:material:8>, <ore:crystalFluix>, 80, 1);
+
+Inscriber.removeRecipe(<appliedenergistics2:material:59>);
+
+Inscriber.addRecipe(<appliedenergistics2:material:59>, 
+    <appliedenergistics2:material:28>, 
+    false, 
+    <extendedcrafting:singularity_custom:1031>, 
+    <appliedenergistics2:material:47>);
+
+
+
+
+
+// summon iceandfire:dread_knight ~ ~8 ~ {HandItems:[{Count:1,id:"aoa3:shadow_sword"},{Count:1,id:"contenttweaker:medal_of_freedom"}],HandDropChances:[1.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:300.0}],Health:10000f,CustomName:"Shade of the Meatball Man"}
 

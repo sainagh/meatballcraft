@@ -4,7 +4,7 @@
   {
     "dimension": 0,
     "hostile": true,
-    "gamestage":"ExtendedCrafting",
+    "gamestage":"extendedcrafting",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 1.5,
@@ -14,7 +14,7 @@
   {
     "dimension": -1,
     "hostile": true,
-    "gamestage":"ExtendedCrafting",
+    "gamestage":"extendedcrafting",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 1.5,
@@ -24,7 +24,7 @@
   {
     "dimension": 1,
     "hostile": true,
-    "gamestage":"ExtendedCrafting",
+    "gamestage":"extendedcrafting",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 1.5,
@@ -38,7 +38,7 @@
   {
     "dimension": 1,
     "hostile": true,
-    "gamestage":"ModularStage",
+    "gamestage":"modularstage",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 2.5,
@@ -48,7 +48,7 @@
   {
     "dimension": 0,
     "hostile": true,
-    "gamestage":"ModularStage",
+    "gamestage":"modularstage",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 2.5,
@@ -58,7 +58,7 @@
   {
     "dimension": -1,
     "hostile": true,
-    "gamestage":"ModularStage",
+    "gamestage":"modularstage",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 2.5,
@@ -71,7 +71,7 @@
   {
     "dimension": 0,
     "hostile": true,
-    "gamestage":"BloodmasterStage",
+    "gamestage":"bloodmasterstage",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 4.5,
@@ -81,7 +81,7 @@
   {
     "dimension": -1,
     "hostile": true,
-    "gamestage":"BloodmasterStage",
+    "gamestage":"bloodmasterstage",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 4.5,
@@ -91,7 +91,7 @@
   {
     "dimension": 1,
     "hostile": true,
-    "gamestage":"BloodmasterStage",
+    "gamestage":"bloodmasterstage",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 4.5,
@@ -104,7 +104,7 @@
   {
     "dimension": 0,
     "hostile": true,
-    "gamestage":"DivineStage",
+    "gamestage":"divinestage",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 15.0,
@@ -114,7 +114,7 @@
   {
     "dimension": -1,
     "hostile": true,
-    "gamestage":"DivineStage",
+    "gamestage":"divinestage",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 15.0,
@@ -124,7 +124,7 @@
   {
     "dimension": 1,
     "hostile": true,
-    "gamestage":"DivineStage",
+    "gamestage":"divinestage",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 15.0,
@@ -137,7 +137,7 @@
   {
     "dimension": 0,
     "hostile": true,
-    "gamestage":"DraconicStage",
+    "gamestage":"draconicstage",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 20.0,
@@ -147,7 +147,7 @@
   {
     "dimension": -1,
     "hostile": true,
-    "gamestage":"DraconicStage",
+    "gamestage":"draconicstage",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 20.0,
@@ -157,7 +157,7 @@
   {
     "dimension": 1,
     "hostile": true,
-    "gamestage":"DraconicStage",
+    "gamestage":"draconicstage",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 20.0,
@@ -170,7 +170,7 @@
   {
     "dimension": 0,
     "hostile": true,
-    "gamestage":"BrightsteelForging",
+    "gamestage":"brightsteelforging",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 50.0,
@@ -180,7 +180,7 @@
   {
     "dimension": -1,
     "hostile": true,
-    "gamestage":"BrightsteelForging",
+    "gamestage":"brightsteelforging",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 50.0,
@@ -190,7 +190,7 @@
   {
     "dimension": 0,
     "hostile": true,
-    "gamestage":"BrightsteelForging",
+    "gamestage":"brightsteelforging",
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 50.0,
@@ -226,7 +226,7 @@
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 4.0,
-    "damagemultiply": 4.0,
+    "damagemultiply": 1.0,
     "speedmultiply": 1.0
   },
 
@@ -667,6 +667,16 @@
     "healthmultiply": 25.0,
     "damagemultiply": 25.0,
     "speedmultiply": 1.0
+  },
+
+  {
+    "dimension": 14676,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 5.0,
+    "damagemultiply": 2.0,
+    "speedmultiply": 1.0
   }, 
 
 
@@ -793,7 +803,6 @@
       "aoa3:clunkhead",
       "aoa3:penumbra",
       "abyssalcraft:shadowboss",
-      "abyssalcraft:jzaharminion",
       "aoa3:sysker",
       "aoa3:ghastus",
       "aoa3:urv",
@@ -830,18 +839,6 @@
   },
 
 
-
-  {
-    "mob": ["thaumicaugmentation:eldritch_guardian",
-      "thaumicaugmentation:eldritch_warden",
-      "thaumicaugmentation:eldritch_golem"],
-    "onjoin": true,
-    "result": "allow",
-    "healthmultiply": 2,
-    "speedmultiply": 1,
-    "potion": ["minecraft:strength,999999,2", 
-      "minecraft:magic_resistance,999999,2"]
-  },
 
 
 

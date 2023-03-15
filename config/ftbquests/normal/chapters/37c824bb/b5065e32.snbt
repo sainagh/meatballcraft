@@ -1,7 +1,7 @@
 {
 	title: "Empower me!",
-	x: 14.0d,
-	y: 1.5d,
+	x: 15.5d,
+	y: -1.5d,
 	text: [
 		"These alternative means of storing energy allow me to 'empower' things, this should be useful for manufacturing."
 	],

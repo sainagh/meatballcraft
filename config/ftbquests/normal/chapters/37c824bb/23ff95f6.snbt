@@ -1,6 +1,6 @@
 {
 	title: "Energetic Manipulation",
-	x: 11.0d,
+	x: 12.5d,
 	y: 1.5d,
 	description: "Used to craft machines from actually additions (see manufacturing and fabrication)",
 	text: [
