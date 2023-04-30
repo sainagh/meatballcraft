@@ -3694,7 +3694,7 @@
     },
     {
       "item": "projectex:knowledge_sharing_book|0",
-      "emc": 18645
+      "emc": 0
     },
     {
       "item": "minecraft:sandstone|0",
@@ -4835,6 +4835,1226 @@
     {
       "item": "thermalfoundation:tome_experience|0",
       "emc": 0
+    },
+    {
+      "item": "thebetweenlands:filtered_silt|0",
+      "emc": 1
+    },
+    {
+      "item": "thebetweenlands:pitstone|0",
+      "emc": 1
+    },
+    {
+      "item": "thebetweenlands:silt|0",
+      "emc": 1
+    },
+    {
+      "item": "thebetweenlands:dentrothyst_shard_orange|0",
+      "emc": 1024
+    },
+    {
+      "item": "thebetweenlands:dentrothyst_shard_green|0",
+      "emc": 1024
+    },
+    {
+      "item": "thebetweenlands:generic_stone|0",
+      "emc": 1
+    },
+    {
+      "item": "thebetweenlands:lyestone|0",
+      "emc": 8
+    },
+    {
+      "item": "thebetweenlands:mist_bridge|0",
+      "emc": 8
+    },
+    {
+      "item": "thebetweenlands:druid_stone_6|0",
+      "emc": 8
+    },
+    {
+      "item": "thebetweenlands:druid_stone_5|0",
+      "emc": 8
+    },
+    {
+      "item": "thebetweenlands:druid_stone_4|0",
+      "emc": 8
+    },
+    {
+      "item": "thebetweenlands:druid_stone_3|0",
+      "emc": 8
+    },
+    {
+      "item": "thebetweenlands:druid_stone_2|0",
+      "emc": 8
+    },
+    {
+      "item": "thebetweenlands:druid_stone_1|0",
+      "emc": 8
+    },
+    {
+      "item": "thebetweenlands:slimy_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "thebetweenlands:slimy_grass|0",
+      "emc": 1
+    },
+    {
+      "item": "thebetweenlands:peat|0",
+      "emc": 1
+    },
+    {
+      "item": "thebetweenlands:peat_smouldering|0",
+      "emc": 1
+    },
+    {
+      "item": "thebetweenlands:cragrock|0",
+      "emc": 8
+    },
+    {
+      "item": "thebetweenlands:cragrock|1",
+      "emc": 8
+    },
+    {
+      "item": "thebetweenlands:cragrock|2",
+      "emc": 8
+    },
+    {
+      "item": "thebetweenlands:glowing_smooth_cragrock|0",
+      "emc": 8
+    },
+    {
+      "item": "thebetweenlands:inactive_glowing_smooth_cragrock|0",
+      "emc": 8
+    },
+    {
+      "item": "guideapi:cyclicmagic-guide|0",
+      "emc": 0
+    },
+    {
+      "item": "openblocks:info_book|0",
+      "emc": 0
+    },
+    {
+      "item": "opencomputers:tool|4",
+      "emc": 0
+    },
+    {
+      "item": "forestry:book_forester|0",
+      "emc": 0
+    },
+    {
+      "item": "theoneprobe:probenote|0",
+      "emc": 0
+    },
+    {
+      "item": "betterquesting:quest_book|0",
+      "emc": 0
+    },
+    {
+      "item": "valkyrielib:guide|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:book|0",
+      "emc": 0
+    },
+    {
+      "item": "conarm:book|0",
+      "emc": 0
+    },
+    {
+      "item": "agricraft:journal|0",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:info_tablet|0",
+      "emc": 0
+    },
+    {
+      "item": "actuallyadditions:item_booklet|0",
+      "emc": 0
+    },
+    {
+      "item": "hammercore:manual|0",
+      "emc": 0
+    },
+    {
+      "item": "integrateddynamics:on_the_dynamics_of_integration|0",
+      "emc": 0
+    },
+    {
+      "item": "xnet:xnet_manual|0",
+      "emc": 0
+    },
+    {
+      "item": "guideapi:modularrouters-guidebook|0",
+      "emc": 0
+    },
+    {
+      "item": "thebetweenlands:manual_hl|0",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:guide|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumictinkerer:share_book|0",
+      "emc": 0
+    },
+    {
+      "item": "gendustry:honey_drop|16",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|18",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|12",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|22",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|17",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|13",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|21",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|20",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|14",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|25",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|24",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|10",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|11",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|23",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|19",
+      "emc": 8
+    },
+    {
+      "item": "gendustry:honey_drop|15",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|0",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|1",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|2",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|3",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|4",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|5",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|6",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|7",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|8",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|26",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|27",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|15",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|14",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|13",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|12",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|11",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|10",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|9",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|25",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|24",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|23",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|22",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|21",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|20",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|19",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|18",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|17",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|35",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|34",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|33",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|32",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|31",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|30",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|29",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|28",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|16",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|36",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|37",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|38",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|39",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|51",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|50",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|49",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|48",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|47",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|63",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|75",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|74",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|73",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|72",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|71",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|70",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|69",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|68",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|62",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|61",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|60",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|59",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|58",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|57",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|56",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|55",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|54",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|46",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|45",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|44",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|43",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|42",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|41",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|40",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|52",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|53",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|64",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|65",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|66",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|67",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|79",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|78",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|77",
+      "emc": 8
+    },
+    {
+      "item": "botany:pigment|76",
+      "emc": 8
+    },
+    {
+      "item": "iceandfire:dragon_horn|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:demon_crucible|0",
+      "emc": 0
+    },
+    {
+      "item": "animus:component|1",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:component|2",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:component|15",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:component|13",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:sentient_armour_gem|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:component|16",
+      "emc": 0
+    },
+    {
+      "item": "animus:component|3",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:component|11",
+      "emc": 0
+    },
+    {
+      "item": "bewitchment:boline|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:component|18",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:component|32",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:component|5",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:component|14",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:component|17",
+      "emc": 0
+    },
+    {
+      "item": "animus:component|5",
+      "emc": 0
+    },
+    {
+      "item": "bloodarsenal:gem|2",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:soul_gem|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:soul_gem|1",
+      "emc": 0
+    },
+    {
+      "item": "thaumicwonders:panacea|1",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:inscription_tool|5",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:inscription_tool|6",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:inscription_tool|1",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:teleposition_focus|1",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:dagger_of_sacrifice|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:sanguine_book|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:inscription_tool|4",
+      "emc": 0
+    },
+    {
+      "item": "animus:keybinding|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:inscription_tool|2",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:inscription_tool|3",
+      "emc": 0
+    },
+    {
+      "item": "bloodarsenal:blood_infused_wooden_log|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:teleposition_focus|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodarsenal:base_item|2",
+      "emc": 0
+    },
+    {
+      "item": "bloodarsenal:blood_orange|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:blood_rune|8",
+      "emc": 0
+    },
+    {
+      "item": "xreliquary:potion|0",
+      "emc": 0
+    },
+    {
+      "item": "botania:manacookie|0",
+      "emc": 0
+    },
+    {
+      "item": "botania:managlass|0",
+      "emc": 1
+    },
+    {
+      "item": "botania:manabottle|0",
+      "emc": 0
+    },
+    {
+      "item": "extrabotany:nightmarefuel|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:ytterbium_dust|0",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:component|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:totem_of_undying|0",
+      "emc": 0
+    },
+    {
+      "item": "aether_legacy:quicksoil|0",
+      "emc": 1
+    },
+    {
+      "item": "contenttweaker:sedna_spinel|0",
+      "emc": 954362541
+    },
+    {
+      "item": "contenttweaker:falacer_spinel|0",
+      "emc": 954362541
+    },
+    {
+      "item": "contenttweaker:orcus_spinel|0",
+      "emc": 954362541
+    },
+    {
+      "item": "contenttweaker:osiris_spinel|0",
+      "emc": 954362541
+    },
+    {
+      "item": "contenttweaker:ptah_spinel|0",
+      "emc": 954362541
+    },
+    {
+      "item": "contenttweaker:hator_spinel|0",
+      "emc": 954362541
+    },
+    {
+      "item": "contenttweaker:oi_spinel|0",
+      "emc": 954362541
+    },
+    {
+      "item": "contenttweaker:europa_spinel|0",
+      "emc": 954362541
+    },
+    {
+      "item": "contenttweaker:haumea_spinel|0",
+      "emc": 954362541
+    },
+    {
+      "item": "chisel:andesite|0",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|1",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|2",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|3",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|4",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|5",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|6",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|7",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|8",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|9",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|5",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|4",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|3",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|2",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|1",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|0",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|15",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|9",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|8",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|7",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|6",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|10",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|11",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|12",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|13",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite|14",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|10",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|11",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|12",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|13",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|14",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite1|15",
+      "emc": 16
+    },
+    {
+      "item": "chisel:andesite2|0",
+      "emc": 16
+    },
+    {
+      "item": "railcraft:brick_andesite|5",
+      "emc": 16
+    },
+    {
+      "item": "railcraft:brick_andesite|4",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|0",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|1",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|2",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|3",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|4",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|5",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|6",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|7",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|8",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|11",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|12",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|13",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|14",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|15",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite2|0",
+      "emc": 16
+    },
+    {
+      "item": "railcraft:brick_diorite|5",
+      "emc": 16
+    },
+    {
+      "item": "railcraft:brick_diorite|4",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|10",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|9",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|8",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|7",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|6",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|10",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|11",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|12",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|13",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|9",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|5",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|4",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|3",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|2",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|1",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite1|0",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|15",
+      "emc": 16
+    },
+    {
+      "item": "chisel:diorite|14",
+      "emc": 16
+    },
+    {
+      "item": "railcraft:brick_granite|5",
+      "emc": 16
+    },
+    {
+      "item": "railcraft:brick_granite|4",
+      "emc": 16
+    },
+    {
+      "item": "railcraft:brick_granite|3",
+      "emc": 16
+    },
+    {
+      "item": "railcraft:brick_granite|1",
+      "emc": 16
+    },
+    {
+      "item": "railcraft:brick_granite|0",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|6",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|7",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|8",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|9",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|10",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|0",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|1",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|2",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|8",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|3",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|4",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|5",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|6",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|11",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|13",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|12",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|14",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|15",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|0",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|1",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|2",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|3",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|10",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|11",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|12",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|13",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|14",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|15",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite2|0",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|5",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite1|4",
+      "emc": 16
+    },
+    {
+      "item": "chisel:granite|7",
+      "emc": 16
+    },
+    {
+      "item": "chisel:futura|1",
+      "emc": 24
+    },
+    {
+      "item": "chisel:futura|2",
+      "emc": 24
+    },
+    {
+      "item": "chisel:futura|3",
+      "emc": 24
+    },
+    {
+      "item": "chisel:futura|4",
+      "emc": 24
+    },
+    {
+      "item": "chisel:futura|5",
+      "emc": 24
+    },
+    {
+      "item": "botania:elfglass|0",
+      "emc": 1
     }
   ]
 }

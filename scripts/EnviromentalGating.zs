@@ -197,11 +197,6 @@ recipes.removeShaped(<environmentaltech:modifier_resistance>);
 
 recipes.removeShaped(<environmentaltech:modifier_regeneration>);
 
-recipes.addShaped(<environmentaltech:modifier_regeneration>,
-[[<contenttweaker:resonating_stone>, <environmentaltech:aethium_crystal>, <contenttweaker:resonating_stone>],
-[<environmentaltech:mica>, <environmentaltech:modifier_null>, <environmentaltech:mica>],
-[<contenttweaker:resonating_stone>, <environmentaltech:lonsdaleite_crystal>, <contenttweaker:resonating_stone>]]);
-
 recipes.removeShaped(<environmentaltech:modifier_strength>);
 
 recipes.removeShaped(<environmentaltech:modifier_creative_flight>);
@@ -216,3 +211,10 @@ recipes.addShaped(<environmentaltech:nano_cont_personal_1>,
 [[<environmentaltech:ionite>, <contenttweaker:cured_organic_mythic_board>, <environmentaltech:ionite>],
 [<environmentaltech:mica>, <environmentaltech:modifier_null>, <environmentaltech:mica>],
 [<environmentaltech:interconnect>, <environmentaltech:modifier_null>, <environmentaltech:interconnect>]]);
+
+recipes.removeShaped(<environmentaltech:laser_lens_crystal>);
+
+recipes.addShaped(<environmentaltech:laser_lens_crystal>,
+[[<environmentaltech:litherite>, <projectex:matter:6>, <environmentaltech:litherite>],
+[<environmentaltech:litherite>, <ore:etLaserLens>, <environmentaltech:litherite>],
+[<environmentaltech:litherite>, <projectex:matter:6>, <environmentaltech:litherite>]]);

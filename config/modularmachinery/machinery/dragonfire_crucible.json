@@ -295,7 +295,7 @@
             "y": 3,
             "z": -2,
             "elements": [
-                "iceandfire:dragonforge_fire_core_disabled@0"
+                "iceandfire:dragonforge_fire_core"
             ]
         },
         {
@@ -327,7 +327,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "iceandfire:dragonforge_ice_core_disabled@0"
+                "iceandfire:dragonforge_ice_core"
             ]
         },
         {
@@ -399,7 +399,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "iceandfire:dragonforge_ice_core_disabled@0"
+                "iceandfire:dragonforge_ice_core"
             ]
         },
         {
@@ -423,7 +423,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "iceandfire:dragonforge_ice_core_disabled@0"
+                "iceandfire:dragonforge_ice_core"
             ]
         },
         {
@@ -519,7 +519,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "iceandfire:dragonforge_ice_core_disabled@0"
+                "iceandfire:dragonforge_ice_core"
             ]
         },
         {
@@ -615,7 +615,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "iceandfire:dragonforge_fire_core_disabled@0"
+                "iceandfire:dragonforge_fire_core"
             ]
         },
         {
@@ -655,7 +655,7 @@
             "y": 3,
             "z": 6,
             "elements": [
-                "iceandfire:dragonforge_fire_core_disabled@0"
+                "iceandfire:dragonforge_fire_core"
             ]
         },
         {
@@ -671,7 +671,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "iceandfire:dragonforge_fire_core_disabled@0"
+                "iceandfire:dragonforge_fire_core"
             ]
         },
         {

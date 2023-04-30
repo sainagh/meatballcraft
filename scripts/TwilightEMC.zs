@@ -98,7 +98,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<divinerpg:wildwood_block>,
 <contenttweaker:mythic_machine_case>, null, <contenttweaker:mythic_machine_case>], 
 
 [null, <thaumadditions:mithrillium_ingot>, null, 
-null, <contenttweaker:wildwood_core>, null, 
+<contenttweaker:spinel_ring>, <contenttweaker:wildwood_core>, <contenttweaker:spinel_ring>, 
 null, <thaumadditions:mithrillium_ingot>, null], 
 
 [<divinerpg:wildwood_chunk>, <contenttweaker:arcane_entropinator>, <bloodmagic:points_upgrade>, 
@@ -106,7 +106,7 @@ null, <thaumadditions:mithrillium_ingot>, null],
 <bloodmagic:points_upgrade>, <contenttweaker:arcane_entropinator>, <divinerpg:wildwood_chunk>], 
 
 [null, <thaumadditions:mithrillium_ingot>, null, 
-null, <contenttweaker:wildwood_core>, null, 
+<contenttweaker:spinel_ring>, <contenttweaker:wildwood_core>, <contenttweaker:spinel_ring>, 
 null, <thaumadditions:mithrillium_ingot>, null], 
 
 [<contenttweaker:mythic_machine_case>, null, <contenttweaker:mythic_machine_case>, 
@@ -296,7 +296,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<divinerpg:skythern_block>*4,
 <contenttweaker:skythern_refined_gem>, <contenttweaker:eden_refined_gem>, <contenttweaker:wildwood_refined_gem>]]);  
 
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_core>, 50000, <divinerpg:mortum_heart>, [<divinerpg:soul_fiend_statue>, <divinerpg:densos_statue>, <divinerpg:vamacheron_statue>, <divinerpg:reyvor_statue>, <divinerpg:karot_statue>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_core>, 50000, <divinerpg:mortum_heart>, [<divinerpg:soul_fiend_statue>, <divinerpg:densos_statue>, <divinerpg:vamacheron_statue>, <divinerpg:reyvor_statue>, <divinerpg:karot_statue>, <divinerpg:twilight_demon_statue>]);
 
 recipes.addShaped(<divinerpg:mortum_heart>,
 [[<divinerpg:mortum_gem>, <divinerpg:mortum_gem>, <divinerpg:mortum_gem>],

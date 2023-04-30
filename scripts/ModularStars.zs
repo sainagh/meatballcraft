@@ -13,7 +13,7 @@ mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:knightmetal>*1, <fluid:twil
 
 recipes.addShaped(<contenttweaker:sednanite_stabilizer>,
 [[<advancedrocketry:crystal:0>, <advancedrocketry:crystal:1>, <advancedrocketry:crystal:2>],
-[<dimdoors:rift_stabilizer>, <extendedcrafting:singularity_custom:630>, <dimdoors:rift_stabilizer>],
+[<gendustry:honey_comb:14009>, <extendedcrafting:singularity_custom:630>, <gendustry:honey_comb:14009>],
 [<advancedrocketry:crystal:5>, <advancedrocketry:crystal:4>, <advancedrocketry:crystal:3>]]);
 
 val nighmareelectr1 = RecipeBuilder.newBuilder("nighmareelectr1","nightmare_electrolyzer",1);

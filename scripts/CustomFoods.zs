@@ -69,7 +69,7 @@ strangemeatball.register();
 var driedvishroom = VanillaFactory.createItemFood("dried_vishroom", 2);
 driedvishroom.saturation = 1;
 driedvishroom.onItemFoodEaten = function(stack, world, player) {
-	player.addPotionEffect(<potion:enderio:confusion>.makePotionEffect(600, 0));
+	player.addPotionEffect(<potion:enderio:confusion>.makePotionEffect(600, 1));
 //	player.addPotionEffect(<potion:cyclicmagic:blindness>.makePotionEffect(12000, 0));
 	player.addPotionEffect(<potion:minecraft:luck>.makePotionEffect(36000, 3));
 };

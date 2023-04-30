@@ -39,3 +39,7 @@ recipes.addShaped(<cyclicmagic:book_ender>,
 [[<ore:gemEmerald>, <dimdoors:world_thread>, <ore:gemEmerald>],
 [<actuallyadditions:block_misc:6>, <minecraft:book>, <actuallyadditions:block_misc:6>],
 [<ore:gemEmerald>, <dimdoors:world_thread>, <ore:gemEmerald>]]);
+
+recipes.remove(<cyclicmagic:magic_net>);
+
+recipes.remove(<cyclicmagic:beacon_potion>);

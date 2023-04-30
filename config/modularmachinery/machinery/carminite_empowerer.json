@@ -4,7 +4,7 @@
 	"color": "cf132f",
     "modifiers": [
         {
-            "elements": "twilightforest:magic_log_core@2",
+            "elements": "twilightforest:magic_log_core",
             "x": 0,
             "y": 1,
             "z": 1,

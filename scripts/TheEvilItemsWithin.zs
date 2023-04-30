@@ -167,7 +167,7 @@ retaliationkey.itemRightClick = function(stack, world, player, hand) {
         Commands.call("fill ~-1 ~1 ~-1 ~1 ~5 ~1 air 0 replace contenttweaker:retaliation_portal 0", player, world, false, true);
         return "PASS";
     } else {
-        Commands.call("say stand on the netherrack block inside the the will crystal monolith", player, world, false, true);
+        Commands.call("say stand on the netherrack block inside the will crystal monolith", player, world, false, true);
         return "FAIL";
     }
 };

@@ -222,3 +222,5 @@ recipes.addShaped(<techreborn:distillation_tower>,
 [<techreborn:industrial_electrolyzer>, <techreborn:part:0>, <techreborn:industrial_electrolyzer>]]);
 
 mods.techreborn.assemblingMachine.addRecipe(<techreborn:part:39>, <draconicevolution:draconic_ingot>, <techreborn:part:17>, 10, 8);
+
+mods.techreborn.assemblingMachine.addRecipe(<techreborn:part:0>, <techreborn:part:43>, <contenttweaker:better_lapotron_crystal>, 160, 10);

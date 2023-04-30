@@ -162,14 +162,24 @@ recipes.addShaped(<contenttweaker:dream_callstone>,
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:nightmare_callstone>, 
 [[<divinerpg:polished_pearls>, <divinerpg:polished_pearls>, <divinerpg:polished_pearls>, <contenttweaker:vethea_garnet>, <divinerpg:dirty_pearls>, <divinerpg:dirty_pearls>, <divinerpg:dirty_pearls>], 
-[<divinerpg:polished_pearls>, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:skythern_log", Count: 1 as byte, Damage: 0 as short}}), null, <contenttweaker:triple_compressed_wafer>, null, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:skythern_log", Count: 1 as byte, Damage: 0 as short}}), <divinerpg:dirty_pearls>], 
+[<divinerpg:polished_pearls>, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:skythern_log", Count: 1, Damage: 0 as short}}), null, <contenttweaker:triple_compressed_wafer>, null, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:skythern_log", Count: 1, Damage: 0 as short}}), <divinerpg:dirty_pearls>], 
 [<divinerpg:polished_pearls>, <contenttweaker:dream_cluster>, null, <contenttweaker:infused_rhenium_ingot>, null, <contenttweaker:dream_cluster>, <divinerpg:dirty_pearls>], 
 [<contenttweaker:vethea_garnet>, <contenttweaker:infused_rhenium_ingot>, <materialpart:hassium:gear>, <draconicevolution:chaotic_core>, <materialpart:hassium:gear>, <contenttweaker:infused_rhenium_ingot>, <contenttweaker:vethea_garnet>], 
 [<divinerpg:clean_pearls>, <contenttweaker:dream_cluster>, null, <contenttweaker:infused_rhenium_ingot>, null, <contenttweaker:dream_cluster>, <divinerpg:shiny_pearls>], 
-[<divinerpg:clean_pearls>, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:skythern_log", Count: 1 as byte, Damage: 0 as short}}), null, <contenttweaker:triple_compressed_wafer>, null, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:skythern_log", Count: 1 as byte, Damage: 0 as short}}), <divinerpg:shiny_pearls>], 
+[<divinerpg:clean_pearls>, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:skythern_log", Count: 1, Damage: 0 as short}}), null, <contenttweaker:triple_compressed_wafer>, null, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:skythern_log", Count: 1, Damage: 0 as short}}), <divinerpg:shiny_pearls>], 
 [<divinerpg:clean_pearls>, <divinerpg:clean_pearls>, <divinerpg:clean_pearls>, <contenttweaker:vethea_garnet>, <divinerpg:shiny_pearls>, <divinerpg:shiny_pearls>, <divinerpg:shiny_pearls>]]);  
 
 recipes.addShaped(<contenttweaker:recursion_fragment_vethea>,
 [[<divinerpg:mortum_soul>, <bewitchment:catechu_brown>, <divinerpg:mortum_soul>],
 [<bewitchment:catechu_brown>, <contenttweaker:vethea_wormhole>, <bewitchment:catechu_brown>],
 [<divinerpg:mortum_soul>, <bewitchment:catechu_brown>, <divinerpg:mortum_soul>]]);
+
+
+// player interfaces
+
+recipes.remove(<plethora:module:0>);
+
+recipes.addShaped(<plethora:module:0>,
+[[<ore:ingotGold>, <divinerpg:arksiane_lump>, <ore:ingotGold>],
+[<divinerpg:arksiane_lump>, <plethora:neuralinterface>, <divinerpg:arksiane_lump>],
+[<ore:ingotGold>, <divinerpg:arksiane_lump>, <ore:ingotGold>]]);

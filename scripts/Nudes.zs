@@ -46,11 +46,6 @@ recipes.addShaped(<contenttweaker:demonologist_callstone>,
 val oreDemonStoneOreDict = <ore:oreDemonStone>;
 oreDemonStoneOreDict.add(<contenttweaker:demon_stone>);
 
-recipes.addShaped(<contenttweaker:haumea_spinel>,
-[[<ore:oreDemonStone>, <ore:oreDemonStone>, <ore:oreDemonStone>],
-[<ore:oreDemonStone>, <bewitchment:demon_heart>, <ore:oreDemonStone>],
-[<ore:oreDemonStone>, <ore:oreDemonStone>, <ore:oreDemonStone>]]);
-
 //---------------------------------
 // osiris
 // armorer bee
@@ -75,3 +70,173 @@ recipes.addHiddenShaped("osirisarmor4",<contenttweaker:bee_boots>,
 [<ore:ingotMithrillium>, <contenttweaker:black_metal_feet>, <ore:ingotMithrillium>],
 [<ore:ingotMithrillium>, <ore:ingotMithrillium>, <ore:ingotMithrillium>]]);
 
+recipes.addShaped(<contenttweaker:armorer_callstone>,
+[[<contenttweaker:bee_helmet>, <ore:ingotMithrillium>, <contenttweaker:bee_leggings>],
+[<ore:ingotMithrillium>, <ore:ingotMithrillium>, <ore:ingotMithrillium>],
+[<contenttweaker:bee_chestplate>, <ore:ingotMithrillium>, <contenttweaker:bee_boots>]]);
+
+//---------------------------------
+// ptah
+// beacon bee
+
+
+recipes.addHiddenShapeless("ptahpuzzlepharos",<contenttweaker:pharos_callstone>,
+[<bloodmagic:component:2>,
+<bloodarsenal:base_item:8>,
+<bloodmagic:component:13>,
+<animus:component:5>,
+<bloodmagic:component:12>]);
+
+//---------------------------------
+// hator
+// trinity bee
+
+val orehatorantimatter = <ore:listAntimatter>;
+orehatorantimatter.add(<abyssalcraft:antichicken>);
+orehatorantimatter.add(<abyssalcraft:antipork>);
+orehatorantimatter.add(<abyssalcraft:antispidereye>);
+orehatorantimatter.add(<abyssalcraft:antibone>);
+
+recipes.addHiddenShaped("hatorpuzzle",<contenttweaker:trinity_callstone>,
+[[<contenttweaker:corrupted_hyperspace_heart>, <ore:listAntimatter>, <contenttweaker:corrupted_hyperspace_heart>],
+[<ore:listAntimatter>, <careerbees:ingredients:13>, <ore:listAntimatter>],
+[<contenttweaker:corrupted_hyperspace_heart>, <ore:listAntimatter>, <contenttweaker:corrupted_hyperspace_heart>]]);
+
+//---------------------------------
+// europa
+// shyre and twilight bees
+
+recipes.addHiddenShaped("europapuzzle1",<contenttweaker:pride_stone>,
+[[<botania:custombrick:15>, <botania:custombrick:15>, <botania:custombrick:15>],
+[<botania:custombrick:15>, <botania:rune:15>, <botania:custombrick:15>],
+[<botania:custombrick:15>, <botania:custombrick:15>, <botania:custombrick:15>]]);
+
+recipes.addHiddenShaped("europapuzzle2",<contenttweaker:envy_stone>,
+[[<botania:custombrick:14>, <botania:custombrick:14>, <botania:custombrick:14>],
+[<botania:custombrick:14>, <botania:rune:14>, <botania:custombrick:14>],
+[<botania:custombrick:14>, <botania:custombrick:14>, <botania:custombrick:14>]]);
+
+recipes.addHiddenShaped("europapuzzle3",<contenttweaker:wrath_stone>,
+[[<botania:custombrick:13>, <botania:custombrick:13>, <botania:custombrick:13>],
+[<botania:custombrick:13>, <botania:rune:13>, <botania:custombrick:13>],
+[<botania:custombrick:13>, <botania:custombrick:13>, <botania:custombrick:13>]]);
+
+recipes.addHiddenShaped("europapuzzle4",<contenttweaker:sloth_stone>,
+[[<botania:custombrick:12>, <botania:custombrick:12>, <botania:custombrick:12>],
+[<botania:custombrick:12>, <botania:rune:12>, <botania:custombrick:12>],
+[<botania:custombrick:12>, <botania:custombrick:12>, <botania:custombrick:12>]]);
+
+recipes.addHiddenShaped("europapuzzle5",<contenttweaker:greed_stone>,
+[[<botania:custombrick:11>, <botania:custombrick:11>, <botania:custombrick:11>],
+[<botania:custombrick:11>, <botania:rune:11>, <botania:custombrick:11>],
+[<botania:custombrick:11>, <botania:custombrick:11>, <botania:custombrick:11>]]);
+
+recipes.addHiddenShaped("europapuzzle6",<contenttweaker:gluttony_stone>,
+[[<botania:custombrick:10>, <botania:custombrick:10>, <botania:custombrick:10>],
+[<botania:custombrick:10>, <botania:rune:10>, <botania:custombrick:10>],
+[<botania:custombrick:10>, <botania:custombrick:10>, <botania:custombrick:10>]]);
+
+recipes.addHiddenShaped("europapuzzle7",<contenttweaker:lust_stone>,
+[[<botania:custombrick:9>, <botania:custombrick:9>, <botania:custombrick:9>],
+[<botania:custombrick:9>, <botania:rune:9>, <botania:custombrick:9>],
+[<botania:custombrick:9>, <botania:custombrick:9>, <botania:custombrick:9>]]);
+
+recipes.addHiddenShapeless("europapuzzlecombine",<contenttweaker:peaceful_oath_callstone>,
+[<contenttweaker:lust_stone>,
+<contenttweaker:gluttony_stone>,
+<contenttweaker:sloth_stone>,
+<contenttweaker:wrath_stone>,
+<contenttweaker:greed_stone>,
+<contenttweaker:pride_stone>,
+<contenttweaker:envy_stone>]);
+
+//---------------------------------
+// oi
+// fissile bee
+
+recipes.addShaped(<contenttweaker:unburied_callstone>,
+[[<contenttweaker:heuf_fuel>, <contenttweaker:heuf_fuel>, <contenttweaker:heuf_fuel>],
+[<contenttweaker:heuf_fuel>, <techreborn:nuke>, <contenttweaker:heuf_fuel>],
+[<contenttweaker:heuf_fuel>, <contenttweaker:heuf_fuel>, <contenttweaker:heuf_fuel>]]);
+
+
+//---------------------------------
+// falacer
+// gun devil bee
+
+recipes.addHiddenShapeless("falacerpuzzle",<contenttweaker:curious_bullet>,
+[<aoa3:limonite_bullet>,
+<magicbees:beecomb:0>,
+<magicbees:beecomb:1>,
+<magicbees:beecomb:5>,
+<magicbees:beecomb:4>,
+<gendustry:honey_comb:14008>,
+<gendustry:honey_comb:14007>,
+<gendustry:honey_comb:14006>,
+<gendustry:honey_comb:14005>]);
+
+recipes.addShaped(<contenttweaker:gun_devil_callstone>,
+[[<contenttweaker:curious_bullet>, <contenttweaker:curious_bullet>, <contenttweaker:curious_bullet>],
+[<contenttweaker:curious_bullet>, <contenttweaker:curious_bullet>, <contenttweaker:curious_bullet>],
+[<contenttweaker:curious_bullet>, <contenttweaker:curious_bullet>, <contenttweaker:curious_bullet>]]);
+
+
+//---------------------------------
+// orcus
+// sharpening bee
+
+recipes.addHiddenShapeless("orcuspuzzle1",<contenttweaker:lower_fragment_cosmos>,
+[<contenttweaker:blood_infused_dimensional_ingot>,
+<divinerpg:aquatooth_sword>,
+<divinerpg:cermile_backsword>,
+<iceandfire:hippogryph_sword>,
+<natura:darkwood_sword>]);
+
+recipes.addHiddenShapeless("orcuspuzzle2",<contenttweaker:upper_fragment_cosmos>,
+[<contenttweaker:blood_infused_dimensional_ingot>,
+<aoa3:legbone_sword>,
+<thebetweenlands:bone_sword>,
+<mod_lavacow:bonesword>,
+<iceandfire:dragonbone_sword>]);
+
+recipes.addShapeless(<contenttweaker:anemic_callstone>,
+[<contenttweaker:lower_fragment_cosmos>,
+<contenttweaker:upper_fragment_cosmos>,
+<animus:kama_bound>]);
+
+//---------------------------------
+// sedna
+// gravity bee
+
+recipes.addHiddenShapeless("sednapuzzle",<contenttweaker:orbital_callstone>,
+[<contenttweaker:sedna_dust>,
+<gendustry:honey_comb:14009>,
+<gendustry:honey_comb:14009>,
+<gendustry:honey_comb:14009>,
+<gendustry:honey_comb:14009>,
+<gendustry:honey_comb:14009>,
+<gendustry:honey_comb:14009>,
+<gendustry:honey_comb:14009>,
+<gendustry:honey_comb:14009>]);
+
+//---------------------------------
+// combine the pieces
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:spinel_ring>, 
+40000, 
+<thaumcraft:baubles:1>, 
+[<contenttweaker:osiris_spinel>, 
+<contenttweaker:haumea_spinel>, 
+<contenttweaker:europa_spinel>, 
+<contenttweaker:oi_spinel>, 
+<contenttweaker:hator_spinel>, 
+<contenttweaker:ptah_spinel>, 
+<contenttweaker:orcus_spinel>, 
+<contenttweaker:falacer_spinel>, 
+<contenttweaker:sedna_spinel>]);
+
+
+recipes.addShaped(<contenttweaker:bubbell_alliance_callstone>,
+[[null, <contenttweaker:bubbell_banner>, null],
+[<contenttweaker:bubbell_banner>, <contenttweaker:spinel_ring>, <contenttweaker:bubbell_banner>],
+[null, <contenttweaker:bubbell_banner>, null]]);

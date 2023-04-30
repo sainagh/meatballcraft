@@ -1,13 +1,13 @@
 recipes.removeShaped(<rftools:builder>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<rftools:builder>, 
-[[<railcraft:coke_oven:0>, <tconstruct:materials:2>, <tconstruct:materials:2>, <buildcraftcore:gear_diamond>, <tconstruct:materials:2>, <tconstruct:materials:2>, <railcraft:coke_oven:0>], 
+[[<railcraft:coke_oven:0>, <tconstruct:materials:2>, <tconstruct:materials:2>, <ore:gearDiamond>, <tconstruct:materials:2>, <tconstruct:materials:2>, <railcraft:coke_oven:0>], 
 [<tconstruct:materials:2>, <divinerpg:realmite_ingot>, null, null, null, <divinerpg:realmite_ingot>, <tconstruct:materials:2>], 
 [<tconstruct:materials:2>, null, <contenttweaker:living_gold>, <actuallyadditions:item_crystal:0>, <contenttweaker:living_gold>, null, <tconstruct:materials:2>], 
-[<buildcraftcore:gear_diamond>, null, <actuallyadditions:item_crystal:0>, <rftools:machine_frame>, <actuallyadditions:item_crystal:0>, null, <buildcraftcore:gear_diamond>], 
+[<ore:gearDiamond>, null, <actuallyadditions:item_crystal:0>, <rftools:machine_frame>, <actuallyadditions:item_crystal:0>, null, <ore:gearDiamond>], 
 [<tconstruct:materials:2>, null, <contenttweaker:living_gold>, <actuallyadditions:item_crystal:0>, <contenttweaker:living_gold>, null, <tconstruct:materials:2>], 
 [<tconstruct:materials:2>, <divinerpg:realmite_ingot>, null, null, null, <divinerpg:realmite_ingot>, <tconstruct:materials:2>], 
-[<railcraft:coke_oven:0>, <tconstruct:materials:2>, <tconstruct:materials:2>, <buildcraftcore:gear_diamond>, <tconstruct:materials:2>, <tconstruct:materials:2>, <railcraft:coke_oven:0>]]);  
+[<railcraft:coke_oven:0>, <tconstruct:materials:2>, <tconstruct:materials:2>, <ore:gearDiamond>, <tconstruct:materials:2>, <tconstruct:materials:2>, <railcraft:coke_oven:0>]]);  
 
 recipes.removeShaped(<rftools:machine_frame>);
 

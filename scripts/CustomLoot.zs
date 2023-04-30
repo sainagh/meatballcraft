@@ -16,6 +16,17 @@ mods.ltt.LootTable.removeGlobalItem("biomesoplenty:sapling_1:7");
 
 mods.ltt.LootTable.removeGlobalItem("aoa3:shiny_box");
 
+mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:8");
+
+mods.ltt.LootTable.removeGlobalItem("bewitchment:silver_ingot");
+mods.ltt.LootTable.removeGlobalItem("erebus:materials:45");
+mods.ltt.LootTable.removeGlobalItem("iceandfire:silver_ingot");
+mods.ltt.LootTable.removeGlobalItem("immersiveengineering:metal:3");
+mods.ltt.LootTable.removeGlobalItem("nuclearcraft:ingot:13");
+mods.ltt.LootTable.removeGlobalItem("projectred-core:resource_item:102");
+mods.ltt.LootTable.removeGlobalItem("railcraft:ingot:4");
+mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:11");
+
 mods.ltt.LootTable.removeGlobalItem("ebwizardry:magic_wand");
 mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_ice_wand");
 mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_fire_wand");
@@ -93,6 +104,7 @@ val dimdoorsdungeonroll = dimdoordungeon.addPool("dimdoorsdungeonroll", 1, 1, 0,
 dimdoorsdungeonroll.addItemEntry(<ebwizardry:grand_crystal>, 5);
 dimdoorsdungeonroll.addItemEntry(<projecte:item.pe_matter:1>, 2);
 dimdoorsdungeonroll.addItemEntry(<techreborn:ingot:14>, 3);
+dimdoorsdungeonroll.addItemEntry(<contenttweaker:strange_charm>, 3);
 dimdoorsdungeonroll.addItemEntry(<thermalfoundation:material:134>, 3);
 
 val mothervoidwalker = LootTweaker.getTable("aoa3:entities/mobs/overworld/mother_void_walker");
@@ -399,6 +411,8 @@ rovingcubeannhilation.addItemEntry(<twilightforest:cube_talisman>, 25);
 val netherfortress = LootTweaker.getTable("minecraft:chests/nether_bridge");
 val netherfortressspecial = netherfortress.addPool("netherfortressspecial", 1, 2, 1, 1);
 netherfortressspecial.addItemEntry(<abyssalcraft:coraliumore>*2, 10);
+netherfortressspecial.addItemEntry(<thermalfoundation:material:131>, 10);
+netherfortressspecial.addItemEntry(<thermalfoundation:material:130>, 15);
 
 val endcity = LootTweaker.getTable("minecraft:chests/end_city_treasure");
 val endcityspecial = endcity.addPool("endcityspecial", 1, 2, 1, 1);
@@ -411,4 +425,9 @@ runicornprimordial.addItemEntry(<contenttweaker:primordial_sliver>, 15);
 val enderman = LootTweaker.getTable("minecraft:entities/enderman");
 val endermansoul = enderman.addPool("endermansoul", 1, 1, 0, 0);
 endermansoul.addItemEntry(<contenttweaker:nebulous_soul>, 15);
+
+val vanilladungeon = LootTweaker.getTable("minecraft:chests/simple_dungeon");
+val vanilladungeonmbc = vanilladungeon.addPool("vanilladungeonmbc", 1, 1, 0, 0);
+vanilladungeonmbc.addItemEntry(<thermalfoundation:material:131>, 15);
+vanilladungeonmbc.addItemEntry(<thermalfoundation:material:130>, 15);
 

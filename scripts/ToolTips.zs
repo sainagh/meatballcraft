@@ -1,6 +1,10 @@
-<contenttweaker:alien_material_manual>.addTooltip(format.red("The world may become a little harder... - Texture by Zuckerburger, thanks!"));
+<contenttweaker:alien_material_manual>.addTooltip(format.red("The world may become a little harder..."));
 
 <contenttweaker:primordial_star>.addTooltip(format.red("Texture by Zuckerburger, thanks!"));
+
+<contenttweaker:lore_of_the_meatball_man>.addTooltip(format.red("This will activate a (reversible) hard mode"));
+
+<contenttweaker:lore_of_the_meatball_man>.addTooltip(format.red("Texture by Zuckerburger, thanks!"));
 
 <contenttweaker:controller_manual>.addTooltip(format.red("The world may become a little harder..."));
 
@@ -13,6 +17,8 @@
 <contenttweaker:minor_vethea_binding>.addTooltip(format.red("The world may become a little harder..."));
 
 <contenttweaker:ancient_elven_knowledge>.addTooltip(format.red("The world may become a little harder..."));
+
+<modularmachinery:blockcontroller>.addTooltip(format.red("CAREFUL: do not place modular machines on chunk boundaries"));
 
 <modularmachinery:blockcontroller>.addTooltip(format.red("Requires the Controller Manual to become craftable"));
 
@@ -152,6 +158,10 @@
 <abyssalcraft:shadowshard>.addTooltip(format.red("Shadow Creature spawn eggs are craftable if you're unlucky"));
 <abyssalcraft:shadowgem>.addTooltip(format.red("Shadow Creature spawn eggs are craftable if you're unlucky"));
 
+<abyssalcraft:shadowfragment>.addTooltip(format.red("You should use a mob duplicator and crusher to farm it"));
+<abyssalcraft:shadowshard>.addTooltip(format.red("You should use a mob duplicator and crusher to farm it"));
+<abyssalcraft:shadowgem>.addTooltip(format.red("You should use a mob duplicator and crusher to farm it"));
+
 <abyssalcraft:shoggothflesh:0>.addTooltip(format.red("Dropped by Shoggoths in their lair found in the Overworld"));
 
 <contenttweaker:conductive_powder>.addTooltip(format.red("Sludge is produced by the Plant Gatherer from Industrial Foregoing"));
@@ -179,6 +189,11 @@
 <bhc:blue_heart>.addTooltip(format.red("Dropped by Evokers"));
 
 <bhc:heart_amulet>.addTooltip(format.red("Shift right click to store heart canisters"));
+
+<bhc:red_heart_canister>.addTooltip(format.red("Put into the heart amulet"));
+<bhc:yellow_heart_canister>.addTooltip(format.red("Put into the heart amulet"));
+<bhc:green_heart_canister>.addTooltip(format.red("Put into the heart amulet"));
+<bhc:blue_heart_canister>.addTooltip(format.red("Put into the heart amulet"));
 
 <botania:flugeleye>.addTooltip(format.red("Found using the Dice of Fate"));
 
@@ -230,7 +245,7 @@
 
 <thermalfoundation:material:134>.addTooltip(format.red("Really rare in the Overworld, more common in the End"));
 
-<divinerpg:purple_blaze>.addTooltip(format.red("Scorcher spawn eggs are craftable"));
+<divinerpg:purple_blaze>.addTooltip(format.red("Scorcher spawners are found in the large lava fountains in the nether - spawn eggs are craftable"));
 
 <aoa3:whitewash_bricks>.addTooltip(format.red("The Whitewashing table is a quest reward"));
 
@@ -262,7 +277,7 @@
 
 <contenttweaker:sedna_artifact>.addTooltip(format.red("Start warping from the closest planet"));
 
-<iceandfire:fire_dragon_heart>.addTooltip(format.red("Reusable"));
+<iceandfire:fire_dragon_heart>.addTooltip(format.red("Reusable for making diamonds"));
 
 <forestry:planks.1:6>.addTooltip(format.red("Log is craftable"));
 
@@ -550,7 +565,7 @@
 
 <contenttweaker:dense_gravitite_ore>.addTooltip(format.red("Found with Advanced Rocketry Asteroid Mining Missions"));
 
-<aoa3:amphibiyte_lung>.addTooltip(format.red("Found on the Amphibiyte Coves on coastlines in the overworld"));
+<aoa3:amphibiyte_lung>.addTooltip(format.red("Found on the Amphibiyte Coves in beach biomes in the overworld"));
 
 <techreborn:fusion_control_computer>.addTooltip(format.red("You can right click the coils on the controller to place them automatically"));
 
@@ -652,7 +667,7 @@
 
 <danknull:danknull_dock>.addTooltip(format.red("Do not connect to a storage bus, causes a crash"));
 
-<contenttweaker:ragnarok_sigil>.addTooltip(format.red("Craft with the right combination of crystal clusters - the abyssal temple will guide you"));
+<contenttweaker:ragnarok_sigil>.addTooltip(format.red("Craft with the right combination of crystal clusters - the temple in the abyss will guide you"));
 
 <ore:ingotSteel>.addTooltip(format.red("Can be obtained with a blast furnace (any of them) or with an induction smelter"));
 
@@ -708,7 +723,7 @@
 
 <minecraft:chest>.addTooltip(format.red("Thanks to Sandman366 for the help at trying to fix the planks JEI crash ;)"));
 
-<ore:dustBedrock>.addTooltip(format.red("Burn some bedrock using an igniter or pyrotheum, or loop some sag mills"));
+<ore:dustBedrock>.addTooltip(format.red("Burn some bedrock using an igniter, or using pyrotheum and some netherrack, or loop some sag mills"));
 
 <extendedcrafting:singularity_custom:991>.addTooltip(format.red("We like Woot!"));
 
@@ -732,21 +747,21 @@
 
 <agricraft:crop_sticks>.addTooltip(format.red("Thanks to Uchiwars for the texture!"));
 
-<matc:inferiumcrystal>.addTooltip(format.red("Do not passively automate until unimited durability, if you try it will delete your items"));
+<matc:inferiumcrystal>.addTooltip(format.red("Do not passively automate until unlimited durability, if you try it will delete your items"));
 
-<matc:prudentiumcrystal>.addTooltip(format.red("Do not passively automate until unimited durability, if you try it will delete your items"));
+<matc:prudentiumcrystal>.addTooltip(format.red("Do not passively automate until unlimited durability, if you try it will delete your items"));
 
-<matc:intermediumcrystal>.addTooltip(format.red("Do not passively automate until unimited durability, if you try it will delete your items"));
+<matc:intermediumcrystal>.addTooltip(format.red("Do not passively automate until unlimited durability, if you try it will delete your items"));
 
-<matc:superiumcrystal>.addTooltip(format.red("Do not passively automate until unimited durability, if you try it will delete your items"));
+<matc:superiumcrystal>.addTooltip(format.red("Do not passively automate until unlimited durability, if you try it will delete your items"));
 
-<matc:supremiumcrystal>.addTooltip(format.red("Do not passively automate until unimited durability, if you try it will delete your items"));
+<matc:supremiumcrystal>.addTooltip(format.red("Do not passively automate until unlimited durability, if you try it will delete your items"));
 
 <ore:ingotPlatinum>.addTooltip(format.red("Crush some nickel"));
 
 <contenttweaker:mysterium_wormhole>.addTooltip(format.red("Combine the right four blood runes in a plus around a lunar block"));
 
-<contenttweaker:staff_of_iceika>.addTooltip(format.red("Use in the casle in the frozen world"));
+<contenttweaker:staff_of_iceika>.addTooltip(format.red("Use in the castle in the frozen world"));
 
 <teslacorelib:energy_tier1>.addTooltip(format.red("Only use in chunks far away from you"));
 
@@ -916,7 +931,7 @@
 
 <techreborn:industrial_grinder>.addTooltip(format.red("18 standard machine casing, 8 reinforced machine casing, 1 water"));
 
-<techreborn:implosion_compressor>.addTooltip(format.red("hollow 3x3 of reinforced machine casings"));
+<techreborn:implosion_compressor>.addTooltip(format.red("hollow 3x3x3 of reinforced machine casings"));
 
 <bloodmagic:soul_gem:3>.addTooltip(format.red("Tinker Modifier: mobs drop will"));
 
@@ -1284,7 +1299,7 @@
 
 <contenttweaker:fluix_microcontroller>.addTooltip(format.red("Use a summoning computer"));
 
-<contenttweaker:core_of_undeath>.addTooltip(format.red("Combine with the right radioactive compounds"));
+<contenttweaker:core_of_undeath>.addTooltip(format.red("Found in Oi - Combine with the right radioactive compounds"));
 
 <contenttweaker:heuf_fuel>.addTooltip(format.red("How do I make it?? Oi holds the answer"));
 
@@ -1518,7 +1533,7 @@
 
 <contenttweaker:faultless_ichor_gem>.addTooltip(format.red("Obtained from the Tainted Callstone"));
 
-<contenttweaker:ichor>.addTooltip(format.red("Obtained using the vibrating mithminite schythe on tainted soil"));
+<contenttweaker:ichor>.addTooltip(format.red("Obtained right-clicking the vibrating mithminite schythe on top of tainted soil"));
 
 <contenttweaker:unidentified_gem>.addTooltip(format.red("Found on the proxima belt"));
 
@@ -1529,6 +1544,8 @@
 <contenttweaker:gem_of_midas>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
 
 <contenttweaker:tsleu_235_fuel>.addTooltip(format.red("Thanks to Photon-Gr4vity for the texture!"));
+
+<contenttweaker:superconducting_mithril>.addTooltip(format.red("Thanks to Photon-Gr4vity for the texture!"));
 
 <contenttweaker:rainbow_lens>.addTooltip(format.red("Thanks to Photon-Gr4vity for the texture!"));
 
@@ -1744,7 +1761,7 @@
 
 <contenttweaker:baku_heart>.addTooltip(format.red("A mark of the fallen tower for 50000"));
 
-<contenttweaker:osiris_spinel>.addTooltip(format.red("Obtained from the armored callstone"));
+<contenttweaker:osiris_spinel>.addTooltip(format.red("Obtained from the armorer callstone"));
 
 <contenttweaker:demon_stone>.addTooltip(format.red("Obtained from a special mark of the fallen tower"));
 
@@ -1757,3 +1774,201 @@
 <appliedenergistics2:wireless_fluid_terminal>.addTooltip(format.red("Place a quantum link card inside a quantum link chamber for infinite range"));
 
 <contenttweaker:medal_of_freedom>.addTooltip(format.red("Use the undead callstone"));
+
+<thebetweenlands:chiromaw_barb>.addTooltip(format.red("Dropped by the chiromaw matriarch"));
+
+<thebetweenlands:mummy_bait>.addTooltip(format.red("Drop in a sludge plain or marsh biome - you can obtain biome changers from a betweenlands callstone"));
+
+<contenttweaker:betweenlands_callstone_0>.addTooltip(format.red("This is a callstone"));
+
+<contenttweaker:betweenlands_callstone_1>.addTooltip(format.red("This is a callstone"));
+
+<contenttweaker:betweenlands_callstone_2>.addTooltip(format.red("This is a callstone"));
+
+<contenttweaker:betweenlands_callstone_3>.addTooltip(format.red("This is a callstone"));
+
+<contenttweaker:betweenlands_callstone_4>.addTooltip(format.red("This is a callstone"));
+
+<contenttweaker:betweenlands_callstone_5>.addTooltip(format.red("This is a callstone"));
+
+<contenttweaker:betweenlands_callstone_6>.addTooltip(format.red("This is a callstone"));
+
+<contenttweaker:betweenlands_callstone_7>.addTooltip(format.red("This is a callstone"));
+
+<contenttweaker:betweenlands_callstone_8>.addTooltip(format.red("This is a callstone"));
+
+<minecraft:bookshelf>.addTooltip(format.red("Research Aid"));
+
+<thaumcraft:stone_ancient_glyphed>.addTooltip(format.red("Research Aid"));
+
+<thaumcraft:jar_brain>.addTooltip(format.red("Research Aid"));
+
+<thaumcraft:crucible>.addTooltip(format.red("Research Aid"));
+
+<thaumcraft:arcane_workbench>.addTooltip(format.red("Research Aid"));
+
+<thaumcraft:infusion_matrix>.addTooltip(format.red("Research Aid"));
+
+<thaumcraft:wand_workbench>.addTooltip(format.red("Research Aid"));
+
+<thaumcraft:golem_builder>.addTooltip(format.red("Research Aid"));
+
+<minecraft:enchanting_table>.addTooltip(format.red("Research Aid"));
+
+<minecraft:beacon>.addTooltip(format.red("Research Aid"));
+
+<thaumcraft:research_table>.addTooltip(format.red("You can search for research aids in JEI"));
+
+<immersiveengineering:stone_decoration:1>.addTooltip(format.red("Can be found in many overworld structures"));
+
+<iceandfire:dread_queen_sword>.addTooltip(format.red("Hard mode drop: zombie"));
+
+<contenttweaker:sideral_damascus_steel_chest>.addTooltip(format.red("Hard mode drop: mobs after chapter 4"));
+
+<contenttweaker:sideral_damascus_steel_feet>.addTooltip(format.red("Hard mode drop: mobs after chapter 4"));
+
+<contenttweaker:sideral_damascus_steel_head>.addTooltip(format.red("Hard mode drop: mobs after chapter 4"));
+
+<contenttweaker:sideral_damascus_steel_legs>.addTooltip(format.red("Hard mode drop: mobs after chapter 4"));
+
+<thebetweenlands:rock_snot_pearl>.addTooltip(format.red("Feed mobs to a rocksnot pod - use the Spatial Diviner: Famen"));
+
+<contenttweaker:abyssal_wasteland_warp_cleanser>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:dreading_warp_cleanser>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:omothol_warp_cleanser>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<thermalexpansion:machine:13>.addTooltip(format.red("Place a thermal tank in output mode (orange) on top of the machine to auto-input essence"));
+
+<contenttweaker:strange_charm>.addTooltip(format.red("Use me ;)"));
+
+<industrialforegoing:mob_duplicator>.addTooltip(format.red("A cursed earth farm with a mob crusher is the best way to farm essence"));
+<industrialforegoing:mob_duplicator>.addTooltip(format.red("Right click a drop of evil on dirt in a dark room for increased spawns"));
+
+<cyclicmagic:beacon_potion>.addTooltip(format.red("Obtained from the pharos callstone"));
+
+<contenttweaker:pharos_callstone>.addTooltip(format.red("Ptah will guide you"));
+
+<contenttweaker:ptah_spinel>.addTooltip(format.red("Obtained from the pharos callstone"));
+
+<contenttweaker:trinity_callstone>.addTooltip(format.red("Hator will guide you"));
+
+<careerbees:ingredients:13>.addTooltip(format.red("Found in Hator, automated after completing the puzzle"));
+
+<contenttweaker:corrupted_hyperspace_heart>.addTooltip(format.red("Found in Hator"));
+
+<contenttweaker:strange_charm>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<extrautils2:ingredients:4>.addTooltip(format.red("You can use /xu_powersharing to manage your power network"));
+
+<contenttweaker:titanium_iridium_coil>.addTooltip(format.red("Thanks to goreae for the suggestion!"));
+
+<extrautils2:ingredients:10>.addTooltip(format.red("Right click dirt in a dark area to increase mob spawn rates!"));
+
+<astralsorcery:itemwand>.addTooltip(format.red("Regardless of JEI, you should use astral sorcery marble to craft this"));
+
+<astralsorcery:blockaltar:0>.addTooltip(format.red("Regardless of JEI, you should use astral sorcery marble to craft this"));
+
+<contenttweaker:europa_spinel>.addTooltip(format.red("Obtained from the peaceful oath callstone"));
+
+<contenttweaker:hator_spinel>.addTooltip(format.red("Obtained from the trinity callstone"));
+
+<tconstruct:smeltery_controller>.addTooltip(format.red("This doubles ores!"));
+
+<contenttweaker:curious_bullet>.addTooltip(format.red("Falacer will guide you"));
+
+<contenttweaker:falacer_spinel>.addTooltip(format.red("Obtained from the gun devil callstone"));
+
+<contenttweaker:wildwood_refined_gem>.addTooltip(format.red("Obtained from the wildwood callstone"));
+
+<contenttweaker:apalachia_refined_gem>.addTooltip(format.red("Found somewhere in apalachia"));
+
+<contenttweaker:skythern_refined_gem>.addTooltip(format.red("Obtained from the skythern callstone"));
+
+<contenttweaker:wildwood_refined_gem>.addTooltip(format.red("Sorry Domi"));
+
+<contenttweaker:oi_spinel>.addTooltip(format.red("Obtained from the unburied callstone"));
+
+<iceandfire:dragon_bone_block>.addTooltip(format.red("Cannot be broken by dragons - good to keep pets"));
+
+<thaumcraft:arcane_workbench>.addTooltip(format.red("Right click a crafting table with salis mundus"));
+
+<industrialforegoing:crop_recolector>.addTooltip(format.red("Multiple ones with small range are way faster than one with large range"));
+
+<contenttweaker:upper_fragment_cosmos>.addTooltip(format.red("Orcus will guide you"));
+
+<contenttweaker:lower_fragment_cosmos>.addTooltip(format.red("Orcus will guide you"));
+
+<contenttweaker:orcus_spinel>.addTooltip(format.red("Obtained from the anemic callstone"));
+
+<contenttweaker:haumea_spinel>.addTooltip(format.red("Obtained from the demonologist callstone"));
+
+<contenttweaker:demon_stone>.addTooltip(format.red("Obtained from the baku heart"));
+
+<contenttweaker:baku_heart>.addTooltip(format.red("Obtained from the demonologist callstone"));
+
+<contenttweaker:demonologist_callstone>.addTooltip(format.red("Haumea will guide you"));
+
+<contenttweaker:peaceful_oath_callstone>.addTooltip(format.red("Europa will guide you"));
+
+<contenttweaker:unburied_callstone>.addTooltip(format.red("Oi will guide you"));
+
+<contenttweaker:eldrich_blood_slime>.addTooltip(format.red("This does not get consumed by the blood god altar"));
+
+<ore:dustDiamond>.addTooltip(format.red("First made in the quartz grindstone"));
+
+<iceandfire:hydra_fang>.addTooltip(format.red("Hydras spawn in swamps in the overworld, or in bone structures in the nether"));
+
+<contenttweaker:myrmex_coolant_cell>.addTooltip(format.red("Cursed myrmitite buckets have a recipe"));
+
+<contenttweaker:singular_gravity_honey>.addTooltip(format.red("Will allow creative flight in all dimensions up to chapter 3"));
+
+<immersiveengineering:stone_decoration:0>.addTooltip(format.red("You don't need to craft this before the basic table, coal coke blocks are found in the overworld"));
+
+<railcraft:coke_oven:0>.addTooltip(format.red("You don't need to craft this before the basic table, coal coke blocks are found in the overworld"));
+
+<railcraft:blast_furnace:0>.addTooltip(format.red("You don't need to craft this, blast bricks are found in the overworld"));
+
+<botania:specialflower:0>.withTag({type: "orechid"}).addTooltip(format.red("This will become craftable in chapter 4"));
+
+<contenttweaker:forgetful_serum>.addTooltip(format.red("Deactivates hard mode"));
+
+<contenttweaker:orbital_callstone>.addTooltip(format.red("Sedna will guide you"));
+
+<contenttweaker:sedna_spinel>.addTooltip(format.red("Obtained from the orbital callstone"));
+
+<cyclicmagic:chest_sack_empty>.addTooltip(format.red("Can be used to move chests, spawners, and other things around!"));
+
+<erebus:materials:21>.addTooltip(format.red("Dropped by black widows in the nether"));
+
+<gendustry:industrial_apiary>.addTooltip(format.red("A time in a bottle would work great with this!"));
+
+<buildinggadgets:buildingtool>.addTooltip(format.red("Use V to change mode, use U to undo"));
+
+<buildinggadgets:exchangertool>.addTooltip(format.red("Use V to change mode"));
+
+<buildinggadgets:copypastetool>.addTooltip(format.red("Use V to change mode"));
+
+<projecte:item.pe_philosophers_stone>.addTooltip(format.red("Use V to increase range, shift+V to reduce range, C to open the crafting grid"));
+
+<projecte:item.pe_destruction_catalyst>.addTooltip(format.red("Use V to increase range, shift+V to reduce range, right click to mine"));
+
+<betterbuilderswands:wandunbreakable>.addTooltip(format.red("Use V to change mode, C to change fluid mode"));
+
+<contenttweaker:bubbell_banner>.addTooltip(format.red("Obtained from the orbital callstone"));
+<contenttweaker:bubbell_banner>.addTooltip(format.red("Thanks to Reclipse for the texture!"));
+
+<bloodmagic:inversion_pillar:0>.addTooltip(format.red("DO NOT PLACE - could corrupt world"));
+<bloodmagic:inversion_pillar:1>.addTooltip(format.red("DO NOT PLACE - could corrupt world"));
+<bloodmagic:inversion_pillar:2>.addTooltip(format.red("DO NOT PLACE - could corrupt world"));
+<bloodmagic:inversion_pillar:3>.addTooltip(format.red("DO NOT PLACE - could corrupt world"));
+<bloodmagic:inversion_pillar:4>.addTooltip(format.red("DO NOT PLACE - could corrupt world"));
+
+<contenttweaker:tainted_callstone>.addTooltip(format.red("It will spawn a very tough boss - You should be extremely careful with this one!"));
+
+<contenttweaker:enchdesc_sharpness>.addTooltip(format.red("A huge thanks to Tom and Quantum Chromodynamic Charge for adding these descriptions"));
+<contenttweaker:enchdesc_protection>.addTooltip(format.red("A huge thanks to Tom and Quantum Chromodynamic Charge for adding these descriptions"));
+<contenttweaker:enchdesc_smite>.addTooltip(format.red("It's DOCTOR PROFESSOR PATRICK!"));
+<contenttweaker:enchdesc_withering>.addTooltip(format.red("Use powered spawners"));
+

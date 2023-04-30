@@ -270,8 +270,10 @@ recipes.addShaped(<advancedrocketry:rollingmachine>,
 [<advancedrocketry:pressuretank:2>, <techreborn:rolling_machine>, <advancedrocketry:pressuretank:2>],
 [<ore:plateMagnalium>, <libvulpes:structuremachine>, <ore:plateMagnalium>]]);
 
-recipes.addShapeless(<libvulpes:metal0:7>,
-[<ore:blockTitanium>]);
+recipes.addShaped(<libvulpes:metal0:7>*8,
+[[<ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>],
+[<ore:blockTitanium>, null, <ore:blockTitanium>],
+[<ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>]]);
 
 recipes.removeShaped(<advancedrocketry:lathe>);
 

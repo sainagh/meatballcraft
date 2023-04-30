@@ -616,3 +616,21 @@ miltenvibraniumalloy.register();
 
 var fluixplasma = VanillaFactory.createFluid("fluix_plasma", Color.fromHex("cc7fe3"));
 fluixplasma.register();
+
+var slumberingabyssite = VanillaFactory.createFluid("slumbering_abyssite", Color.fromHex("6ddb65"));
+slumberingabyssite.register();
+
+var blazingrefinedfuel = VanillaFactory.createFluid("blazing_refined_fuel", Color.fromHex("ad3a17"));
+blazingrefinedfuel.register();
+
+var combustibleglowstone = VanillaFactory.createFluid("combustible_glowstone", Color.fromHex("a39b29"));
+combustibleglowstone.register();
+
+var copperlavamix = VanillaFactory.createFluid("copper_lava_mix", Color.fromHex("572424"));
+copperlavamix.register();
+
+var energizedlava = VanillaFactory.createFluid("energized_lava", Color.fromHex("d18417"));
+energizedlava.register();
+
+var highpressureenergeticfluid = VanillaFactory.createFluid("high_pressure_energetic_fluid", Color.fromHex("ff5f42"));
+highpressureenergeticfluid.register();

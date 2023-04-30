@@ -8,7 +8,7 @@
             "x": 0,
             "y": 0,
             "z": 3,
-            "description": "Replace block behind energy hatch for faster recipes",
+            "description": "Replace block in front of energy hatch for faster recipes",
             "modifier": {
                 "io": "output",
                 "target": "duration",

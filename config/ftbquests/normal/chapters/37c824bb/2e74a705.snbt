@@ -8,6 +8,9 @@
 		"This means that it is *theoretically* possible to travel through these dimensions!",
 		"Time to start looking at some ways to prove this theory. Nobel prize here I come!!"
 	],
+	dependencies: [
+		"808f22e0"
+	],
 	tasks: [{
 		uid: "b8e61294",
 		type: "checkmark",

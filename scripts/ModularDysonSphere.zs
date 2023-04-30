@@ -17,12 +17,15 @@ recipes.addShaped(<contenttweaker:dyson_capacitor>,
 [<materialpart:chaos:dust>, <contenttweaker:nightmare_coil>, <materialpart:chaos:dust>],
 [<contenttweaker:magnetic_monopole>, <materialpart:chaos:dust>, <contenttweaker:muon_crystal>]]);
 
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_shell>*6, 
-[[<contenttweaker:atomic_mirror>, <contenttweaker:collapser_casing>, <avaritia:resource:5>, <contenttweaker:collapser_casing>, <contenttweaker:atomic_mirror>], 
-[<contenttweaker:sentient_factory_core>, <contenttweaker:muon_crystal>, <materialpart:chaos:dust>, <contenttweaker:magnetic_monopole>, <contenttweaker:sentient_factory_core>], 
-[<aoa3:radiant_infusion_stone>, <materialpart:chaos:dust>, <techreborn:solar_panel:4>, <materialpart:chaos:dust>, <aoa3:radiant_infusion_stone>], 
-[<contenttweaker:sentient_factory_core>, <contenttweaker:magnetic_monopole>, <materialpart:chaos:dust>, <contenttweaker:muon_crystal>, <contenttweaker:sentient_factory_core>], 
-[<contenttweaker:atomic_mirror>, <contenttweaker:collapser_casing>, <avaritia:resource:5>, <contenttweaker:collapser_casing>, <contenttweaker:atomic_mirror>]]); 
+[[<extendedcrafting:material:13>, <contenttweaker:ogerite_crystal_matrix>, null, <contenttweaker:gravity_manipulator_device>, null, <contenttweaker:ogerite_crystal_matrix>, <extendedcrafting:material:13>], 
+[<contenttweaker:ogerite_crystal_matrix>, <contenttweaker:atomic_mirror>, <contenttweaker:collapser_casing>, <avaritia:resource:5>, <contenttweaker:collapser_casing>, <contenttweaker:atomic_mirror>, <contenttweaker:ogerite_crystal_matrix>], 
+[null, <contenttweaker:sentient_factory_core>, <contenttweaker:muon_crystal>, <materialpart:chaos:dust>, <contenttweaker:magnetic_monopole>, <contenttweaker:sentient_factory_core>, null], 
+[<contenttweaker:gravity_manipulator_device>, <aoa3:radiant_infusion_stone>, <materialpart:chaos:dust>, <techreborn:solar_panel:4>, <materialpart:chaos:dust>, <aoa3:radiant_infusion_stone>, <contenttweaker:gravity_manipulator_device>], 
+[null, <contenttweaker:sentient_factory_core>, <contenttweaker:magnetic_monopole>, <materialpart:chaos:dust>, <contenttweaker:muon_crystal>, <contenttweaker:sentient_factory_core>, null], 
+[<contenttweaker:ogerite_crystal_matrix>, <contenttweaker:atomic_mirror>, <contenttweaker:collapser_casing>, <avaritia:resource:5>, <contenttweaker:collapser_casing>, <contenttweaker:atomic_mirror>, <contenttweaker:ogerite_crystal_matrix>], 
+[<extendedcrafting:material:13>, <contenttweaker:ogerite_crystal_matrix>, null, <contenttweaker:gravity_manipulator_device>, null, <contenttweaker:ogerite_crystal_matrix>, <extendedcrafting:material:13>]]);  
 
 
 recipes.addShaped(<contenttweaker:atomic_mirror>*2,
@@ -32,9 +35,9 @@ recipes.addShaped(<contenttweaker:atomic_mirror>*2,
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_beam>, 
 [[<nuclearcraft:fusion_connector>, <nuclearcraft:block_ice>, <nuclearcraft:block_ice>, <nuclearcraft:block_ice>, <nuclearcraft:fusion_connector>], 
-[<thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>], 
+[<thermaldynamics:duct_0:5>, <contenttweaker:nightmare_gem>, <thermaldynamics:duct_0:5>, <contenttweaker:nightmare_gem>, <thermaldynamics:duct_0:5>], 
 [<contenttweaker:instant_power_junction>, <contenttweaker:instant_power_junction>, <contenttweaker:instant_power_junction>, <contenttweaker:instant_power_junction>, <contenttweaker:instant_power_junction>], 
-[<thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>], 
+[<thermaldynamics:duct_0:5>, <contenttweaker:nightmare_gem>, <thermaldynamics:duct_0:5>, <contenttweaker:nightmare_gem>, <thermaldynamics:duct_0:5>], 
 [<nuclearcraft:fusion_connector>, <nuclearcraft:block_ice>, <nuclearcraft:block_ice>, <nuclearcraft:block_ice>, <nuclearcraft:fusion_connector>]]); 
 
 

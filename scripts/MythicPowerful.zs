@@ -51,6 +51,19 @@ var mapBraveOther as IData = {
 };
 mapBrave += mapBraveOther;
 
+
+val enchlistMirkwood as IEnchantmentDefinition[] = [<enchantment:cofhcore:multishot>, <enchantment:minecraft:power>, <enchantment:minecraft:infinity>, <enchantment:cofhcore:leech>];
+var mapMirkwood as IData = {};
+mapMirkwood += enchlistMirkwood[0].makeEnchantment(6).makeTag();
+mapMirkwood += enchlistMirkwood[1].makeEnchantment(18).makeTag();
+mapMirkwood += enchlistMirkwood[2].makeEnchantment(1).makeTag();
+mapMirkwood += enchlistMirkwood[3].makeEnchantment(1).makeTag();
+var mapMirkwoodOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Mirkwood Bow"}
+};
+mapMirkwood += mapMirkwoodOther;
+
 val enchlistAbyss as IEnchantmentDefinition[] = [<enchantment:cofhcore:leech>, <enchantment:minecraft:sweeping>, <enchantment:minecraft:unbreaking>, <enchantment:minecraft:mending>];
 var mapAbyss as IData = {};
 mapAbyss += enchlistAbyss[0].makeEnchantment(16).makeTag();
@@ -72,6 +85,18 @@ var mapKikokuOther as IData = {
 	display: {Name: "K-Room"}
 };
 mapKikoku += mapKikokuOther;
+
+val enchlistBayonette as IEnchantmentDefinition[] = [<enchantment:minecraft:mending>, <enchantment:aoa3:brace>, <enchantment:aoa3:shell>, <enchantment:aoa3:control>];
+var mapBayonette as IData = {};
+mapBayonette += enchlistBayonette[0].makeEnchantment(3).makeTag();
+mapBayonette += enchlistBayonette[1].makeEnchantment(1).makeTag();
+mapBayonette += enchlistBayonette[2].makeEnchantment(15).makeTag();
+mapBayonette += enchlistBayonette[3].makeEnchantment(3).makeTag();
+var mapBayonetteOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Gun Devil Tribute"}
+};
+mapBayonette += mapBayonetteOther;
 
 
 
@@ -136,7 +161,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<aoa3:rosidian_greatblade>.withTag
 [null, <ore:ingotStellarAlloy>, <divinerpg:corrupted_stone>, <divinerpg:corrupted_stone>, <divinerpg:corrupted_stone>, <ore:ingotStellarAlloy>, null], 
 [<twilightforest:magic_beans>, null, null, null, null, null, <twilightforest:magic_beans>]]);  
 
-mods.extendedcrafting.TableCrafting.addShaped(<twilightforest:seeker_bow>.withTag({ench: [{lvl: 18 as short, id: 48 as short}, {lvl: 1 as short, id: 51 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 1 as short, id: 45 as short}, {lvl: 6 as short, id: 90 as short}], RepairCost: 1, display: {Name: "Mirkwood Bow"}}), 
+mods.extendedcrafting.TableCrafting.addShaped(<twilightforest:seeker_bow>.withTag(mapMirkwood), 
 [[<twilightforest:tower_device:12>, null, null, null, null, null, <twilightforest:tower_device:12>], 
 [null, <ore:ingotStellarAlloy>, <divinerpg:corrupted_stone>, <divinerpg:legendary_ender_eye>, <divinerpg:corrupted_stone>, <ore:ingotStellarAlloy>, null], 
 [null, <divinerpg:corrupted_stone>, <contenttweaker:nethengeic_bone>, <minecraft:skull:4>, <contenttweaker:nethengeic_bone>, <divinerpg:corrupted_stone>, null], 
@@ -247,4 +272,9 @@ recipes.addShaped(<redstonearsenal:tool.bow_flux>.withTag(mapBrave),
 [[<bewitchment:hellhound_horn>, <bewitchment:demon_heart>, <bewitchment:hellhound_horn>],
 [<contenttweaker:dragons_blood_plastic>, <bewitchment:sigil_ruin>, <contenttweaker:dragons_blood_plastic>],
 [<bewitchment:hellhound_horn>, <redstonearsenal:tool.bow_flux>, <bewitchment:hellhound_horn>]]);
+
+recipes.addShaped(<aoa3:bayonette_rifle>.withTag(mapBayonette),
+[[<contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>],
+[<contenttweaker:gun_devil_piece>, <aoa3:bayonette_rifle>, <contenttweaker:gun_devil_piece>],
+[<contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>]]);
 

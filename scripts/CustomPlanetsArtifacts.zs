@@ -4,7 +4,10 @@ mods.thaumcraft.Infusion.registerRecipe("sednaartifactinfusion", "",
 <contenttweaker:sedna_artifact>, 5,
 [<aspect:alienis>*100, <aspect:visum>*100, <aspect:ventus>*100], 
 <contenttweaker:divine_star>, 
-[<ore:dragonScaleBlock>, <thaumicaugmentation:research_notes:0>, <libvulpes:productgem:0>, <libvulpes:productgem:0>, <libvulpes:productgem:0>, <libvulpes:productgem:0>]);
+[<ore:dragonScaleBlock>, <thaumicaugmentation:research_notes:0>, 
+<contenttweaker:fiery_pyrite>, <contenttweaker:fiery_pyrite>, 
+<libvulpes:productgem:0>, <libvulpes:productgem:0>,
+<libvulpes:productgem:0>, <libvulpes:productgem:0>]);
 
 mods.thaumcraft.Infusion.registerRecipe("rheniaartifactinfusion", "", 
 <contenttweaker:rhenia_artifact>, 5,

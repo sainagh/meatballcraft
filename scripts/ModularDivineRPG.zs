@@ -40,7 +40,7 @@ val enc5 = RecipeBuilder.newBuilder("icearca5","corrupted_library",20);
 enc5.addEnergyPerTickInput(2000);
 enc5.addFluidInput(<fluid:lifeessence>*800);
 enc5.addFluidInput(<fluid:liquidcoralium>*800);
-enc5.addItemInput(<contenttweaker:divine_star>);
+enc5.addItemInput(<materialpart:sednanite:ingot>);
 enc5.addItemInput(<advancedrocketry:hotturf>*32);
 enc5.addItemOutput(<bloodmagic:item_demon_crystal:0>*8);
 enc5.addItemOutput(<bloodmagic:item_demon_crystal:1>*8);

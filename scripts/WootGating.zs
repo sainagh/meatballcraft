@@ -16,7 +16,7 @@ recipes.addShapeless(<contenttweaker:cursed_organic_matter>*2,
 
 recipes.addShaped(<contenttweaker:cursed_organic_matter>,
 [[<divinerpg:crab_claw>, <aoa3:ice_crystal>, <aoa3:armour_plating>],
-[<divinerpg:whale_fin>, <xreliquary:mob_ingredient:8>, <aoa3:void_scales>],
+[<ore:seaSerpentScales>, <xreliquary:mob_ingredient:8>, <aoa3:void_scales>],
 [<divinerpg:cyclops_eye>, <abyssalcraft:shoggothflesh:0>, <iceandfire:gorgon_head>]]);
 
 mods.techreborn.compressor.addRecipe(<woot:stygianironingot>, <woot:shard:3>, 40, 64);

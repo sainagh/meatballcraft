@@ -22,7 +22,7 @@ mods.recipestages.Recipes.setRecipeStage("bloodmasterstage", <contenttweaker:net
 
 recipes.addShaped(<contenttweaker:bloodmaster_tome>,
 [[<bloodmagic:slate:0>, <nuclearcraft:depleted_fuel_uranium:4>, <bloodmagic:slate:0>],
-[<minecraft:redstone_block>, <minecraft:book>, <minecraft:redstone_block>],
+[<thebetweenlands:chiromaw_barb>, <minecraft:book>, <thebetweenlands:chiromaw_barb>],
 [<bloodmagic:slate:0>, <soulshardsrespawn:soul_shard>.withTag({binding: {kills: 1024, bound: "minecraft:blaze"}}), <bloodmagic:slate:0>]]);
 
 
@@ -30,14 +30,24 @@ mods.recipestages.Recipes.setRecipeStage("divinestage", <contenttweaker:realmsto
 
 mods.recipestages.Recipes.setRecipeStage("divinestage", <divinerpg:twilight_clock>);
 
+mods.thaumcraft.Infusion.registerRecipe("infusionsolstone", "", 
+<contenttweaker:infused_sol_stone>, 3, 
+[<aspect:sol>*200, <aspect:imperium>*100, <aspect:sensus>*50], 
+<ore:ingotSednanite>, 
+[<contenttweaker:feldspar>, <contenttweaker:travertine>,
+<contenttweaker:pink_marble>, <contenttweaker:serpentine>,
+<contenttweaker:metagabbro>, <contenttweaker:agate>,
+<contenttweaker:onyx>, <contenttweaker:fiery_pyrite>]);
+
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:singularity_master>, 
-[[<extendedcrafting:singularity:1>, null, null, <extendedcrafting:singularity:2>, null, null, <extendedcrafting:singularity:3>], 
-[null, null, null, <nuclearcraft:fuel_mixed_oxide:0>, null, null, null], 
-[null, null, <enderutilities:enderpart:17>, <nuclearcraft:fuel_mixed_oxide:0>, <enderutilities:enderpart:17>, null, null], 
+[[<extendedcrafting:singularity:1>, <ore:rodSednanite>, <ore:rodSednanite>, <extendedcrafting:singularity:2>, <ore:rodSednanite>, <ore:rodSednanite>, <extendedcrafting:singularity:3>], 
+[<ore:rodSednanite>, <contenttweaker:infused_sol_stone>, null, <nuclearcraft:fuel_mixed_oxide:0>, null, <contenttweaker:infused_sol_stone>, <ore:rodSednanite>], 
+[<ore:rodSednanite>, null, <enderutilities:enderpart:17>, <nuclearcraft:fuel_mixed_oxide:0>, <enderutilities:enderpart:17>, null, <ore:rodSednanite>], 
 [<extendedcrafting:singularity:4>, <nuclearcraft:fuel_mixed_oxide:1>, <nuclearcraft:fuel_mixed_oxide:1>, <minecraft:book>, <nuclearcraft:fuel_mixed_oxide:1>, <nuclearcraft:fuel_mixed_oxide:1>, <extendedcrafting:singularity:5>], 
-[null, null, <enderutilities:enderpart:17>, <nuclearcraft:fuel_mixed_oxide:0>, <enderutilities:enderpart:17>, null, null], 
-[null, null, null, <nuclearcraft:fuel_mixed_oxide:0>, null, null, null], 
-[<extendedcrafting:singularity:6>, null, null, <extendedcrafting:singularity:7>, null, null, <extendedcrafting:singularity:0>]]);
+[<ore:rodSednanite>, null, <enderutilities:enderpart:17>, <nuclearcraft:fuel_mixed_oxide:0>, <enderutilities:enderpart:17>, null, <ore:rodSednanite>], 
+[<ore:rodSednanite>, <contenttweaker:infused_sol_stone>, null, <nuclearcraft:fuel_mixed_oxide:0>, null, <contenttweaker:infused_sol_stone>, <ore:rodSednanite>], 
+[<extendedcrafting:singularity:6>, <ore:rodSednanite>, <ore:rodSednanite>, <extendedcrafting:singularity:7>, <ore:rodSednanite>, <ore:rodSednanite>, <extendedcrafting:singularity:0>]]);
 
 mods.recipestages.Recipes.setRecipeStage("draconicstage", <draconicevolution:fusion_crafting_core>);
 

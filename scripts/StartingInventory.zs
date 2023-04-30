@@ -3,7 +3,7 @@ mods.initialinventory.InvHandler.addStartingItem(<immersiveengineering:faraday_s
 mods.initialinventory.InvHandler.addStartingItem(<immersiveengineering:faraday_suit_legs>);
 mods.initialinventory.InvHandler.addStartingItem(<immersiveengineering:faraday_suit_feet>);
 
-mods.initialinventory.InvHandler.addStartingItem(<minecraft:paper>.withTag({display: {Name: "Top left of inventory screen to open questbook"}}));
+mods.initialinventory.InvHandler.addStartingItem(<minecraft:paper>.withTag({display: {Name: "Press 0 to open the quest book"}}));
 mods.initialinventory.InvHandler.addStartingItem(<minecraft:paper>.withTag({display: {Name: "Initial survival will be hard, play it safe!"}}));
 mods.initialinventory.InvHandler.addStartingItem(<minecraft:paper>.withTag({display: {Name: "You can claim and chunkload areas from top left of inventory screen"}}));
 mods.initialinventory.InvHandler.addStartingItem(<minecraft:paper>.withTag({display: {Name: "Top left of inventory screen has a trash bag"}}));

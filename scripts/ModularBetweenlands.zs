@@ -1,4 +1,20 @@
 import mods.modularmachinery.RecipeBuilder;
+import crafttweaker.enchantments.IEnchantmentDefinition;
+import crafttweaker.data.IData;
+
+
+val enchlistSword as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:minecraft:unbreaking>, <enchantment:minecraft:mending>, <enchantment:minecraft:sweeping>, <enchantment:enderio:witherweapon>];
+var mapSword as IData = {};
+mapSword += enchlistSword[0].makeEnchantment(45).makeTag();
+mapSword += enchlistSword[1].makeEnchantment(3).makeTag();
+mapSword += enchlistSword[2].makeEnchantment(1).makeTag();
+mapSword += enchlistSword[3].makeEnchantment(4).makeTag();
+mapSword += enchlistSword[4].makeEnchantment(3).makeTag();
+var mapSwordOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Sword of the Swamps"}
+};
+mapSword += mapSwordOther;
 
 
 val bot1 = RecipeBuilder.newBuilder("gatevalf1","valonite_gateway",2000);
@@ -47,7 +63,7 @@ bot6.addItemInput(<thebetweenlands:green_middle_gem>*2);
 bot6.addItemInput(<thebetweenlands:crimson_middle_gem>*2);
 bot6.addItemInput(<minecraft:dragon_egg>*2);
 bot6.addItemInput(<minecraft:nether_star>*2);
-bot6.addItemOutput(<thebetweenlands:shockwave_sword>.withTag({ench: [{lvl: 45 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 3 as short, id: 34 as short},{lvl: 4 as short, id: 22 as short},{lvl: 1 as short, id: 46 as short}], RepairCost: 1, display: {Name: "Sword of the Swamps"}}));
+bot6.addItemOutput(<thebetweenlands:shockwave_sword>.withTag(mapSword));
 bot6.build();
 
 val bot7 = RecipeBuilder.newBuilder("gateval7","valonite_gateway",100);

@@ -43,3 +43,53 @@ true,
 <thebetweenlands:items_crushed:0>,<thebetweenlands:items_crushed:0>,<thebetweenlands:items_crushed:0>,<thebetweenlands:items_crushed:0>]);
 game.setLocalization("ac.ritual.geckoeggcute", "Make a cute gecko"); 
 game.setLocalization("ac.ritual.geckoeggcute.desc", "Cute gecko is cute");
+
+
+val betweenSulfurDict = <ore:oreBetweenSulfur>;
+betweenSulfurDict.add(<thebetweenlands:sulfur_ore>);
+
+
+recipes.addShaped(<contenttweaker:betweenlands_callstone_0>,
+[[<ore:ingotAbyssalnite>, <abyssalcraft:shadowgem>, <ore:ingotAbyssalnite>],
+[<abyssalcraft:shadowgem>, <thebetweenlands:swamp_talisman>.reuse(), <abyssalcraft:shadowgem>],
+[<ore:ingotAbyssalnite>, <abyssalcraft:shadowgem>, <ore:ingotAbyssalnite>]]);
+
+recipes.addShaped(<contenttweaker:betweenlands_callstone_1>,
+[[<ore:ingotSyrmorite>, <thebetweenlands:items_misc:14>, <ore:ingotSyrmorite>],
+[<thebetweenlands:items_misc:14>, <thebetweenlands:swamp_talisman>.reuse(), <thebetweenlands:items_misc:14>],
+[<ore:ingotSyrmorite>, <thebetweenlands:items_misc:14>, <ore:ingotSyrmorite>]]);
+
+recipes.addShaped(<contenttweaker:betweenlands_callstone_2>,
+[[<ore:ingotOctine>, <thebetweenlands:spirit_fruit>, <ore:ingotOctine>],
+[<thebetweenlands:spirit_fruit>, <thebetweenlands:swamp_talisman>.reuse(), <thebetweenlands:spirit_fruit>],
+[<ore:ingotOctine>, <thebetweenlands:spirit_fruit>, <ore:ingotOctine>]]);
+
+recipes.addShaped(<contenttweaker:betweenlands_callstone_3>,
+[[<ore:gemValonite>, <thebetweenlands:chiromaw_wing>, <ore:gemValonite>],
+[<thebetweenlands:chiromaw_wing>, <thebetweenlands:swamp_talisman>.reuse(), <thebetweenlands:chiromaw_wing>],
+[<ore:gemValonite>, <thebetweenlands:chiromaw_wing>, <ore:gemValonite>]]);
+
+recipes.addShaped(<contenttweaker:betweenlands_callstone_4>,
+[[<thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:13>, <thebetweenlands:items_misc:14>],
+[<thebetweenlands:items_misc:13>, <thebetweenlands:swamp_talisman>.reuse(), <thebetweenlands:items_misc:13>],
+[<thebetweenlands:items_misc:14>, <thebetweenlands:items_misc:13>, <thebetweenlands:items_misc:14>]]);
+
+recipes.addShaped(<contenttweaker:betweenlands_callstone_5>,
+[[<ore:gemValonite>, <thebetweenlands:wight_heart>, <ore:gemValonite>],
+[<thebetweenlands:wight_heart>, <thebetweenlands:swamp_talisman>.reuse(), <thebetweenlands:wight_heart>],
+[<ore:gemValonite>, <thebetweenlands:wight_heart>, <ore:gemValonite>]]);
+
+recipes.addShaped(<contenttweaker:betweenlands_callstone_6>,
+[[<ore:ingotOctine>, <thebetweenlands:rock_snot_pearl>, <ore:ingotOctine>],
+[<thebetweenlands:rock_snot_pearl>, <thebetweenlands:swamp_talisman>.reuse(), <thebetweenlands:rock_snot_pearl>],
+[<ore:ingotOctine>, <thebetweenlands:rock_snot_pearl>, <ore:ingotOctine>]]);
+
+recipes.addShaped(<contenttweaker:betweenlands_callstone_7>,
+[[<ore:ingotSyrmorite>, <thebetweenlands:shimmer_stone>, <ore:ingotSyrmorite>],
+[<thebetweenlands:shimmer_stone>, <thebetweenlands:swamp_talisman>.reuse(), <thebetweenlands:shimmer_stone>],
+[<ore:ingotSyrmorite>, <thebetweenlands:shimmer_stone>, <ore:ingotSyrmorite>]]);
+
+recipes.addShaped(<contenttweaker:betweenlands_callstone_8>,
+[[<ore:ingotOctine>, <thebetweenlands:sludge_jello>, <ore:ingotOctine>],
+[<thebetweenlands:sludge_jello>, <thebetweenlands:swamp_talisman>.reuse(), <thebetweenlands:sludge_jello>],
+[<ore:ingotOctine>, <thebetweenlands:sludge_jello>, <ore:ingotOctine>]]);

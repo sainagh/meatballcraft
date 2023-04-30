@@ -61,7 +61,7 @@ recipes.remove(<immersiveengineering:treated_wood:0>);
 
 recipes.addShaped(<immersiveengineering:treated_wood:0>*4,
 [[<ore:vanillaWoodPlanks>, <ore:vanillaWoodPlanks>, <ore:vanillaWoodPlanks>],
-[<ore:vanillaWoodPlanks>, <forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000}), <ore:vanillaWoodPlanks>],
+[<ore:vanillaWoodPlanks>, <fluid:creosote>*1000, <ore:vanillaWoodPlanks>],
 [<ore:vanillaWoodPlanks>, <ore:vanillaWoodPlanks>, <ore:vanillaWoodPlanks>]]);
 
 recipes.remove(<randomthings:blockofsticks:0>);
@@ -189,80 +189,7 @@ recipes.addShaped(<aether_legacy:quicksoil>*4,
 [<minecraft:dirt>, <forestry:peat>, <minecraft:dirt>],
 [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]]);
 
-recipes.addShaped(<bloodmagic:inversion_pillar_end:0>,
-[[<bloodmagic:demon_brick_1:0>, <bloodmagic:demon_brick_1:0>, <bloodmagic:demon_brick_1:0>],
-[<bloodmagic:demon_brick_1:0>, null, <bloodmagic:demon_brick_1:0>],
-[null, null, null]]);
 
-recipes.addShaped(<bloodmagic:inversion_pillar_end:1>,
-[[null, null, null],
-[<bloodmagic:demon_brick_1:0>, null, <bloodmagic:demon_brick_1:0>],
-[<bloodmagic:demon_brick_1:0>, <bloodmagic:demon_brick_1:0>, <bloodmagic:demon_brick_1:0>]]);
-
-recipes.addShaped(<bloodmagic:inversion_pillar_end:2>,
-[[<bloodmagic:demon_brick_1:1>, <bloodmagic:demon_brick_1:1>, <bloodmagic:demon_brick_1:1>],
-[<bloodmagic:demon_brick_1:1>, null, <bloodmagic:demon_brick_1:1>],
-[null, null, null]]);
-
-recipes.addShaped(<bloodmagic:inversion_pillar_end:3>,
-[[null, null, null],
-[<bloodmagic:demon_brick_1:1>, null, <bloodmagic:demon_brick_1:1>],
-[<bloodmagic:demon_brick_1:1>, <bloodmagic:demon_brick_1:1>, <bloodmagic:demon_brick_1:1>]]);
-
-recipes.addShaped(<bloodmagic:inversion_pillar_end:4>,
-[[<bloodmagic:demon_brick_1:2>, <bloodmagic:demon_brick_1:2>, <bloodmagic:demon_brick_1:2>],
-[<bloodmagic:demon_brick_1:2>, null, <bloodmagic:demon_brick_1:2>],
-[null, null, null]]);
-
-recipes.addShaped(<bloodmagic:inversion_pillar_end:5>,
-[[null, null, null],
-[<bloodmagic:demon_brick_1:2>, null, <bloodmagic:demon_brick_1:2>],
-[<bloodmagic:demon_brick_1:2>, <bloodmagic:demon_brick_1:2>, <bloodmagic:demon_brick_1:2>]]);
-
-recipes.addShaped(<bloodmagic:inversion_pillar_end:6>,
-[[<bloodmagic:demon_brick_1:3>, <bloodmagic:demon_brick_1:3>, <bloodmagic:demon_brick_1:3>],
-[<bloodmagic:demon_brick_1:3>, null, <bloodmagic:demon_brick_1:3>],
-[null, null, null]]);
-
-recipes.addShaped(<bloodmagic:inversion_pillar_end:7>,
-[[null, null, null],
-[<bloodmagic:demon_brick_1:3>, null, <bloodmagic:demon_brick_1:3>],
-[<bloodmagic:demon_brick_1:3>, <bloodmagic:demon_brick_1:3>, <bloodmagic:demon_brick_1:3>]]);
-
-recipes.addShaped(<bloodmagic:inversion_pillar_end:8>,
-[[<bloodmagic:demon_brick_1:4>, <bloodmagic:demon_brick_1:4>, <bloodmagic:demon_brick_1:4>],
-[<bloodmagic:demon_brick_1:4>, null, <bloodmagic:demon_brick_1:4>],
-[null, null, null]]);
-
-recipes.addShaped(<bloodmagic:inversion_pillar_end:9>,
-[[null, null, null],
-[<bloodmagic:demon_brick_1:4>, null, <bloodmagic:demon_brick_1:4>],
-[<bloodmagic:demon_brick_1:4>, <bloodmagic:demon_brick_1:4>, <bloodmagic:demon_brick_1:4>]]);
-
-recipes.addShaped(<bloodmagic:inversion_pillar:0>,
-[[null, <bloodmagic:inversion_pillar_end:0>, null],
-[null, null, null],
-[null, <bloodmagic:inversion_pillar_end:1>, null]]);
-
-recipes.addShaped(<bloodmagic:inversion_pillar:1>,
-[[null, <bloodmagic:inversion_pillar_end:2>, null],
-[null, null, null],
-[null, <bloodmagic:inversion_pillar_end:3>, null]]);
-
-recipes.addShaped(<bloodmagic:inversion_pillar:2>,
-[[null, <bloodmagic:inversion_pillar_end:4>, null],
-[null, null, null],
-[null, <bloodmagic:inversion_pillar_end:5>, null]]);
-
-recipes.addShaped(<bloodmagic:inversion_pillar:3>,
-[[null, <bloodmagic:inversion_pillar_end:6>, null],
-[null, null, null],
-[null, <bloodmagic:inversion_pillar_end:7>, null]]);
-
-recipes.addShaped(<bloodmagic:inversion_pillar:4>,
-[[null, <bloodmagic:inversion_pillar_end:8>, null],
-[null, null, null],
-[null, <bloodmagic:inversion_pillar_end:9>, null]]);
 
 mods.techreborn.vacuumFreezer.addRecipe(<aether_legacy:aercloud:1>, <aether_legacy:aercloud:0>, 100, 1);
 
@@ -296,14 +223,7 @@ recipes.addShaped(<divinerpg:netherite_bricks>*8,
 [<minecraft:brick_block>, <divinerpg:netherite_ingot>, <minecraft:brick_block>],
 [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]);
 
-recipes.addShapeless(<thaumadditions:mithrillium_plate>,
-[<thaumadditions:mithrillium_plate>]);
 
-recipes.addShapeless(<thaumadditions:adaminite_plate>,
-[<thaumadditions:adaminite_plate>]);
-
-recipes.addShapeless(<thaumadditions:mithminite_plate>,
-[<thaumadditions:mithminite_plate>]);
 
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_color_lens>);
 
@@ -501,3 +421,17 @@ recipes.addShaped(<natura:darkwood_trap_door>*2,
 [null, <natura:nether_planks:2>, null]]);
 
 recipes.remove(<xreliquary:rod_of_lyssa>);
+
+recipes.addShaped(<contenttweaker:enhanced_chaos_shard>,
+[[<contenttweaker:enhanced_chaos_fragment>, <contenttweaker:enhanced_chaos_fragment>, <contenttweaker:enhanced_chaos_fragment>],
+[<contenttweaker:enhanced_chaos_fragment>, <contenttweaker:enhanced_chaos_fragment>, <contenttweaker:enhanced_chaos_fragment>],
+[<contenttweaker:enhanced_chaos_fragment>, <contenttweaker:enhanced_chaos_fragment>, <contenttweaker:enhanced_chaos_fragment>]]);
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<ore:ingotCopper>, <ore:ingotAluminum>*3, <tconstruct:ingots:5>*4]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:petrotheum>*125, <fluid:stone>*72, <fluid:crude_oil>*250, null]);
+
+recipes.addShaped(<techreborn:nuke>,
+[[<minecraft:gunpowder>, <nuclearcraft:fuel_uranium:7>, <minecraft:gunpowder>],
+[<nuclearcraft:fuel_uranium:7>, <minecraft:gunpowder>, <nuclearcraft:fuel_uranium:7>],
+[<minecraft:gunpowder>, <nuclearcraft:fuel_uranium:7>, <minecraft:gunpowder>]]);

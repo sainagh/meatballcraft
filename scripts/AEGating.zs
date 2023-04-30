@@ -331,3 +331,5 @@ Inscriber.addRecipe(<appliedenergistics2:material:59>,
 
 // summon iceandfire:dread_knight ~ ~8 ~ {HandItems:[{Count:1,id:"aoa3:shadow_sword"},{Count:1,id:"contenttweaker:medal_of_freedom"}],HandDropChances:[1.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:300.0}],Health:10000f,CustomName:"Shade of the Meatball Man"}
 
+recipes.remove(<extracells:terminal.fluid.wireless>);
+recipes.remove(<extracells:terminal.universal.wireless>);

@@ -303,53 +303,86 @@ chick50.build();
 val chick51 = RecipeBuilder.newBuilder("chick51","mechanized_coop",480);
 chick51.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:pshardchicken"}}));
 chick51.setChance(0.0);
-chick51.addItemOutput(<minecraft:prismarine_shard>*64);
+chick51.addItemOutput(<minecraft:prismarine_shard>*16);
+chick51.addItemOutput(<minecraft:prismarine_shard>*16);
+chick51.addItemOutput(<minecraft:prismarine_shard>*16);
+chick51.addItemOutput(<minecraft:prismarine_shard>*16);
 chick51.build();
 
 val chick52 = RecipeBuilder.newBuilder("chick52","mechanized_coop",480);
 chick52.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:stringchicken"}}));
 chick52.setChance(0.0);
-chick52.addItemOutput(<minecraft:string>*64);
+chick52.addItemOutput(<minecraft:string>*16);
+chick52.addItemOutput(<minecraft:string>*16);
+chick52.addItemOutput(<minecraft:string>*16);
+chick52.addItemOutput(<minecraft:string>*16);
 chick52.build();
 
 val chick53 = RecipeBuilder.newBuilder("chick53","mechanized_coop",480);
 chick53.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:emeraldchicken"}}));
 chick53.setChance(0.0);
-chick53.addItemOutput(<minecraft:emerald>*64);
+chick53.addItemOutput(<minecraft:emerald>*16);
+chick53.addItemOutput(<minecraft:emerald>*16);
+chick53.addItemOutput(<minecraft:emerald>*16);
+chick53.addItemOutput(<minecraft:emerald>*16);
 chick53.build();
 
 val chick54 = RecipeBuilder.newBuilder("chick54","mechanized_coop",480);
 chick54.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:glasschicken"}}));
 chick54.setChance(0.0);
-chick54.addItemOutput(<minecraft:glass>*64);
+chick54.addItemOutput(<minecraft:glass>*16);
+chick54.addItemOutput(<minecraft:glass>*16);
+chick54.addItemOutput(<minecraft:glass>*16);
+chick54.addItemOutput(<minecraft:glass>*16);
 chick54.build();
 
 val chick55 = RecipeBuilder.newBuilder("chick55","mechanized_coop",480);
 chick55.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:waterchicken"}}));
 chick55.setChance(0.0);
-chick55.addItemOutput(<chickens:liquid_egg:0>*64);
+chick55.addItemOutput(<chickens:liquid_egg:0>*16);
+chick55.addItemOutput(<chickens:liquid_egg:0>*16);
+chick55.addItemOutput(<chickens:liquid_egg:0>*16);
+chick55.addItemOutput(<chickens:liquid_egg:0>*16);
 chick55.build();
 
 val chick56 = RecipeBuilder.newBuilder("chick56","mechanized_coop",480);
 chick56.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:slimechicken"}}));
 chick56.setChance(0.0);
-chick56.addItemOutput(<minecraft:slime_ball>*64);
+chick56.addItemOutput(<minecraft:slime_ball>*16);
+chick56.addItemOutput(<minecraft:slime_ball>*16);
+chick56.addItemOutput(<minecraft:slime_ball>*16);
+chick56.addItemOutput(<minecraft:slime_ball>*16);
 chick56.build();
 
 val chick57 = RecipeBuilder.newBuilder("chick57","mechanized_coop",480);
 chick57.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:pcrystalchicken"}}));
 chick57.setChance(0.0);
-chick57.addItemOutput(<minecraft:prismarine_crystals>*64);
+chick57.addItemOutput(<minecraft:prismarine_crystals>*16);
+chick57.addItemOutput(<minecraft:prismarine_crystals>*16);
+chick57.addItemOutput(<minecraft:prismarine_crystals>*16);
+chick57.addItemOutput(<minecraft:prismarine_crystals>*16);
 chick57.build();
 
 val chick58 = RecipeBuilder.newBuilder("chick58","mechanized_coop",480);
 chick58.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:gunpowderchicken"}}));
 chick58.setChance(0.0);
-chick58.addItemOutput(<minecraft:gunpowder>*64);
+chick58.addItemOutput(<minecraft:gunpowder>*16);
+chick58.addItemOutput(<minecraft:gunpowder>*16);
+chick58.addItemOutput(<minecraft:gunpowder>*16);
+chick58.addItemOutput(<minecraft:gunpowder>*16);
 chick58.build();
 
 val chick59 = RecipeBuilder.newBuilder("chick59","mechanized_coop",480);
 chick59.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:lavachicken"}}));
 chick59.setChance(0.0);
-chick59.addItemOutput(<chickens:liquid_egg:1>*64);
+chick59.addItemOutput(<chickens:liquid_egg:1>*16);
+chick59.addItemOutput(<chickens:liquid_egg:1>*16);
+chick59.addItemOutput(<chickens:liquid_egg:1>*16);
+chick59.addItemOutput(<chickens:liquid_egg:1>*16);
 chick59.build();
+
+val chick60 = RecipeBuilder.newBuilder("chick60","mechanized_coop",480);
+chick60.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:elecanium_chicken"}}));
+chick60.setChance(0.0);
+chick60.addItemOutput(<contenttweaker:elecanium_egg>*16);
+chick60.build();

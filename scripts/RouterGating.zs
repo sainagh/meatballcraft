@@ -23,5 +23,5 @@ recipes.remove(<modularrouters:module:13>);
 
 recipes.addShaped(<modularrouters:module:13>,
 [[null, <bewitchment:cold_iron_chestplate>, null],
-[<modularrouters:module:7>, <contenttweaker:ayeraco_scale>, <modularrouters:module:9>],
+[<modularrouters:module:7>, <divinerpg:arksiane_lump>, <modularrouters:module:9>],
 [null, <bewitchment:cold_iron_helmet>, null]]);

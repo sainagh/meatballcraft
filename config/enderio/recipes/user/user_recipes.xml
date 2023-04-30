@@ -28,15 +28,6 @@
     </alloying>
   </recipe>
 
-  <recipe name="Alloy: bettermithril, Variant: mithessence" required="false">
-    <alloying energy="2000" exp="0.1">
-      <input name="ingotColdIron"/>
-      <input name="essenceMithril" amount="4"/>
-      <input name="plateRhinoBeetle"/>
-      <output name="ingotMithril" amount="16"/>
-    </alloying>
-  </recipe>
-
   <recipe name="Alloy: vibranium, Variant: base" required="false">
     <alloying energy="20000" exp="0.1">
       <input name="ingotBaronyte"/>

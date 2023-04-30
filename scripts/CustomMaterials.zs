@@ -420,3 +420,15 @@ promethium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
 var moltenpromethium = promethium.registerPart("molten").getData();
 moltenpromethium.addDataValue("temperature", "800");
 moltenpromethium.addDataValue("luminosity", "12");
+
+var colordamascus = Color.fromHex("c9cad4") as Color;
+var damascussteel = MaterialSystem.getMaterialBuilder().setName("Sideral Damascus Steel").setColor(colordamascus).build();
+damascussteel.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var moltendamascussteel = damascussteel.registerPart("molten").getData();
+moltendamascussteel.addDataValue("temperature", "800");
+moltendamascussteel.addDataValue("luminosity", "12");
+var armordamascussteel = damascussteel.registerPart("armor").getData();
+armordamascussteel.addDataValue("durability", "950000");
+armordamascussteel.addDataValue("enchantability", "100");
+armordamascussteel.addDataValue("reduction", "10,12,17,9");
+armordamascussteel.addDataValue("toughness", "25");

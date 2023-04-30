@@ -134,9 +134,9 @@ recipes.removeShaped(<nuclearcraft:fusion_connector>);
 mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:fusion_connector>, 
 [[<bewitchment:ink_cap_dye>, <thermalfoundation:material:160>, <contenttweaker:superfused_alloy_ingot>, <nuclearcraft:part:2>, <contenttweaker:superfused_alloy_ingot>, <thermalfoundation:material:160>, <bewitchment:ink_cap_dye>], 
 [<thermalfoundation:material:160>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:1>, <thermalfoundation:material:160>], 
-[<contenttweaker:superfused_alloy_ingot>, <nuclearcraft:alloy:1>, <bewitchment:catechu_brown>, <thermalfoundation:material:128>, <bewitchment:catechu_brown>, <nuclearcraft:alloy:1>, <contenttweaker:superfused_alloy_ingot>], 
-[<nuclearcraft:part:2>, <nuclearcraft:alloy:1>, <thermalfoundation:material:128>, <nuclearcraft:part:12>, <thermalfoundation:material:128>, <nuclearcraft:alloy:1>, <nuclearcraft:part:2>], 
-[<contenttweaker:superfused_alloy_ingot>, <nuclearcraft:alloy:1>, <bewitchment:catechu_brown>, <thermalfoundation:material:128>, <bewitchment:catechu_brown>, <nuclearcraft:alloy:1>, <contenttweaker:superfused_alloy_ingot>], 
+[<contenttweaker:superfused_alloy_ingot>, <nuclearcraft:alloy:1>, <bewitchment:catechu_brown>, <magicbees:wax:2>, <bewitchment:catechu_brown>, <nuclearcraft:alloy:1>, <contenttweaker:superfused_alloy_ingot>], 
+[<nuclearcraft:part:2>, <nuclearcraft:alloy:1>, <magicbees:wax:2>, <nuclearcraft:part:12>, <magicbees:wax:2>, <nuclearcraft:alloy:1>, <nuclearcraft:part:2>], 
+[<contenttweaker:superfused_alloy_ingot>, <nuclearcraft:alloy:1>, <bewitchment:catechu_brown>, <magicbees:wax:2>, <bewitchment:catechu_brown>, <nuclearcraft:alloy:1>, <contenttweaker:superfused_alloy_ingot>], 
 [<thermalfoundation:material:160>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:1>, <thermalfoundation:material:160>], 
 [<bewitchment:ink_cap_dye>, <thermalfoundation:material:160>, <contenttweaker:superfused_alloy_ingot>, <nuclearcraft:part:2>, <contenttweaker:superfused_alloy_ingot>, <thermalfoundation:material:160>, <bewitchment:ink_cap_dye>]]);  
 
@@ -214,7 +214,10 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:salt_fission_wall>*4
 [<thermalfoundation:material:131>, <erebus:materials:0>, <thebetweenlands:items_misc:11>, <tconstruct:large_plate>.withTag({Material: "dreadium"}), <thebetweenlands:items_misc:11>, <erebus:materials:0>, <thermalfoundation:material:131>], 
 [<bigreactors:ingotcyanite>, <thermalfoundation:material:131>, <nuclearcraft:part:2>, <contenttweaker:tellurium_crystal>, <nuclearcraft:part:2>, <thermalfoundation:material:131>, <bigreactors:ingotcyanite>]]);  
 
-mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:ogerite_crystal_lattice>, <contenttweaker:nightfly_egg>, <contenttweaker:meatball>, 10, <contenttweaker:nightfly_egg>, 100, 10);
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<contenttweaker:ogerite_crystal_lattice>, 
+<contenttweaker:nightfly_egg>, 
+<contenttweaker:meatball>, 10, 
+<contenttweaker:nightfly_egg>, 100, 10);
 
 mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:salt_fission_wall>*8, 
 [[<bigreactors:ingotcyanite>, <thermalfoundation:material:131>, <nuclearcraft:part:2>, <contenttweaker:tellurium_crystal>, <nuclearcraft:part:2>, <thermalfoundation:material:131>, <bigreactors:ingotcyanite>], 
@@ -265,12 +268,12 @@ recipes.addShaped(<nuclearcraft:part:3>,
 
 recipes.removeShaped(<nuclearcraft:active_cooler>);
 
-recipes.addShaped(<nuclearcraft:active_cooler>*8,
+recipes.addShaped(<nuclearcraft:active_cooler>*6,
 [[<nuclearcraft:part:0>, <extendedcrafting:singularity:17>, <nuclearcraft:part:0>],
 [<ore:ingotManganeseOxide>, <minecraft:cauldron>, <ore:ingotManganeseOxide>],
 [<nuclearcraft:part:0>, <extendedcrafting:singularity:18>, <nuclearcraft:part:0>]]);
 
-recipes.addShaped(<nuclearcraft:active_cooler>*16,
+recipes.addShaped(<nuclearcraft:active_cooler>*12,
 [[<nuclearcraft:part:0>, <extendedcrafting:singularity:17>, <nuclearcraft:part:0>],
 [<contenttweaker:divine_star>, <minecraft:cauldron>, <contenttweaker:divine_star>],
 [<nuclearcraft:part:0>, <extendedcrafting:singularity:18>, <nuclearcraft:part:0>]]);
@@ -614,3 +617,10 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_
 <contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
 <aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <contenttweaker:adamantium_plate>]]);  
 
+
+recipes.removeShaped(<nuclearcraft:buffer>);
+
+recipes.addShaped(<nuclearcraft:buffer>*4,
+[[<nuclearcraft:fission_block>, <nuclearcraft:depleted_fuel_uranium:4>, <nuclearcraft:fission_block>],
+[<nuclearcraft:depleted_fuel_uranium:4>, <extendedcrafting:singularity:23>, <nuclearcraft:depleted_fuel_uranium:4>],
+[<nuclearcraft:fission_block>, <nuclearcraft:depleted_fuel_uranium:4>, <nuclearcraft:fission_block>]]);

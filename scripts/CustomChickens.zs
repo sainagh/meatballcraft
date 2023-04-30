@@ -1,4 +1,4 @@
-#loader contenttweaker
+#loader preinit 
 #modloaded chickens
 
 import mods.contenttweaker.VanillaFactory;
@@ -285,3 +285,36 @@ var osmiumchicken = ChickenFactory.createChicken("osmium_chicken", Color.fromHex
 osmiumchicken.setForegroundColor(Color.fromHex("388a2e"));
 osmiumchicken.setSpawnType("NONE");
 osmiumchicken.register();
+
+var strontiumchicken = ChickenFactory.createChicken("strontium_chicken", Color.fromHex("263073"), <item:contenttweaker:strontium_egg>);
+strontiumchicken.setForegroundColor(Color.fromHex("388a2e"));
+strontiumchicken.setSpawnType("NONE");
+strontiumchicken.register();
+
+var caesiumchicken = ChickenFactory.createChicken("caesium_chicken", Color.fromHex("263073"), <item:contenttweaker:caesium_egg>);
+caesiumchicken.setForegroundColor(Color.fromHex("388a2e"));
+caesiumchicken.setSpawnType("NONE");
+caesiumchicken.register();
+
+var rubidiumchicken = ChickenFactory.createChicken("rubidium_chicken", Color.fromHex("263073"), <item:contenttweaker:rubidium_egg>);
+rubidiumchicken.setForegroundColor(Color.fromHex("388a2e"));
+rubidiumchicken.setSpawnType("NONE");
+rubidiumchicken.register();
+
+var ghastlychicken = ChickenFactory.createChicken("ghastly_chicken", Color.fromHex("263073"), <item:contenttweaker:ghastly_egg>);
+ghastlychicken.setForegroundColor(Color.fromHex("388a2e"));
+ghastlychicken.setSpawnType("NONE");
+ghastlychicken.register();
+
+var ghoulishchicken = ChickenFactory.createChicken("ghoulish_chicken", Color.fromHex("263073"), <item:contenttweaker:ghoulish_egg>);
+ghoulishchicken.setForegroundColor(Color.fromHex("388a2e"));
+ghoulishchicken.setSpawnType("NONE");
+ghoulishchicken.register();
+
+var hassiumchicken = ChickenFactory.createChicken("hassium_chicken", Color.fromHex("263073"), <item:contenttweaker:hassium_egg>);
+hassiumchicken.setForegroundColor(Color.fromHex("388a2e"));
+hassiumchicken.setSpawnType("NONE");
+hassiumchicken.register();
+
+
+

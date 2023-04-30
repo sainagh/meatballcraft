@@ -1,0 +1,13 @@
+{
+	x: -5.5d,
+	y: 1.5d,
+	description: "You should switch to better questing, this questbook will be removed in next update!",
+	text: [
+		"New players, you should not be using this questbook!"
+	],
+	tasks: [{
+		uid: "4ec3751d",
+		type: "checkmark",
+		title: "DON'T USE FTBQUESTS"
+	}]
+}

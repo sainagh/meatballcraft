@@ -76,8 +76,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:nether_star>*3,
 
 mods.botania.ElvenTrade.addRecipe([<contenttweaker:botanic_alchemic_catalyst>], [<contenttweaker:inert_botanic_alchemic_catalyst>]);
 
-mods.enderio.AlloySmelter.addRecipe(<thermalfoundation:material:136>*16, 
-[<bewitchment:cold_iron_ingot>, <mysticalagriculture:mithril_essence>*4, <erebus:materials:35>]);
 
 
 mods.abyssalcraft.InfusionRitual.addRitual("MakeTartariteInf", 

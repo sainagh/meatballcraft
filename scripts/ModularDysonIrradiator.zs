@@ -214,7 +214,7 @@ mods.thaumcraft.Infusion.registerRecipe("infinityseedinfusion", "", <contenttwea
 
 mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:innerved_infinity_seed>, <contenttweaker:infinity_seed>, 0, 20,30,40);
 
-mods.thermalexpansion.Insolator.addRecipe(<contenttweaker:infinity_sprout>,
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<contenttweaker:infinity_sprout>,
  <contenttweaker:innerved_infinity_seed>, 
  <avaritia:resource:6>, 
  25000, 

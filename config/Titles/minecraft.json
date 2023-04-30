@@ -1,0 +1,56 @@
+{
+  "COMMON": [
+    "story/root",
+    "story/mine_stone",
+    "story/iron_tools",
+    "story/obtain_armor",
+    "story/deflect_arrow",
+    "story/enter_the_nether",
+    "story/enchant_item",
+    "story/enter_the_end",
+
+    "husbandry/root",
+    "husbandry/breed_an_animal",
+    "husbandry/tame_an_animal",
+
+    "adventure/root",
+    "adventure/kill_a_mob",
+    "adventure/trade",
+    "adventure/shoot_arrow",
+    "adventure/summon_iron_golem",
+
+    "nether/fast_travel",
+    "nether/brew_potion",
+
+    "end/kill dragon",
+    "end/enter_end_gateway"
+  ],
+  "UNCOMMON": [
+    "story/cure_zombie_villager",
+
+    "adventure/totem_of_undying",
+
+    "nether/create_full_beacon",
+
+    "end/dragon_egg",
+    "end/respawn_dragon",
+    "end/dragon_breath",
+    "end/elytra"
+  ],
+  "RARE": [
+    "husbandry/bred_all_animals",
+    "husbandry/balanced_diet",
+    "husbandry/break_diamond_hoe",
+
+    "adventure/kill_all_mobs",
+    "adventure/adventuring_time",
+    "adventure/sniper_duel",
+
+    "nether/return_to_sender",
+    "nether/uneasy_alliance",
+    "nether/all_potions",
+    "nether/all_effects",
+
+    "end/levitate"
+  ]
+}

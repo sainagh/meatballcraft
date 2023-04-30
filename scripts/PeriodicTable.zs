@@ -21,13 +21,13 @@ mods.nuclearcraft.centrifuge.addRecipe([<fluid:supercooled_noble_gas_mix>*100, <
 
 mods.nuclearcraft.rock_crusher.addRecipe([<abyssalcraft:crystal:21>, <contenttweaker:silica_dust>*4, null, null]);
 
-mods.nuclearcraft.infuser.addRecipe([<contenttweaker:silica_dust>, <fluid:hydrated_gelatin>*72, <contenttweaker:silica_gelatin>*4, 0.5, 0.6, 0.4]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:silica_dust>, <fluid:hydrated_gelatin>*72, <contenttweaker:silica_gelatin>*4]);
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:silica_gelatin>, <fluid:krypton_xenon_mix>*10, <contenttweaker:krypton_xenon_capture>, 0.5, 0.6, 0.4]);
 
-mods.nuclearcraft.extractor.addRecipe([<contenttweaker:krypton_xenon_capture>, <contenttweaker:krypton_capture>, <fluid:xenon>*5]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:krypton_xenon_capture>, <contenttweaker:krypton_capture>, <fluid:xenon>*100]);
 
-mods.nuclearcraft.extractor.addRecipe([<contenttweaker:krypton_capture>, <abyssalcraft:crystalshard:21>, <fluid:krypton>*5]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:krypton_capture>, <abyssalcraft:crystalshard:21>, <fluid:krypton>*100]);
 
 // making silicon
 
@@ -171,7 +171,7 @@ recipes.addShaped(<contenttweaker:crystalline_beryllium>,
 [<contenttweaker:beryllium_fluoride_crystal>, <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "resource:emeryllis_plant", agri_growth: 10 as byte}), <contenttweaker:beryllium_fluoride_crystal>], 
 [<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>]]);  
 
-mods.techreborn.fusionReactor.addRecipe(<contenttweaker:crystalline_beryllium>, <nuclearcraft:ingot:10>, <contenttweaker:ruthenium_ingot>, 1000000, 100000, 120);
+mods.techreborn.fusionReactor.addRecipe(<contenttweaker:crystalline_beryllium>, <nuclearcraft:ingot:10>, <contenttweaker:ruthenium_ingot>, 1000000, 100, 120);
 
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:ruthenium_ingot>, <fluid:molten_ruthenium>*144]);
 
@@ -249,7 +249,7 @@ mods.nuclearcraft.melter.addRecipe([<extrautils2:decorativesolid:8>, <fluid:mess
 
 mods.nuclearcraft.infuser.addRecipe([<thermalfoundation:ore:8>, <fluid:messy_rainbow_fluid> * 100, <contenttweaker:hafnium_chunk>]);
 
-mods.nuclearcraft.infuser.addRecipe([<astralsorcery:blockcustomore:1>, <fluid:messy_rainbow_fluid> * 100, <contenttweaker:tantalum_chunk>]);
+mods.nuclearcraft.infuser.addRecipe([<astralsorcery:blockcustomore:1>, <fluid:messy_rainbow_fluid> * 100, <contenttweaker:tantalum_chunk>*3]);
 
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:hafnium_chunk>, <fluid:hafnium>*144]);
 
@@ -304,7 +304,7 @@ mods.nuclearcraft.electrolyser.addRecipe([<fluid:rutherfordium_chloride>*50, <fl
 
 // making dubnium
 
-mods.nuclearcraft.fusion.addRecipe([<fluid:americium_243>*10, <fluid:neon>*10, <fluid:dubnium>*100, <fluid:neutron>*100, null, null, 200.0, 200000.0, 14555.0, 0.1]);
+mods.nuclearcraft.fusion.addRecipe([<fluid:americium_243>*10, <fluid:neon>*10, <fluid:dubnium>*100, <fluid:neutron>*100, null, null, 200.0, 200.0, 14555.0, 0.1]);
 
 // making bohrium
 
@@ -591,22 +591,31 @@ mods.nuclearcraft.crystallizer.addRecipe([<fluid:primed_technetium>*10, <content
 // making tennessine
 
 mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<divinerpg:teaker_lump>, <contenttweaker:tennessine_gem> % 10);
+furnace.addRecipe(<enderio:item_material:20>, <divinerpg:teaker_lump>, 1.0);
 
 mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<divinerpg:amthirmis_lump>, <contenttweaker:tennessine_gem> % 15);
+furnace.addRecipe(<enderio:item_material:20>, <divinerpg:amthirmis_lump>, 1.0);
 
 mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<divinerpg:darven_lump>, <contenttweaker:tennessine_gem> % 20);
+furnace.addRecipe(<enderio:item_material:20>, <divinerpg:darven_lump>, 1.0);
 
 mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<divinerpg:cermile_lump>, <contenttweaker:tennessine_gem> % 40);
+furnace.addRecipe(<enderio:item_material:20>, <divinerpg:cermile_lump>, 1.0);
 
 mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<divinerpg:pardimal_lump>, <contenttweaker:tennessine_gem> % 50);
+furnace.addRecipe(<enderio:item_material:20>, <divinerpg:pardimal_lump>, 1.0);
 
 mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<divinerpg:quadrotic_lump>, <contenttweaker:tennessine_gem> % 60);
+furnace.addRecipe(<enderio:item_material:20>, <divinerpg:quadrotic_lump>, 1.0);
 
 mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<divinerpg:karos_lump>, <contenttweaker:tennessine_gem> % 70);
+furnace.addRecipe(<enderio:item_material:20>, <divinerpg:karos_lump>, 1.0);
 
 mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<divinerpg:heliosis_lump>, <contenttweaker:tennessine_gem> % 80);
+furnace.addRecipe(<enderio:item_material:20>, <divinerpg:heliosis_lump>, 1.0);
 
 mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<divinerpg:arksiane_lump>, <contenttweaker:tennessine_gem> % 90);
+furnace.addRecipe(<enderio:item_material:20>, <divinerpg:arksiane_lump>, 1.0);
 
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:tennessine_gem>, <fluid:tennessine>*400]);
 

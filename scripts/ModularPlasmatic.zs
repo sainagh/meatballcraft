@@ -287,3 +287,46 @@ plasmagravitite.addItemInput(<aoa3:runium_ore>*2);
 plasmagravitite.addItemOutput(<contenttweaker:dense_gravitite_ore>*2);
 plasmagravitite.build();
 
+val plasmagreckon = RecipeBuilder.newBuilder("plasmagreckon","plasmatic_condenser",20);
+plasmagreckon.addFluidInput(<fluid:dense_plasma>*160000);
+plasmagreckon.addItemInput(<materialpart:chaos:ingot>*16);
+plasmagreckon.addItemInput(<aoa3:greckon_tokens>*64);
+plasmagreckon.addItemInput(<contenttweaker:skythern_core>*4);
+plasmagreckon.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:ghastly_chicken"}}));
+plasmagreckon.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:ghoulish_chicken"}}));
+plasmagreckon.build();
+
+val plasmadustopia = RecipeBuilder.newBuilder("plasmadustopia","plasmatic_condenser",20);
+plasmadustopia.addFluidInput(<fluid:dense_plasma>*160000);
+plasmadustopia.addItemInput(<materialpart:chaos:ingot>*16);
+plasmadustopia.addItemInput(<aoa3:dustopia_tokens>*64);
+plasmadustopia.addItemInput(<contenttweaker:skythern_core>*4);
+plasmadustopia.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:strontium_chicken"}}));
+plasmadustopia.build();
+
+val plasmaancientcavern = RecipeBuilder.newBuilder("plasmaancientcavern","plasmatic_condenser",20);
+plasmaancientcavern.addFluidInput(<fluid:dense_plasma>*160000);
+plasmaancientcavern.addItemInput(<materialpart:chaos:ingot>*16);
+plasmaancientcavern.addItemInput(<contenttweaker:goldorth_golden_eye>);
+plasmaancientcavern.addItemInput(<contenttweaker:coniferon_bark>);
+plasmaancientcavern.addItemInput(<contenttweaker:penumbra_spike>);
+plasmaancientcavern.addItemInput(<contenttweaker:horon_tendon>);
+plasmaancientcavern.addItemInput(<contenttweaker:skythern_core>*4);
+plasmaancientcavern.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:caesium_chicken"}}));
+plasmaancientcavern.build();
+
+val plasmaimmortallis = RecipeBuilder.newBuilder("plasmaimmortallis","plasmatic_condenser",20);
+plasmaimmortallis.addFluidInput(<fluid:dense_plasma>*160000);
+plasmaimmortallis.addItemInput(<materialpart:chaos:ingot>*16);
+plasmaimmortallis.addItemInput(<aoa3:dungeon_tokens>*5);
+plasmaimmortallis.addItemInput(<contenttweaker:skythern_core>*4);
+plasmaimmortallis.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:rubidium_chicken"}}));
+plasmaimmortallis.build();
+
+val plasmavethea = RecipeBuilder.newBuilder("plasmavethea","plasmatic_condenser",20);
+plasmavethea.addFluidInput(<fluid:dense_plasma>*160000);
+plasmavethea.addItemInput(<materialpart:chaos:ingot>*16);
+plasmavethea.addItemInput(<divinerpg:arksiane_lump>*5);
+plasmavethea.addItemInput(<contenttweaker:skythern_core>*4);
+plasmavethea.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:hassium_chicken"}}));
+plasmavethea.build();

@@ -447,10 +447,9 @@ crucuu.addItemInput(<techreborn:uumatter>);
 crucuu.addFluidOutput(<fluid:liquid_uu_matter>*100);
 crucuu.build();
 
-mods.techreborn.extractor.addRecipe(<contenttweaker:dragons_blood_plastic>*3, 
-<bewitchment:dragons_blood_resin>, 
-100, 
-256);
+
+mods.thermalexpansion.Sawmill.addRecipe(<contenttweaker:dragons_blood_plastic>*3, <bewitchment:dragons_blood_resin>, 543);
+
 
 val spatcruc = RecipeBuilder.newBuilder("spatialcruc","spatial_crucible",200);
 spatcruc.addEnergyPerTickInput(100000);
@@ -735,6 +734,7 @@ jewelruniumgrav.addItemInput(<aoa3:jewelyte>);
 jewelruniumgrav.addItemInput(<aoa3:gemenyte>);
 jewelruniumgrav.addItemInput(<aoa3:ornamyte>);
 jewelruniumgrav.addItemInput(<aoa3:charged_runium_chunk>);
+jewelruniumgrav.addItemInput(<ore:dustIron>);
 jewelruniumgrav.addItemOutput(<contenttweaker:jeweled_runium>);
 jewelruniumgrav.build();
 
@@ -1232,10 +1232,15 @@ mythicmachineautoinf1.addItemInput(<contenttweaker:advanced_mythic_electronic_ci
 mythicmachineautoinf1.addItemOutput(<contenttweaker:mythic_machine_case>*8);
 mythicmachineautoinf1.build();
 
-recipes.addShaped(<contenttweaker:mythic_machine_case>,
-[[<contenttweaker:lyonite_plate>,<aoa3:glaring_infusion_stone>,<contenttweaker:lyonite_plate>],
-[<aoa3:ambient_infusion_stone>,<contenttweaker:vibranium_servo>,<aoa3:ambient_infusion_stone>],
-[<contenttweaker:lyonite_plate>,<aoa3:glaring_infusion_stone>,<contenttweaker:lyonite_plate>]]);
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_machine_case>, 
+[[null, null, <contenttweaker:supertranslucent_catalyst>, null, null], 
+[null, <contenttweaker:lyonite_plate>,<aoa3:glaring_infusion_stone>,<contenttweaker:lyonite_plate>, null], 
+[<contenttweaker:arc_coil>, <aoa3:ambient_infusion_stone>,<contenttweaker:vibranium_servo>,<aoa3:ambient_infusion_stone>, <contenttweaker:arc_coil>], 
+[null, <contenttweaker:lyonite_plate>,<aoa3:glaring_infusion_stone>,<contenttweaker:lyonite_plate>, null], 
+[null, null, <contenttweaker:supertranslucent_catalyst>, null, null]]);  
+
+
+
 
 recipes.addShaped(<contenttweaker:vibranium_servo>*2,
 [[<ore:nuggetUltimate>,<ore:gearVibraniumAlloy>,<ore:nuggetUltimate>],
@@ -2317,25 +2322,48 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:collapser_conduit>
 <contenttweaker:primordial_star>, <contenttweaker:eden_refined_gem>, <contenttweaker:primordial_star>, 
 <contenttweaker:primordial_star>, <nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:electromagnet_supercooler_idle>]]);  
 
+recipes.addShaped(<contenttweaker:fluctuatite_stabilizer>,
+[[<materialpart:fluctuatite:rod>, <materialpart:fluctuatite:rod>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fluctus"}]})],
+[null, <ore:rodSednanite>, <materialpart:fluctuatite:rod>],
+[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fluctus"}]}), null, <materialpart:fluctuatite:rod>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:stable_orbiting_device>, 
+[[<contenttweaker:fluctuatite_stabilizer>, <gendustry:honey_comb:14009>, <extendedcrafting:singularity:5>, <gendustry:honey_comb:14009>, <contenttweaker:fluctuatite_stabilizer>], 
+[<gendustry:honey_comb:14009>, <contenttweaker:evanescent_sednanite_dust>, <contenttweaker:evanescent_sednanite_dust>, <contenttweaker:evanescent_sednanite_dust>, <gendustry:honey_comb:14009>], 
+[<extendedcrafting:singularity:5>, <contenttweaker:evanescent_sednanite_dust>, null, <contenttweaker:evanescent_sednanite_dust>, <extendedcrafting:singularity:5>], 
+[<gendustry:honey_comb:14009>, <contenttweaker:evanescent_sednanite_dust>, <contenttweaker:evanescent_sednanite_dust>, <contenttweaker:evanescent_sednanite_dust>, <gendustry:honey_comb:14009>], 
+[<contenttweaker:fluctuatite_stabilizer>, <gendustry:honey_comb:14009>, <extendedcrafting:singularity:5>, <gendustry:honey_comb:14009>, <contenttweaker:fluctuatite_stabilizer>]]);  
 
 
+mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:gravity_manipulator_device>, 
+[[<contenttweaker:rainbow_lens>, <contenttweaker:strings_crystal>, <contenttweaker:rainbow_lens>], 
+[<contenttweaker:brightseel_alloy_gear>, <contenttweaker:gravitite_dust>, <contenttweaker:brightseel_alloy_gear>], 
+[<contenttweaker:superconducting_mithril>, <contenttweaker:stable_orbiting_device>, <contenttweaker:superconducting_mithril>]]);  
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:nightmare_gem>, 
+15000, 
+<bloodarsenal:blood_diamond>, 
+[<bloodarsenal:slate:4>, <bloodarsenal:slate:4>,
+<bloodarsenal:slate:4>, <bloodarsenal:slate:4>,
+<abyssalcraft:oc>, <abyssalcraft:oc>,
+<divinerpg:teaker_lump>, <divinerpg:teaker_lump>]);
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:gravity_inverter>, 
-[[<contenttweaker:empowered_gravitite>, <bloodarsenal:slate:4>, <appliedenergistics2:material:47>, 
+[[<contenttweaker:empowered_gravitite>, <extendedcrafting:ender_alternator>, <appliedenergistics2:material:47>, 
 <appliedenergistics2:material:47>, <contenttweaker:awakened_electromagnet>, <appliedenergistics2:material:47>, 
-<appliedenergistics2:material:47>, <bloodarsenal:slate:4>, <contenttweaker:empowered_gravitite>], 
+<appliedenergistics2:material:47>, <extendedcrafting:ender_alternator>, <contenttweaker:empowered_gravitite>], 
 
-[<thaumcraft:causality_collapser>, <bloodarsenal:slate:4>, <nuclearcraft:turbine_rotor_blade_extreme>, 
-<botania:rune:15>, <bloodarsenal:blood_diamond>, <botania:rune:15>, 
-<nuclearcraft:turbine_rotor_blade_extreme>, <bloodarsenal:slate:4>, <thaumcraft:causality_collapser>], 
+[<thaumcraft:causality_collapser>, <extendedcrafting:compressor>, <nuclearcraft:turbine_rotor_blade_extreme>, 
+<botania:rune:15>, <contenttweaker:nightmare_gem>, <botania:rune:15>, 
+<nuclearcraft:turbine_rotor_blade_extreme>, <extendedcrafting:compressor>, <thaumcraft:causality_collapser>], 
 
-[<thaumcraft:causality_collapser>, <bloodarsenal:slate:4>, <nuclearcraft:fusion_connector>, 
-<botania:rune:14>, <bloodarsenal:blood_diamond>, <botania:rune:14>, 
-<nuclearcraft:fusion_connector>, <bloodarsenal:slate:4>, <thaumcraft:causality_collapser>], 
+[<thaumcraft:causality_collapser>, <extendedcrafting:ender_alternator>, <nuclearcraft:fusion_connector>, 
+<botania:rune:14>, <contenttweaker:gravity_manipulator_device>, <botania:rune:14>, 
+<nuclearcraft:fusion_connector>, <extendedcrafting:ender_alternator>, <thaumcraft:causality_collapser>], 
 
 [<thaumcraft:causality_collapser>, <torcherino:blocktorcherino>, <contenttweaker:twilight_diamond>, 
-<botania:rune:13>, <bloodarsenal:blood_diamond>, <botania:rune:13>, 
+<botania:rune:13>, <contenttweaker:nightmare_gem>, <botania:rune:13>, 
 <contenttweaker:twilight_diamond>, <torcherino:blocktorcherino>, <thaumcraft:causality_collapser>], 
 
 [<contenttweaker:universal_realgar>, <torcherino:blocktorcherino>, <careerbees:eternalframe>, 
@@ -2343,20 +2371,20 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:gravity_inverter>,
 <careerbees:eternalframe>, <torcherino:blocktorcherino>, <contenttweaker:universal_realgar>], 
 
 [<thaumcraft:causality_collapser>, <torcherino:blocktorcherino>, <contenttweaker:twilight_diamond>, 
-<botania:rune:11>, <bloodarsenal:blood_diamond>, <botania:rune:11>, 
+<botania:rune:11>, <contenttweaker:nightmare_gem>, <botania:rune:11>, 
 <contenttweaker:twilight_diamond>, <torcherino:blocktorcherino>, <thaumcraft:causality_collapser>], 
 
-[<thaumcraft:causality_collapser>, <bloodarsenal:slate:4>, <nuclearcraft:fusion_connector>, 
-<botania:rune:10>, <bloodarsenal:blood_diamond>, <botania:rune:10>, 
-<nuclearcraft:fusion_connector>, <bloodarsenal:slate:4>, <thaumcraft:causality_collapser>], 
+[<thaumcraft:causality_collapser>, <extendedcrafting:ender_alternator>, <nuclearcraft:fusion_connector>, 
+<botania:rune:10>, <contenttweaker:gravity_manipulator_device>, <botania:rune:10>, 
+<nuclearcraft:fusion_connector>, <extendedcrafting:ender_alternator>, <thaumcraft:causality_collapser>], 
 
-[<thaumcraft:causality_collapser>, <bloodarsenal:slate:4>, <nuclearcraft:turbine_rotor_blade_extreme>, 
-<botania:rune:9>, <bloodarsenal:blood_diamond>, <botania:rune:9>, 
-<nuclearcraft:turbine_rotor_blade_extreme>, <bloodarsenal:slate:4>, <thaumcraft:causality_collapser>], 
+[<thaumcraft:causality_collapser>, <extendedcrafting:compressor>, <nuclearcraft:turbine_rotor_blade_extreme>, 
+<botania:rune:9>, <contenttweaker:nightmare_gem>, <botania:rune:9>, 
+<nuclearcraft:turbine_rotor_blade_extreme>, <extendedcrafting:compressor>, <thaumcraft:causality_collapser>], 
 
-[<contenttweaker:empowered_gravitite>, <bloodarsenal:slate:4>, <appliedenergistics2:material:47>, 
+[<contenttweaker:empowered_gravitite>, <extendedcrafting:ender_alternator>, <appliedenergistics2:material:47>, 
 <appliedenergistics2:material:47>, <contenttweaker:awakened_electromagnet>, <appliedenergistics2:material:47>, 
-<appliedenergistics2:material:47>, <bloodarsenal:slate:4>, <contenttweaker:empowered_gravitite>]]);  
+<appliedenergistics2:material:47>, <extendedcrafting:ender_alternator>, <contenttweaker:empowered_gravitite>]]);  
 
 
 mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:singularity_ultimate>);
@@ -2464,11 +2492,11 @@ mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:reinforced_shyre_b
 [<materialpart:hassium:ingot>, <contenttweaker:shyre_bricks>, <materialpart:hassium:ingot>], 
 [<materialpart:hassium:ingot>, <materialpart:hassium:ingot>, <materialpart:hassium:ingot>]], 3);
 
+recipes.addShaped(<contenttweaker:dynatos_star>,
+[[<avaritia:resource:4>, <contenttweaker:recursion_helplessness>.reuse(), <avaritia:resource:4>],
+[<contenttweaker:recursion_solitude>.reuse(), <minecraft:nether_star>, <contenttweaker:recursion_darkness>.reuse()],
+[<avaritia:resource:4>, <contenttweaker:recursion_fear>.reuse(), <avaritia:resource:4>]]);
 
-recipes.addShaped(<materialpart:hassium:ingot>,
-[[null, <contenttweaker:recursion_helplessness>.reuse(), null],
-[<contenttweaker:recursion_solitude>.reuse(), <contenttweaker:vethea_garnet>, <contenttweaker:recursion_darkness>.reuse()],
-[null, <contenttweaker:recursion_fear>.reuse(), null]]);
 
 mods.nuclearcraft.infuser.addRecipe([<materialpart:myrmitite:dust>, <fluid:niobium>*10, <contenttweaker:myrminiobite_ingot>]);
 

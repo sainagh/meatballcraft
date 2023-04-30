@@ -115,7 +115,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_gem_armor_
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_gem_armor_2>, 
 1000000, <projecte:item.pe_rm_armor_2>, 
-[<materialpart:sednanite:ingot>, <divinerpg:divine_shards>, <contenttweaker:blue_matter>, <contenttweaker:blue_matter>, <contenttweaker:blue_matter>, <contenttweaker:blue_matter>, <contenttweaker:blue_matter>, <projecte:item.pe_archangel_smite>]);
+[<materialpart:sednanite:ingot>, <divinerpg:divine_shards>, <contenttweaker:blue_matter>, <contenttweaker:blue_matter>, <contenttweaker:blue_matter>, <contenttweaker:blue_matter>, <contenttweaker:blue_matter>, <projecte:item.pe_life_stone>]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_gem_armor_3>, 
 1000000, <projecte:item.pe_rm_armor_3>, 
@@ -367,3 +367,10 @@ recipes.addShapeless(<projectex:arcane_tablet>,
 
 recipes.addShapeless(<projecte:item.pe_transmutation_tablet>,
 [<projectex:arcane_tablet>]);
+
+recipes.remove(<projecte:item.pe_archangel_smite>);
+
+recipes.addShaped(<projecte:item.pe_archangel_smite>,
+[[<minecraft:bow>, <ore:feather>, <minecraft:bow>],
+[<contenttweaker:bright_matter>, <projecte:item.pe_ring_iron_band>, <contenttweaker:bright_matter>],
+[<minecraft:bow>, <ore:feather>, <minecraft:bow>]]);

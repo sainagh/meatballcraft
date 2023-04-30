@@ -1173,3 +1173,10 @@ demonstone.setBlockResistance(2.5);
 demonstone.setToolClass("pickaxe");
 demonstone.setToolLevel(3);
 demonstone.register();
+
+var energyhive = VanillaFactory.createBlock("energy_hive", <blockmaterial:iron>);
+energyhive.setBlockHardness(1.0);
+energyhive.setBlockResistance(2.5);
+energyhive.setToolClass("pickaxe");
+energyhive.setToolLevel(3);
+energyhive.register();

@@ -30,3 +30,5 @@ mods.tconstruct.Melting.addRecipe(<liquid:molten_adamantium> * 144,<contenttweak
 
 mods.tconstruct.Melting.addRecipe(<liquid:vibranium> * 144,<materialpart:vibranium:ingot>);
 mods.tconstruct.Melting.addRecipe(<liquid:molten_vibranium_alloy> * 144,<materialpart:vibranium_alloy:ingot>);
+
+mods.tconstruct.Casting.addTableRecipe(<materialpart:sednanite:ingot>, <tconstruct:cast_custom:0>, <fluid:sednanite>, 144, false, 100);

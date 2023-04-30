@@ -1,4 +1,6 @@
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:experienced_spider_eye>, <minecraft:fermented_spider_eye>, <fluid:essence> * 50, 200);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:experienced_spider_eye>, <minecraft:fermented_spider_eye>, <fluid:experience> * 50, 200);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:experienced_spider_eye>, <minecraft:fermented_spider_eye>, <fluid:xpjuice> * 50, 200);
 
 
 recipes.removeShapeless(<deepmoblearning:soot_covered_plate>);
@@ -77,3 +79,18 @@ recipes.addShaped(<deepmoblearning:soot_covered_plate>*8,
 [[<tconstruct:large_plate>.withTag({Material: "rosite"}), <minecraft:obsidian>, <tconstruct:large_plate>.withTag({Material: "rosite"})],
 [<deepmoblearning:pristine_matter_shulker>, <deepmoblearning:soot_covered_redstone>, <deepmoblearning:pristine_matter_shulker>],
 [<tconstruct:large_plate>.withTag({Material: "rosite"}), <minecraft:obsidian>, <tconstruct:large_plate>.withTag({Material: "rosite"})]]);
+
+recipes.removeShaped(<deepmoblearningbm:digital_will_injector>);
+
+mods.extendedcrafting.TableCrafting.addShaped(<deepmoblearningbm:digital_will_injector>, 
+[[<bloodmagic:soul_gem:4>, <bloodmagic:blood_rune:2>, <bloodmagic:slate:2>, <bloodmagic:blood_rune:2>, <bloodmagic:soul_gem:4>], 
+[<bloodmagic:blood_rune:2>, <deepmoblearningbm:blood_infused_glitch_ingot>, <redstonearsenal:material:128>, <deepmoblearningbm:blood_infused_glitch_ingot>, <bloodmagic:blood_rune:2>], 
+[<bloodmagic:slate:2>, <redstonearsenal:material:128>, <deepmoblearning:machine_casing>, <redstonearsenal:material:128>, <bloodmagic:slate:2>], 
+[<bloodmagic:blood_rune:2>, <deepmoblearningbm:blood_infused_glitch_ingot>, <redstonearsenal:material:128>, <deepmoblearningbm:blood_infused_glitch_ingot>, <bloodmagic:blood_rune:2>], 
+[<bloodmagic:soul_gem:4>, <bloodmagic:blood_rune:2>, <bloodmagic:slate:2>, <bloodmagic:blood_rune:2>, <bloodmagic:soul_gem:4>]]); 
+
+recipes.addShaped(<contenttweaker:rainbow_heart_canister>,
+[[<bhc:red_heart_canister>, null, <bhc:green_heart_canister>],
+[null, <divinerpg:healing_stone>, null],
+[<bhc:yellow_heart_canister>, null, <bhc:blue_heart_canister>]]);
+

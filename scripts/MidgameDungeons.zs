@@ -200,7 +200,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon1 = posbeacon1.asBlockPos();
     var blockBelow1 = world.getBlockState(blockposbeacon1);
     if(blockBelow1 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, heed the call of the white sky");
         return "FAIL";
     }
 	var posbeacon2 = player.position.asPosition3f();
@@ -971,7 +971,7 @@ vibratingmithminiteschythe.itemRightClick = function(stack, world, player, hand)
     }
     player.sendChat("Use on tainted soil");
 
-    Commands.call("fill ~1 ~1 ~1 ~-1 ~-1 ~-1 contenttweaker:ichor 0 replace thaumcraft:taint_soil", player, world, true, true);
+    Commands.call("fill ~2 ~2 ~2 ~-2 ~-2 ~-2 contenttweaker:ichor 0 replace thaumcraft:taint_soil", player, world, true, true);
 
     return "PASS";
 
@@ -1046,6 +1046,7 @@ demonologistcallstone.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
     Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
     Commands.call("summon aoa3:deinotherium ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:baku_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:300.0}],Health:3000f,CustomName:\"Baku\"}", player, world, true, true);
+    Commands.call("give @p contenttweaker:haumea_spinel", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1104,3 +1105,434 @@ undeadcallstone.itemRightClick = function(stack, world, player, hand) {
 
 };
 undeadcallstone.register();
+
+
+var betweenlandscallstone0 = VanillaFactory.createItem("betweenlands_callstone_0");
+betweenlandscallstone0.maxStackSize = 1;
+betweenlandscallstone0.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in overworld");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn betweenlands_callstone_ores", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+betweenlandscallstone0.register();
+
+
+var betweenlandscallstone1 = VanillaFactory.createItem("betweenlands_callstone_1");
+betweenlandscallstone1.maxStackSize = 1;
+betweenlandscallstone1.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in overworld");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn betweenlands_callstone_spirit_tree", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+betweenlandscallstone1.register();
+
+var betweenlandscallstone2 = VanillaFactory.createItem("betweenlands_callstone_2");
+betweenlandscallstone2.maxStackSize = 1;
+betweenlandscallstone2.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in overworld");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn betweenlands_callstone_chiromaw", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+betweenlandscallstone2.register();
+
+var betweenlandscallstone3 = VanillaFactory.createItem("betweenlands_callstone_3");
+betweenlandscallstone3.maxStackSize = 1;
+betweenlandscallstone3.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in overworld");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn betweenlands_callstone_potions", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+betweenlandscallstone3.register();
+
+var betweenlandscallstone4 = VanillaFactory.createItem("betweenlands_callstone_4");
+betweenlandscallstone4.maxStackSize = 1;
+betweenlandscallstone4.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in overworld");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn betweenlands_callstone_tar", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+betweenlandscallstone4.register();
+
+var betweenlandscallstone5 = VanillaFactory.createItem("betweenlands_callstone_5");
+betweenlandscallstone5.maxStackSize = 1;
+betweenlandscallstone5.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in overworld");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn betweenlands_callstone_5", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+betweenlandscallstone5.register();
+
+var betweenlandscallstone6 = VanillaFactory.createItem("betweenlands_callstone_6");
+betweenlandscallstone6.maxStackSize = 1;
+betweenlandscallstone6.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in overworld");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn betweenlands_callstone_6", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+betweenlandscallstone6.register();
+
+var betweenlandscallstone7 = VanillaFactory.createItem("betweenlands_callstone_7");
+betweenlandscallstone7.maxStackSize = 1;
+betweenlandscallstone7.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in overworld");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn betweenlands_callstone_sludge", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+betweenlandscallstone7.register();
+
+var betweenlandscallstone8= VanillaFactory.createItem("betweenlands_callstone_8");
+betweenlandscallstone8.maxStackSize = 1;
+betweenlandscallstone8.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in overworld");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn betweenlands_callstone_final", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+betweenlandscallstone8.register();
+
+
+var constructorsummoner = VanillaFactory.createItem("constructor_summoner");
+constructorsummoner.maxStackSize = 1;
+constructorsummoner.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 426) {
+        player.sendChat("You gotta be in Arcana");
+        return "FAIL";
+    }
+
+    Commands.call("summon divinerpg:dungeon_constructor ~ ~1 ~ {HandItems:[{Count:1,id:\"divinerpg:soul_key\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, true, true);
+    Commands.call("summon divinerpg:dungeon_constructor ~ ~1 ~ {HandItems:[{Count:1,id:\"divinerpg:sludge_key\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, true, true);
+    Commands.call("summon divinerpg:dungeon_constructor ~ ~1 ~ {HandItems:[{Count:1,id:\"divinerpg:ancient_key\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+constructorsummoner.register();
+
+var lordsummoner = VanillaFactory.createItem("lord_summoner");
+lordsummoner.maxStackSize = 1;
+lordsummoner.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 426) {
+        player.sendChat("You gotta be in Arcana");
+        return "FAIL";
+    }
+
+    Commands.call("summon divinerpg:lord_vatticus ~ ~1 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+lordsummoner.register();
+
+var strangecharm = VanillaFactory.createItem("strange_charm");
+strangecharm.maxStackSize = 1;
+strangecharm.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, true, true);
+    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, true, true);
+    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, true, true);
+    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, true, true);
+    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, true, true);
+    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+strangecharm.register();
+
+
+var ptah_callstone= VanillaFactory.createItem("pharos_callstone");
+ptah_callstone.maxStackSize = 1;
+ptah_callstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 149) {
+        player.sendChat("You gotta be in ptah");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn ptah_structure_callstone", player, world, true, true);
+    Commands.call("give @p contenttweaker:ptah_spinel", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+ptah_callstone.register();
+
+var trinitycallstone= VanillaFactory.createItem("trinity_callstone");
+trinitycallstone.maxStackSize = 1;
+trinitycallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 150) {
+        player.sendChat("You gotta be in hator");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn hator_structure_callstone", player, world, true, true);
+    Commands.call("give @p contenttweaker:hator_spinel", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+trinitycallstone.register();
+
+
+var peacefuloathcallstone= VanillaFactory.createItem("peaceful_oath_callstone");
+peacefuloathcallstone.maxStackSize = 1;
+peacefuloathcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 151) {
+        player.sendChat("You gotta be in europa");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn europa_structure_callstone", player, world, true, true);
+    Commands.call("give @p contenttweaker:europa_spinel", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+peacefuloathcallstone.register();
+
+var gundevilcallstone= VanillaFactory.createItem("gun_devil_callstone");
+gundevilcallstone.maxStackSize = 1;
+gundevilcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 160) {
+        player.sendChat("You gotta be in falacer");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn falacer_structure_callstone", player, world, true, true);
+    Commands.call("give @p contenttweaker:falacer_spinel", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+gundevilcallstone.register();
+
+var unburiedcallstone= VanillaFactory.createItem("unburied_callstone");
+unburiedcallstone.maxStackSize = 1;
+unburiedcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 152) {
+        player.sendChat("You gotta be in oi");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn oi_structure_callstone", player, world, true, true);
+    Commands.call("give @p contenttweaker:oi_spinel", player, world, true, true);
+    Commands.call("summon iceandfire:dread_knight ~ ~8 ~ {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"techreborn:nuke\"}],HandDropChances:[1.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:8000.0},{Name:generic.attackDamage, Base:100.0}],Health:8000f,CustomName:\"Glimpse of the Meatball Man\"}", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+unburiedcallstone.register();
+
+var anemiccallstone= VanillaFactory.createItem("anemic_callstone");
+anemiccallstone.maxStackSize = 1;
+anemiccallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != -11325) {
+        player.sendChat("You gotta be in the deep dark");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn orcus_structure_callstone", player, world, true, true);
+    Commands.call("give @p contenttweaker:orcus_spinel", player, world, true, true);
+    Commands.call("summon thebetweenlands:blood_snail ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:eldrich_blood_slime\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:6000.0},{Name:generic.attackDamage, Base:100.0}],Health:6000f,CustomName:\"Gash'uhn the Blood God\"}", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+anemiccallstone.register();
+
+
+
+var orbitalcallstone= VanillaFactory.createItem("orbital_callstone");
+orbitalcallstone.maxStackSize = 1;
+orbitalcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 1) {
+        player.sendChat("You gotta be in the end");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn sedna_structure_callstone", player, world, true, true);
+    Commands.call("give @p contenttweaker:sedna_spinel", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+orbitalcallstone.register();
+
+var bubbellalliancecallstone= VanillaFactory.createItem("bubbell_alliance_callstone");
+bubbellalliancecallstone.maxStackSize = 1;
+bubbellalliancecallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    player.sendChat("This has not been implemented yet");
+
+    if(player.getDimension() != -100) {
+        player.sendChat("You gotta be in sedna");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn midgame_puzzle_callstone", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+bubbellalliancecallstone.register();
+
+
+

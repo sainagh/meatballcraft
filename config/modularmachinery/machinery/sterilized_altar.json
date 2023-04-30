@@ -2,6 +2,21 @@
     "registryname": "sterilized_altar",
     "localizedname": "Sterilized Sacrificial Altar",
 	"color": "011112",
+    "modifiers": [
+        {
+            "elements": "thebetweenlands:pearl_block",
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "description": "replace the middle block for increased speed",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.1
+            }
+        }
+    ],
     "parts": [
         {
             "x": -1,
