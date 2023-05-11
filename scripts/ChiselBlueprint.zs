@@ -85,7 +85,7 @@ mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itembluep
 
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:moloch_altar"}));
 
-mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:essentias_solidifier"}));
+mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:essentia_solidifier"}));
 
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:shadow_fracturer"}));
 
@@ -114,6 +114,7 @@ mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:
 mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:high_impulse_accelerator"}));
 mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_accelerator"}));
 mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_excavation_computer_multiblock"}));
+mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:the_cube"}));
 
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier1"}),
@@ -167,6 +168,7 @@ mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_compressor"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:relativistic_collapser"}));
+mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:definer_two"}));
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_alloy_furnace"}),
 [[<modularmachinery:itemmodularium>,null,null],

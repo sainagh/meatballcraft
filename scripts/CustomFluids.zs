@@ -634,3 +634,6 @@ energizedlava.register();
 
 var highpressureenergeticfluid = VanillaFactory.createFluid("high_pressure_energetic_fluid", Color.fromHex("ff5f42"));
 highpressureenergeticfluid.register();
+
+var moltentitanium = VanillaFactory.createFluid("molten_titanium", Color.fromHex("b6ccc4"));
+moltentitanium.register();

@@ -31,11 +31,11 @@ recipes.addShaped(<contenttweaker:double_compressed_realgar>,
 [<contenttweaker:compressed_realgar>, <contenttweaker:compressed_realgar>, <contenttweaker:compressed_realgar>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_conduit>*4, 
-[[<environmentaltech:nano_cont_ranged_6>, <contenttweaker:mirroring_mithminite_prism>, <astralsorcery:blockcelestialgateway>, <contenttweaker:quantum_shard>, <environmentaltech:nano_cont_ranged_6>], 
+[[<environmentaltech:nano_cont_ranged_6>, <contenttweaker:mirroring_mithminite_prism>, <contenttweaker:time_crystal>, <contenttweaker:quantum_shard>, <environmentaltech:nano_cont_ranged_6>], 
 [<contenttweaker:quantum_shard>, <contenttweaker:botanical_pillar>, <extrabees:alveary:4>, <contenttweaker:botanical_pillar>, <contenttweaker:mirroring_mithminite_prism>], 
-[<astralsorcery:blockcelestialgateway>, <contenttweaker:defined_gear>, <contenttweaker:instant_power_junction>, <contenttweaker:defined_gear>, <astralsorcery:blockcelestialgateway>], 
+[<contenttweaker:time_crystal>, <contenttweaker:defined_gear>, <contenttweaker:instant_power_junction>, <contenttweaker:defined_gear>, <contenttweaker:time_crystal>], 
 [<contenttweaker:mirroring_mithminite_prism>, <contenttweaker:botanical_pillar>, <extrabees:alveary:4>, <contenttweaker:botanical_pillar>, <contenttweaker:quantum_shard>], 
-[<environmentaltech:nano_cont_ranged_6>, <contenttweaker:quantum_shard>, <astralsorcery:blockcelestialgateway>, <contenttweaker:mirroring_mithminite_prism>, <environmentaltech:nano_cont_ranged_6>]]);  
+[<environmentaltech:nano_cont_ranged_6>, <contenttweaker:quantum_shard>, <contenttweaker:time_crystal>, <contenttweaker:mirroring_mithminite_prism>, <environmentaltech:nano_cont_ranged_6>]]);  
 
 
 mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:irradiated_filler>, <extracells:fluidfiller>, 1000);

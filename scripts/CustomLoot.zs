@@ -114,6 +114,7 @@ mothervoidwalkerroll.addItemEntry(<thaumcraft:curio:1>, 5);
 val epiphite = LootTweaker.getTable("divinerpg:entities/wildwood/epiphite");
 val epiphiteroll = epiphite.addPool("epiphiteroll", 1, 1, 0, 0);
 epiphiteroll.addItemEntry(<divinerpg:divine_shards>, 5);
+epiphiteroll.addItemEntry(<aoa3:amphibiyte_lung>*3, 5);
 
 val anciententity = LootTweaker.getTable("divinerpg:entities/boss/ancient_entity");
 val ancientrenmants = anciententity.addPool("ancientrenmants", 1, 1, 0, 0);

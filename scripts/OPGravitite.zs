@@ -4,13 +4,14 @@ mods.techreborn.compressor.addRecipe(<contenttweaker:gravitite_sediment>, <conte
 
 mods.techreborn.extractor.addRecipe(<contenttweaker:gravitite_clathrate>*3, <contenttweaker:gravitite_sediment>, 10, 400);
 
-mods.techreborn.chemicalReactor.addRecipe(<contenttweaker:gravitite_matrix>*2, <contenttweaker:gravitite_clathrate>, <ore:gemAquamarine>, 10, 200);
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:gravitite_matrix>*2, <contenttweaker:gravitite_clathrate>, <astralsorcery:itemcraftingcomponent:0>, 101);
 
 mods.techreborn.blastFurnace.addRecipe(<contenttweaker:superheated_gravitite_chunk>*2, <contenttweaker:gravitite_pearl>, <contenttweaker:gravitite_matrix>, <aether_legacy:zanite_gemstone>, 20, 800, 3000);
 
 mods.techreborn.vacuumFreezer.addRecipe(<contenttweaker:gravitite_chunk>, <contenttweaker:superheated_gravitite_chunk>, 5, 1000);
 
 mods.techreborn.grinder.addRecipe(<contenttweaker:gravitite_dust>*3, <contenttweaker:gravitite_chunk>, 10, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:gravitite_dust>*3, <contenttweaker:gravitite_chunk>, 1000);
 
 mods.techreborn.industrialGrinder.addRecipe(<contenttweaker:gravitite_dust>*3, <contenttweaker:gravitite_chunk>, <aether_legacy:enchanted_gravitite>, <contenttweaker:gravitite_dust>, <contenttweaker:gravitite_pearl>, <ore:ballElectricalSteel>, <fluid:astralsorcery.liquidstarlight>*5, 10, 3000);
 

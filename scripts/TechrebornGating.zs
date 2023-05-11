@@ -224,3 +224,5 @@ recipes.addShaped(<techreborn:distillation_tower>,
 mods.techreborn.assemblingMachine.addRecipe(<techreborn:part:39>, <draconicevolution:draconic_ingot>, <techreborn:part:17>, 10, 8);
 
 mods.techreborn.assemblingMachine.addRecipe(<techreborn:part:0>, <techreborn:part:43>, <contenttweaker:better_lapotron_crystal>, 160, 10);
+
+recipes.removeShaped(<techreborn:chemical_reactor>);

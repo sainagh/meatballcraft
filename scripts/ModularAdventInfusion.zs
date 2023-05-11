@@ -10,7 +10,7 @@ glisteninf.build();
 val ambientinf = RecipeBuilder.newBuilder("ambientinf","infusinator",80);
 ambientinf.addEnergyPerTickInput(5000);
 ambientinf.addItemInput(<aoa3:ancient_rock>*64);
-ambientinf.addItemInput(<thaumcraft:seal:2>*1);
+ambientinf.addItemInput(<thaumcraft:seal:13>*1);
 ambientinf.addItemOutput(<aoa3:ambient_infusion_stone>*18);
 ambientinf.build();
 

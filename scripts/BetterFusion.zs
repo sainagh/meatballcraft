@@ -223,8 +223,8 @@ bettersolidfusion5.build();
 
 val bettersolidfusion6 = RecipeBuilder.newBuilder("bettersolidfusion6","inertial_confinement_reactor",10);
 bettersolidfusion6.addEnergyPerTickInput(1000000);
-bettersolidfusion6.addItemInput(<thermalfoundation:material:135>*4);
-bettersolidfusion6.addItemInput(<libvulpes:productingot:7>*4);
+bettersolidfusion6.addItemInput(<ore:ingotIridium>,4);
+bettersolidfusion6.addItemInput(<ore:ingotTitanium>,4);
 bettersolidfusion6.addItemOutput(<contenttweaker:superfused_alloy_ingot>*8);
 bettersolidfusion6.build();
 
@@ -234,6 +234,13 @@ bettersolidfusion7.addItemInput(<enderio:item_alloy_endergy_ingot:3>*16);
 bettersolidfusion7.addItemInput(<nuclearcraft:lithium:2>*4);
 bettersolidfusion7.addItemOutput(<materialpart:promethium:ingot>);
 bettersolidfusion7.build();
+
+val bettersolidfusion8 = RecipeBuilder.newBuilder("bettersolidfusion8","inertial_confinement_reactor",10);
+bettersolidfusion8.addEnergyPerTickInput(1000000);
+bettersolidfusion8.addItemInput(<contenttweaker:infinity_leaf>);
+bettersolidfusion8.addItemInput(<avaritia:resource:6>);
+bettersolidfusion8.addItemOutput(<contenttweaker:infinity_fruit>);
+bettersolidfusion8.build();
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hohlraum>, 
 [[<materialpart:sednanite:ingot>, <enderio:block_enlightened_fused_glass:0>, <contenttweaker:superconducting_sednanite>, <enderio:block_enlightened_fused_glass:0>, <materialpart:sednanite:ingot>], 

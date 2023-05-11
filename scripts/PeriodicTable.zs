@@ -125,11 +125,17 @@ mods.nuclearcraft.melter.addRecipe([<nuclearcraft:ingot:10>, <fluid:molten_zirco
 
 // making niobium
 
-val niobiumaccelerator = RecipeBuilder.newBuilder("niobiumaccelerator","high_impulse_accelerator",40);
-niobiumaccelerator.addEnergyPerTickInput(10000000);
-niobiumaccelerator.addFluidInput(<fluid:titanium>*100);
-niobiumaccelerator.addFluidOutput(<fluid:niobium>*50);
-niobiumaccelerator.build();
+val niobiumaccelerator1 = RecipeBuilder.newBuilder("niobiumaccelerator1","high_impulse_accelerator",40);
+niobiumaccelerator1.addEnergyPerTickInput(10000000);
+niobiumaccelerator1.addFluidInput(<fluid:titanium>*100);
+niobiumaccelerator1.addFluidOutput(<fluid:niobium>*50);
+niobiumaccelerator1.build();
+
+val niobiumaccelerator2 = RecipeBuilder.newBuilder("niobiumaccelerator2","high_impulse_accelerator",40);
+niobiumaccelerator2.addEnergyPerTickInput(10000000);
+niobiumaccelerator2.addFluidInput(<fluid:molten_titanium>*100);
+niobiumaccelerator2.addFluidOutput(<fluid:niobium>*50);
+niobiumaccelerator2.build();
 
 // making molybdenum
 

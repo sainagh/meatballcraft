@@ -251,25 +251,25 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:demonic_steel:ingot
 <contenttweaker:demon_will_powder>, 
 <immersiveengineering:material:7>, 
 200, 2048, 
-[<divinerpg:rupee_ingot>, <divinerpg:rupee_ingot>], "Alloying");
+[<divinerpg:rupee_ingot>], "Alloying");
 
 mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:corrosive_steel:ingot>*2, 
 <contenttweaker:corrosive_will_powder>, 
 <immersiveengineering:material:7>, 
 200, 2048, 
-[<divinerpg:arlemite_ingot>, <divinerpg:arlemite_ingot>], "Alloying");
+[<divinerpg:arlemite_ingot>], "Alloying");
 
 mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:destructive_steel:ingot>*2, 
 <contenttweaker:destructive_will_powder>, 
 <immersiveengineering:material:7>, 
 200, 2048, 
-[<aoa3:limonite_ingot>, <aoa3:limonite_ingot>], "Alloying");
+[<aoa3:limonite_ingot>], "Alloying");
 
 mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:vengeful_steel:ingot>*2, 
 <contenttweaker:vengeful_will_powder>, 
 <immersiveengineering:material:7>, 
 200, 2048, 
-[<aoa3:rosite_ingot>, <aoa3:rosite_ingot>], "Alloying");
+[<aoa3:rosite_ingot>], "Alloying");
 
 mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:steadfast_steel:ingot>*2, 
 <contenttweaker:steadfast_will_powder>, 
@@ -1798,6 +1798,48 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_excavation_
 <techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <ore:ingotCrystalMatrix>]]);  
 
 
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_excavation_reactor>*3, 
+[[<contenttweaker:defined_plate>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
+<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity:29>, <contenttweaker:brightseel_alloy_gear>, 
+<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <contenttweaker:defined_plate>], 
+
+[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
+<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
+
+[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
+<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:mythic_coil_t2>, <contenttweaker:fluxed_electrum_shaft>, 
+<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
+
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
+<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
+
+[<extendedcrafting:material:32>, <contenttweaker:fluix_microcontroller>, <ore:ingotUltimate>, 
+<contenttweaker:mythic_excavation_engine>, <contenttweaker:mythic_excavation_computer>, <contenttweaker:mythic_excavation_engine>, 
+<ore:ingotUltimate>, <contenttweaker:fluix_microcontroller>, <extendedcrafting:material:32>], 
+
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
+<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
+
+[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
+<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:awakened_electromagnet>, <contenttweaker:fluxed_electrum_shaft>, 
+<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
+
+[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
+<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
+
+[<contenttweaker:defined_plate>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
+<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity_custom:651>, <contenttweaker:brightseel_alloy_gear>, 
+<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <contenttweaker:defined_plate>]]);  
+
+
+
+
+
 recipes.addShaped(<contenttweaker:empowerment_core>,
 [[<actuallyadditions:block_crystal_empowered:0>, <ore:ingotHoneyComb>, <actuallyadditions:block_crystal_empowered:3>],
 [<actuallyadditions:block_crystal_empowered:1>, <draconicevolution:awakened_core>, <actuallyadditions:block_crystal_empowered:4>],
@@ -2510,7 +2552,10 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_star>
 <minecraft:nether_star>, 
 [<contenttweaker:myrminiobite_ingot>, <contenttweaker:hafnium_chunk>, <contenttweaker:tantalum_chunk>, <contenttweaker:cerium_ingot>, <materialpart:hassium:ingot>]);
 
-mods.extendedcrafting.TableCrafting.addShapeless(4, <contenttweaker:universal_realgar>, 
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:universal_realgar>, 
+1, 
+<contenttweaker:eternal_tulite>, 
 [<contenttweaker:abyss_garnet>, 
 <contenttweaker:lelyetia_garnet>,
 <contenttweaker:precasia_garnet>,
@@ -2532,8 +2577,8 @@ mods.extendedcrafting.TableCrafting.addShapeless(4, <contenttweaker:universal_re
 <contenttweaker:ancient_cavern_garnet>,
 <contenttweaker:greckon_garnet>,
 <contenttweaker:dustopia_garnet>,
-<contenttweaker:vethea_garnet>,
-<contenttweaker:eternal_tulite>]); 
+<contenttweaker:vethea_garnet>]);
+
 
 recipes.addShaped(<contenttweaker:compressed_realgar>,
 [[<contenttweaker:universal_realgar>, <contenttweaker:universal_realgar>, <contenttweaker:universal_realgar>],

@@ -258,3 +258,10 @@ mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:abyssite>*144, <fluid:twili
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:chaotic_egg>, <fluid:slumbering_abyssite>*144, <fluid:chaos>*2880]);
 
 mods.forestry.Squeezer.addRecipe(<fluid:purifying_fluid>*1000, [<contenttweaker:pure_egg>], 120);
+
+
+recipes.addShaped(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:osmium_chicken"}}),
+[[<agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>],
+[<soulshardsrespawn:materials:1>, <minecraft:egg>, <soulshardsrespawn:materials:1>],
+[<agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>]]);
+

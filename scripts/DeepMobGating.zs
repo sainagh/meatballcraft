@@ -82,15 +82,19 @@ recipes.addShaped(<deepmoblearning:soot_covered_plate>*8,
 
 recipes.removeShaped(<deepmoblearningbm:digital_will_injector>);
 
-mods.extendedcrafting.TableCrafting.addShaped(<deepmoblearningbm:digital_will_injector>, 
-[[<bloodmagic:soul_gem:4>, <bloodmagic:blood_rune:2>, <bloodmagic:slate:2>, <bloodmagic:blood_rune:2>, <bloodmagic:soul_gem:4>], 
-[<bloodmagic:blood_rune:2>, <deepmoblearningbm:blood_infused_glitch_ingot>, <redstonearsenal:material:128>, <deepmoblearningbm:blood_infused_glitch_ingot>, <bloodmagic:blood_rune:2>], 
-[<bloodmagic:slate:2>, <redstonearsenal:material:128>, <deepmoblearning:machine_casing>, <redstonearsenal:material:128>, <bloodmagic:slate:2>], 
-[<bloodmagic:blood_rune:2>, <deepmoblearningbm:blood_infused_glitch_ingot>, <redstonearsenal:material:128>, <deepmoblearningbm:blood_infused_glitch_ingot>, <bloodmagic:blood_rune:2>], 
-[<bloodmagic:soul_gem:4>, <bloodmagic:blood_rune:2>, <bloodmagic:slate:2>, <bloodmagic:blood_rune:2>, <bloodmagic:soul_gem:4>]]); 
+// mods.extendedcrafting.TableCrafting.addShaped(<deepmoblearningbm:digital_will_injector>, 
+// [[<bloodmagic:soul_gem:4>, <bloodmagic:blood_rune:2>, <bloodmagic:slate:2>, <bloodmagic:blood_rune:2>, <bloodmagic:soul_gem:4>], 
+// [<bloodmagic:blood_rune:2>, <deepmoblearningbm:blood_infused_glitch_ingot>, <redstonearsenal:material:128>, <deepmoblearningbm:blood_infused_glitch_ingot>, <bloodmagic:blood_rune:2>], 
+// [<bloodmagic:slate:2>, <redstonearsenal:material:128>, <deepmoblearning:machine_casing>, <redstonearsenal:material:128>, <bloodmagic:slate:2>], 
+// [<bloodmagic:blood_rune:2>, <deepmoblearningbm:blood_infused_glitch_ingot>, <redstonearsenal:material:128>, <deepmoblearningbm:blood_infused_glitch_ingot>, <bloodmagic:blood_rune:2>], 
+// [<bloodmagic:soul_gem:4>, <bloodmagic:blood_rune:2>, <bloodmagic:slate:2>, <bloodmagic:blood_rune:2>, <bloodmagic:soul_gem:4>]]); 
 
 recipes.addShaped(<contenttweaker:rainbow_heart_canister>,
 [[<bhc:red_heart_canister>, null, <bhc:green_heart_canister>],
 [null, <divinerpg:healing_stone>, null],
 [<bhc:yellow_heart_canister>, null, <bhc:blue_heart_canister>]]);
 
+
+mods.bloodmagic.BloodAltar.removeRecipe(<deepmoblearning:glitch_infused_ingot>);
+
+mods.bloodmagic.BloodAltar.addRecipe(<deepmoblearningbm:blood_infused_glitch_ingot>, <avaritia:resource:6>, 5, 10000, 20, 20);

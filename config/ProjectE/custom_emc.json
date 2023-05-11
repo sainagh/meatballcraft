@@ -3882,7 +3882,7 @@
     },
     {
       "item": "twilightforest:spiral_bricks|0",
-      "emc": 2048
+      "emc": 1
     },
     {
       "item": "twilightforest:etched_nagastone|0",
@@ -6055,6 +6055,146 @@
     {
       "item": "botania:elfglass|0",
       "emc": 1
+    },
+    {
+      "item": "divinerpg:nightmare_bed|0",
+      "emc": 69
+    },
+    {
+      "item": "minecraft:bowl|0",
+      "emc": 6
+    },
+    {
+      "item": "forestry:sapling|0",
+      "emc": 0
+    },
+    {
+      "item": "abyssalcraft:dreadgrass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:abyss_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:borean_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:candyland_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:celeve_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:creeponia_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:dustopia_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:gardencia_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:greckon_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:haven_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:iromine_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:lelyetia_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:lelyetia_down_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:lunalyte_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:lunasole_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:mysterium_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:precasia_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:runic_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "botania:altgrass|0",
+      "emc": 2
+    },
+    {
+      "item": "biomesoplenty:grass|7",
+      "emc": 2
+    },
+    {
+      "item": "biomesoplenty:grass|5",
+      "emc": 2
+    },
+    {
+      "item": "biomesoplenty:grass|4",
+      "emc": 2
+    },
+    {
+      "item": "biomesoplenty:grass|3",
+      "emc": 2
+    },
+    {
+      "item": "biomesoplenty:grass|2",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:toxic_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:shyrelands_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "biomesoplenty:grass_path|0",
+      "emc": 2
+    },
+    {
+      "item": "botania:altgrass|1",
+      "emc": 2
+    },
+    {
+      "item": "botania:altgrass|2",
+      "emc": 2
+    },
+    {
+      "item": "botania:altgrass|3",
+      "emc": 2
+    },
+    {
+      "item": "botania:altgrass|4",
+      "emc": 2
+    },
+    {
+      "item": "botania:altgrass|5",
+      "emc": 2
     }
   ]
 }

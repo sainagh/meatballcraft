@@ -4069,3 +4069,17 @@ singulargravityhoney.maxStackSize = 64;
 singulargravityhoney.beaconPayment = false;
 singulargravityhoney.register();
 
+var timecrystal = VanillaFactory.createItem("time_crystal");
+timecrystal.maxStackSize = 64;
+timecrystal.beaconPayment = false;
+timecrystal.register();
+
+var gemsleepingcity = VanillaFactory.createItem("gem_of_the_sleeping_city");
+gemsleepingcity.maxStackSize = 64;
+gemsleepingcity.beaconPayment = false;
+gemsleepingcity.register();
+
+var stonesleepingcity = VanillaFactory.createItem("stone_of_the_sleeping_city");
+stonesleepingcity.maxStackSize = 64;
+stonesleepingcity.beaconPayment = false;
+stonesleepingcity.register();

@@ -1,0 +1,144 @@
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"botania:manaresource",Count:1b,Damage:5s},
+  TrophyName:"Tier 1 Guardian Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"contenttweaker:greater_gaia_spirit",Count:1b,Damage:0s},
+  TrophyName:"Tier 2 Guardian Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"extrabotany:material",Count:1b,Damage:3s},
+  TrophyName:"Tier 3 Guardian Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"extrabotany:treasurebox",Count:1b,Damage:0s},
+  TrophyName:"Tier 4 Guardian Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"contenttweaker:terrasteel_crystal",Count:1b,Damage:0s},
+  TrophyName:"Bifrost Wolf Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"contenttweaker:sympan_spirit",Count:1b,Damage:0s},
+  TrophyName:"Aesir Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"twilightforest:naga_scale",Count:1b,Damage:0s},
+  TrophyName:"Naga Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"twilightforest:shield_scepter",Count:1b,Damage:0s},
+  TrophyName:"Lich Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"twilightforest:minotaur_axe",Count:1b,Damage:0s},
+  TrophyName:"Minoshroom Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"twilightforest:fiery_blood",Count:1b,Damage:0s},
+  TrophyName:"Fiery Hydra Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"twilightforest:knightmetal_pickaxe",Count:1b,Damage:0s},
+  TrophyName:"Phantom Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"twilightforest:fiery_tears",Count:1b,Damage:0s},
+  TrophyName:"Ur-Ghast Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"twilightforest:alpha_fur",Count:1b,Damage:0s},
+  TrophyName:"Alpha Yeti Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"twilightforest:aurora_block",Count:1b,Damage:0s},
+  TrophyName:"Ice Queen Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"twilightforest:giant_pickaxe",Count:1b,Damage:0s},
+  TrophyName:"Giant Me Slayer",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}
+
+/give @p simple_trophies:trophy 1 0 {
+  TrophyItem:{id:"contenttweaker:starfield_gem",Count:1b,Damage:0s},
+  TrophyName:"More Crimson Cult Encounters",
+  TrophyColorRed:0,
+  TrophyColorGreen:0,
+  TrophyColorBlue:0,
+  TrophyVariant:"classic"
+}

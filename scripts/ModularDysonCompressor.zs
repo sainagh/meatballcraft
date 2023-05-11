@@ -138,9 +138,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_compressor>*
 <thaumadditions:mithminite_block>, <contenttweaker:dustopia_cap>, <thaumadditions:mithminite_block>, 
 <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:accelerator_tube>], 
 
-[<contenttweaker:triple_compressed_realgar>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:shyre_crystal>, 
+[<contenttweaker:triple_compressed_realgar>, <contenttweaker:time_crystal>, <contenttweaker:shyre_crystal>, 
 <contenttweaker:borean_cap>, <contenttweaker:lunalus_cap>, <contenttweaker:runador_cap>, 
-<contenttweaker:shyre_crystal>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:triple_compressed_realgar>], 
+<contenttweaker:shyre_crystal>, <contenttweaker:time_crystal>, <contenttweaker:triple_compressed_realgar>], 
 
 [<contenttweaker:accelerator_tube>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:imperfect_gem_of_the_cosmos>, 
 <thaumadditions:mithminite_block>, <contenttweaker:immortallis_cap>, <thaumadditions:mithminite_block>, 

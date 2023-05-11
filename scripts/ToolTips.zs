@@ -176,8 +176,6 @@
 
 <magicbees:beecomb:2>.addTooltip(format.red("Found on a warper plane (which one??) - Warper in JEI"));
 
-<mysticalagriculture:mithril_essence>.addTooltip(format.red("Use in an Alloy Smelter for maximum value"));
-
 <bloodmagic:blood_shard:0>.addTooltip(format.red("Obtainable using a Bound Blade"));
 
 <bhc:red_heart>.addTooltip(format.red("Dropped by hostile mobs"));
@@ -659,7 +657,7 @@
 
 <contenttweaker:barathos_wormhole>.addTooltip(format.red("Found in Barathos"));
 
-<contenttweaker:deeplands_wormhole>.addTooltip(format.red("Found in Deeplands)"));
+<contenttweaker:deeplands_wormhole>.addTooltip(format.red("Found in Deeplands"));
 
 <contenttweaker:creeponia_wormhole>.addTooltip(format.red("Found in Creeponia"));
 
@@ -1413,7 +1411,7 @@
 
 <materialpart:abyssite:ingot>.addTooltip(format.red("Use redstone clocks to alternate when pump and fusion reactor are on"));
 
-<twilightforest:cube_talisman>.addTooltip(format.red("Dropped by Roving Cubes"));
+<twilightforest:cube_talisman>.addTooltip(format.red("Dropped by Roving Cubes - use the twilight jewel"));
 
 <aoa3:primordial_staff>.addTooltip(format.red("Reusable in recipe"));
 
@@ -1713,7 +1711,7 @@
 
 <thermaldynamics:relay:0>.addTooltip(format.red("Used with ducts"));
 
-<contenttweaker:crystalline_beryllium>.addTooltip(format.red("requires a freshly-bred 1/1/1 seed that has not been analyzed"));
+<contenttweaker:crystalline_beryllium>.addTooltip(format.red("Requires a freshly-bred 1/1/1 or 10/10/10 seed that has not been analyzed"));
 
 <chickens:spawn_egg>.addTooltip(format.red("It's not consumed in the mechanized coop"));
 
@@ -1866,9 +1864,9 @@
 
 <extrautils2:ingredients:10>.addTooltip(format.red("Right click dirt in a dark area to increase mob spawn rates!"));
 
-<astralsorcery:itemwand>.addTooltip(format.red("Regardless of JEI, you should use astral sorcery marble to craft this"));
+<astralsorcery:itemwand>.addTooltip(format.red("This recipe may bug out, try both astral and chisel marble!"));
 
-<astralsorcery:blockaltar:0>.addTooltip(format.red("Regardless of JEI, you should use astral sorcery marble to craft this"));
+<astralsorcery:blockaltar:0>.addTooltip(format.red("This recipe may bug out, try both astral and chisel marble!"));
 
 <contenttweaker:europa_spinel>.addTooltip(format.red("Obtained from the peaceful oath callstone"));
 
@@ -1955,6 +1953,7 @@
 <projecte:item.pe_destruction_catalyst>.addTooltip(format.red("Use V to increase range, shift+V to reduce range, right click to mine"));
 
 <betterbuilderswands:wandunbreakable>.addTooltip(format.red("Use V to change mode, C to change fluid mode"));
+<betterbuilderswands:wandunbreakable>.addTooltip(format.red("Use /wandOops to undo last step"));
 
 <contenttweaker:bubbell_banner>.addTooltip(format.red("Obtained from the orbital callstone"));
 <contenttweaker:bubbell_banner>.addTooltip(format.red("Thanks to Reclipse for the texture!"));
@@ -1972,3 +1971,40 @@
 <contenttweaker:enchdesc_smite>.addTooltip(format.red("It's DOCTOR PROFESSOR PATRICK!"));
 <contenttweaker:enchdesc_withering>.addTooltip(format.red("Use powered spawners"));
 
+<techreborn:upgrades:0>.addTooltip(format.red("Speeds up the machine"));
+
+<techreborn:upgrades:1>.addTooltip(format.red("Increases energy the machine can accept"));
+
+<techreborn:upgrades:2>.addTooltip(format.red("Increases energy storage"));
+
+<extrautils2:ingredients:10>.addTooltip(format.red("Does not work in void world"));
+
+<divinerpg:nightmare_bed>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN - Place in a dark place"));
+
+<thaumcraft:essentia_output>.addTooltip(format.red("This collects essentia from jars and inputs into machine"));
+
+<thaumcraft:essentia_input>.addTooltip(format.red("This collects essentia from machine and inputs into jars"));
+
+<ebwizardry:oak_bookshelf>.addTooltip(format.red("Do not rotate with wrench - will delete content"));
+<ebwizardry:spruce_bookshelf>.addTooltip(format.red("Do not rotate with wrench - will delete content"));
+<ebwizardry:birch_bookshelf>.addTooltip(format.red("Do not rotate with wrench - will delete content"));
+<ebwizardry:jungle_bookshelf>.addTooltip(format.red("Do not rotate with wrench - will delete content"));
+<ebwizardry:acacia_bookshelf>.addTooltip(format.red("Do not rotate with wrench - will delete content"));
+<ebwizardry:dark_oak_bookshelf>.addTooltip(format.red("Do not rotate with wrench - will delete content"));
+<tfspellpack:twilight_oak_bookshelf>.addTooltip(format.red("Do not rotate with wrench - will delete content"));
+<tfspellpack:canopy_bookshelf>.addTooltip(format.red("Do not rotate with wrench - will delete content"));
+<tfspellpack:mangrove_bookshelf>.addTooltip(format.red("Do not rotate with wrench - will delete content"));
+<tfspellpack:darkwood_bookshelf>.addTooltip(format.red("Do not rotate with wrench - will delete content"));
+<tfspellpack:timewood_bookshelf>.addTooltip(format.red("Do not rotate with wrench - will delete content"));
+<tfspellpack:transwood_bookshelf>.addTooltip(format.red("Do not rotate with wrench - will delete content"));
+<tfspellpack:minewood_bookshelf>.addTooltip(format.red("Do not rotate with wrench - will delete content"));
+<tfspellpack:sortingwood_bookshelf>.addTooltip(format.red("Do not rotate with wrench - will delete content"));
+
+<contenttweaker:aesir_rift>.addTooltip(format.red("Summons the frame for the everburning forge"));
+
+<contenttweaker:arbiterite_crystal>.addTooltip(format.red("You need the aesir rift to build the everburner"));
+
+<contenttweaker:chestbone_encrusted_egg>.addTooltip(format.red("ChaosStrikez cares about TPS lag!"));
+<contenttweaker:legbone_encrusted_egg>.addTooltip(format.red("ChaosStrikez cares about TPS lag!"));
+<contenttweaker:skullbone_encrusted_egg>.addTooltip(format.red("ChaosStrikez cares about TPS lag!"));
+<contenttweaker:footbone_encrusted_egg>.addTooltip(format.red("ChaosStrikez cares about TPS lag!"));

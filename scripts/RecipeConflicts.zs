@@ -435,3 +435,80 @@ recipes.addShaped(<techreborn:nuke>,
 [[<minecraft:gunpowder>, <nuclearcraft:fuel_uranium:7>, <minecraft:gunpowder>],
 [<nuclearcraft:fuel_uranium:7>, <minecraft:gunpowder>, <nuclearcraft:fuel_uranium:7>],
 [<minecraft:gunpowder>, <nuclearcraft:fuel_uranium:7>, <minecraft:gunpowder>]]);
+
+
+mods.nuclearcraft.melter.addRecipe([<tconstruct:ore:1>, <fluid:ardite>*288]);
+mods.nuclearcraft.melter.addRecipe([<tconstruct:ingots:1>, <fluid:ardite>*144]);
+
+mods.nuclearcraft.melter.addRecipe([<tconstruct:ore:0>, <fluid:cobalt>*288]);
+mods.nuclearcraft.melter.addRecipe([<tconstruct:ingots:0>, <fluid:cobalt>*144]);
+
+mods.nuclearcraft.manufactory.addRecipe([<aoa3:gemenyte>, <contenttweaker:gemenyte_dust>]);
+mods.nuclearcraft.manufactory.addRecipe([<aoa3:jewelyte>, <contenttweaker:jewelyte_dust>]);
+mods.nuclearcraft.manufactory.addRecipe([<aoa3:ornamyte>, <contenttweaker:ornamyte_dust>]);
+
+recipes.removeShapeless(<actuallyadditions:item_dust:7>, 
+[<actuallyadditions:block_misc:3>, <thermalfoundation:material:1027>]);
+
+mods.nuclearcraft.melter.removeRecipeWithInput([<libvulpes:productingot:7>]);
+mods.nuclearcraft.melter.removeRecipeWithInput([<techreborn:ingot:14>]);
+mods.nuclearcraft.melter.removeRecipeWithInput([<libvulpes:productdust:7>]);
+mods.nuclearcraft.melter.removeRecipeWithInput([<techreborn:dust:54>]);
+mods.nuclearcraft.melter.addRecipe([<libvulpes:productingot:7>, <fluid:molten_titanium>*144]);
+mods.nuclearcraft.melter.addRecipe([<techreborn:ingot:14>, <fluid:molten_titanium>*144]);
+mods.nuclearcraft.melter.addRecipe([<libvulpes:productdust:7>, <fluid:molten_titanium>*144]);
+mods.nuclearcraft.melter.addRecipe([<techreborn:dust:54>, <fluid:molten_titanium>*144]);
+
+recipes.addShapeless(<techreborn:sapphirepickaxe>,
+[<projectred-exploration:sapphire_pickaxe>]);
+recipes.addShapeless(<projectred-exploration:sapphire_pickaxe>,
+[<techreborn:sapphirepickaxe>]);
+
+recipes.addShapeless(<projectred-exploration:sapphire_axe>,
+[<techreborn:sapphireaxe>]);
+recipes.addShapeless(<techreborn:sapphireaxe>,
+[<projectred-exploration:sapphire_axe>]);
+
+recipes.addShapeless(<techreborn:sapphirespade>,
+[<projectred-exploration:sapphire_shovel>]);
+recipes.addShapeless(<projectred-exploration:sapphire_shovel>,
+[<techreborn:sapphirespade>]);
+
+recipes.addShapeless(<projectred-exploration:sapphire_hoe>,
+[<techreborn:sapphirehoe>]);
+recipes.addShapeless(<techreborn:sapphirehoe>,
+[<projectred-exploration:sapphire_hoe>]);
+
+recipes.addShapeless(<techreborn:sapphiresword>,
+[<projectred-exploration:sapphire_sword>]);
+recipes.addShapeless(<projectred-exploration:sapphire_sword>,
+[<techreborn:sapphiresword>]);
+
+recipes.addShapeless(<projectred-exploration:sapphire_helmet>,
+[<techreborn:sapphirehelmet>]);
+recipes.addShapeless(<techreborn:sapphirehelmet>,
+[<projectred-exploration:sapphire_helmet>]);
+
+recipes.addShapeless(<techreborn:sapphirechestplate>,
+[<projectred-exploration:sapphire_chestplate>]);
+recipes.addShapeless(<projectred-exploration:sapphire_chestplate>,
+[<techreborn:sapphirechestplate>]);
+
+recipes.addShapeless(<projectred-exploration:sapphire_leggings>,
+[<techreborn:sapphireleggings>]);
+recipes.addShapeless(<techreborn:sapphireleggings>,
+[<projectred-exploration:sapphire_leggings>]);
+
+recipes.addShapeless(<techreborn:sapphireboots>,
+[<projectred-exploration:sapphire_boots>]);
+recipes.addShapeless(<projectred-exploration:sapphire_boots>,
+[<techreborn:sapphireboots>]);
+
+mods.nuclearcraft.melter.addRecipe([<twilightforest:knightmetal_ingot>, <fluid:knightmetal>*144]);
+mods.thermalexpansion.Crucible.addRecipe(<fluid:knightmetal>*144, <twilightforest:knightmetal_ingot>, 421);
+
+mods.nuclearcraft.manufactory.addRecipe([<ore:stoneBasalt>, <techreborn:dust:4>]);
+
+mods.nuclearcraft.manufactory.addRecipe([<ore:stoneMarble>, <techreborn:dust:32>]);
+
+mods.nuclearcraft.melter.addRecipe([<tconstruct:ingots:3>, <fluid:knightslime>*144]);

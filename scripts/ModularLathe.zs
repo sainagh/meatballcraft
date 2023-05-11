@@ -182,7 +182,7 @@ lathe30.build();
 
 val lathe31 = RecipeBuilder.newBuilder("lathe31","aluminum_lathe",20);
 lathe31.addEnergyPerTickInput(2000);
-lathe31.addItemInput(<ore:ingotHotVivraniumAlloy>);
+lathe31.addItemInput(<ore:ingotHotVibraniumAlloy>);
 lathe31.addItemOutput(<materialpart:hot_vibranium_alloy:rod>*2);
 lathe31.build();
 

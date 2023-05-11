@@ -8,6 +8,6 @@ excavationcompdem.build();
 
 val excavationcomptul = RecipeBuilder.newBuilder("excavationcomptul","mythic_excavation_computer_multiblock",200);
 excavationcomptul.addEnergyPerTickInput(1000000);
-excavationcomptul.addItemInput(<extendedcrafting:storage:4>);
+excavationcomptul.addItemInput(<avaritia:block_resource:0>);
 excavationcomptul.addItemOutput(<contenttweaker:eternal_tulite>);
 excavationcomptul.build();
