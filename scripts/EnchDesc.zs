@@ -227,3 +227,5 @@ var enchdesc_manabound = VanillaFactory.createItem("enchdesc_manabound");
 enchdesc_manabound.register();
 var enchdesc_headhunter = VanillaFactory.createItem("enchdesc_headhunter");
 enchdesc_headhunter.register();
+var enchdesc_aerial_affinity = VanillaFactory.createItem("enchdesc_aerial_affinity");    
+enchdesc_aerial_affinity.register();    

@@ -66,3 +66,30 @@ finemwarper.itemRightClick = function(stack, world, player, hand) {
 	return "Pass";
 };
 finemwarper.register();
+
+
+var imstuckgetmehome = VanillaFactory.createItem("imstuck_getmehome");
+imstuckgetmehome.maxStackSize = 1;
+imstuckgetmehome.glowing = true;
+imstuckgetmehome.itemRightClick = function(stack, world, player, hand) {
+
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 684) {
+		if(player.getDimension() != 685) {
+			if(player.getDimension() != 686) {
+				if(player.getDimension() != 687) {
+					if(player.getDimension() != 66) {
+        				player.sendChat("This will get you unstuck from a dimensional door, the erebus, and the limbo");
+        				return "FAIL";
+					}
+				}
+			}
+		}
+    }
+	Commands.call("cofh tpx @p 0", player, world, true, true);
+	return "Pass";
+};
+imstuckgetmehome.register();

@@ -1,0 +1,55 @@
+{
+  "name": "cm3tr:fluid_replicator",
+
+  "disabled": false,
+
+  "target-item": "techreborn:fluid_replicator",
+  "target-count": 1,
+  "target-meta": 0,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+
+
+  "input-types": {
+    "a": {
+      "id": "techreborn:fluid_replicator",
+      "meta": 4,
+      "item": {
+        "id": "techreborn:fluid_replicator",
+        "count": 1
+      }
+    },
+    "b": {
+      "id": "techreborn:machine_casing",
+      "meta": 1
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "a",
+        "_"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "_",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ]
+    ]
+  ]
+}

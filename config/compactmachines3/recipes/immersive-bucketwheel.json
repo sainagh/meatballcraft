@@ -1,0 +1,105 @@
+{
+  "name": "cm3immersive:bucketwheel",
+
+  "disabled": false,
+
+  "target-item": "immersiveengineering:metal_multiblock",
+  "target-count": 1,
+   "target-meta": 12,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+  "input-types": {
+    "a": {
+      "id": "thermalfoundation:storage_alloy",
+      "meta": 0
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "a",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "a",
+        "b",
+        "b",
+        "b",
+        "a",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "b",
+        "b",
+        "_"
+      ]
+    ],
+    [
+      [
+        "a",
+        "b",
+        "b",
+        "a",
+        "b",
+        "b",
+        "a"
+      ]
+    ],
+    [
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "b",
+        "b",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "a",
+        "b",
+        "b",
+        "b",
+        "a",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "a",
+        "_",
+        "_",
+        "_"
+      ]
+    ]
+  ]
+}

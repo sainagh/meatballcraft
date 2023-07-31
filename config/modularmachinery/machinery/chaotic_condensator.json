@@ -8,10 +8,10 @@
             "x": 0,
             "y": 0,
             "z": 2,
-            "description": "Replace charged draconium to make a lot more shards",
+            "description": "Replace charged draconium to make a lot more shards, 15X",
             "modifier": {
                 "io": "output",
-                "target": "item",
+                "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 15.0
             }
@@ -559,7 +559,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "draconicevolution:draconium_block@1"
+                "contenttweaker:charged_draconium_block"
             ]
         },
         {

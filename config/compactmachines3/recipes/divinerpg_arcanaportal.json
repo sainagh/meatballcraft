@@ -1,0 +1,71 @@
+{
+    "name": "compactmachines3:divinerpg_arcanaportal",
+    "target-item": "divinerpg:arcana_portal_frame",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+    "input-types": {
+      "a": {
+        "id": "divinerpg:arcana_portal_frame",
+        "meta": 0
+      },
+      "b": {
+        "id": "divinerpg:arcana_portal_frame",
+        "meta": 0
+      },
+      "d": {
+        "id": "divinerpg:arcana_portal_frame",
+        "meta": 0
+      },
+      "e": {
+        "id": "divinerpg:arcana_portal_frame",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "d",
+          "d",
+          "d",
+          "_"
+        ],
+        [
+          "e",
+          "_",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "e",
+          "_",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "e",
+          "_",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "_",
+          "b",
+          "b",
+          "b",
+          "_"
+        ]
+      ]
+    ]
+    
+}

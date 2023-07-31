@@ -1,0 +1,176 @@
+{
+  "name": "cm3tr:industrial_sawmill",
+
+  "disabled": false,
+
+  "target-item": "techreborn:industrial_sawmill",
+  "target-count": 1,
+  "target-meta": 0,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+
+
+  "input-types": {
+    "a": {
+      "id": "techreborn:industrial_sawmill",
+      "meta": 8,
+      "item": {
+        "id": "techreborn:industrial_sawmill",
+        "count": 1
+      }
+    },
+    "b": {
+      "id": "techreborn:machine_casing",
+      "meta": 0
+    },
+    "c": {
+      "id": "techreborn:machine_casing",
+      "meta": 1
+    },
+    "d": {
+      "id": "techreborn:industrial_sawmill",
+      "meta": 6,
+      "item": {
+        "id": "techreborn:industrial_sawmill",
+        "count": 1
+      }
+    },
+    "e": {
+      "id": "minecraft:water",
+      "meta": 0
+    },
+    "f": {
+      "id": "techreborn:industrial_sawmill",
+      "meta": 7,
+      "item": {
+        "id": "techreborn:industrial_sawmill",
+        "count": 1
+      }
+    },
+    "g": {
+      "id": "techreborn:industrial_sawmill",
+      "meta": 5,
+      "item": {
+        "id": "techreborn:industrial_sawmill",
+        "count": 1
+      }
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "a",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "c",
+        "c",
+        "c",
+        "_"
+      ],
+      [
+        "f",
+        "c",
+        "e",
+        "c",
+        "d"
+      ],
+      [
+        "_",
+        "c",
+        "c",
+        "c",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "g",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ]
+  ]
+}

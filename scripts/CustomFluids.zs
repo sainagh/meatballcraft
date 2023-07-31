@@ -637,3 +637,9 @@ highpressureenergeticfluid.register();
 
 var moltentitanium = VanillaFactory.createFluid("molten_titanium", Color.fromHex("b6ccc4"));
 moltentitanium.register();
+
+var recursiveexperience = VanillaFactory.createFluid("recursive_life_essence", Color.fromHex("99d117"));
+recursiveexperience.register();
+
+var crystallizedobsidian = VanillaFactory.createFluid("crystallized_obsidian", Color.fromHex("302166"));
+crystallizedobsidian.register();

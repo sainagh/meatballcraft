@@ -8,10 +8,10 @@
             "x": 0,
             "y": 0,
             "z": -2,
-            "description": "Replace bottom middle block on wall in front of controller \n to increase machine speed",
+            "description": "Replace bottom middle block on wall in front of controller \n to increase machine speed, 6X faster!",
             "modifier": {
-                "io": "output",
-                "target": "duration",
+                "io": "input",
+                "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.15
             }

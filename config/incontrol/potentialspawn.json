@@ -1,13 +1,3 @@
 [
-    {
-        "dimension": 170,
-        "mobs": [
-            {
-                "mob": "minecraft:guardian",
-                "weight": 5,
-                "groupcountmin": 1,
-                "groupcountmax": 8
-            }
-        ]
-    }
+
 ]

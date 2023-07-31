@@ -1254,6 +1254,7 @@
       "aoa3:crystocore",
       "aoa3:tyrosaur",
       "aoa3:flash",
+      "abyssalcraft:shadowboss",
       "aoa3:goldorth",
       "aoa3:guardian",
       "aoa3:hydrolisk",
@@ -1268,7 +1269,7 @@
     "result": "allow",
     "potion": ["minecraft:strength,999999,1",
       "minecraft:regeneration,50,255", 
-      "minecraft:health_boost,999999,100", 
+      "minecraft:health_boost,999999,250", 
       "minecraft:fire_resistance,999999,1",
       "minecraft:magic_resistance,999999,1",
       "minecraft:regeneration,999999,1"]
@@ -1282,7 +1283,6 @@
       "aoa3:dracyon",
       "aoa3:clunkhead",
       "aoa3:penumbra",
-      "abyssalcraft:shadowboss",
       "aoa3:sysker",
       "aoa3:ghastus",
       "aoa3:urv",
@@ -1344,21 +1344,27 @@
   },
 
   {
-    "dimension": 170,
-    "mob": "minecraft:guardian",
+    "mob": "forestry:butterflyge",
     "mincount": {
-      "amount": 30,
-      "mob": "minecraft:guardian",
+      "amount": 10,
+      "mob": "forestry:butterflyge",
       "perplayer": true
     },
     "result": "deny"
   },
 
   {
-    "mob": "forestry:butterflyge",
+    "dimension": 181,
+    "mob": [
+        "aoa3:sea_spider",
+        "divinerpg:hell_spider",
+        "divinerpg:soul_spider",
+        "divinerpg:jungle_spider",
+        "divinerpg:ender_spider"
+    ],
     "mincount": {
-      "amount": 10,
-      "mob": "forestry:butterflyge",
+      "amount": 35,
+      "hostile": true,
       "perplayer": true
     },
     "result": "deny"

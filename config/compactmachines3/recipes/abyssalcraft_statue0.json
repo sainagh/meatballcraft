@@ -1,0 +1,62 @@
+{
+    "name": "compactmachines3:abyssalcraft_statue0",
+    "target-item": "abyssalcraft:statue",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+  "input-types": {
+    "a": {
+      "id": "abyssalcraft:statue",
+      "meta": 0
+    },
+    "b": {
+      "id": "abyssalcraft:stone",
+      "meta": 7
+    },
+    "c": {
+      "id": "minecraft:wool",
+      "meta": 0,
+      "item": {
+          "id": "contenttweaker:to_make_statues_safe",
+          "count": 1
+        }
+    }
+  },
+
+  "shape": [
+    [
+      [
+        "a"
+      ]
+    ],
+    [
+      [
+        "a"
+      ]
+    ],
+    [
+      [
+        "a"
+      ]
+    ],
+    [
+      [
+        "b"
+      ]
+    ],
+    [
+      [
+        "c"
+      ]
+    ]
+  ]
+
+
+ 
+    
+}

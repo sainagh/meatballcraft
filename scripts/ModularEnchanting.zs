@@ -54,7 +54,7 @@ val array78 as IEnchantmentDefinition[] = [<enchantment:aoa3:sever>];
 val array79 as IEnchantmentDefinition[] = [<enchantment:aoa3:brace>];
 val array80 as IEnchantmentDefinition[] = [<enchantment:ebwizardry:frost_protection>];
 val array81 as IEnchantmentDefinition[] = [<enchantment:abyssalcraft:sapping>];
-val array82 as IEnchantmentDefinition[] = [<enchantment:cyclicmagic:enchantment.reach>];
+// val array82 as IEnchantmentDefinition[] = [<enchantment:cyclicmagic:enchantment.reach>];
 val array83 as IEnchantmentDefinition[] = [<enchantment:cofhcore:holding>];
 val array84 as IEnchantmentDefinition[] = [<enchantment:abyssalcraft:iron_wall>];
 val array85 as IEnchantmentDefinition[] = [<enchantment:aoa3:shell>];
@@ -263,10 +263,10 @@ var map81 as IData = {};
 for ench in array81 {
 	map81 += ench.makeEnchantment(3).makeTag();
 }
-var map82 as IData = {};
-for ench in array82 {
-	map82 += ench.makeEnchantment(1).makeTag();
-}
+// var map82 as IData = {};
+// for ench in array82 {
+// 	map82 += ench.makeEnchantment(1).makeTag();
+// }
 var map83 as IData = {};
 for ench in array83 {
 	map83 += ench.makeEnchantment(4).makeTag();

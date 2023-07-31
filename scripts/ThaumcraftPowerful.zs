@@ -60,3 +60,12 @@ mods.thaumcraft.Infusion.registerRecipe("maketaintcallstone", "",
 <thaumadditions:mithminite_plate>, <contenttweaker:vibrating_stone>, 
 <thaumadditions:mithminite_plate>, <contenttweaker:vibrating_stone>, 
 <thaumadditions:mithminite_plate>, <contenttweaker:vibrating_stone>]);
+
+mods.thaumcraft.Infusion.registerRecipe("makesoapbeecallstone", "", 
+<contenttweaker:cleansing_callstone>, 10,
+[<aspect:cognitio>*200, <aspect:ordo>*175, <aspect:alienis>*150, <aspect:victus>*125], 
+<contenttweaker:abyssal_wasteland_warp_cleanser>, 
+[<thaumcraft:sanity_soap>, <thaumcraft:sanity_soap>, 
+<thaumcraft:sanity_soap>, <thaumcraft:sanity_soap>, 
+<ore:blockVoid>, <ore:blockVoid>, 
+<ore:blockVoid>, <ore:blockVoid>]);

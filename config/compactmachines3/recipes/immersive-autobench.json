@@ -1,0 +1,95 @@
+{
+  "name": "cm3immersive:autobench",
+
+  "disabled": false,
+
+  "target-item": "immersiveengineering:metal_multiblock",
+  "target-count": 1,
+   "target-meta": 5,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "b": {
+      "id": "immersiveengineering:conveyor",
+      "meta": 0,
+      "item": {
+        "id": "immersiveengineering:conveyor",
+        "nbt": "{conveyorType: \"immersiveengineering:conveyor\"}",
+        "meta": 0,
+        "count": 4
+      }
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "d": {
+      "id": "immersiveengineering:treated_wood_slab",
+      "meta": 0
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 5
+    }
+  },
+  "input-nbt": {
+    "b:A": {
+      "nbt": "{conveyorBeltSubtypeNBT:{dyeColour:-1,direction:0},ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},facing:3,conveyorBeltSubtype:\"immersiveengineering:conveyor\",id:\"immersiveengineering:conveyorbelt\"}"
+    },
+    "d:A": {
+      "nbt": "{ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"immersiveengineering:ieslab\",slabType:0}"
+    },
+    "b:B": {
+      "nbt": "{conveyorBeltSubtypeNBT:{dyeColour:-1,direction:0},ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},facing:5,conveyorBeltSubtype:\"immersiveengineering:conveyor\",id:\"immersiveengineering:conveyorbelt\"}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "d:A",
+        "b:A",
+        "f"
+      ],
+      [
+        "d:A",
+        "b:A",
+        "b:B"
+      ],
+      [
+        "a",
+        "a",
+        "b:A"
+      ]
+    ],
+    [
+      [
+        "c",
+        "c",
+        "f"
+      ],
+      [
+        "e",
+        "c",
+        "c"
+      ],
+      [
+        "a",
+        "a",
+        "c"
+      ]
+    ]
+  ]
+}

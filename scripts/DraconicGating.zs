@@ -198,3 +198,11 @@ mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:wyvern_core>*8,
 [<bewitchment:cold_iron_ingot>, null, null, <draconicevolution:draconic_core>, null, null, <ore:ingotIceDragonsteel>], 
 [null, <extendedcrafting:material:40>, null, <draconicevolution:draconic_core>, null, <extendedcrafting:material:40>, null], 
 [<draconicevolution:draconium_block>, null, <ore:ingotFireDragonsteel>, null, <bewitchment:cold_iron_ingot>, null, <draconicevolution:draconium_block>]]);  
+
+recipes.removeShaped(<draconicevolution:diss_enchanter>);
+
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:diss_enchanter>, 
+[[<minecraft:emerald>, <divinerpg:corrupted_stone>, <minecraft:emerald>], 
+[<minecraft:enchanted_book>, <minecraft:enchanting_table>, <minecraft:enchanted_book>], 
+[<ore:bookshelf>, <ore:bookshelf>, <ore:bookshelf>]]);  
+

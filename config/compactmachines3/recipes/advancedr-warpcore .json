@@ -1,0 +1,95 @@
+{
+  "name": "cm3ar:warpcore",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:warpcore",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+
+  "input-types": {
+    "a": {
+      "id": "techreborn:storage",
+      "meta": 2
+    },
+    "b": {
+      "id": "libvulpes:structuremachine",
+      "meta": 0
+    },
+    "c": {
+      "id": "advancedrocketry:warpcore",
+      "meta": 4,
+      "item": {
+        "id": "advancedrocketry:warpcore",
+        "count": 1
+      }
+    },
+    "d": {
+      "id": "libvulpes:hatch",
+      "meta": 0
+    },
+    "e": {
+      "id": "minecraft:gold_block",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "d",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "b",
+        "e",
+        "b"
+      ],
+      [
+        "_",
+        "b",
+        "_"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "e",
+        "a"
+      ],
+      [
+        "a",
+        "c",
+        "a"
+      ]
+    ]
+  ]
+}

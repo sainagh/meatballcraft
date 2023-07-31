@@ -515,5 +515,18 @@
             "contenttweaker:nethengeic_gem",
             "contenttweaker:nethengeic_gem"
         ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:promethium_shard",
+        "catalyst": "draconicevolution:chaos_shard,1,1",
+        "energy": 100000000,
+        "tier": 2,
+        "ingredients": [
+            "ore:ingotPromethium",
+            "ore:ingotPromethium",
+            "ore:ingotPromethium",
+            "ore:ingotPromethium"
+        ]
     }
 ]

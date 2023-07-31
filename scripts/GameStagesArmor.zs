@@ -777,8 +777,8 @@ hardmodegroup.addEntity(minerdiv);
 hardmodegroup.addEntity(kingcharger);
 hardmodegroup.addEntity(nethengeicbeast);
 hardmodegroup.addArmor(ArmorHandler.createArmorSlot("head", <contenttweaker:sacrifice_metal_head>, 1, 0.0)); 
-hardmodegroup.addArmor(ArmorHandler.createArmorSlot("chest", <contenttweaker:sacrifice_metal_chest>, 1, 0.0)); 
-hardmodegroup.addArmor(ArmorHandler.createArmorSlot("legs", <contenttweaker:sacrifice_metal_legs>.withTag({ench: [{lvl: 1 as short, id: 70 as short}, {lvl: 15 as short, id: 34 as short}, {lvl: 30 as short, id: 7 as short}]}), 1, 0.0)); 
+hardmodegroup.addArmor(ArmorHandler.createArmorSlot("chest", <contenttweaker:sacrifice_metal_chest>.withTag({ench: [{lvl: 1 as short, id: 70 as short}, {lvl: 15 as short, id: 34 as short}, {lvl: 20 as short, id: 7 as short}]}), 1, 0.0)); 
+hardmodegroup.addArmor(ArmorHandler.createArmorSlot("legs", <contenttweaker:sacrifice_metal_legs>.withTag({ench: [{lvl: 1 as short, id: 70 as short}, {lvl: 15 as short, id: 34 as short}, {lvl: 20 as short, id: 7 as short}]}), 1, 0.0)); 
 hardmodegroup.addArmor(ArmorHandler.createArmorSlot("feet", <contenttweaker:sacrifice_metal_feet>, 1, 0.0)); 
 hardmodegroup.addGameStage("hardmode");
 
@@ -909,10 +909,10 @@ hardmodegroupmid.addEntity(soulvyre);
 hardmodegroupmid.addEntity(stimulo);
 hardmodegroupmid.addEntity(stimulosus);
 hardmodegroupmid.addEntity(sysker);
-hardmodegroupmid.addArmor(ArmorHandler.createArmorSlot("head", <contenttweaker:sideral_damascus_steel_head>, 1, 0.005)); 
-hardmodegroupmid.addArmor(ArmorHandler.createArmorSlot("chest", <contenttweaker:sideral_damascus_steel_chest>.withTag({ench: [{lvl: 1 as short, id: 70 as short}, {lvl: 15 as short, id: 34 as short}, {lvl: 30 as short, id: 7 as short}]}), 1, 0.005)); 
-hardmodegroupmid.addArmor(ArmorHandler.createArmorSlot("legs", <contenttweaker:sideral_damascus_steel_legs>.withTag({ench: [{lvl: 1 as short, id: 70 as short}, {lvl: 15 as short, id: 34 as short}, {lvl: 30 as short, id: 7 as short}]}), 1, 0.005)); 
-hardmodegroupmid.addArmor(ArmorHandler.createArmorSlot("feet", <contenttweaker:sideral_damascus_steel_feet>, 1, 0.005)); 
+hardmodegroupmid.addArmor(ArmorHandler.createArmorSlot("head", <contenttweaker:sideral_damascus_steel_head>.withTag({ench: [{lvl: 1 as short, id: 70 as short}, {lvl: 15 as short, id: 34 as short}, {lvl: 20 as short, id: 7 as short}]}), 1, 0.05)); 
+hardmodegroupmid.addArmor(ArmorHandler.createArmorSlot("chest", <contenttweaker:sideral_damascus_steel_chest>.withTag({ench: [{lvl: 1 as short, id: 70 as short}, {lvl: 15 as short, id: 34 as short}, {lvl: 20 as short, id: 7 as short}]}), 1, 0.05)); 
+hardmodegroupmid.addArmor(ArmorHandler.createArmorSlot("legs", <contenttweaker:sideral_damascus_steel_legs>.withTag({ench: [{lvl: 1 as short, id: 70 as short}, {lvl: 15 as short, id: 34 as short}, {lvl: 20 as short, id: 7 as short}]}), 1, 0.05)); 
+hardmodegroupmid.addArmor(ArmorHandler.createArmorSlot("feet", <contenttweaker:sideral_damascus_steel_feet>.withTag({ench: [{lvl: 1 as short, id: 70 as short}, {lvl: 15 as short, id: 34 as short}, {lvl: 20 as short, id: 7 as short}]}), 1, 0.05)); 
 hardmodegroupmid.addGameStage("hardmode");
 
 

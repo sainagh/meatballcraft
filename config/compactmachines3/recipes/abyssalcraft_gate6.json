@@ -1,0 +1,126 @@
+{
+    "name": "compactmachines3:abyssalcraft_gate6",
+    "target-item": "abyssalcraft:statue",
+    "target-meta": 6,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "abyssalcraft:darkcobbleslab1",
+        "meta": 0
+      },
+      "b": {
+        "id": "abyssalcraft:dcstairs",
+        "meta": 0
+      },
+      "c": {
+        "id": "abyssalcraft:dscwall",
+        "meta": 0
+      },
+      "d": {
+        "id": "minecraft:wool",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:any_cobblestone_abyssalcraft",
+            "count": 1
+          }
+      },
+      "e": {
+        "id": "abyssalcraft:dcstairs",
+        "meta": 5
+      },
+      "f": {
+        "id": "minecraft:stone",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:to_make_statues_safe",
+            "count": 1
+          }
+      },
+      "g": {
+        "id": "abyssalcraft:darkcobbleslab1",
+        "meta": 8
+      },
+      "h": {
+        "id": "abyssalcraft:statue",
+        "meta": 6
+      },
+      "i": {
+        "id": "abyssalcraft:stone",
+        "meta": 7
+      },
+      "j": {
+        "id": "abyssalcraft:dcstairs",
+        "meta": 4
+      },
+      "k": {
+        "id": "abyssalcraft:dcstairs",
+        "meta": 1
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "a",
+          "a",
+          "a",
+          "a",
+          "a"
+        ]
+      ],
+      [
+        [
+          "b",
+          "e",
+          "g",
+          "j",
+          "k"
+        ]
+      ],
+      [
+        [
+          "c",
+          "_",
+          "_",
+          "_",
+          "c"
+        ]
+      ],
+      [
+        [
+          "c",
+          "_",
+          "h",
+          "_",
+          "c"
+        ]
+      ],
+      [
+        [
+          "c",
+          "_",
+          "i",
+          "_",
+          "c"
+        ]
+      ],
+      [
+        [
+          "d",
+          "f",
+          "d",
+          "f",
+          "d"
+        ]
+      ]
+    ]
+      
+}

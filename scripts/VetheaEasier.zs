@@ -37,11 +37,6 @@ recipes.addShaped(<minecraft:string>*16,
 [<divinerpg:hyrewood_log>, <divinerpg:clean_pearls>, <divinerpg:hyrewood_log>],
 [null, <divinerpg:clean_pearls>, null]]);
 
-recipes.addShaped(<projecte:item.pe_philosophers_stone>,
-[[<tconstruct:materials:0>, <divinerpg:clean_pearls>, <tconstruct:materials:0>],
-[<divinerpg:pardimal_lump>, <divinerpg:pardimal_lump>, <divinerpg:pardimal_lump>],
-[<tconstruct:materials:0>, <divinerpg:clean_pearls>, <tconstruct:materials:0>]]);
-
 mods.appliedenergistics2.Grinder.addRecipe(<minecraft:cobblestone>*2, 
 <divinerpg:dream_stone>, 
 4, 
@@ -173,6 +168,92 @@ recipes.addShaped(<contenttweaker:recursion_fragment_vethea>,
 [[<divinerpg:mortum_soul>, <bewitchment:catechu_brown>, <divinerpg:mortum_soul>],
 [<bewitchment:catechu_brown>, <contenttweaker:vethea_wormhole>, <bewitchment:catechu_brown>],
 [<divinerpg:mortum_soul>, <bewitchment:catechu_brown>, <divinerpg:mortum_soul>]]);
+
+
+mods.thermalexpansion.Pulverizer.addRecipe(<erebus:dust>*15, <minecraft:sand>, 100);
+
+recipes.addShaped(<nuclearcraft:rtg_uranium>,
+[[<divinerpg:dirty_pearls>, <erebus:dust>, <divinerpg:dirty_pearls>],
+[<erebus:dust>, <divinerpg:amthirmis_lump>, <erebus:dust>],
+[<divinerpg:dirty_pearls>, <erebus:dust>, <divinerpg:dirty_pearls>]]);
+
+recipes.addShaped(<buildcrafttransport:pipe_wood_item>*10,
+[[null, null, null],
+[<divinerpg:firewood_log>, <divinerpg:dirty_pearls>, <divinerpg:firewood_log>],
+[null, null, null]]);
+
+recipes.addShaped(<buildcrafttransport:pipe_cobble_item>*10,
+[[null, null, null],
+[<ore:cobblestone>, <divinerpg:dirty_pearls>, <ore:cobblestone>],
+[null, null, null]]);
+
+recipes.addShaped(<buildcrafttransport:waterproof>*10,
+[[<tconstruct:materials:0>, <erebus:dust>, <tconstruct:materials:0>],
+[<erebus:dust>, <divinerpg:clean_pearls>, <erebus:dust>],
+[<tconstruct:materials:0>, <erebus:dust>, <tconstruct:materials:0>]]);
+
+recipes.addShaped(<thermalexpansion:machine:1>,
+[[<tconstruct:materials:0>, <erebus:dust>, <tconstruct:materials:0>],
+[<erebus:dust>, <divinerpg:clean_pearls>, <erebus:dust>],
+[<divinerpg:clean_pearls>, <appliedenergistics2:grindstone>, <divinerpg:clean_pearls>]]);
+
+recipes.addShaped(<thermalexpansion:machine:1>,
+[[<tconstruct:materials:0>, <erebus:dust>, <tconstruct:materials:0>],
+[<erebus:dust>, <divinerpg:clean_pearls>, <erebus:dust>],
+[<divinerpg:clean_pearls>, <appliedenergistics2:grindstone>, <divinerpg:clean_pearls>]]);
+
+recipes.addShaped(<thermalexpansion:machine:0>,
+[[<tconstruct:materials:0>, <erebus:dust>, <tconstruct:materials:0>],
+[<erebus:dust>, <divinerpg:clean_pearls>, <erebus:dust>],
+[<divinerpg:clean_pearls>, <minecraft:furnace>, <divinerpg:clean_pearls>]]);
+
+
+recipes.addShaped(<buildcraftcore:engine:0>,
+[[<divinerpg:hyrewood_log>, <divinerpg:hyrewood_log>, <divinerpg:hyrewood_log>],
+[null, <divinerpg:dirty_pearls>, null],
+[<divinerpg:firewood_log>, <minecraft:redstone>, <divinerpg:firewood_log>]]);
+
+recipes.addShapeless(<minecraft:lever>,
+[<ore:cobblestone>, <divinerpg:dreamwood_log>]);
+
+recipes.addShaped(<thermaldynamics:duct_0:0>*32,
+[[<divinerpg:teaker_lump>, <divinerpg:teaker_lump>, <divinerpg:teaker_lump>],
+[<minecraft:redstone>, <tconstruct:materials:0>, <minecraft:redstone>],
+[<divinerpg:teaker_lump>, <divinerpg:teaker_lump>, <divinerpg:teaker_lump>]]);
+
+recipes.addShaped(<tconstruct:tough_tool_rod>.withTag({Material: "jade"}),
+[[<divinerpg:darven_lump>, <divinerpg:darven_lump>, <divinerpg:darven_lump>],
+[<extrautils2:compressedsand:1>, <tconstruct:materials:0>, <extrautils2:compressedsand:1>],
+[<divinerpg:darven_lump>, <divinerpg:darven_lump>, <divinerpg:darven_lump>]]);
+
+recipes.addShaped(<plustic:battery_cell>.withTag({Material: "endrod"}),
+[[<divinerpg:darven_lump>, <divinerpg:darven_lump>, <divinerpg:darven_lump>],
+[<extrautils2:compressedsand:1>, <minecraft:redstone>, <extrautils2:compressedsand:1>],
+[<divinerpg:darven_lump>, <divinerpg:darven_lump>, <divinerpg:darven_lump>]]);
+
+recipes.addShaped(<plustic:pipe_piece>.withTag({Material: "titanium"}),
+[[<divinerpg:darven_lump>, <divinerpg:darven_lump>, <divinerpg:darven_lump>],
+[<extrautils2:compressedsand:1>, <minecraft:quartz_block>, <extrautils2:compressedsand:1>],
+[<divinerpg:darven_lump>, <divinerpg:darven_lump>, <divinerpg:darven_lump>]]);
+
+recipes.addShaped(<plustic:laser_medium>.withTag({Material: "starmetal"}),
+[[<divinerpg:darven_lump>, <divinerpg:darven_lump>, <divinerpg:darven_lump>],
+[<extrautils2:compressedsand:1>, <divinerpg:clean_pearls>, <extrautils2:compressedsand:1>],
+[<divinerpg:darven_lump>, <divinerpg:darven_lump>, <divinerpg:darven_lump>]]);
+
+recipes.addShaped(<thermalexpansion:machine:9>,
+[[<minecraft:redstone>, <erebus:dust>, <minecraft:redstone>],
+[<erebus:dust>, <divinerpg:clean_pearls>, <erebus:dust>],
+[<divinerpg:darven_lump>, <minecraft:furnace>, <divinerpg:darven_lump>]]);
+
+recipes.addShaped(<tconstruct:toolforge>.withTag({textureBlock: {id: "aoa3:lunar_block", Count: 1, Damage: 0 as short}}),
+[[<minecraft:redstone>, <erebus:dust>, <minecraft:redstone>],
+[<erebus:dust>, <divinerpg:dirty_pearls>, <erebus:dust>],
+[<divinerpg:darven_lump>, <minecraft:crafting_table>, <divinerpg:darven_lump>]]);
+
+
+
+
 
 
 // player interfaces

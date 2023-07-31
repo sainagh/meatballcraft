@@ -1,0 +1,63 @@
+{
+    "name": "compactmachines3:aether_portal",
+    "target-item": "aether_legacy:skyroot_bucket",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:glowstone",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "a",
+          "a",
+          "a",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "_",
+          "_",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "_",
+          "_",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "_",
+          "_",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "a",
+          "a",
+          "a"
+        ]
+      ]
+    ]
+     
+}

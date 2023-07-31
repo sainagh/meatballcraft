@@ -1,0 +1,41 @@
+{
+    "name": "compactmachines3:botania_alchemycatalyst",
+    "target-item": "botania:alchemycatalyst",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+
+    "input-types": {
+      "a": {
+        "id": "botania:pool",
+        "meta": 0,
+        "item": {
+            "id": "botania:pool",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "botania:alchemycatalyst",
+        "meta": 0
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "b"
+        ]
+      ]
+    ]
+      
+}

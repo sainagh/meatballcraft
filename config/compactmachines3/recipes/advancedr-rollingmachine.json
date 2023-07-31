@@ -1,0 +1,107 @@
+{
+  "name": "cm3ar:rollingmachine",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:rollingmachine",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+
+  "input-types": {
+    "a": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0
+    },
+    "b": {
+      "id": "advancedrocketry:rollingmachine",
+      "meta": 2,
+      "item": {
+        "id": "advancedrocketry:rollingmachine",
+        "count": 1
+      }
+    },
+    "c": {
+      "id": "libvulpes:hatch",
+      "meta": 0
+    },
+    "d": {
+      "id": "libvulpes:structuremachine",
+      "meta": 0
+    },
+    "e": {
+      "id": "libvulpes:elitemotor",
+      "meta": 2,
+      "item": {
+        "id": "libvulpes:elitemotor",
+        "count": 2
+      }
+    },
+    "f": {
+      "id": "thermalfoundation:storage_alloy",
+      "meta": 0
+    },
+    "g": {
+      "id": "libvulpes:hatch",
+      "meta": 2
+    },
+    "h": {
+      "id": "libvulpes:hatch",
+      "meta": 1
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "d",
+        "d",
+        "d",
+        "d",
+        "d"
+      ],
+      [
+        "d",
+        "f",
+        "d",
+        "d",
+        "d"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "c:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "d",
+        "f",
+        "e",
+        "e",
+        "d"
+      ],
+      [
+        "d",
+        "f",
+        "h:A",
+        "g:A",
+        "d"
+      ]
+    ]
+  ]
+
+}

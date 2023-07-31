@@ -1,0 +1,271 @@
+{
+    "name": "compactmachines3:tinkers_smeltery",
+    "target-item": "tconstruct:smeltery_controller",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "tconstruct:smeltery_controller",
+        "meta": 2,
+        "item": {
+            "id": "tconstruct:smeltery_controller",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "tconstruct:seared",
+        "meta": 3,
+        "item": {
+            "id": "tconstruct:seared",
+            "meta": 3,
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "tconstruct:seared_tank",
+        "meta": 0,
+        "item": {
+            "id": "tconstruct:seared_tank",
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "minecraft:stone",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:basins_blocks_tables_casts",
+            "count": 1
+          }
+      },
+      "e": {
+        "id": "minecraft:cobblestone",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:any_size_these_rules",
+            "count": 1
+          }
+      },
+      "f": {
+        "id": "tconstruct:smeltery_io",
+        "meta": 0,
+        "item": {
+            "id": "tconstruct:smeltery_io",
+            "count": 1
+          }
+      },
+      "g": {
+        "id": "tconstruct:faucet",
+        "meta": 2,
+        "item": {
+            "id": "tconstruct:faucet",
+            "count": 1
+          }
+      },
+      "h": {
+        "id": "tconstruct:casting",
+        "meta": 0,
+        "item": {
+            "id": "tconstruct:casting",
+            "meta": 0,
+            "count": 1
+          }
+      },
+      "i": {
+        "id": "tconstruct:casting",
+        "meta": 1,
+        "item": {
+            "id": "tconstruct:casting",
+            "meta": 1,
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "e",
+          "_",
+          "_",
+          "_",
+          "d"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "c",
+          "b",
+          "a",
+          "_"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "_",
+          "f",
+          "b",
+          "f",
+          "_"
+        ],
+        [
+          "_",
+          "g",
+          "_",
+          "g",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "b",
+          "b",
+          "b",
+          "_"
+        ],
+        [
+          "_",
+          "b",
+          "b",
+          "b",
+          "_"
+        ],
+        [
+          "_",
+          "b",
+          "b",
+          "b",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "i",
+          "_",
+          "h",
+          "_"
+        ]
+      ]
+    ]
+    
+}

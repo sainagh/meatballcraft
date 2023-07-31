@@ -1,0 +1,253 @@
+{
+    "name": "compactmachines3:buildcraft_lasers",
+    "target-item": "buildcraftsilicon:assembly_table",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "buildcraftsilicon:laser",
+        "meta": 0,
+        "item": {
+            "id": "buildcraftsilicon:laser",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "minecraft:wool",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:needs_los",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "minecraft:wool",
+        "meta": 15,
+        "item": {
+            "id": "contenttweaker:any_lasers_more_faster",
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "buildcraftsilicon:assembly_table",
+        "meta": 0,
+        "item": {
+            "id": "buildcraftsilicon:assembly_table",
+            "count": 1
+          }
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "a",
+          "a",
+          "a",
+          "a",
+          "a",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "_",
+          "d",
+          "_",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "a",
+          "a",
+          "a",
+          "a",
+          "a",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ]
+      ]
+    ]
+  
+}

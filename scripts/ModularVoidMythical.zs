@@ -323,8 +323,8 @@ mith5.addItemOutput(<aoa3:kinetic_rune>*20);
 mith5.setChance(0.05);
 mith5.addItemOutput(<aoa3:fiery_chops>*10);
 mith5.setChance(0.05);
-mith5.addItemOutput(<aoa3:grenade>*10);
-mith5.setChance(0.05);
+// mith5.addItemOutput(<aoa3:grenade>*10);
+// mith5.setChance(0.05);
 mith5.addItemOutput(<aoa3:wither_rune>*20);
 mith5.setChance(0.05);
 mith5.addItemOutput(<aoa3:small_skill_crystal>);
@@ -337,7 +337,7 @@ mith5.addItemOutput(<aoa3:magic_repair_dust>);
 mith5.setChance(0.05);
 mith5.addItemOutput(<aoa3:enchanted_gunpowder>*10);
 mith5.setChance(0.05);
-mith5.addItemOutput(<aoa3:hellfire>*10);
+mith5.addItemOutput(<contenttweaker:better_hellfire>*10);
 mith5.setChance(0.05);
 mith5.addItemOutput(<aoa3:discharge_capsule>*10);
 mith5.setChance(0.05);
@@ -356,6 +356,8 @@ mith5.setChance(0.5);
 mith5.addItemOutput(<contenttweaker:tier5_token>);
 mith5.build();
 
+recipes.addShapeless(<contenttweaker:better_hellfire>, [<aoa3:hellfire>]);
+
 mods.thermalexpansion.InductionSmelter.addRecipe(<materialpart:dreadite:ingot>*2, 
 <abyssalcraft:dreadiumingot>, <nuclearcraft:ingot_oxide:1>, 
 5000);
@@ -370,6 +372,10 @@ dreadcruc.build();
 
 mods.botania.RuneAltar.addRecipe(<contenttweaker:nethengeic_rune>, 
 [<botania:rune:1>,<botania:rune:1>,<materialpart:dreaded_steel:ingot>,<twilightforest:transformation_powder>], 
+8000);
+
+mods.botania.RuneAltar.addRecipe(<contenttweaker:nethengeic_rune>, 
+[<contenttweaker:nethengeic_rune>,<contenttweaker:nethengeic_mark>,<contenttweaker:nethengeic_mark>,<twilightforest:transformation_powder>], 
 8000);
 
 val dreadingcruc = RecipeBuilder.newBuilder("dreadcruc0","dreading_crucible",100);
@@ -441,7 +447,7 @@ mods.techreborn.assemblingMachine.addRecipe(<buildcraftsilicon:redstone_chipset:
 mods.techreborn.assemblingMachine.addRecipe(<buildcraftsilicon:redstone_chipset:3>*2, <contenttweaker:dense_redstone>, <minecraft:quartz>, 30, 64);
 mods.techreborn.assemblingMachine.addRecipe(<buildcraftsilicon:redstone_chipset:4>*2, <contenttweaker:dense_redstone>, <minecraft:diamond>, 30, 64);
 
-val crucuu = RecipeBuilder.newBuilder("mythicalcrucuumatter","mythical_resource_crucible",160);
+val crucuu = RecipeBuilder.newBuilder("mythicalcrucuumatter","mythical_resource_crucible",40);
 crucuu.addEnergyPerTickInput(100000);
 crucuu.addItemInput(<techreborn:uumatter>);
 crucuu.addFluidOutput(<fluid:liquid_uu_matter>*100);
@@ -524,8 +530,8 @@ mith8.addItemOutput(<aoa3:strike_rune>*10);
 mith8.setChance(0.05);
 mith8.addItemOutput(<aoa3:power_rune>*10);
 mith8.setChance(0.02);
-mith8.addItemOutput(<aoa3:goo_ball>*10);
-mith8.setChance(0.05);
+// mith8.addItemOutput(<aoa3:goo_ball>*10);
+// mith8.setChance(0.05);
 mith8.addItemOutput(<aoa3:silver_coin>*5);
 mith8.setChance(0.1);
 mith8.addItemOutput(<aoa3:gold_coin>*5);
@@ -554,7 +560,7 @@ mythasslelyetia.addItemOutput(<contenttweaker:lelyetia_garnet>*64);
 // mythasslelyetia.addItemOutput(<nuclearcraft:compound:0>*4);
 mythasslelyetia.build();
 
-mods.immersiveengineering.Mixer.addRecipe(<liquid:lving_gold_nak>*200, <fluid:gold_nak>*50, [<contenttweaker:living_gold>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:lving_gold_nak>*200, <fluid:gold_nak>*200, [<contenttweaker:living_gold>], 2048);
 
 val mith9 = RecipeBuilder.newBuilder("mythicaltier9","mythical_resource_miner_tier9",800);
 mith9.addEnergyPerTickInput(85000);
@@ -645,7 +651,7 @@ mythasscreeponia.addItemOutput(<contenttweaker:creeponia_garnet>*64);
 //mythassbarathos.addItemOutput(<bloodmagic:slate:3>*48);
 mythasscreeponia.build();
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:crystal>*500, <fluid:lumium>*500, <fluid:luminous_lava>*400, <fluid:stone>*200]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:crystallized_obsidian>*500, <fluid:lumium>*500, <fluid:luminous_lava>*400, <fluid:stone>*200]);
 
 val mith11 = RecipeBuilder.newBuilder("mythicaltier11","mythical_resource_miner_tier11",800);
 mith11.addEnergyPerTickInput(85000);
@@ -845,7 +851,7 @@ astralwatermix.addFluidInput(<fluid:crepuscular_water>*100);
 astralwatermix.addFluidOutput(<fluid:astral_water>*1000);
 astralwatermix.build();
 
-mods.immersiveengineering.Mixer.addRecipe(<fluid:seared_grave_stone>*200, <fluid:stone>*720, [<tombstone:crafting_ingredient:3>*2, <iceandfire:dragonbone>*2], 128);
+mods.immersiveengineering.Mixer.addRecipe(<fluid:seared_grave_stone>*200, <fluid:stone>*200, [<tombstone:crafting_ingredient:3>*2, <iceandfire:dragonbone>*2], 128);
 
 mods.immersiveengineering.Mixer.addRecipe(<fluid:fluidnitrocarbon>*200, <fluid:liquid_nitrogen>*50, [<abyssalcraft:densecarboncluster>*2], 128);
 
@@ -866,7 +872,7 @@ fleecefluid.build();
 
 mods.immersiveengineering.Mixer.addRecipe(<fluid:ghostly_matter>*1000, <fluid:glass>*1000, [<randomthings:ingredient:2>,<forestry:bee_combs:8>], 128);
 
-mods.immersiveengineering.Mixer.addRecipe(<fluid:liquid_life>*500, <fluid:lifeessence>*300, [<iceandfire:shiny_scales>,<techreborn:ingot:3>], 128);
+mods.immersiveengineering.Mixer.addRecipe(<fluid:liquid_life>*500, <fluid:lifeessence>*500, [<iceandfire:shiny_scales>,<techreborn:ingot:3>], 128);
 
 mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:milk>*2000, <fluid:milk_chocolate>*100, <fluid:milkiest_chocolate>*200, null]);
 
@@ -1296,7 +1302,7 @@ val pixoniacarminbetter = RecipeBuilder.newBuilder("pixoniacarminbetter","carmin
 pixoniacarminbetter.addEnergyPerTickInput(5000);
 pixoniacarminbetter.addAspectInput("coralos",10);
 pixoniacarminbetter.addItemInput(<materialpart:primal_ogerite:ingot>);
-pixoniacarminbetter.addItemInput(<ore:nuggetMeat>,6);
+pixoniacarminbetter.addItemInput(<ore:nuggetMeat>*6);
 pixoniacarminbetter.addItemOutput(<contenttweaker:pixonia_heart>*8);
 pixoniacarminbetter.build();
 
@@ -2554,7 +2560,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_star>
 
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:universal_realgar>, 
-1, 
+100000, 
 <contenttweaker:eternal_tulite>, 
 [<contenttweaker:abyss_garnet>, 
 <contenttweaker:lelyetia_garnet>,
@@ -2694,9 +2700,9 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:arbiterite_c
 mods.techreborn.implosionCompressor.addRecipe(<contenttweaker:defined_plate>, <minecraft:stone:0>, <contenttweaker:defined_ingot>, <contenttweaker:bloodmaster_block>*4, 60, 512);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:defined_gear>, 
-[[null, <contenttweaker:defined_plate>, null], 
+[[<contenttweaker:shyre_crystal>, <contenttweaker:defined_plate>, <contenttweaker:shyre_crystal>], 
 [<contenttweaker:defined_plate>, <materialpart:chalcedony:ingot>, <contenttweaker:defined_plate>], 
-[null, <contenttweaker:defined_plate>, null]], 3);
+[<contenttweaker:shyre_crystal>, <contenttweaker:defined_plate>, <contenttweaker:shyre_crystal>]], 3);
 
 recipes.addShaped(<contenttweaker:definer_core>,
 [[<avaritia:resource:5>, <contenttweaker:defined_gear>, <avaritia:resource:5>],
@@ -2777,11 +2783,16 @@ recipes.addShaped(<contenttweaker:summoning_computer>,
 [<opencomputers:material:18>, <extracells:storage.physical:3>, <opencomputers:material:18>],
 [<contenttweaker:fluix_lens>, <opencomputers:material:18>, <contenttweaker:fluix_lens>]]);
 
+recipes.addShaped(<contenttweaker:primal_jewel>,
+[[<nuclearcraft:alloy:12>, <thaumcraft:ingot:1>, <nuclearcraft:alloy:12>],
+[<iceandfire:chain_link>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]}), <iceandfire:chain_link>],
+[<nuclearcraft:alloy:12>, <forge:bucketfilled>.withTag({FluidName: "mana", Amount: 1000}), <nuclearcraft:alloy:12>]]);
+
 
 recipes.addShaped(<contenttweaker:mythic_excavation_engine>,
 [[<contenttweaker:fluix_microcontroller>, <contenttweaker:high_strength_transmission>, <contenttweaker:fluix_microcontroller>],
 [<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>],
-[<aoa3:elecanium_ingot>, <nuclearcraft:salt_fission_heater>, <aoa3:elecanium_ingot>]]);
+[<aoa3:elecanium_ingot>, <contenttweaker:primal_jewel>, <aoa3:elecanium_ingot>]]);
 
 recipes.addShaped(<contenttweaker:enhanced_chaos_shard>,
 [[null, <contenttweaker:chaotic_feather>, null],
@@ -2810,8 +2821,8 @@ recipes.addShaped(<divinerpg:nightmare_bed>,
 [<divinerpg:mortum_planks>, <divinerpg:mortum_planks>, <divinerpg:mortum_planks>]]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:eternal_nightmare>, 
-5000000, 
-<contenttweaker:warped_stone>, 
+2000000, 
+<contenttweaker:resonating_stone>, 
 [<contenttweaker:recursion_fragment_lelyetia>, 
 <contenttweaker:recursion_fragment_precasia>, 
 <contenttweaker:recursion_fragment_barathos>, 
@@ -2972,10 +2983,12 @@ recipes.addShaped(<contenttweaker:sticky_callstone>,
 [<contenttweaker:forgotten_slime>, <contenttweaker:primordial_prism>, <contenttweaker:forgotten_slime>],
 [<contenttweaker:dimensional_ingot>, <avaritia:resource:7>, <contenttweaker:dimensional_ingot>]]);
 
-recipes.addShaped(<contenttweaker:sacred_cinders_log>,
-[[<twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>],
-[<contenttweaker:chaos_wood>, <twilightforest:cinder_log>, <contenttweaker:order_wood>],
-[<twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>]]);
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_log>, 
+[[<extratrees:misc:3>, <extratrees:misc:3>, null, <extratrees:misc:3>, <extratrees:misc:3>], 
+[<extratrees:misc:3>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <extratrees:misc:3>], 
+[null, <contenttweaker:chaos_wood>, <contenttweaker:energy_egg>, <contenttweaker:order_wood>, null], 
+[<extratrees:misc:3>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <extratrees:misc:3>], 
+[<extratrees:misc:3>, <extratrees:misc:3>, null, <extratrees:misc:3>, <extratrees:misc:3>]]);  
 
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:sacred_cinders_seed>, <contenttweaker:sacred_cinders_log>, 1000, <extendedcrafting:material:11>, 100);
 

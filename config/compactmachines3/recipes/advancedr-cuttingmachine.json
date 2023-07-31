@@ -1,0 +1,67 @@
+{
+  "name": "cm3ar:cuttingmachine",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:cuttingmachine",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+  "input-types": {
+    "a": {
+      "id": "libvulpes:elitemotor",
+      "meta": 2,
+      "item": {
+        "id": "libvulpes:elitemotor",
+        "count": 1
+      }
+    },
+    "b": {
+      "id": "libvulpes:hatch",
+      "meta": 0
+    },
+    "c": {
+      "id": "advancedrocketry:sawblade",
+      "meta": 3,
+      "item": {
+        "id": "advancedrocketry:sawblade",
+        "count": 1
+      }
+    },
+    "d": {
+      "id": "advancedrocketry:cuttingmachine",
+      "meta": 4,
+      "item": {
+        "id": "advancedrocketry:cuttingmachine",
+        "count": 1
+      }
+    },
+    "e": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0
+    },
+    "f": {
+      "id": "libvulpes:hatch",
+      "meta": 1
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "c",
+        "e"
+      ],
+      [
+        "b",
+        "d",
+        "f"
+      ]
+    ]
+  ]
+}

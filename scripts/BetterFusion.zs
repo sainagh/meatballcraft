@@ -223,8 +223,8 @@ bettersolidfusion5.build();
 
 val bettersolidfusion6 = RecipeBuilder.newBuilder("bettersolidfusion6","inertial_confinement_reactor",10);
 bettersolidfusion6.addEnergyPerTickInput(1000000);
-bettersolidfusion6.addItemInput(<ore:ingotIridium>,4);
-bettersolidfusion6.addItemInput(<ore:ingotTitanium>,4);
+bettersolidfusion6.addItemInput(<ore:ingotIridium>*4);
+bettersolidfusion6.addItemInput(<ore:ingotTitanium>*4);
 bettersolidfusion6.addItemOutput(<contenttweaker:superfused_alloy_ingot>*8);
 bettersolidfusion6.build();
 

@@ -110,3 +110,4 @@
 <contenttweaker:enchdesc_curse_of_vanishing>.addTooltip(format.red("Item disappears on death."));
 <contenttweaker:enchdesc_manabound>.addTooltip(format.red("Allows item to be repaired with mana."));
 <contenttweaker:enchdesc_headhunter>.addTooltip(format.red("Increases chance for a skull to drop."));
+<contenttweaker:enchdesc_aerial_affinity>.addTooltip(format.red("Removes the mining speed penalty while in the air or not touching the ground"));

@@ -322,3 +322,5 @@ recipes.addShaped(<bewitchment:boline>.withTag({biome_id: 226}),
 [[<thebetweenlands:mummy_bait>, <thaumadditions:mithrillium_resonator>, <thebetweenlands:mummy_bait>],
 [<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.fornax", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}), <bewitchment:boline>, <astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.bootes", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}})],
 [<thebetweenlands:mummy_bait>, <thaumicaugmentation:impetus_mirror>, <thebetweenlands:mummy_bait>]]);
+
+mods.extendedcrafting.CompressionCrafting.addRecipe(<divinerpg:divine_shards>, <contenttweaker:divine_wisp>, 36, <extendedcrafting:material:11>, 100000);

@@ -268,3 +268,10 @@ ast28.addItemInput(<ore:dyeBlack>);
 ast28.addItemInput(<astralsorcery:itemusabledust:0>);
 ast28.addItemOutput(<astralsorcery:itemusabledust:1>*4);
 ast28.build();
+
+val ast29 = RecipeBuilder.newBuilder("ast29","auto_astral_altar",1200);
+ast29.addEnergyPerTickInput(1000);
+ast29.addItemInput(<astralsorcery:blockinfusedwood:1>*4);
+ast29.addItemInput(<astralsorcery:itemcraftingcomponent:0>);
+ast29.addItemOutput(<astralsorcery:blockinfusedwood:5>*4);
+ast29.build();

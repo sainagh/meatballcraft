@@ -1,0 +1,95 @@
+{
+    "name": "compactmachines3:aoa_ancientteleporter",
+    "target-item": "contenttweaker:realmstone",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+  "input-types": {
+    "a": {
+      "id": "aoa3:ancient_rock",
+      "meta": 0
+    },
+    "b": {
+      "id": "aoa3:carved_rune_travel",
+      "meta": 0
+    },
+    "c": {
+      "id": "aoa3:carved_rune_space",
+      "meta": 0
+    },
+    "d": {
+      "id": "aoa3:carved_rune_power",
+      "meta": 0
+    },
+    "e": {
+      "id": "aoa3:carved_rune_reality",
+      "meta": 0
+    },
+    "f": {
+      "id": "aoa3:carved_rune_direction",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "_",
+        "_",
+        "_",
+        "e"
+      ]
+    ],
+    [
+      [
+        "c",
+        "_",
+        "_",
+        "_",
+        "f"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "d",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+
+}

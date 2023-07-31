@@ -290,7 +290,7 @@ mods.techreborn.rollingMachine.addShaped(<contenttweaker:tsleu_235_fuel>,
 [<ore:dustPetrotheum>, <nuclearcraft:fuel_uranium:4>, <ore:dustCryotheum>],
 [null, <ore:dustAerotheum>, null]]);
 
-mods.nuclearcraft.fission.addRecipe([<contenttweaker:tsleu_235_fuel>, <nuclearcraft:depleted_fuel_uranium:4>, 72000.0, 400.0, 50.0, "betterstarterfission", 0.8]);
+mods.nuclearcraft.fission.addRecipe([<contenttweaker:tsleu_235_fuel>, <nuclearcraft:depleted_fuel_uranium:4>, 72000.0, 400.0, 50.0, "betterstarterfission", 0.000008]);
 
 mods.nuclearcraft.extractor.addRecipe([<twilightforest:hydra_chop>, <minecraft:rotten_flesh>, <fluid:hydra_juices>*100, 0.5, 1.5, 0.1]);
 
@@ -624,3 +624,48 @@ recipes.addShaped(<nuclearcraft:buffer>*4,
 [[<nuclearcraft:fission_block>, <nuclearcraft:depleted_fuel_uranium:4>, <nuclearcraft:fission_block>],
 [<nuclearcraft:depleted_fuel_uranium:4>, <extendedcrafting:singularity:23>, <nuclearcraft:depleted_fuel_uranium:4>],
 [<nuclearcraft:fission_block>, <nuclearcraft:depleted_fuel_uranium:4>, <nuclearcraft:fission_block>]]);
+
+recipes.addShaped(<nuclearcraft:part:0>*2,
+[[<ore:ingotLead>, <ore:dustGraphite>, <ore:ingotLead>],
+[<ore:dustGraphite>, <divinerpg:eden_soul>, <ore:dustGraphite>],
+[<ore:ingotLead>, <ore:dustGraphite>, <ore:ingotLead>]]);
+
+
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:corium>*250, <contenttweaker:radioactive_residue>, 1.0, 1.0, 1.0]);
+
+recipes.addShaped(<contenttweaker:inert_cursed_jewel>, 
+[[<iceandfire:chain_link>, <contenttweaker:radioactive_residue>, <iceandfire:chain_link>],
+[<iceandfire:chain_link>, <contenttweaker:cursed_sapphire>, <iceandfire:chain_link>],
+[<iceandfire:chain_link>, <contenttweaker:radioactive_residue>, <iceandfire:chain_link>]]);
+
+recipes.addHiddenShapeless("activatecursedjewel",<contenttweaker:active_cursed_jewel>,
+[<contenttweaker:inert_cursed_jewel>,
+<divinerpg:realmite_shield>,
+<twilightforest:knightmetal_shield>,
+<extrabotany:elementiumshield>,
+<thermalfoundation:tool.shield_electrum>]);
+
+recipes.addShaped(<nuclearcraft:buffer>*12, 
+[[<nuclearcraft:fission_block:0>, <contenttweaker:radioactive_residue>, <nuclearcraft:fission_block:0>],
+[<contenttweaker:radioactive_residue>, <extendedcrafting:singularity:23>, <contenttweaker:radioactive_residue>],
+[<nuclearcraft:fission_block:0>, <contenttweaker:radioactive_residue>, <nuclearcraft:fission_block:0>]]);
+
+recipes.addShaped(<thermalfoundation:armor.helmet_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "Radiation-Absorbing Helmet"}}), 
+[[<nuclearcraft:rad_shielding:2>, <minecraft:golden_apple:1>, <nuclearcraft:rad_shielding:2>],
+[<minecraft:golden_apple:1>, <thermalfoundation:armor.helmet_lead>, <minecraft:golden_apple:1>],
+[<nuclearcraft:rad_shielding:2>, <nuclearcraft:helm_hazmat>, <nuclearcraft:rad_shielding:2>]]);
+
+recipes.addShaped(<thermalfoundation:armor.plate_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "Radiation-Absorbing Chestplate"}}), 
+[[<nuclearcraft:rad_shielding:2>, <minecraft:golden_apple:1>, <nuclearcraft:rad_shielding:2>],
+[<minecraft:golden_apple:1>, <thermalfoundation:armor.plate_lead>, <minecraft:golden_apple:1>],
+[<nuclearcraft:rad_shielding:2>, <nuclearcraft:chest_hazmat>, <nuclearcraft:rad_shielding:2>]]);
+
+recipes.addShaped(<thermalfoundation:armor.legs_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "Radiation-Absorbing Leggings"}}), 
+[[<nuclearcraft:rad_shielding:2>, <minecraft:golden_apple:1>, <nuclearcraft:rad_shielding:2>],
+[<minecraft:golden_apple:1>, <thermalfoundation:armor.legs_lead>, <minecraft:golden_apple:1>],
+[<nuclearcraft:rad_shielding:2>, <nuclearcraft:legs_hazmat>, <nuclearcraft:rad_shielding:2>]]);
+
+recipes.addShaped(<thermalfoundation:armor.boots_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "Radiation-Absorbing Boots"}}), 
+[[<nuclearcraft:rad_shielding:2>, <minecraft:golden_apple:1>, <nuclearcraft:rad_shielding:2>],
+[<minecraft:golden_apple:1>, <thermalfoundation:armor.boots_lead>, <minecraft:golden_apple:1>],
+[<nuclearcraft:rad_shielding:2>, <nuclearcraft:boots_hazmat>, <nuclearcraft:rad_shielding:2>]]);

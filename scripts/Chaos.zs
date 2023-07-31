@@ -1,6 +1,6 @@
 import mods.modularmachinery.RecipeBuilder;
 
-recipes.addShaped(<draconicevolution:draconium_block:1>,
+recipes.addShaped(<contenttweaker:charged_draconium_block>,
 [[<contenttweaker:rainbow_gemstones>, <draconicevolution:dragon_heart>, <contenttweaker:rainbow_gemstones>],
 [<draconicevolution:draconic_block>, <draconicevolution:chaos_shard:0>, <draconicevolution:draconic_block>],
 [<contenttweaker:rainbow_gemstones>, <draconicevolution:dragon_heart>, <contenttweaker:rainbow_gemstones>]]);

@@ -125,7 +125,7 @@ makerecursivegoo.addFluidInput(<fluid:lifeessence>*500);
 makerecursivegoo.addItemInput(<contenttweaker:nethengeic_rune>);
 makerecursivegoo.addItemInput(<contenttweaker:everwatching_eye>);
 makerecursivegoo.addItemInput(<contenttweaker:fiery_pyrite>*4);
-makerecursivegoo.addItemInput(<ore:blockPlatinum>,8);
+makerecursivegoo.addItemInput(<ore:blockPlatinum>*8);
 makerecursivegoo.addFluidOutput(<fluid:mildly_recursive_goo>*1000);
 makerecursivegoo.build();
 
@@ -136,6 +136,10 @@ recipes.addShaped(<aoa3:nethengeic_banner>,
 [<divinerpg:purple_blaze>, <minecraft:banner>, <divinerpg:purple_blaze>],
 [<divinerpg:purple_blaze>, <contenttweaker:nethengeic_rune>, <divinerpg:purple_blaze>]]);
 
+recipes.addShaped(<aoa3:nethengeic_banner>,
+[[<divinerpg:purple_blaze>, <contenttweaker:nethengeic_bone>, <divinerpg:purple_blaze>],
+[<contenttweaker:nethengeic_mark>, <minecraft:banner>, <contenttweaker:nethengeic_mark>],
+[<divinerpg:purple_blaze>, <contenttweaker:nethengeic_rune>.reuse(), <divinerpg:purple_blaze>]]);
 
 recipes.addShaped(<techreborn:creative_solar_panel>,
 [[<techreborn:solar_panel:4>, <techreborn:solar_panel:4>, <techreborn:solar_panel:4>],
@@ -279,3 +283,33 @@ recipes.addShapeless(<abyssalcraft:statue:5>,
 recipes.addShapeless(<abyssalcraft:statue:6>,
 [<aoa3:carved_rune_empowering>,
 <abyssalcraft:decorativestatue:6>]);
+
+
+recipes.remove(<mod_lavacow:bonesword>);
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:thorny_callstone>, 
+[[<ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>], 
+[<ore:ingotSacrificeMetal>, <contenttweaker:arkengem>, <aoa3:legbone_sword>, <contenttweaker:arkengem>, <ore:ingotSacrificeMetal>], 
+[<ore:ingotSacrificeMetal>, <thebetweenlands:bone_sword>, <extendedcrafting:singularity_custom:1024>, <iceandfire:dragonbone_sword>, <ore:ingotSacrificeMetal>], 
+[<ore:ingotSacrificeMetal>, <contenttweaker:arkengem>, <contenttweaker:weight_of_the_heart>, <contenttweaker:arkengem>, <ore:ingotSacrificeMetal>], 
+[<ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>]]);  
+
+
+// summon aoa3:skeletron ~ ~3 ~ {HandItems:[{Count:1,id:"mod_lavacow:bonesword"},{}],ArmorItems:[{Count:1,id:chainmail_boots,tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:chainmail_leggings,tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:chainmail_chestplate,tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:diamond_helmet,tag:{ench:[{id:7,lvl:100}]}}],CustomName:"thornyskelly",HandDropChances:[1.0f,0.0f],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:80000.0},{Name:generic.attackDamage, Base:1000.0}],Health:80000f}
+
+recipes.remove(<divinerpg:serenade_of_health>);
+
+recipes.addShaped(<divinerpg:serenade_of_health>,
+[[<contenttweaker:defined_ingot>, null, null],
+[<contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>, <contenttweaker:defined_ingot>],
+[null, null, <contenttweaker:defined_ingot>]]);
+
+
+recipes.addShapeless(<contenttweaker:cut_vethea_garnet>*4,
+[<contenttweaker:vethea_garnet>,
+<contenttweaker:ender_dolomite_dust>,
+<ore:dustPetrotheum>]);
+
+recipes.addShaped(<contenttweaker:myrmitite_casing>,
+[[<ore:plateMyrmitite>, <enderio:item_soul_vial:1>.withTag({entityId: "divinerpg:jungle_dramcryx"}), <ore:plateMyrmitite>],
+[<enderio:item_soul_vial:1>.withTag({entityId: "divinerpg:enthralled_dramcryx"}), <contenttweaker:highly_advanced_machine_casing>, <enderio:item_soul_vial:1>.withTag({entityId: "divinerpg:deathcryx"})],
+[<ore:plateMyrmitite>, <enderio:item_soul_vial:1>.withTag({entityId: "divinerpg:eden_cadillion"}), <ore:plateMyrmitite>]]);

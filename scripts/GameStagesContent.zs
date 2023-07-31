@@ -7,6 +7,7 @@ mods.recipestages.Recipes.addShaped("modular_controller", "modularstage", <modul
     [<minecraft:gold_ingot>, <minecraft:redstone_block>, <minecraft:gold_ingot>]
 ]);
 
+
 recipes.addShaped(<modularmachinery:blockcontroller>,
 [[null, <minecraft:diamond>, null],
 [<minecraft:redstone_block>, <modularmachinery:blockcontroller>.reuse(), <minecraft:redstone_block>],
@@ -17,6 +18,7 @@ mods.MobStages.addStage("modularstage", "thaumcraft:cultistleader", 0);
 mods.MobStages.addStage("modularstage", "thaumcraft:cultistknight", 0);
 
 mods.recipestages.Recipes.setRecipeStage("bloodmasterstage", <contenttweaker:nethersky_amber>);
+
 
 
 

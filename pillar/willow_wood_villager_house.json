@@ -1,6 +1,6 @@
 
 {
-	"generatorType": "SURFACE",
+	"generatorType": "NONE",
 	"minY": -1,
 	"maxY": -1,
 	"offsetX": 0,
@@ -11,8 +11,8 @@
 	"rotation": null,
 	"ignoreEntities": false,
 
-	"dimensionSpawns": [0],
-	"biomeNameSpawns": [],
+	"dimensionSpawns": [],
+	"biomeNameSpawns": ["Ocean","FrozenOcean","Deep Ocean"],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": true,

@@ -44,3 +44,7 @@ recipes.addShaped(<extrabotany:material:0>*3,
 [[null, <extrabotany:spiritfuel>, null],
 [null, <extrabotany:ultimatehammer>.reuse(), null],
 [null, <minecraft:nether_star>, null]]);
+
+recipes.remove(<extrabotany:managenerator>);
+recipes.remove(<extrabotany:manaliquefaction>);
+

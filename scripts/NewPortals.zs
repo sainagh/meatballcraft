@@ -14,7 +14,7 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:collecting_ston
 
 mods.actuallyadditions.Empowerer.addRecipe(<contenttweaker:twilight_essence>, <twilightforest:naga_scale>, <twilightforest:magic_beans>, <twilightforest:armor_shard_cluster>, <twilightforest:carminite>, <twilightforest:alpha_fur>, 100, 60);
 
-mods.actuallyadditions.Empowerer.addRecipe(<contenttweaker:rift_essence>, <thebetweenlands:life_crystal>, <thebetweenlands:items_misc:39>, <thebetweenlands:sap_spit>, <thebetweenlands:spirit_fruit>, <thebetweenlands:weeping_blue_petal>, 100, 60);
+mods.actuallyadditions.Empowerer.addRecipe(<contenttweaker:rift_essence>, <aoa3:blue_life_lamp_off>, <thebetweenlands:items_misc:39>, <thebetweenlands:sap_spit>, <thebetweenlands:spirit_fruit>, <thebetweenlands:weeping_blue_petal>, 100, 60);
 
 mods.techreborn.rollingMachine.addShaped(<contenttweaker:organic_jade_plate>, 
 [[<erebus:materials:48>, <erebus:tarantula_egg>, <erebus:materials:48>],

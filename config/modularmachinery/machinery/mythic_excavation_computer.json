@@ -8,10 +8,10 @@
             "x": 0,
             "y": 6,
             "z": 1,
-            "description": "Replace top block for faster recipes",
+            "description": "Replace top block for faster recipes, 5X faster",
             "modifier": {
                 "io": "input",
-                "target": "duration",
+                "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.2
             }

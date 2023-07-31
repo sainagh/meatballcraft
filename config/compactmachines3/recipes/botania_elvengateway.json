@@ -1,0 +1,189 @@
+{
+    "name": "compactmachines3:botania_elvengateway",
+    "target-item": "botania:alfheimportal",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+
+    "input-types": {
+      "a": {
+        "id": "botania:pylon",
+        "meta": 1,
+        "item": {
+            "id": "botania:pylon",
+            "meta": 1,
+            "count": 2
+          }
+      },
+      "b": {
+        "id": "botania:pool",
+        "meta": 0,
+        "item": {
+            "id": "botania:pool",
+            "count": 2
+          }
+      },
+      "c": {
+        "id": "botania:livingwood",
+        "meta": 0
+      },
+      "d": {
+        "id": "botania:livingwood",
+        "meta": 5
+      },
+      "e": {
+        "id": "botania:alfheimportal",
+        "meta": 0,
+        "item": {
+            "id": "botania:alfheimportal",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "c",
+          "_",
+          "_"
+        ],
+        [
+          "d",
+          "_",
+          "_"
+        ],
+        [
+          "c",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "c",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "c",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "d",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "d",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "c",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "c",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "c",
+          "_",
+          "b"
+        ],
+        [
+          "e",
+          "_",
+          "_"
+        ],
+        [
+          "c",
+          "_",
+          "b"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ]
+    ]
+    
+}

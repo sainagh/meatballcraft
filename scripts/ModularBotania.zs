@@ -9,7 +9,7 @@ mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:gaia_spirit_block>
 val bot1 = RecipeBuilder.newBuilder("bot1","gaia_altar",400);
 bot1.addEnergyPerTickInput(40000);
 bot1.addItemInput(<botania:manaresource:8>*8);
-bot1.addItemInput(<botania:manaresource:4>*8);
+bot1.addItemInput(<botania:manaresource:7>*12);
 bot1.addItemInput(<magicbees:beecomb:2>*8);
 bot1.addItemInput(<minecraft:nether_star>);
 bot1.addItemOutput(<botania:manaresource:5>);
@@ -56,3 +56,60 @@ bot6.addItemInput(<extrabotany:material:8>*8);
 bot6.addItemInput(<extrabotany:material:5>*8);
 bot6.addItemOutput(<extrabotany:material:3>);
 bot6.build();
+
+val bot7 = RecipeBuilder.newBuilder("bot7","gaia_altar",400);
+bot7.addEnergyPerTickInput(60000);
+bot7.addItemInput(<botania:dice>);
+bot7.addItemInput(<botania:manaresource:4>*12);
+bot7.addItemInput(<divinerpg:divine_shards>);
+bot7.addItemInput(<minecraft:golden_apple:1>);
+bot7.addItemOutput(<botania:infinitefruit>);
+bot7.build();
+
+val bot8 = RecipeBuilder.newBuilder("bot8","gaia_altar",400);
+bot8.addEnergyPerTickInput(60000);
+bot8.addItemInput(<botania:dice>);
+bot8.addItemInput(<botania:manaresource:4>*12);
+bot8.addItemInput(<divinerpg:divine_shards>);
+bot8.addItemInput(<enderutilities:enderpart:80>);
+bot8.addItemOutput(<botania:kingkey>);
+bot8.build();
+
+val bot9 = RecipeBuilder.newBuilder("bot9","gaia_altar",400);
+bot9.addEnergyPerTickInput(60000);
+bot9.addItemInput(<botania:dice>);
+bot9.addItemInput(<botania:manaresource:4>*12);
+bot9.addItemInput(<divinerpg:divine_shards>);
+bot9.addItemInput(<divinerpg:cyclops_eye>);
+bot9.addItemOutput(<botania:flugeleye>);
+bot9.build();
+
+val bot10 = RecipeBuilder.newBuilder("bot10","gaia_altar",400);
+bot10.addEnergyPerTickInput(60000);
+bot10.addItemInput(<botania:dice>);
+bot10.addItemInput(<botania:manaresource:4>*12);
+bot10.addItemInput(<divinerpg:divine_shards>);
+bot10.addItemInput(<aether_legacy:golden_ring>);
+bot10.addItemInput(<divinerpg:arlemite_shickaxe>);
+bot10.addItemOutput(<botania:thorring>);
+bot10.build();
+
+val bot11 = RecipeBuilder.newBuilder("bot11","gaia_altar",400);
+bot11.addEnergyPerTickInput(60000);
+bot11.addItemInput(<botania:dice>);
+bot11.addItemInput(<botania:manaresource:4>*12);
+bot11.addItemInput(<divinerpg:divine_shards>);
+bot11.addItemInput(<aether_legacy:golden_ring>);
+bot11.addItemInput(<bhc:heart_amulet>);
+bot11.addItemOutput(<botania:odinring>);
+bot11.build();
+
+val bot12 = RecipeBuilder.newBuilder("bot12","gaia_altar",400);
+bot12.addEnergyPerTickInput(60000);
+bot12.addItemInput(<botania:dice>);
+bot12.addItemInput(<botania:manaresource:4>*12);
+bot12.addItemInput(<divinerpg:divine_shards>);
+bot12.addItemInput(<aether_legacy:golden_ring>);
+bot12.addItemInput(<extrautils2:compressedsand:1>);
+bot12.addItemOutput(<botania:odinring>);
+bot12.build();

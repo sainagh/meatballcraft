@@ -1,0 +1,112 @@
+{
+    "name": "compactmachines3:twilightforest_portal",
+    "target-item": "contenttweaker:fluix_lens",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:red_flower",
+        "meta": 0
+      },
+      "b": {
+        "id": "minecraft:grass",
+        "meta": 0
+      },
+      "c": {
+        "id": "minecraft:dirt",
+        "meta": 0
+      },
+      "d": {
+        "id": "minecraft:water",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a",
+          "a"
+        ]
+      ],
+      [
+        [
+          "b",
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "b",
+          "d",
+          "d",
+          "b"
+        ],
+        [
+          "b",
+          "d",
+          "d",
+          "b"
+        ],
+        [
+          "b",
+          "b",
+          "b",
+          "b"
+        ]
+      ],
+      [
+        [
+          "c",
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c",
+          "c"
+        ]
+      ]
+    ]
+  
+}

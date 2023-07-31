@@ -1,0 +1,205 @@
+{
+  "name": "cm3tr:industrial_blast_furnace",
+
+  "disabled": false,
+
+  "target-item": "techreborn:industrial_blast_furnace",
+  "target-count": 1,
+  "target-meta": 0,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "techreborn:industrial_blast_furnace",
+      "meta": 7,
+      "item": {
+        "id": "techreborn:industrial_blast_furnace",
+        "count": 1
+      }
+    },
+    "b": {
+      "id": "techreborn:machine_casing",
+      "meta": 0
+    },
+    "c": {
+      "id": "techreborn:industrial_blast_furnace",
+      "meta": 4,
+      "item": {
+        "id": "techreborn:industrial_blast_furnace",
+        "count": 1
+      }
+    },
+    "d": {
+      "id": "techreborn:industrial_blast_furnace",
+      "meta": 5,
+      "item": {
+        "id": "techreborn:industrial_blast_furnace",
+        "count": 1
+      }
+    },
+    "e": {
+      "id": "techreborn:industrial_blast_furnace",
+      "meta": 6,
+      "item": {
+        "id": "techreborn:industrial_blast_furnace",
+        "count": 1
+      }
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "a",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ]
+  ]
+
+}

@@ -214,7 +214,19 @@
     "twilightforest:yeti_alpha",
     "twilightforest:snow_queen",
     "twilightforest:giant_miner",
-    "twilightforest:armored_giant"
+    "twilightforest:armored_giant",
+    "divinerpg:karot",
+    "minecraft:zombie",
+    "minecraft:husk",
+    "mod_lavacow:zombiefrozen",
+    "mod_lavacow:zombiemushroom",
+    "mod_lavacow:unburied",
+    "mod_lavacow:mummy",
+    "divinerpg:ayeraco_red",
+    "divinerpg:ayeraco_purple",
+    "divinerpg:ayeraco_green",
+    "divinerpg:ayeraco_yellow",
+    "divinerpg:ayeraco_blue"
   ],
   "entitywhitelist": [
   ],

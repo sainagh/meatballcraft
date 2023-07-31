@@ -8,10 +8,10 @@
             "x": 0,
             "y": 1,
             "z": 1,
-            "description": "Replace top Middle block for increased output",
+            "description": "Replace top Middle block for increased output, 15X",
             "modifier": {
                 "io": "output",
-                "target": "item",
+                "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 15
             }

@@ -1,0 +1,125 @@
+{
+    "name": "compactmachines3:draconicevolution_fusioncrafting",
+    "target-item": "draconicevolution:fusion_crafting_core",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+    "input-types": {
+      "a": {
+        "id": "draconicevolution:crafting_injector",
+        "meta": 0,
+        "item": {
+            "id": "draconicevolution:crafting_injector",
+            "count": 12
+          }
+      },
+      "b": {
+        "id": "minecraft:wool",
+        "meta": 15,
+        "item": {
+            "id": "contenttweaker:injectors_line_sight_within_16_block",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "minecraft:wool",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:higher_tier_better",
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "draconicevolution:fusion_crafting_core",
+        "meta": 0,
+        "item": {
+            "id": "draconicevolution:fusion_crafting_core",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "_",
+          "a",
+          "a",
+          "a",
+          "_"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "a",
+          "_",
+          "d",
+          "_",
+          "a"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "_",
+          "a",
+          "a",
+          "a",
+          "_"
+        ]
+      ],
+      [
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "b",
+          "c",
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "b",
+          "c",
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ]
+      ]
+    ]
+  
+}

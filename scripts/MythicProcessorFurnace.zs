@@ -25,3 +25,9 @@ mythfurn3.addEnergyPerTickInput(60000);
 mythfurn3.addItemInput(<contenttweaker:sacrifice_metal_clump>);
 mythfurn3.addItemOutput(<materialpart:sacrifice_metal:ingot>);
 mythfurn3.build();
+
+val mythfurn4 = RecipeBuilder.newBuilder("mythfurn4","mythic_processor_furnace",1);
+mythfurn4.addEnergyPerTickInput(60000);
+mythfurn4.addItemInput(<divinerpg:shadow_bar>*16);
+mythfurn4.addItemOutput(<contenttweaker:shadow_steel>*16);
+mythfurn4.build();

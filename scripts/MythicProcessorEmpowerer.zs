@@ -166,6 +166,6 @@ mythempo17.addItemInput(<thebetweenlands:sap_spit>);
 mythempo17.addItemInput(<thebetweenlands:spirit_fruit>);
 mythempo17.addItemInput(<thebetweenlands:weeping_blue_petal>);
 mythempo17.addItemInput(<thebetweenlands:items_misc:39>);
-mythempo17.addItemInput(<thebetweenlands:life_crystal>);
+mythempo17.addItemInput(<aoa3:blue_life_lamp_off>);
 mythempo17.addItemOutput(<contenttweaker:rift_essence>);
 mythempo17.build();

@@ -200,7 +200,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon1 = posbeacon1.asBlockPos();
     var blockBelow1 = world.getBlockState(blockposbeacon1);
     if(blockBelow1 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, heed the call of the white sky");
+        player.sendChat("Compose the right shape out of purpur, heed the call of the white sky, and reproduce the redquartz shape");
         return "FAIL";
     }
 	var posbeacon2 = player.position.asPosition3f();
@@ -1512,16 +1512,14 @@ orbitalcallstone.itemRightClick = function(stack, world, player, hand) {
 };
 orbitalcallstone.register();
 
-var bubbellalliancecallstone= VanillaFactory.createItem("bubbell_alliance_callstone");
+var bubbellalliancecallstone= VanillaFactory.createItem("energy_chicken_callstone");
 bubbellalliancecallstone.maxStackSize = 1;
 bubbellalliancecallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
 
-    player.sendChat("This has not been implemented yet");
-
-    if(player.getDimension() != -100) {
+    if(player.getDimension() != 147) {
         player.sendChat("You gotta be in sedna");
         return "FAIL";
     }
@@ -1534,5 +1532,127 @@ bubbellalliancecallstone.itemRightClick = function(stack, world, player, hand) {
 };
 bubbellalliancecallstone.register();
 
+var biomeritualcallstone= VanillaFactory.createItem("biome_ritual_callstone");
+biomeritualcallstone.maxStackSize = 1;
+biomeritualcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 149) {
+        player.sendChat("You gotta be in ptah");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn biome_puzzle_callstone", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+biomeritualcallstone.register();
 
 
+var hiddenpowercallstone= VanillaFactory.createItem("hidden_power_callstone");
+hiddenpowercallstone.maxStackSize = 1;
+hiddenpowercallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 166) {
+        player.sendChat("You gotta be in proxima");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn creative_tank_callstone", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+hiddenpowercallstone.register();
+
+
+var harbingercharm = VanillaFactory.createItem("harbinger_charm");
+harbingercharm.maxStackSize = 1;
+harbingercharm.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+harbingercharm.register();
+
+var thornycallstone= VanillaFactory.createItem("thorny_callstone");
+thornycallstone.maxStackSize = 1;
+thornycallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 818) {
+        player.sendChat("You gotta be in precasia");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn bone_sword_callstone", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+thornycallstone.register();
+
+var umberstonecallstone= VanillaFactory.createItem("umberstone_callstone");
+umberstonecallstone.maxStackSize = 1;
+umberstonecallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 66) {
+        player.sendChat("You gotta be in Erebus");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn erebus_roof_structure", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+umberstonecallstone.register();
+
+var cleansingcallstone= VanillaFactory.createItem("cleansing_callstone");
+cleansingcallstone.maxStackSize = 1;
+cleansingcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 50) {
+        player.sendChat("You gotta be in the Abyssal Wastelands");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn sanitizing_bee_callstone", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+cleansingcallstone.register();

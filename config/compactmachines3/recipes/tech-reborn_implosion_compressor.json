@@ -1,0 +1,102 @@
+{
+  "name": "cm3tr:implosion_compressor",
+
+  "disabled": false,
+
+  "target-item": "techreborn:implosion_compressor",
+  "target-count": 1,
+  "target-meta": 0,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "techreborn:machine_casing",
+      "meta": 1
+    },
+    "b": {
+      "id": "techreborn:implosion_compressor",
+      "meta": 7,
+      "item": {
+        "id": "techreborn:implosion_compressor",
+        "count": 1
+      }
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+
+
+}

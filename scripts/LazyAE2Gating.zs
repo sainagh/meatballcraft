@@ -23,7 +23,7 @@ recipes.addShaped(<threng:machine:5>,
 
 recipes.remove(<threng:big_assembler:0>);
 
-mods.extendedcrafting.TableCrafting.addShaped(<threng:big_assembler:0>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<threng:big_assembler:0>*6, 
 [[<threng:material:0>, <threng:material:0>, <appliedenergistics2:smooth_sky_stone_block>, <threng:material:14>, <appliedenergistics2:smooth_sky_stone_block>, <threng:material:0>, <threng:material:0>], 
 [<threng:material:0>, <contenttweaker:dream_cluster>, null, <appliedenergistics2:material:34>, null, <contenttweaker:dream_cluster>, <threng:material:0>], 
 [<appliedenergistics2:smooth_sky_stone_block>, null, <extrautils2:decorativesolid:8>, null, <extrautils2:decorativesolid:8>, null, <appliedenergistics2:smooth_sky_stone_block>], 

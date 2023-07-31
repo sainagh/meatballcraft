@@ -703,7 +703,7 @@
       "tconstruct:edible,1"
     ],
     "associatedMobs": [
-      "tconstruct:blue_slime"
+      "tconstruct:blueslime"
     ],
     "lootItems": [
       "tconstruct:edible,18,1",
@@ -720,7 +720,7 @@
         "part of some sort of power hierarchy,",
         "since there's a bunch of \"King slimes\" around."
       ],
-      "entity": "tconstruct:blue_slime",
+      "entity": "tconstruct:blueslime",
       "entityScale": 60,
       "entityOffsetX": 10,
       "entityOffsetY": -16
@@ -811,6 +811,238 @@
         "Fire is its enemy."
       ],
       "entity": "iceandfire:if_hydra",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "ayeraco",
+    "displayName": "Ayeraco",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 4000,
+    "craftingIngredients": [
+      "divinerpg:divine_stone,1,0"
+    ],
+    "associatedMobs": [
+      "divinerpg:ayeraco_yellow",
+      "divinerpg:ayeraco_blue",
+      "divinerpg:ayeraco_purple",
+      "divinerpg:ayeraco_red",
+      "divinerpg:ayeraco_green"
+    ],
+    "lootItems": [
+      "contenttweaker:divine_wisp,1,0",
+      "contenttweaker:ayeraco_heart,1,0",
+      "thaumicwonders:panacea,1,0",
+      "techreborn:smalldust,8,66"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Powerful alien beings.",
+        "The horde beckons."
+      ],
+      "entity": "divinerpg:ayeraco_purple",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "nethengeicbeast",
+    "displayName": "Nethengeic Beast",
+    "livingMatter": "hellish",
+    "simulationRFCost": 1000,
+    "craftingIngredients": [
+      "aoa3:flammable_dust,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:nethengeic_beast"
+    ],
+    "lootItems": [
+      "aoa3:flammable_dust,1,0",
+      "contenttweaker:nethengeic_mark,2,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "A firey beast.",
+        "So nethengeic."
+      ],
+      "entity": "aoa3:nethengeic_beast",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "kingbambambam",
+    "displayName": "BamBamBam",
+    "livingMatter": "hellish",
+    "simulationRFCost": 5000,
+    "craftingIngredients": [
+      "aoa3:explosive_idol,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:king_bambambam"
+    ],
+    "lootItems": [
+      "aoa3:king_bambambam_statue,1,0",
+      "aoa3:silver_coin,5,0",
+      "extrabees:misc,8,27"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "He likes 'em big.",
+        "He likes 'em chunky."
+      ],
+      "entity": "aoa3:king_bambambam",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "smash",
+    "displayName": "Smash",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 2000,
+    "craftingIngredients": [
+      "aoa3:troll_idol,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:smash"
+    ],
+    "lootItems": [
+      "aoa3:smash_statue,1,0",
+      "aoa3:silver_coin,1,0",
+      "minecraft:emerald,10,0",
+      "techreborn:smalldust,8,38",
+      "aoa3:copper_coin,32,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Smash.",
+        "Smash."
+      ],
+      "entity": "aoa3:smash",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "corallus",
+    "displayName": "Corallus",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 3000,
+    "craftingIngredients": [
+      "aoa3:amphibiyte_lung,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:corallus"
+    ],
+    "lootItems": [
+      "aoa3:corallus_statue,1,0",
+      "aoa3:silver_coin,1,0",
+      "aoa3:amphibiyte_lung,1,0",
+      "techreborn:smalldust,8,54"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "He controls the seas.",
+        "And da police too."
+      ],
+      "entity": "aoa3:corallus",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "nethengeicwither",
+    "displayName": "Nethengeic Wither",
+    "livingMatter": "hellish",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:nethengeic_callstone,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:nethengeic_wither"
+    ],
+    "lootItems": [
+      "aoa3:nethengeic_wither_statue,1,0",
+      "bewitchment:demon_heart,1,0",
+      "minecraft:nether_star,2,0",
+      "techreborn:smalldust,8,55"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Wither++.",
+        "BetterWither."
+      ],
+      "entity": "aoa3:nethengeic_wither",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "mothervoidwalker",
+    "displayName": "Mother Void Walker",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 1000,
+    "craftingIngredients": [
+      "aoa3:void_scales,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:mother_void_walker"
+    ],
+    "lootItems": [
+      "aoa3:void_scales,1,0",
+      "actuallyadditions:item_misc,1,20",
+      "thaumcraft:curio,1,1"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "The mother of the void walkers."
+      ],
+      "entity": "aoa3:mother_void_walker",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "betweenswamp",
+    "displayName": "Swamp Lurkers",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 1000,
+    "craftingIngredients": [
+      "thebetweenlands:rock_snot_pearl,1,0"
+    ],
+    "associatedMobs": [
+      "thebetweenlands:sludge",
+      "thebetweenlands:large_sludge_worm"
+    ],
+    "lootItems": [
+      "thebetweenlands:rock_snot_pearl,1,0",
+      "actuallyadditions:item_solidified_experience,1,0",
+      "thebetweenlands:sludge_ball,6,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "They lurk down there.",
+        "In the restless swamp."
+      ],
+      "entity": "thebetweenlands:large_sludge_worm",
       "entityScale": 48,
       "entityOffsetX": 10,
       "entityOffsetY": 20

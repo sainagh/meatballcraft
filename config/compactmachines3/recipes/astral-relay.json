@@ -1,0 +1,76 @@
+{
+  "name": "cm3ar:astralrelay",
+
+  "disabled": false,
+
+  "target-item": "astralsorcery:blockattunementrelay",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+
+
+
+  "input-types": {
+    "a": {
+      "id": "astralsorcery:blockmarble",
+      "meta": 4
+    },
+    "b": {
+      "id": "astralsorcery:blockmarble",
+      "meta": 3
+    },
+    "c": {
+      "id": "astralsorcery:blockattunementrelay",
+      "meta": 0
+    },
+    "d": {
+      "id": "astralsorcery:blockblackmarble",
+      "meta": 0
+    }
+  },
+  "input-nbt": {
+    "c:A": {
+      "nbt": "{ticksExisted:1190,mbState:1b,colMultiplier:1.0f,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"astralsorcery:tileattunementrelay\",seesSky:1b,inventory:{Size:1,Items:[{Slot:0,id:\"astralsorcery:itemcraftingcomponent\",Count:1b,Damage:3s}]}}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "c:A",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "d",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ]
+    ]
+  ]
+}

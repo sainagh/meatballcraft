@@ -1,0 +1,203 @@
+{
+  "name": "cm3ar:spacelaser",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:spacelaser",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+
+
+  "input-types": {
+    "a": {
+      "id": "advancedrocketry:spacelaser",
+      "meta": 4,
+      "item": {
+        "id": "advancedrocketry:spacelaser",
+        "count": 1
+      }
+    },
+    "b": {
+      "id": "libvulpes:advstructuremachine",
+      "meta": 0
+    },
+    "c": {
+      "id": "libvulpes:hatch",
+      "meta": 1,
+      "item": {
+        "id": "libvulpes:hatch",
+        "count": 1
+      }
+    },
+    "d": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0,
+      "item": {
+        "id": "libvulpes:forgepowerinput",
+        "count": 1
+      }
+    },
+    "e": {
+      "id": "minecraft:glass",
+      "meta": 0
+    }
+  },
+
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "b",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "b",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "d",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "d",
+        "b",
+        "d",
+        "_"
+      ],
+      [
+        "a",
+        "e",
+        "e",
+        "b",
+        "d"
+      ],
+      [
+        "_",
+        "d",
+        "b",
+        "d",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "d",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "b",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "b",
+        "b",
+        "e",
+        "b",
+        "b"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "b",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "c",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "e",
+        "b",
+        "_"
+      ],
+      [
+        "c",
+        "e",
+        "e",
+        "e",
+        "c"
+      ],
+      [
+        "_",
+        "b",
+        "e",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "c",
+        "_",
+        "_"
+      ]
+    ]
+  ]
+
+}

@@ -8,10 +8,10 @@
             "x": 0,
             "y": 2,
             "z": 3,
-            "description": "Replace energy container for better output",
+            "description": "Replace energy container for better output, 5X",
             "modifier": {
                 "io": "output",
-                "target": "fluid",
+                "target": "modularmachinery:fluid",
                 "operation": 1,
                 "multiplier": 5.0
             }

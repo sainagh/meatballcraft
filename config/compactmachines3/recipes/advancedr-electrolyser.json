@@ -1,0 +1,71 @@
+{
+  "name": "cm3ar:electrolyser",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:electrolyser",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "libvulpes:hatch",
+      "meta": 3
+    },
+    "b": {
+      "id": "advancedrocketry:electrolyser",
+      "meta": 4,
+      "item": {
+        "id": "advancedrocketry:electrolyser",
+        "count": 1
+      }
+    },
+    "c": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0
+    },
+    "d": {
+      "id": "libvulpes:coil0",
+      "meta": 7
+    },
+    "e": {
+      "id": "libvulpes:structuremachine",
+      "meta": 0
+    },
+    "f": {
+      "id": "libvulpes:hatch",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      [
+        "c",
+        "d",
+        "c"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "e",
+        "f",
+        "e"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ]
+    ]
+  ]
+}

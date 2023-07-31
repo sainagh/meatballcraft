@@ -8,10 +8,10 @@
             "x": 0,
             "y": 0,
             "z": 3,
-            "description": "Replace block in front of energy hatch for faster recipes",
+            "description": "Replace the alchemical crystal for faster recipes and energy cost, 20X!",
             "modifier": {
-                "io": "output",
-                "target": "duration",
+                "io": "input",
+                "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.05
             }
@@ -399,7 +399,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "astralsorcery:blockmarble@1"
+                "contenttweaker:alchemical_crystal"
             ]
         },
         {

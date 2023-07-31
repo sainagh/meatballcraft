@@ -1,0 +1,106 @@
+{
+  "name": "cm3immersive:mixer",
+
+  "disabled": false,
+
+  "target-item": "immersiveengineering:metal_multiblock",
+  "target-count": 1,
+   "target-meta": 15,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 9
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "d": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "e": {
+      "id": "immersiveengineering:metal_device1",
+      "meta": 6
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 0
+    }
+  },
+  "input-nbt": {
+    "e:A": {
+      "nbt": "{sideConfig:[I;0,0,0,0,0,0],ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"immersiveengineering:fluidpipe\",connections:24b}"
+    },
+    "e:B": {
+      "nbt": "{sideConfig:[I;0,0,0,0,0,0],ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"immersiveengineering:fluidpipe\",connections:32b}"
+    },
+    "e:C": {
+      "nbt": "{sideConfig:[I;0,0,0,0,0,0],ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"immersiveengineering:fluidpipe\",connections:4b}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "d",
+        "_"
+      ],
+      [
+        "_",
+        "f",
+        "_"
+      ]
+    ],
+    [
+      [
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "_",
+        "a",
+        "a"
+      ],
+      [
+        "d",
+        "d",
+        "_"
+      ]
+    ],
+    [
+      [
+        "c",
+        "c",
+        "c"
+      ],
+      [
+        "e:B",
+        "e:A",
+        "c"
+      ],
+      [
+        "d",
+        "e:C",
+        "c"
+      ]
+    ]
+  ]
+}

@@ -11,13 +11,13 @@
             "description": "Multiplies amounts processed by 4",
             "modifiers": [{
                 "io": "output",
-                "target": "item",
+                "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 4
             },
             {
                 "io": "input",
-                "target": "item",
+                "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 4
             }]

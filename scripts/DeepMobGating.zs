@@ -2,6 +2,11 @@ mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:experienced_spide
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:experienced_spider_eye>, <minecraft:fermented_spider_eye>, <fluid:experience> * 50, 200);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:experienced_spider_eye>, <minecraft:fermented_spider_eye>, <fluid:xpjuice> * 50, 200);
 
+mods.nuclearcraft.infuser.addRecipe([<minecraft:fermented_spider_eye>, <fluid:xpjuice> * 50, <contenttweaker:experienced_spider_eye>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:fermented_spider_eye>, <fluid:experience> * 50, <contenttweaker:experienced_spider_eye>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:fermented_spider_eye>, <fluid:essence> * 50, <contenttweaker:experienced_spider_eye>]);
+
+
 
 recipes.removeShapeless(<deepmoblearning:soot_covered_plate>);
 

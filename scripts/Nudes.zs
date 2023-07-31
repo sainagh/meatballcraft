@@ -196,7 +196,7 @@ recipes.addHiddenShapeless("orcuspuzzle2",<contenttweaker:upper_fragment_cosmos>
 [<contenttweaker:blood_infused_dimensional_ingot>,
 <aoa3:legbone_sword>,
 <thebetweenlands:bone_sword>,
-<mod_lavacow:bonesword>,
+<erebus:wasp_sword>,
 <iceandfire:dragonbone_sword>]);
 
 recipes.addShapeless(<contenttweaker:anemic_callstone>,
@@ -236,7 +236,57 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:spinel_ring>
 <contenttweaker:sedna_spinel>]);
 
 
-recipes.addShaped(<contenttweaker:bubbell_alliance_callstone>,
+recipes.addShaped(<contenttweaker:energy_chicken_callstone>,
 [[null, <contenttweaker:bubbell_banner>, null],
 [<contenttweaker:bubbell_banner>, <contenttweaker:spinel_ring>, <contenttweaker:bubbell_banner>],
 [null, <contenttweaker:bubbell_banner>, null]]);
+
+recipes.addShaped(<contenttweaker:feldspar>,
+[[null, <ore:cobblestone>, null],
+[<ore:cobblestone>, <contenttweaker:spinel_ring>, <ore:cobblestone>],
+[null, <ore:cobblestone>, null]]);
+
+recipes.addShaped(<contenttweaker:travertine>,
+[[<ore:cobblestone>, <ore:cobblestone>, null],
+[null, <contenttweaker:spinel_ring>, null],
+[null, <ore:cobblestone>, <ore:cobblestone>]]);
+
+recipes.addShaped(<contenttweaker:pink_marble>,
+[[null, <ore:cobblestone>, <ore:cobblestone>],
+[null, <contenttweaker:spinel_ring>, null],
+[<ore:cobblestone>, <ore:cobblestone>, null]]);
+
+recipes.addShaped(<contenttweaker:serpentine>,
+[[<ore:cobblestone>, null, <ore:cobblestone>],
+[null, <contenttweaker:spinel_ring>, null],
+[<ore:cobblestone>, null, <ore:cobblestone>]]);
+
+recipes.addShaped(<contenttweaker:metagabbro>,
+[[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
+[null, <contenttweaker:spinel_ring>, null],
+[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+
+recipes.addShaped(<contenttweaker:agate>,
+[[<ore:cobblestone>, null, <ore:cobblestone>],
+[<ore:cobblestone>, <contenttweaker:spinel_ring>, <ore:cobblestone>],
+[<ore:cobblestone>, null, <ore:cobblestone>]]);
+
+recipes.addShaped(<contenttweaker:onyx>,
+[[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
+[<ore:cobblestone>, <contenttweaker:spinel_ring>, <ore:cobblestone>],
+[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+
+
+
+// biome puzzle
+
+recipes.addShaped(<contenttweaker:biome_ritual_callstone>,
+[[<contenttweaker:spinel_ring>, <contenttweaker:bubbell_banner>, <contenttweaker:spinel_ring>],
+[<contenttweaker:bubbell_banner>, <contenttweaker:energy_egg>, <contenttweaker:bubbell_banner>],
+[<contenttweaker:spinel_ring>, <contenttweaker:bubbell_banner>, <contenttweaker:spinel_ring>]]);
+
+recipes.addShaped(<contenttweaker:terraformassiflora>,
+[[<contenttweaker:spinel_ring>, <contenttweaker:bubbell_banner>, <contenttweaker:spinel_ring>],
+[<contenttweaker:bubbell_banner>, <botania:specialflower>.withTag({type: "orechid"}), <contenttweaker:bubbell_banner>],
+[<contenttweaker:spinel_ring>, <contenttweaker:bubbell_banner>, <contenttweaker:spinel_ring>]]);
+

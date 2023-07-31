@@ -16,7 +16,7 @@ mythpulv2.build();
 val mythpulv3 = RecipeBuilder.newBuilder("mythpulv3","mythic_processor_pulverizer",2);
 mythpulv3.addEnergyPerTickInput(60000);
 mythpulv3.addItemInput(<nuclearcraft:ingot:11>*16);
-mythpulv3.addItemOutput(<nuclearcraft:dust:11>*16);
+mythpulv3.addItemOutput(<techreborn:dust:31>*16);
 mythpulv3.build();
 
 val mythpulv4 = RecipeBuilder.newBuilder("mythpulv4","mythic_processor_pulverizer",2);
@@ -721,440 +721,447 @@ mythpulv119.build();
 
 val mythpulv120 = RecipeBuilder.newBuilder("mythpulv120","mythic_processor_pulverizer",2);
 mythpulv120.addEnergyPerTickInput(60000);
-mythpulv120.addItemInput(<ore:logWood>,16);
+mythpulv120.addItemInput(<ore:logWood> * 16);
 mythpulv120.addItemOutput(<thermalfoundation:material:800>*128);
 mythpulv120.build();
 
 val mythpulv121 = RecipeBuilder.newBuilder("mythpulv121","mythic_processor_pulverizer",2);
 mythpulv121.addEnergyPerTickInput(60000);
-mythpulv121.addItemInput(<ore:plankWood>,16);
+mythpulv121.addItemInput(<ore:plankWood> * 16);
 mythpulv121.addItemOutput(<thermalfoundation:material:800>*32);
 mythpulv121.build();
 
 val mythpulv122 = RecipeBuilder.newBuilder("mythpulv122","mythic_processor_pulverizer",2);
 mythpulv122.addEnergyPerTickInput(60000);
-mythpulv122.addItemInput(<ore:oreGold>,16);
+mythpulv122.addItemInput(<ore:oreGold> * 16);
 mythpulv122.addItemOutput(<thermalfoundation:material:1>*64);
 mythpulv122.addItemOutput(<thermalfoundation:material:866>*16);
 mythpulv122.build();
 
 val mythpulv123 = RecipeBuilder.newBuilder("mythpulv123","mythic_processor_pulverizer",2);
 mythpulv123.addEnergyPerTickInput(60000);
-mythpulv123.addItemInput(<ore:oreIron>,16);
+mythpulv123.addItemInput(<ore:oreIron> * 16);
 mythpulv123.addItemOutput(<thermalfoundation:material:0>*64);
 mythpulv123.addItemOutput(<thermalfoundation:material:69>*16);
 mythpulv123.build();
 
 val mythpulv124 = RecipeBuilder.newBuilder("mythpulv124","mythic_processor_pulverizer",2);
 mythpulv124.addEnergyPerTickInput(60000);
-mythpulv124.addItemInput(<ore:oreCoal>,16);
+mythpulv124.addItemInput(<ore:oreCoal> * 16);
 mythpulv124.addItemOutput(<minecraft:coal>*64);
 mythpulv124.addItemOutput(<thermalfoundation:material:768>*16);
 mythpulv124.build();
 
 val mythpulv125 = RecipeBuilder.newBuilder("mythpulv125","mythic_processor_pulverizer",2);
 mythpulv125.addEnergyPerTickInput(60000);
-mythpulv125.addItemInput(<ore:oreLapis>,16);
+mythpulv125.addItemInput(<ore:oreLapis> * 16);
 mythpulv125.addItemOutput(<minecraft:dye:4>*128);
 mythpulv125.addItemOutput(<thermalfoundation:material:771>*16);
 mythpulv125.build();
 
 val mythpulv126 = RecipeBuilder.newBuilder("mythpulv126","mythic_processor_pulverizer",2);
 mythpulv126.addEnergyPerTickInput(60000);
-mythpulv126.addItemInput(<ore:oreDiamond>,16);
+mythpulv126.addItemInput(<ore:oreDiamond> * 16);
 mythpulv126.addItemOutput(<minecraft:diamond>*64);
 mythpulv126.addItemOutput(<thermalfoundation:material:771>*16);
 mythpulv126.build();
 
 val mythpulv127 = RecipeBuilder.newBuilder("mythpulv127","mythic_processor_pulverizer",2);
 mythpulv127.addEnergyPerTickInput(60000);
-mythpulv127.addItemInput(<ore:oreRedstone>,16);
+mythpulv127.addItemInput(<ore:oreRedstone> * 16);
 mythpulv127.addItemOutput(<minecraft:redstone>*256);
 mythpulv127.addItemOutput(<thermalfoundation:material:866>*16);
 mythpulv127.build();
 
 val mythpulv128 = RecipeBuilder.newBuilder("mythpulv128","mythic_processor_pulverizer",2);
 mythpulv128.addEnergyPerTickInput(60000);
-mythpulv128.addItemInput(<ore:oreEmerald>,16);
+mythpulv128.addItemInput(<ore:oreEmerald> * 16);
 mythpulv128.addItemOutput(<minecraft:emerald>*64);
 mythpulv128.addItemOutput(<thermalfoundation:material:866>*16);
 mythpulv128.build();
 
 val mythpulv129 = RecipeBuilder.newBuilder("mythpulv129","mythic_processor_pulverizer",2);
 mythpulv129.addEnergyPerTickInput(60000);
-mythpulv129.addItemInput(<ore:oreQuartz>,16);
+mythpulv129.addItemInput(<ore:oreQuartz> * 16);
 mythpulv129.addItemOutput(<minecraft:quartz>*64);
 mythpulv129.addItemOutput(<thermalfoundation:material:771>*16);
 mythpulv129.build();
 
 val mythpulv130 = RecipeBuilder.newBuilder("mythpulv130","mythic_processor_pulverizer",2);
 mythpulv130.addEnergyPerTickInput(60000);
-mythpulv130.addItemInput(<ore:oreCoralium>,16);
+mythpulv130.addItemInput(<ore:oreCoralium> * 16);
 mythpulv130.addItemOutput(<abyssalcraft:coralium>*64);
 mythpulv130.addItemOutput(<abyssalcraft:coralium>*16);
 mythpulv130.build();
 
 val mythpulv131 = RecipeBuilder.newBuilder("mythpulv131","mythic_processor_pulverizer",2);
 mythpulv131.addEnergyPerTickInput(60000);
-mythpulv131.addItemInput(<ore:oreAbyssalnite>,16);
+mythpulv131.addItemInput(<ore:oreAbyssalnite> * 16);
 mythpulv131.addItemOutput(<acintegration:dust:0>*64);
 mythpulv131.addItemOutput(<aoa3:runium_chunk>*16);
 mythpulv131.build();
 
 val mythpulv132 = RecipeBuilder.newBuilder("mythpulv132","mythic_processor_pulverizer",2);
 mythpulv132.addEnergyPerTickInput(60000);
-mythpulv132.addItemInput(<ore:oreSaltpeter>,16);
+mythpulv132.addItemInput(<ore:oreSaltpeter> * 16);
 mythpulv132.addItemOutput(<thermalfoundation:material:772>*64);
 mythpulv132.addItemOutput(<thermalfoundation:material:771>*16);
 mythpulv132.build();
 
 val mythpulv133 = RecipeBuilder.newBuilder("mythpulv133","mythic_processor_pulverizer",2);
 mythpulv133.addEnergyPerTickInput(60000);
-mythpulv133.addItemInput(<ore:oreTin>,16);
+mythpulv133.addItemInput(<ore:oreTin> * 16);
 mythpulv133.addItemOutput(<thermalfoundation:material:65>*64);
 mythpulv133.addItemOutput(<thermalfoundation:material:0>*16);
 mythpulv133.build();
 
 val mythpulv134 = RecipeBuilder.newBuilder("mythpulv134","mythic_processor_pulverizer",2);
 mythpulv134.addEnergyPerTickInput(60000);
-mythpulv134.addItemInput(<ore:oreCopper>,16);
+mythpulv134.addItemInput(<ore:oreCopper> * 16);
 mythpulv134.addItemOutput(<thermalfoundation:material:64>*64);
 mythpulv134.addItemOutput(<thermalfoundation:material:1>*16);
 mythpulv134.build();
 
 val mythpulv136 = RecipeBuilder.newBuilder("mythpulv136","mythic_processor_pulverizer",2);
 mythpulv136.addEnergyPerTickInput(60000);
-mythpulv136.addItemInput(<ore:oreLiquifiedCoralium>,16);
+mythpulv136.addItemInput(<ore:oreLiquifiedCoralium> * 16);
 mythpulv136.addItemOutput(<acintegration:dust:1>*64);
 mythpulv136.build();
 
 val mythpulv137 = RecipeBuilder.newBuilder("mythpulv137","mythic_processor_pulverizer",2);
 mythpulv137.addEnergyPerTickInput(60000);
-mythpulv137.addItemInput(<ore:oreQuartzBlack>,16);
+mythpulv137.addItemInput(<ore:oreQuartzBlack> * 16);
 mythpulv137.addItemOutput(<actuallyadditions:item_misc:5>*64);
 mythpulv137.addItemOutput(<thermalfoundation:material:0>*16);
 mythpulv137.build();
 
 val mythpulv138 = RecipeBuilder.newBuilder("mythpulv138","mythic_processor_pulverizer",2);
 mythpulv138.addEnergyPerTickInput(60000);
-mythpulv138.addItemInput(<ore:oreAstralStarmetal>,16);
+mythpulv138.addItemInput(<ore:oreAstralStarmetal> * 16);
 mythpulv138.addItemOutput(<astralsorcery:itemcraftingcomponent:2>*64);
 mythpulv138.addItemOutput(<thermalfoundation:material:0>*16);
 mythpulv138.build();
 
 val mythpulv139 = RecipeBuilder.newBuilder("mythpulv139","mythic_processor_pulverizer",2);
 mythpulv139.addEnergyPerTickInput(60000);
-mythpulv139.addItemInput(<ore:oreAquamarine>,16);
+mythpulv139.addItemInput(<ore:oreAquamarine> * 16);
 mythpulv139.addItemOutput(<astralsorcery:itemcraftingcomponent:0>*256);
 mythpulv139.addItemOutput(<thermalfoundation:material:1>*16);
 mythpulv139.build();
 
 val mythpulv140 = RecipeBuilder.newBuilder("mythpulv140","mythic_processor_pulverizer",2);
 mythpulv140.addEnergyPerTickInput(60000);
-mythpulv140.addItemInput(<ore:oreOpal>,16);
+mythpulv140.addItemInput(<ore:oreOpal> * 16);
 mythpulv140.addItemOutput(<bewitchment:opal>*64);
 mythpulv140.addItemOutput(<thermalfoundation:material:772>*16);
 mythpulv140.build();
 
 val mythpulv141 = RecipeBuilder.newBuilder("mythpulv141","mythic_processor_pulverizer",2);
 mythpulv141.addEnergyPerTickInput(60000);
-mythpulv141.addItemInput(<ore:oreSilver>,16);
+mythpulv141.addItemInput(<ore:oreSilver> * 16);
 mythpulv141.addItemOutput(<thermalfoundation:material:66>*64);
 mythpulv141.addItemOutput(<thermalfoundation:material:67>*16);
 mythpulv141.build();
 
 val mythpulv142 = RecipeBuilder.newBuilder("mythpulv142","mythic_processor_pulverizer",2);
 mythpulv142.addEnergyPerTickInput(60000);
-mythpulv142.addItemInput(<ore:oreSalt>,16);
+mythpulv142.addItemInput(<ore:oreSalt> * 16);
 mythpulv142.addItemOutput(<bewitchment:salt>*64);
 mythpulv142.addItemOutput(<thermalfoundation:material:67>*16);
 mythpulv142.build();
 
 val mythpulv143 = RecipeBuilder.newBuilder("mythpulv143","mythic_processor_pulverizer",2);
 mythpulv143.addEnergyPerTickInput(60000);
-mythpulv143.addItemInput(<ore:oreAmethyst>,16);
+mythpulv143.addItemInput(<ore:oreAmethyst> * 16);
 mythpulv143.addItemOutput(<biomesoplenty:gem:0>*64);
 mythpulv143.addItemOutput(<biomesoplenty:gem:0>*16);
 mythpulv143.build();
 
 val mythpulv144 = RecipeBuilder.newBuilder("mythpulv144","mythic_processor_pulverizer",2);
 mythpulv144.addEnergyPerTickInput(60000);
-mythpulv144.addItemInput(<ore:oreRuby>,16);
+mythpulv144.addItemInput(<ore:oreRuby> * 16);
 mythpulv144.addItemOutput(<biomesoplenty:gem:1>*64);
 mythpulv144.addItemOutput(<biomesoplenty:gem:1>*16);
 mythpulv144.build();
 
 val mythpulv145 = RecipeBuilder.newBuilder("mythpulv145","mythic_processor_pulverizer",2);
 mythpulv145.addEnergyPerTickInput(60000);
-mythpulv145.addItemInput(<ore:orePeridot>,16);
+mythpulv145.addItemInput(<ore:orePeridot> * 16);
 mythpulv145.addItemOutput(<biomesoplenty:gem:2>*64);
 mythpulv145.addItemOutput(<biomesoplenty:gem:2>*16);
 mythpulv145.build();
 
 val mythpulv146 = RecipeBuilder.newBuilder("mythpulv146","mythic_processor_pulverizer",2);
 mythpulv146.addEnergyPerTickInput(60000);
-mythpulv146.addItemInput(<ore:oreTopaz>,16);
+mythpulv146.addItemInput(<ore:oreTopaz> * 16);
 mythpulv146.addItemOutput(<biomesoplenty:gem:3>*64);
 mythpulv146.addItemOutput(<biomesoplenty:gem:3>*16);
 mythpulv146.build();
 
 val mythpulv147 = RecipeBuilder.newBuilder("mythpulv147","mythic_processor_pulverizer",2);
 mythpulv147.addEnergyPerTickInput(60000);
-mythpulv147.addItemInput(<ore:oreTanzanite>,16);
+mythpulv147.addItemInput(<ore:oreTanzanite> * 16);
 mythpulv147.addItemOutput(<biomesoplenty:gem:4>*64);
 mythpulv147.addItemOutput(<biomesoplenty:gem:4>*16);
 mythpulv147.build();
 
 val mythpulv148 = RecipeBuilder.newBuilder("mythpulv148","mythic_processor_pulverizer",2);
 mythpulv148.addEnergyPerTickInput(60000);
-mythpulv148.addItemInput(<ore:oreMalachite>,16);
+mythpulv148.addItemInput(<ore:oreMalachite> * 16);
 mythpulv148.addItemOutput(<biomesoplenty:gem:5>*64);
 mythpulv148.addItemOutput(<biomesoplenty:gem:5>*16);
 mythpulv148.build();
 
 val mythpulv149 = RecipeBuilder.newBuilder("mythpulv149","mythic_processor_pulverizer",2);
 mythpulv149.addEnergyPerTickInput(60000);
-mythpulv149.addItemInput(<ore:oreSapphire>,16);
+mythpulv149.addItemInput(<ore:oreSapphire> * 16);
 mythpulv149.addItemOutput(<biomesoplenty:gem:6>*64);
 mythpulv149.addItemOutput(<biomesoplenty:gem:6>*16);
 mythpulv149.build();
 
 val mythpulv150 = RecipeBuilder.newBuilder("mythpulv150","mythic_processor_pulverizer",2);
 mythpulv150.addEnergyPerTickInput(60000);
-mythpulv150.addItemInput(<ore:oreAmber>,16);
+mythpulv150.addItemInput(<ore:oreAmber> * 16);
 mythpulv150.addItemOutput(<biomesoplenty:gem:7>*64);
 mythpulv150.addItemOutput(<biomesoplenty:gem:7>*16);
 mythpulv150.build();
 
 val mythpulv151 = RecipeBuilder.newBuilder("mythpulv151","mythic_processor_pulverizer",2);
 mythpulv151.addEnergyPerTickInput(60000);
-mythpulv151.addItemInput(<ore:oreDraconium>,16);
+mythpulv151.addItemInput(<ore:oreDraconium> * 16);
 mythpulv151.addItemOutput(<draconicevolution:draconium_dust>*64);
 mythpulv151.build();
 
 val mythpulv152 = RecipeBuilder.newBuilder("mythpulv152","mythic_processor_pulverizer",2);
 mythpulv152.addEnergyPerTickInput(60000);
-mythpulv152.addItemInput(<ore:oreJade>,16);
+mythpulv152.addItemInput(<ore:oreJade> * 16);
 mythpulv152.addItemOutput(<erebus:materials:1>*64);
 mythpulv152.build();
 
 val mythpulv153 = RecipeBuilder.newBuilder("mythpulv153","mythic_processor_pulverizer",2);
 mythpulv153.addEnergyPerTickInput(60000);
-mythpulv153.addItemInput(<ore:oreYellorite>,16);
+mythpulv153.addItemInput(<ore:oreYellorite> * 16);
 mythpulv153.addItemOutput(<bigreactors:dustyellorium>*64);
 mythpulv153.addItemOutput(<bigreactors:dustcyanite>*32);
 mythpulv153.build();
 
 val mythpulv154 = RecipeBuilder.newBuilder("mythpulv154","mythic_processor_pulverizer",2);
 mythpulv154.addEnergyPerTickInput(60000);
-mythpulv154.addItemInput(<ore:oreApatite>,16);
+mythpulv154.addItemInput(<ore:oreApatite> * 16);
 mythpulv154.addItemOutput(<forestry:apatite>*256);
 mythpulv154.addItemOutput(<thermalfoundation:material:771>*16);
 mythpulv154.build();
 
 val mythpulv155 = RecipeBuilder.newBuilder("mythpulv155","mythic_processor_pulverizer",2);
 mythpulv155.addEnergyPerTickInput(60000);
-mythpulv155.addItemInput(<ore:oreAluminum>,16);
+mythpulv155.addItemInput(<ore:oreAluminum> * 16);
 mythpulv155.addItemOutput(<thermalfoundation:material:68>*64);
-mythpulv155.addItemOutput(<thermalfoundation:material:0>*16);
+mythpulv155.addItemOutput(<techreborn:dust:5>*16);
 mythpulv155.build();
 
 val mythpulv156 = RecipeBuilder.newBuilder("mythpulv156","mythic_processor_pulverizer",2);
 mythpulv156.addEnergyPerTickInput(60000);
-mythpulv156.addItemInput(<ore:oreNickel>,16);
+mythpulv156.addItemInput(<ore:oreNickel> * 16);
 mythpulv156.addItemOutput(<thermalfoundation:material:69>*64);
 mythpulv156.addItemOutput(<thermalfoundation:material:70>*16);
 mythpulv156.build();
 
 val mythpulv157 = RecipeBuilder.newBuilder("mythpulv157","mythic_processor_pulverizer",2);
 mythpulv157.addEnergyPerTickInput(60000);
-mythpulv157.addItemInput(<ore:oreUranium>,16);
+mythpulv157.addItemInput(<ore:oreUranium> * 16);
 mythpulv157.addItemOutput(<immersiveengineering:metal:14>*64);
 mythpulv157.build();
 
 val mythpulv158 = RecipeBuilder.newBuilder("mythpulv158","mythic_processor_pulverizer",2);
 mythpulv158.addEnergyPerTickInput(60000);
-mythpulv158.addItemInput(<ore:oreProsperity>,16);
+mythpulv158.addItemInput(<ore:oreProsperity> * 16);
 mythpulv158.addItemOutput(<mysticalagriculture:crafting:5>*256);
 mythpulv158.build();
 
 val mythpulv159 = RecipeBuilder.newBuilder("mythpulv159","mythic_processor_pulverizer",2);
 mythpulv159.addEnergyPerTickInput(60000);
-mythpulv159.addItemInput(<ore:oreInferium>,16);
+mythpulv159.addItemInput(<ore:oreInferium> * 16);
 mythpulv159.addItemOutput(<mysticalagriculture:crafting:0>*256);
 mythpulv159.build();
 
 val mythpulv160 = RecipeBuilder.newBuilder("mythpulv160","mythic_processor_pulverizer",2);
 mythpulv160.addEnergyPerTickInput(60000);
-mythpulv160.addItemInput(<ore:oreThorium>,16);
+mythpulv160.addItemInput(<ore:oreThorium> * 16);
 mythpulv160.addItemOutput(<nuclearcraft:dust:3>*64);
 mythpulv160.build();
 
 val mythpulv161 = RecipeBuilder.newBuilder("mythpulv161","mythic_processor_pulverizer",2);
 mythpulv161.addEnergyPerTickInput(60000);
-mythpulv161.addItemInput(<ore:oreBoron>,16);
+mythpulv161.addItemInput(<ore:oreBoron> * 16);
 mythpulv161.addItemOutput(<nuclearcraft:dust:5>*64);
 mythpulv161.build();
 
 val mythpulv162 = RecipeBuilder.newBuilder("mythpulv162","mythic_processor_pulverizer",2);
 mythpulv162.addEnergyPerTickInput(60000);
-mythpulv162.addItemInput(<ore:oreLithium>,16);
+mythpulv162.addItemInput(<ore:oreLithium> * 16);
 mythpulv162.addItemOutput(<nuclearcraft:dust:6>*64);
 mythpulv162.build();
 
 val mythpulv163 = RecipeBuilder.newBuilder("mythpulv163","mythic_processor_pulverizer",2);
 mythpulv163.addEnergyPerTickInput(60000);
-mythpulv163.addItemInput(<ore:oreMagnesium>,16);
+mythpulv163.addItemInput(<ore:oreMagnesium> * 16);
 mythpulv163.addItemOutput(<nuclearcraft:dust:7>*64);
 mythpulv163.build();
 
 val mythpulv164 = RecipeBuilder.newBuilder("mythpulv164","mythic_processor_pulverizer",2);
 mythpulv164.addEnergyPerTickInput(60000);
-mythpulv164.addItemInput(<ore:oreMagnesium>,16);
+mythpulv164.addItemInput(<ore:oreMagnesium> * 16);
 mythpulv164.addItemOutput(<nuclearcraft:dust:7>*64);
 mythpulv164.build();
 
 val mythpulv165 = RecipeBuilder.newBuilder("mythpulv165","mythic_processor_pulverizer",2);
 mythpulv165.addEnergyPerTickInput(60000);
-mythpulv165.addItemInput(<ore:oreZinc>,16);
+mythpulv165.addItemInput(<ore:oreZinc> * 16);
 mythpulv165.addItemOutput(<techreborn:dust:59>*64);
 mythpulv165.build();
 
 val mythpulv166 = RecipeBuilder.newBuilder("mythpulv166","mythic_processor_pulverizer",2);
 mythpulv166.addEnergyPerTickInput(60000);
-mythpulv166.addItemInput(<ore:oreGalena>,16);
+mythpulv166.addItemInput(<ore:oreGalena> * 16);
 mythpulv166.addItemOutput(<techreborn:dust:23>*64);
 mythpulv166.build();
 
 val mythpulv167 = RecipeBuilder.newBuilder("mythpulv167","mythic_processor_pulverizer",2);
 mythpulv167.addEnergyPerTickInput(60000);
-mythpulv167.addItemInput(<ore:oreIridium>,16);
+mythpulv167.addItemInput(<ore:oreIridium> * 16);
 mythpulv167.addItemOutput(<thermalfoundation:material:71>*64);
 mythpulv167.addItemOutput(<thermalfoundation:material:70>*16);
 mythpulv167.build();
 
 val mythpulv168 = RecipeBuilder.newBuilder("mythpulv168","mythic_processor_pulverizer",2);
 mythpulv168.addEnergyPerTickInput(60000);
-mythpulv168.addItemInput(<ore:oreBauxite>,16);
+mythpulv168.addItemInput(<ore:oreBauxite> * 16);
 mythpulv168.addItemOutput(<techreborn:dust:5>*64);
 mythpulv168.addItemOutput(<thermalfoundation:material:68>*16);
 mythpulv168.build();
 
 val mythpulv169 = RecipeBuilder.newBuilder("mythpulv169","mythic_processor_pulverizer",2);
 mythpulv169.addEnergyPerTickInput(60000);
-mythpulv169.addItemInput(<ore:orePyrite>,16);
+mythpulv169.addItemInput(<ore:orePyrite> * 16);
 mythpulv169.addItemOutput(<techreborn:dust:39>*256);
 mythpulv169.addItemOutput(<thermalfoundation:material:0>*16);
 mythpulv169.build();
 
 val mythpulv170 = RecipeBuilder.newBuilder("mythpulv170","mythic_processor_pulverizer",2);
 mythpulv170.addEnergyPerTickInput(60000);
-mythpulv170.addItemInput(<ore:oreCinnabar>,16);
+mythpulv170.addItemInput(<ore:oreCinnabar> * 16);
 mythpulv170.addItemOutput(<techreborn:dust:11>*256);
 mythpulv170.addItemOutput(<thermalfoundation:material:0>*16);
 mythpulv170.build();
 
 val mythpulv171 = RecipeBuilder.newBuilder("mythpulv171","mythic_processor_pulverizer",2);
 mythpulv171.addEnergyPerTickInput(60000);
-mythpulv171.addItemInput(<ore:oreTungsten>,16);
+mythpulv171.addItemInput(<ore:oreTungsten> * 16);
 mythpulv171.addItemOutput(<techreborn:dust:55>*256);
 mythpulv171.addItemOutput(<techreborn:dust:31>*16);
 mythpulv171.build();
 
 val mythpulv172 = RecipeBuilder.newBuilder("mythpulv172","mythic_processor_pulverizer",2);
 mythpulv172.addEnergyPerTickInput(60000);
-mythpulv172.addItemInput(<ore:oreSodalite>,16);
+mythpulv172.addItemInput(<ore:oreSodalite> * 16);
 mythpulv172.addItemOutput(<techreborn:dust:48>*256);
 mythpulv172.addItemOutput(<thermalfoundation:material:68>*16);
 mythpulv172.build();
 
 val mythpulv173 = RecipeBuilder.newBuilder("mythpulv173","mythic_processor_pulverizer",2);
 mythpulv173.addEnergyPerTickInput(60000);
-mythpulv173.addItemInput(<ore:oreZanite>,16);
+mythpulv173.addItemInput(<ore:oreZanite> * 16);
 mythpulv173.addItemOutput(<aether_legacy:zanite_gemstone>*64);
 mythpulv173.build();
 
 val mythpulv174 = RecipeBuilder.newBuilder("mythpulv174","mythic_processor_pulverizer",2);
 mythpulv174.addEnergyPerTickInput(60000);
-mythpulv174.addItemInput(<ore:oreValonite>,16);
+mythpulv174.addItemInput(<ore:oreValonite> * 16);
 mythpulv174.addItemOutput(<thebetweenlands:items_misc:19>*64);
 mythpulv174.build();
 
 val mythpulv175 = RecipeBuilder.newBuilder("mythpulv175","mythic_processor_pulverizer",2);
 mythpulv175.addEnergyPerTickInput(60000);
-mythpulv175.addItemInput(<ore:oreScabyst>,16);
+mythpulv175.addItemInput(<ore:oreScabyst> * 16);
 mythpulv175.addItemOutput(<thebetweenlands:items_misc:39>*128);
 mythpulv175.build();
 
 val mythpulv176 = RecipeBuilder.newBuilder("mythpulv176","mythic_processor_pulverizer",2);
 mythpulv176.addEnergyPerTickInput(60000);
-mythpulv176.addItemInput(<ore:orePlatinum>,16);
+mythpulv176.addItemInput(<ore:orePlatinum> * 16);
 mythpulv176.addItemOutput(<thermalfoundation:material:70>*64);
 mythpulv176.addItemOutput(<thermalfoundation:material:71>*16);
 mythpulv176.build();
 
 val mythpulv177 = RecipeBuilder.newBuilder("mythpulv177","mythic_processor_pulverizer",2);
 mythpulv177.addEnergyPerTickInput(60000);
-mythpulv177.addItemInput(<ore:oreMithril>,16);
+mythpulv177.addItemInput(<ore:oreMithril> * 16);
 mythpulv177.addItemOutput(<thermalfoundation:material:72>*64);
 mythpulv177.addItemOutput(<thermalfoundation:material:1>*16);
 mythpulv177.build();
 
 val mythpulv178 = RecipeBuilder.newBuilder("mythpulv178","mythic_processor_pulverizer",2);
 mythpulv178.addEnergyPerTickInput(60000);
-mythpulv178.addItemInput(<ore:oreClathrateOilSand>,16);
+mythpulv178.addItemInput(<ore:oreClathrateOilSand> * 16);
 mythpulv178.addItemOutput(<thermalfoundation:material:892>*128);
 mythpulv178.addItemOutput(<thermalfoundation:material:833>*16);
 mythpulv178.build();
 
 val mythpulv179 = RecipeBuilder.newBuilder("mythpulv179","mythic_processor_pulverizer",2);
 mythpulv179.addEnergyPerTickInput(60000);
-mythpulv179.addItemInput(<ore:oreClathrateRedstone>,16);
+mythpulv179.addItemInput(<ore:oreClathrateRedstone> * 16);
 mythpulv179.addItemOutput(<thermalfoundation:material:893>*128);
 mythpulv179.addItemOutput(<thermalfoundation:material:866>*16);
 mythpulv179.build();
 
 val mythpulv180 = RecipeBuilder.newBuilder("mythpulv180","mythic_processor_pulverizer",2);
 mythpulv180.addEnergyPerTickInput(60000);
-mythpulv180.addItemInput(<ore:oreClathrateGlowstone>,16);
+mythpulv180.addItemInput(<ore:oreClathrateGlowstone> * 16);
 mythpulv180.addItemOutput(<thermalfoundation:material:894>*128);
 mythpulv180.addItemOutput(<thermalfoundation:material:771>*16);
 mythpulv180.build();
 
 val mythpulv181 = RecipeBuilder.newBuilder("mythpulv181","mythic_processor_pulverizer",2);
 mythpulv181.addEnergyPerTickInput(60000);
-mythpulv181.addItemInput(<ore:oreClathrateEnder>,16);
+mythpulv181.addItemInput(<ore:oreClathrateEnder> * 16);
 mythpulv181.addItemOutput(<thermalfoundation:material:895>*128);
 mythpulv181.addItemOutput(<thermalfoundation:material:70>*16);
 mythpulv181.build();
 
 val mythpulv182 = RecipeBuilder.newBuilder("mythpulv182","mythic_processor_pulverizer",2);
 mythpulv182.addEnergyPerTickInput(60000);
-mythpulv182.addItemInput(<ore:oreCobalt>,16);
+mythpulv182.addItemInput(<ore:oreCobalt> * 16);
 mythpulv182.addItemOutput(<enderio:item_material:31>*64);
 mythpulv182.build();
 
 val mythpulv183 = RecipeBuilder.newBuilder("mythpulv183","mythic_processor_pulverizer",2);
 mythpulv183.addEnergyPerTickInput(60000);
-mythpulv183.addItemInput(<ore:oreArdite>,16);
+mythpulv183.addItemInput(<ore:oreArdite> * 16);
 mythpulv183.addItemOutput(<enderio:item_material:30>*64);
 mythpulv183.build();
 
 val mythpulv184 = RecipeBuilder.newBuilder("mythpulv184","mythic_processor_pulverizer",2);
 mythpulv184.addEnergyPerTickInput(60000);
-mythpulv184.addItemInput(<ore:oreDilithium>,16);
+mythpulv184.addItemInput(<ore:oreDilithium> * 16);
 mythpulv184.addItemOutput(<libvulpes:productgem:0>*64);
 mythpulv184.build();
 
 val mythpulv185 = RecipeBuilder.newBuilder("mythpulv185","mythic_processor_pulverizer",2);
 mythpulv185.addEnergyPerTickInput(60000);
-mythpulv185.addItemInput(<ore:oreRutile>,16);
+mythpulv185.addItemInput(<ore:oreRutile> * 16);
 mythpulv185.addItemOutput(<techreborn:dust:54>*64);
 mythpulv185.addItemOutput(<contenttweaker:vanadium_dust>*16);
 mythpulv185.build();
 
 val mythpulv186 = RecipeBuilder.newBuilder("mythpulv186","mythic_processor_pulverizer",2);
 mythpulv186.addEnergyPerTickInput(60000);
-mythpulv186.addItemInput(<ore:oreLead>,16);
+mythpulv186.addItemInput(<ore:oreLead> * 16);
 mythpulv186.addItemOutput(<thermalfoundation:material:67>*64);
 mythpulv186.build();
+
+val mythpulv187 = RecipeBuilder.newBuilder("mythpulv187","mythic_processor_pulverizer",2);
+mythpulv187.addEnergyPerTickInput(60000);
+mythpulv187.addItemInput(<ore:oreSphalerite> * 16);
+mythpulv187.addItemOutput(<techreborn:dust:50>*256);
+mythpulv187.addItemOutput(<techreborn:dust:59>*128);
+mythpulv187.build();

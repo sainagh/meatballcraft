@@ -1,0 +1,74 @@
+{
+  "name": "cm3ar:microwavereciever",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:microwavereciever",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+ 
+
+  "input-types": {
+    "a": {
+      "id": "advancedrocketry:solarpanel",
+      "meta": 0
+    },
+    "b": {
+      "id": "libvulpes:forgepoweroutput",
+      "meta": 0
+    },
+    "c": {
+      "id": "advancedrocketry:microwavereciever",
+      "meta": 5,
+      "item": {
+        "id": "advancedrocketry:microwavereciever",
+        "meta": 0,
+        "count": 1
+      }
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "c",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+}

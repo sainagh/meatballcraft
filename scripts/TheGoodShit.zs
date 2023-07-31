@@ -172,8 +172,8 @@ recipes.addShapeless(<iceandfire:dragonscales_silver>*3,
 
 // chaos protection
 
-recipes.addShapeless(<astralsorcery:itemchargedcrystalsword>.withTag({StoredEnchantments: [{lvl: 8 as short, id: 16}]}),
-[<thaumicaugmentation:research_notes>,<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.discidia", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.discidia", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}})]);
+//recipes.addShapeless(<astralsorcery:itemchargedcrystalsword>.withTag({StoredEnchantments: [{lvl: 8 as short, id: 16}]}),
+// [<thaumicaugmentation:research_notes>,<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.discidia", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}),<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.discidia", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}})]);
 
 mods.astralsorcery.Altar.addTraitAltarRecipe("meatballcraft:shaped/internal/altar/dynatos_crystal", <contenttweaker:dynatos_crystal>, 4500, 100, [
 	<astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>,
@@ -353,9 +353,9 @@ recipes.addShaped(<contenttweaker:arcane_prison_key>,
 [<magicbees:beecomb:14>, <tconstruct:large_plate>.withTag({Material: "gaia"}), <magicbees:beecomb:13>]]);
 
 recipes.addShaped(<botania:manaresource:5>*2,
-[[<magicbees:beecomb:2>, <botania:manaresource:4>, <magicbees:beecomb:2>],
+[[<magicbees:beecomb:2>, <botania:manaresource:7>, <magicbees:beecomb:2>],
 [<botania:manaresource:8>, <contenttweaker:sympan_spirit>.reuse(), <botania:manaresource:8>],
-[<magicbees:beecomb:2>, <botania:manaresource:4>, <magicbees:beecomb:2>]]);
+[<magicbees:beecomb:2>, <botania:manaresource:7>, <magicbees:beecomb:2>]]);
 
 recipes.addShaped(<botania:manaresource:14>*2,
 [[<magicbees:beecomb:11>, <botania:manaresource:4>, <magicbees:beecomb:12>],

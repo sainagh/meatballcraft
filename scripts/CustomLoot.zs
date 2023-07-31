@@ -2,39 +2,6 @@ import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 
-mods.ltt.LootTable.removeGlobalItem("aoa3:blank_realmstone");
-
-mods.ltt.LootTable.removeGlobalItem("mysticalagriculture:crafting:4");
-
-mods.ltt.LootTable.removeGlobalItem("twilightforest:uncrafting_table");
-
-mods.ltt.LootTable.removeGlobalItem("thebetweenlands:lore_scrap");
-
-mods.ltt.LootTable.removeGlobalItem("thebetweenlands:ring_of_dispersion");
-
-mods.ltt.LootTable.removeGlobalItem("biomesoplenty:sapling_1:7");
-
-mods.ltt.LootTable.removeGlobalItem("aoa3:shiny_box");
-
-mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:8");
-
-mods.ltt.LootTable.removeGlobalItem("bewitchment:silver_ingot");
-mods.ltt.LootTable.removeGlobalItem("erebus:materials:45");
-mods.ltt.LootTable.removeGlobalItem("iceandfire:silver_ingot");
-mods.ltt.LootTable.removeGlobalItem("immersiveengineering:metal:3");
-mods.ltt.LootTable.removeGlobalItem("nuclearcraft:ingot:13");
-mods.ltt.LootTable.removeGlobalItem("projectred-core:resource_item:102");
-mods.ltt.LootTable.removeGlobalItem("railcraft:ingot:4");
-mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:11");
-
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:magic_wand");
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_ice_wand");
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_fire_wand");
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_lightning_wand");
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_necromancy_wand");
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_earth_wand");
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_sorcery_wand");
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_healing_wand");
 
 
 val firedragfem = LootTweaker.getTable("iceandfire:fire_dragon_female_cave");
@@ -91,6 +58,10 @@ val bonecreatureroll = bonecreature.addPool("bonecreatureroll", 1, 1, 0, 0);
 bonecreatureroll.addItemEntry(<aoa3:jade>, 5);
 bonecreatureroll.addItemEntry(<thaumcraft:loot_bag:2>, 5);
 
+val witherwizard = LootTweaker.getTable("aoa3:entities/mobs/nether/wither_wizard");
+val witherwizardmoretokes = witherwizard.addPool("witherwizardmoretokes", 1, 1, 0, 0);
+witherwizardmoretokes.addItemEntry(<aoa3:nether_tokens>, 5);
+
 val chimera = LootTweaker.getTable("aoa3:entities/mobs/overworld/chimera");
 val chimeraroll = chimera.addPool("chimeraroll", 1, 1, 0, 0);
 chimeraroll.addItemEntry(<aoa3:limonite_ingot>, 5);
@@ -104,6 +75,7 @@ val dimdoorsdungeonroll = dimdoordungeon.addPool("dimdoorsdungeonroll", 1, 1, 0,
 dimdoorsdungeonroll.addItemEntry(<ebwizardry:grand_crystal>, 5);
 dimdoorsdungeonroll.addItemEntry(<projecte:item.pe_matter:1>, 2);
 dimdoorsdungeonroll.addItemEntry(<techreborn:ingot:14>, 3);
+dimdoorsdungeonroll.addItemEntry(<thermalfoundation:material:135>, 3);
 dimdoorsdungeonroll.addItemEntry(<contenttweaker:strange_charm>, 3);
 dimdoorsdungeonroll.addItemEntry(<thermalfoundation:material:134>, 3);
 
@@ -167,6 +139,7 @@ twilightantenna.addItemEntry(<contenttweaker:twilight_antenna>, 5);
 val vamacheron = LootTweaker.getTable("divinerpg:entities/boss/vamacheron");
 val vamacheronfur = vamacheron.addPool("vamacheronfur", 1, 1, 0, 0);
 vamacheronfur.addItemEntry(<contenttweaker:vamacheron_fur>, 5);
+vamacheronfur.addItemEntry(<aether_legacy:invisibility_cape>, 5);
 
 val termasect = LootTweaker.getTable("divinerpg:entities/boss/termasect");
 val termasectbark = termasect.addPool("termasectbark", 1, 1, 0, 0);
@@ -414,6 +387,7 @@ val netherfortressspecial = netherfortress.addPool("netherfortressspecial", 1, 2
 netherfortressspecial.addItemEntry(<abyssalcraft:coraliumore>*2, 10);
 netherfortressspecial.addItemEntry(<thermalfoundation:material:131>, 10);
 netherfortressspecial.addItemEntry(<thermalfoundation:material:130>, 15);
+netherfortressspecial.addItemEntry(<bewitchment:snake_venom>, 20);
 
 val endcity = LootTweaker.getTable("minecraft:chests/end_city_treasure");
 val endcityspecial = endcity.addPool("endcityspecial", 1, 2, 1, 1);
@@ -432,3 +406,17 @@ val vanilladungeonmbc = vanilladungeon.addPool("vanilladungeonmbc", 1, 1, 0, 0);
 vanilladungeonmbc.addItemEntry(<thermalfoundation:material:131>, 15);
 vanilladungeonmbc.addItemEntry(<thermalfoundation:material:130>, 15);
 
+val lelycaster = LootTweaker.getTable("aoa3:entities/mobs/lelyetia/lelyetian_caster");
+val lelycasterspores = lelycaster.addPool("lelycasterspores", 1, 1, 0, 0);
+lelycasterspores.addItemEntry(<aoa3:orange_spores>, 15);
+lelycasterspores.addItemEntry(<aoa3:yellow_spores>, 15);
+
+val lelywarrior = LootTweaker.getTable("aoa3:entities/mobs/lelyetia/lelyetian_warrior");
+val lelywarriorspores = lelywarrior.addPool("lelywarriorspores", 1, 1, 0, 0);
+lelywarriorspores.addItemEntry(<aoa3:orange_spores>, 15);
+lelywarriorspores.addItemEntry(<aoa3:yellow_spores>, 15);
+
+val amphibiyte = LootTweaker.getTable("aoa3:entities/mobs/overworld/amphibiyte");
+val amphibiytegoodies = amphibiyte.addPool("amphibiytegoodies", 1, 1, 0, 0);
+amphibiytegoodies.addItemEntry(<contenttweaker:heart_stone>, 15);
+amphibiytegoodies.addItemEntry(<contenttweaker:bloodlust_coin>, 15);

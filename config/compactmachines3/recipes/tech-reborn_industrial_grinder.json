@@ -1,0 +1,180 @@
+{
+  "name": "cm3tr:industrial_grinder",
+
+  "disabled": false,
+
+  "target-item": "techreborn:industrial_grinder",
+  "target-count": 1,
+  "target-meta": 0,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "techreborn:industrial_grinder",
+      "meta": 6,
+      "item": {
+        "id": "techreborn:industrial_grinder",
+        "count": 1
+      }
+    },
+    "b": {
+      "id": "techreborn:machine_casing",
+      "meta": 0
+    },
+    "c": {
+      "id": "techreborn:machine_casing",
+      "meta": 1
+    },
+    "d": {
+      "id": "techreborn:industrial_grinder",
+      "meta": 5,
+      "item": {
+        "id": "techreborn:industrial_grinder",
+        "count": 1
+      }
+    },
+    "e": {
+      "id": "minecraft:water",
+      "meta": 0,
+      "item": {
+        "id": "minecraft:water_bucket",
+        "count": 1
+      }
+    },
+    "f": {
+      "id": "techreborn:industrial_grinder",
+      "meta": 4,
+      "item": {
+        "id": "techreborn:industrial_grinder",
+        "count": 1
+      }
+    },
+    "g": {
+      "id": "techreborn:industrial_grinder",
+      "meta": 7,
+      "item": {
+        "id": "techreborn:industrial_grinder",
+        "count": 1
+      }
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "f",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "c",
+        "c",
+        "c",
+        "_"
+      ],
+      [
+        "g",
+        "c",
+        "e",
+        "c",
+        "a"
+      ],
+      [
+        "_",
+        "c",
+        "c",
+        "c",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "d",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ]
+  ]
+
+}

@@ -22,6 +22,8 @@ recipes.addShaped(<bloodmagic:ritual_stone:0>*12,
 [<bloodmagic:slate:1>, <bhc:green_heart>, <bloodmagic:slate:1>],
 [<divinerpg:bloodgem>, <bloodmagic:slate:1>, <divinerpg:corrupted_shards>]]);
 
+// mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:decorative_brick:2>, <bloodmagic:blood_rune:7>, 5, 100000, 1000, 1000);
+
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:decorative_brick:2>, <bloodmagic:blood_rune:7>, 5, 100000, 1000, 1000);
 
 mods.bloodmagic.TartaricForge.removeRecipe([<minecraft:iron_pickaxe>, <minecraft:iron_pickaxe>, <minecraft:iron_pickaxe>, <minecraft:iron_pickaxe>]);

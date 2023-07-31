@@ -175,3 +175,32 @@ masterspelldreadia.itemRightClick = function(stack, world, player, hand) {
 };
 masterspelldreadia.register();
 
+
+var voidportalbreaker = VanillaFactory.createItem("void_portal_breaker");
+voidportalbreaker.maxStackSize = 1;
+voidportalbreaker.glowing = true;
+voidportalbreaker.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 43) {
+        player.sendChat("This only works in the void world (you won't need it anywhere else)");
+        return "FAIL";
+    }
+
+	Commands.call("fill ~10 ~-1 ~10 ~-10 ~-1 ~-10 minecraft:stone 0 replace simplevoidworld:portal 0", player, world, true, true);
+	return "Pass";
+};
+voidportalbreaker.register();
+
+
+var masterspellmetallum = VanillaFactory.createItem("master_spell_metallum");
+masterspellmetallum.maxStackSize = 1;
+masterspellmetallum.glowing = true;
+masterspellmetallum.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("fill ~-1 ~10 ~-1 ~1 ~10 ~1 minecraft:anvil", player, world, true, true);
+	player.sendChat("You've been Etho'd");
+	return "Pass";
+};
+masterspellmetallum.register();

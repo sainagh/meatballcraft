@@ -209,6 +209,11 @@ recipes.addShaped(<techreborn:part:30>,
 [<ore:emcDarkMatter>, <techreborn:part:29>, <ore:emcDarkMatter>],
 [<techreborn:cable:6>, <contenttweaker:calcite_gem>, <techreborn:cable:6>]]);
 
+recipes.addShaped(<techreborn:part:30>*4,
+[[<techreborn:cable:6>, <techreborn:cable:6>, <techreborn:cable:6>],
+[<contenttweaker:ender_dolomite>, <techreborn:part:29>, <contenttweaker:ender_dolomite>],
+[<techreborn:cable:6>, <contenttweaker:calcite_gem>, <techreborn:cable:6>]]);
+
 recipes.removeShaped(<techreborn:industrial_centrifuge>);
 
 mods.thermalexpansion.Transposer.addFillRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidhelium", Amount: 1000}}), <techreborn:dynamiccell>, <fluid:helium>*1000, 2200);
@@ -226,3 +231,18 @@ mods.techreborn.assemblingMachine.addRecipe(<techreborn:part:39>, <draconicevolu
 mods.techreborn.assemblingMachine.addRecipe(<techreborn:part:0>, <techreborn:part:43>, <contenttweaker:better_lapotron_crystal>, 160, 10);
 
 recipes.removeShaped(<techreborn:chemical_reactor>);
+
+
+recipes.removeShaped(<techreborn:fluid_replicator>);
+
+recipes.addShaped(<techreborn:fluid_replicator>,
+[[<techreborn:plates:33>, <techreborn:part:0>, <techreborn:plates:33>],
+[<techreborn:part:0>, <techreborn:machine_frame:2>, <techreborn:part:0>],
+[<techreborn:industrial_electrolyzer>, <techreborn:part:17>, <techreborn:industrial_electrolyzer>]]);
+
+recipes.removeShaped(<techreborn:electric_furnace>);
+
+recipes.addShaped(<techreborn:electric_furnace>,
+[[null, <techreborn:part:29>, null],
+[<minecraft:redstone>, <techreborn:machine_frame:0>, <minecraft:redstone>],
+[null, <techreborn:iron_furnace>, null]]);

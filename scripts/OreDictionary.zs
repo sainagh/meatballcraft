@@ -18,12 +18,30 @@ rheniumvibore.add(<contenttweaker:rhenium_vibranium_base>);
 
 val oreascendedamethyst = <ore:oreAscendedAmethyst>;
 oreascendedamethyst.add(<aoa3:amethyst_ore>);
+val gemascendedamethyst = <ore:gemAscendedAmethyst>;
+gemascendedamethyst.add(<aoa3:amethyst>);
+val oreamethystreg = <ore:oreAmethyst>;
+oreamethystreg.remove(<aoa3:amethyst_ore>);
+val gemamethystreg = <ore:gemAmethyst>;
+gemamethystreg.remove(<aoa3:amethyst>);
 
 val oreascendedjade = <ore:oreAscendedJade>;
 oreascendedjade.add(<aoa3:jade_ore>);
+val gemascendedjade = <ore:gemAscendedJade>;
+gemascendedjade.add(<aoa3:jade>);
+val orejadereg = <ore:oreJade>;
+orejadereg.remove(<aoa3:jade_ore>);
+val gemjadereg = <ore:gemJade>;
+gemjadereg.remove(<aoa3:jade>);
 
 val oreascendedsapphire = <ore:oreAscendedSapphire>;
 oreascendedsapphire.add(<aoa3:sapphire_ore>);
+val gemascendedsapphire = <ore:gemAscendedSapphire>;
+gemascendedsapphire.add(<aoa3:sapphire>);
+val oresapphirereg = <ore:oreSapphire>;
+oresapphirereg.remove(<aoa3:sapphire_ore>);
+val gemsapphirereg = <ore:gemSapphire>;
+gemsapphirereg.remove(<aoa3:sapphire>);
 
 val orebopruby = <ore:oreBopRuby>;
 orebopruby.add(<biomesoplenty:gem_ore:1>);
@@ -51,6 +69,9 @@ oreogerite.add(<contenttweaker:ogerite_ore>);
 
 val orearkenstone = <ore:oreArkenstone>;
 orearkenstone.add(<contenttweaker:arkenstone>);
+
+val oreetherium = <ore:oreEtherium>;
+oreetherium.add(<contenttweaker:etherium_ore>);
 
 val bewitchmentaltar = <ore:oreBewitchmentAltar>;
 bewitchmentaltar.add(<bewitchment:stone_witches_altar>);
@@ -100,3 +121,6 @@ oreaoagarnet.add(<contenttweaker:celeve_garnet>);
 oreaoagarnet.add(<contenttweaker:precasia_garnet>);
 oreaoagarnet.add(<contenttweaker:abyss_garnet>);
 oreaoagarnet.add(<contenttweaker:vox_ponds_garnet>);
+
+val dustmanganese = <ore:dustManganese>;
+dustmanganese.remove(<nuclearcraft:dust:11>);

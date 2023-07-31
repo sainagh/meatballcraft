@@ -1,0 +1,169 @@
+{
+    "name": "compactmachines3:abyssalcraft_ritual",
+    "target-item": "abyssalcraft:necronomicon",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:cobblestone",
+        "meta": 0
+      },
+      "b": {
+        "id": "minecraft:wool",
+        "meta": 15,
+        "item": {
+            "id": "contenttweaker:right_click_cobble_with_necronomicon",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "minecraft:wool",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:must_be_overworld_abyssal_dimensions",
+            "count": 1
+          }
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "_",
+          "a",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "a",
+          "_",
+          "_",
+          "_",
+          "a",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "a",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "a",
+          "_",
+          "_",
+          "_",
+          "a",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "a",
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ]
+      ]
+    ]
+  
+    
+}

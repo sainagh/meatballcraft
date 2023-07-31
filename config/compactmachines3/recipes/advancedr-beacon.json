@@ -1,0 +1,120 @@
+{
+  "name": "cm3ar:beacon",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:beacon",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+ 
+  "input-types": {
+    "a": {
+      "id": "advancedrocketry:beacon",
+      "meta": 4,
+      "item": {
+        "id": "advancedrocketry:beacon",
+        "count": 1
+      }
+    },
+    "b": {
+      "id": "minecraft:redstone_block",
+      "meta": 0
+    },
+    "c": {
+      "id": "libvulpes:structuremachine",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "c",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "c",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "c",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "c",
+        "_"
+      ],
+      [
+        "a",
+        "c",
+        "c"
+      ],
+      [
+        "_",
+        "c",
+        "_"
+      ]
+    ]
+  ]
+}

@@ -1,5 +1,17 @@
 recipes.removeShaped(<projecte:item.pe_destruction_catalyst>);
 
+recipes.addHiddenShapeless("mushroompuzzle",<contenttweaker:alchemical_mushroom>,
+[<biomesoplenty:terrarium:8>,
+<botania:mushroom:15>,
+<botania:mushroom:13>,
+<botania:mushroom:11>,
+<botania:mushroom:9>]);
+
+recipes.addShaped(<contenttweaker:dense_alchemical_shielding>,
+[[<contenttweaker:alchemical_mushroom>, <projecte:item.pe_matter:1>, <contenttweaker:alchemical_mushroom>],
+[<projecte:item.pe_matter:1>, <contenttweaker:shield_of_terra>, <projecte:item.pe_matter:1>],
+[<contenttweaker:alchemical_mushroom>, <projecte:item.pe_matter:1>, <contenttweaker:alchemical_mushroom>]]);
+
 mods.extendedcrafting.TableCrafting.addShaped(<projecte:item.pe_destruction_catalyst>, 
 [[<xreliquary:mob_ingredient:3>, <minecraft:obsidian>, <bhc:red_heart>, <minecraft:obsidian>, <xreliquary:mob_ingredient:3>], 
 [<minecraft:obsidian>, <projecte:nova_catalyst>, <projecte:item.pe_fuel:1>, <projecte:nova_catalyst>, <minecraft:obsidian>], 
@@ -81,24 +93,24 @@ recipes.removeShaped(<projecte:item.pe_dm_armor_2>);
 recipes.removeShaped(<projecte:item.pe_dm_armor_3>);
 
 recipes.addShaped(<projecte:item.pe_dm_armor_0>,
-[[<projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>],
-[<projecte:item.pe_matter:0>, <botania:elementiumboots>, <projecte:item.pe_matter:0>],
-[<projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>]]);
+[[<projecte:item.pe_matter:0>, <contenttweaker:dense_alchemical_shielding>, <projecte:item.pe_matter:0>],
+[<contenttweaker:dense_alchemical_shielding>, <botania:elementiumboots>, <contenttweaker:dense_alchemical_shielding>],
+[<projecte:item.pe_matter:0>, <contenttweaker:dense_alchemical_shielding>, <projecte:item.pe_matter:0>]]);
 
 recipes.addShaped(<projecte:item.pe_dm_armor_1>,
-[[<projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>],
-[<projecte:item.pe_matter:0>, <botania:elementiumlegs>, <projecte:item.pe_matter:0>],
-[<projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>]]);
+[[<projecte:item.pe_matter:0>, <contenttweaker:dense_alchemical_shielding>, <projecte:item.pe_matter:0>],
+[<contenttweaker:dense_alchemical_shielding>, <botania:elementiumlegs>, <contenttweaker:dense_alchemical_shielding>],
+[<projecte:item.pe_matter:0>, <contenttweaker:dense_alchemical_shielding>, <projecte:item.pe_matter:0>]]);
 
 recipes.addShaped(<projecte:item.pe_dm_armor_2>,
-[[<projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>],
-[<projecte:item.pe_matter:0>, <botania:elementiumchest>, <projecte:item.pe_matter:0>],
-[<projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>]]);
+[[<projecte:item.pe_matter:0>, <contenttweaker:dense_alchemical_shielding>, <projecte:item.pe_matter:0>],
+[<contenttweaker:dense_alchemical_shielding>, <botania:elementiumchest>, <contenttweaker:dense_alchemical_shielding>],
+[<projecte:item.pe_matter:0>, <contenttweaker:dense_alchemical_shielding>, <projecte:item.pe_matter:0>]]);
 
 recipes.addShaped(<projecte:item.pe_dm_armor_3>,
-[[<projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>],
-[<projecte:item.pe_matter:0>, <botania:elementiumhelm>, <projecte:item.pe_matter:0>],
-[<projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>, <projecte:item.pe_matter:0>]]);
+[[<projecte:item.pe_matter:0>, <contenttweaker:dense_alchemical_shielding>, <projecte:item.pe_matter:0>],
+[<contenttweaker:dense_alchemical_shielding>, <botania:elementiumhelm>, <contenttweaker:dense_alchemical_shielding>],
+[<projecte:item.pe_matter:0>, <contenttweaker:dense_alchemical_shielding>, <projecte:item.pe_matter:0>]]);
 
 recipes.remove(<projecte:item.pe_gem_armor_0>);
 recipes.remove(<projecte:item.pe_gem_armor_1>);
@@ -286,9 +298,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<projectex:power_flower:13>,
 [[<projectex:power_flower:11>, <contenttweaker:corrupted_aragonite>, null, null, <contenttweaker:imperfect_gem_of_the_cosmos>, null, null, <contenttweaker:corrupted_aragonite>, <projectex:power_flower:11>], 
 [<contenttweaker:corrupted_aragonite>, null, null, null, <contenttweaker:imperfect_gem_of_the_cosmos>, null, null, null, <contenttweaker:corrupted_aragonite>], 
 [null, null, null, null, null, null, null, null, null], 
-[null, null, null, null, null, null, null, null, null], 
+[<contenttweaker:ayeraco_heart>, null, null, null, null, null, null, null, <contenttweaker:ayeraco_heart>], 
 [<contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:imperfect_gem_of_the_cosmos>, null, null, <projectex:power_flower:12>, null, null, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:imperfect_gem_of_the_cosmos>], 
-[null, null, null, null, null, null, null, null, null], 
+[<contenttweaker:ayeraco_heart>, null, null, null, null, null, null, null, <contenttweaker:ayeraco_heart>], 
 [null, null, null, null, null, null, null, null, null], 
 [<contenttweaker:corrupted_aragonite>, null, null, null, <contenttweaker:imperfect_gem_of_the_cosmos>, null, null, null, <contenttweaker:corrupted_aragonite>], 
 [<projectex:power_flower:11>, <contenttweaker:corrupted_aragonite>, null, null, <contenttweaker:imperfect_gem_of_the_cosmos>, null, null, <contenttweaker:corrupted_aragonite>, <projectex:power_flower:11>]]);  
@@ -305,15 +317,15 @@ mods.extendedcrafting.TableCrafting.addShaped(<projectex:power_flower:14>,
 [<projectex:power_flower:12>, <divinerpg:amthirmis_lump>, <divinerpg:teaker_lump>, <divinerpg:teaker_lump>, <divinerpg:karos_lump>, <divinerpg:teaker_lump>, <divinerpg:teaker_lump>, <divinerpg:amthirmis_lump>, <projectex:power_flower:12>]]);  
 
 mods.extendedcrafting.TableCrafting.addShaped(<projectex:power_flower:15>, 
-[[<projectex:power_flower:13>, null, null, null, <contenttweaker:blue_matter>, null, null, null, <projectex:power_flower:13>], 
-[null, null, null, null, <contenttweaker:blue_matter>, null, null, null, null], 
+[[<projectex:power_flower:13>, <contenttweaker:ayeraco_heart>, null, null, <contenttweaker:blue_matter>, null, null, <contenttweaker:ayeraco_heart>, <projectex:power_flower:13>], 
+[<contenttweaker:ayeraco_heart>, null, null, null, <contenttweaker:blue_matter>, null, null, null, <contenttweaker:ayeraco_heart>], 
 [null, null, null, null, null, null, null, null, null], 
 [null, null, null, null, <contenttweaker:shyre_chunk>, null, null, null, null], 
 [<contenttweaker:mortum_star>, null, <contenttweaker:botanic_alchemic_catalyst>, <projectex:matter:11>, <projectex:power_flower:14>, <projectex:matter:11>, <contenttweaker:botanic_alchemic_catalyst>, null, <contenttweaker:mortum_star>], 
 [null, null, null, null, <contenttweaker:shyre_chunk>, null, null, null, null], 
 [null, null, null, null, null, null, null, null, null], 
-[null, null, null, null, <contenttweaker:blue_matter>, null, null, null, null], 
-[<projectex:power_flower:13>, null, null, null, <contenttweaker:blue_matter>, null, null, null, <projectex:power_flower:13>]]);  
+[<contenttweaker:ayeraco_heart>, null, null, null, <contenttweaker:blue_matter>, null, null, null, <contenttweaker:ayeraco_heart>], 
+[<projectex:power_flower:13>, <contenttweaker:ayeraco_heart>, null, null, <contenttweaker:blue_matter>, null, null, <contenttweaker:ayeraco_heart>, <projectex:power_flower:13>]]);  
 
 
 recipes.addShaped(<projectex:power_flower:0>,

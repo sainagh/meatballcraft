@@ -295,9 +295,17 @@ recipes.addShaped(<appliedenergistics2:creative_energy_cell>,
 recipes.remove(<appliedenergistics2:part:341>);
 
 recipes.addShaped(<appliedenergistics2:part:341>,
-[[<contenttweaker:mythic_excavation_engine>, <appliedenergistics2:part:76>, <contenttweaker:mythic_excavation_engine>],
+[[<contenttweaker:promethium_shard>, <appliedenergistics2:part:76>, <contenttweaker:promethium_shard>],
 [<appliedenergistics2:part:340>, <appliedenergistics2:part:76>, <appliedenergistics2:part:340>],
-[<contenttweaker:mythic_excavation_engine>, <appliedenergistics2:part:76>, <contenttweaker:mythic_excavation_engine>]]);
+[<contenttweaker:promethium_shard>, <appliedenergistics2:part:76>, <contenttweaker:promethium_shard>]]);
+
+recipes.remove(<ae2fc:part_fluid_pattern_ex_terminal>);
+
+recipes.addShaped(<ae2fc:part_fluid_pattern_ex_terminal>,
+[[<contenttweaker:promethium_shard>, <appliedenergistics2:part:76>, <contenttweaker:promethium_shard>],
+[<ae2fc:part_fluid_pattern_terminal>, <appliedenergistics2:part:76>, <ae2fc:part_fluid_pattern_terminal>],
+[<contenttweaker:promethium_shard>, <appliedenergistics2:part:76>, <contenttweaker:promethium_shard>]]);
+
 
 mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:600>, <minecraft:glowstone_dust>);
 mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:1200>, <minecraft:glowstone_dust>);
@@ -333,3 +341,11 @@ Inscriber.addRecipe(<appliedenergistics2:material:59>,
 
 recipes.remove(<extracells:terminal.fluid.wireless>);
 recipes.remove(<extracells:terminal.universal.wireless>);
+
+recipes.remove(<aenetvistool:net_visualizer>);
+
+recipes.addShapeless(<aenetvistool:net_visualizer>,
+[<ae2stuff:visualiser>]);
+
+recipes.addShapeless(<ae2stuff:visualiser>,
+[<aenetvistool:net_visualizer>]);

@@ -1,0 +1,182 @@
+{
+    "name": "compactmachines3:actuallyadditions_empowerer",
+    "target-item": "actuallyadditions:block_empowerer",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "actuallyadditions:block_display_stand",
+        "meta": 0,
+        "item": {
+            "id": "actuallyadditions:block_display_stand",
+            "count": 4
+          }
+      },
+      "b": {
+        "id": "minecraft:wool",
+        "meta": 15,
+        "item": {
+            "id": "contenttweaker:energy_display_stands",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "minecraft:wool",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:items_in_all",
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "actuallyadditions:block_empowerer",
+        "meta": 0,
+        "item": {
+            "id": "actuallyadditions:block_empowerer",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "_",
+          "a",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "d",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "a",
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b",
+          "c",
+          "b",
+          "c",
+          "b"
+        ]
+      ]
+    ]
+   
+}

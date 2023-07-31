@@ -1,0 +1,248 @@
+{
+  "name": "cm3ar:observatory",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:observatory",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+ 
+
+
+
+  "input-types": {
+    "a": {
+      "id": "libvulpes:structuremachine",
+      "meta": 0
+    },
+    "b": {
+      "id": "minecraft:iron_block",
+      "meta": 0
+    },
+    "c": {
+      "id": "advancedrocketry:observatory",
+      "meta": 2,
+      "item": {
+        "id": "advancedrocketry:observatory",
+        "meta": 0,
+        "count": 1
+      }
+    },
+    "d": {
+      "id": "minecraft:glass",
+      "meta": 0
+    },
+    "e": {
+      "id": "advancedrocketry:structuretower",
+      "meta": 0
+    },
+    "f": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0
+    },
+    "g": {
+      "id": "libvulpes:elitemotor",
+      "meta": 2,
+      "item": {
+        "id": "libvulpes:elitemotor",
+        "count": 1
+      }
+    },
+    "h": {
+      "id": "advancedrocketry:loader",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "a",
+        "d",
+        "a",
+        "_"
+      ],
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "_"
+      ],
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "_"
+      ],
+      [
+        "_",
+        "a",
+        "d",
+        "a",
+        "_"
+      ],
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "d",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "b",
+        "c",
+        "b",
+        "_"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "a",
+        "b"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "a",
+        "b"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "a",
+        "b"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "b",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "b",
+        "e",
+        "e",
+        "e",
+        "b"
+      ],
+      [
+        "b",
+        "e",
+        "g",
+        "e",
+        "f"
+      ],
+      [
+        "b",
+        "e",
+        "e",
+        "e",
+        "b"
+      ],
+      [
+        "_",
+        "h",
+        "h",
+        "h",
+        "_"
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,62 @@
+{
+    "name": "compactmachines3:divinerpg_wildwoodportal",
+    "target-item": "divinerpg:twilight_clock",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+    "input-types": {
+      "a": {
+        "id": "divinerpg:eden_block",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "a",
+          "a",
+          "a",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "_",
+          "_",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "_",
+          "_",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "_",
+          "_",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "a",
+          "a",
+          "a"
+        ]
+      ]
+    ]
+  
+
+}

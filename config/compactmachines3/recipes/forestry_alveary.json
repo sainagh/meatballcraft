@@ -1,0 +1,124 @@
+{
+    "name": "compactmachines3:forestry_alveary",
+    "target-item": "forestry:alveary.plain",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:wooden_slab",
+        "meta": 1
+      },
+      "b": {
+        "id": "forestry:alveary.plain",
+        "meta": 0,
+        "item": {
+            "id": "forestry:alveary.plain",
+            "count": 27
+          }
+      },
+      "c": {
+        "id": "minecraft:stonebrick",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:alveary_upgrades_can_replace_bottom_blocks",
+            "count": 1
+          }
+      }
+    },
+    
+    "shape": [
+      [
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ]
+      ],
+      [
+        [
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "b",
+          "b",
+          "b"
+        ]
+      ],
+      [
+        [
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "b",
+          "b",
+          "b"
+        ]
+      ],
+      [
+        [
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "b",
+          "b",
+          "b"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "c",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ]
+    ]
+    
+}

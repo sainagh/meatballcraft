@@ -1,0 +1,100 @@
+{
+  "name": "cm3immersive:lightningrod",
+
+  "disabled": false,
+
+  "target-item": "immersiveengineering:metal_multiblock",
+  "target-count": 1,
+   "target-meta": 14,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 0
+    },
+    "b": {
+      "id": "immersiveengineering:wooden_decoration",
+      "meta": 0
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "d": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "e": {
+      "id": "immersiveengineering:metal_device0",
+      "meta": 2
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 2
+    }
+  },
+  "input-nbt": {
+    "e:A": {
+      "nbt": "{ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},sideConfig_0:0,ifluxEnergy:0,id:\"immersiveengineering:capacitorhv\",sideConfig_1:1,sideConfig_2:0,sideConfig_3:0,sideConfig_4:0,sideConfig_5:0}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "f",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "c",
+        "b"
+      ],
+      [
+        "c",
+        "f",
+        "c"
+      ],
+      [
+        "b",
+        "c",
+        "b"
+      ]
+    ],
+    [
+      [
+        "d",
+        "e:A",
+        "d"
+      ],
+      [
+        "e:A",
+        "f",
+        "e:A"
+      ],
+      [
+        "d",
+        "e:A",
+        "d"
+      ]
+    ]
+  ]
+}

@@ -90,28 +90,28 @@ recipes.removeShaped(<redstonearsenal:armor.helmet_flux>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<redstonearsenal:armor.helmet_flux>, 
 [[<redstonearsenal:material:224>, <redstonearsenal:material:224>, <redstonearsenal:material:224>], 
-[<redstonearsenal:material:224>, <projecte:item.pe_rm_armor_3>, <redstonearsenal:material:224>], 
+[<redstonearsenal:material:224>, <botania:elementiumhelm>, <redstonearsenal:material:224>], 
 [<redstonearsenal:material:224>, <redstonearsenal:material:224>, <redstonearsenal:material:224>]]); 
 
 recipes.removeShaped(<redstonearsenal:armor.plate_flux>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<redstonearsenal:armor.plate_flux>, 
 [[<redstonearsenal:material:224>, <redstonearsenal:material:224>, <redstonearsenal:material:224>], 
-[<redstonearsenal:material:224>, <projecte:item.pe_rm_armor_2>, <redstonearsenal:material:224>], 
+[<redstonearsenal:material:224>, <botania:elementiumchest>, <redstonearsenal:material:224>], 
 [<redstonearsenal:material:224>, <redstonearsenal:material:224>, <redstonearsenal:material:224>]]); 
 
 recipes.removeShaped(<redstonearsenal:armor.legs_flux>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<redstonearsenal:armor.legs_flux>, 
 [[<redstonearsenal:material:224>, <redstonearsenal:material:224>, <redstonearsenal:material:224>], 
-[<redstonearsenal:material:224>, <projecte:item.pe_rm_armor_1>, <redstonearsenal:material:224>], 
+[<redstonearsenal:material:224>, <botania:elementiumlegs>, <redstonearsenal:material:224>], 
 [<redstonearsenal:material:224>, <redstonearsenal:material:224>, <redstonearsenal:material:224>]]); 
 
 recipes.removeShaped(<redstonearsenal:armor.boots_flux>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<redstonearsenal:armor.boots_flux>, 
 [[<redstonearsenal:material:224>, <redstonearsenal:material:224>, <redstonearsenal:material:224>], 
-[<redstonearsenal:material:224>, <projecte:item.pe_rm_armor_0>, <redstonearsenal:material:224>], 
+[<redstonearsenal:material:224>, <botania:elementiumboots>, <redstonearsenal:material:224>], 
 [<redstonearsenal:material:224>, <redstonearsenal:material:224>, <redstonearsenal:material:224>]]); 
 
 recipes.remove(<thermalexpansion:augment:258>);
@@ -136,7 +136,7 @@ recipes.addShaped(<forestry:sturdy_machine>*4,
 
 recipes.addShaped(<actuallyadditions:block_misc:9>*4,
 [[<ore:ingotSyrmorite>, <minecraft:stick>, <ore:ingotSyrmorite>],
-[<minecraft:stick>, <actuallyadditions:block_misc:5>, <minecraft:stick>],
+[<minecraft:stick>, <ore:blockCharcoal>, <minecraft:stick>],
 [<ore:ingotSyrmorite>, <minecraft:stick>, <ore:ingotSyrmorite>]]);
 
 recipes.addShaped(<enderio:item_material:0>*4,

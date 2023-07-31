@@ -52,7 +52,7 @@ var mapBraveOther as IData = {
 mapBrave += mapBraveOther;
 
 
-val enchlistMirkwood as IEnchantmentDefinition[] = [<enchantment:cofhcore:multishot>, <enchantment:minecraft:power>, <enchantment:minecraft:infinity>, <enchantment:cofhcore:leech>];
+val enchlistMirkwood as IEnchantmentDefinition[] = [<enchantment:enderio:witherarrow>, <enchantment:minecraft:power>, <enchantment:minecraft:infinity>, <enchantment:cofhcore:leech>];
 var mapMirkwood as IData = {};
 mapMirkwood += enchlistMirkwood[0].makeEnchantment(6).makeTag();
 mapMirkwood += enchlistMirkwood[1].makeEnchantment(18).makeTag();
@@ -98,6 +98,90 @@ var mapBayonetteOther as IData = {
 };
 mapBayonette += mapBayonetteOther;
 
+val enchlistPoisonSpear as IEnchantmentDefinition[] = [<enchantment:cyclicmagic:enchantment.venom>, <enchantment:minecraft:sharpness>];
+var mapPoisonSpear as IData = {};
+mapPoisonSpear += enchlistPoisonSpear[0].makeEnchantment(20).makeTag();
+mapPoisonSpear += enchlistPoisonSpear[1].makeEnchantment(20).makeTag();
+var mapPoisonSpearOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Venomous Thyrsus"}
+};
+mapPoisonSpear += mapPoisonSpearOther;
+
+val enchlistBoomerang as IEnchantmentDefinition[] = [<enchantment:extrautils2:xu.burnerang>, <enchantment:extrautils2:xu.boomereaperang>, <enchantment:extrautils2:xu.boomereaperang>, <enchantment:extrautils2:xu.bladerang>, <enchantment:extrautils2:xu.zoomerang>, <enchantment:extrautils2:xu.kaboomerang>];
+var mapBoomerang as IData = {};
+mapBoomerang += enchlistBoomerang[0].makeEnchantment(1).makeTag();
+mapBoomerang += enchlistBoomerang[1].makeEnchantment(10).makeTag();
+mapBoomerang += enchlistBoomerang[2].makeEnchantment(10).makeTag();
+mapBoomerang += enchlistBoomerang[3].makeEnchantment(10).makeTag();
+mapBoomerang += enchlistBoomerang[4].makeEnchantment(10).makeTag();
+var mapBoomerangOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Superoomerang"}
+};
+mapBoomerang += mapBoomerangOther;
+
+
+val enchlistFlimFlamCleave as IEnchantmentDefinition[] = [<enchantment:openblocks:flim_flam>];
+var mapFlimFlam as IData = {};
+mapFlimFlam += enchlistFlimFlamCleave[0].makeEnchantment(222).makeTag();
+var mapFlimFlamOther as IData = {
+	RepairCost: 1,
+	display: {Name: "The Flim-Flammer"}
+};
+mapFlimFlam += mapFlimFlamOther;
+
+
+val enchlistSpeedybow as IEnchantmentDefinition[] = [<enchantment:minecraft:power>, <enchantment:minecraft:infinity>, <enchantment:cyclicmagic:enchantment.quickdraw>];
+var mapSpeedyBow as IData = {};
+mapSpeedyBow += enchlistSpeedybow[0].makeEnchantment(25).makeTag();
+mapSpeedyBow += enchlistSpeedybow[1].makeEnchantment(1).makeTag();
+mapSpeedyBow += enchlistSpeedybow[2].makeEnchantment(1).makeTag();
+var mapSpeedyBowOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Eurobeat Bow"}
+};
+mapSpeedyBow += mapSpeedyBowOther;
+
+
+
+
+
+
+
+
+
+
+recipes.addShaped(<bewitchment:cleaver_sword>.withTag(mapFlimFlam),
+[[<contenttweaker:unstable_fragment_of_unraveling>, <openblocks:trophy:25>.withTag({entity_id: "minecraft:endermite"}), <contenttweaker:unstable_fragment_of_unraveling>],
+[<contenttweaker:stone_of_the_sleeping_city>, <bewitchment:cleaver_sword>, <contenttweaker:stone_of_the_sleeping_city>],
+[<contenttweaker:unstable_fragment_of_unraveling>, <openblocks:trophy:25>.withTag({entity_id: "minecraft:endermite"}), <contenttweaker:unstable_fragment_of_unraveling>]]);
+
+
+recipes.addShaped(<contenttweaker:elder_spooder_string>,
+[[<bloodarsenal:blood_burned_string>, <bloodarsenal:blood_burned_string>, <bloodarsenal:blood_burned_string>],
+[<bloodarsenal:blood_burned_string>, <contenttweaker:heart_of_the_elder_one>.reuse(), <bloodarsenal:blood_burned_string>],
+[<bloodarsenal:blood_burned_string>, <bloodarsenal:blood_burned_string>, <bloodarsenal:blood_burned_string>]]);
+
+recipes.addShaped(<extrautils2:boomerang>.withTag(mapBoomerang),
+[[<contenttweaker:elder_spooder_string>, <techreborn:nuke>, <contenttweaker:elder_spooder_string>],
+[<extrautils2:opinium:8>, <extrautils2:boomerang>, <extrautils2:opinium:8>],
+[<contenttweaker:elder_spooder_string>, <techreborn:nuke>, <contenttweaker:elder_spooder_string>]]);
+
+
+recipes.addShaped(<contenttweaker:faultless_ichor>,
+[[<contenttweaker:ichor>, <contenttweaker:ichor>, <contenttweaker:ichor>],
+[<contenttweaker:ichor>, <contenttweaker:faultless_ichor_gem>.reuse(), <contenttweaker:ichor>],
+[<contenttweaker:ichor>, <contenttweaker:ichor>, <contenttweaker:ichor>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<bewitchment:thyrsus>.withTag(mapPoisonSpear), 
+[[<contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>], 
+[<contenttweaker:faultless_ichor>, <erebus:materials:21>, <erebus:materials:21>, <iceandfire:hydra_fang>, <erebus:materials:21>, <erebus:materials:21>, <contenttweaker:faultless_ichor>], 
+[<contenttweaker:faultless_ichor>, <erebus:materials:21>, <iceandfire:hydra_fang>, <aoa3:runium_chunk>, <iceandfire:hydra_fang>, <erebus:materials:21>, <contenttweaker:faultless_ichor>], 
+[<contenttweaker:faultless_ichor>, <iceandfire:hydra_fang>, <aoa3:runium_chunk>, <bewitchment:thyrsus>, <aoa3:runium_chunk>, <iceandfire:hydra_fang>, <contenttweaker:faultless_ichor>], 
+[<contenttweaker:faultless_ichor>, <erebus:materials:21>, <iceandfire:hydra_fang>, <aoa3:runium_chunk>, <iceandfire:hydra_fang>, <erebus:materials:21>, <contenttweaker:faultless_ichor>], 
+[<contenttweaker:faultless_ichor>, <erebus:materials:21>, <erebus:materials:21>, <iceandfire:hydra_fang>, <erebus:materials:21>, <erebus:materials:21>, <contenttweaker:faultless_ichor>], 
+[<contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>]]);  
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<aoa3:limonite_sword>.withTag({ench: [{lvl: 29 as short, id: 16 as short}, {lvl: 3 as short, id: 34 as short}, {lvl: 49 as short, id: 19 as short}], RepairCost: 1, display: {Name: "Biggus Yeetus"}}), 
@@ -278,3 +362,29 @@ recipes.addShaped(<aoa3:bayonette_rifle>.withTag(mapBayonette),
 [<contenttweaker:gun_devil_piece>, <aoa3:bayonette_rifle>, <contenttweaker:gun_devil_piece>],
 [<contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>]]);
 
+recipes.addShapeless(<contenttweaker:cursed_gem_of_betrayal>,
+[<gendustry:honey_comb:13370>, <gendustry:honey_comb:13371>, <contenttweaker:cursed_sapphire>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<divinerpg:icicle_bow>.withTag(mapSpeedyBow), 10000000, 
+<divinerpg:icicle_bow>, 
+[<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>
+]);

@@ -143,7 +143,7 @@ buffalocharger.register();
 var dragoneggomelette = VanillaFactory.createItemFood("dragon_egg_omelette", 5);
 dragoneggomelette.saturation = 1;
 dragoneggomelette.onItemFoodEaten = function(stack, world, player) {
-	player.addPotionEffect(<potion:minecraft:health_boost>.makePotionEffect(12000, 100));
+	player.addPotionEffect(<potion:minecraft:health_boost>.makePotionEffect(12000, 20));
 };
 dragoneggomelette.register();
 
@@ -174,3 +174,17 @@ gummywormz.onItemFoodEaten = function(stack, world, player) {
 	player.addPotionEffect(<potion:thaumadditions:sanity_checker>.makePotionEffect(999999, 1));
 };
 gummywormz.register();
+
+var addictioncookie = VanillaFactory.createItemFood("addiction_cookie", 5);
+addictioncookie.saturation = 1;
+addictioncookie.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Go outside already!");
+};
+addictioncookie.register();
+
+var sausagesandwich = VanillaFactory.createItemFood("sausage_sandwich", 5);
+sausagesandwich.saturation = 1;
+sausagesandwich.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Do you come from a land down under?");
+};
+sausagesandwich.register();

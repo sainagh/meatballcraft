@@ -1,0 +1,97 @@
+{
+  "name": "cm3immersive:bottling",
+
+  "disabled": false,
+
+  "target-item": "immersiveengineering:metal_multiblock",
+  "target-count": 1,
+   "target-meta": 6,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "b": {
+      "id": "immersiveengineering:conveyor",
+      "meta": 0
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "d": {
+      "id": "immersiveengineering:metal_device0",
+      "meta": 5
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    },
+    "f": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 9
+    }
+  },
+  "input-nbt": {
+    "b:A": {
+      "nbt": "{conveyorBeltSubtypeNBT:{dyeColour:-1,direction:0},ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},facing:3,conveyorBeltSubtype:\"immersiveengineering:conveyor\",id:\"immersiveengineering:conveyorbelt\"}"
+    },
+    "d:A": {
+      "nbt": "{dummy:1b,sideConfig:[I;0,-1,-1,-1,-1,-1],ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},ifluxEnergy:0,id:\"immersiveengineering:fluidpump\",placeCobble:1b,tank:{Empty:\"\"}}"
+    },
+    "d:B": {
+      "nbt": "{dummy:0b,sideConfig:[I;0,-1,-1,-1,-1,-1],ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},ifluxEnergy:0,id:\"immersiveengineering:fluidpump\",placeCobble:1b,tank:{Empty:\"\"}}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "d:A"
+      ],
+      [
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "b:A",
+        "a"
+      ],
+      [
+        "b:A",
+        "d:B"
+      ],
+      [
+        "b:A",
+        "f"
+      ]
+    ],
+    [
+      [
+        "c",
+        "a"
+      ],
+      [
+        "e",
+        "c"
+      ],
+      [
+        "c",
+        "f"
+      ]
+    ]
+  ]
+}

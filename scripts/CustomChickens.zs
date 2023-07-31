@@ -316,5 +316,15 @@ hassiumchicken.setForegroundColor(Color.fromHex("388a2e"));
 hassiumchicken.setSpawnType("NONE");
 hassiumchicken.register();
 
+var energychicken = ChickenFactory.createChicken("energy_chicken", Color.fromHex("263073"), <item:contenttweaker:energy_egg>);
+energychicken.setForegroundColor(Color.fromHex("388a2e"));
+energychicken.setSpawnType("NONE");
+energychicken.register();
+
+var heraldrychicken = ChickenFactory.createChicken("heraldry_chicken", Color.fromHex("263073"), <item:contenttweaker:heraldry_egg>);
+heraldrychicken.setForegroundColor(Color.fromHex("388a2e"));
+heraldrychicken.setSpawnType("NONE");
+heraldrychicken.register();
+
 
 

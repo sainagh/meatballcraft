@@ -1,0 +1,81 @@
+{
+  "name": "cm3ar:chemicalreactor",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:chemicalreactor",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+
+
+  "input-types": {
+    "a": {
+      "id": "advancedrocketry:chemicalreactor",
+      "meta": 2,
+      "item": {
+        "id": "advancedrocketry:chemicalreactor",
+        "count": 1
+      }
+    },
+    "b": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0
+    },
+    "c": {
+      "id": "libvulpes:elitemotor",
+      "meta": 2,
+      "item": {
+        "id": "libvulpes:elitemotor",
+        "count": 1
+      }
+    },
+    "d": {
+      "id": "libvulpes:hatch",
+      "meta": 2
+    },
+    "e": {
+      "id": "libvulpes:hatch",
+      "meta": 0
+    },
+    "f": {
+      "id": "libvulpes:hatch",
+      "meta": 3
+    },
+    "g": {
+      "id": "libvulpes:hatch",
+      "meta": 1
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "a:A",
+        "_"
+      ],
+      [
+        "d:A",
+        "e:A",
+        "d:A"
+      ]
+    ],
+    [
+      [
+        "b:A",
+        "c",
+        "b:A"
+      ],
+      [
+        "f:A",
+        "g:A",
+        "f:A"
+      ]
+    ]
+  ]
+
+}

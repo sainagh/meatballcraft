@@ -8,10 +8,10 @@
             "x": 0,
             "y": 0,
             "z": 3,
-            "description": "Replace elementium for faster recipes",
+            "description": "Replace elementium for faster recipes, 6X",
             "modifier": {
-                "io": "output",
-                "target": "duration",
+                "io": "input",
+                "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.15
             }

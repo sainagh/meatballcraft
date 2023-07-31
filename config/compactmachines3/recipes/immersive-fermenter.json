@@ -1,0 +1,108 @@
+{
+  "name": "cm3immersive:fermenter",
+
+  "disabled": false,
+
+  "target-item": "immersiveengineering:metal_multiblock",
+  "target-count": 1,
+   "target-meta": 8,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 9
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "c": {
+      "id": "minecraft:cauldron",
+      "meta": 0,
+      "item": {
+        "id": "minecraft:cauldron",
+        "meta": 0,
+        "count": 4
+      }
+    },
+    "d": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "e": {
+      "id": "immersiveengineering:metal_device1",
+      "meta": 6
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    }
+  },
+  "input-nbt": {
+    "e:A": {
+      "nbt": "{sideConfig:[I;0,0,0,0,0,0],ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"immersiveengineering:fluidpipe\",connections:4b}"
+    },
+    "e:B": {
+      "nbt": "{sideConfig:[I;0,0,0,0,0,0],ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"immersiveengineering:fluidpipe\",connections:8b}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "a",
+        "a"
+      ],
+      [
+        "_",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "f",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "c",
+        "c"
+      ],
+      [
+        "b",
+        "c",
+        "c"
+      ]
+    ],
+    [
+      [
+        "d",
+        "e:B",
+        "d"
+      ],
+      [
+        "d",
+        "e:A",
+        "d"
+      ],
+      [
+        "b",
+        "d",
+        "d"
+      ]
+    ]
+  ]
+}

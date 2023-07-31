@@ -1,0 +1,67 @@
+{
+    "name": "compactmachines3:ae2_quantumlink",
+    "target-item": "appliedenergistics2:quantum_link",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+    "input-types": {
+      "a": {
+        "id": "appliedenergistics2:quantum_ring",
+        "meta": 0,
+        "item": {
+            "id": "appliedenergistics2:quantum_ring",
+            "count": 8
+          }
+      },
+      "b": {
+        "id": "appliedenergistics2:quantum_link",
+        "meta": 0,
+        "item": {
+            "id": "appliedenergistics2:quantum_link",
+            "count": 1
+          }
+      }
+    },
+    "shape": [
+      [
+        [
+          "a"
+        ],
+        [
+          "a"
+        ],
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "a"
+        ],
+        [
+          "b"
+        ],
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "a"
+        ],
+        [
+          "a"
+        ],
+        [
+          "a"
+        ]
+      ]
+    ]
+   
+}

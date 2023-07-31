@@ -2,6 +2,27 @@
     "registryname": "mythic_processor_purifier",
     "localizedname": "Mythic Processor: Purifier",
 	"color": "464f47",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:mythic_coil_t2@0",
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "description": "Multiplies amounts processed by 4",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -1,

@@ -6195,6 +6195,666 @@
     {
       "item": "botania:altgrass|5",
       "emc": 2
+    },
+    {
+      "item": "botania:mushroom|1",
+      "emc": 0
+    },
+    {
+      "item": "botania:mushroom|2",
+      "emc": 0
+    },
+    {
+      "item": "botania:mushroom|3",
+      "emc": 0
+    },
+    {
+      "item": "botania:mushroom|4",
+      "emc": 0
+    },
+    {
+      "item": "botania:mushroom|6",
+      "emc": 0
+    },
+    {
+      "item": "botania:mushroom|8",
+      "emc": 0
+    },
+    {
+      "item": "botania:mushroom|14",
+      "emc": 0
+    },
+    {
+      "item": "chisel:factory|1",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory|2",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory|3",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory|4",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory|5",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory|6",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory|7",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory|8",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory|9",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory1|2",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory1|1",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory1|0",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory|15",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory|14",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory|13",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory|12",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory|11",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory|10",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory1|3",
+      "emc": 32
+    },
+    {
+      "item": "chisel:factory1|4",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|0",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|1",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|2",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|3",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|4",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|5",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|6",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|15",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|14",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|13",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|12",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|11",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|10",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|9",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|8",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical|7",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical1|0",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical1|1",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical1|2",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical1|3",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technical1|4",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technicalnew|0",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technicalnew|1",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technicalnew|2",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technicalnew|3",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technicalnew|8",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technicalnew|7",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technicalnew|6",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technicalnew|5",
+      "emc": 32
+    },
+    {
+      "item": "chisel:technicalnew|4",
+      "emc": 32
+    },
+    {
+      "item": "threng:material|3",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:imstuck_getmehome|0",
+      "emc": 1
+    },
+    {
+      "item": "extrautils2:flattransfernode|1",
+      "emc": 100
+    },
+    {
+      "item": "extrautils2:flattransfernode|0",
+      "emc": 100
+    },
+    {
+      "item": "enderio:item_soul_filter_normal|0",
+      "emc": 1380
+    },
+    {
+      "item": "enderio:item_soul_filter_big|0",
+      "emc": 1380
+    },
+    {
+      "item": "enderio:item_advanced_item_filter|0",
+      "emc": 1380
+    },
+    {
+      "item": "enderio:item_limited_item_filter|0",
+      "emc": 1380
+    },
+    {
+      "item": "enderio:item_big_item_filter|0",
+      "emc": 1380
+    },
+    {
+      "item": "enderio:item_big_advanced_item_filter|0",
+      "emc": 1380
+    },
+    {
+      "item": "enderio:item_existing_item_filter|0",
+      "emc": 1380
+    },
+    {
+      "item": "enderio:item_mod_item_filter|0",
+      "emc": 1380
+    },
+    {
+      "item": "enderio:item_power_item_filter|0",
+      "emc": 1380
+    },
+    {
+      "item": "enderio:item_enchantment_filter_normal|0",
+      "emc": 1380
+    },
+    {
+      "item": "enderio:item_enchantment_filter_big|0",
+      "emc": 1380
+    },
+    {
+      "item": "thermaldynamics:servo|0",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:servo|1",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:servo|2",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:servo|3",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:servo|4",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:filter|0",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:filter|1",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:filter|2",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:filter|3",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:filter|4",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:retriever|0",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:retriever|1",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:retriever|2",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:retriever|3",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:retriever|4",
+      "emc": 500
+    },
+    {
+      "item": "thermaldynamics:relay|0",
+      "emc": 1450
+    },
+    {
+      "item": "appliedenergistics2:quartz_vibrant_glass|0",
+      "emc": 0
+    },
+    {
+      "item": "appliedenergistics2:quartz_glass|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:heart_of_the_elder_one|0",
+      "emc": 3000000000000
+    },
+    {
+      "item": "contenttweaker:tainted_heart|0",
+      "emc": 3000000000000
+    },
+    {
+      "item": "contenttweaker:faultless_ichor_gem|0",
+      "emc": 3000000000000
+    },
+    {
+      "item": "contenttweaker:gem_of_the_sleeping_city|0",
+      "emc": 3000000000000
+    },
+    {
+      "item": "bloodmagic:demon_extras|14",
+      "emc": 1024
+    },
+    {
+      "item": "bloodmagic:demon_extras|10",
+      "emc": 1024
+    },
+    {
+      "item": "bloodmagic:demon_extras|11",
+      "emc": 1024
+    },
+    {
+      "item": "bloodmagic:demon_extras|12",
+      "emc": 1024
+    },
+    {
+      "item": "bloodmagic:demon_extras|13",
+      "emc": 1024
+    },
+    {
+      "item": "bloodmagic:demon_extras|4",
+      "emc": 1024
+    },
+    {
+      "item": "bloodmagic:demon_extras|3",
+      "emc": 1024
+    },
+    {
+      "item": "bloodmagic:demon_extras|2",
+      "emc": 1024
+    },
+    {
+      "item": "bloodmagic:demon_extras|1",
+      "emc": 1024
+    },
+    {
+      "item": "bloodmagic:demon_extras|0",
+      "emc": 1024
+    },
+    {
+      "item": "bewitchment:dragons_blood_resin|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:dragons_blood_plastic|0",
+      "emc": 0
+    },
+    {
+      "item": "chisel:valentines|8",
+      "emc": 4
+    },
+    {
+      "item": "chisel:valentines|7",
+      "emc": 4
+    },
+    {
+      "item": "chisel:valentines|9",
+      "emc": 4
+    },
+    {
+      "item": "chisel:valentines|6",
+      "emc": 4
+    },
+    {
+      "item": "chisel:valentines|5",
+      "emc": 4
+    },
+    {
+      "item": "chisel:valentines|4",
+      "emc": 4
+    },
+    {
+      "item": "chisel:valentines|3",
+      "emc": 4
+    },
+    {
+      "item": "chisel:valentines|2",
+      "emc": 4
+    },
+    {
+      "item": "chisel:valentines|1",
+      "emc": 4
+    },
+    {
+      "item": "botania:lexicon|0",
+      "emc": 0
+    },
+    {
+      "item": "twilightforest:huge_lilypad|0",
+      "emc": 16
+    },
+    {
+      "item": "contenttweaker:umberstone_callstone|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:edible|4",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:edible|2",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:edible|1",
+      "emc": 32
+    },
+    {
+      "item": "immersiveengineering:metal|11",
+      "emc": 0
+    },
+    {
+      "item": "nuclearcraft:dust|2",
+      "emc": 0
+    },
+    {
+      "item": "techreborn:dust|29",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:material|67",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:material|66",
+      "emc": 0
+    },
+    {
+      "item": "techreborn:dust|47",
+      "emc": 0
+    },
+    {
+      "item": "nuclearcraft:dust|13",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:metal|12",
+      "emc": 0
+    },
+    {
+      "item": "techreborn:dust|30",
+      "emc": 0
+    },
+    {
+      "item": "techreborn:dust|31",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity_custom|1032",
+      "emc": 0
+    },
+    {
+      "item": "extrautils2:endershard|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:snow|0",
+      "emc": 0
+    },
+    {
+      "item": "abyssalcraft:coin|0",
+      "emc": 0
+    },
+    {
+      "item": "randomthings:coloredgrass|0",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|1",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|2",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|3",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|4",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|5",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|6",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|7",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|8",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|9",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|10",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|11",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|12",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|13",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|14",
+      "emc": 4
+    },
+    {
+      "item": "randomthings:coloredgrass|15",
+      "emc": 4
+    },
+    {
+      "item": "botania:quartztypemana|0",
+      "emc": 1024
+    },
+    {
+      "item": "botania:quartztypeblaze|0",
+      "emc": 1024
+    },
+    {
+      "item": "botania:quartztypelavender|0",
+      "emc": 1024
+    },
+    {
+      "item": "botania:quartztypered|0",
+      "emc": 1024
+    },
+    {
+      "item": "botania:quartztypeelf|0",
+      "emc": 1024
+    },
+    {
+      "item": "botania:quartztypesunny|0",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:skull|3",
+      "emc": 0
+    },
+    {
+      "item": "forestry:pollen|0",
+      "emc": 0
+    },
+    {
+      "item": "forestry:pollen|1",
+      "emc": 0
+    },
+    {
+      "item": "forestry:oak_stick|0",
+      "emc": 0
+    },
+    {
+      "item": "storagedrawers:drawer_key|0",
+      "emc": 16
+    },
+    {
+      "item": "storagedrawers:shroud_key|0",
+      "emc": 16
+    },
+    {
+      "item": "storagedrawers:personal_key|0",
+      "emc": 16
+    },
+    {
+      "item": "storagedrawers:quantify_key|0",
+      "emc": 16
     }
   ]
 }

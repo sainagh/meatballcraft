@@ -11,7 +11,7 @@
             "description": "Replace middle block to increase item output",
             "modifier": {
                 "io": "output",
-                "target": "item",
+                "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 4
             }

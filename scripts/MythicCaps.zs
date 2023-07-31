@@ -213,7 +213,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:lelyetian_cap>*8,
 <nuclearcraft:part:2>, <thebetweenlands:items_misc:24>, <astralsorcery:itemusabledust:0>], 
 
 [<astralsorcery:itemusabledust:0>, <materialpart:dreadite:plate>, <contenttweaker:hyperchitinous_plate>, 
-<astralsorcery:itemshiftingstar>.withTag({astralsorcery: {}}), <botania:rune:15>, <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {}}), 
+<extendedcrafting:material:40>, <botania:rune:15>, <extendedcrafting:material:40>, 
 <contenttweaker:hyperchitinous_plate>, <materialpart:dreadite:plate>, <astralsorcery:itemusabledust:0>], 
 
 [<astralsorcery:itemusabledust:0>, <materialpart:dreadite:plate>, <techreborn:machine_frame:2>, 
@@ -221,7 +221,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:lelyetian_cap>*8,
 <techreborn:machine_frame:2>, <materialpart:dreadite:plate>, <astralsorcery:itemusabledust:0>], 
 
 [<astralsorcery:itemusabledust:0>, <materialpart:dreadite:plate>, <contenttweaker:hyperchitinous_plate>, 
-<astralsorcery:itemshiftingstar>.withTag({astralsorcery: {}}), <botania:rune:15>, <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {}}), 
+<extendedcrafting:material:40>, <botania:rune:15>, <extendedcrafting:material:40>, 
 <contenttweaker:hyperchitinous_plate>, <materialpart:dreadite:plate>, <astralsorcery:itemusabledust:0>], 
 
 [<astralsorcery:itemusabledust:0>, <thebetweenlands:items_misc:24>, <nuclearcraft:part:2>, 

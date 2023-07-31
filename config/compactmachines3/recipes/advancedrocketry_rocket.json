@@ -1,0 +1,166 @@
+{
+    "name": "compactmachines3:advancedrocketry_rocket",
+    "target-item": "contenttweaker:rocket",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "advancedrocketry:fueltank",
+        "meta": 0
+      },
+      "b": {
+        "id": "advancedrocketry:advrocketmotor",
+        "meta": 0
+      },
+      "c": {
+        "id": "advancedrocketry:seat",
+        "meta": 0
+      },
+      "d": {
+        "id": "advancedrocketry:guidancecomputer",
+        "meta": 2,
+        "item": {
+            "id": "advancedrocketry:guidancecomputer",
+            "count": 1
+          }
+      },
+      "e": {
+        "id": "minecraft:stonebrick",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:built_in_launchpad",
+            "count": 1
+          }
+      },
+      "f": {
+        "id": "minecraft:stone",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:rocket_works_with_these_blocks",
+            "count": 1
+          }
+      },
+      "g": {
+        "id": "minecraft:cobblestone",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:planet_space_station_chip_computer",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "c",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "d",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "a",
+          "_"
+        ],
+        [
+          "a",
+          "e",
+          "a"
+        ],
+        [
+          "_",
+          "a",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "a",
+          "_"
+        ],
+        [
+          "a",
+          "f",
+          "a"
+        ],
+        [
+          "_",
+          "a",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "a",
+          "_"
+        ],
+        [
+          "a",
+          "g",
+          "a"
+        ],
+        [
+          "_",
+          "a",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "b",
+          "_"
+        ],
+        [
+          "b",
+          "_",
+          "b"
+        ],
+        [
+          "_",
+          "b",
+          "_"
+        ]
+      ]
+    ]
+     
+}

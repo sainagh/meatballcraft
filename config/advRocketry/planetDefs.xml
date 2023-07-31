@@ -324,7 +324,7 @@
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>0</orbitalPhi>
             <fillerBlock>contenttweaker:white_fuel</fillerBlock>
-            <rotationalPeriod>1000</rotationalPeriod>
+            <rotationalPeriod>10000</rotationalPeriod>
 			<biomeIds>advancedrocketry:moondark</biomeIds>
 			<artifact>contenttweaker:alkemia_artifact</artifact>
 		</planet>

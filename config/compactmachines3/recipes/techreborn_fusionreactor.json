@@ -1,0 +1,97 @@
+{
+    "name": "compactmachines3:techreborn_fusionreactor",
+    "target-item": "techreborn:fusion_control_computer",
+    "target-meta": 0,
+    "target-count": 4,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+  
+  "input-types": {
+    "a": {
+      "id": "techreborn:fusion_coil",
+      "meta": 0
+    },
+    "b": {
+      "id": "techreborn:fusion_control_computer",
+      "meta": 0,
+      "item": {
+          "id": "techreborn:fusion_control_computer",
+          "count": 1
+        }
+    }
+  },
+
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "a",
+        "a",
+        "a",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "a",
+        "_",
+        "_",
+        "_",
+        "a",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "b",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "a",
+        "_",
+        "_",
+        "_",
+        "a",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "a",
+        "a",
+        "a",
+        "_",
+        "_"
+      ]
+    ]
+  ]
+
+
+}

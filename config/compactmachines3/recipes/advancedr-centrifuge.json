@@ -1,0 +1,129 @@
+{
+  "name": "cm3ar:centrifuge",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:centrifuge",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+
+  "input-types": {
+    "a": {
+      "id": "libvulpes:structuremachine",
+      "meta": 0
+    },
+    "b": {
+      "id": "libvulpes:hatch",
+      "meta": 3
+    },
+    "c": {
+      "id": "advancedrocketry:centrifuge",
+      "meta": 2,
+      "item": {
+        "id": "advancedrocketry:centrifuge",
+        "count": 1
+      }
+    },
+    "d": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0
+    },
+    "e": {
+      "id": "libvulpes:hatch",
+      "meta": 2
+    },
+    "f": {
+      "id": "libvulpes:advstructuremachine",
+      "meta": 0
+    },
+    "g": {
+      "id": "libvulpes:elitemotor",
+      "meta": 2,
+      "item": {
+        "id": "libvulpes:elitemotor",
+        "count": 1
+      }
+    },
+    "h": {
+      "id": "libvulpes:hatch",
+      "meta": 1
+    }
+  },
+  "shape": [
+    [
+      [
+        "b:A",
+        "a",
+        "_"
+      ],
+      [
+        "a",
+        "f",
+        "f"
+      ],
+      [
+        "_",
+        "f",
+        "f"
+      ]
+    ],
+    [
+      [
+        "b:A",
+        "a",
+        "_"
+      ],
+      [
+        "a",
+        "f",
+        "f"
+      ],
+      [
+        "b:A",
+        "f",
+        "f"
+      ]
+    ],
+    [
+      [
+        "b:A",
+        "a",
+        "c:A"
+      ],
+      [
+        "a",
+        "f",
+        "f"
+      ],
+      [
+        "b:A",
+        "f",
+        "f"
+      ]
+    ],
+    [
+      [
+        "b:A",
+        "e:A",
+        "d:A"
+      ],
+      [
+        "a",
+        "h:A",
+        "g"
+      ],
+      [
+        "b:A",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+
+}

@@ -218,3 +218,10 @@ recipes.addShaped(<environmentaltech:laser_lens_crystal>,
 [[<environmentaltech:litherite>, <projectex:matter:6>, <environmentaltech:litherite>],
 [<environmentaltech:litherite>, <ore:etLaserLens>, <environmentaltech:litherite>],
 [<environmentaltech:litherite>, <projectex:matter:6>, <environmentaltech:litherite>]]);
+
+recipes.removeShaped(<environmentaltech:lightning_cont_1>);
+
+recipes.addShaped(<environmentaltech:lightning_cont_1>,
+[[<environmentaltech:interconnect>, <environmentaltech:lightning_rod_insulated>, <environmentaltech:interconnect>],
+[<ore:blockLitherite>, <environmentaltech:lightning_rod_insulated>, <ore:blockLitherite>],
+[<ore:blockLitherite>, <ore:rodSednanite>, <ore:blockLitherite>]]);

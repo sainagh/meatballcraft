@@ -247,9 +247,8 @@ reci22.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, 
 reci22.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}));
 reci22.addItemInput(<thermalfoundation:material:32>*2);
 reci22.addItemInput(<techreborn:plates:18>*2);
-reci22.addItemInput(<thaumcraft:smelter_thaumium>);
 reci22.addItemInput(<thaumcraft:metal_alchemical>);
-reci22.addItemInput(<thaumcraft:plank_greatwood>);
+reci22.addItemInput(<thaumcraft:plank_greatwood>*2);
 reci22.addItemInput(<thaumcraft:tube_filter>);
 reci22.addItemInput(<thaumcraft:bellows>);
 reci22.addItemOutput(<thaumcraft:smelter_aux>);
@@ -1040,7 +1039,7 @@ thaum101.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1
 thaum101.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}));
 thaum101.addEnergyPerTickInput(100);
 thaum101.addItemInput(<divinerpg:crab_claw>*4);
-thaum101.addItemInput(<ore:ingotBrass>,4);
+thaum101.addItemInput(<ore:ingotBrass>*4);
 thaum101.addItemInput(<appliedenergistics2:material:12>);
 thaum101.addItemOutput(<contenttweaker:fluix_lens>);
 thaum101.build();
@@ -1067,7 +1066,7 @@ thaum103.build();
 val thaum104 = RecipeBuilder.newBuilder("thaum104","arcane_autoworkbench",120);
 thaum104.addEnergyPerTickInput(100);
 thaum104.addItemInput(<appliedenergistics2:quartz_vibrant_glass>*4);
-thaum104.addItemInput(<ore:dyeBlue>,3);
+thaum104.addItemInput(<ore:dyeBlue>*3);
 thaum104.addItemInput(<contenttweaker:complex_gearbox>);
 thaum104.addItemInput(<appliedenergistics2:material:23>);
 thaum104.addItemOutput(<thaumicenergistics:blank_knowledge_core>);

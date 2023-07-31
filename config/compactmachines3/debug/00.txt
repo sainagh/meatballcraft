@@ -1,0 +1,1 @@
+/compactmachines3 recipe copy-shape

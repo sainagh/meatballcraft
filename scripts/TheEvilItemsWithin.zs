@@ -446,3 +446,95 @@ blackholecore.itemRightClick = function(stack, world, player, hand) {
 };
 blackholecore.glowing = true;
 blackholecore.register();
+
+
+var condensedessence = VanillaFactory.createItem("condensed_essence");
+condensedessence.maxStackSize = 64;
+condensedessence.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("xp 10000 @p", player, world, true, true);
+    stack.shrink(1);
+	return "Pass";
+};
+condensedessence.glowing = true;
+condensedessence.register();
+
+
+var furrymass = VanillaFactory.createItem("furry_mass");
+furrymass.maxStackSize = 1;
+furrymass.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+
+    Commands.call("summon minecraft:rabbit ~ ~ ~", player, world, true, true);
+    Commands.call("summon minecraft:rabbit ~ ~ ~", player, world, true, true);
+    Commands.call("summon minecraft:rabbit ~ ~ ~", player, world, true, true);
+    Commands.call("summon minecraft:rabbit ~ ~ ~", player, world, true, true);
+    Commands.call("summon minecraft:rabbit ~ ~ ~", player, world, true, true);
+    Commands.call("summon minecraft:rabbit ~ ~ ~", player, world, true, true);
+    Commands.call("summon minecraft:rabbit ~ ~ ~", player, world, true, true);
+    Commands.call("summon minecraft:rabbit ~ ~ ~", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+
+};
+furrymass.register();
+
+var bloodlustcoin = VanillaFactory.createItem("bloodlust_coin");
+bloodlustcoin.maxStackSize = 1;
+bloodlustcoin.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+    Commands.call("summon aoa3:bloodlust ~3 ~ ~3", player, world, true, true);
+    Commands.call("summon aoa3:bloodlust ~3 ~ ~-3", player, world, true, true);
+    Commands.call("summon aoa3:bloodlust ~-3 ~ ~3", player, world, true, true);
+    Commands.call("summon aoa3:bloodlust ~-3 ~ ~-3", player, world, true, true);
+    Commands.call("summon aoa3:bloodlust ~3 ~ ~", player, world, true, true);
+    Commands.call("summon aoa3:bloodlust ~ ~ ~3", player, world, true, true);
+    Commands.call("summon aoa3:bloodlust ~-3 ~ ~", player, world, true, true);
+    Commands.call("summon aoa3:bloodlust ~ ~ ~-3", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+
+};
+bloodlustcoin.register();
+
+var heartstone = VanillaFactory.createItem("heart_stone");
+heartstone.maxStackSize = 1;
+heartstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+    Commands.call("summon aoa3:heart_stone ~3 ~ ~3", player, world, true, true);
+    Commands.call("summon aoa3:heart_stone ~3 ~ ~-3", player, world, true, true);
+    Commands.call("summon aoa3:heart_stone ~-3 ~ ~3", player, world, true, true);
+    Commands.call("summon aoa3:heart_stone ~-3 ~ ~-3", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+
+};
+heartstone.register();
+
+var butterflyegg = VanillaFactory.createItem("butterfly_bloom");
+butterflyegg.maxStackSize = 1;
+butterflyegg.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+        Commands.call("summon forestry:butterflyge ~3 ~2 ~3", player, world, true, true);
+        Commands.call("summon forestry:butterflyge ~3 ~2 ~3", player, world, true, true);
+        Commands.call("summon forestry:butterflyge ~3 ~2 ~3", player, world, true, true);
+        Commands.call("summon forestry:butterflyge ~3 ~2 ~3", player, world, true, true);
+        Commands.call("summon forestry:butterflyge ~3 ~2 ~3", player, world, true, true);
+        Commands.call("summon forestry:butterflyge ~3 ~2 ~3", player, world, true, true);
+        stack.shrink(1);
+        return "PASS";
+
+};
+butterflyegg.register();

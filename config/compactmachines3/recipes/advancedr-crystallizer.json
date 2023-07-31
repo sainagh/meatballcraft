@@ -1,0 +1,78 @@
+{
+  "name": "cm3ar:crystallizer",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:crystallizer",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+
+  "input-types": {
+    "a": {
+      "id": "advancedrocketry:quartzcrucible",
+      "meta": 0
+    },
+    "b": {
+      "id": "libvulpes:coil0",
+      "meta": 2
+    },
+    "c": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0
+    },
+    "d": {
+      "id": "libvulpes:hatch",
+      "meta": 0
+    },
+    "e": {
+      "id": "advancedrocketry:crystallizer",
+      "meta": 5,
+      "item": {
+        "id": "advancedrocketry:crystallizer",
+        "count": 1
+      }
+    },
+    "f": {
+      "id": "libvulpes:hatch",
+      "meta": 1
+    }
+  },
+
+  "shape": [
+    [
+      [
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "d"
+      ],
+      [
+        "c",
+        "e"
+      ],
+      [
+        "b",
+        "f"
+      ]
+    ]
+  ]
+
+}

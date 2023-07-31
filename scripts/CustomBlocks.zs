@@ -1180,3 +1180,52 @@ energyhive.setBlockResistance(2.5);
 energyhive.setToolClass("pickaxe");
 energyhive.setToolLevel(3);
 energyhive.register();
+
+var fluixetcher = VanillaFactory.createBlock("fluix_etcher", <blockmaterial:iron>);
+fluixetcher.setBlockHardness(1.0);
+fluixetcher.setBlockResistance(2.5);
+fluixetcher.setToolClass("pickaxe");
+fluixetcher.setToolLevel(3);
+fluixetcher.register();
+
+var naquadahcatalyst = VanillaFactory.createBlock("naquadah_catalyst", <blockmaterial:iron>);
+naquadahcatalyst.setBlockHardness(1.0);
+naquadahcatalyst.setBlockResistance(2.5);
+naquadahcatalyst.setToolClass("pickaxe");
+naquadahcatalyst.setToolLevel(3);
+naquadahcatalyst.register();
+
+var recursivemeatball = VanillaFactory.createBlock("recursive_meatball", <blockmaterial:iron>);
+recursivemeatball.setBlockHardness(1.0);
+recursivemeatball.setBlockResistance(2.5);
+recursivemeatball.setToolClass("pickaxe");
+recursivemeatball.setToolLevel(3);
+recursivemeatball.register();
+
+var fusioncoreplaceholder = VanillaFactory.createBlock("fusion_core_placeholder", <blockmaterial:iron>);
+fusioncoreplaceholder.setBlockHardness(1.0);
+fusioncoreplaceholder.setBlockResistance(2.5);
+fusioncoreplaceholder.setToolClass("pickaxe");
+fusioncoreplaceholder.setToolLevel(3);
+fusioncoreplaceholder.register();
+
+var etheriumore = VanillaFactory.createBlock("etherium_ore", <blockmaterial:iron>);
+etheriumore.setBlockHardness(1.0);
+etheriumore.setBlockResistance(2.5);
+etheriumore.setToolClass("pickaxe");
+etheriumore.setToolLevel(3);
+etheriumore.register();
+
+var chargeddraconium = VanillaFactory.createBlock("charged_draconium_block", <blockmaterial:iron>);
+chargeddraconium.setBlockHardness(1.0);
+chargeddraconium.setBlockResistance(2.5);
+chargeddraconium.setToolClass("pickaxe");
+chargeddraconium.setToolLevel(3);
+chargeddraconium.register();
+
+var myrmititecasing = VanillaFactory.createBlock("myrmitite_casing", <blockmaterial:iron>);
+myrmititecasing.setBlockHardness(1.0);
+myrmititecasing.setBlockResistance(2.5);
+myrmititecasing.setToolClass("pickaxe");
+myrmititecasing.setToolLevel(3);
+myrmititecasing.register();

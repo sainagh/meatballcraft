@@ -553,6 +553,11 @@ recipes.addShaped(<contenttweaker:hassium_encrusted_egg>,
 [<contenttweaker:recursive_powder>, <contenttweaker:hassium_egg>, <contenttweaker:recursive_powder>],
 [<contenttweaker:vethea_garnet>, <contenttweaker:recursive_powder>, <chickens:liquid_egg:1>]]);
 
+recipes.addShaped(<contenttweaker:hassium_encrusted_egg>,
+[[<chickens:liquid_egg:0>, <contenttweaker:recursive_powder>, <contenttweaker:dynatos_star>],
+[<contenttweaker:recursive_powder>, <contenttweaker:hassium_egg>, <contenttweaker:recursive_powder>],
+[<contenttweaker:cut_vethea_garnet>, <contenttweaker:recursive_powder>, <chickens:liquid_egg:1>]]);
+
 val fracturer34 = RecipeBuilder.newBuilder("fracturer34","shadow_fracturer",1);
 fracturer34.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer34.addFluidInput(<fluid:hint_of_insanity>*50);
@@ -566,3 +571,11 @@ fracturercatalyst.addFluidInput(<fluid:hint_of_insanity>*200);
 fracturercatalyst.addItemInput(<contenttweaker:mithrillium_egg>);
 fracturercatalyst.addItemOutput(<contenttweaker:mithrillium_catalyst>);
 fracturercatalyst.build();
+
+
+// butterflies
+
+recipes.addShaped(<contenttweaker:butterfly_bloom>, 
+[[<forestry:logs.3:3>, <forestry:logs.3:3>, <forestry:logs.3:3>],
+[<forestry:logs.3:3>, <randomthings:naturecore>, <forestry:logs.3:3>],
+[<forestry:logs.3:3>, <forestry:logs.3:3>, <forestry:logs.3:3>]]);

@@ -8,10 +8,10 @@
             "x": 0,
             "y": 0,
             "z": 3,
-            "description": "Replace bottom middle ice brick on wall opposite of controller \n to increase output BY A LOT \n you should do this",
+            "description": "Replace bottom middle ice brick on wall opposite of controller \n to increase output 8X \n you should do this",
             "modifier": {
                 "io": "output",
-                "target": "fluid",
+                "target": "modularmachinery:fluid",
                 "operation": 1,
                 "multiplier": 8
             }

@@ -242,6 +242,7 @@ reci22.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, 
 reci22.addItemInput(<contenttweaker:ancient_remnants>);
 reci22.addItemInput(<contenttweaker:master_spell_focus>);
 reci22.addItemInput(<thaumadditions:mithminite_fabric>);
+reci22.addItemInput(<thaumicaugmentation:research_notes:0>);
 reci22.addItemOutput(<contenttweaker:master_spell_vitium>);
 reci22.build();
 
@@ -363,3 +364,13 @@ reci33.addItemInput(<minecraft:gold_ingot>*2);
 reci33.addItemInput(<minecraft:dye:15>*2);
 reci33.addItemOutput(<thaumcraft:lamp_growth>);
 reci33.build();
+
+val reci34 = RecipeBuilder.newBuilder("inf34","arcane_autoinfuser",120);
+reci34.addEnergyPerTickInput(100);
+reci34.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "metallum"}]})*2048);
+reci34.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "metallum"}]})*2048);
+reci34.addItemInput(<contenttweaker:king_bambambam_pelvis>);
+reci34.addItemInput(<contenttweaker:master_spell_focus>);
+reci34.addItemInput(<thaumadditions:mithminite_fabric>);
+reci34.addItemOutput(<contenttweaker:master_spell_metallum>);
+reci34.build();

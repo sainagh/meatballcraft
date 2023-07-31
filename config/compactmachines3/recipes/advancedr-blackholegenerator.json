@@ -1,0 +1,124 @@
+{
+  "name": "cm3ar:blackholegenerator",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:blackholegenerator",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "advancedrocketry:blackholegenerator",
+      "meta": 4,
+      "item": {
+        "id": "advancedrocketry:blackholegenerator",
+        "count": 1
+      }
+    },
+    "b": {
+      "id": "libvulpes:advstructuremachine",
+      "meta": 0
+    },
+    "c": {
+      "id": "libvulpes:hatch",
+      "meta": 0
+    },
+    "d": {
+      "id": "libvulpes:forgepoweroutput",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "c",
+        "_"
+      ],
+      [
+        "a",
+        "b",
+        "d"
+      ],
+      [
+        "_",
+        "c",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ]
+  ]
+}

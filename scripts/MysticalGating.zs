@@ -123,6 +123,7 @@ recipes.removeShaped(<mysticalagriculture:invar_seeds>);
 recipes.removeShaped(<mysticalagriculture:electrum_seeds>);
 recipes.removeShaped(<mysticalagriculture:bronze_seeds>);
 recipes.removeShaped(<mysticalagriculture:brass_seeds>);
+recipes.removeShaped(<mysticalagriculture:alumite_seeds>);
 
 mods.nuclearcraft.rock_crusher.addRecipe([<contenttweaker:serpentine>, <mysticalagriculture:end_steel_essence>*4, <mysticalagriculture:dark_steel_essence>*4, <mysticalagriculture:bronze_essence>*4]);
 mods.nuclearcraft.rock_crusher.addRecipe([<contenttweaker:travertine>, <mysticalagriculture:vibrant_alloy_essence>*4, <mysticalagriculture:electrum_essence>*4, <mysticalagriculture:steel_essence>*4]);
@@ -131,6 +132,7 @@ mods.nuclearcraft.rock_crusher.addRecipe([<contenttweaker:onyx>, <mysticalagricu
 mods.nuclearcraft.rock_crusher.addRecipe([<contenttweaker:agate>, <mysticalagriculture:signalum_essence>*4, <mysticalagriculture:invar_essence>*4, <mysticalagriculture:lumium_essence>*4]);
 mods.nuclearcraft.rock_crusher.addRecipe([<contenttweaker:feldspar>, <mysticalagriculture:pulsating_iron_essence>*4, <mysticalagriculture:soularium_essence>*4, <mysticalagriculture:brass_essence>*4]);
 mods.nuclearcraft.rock_crusher.addRecipe([<contenttweaker:metagabbro>, <mysticalagriculture:conductive_iron_essence>*4, <mysticalagriculture:manyullyn_essence>*4, <mysticalagriculture:constantan_essence>*4]);
+mods.nuclearcraft.rock_crusher.addRecipe([<contenttweaker:fiery_pyrite>, <mysticalagriculture:alumite_essence>*4, <mysticalagriculture:fluix_essence>*4, null]);
 
 recipes.addShaped(<contenttweaker:serpentine>*9,
 [[<contenttweaker:fiery_pyrite>, <contenttweaker:fiery_pyrite>, <contenttweaker:fiery_pyrite>],

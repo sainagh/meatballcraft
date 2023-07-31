@@ -8,10 +8,10 @@
             "x": 0,
             "y": 0,
             "z": 3,
-            "description": "replace the middle block for increased speed",
+            "description": "replace the middle block for increased speed, 10X faster",
             "modifier": {
                 "io": "input",
-                "target": "duration",
+                "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.1
             }

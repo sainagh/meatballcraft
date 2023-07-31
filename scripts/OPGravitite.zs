@@ -2,7 +2,7 @@ mods.techreborn.industrialGrinder.addRecipe(<contenttweaker:gravitite_deposit>*4
 
 mods.techreborn.compressor.addRecipe(<contenttweaker:gravitite_sediment>, <contenttweaker:gravitite_deposit>, 10, 200);
 
-mods.techreborn.extractor.addRecipe(<contenttweaker:gravitite_clathrate>*3, <contenttweaker:gravitite_sediment>, 10, 400);
+mods.thermalexpansion.Sawmill.addRecipe(<contenttweaker:gravitite_clathrate>*3, <contenttweaker:gravitite_sediment>, 500);
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:gravitite_matrix>*2, <contenttweaker:gravitite_clathrate>, <astralsorcery:itemcraftingcomponent:0>, 101);
 

@@ -1,6 +1,9 @@
 import mods.modularmachinery.RecipeBuilder;
 
-mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:controller_manual>, <minecraft:book>, 1000);
+recipes.addShaped(<contenttweaker:controller_manual>,
+[[<thaumcraft:salis_mundus>, <bloodmagic:monster_soul:0>, <thaumcraft:salis_mundus>],
+[<fluxnetworks:fluxcore>, <minecraft:book>, <fluxnetworks:fluxcore>],
+[<thaumcraft:salis_mundus>, <bewitchment:stone_witches_altar>, <thaumcraft:salis_mundus>]]);
 
 recipes.removeShaped(<modularmachinery:blockcasing:0>);
 
@@ -264,3 +267,122 @@ recipes.addShaped(<modularmachinery:blockoutputbus:3>,
 [[<modularmachinery:itemmodularium>, null, <modularmachinery:itemmodularium>],
 [<minecraft:hopper>, <modularmachinery:blockoutputbus:2>, <minecraft:hopper>],
 [<modularmachinery:itemmodularium>, null, <modularmachinery:itemmodularium>]]);
+
+recipes.addShapeless(<modularmachinery:blockinputbus:0>,
+[<modularmachinery:blockoutputbus:0>]);
+recipes.addShapeless(<modularmachinery:blockoutputbus:0>,
+[<modularmachinery:blockinputbus:0>]);
+
+recipes.addShapeless(<modularmachinery:blockinputbus:1>,
+[<modularmachinery:blockoutputbus:1>]);
+recipes.addShapeless(<modularmachinery:blockoutputbus:1>,
+[<modularmachinery:blockinputbus:1>]);
+
+recipes.addShapeless(<modularmachinery:blockinputbus:2>,
+[<modularmachinery:blockoutputbus:2>]);
+recipes.addShapeless(<modularmachinery:blockoutputbus:2>,
+[<modularmachinery:blockinputbus:2>]);
+
+recipes.addShapeless(<modularmachinery:blockinputbus:3>,
+[<modularmachinery:blockoutputbus:3>]);
+recipes.addShapeless(<modularmachinery:blockoutputbus:3>,
+[<modularmachinery:blockinputbus:3>]);
+
+recipes.addShapeless(<modularmachinery:blockinputbus:4>,
+[<modularmachinery:blockoutputbus:4>]);
+recipes.addShapeless(<modularmachinery:blockoutputbus:4>,
+[<modularmachinery:blockinputbus:4>]);
+
+recipes.addShapeless(<modularmachinery:blockinputbus:5>,
+[<modularmachinery:blockoutputbus:5>]);
+recipes.addShapeless(<modularmachinery:blockoutputbus:5>,
+[<modularmachinery:blockinputbus:5>]);
+
+recipes.addShapeless(<modularmachinery:blockinputbus:6>,
+[<modularmachinery:blockoutputbus:6>]);
+recipes.addShapeless(<modularmachinery:blockoutputbus:6>,
+[<modularmachinery:blockinputbus:6>]);
+
+
+
+recipes.addShapeless(<modularmachinery:blockenergyinputhatch:0>,
+[<modularmachinery:blockenergyoutputhatch:0>]);
+recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:0>,
+[<modularmachinery:blockenergyinputhatch:0>]);
+
+recipes.addShapeless(<modularmachinery:blockenergyinputhatch:1>,
+[<modularmachinery:blockenergyoutputhatch:1>]);
+recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:1>,
+[<modularmachinery:blockenergyinputhatch:1>]);
+
+recipes.addShapeless(<modularmachinery:blockenergyinputhatch:2>,
+[<modularmachinery:blockenergyoutputhatch:2>]);
+recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:2>,
+[<modularmachinery:blockenergyinputhatch:2>]);
+
+recipes.addShapeless(<modularmachinery:blockenergyinputhatch:3>,
+[<modularmachinery:blockenergyoutputhatch:3>]);
+recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:3>,
+[<modularmachinery:blockenergyinputhatch:3>]);
+
+recipes.addShapeless(<modularmachinery:blockenergyinputhatch:4>,
+[<modularmachinery:blockenergyoutputhatch:4>]);
+recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:4>,
+[<modularmachinery:blockenergyinputhatch:4>]);
+
+recipes.addShapeless(<modularmachinery:blockenergyinputhatch:5>,
+[<modularmachinery:blockenergyoutputhatch:5>]);
+recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:5>,
+[<modularmachinery:blockenergyinputhatch:5>]);
+
+recipes.addShapeless(<modularmachinery:blockenergyinputhatch:6>,
+[<modularmachinery:blockenergyoutputhatch:6>]);
+recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:6>,
+[<modularmachinery:blockenergyinputhatch:6>]);
+
+recipes.addShapeless(<modularmachinery:blockenergyinputhatch:7>,
+[<modularmachinery:blockenergyoutputhatch:7>]);
+recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:7>,
+[<modularmachinery:blockenergyinputhatch:7>]);
+
+
+
+recipes.addShapeless(<modularmachinery:blockfluidinputhatch:0>,
+[<modularmachinery:blockfluidoutputhatch:0>]);
+recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:0>,
+[<modularmachinery:blockfluidinputhatch:0>]);
+
+recipes.addShapeless(<modularmachinery:blockfluidinputhatch:1>,
+[<modularmachinery:blockfluidoutputhatch:1>]);
+recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:1>,
+[<modularmachinery:blockfluidinputhatch:1>]);
+
+recipes.addShapeless(<modularmachinery:blockfluidinputhatch:2>,
+[<modularmachinery:blockfluidoutputhatch:2>]);
+recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:2>,
+[<modularmachinery:blockfluidinputhatch:2>]);
+
+recipes.addShapeless(<modularmachinery:blockfluidinputhatch:3>,
+[<modularmachinery:blockfluidoutputhatch:3>]);
+recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:3>,
+[<modularmachinery:blockfluidinputhatch:3>]);
+
+recipes.addShapeless(<modularmachinery:blockfluidinputhatch:4>,
+[<modularmachinery:blockfluidoutputhatch:4>]);
+recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:4>,
+[<modularmachinery:blockfluidinputhatch:4>]);
+
+recipes.addShapeless(<modularmachinery:blockfluidinputhatch:5>,
+[<modularmachinery:blockfluidoutputhatch:5>]);
+recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:5>,
+[<modularmachinery:blockfluidinputhatch:5>]);
+
+recipes.addShapeless(<modularmachinery:blockfluidinputhatch:6>,
+[<modularmachinery:blockfluidoutputhatch:6>]);
+recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:6>,
+[<modularmachinery:blockfluidinputhatch:6>]);
+
+recipes.addShapeless(<modularmachinery:blockfluidinputhatch:7>,
+[<modularmachinery:blockfluidoutputhatch:7>]);
+recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:7>,
+[<modularmachinery:blockfluidinputhatch:7>]);

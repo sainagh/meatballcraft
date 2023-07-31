@@ -257,6 +257,13 @@ muonextraction.addItemInput(<mysticalagradditions:neutronium_essence>*2);
 muonextraction.addItemOutput(<avaritia:resource:4>);
 muonextraction.build();
 
+val uumatterexttract = RecipeBuilder.newBuilder("gateval2","mythic_processor_muon_extractor",2);
+uumatterexttract.addEnergyPerTickInput(2000000);
+uumatterexttract.addItemInput(<enderio:block_infinity_fog:0>);
+uumatterexttract.addItemOutput(<techreborn:uumatter>*5);
+uumatterexttract.setChance(0.1);
+uumatterexttract.build();
+
 mods.extendedcrafting.EnderCrafting.addShaped(<avaritia:neutronium_compressor>, 
 [[<contenttweaker:lawrencium_262>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:lawrencium_262>], 
 [<avaritia:block_resource:0>, <biomesoplenty:earth>, <avaritia:block_resource:0>], 

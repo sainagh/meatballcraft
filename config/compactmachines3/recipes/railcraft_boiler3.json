@@ -1,0 +1,104 @@
+{
+    "name": "compactmachines3:railcraft_boiler3",
+    "target-item": "railcraft:boiler_firebox_solid",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 10000,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "railcraft:boiler_tank_pressure_low",
+        "meta": 0,
+        "item": {
+          "id": "railcraft:boiler_tank_pressure_low",
+          "count": 27
+        }
+      },
+      "b": {
+        "id": "railcraft:boiler_firebox_solid",
+        "meta": 0,
+        "item": {
+          "id": "railcraft:boiler_firebox_solid",
+          "count": 9
+        }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ]
+      ],
+      [
+        [
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "b",
+          "b",
+          "b"
+        ]
+      ],
+      [
+        [
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "b",
+          "b",
+          "b"
+        ]
+      ],
+      [
+        [
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "b",
+          "b",
+          "b"
+        ]
+      ]
+    ]
+       
+}

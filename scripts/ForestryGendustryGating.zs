@@ -34,3 +34,10 @@ mods.forestry.Carpenter.addRecipe(<forestry:oak_stick>,
 recipes.removeShapeless(<ore:ingotBronze>);
 
 mods.thermalexpansion.RedstoneFurnace.addRecipe(<gendustry:gene_sample_blank>, <gendustry:gene_sample>, 150);
+
+recipes.remove(<binniecore:storage:0>);
+recipes.remove(<binniecore:storage:1>);
+recipes.remove(<binniecore:storage:2>);
+recipes.remove(<binniecore:storage:3>);
+recipes.remove(<binniecore:storage:4>);
+recipes.remove(<binniecore:storage:5>);

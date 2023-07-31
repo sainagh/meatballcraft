@@ -1,0 +1,71 @@
+{
+  "name": "cm3ar:planetanalyser",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:planetanalyser",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+  "input-types": {
+    "a": {
+      "id": "minecraft:stone_slab",
+      "meta": 0
+    },
+    "b": {
+      "id": "advancedrocketry:planetanalyser",
+      "meta": 3,
+      "item": {
+        "id": "advancedrocketry:planetanalyser",
+        "count": 1
+      }
+    },
+    "c": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0
+    },
+    "d": {
+      "id": "libvulpes:hatch",
+      "meta": 0
+    },
+    "e": {
+      "id": "libvulpes:hatch",
+      "meta": 1
+    },
+    "f": {
+      "id": "advancedrocketry:loader",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ]
+    ],
+    [
+      [
+        "f",
+        "f",
+        "f"
+      ],
+      [
+        "c",
+        "d",
+        "e"
+      ]
+    ]
+  ]
+}

@@ -44,9 +44,6 @@ mods.thaumcraft.Infusion.registerRecipe("makeriftsinfusion", "",
 
 recipes.removeShapeless(<techreborn:nuggets:1>);
 
-recipes.addShapeless(<thaumcraft:nugget:8>*9,
-[<ore:ingotBrass>]);
-
 mods.nuclearcraft.rock_crusher.addRecipe([<ore:stoneBasalt>, <thaumcraft:nugget:10>, <thaumcraft:cluster:0>, <thaumcraft:salis_mundus>]);
 
 recipes.addShaped(<thaumcraft:mechanism_complex>*2,
@@ -69,7 +66,7 @@ recipes.addShaped(<thaumicaugmentation:starfield_glass:2>*4,
 [<aoa3:rusted_iron_ingot>, <divinerpg:teaker_staff>.reuse(), <aoa3:rusted_iron_ingot>],
 [<minecraft:glass>, <aoa3:rusted_iron_ingot>, <minecraft:glass>]]);
 
-mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:arcane_terminal>);
+// mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:arcane_terminal>);
 
 recipes.removeShaped(<thaumcraft:plate:2>);
 recipes.removeShaped(<thaumcraft:plate:3>);
@@ -100,3 +97,4 @@ mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:blank_knowledge
 mods.thaumcraft.Crucible.registerRecipe("easierseal1", "", <thaumcraft:seal:12>, <thaumcraft:seal:0>, [<aspect:instrumentum>*20,<aspect:humanus>*10]);
 mods.thaumcraft.Crucible.registerRecipe("easierseal2", "", <thaumcraft:seal:8>, <thaumcraft:seal:0>, [<aspect:bestia>*20,<aspect:sensus>*10]);
 mods.thaumcraft.Crucible.registerRecipe("easierseal3", "", <thaumcraft:seal:7>, <thaumcraft:seal:0>, [<aspect:herba>*20,<aspect:vitreus>*10]);
+

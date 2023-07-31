@@ -10,7 +10,7 @@ recipes.removeShaped(<divinerpg:snow_globe>);
 recipes.addShaped(<divinerpg:snow_globe>,
 [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
 [<aoa3:ice_crystal>, <minecraft:snow>, <aoa3:ice_crystal>],
-[<ebwizardry:crystal_shard>, <divinerpg:shadow_bar>, <ebwizardry:crystal_shard>]]);
+[<ebwizardry:crystal_shard>, <appliedenergistics2:material:12>, <ebwizardry:crystal_shard>]]);
 
 
 recipes.addShaped(<thebetweenlands:druid_altar>,

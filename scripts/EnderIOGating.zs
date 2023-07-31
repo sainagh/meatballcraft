@@ -50,28 +50,28 @@ recipes.removeShaped(<enderio:item_dark_steel_helmet>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<enderio:item_dark_steel_helmet>, 
 [[<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>], 
-[<enderio:item_alloy_ingot:6>, <projecte:item.pe_rm_armor_3>, <enderio:item_alloy_ingot:6>], 
+[<enderio:item_alloy_ingot:6>, <botania:elementiumhelm>, <enderio:item_alloy_ingot:6>], 
 [<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>]]); 
 
 recipes.removeShaped(<enderio:item_dark_steel_chestplate>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<enderio:item_dark_steel_chestplate>, 
 [[<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>], 
-[<enderio:item_alloy_ingot:6>, <projecte:item.pe_rm_armor_2>, <enderio:item_alloy_ingot:6>], 
+[<enderio:item_alloy_ingot:6>, <botania:elementiumchest>, <enderio:item_alloy_ingot:6>], 
 [<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>]]); 
 
 recipes.removeShaped(<enderio:item_dark_steel_leggings>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<enderio:item_dark_steel_leggings>, 
 [[<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>], 
-[<enderio:item_alloy_ingot:6>, <projecte:item.pe_rm_armor_1>, <enderio:item_alloy_ingot:6>], 
+[<enderio:item_alloy_ingot:6>, <botania:elementiumlegs>, <enderio:item_alloy_ingot:6>], 
 [<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>]]); 
 
 recipes.removeShaped(<enderio:item_dark_steel_boots>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<enderio:item_dark_steel_boots>, 
 [[<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>], 
-[<enderio:item_alloy_ingot:6>, <projecte:item.pe_rm_armor_0>, <enderio:item_alloy_ingot:6>], 
+[<enderio:item_alloy_ingot:6>, <botania:elementiumboots>, <enderio:item_alloy_ingot:6>], 
 [<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>]]); 
 
 recipes.removeShaped(<enderio:item_end_steel_helmet>);

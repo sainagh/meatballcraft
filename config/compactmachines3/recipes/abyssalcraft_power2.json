@@ -1,0 +1,108 @@
+{
+    "name": "compactmachines3:abyssalcraft_power2",
+    "target-item": "abyssalcraft:statue",
+    "target-meta": 2,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "abyssalcraft:statue",
+        "meta": 2
+      },
+      "b": {
+        "id": "abyssalcraft:monolithpillar",
+        "meta": 0
+      },
+      "c": {
+        "id": "abyssalcraft:stone",
+        "meta": 7
+      },
+      "d": {
+        "id": "minecraft:stone",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:to_make_statues_safe",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "_",
+          "a",
+          "_"
+        ],
+        [
+          "a",
+          "c",
+          "a"
+        ],
+        [
+          "_",
+          "a",
+          "_"
+        ]
+      ],
+      [
+        [
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b"
+        ]
+      ],
+      [
+        [
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c"
+        ]
+      ],
+      [
+        [
+          "d",
+          "d",
+          "d"
+        ],
+        [
+          "d",
+          "d",
+          "d"
+        ],
+        [
+          "d",
+          "d",
+          "d"
+        ]
+      ]
+    ]
+     
+}

@@ -1,0 +1,118 @@
+{
+    "name": "compactmachines3dvancedrocketry_precisionassembler",
+    "target-item": "advancedrocketry:precisionassemblingmachine",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+    "input-types": {
+      "a": {
+        "id": "libvulpes:structuremachine",
+        "meta": 0
+      },
+      "b": {
+        "id": "libvulpes:hatch",
+        "meta": 1,
+        "item": {
+            "id": "libvulpes:hatch",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "advancedrocketry:precisionassemblingmachine",
+        "meta": 3,
+        "item": {
+            "id": "advancedrocketry:precisionassemblingmachine",
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "minecraft:glass",
+        "meta": 0
+      },
+      "e": {
+        "id": "libvulpes:elitemotor",
+        "meta": 2
+      },
+      "f": {
+        "id": "libvulpes:coil0",
+        "meta": 10
+      },
+      "g": {
+        "id": "libvulpes:hatch",
+        "meta": 0,
+        "item": {
+            "id": "libvulpes:hatch",
+            "count": 5
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "a",
+          "d",
+          "d",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "e",
+          "e",
+          "g"
+        ],
+        [
+          "b",
+          "f",
+          "f",
+          "g"
+        ],
+        [
+          "c",
+          "g",
+          "g",
+          "g"
+        ]
+      ]
+    ]
+      
+}

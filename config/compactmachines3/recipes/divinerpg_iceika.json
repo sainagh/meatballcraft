@@ -1,0 +1,63 @@
+{
+    "name": "compactmachines3:divinerpg_iceika",
+    "target-item": "divinerpg:snow_globe",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:snow",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "a",
+          "a",
+          "a",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "_",
+          "_",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "_",
+          "_",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "_",
+          "_",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "a",
+          "a",
+          "a"
+        ]
+      ]
+    ]
+     
+}

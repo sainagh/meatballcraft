@@ -1,0 +1,70 @@
+{
+    "name": "compactmachines3:botania_agglomeration",
+    "target-item": "botania:terraplate",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "botania:livingrock",
+        "meta": 0
+      },
+      "b": {
+        "id": "minecraft:lapis_block",
+        "meta": 0
+      },
+      "c": {
+        "id": "botania:terraplate",
+        "meta": 0,
+        "item": {
+            "id": "botania:terraplate",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "c",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "a",
+          "b",
+          "a"
+        ],
+        [
+          "b",
+          "a",
+          "b"
+        ],
+        [
+          "a",
+          "b",
+          "a"
+        ]
+      ]
+    ]
+   
+}

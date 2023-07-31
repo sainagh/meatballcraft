@@ -1,0 +1,171 @@
+{
+  "name": "cm3immersive:pumpjack",
+
+  "disabled": false,
+
+  "target-item": "immersivepetroleum:metal_multiblock",
+  "target-count": 1,
+   "target-meta": 2,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+ 
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:wooden_decoration",
+      "meta": 0
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "d": {
+      "id": "immersiveengineering:metal_device1",
+      "meta": 6
+    },
+    "e": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 8
+    },
+    "f": {
+      "id": "immersiveengineering:storage",
+      "meta": 8
+    },
+    "g": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 5
+    },
+    "h": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    }
+  },
+  "input-nbt": {
+    "d:A": {
+      "nbt": "{sideConfig:[I;0,0,0,0,0,0],ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"immersiveengineering:fluidpipe\",connections:4b}"
+    },
+    "d:B": {
+      "nbt": "{sideConfig:[I;0,0,0,0,0,0],ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"immersiveengineering:fluidpipe\",connections:44b}"
+    },
+    "d:C": {
+      "nbt": "{sideConfig:[I;0,0,0,0,0,0],ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"immersiveengineering:fluidpipe\",connections:16b}"
+    },
+    "d:D": {
+      "nbt": "{sideConfig:[I;0,0,0,0,0,0],ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"immersiveengineering:fluidpipe\",connections:8b}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "a",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "e",
+        "e",
+        "e",
+        "e",
+        "f"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "a",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "a",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "g",
+        "_",
+        "_",
+        "_",
+        "f"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "a",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "h",
+        "_",
+        "_",
+        "a",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "g",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "b",
+        "_",
+        "_",
+        "a",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "h",
+        "c",
+        "c",
+        "d:D",
+        "c",
+        "_"
+      ],
+      [
+        "c",
+        "c",
+        "c",
+        "d:B",
+        "d:C",
+        "c"
+      ],
+      [
+        "c",
+        "c",
+        "c",
+        "d:A",
+        "c",
+        "_"
+      ]
+    ]
+  ]
+
+}

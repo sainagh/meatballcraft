@@ -27,4 +27,6 @@ mods.nuclearcraft.infuser.addRecipe([<draconicevolution:draconic_block>, <fluid:
 
 mods.nuclearcraft.infuser.addRecipe([<deepmoblearning:infused_ingot_block>, <fluid:plutonium_242_fluoride>*36, <bigreactors:mineralbenitoite>]);
 
+recipes.addShapeless(<bigreactors:reactorcasing>, [<bigreactors:reactorglass>]);
+recipes.addShapeless(<bigreactors:turbinehousing>, [<bigreactors:turbineglass>]);
 

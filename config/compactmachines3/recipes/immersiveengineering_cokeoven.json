@@ -1,0 +1,111 @@
+{
+    "name": "compactmachines3:immersiveengineering_cokeoven",
+    "target-item": "immersiveengineering:stone_device",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+    "input-types": {
+      "a": {
+        "id": "immersiveengineering:stone_decoration",
+        "meta": 0
+      },
+      "b": {
+        "id": "minecraft:cobblestone",
+        "meta": 0,
+        "item": {
+            "id": "immersiveengineering:tool",
+            "count": 1
+          }
+      }
+    },
+    "shape": [
+      [
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "b",
+          "_"
+        ]
+      ]
+    ]
+  
+}

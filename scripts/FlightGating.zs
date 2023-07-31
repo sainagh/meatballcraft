@@ -137,3 +137,24 @@ recipes.addShaped(<projecte:item.pe_swrg>,
 [[<projectex:matter:3>, <twilightforest:alpha_fur>, <projectex:matter:3>],
 [<contenttweaker:ineffable_sun>, <contenttweaker:charger_ring>, <contenttweaker:ineffable_sun>],
 [<contenttweaker:soul_of_the_grand_wizard>, <minecraft:totem_of_undying>, <contenttweaker:watcher_eye>]]);
+
+
+recipes.addShaped(<divinerpg:angelic_helmet>,
+[[<divinerpg:bluefire_stone>, <divinerpg:bluefire_stone>, <divinerpg:bluefire_stone>],
+[<materialpart:sednanite:ingot>, null, <materialpart:sednanite:ingot>],
+[null, null, null]]);
+
+recipes.addShaped(<divinerpg:angelic_boots>,
+[[<divinerpg:bluefire_stone>, null, <divinerpg:bluefire_stone>],
+[<materialpart:sednanite:ingot>, null, <materialpart:sednanite:ingot>],
+[null, null, null]]);
+
+recipes.addShaped(<divinerpg:angelic_chestplate>,
+[[<materialpart:sednanite:ingot>, null, <materialpart:sednanite:ingot>],
+[<divinerpg:bluefire_stone>, <contenttweaker:upper_fragment_cosmos>, <divinerpg:bluefire_stone>],
+[<divinerpg:bluefire_stone>, <divinerpg:bluefire_stone>, <divinerpg:bluefire_stone>]]);
+
+recipes.addShaped(<divinerpg:angelic_leggings>,
+[[<divinerpg:bluefire_stone>, <contenttweaker:lower_fragment_cosmos>, <divinerpg:bluefire_stone>],
+[<divinerpg:bluefire_stone>, null, <divinerpg:bluefire_stone>],
+[<materialpart:sednanite:ingot>, null, <materialpart:sednanite:ingot>]]);

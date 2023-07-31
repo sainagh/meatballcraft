@@ -8,10 +8,10 @@
             "x": 0,
             "y": 1,
             "z": 3,
-            "description": "Mithminite instead of Adaminite to increase speed",
+            "description": "Mithminite instead of Adaminite to increase speed by 80%",
             "modifier": {
-                "io": "output",
-                "target": "duration",
+                "io": "input",
+                "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.2
             }

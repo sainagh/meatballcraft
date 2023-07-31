@@ -546,7 +546,7 @@ cra58.addEnergyPerTickInput(1200);
 cra58.addFluidInput(<fluid:liquid_pe>*1000);
 cra58.addFluidInput(<fluid:liquid_lp>*1000);
 cra58.addItemInput(<abyssalcraft:psdl>);
-cra58.addItemInput(<abyssalcraft:shadowgem>);
+cra58.addItemInput(<abyssalcraft:shadowshard>*9);
 cra58.addItemInput(<abyssalcraft:cpearl>);
 cra58.addItemInput(<abyssalcraft:dreadbrick:0>*2);
 cra58.addItemInput(<abyssalcraft:abydreadbrick:0>*2);

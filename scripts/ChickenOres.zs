@@ -1,36 +1,36 @@
 import mods.modularmachinery.RecipeBuilder;
 
-mods.techreborn.extractor.addRecipe(<aoa3:jade>*2, <contenttweaker:jade_egg>, 100, 128);
+mods.thermalexpansion.Infuser.addRecipe(<aoa3:jade>*2, <contenttweaker:jade_egg>, 1200);
 
-mods.techreborn.extractor.addRecipe(<aoa3:amethyst>*2, <contenttweaker:amethyst_egg>, 100, 128);
+mods.thermalexpansion.Infuser.addRecipe(<aoa3:amethyst>*2, <contenttweaker:amethyst_egg>, 1200);
 
-mods.techreborn.extractor.addRecipe(<aoa3:runium_chunk>*2, <contenttweaker:runium_egg>, 100, 128);
+mods.thermalexpansion.Infuser.addRecipe(<aoa3:runium_chunk>*2, <contenttweaker:runium_egg>, 1200);
 
-mods.techreborn.extractor.addRecipe(<aoa3:sapphire>*2, <contenttweaker:sapphire_egg>, 100, 128);
+mods.thermalexpansion.Infuser.addRecipe(<aoa3:sapphire>*2, <contenttweaker:sapphire_egg>, 1200);
 
-mods.techreborn.extractor.addRecipe(<aoa3:limonite_ingot>*2, <contenttweaker:limonite_egg>, 100, 128);
+mods.thermalexpansion.Infuser.addRecipe(<aoa3:limonite_ingot>*2, <contenttweaker:limonite_egg>, 1200);
 
-mods.techreborn.extractor.addRecipe(<aoa3:rosite_ingot>*2, <contenttweaker:rosite_egg>, 100, 128);
+mods.thermalexpansion.Infuser.addRecipe(<aoa3:rosite_ingot>*2, <contenttweaker:rosite_egg>, 1200);
 
-mods.techreborn.extractor.addRecipe(<divinerpg:realmite_ingot>*2, <contenttweaker:realmite_egg>, 100, 128);
+mods.thermalexpansion.Infuser.addRecipe(<divinerpg:realmite_ingot>*2, <contenttweaker:realmite_egg>, 1200);
 
-mods.techreborn.extractor.addRecipe(<divinerpg:arlemite_ingot>*2, <contenttweaker:arlemite_egg>, 100, 128);
+mods.thermalexpansion.Infuser.addRecipe(<divinerpg:arlemite_ingot>*2, <contenttweaker:arlemite_egg>, 1200);
 
-mods.techreborn.extractor.addRecipe(<divinerpg:rupee_ingot>*2, <contenttweaker:rupee_egg>, 100, 128);
+mods.thermalexpansion.Infuser.addRecipe(<divinerpg:rupee_ingot>*2, <contenttweaker:rupee_egg>, 1200);
 
-mods.techreborn.extractor.addRecipe(<divinerpg:bloodgem>*2, <contenttweaker:bloodgem_egg>, 100, 128);
+mods.thermalexpansion.Infuser.addRecipe(<divinerpg:bloodgem>*2, <contenttweaker:bloodgem_egg>, 1200);
 
-mods.techreborn.extractor.addRecipe(<divinerpg:netherite_ingot>*2, <contenttweaker:netherite_egg>, 100, 128);
+mods.thermalexpansion.Infuser.addRecipe(<divinerpg:netherite_ingot>*2, <contenttweaker:netherite_egg>, 1200);
 
-mods.techreborn.extractor.addRecipe(<aoa3:emberstone_ingot>*2, <contenttweaker:emberstone_egg>, 100, 128);
+mods.thermalexpansion.Infuser.addRecipe(<aoa3:emberstone_ingot>*2, <contenttweaker:emberstone_egg>, 1200);
 
-mods.techreborn.extractor.addRecipe(<thaumcraft:amber>*2, <contenttweaker:amber_egg>, 100, 128);
+mods.thermalexpansion.Infuser.addRecipe(<thaumcraft:amber>*2, <contenttweaker:amber_egg>, 1200);
 
 recipes.addShapeless(<thaumadditions:mithrillium_ingot>,[<contenttweaker:mithrillium_egg>, <abyssalcraft:charcoal>]);
 
 recipes.addShapeless(<bewitchment:cold_iron_ingot>,[<contenttweaker:cold_iron_egg>, <abyssalcraft:charcoal>]);
 
-mods.nuclearcraft.infuser.addRecipe([<contenttweaker:ogerite_egg>, <fluid:mana>*100, <materialpart:ogerite:ingot>, 1.8, 1.8, 1.8]);
+// mods.nuclearcraft.infuser.addRecipe([<contenttweaker:ogerite_egg>, <fluid:mana>*100, <materialpart:ogerite:ingot>, 1.8, 1.8, 1.8]);
 
 
 // mods.techreborn.chemicalReactor.addRecipe(<aoa3:skullbone_fragment>*2, <contenttweaker:skullbone_fragment_egg>, <contenttweaker:precasia_garnet>, 80, 256);

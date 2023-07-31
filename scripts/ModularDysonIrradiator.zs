@@ -166,7 +166,7 @@ corruptedlibrarydefinedengine.build();
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:irradiator_casing>*12, 
 [[<contenttweaker:high_refraction_alloy_ingot>, <contenttweaker:infinity_plate>, <contenttweaker:radiation_crafter>, <contenttweaker:infinity_plate>, <contenttweaker:high_refraction_alloy_ingot>], 
 [<contenttweaker:infinity_plate>, <extendedcrafting:storage:4>, <nuclearcraft:fusion_core>, <extendedcrafting:storage:4>, <contenttweaker:infinity_plate>], 
-[<contenttweaker:radiation_crafter>, <extracells:storage.physical:3>, <contenttweaker:living_case>, <extracells:storage.physical:3>, <contenttweaker:radiation_crafter>], 
+[<contenttweaker:radiation_crafter>, <extracells:storage.component:3>, <contenttweaker:living_case>, <extracells:storage.component:3>, <contenttweaker:radiation_crafter>], 
 [<contenttweaker:infinity_plate>, <extendedcrafting:storage:4>, <contenttweaker:defined_engine>, <extendedcrafting:storage:4>, <contenttweaker:infinity_plate>], 
 [<contenttweaker:high_refraction_alloy_ingot>, <contenttweaker:infinity_plate>, <contenttweaker:radiation_crafter>, <contenttweaker:infinity_plate>, <contenttweaker:high_refraction_alloy_ingot>]]);  
 
@@ -188,9 +188,11 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:starmetal_alloy
 val irradiationultimate = RecipeBuilder.newBuilder("irradiationultimate","dyson_irradiator",200);
 irradiationultimate.addEnergyPerTickInput(500000);
 irradiationultimate.addGridPowerInput(500);
+irradiationultimate.addAspectInput("lux",30);
 irradiationultimate.addFluidInput(<fluid:hyperdense_plasma>*100);
 irradiationultimate.addFluidInput(<fluid:magnatar_stabilizer>*200);
 irradiationultimate.addItemInput(<contenttweaker:defined_ingot>);
+irradiationultimate.addItemInput(<contenttweaker:dense_diamond_powder>);
 irradiationultimate.addItemInput(<avaritia:resource:5>*4);
 irradiationultimate.addItemOutput(<avaritia:resource:6>);
 irradiationultimate.build();
@@ -198,6 +200,7 @@ irradiationultimate.build();
 val irradiationultimate1 = RecipeBuilder.newBuilder("irradiationultimate1","dyson_irradiator",200);
 irradiationultimate1.addEnergyPerTickInput(500000);
 irradiationultimate1.addGridPowerInput(500);
+irradiationultimate1.addAspectInput("lux",30);
 irradiationultimate1.addFluidInput(<fluid:hyperdense_plasma>*100);
 irradiationultimate1.addFluidInput(<fluid:magnatar_stabilizer>*200);
 irradiationultimate1.addItemInput(<contenttweaker:defined_ingot>);
@@ -290,7 +293,7 @@ recipes.addShaped(<contenttweaker:tier_vi_defined_seed>,
 val irradiationseed1 = RecipeBuilder.newBuilder("irradiationseed1","dyson_irradiator",200);
 irradiationseed1.addEnergyPerTickInput(500000);
 irradiationseed1.addFluidInput(<fluid:fiery_peat>*400);
-irradiationseed1.addAspectInput("herba",30);
+irradiationseed1.addAspectInput("lux",30);
 irradiationseed1.addItemInput(<contenttweaker:tier_i_defined_seed>);
 irradiationseed1.addItemOutput(<mysticalagriculture:stone_essence>*64);
 irradiationseed1.addItemOutput(<mysticalagriculture:dirt_essence>*64);
@@ -304,7 +307,7 @@ irradiationseed1.build();
 val irradiationseed2 = RecipeBuilder.newBuilder("irradiationseed2","dyson_irradiator",200);
 irradiationseed2.addEnergyPerTickInput(500000);
 irradiationseed2.addFluidInput(<fluid:fiery_peat>*600);
-irradiationseed2.addAspectInput("herba",30);
+irradiationseed2.addAspectInput("lux",30);
 irradiationseed2.addItemInput(<contenttweaker:tier_ii_defined_seed>);
 irradiationseed2.addItemOutput(<mysticalagriculture:fire_essence>*64);
 irradiationseed2.addItemOutput(<mysticalagriculture:dye_essence>*64);
@@ -334,7 +337,7 @@ irradiationseed2.build();
 val irradiationseed3 = RecipeBuilder.newBuilder("irradiationseed3","dyson_irradiator",200);
 irradiationseed3.addEnergyPerTickInput(500000);
 irradiationseed3.addFluidInput(<fluid:fiery_peat>*800);
-irradiationseed3.addAspectInput("herba",30);
+irradiationseed3.addAspectInput("lux",30);
 irradiationseed3.addItemInput(<contenttweaker:tier_iii_defined_seed>);
 irradiationseed3.addItemOutput(<mysticalagriculture:iron_essence>*64);
 irradiationseed3.addItemOutput(<mysticalagriculture:nether_quartz_essence>*64);
@@ -380,7 +383,7 @@ irradiationseed3.build();
 val irradiationseed4 = RecipeBuilder.newBuilder("irradiationseed4","dyson_irradiator",200);
 irradiationseed4.addEnergyPerTickInput(500000);
 irradiationseed4.addFluidInput(<fluid:fiery_peat>*1000);
-irradiationseed4.addAspectInput("herba",30);
+irradiationseed4.addAspectInput("lux",30);
 irradiationseed4.addItemInput(<contenttweaker:tier_iv_defined_seed>);
 irradiationseed4.addItemOutput(<mysticalagriculture:gold_essence>*64);
 irradiationseed4.addItemOutput(<mysticalagriculture:lapis_lazuli_essence>*64);
@@ -428,7 +431,7 @@ irradiationseed4.build();
 val irradiationseed5 = RecipeBuilder.newBuilder("irradiationseed5","dyson_irradiator",200);
 irradiationseed5.addEnergyPerTickInput(500000);
 irradiationseed5.addFluidInput(<fluid:fiery_peat>*1400);
-irradiationseed5.addAspectInput("herba",30);
+irradiationseed5.addAspectInput("lux",30);
 irradiationseed5.addItemInput(<contenttweaker:tier_v_defined_seed>);
 irradiationseed5.addItemOutput(<mysticalagriculture:diamond_essence>*64);
 irradiationseed5.addItemOutput(<mysticalagriculture:emerald_essence>*64);
@@ -456,7 +459,7 @@ irradiationseed5.build();
 val irradiationseed6 = RecipeBuilder.newBuilder("irradiationseed6","dyson_irradiator",200);
 irradiationseed6.addEnergyPerTickInput(500000);
 irradiationseed6.addFluidInput(<fluid:fiery_peat>*6000);
-irradiationseed6.addAspectInput("herba",30);
+irradiationseed6.addAspectInput("lux",30);
 irradiationseed6.addItemInput(<contenttweaker:tier_vi_defined_seed>);
 irradiationseed6.addItemOutput(<mysticalagradditions:nether_star_essence>*64);
 irradiationseed6.addItemOutput(<mysticalagradditions:dragon_egg_essence>*64);
@@ -482,7 +485,7 @@ val halitewarrior = RecipeBuilder.newBuilder("halitewarrior","dyson_irradiator",
 halitewarrior.addEnergyPerTickInput(50000000);
 halitewarrior.addFluidInput(<fluid:halite_fluid>*2000);
 halitewarrior.addFluidInput(<fluid:magnatar_stabilizer>*2000);
-halitewarrior.addAspectInput("herba",50);
+halitewarrior.addAspectInput("lux",50);
 halitewarrior.addItemInput(<divinerpg:halite_shield>);
 halitewarrior.addItemInput(<divinerpg:halite_blade>);
 halitewarrior.addItemInput(<divinerpg:halite_bow>);
@@ -501,6 +504,7 @@ mods.nuclearcraft.fusion.addRecipe([<fluid:relativistic_matter>*10, <fluid:techn
 val irradiationchaosbuff = RecipeBuilder.newBuilder("irradiationchaosbuff","dyson_irradiator",200);
 irradiationchaosbuff.addEnergyPerTickInput(500000);
 irradiationchaosbuff.addGridPowerInput(6000);
+halitewarrior.addAspectInput("lux",10);
 irradiationchaosbuff.addFluidInput(<fluid:hyperdense_plasma>*200);
 irradiationchaosbuff.addFluidInput(<fluid:magnatar_stabilizer>*200);
 irradiationchaosbuff.addFluidInput(<fluid:chaos>*1440);

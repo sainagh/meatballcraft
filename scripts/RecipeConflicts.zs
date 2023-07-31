@@ -61,7 +61,12 @@ recipes.remove(<immersiveengineering:treated_wood:0>);
 
 recipes.addShaped(<immersiveengineering:treated_wood:0>*4,
 [[<ore:vanillaWoodPlanks>, <ore:vanillaWoodPlanks>, <ore:vanillaWoodPlanks>],
-[<ore:vanillaWoodPlanks>, <fluid:creosote>*1000, <ore:vanillaWoodPlanks>],
+[<ore:vanillaWoodPlanks>, <forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000}), <ore:vanillaWoodPlanks>],
+[<ore:vanillaWoodPlanks>, <ore:vanillaWoodPlanks>, <ore:vanillaWoodPlanks>]]);
+
+recipes.addShaped(<immersiveengineering:treated_wood:0>*4,
+[[<ore:vanillaWoodPlanks>, <ore:vanillaWoodPlanks>, <ore:vanillaWoodPlanks>],
+[<ore:vanillaWoodPlanks>, <railcraft:fluid_bottle_creosote>, <ore:vanillaWoodPlanks>],
 [<ore:vanillaWoodPlanks>, <ore:vanillaWoodPlanks>, <ore:vanillaWoodPlanks>]]);
 
 recipes.remove(<randomthings:blockofsticks:0>);
@@ -512,3 +517,328 @@ mods.nuclearcraft.manufactory.addRecipe([<ore:stoneBasalt>, <techreborn:dust:4>]
 mods.nuclearcraft.manufactory.addRecipe([<ore:stoneMarble>, <techreborn:dust:32>]);
 
 mods.nuclearcraft.melter.addRecipe([<tconstruct:ingots:3>, <fluid:knightslime>*144]);
+
+
+mods.astralsorcery.StarlightInfusion.addInfusion(<contenttweaker:vibrating_stone>, <aether_legacy:zanite_ore>, true, 0.5, 10);
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<ore:clay>, <ore:gravel>, <enderio:item_alloy_endergy_ingot:0>*2,1.0, 1.0, 0.00001]);
+
+recipes.addShapeless(<natura:overworld_seeds:1>,
+[<natura:materials:3>]);
+
+recipes.remove(<fluiddrawers:tank:0>);
+
+recipes.addShaped(<fluiddrawers:tank:0>,
+[[<ore:plateMithril>, <buildcraftfactory:tank>, <ore:plateMithril>],
+[<ore:plateMithril>, <ore:drawerBasic>, <ore:plateMithril>],
+[<ore:plateMithril>, <buildcraftfactory:tank>, <ore:plateMithril>]]);
+
+recipes.addShapeless(<projecte:item.pe_manual>,
+[<minecraft:book>, <projecte:item.pe_fuel:1>]);
+
+
+val sapphireoreDict = <ore:oreSapphire>;
+sapphireoreDict.remove(<aoa3:sapphire_ore>);
+
+recipes.addShapeless(<xreliquary:mob_ingredient:4>,
+[<ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <abyssalcraft:cpearl>]);
+
+
+mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:768>*9, <minecraft:coal_block>, 1000);
+mods.nuclearcraft.manufactory.addRecipe([<minecraft:coal_block>, <thermalfoundation:material:768>*9]);
+
+
+recipes.removeShapeless(<minecraft:redstone>, 
+[<ore:oreRedstone>, <ore:dustPetrotheum>]);
+
+recipes.addShapeless(<abyssalcraft:eoa>, 
+[<contenttweaker:ritual_of_the_sleeper>]);
+
+
+recipes.removeShapeless(<aoa3:precasia_realmstone>);
+recipes.removeShapeless(<aoa3:shyrelands_realmstone>);
+
+
+recipes.addShapeless(<thaumcraft:chunk:0>, 
+[<contenttweaker:infernal_furnace>]);
+recipes.addShapeless(<thaumcraft:chunk:1>, 
+[<contenttweaker:infernal_furnace>]);
+recipes.addShapeless(<thaumcraft:chunk:2>, 
+[<contenttweaker:infernal_furnace>]);
+recipes.addShapeless(<thaumcraft:chunk:3>, 
+[<contenttweaker:infernal_furnace>]);
+recipes.addShapeless(<thaumcraft:chunk:4>, 
+[<contenttweaker:infernal_furnace>]);
+recipes.addShapeless(<thaumcraft:chunk:5>, 
+[<contenttweaker:infernal_furnace>]);
+
+val alltheendersword = <ore:alltheEnderSwords>;
+alltheendersword.add(<divinerpg:black_ender_sword>);
+alltheendersword.add(<divinerpg:blue_ender_sword>);
+alltheendersword.add(<divinerpg:ender_sword>);
+alltheendersword.add(<divinerpg:green_ender_sword>);
+alltheendersword.add(<divinerpg:red_ender_sword>);
+alltheendersword.add(<divinerpg:yellow_ender_sword>);
+
+
+recipes.addShapeless(<divinerpg:black_ender_sword>,
+[<divinerpg:gray_diamond_chunk>, <ore:alltheEnderSwords>]);
+
+recipes.addShapeless(<divinerpg:blue_ender_sword>,
+[<divinerpg:blue_diamond_chunk>, <ore:alltheEnderSwords>]);
+
+recipes.addShapeless(<divinerpg:green_ender_sword>,
+[<divinerpg:green_diamond_chunk>, <ore:alltheEnderSwords>]);
+
+recipes.addShapeless(<divinerpg:red_ender_sword>,
+[<divinerpg:red_diamond_chunk>, <ore:alltheEnderSwords>]);
+
+recipes.addShapeless(<divinerpg:yellow_ender_sword>,
+[<divinerpg:yellow_diamond_chunk>, <ore:alltheEnderSwords>]);
+
+
+val brassoredict = <ore:ingotBrass>;
+brassoredict.remove(<thaumcraft:ingot:2>);
+
+mods.nuclearcraft.manufactory.removeRecipeWithInput([<ore:ingotSilicon>]);
+mods.nuclearcraft.manufactory.addRecipe([<ore:ingotSilicon>, <appliedenergistics2:material:5>]);
+
+recipes.removeShaped(<nuclearcraft:gem:6>*8,
+[[<mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>],
+[null, null, null],
+[null, null, null]]);
+
+recipes.addShaped(<appliedenergistics2:material:5>*8,
+[[<mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>],
+[null, null, null],
+[null, null, null]]);
+
+
+mods.enderio.SagMill.removeRecipe(<minecraft:clay>);
+mods.enderio.SagMill.removeRecipe(<minecraft:redstone_ore>);
+mods.enderio.SagMill.removeRecipe(<minecraft:sand>);
+
+recipes.remove(<dimdoors:rift_remover>);
+
+recipes.addShaped(<dimdoors:rift_remover>,
+[[<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>],
+[<minecraft:gold_ingot>, <aoa3:jade>, <minecraft:gold_ingot>],
+[<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
+
+val bronzegear = <ore:gearBronze>;
+bronzegear.remove(<forestry:gear_bronze>);
+
+val coppergear = <ore:gearCopper>;
+coppergear.remove(<forestry:gear_copper>);
+
+val tingear = <ore:gearTin>;
+tingear.remove(<forestry:gear_tin>);
+
+
+mods.nuclearcraft.melter.addRecipe([<biomesoplenty:gem:7>, <fluid:amber>*250]);
+
+mods.nuclearcraft.infuser.addRecipe([<minecraft:gold_nugget>, <fluid:amber>*1000, <cyclicmagic:crystallized_amber>]);
+
+mods.nuclearcraft.melter.addRecipe([<cyclicmagic:crystallized_obsidian>, <fluid:crystallized_obsidian>*1000]);
+
+
+recipes.remove(<materialpart:tartarite:dust>);
+val tartariteore = <ore:oreTartarite>;
+tartariteore.remove(<contenttweaker:sub_block_holder_1:6>);
+tartariteore.add(<contenttweaker:tartarite_ore>);
+
+
+mods.thermalexpansion.InductionSmelter.addRecipe(<techreborn:ingot:15>, <techreborn:dust:55>, <minecraft:sand>, 1000, <thermalfoundation:material:864>, 25);
+
+val brassnuggetore = <ore:nuggetBrass>;
+brassnuggetore.remove(<thaumcraft:nugget:8>);
+
+recipes.addShapeless(<extrautils2:endershard>*8,
+[<minecraft:ender_pearl>, <contenttweaker:better_glass_cutter>.reuse()]);
+
+recipes.addShaped(<contenttweaker:better_glass_cutter>,
+[[null, null, <ore:ingotIron>],
+[null, <ore:stickWood>, <ore:gemDiamond>],
+[<ore:ingotIron>, null, null]]);
+
+mods.tconstruct.Melting.addRecipe(<fluid:alubrass>*288, <ore:cast>);
+
+recipes.addShapeless(<bloodmagic:item_demon_crystal:0>,
+[<contenttweaker:making_will>]);
+
+recipes.addShapeless(<bloodmagic:item_demon_crystal:1>,
+[<contenttweaker:making_colored_will>]);
+recipes.addShapeless(<bloodmagic:item_demon_crystal:2>,
+[<contenttweaker:making_colored_will>]);
+recipes.addShapeless(<bloodmagic:item_demon_crystal:3>,
+[<contenttweaker:making_colored_will>]);
+recipes.addShapeless(<bloodmagic:item_demon_crystal:4>,
+[<contenttweaker:making_colored_will>]);
+
+recipes.addShapeless(<bloodmagic:item_demon_crystal:0>,
+[<contenttweaker:farming_will>]);
+recipes.addShapeless(<bloodmagic:item_demon_crystal:1>,
+[<contenttweaker:farming_will>]);
+recipes.addShapeless(<bloodmagic:item_demon_crystal:2>,
+[<contenttweaker:farming_will>]);
+recipes.addShapeless(<bloodmagic:item_demon_crystal:3>,
+[<contenttweaker:farming_will>]);
+recipes.addShapeless(<bloodmagic:item_demon_crystal:4>,
+[<contenttweaker:farming_will>]);
+
+recipes.addShapeless(<minecraft:enchanted_book>,
+[<contenttweaker:ritual_mass_enchanting>]);
+
+recipes.remove(<ore:nuggetBrass>);
+recipes.remove(<thaumcraft:nugget:8>);
+
+recipes.addShapeless(<thaumcraft:nugget:8>*9,
+[<thaumcraft:ingot:2>]);
+
+recipes.addShapeless(<techreborn:nuggets:1>*9,
+[<ore:ingotBrass>]);
+
+mods.thermalexpansion.InductionSmelter.addRecipe(<techreborn:ingot:15>*3, <thermalfoundation:material:865>, <techreborn:ore:8>, 4000, <thermalfoundation:material:864>, 75);
+mods.thermalexpansion.InductionSmelter.addRecipe(<techreborn:ingot:15>*3, <thermalfoundation:material:866>, <techreborn:ore:8>, 4000, <thermalfoundation:material:864>, 75);
+mods.thermalexpansion.InductionSmelter.addRecipe(<techreborn:ingot:15>*2, <minecraft:sand>, <techreborn:ore:8>, 4000, <thermalfoundation:material:864>, 75);
+
+mods.extrautils2.Crusher.add(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>);
+
+recipes.remove(<wrcbe:rep>);
+
+recipes.addShaped(<forestry:bituminous_peat>, 
+[[null, <ore:dustAsh>, null],
+[<forestry:peat>, <forestry:propolis:0>, <forestry:peat>],
+[null, <ore:dustAsh>, null]]);
+
+recipes.addShaped(<forestry:bituminous_peat>, 
+[[null, <ore:dustAsh>, null],
+[<forestry:peat>, <forestry:propolis:1>, <forestry:peat>],
+[null, <ore:dustAsh>, null]]);
+
+recipes.addShaped(<forestry:bituminous_peat>, 
+[[null, <ore:dustAsh>, null],
+[<forestry:peat>, <forestry:propolis:3>, <forestry:peat>],
+[null, <ore:dustAsh>, null]]);
+
+recipes.addShaped(<contenttweaker:void_portal_breaker>, 
+[[null, <ore:crystalFluix>, <ore:crystalFluix>],
+[null, <ore:stickWood>, <ore:crystalFluix>],
+[<ore:stickWood>, null, null]]);
+
+
+recipes.addShapeless(<materialpart:promethium:nugget>*9,
+[<materialpart:promethium:ingot>]);
+
+mods.thermalexpansion.Refinery.addRecipe(<fluid:binnie.turpentine>*30, null, <fluid:binnie.resin>*50, 50);
+
+mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:binnie.resin>*50, <minecraft:log:1>, 100);
+
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:demon_will_powder>, <bloodmagic:item_demon_crystal:0>, 5000);
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:steadfast_will_powder>, <bloodmagic:item_demon_crystal:4>, 5000);
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:destructive_will_powder>, <bloodmagic:item_demon_crystal:2>, 5000);
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:corrosive_will_powder>, <bloodmagic:item_demon_crystal:1>, 5000);
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:vengeful_will_powder>, <bloodmagic:item_demon_crystal:3>, 5000);
+
+mods.nuclearcraft.manufactory.addRecipe([<bloodmagic:item_demon_crystal:0>, <contenttweaker:demon_will_powder>]);
+mods.nuclearcraft.manufactory.addRecipe([<bloodmagic:item_demon_crystal:4>, <contenttweaker:steadfast_will_powder>]);
+mods.nuclearcraft.manufactory.addRecipe([<bloodmagic:item_demon_crystal:2>, <contenttweaker:destructive_will_powder>]);
+mods.nuclearcraft.manufactory.addRecipe([<bloodmagic:item_demon_crystal:1>, <contenttweaker:corrosive_will_powder>]);
+mods.nuclearcraft.manufactory.addRecipe([<bloodmagic:item_demon_crystal:3>, <contenttweaker:vengeful_will_powder>]);
+
+
+recipes.addShapeless(<chickens:colored_egg:15>,
+[<minecraft:egg>, <ore:dyeWhite>]);
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<bloodarsenal:base_item:4>, <minecraft:porkchop>*4, <tconstruct:ingots:4>*4]);
+
+mods.thermalexpansion.InductionSmelter.addRecipe(<tconstruct:ingots:4>*4, <bloodarsenal:base_item:4>, <minecraft:porkchop>*4, 3000);
+
+
+recipes.addShapeless(<contenttweaker:corn_beer_blend>,
+[<extratrees:misc:4>, <ore:seedCorn>, <ore:seedCorn>, <ore:seedCorn>]);
+recipes.addShapeless(<contenttweaker:barley_beer_blend>,
+[<extratrees:misc:4>, <ore:seedBarley>, <ore:seedBarley>, <ore:seedBarley>]);
+recipes.addShapeless(<contenttweaker:roasted_beer_blend>,
+[<extratrees:misc:4>, <ore:seedRoasted>, <ore:seedRoasted>, <ore:seedRoasted>]);
+recipes.addShapeless(<contenttweaker:rye_beer_blend>,
+[<extratrees:misc:4>, <ore:seedRye>, <ore:seedRye>, <ore:seedRye>]);
+recipes.addShapeless(<contenttweaker:wheat_beer_blend>,
+[<extratrees:misc:4>, <ore:seedWheat>, <ore:seedWheat>, <ore:seedWheat>]);
+recipes.addShapeless(<contenttweaker:corn_hops_beer_blend>,
+[<extratrees:misc:4>, <ore:seedCorn>, <ore:seedCorn>, <ore:seedCorn>, <extratrees:hops>]);
+recipes.addShapeless(<contenttweaker:barley_hops_beer_blend>,
+[<extratrees:misc:4>, <ore:seedBarley>, <ore:seedBarley>, <ore:seedBarley>, <extratrees:hops>]);
+recipes.addShapeless(<contenttweaker:roasted_hops_beer_blend>,
+[<extratrees:misc:4>, <ore:seedRoasted>, <ore:seedRoasted>, <ore:seedRoasted>, <extratrees:hops>]);
+recipes.addShapeless(<contenttweaker:rye_hops_beer_blend>,
+[<extratrees:misc:4>, <ore:seedRye>, <ore:seedRye>, <ore:seedRye>, <extratrees:hops>]);
+recipes.addShapeless(<contenttweaker:wheat_hops_beer_blend>,
+[<extratrees:misc:4>, <ore:seedWheat>, <ore:seedWheat>, <ore:seedWheat>, <extratrees:hops>]);
+
+
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.citrus>*1000, <extratrees:misc:4>, <fluid:binnie.juice.orange>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.citrus>*1000, <extratrees:misc:4>, <fluid:binnie.juice.lemon>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.citrus>*1000, <extratrees:misc:4>, <fluid:binnie.juice.lime>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.citrus>*1000, <extratrees:misc:4>, <fluid:binnie.juice.grapefruit>*1000, 500);
+
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.beer.corn>*1000, <contenttweaker:corn_hops_beer_blend>, <fluid:water>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.mash.grain>*1000, <contenttweaker:barley_beer_blend>, <fluid:water>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.mash.rye>*1000, <contenttweaker:rye_beer_blend>, <fluid:water>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.beer.lager>*1000, <contenttweaker:barley_hops_beer_blend>, <fluid:water>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.beer.stout>*1000, <contenttweaker:roasted_hops_beer_blend>, <fluid:water>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.mash.corn>*1000, <contenttweaker:corn_beer_blend>, <fluid:water>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.beer.rye>*1000, <contenttweaker:rye_hops_beer_blend>, <fluid:water>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.mash.wheat>*1000, <contenttweaker:wheat_beer_blend>, <fluid:water>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.beer.wheat>*1000, <contenttweaker:wheat_hops_beer_blend>, <fluid:water>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.beer.ale>*1000, <contenttweaker:barley_hops_beer_blend>, <fluid:water>*1000, 500);
+
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.cider.peach>*1000, <extratrees:misc:4>, <fluid:binnie.juice.peach>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.cider.apple>*1000, <extratrees:misc:4>, <fluid:binnie.juice.apple>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.ciderpear>*1000, <extratrees:misc:4>, <fluid:binnie.juice.pear>*1000, 500);
+
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.cranberry>*1000, <extratrees:misc:4>, <fluid:binnie.juice.cranberry>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.red>*1000, <extratrees:misc:4>, <fluid:binnie.juice.red.grape>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.white>*1000, <extratrees:misc:4>, <fluid:binnie.juice.white.grape>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.apricot>*1000, <extratrees:misc:4>, <fluid:binnie.juice.apricot>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.pineapple>*1000, <extratrees:misc:4>, <fluid:binnie.juice.pineapple>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.cherry>*1000, <extratrees:misc:4>, <fluid:binnie.juice.cherry>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.carrot>*1000, <extratrees:misc:4>, <fluid:binnie.juice.carrot>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.plum>*1000, <extratrees:misc:4>, <fluid:binnie.juice.plum>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.elderberry>*1000, <extratrees:misc:4>, <fluid:binnie.juice.elderberry>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.banana>*1000, <extratrees:misc:4>, <fluid:binnie.juice.banana>*1000, 500);
+mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.wine.tomato>*1000, <extratrees:misc:4>, <fluid:binnie.juice.tomato>*1000, 500);
+
+mods.actuallyadditions.Crusher.removeRecipe(<nuclearcraft:dust:11>);
+mods.actuallyadditions.Crusher.addRecipe(<techreborn:dust:31>, <nuclearcraft:ingot:11>);
+
+mods.thermalexpansion.Pulverizer.removeRecipe(<nuclearcraft:ingot:11>);
+mods.thermalexpansion.Pulverizer.addRecipe(<techreborn:dust:31>, <nuclearcraft:ingot:11>, 2000);
+
+mods.immersiveengineering.Crusher.removeRecipesForInput(<techreborn:ore:8>);
+mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:55>*2, <techreborn:ore:8>, 128, <techreborn:dust:31>, 0.1);
+mods.immersiveengineering.Crusher.removeRecipesForInput(<nuclearcraft:ingot:11>);
+mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:31>, <nuclearcraft:ingot:11>, 128);
+
+
+recipes.addShapeless(<appliedenergistics2:material:23>, 
+[<ae2stuff:inscriber>, <contenttweaker:advanced_inscriber_doesnt_show_up>]);
+
+recipes.addShapeless(<appliedenergistics2:material:22>, 
+[<ae2stuff:inscriber>, <contenttweaker:advanced_inscriber_doesnt_show_up>]);
+
+recipes.addShapeless(<appliedenergistics2:material:24>, 
+[<ae2stuff:inscriber>, <contenttweaker:advanced_inscriber_doesnt_show_up>]);
+
+recipes.addShapeless(<appliedenergistics2:material:16>, 
+[<ae2stuff:inscriber>, <contenttweaker:advanced_inscriber_doesnt_show_up>]);
+
+recipes.addShapeless(<appliedenergistics2:material:17>, 
+[<ae2stuff:inscriber>, <contenttweaker:advanced_inscriber_doesnt_show_up>]);
+
+recipes.addShapeless(<appliedenergistics2:material:18>, 
+[<ae2stuff:inscriber>, <contenttweaker:advanced_inscriber_doesnt_show_up>]);
+
+
+recipes.addShapeless(<abyssalcraft:psdl>, 
+[<abyssalcraft:powerstonetracker>, <contenttweaker:abyssal_wasteland_stronghold>]);

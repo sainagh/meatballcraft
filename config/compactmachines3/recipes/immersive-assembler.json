@@ -1,0 +1,103 @@
+{
+  "name": "cm3immersive:assembler",
+
+  "disabled": false,
+
+  "target-item": "immersiveengineering:metal_multiblock",
+  "target-count": 1,
+   "target-meta": 4,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal_slab",
+      "meta": 9
+    },
+    "b": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 9
+    },
+    "c": {
+      "id": "immersiveengineering:conveyor",
+      "meta": 0
+    },
+    "d": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    }
+  },
+  "input-nbt": {
+    "a:A": {
+      "nbt": "{ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"immersiveengineering:ieslab\",slabType:0}"
+    },
+    "c:A": {
+      "nbt": "{conveyorBeltSubtypeNBT:{dyeColour:-1,direction:0},ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},facing:5,conveyorBeltSubtype:\"immersiveengineering:conveyor\",id:\"immersiveengineering:conveyorbelt\"}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "a:A",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "c:A",
+        "e",
+        "c:A"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ]
+    ],
+    [
+      [
+        "d",
+        "f",
+        "d"
+      ],
+      [
+        "d",
+        "e",
+        "d"
+      ],
+      [
+        "d",
+        "f",
+        "d"
+      ]
+    ]
+  ]
+}

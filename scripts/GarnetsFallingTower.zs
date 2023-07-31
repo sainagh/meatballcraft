@@ -61,7 +61,7 @@ mods.nuclearcraft.infuser.addRecipe([<minecraft:rotten_flesh>*64, <fluid:liquid_
 
 mods.thermalexpansion.Centrifuge.addRecipe([(<cyclicmagic:peat_biomass>*24) % 100], <contenttweaker:living_flesh>, <fluid:potassium_41>*1000, 1000);
 
-val unholyradioactivemix = RecipeBuilder.newBuilder("unholyradioactivemix","iron_centrifuge",50);
+val unholyradioactivemix = RecipeBuilder.newBuilder("unholyradioactivemix","iron_centrifuge",10);
 unholyradioactivemix.addEnergyPerTickInput(10000);
 unholyradioactivemix.addFluidInput(<fluid:potassium_41>*5);
 unholyradioactivemix.addFluidInput(<fluid:nitrogen_16>*5);

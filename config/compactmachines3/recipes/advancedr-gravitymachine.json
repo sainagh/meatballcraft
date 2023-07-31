@@ -1,0 +1,69 @@
+{
+  "name": "cm3ar:gravitymachine",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:gravitymachine",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+ 
+  "input-types": {
+    "a": {
+      "id": "libvulpes:advstructuremachine",
+      "meta": 0
+    },
+    "b": {
+      "id": "advancedrocketry:gravitymachine",
+      "meta": 4,
+      "item": {
+        "id": "advancedrocketry:gravitymachine",
+        "count": 1
+      }
+    },
+    "c": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "a",
+        "_"
+      ],
+      [
+        "a",
+        "c",
+        "a"
+      ],
+      [
+        "_",
+        "a",
+        "_"
+      ]
+    ]
+  ]
+}

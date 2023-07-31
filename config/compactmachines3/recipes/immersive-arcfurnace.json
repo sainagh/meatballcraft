@@ -1,0 +1,246 @@
+{
+  "name": "cm3immersive:arcfurnace",
+
+  "disabled": false,
+
+  "target-item": "immersiveengineering:metal_multiblock",
+  "target-count": 1,
+   "target-meta": 13,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+ 
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 8
+    },
+    "b": {
+      "id": "thermalfoundation:storage_alloy",
+      "meta": 0
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 5
+    },
+    "d": {
+      "id": "immersiveengineering:sheetmetal_slab",
+      "meta": 8
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "f": {
+      "id": "immersiveengineering:stone_decoration",
+      "meta": 2
+    },
+    "g": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "h": {
+      "id": "minecraft:cauldron",
+      "meta": 0
+    },
+    "i": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    }
+  },
+  "input-nbt": {
+    "d:A": {
+      "nbt": "{ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"immersiveengineering:ieslab\",slabType:0}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "e"
+      ],
+      [
+        "_",
+        "_",
+        "g",
+        "g",
+        "g"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "e"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "f",
+        "f",
+        "f",
+        "e"
+      ],
+      [
+        "_",
+        "f",
+        "f",
+        "f",
+        "g"
+      ],
+      [
+        "_",
+        "f",
+        "f",
+        "f",
+        "e"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "b",
+        "_",
+        "a"
+      ],
+      [
+        "f",
+        "f",
+        "f",
+        "f",
+        "g"
+      ],
+      [
+        "f",
+        "f",
+        "f",
+        "f",
+        "g"
+      ],
+      [
+        "f",
+        "f",
+        "f",
+        "f",
+        "g"
+      ],
+      [
+        "_",
+        "_",
+        "b",
+        "_",
+        "a"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "b",
+        "c",
+        "c"
+      ],
+      [
+        "_",
+        "_",
+        "f",
+        "f",
+        "g"
+      ],
+      [
+        "_",
+        "_",
+        "f",
+        "f",
+        "g"
+      ],
+      [
+        "_",
+        "_",
+        "f",
+        "f",
+        "g"
+      ],
+      [
+        "i",
+        "_",
+        "b",
+        "c",
+        "c"
+      ]
+    ],
+    [
+      [
+        "d:A",
+        "d:A",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "d:A",
+        "d:A",
+        "d:A",
+        "d:A",
+        "a"
+      ],
+      [
+        "h",
+        "d:A",
+        "d:A",
+        "d:A",
+        "c"
+      ],
+      [
+        "d:A",
+        "d:A",
+        "d:A",
+        "d:A",
+        "a"
+      ],
+      [
+        "e",
+        "d:A",
+        "b",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+}

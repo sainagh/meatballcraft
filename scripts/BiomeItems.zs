@@ -78,3 +78,158 @@ markofthesamurai.itemRightClick = function(stack, world, player, hand) {
 };
 markofthesamurai.register();
 
+
+
+var terraformassiflora= VanillaFactory.createItem("terraformassiflora");
+terraformassiflora.maxStackSize = 1;
+terraformassiflora.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 151) {
+        player.sendChat("The biome ritual callstone will tell you where you need to be!");
+        return "FAIL";
+    }
+    player.sendChat("Success! You are in the right place!");
+
+	// obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val MystriumBiomeLocations = [[-2,-2],[2,2]] as int[][];
+	val NuclearWastelandLocations = [[-1,-2],[1,2]] as int[][];
+	val StorageBiomeLocations = [[0,-2],[0,2]] as int[][];
+	val CrystalChasmsLocations = [[1,-2],[-1,2]] as int[][];
+	val BlackVoidLocations = [[2,-2],[-2,2]] as int[][];
+	val TwilightStreamLocations = [[-2,-1],[2,-1],[-2,1],[2,1]] as int[][];
+	val AlienForestLocations = [[-1,-1],[1,1]] as int[][];
+	val ThornlandsLocations = [[1,-1],[-1,1]] as int[][];
+	val IromineLocations = [[-1,0],[1,0]] as int[][];
+	val StormlandLocations = [[0,-1],[0,1]] as int[][];
+	val BogLocations = [[0,0]] as int[][];
+	val TaintedLandsLocations = [[-2,0],[2,0]] as int[][];
+
+	// biome to pattern
+    val MysteriumBiomeName = "Mysterium" as string;
+	val NuclearWastelandBiomeName = "Nuclear Wasteland" as string;
+	val StorageBiomeName = "Storage Cell" as string;
+	val CrystalChasmsBiomeName = "CrystalChasms" as string;
+	val BlackVoidBiomeName = "Dangerous Black Void" as string;
+	val TwilightStreamBiomeName = "Twilight Stream" as string;
+	val AlienForestBiomeName = "Alien Forest" as string;
+	val ThornlandsBiomeName = "Thornlands" as string;
+	val IromineBiomeName = "Iromine" as string;
+	val StormlandBiomeName = "Stormland" as string;
+	val BogBiomeName = "Bog" as string;
+	val TaintedLandsBiomeName = "Tainted Lands" as string;
+
+    player.sendChat("Complete the biome ritual!");
+	player.sendChat("It occupies a 5x5 around you, you are in the center!");
+
+	    // get number of matches
+    val MysteriumMatches = checkBiomesAtPositions(MysteriumBiomeName, playerpos, MystriumBiomeLocations, world) as int;
+    val NuclearWastelandMatches = checkBiomesAtPositions(NuclearWastelandBiomeName, playerpos, NuclearWastelandLocations, world) as int;
+    val StorageBiomeMatches = checkBiomesAtPositions(StorageBiomeName, playerpos, StorageBiomeLocations, world) as int;
+    val CrystalChasmsMatches = checkBiomesAtPositions(CrystalChasmsBiomeName, playerpos, CrystalChasmsLocations, world) as int;
+    val BlackVoidMatches = checkBiomesAtPositions(BlackVoidBiomeName, playerpos, BlackVoidLocations, world) as int;
+    val TwilightStreamMatches = checkBiomesAtPositions(TwilightStreamBiomeName, playerpos, TwilightStreamLocations, world) as int;
+    val AlienForestMatches = checkBiomesAtPositions(AlienForestBiomeName, playerpos, AlienForestLocations, world) as int;
+    val ThornlandsMatches = checkBiomesAtPositions(ThornlandsBiomeName, playerpos, ThornlandsLocations, world) as int;
+    val IromineMatches = checkBiomesAtPositions(IromineBiomeName, playerpos, IromineLocations, world) as int;
+    val StormlandMatches = checkBiomesAtPositions(StormlandBiomeName, playerpos, StormlandLocations, world) as int;
+    val BogMatches = checkBiomesAtPositions(BogBiomeName, playerpos, BogLocations, world) as int;
+    val TaintedLandsMatches = checkBiomesAtPositions(TaintedLandsBiomeName, playerpos, TaintedLandsLocations, world) as int;
+
+	val NumberOfMatches = MysteriumMatches + NuclearWastelandMatches + StorageBiomeMatches + CrystalChasmsMatches + BlackVoidMatches + TwilightStreamMatches + AlienForestMatches + ThornlandsMatches + IromineMatches + StormlandMatches + BogMatches + TaintedLandsMatches as int;
+
+	player.sendChat("Biome Ritual: " ~ NumberOfMatches ~ " out of 25");
+
+	if((MysteriumMatches) == 2) {
+		player.sendChat("Mysterium : " ~ MysteriumMatches ~ " out of 2");
+	} else {
+		player.sendChat("Biome #1 : " ~ MysteriumMatches ~ " out of 2");
+	}
+	
+	if((NuclearWastelandMatches) == 2) {
+		player.sendChat("Nuclear Wasteland : " ~ NuclearWastelandMatches ~ " out of 2");
+	} else {
+		player.sendChat("Biome #2 : " ~ NuclearWastelandMatches ~ " out of 2");
+	}
+
+	if((StorageBiomeMatches) == 2) {
+		player.sendChat("Storage Biome : " ~ StorageBiomeMatches ~ " out of 2");
+	} else {
+		player.sendChat("Biome #3 : " ~ StorageBiomeMatches ~ " out of 2");
+	}
+
+	if((CrystalChasmsMatches) == 2) {
+		player.sendChat("Crystal Chasms : " ~ CrystalChasmsMatches ~ " out of 2");
+	} else {
+		player.sendChat("Biome #4 : " ~ CrystalChasmsMatches ~ " out of 2");
+	}
+
+	if((BlackVoidMatches) == 2) {
+		player.sendChat("Dangerous Black Void : " ~ BlackVoidMatches ~ " out of 2");
+	} else {
+		player.sendChat("Biome #5 : " ~ BlackVoidMatches ~ " out of 2");
+	}
+
+	if((TwilightStreamMatches) == 4) {
+		player.sendChat("Twilight Stream : " ~ TwilightStreamMatches ~ " out of 4");
+	} else {
+		player.sendChat("Biome #6 : " ~ TwilightStreamMatches ~ " out of 4");
+	}
+
+	if((AlienForestMatches) == 2) {
+		player.sendChat("Alien Forest : " ~ AlienForestMatches ~ " out of 2");
+	} else {
+		player.sendChat("Biome #7 : " ~ AlienForestMatches ~ " out of 2");
+	}
+
+	if((ThornlandsMatches) == 2) {
+		player.sendChat("Thornlands : " ~ ThornlandsMatches ~ " out of 2");
+	} else {
+		player.sendChat("Biome #8 : " ~ ThornlandsMatches ~ " out of 2");
+	}
+
+	if((IromineMatches) == 2) {
+		player.sendChat("Iromine : " ~ IromineMatches ~ " out of 2");
+	} else {
+		player.sendChat("Biome #9 : " ~ IromineMatches ~ " out of 2");
+	}
+
+	if((StormlandMatches) == 2) {
+		player.sendChat("Stormland : " ~ StormlandMatches ~ " out of 2");
+	} else {
+		player.sendChat("Biome #10: " ~ StormlandMatches ~ " out of 2");
+	}
+
+	if((BogMatches) == 1) {
+		player.sendChat("Bog : " ~ BogMatches ~ " out of 1");
+	} else {
+		player.sendChat("Biome #11: " ~ BogMatches ~ " out of 1");
+	}
+
+	if((TaintedLandsMatches) == 2) {
+		player.sendChat("Bog : " ~ TaintedLandsMatches ~ " out of 2");
+	} else {
+		player.sendChat("Biome #12: " ~ TaintedLandsMatches ~ " out of 2");
+	}
+
+
+
+
+	if((NumberOfMatches) == 25) {
+		Commands.call("give @p contenttweaker:crown_of_the_energy_queen", player, world, true, true);
+		stack.shrink(1);
+		return "PASS";
+	} else {
+		player.sendChat("The ritual is incomplete!");
+		return "FAIL";
+	}
+
+    return "PASS";
+
+};
+terraformassiflora.register();

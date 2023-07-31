@@ -1,0 +1,126 @@
+{
+  "name": "cm3immersive:crusher",
+
+  "disabled": false,
+
+  "target-item": "immersiveengineering:metal_multiblock",
+  "target-count": 1,
+   "target-meta": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "d": {
+      "id": "minecraft:hopper",
+      "meta": 0
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 0
+    }
+  },
+  "input-nbt": {
+    "d:A": {
+      "nbt": "{TransferCooldown:0,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},Items:[],id:\"minecraft:hopper\",Lock:\"\"}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "d:A",
+        "d:A",
+        "d:A"
+      ],
+      [
+        "d:A",
+        "d:A",
+        "d:A"
+      ],
+      [
+        "d:A",
+        "d:A",
+        "d:A"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "b",
+        "a",
+        "_"
+      ],
+      [
+        "e",
+        "e",
+        "e"
+      ],
+      [
+        "e",
+        "a",
+        "e"
+      ],
+      [
+        "e",
+        "e",
+        "e"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "c",
+        "c",
+        "c"
+      ],
+      [
+        "c",
+        "c",
+        "c"
+      ],
+      [
+        "a",
+        "a",
+        "c"
+      ],
+      [
+        "c",
+        "c",
+        "c"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+}
