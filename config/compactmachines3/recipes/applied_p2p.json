@@ -1,0 +1,430 @@
+{
+    "name": "compactmachines3:applied_p2p",
+    "target-item": "appliedenergistics2:part",
+    "target-meta": 460,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+
+    "input-types": {
+      "a": {
+        "id": "appliedenergistics2:cable_bus",
+        "meta": 0
+      },
+      "b": {
+        "id": "appliedenergistics2:controller",
+        "meta": 0
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:68s},\"extra:6\":{part:{p:0,k:-1L,g:74L},usedChannels:0}}"
+      },
+      "a:B": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:4\":{id:\"appliedenergistics2:part\",Count:1,Damage:460s},\"extra:4\":{part:{p:0,k:-1L,g:71L},output:0b,freq:0s,outer:{p:0,k:-1L,g:74L}},\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:50s},\"extra:6\":{part:{p:0,k:-1L,g:71L},usedChannels:2}}"
+      },
+      "a:C": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:10s},\"extra:6\":{part:{p:0,k:-1L,g:71L},usedChannels:2}}"
+      },
+      "a:D": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:5\":{id:\"appliedenergistics2:part\",Count:1,Damage:460s},\"extra:5\":{part:{p:0,k:-1L,g:71L},output:0b,freq:0s,outer:{p:0,k:-1L,g:52L}},\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:50s},\"extra:6\":{part:{p:0,k:-1L,g:71L},usedChannels:2}}"
+      },
+      "a:E": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:0\":{id:\"appliedenergistics2:part\",Count:1,Damage:140s},\"extra:0\":{part:{p:0,k:-1L,g:71L},outer:{p:0,k:-1L,g:52L}},\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:10s},\"extra:6\":{part:{p:0,k:-1L,g:71L},usedChannels:2}}"
+      },
+      "a:F": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:68s},\"extra:6\":{part:{p:0,k:-1L,g:52L},usedChannels:0}}"
+      },
+      "a:G": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:3\":{id:\"appliedenergistics2:part\",Count:1,Damage:140s},\"extra:3\":{part:{p:0,k:-1L,g:57L},outer:{p:0,k:-1L,g:52L}},\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:10s},\"extra:6\":{part:{p:0,k:-1L,g:57L},usedChannels:2}}"
+      },
+      "b:A": {
+        "nbt": "{id:\"appliedenergistics2:controller\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},forward:\"EAST\",up:\"UP\",internalCurrentPower:0.0d,proxy:{p:0,k:-1L,g:52L}}"
+      },
+      "b:B": {
+        "nbt": "{id:\"appliedenergistics2:controller\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},forward:\"SOUTH\",up:\"UP\",internalCurrentPower:0.0d,proxy:{p:0,k:-1L,g:52L}}"
+      },
+      "b:C": {
+        "nbt": "{id:\"appliedenergistics2:controller\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},forward:\"EAST\",up:\"UP\",internalCurrentPower:0.0d,proxy:{p:0,k:-1L,g:61L}}"
+      },
+      "a:H": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:68s},\"extra:6\":{part:{p:0,k:-1L,g:56L},usedChannels:0}}"
+      },
+      "a:I": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:2\":{id:\"appliedenergistics2:part\",Count:1,Damage:460s},\"extra:2\":{part:{p:0,k:-1L,g:57L},output:0b,freq:0s,outer:{p:0,k:-1L,g:56L}},\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:50s},\"extra:6\":{part:{p:0,k:-1L,g:57L},usedChannels:2}}"
+      },
+      "a:J": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:3\":{id:\"appliedenergistics2:part\",Count:1,Damage:460s},\"extra:3\":{part:{p:0,k:-1L,g:57L},output:0b,freq:0s,outer:{p:0,k:-1L,g:52L}},\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:50s},\"extra:6\":{part:{p:0,k:-1L,g:57L},usedChannels:2}}"
+      },
+      "a:K": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:2\":{id:\"appliedenergistics2:part\",Count:1,Damage:460s},\"extra:2\":{part:{p:0,k:-1L,g:61L},output:0b,freq:0s,outer:{p:0,k:-1L,g:52L}},\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:50s},\"extra:6\":{part:{p:0,k:-1L,g:61L},usedChannels:1}}"
+      },
+      "a:L": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:3\":{id:\"appliedenergistics2:part\",Count:1,Damage:460s},\"extra:3\":{part:{p:0,k:-1L,g:61L},output:0b,freq:0s,outer:{p:0,k:-1L,g:65L}},\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:50s},\"extra:6\":{part:{p:0,k:-1L,g:61L},usedChannels:2}}"
+      },
+      "a:M": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:68s},\"extra:6\":{part:{p:0,k:-1L,g:65L},usedChannels:0}}"
+      },
+      "a:N": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:4\":{id:\"appliedenergistics2:part\",Count:1,Damage:460s},\"extra:4\":{part:{p:0,k:-1L,g:94L},output:0b,freq:0s,outer:{p:0,k:-1L,g:52L}},\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:50s},\"extra:6\":{part:{p:0,k:-1L,g:94L},usedChannels:1}}"
+      },
+      "b:D": {
+        "nbt": "{id:\"appliedenergistics2:controller\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},forward:\"SOUTH\",up:\"UP\",internalCurrentPower:0.0d,proxy:{p:0,k:-1L,g:94L}}"
+      },
+      "a:O": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:5\":{id:\"appliedenergistics2:part\",Count:1,Damage:460s},\"extra:5\":{part:{p:0,k:-1L,g:94L},output:0b,freq:0s,outer:{p:0,k:-1L,g:97L}},\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:50s},\"extra:6\":{part:{p:0,k:-1L,g:94L},usedChannels:2}}"
+      },
+      "a:P": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:68s},\"extra:6\":{part:{p:0,k:-1L,g:97L},usedChannels:0}}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "a:C",
+          "a:E",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b:D",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b:C",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a:H",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a:H",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a:I",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a:G",
+          "a:J",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b:A",
+          "b:A",
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:B",
+          "a:D",
+          "a:F",
+          "b:A",
+          "_",
+          "b:A",
+          "a:N",
+          "a:O",
+          "a:P",
+          "a:P"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b:B",
+          "b:B",
+          "b:B",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a:F",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a:K",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a:L",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a:M",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a:M",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ]
+      ]
+    ]
+      
+}

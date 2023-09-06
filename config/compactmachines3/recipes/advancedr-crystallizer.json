@@ -12,65 +12,63 @@
   "catalyst": "contenttweaker:multiblock_preview",
   "catalyst-meta": 0,
   
-
   "input-types": {
     "a": {
       "id": "advancedrocketry:quartzcrucible",
       "meta": 0
     },
     "b": {
-      "id": "libvulpes:coil0",
-      "meta": 2
+      "id": "libvulpes:hatch",
+      "meta": 1
     },
     "c": {
-      "id": "libvulpes:forgepowerinput",
-      "meta": 0
+      "id": "advancedrocketry:crystallizer",
+      "meta": 2,
+      "item": {
+        "id": "advancedrocketry:crystallizer",
+        "count": 1
+      }
     },
     "d": {
       "id": "libvulpes:hatch",
       "meta": 0
     },
     "e": {
-      "id": "advancedrocketry:crystallizer",
-      "meta": 5,
-      "item": {
-        "id": "advancedrocketry:crystallizer",
-        "count": 1
-      }
+      "id": "libvulpes:hatch",
+      "meta": 3
     },
     "f": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0
+    },
+    "g": {
       "id": "libvulpes:hatch",
-      "meta": 1
+      "meta": 2
     }
   },
-
   "shape": [
     [
       [
         "a",
-        "a"
-      ],
-      [
         "a",
         "a"
       ],
       [
+        "a",
         "a",
         "a"
       ]
     ],
     [
       [
-        "b",
-        "d"
+        "d:A",
+        "c:A",
+        "b:A"
       ],
       [
-        "c",
-        "e"
-      ],
-      [
-        "b",
-        "f"
+        "g:A",
+        "f:A",
+        "e:A"
       ]
     ]
   ]

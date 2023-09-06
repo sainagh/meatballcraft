@@ -496,7 +496,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockoutputbus"
+                "generalized_output_item"
             ]
         },
         {

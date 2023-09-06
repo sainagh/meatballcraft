@@ -8,7 +8,7 @@
             "y": 2,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -16,7 +16,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -40,7 +40,7 @@
             "y": 3,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -48,7 +48,7 @@
             "y": 4,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -96,7 +96,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -104,7 +104,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -112,7 +112,7 @@
             "y": 4,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -120,7 +120,7 @@
             "y": 3,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -136,7 +136,7 @@
             "y": 9,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -152,7 +152,7 @@
             "y": 9,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -176,7 +176,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "modularmachinery:blockoutputbus@0"
+                "generalized_output_item"
             ]
         },
         {
@@ -232,7 +232,7 @@
             "y": 9,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -240,7 +240,7 @@
             "y": 4,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -248,7 +248,7 @@
             "y": 8,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -256,7 +256,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -272,7 +272,7 @@
             "y": 9,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -368,7 +368,7 @@
             "y": 9,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -376,7 +376,7 @@
             "y": 9,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -408,7 +408,7 @@
             "y": 9,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -424,7 +424,7 @@
             "y": 9,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -472,7 +472,7 @@
             "y": 3,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -480,7 +480,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -496,7 +496,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -504,7 +504,7 @@
             "y": 6,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -584,7 +584,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -640,7 +640,7 @@
             "y": 7,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -672,7 +672,7 @@
             "y": 7,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -696,7 +696,7 @@
             "y": 7,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -728,7 +728,7 @@
             "y": 3,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -736,7 +736,7 @@
             "y": 8,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -744,7 +744,7 @@
             "y": 6,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -760,7 +760,7 @@
             "y": 7,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -768,7 +768,7 @@
             "y": 8,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -776,7 +776,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -808,7 +808,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -936,7 +936,7 @@
             "y": 4,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -960,7 +960,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -976,7 +976,7 @@
             "y": 1,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -984,7 +984,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -992,7 +992,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1000,7 +1000,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1008,7 +1008,7 @@
             "y": 1,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1016,7 +1016,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1024,7 +1024,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1032,7 +1032,7 @@
             "y": 1,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1040,7 +1040,7 @@
             "y": 4,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1048,7 +1048,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1056,7 +1056,7 @@
             "y": 4,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1064,7 +1064,7 @@
             "y": 4,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1072,7 +1072,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1080,7 +1080,7 @@
             "y": 8,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1088,7 +1088,7 @@
             "y": 2,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1096,7 +1096,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1176,7 +1176,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1184,7 +1184,7 @@
             "y": 9,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1200,7 +1200,7 @@
             "y": 9,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1280,7 +1280,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1296,7 +1296,7 @@
             "y": 2,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1312,7 +1312,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1320,7 +1320,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1328,7 +1328,7 @@
             "y": 9,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1336,7 +1336,7 @@
             "y": 6,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1344,7 +1344,7 @@
             "y": 1,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1352,7 +1352,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1360,7 +1360,7 @@
             "y": 8,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1368,7 +1368,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1376,7 +1376,7 @@
             "y": 7,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1384,7 +1384,7 @@
             "y": 7,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1400,7 +1400,7 @@
             "y": 8,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1408,7 +1408,7 @@
             "y": 7,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1456,7 +1456,7 @@
             "y": 8,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1464,7 +1464,7 @@
             "y": 7,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1472,7 +1472,7 @@
             "y": 8,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1528,7 +1528,7 @@
             "y": 1,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1536,7 +1536,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1544,7 +1544,7 @@
             "y": 8,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1552,7 +1552,7 @@
             "y": 8,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1560,7 +1560,7 @@
             "y": 7,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1568,7 +1568,7 @@
             "y": 2,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1576,7 +1576,7 @@
             "y": 3,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1584,7 +1584,7 @@
             "y": 7,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1592,7 +1592,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1600,7 +1600,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1608,7 +1608,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1616,7 +1616,7 @@
             "y": 2,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1624,7 +1624,7 @@
             "y": 2,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1664,7 +1664,7 @@
             "y": 7,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1672,7 +1672,7 @@
             "y": 7,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1680,7 +1680,7 @@
             "y": 7,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1688,7 +1688,7 @@
             "y": 9,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1696,7 +1696,7 @@
             "y": 7,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1704,7 +1704,7 @@
             "y": 6,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1712,7 +1712,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1728,7 +1728,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1736,7 +1736,7 @@
             "y": 6,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1752,7 +1752,7 @@
             "y": 6,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1800,7 +1800,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1808,7 +1808,7 @@
             "y": 6,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1816,7 +1816,7 @@
             "y": 9,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1840,7 +1840,7 @@
             "y": 9,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1880,7 +1880,7 @@
             "y": 1,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1888,7 +1888,7 @@
             "y": 9,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1904,7 +1904,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1928,7 +1928,7 @@
             "y": 9,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2008,7 +2008,7 @@
             "y": 8,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2016,7 +2016,7 @@
             "y": 8,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2024,7 +2024,7 @@
             "y": 8,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2040,7 +2040,7 @@
             "y": 8,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2112,7 +2112,7 @@
             "y": 7,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2168,7 +2168,7 @@
             "y": 8,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2256,7 +2256,7 @@
             "y": 8,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2264,7 +2264,7 @@
             "y": 6,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2272,7 +2272,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2280,7 +2280,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2288,7 +2288,7 @@
             "y": 4,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2304,7 +2304,7 @@
             "y": 2,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2328,7 +2328,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2360,7 +2360,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2376,7 +2376,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2456,7 +2456,7 @@
             "y": 2,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2480,7 +2480,7 @@
             "y": 6,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2488,7 +2488,7 @@
             "y": 6,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2496,7 +2496,7 @@
             "y": 7,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2504,7 +2504,7 @@
             "y": 3,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2512,7 +2512,7 @@
             "y": 3,
             "z": 6,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2520,7 +2520,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2528,7 +2528,7 @@
             "y": 3,
             "z": 7,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2536,7 +2536,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         }
     ]}

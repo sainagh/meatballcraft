@@ -29,14 +29,14 @@ mods.ltt.LootTable.removeGlobalItem("projectred-core:resource_item:102");
 mods.ltt.LootTable.removeGlobalItem("railcraft:ingot:4");
 mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:11");
 
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:magic_wand");
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_ice_wand");
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_fire_wand");
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_lightning_wand");
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_necromancy_wand");
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_earth_wand");
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_sorcery_wand");
-mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_healing_wand");
+// mods.ltt.LootTable.removeGlobalItem("ebwizardry:magic_wand");
+// mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_ice_wand");
+// mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_fire_wand");
+// mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_lightning_wand");
+// mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_necromancy_wand");
+// mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_earth_wand");
+// mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_sorcery_wand");
+// mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_healing_wand");
 
 mods.ltt.LootTable.removeGlobalItem("tombstone:familiar_receptacle");
 
@@ -55,6 +55,26 @@ mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:10");
 mods.ltt.LootTable.removeGlobalItem("mod_lavacow:bonesword");
 
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:invisibility_cape");
+
+mods.ltt.LootTable.removeGlobalItem("railcraft:ingot:0");
+mods.ltt.LootTable.removeGlobalItem("railcraft:ingot:1");
+mods.ltt.LootTable.removeGlobalItem("railcraft:ingot:2");
+mods.ltt.LootTable.removeGlobalItem("railcraft:ingot:3");
+mods.ltt.LootTable.removeGlobalItem("railcraft:ingot:4");
+mods.ltt.LootTable.removeGlobalItem("railcraft:ingot:5");
+mods.ltt.LootTable.removeGlobalItem("railcraft:ingot:6");
+mods.ltt.LootTable.removeGlobalItem("railcraft:ingot:7");
+mods.ltt.LootTable.removeGlobalItem("railcraft:ingot:8");
+mods.ltt.LootTable.removeGlobalItem("railcraft:ingot:9");
+
+mods.ltt.LootTable.removeGlobalItem("railcraft:dust:0");
+mods.ltt.LootTable.removeGlobalItem("railcraft:dust:1");
+mods.ltt.LootTable.removeGlobalItem("railcraft:dust:2");
+mods.ltt.LootTable.removeGlobalItem("railcraft:dust:3");
+mods.ltt.LootTable.removeGlobalItem("railcraft:dust:4");
+mods.ltt.LootTable.removeGlobalItem("railcraft:dust:5");
+mods.ltt.LootTable.removeGlobalItem("railcraft:dust:6");
+mods.ltt.LootTable.removeGlobalItem("railcraft:dust:7");
 
 
 

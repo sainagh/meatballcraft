@@ -18,3 +18,29 @@ mods.extendedcrafting.TableCrafting.addShaped(<minecraft:spawn_egg>.withTag({Ent
 [[<ore:dragonScaleItem>, null, <ore:dragonScaleItem>], 
 [null, <minecraft:elytra>, null], 
 [<ore:dragonScaleItem>, null, <ore:dragonScaleItem>]]); 
+
+
+recipes.remove(<iceandfire:armor_silver_metal_helmet>);
+recipes.remove(<iceandfire:armor_silver_metal_chestplate>);
+recipes.remove(<iceandfire:armor_silver_metal_leggings>);
+recipes.remove(<iceandfire:armor_silver_metal_boots>);
+
+recipes.addShaped(<iceandfire:armor_silver_metal_helmet>,
+[[null, null, null],
+[<ore:ingotSilver>, <ore:blockSilver>, <ore:ingotSilver>],
+[<ore:ingotSilver>, null, <ore:ingotSilver>]]);
+
+recipes.addShaped(<iceandfire:armor_silver_metal_chestplate>,
+[[<ore:ingotSilver>, null, <ore:ingotSilver>],
+[<ore:ingotSilver>, <ore:blockSilver>, <ore:ingotSilver>],
+[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]]);
+
+recipes.addShaped(<iceandfire:armor_silver_metal_leggings>,
+[[<ore:ingotSilver>, <ore:blockSilver>, <ore:ingotSilver>],
+[<ore:ingotSilver>, null, <ore:ingotSilver>],
+[<ore:ingotSilver>, null, <ore:ingotSilver>]]);
+
+recipes.addShaped(<iceandfire:armor_silver_metal_boots>,
+[[<ore:blockSilver>, null, <ore:blockSilver>],
+[<ore:ingotSilver>, null, <ore:ingotSilver>],
+[null, null, null]]);

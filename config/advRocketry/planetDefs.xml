@@ -185,7 +185,7 @@
     </star>
 	<star name="Proxima Duo A" temp="140" x="6" y="-6" size="2.0" numPlanets="0" numGasGiants="0">
 		<star name="Proxima Duo B" temp="200" separation="20.0" />
-        <planet name="Tartarus" DIMID="162" customIcon="CarbonWorld">
+        <planet name="Lindenwyrm" DIMID="162" customIcon="CarbonWorld">
             <fogColor>0.0,0.9,0.0</fogColor>
             <skyColor>0.0,0.9,0.0</skyColor>
 			<hasRings>false</hasRings>
@@ -194,9 +194,6 @@
             <orbitalDistance>350</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>10</orbitalPhi>
-			<OreGen>
-				<ore block="contenttweaker:tartarite_ore" minHeight="20" maxHeight="80" clumpSize="2" chancePerChunk="1" />
-			</OreGen>
             <rotationalPeriod>72000</rotationalPeriod>
 			<biomeIds>advancedrocketry:stormland</biomeIds>
 			<artifact>contenttweaker:tartarus_artifact</artifact>
@@ -230,7 +227,7 @@
 				<ore block="contenttweaker:myrmitite_ore" minHeight="20" maxHeight="80" clumpSize="2" chancePerChunk="1" />
 			</OreGen>
             <rotationalPeriod>72000</rotationalPeriod>
-			<biomeIds>advancedrocketry:alien forest,thaumcraft:magical_forest,biomesoplenty:cherry_blossom_grove</biomeIds>
+			<biomeIds>advancedrocketry:alien_forest,thaumcraft:magical_forest,biomesoplenty:cherry_blossom_grove</biomeIds>
 			<artifact>contenttweaker:myrmex_artifact</artifact>
 		</planet>
         <planet name="Pixonia" DIMID="165" customIcon="GasGiantBrown">

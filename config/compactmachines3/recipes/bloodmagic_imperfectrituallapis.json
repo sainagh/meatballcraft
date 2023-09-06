@@ -1,0 +1,47 @@
+{
+    "name": "compactmachines3:bloodmagic_imperfectrituallapis",
+    "target-item": "bloodmagic:ritual_controller",
+    "target-meta": 1,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:lapis_block",
+        "meta": 0,
+        "item": {
+            "id": "minecraft:lapis_block",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "bloodmagic:ritual_controller",
+        "meta": 0,
+        "item": {
+            "id": "bloodmagic:ritual_controller",
+            "meta": 1,
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "b:A"
+        ]
+      ]
+    ]
+          
+}

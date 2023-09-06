@@ -2,6 +2,27 @@
     "registryname": "aluminum_lathe",
     "localizedname": "Lathe",
 	"color": "d5d8de",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:energy_hive@0",
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "description": "Multiplies amounts processed by 16",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -1,
@@ -16,7 +37,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockoutputbus"
+                "generalized_output_item"
             ]
         },
         {
@@ -40,7 +61,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockinputbus"
+                "generalized_input_item"
             ]
         },
         {

@@ -388,3 +388,15 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<divinerpg:icicle_bow>.withT
 <contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
 <contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>
 ]);
+
+recipes.addHiddenShapeless("sharpboneprecasia", <contenttweaker:living_myrmitite_ingot>,
+[<contenttweaker:enchanted_myrmitite>,
+<bloodarsenal:modifier_tome>.withTag({Level: 4, Key: "bloodarsenal.modifier.sharpness", ReadyToUpgrade: 0 as byte}),
+<bloodarsenal:modifier_tome>.withTag({Level: 4, Key: "bloodarsenal.modifier.xperienced", ReadyToUpgrade: 0 as byte}),
+<bloodarsenal:modifier_tome>.withTag({Level: 3, Key: "bloodarsenal.modifier.looting", ReadyToUpgrade: 0 as byte}),
+<bloodarsenal:modifier_tome>.withTag({Level: 1, Key: "bloodarsenal.modifier.aod", ReadyToUpgrade: 0 as byte})]);
+
+recipes.addShaped(<aoa3:skeletal_sword>.withTag({ench: [{lvl: 20 as short, id: 22 as short}, {lvl: 50 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "BONE STORM"}}), 
+[[<tconstruct:sword_blade>.withTag({Material: "desert_myrmex"}), <contenttweaker:living_myrmitite_ingot>, <tconstruct:sword_blade>.withTag({Material: "jungle_myrmex"})],
+[<tconstruct:sword_blade>.withTag({Material: "desert_myrmex"}), <aoa3:skeletal_sword>, <tconstruct:sword_blade>.withTag({Material: "jungle_myrmex"})],
+[<tconstruct:sword_blade>.withTag({Material: "desert_myrmex"}), <materialpart:myrmitite:rod>, <tconstruct:sword_blade>.withTag({Material: "jungle_myrmex"})]]);

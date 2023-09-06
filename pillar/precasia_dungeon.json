@@ -1,7 +1,7 @@
 {
 	"generatorType": "SURFACE",
-	"minY": -1,
-	"maxY": -1,
+	"minY": 60,
+	"maxY": 90,
 	"offsetX": 0,
 	"offsetY": 0,
 	"offsetZ": 0,
@@ -21,9 +21,9 @@
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "",
+	"filling": "aoa3:high_precasia_stone",
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 1000
+	"rarity": 600
 }

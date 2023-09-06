@@ -368,3 +368,11 @@ recipes.addShaped(<extrautils2:passivegenerator:6>,
 [[<magicbees:resource:3>, <mysticalagradditions:stuff:69>, <magicbees:resource:3>],
 [<mysticalagradditions:stuff:69>, <extrautils2:ingredients:1>, <mysticalagradditions:stuff:69>],
 [<magicbees:resource:3>, <mysticalagradditions:stuff:69>, <magicbees:resource:3>]]);
+
+
+// night vision pot
+
+recipes.addShaped(<xreliquary:potion>.withTag({effects: [{duration: 50000, potency: 0, name: "minecraft:night_vision"}], hasPotion: 1 as byte}),
+[[<biomesoplenty:mushroom:3>, <divinerpg:corrupted_shards>, <biomesoplenty:mushroom:3>],
+[<divinerpg:corrupted_shards>, <xreliquary:potion>, <divinerpg:corrupted_shards>],
+[<biomesoplenty:mushroom:3>, <divinerpg:corrupted_shards>, <biomesoplenty:mushroom:3>]]);

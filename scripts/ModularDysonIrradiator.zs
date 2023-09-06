@@ -192,7 +192,7 @@ irradiationultimate.addAspectInput("lux",30);
 irradiationultimate.addFluidInput(<fluid:hyperdense_plasma>*100);
 irradiationultimate.addFluidInput(<fluid:magnatar_stabilizer>*200);
 irradiationultimate.addItemInput(<contenttweaker:defined_ingot>);
-irradiationultimate.addItemInput(<contenttweaker:dense_diamond_powder>);
+irradiationultimate.addItemInput(<minecraft:diamond>);
 irradiationultimate.addItemInput(<avaritia:resource:5>*4);
 irradiationultimate.addItemOutput(<avaritia:resource:6>);
 irradiationultimate.build();

@@ -1,0 +1,42 @@
+{
+  "name": "cm3ar:satellitebuilder",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:satellitebuilder",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "advancedrocketry:satellitebuilder",
+      "meta": 2,
+      "item": {
+        "id": "advancedrocketry:satellitebuilder",
+        "meta": 0,
+        "count": 1
+      }
+    },
+    "b": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a"
+      ]
+    ],
+    [
+      [
+        "b"
+      ]
+    ]
+  ]
+}

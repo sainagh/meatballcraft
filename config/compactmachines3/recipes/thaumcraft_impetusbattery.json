@@ -1,0 +1,127 @@
+{
+    "name": "compactmachines3:thaumcraft_impetusbattery",
+    "target-item": "thaumicaugmentation:impetus_matrix",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+
+
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:tripwire",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:salis_mundus",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "bloodarsenal:block_blood_burned_string",
+        "meta": 0,
+        "item": {
+            "id": "thaumicaugmentation:material",
+            "meta": 3,
+            "count": 8
+          }
+      },
+      "c": {
+        "id": "thaumcraft:pedestal_eldritch",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:pedestal_eldritch",
+            "count": 2
+          }
+      },
+      "d": {
+        "id": "thaumcraft:infusion_matrix",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:infusion_matrix",
+            "count": 1
+          }
+      }
+    },
+    "input-nbt": {
+      "c:A": {
+        "nbt": "{id:\"thaumcraft:tilepedestal\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},Items:[]}"
+      },
+      "d:A": {
+        "nbt": "{id:\"thaumcraft:tileinfusionmatrix\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},active:0b,crafting:0b,stability:0.0f,recipeinst:0,Aspects:[],recipetype:0,recipexp:0,recipeplayer:\"\"}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "c:A",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "b",
+          "d:A",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "a",
+          "c:A",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ]
+      ]
+    ]
+            
+}

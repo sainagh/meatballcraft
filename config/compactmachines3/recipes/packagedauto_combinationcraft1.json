@@ -1,0 +1,126 @@
+{
+    "name": "compactmachines3:packagedauto_combinationcraft1",
+    "target-item": "packagedexcrafting:marked_pedestal",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+    "input-types": {
+      "a": {
+        "id": "packagedexcrafting:marked_pedestal",
+        "meta": 0,
+        "item": {
+            "id": "packagedexcrafting:marked_pedestal",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "appliedenergistics2:cable_bus",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:any_number_pedestals",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "packagedauto:packager",
+        "meta": 0,
+        "item": {
+            "id": "packagedauto:packager",
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "packagedauto:unpackager",
+        "meta": 0,
+        "item": {
+            "id": "packagedauto:unpackager",
+            "count": 1
+          }
+      },
+      "e": {
+        "id": "packagedexcrafting:combination_crafter",
+        "meta": 0,
+        "item": {
+            "id": "packagedexcrafting:combination_crafter",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "b",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "c",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "d",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "e",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ]
+      ]
+    ]
+        
+}

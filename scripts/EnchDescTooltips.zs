@@ -111,3 +111,5 @@
 <contenttweaker:enchdesc_manabound>.addTooltip(format.red("Allows item to be repaired with mana."));
 <contenttweaker:enchdesc_headhunter>.addTooltip(format.red("Increases chance for a skull to drop."));
 <contenttweaker:enchdesc_aerial_affinity>.addTooltip(format.red("Removes the mining speed penalty while in the air or not touching the ground"));
+<contenttweaker:enchdesc_blessing>.addTooltip(format.red("Chance to gain a random buff when hit"));
+<contenttweaker:enchdesc_curse_bones>.addTooltip(format.red("Chance to gain bone shield when hit"));

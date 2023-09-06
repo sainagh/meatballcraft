@@ -4,7 +4,7 @@
 	"color": "011112",
     "modifiers": [
         {
-            "elements": "abyssalcraft:tieredenergycontainer@3",
+            "elements": "contenttweaker:omothol_containment_stone",
             "x": 0,
             "y": 2,
             "z": 3,
@@ -63,7 +63,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "abyssalcraft:tieredenergycontainer@1"
+                "contenttweaker:abyssal_wasteland_containment_stone"
             ]
         },
         {
@@ -239,7 +239,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch"
+                "generalized_output_fluid"
             ]
         },
         {
@@ -343,7 +343,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "modularmachinery:blockinputbus"
+                "generalized_input_item"
             ]
         },
         {

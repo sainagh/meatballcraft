@@ -450,11 +450,49 @@
     },
     {
         "mode": "ADD",
+        "result": "iceandfire:dragonsteel_fire_block",
+        "catalyst": "draconicevolution:draconium_block",
+        "energy": 100000,
+        "tier": 2,
+        "ingredients": [
+            "minecraft:magma",
+            "minecraft:magma",
+            "minecraft:magma",
+            "minecraft:magma",
+            "minecraft:magma",
+            "minecraft:magma",
+            "minecraft:magma",
+            "minecraft:magma",
+            "minecraft:magma",
+            "minecraft:magma"
+        ]
+    },
+    {
+        "mode": "ADD",
         "result": "iceandfire:dragonsteel_ice_ingot",
         "catalyst": "draconicevolution:draconium_ingot",
         "energy": 100000,
         "tier": 2,
         "ingredients": [
+            "minecraft:packed_ice",
+            "minecraft:packed_ice",
+            "minecraft:packed_ice",
+            "minecraft:packed_ice",
+            "minecraft:packed_ice",
+            "minecraft:packed_ice"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "iceandfire:dragonsteel_ice_block",
+        "catalyst": "draconicevolution:draconium_block",
+        "energy": 100000,
+        "tier": 2,
+        "ingredients": [
+            "minecraft:packed_ice",
+            "minecraft:packed_ice",
+            "minecraft:packed_ice",
+            "minecraft:packed_ice",
             "minecraft:packed_ice",
             "minecraft:packed_ice",
             "minecraft:packed_ice",
@@ -527,6 +565,23 @@
             "ore:ingotPromethium",
             "ore:ingotPromethium",
             "ore:ingotPromethium"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:recursion_of_notbeinganoob",
+        "catalyst": "contenttweaker:everburning_seed",
+        "energy": 64000000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:recursive_convergence",
+            "contenttweaker:recursive_convergence",
+            "contenttweaker:recursive_convergence",
+            "contenttweaker:recursive_convergence",
+            "contenttweaker:recursive_convergence",
+            "contenttweaker:recursive_convergence",
+            "contenttweaker:recursive_convergence",
+            "contenttweaker:recursive_convergence"
         ]
     }
 ]

@@ -16,7 +16,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch"
+                "generalized_output_fluid"
             ]
         },
         {
@@ -64,7 +64,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "generalized_input_fluid"
             ]
         },
         {

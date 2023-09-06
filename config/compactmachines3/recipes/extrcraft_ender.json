@@ -1,0 +1,80 @@
+{
+  "name": "compactmachines3:extcraft_ender",
+  "target-item": "extendedcrafting:ender_crafter",
+  "target-meta": 6,
+  "target-count": 1,
+
+  "duration": 200,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+
+
+  "input-types": {
+    "a": {
+      "id": "extendedcrafting:ender_alternator",
+      "meta": 0,
+      "item": {
+          "id": "extendedcrafting:ender_alternator",
+          "count": 1
+        }
+    },
+    "b": {
+      "id": "minecraft:wool",
+      "meta": 0,
+      "item": {
+          "id": "contenttweaker:more_alternators_faster",
+          "count": 1
+        }
+    },
+    "c": {
+      "id": "extendedcrafting:ender_crafter",
+      "meta": 0,
+      "item": {
+          "id": "extendedcrafting:ender_crafter",
+          "count": 1
+        }
+    }
+  },
+  "input-nbt": {
+    "c:A": {
+      "nbt": "{id:\"minecraft:extendedcraftingender_crafter\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},Items:[],Progress:0,ProgressReq:0}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "c:A",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ]
+    ]
+  ]
+ 
+}

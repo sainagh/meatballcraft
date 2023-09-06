@@ -1,0 +1,65 @@
+{
+    "name": "compactmachines3:thaumcraft_thaumathorium1",
+    "target-item": "thaumcraft:thaumatorium",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:tripwire",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:salis_mundus",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "thaumcraft:metal_alchemical",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:metal_alchemical",
+            "count": 2
+          }
+      },
+      "c": {
+        "id": "thaumcraft:crucible",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:crucible",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "c"
+        ]
+      ]
+    ]
+           
+}

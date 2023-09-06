@@ -124,3 +124,6 @@ oreaoagarnet.add(<contenttweaker:vox_ponds_garnet>);
 
 val dustmanganese = <ore:dustManganese>;
 dustmanganese.remove(<nuclearcraft:dust:11>);
+
+val environmentallaserlens = <ore:etLaserLens>;
+environmentallaserlens.remove(<environmentaltech:laser_lens_crystal>);

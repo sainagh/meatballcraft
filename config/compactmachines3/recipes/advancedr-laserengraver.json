@@ -1,0 +1,118 @@
+{
+    "name": "cm3ar:laseretcher",
+  
+    "disabled": false,
+  
+    "target-item": "advancedrocketry:precisionlaseretcher",
+    "target-count": 1,
+  
+    "duration": 200,
+    "symmetrical": true,
+  
+    "catalyst": "contenttweaker:multiblock_preview",
+    "catalyst-meta": 0,
+   
+  "input-types": {
+    "a": {
+      "id": "minecraft:stone_slab",
+      "meta": 0
+    },
+    "b": {
+      "id": "advancedrocketry:structuretower",
+      "meta": 0
+    },
+    "c": {
+      "id": "libvulpes:structuremachine",
+      "meta": 0
+    },
+    "d": {
+      "id": "advancedrocketry:precisionlaseretcher",
+      "meta": 2,
+      "item": {
+        "id": "advancedrocketry:precisionlaseretcher",
+        "count": 1
+      }
+    },
+    "e": {
+      "id": "libvulpes:hatch",
+      "meta": 0
+    },
+    "f": {
+      "id": "advancedrocketry:vacuumlaser",
+      "meta": 1,
+      "item": {
+        "id": "advancedrocketry:vacuumlaser",
+        "count": 1
+      }
+    },
+    "g": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0
+    },
+    "h": {
+        "id": "libvulpes:elitemotor",
+        "meta": 2,
+        "item": {
+          "id": "libvulpes:elitemotor",
+          "count": 1
+        }
+    },
+    "i": {
+      "id": "libvulpes:hatch",
+      "meta": 1
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "_",
+        "a",
+        "_"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "c",
+        "_",
+        "b"
+      ],
+      [
+        "c",
+        "f",
+        "_"
+      ],
+      [
+        "c",
+        "_",
+        "b"
+      ]
+    ],
+    [
+      [
+        "e:A",
+        "d:A",
+        "c"
+      ],
+      [
+        "i:A",
+        "h",
+        "g:A"
+      ],
+      [
+        "c",
+        "c",
+        "g:A"
+      ]
+    ]
+  ]
+}

@@ -98,3 +98,6 @@ mods.thaumcraft.Crucible.registerRecipe("easierseal1", "", <thaumcraft:seal:12>,
 mods.thaumcraft.Crucible.registerRecipe("easierseal2", "", <thaumcraft:seal:8>, <thaumcraft:seal:0>, [<aspect:bestia>*20,<aspect:sensus>*10]);
 mods.thaumcraft.Crucible.registerRecipe("easierseal3", "", <thaumcraft:seal:7>, <thaumcraft:seal:0>, [<aspect:herba>*20,<aspect:vitreus>*10]);
 
+recipes.addShapeless(<contenttweaker:biome_checker>,
+[<thaumicaugmentation:biome_selector>,
+<divinerpg:checker>]);

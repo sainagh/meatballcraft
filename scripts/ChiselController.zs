@@ -63,6 +63,8 @@ mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:blood_god_altar_controller>);
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:dimensional_stabilizer_controller>);
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:terrestrial_cauldron_controller>);
+mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:enchanted_greenhouse_controller>);
+mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:mechanized_essentia_smeltery_controller>);
 
 
 

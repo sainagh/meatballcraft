@@ -496,7 +496,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "modularmachinery:blockinputbus"
+                "generalized_input_item"
             ]
         },
         {

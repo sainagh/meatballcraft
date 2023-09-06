@@ -18,7 +18,11 @@
       },
       "b": {
         "id": "abyssalcraft:dcstairs",
-        "meta": 0
+        "meta": 0,
+        "item": {
+            "id": "abyssalcraft:dcstairs",
+            "count": 1
+          }
       },
       "c": {
         "id": "abyssalcraft:dscwall",
@@ -34,7 +38,11 @@
       },
       "e": {
         "id": "abyssalcraft:dcstairs",
-        "meta": 5
+        "meta": 5,
+        "item": {
+            "id": "abyssalcraft:dcstairs",
+            "count": 1
+          }
       },
       "f": {
         "id": "minecraft:stone",
@@ -58,11 +66,19 @@
       },
       "j": {
         "id": "abyssalcraft:dcstairs",
-        "meta": 4
+        "meta": 4,
+        "item": {
+            "id": "abyssalcraft:dcstairs",
+            "count": 1
+          }
       },
       "k": {
         "id": "abyssalcraft:dcstairs",
-        "meta": 1
+        "meta": 1,
+        "item": {
+            "id": "abyssalcraft:dcstairs",
+            "count": 1
+          }
       }
     },
 

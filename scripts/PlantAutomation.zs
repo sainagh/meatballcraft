@@ -84,367 +84,367 @@ mods.thermalexpansion.Insolator.addRecipeMonoculture(<bewitchment:wormwood>*3,
 
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "aer"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "aer"}), 
+<thaumadditions:vis_seeds/aer>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "aer"}), 
+<thaumadditions:vis_seeds/aer>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "terra"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "terra"}), 
+<thaumadditions:vis_seeds/terra>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "terra"}), 
+<thaumadditions:vis_seeds/terra>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "ignis"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "ignis"}), 
+<thaumadditions:vis_seeds/ignis>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "ignis"}), 
+<thaumadditions:vis_seeds/ignis>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "aqua"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "aqua"}), 
+<thaumadditions:vis_seeds/aqua>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "aqua"}), 
+<thaumadditions:vis_seeds/aqua>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "ordo"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "ordo"}), 
+<thaumadditions:vis_seeds/ordo>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "ordo"}), 
+<thaumadditions:vis_seeds/ordo>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "perditio"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "perditio"}), 
+<thaumadditions:vis_seeds/perditio>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "perditio"}), 
+<thaumadditions:vis_seeds/perditio>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "vacuos"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "vacuos"}), 
+<thaumadditions:vis_seeds/vacuos>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "vacuos"}), 
+<thaumadditions:vis_seeds/vacuos>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "lux"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "lux"}), 
+<thaumadditions:vis_seeds/lux>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "lux"}), 
+<thaumadditions:vis_seeds/lux>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "motus"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "motus"}), 
+<thaumadditions:vis_seeds/motus>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "motus"}), 
+<thaumadditions:vis_seeds/motus>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "gelum"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "gelum"}), 
+<thaumadditions:vis_seeds/gelum>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "gelum"}), 
+<thaumadditions:vis_seeds/gelum>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "vitreus"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "vitreus"}), 
+<thaumadditions:vis_seeds/vitreus>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "vitreus"}), 
+<thaumadditions:vis_seeds/vitreus>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "metallum"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "metallum"}), 
+<thaumadditions:vis_seeds/metallum>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "metallum"}), 
+<thaumadditions:vis_seeds/metallum>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "victus"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "victus"}), 
+<thaumadditions:vis_seeds/victus>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "victus"}), 
+<thaumadditions:vis_seeds/victus>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "mortuus"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "mortuus"}), 
+<thaumadditions:vis_seeds/mortuus>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "mortuus"}), 
+<thaumadditions:vis_seeds/mortuus>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "potentia"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "potentia"}), 
+<thaumadditions:vis_seeds/potentia>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "potentia"}), 
+<thaumadditions:vis_seeds/potentia>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "permutatio"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "permutatio"}), 
+<thaumadditions:vis_seeds/permutatio>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "permutatio"}), 
+<thaumadditions:vis_seeds/permutatio>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "praecantatio"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "praecantatio"}), 
+<thaumadditions:vis_seeds/praecantatio>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "praecantatio"}), 
+<thaumadditions:vis_seeds/praecantatio>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "auram"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "auram"}), 
+<thaumadditions:vis_seeds/auram>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "auram"}), 
+<thaumadditions:vis_seeds/auram>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "alkimia"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "alkimia"}), 
+<thaumadditions:vis_seeds/alkimia>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "alkimia"}), 
+<thaumadditions:vis_seeds/alkimia>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "vitium"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "vitium"}), 
+<thaumadditions:vis_seeds/vitium>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "vitium"}), 
+<thaumadditions:vis_seeds/vitium>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "tenebrae"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "tenebrae"}), 
+<thaumadditions:vis_seeds/tenebrae>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "tenebrae"}), 
+<thaumadditions:vis_seeds/tenebrae>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "alienis"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "alienis"}), 
+<thaumadditions:vis_seeds/alienis>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "alienis"}), 
+<thaumadditions:vis_seeds/alienis>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "volatus"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "volatus"}), 
+<thaumadditions:vis_seeds/volatus>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "volatus"}), 
+<thaumadditions:vis_seeds/volatus>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "herba"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "herba"}), 
+<thaumadditions:vis_seeds/herba>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "herba"}), 
+<thaumadditions:vis_seeds/herba>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "instrumentum"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "instrumentum"}), 
+<thaumadditions:vis_seeds/instrumentum>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "instrumentum"}), 
+<thaumadditions:vis_seeds/instrumentum>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "fabrico"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "fabrico"}), 
+<thaumadditions:vis_seeds/fabrico>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "fabrico"}), 
+<thaumadditions:vis_seeds/fabrico>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "machina"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "machina"}), 
+<thaumadditions:vis_seeds/machina>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "machina"}), 
+<thaumadditions:vis_seeds/machina>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "vinculum"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "vinculum"}), 
+<thaumadditions:vis_seeds/vinculum>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "vinculum"}), 
+<thaumadditions:vis_seeds/vinculum>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "spiritus"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "spiritus"}), 
+<thaumadditions:vis_seeds/spiritus>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "spiritus"}), 
+<thaumadditions:vis_seeds/spiritus>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "cognitio"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "cognitio"}), 
+<thaumadditions:vis_seeds/cognitio>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "cognitio"}), 
+<thaumadditions:vis_seeds/cognitio>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "sensus"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "sensus"}), 
+<thaumadditions:vis_seeds/sensus>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "sensus"}), 
+<thaumadditions:vis_seeds/sensus>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "aversio"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "aversio"}), 
+<thaumadditions:vis_seeds/aversio>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "aversio"}), 
+<thaumadditions:vis_seeds/aversio>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "praemunio"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "praemunio"}), 
+<thaumadditions:vis_seeds/praemunio>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "praemunio"}), 
+<thaumadditions:vis_seeds/praemunio>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "desiderium"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "desiderium"}), 
+<thaumadditions:vis_seeds/desiderium>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "desiderium"}), 
+<thaumadditions:vis_seeds/desiderium>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "exanimis"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "exanimis"}), 
+<thaumadditions:vis_seeds/exanimis>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "exanimis"}), 
+<thaumadditions:vis_seeds/exanimis>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "bestia"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "bestia"}), 
+<thaumadditions:vis_seeds/bestia>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "bestia"}), 
+<thaumadditions:vis_seeds/bestia>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "humanus"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "humanus"}), 
+<thaumadditions:vis_seeds/humanus>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "humanus"}), 
+<thaumadditions:vis_seeds/humanus>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "coralos"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "coralos"}), 
+<thaumadditions:vis_seeds/coralos>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "coralos"}), 
+<thaumadditions:vis_seeds/coralos>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "dreadia"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "dreadia"}), 
+<thaumadditions:vis_seeds/dreadia>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "dreadia"}), 
+<thaumadditions:vis_seeds/dreadia>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "sol"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "sol"}), 
+<thaumadditions:vis_seeds/sol>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "sol"}), 
+<thaumadditions:vis_seeds/sol>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "luna"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "luna"}), 
+<thaumadditions:vis_seeds/luna>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "luna"}), 
+<thaumadditions:vis_seeds/luna>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "stellae"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "stellae"}), 
+<thaumadditions:vis_seeds/stellae>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "stellae"}), 
+<thaumadditions:vis_seeds/stellae>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "diabolus"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "diabolus"}), 
+<thaumadditions:vis_seeds/diabolus>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "diabolus"}), 
+<thaumadditions:vis_seeds/diabolus>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "fluctus"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "fluctus"}), 
+<thaumadditions:vis_seeds/fluctus>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "fluctus"}), 
+<thaumadditions:vis_seeds/fluctus>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "sonus"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "sonus"}), 
+<thaumadditions:vis_seeds/sonus>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "sonus"}), 
+<thaumadditions:vis_seeds/sonus>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "exitium"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "exitium"}), 
+<thaumadditions:vis_seeds/exitium>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "exitium"}), 
+<thaumadditions:vis_seeds/exitium>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "caeles"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "caeles"}), 
+<thaumadditions:vis_seeds/caeles>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "caeles"}), 
+<thaumadditions:vis_seeds/caeles>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "draco"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "draco"}), 
+<thaumadditions:vis_seeds/draco>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "draco"}), 
+<thaumadditions:vis_seeds/draco>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "infernum"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "infernum"}), 
+<thaumadditions:vis_seeds/infernum>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "infernum"}), 
+<thaumadditions:vis_seeds/infernum>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "ventus"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "ventus"}), 
+<thaumadditions:vis_seeds/ventus>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "ventus"}), 
+<thaumadditions:vis_seeds/ventus>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "visum"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "visum"}), 
+<thaumadditions:vis_seeds/visum>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "visum"}), 
+<thaumadditions:vis_seeds/visum>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "imperium"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "imperium"}), 
+<thaumadditions:vis_seeds/imperium>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "imperium"}), 
+<thaumadditions:vis_seeds/imperium>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "mythus"})*5,

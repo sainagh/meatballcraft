@@ -214,3 +214,12 @@ recipes.addShaped(<extrautils2:playerchest>,
 [[<actuallyadditions:block_player_interface>, <divinerpg:arksiane_lump>, <actuallyadditions:block_player_interface>],
 [<divinerpg:arksiane_lump>, <projecte:alchemical_chest>, <divinerpg:arksiane_lump>],
 [<actuallyadditions:block_player_interface>, <divinerpg:arksiane_lump>, <actuallyadditions:block_player_interface>]]);
+
+recipes.addShapeless(<contenttweaker:better_red_coal>,
+[<extrautils2:ingredients:4>]);
+
+recipes.addShaped(<extrautils2:opinium:0>,
+[[null, <contenttweaker:better_red_coal>, null],
+[<contenttweaker:better_red_coal>, <ore:blockIron>, <contenttweaker:better_red_coal>],
+[null, <contenttweaker:better_red_coal>, null]]);
+

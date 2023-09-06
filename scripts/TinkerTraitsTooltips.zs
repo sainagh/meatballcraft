@@ -67,7 +67,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:trait_high_in_calcium>.addTooltip(format.red("Drops bones and bonemeal while breaking blocks"));
 <contenttweaker:trait_hive_defender>.addTooltip(format.red("Bonus 4 damage against non-arthropods, 8 damage against death worms"));
 <contenttweaker:trait_holy>.addTooltip(format.red("Inflicts weakness and extra damage against undeads"));
-<contenttweaker:trait_illuminati>.addTooltip(format.red("Makes you invisible and gives glowiing to nearby mobs"));
+<contenttweaker:trait_illuminati>.addTooltip(format.red("Makes you invisible and gives glowing to nearby mobs"));
 <contenttweaker:trait_im_a_superstar>.addTooltip(format.red("Increased attunement effects"));
 <contenttweaker:trait_infernal_energy>.addTooltip(format.red("Much faster mining speed when you are on fire"));
 <contenttweaker:trait_inferno>.addTooltip(format.red("Dragon fire damage for 15 seconds"));

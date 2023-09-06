@@ -1,3 +1,6 @@
+import mods.astralsorcery.Utils;
+
+
 recipes.removeShaped(<divinerpg:shuriken>);
 
 recipes.addShaped(<divinerpg:shuriken>,
@@ -489,25 +492,25 @@ recipes.addShapeless(<techreborn:sapphiresword>,
 recipes.addShapeless(<projectred-exploration:sapphire_sword>,
 [<techreborn:sapphiresword>]);
 
-recipes.addShapeless(<projectred-exploration:sapphire_helmet>,
-[<techreborn:sapphirehelmet>]);
-recipes.addShapeless(<techreborn:sapphirehelmet>,
-[<projectred-exploration:sapphire_helmet>]);
+// recipes.addShapeless(<projectred-exploration:sapphire_helmet>,
+// [<techreborn:sapphirehelmet>]);
+// recipes.addShapeless(<techreborn:sapphirehelmet>,
+// [<projectred-exploration:sapphire_helmet>]);
 
-recipes.addShapeless(<techreborn:sapphirechestplate>,
-[<projectred-exploration:sapphire_chestplate>]);
-recipes.addShapeless(<projectred-exploration:sapphire_chestplate>,
-[<techreborn:sapphirechestplate>]);
+// recipes.addShapeless(<techreborn:sapphirechestplate>,
+// [<projectred-exploration:sapphire_chestplate>]);
+// recipes.addShapeless(<projectred-exploration:sapphire_chestplate>,
+// [<techreborn:sapphirechestplate>]);
 
-recipes.addShapeless(<projectred-exploration:sapphire_leggings>,
-[<techreborn:sapphireleggings>]);
-recipes.addShapeless(<techreborn:sapphireleggings>,
-[<projectred-exploration:sapphire_leggings>]);
+// recipes.addShapeless(<projectred-exploration:sapphire_leggings>,
+// [<techreborn:sapphireleggings>]);
+// recipes.addShapeless(<techreborn:sapphireleggings>,
+// [<projectred-exploration:sapphire_leggings>]);
 
-recipes.addShapeless(<techreborn:sapphireboots>,
-[<projectred-exploration:sapphire_boots>]);
-recipes.addShapeless(<projectred-exploration:sapphire_boots>,
-[<techreborn:sapphireboots>]);
+// recipes.addShapeless(<techreborn:sapphireboots>,
+// [<projectred-exploration:sapphire_boots>]);
+// recipes.addShapeless(<projectred-exploration:sapphire_boots>,
+// [<techreborn:sapphireboots>]);
 
 mods.nuclearcraft.melter.addRecipe([<twilightforest:knightmetal_ingot>, <fluid:knightmetal>*144]);
 mods.thermalexpansion.Crucible.addRecipe(<fluid:knightmetal>*144, <twilightforest:knightmetal_ingot>, 421);
@@ -597,8 +600,8 @@ recipes.addShapeless(<divinerpg:yellow_ender_sword>,
 [<divinerpg:yellow_diamond_chunk>, <ore:alltheEnderSwords>]);
 
 
-val brassoredict = <ore:ingotBrass>;
-brassoredict.remove(<thaumcraft:ingot:2>);
+// val brassoredict = <ore:ingotBrass>;
+// brassoredict.remove(<thaumcraft:ingot:2>);
 
 mods.nuclearcraft.manufactory.removeRecipeWithInput([<ore:ingotSilicon>]);
 mods.nuclearcraft.manufactory.addRecipe([<ore:ingotSilicon>, <appliedenergistics2:material:5>]);
@@ -650,8 +653,8 @@ tartariteore.add(<contenttweaker:tartarite_ore>);
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<techreborn:ingot:15>, <techreborn:dust:55>, <minecraft:sand>, 1000, <thermalfoundation:material:864>, 25);
 
-val brassnuggetore = <ore:nuggetBrass>;
-brassnuggetore.remove(<thaumcraft:nugget:8>);
+// val brassnuggetore = <ore:nuggetBrass>;
+// brassnuggetore.remove(<thaumcraft:nugget:8>);
 
 recipes.addShapeless(<extrautils2:endershard>*8,
 [<minecraft:ender_pearl>, <contenttweaker:better_glass_cutter>.reuse()]);
@@ -689,14 +692,14 @@ recipes.addShapeless(<bloodmagic:item_demon_crystal:4>,
 recipes.addShapeless(<minecraft:enchanted_book>,
 [<contenttweaker:ritual_mass_enchanting>]);
 
-recipes.remove(<ore:nuggetBrass>);
-recipes.remove(<thaumcraft:nugget:8>);
+// recipes.remove(<ore:nuggetBrass>);
+// recipes.remove(<thaumcraft:nugget:8>);
 
-recipes.addShapeless(<thaumcraft:nugget:8>*9,
-[<thaumcraft:ingot:2>]);
+// recipes.addShapeless(<thaumcraft:nugget:8>*9,
+// [<thaumcraft:ingot:2>]);
 
-recipes.addShapeless(<techreborn:nuggets:1>*9,
-[<ore:ingotBrass>]);
+// recipes.addShapeless(<techreborn:nuggets:1>*9,
+// [<ore:ingotBrass>]);
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<techreborn:ingot:15>*3, <thermalfoundation:material:865>, <techreborn:ore:8>, 4000, <thermalfoundation:material:864>, 75);
 mods.thermalexpansion.InductionSmelter.addRecipe(<techreborn:ingot:15>*3, <thermalfoundation:material:866>, <techreborn:ore:8>, 4000, <thermalfoundation:material:864>, 75);
@@ -842,3 +845,331 @@ recipes.addShapeless(<appliedenergistics2:material:18>,
 
 recipes.addShapeless(<abyssalcraft:psdl>, 
 [<abyssalcraft:powerstonetracker>, <contenttweaker:abyssal_wasteland_stronghold>]);
+
+recipes.addShaped(<materialpart:sednanite:ingot>, 
+[[<materialpart:sednanite:nugget>,<materialpart:sednanite:nugget>,<materialpart:sednanite:nugget>],
+[<materialpart:sednanite:nugget>,<materialpart:sednanite:nugget>,<materialpart:sednanite:nugget>],
+[<materialpart:sednanite:nugget>,<materialpart:sednanite:nugget>,<materialpart:sednanite:nugget>]]);
+
+
+
+recipes.addShapeless(<astralsorcery:itemcelestialcrystal>,
+[<contenttweaker:making_unattuned_celestial_crystals>,
+<astralsorcery:itemrockcrystalsimple>,
+<ore:dustAstralStarmetal>,
+<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})]);
+
+recipes.addShapeless(<astralsorcery:itemcelestialcrystal>,
+[<contenttweaker:farming_unattuned_celestial_crystals>,
+<astralsorcery:itemcelestialcrystal>,
+<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})]);
+
+recipes.addShapeless(<astralsorcery:itemcelestialcrystal>,
+[<contenttweaker:levelling_up_crystals>]);
+recipes.addShapeless(<astralsorcery:itemrockcrystalsimple>,
+[<contenttweaker:levelling_up_crystals>]);
+
+recipes.remove(<divinerpg:stained_glass8>);
+recipes.remove(<divinerpg:stained_glass7>);
+recipes.remove(<divinerpg:stained_glass6>);
+recipes.remove(<divinerpg:stained_glass5>);
+recipes.remove(<divinerpg:stained_glass4>);
+recipes.remove(<divinerpg:stained_glass3>);
+recipes.remove(<divinerpg:stained_glass2>);
+recipes.remove(<divinerpg:stained_glass>);
+
+recipes.addShapeless(<divinerpg:stained_glass>,
+[<divinerpg:marsine>,
+<minecraft:glass>]);
+
+recipes.addShapeless(<divinerpg:stained_glass2>*2,
+[<divinerpg:marsine>,
+<minecraft:glass>,
+<minecraft:glass>]);
+
+recipes.addShapeless(<divinerpg:stained_glass3>*3,
+[<divinerpg:marsine>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>]);
+
+recipes.addShapeless(<divinerpg:stained_glass4>*4,
+[<divinerpg:marsine>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>]);
+
+recipes.addShapeless(<divinerpg:stained_glass5>*5,
+[<divinerpg:marsine>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>]);
+
+recipes.addShapeless(<divinerpg:stained_glass6>*6,
+[<divinerpg:marsine>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>]);
+
+recipes.addShapeless(<divinerpg:stained_glass7>*7,
+[<divinerpg:marsine>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>]);
+
+recipes.addShapeless(<divinerpg:stained_glass8>*8,
+[<divinerpg:marsine>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>,
+<minecraft:glass>]);
+
+recipes.addShapeless(<bigreactors:ingotcyanite>,
+[<contenttweaker:yellorite_reactor>,
+<bigreactors:ingotyellorium>]);
+
+mods.nuclearcraft.infuser.addRecipe([<minecraft:diamond>, <fluid:redstone>*500, <redstonearsenal:material:160>]);
+
+
+recipes.remove(<projectred-exploration:sapphire_helmet>);
+recipes.remove(<projectred-exploration:sapphire_chestplate>);
+recipes.remove(<projectred-exploration:sapphire_leggings>);
+recipes.remove(<projectred-exploration:sapphire_boots>);
+
+recipes.addShaped(<projectred-exploration:sapphire_helmet>,
+[[null, null, null],
+[<ore:gemSapphire>, <ore:blockSapphire>, <ore:gemSapphire>],
+[<ore:gemSapphire>, null, <ore:gemSapphire>]]);
+
+recipes.addShaped(<projectred-exploration:sapphire_chestplate>,
+[[<ore:gemSapphire>, null, <ore:gemSapphire>],
+[<ore:gemSapphire>, <ore:blockSapphire>, <ore:gemSapphire>],
+[<ore:gemSapphire>, <ore:gemSapphire>, <ore:gemSapphire>]]);
+
+recipes.addShaped(<projectred-exploration:sapphire_leggings>,
+[[<ore:gemSapphire>, <ore:blockSapphire>, <ore:gemSapphire>],
+[<ore:gemSapphire>, null, <ore:gemSapphire>],
+[<ore:gemSapphire>, null, <ore:gemSapphire>]]);
+
+recipes.addShaped(<projectred-exploration:sapphire_boots>,
+[[<ore:blockSapphire>, null, <ore:blockSapphire>],
+[<ore:gemSapphire>, null, <ore:gemSapphire>],
+[null, null, null]]);
+
+recipes.remove(<projectred-exploration:ruby_helmet>);
+recipes.remove(<projectred-exploration:ruby_chestplate>);
+recipes.remove(<projectred-exploration:ruby_leggings>);
+recipes.remove(<projectred-exploration:ruby_boots>);
+
+recipes.addShaped(<projectred-exploration:ruby_helmet>,
+[[null, null, null],
+[<ore:gemRuby>, <ore:blockRuby>, <ore:gemRuby>],
+[<ore:gemRuby>, null, <ore:gemRuby>]]);
+
+recipes.addShaped(<projectred-exploration:ruby_chestplate>,
+[[<ore:gemRuby>, null, <ore:gemRuby>],
+[<ore:gemRuby>, <ore:blockRuby>, <ore:gemRuby>],
+[<ore:gemRuby>, <ore:gemRuby>, <ore:gemRuby>]]);
+
+recipes.addShaped(<projectred-exploration:ruby_leggings>,
+[[<ore:gemRuby>, <ore:blockRuby>, <ore:gemRuby>],
+[<ore:gemRuby>, null, <ore:gemRuby>],
+[<ore:gemRuby>, null, <ore:gemRuby>]]);
+
+recipes.addShaped(<projectred-exploration:ruby_boots>,
+[[<ore:blockRuby>, null, <ore:blockRuby>],
+[<ore:gemRuby>, null, <ore:gemRuby>],
+[null, null, null]]);
+
+recipes.remove(<projectred-exploration:peridot_helmet>);
+recipes.remove(<projectred-exploration:peridot_chestplate>);
+recipes.remove(<projectred-exploration:peridot_leggings>);
+recipes.remove(<projectred-exploration:peridot_boots>);
+
+recipes.addShaped(<projectred-exploration:peridot_helmet>,
+[[null, null, null],
+[<ore:gemPeridot>, <ore:blockPeridot>, <ore:gemPeridot>],
+[<ore:gemPeridot>, null, <ore:gemPeridot>]]);
+
+recipes.addShaped(<projectred-exploration:peridot_chestplate>,
+[[<ore:gemPeridot>, null, <ore:gemPeridot>],
+[<ore:gemPeridot>, <ore:blockPeridot>, <ore:gemPeridot>],
+[<ore:gemPeridot>, <ore:gemPeridot>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<projectred-exploration:peridot_leggings>,
+[[<ore:gemPeridot>, <ore:blockPeridot>, <ore:gemPeridot>],
+[<ore:gemPeridot>, null, <ore:gemPeridot>],
+[<ore:gemPeridot>, null, <ore:gemPeridot>]]);
+
+recipes.addShaped(<projectred-exploration:peridot_boots>,
+[[<ore:blockPeridot>, null, <ore:blockPeridot>],
+[<ore:gemPeridot>, null, <ore:gemPeridot>],
+[null, null, null]]);
+
+
+
+recipes.remove(<techreborn:bronzehelmet>);
+recipes.remove(<techreborn:bronzechestplate>);
+recipes.remove(<techreborn:bronzeleggings>);
+recipes.remove(<techreborn:bronzeboots>);
+
+recipes.addShaped(<techreborn:bronzehelmet>,
+[[null, null, null],
+[<ore:ingotBronze>, <ore:nuggetBronze>, <ore:ingotBronze>],
+[<ore:ingotBronze>, null, <ore:ingotBronze>]]);
+
+recipes.addShaped(<techreborn:bronzechestplate>,
+[[<ore:ingotBronze>, null, <ore:ingotBronze>],
+[<ore:ingotBronze>, <ore:nuggetBronze>, <ore:ingotBronze>],
+[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]]);
+
+recipes.addShaped(<techreborn:bronzeleggings>,
+[[<ore:ingotBronze>, <ore:nuggetBronze>, <ore:ingotBronze>],
+[<ore:ingotBronze>, null, <ore:ingotBronze>],
+[<ore:ingotBronze>, null, <ore:ingotBronze>]]);
+
+recipes.addShaped(<techreborn:bronzeboots>,
+[[<ore:nuggetBronze>, null, <ore:nuggetBronze>],
+[<ore:ingotBronze>, null, <ore:ingotBronze>],
+[null, null, null]]);
+
+
+
+recipes.addShaped(<cyclicmagic:emerald_helmet>,
+[[<ore:gemEmerald>, null, <ore:gemEmerald>],
+[<ore:gemEmerald>, <ore:gemEmerald>, <ore:gemEmerald>],
+[null, null, null]]);
+
+recipes.addShaped(<cyclicmagic:emerald_chestplate>,
+[[<ore:gemEmerald>, <ore:gemEmerald>, <ore:gemEmerald>],
+[<ore:gemEmerald>, <ore:gemEmerald>, <ore:gemEmerald>],
+[<ore:gemEmerald>, null, <ore:gemEmerald>]]);
+
+recipes.addShaped(<cyclicmagic:emerald_leggings>,
+[[<ore:gemEmerald>, null, <ore:gemEmerald>],
+[<ore:gemEmerald>, null, <ore:gemEmerald>],
+[<ore:gemEmerald>, <ore:gemEmerald>, <ore:gemEmerald>]]);
+
+recipes.addShaped(<cyclicmagic:emerald_boots>,
+[[null, <ore:gemEmerald>, <ore:gemEmerald>],
+[null, null, null],
+[null, <ore:gemEmerald>, <ore:gemEmerald>]]);
+
+
+recipes.addShapeless(<astralsorcery:itemperkgem:0>,
+[<contenttweaker:making_dynamism_gems>,
+<astralsorcery:itemrockcrystalsimple>,
+<minecraft:glowstone>,
+<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})]);
+
+recipes.addShapeless(<astralsorcery:itemperkgem:1>,
+[<contenttweaker:making_dynamism_gems>,
+<astralsorcery:itemrockcrystalsimple>,
+<minecraft:glowstone>,
+<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})]);
+
+recipes.addShapeless(<astralsorcery:itemperkgem:2>,
+[<contenttweaker:making_dynamism_gems>,
+<astralsorcery:itemrockcrystalsimple>,
+<minecraft:glowstone>,
+<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})]);
+
+
+
+val redalloyoredict = <ore:ingotRedAlloy>;
+redalloyoredict.add(<enderio:item_alloy_ingot:3>);
+
+
+
+recipes.remove(<bewitchment:silver_helmet>);
+recipes.remove(<bewitchment:silver_chestplate>);
+recipes.remove(<bewitchment:silver_leggings>);
+recipes.remove(<bewitchment:silver_boots>);
+
+recipes.addShaped(<bewitchment:silver_helmet>,
+[[null, null, null],
+[<ore:ingotSilver>, null, <ore:ingotSilver>],
+[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]]);
+
+recipes.addShaped(<bewitchment:silver_chestplate>,
+[[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>],
+[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>],
+[<ore:ingotSilver>, null, <ore:ingotSilver>]]);
+
+recipes.addShaped(<bewitchment:silver_leggings>,
+[[<ore:ingotSilver>, null, <ore:ingotSilver>],
+[<ore:ingotSilver>, null, <ore:ingotSilver>],
+[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]]);
+
+recipes.addShaped(<bewitchment:silver_boots>,
+[[null, <ore:ingotSilver>, <ore:ingotSilver>],
+[null, null, null],
+[null, <ore:ingotSilver>, <ore:ingotSilver>]]);
+
+
+recipes.addShapeless(<thaumcraft:crucible>,
+[<contenttweaker:flux_basics>]);
+
+recipes.addShapeless(<thaumcraft:crucible>,
+[<contenttweaker:remove_flux>, <thaumcraft:condenser>, <thaumadditions:puriflower>, <contenttweaker:eldritch_will_ritual>]);
+
+recipes.addShapeless(<thaumcraft:smelter_basic>,
+[<contenttweaker:flux_basics>]);
+
+recipes.addShapeless(<thaumcraft:smelter_basic>,
+[<contenttweaker:remove_flux>, <thaumcraft:condenser>, <thaumadditions:puriflower>, <contenttweaker:eldritch_will_ritual>]);
+
+recipes.addShapeless(<thaumcraft:arcane_workbench>,
+[<contenttweaker:aura_basics>]);
+
+recipes.addShapeless(<thaumcraft:arcane_workbench>,
+[<contenttweaker:thaumcraft_research>, 
+<thaumcraft:scribing_tools>,
+<thaumcraft:table_wood>]);
+
+recipes.addShapeless(<thaumcraft:crucible>,
+[<contenttweaker:warp_basics>]);
+
+recipes.addShapeless(<thaumcraft:infusion_matrix>,
+[<contenttweaker:warp_basics>]);
+
+recipes.addShapeless(<abyssalcraft:shoggothflesh:0>,
+[<contenttweaker:warp_basics>]);
+
+recipes.addShapeless(<thaumcraft:infusion_matrix>,
+[<contenttweaker:essentia_management>]);
+
+recipes.addShapeless(<thaumcraft:phial>,
+[<contenttweaker:essentia_management>]);
+
+recipes.addShapeless(<thaumcraft:jar_normal>,
+[<contenttweaker:essentia_management>]);
+
+recipes.addShapeless(<thaumcraft:tube>,
+[<contenttweaker:essentia_management>]);
+
+recipes.addShapeless(<thaumcraft:essentia_input>,
+[<contenttweaker:essentia_management>]);
+
+recipes.addShapeless(<thaumcraft:essentia_output>,
+[<contenttweaker:essentia_management>]);
+
+
+recipes.addShapeless(<thaumcraft:crucible>,
+[<contenttweaker:crucible_automation>]);
+
+

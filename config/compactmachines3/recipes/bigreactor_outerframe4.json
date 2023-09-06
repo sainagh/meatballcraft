@@ -1,0 +1,242 @@
+{
+    "name": "compactmachines3:bigreactor_outerframe4",
+    "target-item": "bigreactors:reactorcontroller",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "bigreactors:reactorcasing",
+        "meta": 0,
+        "item": {
+            "id": "bigreactors:reactorcasing",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "bigreactors:reactorglass",
+        "meta": 0,
+        "item": {
+            "id": "bigreactors:reactorglass",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "bigreactors:reactorcontroller",
+        "meta": 0,
+        "item": {
+            "id": "bigreactors:reactorcontroller",
+            "count": 1
+          }
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{id:\"bigreactors:tileentityreactorpart\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+      },
+      "b:A": {
+        "nbt": "{id:\"bigreactors:tileentityreactorglass\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+      },
+      "c:A": {
+        "nbt": "{id:\"bigreactors:tileentityreactorcontroller\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+      },
+      "a:B": {
+        "nbt": "{id:\"bigreactors:tileentityreactorpart\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},multiblockData:{reactorActive:0b,heat:0.0f,fuelHeat:0.0f,storedEnergy:0.0f,wasteEjection2:0,fuelContainer:{fuelUsage:0.0f},radiation:{fertility:1.0f},coolantContainer:{}}}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "a:A",
+          "b:A",
+          "b:A",
+          "b:A",
+          "a:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "a:A",
+          "b:A",
+          "b:A",
+          "b:A",
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "a:A",
+          "b:A",
+          "b:A",
+          "b:A",
+          "a:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "a:A",
+          "b:A",
+          "b:A",
+          "b:A",
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "a:A",
+          "b:A",
+          "c:A",
+          "b:A",
+          "a:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "a:A",
+          "b:A",
+          "b:A",
+          "b:A",
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "a:B",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ]
+      ]
+    ]
+      
+}

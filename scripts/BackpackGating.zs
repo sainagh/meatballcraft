@@ -59,5 +59,5 @@ recipes.removeShaped(<thermalexpansion:satchel:0>);
 
 recipes.addShaped(<thermalexpansion:satchel:0>,
 [[<ore:ingotLead>, <projectred-core:resource_item:420>, <ore:ingotLead>],
-[<projectred-core:resource_item:420>, <projectred-exploration:backpack>, <projectred-core:resource_item:420>],
+[<projectred-core:resource_item:420>, <projectred-core:resource_item:420>, <projectred-core:resource_item:420>],
 [<ore:ingotLead>, <projectred-core:resource_item:420>, <ore:ingotLead>]]);

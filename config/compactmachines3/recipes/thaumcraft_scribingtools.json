@@ -1,0 +1,46 @@
+{
+    "name": "compactmachines3:thaumcraft_scribingtools",
+    "target-item": "thaumcraft:table_wood",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:tripwire",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:scribing_tools",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "thaumcraft:table_wood",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:table_wood",
+            "count": 1
+          }
+      }
+    },
+    "shape": [
+      [
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "b"
+        ]
+      ]
+    ]
+          
+}

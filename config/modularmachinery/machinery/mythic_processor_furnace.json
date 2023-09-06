@@ -2,6 +2,27 @@
     "registryname": "mythic_processor_furnace",
     "localizedname": "Mythic Processor: Furnace",
 	"color": "464f47",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:mythic_coil_t2@0",
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "description": "Multiplies amounts processed by 16",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -1,
@@ -80,7 +101,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockinputbus"
+                "generalized_input_item"
             ]
         },
         {
@@ -152,7 +173,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "modularmachinery:blockoutputbus"
+                "generalized_output_item"
             ]
         },
         {

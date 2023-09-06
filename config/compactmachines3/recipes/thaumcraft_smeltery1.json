@@ -1,0 +1,48 @@
+{
+    "name": "compactmachines3:thaumcraft_smeltery1",
+    "target-item": "thaumcraft:smelter_thaumium",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+
+
+    "input-types": {
+      "a": {
+        "id": "thaumcraft:alembic",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:alembic",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "thaumcraft:smelter_thaumium",
+        "meta": 11,
+        "item": {
+            "id": "thaumcraft:smelter_thaumium",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "b"
+        ]
+      ]
+    ]
+           
+}

@@ -1,0 +1,47 @@
+{
+    "name": "compactmachines3:bloodmagic_howtoritual0",
+    "target-item": "bloodmagic:ritual_controller",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:tripwire",
+        "meta": 0,
+        "item": {
+            "id": "bloodmagic:ritual_diviner",
+            "meta": 0,
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "bloodmagic:ritual_controller",
+        "meta": 0,
+        "item": {
+            "id": "bloodmagic:ritual_controller",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "b:A"
+        ]
+      ]
+    ]
+          
+}

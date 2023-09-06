@@ -1,0 +1,121 @@
+{
+    "name": "compactmachines3:foregoing_cropsetup2",
+    "target-item": "industrialforegoing:crop_recolector",
+    "target-meta": 6,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+    "input-types": {
+      "a": {
+        "id": "agricraft:crop",
+        "meta": 0,
+        "item": {
+            "id": "agricraft:crop_sticks",
+            "count": 8
+          }
+      },
+      "b": {
+        "id": "minecraft:farmland",
+        "meta": 7,
+        "item": {
+            "id": "minecraft:farmland",
+            "count": 8
+          }
+      },
+      "c": {
+        "id": "minecraft:dirt",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:efficient_crop_setup",
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "industrialforegoing:crop_recolector",
+        "meta": 3,
+        "item": {
+            "id": "industrialforegoing:crop_recolector",
+            "count": 1
+          }
+      },
+      "e": {
+        "id": "minecraft:water",
+        "meta": 0
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "_",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "_",
+          "d",
+          "_"
+        ]
+      ],
+      [
+        [
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "b",
+          "e",
+          "b"
+        ],
+        [
+          "b",
+          "b",
+          "b"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ]
+    ]
+      
+}

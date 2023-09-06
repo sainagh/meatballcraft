@@ -16,7 +16,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockoutputbus"
+                "generalized_output_item"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "bewitchment:gold_moloch_statue"
+                "contenttweaker:moloch_altar_stone"
             ]
         },
         {
@@ -56,7 +56,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "generalized_input_fluid"
             ]
         },
         {

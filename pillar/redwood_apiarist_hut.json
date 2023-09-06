@@ -22,8 +22,8 @@
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "",
-	"fillingMetadata": 0,
+	"filling": "biomesoplenty:log_2",
+	"fillingMetadata": 4,
 	"fillingType": "AIR",
 	
 	"rarity": 200

@@ -281,6 +281,14 @@
   },
 
   {
+    "dimension": 427,
+    "hostile": true,
+    "result": "default",
+    "multxp": 1.0,
+    "healthmultiply": 4.0
+  },
+
+  {
     "dimension": 50,
     "hostile": true,
     "result": "default",
@@ -1192,15 +1200,15 @@
 
 
   {
-    "mob": ["tehbetweenlands:dark_druid",
-        "tehbetweenlands:swamp_hag",
-        "tehbetweenlands:wight",
-        "tehbetweenlands:lurker",
-        "tehbetweenlands:peat_mummy",
+    "mob": ["thebetweenlands:dark_druid",
+        "thebetweenlands:swamp_hag",
+        "thebetweenlands:wight",
+        "thebetweenlands:lurker",
+        "thebetweenlands:peat_mummy",
         "aoa3:king_bambambam",
         "aoa3:nethengeic_wither",
-        "tehbetweenlands:chiromaw",
-        "tehbetweenlands:large_sludge_worm"],
+        "thebetweenlands:chiromaw",
+        "thebetweenlands:large_sludge_worm"],
         "onjoin": true,
         "result": "allow",
         "potion": ["minecraft:strength,999999,3",
@@ -1208,7 +1216,7 @@
         "minecraft:health_boost,999999,30", 
         "minecraft:absorption,999999,2", 
         "minecraft:fire_resistance,999999,1",
-        "minecraft:magic_resistance,999999,1",
+        "bewitchment:magic_resistance,999999,1",
         "minecraft:regeneration,999999,1"]
   },
 
@@ -1240,7 +1248,7 @@
       "minecraft:regeneration,250,255", 
       "minecraft:health_boost,999999,100", 
       "minecraft:fire_resistance,999999,1",
-      "minecraft:magic_resistance,999999,1",
+      "bewitchment:magic_resistance,999999,1",
       "minecraft:regeneration,999999,1"]
   },
 
@@ -1256,7 +1264,10 @@
       "aoa3:flash",
       "abyssalcraft:shadowboss",
       "aoa3:goldorth",
-      "aoa3:guardian",
+      "aoa3:yellow_guardian",
+      "aoa3:blue_guardian",
+      "aoa3:green_guardian",
+      "aoa3:red_guardian",
       "aoa3:hydrolisk",
       "aoa3:king_shroomus",
       "aoa3:kror",
@@ -1271,7 +1282,7 @@
       "minecraft:regeneration,50,255", 
       "minecraft:health_boost,999999,250", 
       "minecraft:fire_resistance,999999,1",
-      "minecraft:magic_resistance,999999,1",
+      "bewitchment:magic_resistance,999999,1",
       "minecraft:regeneration,999999,1"]
   },
 
@@ -1303,7 +1314,7 @@
     "speedmultiply": 1,
     "potion": ["minecraft:strength,999999,20", 
       "minecraft:fire_resistance,999999,1",
-      "minecraft:magic_resistance,999999,1",
+      "bewitchment:magic_resistance,999999,1",
       "minecraft:regeneration,999999,2"]
   },
 
@@ -1332,7 +1343,7 @@
     "result": "allow",
     "speedmultiply": 1,
     "potion": ["minecraft:strength,999999,2", 
-    "minecraft:magic_resistance,999999,2"]
+    "bewitchment:magic_resistance,999999,2"]
   },
 
 

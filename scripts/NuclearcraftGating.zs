@@ -145,6 +145,15 @@ recipes.removeShaped(<nuclearcraft:fusion_electromagnet_idle>);
 recipes.removeShaped(<nuclearcraft:fusion_electromagnet_transparent_idle>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:fusion_electromagnet_idle>, 
+[[<astralsorcery:itemcraftingcomponent:1>, null, <contenttweaker:better_red_coal>, <nuclearcraft:part:2>, <contenttweaker:better_red_coal>, null, <astralsorcery:itemcraftingcomponent:1>], 
+[null, <thaumcraft:mechanism_complex>, <nuclearcraft:alloy:1>, <bloodmagic:slate:2>, <nuclearcraft:alloy:1>, <thaumcraft:mechanism_complex>, null], 
+[<thebetweenlands:weeping_blue_petal>, <nuclearcraft:alloy:1>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:alloy:1>, <thebetweenlands:weeping_blue_petal>], 
+[<nuclearcraft:part:2>, <bloodmagic:slate:2>, <nuclearcraft:part:4>, <nuclearcraft:part:12>, <nuclearcraft:part:4>, <bloodmagic:slate:2>, <nuclearcraft:part:2>], 
+[<thebetweenlands:weeping_blue_petal>, <nuclearcraft:alloy:1>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:alloy:1>, <thebetweenlands:weeping_blue_petal>], 
+[null, <thaumcraft:mechanism_complex>, <nuclearcraft:alloy:1>, <bloodmagic:slate:2>, <nuclearcraft:alloy:1>, <thaumcraft:mechanism_complex>, null], 
+[<astralsorcery:itemcraftingcomponent:1>, null, <contenttweaker:better_red_coal>, <nuclearcraft:part:2>, <contenttweaker:better_red_coal>, null, <astralsorcery:itemcraftingcomponent:1>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:fusion_electromagnet_idle>, 
 [[<astralsorcery:itemcraftingcomponent:1>, null, <extrautils2:ingredients:4>, <nuclearcraft:part:2>, <extrautils2:ingredients:4>, null, <astralsorcery:itemcraftingcomponent:1>], 
 [null, <thaumcraft:mechanism_complex>, <nuclearcraft:alloy:1>, <bloodmagic:slate:2>, <nuclearcraft:alloy:1>, <thaumcraft:mechanism_complex>, null], 
 [<thebetweenlands:weeping_blue_petal>, <nuclearcraft:alloy:1>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:alloy:1>, <thebetweenlands:weeping_blue_petal>], 
@@ -152,6 +161,15 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:fusion_electromagnet
 [<thebetweenlands:weeping_blue_petal>, <nuclearcraft:alloy:1>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:alloy:1>, <thebetweenlands:weeping_blue_petal>], 
 [null, <thaumcraft:mechanism_complex>, <nuclearcraft:alloy:1>, <bloodmagic:slate:2>, <nuclearcraft:alloy:1>, <thaumcraft:mechanism_complex>, null], 
 [<astralsorcery:itemcraftingcomponent:1>, null, <extrautils2:ingredients:4>, <nuclearcraft:part:2>, <extrautils2:ingredients:4>, null, <astralsorcery:itemcraftingcomponent:1>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:fusion_electromagnet_idle>*4, 
+[[<contenttweaker:bifrost_gem>, null, <contenttweaker:better_red_coal>, <nuclearcraft:part:2>, <contenttweaker:better_red_coal>, null, <contenttweaker:bifrost_gem>], 
+[null, <thaumcraft:mechanism_complex>, <nuclearcraft:alloy:1>, <bloodmagic:slate:2>, <nuclearcraft:alloy:1>, <thaumcraft:mechanism_complex>, null], 
+[<thebetweenlands:weeping_blue_petal>, <nuclearcraft:alloy:1>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:alloy:1>, <thebetweenlands:weeping_blue_petal>], 
+[<nuclearcraft:part:2>, <bloodmagic:slate:2>, <nuclearcraft:part:4>, <nuclearcraft:part:12>, <nuclearcraft:part:4>, <bloodmagic:slate:2>, <nuclearcraft:part:2>], 
+[<thebetweenlands:weeping_blue_petal>, <nuclearcraft:alloy:1>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:alloy:1>, <thebetweenlands:weeping_blue_petal>], 
+[null, <thaumcraft:mechanism_complex>, <nuclearcraft:alloy:1>, <bloodmagic:slate:2>, <nuclearcraft:alloy:1>, <thaumcraft:mechanism_complex>, null], 
+[<contenttweaker:bifrost_gem>, null, <contenttweaker:better_red_coal>, <nuclearcraft:part:2>, <contenttweaker:better_red_coal>, null, <contenttweaker:bifrost_gem>]]);  
 
 mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:fusion_electromagnet_idle>*4, 
 [[<contenttweaker:bifrost_gem>, null, <extrautils2:ingredients:4>, <nuclearcraft:part:2>, <extrautils2:ingredients:4>, null, <contenttweaker:bifrost_gem>], 
@@ -651,21 +669,21 @@ recipes.addShaped(<nuclearcraft:buffer>*12,
 [<nuclearcraft:fission_block:0>, <contenttweaker:radioactive_residue>, <nuclearcraft:fission_block:0>]]);
 
 recipes.addShaped(<thermalfoundation:armor.helmet_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "Radiation-Absorbing Helmet"}}), 
-[[<nuclearcraft:rad_shielding:2>, <minecraft:golden_apple:1>, <nuclearcraft:rad_shielding:2>],
+[[<nuclearcraft:rad_shielding:2>, <contenttweaker:active_cursed_jewel>, <nuclearcraft:rad_shielding:2>],
 [<minecraft:golden_apple:1>, <thermalfoundation:armor.helmet_lead>, <minecraft:golden_apple:1>],
 [<nuclearcraft:rad_shielding:2>, <nuclearcraft:helm_hazmat>, <nuclearcraft:rad_shielding:2>]]);
 
 recipes.addShaped(<thermalfoundation:armor.plate_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "Radiation-Absorbing Chestplate"}}), 
-[[<nuclearcraft:rad_shielding:2>, <minecraft:golden_apple:1>, <nuclearcraft:rad_shielding:2>],
+[[<nuclearcraft:rad_shielding:2>, <contenttweaker:active_cursed_jewel>, <nuclearcraft:rad_shielding:2>],
 [<minecraft:golden_apple:1>, <thermalfoundation:armor.plate_lead>, <minecraft:golden_apple:1>],
 [<nuclearcraft:rad_shielding:2>, <nuclearcraft:chest_hazmat>, <nuclearcraft:rad_shielding:2>]]);
 
 recipes.addShaped(<thermalfoundation:armor.legs_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "Radiation-Absorbing Leggings"}}), 
-[[<nuclearcraft:rad_shielding:2>, <minecraft:golden_apple:1>, <nuclearcraft:rad_shielding:2>],
+[[<nuclearcraft:rad_shielding:2>, <contenttweaker:active_cursed_jewel>, <nuclearcraft:rad_shielding:2>],
 [<minecraft:golden_apple:1>, <thermalfoundation:armor.legs_lead>, <minecraft:golden_apple:1>],
 [<nuclearcraft:rad_shielding:2>, <nuclearcraft:legs_hazmat>, <nuclearcraft:rad_shielding:2>]]);
 
 recipes.addShaped(<thermalfoundation:armor.boots_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "Radiation-Absorbing Boots"}}), 
-[[<nuclearcraft:rad_shielding:2>, <minecraft:golden_apple:1>, <nuclearcraft:rad_shielding:2>],
+[[<nuclearcraft:rad_shielding:2>, <contenttweaker:active_cursed_jewel>, <nuclearcraft:rad_shielding:2>],
 [<minecraft:golden_apple:1>, <thermalfoundation:armor.boots_lead>, <minecraft:golden_apple:1>],
 [<nuclearcraft:rad_shielding:2>, <nuclearcraft:boots_hazmat>, <nuclearcraft:rad_shielding:2>]]);

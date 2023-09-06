@@ -1,7 +1,7 @@
 import mods.modularmachinery.RecipeBuilder;
 
 
-val cra1 = RecipeBuilder.newBuilder("cra1","sterilized_altar",1200);
+val cra1 = RecipeBuilder.newBuilder("cra1","sterilized_altar",400);
 cra1.addEnergyPerTickInput(1200);
 cra1.addFluidInput(<fluid:liquid_pe>*2000);
 cra1.addItemInput(<minecraft:book>*2);
@@ -10,7 +10,7 @@ cra1.addItemInput(<abyssalcraft:dreadshard>);
 cra1.addItemOutput(<abyssalcraft:scroll:2>);
 cra1.build();
 
-val cra2 = RecipeBuilder.newBuilder("cra2","sterilized_altar",1200);
+val cra2 = RecipeBuilder.newBuilder("cra2","sterilized_altar",400);
 cra2.addEnergyPerTickInput(1200);
 cra2.addFluidInput(<fluid:liquid_pe>*20000);
 cra2.addFluidInput(<fluid:liquid_lp>*2500);
@@ -22,7 +22,7 @@ cra2.addItemInput(<abyssalcraft:stone:7>);
 cra2.addItemOutput(<abyssalcraft:statue:0>);
 cra2.build();
 
-val cra3 = RecipeBuilder.newBuilder("cra3","sterilized_altar",1200);
+val cra3 = RecipeBuilder.newBuilder("cra3","sterilized_altar",400);
 cra3.addEnergyPerTickInput(1200);
 cra3.addFluidInput(<fluid:liquid_pe>*20000);
 cra3.addFluidInput(<fluid:liquid_lp>*2500);
@@ -34,7 +34,7 @@ cra3.addItemInput(<abyssalcraft:stone:7>);
 cra3.addItemOutput(<abyssalcraft:statue:1>);
 cra3.build();
 
-val cra4 = RecipeBuilder.newBuilder("cra4","sterilized_altar",1200);
+val cra4 = RecipeBuilder.newBuilder("cra4","sterilized_altar",400);
 cra4.addEnergyPerTickInput(1200);
 cra4.addFluidInput(<fluid:liquid_pe>*20000);
 cra4.addFluidInput(<fluid:liquid_lp>*2500);
@@ -46,7 +46,7 @@ cra4.addItemInput(<abyssalcraft:stone:7>);
 cra4.addItemOutput(<abyssalcraft:statue:2>);
 cra4.build();
 
-val cra5 = RecipeBuilder.newBuilder("cra5","sterilized_altar",1200);
+val cra5 = RecipeBuilder.newBuilder("cra5","sterilized_altar",400);
 cra5.addEnergyPerTickInput(1200);
 cra5.addFluidInput(<fluid:liquid_pe>*20000);
 cra5.addFluidInput(<fluid:liquid_lp>*2500);
@@ -62,7 +62,7 @@ cra5.addItemInput(<abyssalcraft:stone:7>);
 cra5.addItemOutput(<abyssalcraft:statue:3>);
 cra5.build();
 
-val cra6 = RecipeBuilder.newBuilder("cra6","sterilized_altar",1200);
+val cra6 = RecipeBuilder.newBuilder("cra6","sterilized_altar",400);
 cra6.addEnergyPerTickInput(1200);
 cra6.addFluidInput(<fluid:liquid_pe>*20000);
 cra6.addFluidInput(<fluid:liquid_lp>*2500);
@@ -74,7 +74,7 @@ cra6.addItemInput(<abyssalcraft:stone:7>);
 cra6.addItemOutput(<abyssalcraft:statue:4>);
 cra6.build();
 
-val cra7 = RecipeBuilder.newBuilder("cra7","sterilized_altar",1200);
+val cra7 = RecipeBuilder.newBuilder("cra7","sterilized_altar",400);
 cra7.addEnergyPerTickInput(1200);
 cra7.addFluidInput(<fluid:liquid_pe>*20000);
 cra7.addFluidInput(<fluid:liquid_lp>*2500);
@@ -86,7 +86,7 @@ cra7.addItemInput(<abyssalcraft:stone:7>);
 cra7.addItemOutput(<abyssalcraft:statue:5>);
 cra7.build();
 
-val cra8 = RecipeBuilder.newBuilder("cra8","sterilized_altar",1200);
+val cra8 = RecipeBuilder.newBuilder("cra8","sterilized_altar",400);
 cra8.addEnergyPerTickInput(1200);
 cra8.addFluidInput(<fluid:liquid_pe>*20000);
 cra8.addFluidInput(<fluid:liquid_lp>*2500);
@@ -98,7 +98,7 @@ cra8.addItemInput(<abyssalcraft:stone:7>);
 cra8.addItemOutput(<abyssalcraft:statue:6>);
 cra8.build();
 
-val cra9 = RecipeBuilder.newBuilder("cra9","sterilized_altar",1200);
+val cra9 = RecipeBuilder.newBuilder("cra9","sterilized_altar",400);
 cra9.addEnergyPerTickInput(1200);
 cra9.addFluidInput(<fluid:liquid_pe>*5000);
 cra9.addItemInput(<abyssalcraft:essence:1>*8);
@@ -106,7 +106,7 @@ cra9.addItemInput(<abyssalcraft:coraliumstone>);
 cra9.addItemOutput(<abyssalcraft:psdl>);
 cra9.build();
 
-val cra10 = RecipeBuilder.newBuilder("cra10","sterilized_altar",1200);
+val cra10 = RecipeBuilder.newBuilder("cra10","sterilized_altar",400);
 cra10.addEnergyPerTickInput(1200);
 cra10.addFluidInput(<fluid:liquid_pe>*300);
 cra10.addItemInput(<abyssalcraft:cpearl>);
@@ -116,7 +116,7 @@ cra10.addItemInput(<minecraft:blaze_powder>*4);
 cra10.addItemOutput(<abyssalcraft:transmutationgem>);
 cra10.build();
 
-val cra11 = RecipeBuilder.newBuilder("cra11","sterilized_altar",1200);
+val cra11 = RecipeBuilder.newBuilder("cra11","sterilized_altar",400);
 cra11.addEnergyPerTickInput(1200);
 cra11.addFluidInput(<fluid:liquid_pe>*5000);
 cra11.addFluidInput(<fluid:liquid_lp>*1000);
@@ -126,7 +126,7 @@ cra11.addItemInput(<minecraft:ender_eye>);
 cra11.addItemOutput(<abyssalcraft:oc>);
 cra11.build();
 
-val cra12 = RecipeBuilder.newBuilder("cra12","sterilized_altar",1200);
+val cra12 = RecipeBuilder.newBuilder("cra12","sterilized_altar",400);
 cra12.addEnergyPerTickInput(1200);
 cra12.addFluidInput(<fluid:liquid_pe>*1000);
 cra12.addItemInput(<abyssalcraft:oblivionshard>);
@@ -134,7 +134,7 @@ cra12.addItemInput(<minecraft:iron_bars>*8);
 cra12.addItemOutput(<abyssalcraft:interdimensionalcage>);
 cra12.build();
 
-val cra13 = RecipeBuilder.newBuilder("cra13","sterilized_altar",1200);
+val cra13 = RecipeBuilder.newBuilder("cra13","sterilized_altar",400);
 cra13.addEnergyPerTickInput(1200);
 cra13.addFluidInput(<fluid:liquid_pe>*1000);
 cra13.addFluidInput(<fluid:liquid_lp>*1000);
@@ -143,7 +143,7 @@ cra13.addItemInput(<abyssalcraft:lifecrystal>);
 cra13.addItemOutput(<abyssalcraft:ethaxiumingot>);
 cra13.build();
 
-val cra14 = RecipeBuilder.newBuilder("cra14","sterilized_altar",1200);
+val cra14 = RecipeBuilder.newBuilder("cra14","sterilized_altar",400);
 cra14.addEnergyPerTickInput(1200);
 cra14.addFluidInput(<fluid:liquid_pe>*400);
 cra14.addItemInput(<abyssalcraft:energypedestal>);
@@ -154,7 +154,7 @@ cra14.addItemInput(<minecraft:cobblestone>*2);
 cra14.addItemOutput(<abyssalcraft:tieredenergypedestal:0>);
 cra14.build();
 
-val cra15 = RecipeBuilder.newBuilder("cra15","sterilized_altar",1200);
+val cra15 = RecipeBuilder.newBuilder("cra15","sterilized_altar",400);
 cra15.addEnergyPerTickInput(1200);
 cra15.addFluidInput(<fluid:liquid_pe>*800);
 cra15.addItemInput(<abyssalcraft:tieredenergypedestal:0>);
@@ -165,7 +165,7 @@ cra15.addItemInput(<abyssalcraft:cstonebrick:0>*2);
 cra15.addItemOutput(<abyssalcraft:tieredenergypedestal:1>);
 cra15.build();
 
-val cra16 = RecipeBuilder.newBuilder("cra16","sterilized_altar",1200);
+val cra16 = RecipeBuilder.newBuilder("cra16","sterilized_altar",400);
 cra16.addEnergyPerTickInput(1200);
 cra16.addFluidInput(<fluid:liquid_pe>*1200);
 cra16.addFluidInput(<fluid:liquid_lp>*1000);
@@ -177,7 +177,7 @@ cra16.addItemInput(<abyssalcraft:dreadbrick:0>*2);
 cra16.addItemOutput(<abyssalcraft:tieredenergypedestal:2>);
 cra16.build();
 
-val cra17 = RecipeBuilder.newBuilder("cra17","sterilized_altar",1200);
+val cra17 = RecipeBuilder.newBuilder("cra17","sterilized_altar",400);
 cra17.addEnergyPerTickInput(1200);
 cra17.addFluidInput(<fluid:liquid_pe>*1600);
 cra17.addFluidInput(<fluid:liquid_lp>*1000);
@@ -189,7 +189,7 @@ cra17.addItemInput(<abyssalcraft:ethaxiumbrick:0>*2);
 cra17.addItemOutput(<abyssalcraft:tieredenergypedestal:3>);
 cra17.build();
 
-val cra18 = RecipeBuilder.newBuilder("cra18","sterilized_altar",1200);
+val cra18 = RecipeBuilder.newBuilder("cra18","sterilized_altar",400);
 cra18.addEnergyPerTickInput(1200);
 cra18.addFluidInput(<fluid:liquid_pe>*400);
 cra18.addItemInput(<abyssalcraft:sacrificialaltar>);
@@ -200,7 +200,7 @@ cra18.addItemInput(<minecraft:cobblestone>*2);
 cra18.addItemOutput(<abyssalcraft:tieredsacrificialaltar:0>);
 cra18.build();
 
-val cra19 = RecipeBuilder.newBuilder("cra19","sterilized_altar",1200);
+val cra19 = RecipeBuilder.newBuilder("cra19","sterilized_altar",400);
 cra19.addEnergyPerTickInput(1200);
 cra19.addFluidInput(<fluid:liquid_pe>*800);
 cra19.addItemInput(<abyssalcraft:tieredsacrificialaltar:0>);
@@ -211,7 +211,7 @@ cra19.addItemInput(<abyssalcraft:abybrick:0>*2);
 cra19.addItemOutput(<abyssalcraft:tieredsacrificialaltar:1>);
 cra19.build();
 
-val cra20 = RecipeBuilder.newBuilder("cra20","sterilized_altar",1200);
+val cra20 = RecipeBuilder.newBuilder("cra20","sterilized_altar",400);
 cra20.addEnergyPerTickInput(1200);
 cra20.addFluidInput(<fluid:liquid_pe>*1200);
 cra20.addFluidInput(<fluid:liquid_lp>*1000);
@@ -223,7 +223,7 @@ cra20.addItemInput(<abyssalcraft:dreadbrick:0>*2);
 cra20.addItemOutput(<abyssalcraft:tieredsacrificialaltar:2>);
 cra20.build();
 
-val cra21 = RecipeBuilder.newBuilder("cra21","sterilized_altar",1200);
+val cra21 = RecipeBuilder.newBuilder("cra21","sterilized_altar",400);
 cra21.addEnergyPerTickInput(1200);
 cra21.addFluidInput(<fluid:liquid_pe>*1600);
 cra21.addFluidInput(<fluid:liquid_lp>*1000);
@@ -235,7 +235,7 @@ cra21.addItemInput(<abyssalcraft:ethaxiumbrick:0>*2);
 cra21.addItemOutput(<abyssalcraft:tieredsacrificialaltar:3>);
 cra21.build();
 
-val cra22 = RecipeBuilder.newBuilder("cra22","sterilized_altar",1200);
+val cra22 = RecipeBuilder.newBuilder("cra22","sterilized_altar",400);
 cra22.addEnergyPerTickInput(100);
 cra22.addFluidInput(<fluid:liquid_pe>*100);
 cra22.addItemInput(<abyssalcraft:energypedestal>);
@@ -244,7 +244,7 @@ cra22.addItemInput(<abyssalcraft:shadowshard>*4);
 cra22.addItemOutput(<abyssalcraft:energycontainer>);
 cra22.build();
 
-val cra23 = RecipeBuilder.newBuilder("cra23","sterilized_altar",1200);
+val cra23 = RecipeBuilder.newBuilder("cra23","sterilized_altar",400);
 cra23.addEnergyPerTickInput(1200);
 cra23.addFluidInput(<fluid:liquid_pe>*400);
 cra23.addItemInput(<abyssalcraft:energycollector>);
@@ -255,7 +255,7 @@ cra23.addItemInput(<minecraft:cobblestone>*2);
 cra23.addItemOutput(<abyssalcraft:tieredenergycollector:0>);
 cra23.build();
 
-val cra24 = RecipeBuilder.newBuilder("cra24","sterilized_altar",1200);
+val cra24 = RecipeBuilder.newBuilder("cra24","sterilized_altar",400);
 cra24.addEnergyPerTickInput(1200);
 cra24.addFluidInput(<fluid:liquid_pe>*800);
 cra24.addItemInput(<abyssalcraft:tieredenergycollector:0>);
@@ -266,7 +266,7 @@ cra24.addItemInput(<abyssalcraft:abybrick:0>*2);
 cra24.addItemOutput(<abyssalcraft:tieredenergycollector:1>);
 cra24.build();
 
-val cra25 = RecipeBuilder.newBuilder("cra25","sterilized_altar",1200);
+val cra25 = RecipeBuilder.newBuilder("cra25","sterilized_altar",400);
 cra25.addEnergyPerTickInput(1200);
 cra25.addFluidInput(<fluid:liquid_pe>*1200);
 cra25.addFluidInput(<fluid:liquid_lp>*1000);
@@ -278,7 +278,7 @@ cra25.addItemInput(<abyssalcraft:dreadbrick:0>*2);
 cra25.addItemOutput(<abyssalcraft:tieredenergycollector:2>);
 cra25.build();
 
-val cra26 = RecipeBuilder.newBuilder("cra26","sterilized_altar",1200);
+val cra26 = RecipeBuilder.newBuilder("cra26","sterilized_altar",400);
 cra26.addEnergyPerTickInput(1200);
 cra26.addFluidInput(<fluid:liquid_pe>*1600);
 cra26.addFluidInput(<fluid:liquid_lp>*1000);
@@ -290,7 +290,7 @@ cra26.addItemInput(<abyssalcraft:ethaxiumbrick:0>*2);
 cra26.addItemOutput(<abyssalcraft:tieredenergycollector:3>);
 cra26.build();
 
-val cra27 = RecipeBuilder.newBuilder("cra27","sterilized_altar",1200);
+val cra27 = RecipeBuilder.newBuilder("cra27","sterilized_altar",400);
 cra27.addEnergyPerTickInput(1200);
 cra27.addFluidInput(<fluid:liquid_pe>*400);
 cra27.addItemInput(<abyssalcraft:energyrelay>);
@@ -301,7 +301,7 @@ cra27.addItemInput(<minecraft:cobblestone>*2);
 cra27.addItemOutput(<abyssalcraft:tieredenergyrelay:0>);
 cra27.build();
 
-val cra28 = RecipeBuilder.newBuilder("cra28","sterilized_altar",1200);
+val cra28 = RecipeBuilder.newBuilder("cra28","sterilized_altar",400);
 cra28.addEnergyPerTickInput(1200);
 cra28.addFluidInput(<fluid:liquid_pe>*800);
 cra28.addItemInput(<abyssalcraft:tieredenergyrelay:0>);
@@ -312,7 +312,7 @@ cra28.addItemInput(<abyssalcraft:cstonebrick:0>*2);
 cra28.addItemOutput(<abyssalcraft:tieredenergyrelay:1>);
 cra28.build();
 
-val cra29 = RecipeBuilder.newBuilder("cra29","sterilized_altar",1200);
+val cra29 = RecipeBuilder.newBuilder("cra29","sterilized_altar",400);
 cra29.addEnergyPerTickInput(1200);
 cra29.addFluidInput(<fluid:liquid_pe>*1200);
 cra29.addFluidInput(<fluid:liquid_lp>*1000);
@@ -324,7 +324,7 @@ cra29.addItemInput(<abyssalcraft:dreadbrick:0>*2);
 cra29.addItemOutput(<abyssalcraft:tieredenergyrelay:2>);
 cra29.build();
 
-val cra30 = RecipeBuilder.newBuilder("cra30","sterilized_altar",1200);
+val cra30 = RecipeBuilder.newBuilder("cra30","sterilized_altar",400);
 cra30.addEnergyPerTickInput(1200);
 cra30.addFluidInput(<fluid:liquid_pe>*1600);
 cra30.addFluidInput(<fluid:liquid_lp>*1000);
@@ -336,7 +336,7 @@ cra30.addItemInput(<abyssalcraft:darkethaxiumbrick:0>*2);
 cra30.addItemOutput(<abyssalcraft:tieredenergyrelay:3>);
 cra30.build();
 
-val cra31 = RecipeBuilder.newBuilder("cra31","sterilized_altar",1200);
+val cra31 = RecipeBuilder.newBuilder("cra31","sterilized_altar",400);
 cra31.addEnergyPerTickInput(1200);
 cra31.addFluidInput(<fluid:liquid_pe>*400);
 cra31.addItemInput(<abyssalcraft:energycontainer>);
@@ -347,7 +347,7 @@ cra31.addItemInput(<minecraft:cobblestone>*2);
 cra31.addItemOutput(<abyssalcraft:tieredenergycontainer:0>);
 cra31.build();
 
-val cra32 = RecipeBuilder.newBuilder("cra32","sterilized_altar",1200);
+val cra32 = RecipeBuilder.newBuilder("cra32","sterilized_altar",400);
 cra32.addEnergyPerTickInput(1200);
 cra32.addFluidInput(<fluid:liquid_pe>*800);
 cra32.addItemInput(<abyssalcraft:tieredenergycontainer:0>);
@@ -358,7 +358,7 @@ cra32.addItemInput(<abyssalcraft:cstonebrick:0>*2);
 cra32.addItemOutput(<abyssalcraft:tieredenergycontainer:1>);
 cra32.build();
 
-val cra33 = RecipeBuilder.newBuilder("cra33","sterilized_altar",1200);
+val cra33 = RecipeBuilder.newBuilder("cra33","sterilized_altar",400);
 cra33.addEnergyPerTickInput(1200);
 cra33.addFluidInput(<fluid:liquid_pe>*1200);
 cra33.addFluidInput(<fluid:liquid_lp>*1000);
@@ -370,7 +370,7 @@ cra33.addItemInput(<abyssalcraft:dreadbrick:0>*2);
 cra33.addItemOutput(<abyssalcraft:tieredenergycontainer:2>);
 cra33.build();
 
-val cra34 = RecipeBuilder.newBuilder("cra34","sterilized_altar",1200);
+val cra34 = RecipeBuilder.newBuilder("cra34","sterilized_altar",400);
 cra34.addEnergyPerTickInput(1200);
 cra34.addFluidInput(<fluid:liquid_pe>*1600);
 cra34.addFluidInput(<fluid:liquid_lp>*1000);
@@ -382,14 +382,14 @@ cra34.addItemInput(<abyssalcraft:ethaxiumbrick:0>*2);
 cra34.addItemOutput(<abyssalcraft:tieredenergycontainer:3>);
 cra34.build();
 
-val cra35 = RecipeBuilder.newBuilder("cra35","sterilized_altar",1200);
+val cra35 = RecipeBuilder.newBuilder("cra35","sterilized_altar",400);
 cra35.addEnergyPerTickInput(1200);
 cra35.addFluidInput(<fluid:liquid_pe>*100);
 cra35.addItemInput(<minecraft:book>*4);
 cra35.addItemOutput(<abyssalcraft:scroll:0>);
 cra35.build();
 
-val cra36 = RecipeBuilder.newBuilder("cra36","sterilized_altar",1200);
+val cra36 = RecipeBuilder.newBuilder("cra36","sterilized_altar",400);
 cra36.addEnergyPerTickInput(1200);
 cra36.addFluidInput(<fluid:liquid_pe>*1000);
 cra36.addItemInput(<minecraft:book>*2);

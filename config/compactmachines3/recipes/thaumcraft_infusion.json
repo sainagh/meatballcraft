@@ -31,7 +31,7 @@
         "id": "minecraft:wool",
         "meta": 15,
         "item": {
-            "id": "thaumcraft:caster_basic",
+            "id": "thaumcraft:salis_mundus",
             "count": 1
           }
       },

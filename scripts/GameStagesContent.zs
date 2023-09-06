@@ -132,3 +132,28 @@ mods.recipestages.Recipes.addShapeless("minor_vethea_binding", "MinorVetheaBindi
     <divinerpg:hyrewood_log>, <divinerpg:fire_crystal>,
     <divinerpg:fire_crystal>, <divinerpg:fire_crystal>
 ]);
+
+
+mods.nuclearcraft.radiation.setRadiationImmunityGameStages(false, ["radiationimmunity"]);
+
+recipes.addShaped(<contenttweaker:shungite_prism>,
+[[<contenttweaker:active_cursed_jewel>, <contenttweaker:shungite>, <contenttweaker:active_cursed_jewel>],
+[<contenttweaker:shungite>, <contenttweaker:shungite>, <contenttweaker:shungite>],
+[<contenttweaker:active_cursed_jewel>, <contenttweaker:sacred_cinders_seed>, <contenttweaker:active_cursed_jewel>]]);
+
+
+mods.recipestages.Recipes.addShaped("makebettergrandcrystals", "hardmode", <contenttweaker:grand_magician_callstone>, [
+    [<ebwizardry:large_mana_flask>, <ebwizardry:astral_diamond>, <ebwizardry:large_mana_flask>],
+    [<ebwizardry:astral_diamond>, <contenttweaker:nebulous_soul>, <ebwizardry:astral_diamond>],
+    [<ebwizardry:large_mana_flask>, <ebwizardry:astral_diamond>, <ebwizardry:large_mana_flask>]
+]);
+
+recipes.addHiddenShapeless("makethatanimatorboii",<contenttweaker:mark_of_the_arbiter>,
+[<contenttweaker:astral_animator>,
+]);
+
+mods.recipestages.Recipes.addShaped("ezpzwandsbbynos", "hardmode", <contenttweaker:rulers_of_terra_callstone>, [
+    [<appliedenergistics2:fluix_block>, <rftools:dimensional_shard>, <appliedenergistics2:fluix_block>],
+    [<rftools:dimensional_shard>, <contenttweaker:mark_of_the_arbiter>, <rftools:dimensional_shard>],
+    [<appliedenergistics2:fluix_block>, <rftools:dimensional_shard>, <appliedenergistics2:fluix_block>]
+]);

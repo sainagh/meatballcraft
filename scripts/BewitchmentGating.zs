@@ -102,3 +102,24 @@ recipes.addShapeless(<contenttweaker:demonic_elixir_bottle>,
 [<bewitchment:demonic_elixir>,<minecraft:glass_bottle>]);
 
 recipes.removeShaped(<bewitchment:cold_iron_plate>);
+
+
+recipes.addShaped(<contenttweaker:lilith_altar_stone>,
+[[<bewitchment:scorned_bricks>, <bewitchment:scorned_bricks>, <bewitchment:scorned_bricks>],
+[<bewitchment:scorned_bricks>, <bewitchment:scorned_brick_lilith_statue>, <bewitchment:scorned_bricks>],
+[<bewitchment:scorned_bricks>, <bewitchment:scorned_bricks>, <bewitchment:scorned_bricks>]]);
+
+recipes.addShaped(<contenttweaker:moloch_altar_stone>,
+[[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+[<ore:ingotGold>, <bewitchment:gold_moloch_statue>, <ore:ingotGold>],
+[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]);
+
+recipes.addShaped(<contenttweaker:baphomet_altar_stone>,
+[[<ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, <bewitchment:nether_brick_baphomet_statue>, <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>]]);
+
+recipes.addShaped(<contenttweaker:herne_altar_stone>,
+[[<ore:stone>, <ore:stone>, <ore:stone>],
+[<ore:stone>, <bewitchment:stone_herne_statue>, <ore:stone>],
+[<ore:stone>, <ore:stone>, <ore:stone>]]);

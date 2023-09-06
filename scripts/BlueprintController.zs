@@ -158,6 +158,9 @@ recipes.addShapeless(<modularmachinery:moloch_altar_controller>,
 recipes.addShapeless(<modularmachinery:essentia_solidifier_controller>, 
 [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:essentia_solidifier"}).reuse(), <modularmachinery:blockcontroller>]);
 
+recipes.addShapeless(<modularmachinery:mechanized_essentia_smeltery_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mechanized_essentia_smeltery"}).reuse(), <modularmachinery:blockcontroller>]);
+
 recipes.addShapeless(<modularmachinery:baphomet_altar_controller>, 
 [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:baphomet_altar"}).reuse(), <modularmachinery:blockcontroller>]);
 
@@ -367,3 +370,6 @@ recipes.addShapeless(<modularmachinery:me_mythic_assembler_controller>,
 
 recipes.addShapeless(<modularmachinery:quark_decomposer_controller>, 
 [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:quark_decomposer"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:enchanted_greenhouse_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:enchanted_greenhouse"}).reuse(), <modularmachinery:blockcontroller>]);

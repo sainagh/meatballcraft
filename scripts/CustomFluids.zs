@@ -643,3 +643,9 @@ recursiveexperience.register();
 
 var crystallizedobsidian = VanillaFactory.createFluid("crystallized_obsidian", Color.fromHex("302166"));
 crystallizedobsidian.register();
+
+var parafrosynium = VanillaFactory.createFluid("parafrosynium", Color.fromHex("6534d9"));
+parafrosynium.register();
+
+var psigem = VanillaFactory.createFluid("psigem", Color.fromHex("5f8cd4"));
+psigem.register();

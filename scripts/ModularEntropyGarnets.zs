@@ -38,6 +38,7 @@ mythassallofthem.addEnergyPerTickInput(5000000);
 mythassallofthem.addFluidInput(<fluid:resonating_matter>*800);
 mythassallofthem.addFluidInput(<fluid:recursive_life_essence>*800);
 mythassallofthem.addItemInput(<contenttweaker:recursion_fragment_terra>);
+mythassallofthem.addItemInput(<contenttweaker:dense_diamond_powder>);
 mythassallofthem.addItemOutput(<contenttweaker:precasia_garnet>*64);
 mythassallofthem.addItemOutput(<contenttweaker:abyss_garnet>*64);
 mythassallofthem.addItemOutput(<contenttweaker:lelyetia_garnet>*64);
@@ -134,3 +135,93 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:naquadah_catalyst>
 [<contenttweaker:rainbow_lens>, <contenttweaker:neutronium_casing>, <contenttweaker:rainbow_lens>, 
 <contenttweaker:brightsteel_case>, <contenttweaker:superconducting_mithril>, <contenttweaker:brightsteel_case>, 
 <contenttweaker:rainbow_lens>, <contenttweaker:neutronium_casing>, <contenttweaker:rainbow_lens>]]);  
+
+
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1001>, <contenttweaker:cut_abyss_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1002>, <contenttweaker:cut_precasia_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1003>, <contenttweaker:cut_barathos_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1004>, <contenttweaker:cut_creeponia_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1005>, <contenttweaker:cut_deeplands_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1006>, <contenttweaker:cut_lelyetia_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1007>, <contenttweaker:cut_candyland_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1008>, <contenttweaker:cut_celeve_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1009>, <contenttweaker:cut_crystevia_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1010>, <contenttweaker:cut_gardencia_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1011>, <contenttweaker:cut_haven_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1012>, <contenttweaker:cut_iromine_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1013>, <contenttweaker:cut_mysterium_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1014>, <contenttweaker:cut_voxponds_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1015>, <contenttweaker:cut_borean_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1016>, <contenttweaker:cut_runandor_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1017>, <contenttweaker:cut_lunalus_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1018>, <contenttweaker:cut_ancientcavern_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1019>, <contenttweaker:cut_dustopia_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1020>, <contenttweaker:cut_greckon_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1021>, <contenttweaker:cut_immortallis_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1022>, <contenttweaker:cut_vethea_garnet>, 20224, <extendedcrafting:material:11>, 5000000);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:shyre_wormhole>, 
+10000000, 
+<twilightforest:cinder_log>, [
+    <extendedcrafting:singularity_custom:1001>, 
+    <extendedcrafting:singularity_custom:1002>, 
+    <extendedcrafting:singularity_custom:1003>, 
+    <extendedcrafting:singularity_custom:1004>, 
+    <extendedcrafting:singularity_custom:1005>, 
+    <extendedcrafting:singularity_custom:1006>, 
+    <extendedcrafting:singularity_custom:1007>, 
+    <extendedcrafting:singularity_custom:1008>, 
+    <extendedcrafting:singularity_custom:1009>, 
+    <extendedcrafting:singularity_custom:1010>, 
+    <extendedcrafting:singularity_custom:1011>, 
+    <extendedcrafting:singularity_custom:1012>, 
+    <extendedcrafting:singularity_custom:1013>, 
+    <extendedcrafting:singularity_custom:1014>, 
+    <extendedcrafting:singularity_custom:1015>, 
+    <extendedcrafting:singularity_custom:1016>, 
+    <extendedcrafting:singularity_custom:1017>, 
+    <extendedcrafting:singularity_custom:1018>, 
+    <extendedcrafting:singularity_custom:1019>, 
+    <extendedcrafting:singularity_custom:1020>, 
+    <extendedcrafting:singularity_custom:1021>, 
+    <extendedcrafting:singularity_custom:1022>, 
+    <extendedcrafting:singularity_custom:1023>]);
+
+
+recipes.addShaped(<contenttweaker:recursion_fragment_shyre>,
+[[<contenttweaker:arkengem>, <contenttweaker:naquadah_ingot>, <contenttweaker:arkengem>], 
+[<contenttweaker:naquadah_ingot>, <contenttweaker:shyre_wormhole>, <contenttweaker:naquadah_ingot>], 
+[<contenttweaker:arkengem>, <contenttweaker:naquadah_ingot>, <contenttweaker:arkengem>]]);
+
+
+
+val mythasstrulyallofthem = RecipeBuilder.newBuilder("mythasstrulyallofthem","me_mythic_assembler",200);
+mythasstrulyallofthem.addEnergyPerTickInput(5000000);
+mythasstrulyallofthem.addFluidInput(<fluid:resonating_matter>*800);
+mythasstrulyallofthem.addFluidInput(<fluid:recursive_life_essence>*800);
+mythasstrulyallofthem.addItemInput(<contenttweaker:recursion_fragment_terra>);
+mythasstrulyallofthem.addItemInput(<contenttweaker:imperial_diamond_powder>);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:precasia_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:abyss_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:lelyetia_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:barathos_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:creeponia_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:deeplands_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:vox_ponds_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:mysterium_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:iromine_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:haven_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:candyland_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:crystevia_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:gardencia_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:celeve_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:borean_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:lunalus_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:runandor_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:ancient_cavern_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:immortallis_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:greckon_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:dustopia_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:vethea_garnet>*64);
+mythasstrulyallofthem.addItemOutput(<contenttweaker:shyrelands_garnet>*64);
+mythasstrulyallofthem.build();

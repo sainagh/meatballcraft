@@ -341,7 +341,7 @@ bettergaiaguardianloot.addItemEntry(<contenttweaker:greater_gaia_spirit>, 5);
 
 val questingramgood = LootTweaker.getTable("twilightforest:entities/questing_ram_rewards");
 val questingramgoodfading = questingramgood.addPool("questingramgoodfading", 1, 2, 1, 1);
-questingramgoodfading.addItemEntry(<projectex:matter:13>, 5);
+questingramgoodfading.addItemEntry(<contenttweaker:fading_wool>, 5);
 
 val cadillion = LootTweaker.getTable("divinerpg:entities/eden/eden_cadillion");
 val cadillionbloodmaster = cadillion.addPool("cadillionbloodmaster", 1, 2, 1, 1);
@@ -388,6 +388,7 @@ netherfortressspecial.addItemEntry(<abyssalcraft:coraliumore>*2, 10);
 netherfortressspecial.addItemEntry(<thermalfoundation:material:131>, 10);
 netherfortressspecial.addItemEntry(<thermalfoundation:material:130>, 15);
 netherfortressspecial.addItemEntry(<bewitchment:snake_venom>, 20);
+netherfortressspecial.addItemEntry(<randomthings:lavawader>, 2);
 
 val endcity = LootTweaker.getTable("minecraft:chests/end_city_treasure");
 val endcityspecial = endcity.addPool("endcityspecial", 1, 2, 1, 1);
@@ -405,6 +406,12 @@ val vanilladungeon = LootTweaker.getTable("minecraft:chests/simple_dungeon");
 val vanilladungeonmbc = vanilladungeon.addPool("vanilladungeonmbc", 1, 1, 0, 0);
 vanilladungeonmbc.addItemEntry(<thermalfoundation:material:131>, 15);
 vanilladungeonmbc.addItemEntry(<thermalfoundation:material:130>, 15);
+vanilladungeonmbc.addItemEntry(<randomthings:waterwalkingboots>, 3);
+
+val vanillastronghold = LootTweaker.getTable("minecraft:chests/stronghold_corridor");
+val vanillastrongholdmbc = vanillastronghold.addPool("vanillastrongholdmbc", 1, 1, 0, 0);
+vanillastrongholdmbc.addItemEntry(<randomthings:obsidianwaterwalkingboots>, 5);
+vanillastrongholdmbc.addItemEntry(<randomthings:superlubricentboots>, 6);
 
 val lelycaster = LootTweaker.getTable("aoa3:entities/mobs/lelyetia/lelyetian_caster");
 val lelycasterspores = lelycaster.addPool("lelycasterspores", 1, 1, 0, 0);
@@ -420,3 +427,11 @@ val amphibiyte = LootTweaker.getTable("aoa3:entities/mobs/overworld/amphibiyte")
 val amphibiytegoodies = amphibiyte.addPool("amphibiytegoodies", 1, 1, 0, 0);
 amphibiytegoodies.addItemEntry(<contenttweaker:heart_stone>, 15);
 amphibiytegoodies.addItemEntry(<contenttweaker:bloodlust_coin>, 15);
+
+val bonecreeper = LootTweaker.getTable("aoa3:entities/mobs/creeponia/bone_creeper");
+val bonecreepergunpow = bonecreeper.addPool("bonecreepergunpow", 1, 1, 0, 0);
+bonecreepergunpow.addItemEntry(<aoa3:unstable_gunpowder>, 15);
+
+val zombievanilla = LootTweaker.getTable("minecraft:entities/zombie");
+val zombievanillaextra = zombievanilla.addPool("zombievanillaextra", 1, 1, 0, 0);
+zombievanillaextra.addItemEntry(<tombstone:crafting_ingredient:3>, 15);

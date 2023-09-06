@@ -71,3 +71,10 @@ infinityfurnaceneutrino.addFluidInput(<fluid:dense_plasma>*16000);
 infinityfurnaceneutrino.addItemInput(<avaritia:resource:4>);
 infinityfurnaceneutrino.addItemOutput(<contenttweaker:plasmatic_neutronium_ingot>);
 infinityfurnaceneutrino.build();
+
+val infinityfurnaceezshyregarnet = RecipeBuilder.newBuilder("infinityfurnaceezshyregarnet","infinity_furnace",200);
+infinityfurnaceezshyregarnet.addFluidInput(<fluid:dense_plasma>*4000);
+infinityfurnaceezshyregarnet.addItemInput(<contenttweaker:recursion_fragment_shyre>);
+infinityfurnaceezshyregarnet.addItemInput(<contenttweaker:dense_diamond_powder>);
+infinityfurnaceezshyregarnet.addItemOutput(<contenttweaker:imperial_diamond_powder>);
+infinityfurnaceezshyregarnet.build();

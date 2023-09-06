@@ -386,3 +386,18 @@ recipes.addShaped(<projecte:item.pe_archangel_smite>,
 [[<minecraft:bow>, <ore:feather>, <minecraft:bow>],
 [<contenttweaker:bright_matter>, <projecte:item.pe_ring_iron_band>, <contenttweaker:bright_matter>],
 [<minecraft:bow>, <ore:feather>, <minecraft:bow>]]);
+
+
+recipes.remove(<projecte:dm_furnace>);
+
+recipes.addShaped(<projecte:dm_furnace>,
+[[<projecte:matter_block:0>, <projecte:matter_block:0>, <projecte:matter_block:0>],
+[<projecte:matter_block:0>, <minecraft:furnace>, <projecte:matter_block:0>],
+[<projecte:matter_block:0>, <contenttweaker:furnace_heart>, <projecte:matter_block:0>]]);
+
+recipes.remove(<projectex:knowledge_sharing_book>);
+
+recipes.addShaped(<projectex:knowledge_sharing_book>,
+[[<projecte:item.pe_matter:0>, <projecte:item.pe_fuel:2>, <projecte:item.pe_matter:0>],
+[<projecte:item.pe_fuel:2>, <minecraft:writable_book>, <projecte:item.pe_fuel:2>],
+[<projecte:item.pe_matter:0>, <projecte:item.pe_fuel:2>, <projecte:item.pe_matter:0>]]);

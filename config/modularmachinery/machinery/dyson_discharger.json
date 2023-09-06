@@ -8,7 +8,7 @@
             "y": -4,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "generalized_input_item"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockoutputbus@0"
+                "generalized_output_item"
             ]
         },
         {

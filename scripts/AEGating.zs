@@ -337,7 +337,6 @@ Inscriber.addRecipe(<appliedenergistics2:material:59>,
 
 
 
-// summon iceandfire:dread_knight ~ ~8 ~ {HandItems:[{Count:1,id:"aoa3:shadow_sword"},{Count:1,id:"contenttweaker:medal_of_freedom"}],HandDropChances:[1.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:300.0}],Health:10000f,CustomName:"Shade of the Meatball Man"}
 
 recipes.remove(<extracells:terminal.fluid.wireless>);
 recipes.remove(<extracells:terminal.universal.wireless>);
@@ -349,3 +348,11 @@ recipes.addShapeless(<aenetvistool:net_visualizer>,
 
 recipes.addShapeless(<ae2stuff:visualiser>,
 [<aenetvistool:net_visualizer>]);
+
+
+recipes.remove(<ae2fc:fluid_level_maintainer>);
+
+recipes.addShaped(<ae2fc:fluid_level_maintainer>, 
+[[<threng:material:0>, <appliedenergistics2:part:281>, <threng:material:0>],
+[<appliedenergistics2:material:24>, <appliedenergistics2:crafting_monitor>, <appliedenergistics2:material:24>],
+[<threng:material:0>, <ore:dyeBlue>, <threng:material:0>]]);

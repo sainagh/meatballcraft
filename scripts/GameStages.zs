@@ -138,3 +138,11 @@ forgetfulserum.itemRightClick = function(stack, world, player, hand) {
 	return "Pass";
 };
 forgetfulserum.register();
+
+var shungiteprism = VanillaFactory.createItem("shungite_prism");
+shungiteprism.maxStackSize = 64;
+shungiteprism.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("gamestage add @p radiationimmunity", player, world, true, true);
+	return "Pass";
+};
+shungiteprism.register();

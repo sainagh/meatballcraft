@@ -386,3 +386,35 @@ recipes.addShapeless(<modularmachinery:blockfluidinputhatch:7>,
 [<modularmachinery:blockfluidoutputhatch:7>]);
 recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:7>,
 [<modularmachinery:blockfluidinputhatch:7>]);
+
+
+
+recipes.addShaped(<modularmachinery:blockmeiteminputbus>,
+[[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>],
+[<appliedenergistics2:interface>, <modularmachinery:blockinputbus:5>, <appliedenergistics2:interface>],
+[<modularmachinery:itemmodularium>, <appliedenergistics2:material:47>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachinery:blockmeitemoutputbus>,
+[[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>],
+[<appliedenergistics2:interface>, <modularmachinery:blockoutputbus:5>, <appliedenergistics2:interface>],
+[<modularmachinery:itemmodularium>, <appliedenergistics2:material:47>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShapeless(<modularmachinery:blockmeiteminputbus>,
+[<modularmachinery:blockmeitemoutputbus>]);
+recipes.addShapeless(<modularmachinery:blockmeitemoutputbus>,
+[<modularmachinery:blockmeiteminputbus>]);
+
+recipes.addShaped(<modularmachinery:blockmefluidinputbus>,
+[[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>],
+[<appliedenergistics2:fluid_interface>, <modularmachinery:blockfluidinputhatch:5>, <appliedenergistics2:fluid_interface>],
+[<modularmachinery:itemmodularium>, <appliedenergistics2:material:47>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachinery:blockmefluidoutputbus>,
+[[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>],
+[<appliedenergistics2:fluid_interface>, <modularmachinery:blockfluidoutputhatch:5>, <appliedenergistics2:fluid_interface>],
+[<modularmachinery:itemmodularium>, <appliedenergistics2:material:47>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShapeless(<modularmachinery:blockmefluidoutputbus>,
+[<modularmachinery:blockmefluidinputbus>]);
+recipes.addShapeless(<modularmachinery:blockmefluidinputbus>,
+[<modularmachinery:blockmefluidoutputbus>]);

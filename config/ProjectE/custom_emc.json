@@ -3694,7 +3694,7 @@
     },
     {
       "item": "projectex:knowledge_sharing_book|0",
-      "emc": 0
+      "emc": 333333
     },
     {
       "item": "minecraft:sandstone|0",
@@ -6855,6 +6855,770 @@
     {
       "item": "storagedrawers:quantify_key|0",
       "emc": 16
+    },
+    {
+      "item": "thaumadditions:vis_seeds/aversio|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/victus|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/vinculum|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/visum|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/exanimis|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/sol|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/praecantatio|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/diabolus|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/exitium|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/mortuus|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/luna|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/vitreus|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/bestia|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/terra|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/vitium|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/potentia|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/sensus|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/praemunio|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/desiderium|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/aqua|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/tenebrae|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/lux|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/dreadia|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/coralos|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/stellae|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/machina|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/cognitio|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/motus|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/metallum|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/instrumentum|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/fluctus|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/fabrico|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/ordo|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/alienis|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/alkimia|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/perditio|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/imperium|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/volatus|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/gelum|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/draco|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/aer|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/vacuos|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/herba|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/ignis|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/auram|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/ventus|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/sonus|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/caeles|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/permutatio|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/spiritus|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/infernum|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_seeds/humanus|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:furnace_heart|0",
+      "emc": 999999
+    },
+    {
+      "item": "scannable:scanner|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:recursion_fragment_shyre|0",
+      "emc": 2000000000
+    },
+    {
+      "item": "contenttweaker:fading_wool|0",
+      "emc": 1000000000
+    },
+    {
+      "item": "railcraft:brick_quarried|4",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|0",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|1",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|2",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|3",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|4",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|5",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|6",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|7",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|8",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|9",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|10",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|11",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|12",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|13",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|14",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_quarried_0|15",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_quarried_0|0",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_quarried_0|4",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_quarried_0|5",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_quarried_0|6",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_quarried_0|7",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_quarried_0|8",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_quarried_0|9",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_quarried_0|0",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_quarried_0|1",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_quarried_0|2",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_quarried_0|3",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_quarried_0|2",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_quarried_0|1",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_quarried_0|3",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_quarried_0|4",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_quarried_0|5",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_quarried_0|6",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_quarried_0|7",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_quarried_0|8",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_quarried_0|9",
+      "emc": 4
+    },
+    {
+      "item": "thebetweenlands:tar_solid|0",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:grass|0",
+      "emc": 2
+    },
+    {
+      "item": "biomesoplenty:grass|1",
+      "emc": 2
+    },
+    {
+      "item": "biomesoplenty:grass|6",
+      "emc": 2
+    },
+    {
+      "item": "biomesoplenty:grass|8",
+      "emc": 2
+    },
+    {
+      "item": "biomesoplenty:dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:dirt|1",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:dirt|2",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:dirt|8",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:white_sand|0",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:dirt|10",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:dirt|9",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:white_sandstone|2",
+      "emc": 4
+    },
+    {
+      "item": "biomesoplenty:white_sandstone|1",
+      "emc": 4
+    },
+    {
+      "item": "biomesoplenty:white_sandstone|0",
+      "emc": 4
+    },
+    {
+      "item": "biomesoplenty:coral|0",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:coral|1",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:coral|2",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:coral|3",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:coral|4",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:seaweed|0",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:waterlily|0",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:waterlily|1",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:waterlily|2",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:waterlily|3",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|0",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|1",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|2",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|3",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|4",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|5",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|6",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|7",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_1|0",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|15",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|14",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|13",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|12",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|11",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|10",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|9",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_0|8",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_1|1",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_1|2",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_1|3",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_1|4",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_1|6",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_1|7",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_1|8",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_1|9",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_1|10",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:plant_1|11",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:double_plant|0",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:double_plant|1",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:double_plant|2",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:double_plant|3",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:mushroom|0",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:mushroom|1",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:mushroom|2",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:mushroom|3",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:mushroom|4",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:mushroom|5",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:bramble_plant|0",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|0",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|1",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|2",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|3",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|4",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|13",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|12",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|11",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|10",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|9",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|8",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|7",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|6",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|5",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|14",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_0|15",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_1|0",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_1|1",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_1|2",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_1|3",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_1|4",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:flower_1|5",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:ivy|0",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:willow_vine|0",
+      "emc": 16
+    },
+    {
+      "item": "natura:nether_thorn_vines|0",
+      "emc": 16
+    },
+    {
+      "item": "natura:nether_heat_sand|0",
+      "emc": 1
+    },
+    {
+      "item": "natura:nether_tainted_soil|0",
+      "emc": 1
+    },
+    {
+      "item": "natura:nether_green_large_glowshroom|0",
+      "emc": 4
+    },
+    {
+      "item": "natura:nether_blue_large_glowshroom|0",
+      "emc": 4
+    },
+    {
+      "item": "natura:nether_purple_large_glowshroom|0",
+      "emc": 4
+    },
+    {
+      "item": "natura:nether_glowshroom|0",
+      "emc": 16
+    },
+    {
+      "item": "natura:nether_glowshroom|1",
+      "emc": 16
+    },
+    {
+      "item": "natura:nether_glowshroom|2",
+      "emc": 16
+    },
+    {
+      "item": "contenttweaker:nero_core|0",
+      "emc": 6000000000
+    },
+    {
+      "item": "contenttweaker:ayeraco_heart|0",
+      "emc": 500000000
     }
   ]
 }

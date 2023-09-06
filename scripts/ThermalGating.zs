@@ -218,3 +218,95 @@ recipes.addShaped(<redstonearsenal:util.quiver_flux>,
 [[<redstonearsenal:material:160>, <minecraft:arrow>, <redstonearsenal:material:160>],
 [<redstonearsenal:storage:0>, <contenttweaker:sentient_meatball>, <redstonearsenal:storage:0>],
 [<redstonearsenal:material:160>, <minecraft:arrow>, <redstonearsenal:material:160>]]);
+
+
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_copper>);
+recipes.addShaped(<thermalfoundation:tool.hammer_copper>,
+[[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
+[<ore:ingotCopper>, <ore:stickWood>, <ore:ingotCopper>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_tin>);
+recipes.addShaped(<thermalfoundation:tool.hammer_tin>,
+[[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
+[<ore:ingotTin>, <ore:stickWood>, <ore:ingotTin>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_silver>);
+recipes.addShaped(<thermalfoundation:tool.hammer_silver>,
+[[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>],
+[<ore:ingotSilver>, <ore:stickWood>, <ore:ingotSilver>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_lead>);
+recipes.addShaped(<thermalfoundation:tool.hammer_lead>,
+[[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>],
+[<ore:ingotLead>, <ore:stickWood>, <ore:ingotLead>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_aluminum>);
+recipes.addShaped(<thermalfoundation:tool.hammer_aluminum>,
+[[<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>],
+[<ore:ingotAluminum>, <ore:stickWood>, <ore:ingotAluminum>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_nickel>);
+recipes.addShaped(<thermalfoundation:tool.hammer_nickel>,
+[[<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>],
+[<ore:ingotNickel>, <ore:stickWood>, <ore:ingotNickel>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_platinum>);
+recipes.addShaped(<thermalfoundation:tool.hammer_platinum>,
+[[<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>],
+[<ore:ingotPlatinum>, <ore:stickWood>, <ore:ingotPlatinum>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_steel>);
+recipes.addShaped(<thermalfoundation:tool.hammer_steel>,
+[[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+[<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_electrum>);
+recipes.addShaped(<thermalfoundation:tool.hammer_electrum>,
+[[<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>],
+[<ore:ingotElectrum>, <ore:stickWood>, <ore:ingotElectrum>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_invar>);
+recipes.addShaped(<thermalfoundation:tool.hammer_invar>,
+[[<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>],
+[<ore:ingotInvar>, <ore:stickWood>, <ore:ingotInvar>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_bronze>);
+recipes.addShaped(<thermalfoundation:tool.hammer_bronze>,
+[[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
+[<ore:ingotBronze>, <ore:stickWood>, <ore:ingotBronze>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_constantan>);
+recipes.addShaped(<thermalfoundation:tool.hammer_constantan>,
+[[<ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>],
+[<ore:ingotConstantan>, <ore:stickWood>, <ore:ingotConstantan>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_iron>);
+recipes.addShaped(<thermalfoundation:tool.hammer_iron>,
+[[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+[<ore:ingotIron>, <ore:stickWood>, <ore:ingotIron>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_gold>);
+recipes.addShaped(<thermalfoundation:tool.hammer_gold>,
+[[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+[<ore:ingotGold>, <ore:stickWood>, <ore:ingotGold>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+recipes.removeShaped(<thermalfoundation:tool.hammer_diamond>);
+recipes.addShaped(<thermalfoundation:tool.hammer_diamond>,
+[[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>],
+[<ore:gemDiamond>, <ore:stickWood>, <ore:gemDiamond>],
+[null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);

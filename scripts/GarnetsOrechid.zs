@@ -30,8 +30,6 @@ mythasspurityoffer.build();
 recipes.addHiddenShapeless("makethattributeboi",<contenttweaker:aesir_tribute>,
 [<contenttweaker:ragnarok_sigil>,<abyssalcraft:crystalcluster:4>,<abyssalcraft:crystalcluster:9>,<abyssalcraft:crystalcluster:10>,<abyssalcraft:crystalcluster2:1>]);
 
-mods.jei.JEI.removeAndHide(<contenttweaker:aesir_tribute>);
-mods.jei.JEI.removeAndHide(<contenttweaker:ragnarok_sigil>);
 
 mods.techreborn.industrialGrinder.addRecipe(<contenttweaker:really_hard_rock>*3, <divinerpg:rupee_ingot>, 
 <divinerpg:arlemite_ingot>, <divinerpg:realmite_ingot>, 

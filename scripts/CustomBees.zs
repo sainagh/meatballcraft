@@ -654,7 +654,7 @@ recipes.addShaped(<mysticalagriculture:dreadium_seeds>.withTag({agri_analyzed: 0
 [<gendustry:honey_comb:14012>, <mysticalagriculture:dreadium_seeds>, <gendustry:honey_comb:14012>],
 [<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
 
-recipes.addShaped(<mysticalagriculture:slimy_bone_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:slimy_bone_plant", agri_growth: 10 as byte}),
+recipes.addShaped(<mysticalagriculture:slimy_bone_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:Slimy_bone_plant", agri_growth: 10 as byte}),
 [[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
 [<gendustry:honey_comb:14012>, <mysticalagriculture:slimy_bone_seeds>, <gendustry:honey_comb:14012>],
 [<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
@@ -1180,4 +1180,7 @@ recipes.addShaped(<aoa3:vox_banner>*10,
 [[<contenttweaker:heraldry_egg>, <contenttweaker:heraldry_egg>, <contenttweaker:heraldry_egg>],
 [<contenttweaker:heraldry_egg>, <aoa3:vox_banner>, <contenttweaker:heraldry_egg>],
 [<contenttweaker:heraldry_egg>, <contenttweaker:heraldry_egg>, <contenttweaker:heraldry_egg>]]);
+
+
+
 

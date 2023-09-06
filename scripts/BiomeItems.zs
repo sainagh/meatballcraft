@@ -63,8 +63,14 @@ markofthesamurai.itemRightClick = function(stack, world, player, hand) {
     val OminousMatches = checkBiomesAtPositions(OminousBiomeName, playerpos, OminousBiomeLocations, world) as int;
 	val VolcanicMatches = checkBiomesAtPositions(VolcanicBiomeName, playerpos, VolcanicBiomeLocations, world) as int;
 
-    player.sendChat("Use the arcane terraformer to create a plus sign of Ominous Woods biome!");
+    player.sendChat("Use the arcane terraformer to create a plus sign of Ominous Woods biome blocks surrounded by volcanic biome (not volcanic barren)");
 	player.sendChat("Stand in the center and use this item!");
+
+	player.sendChat(" - - - ");
+	player.sendChat("Scanning 3x3 area around you");
+
+	player.sendChat("Ominous Woods : " ~ OminousMatches ~ " out of 5");
+	player.sendChat("Volcanic : " ~ VolcanicMatches ~ " out of 4");
 
     if((OminousMatches+VolcanicMatches) == 9) {
 		Commands.call("give @p contenttweaker:sword_shield", player, world, true, true);
@@ -143,7 +149,9 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 
 	val NumberOfMatches = MysteriumMatches + NuclearWastelandMatches + StorageBiomeMatches + CrystalChasmsMatches + BlackVoidMatches + TwilightStreamMatches + AlienForestMatches + ThornlandsMatches + IromineMatches + StormlandMatches + BogMatches + TaintedLandsMatches as int;
 
+	player.sendChat("Scanning 5x5 area around you");
 	player.sendChat("Biome Ritual: " ~ NumberOfMatches ~ " out of 25");
+	
 
 	if((MysteriumMatches) == 2) {
 		player.sendChat("Mysterium : " ~ MysteriumMatches ~ " out of 2");
@@ -233,3 +241,22 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 
 };
 terraformassiflora.register();
+
+
+var biomechecker = VanillaFactory.createItem("biome_checker");
+biomechecker.maxStackSize = 1;
+biomechecker.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+	// obtain position under player
+	val playerpos = player.position as crafttweaker.util.Position3f;
+
+
+	// send biome name in chat
+	player.sendChat("Biome : " ~ world.getBiome(playerpos).name ~ " ");
+
+	return "PASS";
+};
+biomechecker.register();

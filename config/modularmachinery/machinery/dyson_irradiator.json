@@ -16,7 +16,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockoutputbus@6"
+                "generalized_output_item"
             ]
         },
         {
@@ -40,7 +40,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockoutputbus@6"
+                "generalized_output_item"
             ]
         },
         {
@@ -184,7 +184,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "modularmachinery:blockinputbus@6"
+                "generalized_input_item"
             ]
         },
         {
@@ -1064,7 +1064,7 @@
             "y": 0,
             "z": 12,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1240,7 +1240,7 @@
             "y": 0,
             "z": 12,
             "elements": [
-                "modularmachinery:blockinputbus@6"
+                "generalized_input_item"
             ]
         },
         {
@@ -1432,7 +1432,7 @@
             "y": 0,
             "z": 11,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1592,7 +1592,7 @@
             "y": 0,
             "z": 11,
             "elements": [
-                "modularmachinery:blockinputbus@6"
+                "generalized_input_item"
             ]
         },
         {
@@ -1784,7 +1784,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -1992,7 +1992,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "modularmachinery:blockinputbus@6"
+                "generalized_input_item"
             ]
         },
         {
@@ -2192,7 +2192,7 @@
             "y": 0,
             "z": 9,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {
@@ -2344,7 +2344,7 @@
             "y": 0,
             "z": 9,
             "elements": [
-                "modularmachinery:blockinputbus@6"
+                "generalized_input_item"
             ]
         },
         {
@@ -2472,7 +2472,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@7"
+                "generalized_input_fluid"
             ]
         },
         {

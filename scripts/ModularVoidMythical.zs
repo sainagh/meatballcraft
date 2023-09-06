@@ -167,6 +167,9 @@ mods.nuclearcraft.infuser.addRecipe([<bewitchment:cold_iron_ingot>,
 mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:nethersky_steel_ingot>, 
 <contenttweaker:nethersky_steel_dust>]);
 
+mods.nuclearcraft.pressurizer.addRecipe([<contenttweaker:nethersky_steel_dust>, <contenttweaker:nethersky_steel_ingot>]);
+
+
 mods.nuclearcraft.manufactory.addRecipe([<aoa3:void_scales>, 
 <contenttweaker:void_dust>]);
 
@@ -374,7 +377,7 @@ mods.botania.RuneAltar.addRecipe(<contenttweaker:nethengeic_rune>,
 [<botania:rune:1>,<botania:rune:1>,<materialpart:dreaded_steel:ingot>,<twilightforest:transformation_powder>], 
 8000);
 
-mods.botania.RuneAltar.addRecipe(<contenttweaker:nethengeic_rune>, 
+mods.botania.RuneAltar.addRecipe(<contenttweaker:nethengeic_rune>*3, 
 [<contenttweaker:nethengeic_rune>,<contenttweaker:nethengeic_mark>,<contenttweaker:nethengeic_mark>,<twilightforest:transformation_powder>], 
 8000);
 
@@ -405,10 +408,13 @@ ayeracoOreDict.add(<divinerpg:ayeraco_statue_yellow>);
 ayeracoOreDict.add(<divinerpg:ayeraco_statue_green>);
 ayeracoOreDict.add(<divinerpg:ayeraco_statue_purple>);
 
-recipes.addShaped(<contenttweaker:ayeraco_stone>,
-[[<ore:ayeracoStatue>, <magicbees:beecomb:7>, <ore:ayeracoStatue>],
-[<extratrees:food:7>, <contenttweaker:ayeraco_heart>.reuse(), <contenttweaker:enriched_canola_seed>],
-[<ore:ayeracoStatue>, <mysticalagriculture:saltpeter_essence>, <ore:ayeracoStatue>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:ayeraco_stone>, 
+[[<appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <magicbees:beecomb:7>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>], 
+[<appliedenergistics2:sky_stone_block>, <ore:ayeracoStatue>, <contenttweaker:ayeraco_heart>, <ore:ayeracoStatue>, <appliedenergistics2:sky_stone_block>], 
+[<extratrees:food:7>, <contenttweaker:ayeraco_heart>, <mowziesmobs:ice_crystal>, <contenttweaker:ayeraco_heart>, <contenttweaker:enriched_canola_seed>], 
+[<appliedenergistics2:sky_stone_block>, <ore:ayeracoStatue>, <contenttweaker:ayeraco_heart>, <ore:ayeracoStatue>, <appliedenergistics2:sky_stone_block>], 
+[<appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <mysticalagriculture:saltpeter_essence>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>]]);  
 
 
 val mith6 = RecipeBuilder.newBuilder("mythicaltier6","mythical_resource_miner_tier6",800);
@@ -2946,10 +2952,49 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:complex_gearbox>,
 <ore:gearEmerald>, <ore:gearLead>, <ore:gearEmerald>, 
 <ore:gearTitaniumIridium>, <ore:gearTitaniumAluminide>, <ore:gearDiamond>]]);  
 
-recipes.addShaped(<contenttweaker:recursion_prison_key>,
-[[<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>],
-[<divinerpg:mortum_heart>, <aoa3:craexxeus_statue>, <divinerpg:mortum_heart>],
-[<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>]]);
+
+recipes.addShaped(<contenttweaker:living_myrmitite_ingot>*2,
+[[null, <bloodmagic:component:8>, null],
+[<bloodmagic:component:8>, <contenttweaker:living_myrmitite_ingot>, <bloodmagic:component:8>],
+[null, <bloodmagic:component:8>, null]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:recursion_prison_key>, 
+[[<contenttweaker:universal_realgar>, <contenttweaker:living_myrmitite_ingot>, null, 
+null, <gendustry:honey_comb:14014>, null, 
+null, <contenttweaker:living_myrmitite_ingot>, <contenttweaker:universal_realgar>], 
+
+[<contenttweaker:living_myrmitite_ingot>, null, null, 
+null, <contenttweaker:primordial_recursion>, null, 
+null, null, <contenttweaker:living_myrmitite_ingot>], 
+
+[null, null, null, 
+null, <contenttweaker:sword_shield>, null, 
+null, null, null], 
+
+[null, null, null, 
+<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, 
+null, null, null], 
+
+[<gendustry:honey_comb:14014>, <contenttweaker:immortal_recursion>, <contenttweaker:sword_shield>, 
+<divinerpg:mortum_heart>, <aoa3:craexxeus_statue>, <divinerpg:mortum_heart>, 
+<contenttweaker:sword_shield>, <contenttweaker:temporal_recursion>, <gendustry:honey_comb:14014>], 
+
+[null, null, null, 
+<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, 
+null, null, null], 
+
+[null, null, null, 
+null, <contenttweaker:sword_shield>, null, 
+null, null, null], 
+
+[<contenttweaker:living_myrmitite_ingot>, null, null, 
+null, <contenttweaker:ancient_recursion>, null, 
+null, null, <contenttweaker:living_myrmitite_ingot>], 
+
+[<contenttweaker:universal_realgar>, <contenttweaker:living_myrmitite_ingot>, null, 
+null, <gendustry:honey_comb:14014>, null, 
+null, <contenttweaker:living_myrmitite_ingot>, <contenttweaker:universal_realgar>]]);  
+
 
 recipes.addShaped(<contenttweaker:sacred_acorn>,
 [[<contenttweaker:shyre_chunk>, <contenttweaker:shyre_chunk>, <contenttweaker:shyre_chunk>],

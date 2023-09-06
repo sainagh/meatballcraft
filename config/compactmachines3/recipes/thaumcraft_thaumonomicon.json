@@ -1,0 +1,47 @@
+{
+    "name": "compactmachines3:thaumcraft_thaumonomicon",
+    "target-item": "thaumcraft:thaumonomicon",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:tripwire",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:salis_mundus",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "minecraft:bookshelf",
+        "meta": 0,
+        "item": {
+            "id": "minecraft:bookshelf",
+            "count": 1
+          }
+      }
+    },
+    "shape": [
+      [
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "b"
+        ]
+      ]
+    ]
+           
+}

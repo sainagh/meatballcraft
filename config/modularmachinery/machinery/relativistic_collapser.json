@@ -3352,7 +3352,7 @@
             "y": 2,
             "z": 6,
             "elements": [
-                "modularmachinery:blockinputbus@6"
+                "generalized_input_item"
             ]
         },
         {
@@ -3440,7 +3440,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "modularmachinery:blockoutputbus@6"
+                "generalized_output_item"
             ]
         },
         {

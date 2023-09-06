@@ -25,7 +25,7 @@ recipes.removeShaped(<divinerpg:eden_block>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<divinerpg:eden_block>, 
 [[<contenttweaker:jeweled_runium>, <materialpart:myrmitite:ingot>, null, 
-null, <contenttweaker:jeweled_runium>, null, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "borax_solution", Amount: 1000}}), <contenttweaker:jeweled_runium>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "borax_solution", Amount: 1000}}), 
 null, <materialpart:myrmitite:ingot>, <contenttweaker:jeweled_runium>], 
 
 [<materialpart:myrmitite:ingot>, <divinerpg:eden_heart>, null, 
@@ -57,7 +57,7 @@ null, <extendedcrafting:singularity:5>, null,
 null, <divinerpg:eden_heart>, <materialpart:myrmitite:ingot>], 
 
 [<contenttweaker:jeweled_runium>, <materialpart:myrmitite:ingot>, null, 
-null, <contenttweaker:jeweled_runium>, null, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "borax_solution", Amount: 1000}}), <contenttweaker:jeweled_runium>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "borax_solution", Amount: 1000}}), 
 null, <materialpart:myrmitite:ingot>, <contenttweaker:jeweled_runium>]]);  
 
 
@@ -318,7 +318,7 @@ recipes.addShaped(<divinerpg:ender_shards>*6,
 [<techreborn:dust:21>, <aoa3:silver_coin>, <techreborn:dust:21>],
 [<techreborn:dust:21>, <techreborn:dust:21>, <techreborn:dust:21>]]);
 
-recipes.addShaped(<bewitchment:boline>.withTag({biome_id: 226}),
+recipes.addShaped(<bewitchment:boline>.withTag({biome_id: 232}),
 [[<thebetweenlands:mummy_bait>, <thaumadditions:mithrillium_resonator>, <thebetweenlands:mummy_bait>],
 [<astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.fornax", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}), <bewitchment:boline>, <astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.bootes", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}})],
 [<thebetweenlands:mummy_bait>, <thaumicaugmentation:impetus_mirror>, <thebetweenlands:mummy_bait>]]);

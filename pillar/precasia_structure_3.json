@@ -1,0 +1,29 @@
+{
+	"generatorType": "SURFACE",
+	"minY": 60,
+	"maxY": 90,
+	"offsetX": 0,
+	"offsetY": 0,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [818],
+	"biomeNameSpawns": [],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": true,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "aoa3:high_precasia_stone",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	
+	"rarity": 500
+}

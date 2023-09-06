@@ -1109,7 +1109,7 @@ mods.jei.JEI.addDescription(<industrialforegoing:mob_relocator>,
     "The essence from the crusher can be used to run mob duplicators for specific mob farms."
 ]);
 
-mods.jei.JEI.addDescription(<woot:controller>,
+mods.jei.JEI.addDescription([<woot:controller>,<woot:factory>,<woot:builder>],
 [
     "Woot lets you build mob farms without spawning mobs. Note, they can get large!",
     "",
@@ -1117,30 +1117,15 @@ mods.jei.JEI.addDescription(<woot:controller>,
     "",
     "To start, craft a factory heart and an intern! The intern lets you select a tier, and it will tell you the materials you need to build the woot farm! Clicking the heart with the intern will build the mobfarm!",
     "",
-    "Woot is the best way to farm bosses from DivineRPG ;)"
+    "After the structure is complete, you will have to add some blocks manually. To check is those are correct, right click the factory heart with a ya hammer. ",
+    "",
+    "Place the following blocks under the farm, in this exact order from top to bottom, directly under the heart, with a gap of at most 10 blocks: power cell, factory importer, factory exporter.",
+    "",
+    "To farm a specific mob with woot, you need a bound ender shard. Hit a mob with it, and kill it after to bind your shard (it will start glowing).",
+    "",
+    "Use the bound shard to craft a controller, and place it on top of the block behind the factory heart!"
 ]);
 
-mods.jei.JEI.addDescription(<woot:factory>,
-[
-    "Woot lets you build mob farms without spawning mobs. Note, they can get large!",
-    "",
-    "There are 4 tiers of woot farms! Each tier will drop shards of the tier after (tier 1 farm drops tier 1 and 2 shards)!",
-    "",
-    "To start, craft a factory heart and an intern! The intern lets you select a tier, and it will tell you the materials you need to build the woot farm! Clicking the heart with the intern will build the mobfarm!",
-    "",
-    "Woot is the best way to farm bosses from DivineRPG ;)"
-]);
-
-mods.jei.JEI.addDescription(<woot:builder>,
-[
-    "Woot lets you build mob farms without spawning mobs. Note, they can get large!",
-    "",
-    "There are 4 tiers of woot farms! Each tier will drop shards of the tier after (tier 1 farm drops tier 1 and 2 shards)!",
-    "",
-    "To start, craft a factory heart and an intern! The intern lets you select a tier, and it will tell you the materials you need to build the woot farm! Clicking the heart with the intern will build the mobfarm!",
-    "",
-    "Woot is the best way to farm bosses from DivineRPG ;)"
-]);
 
 
 mods.jei.JEI.addDescription(<thaumcraft:causality_collapser>,
@@ -1249,12 +1234,8 @@ mods.jei.JEI.addDescription(<abyssalcraft:abyssalnomicon>,
 
 mods.jei.JEI.addDescription(<contenttweaker:infernal_furnace>,
 [
-    "The infernal furnace is a 3x3x3 multiblock.",
-    "The four vertical corners of the structure are made out of nether bricks.",
-    "The middle block of one of the faces is an iron bar.",
-    "The top middle block is empty.",
-    "The rest is obsidian.",
-    "The center of the cube is lava.",
+    "The infernal furnace is a 3x3x3 multiblock. See the JEI preview for the structure.",
+    "",
     "Right click the structure with salis mundus to form the furnace.",
     "",
     "Drop items from the top to smelt them. Meats have a chance of producing meat nuggets!"
@@ -1939,7 +1920,7 @@ mods.jei.JEI.addDescription(<contenttweaker:mining_advice>,
     "",
     "1. Get basic tools, and mine below y = 17 to get enough rupee to make a shickaxe!",
     "",
-    "2. Use the shickaxe below y = 10 to obtain ascended sapphire to make a hammer from tinker's construct! Rupee is a good material for this because it gives haste!",
+    "2. Use the shickaxe below y = 10 to obtain ascended sapphire to make a hammer stencil from tinker's construct! Shocking is a good trait for this because it gives haste!",
     "",
     "3. Craft the destruction catalyst after unlocking elite crafting. early on you will have to run it with coal, but as soon as you can use a klein star!",
     "",
@@ -1986,13 +1967,81 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_haumea>,
     "Craft an invar singularity with these sigils: luck, battle, ruin, cleansing."
 ]);
 
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_livingmyrmitite>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "There are four specific modifier tomes found in chests in precasia!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft an enchanted myrmitite with the following modifier tomes: aura of destruction 2, loot farmer 4, experienced 5, razor edge 5."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_marksamurai>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "To craft this you will need an armor piece, and eight fruits, the chests and signs in rhenia will tell you what armor to use and what fruits.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft a dreading samurai helmet with the following aspectus fruits: Celawynn, Azuwynn, Yeowynn, Geoliirgaz, Armaniis, Fergalaz, Firnalaz, Ordaniis."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_kikoku>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "To craft the essence, surround recursive powder with correctly renamed pieces of paper. A house in rhenia will tell you what word the papers should spell. Start from top left, and go clockwise!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Follow this recipe layout:",
+    "<C> <H> <A>",
+    "<S> <recursive powder> <M>",
+    "<E> <R> <B>"
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_mysterium>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "There are four structures in mysterium that have a blood magic theme? Check their blocks, and read the signs!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft the lunar block in the center with a rune of the orb on top, a charging rune on the right, a rune of self sacrifice on the left, a speed rune at the bottom."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_runandor>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "There are three structures in runandor with chests containing various runes. There are eight runes in total!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft the filled openblocks elecanium tank with the following runes: compass, storm, distortion, kinetic, strike, poison, fire, wither."
+]);
+
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_osiris>,
 [
     "Come on! At least try to solve the puzzle!",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "", "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  
     "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Black metal armmor, and mithminite ingots :)",
+    "Black metal armmor, and mithrillium ingots :)",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
@@ -2077,6 +2126,19 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_orcus>,
     "Two recipes. Craft a blood infused dimensional ingot with aquatooth, carmile, hippogryph, darkwood swords.",
     "Craft a blood infused dimensional ingot with legbone, bone from betweenlands, wasp, dragonbone swords.",
     "All swords are found in orcus."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_furnacedim>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "One of the villager houses in the overworld has useful portable loot, and a book on the nether roof will tell you how to use it!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft a demonically gargantuan drum full of netherite with a portable furnace!"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_sedna>,
@@ -2168,6 +2230,19 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_vethea>,
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Craft a projector gem with the following tinkers parts: jade tough tool rod, endrod battery cell, titanium pipe piece, starmetal laser medium."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_masterwizards>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "In Taerrapiatta, there are four different special pumpkins. Make soul vials for the corresponding mobs, and craft them with an astral animator!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft a an astral animator with the following soul vials: cyclops, ghast, skeleton, frost."
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_recursion_dungeon>,
@@ -2447,8 +2522,31 @@ mods.jei.JEI.addDescription([<contenttweaker:ritual_mass_enchanting>],
     "If multiple enchants of the same type are present, they will be added together up to level 15."
 ]);
 
-mods.jei.JEI.addDescription([<thaumcraft:infusion_matrix>,
-    <minecraft:skull:0>,
+mods.jei.JEI.addDescription([<thaumcraft:infusion_matrix>],
+[
+    "Thaumcraft infusion is a crafting mechanic that uses altars to craft (see multiblock preview for infusion setup). Right click the matrix with salis mundus to form the structure.",
+    "",
+    "Infusion recipes require the right items to be placed in the altars, and essentia from nearby jars (or the infusion provider).",
+    "",
+    "To start a recipe, after placing the correct items, right click the matrix with a casting gauntlet, the infusion will start with esselntia being automatically sucked out of the nearby sources.",
+    "",
+    "All infusion recipes have a chance of going wrong and causing bad effects. If the runic matrix is stable (you can see stability while looking at it with goggles of revealing) those will not happen.",
+    "",
+    "To stabilize thaumcraft infusions, you should place stabilizing blocks around the infusion matrix.",
+    "",
+    "All stabilizing blocks should be placed following central symmetry with respect to the center pedestal!",
+    "",
+    "The more variety of stabilizing blocks, the better! Different colors count as different blocks!",
+    "",
+    "In addition, Stabilizers from Thaumcraft can be used to prevent some bad effects. Redstone Inlays should be used to connect the stabilizers to each pedestal. These should still follow central symmetry.",
+    "",
+    "The following stabilizing blocks are listed in order of stability power (you should have at most 6 of each):",
+    "Candelabra,",
+    "Candles,",
+    "Mob heads"
+]);
+
+mods.jei.JEI.addDescription([<minecraft:skull:0>,
     <minecraft:skull:1>,
     <minecraft:skull:2>,
     <minecraft:skull:5>,
@@ -2488,7 +2586,7 @@ mods.jei.JEI.addDescription([<thaumcraft:infusion_matrix>,
     <bewitchment:candelabra_iron>,
     <bewitchment:candelabra_silver>],
 [
-    "To stabilize thaumcraft rituals, you should place stabilizing blocks around the infusion matrix.",
+    "To stabilize thaumcraft infusions, you should place stabilizing blocks around the infusion matrix.",
     "",
     "All stabilizing blocks should be placed following central symmetry with respect to the center pedestal!",
     "",
@@ -2500,6 +2598,16 @@ mods.jei.JEI.addDescription([<thaumcraft:infusion_matrix>,
     "Candelabra,",
     "Candles,",
     "Mob heads"
+]);
+
+mods.jei.JEI.addDescription([<thaumcraft:stabilizer>,
+    <thaumcraft:inlay>],
+[
+    "§7§oStabilizers can be used to prevent some bad effects if infusions go unstable.",
+    "",
+    "Redstone Inlays should be used to connect the stabilizers to each pedestal. Redstone inlays behave like redstone, with a maximum range of 15 blocks.",
+    "",
+    "These should still follow central symmetry."
 ]);
 
 mods.jei.JEI.addDescription([<forestry:bee_drone_ge>,<forestry:bee_princess_ge>,<forestry:bee_queen_ge>],
@@ -2698,8 +2806,637 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "vinculotus"}
     "Prevents endermen from teleporting."
 ]);
 
+mods.jei.JEI.addDescription(<contenttweaker:making_unattuned_celestial_crystals>,
+[
+    "To make your first celestial crystal, you need liquid starlight, stardust, and a rock crystal.",
+    "",
+    "Place down a bucket of liquid starlight, with sky access, a preferably nearby a colelctor crystal.",
+    "",
+    "Drop the stardust and rock crystal into the liquid starlight, and a celestial crystal cluster will form.",
+    "",
+    "The cluster will drop a celestial crystal when fully grown. Using a linking tool to bind a collector crystal with the cluster will speed up its growth!"
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:farming_unattuned_celestial_crystals>,
+[
+    "Celestial crystals can be duplicated using liquid starlight.",
+    "",
+    "If a celestial crystal is at max size (900) it has a chance of being split in two different crystals when dropped in liquid starlight. This will consume the bucket of starlight.",
+    "",
+    "This process can be automated by using an auto-placer to keep a block space full of starlight, and by using an entity detector from cyclic to send a redstone signal to a collector when two entities (aka two crystals) are present in the designated block space.",
+    "",
+    "The system can be set up to pick up only one of the two crystals, or to pick up both, and drop one of them back into the starlight."
+]);
+
+mods.jei.JEI.addDescription([<contenttweaker:levelling_up_crystals>,
+    <astralsorcery:blockmachine:1>,
+    <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})],
+[
+    "Crystals from astral sorcery have three stats that determine how good they are. The higher the number, the more effective they are.",
+    "",
+    "Attuned crystals with max stats have custom recipes, but you may want to level some manually for other purposes.",
+    "",
+    "Size is increased by using starlight. A crystal dropped in liquid starlight will consume the liquid to increase its size by a bit.",
+    "",
+    "Purity is increased by duplicating crystals. A max size crystal will split in two after colelcting more starlight, and one of the two crystals may have higher purity than the previous generation.",
+    "",
+    "Cut can be increased using a grindstone. Every time the grindstone is used, the crystal will gain cut, but lose size (which can be increased again using starlight)."
+]);
+
+mods.jei.JEI.addDescription([<contenttweaker:dimension_ids>],
+[
+    "Terra (overworld): 0",
+    "Void World: 43",
+    "Woot Dimension (tartarus): 418",
+    "Nether: -1",
+    "End: 1",
+    "Furnace World (Telos): 623",
+    "Twilight Forest: 7",
+    "Aether: 4",
+    "Erebus: 66",
+    "Betweenlands: 20",
+    "Iceika: 425",
+    "Arcana: 426",
+    "Abyssal wasteland: 50",
+    "Dreadlands: 51",
+    "Omothol: 52",
+    "Dark realm: 53",
+    "Dimensional Doors: 684 (and consecutive numbers)",
+    "Emptiness: 14676",
+    "Deep Dark: -11325",
+    "Taerrapiatta: 180",
+    "Diamerisma: 181",
+    "Furatto: 182",
+    "Vibe: 183",
+    "Apichisi: 184",
+    "Finem:185",
+    "Luna: 145",
+    "Osiris: 148",
+    "Ptah: 149",
+    "Hator: 150",
+    "Europa: 151",
+    "Oi: 152",
+    "Falacer:160",
+    "Orcus: 161",
+    "Haumea: 146",
+    "Sedna: 147",
+    "Eden: 420",
+    "Precasia: 818",
+    "Barathos: 802",
+    "Lelyetia: 815",
+    "Creeponia: 805",
+    "Deeplands: 807",
+    "Abyss: 800",
+    "Rhenia: 163",
+    "Myrmex: 164",
+    "Wildwood: 421",
+    "Candyland: 803",
+    "Gardencia: 809",
+    "Celeve: 804",
+    "Crystevia: 806",
+    "Haven: 811",
+    "Iromine: 813",
+    "Mysterium: 817",
+    "Vox Ponds: 821",
+    "Pixonia: 165",
+    "Spatial Storage: -26",
+    "Apalachia: 422",
+    "Lyndenwyrm: 162",
+    "L'Borean: 814",
+    "Runandor: 819",
+    "Lunalus: 816",
+    "Proxima Belt: 166",
+    "Skythern: 423",
+    "Ancient Cavern: 801",
+    "Immortallis: 812",
+    "Greckon: 810",
+    "Dustopia: 808",
+    "Vethea: 427",
+    "Zoi: 171",
+    "Nero: 170",
+    "Akathartos: 172",
+    "Pauram: 173",
+    "Mortum: 424",
+    "Shyrelands: 820",
+    "Alkemia: 174",
+    "Earth (Lost Cities): 111",
+    "Gallifrey: 624",
+    "RFTools Dimensions: 900 (and consecutive numbers)"
+]);
 
 
 
+mods.jei.JEI.addDescription([<appliedenergistics2:part:460>, <betterp2p_plusplus:advanced_memory_card>, <appliedenergistics2:certus_quartz_cutting_knife>],
+[
+    "P2P buses are used to connect transport of items, redstone, fluids, light, energy, and AE2 channels using AE2.",
+    "",
+    "Right click with the following items to change mode:",
+    "Bucket for fluid mode,",
+    "Chest for item mode,",
+    "Smart cable for channel mode,",
+    "Energy cell for energy mode,",
+    "Redstone for redstone mode.",
+    "",
+    "Two or more P2P buses are connected between each other using the advanced memory card. P2P connections can be renamed using a quartz knife, making it easy to keep track of stuff!",
+    "",
+    "These buses can be used to move a lot of channels using a lot less cables, making it easier to manage the logistics in your base. The best way to do this is by using a smaller AE2 network, called a subnet, that just consists of P2P connections used to connect your main controller with other parts of your base. This way a single dense smart cable can transport up to 1024 channels.",
+    "",
+    "The multiblock preview shows how P2P can be used to move channels. The main network is in white, the subnet is in purple.",
+    "The center controller is the main controller, P2P buses can be placed directly on it, or through a dense cable. This is the input side.",
+    "The output side can be placed anywhere on the same subnet used for the input side (the purple ones).",
+    "Subnets can be powered by using external controllers, or by connecting to the main network using quartz fiber.",
+    "NOTE: you should not connect the main net and the subnet together with any ME cable outside of quartz fiber."
+]);
 
+mods.jei.JEI.addDescription([<contenttweaker:yellorite_reactor>],
+[
+    "To build a yellorite reactor you need rector casings (or glass), a reactor controller, two access ports, a redstone flux power tap, fuel rods, control rods, and coolers.",
+    "",
+    "There are multiple multiblock previews to show how each component works! Reactors can be made out of any size, with any number of fuel rods. Right click the controller with an empty hand to check if a given reactor structure is valid.",
+    "",
+    "You can search 'reactor cooler' in JEI for a list of the available coolers. Draconium blocks are the best!",
+    "",
+    "To run the reactor, input yellorium into one access port, and it will be consumed and turned into cyanite. You will need to set the other access port to output mode to auto extract cyanite.",
+    "",
+    "To turn it into a steam-making reactor, you will need to replace the power tap with two coolant ports, one to input water, and one to output steam."
+]);
 
+mods.jei.JEI.addDescription([<deepmoblearning:simulation_chamber>, <deepmoblearning:extraction_chamber>, <deepmoblearning:polymer_clay>, <deepmoblearning:deep_learner>],
+[
+    "To farm mob drops with Deep Mob Learning (Evolution), you need a simulation chamber, a loot fabricator, and a steady supply of polymer clay (which has EMC), as well as a data model.",
+    "",
+    "To function, a simulation chamber needs a data model that has been configured to a mob.",
+    "",
+    "To configure a model, you need to place one for the mob you want to farm into the deep learner. Then you want to slay a certain number that mob to activate the model, while holding the learner into your hotbar.",
+    "",
+    "The more mobs you slay, the higher the tier of the model. The higher the tier, the better.",
+    "",
+    "Placing a model in the simulation chamber will produce pristine matter, which is consumed in loot fabricators to farm specific mob drops."
+]);
+
+mods.jei.JEI.addDescription([<deepmoblearningbm:digital_agonizer>,<deepmoblearningbm:altar_linker>],
+[
+    "The digital mob agonizer is a very effective way to produce essence for a blood altar.",
+    "",
+    "Place one next to a blood altar, and use the altar linker to bind it.",
+    "",
+    "The digital mob agonizer needs a data model, and a steady supply of matter, and it will automatically add life essence to the altar.",
+    "",
+    "Multiple agonizers can be connected to the same altar!"
+]);
+
+mods.jei.JEI.addDescription([<extrautils2:terraformer:0>,<extrautils2:terraformer:1>,<extrautils2:biomemarker>,<extrautils2:terraformer:2>,<extrautils2:terraformer:3>,<extrautils2:terraformer:4>,<extrautils2:terraformer:5>,<extrautils2:terraformer:6>,<extrautils2:terraformer:7>,<extrautils2:terraformer:8>],
+[
+    "To change biomes using extra utilities, you need a terraformer, a biome marker, some antennas, and other blocks depending on the biome.",
+    "",
+    "After placing a biome marker inside the terraformer, the GUI will tell you what other blocks are needed.",
+    "",
+    "For each of the required blocks, place an antenna on top of them, and add the required ingredients listed by clicking the arrow.",
+    "",
+    "If configured correctly, the terraformer will start automatically! Make sure you set the correct range!"
+]);
+
+mods.jei.JEI.addDescription([
+    <astralsorcery:itemperkgem:0>,
+    <astralsorcery:itemperkgem:1>,
+    <astralsorcery:itemperkgem:2>,
+    <contenttweaker:making_dynamism_gems>],
+[
+    "To craft dynamism gems, you need to drop a rock crystal and glowstone inliquid starlight.",
+    "",
+    "Depending on the time of day this happens, the resulting crystal will drop a different gem.",
+    "Day = ilium",
+    "Night = fengarum",
+    "Morning/Evening = ourium"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:magic_mushroom_dark>],
+[
+    "The really scary vishroom lets you unlock all thaumcraft research, but it will also fill your warp bar! Unless you really like thaumcraft research, you should probably do this, since the pack also uses a lot of addons with complicated research.",
+    "",
+    "In addition to the following steps, it's a good idea to have some permanent warp cleaning ability, either using the warp cleansers found in the dreadlands dimension, or crafting the omothol warp cleanser.",
+    "",
+    "To craft this item, though, you will still need to do a little bit of research by yourself. The following steps are the bare minimum required to unlock this item.",
+    "",
+    "1. Fundamentals: first steps > discovering alchemy > discovering infusion > discovering auromancy",
+    "",
+    "2. Alchemy: basic alchemy > alumentum > alchemical metalurgy > essentia smelting > warded jars and labels ",
+    "",
+    "3. Arcane Infusion: basic infusion > infusion > (optional) infusion stablizer"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:flux_basics>],
+[
+    "Flux in one of the core thaumcraft mechanics. ",
+    "",
+    "Flux is similar to radiation, where each chunk has a certain flux level. If flux is too high, bad things will happen.",
+    "",
+    "The thaumometer lets you see the flux levels in a given chunk (the dark purple bar). You can sneak to see the numerical value.",
+    "",
+    "Flux is created when a few things in thaumcraft are done:",
+    "1. A crucible has excess essentia (use quartz slivers to prevent this)",
+    "2. An essentia smeltery is processing items (mithrillium tier and above don't make flux)",
+    "3. You fail an infusion craft"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:remove_flux>],
+[
+    "There are a few ways to remove flux:",
+    "",
+    "1. The ritual of eldritch will from blood magic (good start). Place the ritual down, it will reduce flux levels in a 3x3 chunk area, and it will convert it to demonic will. If the 9 chunks are full of will, the ritual will stop clearing flux. Use demon crystallizers to make sure your chunks doesn't fill with will!",
+    "",
+    "2. The flux condenser (not recommended). To unlock this you will need to have progressed through some thaumcraft. A set of lattices should be placed above the flux condenser. Lattices have a chance of clogging, if that happens you should break and replace them. This block consumes herba to function, and it produces vitium. You should have essentia pipes to input and output the two.",
+    "",
+    "3. The puriflower (best for long term). The puriflower simply drains flux from the chunk it's placed in passively, nothing else needed!"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:eldritch_will_ritual>],
+[
+    "The ritual of eldritch will from blood magic is the easiest way of getting rid of flux. Place the ritual down, it will reduce flux levels in a 3x3 chunk area, and it will convert it to demonic will. If the 9 chunks are full of will, the ritual will stop clearing flux. Use demon crystallizers to make sure your chunks doesn't fill with will!"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:aura_basics>],
+[
+    "Aura is one of the main mechanics in thaumcraft.",
+    "",
+    "Aura is magical energy used to craft using some of the blocks and items in the mod.",
+    "",
+    "Each chunk has a different aura level. Once it is depleted, it will slowly go back up to a maximum value that depends on seed.",
+    "",
+    "Regardless of your world, magical forest biomes have much higher aura levels than all other biomes."
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:thaumcraft_research>,
+    <thaumcraft:scribing_tools>,
+    <thaumcraft:table_wood>],
+[
+    "To unlock pages in the thaumonomicon, you need to perform research.",
+    "",
+    "There are eight types of research, and each type can be an obervation or a theory!",
+    "",
+    "Observation research is performed by scanning things using the thaumometer. In this pack there is an addon that lets you scan items directly in chests. Just mouse over them while holding the thaumometer!",
+    "",
+    "Theory research is performed in the reserach table, obtained by right clicking scribing tools on a wood table. To unlock research, place paper in the scribing table, and click pages until completing a theory. This task must be reepated till the desired research is obtained.",
+    "",
+    "In addition to this, preserved curiosities let you unlock any research at random!"
+]);
+
+mods.jei.JEI.addDescription([
+    <thaumcraft:thaumometer>],
+[
+    "The thaumometer has three main uses.",
+    "",
+    "It allows you to see the presence of the two main thaumic fields, vis (good) and flux (bad).",
+    "",
+    "It can be used to scan items and blocks (both in world and from the inventory) to reveal the essentia they possess, and to gain knowledge about the thaumic arts.",
+    "",
+    "It shows its user the presence of essentia in a given block or machine."
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:warp_basics>,
+    <thaumcraft:sanity_checker>],
+[
+    "Warp is a mechanic used in both thaumcraft and abyssalcraft.",
+    "",
+    "Warp is something that is directly connected to your player, and it is gained in a varity of ways:",
+    "1. Eating brains",
+    "2. Unlocking thaumcraft research",
+    "3. Fighting mobs from abyssalcraft",
+    "4. Exploring abyssalcraft dimensions",
+    "",
+    "Warp is checked using a sanity checker!",
+    "",
+    "If your warp level is high, you will gain debuffs, and special mobs will start spawning around you.",
+    "",
+    "There are three types of warp, temporary, sticky, and permanent.",
+    "Temporary warp goes down over time, and is bright pink in the sanity checker.",
+    "Sticky warp needs sanityzing soap or warp cleansers to be removed, and is purple in the sanity checker.",
+    "Permanent warp is only removed using the dreadlands and omothol warp cleansers, and is dark purple in the sanity checker."
+]);
+
+mods.jei.JEI.addDescription([
+    <thaumcraft:crucible>],
+[
+    "The crucible is a crafting mechanic that uses essentia. Essentia is a magical fluid obtained in a varity of way in thaumcraft.",
+    "",
+    "To function properly, a crucible needs to be on top of fire, or on top of nitor, and it needs to be full of water. If a crucible is working properly, the water in the crucible will make bubbles.",
+    "",
+    "Items dropped in the crucible will be decomposed into their essentia. Holding shift over an item after having scanned it with the thaumometer will show what essentia they have. Alternatively, all essentia for each item will be shown in JEI.",
+    "",
+    "If you are wearing the goggles of revealing, you will see the essentia in the crucible.",
+    "",
+    "If an appropriate combination of essentia is present, items dropped in the crucible will be transformed. JEI lists the available transformations.",
+    "",
+    "Essentia will slowly disappear from the crucible after it is added, and it will turn into flux. Drop quartz slivers in the crucible to collect any leftover essentia, and to avoid flux from building up!"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:essentia_management>],
+[
+    "Essentia is a magical fluid that can be created, moved, and consumed as part of many thaumcraft mechanics. While the crucible can be used to create essentia, it can only be used within those constraints.",
+    "",
+    "To create essentia, you need an essentia smeltery, which works like a furnace that 'smelts' items into their essentia component (which can be seen in JEI).",
+    "Place arcane alembics on top of the smeltery to collect the output. If no alembics are present, flux will be made.",
+    "The higher the tier, the better the yield out of each item, and the least flux will be made each operation. Mithrillium tier and above make no flux.",
+    "",
+    "Essentia can be stored using phials, or using jars. Phials are like buckets, which can be used to move essentia between containers. Jars are like tanks, which can be placed in world. Labels can be used to filter jars to store only one type of essentia.",
+    "",
+    "To transport essentia, there are pipes, but you should not use those. Instead, the filling and emptying essentia transfusers can be used to move essentia wirelessly.",
+    "The filling essentia transposer is used as a machine output, and it automatically pushes essentia into jars.",
+    "The emptying essentia transposer is used as a machine input, and it automatically pulls essentia out of jars."
+]);
+
+mods.jei.JEI.addDescription([
+    <thaumcraft:phial>],
+[
+    "Phials are used to store essentia similarly to how buckets are used to store fluids.",
+    "",
+    "One phial stores 10 of a given essentia.",
+    "",
+    "Phials can be right clicked on essentia machines or storage to collect or deposit essentia just like buckets!"
+]);
+
+mods.jei.JEI.addDescription([
+    <thaumcraft:jar_normal>,
+    <thaumcraft:jar_void>,
+    <thaumadditions:jar_brass>,
+    <thaumadditions:jar_thaumium>,
+    <thaumadditions:jar_eldritch>,
+    <thaumadditions:jar_mithrillium>,
+    <thaumadditions:jar_adaminite>,
+    <thaumadditions:jar_mithminite>,
+    <thaumcraft:label>],
+[
+    "Jars are used to store essentia similarly to how tanks are used to store fluids.",
+    "",
+    "To fill a jar, you can use phials, or you can directly click them on essentia containers.",
+    "",
+    "Right clicking a jar with a label will whitelist the essentia it's currently storing so that no other essentia can enter, even after the jar has been emptied. This can be used for essentia storage systems.",
+    "",
+    "There are multiple tiers of jars, each with a different capacity:",
+    "Warded: 250",
+    "Void: 250 + void excess (makes flux)",
+    "Brass: 275",
+    "Thaumium: 350",
+    "Void reinforced: 500",
+    "Mithrillium: 1000",
+    "Adaminite: 2000 (cannot store vitium)",
+    "Adaminite: 4000 + void excess"
+]);
+
+mods.jei.JEI.addDescription([
+    <thaumcraft:essentia_input>,
+    <thaumcraft:essentia_output>],
+[
+    "Essentia transfusers are the best way to move essentia around!",
+    "",
+    "Place them on essentia machines, and they automatically move essentia to/from jars nearby.",
+    "",
+    "Filling = from machines to jars",
+    "Emptying = from jars to machines"
+]);
+
+mods.jei.JEI.addDescription([
+    <botania:pool:0>,
+    <botania:pool:1>,
+    <botania:pool:2>,
+    <botania:pool:3>],
+[
+    "The mana pool transforms items that are dropped in it consuming some mana.",
+    "",
+    "It is also the main way to store mana, which can be transferred using sparks or mana spreaders."
+]);
+
+mods.jei.JEI.addDescription([
+    <botania:spreader:0>,
+    <botania:spreader:2>,
+    <botania:spreader:1>,
+    <botania:spreader:3>],
+[
+    "Mana spreaders are used to transfer mana between mana sources or containers.",
+    "",
+    "The wand of the forest is used to bind generating flora to a spreader. Make sure the wand is in bind mode. Shift + right click on flower first, then shift + right click the spreader.",
+    "",
+    "The wand of the forest is used to bind the spreader to a mana pool. Shift + right click on spreader first, then shift + right click the pool.",
+    "",
+    "If a mana spreader is directly adjacent to a mana pool, there is no need to bind them. The adjacent mana pool will be emptied by the spreader if it has another target."
+]);
+
+mods.jei.JEI.addDescription([
+    <botania:spark>,
+    <botania:sparkupgrade:0>,
+    <botania:sparkupgrade:1>,
+    <botania:sparkupgrade:2>,
+    <botania:sparkupgrade:3>],
+[
+    "Sparks can be used to transfer mana between mana pools and other botania items. Right click a spark on the pool to place it.",
+    "",
+    "By default, all blocks with a spark will share mana equally, but spark augments can be used to change priorities.",
+    "",
+    "Dominant: will take mana from other pools until it's full.",
+    "Dispersive: will send mana to other pools until they are all full.",
+    "Recessive: will send mana to other pools if they need it more.",
+    "Isolated: will not send mana to other normal sparks."
+]);
+
+mods.jei.JEI.addDescription([
+    <botania:runealtar>],
+[
+    "The rune altar can only accept mana from mana spreaders.",
+    "",
+    "Drop the required materials for a recipe on the altar.",
+    "",
+    "If the recipe is successful, the spreader will start shooting mana, until the altar is full.",
+    "",
+    "Once the altar is full, you have to drop a livingrock on it, and right click with a wand of the forest to complete the craft.",
+    "",
+    "Runes in rune altar recipes are not consumed."
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:crucible_automation>,
+    <thaumcraft:thaumatorium>],
+[
+    "The crucible can be transformed into the thaumatorium, an upgraded version that has a user interface, and can be automated.",
+    "",
+    "To form the thaumatorium, place two alchemical contructs on top of a formed crucible, and right click them with salis mundus.",
+    "",
+    "The thaumatorium can receive essentia from an emptying essentia transfuser placed on its side. It can collect from both nearby jars, and from an essentia infusion provider.",
+    "",
+    "To select a recipe, place the desired input item, and click on the desired output to bind the thaumatorium to that recipe. If the input item is present, essentia will be automatically drained and the recipe output will be dropped in world in fron of the crucible. A hungry chest or a vacuum chest can be used to collect outputs.",
+    "",
+    "By default, the thaumatorium can only perform one recipe, but if you place a mnemonic matrix on one of its sides, you will be able to set an additional one."
+]);
+
+mods.jei.JEI.addDescription([
+    <thaumcraft:smelter_basic>,
+    <thaumcraft:smelter_thaumium>,
+    <thaumcraft:smelter_void>,
+    <thaumadditions:mithrillium_smelter>,
+    <thaumadditions:adaminite_smelter>,
+    <thaumadditions:mithminite_smelter>],
+[
+    "Smelteries are used to make essentia out of items. To see what essentia a given item will produce, you can check the JEI tab for essentia, or press shift while hovering over an item in JEI.",
+    "",
+    "A smeltery works like a furnace, where it needs fuel, which can be automatically inputted from the bottom, to function.",
+    "",
+    "To function properly, a smeltery needs at least one alembic placed on top. If an alembic is not present, all that is smelted will be tuned into flux.",
+    "",
+    "When an item with essentia is smelted, it will be turned into an essentia slurry, shown as a purple bar on the left of the smeltery interface. If an alembic is present, the slurry will be transferred as essentia to the alembic.",
+    "",
+    "Essentia can be collected from the alembic using phials, or you can place a filling essentia transfuser to automatically push essentia to nearby jars.",
+    "",
+    "All operations done by the smeltery will produce a bit of flux, so be careful! Mithrillium tier and above will not make any flux!"
+]);
+
+mods.jei.JEI.addDescription([
+    <thaumcraft:sanity_soap>],
+[
+    "To unlock this, you will need to have completed the following research steps.",
+    "",
+    "1. Fundamentals: first steps > discovering alchemy",
+    "",
+    "2. Alchemy: basic alchemy > hedge alchemy",
+    "",
+    "3. Gain warp until you get the message 'Surely there must be a way to stop these headaches?', exploring abyssalcraft worlds is a good way to get there",
+    "",
+    "4. Alchemy: purifying bath salts > sanity soap"
+]);
+
+mods.jei.JEI.addDescription([
+    <thaumicenergistics:infusion_provider>],
+[
+    "The essentia infusion provider works like an extension of your essentia storage that lets you interact directly with thaumcraft machines.",
+    "",
+    "If the provider is nearby your infusion setup, it will automatically collect essentia from your network.",
+    "",
+    "The same applies to emptying essentia transfusers. This can be used for fully-automated setups for machines like the crucible/thaumatorium."
+]);
+
+mods.jei.JEI.addDescription([
+    <thaumcraft:void_siphon>,
+    <thaumcraft:void_seed>,
+    <thaumcraft:causality_collapser>],
+[
+    "The void siphon is used to obtain void seeds from a flux rift. You can also use causality collapsers but they are not as reliable.",
+    "",
+    "To make a flux rift, you need high levels of flux in a chunk. The best way of doing this is to go far far away from your base, and to drop a lot of compressed cobblestone into a crucible.",
+    "",
+    "Place the siphon near the rift, and it will slowly suck it and drop void seeds nearby. You can collect those with a vacuum chest of some sort.",
+    "",
+    "If you want to use the collapser, just click it on a rift, and it will explode with a chance of dropping void seeds.",
+    "",
+    "After making an initial batch, the void seedling can be used to safely automate void seeds."
+]);
+
+mods.jei.JEI.addDescription([
+    <thaumicaugmentation:rift_seed>],
+[
+    "Flux seeds are used to make rifts at your own will.",
+    "",
+    "To grow the seed, perform infusion by placing any number of void seeds around the flux seed."
+]);
+
+mods.jei.JEI.addDescription([
+    <thaumicaugmentation:fracture_locator>,
+    <thaumicaugmentation:augment_caster_rift_energy_storage>,
+    <thaumicaugmentation:gauntlet:0>,
+    <thaumicaugmentation:gauntlet:1>],
+[
+    "To enter the emptiness, you need to use the fracture locator to find fractures. The nether roof is a good place to look for them. The locator will glow if you are nearby a fracture.",
+    "",
+    "To open the fracture you need to use a fully charged thaumium or voidseer casting gauntlet augmented with the impetus conductor. To charge the augmented gauntlet, stand nearby a flux rift, and it will slowly consume it.",
+    "",
+    "Once the gauntlet is charged, you can right click a fracture to open it!"
+]);
+
+mods.jei.JEI.addDescription([
+    <thaumcraft:condenser>,
+    <thaumcraft:condenser_lattice>],
+[
+    "The flux condenser is a fast but unreliable way or removing flux.",
+    "",
+    "A set of lattices should be placed above the flux condenser. Lattices have a chance of clogging, if that happens you should break and replace them.",
+    "",
+    "This block consumes herba to function, and it produces vitium. You should have essentia pipes to input and output the two."
+]);
+
+mods.jei.JEI.addDescription([
+    <thaumicaugmentation:impetus_drainer>,
+    <thaumicaugmentation:impetus_relay>,
+    <thaumicaugmentation:impetus_linker>,
+    <thaumicaugmentation:impetus_matrix>,
+    <thaumicaugmentation:rift_seed>,
+    <thaumicaugmentation:material:3>],
+[
+    "Impetus is an energy system based around flux rifts.",
+    "",
+    "To generate impetus, you need to place an impetus drainer nearby a flux rift. It will slowly drain the rift, and make impetus!",
+    "",
+    "To transfer impetus, you need an impetus resonator and impetus relays. The relays are like cables used to transfer this energy, and the resonator is like a wrench. To connect two impetus blocks to each other, shift right click the starting block, and right click the destination block. If this is done correctly, a visual effect will start connecting the two blocks.",
+    "",
+    "To store impetus, you need an impetus matrix, which behaves like a battery. To make one, assemble a structure with a runic matrix and two eldritch pedestals (see JEI preview). Right click the matrix with salis mundus, and use eight impetus cells on the pedestals, one on each side. This battery is liked using the impetus resonator."
+]);
+
+mods.jei.JEI.addDescription([
+    <thaumicaugmentation:arcane_terraformer>],
+[
+    "The arcane terraformer is a powerful block that lets you transform the biomes of individual blocks. It is used as part of puzzles and rituals.",
+    "",
+    "To power the arcane terraformer you need aura, impetus, and essentia in the form of ignis, aer, aqua, terra, and permutatio. To see a setup for inputting all of these resources, read the info box on impetus, and check the multiblock preview for the arcane terraformer. Permuatatio in inputted at the bottom, and the other essentia aspects are inputted from the sides of the corresponding colors. The impetus can be obtained directly from a drainer, but it is a good idea to use relays to check your system. The impetus matrix is not needed, and it may overcomplicate things.",
+    "",
+    "Once your connections have been setup, place the biome focus in the arcane terraformer and select the shape and size of the biome you want to create. For soem of the puzzles in the pack you will need to change single blocks, defined as a circle of radius one (do not do square of radius one).",
+    "",
+    "To tart changing the biome, right click the center of the terraformer with an upgraded thaumium or voidseer casting gauntlet. A particle effect will show up if you have done this correctly.",
+    "",
+    "Because of a bug with the mod, it's possible nothing may happen after the particle effect shows up. If that happens relogging generally fixes things and it will update the biome."
+]);
+
+mods.jei.JEI.addDescription([
+    <botania:alfheimportal>],
+[
+    "Construct a 3x3 portal of livingwood (no corners), with the gateway core at the middle of the bottom, and the glimmering livingwood in the middle of the other three sides.",
+    "",
+    "Place two mana pools with pylons on top within three blocks of the gateway core, at the same y level. There will be the mana buffer for the gateway. If the pools don't have enough mana, the portal will close!",
+    "",
+    "To start the gateway, right click the core with the wand of the forest. You will need a lot of mana to open the portal.",
+    "",
+    "Throw items into the portal to craft. This will consume a small amount of mana.",
+    "",
+    "Be careful, throwing other items that do not have recipes will delete them!"
+]);
+
+mods.jei.JEI.addDescription([
+    <ore:bewitchmentAltar>],
+[
+    "The witches altar is how you generate magical energy (ME) in bewitchment!",
+    "",
+    "The structure for the altar is a 3x2 table, and it can be made by any type of altar. Right click the structure with a vanilla carpet to form the altar!",
+    "",
+    "The altar generates energy passively. Right clicking the altar with an empty hand will tell you the available energy, as well as the maximum energy for the altar. Most mechanics in bewitchment use ME to run!",
+    "",
+    "The amount of diverse nature (crops, trees, flowers) will set the maximum ME. The more different plants you have, the higher the maximum energy in the altar!",
+    "",
+    "You can place statues around the altar, or particular artifacts on the altar to add multipliers to ME rate and amount. These will show up when searching 'witches altar' in JEI."
+]);
+
+mods.jei.JEI.addDescription([
+    <bewitchment:witches_cauldron>],
+[
+    "Place on top of fire, lava, or a magma block, and near a witches altar.",
+    "",
+    "To start every recipe in the cauldron, place a water bucket inside. If the water stays in the cauldron too long, it will evaporate!",
+    "",
+    "JEI will show the required ingredients for recipes and brews! ",
+    "",
+    "To craft using the cauldron, drop in the required items after the water starts boiling! If a recipe was done correctly, the output will pop out automatically! Make sure you drop each ingredient quickly, otherwise the recipe won't complete.",
+    "",
+    "To make brews, drop a mandrake root, and drop a combination of the desired brew items (JEI will show). Right click the cauldron with empty bottles to collect the potions!"
+]);

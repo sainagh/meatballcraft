@@ -93,3 +93,95 @@ imstuckgetmehome.itemRightClick = function(stack, world, player, hand) {
 	return "Pass";
 };
 imstuckgetmehome.register();
+
+var flintandfurnace = VanillaFactory.createItem("flint_and_furnace");
+flintandfurnace.maxStackSize = 1;
+flintandfurnace.glowing = true;
+flintandfurnace.itemRightClick = function(stack, world, player, hand) {
+
+player.sendChat("Use this in the overworld to enter the furnace dimension");
+player.sendChat("Use this in the furnace dimension to come back");
+
+
+if(player.getDimension() == 0) {
+
+// obtain position under player
+	var pos = player.position.asPosition3f();
+
+	// check if player is standing on beacon
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    if(blockBelow != <blockstate:minecraft:cobblestone>) {
+        player.sendChat("Stand on Cobblestone");
+        return "FAIL";
+    }
+	var posfurnace1 = player.position.asPosition3f();
+	posfurnace1.y = pos.y - 1;
+	posfurnace1.x = pos.x - 1;
+    var blockposfurnace1 = posfurnace1.asBlockPos();
+    var blockBelow1 = world.getBlockState(posfurnace1);
+    if(blockBelow1 != <blockstate:minecraft:coal_block>) {
+        player.sendChat("Place four coal blocks around the cobblestone");
+        return "FAIL";
+    }
+	var posfurnace2 = player.position.asPosition3f();
+	posfurnace2.y = pos.y - 1;
+	posfurnace2.x = pos.x + 1;
+    var blockposfurnace2 = posfurnace2.asBlockPos();
+    var blockBelow2 = world.getBlockState(posfurnace2);
+    if(blockBelow2 != <blockstate:minecraft:coal_block>) {
+        player.sendChat("Place four coal blocks around the cobblestone");
+        return "FAIL";
+    }
+	var posfurnace3 = player.position.asPosition3f();
+	posfurnace3.y = pos.y - 1;
+	posfurnace3.z = pos.z + 1;
+    var blockposfurnace3 = posfurnace3.asBlockPos();
+    var blockBelow3 = world.getBlockState(posfurnace3);
+    if(blockBelow3 != <blockstate:minecraft:coal_block>) {
+        player.sendChat("Place four coal blocks around the cobblestone");
+        return "FAIL";
+    }
+	var posfurnace4 = player.position.asPosition3f();
+	posfurnace4.z = pos.z - 1;
+	posfurnace4.y = pos.y - 1;
+    var blockposfurnace4 = posfurnace3.asBlockPos();
+    var blockBelow4 = world.getBlockState(posfurnace4);
+    if(blockBelow4 != <blockstate:minecraft:coal_block>) {
+        player.sendChat("Place four coal blocks around the cobblestone");
+        return "FAIL";
+    }
+
+	Commands.call("cofh tpx @p 623", player, world, true, true);
+	return "Pass";
+}
+
+if(player.getDimension() == 623) {
+	Commands.call("cofh tpx @p 0", player, world, true, true);
+	return "Pass";
+}
+return "FAIL";
+
+
+};
+flintandfurnace.register();
+
+
+
+var deathloop= VanillaFactory.createItem("deathloop");
+deathloop.maxStackSize = 1;
+deathloop.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("kill @p", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+deathloop.register();

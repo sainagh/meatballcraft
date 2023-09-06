@@ -72,7 +72,6 @@ mods.jei.JEI.addDescription([<threng:big_assembler:0>,<threng:big_assembler:1>,<
 mods.jei.JEI.addDescription(<threng:big_assembler:3>,["Provides 36 patterns for the Mass Assembly Chamber."]);
 mods.jei.JEI.addDescription(<threng:big_assembler:4>,["Increases the speed of the Mass Assembly Chamber."]);
 mods.jei.JEI.addDescription(<threng:big_assembler:5>,["Optional feature for the Mass Assembly Chamber, allows the patterns inside the chamber to be accessed."]);
-mods.jei.JEI.addDescription(<thaumicenergistics:infusion_provider>,["Provides esssentia in the system for infusion crafting. Can work with a crucible/thaumathorium using an emptying essentia transfuser"]);
 mods.jei.JEI.addDescription(<thaumicenergistics:arcane_assembler>,["Autocrafts Thaumcraft recipes, use the Arcane Autoworkbench instead."]);
 mods.jei.JEI.addDescription(<thaumicenergistics:arcane_terminal>,["Like a regular crafting table but can craft Thaumcraft recipes."]);
 mods.jei.JEI.addDescription(<thaumicenergistics:arcane_inscriber>,["Used to make 'patterns' for the Arcane Assembler"]);

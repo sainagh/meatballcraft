@@ -21,9 +21,9 @@
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "",
+	"filling": "minecraft:dirt",
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 700
+	"rarity": 500
 }

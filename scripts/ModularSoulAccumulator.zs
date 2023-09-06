@@ -56,7 +56,9 @@ soulcollectorcrops.addItemOutput(<bewitchment:hellebore>*64);
 soulcollectorcrops.addItemOutput(<bewitchment:mandrake_root>*64);
 soulcollectorcrops.addItemOutput(<bewitchment:white_sage>*64);
 soulcollectorcrops.addItemOutput(<bewitchment:wormwood>*64);
-soulcollectorcrops.addItemOutput(<bewitchment:white_sage>*64);
+soulcollectorcrops.addItemOutput(<bewitchment:spanish_moss>*64);
 soulcollectorcrops.addItemOutput(<immersiveengineering:material:4>*64);
+soulcollectorcrops.addItemOutput(<thebetweenlands:weeping_blue_petal>*64);
+soulcollectorcrops.addItemOutput(<thebetweenlands:spirit_fruit>*64);
 soulcollectorcrops.build();
 

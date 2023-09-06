@@ -54,6 +54,14 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:brightsteel_legs>.addTooltip(format.red("Requires Ancient Elven knowledge to become craftable"));
 
+<contenttweaker:corrosive_crystal_cluster>.addTooltip(format.green("Reusable"));
+<contenttweaker:destructive_crystal_cluster>.addTooltip(format.green("Reusable"));
+<contenttweaker:steadfast_crystal_cluster>.addTooltip(format.green("Reusable"));
+<contenttweaker:demonic_crystal_cluster>.addTooltip(format.green("Reusable"));
+<contenttweaker:vengeful_crystal_cluster>.addTooltip(format.green("Reusable"));
+
+<aoa3:bejewelled_lotto_banner>.addTooltip(format.green("Reusable"));
+
 <contenttweaker:recursion_fear>.addTooltip(format.red("Found in the Towerwood Fortress on Pauram - reusable"));
 <contenttweaker:recursion_fear>.addTooltip(format.green("Reusable"));
 
@@ -98,7 +106,7 @@ import crafttweaker.item.IItemCondition;
 
 <minecraft:totem_of_undying>.addTooltip(format.red("Evoker spawn eggs are craftable"));
 
-<thaumcraft:curio:6>.addTooltip(format.red("Crimson Portal spawn eggs are craftable"));
+<thaumcraft:curio:6>.addTooltip(format.red("Crimson Portals can be found in the overworld"));
 
 <thermalfoundation:storage:8>.addTooltip(format.red("Found in the Elemental Chamber in the Nether"));
 
@@ -303,7 +311,7 @@ import crafttweaker.item.IItemCondition;
 
 <thermalexpansion:machine:1>.addTooltip(format.red("You're gonna need a Quartz Grindstone and a Crank"));
 
-<hatchery:pen>.addTooltip(format.red("The Mechanized coop is recommended from Eden onwards, less lag, more eggs!"));
+<hatchery:pen>.addTooltip(format.red("Read the info box for info on how to farm and breed chickens!"));
 
 <iceandfire:dread_shard>.addTooltip(format.red("Found in the Mausoleum in the overworld (icy!) - You may want a Gravemaster's Key"));
 
@@ -338,8 +346,6 @@ import crafttweaker.item.IItemCondition;
 <ebwizardry:spectral_dust>.addTooltip(format.red("Dropped by Remnants, found in runestone structures in the overworld"));
 
 <contenttweaker:demonic_manastone>.addTooltip(format.red("Found in the Demonic Prison in the Deep Dark"));
-
-<contenttweaker:demonic_manastone>.addTooltip(format.green("This Item is reusable"));
 
 <contenttweaker:unfathomable_breaker>.addTooltip(format.red("Key to a prison in a deep, dark place"));
 
@@ -437,129 +443,129 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:unidentified_body>.addTooltip(format.red("Broken texture is intended, otherwise it wouldn't be unidentified..."));
 
-<aoa3:xxeus_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:xxeus_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:voxxulon_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:voxxulon_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:visualent_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:visualent_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:vinocorne_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:vinocorne_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:tyrosaur_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:tyrosaur_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:skeletron_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:skeletron_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:silverfoot_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:silverfoot_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:shadowlord_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:shadowlord_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:rockrider_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:rockrider_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:raxxan_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:raxxan_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:proshield_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:proshield_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:penumbra_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:penumbra_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:okazor_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:okazor_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:miskel_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:miskel_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:mirage_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:mirage_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:mechbot_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:mechbot_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:kror_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:kror_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:klobber_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:klobber_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:king_shroomus_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:king_shroomus_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:kajaros_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:kajaros_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:hydrolisk_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:hydrolisk_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:horon_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:horon_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:hive_king_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:hive_king_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:harkos_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:harkos_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:gyro_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:gyro_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:guardian_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:guardian_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:goldorth_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:goldorth_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:flash_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:flash_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:elusive_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:elusive_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:dracyon_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:dracyon_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:crystocore_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:crystocore_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:creep_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:creep_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:craexxeus_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:craexxeus_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:cotton_candor_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:cotton_candor_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:coniferon_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:coniferon_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:clunkhead_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:clunkhead_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:baroness_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:baroness_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:bane_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:bane_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:king_bambambam_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:king_bambambam_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:nethengeic_wither_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:nethengeic_wither_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:corallus_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:corallus_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<aoa3:smash_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<aoa3:smash_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:ancient_entity_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:ancient_entity_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:ayeraco_statue_blue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:ayeraco_statue_blue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:ayeraco_statue_red>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:ayeraco_statue_red>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:ayeraco_statue_yellow>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:ayeraco_statue_yellow>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:ayeraco_statue_green>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:ayeraco_statue_green>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:ayeraco_statue_purple>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:ayeraco_statue_purple>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:densos_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:densos_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:dramix_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:dramix_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:eternal_archer_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:eternal_archer_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:karot_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:karot_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:king_of_scorchers_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:king_of_scorchers_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:parasecta_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:parasecta_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:reyvor_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:reyvor_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:soul_fiend_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:soul_fiend_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:the_watcher_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:the_watcher_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:twilight_demon_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:twilight_demon_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:vamacheron_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:vamacheron_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:termasect_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:termasect_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:sunstorm_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:sunstorm_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
-<divinerpg:experienced_cori_statue>.addTooltip(format.red("Can be crafted in a crafting core"));
+<divinerpg:experienced_cori_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
 <contenttweaker:aeldunari>.addTooltip(format.red("Found in the darkest depths of the darkest abyssal world of darkness"));
 
@@ -604,7 +610,9 @@ import crafttweaker.item.IItemCondition;
 
 <modularmagic:blockaspectproviderinput>.addTooltip(format.red("If essentia input doesn't work, you can jumpstart it with a vial of the desired essentia and it will start flowing in automatically"));
 
-<thaumcraft:sanity_soap>.addTooltip(format.red("Automate in the Thaumatorium with an Essentia Transfuser and an Essentia Infusion Provider (so that Vex can get more!)"));
+<thaumcraft:sanity_soap>.addTooltip(format.red("Hold right click to clear some sticky and temporary warp"));
+
+<thaumcraft:sanity_soap>.addTooltip(format.red("Can be automated with the cleansing callstone"));
 
 <extendedcrafting:singularity_custom:998>.addTooltip(format.red("Thanks to Vex for the idea!"));
 
@@ -620,9 +628,11 @@ import crafttweaker.item.IItemCondition;
 
 <thaumicaugmentation:fracture_locator>.addTooltip(format.red("Fractures look like flux rifts - the locator will change color the closer you get to one"));
 
-<bigreactors:reactorcasing>.addTooltip(format.red("Waaaay better at making steam..."));
+<bigreactors:reactorcasing>.addTooltip(format.red("Place in a hollow cuboid to form the shell for a yellorite reactor"));
 
-<bigreactors:reactorcontroller>.addTooltip(format.red("For making steam, multiple medium reactors are better than a large one"));
+<bigreactors:reactorfuelrod>.addTooltip(format.red("Place in a column inside a yellorite reactor, with a control rod on top, and coolers around it"));
+
+<bigreactors:reactorcontrolrod>.addTooltip(format.red("Place on top of a column of reactor fuel rods"));
 
 <ore:ingotTerrasteel>.addTooltip(format.red("Crafted with the terrestrial agglomeration plate"));
  
@@ -685,9 +695,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:barathos_wormhole>.addTooltip(format.red("Found in Barathos"));
 
-<contenttweaker:deeplands_wormhole>.addTooltip(format.red("Found in Deeplands"));
-
-<contenttweaker:creeponia_wormhole>.addTooltip(format.red("Found in Creeponia"));
+<contenttweaker:deeplands_wormhole>.addTooltip(format.red("Found in the Deeplands"));
 
 <contenttweaker:celestial_shield_fragment>.addTooltip(format.red("Can be obtained (but I won't tell you how...)"));
 
@@ -737,7 +745,6 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:teaker_staff>.addTooltip(format.green("Reusable in crafting recipes ;-)"));
 
-<contenttweaker:object_of_great_mass>.addTooltip(format.green("Reusable"));
 <contenttweaker:staff_of_iceika>.addTooltip(format.green("Reusable"));
 
 <extendedcrafting:table_basic>.addTooltip(format.red("If you're confused by the basic table recipe, follow the quests!"));
@@ -1008,9 +1015,9 @@ import crafttweaker.item.IItemCondition;
 
 <tconstruct:sharpening_kit>.addTooltip(format.red("Tinker Modifier: mining level"));
 
-<minecraft:emerald>.addTooltip(format.red("Tinker Modifier: extra durability & iron mining level"));
+<minecraft:emerald>.addTooltip(format.red("Tinker Modifier: extra durability & one mining level (up to iron)"));
 
-<minecraft:diamond>.addTooltip(format.red("Tinker Modifier: extra durability & obsidian mining level"));
+<minecraft:diamond>.addTooltip(format.red("Tinker Modifier: extra durability & one mining level (up to obsidian)"));
 
 <minecraft:quartz>.addTooltip(format.red("Tinker Modifier: sharpness"));
 
@@ -1102,7 +1109,7 @@ import crafttweaker.item.IItemCondition;
 
 <modularmachinery:itemblueprint>.addTooltip(format.red("Blueprints are just guides for building, you don't have to use them in the controllers"));
 
-<appliedenergistics2:material:53>.addTooltip(format.red("Bad, avoid using"));
+<appliedenergistics2:material:53>.addTooltip(format.red("Bad for lag, avoid using"));
 
 <careerbees:ingredients:1>.addTooltip(format.red("Obtained from the lumber bee"));
 
@@ -1141,6 +1148,8 @@ import crafttweaker.item.IItemCondition;
 <appliedenergistics2:controller>.addTooltip(format.red("Thanks to StaffiX and Weemuu for finding a good version!"));
 
 <contenttweaker:big_slime>.addTooltip(format.red("Because sometimes the worst ideas are the ones that work -0darkomen0"));
+
+<contenttweaker:sticky_callstone>.addTooltip(format.red("Sure you can craft it early on, but should you?"));
 <contenttweaker:sticky_callstone>.addTooltip(format.red("Because sometimes the worst ideas are the ones that work -0darkomen0"));
 
 <buildcraftsilicon:redstone_chipset>.addTooltip(format.red("Better to automate passively"));
@@ -1234,18 +1243,25 @@ import crafttweaker.item.IItemCondition;
 <divinerpg:black_ender_sword>.addTooltip(format.red("Can be super-enchanted"));
 
 <arcane_essentials:master_lightning_sword>.addTooltip(format.red("Can be super-enchanted"));
+<arcane_essentials:master_lightning_sword>.addTooltip(format.red("You have to used a freshly-upgraded master wand to craft this"));
 
 <arcane_essentials:master_sorcery_sword>.addTooltip(format.red("Can be super-enchanted"));
+<arcane_essentials:master_sorcery_sword>.addTooltip(format.red("You have to used a freshly-upgraded master wand to craft this"));
 
 <arcane_essentials:master_nature_sword>.addTooltip(format.red("Can be super-enchanted"));
+<arcane_essentials:master_nature_sword>.addTooltip(format.red("You have to used a freshly-upgraded master wand to craft this"));
 
 <arcane_essentials:master_fire_sword>.addTooltip(format.red("Can be super-enchanted"));
+<arcane_essentials:master_fire_sword>.addTooltip(format.red("You have to used a freshly-upgraded master wand to craft this"));
 
 <arcane_essentials:master_ice_sword>.addTooltip(format.red("Can be super-enchanted"));
+<arcane_essentials:master_ice_sword>.addTooltip(format.red("You have to used a freshly-upgraded master wand to craft this"));
 
 <arcane_essentials:master_healing_sword>.addTooltip(format.red("Can be super-enchanted"));
+<arcane_essentials:master_healing_sword>.addTooltip(format.red("You have to used a freshly-upgraded master wand to craft this"));
 
 <arcane_essentials:master_necromancy_sword>.addTooltip(format.red("Can be super-enchanted"));
+<arcane_essentials:master_necromancy_sword>.addTooltip(format.red("You have to used a freshly-upgraded master wand to craft this"));
 
 <abyssalcraft:soulreaper>.addTooltip(format.red("Can be super-enchanted"));
 
@@ -1539,7 +1555,8 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:arcane_prison_key>.addTooltip(format.red("Right click to summon a boss"));
 
-<contenttweaker:unusually_heavy_bone>.addTooltip(format.red("Right click to summon a boss"));
+<contenttweaker:unusually_heavy_bone>.addTooltip(format.red("Eden dust is obtainable in chapter 1! Go explore the overworld!"));
+<contenttweaker:unusually_heavy_bone>.addTooltip(format.red("Right click to summon a boss!"));
 
 <contenttweaker:recursion_prison_key>.addTooltip(format.red("Callstone"));
 
@@ -1817,8 +1834,8 @@ import crafttweaker.item.IItemCondition;
 
 <thermalexpansion:satchel>.addTooltip(format.red("Backpack"));
 
-<enderutilities:handybag:0>.addTooltip(format.red("Holding this in your inventory will increase you storage slots automatically!"));
-<enderutilities:handybag:1>.addTooltip(format.red("Holding this in your inventory will increase you storage slots automatically!"));
+<enderutilities:handybag:0>.addTooltip(format.red("Holding this in your inventory will increase your storage slots automatically!"));
+<enderutilities:handybag:1>.addTooltip(format.red("Holding this in your inventory will increase your storage slots automatically!"));
 
 
 <extrabotany:masterhandbag>.addTooltip(format.red("Backpack"));
@@ -1877,6 +1894,7 @@ import crafttweaker.item.IItemCondition;
 <thaumcraft:crucible>.addTooltip(format.red("Research Aid"));
 
 <thaumcraft:arcane_workbench>.addTooltip(format.red("Research Aid"));
+
 
 <thaumcraft:infusion_matrix>.addTooltip(format.red("Research Aid"));
 
@@ -2407,11 +2425,14 @@ import crafttweaker.item.IItemCondition;
 <ebwizardry:crystal_silver_plating>.addTooltip(format.red("Found in battle towers"));
 <ebwizardry:crystal_silver_plating>.addTooltip(format.red("With regards to Dragon of Desire"));
 
-<contenttweaker:defined_ingot>.addTooltip(format.red("Crafted by:"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("First crafted by:"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("Dahcreeper, UNQpla, SecreCTB, WingWangg, Yoomara, QuakersOats (team)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("ChaosStrikez (solo)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("Ikea Bear (solo)"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("Mathias & MillerGaming 321 (in spirit)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Sandman366 (solo)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Paronity, Kherune (team)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Nullity UwU (solo)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Mathias & MillerGaming321 (in spirit)"));
 
 <thermaldynamics:duct_32:0>.addTooltip(format.red("Use servos, retrievers, filters to move items with these (see their JEI tooltips for info on how to use them)"));
 <thermaldynamics:duct_32:1>.addTooltip(format.red("Use servos, retrievers, filters to move items with these (see their JEI tooltips for info on how to use them)"));
@@ -2662,6 +2683,7 @@ import crafttweaker.item.IItemCondition;
 <extrautils2:redstoneclock>.addTooltip(format.red("Sends a redstone pulse every second. Use a lever to turn it off!"));
 
 <contenttweaker:void_portal_breaker>.addTooltip(format.red("This lets you break the void portal on the void world side if you have to move it or remove it for building reasons"));
+<contenttweaker:void_portal_breaker>.addTooltip(format.red("WARNING: the portal will not drop, use /spawn if you use this by mistake and don't have a way back"));
 
 <divinerpg:altar_of_corruption>.addTooltip(format.red("Works like an enchanting table, but it doesn't need bookshelves!"));
 
@@ -2868,6 +2890,8 @@ import crafttweaker.item.IItemCondition;
 
 <extrabotany:ultimatehammer>.addTooltip(format.green("Reusable in crafting table"));
 
+<tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).addTooltip(format.green("Reusable when crafting hammers"));
+
 <contenttweaker:ritual_mass_enchanting>.addTooltip(format.red("Use this to combine enchantments up to level 15!"));
 
 <botania:lexicon>.addTooltip(format.red("To unlock more pages:"));
@@ -2944,7 +2968,7 @@ import crafttweaker.item.IItemCondition;
 
 <railcraft:ore_magic:0>.addTooltip(format.red("WARNING: will set things on fire if in your inventory"));
 
-<cyclicmagic:chest_sack_empty>.addTooltip(format.red("WARNING: do not use on machines that store energy, may crash your game"));
+<cyclicmagic:chest_sack_empty>.addTooltip(format.red("WARNING: do not use on machines that store energy, AE2 components, or black hole blocks, it may corrupt things"));
 
 <techreborn:cable:8>.addTooltip(format.red("WARNING: do not connect to radiation scrubbers, it may corrupt your world"));
 <thermaldynamics:duct_0:5>.addTooltip(format.red("WARNING: do not connect to radiation scrubbers, it may corrupt your world"));
@@ -3034,7 +3058,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:advanced_inscriber_doesnt_show_up>.addTooltip(format.red("The advanced version is better for automation"));
 
-<contenttweaker:myrmitite_casing>.addTooltip(format.red("Mathias had an idea, Quantum tried some stiff, thanks!"));
+<contenttweaker:myrmitite_casing>.addTooltip(format.red("Mathias had an idea, Quantum tried some stuff, thanks!"));
 
 <contenttweaker:trait_shocking>.addTooltip(format.red("Thanks to Luctor for writing some of these!"));
 
@@ -3098,3 +3122,254 @@ import crafttweaker.item.IItemCondition;
 <enderutilities:handybag:0>.addTooltip(format.red("WARNING: do not place backpacks, satchels, etc in the extra slots, may cause memory leaks"));
 <enderutilities:handybag:1>.addTooltip(format.red("WARNING: do not place backpacks, satchels, etc in the extra slots, may cause memory leaks"));
 
+<aoa3:hive_egg>.addTooltip(format.red("Right click a tharafly with a hive chunk!"));
+
+<ore:ayeracoStatue>.addTooltip(format.red("Use the Horde Horn in the End!"));
+
+<mod_lavacow:moltenbeef>.addTooltip(format.red("Dropped by salamanders in the nether"));
+
+<contenttweaker:portable_furnace>.addTooltip(format.red("Found in the overworld!"));
+<contenttweaker:portable_furnace>.addTooltip(format.red("What do I do with this?"));
+
+<environmentaltech:modifier_accuracy>.addTooltip(format.red("Used in Void Miners, increases the effects of lenses"));
+<environmentaltech:modifier_speed>.addTooltip(format.red("Used in Void Miners, increases operation speed"));
+
+<environmentaltech:modifier_creative_flight>.addTooltip(format.red("Used in Nano Bots, gives creative flight"));
+<environmentaltech:modifier_fire_resistance>.addTooltip(format.red("Used in Nano Bots, gives fire resistance"));
+<environmentaltech:modifier_glowing>.addTooltip(format.red("Used in Nano Bots, makes players glowing"));
+<environmentaltech:modifier_haste>.addTooltip(format.red("Used in Nano Bots, gives haste"));
+<environmentaltech:modifier_strength>.addTooltip(format.red("Used in Nano Bots, gives strength"));
+<environmentaltech:modifier_jump_boost>.addTooltip(format.red("Used in Nano Bots, gives jump boost"));
+<environmentaltech:modifier_regeneration>.addTooltip(format.red("Used in Nano Bots, gives regeneration"));
+<environmentaltech:modifier_resistance>.addTooltip(format.red("Used in Nano Bots, gives resistance"));
+<environmentaltech:modifier_water_breathing>.addTooltip(format.red("Used in Nano Bots, gives water breathing"));
+<environmentaltech:modifier_invisibility>.addTooltip(format.red("Used in Nano Bots, gives invisibility"));
+<environmentaltech:modifier_night_vision>.addTooltip(format.red("Used in Nano Bots, gives night vision"));
+<environmentaltech:modifier_health_boost>.addTooltip(format.red("Used in Nano Bots, gives more HP"));
+<environmentaltech:modifier_absorption>.addTooltip(format.red("Used in Nano Bots, gives absorption"));
+<environmentaltech:modifier_saturation>.addTooltip(format.red("Used in Nano Bots, refills hunger"));
+
+<environmentaltech:modifier_luck>.addTooltip(format.red("Used in Void Miners, increases ores per operation"));
+<environmentaltech:modifier_luck>.addTooltip(format.red("Used in Nano Bots, gives luck"));
+
+<environmentaltech:modifier_piezo>.addTooltip(format.red("Used in Solar Arrays, gives immunity to rain"));
+
+<contenttweaker:borean_wormhole>.addTooltip(format.red("From the Borean callstone"));
+<contenttweaker:candyland_wormhole>.addTooltip(format.red("Crafted"));
+<contenttweaker:ancient_cavern_wormhole>.addTooltip(format.red("From the terran summoning"));
+<contenttweaker:lunalus_wormhole>.addTooltip(format.red("From the Lunalus callstone"));
+<contenttweaker:gardencia_wormhole>.addTooltip(format.red("Found in Gardencia"));
+<contenttweaker:crystevia_wormhole>.addTooltip(format.red("From the Crystevia callstone"));
+<contenttweaker:greckon_wormhole>.addTooltip(format.red("Found in Greckon (inside bedrock)"));
+<contenttweaker:vox_wormhole>.addTooltip(format.red("Found in the Vox Ponds"));
+<contenttweaker:dustopia_wormhole>.addTooltip(format.red("Found in Dustopia"));
+<contenttweaker:iromine_wormhole>.addTooltip(format.red("From the Iromine callstone"));
+<contenttweaker:celeve_wormhole>.addTooltip(format.red("Crafted"));
+<contenttweaker:immortallis_wormhole>.addTooltip(format.red("From the Immortallis callstone"));
+<contenttweaker:haven_wormhole>.addTooltip(format.red("Found in Haven"));
+
+<botania:lokiring>.addTooltip(format.red("WARNING: this may mess up your ability to right click"));
+
+<contenttweaker:energy_hive>.addTooltip(format.red("From the orbital callstone"));
+
+<twilightforest:seeker_bow>.addTooltip(format.red("Dropped by the snow queen in the Twilight Forest"));
+
+<ore:bed>.addTooltip(format.red("WARNING: do not use in the void dimension"));
+
+<contenttweaker:burning_furnace>.addTooltip(format.red("Nether Brick Nether Brick Nether Brick Nether Roof"));
+
+<contenttweaker:furnace_heart>.addTooltip(format.red("Found in the furnace dimension"));
+
+<contenttweaker:living_myrmitite_ingot>.addTooltip(format.red("Combine enchanted myrmitite with the right modifier tomes - precasia will guide you"));
+
+<cyclicmagic:glowing_helmet>.addTooltip(format.red("Found in battle towers"));
+
+<abyssalcraft:materializer>.addTooltip(format.red("NOTE: the sapling and wood drops are not actually produced"));
+
+<iceandfire:weezer_blue_album>.addTooltip(format.red("Rare loot in dragon lairs"));
+<iceandfire:weezer_blue_album>.addTooltip(format.red("Bernie Sandwich's favorite material"));
+
+<bewitchment:snake_venom>.addTooltip(format.red("Spawn eggs for some bewitchment animals can be found in the nether"));
+
+<thaumcraft:caster_basic>.addTooltip(format.red("Press H to equip and change spell foci"));
+
+<contenttweaker:shungite_prism>.addTooltip(format.red("Right click to become immune to radiation"));
+
+<contenttweaker:shungite>.addTooltip(format.red("Found on Zoi"));
+
+<ore:dustBorax>.addTooltip(format.red("You should build a passive line to buffer both dust and liquid, you'll need lots in the future!"));
+
+<contenttweaker:asgard_furnace_brick>.addTooltip(format.red("Obtained from the aesir rift"));
+
+<torcherino:blockcompressedtorcherino>.addTooltip(format.red("Found in apichisi"));
+
+<ore:ingotMithrillium>.addTooltip(format.red("Unlocking this research is quite hard, better to make a really scary vishroom"));
+
+<appliedenergistics2:part:460>.addTooltip(format.red("Use the advanced memory card to connect p2p buses!"));
+<appliedenergistics2:part:460>.addTooltip(format.red("Use a quartz knife to rename p2p buses!"));
+<appliedenergistics2:part:460>.addTooltip(format.red("Read the JEI info box for more info!"));
+
+<appliedenergistics2:part:461>.addTooltip(format.red("Use the advanced memory card to connect p2p buses!"));
+<appliedenergistics2:part:461>.addTooltip(format.red("Use a quartz knife to rename p2p buses!"));
+<appliedenergistics2:part:461>.addTooltip(format.red("Read the JEI info box for more info!"));
+
+<appliedenergistics2:part:462>.addTooltip(format.red("Use the advanced memory card to connect p2p buses!"));
+<appliedenergistics2:part:462>.addTooltip(format.red("Use a quartz knife to rename p2p buses!"));
+<appliedenergistics2:part:462>.addTooltip(format.red("Read the JEI info box for more info!"));
+
+<appliedenergistics2:part:463>.addTooltip(format.red("Use the advanced memory card to connect p2p buses!"));
+<appliedenergistics2:part:463>.addTooltip(format.red("Use a quartz knife to rename p2p buses!"));
+<appliedenergistics2:part:463>.addTooltip(format.red("Read the JEI info box for more info!"));
+
+<appliedenergistics2:part:467>.addTooltip(format.red("Use the advanced memory card to connect p2p buses!"));
+<appliedenergistics2:part:467>.addTooltip(format.red("Use a quartz knife to rename p2p buses!"));
+<appliedenergistics2:part:467>.addTooltip(format.red("Read the JEI info box for more info!"));
+
+<appliedenergistics2:part:469>.addTooltip(format.red("Use the advanced memory card to connect p2p buses!"));
+<appliedenergistics2:part:469>.addTooltip(format.red("Use a quartz knife to rename p2p buses!"));
+<appliedenergistics2:part:469>.addTooltip(format.red("Read the JEI info box for more info!"));
+
+<contenttweaker:grand_magician_callstone>.addTooltip(format.red("Can only be crafted after activating the hard mode"));
+<contenttweaker:rulers_of_terra_callstone>.addTooltip(format.red("Can only be crafted after activating the hard mode"));
+
+<contenttweaker:yellorite_reactor>.addTooltip(format.red("There are multiple multiblock previews to show how to make a yellorite reactor, there can be of any size"));
+
+<contenttweaker:astral_animator>.addTooltip(format.red("Found on Diamerisma"));
+
+<contenttweaker:astral_animator>.addTooltip(format.red("Craft together with the correct soul vials, Taerrapiatta will guide you!"));
+
+<contenttweaker:mark_of_the_arbiter>.addTooltip(format.red("Craft the astral animator with the correct soul vials, Taerrapiatta will guide you!"));
+
+<packagedauto:packager>.addTooltip(format.red("To set up autocrafting, use the following order: ME cable > packager > unpackager > package crafter or other machine, this consumes two channels"));
+<packagedauto:unpackager>.addTooltip(format.red("To set up autocrafting, use the following order: ME cable > packager > unpackager > package crafter or other machine, this consumes two channels"));
+
+<bloodmagic:blood_orb>.addTooltip(format.red("Right click to bind to your player"));
+<bloodmagic:blood_orb>.addTooltip(format.red("Place in a blood altar of the corresponding tier to charge your blood network"));
+<bloodmagic:blood_orb>.addTooltip(format.red("WARNING: if your blood network is empty, you will get nausea"));
+
+<gendustry:honey_comb:14014>.addTooltip(format.red("Found on Nero"));
+
+<appliedenergistics2:memory_card>.addTooltip(format.red("Use the advanced memory card instead"));
+
+<betterp2p_plusplus:advanced_memory_card>.addTooltip(format.red("Right click on a P2P bus to bind it to another, this card has a GUI"));
+<betterp2p_plusplus:advanced_memory_card>.addTooltip(format.red("P2P buses can be renamed with a quartz cutting knife, makes it easier to keep track of things"));
+
+<appliedenergistics2:certus_quartz_cutting_knife>.addTooltip(format.red("Right click on a bus to rename it"));
+<appliedenergistics2:nether_quartz_cutting_knife>.addTooltip(format.red("Right click on a bus to rename it"));
+
+<agricraft:seed_analyzer>.addTooltip(format.red("WARNING: leaving this as a placed block in your world may cause extreme lag, break after using"));
+<agricraft:peripheral>.addTooltip(format.red("WARNING: leaving this as a placed block in your world may cause extreme lag, break after using"));
+
+<thebetweenlands:items_misc:45>.addTooltip(format.red("Dropped by emberlings, found in the sludgeon in the betweenlands, and in the final spatial diviner"));
+
+<mysticalagradditions:special:1>.addTooltip(format.red("Place under the soil to make the seeds work"));
+<mysticalagradditions:special:0>.addTooltip(format.red("Place under the soil to make the seeds work"));
+<mysticalagradditions:special:4>.addTooltip(format.red("Place under the soil to make the seeds work"));
+<mysticalagradditions:special:5>.addTooltip(format.red("Place under the soil to make the seeds work"));
+
+<iceandfire:shiny_scales>.addTooltip(format.red("Dropped by sirens"));
+
+<iceandfire:dragonforge_fire_core>.addTooltip(format.red("The forge requires the breath of a dragon into the aperture to work"));
+<iceandfire:dragonforge_ice_core>.addTooltip(format.red("The forge requires the breath of a dragon into the aperture to work"));
+<iceandfire:dragonforge_fire_input>.addTooltip(format.red("The forge requires the breath of a dragon into the aperture to work"));
+<iceandfire:dragonforge_ice_input>.addTooltip(format.red("The forge requires the breath of a dragon into the aperture to work"));
+
+<iceandfire:fire_dragon_blood>.addTooltip(format.red("Right click a dead dragon with a glass bottle to obtain"));
+<iceandfire:ice_dragon_blood>.addTooltip(format.red("Right click a dead dragon with a glass bottle to obtain"));
+
+<mod_lavacow:undyingheart>.addTooltip(format.red("Dropped by Ithaqua, Sludge Lord, Undertaker, Undead Swine"));
+
+<mod_lavacow:pigboarhide>.addTooltip(format.red("Dropped by undead swine"));
+
+<mod_lavacow:acidicheart>.addTooltip(format.red("Dropped by mummies"));
+
+<mod_lavacow:foul_bristle>.addTooltip(format.red("Dropped by Ithaqua and Foglet"));
+
+<mod_lavacow:intestine>.addTooltip(format.red("Dropped by all undead mobs"));
+
+<mod_lavacow:skeletonking_crown>.addTooltip(format.red("Dropped by the skeleton king"));
+
+<deepmoblearningbm:digital_will_injector>.addTooltip(format.red("This machine is disabled!"));
+
+<contenttweaker:dense_redstone>.addTooltip(format.red("Thanks to EchoEclipse for the texture!"));
+
+<bloodmagic:altar>.addTooltip(format.red("Read the info box for the possible ways of farming LP"));
+
+<architecturecraft:sawbench>.addTooltip(format.red("WARNING: for slanted blocks and stairs, framed blocks from blockcraftery are less laggy"));
+<architecturecraft:shape>.addTooltip(format.red("WARNING: for slanted blocks and stairs, framed blocks from blockcraftery are less laggy"));
+
+<nuclearcraft:radiation_scrubber>.addTooltip(format.red("For an optimal setup, place 9 of these in the sky with spectre coils"));
+
+<malisisdoors:hitechdoor>.addTooltip(format.red("WARNING: placing this may cause visual bugs"));
+
+<botania:magnetring>.addTooltip(format.red("The solegnolia flower prevents this magnet from working nearby"));
+<botania:magnetringgreater>.addTooltip(format.red("The solegnolia flower prevents this magnet from working nearby"));
+
+<draconicevolution:magnet:0>.addTooltip(format.red("The dislocation normalization field projector prevents this magnet from working nearby "));
+<draconicevolution:magnet:1>.addTooltip(format.red("The dislocation normalization field projector prevents this magnet from working nearby "));
+
+<bloodmagic:ritual_controller:0>.addTooltip(format.red("Use the ritual diviner to select the ritual you want."));
+<bloodmagic:ritual_controller:0>.addTooltip(format.red("Right click the master ritual stone while having uncolored ritual stones in your inventory to auto-place the ritual!"));
+
+<abyssalcraft:dreadshard>.addTooltip(format.red("Dropped by dread mobs in the dreadlands"));
+
+<thaumcraft:scribing_tools>.addTooltip(format.red("Right click a wood table"));
+<thaumcraft:table_wood>.addTooltip(format.red("Right click with the scribing tools"));
+
+<thaumcraft:arcane_workbench_charger>.addTooltip(format.red("Place on top of an arcane autoworkbench to increase its aura range to 3x3 chunks!"));
+
+<thaumcraft:everfull_urn>.addTooltip(format.red("Refills nearby crucibles automatically"));
+
+<thaumcraft:crucible>.addTooltip(format.red("Right click a cauldron with salis mundus"));
+
+<contenttweaker:magic_mushroom_dark>.addTooltip(format.red("Thanks to Xenosplitter and Ikea Bear for compiling the research steps!"));
+
+<contenttweaker:omothol_warp_cleanser>.addTooltip(format.red("Thanks to Tom for compiling the research steps!"));
+
+<thaumcraft:nugget:9>.addTooltip(format.red("Drop in a crucible to transform excess essentia into ctystals"));
+
+<thaumcraft:tube>.addTooltip(format.red("Tube that transports one type of essentia at a time"));
+
+<thaumcraft:tube_valve>.addTooltip(format.red("Tube that can be switchen on and off"));
+
+<thaumcraft:tube_restrict>.addTooltip(format.red("Tube that has lower priority"));
+
+<thaumcraft:tube_oneway>.addTooltip(format.red("One-way tube"));
+
+<thaumcraft:tube_filter>.addTooltip(format.red("Tube with a filter, right click with a phial of the desired essentia to whitelist"));
+
+<thaumcraft:tube_buffer>.addTooltip(format.red("Tube component that can store up to 8 essentias"));
+
+<thaumcraft:alembic>.addTooltip(format.red("You can place up to three on top of the smeltery"));
+
+<thaumcraft:salis_mundus>.addTooltip(format.red("Right click on things to transform them, see uses in multiblock previews"));
+
+<thaumcraft:brain_box>.addTooltip(format.red("Place on the side of a thaumatorium to encode an extra recipe!"));
+
+<thaumadditions:mithrillium_smelter>.addTooltip(format.red("Does not produce any flux"));
+<thaumadditions:adaminite_smelter>.addTooltip(format.red("Does not produce any flux, and has a 120% yield"));
+<thaumadditions:mithminite_smelter>.addTooltip(format.red("Does not produce any flux, and has a 150% yield"));
+
+<thaumcraft:goggles>.addTooltip(format.red("These will let you see essentia in thaumcraft machines, make sure you wear them at all times!"));
+
+<thaumcraft:primordial_pearl>.addTooltip(format.red("Dropped by thaumcraft bosses, like the crimson praetors that are spawned by portals"));
+
+<thaumicaugmentation:rift_seed>.addTooltip(format.red("Infuse with void seeds to grow"));
+
+<thaumadditions:puriflower>.addTooltip(format.red("Place down to slowly remove flux in that chunk. There are no drawbacks!"));
+
+<thaumcraft:hungry_chest>.addTooltip(format.red("Automatically collects items dropped on it"));
+
+<thaumicaugmentation:arcane_terraformer>.addTooltip(format.red("Use this with the biome checker"));
+
+<woot:anvil>.addTooltip(format.red("Place on top of a magma block"));
+
+<railcraft:rock_crusher>.addTooltip(format.red("This machine is disabled"));
+
+<mod_lavacow:ectoplasm>.addTooltip(format.red("Dropped by ghost rays and banshees in the overworld"));
+
+<mowziesmobs:ice_crystal>.addTooltip(format.red("Dropped by the frostmaw in iceika"));
+
+<contenttweaker:psichic_stone>.addTooltip(format.red("Use the ore excavator on Europa, psivein"));
+
+<contenttweaker:better_red_coal>.addTooltip(format.red("This can be used to set recipes and automations more easily :)"));

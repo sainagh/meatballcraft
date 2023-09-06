@@ -240,7 +240,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch"
+                "generalized_output_fluid"
             ]
         },
         {
@@ -264,7 +264,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch"
+                "generalized_output_fluid"
             ]
         },
         {
@@ -760,7 +760,7 @@
             "y": 4,
             "z": 3,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch"
+                "generalized_output_fluid"
             ]
         },
         {
@@ -792,7 +792,7 @@
             "y": 4,
             "z": 3,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch"
+                "generalized_output_fluid"
             ]
         },
         {
@@ -968,7 +968,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch"
+                "generalized_output_fluid"
             ]
         },
         {

@@ -43,3 +43,5 @@ recipes.addShaped(<cyclicmagic:book_ender>,
 recipes.remove(<cyclicmagic:magic_net>);
 
 recipes.remove(<cyclicmagic:beacon_potion>);
+
+recipes.remove(<cyclicmagic:auto_crafter>);

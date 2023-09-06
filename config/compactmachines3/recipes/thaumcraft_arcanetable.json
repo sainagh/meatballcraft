@@ -1,0 +1,47 @@
+{
+    "name": "compactmachines3:thaumcraft_arcanetable",
+    "target-item": "thaumcraft:arcane_workbench",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:tripwire",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:salis_mundus",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "minecraft:crafting_table",
+        "meta": 0,
+        "item": {
+            "id": "minecraft:crafting_table",
+            "count": 1
+          }
+      }
+    },
+    "shape": [
+      [
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "b"
+        ]
+      ]
+    ]
+           
+}

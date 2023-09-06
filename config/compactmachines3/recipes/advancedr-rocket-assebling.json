@@ -1,0 +1,330 @@
+{
+  "name": "cm3advancedrocketry:rocketbuilder",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:rocketbuilder",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "advancedrocketry:launchpad",
+      "meta": 0
+    },
+    "b": {
+      "id": "advancedrocketry:structuretower",
+      "meta": 0
+    },
+    "c": {
+      "id": "advancedrocketry:rocketbuilder",
+      "meta": 5,
+      "item": {
+        "id": "advancedrocketry:rocketbuilder",
+        "count": 1
+      }
+    },
+    "d": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0
+    }
+  },
+  "input-nbt": {
+    "c:A": {
+      "nbt": "{scanTotalBlocks:0,maxEnergy:100000,scanTime:0,rocketStats:{fuelBaseRateIon:0.0f,drillingPower:0.0f,fuelRateBipropellant:0,playerXPos:-2147483648,fuelCapacityWarp:0,fuelBaseRateBipropellant:0.0f,playerZPos:0,oxidizerFluid:\"null\",fuelOxidizer:0,fuelIon:0,fuelRateMonopropellant:0,fuelRateNuclear:0,fuelBipropellant:0,fuelCapacityNuclear:0,fuelBaseRateMonopropellant:0.0f,fuelMonopropellant:0,fuelBaseRateOxidizer:0.0f,weight:0,fuelImpulse:0,fuelBaseRateWarp:0.0f,fuelCapacityOxidizer:0,fuelCapacityBipropellant:0,fuelBaseRateImpulse:0.0f,fuelFluid:\"null\",fuelNuclear:0,playerYPos:0,fuelRateOxidizer:0,fuelRateWarp:0,fuelBaseRateNuclear:0.0f,fuelCapacityIon:0,fuelRateIon:0,thrust:0,fuelCapacityImpulse:0,fuelWarp:0,fuelCapacityMonopropellant:0,fuelRateImpulse:0},ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"minecraft:arrocketbuilder\",building:0b,energy:0,status:5}"
+    },
+    "d:A": {
+      "nbt": "{maxEnergy:100000,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{shieldingRadResistance:0.0d,radiationResistance:0.0d}},id:\"minecraft:vulpesforgepowerinput\",teir:1,energy:0}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "b",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "b",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "b",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "b",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "b",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "c:A"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "_"
+      ],
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "_"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "d:A"
+      ],
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "_"
+      ],
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "_"
+      ]
+    ]
+  ]
+
+}

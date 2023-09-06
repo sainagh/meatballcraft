@@ -45,3 +45,19 @@ recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "abyssalcraft:s
 mods.nuclearcraft.melter.addRecipe([<abyssalcraft:dreadiumingot>, <fluid:moltendreadium>*144]);
 mods.nuclearcraft.melter.addRecipe([<abyssalcraft:abyingot>, <fluid:moltenabyssalnite>*144]);
 mods.nuclearcraft.melter.addRecipe([<abyssalcraft:cingot>, <fluid:moltenrefinedcoralium>*144]);
+
+
+recipes.addShaped(<contenttweaker:abyssal_wasteland_containment_stone>,
+[[<ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>],
+[<ore:ingotAbyssalnite>, <abyssalcraft:tieredenergycontainer:1>, <ore:ingotAbyssalnite>],
+[<ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>]]);
+
+recipes.addShaped(<contenttweaker:dreadlands_containment_stone>,
+[[<ore:ingotDreadium>, <ore:ingotDreadium>, <ore:ingotDreadium>],
+[<ore:ingotDreadium>, <abyssalcraft:tieredenergycontainer:2>, <ore:ingotDreadium>],
+[<ore:ingotDreadium>, <ore:ingotDreadium>, <ore:ingotDreadium>]]);
+
+recipes.addShaped(<contenttweaker:omothol_containment_stone>,
+[[<ore:ingotEthaxium>, <ore:ingotEthaxium>, <ore:ingotEthaxium>],
+[<ore:ingotEthaxium>, <abyssalcraft:tieredenergycontainer:3>, <ore:ingotEthaxium>],
+[<ore:ingotEthaxium>, <ore:ingotEthaxium>, <ore:ingotEthaxium>]]);

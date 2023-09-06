@@ -141,3 +141,7 @@ mods.thermalexpansion.Insolator.removeRecipe(<mysticalagriculture:aluminum_brass
 mods.thermalexpansion.Insolator.removeRecipe(<mysticalagriculture:experience_seeds>, <thermalfoundation:fertilizer:0>);
 mods.thermalexpansion.Insolator.removeRecipe(<mysticalagriculture:experience_seeds>, <thermalfoundation:fertilizer:1>);
 mods.thermalexpansion.Insolator.removeRecipe(<mysticalagriculture:experience_seeds>, <thermalfoundation:fertilizer:2>);
+
+mods.thermalexpansion.Insolator.removeRecipe(<mysticalagriculture:alumite_seeds>, <thermalfoundation:fertilizer:0>);
+mods.thermalexpansion.Insolator.removeRecipe(<mysticalagriculture:alumite_seeds>, <thermalfoundation:fertilizer:1>);
+mods.thermalexpansion.Insolator.removeRecipe(<mysticalagriculture:alumite_seeds>, <thermalfoundation:fertilizer:2>);

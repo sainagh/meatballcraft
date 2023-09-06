@@ -1,0 +1,149 @@
+{
+    "name": "compactmachines3:bigreactor_fuelrod2",
+    "target-item": "contenttweaker:yellorite_reactor",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+    "input-types": {
+      "a": {
+        "id": "bigreactors:reactorcasing",
+        "meta": 0,
+        "item": {
+            "id": "bigreactors:reactorcasing",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "draconicevolution:draconium_block",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:search_bigreactorcooler_for_options",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "bigreactors:reactorcontrolrod",
+        "meta": 0,
+        "item": {
+            "id": "bigreactors:reactorcontrolrod",
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "bigreactors:reactorfuelrod",
+        "meta": 0,
+        "item": {
+            "id": "bigreactors:reactorfuelrod",
+            "count": 1
+          }
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{id:\"bigreactors:tileentityreactorpart\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+      },
+      "c:A": {
+        "nbt": "{id:\"bigreactors:tileentityreactorcontrolrod\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},controlRodInsertion:0s}"
+      },
+      "d:A": {
+        "nbt": "{id:\"bigreactors:tileentityreactorfuelrod\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+      },
+      "a:B": {
+        "nbt": "{id:\"bigreactors:tileentityreactorpart\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},multiblockData:{reactorActive:0b,heat:0.0f,fuelHeat:0.0f,storedEnergy:0.0f,wasteEjection2:0,fuelContainer:{fuelUsage:0.0f},radiation:{fertility:1.0f},coolantContainer:{}}}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "a:A",
+          "_"
+        ],
+        [
+          "a:A",
+          "c:A",
+          "a:A"
+        ],
+        [
+          "_",
+          "a:A",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "b",
+          "_"
+        ],
+        [
+          "b",
+          "d:A",
+          "b"
+        ],
+        [
+          "_",
+          "b",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "b",
+          "_"
+        ],
+        [
+          "b",
+          "d:A",
+          "b"
+        ],
+        [
+          "_",
+          "b",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "b",
+          "_"
+        ],
+        [
+          "b",
+          "d:A",
+          "b"
+        ],
+        [
+          "_",
+          "b",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "a:B",
+          "_"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "_",
+          "a:A",
+          "_"
+        ]
+      ]
+    ]
+       
+}

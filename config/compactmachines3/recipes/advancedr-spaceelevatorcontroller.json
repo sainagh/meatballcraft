@@ -1,0 +1,165 @@
+{
+  "name": "cm3ar:spaceelevatorcontroller",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:spaceelevatorcontroller",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+   
+
+  "input-types": {
+    "a": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0
+    },
+    "b": {
+      "id": "advancedrocketry:spaceelevatorcontroller",
+      "meta": 2,
+      "item": {
+        "id": "advancedrocketry:spaceelevatorcontroller",
+        "count": 1
+      }
+    },
+    "c": {
+      "id": "thermalfoundation:storage_alloy",
+      "meta": 0
+    },
+    "d": {
+      "id": "minecraft:stone_slab",
+      "meta": 0
+    },
+    "e": {
+      "id": "libvulpes:advstructuremachine",
+      "meta": 0
+    },
+    "f": {
+      "id": "libvulpes:elitemotor",
+      "meta": 2,
+      "item": {
+        "id": "libvulpes:elitemotor",
+        "count": 1
+      }
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "a:A",
+        "b:A",
+        "a:A",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "c",
+        "_",
+        "_",
+        "d",
+        "d",
+        "d",
+        "_",
+        "_",
+        "c"
+      ],
+      [
+        "_",
+        "e",
+        "d",
+        "d",
+        "d",
+        "d",
+        "d",
+        "e",
+        "_"
+      ],
+      [
+        "_",
+        "d",
+        "e",
+        "d",
+        "d",
+        "d",
+        "e",
+        "d",
+        "_"
+      ],
+      [
+        "d",
+        "d",
+        "d",
+        "e",
+        "e",
+        "e",
+        "d",
+        "d",
+        "d"
+      ],
+      [
+        "d",
+        "d",
+        "d",
+        "e",
+        "f",
+        "e",
+        "d",
+        "d",
+        "d"
+      ],
+      [
+        "d",
+        "d",
+        "d",
+        "e",
+        "e",
+        "e",
+        "d",
+        "d",
+        "d"
+      ],
+      [
+        "_",
+        "d",
+        "e",
+        "d",
+        "d",
+        "d",
+        "e",
+        "d",
+        "_"
+      ],
+      [
+        "_",
+        "e",
+        "d",
+        "d",
+        "d",
+        "d",
+        "d",
+        "e",
+        "_"
+      ],
+      [
+        "c",
+        "_",
+        "_",
+        "d",
+        "d",
+        "d",
+        "_",
+        "_",
+        "c"
+      ]
+    ]
+  ]
+
+}

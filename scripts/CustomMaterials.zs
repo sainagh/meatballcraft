@@ -432,3 +432,84 @@ armordamascussteel.addDataValue("durability", "950000");
 armordamascussteel.addDataValue("enchantability", "100");
 armordamascussteel.addDataValue("reduction", "10,12,17,9");
 armordamascussteel.addDataValue("toughness", "25");
+
+var colorosiris = Color.fromHex("8c443c") as Color;
+var osiris = MaterialSystem.getMaterialBuilder().setName("Osiris").setColor(colorosiris).build();
+osiris.registerParts(["plate"] as string[]);
+var armorosiris = osiris.registerPart("armor").getData();
+armorosiris.addDataValue("durability", "5642");
+armorosiris.addDataValue("enchantability", "88");
+armorosiris.addDataValue("reduction", "4,7,9,5");
+armorosiris.addDataValue("toughness", "7");
+
+var colorptah = Color.fromHex("fca532") as Color;
+var ptah = MaterialSystem.getMaterialBuilder().setName("Ptah").setColor(colorptah).build();
+ptah.registerParts(["plate"] as string[]);
+var armorptah = ptah.registerPart("armor").getData();
+armorptah.addDataValue("durability", "5642");
+armorptah.addDataValue("enchantability", "88");
+armorptah.addDataValue("reduction", "4,7,9,5");
+armorptah.addDataValue("toughness", "7");
+
+var colorhator = Color.fromHex("e3702d") as Color;
+var hator = MaterialSystem.getMaterialBuilder().setName("Hator").setColor(colorhator).build();
+hator.registerParts(["plate"] as string[]);
+var armorhator = hator.registerPart("armor").getData();
+armorhator.addDataValue("durability", "5642");
+armorhator.addDataValue("enchantability", "88");
+armorhator.addDataValue("reduction", "4,7,9,5");
+armorhator.addDataValue("toughness", "7");
+
+var coloreuropa = Color.fromHex("9cbee6") as Color;
+var europa = MaterialSystem.getMaterialBuilder().setName("Europa").setColor(coloreuropa).build();
+europa.registerParts(["plate"] as string[]);
+var armoreuropa = europa.registerPart("armor").getData();
+armoreuropa.addDataValue("durability", "5642");
+armoreuropa.addDataValue("enchantability", "88");
+armoreuropa.addDataValue("reduction", "4,7,9,5");
+armoreuropa.addDataValue("toughness", "7");
+
+var coloroi = Color.fromHex("736c43") as Color;
+var oi = MaterialSystem.getMaterialBuilder().setName("Oi").setColor(coloroi).build();
+oi.registerParts(["plate"] as string[]);
+var armoroi = oi.registerPart("armor").getData();
+armoroi.addDataValue("durability", "5642");
+armoroi.addDataValue("enchantability", "88");
+armoroi.addDataValue("reduction", "4,7,9,5");
+armoroi.addDataValue("toughness", "7");
+
+var colorfalacer = Color.fromHex("508754") as Color;
+var falacer = MaterialSystem.getMaterialBuilder().setName("Falacer").setColor(colorfalacer).build();
+falacer.registerParts(["plate"] as string[]);
+var armorfalacer = falacer.registerPart("armor").getData();
+armorfalacer.addDataValue("durability", "5642");
+armorfalacer.addDataValue("enchantability", "88");
+armorfalacer.addDataValue("reduction", "4,7,9,5");
+armorfalacer.addDataValue("toughness", "7");
+
+var colororcus = Color.fromHex("87505b") as Color;
+var orcus = MaterialSystem.getMaterialBuilder().setName("Orcus").setColor(colororcus).build();
+orcus.registerParts(["plate"] as string[]);
+var armororcus = orcus.registerPart("armor").getData();
+armororcus.addDataValue("durability", "5642");
+armororcus.addDataValue("enchantability", "88");
+armororcus.addDataValue("reduction", "4,7,9,5");
+armororcus.addDataValue("toughness", "7");
+
+var colorhaumea = Color.fromHex("de7eb5") as Color;
+var haumea = MaterialSystem.getMaterialBuilder().setName("Haumea").setColor(colorhaumea).build();
+haumea.registerParts(["plate"] as string[]);
+var armorhaumea = haumea.registerPart("armor").getData();
+armorhaumea.addDataValue("durability", "5642");
+armorhaumea.addDataValue("enchantability", "88");
+armorhaumea.addDataValue("reduction", "4,7,9,5");
+armorhaumea.addDataValue("toughness", "7");
+
+var colorsedna = Color.fromHex("e6e8ff") as Color;
+var sedna = MaterialSystem.getMaterialBuilder().setName("Sedna").setColor(colorsedna).build();
+sedna.registerParts(["plate"] as string[]);
+var armorsedna = sedna.registerPart("armor").getData();
+armorsedna.addDataValue("durability", "5642");
+armorsedna.addDataValue("enchantability", "88");
+armorsedna.addDataValue("reduction", "4,7,9,5");
+armorsedna.addDataValue("toughness", "7");

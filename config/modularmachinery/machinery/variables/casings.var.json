@@ -6,14 +6,14 @@
         "modularmachinery:blockfluidinputhatch",
         "modularmachinery:blockoutputbus",
         "modularmachinery:blockenergyoutputhatch",
-        "modularmachinery:blockfluidoutputhatch"
+        "generalized_output_fluid"
     ],
     "casings_decorative": [
         "modularmachinery:blockcasing"
     ],
     "casings_fluid": [
         "modularmachinery:blockfluidinputhatch",
-        "modularmachinery:blockfluidoutputhatch"
+        "generalized_output_fluid"
     ],
     "casings_energy": [
         "modularmachinery:blockenergyinputhatch",
@@ -22,5 +22,22 @@
     "casings_item": [
         "modularmachinery:blockinputbus",
         "modularmachinery:blockoutputbus"
+    ],
+    "generalized_input_item": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockmeiteminputbus"
+    ],
+    "generalized_output_item": [
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockmeitemoutputbus"
+    ],
+    "generalized_output_fluid": [
+        "modularmachinery:blockfluidoutputhatch",
+        "modularmachinery:blockmefluidoutputbus"
+    ],
+    "generalized_input_fluid": [
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockmefluidinputbus"
     ]
+
 }

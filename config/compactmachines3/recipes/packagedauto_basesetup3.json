@@ -1,0 +1,72 @@
+{
+    "name": "compactmachines3:packagedauto_basesetup3",
+    "target-item": "packagedexcrafting:advanced_crafter",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "appliedenergistics2:cable_bus",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:basesetup_seeotherpreviewforadvanced",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "packagedauto:packager",
+        "meta": 0,
+        "item": {
+            "id": "packagedauto:packager",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "packagedauto:unpackager",
+        "meta": 0,
+        "item": {
+            "id": "packagedauto:unpackager",
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "packagedexcrafting:advanced_crafter",
+        "meta": 0,
+        "item": {
+            "id": "packagedexcrafting:advanced_crafter",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "c"
+        ]
+      ],
+      [
+        [
+          "d"
+        ]
+      ]
+    ]
+      
+}

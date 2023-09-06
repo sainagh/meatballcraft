@@ -69,3 +69,12 @@ mods.thaumcraft.Infusion.registerRecipe("makesoapbeecallstone", "",
 <thaumcraft:sanity_soap>, <thaumcraft:sanity_soap>, 
 <ore:blockVoid>, <ore:blockVoid>, 
 <ore:blockVoid>, <ore:blockVoid>]);
+
+mods.thaumcraft.Infusion.registerRecipe("fluxspongeftw", "", 
+<thaumcraft:creative_flux_sponge>, 100,
+[<aspect:vitium>*666, <aspect:cognitio>*300, <aspect:caeles>*200, <aspect:motus>*100], 
+<minecraft:sponge:1>, 
+[<extendedcrafting:singularity_custom:628>, <extendedcrafting:singularity_custom:628>, 
+<thaumadditions:mithminite_block>, <thaumadditions:mithminite_block>, 
+<contenttweaker:faultless_ichor_gem>, <contenttweaker:faultless_ichor_gem>, 
+<contenttweaker:endergenic_sediment>, <contenttweaker:endergenic_sediment>]);

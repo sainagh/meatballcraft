@@ -1,0 +1,48 @@
+{
+    "name": "compactmachines3:thaumcraft_smeltery5",
+    "target-item": "thaumadditions:mithminite_smelter",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+
+
+    "input-types": {
+      "a": {
+        "id": "thaumcraft:alembic",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:alembic",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "thaumadditions:mithminite_smeltery",
+        "meta": 11,
+        "item": {
+            "id": "thaumadditions:mithminite_smeltery",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "b"
+        ]
+      ]
+    ]
+           
+}

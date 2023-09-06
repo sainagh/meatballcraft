@@ -1229,3 +1229,83 @@ myrmititecasing.setBlockResistance(2.5);
 myrmititecasing.setToolClass("pickaxe");
 myrmititecasing.setToolLevel(3);
 myrmititecasing.register();
+
+var returningpoint = VanillaFactory.createBlock("returning_point", <blockmaterial:iron>);
+returningpoint.setBlockHardness(1.0);
+returningpoint.setBlockResistance(2.5);
+returningpoint.setToolClass("pickaxe");
+returningpoint.setToolLevel(3);
+returningpoint.register();
+
+var shungite = VanillaFactory.createBlock("shungite", <blockmaterial:iron>);
+shungite.setBlockHardness(1.0);
+shungite.setBlockResistance(2.5);
+shungite.setToolClass("pickaxe");
+shungite.setToolLevel(3);
+shungite.register();
+
+var hernealtarstone = VanillaFactory.createBlock("herne_altar_stone", <blockmaterial:iron>);
+hernealtarstone.setBlockHardness(1.0);
+hernealtarstone.setBlockResistance(2.5);
+hernealtarstone.setToolClass("pickaxe");
+hernealtarstone.setToolLevel(3);
+hernealtarstone.register();
+
+var lilithaltarstone = VanillaFactory.createBlock("lilith_altar_stone", <blockmaterial:iron>);
+lilithaltarstone.setBlockHardness(1.0);
+lilithaltarstone.setBlockResistance(2.5);
+lilithaltarstone.setToolClass("pickaxe");
+lilithaltarstone.setToolLevel(3);
+lilithaltarstone.register();
+
+var molochaltarstone = VanillaFactory.createBlock("moloch_altar_stone", <blockmaterial:iron>);
+molochaltarstone.setBlockHardness(1.0);
+molochaltarstone.setBlockResistance(2.5);
+molochaltarstone.setToolClass("pickaxe");
+molochaltarstone.setToolLevel(3);
+molochaltarstone.register();
+
+var baphometaltarstone = VanillaFactory.createBlock("baphomet_altar_stone", <blockmaterial:iron>);
+baphometaltarstone.setBlockHardness(1.0);
+baphometaltarstone.setBlockResistance(2.5);
+baphometaltarstone.setToolClass("pickaxe");
+baphometaltarstone.setToolLevel(3);
+baphometaltarstone.register();
+
+var abywastecontainmentstone = VanillaFactory.createBlock("abyssal_wasteland_containment_stone", <blockmaterial:iron>);
+abywastecontainmentstone.setBlockHardness(1.0);
+abywastecontainmentstone.setBlockResistance(2.5);
+abywastecontainmentstone.setToolClass("pickaxe");
+abywastecontainmentstone.setToolLevel(3);
+abywastecontainmentstone.register();
+
+var dreadlandscontainmentstone = VanillaFactory.createBlock("dreadlands_containment_stone", <blockmaterial:iron>);
+dreadlandscontainmentstone.setBlockHardness(1.0);
+dreadlandscontainmentstone.setBlockResistance(2.5);
+dreadlandscontainmentstone.setToolClass("pickaxe");
+dreadlandscontainmentstone.setToolLevel(3);
+dreadlandscontainmentstone.register();
+
+var omotholcontainmentstone = VanillaFactory.createBlock("omothol_containment_stone", <blockmaterial:iron>);
+omotholcontainmentstone.setBlockHardness(1.0);
+omotholcontainmentstone.setBlockResistance(2.5);
+omotholcontainmentstone.setToolClass("pickaxe");
+omotholcontainmentstone.setToolLevel(3);
+omotholcontainmentstone.register();
+
+var headstone = VanillaFactory.createBlock("headstone", <blockmaterial:iron>);
+headstone.setBlockHardness(1.0);
+headstone.setBlockResistance(2.5);
+headstone.setToolClass("pickaxe");
+headstone.setToolLevel(3);
+headstone.register();
+
+var psiore = VanillaFactory.createBlock("psichic_stone", <blockmaterial:iron>);
+psiore.setBlockHardness(1.0);
+psiore.setBlockResistance(2.5);
+psiore.setToolClass("pickaxe");
+psiore.setToolLevel(3);
+psiore.register();
+
+
+

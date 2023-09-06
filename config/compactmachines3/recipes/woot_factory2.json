@@ -1,0 +1,167 @@
+{
+    "name": "compactmachines3:woot_factory2",
+    "target-item": "woot:importer",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+
+    "input-types": {
+      "a": {
+        "id": "woot:structure",
+        "meta": 5,
+        "item": {
+          "id": "woot:structure",
+          "meta": 5,
+          "count": 1
+        }
+      },
+      "b": {
+        "id": "woot:controller",
+        "meta": 0,
+        "item": {
+          "id": "woot:controller",
+          "count": 1
+        }
+      },
+      "c": {
+        "id": "woot:factory",
+        "meta": 5,
+        "item": {
+          "id": "woot:factory",
+          "count": 1
+        }
+      },
+      "d": {
+        "id": "woot:cell",
+        "meta": 2,
+        "item": {
+          "id": "woot:cell",
+          "count": 1
+        }
+      },
+      "e": {
+        "id": "woot:importer",
+        "meta": 0,
+        "item": {
+          "id": "woot:importer",
+          "count": 1
+        }
+      },
+      "f": {
+        "id": "woot:exporter",
+        "meta": 0,
+        "item": {
+          "id": "woot:exporter",
+          "count": 1
+        }
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "_"
+        ],
+        [
+          "b",
+          "_"
+        ],
+        [
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "a",
+          "_"
+        ],
+        [
+          "_",
+          "c"
+        ],
+        [
+          "a",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "d"
+        ],
+        [
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "e"
+        ],
+        [
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "f"
+        ],
+        [
+          "_",
+          "_"
+        ]
+      ]
+    ]
+       
+}

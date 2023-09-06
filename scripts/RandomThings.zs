@@ -21,3 +21,9 @@ divinationodoredict.add(<randomthings:diviningrod:18>);
 divinationodoredict.add(<randomthings:diviningrod:19>);
 divinationodoredict.add(<randomthings:diviningrod:20>);
 divinationodoredict.add(<randomthings:diviningrod:21>);
+
+
+recipes.addShaped(<randomthings:spectrecoil_number>,
+[[<enderio:block_reinforced_obsidian>, <projectex:matter:6>, <enderio:block_reinforced_obsidian>],
+[<projectex:matter:6>, <enderio:block_reinforced_obsidian>, <projectex:matter:6>],
+[<enderio:block_reinforced_obsidian>, <projectex:matter:6>, <enderio:block_reinforced_obsidian>]]);

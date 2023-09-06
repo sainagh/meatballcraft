@@ -1,0 +1,78 @@
+{
+  "name": "compactmachines3:extcraft_combination",
+  "target-item": "extendedcrafting:crafting_core",
+  "target-meta": 6,
+  "target-count": 1,
+
+  "duration": 200,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+
+  
+
+
+  "input-types": {
+    "a": {
+      "id": "extendedcrafting:pedestal",
+      "meta": 0,
+      "item": {
+          "id": "extendedcrafting:pedestal",
+          "count": 1
+        }
+    },
+    "b": {
+      "id": "minecraft:wool",
+      "meta": 0,
+      "item": {
+          "id": "contenttweaker:any_number_pedestals",
+          "count": 1
+        }
+    },
+    "c": {
+      "id": "extendedcrafting:crafting_core",
+      "meta": 0,
+      "item": {
+          "id": "extendedcrafting:crafting_core",
+          "count": 1
+        }
+    }
+  },
+
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "c",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ]
+    ]
+  ]
+  
+}
