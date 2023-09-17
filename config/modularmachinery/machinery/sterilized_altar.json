@@ -19,23 +19,31 @@
     ],
     "parts": [
         {
-            "x": -1,
+            "x": -3,
             "y": 0,
-            "z": 0,
+            "z": 2,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
             "x": -1,
             "y": 0,
-            "z": 1,
+            "z": 3,
             "elements": [
                 "abyssalcraft:abybrick@0"
             ]
         },
         {
-            "x": -2,
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -1,
             "y": 0,
             "z": 2,
             "elements": [
@@ -51,7 +59,63 @@
             ]
         },
         {
-            "x": 0,
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 1,
             "y": 0,
             "z": 1,
             "elements": [
@@ -63,151 +127,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "abyssalcraft:stone@7"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "abyssalcraft:abybrick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "abyssalcraft:abybrick@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "abyssalcraft:stone@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "abyssalcraft:abybrick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "abyssalcraft:abybrick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "abyssalcraft:abybrick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "abyssalcraft:abybrick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "abyssalcraft:stone@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "abyssalcraft:abybrick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "abyssalcraft:abybrick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "abyssalcraft:stone@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "abyssalcraft:abybrick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "abyssalcraft:abybrick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "abyssalcraft:abybrick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "abyssalcraft:abybrick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "abyssalcraft:abybrick@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "abyssalcraft:stone@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "abyssalcraft:abybrick@0"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
@@ -219,7 +139,15 @@
             ]
         },
         {
-            "x": 1,
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -1,
             "y": 0,
             "z": 4,
             "elements": [
@@ -227,11 +155,11 @@
             ]
         },
         {
-            "x": 2,
+            "x": 3,
             "y": 0,
-            "z": 3,
+            "z": 2,
             "elements": [
-                "abyssalcraft:abybrick@0"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
@@ -243,27 +171,11 @@
             ]
         },
         {
-            "x": 0,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockenergyinputhatch"
-            ]
-        },
-        {
             "x": 1,
-            "y": 0,
-            "z": 5,
+            "y": 1,
+            "z": 3,
             "elements": [
-                "abyssalcraft:abybrick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "abyssalcraft:abybrick@0"
+                "contenttweaker:abyssal_wasteland_containment_stone@0"
             ]
         },
         {
@@ -275,51 +187,35 @@
             ]
         },
         {
-            "x": 2,
-            "y": 0,
-            "z": 5,
+            "x": 1,
+            "y": 1,
+            "z": 1,
             "elements": [
-                "abyssalcraft:stone@7"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:dscwall@0"
             ]
         },
         {
             "x": -1,
             "y": 1,
-            "z": 1,
+            "z": 5,
             "elements": [
-                "abyssalcraft:monolithpillar"
+                "abyssalcraft:dscwall@0"
             ]
         },
         {
             "x": -2,
             "y": 1,
-            "z": 2,
+            "z": 4,
             "elements": [
-                "abyssalcraft:monolithpillar"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:abyssal_wasteland_containment_stone"
+                "abyssalcraft:dscwall@0"
             ]
         },
         {
             "x": 1,
             "y": 1,
-            "z": 1,
+            "z": 5,
             "elements": [
-                "abyssalcraft:monolithpillar"
+                "abyssalcraft:dscwall@0"
             ]
         },
         {
@@ -327,31 +223,31 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "contenttweaker:abyssal_wasteland_containment_stone"
+                "contenttweaker:abyssal_wasteland_containment_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:dscwall@0"
             ]
         },
         {
             "x": -2,
             "y": 1,
-            "z": 4,
+            "z": 2,
             "elements": [
-                "abyssalcraft:monolithpillar"
+                "abyssalcraft:dscwall@0"
             ]
         },
         {
-            "x": 0,
+            "x": -1,
             "y": 1,
-            "z": 4,
+            "z": 1,
             "elements": [
-                "contenttweaker:abyssal_wasteland_containment_stone"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:abyssal_wasteland_containment_stone"
+                "abyssalcraft:dscwall@0"
             ]
         },
         {
@@ -359,31 +255,47 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "abyssalcraft:monolithpillar"
+                "abyssalcraft:dscwall@0"
             ]
         },
         {
-            "x": -1,
-            "y": 1,
-            "z": 5,
+            "x": -2,
+            "y": 0,
+            "z": 3,
             "elements": [
-                "abyssalcraft:monolithpillar"
+                "abyssalcraft:abybrick@0"
             ]
         },
         {
-            "x": 1,
-            "y": 1,
-            "z": 5,
+            "x": 0,
+            "y": 0,
+            "z": 4,
             "elements": [
-                "abyssalcraft:monolithpillar"
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
             ]
         },
         {
             "x": 2,
-            "y": 1,
-            "z": 4,
+            "y": 0,
+            "z": 5,
             "elements": [
-                "abyssalcraft:monolithpillar"
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abybrick@0"
             ]
         },
         {
@@ -391,15 +303,103 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
-            "x": -3,
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -2,
             "y": 0,
             "z": 2,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:abyssal_wasteland_containment_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:abyssal_wasteland_containment_stone@0"
             ]
         }
     ]}

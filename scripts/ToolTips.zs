@@ -950,6 +950,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:tulite_flower>.addTooltip(format.red("Stand on the right thing"));
 
+<contenttweaker:astral_lizardite>.addTooltip(format.red("Obtained from the tulite flower"));
 <contenttweaker:astral_lizardite>.addTooltip(format.red("Once you get the first, it can be duplicated..."));
 
 <contenttweaker:dreadful_bone>.addTooltip(format.red("Dropped by the dreadful peat mummy in the betweenlands"));
@@ -1141,6 +1142,7 @@ import crafttweaker.item.IItemCondition;
 
 <techreborn:industrial_centrifuge>.addTooltip(format.red("This was very buggy so it got disabled, you shouldn't need it for any recipes"));
 
+<contenttweaker:big_slime>.addTooltip(format.red("Obtained from the sticky callstone boss"));
 <contenttweaker:big_slime>.addTooltip(format.red("Can be duplicated"));
 
 <advancedrocketry:spacestationchip:0>.addTooltip(format.red("Make multiple copies of each station ID - Copied in the satellite builder"));
@@ -1564,7 +1566,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:livermorium_sliver>.addTooltip(format.red("Ryan is dope!"));
 
-<contenttweaker:branch_of_life>.addTooltip(format.red("Craft with four trees, and one rock, pixonia will tell you how"));
+<contenttweaker:branch_of_life>.addTooltip(format.red("Craft four trees, and one rock together, pixonia will tell you which ones"));
 
 <contenttweaker:gem_of_midas>.addTooltip(format.green("Reusable"));
 
@@ -2011,6 +2013,8 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:myrmex_coolant_cell>.addTooltip(format.red("Cursed myrmitite buckets have a recipe"));
 
 <contenttweaker:singular_gravity_honey>.addTooltip(format.red("Will allow creative flight in all dimensions up to chapter 3"));
+
+<contenttweaker:black_hole_honey>.addTooltip(format.red("Will allow creative flight in all dimensions"));
 
 <immersiveengineering:stone_decoration:0>.addTooltip(format.red("You don't need to craft this before the basic table, coal coke blocks are found in the overworld"));
 
@@ -3232,7 +3236,8 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:grand_magician_callstone>.addTooltip(format.red("Can only be crafted after activating the hard mode"));
 <contenttweaker:rulers_of_terra_callstone>.addTooltip(format.red("Can only be crafted after activating the hard mode"));
 
-<contenttweaker:yellorite_reactor>.addTooltip(format.red("There are multiple multiblock previews to show how to make a yellorite reactor, there can be of any size"));
+<contenttweaker:yellorite_reactor>.addTooltip(format.red("There are multiple multiblock previews to show how to make a yellorite reactor, they can be a cuboid of any size"));
+<contenttweaker:yellorite_reactor>.addTooltip(format.red("See the info box for more info"));
 
 <contenttweaker:astral_animator>.addTooltip(format.red("Found on Diamerisma"));
 
@@ -3258,7 +3263,7 @@ import crafttweaker.item.IItemCondition;
 <appliedenergistics2:nether_quartz_cutting_knife>.addTooltip(format.red("Right click on a bus to rename it"));
 
 <agricraft:seed_analyzer>.addTooltip(format.red("WARNING: leaving this as a placed block in your world may cause extreme lag, break after using"));
-<agricraft:peripheral>.addTooltip(format.red("WARNING: leaving this as a placed block in your world may cause extreme lag, break after using"));
+<agricraft:peripheral>.addTooltip(format.red("WARNING: leaving this as a placed block in your world may cause extreme lag, and crash rour game when broken"));
 
 <thebetweenlands:items_misc:45>.addTooltip(format.red("Dropped by emberlings, found in the sludgeon in the betweenlands, and in the final spatial diviner"));
 
@@ -3373,3 +3378,49 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:psichic_stone>.addTooltip(format.red("Use the ore excavator on Europa, psivein"));
 
 <contenttweaker:better_red_coal>.addTooltip(format.red("This can be used to set recipes and automations more easily :)"));
+
+<nuclearcraft:rad_shielding:0>.addTooltip(format.red("Can be applied to any armor, as long as it's full durability"));
+<nuclearcraft:rad_shielding:1>.addTooltip(format.red("Can be applied to any armor, as long as it's full durability"));
+<nuclearcraft:rad_shielding:2>.addTooltip(format.red("Can be applied to any armor, as long as it's full durability"));
+
+<astralsorcery:itemlinkingtool>.addTooltip(format.red("To link a collector crystal to a block, right click it first, and then the target block"));
+<astralsorcery:itemlinkingtool>.addTooltip(format.red("The connection will remain even after the block is broken or replaced"));
+
+<contenttweaker:nero_callstone>.addTooltip(format.red("Make the black hole honey before using this ;)"));
+
+<contenttweaker:cosmic_fracture>.addTooltip(format.red("Obtained from the horrific callstone"));
+
+<contenttweaker:crown_of_the_energy_queen>.addTooltip(format.red("Obtained from the terraformassiflora"));
+
+<aoa3:holly_top_seeds>.addTooltip(format.red("Does not work on fertilized dirt from random things"));
+
+<aoa3:rosidon_seeds>.addTooltip(format.red("Obtainable in Gardencia"));
+
+<contenttweaker:adamantium_stinger>.addTooltip(format.red("Found in Pixonia"));
+<contenttweaker:gem_of_midas>.addTooltip(format.red("Found in Pixonia"));
+
+<contenttweaker:rosidian_blend>.addTooltip(format.red("Combine rosidons with the right small piles of dust, gardencia will tell you which ones!"));
+
+<gendustry:honey_comb:14018>.addTooltip(format.red("Obtained from the deep knowledge callstone"));
+
+<railcraft:generic:8>.addTooltip(format.red("DoomSquirter likes this block"));
+
+<forestry:frame_proven>.addTooltip(format.red("Frames cannot be automated in an apiary, you need the alveary"));
+<careerbees:eternalframe>.addTooltip(format.red("Frames cannot be automated in an apiary, you need the alveary"));
+<magicbees:frames.metabolic>.addTooltip(format.red("Frames cannot be automated in an apiary, you need the alveary"));
+<magicbees:frames.gentle>.addTooltip(format.red("Frames cannot be automated in an apiary, you need the alveary"));
+<careerbees:pheremone_frame>.addTooltip(format.red("Frames cannot be automated in an apiary, you need the alveary"));
+<magicbees:frames.oblivion>.addTooltip(format.red("Frames cannot be automated in an apiary, you need the alveary"));
+
+<compactmachines3:machine:0>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
+<compactmachines3:machine:1>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
+<compactmachines3:machine:2>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
+<compactmachines3:machine:4>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
+<compactmachines3:machine:3>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
+<compactmachines3:machine:5>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
+
+<forestry:sapling>.addTooltip(format.red("WARNING: Do not place forestry trees down for long periods of time, they will continuously spawn butterflies!"));
+<forestry:sapling>.addTooltip(format.red("Use the butterfly repellent to remove butterflies if there's too many."));
+<forestry:sapling>.addTooltip(format.red("The enchanted greenhouse can be used to automate these trees!"));
+
+<contenttweaker:butterfly_repellent>.addTooltip(format.red("Right click to remove butterflies if they get laggy"));

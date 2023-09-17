@@ -23,7 +23,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
@@ -39,7 +39,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
@@ -47,7 +47,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
@@ -119,7 +119,7 @@
             "y": 0,
             "z": 6,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
@@ -127,7 +127,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
@@ -143,7 +143,7 @@
             "y": 0,
             "z": 6,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
@@ -159,7 +159,7 @@
             "y": 0,
             "z": 6,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
@@ -167,7 +167,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
@@ -231,7 +231,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
@@ -287,7 +287,7 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
@@ -295,7 +295,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
@@ -359,7 +359,7 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         },
         {
@@ -407,7 +407,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "abyssalcraft:stone@7"
+                "abyssalcraft:darkstone_brick@0"
             ]
         }
     ]}

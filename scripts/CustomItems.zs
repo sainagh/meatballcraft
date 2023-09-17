@@ -5000,4 +5000,64 @@ betterredcoal.maxStackSize = 64;
 betterredcoal.beaconPayment = false;
 betterredcoal.register();
 
+var densedarkhoney = VanillaFactory.createItem("dense_dark_honey");
+densedarkhoney.maxStackSize = 64;
+densedarkhoney.beaconPayment = false;
+densedarkhoney.register();
+
+var densefearfulhoney = VanillaFactory.createItem("dense_fearful_honey");
+densefearfulhoney.maxStackSize = 64;
+densefearfulhoney.beaconPayment = false;
+densefearfulhoney.register();
+
+var densesolitaryhoney = VanillaFactory.createItem("dense_solitary_honey");
+densesolitaryhoney.maxStackSize = 64;
+densesolitaryhoney.beaconPayment = false;
+densesolitaryhoney.register();
+
+var akathartoscore = VanillaFactory.createItem("akathartos_core");
+akathartoscore.maxStackSize = 64;
+akathartoscore.beaconPayment = false;
+akathartoscore.register();
+
+var pauramcore = VanillaFactory.createItem("pauram_core");
+pauramcore.maxStackSize = 64;
+pauramcore.beaconPayment = false;
+pauramcore.register();
+
+var zoicore = VanillaFactory.createItem("zoi_core");
+zoicore.maxStackSize = 64;
+zoicore.beaconPayment = false;
+zoicore.register();
+
+var blackholehoney = VanillaFactory.createItem("black_hole_honey");
+blackholehoney.maxStackSize = 64;
+blackholehoney.beaconPayment = false;
+blackholehoney.register();
+
+var rosidianingot = VanillaFactory.createItem("rosidian_ingot");
+rosidianingot.maxStackSize = 64;
+rosidianingot.beaconPayment = false;
+rosidianingot.register();
+
+var rosidianblend = VanillaFactory.createItem("rosidian_blend");
+rosidianblend.maxStackSize = 64;
+rosidianblend.beaconPayment = false;
+rosidianblend.register();
+
+var puzzlesolbranchlife = VanillaFactory.createItem("puzzle_solution_branchoflife");
+puzzlesolbranchlife.maxStackSize = 64;
+puzzlesolbranchlife.beaconPayment = false;
+puzzlesolbranchlife.register();
+
+var puzzlesolrosidianblend = VanillaFactory.createItem("puzzle_solution_rosidianblend");
+puzzlesolrosidianblend.maxStackSize = 64;
+puzzlesolrosidianblend.beaconPayment = false;
+puzzlesolrosidianblend.register();
+
+var fullessentiaautomation = VanillaFactory.createItem("full_essentia_automation");
+fullessentiaautomation.maxStackSize = 64;
+fullessentiaautomation.beaconPayment = false;
+fullessentiaautomation.register();
+
 

@@ -63,4 +63,14 @@ gendustry.bees.species.Heraldry=Heraldry
 gendustry.bees.species.Agricultural=Agricultural
 gendustry.honeycomb.agricultural.name=Agricultural Comb
 gendustry.honeycomb.heraldry.name=Heraldry
+gendustry.honeycomb.helpless.name=Helpless
+gendustry.honeycomb.dark.name=Dark
+gendustry.honeycomb.fearful.name=Fearful
+gendustry.honeycomb.solitary.name=Solitary
+gendustry.honeycomb.deeplearner.name=Deeply Learning
+gendustry.bees.species.Darkness=Darkness
+gendustry.bees.species.Fear=Fear
+gendustry.bees.species.Solitude=Solitude
+gendustry.bees.species.Helplessness=Helplessness
+gendustry.bees.species.Deeplearner=Deep Learner
 

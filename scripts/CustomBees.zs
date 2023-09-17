@@ -1183,4 +1183,310 @@ recipes.addShaped(<aoa3:vox_banner>*10,
 
 
 
+recipes.addHiddenShapeless("makerosidianblend", <contenttweaker:rosidian_blend>,
+[<aoa3:rosidons>,
+<techreborn:smalldust:33>,
+<techreborn:smalldust:43>,
+<techreborn:smalldust:45>,
+<techreborn:smalldust:37>,
+<techreborn:smalldust:32>,
+<techreborn:smalldust:50>,
+<techreborn:smalldust:23>,
+<techreborn:smalldust:39>]);
 
+mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:rosidian_blend>, <contenttweaker:adamantium_ingot>, <contenttweaker:rosidian_ingot>]);
+
+mods.thaumcraft.Infusion.registerRecipe("infusiondeeplearnerbee", "", 
+<contenttweaker:deep_knowledge_callstone>, 20, 
+[<aspect:cognitio>*255, <aspect:bestia>*122, <aspect:machina>*88], 
+<deepmoblearning:glitch_heart>, 
+[<aoa3:rosidian_boots>, <aoa3:rosidian_legs>,
+<aoa3:rosidian_chestplate>, <aoa3:rosidian_helmet>,
+<contenttweaker:rosidian_ingot>, <contenttweaker:rosidian_ingot>,
+<deepmoblearning:polymer_clay>, <deepmoblearning:polymer_clay>]);
+
+
+recipes.addShaped(<deepmoblearning:data_model_blaze>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_blaze>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_creeper>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_creeper>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_dragon>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_dragon>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_enderman>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_enderman>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_ghast>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_ghast>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_guardian>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_guardian>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_shulker>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_shulker>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_skeleton>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_skeleton>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_slime>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_slime>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_spider>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_spider>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_witch>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_witch>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_wither>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_wither>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_wither_skeleton>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_wither_skeleton>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_zombie>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_zombie>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_thermal_elemental>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_thermal_elemental>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_twilight_forest>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_twilight_forest>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_twilight_swamp>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_twilight_swamp>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_twilight_glacier>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_twilight_glacier>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_twilight_darkwood>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_twilight_darkwood>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_tinker_slime>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_tinker_slime>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_illager>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_illager>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_hydra>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_hydra>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_ayeraco>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_ayeraco>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_nethengeicbeast>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_nethengeicbeast>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_kingbambambam>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_kingbambambam>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_smash>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_smash>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_corallus>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_corallus>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_nethengeicwither>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_nethengeicwither>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_mothervoidwalker>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_mothervoidwalker>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_betweenswamp>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_betweenswamp>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_elusive>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_elusive>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_shadowlord>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_shadowlord>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_graw>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_graw>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_tyrosaur>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_tyrosaur>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_skeletron>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_skeletron>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_baroness>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_baroness>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_hiveking>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_hiveking>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_creep>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_creep>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_kror>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_kror>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_voxxulon>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_voxxulon>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_kingshroomus>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_kingshroomus>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_silverfoot>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_silverfoot>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_mechbot>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_mechbot>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_havenguardians>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_havenguardians>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_rockrider>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_rockrider>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_cottoncandor>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_cottoncandor>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_gyro>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_gyro>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_vinocorne>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_vinocorne>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_crystocore>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_crystocore>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_visualent>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_visualent>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_clunkhead>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_clunkhead>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_dracyon>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_dracyon>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_hydrolisk>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_hydrolisk>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_terrafractallites>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_terrafractallites>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_immortalfractallites>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_immortalfractallites>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_temporalfractallites>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_temporalfractallites>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_primordialfractallites>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_primordialfractallites>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);

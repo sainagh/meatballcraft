@@ -649,3 +649,6 @@ parafrosynium.register();
 
 var psigem = VanillaFactory.createFluid("psigem", Color.fromHex("5f8cd4"));
 psigem.register();
+
+var rosidian = VanillaFactory.createFluid("rosidian", Color.fromHex("b82aa7"));
+rosidian.register();

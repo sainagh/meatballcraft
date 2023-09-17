@@ -435,3 +435,11 @@ bonecreepergunpow.addItemEntry(<aoa3:unstable_gunpowder>, 15);
 val zombievanilla = LootTweaker.getTable("minecraft:entities/zombie");
 val zombievanillaextra = zombievanilla.addPool("zombievanillaextra", 1, 1, 0, 0);
 zombievanillaextra.addItemEntry(<tombstone:crafting_ingredient:3>, 15);
+
+val vinewizard = LootTweaker.getTable("aoa3:entities/mobs/gardencia/vine_wizard");
+val vinewizardrosid = vinewizard.addPool("vinewizardrosid", 1, 1, 0, 0);
+vinewizardrosid.addItemEntry(<aoa3:rosid_root>, 15);
+
+val daysee = LootTweaker.getTable("aoa3:entities/mobs/gardencia/daysee");
+val dayseerosid = daysee.addPool("dayseerosid", 1, 1, 0, 0);
+dayseerosid.addItemEntry(<aoa3:rosid_root>, 15);

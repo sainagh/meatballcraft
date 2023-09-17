@@ -1172,4 +1172,7 @@ recipes.addShapeless(<thaumcraft:essentia_output>,
 recipes.addShapeless(<thaumcraft:crucible>,
 [<contenttweaker:crucible_automation>]);
 
+recipes.addShapeless(<thaumcraft:crystal_essence>,
+[<contenttweaker:full_essentia_automation>]);
+
 

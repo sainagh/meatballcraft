@@ -6,6 +6,7 @@ lp1.addItemInput(<minecraft:beef>);
 lp1.addFluidOutput(<fluid:liquid_lp>*10);
 lp1.build();
 
+
 val lp2 = RecipeBuilder.newBuilder("lp2","lp_harvester",10);
 lp2.addItemInput(<minecraft:mutton>);
 lp2.addFluidOutput(<fluid:liquid_lp>*10);

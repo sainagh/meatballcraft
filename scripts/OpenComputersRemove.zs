@@ -1,0 +1,1 @@
+recipes.remove(<opencomputers:tool:5>);

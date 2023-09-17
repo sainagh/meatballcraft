@@ -278,7 +278,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:steadfast_steel:ing
 <contenttweaker:steadfast_will_powder>, 
 <immersiveengineering:material:7>, 
 200, 2048, 
-[<tconstruct:ingots:2>, <tconstruct:ingots:2>], "Alloying");
+[<tconstruct:ingots:2>], "Alloying");
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<materialpart:destructive_steel:ingot>, <materialpart:sednanite:ingot>, <bloodmagic:item_demon_crystal:2>, 500);
 mods.thermalexpansion.InductionSmelter.addRecipe(<materialpart:steadfast_steel:ingot>, <materialpart:sednanite:ingot>, <bloodmagic:item_demon_crystal:4>, 500);
@@ -2960,39 +2960,39 @@ recipes.addShaped(<contenttweaker:living_myrmitite_ingot>*2,
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:recursion_prison_key>, 
 [[<contenttweaker:universal_realgar>, <contenttweaker:living_myrmitite_ingot>, null, 
-null, <gendustry:honey_comb:14014>, null, 
+null, <contenttweaker:nero_core>, null, 
 null, <contenttweaker:living_myrmitite_ingot>, <contenttweaker:universal_realgar>], 
 
 [<contenttweaker:living_myrmitite_ingot>, null, null, 
 null, <contenttweaker:primordial_recursion>, null, 
 null, null, <contenttweaker:living_myrmitite_ingot>], 
 
-[null, null, null, 
+[<contenttweaker:rosidian_ingot>, null, null, 
 null, <contenttweaker:sword_shield>, null, 
-null, null, null], 
+null, null, <contenttweaker:rosidian_ingot>], 
 
 [null, null, null, 
 <contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, 
 null, null, null], 
 
-[<gendustry:honey_comb:14014>, <contenttweaker:immortal_recursion>, <contenttweaker:sword_shield>, 
+[<contenttweaker:akathartos_core>, <contenttweaker:immortal_recursion>, <contenttweaker:sword_shield>, 
 <divinerpg:mortum_heart>, <aoa3:craexxeus_statue>, <divinerpg:mortum_heart>, 
-<contenttweaker:sword_shield>, <contenttweaker:temporal_recursion>, <gendustry:honey_comb:14014>], 
+<contenttweaker:sword_shield>, <contenttweaker:temporal_recursion>, <contenttweaker:pauram_core>], 
 
 [null, null, null, 
 <contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, 
 null, null, null], 
 
-[null, null, null, 
+[<contenttweaker:rosidian_ingot>, null, null, 
 null, <contenttweaker:sword_shield>, null, 
-null, null, null], 
+null, null, <contenttweaker:rosidian_ingot>], 
 
 [<contenttweaker:living_myrmitite_ingot>, null, null, 
 null, <contenttweaker:ancient_recursion>, null, 
 null, null, <contenttweaker:living_myrmitite_ingot>], 
 
 [<contenttweaker:universal_realgar>, <contenttweaker:living_myrmitite_ingot>, null, 
-null, <gendustry:honey_comb:14014>, null, 
+null, <contenttweaker:zoi_core>, null, 
 null, <contenttweaker:living_myrmitite_ingot>, <contenttweaker:universal_realgar>]]);  
 
 

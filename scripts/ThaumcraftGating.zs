@@ -101,3 +101,9 @@ mods.thaumcraft.Crucible.registerRecipe("easierseal3", "", <thaumcraft:seal:7>, 
 recipes.addShapeless(<contenttweaker:biome_checker>,
 [<thaumicaugmentation:biome_selector>,
 <divinerpg:checker>]);
+
+mods.thaumcraft.Infusion.registerRecipe("infuseshimmerleaf", "", 
+<thaumcraft:shimmerleaf>, 1, 
+[<aspect:auram>*10], 
+<aoa3:holly_top_seeds>, 
+[<thaumcraft:quicksilver>, <thaumcraft:quicksilver>, <thaumcraft:quicksilver>, <thaumcraft:quicksilver>]);

@@ -126,9 +126,9 @@ recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "tconstruct:axe_head"}
 [null, <ore:plankWood>, null]]);
 
 recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "tconstruct:bow_limb"}),
-[[null, <botania:dreamwood:0>, null],
+[[<contenttweaker:ineffable_light>, <botania:dreamwood:0>, <contenttweaker:ineffable_light>],
 [null, <tconstruct:pattern>, <botania:manaresource:5>],
-[null, <botania:dreamwood:0>, null]]);
+[<contenttweaker:ineffable_light>, <botania:dreamwood:0>, <contenttweaker:ineffable_light>]]);
 
 recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "tconstruct:tough_binding"}),
 [[<ore:obsidianRod>, null, <ore:obsidianRod>],

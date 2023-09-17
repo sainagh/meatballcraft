@@ -1,0 +1,88 @@
+{
+    "name": "compactmachines3:astral_starmetal",
+    "target-item": "astralsorcery:blockcustomore",
+    "target-meta": 1,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+
+
+    "input-types": {
+      "a": {
+        "id": "astralsorcery:blockcollectorcrystal",
+        "meta": 0,
+        "item": {
+            "id": "astralsorcery:blockcollectorcrystal",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "minecraft:tripwire",
+        "meta": 0,
+        "item": {
+            "id": "astralsorcery:itemlinkingtool",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "minecraft:iron_ore",
+        "meta": 0
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{id:\"astralsorcery:tilecollectorcrystal\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},ticksExisted:109,doesSeeSky:1b,linked:[],wasLinkedBefore:0b,playerRefMost:-8342885232664559613L,playerRefLeast:-5903828338681376133L,constellationName:\"astralsorcery.constellation.lucerna\",size:400,purity:100,collect:100,fract:0,sizeOverride:-1,collectorType:0,multiBlockPresent:0b}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "_",
+          "a:A"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "_",
+          "c"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_"
+        ]
+      ]
+    ]
+           
+}

@@ -1731,3 +1731,59 @@ rulersofterracallstone.itemRightClick = function(stack, world, player, hand) {
 
 };
 rulersofterracallstone.register();
+
+
+var nerocallstone= VanillaFactory.createItem("nero_callstone");
+nerocallstone.maxStackSize = 1;
+nerocallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 170) {
+        player.sendChat("You gotta be in nero");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn water_fractal_boss_callstone", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+nerocallstone.register();
+
+var deepknowledgecallstone= VanillaFactory.createItem("deep_knowledge_callstone");
+deepknowledgecallstone.maxStackSize = 1;
+deepknowledgecallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 809) {
+        player.sendChat("You gotta be in gardencia");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn gardencia_structure_callstonebee", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+deepknowledgecallstone.register();
+
+var butterflyrepellent= VanillaFactory.createItem("butterfly_repellent");
+butterflyrepellent.maxStackSize = 1;
+butterflyrepellent.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("cofh killall butterfly", player, world, true, true);
+    Commands.call("cofh killall moth", player, world, true, true);
+
+    return "PASS";
+
+};
+butterflyrepellent.register();

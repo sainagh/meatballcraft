@@ -201,3 +201,6 @@ thoriumdust.remove(<techreborn:dust:65>);
 
 val invardust = <ore:dustInvar>;
 invardust.remove(<techreborn:dust:26>);
+
+val slimeball = <ore:slimeball>;
+slimeball.remove(<industrialforegoing:pink_slime>);

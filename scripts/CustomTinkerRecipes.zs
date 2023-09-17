@@ -48,6 +48,8 @@ mods.tconstruct.Melting.addRecipe(<liquid:molten_vibranium_alloy> * 144,<content
 
 mods.tconstruct.Melting.addRecipe(<liquid:parafrosynium> * 144,<contenttweaker:parafrosynium>);
 
+mods.tconstruct.Melting.addRecipe(<liquid:rosidian> * 144,<contenttweaker:rosidian_ingot>);
+
 
 mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast>.withTag({PartType: "plustic:laser_medium"}));
 mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast>.withTag({PartType: "plustic:battery_cell"}));
@@ -56,12 +58,12 @@ mods.tconstruct.Casting.removeTableRecipe(<tconstruct:clay_cast>.withTag({PartTy
 mods.tconstruct.Casting.removeTableRecipe(<tconstruct:clay_cast>.withTag({PartType: "plustic:battery_cell"}));
 mods.tconstruct.Casting.removeTableRecipe(<tconstruct:clay_cast>.withTag({PartType: "plustic:pipe_piece"}));
 
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>.withTag({PartType: "plustic:laser_medium"}), <tconstruct:pattern>.withTag({PartType: "tconstruct:pan_head"}), <fluid:gold>, 288, false, 100);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>.withTag({PartType: "plustic:battery_cell"}), <tconstruct:pattern>.withTag({PartType: "tconstruct:battery_cell"}), <fluid:gold>, 288, false, 100);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>.withTag({PartType: "plustic:pipe_piece"}), <tconstruct:pattern>.withTag({PartType: "tconstruct:pipe_piece"}), <fluid:gold>, 288, false, 100);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:clay_cast>.withTag({PartType: "plustic:laser_medium"}), <tconstruct:pattern>.withTag({PartType: "tconstruct:pan_head"}), <fluid:clay>, 288, false, 100);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:clay_cast>.withTag({PartType: "plustic:battery_cell"}), <tconstruct:pattern>.withTag({PartType: "tconstruct:battery_cell"}), <fluid:clay>, 288, false, 100);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:clay_cast>.withTag({PartType: "plustic:pipe_piece"}), <tconstruct:pattern>.withTag({PartType: "tconstruct:pipe_piece"}), <fluid:clay>, 288, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>.withTag({PartType: "plustic:laser_medium"}), <tconstruct:pattern>.withTag({PartType: "plustic:pan_head"}), <fluid:gold>, 288, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>.withTag({PartType: "plustic:battery_cell"}), <tconstruct:pattern>.withTag({PartType: "plustic:battery_cell"}), <fluid:gold>, 288, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>.withTag({PartType: "plustic:pipe_piece"}), <tconstruct:pattern>.withTag({PartType: "plustic:pipe_piece"}), <fluid:gold>, 288, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:clay_cast>.withTag({PartType: "plustic:laser_medium"}), <tconstruct:pattern>.withTag({PartType: "plustic:pan_head"}), <fluid:clay>, 288, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:clay_cast>.withTag({PartType: "plustic:battery_cell"}), <tconstruct:pattern>.withTag({PartType: "plustic:battery_cell"}), <fluid:clay>, 288, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:clay_cast>.withTag({PartType: "plustic:pipe_piece"}), <tconstruct:pattern>.withTag({PartType: "plustic:pipe_piece"}), <fluid:clay>, 288, false, 100);
 
 
 val orepsistone = <ore:orePsi>;

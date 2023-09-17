@@ -16,3 +16,15 @@ recipes.addShaped(<xreliquary:fortune_coin>,
 [[<actuallyadditions:item_solidified_experience>, <xreliquary:mob_ingredient:5>, <actuallyadditions:item_solidified_experience>],
 [<xreliquary:mob_ingredient:5>, <botania:magnetring>, <xreliquary:mob_ingredient:5>],
 [<actuallyadditions:item_solidified_experience>, <xreliquary:mob_ingredient:5>, <actuallyadditions:item_solidified_experience>]]);
+
+recipes.remove(<projecte:item.pe_black_hole>);
+
+recipes.addShaped(<projecte:item.pe_black_hole>,
+[[<minecraft:string>, <enderio:item_material:15>, <minecraft:string>],
+[<projecte:item.pe_matter:1>, <projecte:item.pe_ring_iron_band>, <projecte:item.pe_matter:1>],
+[<minecraft:string>, <bloodmagic:component:12>, <minecraft:string>]]);
+
+recipes.addShaped(<bloodmagic:sigil_magnetism>,
+[[<actuallyadditions:item_crystal:5>, <enderio:item_material:15>, <actuallyadditions:item_crystal:5>],
+[<actuallyadditions:item_crystal:5>, <bloodmagic:slate:2>, <actuallyadditions:item_crystal:5>],
+[<actuallyadditions:item_crystal:5>, <bloodmagic:component:12>, <actuallyadditions:item_crystal:5>]]);

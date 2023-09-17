@@ -20,6 +20,12 @@
                 <atmosphereDensity>0</atmosphereDensity>
                 <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
             </planet>
+            <planet name="Ender Islands" DIMID="1" dimMapping="" customIcon="moon">
+                <isKnown>true</isKnown>
+            </planet>
+            <planet name="Aether Islands" DIMID="4" dimMapping="" customIcon="moon">
+                <isKnown>true</isKnown>
+            </planet>
         </planet>
 		<planet name="Haumea" DIMID="146" customIcon="Venusian">
 			<hasRings>true</hasRings>

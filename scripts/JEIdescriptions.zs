@@ -1967,6 +1967,32 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_haumea>,
     "Craft an invar singularity with these sigils: luck, battle, ruin, cleansing."
 ]);
 
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_branchoflife>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "In Pixonia there is a structure with special blocky bugs, the chest there will tell you what to craft together.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft a compressed cobblestone with these saplings: turquoise haven, lucalus, haunted, blue celevus."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_rosidianblend>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "The crates in gardencia contain many dusts. These will tell you what small piles of dust you should craft with rosidons.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft a rosidon with these tiny piles of dust: netherrack, ruby, sapphire, phosphorous, marble, sphalerite, galena, pyrite."
+]);
+
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_livingmyrmitite>,
 [
     "Come on! At least try to solve the puzzle!",
@@ -2810,7 +2836,7 @@ mods.jei.JEI.addDescription(<contenttweaker:making_unattuned_celestial_crystals>
 [
     "To make your first celestial crystal, you need liquid starlight, stardust, and a rock crystal.",
     "",
-    "Place down a bucket of liquid starlight, with sky access, a preferably nearby a colelctor crystal.",
+    "Place down a bucket of liquid starlight, with sky access, a preferably nearby a collector crystal.",
     "",
     "Drop the stardust and rock crystal into the liquid starlight, and a celestial crystal cluster will form.",
     "",
@@ -3439,4 +3465,16 @@ mods.jei.JEI.addDescription([
     "To craft using the cauldron, drop in the required items after the water starts boiling! If a recipe was done correctly, the output will pop out automatically! Make sure you drop each ingredient quickly, otherwise the recipe won't complete.",
     "",
     "To make brews, drop a mandrake root, and drop a combination of the desired brew items (JEI will show). Right click the cauldron with empty bottles to collect the potions!"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:full_essentia_automation>],
+[
+    "To fully farm essentia crystals, the recommended way is to use vis seeds, phytogenic insolators, essentia crystallizers, and deep mob evolution. You should have an insolator for each seed, with a steady supply of raw ironwood from swamp creatures data models.",
+    "Depending on your insolator speed, you will need multiple essentia crystallizers. For a setup at base speed, 7 or 8 crystallizers can process all pods.",
+    "",
+    "To produce essentia, mithrillium tier and above essentia smelteries can be used to passively make it from crystals. These are recommended becuase they do not make flux.",
+    "Some sort of redstone control is recommended for this setup to avoid essentia buildups. This can be done using comparators on jars that are hooked up to your automation system, and setting the smelteries to only run if essentia is below a certain threshold.",
+    "",
+    "The mechanized essentia smeltery can also be used to make essentia out of the crystals. This multiblock does not require a redstone contraption, as it will stop once its essentia output hatch gets full."
 ]);

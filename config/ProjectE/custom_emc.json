@@ -2810,7 +2810,7 @@
     },
     {
       "item": "tconstruct:slime_congealed|0",
-      "emc": 0
+      "emc": 128
     },
     {
       "item": "redstonearsenal:storage|1",
@@ -7619,6 +7619,82 @@
     {
       "item": "contenttweaker:ayeraco_heart|0",
       "emc": 500000000
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|0",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|1",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|2",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|3",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|4",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|5",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|6",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|7",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|8",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|9",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|10",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|11",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|12",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|13",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_greatwood_0|14",
+      "emc": 8
+    },
+    {
+      "item": "tconstruct:slime_congealed|4",
+      "emc": 128
+    },
+    {
+      "item": "contenttweaker:akathartos_core|0",
+      "emc": 6000000000
+    },
+    {
+      "item": "contenttweaker:pauram_core|0",
+      "emc": 6000000000
+    },
+    {
+      "item": "contenttweaker:zoi_core|0",
+      "emc": 6000000000
     }
   ]
 }

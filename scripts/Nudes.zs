@@ -20,8 +20,7 @@
 // <thaumicaugmentation:biome_selector>.withTag({cap: {biome: "twilightforest:thornlands"}})
 // <thaumicaugmentation:biome_selector>.withTag({cap: {biome: "twilightforest:twilight_stream"}})
 
-// myrmex
-// <thaumicaugmentation:biome_selector>.withTag({cap: {biome: "thaumicaugmentation:tainted_lands"}})
+// myicaugmentation:biome_selector>.withTag({cap: {biome: "thaumicaugmentation:tainted_lands"}})
 
 //---------------------------------
 // moon
