@@ -3478,3 +3478,18 @@ mods.jei.JEI.addDescription([
     "",
     "The mechanized essentia smeltery can also be used to make essentia out of the crystals. This multiblock does not require a redstone contraption, as it will stop once its essentia output hatch gets full."
 ]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:draconic_energy_orb>,
+    <draconicevolution:energy_storage_core>,
+    <draconicevolution:energy_pylon>,
+    <draconicevolution:particle_generator:2>],
+[
+    "The draconic energy orb is a very large and versatile energy storage option. You shoudl definitely make one!",
+    "",
+    "To start, place down an energy core. You can right click it to select the desired tier, and to turn on a build guide. To assemble the multiblock, all tiers but the final one use redstone and draconium blocks. The final tier uses awakened draconium.",
+    "",
+    "After building the central sphere, stabilizers must be placed around it, within 16 blocks of the center. Tiers 1,2,3,4 require 4 stabilizers, one on each side. All other tiers use 36, 9 on each side in 3x3 squares. If formed correcly, they will change textures.",
+    "",
+    "Finally, to input and output energy, place energy pylons within 16 blocks of the core, and place glass on top of them. If formed correctly, the glass will turn into a sphere. Right click the sphere with an empty hand to switch the pylon between input and output mode."
+]);

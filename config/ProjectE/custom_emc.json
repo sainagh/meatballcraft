@@ -2950,15 +2950,15 @@
     },
     {
       "item": "minecraft:concrete|0",
-      "emc": 16
+      "emc": 1
     },
     {
       "item": "minecraft:concrete|5",
-      "emc": 16
+      "emc": 1
     },
     {
       "item": "minecraft:concrete|7",
-      "emc": 16
+      "emc": 1
     },
     {
       "item": "projectex:matter|0",
@@ -3022,7 +3022,7 @@
     },
     {
       "item": "thaumcraft:stone_arcane|0",
-      "emc": 64
+      "emc": 1
     },
     {
       "item": "libvulpes:productdust|6",
@@ -7695,6 +7695,3030 @@
     {
       "item": "contenttweaker:zoi_core|0",
       "emc": 6000000000
+    },
+    {
+      "item": "xtones:base|0",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:wool|5",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|1",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|2",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|3",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|4",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|6",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|7",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|8",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|15",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|14",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|13",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|12",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|11",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|10",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wool|9",
+      "emc": 0
+    },
+    {
+      "item": "xtones:agon|1",
+      "emc": 1
+    },
+    {
+      "item": "xtones:agon|2",
+      "emc": 1
+    },
+    {
+      "item": "xtones:agon|3",
+      "emc": 1
+    },
+    {
+      "item": "xtones:agon|4",
+      "emc": 1
+    },
+    {
+      "item": "xtones:agon|5",
+      "emc": 1
+    },
+    {
+      "item": "xtones:agon|6",
+      "emc": 1
+    },
+    {
+      "item": "xtones:agon|7",
+      "emc": 1
+    },
+    {
+      "item": "xtones:agon|8",
+      "emc": 1
+    },
+    {
+      "item": "xtones:agon|9",
+      "emc": 1
+    },
+    {
+      "item": "xtones:agon|10",
+      "emc": 1
+    },
+    {
+      "item": "xtones:agon|11",
+      "emc": 1
+    },
+    {
+      "item": "xtones:agon|12",
+      "emc": 1
+    },
+    {
+      "item": "xtones:agon|13",
+      "emc": 1
+    },
+    {
+      "item": "xtones:agon|14",
+      "emc": 1
+    },
+    {
+      "item": "xtones:agon|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:antiblock|1",
+      "emc": 49
+    },
+    {
+      "item": "chisel:antiblock|0",
+      "emc": 49
+    },
+    {
+      "item": "chisel:antiblock|2",
+      "emc": 49
+    },
+    {
+      "item": "chisel:antiblock|3",
+      "emc": 49
+    },
+    {
+      "item": "chisel:antiblock|4",
+      "emc": 49
+    },
+    {
+      "item": "chisel:antiblock|5",
+      "emc": 49
+    },
+    {
+      "item": "chisel:antiblock|6",
+      "emc": 49
+    },
+    {
+      "item": "chisel:antiblock|7",
+      "emc": 49
+    },
+    {
+      "item": "chisel:antiblock|8",
+      "emc": 49
+    },
+    {
+      "item": "chisel:antiblock|9",
+      "emc": 49
+    },
+    {
+      "item": "chisel:antiblock|10",
+      "emc": 49
+    },
+    {
+      "item": "chisel:antiblock|11",
+      "emc": 49
+    },
+    {
+      "item": "chisel:antiblock|12",
+      "emc": 49
+    },
+    {
+      "item": "chisel:antiblock|13",
+      "emc": 49
+    },
+    {
+      "item": "chisel:antiblock|14",
+      "emc": 49
+    },
+    {
+      "item": "chisel:arcane_stone|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone1|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:arcane_stone2|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:brownstone|1",
+      "emc": 4
+    },
+    {
+      "item": "chisel:brownstone|2",
+      "emc": 4
+    },
+    {
+      "item": "chisel:brownstone|3",
+      "emc": 4
+    },
+    {
+      "item": "chisel:brownstone|4",
+      "emc": 4
+    },
+    {
+      "item": "chisel:brownstone|5",
+      "emc": 4
+    },
+    {
+      "item": "chisel:brownstone|6",
+      "emc": 4
+    },
+    {
+      "item": "chisel:brownstone|7",
+      "emc": 4
+    },
+    {
+      "item": "chisel:brownstone|8",
+      "emc": 4
+    },
+    {
+      "item": "chisel:brownstone|9",
+      "emc": 4
+    },
+    {
+      "item": "chisel:certus|8",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|7",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|6",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|5",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|4",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|3",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|2",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|1",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|0",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|6",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|7",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|8",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|9",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|13",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|12",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|11",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|10",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|9",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|5",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|4",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|3",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|2",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|1",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|0",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|15",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus|14",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|10",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus2|1",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus2|0",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|15",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|14",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|13",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|11",
+      "emc": 256
+    },
+    {
+      "item": "chisel:certus1|12",
+      "emc": 256
+    },
+    {
+      "item": "chisel:cloud|4",
+      "emc": 16
+    },
+    {
+      "item": "chisel:cloud|3",
+      "emc": 16
+    },
+    {
+      "item": "chisel:cloud|2",
+      "emc": 16
+    },
+    {
+      "item": "chisel:cloud|1",
+      "emc": 16
+    },
+    {
+      "item": "chisel:cloud|0",
+      "emc": 16
+    },
+    {
+      "item": "chisel:block_coal|0",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|1",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|2",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|3",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|4",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|5",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|6",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|7",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|8",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|9",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|5",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|4",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|3",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|2",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|1",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|0",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|15",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|14",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|10",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|9",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|8",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|7",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|6",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|10",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|11",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|12",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal|13",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|12",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|11",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|13",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|14",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal1|15",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal2|0",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:block_coal2|1",
+      "emc": 1152
+    },
+    {
+      "item": "chisel:cobblestonemossy|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy1|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:cobblestonemossy2|0",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:clay|0",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|0",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|1",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|2",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|3",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|4",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|5",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|6",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|7",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|8",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks1|8",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks1|9",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks2|0",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|14",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|13",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|12",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|11",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|10",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|9",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks1|7",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks1|6",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks1|5",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks1|4",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks1|3",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks1|2",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks1|1",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks1|0",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks|15",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks2|1",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks2|2",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks2|3",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks2|4",
+      "emc": 64
+    },
+    {
+      "item": "chisel:bricks2|5",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:concrete|1",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete|2",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete|3",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete|4",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete|6",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete|8",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete|9",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete|10",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete|11",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete|12",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete|13",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete|14",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete|15",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|0",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|1",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|2",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|3",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|4",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|5",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|6",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|7",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|8",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|13",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|9",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|10",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|11",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|12",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|14",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:concrete_powder|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:dirt|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:emerald|0",
+      "emc": 147456
+    },
+    {
+      "item": "chisel:emerald|1",
+      "emc": 147456
+    },
+    {
+      "item": "chisel:emerald|10",
+      "emc": 147456
+    },
+    {
+      "item": "chisel:emerald|9",
+      "emc": 147456
+    },
+    {
+      "item": "chisel:emerald|8",
+      "emc": 147456
+    },
+    {
+      "item": "chisel:emerald|7",
+      "emc": 147456
+    },
+    {
+      "item": "chisel:emerald|6",
+      "emc": 147456
+    },
+    {
+      "item": "chisel:emerald|5",
+      "emc": 147456
+    },
+    {
+      "item": "chisel:emerald|4",
+      "emc": 147456
+    },
+    {
+      "item": "chisel:emerald|2",
+      "emc": 147456
+    },
+    {
+      "item": "chisel:emerald|3",
+      "emc": 147456
+    },
+    {
+      "item": "chisel:emerald|11",
+      "emc": 147456
+    },
+    {
+      "item": "chisel:emerald|12",
+      "emc": 147456
+    },
+    {
+      "item": "chisel:emerald|13",
+      "emc": 147456
+    },
+    {
+      "item": "chisel:purpur|0",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|1",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|2",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|3",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|4",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|5",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|6",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|7",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|8",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|9",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|10",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|11",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur1|7",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur1|6",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur1|5",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur1|4",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur1|3",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur1|2",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur2|0",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur1|9",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur1|8",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|12",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|13",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|15",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur1|0",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur1|1",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur|14",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur2|1",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur2|2",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur2|3",
+      "emc": 192
+    },
+    {
+      "item": "chisel:purpur2|4",
+      "emc": 192
+    },
+    {
+      "item": "chisel:endstone|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone2|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone2|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone2|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone2|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone2|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone2|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone2|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:endstone1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:glowstone|0",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|1",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|2",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|3",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|4",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|0",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|15",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|14",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|13",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|5",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|6",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|7",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|8",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|9",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|10",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|11",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone|12",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|1",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|10",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|9",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|8",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|7",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|6",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|5",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|4",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|3",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|2",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|11",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|12",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|13",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|14",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone1|15",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:glowstone2|0",
+      "emc": 1536
+    },
+    {
+      "item": "chisel:ice|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice2|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:ice1|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:icepillar|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:icepillar|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:icepillar|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:icepillar|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:icepillar|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:icepillar|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:icepillar|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:laboratory|1",
+      "emc": 33
+    },
+    {
+      "item": "chisel:laboratory|2",
+      "emc": 33
+    },
+    {
+      "item": "chisel:laboratory|3",
+      "emc": 33
+    },
+    {
+      "item": "chisel:laboratory|4",
+      "emc": 33
+    },
+    {
+      "item": "chisel:laboratory|5",
+      "emc": 33
+    },
+    {
+      "item": "chisel:laboratory|6",
+      "emc": 33
+    },
+    {
+      "item": "chisel:laboratory|7",
+      "emc": 33
+    },
+    {
+      "item": "chisel:laboratory|8",
+      "emc": 33
+    },
+    {
+      "item": "chisel:laboratory|9",
+      "emc": 33
+    },
+    {
+      "item": "chisel:laboratory|10",
+      "emc": 33
+    },
+    {
+      "item": "chisel:laboratory|11",
+      "emc": 33
+    },
+    {
+      "item": "chisel:laboratory|12",
+      "emc": 33
+    },
+    {
+      "item": "chisel:laboratory|13",
+      "emc": 33
+    },
+    {
+      "item": "chisel:laboratory|14",
+      "emc": 33
+    },
+    {
+      "item": "chisel:laboratory|15",
+      "emc": 33
+    },
+    {
+      "item": "chisel:lapis|0",
+      "emc": 7776
+    },
+    {
+      "item": "chisel:lapis|1",
+      "emc": 7776
+    },
+    {
+      "item": "chisel:lapis|2",
+      "emc": 7776
+    },
+    {
+      "item": "chisel:lapis|3",
+      "emc": 7776
+    },
+    {
+      "item": "chisel:lapis|4",
+      "emc": 7776
+    },
+    {
+      "item": "chisel:lapis|5",
+      "emc": 7776
+    },
+    {
+      "item": "chisel:lapis|6",
+      "emc": 7776
+    },
+    {
+      "item": "chisel:lapis|7",
+      "emc": 7776
+    },
+    {
+      "item": "chisel:lapis|8",
+      "emc": 7776
+    },
+    {
+      "item": "chisel:lavastone|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone2|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:lavastone1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:netherbrick|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:blocknickel|0",
+      "emc": 9216
+    },
+    {
+      "item": "chisel:blocknickel|1",
+      "emc": 9216
+    },
+    {
+      "item": "chisel:blocknickel|2",
+      "emc": 9216
+    },
+    {
+      "item": "chisel:blocknickel|3",
+      "emc": 9216
+    },
+    {
+      "item": "chisel:blocknickel|4",
+      "emc": 9216
+    },
+    {
+      "item": "chisel:blocknickel|5",
+      "emc": 9216
+    },
+    {
+      "item": "chisel:blocknickel|6",
+      "emc": 9216
+    },
+    {
+      "item": "chisel:obsidian|7",
+      "emc": 64
+    },
+    {
+      "item": "chisel:obsidian|5",
+      "emc": 64
+    },
+    {
+      "item": "chisel:obsidian|6",
+      "emc": 64
+    },
+    {
+      "item": "chisel:obsidian|8",
+      "emc": 64
+    },
+    {
+      "item": "chisel:obsidian|9",
+      "emc": 64
+    },
+    {
+      "item": "chisel:obsidian|10",
+      "emc": 64
+    },
+    {
+      "item": "chisel:obsidian|11",
+      "emc": 64
+    },
+    {
+      "item": "chisel:obsidian|12",
+      "emc": 64
+    },
+    {
+      "item": "chisel:obsidian|0",
+      "emc": 64
+    },
+    {
+      "item": "chisel:obsidian|14",
+      "emc": 64
+    },
+    {
+      "item": "chisel:obsidian|13",
+      "emc": 64
+    },
+    {
+      "item": "chisel:obsidian|4",
+      "emc": 64
+    },
+    {
+      "item": "chisel:obsidian|3",
+      "emc": 64
+    },
+    {
+      "item": "chisel:obsidian|2",
+      "emc": 64
+    },
+    {
+      "item": "chisel:obsidian|1",
+      "emc": 64
+    },
+    {
+      "item": "chisel:paper|0",
+      "emc": 4
+    },
+    {
+      "item": "chisel:paper|1",
+      "emc": 4
+    },
+    {
+      "item": "chisel:paper|2",
+      "emc": 4
+    },
+    {
+      "item": "chisel:paper|3",
+      "emc": 4
+    },
+    {
+      "item": "chisel:paper|4",
+      "emc": 4
+    },
+    {
+      "item": "chisel:paper|5",
+      "emc": 4
+    },
+    {
+      "item": "chisel:paper|6",
+      "emc": 4
+    },
+    {
+      "item": "chisel:paper|7",
+      "emc": 4
+    },
+    {
+      "item": "chisel:paper|8",
+      "emc": 4
+    },
+    {
+      "item": "chisel:quartz|11",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|12",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|13",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|14",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|15",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|3",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|2",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|1",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|0",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|1",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|0",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|4",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|5",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|6",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|7",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|8",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|9",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz|10",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|2",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|3",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|4",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|5",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|6",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|7",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|8",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|9",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|10",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|15",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|14",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|13",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|12",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:quartz1|11",
+      "emc": 1024
+    },
+    {
+      "item": "chisel:redstone|0",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|1",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|2",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|3",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|4",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|5",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|6",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|7",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone1|3",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone1|0",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone1|1",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone1|2",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone1|4",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone1|5",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone1|6",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone1|7",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone1|8",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone1|9",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|14",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|13",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|12",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|11",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|10",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|9",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|8",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone1|11",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone1|10",
+      "emc": 576
+    },
+    {
+      "item": "chisel:redstone|15",
+      "emc": 576
+    },
+    {
+      "item": "chisel:temple|1",
+      "emc": 2
+    },
+    {
+      "item": "chisel:temple|2",
+      "emc": 2
+    },
+    {
+      "item": "chisel:temple|3",
+      "emc": 2
+    },
+    {
+      "item": "chisel:temple|15",
+      "emc": 2
+    },
+    {
+      "item": "chisel:temple|14",
+      "emc": 2
+    },
+    {
+      "item": "chisel:temple|13",
+      "emc": 2
+    },
+    {
+      "item": "chisel:temple|12",
+      "emc": 2
+    },
+    {
+      "item": "chisel:temple|11",
+      "emc": 2
+    },
+    {
+      "item": "chisel:temple|10",
+      "emc": 2
+    },
+    {
+      "item": "chisel:temple|4",
+      "emc": 2
+    },
+    {
+      "item": "chisel:temple|5",
+      "emc": 2
+    },
+    {
+      "item": "chisel:temple|6",
+      "emc": 2
+    },
+    {
+      "item": "chisel:temple|7",
+      "emc": 2
+    },
+    {
+      "item": "chisel:temple|8",
+      "emc": 2
+    },
+    {
+      "item": "chisel:temple|9",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|0",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|1",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|2",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|11",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|10",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|9",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|8",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|5",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|4",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|3",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|6",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|7",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|14",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|15",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|13",
+      "emc": 2
+    },
+    {
+      "item": "chisel:templemossy|12",
+      "emc": 2
+    },
+    {
+      "item": "chisel:tyrian|1",
+      "emc": 8
+    },
+    {
+      "item": "chisel:tyrian|2",
+      "emc": 8
+    },
+    {
+      "item": "chisel:tyrian|3",
+      "emc": 8
+    },
+    {
+      "item": "chisel:tyrian|4",
+      "emc": 8
+    },
+    {
+      "item": "chisel:tyrian|5",
+      "emc": 8
+    },
+    {
+      "item": "chisel:tyrian|6",
+      "emc": 8
+    },
+    {
+      "item": "chisel:tyrian|7",
+      "emc": 8
+    },
+    {
+      "item": "chisel:tyrian|8",
+      "emc": 8
+    },
+    {
+      "item": "chisel:tyrian|9",
+      "emc": 8
+    },
+    {
+      "item": "chisel:tyrian|10",
+      "emc": 8
+    },
+    {
+      "item": "chisel:tyrian|11",
+      "emc": 8
+    },
+    {
+      "item": "chisel:tyrian|12",
+      "emc": 8
+    },
+    {
+      "item": "chisel:tyrian|13",
+      "emc": 8
+    },
+    {
+      "item": "chisel:tyrian|14",
+      "emc": 8
+    },
+    {
+      "item": "chisel:tyrian|15",
+      "emc": 8
+    },
+    {
+      "item": "chisel:voidstone|1",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstone|2",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstone|3",
+      "emc": 37
+    },
+    {
+      "item": "chisel:energizedvoidstone|7",
+      "emc": 37
+    },
+    {
+      "item": "chisel:energizedvoidstone|6",
+      "emc": 37
+    },
+    {
+      "item": "chisel:energizedvoidstone|5",
+      "emc": 37
+    },
+    {
+      "item": "chisel:energizedvoidstone|4",
+      "emc": 37
+    },
+    {
+      "item": "chisel:energizedvoidstone|3",
+      "emc": 37
+    },
+    {
+      "item": "chisel:energizedvoidstone|2",
+      "emc": 37
+    },
+    {
+      "item": "chisel:energizedvoidstone|0",
+      "emc": 37
+    },
+    {
+      "item": "chisel:energizedvoidstone|1",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstone|4",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstone|5",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstone|6",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstone|7",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|0",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|1",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|2",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|11",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|10",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|9",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|8",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|7",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|6",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|5",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|4",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|3",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|14",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|13",
+      "emc": 37
+    },
+    {
+      "item": "chisel:voidstonerunic|12",
+      "emc": 37
+    },
+    {
+      "item": "chisel:waterstone|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone1|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone|15",
+      "emc": 1
+    },
+    {
+      "item": "chisel:waterstone2|0",
+      "emc": 1
+    },
+    {
+      "item": "xtones:azur|1",
+      "emc": 2
+    },
+    {
+      "item": "xtones:azur|2",
+      "emc": 2
+    },
+    {
+      "item": "xtones:azur|3",
+      "emc": 2
+    },
+    {
+      "item": "xtones:azur|4",
+      "emc": 2
+    },
+    {
+      "item": "xtones:azur|5",
+      "emc": 2
+    },
+    {
+      "item": "xtones:azur|6",
+      "emc": 2
+    },
+    {
+      "item": "xtones:azur|7",
+      "emc": 2
+    },
+    {
+      "item": "xtones:azur|8",
+      "emc": 2
+    },
+    {
+      "item": "xtones:azur|9",
+      "emc": 2
+    },
+    {
+      "item": "xtones:azur|10",
+      "emc": 2
+    },
+    {
+      "item": "xtones:azur|11",
+      "emc": 2
+    },
+    {
+      "item": "xtones:azur|12",
+      "emc": 2
+    },
+    {
+      "item": "xtones:azur|13",
+      "emc": 2
+    },
+    {
+      "item": "xtones:azur|14",
+      "emc": 2
+    },
+    {
+      "item": "xtones:azur|15",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zyth|1",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zyth|2",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zyth|3",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zyth|4",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zyth|5",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zyth|6",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zyth|7",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zyth|8",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zyth|9",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zyth|15",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zyth|14",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zyth|13",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zyth|12",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zyth|11",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zyth|10",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zorg|1",
+      "emc": 9
+    },
+    {
+      "item": "xtones:zorg|2",
+      "emc": 9
+    },
+    {
+      "item": "xtones:zorg|3",
+      "emc": 9
+    },
+    {
+      "item": "xtones:zorg|4",
+      "emc": 9
+    },
+    {
+      "item": "xtones:zorg|5",
+      "emc": 9
+    },
+    {
+      "item": "xtones:zorg|6",
+      "emc": 9
+    },
+    {
+      "item": "xtones:zorg|7",
+      "emc": 9
+    },
+    {
+      "item": "xtones:zorg|8",
+      "emc": 9
+    },
+    {
+      "item": "xtones:zorg|9",
+      "emc": 9
+    },
+    {
+      "item": "xtones:zorg|10",
+      "emc": 9
+    },
+    {
+      "item": "xtones:zorg|11",
+      "emc": 9
+    },
+    {
+      "item": "xtones:zorg|12",
+      "emc": 9
+    },
+    {
+      "item": "xtones:zorg|13",
+      "emc": 9
+    },
+    {
+      "item": "xtones:zorg|14",
+      "emc": 9
+    },
+    {
+      "item": "xtones:zorg|15",
+      "emc": 9
+    },
+    {
+      "item": "xtones:ztyl|1",
+      "emc": 2
+    },
+    {
+      "item": "xtones:ztyl|2",
+      "emc": 2
+    },
+    {
+      "item": "xtones:ztyl|3",
+      "emc": 2
+    },
+    {
+      "item": "xtones:ztyl|4",
+      "emc": 2
+    },
+    {
+      "item": "xtones:ztyl|5",
+      "emc": 2
+    },
+    {
+      "item": "xtones:ztyl|6",
+      "emc": 2
+    },
+    {
+      "item": "xtones:ztyl|7",
+      "emc": 2
+    },
+    {
+      "item": "xtones:ztyl|8",
+      "emc": 2
+    },
+    {
+      "item": "xtones:ztyl|9",
+      "emc": 2
+    },
+    {
+      "item": "xtones:ztyl|10",
+      "emc": 2
+    },
+    {
+      "item": "xtones:ztyl|11",
+      "emc": 2
+    },
+    {
+      "item": "xtones:ztyl|12",
+      "emc": 2
+    },
+    {
+      "item": "xtones:ztyl|13",
+      "emc": 2
+    },
+    {
+      "item": "xtones:ztyl|14",
+      "emc": 2
+    },
+    {
+      "item": "xtones:ztyl|15",
+      "emc": 2
     }
   ]
 }

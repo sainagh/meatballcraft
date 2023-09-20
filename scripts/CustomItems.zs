@@ -5060,4 +5060,14 @@ fullessentiaautomation.maxStackSize = 64;
 fullessentiaautomation.beaconPayment = false;
 fullessentiaautomation.register();
 
+var fullessentiaautomation = VanillaFactory.createItem("full_essentia_automation");
+fullessentiaautomation.maxStackSize = 64;
+fullessentiaautomation.beaconPayment = false;
+fullessentiaautomation.register();
+
+var fullessentiaautomation = VanillaFactory.createItem("draconic_energy_orb");
+fullessentiaautomation.maxStackSize = 64;
+fullessentiaautomation.beaconPayment = false;
+fullessentiaautomation.register();
+
 

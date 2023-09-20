@@ -150,6 +150,10 @@ mods.recipestages.Recipes.addShaped("makebettergrandcrystals", "hardmode", <cont
 
 recipes.addHiddenShapeless("makethatanimatorboii",<contenttweaker:mark_of_the_arbiter>,
 [<contenttweaker:astral_animator>,
+<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:ghast"}),
+<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:skeleton"}),
+<enderio:item_soul_vial:1>.withTag({entityId: "divinerpg:cyclops"}),
+<enderio:item_soul_vial:1>.withTag({entityId: "divinerpg:frost"})
 ]);
 
 mods.recipestages.Recipes.addShaped("ezpzwandsbbynos", "hardmode", <contenttweaker:rulers_of_terra_callstone>, [

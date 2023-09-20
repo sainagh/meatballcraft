@@ -1175,4 +1175,9 @@ recipes.addShapeless(<thaumcraft:crucible>,
 recipes.addShapeless(<thaumcraft:crystal_essence>,
 [<contenttweaker:full_essentia_automation>]);
 
+recipes.addShapeless(<draconicevolution:energy_storage_core>,
+[<contenttweaker:draconic_energy_orb>,
+<draconicevolution:particle_generator:2>,
+<draconicevolution:draconium_block>,
+<draconicevolution:energy_pylon>]);
 

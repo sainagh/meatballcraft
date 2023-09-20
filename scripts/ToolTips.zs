@@ -3424,3 +3424,5 @@ import crafttweaker.item.IItemCondition;
 <forestry:sapling>.addTooltip(format.red("The enchanted greenhouse can be used to automate these trees!"));
 
 <contenttweaker:butterfly_repellent>.addTooltip(format.red("Right click to remove butterflies if they get laggy"));
+
+<thermalfoundation:storage_alloy:3>.addTooltip(format.red("Priscilla debugged broken block recipes"));
