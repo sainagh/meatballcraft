@@ -1838,6 +1838,8 @@ import crafttweaker.item.IItemCondition;
 
 <enderutilities:handybag:0>.addTooltip(format.red("Holding this in your inventory will increase your storage slots automatically!"));
 <enderutilities:handybag:1>.addTooltip(format.red("Holding this in your inventory will increase your storage slots automatically!"));
+<enderutilities:handybag:0>.addTooltip(format.red("Use SHIFT + E to open your regular inventory"));
+<enderutilities:handybag:1>.addTooltip(format.red("Use SHIFT + E to open your regular inventory"));
 
 
 <extrabotany:masterhandbag>.addTooltip(format.red("Backpack"));
@@ -2713,6 +2715,7 @@ import crafttweaker.item.IItemCondition;
 <tconstruct:sharpening_kit>.addTooltip(format.red("Can be used to repair tools in your crafting table"));
 
 <naturescompass:naturescompass>.addTooltip(format.red("WARNING: do not craft in ME terminal or arcane transmutation tablet, it could cause a crash"));
+<extrautils2:biomemarker>.addTooltip(format.red("WARNING: do not craft in ME terminal or arcane transmutation tablet, it could cause a crash"));
 
 <contenttweaker:recursive_recipes>.addTooltip(format.red("With regards to Not Yue"));
 
@@ -2884,7 +2887,7 @@ import crafttweaker.item.IItemCondition;
 
 <tinker_io:smart_output>.addTooltip(format.red("Upgraded version of the casting table with a GUI and upgrages"));
 
-<tinker_io:speedupg>.addTooltip(format.red("Smart Output Upgrade: increses speed"));
+<tinker_io:speedupg>.addTooltip(format.red("Fuel input machine upgrade: increses speed"));
 <tinker_io:upg:1>.addTooltip(format.red("Smart Output Upgrade: adds 1 extra space to output slot"));
 <tinker_io:upg:2>.addTooltip(format.red("Smart Output Upgrade: adds 2 extra spaces to output slot"));
 <tinker_io:upg:3>.addTooltip(format.red("Smart Output Upgrade: adds 3 extra spaces to output slot"));
@@ -3126,7 +3129,7 @@ import crafttweaker.item.IItemCondition;
 <enderutilities:handybag:0>.addTooltip(format.red("WARNING: do not place backpacks, satchels, etc in the extra slots, may cause memory leaks"));
 <enderutilities:handybag:1>.addTooltip(format.red("WARNING: do not place backpacks, satchels, etc in the extra slots, may cause memory leaks"));
 
-<aoa3:hive_egg>.addTooltip(format.red("Right click a tharafly with a hive chunk!"));
+<aoa3:hive_egg>.addTooltip(format.red("Left click a tharafly with a hive chunk!"));
 
 <ore:ayeracoStatue>.addTooltip(format.red("Use the Horde Horn in the End!"));
 
@@ -3426,3 +3429,14 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:butterfly_repellent>.addTooltip(format.red("Right click to remove butterflies if they get laggy"));
 
 <thermalfoundation:storage_alloy:3>.addTooltip(format.red("Priscilla debugged broken block recipes"));
+
+<appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("Use CTRL + E to open while in bauble"));
+<appliedenergistics2:wireless_fluid_terminal>.addTooltip(format.red("Use CTRL + F to open while in bauble"));
+<appliedenergistics2:wireless_pattern_terminal>.addTooltip(format.red("Use CTRL + R to open while in bauble"));
+<appliedenergistics2:wireless_terminal>.addTooltip(format.red("Use CTRL + T to open while in bauble"));
+
+<tombstone:crafting_ingredient:4>.addTooltip(format.red("Obtained from fishing or the resource fisher"));
+
+<tesslocator:basic_energy_tesslocator>.addTooltip(format.red("Thanks to Vamael for proofreading things!"));
+
+<aoa3:explosive_idol>.addTooltip(format.red("Found in the baron portal structure in the nether"));

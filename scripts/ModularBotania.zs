@@ -111,5 +111,5 @@ bot12.addItemInput(<botania:manaresource:4>*12);
 bot12.addItemInput(<divinerpg:divine_shards>);
 bot12.addItemInput(<aether_legacy:golden_ring>);
 bot12.addItemInput(<extrautils2:compressedsand:1>);
-bot12.addItemOutput(<botania:odinring>);
+bot12.addItemOutput(<botania:lokiring>);
 bot12.build();

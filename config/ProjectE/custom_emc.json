@@ -6730,7 +6730,7 @@
     },
     {
       "item": "minecraft:snow|0",
-      "emc": 0
+      "emc": 4
     },
     {
       "item": "abyssalcraft:coin|0",
@@ -10719,6 +10719,1718 @@
     {
       "item": "xtones:ztyl|15",
       "emc": 2
+    },
+    {
+      "item": "xtones:cray|1",
+      "emc": 9
+    },
+    {
+      "item": "xtones:cray|2",
+      "emc": 9
+    },
+    {
+      "item": "xtones:cray|3",
+      "emc": 9
+    },
+    {
+      "item": "xtones:cray|4",
+      "emc": 9
+    },
+    {
+      "item": "xtones:cray|5",
+      "emc": 9
+    },
+    {
+      "item": "xtones:cray|6",
+      "emc": 9
+    },
+    {
+      "item": "xtones:cray|7",
+      "emc": 9
+    },
+    {
+      "item": "xtones:cray|8",
+      "emc": 9
+    },
+    {
+      "item": "xtones:cray|9",
+      "emc": 9
+    },
+    {
+      "item": "xtones:cray|10",
+      "emc": 9
+    },
+    {
+      "item": "xtones:cray|11",
+      "emc": 9
+    },
+    {
+      "item": "xtones:cray|12",
+      "emc": 9
+    },
+    {
+      "item": "xtones:cray|13",
+      "emc": 9
+    },
+    {
+      "item": "xtones:cray|14",
+      "emc": 9
+    },
+    {
+      "item": "xtones:cray|15",
+      "emc": 9
+    },
+    {
+      "item": "xtones:fort|1",
+      "emc": 3
+    },
+    {
+      "item": "xtones:fort|2",
+      "emc": 3
+    },
+    {
+      "item": "xtones:fort|3",
+      "emc": 3
+    },
+    {
+      "item": "xtones:fort|4",
+      "emc": 3
+    },
+    {
+      "item": "xtones:fort|5",
+      "emc": 3
+    },
+    {
+      "item": "xtones:fort|6",
+      "emc": 3
+    },
+    {
+      "item": "xtones:fort|7",
+      "emc": 3
+    },
+    {
+      "item": "xtones:fort|8",
+      "emc": 3
+    },
+    {
+      "item": "xtones:fort|9",
+      "emc": 3
+    },
+    {
+      "item": "xtones:fort|10",
+      "emc": 3
+    },
+    {
+      "item": "xtones:fort|11",
+      "emc": 3
+    },
+    {
+      "item": "xtones:fort|12",
+      "emc": 3
+    },
+    {
+      "item": "xtones:fort|13",
+      "emc": 3
+    },
+    {
+      "item": "xtones:fort|14",
+      "emc": 3
+    },
+    {
+      "item": "xtones:fort|15",
+      "emc": 3
+    },
+    {
+      "item": "xtones:glaxx|1",
+      "emc": 1
+    },
+    {
+      "item": "xtones:glaxx|2",
+      "emc": 1
+    },
+    {
+      "item": "xtones:glaxx|3",
+      "emc": 1
+    },
+    {
+      "item": "xtones:glaxx|4",
+      "emc": 1
+    },
+    {
+      "item": "xtones:glaxx|5",
+      "emc": 1
+    },
+    {
+      "item": "xtones:glaxx|6",
+      "emc": 1
+    },
+    {
+      "item": "xtones:glaxx|7",
+      "emc": 1
+    },
+    {
+      "item": "xtones:glaxx|8",
+      "emc": 1
+    },
+    {
+      "item": "xtones:glaxx|9",
+      "emc": 1
+    },
+    {
+      "item": "xtones:glaxx|10",
+      "emc": 1
+    },
+    {
+      "item": "xtones:glaxx|11",
+      "emc": 1
+    },
+    {
+      "item": "xtones:glaxx|12",
+      "emc": 1
+    },
+    {
+      "item": "xtones:glaxx|13",
+      "emc": 1
+    },
+    {
+      "item": "xtones:glaxx|14",
+      "emc": 1
+    },
+    {
+      "item": "xtones:glaxx|15",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|1",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|2",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|3",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|12",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|11",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|10",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|9",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|8",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|7",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|6",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|5",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|4",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|13",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|14",
+      "emc": 1
+    },
+    {
+      "item": "xtones:iszm|15",
+      "emc": 1
+    },
+    {
+      "item": "xtones:jelt|1",
+      "emc": 2
+    },
+    {
+      "item": "xtones:jelt|2",
+      "emc": 2
+    },
+    {
+      "item": "xtones:jelt|3",
+      "emc": 2
+    },
+    {
+      "item": "xtones:jelt|4",
+      "emc": 2
+    },
+    {
+      "item": "xtones:jelt|5",
+      "emc": 2
+    },
+    {
+      "item": "xtones:jelt|6",
+      "emc": 2
+    },
+    {
+      "item": "xtones:jelt|7",
+      "emc": 2
+    },
+    {
+      "item": "xtones:jelt|8",
+      "emc": 2
+    },
+    {
+      "item": "xtones:jelt|9",
+      "emc": 2
+    },
+    {
+      "item": "xtones:jelt|10",
+      "emc": 2
+    },
+    {
+      "item": "xtones:jelt|11",
+      "emc": 2
+    },
+    {
+      "item": "xtones:jelt|12",
+      "emc": 2
+    },
+    {
+      "item": "xtones:jelt|13",
+      "emc": 2
+    },
+    {
+      "item": "xtones:jelt|14",
+      "emc": 2
+    },
+    {
+      "item": "xtones:jelt|15",
+      "emc": 2
+    },
+    {
+      "item": "xtones:korp|1",
+      "emc": 1
+    },
+    {
+      "item": "xtones:korp|2",
+      "emc": 1
+    },
+    {
+      "item": "xtones:korp|3",
+      "emc": 1
+    },
+    {
+      "item": "xtones:korp|4",
+      "emc": 1
+    },
+    {
+      "item": "xtones:korp|5",
+      "emc": 1
+    },
+    {
+      "item": "xtones:korp|6",
+      "emc": 1
+    },
+    {
+      "item": "xtones:korp|7",
+      "emc": 1
+    },
+    {
+      "item": "xtones:korp|8",
+      "emc": 1
+    },
+    {
+      "item": "xtones:korp|9",
+      "emc": 1
+    },
+    {
+      "item": "xtones:korp|10",
+      "emc": 1
+    },
+    {
+      "item": "xtones:korp|11",
+      "emc": 1
+    },
+    {
+      "item": "xtones:korp|12",
+      "emc": 1
+    },
+    {
+      "item": "xtones:korp|13",
+      "emc": 1
+    },
+    {
+      "item": "xtones:korp|14",
+      "emc": 1
+    },
+    {
+      "item": "xtones:korp|15",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|0",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|1",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|2",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|11",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|10",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|9",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|8",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|7",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|6",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|5",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|4",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|3",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|12",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|13",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|14",
+      "emc": 1
+    },
+    {
+      "item": "xtones:kryp|15",
+      "emc": 1
+    },
+    {
+      "item": "xtones:lair|1",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lair|2",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lair|3",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lair|4",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lair|5",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lair|6",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lair|7",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lair|8",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lair|9",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lair|10",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lair|11",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lair|12",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lair|13",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lair|14",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lair|15",
+      "emc": 3
+    },
+    {
+      "item": "xtones:lave|1",
+      "emc": 2
+    },
+    {
+      "item": "xtones:lave|2",
+      "emc": 2
+    },
+    {
+      "item": "xtones:lave|3",
+      "emc": 2
+    },
+    {
+      "item": "xtones:lave|4",
+      "emc": 2
+    },
+    {
+      "item": "xtones:lave|5",
+      "emc": 2
+    },
+    {
+      "item": "xtones:lave|6",
+      "emc": 2
+    },
+    {
+      "item": "xtones:lave|7",
+      "emc": 2
+    },
+    {
+      "item": "xtones:lave|8",
+      "emc": 2
+    },
+    {
+      "item": "xtones:lave|9",
+      "emc": 2
+    },
+    {
+      "item": "xtones:lave|10",
+      "emc": 2
+    },
+    {
+      "item": "xtones:lave|11",
+      "emc": 2
+    },
+    {
+      "item": "xtones:lave|12",
+      "emc": 2
+    },
+    {
+      "item": "xtones:lave|13",
+      "emc": 2
+    },
+    {
+      "item": "xtones:lave|14",
+      "emc": 2
+    },
+    {
+      "item": "xtones:lave|15",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|0",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|1",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|2",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|11",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|10",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|9",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|8",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|7",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|15",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|14",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|5",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|4",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|13",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|12",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|3",
+      "emc": 2
+    },
+    {
+      "item": "xtones:mint|6",
+      "emc": 2
+    },
+    {
+      "item": "xtones:myst|0",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|1",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|2",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|3",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|4",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|5",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|6",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|7",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|8",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|9",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|10",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|11",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|12",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|13",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|14",
+      "emc": 1
+    },
+    {
+      "item": "xtones:myst|15",
+      "emc": 1
+    },
+    {
+      "item": "xtones:reds|1",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reds|2",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reds|3",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reds|4",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reds|5",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reds|6",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reds|7",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reds|8",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reds|9",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reds|10",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reds|11",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reds|12",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reds|13",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reds|14",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reds|15",
+      "emc": 2
+    },
+    {
+      "item": "xtones:reed|0",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|1",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|2",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|3",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|4",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|5",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|6",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|7",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|8",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|9",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|10",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|11",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|13",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|12",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|14",
+      "emc": 5
+    },
+    {
+      "item": "xtones:reed|15",
+      "emc": 5
+    },
+    {
+      "item": "xtones:roen|0",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|1",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|2",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|3",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|4",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|5",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|6",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|7",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|8",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|9",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|10",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|11",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|12",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|13",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|14",
+      "emc": 1
+    },
+    {
+      "item": "xtones:roen|15",
+      "emc": 1
+    },
+    {
+      "item": "xtones:sols|1",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sols|2",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sols|3",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sols|4",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sols|5",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sols|6",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sols|7",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sols|8",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sols|9",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sols|10",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sols|11",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sols|12",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sols|13",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sols|14",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sols|15",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|1",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|2",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|3",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|12",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|11",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|10",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|9",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|8",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|7",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|6",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|5",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|4",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|13",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|14",
+      "emc": 2
+    },
+    {
+      "item": "xtones:sync|15",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|1",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|2",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|3",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|4",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|5",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|6",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|7",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|8",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|9",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|10",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|11",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|12",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|13",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|14",
+      "emc": 2
+    },
+    {
+      "item": "xtones:tank|15",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|1",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|2",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|3",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|12",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|11",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|10",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|9",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|8",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|7",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|6",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|5",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|4",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|13",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|14",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vect|15",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|0",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|1",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|2",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|3",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|4",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|5",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|6",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|7",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|8",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|9",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|12",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|11",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|10",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|13",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|14",
+      "emc": 2
+    },
+    {
+      "item": "xtones:vena|15",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zane|1",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zane|2",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zane|3",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zane|4",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zane|5",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zane|6",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zane|7",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zane|8",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zane|9",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zane|10",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zane|11",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zane|12",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zane|13",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zane|14",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zane|15",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zech|1",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zech|2",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zech|3",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zech|4",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zech|5",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zech|6",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zech|7",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zech|8",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zech|9",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zech|10",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zech|11",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zech|12",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zech|13",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zech|14",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zech|15",
+      "emc": 5
+    },
+    {
+      "item": "xtones:zest|1",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zest|2",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zest|3",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zest|4",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zest|5",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zest|6",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zest|7",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zest|8",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zest|9",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zest|10",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zest|11",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zest|12",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zest|13",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zest|14",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zest|15",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|0",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|1",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|2",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|11",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|10",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|9",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|8",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|7",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|6",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|5",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|4",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|3",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|15",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|14",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|13",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zeta|12",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zion|1",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zion|2",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zion|3",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zion|4",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zion|5",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zion|6",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zion|7",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zion|8",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zion|9",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zion|10",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zion|11",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zion|12",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zion|13",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zion|14",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zion|15",
+      "emc": 2
+    },
+    {
+      "item": "xtones:zkul|0",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|1",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|2",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|3",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|4",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|5",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|6",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|7",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|8",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|9",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|10",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|11",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|12",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|13",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|14",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zkul|15",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zoea|1",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zoea|2",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zoea|3",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zoea|4",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zoea|5",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zoea|6",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zoea|7",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zoea|8",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zoea|9",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zoea|10",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zoea|11",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zoea|12",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zoea|13",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zoea|14",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zoea|15",
+      "emc": 3
+    },
+    {
+      "item": "xtones:zome|1",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zome|3",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zome|5",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zome|4",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zome|6",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zome|7",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zome|8",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zome|9",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zome|10",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zome|11",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zome|12",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zome|13",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zome|14",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zome|15",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|1",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|2",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|3",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|4",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|13",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|12",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|11",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|10",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|9",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|8",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|7",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|6",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|5",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|14",
+      "emc": 1
+    },
+    {
+      "item": "xtones:zone|15",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:asphalt|0",
+      "emc": 4
     }
   ]
 }

@@ -1176,8 +1176,33 @@ recipes.addShapeless(<thaumcraft:crystal_essence>,
 [<contenttweaker:full_essentia_automation>]);
 
 recipes.addShapeless(<draconicevolution:energy_storage_core>,
-[<contenttweaker:draconic_energy_orb>,
+[<contenttweaker:draconic_energy_ball>,
 <draconicevolution:particle_generator:2>,
 <draconicevolution:draconium_block>,
 <draconicevolution:energy_pylon>]);
 
+recipes.addShaped(<aether_legacy:obsidian_helmet>,
+[[<divinerpg:bedrock_chunk>, <minecraft:obsidian>, <divinerpg:bedrock_chunk>],
+[<minecraft:obsidian>, null, <minecraft:obsidian>],
+[null, null, null]]);
+
+recipes.addShaped(<aether_legacy:obsidian_chestplate>,
+[[<divinerpg:bedrock_chunk>, null, <divinerpg:bedrock_chunk>],
+[<divinerpg:bedrock_chunk>, <minecraft:obsidian>, <divinerpg:bedrock_chunk>],
+[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+
+recipes.addShaped(<aether_legacy:obsidian_leggings>,
+[[<divinerpg:bedrock_chunk>, <divinerpg:bedrock_chunk>, <divinerpg:bedrock_chunk>],
+[<minecraft:obsidian>, null, <minecraft:obsidian>],
+[<minecraft:obsidian>, null, <minecraft:obsidian>]]);
+
+recipes.addShaped(<aether_legacy:obsidian_boots>,
+[[<divinerpg:bedrock_chunk>, null, <divinerpg:bedrock_chunk>],
+[<minecraft:obsidian>, null, <minecraft:obsidian>],
+[null, null, null]]);
+
+furnace.addRecipe(<minecraft:gold_ingot>, <divinerpg:sandslash>);
+furnace.addRecipe(<contenttweaker:divine_wisp>*7, <divinerpg:divine_leggings>);
+furnace.addRecipe(<contenttweaker:divine_wisp>*4, <divinerpg:divine_boots>);
+furnace.addRecipe(<contenttweaker:divine_wisp>*5, <divinerpg:divine_helmet>);
+furnace.addRecipe(<contenttweaker:divine_wisp>*8, <divinerpg:divine_chestplate>);

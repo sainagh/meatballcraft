@@ -297,7 +297,9 @@
     "aoa3:arkzyne",
     "aoa3:shyre_troll",
     "aoa3:lightwalker",
-    "aoa3:luxocron"
+    "aoa3:luxocron",
+    "iceandfire:firedragon",
+    "iceandfire:icedragon"
   ],
   "entitywhitelist": [
   ],

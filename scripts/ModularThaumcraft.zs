@@ -55,7 +55,7 @@ reci4.addEnergyPerTickInput(100);
 reci4.addItemInput(<thermalfoundation:material:32>);
 reci4.addItemInput(<thermalfoundation:material:32>);
 reci4.addItemInput(<minecraft:glass>);
-reci4.addItemInput(<thaumcraft:nugget:8>);
+reci4.addItemInput(<ore:nuggetBrass>);
 reci4.addItemInput(<thaumcraft:nugget:5>);
 reci4.addItemOutput(<thaumcraft:tube>);
 reci4.addItemOutput(<thaumcraft:tube>);

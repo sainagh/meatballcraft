@@ -3267,8 +3267,8 @@ mods.jei.JEI.addDescription([
     "By default, all blocks with a spark will share mana equally, but spark augments can be used to change priorities.",
     "",
     "Dominant: will take mana from other pools until it's full.",
-    "Dispersive: will send mana to other pools until they are all full.",
-    "Recessive: will send mana to other pools if they need it more.",
+    "Dispersive: will send mana to players.",
+    "Recessive: will send mana to other pools if they can take it.",
     "Isolated: will not send mana to other normal sparks."
 ]);
 

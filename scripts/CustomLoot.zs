@@ -78,6 +78,11 @@ dimdoorsdungeonroll.addItemEntry(<techreborn:ingot:14>, 3);
 dimdoorsdungeonroll.addItemEntry(<thermalfoundation:material:135>, 3);
 dimdoorsdungeonroll.addItemEntry(<contenttweaker:strange_charm>, 3);
 dimdoorsdungeonroll.addItemEntry(<thermalfoundation:material:134>, 3);
+dimdoorsdungeonroll.addItemEntry(<tardis:bowtie>, 1);
+dimdoorsdungeonroll.addItemEntry(<tardis:void_specs>, 1);
+dimdoorsdungeonroll.addItemEntry(<tardis:fourth_hat>, 1);
+dimdoorsdungeonroll.addItemEntry(<tardis:fez>, 1);
+dimdoorsdungeonroll.addItemEntry(<tardis:thirteen_coat>, 1);
 
 val mothervoidwalker = LootTweaker.getTable("aoa3:entities/mobs/overworld/mother_void_walker");
 val mothervoidwalkerroll = mothervoidwalker.addPool("mothervoidwalkerroll", 1, 1, 0, 0);

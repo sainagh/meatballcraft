@@ -356,3 +356,46 @@ recipes.addShaped(<ae2fc:fluid_level_maintainer>,
 [[<threng:material:0>, <appliedenergistics2:part:281>, <threng:material:0>],
 [<appliedenergistics2:material:24>, <appliedenergistics2:crafting_monitor>, <appliedenergistics2:material:24>],
 [<threng:material:0>, <ore:dyeBlue>, <threng:material:0>]]);
+
+recipes.addShapeless(<appliedenergistics2:part:76>,
+[<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]);
+
+
+
+mods.chisel.Carving.addGroup("smartcoloredcablegroup");
+
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:40>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:41>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:42>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:43>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:44>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:45>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:46>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:47>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:48>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:49>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:50>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:51>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:52>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:53>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:54>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:55>);
+
+mods.chisel.Carving.addGroup("densesmartcoloredcablegroup");
+
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:60>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:61>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:62>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:63>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:64>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:65>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:66>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:67>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:68>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:69>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:70>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:71>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:72>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:73>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:74>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:75>);

@@ -69,7 +69,7 @@
 <contenttweaker:enchdesc_poisonous>.addTooltip(format.red("Inflicts mobs with poison for 8 seconds, level scales with enchantment level"));
 <contenttweaker:enchdesc_flim_flam>.addTooltip(format.red("Does nothing"));
 <contenttweaker:enchdesc_last_stand>.addTooltip(format.red("Prevents death at the cost of XP, XP cost is 50 / total levels"));
-<contenttweaker:enchdesc_unstable>.addTooltip(format.red("Prevents fall damage on boots and or triggers explisions on armour consuming gunpowder"));
+<contenttweaker:enchdesc_unstable>.addTooltip(format.red("When on boots, prevents fall damages and triggers an explosion by consuming gunpowder"));
 <contenttweaker:enchdesc_electric_efficiency>.addTooltip(format.red("Lowers Power usage of Projectred Jetpacks?, 16x less power max"));
 <contenttweaker:enchdesc_destruction>.addTooltip(format.red("Makes Crowbars like hammers"));
 <contenttweaker:enchdesc_implosion>.addTooltip(format.red("Bane of Creepers but for Crowbars"));
