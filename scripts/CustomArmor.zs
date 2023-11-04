@@ -186,3 +186,531 @@ recipes.addShaped(<contenttweaker:sedna_feet>,
 [[<materialpart:sedna:plate>, null, <materialpart:sedna:plate>],
 [<materialpart:sedna:plate>, null, <materialpart:sedna:plate>],
 [null, null, null]]);
+
+recipes.addShaped(<contenttweaker:phasing_alloy_head>,
+[[null, null, null],
+[<contenttweaker:phasing_alloy_plate>, <contenttweaker:phasing_alloy_plate>, <contenttweaker:phasing_alloy_plate>],
+[<contenttweaker:phasing_alloy_plate>, null, <contenttweaker:phasing_alloy_plate>]]);
+recipes.addShaped(<contenttweaker:phasing_alloy_chest>,
+[[<contenttweaker:phasing_alloy_plate>, null, <contenttweaker:phasing_alloy_plate>],
+[<contenttweaker:phasing_alloy_plate>, <contenttweaker:phasing_alloy_plate>, <contenttweaker:phasing_alloy_plate>],
+[<contenttweaker:phasing_alloy_plate>, <contenttweaker:phasing_alloy_plate>, <contenttweaker:phasing_alloy_plate>]]);
+recipes.addShaped(<contenttweaker:phasing_alloy_legs>,
+[[<contenttweaker:phasing_alloy_plate>, <contenttweaker:phasing_alloy_plate>, <contenttweaker:phasing_alloy_plate>],
+[<contenttweaker:phasing_alloy_plate>, null, <contenttweaker:phasing_alloy_plate>],
+[<contenttweaker:phasing_alloy_plate>, null, <contenttweaker:phasing_alloy_plate>]]);
+recipes.addShaped(<contenttweaker:phasing_alloy_feet>,
+[[<contenttweaker:phasing_alloy_plate>, null, <contenttweaker:phasing_alloy_plate>],
+[<contenttweaker:phasing_alloy_plate>, null, <contenttweaker:phasing_alloy_plate>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:wrought_plate_head>,
+[[null, null, null],
+[<contenttweaker:wrought_iron_plate>, <contenttweaker:wrought_iron_plate>, <contenttweaker:wrought_iron_plate>],
+[<contenttweaker:wrought_iron_plate>, null, <contenttweaker:wrought_iron_plate>]]);
+recipes.addShaped(<contenttweaker:wrought_plate_chest>,
+[[<contenttweaker:wrought_iron_plate>, null, <contenttweaker:wrought_iron_plate>],
+[<contenttweaker:wrought_iron_plate>, <contenttweaker:wrought_iron_plate>, <contenttweaker:wrought_iron_plate>],
+[<contenttweaker:wrought_iron_plate>, <contenttweaker:wrought_iron_plate>, <contenttweaker:wrought_iron_plate>]]);
+recipes.addShaped(<contenttweaker:wrought_plate_legs>,
+[[<contenttweaker:wrought_iron_plate>, <contenttweaker:wrought_iron_plate>, <contenttweaker:wrought_iron_plate>],
+[<contenttweaker:wrought_iron_plate>, null, <contenttweaker:wrought_iron_plate>],
+[<contenttweaker:wrought_iron_plate>, null, <contenttweaker:wrought_iron_plate>]]);
+recipes.addShaped(<contenttweaker:wrought_plate_feet>,
+[[<contenttweaker:wrought_iron_plate>, null, <contenttweaker:wrought_iron_plate>],
+[<contenttweaker:wrought_iron_plate>, null, <contenttweaker:wrought_iron_plate>],
+[null, null, null]]);
+
+
+recipes.addShaped(<contenttweaker:champion_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:1026>, <extendedcrafting:singularity_custom:1026>, <extendedcrafting:singularity_custom:1026>],
+[<extendedcrafting:singularity_custom:1026>, null, <extendedcrafting:singularity_custom:1026>]]);
+recipes.addShaped(<contenttweaker:champion_token_chest>,
+[[<extendedcrafting:singularity_custom:1026>, null, <extendedcrafting:singularity_custom:1026>],
+[<extendedcrafting:singularity_custom:1026>, <extendedcrafting:singularity_custom:1026>, <extendedcrafting:singularity_custom:1026>],
+[<extendedcrafting:singularity_custom:1026>, <extendedcrafting:singularity_custom:1026>, <extendedcrafting:singularity_custom:1026>]]);
+recipes.addShaped(<contenttweaker:champion_token_legs>,
+[[<extendedcrafting:singularity_custom:1026>, <extendedcrafting:singularity_custom:1026>, <extendedcrafting:singularity_custom:1026>],
+[<extendedcrafting:singularity_custom:1026>, null, <extendedcrafting:singularity_custom:1026>],
+[<extendedcrafting:singularity_custom:1026>, null, <extendedcrafting:singularity_custom:1026>]]);
+recipes.addShaped(<contenttweaker:champion_token_feet>,
+[[<extendedcrafting:singularity_custom:1026>, null, <extendedcrafting:singularity_custom:1026>],
+[<extendedcrafting:singularity_custom:1026>, null, <extendedcrafting:singularity_custom:1026>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:elite_mortum_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2000>, <extendedcrafting:singularity_custom:2000>, <extendedcrafting:singularity_custom:2000>],
+[<extendedcrafting:singularity_custom:2000>, null, <extendedcrafting:singularity_custom:2000>]]);
+recipes.addShaped(<contenttweaker:elite_mortum_chest>,
+[[<extendedcrafting:singularity_custom:2000>, null, <extendedcrafting:singularity_custom:2000>],
+[<extendedcrafting:singularity_custom:2000>, <extendedcrafting:singularity_custom:2000>, <extendedcrafting:singularity_custom:2000>],
+[<extendedcrafting:singularity_custom:2000>, <extendedcrafting:singularity_custom:2000>, <extendedcrafting:singularity_custom:2000>]]);
+recipes.addShaped(<contenttweaker:elite_mortum_legs>,
+[[<extendedcrafting:singularity_custom:2000>, <extendedcrafting:singularity_custom:2000>, <extendedcrafting:singularity_custom:2000>],
+[<extendedcrafting:singularity_custom:2000>, null, <extendedcrafting:singularity_custom:2000>],
+[<extendedcrafting:singularity_custom:2000>, null, <extendedcrafting:singularity_custom:2000>]]);
+recipes.addShaped(<contenttweaker:elite_mortum_feet>,
+[[<extendedcrafting:singularity_custom:2000>, null, <extendedcrafting:singularity_custom:2000>],
+[<extendedcrafting:singularity_custom:2000>, null, <extendedcrafting:singularity_custom:2000>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:elite_skythern_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2001>, <extendedcrafting:singularity_custom:2001>, <extendedcrafting:singularity_custom:2001>],
+[<extendedcrafting:singularity_custom:2001>, null, <extendedcrafting:singularity_custom:2001>]]);
+recipes.addShaped(<contenttweaker:elite_skythern_chest>,
+[[<extendedcrafting:singularity_custom:2001>, null, <extendedcrafting:singularity_custom:2001>],
+[<extendedcrafting:singularity_custom:2001>, <extendedcrafting:singularity_custom:2001>, <extendedcrafting:singularity_custom:2001>],
+[<extendedcrafting:singularity_custom:2001>, <extendedcrafting:singularity_custom:2001>, <extendedcrafting:singularity_custom:2001>]]);
+recipes.addShaped(<contenttweaker:elite_skythern_legs>,
+[[<extendedcrafting:singularity_custom:2001>, <extendedcrafting:singularity_custom:2001>, <extendedcrafting:singularity_custom:2001>],
+[<extendedcrafting:singularity_custom:2001>, null, <extendedcrafting:singularity_custom:2001>],
+[<extendedcrafting:singularity_custom:2001>, null, <extendedcrafting:singularity_custom:2001>]]);
+recipes.addShaped(<contenttweaker:elite_skythern_feet>,
+[[<extendedcrafting:singularity_custom:2001>, null, <extendedcrafting:singularity_custom:2001>],
+[<extendedcrafting:singularity_custom:2001>, null, <extendedcrafting:singularity_custom:2001>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:elite_apalachia_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2002>, <extendedcrafting:singularity_custom:2002>, <extendedcrafting:singularity_custom:2002>],
+[<extendedcrafting:singularity_custom:2002>, null, <extendedcrafting:singularity_custom:2002>]]);
+recipes.addShaped(<contenttweaker:elite_apalachia_chest>,
+[[<extendedcrafting:singularity_custom:2002>, null, <extendedcrafting:singularity_custom:2002>],
+[<extendedcrafting:singularity_custom:2002>, <extendedcrafting:singularity_custom:2002>, <extendedcrafting:singularity_custom:2002>],
+[<extendedcrafting:singularity_custom:2002>, <extendedcrafting:singularity_custom:2002>, <extendedcrafting:singularity_custom:2002>]]);
+recipes.addShaped(<contenttweaker:elite_apalachia_legs>,
+[[<extendedcrafting:singularity_custom:2002>, <extendedcrafting:singularity_custom:2002>, <extendedcrafting:singularity_custom:2002>],
+[<extendedcrafting:singularity_custom:2002>, null, <extendedcrafting:singularity_custom:2002>],
+[<extendedcrafting:singularity_custom:2002>, null, <extendedcrafting:singularity_custom:2002>]]);
+recipes.addShaped(<contenttweaker:elite_apalachia_feet>,
+[[<extendedcrafting:singularity_custom:2002>, null, <extendedcrafting:singularity_custom:2002>],
+[<extendedcrafting:singularity_custom:2002>, null, <extendedcrafting:singularity_custom:2002>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:elite_wildwood_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2003>, <extendedcrafting:singularity_custom:2003>, <extendedcrafting:singularity_custom:2003>],
+[<extendedcrafting:singularity_custom:2003>, null, <extendedcrafting:singularity_custom:2003>]]);
+recipes.addShaped(<contenttweaker:elite_wildwood_chest>,
+[[<extendedcrafting:singularity_custom:2003>, null, <extendedcrafting:singularity_custom:2003>],
+[<extendedcrafting:singularity_custom:2003>, <extendedcrafting:singularity_custom:2003>, <extendedcrafting:singularity_custom:2003>],
+[<extendedcrafting:singularity_custom:2003>, <extendedcrafting:singularity_custom:2003>, <extendedcrafting:singularity_custom:2003>]]);
+recipes.addShaped(<contenttweaker:elite_wildwood_legs>,
+[[<extendedcrafting:singularity_custom:2003>, <extendedcrafting:singularity_custom:2003>, <extendedcrafting:singularity_custom:2003>],
+[<extendedcrafting:singularity_custom:2003>, null, <extendedcrafting:singularity_custom:2003>],
+[<extendedcrafting:singularity_custom:2003>, null, <extendedcrafting:singularity_custom:2003>]]);
+recipes.addShaped(<contenttweaker:elite_wildwood_feet>,
+[[<extendedcrafting:singularity_custom:2003>, null, <extendedcrafting:singularity_custom:2003>],
+[<extendedcrafting:singularity_custom:2003>, null, <extendedcrafting:singularity_custom:2003>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:elite_eden_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2004>, <extendedcrafting:singularity_custom:2004>, <extendedcrafting:singularity_custom:2004>],
+[<extendedcrafting:singularity_custom:2004>, null, <extendedcrafting:singularity_custom:2004>]]);
+recipes.addShaped(<contenttweaker:elite_eden_chest>,
+[[<extendedcrafting:singularity_custom:2004>, null, <extendedcrafting:singularity_custom:2004>],
+[<extendedcrafting:singularity_custom:2004>, <extendedcrafting:singularity_custom:2004>, <extendedcrafting:singularity_custom:2004>],
+[<extendedcrafting:singularity_custom:2004>, <extendedcrafting:singularity_custom:2004>, <extendedcrafting:singularity_custom:2004>]]);
+recipes.addShaped(<contenttweaker:elite_eden_legs>,
+[[<extendedcrafting:singularity_custom:2004>, <extendedcrafting:singularity_custom:2004>, <extendedcrafting:singularity_custom:2004>],
+[<extendedcrafting:singularity_custom:2004>, null, <extendedcrafting:singularity_custom:2004>],
+[<extendedcrafting:singularity_custom:2004>, null, <extendedcrafting:singularity_custom:2004>]]);
+recipes.addShaped(<contenttweaker:elite_eden_feet>,
+[[<extendedcrafting:singularity_custom:2004>, null, <extendedcrafting:singularity_custom:2004>],
+[<extendedcrafting:singularity_custom:2004>, null, <extendedcrafting:singularity_custom:2004>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:sentient_meatball_head>,
+[[null, null, null],
+[<contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>],
+[<contenttweaker:sentient_meatball>, null, <contenttweaker:sentient_meatball>]]);
+recipes.addShaped(<contenttweaker:sentient_meatball_chest>,
+[[<contenttweaker:sentient_meatball>, null, <contenttweaker:sentient_meatball>],
+[<contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>],
+[<contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>]]);
+recipes.addShaped(<contenttweaker:sentient_meatball_legs>,
+[[<contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>],
+[<contenttweaker:sentient_meatball>, null, <contenttweaker:sentient_meatball>],
+[<contenttweaker:sentient_meatball>, null, <contenttweaker:sentient_meatball>]]);
+recipes.addShaped(<contenttweaker:sentient_meatball_feet>,
+[[<contenttweaker:sentient_meatball>, null, <contenttweaker:sentient_meatball>],
+[<contenttweaker:sentient_meatball>, null, <contenttweaker:sentient_meatball>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:grave_dust_head>,
+[[null, null, null],
+[<tombstone:crafting_ingredient:3>, <tombstone:crafting_ingredient:3>, <tombstone:crafting_ingredient:3>],
+[<tombstone:crafting_ingredient:3>, null, <tombstone:crafting_ingredient:3>]]);
+recipes.addShaped(<contenttweaker:grave_dust_chest>,
+[[<tombstone:crafting_ingredient:3>, null, <tombstone:crafting_ingredient:3>],
+[<tombstone:crafting_ingredient:3>, <tombstone:crafting_ingredient:3>, <tombstone:crafting_ingredient:3>],
+[<tombstone:crafting_ingredient:3>, <tombstone:crafting_ingredient:3>, <tombstone:crafting_ingredient:3>]]);
+recipes.addShaped(<contenttweaker:grave_dust_legs>,
+[[<tombstone:crafting_ingredient:3>, <tombstone:crafting_ingredient:3>, <tombstone:crafting_ingredient:3>],
+[<tombstone:crafting_ingredient:3>, null, <tombstone:crafting_ingredient:3>],
+[<tombstone:crafting_ingredient:3>, null, <tombstone:crafting_ingredient:3>]]);
+recipes.addShaped(<contenttweaker:grave_dust_feet>,
+[[<tombstone:crafting_ingredient:3>, null, <tombstone:crafting_ingredient:3>],
+[<tombstone:crafting_ingredient:3>, null, <tombstone:crafting_ingredient:3>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:abyss_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2005>, <extendedcrafting:singularity_custom:2005>, <extendedcrafting:singularity_custom:2005>],
+[<extendedcrafting:singularity_custom:2005>, null, <extendedcrafting:singularity_custom:2005>]]);
+recipes.addShaped(<contenttweaker:abyss_token_chest>,
+[[<extendedcrafting:singularity_custom:2005>, null, <extendedcrafting:singularity_custom:2005>],
+[<extendedcrafting:singularity_custom:2005>, <extendedcrafting:singularity_custom:2005>, <extendedcrafting:singularity_custom:2005>],
+[<extendedcrafting:singularity_custom:2005>, <extendedcrafting:singularity_custom:2005>, <extendedcrafting:singularity_custom:2005>]]);
+recipes.addShaped(<contenttweaker:abyss_token_legs>,
+[[<extendedcrafting:singularity_custom:2005>, <extendedcrafting:singularity_custom:2005>, <extendedcrafting:singularity_custom:2005>],
+[<extendedcrafting:singularity_custom:2005>, null, <extendedcrafting:singularity_custom:2005>],
+[<extendedcrafting:singularity_custom:2005>, null, <extendedcrafting:singularity_custom:2005>]]);
+recipes.addShaped(<contenttweaker:abyss_token_feet>,
+[[<extendedcrafting:singularity_custom:2005>, null, <extendedcrafting:singularity_custom:2005>],
+[<extendedcrafting:singularity_custom:2005>, null, <extendedcrafting:singularity_custom:2005>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:baron_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2006>, <extendedcrafting:singularity_custom:2006>, <extendedcrafting:singularity_custom:2006>],
+[<extendedcrafting:singularity_custom:2006>, null, <extendedcrafting:singularity_custom:2006>]]);
+recipes.addShaped(<contenttweaker:baron_token_chest>,
+[[<extendedcrafting:singularity_custom:2006>, null, <extendedcrafting:singularity_custom:2006>],
+[<extendedcrafting:singularity_custom:2006>, <extendedcrafting:singularity_custom:2006>, <extendedcrafting:singularity_custom:2006>],
+[<extendedcrafting:singularity_custom:2006>, <extendedcrafting:singularity_custom:2006>, <extendedcrafting:singularity_custom:2006>]]);
+recipes.addShaped(<contenttweaker:baron_token_legs>,
+[[<extendedcrafting:singularity_custom:2006>, <extendedcrafting:singularity_custom:2006>, <extendedcrafting:singularity_custom:2006>],
+[<extendedcrafting:singularity_custom:2006>, null, <extendedcrafting:singularity_custom:2006>],
+[<extendedcrafting:singularity_custom:2006>, null, <extendedcrafting:singularity_custom:2006>]]);
+recipes.addShaped(<contenttweaker:baron_token_feet>,
+[[<extendedcrafting:singularity_custom:2006>, null, <extendedcrafting:singularity_custom:2006>],
+[<extendedcrafting:singularity_custom:2006>, null, <extendedcrafting:singularity_custom:2006>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:borean_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2007>, <extendedcrafting:singularity_custom:2007>, <extendedcrafting:singularity_custom:2007>],
+[<extendedcrafting:singularity_custom:2007>, null, <extendedcrafting:singularity_custom:2007>]]);
+recipes.addShaped(<contenttweaker:borean_token_chest>,
+[[<extendedcrafting:singularity_custom:2007>, null, <extendedcrafting:singularity_custom:2007>],
+[<extendedcrafting:singularity_custom:2007>, <extendedcrafting:singularity_custom:2007>, <extendedcrafting:singularity_custom:2007>],
+[<extendedcrafting:singularity_custom:2007>, <extendedcrafting:singularity_custom:2007>, <extendedcrafting:singularity_custom:2007>]]);
+recipes.addShaped(<contenttweaker:borean_token_legs>,
+[[<extendedcrafting:singularity_custom:2007>, <extendedcrafting:singularity_custom:2007>, <extendedcrafting:singularity_custom:2007>],
+[<extendedcrafting:singularity_custom:2007>, null, <extendedcrafting:singularity_custom:2007>],
+[<extendedcrafting:singularity_custom:2007>, null, <extendedcrafting:singularity_custom:2007>]]);
+recipes.addShaped(<contenttweaker:borean_token_feet>,
+[[<extendedcrafting:singularity_custom:2007>, null, <extendedcrafting:singularity_custom:2007>],
+[<extendedcrafting:singularity_custom:2007>, null, <extendedcrafting:singularity_custom:2007>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:candyland_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2008>, <extendedcrafting:singularity_custom:2008>, <extendedcrafting:singularity_custom:2008>],
+[<extendedcrafting:singularity_custom:2008>, null, <extendedcrafting:singularity_custom:2008>]]);
+recipes.addShaped(<contenttweaker:candyland_token_chest>,
+[[<extendedcrafting:singularity_custom:2008>, null, <extendedcrafting:singularity_custom:2008>],
+[<extendedcrafting:singularity_custom:2008>, <extendedcrafting:singularity_custom:2008>, <extendedcrafting:singularity_custom:2008>],
+[<extendedcrafting:singularity_custom:2008>, <extendedcrafting:singularity_custom:2008>, <extendedcrafting:singularity_custom:2008>]]);
+recipes.addShaped(<contenttweaker:candyland_token_legs>,
+[[<extendedcrafting:singularity_custom:2008>, <extendedcrafting:singularity_custom:2008>, <extendedcrafting:singularity_custom:2008>],
+[<extendedcrafting:singularity_custom:2008>, null, <extendedcrafting:singularity_custom:2008>],
+[<extendedcrafting:singularity_custom:2008>, null, <extendedcrafting:singularity_custom:2008>]]);
+recipes.addShaped(<contenttweaker:candyland_token_feet>,
+[[<extendedcrafting:singularity_custom:2008>, null, <extendedcrafting:singularity_custom:2008>],
+[<extendedcrafting:singularity_custom:2008>, null, <extendedcrafting:singularity_custom:2008>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:celeve_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2009>, <extendedcrafting:singularity_custom:2009>, <extendedcrafting:singularity_custom:2009>],
+[<extendedcrafting:singularity_custom:2009>, null, <extendedcrafting:singularity_custom:2009>]]);
+recipes.addShaped(<contenttweaker:celeve_token_chest>,
+[[<extendedcrafting:singularity_custom:2009>, null, <extendedcrafting:singularity_custom:2009>],
+[<extendedcrafting:singularity_custom:2009>, <extendedcrafting:singularity_custom:2009>, <extendedcrafting:singularity_custom:2009>],
+[<extendedcrafting:singularity_custom:2009>, <extendedcrafting:singularity_custom:2009>, <extendedcrafting:singularity_custom:2009>]]);
+recipes.addShaped(<contenttweaker:celeve_token_legs>,
+[[<extendedcrafting:singularity_custom:2009>, <extendedcrafting:singularity_custom:2009>, <extendedcrafting:singularity_custom:2009>],
+[<extendedcrafting:singularity_custom:2009>, null, <extendedcrafting:singularity_custom:2009>],
+[<extendedcrafting:singularity_custom:2009>, null, <extendedcrafting:singularity_custom:2009>]]);
+recipes.addShaped(<contenttweaker:celeve_token_feet>,
+[[<extendedcrafting:singularity_custom:2009>, null, <extendedcrafting:singularity_custom:2009>],
+[<extendedcrafting:singularity_custom:2009>, null, <extendedcrafting:singularity_custom:2009>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:creeponia_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2010>, <extendedcrafting:singularity_custom:2010>, <extendedcrafting:singularity_custom:2010>],
+[<extendedcrafting:singularity_custom:2010>, null, <extendedcrafting:singularity_custom:2010>]]);
+recipes.addShaped(<contenttweaker:creeponia_token_chest>,
+[[<extendedcrafting:singularity_custom:2010>, null, <extendedcrafting:singularity_custom:2010>],
+[<extendedcrafting:singularity_custom:2010>, <extendedcrafting:singularity_custom:2010>, <extendedcrafting:singularity_custom:2010>],
+[<extendedcrafting:singularity_custom:2010>, <extendedcrafting:singularity_custom:2010>, <extendedcrafting:singularity_custom:2010>]]);
+recipes.addShaped(<contenttweaker:creeponia_token_legs>,
+[[<extendedcrafting:singularity_custom:2010>, <extendedcrafting:singularity_custom:2010>, <extendedcrafting:singularity_custom:2010>],
+[<extendedcrafting:singularity_custom:2010>, null, <extendedcrafting:singularity_custom:2010>],
+[<extendedcrafting:singularity_custom:2010>, null, <extendedcrafting:singularity_custom:2010>]]);
+recipes.addShaped(<contenttweaker:creeponia_token_feet>,
+[[<extendedcrafting:singularity_custom:2010>, null, <extendedcrafting:singularity_custom:2010>],
+[<extendedcrafting:singularity_custom:2010>, null, <extendedcrafting:singularity_custom:2010>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:crystevia_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2011>, <extendedcrafting:singularity_custom:2011>, <extendedcrafting:singularity_custom:2011>],
+[<extendedcrafting:singularity_custom:2011>, null, <extendedcrafting:singularity_custom:2011>]]);
+recipes.addShaped(<contenttweaker:crystevia_token_chest>,
+[[<extendedcrafting:singularity_custom:2011>, null, <extendedcrafting:singularity_custom:2011>],
+[<extendedcrafting:singularity_custom:2011>, <extendedcrafting:singularity_custom:2011>, <extendedcrafting:singularity_custom:2011>],
+[<extendedcrafting:singularity_custom:2011>, <extendedcrafting:singularity_custom:2011>, <extendedcrafting:singularity_custom:2011>]]);
+recipes.addShaped(<contenttweaker:crystevia_token_legs>,
+[[<extendedcrafting:singularity_custom:2011>, <extendedcrafting:singularity_custom:2011>, <extendedcrafting:singularity_custom:2011>],
+[<extendedcrafting:singularity_custom:2011>, null, <extendedcrafting:singularity_custom:2011>],
+[<extendedcrafting:singularity_custom:2011>, null, <extendedcrafting:singularity_custom:2011>]]);
+recipes.addShaped(<contenttweaker:crystevia_token_feet>,
+[[<extendedcrafting:singularity_custom:2011>, null, <extendedcrafting:singularity_custom:2011>],
+[<extendedcrafting:singularity_custom:2011>, null, <extendedcrafting:singularity_custom:2011>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:deeplands_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2012>, <extendedcrafting:singularity_custom:2012>, <extendedcrafting:singularity_custom:2012>],
+[<extendedcrafting:singularity_custom:2012>, null, <extendedcrafting:singularity_custom:2012>]]);
+recipes.addShaped(<contenttweaker:deeplands_token_chest>,
+[[<extendedcrafting:singularity_custom:2012>, null, <extendedcrafting:singularity_custom:2012>],
+[<extendedcrafting:singularity_custom:2012>, <extendedcrafting:singularity_custom:2012>, <extendedcrafting:singularity_custom:2012>],
+[<extendedcrafting:singularity_custom:2012>, <extendedcrafting:singularity_custom:2012>, <extendedcrafting:singularity_custom:2012>]]);
+recipes.addShaped(<contenttweaker:deeplands_token_legs>,
+[[<extendedcrafting:singularity_custom:2012>, <extendedcrafting:singularity_custom:2012>, <extendedcrafting:singularity_custom:2012>],
+[<extendedcrafting:singularity_custom:2012>, null, <extendedcrafting:singularity_custom:2012>],
+[<extendedcrafting:singularity_custom:2012>, null, <extendedcrafting:singularity_custom:2012>]]);
+recipes.addShaped(<contenttweaker:deeplands_token_feet>,
+[[<extendedcrafting:singularity_custom:2012>, null, <extendedcrafting:singularity_custom:2012>],
+[<extendedcrafting:singularity_custom:2012>, null, <extendedcrafting:singularity_custom:2012>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:dustopia_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2013>, <extendedcrafting:singularity_custom:2013>, <extendedcrafting:singularity_custom:2013>],
+[<extendedcrafting:singularity_custom:2013>, null, <extendedcrafting:singularity_custom:2013>]]);
+recipes.addShaped(<contenttweaker:dustopia_token_chest>,
+[[<extendedcrafting:singularity_custom:2013>, null, <extendedcrafting:singularity_custom:2013>],
+[<extendedcrafting:singularity_custom:2013>, <extendedcrafting:singularity_custom:2013>, <extendedcrafting:singularity_custom:2013>],
+[<extendedcrafting:singularity_custom:2013>, <extendedcrafting:singularity_custom:2013>, <extendedcrafting:singularity_custom:2013>]]);
+recipes.addShaped(<contenttweaker:dustopia_token_legs>,
+[[<extendedcrafting:singularity_custom:2013>, <extendedcrafting:singularity_custom:2013>, <extendedcrafting:singularity_custom:2013>],
+[<extendedcrafting:singularity_custom:2013>, null, <extendedcrafting:singularity_custom:2013>],
+[<extendedcrafting:singularity_custom:2013>, null, <extendedcrafting:singularity_custom:2013>]]);
+recipes.addShaped(<contenttweaker:dustopia_token_feet>,
+[[<extendedcrafting:singularity_custom:2013>, null, <extendedcrafting:singularity_custom:2013>],
+[<extendedcrafting:singularity_custom:2013>, null, <extendedcrafting:singularity_custom:2013>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:gardencia_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2014>, <extendedcrafting:singularity_custom:2014>, <extendedcrafting:singularity_custom:2014>],
+[<extendedcrafting:singularity_custom:2014>, null, <extendedcrafting:singularity_custom:2014>]]);
+recipes.addShaped(<contenttweaker:gardencia_token_chest>,
+[[<extendedcrafting:singularity_custom:2014>, null, <extendedcrafting:singularity_custom:2014>],
+[<extendedcrafting:singularity_custom:2014>, <extendedcrafting:singularity_custom:2014>, <extendedcrafting:singularity_custom:2014>],
+[<extendedcrafting:singularity_custom:2014>, <extendedcrafting:singularity_custom:2014>, <extendedcrafting:singularity_custom:2014>]]);
+recipes.addShaped(<contenttweaker:gardencia_token_legs>,
+[[<extendedcrafting:singularity_custom:2014>, <extendedcrafting:singularity_custom:2014>, <extendedcrafting:singularity_custom:2014>],
+[<extendedcrafting:singularity_custom:2014>, null, <extendedcrafting:singularity_custom:2014>],
+[<extendedcrafting:singularity_custom:2014>, null, <extendedcrafting:singularity_custom:2014>]]);
+recipes.addShaped(<contenttweaker:gardencia_token_feet>,
+[[<extendedcrafting:singularity_custom:2014>, null, <extendedcrafting:singularity_custom:2014>],
+[<extendedcrafting:singularity_custom:2014>, null, <extendedcrafting:singularity_custom:2014>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:greckon_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2015>, <extendedcrafting:singularity_custom:2015>, <extendedcrafting:singularity_custom:2015>],
+[<extendedcrafting:singularity_custom:2015>, null, <extendedcrafting:singularity_custom:2015>]]);
+recipes.addShaped(<contenttweaker:greckon_token_chest>,
+[[<extendedcrafting:singularity_custom:2015>, null, <extendedcrafting:singularity_custom:2015>],
+[<extendedcrafting:singularity_custom:2015>, <extendedcrafting:singularity_custom:2015>, <extendedcrafting:singularity_custom:2015>],
+[<extendedcrafting:singularity_custom:2015>, <extendedcrafting:singularity_custom:2015>, <extendedcrafting:singularity_custom:2015>]]);
+recipes.addShaped(<contenttweaker:greckon_token_legs>,
+[[<extendedcrafting:singularity_custom:2015>, <extendedcrafting:singularity_custom:2015>, <extendedcrafting:singularity_custom:2015>],
+[<extendedcrafting:singularity_custom:2015>, null, <extendedcrafting:singularity_custom:2015>],
+[<extendedcrafting:singularity_custom:2015>, null, <extendedcrafting:singularity_custom:2015>]]);
+recipes.addShaped(<contenttweaker:greckon_token_feet>,
+[[<extendedcrafting:singularity_custom:2015>, null, <extendedcrafting:singularity_custom:2015>],
+[<extendedcrafting:singularity_custom:2015>, null, <extendedcrafting:singularity_custom:2015>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:haven_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2016>, <extendedcrafting:singularity_custom:2016>, <extendedcrafting:singularity_custom:2016>],
+[<extendedcrafting:singularity_custom:2016>, null, <extendedcrafting:singularity_custom:2016>]]);
+recipes.addShaped(<contenttweaker:haven_token_chest>,
+[[<extendedcrafting:singularity_custom:2016>, null, <extendedcrafting:singularity_custom:2016>],
+[<extendedcrafting:singularity_custom:2016>, <extendedcrafting:singularity_custom:2016>, <extendedcrafting:singularity_custom:2016>],
+[<extendedcrafting:singularity_custom:2016>, <extendedcrafting:singularity_custom:2016>, <extendedcrafting:singularity_custom:2016>]]);
+recipes.addShaped(<contenttweaker:haven_token_legs>,
+[[<extendedcrafting:singularity_custom:2016>, <extendedcrafting:singularity_custom:2016>, <extendedcrafting:singularity_custom:2016>],
+[<extendedcrafting:singularity_custom:2016>, null, <extendedcrafting:singularity_custom:2016>],
+[<extendedcrafting:singularity_custom:2016>, null, <extendedcrafting:singularity_custom:2016>]]);
+recipes.addShaped(<contenttweaker:haven_token_feet>,
+[[<extendedcrafting:singularity_custom:2016>, null, <extendedcrafting:singularity_custom:2016>],
+[<extendedcrafting:singularity_custom:2016>, null, <extendedcrafting:singularity_custom:2016>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:iromine_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2017>, <extendedcrafting:singularity_custom:2017>, <extendedcrafting:singularity_custom:2017>],
+[<extendedcrafting:singularity_custom:2017>, null, <extendedcrafting:singularity_custom:2017>]]);
+recipes.addShaped(<contenttweaker:iromine_token_chest>,
+[[<extendedcrafting:singularity_custom:2017>, null, <extendedcrafting:singularity_custom:2017>],
+[<extendedcrafting:singularity_custom:2017>, <extendedcrafting:singularity_custom:2017>, <extendedcrafting:singularity_custom:2017>],
+[<extendedcrafting:singularity_custom:2017>, <extendedcrafting:singularity_custom:2017>, <extendedcrafting:singularity_custom:2017>]]);
+recipes.addShaped(<contenttweaker:iromine_token_legs>,
+[[<extendedcrafting:singularity_custom:2017>, <extendedcrafting:singularity_custom:2017>, <extendedcrafting:singularity_custom:2017>],
+[<extendedcrafting:singularity_custom:2017>, null, <extendedcrafting:singularity_custom:2017>],
+[<extendedcrafting:singularity_custom:2017>, null, <extendedcrafting:singularity_custom:2017>]]);
+recipes.addShaped(<contenttweaker:iromine_token_feet>,
+[[<extendedcrafting:singularity_custom:2017>, null, <extendedcrafting:singularity_custom:2017>],
+[<extendedcrafting:singularity_custom:2017>, null, <extendedcrafting:singularity_custom:2017>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:lelyetia_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2018>, <extendedcrafting:singularity_custom:2018>, <extendedcrafting:singularity_custom:2018>],
+[<extendedcrafting:singularity_custom:2018>, null, <extendedcrafting:singularity_custom:2018>]]);
+recipes.addShaped(<contenttweaker:lelyetia_token_chest>,
+[[<extendedcrafting:singularity_custom:2018>, null, <extendedcrafting:singularity_custom:2018>],
+[<extendedcrafting:singularity_custom:2018>, <extendedcrafting:singularity_custom:2018>, <extendedcrafting:singularity_custom:2018>],
+[<extendedcrafting:singularity_custom:2018>, <extendedcrafting:singularity_custom:2018>, <extendedcrafting:singularity_custom:2018>]]);
+recipes.addShaped(<contenttweaker:lelyetia_token_legs>,
+[[<extendedcrafting:singularity_custom:2018>, <extendedcrafting:singularity_custom:2018>, <extendedcrafting:singularity_custom:2018>],
+[<extendedcrafting:singularity_custom:2018>, null, <extendedcrafting:singularity_custom:2018>],
+[<extendedcrafting:singularity_custom:2018>, null, <extendedcrafting:singularity_custom:2018>]]);
+recipes.addShaped(<contenttweaker:lelyetia_token_feet>,
+[[<extendedcrafting:singularity_custom:2018>, null, <extendedcrafting:singularity_custom:2018>],
+[<extendedcrafting:singularity_custom:2018>, null, <extendedcrafting:singularity_custom:2018>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:lunar_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2019>, <extendedcrafting:singularity_custom:2019>, <extendedcrafting:singularity_custom:2019>],
+[<extendedcrafting:singularity_custom:2019>, null, <extendedcrafting:singularity_custom:2019>]]);
+recipes.addShaped(<contenttweaker:lunar_token_chest>,
+[[<extendedcrafting:singularity_custom:2019>, null, <extendedcrafting:singularity_custom:2019>],
+[<extendedcrafting:singularity_custom:2019>, <extendedcrafting:singularity_custom:2019>, <extendedcrafting:singularity_custom:2019>],
+[<extendedcrafting:singularity_custom:2019>, <extendedcrafting:singularity_custom:2019>, <extendedcrafting:singularity_custom:2019>]]);
+recipes.addShaped(<contenttweaker:lunar_token_legs>,
+[[<extendedcrafting:singularity_custom:2019>, <extendedcrafting:singularity_custom:2019>, <extendedcrafting:singularity_custom:2019>],
+[<extendedcrafting:singularity_custom:2019>, null, <extendedcrafting:singularity_custom:2019>],
+[<extendedcrafting:singularity_custom:2019>, null, <extendedcrafting:singularity_custom:2019>]]);
+recipes.addShaped(<contenttweaker:lunar_token_feet>,
+[[<extendedcrafting:singularity_custom:2019>, null, <extendedcrafting:singularity_custom:2019>],
+[<extendedcrafting:singularity_custom:2019>, null, <extendedcrafting:singularity_custom:2019>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:mysterium_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2020>, <extendedcrafting:singularity_custom:2020>, <extendedcrafting:singularity_custom:2020>],
+[<extendedcrafting:singularity_custom:2020>, null, <extendedcrafting:singularity_custom:2020>]]);
+recipes.addShaped(<contenttweaker:mysterium_token_chest>,
+[[<extendedcrafting:singularity_custom:2020>, null, <extendedcrafting:singularity_custom:2020>],
+[<extendedcrafting:singularity_custom:2020>, <extendedcrafting:singularity_custom:2020>, <extendedcrafting:singularity_custom:2020>],
+[<extendedcrafting:singularity_custom:2020>, <extendedcrafting:singularity_custom:2020>, <extendedcrafting:singularity_custom:2020>]]);
+recipes.addShaped(<contenttweaker:mysterium_token_legs>,
+[[<extendedcrafting:singularity_custom:2020>, <extendedcrafting:singularity_custom:2020>, <extendedcrafting:singularity_custom:2020>],
+[<extendedcrafting:singularity_custom:2020>, null, <extendedcrafting:singularity_custom:2020>],
+[<extendedcrafting:singularity_custom:2020>, null, <extendedcrafting:singularity_custom:2020>]]);
+recipes.addShaped(<contenttweaker:mysterium_token_feet>,
+[[<extendedcrafting:singularity_custom:2020>, null, <extendedcrafting:singularity_custom:2020>],
+[<extendedcrafting:singularity_custom:2020>, null, <extendedcrafting:singularity_custom:2020>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:nether_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2021>, <extendedcrafting:singularity_custom:2021>, <extendedcrafting:singularity_custom:2021>],
+[<extendedcrafting:singularity_custom:2021>, null, <extendedcrafting:singularity_custom:2021>]]);
+recipes.addShaped(<contenttweaker:nether_token_chest>,
+[[<extendedcrafting:singularity_custom:2021>, null, <extendedcrafting:singularity_custom:2021>],
+[<extendedcrafting:singularity_custom:2021>, <extendedcrafting:singularity_custom:2021>, <extendedcrafting:singularity_custom:2021>],
+[<extendedcrafting:singularity_custom:2021>, <extendedcrafting:singularity_custom:2021>, <extendedcrafting:singularity_custom:2021>]]);
+recipes.addShaped(<contenttweaker:nether_token_legs>,
+[[<extendedcrafting:singularity_custom:2021>, <extendedcrafting:singularity_custom:2021>, <extendedcrafting:singularity_custom:2021>],
+[<extendedcrafting:singularity_custom:2021>, null, <extendedcrafting:singularity_custom:2021>],
+[<extendedcrafting:singularity_custom:2021>, null, <extendedcrafting:singularity_custom:2021>]]);
+recipes.addShaped(<contenttweaker:nether_token_feet>,
+[[<extendedcrafting:singularity_custom:2021>, null, <extendedcrafting:singularity_custom:2021>],
+[<extendedcrafting:singularity_custom:2021>, null, <extendedcrafting:singularity_custom:2021>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:precasia_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2022>, <extendedcrafting:singularity_custom:2022>, <extendedcrafting:singularity_custom:2022>],
+[<extendedcrafting:singularity_custom:2022>, null, <extendedcrafting:singularity_custom:2022>]]);
+recipes.addShaped(<contenttweaker:precasia_token_chest>,
+[[<extendedcrafting:singularity_custom:2022>, null, <extendedcrafting:singularity_custom:2022>],
+[<extendedcrafting:singularity_custom:2022>, <extendedcrafting:singularity_custom:2022>, <extendedcrafting:singularity_custom:2022>],
+[<extendedcrafting:singularity_custom:2022>, <extendedcrafting:singularity_custom:2022>, <extendedcrafting:singularity_custom:2022>]]);
+recipes.addShaped(<contenttweaker:precasia_token_legs>,
+[[<extendedcrafting:singularity_custom:2022>, <extendedcrafting:singularity_custom:2022>, <extendedcrafting:singularity_custom:2022>],
+[<extendedcrafting:singularity_custom:2022>, null, <extendedcrafting:singularity_custom:2022>],
+[<extendedcrafting:singularity_custom:2022>, null, <extendedcrafting:singularity_custom:2022>]]);
+recipes.addShaped(<contenttweaker:precasia_token_feet>,
+[[<extendedcrafting:singularity_custom:2022>, null, <extendedcrafting:singularity_custom:2022>],
+[<extendedcrafting:singularity_custom:2022>, null, <extendedcrafting:singularity_custom:2022>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:runandor_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2023>, <extendedcrafting:singularity_custom:2023>, <extendedcrafting:singularity_custom:2023>],
+[<extendedcrafting:singularity_custom:2023>, null, <extendedcrafting:singularity_custom:2023>]]);
+recipes.addShaped(<contenttweaker:runandor_token_chest>,
+[[<extendedcrafting:singularity_custom:2023>, null, <extendedcrafting:singularity_custom:2023>],
+[<extendedcrafting:singularity_custom:2023>, <extendedcrafting:singularity_custom:2023>, <extendedcrafting:singularity_custom:2023>],
+[<extendedcrafting:singularity_custom:2023>, <extendedcrafting:singularity_custom:2023>, <extendedcrafting:singularity_custom:2023>]]);
+recipes.addShaped(<contenttweaker:runandor_token_legs>,
+[[<extendedcrafting:singularity_custom:2023>, <extendedcrafting:singularity_custom:2023>, <extendedcrafting:singularity_custom:2023>],
+[<extendedcrafting:singularity_custom:2023>, null, <extendedcrafting:singularity_custom:2023>],
+[<extendedcrafting:singularity_custom:2023>, null, <extendedcrafting:singularity_custom:2023>]]);
+recipes.addShaped(<contenttweaker:runandor_token_feet>,
+[[<extendedcrafting:singularity_custom:2023>, null, <extendedcrafting:singularity_custom:2023>],
+[<extendedcrafting:singularity_custom:2023>, null, <extendedcrafting:singularity_custom:2023>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:shyrelands_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2024>, <extendedcrafting:singularity_custom:2024>, <extendedcrafting:singularity_custom:2024>],
+[<extendedcrafting:singularity_custom:2024>, null, <extendedcrafting:singularity_custom:2024>]]);
+recipes.addShaped(<contenttweaker:shyrelands_token_chest>,
+[[<extendedcrafting:singularity_custom:2024>, null, <extendedcrafting:singularity_custom:2024>],
+[<extendedcrafting:singularity_custom:2024>, <extendedcrafting:singularity_custom:2024>, <extendedcrafting:singularity_custom:2024>],
+[<extendedcrafting:singularity_custom:2024>, <extendedcrafting:singularity_custom:2024>, <extendedcrafting:singularity_custom:2024>]]);
+recipes.addShaped(<contenttweaker:shyrelands_token_legs>,
+[[<extendedcrafting:singularity_custom:2024>, <extendedcrafting:singularity_custom:2024>, <extendedcrafting:singularity_custom:2024>],
+[<extendedcrafting:singularity_custom:2024>, null, <extendedcrafting:singularity_custom:2024>],
+[<extendedcrafting:singularity_custom:2024>, null, <extendedcrafting:singularity_custom:2024>]]);
+recipes.addShaped(<contenttweaker:shyrelands_token_feet>,
+[[<extendedcrafting:singularity_custom:2024>, null, <extendedcrafting:singularity_custom:2024>],
+[<extendedcrafting:singularity_custom:2024>, null, <extendedcrafting:singularity_custom:2024>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:vox_ponds_token_head>,
+[[null, null, null],
+[<extendedcrafting:singularity_custom:2025>, <extendedcrafting:singularity_custom:2025>, <extendedcrafting:singularity_custom:2025>],
+[<extendedcrafting:singularity_custom:2025>, null, <extendedcrafting:singularity_custom:2025>]]);
+recipes.addShaped(<contenttweaker:vox_ponds_token_chest>,
+[[<extendedcrafting:singularity_custom:2025>, null, <extendedcrafting:singularity_custom:2025>],
+[<extendedcrafting:singularity_custom:2025>, <extendedcrafting:singularity_custom:2025>, <extendedcrafting:singularity_custom:2025>],
+[<extendedcrafting:singularity_custom:2025>, <extendedcrafting:singularity_custom:2025>, <extendedcrafting:singularity_custom:2025>]]);
+recipes.addShaped(<contenttweaker:vox_ponds_token_legs>,
+[[<extendedcrafting:singularity_custom:2025>, <extendedcrafting:singularity_custom:2025>, <extendedcrafting:singularity_custom:2025>],
+[<extendedcrafting:singularity_custom:2025>, null, <extendedcrafting:singularity_custom:2025>],
+[<extendedcrafting:singularity_custom:2025>, null, <extendedcrafting:singularity_custom:2025>]]);
+recipes.addShaped(<contenttweaker:vox_ponds_token_feet>,
+[[<extendedcrafting:singularity_custom:2025>, null, <extendedcrafting:singularity_custom:2025>],
+[<extendedcrafting:singularity_custom:2025>, null, <extendedcrafting:singularity_custom:2025>],
+[null, null, null]]);

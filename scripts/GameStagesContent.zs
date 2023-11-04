@@ -161,3 +161,8 @@ mods.recipestages.Recipes.addShaped("ezpzwandsbbynos", "hardmode", <contenttweak
     [<rftools:dimensional_shard>, <contenttweaker:mark_of_the_arbiter>, <rftools:dimensional_shard>],
     [<appliedenergistics2:fluix_block>, <rftools:dimensional_shard>, <appliedenergistics2:fluix_block>]
 ]);
+
+recipes.addShaped(<contenttweaker:paparazzi_camera>,
+[[<contenttweaker:nero_core>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"}), <contenttweaker:pauram_core>],
+[<gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"}), <astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.horologium", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}), <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"})],
+[<contenttweaker:akathartos_core>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"}), <contenttweaker:zoi_core>]]);

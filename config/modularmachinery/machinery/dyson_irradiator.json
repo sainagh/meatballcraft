@@ -8,7 +8,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmagic:blockaspectproviderinput@0"
+                "modularmachinery:blockrainbowprovider@0"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmagic:blockgridproviderinput@0"
+                "modularmachinery:blockgridproviderinput@0"
             ]
         },
         {

@@ -76,5 +76,16 @@ mods.ltt.LootTable.removeGlobalItem("railcraft:dust:5");
 mods.ltt.LootTable.removeGlobalItem("railcraft:dust:6");
 mods.ltt.LootTable.removeGlobalItem("railcraft:dust:7");
 
+mods.ltt.LootTable.removeGlobalItem("aoa3:bloodstone");
+mods.ltt.LootTable.removeGlobalItem("aoa3:footbone_fragment");
+mods.ltt.LootTable.removeGlobalItem("aoa3:legbone_fragment");
+mods.ltt.LootTable.removeGlobalItem("aoa3:chestbone_fragment");
+mods.ltt.LootTable.removeGlobalItem("aoa3:skullbone_fragment");
+mods.ltt.LootTable.removeGlobalItem("aoa3:shyregem");
+mods.ltt.LootTable.removeGlobalItem("aoa3:lyon_ingot");
+mods.ltt.LootTable.removeGlobalItem("aoa3:shyrestone_ingot");
+mods.ltt.LootTable.removeGlobalItem("aoa3:charged_runium_chunk");
+mods.ltt.LootTable.removeGlobalItem("aoa3:ghoulish_ingot");
+
 
 

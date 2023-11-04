@@ -19,12 +19,19 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacrifice_metal_cl
 [<ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>], 
 [<ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>]]);  
 
+recipes.addShaped(<contenttweaker:polytom_shard>,
+[[<aoa3:iromine_tokens>, <aoa3:iromine_tokens>, <aoa3:iromine_tokens>],
+[<aoa3:iromine_tokens>, <soulshardsrespawn:soul_shard>.withTag({binding: {kills: 1024, bound: "aoa3:polytom"}}), <aoa3:iromine_tokens>],
+[<aoa3:iromine_tokens>, <aoa3:iromine_tokens>, <aoa3:iromine_tokens>]]);
+
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:nightmare_incense>, 
 [[<ore:ingotUltimate>, <contenttweaker:forgotten_slime>, <contenttweaker:wildwood_refined_gem>, <contenttweaker:forgotten_slime>, <ore:ingotUltimate>], 
 [<contenttweaker:forgotten_slime>, <materialpart:sacrifice_metal:ingot>, <extrabees:honey_comb:57>, <materialpart:sacrifice_metal:ingot>, <contenttweaker:forgotten_slime>], 
 [<materialpart:sacrifice_metal:ingot>, <extrabees:honey_comb:57>, <botania:incensestick>.withTag({brewKey: "bloodthirst"}), <extrabees:honey_comb:57>, <materialpart:sacrifice_metal:ingot>], 
 [<contenttweaker:forgotten_slime>, <materialpart:sacrifice_metal:ingot>, <extrabees:honey_comb:57>, <materialpart:sacrifice_metal:ingot>, <contenttweaker:forgotten_slime>], 
-[<ore:ingotUltimate>, <contenttweaker:forgotten_slime>, <soulshardsrespawn:soul_shard>.withTag({binding: {kills: 1024, bound: "aoa3:polytom"}}), <contenttweaker:forgotten_slime>, <ore:ingotUltimate>]]);  
+[<ore:ingotUltimate>, <contenttweaker:forgotten_slime>, <contenttweaker:polytom_shard>, <contenttweaker:forgotten_slime>, <ore:ingotUltimate>]]);  
+
 
 recipes.addHiddenShapeless("trulyaterriblesacrifice",<contenttweaker:eternally_stained_soul>,
 [<contenttweaker:sacrificial_contract>,

@@ -1,5 +1,8 @@
-// nero
+import mods.astralsorcery.Utils;
+import mods.modularmachinery.RecipeBuilder;
 
+
+// nero
 
 recipes.addShaped(<contenttweaker:parafrosynium>*2,
 [[<gendustry:honey_comb:14014>, <gendustry:honey_comb:14014>, <gendustry:honey_comb:14014>],
@@ -94,3 +97,81 @@ null, <contenttweaker:dynatos_star>, null],
 [<contenttweaker:dynatos_star>, null, null,
 null, <contenttweaker:pauram_core>, null,
 null, null, <contenttweaker:dynatos_star>]]);
+
+recipes.addShaped(<contenttweaker:crazed_marble>,
+[[<astralsorcery:blockblackmarble:0>, <astralsorcery:blockblackmarble:0>, <astralsorcery:blockblackmarble:0>],
+[<astralsorcery:blockblackmarble:0>, <contenttweaker:parafrosynium>, <astralsorcery:blockblackmarble:0>],
+[<astralsorcery:blockblackmarble:0>, <astralsorcery:blockblackmarble:0>, <astralsorcery:blockblackmarble:0>]]);
+
+recipes.addShapeless(<contenttweaker:soul_of_nero>*2,
+[<contenttweaker:soul_of_nero>,
+<contenttweaker:parafrosynium>,
+<bloodmagic:points_upgrade>]);
+
+recipes.addShapeless(<contenttweaker:heart_of_nero>*2,
+[<contenttweaker:heart_of_nero>,
+<contenttweaker:parafrosynium>,
+<bloodmagic:points_upgrade>]);
+
+recipes.addShapeless(<contenttweaker:breath_of_nero>*2,
+[<contenttweaker:breath_of_nero>,
+<contenttweaker:parafrosynium>,
+<bloodmagic:points_upgrade>]);
+
+recipes.addShapeless(<contenttweaker:body_of_nero>*2,
+[<contenttweaker:body_of_nero>,
+<contenttweaker:parafrosynium>,
+<bloodmagic:points_upgrade>]);
+
+val attinedCelestialCrystal = Utils.getCrystalORIngredient(true, true); //as crafttweaker.item.IIngredient
+
+
+mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/gatesofheavenblock", <contenttweaker:darkstar_catalyst>, 4500, 1000, [
+	<contenttweaker:soul_of_nero>, <abyssalcraft:oc>, <contenttweaker:breath_of_nero>,
+    <abyssalcraft:oc>, <contenttweaker:dynatos_catalyst>, <abyssalcraft:oc>, 
+    <contenttweaker:body_of_nero>, <abyssalcraft:oc>, <contenttweaker:heart_of_nero>,
+
+    <contenttweaker:dynatos_crystal>,<contenttweaker:dynatos_crystal>, 
+    <contenttweaker:dynatos_crystal>, <contenttweaker:dynatos_crystal>,
+    
+    attinedCelestialCrystal, attinedCelestialCrystal,
+	attinedCelestialCrystal, attinedCelestialCrystal, 
+    attinedCelestialCrystal, attinedCelestialCrystal,
+    attinedCelestialCrystal, attinedCelestialCrystal,
+    
+    <contenttweaker:darkstar_stone>, <contenttweaker:darkstar_stone>,
+    <contenttweaker:darkstar_stone>, <contenttweaker:darkstar_stone>,
+	//Outer Items, indices 25+
+	<contenttweaker:parafrosynium>, 
+    <contenttweaker:parafrosynium>, 
+    <contenttweaker:parafrosynium>, 
+    <contenttweaker:parafrosynium>, 
+    <contenttweaker:parafrosynium>, 
+    <contenttweaker:parafrosynium>
+],
+"astralsorcery.constellation.lucerna");
+
+
+val makedarkstarlight = RecipeBuilder.newBuilder("makedarkstarlight","twelve_gates_of_heaven",200);
+makedarkstarlight.addStarlightInput(300);
+makedarkstarlight.addEnergyPerTickInput(30000000);
+makedarkstarlight.addFluidInput(<fluid:sideral_life_essence>*10000);
+makedarkstarlight.addFluidOutput(<fluid:darkstarlight>*10000);
+makedarkstarlight.build();
+
+// zoi
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<nuclearcraft:depleted_fuel_mixed_oxide:0>, <nuclearcraft:depleted_fuel_mixed_oxide:1>, <nuclearcraft:depleted_fuel_ic2:1>, 1.0, 1.0, 0.005]);
+mods.thermalexpansion.InductionSmelter.addRecipe(<nuclearcraft:depleted_fuel_ic2:1>, <nuclearcraft:depleted_fuel_mixed_oxide:1>, <nuclearcraft:depleted_fuel_mixed_oxide:0>, 1000);
+
+val nukecalifornium = RecipeBuilder.newBuilder("nukecalifornium","safe_nuke_environment",100);
+nukecalifornium.addItemInput(<techreborn:nuke>);
+nukecalifornium.addFluidInput(<fluid:californium_250>*1000);
+nukecalifornium.addFluidOutput(<fluid:californium_256>*1000);
+nukecalifornium.build();
+
+val nukepolonium = RecipeBuilder.newBuilder("nukepolonium","safe_nuke_environment",100);
+nukepolonium.addItemInput(<techreborn:nuke>);
+nukepolonium.addFluidInput(<fluid:spent_polonium>*1000);
+nukepolonium.addFluidOutput(<fluid:californium_256>*1000);
+nukepolonium.build();

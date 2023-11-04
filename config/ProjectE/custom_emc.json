@@ -5390,7 +5390,7 @@
     },
     {
       "item": "iceandfire:dragon_horn|0",
-      "emc": 0
+      "emc": 4100
     },
     {
       "item": "bloodmagic:demon_crucible|0",
@@ -12431,6 +12431,2194 @@
     {
       "item": "divinerpg:asphalt|0",
       "emc": 4
+    },
+    {
+      "item": "contenttweaker:phasing_gem|0",
+      "emc": 500000
+    },
+    {
+      "item": "iceandfire:dragon_stick|0",
+      "emc": 1024
+    },
+    {
+      "item": "aoa3:baron_cube|0",
+      "emc": 128
+    },
+    {
+      "item": "chisel:concrete_black|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_black1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_black1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_black2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_red|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_red1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_red1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_red2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_green|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_green1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_green1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_green2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_brown|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_brown1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_brown1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_brown2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_blue|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_blue1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_blue1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_blue2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_purple|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_purple1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_purple1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_purple2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_cyan|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_cyan1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_cyan1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_cyan2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_lightgray|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_lightgray1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightgray1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_lightgray2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_gray|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_gray1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_gray1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_gray2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_pink|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_pink1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_pink1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_pink2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_lime|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_lime1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lime1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_lime2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_yellow|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_yellow1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_yellow1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_yellow2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_lightblue|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_lightblue1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_lightblue1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_lightblue2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_magenta|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_magenta1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_magenta1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_magenta2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_orange|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_orange1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_orange1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_orange2|0",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_white|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_white1|0",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|1",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|2",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|4",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|5",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|6",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|8",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|9",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|10",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|11",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|12",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|13",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|14",
+      "emc": 1
+    },
+    {
+      "item": "chisel:concrete_white1|15",
+      "emc": 1
+    },
+	{
+      "item": "chisel:concrete_white2|0",
+      "emc": 1
+    },
+	    {
+      "item": "chisel:bloodmagic|0",
+      "emc": 16842
+    },
+	{
+      "item": "chisel:bloodmagic|1",
+      "emc": 16842
+    },
+	{
+      "item": "chisel:bloodmagic|2",
+      "emc": 16842
+    },
+	{
+      "item": "chisel:bloodmagic|3",
+      "emc": 16842
+    },
+	{
+      "item": "chisel:bloodmagic|4",
+      "emc": 16842
+    },
+	{
+      "item": "chisel:bloodmagic|5",
+      "emc": 16842
+    },
+	{
+      "item": "chisel:bookshelf_oak|0",
+      "emc": 384
+    },
+    {
+      "item": "chisel:bookshelf_oak|1",
+      "emc": 384
+    },
+	{
+      "item": "chisel:bookshelf_oak|2",
+      "emc": 384
+    },
+	{
+      "item": "chisel:bookshelf_oak|3",
+      "emc": 384
+    },
+	{
+      "item": "chisel:bookshelf_oak|4",
+      "emc": 384
+    },
+	{
+      "item": "chisel:bookshelf_oak|5",
+      "emc": 384
+    },
+	{
+      "item": "chisel:bookshelf_oak|6",
+      "emc": 384
+    },
+	{
+      "item": "chisel:bookshelf_oak|7",
+      "emc": 384
+    },
+	{
+      "item": "chisel:bookshelf_oak|8",
+      "emc": 384
+    },
+	{
+      "item": "chisel:bookshelf_oak|9",
+      "emc": 384
     }
   ]
 }

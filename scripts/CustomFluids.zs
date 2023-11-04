@@ -652,3 +652,57 @@ psigem.register();
 
 var rosidian = VanillaFactory.createFluid("rosidian", Color.fromHex("b82aa7"));
 rosidian.register();
+
+var jeweledblend = VanillaFactory.createFluid("jeweled_blend", Color.fromHex("8cffa5"));
+jeweledblend.register();
+
+var woodjeweledblend = VanillaFactory.createFluid("innerved_jeweled_blend", Color.fromHex("5fc274"));
+woodjeweledblend.register();
+
+var skyjeweledblend = VanillaFactory.createFluid("ouranic_jeweled_blend", Color.fromHex("3d8f76"));
+skyjeweledblend.register();
+
+var explosionjeweledblend = VanillaFactory.createFluid("eikaic_jeweled_blend", Color.fromHex("00b880"));
+explosionjeweledblend.register();
+
+var phasingalloy = VanillaFactory.createFluid("phasing_alloy", Color.fromHex("2bffc3"));
+phasingalloy.register();
+
+var wroughtiron = VanillaFactory.createFluid("molten_wrought_iron", Color.fromHex("636666"));
+wroughtiron.register();
+
+var barathosynium = VanillaFactory.createFluid("molten_barathosynium", Color.fromHex("ad6432"));
+barathosynium.register();
+
+var darkstarlight = VanillaFactory.createFluid("darkstarlight", Color.fromHex("340057"));
+darkstarlight.register();
+
+var californium256 = VanillaFactory.createFluid("californium_256", Color.fromHex("7a0c41"));
+californium256.register();
+
+var spentpolonium = VanillaFactory.createFluid("spent_polonium", Color.fromHex("364b66"));
+spentpolonium.register();
+
+var hotflibe = VanillaFactory.createFluid("spent_flibe", Color.fromHex("86a86f"));
+hotflibe.register();
+
+var spentfluorine = VanillaFactory.createFluid("hot_fluorine", Color.fromHex("5d6e41"));
+spentfluorine.register();
+
+var dilutedlithiumfluoride = VanillaFactory.createFluid("diluted_lithium_fluoride", Color.fromHex("d6d9ad"));
+dilutedlithiumfluoride.register();
+
+var dilutedberylliumfluoride = VanillaFactory.createFluid("diluted_beryllium_fluoride", Color.fromHex("b6ba80"));
+dilutedberylliumfluoride.register();
+
+var dilutedflibemix = VanillaFactory.createFluid("diluted_flibe_mix", Color.fromHex("86a86f"));
+dilutedflibemix.register();
+
+var dilutedsodium = VanillaFactory.createFluid("diluted_sodium", Color.fromHex("bb63c7"));
+dilutedsodium.register();
+
+var dilutedpotassium = VanillaFactory.createFluid("diluted_potassium", Color.fromHex("878f1a"));
+dilutedpotassium.register();
+
+var dilutednakmix = VanillaFactory.createFluid("diluted_nak_mix", Color.fromHex("878f1a"));
+dilutednakmix.register();

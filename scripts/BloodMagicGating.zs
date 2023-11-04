@@ -41,3 +41,6 @@ recipes.addShaped(<contenttweaker:golem_core>,
 [[<aoa3:ancient_rock>, <extendedcrafting:storage:2>, <aoa3:ancient_rock>],
 [<aoa3:ancient_rock>, <extendedcrafting:storage:2>, <aoa3:ancient_rock>],
 [<aoa3:ancient_rock>, <extendedcrafting:storage:2>, <aoa3:ancient_rock>]]);
+
+mods.bloodmagic.TartaricForge.removeRecipe([<bloodarsenal:base_item:8>,<bloodmagic:decorative_brick:2>, <minecraft:golden_apple:1>, <minecraft:nether_star>]);
+mods.bloodmagic.TartaricForge.addRecipe(<bloodarsenal:base_item:9>,[<bloodarsenal:base_item:8>, <bloodmagic:decorative_brick:2>, <avaritia:block_resource:1>, <materialpart:halite:ingot>], 16000,16000);

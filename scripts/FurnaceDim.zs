@@ -12,3 +12,8 @@ recipes.addShaped(<contenttweaker:furnace_callstone>,
 [[<tardis:telos_sand>, <tardis:telos_sand>, <tardis:telos_sand>],
 [<tardis:telos_sand>, <contenttweaker:furnace_heart>, <tardis:telos_sand>],
 [<tardis:telos_sand>, <minecraft:furnace>, <tardis:telos_sand>]]);
+
+recipes.addShaped(<contenttweaker:greenlight_callstone>, 
+[[<tardis:telos_sand>, <tardis:telos_sand>, <tardis:telos_sand>],
+[<tardis:telos_sand>, <contenttweaker:ember>, <tardis:telos_sand>],
+[<tardis:telos_sand>, <minecraft:furnace>, <tardis:telos_sand>]]);

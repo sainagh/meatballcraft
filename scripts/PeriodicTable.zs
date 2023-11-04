@@ -648,8 +648,3 @@ mods.nuclearcraft.melter.addRecipe([<ore:ingotHassium>, <fluid:hassium> * 144]);
 
 // making californium
 
-val nukecalifornium = RecipeBuilder.newBuilder("nukecalifornium","safe_nuke_environment",100);
-nukecalifornium.addItemInput(<techreborn:nuke>);
-nukecalifornium.addFluidInput(<fluid:californium_250>*1000);
-nukecalifornium.addFluidOutput(<fluid:californium_251>*1000);
-nukecalifornium.build();

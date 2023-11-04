@@ -61,6 +61,7 @@ mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:baphomet_altar_controller>);
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:herne_altar_controller>);
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:blood_god_altar_controller>);
+mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:blood_god_altar_network_controller>);
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:dimensional_stabilizer_controller>);
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:terrestrial_cauldron_controller>);
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:enchanted_greenhouse_controller>);
@@ -128,6 +129,7 @@ mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_compressor_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:relativistic_collapser_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:definer_two_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:twelve_gates_of_heaven_controller>);
 
 
 
@@ -150,3 +152,5 @@ mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:aluminum_lathe_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:blood_god_altar_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:plated_carpenter_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:salt_repolarizer_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:two_phase_fission_reactor_controller>);

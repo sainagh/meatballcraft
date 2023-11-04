@@ -1,6 +1,11 @@
 
 import mods.modularmachinery.RecipeBuilder;
 
+recipes.addShapeless(<contenttweaker:empowered_mazestone>,
+[<twilightforest:mazebreaker_pickaxe>.reuse(),
+<contenttweaker:fading_wool>,
+<twilightforest:maze_stone>]);
+
 val reci1 = RecipeBuilder.newBuilder("twiweap1","carminite_empowerer",1200);
 reci1.addEnergyPerTickInput(15000);
 reci1.addAspectInput("infernum",100);

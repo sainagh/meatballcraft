@@ -67,9 +67,9 @@ mods.tconstruct.Casting.addTableRecipe(<tconstruct:clay_cast>.withTag({PartType:
 
 
 val orepsistone = <ore:orePsi>;
-orepsistone.remove(<contenttweaker:psichic_stone>);
+orepsistone.add(<contenttweaker:psichic_stone>);
 
-mods.immersiveengineering.Excavator.addMineral("psivein", 16, 0.1, ["orePsi"], [0.5], [151]);
+mods.immersiveengineering.Excavator.addMineral("psivein", 150, 0.1, ["orePsi"], [0.5], [151]);
 
 mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:psimetal>*2,[<contenttweaker:psichic_stone>, <redstonearsenal:material:32>, <extrautils2:magicapple>, <thaumicwonders:panacea:1>], 100,10);
 mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:psigem>*2,[<contenttweaker:psichic_stone>, <redstonearsenal:material:160>, <extrautils2:magicapple>, <thaumicwonders:panacea:1>], 100,10);
@@ -205,3 +205,47 @@ mods.tconstruct.Casting.addTableRecipe(<tconstruct:large_sword_blade>.withTag({M
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cross_guard>.withTag({Material: "psigem"}), <tconstruct:cast>.withTag({PartType: "tconstruct:cross_guard"}), <fluid:psigem>, 144, false, 100);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:large_plate>.withTag({Material: "psigem"}), <tconstruct:cast>.withTag({PartType: "tconstruct:large_plate"}), <fluid:psigem>, 1152, false, 100);
 mods.tconstruct.Casting.addTableRecipe(<plustic:laser_medium>.withTag({Material: "psigem"}), <tconstruct:cast>.withTag({PartType: "plustic:laser_medium"}), <fluid:psigem>, 432, false, 100);
+
+recipes.addShapeless(<contenttweaker:jeweled_dust>,
+[<contenttweaker:jewelyte_dust>,
+<contenttweaker:gemenyte_dust>,
+<contenttweaker:ornamyte_dust>]);
+
+mods.thermalexpansion.Crucible.addRecipe(<fluid:jeweled_blend>*150, <contenttweaker:jeweled_dust>, 1000);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:jeweled_dust>, <fluid:jeweled_blend>*150]);
+
+mods.nuclearcraft.dissolver.addRecipe([<extratrees:misc:0>*4, <fluid:jeweled_blend>*150, <fluid:innerved_jeweled_blend>*150]);
+
+mods.nuclearcraft.dissolver.addRecipe([<appliedenergistics2:material:45>*12, <fluid:innerved_jeweled_blend>*150, <fluid:ouranic_jeweled_blend>*150]);
+
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:gunpowder>*64, <fluid:ouranic_jeweled_blend>*150, <fluid:eikaic_jeweled_blend>*150]);
+
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:phasing_alloy_ingot>, <contenttweaker:phasing_gem>, <liquid:eikaic_jeweled_blend>, 150, true, 80);
+
+recipes.addShapeless(<contenttweaker:phasing_alloy_plate>,
+[<extrabotany:ultimatehammer>.reuse(),
+<contenttweaker:phasing_alloy_ingot>]);
+
+mods.tconstruct.Melting.addRecipe(<liquid:phasing_alloy> * 144,<contenttweaker:phasing_alloy_ingot>);
+mods.tconstruct.Melting.addRecipe(<liquid:phasing_alloy> * 144,<contenttweaker:phasing_alloy_plate>);
+
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:phasing_alloy_ingot>, <tconstruct:cast_custom>, <liquid:phasing_alloy>, 144, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:phasing_alloy_plate>, <tconstruct:cast_custom:3>, <liquid:phasing_alloy>, 144, false, 80);
+
+mods.tconstruct.Melting.addRecipe(<liquid:molten_wrought_iron> * 144,<contenttweaker:wrought_iron_plate>);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:wrought_iron_plate>, <tconstruct:cast_custom:3>, <liquid:molten_wrought_iron>, 144, false, 80);
+
+recipes.addHiddenShaped("barongempuzzle", <contenttweaker:baron_gem>,
+[[<ore:blockCrystalFlux>, <ore:blockCrystalFlux>, <ore:blockCrystalFlux>],
+[<ore:blockCrystalFlux>, <aoa3:baron_cube>.withTag({display: {Name: "Ashari"}}), <ore:blockCrystalFlux>],
+[<ore:blockCrystalFlux>, <ore:blockCrystalFlux>, <ore:blockCrystalFlux>]]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:barathosynium_ingot>, 
+50000, <contenttweaker:baron_gem>, 
+[<aoa3:blazium_ingot>, <aoa3:varsium_ingot>,
+<aoa3:baronyte_ingot>, <contenttweaker:endergenic_sediment>,
+<extrabotany:nightmarefuel>, <ore:plateRedstone>]);
+
+
+mods.tconstruct.Melting.addRecipe(<liquid:molten_barathosynium> * 144,<contenttweaker:barathosynium_ingot>);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:barathosynium_ingot>, <tconstruct:cast_custom>, <liquid:molten_barathosynium>, 144, false, 80);

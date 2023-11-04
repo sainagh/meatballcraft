@@ -5065,4 +5065,114 @@ draconicenergyball.maxStackSize = 64;
 draconicenergyball.beaconPayment = false;
 draconicenergyball.register();
 
+var greenlightember = VanillaFactory.createItem("greenlight_ember");
+greenlightember.maxStackSize = 64;
+greenlightember.beaconPayment = false;
+greenlightember.register();
+
+var phasinggem = VanillaFactory.createItem("phasing_gem");
+phasinggem.maxStackSize = 64;
+phasinggem.beaconPayment = false;
+phasinggem.register();
+
+var inertspatialphaser = VanillaFactory.createItem("inert_spatial_phaser");
+inertspatialphaser.maxStackSize = 64;
+inertspatialphaser.beaconPayment = false;
+inertspatialphaser.register();
+
+var puzzlesolspatialphaser = VanillaFactory.createItem("puzzle_solution_spatialphaser");
+puzzlesolspatialphaser.maxStackSize = 64;
+puzzlesolspatialphaser.beaconPayment = false;
+puzzlesolspatialphaser.register();
+
+var puzzlesolphasinggem = VanillaFactory.createItem("puzzle_solution_phasinggem");
+puzzlesolphasinggem.maxStackSize = 64;
+puzzlesolphasinggem.beaconPayment = false;
+puzzlesolphasinggem.register();
+
+var wroughtironshard = VanillaFactory.createItem("wrought_iron_shard");
+wroughtironshard.maxStackSize = 64;
+wroughtironshard.beaconPayment = false;
+wroughtironshard.register();
+
+var wroughtironplate = VanillaFactory.createItem("wrought_iron_plate");
+wroughtironplate.maxStackSize = 64;
+wroughtironplate.beaconPayment = false;
+wroughtironplate.register();
+
+var deepmetamorphicrock = VanillaFactory.createItem("deep_metamorphic_rock");
+deepmetamorphicrock.maxStackSize = 64;
+deepmetamorphicrock.beaconPayment = false;
+deepmetamorphicrock.register();
+
+var puzzlesoldeepmetamorphic = VanillaFactory.createItem("puzzle_solution_deepmetamorphic");
+puzzlesoldeepmetamorphic.maxStackSize = 64;
+puzzlesoldeepmetamorphic.beaconPayment = false;
+puzzlesoldeepmetamorphic.register();
+
+var jeweleddust = VanillaFactory.createItem("jeweled_dust");
+jeweleddust.maxStackSize = 64;
+jeweleddust.beaconPayment = false;
+jeweleddust.register();
+
+var phasingalloyplate = VanillaFactory.createItem("phasing_alloy_plate");
+phasingalloyplate.maxStackSize = 64;
+phasingalloyplate.beaconPayment = false;
+phasingalloyplate.register();
+
+var barongem = VanillaFactory.createItem("baron_gem");
+barongem.maxStackSize = 64;
+barongem.beaconPayment = false;
+barongem.register();
+
+var barathosyniumingot = VanillaFactory.createItem("barathosynium_ingot");
+barathosyniumingot.maxStackSize = 64;
+barathosyniumingot.beaconPayment = false;
+barathosyniumingot.register();
+
+var phasingalloyingot = VanillaFactory.createItem("phasing_alloy_ingot");
+phasingalloyingot.maxStackSize = 64;
+phasingalloyingot.beaconPayment = false;
+phasingalloyingot.register();
+
+var puzzlesolbarongem = VanillaFactory.createItem("puzzle_solution_barongem");
+puzzlesolbarongem.maxStackSize = 64;
+puzzlesolbarongem.beaconPayment = false;
+puzzlesolbarongem.register();
+
+var polytonshard = VanillaFactory.createItem("polytom_shard");
+polytonshard.maxStackSize = 64;
+polytonshard.beaconPayment = false;
+polytonshard.register();
+
+var flyinggunpowder = VanillaFactory.createItem("flying_gunpowder");
+flyinggunpowder.maxStackSize = 64;
+flyinggunpowder.beaconPayment = false;
+flyinggunpowder.register();
+
+var fluctuatingalloy = VanillaFactory.createItem("fluctuating_alloy");
+fluctuatingalloy.maxStackSize = 64;
+fluctuatingalloy.beaconPayment = false;
+fluctuatingalloy.register();
+
+var nuclearfissioninterior = VanillaFactory.createItem("nuclearcraft_fission_interior");
+nuclearfissioninterior.maxStackSize = 64;
+nuclearfissioninterior.beaconPayment = false;
+nuclearfissioninterior.register();
+
+var polarcatalyst = VanillaFactory.createItem("polar_catalyst");
+polarcatalyst.maxStackSize = 64;
+polarcatalyst.beaconPayment = false;
+polarcatalyst.register();
+
+var stormlightfragment = VanillaFactory.createItem("stormlight_fragment");
+stormlightfragment.maxStackSize = 64;
+stormlightfragment.beaconPayment = false;
+stormlightfragment.register();
+
+var championtoken = VanillaFactory.createItem("champion_token");
+championtoken.maxStackSize = 64;
+championtoken.beaconPayment = false;
+championtoken.register();
+
 

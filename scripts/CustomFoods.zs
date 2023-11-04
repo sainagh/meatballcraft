@@ -69,7 +69,7 @@ strangemeatball.register();
 var driedvishroom = VanillaFactory.createItemFood("dried_vishroom", 2);
 driedvishroom.saturation = 1;
 driedvishroom.onItemFoodEaten = function(stack, world, player) {
-	player.addPotionEffect(<potion:enderio:confusion>.makePotionEffect(600, 1));
+	player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(600, 1));
 //	player.addPotionEffect(<potion:cyclicmagic:blindness>.makePotionEffect(12000, 0));
 	player.addPotionEffect(<potion:minecraft:luck>.makePotionEffect(36000, 3));
 };
@@ -150,28 +150,28 @@ dragoneggomelette.register();
 var sourcandyx = VanillaFactory.createItemFood("sour_candy_x", 5);
 sourcandyx.saturation = 1;
 sourcandyx.onItemFoodEaten = function(stack, world, player) {
-	player.addPotionEffect(<potion:thaumadditions:sanity_checker>.makePotionEffect(999999, 1));
+	player.addPotionEffect(<potion:minecraft:speed>.makePotionEffect(999999, 100));
 };
 sourcandyx.register();
 
 var burned_enchanted_feather = VanillaFactory.createItemFood("burned_enchanted_feather", 5);
 burned_enchanted_feather.saturation = 1;
 burned_enchanted_feather.onItemFoodEaten = function(stack, world, player) {
-	player.addPotionEffect(<potion:botania:featherfeet>.makePotionEffect(999999, 1));
+	player.addPotionEffect(<potion:minecraft:speed>.makePotionEffect(999999, 100));
 };
 burned_enchanted_feather.register();
 
 var lollypopy = VanillaFactory.createItemFood("lollypop_y", 5);
 lollypopy.saturation = 1;
 lollypopy.onItemFoodEaten = function(stack, world, player) {
-	player.addPotionEffect(<potion:thaumadditions:sanity_checker>.makePotionEffect(999999, 1));
+	player.addPotionEffect(<potion:minecraft:speed>.makePotionEffect(999999, 100));
 };
 lollypopy.register();
 
 var gummywormz = VanillaFactory.createItemFood("gummy_worm_z", 5);
 gummywormz.saturation = 1;
 gummywormz.onItemFoodEaten = function(stack, world, player) {
-	player.addPotionEffect(<potion:thaumadditions:sanity_checker>.makePotionEffect(999999, 1));
+	player.addPotionEffect(<potion:minecraft:speed>.makePotionEffect(999999, 100));
 };
 gummywormz.register();
 

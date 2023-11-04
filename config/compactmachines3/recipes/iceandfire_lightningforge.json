@@ -1,0 +1,111 @@
+{
+    "name": "compactmachines3:iceandfire_lighningforge",
+    "target-item": "iceandfire:dragonforge_lightning_core_disabled",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "iceandfire:dragon_bone_block",
+        "meta": 0,
+        "item": {
+            "id": "iceandfire:dragon_bone_block",
+            "count": 8
+          }
+      },
+      "b": {
+        "id": "iceandfire:dragonforge_lightning_brick",
+        "meta": 0,
+        "item": {
+            "id": "iceandfire:dragonforge_lightning_brick",
+            "count": 3
+          }
+      },
+      "c": {
+        "id": "iceandfire:dragonforge_lightning_brick",
+        "meta": 1,
+        "item": {
+            "id": "iceandfire:dragonforge_lightning_brick",
+            "count": 14
+          }
+      },
+      "d": {
+        "id": "iceandfire:dragonforge_lighning_input",
+        "meta": 0,
+        "item": {
+            "id": "iceandfire:dragonforge_lighning_input",
+            "count": 1
+          }
+      },
+      "e": {
+        "id": "iceandfire:dragonforge_lightning_core",
+        "meta": 0,
+        "item": {
+            "id": "iceandfire:dragonforge_lightning_core",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "a",
+          "b",
+          "a"
+        ],
+        [
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "a",
+          "b",
+          "a"
+        ]
+      ],
+      [
+        [
+          "b",
+          "d",
+          "b"
+        ],
+        [
+          "c",
+          "e",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b"
+        ]
+      ],
+      [
+        [
+          "a",
+          "b",
+          "a"
+        ],
+        [
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "a",
+          "b",
+          "a"
+        ]
+      ]
+    ]
+       
+}

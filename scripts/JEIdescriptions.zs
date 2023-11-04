@@ -1403,13 +1403,13 @@ mods.jei.JEI.addDescription(<nuclearcraft:fusion_core>,
     "The fusion connectors are placed in straight lines coming out of the core on all four sides. You need at least one on each side.",
     "The longer the arms, the higher the energy output! All arms should be the same length!",
     "",
-    "The fusion electromagnets are placed in four square rings around the connectors.",
-    "The first square is directly around the connectors.",
-    "The second and third squares are one block further out, and are located one block above and below.",
-    "The fourth square is one block away from the first square, at the same height.",
-    "These squares should for a shape with a hollow plus sign as a cross-section. Going in a square around the reactor.",
+    "The fusion electromagnets are placed in four square rings around the connectors, see the multiblock preview for a size one assembly.",
     "",
     "Place flux points or other energy transfer on the electromagnets until they are all green.",
+    "",
+    "Once a reactor is started, temperature will build up till the heat bar is full. During this stage, the reactor will consume energy.",
+    "",
+    "After that bar is filled, the reactor will enter operating mode, and it will start making energy. In this state, the reactor will have to be cooled. If the temperature gets too high, it will melt down.",
     "",
     "To cool the reactor, place active coolers around the electromagnets, and pipe water into them.",
     "If coolers are placed following central symmetry with respect to the core, they are more efficient.",
@@ -1965,6 +1965,61 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_haumea>,
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Craft an invar singularity with these sigils: luck, battle, ruin, cleansing."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_spatialphaser>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "There are hidden crates in the eden, containing a particular item. Combine these items with the right blocks, a chest in the eden will show what recipe. Combine the resulting outputs with the inert spatial phaser.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft three stone bricks with the following items: diamond, aqua ball, cactus green, iron ingot."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_deepmetamorphic>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Two structures in the deeplands will guide you on this. One will give you the shape of the recipe, one will give the orientation.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft this recipe:",
+    "Cracked Deadrock, Haven Stone, Lelyetian Stone;",
+    "Mossy Holystone, Deep Rock, Unstable Stone;",
+    "Taiga Metamorphic Cobblestone (botania not chisel), Dreadstone Cobblestone (abyssalcraft not chisel), Twilight Stone"
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_phasinggem>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "You have to use the spatial phaser in the right dimension and in the right biome, lelyetia will tell you the info you need!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Use the spatial phaser in a 9x9 area of undergarden inside of creeponia."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_barongem>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "The layout for the recipe can be found in a chest in barathos. One of the items in that recipe needs to be renamed, an enemy in barathos will tell you how to rename it.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "In a crafting table, surround a baron stone renamed with the word 'Ashari' with flux crystal blocks."
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_branchoflife>,
@@ -2952,7 +3007,7 @@ mods.jei.JEI.addDescription([<contenttweaker:dimension_ids>],
 
 
 
-mods.jei.JEI.addDescription([<appliedenergistics2:part:460>, <betterp2p_plusplus:advanced_memory_card>, <appliedenergistics2:certus_quartz_cutting_knife>],
+mods.jei.JEI.addDescription([<appliedenergistics2:part:460>, <betterp2p:advanced_memory_card>, <appliedenergistics2:certus_quartz_cutting_knife>],
 [
     "P2P buses are used to connect transport of items, redstone, fluids, light, energy, and AE2 channels using AE2.",
     "",
@@ -3028,7 +3083,7 @@ mods.jei.JEI.addDescription([
     <astralsorcery:itemperkgem:2>,
     <contenttweaker:making_dynamism_gems>],
 [
-    "To craft dynamism gems, you need to drop a rock crystal and glowstone inliquid starlight.",
+    "To craft dynamism gems, you need to drop a rock crystal and glowstone in liquid starlight.",
     "",
     "Depending on the time of day this happens, the resulting crystal will drop a different gem.",
     "Day = ilium",
@@ -3131,7 +3186,7 @@ mods.jei.JEI.addDescription([
 [
     "Warp is a mechanic used in both thaumcraft and abyssalcraft.",
     "",
-    "Warp is something that is directly connected to your player, and it is gained in a varity of ways:",
+    "Warp is something that is directly connected to your player, and it is gained in a variety of ways:",
     "1. Eating brains",
     "2. Unlocking thaumcraft research",
     "3. Fighting mobs from abyssalcraft",
@@ -3175,8 +3230,8 @@ mods.jei.JEI.addDescription([
     "Essentia can be stored using phials, or using jars. Phials are like buckets, which can be used to move essentia between containers. Jars are like tanks, which can be placed in world. Labels can be used to filter jars to store only one type of essentia.",
     "",
     "To transport essentia, there are pipes, but you should not use those. Instead, the filling and emptying essentia transfusers can be used to move essentia wirelessly.",
-    "The filling essentia transposer is used as a machine output, and it automatically pushes essentia into jars.",
-    "The emptying essentia transposer is used as a machine input, and it automatically pulls essentia out of jars."
+    "The filling essentia transfuser is used as a machine output, and it automatically pushes essentia into jars.",
+    "The emptying essentia transfuser is used as a machine input, and it automatically pulls essentia out of jars."
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3480,7 +3535,7 @@ mods.jei.JEI.addDescription([
 ]);
 
 mods.jei.JEI.addDescription([
-    <contenttweaker:draconic_energy_orb>,
+    <contenttweaker:draconic_energy_ball>,
     <draconicevolution:energy_storage_core>,
     <draconicevolution:energy_pylon>,
     <draconicevolution:particle_generator:2>],
@@ -3492,4 +3547,53 @@ mods.jei.JEI.addDescription([
     "After building the central sphere, stabilizers must be placed around it, within 16 blocks of the center. Tiers 1,2,3,4 require 4 stabilizers, one on each side. All other tiers use 36, 9 on each side in 3x3 squares. If formed correcly, they will change textures.",
     "",
     "Finally, to input and output energy, place energy pylons within 16 blocks of the core, and place glass on top of them. If formed correctly, the glass will turn into a sphere. Right click the sphere with an empty hand to switch the pylon between input and output mode."
+]);
+
+mods.jei.JEI.addDescription([
+    <nuclearcraft:fission_controller_new_fixed>,
+    <nuclearcraft:fission_block>,
+    <nuclearcraft:fission_port>,
+    <contenttweaker:nuclearcraft_fission_interior>],
+[
+    "The fission reactor is a multiblock that is both used to process fuels to obtain new resources, and to make energy.",
+    "",
+    "The exterior of the reactor is made out of fission casings, a controller, and at least one port (can replace any fission casing on the sides). The multiblock preview shows an example exterior for a 5x5x5 interior design.",
+    "",
+    "Depending on your fuel, you will need a different interior designs, made out of reactor cells, to process fuel while making heat, coolers of various types, to compensate the heat of the fuel, and promoters, to boost fuel efficiency while making more heat. Each of these blocks can only function if it follows certain requirements, listed on the block tooltips. If a reactor's heat is too high, it will melt down and make lots of radiation.",
+    "",
+    "For each fuel interior design, autobuildable multiblock structures are available. Check the crafting recipes for each fission fuel in the energy sources tab!",
+    "",
+    "These designs are all 5x5x5, which should be enough for your fission needs. All designs available were made using the leu-235.com optimizer. Use that website if you want to make reactors of different sizes.",
+    "",
+    "For some fuels, there are both actively and passively cooled builds. The actively cooled ones will be faster and more efficient, but will consume cryotheum to run."
+]);
+
+mods.jei.JEI.addDescription([
+    <nuclearcraft:buffer>,
+    <nuclearcraft:active_cooler>,
+    <contenttweaker:active_cryotheum_cooler>],
+[
+    "The active cooler is a better version of coolers for fission reactors, but it requires a fluid to run.",
+    "",
+    "To pump the fluid inside the reactor structure, replace a reactor casing with a buffer. All active coolers touching the buffer, directly or indirectly, will receive the fluid. See the multiblock preview for an example on how this can be done.",
+    "",
+    "Active coolers can receive any fluid that is used to craft passive (normal) coolers, but it will follow the same requirements.",
+    "",
+    "All autobuildable designs suggested will use cryotheum.",
+    "",
+    "Active coolers are also used in fusion reactors, check the fusion electomagnet multiblock preview and explanation for more info."
+]);
+
+mods.jei.JEI.addDescription([
+    <nuclearcraft:fusion_electromagnet_idle>,
+    <nuclearcraft:fusion_electromagnet_transparent_idle>],
+[
+    "To operate safely, and prevent meltdowns, fusion electromagnets need cooling and energy.",
+    "",
+    "To provide energy, connect energy cables with high transfer rate to the electromagnets. If properly powered, sections of connected electromagnets will turn from red to green.",
+    "To operate safely, you will need multiple connections! One every 7 blocks should be good.",
+    "",
+    "To provide cooling, you will need to use active coolers filled with water (infinite water sources are recommended).",
+    "Cooling has to be added after the reactor starts making energy (optional while it's heating up). You want to make sure cooling is at 100%, no more, no less!"
+
 ]);

@@ -1,0 +1,158 @@
+{
+  "807": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "623": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "183": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "805": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "184": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "818": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "821": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "165": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "814": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "53": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "166": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "423": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "170": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "171": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "172": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "173": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "802": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "1": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "146": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    }
+  ],
+  "-1": [
+    {
+      "item": "cyclicmagic:ender_pearl_mounted",
+      "damage": "*"
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "damage": "*"
+    },
+    {
+      "item": "enderio:item_travel_staff",
+      "damage": "*"
+    }
+  ],
+  "426": [
+    {
+      "item": "cyclicmagic:ender_pearl_mounted",
+      "damage": "*"
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "damage": "*"
+    },
+    {
+      "item": "enderio:item_travel_staff",
+      "damage": "*"
+    }
+  ],
+  "-11325": [
+    {
+      "item": "cyclicmagic:ender_pearl_mounted",
+      "damage": "*"
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "damage": "*"
+    },
+    {
+      "item": "enderio:item_travel_staff",
+      "damage": "*"
+    }
+  ]
+}

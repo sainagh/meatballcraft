@@ -67,6 +67,7 @@ mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itembluep
 mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:baphomet_altar"}));
 mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:herne_altar"}));
 mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_god_altar"}));
+mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_god_altar_network"}));
 mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dimensional_stabilizer"}));
 mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:terrestrial_cauldron"}));
 mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:enchanted_greenhouse"}));
@@ -140,6 +141,7 @@ mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_compressor"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:relativistic_collapser"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:definer_two"}));
+mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:twelve_gates_of_heaven"}));
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_alloy_furnace"}),
 [[<modularmachinery:itemmodularium>,null,null],
@@ -163,3 +165,5 @@ mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itembluep
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aluminum_lathe"}));
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_god_altar"}));
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:plated_carpenter"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:salt_repolarizer"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:two_phase_fission_reactor"}));

@@ -37,3 +37,30 @@ recipes.removeShaped(<immersiveengineering:metal_device1:13>);
 
 mods.thermalexpansion.Pulverizer.addRecipe(<immersiveengineering:material:17>, <railcraft:fuel_coke>, 8000);
 mods.thermalexpansion.Pulverizer.addRecipe(<immersiveengineering:material:17>, <immersiveengineering:material:6>, 8000);
+
+mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:fluctuating_alloy>, <materialpart:fluctuatite:ingot>, <contenttweaker:flying_gunpowder>, 1000);
+
+recipes.remove(<immersiveengineering:revolver>);
+// recipes.addShaped(<immersiveengineering:revolver>,
+// [[null, <contenttweaker:fluctuating_alloy>, null],
+// [<immersiveengineering:material:14>, <immersiveengineering:material:15>, <immersiveengineering:material:16>],
+// [<immersiveengineering:material:13>, <contenttweaker:fluctuating_alloy>, <immersiveengineering:material:13>]]);
+mods.extendedcrafting.TableCrafting.addShaped(<immersiveengineering:revolver>, 
+[[<contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>], 
+[<contenttweaker:gun_devil_piece>, null, <contenttweaker:fluctuating_alloy>, null, <contenttweaker:gun_devil_piece>], 
+[<contenttweaker:gun_devil_piece>, <immersiveengineering:material:14>, <immersiveengineering:material:15>, <immersiveengineering:material:16>, <contenttweaker:gun_devil_piece>], 
+[<contenttweaker:gun_devil_piece>, <immersiveengineering:material:13>, <contenttweaker:fluctuating_alloy>, <immersiveengineering:material:13>, <contenttweaker:gun_devil_piece>], 
+[<contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>]]); 
+
+
+recipes.remove(<immersiveengineering:railgun>);
+// recipes.addShaped(<immersiveengineering:railgun>,
+// [[<contenttweaker:fluctuating_alloy>, <immersiveengineering:metal_device0:2>, <immersiveengineering:material:13>],
+// [<immersiveengineering:metal_decoration0:1>, <contenttweaker:stellar_alloy_shaft>, <immersiveengineering:metal_device0:2>],
+// [<immersiveengineering:material:14>, <immersiveengineering:metal_decoration0:1>, <contenttweaker:fluctuating_alloy>]]);
+mods.extendedcrafting.TableCrafting.addShaped(<immersiveengineering:railgun>, 
+[[<contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>], 
+[<contenttweaker:gun_devil_piece>, <contenttweaker:fluctuating_alloy>, <immersiveengineering:metal_device0:2>, <immersiveengineering:material:13>, <contenttweaker:gun_devil_piece>], 
+[<contenttweaker:gun_devil_piece>, <immersiveengineering:metal_decoration0:1>, <contenttweaker:stellar_alloy_shaft>, <immersiveengineering:metal_device0:2>, <contenttweaker:gun_devil_piece>], 
+[<contenttweaker:gun_devil_piece>, <immersiveengineering:material:14>, <immersiveengineering:metal_decoration0:1>, <contenttweaker:fluctuating_alloy>, <contenttweaker:gun_devil_piece>], 
+[<contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>]]); 

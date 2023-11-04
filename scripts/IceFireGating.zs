@@ -9,6 +9,9 @@ recipes.addShapeless(<iceandfire:dragonforge_fire_core>,[<iceandfire:dragonforge
 recipes.addShapeless(<iceandfire:dragonforge_ice_core_disabled>,[<iceandfire:dragonforge_ice_core>]);
 recipes.addShapeless(<iceandfire:dragonforge_ice_core>,[<iceandfire:dragonforge_ice_core_disabled>]);
 
+recipes.addShapeless(<iceandfire:dragonforge_lightning_core_disabled>,[<iceandfire:dragonforge_lightning_core>]);
+recipes.addShapeless(<iceandfire:dragonforge_lightning_core>,[<iceandfire:dragonforge_lightning_core_disabled>]);
+
 mods.extendedcrafting.TableCrafting.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "iceandfire:if_hydra"}}), 
 [[<bewitchment:snake_venom>, null, <bewitchment:snake_venom>], 
 [null, <extendedcrafting:singularity:7>, null], 

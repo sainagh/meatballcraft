@@ -1696,7 +1696,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "modularmagic:blockaspectproviderinput"
+                "nuclearcraft:fission_block@0"
             ]
         },
         {
@@ -1704,7 +1704,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "modularmagic:blockaspectproviderinput"
+                "modularmachinery:blocklifeessenceproviderinput"
             ]
         },
         {
@@ -1712,7 +1712,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "modularmagic:blockaspectproviderinput"
+                "nuclearcraft:fission_block@0"
             ]
         },
         {

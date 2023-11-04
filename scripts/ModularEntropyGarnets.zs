@@ -2,6 +2,7 @@ import mods.modularmachinery.RecipeBuilder;
 import mods.thaumcraft.Infusion;
 
 
+// recursion terra chain
 
 val combinethepuzzles = RecipeBuilder.newBuilder("combinethepuzzles","me_entropic_sythesizer",200);
 combinethepuzzles.addFluidInput(<fluid:twilight_fire>*800);
@@ -225,3 +226,7 @@ mythasstrulyallofthem.addItemOutput(<contenttweaker:dustopia_garnet>*64);
 mythasstrulyallofthem.addItemOutput(<contenttweaker:vethea_garnet>*64);
 mythasstrulyallofthem.addItemOutput(<contenttweaker:shyrelands_garnet>*64);
 mythasstrulyallofthem.build();
+
+
+
+

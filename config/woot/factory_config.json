@@ -299,7 +299,9 @@
     "aoa3:lightwalker",
     "aoa3:luxocron",
     "iceandfire:firedragon",
-    "iceandfire:icedragon"
+    "iceandfire:icedragon",
+    "iceandfire:lightningdragon",
+    "aoa3:stimulosus"
   ],
   "entitywhitelist": [
   ],

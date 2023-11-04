@@ -246,3 +246,8 @@ recipes.addShaped(<techreborn:electric_furnace>,
 [[null, <techreborn:part:29>, null],
 [<minecraft:redstone>, <techreborn:machine_frame:0>, <minecraft:redstone>],
 [null, <techreborn:iron_furnace>, null]]);
+
+recipes.addShaped(<techreborn:part:28>,
+[[null, <techreborn:part:26>, null],
+[<techreborn:part:26>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "beryllium", Amount: 1000}}), <techreborn:part:26>],
+[null, <techreborn:part:26>, null]]);

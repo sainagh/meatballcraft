@@ -1,7 +1,7 @@
 {
   "path": "mod_mysticalagriculture/plants/ruby_plant.json",
   "enabled": true,
-  "id": "mysticalagriculture:rubyr_plant",
+  "id": "mysticalagriculture:ruby_plant",
   "plant_name": "Ruby",
   "seed_name": "Ruby Seeds",
   "seed_items": [

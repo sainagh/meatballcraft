@@ -166,3 +166,4 @@ var trait_antigravity = VanillaFactory.createItem("trait_antigravity");	trait_an
 var trait_ingarage = VanillaFactory.createItem("trait_ingarage");	trait_ingarage.textureLocation = instanceTEX;  trait_ingarage.register();
 var trait_surfwaxmurica = VanillaFactory.createItem("trait_surfwaxmurica");	trait_surfwaxmurica.textureLocation = instanceTEX;  trait_surfwaxmurica.register();
 var trait_undone = VanillaFactory.createItem("trait_undone");	trait_undone.textureLocation = instanceTEX;  trait_undone.register();
+var trait_thunder = VanillaFactory.createItem("trait_thunder");	trait_thunder.textureLocation = instanceTEX;  trait_thunder.register();

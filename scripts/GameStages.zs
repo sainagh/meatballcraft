@@ -146,3 +146,11 @@ shungiteprism.itemRightClick = function(stack, world, player, hand) {
 	return "Pass";
 };
 shungiteprism.register();
+
+var paparazzicamera = VanillaFactory.createItem("paparazzi_camera");
+paparazzicamera.maxStackSize = 64;
+paparazzicamera.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("gamestage add @p camerastage", player, world, true, true);
+	return "Pass";
+};
+paparazzicamera.register();

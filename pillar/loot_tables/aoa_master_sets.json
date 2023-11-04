@@ -1,0 +1,1000 @@
+{
+    "pools": [
+      {
+        "name": "rollhelm",
+        "entries": [
+          {
+            "entryName": "aoa3:alchemy_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:alchemy_helmet"
+          },
+          {
+            "entryName": "aoa3:anima_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:anima_helmet"
+          },
+          {
+            "entryName": "aoa3:augury_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:augury_helmet"
+          },
+          {
+            "entryName": "aoa3:butchery_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:butchery_helmet"
+          },
+          {
+            "entryName": "aoa3:creation_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:creation_helmet"
+          },
+          {
+            "entryName": "aoa3:engineering_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:engineering_helmet"
+          },
+          {
+            "entryName": "aoa3:expedition_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:expedition_helmet"
+          },
+          {
+            "entryName": "aoa3:extraction_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:extraction_helmet"
+          },
+          {
+            "entryName": "aoa3:foraging_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:foraging_helmet"
+          },
+          {
+            "entryName": "aoa3:hauling_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:hauling_helmet"
+          },
+          {
+            "entryName": "aoa3:hunter_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:hunter_helmet"
+          },
+          {
+            "entryName": "aoa3:infusion_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:infusion_helmet"
+          },
+          {
+            "entryName": "aoa3:innervation_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:innervation_helmet"
+          },
+          {
+            "entryName": "aoa3:logging_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:logging_helmet"
+          },
+          {
+            "entryName": "aoa3:runation_helmet",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:runation_helmet"
+          }
+        ],
+        "rolls": {
+          "min": 1.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "rollchest",
+        "entries": [
+          {
+            "entryName": "aoa3:alchemy_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:alchemy_chestplate"
+          },
+          {
+            "entryName": "aoa3:anima_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:anima_chestplate"
+          },
+          {
+            "entryName": "aoa3:augury_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:augury_chestplate"
+          },
+          {
+            "entryName": "aoa3:butchery_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:butchery_chestplate"
+          },
+          {
+            "entryName": "aoa3:creation_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:creation_chestplate"
+          },
+          {
+            "entryName": "aoa3:engineering_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:engineering_chestplate"
+          },
+          {
+            "entryName": "aoa3:expedition_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:expedition_chestplate"
+          },
+          {
+            "entryName": "aoa3:extraction_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:extraction_chestplate"
+          },
+          {
+            "entryName": "aoa3:foraging_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:foraging_chestplate"
+          },
+          {
+            "entryName": "aoa3:hauling_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:hauling_chestplate"
+          },
+          {
+            "entryName": "aoa3:hunter_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:hunter_chestplate"
+          },
+          {
+            "entryName": "aoa3:infusion_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:infusion_chestplate"
+          },
+          {
+            "entryName": "aoa3:innervation_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:innervation_chestplate"
+          },
+          {
+            "entryName": "aoa3:logging_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:logging_chestplate"
+          },
+          {
+            "entryName": "aoa3:runation_chestplate",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:runation_chestplate"
+          }
+        ],
+        "rolls": {
+          "min": 1.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "rolllegs",
+        "entries": [
+          {
+            "entryName": "aoa3:alchemy_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:alchemy_legs"
+          },
+          {
+            "entryName": "aoa3:anima_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:anima_legs"
+          },
+          {
+            "entryName": "aoa3:augury_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:augury_legs"
+          },
+          {
+            "entryName": "aoa3:butchery_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:butchery_legs"
+          },
+          {
+            "entryName": "aoa3:creation_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:creation_legs"
+          },
+          {
+            "entryName": "aoa3:engineering_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:engineering_legs"
+          },
+          {
+            "entryName": "aoa3:expedition_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:expedition_legs"
+          },
+          {
+            "entryName": "aoa3:extraction_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:extraction_legs"
+          },
+          {
+            "entryName": "aoa3:foraging_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:foraging_legs"
+          },
+          {
+            "entryName": "aoa3:hauling_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:hauling_legs"
+          },
+          {
+            "entryName": "aoa3:hunter_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:hunter_legs"
+          },
+          {
+            "entryName": "aoa3:infusion_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:infusion_legs"
+          },
+          {
+            "entryName": "aoa3:innervation_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:innervation_legs"
+          },
+          {
+            "entryName": "aoa3:logging_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:logging_legs"
+          },
+          {
+            "entryName": "aoa3:runation_legs",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:runation_legs"
+          }
+        ],
+        "rolls": {
+          "min": 1.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "rollboots",
+        "entries": [
+          {
+            "entryName": "aoa3:alchemy_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:alchemy_boots"
+          },
+          {
+            "entryName": "aoa3:anima_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:anima_boots"
+          },
+          {
+            "entryName": "aoa3:augury_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:augury_boots"
+          },
+          {
+            "entryName": "aoa3:butchery_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:butchery_boots"
+          },
+          {
+            "entryName": "aoa3:creation_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:creation_boots"
+          },
+          {
+            "entryName": "aoa3:engineering_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:engineering_boots"
+          },
+          {
+            "entryName": "aoa3:expedition_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:expedition_boots"
+          },
+          {
+            "entryName": "aoa3:extraction_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:extraction_boots"
+          },
+          {
+            "entryName": "aoa3:foraging_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:foraging_boots"
+          },
+          {
+            "entryName": "aoa3:hauling_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:hauling_boots"
+          },
+          {
+            "entryName": "aoa3:hunter_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:hunter_boots"
+          },
+          {
+            "entryName": "aoa3:infusion_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:infusion_boots"
+          },
+          {
+            "entryName": "aoa3:innervation_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:innervation_boots"
+          },
+          {
+            "entryName": "aoa3:logging_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:logging_boots"
+          },
+          {
+            "entryName": "aoa3:runation_boots",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:runation_boots"
+          }
+        ],
+        "rolls": {
+          "min": 1.0,
+          "max": 1.0
+        }
+      }
+    ]
+  }

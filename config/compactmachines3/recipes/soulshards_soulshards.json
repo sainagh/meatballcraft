@@ -1,0 +1,74 @@
+{
+    "name": "compactmachines3:soulshards_soulshards",
+    "target-item": "soulshardsrespawn:soul_shard",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:obsidian",
+        "meta": 0
+      },
+      "b": {
+        "id": "minecraft:quartz_block",
+        "meta": 0
+      },
+      "c": {
+        "id": "minecraft:tripwire",
+        "meta": 0,
+        "item": {
+            "id": "minecraft:diamond",
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "minecraft:glowstone",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "c",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "a",
+          "b",
+          "a"
+        ],
+        [
+          "b",
+          "d",
+          "b"
+        ],
+        [
+          "a",
+          "b",
+          "a"
+        ]
+      ]
+    ]
+            
+}

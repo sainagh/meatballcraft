@@ -6,6 +6,8 @@ mods.techreborn.scrapbox.addScrapboxDrop(<erebus:materials:7>);
 
 mods.techreborn.scrapbox.addScrapboxDrop(<ebwizardry:crystal_silver_plating>);
 
+mods.techreborn.scrapbox.addScrapboxDrop(<ebwizardry:ethereal_crystalweave>);
+
 mods.techreborn.scrapbox.addScrapboxDrop(<minecraft:nether_star>);
 
 mods.techreborn.scrapbox.addScrapboxDrop(<bewitchment:ink_cap_dye>);

@@ -20,14 +20,14 @@ mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:the_dark_star>, <fl
 
 
 
-mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/skythernEMC", 
-<astralsorcery:blockaltar:3>, 100, 100, 
-[
-	<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, 
-	<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:blockblackmarble:0>, 
-	<astralsorcery:blockblackmarble:0>, <astralsorcery:blockblackmarble:0>, <astralsorcery:blockblackmarble:0>, <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>,
-	<astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>,<astralsorcery:blockmarble:6>, 
-	<astralsorcery:blockmarble:6>,<astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:3>,<astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:3>
-	//Outer Items, indices 25+
-	
-]);
+// mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/skythernEMC", 
+// <astralsorcery:blockaltar:3>, 100, 100, 
+// [
+// 	<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, 
+// 	<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:blockblackmarble:0>, 
+// 	<astralsorcery:blockblackmarble:0>, <astralsorcery:blockblackmarble:0>, <astralsorcery:blockblackmarble:0>, <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>,
+// 	<astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>,<astralsorcery:blockmarble:6>, 
+// 	<astralsorcery:blockmarble:6>,<astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:3>,<astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:3>
+// 	//Outer Items, indices 25+
+// 	
+// ]);

@@ -356,3 +356,10 @@ mythallo48.addItemInput(<ore:ingotAluminum> * 3);
 mythallo48.addItemInput(<ore:ingotCopper>);
 mythallo48.addItemOutput(<tconstruct:ingots:5>*4);
 mythallo48.build();
+
+val mythallo49 = RecipeBuilder.newBuilder("mythallo49","mythic_processor_alloy_furnace",1);
+mythallo49.addEnergyPerTickInput(80000);
+mythallo49.addItemInput(<nuclearcraft:depleted_fuel_mixed_oxide:0>);
+mythallo49.addItemInput(<nuclearcraft:depleted_fuel_mixed_oxide:1>);
+mythallo49.addItemOutput(<nuclearcraft:depleted_fuel_ic2:1>);
+mythallo49.build();

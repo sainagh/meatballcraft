@@ -19,3 +19,4 @@ mods.techreborn.industrialGrinder.addRecipe(<aoa3:limonite_ingot>*5, <thermalfou
 mods.techreborn.industrialGrinder.addRecipe(<aoa3:rosite_ingot>*5, <thermalfoundation:material:70>, null, null, <aoa3:rosite_ore>, null, 30, 256);
 
 mods.techreborn.industrialGrinder.addRecipe(<aoa3:emberstone_ingot>*5, <nuclearcraft:compound:5>, null, null, <aoa3:emberstone_ore>, null, 30, 256);
+

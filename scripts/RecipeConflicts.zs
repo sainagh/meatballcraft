@@ -169,24 +169,6 @@ mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:fluidnitrocarbon>*1000, <fl
 mods.nuclearcraft.alloy_furnace.addRecipe([<ore:ingotCopper>, <ore:ingotAluminum>*3, <tconstruct:ingots:5>*4]);
 
 
-recipes.remove(<aoa3:amethyst_block>);
-recipes.remove(<bewitchment:block_of_amethyst>);
-recipes.remove(<biomesoplenty:gem_block:0>);
-
-recipes.addShaped(<aoa3:amethyst_block>,
-[[<aoa3:amethyst>, <aoa3:amethyst>, <aoa3:amethyst>],
-[<aoa3:amethyst>, <aoa3:amethyst>, <aoa3:amethyst>],
-[<aoa3:amethyst>, <aoa3:amethyst>, <aoa3:amethyst>]]);
-
-recipes.addShaped(<bewitchment:block_of_amethyst>,
-[[<bewitchment:amethyst>, <bewitchment:amethyst>, <bewitchment:amethyst>],
-[<bewitchment:amethyst>, <bewitchment:amethyst>, <bewitchment:amethyst>],
-[<bewitchment:amethyst>, <bewitchment:amethyst>, <bewitchment:amethyst>]]);
-
-recipes.addShaped(<biomesoplenty:gem_block:0>,
-[[<biomesoplenty:gem:0>, <biomesoplenty:gem:0>, <biomesoplenty:gem:0>],
-[<biomesoplenty:gem:0>, <biomesoplenty:gem:0>, <biomesoplenty:gem:0>],
-[<biomesoplenty:gem:0>, <biomesoplenty:gem:0>, <biomesoplenty:gem:0>]]);
 
 mods.techreborn.industrialGrinder.addRecipe(<enderio:item_material:31>*2, <techreborn:dust:39>, null, null, <ore:oreCobalt>, null, 100, 8);
 
@@ -1206,3 +1188,89 @@ furnace.addRecipe(<contenttweaker:divine_wisp>*7, <divinerpg:divine_leggings>);
 furnace.addRecipe(<contenttweaker:divine_wisp>*4, <divinerpg:divine_boots>);
 furnace.addRecipe(<contenttweaker:divine_wisp>*5, <divinerpg:divine_helmet>);
 furnace.addRecipe(<contenttweaker:divine_wisp>*8, <divinerpg:divine_chestplate>);
+
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thaumcraft:ingot:1>);
+
+recipes.addShapeless(<industrialforegoing:black_hole_tank>,
+[<industrialforegoing:black_hole_tank>]);
+
+recipes.addShapeless(<environmentaltech:lightning_cont_1>,
+[<environmentaltech:lightning_cont_1>]);
+recipes.addShapeless(<environmentaltech:lightning_cont_2>,
+[<environmentaltech:lightning_cont_2>]);
+recipes.addShapeless(<environmentaltech:lightning_cont_3>,
+[<environmentaltech:lightning_cont_3>]);
+recipes.addShapeless(<environmentaltech:lightning_cont_4>,
+[<environmentaltech:lightning_cont_4>]);
+recipes.addShapeless(<environmentaltech:lightning_cont_5>,
+[<environmentaltech:lightning_cont_5>]);
+recipes.addShapeless(<environmentaltech:lightning_cont_6>,
+[<environmentaltech:lightning_cont_6>]);
+
+recipes.addShapeless(<environmentaltech:solar_cont_1>,
+[<environmentaltech:solar_cont_1>]);
+recipes.addShapeless(<environmentaltech:solar_cont_2>,
+[<environmentaltech:solar_cont_2>]);
+recipes.addShapeless(<environmentaltech:solar_cont_3>,
+[<environmentaltech:solar_cont_3>]);
+recipes.addShapeless(<environmentaltech:solar_cont_4>,
+[<environmentaltech:solar_cont_4>]);
+recipes.addShapeless(<environmentaltech:solar_cont_5>,
+[<environmentaltech:solar_cont_5>]);
+recipes.addShapeless(<environmentaltech:solar_cont_6>,
+[<environmentaltech:solar_cont_6>]);
+
+recipes.addShapeless(<environmentaltech:void_ore_miner_cont_1>,
+[<environmentaltech:void_ore_miner_cont_1>]);
+recipes.addShapeless(<environmentaltech:void_ore_miner_cont_2>,
+[<environmentaltech:void_ore_miner_cont_2>]);
+recipes.addShapeless(<environmentaltech:void_ore_miner_cont_3>,
+[<environmentaltech:void_ore_miner_cont_3>]);
+recipes.addShapeless(<environmentaltech:void_ore_miner_cont_4>,
+[<environmentaltech:void_ore_miner_cont_4>]);
+recipes.addShapeless(<environmentaltech:void_ore_miner_cont_5>,
+[<environmentaltech:void_ore_miner_cont_5>]);
+recipes.addShapeless(<environmentaltech:void_ore_miner_cont_6>,
+[<environmentaltech:void_ore_miner_cont_6>]);
+
+recipes.addShapeless(<environmentaltech:void_res_miner_cont_1>,
+[<environmentaltech:void_res_miner_cont_1>]);
+recipes.addShapeless(<environmentaltech:void_res_miner_cont_2>,
+[<environmentaltech:void_res_miner_cont_2>]);
+recipes.addShapeless(<environmentaltech:void_res_miner_cont_3>,
+[<environmentaltech:void_res_miner_cont_3>]);
+recipes.addShapeless(<environmentaltech:void_res_miner_cont_4>,
+[<environmentaltech:void_res_miner_cont_4>]);
+recipes.addShapeless(<environmentaltech:void_res_miner_cont_5>,
+[<environmentaltech:void_res_miner_cont_5>]);
+recipes.addShapeless(<environmentaltech:void_res_miner_cont_6>,
+[<environmentaltech:void_res_miner_cont_6>]);
+
+recipes.addShapeless(<environmentaltech:void_botanic_miner_cont_1>,
+[<environmentaltech:void_botanic_miner_cont_1>]);
+recipes.addShapeless(<environmentaltech:void_botanic_miner_cont_2>,
+[<environmentaltech:void_botanic_miner_cont_2>]);
+recipes.addShapeless(<environmentaltech:void_botanic_miner_cont_3>,
+[<environmentaltech:void_botanic_miner_cont_3>]);
+recipes.addShapeless(<environmentaltech:void_botanic_miner_cont_4>,
+[<environmentaltech:void_botanic_miner_cont_4>]);
+recipes.addShapeless(<environmentaltech:void_botanic_miner_cont_5>,
+[<environmentaltech:void_botanic_miner_cont_5>]);
+recipes.addShapeless(<environmentaltech:void_botanic_miner_cont_6>,
+[<environmentaltech:void_botanic_miner_cont_6>]);
+
+recipes.addShapeless(<thermalexpansion:reservoir:0>,
+[<thermalexpansion:reservoir:0>]);
+recipes.addShapeless(<thermalexpansion:reservoir:1>,
+[<thermalexpansion:reservoir:1>]);
+recipes.addShapeless(<thermalexpansion:reservoir:2>,
+[<thermalexpansion:reservoir:2>]);
+recipes.addShapeless(<thermalexpansion:reservoir:3>,
+[<thermalexpansion:reservoir:3>]);
+recipes.addShapeless(<thermalexpansion:reservoir:4>,
+[<thermalexpansion:reservoir:4>]);
+
+recipes.addShapeless(<contenttweaker:active_cryotheum_cooler>,
+[<contenttweaker:nuclearcraft_fission_interior>,
+<nuclearcraft:active_cooler>,
+<forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000})]);

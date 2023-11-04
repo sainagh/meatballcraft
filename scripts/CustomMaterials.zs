@@ -513,3 +513,284 @@ armorsedna.addDataValue("durability", "5642");
 armorsedna.addDataValue("enchantability", "88");
 armorsedna.addDataValue("reduction", "4,7,9,5");
 armorsedna.addDataValue("toughness", "7");
+
+var colorphasing = Color.fromHex("2bffc3") as Color;
+var phasing = MaterialSystem.getMaterialBuilder().setName("Phasing Alloy").setColor(colorphasing).build();
+phasing.registerParts(["nugget"] as string[]);
+var armorphasing = phasing.registerPart("armor").getData();
+armorphasing.addDataValue("durability", "4000");
+armorphasing.addDataValue("enchantability", "10");
+armorphasing.addDataValue("reduction", "5,8,8,6");
+armorphasing.addDataValue("toughness", "6");
+
+var colorwrought = Color.fromHex("636666") as Color;
+var wrought = MaterialSystem.getMaterialBuilder().setName("Wrought Plate").setColor(colorwrought).build();
+wrought.registerParts(["nugget"] as string[]);
+var armorwrought = wrought.registerPart("armor").getData();
+armorwrought.addDataValue("durability", "3000");
+armorwrought.addDataValue("enchantability", "99");
+armorwrought.addDataValue("reduction", "5,6,8,5");
+armorwrought.addDataValue("toughness", "5");
+
+var colorchampion = Color.fromHex("ff9747") as Color;
+var championtoken = MaterialSystem.getMaterialBuilder().setName("Champion Token").setColor(colorchampion).build();
+championtoken.registerParts(["nugget"] as string[]);
+var armorchampiontoken = championtoken.registerPart("armor").getData();
+armorchampiontoken.addDataValue("durability", "3000");
+armorchampiontoken.addDataValue("enchantability", "99");
+armorchampiontoken.addDataValue("reduction", "6,9,12,7");
+armorchampiontoken.addDataValue("toughness", "7");
+
+var coloreliteeden = Color.fromHex("ffe9a6") as Color;
+var eliteeden = MaterialSystem.getMaterialBuilder().setName("Elite Eden").setColor(coloreliteeden).build();
+eliteeden.registerParts(["nugget"] as string[]);
+var armoreliteeden = eliteeden.registerPart("armor").getData();
+armoreliteeden.addDataValue("durability", "5100");
+armoreliteeden.addDataValue("enchantability", "99");
+armoreliteeden.addDataValue("reduction", "8,14,18,7");
+armoreliteeden.addDataValue("toughness", "15");
+
+var colorelitewildwood = Color.fromHex("96e7ff") as Color;
+var elitewildwood = MaterialSystem.getMaterialBuilder().setName("Elite Wildwood").setColor(colorelitewildwood).build();
+elitewildwood.registerParts(["nugget"] as string[]);
+var armorelitewildwood = elitewildwood.registerPart("armor").getData();
+armorelitewildwood.addDataValue("durability", "3900");
+armorelitewildwood.addDataValue("enchantability", "99");
+armorelitewildwood.addDataValue("reduction", "10,16,20,9");
+armorelitewildwood.addDataValue("toughness", "20");
+
+var coloreliteapalachia = Color.fromHex("f39cff") as Color;
+var eliteapalachia = MaterialSystem.getMaterialBuilder().setName("Elite Apalachia").setColor(coloreliteapalachia).build();
+eliteapalachia.registerParts(["nugget"] as string[]);
+var armoreliteapalachia = eliteapalachia.registerPart("armor").getData();
+armoreliteapalachia.addDataValue("durability", "6900");
+armoreliteapalachia.addDataValue("enchantability", "99");
+armoreliteapalachia.addDataValue("reduction", "12,18,22,11");
+armoreliteapalachia.addDataValue("toughness", "25");
+
+var coloreliteskythern = Color.fromHex("ffffff") as Color;
+var eliteskythern = MaterialSystem.getMaterialBuilder().setName("Elite Skythern").setColor(coloreliteskythern).build();
+eliteskythern.registerParts(["nugget"] as string[]);
+var armoreliteskythern = eliteskythern.registerPart("armor").getData();
+armoreliteskythern.addDataValue("durability", "55555");
+armoreliteskythern.addDataValue("enchantability", "99");
+armoreliteskythern.addDataValue("reduction", "16,20,26,18");
+armoreliteskythern.addDataValue("toughness", "25");
+
+var colorelitemortum = Color.fromHex("967e7e") as Color;
+var elitemortum = MaterialSystem.getMaterialBuilder().setName("Elite Mortum").setColor(colorelitemortum).build();
+elitemortum.registerParts(["nugget"] as string[]);
+var armorelitemortum = elitemortum.registerPart("armor").getData();
+armorelitemortum.addDataValue("durability", "66666");
+armorelitemortum.addDataValue("enchantability", "99");
+armorelitemortum.addDataValue("reduction", "16,20,26,18");
+armorelitemortum.addDataValue("toughness", "35");
+
+var colorabysstoken = Color.fromHex("2e3033") as Color;
+var abysstoken = MaterialSystem.getMaterialBuilder().setName("Abyss Token").setColor(colorabysstoken).build();
+abysstoken.registerParts(["nugget"] as string[]);
+var armorabysstoken = abysstoken.registerPart("armor").getData();
+armorabysstoken.addDataValue("durability", "2000");
+armorabysstoken.addDataValue("enchantability", "99");
+armorabysstoken.addDataValue("reduction", "2,5,6,2");
+armorabysstoken.addDataValue("toughness", "1");
+
+var colorbarontoken = Color.fromHex("7a3d56") as Color;
+var barontoken = MaterialSystem.getMaterialBuilder().setName("Baron Token").setColor(colorbarontoken).build();
+barontoken.registerParts(["nugget"] as string[]);
+var armorbarontoken = barontoken.registerPart("armor").getData();
+armorbarontoken.addDataValue("durability", "2000");
+armorbarontoken.addDataValue("enchantability", "99");
+armorbarontoken.addDataValue("reduction", "2,5,6,2");
+armorbarontoken.addDataValue("toughness", "1");
+
+var colorboreantoken = Color.fromHex("763d99") as Color;
+var boreantoken = MaterialSystem.getMaterialBuilder().setName("Borean Token").setColor(colorboreantoken).build();
+boreantoken.registerParts(["nugget"] as string[]);
+var armorboreantoken = boreantoken.registerPart("armor").getData();
+armorboreantoken.addDataValue("durability", "2000");
+armorboreantoken.addDataValue("enchantability", "99");
+armorboreantoken.addDataValue("reduction", "2,5,6,2");
+armorboreantoken.addDataValue("toughness", "3");
+
+var colorcandylandtoken = Color.fromHex("21f8ff") as Color;
+var candylandtoken = MaterialSystem.getMaterialBuilder().setName("Candyland Token").setColor(colorcandylandtoken).build();
+candylandtoken.registerParts(["nugget"] as string[]);
+var armorcandylandtoken = candylandtoken.registerPart("armor").getData();
+armorcandylandtoken.addDataValue("durability", "2000");
+armorcandylandtoken.addDataValue("enchantability", "99");
+armorcandylandtoken.addDataValue("reduction", "2,5,6,2");
+armorcandylandtoken.addDataValue("toughness", "2");
+
+var colorcelevetoken = Color.fromHex("872d96") as Color;
+var celevetoken = MaterialSystem.getMaterialBuilder().setName("Celeve Token").setColor(colorcelevetoken).build();
+celevetoken.registerParts(["nugget"] as string[]);
+var armorcelevetoken = celevetoken.registerPart("armor").getData();
+armorcelevetoken.addDataValue("durability", "2000");
+armorcelevetoken.addDataValue("enchantability", "99");
+armorcelevetoken.addDataValue("reduction", "2,5,6,2");
+armorcelevetoken.addDataValue("toughness", "2");
+
+var colorcreeponiatoken = Color.fromHex("148f14") as Color;
+var creeponiatoken = MaterialSystem.getMaterialBuilder().setName("Creeponia Token").setColor(colorcreeponiatoken).build();
+creeponiatoken.registerParts(["nugget"] as string[]);
+var armorcreeponiatoken = creeponiatoken.registerPart("armor").getData();
+armorcreeponiatoken.addDataValue("durability", "2000");
+armorcreeponiatoken.addDataValue("enchantability", "99");
+armorcreeponiatoken.addDataValue("reduction", "2,5,6,2");
+armorcreeponiatoken.addDataValue("toughness", "1");
+
+var colorcrysteviatoken = Color.fromHex("3f0257") as Color;
+var crysteviatoken = MaterialSystem.getMaterialBuilder().setName("Crystevia Token").setColor(colorcrysteviatoken).build();
+crysteviatoken.registerParts(["nugget"] as string[]);
+var armorcrysteviatoken = crysteviatoken.registerPart("armor").getData();
+armorcrysteviatoken.addDataValue("durability", "2000");
+armorcrysteviatoken.addDataValue("enchantability", "99");
+armorcrysteviatoken.addDataValue("reduction", "2,5,6,2");
+armorcrysteviatoken.addDataValue("toughness", "2");
+
+var colordeeplandstoken = Color.fromHex("5c5c5c") as Color;
+var deeplandstoken = MaterialSystem.getMaterialBuilder().setName("Deeplands Token").setColor(colordeeplandstoken).build();
+deeplandstoken.registerParts(["nugget"] as string[]);
+var armordeeplandstoken = deeplandstoken.registerPart("armor").getData();
+armordeeplandstoken.addDataValue("durability", "2000");
+armordeeplandstoken.addDataValue("enchantability", "99");
+armordeeplandstoken.addDataValue("reduction", "2,5,6,2");
+armordeeplandstoken.addDataValue("toughness", "1");
+
+var colordustopiatoken = Color.fromHex("1f1f1f") as Color;
+var dustopiatoken = MaterialSystem.getMaterialBuilder().setName("Dustopia Token").setColor(colordustopiatoken).build();
+dustopiatoken.registerParts(["nugget"] as string[]);
+var armordustopiatoken = dustopiatoken.registerPart("armor").getData();
+armordustopiatoken.addDataValue("durability", "2000");
+armordustopiatoken.addDataValue("enchantability", "99");
+armordustopiatoken.addDataValue("reduction", "2,5,6,2");
+armordustopiatoken.addDataValue("toughness", "4");
+
+var colorgardenciatoken = Color.fromHex("2d7536") as Color;
+var gardenciatoken = MaterialSystem.getMaterialBuilder().setName("Gardencia Token").setColor(colorgardenciatoken).build();
+gardenciatoken.registerParts(["nugget"] as string[]);
+var armorgardenciatoken = gardenciatoken.registerPart("armor").getData();
+armorgardenciatoken.addDataValue("durability", "2000");
+armorgardenciatoken.addDataValue("enchantability", "99");
+armorgardenciatoken.addDataValue("reduction", "2,5,6,2");
+armorgardenciatoken.addDataValue("toughness", "2");
+
+var colorgreckontoken = Color.fromHex("4e0057") as Color;
+var greckontoken = MaterialSystem.getMaterialBuilder().setName("Greckon Token").setColor(colorgreckontoken).build();
+greckontoken.registerParts(["nugget"] as string[]);
+var armorgreckontoken = greckontoken.registerPart("armor").getData();
+armorgreckontoken.addDataValue("durability", "2000");
+armorgreckontoken.addDataValue("enchantability", "99");
+armorgreckontoken.addDataValue("reduction", "2,5,6,2");
+armorgreckontoken.addDataValue("toughness", "4");
+
+var colorhaventoken = Color.fromHex("00ffa2") as Color;
+var haventoken = MaterialSystem.getMaterialBuilder().setName("Haven Token").setColor(colorhaventoken).build();
+haventoken.registerParts(["nugget"] as string[]);
+var armorhaventoken = haventoken.registerPart("armor").getData();
+armorhaventoken.addDataValue("durability", "2000");
+armorhaventoken.addDataValue("enchantability", "99");
+armorhaventoken.addDataValue("reduction", "2,5,6,2");
+armorhaventoken.addDataValue("toughness", "2");
+
+var colorirominetoken = Color.fromHex("787000") as Color;
+var irominetoken = MaterialSystem.getMaterialBuilder().setName("Iromine Token").setColor(colorirominetoken).build();
+irominetoken.registerParts(["nugget"] as string[]);
+var armorirominetoken = irominetoken.registerPart("armor").getData();
+armorirominetoken.addDataValue("durability", "2000");
+armorirominetoken.addDataValue("enchantability", "99");
+armorirominetoken.addDataValue("reduction", "2,5,6,2");
+armorirominetoken.addDataValue("toughness", "2");
+
+var colorlelyetiatoken = Color.fromHex("a1740b") as Color;
+var lelyetiatoken = MaterialSystem.getMaterialBuilder().setName("Lelyetia Token").setColor(colorlelyetiatoken).build();
+lelyetiatoken.registerParts(["nugget"] as string[]);
+var armorlelyetiatoken = lelyetiatoken.registerPart("armor").getData();
+armorlelyetiatoken.addDataValue("durability", "2000");
+armorlelyetiatoken.addDataValue("enchantability", "99");
+armorlelyetiatoken.addDataValue("reduction", "2,5,6,2");
+armorlelyetiatoken.addDataValue("toughness", "1");
+
+var colorlunartoken = Color.fromHex("b500a9") as Color;
+var lunartoken = MaterialSystem.getMaterialBuilder().setName("Lunar Token").setColor(colorlunartoken).build();
+lunartoken.registerParts(["nugget"] as string[]);
+var armorlunartoken = lunartoken.registerPart("armor").getData();
+armorlunartoken.addDataValue("durability", "2000");
+armorlunartoken.addDataValue("enchantability", "99");
+armorlunartoken.addDataValue("reduction", "2,5,6,2");
+armorlunartoken.addDataValue("toughness", "3");
+
+var colormysteriumtoken = Color.fromHex("005387") as Color;
+var mysteriumtoken = MaterialSystem.getMaterialBuilder().setName("Mysterium Token").setColor(colormysteriumtoken).build();
+mysteriumtoken.registerParts(["nugget"] as string[]);
+var armormysteriumtoken = mysteriumtoken.registerPart("armor").getData();
+armormysteriumtoken.addDataValue("durability", "2000");
+armormysteriumtoken.addDataValue("enchantability", "99");
+armormysteriumtoken.addDataValue("reduction", "2,5,6,2");
+armormysteriumtoken.addDataValue("toughness", "2");
+
+var colornethertoken = Color.fromHex("bd204a") as Color;
+var nethertoken = MaterialSystem.getMaterialBuilder().setName("Nether Token").setColor(colornethertoken).build();
+nethertoken.registerParts(["nugget"] as string[]);
+var armornethertoken = nethertoken.registerPart("armor").getData();
+armornethertoken.addDataValue("durability", "2000");
+armornethertoken.addDataValue("enchantability", "99");
+armornethertoken.addDataValue("reduction", "2,5,6,2");
+armornethertoken.addDataValue("toughness", "1");
+
+var colorprecasiatoken = Color.fromHex("7fc227") as Color;
+var precasiatoken = MaterialSystem.getMaterialBuilder().setName("Precasia Token").setColor(colorprecasiatoken).build();
+precasiatoken.registerParts(["nugget"] as string[]);
+var armorprecasiatoken = precasiatoken.registerPart("armor").getData();
+armorprecasiatoken.addDataValue("durability", "2000");
+armorprecasiatoken.addDataValue("enchantability", "99");
+armorprecasiatoken.addDataValue("reduction", "2,5,6,2");
+armorprecasiatoken.addDataValue("toughness", "1");
+
+var colorrunandortoken = Color.fromHex("5db7c9") as Color;
+var runandortoken = MaterialSystem.getMaterialBuilder().setName("Runandor Token").setColor(colorrunandortoken).build();
+runandortoken.registerParts(["nugget"] as string[]);
+var armorrunandortoken = runandortoken.registerPart("armor").getData();
+armorrunandortoken.addDataValue("durability", "2000");
+armorrunandortoken.addDataValue("enchantability", "99");
+armorrunandortoken.addDataValue("reduction", "2,5,6,2");
+armorrunandortoken.addDataValue("toughness", "3");
+
+var colorshyrelandstoken = Color.fromHex("9c9e65") as Color;
+var shyrelandstoken = MaterialSystem.getMaterialBuilder().setName("Shyrelands Token").setColor(colorshyrelandstoken).build();
+shyrelandstoken.registerParts(["nugget"] as string[]);
+var armorshyrelandstoken = shyrelandstoken.registerPart("armor").getData();
+armorshyrelandstoken.addDataValue("durability", "2000");
+armorshyrelandstoken.addDataValue("enchantability", "99");
+armorshyrelandstoken.addDataValue("reduction", "2,5,6,2");
+armorshyrelandstoken.addDataValue("toughness", "5");
+
+var colorvoxpondstoken = Color.fromHex("699438") as Color;
+var voxpondstoken = MaterialSystem.getMaterialBuilder().setName("Vox Ponds Token").setColor(colorvoxpondstoken).build();
+voxpondstoken.registerParts(["nugget"] as string[]);
+var armorvoxpondstoken = voxpondstoken.registerPart("armor").getData();
+armorvoxpondstoken.addDataValue("durability", "2000");
+armorvoxpondstoken.addDataValue("enchantability", "99");
+armorvoxpondstoken.addDataValue("reduction", "2,5,6,2");
+armorvoxpondstoken.addDataValue("toughness", "5");
+
+var colorsentientmeatball = Color.fromHex("a80041") as Color;
+var sentientmeatball = MaterialSystem.getMaterialBuilder().setName("Sentient Meatball").setColor(colorsentientmeatball).build();
+sentientmeatball.registerParts(["nugget"] as string[]);
+var armorsentientmeatball = sentientmeatball.registerPart("armor").getData();
+armorsentientmeatball.addDataValue("durability", "1000");
+armorsentientmeatball.addDataValue("enchantability", "99");
+armorsentientmeatball.addDataValue("reduction", "2,6,8,3");
+armorsentientmeatball.addDataValue("toughness", "5");
+
+var colorgrevedust = Color.fromHex("0d3785") as Color;
+var gravedust = MaterialSystem.getMaterialBuilder().setName("Grave Dust").setColor(colorgrevedust).build();
+gravedust.registerParts(["nugget"] as string[]);
+var armorgravedust = gravedust.registerPart("armor").getData();
+armorgravedust.addDataValue("durability", "99999999");
+armorgravedust.addDataValue("enchantability", "99");
+armorgravedust.addDataValue("reduction", "2,5,6,2");
+armorgravedust.addDataValue("toughness", "1");
+
+

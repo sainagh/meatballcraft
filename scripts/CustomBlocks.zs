@@ -1307,5 +1307,61 @@ psiore.setToolClass("pickaxe");
 psiore.setToolLevel(3);
 psiore.register();
 
+var empoweredmazestoen = VanillaFactory.createBlock("empowered_mazestone", <blockmaterial:iron>);
+empoweredmazestoen.setBlockHardness(1.0);
+empoweredmazestoen.setBlockResistance(2.5);
+empoweredmazestoen.setToolClass("pickaxe");
+empoweredmazestoen.setToolLevel(3);
+empoweredmazestoen.register();
+
+var crazedmarble = VanillaFactory.createBlock("crazed_marble", <blockmaterial:iron>);
+crazedmarble.setBlockHardness(1.0);
+crazedmarble.setBlockResistance(2.5);
+crazedmarble.setToolClass("pickaxe");
+crazedmarble.setToolLevel(3);
+crazedmarble.register();
+
+var darkstarcatalyst = VanillaFactory.createBlock("darkstar_catalyst", <blockmaterial:iron>);
+darkstarcatalyst.setBlockHardness(1.0);
+darkstarcatalyst.setBlockResistance(2.5);
+darkstarcatalyst.setToolClass("pickaxe");
+darkstarcatalyst.setToolLevel(3);
+darkstarcatalyst.register();
+
+var abyssalflesh = VanillaFactory.createBlock("abyssal_flesh", <blockmaterial:iron>);
+abyssalflesh.setBlockHardness(1.0);
+abyssalflesh.setBlockResistance(2.5);
+abyssalflesh.setToolClass("pickaxe");
+abyssalflesh.setToolLevel(3);
+abyssalflesh.register();
+
+var activecryotheum = VanillaFactory.createBlock("active_cryotheum_cooler", <blockmaterial:iron>);
+activecryotheum.setBlockHardness(1.0);
+activecryotheum.setBlockResistance(2.5);
+activecryotheum.setToolClass("pickaxe");
+activecryotheum.setToolLevel(3);
+activecryotheum.register();
+
+var saltexchangervessel = VanillaFactory.createBlock("salt_exchanger_vessel", <blockmaterial:iron>);
+saltexchangervessel.setBlockHardness(1.0);
+saltexchangervessel.setBlockResistance(2.5);
+saltexchangervessel.setToolClass("pickaxe");
+saltexchangervessel.setToolLevel(3);
+saltexchangervessel.register();
+
+var fuelexchangervessel = VanillaFactory.createBlock("fuel_exchanger_vessel", <blockmaterial:iron>);
+fuelexchangervessel.setBlockHardness(1.0);
+fuelexchangervessel.setBlockResistance(2.5);
+fuelexchangervessel.setToolClass("pickaxe");
+fuelexchangervessel.setToolLevel(3);
+fuelexchangervessel.register();
+
+var heatsinkvessel = VanillaFactory.createBlock("heat_sink_vessel", <blockmaterial:iron>);
+heatsinkvessel.setBlockHardness(1.0);
+heatsinkvessel.setBlockResistance(2.5);
+heatsinkvessel.setToolClass("pickaxe");
+heatsinkvessel.setToolLevel(3);
+heatsinkvessel.register();
+
 
 

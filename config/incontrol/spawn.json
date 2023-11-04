@@ -1351,6 +1351,35 @@
   {
       "mob": ["mod_lavacow:raven",
           "abyssalcraft:depthsghoul"],
+      "dimension": 0,
+      "onjoin": true,
+      "result": "deny"
+  },
+  {
+    "mob": ["mod_lavacow:raven",
+        "abyssalcraft:depthsghoul"],
+    "dimension": 50,
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": ["mod_lavacow:raven",
+        "abyssalcraft:depthsghoul"],
+    "dimension": 51,
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": ["mod_lavacow:raven",
+        "abyssalcraft:depthsghoul"],
+    "dimension": 52,
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+      "mob": ["aether_legacy:aerwhale"],
+      "dimension": 4,
+      "onjoin": true,
       "result": "deny"
   },
 
@@ -1361,11 +1390,11 @@
       "mob": "forestry:butterflyge",
       "perplayer": true
     },
+    "onjoin": true,
     "result": "deny"
   },
 
   {
-    "dimension": 181,
     "mob": [
         "aoa3:sea_spider",
         "divinerpg:hell_spider",
@@ -1373,11 +1402,13 @@
         "divinerpg:jungle_spider",
         "divinerpg:ender_spider"
     ],
+    "dimension": 181,
     "mincount": {
       "amount": 35,
       "hostile": true,
       "perplayer": true
     },
+    "onjoin": true,
     "result": "deny"
   }
 

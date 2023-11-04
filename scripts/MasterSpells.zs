@@ -40,7 +40,7 @@ var masterspellsol = VanillaFactory.createItem("master_spell_sol");
 masterspellsol.maxStackSize = 1;
 masterspellsol.glowing = true;
 masterspellsol.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("time set day", player, world, true, true);
+	Commands.call("time add 24000", player, world, true, true);
 	return "Pass";
 };
 masterspellsol.register();
@@ -49,7 +49,7 @@ var masterspellluna = VanillaFactory.createItem("master_spell_luna");
 masterspellluna.maxStackSize = 1;
 masterspellluna.glowing = true;
 masterspellluna.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("time set night", player, world, true, true);
+	Commands.call("time add 6000", player, world, true, true);
 	return "Pass";
 };
 masterspellluna.register();

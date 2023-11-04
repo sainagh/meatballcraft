@@ -1,6 +1,9 @@
 import mods.modularmachinery.RecipeBuilder;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
+import mods.thaumcraft.Infusion;
+import mods.astralsorcery.Utils;
+
 
 val enclistTidal as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:aoa3:sever>, <enchantment:minecraft:mending>, <enchantment:minecraft:sweeping>];
 var mapTidal as IData = {};
@@ -79,7 +82,7 @@ mapAbyss += mapAbyssOther;
 
 val enchlistKikoku as IEnchantmentDefinition[] = [<enchantment:cofhcore:vorpal>];
 var mapKikoku as IData = {};
-mapKikoku += enchlistKikoku[0].makeEnchantment(6).makeTag();
+mapKikoku += enchlistKikoku[0].makeEnchantment(16).makeTag();
 var mapKikokuOther as IData = {
 	RepairCost: 1,
 	display: {Name: "K-Room"}
@@ -97,6 +100,17 @@ var mapBayonetteOther as IData = {
 	display: {Name: "Gun Devil Tribute"}
 };
 mapBayonette += mapBayonetteOther;
+
+val enchlistChilli as IEnchantmentDefinition[] = [<enchantment:minecraft:mending>, <enchantment:aoa3:shell>, <enchantment:aoa3:control>];
+var mapChilly as IData = {};
+mapChilly += enchlistChilli[0].makeEnchantment(3).makeTag();
+mapChilly += enchlistChilli[1].makeEnchantment(125).makeTag();
+mapChilly += enchlistChilli[2].makeEnchantment(3).makeTag();
+var mapChillyOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Spicy Air Gun"}
+};
+mapChilly += mapChillyOther;
 
 val enchlistPoisonSpear as IEnchantmentDefinition[] = [<enchantment:cyclicmagic:enchantment.venom>, <enchantment:minecraft:sharpness>];
 var mapPoisonSpear as IData = {};
@@ -142,6 +156,29 @@ var mapSpeedyBowOther as IData = {
 	display: {Name: "Eurobeat Bow"}
 };
 mapSpeedyBow += mapSpeedyBowOther;
+
+val enclistStellar as IEnchantmentDefinition[] = [
+    <enchantment:ebwizardry:shock_protection>, 
+    <enchantment:minecraft:protection>,
+    <enchantment:minecraft:projectile_protection>,
+    <enchantment:ebwizardry:magic_protection>,
+    <enchantment:ebwizardry:frost_protection>,
+    <enchantment:minecraft:fire_protection>,
+    <enchantment:minecraft:blast_protection>,
+    <enchantment:minecraft:unbreaking>,
+    <enchantment:openblocks:last_stand>,
+    <enchantment:minecraft:mending>];
+var mapStellar as IData = {};
+mapStellar += enclistStellar[0].makeEnchantment(16).makeTag();
+mapStellar += enclistStellar[1].makeEnchantment(16).makeTag();
+mapStellar += enclistStellar[2].makeEnchantment(16).makeTag();
+mapStellar += enclistStellar[3].makeEnchantment(16).makeTag();
+mapStellar += enclistStellar[4].makeEnchantment(16).makeTag();
+mapStellar += enclistStellar[5].makeEnchantment(16).makeTag();
+mapStellar += enclistStellar[6].makeEnchantment(16).makeTag();
+mapStellar += enclistStellar[7].makeEnchantment(16).makeTag();
+mapStellar += enclistStellar[8].makeEnchantment(2).makeTag();
+mapStellar += enclistStellar[9].makeEnchantment(1).makeTag();
 
 
 
@@ -400,3 +437,87 @@ recipes.addShaped(<aoa3:skeletal_sword>.withTag({ench: [{lvl: 20 as short, id: 2
 [[<tconstruct:sword_blade>.withTag({Material: "desert_myrmex"}), <contenttweaker:living_myrmitite_ingot>, <tconstruct:sword_blade>.withTag({Material: "jungle_myrmex"})],
 [<tconstruct:sword_blade>.withTag({Material: "desert_myrmex"}), <aoa3:skeletal_sword>, <tconstruct:sword_blade>.withTag({Material: "jungle_myrmex"})],
 [<tconstruct:sword_blade>.withTag({Material: "desert_myrmex"}), <materialpart:myrmitite:rod>, <tconstruct:sword_blade>.withTag({Material: "jungle_myrmex"})]]);
+
+
+recipes.addHiddenShapeless("stellararmorhidden", <contenttweaker:spatial_phaser>,
+[<contenttweaker:inert_spatial_phaser>,
+<divinerpg:diamond_bricks>,
+<divinerpg:aquatonic_bricks>,
+<divinerpg:green_bricks>,
+<divinerpg:iron_bricks>]);
+
+val attunecrystal = Utils.getCrystalORIngredient(true, true); 
+
+mods.thaumcraft.Infusion.registerRecipe("superstellarhelm", "", 
+<enderio:item_stellar_alloy_helmet>.withTag(mapStellar), 20, 
+[<aspect:stellae>*600, <aspect:permutatio>*100], 
+<enderio:item_stellar_alloy_helmet>, 
+[<contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>,
+<contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>,
+attunecrystal, attunecrystal,
+attunecrystal, attunecrystal]);
+
+mods.thaumcraft.Infusion.registerRecipe("superstellarchest", "", 
+<enderio:item_stellar_alloy_chestplate>.withTag(mapStellar), 20, 
+[<aspect:stellae>*600, <aspect:permutatio>*100], 
+<enderio:item_stellar_alloy_chestplate>, 
+[<contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>,
+<contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>,
+attunecrystal, attunecrystal,
+attunecrystal, attunecrystal]);
+
+mods.thaumcraft.Infusion.registerRecipe("superstellarlegs", "", 
+<enderio:item_stellar_alloy_leggings>.withTag(mapStellar), 20, 
+[<aspect:stellae>*600, <aspect:permutatio>*100], 
+<enderio:item_stellar_alloy_leggings>, 
+[<contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>,
+<contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>,
+attunecrystal, attunecrystal,
+attunecrystal, attunecrystal]);
+
+mods.thaumcraft.Infusion.registerRecipe("superstellarboots", "", 
+<enderio:item_stellar_alloy_boots>.withTag(mapStellar), 20, 
+[<aspect:stellae>*600, <aspect:permutatio>*100], 
+<enderio:item_stellar_alloy_boots>, 
+[<contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>,
+<contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>,
+attunecrystal, attunecrystal,
+attunecrystal, attunecrystal]);
+
+
+recipes.addShaped(<contenttweaker:wrought_iron_plate>,
+[[<contenttweaker:wrought_iron_shard>, <aoa3:charged_runium_chunk>, <contenttweaker:wrought_iron_shard>],
+[<aoa3:charged_runium_chunk>, <projecte:item.pe_rm_hammer>.reuse(), <aoa3:charged_runium_chunk>],
+[<contenttweaker:wrought_iron_shard>, <aoa3:charged_runium_chunk>, <contenttweaker:wrought_iron_shard>]]);
+
+recipes.addHiddenShaped("deeplandspuzzlestone",<contenttweaker:deep_metamorphic_rock>,
+[[<twilightforest:deadrock:1>, <aoa3:haven_stone>, <aoa3:lelyetia_stone>],
+[<aether_legacy:mossy_holystone>, <aoa3:deeplands_stone>, <aoa3:unstable_stone>],
+[<botania:biomestonea:14>, <abyssalcraft:cobblestone:2>, <divinerpg:twilight_stone>]]);
+
+recipes.addShaped(<contenttweaker:wrought_summoner>,
+[[<draconicevolution:awakened_core>, <contenttweaker:wrought_iron_plate>, <draconicevolution:awakened_core>],
+[<contenttweaker:wrought_iron_plate>, <contenttweaker:deep_metamorphic_rock>, <contenttweaker:wrought_iron_plate>],
+[<draconicevolution:awakened_core>, <contenttweaker:wrought_iron_plate>, <draconicevolution:awakened_core>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<mowziesmobs:wrought_axe>.withTag({ench: [{lvl: 77 as short, id: 16 as short}, {lvl: 3 as short, id: 34 as short}, {lvl: 2 as short, id: 19 as short}], RepairCost: 1, display: {Name: "Walking Axe"}}), 
+[[<contenttweaker:wrought_iron_plate>, null, null, <forestry:planks.1:11>, null, null, <contenttweaker:wrought_iron_plate>], 
+[null, <ore:ingotStellarAlloy>, <divinerpg:corrupted_stone>, <divinerpg:arlemite_shickaxe>, <divinerpg:corrupted_stone>, <ore:ingotStellarAlloy>, null], 
+[null, <divinerpg:corrupted_stone>, <ebwizardry:astral_diamond>, <enderutilities:enderpart:12>, <ebwizardry:astral_diamond>, <divinerpg:corrupted_stone>, null], 
+[<forestry:planks.1:11>, <divinerpg:arlemite_shickaxe>, <enderutilities:enderpart:12>, <mowziesmobs:wrought_axe>, <enderutilities:enderpart:12>, <divinerpg:arlemite_shickaxe>, <forestry:planks.1:11>], 
+[null, <divinerpg:corrupted_stone>, <ebwizardry:astral_diamond>, <enderutilities:enderpart:12>, <ebwizardry:astral_diamond>, <divinerpg:corrupted_stone>, null], 
+[null, <ore:ingotStellarAlloy>, <divinerpg:corrupted_stone>, <divinerpg:arlemite_shickaxe>, <divinerpg:corrupted_stone>, <ore:ingotStellarAlloy>, null], 
+[<contenttweaker:wrought_iron_plate>, null, null, <forestry:planks.1:11>, null, null, <contenttweaker:wrought_iron_plate>]]);  
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:wrought_iron_shard>, <contenttweaker:nethersky_steel_ingot>, <contenttweaker:wrought_iron_shard>*2]);
+
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:wrought_iron_shard>, <contenttweaker:nethersky_steel_ingot>, <contenttweaker:wrought_iron_shard>*2, 2000);
+
+mods.extendedcrafting.TableCrafting.addShaped(<aoa3:chilli_chugger>.withTag(mapChilly), 
+[[<aoa3:chilli>, null, null, null, null, null, <aoa3:chilli>], 
+[null, <ore:ingotStellarAlloy>, <divinerpg:terran_stone>, <contenttweaker:vibrating_stone>, <divinerpg:terran_stone>, <ore:ingotStellarAlloy>, null], 
+[null, <divinerpg:terran_stone>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <divinerpg:terran_stone>, null], 
+[null, <contenttweaker:vibrating_stone>, <contenttweaker:gun_devil_piece>, <aoa3:chilli_chugger>, <contenttweaker:gun_devil_piece>, <contenttweaker:vibrating_stone>, null], 
+[null, <divinerpg:terran_stone>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <divinerpg:terran_stone>, null], 
+[null, <ore:ingotStellarAlloy>, <divinerpg:terran_stone>, <contenttweaker:vibrating_stone>, <divinerpg:terran_stone>, <ore:ingotStellarAlloy>, null], 
+[<aoa3:chilli>, null, null, null, null, null, <aoa3:chilli>]]);  

@@ -460,7 +460,7 @@ condensedessence.register();
 
 
 var furrymass = VanillaFactory.createItem("furry_mass");
-furrymass.maxStackSize = 1;
+furrymass.maxStackSize = 16;
 furrymass.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
@@ -483,7 +483,7 @@ furrymass.itemRightClick = function(stack, world, player, hand) {
 furrymass.register();
 
 var bloodlustcoin = VanillaFactory.createItem("bloodlust_coin");
-bloodlustcoin.maxStackSize = 1;
+bloodlustcoin.maxStackSize = 64;
 bloodlustcoin.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
@@ -504,7 +504,7 @@ bloodlustcoin.itemRightClick = function(stack, world, player, hand) {
 bloodlustcoin.register();
 
 var heartstone = VanillaFactory.createItem("heart_stone");
-heartstone.maxStackSize = 1;
+heartstone.maxStackSize = 64;
 heartstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
@@ -521,7 +521,7 @@ heartstone.itemRightClick = function(stack, world, player, hand) {
 heartstone.register();
 
 var butterflyegg = VanillaFactory.createItem("butterfly_bloom");
-butterflyegg.maxStackSize = 1;
+butterflyegg.maxStackSize = 16;
 butterflyegg.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";

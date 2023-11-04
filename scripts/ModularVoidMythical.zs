@@ -1164,7 +1164,7 @@ mythassvoxponds.addItemInput(<contenttweaker:recursion_fragment_vox>);
 mythassvoxponds.addItemOutput(<contenttweaker:vox_ponds_garnet>*64);
 mythassvoxponds.build();
 
-mods.nuclearcraft.salt_fission.addRecipe([<fluid:polonium>*144, <fluid:californium_250>*1000, 800.0, 200.0, 3.0]);
+mods.nuclearcraft.salt_fission.addRecipe([<fluid:polonium>*144, <fluid:spent_polonium>*1000, 800.0, 200.0, 3.0]);
 
 mods.techreborn.rollingMachine.addShaped(<contenttweaker:arc_coil>, 
 [[<materialpart:palladium:ingot>,null,<materialpart:palladium:ingot>],
@@ -1927,46 +1927,46 @@ aoatokenOreDict.add(<aoa3:runandor_tokens>);
 aoatokenOreDict.add(<aoa3:shyrelands_tokens>);
 aoatokenOreDict.add(<aoa3:vox_ponds_tokens>);
 
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:vox_ponds_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:runandor_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:precasian_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:nether_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:mysterium_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:lunar_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:lelyetia_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:abyss_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:baron_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:borean_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:candyland_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:celeve_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:creeponia_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:crystevia_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:deeplands_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:dustopia_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:gardencia_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:greckon_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:haven_tokens>, 180, <extendedcrafting:material:11>, 10000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
-<aoa3:iromine_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:vox_ponds_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:runandor_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:precasian_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:nether_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:mysterium_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:lunar_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:lelyetia_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:abyss_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:baron_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:borean_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:candyland_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:celeve_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:creeponia_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:crystevia_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:deeplands_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:dustopia_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:gardencia_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:greckon_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:haven_tokens>, 180, <extendedcrafting:material:11>, 10000000);
+// mods.extendedcrafting.CompressionCrafting.addRecipe(<aoa3:lotto_banner>, 
+// <aoa3:iromine_tokens>, 180, <extendedcrafting:material:11>, 10000000);
 
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:chaos_pearl>, <materialpart:chaos:ingot>, 100, <extendedcrafting:material:11>, 1000000000,1000000);
 
@@ -2958,42 +2958,52 @@ recipes.addShaped(<contenttweaker:living_myrmitite_ingot>*2,
 [<bloodmagic:component:8>, <contenttweaker:living_myrmitite_ingot>, <bloodmagic:component:8>],
 [null, <bloodmagic:component:8>, null]]);
 
+recipes.addShaped(<contenttweaker:abyssal_flesh>*2,
+[[null, <contenttweaker:living_flesh>, null],
+[<minecraft:splash_potion>.withTag({Potion: "abyssalcraft:dplague_strong"}), <contenttweaker:abyssal_flesh>, <minecraft:splash_potion>.withTag({Potion: "abyssalcraft:dplague_strong"})],
+[null, <contenttweaker:living_flesh>, null]]);
+
+recipes.addShaped(<contenttweaker:flying_gunpowder>*2,
+[[<aoa3:enchanted_gunpowder>, <aoa3:unstable_gunpowder>, <aoa3:enchanted_gunpowder>],
+[<aoa3:unstable_gunpowder>, <contenttweaker:flying_gunpowder>, <aoa3:unstable_gunpowder>],
+[<aoa3:enchanted_gunpowder>, <aoa3:unstable_gunpowder>, <aoa3:enchanted_gunpowder>]]);
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:recursion_prison_key>, 
-[[<contenttweaker:universal_realgar>, <contenttweaker:living_myrmitite_ingot>, null, 
-null, <contenttweaker:nero_core>, null, 
-null, <contenttweaker:living_myrmitite_ingot>, <contenttweaker:universal_realgar>], 
+[[<contenttweaker:universal_realgar>, <contenttweaker:living_myrmitite_ingot>, <contenttweaker:abyssal_flesh>, 
+<contenttweaker:phasing_alloy_plate>, <contenttweaker:nero_core>, <contenttweaker:phasing_alloy_plate>, 
+<contenttweaker:abyssal_flesh>, <contenttweaker:living_myrmitite_ingot>, <contenttweaker:universal_realgar>], 
 
-[<contenttweaker:living_myrmitite_ingot>, null, null, 
-null, <contenttweaker:primordial_recursion>, null, 
-null, null, <contenttweaker:living_myrmitite_ingot>], 
+[<contenttweaker:living_myrmitite_ingot>, <contenttweaker:deep_metamorphic_rock>, null, 
+<contenttweaker:flying_gunpowder>, <contenttweaker:primordial_recursion>, <contenttweaker:flying_gunpowder>, 
+null, <contenttweaker:deep_metamorphic_rock>, <contenttweaker:living_myrmitite_ingot>], 
 
-[<contenttweaker:rosidian_ingot>, null, null, 
+[<contenttweaker:rosidian_ingot>, null, <contenttweaker:wrought_iron_plate>, 
 null, <contenttweaker:sword_shield>, null, 
-null, null, <contenttweaker:rosidian_ingot>], 
+<contenttweaker:wrought_iron_plate>, null, <contenttweaker:rosidian_ingot>], 
 
-[null, null, null, 
+[null, <contenttweaker:barathosynium_ingot>, null, 
 <contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, 
-null, null, null], 
+null, <contenttweaker:barathosynium_ingot>, null], 
 
 [<contenttweaker:akathartos_core>, <contenttweaker:immortal_recursion>, <contenttweaker:sword_shield>, 
 <divinerpg:mortum_heart>, <aoa3:craexxeus_statue>, <divinerpg:mortum_heart>, 
 <contenttweaker:sword_shield>, <contenttweaker:temporal_recursion>, <contenttweaker:pauram_core>], 
 
-[null, null, null, 
+[null, <contenttweaker:barathosynium_ingot>, null, 
 <contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>, 
-null, null, null], 
+null, <contenttweaker:barathosynium_ingot>, null], 
 
-[<contenttweaker:rosidian_ingot>, null, null, 
+[<contenttweaker:rosidian_ingot>, null, <contenttweaker:wrought_iron_plate>, 
 null, <contenttweaker:sword_shield>, null, 
-null, null, <contenttweaker:rosidian_ingot>], 
+<contenttweaker:wrought_iron_plate>, null, <contenttweaker:rosidian_ingot>], 
 
-[<contenttweaker:living_myrmitite_ingot>, null, null, 
-null, <contenttweaker:ancient_recursion>, null, 
-null, null, <contenttweaker:living_myrmitite_ingot>], 
+[<contenttweaker:living_myrmitite_ingot>, <contenttweaker:deep_metamorphic_rock>, null, 
+<contenttweaker:flying_gunpowder>, <contenttweaker:ancient_recursion>, <contenttweaker:flying_gunpowder>, 
+null, <contenttweaker:deep_metamorphic_rock>, <contenttweaker:living_myrmitite_ingot>], 
 
-[<contenttweaker:universal_realgar>, <contenttweaker:living_myrmitite_ingot>, null, 
-null, <contenttweaker:zoi_core>, null, 
-null, <contenttweaker:living_myrmitite_ingot>, <contenttweaker:universal_realgar>]]);  
+[<contenttweaker:universal_realgar>, <contenttweaker:living_myrmitite_ingot>, <contenttweaker:abyssal_flesh>, 
+<contenttweaker:phasing_alloy_plate>, <contenttweaker:zoi_core>, <contenttweaker:phasing_alloy_plate>, 
+<contenttweaker:abyssal_flesh>, <contenttweaker:living_myrmitite_ingot>, <contenttweaker:universal_realgar>]]);  
 
 
 recipes.addShaped(<contenttweaker:sacred_acorn>,

@@ -193,12 +193,12 @@ recipes.addShaped(<modularmachinery:blockfluidoutputhatch:7>,
 [null, null, null]]);
 
 
-recipes.addShaped(<modularmagic:blockaspectproviderinput>,
+recipes.addShaped(<modularmachinery:blockaspectproviderinput>,
 [[<modularmachinery:blockcasing:0>, null, <modularmachinery:blockcasing:0>],
 [<minecraft:hopper>, <thaumcraft:metal_alchemical>, <minecraft:hopper>],
 [<modularmachinery:blockcasing:0>, null, <modularmachinery:blockcasing:0>]]);
 
-recipes.addShaped(<modularmagic:blockaspectprovideroutput>,
+recipes.addShaped(<modularmachinery:blockaspectprovideroutput>,
 [[<modularmachinery:blockcasing:0>, null, <modularmachinery:blockcasing:0>],
 [<minecraft:dropper>, <thaumcraft:metal_alchemical>, <minecraft:dropper>],
 [<modularmachinery:blockcasing:0>, null, <modularmachinery:blockcasing:0>]]);
@@ -234,7 +234,7 @@ recipes.addShaped(<modularmachinery:blockoutputbus:6>,
 [<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:5>, <modularmachinery:itemmodularium>],
 [null, <minecraft:chest>, null]]);
 
-recipes.addShaped(<modularmagic:blockgridproviderinput>,
+recipes.addShaped(<modularmachinery:blockgridproviderinput>,
 [[<modularmachinery:blockcasing:1>, null, <modularmachinery:blockcasing:1>],
 [null, <extrautils2:passivegenerator:6>, null],
 [<modularmachinery:blockcasing:1>, null, <modularmachinery:blockcasing:1>]]);
@@ -418,3 +418,23 @@ recipes.addShapeless(<modularmachinery:blockmefluidoutputbus>,
 [<modularmachinery:blockmefluidinputbus>]);
 recipes.addShapeless(<modularmachinery:blockmefluidinputbus>,
 [<modularmachinery:blockmefluidoutputbus>]);
+
+recipes.addShaped(<modularmachinery:blocklifeessenceproviderinput>,
+[[<modularmachinery:itemmodularium>, <contenttweaker:unstable_fragment_of_unraveling>, <modularmachinery:itemmodularium>],
+[<contenttweaker:unstable_fragment_of_unraveling>, <modularmachinery:blockfluidinputhatch:5>, <contenttweaker:unstable_fragment_of_unraveling>],
+[<modularmachinery:itemmodularium>, <contenttweaker:unstable_fragment_of_unraveling>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachinery:blocklifeessenceprovideroutput>,
+[[<modularmachinery:itemmodularium>, <contenttweaker:unstable_fragment_of_unraveling>, <modularmachinery:itemmodularium>],
+[<contenttweaker:unstable_fragment_of_unraveling>, <modularmachinery:blockfluidoutputhatch:5>, <contenttweaker:unstable_fragment_of_unraveling>],
+[<modularmachinery:itemmodularium>, <contenttweaker:unstable_fragment_of_unraveling>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShapeless(<modularmachinery:blocklifeessenceprovideroutput>,
+[<modularmachinery:blocklifeessenceproviderinput>]);
+recipes.addShapeless(<modularmachinery:blocklifeessenceproviderinput>,
+[<modularmachinery:blocklifeessenceprovideroutput>]);
+
+recipes.addShaped(<modularmachinery:blockrainbowprovider>,
+[[<modularmachinery:itemmodularium>, <extrautils2:decorativesolid:8>, <modularmachinery:itemmodularium>],
+[<extrautils2:decorativesolid:8>, <modularmachinery:blockcasing:1>, <extrautils2:decorativesolid:8>],
+[<modularmachinery:itemmodularium>, <extrautils2:decorativesolid:8>, <modularmachinery:itemmodularium>]]);

@@ -275,3 +275,12 @@ ast29.addItemInput(<astralsorcery:blockinfusedwood:1>*4);
 ast29.addItemInput(<astralsorcery:itemcraftingcomponent:0>);
 ast29.addItemOutput(<astralsorcery:blockinfusedwood:5>*4);
 ast29.build();
+
+val ast30 = RecipeBuilder.newBuilder("ast30","auto_astral_altar",1200);
+ast30.addEnergyPerTickInput(1000);
+ast30.addItemInput(<astralsorcery:blockblackmarble:0>*4);
+ast30.addItemInput(<astralsorcery:blockmarble:6>*8);
+ast30.addItemInput(<astralsorcery:itemcraftingcomponent:3>*4);
+ast30.addItemInput(<astralsorcery:itemcraftingcomponent:4>*9);
+ast30.addItemOutput(<astralsorcery:blockaltar:3>);
+ast30.build();

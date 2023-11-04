@@ -170,6 +170,9 @@ recipes.addShapeless(<modularmachinery:herne_altar_controller>,
 recipes.addShapeless(<modularmachinery:blood_god_altar_controller>, 
 [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_god_altar"}).reuse(), <modularmachinery:blockcontroller>]);
 
+recipes.addShapeless(<modularmachinery:blood_god_altar_network_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_god_altar_network"}).reuse(), <modularmachinery:blockcontroller>]);
+
 recipes.addShapeless(<modularmachinery:dimensional_stabilizer_controller>, 
 [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dimensional_stabilizer"}).reuse(), <modularmachinery:blockcontroller>]);
 
@@ -223,6 +226,9 @@ recipes.addShapeless(<modularmachinery:relativistic_collapser_controller>,
 
 recipes.addShapeless(<modularmachinery:definer_two_controller>, 
 [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:definer_two"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:twelve_gates_of_heaven_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:twelve_gates_of_heaven"}).reuse(), <modularmachinery:blockcontroller>]);
 
 
 
@@ -373,3 +379,9 @@ recipes.addShapeless(<modularmachinery:quark_decomposer_controller>,
 
 recipes.addShapeless(<modularmachinery:enchanted_greenhouse_controller>, 
 [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:enchanted_greenhouse"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:salt_repolarizer_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:salt_repolarizer"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:two_phase_fission_reactor_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:two_phase_fission_reactor"}).reuse(), <modularmachinery:blockcontroller>]);

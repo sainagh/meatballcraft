@@ -1,0 +1,121 @@
+{
+    "name": "compactmachines3:nuclearcraft_fusionelectromagnet",
+    "target-item": "nuclearcraft:fusion_electromagnet_idle",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+
+
+    "input-types": {
+      "a": {
+        "id": "nuclearcraft:water_source_dense",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:water_source_dense",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "thermaldynamics:duct_0",
+        "meta": 5,
+        "item": {
+            "id": "thermaldynamics:duct_0",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "nuclearcraft:active_cooler",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:active_cooler",
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "nuclearcraft:fusion_electromagnet_idle",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:fusion_electromagnet_idle",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "_",
+          "b",
+          "d",
+          "_",
+          "_"
+        ],
+        [
+          "a",
+          "c",
+          "d",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "b",
+          "d",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "d",
+          "_",
+          "d",
+          "_"
+        ],
+        [
+          "_",
+          "d",
+          "_",
+          "d",
+          "_"
+        ],
+        [
+          "_",
+          "d",
+          "_",
+          "d",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "d",
+          "b",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "d",
+          "c",
+          "a"
+        ],
+        [
+          "_",
+          "_",
+          "d",
+          "b",
+          "_"
+        ]
+      ]
+    ]
+        
+}

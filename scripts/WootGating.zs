@@ -22,6 +22,12 @@ recipes.addShaped(<contenttweaker:cursed_organic_matter>,
 mods.techreborn.compressor.addRecipe(<woot:stygianironingot>, <woot:shard:3>, 40, 64);
 
 mods.techreborn.compressor.addRecipe(<woot:stygianironingot>*2, <woot:shard:4>, 40, 64);
+mods.techreborn.compressor.addRecipe(<woot:stygianironingot>*3, <woot:shard:5>, 40, 64);
+mods.techreborn.compressor.addRecipe(<woot:stygianironingot>*4, <woot:shard:6>, 40, 64);
+
+mods.nuclearcraft.pressurizer.addRecipe([<woot:shard:4>, <woot:stygianironingot>*2]);
+mods.nuclearcraft.pressurizer.addRecipe([<woot:shard:5>, <woot:stygianironingot>*3]);
+mods.nuclearcraft.pressurizer.addRecipe([<woot:shard:6>, <woot:stygianironingot>*4]);
 
 recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "divinerpg:whale"}}),
 [[<aoa3:small_skill_crystal>, <divinerpg:aquatic_ingot>, <aoa3:small_skill_crystal>],

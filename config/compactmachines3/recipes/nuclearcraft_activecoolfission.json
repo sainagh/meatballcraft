@@ -1,0 +1,94 @@
+{
+    "name": "compactmachines3:nuclearcraft_activecoolfission",
+    "target-item": "nuclearcraft:active_cooler",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+
+    "input-types": {
+      "a": {
+        "id": "nuclearcraft:fission_block",
+        "meta": 0
+      },
+      "b": {
+        "id": "nuclearcraft:buffer",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:buffer",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "nuclearcraft:cell_block",
+        "meta": 0
+      },
+      "d": {
+        "id": "nuclearcraft:active_cooler",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:active_cooler",
+            "count": 1
+          }
+      }
+    },
+
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "a",
+          "_"
+        ]
+      ],
+      [
+        [
+          "d",
+          "d",
+          "d"
+        ],
+        [
+          "c",
+          "d",
+          "c"
+        ],
+        [
+          "_",
+          "b",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "a",
+          "_"
+        ]
+      ]
+    ]
+       
+}

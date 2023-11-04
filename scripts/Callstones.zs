@@ -33,6 +33,25 @@ creeponiacallstone.itemRightClick = function(stack, world, player, hand) {
 };
 creeponiacallstone.register();
 
+var stormborncallstone = VanillaFactory.createItem("stormborn_callstone");
+stormborncallstone.maxStackSize = 1;
+stormborncallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+    // check if player is in spatial storage
+    if(player.getDimension() != 7) {
+        player.sendChat("Enter the twilight forest");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn stormborn_bee_callstone", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+stormborncallstone.register();
+
 var deeplandscallstone = VanillaFactory.createItem("deeplands_callstone");
 deeplandscallstone.maxStackSize = 1;
 deeplandscallstone.itemRightClick = function(stack, world, player, hand) {
@@ -1787,3 +1806,262 @@ butterflyrepellent.itemRightClick = function(stack, world, player, hand) {
 
 };
 butterflyrepellent.register();
+
+var greenlightcallstone= VanillaFactory.createItem("greenlight_callstone");
+greenlightcallstone.maxStackSize = 1;
+greenlightcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 623) {
+        player.sendChat("You gotta be in the furnace dimension");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn furnacedim_callstone_greenlight", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+greenlightcallstone.register();
+
+
+
+var callfullmoon= VanillaFactory.createItem("call_of_the_full_moon");
+callfullmoon.maxStackSize = 16;
+callfullmoon.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("time set night", player, world, true, true);
+
+    Commands.call("summon aoa3:dark_beast ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:dark_beast ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:dark_beast ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon aoa3:irkling ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:irkling ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:irkling ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon aoa3:night_watcher ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:night_watcher ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:night_watcher ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon aoa3:scrubby ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:scrubby ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:scrubby ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon aoa3:skellox ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:skellox ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:skellox ~ ~3 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+callfullmoon.register();
+
+var callbloodhunt= VanillaFactory.createItem("call_of_the_bloodhunt");
+callbloodhunt.maxStackSize = 16;
+callbloodhunt.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("time set night", player, world, true, true);
+
+    Commands.call("summon aoa3:anemia ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:anemia ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:anemia ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon aoa3:bloodmist ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:bloodmist ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:bloodmist ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon aoa3:linger ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:linger ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:linger ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+callbloodhunt.register();
+
+var marksoulscurry= VanillaFactory.createItem("mark_of_the_soul_scurry");
+marksoulscurry.maxStackSize = 16;
+marksoulscurry.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("time set night", player, world, true, true);
+
+    Commands.call("summon aoa3:ghostly_goblin ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ghostly_goblin ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon aoa3:ghostly_cyclops ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ghostly_cyclops ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon aoa3:ghostly_sasquatch ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ghostly_sasquatch ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon aoa3:ghostly_night_reaper ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ghostly_night_reaper ~ ~3 ~", player, world, true, true);
+    
+    Commands.call("summon aoa3:ghostly_bugeye ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~ ~3 ~", player, world, true, true);
+    
+    Commands.call("summon aoa3:ghostly_charger ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ghostly_charger ~ ~3 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+marksoulscurry.register();
+
+var signalbeacon= VanillaFactory.createItem("signal_beacon");
+signalbeacon.maxStackSize = 16;
+signalbeacon.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("time set night", player, world, true, true);
+
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+signalbeacon.register();
+
+var calldeathgames= VanillaFactory.createItem("call_of_the_death_games");
+calldeathgames.maxStackSize = 16;
+calldeathgames.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("time set day", player, world, true, true);
+
+    Commands.call("summon aoa3:death_hunter ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:death_hunter ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:death_hunter ~ ~3 ~", player, world, true, true);
+    
+    Commands.call("summon aoa3:reaper_twins ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:reaper_twins ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:reaper_twins ~ ~3 ~", player, world, true, true);
+    
+    Commands.call("summon aoa3:headless_destroyer ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:headless_destroyer ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:headless_destroyer ~ ~3 ~", player, world, true, true);
+    
+    Commands.call("summon aoa3:triclops ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:triclops ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:triclops ~ ~3 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+calldeathgames.register();
+
+var creepyexplosive= VanillaFactory.createItem("creepy_explosive");
+creepyexplosive.maxStackSize = 16;
+creepyexplosive.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("time set day", player, world, true, true);
+
+    Commands.call("summon aoa3:host ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:host ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:host ~ ~3 ~", player, world, true, true);
+    
+    Commands.call("summon aoa3:host ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:host ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:host ~ ~3 ~", player, world, true, true);
+    
+    stack.shrink(1);
+    return "PASS";
+
+};
+creepyexplosive.register();
+
+var embiggener= VanillaFactory.createItem("embiggener");
+embiggener.maxStackSize = 16;
+embiggener.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("time set day", player, world, true, true);
+
+    Commands.call("summon aoa3:sand_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:sand_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:sand_giant ~ ~3 ~", player, world, true, true);
+    
+    Commands.call("summon aoa3:stone_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:stone_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:stone_giant ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon aoa3:ice_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ice_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ice_giant ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon aoa3:wood_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:wood_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:wood_giant ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon aoa3:leafy_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:leafy_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:leafy_giant ~ ~3 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+embiggener.register();
+
+var wroughtcallstone= VanillaFactory.createItem("wrought_summoner");
+wroughtcallstone.maxStackSize = 1;
+wroughtcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 807) {
+        player.sendChat("You gotta be in the deeplands");
+        return "FAIL";
+    }
+
+    Commands.call("summon mowziesmobs:ferrous_wroughtnaut ~ ~3 ~ {Attributes:[{Name:generic.maxHealth, Base:200.0},{Name:generic.attackDamage, Base:100.0}],Health:200f}", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+wroughtcallstone.register();
