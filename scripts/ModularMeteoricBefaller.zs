@@ -12,9 +12,9 @@ recipes.addShaped(<contenttweaker:gravitite_stone>,
 [<enderio:item_material:1>, <minecraft:stone>, <enderio:item_material:1>]]);
 
 recipes.addShaped(<contenttweaker:call_of_the_arbiter>,
-[[<contenttweaker:dreadlands_gem>, <bloodarsenal:sigil_divinity>, <contenttweaker:dreadlands_gem>],
-[<bloodarsenal:sigil_divinity>, <contenttweaker:weight_of_the_heart>, <bloodarsenal:sigil_divinity>],
-[<contenttweaker:dreadlands_gem>, <bloodarsenal:sigil_divinity>, <contenttweaker:dreadlands_gem>]]);
+[[<contenttweaker:dreadlands_gem>, <bloodmagic:sigil_suppression>, <contenttweaker:dreadlands_gem>],
+[<bloodmagic:sigil_suppression>, <contenttweaker:weight_of_the_heart>, <bloodmagic:sigil_suppression>],
+[<contenttweaker:dreadlands_gem>, <bloodmagic:sigil_suppression>, <contenttweaker:dreadlands_gem>]]);
 
 val befaller1 = RecipeBuilder.newBuilder("befaller1","meteoric_befaller",1200);
 // befaller1.addAspectInput("stellae",50);

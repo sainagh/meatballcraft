@@ -100,14 +100,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockaspectproviderinput@0"
-            ]
-        },
-        {
             "x": -1,
             "y": 1,
             "z": 2,
@@ -176,7 +168,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "twilightforest:castle_brick@0"
+				"modularmachinery:blockaspectproviderinput@0"
             ]
         },
         {
@@ -184,7 +176,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:generalized_input_fluid"
+                "generalized_output_fluid"
             ]
         },
         {
@@ -288,7 +280,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "generalized_input_fluid"
             ]
         }
     ]}

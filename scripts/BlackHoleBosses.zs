@@ -27,7 +27,7 @@ mods.thaumcraft.Infusion.registerRecipe("makeakathartoscore", "",
 <contenttweaker:akathartos_core>, 80, 
 [<aspect:vitium>*666, <aspect:caeles>*500, <aspect:mythus>*300], 
 <contenttweaker:infinity_fragment>, 
-[<contenttweaker:dense_fearful_honey>, <contenttweaker:dense_fearful_honey>,
+[<contenttweaker:dense_dark_honey>, <contenttweaker:dense_dark_honey>,
 <contenttweaker:naquadah_plate>, <contenttweaker:universal_realgar>,
 <contenttweaker:eden_refined_gem>, <contenttweaker:wildwood_refined_gem>,
 <contenttweaker:apalachia_refined_gem>, <contenttweaker:skythern_refined_gem>]);
