@@ -5175,4 +5175,13 @@ championtoken.maxStackSize = 64;
 championtoken.beaconPayment = false;
 championtoken.register();
 
+var usethissummonitem = VanillaFactory.createItem("use_this_summon_item");
+usethissummonitem.maxStackSize = 64;
+usethissummonitem.beaconPayment = false;
+usethissummonitem.register();
+
+var crimsonichor = VanillaFactory.createItem("crimson_ichor");
+crimsonichor.maxStackSize = 64;
+crimsonichor.beaconPayment = false;
+crimsonichor.register();
 

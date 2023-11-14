@@ -4,7 +4,7 @@
     "enabled": true,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
-    "tier": 1
+    "tier": 4
   },
   {
     "identifier": "cinder",
@@ -46,7 +46,7 @@
     "enabled": true,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
-    "tier": 1
+    "tier": 3
   },
   {
     "identifier": "jailer",
@@ -92,7 +92,7 @@
   },
   {
     "identifier": "shielding",
-    "enabled": true,
+    "enabled": false,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
     "tier": 1

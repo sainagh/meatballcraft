@@ -1349,11 +1349,67 @@
 
 
   {
-      "mob": ["mod_lavacow:raven",
-          "abyssalcraft:depthsghoul"],
+      "mob": ["abyssalcraft:depthsghoul"],
       "dimension": 0,
+      "mincount": {
+        "amount": 15,
+        "mob": ["abyssalcraft:depthsghoul"],
+        "perplayer": true
+      },
       "onjoin": true,
       "result": "deny"
+  },
+  {
+      "mob": ["divinerpg:whale"],
+      "dimension": 0,
+      "mincount": {
+        "amount": 15,
+        "mob": ["divinerpg:whale"],
+        "perplayer": true
+      },
+      "onjoin": true,
+      "result": "deny"
+  },
+  {
+      "mob": ["divinerpg:shark"],
+      "dimension": 0,
+      "mincount": {
+        "amount": 15,
+        "mob": ["divinerpg:shark"],
+        "perplayer": true
+      },
+      "onjoin": true,
+      "result": "deny"
+  },
+  {
+      "mob": ["divinerpg:jack_o_man"],
+      "dimension": 0,
+      "mincount": {
+        "amount": 5,
+        "mob": ["divinerpg:jack_o_man"],
+        "perplayer": true
+      },
+      "onjoin": true,
+      "result": "deny"
+  },
+  {
+      "mob": ["aoa3:realmshifter"],
+      "dimension": 0,
+      "mincount": {
+        "amount": 5,
+        "mob": ["aoa3:realmshifter"],
+        "perplayer": true
+      },
+      "onjoin": true,
+      "result": "deny"
+  },
+
+
+  {
+    "mob": ["mod_lavacow:raven"],
+    "dimension": 0,
+    "onjoin": true,
+    "result": "deny"
   },
   {
     "mob": ["mod_lavacow:raven",

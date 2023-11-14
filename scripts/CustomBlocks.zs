@@ -1363,5 +1363,12 @@ heatsinkvessel.setToolClass("pickaxe");
 heatsinkvessel.setToolLevel(3);
 heatsinkvessel.register();
 
+var ichoriumcatalyst = VanillaFactory.createBlock("ichorium_catalyst", <blockmaterial:iron>);
+ichoriumcatalyst.setBlockHardness(1.0);
+ichoriumcatalyst.setBlockResistance(2.5);
+ichoriumcatalyst.setToolClass("pickaxe");
+ichoriumcatalyst.setToolLevel(3);
+ichoriumcatalyst.register();
+
 
 

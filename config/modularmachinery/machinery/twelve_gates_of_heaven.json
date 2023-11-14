@@ -600,7 +600,7 @@
             "y": 8,
             "z": 1,
             "elements": [
-                "astralsorcery:blockmarble@2"
+                "modularmachinery:blockstarlightproviderinput"
             ]
         },
         {
@@ -1920,7 +1920,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "modularmachinery:blockstarlightproviderinput"
+                "astralsorcery:blockmarble@1"
             ]
         },
         {

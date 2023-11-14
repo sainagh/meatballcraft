@@ -2042,6 +2042,12 @@ item.contenttweaker.polar_catalyst.name=Polar Catalyst
 item.contenttweaker.stormlight_fragment.name=Stormlight Fragment
 item.contenttweaker.champion_token.name=Champion Token
 item.contenttweaker.trait_thunder.name=Trait Description: Thunder
+item.contenttweaker.call_of_enigma.name=Recursive Paper: Enigmatic Summons
+item.contenttweaker.aquatic_stone.name=Aquatic Stone
+item.contenttweaker.funny_pumpkin.name=Funny Pumpkin
+item.contenttweaker.wormhole_fragment.name=Wormhole Fragment
+item.contenttweaker.use_this_summon_item.name=Use the summon item in this recipe to spawn the mob
+tile.contenttweaker.ichorium_catalyst.name=Ichorium Catalyst
 
 
 

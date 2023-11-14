@@ -11,7 +11,7 @@
     "tier": 2,
     "color": 16750848,
     "affixes": 2,
-    "growthFactor": 4,
+    "growthFactor": 1,
     "chance": 0.2,
     "potions": []
   },
@@ -19,7 +19,7 @@
     "tier": 3,
     "color": 6750207,
     "affixes": 3,
-    "growthFactor": 9,
+    "growthFactor": 1,
     "chance": 0.2,
     "potions": []
   },
@@ -27,7 +27,7 @@
     "tier": 4,
     "color": 13382655,
     "affixes": 4,
-    "growthFactor": 16,
+    "growthFactor": 1,
     "chance": 0.2,
     "potions": []
   }

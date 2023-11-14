@@ -793,4 +793,14 @@ armorgravedust.addDataValue("enchantability", "99");
 armorgravedust.addDataValue("reduction", "2,5,6,2");
 armorgravedust.addDataValue("toughness", "1");
 
-
+var colorichorium = Color.fromHex("a85a00") as Color;
+var ichorium = MaterialSystem.getMaterialBuilder().setName("Ichorium").setColor(colorichorium).build();
+ichorium.registerParts(["nugget", "ingot", "dust", "rod","plate"] as string[]);
+var moltenichorium = ichorium.registerPart("molten").getData();
+moltenichorium.addDataValue("temperature", "400");
+moltenichorium.addDataValue("luminosity", "10");
+var armorichorium = ichorium.registerPart("armor").getData();
+armorichorium.addDataValue("durability", "100000");
+armorichorium.addDataValue("enchantability", "99");
+armorichorium.addDataValue("reduction", "100,100,100,100");
+armorichorium.addDataValue("toughness", "100");

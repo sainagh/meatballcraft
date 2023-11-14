@@ -54,6 +54,8 @@ mith1.addItemOutput(<divinerpg:shark_fin>*10);
 mith1.setChance(0.2);
 mith1.addItemOutput(<divinerpg:whale_fin>*10);
 mith1.setChance(0.2);
+mith1.addItemOutput(<divinerpg:shark_fin>*10);
+mith1.setChance(0.2);
 mith1.addItemOutput(<divinerpg:cyclops_eye_shards>*10);
 mith1.setChance(0.05);
 mith1.addItemOutput(<divinerpg:aquatic_pellets>*10);
@@ -1165,6 +1167,10 @@ mythassvoxponds.addItemOutput(<contenttweaker:vox_ponds_garnet>*64);
 mythassvoxponds.build();
 
 mods.nuclearcraft.salt_fission.addRecipe([<fluid:polonium>*144, <fluid:spent_polonium>*1000, 800.0, 200.0, 3.0]);
+
+mods.nuclearcraft.dissolver.addRecipe([<nuclearcraft:californium:2>, <fluid:spent_polonium>*1000, <fluid:californium_250>*1000]);
+mods.nuclearcraft.dissolver.addRecipe([<nuclearcraft:californium:10>, <fluid:spent_polonium>*1000, <fluid:californium_250>*1000]);
+mods.nuclearcraft.dissolver.addRecipe([<nuclearcraft:californium:14>, <fluid:spent_polonium>*1000, <fluid:californium_250>*1000]);
 
 mods.techreborn.rollingMachine.addShaped(<contenttweaker:arc_coil>, 
 [[<materialpart:palladium:ingot>,null,<materialpart:palladium:ingot>],

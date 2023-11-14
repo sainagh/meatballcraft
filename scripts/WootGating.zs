@@ -29,7 +29,3 @@ mods.nuclearcraft.pressurizer.addRecipe([<woot:shard:4>, <woot:stygianironingot>
 mods.nuclearcraft.pressurizer.addRecipe([<woot:shard:5>, <woot:stygianironingot>*3]);
 mods.nuclearcraft.pressurizer.addRecipe([<woot:shard:6>, <woot:stygianironingot>*4]);
 
-recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "divinerpg:whale"}}),
-[[<aoa3:small_skill_crystal>, <divinerpg:aquatic_ingot>, <aoa3:small_skill_crystal>],
-[<aoa3:small_skill_crystal>, <divinerpg:aquatic_ingot>, <aoa3:small_skill_crystal>],
-[<aoa3:small_skill_crystal>, <divinerpg:aquatic_ingot>, <aoa3:small_skill_crystal>]]);

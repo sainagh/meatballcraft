@@ -36,13 +36,15 @@ null, <tconstruct:large_plate>.withTag({Material: "fierymetal"}), <bigreactors:i
 null, <aether_legacy:enchanted_gravitite>, null, 
 null, <bigreactors:ingotludicrite>, <appliedenergistics2:material:9>]]);  
 
-
+val fieryfluid = <ore:bottledFiery>;
+fieryfluid.add(<twilightforest:fiery_blood>);
+fieryfluid.add(<twilightforest:fiery_tears>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:furatto_warper>, 
 
-[[<twilightforest:fiery_tears>, <aoa3:ice_crystal>, <thermalfoundation:coin:96>, 
+[[<ore:bottledFiery>, <aoa3:ice_crystal>, <thermalfoundation:coin:96>, 
 <divinerpg:aquatic_pellets>, <aoa3:ghostly_powder>, <divinerpg:aquatic_pellets>, 
-<thermalfoundation:coin:96>, <aoa3:ice_crystal>, <twilightforest:fiery_tears>], 
+<thermalfoundation:coin:96>, <aoa3:ice_crystal>, <ore:bottledFiery>], 
 
 [<aoa3:ice_crystal>, <botania:manaresource:0>, <thaumcraft:brain>, 
 <aoa3:flammable_dust>, <divinerpg:purple_blaze>, <aoa3:flammable_dust>, 
@@ -72,9 +74,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:furatto_warper>,
 <aoa3:flammable_dust>, <divinerpg:purple_blaze>, <aoa3:flammable_dust>, 
 <thaumcraft:brain>, <botania:manaresource:0>, <aoa3:ice_crystal>], 
 
-[<twilightforest:fiery_tears>, <aoa3:ice_crystal>, <thermalfoundation:coin:96>, 
+[<ore:bottledFiery>, <aoa3:ice_crystal>, <thermalfoundation:coin:96>, 
 <divinerpg:aquatic_pellets>, <aoa3:ghostly_powder>, <divinerpg:aquatic_pellets>, 
-<thermalfoundation:coin:96>, <aoa3:ice_crystal>, <twilightforest:fiery_tears>]]);  
+<thermalfoundation:coin:96>, <aoa3:ice_crystal>, <ore:bottledFiery>]]);  
 
 
 

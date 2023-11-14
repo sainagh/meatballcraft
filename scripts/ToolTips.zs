@@ -53,3 +53,29 @@
 
 <extrabotany:buddhistrelics>.addTooltip(format.red("Use the paparazzi camera to unlock this"));
 <extrabotany:camera>.addTooltip(format.red("Use the paparazzi camera to unlock this"));
+
+<contenttweaker:pixonia_infusion_key>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:arcane_prison_key>.addTooltip(format.red("Thanks to Josip for the texture!"));
+
+<contenttweaker:reprocessed_cosmic_meatball>.addTooltip(format.red("Thanks to Gebcrafter for the texture!"));
+
+<iceandfire:lightning_dragon_blood>.addTooltip(format.red("Tinker Modifier: lightning strikes target"));
+
+<modularmachinery:blockstarlightproviderinput>.addTooltip(format.red("Power using collector crystals and a linking tool"));
+
+<contenttweaker:call_of_enigma>.addTooltip(format.red("Right click for a free cookie"));
+
+<contenttweaker:fading_wool>.addTooltip(format.red("Get quested, ram!"));
+
+<divinerpg:whale_fin>.addTooltip(format.red("Whales and sharks are spawned with the aquatic stone"));
+<divinerpg:shark_fin>.addTooltip(format.red("Whales and sharks are spawned with the aquatic stone"));
+
+<contenttweaker:aquatic_stone>.addTooltip(format.red("Right click to summon whales and sharks"));
+// <contenttweaker:aquatic_stone>.addTooltip(format.red("WARNING: if you see whales and sharks spawn naturally, please report it"));
+
+<contenttweaker:funny_pumpkin>.addTooltip(format.red("Right click to summon a Jack o Man"));
+// <contenttweaker:funny_pumpkin>.addTooltip(format.red("WARNING: if you see Jack o Man spawn naturally, please report it"));
+
+<contenttweaker:wormhole_fragment>.addTooltip(format.red("Right click to summon a Realmshifter"));
+// <contenttweaker:wormhole_fragment>.addTooltip(format.red("WARNING: if you see Realmshifter spawn naturally, please report it"));

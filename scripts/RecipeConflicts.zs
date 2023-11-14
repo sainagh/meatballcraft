@@ -1274,3 +1274,32 @@ recipes.addShapeless(<contenttweaker:active_cryotheum_cooler>,
 [<contenttweaker:nuclearcraft_fission_interior>,
 <nuclearcraft:active_cooler>,
 <forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000})]);
+
+recipes.addShaped(<contenttweaker:aquatic_stone>,
+[[<minecraft:emerald>, <divinerpg:aquatic_ingot>, <minecraft:emerald>],
+[<divinerpg:aquatic_ingot>, <divinerpg:aquatic_ingot>, <divinerpg:aquatic_ingot>],
+[<minecraft:emerald>, <divinerpg:aquatic_ingot>, <minecraft:emerald>]]);
+
+recipes.addShapeless(<divinerpg:whale_fin>,
+[<contenttweaker:aquatic_stone>, <contenttweaker:use_this_summon_item>]);
+recipes.addShapeless(<divinerpg:shark_fin>,
+[<contenttweaker:aquatic_stone>, <contenttweaker:use_this_summon_item>]);
+
+recipes.addShapeless(<divinerpg:ancient_key>,
+[<contenttweaker:constructor_summoner>, <contenttweaker:use_this_summon_item>]);
+recipes.addShapeless(<divinerpg:degraded_key>,
+[<contenttweaker:constructor_summoner>, <contenttweaker:use_this_summon_item>]);
+recipes.addShapeless(<divinerpg:sludge_key>,
+[<contenttweaker:constructor_summoner>, <contenttweaker:use_this_summon_item>]);
+recipes.addShapeless(<divinerpg:soul_key>,
+[<contenttweaker:constructor_summoner>, <contenttweaker:use_this_summon_item>]);
+
+recipes.addShaped(<contenttweaker:funny_pumpkin>,
+[[<minecraft:pumpkin>, <minecraft:pumpkin>, <minecraft:pumpkin>],
+[<minecraft:pumpkin>, <divinerpg:terran_knife>.reuse(), <minecraft:pumpkin>],
+[<minecraft:pumpkin>, <minecraft:pumpkin>, <minecraft:pumpkin>]]);
+
+recipes.addShaped(<contenttweaker:wormhole_fragment>,
+[[<biomesoplenty:flesh>, <aoa3:rusted_iron_ingot>, <biomesoplenty:flesh>],
+[<aoa3:rusted_iron_ingot>, <appliedenergistics2:material:9>, <aoa3:rusted_iron_ingot>],
+[<biomesoplenty:flesh>, <aoa3:rusted_iron_ingot>, <biomesoplenty:flesh>]]);

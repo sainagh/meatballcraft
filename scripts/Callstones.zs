@@ -2065,3 +2065,91 @@ wroughtcallstone.itemRightClick = function(stack, world, player, hand) {
 
 };
 wroughtcallstone.register();
+
+var callofenigma= VanillaFactory.createItem("call_of_enigma");
+callofenigma.maxStackSize = 16;
+callofenigma.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("time set night", player, world, true, true);
+
+    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
+    
+    Commands.call("summon mod_lavacow:enigmoth_larva ~ ~3 ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:enigmoth_larva ~ ~3 ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:enigmoth_larva ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon mod_lavacow:enigmoth_larva ~ ~3 ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:enigmoth_larva ~ ~3 ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:enigmoth ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon mod_lavacow:enigmoth ~ ~3 ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:enigmoth ~ ~3 ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:enigmoth ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon mod_lavacow:enigmoth ~ ~3 ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
+
+    Commands.call("summon mod_lavacow:mimicrab ~ ~ ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:mimicrab ~ ~ ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:ghostray ~ ~ ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:ghostray ~ ~ ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+callofenigma.register();
+
+var funnypumpkin= VanillaFactory.createItem("funny_pumpkin");
+funnypumpkin.maxStackSize = 16;
+funnypumpkin.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+    Commands.call("summon divinerpg:jack_o_man ~ ~ ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+funnypumpkin.register();
+
+var wormholefragment= VanillaFactory.createItem("wormhole_fragment");
+wormholefragment.maxStackSize = 16;
+wormholefragment.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+    Commands.call("summon aoa3:realmshifter ~ ~ ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+wormholefragment.register();
+
+
+var akathartoscallstone= VanillaFactory.createItem("akathartos_callstone");
+akathartoscallstone.maxStackSize = 1;
+akathartoscallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 172) {
+        player.sendChat("You gotta be in akathartos");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn akathartos_structure_crimsonemperor", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+akathartoscallstone.register();

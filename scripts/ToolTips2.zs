@@ -365,6 +365,8 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:vengeful_key>.addTooltip(format.red("Opens the door to the will crystal monolith"));
 
+<contenttweaker:vengeful_key>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
 <contenttweaker:retaliation_key>.addTooltip(format.red("opens the final room in the will crystal monolith"));
 
 <soulshardsrespawn:soul_shard>.addTooltip(format.red("This is made in-world, place a glowstone block, with four quartz blocks around it, and obsidian in the corners. - Text suggestion by Sandman366"));
@@ -864,8 +866,6 @@ import crafttweaker.item.IItemCondition;
 <thebetweenlands:druid_altar>.addTooltip(format.red("Insert four saplings to start spawning"));
 
 <contenttweaker:chaotic_feather>.addTooltip(format.red("Dropped by the chaos chicken"));
-
-<divinerpg:whale_fin>.addTooltip(format.red("Whale spawn eggs are craftable"));
 
 <draconicevolution:draconic_spawner>.addTooltip(format.red("Right click in-world spawners with the appropriate core"));
 
@@ -1603,7 +1603,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:heart_of_the_elder_one>.addTooltip(format.red("Found on Apichisi"));
 
-<contenttweaker:naquadah_chunk>.addTooltip(format.red("Found in some dungeons from chapter 5 onwards"));
+<contenttweaker:naquadah_chunk>.addTooltip(format.red("Found in the dungeon in Apichisi"));
 
 <contenttweaker:ichor>.addTooltip(format.red("Obtained right-clicking the vibrating mithminite schythe on top of tainted soil"));
 
@@ -2282,7 +2282,7 @@ import crafttweaker.item.IItemCondition;
 <divinerpg:corrupted_shards>.addTooltip(format.red("Dropped by mobs that spawn below Y = 11"));
 <divinerpg:corrupted_stone>.addTooltip(format.red("Dropped by mobs that spawn below Y = 11"));
 
-<contenttweaker:dream_projector_gem>.addTooltip(format.red("Combine the right tinker's parts with a projector gem - Vethea will guide you!"));
+<contenttweaker:dream_projector_gem>.addTooltip(format.red("Combine the right tinker's parts with a projector gem - Vethea recipes will guide you!"));
 
 <contenttweaker:dream_projector_gem>.addTooltip(format.red("The recursive life essence is from the hidden power callstone!"));
 

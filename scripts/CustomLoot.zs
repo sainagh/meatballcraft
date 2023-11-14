@@ -91,6 +91,7 @@ dimdoorseventroll.addItemEntry(<contenttweaker:mark_of_the_soul_scurry>, 3);
 dimdoorseventroll.addItemEntry(<contenttweaker:call_of_the_death_games>, 3);
 dimdoorseventroll.addItemEntry(<contenttweaker:creepy_explosive>, 3);
 dimdoorseventroll.addItemEntry(<contenttweaker:embiggener>, 3);
+dimdoorseventroll.addItemEntry(<contenttweaker:call_of_enigma>, 3);
 
 
 val mothervoidwalker = LootTweaker.getTable("aoa3:entities/mobs/overworld/mother_void_walker");
@@ -415,10 +416,14 @@ netherfortressspecial.addItemEntry(<contenttweaker:signal_beacon>*4, 2);
 netherfortressspecial.addItemEntry(<contenttweaker:call_of_the_death_games>*4, 2);
 netherfortressspecial.addItemEntry(<contenttweaker:embiggener>*4, 2);
 netherfortressspecial.addItemEntry(<contenttweaker:creepy_explosive>*4, 2);
+netherfortressspecial.addItemEntry(<contenttweaker:call_of_enigma>*4, 2);
 
 val endcity = LootTweaker.getTable("minecraft:chests/end_city_treasure");
 val endcityspecial = endcity.addPool("endcityspecial", 1, 2, 1, 1);
 endcityspecial.addItemEntry(<thermalfoundation:material:134>, 15);
+endcityspecial.addItemEntry(<contenttweaker:funny_pumpkin>, 15);
+endcityspecial.addItemEntry(<contenttweaker:wormhole_fragment>, 15);
+endcityspecial.addItemEntry(<contenttweaker:aquatic_stone>, 15);
 
 val runicorn = LootTweaker.getTable("aoa3:entities/mobs/runandor/runicorn");
 val runicornprimordial = runicorn.addPool("runicornprimordial", 1, 1, 0, 0);
@@ -440,6 +445,7 @@ vanilladungeonmbc.addItemEntry(<contenttweaker:mark_of_the_soul_scurry>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:call_of_the_death_games>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:creepy_explosive>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:embiggener>, 3);
+vanilladungeonmbc.addItemEntry(<contenttweaker:call_of_enigma>, 3);
 
 val vanillastronghold = LootTweaker.getTable("minecraft:chests/stronghold_corridor");
 val vanillastrongholdmbc = vanillastronghold.addPool("vanillastrongholdmbc", 1, 1, 0, 0);

@@ -153,11 +153,83 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/alta
 
 
 val makedarkstarlight = RecipeBuilder.newBuilder("makedarkstarlight","twelve_gates_of_heaven",200);
-makedarkstarlight.addStarlightInput(300);
+makedarkstarlight.addStarlightInput(10000);
 makedarkstarlight.addEnergyPerTickInput(30000000);
 makedarkstarlight.addFluidInput(<fluid:sideral_life_essence>*10000);
 makedarkstarlight.addFluidOutput(<fluid:darkstarlight>*10000);
 makedarkstarlight.build();
+
+// akathartos
+
+mods.avaritia.ExtremeCrafting.addShaped("direakathartoscallstone",
+<contenttweaker:akathartos_callstone>, 
+[[<contenttweaker:dynatos_star>, null, null,
+null, <contenttweaker:zoi_core>, null,
+null, null, <contenttweaker:dynatos_star>],
+
+[null, <contenttweaker:dynatos_star>, null,
+null, <thaumadditions:mithminite_scythe>, null,
+null, <contenttweaker:dynatos_star>, null],
+
+[null, null, <contenttweaker:dynatos_star>,
+null, <bloodmagic:points_upgrade>, null,
+<contenttweaker:dynatos_star>, null, null],
+
+[null, null, null,
+<contenttweaker:dynatos_star>, null, <contenttweaker:dynatos_star>,
+null, null, null],
+
+[<contenttweaker:nero_core>, <thaumadditions:mithminite_scythe>, <bloodmagic:points_upgrade>,
+null, <contenttweaker:essence_darkness>, null,
+<bloodmagic:points_upgrade>, <thaumadditions:mithminite_scythe>, <contenttweaker:akathartos_core>],
+
+[null, null, null,
+<contenttweaker:dynatos_star>, null, <contenttweaker:dynatos_star>,
+null, null, null],
+
+[null, null, <contenttweaker:dynatos_star>,
+null, <bloodmagic:points_upgrade>, null,
+<contenttweaker:dynatos_star>, null, null],
+
+[null, <contenttweaker:dynatos_star>, null,
+null, <thaumadditions:mithminite_scythe>, null,
+null, <contenttweaker:dynatos_star>, null],
+
+[<contenttweaker:dynatos_star>, null, null,
+null, <contenttweaker:pauram_core>, null,
+null, null, <contenttweaker:dynatos_star>]]);
+
+recipes.addShaped(<contenttweaker:crimson_ichor>*2,
+[[<gendustry:honey_comb:14015>, <gendustry:honey_comb:14015>, <gendustry:honey_comb:14015>],
+[<gendustry:honey_comb:14015>, <contenttweaker:crimson_ichor>, <gendustry:honey_comb:14015>],
+[<gendustry:honey_comb:14015>, <gendustry:honey_comb:14015>, <gendustry:honey_comb:14015>]]);
+
+val makeichorium = RecipeBuilder.newBuilder("makeichorium","arcane_autoinfuser",200);
+makeichorium.addEnergyPerTickInput(150000000);
+makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alkimia"}]})*300);
+makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mythus"}]})*100);
+makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]})*200);
+makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]})*100);
+makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]})*100);
+makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]})*50);
+makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aversio"}]})*50);
+makeichorium.addItemInput(<contenttweaker:crimson_ichor>*16);
+makeichorium.addItemInput(<thaumadditions:mithminite_block>*32);
+makeichorium.addItemInput(<thaumicaugmentation:material:5>*64);
+makeichorium.addItemInput(<thaumcraft:focus_3>);
+makeichorium.addItemInput(<thaumcraft:focus_3>);
+makeichorium.addItemOutput(<materialpart:ichorium:ingot>);
+makeichorium.build();
+
+mods.thaumcraft.Infusion.registerRecipe("infusionichoriumcatalyst", "", 
+<contenttweaker:ichorium_catalyst>, 10,
+[<aspect:alkimia>*150, <aspect:ordo>*180, <aspect:potentia>*200, <aspect:cognitio>*60], 
+<thaumadditions:amber_lamp>, 
+[<materialpart:ichorium:ingot>, <thaumicaugmentation:material:5>, 
+<materialpart:ichorium:ingot>, <thaumicaugmentation:material:5>, 
+<materialpart:ichorium:ingot>, <thaumicaugmentation:material:5>, 
+<materialpart:ichorium:ingot>, <thaumicaugmentation:material:5>]);
+
 
 // zoi
 

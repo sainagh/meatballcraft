@@ -438,3 +438,23 @@ recipes.addShaped(<modularmachinery:blockrainbowprovider>,
 [[<modularmachinery:itemmodularium>, <extrautils2:decorativesolid:8>, <modularmachinery:itemmodularium>],
 [<extrautils2:decorativesolid:8>, <modularmachinery:blockcasing:1>, <extrautils2:decorativesolid:8>],
 [<modularmachinery:itemmodularium>, <extrautils2:decorativesolid:8>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachinery:blockstarlightproviderinput>,
+[[<modularmachinery:itemmodularium>, <astralsorcery:blockborehead:0>, <modularmachinery:itemmodularium>],
+[<astralsorcery:blockborehead:1>, <modularmachinery:blockfluidinputhatch:5>, <astralsorcery:blockborehead:1>],
+[<modularmachinery:itemmodularium>, <astralsorcery:blockborehead:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachinery:blockimpetusproviderinput>,
+[[<modularmachinery:itemmodularium>, <thaumicaugmentation:material:5>, <modularmachinery:itemmodularium>],
+[<thaumicaugmentation:material:5>, <modularmachinery:blockfluidinputhatch:5>, <thaumicaugmentation:material:5>],
+[<modularmachinery:itemmodularium>, <thaumicaugmentation:material:5>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachinery:blockimpetusprovideroutput>,
+[[<modularmachinery:itemmodularium>, <thaumicaugmentation:material:5>, <modularmachinery:itemmodularium>],
+[<thaumicaugmentation:material:5>, <modularmachinery:blockfluidoutputhatch:5>, <thaumicaugmentation:material:5>],
+[<modularmachinery:itemmodularium>, <thaumicaugmentation:material:5>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShapeless(<modularmachinery:blockimpetusproviderinput>,
+[<modularmachinery:blockimpetusprovideroutput>]);
+recipes.addShapeless(<modularmachinery:blockimpetusprovideroutput>,
+[<modularmachinery:blockimpetusproviderinput>]);

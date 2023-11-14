@@ -316,3 +316,57 @@ spatialphaser.itemRightClick = function(stack, world, player, hand) {
 
 };
 spatialphaser.register();
+
+var aquaticstone = VanillaFactory.createItem("aquatic_stone");
+aquaticstone.maxStackSize = 16;
+aquaticstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in the overworld");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Ocean" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("You gotta be in an ocean biome");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, true, true);
+		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, true, true);
+		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, true, true);
+		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, true, true);
+		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, true, true);
+		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, true, true);
+		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, true, true);
+		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, true, true);
+		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, true, true);
+		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, true, true);
+		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, true, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in an ocean biome");
+	return "FAIL";
+
+
+};
+aquaticstone.register();

@@ -31,10 +31,23 @@ recipes.addShapeless(<tconstruct:ingots:5>*9, [<ore:blockBrass>]);
 val brassplate = <ore:plateBrass>;
 brassplate.remove(<railcraft:plate:11>);
 
+mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:11>);
+mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:18>, <ore:ingotBrass>, <immersiveengineering:mold:0>, 2000);
+
+recipes.removeShapeless(<techreborn:plates:18>, [<immersiveengineering:tool:0>], true);
+recipes.addShapeless(<techreborn:plates:18>, 
+[<immersiveengineering:tool:0>,
+<ore:ingotBrass>]);
+
+
 //==================================================================
 // titanium
 val titaniumingot = <ore:ingotTitanium>;
 titaniumingot.remove(<libvulpes:productingot:7>);
+
+furnace.remove(<libvulpes:productingot:7>);
+furnace.addRecipe(<techreborn:ingot:14>, <ore:oreTitanium>);
+
 
 recipes.removeShapeless(<libvulpes:productingot:7>);
 recipes.addShapeless(<techreborn:ingot:14>*9, [<ore:blockTitanium>]);
@@ -50,6 +63,10 @@ recipes.addShapeless(<techreborn:ingot:14>,
 val iridiumingot = <ore:ingotIridium>;
 iridiumingot.remove(<libvulpes:productingot:10>);
 
+furnace.remove(<libvulpes:productingot:10>);
+furnace.addRecipe(<thermalfoundation:material:135>, <ore:oreIridium>);
+
+
 recipes.removeShapeless(<libvulpes:productingot:10>);
 recipes.removeShapeless(<techreborn:ingot:7>);
 recipes.addShapeless(<thermalfoundation:material:135>*9, [<ore:blockIridium>]);
@@ -61,6 +78,13 @@ recipes.addShapeless(<thermalfoundation:material:135>,
 [<libvulpes:productingot:10>]);
 
 //==================================================================
+// tungsten
+
+furnace.addRecipe(<techreborn:ingot:15>, <ore:oreTungsten>);
+
+recipes.addShapeless(<techreborn:ingot:15>*9, [<ore:blockTungsten>]);
+
+//==================================================================
 // tin
 val tiningot = <ore:ingotTin>;
 tiningot.remove(<abyssalcraft:tiningot>);
@@ -70,6 +94,16 @@ tiningot.remove(<projectred-core:resource_item:101>);
 tiningot.remove(<railcraft:ingot:2>);
 // tiningot.remove(<techreborn:ingot:13>);
 tiningot.remove(<libvulpes:productingot:5>);
+
+furnace.remove(<abyssalcraft:tiningot>);
+furnace.remove(<forestry:ingot_tin>);
+furnace.remove(<nuclearcraft:ingot:1>);
+furnace.remove(<projectred-core:resource_item:101>);
+furnace.remove(<railcraft:ingot:2>);
+furnace.remove(<techreborn:ingot:13>);
+furnace.remove(<libvulpes:productingot:5>);
+furnace.addRecipe(<thermalfoundation:material:129>, <ore:oreTin>);
+
 
 recipes.removeShapeless(<abyssalcraft:tiningot>);
 recipes.removeShapeless(<forestry:ingot_tin>);
@@ -90,6 +124,11 @@ val tinplate = <ore:plateTin>;
 tinplate.remove(<railcraft:plate:2>);
 tinplate.remove(<libvulpes:productplate:5>);
 
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:321>, <ore:ingotTin>, <immersiveengineering:mold:0>, 2000);
+
+recipes.addShapeless(<thermalfoundation:material:321>, 
+[<immersiveengineering:tool:0>,
+<ore:ingotTin>]);
 
 //==================================================================
 // copper
@@ -103,6 +142,15 @@ copperingot.remove(<railcraft:ingot:1>);
 // copperingot.remove(<techreborn:ingot:4>);
 copperingot.remove(<libvulpes:productingot:4>);
 
+furnace.remove(<abyssalcraft:copperingot>);
+furnace.remove(<forestry:ingot_copper>);
+furnace.remove(<immersiveengineering:metal:0>);
+furnace.remove(<nuclearcraft:ingot:0>);
+furnace.remove(<projectred-core:resource_item:100>);
+furnace.remove(<railcraft:ingot:1>);
+furnace.remove(<techreborn:ingot:4>);
+furnace.remove(<libvulpes:productingot:4>);
+furnace.addRecipe(<thermalfoundation:material:128>, <ore:oreCopper>);
 
 recipes.removeShapeless(<abyssalcraft:copperingot>);
 recipes.removeShapeless(<forestry:ingot_copper>);
@@ -126,6 +174,13 @@ copperplate.remove(<immersiveengineering:metal:30>);
 copperplate.remove(<railcraft:plate:3>);
 copperplate.remove(<libvulpes:productplate:4>);
 
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:30>);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:320>, <ore:ingotCopper>, <immersiveengineering:mold:0>, 2000);
+
+recipes.removeShapeless(<immersiveengineering:metal:30>, [<immersiveengineering:tool:0>], true);
+recipes.addShapeless(<thermalfoundation:material:320>, 
+[<immersiveengineering:tool:0>,
+<ore:ingotCopper>]);
 
 //==================================================================
 // silver
@@ -137,6 +192,16 @@ silveringot.remove(<nuclearcraft:ingot:13>);
 silveringot.remove(<projectred-core:resource_item:102>);
 silveringot.remove(<railcraft:ingot:4>);
 // silveringot.remove(<techreborn:ingot:11>);
+
+furnace.remove(<bewitchment:silver_ingot>);
+furnace.remove(<iceandfire:silver_ingot>);
+furnace.remove(<immersiveengineering:metal:3>);
+furnace.remove(<nuclearcraft:ingot:13>);
+furnace.remove(<projectred-core:resource_item:102>);
+furnace.remove(<railcraft:ingot:4>);
+furnace.remove(<techreborn:ingot:11>);
+furnace.addRecipe(<thermalfoundation:material:130>, <ore:oreSilver>);
+
 
 recipes.removeShapeless(<bewitchment:silver_ingot>);
 recipes.removeShapeless(<iceandfire:silver_ingot>);
@@ -156,6 +221,13 @@ silverplate.remove(<bewitchment:silver_plate>);
 silverplate.remove(<immersiveengineering:metal:33>);
 silverplate.remove(<railcraft:plate:5>);
 
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:33>);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:322>, <ore:ingotSilver>, <immersiveengineering:mold:0>, 2000);
+
+recipes.removeShapeless(<immersiveengineering:metal:33>, [<immersiveengineering:tool:0>], true);
+recipes.addShapeless(<thermalfoundation:material:322>, 
+[<immersiveengineering:tool:0>,
+<ore:ingotSilver>]);
 
 //==================================================================
 // steel
@@ -188,6 +260,14 @@ steelplate.remove(<immersiveengineering:metal:38>);
 steelplate.remove(<railcraft:plate:1>);
 steelplate.remove(<libvulpes:productplate:6>);
 
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:38>);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:352>, <ore:ingotSteel>, <immersiveengineering:mold:0>, 2000);
+
+recipes.removeShapeless(<immersiveengineering:metal:38>, [<immersiveengineering:tool:0>], true);
+recipes.addShapeless(<thermalfoundation:material:352>, 
+[<immersiveengineering:tool:0>,
+<ore:ingotSteel>]);
+
 //==================================================================
 // bronze
 val bronzeingot = <ore:ingotBronze>;
@@ -216,6 +296,12 @@ aluminumingot.remove(<nuclearcraft:ingot:12>);
 aluminumingot.remove(<libvulpes:productingot:9>);
 // aluminumingot.remove(<techreborn:ingot:0>);
 
+furnace.remove(<immersiveengineering:metal:1>);
+furnace.remove(<nuclearcraft:ingot:12>);
+furnace.remove(<libvulpes:productingot:9>);
+furnace.remove(<techreborn:ingot:0>);
+furnace.addRecipe(<thermalfoundation:material:132>, <ore:oreAluminum>);
+
 recipes.removeShapeless(<immersiveengineering:metal:1>);
 recipes.removeShapeless(<nuclearcraft:ingot:12>);
 recipes.removeShapeless(<libvulpes:productingot:9>);
@@ -231,6 +317,13 @@ val aluminumplate = <ore:plateAluminum>;
 aluminumplate.remove(<immersiveengineering:metal:31>);
 aluminumplate.remove(<libvulpes:productplate:9>);
 
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:31>);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:324>, <ore:ingotAluminum>, <immersiveengineering:mold:0>, 2000);
+
+recipes.removeShapeless(<immersiveengineering:metal:31>, [<immersiveengineering:tool:0>], true);
+recipes.addShapeless(<thermalfoundation:material:324>, 
+[<immersiveengineering:tool:0>,
+<ore:ingotAluminum>]);
 
 //==================================================================
 // electrum
@@ -248,6 +341,9 @@ electrumdust.remove(<immersiveengineering:metal:16>);
 val electrumplate = <ore:plateElectrum>;
 electrumplate.remove(<immersiveengineering:metal:37>);
 
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:37>);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:353>, <ore:ingotElectrum>, <immersiveengineering:mold:0>, 2000);
+
 // recipe.removeShapeless(<immersiveengineering:metal:16>);
 
 //==================================================================
@@ -257,6 +353,12 @@ leadingot.remove(<immersiveengineering:metal:2>);
 leadingot.remove(<nuclearcraft:ingot:2>);
 leadingot.remove(<railcraft:ingot:3>);
 // leadingot.remove(<techreborn:ingot:8>);
+
+furnace.remove(<immersiveengineering:metal:2>);
+furnace.remove(<nuclearcraft:ingot:2>);
+furnace.remove(<railcraft:ingot:3>);
+furnace.remove(<techreborn:ingot:8>);
+furnace.addRecipe(<thermalfoundation:material:131>, <ore:oreLead>);
 
 recipes.removeShapeless(<immersiveengineering:metal:2>);
 recipes.removeShapeless(<nuclearcraft:ingot:2>);
@@ -272,12 +374,25 @@ val leadplate = <ore:plateLead>;
 leadplate.remove(<immersiveengineering:metal:32>);
 leadplate.remove(<railcraft:plate:4>);
 
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:32>);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:323>, <ore:ingotLead>, <immersiveengineering:mold:0>, 2000);
+
+recipes.removeShapeless(<immersiveengineering:metal:32>, [<immersiveengineering:tool:0>], true);
+recipes.addShapeless(<thermalfoundation:material:323>, 
+[<immersiveengineering:tool:0>,
+<ore:ingotLead>]);
+
 //==================================================================
 // nickel
 val nickelingot = <ore:ingotNickel>;
 nickelingot.remove(<immersiveengineering:metal:4>);
 nickelingot.remove(<railcraft:ingot:6>);
 // nickelingot.remove(<techreborn:ingot:9>);
+
+furnace.remove(<immersiveengineering:metal:4>);
+furnace.remove(<railcraft:ingot:6>);
+furnace.remove(<techreborn:ingot:9>);
+furnace.addRecipe(<thermalfoundation:material:133>, <ore:oreNickel>);
 
 recipes.removeShapeless(<immersiveengineering:metal:4>);
 recipes.removeShapeless(<railcraft:ingot:6>);
@@ -291,10 +406,21 @@ val nuckelplate = <ore:plateNickel>;
 nuckelplate.remove(<immersiveengineering:metal:34>);
 nuckelplate.remove(<railcraft:plate:8>);
 
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:34>);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:325>, <ore:ingotNickel>, <immersiveengineering:mold:0>, 2000);
+
+recipes.removeShapeless(<immersiveengineering:metal:34>, [<immersiveengineering:tool:0>], true);
+recipes.addShapeless(<thermalfoundation:material:325>, 
+[<immersiveengineering:tool:0>,
+<ore:ingotNickel>]);
+
 //==================================================================
 // graphite
 val graphiteingot = <ore:ingotGraphite>;
 graphiteingot.remove(<bigreactors:ingotgraphite>);
+
+furnace.remove(<bigreactors:ingotgraphite>);
+furnace.addRecipe(<nuclearcraft:ingot:8>, <ore:oreGraphite>);
 
 recipes.removeShapeless(<bigreactors:ingotgraphite>);
 recipes.addShapeless(<nuclearcraft:ingot:8>*9, [<ore:blockGraphite>]);
@@ -316,11 +442,23 @@ constantandust.remove(<immersiveengineering:metal:15>);
 val constantanplate = <ore:plateConstantan>;
 constantanplate.remove(<immersiveengineering:metal:36>);
 
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:36>);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:356>, <ore:ingotConstantan>, <immersiveengineering:mold:0>, 2000);
+
+recipes.removeShapeless(<immersiveengineering:metal:36>, [<immersiveengineering:tool:0>], true);
+recipes.addShapeless(<thermalfoundation:material:356>, 
+[<immersiveengineering:tool:0>,
+<ore:ingotConstantan>]);
+
 //==================================================================
 // uranium
 val uraniumingot = <ore:ingotUranium>;
 uraniumingot.remove(<nuclearcraft:ingot:4>);
 // uraniumingot.remove(<techreborn:ingot:24>);
+
+furnace.remove(<techreborn:ingot:24>);
+furnace.remove(<nuclearcraft:ingot:4>);
+furnace.addRecipe(<immersiveengineering:metal:5>, <ore:oreUranium>);
 
 recipes.removeShapeless(<nuclearcraft:ingot:4>);
 recipes.addShapeless(<immersiveengineering:metal:5>*9, [<ore:blockUranium>]);
@@ -336,6 +474,9 @@ uraniumore.remove(<immersiveengineering:ore:5>);
 // thorium
 val thoriumingot = <ore:ingotThorium>;
 // thoriumingot.remove(<techreborn:ingot:23>);
+
+furnace.remove(<techreborn:ingot:23>);
+furnace.addRecipe(<nuclearcraft:ingot:3>, <ore:oreThorium>);
 
 recipes.addShapeless(<nuclearcraft:ingot:3>*9, [<ore:blockThorium>]);
 
@@ -376,6 +517,17 @@ ironplate.remove(<railcraft:plate:0>);
 ironplate.remove(<thaumcraft:plate:1>);
 ironplate.remove(<libvulpes:productplate:1>);
 
+recipes.remove(<thaumcraft:plate:1>);
+recipes.addShaped(<thermalfoundation:material:32>*3,
+[[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]]);
+
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:39>);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:32>, <ore:ingotIron>, <immersiveengineering:mold:0>, 2000);
+
+recipes.removeShapeless(<immersiveengineering:metal:39>, [<immersiveengineering:tool:0>], true);
+recipes.addShapeless(<thermalfoundation:material:32>, 
+[<immersiveengineering:tool:0>,
+<ore:ingotIron>]);
 
 //==================================================================
 // gold
@@ -394,6 +546,13 @@ goldplate.remove(<immersiveengineering:metal:40>);
 goldplate.remove(<railcraft:plate:7>);
 goldplate.remove(<libvulpes:productplate:2>);
 
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:40>);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:33>, <ore:ingotGold>, <immersiveengineering:mold:0>, 2000);
+
+recipes.removeShapeless(<immersiveengineering:metal:40>, [<immersiveengineering:tool:0>], true);
+recipes.addShapeless(<thermalfoundation:material:33>, 
+[<immersiveengineering:tool:0>,
+<ore:ingotGold>]);
 
 //==================================================================
 // diamond
