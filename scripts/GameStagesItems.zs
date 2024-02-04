@@ -7,3 +7,4 @@ mods.ItemStages.stageEnchant("bloodmasterstage", <enchantment:cofhcore:multishot
 
 mods.ItemStages.addItemStage("camerastage", <extrabotany:buddhistrelics>);
 mods.ItemStages.addItemStage("camerastage", <extrabotany:camera>);
+mods.ItemStages.addItemStage("camerastage", <enderutilities:syringe:1>);

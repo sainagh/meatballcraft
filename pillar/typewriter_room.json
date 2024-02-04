@@ -1,0 +1,29 @@
+{
+	"generatorType": "ANYWHERE",
+	"minY": 0,
+	"maxY": 55,
+	"offsetX": 0,
+	"offsetY": 0,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [0],
+	"biomeNameSpawns": ["Ocean","FrozenOcean","Deep Ocean"],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": true,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	
+	"rarity": 1000
+}

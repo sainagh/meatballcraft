@@ -159,7 +159,7 @@ recipes.addShaped(<modularmachinery:blockfluidinputhatch:6>,
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:7>,
 [[<minecraft:bucket>, <modularmachinery:blockfluidinputhatch:6>, <minecraft:bucket>],
 [null, <modularmachinery:itemmodularium>, null],
-[null, <modularmachinery:itemmodularium>, null]]);
+[null, null, null]]);
 
 
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:2>,

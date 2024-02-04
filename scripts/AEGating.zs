@@ -241,6 +241,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<appliedenergistics2:quantum_ring>
 recipes.remove(<appliedenergistics2:crystal_seed:1200>);
 
 mods.extendedcrafting.TableCrafting.addShapeless(3, <appliedenergistics2:crystal_seed:1200>*3, [<ore:sand>, <appliedenergistics2:material:8>]);
+mods.extendedcrafting.TableCrafting.addShapeless(4, <appliedenergistics2:crystal_seed:1200>*3, [<ore:sand>, <appliedenergistics2:material:8>]);
 
 recipes.remove(<ae2fc:fluid_discretizer>);
 

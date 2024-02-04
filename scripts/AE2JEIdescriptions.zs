@@ -10,15 +10,14 @@ mods.jei.JEI.addDescription(<appliedenergistics2:storage_cell_1k>,["Stores items
 mods.jei.JEI.addDescription(<appliedenergistics2:storage_cell_4k>,["Stores items, place in a ME Drive or ME Chest.","","Stores between 256 to 512 stacks, depending on how many item types are used."]);
 mods.jei.JEI.addDescription(<appliedenergistics2:storage_cell_16k>,["Stores items, place in a ME Drive or ME Chest.","","Stores between 1024 to 2048 stacks, depending on how many item types are used."]);
 mods.jei.JEI.addDescription(<appliedenergistics2:storage_cell_64k>,["Stores items, place in a ME Drive or ME Chest.","","Stores between 4096 to 8192 stacks, depending on how many item types are used."]);
-mods.jei.JEI.addDescription(<extracells:storage.physical:0>,["Stores items, place in a ME Drive or ME Chest.","","Stores between 16k to 32k stacks, depending on how many item types are used."]);
-mods.jei.JEI.addDescription(<extracells:storage.physical:1>,["Stores items, place in a ME Drive or ME Chest.","","Stores between 64k to 128k stacks, depending on how many item types are used."]);
-mods.jei.JEI.addDescription(<extracells:storage.physical:2>,["Stores items, place in a ME Drive or ME Chest.","","Stores between 256k to 512k stacks, depending on how many item types are used."]);
-mods.jei.JEI.addDescription(<extracells:storage.physical:3>,["Stores items, place in a ME Drive or ME Chest.","","Stores between 1024k to 2048k stacks, depending on how many item types are used."]);
-mods.jei.JEI.addDescription([<appliedenergistics2:quantum_link>,<appliedenergistics2:quantum_ring>],["Used to make the ME Quantum Bridge, for wireless ae2 setups.","","Made with a Quantum Chanber surrounded by 8 Quantum Rings.","","Carries 32 channels (you can use P2P channels for more), only the 4 rings touching the core will connect to cables.","","Needs a pair of Quantum Entangled Singularity's to function."]);
-mods.jei.JEI.addDescription(<appliedenergistics2:crafting_unit>,["Base block used to form a Crafting CPU, does nothing but is used to craft all the blocks for the Crafting CPU.","","The Crafting CPU must be a solid cuboid within 17x17x17"]);
-mods.jei.JEI.addDescription([<appliedenergistics2:crafting_storage_1k>,<appliedenergistics2:crafting_storage_4k>,<appliedenergistics2:crafting_storage_16k>,<appliedenergistics2:crafting_storage_64k>,<extracpus:crafting_storage_256k>,<extracpus:crafting_storage_1024k>,<extracpus:crafting_storage_4096k>,<extracpus:crafting_storage_16384k>],["Used to add storage for crafting larger crafts will need more storage."]);
-mods.jei.JEI.addDescription(<appliedenergistics2:crafting_monitor>,["Shows what job the Crafting CPU is currently doing and how many it has remaining to make."]);
-mods.jei.JEI.addDescription(<appliedenergistics2:crafting_accelerator>,["Allows the Crafting CPU to parallelise crafting jobs for increased speed, only has an effect if the ME system can split the job i.e. multiple patterns/assemblers."]);
+mods.jei.JEI.addDescription(<nae2:storage_cell_256k>,["Stores items, place in a ME Drive or ME Chest.","","Stores between 16k to 32k stacks, depending on how many item types are used."]);
+mods.jei.JEI.addDescription(<nae2:storage_cell_1024k>,["Stores items, place in a ME Drive or ME Chest.","","Stores between 64k to 128k stacks, depending on how many item types are used."]);
+mods.jei.JEI.addDescription(<nae2:storage_cell_4096k>,["Stores items, place in a ME Drive or ME Chest.","","Stores between 256k to 512k stacks, depending on how many item types are used."]);
+mods.jei.JEI.addDescription(<nae2:storage_cell_16384k>,["Stores items, place in a ME Drive or ME Chest.","","Stores between 1024k to 2048k stacks, depending on how many item types are used."]);
+mods.jei.JEI.addDescription([<appliedenergistics2:crafting_unit>],["Base block used to form a Crafting CPU, does nothing but is used to craft all the blocks for the Crafting CPU.","","The Crafting CPU must be a solid cuboid within 17x17x17"]);
+mods.jei.JEI.addDescription([<appliedenergistics2:crafting_storage_1k>,<appliedenergistics2:crafting_storage_4k>,<appliedenergistics2:crafting_storage_16k>,<appliedenergistics2:crafting_storage_64k>,<nae2:storage_crafting_256k>,<nae2:storage_crafting_1024k>,<nae2:storage_crafting_4096k>,<nae2:storage_crafting_16384k>],["Used to add storage for crafting larger crafts will need more storage.","","The Crafting CPU must be a solid cuboid within 17x17x17"]);
+mods.jei.JEI.addDescription(<appliedenergistics2:crafting_monitor>,["Shows what job the Crafting CPU is currently doing and how many it has remaining to make.","","The Crafting CPU must be a solid cuboid within 17x17x17"]);
+mods.jei.JEI.addDescription([<appliedenergistics2:crafting_accelerator>, <nae2:coprocessor_4x>, <nae2:coprocessor_16x>, <nae2:coprocessor_64x>],["Allows the Crafting CPU to parallelise crafting jobs for increased speed, only has an effect if the ME system can split the job i.e. multiple patterns/assemblers.","","The Crafting CPU must be a solid cuboid within 17x17x17"]);
 mods.jei.JEI.addDescription(<appliedenergistics2:cell_workbench>,["Lets you partition cells to only allow certain items inside them."]);
 mods.jei.JEI.addDescription(<appliedenergistics2:view_cell>,["Can be partitioned inside a Cell Workbench then placed in a terminal to filter what items are shown, does not remove the items from the system it just hides them."]);
 mods.jei.JEI.addDescription(<appliedenergistics2:material:26>,["Allows compatible devices to be turned on and off with redstone or activate on a redstone pulse."]);
@@ -100,9 +99,10 @@ mods.jei.JEI.addDescription(<appliedenergistics2:fluid_storage_cell_1k>,["Stores
 mods.jei.JEI.addDescription(<appliedenergistics2:fluid_storage_cell_4k>,["Stores fluid in cell form, stores ~32k buckets."]);
 mods.jei.JEI.addDescription(<appliedenergistics2:fluid_storage_cell_16k>,["Stores fluid in cell form, stores ~128k buckets."]);
 mods.jei.JEI.addDescription(<appliedenergistics2:fluid_storage_cell_64k>,["Stores fluid in cell form, stores ~512k buckets."]);
-mods.jei.JEI.addDescription(<extracells:storage.fluid:4>,["Stores fluid in cell form, stores ~2048k buckets."]);
-mods.jei.JEI.addDescription(<extracells:storage.fluid:5>,["Stores fluid in cell form, stores ~8192k buckets."]);
-mods.jei.JEI.addDescription(<extracells:storage.fluid:6>,["Stores fluid in cell form, stores ~65536k buckets."]);
+mods.jei.JEI.addDescription(<nae2:storage_cell_fluid_256k>,["Stores fluid in cell form, stores ~2048k buckets."]);
+mods.jei.JEI.addDescription(<nae2:storage_cell_fluid_1024k>,["Stores fluid in cell form, stores ~8192k buckets."]);
+mods.jei.JEI.addDescription(<nae2:storage_cell_fluid_4096k>,["Stores fluid in cell form, stores ~65536k buckets."]);
+mods.jei.JEI.addDescription(<nae2:storage_cell_fluid_16384k>,["Stores fluid in cell form, stores ~262144k buckets."]);
 mods.jei.JEI.addDescription(<ae2fc:part_fluid_pattern_terminal>,["Like a Pattern Terminal but can make patterns using fluids."]);
 mods.jei.JEI.addDescription(<ae2fc:part_fluid_pattern_ex_terminal>,["Like a Fluid Pattern Terminal but can have up to 16 inputs and 6 outputs for more complex recipes."]);
 mods.jei.JEI.addDescription(<appliedenergistics2:part:340>,["Used to make patterns, crafting patterns can be placed in interfaces touching molecular assemblers and processing patterns can be put in interfaces touching machines to automate them."]);
@@ -112,3 +112,15 @@ mods.jei.JEI.addDescription(<appliedenergistics2:part:380>,["Basic terminal used
 mods.jei.JEI.addDescription(<appliedenergistics2:part:521>,["Like the ME Interface Terminal but shows the stocked item config rather than stored patterns."]);
 mods.jei.JEI.addDescription(<appliedenergistics2:part:522>,["Shows the stocked fluid config for fluid terminals."]);
 mods.jei.JEI.addDescription([<appliedenergistics2:part:500>,<appliedenergistics2:part:501>,<appliedenergistics2:part:502>,<appliedenergistics2:part:503>,<appliedenergistics2:part:504>,<appliedenergistics2:part:505>,<appliedenergistics2:part:506>,<appliedenergistics2:part:507>,<appliedenergistics2:part:508>,<appliedenergistics2:part:509>,<appliedenergistics2:part:510>,<appliedenergistics2:part:511>,<appliedenergistics2:part:512>,<appliedenergistics2:part:513>,<appliedenergistics2:part:514>,<appliedenergistics2:part:515>],["Coloured dense cable, only connects to cables of the same colour."]);
+
+mods.jei.JEI.addDescription([<appliedenergistics2:quantum_link>,
+<appliedenergistics2:quantum_ring>],
+["The quantum bridge is a multiblock that allows you to do two things: ",
+"",
+"Transfer 32 channels wirelessly over infinite distances and between dimensions.",
+"Obtain a pair of entangled singularties and a pair of quantum bridges that you would like to connect. Place an entangled singularity in each quantum bridge to link them.",
+"Both sides of the connection should have a power input, either from the Controller or from an Energy Acceptor, and both should have at least one Energy Cell.",
+"You can use these to run p2p subnets, but they may misbehave depending on the complexity of your subnet.",
+"",
+"Infinitely expand the range of your wireless terminals.",
+"Connect a quantum bridge to the network which you would like to access wirelessly. Insert the quantum link card into the quantum bridge. Note that this will prevent you from inserting an entangled singularity because a quantum bridge can only have one function at a time. This also replaces the need for a wireless access point."]);

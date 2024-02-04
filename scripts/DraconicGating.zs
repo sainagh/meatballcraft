@@ -24,63 +24,63 @@ recipes.removeShaped(<draconicevolution:wyvern_sword>);
 
 recipes.addShaped(<draconicevolution:wyvern_sword>,
 [[null, <draconicevolution:wyvern_core>, null],
-[<draconicevolution:draconium_ingot>, <aoa3:lunar_greatblade>, <draconicevolution:draconium_ingot>],
+[<draconicevolution:draconium_ingot>, <contenttweaker:draconian_sword_core>, <draconicevolution:draconium_ingot>],
 [null, <draconicevolution:wyvern_energy_core>, null]]);
 
 recipes.removeShaped(<draconicevolution:wyvern_axe>);
 
 recipes.addShaped(<draconicevolution:wyvern_axe>,
 [[null, <draconicevolution:wyvern_core>, null],
-[<draconicevolution:draconium_ingot>, <projecte:item.pe_rm_axe>, <draconicevolution:draconium_ingot>],
+[<draconicevolution:draconium_ingot>, <contenttweaker:draconian_axe_core>, <draconicevolution:draconium_ingot>],
 [null, <draconicevolution:wyvern_energy_core>, null]]);
 
 recipes.removeShaped(<draconicevolution:wyvern_pick>);
 
 recipes.addShaped(<draconicevolution:wyvern_pick>,
 [[null, <draconicevolution:wyvern_core>, null],
-[<draconicevolution:draconium_ingot>, <projecte:item.pe_rm_pick>, <draconicevolution:draconium_ingot>],
+[<draconicevolution:draconium_ingot>, <contenttweaker:draconian_pickaxe_core>, <draconicevolution:draconium_ingot>],
 [null, <draconicevolution:wyvern_energy_core>, null]]);
 
 recipes.removeShaped(<draconicevolution:wyvern_shovel>);
 
 recipes.addShaped(<draconicevolution:wyvern_shovel>,
 [[null, <draconicevolution:wyvern_core>, null],
-[<draconicevolution:draconium_ingot>, <projecte:item.pe_rm_shovel>, <draconicevolution:draconium_ingot>],
+[<draconicevolution:draconium_ingot>, <contenttweaker:draconian_shovel_core>, <draconicevolution:draconium_ingot>],
 [null, <draconicevolution:wyvern_energy_core>, null]]);
 
 recipes.removeShaped(<draconicevolution:wyvern_bow>);
 
 recipes.addShaped(<draconicevolution:wyvern_bow>,
 [[null, <draconicevolution:wyvern_core>, null],
-[<draconicevolution:draconium_ingot>, <aoa3:lunar_bow>, <draconicevolution:draconium_ingot>],
+[<draconicevolution:draconium_ingot>, <contenttweaker:draconian_bow_core>, <draconicevolution:draconium_ingot>],
 [null, <draconicevolution:wyvern_energy_core>, null]]);
 
 recipes.removeShaped(<draconicevolution:wyvern_helm>);
 
 recipes.addShaped(<draconicevolution:wyvern_helm>,
 [[<draconicevolution:draconium_ingot>, <draconicevolution:wyvern_core>, <draconicevolution:draconium_ingot>],
-[<draconicevolution:draconium_ingot>, <divinerpg:apalachia_helmet>, <draconicevolution:draconium_ingot>],
+[<draconicevolution:draconium_ingot>, <contenttweaker:draconian_helmet_core>, <draconicevolution:draconium_ingot>],
 [<draconicevolution:draconium_ingot>, <draconicevolution:wyvern_energy_core>, <draconicevolution:draconium_ingot>]]);
 
 recipes.removeShaped(<draconicevolution:wyvern_chest>);
 
 recipes.addShaped(<draconicevolution:wyvern_chest>,
 [[<draconicevolution:draconium_ingot>, <draconicevolution:wyvern_core>, <draconicevolution:draconium_ingot>],
-[<draconicevolution:draconium_ingot>, <divinerpg:apalachia_chestplate>, <draconicevolution:draconium_ingot>],
+[<draconicevolution:draconium_ingot>, <contenttweaker:draconian_chestplate_core>, <draconicevolution:draconium_ingot>],
 [<draconicevolution:draconium_ingot>, <draconicevolution:wyvern_energy_core>, <draconicevolution:draconium_ingot>]]);
 
 recipes.removeShaped(<draconicevolution:wyvern_legs>);
 
 recipes.addShaped(<draconicevolution:wyvern_legs>,
 [[<draconicevolution:draconium_ingot>, <draconicevolution:wyvern_core>, <draconicevolution:draconium_ingot>],
-[<draconicevolution:draconium_ingot>, <divinerpg:apalachia_leggings>, <draconicevolution:draconium_ingot>],
+[<draconicevolution:draconium_ingot>, <contenttweaker:draconian_leggings_core>, <draconicevolution:draconium_ingot>],
 [<draconicevolution:draconium_ingot>, <draconicevolution:wyvern_energy_core>, <draconicevolution:draconium_ingot>]]);
 
 recipes.removeShaped(<draconicevolution:wyvern_boots>);
 
 recipes.addShaped(<draconicevolution:wyvern_boots>,
 [[<draconicevolution:draconium_ingot>, <draconicevolution:wyvern_core>, <draconicevolution:draconium_ingot>],
-[<draconicevolution:draconium_ingot>, <divinerpg:apalachia_boots>, <draconicevolution:draconium_ingot>],
+[<draconicevolution:draconium_ingot>, <contenttweaker:draconian_boots_core>, <draconicevolution:draconium_ingot>],
 [<draconicevolution:draconium_ingot>, <draconicevolution:wyvern_energy_core>, <draconicevolution:draconium_ingot>]]);
 
 recipes.removeShaped(<draconicevolution:dislocator>);
@@ -205,4 +205,51 @@ mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:diss_enchanter>
 [[<minecraft:emerald>, <divinerpg:corrupted_stone>, <minecraft:emerald>], 
 [<minecraft:enchanted_book>, <minecraft:enchanting_table>, <minecraft:enchanted_book>], 
 [<ore:bookshelf>, <ore:bookshelf>, <ore:bookshelf>]]);  
+
+recipes.addShaped(<contenttweaker:draconian_axe_core>,
+[[null, <enderio:block_alloy_endergy:3>, <enderio:block_alloy_endergy:3>],
+[null, <contenttweaker:headstone>, <enderio:block_alloy_endergy:3>],
+[null, <contenttweaker:headstone>, null]]);
+
+recipes.addShaped(<contenttweaker:draconian_pickaxe_core>,
+[[<enderio:block_alloy_endergy:3>, <enderio:block_alloy_endergy:3>, <enderio:block_alloy_endergy:3>],
+[null, <contenttweaker:headstone>, null],
+[null, <contenttweaker:headstone>, null]]);
+
+recipes.addShaped(<contenttweaker:draconian_shovel_core>,
+[[null, <enderio:block_alloy_endergy:3>, null],
+[null, <contenttweaker:headstone>, null],
+[null, <contenttweaker:headstone>, null]]);
+
+recipes.addShaped(<contenttweaker:draconian_sword_core>,
+[[null, <enderio:block_alloy_endergy:3>, null],
+[null, <enderio:block_alloy_endergy:3>, null],
+[null, <contenttweaker:headstone>, null]]);
+
+recipes.addShaped(<contenttweaker:draconian_bow_core>,
+[[null, <contenttweaker:headstone>, <enderio:block_alloy_endergy:3>],
+[<contenttweaker:headstone>, null, <enderio:block_alloy_endergy:3>],
+[null, <contenttweaker:headstone>, <enderio:block_alloy_endergy:3>]]);
+
+recipes.addShaped(<contenttweaker:draconian_helmet_core>,
+[[<enderio:block_alloy_endergy:3>, <contenttweaker:headstone>, <enderio:block_alloy_endergy:3>],
+[<enderio:block_alloy_endergy:3>, null, <enderio:block_alloy_endergy:3>],
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:draconian_chestplate_core>,
+[[<enderio:block_alloy_endergy:3>, null, <enderio:block_alloy_endergy:3>],
+[<enderio:block_alloy_endergy:3>, <contenttweaker:headstone>, <enderio:block_alloy_endergy:3>],
+[<enderio:block_alloy_endergy:3>, <enderio:block_alloy_endergy:3>, <enderio:block_alloy_endergy:3>]]);
+
+recipes.addShaped(<contenttweaker:draconian_leggings_core>,
+[[<enderio:block_alloy_endergy:3>, <contenttweaker:headstone>, <enderio:block_alloy_endergy:3>],
+[<enderio:block_alloy_endergy:3>, null, <enderio:block_alloy_endergy:3>],
+[<enderio:block_alloy_endergy:3>, null, <enderio:block_alloy_endergy:3>]]);
+
+recipes.addShaped(<contenttweaker:draconian_boots_core>,
+[[<contenttweaker:headstone>, null, <contenttweaker:headstone>],
+[<enderio:block_alloy_endergy:3>, null, <enderio:block_alloy_endergy:3>],
+[null, null, null]]);
+
+
 

@@ -1,0 +1,55 @@
+{
+    "name": "compactmachines3:nuclearcraft_unholymix",
+    "target-item": "contenttweaker:safe_einstenium",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+
+    "input-types": {
+      "a": {
+        "id": "contenttweaker:gold_nak_cooler",
+        "meta": 0
+      },
+      "b": {
+        "id": "contenttweaker:raw_nak_cooler",
+        "meta": 0
+      },
+      "c": {
+        "id": "contenttweaker:redstone_nak_cooler",
+        "meta": 0
+      },
+      "d": {
+        "id": "contenttweaker:radioactive_mix_vessel",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "a",
+          "c",
+          "a"
+        ]
+      ],
+      [
+        [
+          "b",
+          "d",
+          "b"
+        ]
+      ],
+      [
+        [
+          "a",
+          "c",
+          "a"
+        ]
+      ]
+    ]
+          
+}

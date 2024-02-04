@@ -1,0 +1,110 @@
+{
+    "name": "compactmachines3:thaumcraft_catalizationchamber",
+    "target-item": "contenttweaker:catalyzation_chamber",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:tripwire",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:salis_mundus",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "thaumcraft:stone_arcane",
+        "meta": 0
+      },
+      "c": {
+        "id": "minecraft:obsidian",
+        "meta": 0
+      },
+      "d": {
+        "id": "minecraft:iron_bars",
+        "meta": 0
+      },
+      "e": {
+        "id": "thaumicwonders:fluid_quicksilver",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "a",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "a",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "_",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b"
+        ]
+      ],
+      [
+        [
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "d",
+          "e",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b"
+        ]
+      ],
+      [
+        [
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b"
+        ]
+      ]
+    ]
+     
+}

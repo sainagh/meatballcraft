@@ -1,0 +1,37 @@
+{
+    "name": "compactmachines3:nuclearcraft_simpleststarter",
+    "target-item": "contenttweaker:simplest_salt_reactor",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+
+
+    "input-types": {
+      "a": {
+        "id": "contenttweaker:redstone_nak_cooler",
+        "meta": 0
+      },
+      "b": {
+        "id": "contenttweaker:pssessed_starlight_vessel",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "b"
+        ]
+      ]
+    ]
+         
+}

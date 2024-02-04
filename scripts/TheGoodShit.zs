@@ -170,6 +170,18 @@ recipes.addShapeless(<iceandfire:dragonscales_sapphire>*3,
 recipes.addShapeless(<iceandfire:dragonscales_silver>*3,
 [<aoa3:ivory>,<contenttweaker:aeldunari>.reuse()]);
 
+recipes.addShapeless(<iceandfire:dragonscales_electric>*3,
+[<aoa3:ghostly_powder>,<contenttweaker:aeldunari>.reuse()]);
+
+recipes.addShapeless(<iceandfire:dragonscales_amythest>*3,
+[<aoa3:fragmented_anima_stone>,<contenttweaker:aeldunari>.reuse()]);
+
+recipes.addShapeless(<iceandfire:dragonscales_copper>*3,
+[<aoa3:copper_coin>,<contenttweaker:aeldunari>.reuse()]);
+
+recipes.addShapeless(<iceandfire:dragonscales_black>*3,
+[<aoa3:void_scales>,<contenttweaker:aeldunari>.reuse()]);
+
 // chaos protection
 
 //recipes.addShapeless(<astralsorcery:itemchargedcrystalsword>.withTag({StoredEnchantments: [{lvl: 8 as short, id: 16}]}),

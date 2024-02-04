@@ -33,5 +33,12 @@
     },
     "multiplier": 5.0,
     "operations": 100
+  },
+  {
+    "catalyst": {
+      "id": "contenttweaker:droplet_of_the_great_snake"
+    },
+    "multiplier": 100.0,
+    "operations": 100
   }
 ]

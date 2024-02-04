@@ -156,4 +156,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:trait_ingarage>.addTooltip(format.red("Extra five damage when in the shadow"));
 <contenttweaker:trait_undone>.addTooltip(format.red("Chance of removing an armor piece on critical hits"));
 <contenttweaker:trait_surfwaxmurica>.addTooltip(format.red("Extra five damage while riding a mount"));
-<contenttweaker:trait_thunder>.addTooltip(format.red("Enemies are hit by lighning strikes"));
+<contenttweaker:trait_thunder>.addTooltip(format.red("Enemies are hit by lightning strikes"));
+<contenttweaker:trait_necrotic>.addTooltip(format.red("Life-steal"));
+<contenttweaker:trait_sentience>.addTooltip(format.red("Mobs drop will"));
+

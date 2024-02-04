@@ -206,15 +206,6 @@ recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"})
 [<divinerpg:corrupted_stone>, <extrautils2:machine:0>, <divinerpg:corrupted_stone>],
 [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 
-recipes.removeShaped(<extrautils2:playerchest>);
-
-recipes.removeShaped(<randomthings:playerinterface>);
-
-recipes.addShaped(<extrautils2:playerchest>,
-[[<actuallyadditions:block_player_interface>, <divinerpg:arksiane_lump>, <actuallyadditions:block_player_interface>],
-[<divinerpg:arksiane_lump>, <projecte:alchemical_chest>, <divinerpg:arksiane_lump>],
-[<actuallyadditions:block_player_interface>, <divinerpg:arksiane_lump>, <actuallyadditions:block_player_interface>]]);
-
 recipes.addShapeless(<contenttweaker:better_red_coal>,
 [<extrautils2:ingredients:4>]);
 

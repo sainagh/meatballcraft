@@ -1,4 +1,3 @@
-
 import mods.modularmachinery.RecipeBuilder;
 
 val mythfurn1 = RecipeBuilder.newBuilder("mythfurn1","mythic_processor_furnace",1);
@@ -31,3 +30,15 @@ mythfurn4.addEnergyPerTickInput(60000);
 mythfurn4.addItemInput(<divinerpg:shadow_bar>*16);
 mythfurn4.addItemOutput(<contenttweaker:shadow_steel>*16);
 mythfurn4.build();
+
+val mythfurn5 = RecipeBuilder.newBuilder("mythfurn5","mythic_processor_furnace",1);
+mythfurn5.addEnergyPerTickInput(60000);
+mythfurn5.addItemInput(<ore:dustPlutonium>);
+mythfurn5.addItemOutput(<ore:ingotPlutonium>);
+mythfurn5.build();
+
+val mythfurn6 = RecipeBuilder.newBuilder("mythfurn6","mythic_processor_furnace",1);
+mythfurn6.addEnergyPerTickInput(60000);
+mythfurn6.addItemInput(<contenttweaker:draconian_metal_clump>);
+mythfurn6.addItemOutput(<contenttweaker:draconian_metal_ingot>);
+mythfurn6.build();

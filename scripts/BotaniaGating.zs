@@ -48,3 +48,12 @@ recipes.addShaped(<extrabotany:material:0>*3,
 recipes.remove(<extrabotany:managenerator>);
 recipes.remove(<extrabotany:manaliquefaction>);
 
+recipes.addShaped(<botania:specialflower>.withTag({type: "orechid"})*2,
+[[<contenttweaker:arkenstone>, <contenttweaker:arkenstone>, <contenttweaker:arkenstone>],
+[<contenttweaker:mithrillium_catalyst>, <botania:specialflower>.withTag({type: "orechid"}), <contenttweaker:mithrillium_catalyst>],
+[<contenttweaker:arkenstone>, <contenttweaker:arkenstone>, <contenttweaker:arkenstone>]]);
+
+recipes.addShaped(<botania:specialflower>.withTag({type: "orechidIgnem"})*2,
+[[<contenttweaker:arkenstone>, <contenttweaker:arkenstone>, <contenttweaker:arkenstone>],
+[<contenttweaker:mithrillium_catalyst>, <botania:specialflower>.withTag({type: "orechidIgnem"}), <contenttweaker:mithrillium_catalyst>],
+[<contenttweaker:arkenstone>, <contenttweaker:arkenstone>, <contenttweaker:arkenstone>]]);

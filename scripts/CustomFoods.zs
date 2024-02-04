@@ -188,3 +188,10 @@ sausagesandwich.onItemFoodEaten = function(stack, world, player) {
 	player.sendChat("Do you come from a land down under?");
 };
 sausagesandwich.register();
+
+var chocchertruf = VanillaFactory.createItemFood("chocolate_cherry_truffle", 5);
+chocchertruf.saturation = 1;
+chocchertruf.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Don't forget to enjoy the small wins in life!");
+};
+chocchertruf.register();

@@ -461,7 +461,7 @@ europium.register();
 var inorganicremains = VanillaFactory.createFluid("inorganic_remains", Color.fromHex("1b4014"));
 inorganicremains.register();
 
-var hydrogenchloride = VanillaFactory.createFluid("hydrogen_chloride", Color.fromHex("278778"));
+var hydrogenchloride = VanillaFactory.createFluid("hydrogenchloride", Color.fromHex("278778"));
 hydrogenchloride.register();
 
 var tot = VanillaFactory.createFluid("tot", Color.fromHex("8d9493"));
@@ -707,3 +707,48 @@ dilutedpotassium.register();
 var dilutednakmix = VanillaFactory.createFluid("diluted_nak_mix", Color.fromHex("878f1a"));
 dilutednakmix.register();
 
+var crystallineichorium = VanillaFactory.createFluid("crystalline_ichorium", Color.fromHex("a85a00"));
+crystallineichorium.register();
+
+var pristineaura = VanillaFactory.createFluid("pristine_aura", Color.fromHex("a3ddff"));
+pristineaura.register();
+
+var mineraloil = VanillaFactory.createFluid("mineral_oil", Color.fromHex("d9d3d2"));
+mineraloil.register();
+
+var wetsteam = VanillaFactory.createFluid("wet_steam", Color.fromHex("99b9c9"));
+wetsteam.register();
+
+var supercriticalsteam = VanillaFactory.createFluid("supercritical_steam", Color.fromHex("f7dcf7"));
+supercriticalsteam.register();
+
+var highparticulatesteam = VanillaFactory.createFluid("high_particulate_steam", Color.fromHex("e08da8"));
+highparticulatesteam.register();
+
+var fluidcrystalmatrix = VanillaFactory.createFluid("fluid_crystal_matrix", Color.fromHex("a3556e"));
+fluidcrystalmatrix.register();
+
+var sweetcherryliquor = VanillaFactory.createFluid("sweet_cherry_liquor", Color.fromHex("b5b3a5"));
+sweetcherryliquor.register();
+
+var sweetherbycherryliquor = VanillaFactory.createFluid("sweet_herby_cherry_liquor", Color.fromHex("bdbc7b"));
+sweetherbycherryliquor.register();
+
+var berserkersteel = VanillaFactory.createFluid("berserker_steel", Color.fromHex("a18782"));
+berserkersteel.register();
+
+var stormlight = VanillaFactory.createFluid("stormlight", Color.fromHex("56e3b9"));
+stormlight.register();
+
+
+var brightsteelalloy = VanillaFactory.createFluid("brightsteel_alloy", Color.fromHex("7330c9"));
+brightsteelalloy.register();
+
+var runandium = VanillaFactory.createFluid("runandium", Color.fromHex("66bdab"));
+runandium.register();
+
+var ascendeddraconicalloy = VanillaFactory.createFluid("ascended_draconic_alloy", Color.fromHex("ff7300"));
+ascendeddraconicalloy.register();
+
+var pulsatingstarlight = VanillaFactory.createFluid("pulsating_starlight", Color.fromHex("5bb7c7"));
+pulsatingstarlight.register();

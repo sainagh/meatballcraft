@@ -185,3 +185,31 @@ mythgear31.addEnergyPerTickInput(30000);
 mythgear31.addItemInput(<ore:ingotVibraniumAlloy> * 16);
 mythgear31.addItemOutput(<materialpart:vibranium_alloy:gear>*4);
 mythgear31.build();
+
+val mythgear32 = RecipeBuilder.newBuilder("mythgear32","mythic_processor_gearworking_die",2);
+mythgear32.addEnergyPerTickInput(30000);
+mythgear32.addItemInput(<contenttweaker:clump_of_mythic_matter> * 9);
+mythgear32.addItemOutput(<contenttweaker:compressed_clump_mythic>);
+mythgear32.build();
+
+val mythgear33 = RecipeBuilder.newBuilder("mythgear33","mythic_processor_gearworking_die",2);
+mythgear33.addEnergyPerTickInput(30000);
+mythgear33.addItemInput(<contenttweaker:double_compressed_clump_mythic>);
+mythgear33.addItemInput(<contenttweaker:triple_compressed_clump_mythic>);
+mythgear33.setChance(0.0);
+mythgear33.addItemOutput(<contenttweaker:plate_clump_mythic>);
+mythgear33.build();
+
+val mythgear34 = RecipeBuilder.newBuilder("mythgear34","mythic_processor_gearworking_die",2);
+mythgear34.addEnergyPerTickInput(30000);
+mythgear34.addItemInput(<contenttweaker:double_compressed_clump_mythic>);
+mythgear34.addItemInput(<contenttweaker:superfocused_plate_mythic>);
+mythgear34.setChance(0.0);
+mythgear34.addItemOutput(<contenttweaker:plate_clump_mythic>*9);
+mythgear34.build();
+
+val mythgear35 = RecipeBuilder.newBuilder("mythgear32","mythic_processor_gearworking_die",2);
+mythgear35.addEnergyPerTickInput(30000);
+mythgear35.addItemInput(<contenttweaker:object_of_great_mass>*4);
+mythgear35.addItemOutput(<storagedrawers:upgrade_creative>*4);
+mythgear35.build();

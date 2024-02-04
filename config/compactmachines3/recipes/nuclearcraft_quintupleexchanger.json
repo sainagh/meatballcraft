@@ -1,0 +1,48 @@
+{
+    "name": "compactmachines3:nuclearcraft_quintupleexchanger",
+    "target-item": "contenttweaker:quintuple_nak_heat_exchanger",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+
+
+    "input-types": {
+      "a": {
+        "id": "contenttweaker:hot_heat_exchanger",
+        "meta": 0
+      },
+      "b": {
+        "id": "contenttweaker:cold_heat_exchanger",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "a",
+          "b",
+          "a"
+        ]
+      ],
+      [
+        [
+          "_",
+          "a",
+          "_"
+        ]
+      ],
+      [
+        [
+          "a",
+          "b",
+          "a"
+        ]
+      ]
+    ]
+           
+}

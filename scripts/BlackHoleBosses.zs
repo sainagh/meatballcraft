@@ -230,6 +230,132 @@ mods.thaumcraft.Infusion.registerRecipe("infusionichoriumcatalyst", "",
 <materialpart:ichorium:ingot>, <thaumicaugmentation:material:5>, 
 <materialpart:ichorium:ingot>, <thaumicaugmentation:material:5>]);
 
+mods.thaumcraft.Crucible.registerRecipe("crucibleichoriumgem", 
+"", <contenttweaker:ichorium_gem>, 
+<ore:ingotIchorium>, 
+[<aspect:mortuus>*15, <aspect:vitreus>*10, <aspect:victus>*10]);
+
+
+val infiniteimpetus = RecipeBuilder.newBuilder("infiniteimpetus","impetus_syphon",200);
+infiniteimpetus.addItemInput(<thaumicaugmentation:material:5>);
+infiniteimpetus.addAspectInput("vitium",20);
+infiniteimpetus.addAspectInput("victus",20);
+infiniteimpetus.addAspectInput("imperium",20);
+infiniteimpetus.addImpetusOutput(10);
+infiniteimpetus.build();
+
+val makeaura = RecipeBuilder.newBuilder("makeaura","font_of_divinity",200);
+makeaura.addEnergyPerTickInput(30000000);
+makeaura.addImpetusInput(40);
+makeaura.addFluidInput(<fluid:crystal_water>*100);
+makeaura.addItemInput(<contenttweaker:gem_of_aura>);
+makeaura.addFluidOutput(<fluid:pristine_aura>*10000);
+makeaura.build();
+
+mods.avaritia.ExtremeCrafting.addShaped("direallthevis",
+<contenttweaker:gem_of_aura>, 
+[[
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alkimia"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "visum"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sensus"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fabrico"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "lux"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vinculum"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "coralos"}]}),
+],
+[
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]}),
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ventus"}]}),
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitreus"}]}),
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]}),
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]}),
+],
+[
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]}),
+null,
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sonus"}]}),
+null,
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "motus"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "draco"}]}),
+],
+[
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]}),
+null,
+null,
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}),
+null,
+null,
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "bestia"}]}),
+],
+[
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "dreadia"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "stellae"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "auram"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "cognitio"}]}),
+],
+[
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "volatus"}]}),
+null,
+null,
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]}),
+null,
+null,
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "tenebrae"}]}),
+],
+[
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "permutatio"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "exanimis"}]}),
+null,
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mythus"}]}),
+null,
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praemunio"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "exitium"}]}),
+],
+[
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]}),
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mortuus"}]}),
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fluctus"}]}),
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]}),
+null,
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "metallum"}]}),
+],
+[
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "instrumentum"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "diabolus"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "victus"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "machina"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aversio"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vacuos"}]}),
+<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "imperium"}]}),
+]]);
+
+
+
 
 // zoi
 
@@ -247,3 +373,10 @@ nukepolonium.addItemInput(<techreborn:nuke>);
 nukepolonium.addFluidInput(<fluid:spent_polonium>*1000);
 nukepolonium.addFluidOutput(<fluid:californium_256>*1000);
 nukepolonium.build();
+
+mods.nuclearcraft.heat_exchanger.addRecipe([<fluid:mineral_water>*10, <fluid:wet_steam>*20, 80000.0, 300, 700]);
+
+mods.nuclearcraft.dissolver.addRecipe([<nuclearcraft:compound:1>, <fluid:wet_steam>*10, <fluid:high_particulate_steam>*15]);
+
+mods.nuclearcraft.condenser.addRecipe([<fluid:high_particulate_steam>*15, <fluid:fluid_crystal_matrix>*10, 50.0, 500]);
+

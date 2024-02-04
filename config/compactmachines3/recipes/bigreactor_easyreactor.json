@@ -1,0 +1,106 @@
+{
+    "name": "compactmachines3:bigreactor_easyreactor",
+    "target-item": "contenttweaker:good_extreme_reactor_design",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+    "input-types": {
+      "a": {
+        "id": "draconicevolution:draconium_block",
+        "meta": 0,
+        "item": {
+            "id": "draconicevolution:draconium_block",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "bigreactors:reactorfuelrod",
+        "meta": 0,
+        "item": {
+            "id": "bigreactors:reactorfuelrod",
+            "count": 1
+          }
+      }
+    },
+    "input-nbt": {
+      "b:A": {
+        "nbt": "{id:\"bigreactors:tileentityreactorfuelrod\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},multiblockData:{reactorActive:0b,heat:0.0f,fuelHeat:0.0f,storedEnergy:0.0f,wasteEjection2:0,fuelContainer:{fuelUsage:0.0f},radiation:{fertility:1.0f},coolantContainer:{}}}"
+      },
+      "b:B": {
+        "nbt": "{id:\"bigreactors:tileentityreactorfuelrod\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "a",
+          "a",
+          "a",
+          "a",
+          "a",
+          "_"
+        ],
+        [
+          "a",
+          "b:A",
+          "b:B",
+          "b:B",
+          "b:B",
+          "b:B",
+          "a"
+        ],
+        [
+          "a",
+          "b:B",
+          "b:B",
+          "b:B",
+          "b:B",
+          "b:B",
+          "a"
+        ],
+        [
+          "a",
+          "b:B",
+          "b:B",
+          "_",
+          "b:B",
+          "b:B",
+          "a"
+        ],
+        [
+          "a",
+          "b:B",
+          "b:B",
+          "b:B",
+          "b:B",
+          "b:B",
+          "a"
+        ],
+        [
+          "a",
+          "b:B",
+          "b:B",
+          "b:B",
+          "b:B",
+          "b:B",
+          "a"
+        ],
+        [
+          "_",
+          "a",
+          "a",
+          "a",
+          "a",
+          "a",
+          "_"
+        ]
+      ]
+    ]
+       
+}

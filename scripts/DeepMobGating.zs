@@ -26,6 +26,10 @@ dragonscaleSmOreDict.add(<iceandfire:dragonscales_blue:0>);
 dragonscaleSmOreDict.add(<iceandfire:dragonscales_white:0>);
 dragonscaleSmOreDict.add(<iceandfire:dragonscales_sapphire:0>);
 dragonscaleSmOreDict.add(<iceandfire:dragonscales_silver:0>);
+dragonscaleSmOreDict.add(<iceandfire:dragonscales_black:0>);
+dragonscaleSmOreDict.add(<iceandfire:dragonscales_amythest:0>);
+dragonscaleSmOreDict.add(<iceandfire:dragonscales_copper:0>);
+dragonscaleSmOreDict.add(<iceandfire:dragonscales_electric:0>);
 
 val seaserpOreDict = <ore:seaserpentScaleItem>;
 seaserpOreDict.add(<iceandfire:sea_serpent_scales_blue>);

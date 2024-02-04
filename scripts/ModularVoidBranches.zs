@@ -309,7 +309,27 @@ recipes.addShapeless(<contenttweaker:cut_vethea_garnet>*4,
 <contenttweaker:ender_dolomite_dust>,
 <ore:dustPetrotheum>]);
 
-recipes.addShaped(<contenttweaker:myrmitite_casing>,
+recipes.addShaped(<contenttweaker:myrmitite_casing>*8,
 [[<ore:plateMyrmitite>, <enderio:item_soul_vial:1>.withTag({entityId: "divinerpg:jungle_dramcryx"}), <ore:plateMyrmitite>],
 [<enderio:item_soul_vial:1>.withTag({entityId: "divinerpg:enthralled_dramcryx"}), <contenttweaker:highly_advanced_machine_casing>, <enderio:item_soul_vial:1>.withTag({entityId: "divinerpg:deathcryx"})],
 [<ore:plateMyrmitite>, <enderio:item_soul_vial:1>.withTag({entityId: "divinerpg:eden_cadillion"}), <ore:plateMyrmitite>]]);
+
+recipes.addShaped(<contenttweaker:terrasteel_crystal>*2,
+[[<botania:manaresource:5>, <botania:spreader:3>, <botania:manaresource:5>],
+[<botania:spreader:3>, <contenttweaker:terrasteel_crystal>, <botania:spreader:3>],
+[<botania:manaresource:5>, <botania:spreader:3>, <botania:manaresource:5>]]);
+
+recipes.addShaped(<contenttweaker:demonic_manastone>*2,
+[[<dimdoors:world_thread>, <bloodmagic:slate:4>, <dimdoors:world_thread>],
+[<bloodmagic:slate:4>, <contenttweaker:demonic_manastone>, <bloodmagic:slate:4>],
+[<dimdoors:world_thread>, <bloodmagic:slate:4>, <dimdoors:world_thread>]]);
+
+recipes.addShaped(<bewitchment:blessed_stone>*2,
+[[<minecraft:egg>, <bewitchment:sigil_mending>, <minecraft:egg>],
+[<minecraft:egg>, <bewitchment:blessed_stone>, <minecraft:egg>],
+[<minecraft:egg>, <contenttweaker:ender_feather>, <minecraft:egg>]]);
+
+
+mods.thermalexpansion.Crucible.addRecipe(<fluid:essence>*10000, <contenttweaker:condensed_essence>, 2000);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:condensed_essence>, <fluid:essence>*10000]);

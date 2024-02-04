@@ -10,6 +10,16 @@ mapExpCutter += enclistEXPCutter[1].makeEnchantment(100).makeTag();
 mapExpCutter += enclistEXPCutter[2].makeEnchantment(1).makeTag();
 mapExpCutter += enclistEXPCutter[3].makeEnchantment(5).makeTag();
 
+val enchlistMagicShield as IEnchantmentDefinition[] = [<enchantment:ebwizardry:shock_protection>, <enchantment:minecraft:protection>, <enchantment:ebwizardry:magic_protection>, <enchantment:ebwizardry:frost_protection>, <enchantment:minecraft:fire_protection>, <enchantment:minecraft:blast_protection>, <enchantment:minecraft:projectile_protection>];
+var mapMagicShielding as IData = {};
+mapMagicShielding += enchlistMagicShield[0].makeEnchantment(16).makeTag();
+mapMagicShielding += enchlistMagicShield[1].makeEnchantment(16).makeTag();
+mapMagicShielding += enchlistMagicShield[2].makeEnchantment(100).makeTag();
+mapMagicShielding += enchlistMagicShield[3].makeEnchantment(16).makeTag();
+mapMagicShielding += enchlistMagicShield[4].makeEnchantment(16).makeTag();
+mapMagicShielding += enchlistMagicShield[5].makeEnchantment(16).makeTag();
+mapMagicShielding += enchlistMagicShield[6].makeEnchantment(16).makeTag();
+
 mods.thaumcraft.Infusion.registerRecipe("inflesser", "", 
 <minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumcraft:cultistportallesser"}}), 10,
 [<aspect:vitium>*30, <aspect:perditio>*56, <aspect:alienis>*25, <aspect:cognitio>*30], 
@@ -78,3 +88,39 @@ mods.thaumcraft.Infusion.registerRecipe("fluxspongeftw", "",
 <thaumadditions:mithminite_block>, <thaumadditions:mithminite_block>, 
 <contenttweaker:faultless_ichor_gem>, <contenttweaker:faultless_ichor_gem>, 
 <contenttweaker:endergenic_sediment>, <contenttweaker:endergenic_sediment>]);
+
+mods.thaumcraft.Infusion.registerRecipe("supermithhelm", "", 
+<thaumadditions:mithminite_hood>.withTag(mapMagicShielding), 100,
+[<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
+<thaumadditions:mithminite_hood>, 
+[<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 
+<contenttweaker:phasing_gem>, <bewitchment:poppet_deathprotection>, 
+<bewitchment:sigil_battle>, <aoa3:radiant_infusion_stone>, 
+<mysticalagradditions:storage:1>, <contenttweaker:faultless_ichor>]);
+
+mods.thaumcraft.Infusion.registerRecipe("supermithchest", "", 
+<thaumadditions:mithminite_robe>.withTag(mapMagicShielding), 100,
+[<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
+<thaumadditions:mithminite_robe>, 
+[<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 
+<contenttweaker:phasing_gem>, <bewitchment:poppet_deathprotection>, 
+<bewitchment:sigil_battle>, <aoa3:radiant_infusion_stone>, 
+<mysticalagradditions:storage:1>, <contenttweaker:faultless_ichor>]);
+
+mods.thaumcraft.Infusion.registerRecipe("supermithlegs", "", 
+<thaumadditions:mithminite_belt>.withTag(mapMagicShielding), 100,
+[<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
+<thaumadditions:mithminite_belt>, 
+[<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 
+<contenttweaker:phasing_gem>, <bewitchment:poppet_deathprotection>, 
+<bewitchment:sigil_battle>, <aoa3:radiant_infusion_stone>, 
+<mysticalagradditions:storage:1>, <contenttweaker:faultless_ichor>]);
+
+mods.thaumcraft.Infusion.registerRecipe("supermithfeet", "", 
+<thaumadditions:mithminite_boots>.withTag(mapMagicShielding), 100,
+[<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
+<thaumadditions:mithminite_boots>, 
+[<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 
+<contenttweaker:phasing_gem>, <bewitchment:poppet_deathprotection>, 
+<bewitchment:sigil_battle>, <aoa3:radiant_infusion_stone>, 
+<mysticalagradditions:storage:1>, <contenttweaker:faultless_ichor>]);

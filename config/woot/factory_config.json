@@ -301,7 +301,9 @@
     "iceandfire:firedragon",
     "iceandfire:icedragon",
     "iceandfire:lightningdragon",
-    "aoa3:stimulosus"
+    "aoa3:stimulosus",
+    "bewitchment:baphomet",
+    "bewitchment:leonard"
   ],
   "entitywhitelist": [
   ],

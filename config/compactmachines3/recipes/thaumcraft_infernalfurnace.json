@@ -11,76 +11,106 @@
     
 
 
+
     "input-types": {
       "a": {
+        "id": "minecraft:tripwire",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:salis_mundus",
+            "count": 1
+          }
+      },
+      "b": {
         "id": "minecraft:nether_brick",
         "meta": 0
       },
-      "b": {
+      "c": {
         "id": "minecraft:obsidian",
         "meta": 0
       },
-      "c": {
+      "d": {
         "id": "minecraft:iron_bars",
         "meta": 0
       },
-      "d": {
+      "e": {
         "id": "minecraft:lava",
-        "meta": 0
+        "meta": 0,
+        "item": {
+            "id": "minecraft:lava_bucket",
+            "count": 1
+          }
       }
     },
     "shape": [
       [
         [
           "a",
-          "b",
-          "a"
-        ],
-        [
-          "b",
           "_",
-          "b"
+          "_"
         ],
         [
-          "a",
-          "b",
-          "a"
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
         ]
       ],
       [
         [
-          "a",
           "b",
-          "a"
+          "c",
+          "b"
         ],
         [
-          "b",
-          "d",
+          "c",
+          "_",
           "c"
         ],
         [
-          "a",
           "b",
-          "a"
+          "c",
+          "b"
         ]
       ],
       [
         [
-          "a",
           "b",
-          "a"
-        ],
-        [
-          "b",
-          "b",
+          "c",
           "b"
         ],
         [
-          "a",
+          "d",
+          "e",
+          "c"
+        ],
+        [
           "b",
-          "a"
+          "c",
+          "b"
+        ]
+      ],
+      [
+        [
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "b",
+          "c",
+          "b"
         ]
       ]
     ]
-   
+    
 }

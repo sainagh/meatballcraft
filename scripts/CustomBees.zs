@@ -1490,3 +1490,22 @@ recipes.addShaped(<deepmoblearning:data_model_primordialfractallites>.withTag({t
 [[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
 [<gendustry:honey_comb:14018>, <deepmoblearning:data_model_primordialfractallites>, <gendustry:honey_comb:14018>],
 [<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<contenttweaker:nomnomnomicon>,
+[[<gendustry:honey_comb:14010>, <gendustry:honey_comb:14010>, <gendustry:honey_comb:14010>],
+[<gendustry:honey_comb:14010>, <minecraft:book>, <gendustry:honey_comb:14010>],
+[<gendustry:honey_comb:14010>, <gendustry:honey_comb:14010>, <gendustry:honey_comb:14010>]]);
+
+recipes.addShapeless(<gendustry:honey_comb:14010>*4,
+[<contenttweaker:nomnomnomicon>.reuse(),
+<abyssalcraft:necronomicon>]);
+recipes.addShapeless(<gendustry:honey_comb:14010>*4,
+[<contenttweaker:nomnomnomicon>.reuse(),
+<abyssalcraft:necronomicon_cor>]);
+recipes.addShapeless(<gendustry:honey_comb:14010>*4,
+[<contenttweaker:nomnomnomicon>.reuse(),
+<abyssalcraft:necronomicon_dre>]);
+recipes.addShapeless(<gendustry:honey_comb:14010>*4,
+[<contenttweaker:nomnomnomicon>.reuse(),
+<abyssalcraft:abyssalnomicon>]);
+

@@ -1,0 +1,126 @@
+{
+    "name": "compactmachines3:nuclearcraft_fivexfiveturbinecoil",
+    "target-item": "contenttweaker:five_turbine_design",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+
+
+    "input-types": {
+      "b": {
+        "id": "nuclearcraft:turbine_dynamo_coil",
+        "meta": 5,
+        "item": {
+            "id": "nuclearcraft:turbine_dynamo_coil",
+            "meta": 5,
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "nuclearcraft:turbine_dynamo_coil",
+        "meta": 3,
+        "item": {
+            "id": "nuclearcraft:turbine_dynamo_coil",
+            "meta": 3,
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "nuclearcraft:turbine_dynamo_coil",
+        "meta": 4,
+        "item": {
+            "id": "nuclearcraft:turbine_dynamo_coil",
+            "meta": 4,
+            "count": 1
+          }
+      },
+      "e": {
+        "id": "nuclearcraft:turbine_dynamo_coil",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:turbine_dynamo_coil",
+            "meta": 0,
+            "count": 1
+          }
+      },
+      "f": {
+        "id": "nuclearcraft:turbine_dynamo_coil",
+        "meta": 1,
+        "item": {
+            "id": "nuclearcraft:turbine_dynamo_coil",
+            "meta": 1,
+            "count": 1
+          }
+      },
+      "g": {
+        "id": "nuclearcraft:turbine_rotor_bearing",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:turbine_rotor_bearing",
+            "count": 1
+          }
+      },
+      "h": {
+        "id": "contenttweaker:inlet_outlet",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:inlet_outlet",
+            "count": 1
+          }
+      }
+    },
+    
+    "shape": [
+      [
+        [
+          "h",
+          "h",
+          "b",
+          "c",
+          "d"
+        ]
+      ],
+      [
+        [
+          "h",
+          "h",
+          "e",
+          "f",
+          "c"
+        ]
+      ],
+      [
+        [
+          "b",
+          "e",
+          "g",
+          "e",
+          "b"
+        ]
+      ],
+      [
+        [
+          "c",
+          "f",
+          "e",
+          "h",
+          "h"
+        ]
+      ],
+      [
+        [
+          "d",
+          "c",
+          "b",
+          "h",
+          "h"
+        ]
+      ]
+    ]
+  
+}

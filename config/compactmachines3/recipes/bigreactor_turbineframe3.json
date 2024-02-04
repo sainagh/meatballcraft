@@ -1,0 +1,252 @@
+{
+    "name": "compactmachines3:bigreactor_turbineframe3",
+    "target-item": "contenttweaker:extreme_turbine",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+
+    "input-types": {
+      "a": {
+        "id": "bigreactors:turbinehousing",
+        "meta": 0,
+        "item": {
+            "id": "bigreactors:turbinehousing",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "bigreactors:turbineglass",
+        "meta": 0,
+        "item": {
+            "id": "bigreactors:turbineglass",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "bigreactors:turbinecontroller",
+        "meta": 0,
+        "item": {
+            "id": "bigreactors:turbinecontroller",
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "bigreactors:turbinebearing",
+        "meta": 0,
+        "item": {
+            "id": "bigreactors:turbinebearing",
+            "count": 1
+          }
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{id:\"bigreactors:tileentityturbinepart\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+      },
+      "b:A": {
+        "nbt": "{id:\"bigreactors:tileentityturbinepartglass\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+      },
+      "c:A": {
+        "nbt": "{id:\"bigreactors:tileentityturbinecontroller\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+      },
+      "a:B": {
+        "nbt": "{id:\"bigreactors:tileentityturbinepart\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},multiblockData:{inputTank:{Empty:\"\"},outputTank:{Empty:\"\"},active:0b,energy:0.0f,ventStatus:0,rotorEnergy:0.0f,maxIntakeRate:2000,inductorEngaged:1b}}"
+      },
+      "d:A": {
+        "nbt": "{id:\"bigreactors:tileentityturbinerotorbearing\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "a:A",
+          "b:A",
+          "b:A",
+          "b:A",
+          "a:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "a:A",
+          "b:A",
+          "b:A",
+          "b:A",
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "a:A",
+          "b:A",
+          "b:A",
+          "b:A",
+          "a:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "a:A",
+          "b:A",
+          "b:A",
+          "b:A",
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "a:A",
+          "b:A",
+          "b:A",
+          "b:A",
+          "a:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "c:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "_",
+          "_",
+          "b:A"
+        ],
+        [
+          "a:A",
+          "b:A",
+          "b:A",
+          "b:A",
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "a:B",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "d:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ]
+      ]
+    ]
+        
+}

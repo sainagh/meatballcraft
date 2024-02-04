@@ -23,10 +23,10 @@
           }
       },
       "b": {
-        "id": "thaumadditions:mithminite_smeltery",
+        "id": "thaumadditions:mithminite_smelter",
         "meta": 11,
         "item": {
-            "id": "thaumadditions:mithminite_smeltery",
+            "id": "thaumadditions:mithminite_smelter",
             "count": 1
           }
       }

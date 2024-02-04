@@ -257,6 +257,7 @@
     "dreaded_steel_ingot": 48,
     "bloodmaster_metal_ingot": 31,
     "fluctuatite_ore": 67,
+    "ascended_draconic_alloy_nugget": 315,
     "rubidium_dust": 170,
     "rhenium_dust": 77,
     "rhenium_ingot": 76,
@@ -313,6 +314,7 @@
     "brightsteel_molten": 154,
     "elite_apalachia_armor": 257,
     "oi_plate": 235,
-    "sacrifice_metal_nugget": 188
+    "sacrifice_metal_nugget": 188,
+    "ascended_draconic_alloy_armor": 316
   }
 }

@@ -22,3 +22,5 @@ mods.thermalexpansion.Pulverizer.addRecipe(<materialpart:tartarite:dust>*2, <con
 
 furnace.addRecipe(<materialpart:myrmitite:ingot>,<contenttweaker:myrmitite_ore>);
 mods.thermalexpansion.Pulverizer.addRecipe(<materialpart:myrmitite:dust>*2, <contenttweaker:myrmitite_ore>, 666);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:sednanite_ore>, <fluid:sednanite>*360]);

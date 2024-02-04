@@ -1,11 +1,11 @@
 import mods.modularmachinery.RecipeBuilder;
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tulite_flower>, 
-[[null, <contenttweaker:eternal_tulite>, null, null, null, <contenttweaker:eternal_tulite>, null], 
+[[<contenttweaker:immortallis_garnet>, <contenttweaker:eternal_tulite>, null, null, null, <contenttweaker:eternal_tulite>, <contenttweaker:ancient_cavern_garnet>], 
 [null, null, <contenttweaker:eternal_tulite>, null, <contenttweaker:eternal_tulite>, null, null], 
 [null, null, null, <contenttweaker:eternal_tulite>, null, null, null], 
 [null, null, <contenttweaker:eternal_tulite>, <contenttweaker:eternal_tulite>, <contenttweaker:eternal_tulite>, null, null], 
-[null, <contenttweaker:eternal_tulite>, null, <contenttweaker:eternal_tulite>, null, <contenttweaker:eternal_tulite>, null], 
+[<contenttweaker:greckon_garnet>, <contenttweaker:eternal_tulite>, null, <contenttweaker:eternal_tulite>, null, <contenttweaker:eternal_tulite>, <contenttweaker:dustopia_garnet>], 
 [null, null, null, <contenttweaker:eternal_tulite>, null, null, null], 
 [null, null, null, <contenttweaker:skythern_refined_gem>, null, null, null]]); 
 

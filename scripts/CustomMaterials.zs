@@ -804,3 +804,12 @@ armorichorium.addDataValue("durability", "100000");
 armorichorium.addDataValue("enchantability", "99");
 armorichorium.addDataValue("reduction", "100,100,100,100");
 armorichorium.addDataValue("toughness", "100");
+
+var colorascendeddraconicalloy = Color.fromHex("ff7300") as Color;
+var ascendeddraconicalloy = MaterialSystem.getMaterialBuilder().setName("Ascended Draconic Alloy").setColor(colorascendeddraconicalloy).build();
+ascendeddraconicalloy.registerParts(["nugget"] as string[]);
+var armorascendeddraconicalloy = ascendeddraconicalloy.registerPart("armor").getData();
+armorascendeddraconicalloy.addDataValue("durability", "100000");
+armorascendeddraconicalloy.addDataValue("enchantability", "99");
+armorascendeddraconicalloy.addDataValue("reduction", "18,22,26,20");
+armorascendeddraconicalloy.addDataValue("toughness", "25");

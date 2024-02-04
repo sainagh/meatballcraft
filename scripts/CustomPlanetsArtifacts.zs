@@ -13,13 +13,15 @@ mods.thaumcraft.Infusion.registerRecipe("rheniaartifactinfusion", "",
 <contenttweaker:rhenia_artifact>, 5,
 [<aspect:alienis>*100, <aspect:visum>*100, <aspect:metallum>*100], 
 <minecraft:dragon_egg>, 
-[<materialpart:vibranium:ingot>, <contenttweaker:jeweled_runium>, <astralsorcery:blockborehead:0>, <astralsorcery:blockborehead:1>]);
+[<materialpart:vibranium:ingot>, <contenttweaker:jeweled_runium>, 
+<astralsorcery:blockborehead:0>, <astralsorcery:blockborehead:1>, 
+<draconicevolution:draconic_block>, <contenttweaker:druden_horn>]);
 
 mods.thaumcraft.Infusion.registerRecipe("pixoniaartifactinf", "", 
 <contenttweaker:pixonia_artifact>, 5,
 [<aspect:alienis>*100, <aspect:praecantatio>*100, <aspect:cognitio>*100], 
 <draconicevolution:draconic_block>, 
-[<contenttweaker:rainbow_gemstones>, <contenttweaker:rainbow_gemstones>, <contenttweaker:lyonite_plate>, <contenttweaker:lyonite_plate>, <contenttweaker:fluxed_electrum_shaft>, <contenttweaker:fluxed_electrum_shaft>]);
+[<contenttweaker:rainbow_gemstones>, <contenttweaker:rainbow_gemstones>, <contenttweaker:lyonite_plate>, <contenttweaker:lyonite_plate>, <contenttweaker:fluxed_electrum_shaft>, <contenttweaker:fluxed_electrum_shaft>, <contenttweaker:abyssite_crystal>, <contenttweaker:abyssite_crystal>]);
 
 mods.thaumcraft.Infusion.registerRecipe("alkemiaartifactinf", "", 
 <contenttweaker:alkemia_artifact>, 9,

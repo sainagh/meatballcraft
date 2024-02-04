@@ -271,3 +271,41 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:finem_warper>,
 [<projectex:power_flower:7>, <materialpart:sednanite:ingot>, <materialpart:sednanite:ingot>,
 <materialpart:sednanite:ingot>, <materialpart:sednanite:ingot>, <materialpart:sednanite:ingot>,
 <materialpart:sednanite:ingot>, <materialpart:sednanite:ingot>, <projectex:power_flower:7>]]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:lyndenwyrm_warper>, 
+[[<contenttweaker:draconian_metal_ingot>, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, 
+<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, 
+<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, <contenttweaker:draconian_metal_ingot>], 
+
+[<draconicevolution:draconium_block:1>, <extendedcrafting:singularity_custom:2029>, <extendedcrafting:storage:4>, 
+<extendedcrafting:storage:4>, <extendedcrafting:storage:4>, <extendedcrafting:storage:4>, 
+<extendedcrafting:storage:4>, <extendedcrafting:singularity_custom:2029>, <draconicevolution:draconium_block:1>], 
+
+[<draconicevolution:draconium_block:1>, <extendedcrafting:storage:4>, <environmentaltech:structure_frame_5>, 
+<environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, 
+<environmentaltech:structure_frame_5>, <extendedcrafting:storage:4>, <draconicevolution:draconium_block:1>], 
+
+[<draconicevolution:draconium_block:1>, <extendedcrafting:storage:4>, <environmentaltech:structure_frame_5>, 
+<draconicevolution:draconic_block>, <contenttweaker:mythic_excavation_engine>, <draconicevolution:draconic_block>, 
+<environmentaltech:structure_frame_5>, <extendedcrafting:storage:4>, <draconicevolution:draconium_block:1>], 
+
+[<draconicevolution:draconium_block:1>, <extendedcrafting:storage:4>, <environmentaltech:structure_frame_5>, 
+<contenttweaker:mythic_excavation_engine>, <contenttweaker:wormhole_catalyst>, <contenttweaker:mythic_excavation_engine>, 
+<environmentaltech:structure_frame_5>, <extendedcrafting:storage:4>, <draconicevolution:draconium_block:1>], 
+
+[<draconicevolution:draconium_block:1>, <extendedcrafting:storage:4>, <environmentaltech:structure_frame_5>, 
+<draconicevolution:draconic_block>, <contenttweaker:mythic_excavation_engine>, <draconicevolution:draconic_block>, 
+<environmentaltech:structure_frame_5>, <extendedcrafting:storage:4>, <draconicevolution:draconium_block:1>], 
+
+[<draconicevolution:draconium_block:1>, <extendedcrafting:storage:4>, <environmentaltech:structure_frame_5>, 
+<environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, 
+<environmentaltech:structure_frame_5>, <extendedcrafting:storage:4>, <draconicevolution:draconium_block:1>], 
+
+[<draconicevolution:draconium_block:1>, <extendedcrafting:singularity_custom:2029>, <extendedcrafting:storage:4>, 
+<extendedcrafting:storage:4>, <extendedcrafting:storage:4>, <extendedcrafting:storage:4>, 
+<extendedcrafting:storage:4>, <extendedcrafting:singularity_custom:2029>, <draconicevolution:draconium_block:1>], 
+
+[<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, 
+<draconicevolution:draconium_block:1>, <contenttweaker:draconian_metal_ingot>, <draconicevolution:draconium_block:1>, 
+<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>]]);  

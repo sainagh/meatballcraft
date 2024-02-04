@@ -97,16 +97,8 @@ dragondysirrad.build();
 
 val dysonastralmat = RecipeBuilder.newBuilder("dysonastralmat","auto_astral_altar",1200);
 dysonastralmat.addEnergyPerTickInput(1000);
-dysonastralmat.addItemInput(<bhc:blue_heart_canister>);
-dysonastralmat.addItemInput(<bhc:green_heart_canister>);
-dysonastralmat.addItemInput(<bhc:yellow_heart_canister>);
-dysonastralmat.addItemInput(<bhc:red_heart_canister>);
-dysonastralmat.addItemInput(<bewitchment:demon_heart>);
-dysonastralmat.addItemInput(<divinerpg:eden_heart>);
-dysonastralmat.addItemInput(<divinerpg:wildwood_heart>);
-dysonastralmat.addItemInput(<divinerpg:apalachia_heart>);
-dysonastralmat.addItemInput(<divinerpg:skythern_heart>);
-dysonastralmat.addItemInput(<divinerpg:mortum_heart>);
+dysonastralmat.addItemInput(<contenttweaker:rainbow_heart_canister>);
+dysonastralmat.addItemInput(<contenttweaker:whispering_heart_of_hearts>);
 dysonastralmat.addItemInput(<materialpart:vityte:ingot>);
 dysonastralmat.addItemOutput(<contenttweaker:aeldunari>);
 dysonastralmat.build();
@@ -187,9 +179,10 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:starmetal_alloy
 
 val irradiationultimate = RecipeBuilder.newBuilder("irradiationultimate","dyson_irradiator",200);
 irradiationultimate.addEnergyPerTickInput(500000);
-irradiationultimate.addGridPowerInput(500);
+// irradiationultimate.addGridPowerInput(500);
 // irradiationultimate.addAspectInput("lux",30);
-irradiationultimate.addRainbowInput();
+// irradiationultimate.addRainbowInput();
+irradiationultimate.addItemInput(<extrautils2:decorativesolid:8>);
 irradiationultimate.addFluidInput(<fluid:hyperdense_plasma>*100);
 irradiationultimate.addFluidInput(<fluid:magnatar_stabilizer>*200);
 irradiationultimate.addItemInput(<contenttweaker:defined_ingot>);
@@ -200,9 +193,10 @@ irradiationultimate.build();
 
 val irradiationultimate1 = RecipeBuilder.newBuilder("irradiationultimate1","dyson_irradiator",200);
 irradiationultimate1.addEnergyPerTickInput(500000);
-irradiationultimate1.addGridPowerInput(500);
+// irradiationultimate1.addGridPowerInput(500);
 // irradiationultimate1.addAspectInput("lux",30);
-irradiationultimate1.addRainbowInput();
+// irradiationultimate1.addRainbowInput();
+irradiationultimate1.addItemInput(<extrautils2:decorativesolid:8>);
 irradiationultimate1.addFluidInput(<fluid:hyperdense_plasma>*100);
 irradiationultimate1.addFluidInput(<fluid:magnatar_stabilizer>*200);
 irradiationultimate1.addItemInput(<contenttweaker:defined_ingot>);
@@ -488,7 +482,7 @@ halitewarrior.addEnergyPerTickInput(50000000);
 halitewarrior.addFluidInput(<fluid:halite_fluid>*2000);
 halitewarrior.addFluidInput(<fluid:magnatar_stabilizer>*2000);
 // halitewarrior.addAspectInput("lux",50);
-halitewarrior.addRainbowInput();
+// halitewarrior.addRainbowInput();
 halitewarrior.addItemInput(<divinerpg:halite_shield>);
 halitewarrior.addItemInput(<divinerpg:halite_blade>);
 halitewarrior.addItemInput(<divinerpg:halite_bow>);
@@ -506,9 +500,10 @@ mods.nuclearcraft.fusion.addRecipe([<fluid:relativistic_matter>*10, <fluid:techn
 
 val irradiationchaosbuff = RecipeBuilder.newBuilder("irradiationchaosbuff","dyson_irradiator",200);
 irradiationchaosbuff.addEnergyPerTickInput(500000);
-irradiationchaosbuff.addGridPowerInput(6000);
-irradiationchaosbuff.addRainbowInput();
+// irradiationchaosbuff.addGridPowerInput(6000);
+// irradiationchaosbuff.addRainbowInput();
 // halitewarrior.addAspectInput("lux",10);
+irradiationchaosbuff.addItemInput(<extrautils2:decorativesolid:8>);
 irradiationchaosbuff.addFluidInput(<fluid:hyperdense_plasma>*200);
 irradiationchaosbuff.addFluidInput(<fluid:magnatar_stabilizer>*200);
 irradiationchaosbuff.addFluidInput(<fluid:chaos>*1440);

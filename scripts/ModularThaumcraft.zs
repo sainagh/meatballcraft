@@ -307,6 +307,7 @@ val reci29 = RecipeBuilder.newBuilder("thaum29","arcane_autoworkbench",120);
 reci29.addEnergyPerTickInput(100);
 reci29.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}));
 reci29.addItemInput(<thaumcraft:tube>);
+reci29.addItemInput(<ore:gateWood>);
 reci29.addItemOutput(<thaumcraft:tube_oneway>);
 reci29.build();
 
@@ -540,7 +541,7 @@ reci53.addItemInput(<appliedenergistics2:material:8>);
 reci53.addItemInput(<appliedenergistics2:material:22>);
 reci53.addItemInput(<appliedenergistics2:material:10>);
 reci53.addItemInput(<thaumcraft:nugget:5>*6);
-reci53.addItemOutput(<thaumicenergistics:coalescence_core>);
+reci53.addItemOutput(<thaumicenergistics:coalescence_core>*2);
 reci53.build();
 
 val reci54 = RecipeBuilder.newBuilder("thaum54","arcane_autoworkbench",120);
@@ -549,7 +550,7 @@ reci54.addItemInput(<appliedenergistics2:material:8>);
 reci54.addItemInput(<appliedenergistics2:material:22>);
 reci54.addItemInput(<appliedenergistics2:material:11>);
 reci54.addItemInput(<thaumcraft:nugget:5>*6);
-reci54.addItemOutput(<thaumicenergistics:diffusion_core>);
+reci54.addItemOutput(<thaumicenergistics:diffusion_core>*2);
 reci54.build();
 
 val reci55 = RecipeBuilder.newBuilder("thaum55","arcane_autoworkbench",120);

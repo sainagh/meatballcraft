@@ -1,7 +1,7 @@
 mods.jei.JEI.addDescription(<botania:terraplate>,
 [
-    "Place on top of a 3x3 base, 5 blocks of livingrock in an X shape, 4 blocks of lapis to fill the edges.",
-    "Drop a manasteel ingot, a mana pearl, and a mana diamond on top of the plate to make terrasteel",
+    "Place on top of a 3x3 base, 5 blocks of Livingrock in an X shape, 4 blocks of lapis to fill the edges.",
+    "Drop a Manasteel Ingot, a Mana Pearl, and a Mana Diamond on top of the plate to make Terrasteel",
     "It will consume half of a mana pool to craft, so make sure you have plenty of mana!"
 ]);
 
@@ -9,7 +9,7 @@ mods.jei.JEI.addDescription(<botania:terraplate>,
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "spectrolus"}),
 [
     "Generates mana by consuming wool blocks of the right colors, dropped in the right order",
-    "The wand of the forest can be used to check the desired order"
+    "The Wand of the Forest can be used to check the desired order"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "omniviolet"}),
@@ -31,7 +31,7 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "dandelifeon"
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "endoflame"}),
 [
-    "Generates mana from furnace fuels placed nearby"
+    "Generates mana from furnace fuels dropped nearby"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "moonbless"}),
@@ -42,7 +42,7 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "moonbless"})
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "bellflower"}),
 [
-    "Generates mana passively, the higher the y leve the better",
+    "Generates mana passively, the higher the y level the better",
     "Will decay eventually"
 ]);
 
@@ -54,7 +54,7 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "hydroangeas"
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "shulk_me_not"}),
 [
-    "Generates mana if a mob nearby is hit by a shulker projectile, but only works if internal buffer is empty"
+    "Generates mana if a mob nearby is hit by a Shulker projectile, but only works if internal buffer is empty"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "reikarlily"}),
@@ -79,12 +79,12 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "entropinnyum
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "narslimmus"}),
 [
-    "Consumes slimes to make mana, only works in a slime chunk"
+    "Consumes Slimes to make mana, only works in a slime chunk"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "edelweiss"}),
 [
-    "Consumes snow golems to make mana"
+    "Consumes Snow Golems to make mana"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "kekimurus"}),
@@ -133,7 +133,7 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "sunbless"}),
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "beegonia"}),
 [
-    "Generates mana from forestry drones tossed nearby"
+    "Generates mana from Forestry Drones tossed nearby"
 ]);
 
 mods.jei.JEI.addDescription(<bloodmagic:ritual_controller:1>,
@@ -149,7 +149,7 @@ mods.jei.JEI.addDescription(<bloodmagic:ritual_controller:1>,
 
 mods.jei.JEI.addDescription(<bloodmagic:ritual_controller:0>,
 [
-    "The following rituals require a base ritual diviner (see questbook for info on each ritual):",
+    "The following rituals require a base Ritual Diviner (see questbook for info on each ritual):",
     "",
     "Satiated Stomach",
     "",
@@ -188,7 +188,7 @@ mods.jei.JEI.addDescription(<bloodmagic:ritual_controller:0>,
 
 mods.jei.JEI.addDescription(<bloodmagic:ritual_controller:0>,
 [
-    "The following rituals require a dusk ritual diviner (see questbook for info on each ritual):",
+    "The following rituals require a Dusk Ritual Diviner (see questbook for info on each ritual):",
     "",
     "Infusion de Sanguine",
     "",
@@ -220,7 +220,7 @@ mods.jei.JEI.addDescription(<bloodmagic:ritual_controller:0>,
     "",
     "Crack of the Fractured Crystal",
     "",
-    "unmaking",
+    "Unmaking",
     "",
     "Feathered Knife",
     "",
@@ -263,7 +263,7 @@ mods.jei.JEI.addDescription(<bloodmagic:ritual_controller:0>,
 
 mods.jei.JEI.addDescription(<bloodmagic:ritual_diviner:1>,
 [
-    "The following rituals require a dusk ritual diviner (see questbook for info on each ritual):",
+    "The following rituals require a Dusk Ritual Diviner (see questbook for info on each ritual):",
     "",
     "Infusion de Sanguine",
     "",
@@ -295,7 +295,7 @@ mods.jei.JEI.addDescription(<bloodmagic:ritual_diviner:1>,
     "",
     "Crack of the Fractured Crystal",
     "",
-    "unmaking",
+    "Unmaking",
     "",
     "Feathered Knife",
     "",
@@ -339,7 +339,7 @@ mods.jei.JEI.addDescription(<bloodmagic:ritual_diviner:1>,
 
 mods.jei.JEI.addDescription(<bloodmagic:ritual_diviner:0>,
 [
-    "The following rituals require a base ritual diviner (see questbook for info on each ritual):",
+    "The following rituals require a base Ritual Diviner (see questbook for info on each ritual):",
     "",
     "Satiated Stomach",
     "",
@@ -385,627 +385,291 @@ mods.jei.JEI.addDescription(<thaumcraft:thaumonomicon>,
     "",
     "2. Sleep, you will get a special book in your inventory",
     "",
-    "3. Craft salis mundus",
+    "3. Craft Salis Mundus",
     "",
-    "4. Right click a bookshelf (vanilla) with the salis mundus"
+    "4. Right click a bookshelf (vanilla) with the Salis Mundus"
 ]);
 
 mods.jei.JEI.addDescription(<extrautils2:ingredients:10>,
 [
-    "Right click a patch of dirt to transform it into cursed earth.",
+    "Right click a patch of dirt to transform it into Cursed Earth.",
     "",
-    "Cursed earth increases all hostile mob spawns. And vanilla spawn proximity rules are ignored.",
+    "Cursed Earth increases all hostile mob spawns. And vanilla spawn proximity rules are ignored.",
     "",
-    "As long as cursed earth is chunkloaded, monsters will spawn!",
+    "As long as Cursed Earth is chunkloaded, monsters will spawn!",
     "",
     "The best place to use this is at y = 2 in the overworld.",
     "",
-    "If you build a cursed earth farm in the nether, make sure you cover it with strings. This will prevent fires!"
+    "If you build a Cursed Earth farm in the nether, make sure you cover it with string. This will prevent fires!"
 ]);
 
-mods.jei.JEI.addDescription(<contenttweaker:quarry>,
+mods.jei.JEI.addDescription([<contenttweaker:quarry>,
+                            <rftools:builder>,
+                            <rftools:shape_card:2>,
+                            <rftools:shape_card:3>,
+                            <rftools:shape_card:4>,
+                            <rftools:shape_card:5>,
+                            <rftools:shape_card:6>,
+                            <rftools:shape_card:7>],
 [
     "A quarry is the way you automate mining!",
     "",
-    "The builder from RFTools can be upgraded with a shape card (quarry) to automatically dig out an area!",
+    "The Builder from RFTools can be upgraded with a Shape Card (Quarry) to automatically dig out an area!",
     "",
     "Shift + right click the quarry card to set the size of the area you want to clear out.",
     "",
-    "Place a chest above the builder to automatically collect drops! Ender chests are best ;)"
+    "Place a chest above the Builder to automatically collect drops! Ender Chests are best ;)"
 ]);
 
-mods.jei.JEI.addDescription(<rftools:builder>,
-[
-    "A quarry is the way you automate mining!",
-    "",
-    "The builder from RFTools can be upgraded with a shape card (quarry) to automatically dig out an area!",
-    "",
-    "Shift + right click the quarry card to set the size of the area you want to clear out.",
-    "",
-    "Place a chest above the builder to automatically collect drops! Ender chests are best ;)"
-]);
 
-mods.jei.JEI.addDescription(<rftools:shape_card:2>,
-[
-    "A quarry is the way you automate mining!",
-    "",
-    "The builder from RFTools can be upgraded with a shape card (quarry) to automatically dig out an area!",
-    "",
-    "Shift + right click the quarry card to set the size of the area you want to clear out.",
-    "",
-    "Place a chest above the builder to automatically collect drops! Ender chests are best ;)"
-]);
 
-mods.jei.JEI.addDescription(<rftools:shape_card:3>,
-[
-    "A quarry is the way you automate mining!",
-    "",
-    "The builder from RFTools can be upgraded with a shape card (quarry) to automatically dig out an area!",
-    "",
-    "Shift + right click the quarry card to set the size of the area you want to clear out.",
-    "",
-    "Place a chest above the builder to automatically collect drops! Ender chests are best ;)"
-]);
-
-mods.jei.JEI.addDescription(<rftools:shape_card:4>,
-[
-    "A quarry is the way you automate mining!",
-    "",
-    "The builder from RFTools can be upgraded with a shape card (quarry) to automatically dig out an area!",
-    "",
-    "Shift + right click the quarry card to set the size of the area you want to clear out.",
-    "",
-    "Place a chest above the builder to automatically collect drops! Ender chests are best ;)"
-]);
-
-mods.jei.JEI.addDescription(<rftools:shape_card:5>,
-[
-    "A quarry is the way you automate mining!",
-    "",
-    "The builder from RFTools can be upgraded with a shape card (quarry) to automatically dig out an area!",
-    "",
-    "Shift + right click the quarry card to set the size of the area you want to clear out.",
-    "",
-    "Place a chest above the builder to automatically collect drops! Ender chests are best ;)"
-]);
-
-mods.jei.JEI.addDescription(<rftools:shape_card:6>,
-[
-    "A quarry is the way you automate mining!",
-    "",
-    "The builder from RFTools can be upgraded with a shape card (quarry) to automatically dig out an area!",
-    "",
-    "Shift + right click the quarry card to set the size of the area you want to clear out.",
-    "",
-    "Place a chest above the builder to automatically collect drops! Ender chests are best ;)"
-]);
-
-mods.jei.JEI.addDescription(<rftools:shape_card:7>,
-[
-    "A quarry is the way you automate mining!",
-    "",
-    "The builder from RFTools can be upgraded with a shape card (quarry) to automatically dig out an area!",
-    "",
-    "Shift + right click the quarry card to set the size of the area you want to clear out.",
-    "",
-    "Place a chest above the builder to automatically collect drops! Ender chests are best ;)"
-]);
 
 mods.jei.JEI.addDescription(<contenttweaker:ore_processing>,
 [
-    "Using a puverizer and redstone furnace will double most ores! The nuclearcraft manufactury is faster, but it's harder to craft.",
+    "Using a Puverizer and Redstone Furnace will double most ores! The Nuclearcraft Manufactory is faster, but it's harder to craft.",
     "",
-    "Using the flux anodizers upgrade on the redstone furnace will double ores!",
+    "Using the Flux Anodizers augment on the Redstone Furnace will double ores!",
     "",
-    "Using the pyro-concentrator upgrade on the induction smelter will quadruple ores!",
+    "Using the Pyro-Concentrator upgrade on the Induction Smelter will quadruple ores!",
     "",
-    "Ores from divinerpg and advent of ascension can be processed using a smeltery or using an industrial grinder!"
+    "Ores from DivineRPG and Advent of Ascension can be processed using a smeltery or using an Industrial Grinder!"
 ]);
 
 mods.jei.JEI.addDescription(<iceandfire:fire_dragon_heart>,
 [
     "The dragon heart loop is the best EMC farm in early game!",
     "",
-    "Four blaze rods have a combined EMC value of 6144, a diamond has a value of 8192!",
+    "Four Blaze Rods have a combined EMC value of 6144, a Diamond has a value of 8192!",
     "",
-    "The crafter from RFTools can be used to automate making diamonds from blaze rods! Make sure you set it to ExtC mode to keep the dragon heart!",
+    "The crafter from RFTools can be used to automate making Diamonds from Blaze Rods! Make sure you set it to ExtC mode to keep the Dragon Heart!",
     "",
-    "The diamonds can be piped into a condenser MK2 to make more blaze rods than you started with!",
+    "The Diamonds can be piped into an Energy Condenser MK2 to make more Blaze Rods than you started with!",
     "",
-    "Pipe the blaze rods from the condenser back into the crafter, to complete the loop!",
+    "Pipe the Blaze Rods from the condenser back into the crafter to complete the loop!",
     "",
-    "You can dump the excess blaze rods into another condenser to farm any EMC item you want!"
+    "You can dump the excess Blaze Rods into another condenser to farm any EMC item you want!"
 ]);
 
 mods.jei.JEI.addDescription(<draconicevolution:celestial_manipulator>,
 [
     "There are two main ways of skipping days and making it night in this pack!",
     "",
-    "The lapis imperfect ritual from blood magic lets you skip the day manually.",
+    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
     "",
-    "The celestial manipulator from draconic evolution can do it automatically with some redstone!"
+    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
 ]);
 
 mods.jei.JEI.addDescription(<minecraft:lapis_block>,
 [
     "There are two main ways of skipping days and making it night in this pack!",
     "",
-    "The lapis imperfect ritual from blood magic lets you skip the day manually.",
+    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
     "",
-    "The celestial manipulator from draconic evolution can do it automatically with some redstone!"
+    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:make_it_night>,
 [
     "There are two main ways of skipping days and making it night in this pack!",
     "",
-    "The lapis imperfect ritual from blood magic lets you skip the day manually.",
+    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
     "",
-    "The celestial manipulator from draconic evolution can do it automatically with some redstone!"
+    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:hammock>,
 [
     "There are two main ways of skipping days and making it night in this pack!",
     "",
-    "The lapis imperfect ritual from blood magic lets you skip the day manually.",
+    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
     "",
-    "The celestial manipulator from draconic evolution can do it automatically with some redstone!"
+    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:skip_day>,
 [
     "There are two main ways of skipping days and making it night in this pack!",
     "",
-    "The lapis imperfect ritual from blood magic lets you skip the day manually.",
+    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
     "",
-    "The celestial manipulator from draconic evolution can do it automatically with some redstone!"
+    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
 ]);
 
-mods.jei.JEI.addDescription(<buildcraftsilicon:assembly_table>,
+mods.jei.JEI.addDescription([<buildcraftsilicon:assembly_table>, <buildcraftsilicon:laser>],
 [
-    "The assembly table can only receive energy from buildcraft lasers! The more lasers, the faster!",
+    "The Assembly Table can only receive energy from Buildcraft Lasers! The more Lasers, the faster!",
     "",
     "Lasers can be powered with any RF cable, but some can bug out and disconnect, use conduits!",
     "",
     "Lasers need line of sight to power the table!"
 ]);
 
-mods.jei.JEI.addDescription(<buildcraftsilicon:laser>,
-[
-    "The assembly table can only receive energy from buildcraft lasers! The more lasers, the faster!",
-    "",
-    "Lasers can be powered with any RF cable, but some can bug out and disconnect, use conduits!",
-    "",
-    "Lasers need line of sight to power the table!"
-]);
 
 
 mods.jei.JEI.addDescription(<extrabees:hive:0>,
 [
-    "Found in oceans and rivers! Drops a water princess and drones!"
+    "Found in oceans and rivers! Drops a Water Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<extrabees:hive:1>,
 [
-    "Found underground! Mountain biomes are best! Drops a rocky princess and drones!"
+    "Found underground! Mountain biomes are best! Drops a Rocky Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<extrabees:hive:3>,
 [
-    "Found in villager houses! Drops a marble princess and drones!"
+    "Found in villager houses! Drops a Marble Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<forestry:beehives:0>,
 [
-    "Found in forests! Drops a forest princess and drones!"
+    "Found in forests! Drops a Forest Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<forestry:beehives:1>,
 [
-    "Found in plains! Drops a meadows princess and drones!"
+    "Found in plains! Drops a Meadows Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<forestry:beehives:2>,
 [
-    "Found in deserts! Drops a modest princess and drones!"
+    "Found in deserts! Drops a Modest Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<forestry:beehives:3>,
 [
-    "Found in jungles! Drops a tropical princess and drones!"
+    "Found in jungles! Drops a Tropical Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<forestry:beehives:6>,
 [
-    "Found in swamps! Drops a marshy princess and drones!"
+    "Found in swamps! Drops a Marshy Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<forestry:beehives:5>,
 [
-    "Found in cold biomes! Drops a wintry princess and drones!"
+    "Found in cold biomes! Drops a Wintry Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<forestry:beehives:4>,
 [
-    "Found in the end! Drops an ender princess and drones, with a chance of dropping a valiant!"
+    "Found in the end! Drops an Ender Princess and Drones, with a chance of dropping a Valiant!"
 ]);
 
 mods.jei.JEI.addDescription(<extrabees:hive:2>,
 [
-    "Found in the nether! Drops an embittered princess and drones!"
+    "Found in the nether! Drops an Embittered Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<magicbees:hiveblock:0>,
 [
-    "Found in forests! Drops a mystical princess and drones!"
+    "Found in forests! Drops a Mystical Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<magicbees:hiveblock:1>,
 [
-    "Found in plains and rivers! Drops an unusual princess and drones!"
+    "Found in plains and rivers! Drops an Unusual Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<magicbees:hiveblock:2>,
 [
-    "Found in deserts and mesas! Drops a sorcerous princess and drones!"
+    "Found in deserts and mesas! Drops a Sorcerous Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<magicbees:hiveblock:3>,
 [
-    "Found in underground! Drops an attuned princess and drones!"
+    "Found in underground! Drops an Attuned Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<magicbees:hiveblock:4>,
 [
-    "Found in the nether! Drops an infernal princess and drones!"
+    "Found in the nether! Drops an Infernal Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<magicbees:hiveblock:5>,
 [
-    "Found in the end! Drops an oblivion princess and drones!"
+    "Found in the end! Drops an Oblivion Princess and Drones!"
 ]);
 
 mods.jei.JEI.addDescription(<torcherino:blocktorcherino>,
 [
-    "The torcherino block lets you tick-accelerate adjacent tiles!",
+    "The Torcherino lets you tick-accelerate nearby tiles!",
     "",
     "Right click to increase range.",
     "",
     "Shift + right click to increase acceleration (default is 0%)."
 ]);
 
-mods.jei.JEI.addDescription(<advancedrocketry:launchpad>,
+mods.jei.JEI.addDescription([<advancedrocketry:launchpad>,<advancedrocketry:structuretower>,<contenttweaker:launchpad>],
 [
-    "To lauch any rocket, satellite, or space station into orbit, you need a launchpad multiblock! This has to be done in the overworld!",
+    "To lauch any rocket, satellite, or space station into orbit, you need a Launchpad multiblock! This has to be done in the overworld!",
     "",
-    "Place a platform of launchpads, this can be any size, as long as it's a rectangle! The wider, the bigger the rocket you can build!",
+    "Place a rectangle of Launch Pads that can be any size. The larger the launchpad, the bigger the rocket you can build!",
     "",
-    "Place a single block tower of structure towers right next to the launchpad. The taller, the the bigger the rocket you can build!",
+    "Place a single block tower of Structure Towers right next to the launchpad. The taller the tower, the the bigger the rocket you can build!",
     "",
     "Any assembler block will need to be placed one level above the launchpad, right next to it!"
 ]);
 
-mods.jei.JEI.addDescription(<advancedrocketry:structuretower>,
-[
-    "To lauch any rocket, satellite, or space station into orbit, you need a launchpad multiblock! This has to be done in the overworld!",
-    "",
-    "Place a platform of launchpads, this can be any size, as long as it's a rectangle! The wider, the bigger the rocket you can build!",
-    "",
-    "Place a single block tower of structure towers right next to the launchpad. The taller, the the bigger the rocket you can build!",
-    "",
-    "Any assembler block will need to be placed one level above the launchpad, right next to it!"
-]);
 
-mods.jei.JEI.addDescription(<contenttweaker:launchpad>,
-[
-    "To lauch any rocket, satellite, or space station into orbit, you need a launchpad multiblock! This has to be done in the overworld!",
-    "",
-    "Place a platform of launchpads, this can be any size, as long as it's a rectangle! The wider, the bigger the rocket you can build!",
-    "",
-    "Place a single block tower of structure towers right next to the launchpad. The taller, the the bigger the rocket you can build!",
-    "",
-    "Any assembler block will need to be placed one level above the launchpad, right next to it!"
-]);
 
-mods.jei.JEI.addDescription(<contenttweaker:rocket>,
+mods.jei.JEI.addDescription([<contenttweaker:rocket>,<advancedrocketry:rocketmotor>,<advancedrocketry:advrocketmotor>,<advancedrocketry:fueltank>,<advancedrocketry:guidancecomputer>,<advancedrocketry:seat>,<advancedrocketry:rocketbuilder>,<advancedrocketry:planetidchip>],
 [
-    "A rocket requires the launchpad multiblock! This has to be done in the overworld!",
+    "A rocket requires the Launchpad multiblock! This has to be done in the overworld!",
     "",
     "Rockets can be made out of any blocks as long as they are placed inside the launchpad volume!",
     "",
-    "To produce boost, the rocket needs engines, the advanced rocket engine is the best! Use those!",
+    "To produce boost, the rocket needs engines. The Advanced Rocket Engine is the best! Use those!",
     "",
-    "To store fuel, you need liquid fuel tanks!",
+    "To store fuel, you need Liquid Fuel Tanks!",
     "",
-    "To control the rocket, you need one guidance computer!",
+    "To control the rocket, you need one Guidance Computer!",
     "",
-    "To house the player, you need one seat!",
+    "To house the player, you need a Seat!",
     "",
-    "The rocket assembling machine will tell you if the rocket is good for lift-off! Once you have built it, press build!",
+    "The Rocket Assembling Machine will tell you if the rocket is good for lift-off! Once you have built it, press build!",
     "",
-    "Shift + right click the guidance computer to open the rocket GUI. Place a planet ID chip into the guidance computer. Use PlanetList in the top left of the selection screen to pick your destination!",
+    "Shift + right click the Guidance Computer to open the rocket GUI. Place a Planet ID Chip into the Guidance Computer. Use PlanetList in the top left of the selection screen to pick your destination!",
     "",
-    "Right click the rocket with buckets of rocket fuel to fuel it, or use the fueling station (placed adjacent to launchpad, one block above).",
+    "Right click the rocket with buckets of rocket fuel to fuel it, or use the Fueling Station (placed adjacent to launchpad, one block above).",
     "",
-    "Make sure you have oxygen in your space suit or airtight seal armor!"
+    "Make sure you have oxygen in your space suit or the Airtight Seal enchantment on your armor!"
 ]);
 
-mods.jei.JEI.addDescription(<advancedrocketry:rocketmotor>,
-[
-    "A rocket requires the launchpad multiblock! This has to be done in the overworld!",
-    "",
-    "Rockets can be made out of any blocks as long as they are placed inside the launchpad volume!",
-    "",
-    "To produce boost, the rocket needs engines, the advanced rocket engine is the best! Use those!",
-    "",
-    "To store fuel, you need liquid fuel tanks!",
-    "",
-    "To control the rocket, you need one guidance computer!",
-    "",
-    "To house the player, you need one seat!",
-    "",
-    "The rocket assembling machine will tell you if the rocket is good for lift-off! Once you have built it, press build!",
-    "",
-    "Shift + right click the guidance computer to open the rocket GUI. Place a planet ID chip into the guidance computer. Use PlanetList in the top left of the selection screen to pick your destination!",
-    "",
-    "Right click the rocket with buckets of rocket fuel to fuel it, or use the fueling station (placed adjacent to launchpad, one block above).",
-    "",
-    "Make sure you have oxygen in your space suit or airtight seal armor!"
-]);
 
-mods.jei.JEI.addDescription(<advancedrocketry:advrocketmotor>,
+mods.jei.JEI.addDescription([<contenttweaker:space_station>,<advancedrocketry:monitoringstation>,<advancedrocketry:spacestationchip>,<advancedrocketry:loader:1>,<advancedrocketry:stationbuilder>],
 [
-    "A rocket requires the launchpad multiblock! This has to be done in the overworld!",
+    "A Space Station requires the Launchpad multiblock and two rockets! This has to be done in the Overworld!",
     "",
-    "Rockets can be made out of any blocks as long as they are placed inside the launchpad volume!",
+    "The Space Station can be made out of any blocks as long as they are placed inside the launchpad volume!",
     "",
-    "To produce boost, the rocket needs engines, the advanced rocket engine is the best! Use those!",
+    "The Space Station Assembler will tell you if the Station Structure is valid!",
     "",
-    "To store fuel, you need liquid fuel tanks!",
+    "To assemble the Space Station you will need a Space Station ID Chip and a Satellite Bay!",
     "",
-    "To control the rocket, you need one guidance computer!",
+    "Make multiple copies of the chip using the Satellite Builder!",
     "",
-    "To house the player, you need one seat!",
+    "Build a valid rocket that has a Satellite Bay, and place the Space Station Container inside the bay.",
     "",
-    "The rocket assembling machine will tell you if the rocket is good for lift-off! Once you have built it, press build!",
+    "Place one of your ID chips into the Guidance Computer.",
     "",
-    "Shift + right click the guidance computer to open the rocket GUI. Place a planet ID chip into the guidance computer. Use PlanetList in the top left of the selection screen to pick your destination!",
-    "",
-    "Right click the rocket with buckets of rocket fuel to fuel it, or use the fueling station (placed adjacent to launchpad, one block above).",
-    "",
-    "Make sure you have oxygen in your space suit or airtight seal armor!"
-]);
-
-mods.jei.JEI.addDescription(<advancedrocketry:fueltank>,
-[
-    "A rocket requires the launchpad multiblock! This has to be done in the overworld!",
-    "",
-    "Rockets can be made out of any blocks as long as they are placed inside the launchpad volume!",
-    "",
-    "To produce boost, the rocket needs engines, the advanced rocket engine is the best! Use those!",
-    "",
-    "To store fuel, you need liquid fuel tanks!",
-    "",
-    "To control the rocket, you need one guidance computer!",
-    "",
-    "To house the player, you need one seat!",
-    "",
-    "The rocket assembling machine will tell you if the rocket is good for lift-off! Once you have built it, press build!",
-    "",
-    "Shift + right click the guidance computer to open the rocket GUI. Place a planet ID chip into the guidance computer. Use PlanetList in the top left of the selection screen to pick your destination!",
-    "",
-    "Right click the rocket with buckets of rocket fuel to fuel it, or use the fueling station (placed adjacent to launchpad, one block above).",
-    "",
-    "Make sure you have oxygen in your space suit or airtight seal armor!"
-]);
-
-mods.jei.JEI.addDescription(<advancedrocketry:guidancecomputer>,
-[
-    "A rocket requires the launchpad multiblock! This has to be done in the overworld!",
-    "",
-    "Rockets can be made out of any blocks as long as they are placed inside the launchpad volume!",
-    "",
-    "To produce boost, the rocket needs engines, the advanced rocket engine is the best! Use those!",
-    "",
-    "To store fuel, you need liquid fuel tanks!",
-    "",
-    "To control the rocket, you need one guidance computer!",
-    "",
-    "To house the player, you need one seat!",
-    "",
-    "The rocket assembling machine will tell you if the rocket is good for lift-off! Once you have built it, press build!",
-    "",
-    "Shift + right click the guidance computer to open the rocket GUI. Place a planet ID chip into the guidance computer. Use PlanetList in the top left of the selection screen to pick your destination!",
-    "",
-    "Right click the rocket with buckets of rocket fuel to fuel it, or use the fueling station (placed adjacent to launchpad, one block above).",
-    "",
-    "Make sure you have oxygen in your space suit or airtight seal armor!"
-]);
-
-mods.jei.JEI.addDescription(<advancedrocketry:seat>,
-[
-    "A rocket requires the launchpad multiblock! This has to be done in the overworld!",
-    "",
-    "Rockets can be made out of any blocks as long as they are placed inside the launchpad volume!",
-    "",
-    "To produce boost, the rocket needs engines, the advanced rocket engine is the best! Use those!",
-    "",
-    "To store fuel, you need liquid fuel tanks!",
-    "",
-    "To control the rocket, you need one guidance computer!",
-    "",
-    "To house the player, you need one seat!",
-    "",
-    "The rocket assembling machine will tell you if the rocket is good for lift-off! Once you have built it, press build!",
-    "",
-    "Shift + right click the guidance computer to open the rocket GUI. Place a planet ID chip into the guidance computer. Use PlanetList in the top left of the selection screen to pick your destination!",
-    "",
-    "Right click the rocket with buckets of rocket fuel to fuel it, or use the fueling station (placed adjacent to launchpad, one block above).",
-    "",
-    "Make sure you have oxygen in your space suit or airtight seal armor!"
-]);
-
-mods.jei.JEI.addDescription(<advancedrocketry:rocketbuilder>,
-[
-    "A rocket requires the launchpad multiblock! This has to be done in the overworld!",
-    "",
-    "Rockets can be made out of any blocks as long as they are placed inside the launchpad volume!",
-    "",
-    "To produce boost, the rocket needs engines, the advanced rocket engine is the best! Use those!",
-    "",
-    "To store fuel, you need liquid fuel tanks!",
-    "",
-    "To control the rocket, you need one guidance computer!",
-    "",
-    "To house the player, you need one seat!",
-    "",
-    "The rocket assembling machine will tell you if the rocket is good for lift-off! Once you have built it, press build!",
-    "",
-    "Shift + right click the guidance computer to open the rocket GUI. Place a planet ID chip into the guidance computer. Use PlanetList in the top left of the selection screen to pick your destination!",
-    "",
-    "Right click the rocket with buckets of rocket fuel to fuel it, or use the fueling station (placed adjacent to launchpad, one block above).",
-    "",
-    "Make sure you have oxygen in your space suit or airtight seal armor!"
-]);
-
-mods.jei.JEI.addDescription(<advancedrocketry:planetidchip>,
-[
-    "A rocket requires the launchpad multiblock! This has to be done in the overworld!",
-    "",
-    "Rockets can be made out of any blocks as long as they are placed inside the launchpad volume!",
-    "",
-    "To produce boost, the rocket needs engines, the advanced rocket engine is the best! Use those!",
-    "",
-    "To store fuel, you need liquid fuel tanks!",
-    "",
-    "To control the rocket, you need one guidance computer!",
-    "",
-    "To house the player, you need one seat!",
-    "",
-    "The rocket assembling machine will tell you if the rocket is good for lift-off! Once you have built it, press build!",
-    "",
-    "Shift + right click the guidance computer to open the rocket GUI. Place a planet ID chip into the guidance computer. Use PlanetList in the top left of the selection screen to pick your destination!",
-    "",
-    "Right click the rocket with buckets of rocket fuel to fuel it, or use the fueling station (placed adjacent to launchpad, one block above).",
-    "",
-    "Make sure you have oxygen in your space suit or airtight seal armor!"
-]);
-
-mods.jei.JEI.addDescription(<contenttweaker:space_station>,
-[
-    "A space station requires the launchpad multiblock, and two rockets! This has to be done in the overworld!",
-    "",
-    "The space station be made out of any blocks as long as they are placed inside the launchpad volume!",
-    "",
-    "The space station assembler will tell you if the station structure is valid!",
-    "",
-    "To assemble the space station you will need a space station ID chip, and a satellite bay!",
-    "",
-    "Make multiple copies of the chip using the satellite builder!",
-    "",
-    "Build a valid rocket that has a satellite bay, and place the space station container inside the bay.",
-    "",
-    "Place one of your ID chips into the guidance computer.",
-    "",
-    "Use the rocket monitoring station to lauch the space station rocket!",
+    "Use the Rocket Monitoring Station to lauch the space station rocket!",
     "",
     "Build a rocket for yourself and place another ID chip into it to go to the space station!"
 ]);
 
-mods.jei.JEI.addDescription(<advancedrocketry:monitoringstation>,
+mods.jei.JEI.addDescription([
+    <contenttweaker:warp_drive>,
+    <advancedrocketry:warpcore>,
+    <advancedrocketry:warpmonitor>],
 [
-    "A space station requires the launchpad multiblock, and two rockets! This has to be done in the overworld!",
+    "The Warp Drive setup needs to be done in a space station!",
     "",
-    "The space station be made out of any blocks as long as they are placed inside the launchpad volume!",
+    "Assemble the Warp Core multiblock, you can use the Holo-Projector to see a preview!",
     "",
-    "The space station assembler will tell you if the station structure is valid!",
+    "Pipe Dilithium into the warp core.",
     "",
-    "To assemble the space station you will need a space station ID chip, and a satellite bay!",
-    "",
-    "Make multiple copies of the chip using the satellite builder!",
-    "",
-    "Build a valid rocket that has a satellite bay, and place the space station container inside the bay.",
-    "",
-    "Place one of your ID chips into the guidance computer.",
-    "",
-    "Use the rocket monitoring station to lauch the space station rocket!",
-    "",
-    "Build a rocket for yourself and place another ID chip into it to go to the space station!"
-]);
-
-mods.jei.JEI.addDescription(<advancedrocketry:spacestationchip>,
-[
-    "A space station requires the launchpad multiblock, and two rockets! This has to be done in the overworld!",
-    "",
-    "The space station be made out of any blocks as long as they are placed inside the launchpad volume!",
-    "",
-    "The space station assembler will tell you if the station structure is valid!",
-    "",
-    "To assemble the space station you will need a space station ID chip, and a satellite bay!",
-    "",
-    "Make multiple copies of the chip using the satellite builder!",
-    "",
-    "Build a valid rocket that has a satellite bay, and place the space station container inside the bay.",
-    "",
-    "Place one of your ID chips into the guidance computer.",
-    "",
-    "Use the rocket monitoring station to lauch the space station rocket!",
-    "",
-    "Build a rocket for yourself and place another ID chip into it to go to the space station!"
-]);
-
-mods.jei.JEI.addDescription(<advancedrocketry:loader:1>,
-[
-    "A space station requires the launchpad multiblock, and two rockets! This has to be done in the overworld!",
-    "",
-    "The space station be made out of any blocks as long as they are placed inside the launchpad volume!",
-    "",
-    "The space station assembler will tell you if the station structure is valid!",
-    "",
-    "To assemble the space station you will need a space station ID chip, and a satellite bay!",
-    "",
-    "Make multiple copies of the chip using the satellite builder!",
-    "",
-    "Build a valid rocket that has a satellite bay, and place the space station container inside the bay.",
-    "",
-    "Place one of your ID chips into the guidance computer.",
-    "",
-    "Use the rocket monitoring station to lauch the space station rocket!",
-    "",
-    "Build a rocket for yourself and place another ID chip into it to go to the space station!"
-]);
-
-mods.jei.JEI.addDescription(<advancedrocketry:stationbuilder>,
-[
-    "A space station requires the launchpad multiblock, and two rockets! This has to be done in the overworld!",
-    "",
-    "The space station be made out of any blocks as long as they are placed inside the launchpad volume!",
-    "",
-    "The space station assembler will tell you if the station structure is valid!",
-    "",
-    "To assemble the space station you will need a space station ID chip, and a satellite bay!",
-    "",
-    "Make multiple copies of the chip using the satellite builder!",
-    "",
-    "Build a valid rocket that has a satellite bay, and place the space station container inside the bay.",
-    "",
-    "Place one of your ID chips into the guidance computer.",
-    "",
-    "Use the rocket monitoring station to lauch the space station rocket!",
-    "",
-    "Build a rocket for yourself and place another ID chip into it to go to the space station!"
-]);
-
-mods.jei.JEI.addDescription(<contenttweaker:warp_drive>,
-[
-    "The warp drive setup needs to be done in a space station!",
-    "",
-    "Assemble the warp core multiblock, you can use the holo-projector to see a preview!",
-    "",
-    "Pipe dilithium into the warp core.",
-    "",
-    "You can select your destination using the warp controller!",
+    "You can select your destination using the Warp Controller!",
     "",
     "Some planets need an artifact to be placed in the controller to be reached:",
     "Sedna",
@@ -1016,53 +680,8 @@ mods.jei.JEI.addDescription(<contenttweaker:warp_drive>,
     "All Dynathos planets",
     "Alkemia",
     "",
-    "To reach sedna, it may be too far to do in one lauch, travel to haumea or falacer first if that's the case."
+    "To reach Sedna, it may be too far to do in one lauch, travel to Haumea or Falacer first if that's the case."
 ]);
-
-mods.jei.JEI.addDescription(<advancedrocketry:warpcore>,
-[
-    "The warp drive setup needs to be done in a space station!",
-    "",
-    "Assemble the warp core multiblock, you can use the holo-projector to see a preview!",
-    "",
-    "Pipe dilithium into the warp core.",
-    "",
-    "You can select your destination using the warp controller!",
-    "",
-    "Some planets need an artifact to be placed in the controller to be reached:",
-    "Sedna",
-    "Rhenia",
-    "Myrmex",
-    "Pixonia",
-    "Proxima belt",
-    "All Dynathos planets",
-    "Alkemia",
-    "",
-    "To reach sedna, it may be too far to do in one lauch, travel to haumea or falacer first if that's the case."
-]);
-
-mods.jei.JEI.addDescription(<advancedrocketry:warpmonitor>,
-[
-    "The warp drive setup needs to be done in a space station!",
-    "",
-    "Assemble the warp core multiblock, you can use the holo-projector to see a preview!",
-    "",
-    "Pipe dilithium into the warp core.",
-    "",
-    "You can select your destination using the warp controller!",
-    "",
-    "Some planets need an artifact to be placed in the controller to be reached:",
-    "Sedna",
-    "Rhenia",
-    "Myrmex",
-    "Pixonia",
-    "Proxima belt",
-    "All Dynathos planets",
-    "Alkemia",
-    "",
-    "To reach sedna, it may be too far to do in one lauch, travel to haumea or falacer first if that's the case."
-]);
-
 
 mods.jei.JEI.addDescription(<contenttweaker:mob_farm>,
 [
@@ -1072,11 +691,11 @@ mods.jei.JEI.addDescription(<contenttweaker:mob_farm>,
     "Deep Mob Learning",
     "Ultimate Mob Farm",
     "",
-    "The best way to spawn mobs early on is to use a drop of evil on a patch of dirt to make cursed earth. It will increase hostile mob spawns! Y = 2 is the best place to do this!",
+    "The best way to spawn mobs early on is to use a Drop of Evil on a patch of dirt to make Cursed Earth, which will spread like grass. It will increase hostile mob spawns! Y = 2 is the best place to do this!",
     "",
-    "The mob crusher is the most convenient way to kill mobs. Range addons let you cover an entire patch of cursed earth!",
+    "The Mob Crusher is the most convenient way to kill mobs. Range Addons let you cover an entire patch of Cursed Earth!",
     "",
-    "The essence from the crusher can be used to run mob duplicators for specific mob farms."
+    "The essence from the Crusher can be used to run Mob Duplicators for specific mob farms."
 ]);
 
 mods.jei.JEI.addDescription(<industrialforegoing:mob_duplicator>,
@@ -1087,11 +706,11 @@ mods.jei.JEI.addDescription(<industrialforegoing:mob_duplicator>,
     "Deep Mob Learning",
     "Ultimate Mob Farm",
     "",
-    "The best way to spawn mobs early on is to use a drop of evil on a patch of dirt to make cursed earth. It will increase hostile mob spawns! Y = 2 is the best place to do this!",
+    "The best way to spawn mobs early on is to use a Drop of Evil on a patch of dirt to make Cursed Earth, which will spread like grass. It will increase hostile mob spawns! Y = 2 is the best place to do this!",
     "",
-    "The mob crusher is the most convenient way to kill mobs. Range addons let you cover an entire patch of cursed earth!",
+    "The Mob Crusher is the most convenient way to kill mobs. Range Addons let you cover an entire patch of Cursed Earth!",
     "",
-    "The essence from the crusher can be used to run mob duplicators for specific mob farms."
+    "The essence from the Crusher can be used to run Mob Duplicators for specific mob farms."
 ]);
 
 mods.jei.JEI.addDescription(<industrialforegoing:mob_relocator>,
@@ -1102,28 +721,28 @@ mods.jei.JEI.addDescription(<industrialforegoing:mob_relocator>,
     "Deep Mob Learning",
     "Ultimate Mob Farm",
     "",
-    "The best way to spawn mobs early on is to use a drop of evil on a patch of dirt to make cursed earth. It will increase hostile mob spawns! Y = 2 is the best place to do this!",
+    "The best way to spawn mobs early on is to use a Drop of Evil on a patch of dirt to make Cursed Earth, which will spread like grass. It will increase hostile mob spawns! Y = 2 is the best place to do this!",
     "",
-    "The mob crusher is the most convenient way to kill mobs. Range addons let you cover an entire patch of cursed earth!",
+    "The Mob Crusher is the most convenient way to kill mobs. Range Addons let you cover an entire patch of Cursed Earth!",
     "",
-    "The essence from the crusher can be used to run mob duplicators for specific mob farms."
+    "The essence from the Crusher can be used to run Mob Duplicators for specific mob farms."
 ]);
 
 mods.jei.JEI.addDescription([<woot:controller>,<woot:factory>,<woot:builder>],
 [
-    "Woot lets you build mob farms without spawning mobs. Note, they can get large!",
+    "Woot lets you build mob farms without spawning mobs. Note that the factories can get large!",
     "",
-    "There are 4 tiers of woot farms! Each tier will drop shards of the tier after (tier 1 farm drops tier 1 and 2 shards)!",
+    "There are 4 tiers of Woot farms! Each tier will drop shards of the tier after (tier 1 farm drops tier 1 and 2 shards).",
     "",
-    "To start, craft a factory heart and an intern! The intern lets you select a tier, and it will tell you the materials you need to build the woot farm! Clicking the heart with the intern will build the mobfarm!",
+    "To start, craft a factory heart and an Intern! The Intern lets you select a tier, and it will tell you the materials you need to build the Woot farm! Clicking the Factory Heart with the Intern will build the mob farm!",
     "",
-    "After the structure is complete, you will have to add some blocks manually. To check is those are correct, right click the factory heart with a ya hammer. ",
+    "After the structure is complete, you will have to add some blocks manually. To check if those are correct, right click the Factory Heart with a Ya Hammer. ",
     "",
-    "Place the following blocks under the farm, in this exact order from top to bottom, directly under the heart, with a gap of at most 10 blocks: power cell, factory importer, factory exporter.",
+    "Place the following blocks under the farm, in this exact order from top to bottom, directly under the Heart, with a gap of at most 10 blocks: Power Cell, Factory Importer, Factory Exporter.",
     "",
-    "To farm a specific mob with woot, you need a bound ender shard. Hit a mob with it, and kill it after to bind your shard (it will start glowing).",
+    "To farm a specific mob with Woot, you need a bound Ender Shard. Hit a mob with it, and kill it after to bind your shard (it will start glowing).",
     "",
-    "Use the bound shard to craft a controller, and place it on top of the block behind the factory heart!"
+    "Use the bound shard to craft a controller, and place it on top of the block behind the Factory Heart!"
 ]);
 
 
@@ -1135,283 +754,201 @@ mods.jei.JEI.addDescription(<thaumcraft:causality_collapser>,
     "2. Unlock vis battery in auromancy"
 ]);
 
-mods.jei.JEI.addDescription(<abyssalcraft:eoa>,
+mods.jei.JEI.addDescription([<contenttweaker:ritual_of_the_sleeper>, <abyssalcraft:eoa>],
 [
-    "Obtained from the ritual of the sleeper!",
+    "Obtained from the Ritual of the Sleeper!",
     "",
-    "The ritual must be performed in the abyssal wasteland, following the base abyssalcraft ritual shape. All the following ingredients are on the outside pedestals:",
-    "4 gold ingots",
-    "1 transmutation gem",
-    "1 bucket of liquid coralium",
-    "1 enchantment table",
+    "The ritual must be performed in the Abyssal Wasteland, using an Abyssal Wasteland Necronomicon, following the base Abyssalcraft ritual shape. All the following ingredients are on the outside pedestals:",
+    "4 Gold Ingots",
+    "1 Transmutation Gem",
+    "1 Bucket of Liquid Coralium",
+    "1 Enchantment Table",
     "",
-    "The ritual costs 1000 PE."
+    "The ritual costs 1000 PE.",
+	"",
+	"The Necronomicon has more information."
 ]);
 
-mods.jei.JEI.addDescription(<contenttweaker:ritual_of_the_sleeper>,
+mods.jei.JEI.addDescription([
+    <abyssalcraft:necronomicon>,
+    <abyssalcraft:necronomicon_dre>,
+    <abyssalcraft:necronomicon_cor>,
+    <abyssalcraft:necronomicon_omt>,
+    <abyssalcraft:abyssalnomicon>],
 [
-    "Obtained from the ritual of the sleeper!",
+    "The Necronomicon is the 'magic wand' of Abyssalcraft that lets you perform rituals and activate mechanics.",
     "",
-    "The ritual must be performed in the abyssal wasteland, following the base abyssalcraft ritual shape. All the following ingredients are on the outside pedestals:",
-    "4 gold ingots",
-    "1 transmutation gem",
-    "1 bucket of liquid coralium",
-    "1 enchantment table",
+    "There are 5 tiers of Necronomicon, corresponding to each dimension in the mod. Specific rituals require specific tiers, so you should upgrade as soon as you enter a new Abyssalcraft dimension.",
     "",
-    "The ritual costs 1000 PE."
+    "To run a Necronomicon needs Potential Energy (PE). This can be obtained through: ",
+    "",
+    "Abyssalcraft Statues: you can place these in-world, and they will passively charge a Necronomicon held by a player or placed on a Charging Pedestal nearby. Statues can be organized in Places of Power so that they do not produce bad effects from being placed in world. Check the multiblock previews for Statues to see Places of Power.",
+    "",
+    "Sacrificial altar: kill mobs around the altar to charge a Necronomicon held by a player or  placed on a Charging Pedestal nearby.",
+    "",
+    "Necronomibee: make Necronomicombs to craft fully charged Necronomicons. Use the Nomnomnomicon to recycle empty books.",
+	"",
+	"To perform rituals, you need 9 cobblestone of a particular type depending on the tier required by the ritual. See the multiblock preview to see how they are placed. Right click the middle cobblestone with a Necronomicon to form the ritual structure. These can bug out, if they don't work, make sure the ritual is not on a chunk boundary, and relog.",
+	"",
+	"Ritual tiers, JEI shows the specific tier for each dimension:",
+	"Overworld uses Vanilla Cobblestone",
+	"Abyssal Wasteland uses Abyssal Cobblestone",
+	"Dreadlands uses Dreadstone Cobblestone",
+	"Omothol uses Ethaxium Bricks",
+	"Darklands uses Darkstone Cobblestone"
 ]);
 
-mods.jei.JEI.addDescription(<abyssalcraft:necronomicon>,
+
+mods.jei.JEI.addDescription([
+    <abyssalcraft:powerstonetracker>],
 [
-    "The necronomicon is used to perform rituals.",
-    "",
-    "The necronomicon is charged using statues from abyssalcraft, or using the necronomicomb (recommended).",
-    "The statues are obtained by having at least 10 shoggoths producing ooze in a wide open area (the more the better), or can be found in darklands biomes.",
-    "",
-    "Necronomicon rituals are formed using 9 cobblestone (one in the center, 4 two blocks away on the axes, 4 one block away diagonally) and clicking the center one with the necronomicon.",
-    "",
-    "JEI has recipes most rituals, the ritual of the sleeper and mass enchanting have their own explanations.",
-    "",
-    "Rituals can be performed only in the overworld and in the abyssalcraft dimensions (you need a necronomicon of the corresponding type). The abyssalnomicon can perform rituals in all dimensions!"
+    "The powerstone trackers work like eyes of ender, and will lead you to the dreadlands powerstone.",
+	"",
+	"The powerstone is quite hard to find, use the Scanner Module from the questbook to help yourself out!"
 ]);
 
-mods.jei.JEI.addDescription(<abyssalcraft:necronomicon_cor>,
+mods.jei.JEI.addDescription([
+    <abyssalcraft:drainstaff:0>,
+    <abyssalcraft:drainstaff:1>,
+    <abyssalcraft:drainstaff:2>,
+    <abyssalcraft:drainstaff:3>,
+    <abyssalcraft:staff>],
 [
-    "The necronomicon is used to perform rituals.",
+    "The Staffs are used to make Abyssalcraft Essences.",
     "",
-    "The necronomicon is charged using statues from abyssalcraft, or using the necronomicomb (recommended).",
-    "The statues are obtained by having at least 10 shoggoths producing ooze in a wide open area (the more the better), or can be found in darklands biomes.",
-    "",
-    "Necronomicon rituals are formed using 9 cobblestone (one in the center, 4 two blocks away on the axes, 4 one block away diagonally) and clicking the center one with the necronomicon.",
-    "",
-    "JEI has recipes most rituals, the ritual of the sleeper and mass enchanting have their own explanations.",
-    "",
-    "Rituals can be performed only in the overworld and in the abyssalcraft dimensions (you need a necronomicon of the corresponding type). The abyssalnomicon can perform rituals in all dimensions!"
-]);
-
-mods.jei.JEI.addDescription(<abyssalcraft:necronomicon_dre>,
-[
-    "The necronomicon is used to perform rituals.",
-    "",
-    "The necronomicon is charged using statues from abyssalcraft, or using the necronomicomb (recommended).",
-    "The statues are obtained by having at least 10 shoggoths producing ooze in a wide open area (the more the better), or can be found in darklands biomes.",
-    "",
-    "Necronomicon rituals are formed using 9 cobblestone (one in the center, 4 two blocks away on the axes, 4 one block away diagonally) and clicking the center one with the necronomicon.",
-    "",
-    "JEI has recipes most rituals, the ritual of the sleeper and mass enchanting have their own explanations.",
-    "",
-    "Rituals can be performed only in the overworld and in the abyssalcraft dimensions (you need a necronomicon of the corresponding type). The abyssalnomicon can perform rituals in all dimensions!"
-]);
-
-mods.jei.JEI.addDescription(<abyssalcraft:necronomicon_omt>,
-[
-    "The necronomicon is used to perform rituals.",
-    "",
-    "The necronomicon is charged using statues from abyssalcraft, or using the necronomicomb (recommended).",
-    "The statues are obtained by having at least 10 shoggoths producing ooze in a wide open area (the more the better), or can be found in darklands biomes.",
-    "",
-    "Necronomicon rituals are formed using 9 cobblestone (one in the center, 4 two blocks away on the axes, 4 one block away diagonally) and clicking the center one with the necronomicon.",
-    "",
-    "JEI has recipes most rituals, the ritual of the sleeper and mass enchanting have their own explanations.",
-    "",
-    "Rituals can be performed only in the overworld and in the abyssalcraft dimensions (you need a necronomicon of the corresponding type). The abyssalnomicon can perform rituals in all dimensions!"
-]);
-
-mods.jei.JEI.addDescription(<abyssalcraft:abyssalnomicon>,
-[
-    "The necronomicon is used to perform rituals.",
-    "",
-    "The necronomicon is charged using statues from abyssalcraft, or using the necronomicomb (recommended).",
-    "The statues are obtained by having at least 10 shoggoths producing ooze in a wide open area (the more the better), or can be found in darklands biomes.",
-    "",
-    "Necronomicon rituals are formed using 9 cobblestone (one in the center, 4 two blocks away on the axes, 4 one block away diagonally) and clicking the center one with the necronomicon.",
-    "",
-    "JEI has recipes most rituals, the ritual of the sleeper and mass enchanting have their own explanations.",
-    "",
-    "Rituals can be performed only in the overworld and in the abyssalcraft dimensions (you need a necronomicon of the corresponding type). The abyssalnomicon can perform rituals in all dimensions!"
+    "Right click a Staff on Abyssalcraft Mobs on a given dimension to drain some of their HP and absorb energy.",
+	"",
+	"After energy reaches a treshold, an essence will be made."
 ]);
 
 
 mods.jei.JEI.addDescription(<contenttweaker:infernal_furnace>,
 [
-    "The infernal furnace is a 3x3x3 multiblock. See the JEI preview for the structure.",
+    "The Infernal Furnace is a 3x3x3 multiblock. See the JEI preview for the structure.",
     "",
-    "Right click the structure with salis mundus to form the furnace.",
+    "Right click the structure with Salis Mundus to form the furnace.",
     "",
-    "Drop items from the top to smelt them. Meats have a chance of producing meat nuggets!"
+    "This multiblock produces flux, so make sure you have ways to clear it up if you automate it!",
+    "",
+    "Drop items from the top to smelt them. Ingots have a chance of giving bonus nuggets and meats have a chance of producing meat nuggets!"
 ]);
 
-mods.jei.JEI.addDescription(<thaumcraft:chunk:0>,
+mods.jei.JEI.addDescription([
+    <thaumcraft:chunk:0>,
+    <thaumcraft:chunk:1>,
+    <thaumcraft:chunk:2>,
+    <thaumcraft:chunk:3>,
+    <thaumcraft:chunk:4>,
+    <thaumcraft:chunk:5>],
 [
-    "The infernal furnace is a 3x3x3 multiblock.",
-    "The four vertical corners of the structure are made out of nether bricks.",
+    "The Infernal Furnace is a 3x3x3 multiblock.",
+    "The four vertical corners of the structure are made out of Nether Bricks.",
     "The middle block of one of the faces is an iron bar.",
     "The top middle block is empty.",
     "The rest is obsidian.",
     "The center of the cube is lava.",
-    "Right click the structure with salis mundus to form the furnace.",
+    "Right click the structure with Salis Mundus to form the furnace.",
     "",
-    "Drop items from the top to smelt them. Meats have a chance of producing meat nuggets!"
+    "Drop items from the top to smelt them. Ingots have a chance of giving bonus nuggets and meats have a chance of producing meat nuggets!"
 ]);
-mods.jei.JEI.addDescription(<thaumcraft:chunk:1>,
-[
-    "The infernal furnace is a 3x3x3 multiblock.",
-    "The four vertical corners of the structure are made out of nether bricks.",
-    "The middle block of one of the faces is an iron bar.",
-    "The top middle block is empty.",
-    "The rest is obsidian.",
-    "The center of the cube is lava.",
-    "Right click the structure with salis mundus to form the furnace.",
-    "",
-    "Drop items from the top to smelt them. Meats have a chance of producing meat nuggets!"
-]);
-mods.jei.JEI.addDescription(<thaumcraft:chunk:2>,
-[
-    "The infernal furnace is a 3x3x3 multiblock.",
-    "The four vertical corners of the structure are made out of nether bricks.",
-    "The middle block of one of the faces is an iron bar.",
-    "The top middle block is empty.",
-    "The rest is obsidian.",
-    "The center of the cube is lava.",
-    "Right click the structure with salis mundus to form the furnace.",
-    "",
-    "Drop items from the top to smelt them. Meats have a chance of producing meat nuggets!"
-]);
-mods.jei.JEI.addDescription(<thaumcraft:chunk:3>,
-[
-    "The infernal furnace is a 3x3x3 multiblock.",
-    "The four vertical corners of the structure are made out of nether bricks.",
-    "The middle block of one of the faces is an iron bar.",
-    "The top middle block is empty.",
-    "The rest is obsidian.",
-    "The center of the cube is lava.",
-    "Right click the structure with salis mundus to form the furnace.",
-    "",
-    "Drop items from the top to smelt them. Meats have a chance of producing meat nuggets!"
-]);
-mods.jei.JEI.addDescription(<thaumcraft:chunk:4>,
-[
-    "The infernal furnace is a 3x3x3 multiblock.",
-    "The four vertical corners of the structure are made out of nether bricks.",
-    "The middle block of one of the faces is an iron bar.",
-    "The top middle block is empty.",
-    "The rest is obsidian.",
-    "The center of the cube is lava.",
-    "Right click the structure with salis mundus to form the furnace.",
-    "",
-    "Drop items from the top to smelt them. Meats have a chance of producing meat nuggets!"
-]);
-mods.jei.JEI.addDescription(<thaumcraft:chunk:5>,
-[
-    "The infernal furnace is a 3x3x3 multiblock.",
-    "The four vertical corners of the structure are made out of nether bricks.",
-    "The middle block of one of the faces is an iron bar.",
-    "The top middle block is empty.",
-    "The rest is obsidian.",
-    "The center of the cube is lava.",
-    "Right click the structure with salis mundus to form the furnace.",
-    "",
-    "Drop items from the top to smelt them. Meats have a chance of producing meat nuggets!"
-]);
-
 
 mods.jei.JEI.addDescription(<techreborn:machine_frame:0>,
 [
-    "Tech reborn machines have a limit on the amount of power they can accept, this can be increased with the transformer upgrade!",
+    "Tech Reborn machines have a limit on the amount of power they can accept, this can be increased with the Transformer Upgrade!",
     "",
-    "The overclocker upgrade lets you increase machine speed!",
+    "The Overclocker Upgrade lets you increase machine speed!",
     "",
-    "The energy storage upgrade will increase machine buffer!"
+    "The Energy Storage Upgrade will increase machine buffer!"
 ]);
 mods.jei.JEI.addDescription(<techreborn:machine_frame:1>,
 [
-    "Tech reborn machines have a limit on the amount of power they can accept, this can be increased with the transformer upgrade!",
+    "Tech Reborn machines have a limit on the amount of power they can accept, this can be increased with the Transformer Upgrade!",
     "",
-    "The overclocker upgrade lets you increase machine speed!",
+    "The Overclocker Upgrade lets you increase machine speed!",
     "",
-    "The energy storage upgrade will increase machine buffer!"
+    "The Energy Storage Upgrade will increase machine buffer!"
 ]);
 mods.jei.JEI.addDescription(<techreborn:machine_frame:2>,
 [
-    "Tech reborn machines have a limit on the amount of power they can accept, this can be increased with the transformer upgrade!",
+    "Tech Reborn machines have a limit on the amount of power they can accept, this can be increased with the Transformer Upgrade!",
     "",
-    "The overclocker upgrade lets you increase machine speed!",
+    "The Overclocker Upgrade lets you increase machine speed!",
     "",
-    "The energy storage upgrade will increase machine buffer!"
+    "The Energy Storage Upgrade will increase machine buffer!"
 ]);
 mods.jei.JEI.addDescription(<techreborn:upgrades:0>,
 [
-    "Tech reborn machines have a limit on the amount of power they can accept, this can be increased with the transformer upgrade!",
+    "Tech Reborn machines have a limit on the amount of power they can accept, this can be increased with the Transformer Upgrade!",
     "",
-    "The overclocker upgrade lets you increase machine speed!",
+    "The Overclocker Upgrade lets you increase machine speed!",
     "",
-    "The energy storage upgrade will increase machine buffer!"
+    "The Energy Storage Upgrade will increase machine buffer!"
 ]);
 mods.jei.JEI.addDescription(<techreborn:upgrades:1>,
 [
-    "Tech reborn machines have a limit on the amount of power they can accept, this can be increased with the transformer upgrade!",
+    "Tech Reborn machines have a limit on the amount of power they can accept, this can be increased with the Transformer Upgrade!",
     "",
-    "The overclocker upgrade lets you increase machine speed!",
+    "The Overclocker Upgrade lets you increase machine speed!",
     "",
-    "The energy storage upgrade will increase machine buffer!"
+    "The Energy Storage Upgrade will increase machine buffer!"
 ]);
 mods.jei.JEI.addDescription(<techreborn:upgrades:2>,
 [
-    "Tech reborn machines have a limit on the amount of power they can accept, this can be increased with the transformer upgrade!",
+    "Tech Reborn machines have a limit on the amount of power they can accept, this can be increased with the Transformer Upgrade!",
     "",
-    "The overclocker upgrade lets you increase machine speed!",
+    "The Overclocker Upgrade lets you increase machine speed!",
     "",
-    "The energy storage upgrade will increase machine buffer!"
+    "The Energy Storage Upgrade will increase machine buffer!"
 ]);
 
 mods.jei.JEI.addDescription(<techreborn:fusion_control_computer>,
 [
-    "The solid fusion reactor is part of a multiblock! It requires a ring of fusion coils and a fusion control computer. You can right click the coils on the reactor to auto place!",
+    "The Solid Fusion Reactor is part of a multiblock! It requires a ring of Fusion Coils and a Fusion Control Computer. You can right click the coils on the reactor to auto place!",
     "",
-    "The reactor can have multiple sizes, but you should use the smallest size for all recipes except promethium and ruthenium.",
+    "The reactor can have multiple sizes, but you should use the smallest size for all recipes except Promethium and Ruthenium.",
     "",
     "For energy-negative recipes (check JEI), the reactor will consume more power if it's larger.",
     "",
-    "For energy-positive recipes (promethium and ruthenium) the reactor make more power if it's larger."
+    "For energy-positive recipes (Promethium and Ruthenium) the reactor make more power if it's larger."
 ]);
 mods.jei.JEI.addDescription(<techreborn:fusion_coil>,
 [
-    "The solid fusion reactor is part of a multiblock! It requires a ring of fusion coils and a fusion control computer. You can right click the coils on the reactor to auto place!",
+    "The Solid Fusion Reactor is part of a multiblock! It requires a ring of Fusion Coils and a Fusion Control Computer. You can right click the coils on the reactor to auto place!",
     "",
-    "The reactor can have multiple sizes, but you should use the smallest size for all recipes except promethium and ruthenium.",
+    "The reactor can have multiple sizes, but you should use the smallest size for all recipes except Promethium and Ruthenium.",
     "",
     "For energy-negative recipes (check JEI), the reactor will consume more power if it's larger.",
     "",
-    "For energy-positive recipes (promethium and ruthenium) the reactor make more power if it's larger."
+    "For energy-positive recipes (Promethium and Ruthenium) the reactor make more power if it's larger."
 ]);
 mods.jei.JEI.addDescription(<contenttweaker:plasma_wood>,
 [
-    "The solid fusion reactor is part of a multiblock! It requires a ring of fusion coils and a fusion control computer. You can right click the coils on the reactor to auto place!",
+    "The Solid Fusion Reactor is part of a multiblock! It requires a ring of Fusion Coils and a Fusion Control Computer. You can right click the coils on the reactor to auto place!",
     "",
-    "The reactor can have multiple sizes, but you should use the smallest size for all recipes except promethium and ruthenium.",
+    "The reactor can have multiple sizes, but you should use the smallest size for all recipes except Promethium and Ruthenium.",
     "",
     "For energy-negative recipes (check JEI), the reactor will consume more power if it's larger.",
     "",
-    "For energy-positive recipes (promethium and ruthenium) the reactor make more power if it's larger."
+    "For energy-positive recipes (Promethium and Ruthenium) the reactor make more power if it's larger."
 ]);
 
 
 mods.jei.JEI.addDescription(<nuclearcraft:fusion_core>,
 [
-    "The magnetic confinement fusion reactor is a multiblock made with one fusion core, a lot of fusion electromagnets, and at least four fusion connectors!",
+    "The Magnetic Confinement Fusion Reactor is a multiblock made with one Fusion Core, a lot of Fusion Electromagnets, and at least four Fusion Connectors!",
     "",
-    "The fusion connectors are placed in straight lines coming out of the core on all four sides. You need at least one on each side.",
+    "The Fusion Connectors are placed in straight lines coming out of the core on all four sides. You need at least one on each side.",
     "The longer the arms, the higher the energy output! All arms should be the same length!",
     "",
-    "The fusion electromagnets are placed in four square rings around the connectors, see the multiblock preview for a size one assembly.",
+    "The Fusion Electromagnets are placed in four square rings around the connectors, see the multiblock preview for a size one assembly.",
     "",
-    "Place flux points or other energy transfer on the electromagnets until they are all green.",
+    "Place Flux Points or other energy transfer on the electromagnets until they are all green.",
     "",
-    "Once a reactor is started, temperature will build up till the heat bar is full. During this stage, the reactor will consume energy.",
+    "Once a reactor is started, temperature will build up until the heat bar is full. During this stage, the reactor will consume energy.",
     "",
     "After that bar is filled, the reactor will enter operating mode, and it will start making energy. In this state, the reactor will have to be cooled. If the temperature gets too high, it will melt down.",
     "",
-    "To cool the reactor, place active coolers around the electromagnets, and pipe water into them.",
+    "To cool the reactor, place Active Coolers around the electromagnets, and pipe water into them.",
     "If coolers are placed following central symmetry with respect to the core, they are more efficient.",
     "The reactor makes the most power at 100% efficiency! No more, no less."
 ]);
@@ -1419,118 +956,118 @@ mods.jei.JEI.addDescription(<nuclearcraft:fusion_core>,
 
 mods.jei.JEI.addDescription(<industrialforegoing:tinydryrubber>,
 [
-    "To make tiny dry rubber you will need a latex processing unit, and tree fluid extractors!",
+    "To make Tiny Dry Rubber you will need a Latex Processing Unit, and Tree Fluid Extractors!",
     "",
     "Three fluid extractors will make latex by breaking wood logs placed in front of them. Multiple extractors can be placed on the same wood block!",
-    "This can be automated with any block placer (mechanical user recommended) to continuosly refill wood!",
+    "This can be automated with any block placer (Mechanical User recommended) to continuously refill wood!",
     "",
-    "The latex processing unit takes water, latex, and energy to make tiny dry rubber!"
+    "The Latex Processing Unit takes water, latex, and energy to make Tiny Dry Rubber!"
 ]);
 
 mods.jei.JEI.addDescription(<industrialforegoing:latex_processing_unit>,
 [
-    "To make tiny dry rubber you will need a latex processing unit, and tree fluid extractors!",
+    "To make Tiny Dry Rubber you will need a Latex Processing Unit, and Tree Fluid Extractors!",
     "",
     "Three fluid extractors will make latex by breaking wood logs placed in front of them. Multiple extractors can be placed on the same wood block!",
-    "This can be automated with any block placer (mechanical user recommended) to continuosly refill wood!",
+    "This can be automated with any block placer (Mechanical User recommended) to continuously refill wood!",
     "",
-    "The latex processing unit takes water, latex, and energy to make tiny dry rubber!"
+    "The Latex Processing Unit takes water, latex, and energy to make Tiny Dry Rubber!"
 ]);
 
 mods.jei.JEI.addDescription(<industrialforegoing:tree_fluid_extractor>,
 [
-    "To make tiny dry rubber you will need a latex processing unit, and tree fluid extractors!",
+    "To make Tiny Dry Rubber you will need a Latex Processing Unit, and Tree Fluid Extractors!",
     "",
     "Three fluid extractors will make latex by breaking wood logs placed in front of them. Multiple extractors can be placed on the same wood block!",
-    "This can be automated with any block placer (mechanical user recommended) to continuosly refill wood!",
+    "This can be automated with any block placer (Mechanical User recommended) to continuously refill wood!",
     "",
-    "The latex processing unit takes water, latex, and energy to make tiny dry rubber!"
+    "The Latex Processing Unit takes water, latex, and energy to make Tiny Dry Rubber!"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:early_game_energy>,
 [
     "The recommended early-game energy progression is:",
-    "1. Thermoelectric generators (for getting started)",
-    "2. Any dynamo from thermal expansion (you may want to spam these), or the diesel generator from immersive engineering",
-    "3. Compression engine (to run mythic miners)",
-    "4. Yellorium Reactor",
+    "1. Thermoelectric Generators (for getting started)",
+    "2. Any dynamo from Thermal Expansion (you may want to spam these), or the Diesel Generator from Immersive Engineering",
+    "3. Compression Engine (to run mythic miners)",
+    "4. Yellorium-fueled Extreme Reactor",
     "5. Nuclearcraft"
 ]);
 
 mods.jei.JEI.addDescription(<astralsorcery:itemwand>,
 [
-    "Recipes that require starlight are done in the large astral sorcery temples!",
+    "Recipes that require starlight are done in the large Astral Sorcery temples!",
     "",
-    "Place a crafting table under the collector crystal, and break blocks so that the crystal can see the sky.",
+    "Place a crafting table under the Collector Crystal, and break blocks so that the crystal can see the sky.",
     "",
     "Starlight recipes can only be made at night!"
 ]);
 
 mods.jei.JEI.addDescription(<astralsorcery:blockaltar:0>,
 [
-    "Recipes that require starlight are done in the large astral sorcery temples!",
+    "Recipes that require starlight are done in the large Astral Sorcery temples!",
     "",
-    "Place a crafting table under the collector crystal, and break blocks so that the crystal can see the sky.",
+    "Place a crafting table under the Collector Crystal, and break blocks so that the crystal can see the sky.",
     "",
     "Starlight recipes can only be made at night!"
 ]);
 
 mods.jei.JEI.addDescription(<appliedenergistics2:part:360>,
 [
-    "The ME crafting terminal lets you see all items in your AE2 network, and it includes a crafting table!",
+    "The ME Crafting Terminal lets you see all items in your AE2 network and it includes a crafting table!",
     "",
-    "You can import recipes from JEI. If an item shows as blue in the JEI recipe preview, you can middle click on it to automatically autocraft it!"
+    "You can import recipes from JEI. If an item shows as blue in the JEI recipe preview, you can middle click on it to autocraft it!"
 ]);
 
 mods.jei.JEI.addDescription(<appliedenergistics2:part:380>,
 [
-    "The ME terminal lets you see all items in your AE2 network. You should upgrade to the crafting terminal!"
+    "The ME Terminal lets you see all items in your AE2 network. You should upgrade to the crafting terminal!"
 ]);
 
 mods.jei.JEI.addDescription([<appliedenergistics2:part:340>,<appliedenergistics2:part:340>],
 [
-    "The ME pattern terminal lets you encode recipes into patterns for autocrafting.",
+    "The ME Pattern Terminal lets you encode recipes into patterns for autocrafting.",
     "",
-    "Patterns have two modes: 'Crafting Pattern' works for molecular assembler recipes, 'Processing Pattern' mode works for any interface-machine interaction!",
+    "Patterns have two modes: 'Crafting Pattern' works for Molecular Assembler recipes, 'Processing Pattern' mode works for any interface-machine interaction!",
     "",
-    "Press R on an item in JEI to add it as a recipe. Click and drag items in JEI to add them as recipes manually!"
+    "Press R on an item in JEI to add it as a recipe. Click and drag items from JEI to add them as recipes manually!"
 ]);
 
 mods.jei.JEI.addDescription(<appliedenergistics2:part:480>,
 [
-    "The ME interface terminal lets you see all interfaces in your network!",
+    "The ME Interface Terminal lets you see all interfaces in your network!",
     "",
-    "Each ineterface can be named, and patterns can be added directly from this terminal!"
+    "Each interface can be named, and patterns can be added directly from this terminal!"
 ]);
 
 mods.jei.JEI.addDescription(<appliedenergistics2:part:520>,
 [
-    "The ME fluid terminal lets you see all fluids in your network!"
+    "The ME Fluid Terminal lets you see all fluids in your network!"
 ]);
 
 mods.jei.JEI.addDescription(<ae2fc:part_fluid_pattern_terminal>,
 [
-    "The ME fluid pattern terminal works like the pattern terminal, but with fluids too!"
+    "The ME Fluid Pattern Terminal works like the ME Pattern Terminal, but with fluids too!"
 ]);
 
 mods.jei.JEI.addDescription(<erebus:portal_activator>,
 [
-    "Part of the portal to the erebus!",
+    "Part of the portal to the Erebus!",
     "",
     "Build a portal frame (any size) out of stone bricks, and place leaves inside!",
     "",
-    "Place the gaean keystone within 6 blocks of the portal (same height as bottom block).",
+    "Place the Gaean Keystone within 6 blocks of the portal (same height as bottom block).",
     "",
-    "Use the staff of Gaea on the altar to open the portal. This may bug out, so try different locations for the keystone!",
+    "Use the Staff of Gaea on the altar to open the portal. This may bug out, so try different locations for the keystone!",
     "",
     "You will need a way back!"
 ]);
 
 mods.jei.JEI.addDescription(<immersiveengineering:connector:0>,
 [
-    "Place connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
     "",
-    "Connectors have a 16 block range, so if your ends are furthen than that, you will have to place one in between!",
+    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
     "",
     "Connectors can only have one input and one output, relays can have multiple!",
     "",
@@ -1541,9 +1078,9 @@ mods.jei.JEI.addDescription(<immersiveengineering:connector:0>,
 
 mods.jei.JEI.addDescription(<immersiveengineering:connector:1>,
 [
-    "Place connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
     "",
-    "Connectors have a 16 block range, so if your ends are furthen than that, you will have to place one in between!",
+    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
     "",
     "Connectors can only have one input and one output, relays can have multiple!",
     "",
@@ -1554,9 +1091,9 @@ mods.jei.JEI.addDescription(<immersiveengineering:connector:1>,
 
 mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:0>,
 [
-    "Place connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
     "",
-    "Connectors have a 16 block range, so if your ends are furthen than that, you will have to place one in between!",
+    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
     "",
     "Connectors can only have one input and one output, relays can have multiple!",
     "",
@@ -1567,9 +1104,9 @@ mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:0>,
 
 mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:6>,
 [
-    "Place connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
     "",
-    "Connectors have a 16 block range, so if your ends are furthen than that, you will have to place one in between!",
+    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
     "",
     "Connectors can only have one input and one output, relays can have multiple!",
     "",
@@ -1580,9 +1117,9 @@ mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:6>,
 
 mods.jei.JEI.addDescription(<immersiveengineering:connector:2>,
 [
-    "Place connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
     "",
-    "Connectors have a 16 block range, so if your ends are furthen than that, you will have to place one in between!",
+    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
     "",
     "Connectors can only have one input and one output, relays can have multiple!",
     "",
@@ -1593,9 +1130,9 @@ mods.jei.JEI.addDescription(<immersiveengineering:connector:2>,
 
 mods.jei.JEI.addDescription(<immersiveengineering:connector:3>,
 [
-    "Place connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
     "",
-    "Connectors have a 16 block range, so if your ends are furthen than that, you will have to place one in between!",
+    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
     "",
     "Connectors can only have one input and one output, relays can have multiple!",
     "",
@@ -1606,9 +1143,9 @@ mods.jei.JEI.addDescription(<immersiveengineering:connector:3>,
 
 mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:1>,
 [
-    "Place connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
     "",
-    "Connectors have a 16 block range, so if your ends are furthen than that, you will have to place one in between!",
+    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
     "",
     "Connectors can only have one input and one output, relays can have multiple!",
     "",
@@ -1619,9 +1156,9 @@ mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:1>,
 
 mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:7>,
 [
-    "Place connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
     "",
-    "Connectors have a 16 block range, so if your ends are furthen than that, you will have to place one in between!",
+    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
     "",
     "Connectors can only have one input and one output, relays can have multiple!",
     "",
@@ -1632,9 +1169,9 @@ mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:7>,
 
 mods.jei.JEI.addDescription(<immersiveengineering:connector:4>,
 [
-    "Place connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
     "",
-    "Connectors have a 16 block range, so if your ends are furthen than that, you will have to place one in between!",
+    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
     "",
     "Connectors can only have one input and one output, relays can have multiple!",
     "",
@@ -1645,9 +1182,9 @@ mods.jei.JEI.addDescription(<immersiveengineering:connector:4>,
 
 mods.jei.JEI.addDescription(<immersiveengineering:connector:5>,
 [
-    "Place connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
     "",
-    "Connectors have a 16 block range, so if your ends are furthen than that, you will have to place one in between!",
+    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
     "",
     "Connectors can only have one input and one output, relays can have multiple!",
     "",
@@ -1658,9 +1195,9 @@ mods.jei.JEI.addDescription(<immersiveengineering:connector:5>,
 
 mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:2>,
 [
-    "Place connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
     "",
-    "Connectors have a 16 block range, so if your ends are furthen than that, you will have to place one in between!",
+    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
     "",
     "Connectors can only have one input and one output, relays can have multiple!",
     "",
@@ -1671,74 +1208,74 @@ mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:2>,
 
 mods.jei.JEI.addDescription(<tesslocator:basic_item_tesslocator>,
 [
-    "Place two tesslocators in the same block space to transfer energy between them.",
+    "Place two Tesslocators in the same block space to transfer items between them.",
     "",
     "Orange: output",
     "Blue: input",
     "",
-    "Add glowstone to incerase speed.",
-    "Add diamond to transfer fullstacks instead of items.",
-    "With max upgrades, tesslocators are one of the fastest item transfer in the pack!"
+    "Add Glowstone to increase speed.",
+    "Add Diamond to transfer full stacks instead of individual items.",
+    "With max upgrades, Tesslocators are one of the fastest item transfer methods in the pack!"
 ]);
 
 mods.jei.JEI.addDescription(<tesslocator:basic_fluid_tesslocator>,
 [
-    "Place two tesslocators in the same block space to transfer energy between them."
+    "Place two Tesslocators in the same block space to transfer fluids between them."
 ]);
 
 mods.jei.JEI.addDescription(<tesslocator:basic_energy_tesslocator>,
 [
-    "Place two tesslocators in the same block space to transfer energy between them."
+    "Place two Tesslocators in the same block space to transfer energy between them."
 ]);
 
 mods.jei.JEI.addDescription(<enderio:item_item_conduit>,
 [
-    "All conduits share the same block space, making them very useful for compact automations!",
+    "All conduits share the same block space, making them very useful for compact automation!",
     "",
-    "To configure a conduit, right click a connection with an empty hand, or shift left click using the crescent hammer!",
+    "To configure a conduit, right click a connection with an empty hand, or shift left click using the Crescent Hammer!",
     "",
     "Each connection can be configured to be input or output, and redstone interactions can be specified. 'Always on' mode is not active by default!",
     "",
-    "Conduits have separate channels, corresponding to the 16 colors in vanilla minecraft! Channels with the same colors will be connected to each other. You can have multiple channels going through the same conduit lines!",
+    "Conduits have separate channels, corresponding to the 16 colors in vanilla Minecraft! Channels with the same colors will be connected to each other. You can have multiple channels going through the same conduit lines!",
     "",
     "Inputs and outputs can be configured using filters, and speed upgrades! All available filters will show up in JEI when searching for 'conduit'!"
 ]);
 
 mods.jei.JEI.addDescription(<enderio:item_liquid_conduit>,
 [
-    "All conduits share the same block space, making them very useful for compact automations!",
+       "All conduits share the same block space, making them very useful for compact automation!",
     "",
-    "To configure a conduit, right click a connection with an empty hand, or shift left click using the crescent hammer!",
+    "To configure a conduit, right click a connection with an empty hand, or shift left click using the Crescent Hammer!",
     "",
     "Each connection can be configured to be input or output, and redstone interactions can be specified. 'Always on' mode is not active by default!",
     "",
-    "Conduits have separate channels, corresponding to the 16 colors in vanilla minecraft! Channels with the same colors will be connected to each other. You can have multiple channels going through the same conduit lines!",
+    "Conduits have separate channels, corresponding to the 16 colors in vanilla Minecraft! Channels with the same colors will be connected to each other. You can have multiple channels going through the same conduit lines!",
     "",
     "Inputs and outputs can be configured using filters, and speed upgrades! All available filters will show up in JEI when searching for 'conduit'!"
 ]);
 
 mods.jei.JEI.addDescription(<enderio:item_liquid_conduit:1>,
 [
-    "All conduits share the same block space, making them very useful for compact automations!",
+       "All conduits share the same block space, making them very useful for compact automation!",
     "",
-    "To configure a conduit, right click a connection with an empty hand, or shift left click using the crescent hammer!",
+    "To configure a conduit, right click a connection with an empty hand, or shift left click using the Crescent Hammer!",
     "",
     "Each connection can be configured to be input or output, and redstone interactions can be specified. 'Always on' mode is not active by default!",
     "",
-    "Conduits have separate channels, corresponding to the 16 colors in vanilla minecraft! Channels with the same colors will be connected to each other. You can have multiple channels going through the same conduit lines!",
+    "Conduits have separate channels, corresponding to the 16 colors in vanilla Minecraft! Channels with the same colors will be connected to each other. You can have multiple channels going through the same conduit lines!",
     "",
     "Inputs and outputs can be configured using filters, and speed upgrades! All available filters will show up in JEI when searching for 'conduit'!"
 ]);
 
 mods.jei.JEI.addDescription(<enderio:item_liquid_conduit:2>,
 [
-    "All conduits share the same block space, making them very useful for compact automations!",
+       "All conduits share the same block space, making them very useful for compact automation!",
     "",
-    "To configure a conduit, right click a connection with an empty hand, or shift left click using the crescent hammer!",
+    "To configure a conduit, right click a connection with an empty hand, or shift left click using the Crescent Hammer!",
     "",
     "Each connection can be configured to be input or output, and redstone interactions can be specified. 'Always on' mode is not active by default!",
     "",
-    "Conduits have separate channels, corresponding to the 16 colors in vanilla minecraft! Channels with the same colors will be connected to each other. You can have multiple channels going through the same conduit lines!",
+    "Conduits have separate channels, corresponding to the 16 colors in vanilla Minecraft! Channels with the same colors will be connected to each other. You can have multiple channels going through the same conduit lines!",
     "",
     "Inputs and outputs can be configured using filters, and speed upgrades! All available filters will show up in JEI when searching for 'conduit'!"
 ]);
@@ -1747,7 +1284,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:servo:0>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Servos are used to extract from an inventory and push into other inventories."
 ]);
@@ -1756,7 +1293,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:servo:1>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Servos are used to extract from an inventory and push into other inventories."
 ]);
@@ -1765,7 +1302,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:servo:2>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Servos are used to extract from an inventory and push into other inventories."
 ]);
@@ -1774,7 +1311,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:servo:3>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Servos are used to extract from an inventory and push into other inventories."
 ]);
@@ -1783,7 +1320,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:servo:4>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Servos are used to extract from an inventory and push into other inventories."
 ]);
@@ -1792,7 +1329,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:filter:0>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Filters are used to select or prevent specific items from entering an inventory."
 ]);
@@ -1801,7 +1338,8 @@ mods.jei.JEI.addDescription(<thermaldynamics:filter:1>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+
     "",
     "Filters are used to select or prevent specific items from entering an inventory."
 ]);
@@ -1810,7 +1348,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:filter:2>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Filters are used to select or prevent specific items from entering an inventory."
 ]);
@@ -1819,7 +1357,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:filter:3>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Filters are used to select or prevent specific items from entering an inventory."
 ]);
@@ -1828,7 +1366,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:filter:4>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Filters are used to select or prevent specific items from entering an inventory."
 ]);
@@ -1837,7 +1375,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:retriever:0>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Retrievers are used to pull items from other inventories."
 ]);
@@ -1846,7 +1384,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:retriever:1>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Retrievers are used to pull items from other inventories."
 ]);
@@ -1855,7 +1393,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:retriever:2>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Retrievers are used to pull items from other inventories."
 ]);
@@ -1864,7 +1402,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:retriever:3>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Retrievers are used to pull items from other inventories."
 ]);
@@ -1873,58 +1411,58 @@ mods.jei.JEI.addDescription(<thermaldynamics:retriever:4>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a crescent hammer to remove them from ducts!",
+    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Retrievers are used to pull items from other inventories."
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:magic_strategy_technologist>,
 [
-    "Start with botania and bewitchment, these will unlock the builder and the ability to build modular machines!",
+    "Start with Botania and Bewitchment, these will unlock the Builder and the ability to build Modular Machines!",
     "Every magic mod you do after this point will be automatable!",
     "",
-    "Continue with blood magic (to unlock the ability to make it night), and follow it with astral sorcery and wizardry!",
+    "Continue with Blood Magic (to unlock the ability to make it night), and follow it with Astral Sorcery and Electroblob's Wizardry!",
     "",
-    "Finish with thaumcraft and abyssalcraft! Follow the guidelines for these!"
+    "Finish with Thaumcraft and Abyssalcraft! Follow the guidelines for these!"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:magic_strategy_warrior>,
 [
-    "Start with wizardry, this will give you the best early game damage!",
+    "Start with Electroblob's Wizardry, this will give you the best early game damage!",
     "",
-    "Continue with blood magic (to unlock the ability to make it night), and follow it with astral sorcery.",
+    "Continue with Blood Magic (to unlock the ability to make it night), and follow it with Astral Sorcery.",
     "",
-    "Set up botania and bewitchment to unlock the builder and the ability to build modular machines!",
+    "Set up Botania and Bewitchment to unlock the Builder and the ability to build Modular Machines!",
     "",
-    "Finish with thaumcraft and abyssalcraft! Follow the guidelines for these!"
+    "Finish with Thaumcraft and Abyssalcraft! Follow the guidelines for these!"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:magic_strategy_warped>,
 [
-    "Start with blood magic to unlock the ritual of eldritch will!",
+    "Start with Blood Magic to unlock the Ritual of Eldritch Will!",
     "",
-    "Go crazy with thaumcraft to unlock sanitizing soap.",
+    "Go crazy with Thaumcraft to unlock Sanity Soap.",
     "",
-    "Get PTSD from abyssalcraft! But you will get your hands on the omothol warp cleanser!",
+    "Get PTSD from Abyssalcraft! But you can get your hands on the Omothol warp cleanser!",
     "",
-    "Unlock all thaumcraft research and get mithminite armor!",
+    "Unlock all Thaumcraft research and get Mithminite armor!",
     "",
-    "Go through bewitchment and botania, these will unlock the builder and the ability to build modular machines!",
+    "Go through Bewitchment and Botania, these will unlock the Builder and the ability to build Modular Machines!",
     "",
-    "Finish with wizardry and astral sorcery."
+    "Finish with Electroblob's Wizardry and Astral Sorcery."
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:mining_advice>,
 [
     "This is the suggested strategy for obtaining ores resources!",
     "",
-    "1. Get basic tools, and mine below y = 17 to get enough rupee to make a shickaxe!",
+    "1. Get basic tools, and mine below y = 17 to get enough Rupee to make a shickaxe!",
     "",
-    "2. Use the shickaxe below y = 10 to obtain ascended sapphire to make a hammer stencil from tinker's construct! Shocking is a good trait for this because it gives haste!",
+    "2. Use the shickaxe below y = 10 to obtain Ascended Sapphire to make a Hammer Stencil from Tinker's Construct! Shocking is a good trait for this because it gives haste!",
     "",
-    "3. Craft the destruction catalyst after unlocking elite crafting. early on you will have to run it with coal, but as soon as you can use a klein star!",
+    "3. Craft the Destruction Catalyst after unlocking Elite Crafting. Early on you will have to run it with coal, but soon you can use a Klein Star!",
     "",
-    "4. Make a quarry using a builder after unlocking botania! If you have done astral sorcery, the mineralis ritual combined with the builder will give infinite ores!",
+    "4. Make a quarry using a Builder after unlocking Botania! If you have done Astral Sorcery, the Mineralis ritual combined with the Builder will give infinite ores!",
     "",
     "5. Void ore miner from environmental tech!"
 ]);
@@ -1949,9 +1487,9 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_blast_furnace>,
 [
     "Come on! At least try to solve the puzzle!",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "", "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  
-    "Coke blocks are found on the roof of the library structures that spawn books and contain elytra.",
+    "Coke Blocks are found on the roof of the library structures that spawn books and contain Elytra.",
     "",
-    "Blast bricks are found at the petrified troll camps around the fire, and in the middle of the watchtowers made out dried bricks with black ink chicken eggs!"
+    "Blast Bricks are found at the petrified troll camps around the fire, and in the middle of the watchtowers made out Dried Bricks with Black Ink Chicken Eggs!"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_haumea>,
@@ -2002,11 +1540,11 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_phasinggem>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "You have to use the spatial phaser in the right dimension and in the right biome, lelyetia will tell you the info you need!",
+    "You have to use the Spatial Phaser in the right dimension and in the right biome, Lelyetia will tell you the info you need!",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Use the spatial phaser in a 9x9 area of undergarden inside of creeponia."
+    "Use the Spatial Phaser in a 9x9 area of Undergarden inside of Creeponia."
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_barongem>,
@@ -2088,6 +1626,32 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_kikoku>,
     "<C> <H> <A>",
     "<S> <recursive powder> <M>",
     "<E> <R> <B>"
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_recursiveimprisonment>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "The right spice has to be pressed using the right Stencils from Openblocks. Lunalus will tell you which ones, and the plant used to farm this spice.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft Cloves with the following Openblocks Stencils: Creeper Face, Vertical Bars, Spiral, Chest."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_runicore>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Various ores are found in Apalachia worldgen, process them into Eldritch Clusters using a Catalyzation Chamber and an Alienist's Stone",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Combine the Runic Ore with the following Eldritch Clusters: Cinnabar, Gold, Lead."
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_mysterium>,
@@ -2204,8 +1768,8 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_orcus>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Two recipes. Craft a blood infused dimensional ingot with aquatooth, carmile, hippogryph, darkwood swords.",
-    "Craft a blood infused dimensional ingot with legbone, bone from betweenlands, wasp, dragonbone swords.",
+    "Two recipes. Craft a Blood Infused Dimensional Ingot with Aquatooth, Cermile, Hippogryph, Darkwood swords.",
+    "Craft a Blood Infused Dimensional Ingot with Legbone, Bone from Betweenlands, Wasp, Dragonbone Swords.",
     "All swords are found in orcus."
 ]);
 
@@ -2344,24 +1908,24 @@ mods.jei.JEI.addDescription(<bloodmagic:altar>,
 [
     "The altar requires blood (LP) to craft, JEI will indicate the tier of altar and LP cost for each recipe.",
     "",
-    "The inspectoris scandalum lets you see previews for each tier.",
+    "The Inspectoris Scandalum lets you see previews for each tier.",
     "",
     "To produce LP, this is the recommended progression:",
-    "1a. Sacrificial dagger to produce LP from yourself till you can make a ritual diviner dusk",
-    "1b. If making LP from yourself is a trigger, you can use the dagger of sacrifice to kill mobs nearby the altar",
-    "3. Ritual of culling with a mob farm (more info on questbook). Soul shards makes the fastest spawners ;)",
-    "4. Digital mob agonizers"
+    "1a. Sacrificial Dagger to produce LP from yourself till you can make a Ritual Diviner: Dusk",
+    "1b. If making LP from yourself is a trigger, you can use the Dagger of Sacrifice to kill mobs near the altar",
+    "3. Ritual of Culling with a mob farm (more info on questbook). Soul shards makes the fastest spawners ;)",
+    "4. Digital Mob Agonizers"
 ]);
 
 mods.jei.JEI.addDescription(<bloodmagic:blood_orb>,
 [
-    "The blood orb is how you start an LP network. Right click the orb to bind it to your player.",
+    "The Blood Orb is how you start an LP network. Right click the orb to bind it to your player.",
     "",
     "The LP network is used to fuel all rituals.",
     "",
-    "Place a blood orb in the blood altar to add LP to your LP network.",
+    "Place a Blood Orb in the Blood Altar to add LP to your LP network.",
     "",
-    "The higher the blood orb tier, the higher the capacity of your LP network.",
+    "The higher the Blood Orb tier, the higher the capacity of your LP network.",
     "",
     "Capacity:",
     "Weak 5'000",
@@ -2375,7 +1939,7 @@ mods.jei.JEI.addDescription(<bloodmagic:blood_orb>,
 
 mods.jei.JEI.addDescription(<projectex:stone_table>,
 [
-    "The transmutation table lets learn and reproduce all items that have EMC values!",
+    "The Transmutation Table lets you learn and reproduce all items that have EMC values!",
     "",
     "Place an item in the table, or burn it in the fire, to learn it!",
     "",
@@ -2383,11 +1947,11 @@ mods.jei.JEI.addDescription(<projectex:stone_table>,
     "",
     "All items that have been learned can be extracted if your network has enough EMC to sustain them!",
     "",
-    "The klein star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
+    "The Klein Star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
 ]);
 mods.jei.JEI.addDescription(<projecte:transmutation_table>,
 [
-    "The transmutation table lets learn and reproduce all items that have EMC values!",
+    "The Transmutation Table lets you learn and reproduce all items that have EMC values!",
     "",
     "Place an item in the table, or burn it in the fire, to learn it!",
     "",
@@ -2395,11 +1959,11 @@ mods.jei.JEI.addDescription(<projecte:transmutation_table>,
     "",
     "All items that have been learned can be extracted if your network has enough EMC to sustain them!",
     "",
-    "The klein star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
+    "The Klein Star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
 ]);
 mods.jei.JEI.addDescription(<projecte:item.pe_transmutation_tablet>,
 [
-    "The transmutation table lets learn and reproduce all items that have EMC values!",
+    "The Transmutation Table lets you learn and reproduce all items that have EMC values!",
     "",
     "Place an item in the table, or burn it in the fire, to learn it!",
     "",
@@ -2407,11 +1971,11 @@ mods.jei.JEI.addDescription(<projecte:item.pe_transmutation_tablet>,
     "",
     "All items that have been learned can be extracted if your network has enough EMC to sustain them!",
     "",
-    "The klein star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
+    "The Klein Star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
 ]);
 mods.jei.JEI.addDescription(<projectex:arcane_tablet>,
 [
-    "The transmutation table lets learn and reproduce all items that have EMC values!",
+    "The Transmutation Table lets you learn and reproduce all items that have EMC values!",
     "",
     "Place an item in the table, or burn it in the fire, to learn it!",
     "",
@@ -2419,7 +1983,7 @@ mods.jei.JEI.addDescription(<projectex:arcane_tablet>,
     "",
     "All items that have been learned can be extracted if your network has enough EMC to sustain them!",
     "",
-    "The klein star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
+    "The Klein Star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:mk1_power_flower>,
@@ -2428,7 +1992,7 @@ mods.jei.JEI.addDescription(<contenttweaker:mk1_power_flower>,
     "",
     "For larger EMC yield, use the dragon heart loop!",
     "",
-    "For low EMC items, use less collectors and relays!",
+    "For low EMC items, use fewer Collectors and Relays!",
     "",
     "After unlocking bonsai pots and EMC links, you should use those!"
 ]);
@@ -2436,26 +2000,26 @@ mods.jei.JEI.addDescription(<contenttweaker:mk1_power_flower>,
 
 mods.jei.JEI.addDescription([<tconstruct:smeltery_controller>, <tconstruct:seared_tank>, <tconstruct:smeltery_io>, <tconstruct:seared>],
 [
-    "The smeltery is the main multiblock in tinker's construct! It smelts ores and other metal items into molten fluids.",
+    "The Smeltery is the main multiblock in Tinker's Construct! It smelts ores and other metal items into molten fluids.",
     "",
-    "The multiblock can be any cuboud shape (without corners and edges) with an open top, and it is made out of any seared stone block. ",
+    "The multiblock can be any cuboid shape (without corners and edges) with an open top, and it is made out of any Seared Stone block. ",
     "",
-    "The multiblock needs one smeltery controller, this can replace any block! Item inputs can be piped into the controller.",
+    "The multiblock needs one Smeltery Controller, this can replace any block! Item inputs can be piped into the controller.",
     "",
-    "The multiblock needs at least one seared tank, but it can have more, those can replace any block! This is to input fuel into the tank. Lava is the easiest fuel to get.",
+    "The multiblock needs at least one Seared Tank, but it can have more, those can replace any block! This is to input fuel into the tank. Lava is the easiest fuel to get.",
     "",
-    "To output the fluids from the smeltery, you need seared drains. Those can replace any blocks!",
+    "To output the fluids from the smeltery, you need Seared Drains. Those can replace any blocks!",
     "",
     "You can use fluiducts on the smeltery drains. EnderIO conduits in theory work too, but they can bug out."
 ]);
 
 mods.jei.JEI.addDescription(<ore:cast>,
 [
-    "To make a cast, you want to start by making a part in the part builder. You should use a cheap material like cobblestone.",
+    "To make a cast, you want to start by making a part in the Part Builder. You should use a cheap material like Cobblestone.",
     "",
-    "Place the part on the casting table, and pour a casting material by right clicking the faucet above the casting table.",
+    "Place the part on the Casting Table, and pour a casting material by right clicking the faucet above the Casting Table.",
     "",
-    "Casting materials can be molten gold or molten aluminum brass!",
+    "Casting materials can be Molten Gold or Molten Aluminum Brass!",
     "",
     "After you have made a cast, you can place it in the table, and use it to make parts out of any metal you want!"
 ]);
@@ -2463,35 +2027,35 @@ mods.jei.JEI.addDescription(<ore:cast>,
 
 mods.jei.JEI.addDescription(<gendustry:sampler>,
 [
-    "To better the genes of your bees you need the genetic sampler, genetic transposer, and genetic imprinter.",
+    "To better the genes of your bees you need the Genetic Sampler, Genetic Transposer, and Genetic Imprinter.",
     "",
-    "The genetic sampler takes bees, and has a chance of producing gene samples from a given bee.",
+    "The Genetic Sampler takes bees, and has a chance of producing Gene Samples from a given bee.",
     "",
-    "For each bee species that has a desirable gene (the best ones are listed in the following quests), you can dump excess drones into the sampler, until you obtain the gene samples you desire!",
+    "For each bee species that has a desirable gene, you can dump excess drones into the sampler, until you obtain the gene samples you desire!",
     "",
-    "See the book of creation for a list of the bees with the best genes!"
+    "See the Book of Creation for a list of the bees with the best genes!"
 ]);
 
 mods.jei.JEI.addDescription(<gendustry:transposer>,
 [
-    "To better the genes of your bees you need the genetic sampler, genetic transposer, and genetic imprinter.",
+    "To better the genes of your bees you need the Genetic Sampler, Genetic Transposer, and Genetic Imprinter.",
     "",
-    "The genetic transposer has two main functions.",
+    "The Genetic Transposer has two main functions.",
     "",
-    "First, it can be used to duplicate gene samples, combine a black one with an imprinted one to duplicate it! This is how you can farm the ingredients to craft the torcherino!",
+    "First, it can be used to duplicate gene samples, combine a blank one with an imprinted one to duplicate it! This is how you can farm the ingredients to craft the Torcherino!",
     "",
-    "Second, you can combine genetic samples into templates, these will be used to customize your bees!",
+    "Second, you can combine Genetic Samples into templates, these will be used to customize your bees!",
     "",
     "NOTE: templates do not need to have all 12 genes! You can make templates with even one chromosome!"
 ]);
 
 mods.jei.JEI.addDescription(<gendustry:imprinter>,
 [
-    "To better the genes of your bees you need the genetic sampler, genetic transposer, and genetic imprinter.",
+    "To better the genes of your bees you need the Genetic Sampler, Genetic Transposer, and Genetic Imprinter.",
     "",
-    "Given a tamplate from the genetic transposer, you can use the imprinter to modify a bee's genes.",
+    "Given a template from the Genetic Transposer, you can use the Imprinter to modify a bee's genes.",
     "",
-    "WARNING: bees have a chance of being turned into genetic waste, so be careful about imprinting princesses and queens.",
+    "WARNING: bees have a chance of being turned into Genetic Waste, so be careful about imprinting princesses and queens.",
     "",
     "The recommended strategy is to imprint a lot of drones from your desired species, and to continuously breed with the same princess until the genes are transferred."
 ]);
@@ -2514,9 +2078,9 @@ mods.jei.JEI.addDescription(<contenttweaker:recursive_recipes>,
     "",
     "For both types, if you want to set autocrafting recipes, the duplicated item SHOULD NOT be set as an input. Set your recipes in processing mode, without including the recursive item in the inputs list, and use an interface touching an RFTools crafter.",
     "",
-    "If the input is reusable: use a crafter in extC mode and set it to remember the slot for the reusable input item.",
+    "If the input is reusable: use a Crafter in ExtC mode and set it to remember the slot for the reusable input item.",
     "",
-    "If the input is not reusable: set the crafter in the same way as above, and use item conduits (those can self feed) to pipe the non-reusable recursive item into the table's input slot.",
+    "If the input is not reusable: set the Crafter in the same way as above, and use item conduits (those can self feed) to pipe the non-reusable recursive item into the table's input slot.",
     ""
 ]);
 
@@ -2532,25 +2096,25 @@ mods.jei.JEI.addDescription([<extrautils2:compressedcobblestone:0>,
     <projecte:collector_mk1>,
     <projecte:condenser_mk1>],
 [
-    "To automate compressed cobblestone, you should start by making cobblestone using Projecte, and combine it with compacting drawers.",
+    "To automate Compressed Cobblestone, you should start by making Cobblestone using ProjectE, and combine it with Compacting Drawers.",
     "",
-    "A single cobblestone creation unit consists of a condenser MK1 with a collector on top (better MK3). You just need one collector for each condenser. If you need more cobble, make multiple of thse units.",
+    "A single cobblestone creation unit consists of an Energy Condenser MK1 with a collector on top (better MK3). You just need one collector for each condenser. If you need more cobble, make multiple of thse units.",
     "",
-    "To compress the cobblestone, compacting drawers are best, just chain them till the desired tiers.",
+    "To compress the cobblestone, Compacting Drawers are best, just chain them till the desired tiers.",
     "",
-    "To move the cobblestone and lower tiers, tesslocators are quite fast!"
+    "To move the cobblestone and lower tiers, Tesslocators are quite fast!"
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:making_will>,
     <bloodmagic:item_demon_crystal:0>],
 [
-    "To make your first will crystal you will need a demon crucible, and a demon crystallizer.",
+    "To make your first Will Crystal you will need a Demon Crucible, and a Demon Crystallizer.",
     "",
-    "Place a tartaric gem of any type into the crucible. This will suck will out of the gem, and put it into the chunk.",
+    "Place a Tartaric Gem of any type into the crucible. This will suck Demonic Will out of the gem, and put it into the chunk.",
     "",
-    "Place a demon crystallizer into the same chunk. A will crystal will eventaully grow. Break it to obtain a raw will crystal!",
+    "Place a Demon Crystallizer into the same chunk. A Will Crystal will eventually grow. Break it to obtain a Raw Will Crystal!",
     "",
-    "The will aura gauge will show how much will of each type is present in a chunk.",
+    "The Will Aura Gauge will show how much will of each type is present in a chunk.",
     "========================"
 ]);
 
@@ -2560,11 +2124,11 @@ mods.jei.JEI.addDescription([<contenttweaker:making_colored_will>,
     <bloodmagic:item_demon_crystal:3>,
     <bloodmagic:item_demon_crystal:4>],
 [
-    "To obtain your first aspected will, you need to set up the resonance of the faceted crystal ritual.",
+    "To obtain your first Aspected Will, you need to set up the Resonance of the Faceted Crystal ritual.",
     "",
-    "In a chunk with demonic will from a demon crucible or other methods, place a crystallizer above the master ritual stone, and let a raw will crystal grow.",
+    "In a chunk with Demonic Will from a Demon Crucible or other methods, place a Crystallizer right above the Master Ritual Stone, and let a Raw Will Crystal grow.",
     "",
-    "Crystals of the other types will eventually grow on the ritual as long as you have enough raw will in the chunk.",
+    "Crystals of the other types will eventually grow on the ritual as long as you have enough Raw Will in the chunk.",
     "========================"
 ]);
 
@@ -2575,28 +2139,28 @@ mods.jei.JEI.addDescription([<contenttweaker:farming_will>,
     <bloodmagic:item_demon_crystal:3>,
     <bloodmagic:item_demon_crystal:4>],
 [
-    "This is how you automate will crystals.",
+    "This is how you automate Will Crystals.",
     "",
     "You will need a fair amount of each will crystal type to start this process (10 or 20 to be safe), but it will run passively after that.",
     "",
-    "You will need two rituals, both located in the same chunk. The crack of the fractured crystal should be at the top, and the gathering of the forsaken souls should be at the bottom. You can place both ritual stones on top of each other (see multiblock preview).",
+    "You will need two rituals, both located in the same chunk. The Crack of the Fractured Crystal should be at the top, and the Gathering of the Forsaken Souls should be at the bottom. You can place both ritual stones on top of each other (see multiblock preview).",
     "",
     "Set up a passive mob farm below the rituals. The higher the variety of different animals, the faster this farm will work.",
     "",
-    "Place the five will crystal clusters somewhere above the rituals, in the same chunk.",
+    "Place the five Will Crystal Clusters somewhere above the rituals, in the same chunk.",
     "",
-    "Place five crucibles nearby the crystals, and pipe will crystals of each type into each.",
+    "Place five Crucibles nearby the crystals, and pipe Will Crystals of each type into each.",
     "",
-    "The crystal clusters will start growing, and they will drop will crystals on the ground. Use some sort of ranged collector to collect them, and pipe them into the crucibles.",
+    "The Crystal Clusters will start growing, and they will drop Will Crystals on the ground. Use some sort of ranged collector to collect them, and pipe them into the crucibles.",
     "",
-    "This setup will produce a surplus of will crystals. They will be made faster than the demon crucibles consume them. Profit!"
+    "This setup will produce a surplus of Will Crystals. They will be made faster than the Demon Crucibles consume them. Profit!"
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:ritual_mass_enchanting>],
 [
     "This is how you can combine enchantments over the vanilla anvil limit, up to level 15.",
     "",
-    "The ritual requires the base abyssalcraft setup, using the Abyssalnomicon, and can be performed in any dimension!",
+    "The ritual requires the base Abyssalcraft setup, using the Abyssalnomicon, and can be performed in any dimension!",
     "",
     "Place 8 enchanted books of any type (has to be eight) on the outer pedestals. Place a compatible enchantable item in the center.",
     "",
@@ -2605,21 +2169,21 @@ mods.jei.JEI.addDescription([<contenttweaker:ritual_mass_enchanting>],
 
 mods.jei.JEI.addDescription([<thaumcraft:infusion_matrix>],
 [
-    "Thaumcraft infusion is a crafting mechanic that uses altars to craft (see multiblock preview for infusion setup). Right click the matrix with salis mundus to form the structure.",
+    "Thaumcraft infusion is a crafting mechanic that uses Arcane Stone Pedestals to craft (see multiblock preview for infusion setup). Right click the Runic Matrix with Salis Mundus to form the structure.",
     "",
-    "Infusion recipes require the right items to be placed in the altars, and essentia from nearby jars (or the infusion provider).",
+    "Infusion recipes require the right items to be placed in the pedestals, and essentia from nearby Warded Jars (or the Infusion Provider).",
     "",
-    "To start a recipe, after placing the correct items, right click the matrix with a casting gauntlet, the infusion will start with esselntia being automatically sucked out of the nearby sources.",
+    "To start a recipe, after placing the correct items, right click the Matrix with a Caster's Gauntlet. The infusion will start with essentia being automatically sucked out of the nearby sources.",
     "",
-    "All infusion recipes have a chance of going wrong and causing bad effects. If the runic matrix is stable (you can see stability while looking at it with goggles of revealing) those will not happen.",
+    "All infusion recipes have a chance of going wrong and causing bad effects. If the Runic Matrix is stable (you can see stability while looking at it with Goggles of Revealing), those will not happen.",
     "",
-    "To stabilize thaumcraft infusions, you should place stabilizing blocks around the infusion matrix.",
+    "To stabilize Thaumcraft infusions, you should place stabilizing blocks around the Runic Matrix.",
     "",
     "All stabilizing blocks should be placed following central symmetry with respect to the center pedestal!",
     "",
     "The more variety of stabilizing blocks, the better! Different colors count as different blocks!",
     "",
-    "In addition, Stabilizers from Thaumcraft can be used to prevent some bad effects. Redstone Inlays should be used to connect the stabilizers to each pedestal. These should still follow central symmetry.",
+    "In addition, Stabilizers from Thaumcraft can be used to prevent some bad effects. Redstone Inlays should be used to connect the Stabilizers to each pedestal. These should still follow central symmetry.",
     "",
     "The following stabilizing blocks are listed in order of stability power (you should have at most 6 of each):",
     "Candelabra,",
@@ -2667,7 +2231,7 @@ mods.jei.JEI.addDescription([<minecraft:skull:0>,
     <bewitchment:candelabra_iron>,
     <bewitchment:candelabra_silver>],
 [
-    "To stabilize thaumcraft infusions, you should place stabilizing blocks around the infusion matrix.",
+    "To stabilize Thaumcraft infusions, you should place stabilizing blocks around the Runic Matrix.",
     "",
     "All stabilizing blocks should be placed following central symmetry with respect to the center pedestal!",
     "",
@@ -2684,9 +2248,9 @@ mods.jei.JEI.addDescription([<minecraft:skull:0>,
 mods.jei.JEI.addDescription([<thaumcraft:stabilizer>,
     <thaumcraft:inlay>],
 [
-    "§7§oStabilizers can be used to prevent some bad effects if infusions go unstable.",
+    "Stabilizers can be used to prevent some bad effects if infusions go unstable.",
     "",
-    "Redstone Inlays should be used to connect the stabilizers to each pedestal. Redstone inlays behave like redstone, with a maximum range of 15 blocks.",
+    "Redstone Inlays should be used to connect the stabilizers to each pedestal. Redstone Inlays behave like redstone, with a maximum range of 15 blocks.",
     "",
     "These should still follow central symmetry."
 ]);
@@ -2695,9 +2259,9 @@ mods.jei.JEI.addDescription([<forestry:bee_drone_ge>,<forestry:bee_princess_ge>,
 [
     "This will explain the basics, see the Book of Creation section of the questbook for more detailed info!",
     "",
-    "To farm the drops of a bee (E.G. honey combs) you should use the industrial apiary. You start with a princess and a drone of the same species, and they make a queen. The queen will slowly die out, and it will produce drops, as well as a new princess and more drones.",
+    "To farm the drops of a bee (e.g. honey combs) you should use the Industrial Apiary. You start with a princess and a drone of the same species, and they make a queen. The queen will slowly die out, and it will produce drops, as well as a new princess and more drones.",
     "",
-    "To make a new species of bee (with the exception of the mad scientist), you should use the advanced mutatron. It will take the drone and princess required (JEI will tell you) and it will make a queen of the new species."
+    "To make a new species of bee (with the exception of the Mad Scientist Bee), you should use the Advanced Mutatron. It will take the drone and princess required (JEI will tell you) and it will make a queen of the new species."
 ]);
 
 
@@ -2744,22 +2308,22 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "fallenKanade
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "necrofleur"}),
 [
-    "Damages and prevents healing in mobs with less than half heath. "
+    "Damages and prevents healing in mobs with less than half health. "
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "stardustlotus"}),
 [
-    "Consumes mana to teleport animals. Right click with a position reader set to a location to set where the entities will be teleported. Drop a paper on the flower to activate it. If done correctly, a particle effect will show up."
+    "Consumes mana to teleport animals. Right click with a Position Reader set to a location to set where the entities will be teleported. Drop a paper on the flower to activate it. If done correctly, a particle effect will show up."
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "orechidIgnem"}),
 [
-    "This flower is gated to later on in progression. It has a custom loot table with unique drops. At the cost of mana, this flower converts nearby netherrack into ores. "
+    "This flower is gated to later on in progression. It has a custom loot table with unique drops. At the cost of mana, this flower converts nearby Netherrack into ores. "
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "hopperhock"}),
 [
-    "Vacuums items and puts them into nearby chests. You can whitelist specific chests by placing item frames on them. "
+    "Vacuums items and puts them into nearby chests. You can whitelist specific chests by placing Item Frames on them. "
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "marimorphosis"}),
@@ -2769,7 +2333,7 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "marimorphosi
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "daffomill"}),
 [
-    "Pushes items in a given direction at a small cost of mana. Right clicking with a wand of the forest changes the pushing direction. "
+    "Pushes items in a given direction at a small cost of mana. Right clicking with a Wand of the Forest changes the pushing direction. "
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "jiyuulia"}),
@@ -2789,12 +2353,12 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "exoflame"}),
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "annoyingflower"}),
 [
-    "Produces fishing loot from nearby livingrock pedestals. Drop fried chickens legs to give it luck of the sea."
+    "Produces fishing loot from nearby Livingrock Pedestals. Drop Fried Chickens Legs to give it luck of the sea."
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "solegnolia"}),
 [
-    "Prevents the ring of magnetization from working in a radius around it."
+    "Prevents the Ring of Magnetization from working in a radius around it."
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "hyacidus"}),
@@ -2809,7 +2373,7 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "bellethorn"}
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "spectranthemum"}),
 [
-    "Use a wand of the forest in bind mode to bind it to a specific block. Items dropped on this flower will be teleported there."
+    "Use a Wand of the Forest in bind mode to bind it to a specific block. Items dropped on this flower will be teleported there."
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "agricarnation"}),
@@ -2839,7 +2403,7 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "heiseiDream"
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "jadedAmaranthus"}),
 [
-    "Consumes mana to spawn mystical flowers nearby."
+    "Consumes mana to spawn Mystical Flowers nearby."
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "mirrowtunia"}),
@@ -2889,24 +2453,24 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "vinculotus"}
 
 mods.jei.JEI.addDescription(<contenttweaker:making_unattuned_celestial_crystals>,
 [
-    "To make your first celestial crystal, you need liquid starlight, stardust, and a rock crystal.",
+    "To make your first Celestial crystal, you need Liquid Starlight, Stardust, and a Rock Crystal.",
     "",
-    "Place down a bucket of liquid starlight, with sky access, a preferably nearby a collector crystal.",
+    "Place down a bucket of Liquid Starlight, with sky access, and preferably a nearby Collector Crystal.",
     "",
-    "Drop the stardust and rock crystal into the liquid starlight, and a celestial crystal cluster will form.",
+    "Drop the Stardust and Rock Crystal into the Liquid Starlight, and a Celestial Crystal Cluster will form.",
     "",
-    "The cluster will drop a celestial crystal when fully grown. Using a linking tool to bind a collector crystal with the cluster will speed up its growth!"
+    "The Cluster will drop a Celestial Crystal when fully grown. Using a linking tool to bind a Collector Crystal with the Cluster will speed up its growth!"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:farming_unattuned_celestial_crystals>,
 [
-    "Celestial crystals can be duplicated using liquid starlight.",
+    "Celestial Crystals can be duplicated using Liquid Starlight.",
     "",
-    "If a celestial crystal is at max size (900) it has a chance of being split in two different crystals when dropped in liquid starlight. This will consume the bucket of starlight.",
+    "If a Celestial Crystal is at max size (900) it has a chance of being split in two different crystals when dropped in Liquid Starlight. This will consume the bucket of Starlight.",
     "",
-    "This process can be automated by using an auto-placer to keep a block space full of starlight, and by using an entity detector from cyclic to send a redstone signal to a collector when two entities (aka two crystals) are present in the designated block space.",
+    "This process can be automated by using an Auto-Placer to keep a block space full of Starlight and using an Entity Detector from Cyclic to send a redstone signal to a collector when two entities (aka two crystals) are present in the designated block space.",
     "",
-    "The system can be set up to pick up only one of the two crystals, or to pick up both, and drop one of them back into the starlight."
+    "The system can be set up to pick up only one of the two crystals, or to pick up both, and drop one of them back into the Starlight."
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:levelling_up_crystals>,
@@ -2917,17 +2481,18 @@ mods.jei.JEI.addDescription([<contenttweaker:levelling_up_crystals>,
     "",
     "Attuned crystals with max stats have custom recipes, but you may want to level some manually for other purposes.",
     "",
-    "Size is increased by using starlight. A crystal dropped in liquid starlight will consume the liquid to increase its size by a bit.",
+    "Size is increased by using Starlight. A crystal dropped in Liquid Starlight will consume the liquid to increase its size by a bit.",
     "",
-    "Purity is increased by duplicating crystals. A max size crystal will split in two after colelcting more starlight, and one of the two crystals may have higher purity than the previous generation.",
+    "Purity is increased by duplicating crystals. A max size crystal will split in two after collecting more starlight, and one of the two crystals may have higher purity than the previous generation.",
     "",
-    "Cut can be increased using a grindstone. Every time the grindstone is used, the crystal will gain cut, but lose size (which can be increased again using starlight)."
+    "Cut can be increased using a Grindstone. Every time the Grindstone is used, the crystal will gain cut, but lose size (which can be increased again using starlight)."
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:dimension_ids>],
 [
     "Terra (overworld): 0",
     "Void World: 43",
+    "Compact Machines: 144",
     "Woot Dimension (tartarus): 418",
     "Nether: -1",
     "End: 1",
@@ -2952,6 +2517,7 @@ mods.jei.JEI.addDescription([<contenttweaker:dimension_ids>],
     "Apichisi: 184",
     "Finem:185",
     "Luna: 145",
+    "Space Station: -2",
     "Osiris: 148",
     "Ptah: 149",
     "Hator: 150",
@@ -3020,7 +2586,7 @@ mods.jei.JEI.addDescription([<appliedenergistics2:part:460>, <betterp2p:advanced
     "",
     "Two or more P2P buses are connected between each other using the advanced memory card. P2P connections can be renamed using a quartz knife, making it easy to keep track of stuff!",
     "",
-    "These buses can be used to move a lot of channels using a lot less cables, making it easier to manage the logistics in your base. The best way to do this is by using a smaller AE2 network, called a subnet, that just consists of P2P connections used to connect your main controller with other parts of your base. This way a single dense smart cable can transport up to 1024 channels.",
+    "These buses can be used to move a lot of channels using a lot fewer cables, making it easier to manage the logistics in your base. The best way to do this is by using a smaller AE2 network, called a subnet, that consists only of P2P connections used to connect your main controller with other parts of your base. This way a single Dense Smart Cable can transport up to 1024 channels.",
     "",
     "The multiblock preview shows how P2P can be used to move channels. The main network is in white, the subnet is in purple.",
     "The center controller is the main controller, P2P buses can be placed directly on it, or through a dense cable. This is the input side.",
@@ -3029,41 +2595,54 @@ mods.jei.JEI.addDescription([<appliedenergistics2:part:460>, <betterp2p:advanced
     "NOTE: you should not connect the main net and the subnet together with any ME cable outside of quartz fiber."
 ]);
 
-mods.jei.JEI.addDescription([<contenttweaker:yellorite_reactor>],
+mods.jei.JEI.addDescription([<contenttweaker:yellorite_reactor>, <bigreactors:reactorcontroller>, <bigreactors:reactoraccessport>, <bigreactors:reactorcoolantport>, <bigreactors:reactorpowertaprf>],
 [
-    "To build a yellorite reactor you need rector casings (or glass), a reactor controller, two access ports, a redstone flux power tap, fuel rods, control rods, and coolers.",
+    "To build a Yellorite Reactor you need Reactor casings (or Reactor Glass), a Reactor Controller, two Reactor Access Ports, a Redstone Flux Power Tap, Fuel Rods, Control Rods, and coolers.",
     "",
-    "There are multiple multiblock previews to show how each component works! Reactors can be made out of any size, with any number of fuel rods. Right click the controller with an empty hand to check if a given reactor structure is valid.",
+    "There are multiple multiblock previews to show how each component works! Reactors can be made nearly any size, with any number of Fuel Rods. Right click the Controller with an empty hand to check if a given reactor structure is valid.",
     "",
     "You can search 'reactor cooler' in JEI for a list of the available coolers. Draconium blocks are the best!",
     "",
-    "To run the reactor, input yellorium into one access port, and it will be consumed and turned into cyanite. You will need to set the other access port to output mode to auto extract cyanite.",
+    "To run the reactor, input Yellorium into one Access Port, and it will be consumed and turned into Cyanite. You will need to set the other Access Port to Output Mode to auto extract Cyanite.",
     "",
-    "To turn it into a steam-making reactor, you will need to replace the power tap with two coolant ports, one to input water, and one to output steam."
+    "To turn it into a steam-making reactor, you will need to replace the Power Tap with two Coolant Ports, one to input water, and one to output steam."
+]);
+
+mods.jei.JEI.addDescription([<bigreactors:turbinecontroller>, <bigreactors:turbinefluidport>, <bigreactors:turbinepowertaprf>, <contenttweaker:extreme_turbine>],
+[
+    "To build an Extreme Turbine you need Turbine casings (or Turbine Glass), a Turbine Controller, two Turbine fluid Ports, a Redstone Flux Power Tap, a Turbine Rotor Bearing, Turbine Rotor Shafts, and coils.",
+    "",
+    "There are multiple multiblock previews to show how each component works! Turbines can be made nearly any size. Right click the Controller with an empty hand to check if a given turbine structure is valid.",
+    "",
+    "You can search 'turbine coil' in JEI for a list of the available coolers. Ludicrite blocks are the best!",
+    "",
+    "To run the turbine, input steam into one Fluid Port, and it will be consumed and turned into Water. You will need to set the other Access Port to Output Mode to auto extract Water.",
+    "",
+    "Steam can be obtained from Yellorite Reactors, Steam Dynamos, Boilers."
 ]);
 
 mods.jei.JEI.addDescription([<deepmoblearning:simulation_chamber>, <deepmoblearning:extraction_chamber>, <deepmoblearning:polymer_clay>, <deepmoblearning:deep_learner>],
 [
-    "To farm mob drops with Deep Mob Learning (Evolution), you need a simulation chamber, a loot fabricator, and a steady supply of polymer clay (which has EMC), as well as a data model.",
+    "To farm mob drops with Deep Mob Learning (Evolution), you need a Simulation Chamber, a Loot Fabricator, and a steady supply of Polymer Clay (which has EMC), as well as a Data Model.",
     "",
-    "To function, a simulation chamber needs a data model that has been configured to a mob.",
+    "To function, a Simulation Chamber needs a Data Model that has been configured to a mob.",
     "",
-    "To configure a model, you need to place one for the mob you want to farm into the deep learner. Then you want to slay a certain number that mob to activate the model, while holding the learner into your hotbar.",
+    "To configure a model, you need to place one for the mob you want to farm into the Deep Learner. Then, while holding the Learner in your hotbar, you want to slay a certain number of that mob to activate the model.",
     "",
     "The more mobs you slay, the higher the tier of the model. The higher the tier, the better.",
     "",
-    "Placing a model in the simulation chamber will produce pristine matter, which is consumed in loot fabricators to farm specific mob drops."
+    "Placing a model in the Simulation Chamber will produce Pristine Matter, which is consumed in Loot Fabricators to farm specific mob drops."
 ]);
 
 mods.jei.JEI.addDescription([<deepmoblearningbm:digital_agonizer>,<deepmoblearningbm:altar_linker>],
 [
-    "The digital mob agonizer is a very effective way to produce essence for a blood altar.",
+    "The Digital Mob Agonizer is a very effective way to produce essence for a Blood Altar.",
     "",
-    "Place one next to a blood altar, and use the altar linker to bind it.",
+    "Place one next to a Blood Altar, and use the Altar Linker to bind it.",
     "",
-    "The digital mob agonizer needs a data model, and a steady supply of matter, and it will automatically add life essence to the altar.",
+    "The Digital Mob Agonizer needs a Data Model and a steady supply of matter, and it will automatically add LP to the Altar.",
     "",
-    "Multiple agonizers can be connected to the same altar!"
+    "Multiple Agonizers can be connected to the same Altar!"
 ]);
 
 mods.jei.JEI.addDescription([<extrautils2:terraformer:0>,<extrautils2:terraformer:1>,<extrautils2:biomemarker>,<extrautils2:terraformer:2>,<extrautils2:terraformer:3>,<extrautils2:terraformer:4>,<extrautils2:terraformer:5>,<extrautils2:terraformer:6>,<extrautils2:terraformer:7>,<extrautils2:terraformer:8>],
@@ -3083,42 +2662,42 @@ mods.jei.JEI.addDescription([
     <astralsorcery:itemperkgem:2>,
     <contenttweaker:making_dynamism_gems>],
 [
-    "To craft dynamism gems, you need to drop a rock crystal and glowstone in liquid starlight.",
+    "To craft dynamism gems, you need to drop a Rock Crystal and Glowstone in Liquid Starlight.",
     "",
     "Depending on the time of day this happens, the resulting crystal will drop a different gem.",
-    "Day = ilium",
-    "Night = fengarum",
-    "Morning/Evening = ourium"
+    "Day = Ilium",
+    "Night = Fengarum",
+    "Morning/Evening = Ourium"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:magic_mushroom_dark>],
 [
-    "The really scary vishroom lets you unlock all thaumcraft research, but it will also fill your warp bar! Unless you really like thaumcraft research, you should probably do this, since the pack also uses a lot of addons with complicated research.",
+    "The Really Scary Vishroom lets you unlock all Thaumcraft research, but it will also fill your warp bar! Unless you really like Thaumcraft research, you should probably do this, since the pack also uses a lot of addons with complicated research.",
     "",
-    "In addition to the following steps, it's a good idea to have some permanent warp cleaning ability, either using the warp cleansers found in the dreadlands dimension, or crafting the omothol warp cleanser.",
+    "In addition to the following steps, it's a good idea to have some permanent warp cleaning ability, either using the Warp Cleansers found in the Dreadlands dimension, or crafting the Omothol Warp Cleanser.",
     "",
     "To craft this item, though, you will still need to do a little bit of research by yourself. The following steps are the bare minimum required to unlock this item.",
     "",
-    "1. Fundamentals: first steps > discovering alchemy > discovering infusion > discovering auromancy",
+    "1. Fundamentals: First Steps > Discovering Alchemy > Discovering Infusion > Discovering Auromancy",
     "",
-    "2. Alchemy: basic alchemy > alumentum > alchemical metalurgy > essentia smelting > warded jars and labels ",
+    "2. Alchemy: Basic Alchemy > Alumentum > Alchemical Metalurgy > Essentia Smelting > Warded Jars and Labels ",
     "",
-    "3. Arcane Infusion: basic infusion > infusion > (optional) infusion stablizer"
+    "3. Arcane Infusion: Basic Infusion > Infusion > (optional) Infusion Stablizer"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:flux_basics>],
 [
-    "Flux in one of the core thaumcraft mechanics. ",
+    "Flux is one of the core thaumcraft mechanics. ",
     "",
     "Flux is similar to radiation, where each chunk has a certain flux level. If flux is too high, bad things will happen.",
     "",
-    "The thaumometer lets you see the flux levels in a given chunk (the dark purple bar). You can sneak to see the numerical value.",
+    "The Thaumometer lets you see the flux levels in a given chunk (the dark purple bar). You can sneak to see the numerical value.",
     "",
-    "Flux is created when a few things in thaumcraft are done:",
-    "1. A crucible has excess essentia (use quartz slivers to prevent this)",
-    "2. An essentia smeltery is processing items (mithrillium tier and above don't make flux)",
+    "Flux is created when a few things in Thaumcraft are done:",
+    "1. A Crucible has excess essentia (use Quartz Slivers to prevent this)",
+    "2. An Essentia Smeltery is processing items (Mithrillium tier and above don't make flux)",
     "3. You fail an infusion craft"
 ]);
 
@@ -3127,29 +2706,29 @@ mods.jei.JEI.addDescription([
 [
     "There are a few ways to remove flux:",
     "",
-    "1. The ritual of eldritch will from blood magic (good start). Place the ritual down, it will reduce flux levels in a 3x3 chunk area, and it will convert it to demonic will. If the 9 chunks are full of will, the ritual will stop clearing flux. Use demon crystallizers to make sure your chunks doesn't fill with will!",
+    "1. The Ritual of Eldritch Will from Blood Magic (good start). Place the ritual down, it will reduce flux levels in a 3x3 chunk area, and it will convert it to Demonic Will. If the 9 chunks are full of will, the ritual will stop clearing flux. Use Demon Crystallizers to make sure your chunks doesn't fill with will!",
     "",
-    "2. The flux condenser (not recommended). To unlock this you will need to have progressed through some thaumcraft. A set of lattices should be placed above the flux condenser. Lattices have a chance of clogging, if that happens you should break and replace them. This block consumes herba to function, and it produces vitium. You should have essentia pipes to input and output the two.",
+    "2. The Flux Condenser (not recommended). To unlock this you will need to have progressed through some Thaumcraft. A set of lattices should be placed above the Flux Condenser. Lattices have a chance of clogging, if that happens, you should break and replace them. This block consumes Herba essentia to function, and it produces Vitium essentia. You should have essentia pipes to input and output the two.",
     "",
-    "3. The puriflower (best for long term). The puriflower simply drains flux from the chunk it's placed in passively, nothing else needed!"
+    "3. The Puriflower (best for long term). The Puriflower simply drains flux from the chunk it's placed in passively, nothing else needed!"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:eldritch_will_ritual>],
 [
-    "The ritual of eldritch will from blood magic is the easiest way of getting rid of flux. Place the ritual down, it will reduce flux levels in a 3x3 chunk area, and it will convert it to demonic will. If the 9 chunks are full of will, the ritual will stop clearing flux. Use demon crystallizers to make sure your chunks doesn't fill with will!"
+    "The Ritual of Eldritch Will from Blood Magic is the easiest way of getting rid of flux. Place the ritual down, it will reduce flux levels in a 3x3 chunk area, and it will convert it to Demonic Will. If the 9 chunks are full of will, the ritual will stop clearing flux. Use Demon Crystallizers to make sure your chunks doesn't fill with will!"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:aura_basics>],
 [
-    "Aura is one of the main mechanics in thaumcraft.",
+    "Aura is one of the main mechanics in Thaumcraft.",
     "",
     "Aura is magical energy used to craft using some of the blocks and items in the mod.",
     "",
     "Each chunk has a different aura level. Once it is depleted, it will slowly go back up to a maximum value that depends on seed.",
     "",
-    "Regardless of your world, magical forest biomes have much higher aura levels than all other biomes."
+    "Regardless of your world, Magical Forest biomes have much higher aura levels than all other biomes."
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3157,25 +2736,25 @@ mods.jei.JEI.addDescription([
     <thaumcraft:scribing_tools>,
     <thaumcraft:table_wood>],
 [
-    "To unlock pages in the thaumonomicon, you need to perform research.",
+    "To unlock pages in the Thaumonomicon, you need to perform research.",
     "",
     "There are eight types of research, and each type can be an obervation or a theory!",
     "",
-    "Observation research is performed by scanning things using the thaumometer. In this pack there is an addon that lets you scan items directly in chests. Just mouse over them while holding the thaumometer!",
+    "Observation research is performed by scanning things using the Thaumometer. In this pack there is an addon that lets you scan items directly in chests. Just mouse over them while holding the Thaumometer!",
     "",
-    "Theory research is performed in the reserach table, obtained by right clicking scribing tools on a wood table. To unlock research, place paper in the scribing table, and click pages until completing a theory. This task must be reepated till the desired research is obtained.",
+    "Theory research is performed in the Research Table, obtained by right clicking Scribing Tools on a Wood Table. To unlock research, place paper in the Scribing Table, and click pages until completing a theory. This task must be repeated till the desired research is obtained.",
     "",
-    "In addition to this, preserved curiosities let you unlock any research at random!"
+    "In addition to this, Preserved Curiosities let you unlock any research at random!"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:thaumometer>],
 [
-    "The thaumometer has three main uses.",
+    "The Thaumometer has three main uses.",
     "",
-    "It allows you to see the presence of the two main thaumic fields, vis (good) and flux (bad).",
+    "It allows you to see the presence of the two main Thaumic fields, vis (good) and flux (bad).",
     "",
-    "It can be used to scan items and blocks (both in world and from the inventory) to reveal the essentia they possess, and to gain knowledge about the thaumic arts.",
+    "It can be used to scan items and blocks (both in world and from the inventory) to reveal the essentia they possess, and to gain knowledge about the Thaumic arts.",
     "",
     "It shows its user the presence of essentia in a given block or machine."
 ]);
@@ -3184,54 +2763,54 @@ mods.jei.JEI.addDescription([
     <contenttweaker:warp_basics>,
     <thaumcraft:sanity_checker>],
 [
-    "Warp is a mechanic used in both thaumcraft and abyssalcraft.",
+    "Warp is a mechanic used in both Thaumcraft and Abyssalcraft.",
     "",
     "Warp is something that is directly connected to your player, and it is gained in a variety of ways:",
-    "1. Eating brains",
-    "2. Unlocking thaumcraft research",
-    "3. Fighting mobs from abyssalcraft",
-    "4. Exploring abyssalcraft dimensions",
+    "1. Eating Zombie Brains",
+    "2. Unlocking certain Thaumcraft research",
+    "3. Fighting mobs from Abyssalcraft",
+    "4. Exploring Abyssalcraft dimensions",
     "",
-    "Warp is checked using a sanity checker!",
+    "Warp is checked using a Sanity Checker!",
     "",
-    "If your warp level is high, you will gain debuffs, and special mobs will start spawning around you.",
+    "If your warp level is high, you will occasionally gain debuffs, and special mobs will sometimes spawn around you.",
     "",
     "There are three types of warp, temporary, sticky, and permanent.",
-    "Temporary warp goes down over time, and is bright pink in the sanity checker.",
-    "Sticky warp needs sanityzing soap or warp cleansers to be removed, and is purple in the sanity checker.",
-    "Permanent warp is only removed using the dreadlands and omothol warp cleansers, and is dark purple in the sanity checker."
+    "Temporary warp goes down over time, and is bright pink in the Sanity Checker.",
+    "Sticky warp needs Sanity Soap or Warp Cleansers to be removed, and is purple in the Sanity Checker.",
+    "Permanent warp is only removed using the Dreadlands and Omothol Warp Cleansers, and is dark purple in the Sanity Checker."
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:crucible>],
 [
-    "The crucible is a crafting mechanic that uses essentia. Essentia is a magical fluid obtained in a varity of way in thaumcraft.",
+    "The Crucible is a crafting mechanic that uses essentia. Essentia is a magical fluid obtained in a varity of ways in Thaumcraft.",
     "",
-    "To function properly, a crucible needs to be on top of fire, or on top of nitor, and it needs to be full of water. If a crucible is working properly, the water in the crucible will make bubbles.",
+    "To function properly, a Crucible needs to be on top of fire or Nitor, and it needs to be full of water. If a crucible is working properly, the water in the crucible will bubble.",
     "",
-    "Items dropped in the crucible will be decomposed into their essentia. Holding shift over an item after having scanned it with the thaumometer will show what essentia they have. Alternatively, all essentia for each item will be shown in JEI.",
+    "Items dropped in the Crucible will be decomposed into their essentia. Holding shift over an item after having scanned it with the Thaumometer will show what essentia they have. Alternatively, all essentia for each item will be shown in JEI.",
     "",
-    "If you are wearing the goggles of revealing, you will see the essentia in the crucible.",
+    "If you are wearing the Goggles of Revealing, you will see the essentia in the Crucible.",
     "",
-    "If an appropriate combination of essentia is present, items dropped in the crucible will be transformed. JEI lists the available transformations.",
+    "If an appropriate combination of essentia is present, items dropped in the Crucible will be transformed. JEI lists the available transformations.",
     "",
-    "Essentia will slowly disappear from the crucible after it is added, and it will turn into flux. Drop quartz slivers in the crucible to collect any leftover essentia, and to avoid flux from building up!"
+    "Essentia will slowly disappear from the Crucible after it is added and turn into flux. Drop quartz slivers in the Crucible to collect any leftover essentia and to keep flux from building up!"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:essentia_management>],
 [
-    "Essentia is a magical fluid that can be created, moved, and consumed as part of many thaumcraft mechanics. While the crucible can be used to create essentia, it can only be used within those constraints.",
+    "Essentia is a magical fluid that can be created, moved, and consumed as part of many Thaumcraft mechanics. While the Crucible can be used to create essentia, it can only be used for Crucible crafting.",
     "",
-    "To create essentia, you need an essentia smeltery, which works like a furnace that 'smelts' items into their essentia component (which can be seen in JEI).",
-    "Place arcane alembics on top of the smeltery to collect the output. If no alembics are present, flux will be made.",
-    "The higher the tier, the better the yield out of each item, and the least flux will be made each operation. Mithrillium tier and above make no flux.",
+    "To create essentia, you need an Essentia Smeltery, which works like a furnace that 'smelts' items into their essentia components (which can be seen in JEI).",
+    "Place Arcane Alembics on top of the Smeltery to collect the output. If no Alembics are present, flux will be made.",
+    "The higher the tier, the better the yield out of each item, and less flux will be made each operation. Mithrillium tier and above make no flux.",
     "",
-    "Essentia can be stored using phials, or using jars. Phials are like buckets, which can be used to move essentia between containers. Jars are like tanks, which can be placed in world. Labels can be used to filter jars to store only one type of essentia.",
+    "Essentia can be stored using Phials, or using jars. Phials are like buckets, which can be used to move essentia between containers. Jars are like tanks, which can be placed in world. Labels can be used to filter jars to store only one type of essentia.",
     "",
-    "To transport essentia, there are pipes, but you should not use those. Instead, the filling and emptying essentia transfusers can be used to move essentia wirelessly.",
-    "The filling essentia transfuser is used as a machine output, and it automatically pushes essentia into jars.",
-    "The emptying essentia transfuser is used as a machine input, and it automatically pulls essentia out of jars."
+    "To transport essentia, the Filling and Emptying Essentia Transfusers can be used to move essentia wirelessly. There are pipes, but they should be avoided.",
+    "The Filling Essentia Transfuser is used as a machine output, and it automatically pushes essentia into jars.",
+    "The Emptying Essentia Transfuser is used as a machine input, and it automatically pulls essentia out of jars."
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3239,7 +2818,7 @@ mods.jei.JEI.addDescription([
 [
     "Phials are used to store essentia similarly to how buckets are used to store fluids.",
     "",
-    "One phial stores 10 of a given essentia.",
+    "One Phial stores exactly 10 of a given essentia.",
     "",
     "Phials can be right clicked on essentia machines or storage to collect or deposit essentia just like buckets!"
 ]);
@@ -3257,7 +2836,7 @@ mods.jei.JEI.addDescription([
 [
     "Jars are used to store essentia similarly to how tanks are used to store fluids.",
     "",
-    "To fill a jar, you can use phials, or you can directly click them on essentia containers.",
+    "To fill a jar, you can use Phials, or you can directly click them on essentia containers.",
     "",
     "Right clicking a jar with a label will whitelist the essentia it's currently storing so that no other essentia can enter, even after the jar has been emptied. This can be used for essentia storage systems.",
     "",
@@ -3266,17 +2845,17 @@ mods.jei.JEI.addDescription([
     "Void: 250 + void excess (makes flux)",
     "Brass: 275",
     "Thaumium: 350",
-    "Void reinforced: 500",
+    "Void Reinforced: 500",
     "Mithrillium: 1000",
     "Adaminite: 2000 (cannot store vitium)",
-    "Adaminite: 4000 + void excess"
+    "Adaminite: 4000 + void excess (makes flux)"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:essentia_input>,
     <thaumcraft:essentia_output>],
 [
-    "Essentia transfusers are the best way to move essentia around!",
+    "Essentia Transfusers are the best way to move essentia around!",
     "",
     "Place them on essentia machines, and they automatically move essentia to/from jars nearby.",
     "",
@@ -3290,9 +2869,9 @@ mods.jei.JEI.addDescription([
     <botania:pool:2>,
     <botania:pool:3>],
 [
-    "The mana pool transforms items that are dropped in it consuming some mana.",
+    "The Mana Pool transforms items that are dropped in it consuming some mana.",
     "",
-    "It is also the main way to store mana, which can be transferred using sparks or mana spreaders."
+    "It is also the main way to store mana, which can be transferred using Sparks or Mana Spreaders."
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3303,11 +2882,11 @@ mods.jei.JEI.addDescription([
 [
     "Mana spreaders are used to transfer mana between mana sources or containers.",
     "",
-    "The wand of the forest is used to bind generating flora to a spreader. Make sure the wand is in bind mode. Shift + right click on flower first, then shift + right click the spreader.",
+    "The Wand of the Forest is used to bind generating flora to a spreader. Make sure the wand is in bind mode. Shift + right click on flower first, then right click the spreader.",
     "",
-    "The wand of the forest is used to bind the spreader to a mana pool. Shift + right click on spreader first, then shift + right click the pool.",
+    "The Wand of the Forest is used to bind the spreader to fill a Mana Pool. Shift + right click on spreader first, then right click the pool.",
     "",
-    "If a mana spreader is directly adjacent to a mana pool, there is no need to bind them. The adjacent mana pool will be emptied by the spreader if it has another target."
+    "To empty a mana pool, place a Mana Spreader directly adjacent to the Mana Pool. There is no need to bind them. The adjacent mana pool will be emptied by the spreader if it has another target."
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3317,9 +2896,9 @@ mods.jei.JEI.addDescription([
     <botania:sparkupgrade:2>,
     <botania:sparkupgrade:3>],
 [
-    "Sparks can be used to transfer mana between mana pools and other botania items. Right click a spark on the pool to place it.",
+    "Sparks can be used to transfer mana between Mana Pools and other Botania items. Right click a Spark on the pool to place it.",
     "",
-    "By default, all blocks with a spark will share mana equally, but spark augments can be used to change priorities.",
+    "By default, all blocks with a Spark will share mana equally, but spark augments can be used to change priorities.",
     "",
     "Dominant: will take mana from other pools until it's full.",
     "Dispersive: will send mana to players.",
@@ -3330,30 +2909,30 @@ mods.jei.JEI.addDescription([
 mods.jei.JEI.addDescription([
     <botania:runealtar>],
 [
-    "The rune altar can only accept mana from mana spreaders.",
+    "The Runic Altar can only accept mana from Mana Spreaders.",
     "",
-    "Drop the required materials for a recipe on the altar.",
+    "Drop the required materials for a recipe on top of the Altar.",
     "",
-    "If the recipe is successful, the spreader will start shooting mana, until the altar is full.",
+    "If the recipe is correct, the spreader will start shooting mana until the altar is full.",
     "",
-    "Once the altar is full, you have to drop a livingrock on it, and right click with a wand of the forest to complete the craft.",
+    "Once the altar is full, you have to drop Livingrock on it, and right click with a Wand of the Forest to complete the craft.",
     "",
-    "Runes in rune altar recipes are not consumed."
+    "Runes in Runic Altar recipes are not consumed."
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:crucible_automation>,
     <thaumcraft:thaumatorium>],
 [
-    "The crucible can be transformed into the thaumatorium, an upgraded version that has a user interface, and can be automated.",
+    "The Crucible can be transformed into the Thaumatorium, an upgraded version that has a user interface, and can be automated.",
     "",
-    "To form the thaumatorium, place two alchemical contructs on top of a formed crucible, and right click them with salis mundus.",
+    "To form the Thaumatorium, place two Alchemical Contructs on top of a formed Crucible, and right click the stack with Salis Mundus.",
     "",
-    "The thaumatorium can receive essentia from an emptying essentia transfuser placed on its side. It can collect from both nearby jars, and from an essentia infusion provider.",
+    "The Thaumatorium can receive essentia from an Emptying Essentia Transfuser placed on its side. It can collect both from nearby jars and from an Essentia Infusion Provider.",
     "",
-    "To select a recipe, place the desired input item, and click on the desired output to bind the thaumatorium to that recipe. If the input item is present, essentia will be automatically drained and the recipe output will be dropped in world in fron of the crucible. A hungry chest or a vacuum chest can be used to collect outputs.",
+    "To select a recipe, insert the desired input item, and click on the desired output to bind the Thaumatorium to that recipe. If the input item is present, essentia will be automatically drained and the recipe output will be dropped in world in front of the crucible. Any item collector can be used to collect outputs.",
     "",
-    "By default, the thaumatorium can only perform one recipe, but if you place a mnemonic matrix on one of its sides, you will be able to set an additional one."
+    "By default, the Thaumatorium can only perform one recipe, but if you place a Mnemonic Matrix on one of its sides, you will be able to set two additional recipes."
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3366,13 +2945,13 @@ mods.jei.JEI.addDescription([
 [
     "Smelteries are used to make essentia out of items. To see what essentia a given item will produce, you can check the JEI tab for essentia, or press shift while hovering over an item in JEI.",
     "",
-    "A smeltery works like a furnace, where it needs fuel, which can be automatically inputted from the bottom, to function.",
+    "A smeltery works like a furnace in that it needs fuel, which can be inserted from the bottom, to function.",
     "",
-    "To function properly, a smeltery needs at least one alembic placed on top. If an alembic is not present, all that is smelted will be tuned into flux.",
+    "To function properly, a smeltery needs at least one Arcane Alembic placed on top. If an Alembic is not present, all that is smelted will be turned into flux.",
     "",
-    "When an item with essentia is smelted, it will be turned into an essentia slurry, shown as a purple bar on the left of the smeltery interface. If an alembic is present, the slurry will be transferred as essentia to the alembic.",
+    "When an item with essentia is smelted, it will be turned into an essentia slurry, shown as a purple bar on the left of the smeltery interface. If an Alembic is present, the slurry will be transferred as essentia to the Alembic.",
     "",
-    "Essentia can be collected from the alembic using phials, or you can place a filling essentia transfuser to automatically push essentia to nearby jars.",
+    "Essentia can be collected from the Alembic using Phials, or you can place a Filling Essentia Transfuser to automatically push essentia to nearby jars.",
     "",
     "All operations done by the smeltery will produce a bit of flux, so be careful! Mithrillium tier and above will not make any flux!"
 ]);
@@ -3382,23 +2961,23 @@ mods.jei.JEI.addDescription([
 [
     "To unlock this, you will need to have completed the following research steps.",
     "",
-    "1. Fundamentals: first steps > discovering alchemy",
+    "1. Fundamentals: First Steps > Discovering Alchemy",
     "",
-    "2. Alchemy: basic alchemy > hedge alchemy",
+    "2. Alchemy: Basic Alchemy > Hedge Alchemy",
     "",
-    "3. Gain warp until you get the message 'Surely there must be a way to stop these headaches?', exploring abyssalcraft worlds is a good way to get there",
+    "3. Gain warp until you get the message 'Surely there must be a way to stop these headaches?', exploring Abyssalcraft worlds is a good way to get there",
     "",
-    "4. Alchemy: purifying bath salts > sanity soap"
+    "4. Alchemy: Purifying Bath Salts > Sanity Soap"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumicenergistics:infusion_provider>],
 [
-    "The essentia infusion provider works like an extension of your essentia storage that lets you interact directly with thaumcraft machines.",
+    "The Essentia Infusion Provider works like an extension of your essentia storage that lets you interact directly with Thaumcraft machines.",
     "",
-    "If the provider is nearby your infusion setup, it will automatically collect essentia from your network.",
+    "If the provider is near your infusion setup, it will automatically collect essentia from your network.",
     "",
-    "The same applies to emptying essentia transfusers. This can be used for fully-automated setups for machines like the crucible/thaumatorium."
+    "The same applies to Emptying Essentia Transfusers. This can be used for fully-automated setups for machines like the Thaumatorium."
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3406,15 +2985,15 @@ mods.jei.JEI.addDescription([
     <thaumcraft:void_seed>,
     <thaumcraft:causality_collapser>],
 [
-    "The void siphon is used to obtain void seeds from a flux rift. You can also use causality collapsers but they are not as reliable.",
+    "The Void Siphon is used to obtain Void Seeds from a flux rift. You can also use Causality Collapsers but they are not as reliable.",
     "",
-    "To make a flux rift, you need high levels of flux in a chunk. The best way of doing this is to go far far away from your base, and to drop a lot of compressed cobblestone into a crucible.",
+    "To make a flux rift, you need high levels of flux in a chunk. The best way of doing this is to go FAR FAR away from your base or to another dimension and to drop a lot of Compressed Cobblestone into a Crucible.",
     "",
-    "Place the siphon near the rift, and it will slowly suck it and drop void seeds nearby. You can collect those with a vacuum chest of some sort.",
+    "Place the Siphon near the rift, and it will slowly suck it and drop Void Seeds nearby. You can collect those with an item collector of some sort.",
     "",
-    "If you want to use the collapser, just click it on a rift, and it will explode with a chance of dropping void seeds.",
+    "If you want to use the Collapser, throw it like a snowball at the rift and it will explode on contact. If the explosion hits the rift, the rift will close and drop a random number of Void Seeds.",
     "",
-    "After making an initial batch, the void seedling can be used to safely automate void seeds."
+    "After making an initial batch, the Void Seedling can be used to safely automate Void Seeds."
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3422,7 +3001,7 @@ mods.jei.JEI.addDescription([
 [
     "Flux seeds are used to make rifts at your own will.",
     "",
-    "To grow the seed, perform infusion by placing any number of void seeds around the flux seed."
+    "To grow the seed, perform infusion by placing any number of Void Seeds around the Flux Seed."
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3431,22 +3010,22 @@ mods.jei.JEI.addDescription([
     <thaumicaugmentation:gauntlet:0>,
     <thaumicaugmentation:gauntlet:1>],
 [
-    "To enter the emptiness, you need to use the fracture locator to find fractures. The nether roof is a good place to look for them. The locator will glow if you are nearby a fracture.",
+    "To enter the Emptiness, you need to use the Fracture Locator to find Fractures. The Nether roof is a good place to look for them. The Locator will glow if you are near a Fracture.",
     "",
-    "To open the fracture you need to use a fully charged thaumium or voidseer casting gauntlet augmented with the impetus conductor. To charge the augmented gauntlet, stand nearby a flux rift, and it will slowly consume it.",
+    "To open the Fracture, you need to use a fully charged Thaumium or Voidseer Caster's Gauntlet augmented with the Impetus Conductor. To charge the augmented Gauntlet, stand near a flux rift and it will slowly consume it.",
     "",
-    "Once the gauntlet is charged, you can right click a fracture to open it!"
+    "Once the Gauntlet is charged, you can right click a Fracture to open it!"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:condenser>,
     <thaumcraft:condenser_lattice>],
 [
-    "The flux condenser is a fast but unreliable way or removing flux.",
+    "The Flux Condenser is a fast but unreliable way of removing flux.",
     "",
-    "A set of lattices should be placed above the flux condenser. Lattices have a chance of clogging, if that happens you should break and replace them.",
+    "A set of lattices should be placed above the Flux Condenser. Lattices have a chance of clogging, if that happens you should break and replace them.",
     "",
-    "This block consumes herba to function, and it produces vitium. You should have essentia pipes to input and output the two."
+    "This block consumes Herba essentia to function, and it produces Vitium essentia. You should have essentia pipes to input and output the two."
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3459,35 +3038,35 @@ mods.jei.JEI.addDescription([
 [
     "Impetus is an energy system based around flux rifts.",
     "",
-    "To generate impetus, you need to place an impetus drainer nearby a flux rift. It will slowly drain the rift, and make impetus!",
+    "To generate Impetus, you need to place an Impetus drainer near a flux rift. It will slowly drain the rift, and make Impetus!",
     "",
-    "To transfer impetus, you need an impetus resonator and impetus relays. The relays are like cables used to transfer this energy, and the resonator is like a wrench. To connect two impetus blocks to each other, shift right click the starting block, and right click the destination block. If this is done correctly, a visual effect will start connecting the two blocks.",
+    "To transfer Impetus, you need an Impetus Resonator and Impetus Relays. The Relays are like cables used to transfer this energy, and the Resonator is like a wrench. To connect two Impetus blocks to each other, shift right click the starting block, and right click the destination block. If this is done correctly, a visual effect will start connecting the two blocks.",
     "",
-    "To store impetus, you need an impetus matrix, which behaves like a battery. To make one, assemble a structure with a runic matrix and two eldritch pedestals (see JEI preview). Right click the matrix with salis mundus, and use eight impetus cells on the pedestals, one on each side. This battery is liked using the impetus resonator."
+    "To store Impetus, you need an Impetus Matrix, which behaves like a battery. To make one, assemble a structure with a Runic Matrix and two Eldritch Pedestals (see JEI preview). Right click the Matrix with Salis Mundus, and use eight Impetus Cells on the pedestals, one on each side. This battery is liked using the Impetus Resonator."
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumicaugmentation:arcane_terraformer>],
 [
-    "The arcane terraformer is a powerful block that lets you transform the biomes of individual blocks. It is used as part of puzzles and rituals.",
+    "The Arcane Terraformer is a powerful block that lets you transform the biomes of individual blocks. It is used as a part of puzzles and rituals.",
     "",
-    "To power the arcane terraformer you need aura, impetus, and essentia in the form of ignis, aer, aqua, terra, and permutatio. To see a setup for inputting all of these resources, read the info box on impetus, and check the multiblock preview for the arcane terraformer. Permuatatio in inputted at the bottom, and the other essentia aspects are inputted from the sides of the corresponding colors. The impetus can be obtained directly from a drainer, but it is a good idea to use relays to check your system. The impetus matrix is not needed, and it may overcomplicate things.",
+    "To power the Arcane Terraformer you need aura, Impetus, and essentia in the form of Ignis, Aer, Aqua, Terra, and Permutatio. To see a setup for inputting all of these resources, read the info box on Impetus, and check the multiblock preview for the Arcane Terraformer. Permuatatio is input at the bottom, and the other essentia aspects are input from the sides of the corresponding colors. The Impetus can be obtained directly from a Drainer, but it is a good idea to use Relays to check your system. The Impetus Matrix is not needed, and it may overcomplicate things.",
     "",
-    "Once your connections have been setup, place the biome focus in the arcane terraformer and select the shape and size of the biome you want to create. For soem of the puzzles in the pack you will need to change single blocks, defined as a circle of radius one (do not do square of radius one).",
+    "Once your connections have been setup, place the Biome Focus in the Arcane Terraformer and select the shape and size of the biome you want to create. For some of the puzzles in the pack you will need to change single blocks, defined as a circle of radius one (do not do square of radius one).",
     "",
-    "To tart changing the biome, right click the center of the terraformer with an upgraded thaumium or voidseer casting gauntlet. A particle effect will show up if you have done this correctly.",
+    "To start changing the biome, right click the center of the Terraformer with an upgraded Thaumium or Voidseer Caster's Gauntlet. A particle effect will show up if you have done this correctly.",
     "",
-    "Because of a bug with the mod, it's possible nothing may happen after the particle effect shows up. If that happens relogging generally fixes things and it will update the biome."
+    "Because of a bug with the mod, it's possible that nothing will happen after the particle effect shows up. If that happens relogging generally fixes things and it will update the biome."
 ]);
 
 mods.jei.JEI.addDescription([
     <botania:alfheimportal>],
 [
-    "Construct a 3x3 portal of livingwood (no corners), with the gateway core at the middle of the bottom, and the glimmering livingwood in the middle of the other three sides.",
+    "Construct a 5x5 portal of Livingwood (no corners), with the Elven Gateway Core at the middle of the bottom, and the Glimmering Livingwood in the middle of the other three sides.",
     "",
-    "Place two mana pools with pylons on top within three blocks of the gateway core, at the same y level. There will be the mana buffer for the gateway. If the pools don't have enough mana, the portal will close!",
+    "Place two Mana Pools with Natura Pylons on top within three blocks of the Gateway Core, at the same y level. That will be the mana buffer for the gateway. If the pools don't have enough mana, the portal will close!",
     "",
-    "To start the gateway, right click the core with the wand of the forest. You will need a lot of mana to open the portal.",
+    "To start the portal, right click the core with the Wand of the Forest. You will need a lot of mana to open the portal.",
     "",
     "Throw items into the portal to craft. This will consume a small amount of mana.",
     "",
@@ -3497,41 +3076,41 @@ mods.jei.JEI.addDescription([
 mods.jei.JEI.addDescription([
     <ore:bewitchmentAltar>],
 [
-    "The witches altar is how you generate magical energy (ME) in bewitchment!",
+    "The Witches Altar is how you generate magical energy (ME) in bewitchment!",
     "",
-    "The structure for the altar is a 3x2 table, and it can be made by any type of altar. Right click the structure with a vanilla carpet to form the altar!",
+    "The structure for the Altar is a 3x2 table, and it can be made by any type of Altar. Right click the structure with a vanilla carpet to form the Altar!",
     "",
-    "The altar generates energy passively. Right clicking the altar with an empty hand will tell you the available energy, as well as the maximum energy for the altar. Most mechanics in bewitchment use ME to run!",
+    "The Altar generates energy passively. Right clicking the Altar with an empty hand will tell you the available energy, as well as the maximum energy for the altar. Most mechanics in Bewitchment use ME to run!",
     "",
-    "The amount of diverse nature (crops, trees, flowers) will set the maximum ME. The more different plants you have, the higher the maximum energy in the altar!",
+    "The amount of diverse nature (crops, trees, flowers) will set the maximum ME. The more different plants you have, the higher the maximum energy in the Altar!",
     "",
-    "You can place statues around the altar, or particular artifacts on the altar to add multipliers to ME rate and amount. These will show up when searching 'witches altar' in JEI."
+    "You can place statues around the Altar, or particular artifacts on the Altar to add multipliers to ME rate and amount. These will show up when searching 'witches altar' in JEI."
 ]);
 
 mods.jei.JEI.addDescription([
     <bewitchment:witches_cauldron>],
 [
-    "Place on top of fire, lava, or a magma block, and near a witches altar.",
+    "Place on top of fire, lava, or a magma block, and near a Witches Altar.",
     "",
-    "To start every recipe in the cauldron, place a water bucket inside. If the water stays in the cauldron too long, it will evaporate!",
+    "To start every recipe in the Cauldron, place a water bucket inside. If the water stays in the cauldron too long, it will evaporate!",
     "",
     "JEI will show the required ingredients for recipes and brews! ",
     "",
-    "To craft using the cauldron, drop in the required items after the water starts boiling! If a recipe was done correctly, the output will pop out automatically! Make sure you drop each ingredient quickly, otherwise the recipe won't complete.",
+    "To craft using the Cauldron, drop in the required items after the water starts boiling! If a recipe was done correctly, the output will pop out automatically! Make sure you drop each ingredient quickly, otherwise the recipe won't complete.",
     "",
-    "To make brews, drop a mandrake root, and drop a combination of the desired brew items (JEI will show). Right click the cauldron with empty bottles to collect the potions!"
+    "To make brews, drop a Mandrake Root, and drop a combination of the desired brew items (JEI will show). Right click the cauldron with empty bottles to collect the potions!"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:full_essentia_automation>],
 [
-    "To fully farm essentia crystals, the recommended way is to use vis seeds, phytogenic insolators, essentia crystallizers, and deep mob evolution. You should have an insolator for each seed, with a steady supply of raw ironwood from swamp creatures data models.",
-    "Depending on your insolator speed, you will need multiple essentia crystallizers. For a setup at base speed, 7 or 8 crystallizers can process all pods.",
+    "To fully farm essentia crystals, the recommended way is to use Vis Seeds, Phytogenic Insolators, Essentia Crystallizers, and Deep Mob Evolution. You should have an Insolator for each seed, with a steady supply of Raw Ironwood Materials from Swamp Creature Data Models.",
+    "Depending on your Insolator speed, you will need multiple Essentia Crystallizers. For a setup at base speed, 7 or 8 Crystallizers can process all pods.",
     "",
-    "To produce essentia, mithrillium tier and above essentia smelteries can be used to passively make it from crystals. These are recommended becuase they do not make flux.",
+    "To produce essentia, Mithrillium tier and above Essentia Smelteries can be used to passively make it from crystals. These are recommended because they do not make flux.",
     "Some sort of redstone control is recommended for this setup to avoid essentia buildups. This can be done using comparators on jars that are hooked up to your automation system, and setting the smelteries to only run if essentia is below a certain threshold.",
     "",
-    "The mechanized essentia smeltery can also be used to make essentia out of the crystals. This multiblock does not require a redstone contraption, as it will stop once its essentia output hatch gets full."
+    "The Mechanized Essentia Smeltery can also be used to make essentia out of the crystals. This multiblock does not require a redstone contraption, as it will stop once its essentia output hatch gets full."
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3540,13 +3119,13 @@ mods.jei.JEI.addDescription([
     <draconicevolution:energy_pylon>,
     <draconicevolution:particle_generator:2>],
 [
-    "The draconic energy orb is a very large and versatile energy storage option. You shoudl definitely make one!",
+    "The Draconic Energy Orb is a very large and versatile energy storage option. You shoudl definitely make one!",
     "",
-    "To start, place down an energy core. You can right click it to select the desired tier, and to turn on a build guide. To assemble the multiblock, all tiers but the final one use redstone and draconium blocks. The final tier uses awakened draconium.",
+    "To start, place down an Energy Core. You can right click it to select the desired tier, and to turn on a build guide. All tiers but the final one use Redstone and Draconium blocks. The final tier uses Awakened Draconium. To assemble the orb, either follow the building guide or use the automatic building in the GUI.",
     "",
-    "After building the central sphere, stabilizers must be placed around it, within 16 blocks of the center. Tiers 1,2,3,4 require 4 stabilizers, one on each side. All other tiers use 36, 9 on each side in 3x3 squares. If formed correcly, they will change textures.",
+    "After building the central sphere, Energy Core Stabilizers must be placed around it, within 16 blocks of the center. Tiers 1,2,3,4 require 4 Stabilizers, one on each side. All other tiers use 36, 9 on each side in 3x3 squares. If formed correcly, they will change textures.",
     "",
-    "Finally, to input and output energy, place energy pylons within 16 blocks of the core, and place glass on top of them. If formed correctly, the glass will turn into a sphere. Right click the sphere with an empty hand to switch the pylon between input and output mode."
+    "Finally, to input and output energy, place Energy Pylons within 16 blocks of the core, and place Glass on top (below) them if the Pylons are below (above) the level of the energy core. If formed correctly, the glass will turn into a sphere. Right click the sphere with an empty hand to switch the pylon between input and output mode."
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3555,15 +3134,15 @@ mods.jei.JEI.addDescription([
     <nuclearcraft:fission_port>,
     <contenttweaker:nuclearcraft_fission_interior>],
 [
-    "The fission reactor is a multiblock that is both used to process fuels to obtain new resources, and to make energy.",
+    "The Fission Reactor is a multiblock that is both used to process fuels to obtain new resources, and to make energy.",
     "",
-    "The exterior of the reactor is made out of fission casings, a controller, and at least one port (can replace any fission casing on the sides). The multiblock preview shows an example exterior for a 5x5x5 interior design.",
+    "The exterior of the reactor is made out of Fission Casings, a Controller, and at least one Port (can replace any fission casing on the sides). The multiblock preview shows an example exterior for a 5x5x5 interior design.",
     "",
-    "Depending on your fuel, you will need a different interior designs, made out of reactor cells, to process fuel while making heat, coolers of various types, to compensate the heat of the fuel, and promoters, to boost fuel efficiency while making more heat. Each of these blocks can only function if it follows certain requirements, listed on the block tooltips. If a reactor's heat is too high, it will melt down and make lots of radiation.",
+    "Depending on your fuel, you will need different interior designs. The interiors are made out of reactor cells, to process fuel while making heat, coolers of various types, to compensate the heat of the fuel, and moderators, to boost fuel efficiency while making more heat. Each of these blocks can only function if it follows certain requirements, listed on the block tooltips. If a reactor's heat is too high, it will melt down and make lots of radiation and turn into Corium.",
     "",
-    "For each fuel interior design, autobuildable multiblock structures are available. Check the crafting recipes for each fission fuel in the energy sources tab!",
+    "For each fuel, autobuildable multiblock structures are available. Check the crafting recipes for each fission fuel in the energy sources tab!",
     "",
-    "These designs are all 5x5x5, which should be enough for your fission needs. All designs available were made using the leu-235.com optimizer. Use that website if you want to make reactors of different sizes.",
+    "These designs are all 5x5x5, which should be enough for your fission needs. All designs available were made using the leu-235.com calculator. Use that website if you want to make reactors of different sizes.",
     "",
     "For some fuels, there are both actively and passively cooled builds. The actively cooled ones will be faster and more efficient, but will consume cryotheum to run."
 ]);
@@ -3573,27 +3152,734 @@ mods.jei.JEI.addDescription([
     <nuclearcraft:active_cooler>,
     <contenttweaker:active_cryotheum_cooler>],
 [
-    "The active cooler is a better version of coolers for fission reactors, but it requires a fluid to run.",
+    "The Active Cooler is a better version of the associated Passive Coolers for Fission Reactors, but it requires a fluid to run.",
     "",
-    "To pump the fluid inside the reactor structure, replace a reactor casing with a buffer. All active coolers touching the buffer, directly or indirectly, will receive the fluid. See the multiblock preview for an example on how this can be done.",
+    "To pump the fluid inside the reactor structure, replace a Reactor Casing with a Buffer. All Active Coolers touching the Buffer, directly or indirectly, will receive the fluid. See the multiblock preview for an example on how this can be done.",
     "",
-    "Active coolers can receive any fluid that is used to craft passive (normal) coolers, but it will follow the same requirements.",
+    "Active coolers can receive any fluid that is used to craft passive (normal) coolers, and will follow the same requirements.",
     "",
-    "All autobuildable designs suggested will use cryotheum.",
+    "All autobuildable designs suggested will use Gelid Cryotheum.",
     "",
-    "Active coolers are also used in fusion reactors, check the fusion electomagnet multiblock preview and explanation for more info."
+    "Active coolers are also used in Fusion Reactors, check the Fusion Electromagnet multiblock preview and explanation for more info."
 ]);
 
 mods.jei.JEI.addDescription([
     <nuclearcraft:fusion_electromagnet_idle>,
     <nuclearcraft:fusion_electromagnet_transparent_idle>],
 [
-    "To operate safely, and prevent meltdowns, fusion electromagnets need cooling and energy.",
+    "To operate safely, and prevent meltdowns, Fusion Electromagnets need cooling and energy.",
     "",
-    "To provide energy, connect energy cables with high transfer rate to the electromagnets. If properly powered, sections of connected electromagnets will turn from red to green.",
+    "To provide energy, connect energy cables with high transfer rate to the Electromagnets. If properly powered, sections of connected Electromagnets will turn from red to green.",
     "To operate safely, you will need multiple connections! One every 7 blocks should be good.",
     "",
-    "To provide cooling, you will need to use active coolers filled with water (infinite water sources are recommended).",
+    "To provide cooling, you will need to use Active Coolers filled with water (infinite water sources are recommended).",
     "Cooling has to be added after the reactor starts making energy (optional while it's heating up). You want to make sure cooling is at 100%, no more, no less!"
 
 ]);
+
+mods.jei.JEI.addDescription([
+    <genetics:lab_machine:4>],
+[
+    "The acclimatiser lets you incerase the temperature and humidity tolerance of your bees.",
+    "",
+    "Combine with the following items for the following effects:",
+    "Blaze powder or Lava = higher temperature",
+    "Ice or snowball = lower temperature",
+    "Water = higher humidity",
+    "Sand = lower humidity"
+
+]);
+
+mods.jei.JEI.addDescription([
+    <bewitchment:ritual_chalk>,
+    <bewitchment:focal_chalk>,
+    <bewitchment:fiery_chalk>,
+    <bewitchment:phasing_chalk>],
+[
+    "Chalk is used to draw rituals to produce special effects, summon mobs, or obtain items.",
+    "",
+    "Rituals require an active altar nearby to function.",
+    "",
+    "Right click the ground with chalk to draw runes.",
+    "",
+    "If a ritual requires items, right click them on the center rune!",
+    "",
+    "There are three tiers of rituals, corresponding to the three colors of chalk!",
+    "",
+    "The middle chalk is always yellow! Right click it to start the ritual!"
+
+]);
+
+mods.jei.JEI.addDescription([
+    <bewitchment:boline>],
+[
+    "Check uses for the boline to see a preview for the Rite of Shifting Seasons circle setup.",
+    "",
+    "This circle requires a boline that has been set to a specific biome. Right click one to bind it to the biome you are in. See a special recipe to craft a Stormland boline, which will be required at some point."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <astralsorcery:blockattunementaltar>],
+[
+    "This altar is part of a multiblock structure.",
+    "",
+    "Right click with a sextant to see a multiblock preview!",
+    "",
+    "Holding a constellation paper in off-hand while looking at a fully built attunement structure will produce particle effects on specific blocks.",
+    "",
+    "Place spectral relays to for the constellation shape on the spots indicated by the particles. New visuals will show up if the relays are placed properly, and if the constellation is in the sky.",
+    "",
+    "The attunement altar can attune players (you stand in it) or crystals (put them on the altar).",
+    "",
+    "Each attuned crystal can produce an effect if used in a ritual altar."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <astralsorcery:blockcelestialcollectorcrystal>],
+[
+    "Collector crystals are used in a variety of applications.",
+    "",
+    "They can be linked to an altar to boost starlight levels.",
+    "",
+    "They can be linked to a ritual using the same attunement to boost the effect of the altar.",
+    "",
+    "By building a structure around the crystal (see preview) it can be used to increase its boosting effect further."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:buffing_astral_ritual>],
+[
+    "Rituals can be boosted to have increased range and effects!",
+    "",
+    "To boost a ritual, place a collector crystal with the same attunement as the ritual nearby, and link it to the altar using a linking tool. ",
+    "",
+    "The better the crystal, the better the boost.",
+    "",
+    "The effect of the collector crystal is maximized if a multiblock is built around it. Right click the crystal with a sextant to obtain a preview of the multiblock.",
+    "",
+    "To increase the ritual effects even more, you should add lenses around the ritual.",
+    "",
+    "A light beam coming out of the altar will tell you where to place the lens. After it's placed, use the linking tool to point it back at the crystal. This will tell you where to place the next lens.",
+    "",
+    "The better the lens, the better the boost.",
+    "",
+    "If a ritual is fully boosted (maxed crystals and maximum number of fully maxed lenses), it will produce a special particle effect."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <xnet:controller>],
+[
+    "Every Xnet system requires a controller, a connector for each inventory you want to interact with, and network cables to connect them.",
+    "",
+    "The controller requires power, which should come from an external source (flux point my beloved). Do not power your Xnet controller with an Xnet connector, it will cause lag.",
+    "",
+    "For conduits and ducts, each individual connection is handled independently. For Xnet, each connection to other inventories in handled by the controller GUI.",
+    "",
+    "All inventories that have connectors and valid network cable connections will show up on the controller. You can double click an inventory to see its location in-world.",
+    "",
+    "A single Xnet setup can do up to 8 functions at the same time, described by 8 channels, corresponding to the columns in the GUI.",
+    "",
+    "Each channel can be configured to do:",
+    "",
+    "Energy transfer: set individual inventories as energy inputs or outputs, useful for powering single-block machines that also need item automation.",
+    "",
+    "Item transfer: set individual inventories as inputs or outputs of specific filtered or general items; you can specify what sides to interact with for sided machines like furnaces.",
+    "",
+    "Logic (redstone): you can add sensors (produce redstone if chest has over X amount of item A); additionally, both item and energy channels can receive logic signals to turn on/off their function (move item B if receiving redstone signal); logic (redstone) channels can be colored as well to operate independently.",
+    "",
+    "Fluid transfer: it's bugged, don't use it",
+    "",
+    "RFTools: combined with the storage interface from RFTools, you can make mini AE2 networks.",
+    "",
+    "ComputerCraft Plethora: you can interact with computers."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <xnet:netcable:0>,
+    <xnet:netcable:1>,
+    <xnet:netcable:2>,
+    <xnet:netcable:3>],
+[
+    "Every Xnet system requires a controller, a connector for each inventory you want to interact with, and network cables to connect them.",
+    "",
+    "Cables can be colored if you want to have different Xnet setups next to each other."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <xnet:connector:0>,
+    <xnet:connector:1>,
+    <xnet:connector:2>,
+    <xnet:connector:3>],
+[
+    "Every Xnet system requires a controller, a connector for each inventory you want to interact with, and network cables to connect them.",
+    "",
+    "Like cables, connectors can be dyed to allow for different setups next to each other.",
+    "",
+    "Connectors are placed on a side of inventories and machines, but they can interact with any side. So you can extract from the bottom while the connector is on the top (if you have to work with sided machines). This can be specified in the controller GUI."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <xnet:redstone_proxy>,
+    <xnet:redstone_proxy_upd>],
+[
+    "The redstone proxy is an Xnet component that allows to convert an Xnet logic signal to regular redstone, if you have to interact with things externally.",
+    "",
+    "There are two versions, one that produces block updates (like right clicking a redstone ore) and one that doesn't."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <xnet:router>],
+[
+    "A router can be used to share functionality between different Xnet setups.",
+    "",
+    "If multiple different Xnet setups are connected to the same router, individual channels can be unified between them.",
+    "",
+    "The left side of the router GUI lists all channels in all Xnet setups attached to the router. If two channels are given the same label in the router, they will start acting as the same channel, split between different Xnet controllers."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <xnet:netcable:4>,
+    <xnet:connector:4>],
+[
+    "Routing cables and connectors are used to link routers to each other, if for some reason you need even more channels to interact between each other.",
+    "",
+    "Routers connected by routing cables and connectors will work the same way, but using the right side of the GUI as well.",
+    "",
+    "Both local (left) and remote (right) channels can interact with each other, and be unified, as long as they have the same label in the router GUI."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <xnet:wireless_router>,
+    <xnet:antenna_base>,
+    <xnet:antenna_dish>,
+    <xnet:antenna>],
+[
+    "Wireless routers and antennas can be used instead of multiple routers being connected by routing cables, if you want to connect Xnet setups, and share channels, wirelessly.",
+    "",
+    "They work like regular routers, but they need energy.",
+    "",
+    "The antenna base is placed on top of the wireless router.",
+    "",
+    "Regular antennas can be placed on top of the antenna base for short distance connections.",
+    "",
+    "Antenna dishes are used for large distance connections instead of antennas."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <nuclearcraft:salt_fission_controller>,
+    <nuclearcraft:salt_fission_heater>,
+    <nuclearcraft:salt_fission_vessel>],
+[
+    "Salt reactors are used to process fission fuels and to heat NaK fluids, which can be used to generate power using a heat exchanger and a turbine.",
+    "",
+    "See the multiblock preview for a preview of the exterior frame of a salt reactor.",
+    "",
+    "To function, a salt reactor needs cooling, done through NaK fluids, and fuel, all of which follow proximity rules similar to fission reactors.",
+    "",
+    "Inside a salt reactor, fluids are transported using coolant heaters (for NaK) and fission vessels (for fuel). These act similarly to fluid pipes, with a few extra rules.",
+    "",
+    "Simpler designs use fuel flowing from end to end, but if fluids can be properly handled, coolants and fission vessels can be placed anywhere within the coolants' rules. ",
+    "",
+    "The rules for a given coolant vessel depend on the fluid flowing through it and are the same as their solid fuel counterpart, e.g. NaK-Redstone filled coolant heaters have the same placement rules as passive redstone coolers.",
+    "",
+    "Right click each face of a vessel and coolant heater with an empty hand to change its input/output mode. Shift right click lets you change the opposite side.",
+    "",
+    "You can place a new vessel (or coolant heater) with a copy of the settings of a previous vessel by shift right clicking it with a vessel to place (this can bug out unfortunately).",
+    "",
+    "The easiest way to build a salt reactor is to configure a single layer of the interior setup first (starting from the middle block), followed by shift-clicking the next layers, and to build the outside frame at the end.",
+    "",
+    "To connect two vessels (or coolant heaters) they should have FUEL SPREAD (or COOLANT SPREAD) on their exit face, entering a DEFAULT face. ",
+    "",
+    "Touching coolant and fuel lines with different fluids should have DISABLED on touching faces.",
+    "",
+    "To feed fluids from outside a salt reactor, vessels have to be connected to vents, both on the input and output side. ",
+    "",
+    "To connect a vessel (or coolant heater) to the output vent it should have DEPLETED OUT (or HOT COOLANT OUT) on the face touching the vent.",
+    "",
+    "For each of the fuel byproducts required in progression, multiblock previews for interior reactor designs are provided. These will show an individual cross section that can be stacked into any length.",
+    "",
+    "If NaK coolant is absent from inside the reactor, or if fluids cannot freely leave the reactor, it will melt down, making even more radiation. Make sure you are making plenty of coolant, and have a way to circulate it quickly.",
+    "",
+    "Using a heat exchanger, it is possible to fully recycle NaK fluids, allowing for closed-loop designs."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:peaceful_soul>],
+[
+    "Increases the spawn rate of peaceful mobs.",
+    "",
+    "Very useful for will crystal automation!"
+
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:gathering_forsaken_souls>],
+[
+    "Speeds up will crystal growth in demon crystallizers by damaging mobs nearby. The more different mobs, the better!",
+    "",
+    "Combine with crack of the fractured crystal to make a will crystal farm!"
+
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:crack_fractured_crystal>],
+[
+    "Automates crystal clusters dropping will crystals when fully grown.",
+    "",
+    "Combine with gathering of the forsaken souls to make a will crystal farm."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:faceted_crystal>],
+[
+    "This is used to obtain your first aspected will crystals.",
+    "",
+    "Place a crystallizer on top of the master ritual stone to collect raw demon will.",
+    "",
+    "After the will crystal is fully grown, the ritual will slowly split it into crystals of the other types."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:ritual_culling>],
+[
+    "This is the best way of automating a blood altar before deep mob evolution.",
+    "",
+    "Place below the blood altar.",
+    "",
+    "Mobs below the ritual will be killed to fill the blood altar.",
+    "",
+    "Any mob farms can be used to have an endless supply of LP.",
+    "",
+    "Max tier soul cages can be controlled with redstone, and are the fastest way to fuel this ritual."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:mark_fallen_tower>],
+[
+    "EXPLOSION WARNING!",
+    "",
+    "This ritual will call down meteors containing various (sometimes) useful ores.",
+    "",
+    "The drops will depend on the item you drop on the master ritualstone before you activate the ritual (you still need to use the activation crystal first).",
+    "Iron Block: medium size, mostly crappy ores",
+    "Gold Block: large size, mostly crappy ores",
+    "Diamond Block: small size, mostly good ores",
+    "Weight of the Ancient Heart: surprise",
+    "Baku Heart: another surprise"
+
+]);
+
+mods.jei.JEI.addDescription([
+    <environmentaltech:solar_cont_6>],
+[
+    "Solar arrays are solar panel multiblocks that can be assembled using a variety of solar cell combinations.",
+    "",
+    "The higher the tier of the controller, and the higher the tier of the cells, the better.",
+    "",
+    "For Tier 6:",
+    "Litherite: 332254 RF/t",
+    "Erodium: 442949 RF/t",
+    "Kyronite: 664508 RF/t",
+    "Pladium: 885898 RF/t",
+    "Ionite: 1329016 RF/t",
+    "Aethium: 1771965 RF/t"
+
+]);
+
+mods.jei.JEI.addDescription([
+    <environmentaltech:solar_cont_5>],
+[
+    "Solar arrays are solar panel multiblocks that can be assembled using a variety of solar cell combinations.",
+    "",
+    "The higher the tier of the controller, and the higher the tier of the cells, the better.",
+    "",
+    "For Tier 5:",
+    "Litherite: 118943 RF/t",
+    "Erodium: 158510 RF/t",
+    "Kyronite: 237886 RF/t",
+    "Pladium: 317141 RF/t",
+    "Ionite: 475772 RF/t",
+    "Aethium: 634282 RF/t"
+
+]);
+
+mods.jei.JEI.addDescription([
+    <environmentaltech:solar_cont_4>],
+[
+    "Solar arrays are solar panel multiblocks that can be assembled using a variety of solar cell combinations.",
+    "",
+    "The higher the tier of the controller, and the higher the tier of the cells, the better.",
+    "",
+    "For Tier 4:",
+    "Litherite: 39771 RF/t",
+    "Erodium: 53055 RF/t",
+    "Kyronite: 79623 RF/t",
+    "Pladium: 106110 RF/t",
+    "Ionite: 159246 RF/t",
+    "Aethium: 212301 RF/t"
+
+]);
+
+mods.jei.JEI.addDescription([
+    <environmentaltech:solar_cont_3>],
+[
+    "Solar arrays are solar panel multiblocks that can be assembled using a variety of solar cell combinations.",
+    "",
+    "The higher the tier of the controller, and the higher the tier of the cells, the better.",
+    "",
+    "For Tier 3:",
+    "Litherite: 12005 RF/t",
+    "Erodium: 16023 RF/t",
+    "Kyronite: 24059 RF/t",
+    "Pladium: 32095 RF/t",
+    "Ionite: 48167 RF/t",
+    "Aethium: 64190 RF/t"
+
+]);
+
+mods.jei.JEI.addDescription([
+    <environmentaltech:solar_cont_2>],
+[
+    "Solar arrays are solar panel multiblocks that can be assembled using a variety of solar cell combinations.",
+    "",
+    "The higher the tier of the controller, and the higher the tier of the cells, the better.",
+    "",
+    "For Tier 2:",
+    "Litherite: 3050 RF/t",
+    "Erodium: 4075 RF/t",
+    "Kyronite: 6125 RF/t",
+    "Pladium: 8175 RF/t",
+    "Ionite: 12275 RF/t",
+    "Aethium: 12800 RF/t"
+
+]);
+
+mods.jei.JEI.addDescription([
+    <environmentaltech:solar_cont_1>],
+[
+    "Solar arrays are solar panel multiblocks that can be assembled using a variety of solar cell combinations.",
+    "",
+    "The higher the tier of the controller, and the higher the tier of the cells, the better.",
+    "",
+    "For Tier 1:",
+    "Litherite: 549 RF/t",
+    "Erodium: 729 RF/t",
+    "Kyronite: 1098 RF/t",
+    "Pladium: 1152 RF/t",
+    "Ionite: 1152 RF/t",
+    "Aethium: 1152 RF/t"
+
+]);
+
+mods.jei.JEI.addDescription([
+    <nuclearcraft:salt_fission_retriever>,
+    <nuclearcraft:salt_fission_distributor>],
+[
+    "The retriever and distributor are advanced versions of the salt reactor vents.",
+    "",
+    "They allow to automatically push fuel (distributor) and pull depleted fuel (retriever) without requiring contact with vessels (all sides can be DEFAULT and don't need touching vessels).",
+    "",
+    "Each retriever and distributor can interact with up to four individual vessels inside a valid salt reactor vessel.",
+    "",
+    "This makes it possible to design reactors that can be optimized by the leu235 using active coolers only (as the rules are now the same)."
+
+]);
+
+mods.jei.JEI.addDescription([
+    <nuclearcraft:heat_exchanger_controller>,
+    <nuclearcraft:heat_exchanger_tube_thermoconducting>],
+[
+    "Heat exchangers are used to cool down Hot NaK fluids for making closed loop coolant systems in salt reactors and for making high pressure steam, which is used in some recipes and for making power.",
+    "",
+    "See the multiblock preview for a preview of the exterior design of a heat exchanger.",
+    "",
+    "To function, a heat exchanger needs hot and cold fluid inputs. All that's needed for progression is to use water as the cold fluid and Hot NaK of any type as the hot fluids.",
+    "",
+    "Inside a heat exchanger, fluids are transported using heat exchanger tubes (used for both hot and cold). These act like Fission Vessels or Coolant Heaters in salt reactors.",
+    "",
+    "To properly function, hot and cold lines should run in parallel, touching each other, with fluid flow in opposite directions. Hot goes one way, cold goes the other way.",
+    "",
+    "Right click each face of a tube with an empty hand to change its input/output mode. Shift right click lets you change the opposite side.",
+    "",
+    "You can place a new heat exchanger tube with a copy of the settings of a previous vessel by shift right clicking it with a vessel to place (this can bug out unfortunately).",
+    "",
+    "The easiest way to build a heat exchanger is to configure a single layer of the interior setup first (starting from the middle block), followed by shift-clicking the next layers, and building the outside frame at the end.",
+    "",
+    "INPUT SPREAD is the original fluid output face, akin to COOLANT SPREAD in a Coolant Heater, so two lines can be joined by both entering a DEFAULT face of a vessel.",
+    "",
+    "To make hot and cold lines interact, they should have DISABLED on touching faces.",
+    "",
+    "To feed fluids from outside a heat exchanger, tubes have to be connected to vents, both on the input and output side. ",
+    "",
+    "Keep in mind that hot will output on the side where cold will input, and vice versa.",
+    "",
+    "To connect a tube to the output vent, it should have PRODUCT OUT on the face touching the vent. Connected vessels will all push their product through that block.",
+    "",
+    "Depending on the designs you pick for salt reactors, you will want to recycle up to 5 different NaK fluids.",
+    "",
+    "Depending on the designs you pick for salt reactors, you may want to recycle multiple NaK fluids. There are a few multiblock previews that accomodate different numbers of NaK fluids. "
+
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_stage1anomaly>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "In the Haven you can find colored Fabric. One structure gives you the shape of the totem, the trees tell you what blocks to use to build the totem. Stand on it, and use the anomaly.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "The totem is built as follows (top to bottom):",
+    "Emeral Block",
+    "Obsidian",
+    "Obsidian",
+    "Obsidian",
+    "Obsidian with four iron blocks making a plus sign"
+]);
+
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_icydreadshard>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "The Apothecary Comb can be crafted with some blocks to make various Potion Essences. The Twilight Forest will tell you what blocks to use to make the right Essences. Craft them with the Icy Dreadful Shard",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft the Icy Dreadful Shard with the following Potion Essences: Flight V (8:20) [Golden Aercloud], Fear (0:05) [Ethaxium Bricks], Iceworld V (0:05) [Perpetual Ice], Curse of Undeath (0:50) [Block of Flesh]."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_attunedfluixconstruct>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "The Fluix Historian Callstone will give you the Phasing Fluix Construct, various notes hidden in the structure will explain what Draconic Evolution Souls you need to combine it with. A good super enchant",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft the Phasing Fluix Construct with the Following Draconic Evolution Souls: Enthralled Dramcryx, Glacide, Slime Beetle, Salamander, Minion of the Gatekeeper, Stag Beetle, Death Hound, Ender Triplet."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_gemvoracity>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "A banner that does not belong is found in the Vox Ponds, make it bejewelled and craft it with the Gem of Gluttony.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft the Gem of Gluttony with a Bejewelled Candy Banner."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_gemvoracity2>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "You have to use the Gem of Voracity in the right dimension and in the right biome, the Vox Ponds will tell you the info you need!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Use the Gem of Voracity in a 9x9 area of Mesa (Bryce) inside of Candyland."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_stage2anomaly>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "If only there was a way to teleport above an unbreakable wall...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Use the Gaia tesseract to get to the right height."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_infuserfabrial>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Many Warded Jars can be found in Crystevia, and Essentia can be turned into Vis Crystals.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Combine the gemheart with the following Vis Crystals: Luna, Ventus, Vitreus, Aer, Aqua, Terra, Perditio, Motus."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_apothecaryprisonkey>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "A few special mushrooms can be found in Wildwood, grind them up with a Mortar and Pestle to make Powders.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Combine the Empowered Apothecary Stone with the following Floral Powders: White, Magenta, Blue, Brown."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_dragonslayer>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "You can fight some special armored enemies in Mysterium, their armor will tell you what to combine the Heart of Hearts with.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Combine the Whispering Heart of Hearts with the following Dragon Scales: White, Amethyst, Green, Gray."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_wyvernmonument>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "The marble monument found in Lyndenwyrm has four columns, place attuned collector crystals on them, and use the Wyvern Monument Activation Fabrial. The four attunement requirements are found in worldgen, and a structure will tell you which one goes where.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "North: Octans",
+    "South: Horologium",
+    "East: Lucerna",
+    "West: Vicio"
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_oblivioncandle>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Click the candle, and it'll tell you what to do!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Travel through the maze in L'Borean, and use the Candle while standing in the center of the candle circle at the bottom of the maze."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_stoneofanima>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Many Tablets can be found around L'Borean, combine them with a Chancedony Ingot. Some may drop from minibosses.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Combine a Chalcedony Ingot with the following Tablets: Sight, Stength, Vitality, Pressure, Satiation, Cleansing, Distortion, Sanctity."
+]);
+
+mods.jei.JEI.addDescription([
+    <fluxnetworks:fluxplug>,
+    <fluxnetworks:fluxpoint>,
+    <fluxnetworks:fluxcontroller>,
+    <fluxnetworks:fluxstorage>,
+    <fluxnetworks:herculeanfluxstorage>,
+    <fluxnetworks:gargantuanfluxstorage>],
+[
+    "Flux Networks are used to transfer energy wirelessly, and are the preferred energy transfer method in the pack.",
+    "",
+    "To create your own Flux Network, you need a Controller. You can specify the name of teh network and a color in the Controller GUI. Each Flux Networks machine will have to be bound to a network to function.",
+    "",
+    "Flux Plugs are used to move energy from a source to a network.",
+    "",
+    "Flux Points are used to move energy from a network to a set of machines.",
+    "",
+    "Flux Storage is used to include a buffer of energy in a network. If you have to transfer large amounts of RF/t, Storage is required to prevent energy cutouts.",
+    "",
+    "It is recommended to still use other energy transfer methods to limit the use of Flux Plugs, as using too many can cause lag. If you want to power a machine wall, for example, use a single Flux Point, and Energy Conduits of the appropriate size to power the machines.",
+    "",
+    "Your base should have two Flux Networks, one to move energy from your generators to a centralized energy storage (eventually the Draconic Energy Orb), one to move energy from storage to all of your machines."
+]);
+
+mods.jei.JEI.addDescription([
+    <botania:altar>],
+[
+    "The Pethal Apothecary needs water to work. It can be piped in using the Everful Urn or a Mechanical User with an Evertide Amulet.",
+    "",
+    "The ingredients shown in JEI recipes are dropped into the Apothecary.",
+    "",
+    "Seeds are dropped into the Apothecary after adding all ingredients to complete the recipe."
+]);
+
+mods.jei.JEI.addDescription([
+    <extrabotany:spiritfuel>],
+[
+    "To make Spirit Fuel, you can either eat Nightmare Fuel (manual) or you can place nightmare fuel in a Livingrock Pedestal."
+]);
+
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:catalyzation_chamber>],
+[
+    "The Catalyzation Chamber is a 3x3x3 multiblock, see the JEI preview for the structure.",
+    "",
+    "Right click the structure with Salis Mundus to form it.",
+    "",
+    "To make the multiblock function function, place a Stone from Thaumic Wonders in the machine gui.",
+    "",
+    "Each stone has a different functionality:",
+    "Alienist: makes eldritch clusters",
+    "Transmuter: turns ores into other ores and back",
+    "Alchemist: purifies ores",
+    "",
+    "Stones have durability, but they can be enchanted with high levels of unbreaking to become nearly infinite.",
+    "",
+    "The ore inputs are dropped in from the top, and the machine will drop outputs from the front."
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:primordial_accelerator>],
+[
+    "The primordial accelerator is used to break Primordial Pearls into Primordial Grains.",
+    "",
+    "It is a multiblock of variable length, see the JEI preview for the multiblock structure, the more Tunnels, the more Grains can be produced (with diminishing returns).",
+    "",
+    "Primordial pearls can be piped into the Accelerator.",
+    "",
+    "Use a redstone pulse to activate the machine, Primordial Grains will be dropped out around the Terminus.",
+    "",
+    "Grains can be turned back into full Pearls for an endless loop, with a bit of crucible automation."
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:heat_exchanger_math>],
+[
+    "To build a heat exchanger, first calculate how much NaK coolant you're heating from your MSR. The MSR heats 1 mB of coolant per Coolant Heater, multiplied by the efficiency, e.g. an MSR at 150% efficiency heats 1.5 mB/t per Coolant Heater.",
+    "",
+    "Each coolant requires a different amount of heat to be exchanged to cool it, and coolants take a different amount of heat to warm. In JEI, cooling recipes have a red to blue arrow and heating recipes have a blue to red arrow, which, upon hover, shows the Heat Required. Those numbers determine the rate at which coolant can be processed, at 1/Coolant Tube Conductivity mB * Heat Required to Cool / Heat Required to Warm per face touching hot and cold liquids."
+]);
+
+

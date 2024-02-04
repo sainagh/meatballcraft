@@ -249,3 +249,20 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:barathosyniu
 
 mods.tconstruct.Melting.addRecipe(<liquid:molten_barathosynium> * 144,<contenttweaker:barathosynium_ingot>);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:barathosynium_ingot>, <tconstruct:cast_custom>, <liquid:molten_barathosynium>, 144, false, 80);
+
+mods.tconstruct.Melting.addRecipe(<liquid:crystalline_ichorium> * 144,<contenttweaker:ichorium_gem>);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:ichorium_gem>, <tconstruct:cast_custom:2>, <liquid:crystalline_ichorium>, 144, false, 80);
+
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:skeletal_kaiyu_bone>, <contenttweaker:kaiyu_bone>, <liquid:skeletal>, 144, true, 80);
+
+mods.tconstruct.Melting.addRecipe(<liquid:berserker_steel> * 144,<contenttweaker:berserker_steel_ingot>);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:berserker_steel_ingot>, <tconstruct:cast_custom:0>, <liquid:berserker_steel>, 144, false, 80);
+
+mods.tconstruct.Melting.addRecipe(<liquid:runandium> * 144,<contenttweaker:runandium_ingot>);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:runandium_ingot>, <tconstruct:cast_custom:0>, <liquid:runandium>, 144, false, 80);
+
+mods.tconstruct.Melting.addRecipe(<liquid:brightsteel_alloy> * 144,<contenttweaker:brightsteel_alloy_ingot>);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:brightsteel_alloy_ingot>, <tconstruct:cast_custom:0>, <liquid:brightsteel_alloy>, 144, false, 80);
+
+mods.tconstruct.Melting.addRecipe(<liquid:ascended_draconic_alloy> * 144,<contenttweaker:ascended_draconic_alloy>);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:ascended_draconic_alloy>, <tconstruct:cast_custom:0>, <liquid:ascended_draconic_alloy>, 144, false, 80);

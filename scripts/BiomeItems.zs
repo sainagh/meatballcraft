@@ -317,6 +317,61 @@ spatialphaser.itemRightClick = function(stack, world, player, hand) {
 };
 spatialphaser.register();
 
+var gemvoracity = VanillaFactory.createItem("gem_of_voracity");
+gemvoracity.maxStackSize = 1;
+gemvoracity.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 3) {
+        player.sendChat("You gotta be in the right dimension, the Vox Ponds will tell you which one");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val UndergardenBiomeLocations = [[0,0],[1,0],[0,1],[-1,0],[0,-1],[2,0],[-2,0],[0,2],[0,-2],[3,0],[-3,0],[0,3],[0,-3],[4,0],[-4,0],[0,4],[0,-4]] as int[][];
+
+    // biome to pattern
+    val UndergardenBiomeName = "Mesa (Bryce)" as string;
+
+
+    // get number of matches
+    val UndergardenMatches = checkBiomesAtPositions(UndergardenBiomeName, playerpos, UndergardenBiomeLocations, world) as int;
+
+    player.sendChat("Use the terraformer from extra utilities to change the biome to the correct one, the Vox Ponds will tell you which one.");
+    player.sendChat("You will have to convert a large area!");
+	player.sendChat("Stand in the changed biome and use this item!");
+
+	player.sendChat(" - - - ");
+	player.sendChat("Scanning area around you");
+
+	if((UndergardenMatches) == 17) {
+		player.sendChat("Success!");
+		Commands.call("give @p contenttweaker:voraceous_worm_callstone", player, world, true, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+    if((UndergardenMatches) >= 1) {
+		player.sendChat("Correct, the right biome is the Undergarden!");
+		val UndergardenMatchesD = UndergardenMatches as double;
+		player.sendChat("Completion : " ~ UndergardenMatchesD/17*100 ~ "%");
+		player.sendChat("Convert a bigger area!");
+		return "FAIL";
+	} 
+
+	player.sendChat("The biome is wrong!");
+	return "FAIL";
+
+
+};
+gemvoracity.register();
+
 var aquaticstone = VanillaFactory.createItem("aquatic_stone");
 aquaticstone.maxStackSize = 16;
 aquaticstone.itemRightClick = function(stack, world, player, hand) {

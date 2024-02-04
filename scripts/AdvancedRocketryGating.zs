@@ -265,10 +265,18 @@ mods.techreborn.rollingMachine.addShaped(<advancedrocketry:pressuretank:2>,
 [null,<ore:plateAluminum>,null],
 [null,null,<ore:plateAluminum>]]);
 
-recipes.addShaped(<advancedrocketry:rollingmachine>,
-[[null, <ore:gearLumium>, null],
-[<advancedrocketry:pressuretank:2>, <techreborn:rolling_machine>, <advancedrocketry:pressuretank:2>],
-[<ore:plateMagnalium>, <libvulpes:structuremachine>, <ore:plateMagnalium>]]);
+mods.techreborn.rollingMachine.addShapeless(<libvulpes:productsheet:1>, [<ore:plateIron>]);
+mods.techreborn.rollingMachine.addShapeless(<libvulpes:productsheet:4>, [<ore:plateCopper>]);
+mods.techreborn.rollingMachine.addShapeless(<libvulpes:productsheet:6>, [<ore:plateSteel>]);
+mods.techreborn.rollingMachine.addShapeless(<libvulpes:productsheet:7>, [<ore:plateTitanium>]);
+mods.techreborn.rollingMachine.addShapeless(<libvulpes:productsheet:9>, [<ore:plateAluminum>]);
+mods.techreborn.rollingMachine.addShapeless(<libvulpes:productsheet:0>, [<ore:plateTitaniumAluminide>]);
+mods.techreborn.rollingMachine.addShapeless(<libvulpes:productsheet:1>, [<ore:plateTitaniumIridium>]);
+
+//recipes.addShaped(<advancedrocketry:rollingmachine>,
+//[[null, <ore:gearLumium>, null],
+//[<advancedrocketry:pressuretank:2>, <techreborn:rolling_machine>, <advancedrocketry:pressuretank:2>],
+//[<ore:plateMagnalium>, <libvulpes:structuremachine>, <ore:plateMagnalium>]]);
 
 recipes.addShaped(<libvulpes:metal0:7>*8,
 [[<ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>],

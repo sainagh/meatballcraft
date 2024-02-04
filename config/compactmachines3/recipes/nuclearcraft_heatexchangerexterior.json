@@ -1,0 +1,312 @@
+{
+    "name": "compactmachines3:nuclearcraft_heatexchangerexterior",
+    "target-item": "nuclearcraft:heat_exchanger_controller",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+    "input-types": {
+      "a": {
+        "id": "nuclearcraft:heat_exchanger_frame",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:heat_exchanger_frame",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "nuclearcraft:heat_exchanger_glass",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:heat_exchanger_glass",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "nuclearcraft:heat_exchanger_controller",
+        "meta": 4,
+        "item": {
+            "id": "nuclearcraft:heat_exchanger_controller",
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "nuclearcraft:heat_exchanger_vent",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:heat_exchanger_vent",
+            "count": 1
+          }
+      },
+      "e": {
+        "id": "nuclearcraft:heat_exchanger_wall",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:heat_exchanger_wall",
+            "count": 1
+          }
+      }
+    },
+    "shape": [
+      [
+        [
+          "a",
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "b",
+          "b",
+          "b",
+          "a"
+        ],
+        [
+          "a",
+          "b",
+          "b",
+          "b",
+          "a"
+        ],
+        [
+          "a",
+          "b",
+          "b",
+          "b",
+          "a"
+        ],
+        [
+          "a",
+          "b",
+          "b",
+          "b",
+          "a"
+        ],
+        [
+          "a",
+          "b",
+          "b",
+          "b",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a",
+          "a",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "d",
+          "d",
+          "d",
+          "a"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "a",
+          "d",
+          "d",
+          "d",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "d",
+          "d",
+          "d",
+          "a"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "c",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "a",
+          "d",
+          "d",
+          "d",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "d",
+          "d",
+          "d",
+          "a"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "a",
+          "d",
+          "d",
+          "d",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a:B",
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "e",
+          "e",
+          "e",
+          "a"
+        ],
+        [
+          "a",
+          "e",
+          "e",
+          "e",
+          "a"
+        ],
+        [
+          "a",
+          "e",
+          "e",
+          "e",
+          "a"
+        ],
+        [
+          "a",
+          "e",
+          "e",
+          "e",
+          "a"
+        ],
+        [
+          "a",
+          "e",
+          "e",
+          "e",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a",
+          "a",
+          "a"
+        ]
+      ]
+    ]
+        
+}

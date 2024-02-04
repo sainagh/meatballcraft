@@ -29,6 +29,8 @@ mods.ltt.LootTable.removeGlobalItem("projectred-core:resource_item:102");
 mods.ltt.LootTable.removeGlobalItem("railcraft:ingot:4");
 mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:11");
 
+mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:7");
+
 // mods.ltt.LootTable.removeGlobalItem("ebwizardry:magic_wand");
 // mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_ice_wand");
 // mods.ltt.LootTable.removeGlobalItem("ebwizardry:novice_fire_wand");
@@ -51,6 +53,15 @@ mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:13");
 mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:5");
 mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:7");
 mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:10");
+mods.ltt.LootTable.removeGlobalItem("techreborn:ingot");
+
+mods.ltt.LootTable.removeGlobalItem("techreborn:machine_frame:0");
+mods.ltt.LootTable.removeGlobalItem("techreborn:machine_frame:1");
+mods.ltt.LootTable.removeGlobalItem("techreborn:machine_frame:2");
+mods.ltt.LootTable.removeGlobalItem("techreborn:machine_frame");
+mods.ltt.LootTable.removeGlobalItem("techreborn:part:29");
+mods.ltt.LootTable.removeGlobalItem("techreborn:part:0");
+mods.ltt.LootTable.removeGlobalItem("techreborn:part");
 
 mods.ltt.LootTable.removeGlobalItem("mod_lavacow:bonesword");
 
@@ -75,6 +86,7 @@ mods.ltt.LootTable.removeGlobalItem("railcraft:dust:4");
 mods.ltt.LootTable.removeGlobalItem("railcraft:dust:5");
 mods.ltt.LootTable.removeGlobalItem("railcraft:dust:6");
 mods.ltt.LootTable.removeGlobalItem("railcraft:dust:7");
+mods.ltt.LootTable.removeGlobalItem("railcraft:dust");
 
 mods.ltt.LootTable.removeGlobalItem("aoa3:bloodstone");
 mods.ltt.LootTable.removeGlobalItem("aoa3:footbone_fragment");
@@ -86,6 +98,9 @@ mods.ltt.LootTable.removeGlobalItem("aoa3:lyon_ingot");
 mods.ltt.LootTable.removeGlobalItem("aoa3:shyrestone_ingot");
 mods.ltt.LootTable.removeGlobalItem("aoa3:charged_runium_chunk");
 mods.ltt.LootTable.removeGlobalItem("aoa3:ghoulish_ingot");
+
+mods.ltt.LootTable.removeGlobalItem("abyssalcraft:copperingot");
+mods.ltt.LootTable.removeGlobalItem("abyssalcraft:tiningot");
 
 
 

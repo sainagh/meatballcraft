@@ -55,10 +55,10 @@ recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "tconstruct:pick_head"
 [null, <tconstruct:pattern>, null],
 [null, <ore:plankWood>, null]]);
 
-recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "tconstruct:tough_tool_rod"}),
-[[null, <minecraft:obsidian>, null],
-[null, <tconstruct:pattern>, null],
-[null, <minecraft:obsidian>, null]]);
+//recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "tconstruct:tough_tool_rod"}),
+//[[null, <minecraft:obsidian>, null],
+//[null, <tconstruct:pattern>, null],
+//[null, <minecraft:obsidian>, null]]);
 
 recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "tconstruct:tough_tool_rod"}),
 [[<ore:obsidianRod>, <ore:obsidianRod>, <ore:obsidianRod>],

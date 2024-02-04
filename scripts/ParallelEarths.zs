@@ -185,3 +185,12 @@ deathloop.itemRightClick = function(stack, world, player, hand) {
 
 };
 deathloop.register();
+
+var lindenwyrmwarper = VanillaFactory.createItem("lyndenwyrm_warper");
+lindenwyrmwarper.maxStackSize = 1;
+lindenwyrmwarper.glowing = true;
+lindenwyrmwarper.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("cofh tpx @p 184", player, world, true, true);
+	return "Pass";
+};
+lindenwyrmwarper.register();

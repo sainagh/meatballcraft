@@ -202,6 +202,7 @@ var vinocorne = ArmorHandler.createArmorEntity("aoa3:vinocorne").withNBTCheck("H
 var visualent = ArmorHandler.createArmorEntity("aoa3:visualent").withNBTCheck("Health", 1.0, "GREATER"); 
 var voxxulon = ArmorHandler.createArmorEntity("aoa3:voxxulon").withNBTCheck("Health", 1.0, "GREATER"); 
 var xxeus = ArmorHandler.createArmorEntity("aoa3:xxeus").withNBTCheck("Health", 1.0, "GREATER"); 
+var glacide = ArmorHandler.createArmorEntity("divinerpg:glacide").withNBTCheck("Health", 1.0, "GREATER"); 
 
 
 var aoabossesgroup = ArmorHandler.createArmorGroup("aoabossesgroup", 0.9);
@@ -916,3 +917,7 @@ hardmodegroupmid.addArmor(ArmorHandler.createArmorSlot("feet", <contenttweaker:s
 hardmodegroupmid.addGameStage("hardmode");
 
 
+var ardmodegroupglacide = ArmorHandler.createArmorGroup("ardmodegroupglacide", 1.0);
+ardmodegroupglacide.addEntity(glacide);
+ardmodegroupglacide.addArmor(ArmorHandler.createArmorSlot("mainhand", <contenttweaker:phasing_snowflake>, 1, 0.1));
+ardmodegroupglacide.addGameStage("hardmode"); 

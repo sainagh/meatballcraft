@@ -7410,7 +7410,7 @@
     },
     {
       "item": "biomesoplenty:plant_1|4",
-      "emc": 16
+      "emc": 0
     },
     {
       "item": "biomesoplenty:plant_1|6",
@@ -7442,7 +7442,7 @@
     },
     {
       "item": "biomesoplenty:double_plant|1",
-      "emc": 16
+      "emc": 0
     },
     {
       "item": "biomesoplenty:double_plant|2",
@@ -12508,7 +12508,7 @@
       "item": "chisel:concrete_black|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_black1|0",
       "emc": 1
     },
@@ -12572,11 +12572,11 @@
       "item": "chisel:concrete_black1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_black2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_red|0",
       "emc": 1
     },
@@ -12640,7 +12640,7 @@
       "item": "chisel:concrete_red|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_red1|0",
       "emc": 1
     },
@@ -12704,11 +12704,11 @@
       "item": "chisel:concrete_red1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_red2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_green|0",
       "emc": 1
     },
@@ -12772,7 +12772,7 @@
       "item": "chisel:concrete_green|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_green1|0",
       "emc": 1
     },
@@ -12836,11 +12836,11 @@
       "item": "chisel:concrete_green1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_green2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_brown|0",
       "emc": 1
     },
@@ -12904,7 +12904,7 @@
       "item": "chisel:concrete_brown|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_brown1|0",
       "emc": 1
     },
@@ -12968,11 +12968,11 @@
       "item": "chisel:concrete_brown1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_brown2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_blue|0",
       "emc": 1
     },
@@ -13036,7 +13036,7 @@
       "item": "chisel:concrete_blue|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_blue1|0",
       "emc": 1
     },
@@ -13100,11 +13100,11 @@
       "item": "chisel:concrete_blue1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_blue2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_purple|0",
       "emc": 1
     },
@@ -13168,7 +13168,7 @@
       "item": "chisel:concrete_purple|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_purple1|0",
       "emc": 1
     },
@@ -13232,11 +13232,11 @@
       "item": "chisel:concrete_purple1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_purple2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_cyan|0",
       "emc": 1
     },
@@ -13300,7 +13300,7 @@
       "item": "chisel:concrete_cyan|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_cyan1|0",
       "emc": 1
     },
@@ -13364,11 +13364,11 @@
       "item": "chisel:concrete_cyan1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_cyan2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_lightgray|0",
       "emc": 1
     },
@@ -13432,7 +13432,7 @@
       "item": "chisel:concrete_lightgray|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_lightgray1|0",
       "emc": 1
     },
@@ -13496,11 +13496,11 @@
       "item": "chisel:concrete_lightgray1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_lightgray2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_gray|0",
       "emc": 1
     },
@@ -13564,7 +13564,7 @@
       "item": "chisel:concrete_gray|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_gray1|0",
       "emc": 1
     },
@@ -13628,11 +13628,11 @@
       "item": "chisel:concrete_gray1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_gray2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_pink|0",
       "emc": 1
     },
@@ -13696,7 +13696,7 @@
       "item": "chisel:concrete_pink|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_pink1|0",
       "emc": 1
     },
@@ -13760,11 +13760,11 @@
       "item": "chisel:concrete_pink1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_pink2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_lime|0",
       "emc": 1
     },
@@ -13828,7 +13828,7 @@
       "item": "chisel:concrete_lime|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_lime1|0",
       "emc": 1
     },
@@ -13892,11 +13892,11 @@
       "item": "chisel:concrete_lime1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_lime2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_yellow|0",
       "emc": 1
     },
@@ -13960,7 +13960,7 @@
       "item": "chisel:concrete_yellow|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_yellow1|0",
       "emc": 1
     },
@@ -14024,11 +14024,11 @@
       "item": "chisel:concrete_yellow1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_yellow2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_lightblue|0",
       "emc": 1
     },
@@ -14092,7 +14092,7 @@
       "item": "chisel:concrete_lightblue|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_lightblue1|0",
       "emc": 1
     },
@@ -14156,11 +14156,11 @@
       "item": "chisel:concrete_lightblue1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_lightblue2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_magenta|0",
       "emc": 1
     },
@@ -14224,7 +14224,7 @@
       "item": "chisel:concrete_magenta|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_magenta1|0",
       "emc": 1
     },
@@ -14288,11 +14288,11 @@
       "item": "chisel:concrete_magenta1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_magenta2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_orange|0",
       "emc": 1
     },
@@ -14356,7 +14356,7 @@
       "item": "chisel:concrete_orange|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_orange1|0",
       "emc": 1
     },
@@ -14420,11 +14420,11 @@
       "item": "chisel:concrete_orange1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_orange2|0",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_white|0",
       "emc": 1
     },
@@ -14488,7 +14488,7 @@
       "item": "chisel:concrete_white|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_white1|0",
       "emc": 1
     },
@@ -14552,35 +14552,35 @@
       "item": "chisel:concrete_white1|15",
       "emc": 1
     },
-	{
+    {
       "item": "chisel:concrete_white2|0",
       "emc": 1
     },
-	    {
+    {
       "item": "chisel:bloodmagic|0",
       "emc": 16842
     },
-	{
+    {
       "item": "chisel:bloodmagic|1",
       "emc": 16842
     },
-	{
+    {
       "item": "chisel:bloodmagic|2",
       "emc": 16842
     },
-	{
+    {
       "item": "chisel:bloodmagic|3",
       "emc": 16842
     },
-	{
+    {
       "item": "chisel:bloodmagic|4",
       "emc": 16842
     },
-	{
+    {
       "item": "chisel:bloodmagic|5",
       "emc": 16842
     },
-	{
+    {
       "item": "chisel:bookshelf_oak|0",
       "emc": 384
     },
@@ -14588,35 +14588,35 @@
       "item": "chisel:bookshelf_oak|1",
       "emc": 384
     },
-	{
+    {
       "item": "chisel:bookshelf_oak|2",
       "emc": 384
     },
-	{
+    {
       "item": "chisel:bookshelf_oak|3",
       "emc": 384
     },
-	{
+    {
       "item": "chisel:bookshelf_oak|4",
       "emc": 384
     },
-	{
+    {
       "item": "chisel:bookshelf_oak|5",
       "emc": 384
     },
-	{
+    {
       "item": "chisel:bookshelf_oak|6",
       "emc": 384
     },
-	{
+    {
       "item": "chisel:bookshelf_oak|7",
       "emc": 384
     },
-	{
+    {
       "item": "chisel:bookshelf_oak|8",
       "emc": 384
     },
-	{
+    {
       "item": "chisel:bookshelf_oak|9",
       "emc": 384
     },
@@ -15431,6 +15431,166 @@
     {
       "item": "minecraft:red_sandstone|0",
       "emc": 4
+    },
+    {
+      "item": "minecraft:filled_map|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:map|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:kaiyu_bone|0",
+      "emc": 500000
+    },
+    {
+      "item": "bibliocraft:biblioclipboard|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:paraffin|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:pattern|0",
+      "emc": 0
+    },
+    {
+      "item": "botania:dye|14",
+      "emc": 0
+    },
+    {
+      "item": "botania:dye|8",
+      "emc": 0
+    },
+    {
+      "item": "botania:dye|6",
+      "emc": 0
+    },
+    {
+      "item": "botania:dye|4",
+      "emc": 0
+    },
+    {
+      "item": "botania:dye|3",
+      "emc": 0
+    },
+    {
+      "item": "botania:dye|2",
+      "emc": 0
+    },
+    {
+      "item": "botania:dye|1",
+      "emc": 0
+    },
+    {
+      "item": "cyclicmagic:sprout_seed|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:whispering_heart_of_hearts|0",
+      "emc": 4000000000
+    },
+    {
+      "item": "immersiveengineering:stone_decoration|3",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:crimson_doctrine_tome|0",
+      "emc": 1000000
+    },
+    {
+      "item": "contenttweaker:crimson_emperor_icon|0",
+      "emc": 1000000
+    },
+    {
+      "item": "contenttweaker:scarlet_letter|0",
+      "emc": 1000000
+    },
+    {
+      "item": "extrautils2:klein|0",
+      "emc": 0
+    },
+    {
+      "item": "enderio:item_material|28",
+      "emc": 0
+    },
+    {
+      "item": "xnet:connector_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "xnet:connector|0",
+      "emc": 0
+    },
+    {
+      "item": "xnet:connector|1",
+      "emc": 0
+    },
+    {
+      "item": "xnet:connector|2",
+      "emc": 0
+    },
+    {
+      "item": "xnet:connector|3",
+      "emc": 0
+    },
+    {
+      "item": "xnet:advanced_connector|0",
+      "emc": 0
+    },
+    {
+      "item": "xnet:advanced_connector|1",
+      "emc": 0
+    },
+    {
+      "item": "xnet:advanced_connector|2",
+      "emc": 0
+    },
+    {
+      "item": "xnet:advanced_connector|3",
+      "emc": 0
+    },
+    {
+      "item": "xnet:antenna_dish|0",
+      "emc": 0
+    },
+    {
+      "item": "xnet:antenna_base|0",
+      "emc": 0
+    },
+    {
+      "item": "xnet:antenna|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:shard_of_a_fallen_spren|0",
+      "emc": 1024
+    },
+    {
+      "item": "enderio:item_material|16",
+      "emc": 0
+    },
+    {
+      "item": "enderio:item_material|37",
+      "emc": 0
+    },
+    {
+      "item": "enderio:item_material|17",
+      "emc": 0
+    },
+    {
+      "item": "guideapi:bloodmagic-guide|0",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|4",
+      "emc": 0
+    },
+    {
+      "item": "enderio:item_material|33",
+      "emc": 0
     }
   ]
 }

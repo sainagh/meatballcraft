@@ -22,8 +22,8 @@
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "",
-	"fillingMetadata": 0,
+	"filling": "forestry:logs.5",
+	"fillingMetadata": 2,
 	"fillingType": "AIR",
 	
 	"rarity": 200

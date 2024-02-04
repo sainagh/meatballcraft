@@ -1,4 +1,3 @@
-
 import mods.modularmachinery.RecipeBuilder;
 
 val mythpulv1 = RecipeBuilder.newBuilder("mythpulv1","mythic_processor_pulverizer",2);
@@ -1165,3 +1164,75 @@ mythpulv187.addItemInput(<ore:oreSphalerite> * 16);
 mythpulv187.addItemOutput(<techreborn:dust:50>*256);
 mythpulv187.addItemOutput(<techreborn:dust:59>*128);
 mythpulv187.build();
+
+val mythpulv188 = RecipeBuilder.newBuilder("mythpulv188","mythic_processor_pulverizer",2);
+mythpulv188.addEnergyPerTickInput(60000);
+mythpulv188.addItemInput(<bloodmagic:item_demon_crystal:0> * 16);
+mythpulv188.addItemOutput(<contenttweaker:demon_will_powder>*16);
+mythpulv188.build();
+
+val mythpulv189 = RecipeBuilder.newBuilder("mythpulv188","mythic_processor_pulverizer",2);
+mythpulv189.addEnergyPerTickInput(60000);
+mythpulv189.addItemInput(<bloodmagic:item_demon_crystal:1> * 16);
+mythpulv189.addItemOutput(<contenttweaker:corrosive_will_powder>*16);
+mythpulv189.build();
+
+val mythpulv190 = RecipeBuilder.newBuilder("mythpulv190","mythic_processor_pulverizer",2);
+mythpulv190.addEnergyPerTickInput(60000);
+mythpulv190.addItemInput(<bloodmagic:item_demon_crystal:2> * 16);
+mythpulv190.addItemOutput(<contenttweaker:destructive_will_powder>*16);
+mythpulv190.build();
+
+val mythpulv191 = RecipeBuilder.newBuilder("mythpulv191","mythic_processor_pulverizer",2);
+mythpulv191.addEnergyPerTickInput(60000);
+mythpulv191.addItemInput(<bloodmagic:item_demon_crystal:3> * 16);
+mythpulv191.addItemOutput(<contenttweaker:vengeful_will_powder>*16);
+mythpulv191.build();
+
+val mythpulv192 = RecipeBuilder.newBuilder("mythpulv192","mythic_processor_pulverizer",2);
+mythpulv192.addEnergyPerTickInput(60000);
+mythpulv192.addItemInput(<bloodmagic:item_demon_crystal:4> * 16);
+mythpulv192.addItemOutput(<contenttweaker:steadfast_will_powder>*16);
+mythpulv192.build();
+
+val mythpulv193 = RecipeBuilder.newBuilder("mythpulv193","mythic_processor_pulverizer",2);
+mythpulv193.addEnergyPerTickInput(60000);
+mythpulv193.addItemInput(<contenttweaker:holographic_ore> * 16);
+mythpulv193.addItemOutput(<contenttweaker:projector_gem>*128);
+mythpulv193.build();
+
+val mythpulv194 = RecipeBuilder.newBuilder("mythpulv194","mythic_processor_pulverizer",2);
+mythpulv194.addEnergyPerTickInput(60000);
+mythpulv194.addItemInput(<ore:itemVibrantCrystal> * 16);
+mythpulv194.addItemOutput(<ore:itemVibrantPowder>*16);
+mythpulv194.build();
+
+val mythpulv195 = RecipeBuilder.newBuilder("mythpulv195","mythic_processor_pulverizer",2);
+mythpulv195.addEnergyPerTickInput(60000);
+mythpulv195.addItemInput(<ore:itemPulsatingCrystal> * 16);
+mythpulv195.addItemOutput(<ore:itemPulsatingPowder>*16);
+mythpulv195.build();
+
+val mythpulv196 = RecipeBuilder.newBuilder("mythpulv196","mythic_processor_pulverizer",2);
+mythpulv196.addEnergyPerTickInput(60000);
+mythpulv196.addItemInput(<contenttweaker:nethersky_steel_ingot> * 16);
+mythpulv196.addItemOutput(<contenttweaker:nethersky_steel_dust>*16);
+mythpulv196.build();
+
+val mythpulv197 = RecipeBuilder.newBuilder("mythpulv197","mythic_processor_pulverizer",2);
+mythpulv197.addEnergyPerTickInput(60000);
+mythpulv197.addItemInput(<minecraft:sand> * 16);
+mythpulv197.addItemOutput(<ore:ingotSilicon>*16);
+mythpulv197.build();
+
+val mythpulv198 = RecipeBuilder.newBuilder("mythpulv198","mythic_processor_pulverizer",2);
+mythpulv198.addEnergyPerTickInput(60000);
+mythpulv198.addItemInput(<contenttweaker:ender_dolomite> * 16);
+mythpulv198.addItemOutput(<contenttweaker:ender_dolomite_dust>*64);
+mythpulv198.build();
+
+val mythpulv199 = RecipeBuilder.newBuilder("mythpulv199","mythic_processor_pulverizer",2);
+mythpulv199.addEnergyPerTickInput(60000);
+mythpulv199.addItemInput(<aoa3:void_scales> * 16);
+mythpulv199.addItemOutput(<contenttweaker:void_dust>*16);
+mythpulv199.build();

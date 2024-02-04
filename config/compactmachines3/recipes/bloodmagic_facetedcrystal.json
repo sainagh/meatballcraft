@@ -1,0 +1,129 @@
+{
+    "name": "compactmachines3:bloodmagic_facetedcrystal",
+    "target-item": "contenttweaker:faceted_crystal",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+    "input-types": {
+      "a": {
+        "id": "bloodmagic:ritual_stone",
+        "meta": 5
+      },
+      "b": {
+        "id": "bloodmagic:ritual_stone",
+        "meta": 0
+      },
+      "c": {
+        "id": "bloodmagic:ritual_stone",
+        "meta": 4
+      },
+      "d": {
+        "id": "bloodmagic:ritual_stone",
+        "meta": 2
+      },
+      "e": {
+        "id": "bloodmagic:ritual_controller",
+        "meta": 0,
+        "item": {
+            "id": "bloodmagic:ritual_controller",
+            "count": 1
+          }
+      },
+      "f": {
+        "id": "bloodmagic:ritual_stone",
+        "meta": 1
+      },
+      "g": {
+        "id": "bloodmagic:ritual_stone",
+        "meta": 3
+      }
+    },
+    "input-nbt": {
+      "e:A": {
+        "nbt": "{id:\"bloodmagic:master_ritual_stone\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},ticksExisted:6895,shouldTick:1b,currentRitual:\"\",isRunning:0b,runtime:0,direction:2,isStoned:0b}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "a",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "b",
+          "d",
+          "b",
+          "_"
+        ],
+        [
+          "a",
+          "c",
+          "e:A",
+          "g",
+          "a"
+        ],
+        [
+          "_",
+          "b",
+          "f",
+          "b",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "a",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "a",
+          "_",
+          "a",
+          "_"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "_",
+          "a",
+          "_",
+          "a",
+          "_"
+        ]
+      ]
+    ]
+             
+}

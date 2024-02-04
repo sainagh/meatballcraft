@@ -1,6 +1,8 @@
 import mods.modularmachinery.RecipeBuilder;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
+import mods.astralsorcery.Utils;
+
 
 
 val array3 as IEnchantmentDefinition[] = [<enchantment:cyclicmagic:enchantment.quickdraw>];
@@ -648,3 +650,25 @@ enc51.addItemInput(<aoa3:damage_enhancer>*32);
 enc51.addItemInput(<aoa3:alacrity_bow>);
 enc51.addItemOutput(<minecraft:enchanted_book>.withTag(map50));
 enc51.build();
+
+val celestialunattunes = Utils.getCrystalORIngredient(true, false); 
+
+recipes.addShaped(<contenttweaker:celestial_jewel>, 
+[[null, <botania:manaresource:0>, null],
+[<botania:manaresource:0>, celestialunattunes, <botania:manaresource:0>],
+[null, <botania:manaresource:0>, null]]);
+
+mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:celestial_lattice>, <contenttweaker:celestial_jewel>, 1000, <extendedcrafting:material:11>, 1000000);
+
+
+val enc52 = RecipeBuilder.newBuilder("enc52","illuminated_enchanter",20);
+enc52.addEnergyPerTickInput(15000);
+enc52.addFluidInput(<fluid:astralsorcery.liquidstarlight>*1000);
+enc52.addItemInput(<contenttweaker:celestial_lattice>);
+enc52.setChance(0.0);
+enc52.addItemInput(<mysticalagriculture:rock_crystal_essence>);
+enc52.addItemInput(<contenttweaker:possessed_fluix>*2);
+enc52.addItemInput(<contenttweaker:blue_matter>*2);
+enc52.addItemInput(<ore:ingotAstralStarmetal>*4);
+enc52.addItemOutput(<astralsorcery:itemcelestialcrystal>.withTag({astralsorcery: {crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}));
+enc52.build();

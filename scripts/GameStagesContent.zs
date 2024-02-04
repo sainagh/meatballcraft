@@ -63,9 +63,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:draconic_key>,
 [<extendedcrafting:material:12>, <extendedcrafting:material:12>, <draconicevolution:draconium_block:0>, <contenttweaker:creeponia_garnet>, <draconicevolution:draconium_block:0>, <extendedcrafting:material:12>, <extendedcrafting:material:12>]]);
 
 recipes.addShaped(<contenttweaker:minor_vethea_binding>, 
-[[null, <divinerpg:karos_lump>, null],
-[<divinerpg:karos_lump>, <minecraft:nether_star>, <divinerpg:karos_lump>],
-[null, <divinerpg:karos_lump>, null]]);
+[[<divinerpg:arksiane_staff>, <divinerpg:tormented_chestplate>, <divinerpg:arksiane_hammer>],
+[<divinerpg:arksiane_disk>, <minecraft:nether_star>, <divinerpg:arksiane_claw>],
+[<divinerpg:arksiane_backsword>, <divinerpg:arksiane_bow>, <divinerpg:arksiane_cannon>]]);
 
 
 mods.recipestages.Recipes.setRecipeStage("brightsteelforging", <avaritia:resource:0>);

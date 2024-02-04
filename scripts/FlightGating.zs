@@ -35,8 +35,15 @@ recipes.removeShaped(<simplyjetpacks:itemjetpack:15>);
 
 recipes.addShaped(<simplyjetpacks:itemjetpack:15>,
 [[<simplyjetpacks:metaitemmods:12>, <redstonearsenal:armor.plate_flux>, <simplyjetpacks:metaitemmods:12>],
-[<thermalfoundation:material:131>, <simplyjetpacks:itemjetpack:14>, <thermalfoundation:material:131>],
+[<contenttweaker:spinel_ring>, <simplyjetpacks:itemjetpack:14>, <contenttweaker:spinel_ring>],
 [<simplyjetpacks:metaitemmods:11>, <simplyjetpacks:itemfluxpack:6>, <simplyjetpacks:metaitemmods:11>]]);
+
+recipes.removeShaped(<simplyjetpacks:itemjetpack:24>);
+
+recipes.addShaped(<simplyjetpacks:itemjetpack:24>,
+[[<redstonearsenal:material:224>, <redstonearsenal:armor.plate_flux>, <redstonearsenal:material:224>],
+[<contenttweaker:spinel_ring>, <simplyjetpacks:itemjetpack:23>, <contenttweaker:spinel_ring>],
+[<simplyjetpacks:metaitemmods:24>, <simplyjetpacks:itemfluxpack:14>, <simplyjetpacks:metaitemmods:24>]]);
 
 //recipes.addShaped(<projecte:item.pe_swrg>,
 //[[<projecte:item.pe_matter:0>, <minecraft:feather>, <projecte:item.pe_matter:0>],
@@ -158,3 +165,10 @@ recipes.addShaped(<divinerpg:angelic_leggings>,
 [[<divinerpg:bluefire_stone>, <contenttweaker:lower_fragment_cosmos>, <divinerpg:bluefire_stone>],
 [<divinerpg:bluefire_stone>, null, <divinerpg:bluefire_stone>],
 [<materialpart:sednanite:ingot>, null, <materialpart:sednanite:ingot>]]);
+
+recipes.remove(<xreliquary:rending_gale>);
+recipes.addShaped(<xreliquary:rending_gale>,
+[[null, <xreliquary:mob_ingredient:5>, <xreliquary:mob_ingredient:8>],
+[<ore:ingotPlatinum>, <xreliquary:void_tear>, <xreliquary:mob_ingredient:5>],
+[<tconstruct:tough_tool_rod>.withTag({Material: "manyullyn"}), <ore:ingotPlatinum>, null]]);
+

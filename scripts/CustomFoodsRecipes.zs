@@ -189,4 +189,24 @@ recipes.addShaped(<iceandfire:dragonegg_silver>,
 [<draconicevolution:chaos_shard:3>, <divinerpg:healing_stone>, <draconicevolution:chaos_shard:3>],
 [<minecraft:dragon_egg>, <minecraft:stained_hardened_clay:8>, <minecraft:dragon_egg>]]);
 
+recipes.addShaped(<iceandfire:dragonegg_electric>,
+[[<minecraft:dragon_egg>, <draconicevolution:chaos_shard:3>, <minecraft:dragon_egg>],
+[<draconicevolution:chaos_shard:3>, <divinerpg:healing_stone>, <draconicevolution:chaos_shard:3>],
+[<minecraft:dragon_egg>, <minecraft:stained_hardened_clay:9>, <minecraft:dragon_egg>]]);
+
+recipes.addShaped(<iceandfire:dragonegg_amythest>,
+[[<minecraft:dragon_egg>, <draconicevolution:chaos_shard:3>, <minecraft:dragon_egg>],
+[<draconicevolution:chaos_shard:3>, <divinerpg:healing_stone>, <draconicevolution:chaos_shard:3>],
+[<minecraft:dragon_egg>, <minecraft:stained_hardened_clay:10>, <minecraft:dragon_egg>]]);
+
+recipes.addShaped(<iceandfire:dragonegg_copper>,
+[[<minecraft:dragon_egg>, <draconicevolution:chaos_shard:3>, <minecraft:dragon_egg>],
+[<draconicevolution:chaos_shard:3>, <divinerpg:healing_stone>, <draconicevolution:chaos_shard:3>],
+[<minecraft:dragon_egg>, <minecraft:stained_hardened_clay:1>, <minecraft:dragon_egg>]]);
+
+recipes.addShaped(<iceandfire:dragonegg_black>,
+[[<minecraft:dragon_egg>, <draconicevolution:chaos_shard:3>, <minecraft:dragon_egg>],
+[<draconicevolution:chaos_shard:3>, <divinerpg:healing_stone>, <draconicevolution:chaos_shard:3>],
+[<minecraft:dragon_egg>, <minecraft:stained_hardened_clay:15>, <minecraft:dragon_egg>]]);
+
 furnace.addRecipe(<contenttweaker:burned_enchanted_feather>,<iceandfire:stymphalian_bird_feather>);

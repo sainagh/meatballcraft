@@ -58,8 +58,11 @@ var masterspellperditio = VanillaFactory.createItem("master_spell_perditio");
 masterspellperditio.maxStackSize = 1;
 masterspellperditio.glowing = true;
 masterspellperditio.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("fill ~10 ~-1 ~10 ~-10 ~-1 ~-10 minecraft:stone 0 replace bewitchment:blessed_stone 0", player, world, true, true);
 	Commands.call("fill ~10 ~-1 ~10 ~-10 ~-1 ~-10 air 0 replace minecraft:stone 0", player, world, true, true);
+
+	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ bewitchment:blessed_stone 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
+	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ contenttweaker:scale_of_the_ancient_heart 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
+	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ contenttweaker:asgard_furnace_brick 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
 	return "Pass";
 };
 masterspellperditio.register();

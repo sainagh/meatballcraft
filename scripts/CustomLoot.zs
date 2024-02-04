@@ -176,6 +176,10 @@ val baroness = LootTweaker.getTable("aoa3:entities/bosses/baroness");
 val baronessbrain = baroness.addPool("baronessbrain", 1, 1, 0, 0);
 baronessbrain.addItemEntry(<contenttweaker:baroness_brain>, 5);
 
+val kaiyu = LootTweaker.getTable("aoa3:entities/mobs/precasia/kaiyu");
+val kaiyuemc = kaiyu.addPool("kaiyuemc", 1, 1, 0, 0);
+kaiyuemc.addItemEntry(<contenttweaker:kaiyu_bone>, 5);
+
 val clunkhead = LootTweaker.getTable("aoa3:entities/bosses/clunkhead");
 val clunkheadbrick = clunkhead.addPool("clunkheadbrick", 1, 1, 0, 0);
 clunkheadbrick.addItemEntry(<contenttweaker:clunkhead_brick>, 5);
@@ -351,6 +355,10 @@ val enthralleddramcryx = LootTweaker.getTable("divinerpg:entities/vanilla/enthra
 val enthralleddramcryxhollytop = enthralleddramcryx.addPool("enthralleddramcryxhollytop", 1, 1, 0, 0);
 enthralleddramcryxhollytop.addItemEntry(<aoa3:holly_top_seeds>, 5);
 
+val jungledramcryx = LootTweaker.getTable("divinerpg:entities/vanilla/jungle_dramcryx");
+val jungledramcryxthorns = jungledramcryx.addPool("jungledramcryxthorns", 1, 1, 0, 0);
+jungledramcryxthorns.addItemEntry(<aoa3:jungle_thorns>, 5);
+
 val gorgon = LootTweaker.getTable("iceandfire:gorgon");
 val gorgongoodloot = gorgon.addPool("gorgongoodloot", 1, 1, 0, 0);
 gorgongoodloot.addItemEntry(<contenttweaker:petrified_snake>, 5);
@@ -369,6 +377,10 @@ cadillionbloodmaster.addItemEntry(<contenttweaker:bloodmaster_metal_head>, 5);
 cadillionbloodmaster.addItemEntry(<contenttweaker:bloodmaster_metal_feet>, 5);
 cadillionbloodmaster.addItemEntry(<contenttweaker:bloodmaster_metal_chest>, 5);
 cadillionbloodmaster.addItemEntry(<contenttweaker:bloodmaster_metal_legs>, 5);
+
+val wildwoodcadillion = LootTweaker.getTable("divinerpg:entities/wildwood/wildwood_cadillion");
+val wildwoodcadillionhide = wildwoodcadillion.addPool("wildwoodcadillionhide", 1, 2, 1, 1);
+wildwoodcadillionhide.addItemEntry(<aoa3:rammerhead_hide>, 5);
 
 val chaoschicken = LootTweaker.getTable("mightyenderchicken:chaos_chicken");
 val chaoschickenfeather = chaoschicken.addPool("chaoschickenfeather", 1, 2, 1, 1);
@@ -417,6 +429,7 @@ netherfortressspecial.addItemEntry(<contenttweaker:call_of_the_death_games>*4, 2
 netherfortressspecial.addItemEntry(<contenttweaker:embiggener>*4, 2);
 netherfortressspecial.addItemEntry(<contenttweaker:creepy_explosive>*4, 2);
 netherfortressspecial.addItemEntry(<contenttweaker:call_of_enigma>*4, 2);
+netherfortressspecial.addItemEntry(<contenttweaker:witchery_summons>*4, 2);
 
 val endcity = LootTweaker.getTable("minecraft:chests/end_city_treasure");
 val endcityspecial = endcity.addPool("endcityspecial", 1, 2, 1, 1);
@@ -446,6 +459,7 @@ vanilladungeonmbc.addItemEntry(<contenttweaker:call_of_the_death_games>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:creepy_explosive>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:embiggener>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:call_of_enigma>, 3);
+vanilladungeonmbc.addItemEntry(<contenttweaker:witchery_summons>, 3);
 
 val vanillastronghold = LootTweaker.getTable("minecraft:chests/stronghold_corridor");
 val vanillastrongholdmbc = vanillastronghold.addPool("vanillastrongholdmbc", 1, 1, 0, 0);
@@ -476,6 +490,7 @@ bonecreepergunpow.addItemEntry(<aoa3:unstable_gunpowder>, 15);
 val zombievanilla = LootTweaker.getTable("minecraft:entities/zombie");
 val zombievanillaextra = zombievanilla.addPool("zombievanillaextra", 1, 1, 0, 0);
 zombievanillaextra.addItemEntry(<tombstone:crafting_ingredient:3>, 15);
+zombievanillaextra.addItemEntry(<tombstone:crafting_ingredient:4>, 2);
 
 val vinewizard = LootTweaker.getTable("aoa3:entities/mobs/gardencia/vine_wizard");
 val vinewizardrosid = vinewizard.addPool("vinewizardrosid", 1, 1, 0, 0);
@@ -498,3 +513,27 @@ championpoolgeneral.addItemEntry(<rftools:dimensional_shard>, 15);
 championpoolgeneral.addItemEntry(<mysticalagradditions:nether_star_essence>, 5);
 val championpoolguaranteed = champions.addPool("championpoolguaranteed", 1, 1, 0, 0);
 championpoolguaranteed.addItemEntry(<contenttweaker:champion_token>, 10);
+
+val druden = LootTweaker.getTable("bewitchment:entities/druden");
+val drudencustom = druden.addPool("drudencustom", 1, 1, 0, 0);
+drudencustom.addItemEntry(<contenttweaker:druden_horn>, 15);
+
+val baphomet = LootTweaker.getTable("bewitchment:entities/baphomet");
+val baphometcustom = baphomet.addPool("baphometcustom", 1, 1, 0, 0);
+baphometcustom.addItemEntry(<contenttweaker:wing_of_worship>, 15);
+
+val leonard = LootTweaker.getTable("bewitchment:entities/leonard");
+val leonardcustom = leonard.addPool("leonardcustom", 1, 1, 0, 0);
+leonardcustom.addItemEntry(<contenttweaker:hand_of_dominion>, 15);
+
+val imp = LootTweaker.getTable("bewitchment:entities/imp");
+val impcustom = imp.addPool("impcustom", 1, 1, 0, 0);
+impcustom.addItemEntry(<contenttweaker:imp_skin>, 15);
+
+val mazestonerare = LootTweaker.getTable("twilightforest:structures/labyrinth_vault/rare");
+val mazestonerarebreaker = mazestonerare.addPool("mazestonerarebreaker", 1, 1, 0, 0);
+mazestonerarebreaker.addItemEntry(<twilightforest:mazebreaker_pickaxe>, 15);
+
+val chargedcreeper = LootTweaker.getTable("xreliquary:inject/entities/creeper");
+val chargedcreeperextra = chargedcreeper.getPool("powered_creeper");
+chargedcreeperextra.addItemEntry(<contenttweaker:charged_gemstone>, 15);

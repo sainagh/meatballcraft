@@ -8,17 +8,30 @@ recipes.remove(<railcraft:rock_crusher>);
 //==================================================================
 // saltpeter
 val saltpeterdust = <ore:dustSaltpeter>;
-// saltpeterdust.remove(<abyssalcraft:nitre>);
+saltpeterdust.remove(<abyssalcraft:nitre>);
 saltpeterdust.remove(<bloodmagic:component:24>);
 saltpeterdust.remove(<immersiveengineering:material:24>);
 saltpeterdust.remove(<railcraft:dust:2>);
 // saltpeterdust.remove(<techreborn:dust:44>);
 
-furnace.addRecipe(<thermalfoundation:material:772>*9, <ore:oreSaltpeter>);
+furnace.remove(<abyssalcraft:nitre>);
+
+furnace.addRecipe(<thermalfoundation:material:772>*1, <ore:oreSaltpeter>);
 
 recipes.addShapeless(<thermalfoundation:material:772>*2,
 [<ore:oreSaltpeter>,
 <immersiveengineering:tool:0>]);
+
+mods.abyssalcraft.Materializer.removeMaterialization(<abyssalcraft:nitre>);
+
+mods.abyssalcraft.Materializer.addMaterialization(<thermalfoundation:material:772>, [<abyssalcraft:crystal:8>, <abyssalcraft:crystal:9>]);
+
+recipes.remove(<immersiveengineering:material:24>);
+recipes.addShapeless(<thermalfoundation:material:772>, [<ore:oreSaltpeter>, <immersiveengineering:tool:0>]);
+
+mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:24>);
+
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:772>*2, <ore:oreSaltpeter>, 2048);
 
 //==================================================================
 // brass
@@ -130,6 +143,12 @@ recipes.addShapeless(<thermalfoundation:material:321>,
 [<immersiveengineering:tool:0>,
 <ore:ingotTin>]);
 
+recipes.remove(<forestry:gear_tin>);
+recipes.addShaped(<thermalfoundation:material:257>,
+[[null, <ore:ingotTin>, null],
+[<ore:ingotTin>, <ore:gearStone>, <ore:ingotTin>],
+[null, <ore:ingotTin>, null]]);
+
 //==================================================================
 // copper
 val copperingot = <ore:ingotCopper>;
@@ -141,6 +160,7 @@ copperingot.remove(<projectred-core:resource_item:100>);
 copperingot.remove(<railcraft:ingot:1>);
 // copperingot.remove(<techreborn:ingot:4>);
 copperingot.remove(<libvulpes:productingot:4>);
+copperingot.remove(<iceandfire:copper_ingot>);
 
 furnace.remove(<abyssalcraft:copperingot>);
 furnace.remove(<forestry:ingot_copper>);
@@ -152,14 +172,22 @@ furnace.remove(<techreborn:ingot:4>);
 furnace.remove(<libvulpes:productingot:4>);
 furnace.addRecipe(<thermalfoundation:material:128>, <ore:oreCopper>);
 
-recipes.removeShapeless(<abyssalcraft:copperingot>);
-recipes.removeShapeless(<forestry:ingot_copper>);
-recipes.removeShapeless(<immersiveengineering:metal:0>);
-recipes.removeShapeless(<nuclearcraft:ingot:0>);
-recipes.removeShapeless(<projectred-core:resource_item:100>);
-recipes.removeShapeless(<railcraft:ingot:1>);
-recipes.removeShapeless(<libvulpes:productingot:4>);
+recipes.remove(<abyssalcraft:copperingot>);
+recipes.remove(<forestry:ingot_copper>);
+recipes.remove(<immersiveengineering:metal:0>);
+recipes.remove(<nuclearcraft:ingot:0>);
+recipes.remove(<projectred-core:resource_item:100>);
+recipes.remove(<railcraft:ingot:1>);
+recipes.remove(<libvulpes:productingot:4>);
+recipes.remove(<iceandfire:copper_ingot>);
 recipes.addShapeless(<thermalfoundation:material:128>*9, [<ore:blockCopper>]);
+
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:0>*2);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:0>);
+
+mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:0>*2, <ore:oreCopper>, <immersiveengineering:material:7>, 200, 512);
+mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:0>, <ore:dustCopper>, <immersiveengineering:material:7>, 100, 512);
+
 
 val copperdust = <ore:dustCopper>;
 copperdust.remove(<enderio:item_material:26>);
@@ -181,6 +209,20 @@ recipes.removeShapeless(<immersiveengineering:metal:30>, [<immersiveengineering:
 recipes.addShapeless(<thermalfoundation:material:320>, 
 [<immersiveengineering:tool:0>,
 <ore:ingotCopper>]);
+
+recipes.remove(<forestry:gear_copper>);
+recipes.addShaped(<thermalfoundation:material:256>,
+[[null, <ore:ingotCopper>, null],
+[<ore:ingotCopper>, <ore:gearStone>, <ore:ingotCopper>],
+[null, <ore:ingotCopper>, null]]);
+
+recipes.remove(<immersiveengineering:metal:320>);
+recipes.addShapeless(<thermalfoundation:material:320>, 
+[<ore:blockSheetmetalCopper>]);
+
+recipes.remove(<railcraft:plate:3>);
+
+
 
 //==================================================================
 // silver
@@ -268,6 +310,16 @@ recipes.addShapeless(<thermalfoundation:material:352>,
 [<immersiveengineering:tool:0>,
 <ore:ingotSteel>]);
 
+val steelgear = <ore:gearSteel>;
+steelgear.remove(<libvulpes:productgear:6>);
+steelgear.remove(<railcraft:gear:2>);
+
+recipes.removeShaped(<railcraft:locomotive_electric>);
+recipes.addShaped(<railcraft:locomotive_electric>,
+[[<minecraft:redstone_lamp>, <ore:plateSteel>, null],
+[<railcraft:charge:5>, <ore:blockBatteryRechargeable>, <railcraft:charge:5>],
+[<ore:gearSteel>, <minecraft:minecart>, <ore:gearSteel>]]);
+
 //==================================================================
 // bronze
 val bronzeingot = <ore:ingotBronze>;
@@ -287,6 +339,15 @@ bronzedust.remove(<careerbees:ingredients:8>);
 
 val bronzeplate = <ore:plateBronze>;
 bronzeplate.remove(<railcraft:plate:6>);
+
+val bronzegear = <ore:gearBronze>;
+bronzegear.remove(<railcraft:gear:4>);
+
+recipes.remove(<forestry:gear_bronze>);
+recipes.addShaped(<thermalfoundation:material:291>,
+[[null, <ore:ingotBronze>, null],
+[<ore:ingotBronze>, <ore:gearStone>, <ore:ingotBronze>],
+[null, <ore:ingotBronze>, null]]);
 
 //==================================================================
 // aluminum
@@ -334,12 +395,22 @@ electrumingot.remove(<immersiveengineering:metal:7>);
 recipes.removeShapeless(<immersiveengineering:metal:7>);
 recipes.addShapeless(<thermalfoundation:material:161>*9, [<ore:blockElectrum>]);
 
+
 val electrumdust = <ore:dustElectrum>;
 electrumdust.remove(<immersiveengineering:metal:16>);
 // electrumdust.remove(<techreborn:dust:17>);
 
+recipes.removeShapeless(<immersiveengineering:metal:16>);
+recipes.addShapeless(<thermalfoundation:material:97>*2, [<ore:dustSilver>,<ore:dustGold>]);
+
+mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:16>);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:97>, <ore:ingotElectrum>, 2048);
+
 val electrumplate = <ore:plateElectrum>;
 electrumplate.remove(<immersiveengineering:metal:37>);
+
+recipes.removeShapeless(<immersiveengineering:metal:37>);
+recipes.addShapeless(<thermalfoundation:material:353>, [<ore:ingotElectrum>, <immersiveengineering:tool:0>]);
 
 mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:37>);
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:353>, <ore:ingotElectrum>, <immersiveengineering:mold:0>, 2000);
@@ -439,6 +510,9 @@ recipes.addShapeless(<thermalfoundation:material:164>*9, [<ore:blockConstantan>]
 val constantandust = <ore:dustConstantan>;
 constantandust.remove(<immersiveengineering:metal:15>);
 
+recipes.remove(<immersiveengineering:metal:15>);
+recipes.addShapeless(<thermalfoundation:material:100>, [<ore:dustCopper>, <ore:dustNickel>]);
+
 val constantanplate = <ore:plateConstantan>;
 constantanplate.remove(<immersiveengineering:metal:36>);
 
@@ -498,6 +572,10 @@ val invardust = <ore:dustInvar>;
 val invarplate = <ore:plateInvar>;
 invarplate.remove(<railcraft:plate:9>);
 
+val invargear = <ore:gearInvar>;
+invargear.remove(<railcraft:gear:5>);
+
+
 
 //==================================================================
 // iron
@@ -554,11 +632,17 @@ recipes.addShapeless(<thermalfoundation:material:33>,
 [<immersiveengineering:tool:0>,
 <ore:ingotGold>]);
 
+val goldgear = <ore:gearGold>;
+goldgear.remove(<buildcraftcore:gear_gold>);
+
 //==================================================================
 // diamond
 val diamonddust = <ore:dustDiamond>;
 // diamonddust.remove(<techreborn:dust:16>);
 diamonddust.remove(<actuallyadditions:item_dust:2>);
+
+val diamondgear = <ore:gearDiamond>;
+diamondgear.remove(<buildcraftcore:gear_diamond>);
 
 //==================================================================
 // obsidian

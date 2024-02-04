@@ -1,43 +1,66 @@
 
 recipes.addShaped(<iceandfire:dragonscales_red>*10,
 [[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>],
-[<deepmoblearning:pristine_matter_dragon>, <minecraft:dye:1>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <ore:dyeRed>, <deepmoblearning:pristine_matter_dragon>],
 [<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>]]);
 
 recipes.addShaped(<iceandfire:dragonscales_green>*10,
 [[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>],
-[<deepmoblearning:pristine_matter_dragon>, <minecraft:dye:2>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <ore:dyeGreen>, <deepmoblearning:pristine_matter_dragon>],
 [<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>]]);
 
 recipes.addShaped(<iceandfire:dragonscales_silver>*10,
 [[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>],
-[<deepmoblearning:pristine_matter_dragon>, <minecraft:dye:7>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <ore:dyeLightGray>, <deepmoblearning:pristine_matter_dragon>],
 [<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>]]);
 
 recipes.addShaped(<iceandfire:dragonscales_sapphire>*10,
 [[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>],
-[<deepmoblearning:pristine_matter_dragon>, <minecraft:dye:4>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <ore:dyeBlue>, <deepmoblearning:pristine_matter_dragon>],
 [<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>]]);
 
 recipes.addShaped(<iceandfire:dragonscales_white>*10,
 [[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>],
-[<deepmoblearning:pristine_matter_dragon>, <minecraft:dye:15>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <ore:dyeWhite>, <deepmoblearning:pristine_matter_dragon>],
 [<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>]]);
 
 recipes.addShaped(<iceandfire:dragonscales_blue>*10,
 [[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>],
-[<deepmoblearning:pristine_matter_dragon>, <minecraft:dye:12>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <ore:dyeLightBlue>, <deepmoblearning:pristine_matter_dragon>],
 [<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>]]);
 
 recipes.addShaped(<iceandfire:dragonscales_gray>*10,
 [[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>],
-[<deepmoblearning:pristine_matter_dragon>, <minecraft:dye:8>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <ore:dyeGray>, <deepmoblearning:pristine_matter_dragon>],
 [<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>]]);
 
 recipes.addShaped(<iceandfire:dragonscales_bronze>*10,
 [[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>],
-[<deepmoblearning:pristine_matter_dragon>, <minecraft:dye:3>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <ore:dyeBrown>, <deepmoblearning:pristine_matter_dragon>],
 [<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>]]);
+
+recipes.addShaped(<iceandfire:dragonscales_black>*10,
+[[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <ore:dyeBlack>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>]]);
+
+recipes.addShaped(<iceandfire:dragonscales_copper>*10,
+[[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <ore:dyeOrange>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>]]);
+
+recipes.addShaped(<iceandfire:dragonscales_amythest>*10,
+[[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <ore:dyePurple>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>]]);
+
+recipes.addShaped(<iceandfire:dragonscales_electric>*10,
+[[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <ore:dyeCyan>, <deepmoblearning:pristine_matter_dragon>],
+[<deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_dragon>]]);
+
+
+
 
 recipes.addShaped(<iceandfire:shiny_scales>*10,
 [[<deepmoblearning:pristine_matter_witch>, <deepmoblearning:pristine_matter_witch>, <deepmoblearning:pristine_matter_witch>],

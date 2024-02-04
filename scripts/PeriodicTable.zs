@@ -50,8 +50,6 @@ mods.nuclearcraft.dissolver.addRecipe([<ore:dustSalt>, <fluid:water>*100, <fluid
 
 mods.nuclearcraft.electrolyser.addRecipe([<fluid:salt_water>*200, <fluid:chlorine>*40, <fluid:sodium>*40, <fluid:mineral_water>*120, null, 0.1, 0.9, 0.0]);
 
-mods.nuclearcraft.heat_exchanger.addRecipe([<fluid:mineral_water>*10, <fluid:brine>*20, 80000.0, 300, 700]);
-
 mods.nuclearcraft.electrolyser.addRecipe([<fluid:brine>*20, <fluid:chlorine>*4, <fluid:sodium>*4, <fluid:saline_remains>*12, null, 0.1, 0.9, 0.0]);
 
 mods.nuclearcraft.electrolyser.addRecipe([<fluid:saline_remains>*10, <fluid:francium>*5, <fluid:bromine>*5, null, null, 0.1, 0.9, 0.0]);
@@ -103,9 +101,9 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:selenium_dust>, <fluid:selen
 
 mods.nuclearcraft.chemical_reactor.removeRecipeWithInput([<fluid:hydrogen>, <fluid:chlorine>]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:hydrogen>*500, <fluid:chlorine>*1000, <fluid:fluidchlorite>*100, <fluid:hydrogen_chloride>*1000, 0.1, 2.5, 0.2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:hydrogen>*500, <fluid:chlorine>*1000, <fluid:fluidchlorite>*100, <fluid:hydrogenchloride>*1000, 0.1, 2.5, 0.2]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:salt_water>*10, <fluid:hydrogen_chloride>*10, <fluid:fluidchlorite>*10, <fluid:hydrochloric_acid>*10, 0.1, 2.5, 0.2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:salt_water>*10, <fluid:hydrogenchloride>*10, <fluid:fluidchlorite>*10, <fluid:hydrochloric_acid>*10, 0.1, 2.5, 0.2]);
 
 mods.nuclearcraft.rock_crusher.addRecipe([<thaumcraft:nugget:10>, <contenttweaker:yttrium_oxide>, <contenttweaker:barium_oxide>, null]);
 

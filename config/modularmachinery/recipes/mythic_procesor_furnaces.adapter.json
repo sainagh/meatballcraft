@@ -19,6 +19,12 @@
             "io": "input",
             "operation": 1,
             "multiplier": 0.05
+        },
+        {
+            "target": "modularmachinery:energy",
+            "io": "input",
+            "operation": 1,
+            "multiplier": 1000.0
         }
     ]
 }

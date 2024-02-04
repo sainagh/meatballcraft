@@ -43,6 +43,7 @@
 <contenttweaker:enchdesc_reach>.addTooltip(format.red("More reach for breaking blocks and mobs, +11 Block Reach (BROKEN?)"));
 <contenttweaker:enchdesc_venom>.addTooltip(format.red("Applies poison on the target. level of poison scales with enchant level, poison lasts 3 seconds per level"));
 <contenttweaker:enchdesc_waterwalking>.addTooltip(format.red("Lets the player walk ontop of water like a solid block, sneak to swim."));
+<contenttweaker:enchdesc_waterwalking>.addTooltip(format.red("WARNING: this can cause crashes."));
 <contenttweaker:enchdesc_aftershock>.addTooltip(format.red("Weaker Vorpal, gives a 5% chance per level of double damage"));
 <contenttweaker:enchdesc_rive>.addTooltip(format.red("Makes tools like a hammer, mines a 3 x 3 x level area"));
 <contenttweaker:enchdesc_reaper>.addTooltip(format.red("Boosts chance of mobs dropping Souls, +0.1% chance for mobs per level, +0.125% chance for animals per level. Wyvern sword and bow adds 1 level, Draconic sword and bow adds 2 levels, Staff of power adds 3 levels."));
@@ -105,7 +106,7 @@
 <contenttweaker:enchdesc_silk_touch>.addTooltip(format.red("Mined blocks drop themselves."));
 <contenttweaker:enchdesc_smite>.addTooltip(format.red("Extra damage to Undead Mobs. +2.5 Damage per Level"));
 <contenttweaker:enchdesc_sweeping_edge>.addTooltip(format.red("Increases the damage dealt by sweeping attacks, damage is (level/(level+1))% of the weapons normal damage"));
-<contenttweaker:enchdesc_thorns>.addTooltip(format.red("Damages anything which hits you, has a (level*15)% chance of dealing 1-4 damage, multiple thorns pieces are rolled seperatly armour with thorns has a chance to take extra damage."));
+<contenttweaker:enchdesc_thorns>.addTooltip(format.red("Damages anything which hits you, the higher the lavel, the higher the chance of proccing, and the higher the damage, multiple thorns pieces are rolled seperatly, armour with thorns has a chance to take extra damage."));
 <contenttweaker:enchdesc_unbreaking>.addTooltip(format.red("Reduces durability consumption, on average items last level times as long, armour lasts ~20% longer per level"));
 <contenttweaker:enchdesc_curse_of_vanishing>.addTooltip(format.red("Item disappears on death."));
 <contenttweaker:enchdesc_manabound>.addTooltip(format.red("Allows item to be repaired with mana."));

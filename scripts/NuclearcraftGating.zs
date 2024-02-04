@@ -437,10 +437,10 @@ recipes.addShaped(<contenttweaker:stellar_alloy_shaft>,
 
 recipes.removeShaped(<nuclearcraft:heat_exchanger_frame>);
 
-recipes.addShaped(<nuclearcraft:heat_exchanger_frame>,
-[[<contenttweaker:shadow_steel>, <contenttweaker:stellar_alloy_shaft>, <contenttweaker:shadow_steel>],
-[<ore:blockSoularium>, <nuclearcraft:heat_exchanger_wall>, <ore:blockSoularium>],
-[<contenttweaker:shadow_steel>, <contenttweaker:stellar_alloy_shaft>, <contenttweaker:shadow_steel>]]);
+recipes.addShaped(<nuclearcraft:heat_exchanger_frame>*4,
+[[<nuclearcraft:heat_exchanger_wall>, <contenttweaker:shadow_steel>, <nuclearcraft:heat_exchanger_wall>],
+[<ore:blockSoularium>, <contenttweaker:stellar_alloy_shaft>, <ore:blockSoularium>],
+[<nuclearcraft:heat_exchanger_wall>, <contenttweaker:shadow_steel>, <nuclearcraft:heat_exchanger_wall>]]);
 
 recipes.removeShaped(<nuclearcraft:heat_exchanger_controller>);
 
@@ -459,7 +459,7 @@ recipes.removeShaped(<nuclearcraft:heat_exchanger_tube_hard_carbon>);
 
 mods.nuclearcraft.alloy_furnace.addRecipe([<techreborn:upgrades:3>, <bewitchment:golden_thread>*32, <contenttweaker:superconducting_thread>*8]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_thermoconducting>*4, 
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_thermoconducting>*8, 
 [[<nuclearcraft:part:3>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
 <contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
 <aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <nuclearcraft:part:3>], 
@@ -491,6 +491,43 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_
 [<nuclearcraft:part:3>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:alloy:11>, 
 <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, 
 <nuclearcraft:alloy:11>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:part:3>], 
+
+[<nuclearcraft:part:3>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
+<contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
+<aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <nuclearcraft:part:3>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_hard_carbon>*8, 
+[[<nuclearcraft:part:3>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
+<contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
+<aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <nuclearcraft:part:3>], 
+
+[<nuclearcraft:part:3>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:alloy:2>, 
+<nuclearcraft:alloy:2>, <nuclearcraft:alloy:2>, <nuclearcraft:alloy:2>, 
+<nuclearcraft:alloy:2>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:part:3>], 
+
+[<aoa3:radiant_infusion_stone>, <nuclearcraft:alloy:2>, <contenttweaker:krypton_capture>, 
+<contenttweaker:imperfect_neutronium_nugget>, <contenttweaker:superconducting_thread>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:krypton_capture>, <nuclearcraft:alloy:2>, <aoa3:radiant_infusion_stone>], 
+
+[<contenttweaker:inert_crystal>, <nuclearcraft:alloy:2>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:mythic_machine_case>, <libvulpes:advstructuremachine>, <contenttweaker:mythic_machine_case>, 
+<contenttweaker:imperfect_neutronium_nugget>, <nuclearcraft:alloy:2>, <contenttweaker:inert_crystal>], 
+
+[<openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <nuclearcraft:alloy:2>, <libvulpes:advstructuremachine>, 
+<contenttweaker:superconducting_thread>, <contenttweaker:arc_reactor_coil>, <contenttweaker:superconducting_thread>, 
+<libvulpes:advstructuremachine>, <nuclearcraft:alloy:2>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}})], 
+
+[<contenttweaker:inert_crystal>, <nuclearcraft:alloy:2>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:mythic_machine_case>, <libvulpes:advstructuremachine>, <contenttweaker:mythic_machine_case>, 
+<contenttweaker:imperfect_neutronium_nugget>, <nuclearcraft:alloy:2>, <contenttweaker:inert_crystal>], 
+
+[<aoa3:radiant_infusion_stone>, <nuclearcraft:alloy:2>, <contenttweaker:krypton_capture>, 
+<contenttweaker:imperfect_neutronium_nugget>, <contenttweaker:superconducting_thread>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:krypton_capture>, <nuclearcraft:alloy:2>, <aoa3:radiant_infusion_stone>], 
+
+[<nuclearcraft:part:3>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:alloy:2>, 
+<nuclearcraft:alloy:2>, <nuclearcraft:alloy:2>, <nuclearcraft:alloy:2>, 
+<nuclearcraft:alloy:2>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:part:3>], 
 
 [<nuclearcraft:part:3>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
 <contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
@@ -598,7 +635,7 @@ recipes.addShaped(<nuclearcraft:turbine_rotor_bearing>,
 [<nuclearcraft:alloy:15>, <contenttweaker:adamantium_plate>, <nuclearcraft:alloy:15>]]);
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_thermoconducting>*8, 
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_thermoconducting>*16, 
 [[<contenttweaker:adamantium_plate>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
 <contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
 <aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <contenttweaker:adamantium_plate>], 
@@ -687,3 +724,57 @@ recipes.addShaped(<thermalfoundation:armor.boots_lead>.withTag({ncRadiationResis
 [[<nuclearcraft:rad_shielding:2>, <contenttweaker:active_cursed_jewel>, <nuclearcraft:rad_shielding:2>],
 [<minecraft:golden_apple:1>, <thermalfoundation:armor.boots_lead>, <minecraft:golden_apple:1>],
 [<nuclearcraft:rad_shielding:2>, <nuclearcraft:boots_hazmat>, <nuclearcraft:rad_shielding:2>]]);
+
+recipes.remove(<nuclearcraft:salt_fission_distributor>);
+recipes.addShaped(<nuclearcraft:salt_fission_distributor>, 
+[[<nuclearcraft:part:3>, <nuclearcraft:alloy:10>, <nuclearcraft:part:3>],
+[<contenttweaker:meatball_attuned_crystal>, <nuclearcraft:salt_fission_vent>, <contenttweaker:meatball_attuned_crystal>],
+[<nuclearcraft:part:3>, <nuclearcraft:alloy:10>, <nuclearcraft:part:3>]]);
+
+
+recipes.remove(<nuclearcraft:salt_fission_retriever>);
+recipes.addShaped(<nuclearcraft:salt_fission_retriever>, 
+[[<nuclearcraft:part:3>, <nuclearcraft:alloy:1>, <nuclearcraft:part:3>],
+[<contenttweaker:meatball_attuned_crystal>, <nuclearcraft:salt_fission_vent>, <contenttweaker:meatball_attuned_crystal>],
+[<nuclearcraft:part:3>, <nuclearcraft:alloy:1>, <nuclearcraft:part:3>]]);
+
+recipes.remove(<nuclearcraft:turbine_dynamo_coil:0>);
+recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:0>, 
+[[<ore:ingotMagnesium>, <ore:ingotMagnesium>, <ore:ingotMagnesium>],
+[<nuclearcraft:alloy:15>, <nuclearcraft:turbine_wall>, <nuclearcraft:alloy:15>],
+[<ore:ingotMagnesium>, <ore:ingotMagnesium>, <ore:ingotMagnesium>]]);
+
+recipes.remove(<nuclearcraft:turbine_dynamo_coil:1>);
+recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:1>, 
+[[<ore:ingotBeryllium>, <ore:ingotBeryllium>, <ore:ingotBeryllium>],
+[<nuclearcraft:alloy:15>, <nuclearcraft:turbine_wall>, <nuclearcraft:alloy:15>],
+[<ore:ingotBeryllium>, <ore:ingotBeryllium>, <ore:ingotBeryllium>]]);
+
+recipes.remove(<nuclearcraft:turbine_dynamo_coil:2>);
+recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:2>, 
+[[<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>],
+[<nuclearcraft:alloy:15>, <nuclearcraft:turbine_wall>, <nuclearcraft:alloy:15>],
+[<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]]);
+
+recipes.remove(<nuclearcraft:turbine_dynamo_coil:3>);
+recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:3>, 
+[[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+[<nuclearcraft:alloy:15>, <nuclearcraft:turbine_wall>, <nuclearcraft:alloy:15>],
+[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]);
+
+recipes.remove(<nuclearcraft:turbine_dynamo_coil:4>);
+recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:4>, 
+[[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
+[<nuclearcraft:alloy:15>, <nuclearcraft:turbine_wall>, <nuclearcraft:alloy:15>],
+[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
+
+recipes.remove(<nuclearcraft:turbine_dynamo_coil:5>);
+recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:5>, 
+[[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>],
+[<nuclearcraft:alloy:15>, <nuclearcraft:turbine_wall>, <nuclearcraft:alloy:15>],
+[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]]);
+
+
+mods.nuclearcraft.heat_exchanger.addRecipe([<fluid:high_pressure_steam>*1000, <fluid:supercritical_steam>*1000, 80000.0, 300, 700]);
+
+mods.nuclearcraft.turbine.addRecipe([<fluid:supercritical_steam>, <fluid:exhaust_steam>*4, 3000.0, 200.0]);

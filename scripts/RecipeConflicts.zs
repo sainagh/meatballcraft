@@ -646,7 +646,7 @@ recipes.addShaped(<contenttweaker:better_glass_cutter>,
 [null, <ore:stickWood>, <ore:gemDiamond>],
 [<ore:ingotIron>, null, null]]);
 
-mods.tconstruct.Melting.addRecipe(<fluid:alubrass>*288, <ore:cast>);
+mods.tconstruct.Melting.addRecipe(<fluid:alubrass>*144, <ore:cast>);
 
 recipes.addShapeless(<bloodmagic:item_demon_crystal:0>,
 [<contenttweaker:making_will>]);
@@ -1270,6 +1270,15 @@ recipes.addShapeless(<thermalexpansion:reservoir:3>,
 recipes.addShapeless(<thermalexpansion:reservoir:4>,
 [<thermalexpansion:reservoir:4>]);
 
+recipes.addShapeless(<enderio:block_cap_bank:0>,
+[<enderio:block_cap_bank:0>]);
+recipes.addShapeless(<enderio:block_cap_bank:1>,
+[<enderio:block_cap_bank:1>]);
+recipes.addShapeless(<enderio:block_cap_bank:2>,
+[<enderio:block_cap_bank:2>]);
+recipes.addShapeless(<enderio:block_cap_bank:3>,
+[<enderio:block_cap_bank:3>]);
+
 recipes.addShapeless(<contenttweaker:active_cryotheum_cooler>,
 [<contenttweaker:nuclearcraft_fission_interior>,
 <nuclearcraft:active_cooler>,
@@ -1303,3 +1312,364 @@ recipes.addShaped(<contenttweaker:wormhole_fragment>,
 [[<biomesoplenty:flesh>, <aoa3:rusted_iron_ingot>, <biomesoplenty:flesh>],
 [<aoa3:rusted_iron_ingot>, <appliedenergistics2:material:9>, <aoa3:rusted_iron_ingot>],
 [<biomesoplenty:flesh>, <aoa3:rusted_iron_ingot>, <biomesoplenty:flesh>]]);
+
+recipes.addShapeless(<agricraft:sprinkler>,
+[<contenttweaker:hidden_injei>,
+<agricraft:water_tank:0>,
+<agricraft:water_channel_valve:0>,
+<agricraft:grate:0>,
+<agricraft:water_channel_normal:0>]);
+
+
+recipes.addShapeless(<astralsorcery:blockritualpedestal>,
+[<contenttweaker:buffing_astral_ritual>,
+<astralsorcery:blockritualpedestal>]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:safe_lymph_of_pixonia>, <fluid:primal_ogerite>, <fluid:lymph_of_pixonia>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:safe_lymph_of_pixonia>, <fluid:vital_lymph>, <fluid:lymph_of_pixonia>]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:simplest_hot_salt_reactor>, <fluid:unholy_radioactive_mix>, <fluid:einstenium>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:safe_einstenium>, <fluid:unholy_radioactive_mix>, <fluid:einstenium>]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:simplest_salt_reactor>, <fluid:possessed_starlight>, <fluid:whispering_starlight>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:safe_meatballstarlight>, <fluid:possessed_starlight>, <fluid:whispering_starlight>]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:safe_polonium>, <fluid:polonium>, <fluid:spent_polonium>]);
+
+
+recipes.addShapeless(<contenttweaker:gold_nak_cooler>,
+[<contenttweaker:fill_coolantheater_with_fluid>,
+<nuclearcraft:salt_fission_heater>,
+<forge:bucketfilled>.withTag({FluidName: "gold_nak", Amount: 1000})]);
+
+recipes.addShapeless(<contenttweaker:redstone_nak_cooler>,
+[<contenttweaker:fill_coolantheater_with_fluid>,
+<nuclearcraft:salt_fission_heater>,
+<forge:bucketfilled>.withTag({FluidName: "redstone_nak", Amount: 1000})]);
+
+recipes.addShapeless(<contenttweaker:raw_nak_cooler>,
+[<contenttweaker:fill_coolantheater_with_fluid>,
+<nuclearcraft:salt_fission_heater>,
+<forge:bucketfilled>.withTag({FluidName: "nak", Amount: 1000})]);
+
+recipes.addShapeless(<contenttweaker:cryotheum_nak_cooler>,
+[<contenttweaker:fill_coolantheater_with_fluid>,
+<nuclearcraft:salt_fission_heater>,
+<forge:bucketfilled>.withTag({FluidName: "cryotheum_nak", Amount: 1000})]);
+
+recipes.addShapeless(<contenttweaker:liquidhelium_nak_cooler>,
+[<contenttweaker:fill_coolantheater_with_fluid>,
+<nuclearcraft:salt_fission_heater>,
+<forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000})]);
+
+
+
+recipes.addShapeless(<contenttweaker:ogerite_vital_vessel>,
+[<contenttweaker:fill_vessel_with_fluid>,
+<nuclearcraft:salt_fission_vessel>,
+<forge:bucketfilled>.withTag({FluidName: "primal_ogerite", Amount: 1000})]);
+recipes.addShapeless(<contenttweaker:ogerite_vital_vessel>,
+[<contenttweaker:fill_vessel_with_fluid>,
+<nuclearcraft:salt_fission_vessel>,
+<forge:bucketfilled>.withTag({FluidName: "vital_lymph", Amount: 1000})]);
+
+recipes.addShapeless(<contenttweaker:polonium_vessel>,
+[<contenttweaker:fill_vessel_with_fluid>,
+<nuclearcraft:salt_fission_vessel>,
+<forge:bucketfilled>.withTag({FluidName: "polonium", Amount: 1000})]);
+
+recipes.addShapeless(<contenttweaker:radioactive_mix_vessel>,
+[<contenttweaker:fill_vessel_with_fluid>,
+<nuclearcraft:salt_fission_vessel>,
+<forge:bucketfilled>.withTag({FluidName: "unholy_radioactive_mix", Amount: 1000})]);
+
+recipes.addShapeless(<contenttweaker:pssessed_starlight_vessel>,
+[<contenttweaker:fill_vessel_with_fluid>,
+<nuclearcraft:salt_fission_vessel>,
+<forge:bucketfilled>.withTag({FluidName: "possessed_starlight", Amount: 1000})]);
+
+recipes.addShapeless(<bloodmagic:altar>,
+[<contenttweaker:life_essence_farm>,
+<bloodarsenal:glass_sacrificial_dagger>]);
+
+recipes.addShapeless(<bloodmagic:altar>,
+[<contenttweaker:life_essence_farm>,
+<bloodarsenal:glass_dagger_of_sacrifice>]);
+
+recipes.addShapeless(<bloodmagic:altar>,
+[<contenttweaker:life_essence_farm>,
+<contenttweaker:ritual_culling>]);
+
+recipes.addShapeless(<bloodmagic:altar>,
+[<contenttweaker:life_essence_farm>,
+<deepmoblearningbm:digital_agonizer>,
+<deepmoblearning:living_matter_twilight>]);
+
+recipes.addShapeless(<contenttweaker:shining_sandstone>,
+[<contenttweaker:mark_fallen_tower>]);
+
+recipes.addShapeless(<contenttweaker:demon_stone>,
+[<contenttweaker:mark_fallen_tower>]);
+
+mods.thermalexpansion.Crucible.addRecipe(<fluid:manyullyn>*144, <tconstruct:ingots:2>, 1000);
+mods.nuclearcraft.melter.addRecipe([<ore:ingotManyullyn>, <fluid:manyullyn>*144]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:triple_nak_heat_exchanger>, <fluid:water>, <fluid:high_pressure_steam>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:quintuple_nak_heat_exchanger>, <fluid:water>, <fluid:high_pressure_steam>]);
+
+recipes.addShapeless(<contenttweaker:hot_heat_exchanger>,
+[<contenttweaker:fill_tube_with_any_nak>,
+<nuclearcraft:heat_exchanger_tube_hard_carbon>]);
+
+recipes.addShapeless(<contenttweaker:cold_heat_exchanger>,
+[<contenttweaker:fill_tube_with_water>,
+<nuclearcraft:heat_exchanger_tube_thermoconducting>]);
+
+recipes.addShapeless(<nuclearcraft:salt_fission_controller>,
+[<contenttweaker:safe_einstenium>]);
+recipes.addShapeless(<nuclearcraft:salt_fission_controller>,
+[<contenttweaker:safe_lymph_of_pixonia>]);
+recipes.addShapeless(<nuclearcraft:salt_fission_controller>,
+[<contenttweaker:safe_einstenium>]);
+recipes.addShapeless(<nuclearcraft:salt_fission_controller>,
+[<contenttweaker:safe_meatballstarlight>]);
+
+recipes.addShapeless(<nuclearcraft:heat_exchanger_controller>,
+[<contenttweaker:triple_nak_heat_exchanger>]);
+recipes.addShapeless(<nuclearcraft:heat_exchanger_controller>,
+[<contenttweaker:quintuple_nak_heat_exchanger>]);
+
+recipes.addShapeless(<contenttweaker:turbine_bearing>,
+[<contenttweaker:five_turbine_design>]);
+
+recipes.addShapeless(<contenttweaker:inlet_outlet>,
+[<contenttweaker:oneside_inlet_oneside_outlet>,
+<nuclearcraft:turbine_inlet>,
+<nuclearcraft:turbine_outlet>]);
+
+recipes.addShapeless(<aoa3:ambient_power_stone>,
+[<contenttweaker:right_click_with_lots_of_infusionstones>,
+<aoa3:infusion_table>,
+<aoa3:ambient_infusion_stone>,
+<contenttweaker:level20>]);
+recipes.addShapeless(<aoa3:blooming_power_stone>,
+[<contenttweaker:right_click_with_lots_of_infusionstones>,
+<aoa3:infusion_table>,
+<aoa3:blooming_infusion_stone>,
+<contenttweaker:level80>]);
+recipes.addShapeless(<aoa3:glaring_power_stone>,
+[<contenttweaker:right_click_with_lots_of_infusionstones>,
+<aoa3:infusion_table>,
+<aoa3:glaring_infusion_stone>,
+<contenttweaker:level30>]);
+recipes.addShapeless(<aoa3:gleaming_power_stone>,
+[<contenttweaker:right_click_with_lots_of_infusionstones>,
+<aoa3:infusion_table>,
+<aoa3:gleaming_infusion_stone>,
+<contenttweaker:level15>]);
+recipes.addShapeless(<aoa3:glistening_power_stone>,
+[<contenttweaker:right_click_with_lots_of_infusionstones>,
+<aoa3:infusion_table>,
+<aoa3:glistening_infusion_stone>,
+<contenttweaker:level5>]);
+recipes.addShapeless(<aoa3:glowing_power_stone>,
+[<contenttweaker:right_click_with_lots_of_infusionstones>,
+<aoa3:infusion_table>,
+<aoa3:glowing_infusion_stone>,
+<contenttweaker:level45>]);
+recipes.addShapeless(<aoa3:radiant_power_stone>,
+[<contenttweaker:right_click_with_lots_of_infusionstones>,
+<aoa3:infusion_table>,
+<aoa3:radiant_infusion_stone>,
+<contenttweaker:level70>]);
+recipes.addShapeless(<aoa3:shining_power_stone>,
+[<contenttweaker:right_click_with_lots_of_infusionstones>,
+<aoa3:infusion_table>,
+<aoa3:shining_infusion_stone>,
+<contenttweaker:level80>]);
+
+
+recipes.remove(<extracells:storage.fluid:0>);
+recipes.remove(<extracells:storage.fluid:1>);
+recipes.remove(<extracells:storage.fluid:2>);
+recipes.remove(<extracells:storage.fluid:3>);
+recipes.remove(<extracells:storage.fluid:4>);
+recipes.remove(<extracells:storage.fluid:5>);
+recipes.remove(<extracells:storage.fluid:6>);
+
+recipes.remove(<extracells:storage.physical:0>);
+recipes.remove(<extracells:storage.physical:1>);
+recipes.remove(<extracells:storage.physical:2>);
+recipes.remove(<extracells:storage.physical:3>);
+recipes.remove(<extracells:storage.physical:4>);
+recipes.remove(<extracells:storage.physical:5>);
+recipes.remove(<extracells:storage.physical:6>);
+
+
+recipes.remove(<nae2:storage_cell_256k>);
+recipes.remove(<nae2:storage_cell_1024k>);
+recipes.remove(<nae2:storage_cell_4096k>);
+recipes.remove(<nae2:storage_cell_16384k>);
+
+recipes.remove(<nae2:storage_cell_fluid_256k>);
+recipes.remove(<nae2:storage_cell_fluid_1024k>);
+recipes.remove(<nae2:storage_cell_fluid_4096k>);
+recipes.remove(<nae2:storage_cell_fluid_16384k>);
+
+recipes.addShaped(<nae2:storage_cell_fluid_256k>,
+[[<appliedenergistics2:quartz_glass>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>],
+[<ore:dustRedstone>, <nae2:material:5>, <ore:dustRedstone>],
+[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShapeless(<nae2:storage_cell_fluid_256k>,
+[<appliedenergistics2:material:39>, <nae2:material:5>]);
+
+recipes.addShaped(<nae2:storage_cell_fluid_1024k>,
+[[<appliedenergistics2:quartz_glass>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>],
+[<ore:dustRedstone>, <nae2:material:6>, <ore:dustRedstone>],
+[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShapeless(<nae2:storage_cell_fluid_1024k>,
+[<appliedenergistics2:material:39>, <nae2:material:6>]);
+
+recipes.addShaped(<nae2:storage_cell_fluid_4096k>,
+[[<appliedenergistics2:quartz_glass>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>],
+[<ore:dustRedstone>, <nae2:material:7>, <ore:dustRedstone>],
+[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShapeless(<nae2:storage_cell_fluid_4096k>,
+[<appliedenergistics2:material:39>, <nae2:material:7>]);
+
+recipes.addShaped(<nae2:storage_cell_fluid_16384k>,
+[[<appliedenergistics2:quartz_glass>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>],
+[<ore:dustRedstone>, <nae2:material:8>, <ore:dustRedstone>],
+[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShapeless(<nae2:storage_cell_fluid_16384k>,
+[<appliedenergistics2:material:39>, <nae2:material:8>]);
+
+recipes.addShaped(<nae2:storage_cell_256k>,
+[[<appliedenergistics2:quartz_glass>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>],
+[<ore:dustRedstone>, <nae2:material:1>, <ore:dustRedstone>],
+[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShapeless(<nae2:storage_cell_256k>,
+[<appliedenergistics2:material:39>, <nae2:material:1>]);
+
+recipes.addShaped(<nae2:storage_cell_1024k>,
+[[<appliedenergistics2:quartz_glass>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>],
+[<ore:dustRedstone>, <nae2:material:2>, <ore:dustRedstone>],
+[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShapeless(<nae2:storage_cell_1024k>,
+[<appliedenergistics2:material:39>, <nae2:material:2>]);
+
+recipes.addShaped(<nae2:storage_cell_4096k>,
+[[<appliedenergistics2:quartz_glass>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>],
+[<ore:dustRedstone>, <nae2:material:3>, <ore:dustRedstone>],
+[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShapeless(<nae2:storage_cell_4096k>,
+[<appliedenergistics2:material:39>, <nae2:material:3>]);
+
+recipes.addShaped(<nae2:storage_cell_16384k>,
+[[<appliedenergistics2:quartz_glass>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>],
+[<ore:dustRedstone>, <nae2:material:4>, <ore:dustRedstone>],
+[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShapeless(<nae2:storage_cell_16384k>,
+[<appliedenergistics2:material:39>, <nae2:material:4>]);
+
+recipes.remove(<nae2:storage_cell_void>);
+recipes.remove(<nae2:fluid_storage_cell_void>);
+
+recipes.addShaped(<nae2:storage_cell_void>,
+[[<appliedenergistics2:quartz_glass>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>],
+[<ore:dustRedstone>, <nae2:material:0>, <ore:dustRedstone>],
+[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShapeless(<nae2:storage_cell_void>,
+[<appliedenergistics2:material:39>, <nae2:material:0>]);
+
+recipes.addShaped(<nae2:fluid_storage_cell_void>,
+[[<appliedenergistics2:quartz_glass>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>],
+[<ore:dustRedstone>, <nae2:material:0>, <ore:dustRedstone>],
+[<ore:ingotIron>, <ore:dyeBlue>, <ore:ingotIron>]]);
+recipes.addShapeless(<nae2:fluid_storage_cell_void>,
+[<appliedenergistics2:material:39>, <nae2:material:0>, <ore:dyeBlue>]);
+
+recipes.addShapeless(<bigreactors:ingotcyanite>,
+[<contenttweaker:good_extreme_reactor_design>, 
+<ore:ingotYellorium>]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:extreme_turbine>, <fluid:water>, <fluid:steam>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:good_extreme_turbine>, <fluid:water>, <fluid:steam>]);
+
+
+recipes.addShapeless(<bigreactors:reactorcontroller>,
+[<contenttweaker:good_extreme_reactor_design>]);
+recipes.addShapeless(<bigreactors:turbinecontroller>,
+[<contenttweaker:good_extreme_turbine>]);
+
+recipes.addShapeless(<thaumicwonders:eldritch_cluster:0>,
+[<contenttweaker:catalyzation_chamber>, 
+<thaumicwonders:alienist_stone>]);
+recipes.addShapeless(<thaumicwonders:eldritch_cluster:1>,
+[<contenttweaker:catalyzation_chamber>, 
+<thaumicwonders:alienist_stone>]);
+recipes.addShapeless(<thaumicwonders:eldritch_cluster:2>,
+[<contenttweaker:catalyzation_chamber>, 
+<thaumicwonders:alienist_stone>]);
+recipes.addShapeless(<thaumicwonders:eldritch_cluster:3>,
+[<contenttweaker:catalyzation_chamber>, 
+<thaumicwonders:alienist_stone>]);
+recipes.addShapeless(<thaumicwonders:eldritch_cluster:4>,
+[<contenttweaker:catalyzation_chamber>, 
+<thaumicwonders:alienist_stone>]);
+recipes.addShapeless(<thaumicwonders:eldritch_cluster:5>,
+[<contenttweaker:catalyzation_chamber>, 
+<thaumicwonders:alienist_stone>]);
+recipes.addShapeless(<thaumicwonders:eldritch_cluster:6>,
+[<contenttweaker:catalyzation_chamber>, 
+<thaumicwonders:alienist_stone>]);
+recipes.addShapeless(<thaumicwonders:eldritch_cluster:7>,
+[<contenttweaker:catalyzation_chamber>, 
+<thaumicwonders:alienist_stone>]);
+recipes.addShapeless(<thaumicwonders:eldritch_cluster:8>,
+[<contenttweaker:catalyzation_chamber>, 
+<thaumicwonders:alienist_stone>]);
+
+recipes.addShapeless(<thaumicwonders:primordial_grain>,
+[<contenttweaker:primordial_accelerator>, 
+<thaumcraft:primordial_pearl>]);
+
+recipes.remove(<cyclicmagic:battery_infinite>);
+recipes.remove(<computercraft:command_computer>);
+
+
+recipes.remove(<iceandfire:armor_copper_metal_helmet>);
+recipes.addShaped(<iceandfire:armor_copper_metal_helmet>,
+[[null, <ore:ingotCopper>, <ore:ingotCopper>],
+[null, null, <ore:ingotCopper>],
+[null, <ore:ingotCopper>, <ore:ingotCopper>]]);
+
+recipes.remove(<iceandfire:armor_copper_metal_chestplate>);
+recipes.addShaped(<iceandfire:armor_copper_metal_chestplate>,
+[[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
+[<ore:ingotCopper>, <ore:ingotCopper>, null],
+[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
+
+recipes.remove(<iceandfire:armor_copper_metal_leggings>);
+recipes.addShaped(<iceandfire:armor_copper_metal_leggings>,
+[[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
+[null, null, <ore:ingotCopper>],
+[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
+
+recipes.remove(<iceandfire:armor_copper_metal_boots>);
+recipes.addShaped(<iceandfire:armor_copper_metal_boots>,
+[[null, <ore:ingotCopper>, <ore:ingotCopper>],
+[null, null, null],
+[null, <ore:ingotCopper>, <ore:ingotCopper>]]);
+
+recipes.addShaped(<materialpart:promethium:ingot>,
+[[<materialpart:promethium:nugget>, <materialpart:promethium:nugget>, <materialpart:promethium:nugget>],
+[<materialpart:promethium:nugget>, <materialpart:promethium:nugget>, <materialpart:promethium:nugget>],
+[<materialpart:promethium:nugget>, <materialpart:promethium:nugget>, <materialpart:promethium:nugget>]]);
+
+mods.chisel.Carving.addVariation("ayeracostatuescolored", <divinerpg:ayeraco_statue_red>);
+mods.chisel.Carving.addVariation("ayeracostatuescolored", <divinerpg:ayeraco_statue_blue>);
+mods.chisel.Carving.addVariation("ayeracostatuescolored", <divinerpg:ayeraco_statue_yellow>);
+mods.chisel.Carving.addVariation("ayeracostatuescolored", <divinerpg:ayeraco_statue_green>);
+mods.chisel.Carving.addVariation("ayeracostatuescolored", <divinerpg:ayeraco_statue_purple>);
+

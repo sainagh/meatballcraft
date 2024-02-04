@@ -385,3 +385,12 @@ recipes.addShapeless(<modularmachinery:salt_repolarizer_controller>,
 
 recipes.addShapeless(<modularmachinery:two_phase_fission_reactor_controller>, 
 [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:two_phase_fission_reactor"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:font_of_divinity_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:font_of_divinity"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:mythic_processor_rolling_machine_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_rolling_machine"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:everburning_forge_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:everburning_forge"}).reuse(), <modularmachinery:blockcontroller>]);

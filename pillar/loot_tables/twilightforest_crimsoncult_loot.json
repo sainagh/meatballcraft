@@ -1,0 +1,501 @@
+{
+    "pools": [
+      {
+        "name": "crimsonstuffs",
+        "entries": [
+          {
+            "entryName": "contenttweaker:crimson_emperor_icon",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "contenttweaker:crimson_emperor_icon"
+          },
+          {
+            "entryName": "contenttweaker:scarlet_letter",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "contenttweaker:scarlet_letter"
+          },
+          {
+            "entryName": "contenttweaker:crimson_doctrine_tome",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "contenttweaker:crimson_doctrine_tome"
+          }
+        ],
+        "rolls": {
+          "min": 1.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "ebbooks",
+        "entries": [
+          {
+            "entryName": "tfspellpack:twilight_spell_book#252",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 252.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#253",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 253.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#254",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 254.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#255",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 255.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#256",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 256.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#257",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 257.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#258",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 258.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#259",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 259.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#260",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 260.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#261",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 261.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#262",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 262.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#263",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 263.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#264",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 264.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#265",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 265.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#266",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 266.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#267",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 267.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#268",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 268.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#269",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 269.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#270",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 270.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#271",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 271.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#272",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 272.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#273",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 273.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#274",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 274.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#275",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 275.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#276",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 276.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#277",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 277.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#278",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 278.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#279",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 279.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#280",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 280.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#281",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 281.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#282",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 282.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#283",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "data": 283.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          },
+          {
+            "entryName": "tfspellpack:twilight_spell_book#284",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              
+                {
+                  "data": 284.0,
+                  "function": "minecraft:set_data"
+                }
+              
+            ],
+            "name": "tfspellpack:twilight_spell_book"
+          }
+        ],
+        "rolls": {
+          "min": 1.0,
+          "max": 4.0
+        }
+      }
+    ]
+  }

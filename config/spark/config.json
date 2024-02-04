@@ -1,0 +1,7 @@
+{
+  "_header": "spark configuration file - https://spark.lucko.me/docs/Configuration",
+  "viewerUrl": "https://spark.lucko.me/",
+  "bytebinUrl": "https://spark-usercontent.lucko.me/",
+  "disableResponseBroadcast": false,
+  "loadingProfiler_ENABLED": false
+}

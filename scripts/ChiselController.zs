@@ -66,6 +66,7 @@ mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:terrestrial_cauldron_controller>);
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:enchanted_greenhouse_controller>);
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:mechanized_essentia_smeltery_controller>);
+mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:everburning_forge_controller>);
 
 
 
@@ -130,6 +131,7 @@ mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:relativistic_collapser_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:definer_two_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:twelve_gates_of_heaven_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:font_of_divinity_controller>);
 
 
 
@@ -139,6 +141,7 @@ mods.chisel.Carving.addGroup("mythicprocessorscontroller");
 
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_alloy_furnace_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_empowerer_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_rolling_machine_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_pulverizer_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_purifier_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_muon_extractor_controller>);

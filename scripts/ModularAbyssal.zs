@@ -552,3 +552,68 @@ cra58.addItemInput(<abyssalcraft:dreadbrick:0>*2);
 cra58.addItemInput(<abyssalcraft:abydreadbrick:0>*2);
 cra58.addItemOutput(<contenttweaker:dreadlands_gem>*4);
 cra58.build();
+
+val cra59 = RecipeBuilder.newBuilder("cra59","sterilized_altar",120);
+cra59.addEnergyPerTickInput(1200);
+cra59.addFluidInput(<fluid:liquid_pe>*5000);
+// cra59.addFluidInput(<fluid:liquid_lp>*5000);
+cra59.addItemInput(<gendustry:honey_comb:14010>*50);
+cra59.addItemInput(<abyssalcraft:oc>);
+cra59.addItemInput(<minecraft:book>);
+cra59.addItemOutput(<abyssalcraft:necronomicon>.withTag({PotEnergy: 5000.0 as float}));
+cra59.build();
+
+val cra60 = RecipeBuilder.newBuilder("cra60","sterilized_altar",120);
+cra60.addEnergyPerTickInput(1200);
+cra60.addFluidInput(<fluid:liquid_pe>*10000);
+// cra59.addFluidInput(<fluid:liquid_lp>*5000);
+cra60.addItemInput(<gendustry:honey_comb:14010>*100);
+cra60.addItemInput(<abyssalcraft:essence:0>);
+cra60.addItemInput(<minecraft:book>);
+cra60.addItemOutput(<abyssalcraft:necronomicon_cor>.withTag({PotEnergy: 10000.0 as float}));
+cra60.build();
+
+val cra61 = RecipeBuilder.newBuilder("cra61","sterilized_altar",120);
+cra61.addEnergyPerTickInput(1200);
+cra61.addFluidInput(<fluid:liquid_pe>*10000);
+cra61.addFluidInput(<fluid:liquid_lp>*10000);
+cra61.addItemInput(<gendustry:honey_comb:14010>*200);
+cra61.addItemInput(<abyssalcraft:essence:1>);
+cra61.addItemInput(<minecraft:book>);
+cra61.addItemOutput(<abyssalcraft:necronomicon_dre>.withTag({PotEnergy: 20000.0 as float}));
+cra61.build();
+
+val cra62 = RecipeBuilder.newBuilder("cra62","sterilized_altar",120);
+cra62.addEnergyPerTickInput(1200);
+cra62.addFluidInput(<fluid:liquid_pe>*20000);
+cra62.addFluidInput(<fluid:liquid_lp>*20000);
+cra62.addItemInput(<gendustry:honey_comb:14010>*400);
+cra62.addItemInput(<abyssalcraft:essence:2>);
+cra62.addItemInput(<minecraft:book>);
+cra62.addItemOutput(<abyssalcraft:necronomicon_omt>.withTag({PotEnergy: 40000.0 as float}));
+cra62.build();
+
+val cra63 = RecipeBuilder.newBuilder("cra63","sterilized_altar",120);
+cra63.addEnergyPerTickInput(1200);
+cra63.addFluidInput(<fluid:liquid_pe>*20000);
+cra63.addFluidInput(<fluid:liquid_lp>*20000);
+cra63.addItemInput(<gendustry:honey_comb:14010>*1000);
+cra63.addItemInput(<abyssalcraft:eldritchscale>*16);
+cra63.addItemInput(<minecraft:book>);
+cra63.addItemOutput(<abyssalcraft:abyssalnomicon>.withTag({PotEnergy: 100000.0 as float}));
+cra63.build();
+
+val cra64 = RecipeBuilder.newBuilder("cra64","sterilized_altar",120);
+cra64.addEnergyPerTickInput(1200);
+cra64.addFluidInput(<fluid:liquid_pe>*100);
+cra64.addFluidInput(<fluid:liquid_lp>*100);
+cra64.addItemInput(<contenttweaker:eye_of_flesh_manipulation>);
+cra64.addItemInput(<abyssalcraft:statue:0>);
+cra64.addItemInput(<abyssalcraft:statue:1>);
+cra64.addItemInput(<abyssalcraft:statue:2>);
+cra64.addItemInput(<abyssalcraft:statue:3>);
+cra64.addItemInput(<abyssalcraft:statue:4>);
+cra64.addItemInput(<abyssalcraft:statue:5>);
+cra64.addItemInput(<abyssalcraft:statue:6>);
+cra64.addItemOutput(<contenttweaker:paradigm_of_dominion>);
+cra64.build();

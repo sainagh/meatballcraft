@@ -1,0 +1,383 @@
+{
+    "name": "compactmachines3:nuclearcraft_saltexterior",
+    "target-item": "nuclearcraft:salt_fission_controller",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+
+    "input-types": {
+      "a": {
+        "id": "nuclearcraft:salt_fission_frame",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:salt_fission_frame",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "nuclearcraft:salt_fission_glass",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:salt_fission_glass",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "nuclearcraft:salt_fission_controller",
+        "meta": 4,
+        "item": {
+            "id": "nuclearcraft:salt_fission_controller",
+            "count": 1
+          }
+      },
+      "d": {
+        "id": "nuclearcraft:salt_fission_vent",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:salt_fission_vent",
+            "count": 1
+          }
+      },
+      "e": {
+        "id": "nuclearcraft:salt_fission_wall",
+        "meta": 0,
+        "item": {
+            "id": "nuclearcraft:salt_fission_wall",
+            "count": 1
+          }
+      }
+    },
+    "shape": [
+      [
+        [
+          "a",
+          "a",
+          "a",
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "a"
+        ],
+        [
+          "a",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "a"
+        ],
+        [
+          "a",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "a"
+        ],
+        [
+          "a",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "a"
+        ],
+        [
+          "a",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a",
+          "a",
+          "a",
+          "a",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "d",
+          "d",
+          "e",
+          "d",
+          "d",
+          "a"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "a",
+          "d",
+          "d",
+          "e",
+          "d",
+          "d",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "d",
+          "d",
+          "d",
+          "d",
+          "d",
+          "a"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "c",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "a",
+          "d",
+          "d",
+          "d",
+          "d",
+          "d",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "d",
+          "d",
+          "e",
+          "d",
+          "d",
+          "a"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "a",
+          "d",
+          "d",
+          "e",
+          "d",
+          "d",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a:B",
+          "a",
+          "a",
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "e",
+          "e",
+          "e",
+          "e",
+          "e",
+          "a"
+        ],
+        [
+          "a",
+          "e",
+          "e",
+          "e",
+          "e",
+          "e",
+          "a"
+        ],
+        [
+          "a",
+          "e",
+          "e",
+          "e",
+          "e",
+          "e",
+          "a"
+        ],
+        [
+          "a",
+          "e",
+          "e",
+          "e",
+          "e",
+          "e",
+          "a"
+        ],
+        [
+          "a",
+          "e",
+          "e",
+          "e",
+          "e",
+          "e",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a",
+          "a",
+          "a",
+          "a",
+          "a"
+        ]
+      ]
+    ]
+       
+}

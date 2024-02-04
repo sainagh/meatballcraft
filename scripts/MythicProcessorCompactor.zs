@@ -341,3 +341,113 @@ mythcomp57.addEnergyPerTickInput(60000);
 mythcomp57.addItemInput(<ore:dustRedGarnet> * 16);
 mythcomp57.addItemOutput(<techreborn:plates:15>*16);
 mythcomp57.build();
+
+val mythcomp58 = RecipeBuilder.newBuilder("mythcomp58","mythic_processor_compactor",20);
+mythcomp58.addEnergyPerTickInput(60000);
+mythcomp58.addItemInput(<contenttweaker:defined_ingot>);
+mythcomp58.addItemInput(<contenttweaker:bloodmaster_block>*4);
+mythcomp58.addItemOutput(<contenttweaker:defined_plate>);
+mythcomp58.build();
+
+val mythcomp59 = RecipeBuilder.newBuilder("mythcomp59","mythic_processor_compactor",20);
+mythcomp59.addEnergyPerTickInput(60000);
+mythcomp59.addItemInput(<contenttweaker:compressed_clump_mythic>*9);
+mythcomp59.addItemOutput(<contenttweaker:double_compressed_clump_mythic>);
+mythcomp59.build();
+
+val mythcomp60 = RecipeBuilder.newBuilder("mythcomp60","mythic_processor_compactor",20);
+mythcomp60.addEnergyPerTickInput(60000);
+mythcomp60.addItemInput(<contenttweaker:double_compressed_clump_mythic>*9);
+mythcomp60.addItemOutput(<contenttweaker:triple_compressed_clump_mythic>);
+mythcomp60.build();
+
+val mythcomp61 = RecipeBuilder.newBuilder("mythcomp61","mythic_processor_compactor",2);
+mythcomp61.addEnergyPerTickInput(60000);
+mythcomp61.addItemInput(<ore:ingotIchorium>*16);
+mythcomp61.addItemOutput(<ore:plateIchorium>*16);
+mythcomp61.build();
+
+val mythcomp62 = RecipeBuilder.newBuilder("mythcomp62","mythic_processor_compactor",2);
+mythcomp62.addEnergyPerTickInput(60000);
+mythcomp62.addItemInput(<contenttweaker:phasing_alloy_ingot>*4);
+mythcomp62.addItemOutput(<contenttweaker:phasing_alloy_plate>*4);
+mythcomp62.build();
+
+val mythcomp63 = RecipeBuilder.newBuilder("mythcomp63","mythic_processor_compactor",2);
+mythcomp63.addEnergyPerTickInput(60000);
+mythcomp63.addItemInput(<contenttweaker:naquadah_ingot>*4);
+mythcomp63.addItemOutput(<contenttweaker:naquadah_plate>*4);
+mythcomp63.build();
+
+val mythcomp64 = RecipeBuilder.newBuilder("mythcomp64","mythic_processor_compactor",2);
+mythcomp64.addEnergyPerTickInput(60000);
+mythcomp64.addItemInput(<contenttweaker:wrought_iron_shard>*4);
+mythcomp64.addItemInput(<aoa3:charged_runium_chunk>*4);
+mythcomp64.addItemOutput(<contenttweaker:wrought_iron_plate>);
+mythcomp64.build();
+
+
+
+
+
+
+
+
+
+
+val mythcomp70 = RecipeBuilder.newBuilder("mythcomp70","mythic_processor_compactor",2);
+mythcomp70.addEnergyPerTickInput(60000);
+mythcomp70.addItemInput(<contenttweaker:osiris_spinel>*4);
+mythcomp70.addItemOutput(<ore:plateOsiris>*4);
+mythcomp70.build();
+
+val mythcomp71 = RecipeBuilder.newBuilder("mythcomp71","mythic_processor_compactor",2);
+mythcomp71.addEnergyPerTickInput(60000);
+mythcomp71.addItemInput(<contenttweaker:ptah_spinel>*4);
+mythcomp71.addItemOutput(<ore:platePtah>*4);
+mythcomp71.build();
+
+val mythcomp72 = RecipeBuilder.newBuilder("mythcomp72","mythic_processor_compactor",2);
+mythcomp72.addEnergyPerTickInput(60000);
+mythcomp72.addItemInput(<contenttweaker:hator_spinel>*4);
+mythcomp72.addItemOutput(<ore:plateHator>*4);
+mythcomp72.build();
+
+val mythcomp73 = RecipeBuilder.newBuilder("mythcomp73","mythic_processor_compactor",2);
+mythcomp73.addEnergyPerTickInput(60000);
+mythcomp73.addItemInput(<contenttweaker:europa_spinel>*4);
+mythcomp73.addItemOutput(<ore:plateEuropa>*4);
+mythcomp73.build();
+
+val mythcomp74 = RecipeBuilder.newBuilder("mythcomp74","mythic_processor_compactor",2);
+mythcomp74.addEnergyPerTickInput(60000);
+mythcomp74.addItemInput(<contenttweaker:oi_spinel>*4);
+mythcomp74.addItemOutput(<ore:plateOi>*4);
+mythcomp74.build();
+
+val mythcomp75 = RecipeBuilder.newBuilder("mythcomp75","mythic_processor_compactor",2);
+mythcomp75.addEnergyPerTickInput(60000);
+mythcomp75.addItemInput(<contenttweaker:falacer_spinel>*4);
+mythcomp75.addItemOutput(<ore:plateFalacer>*4);
+mythcomp75.build();
+
+val mythcomp76 = RecipeBuilder.newBuilder("mythcomp76","mythic_processor_compactor",2);
+mythcomp76.addEnergyPerTickInput(60000);
+mythcomp76.addItemInput(<contenttweaker:orcus_spinel>*4);
+mythcomp76.addItemOutput(<ore:plateOrcus>*4);
+mythcomp76.build();
+
+val mythcomp77 = RecipeBuilder.newBuilder("mythcomp77","mythic_processor_compactor",2);
+mythcomp77.addEnergyPerTickInput(60000);
+mythcomp77.addItemInput(<contenttweaker:haumea_spinel>*4);
+mythcomp77.addItemOutput(<ore:plateHaumea>*4);
+mythcomp77.build();
+
+val mythcomp78 = RecipeBuilder.newBuilder("mythcomp78","mythic_processor_compactor",2);
+mythcomp78.addEnergyPerTickInput(60000);
+mythcomp78.addItemInput(<contenttweaker:sedna_spinel>*4);
+mythcomp78.addItemOutput(<ore:plateSedna>*4);
+mythcomp78.build();
+
+
+

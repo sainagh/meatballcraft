@@ -1,0 +1,59 @@
+{
+    "name": "compactmachines3:thaumcraft_primordialaccelerator",
+    "target-item": "contenttweaker:primordial_accelerator",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+    "input-types": {
+      "a": {
+        "id": "thaumicwonders:primordial_accelerator",
+        "meta": 4,
+        "item": {
+            "id": "thaumicwonders:primordial_accelerator",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "thaumicwonders:primordial_accelerator_tunnel",
+        "meta": 5,
+        "item": {
+            "id": "thaumicwonders:primordial_accelerator_tunnel",
+            "count": 7
+          }
+      },
+      "c": {
+        "id": "thaumicwonders:primordial_accelerator_terminus",
+        "meta": 5,
+        "item": {
+            "id": "thaumicwonders:primordial_accelerator_terminus",
+            "count": 1
+          }
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{id:\"thaumicwonders:tileprimordialaccelerator\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},Items:[]}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "a:A",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "c"
+        ]
+      ]
+    ]
+     
+}

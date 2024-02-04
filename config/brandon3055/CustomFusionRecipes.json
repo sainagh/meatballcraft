@@ -450,6 +450,40 @@
     },
     {
         "mode": "ADD",
+        "result": "iceandfire:dragonsteel_lighning_ingot",
+        "catalyst": "draconicevolution:draconium_ingot",
+        "energy": 100000,
+        "tier": 2,
+        "ingredients": [
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "iceandfire:dragonsteel_lighning_block",
+        "catalyst": "draconicevolution:draconium_block",
+        "energy": 1000000,
+        "tier": 2,
+        "ingredients": [
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone"
+        ]
+    },
+    {
+        "mode": "ADD",
         "result": "iceandfire:dragonsteel_fire_block",
         "catalyst": "draconicevolution:draconium_block",
         "energy": 100000,

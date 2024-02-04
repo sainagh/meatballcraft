@@ -30,7 +30,7 @@ enc4.addItemInput(<aether_legacy:dungeon_block:4>*16);
 enc4.addItemInput(<astralsorcery:itemperkgem:0>);
 enc4.addItemInput(<astralsorcery:itemperkgem:1>);
 enc4.addItemInput(<astralsorcery:itemperkgem:2>);
-enc4.addItemOutput(<aether_legacy:holy_sword>.withTag({ench: [{lvl: 4 as short, id: 20 as short}, {lvl: 45 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 4 as short, id: 22 as short},{lvl: 5 as short, id: 21 as short},{lvl: 100 as short, id: 17 as short}], RepairCost: 1, display: {Name: "Dragnipur"}}));
+enc4.addItemOutput(<aether_legacy:holy_sword>.withTag({ench: [{lvl: 4 as short, id: 20 as short}, {lvl: 45 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 4 as short, id: 22 as short},{lvl: 5 as short, id: 21 as short},{lvl: 100 as short, id: 17 as short}], RepairCost: 1, display: {Name: "Durandal"}}));
 enc4.build();
 
 val enc5 = RecipeBuilder.newBuilder("astaeth5","gravitite_enchanter",40);

@@ -54,6 +54,18 @@ var mapBraveOther as IData = {
 };
 mapBrave += mapBraveOther;
 
+val enchlistPrisonrealm as IEnchantmentDefinition[] = [<enchantment:cofhcore:multishot>, <enchantment:minecraft:power>, <enchantment:minecraft:infinity>, <enchantment:cofhcore:leech>];
+var mapPrisonRealm as IData = {};
+mapPrisonRealm += enchlistPrisonrealm[0].makeEnchantment(6).makeTag();
+mapPrisonRealm += enchlistPrisonrealm[1].makeEnchantment(30).makeTag();
+mapPrisonRealm += enchlistPrisonrealm[2].makeEnchantment(1).makeTag();
+mapPrisonRealm += enchlistPrisonrealm[3].makeEnchantment(1).makeTag();
+var mapPrisonRealmOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Prison Realm Bow"}
+};
+mapPrisonRealm += mapPrisonRealmOther;
+
 
 val enchlistMirkwood as IEnchantmentDefinition[] = [<enchantment:enderio:witherarrow>, <enchantment:minecraft:power>, <enchantment:minecraft:infinity>, <enchantment:cofhcore:leech>];
 var mapMirkwood as IData = {};
@@ -157,6 +169,27 @@ var mapSpeedyBowOther as IData = {
 };
 mapSpeedyBow += mapSpeedyBowOther;
 
+val enchlistWarrenSword as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:soulshardsrespawn:soul_stealer>, <enchantment:mod_lavacow:lifesteal>];
+var mapWarrenSword as IData = {};
+mapWarrenSword += enchlistWarrenSword[0].makeEnchantment(100).makeTag();
+mapWarrenSword += enchlistWarrenSword[1].makeEnchantment(30).makeTag();
+mapWarrenSword += enchlistWarrenSword[2].makeEnchantment(50).makeTag();
+var mapWarrenSwordOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Dragnipur"}
+};
+mapWarrenSword += mapWarrenSwordOther;
+
+val enchlistWarBound as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:draconicevolution:enchant_reaper>];
+var mapWarBound as IData = {};
+mapWarBound += enchlistWarBound[0].makeEnchantment(55).makeTag();
+mapWarBound += enchlistWarBound[1].makeEnchantment(100).makeTag();
+var mapWarBoundOther as IData = {
+	RepairCost: 1,
+	display: {Name: "War"}
+};
+mapWarBound += mapWarBoundOther;
+
 val enclistStellar as IEnchantmentDefinition[] = [
     <enchantment:ebwizardry:shock_protection>, 
     <enchantment:minecraft:protection>,
@@ -181,7 +214,72 @@ mapStellar += enclistStellar[8].makeEnchantment(2).makeTag();
 mapStellar += enclistStellar[9].makeEnchantment(1).makeTag();
 
 
+val enchlistBigBoySword as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:cofhcore:vorpal>, <enchantment:aoa3:sever>];
+var mapBigBoySword as IData = {};
+mapBigBoySword += enchlistBigBoySword[0].makeEnchantment(55).makeTag();
+mapBigBoySword += enchlistBigBoySword[1].makeEnchantment(20).makeTag();
+mapBigBoySword += enchlistBigBoySword[2].makeEnchantment(20).makeTag();
+var mapBigBoySwordOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Dragon Slayer"}
+};
+mapBigBoySword += mapBigBoySwordOther;
 
+
+val enchlistPlaguesword as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:tombstone:plague_bringer>, <enchantment:minecraft:smite>];
+var mapPlaguesword as IData = {};
+mapPlaguesword += enchlistPlaguesword[0].makeEnchantment(75).makeTag();
+mapPlaguesword += enchlistPlaguesword[1].makeEnchantment(20).makeTag();
+mapPlaguesword += enchlistPlaguesword[2].makeEnchantment(20).makeTag();
+var mapPlagueswordOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Plaguesword"}
+};
+mapPlaguesword += mapPlagueswordOther;
+
+val enchlistSlimesword as IEnchantmentDefinition[] = [<enchantment:minecraft:unbreaking>, <enchantment:endercore:xpboost>];
+var mapSlimesword as IData = {};
+mapSlimesword += enchlistSlimesword[0].makeEnchantment(125).makeTag();
+mapSlimesword += enchlistSlimesword[1].makeEnchantment(50).makeTag();
+var mapSlimeswordOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Jerry's Sword"}
+};
+mapSlimesword += mapSlimeswordOther;
+
+val enchlistBloodKopesh as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:endercore:xpboost>, <enchantment:mod_lavacow:lifesteal>];
+var mapBloodKopesh as IData = {};
+mapBloodKopesh += enchlistBloodKopesh[0].makeEnchantment(75).makeTag();
+mapBloodKopesh += enchlistBloodKopesh[1].makeEnchantment(150).makeTag();
+mapBloodKopesh += enchlistBloodKopesh[2].makeEnchantment(150).makeTag();
+var mapBloodKopeshOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Sacrificial Khopesh"}
+};
+mapBloodKopesh += mapBloodKopeshOther;
+
+
+val enchlistCaliburn as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:cofhcore:vorpal>, <enchantment:enderio:witherweapon>];
+var mapCaliburn as IData = {};
+mapCaliburn += enchlistCaliburn[0].makeEnchantment(120).makeTag();
+mapCaliburn += enchlistCaliburn[1].makeEnchantment(16).makeTag();
+mapCaliburn += enchlistCaliburn[2].makeEnchantment(20).makeTag();
+var mapCaliburnOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Caliburn"}
+};
+mapCaliburn += mapCaliburnOther;
+
+val enchlistDauthdaert as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:abyssalcraft:coralium>, <enchantment:tombstone:plague_bringer>, <enchantment:tombstone:plague_bringer>];
+var mapDauthdaert as IData = {};
+mapDauthdaert += enchlistDauthdaert[0].makeEnchantment(75).makeTag();
+mapDauthdaert += enchlistDauthdaert[1].makeEnchantment(20).makeTag();
+mapDauthdaert += enchlistDauthdaert[2].makeEnchantment(20).makeTag();
+var mapDauthdaertOther as IData = {
+	RepairCost: 1,
+	display: {Name: "Dauthdaert"}
+};
+mapDauthdaert += mapDauthdaertOther;
 
 
 
@@ -350,7 +448,7 @@ recipes.addShaped(<soulshardsrespawn:vile_sword>.withTag(mapVile),
 [<extendedcrafting:storage:2>, <soulshardsrespawn:vile_sword>, <extendedcrafting:storage:2>],
 [<extendedcrafting:storage:2>, <contenttweaker:aeldunari>.reuse(), <extendedcrafting:storage:2>]]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<divinerpg:slime_sword>.withTag({ench: [{lvl: 100 as short, id: 34 as short}], RepairCost: 1, display: {Name: "Jerry's Sword"}}), 
+mods.extendedcrafting.TableCrafting.addShaped(<divinerpg:slime_sword>.withTag(mapSlimesword), 
 [[<extrabees:honey_comb:82>, null, null, <magicbees:beecomb:8>, null, null, <extrabees:honey_comb:82>], 
 [null, <ore:ingotStellarAlloy>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <ore:ingotStellarAlloy>, null], 
 [null, <thermalfoundation:material:1024>, <contenttweaker:scorcher_eternal_flame>, <aoa3:runium_chunk>, <contenttweaker:scorcher_eternal_flame>, <divinerpg:frosted_allure>, null], 
@@ -511,7 +609,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<mowziesmobs:wrought_axe>.withTag(
 
 mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:wrought_iron_shard>, <contenttweaker:nethersky_steel_ingot>, <contenttweaker:wrought_iron_shard>*2]);
 
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:wrought_iron_shard>, <contenttweaker:nethersky_steel_ingot>, <contenttweaker:wrought_iron_shard>*2, 2000);
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:wrought_iron_shard>*2, <contenttweaker:nethersky_steel_ingot>, <contenttweaker:wrought_iron_shard>, 2000);
 
 mods.extendedcrafting.TableCrafting.addShaped(<aoa3:chilli_chugger>.withTag(mapChilly), 
 [[<aoa3:chilli>, null, null, null, null, null, <aoa3:chilli>], 
@@ -521,3 +619,95 @@ mods.extendedcrafting.TableCrafting.addShaped(<aoa3:chilli_chugger>.withTag(mapC
 [null, <divinerpg:terran_stone>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <divinerpg:terran_stone>, null], 
 [null, <ore:ingotStellarAlloy>, <divinerpg:terran_stone>, <contenttweaker:vibrating_stone>, <divinerpg:terran_stone>, <ore:ingotStellarAlloy>, null], 
 [<aoa3:chilli>, null, null, null, null, null, <aoa3:chilli>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<divinerpg:corrupted_maul>.withTag({ench: [{lvl: 85 as short, id: 16 as short}], RepairCost: 1, display: {Name: "Helltree"}}), 
+[[<contenttweaker:eden_star>, <contenttweaker:barathosynium_ingot>, <iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_lightning_ingot>, <contenttweaker:barathosynium_ingot>, <contenttweaker:eden_star>], 
+[<contenttweaker:barathosynium_ingot>, <contenttweaker:abyssal_flesh>, <contenttweaker:abyssal_flesh>, <contenttweaker:abyssal_flesh>, <contenttweaker:abyssal_flesh>, <contenttweaker:abyssal_flesh>, <contenttweaker:barathosynium_ingot>], 
+[<iceandfire:dragonsteel_lightning_ingot>, <contenttweaker:abyssal_flesh>, <contenttweaker:infused_rhenium_ingot>, <aoa3:runium_chunk>, <contenttweaker:infused_rhenium_ingot>, <contenttweaker:abyssal_flesh>, <iceandfire:dragonsteel_fire_ingot>], 
+[<iceandfire:dragonsteel_ice_ingot>, <contenttweaker:abyssal_flesh>, <aoa3:runium_chunk>, <divinerpg:corrupted_maul>, <aoa3:runium_chunk>, <contenttweaker:abyssal_flesh>, <iceandfire:dragonsteel_ice_ingot>], 
+[<iceandfire:dragonsteel_fire_ingot>, <contenttweaker:abyssal_flesh>, <contenttweaker:infused_rhenium_ingot>, <aoa3:runium_chunk>, <contenttweaker:infused_rhenium_ingot>, <contenttweaker:abyssal_flesh>, <iceandfire:dragonsteel_lightning_ingot>], 
+[<contenttweaker:barathosynium_ingot>, <contenttweaker:abyssal_flesh>, <contenttweaker:abyssal_flesh>, <contenttweaker:abyssal_flesh>, <contenttweaker:abyssal_flesh>, <contenttweaker:abyssal_flesh>, <contenttweaker:barathosynium_ingot>], 
+[<contenttweaker:eden_star>, <contenttweaker:barathosynium_ingot>, <iceandfire:dragonsteel_lightning_ingot>, <iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_fire_ingot>, <contenttweaker:barathosynium_ingot>, <contenttweaker:eden_star>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<thaumicwonders:primal_destroyer>.withTag(mapWarrenSword), 
+[[<contenttweaker:first_order_mythic_fractal>, <iceandfire:dragonsteel_lightning_block>, <iceandfire:dragonsteel_lightning_block>, <iceandfire:dragonsteel_lightning_block>, <iceandfire:dragonsteel_lightning_block>, <iceandfire:dragonsteel_lightning_block>, <contenttweaker:first_order_mythic_fractal>], 
+[<iceandfire:dragonsteel_lightning_block>, <ore:ingotStellarAlloy>, <contenttweaker:warren_shard>, <contenttweaker:warren_shard>, <contenttweaker:warren_shard>, <ore:ingotStellarAlloy>, <iceandfire:dragonsteel_lightning_block>], 
+[<iceandfire:dragonsteel_lightning_block>, <contenttweaker:warren_shard>, <contenttweaker:heart_of_darkness>, <contenttweaker:wormhole_catalyst>, <contenttweaker:heart_of_darkness>, <contenttweaker:warren_shard>, <iceandfire:dragonsteel_lightning_block>], 
+[<iceandfire:dragonsteel_lightning_block>, <contenttweaker:warren_shard>, <contenttweaker:wormhole_catalyst>, <thaumicwonders:primal_destroyer>, <contenttweaker:wormhole_catalyst>, <contenttweaker:warren_shard>, <iceandfire:dragonsteel_lightning_block>], 
+[<iceandfire:dragonsteel_lightning_block>, <contenttweaker:warren_shard>, <contenttweaker:heart_of_darkness>, <contenttweaker:wormhole_catalyst>, <contenttweaker:heart_of_darkness>, <contenttweaker:warren_shard>, <iceandfire:dragonsteel_lightning_block>], 
+[<iceandfire:dragonsteel_lightning_block>, <ore:ingotStellarAlloy>, <contenttweaker:warren_shard>, <contenttweaker:warren_shard>, <contenttweaker:warren_shard>, <ore:ingotStellarAlloy>, <iceandfire:dragonsteel_lightning_block>], 
+[<contenttweaker:first_order_mythic_fractal>, <iceandfire:dragonsteel_lightning_block>, <iceandfire:dragonsteel_lightning_block>, <iceandfire:dragonsteel_lightning_block>, <iceandfire:dragonsteel_lightning_block>, <iceandfire:dragonsteel_lightning_block>, <contenttweaker:first_order_mythic_fractal>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<aoa3:baron_greatblade>.withTag(mapBigBoySword), 
+[[null, null, null, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, null, null, null], 
+[null, null, null, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, null, null, null], 
+[null, null, null, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, null, null, null], 
+[null, null, null, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, null, null, null], 
+[null, null, <contenttweaker:ender_feather>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:ender_feather>, null, null], 
+[null, null, <contenttweaker:endergenic_sediment>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:endergenic_sediment>, null, null], 
+[null, null, <ore:ingotPromethium>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <ore:ingotPromethium>, null, null], 
+[null, <gendustry:honey_comb:14019>, <contenttweaker:first_order_mythic_fractal>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:first_order_mythic_fractal>, <gendustry:honey_comb:14019>, null], 
+[null, null, null, null, <aoa3:baron_greatblade>, null, null, null, null]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<extrabotany:firstfractal>.withTag(mapPlaguesword), 
+[[<contenttweaker:eden_star>, <contenttweaker:infused_dread_shard>, null, null, null, <contenttweaker:infused_dread_shard>, <contenttweaker:eden_star>], 
+[<contenttweaker:infused_dread_shard>, <iceandfire:dread_shard>, <iceandfire:dread_shard>, null, <iceandfire:dread_shard>, <iceandfire:dread_shard>, <contenttweaker:infused_dread_shard>], 
+[null, <iceandfire:dread_shard>, <contenttweaker:fiery_rhenium_ingot>, <aoa3:runium_chunk>, <contenttweaker:fiery_rhenium_ingot>, <iceandfire:dread_shard>, null], 
+[null, null, <aoa3:runium_chunk>, <extrabotany:firstfractal>, <aoa3:runium_chunk>, null, null], 
+[null, <iceandfire:dread_shard>, <contenttweaker:fiery_rhenium_ingot>, <aoa3:runium_chunk>, <contenttweaker:fiery_rhenium_ingot>, <iceandfire:dread_shard>, null], 
+[<contenttweaker:infused_dread_shard>, <iceandfire:dread_shard>, <iceandfire:dread_shard>, null, <iceandfire:dread_shard>, <iceandfire:dread_shard>, <contenttweaker:infused_dread_shard>], 
+[<contenttweaker:eden_star>, <contenttweaker:infused_dread_shard>, null, null, null, <contenttweaker:infused_dread_shard>, <contenttweaker:eden_star>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<animus:kama_bound>.withTag(mapBloodKopesh), 
+[[<contenttweaker:slate_of_endless_hunger>, <aoa3:bloodstone>, null, null, null, <aoa3:bloodstone>, <contenttweaker:slate_of_endless_hunger>], 
+[<aoa3:bloodstone>, null, null, <bewitchment:poppet_vampiric>, null, null, <aoa3:bloodstone>], 
+[null, null, <contenttweaker:fiery_rhenium_ingot>, <aoa3:runium_chunk>, <contenttweaker:fiery_rhenium_ingot>, null, null], 
+[null, <bewitchment:poppet_vampiric>, <aoa3:runium_chunk>, <animus:kama_bound>, <aoa3:runium_chunk>, <bewitchment:poppet_vampiric>, null], 
+[null, null, <contenttweaker:fiery_rhenium_ingot>, <aoa3:runium_chunk>, <contenttweaker:fiery_rhenium_ingot>, null, null], 
+[<aoa3:bloodstone>, null, null, <bewitchment:poppet_vampiric>, null, null, <aoa3:bloodstone>], 
+[<contenttweaker:slate_of_endless_hunger>, <aoa3:bloodstone>, null, null, null, <aoa3:bloodstone>, <contenttweaker:slate_of_endless_hunger>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<enderio:item_end_steel_bow>.withTag(mapPrisonRealm), 
+[[<contenttweaker:cursed_gem_of_betrayal>, null, null, <contenttweaker:recursive_imprisonment_gem>, null, null, <contenttweaker:cursed_gem_of_betrayal>], 
+[null, <divinerpg:legendary_ender_eye>, <contenttweaker:gun_devil_piece>, <divinerpg:legendary_ender_eye>, <contenttweaker:gun_devil_piece>, <divinerpg:legendary_ender_eye>, null], 
+[null, <contenttweaker:gun_devil_piece>, <contenttweaker:visualent_fang>, <aoa3:runium_chunk>, <contenttweaker:visualent_fang>, <contenttweaker:gun_devil_piece>, null], 
+[<contenttweaker:recursive_imprisonment_gem>, <divinerpg:legendary_ender_eye>, <aoa3:runium_chunk>, <enderio:item_end_steel_bow>, <aoa3:runium_chunk>, <divinerpg:legendary_ender_eye>, <contenttweaker:recursive_imprisonment_gem>], 
+[null, <contenttweaker:gun_devil_piece>, <contenttweaker:visualent_fang>, <aoa3:runium_chunk>, <contenttweaker:visualent_fang>, <contenttweaker:gun_devil_piece>, null], 
+[null, <divinerpg:legendary_ender_eye>, <contenttweaker:gun_devil_piece>, <divinerpg:legendary_ender_eye>, <contenttweaker:gun_devil_piece>, <divinerpg:legendary_ender_eye>, null], 
+[<contenttweaker:cursed_gem_of_betrayal>, null, null, <contenttweaker:recursive_imprisonment_gem>, null, null, <contenttweaker:cursed_gem_of_betrayal>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<botania:starsword>.withTag(mapCaliburn), 
+[[<contenttweaker:second_order_mythic_fractal>, null, null, <contenttweaker:runandium_ingot>, null, null, <contenttweaker:second_order_mythic_fractal>], 
+[null, null, <contenttweaker:fragment_of_creation>, <contenttweaker:brightseel_alloy_plate>, <contenttweaker:fragment_of_creation>, null, null], 
+[null, <contenttweaker:fragment_of_creation>, <contenttweaker:eternal_shoulder>, <aoa3:elecanium_block>, <contenttweaker:eternal_shoulder>, <contenttweaker:fragment_of_creation>, null], 
+[<contenttweaker:runandium_ingot>, <contenttweaker:brightseel_alloy_plate>, <aoa3:elecanium_block>, <botania:starsword>, <aoa3:elecanium_block>, <contenttweaker:brightseel_alloy_plate>, <contenttweaker:runandium_ingot>], 
+[null, <contenttweaker:fragment_of_creation>, <contenttweaker:eternal_shoulder>, <aoa3:elecanium_block>, <contenttweaker:eternal_shoulder>, <contenttweaker:fragment_of_creation>, null], 
+[null, null, <contenttweaker:fragment_of_creation>, <contenttweaker:brightseel_alloy_plate>, <contenttweaker:fragment_of_creation>, null, null], 
+[<contenttweaker:second_order_mythic_fractal>, null, null, <contenttweaker:runandium_ingot>, null, null, <contenttweaker:second_order_mythic_fractal>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<aether_legacy:valkyrie_lance>.withTag(mapDauthdaert), 
+[[<contenttweaker:primordial_catalyst>, null, null, null, null, null, <contenttweaker:primordial_catalyst>], 
+[null, <abyssalcraft:platec>, <abyssalcraft:platec>, <abyssalcraft:platec>, <abyssalcraft:platec>, <abyssalcraft:platec>, null], 
+[null, <abyssalcraft:platec>, <ore:dragonScaleBlock>, <ore:dragonScaleBlock>, <ore:dragonScaleBlock>, <abyssalcraft:platec>, null], 
+[null, <abyssalcraft:platec>, <ore:dragonScaleBlock>, <aether_legacy:valkyrie_lance>, <ore:dragonScaleBlock>, <abyssalcraft:platec>, null], 
+[null, <abyssalcraft:platec>, <ore:dragonScaleBlock>, <ore:dragonScaleBlock>, <ore:dragonScaleBlock>, <abyssalcraft:platec>, null], 
+[null, <abyssalcraft:platec>, <abyssalcraft:platec>, <abyssalcraft:platec>, <abyssalcraft:platec>, <abyssalcraft:platec>, null], 
+[<contenttweaker:primordial_catalyst>, null, null, null, null, null, <contenttweaker:primordial_catalyst>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<thermalfoundation:tool.fishing_rod_platinum>.withTag({ench: [{lvl: 350 as short, id: 34 as short}], RepairCost: 1, display: {Name: "Fishing Sticc"}}), 
+[[<contenttweaker:second_order_mythic_fractal>, null, null, <contenttweaker:second_order_mythic_fractal>, null, null, <contenttweaker:second_order_mythic_fractal>], 
+[null, <contenttweaker:ascended_draconic_alloy>, null, <contenttweaker:ascended_draconic_alloy>, null, <contenttweaker:ascended_draconic_alloy>, null], 
+[null, null, <projectex:matter:11>, null, <projectex:matter:11>, null, null], 
+[<contenttweaker:second_order_mythic_fractal>, <contenttweaker:ascended_draconic_alloy>, null, <thermalfoundation:tool.fishing_rod_platinum>, null, <contenttweaker:ascended_draconic_alloy>, <contenttweaker:second_order_mythic_fractal>], 
+[null, null, <projectex:matter:11>, null, <projectex:matter:11>, null, null], 
+[null, <contenttweaker:ascended_draconic_alloy>, null, <contenttweaker:ascended_draconic_alloy>, null, <contenttweaker:ascended_draconic_alloy>, null], 
+[<contenttweaker:second_order_mythic_fractal>, null, null, <contenttweaker:second_order_mythic_fractal>, null, null, <contenttweaker:second_order_mythic_fractal>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<bloodmagic:bound_sword>.withTag(mapWarBound), 
+[[<openblocks:tank>.withTag({tank: {FluidName: "overworldian_fluid", Amount: 16000}}), <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <openblocks:tank>.withTag({tank: {FluidName: "overworldian_fluid", Amount: 16000}})], 
+[<contenttweaker:nethengeic_gem>, <contenttweaker:unstable_fragment_of_unraveling>, <dimdoors:world_thread>, <contenttweaker:unstable_fragment_of_unraveling>, <dimdoors:world_thread>, <contenttweaker:unstable_fragment_of_unraveling>, <contenttweaker:nethengeic_gem>], 
+[<contenttweaker:nethengeic_gem>, <dimdoors:world_thread>, <dimdoors:world_thread>, <dimdoors:world_thread>, <dimdoors:world_thread>, <dimdoors:world_thread>, <contenttweaker:nethengeic_gem>], 
+[<contenttweaker:nethengeic_gem>, <dimdoors:world_thread>, <dimdoors:world_thread>, <bloodmagic:bound_sword>, <dimdoors:world_thread>, <contenttweaker:unstable_fragment_of_unraveling>, <contenttweaker:nethengeic_gem>], 
+[<contenttweaker:nethengeic_gem>, <dimdoors:world_thread>, <dimdoors:world_thread>, <dimdoors:world_thread>, <dimdoors:world_thread>, <dimdoors:world_thread>, <contenttweaker:nethengeic_gem>], 
+[<contenttweaker:nethengeic_gem>, <contenttweaker:unstable_fragment_of_unraveling>, <dimdoors:world_thread>, <contenttweaker:unstable_fragment_of_unraveling>, <dimdoors:world_thread>, <contenttweaker:unstable_fragment_of_unraveling>, <contenttweaker:nethengeic_gem>], 
+[<openblocks:tank>.withTag({tank: {FluidName: "overworldian_fluid", Amount: 16000}}), <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <openblocks:tank>.withTag({tank: {FluidName: "overworldian_fluid", Amount: 16000}})]]);  

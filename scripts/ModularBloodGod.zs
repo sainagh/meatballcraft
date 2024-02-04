@@ -14,3 +14,10 @@ ezpzbloodnet.setChance(0.0);
 // ezpzbloodnet.addFluidOutput(<fluid:lifeessence>*1000);
 ezpzbloodnet.addLifeEssenceOutput(600, false);
 ezpzbloodnet.build();
+
+val rheniumbloodnet = RecipeBuilder.newBuilder("rheniumbloodnet","blood_god_altar_network",50);
+rheniumbloodnet.addFluidInput(<fluid:rhenium>*144);
+rheniumbloodnet.addItemInput(<contenttweaker:eldrich_blood_slime>);
+rheniumbloodnet.setChance(0.0);
+rheniumbloodnet.addLifeEssenceOutput(6000, false);
+rheniumbloodnet.build();

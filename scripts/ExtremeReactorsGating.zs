@@ -2,7 +2,7 @@ recipes.removeShaped(<bigreactors:reactorcasing>);
 
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:steamed_slime>, <tconstruct:edible:4>, <fluid:steam>*1000, 2000);
 
-mods.extendedcrafting.TableCrafting.addShaped(<bigreactors:reactorcasing>*8, 
+mods.extendedcrafting.TableCrafting.addShaped(<bigreactors:reactorcasing>*4, 
 [[<thermalfoundation:material:160>, <nuclearcraft:ingot:8>, <nuclearcraft:ingot:8>, <thermalfoundation:material:160>, <nuclearcraft:ingot:8>, <nuclearcraft:ingot:8>, <thermalfoundation:material:160>], 
 [<nuclearcraft:ingot:8>, <divinerpg:netherite_ingot>, null, <divinerpg:bloodgem>, null, <divinerpg:netherite_ingot>, <nuclearcraft:ingot:8>], 
 [<nuclearcraft:ingot:8>, <contenttweaker:steamed_slime>, <enderio:block_fused_quartz>, <aoa3:nether_tokens>, <enderio:block_fused_quartz>, <contenttweaker:steamed_slime>, <nuclearcraft:ingot:8>], 

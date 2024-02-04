@@ -77,4 +77,56 @@ opdra8.addItemInput(<xreliquary:angelic_feather>);
 opdra8.addItemOutput(<iceandfire:stymphalian_bird_dagger>.withTag({ench: [{lvl: 27 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 10 as short, id: 34 as short}], RepairCost: 1, display: {Name: "Dagger of the Skies"}}));
 opdra8.build();
 
+val opdra9 = RecipeBuilder.newBuilder("dragoncruc9","dragonfire_crucible",100);
+opdra9.addFluidInput(<fluid:eternal_dragon_fire>*2000);
+opdra9.addItemInput(<minecraft:glass_bottle>);
+opdra9.addItemInput(<techreborn:ingot:25>*4);
+opdra9.addItemInput(<minecraft:glowstone>*64);
+opdra9.addItemOutput(<iceandfire:lightning_dragon_blood>);
+opdra9.build();
 
+val opdra10 = RecipeBuilder.newBuilder("dragoncruc10","dragonfire_crucible",100);
+opdra10.addFluidInput(<fluid:eternal_dragon_fire>*1000);
+opdra10.addItemInput(<minecraft:iron_ingot>);
+opdra10.addItemInput(<iceandfire:lightning_dragon_blood>);
+opdra10.addItemOutput(<iceandfire:dragonsteel_lightning_ingot>);
+opdra10.build();
+
+val opdra11 = RecipeBuilder.newBuilder("dragoncruc11","dragonfire_crucible",3000);
+opdra11.addFluidInput(<fluid:eternal_dragon_fire>*32000);
+opdra11.addItemInput(<iceandfire:dragonsteel_ice_sword>);
+opdra11.addItemInput(<iceandfire:dragonsteel_ice_ingot>*8);
+opdra11.addItemInput(<draconicevolution:draconic_block>*4);
+opdra11.addItemInput(<minecraft:dragon_egg>*4);
+opdra11.addItemInput(<iceandfire:manuscript>*20);
+opdra11.addItemInput(<iceandfire:dragonscales_black>*4);
+opdra11.addItemInput(<iceandfire:dragonscales_amythest>*4);
+opdra11.addItemInput(<iceandfire:dragonscales_copper>*4);
+opdra11.addItemInput(<iceandfire:dragonscales_electric>*4);
+opdra11.addItemOutput(<iceandfire:dragonbone_sword_lightning>.withTag({ench: [{lvl: 75 as short, id: 16 as short}, {lvl: 3 as short, id: 22 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 4 as short, id: 21 as short},{lvl: 15 as short, id: 66 as short},{lvl: 2 as short, id: 19 as short}], RepairCost: 1, display: {Name: "Claiomh Solais"}}));
+opdra11.build();
+
+
+val opdra12 = RecipeBuilder.newBuilder("dragoncruc12","dragonfire_crucible",40);
+opdra12.addFluidInput(<fluid:eternal_dragon_fire>*500);
+opdra12.addItemInput(<contenttweaker:soul_of_the_dragonslayer>);
+opdra12.addItemInput(<contenttweaker:hand_of_dominion>);
+opdra12.addItemInput(<contenttweaker:wing_of_worship>);
+opdra12.addItemInput(<aoa3:mystite_ingot>);
+opdra12.addItemInput(<botania:manaresource:4>*8);
+opdra12.addItemInput(<bewitchment:cold_iron_ingot>*16);
+opdra12.addItemInput(<iceandfire:dragonsteel_ice_ingot>);
+opdra12.addItemInput(<iceandfire:dragonsteel_fire_ingot>);
+opdra12.addItemInput(<iceandfire:dragonsteel_lightning_ingot>);
+opdra12.addItemOutput(<contenttweaker:berserker_steel_ingot>);
+opdra12.build();
+
+val opdra13 = RecipeBuilder.newBuilder("dragoncruc13","dragonfire_crucible",40);
+opdra13.addFluidInput(<fluid:eternal_dragon_fire>*30000);
+opdra13.addItemInput(<forestry:crafting_material:5>*64);
+opdra13.addItemInput(<bewitchment:perpetual_ice>*64);
+opdra13.addItemInput(<iceandfire:dread_shard>*64);
+opdra13.addItemInput(<contenttweaker:dreadful_shard>);
+opdra13.addItemInput(<ore:ingotIceDragonsteel>*32);
+opdra13.addItemOutput(<contenttweaker:dreadful_prison_key>);
+opdra13.build();

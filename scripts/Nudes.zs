@@ -39,7 +39,7 @@ recipes.addHiddenShapeless("haumeapuzzle",<contenttweaker:sigil_power>,
 
 recipes.addShaped(<contenttweaker:demonologist_callstone>,
 [[<forestry:bee_combs:2>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "forestry.speciesDemonic"}), <forestry:bee_combs:2>],
-[<gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.devil"}), <contenttweaker:sigil_power>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.devil"})],
+[<contenttweaker:imp_skin>, <contenttweaker:sigil_power>, <contenttweaker:imp_skin>],
 [<forestry:bee_combs:2>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "forestry.speciesDemonic"}), <forestry:bee_combs:2>]]);
 
 val oreDemonStoneOreDict = <ore:oreDemonStone>;

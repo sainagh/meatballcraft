@@ -161,6 +161,19 @@
                 "gui" : "credits"
             }
         },
+        "soundtrack":
+        {
+            "text" : "Soundtrack:\n It's not over - Darren Curtis Music",
+            "hoverText" : "Soundtrack:\n AhAhAhAHAHH",
+            "posX" : -197,
+            "posY" : -30,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action": {
+                "type": "openLink",
+                "link": "https://www.youtube.com/watch?v=KT4RibuTQ_8"
+            }
+        },
         
         "fml":
         {
@@ -213,7 +226,8 @@
                     "menu:back23.png",
                     "menu:back24.png",
                     "menu:back25.png",
-                    "menu:back32.png"],
+                    "menu:back32.png",
+                    "menu:back33.png"],
                 "displayDuration" : 100,
                 "fadeDuration" : 40
             }

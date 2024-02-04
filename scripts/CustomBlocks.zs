@@ -1370,5 +1370,107 @@ ichoriumcatalyst.setToolClass("pickaxe");
 ichoriumcatalyst.setToolLevel(3);
 ichoriumcatalyst.register();
 
+var goldnakcooler = VanillaFactory.createBlock("gold_nak_cooler", <blockmaterial:iron>);
+goldnakcooler.setBlockHardness(1.0);
+goldnakcooler.setBlockResistance(2.5);
+goldnakcooler.setToolClass("pickaxe");
+goldnakcooler.setToolLevel(3);
+goldnakcooler.register();
 
+var redstonenakcooler = VanillaFactory.createBlock("redstone_nak_cooler", <blockmaterial:iron>);
+redstonenakcooler.setBlockHardness(1.0);
+redstonenakcooler.setBlockResistance(2.5);
+redstonenakcooler.setToolClass("pickaxe");
+redstonenakcooler.setToolLevel(3);
+redstonenakcooler.register();
 
+var rawnakcooler = VanillaFactory.createBlock("raw_nak_cooler", <blockmaterial:iron>);
+rawnakcooler.setBlockHardness(1.0);
+rawnakcooler.setBlockResistance(2.5);
+rawnakcooler.setToolClass("pickaxe");
+rawnakcooler.setToolLevel(3);
+rawnakcooler.register();
+
+var cryotheumnakcooler = VanillaFactory.createBlock("cryotheum_nak_cooler", <blockmaterial:iron>);
+cryotheumnakcooler.setBlockHardness(1.0);
+cryotheumnakcooler.setBlockResistance(2.5);
+cryotheumnakcooler.setToolClass("pickaxe");
+cryotheumnakcooler.setToolLevel(3);
+cryotheumnakcooler.register();
+
+var liquidheliumnakcooler = VanillaFactory.createBlock("liquidhelium_nak_cooler", <blockmaterial:iron>);
+liquidheliumnakcooler.setBlockHardness(1.0);
+liquidheliumnakcooler.setBlockResistance(2.5);
+liquidheliumnakcooler.setToolClass("pickaxe");
+liquidheliumnakcooler.setToolLevel(3);
+liquidheliumnakcooler.register();
+
+var ogeritevitalvessel = VanillaFactory.createBlock("ogerite_vital_vessel", <blockmaterial:iron>);
+ogeritevitalvessel.setBlockHardness(1.0);
+ogeritevitalvessel.setBlockResistance(2.5);
+ogeritevitalvessel.setToolClass("pickaxe");
+ogeritevitalvessel.setToolLevel(3);
+ogeritevitalvessel.register();
+
+var poloniumvessel = VanillaFactory.createBlock("polonium_vessel", <blockmaterial:iron>);
+poloniumvessel.setBlockHardness(1.0);
+poloniumvessel.setBlockResistance(2.5);
+poloniumvessel.setToolClass("pickaxe");
+poloniumvessel.setToolLevel(3);
+poloniumvessel.register();
+
+var radiomixvessel = VanillaFactory.createBlock("radioactive_mix_vessel", <blockmaterial:iron>);
+radiomixvessel.setBlockHardness(1.0);
+radiomixvessel.setBlockResistance(2.5);
+radiomixvessel.setToolClass("pickaxe");
+radiomixvessel.setToolLevel(3);
+radiomixvessel.register();
+
+var meatstarvessel = VanillaFactory.createBlock("pssessed_starlight_vessel", <blockmaterial:iron>);
+meatstarvessel.setBlockHardness(1.0);
+meatstarvessel.setBlockResistance(2.5);
+meatstarvessel.setToolClass("pickaxe");
+meatstarvessel.setToolLevel(3);
+meatstarvessel.register();
+
+var hotheatexchanger = VanillaFactory.createBlock("hot_heat_exchanger", <blockmaterial:iron>);
+hotheatexchanger.setBlockHardness(1.0);
+hotheatexchanger.setBlockResistance(2.5);
+hotheatexchanger.setToolClass("pickaxe");
+hotheatexchanger.setToolLevel(3);
+hotheatexchanger.register();
+
+var coldheatexchanger = VanillaFactory.createBlock("cold_heat_exchanger", <blockmaterial:iron>);
+coldheatexchanger.setBlockHardness(1.0);
+coldheatexchanger.setBlockResistance(2.5);
+coldheatexchanger.setToolClass("pickaxe");
+coldheatexchanger.setToolLevel(3);
+coldheatexchanger.register();
+
+var turbinebearing = VanillaFactory.createBlock("turbine_bearing", <blockmaterial:iron>);
+turbinebearing.setBlockHardness(1.0);
+turbinebearing.setBlockResistance(2.5);
+turbinebearing.setToolClass("pickaxe");
+turbinebearing.setToolLevel(3);
+turbinebearing.register();
+
+var inletoutlet = VanillaFactory.createBlock("inlet_outlet", <blockmaterial:iron>);
+inletoutlet.setBlockHardness(1.0);
+inletoutlet.setBlockResistance(2.5);
+inletoutlet.setToolClass("pickaxe");
+inletoutlet.setToolLevel(3);
+inletoutlet.register();
+
+var inertrunicore = VanillaFactory.createBlock("runic_ore", <blockmaterial:iron>);
+inertrunicore.setBlockHardness(1.0);
+inertrunicore.setBlockResistance(2.5);
+inertrunicore.setToolClass("pickaxe");
+inertrunicore.setToolLevel(3);
+inertrunicore.register();
+
+var powerrunicore = VanillaFactory.createBlock("catalyzed_runic_ore", <blockmaterial:iron>);
+powerrunicore.setBlockHardness(1.0);
+powerrunicore.setBlockResistance(2.5);
+powerrunicore.setToolClass("pickaxe");
+powerrunicore.setToolLevel(3);
+powerrunicore.register();

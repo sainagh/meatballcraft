@@ -12,6 +12,12 @@ import mods.contenttweaker.World;
 import mods.contenttweaker.IItemUpdate;
 import mods.contenttweaker.Player;
 import crafttweaker.player.IPlayer;
+import crafttweaker.block.IBlock;
+import crafttweaker.data.IData;
+
+
+
+
 
 
 var creeponiacallstone = VanillaFactory.createItem("creeponia_callstone");
@@ -219,7 +225,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon1 = posbeacon1.asBlockPos();
     var blockBelow1 = world.getBlockState(blockposbeacon1);
     if(blockBelow1 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, heed the call of the white sky, and reproduce the redquartz shape");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
 	var posbeacon2 = player.position.asPosition3f();
@@ -229,7 +235,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon2 = posbeacon2.asBlockPos();
     var blockBelow2 = world.getBlockState(blockposbeacon2);
     if(blockBelow2 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
 	var posbeacon3 = player.position.asPosition3f();
@@ -239,7 +245,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon3 = posbeacon3.asBlockPos();
     var blockBelow3 = world.getBlockState(blockposbeacon3);
     if(blockBelow3 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
 	var posbeacon4 = player.position.asPosition3f();
@@ -249,7 +255,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon4 = posbeacon4.asBlockPos();
     var blockBelow4 = world.getBlockState(blockposbeacon4);
     if(blockBelow4 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
 	var posbeacon5 = player.position.asPosition3f();
@@ -259,7 +265,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon5 = posbeacon5.asBlockPos();
     var blockBelow5 = world.getBlockState(blockposbeacon5);
     if(blockBelow5 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
 	var posbeacon6 = player.position.asPosition3f();
@@ -269,7 +275,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon6 = posbeacon6.asBlockPos();
     var blockBelow6 = world.getBlockState(blockposbeacon6);
     if(blockBelow6 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
 	var posbeacon7 = player.position.asPosition3f();
@@ -279,7 +285,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon7 = posbeacon7.asBlockPos();
     var blockBelow7 = world.getBlockState(blockposbeacon7);
     if(blockBelow7 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
 	var posbeacon8 = player.position.asPosition3f();
@@ -289,7 +295,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon8 = posbeacon8.asBlockPos();
     var blockBelow8 = world.getBlockState(blockposbeacon8);
     if(blockBelow8 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
 
@@ -300,7 +306,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon9 = posbeacon9.asBlockPos();
     var blockBelow9 = world.getBlockState(blockposbeacon9);
     if(blockBelow9 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
 
@@ -311,7 +317,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon10 = posbeacon10.asBlockPos();
     var blockBelow10 = world.getBlockState(blockposbeacon10);
     if(blockBelow10 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
     var posbeacon11 = player.position.asPosition3f();
@@ -321,7 +327,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon11 = posbeacon11.asBlockPos();
     var blockBelow11 = world.getBlockState(blockposbeacon11);
     if(blockBelow11 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
     var posbeacon12 = player.position.asPosition3f();
@@ -331,7 +337,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon12 = posbeacon12.asBlockPos();
     var blockBelow12 = world.getBlockState(blockposbeacon12);
     if(blockBelow12 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
     var posbeacon13 = player.position.asPosition3f();
@@ -341,7 +347,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon13 = posbeacon13.asBlockPos();
     var blockBelow13 = world.getBlockState(blockposbeacon13);
     if(blockBelow13 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
     var posbeacon14 = player.position.asPosition3f();
@@ -351,7 +357,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon14 = posbeacon14.asBlockPos();
     var blockBelow14 = world.getBlockState(blockposbeacon14);
     if(blockBelow14 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
     var posbeacon15 = player.position.asPosition3f();
@@ -361,7 +367,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon15 = posbeacon15.asBlockPos();
     var blockBelow15 = world.getBlockState(blockposbeacon15);
     if(blockBelow15 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
     var posbeacon16 = player.position.asPosition3f();
@@ -371,7 +377,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon16 = posbeacon16.asBlockPos();
     var blockBelow16 = world.getBlockState(blockposbeacon16);
     if(blockBelow16 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
     var posbeacon17 = player.position.asPosition3f();
@@ -381,7 +387,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon17 = posbeacon17.asBlockPos();
     var blockBelow17 = world.getBlockState(blockposbeacon17);
     if(blockBelow17 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
 
@@ -419,8 +425,8 @@ horrificcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
     // check if player is in spatial storage
-    if(player.getDimension() != 20) {
-        player.sendChat("Enter the betweenlands");
+    if(player.getDimension() != 150) {
+        player.sendChat("You gotta be in Hator");
         return "FAIL";
     }
 
@@ -554,13 +560,13 @@ stickycallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
     // check if player is in spatial storage
-    if(player.getDimension() != 50) {
-        player.sendChat("You gotta be in the abyssal wasteland");
+    if(player.getDimension() != 181) {
+        player.sendChat("You gotta be in Diamerisma");
         return "FAIL";
     }
 
     Commands.call("pillar-spawn big_bouncy_castle", player, world, true, true);
-    Commands.call("summon Slime ~ ~10 ~ {Size:100,ActiveEffects:[{Id:10,Amplifier:4,Duration:999999},{Id:6,Amplifier:250,Duration:999999}],HandItems:[{Count:1,id:\"contenttweaker:big_slime\"},{}],HandDropChances:[1.0f,0.0f],Health:3000f}", player, world, true, true);
+    // Commands.call("summon Slime ~ ~10 ~ {Size:100,ActiveEffects:[{Id:10,Amplifier:4,Duration:999999},{Id:6,Amplifier:250,Duration:999999}],HandItems:[{Count:1,id:\"contenttweaker:big_slime\"},{}],HandDropChances:[1.0f,0.0f],Health:3000f}", player, world, true, true);
     player.sendChat("Kill it!");
     stack.shrink(1);
     return "PASS";
@@ -578,10 +584,13 @@ runickey.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon aoa3:clunkhead ~5 ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:clunky_chunky_brick\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, true, true);
-    Commands.call("summon aoa3:clunkhead ~-5 ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:clunky_chunky_brick\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, true, true);
-    Commands.call("summon aoa3:clunkhead ~ ~10 ~5 {HandItems:[{Count:1,id:\"contenttweaker:clunky_chunky_brick\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, true, true);
-    Commands.call("summon aoa3:clunkhead ~ ~10 ~-5 {HandItems:[{Count:1,id:\"contenttweaker:clunky_chunky_brick\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, true, true);
+    if(player.getDimension() != 819) {
+        player.sendChat("You gotta be in Runandor");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn runandor_structure_superclunk", player, world, true, true);
+    //Commands.call("summon aoa3:clunkhead ~-5 ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:clunky_chunky_brick\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, true, true);
     player.sendChat("Kill them all!");
     stack.shrink(1);
     return "PASS";
@@ -1071,14 +1080,14 @@ demonologistcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     Commands.call("pillar-spawn haumea_structure_callstone", player, world, true, true);
-    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchemnt:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
     Commands.call("summon aoa3:deinotherium ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:baku_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:300.0}],Health:3000f,CustomName:\"Baku\"}", player, world, true, true);
     Commands.call("give @p contenttweaker:haumea_spinel", player, world, true, true);
 
@@ -1344,6 +1353,26 @@ constructorsummoner.itemRightClick = function(stack, world, player, hand) {
 
 };
 constructorsummoner.register();
+
+var wargeneralsummoner = VanillaFactory.createItem("wargeneral_summoner");
+wargeneralsummoner.maxStackSize = 1;
+wargeneralsummoner.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 426) {
+        player.sendChat("You gotta be in Arcana");
+        return "FAIL";
+    }
+
+    Commands.call("summon divinerpg:war_general ~ ~1 ~ ", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+wargeneralsummoner.register();
 
 var lordsummoner = VanillaFactory.createItem("lord_summoner");
 lordsummoner.maxStackSize = 1;
@@ -2079,19 +2108,6 @@ callofenigma.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
     Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
     
-    Commands.call("summon mod_lavacow:enigmoth_larva ~ ~3 ~", player, world, true, true);
-    Commands.call("summon mod_lavacow:enigmoth_larva ~ ~3 ~", player, world, true, true);
-    Commands.call("summon mod_lavacow:enigmoth_larva ~ ~3 ~", player, world, true, true);
-
-    Commands.call("summon mod_lavacow:enigmoth_larva ~ ~3 ~", player, world, true, true);
-    Commands.call("summon mod_lavacow:enigmoth_larva ~ ~3 ~", player, world, true, true);
-    Commands.call("summon mod_lavacow:enigmoth ~ ~3 ~", player, world, true, true);
-
-    Commands.call("summon mod_lavacow:enigmoth ~ ~3 ~", player, world, true, true);
-    Commands.call("summon mod_lavacow:enigmoth ~ ~3 ~", player, world, true, true);
-    Commands.call("summon mod_lavacow:enigmoth ~ ~3 ~", player, world, true, true);
-
-    Commands.call("summon mod_lavacow:enigmoth ~ ~3 ~", player, world, true, true);
     Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
     Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
 
@@ -2105,6 +2121,42 @@ callofenigma.itemRightClick = function(stack, world, player, hand) {
 
 };
 callofenigma.register();
+
+var witcherysummons= VanillaFactory.createItem("witchery_summons");
+witcherysummons.maxStackSize = 16;
+witcherysummons.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("time set night", player, world, true, true);
+
+    Commands.call("summon bewitchment:toad ~ ~ ~", player, world, true, true);
+    Commands.call("summon bewitchment:toad ~ ~ ~", player, world, true, true);
+    Commands.call("summon bewitchment:toad ~ ~ ~", player, world, true, true);
+
+    Commands.call("summon bewitchment:lizard ~ ~ ~", player, world, true, true);
+    Commands.call("summon bewitchment:lizard ~ ~ ~", player, world, true, true);
+    Commands.call("summon bewitchment:lizard ~ ~ ~", player, world, true, true);
+
+    Commands.call("summon bewitchment:snake ~ ~ ~", player, world, true, true);
+    Commands.call("summon bewitchment:snake ~ ~ ~", player, world, true, true);
+    Commands.call("summon bewitchment:snake ~ ~ ~", player, world, true, true);
+
+    Commands.call("summon minecraft:evocation_illager ~ ~ ~", player, world, true, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~ ~", player, world, true, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~ ~", player, world, true, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~ ~", player, world, true, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~ ~", player, world, true, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~ ~", player, world, true, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~ ~", player, world, true, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+witcherysummons.register();
 
 var funnypumpkin= VanillaFactory.createItem("funny_pumpkin");
 funnypumpkin.maxStackSize = 16;
@@ -2153,3 +2205,930 @@ akathartoscallstone.itemRightClick = function(stack, world, player, hand) {
 
 };
 akathartoscallstone.register();
+
+var anomalydetectorstage1 = VanillaFactory.createItem("anomaly_detector_stage_1");
+anomalydetectorstage1.maxStackSize = 1;
+anomalydetectorstage1.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    player.sendChat("Stand on top of the right structure, the Haven will guide you");
+    player.sendChat("Scanning blocks from the top going down");
+
+    // obtain position under player
+	var pos = player.position.asPosition3f();
+
+	// check if player is standing on top block
+    var pos1 = player.position.asPosition3f();
+    pos1.y = pos1.y - 1;
+    var blockPos1 = pos1.asBlockPos();
+    var blockState1 = world.getBlockState(blockPos1);
+    if(blockState1 != <blockstate:minecraft:emerald_block>) {
+        player.sendChat("Top block is wrong");
+        return "FAIL";
+    }
+    player.sendChat("Top block is correct - emerald block");
+
+    // check if player is standing on first totem block
+    var pos2 = player.position.asPosition3f();
+    pos2.y = pos2.y - 2;
+    var blockPos2 = pos2.asBlockPos();
+    var blockState2 = world.getBlockState(blockPos2);
+    if(blockState2 != <blockstate:minecraft:obsidian>) {
+        player.sendChat("Totem block 1 is wrong");
+        return "FAIL";
+    }
+    player.sendChat("Totem block 1 is correct - obsidian");
+
+    // check if player is standing on second totem block
+    var pos3 = player.position.asPosition3f();
+    pos3.y = pos3.y - 3;
+    var blockPos3 = pos3.asBlockPos();
+    var blockState3 = world.getBlockState(blockPos3);
+    if(blockState3 != <blockstate:minecraft:obsidian>) {
+        player.sendChat("Totem block 2 is wrong");
+        return "FAIL";
+    }
+    player.sendChat("Totem block 2 is correct - obsidian");
+
+    // check if player is standing on third totem block
+    var pos4 = player.position.asPosition3f();
+    pos4.y = pos4.y - 4;
+    var blockPos4 = pos4.asBlockPos();
+    var blockState4 = world.getBlockState(blockPos4);
+    if(blockState4 != <blockstate:minecraft:obsidian>) {
+        player.sendChat("Totem block 3 is wrong");
+        return "FAIL";
+    }
+    player.sendChat("Totem block 3 is correct - obsidian");
+
+    // check if player is standing on fourth totem block
+    var pos5 = player.position.asPosition3f();
+    pos5.y = pos5.y - 5;
+    var blockPos5 = pos5.asBlockPos();
+    var blockState5 = world.getBlockState(blockPos5);
+    if(blockState5 != <blockstate:minecraft:obsidian>) {
+        player.sendChat("Totem block 4 is wrong");
+        return "FAIL";
+    }
+    player.sendChat("Totem block 4 is correct - obsidian");
+
+    // check if player is standing on first base block
+    var posA = player.position.asPosition3f();
+    posA.y = posA.y - 5;
+    posA.x = posA.x - 1;
+    var blockPosA = posA.asBlockPos();
+    var blockStateA = world.getBlockState(blockPosA);
+    if(blockStateA != <blockstate:minecraft:iron_block>) {
+        player.sendChat("Base block 1 is wrong");
+        return "FAIL";
+    }
+    player.sendChat("Base block 1 is correct - iron block");
+
+    // check if player is standing on second base block
+    var posB = player.position.asPosition3f();
+    posB.y = posB.y - 5;
+    posB.x = posB.x + 1;
+    var blockPosB = posB.asBlockPos();
+    var blockStateB = world.getBlockState(blockPosB);
+    if(blockStateB != <blockstate:minecraft:iron_block>) {
+        player.sendChat("Base block 2 is wrong");
+        return "FAIL";
+    }
+    player.sendChat("Base block 2 is correct - iron block");
+
+    // check if player is standing on second base block
+    var posC = player.position.asPosition3f();
+    posC.y = posC.y - 5;
+    posC.z = posC.z - 1;
+    var blockPosC = posC.asBlockPos();
+    var blockStateC = world.getBlockState(blockPosC);
+    if(blockStateC != <blockstate:minecraft:iron_block>) {
+        player.sendChat("Base block 3 is wrong");
+        return "FAIL";
+    }
+    player.sendChat("Base block 3 is correct - iron block");
+
+    // check if player is standing on second base block
+    var posD = player.position.asPosition3f();
+    posD.y = posD.y - 5;
+    posD.z = posD.z + 1;
+    var blockPosD = posD.asBlockPos();
+    var blockStateD = world.getBlockState(blockPosD);
+    if(blockStateD != <blockstate:minecraft:iron_block>) {
+        player.sendChat("Base block 4 is wrong");
+        return "FAIL";
+    }
+    player.sendChat("Base block 4 is correct - iron block");
+
+    Commands.call("give @p contenttweaker:anomaly_detector_stage_2", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+anomalydetectorstage1.register();
+
+
+var anomalydetectorstage2 = VanillaFactory.createItem("anomaly_detector_stage_2");
+anomalydetectorstage2.maxStackSize = 1;
+anomalydetectorstage2.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+    // obtain position under player
+	var pos = player.position.asPosition3f();
+
+	// check if player is standing on beacon
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y;
+   
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "White Void") {
+		player.sendChat("You have to be in your pocket dimension from dimensional doors");
+		player.sendChat("Use a quartz dimensional door");
+        return "FAIL";
+	}
+
+    if(posChange.y < 140) {
+        player.sendChat("You will have to go a bit higher");
+        return "FAIL";
+    }
+
+    Commands.call("give @p contenttweaker:anomaly_detector_stage_3", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+anomalydetectorstage2.register();
+
+var anomalydetectorstage3= VanillaFactory.createItem("anomaly_detector_stage_3");
+anomalydetectorstage3.maxStackSize = 1;
+anomalydetectorstage3.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 421) {
+        player.sendChat("You gotta be in wildwood");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn wildwood_structure_betrayer", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+anomalydetectorstage3.register();
+
+var apothecaryprisonkey= VanillaFactory.createItem("apothecary_prison_key");
+apothecaryprisonkey.maxStackSize = 1;
+apothecaryprisonkey.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 813) {
+        player.sendChat("You gotta be in Iromine");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn iromine_structure_bee", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+apothecaryprisonkey.register();
+
+
+var voraceouswormcallstone= VanillaFactory.createItem("voraceous_worm_callstone");
+voraceouswormcallstone.maxStackSize = 1;
+voraceouswormcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 152) {
+        player.sendChat("You gotta be in Oi");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn oi_structure_bigwormboss", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+voraceouswormcallstone.register();
+
+var dreadqueendomcallstone= VanillaFactory.createItem("dreadful_prison_key");
+dreadqueendomcallstone.maxStackSize = 1;
+dreadqueendomcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    
+
+    if(player.getDimension() != 425) {
+        player.sendChat("You gotta be in Iceika");
+        return "FAIL";
+    }
+
+    player.sendChat("Let this be your final warning");
+
+    Commands.call("pillar-spawn iceika_structure_dreadqueenboss", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+dreadqueendomcallstone.register();
+
+
+
+var blockstatechecker = VanillaFactory.createItem("blockstatechecker");
+blockstatechecker.maxStackSize = 1;
+blockstatechecker.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var pos = player.position.asPosition3f();
+
+	// check if player is standing on top block
+    var pos1 = player.position.asPosition3f();
+    pos1.y = pos1.y - 1;
+    var blockPos1 = pos1.asBlockPos();
+    var blockState1 = world.getBlockState(blockPos1);
+
+    print(blockState1.commandString);
+
+    return "PASS";
+
+};
+blockstatechecker.register();
+
+
+var blocknamechecker = VanillaFactory.createItem("blocknamechecker");
+blocknamechecker.maxStackSize = 1;
+blocknamechecker.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    var pos1 = player.position.asPosition3f();
+    pos1.y = pos1.y - 1;
+	var blockPos1 = pos1.asBlockPos();
+	var blockState1 = world.getBlockState(blockPos1);
+	var blockName1 = world.getBlock(blockPos1).definition.displayName as string;
+
+    player.sendChat(blockName1);
+
+    return "PASS";
+
+};
+blocknamechecker.register();
+
+
+
+var wyvenmonumentfabrial = VanillaFactory.createItem("wyvern_monument_activation_fabrial");
+wyvenmonumentfabrial.maxStackSize = 1;
+wyvenmonumentfabrial.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    player.sendChat("Stand on top of the marble structure found in LyndenWyrm");
+    player.sendChat("The Celestial Collector Crystals on the columns are missing, Lyndenwyrm will help you how to place them");
+
+    player.sendChat("Checking Player Position");
+    player.sendChat("==================================================");
+
+    // obtain position under player
+	var pos = player.position.asPosition3f();
+
+    // check if player is standing in middle of monument
+    var posA = player.position.asPosition3f();
+    posA.y = posA.y - 1;
+    posA.x = posA.x - 0;
+    var blockPosA = posA.asBlockPos();
+    var blockStateA = world.getBlockState(blockPosA);
+    if(blockStateA != <blockstate:minecraft:obsidian>) {
+        player.sendChat("You are not standing on the Obsidian Block in the middle of the monument");
+        return "FAIL";
+    }
+
+    var posB = player.position.asPosition3f();
+    posB.y = posB.y - 1;
+    posB.x = posB.x - 1;
+    var blockPosB = posB.asBlockPos();
+    var blockStateB = world.getBlockState(blockPosB);
+    if(blockStateB != <blockstate:minecraft:obsidian>) {
+        player.sendChat("You are not standing on the Obsidian Block in the middle of the monument");
+        return "FAIL";
+    }
+
+    var posC = player.position.asPosition3f();
+    posC.y = posC.y - 1;
+    posC.x = posC.x + 1;
+    var blockPosC = posC.asBlockPos();
+    var blockStateC = world.getBlockState(blockPosC);
+    if(blockStateC != <blockstate:minecraft:obsidian>) {
+        player.sendChat("You are not standing on the Obsidian Block in the middle of the monument");
+        return "FAIL";
+    }
+
+    var posD = player.position.asPosition3f();
+    posD.y = posD.y - 1;
+    posD.z = posD.z + 1;
+    var blockPosD = posD.asBlockPos();
+    var blockStateD = world.getBlockState(blockPosD);
+    if(blockStateD != <blockstate:minecraft:obsidian>) {
+        player.sendChat("You are not standing on the Obsidian Block in the middle of the monument");
+        return "FAIL";
+    }
+
+    var posE = player.position.asPosition3f();
+    posE.y = posE.y - 1;
+    posE.z = posE.z - 1;
+    var blockPosE = posE.asBlockPos();
+    var blockStateE = world.getBlockState(blockPosE);
+    if(blockStateE != <blockstate:minecraft:obsidian>) {
+        player.sendChat("You are not standing on the Obsidian Block in the middle of the monument");
+        return "FAIL";
+    }
+
+    player.sendChat("You are standing on the Obsidian Block in the middle of the monument");
+    player.sendChat("Now add the right Celestial Collector Crystals on top of the pillars");
+
+    player.sendChat("Checking Crystals");
+	player.sendChat("Nothing will show up if there are no Collector Crystals placed");
+    player.sendChat("==================================================");
+
+	// check crystals
+    var pos1 = player.position.asPosition3f();
+    pos1.z = pos1.z - 3;
+    pos1.y = pos1.y + 3;
+	var blockPos1 = pos1.asBlockPos();
+	var blockState1 = world.getBlockState(blockPos1);
+	var blockData1 = world.getBlock(blockPos1).data as IData;
+    var starName1 = blockData1.memberGet("constellationName") as string;
+	player.sendChat("North Constellation: " ~ starName1);
+	if(starName1 != "astralsorcery.constellation.octans") {
+       player.sendChat("North crystal is wrong");
+       return "FAIL";
+    }
+    player.sendChat("North crystal is correct, Octans");
+	
+	var pos2 = player.position.asPosition3f();
+    pos2.z = pos2.z + 3;
+    pos2.y = pos2.y + 3;
+	var blockPos2 = pos2.asBlockPos();
+	var blockState2 = world.getBlockState(blockPos2);
+	var blockData2 = world.getBlock(blockPos2).data as IData;
+    var starName2 = blockData2.memberGet("constellationName") as string;
+	player.sendChat("South Constellation: " ~ starName2);
+	if(starName2 != "astralsorcery.constellation.horologium") {
+       player.sendChat("South crystal is wrong");
+       return "FAIL";
+    }
+    player.sendChat("South crystal is correct, Horologium");
+	
+	var pos3 = player.position.asPosition3f();
+    pos3.x = pos3.x + 3;
+    pos3.y = pos3.y + 3;
+	var blockPos3 = pos3.asBlockPos();
+	var blockState3 = world.getBlockState(blockPos3);
+	var blockData3 = world.getBlock(blockPos3).data as IData;
+    var starName3 = blockData3.memberGet("constellationName") as string;
+	player.sendChat("East Constellation: " ~ starName3);
+	if(starName3 != "astralsorcery.constellation.lucerna") {
+       player.sendChat("East crystal is wrong");
+       return "FAIL";
+    }
+    player.sendChat("East crystal is correct, Lucerna");
+	
+	var pos4 = player.position.asPosition3f();
+    pos4.x = pos4.x - 3;
+    pos4.y = pos4.y + 3;
+	var blockPos4 = pos4.asBlockPos();
+	var blockState4 = world.getBlockState(blockPos4);
+	var blockData4 = world.getBlock(blockPos4).data as IData;
+    var starName4 = blockData4.memberGet("constellationName") as string;
+	player.sendChat("West Constellation: " ~ starName4);
+	if(starName4 != "astralsorcery.constellation.vicio") {
+       player.sendChat("West crystal is wrong");
+       return "FAIL";
+    }
+    player.sendChat("West crystal is correct, Vicio");
+    
+
+
+    Commands.call("give @p contenttweaker:shard_of_a_fallen_spren", player, world, true, true);
+
+    return "PASS";
+
+};
+wyvenmonumentfabrial.register();
+
+
+var ancientwyverncallstone= VanillaFactory.createItem("ancient_wyvern_callstone");
+ancientwyverncallstone.maxStackSize = 1;
+ancientwyverncallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    
+
+    if(player.getDimension() != 162) {
+        player.sendChat("You gotta be in Lyndenwyrm");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn lyndenwyrm_structure_ancientwyvern", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+ancientwyverncallstone.register();
+
+
+
+var oblivioncandle = VanillaFactory.createItem("oblivion_candle");
+oblivioncandle.maxStackSize = 1;
+oblivioncandle.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 814) {
+        player.sendChat("You gotta be in L'Borean");
+        return "FAIL";
+    }
+
+    player.sendChat("Stand in the candle circle in the depths of the ancient tower in L'Borean");
+
+    player.sendChat("Checking Player Position");
+    player.sendChat("==================================================");
+
+    
+
+    // obtain position under player
+	var pos = player.position.asPosition3f();
+
+    // check if player is standing in middle of monument
+    var posA = player.position.asPosition3f();
+    posA.y = posA.y - 1;
+    posA.x = posA.x - 0;
+    var blockPosA = posA.asBlockPos();
+    var blockStateA = world.getBlockState(blockPosA);
+    if(blockStateA != <blockstate:minecraft:mossy_cobblestone>) {
+        player.sendChat("You are not standing on the Mossy Cobblestone in the middle of the monument");
+        return "FAIL";
+    }
+
+    var posB = player.position.asPosition3f();
+    posB.y = posB.y - 1;
+    posB.x = posB.x - 1;
+    var blockPosB = posB.asBlockPos();
+    var blockStateB = world.getBlockState(blockPosB);
+    if(blockStateB != <blockstate:minecraft:mossy_cobblestone>) {
+        player.sendChat("You are not standing on the Mossy Cobblestone in the middle of the monument");
+        return "FAIL";
+    }
+
+    var posC = player.position.asPosition3f();
+    posC.y = posC.y - 1;
+    posC.x = posC.x + 1;
+    var blockPosC = posC.asBlockPos();
+    var blockStateC = world.getBlockState(blockPosC);
+    if(blockStateC != <blockstate:minecraft:mossy_cobblestone>) {
+        player.sendChat("You are not standing on the Mossy Cobblestone in the middle of the monument");
+        return "FAIL";
+    }
+
+    var posD = player.position.asPosition3f();
+    posD.y = posD.y - 1;
+    posD.z = posD.z + 1;
+    var blockPosD = posD.asBlockPos();
+    var blockStateD = world.getBlockState(blockPosD);
+    if(blockStateD != <blockstate:minecraft:mossy_cobblestone>) {
+        player.sendChat("You are not standing on the Mossy Cobblestone in the middle of the monument");
+        return "FAIL";
+    }
+
+    var posE = player.position.asPosition3f();
+    posE.y = posE.y - 1;
+    posE.z = posE.z - 1;
+    var blockPosE = posE.asBlockPos();
+    var blockStateE = world.getBlockState(blockPosE);
+    if(blockStateE != <blockstate:minecraft:mossy_cobblestone>) {
+        player.sendChat("You are not standing on the Mossy Cobblestone in the middle of the monument");
+        return "FAIL";
+    }
+
+    player.sendChat("You are standing on the Mossy Cobblestone in the middle of the monument");
+
+    player.sendChat("Checking Candles");
+    player.sendChat("==================================================");
+
+    var pos1 = player.position.asPosition3f();
+    pos1.x = pos1.x + 3;
+    pos1.z = pos1.z + 1;
+    var blockPos1 = pos1.asBlockPos();
+    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
+    if(blockState1 != "Magenta Tallow Candle") {
+        player.sendChat("A Magenta Candle is incorrect or missing");
+        return "FAIL";
+    }
+
+    var pos2 = player.position.asPosition3f();
+    pos2.x = pos2.x + 3;
+    pos2.z = pos2.z - 1;
+    var blockPos2 = pos2.asBlockPos();
+    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
+    if(blockState2 != "Magenta Tallow Candle") {
+        player.sendChat("A Magenta Candle is incorrect or missing");
+        return "FAIL";
+    }
+
+    var pos3 = player.position.asPosition3f();
+    pos3.x = pos3.x - 3;
+    pos3.z = pos3.z - 1;
+    var blockPos3 = pos3.asBlockPos();
+    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
+    if(blockState3 != "Magenta Tallow Candle") {
+        player.sendChat("A Magenta Candle is incorrect or missing");
+        return "FAIL";
+    }
+
+    var pos4 = player.position.asPosition3f();
+    pos4.x = pos4.x - 3;
+    pos4.z = pos4.z + 1;
+    var blockPos4 = pos4.asBlockPos();
+    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
+    if(blockState4 != "Magenta Tallow Candle") {
+        player.sendChat("A Magenta Candle is incorrect or missing");
+        return "FAIL";
+    }
+
+    var pos5 = player.position.asPosition3f();
+    pos5.x = pos5.x - 1;
+    pos5.z = pos5.z + 3;
+    var blockPos5 = pos5.asBlockPos();
+    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
+    if(blockState5 != "Magenta Tallow Candle") {
+        player.sendChat("A Magenta Candle is incorrect or missing");
+        return "FAIL";
+    }
+
+    var pos6 = player.position.asPosition3f();
+    pos6.x = pos6.x + 1;
+    pos6.z = pos6.z + 3;
+    var blockPos6 = pos6.asBlockPos();
+    var blockState6 = world.getBlock(blockPos6).definition.displayName as string;
+    if(blockState6 != "Magenta Tallow Candle") {
+        player.sendChat("A Magenta Candle is incorrect or missing");
+        return "FAIL";
+    }
+
+    var pos7 = player.position.asPosition3f();
+    pos7.x = pos7.x + 1;
+    pos7.z = pos7.z - 3;
+    var blockPos7 = pos7.asBlockPos();
+    var blockState7 = world.getBlock(blockPos7).definition.displayName as string;
+    if(blockState7 != "Magenta Tallow Candle") {
+        player.sendChat("A Magenta Candle is incorrect or missing");
+        return "FAIL";
+    }
+
+    var pos8 = player.position.asPosition3f();
+    pos8.x = pos8.x - 1;
+    pos8.z = pos8.z - 3;
+    var blockPos8 = pos8.asBlockPos();
+    var blockState8 = world.getBlock(blockPos8).definition.displayName as string;
+    if(blockState8 != "Magenta Tallow Candle") {
+        player.sendChat("A Magenta Candle is incorrect or missing");
+        return "FAIL";
+    }
+
+    var posW = player.position.asPosition3f();
+    posW.z = posW.z - 3;
+    var blockPosW = posW.asBlockPos();
+    var blockStateW = world.getBlock(blockPosW).definition.displayName as string;
+    if(blockStateW != "Orange Tallow Candle") {
+        player.sendChat("An Orange Candle is incorrect or missing");
+        return "FAIL";
+    }
+
+    var posX = player.position.asPosition3f();
+    posX.z = posX.z + 3;
+    var blockPosX = posX.asBlockPos();
+    var blockStateX = world.getBlock(blockPosX).definition.displayName as string;
+    if(blockStateX != "Orange Tallow Candle") {
+        player.sendChat("An Orange Candle is incorrect or missing");
+        return "FAIL";
+    }
+
+    var posY = player.position.asPosition3f();
+    posY.x = posY.x + 3;
+    var blockPosY = posY.asBlockPos();
+    var blockStateY = world.getBlock(blockPosY).definition.displayName as string;
+    if(blockStateY != "Orange Tallow Candle") {
+        player.sendChat("An Orange Candle is incorrect or missing");
+        return "FAIL";
+    }
+
+    var posZ = player.position.asPosition3f();
+    posZ.x = posZ.x - 3;
+    var blockPosZ = posZ.asBlockPos();
+    var blockStateZ = world.getBlock(blockPosZ).definition.displayName as string;
+    if(blockStateZ != "Orange Tallow Candle") {
+        player.sendChat("An Orange Candle is incorrect or missing");
+        return "FAIL";
+    }
+
+    var posL = player.position.asPosition3f();
+    posL.x = posL.x - 2;
+    posL.z = posL.z - 2;
+    var blockPosL = posL.asBlockPos();
+    var blockStateL = world.getBlock(blockPosL).definition.displayName as string;
+    if(blockStateL != "Blue Tallow Candle") {
+        player.sendChat("A Blue Candle 1 is incorrect or missing");
+        return "FAIL";
+    }
+
+    var posM = player.position.asPosition3f();
+    posM.x = posM.x + 2;
+    posM.z = posM.z - 2;
+    var blockPosM = posM.asBlockPos();
+    var blockStateM = world.getBlock(blockPosM).definition.displayName as string;
+    if(blockStateM != "Blue Tallow Candle") {
+        player.sendChat("A Blue Candle 2 is incorrect or missing");
+        return "FAIL";
+    }
+
+    var posN = player.position.asPosition3f();
+    posN.x = posN.x + 2;
+    posN.z = posN.z + 2;
+    var blockPosN = posN.asBlockPos();
+    var blockStateN = world.getBlock(blockPosN).definition.displayName as string;
+    if(blockStateN != "Blue Tallow Candle") {
+        player.sendChat("A Blue Candle 3 is incorrect or missing");
+        return "FAIL";
+    }
+
+    var posO = player.position.asPosition3f();
+    posO.x = posO.x - 2;
+    posO.z = posO.z + 2;
+    var blockPosO = posO.asBlockPos();
+    var blockStateO = world.getBlock(blockPosO).definition.displayName as string;
+    if(blockStateO != "Blue Tallow Candle") {
+        player.sendChat("A Blue Candle 4 is incorrect or missing");
+        return "FAIL";
+    }
+
+    player.sendChat("All Candles are correctly located");
+
+
+    Commands.call("give @p contenttweaker:oblivion_catalyzer", player, world, true, true);
+
+    return "PASS";
+
+};
+oblivioncandle.register();
+
+
+var oblivionairecallstone= VanillaFactory.createItem("oblivionaire_callstone");
+oblivionairecallstone.maxStackSize = 1;
+oblivionairecallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    
+
+    if(player.getDimension() != 50) {
+        player.sendChat("You gotta be in the Abyssal Wasteland");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn oblivionaire_structure_callstone", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+oblivionairecallstone.register();
+
+var keyfleshdominion= VanillaFactory.createItem("key_of_flesh_dominion");
+keyfleshdominion.maxStackSize = 1;
+keyfleshdominion.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 800) {
+        player.sendChat("You gotta be in the Abyss");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn abyss_structure_supershadow", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+keyfleshdominion.register();
+
+var gravitationalcallstone= VanillaFactory.createItem("gravitational_callstone");
+gravitationalcallstone.maxStackSize = 1;
+gravitationalcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 815) {
+        player.sendChat("You gotta be in Lelyetia");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn lelyetia_structure_supergraw", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+gravitationalcallstone.register();
+
+var warlordcallstone= VanillaFactory.createItem("warlord_callstone");
+warlordcallstone.maxStackSize = 1;
+warlordcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 814) {
+        player.sendChat("You gotta be in L'Borean");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn borean_structure_superdragons", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+warlordcallstone.register();
+
+
+var hordedominationcallstone= VanillaFactory.createItem("horde_domination_callstone");
+hordedominationcallstone.maxStackSize = 1;
+hordedominationcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in the Overworld");
+        return "FAIL";
+    }
+
+    var posO = player.position.asPosition3f();
+    if(posO.y != 1) {
+        player.sendChat("Stand on the bedrock layer at the bottom of the world");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn underoverworld_structure_callstone", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+hordedominationcallstone.register();
+
+var fluixhistoriancallstone= VanillaFactory.createItem("fluix_historian_callstone");
+fluixhistoriancallstone.maxStackSize = 1;
+fluixhistoriancallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in the Overworld");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn fluix_historian_structure", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+fluixhistoriancallstone.register();
+
+var hungersummoner = VanillaFactory.createItem("hunger_summoner");
+hungersummoner.maxStackSize = 1;
+hungersummoner.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 427) {
+        player.sendChat("You gotta be in Vethea");
+        return "FAIL";
+    }
+
+    Commands.call("summon divinerpg:the_hunger ~ ~1 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+hungersummoner.register();
+
+var mysterymansummoner = VanillaFactory.createItem("mysteriousman_summoner");
+mysterymansummoner.maxStackSize = 1;
+mysterymansummoner.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 427) {
+        player.sendChat("You gotta be in Vethea");
+        return "FAIL";
+    }
+
+    Commands.call("summon divinerpg:mysterious_man_layer_1 ~ ~1 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+mysterymansummoner.register();
+
+var mysteryman2summoner = VanillaFactory.createItem("mysteriousman2_summoner");
+mysteryman2summoner.maxStackSize = 1;
+mysteryman2summoner.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 427) {
+        player.sendChat("You gotta be in Vethea");
+        return "FAIL";
+    }
+
+    var pos = player.position.asPosition3f();
+
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y;
+   
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+
+    if(posChange.y < 110) {
+        player.sendChat("You will have to go a bit higher");
+        return "FAIL";
+    }
+
+    Commands.call("summon divinerpg:mysterious_man_layer_2 ~ ~1 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+mysteryman2summoner.register();
+
+
+var mysteryman3summoner = VanillaFactory.createItem("mysteriousman3_summoner");
+mysteryman3summoner.maxStackSize = 1;
+mysteryman3summoner.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 427) {
+        player.sendChat("You gotta be in Vethea");
+        return "FAIL";
+    }
+
+    var pos = player.position.asPosition3f();
+
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y;
+   
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+
+    if(posChange.y < 160) {
+        player.sendChat("You will have to go a bit higher");
+        return "FAIL";
+    }
+
+    Commands.call("summon divinerpg:mysterious_man_layer_3 ~ ~1 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+mysteryman3summoner.register();
+

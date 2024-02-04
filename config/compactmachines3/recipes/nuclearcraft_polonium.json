@@ -1,0 +1,52 @@
+{
+    "name": "compactmachines3:nuclearcraft_polonium",
+    "target-item": "contenttweaker:safe_polonium",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+
+
+    "input-types": {
+      "a": {
+        "id": "contenttweaker:redstone_nak_cooler",
+        "meta": 0
+      },
+      "b": {
+        "id": "contenttweaker:polonium_vessel",
+        "meta": 0
+      },
+      "c": {
+        "id": "contenttweaker:cryotheum_nak_cooler",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "a",
+          "_",
+          "a"
+        ]
+      ],
+      [
+        [
+          "b",
+          "c",
+          "b"
+        ]
+      ],
+      [
+        [
+          "a",
+          "_",
+          "a"
+        ]
+      ]
+    ]
+          
+}

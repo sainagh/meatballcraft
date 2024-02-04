@@ -248,7 +248,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "extracpus:crafting_storage_16384k@2"
+                "nae2:storage_crafting_16384k"
             ]
         },
         {
@@ -272,7 +272,7 @@
             "y": 5,
             "z": 5,
             "elements": [
-                "extracpus:crafting_storage_16384k@2"
+                "nae2:storage_crafting_16384k"
             ]
         },
         {
@@ -456,7 +456,7 @@
             "y": 5,
             "z": 5,
             "elements": [
-                "extracpus:crafting_storage_16384k@2"
+                "nae2:storage_crafting_16384k"
             ]
         },
         {
@@ -488,7 +488,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "extracpus:crafting_storage_16384k@2"
+                "nae2:storage_crafting_16384k"
             ]
         },
         {
@@ -864,7 +864,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "extracpus:crafting_storage_16384k@2"
+                "nae2:storage_crafting_16384k"
             ]
         },
         {
@@ -888,7 +888,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "extracpus:crafting_storage_16384k@2"
+                "nae2:storage_crafting_16384k"
             ]
         },
         {
@@ -1344,7 +1344,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "extracpus:crafting_storage_16384k@2"
+                "nae2:storage_crafting_16384k"
             ]
         },
         {
@@ -1360,7 +1360,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "extracpus:crafting_storage_16384k@2"
+                "nae2:storage_crafting_16384k"
             ]
         },
         {
