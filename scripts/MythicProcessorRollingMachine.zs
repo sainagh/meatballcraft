@@ -8,7 +8,7 @@ mythroll1.addItemInput(<contenttweaker:abyssal_alloy_ingot>);
 mythroll1.addItemInput(<contenttweaker:twilight_alloy_ingot>);
 mythroll1.addItemInput(<contenttweaker:thermionic_alloy_ingot>);
 mythroll1.addItemInput(<contenttweaker:high_refraction_alloy_ingot>);
-mythroll1.addItemOutput(<contenttweaker:infinity_plate>);
+mythroll1.addItemOutput(<contenttweaker:infinity_plate>*4);
 mythroll1.build();
 
 val mythroll2 = RecipeBuilder.newBuilder("mythroll2","mythic_processor_rolling_machine",2);
@@ -29,7 +29,7 @@ val mythroll4 = RecipeBuilder.newBuilder("mythroll4","mythic_processor_rolling_m
 mythroll4.addEnergyPerTickInput(60000);
 mythroll4.addItemInput(<ore:ingotPalladium>*4);
 mythroll4.addItemInput(<ore:ingotPolonium>);
-mythroll4.addItemOutput(<contenttweaker:arc_coil>*2);
+mythroll4.addItemOutput(<contenttweaker:arc_coil>);
 mythroll4.build();
 
 val mythroll5 = RecipeBuilder.newBuilder("mythroll5","mythic_processor_rolling_machine",2);
@@ -53,7 +53,7 @@ val mythroll7 = RecipeBuilder.newBuilder("mythroll7","mythic_processor_rolling_m
 mythroll7.addEnergyPerTickInput(60000);
 mythroll7.addItemInput(<ore:ingotAluminum>*6);
 mythroll7.addItemInput(<ore:dustMagnesium>*3);
-mythroll7.addItemOutput(<ore:plateMagnalium>);
+mythroll7.addItemOutput(<ore:plateMagnalium>*3);
 mythroll7.build();
 
 
@@ -125,5 +125,5 @@ mythroll16.build();
 val mythroll17 = RecipeBuilder.newBuilder("mythroll17","mythic_processor_rolling_machine",2);
 mythroll17.addEnergyPerTickInput(60000);
 mythroll17.addItemInput(<ore:plateTitaniumIridium>*4);
-mythroll17.addItemOutput(<libvulpes:productsheet:1>*4);
+mythroll17.addItemOutput(<ore:sheetTitaniumIridium>*4);
 mythroll17.build();

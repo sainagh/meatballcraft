@@ -157,7 +157,7 @@ mods.jei.JEI.addDescription(<thermalfoundation:material:131>,["Found between Y=5
 mods.jei.JEI.addDescription(<thermalfoundation:material:132>,["Found between Y=40 and Y=75."]);
 mods.jei.JEI.addDescription(<thermalfoundation:material:133>,["Found between Y=5 and Y=20."]);
 mods.jei.JEI.addDescription(<thermalfoundation:material:134>,["Found between Y=5 and Y=16."]);
-mods.jei.JEI.addDescription(<thermalfoundation:material:134>,["Found between Y=20 and Y=70."]);
+mods.jei.JEI.addDescription(<thermalfoundation:material:134>,["Found between Y=20 and Y=70 in the end."]);
 mods.jei.JEI.addDescription(<thermalfoundation:material:135>,["Found rarely in the overworld, or in the end from sheldonite ore"]);
 mods.jei.JEI.addDescription(<thermalfoundation:material:136>,["Found in the Elemental Chamber dungeon in the Nether."]);
 mods.jei.JEI.addDescription(<thermalfoundation:material:771>,["Found near lava lakes underground, and dropped by blaze"]);

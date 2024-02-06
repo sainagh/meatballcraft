@@ -626,3 +626,5 @@
 <divinerpg:tormented_chestplate>.addTooltip(format.red("Uses 14 Lumps"));
 <divinerpg:tormented_leggings>.addTooltip(format.red("Uses 11 Lumps"));
 <divinerpg:tormented_boots>.addTooltip(format.red("Uses 8 Lumps"));
+
+<contenttweaker:radioactive_residue>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));

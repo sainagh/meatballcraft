@@ -383,3 +383,8 @@ var dreminfusioncrafting = VanillaFactory.createItem("dream_infusion_crafting");
 dreminfusioncrafting.maxStackSize = 64;
 dreminfusioncrafting.beaconPayment = false;
 dreminfusioncrafting.register();
+
+var mineralisritual = VanillaFactory.createItem("mineralis_ritual");
+mineralisritual.maxStackSize = 64;
+mineralisritual.beaconPayment = false;
+mineralisritual.register();

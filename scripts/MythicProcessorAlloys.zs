@@ -406,12 +406,12 @@ mythallo54.addItemInput(<ore:ingotIridium>);
 mythallo54.addItemOutput(<ore:ingotTitaniumIridium>*2);
 mythallo54.build();
 
-val mythallo55 = RecipeBuilder.newBuilder("mythallo55","mythic_processor_alloy_furnace",1);
-mythallo55.addEnergyPerTickInput(80000);
-mythallo55.addItemInput(<contenttweaker:unidentified_ingot>);
-mythallo55.addItemInput(<ore:ingotMithrillium>*3);
-mythallo55.addItemOutput(<ore:ingotCrystalMatrix>*2);
-mythallo55.build();
+// val mythallo55 = RecipeBuilder.newBuilder("mythallo55","mythic_processor_alloy_furnace",1);
+// mythallo55.addEnergyPerTickInput(80000);
+// mythallo55.addItemInput(<contenttweaker:unidentified_ingot>);
+// mythallo55.addItemInput(<thaumadditions:mithrillium_ingot>*3);
+// mythallo55.addItemOutput(<avaritia:resource:1>*2);
+// mythallo55.build();
 
 val mythallo56 = RecipeBuilder.newBuilder("mythallo56","mythic_processor_alloy_furnace",1);
 mythallo56.addEnergyPerTickInput(80000);
@@ -427,12 +427,12 @@ mythallo57.addItemInput(<divinerpg:mortum_chunk>);
 mythallo57.addItemOutput(<extendedcrafting:material:32>*8);
 mythallo57.build();
 
-val mythallo58 = RecipeBuilder.newBuilder("mythallo58","mythic_processor_alloy_furnace",1);
-mythallo58.addEnergyPerTickInput(80000);
-mythallo58.addItemInput(<contenttweaker:matrix_ore>);
-mythallo58.addItemInput(<aoa3:shyrestone_block>);
-mythallo58.addItemOutput(<ore:ingotCrystalMatrix>*8);
-mythallo58.build();
+// val mythallo58 = RecipeBuilder.newBuilder("mythallo58","mythic_processor_alloy_furnace",1);
+// mythallo58.addEnergyPerTickInput(80000);
+// mythallo58.addItemInput(<contenttweaker:matrix_ore>);
+// mythallo58.addItemInput(<aoa3:shyrestone_block>);
+// mythallo58.addItemOutput(<avaritia:resource:1>*8);
+// mythallo58.build();
 
 val mythallo59 = RecipeBuilder.newBuilder("mythallo59","mythic_processor_alloy_furnace",1);
 mythallo59.addEnergyPerTickInput(80000);
@@ -481,7 +481,8 @@ val mythallo65 = RecipeBuilder.newBuilder("mythallo65","mythic_processor_alloy_f
 mythallo65.addEnergyPerTickInput(80000);
 mythallo65.addItemInput(<ore:emcDarkMatter>*4);
 mythallo65.addItemInput(<ore:emcRedMatter>*12);
-mythallo65.addItemOutput(<contenttweaker:calcite_gem>);
+mythallo65.addItemInput(<contenttweaker:calcite_gem>);
+mythallo65.addItemOutput(<ore:ingotModularium>);
 mythallo65.build();
 
 val mythallo66 = RecipeBuilder.newBuilder("mythallo66","mythic_processor_alloy_furnace",1);
@@ -621,7 +622,7 @@ val mythallo85 = RecipeBuilder.newBuilder("mythallo85","mythic_processor_alloy_f
 mythallo85.addEnergyPerTickInput(80000);
 mythallo85.addItemInput(<ore:ingotBloodInfusedIron>);
 mythallo85.addItemInput(<minecraft:porkchop>);
-mythallo85.addItemOutput(<ore:ingotPigIron>*4);
+mythallo85.addItemOutput(<tconstruct:ingots:4>*4);
 mythallo85.build();
 
 val mythallo86 = RecipeBuilder.newBuilder("mythallo86","mythic_processor_alloy_furnace",1);
@@ -771,7 +772,7 @@ mythallo106.addItemInput(<ore:dustSednanite>);
 mythallo106.addItemInput(<thaumcraft:void_seed>);
 mythallo106.addItemInput(<divinerpg:corrupted_stone>);
 mythallo106.addItemInput(<ore:ingotHoneyComb>);
-mythallo106.addItemOutput(<ore:ingotDemonicSteel>*2);
+mythallo106.addItemOutput(<contenttweaker:etherium_ingot>);
 mythallo106.build();
 
 val mythallo107 = RecipeBuilder.newBuilder("mythallo107","mythic_processor_alloy_furnace",1);

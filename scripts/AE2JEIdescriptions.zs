@@ -124,3 +124,8 @@ mods.jei.JEI.addDescription([<appliedenergistics2:quantum_link>,
 "",
 "Infinitely expand the range of your wireless terminals.",
 "Connect a quantum bridge to the network which you would like to access wirelessly. Insert the quantum link card into the quantum bridge. Note that this will prevent you from inserting an entangled singularity because a quantum bridge can only have one function at a time. This also replaces the need for a wireless access point."]);
+
+mods.jei.JEI.addDescription([<nae2:part:0>],
+["The Beam Former allows to connect two sections of ME cables at a short distance (32 blocks in a straight line).",
+"",
+"A beam will form between Formers if a path is available between them. The beam can pass through transparent blocks, including other ME cables."]);

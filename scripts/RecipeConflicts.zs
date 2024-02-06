@@ -1673,3 +1673,4 @@ mods.chisel.Carving.addVariation("ayeracostatuescolored", <divinerpg:ayeraco_sta
 mods.chisel.Carving.addVariation("ayeracostatuescolored", <divinerpg:ayeraco_statue_green>);
 mods.chisel.Carving.addVariation("ayeracostatuescolored", <divinerpg:ayeraco_statue_purple>);
 
+mods.nuclearcraft.melter.addRecipe([<minecraft:rotten_flesh>, <fluid:blood>*40]);

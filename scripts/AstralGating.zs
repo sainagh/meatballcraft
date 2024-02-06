@@ -17,7 +17,66 @@ recipes.addShaped(<astralsorcery:blockblackmarble:0>*8,
 
 mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:the_dark_star>, <fluid:astralsorcery.liquidstarlight>, 2.5, 1000.0, 0);
 
-
+recipes.addShapeless(<minecraft:coal_ore>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<minecraft:iron_ore>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<minecraft:gold_ore>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<minecraft:lapis_ore>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<minecraft:redstone_ore>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<minecraft:diamond_ore>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<minecraft:emerald_ore>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<thermalfoundation:ore:4>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<thermalfoundation:ore:0>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<thermalfoundation:ore:1>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<thermalfoundation:ore:3>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<appliedenergistics2:quartz_ore>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<thermalfoundation:ore:5>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<thermalfoundation:ore:6>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<thermalfoundation:ore:2>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<thermalfoundation:ore:8>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<biomesoplenty:gem_ore:1>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<biomesoplenty:gem_ore:6>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<nuclearcraft:ore:4>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<bigreactors:oreyellorite>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<railcraft:ore_metal:5>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<railcraft:ore:0>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<nuclearcraft:ore:3>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<abyssalcraft:coraliumore>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<abyssalcraft:abyore>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<erebus:ore_jade>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<techreborn:ore:4>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<libvulpes:ore0:8>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<aoa3:runium_ore>,
+[<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<bewitchment:salt_ore>,
+[<contenttweaker:mineralis_ritual>]);
 
 
 // mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/skythernEMC", 
