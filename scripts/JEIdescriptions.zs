@@ -591,7 +591,7 @@ mods.jei.JEI.addDescription(<magicbees:hiveblock:5>,
     "Found in the end! Drops an Oblivion Princess and Drones!"
 ]);
 
-mods.jei.JEI.addDescription(<torcherino:blocktorcherino>,
+mods.jei.JEI.addDescription([<torcherino:torch_lvl1>, <torcherino:compressed_torch_lvl1>],
 [
     "The Torcherino lets you tick-accelerate nearby tiles!",
     "",
@@ -795,7 +795,7 @@ mods.jei.JEI.addDescription([
 	"Abyssal Wasteland uses Abyssal Cobblestone",
 	"Dreadlands uses Dreadstone Cobblestone",
 	"Omothol uses Ethaxium Bricks",
-	"Darklands uses Darkstone Cobblestone"
+	"Darklands uses Dark Ethaxium Bricks"
 ]);
 
 
@@ -1557,7 +1557,7 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_barongem>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "In a crafting table, surround a baron stone renamed with the word 'Ashari' with flux crystal blocks."
+    "In a crafting table, surround a Baron Cube renamed with the word 'Ashari' with flux crystal blocks."
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_branchoflife>,
@@ -1890,6 +1890,19 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_masterwizards>,
     "Craft a an astral animator with the following soul vials: cyclops, ghast, skeleton, frost."
 ]);
 
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_sparkledoak>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "The Pedestals in the Trinity Callstone structure hold some interesting objects. Combine the right wood plank with the right weapon.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft a Sacred Oak Plank with the Captains Sparkler. It's reusable too!"
+]);
+
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_recursion_dungeon>,
 [
     "Come on! At least try to solve the puzzle!",
@@ -2069,7 +2082,8 @@ mods.jei.JEI.addDescription(<modularmachinery:itemblueprint>,
     "Tier 1 mythic miner for all mythic miners!",
     "Neutronium Cannon for chapter 6 multiblocks!",
     "Relativistic Collapser for chapter 9 multiblocks!",
-    "Mythic Processor Alloy Furnace for all mythic processors!"
+    "Mythic Processor Alloy Furnace for all mythic processors!",
+    "Arcane Autoworkbench for all magic multiblocks!"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:recursive_recipes>,
@@ -3654,6 +3668,41 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_stage1anomaly>,
     "Obsidian with four iron blocks making a plus sign"
 ]);
 
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_warrenblindfold>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Chest loot in dimensional doors includes four different bee combs. Combine those with four Essences of the Mythic Shells and a Blindfold.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Use the following combs: Blaze, Zinc, Titanium, Magenta."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_monumentallysentientbeatball>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Zoi hides some interesting loot, a book knows the way! Combine the right Tributes to the Meatball Man with the right decorative blocks.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "These are the combinations of items to surround with blocks:",
+    "Rainbow Fire + Plate Temple Block",
+    "Blue Hair + Purple ME Controller Futura Block",
+    "AI Art + Scorned Bricks from Bewitchment",
+    "Sick fade + Metallic Voidstone",
+    "Addiction Cookie + Compact Machine Wall",
+    "Cat Ears + ME Controller Futura Block",
+    "Italian Flag + Companion Valentines' Block",
+    "Sausage Sandwich + Bismuth Glowstone",
+    "Kitty Smile + Encased Bricks Sky Stone Bricks"
+]);
+
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_icydreadshard>,
 [
@@ -3801,6 +3850,47 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_stoneofanima>,
     "Combine a Chalcedony Ingot with the following Tablets: Sight, Stength, Vitality, Pressure, Satiation, Cleansing, Distortion, Sanctity."
 ]);
 
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_ghoulspirit>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Greckon worldgen contains various Crystal Clusters, the corresponding Essentia Crystals can be combined with Primed Ghoulasm.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Combine a Primed Ghoulasm with the following Essentia Crystals: Mythus, Auram, Vitreus, Potentia."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_taintedmeatball>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Finem worldgen hides the instructions to make four Abyssalcraft Charms. You may have to break some things to find them. Combine them with a Flux Sponge.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Combine a Flux Sponge with the following Abyssalcraft Charms: J'zahar Duration, Yog-Sothoth Power, Azathoth Range, Cthulhu Power."
+]);
+
+
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_spellrecyclercrystal>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft the right type of chest with the right crystals, in the right shapes. The villagers above the nether will guide you. Red nether bricks and darkwood may give you hints.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft a plus sign of Magic Crystals with a Crystal Chest in the center."
+]);
+
 mods.jei.JEI.addDescription([
     <fluxnetworks:fluxplug>,
     <fluxnetworks:fluxpoint>,
@@ -3851,7 +3941,7 @@ mods.jei.JEI.addDescription([
     "To make the multiblock function function, place a Stone from Thaumic Wonders in the machine gui.",
     "",
     "Each stone has a different functionality:",
-    "Alienist: makes eldritch clusters",
+    "Alienist: makes eldritch clusters from ores or native clusters",
     "Transmuter: turns ores into other ores and back",
     "Alchemist: purifies ores",
     "",
@@ -3865,7 +3955,7 @@ mods.jei.JEI.addDescription([
 [
     "The primordial accelerator is used to break Primordial Pearls into Primordial Grains.",
     "",
-    "It is a multiblock of variable length, see the JEI preview for the multiblock structure, the more Tunnels, the more Grains can be produced (with diminishing returns).",
+    "It is a multiblock of variable length, see the JEI preview for the multiblock structure, the more Tunnels, the more Grains can be produced (with diminishing returns). The maximum length is 10.",
     "",
     "Primordial pearls can be piped into the Accelerator.",
     "",
@@ -3882,4 +3972,160 @@ mods.jei.JEI.addDescription([
     "Each coolant requires a different amount of heat to be exchanged to cool it, and coolants take a different amount of heat to warm. In JEI, cooling recipes have a red to blue arrow and heating recipes have a blue to red arrow, which, upon hover, shows the Heat Required. Those numbers determine the rate at which coolant can be processed, at 1/Coolant Tube Conductivity mB * Heat Required to Cool / Heat Required to Warm per face touching hot and cold liquids."
 ]);
 
+mods.jei.JEI.addDescription([
+    <contenttweaker:hand_framing_tool>],
+[
+    "Combine with the desired blocks to set the framing tool pattern.",
+    "",
+    "Top Left: drawer sides.",
+    "Top Right: drawer trim.",
+    "Middle Left: drawer front."
+]);
 
+mods.jei.JEI.addDescription([
+    <immersiveengineering:metal_multiblock:11>,
+    <immersiveengineering:metal_multiblock:12>,
+    <contenttweaker:holographic_ore>,
+    <contenttweaker:ultimate_ore>,
+    <contenttweaker:matrix_ore>,
+    <contenttweaker:psichic_stone>,
+    <contenttweaker:runic_ore>],
+[
+    "The excavator is used to produce infinite amounts of ores from Immersive Engineering veins. These are not like normal ore veins, and they do not exist in-world. Each chunk has one vein.",
+    "",
+    "To identify a vein, place a core sample drill into a chunk, give it power, and right click it to start it. It will produce a core sample, with the name of the ore vein and fluid vein in that chunk.",
+    "",
+    "To mine the ore vein vein, build the Excavator multiblocks in the corresponding chunk. ",
+    "",
+    "Some ores can only be mined using excavators, and cannot be found in-world."
+]);
+
+mods.jei.JEI.addDescription([
+    <immersivepetroleum:metal_multiblock:2>,
+    <contenttweaker:stormlight_infused_crystal>],
+[
+    "The pumpjack is used to produce infinite amounts of fluids from Immersive Engineering veins. These are not like normal fluid deposits, and they do not exist in-world. Each chunk has one vein.",
+    "",
+    "To identify a vein, place a core sample drill into a chunk, give it power, and right click it to start it. It will produce a core sample, with the name of the ore vein and fluid vein in that chunk.",
+    "",
+    "To extract the fluid deposit, build the Pumpjack multiblock in the corresponding chunk. "
+]);
+
+mods.jei.JEI.addDescription([
+    <tconstruct:seared_furnace_controller>],
+[
+    "The seared furnace uses lava to run, and can process multiple items in parallel.",
+    "",
+    "It can be built out of any cubic shape, as long as the interior is empty, the controller is in the middle of a face, and the seared tank is located on a corner. The bigger, the more parallel recipes it can perform."
+]);
+
+mods.jei.JEI.addDescription([
+    <modularrouters:item_router>],
+[
+    "Modular Routers are blocks capable of performing logistics actions (similar to AE2) for small-scale, short-distance automations.",
+    "",
+    "A router performs actions based on the modules placed in its slots, following a cyclical left-to-right order. Modules prform simple actions like pulling and pushing blocks, or more complex ones like breaking, placing, or launching items.",
+    "",
+    "The target locations for each module can be specified by shift + right clicking them on the desired block space.",
+    "",
+    "Once modules are installed, they can be configured by middle clicking them. This allows to set filters and add augments.",
+    "",
+    "Upgrades can be placed in the corresponding slots in a Modular Router.",
+    "",
+    "Hold control while hovering over any Modular Router item to see their function."
+]);
+
+mods.jei.JEI.addDescription([
+    <extrautils2:scanner>],
+[
+    "Scans the blockspace adjacent to the red circle.",
+    "",
+    "Produces a redstone signal if the block type in that space matches the target one.",
+    "",
+    "The target is set by clicking 'set to current block'."
+]);
+
+mods.jei.JEI.addDescription([
+    <extrautils2:user>],
+[
+    "Simulates various types of player clicks.",
+    "",
+    "You can cycle through the clicking type, left or right click, and what slot to use to perform the click.",
+    "",
+    "EG: To fill a lava tank, place a Lava Amulet in the first slot, and a klein star in any other slot; set to 'Use Item on Block', 'Right Click', 'Upper Left Slot Only'.",
+    "",
+    "EG: To fill a pethal apothecary, place an Evertide Amulet in the first slot; set to 'Activate Block with Item', 'Right Click', 'Upper Left Slot Only'.",
+    "",
+    "EG: To shear leaves, place shears in the first slot; set to 'Use Item on Block', 'Left Click', 'Upper Left Slot Only'."
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:how_to_finish_meatballcraft>],
+[
+    "If you want to finish the pack, here is the best advice I could give you!",
+    "",
+    "Infrastructure is the most important thing! This refers to your ability to expand your base and upgrade things easily. Make sure you passively automate the resources that will let you make more machines, more blocks, and more crafting ingredients! The more mods you unlock, the more infrastructure you will have to set up!",
+    "",
+    "Be proactive with automation! The best way to expand your infrastructure is to set up automations for new materials and recipes as soon as you unlock them! If a material shows up in a side quest, it's a good idea to automate it!",
+    "",
+    "Take your time! Completing and automating things from side quests, or for general base convenience, before doing more main line content is almost always the best way to do things! You will run into many hard 'wall' recipes, and the side quests will prepare you for these! This refers to weapond and armor upgrades too, side content often provides good upgrades for your gear!",
+    "",
+    "Take your time with JEI! Many items have multiple recipes and ways of obtaining, some will be easier than others at different points in progression!",
+    "",
+    "Check the in-game documentation! It's there for a reason!"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:fission_automation>],
+[
+    "Being able to have a steady passive supply of fission isotopes will be very important!",
+    "",
+    "You want to have an indvidual fission reactor for each fuel processing step! The quests in energy sources will list all required fission steps!",
+    "",
+    "As long as the setup is passively running, speed won't be a concern (till later)! The 5x5x5 previews provided for each fuel should be enough! For some fuels (not all), checkerboard cryotheum lattices work too!",
+    "",
+    "For each step, it's good to split the output isotopes between a buffer for recipes, and the subsequent step in the fission chain. Compacting Drawers will be very helpful for some steps!",
+    "",
+    "In late chapter 5 you will unlock the Two-Phase Reactor, you eventually want to replace the slower fission steps for faster processing with this new multiblock! You'll need that for late game!"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:draconic_upgrades_locations>],
+[
+    "All Draconic Upgrades can be found in the warper planes!",
+    "",
+    "Movement Speed - Furatto",
+    "Attack Damage - Furatto",
+    "Shield Capacity - Furatto",
+    "Jump Boost - Diamerisma",
+    "Arrow Damage - Diamerisma",
+    "Attack AOE - Diamerisma",
+    "RF Capacity - Taerrapiatta",
+    "Draw Speed - Vibe",
+    "Dig Speed - Vibe",
+    "Dig AOE - Apichisi"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:berserker_forge_loop>],
+[
+    "The Berserker Forge can be used to duplicate target Will Crystals for automation.",
+    "",
+    "Place the multiblock in the same chunk as a Demon Crucible.",
+    "",
+    "Start off by burning a few Will Crystals of the desired aspect into the Crucible. The will in the aura can be used to make will crystals at a reduced cost.",
+    "",
+    "By looping the output crystals back into the Crucible, and making more crystals, you'll end up with a net positive!"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:duplicating_enchants>,
+    <bibliocraft:typesettingtable>,
+    <bibliocraft:printingpress>],
+[
+    "Bibliocraft allows to duplicate enchanted books! To use the Typesetting Table and Printing Press, make sure you a wearing a Monocle, otherwise you won't see XP costs!",
+    "",
+    "Right click the desired enchanted book in the Typesetting Table near left slot, and a Chase in the far slot. Shift right click the Typesetting Table with an empty hand to create an enchanted plate. This will consume XP based on the enchantment type and level.",
+    "",
+    "Right click the enchanted plate in the back slot of the Printing Press, together with a bunch of ink sacks. Right click normal vanilla Books on the near left slot, and they will be transformed into enchanted books of the desired type! A single enchanted press can make up to 3 enchanted books, as it has durability, but it can be repaired using various modded tools."
+]);

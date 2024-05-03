@@ -195,3 +195,63 @@ chocchertruf.onItemFoodEaten = function(stack, world, player) {
 	player.sendChat("Don't forget to enjoy the small wins in life!");
 };
 chocchertruf.register();
+
+
+//---------------------
+
+
+var lovelylatke = VanillaFactory.createItemFood("lovely_latke", 5);
+lovelylatke.saturation = 1;
+lovelylatke.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Time with loved ones is important! Dont forget that!");
+};
+lovelylatke.register();
+
+var nicecleansalad = VanillaFactory.createItemFood("nice_clean_salad", 5);
+nicecleansalad.saturation = 1;
+nicecleansalad.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Minecraft sure is fun, but so is cleaning your room!");
+};
+nicecleansalad.register();
+
+var bigboysteak = VanillaFactory.createItemFood("big_boy_steak", 5);
+bigboysteak.saturation = 1;
+bigboysteak.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("There's no shame in asking for help! Apes together strong!");
+};
+bigboysteak.register();
+
+var fortunecookie = VanillaFactory.createItemFood("fortune_cookie", 5);
+fortunecookie.saturation = 1;
+fortunecookie.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Thinking about the future is important, but so is living the present!");
+};
+fortunecookie.register();
+
+var pandistelle = VanillaFactory.createItemFood("pan_di_stelle", 5);
+pandistelle.saturation = 1;
+pandistelle.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Never stop dreaming big!");
+};
+pandistelle.register();
+
+var plentifulpraline = VanillaFactory.createItemFood("plentiful_praline", 5);
+plentifulpraline.saturation = 1;
+plentifulpraline.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Chasing happiness is more important than chasing accomplishment! But the two can coincide!");
+};
+plentifulpraline.register();
+
+var friendlyfrittata = VanillaFactory.createItemFood("friendly_frittata", 5);
+friendlyfrittata.saturation = 1;
+friendlyfrittata.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Real, true friends are important! Almost as important as finishing this modpack ;)");
+};
+friendlyfrittata.register();
+
+var sacredcindersfruit = VanillaFactory.createItemFood("sacred_cinders_fruit", 5);
+sacredcindersfruit.saturation = 1;
+sacredcindersfruit.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Stay Hungry. Stay Foolish.");
+};
+sacredcindersfruit.register();

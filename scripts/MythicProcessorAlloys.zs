@@ -26,7 +26,7 @@ mythallo3.build();
 
 val mythallo4 = RecipeBuilder.newBuilder("mythallo4","mythic_processor_alloy_furnace",1);
 mythallo4.addEnergyPerTickInput(80000);
-mythallo4.addItemInput(<ore:ingotGraphite> * 1);
+mythallo4.addItemInput(<ore:ingotGraphite> * 2);
 mythallo4.addItemInput(<ore:gemDiamond> * 1);
 mythallo4.addItemOutput(<nuclearcraft:alloy:2>*2);
 mythallo4.build();
@@ -104,7 +104,7 @@ val mythallo14 = RecipeBuilder.newBuilder("mythallo14","mythic_processor_alloy_f
 mythallo14.addEnergyPerTickInput(80000);
 mythallo14.addItemInput(<ore:ingotZirconium>*7);
 mythallo14.addItemInput(<ore:ingotTin>);
-mythallo14.addItemOutput(<ore:ingotZircalloy>);
+mythallo14.addItemOutput(<nuclearcraft:alloy:12>*8);
 mythallo14.build();
 
 val mythallo15 = RecipeBuilder.newBuilder("mythallo15","mythic_processor_alloy_furnace",1);
@@ -120,6 +120,7 @@ mythallo16.addEnergyPerTickInput(80000);
 mythallo16.addItemInput(<ore:ingotBaronyte>);
 mythallo16.addItemInput(<ore:ingotSkeletal> * 4);
 mythallo16.addItemInput(<ore:ingotFluctuatite>);
+mythallo16.addItemInput(<ore:ingotIron>);
 mythallo16.addItemOutput(<materialpart:vibranium:ingot>);
 mythallo16.build();
 
@@ -336,7 +337,7 @@ val mythallo45 = RecipeBuilder.newBuilder("mythallo45","mythic_processor_alloy_f
 mythallo45.addEnergyPerTickInput(80000);
 mythallo45.addItemInput(<ore:itemSilicon>);
 mythallo45.addItemInput(<ore:ingotGraphite>);
-mythallo45.addItemOutput(<ore:ingotSiliconCarbide>);
+mythallo45.addItemOutput(<nuclearcraft:alloy:13>);
 mythallo45.build();
 
 val mythallo46 = RecipeBuilder.newBuilder("mythallo46","mythic_processor_alloy_furnace",1);
@@ -349,7 +350,7 @@ mythallo46.build();
 val mythallo47 = RecipeBuilder.newBuilder("mythallo47","mythic_processor_alloy_furnace",1);
 mythallo47.addEnergyPerTickInput(80000);
 mythallo47.addItemInput(<draconicevolution:draconic_ingot>);
-mythallo47.addItemInput(<ore:ingotAdaminite> * 4);
+mythallo47.addItemInput(<thaumadditions:adaminite_ingot> * 4);
 mythallo47.addItemOutput(<contenttweaker:restless_steel_ingot>*2);
 mythallo47.build();
 
@@ -382,7 +383,7 @@ val mythallo51 = RecipeBuilder.newBuilder("mythallo51","mythic_processor_alloy_f
 mythallo51.addEnergyPerTickInput(80000);
 mythallo51.addItemInput(<ore:ingotIron>*15);
 mythallo51.addItemInput(<ore:dustCarbonManganese>);
-mythallo51.addItemOutput(<ore:ingotHSLASteel>);
+mythallo51.addItemOutput(<nuclearcraft:alloy:15>*16);
 mythallo51.build();
 
 val mythallo52 = RecipeBuilder.newBuilder("mythallo52", "mythic_processor_alloy_furnace",1);
@@ -396,7 +397,7 @@ val mythallo53 = RecipeBuilder.newBuilder("mythallo53","mythic_processor_alloy_f
 mythallo53.addEnergyPerTickInput(80000);
 mythallo53.addItemInput(<ore:ingotAluminum>*7);
 mythallo53.addItemInput(<ore:ingotTitanium>*3);
-mythallo53.addItemOutput(<ore:ingotTitaniumAluminide>);
+mythallo53.addItemOutput(<ore:ingotTitaniumAluminide>*3);
 mythallo53.build();
 
 val mythallo54 = RecipeBuilder.newBuilder("mythallo54","mythic_processor_alloy_furnace",1);
@@ -444,7 +445,7 @@ mythallo59.build();
 val mythallo60 = RecipeBuilder.newBuilder("mythallo60","mythic_processor_alloy_furnace",1);
 mythallo60.addEnergyPerTickInput(80000);
 mythallo60.addItemInput(<contenttweaker:psimetal>);
-mythallo60.addItemInput(<ore:ingotIridium>);
+mythallo60.addItemInput(<ore:ingotShadowium>);
 mythallo60.addItemOutput(<contenttweaker:ebony_psimetal>*2);
 mythallo60.build();
 
@@ -452,7 +453,7 @@ val mythallo61 = RecipeBuilder.newBuilder("mythallo61","mythic_processor_alloy_f
 mythallo61.addEnergyPerTickInput(80000);
 mythallo61.addItemInput(<ore:ingotEndSteel>);
 mythallo61.addItemInput(<aoa3:energy_rune>);
-mythallo61.addItemOutput(<ore:ingotMelodicAlloy>*10);
+mythallo61.addItemOutput(<enderio:item_alloy_endergy_ingot:2>*10);
 mythallo61.build();
 
 val mythallo62 = RecipeBuilder.newBuilder("mythallo62","mythic_processor_alloy_furnace",1);
@@ -467,7 +468,7 @@ val mythallo63 = RecipeBuilder.newBuilder("mythallo63","mythic_processor_alloy_f
 mythallo63.addEnergyPerTickInput(80000);
 mythallo63.addItemInput(<contenttweaker:chaotic_propolis>*4);
 mythallo63.addItemInput(<extrabees:honey_comb:76>);
-mythallo63.addItemOutput(<contenttweaker:chaotic_comb>);
+mythallo63.addItemOutput(<contenttweaker:chaotic_comb>*4);
 mythallo63.build();
 
 val mythallo64 = RecipeBuilder.newBuilder("mythallo64","mythic_processor_alloy_furnace",1);
@@ -479,10 +480,10 @@ mythallo64.build();
 
 val mythallo65 = RecipeBuilder.newBuilder("mythallo65","mythic_processor_alloy_furnace",1);
 mythallo65.addEnergyPerTickInput(80000);
-mythallo65.addItemInput(<ore:emcDarkMatter>*4);
-mythallo65.addItemInput(<ore:emcRedMatter>*12);
+mythallo65.addItemInput(<ore:emcDarkMatter>*12);
+mythallo65.addItemInput(<ore:emcRedMatter>*4);
 mythallo65.addItemInput(<contenttweaker:calcite_gem>);
-mythallo65.addItemOutput(<ore:ingotModularium>);
+mythallo65.addItemOutput(<ore:ingotModularium>*8);
 mythallo65.build();
 
 val mythallo66 = RecipeBuilder.newBuilder("mythallo66","mythic_processor_alloy_furnace",1);
@@ -685,7 +686,7 @@ val mythallo94 = RecipeBuilder.newBuilder("mythallo94","mythic_processor_alloy_f
 mythallo94.addEnergyPerTickInput(80000);
 mythallo94.addItemInput(<contenttweaker:gravitite_clathrate>);
 mythallo94.addItemInput(<ore:gemAquamarine>);
-mythallo94.addItemOutput(<contenttweaker:gravitite_matrix>);
+mythallo94.addItemOutput(<contenttweaker:gravitite_matrix>*2);
 mythallo94.build();
 
 val mythallo95 = RecipeBuilder.newBuilder("mythallo95","mythic_processor_alloy_furnace",1);
@@ -799,3 +800,16 @@ mythallo108.addItemInput(<ore:ingotBrightsteel>);
 mythallo108.addItemOutput(<contenttweaker:ascended_draconic_alloy>*2);
 mythallo108.build();
 
+val mythallo110 = RecipeBuilder.newBuilder("mythallo110","mythic_processor_alloy_furnace",1);
+mythallo110.addEnergyPerTickInput(80000);
+mythallo110.addItemInput(<contenttweaker:megelium_capsule>);
+mythallo110.addItemInput(<nuclearcraft:depleted_fuel_ic2:1>*2);
+mythallo110.addItemOutput(<contenttweaker:primed_megelium_capsule>);
+mythallo110.build();
+
+val mythallo111 = RecipeBuilder.newBuilder("mythallo111","mythic_processor_alloy_furnace",1);
+mythallo111.addEnergyPerTickInput(80000);
+mythallo111.addItemInput(<contenttweaker:superconducting_sednanite>);
+mythallo111.addItemInput(<careerbees:ingredients:13>);
+mythallo111.addItemOutput(<contenttweaker:superconducting_sednanite>*2);
+mythallo111.build();

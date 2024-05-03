@@ -20,7 +20,7 @@ bot2.addEnergyPerTickInput(40000);
 bot2.addItemInput(<botania:thundersword>);
 bot2.addItemInput(<botania:manaresource:5>*12);
 bot2.addItemInput(<minecraft:nether_star>*4);
-bot2.addItemOutput(<botania:thundersword>.withTag({ench: [{lvl: 4 as short, id: 20 as short}, {lvl: 45 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 3 as short, id: 34 as short},{lvl: 6 as short, id: 22 as short}], RepairCost: 1, display: {Name: "Thunderfury, Blessed Blade of the Windseeker"}}));
+bot2.addItemOutput(<botania:thundersword>.withTag({ench: [{lvl: 4 as short, id: 20 as short}, {lvl: 45 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 3 as short, id: 34 as short},{lvl: 6 as short, id: 22 as short}], RepairCost: 1, display: {Name: "§6§oThunderfury, Blessed Blade of the Windseeker§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 bot2.build();
 
 val bot3 = RecipeBuilder.newBuilder("bot3","gaia_altar",400);

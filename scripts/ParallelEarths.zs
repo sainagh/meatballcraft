@@ -1,11 +1,19 @@
 #loader contenttweaker
 
-import mods.contenttweaker.Color;
 import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
-import mods.contenttweaker.Item;
-import mods.contenttweaker.BlockMaterial;
+import mods.contenttweaker.ItemFood;
+import mods.contenttweaker.IItemFoodEaten;
+import mods.contenttweaker.MutableItemStack;
+import mods.contenttweaker.Hand;
+import mods.contenttweaker.World;
+import mods.contenttweaker.IItemUpdate;
+import mods.contenttweaker.Player;
+import crafttweaker.player.IPlayer;
+import crafttweaker.block.IBlock;
+import crafttweaker.data.IData;
 
 
 var wormholecatalyst = VanillaFactory.createItem("wormhole_catalyst");
@@ -18,7 +26,8 @@ taerrapiattawarper.maxStackSize = 1;
 taerrapiattawarper.glowing = true;
 taerrapiattawarper.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("cofh tpx @p 180", player, world, true, true);
-	return "Pass";
+		Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+return "Pass";
 };
 taerrapiattawarper.register();
 
@@ -27,7 +36,8 @@ diamerismawarper.maxStackSize = 1;
 diamerismawarper.glowing = true;
 diamerismawarper.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("cofh tpx @p 181", player, world, true, true);
-	return "Pass";
+		Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+return "Pass";
 };
 diamerismawarper.register();
 
@@ -36,7 +46,8 @@ furattowarper.maxStackSize = 1;
 furattowarper.glowing = true;
 furattowarper.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("cofh tpx @p 182", player, world, true, true);
-	return "Pass";
+		Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+return "Pass";
 };
 furattowarper.register();
 
@@ -45,7 +56,8 @@ vibewarper.maxStackSize = 1;
 vibewarper.glowing = true;
 vibewarper.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("cofh tpx @p 183", player, world, true, true);
-	return "Pass";
+		Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+return "Pass";
 };
 vibewarper.register();
 
@@ -54,7 +66,8 @@ apichisiwarper.maxStackSize = 1;
 apichisiwarper.glowing = true;
 apichisiwarper.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("cofh tpx @p 184", player, world, true, true);
-	return "Pass";
+		Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+return "Pass";
 };
 apichisiwarper.register();
 
@@ -63,7 +76,8 @@ finemwarper.maxStackSize = 1;
 finemwarper.glowing = true;
 finemwarper.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("cofh tpx @p 185", player, world, true, true);
-	return "Pass";
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+return "Pass";
 };
 finemwarper.register();
 
@@ -156,12 +170,14 @@ if(player.getDimension() == 0) {
     }
 
 	Commands.call("cofh tpx @p 623", player, world, true, true);
-	return "Pass";
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+return "Pass";
 }
 
 if(player.getDimension() == 623) {
 	Commands.call("cofh tpx @p 0", player, world, true, true);
-	return "Pass";
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+return "Pass";
 }
 return "FAIL";
 
@@ -190,7 +206,475 @@ var lindenwyrmwarper = VanillaFactory.createItem("lyndenwyrm_warper");
 lindenwyrmwarper.maxStackSize = 1;
 lindenwyrmwarper.glowing = true;
 lindenwyrmwarper.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("cofh tpx @p 184", player, world, true, true);
-	return "Pass";
+	Commands.call("cofh tpx @p 162", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+return "Pass";
 };
 lindenwyrmwarper.register();
+
+var gallifreywarper = VanillaFactory.createItem("gallifrey_warper");
+gallifreywarper.maxStackSize = 1;
+gallifreywarper.glowing = true;
+gallifreywarper.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("cofh tpx @p 624", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+return "Pass";
+};
+gallifreywarper.register();
+
+
+var lunawarper = VanillaFactory.createItem("luna_warper");
+lunawarper.maxStackSize = 1;
+lunawarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	if(player.getDimension() == 1) {
+
+		Commands.call("cofh tpx @p 145", player, world, true, true);
+		Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+	return "Pass";
+	}
+	player.sendChat("You gotta be in the end");
+	return "FAIL";
+};
+lunawarper.register();
+
+
+
+var osiriswarper = VanillaFactory.createItem("osiris_warper");
+osiriswarper.maxStackSize = 1;
+osiriswarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 148", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+osiriswarper.register();
+
+
+var ptahwarper = VanillaFactory.createItem("ptah_warper");
+ptahwarper.maxStackSize = 1;
+ptahwarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 149", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+ptahwarper.register();
+
+
+var hatorwarper = VanillaFactory.createItem("hator_warper");
+hatorwarper.maxStackSize = 1;
+hatorwarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 150", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+hatorwarper.register();
+
+
+var europawarper = VanillaFactory.createItem("europa_warper");
+europawarper.maxStackSize = 1;
+europawarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 151", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+europawarper.register();
+
+var oiwarper = VanillaFactory.createItem("oi_warper");
+oiwarper.maxStackSize = 1;
+oiwarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 152", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+oiwarper.register();
+
+var falacerwarper = VanillaFactory.createItem("falacer_warper");
+falacerwarper.maxStackSize = 1;
+falacerwarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 160", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+falacerwarper.register();
+
+var orcuswarper = VanillaFactory.createItem("orcus_warper");
+orcuswarper.maxStackSize = 1;
+orcuswarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 161", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+orcuswarper.register();
+
+var haumeawarper = VanillaFactory.createItem("haumea_warper");
+haumeawarper.maxStackSize = 1;
+haumeawarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 146", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+haumeawarper.register();
+
+var sednawarper = VanillaFactory.createItem("sedna_warper");
+sednawarper.maxStackSize = 1;
+sednawarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 147", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+sednawarper.register();
+
+var rheniawarper = VanillaFactory.createItem("rhenia_warper");
+rheniawarper.maxStackSize = 1;
+rheniawarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 163", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+rheniawarper.register();
+
+var myrmexwarper = VanillaFactory.createItem("myrmex_warper");
+myrmexwarper.maxStackSize = 1;
+myrmexwarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 164", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+myrmexwarper.register();
+
+var pixoniawarper = VanillaFactory.createItem("pixonia_warper");
+pixoniawarper.maxStackSize = 1;
+pixoniawarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 165", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+pixoniawarper.register();
+
+var proximabeltwarper = VanillaFactory.createItem("proximabelt_warper");
+proximabeltwarper.maxStackSize = 1;
+proximabeltwarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 166", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+proximabeltwarper.register();
+
+var nerowarper = VanillaFactory.createItem("nero_warper");
+nerowarper.maxStackSize = 1;
+nerowarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 170", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+nerowarper.register();
+
+var zoiwarper = VanillaFactory.createItem("zoi_warper");
+zoiwarper.maxStackSize = 1;
+zoiwarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 171", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+zoiwarper.register();
+
+var akathartoswarper = VanillaFactory.createItem("akathartos_warper");
+akathartoswarper.maxStackSize = 1;
+akathartoswarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 172", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+akathartoswarper.register();
+
+var pauramwarper = VanillaFactory.createItem("pauram_warper");
+pauramwarper.maxStackSize = 1;
+pauramwarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 173", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+pauramwarper.register();
+
+var alkemiawarper = VanillaFactory.createItem("alkemia_warper");
+alkemiawarper.maxStackSize = 1;
+alkemiawarper.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "Space") {
+		player.sendChat("You have to be in a space station");
+		return "FAIL";
+	}   
+    Commands.call("cofh tpx @p 174", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "PASS";
+};
+alkemiawarper.register();
+
+

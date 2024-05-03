@@ -533,7 +533,7 @@ mythpulv88.build();
 
 val mythpulv89 = RecipeBuilder.newBuilder("mythpulv89","mythic_processor_pulverizer",2);
 mythpulv89.addEnergyPerTickInput(60000);
-mythpulv89.addItemInput(<railcraft:fuel_coke>*16);
+mythpulv89.addItemInput(<ore:fuelCoke>*16);
 mythpulv89.addItemOutput(<immersiveengineering:material:17>*16);
 mythpulv89.build();
 
@@ -969,6 +969,7 @@ val mythpulv157 = RecipeBuilder.newBuilder("mythpulv157","mythic_processor_pulve
 mythpulv157.addEnergyPerTickInput(60000);
 mythpulv157.addItemInput(<ore:oreUranium> * 16);
 mythpulv157.addItemOutput(<immersiveengineering:metal:14>*64);
+mythpulv157.addItemOutput(<techreborn:dust:67>*32);
 mythpulv157.build();
 
 val mythpulv158 = RecipeBuilder.newBuilder("mythpulv158","mythic_processor_pulverizer",2);
@@ -1171,7 +1172,7 @@ mythpulv188.addItemInput(<bloodmagic:item_demon_crystal:0> * 16);
 mythpulv188.addItemOutput(<contenttweaker:demon_will_powder>*16);
 mythpulv188.build();
 
-val mythpulv189 = RecipeBuilder.newBuilder("mythpulv188","mythic_processor_pulverizer",2);
+val mythpulv189 = RecipeBuilder.newBuilder("mythpulv189","mythic_processor_pulverizer",2);
 mythpulv189.addEnergyPerTickInput(60000);
 mythpulv189.addItemInput(<bloodmagic:item_demon_crystal:1> * 16);
 mythpulv189.addItemOutput(<contenttweaker:corrosive_will_powder>*16);
@@ -1236,3 +1237,23 @@ mythpulv199.addEnergyPerTickInput(60000);
 mythpulv199.addItemInput(<aoa3:void_scales> * 16);
 mythpulv199.addItemOutput(<contenttweaker:void_dust>*16);
 mythpulv199.build();
+
+val mythpulv200 = RecipeBuilder.newBuilder("mythpulv200","mythic_processor_pulverizer",2);
+mythpulv200.addEnergyPerTickInput(60000);
+mythpulv200.addItemInput(<divinerpg:crab_claw> * 16);
+mythpulv200.addItemOutput(<contenttweaker:shell_dust>*16);
+mythpulv200.addItemOutput(<aoa3:chitin>*16);
+mythpulv200.build();
+
+val mythpulv201 = RecipeBuilder.newBuilder("mythpulv201","mythic_processor_pulverizer",2);
+mythpulv201.addEnergyPerTickInput(60000);
+mythpulv201.addItemInput(<ore:oreDimensionalShard> * 16);
+mythpulv201.addItemOutput(<rftools:dimensional_shard>*256);
+mythpulv201.build();
+
+val mythpulv202 = RecipeBuilder.newBuilder("mythpulv202","mythic_processor_pulverizer",2);
+mythpulv202.addEnergyPerTickInput(60000);
+mythpulv202.addItemInput(<ore:oreChargedCertusQuartz> * 16);
+mythpulv202.addItemOutput(<appliedenergistics2:material:1>*64);
+mythpulv202.addItemOutput(<appliedenergistics2:material:2>*32);
+mythpulv202.build();

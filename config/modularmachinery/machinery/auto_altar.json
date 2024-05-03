@@ -8,12 +8,25 @@
             "x": 0,
             "y": 0,
             "z": 3,
-            "description": "Replace the alchemical crystal for faster recipes and energy cost, 20X!",
+            "description": "20X Speed",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.05
+            }
+        },
+        {
+            "elements": "contenttweaker:darkstar_collector",
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "description": "100X Speed",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.01
             }
         }
     ],

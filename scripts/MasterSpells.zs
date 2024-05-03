@@ -31,7 +31,12 @@ var masterspellgelu = VanillaFactory.createItem("master_spell_gelu");
 masterspellgelu.maxStackSize = 1;
 masterspellgelu.glowing = true;
 masterspellgelu.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("summon area_effect_cloud ~ ~1 ~ {Particle:snowballpoof,Radius:10f,Duration:1000,Effects:[{Id:2,Amplifier:10,Duration:2000}],Potion:\"minecraft:slowness\"}", player, world, true, true);
+	Commands.call("fill ~-5 ~-5 ~-5 ~5 ~5 ~5 bewitchment:perpetual_ice 0 replace minecraft:ice", player, world, true, true);
+	Commands.call("fill ~-5 ~-5 ~-5 ~5 ~5 ~5 divinerpg:frozen_grass 0 replace minecraft:grass", player, world, true, true);
+	Commands.call("fill ~-5 ~-5 ~-5 ~5 ~5 ~5 divinerpg:frozen_dirt 0 replace minecraft:dirt", player, world, true, true);
+	Commands.call("fill ~-5 ~-5 ~-5 ~5 ~5 ~5 divinerpg:frozen_log 0 replace minecraft:log", player, world, true, true);
+	Commands.call("fill ~-5 ~-5 ~-5 ~5 ~5 ~5 minecraft:ice 0 replace minecraft:leaves", player, world, true, true);
+	Commands.call("fill ~-5 ~-5 ~-5 ~5 ~5 ~5 minecraft:packed_ice 0 replace minecraft:obsidian", player, world, true, true);
 	return "Pass";
 };
 masterspellgelu.register();
@@ -63,6 +68,8 @@ masterspellperditio.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ bewitchment:blessed_stone 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
 	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ contenttweaker:scale_of_the_ancient_heart 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
 	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ contenttweaker:asgard_furnace_brick 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
+	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ contenttweaker:recursive_stone 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
+	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ aoa3:rune_shrine 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
 	return "Pass";
 };
 masterspellperditio.register();
@@ -94,19 +101,7 @@ var masterspellterra = VanillaFactory.createItem("master_spell_terra");
 masterspellterra.maxStackSize = 1;
 masterspellterra.glowing = true;
 masterspellterra.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("give @p minecraft:stone 64", player, world, true, true);
-	Commands.call("give @p minecraft:stone 64", player, world, true, true);
-	Commands.call("give @p minecraft:stone 64", player, world, true, true);
-	Commands.call("give @p minecraft:stone 64", player, world, true, true);
-	Commands.call("give @p minecraft:stone 64", player, world, true, true);
-	Commands.call("give @p minecraft:stone 64", player, world, true, true);
-	Commands.call("give @p minecraft:stone 64", player, world, true, true);
-	Commands.call("give @p minecraft:dirt 64", player, world, true, true);
-	Commands.call("give @p minecraft:dirt 64", player, world, true, true);
-	Commands.call("give @p minecraft:dirt 64", player, world, true, true);
-	Commands.call("give @p minecraft:dirt 64", player, world, true, true);
-	Commands.call("give @p minecraft:dirt 64", player, world, true, true);
-	Commands.call("give @p minecraft:dirt 64", player, world, true, true);
+	Commands.call("pillar-spawn master_spell_structure_terra", player, world, true, true);
 	return "Pass";
 };
 masterspellterra.register();
@@ -115,7 +110,7 @@ var masterspellauram = VanillaFactory.createItem("master_spell_auram");
 masterspellauram.maxStackSize = 1;
 masterspellauram.glowing = true;
 masterspellauram.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("give @p thaumadditions:puriflower", player, world, true, true);
+	Commands.call("summon Item ~ ~100 ~ {Item:{id:\"thaumadditions:puriflower\",Count:1b}}", player, world, true, true);
 	return "Pass";
 };
 masterspellauram.register();
@@ -124,7 +119,7 @@ var masterspelllux = VanillaFactory.createItem("master_spell_lux");
 masterspelllux.maxStackSize = 1;
 masterspelllux.glowing = true;
 masterspelllux.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("give @p contenttweaker:ineffable_light", player, world, true, true);
+	Commands.call("summon Item ~ ~100 ~ {Item:{id:\"contenttweaker:ineffable_light\",Count:1b}}", player, world, true, true);
 	return "Pass";
 };
 masterspelllux.register();
@@ -173,7 +168,7 @@ masterspelldreadia.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:bloodmaster_metal_chest\",Count:1b}}", player, world, true, true);
 	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:bloodmaster_metal_feet\",Count:1b}}", player, world, true, true);
 	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:bloodmaster_metal_legs\",Count:1b}}", player, world, true, true);
-	Commands.call("summon abyssalcraft:dreaded_abyssalnite_golem ~ ~10 ~ {ActiveEffects:[{Id:10,Amplifier:10,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}", player, world, true, true);
+	Commands.call("summon abyssalcraft:dreaded_abyssalnite_golem ~ ~3 ~ {Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:300.0}],Health:10000f}", player, world, true, true);
 	return "Pass";
 };
 masterspelldreadia.register();
@@ -202,8 +197,63 @@ var masterspellmetallum = VanillaFactory.createItem("master_spell_metallum");
 masterspellmetallum.maxStackSize = 1;
 masterspellmetallum.glowing = true;
 masterspellmetallum.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("fill ~-1 ~10 ~-1 ~1 ~10 ~1 minecraft:anvil", player, world, true, true);
+	Commands.call("fill ~-3 ~10 ~-3 ~3 ~10 ~3 minecraft:anvil 0 replace air", player, world, true, true);
 	player.sendChat("You've been Etho'd");
 	return "Pass";
 };
 masterspellmetallum.register();
+
+var masterspellstellae = VanillaFactory.createItem("master_spell_stellae");
+masterspellstellae.maxStackSize = 1;
+masterspellstellae.glowing = true;
+masterspellstellae.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("summon astralsorcery:entityflare ~ ~1 ~-3", player, world, true, true);
+	Commands.call("summon astralsorcery:entityflare ~ ~1 ~3", player, world, true, true);
+	Commands.call("summon astralsorcery:entityflare ~-3 ~1 ~", player, world, true, true);
+	Commands.call("summon astralsorcery:entityflare ~3 ~1 ~", player, world, true, true);
+	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:starlight_sphere\",Count:1b}}", player, world, true, true);
+	return "Pass";
+};
+masterspellstellae.register();
+
+var masterspellpotentia = VanillaFactory.createItem("master_spell_potentia");
+masterspellpotentia.maxStackSize = 1;
+masterspellpotentia.glowing = true;
+masterspellpotentia.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("summon bloodmagic:corrupted_chicken", player, world, true, true);
+	Commands.call("summon bloodmagic:corrupted_sheep", player, world, true, true);
+	Commands.call("summon bloodmagic:corrupted_spider", player, world, true, true);
+	Commands.call("summon bloodmagic:corrupted_zombie", player, world, true, true);
+	return "Pass";
+};
+masterspellpotentia.register();
+
+var masterspellalienis = VanillaFactory.createItem("master_spell_alienis");
+masterspellalienis.maxStackSize = 1;
+masterspellalienis.glowing = true;
+masterspellalienis.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("pillar-spawn master_spell_structure_alienis", player, world, true, true);
+	return "Pass";
+};
+masterspellalienis.register();
+
+
+var warrenblindfold = VanillaFactory.createItem("warren_blindfold");
+warrenblindfold.maxStackSize = 64;
+warrenblindfold.beaconPayment = false;
+warrenblindfold.itemRightClick = function(stack, world, player, hand) {
+
+	if(player.getDimension() != 684) {
+        player.sendChat("You gotta be in the Limbo");
+        return "FAIL";
+    }
+	Commands.call("particle totem ~ ~ ~ 2 30 2 1 2000 20", player, world, true, true);
+	Commands.call("particle magicCrit ~ ~ ~ 2 30 2 1 2000 20", player, world, true, true);
+	Commands.call("particle hugeexplosion ~ ~ ~ 1 1 1 1 100 20", player, world, true, true);
+	Commands.call("cofh killall monolith", player, world, true, true);
+	Commands.call("summon Item ~ ~5 ~ {Item:{id:\"contenttweaker:eye_of_limbo\",Count:1b}}", player, world, true, true);
+	stack.shrink(1);
+	return "Pass";
+};
+
+warrenblindfold.register();

@@ -92,6 +92,11 @@ dimdoorseventroll.addItemEntry(<contenttweaker:call_of_the_death_games>, 3);
 dimdoorseventroll.addItemEntry(<contenttweaker:creepy_explosive>, 3);
 dimdoorseventroll.addItemEntry(<contenttweaker:embiggener>, 3);
 dimdoorseventroll.addItemEntry(<contenttweaker:call_of_enigma>, 3);
+val dimdoorbeecombpool = dimdoordungeon.addPool("dimdoorbeecombpool", 2, 2, 0, 0);
+dimdoorbeecombpool.addItemEntry(<extrabees:honey_comb:30>, 15);
+dimdoorbeecombpool.addItemEntry(<extrabees:honey_comb:40>, 15);
+dimdoorbeecombpool.addItemEntry(<extrabees:honey_comb:41>, 15);
+dimdoorbeecombpool.addItemEntry(<extrabees:honey_comb:71>, 15);
 
 
 val mothervoidwalker = LootTweaker.getTable("aoa3:entities/mobs/overworld/mother_void_walker");
@@ -155,6 +160,7 @@ val vamacheron = LootTweaker.getTable("divinerpg:entities/boss/vamacheron");
 val vamacheronfur = vamacheron.addPool("vamacheronfur", 1, 1, 0, 0);
 vamacheronfur.addItemEntry(<contenttweaker:vamacheron_fur>, 5);
 vamacheronfur.addItemEntry(<aether_legacy:invisibility_cape>, 5);
+vamacheronfur.addItemEntry(<xreliquary:twilight_cloak>, 5);
 
 val termasect = LootTweaker.getTable("divinerpg:entities/boss/termasect");
 val termasectbark = termasect.addPool("termasectbark", 1, 1, 0, 0);
@@ -537,3 +543,5 @@ mazestonerarebreaker.addItemEntry(<twilightforest:mazebreaker_pickaxe>, 15);
 val chargedcreeper = LootTweaker.getTable("xreliquary:inject/entities/creeper");
 val chargedcreeperextra = chargedcreeper.getPool("powered_creeper");
 chargedcreeperextra.addItemEntry(<contenttweaker:charged_gemstone>, 15);
+chargedcreeperextra.addItemEntry(<xreliquary:mob_ingredient:8>, 15);
+

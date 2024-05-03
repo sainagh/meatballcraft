@@ -24,6 +24,22 @@ mapBlood += enclistBlood[6].makeEnchantment(4).makeTag();
 mapBlood += enclistBlood[7].makeEnchantment(100).makeTag();
 mapBlood += enclistBlood[8].makeEnchantment(2).makeTag();
 mapBlood += enclistBlood[9].makeEnchantment(1).makeTag();
+var mapBloodmasterHelm as IData = {
+	RepairCost: 1,
+	display: {Name: "§6§oBloodmaster Metal Helmet§r",Lore:["§d§oSuper-Enchanted§r"]}
+};
+var mapBloodmasterChest as IData = {
+	RepairCost: 1,
+	display: {Name: "§6§oBloodmaster Metal Chestplate§r",Lore:["§d§oSuper-Enchanted§r"]}
+};
+var mapBloodmasterLegs as IData = {
+	RepairCost: 1,
+	display: {Name: "§6§oBloodmaster Metal Leggings§r",Lore:["§d§oSuper-Enchanted§r"]}
+};
+var mapBloodmasterBoots as IData = {
+	RepairCost: 1,
+	display: {Name: "§6§oBloodmaster Metal Boots§r",Lore:["§d§oSuper-Enchanted§r"]}
+};
 
 val enclistSacrifice as IEnchantmentDefinition[] = [
     <enchantment:ebwizardry:shock_protection>, 
@@ -54,6 +70,10 @@ mapScrificialHelm += enclistSacrifice[8].makeEnchantment(10).makeTag();
 mapScrificialHelm += enclistSacrifice[9].makeEnchantment(1).makeTag();
 mapScrificialHelm += enclistSacrifice[10].makeEnchantment(200).makeTag();
 mapScrificialHelm += enclistSacrifice[11].makeEnchantment(1).makeTag();
+var mapScrificialHelmOther as IData = {
+	RepairCost: 1,
+	display: {Name: "§6§oSacrifice Metal Helmet§r",Lore:["§d§oSuper-Enchanted§r"]}
+};
 
 var mapScrificialChest as IData = {};
 mapScrificialChest += enclistSacrifice[0].makeEnchantment(10).makeTag();
@@ -68,6 +88,10 @@ mapScrificialChest += enclistSacrifice[8].makeEnchantment(10).makeTag();
 mapScrificialChest += enclistSacrifice[9].makeEnchantment(1).makeTag();
 mapScrificialChest += enclistSacrifice[10].makeEnchantment(200).makeTag();
 mapScrificialChest += enclistSacrifice[13].makeEnchantment(1).makeTag();
+var mapScrificialChestOther as IData = {
+	RepairCost: 1,
+	display: {Name: "§6§oSacrifice Metal Chestplate§r",Lore:["§d§oSuper-Enchanted§r"]}
+};
 
 var mapScrificialLegs as IData = {};
 mapScrificialLegs += enclistSacrifice[0].makeEnchantment(10).makeTag();
@@ -81,6 +105,10 @@ mapScrificialLegs += enclistSacrifice[7].makeEnchantment(200).makeTag();
 mapScrificialLegs += enclistSacrifice[8].makeEnchantment(10).makeTag();
 mapScrificialLegs += enclistSacrifice[9].makeEnchantment(1).makeTag();
 mapScrificialLegs += enclistSacrifice[10].makeEnchantment(200).makeTag();
+var mapScrificialLegsOther as IData = {
+	RepairCost: 1,
+	display: {Name: "§6§oSacrifice Metal Leggings§r",Lore:["§d§oSuper-Enchanted§r"]}
+};
 
 var mapScrificialBoots as IData = {};
 mapScrificialBoots += enclistSacrifice[0].makeEnchantment(10).makeTag();
@@ -95,30 +123,34 @@ mapScrificialBoots += enclistSacrifice[8].makeEnchantment(10).makeTag();
 mapScrificialBoots += enclistSacrifice[9].makeEnchantment(1).makeTag();
 mapScrificialBoots += enclistSacrifice[10].makeEnchantment(200).makeTag();
 mapScrificialBoots += enclistSacrifice[12].makeEnchantment(500).makeTag();
+var mapScrificialBootsOther as IData = {
+	RepairCost: 1,
+	display: {Name: "§6§oSacrifice Metal Boots§r",Lore:["§d§oSuper-Enchanted§r"]}
+};
 
-mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:sentient_sword>.withTag({ench: [{lvl: 50 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short}, {lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Soul Eater"}}), 
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:sentient_sword>.withTag({ench: [{lvl: 50 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short}, {lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oSoul Eater§r",Lore:["§d§oSuper-Enchanted§r"]}}), 
 <bloodarsenal:stasis_sword>, 
 4, 
 1000000, 
 300, 
 300);
 
-mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:bloodmaster_metal_head>.withTag(mapBlood), 
+mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:bloodmaster_metal_head>.withTag(mapBloodmasterHelm += mapBlood), 
 [<contenttweaker:bloodmaster_metal_head>,<bloodmagic:blood_shard:1>,<bloodmagic:slate:4>,<bloodmagic:decorative_brick:2>], 
 10000.00, 
 3000.00);
 
-mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:bloodmaster_metal_chest>.withTag(mapBlood), 
+mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:bloodmaster_metal_chest>.withTag(mapBloodmasterChest += mapBlood), 
 [<contenttweaker:bloodmaster_metal_chest>,<bloodmagic:blood_shard:1>,<bloodmagic:slate:4>,<bloodmagic:decorative_brick:2>], 
 10000.00, 
 3000.00);
 
-mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:bloodmaster_metal_feet>.withTag(mapBlood), 
+mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:bloodmaster_metal_feet>.withTag(mapBloodmasterLegs += mapBlood), 
 [<contenttweaker:bloodmaster_metal_feet>,<bloodmagic:blood_shard:1>,<bloodmagic:slate:4>,<bloodmagic:decorative_brick:2>], 
 10000.00, 
 3000.00);
 
-mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:bloodmaster_metal_legs>.withTag(mapBlood), 
+mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:bloodmaster_metal_legs>.withTag(mapBloodmasterBoots += mapBlood), 
 [<contenttweaker:bloodmaster_metal_legs>,<bloodmagic:blood_shard:1>,<bloodmagic:slate:4>,<bloodmagic:decorative_brick:2>], 
 10000.00, 
 3000.00);
@@ -157,7 +189,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<tconstruct:knife_blade>.wit
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacrifice_metal_head>.withTag(mapScrificialHelm), 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacrifice_metal_head>.withTag(mapScrificialHelm += mapScrificialHelmOther), 
 [[null, null, <extrabotany:material:1>, 
 <extrabotany:material:1>, <extrabotany:material:1>, <extrabotany:material:1>, 
 <extrabotany:material:1>, null, null], 
@@ -194,7 +226,7 @@ null, <bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "fierymetal", Amoun
 null, null, null, 
 null, null, null]]);  
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacrifice_metal_chest>.withTag(mapScrificialChest), 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacrifice_metal_chest>.withTag(mapScrificialChest += mapScrificialChestOther), 
 [[<bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "platinum", Amount: 65336000}}), <extrabotany:material:1>, <extrabotany:material:1>, 
 null, null, null, 
 <extrabotany:material:1>, <extrabotany:material:1>, <bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "lumium", Amount: 65336000}})], 
@@ -231,7 +263,7 @@ null, null, null,
 <extrabotany:material:1>, <extrabotany:material:1>, <extrabotany:material:1>, 
 <extrabotany:material:1>, null, null]]);  
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacrifice_metal_legs>.withTag(mapScrificialLegs), 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacrifice_metal_legs>.withTag(mapScrificialLegs += mapScrificialLegsOther), 
 [[<extrabotany:material:1>, <extrabotany:material:1>, <extrabotany:material:1>, 
 <extrabotany:material:1>, <extrabotany:material:1>, <extrabotany:material:1>, 
 <extrabotany:material:1>, <extrabotany:material:1>, <extrabotany:material:1>], 
@@ -268,7 +300,7 @@ null, <bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "chrome", Amount: 6
 null, null, null, 
 <extrabotany:material:1>, <ore:ingotUltimate>, <extrabotany:material:1>]]);  
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacrifice_metal_feet>.withTag(mapScrificialBoots), 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacrifice_metal_feet>.withTag(mapScrificialBoots += mapScrificialBootsOther), 
 [[null, <extrabotany:material:1>, <materialpart:sacrifice_metal:ingot>, 
 <extrabotany:material:1>, <contenttweaker:weight_of_the_heart>, <extrabotany:material:1>, 
 <materialpart:sacrifice_metal:ingot>, <extrabotany:material:1>, null], 

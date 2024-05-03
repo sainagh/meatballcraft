@@ -511,6 +511,8 @@ recipes.addShaped(<aoa3:bone_horn>,
 [<aoa3:ivory>, <aoa3:legbone_fragment>, <aoa3:legbone_fragment>]]);
 
 mods.forestry.Squeezer.addRecipe(<fluid:dragons_blood_plastic>*50, [<contenttweaker:dragons_blood_plastic>], 120);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:dragons_blood_plastic>, <fluid:dragons_blood_plastic>*50]);
+mods.thermalexpansion.Crucible.addRecipe(<fluid:dragons_blood_plastic>*50, <contenttweaker:dragons_blood_plastic>, 999);
 
 val mith7 = RecipeBuilder.newBuilder("mythicaltier7","mythical_resource_miner_tier7",800);
 mith7.addEnergyPerTickInput(85000);
@@ -569,6 +571,8 @@ mith8.addItemOutput(<aoa3:zhinx_dust>*30);
 mith8.setChance(0.13);
 mith8.addItemOutput(<aoa3:yellow_spores>*30);
 mith8.setChance(0.15);
+mith8.addItemOutput(<contenttweaker:better_goo_ball>*30);
+mith8.setChance(0.1);
 mith8.addItemOutput(<aoa3:lelyetia_tokens>*10);
 mith8.setChance(0.1);
 mith8.addItemOutput(<aoa3:life_rune>*10);
@@ -726,6 +730,8 @@ mith11.addItemOutput(<materialpart:dreaded_steel:ingot>*2);
 mith11.setChance(0.1);
 mith11.addItemOutput(<projectex:matter:6>);
 mith11.setChance(0.1);
+mith11.addItemOutput(<aoa3:chitin>*50);
+mith11.setChance(0.5);
 mith11.addItemOutput(<astralsorcery:blockworldilluminator>);
 mith11.setChance(0.1);
 mith11.addItemOutput(<contenttweaker:tier11_token>);
@@ -771,6 +777,8 @@ mith12.addItemOutput(<projectex:matter:6>);
 mith12.setChance(0.1);
 mith12.addItemOutput(<bloodarsenal:base_item:4>*100);
 mith12.setChance(0.01);
+mith12.addItemOutput(<minecraft:rotten_flesh>*64);
+mith12.setChance(0.9);
 mith12.addItemOutput(<contenttweaker:tier12_token>);
 mith12.build();
 
@@ -1243,8 +1251,8 @@ mith19.addItemOutput(<aoa3:green_shroom>*30);
 mith19.setChance(0.05);
 mith19.addItemOutput(<aoa3:mushroom_spores>*30);
 mith19.setChance(0.15);
-mith19.addItemOutput(<aoa3:chakram>*30);
-mith19.setChance(0.05);
+// mith19.addItemOutput(<aoa3:chakram>*30);
+// mith19.setChance(0.05);
 mith19.addItemOutput(<aoa3:distortion_rune>*10);
 mith19.setChance(0.08);
 mith19.addItemOutput(<aoa3:life_rune>*10);
@@ -1276,8 +1284,8 @@ mith20.addItemOutput(<aoa3:vox_ponds_tokens>*10);
 mith20.setChance(0.1);
 mith20.addItemOutput(<aoa3:toxic_lump>*30);
 mith20.setChance(0.15);
-mith20.addItemOutput(<aoa3:chakram>*30);
-mith20.setChance(0.05);
+// mith20.addItemOutput(<aoa3:chakram>*30);
+// mith20.setChance(0.05);
 mith20.addItemOutput(<aoa3:vox_shroom>*30);
 mith20.setChance(0.05);
 mith20.addItemOutput(<aoa3:degraded_steel>*30);
@@ -1608,6 +1616,8 @@ mith21.addItemOutput(<aoa3:white_coral>*30);
 mith21.setChance(0.15);
 mith21.addItemOutput(<aoa3:yellow_coral>*30);
 mith21.setChance(0.15);
+mith21.addItemOutput(<aoa3:hydro_stone>*50);
+mith21.setChance(0.15);
 mith21.addItemOutput(<contenttweaker:borean_garnet>);
 mith21.setChance(0.5);
 mith21.addItemOutput(<contenttweaker:tier21_token>);
@@ -1702,12 +1712,14 @@ mith23.addItemOutput(<aoa3:gold_coin>*10);
 mith23.setChance(0.1);
 mith23.addItemOutput(<aoa3:magic_repair_dust>*10);
 mith23.setChance(0.1);
-mith23.addItemOutput(<aoa3:lunar_ingot>*10);
+mith23.addItemOutput(<aoa3:lunar_ingot>*20);
 mith23.setChance(0.15);
 mith23.addItemOutput(<aoa3:luntar>*20);
 mith23.setChance(0.05);
 mith23.addItemOutput(<aoa3:lunalip>*20);
 mith23.setChance(0.05);
+mith23.addItemOutput(<aoa3:luna_globe>*30);
+mith23.setChance(0.1);
 mith23.addItemOutput(<actuallyadditions:item_solidified_experience>*48);
 mith23.setChance(0.1);
 mith23.addItemOutput(<contenttweaker:lunalus_garnet>);
@@ -2598,17 +2610,17 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:gravity_inverter>,
 <botania:rune:14>, <contenttweaker:gravity_manipulator_device>, <botania:rune:14>, 
 <nuclearcraft:fusion_connector>, <extendedcrafting:ender_alternator>, <thaumcraft:causality_collapser>], 
 
-[<thaumcraft:causality_collapser>, <torcherino:blocktorcherino>, <contenttweaker:twilight_diamond>, 
+[<thaumcraft:causality_collapser>, <torcherino:torch_lvl1>, <contenttweaker:twilight_diamond>, 
 <botania:rune:13>, <contenttweaker:nightmare_gem>, <botania:rune:13>, 
-<contenttweaker:twilight_diamond>, <torcherino:blocktorcherino>, <thaumcraft:causality_collapser>], 
+<contenttweaker:twilight_diamond>, <torcherino:torch_lvl1>, <thaumcraft:causality_collapser>], 
 
-[<contenttweaker:universal_realgar>, <torcherino:blocktorcherino>, <careerbees:eternalframe>, 
+[<contenttweaker:universal_realgar>, <torcherino:torch_lvl1>, <careerbees:eternalframe>, 
 <botania:rune:12>, <contenttweaker:white_hole>, <botania:rune:12>, 
-<careerbees:eternalframe>, <torcherino:blocktorcherino>, <contenttweaker:universal_realgar>], 
+<careerbees:eternalframe>, <torcherino:torch_lvl1>, <contenttweaker:universal_realgar>], 
 
-[<thaumcraft:causality_collapser>, <torcherino:blocktorcherino>, <contenttweaker:twilight_diamond>, 
+[<thaumcraft:causality_collapser>, <torcherino:torch_lvl1>, <contenttweaker:twilight_diamond>, 
 <botania:rune:11>, <contenttweaker:nightmare_gem>, <botania:rune:11>, 
-<contenttweaker:twilight_diamond>, <torcherino:blocktorcherino>, <thaumcraft:causality_collapser>], 
+<contenttweaker:twilight_diamond>, <torcherino:torch_lvl1>, <thaumcraft:causality_collapser>], 
 
 [<thaumcraft:causality_collapser>, <extendedcrafting:ender_alternator>, <nuclearcraft:fusion_connector>, 
 <botania:rune:10>, <contenttweaker:gravity_manipulator_device>, <botania:rune:10>, 

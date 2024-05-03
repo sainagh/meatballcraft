@@ -21,7 +21,7 @@
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "minecraft:netherrack",
+	"filling": "minecraft:red_nether_brick",
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	

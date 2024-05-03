@@ -75,4 +75,13 @@ gendustry.bees.species.Helplessness=Helplessness
 gendustry.bees.species.Deeplearner=Deep Learner
 gendustry.bees.species.Salty=Salty
 gendustry.bees.species.Stormborn=Stormborn
+gendustry.bees.species.Pyromaniacal=Pyromaniacal
+gendustry.bees.species.Apothecary=Apothecary
+gendustry.honeycomb.apothecary.name=Apothecary Comb
+gendustry.honeycomb.isekai.name=Isekai Comb
+gendustry.honeycomb.twilightnether.name=Deep Twilight Comb
+gendustry.honeycomb.soulsucking.name=Soul-Sucking Comb
+gendustry.bees.species.Isekai=Isekai
+gendustry.bees.species.Soulsucking=Soul-Sucking
+gendustry.bees.species.Crepuscular=Crepuscular
 

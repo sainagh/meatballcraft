@@ -1,0 +1,38 @@
+{
+    "registryname": "dyson_discharger_t3",
+    "localizedname": "Dyson Discharger: 16X",
+	"color": "eb5ed5",
+    "parts": [
+        {
+            "x": 0,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyoutputhatch@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:hypercapacitor_discharger_x16"
+            ]
+        }
+    ]}

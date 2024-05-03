@@ -6486,7 +6486,7 @@
     },
     {
       "item": "thermaldynamics:servo|0",
-      "emc": 500
+      "emc": 250
     },
     {
       "item": "thermaldynamics:servo|1",
@@ -6506,7 +6506,7 @@
     },
     {
       "item": "thermaldynamics:filter|0",
-      "emc": 500
+      "emc": 250
     },
     {
       "item": "thermaldynamics:filter|1",
@@ -6526,7 +6526,7 @@
     },
     {
       "item": "thermaldynamics:retriever|0",
-      "emc": 500
+      "emc": 250
     },
     {
       "item": "thermaldynamics:retriever|1",
@@ -15591,6 +15591,6358 @@
     {
       "item": "enderio:item_material|33",
       "emc": 0
+    },
+    {
+      "item": "bloodmagic:alchemy_table|0",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:armor.helmet_lead|0",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:armor.plate_lead|0",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:armor.legs_lead|0",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:armor.boots_lead|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:starlight_sphere|0",
+      "emc": 8192
+    },
+    {
+      "item": "minecraft:melon_block|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:pumpkin|0",
+      "emc": 0
+    },
+    {
+      "item": "omniwand:wand|0",
+      "emc": 0
+    },
+    {
+      "item": "appliedenergistics2:material|4",
+      "emc": 24
+    },
+    {
+      "item": "railcraft:brick_abyssal|1",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:reinforced_concrete|8",
+      "emc": 2576
+    },
+    {
+      "item": "minecraft:sea_lantern|0",
+      "emc": 7776
+    },
+    {
+      "item": "railcraft:brick_pearlized|2",
+      "emc": 1032
+    },
+    {
+      "item": "railcraft:generic|8",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:brick_bleachedbone|2",
+      "emc": 256
+    },
+    {
+      "item": "railcraft:brick_bleachedbone|5",
+      "emc": 256
+    },
+    {
+      "item": "divinerpg:workshop_carpet|0",
+      "emc": 320
+    },
+    {
+      "item": "railcraft:brick_pearlized|5",
+      "emc": 1032
+    },
+    {
+      "item": "railcraft:brick_abyssal|5",
+      "emc": 8
+    },
+    {
+      "item": "bnkrblks:megelium_block|0",
+      "emc": 0
+    },
+    {
+      "item": "bnkrblks:megelium_polished|0",
+      "emc": 0
+    },
+    {
+      "item": "bnkrblks:megelium_fence|0",
+      "emc": 0
+    },
+    {
+      "item": "bnkrblks:megelium_glass|0",
+      "emc": 0
+    },
+    {
+      "item": "bnkrblks:megelium_stone|0",
+      "emc": 0
+    },
+    {
+      "item": "bnkrblks:megelium_stairs|0",
+      "emc": 0
+    },
+    {
+      "item": "bnkrblks:megelium_glass_pane|0",
+      "emc": 0
+    },
+    {
+      "item": "bnkrblks:megelium_slab_half|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:tainted_sentient_meatball|0",
+      "emc": 1000000000000
+    },
+    {
+      "item": "astralsorcery:blockinfusedwood|0",
+      "emc": 32
+    },
+    {
+      "item": "astralsorcery:blockinfusedwood|1",
+      "emc": 8
+    },
+    {
+      "item": "astralsorcery:blockinfusedwood|2",
+      "emc": 8
+    },
+    {
+      "item": "astralsorcery:blockinfusedwood|3",
+      "emc": 8
+    },
+    {
+      "item": "astralsorcery:blockinfusedwood|4",
+      "emc": 8
+    },
+    {
+      "item": "astralsorcery:blockinfusedwood|5",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|0",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_dreadbrick_0|15",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|1",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|2",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|3",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|4",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|5",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|6",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|7",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|8",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|9",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|10",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|11",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|12",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|13",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|14",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_abyssal_0|15",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|0",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|1",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|2",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|3",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|4",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|5",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|6",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|7",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|8",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|9",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|10",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|11",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|12",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|13",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_aether_legacy_skyroot_plank_0|14",
+      "emc": 5
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|0",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|1",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|2",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|3",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|4",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|5",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|6",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|7",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|8",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|9",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|10",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|11",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|12",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|13",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|14",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_pearlized_0|15",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_pearlized_0|0",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_pearlized_0|1",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_pearlized_0|0",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_pearlized_0|9",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_pearlized_0|8",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_pearlized_0|7",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_pearlized_0|6",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_pearlized_0|5",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_pearlized_0|4",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_pearlized_0|3",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_pearlized_0|2",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_pearlized_0|1",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_pearlized_0|2",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_pearlized_0|3",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_pearlized_0|4",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_pearlized_0|5",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_pearlized_0|6",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_pearlized_0|7",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_pearlized_0|8",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_pearlized_0|9",
+      "emc": 1032
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|0",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|1",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|2",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|3",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|4",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|5",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|6",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|7",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|8",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|9",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|10",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|11",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|12",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|13",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0|14",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_abyssal_0|0",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_abyssal_0|0",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_abyssal_0|1",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_abyssal_0|2",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_abyssal_0|3",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_abyssal_0|4",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_abyssal_0|5",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_abyssal_0|6",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_abyssal_0|7",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_abyssal_0|8",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_abyssal_0|9",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_abyssal_0|0",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_abyssal_0|1",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_abyssal_0|2",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_abyssal_0|3",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_abyssal_0|4",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_abyssal_0|5",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_abyssal_0|6",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_abyssal_0|7",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_abyssal_0|8",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_abyssal_0|9",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_dreadbrick_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_dreadbrick_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_dreadbrick_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_dreadbrick_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_dreadbrick_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_dreadbrick_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_dreadbrick_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_dreadbrick_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_dreadbrick_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_dreadbrick_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_dreadbrick_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_dreadbrick_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_dreadbrick_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_dreadbrick_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_dreadbrick_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_dreadbrick_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_dreadbrick_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_dreadbrick_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_dreadbrick_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_dreadbrick_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2|15",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_2|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_2|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_2|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_2|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_2|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_2|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_2|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_2|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_2|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_2|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_2|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_2|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_2|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_2|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_2|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_2|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_2|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_2|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_2|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_2|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|0",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|1",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|2",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|3",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|4",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|5",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|6",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|7",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|8",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|9",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|10",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|11",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|12",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|13",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|14",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|15",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_aether_legacy_holystone_2|0",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_aether_legacy_holystone_2|1",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_aether_legacy_holystone_2|2",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_aether_legacy_holystone_2|3",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_aether_legacy_holystone_2|4",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_aether_legacy_holystone_2|5",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_aether_legacy_holystone_2|6",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_aether_legacy_holystone_2|7",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_aether_legacy_holystone_2|8",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_aether_legacy_holystone_2|9",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_aether_legacy_holystone_2|0",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_aether_legacy_holystone_2|1",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_aether_legacy_holystone_2|2",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_aether_legacy_holystone_2|3",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_aether_legacy_holystone_2|4",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_aether_legacy_holystone_2|5",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_aether_legacy_holystone_2|6",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_aether_legacy_holystone_2|7",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_aether_legacy_holystone_2|8",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_aether_legacy_holystone_2|9",
+      "emc": 16
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|0",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|1",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|2",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|3",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|4",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|5",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|6",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|7",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|8",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|9",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|10",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|11",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|12",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|13",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0|14",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|0",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|1",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|2",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|3",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|4",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|5",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|6",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|7",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|8",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|9",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|10",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|11",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|12",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|13",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0|14",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|0",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|1",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|2",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|3",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|4",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|5",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|6",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|7",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|8",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|9",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|10",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|11",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|12",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|13",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_bewitchment_dragons_blood_planks_0|14",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abybrick_0|15",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abybrick_0|15",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abybrick_0|15",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_1|15",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_1|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_1|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_1|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_1|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_1|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_1|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_1|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_1|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_1|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_1|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_1|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_1|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_1|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_1|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_1|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_1|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_1|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_1|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_1|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_1|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|0",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|1",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|2",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|3",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|4",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|5",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|6",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|7",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|8",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|9",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|10",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|11",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|12",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|13",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|14",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bleachedbone_0|15",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bleachedbone_0|0",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bleachedbone_0|1",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bleachedbone_0|2",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bleachedbone_0|3",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bleachedbone_0|4",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bleachedbone_0|5",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bleachedbone_0|6",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bleachedbone_0|7",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bleachedbone_0|8",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bleachedbone_0|9",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bleachedbone_0|0",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bleachedbone_0|1",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bleachedbone_0|2",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bleachedbone_0|3",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bleachedbone_0|4",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bleachedbone_0|5",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bleachedbone_0|6",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bleachedbone_0|7",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bleachedbone_0|8",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bleachedbone_0|9",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|0",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|1",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|2",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|3",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|4",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|5",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|6",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|7",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|8",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|9",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|10",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|11",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|12",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|13",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|14",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_scorned_bricks_0|15",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_scorned_bricks_0|0",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_scorned_bricks_0|1",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_scorned_bricks_0|2",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_scorned_bricks_0|3",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_scorned_bricks_0|4",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_scorned_bricks_0|5",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_scorned_bricks_0|6",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_scorned_bricks_0|7",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_scorned_bricks_0|8",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_scorned_bricks_0|9",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_scorned_bricks_0|0",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_scorned_bricks_0|1",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_scorned_bricks_0|2",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_scorned_bricks_0|3",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_scorned_bricks_0|4",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_scorned_bricks_0|5",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_scorned_bricks_0|6",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_scorned_bricks_0|7",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_scorned_bricks_0|8",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_scorned_bricks_0|9",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|0",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|1",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|2",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|3",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|4",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|5",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|6",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|7",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|8",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|9",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|10",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|11",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|12",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|13",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0|14",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_darkstone_brick_0|15",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_darkstone_brick_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_darkstone_brick_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_darkstone_brick_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_darkstone_brick_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_darkstone_brick_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_darkstone_brick_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_darkstone_brick_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_darkstone_brick_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_darkstone_brick_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_darkstone_brick_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_darkstone_brick_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_darkstone_brick_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_darkstone_brick_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_darkstone_brick_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_darkstone_brick_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_darkstone_brick_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_darkstone_brick_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_darkstone_brick_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_darkstone_brick_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_darkstone_brick_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_0|15",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|0",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|1",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|2",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|3",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|4",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|5",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|6",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|7",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|8",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|9",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|10",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|11",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|12",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|13",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|14",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_cstonebrick_0|15",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_cstonebrick_0|0",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_cstonebrick_0|1",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_cstonebrick_0|2",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_cstonebrick_0|3",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_cstonebrick_0|4",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_cstonebrick_0|5",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_cstonebrick_0|6",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_cstonebrick_0|7",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_cstonebrick_0|8",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_cstonebrick_0|9",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_cstonebrick_0|0",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_cstonebrick_0|1",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_cstonebrick_0|2",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_cstonebrick_0|3",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_cstonebrick_0|4",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_cstonebrick_0|5",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_cstonebrick_0|6",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_cstonebrick_0|7",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_cstonebrick_0|8",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_cstonebrick_0|9",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_4|15",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_4|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_4|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_4|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_4|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_4|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_4|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_4|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_4|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_4|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_4|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_4|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_4|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_4|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_4|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_4|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_4|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_4|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_4|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_4|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_4|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0|15",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abydreadbrick_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abydreadbrick_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abydreadbrick_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abydreadbrick_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abydreadbrick_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abydreadbrick_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abydreadbrick_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abydreadbrick_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abydreadbrick_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_abyssalcraft_abydreadbrick_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abydreadbrick_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abydreadbrick_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abydreadbrick_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abydreadbrick_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abydreadbrick_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abydreadbrick_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abydreadbrick_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abydreadbrick_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abydreadbrick_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_abyssalcraft_abydreadbrick_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3|15",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_3|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_3|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_3|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_3|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_3|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_3|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_3|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_3|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_3|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone1_abyssalcraft_cobblestone_3|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_3|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_3|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_3|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_3|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_3|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_3|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_3|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_3|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_3|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_cobblestone2_abyssalcraft_cobblestone_3|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|0",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|1",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|2",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|3",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|4",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|5",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|6",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|7",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|8",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|9",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|10",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|11",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|12",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|13",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_advancedrocketry_planks_0|14",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_13|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_15|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_14|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_12|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_11|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_10|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_9|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_8|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_7|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_6|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_5|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_4|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_3|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_2|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_1|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_biomesoplenty_planks_0_0|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|0",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|1",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|2",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|3",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|4",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|5",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|6",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|7",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|8",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|9",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|10",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|11",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|12",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|13",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|14",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|15",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|0",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|1",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|2",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|3",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|4",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|5",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|6",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|7",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|8",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|9",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|0",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|1",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|2",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|3",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|4",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|5",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|6",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|7",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|8",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|9",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|0",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|1",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|2",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|3",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|4",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|5",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|6",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|7",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|8",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|9",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|10",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|11",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|12",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|13",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|14",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_4|15",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_4|0",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_4|1",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_4|2",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_4|3",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_4|4",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_4|5",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_4|6",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_4|7",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_4|8",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_4|9",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_4|0",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_4|1",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_4|2",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_4|3",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_4|4",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|0",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|1",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|2",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|3",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|4",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|5",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|6",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|7",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|8",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|9",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|10",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|11",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|12",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|13",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|14",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_2|15",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_2|0",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_2|1",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_2|2",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_2|3",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_2|4",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_2|5",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_2|6",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_2|7",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_2|8",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_2|9",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_2|0",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_2|1",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_2|2",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_2|3",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_2|4",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|0",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|1",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|2",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|3",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|4",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|5",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|6",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|7",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|8",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|9",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|10",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|11",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|12",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|13",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|14",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur_aether_legacy_dungeon_block_0|15",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_0|0",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_0|1",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_0|2",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_0|3",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_0|4",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_0|5",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_0|6",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_0|7",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_0|8",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur1_aether_legacy_dungeon_block_0|9",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_0|0",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_0|1",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_0|2",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_0|3",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_purpur2_aether_legacy_dungeon_block_0|4",
+      "emc": 32
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|0",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|1",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|2",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|3",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|4",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|5",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|6",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|7",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|8",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|9",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|10",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|11",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|12",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|13",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|14",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_bloodstained_0|15",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bloodstained_0|0",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bloodstained_0|1",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bloodstained_0|2",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bloodstained_0|3",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bloodstained_0|4",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bloodstained_0|5",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bloodstained_0|6",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bloodstained_0|7",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bloodstained_0|8",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_bloodstained_0|9",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0|0",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0|1",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0|2",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0|3",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0|4",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0|5",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0|6",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0|7",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0|8",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0|9",
+      "emc": 68
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|0",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|1",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|2",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|3",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|4",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|5",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|6",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|7",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|8",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|9",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|10",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|11",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|12",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|13",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|14",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_frostbound_0|15",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_frostbound_0|0",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_frostbound_0|1",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_frostbound_0|2",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_frostbound_0|3",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_frostbound_0|4",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_frostbound_0|5",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_frostbound_0|6",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_frostbound_0|7",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_frostbound_0|8",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_frostbound_0|9",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_frostbound_0|0",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_frostbound_0|1",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_frostbound_0|2",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_frostbound_0|3",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_frostbound_0|4",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_frostbound_0|5",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_frostbound_0|6",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_frostbound_0|7",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_frostbound_0|8",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_frostbound_0|9",
+      "emc": 109
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|0",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|1",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|2",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|3",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|4",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|5",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|6",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|7",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|8",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|9",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|10",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|11",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|12",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|13",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|14",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks_forestry_ash_brick_0|15",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks1_forestry_ash_brick_0|0",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks1_forestry_ash_brick_0|1",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks1_forestry_ash_brick_0|2",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks1_forestry_ash_brick_0|3",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks1_forestry_ash_brick_0|4",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks1_forestry_ash_brick_0|5",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks1_forestry_ash_brick_0|6",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks1_forestry_ash_brick_0|7",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks1_forestry_ash_brick_0|8",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks1_forestry_ash_brick_0|9",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks2_forestry_ash_brick_0|0",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks2_forestry_ash_brick_0|1",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks2_forestry_ash_brick_0|2",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks2_forestry_ash_brick_0|3",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks2_forestry_ash_brick_0|4",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_bricks2_forestry_ash_brick_0|5",
+      "emc": 192
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|0",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|1",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|2",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|3",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|4",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|5",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|6",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|7",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|8",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|9",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|10",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|11",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|12",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|13",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|14",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow_biomesoplenty_white_sandstone_0|15",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow1_biomesoplenty_white_sandstone_0|0",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow1_biomesoplenty_white_sandstone_0|1",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow1_biomesoplenty_white_sandstone_0|2",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow1_biomesoplenty_white_sandstone_0|3",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow1_biomesoplenty_white_sandstone_0|4",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow1_biomesoplenty_white_sandstone_0|5",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow1_biomesoplenty_white_sandstone_0|6",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow1_biomesoplenty_white_sandstone_0|7",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow1_biomesoplenty_white_sandstone_0|8",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow1_biomesoplenty_white_sandstone_0|9",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow2_biomesoplenty_white_sandstone_0|0",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow2_biomesoplenty_white_sandstone_0|1",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow2_biomesoplenty_white_sandstone_0|2",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow2_biomesoplenty_white_sandstone_0|3",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow2_biomesoplenty_white_sandstone_0|4",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow2_biomesoplenty_white_sandstone_0|5",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow2_biomesoplenty_white_sandstone_0|6",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_sandstoneyellow2_biomesoplenty_white_sandstone_0|7",
+      "emc": 4
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|0",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|1",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|2",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|3",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|4",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|5",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|6",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|7",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|8",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|9",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|10",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|11",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|12",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|13",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_planks_oak_abyssalcraft_dltplank_0|14",
+      "emc": 8
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_2|15",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_1|15",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|0",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|1",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|2",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|3",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|4",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|5",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|6",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|7",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|8",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|9",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|10",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|11",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|12",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|13",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|14",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_dirt_biomesoplenty_dirt_0|15",
+      "emc": 1
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|0",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|1",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|2",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|3",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|4",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|5",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|6",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|7",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|8",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|9",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|10",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|11",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|12",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|13",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|14",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_infernal_0|15",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_infernal_0|0",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_infernal_0|1",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_infernal_0|2",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_infernal_0|3",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_infernal_0|4",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_infernal_0|5",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_infernal_0|6",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_infernal_0|7",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_infernal_0|8",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_infernal_0|9",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_infernal_0|0",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_infernal_0|1",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_infernal_0|2",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_infernal_0|3",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_infernal_0|4",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_infernal_0|5",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_infernal_0|6",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_infernal_0|7",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_infernal_0|8",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_infernal_0|9",
+      "emc": 50
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|0",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|1",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|2",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|3",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|4",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|5",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|6",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|7",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|8",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|9",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|10",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|11",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|12",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|13",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|14",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_red_sandy_0|15",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_red_sandy_0|0",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_red_sandy_0|1",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_red_sandy_0|2",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_red_sandy_0|3",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_red_sandy_0|4",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_red_sandy_0|5",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_red_sandy_0|6",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_red_sandy_0|7",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_red_sandy_0|8",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_red_sandy_0|9",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_red_sandy_0|0",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_red_sandy_0|1",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_red_sandy_0|2",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_red_sandy_0|3",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_red_sandy_0|4",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_red_sandy_0|5",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_red_sandy_0|6",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_red_sandy_0|7",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_red_sandy_0|8",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_red_sandy_0|9",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|0",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|1",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|2",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|3",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|4",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|5",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|6",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|7",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|8",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|9",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|10",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|11",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|12",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|13",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|14",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_railcraft_brick_sandy_0|15",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_sandy_0|0",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_sandy_0|1",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_sandy_0|2",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_sandy_0|3",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_sandy_0|4",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_sandy_0|5",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_sandy_0|6",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_sandy_0|7",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_sandy_0|8",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_railcraft_brick_sandy_0|9",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_sandy_0|0",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_sandy_0|1",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_sandy_0|2",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_sandy_0|3",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_sandy_0|4",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_sandy_0|5",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_sandy_0|6",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_sandy_0|7",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_sandy_0|8",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_sandy_0|9",
+      "emc": 34
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|0",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|1",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|2",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|3",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|4",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|5",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|6",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|7",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|8",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|9",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|10",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|11",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|12",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|13",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|14",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|15",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|0",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|1",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|2",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|3",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|4",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|5",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|6",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|7",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|8",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|9",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|10",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|11",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|12",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|13",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|14",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|15",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|0",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|1",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|2",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|3",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|4",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|5",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|6",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|7",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|8",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|9",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|10",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|11",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|12",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|13",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|14",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|15",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|0",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|1",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|2",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|3",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|4",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|5",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|6",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|7",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|8",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|9",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|10",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|11",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|12",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|13",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|14",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|15",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|0",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|1",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|2",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|3",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|4",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|5",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|6",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|7",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|8",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|9",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|10",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|11",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|12",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|13",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|14",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|15",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|0",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|1",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|2",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|3",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|4",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|5",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|6",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|7",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|8",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|9",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|10",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|11",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|12",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|13",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|14",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|15",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|0",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|1",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|2",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|3",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|4",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|5",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|6",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|7",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|8",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|9",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|10",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|11",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|12",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|13",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|14",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|15",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|0",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|1",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|2",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|3",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|4",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|5",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|6",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|7",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|8",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|9",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|10",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|11",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|12",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|13",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|14",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|15",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|0",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|1",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|2",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|3",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|4",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|5",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|6",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|7",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|8",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|9",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|10",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|11",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|12",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|13",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|14",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|15",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|0",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|1",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|2",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|3",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|4",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|5",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|6",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|7",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|8",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|9",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|10",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|11",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|12",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|13",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|14",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|15",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|0",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|1",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|2",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|3",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|4",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|5",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|6",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|7",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|8",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|9",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|10",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|11",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|12",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|13",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|14",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|15",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|0",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|1",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|2",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|3",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|4",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|5",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|6",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|7",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|8",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|9",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|10",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|11",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|12",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|13",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|14",
+      "emc": 256
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|15",
+      "emc": 256
+    },
+    {
+      "item": "contenttweaker:botanical_dream_stone|0",
+      "emc": 1000000
+    },
+    {
+      "item": "contenttweaker:botanical_nightmare_stone|0",
+      "emc": 1000000
+    },
+    {
+      "item": "thebetweenlands:fumigant|0",
+      "emc": 16384
+    },
+    {
+      "item": "divinerpg:arlemite_minibricks|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:bedrock_minibricks|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:netherite_minibricks|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:realmite_minibricks|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:bloodgem_minibricks|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:rupee_minibricks|0",
+      "emc": 1
     }
   ]
 }

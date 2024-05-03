@@ -5536,4 +5536,9 @@ heatexchangermath.maxStackSize = 64;
 heatexchangermath.beaconPayment = false;
 heatexchangermath.register();
 
+var stargatehieroglyphs = VanillaFactory.createItem("stargate_hieroglyphs");
+stargatehieroglyphs.maxStackSize = 64;
+stargatehieroglyphs.beaconPayment = false;
+stargatehieroglyphs.register();
+
 

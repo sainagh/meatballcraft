@@ -217,7 +217,6 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 	
-	// check if player is standing on tier 1 beacon
 	var posbeacon1 = player.position.asPosition3f();
     posbeacon1.y = pos.y - 1;
 	posbeacon1.x = pos.x - 2;
@@ -390,9 +389,170 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
         player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
         return "FAIL";
     }
+    var posair1 = player.position.asPosition3f();
+    posair1.y = pos.y - 1;
+	posair1.x = pos.x;
+	posair1.z = pos.z - 1;
+    var blockposair1 = posair1.asBlockPos();
+    var blockBelowair1 = world.getBlockState(blockposair1);
+    if(blockBelowair1 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair2 = player.position.asPosition3f();
+    posair2.y = pos.y - 1;
+	posair2.x = pos.x;
+	posair2.z = pos.z + 1;
+    var blockposair2 = posair2.asBlockPos();
+    var blockBelowair2 = world.getBlockState(blockposair2);
+    if(blockBelowair2 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair3 = player.position.asPosition3f();
+    posair3.y = pos.y - 1;
+	posair3.x = pos.x + 1;
+	posair3.z = pos.z;
+    var blockposair3 = posair3.asBlockPos();
+    var blockBelowair3 = world.getBlockState(blockposair3);
+    if(blockBelowair3 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair4 = player.position.asPosition3f();
+    posair4.y = pos.y - 1;
+	posair4.x = pos.x - 1;
+	posair4.z = pos.z;
+    var blockposair4 = posair4.asBlockPos();
+    var blockBelowair4 = world.getBlockState(blockposair4);
+    if(blockBelowair4 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair5 = player.position.asPosition3f();
+    posair5.y = pos.y - 1;
+	posair5.x = pos.x - 1;
+	posair5.z = pos.z - 1;
+    var blockposair5 = posair5.asBlockPos();
+    var blockBelowair5 = world.getBlockState(blockposair5);
+    if(blockBelowair5 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair6 = player.position.asPosition3f();
+    posair6.y = pos.y - 1;
+	posair6.x = pos.x + 1;
+	posair6.z = pos.z - 1;
+    var blockposair6 = posair6.asBlockPos();
+    var blockBelowair6 = world.getBlockState(blockposair6);
+    if(blockBelowair6 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair7 = player.position.asPosition3f();
+    posair7.y = pos.y - 1;
+	posair7.x = pos.x - 1;
+	posair7.z = pos.z + 1;
+    var blockposair7 = posair7.asBlockPos();
+    var blockBelowair7 = world.getBlockState(blockposair7);
+    if(blockBelowair7 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair8 = player.position.asPosition3f();
+    posair8.y = pos.y - 1;
+	posair8.x = pos.x + 1;
+	posair8.z = pos.z + 1;
+    var blockposair8 = posair8.asBlockPos();
+    var blockBelowair8 = world.getBlockState(blockposair8);
+    if(blockBelowair8 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair9 = player.position.asPosition3f();
+    posair9.y = pos.y - 2;
+	posair9.x = pos.x + 1;
+	posair9.z = pos.z + 1;
+    var blockposair9 = posair9.asBlockPos();
+    var blockBelowair9 = world.getBlockState(blockposair9);
+    if(blockBelowair9 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair10 = player.position.asPosition3f();
+    posair10.y = pos.y - 2;
+	posair10.x = pos.x + 1;
+	posair10.z = pos.z - 1;
+    var blockposair10 = posair10.asBlockPos();
+    var blockBelowair10 = world.getBlockState(blockposair10);
+    if(blockBelowair10 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair11 = player.position.asPosition3f();
+    posair11.y = pos.y - 2;
+	posair11.x = pos.x - 1;
+	posair11.z = pos.z + 1;
+    var blockposair11 = posair11.asBlockPos();
+    var blockBelowair11 = world.getBlockState(blockposair11);
+    if(blockBelowair11 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair12 = player.position.asPosition3f();
+    posair12.y = pos.y - 2;
+	posair12.x = pos.x - 1;
+	posair12.z = pos.z - 1;
+    var blockposair12 = posair12.asBlockPos();
+    var blockBelowair12 = world.getBlockState(blockposair12);
+    if(blockBelowair12 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair13 = player.position.asPosition3f();
+    posair13.y = pos.y - 1;
+	posair13.x = pos.x;
+	posair13.z = pos.z - 2;
+    var blockposair13 = posair13.asBlockPos();
+    var blockBelowair13 = world.getBlockState(blockposair13);
+    if(blockBelowair13 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair14 = player.position.asPosition3f();
+    posair14.y = pos.y - 1;
+	posair14.x = pos.x;
+	posair14.z = pos.z + 2;
+    var blockposair14 = posair14.asBlockPos();
+    var blockBelowair14 = world.getBlockState(blockposair14);
+    if(blockBelowair14 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair15 = player.position.asPosition3f();
+    posair15.y = pos.y - 1;
+	posair15.x = pos.x + 2;
+	posair15.z = pos.z;
+    var blockposair15 = posair15.asBlockPos();
+    var blockBelowair15 = world.getBlockState(blockposair15);
+    if(blockBelowair15 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
+    var posair16 = player.position.asPosition3f();
+    posair16.y = pos.y - 1;
+	posair16.x = pos.x - 2;
+	posair16.z = pos.z;
+    var blockposair16 = posair16.asBlockPos();
+    var blockBelowair16 = world.getBlockState(blockposair16);
+    if(blockBelowair16 != <blockstate:minecraft:air>) {
+        player.sendChat("Compose the right shape out of purpur, the callstone will guide you, reproduce the red shape");
+        return "FAIL";
+    }
 
     Commands.call("give @p contenttweaker:astral_lizardite", player, world, true, true);
-
+    Commands.call("give @p contenttweaker:astral_lizardite", player, world, true, true);
+    stack.shrink(1);
     return "PASS";
 
 };
@@ -546,7 +706,6 @@ recursionprisonkey.itemRightClick = function(stack, world, player, hand) {
     }
 
     Commands.call("pillar-spawn recursion_prison_arena", player, world, true, true);
-    Commands.call("give @p contenttweaker:recursive_tesseract", player, world, true, true);
     stack.shrink(1);
     return "PASS";
 
@@ -733,7 +892,7 @@ mossygravedust.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, true, true);
     Commands.call("summon mod_lavacow:sludgelord ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, true, true);
     player.sendChat("Kill it!");
     stack.shrink(1);
@@ -754,7 +913,7 @@ unusuallyheavybone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, true, true);
     Commands.call("summon aoa3:bone_creature ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:hard_bone\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:10.0}],Health:1000f}", player, world, true, true);
     player.sendChat("Kill it!");
     stack.shrink(1);
@@ -800,7 +959,7 @@ skeletalcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, true, true);
     Commands.call("pillar-spawn spring_bee_dungeon", player, world, true, true);
     Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
     Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
@@ -832,7 +991,7 @@ fluixcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, true, true);
     Commands.call("pillar-spawn arbiter_structure_end", player, world, true, true);
 
     stack.shrink(1);
@@ -1449,7 +1608,7 @@ trinitycallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     Commands.call("pillar-spawn hator_structure_callstone", player, world, true, true);
-    Commands.call("give @p contenttweaker:hator_spinel", player, world, true, true);
+//     Commands.call("give @p contenttweaker:hator_spinel", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1864,7 +2023,7 @@ callfullmoon.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, true, true);
 
     Commands.call("summon aoa3:dark_beast ~ ~3 ~", player, world, true, true);
     Commands.call("summon aoa3:dark_beast ~ ~3 ~", player, world, true, true);
@@ -1899,7 +2058,7 @@ callbloodhunt.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, true, true);
 
     Commands.call("summon aoa3:anemia ~ ~3 ~", player, world, true, true);
     Commands.call("summon aoa3:anemia ~ ~3 ~", player, world, true, true);
@@ -1933,7 +2092,7 @@ marksoulscurry.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, true, true);
 
     Commands.call("summon aoa3:ghostly_goblin ~ ~3 ~", player, world, true, true);
     Commands.call("summon aoa3:ghostly_goblin ~ ~3 ~", player, world, true, true);
@@ -1966,7 +2125,7 @@ signalbeacon.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, true, true);
 
     Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
     Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
@@ -1994,7 +2153,7 @@ calldeathgames.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("time set day", player, world, true, true);
+    // Commands.call("time set day", player, world, true, true);
 
     Commands.call("summon aoa3:death_hunter ~ ~3 ~", player, world, true, true);
     Commands.call("summon aoa3:death_hunter ~ ~3 ~", player, world, true, true);
@@ -2025,7 +2184,7 @@ creepyexplosive.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("time set day", player, world, true, true);
+    // Commands.call("time set day", player, world, true, true);
 
     Commands.call("summon aoa3:host ~ ~3 ~", player, world, true, true);
     Commands.call("summon aoa3:host ~ ~3 ~", player, world, true, true);
@@ -2048,7 +2207,7 @@ embiggener.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("time set day", player, world, true, true);
+    // ommands.call("time set day", player, world, true, true);
 
     Commands.call("summon aoa3:sand_giant ~ ~3 ~", player, world, true, true);
     Commands.call("summon aoa3:sand_giant ~ ~3 ~", player, world, true, true);
@@ -2102,7 +2261,7 @@ callofenigma.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, true, true);
 
     Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
     Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
@@ -2129,7 +2288,7 @@ witcherysummons.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, true, true);
 
     Commands.call("summon bewitchment:toad ~ ~ ~", player, world, true, true);
     Commands.call("summon bewitchment:toad ~ ~ ~", player, world, true, true);
@@ -3131,4 +3290,758 @@ mysteryman3summoner.itemRightClick = function(stack, world, player, hand) {
 
 };
 mysteryman3summoner.register();
+
+var whitefirecallstone= VanillaFactory.createItem("whitefire_callstone");
+whitefirecallstone.maxStackSize = 1;
+whitefirecallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 623) {
+        player.sendChat("You gotta be in the furnace dimension");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn furnacedim_structure_whitefireboss", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+whitefirecallstone.register();
+
+var undeadbotanistcallstone= VanillaFactory.createItem("undead_botanist_callstone");
+undeadbotanistcallstone.maxStackSize = 1;
+undeadbotanistcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in the overworld");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn hardmode_undead_botanist", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+undeadbotanistcallstone.register();
+
+var forbiddengardencallstone= VanillaFactory.createItem("forbidden_garden_callstone");
+forbiddengardencallstone.maxStackSize = 1;
+forbiddengardencallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in the overworld");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn botanist_loot_chest", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+forbiddengardencallstone.register();
+
+var energeticprisonkey= VanillaFactory.createItem("energetic_prison_key");
+energeticprisonkey.maxStackSize = 1;
+energeticprisonkey.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 174) {
+        player.sendChat("You gotta be in Alkemia");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn energy_bee_callstone", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+energeticprisonkey.register();
+
+
+var draconianprisonkey = VanillaFactory.createItem("draconian_prison_key");
+draconianprisonkey.maxStackSize = 1;
+draconianprisonkey.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 162) {
+        player.sendChat("You gotta be in Lyndenwyrm");
+        return "FAIL";
+    }
+
+    var pos = player.position.asPosition3f();
+
+    var posChange = player.position.asPosition3f();
+   
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+
+    if(posChange.x != 1000) {
+        if(posChange.x != 1000) {
+            player.sendChat("Travel to coordinates x = 1000, z = 1000");
+            return "FAIL";
+        }
+    }
+
+    Commands.call("pillar-spawn lyndenwyrm_structure_chaosmonument", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+draconianprisonkey.register();
+
+
+var chaoticsummoner = VanillaFactory.createItem("chaotic_summoner");
+chaoticsummoner.maxStackSize = 1;
+chaoticsummoner.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 162) {
+        player.sendChat("You gotta be in Lyndenwyrm");
+        return "FAIL";
+    }
+
+    var pos = player.position.asPosition3f();
+
+    var posChange = player.position.asPosition3f();
+   
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+
+    if(posChange.x != 10000) {
+        if(posChange.x != 10000) {
+            player.sendChat("Travel to coordinates x = 10000, z = 10000");
+            return "FAIL";
+        }
+    }
+
+    var posA = player.position.asPosition3f();
+    posA.y = posA.y - 1;
+    posA.x = posA.x - 0;
+    var blockPosA = posA.asBlockPos();
+    var blockStateA = world.getBlockState(blockPosA);
+    if(blockStateA != <blockstate:minecraft:mossy_cobblestone>) {
+        player.sendChat("This is a suggestion, it's a good idea to float around y = 120, the bosses will fly around you.");
+        player.sendChat("Stand on top of moss stone to start the fight.");
+        return "FAIL";
+    }
+
+    Commands.call("summon draconicevolution:chaosguardian ~ ~4 ~20 {CustomName:\"Guardian of Fear\",Tags:[\"guardianoffear\"]}", player, world, true, true);
+    Commands.call("summon draconicevolution:chaosguardian ~-20 ~4 ~ {CustomName:\"Guardian of Helplessness\",Tags:[\"guardianofhelplessness\"]}", player, world, true, true);
+    Commands.call("summon draconicevolution:chaosguardian ~20 ~4 ~ {CustomName:\"Guardian of Darkness\",Tags:[\"guardianofdarkness\"]}", player, world, true, true);
+    Commands.call("summon draconicevolution:chaosguardian ~ ~4 ~-20 {CustomName:\"Guardian of Solitude\",Tags:[\"guardianofsolitude\"]}", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+chaoticsummoner.register();
+
+
+var soulsuckingcallstone= VanillaFactory.createItem("soulsucking_callstone");
+soulsuckingcallstone.maxStackSize = 1;
+soulsuckingcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 423) {
+        player.sendChat("You gotta be in Skythern");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn skythern_structure_soulbee", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+soulsuckingcallstone.register();
+
+
+var crepuscularcallstone= VanillaFactory.createItem("crepuscular_callstone");
+crepuscularcallstone.maxStackSize = 1;
+crepuscularcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 7) {
+        player.sendChat("You gotta be in the Twilight Forest");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn twilightforest_structure_isekaibee", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+crepuscularcallstone.register();
+
+
+
+var zoicallstone= VanillaFactory.createItem("zoi_callstone");
+zoicallstone.maxStackSize = 1;
+zoicallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 171) {
+        player.sendChat("You gotta be in Zoi");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn tech_meatball_callstone", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+zoicallstone.register();
+
+
+var secretlurkercallstone= VanillaFactory.createItem("secret_lurker_callstone");
+secretlurkercallstone.maxStackSize = 1;
+secretlurkercallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 164) {
+        player.sendChat("You gotta be in Myrmex");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn skip_vethea_callstone", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+secretlurkercallstone.register();
+
+var eldritchcrabcallstone= VanillaFactory.createItem("eldritch_crab_callstone");
+eldritchcrabcallstone.maxStackSize = 1;
+eldritchcrabcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 14676) {
+        player.sendChat("You gotta be in the Emptiness");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn eldritch_crab_callstone", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+eldritchcrabcallstone.register();
+
+var taintedloopcallstone= VanillaFactory.createItem("tainted_loop_callstone");
+taintedloopcallstone.maxStackSize = 1;
+taintedloopcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 183) {
+        player.sendChat("You gotta be in Vibe");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn hardmode_callstone_emcmeatball", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+taintedloopcallstone.register();
+
+var pauramcallstone= VanillaFactory.createItem("pauram_callstone");
+pauramcallstone.maxStackSize = 1;
+pauramcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 173) {
+        player.sendChat("You gotta be in Pauram");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn pauram_structure_callstone", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+pauramcallstone.register();
+
+
+var firstrecursivelock = VanillaFactory.createItem("first_recursive_lock");
+firstrecursivelock.maxStackSize = 1;
+firstrecursivelock.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 1) {
+        player.sendChat("You gotta be in the end");
+        return "FAIL";
+    }
+
+    player.sendChat("Stand in the middle of the recursion prison key arena!");
+
+    player.sendChat("Checking Player Position");
+    player.sendChat("==================================================");
+
+    var pos1 = player.position.asPosition3f();
+    pos1.x = pos1.x;
+    pos1.y = pos1.y - 1;
+    pos1.z = pos1.z;
+    var blockPos1 = pos1.asBlockPos();
+    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
+    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos2 = player.position.asPosition3f();
+    pos2.x = pos2.x - 1;
+    pos2.y = pos2.y - 1;
+    pos2.z = pos2.z;
+    var blockPos2 = pos2.asBlockPos();
+    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
+    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos3 = player.position.asPosition3f();
+    pos3.x = pos3.x + 1;
+    pos3.y = pos3.y - 1;
+    pos3.z = pos3.z;
+    var blockPos3 = pos3.asBlockPos();
+    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
+    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos4 = player.position.asPosition3f();
+    pos4.x = pos4.x;
+    pos4.y = pos4.y - 1;
+    pos4.z = pos4.z + 1;
+    var blockPos4 = pos4.asBlockPos();
+    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
+    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos5 = player.position.asPosition3f();
+    pos5.x = pos5.x;
+    pos5.y = pos5.y - 1;
+    pos5.z = pos5.z - 1;
+    var blockPos5 = pos5.asBlockPos();
+    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
+    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon aoa3:elusive ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_abyss\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:shadowlord ~3 ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_abyss\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:graw ~-3 ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_lelyetia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:tyrosaur ~-3 ~1 ~-3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_precasia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:skeletron ~3 ~1 ~-3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_precasia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:baroness ~ ~1 ~-3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_barathos\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:50000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:hive_king ~-3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_barathos\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:creep ~-3 ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_creeponia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:kror ~-3 ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_deeplands\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+
+
+    return "PASS";
+
+};
+firstrecursivelock.register();
+
+
+var secondrecursivelock = VanillaFactory.createItem("second_recursive_lock");
+secondrecursivelock.maxStackSize = 1;
+secondrecursivelock.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 1) {
+        player.sendChat("You gotta be in the end");
+        return "FAIL";
+    }
+
+    player.sendChat("Stand in the middle of the recursion prison key arena!");
+
+    player.sendChat("Checking Player Position");
+    player.sendChat("==================================================");
+
+    var pos1 = player.position.asPosition3f();
+    pos1.x = pos1.x;
+    pos1.y = pos1.y - 1;
+    pos1.z = pos1.z;
+    var blockPos1 = pos1.asBlockPos();
+    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
+    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos2 = player.position.asPosition3f();
+    pos2.x = pos2.x - 1;
+    pos2.y = pos2.y - 1;
+    pos2.z = pos2.z;
+    var blockPos2 = pos2.asBlockPos();
+    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
+    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos3 = player.position.asPosition3f();
+    pos3.x = pos3.x + 1;
+    pos3.y = pos3.y - 1;
+    pos3.z = pos3.z;
+    var blockPos3 = pos3.asBlockPos();
+    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
+    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos4 = player.position.asPosition3f();
+    pos4.x = pos4.x;
+    pos4.y = pos4.y - 1;
+    pos4.z = pos4.z + 1;
+    var blockPos4 = pos4.asBlockPos();
+    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
+    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos5 = player.position.asPosition3f();
+    pos5.x = pos5.x;
+    pos5.y = pos5.y - 1;
+    pos5.z = pos5.z - 1;
+    var blockPos5 = pos5.asBlockPos();
+    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
+    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon aoa3:crystocore ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_crystevia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:vinocorne ~3 ~1 ~-3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_gardencia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:gyro ~-3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_celeve\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:silverfoot ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_iromine\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:mechbot ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_iromine\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:green_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:yellow_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:red_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:blue_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:rockrider ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:peppermint_snail ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_candyland\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:150000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:king_shroomus ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mysterium\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:voxxulon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_voxponds\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+
+
+    return "PASS";
+
+};
+secondrecursivelock.register();
+
+
+var thirdrecursivelock = VanillaFactory.createItem("third_recursive_lock");
+thirdrecursivelock.maxStackSize = 1;
+thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 1) {
+        player.sendChat("You gotta be in the end");
+        return "FAIL";
+    }
+
+    player.sendChat("Stand in the middle of the recursion prison key arena!");
+
+    player.sendChat("Checking Player Position");
+    player.sendChat("==================================================");
+
+    var pos1 = player.position.asPosition3f();
+    pos1.x = pos1.x;
+    pos1.y = pos1.y - 1;
+    pos1.z = pos1.z;
+    var blockPos1 = pos1.asBlockPos();
+    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
+    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos2 = player.position.asPosition3f();
+    pos2.x = pos2.x - 1;
+    pos2.y = pos2.y - 1;
+    pos2.z = pos2.z;
+    var blockPos2 = pos2.asBlockPos();
+    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
+    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos3 = player.position.asPosition3f();
+    pos3.x = pos3.x + 1;
+    pos3.y = pos3.y - 1;
+    pos3.z = pos3.z;
+    var blockPos3 = pos3.asBlockPos();
+    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
+    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos4 = player.position.asPosition3f();
+    pos4.x = pos4.x;
+    pos4.y = pos4.y - 1;
+    pos4.z = pos4.z + 1;
+    var blockPos4 = pos4.asBlockPos();
+    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
+    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos5 = player.position.asPosition3f();
+    pos5.x = pos5.x;
+    pos5.y = pos5.y - 1;
+    pos5.z = pos5.z - 1;
+    var blockPos5 = pos5.asBlockPos();
+    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
+    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon aoa3:dracyon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_borean\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:visualent ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_lunalus\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:clunkhead ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_runandor\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon divinerpg:sunstorm ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_eden\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon divinerpg:termasect ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_wildwood\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon divinerpg:eternal_archer ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_apalachia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon divinerpg:experienced_cori ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_skythern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+
+    return "PASS";
+
+};
+thirdrecursivelock.register();
+
+
+var fourthrecursivelock = VanillaFactory.createItem("fourth_recursive_lock");
+fourthrecursivelock.maxStackSize = 1;
+fourthrecursivelock.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 1) {
+        player.sendChat("You gotta be in the end");
+        return "FAIL";
+    }
+
+    player.sendChat("Stand in the middle of the recursion prison key arena!");
+
+    player.sendChat("Checking Player Position");
+    player.sendChat("==================================================");
+
+    var pos1 = player.position.asPosition3f();
+    pos1.x = pos1.x;
+    pos1.y = pos1.y - 1;
+    pos1.z = pos1.z;
+    var blockPos1 = pos1.asBlockPos();
+    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
+    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos2 = player.position.asPosition3f();
+    pos2.x = pos2.x - 1;
+    pos2.y = pos2.y - 1;
+    pos2.z = pos2.z;
+    var blockPos2 = pos2.asBlockPos();
+    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
+    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos3 = player.position.asPosition3f();
+    pos3.x = pos3.x + 1;
+    pos3.y = pos3.y - 1;
+    pos3.z = pos3.z;
+    var blockPos3 = pos3.asBlockPos();
+    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
+    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos4 = player.position.asPosition3f();
+    pos4.x = pos4.x;
+    pos4.y = pos4.y - 1;
+    pos4.z = pos4.z + 1;
+    var blockPos4 = pos4.asBlockPos();
+    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
+    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos5 = player.position.asPosition3f();
+    pos5.x = pos5.x;
+    pos5.y = pos5.y - 1;
+    pos5.z = pos5.z - 1;
+    var blockPos5 = pos5.asBlockPos();
+    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
+    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon aoa3:bane ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_greckon\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:kajaros ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:harkos ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:miskel ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:okazor ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:raxxan ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:proshield ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:flash ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:klobber ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:mirage ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:coniferon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:goldorth ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:penumbra ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:horon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+
+    return "PASS";
+
+};
+fourthrecursivelock.register();
+
+var fifthrecursivelock = VanillaFactory.createItem("fifth_recursive_lock");
+fifthrecursivelock.maxStackSize = 1;
+fifthrecursivelock.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 1) {
+        player.sendChat("You gotta be in the end");
+        return "FAIL";
+    }
+
+    player.sendChat("Stand in the middle of the recursion prison key arena!");
+
+    player.sendChat("Checking Player Position");
+    player.sendChat("==================================================");
+
+    var pos1 = player.position.asPosition3f();
+    pos1.x = pos1.x;
+    pos1.y = pos1.y - 1;
+    pos1.z = pos1.z;
+    var blockPos1 = pos1.asBlockPos();
+    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
+    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos2 = player.position.asPosition3f();
+    pos2.x = pos2.x - 1;
+    pos2.y = pos2.y - 1;
+    pos2.z = pos2.z;
+    var blockPos2 = pos2.asBlockPos();
+    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
+    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos3 = player.position.asPosition3f();
+    pos3.x = pos3.x + 1;
+    pos3.y = pos3.y - 1;
+    pos3.z = pos3.z;
+    var blockPos3 = pos3.asBlockPos();
+    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
+    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos4 = player.position.asPosition3f();
+    pos4.x = pos4.x;
+    pos4.y = pos4.y - 1;
+    pos4.z = pos4.z + 1;
+    var blockPos4 = pos4.asBlockPos();
+    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
+    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+    var pos5 = player.position.asPosition3f();
+    pos5.x = pos5.x;
+    pos5.y = pos5.y - 1;
+    pos5.z = pos5.z - 1;
+    var blockPos5 = pos5.asBlockPos();
+    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
+    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the recursion prison key arena!");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon aoa3:xxeus ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_shyrelands\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, true, true);
+    Commands.call("summon divinerpg:soul_fiend ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, true, true);
+    Commands.call("summon divinerpg:densos ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, true, true);
+    Commands.call("summon divinerpg:vamacheron ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, true, true);
+    Commands.call("summon divinerpg:reyvor ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, true, true);
+    Commands.call("summon divinerpg:karot ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, true, true);
+    Commands.call("summon divinerpg:twilight_demon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, true, true);
+
+    return "PASS";
+
+};
+fifthrecursivelock.register();
 

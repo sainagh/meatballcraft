@@ -1,0 +1,104 @@
+{
+    "name": "compactmachines3:tinkers_furnace",
+    "target-item": "tconstruct:seared_furnace_controller",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+    "input-types": {
+      "a": {
+        "id": "tconstruct:seared",
+        "meta": 3,
+        "item": {
+            "id": "tconstruct:seared",
+            "count": 1
+          }
+      },
+      "b": {
+        "id": "tconstruct:seared_tank",
+        "meta": 0,
+        "item": {
+            "id": "tconstruct:seared_tank",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "tconstruct:seared_furnace_controller",
+        "meta": 0,
+        "item": {
+            "id": "tconstruct:seared_furnace_controller",
+            "count": 1
+          }
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{id:\"minecraft:tconstruct.smeltery_component\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasMaster:1b,xCenter:80,yCenter:87,zCenter:212,MasterBlockName:\"tconstruct:seared_furnace_controller\",masterState:3082}"
+      },
+      "b:A": {
+        "nbt": "{id:\"minecraft:tconstruct.tank\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasMaster:1b,xCenter:80,yCenter:87,zCenter:212,MasterBlockName:\"tconstruct:seared_furnace_controller\",masterState:3082,Empty:\"\"}"
+      },
+      "c:A": {
+        "nbt": "{id:\"minecraft:tconstruct.seared_furnace\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},InventorySize:12,Items:[],active:1b,minPos:{X:80,Y:87,Z:211},maxPos:{X:80,Y:87,Z:211},fuel:0,temperature:0,needsFuel:0b,itemTemperatures:[I;0,0,0,0,0,0,0,0,0,0,0,0],itemTempRequired:[I;0,0,0,0,0,0,0,0,0,0,0,0],fuelQuality:0,currentTank:{},tanks:[{X:79,Y:86,Z:212}],currentFuel:{}}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "_",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "c:A",
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "b:A",
+          "a:A",
+          "a:A"
+        ]
+      ]
+    ]
+     
+}

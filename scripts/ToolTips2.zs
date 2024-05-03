@@ -40,9 +40,6 @@ import crafttweaker.item.IItemCondition;
 
 <draconicevolution:fusion_crafting_core>.addTooltip(format.red("Requires the Draconic Key to become craftable"));
 
-<projecte:item.pe_alchemical_bag>.addTooltip(format.red("Requires the Minor Vethea Binding to become craftable in Vethea"));
-
-<projecte:item.pe_alchemical_bag>.addTooltip(format.red("Thanks to Sandman366 for the idea"));
 
 <avaritia:resource:0>.addTooltip(format.red("Requires Ancient Elven knowledge to become craftable"));
 
@@ -282,7 +279,8 @@ import crafttweaker.item.IItemCondition;
 
 <materialpart:rhenium:ingot>.addTooltip(format.red("Automated using the Rhenium Chicken"));
 
-<contenttweaker:ogerite_ore>.addTooltip(format.red("Craftable in the plasmatic condenser after exploring the swamp tower of Pixonia"));
+<contenttweaker:ogerite_ore>.addTooltip(format.red("Found inside a special tree in Pixonia, follow the Ayeraco!"));
+<contenttweaker:ogerite_ore>.addTooltip(format.red("Craftable in the plasmatic condenser after completing the Swamp Tower in Pixonia"));
 
 <extendedcrafting:table_basic>.addTooltip(format.red("Use the Basic Package Crafter to automate basic crafting recipes"));
 
@@ -314,7 +312,7 @@ import crafttweaker.item.IItemCondition;
 
 <hatchery:pen>.addTooltip(format.red("Read the info box for info on how to farm and breed chickens!"));
 
-<iceandfire:dread_shard>.addTooltip(format.red("Dropped by Dread Mobs - Found in the mausoleum in cold biomes in the overworld - the Gravemaster's Key is used to enter the mausoleum"));
+<iceandfire:dread_shard>.addTooltip(format.red("Dropped by Dread Mobs from Ice and Fire - Found in the mausoleum in cold biomes in the overworld - the Gravemaster's Key is used to enter the mausoleum"));
 
 <iceandfire:witherbone>.addTooltip(format.red("Wither Drop"));
 
@@ -433,6 +431,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:divine_star>.addTooltip(format.red("Get the first one from a Endergenic Mythical Void Resource Miner, Draconic is a NoNo (random51 tried)"));
 
 <contenttweaker:soul_of_the_grand_wizard>.addTooltip(format.red("Use the staff of iceika inside the castle to open the gateway"));
+<contenttweaker:soul_of_the_grand_wizard>.addTooltip(format.green("Reusable"));
 
 <bewitchment:crystal_ball>.addTooltip(format.green("Reusable"));
 
@@ -584,7 +583,7 @@ import crafttweaker.item.IItemCondition;
 <techreborn:industrial_blast_furnace>.addTooltip(format.red("- right click with 4 nichrome heating coils"));
 
 
-<torcherino:blocktorcherino>.addTooltip(format.red("Only works with crystals from illuminated enchanter - 'it's not a bug it's a feature!'"));
+<torcherino:torch_lvl1>.addTooltip(format.red("Only works with crystals from illuminated enchanter - 'it's not a bug it's a feature!'"));
 
 <matc:inferiumcrystal>.addTooltip(format.red("Cannot be upgraded at 0 durability"));
 
@@ -646,7 +645,8 @@ import crafttweaker.item.IItemCondition;
 
 <enderio:block_farm_station>.addTooltip(format.red("Bugged - Other alternatives are recommended"));
 
-<contenttweaker:master_spell_focus>.addTooltip(format.red("Let this be a warning, you want to be REALLY CAREFUL with these - this is your one and only warning"));
+<contenttweaker:master_spell_focus>.addTooltip(format.red("Let this be a warning, you want to be REALLY CAREFUL with these!"));
+<contenttweaker:master_spell_focus>.addTooltip(format.red("Some will be good, some will be bad, some will be funny!"));
 
 <contenttweaker:master_spell_focus>.addTooltip(format.red("Use 4096 crystals"));
 
@@ -691,13 +691,13 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:barathos_wormhole>.addTooltip(format.red("Found in Barathos"));
 
-<contenttweaker:deeplands_wormhole>.addTooltip(format.red("Found in the Deeplands"));
+<contenttweaker:deeplands_wormhole>.addTooltip(format.red("Hidden in the Deeplands Callstone"));
 
 <contenttweaker:celestial_shield_fragment>.addTooltip(format.red("Can be obtained (but I won't tell you how...)"));
 
 <danknull:danknull_dock>.addTooltip(format.red("Do not connect to a storage bus, causes a crash"));
 
-<contenttweaker:ragnarok_sigil>.addTooltip(format.red("Craft with the right combination of crystal clusters - the temple in the abyss will guide you"));
+<contenttweaker:ragnarok_sigil>.addTooltip(format.red("Craft with the right combination of crystal clusters (4) - the temple in the abyss will guide you"));
 
 <ore:ingotSteel>.addTooltip(format.red("Can be obtained with a blast furnace (any of them) or with an induction smelter"));
 
@@ -787,7 +787,7 @@ import crafttweaker.item.IItemCondition;
 
 <ore:ingotPlatinum>.addTooltip(format.red("This is a byproduct of nickel - there are multiple ways of getting this"));
 
-<contenttweaker:mysterium_wormhole>.addTooltip(format.red("Combine the right four blood runes in a plus around a lunar block"));
+<contenttweaker:mysterium_wormhole>.addTooltip(format.red("Combine the right blood runes (4) in a plus around a lunar block"));
 
 <contenttweaker:staff_of_iceika>.addTooltip(format.red("Use in the castle in the frozen world"));
 
@@ -834,7 +834,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:lesser_mana_core>.addTooltip(format.red("Use a resonant tank full of primal mana in empty mode"));
 
-<contenttweaker:essence_of_the_room>.addTooltip(format.red("Surround recursive powder with papers spelling the right word (start from top left, clockwise)"));
+<contenttweaker:essence_of_the_room>.addTooltip(format.red("Surround recursive powder with papers (8) spelling the right word (start from top left, clockwise)"));
 
 <tconstruct:pattern>.addTooltip(format.red("The stencil table is disabled, the various patterns have crafting recipes"));
 
@@ -851,6 +851,8 @@ import crafttweaker.item.IItemCondition;
 <storagedrawers:upgrade_creative:0>.addTooltip(format.red("Cannot be taken out"));
 
 <contenttweaker:weight_of_the_heart>.addTooltip(format.red("A mark of the fallen tower for 5000000"));
+
+<contenttweaker:cosmic_gem>.addTooltip(format.red("A mark of the fallen tower for 5000000"));
 
 <bewitchment:spinning_wheel>.addTooltip(format.red("Requires power from an altar"));
 
@@ -1191,7 +1193,7 @@ import crafttweaker.item.IItemCondition;
 
 <thaumicenergistics:essentia_component_64k>.addTooltip(format.red("Can be autocrafted or automated using the arcane assembler"));
 
-<techreborn:distillation_tower>.addTooltip(format.red("17 standard machine casing, 17 advanced"));
+<techreborn:distillation_tower>.addTooltip(format.red("17 standard machine casing, 17 advanced, middle hollow"));
 
 <astralsorcery:itemrockcrystalsimple>.addTooltip(format.red("Found in the overworld, use a resonating wand to find the ore"));
 
@@ -1361,7 +1363,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:fluix_microcontroller>.addTooltip(format.red("Use a summoning computer"));
 
-<contenttweaker:core_of_undeath>.addTooltip(format.red("Found in Oi - Combine with the right radioactive compounds"));
+<contenttweaker:core_of_undeath>.addTooltip(format.red("Found in Oi - Combine with the right radioactive compounds (4)"));
 
 <contenttweaker:heuf_fuel>.addTooltip(format.red("How do I make it?? Oi holds the answer"));
 
@@ -1545,15 +1547,15 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:ancient_elven_knowledge>.addTooltip(format.red("Increases the astral level cap to 45"));
 
-<contenttweaker:minor_vethea_binding>.addTooltip(format.red("Increases the astral level cap to 100"));
+<contenttweaker:minor_vethea_binding>.addTooltip(format.red("Increases the astral level cap to 60"));
 
 <aoa3:primed_ghoulasm>.addTooltip(format.red("Use a ghoulasm on a haunting table"));
 
 <aoa3:ghoulasm>.addTooltip(format.red("Dropped by greckon mobs"));
 
-<aoa3:primed_ghoulasm>.addTooltip(format.red("Combine with the right essentia crystals - Greckon will guide you"));
+<aoa3:primed_ghoulasm>.addTooltip(format.red("Combine with the right essentia crystals (4) - Greckon will guide you"));
 
-<contenttweaker:ghoul_spirit>.addTooltip(format.red("Start from some ghoulasm - Greckon will guide you"));
+<contenttweaker:ghoul_spirit>.addTooltip(format.red("Start from some ghoulasm and some essentia crystals (4)- Greckon will guide you"));
 
 <aoa3:dense_rock>.addTooltip(format.red("Dropped by deeplands mobs"));
 
@@ -1837,8 +1839,6 @@ import crafttweaker.item.IItemCondition;
 <thaumicaugmentation:gauntlet:0>.addTooltip(format.red("Do not put in bibliocraft display blocks"));
 
 <thaumicaugmentation:gauntlet:1>.addTooltip(format.red("Do not put in bibliocraft display blocks"));
-
-<projecte:item.pe_alchemical_bag:0>.addTooltip(format.red("Backpack, very good storage"));
 
 <projectred-exploration:backpack>.addTooltip(format.red("Backpack"));
 
@@ -2275,12 +2275,12 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:crimson_gem>.addTooltip(format.red("Found in the crimson towers in the overworld!"));
 
-<contenttweaker:alchemical_mushroom>.addTooltip(format.red("Combine the glowshroom terrarium with the right four mushrooms, the sacred oak will guide you!"));
+<contenttweaker:alchemical_mushroom>.addTooltip(format.red("Combine the glowshroom terrarium with the right four mushrooms (4), the sacred oak will guide you!"));
 
 <divinerpg:corrupted_shards>.addTooltip(format.red("Dropped by mobs that spawn below Y = 11"));
 <divinerpg:corrupted_stone>.addTooltip(format.red("Dropped by mobs that spawn below Y = 11"));
 
-<contenttweaker:dream_projector_gem>.addTooltip(format.red("Combine the right tinker's parts with a projector gem - Vethea recipes will guide you!"));
+<contenttweaker:dream_projector_gem>.addTooltip(format.red("Combine the right tinker's parts (4) with a projector gem - Vethea recipes will guide you!"));
 
 <contenttweaker:dream_projector_gem>.addTooltip(format.red("The recursive life essence is from the hidden power callstone!"));
 
@@ -2436,18 +2436,6 @@ import crafttweaker.item.IItemCondition;
 <ebwizardry:crystal_silver_plating>.addTooltip(format.red("Found in battle towers"));
 <ebwizardry:crystal_silver_plating>.addTooltip(format.red("With regards to Dragon of Desire"));
 
-<contenttweaker:defined_ingot>.addTooltip(format.red("First crafted by:"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("Dahcreeper, UNQpla, SecreCTB, WingWangg, Yoomara, QuakersOats (team)"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("ChaosStrikez (solo)"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("Ikea Bear (solo)"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("Sandman366 (solo)"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("Paronity & Kherune (team) (autocrafting challenge)"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("Nullity UwU (solo)"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("Raziel (solo)"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("okay (solo)"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("IaM_Hybrid, _Syphex, Sl4g, Miyeonn (team)"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("shadow46x2 (solo)"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("Mathias & MillerGaming321 (in spirit)"));
 
 <thermaldynamics:duct_32:0>.addTooltip(format.red("Use servos, retrievers, filters to move items with these (see their JEI tooltips for info on how to use them)"));
 <thermaldynamics:duct_32:1>.addTooltip(format.red("Use servos, retrievers, filters to move items with these (see their JEI tooltips for info on how to use them)"));
@@ -2559,7 +2547,9 @@ import crafttweaker.item.IItemCondition;
 <divinerpg:arcana_portal_frame>.addTooltip(format.red("The portal forms automatically if it's formed correctly!"));
 
 <mod_lavacow:bonesword>.addTooltip(format.red("From the thorny callstone!"));
-<mod_lavacow:bonesword>.addTooltip(format.red("soulfie's damage go spinny"));
+<mod_lavacow:bonesword>.addTooltip(format.red("Can be super-enchanted"));
+
+<contenttweaker:thorny_callstone>.addTooltip(format.red("soulfie's damage go spinny"));
 
 <xreliquary:magicbane>.addTooltip(format.red("So S T A B B Y"));
 
@@ -2599,6 +2589,7 @@ import crafttweaker.item.IItemCondition;
 <bloodmagic:blood_rune:8>.addTooltip(format.red("Increases the capacity of your LP network"));
 
 <divinerpg:divine_shickaxe>.addTooltip(format.red("Thanks to Lulu for adding lore for weapons!"));
+<botania:thundersword>.addTooltip(format.red("Thanks to Lulu for adding lore for weapons!"));
 
 <ore:ingotColdIron>.addTooltip(format.red("Drop iron into the fire made by bottled frostfire"));
 
@@ -2626,6 +2617,7 @@ import crafttweaker.item.IItemCondition;
 
 <akashictome:tome>.addTooltip(format.red("WARNING: don't combine with Astral Tome, Thaumonomicon, Lexica botania, Necronomicon, Alkahestry"));
 
+<thaumicenergistics:arcane_terminal>.addTooltip(format.red("WARNINGS: This is very crashy, you shouldn't need to use it much"));
 <thaumicenergistics:arcane_terminal>.addTooltip(format.red("Vis discount does not work with voidseers pearl"));
 
 <libvulpes:advstructuremachine>.addTooltip(format.red("HiaggTM had to upgrade his hatch"));
@@ -2687,6 +2679,7 @@ import crafttweaker.item.IItemCondition;
 <actuallyadditions:block_phantom_breaker>.addTooltip(format.red("Place a phantom booster in top to increase range"));
 
 <xreliquary:magicbane>.addTooltip(format.red("Thanks to Baguette for testing out builds!"));
+<xreliquary:magicbane>.addTooltip(format.red("gotammo found the OPness first!"));
 
 <contenttweaker:sacrifice_metal_chest>.addTooltip(format.red("ChaosStrikez crafted this first!"));
 
@@ -2725,6 +2718,7 @@ import crafttweaker.item.IItemCondition;
 
 <naturescompass:naturescompass>.addTooltip(format.red("WARNING: do not craft in ME terminal or arcane transmutation tablet, it could cause a crash"));
 <extrautils2:biomemarker>.addTooltip(format.red("WARNING: do not craft in ME terminal or arcane transmutation tablet, it could cause a crash"));
+<extrautils2:terraformer:1>.addTooltip(format.red("WARNING: do not craft in ME terminal or arcane transmutation tablet, it could cause a crash"));
 
 <contenttweaker:recursive_recipes>.addTooltip(format.red("With regards to Not Yue"));
 
@@ -2896,7 +2890,7 @@ import crafttweaker.item.IItemCondition;
 
 <tinker_io:smart_output>.addTooltip(format.red("Upgraded version of the casting table with a GUI and upgrages"));
 
-<tinker_io:speedupg>.addTooltip(format.red("Fuel input machine upgrade: increses speed"));
+<tinker_io:speedupg>.addTooltip(format.red("Fuel input machine upgrade: increases speed"));
 <tinker_io:upg:1>.addTooltip(format.red("Smart Output Upgrade: adds 1 extra space to output slot"));
 <tinker_io:upg:2>.addTooltip(format.red("Smart Output Upgrade: adds 2 extra spaces to output slot"));
 <tinker_io:upg:3>.addTooltip(format.red("Smart Output Upgrade: adds 3 extra spaces to output slot"));
@@ -3038,9 +3032,9 @@ import crafttweaker.item.IItemCondition;
 
 <enderio:block_soul_binder>.addTooltip(format.red("Cyclic liquid XP can be piped in directly"));
 
-<contenttweaker:inert_cursed_jewel>.addTooltip(format.red("Combine with the right shields to activate, the Vox Ponds will guide you"));
+<contenttweaker:inert_cursed_jewel>.addTooltip(format.red("Combine with the right shields (4) to activate, the Vox Ponds will guide you"));
 
-<contenttweaker:active_cursed_jewel>.addTooltip(format.red("Combine the inert cursed jewel with the right shields to activate, the Vox Ponds will guide you"));
+<contenttweaker:active_cursed_jewel>.addTooltip(format.red("Combine the inert cursed jewel with the right shields (4) to activate, the Vox Ponds will guide you"));
 
 <contenttweaker:bloodlust_coin>.addTooltip(format.red("Found in battle towers"));
 <contenttweaker:bloodlust_coin>.addTooltip(format.red("Right click to get some butchery experience"));
@@ -3102,7 +3096,7 @@ import crafttweaker.item.IItemCondition;
 
 <aoa3:uncharged_stone>.addTooltip(format.red("Right click the enigma table in mysterium, make sure you build a cover for the drops"));
 
-<aoa3:pure_water_stone>.addTooltip(format.red("Right click a rune shrine with a water bucket"));
+<aoa3:pure_water_stone>.addTooltip(format.red("Right click a Rune Post with a Water Bucket"));
 
 <aoa3:call_of_the_drake>.addTooltip(format.red("Fish in L'Borean"));
 
@@ -3193,7 +3187,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:furnace_heart>.addTooltip(format.red("Found in the furnace dimension"));
 
-<contenttweaker:living_myrmitite_ingot>.addTooltip(format.red("Combine enchanted myrmitite with the right modifier tomes, Precasia will guide you"));
+<contenttweaker:living_myrmitite_ingot>.addTooltip(format.red("Combine enchanted myrmitite with the right modifier tomes (4), Precasia will guide you"));
 
 <cyclicmagic:glowing_helmet>.addTooltip(format.red("Found in battle towers"));
 
@@ -3213,7 +3207,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:asgard_furnace_brick>.addTooltip(format.red("Obtained from the aesir rift"));
 
-<torcherino:blockcompressedtorcherino>.addTooltip(format.red("Found in apichisi"));
+<torcherino:compressed_torch_lvl1>.addTooltip(format.red("Found in apichisi"));
 
 <ore:ingotMithrillium>.addTooltip(format.red("Unlocking this research is quite hard, better to make a really scary vishroom"));
 
@@ -3249,9 +3243,9 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:astral_animator>.addTooltip(format.red("Found on Diamerisma"));
 
-<contenttweaker:astral_animator>.addTooltip(format.red("Craft together with the correct soul vials, Taerrapiatta will guide you!"));
+<contenttweaker:astral_animator>.addTooltip(format.red("Craft together with the correct soul vials (4), Taerrapiatta will guide you!"));
 
-<contenttweaker:mark_of_the_arbiter>.addTooltip(format.red("Craft the astral animator with the correct soul vials, Taerrapiatta will guide you!"));
+<contenttweaker:mark_of_the_arbiter>.addTooltip(format.red("Craft the astral animator with the correct soul vials (4), Taerrapiatta will guide you!"));
 
 <packagedauto:packager>.addTooltip(format.red("To set up autocrafting, use the following order: ME cable > packager > unpackager > package crafter or other machine, this consumes two channels"));
 <packagedauto:unpackager>.addTooltip(format.red("To set up autocrafting, use the following order: ME cable > packager > unpackager > package crafter or other machine, this consumes two channels"));
@@ -3326,7 +3320,7 @@ import crafttweaker.item.IItemCondition;
 <bloodmagic:ritual_controller:0>.addTooltip(format.red("Use the ritual diviner to select the ritual you want."));
 <bloodmagic:ritual_controller:0>.addTooltip(format.red("Right click the master ritual stone while having uncolored ritual stones in your inventory to auto-place the ritual!"));
 
-<abyssalcraft:dreadshard>.addTooltip(format.red("Dropped by dread mobs in the dreadlands"));
+<abyssalcraft:dreadshard>.addTooltip(format.red("Dropped by Dread Knights and Greater Dread Spawns in the Dreadlands"));
 
 <thaumcraft:scribing_tools>.addTooltip(format.red("Right click a wood table"));
 <thaumcraft:table_wood>.addTooltip(format.red("Right click with the scribing tools"));
@@ -3409,7 +3403,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:adamantium_stinger>.addTooltip(format.red("Found in Pixonia"));
 <contenttweaker:gem_of_midas>.addTooltip(format.red("Found in Pixonia"));
 
-<contenttweaker:rosidian_blend>.addTooltip(format.red("Combine rosidons with the right small piles of dust, gardencia will tell you which ones!"));
+<contenttweaker:rosidian_blend>.addTooltip(format.red("Combine rosidons with the right small piles of dust (8), gardencia will tell you which ones!"));
 
 <gendustry:honey_comb:14018>.addTooltip(format.red("Obtained from the deep knowledge callstone"));
 
@@ -3456,8 +3450,8 @@ import crafttweaker.item.IItemCondition;
 <aoa3:explosive_idol>.addTooltip(format.red("Found in the baron portal structure in the nether"));
 
 <contenttweaker:inert_spatial_phaser>.addTooltip(format.red("Found on rhenia"));
-<contenttweaker:inert_spatial_phaser>.addTooltip(format.red("Combine with the right bricks, the eden will guide you"));
-<contenttweaker:spatial_phaser>.addTooltip(format.red("Combine the inert spatial phaser with the right bricks, the eden will guide you"));
+<contenttweaker:inert_spatial_phaser>.addTooltip(format.red("Combine with the right bricks (4), the eden will guide you"));
+<contenttweaker:spatial_phaser>.addTooltip(format.red("Combine the inert spatial phaser with the right bricks (4), the eden will guide you"));
 
 <extrabotany:allforone>.addTooltip(format.red("All baubles in a bauble case will count as if they were worn"));
 
@@ -3541,13 +3535,14 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:wrought_iron_shard>.addTooltip(format.red("Found in the Deeplands, bring a pickaxe, and good reflexes!"));
 
-<contenttweaker:deep_metamorphic_rock>.addTooltip(format.red("Combine the right stones in the right configuration, in a crafting table, the deeplands will guide you"));
+<contenttweaker:deep_metamorphic_rock>.addTooltip(format.red("Combine the right stones (9) in the right configuration, in a crafting table, the deeplands will guide you"));
 
 <projecte:item.pe_rm_hammer>.addTooltip(format.green("Reusable for wrought iron plate"));
 
 <aoa3:weapon_parts>.addTooltip(format.red("Found in Lelyetia"));
 
 <contenttweaker:baron_gem>.addTooltip(format.red("Barathos will tell you how to make this"));
+<contenttweaker:baron_gem>.addTooltip(format.red("The inscriber name press is your automation friend ;)"));
 
 <bloodmagic:component:22>.addTooltip(format.red("Can be automated by renaming items using the inscriber name press in an inscriber"));
 
@@ -3663,5 +3658,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:stormlight_fragment>.addTooltip(format.red("From the stormborn callstone"));
 
 <divinerpg:storm_sword>.addTooltip(format.red("Traded from Captain Merik in Arcana"));
+
 
 

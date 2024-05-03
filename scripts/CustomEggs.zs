@@ -204,3 +204,7 @@ chaoticegg.register();
 var glitchegg = VanillaFactory.createItem("glitch_infused_egg");
 glitchegg.maxStackSize = 64;
 glitchegg.register();
+
+var abominableegg = VanillaFactory.createItem("abominable_egg");
+abominableegg.maxStackSize = 64;
+abominableegg.register();

@@ -1,0 +1,23 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "contenttweaker",
+      "path": "cosmic_gem"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 100,
+      "oreName": "oreCosmicFabric"
+    },
+    {
+      "weight": 10,
+      "oreName": "oreCoraliumStone"
+    }],
+  "explosionStrength": 10.0,
+  "radius": 5,
+  "maxWeight": 100,
+  "version": 4,
+  "cost": 5000000
+}

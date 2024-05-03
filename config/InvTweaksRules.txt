@@ -29,3 +29,5 @@ D LOCKED
 # AVAILABLE KEYWORDS
 # Open the 'InvTweaksTree.txt' file for a list of available keywords. If an item
 # is missing from the item tree (for example mod items), you can add it there.
+
+# ItemFavorites Config (Warning! Everything past this line will be deleted!) ->

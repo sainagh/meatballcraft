@@ -120,7 +120,7 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
     val MysteriumBiomeName = "Mysterium" as string;
 	val NuclearWastelandBiomeName = "Nuclear Wasteland" as string;
 	val StorageBiomeName = "Storage Cell" as string;
-	val CrystalChasmsBiomeName = "CrystalChasms" as string;
+	val CrystalChasmsBiomeName = "Crystal Chasms" as string;
 	val BlackVoidBiomeName = "Dangerous Black Void" as string;
 	val TwilightStreamBiomeName = "Twilight Stream" as string;
 	val AlienForestBiomeName = "Alien Forest" as string;
@@ -325,7 +325,7 @@ gemvoracity.itemRightClick = function(stack, world, player, hand) {
     }
 
     // check if player is in right dimension
-    if(player.getDimension() != 3) {
+    if(player.getDimension() != 803) {
         player.sendChat("You gotta be in the right dimension, the Vox Ponds will tell you which one");
         return "FAIL";
     }
@@ -425,3 +425,94 @@ aquaticstone.itemRightClick = function(stack, world, player, hand) {
 
 };
 aquaticstone.register();
+
+var diabeticsummoner = VanillaFactory.createItem("diabetic_callstone");
+diabeticsummoner.maxStackSize = 16;
+diabeticsummoner.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 152) {
+        player.sendChat("You gotta be in Oi");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val CandyBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val CandyBiomeName = "Candyland" as string;
+
+
+    // get number of matches
+    val CandyMatches = checkBiomesAtPositions(CandyBiomeName, playerpos, CandyBiomeLocations, world) as int;
+
+	if((CandyMatches) == 0) {
+		player.sendChat("You gotta be in a candyland biome");
+		return "FAIL";
+	} 
+
+    if((CandyMatches) == 1) {
+		Commands.call("pillar-spawn candyland_structure_diabetic", player, world, true, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in an candyland biome");
+	return "FAIL";
+
+
+};
+diabeticsummoner.register();
+
+
+
+var brokenoath = VanillaFactory.createItem("broken_oath");
+brokenoath.maxStackSize = 16;
+brokenoath.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 7) {
+        player.sendChat("You gotta be in the Twilight Forest");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val CandyBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val CandyBiomeName = "Final Plateau" as string;
+
+
+    // get number of matches
+    val CandyMatches = checkBiomesAtPositions(CandyBiomeName, playerpos, CandyBiomeLocations, world) as int;
+
+	if((CandyMatches) == 0) {
+		player.sendChat("You gotta be in the final plateau biome");
+		return "FAIL";
+	} 
+
+    if((CandyMatches) == 1) {
+		Commands.call("summon twilightforest:adherent ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:crepuscular_callstone\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:9000.0},{Name:generic.attackDamage, Base:3000.0}],Health:9000f,CustomName:\"Failed Portal Master\"}", player, world, true, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in an final plateau biome");
+	return "FAIL";
+
+
+};
+brokenoath.register();
+

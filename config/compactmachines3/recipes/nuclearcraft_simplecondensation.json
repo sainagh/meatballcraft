@@ -1,0 +1,58 @@
+{
+    "name": "compactmachines3:nuclearcraft_simplecondensation",
+    "target-item": "contenttweaker:fluidcrystalmatrix_condensation",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+    "input-types": {
+      "a": {
+        "id": "contenttweaker:destabilized_redstone_bucket_placeholder",
+        "meta": 3
+      },
+      "b": {
+        "id": "contenttweaker:particulate_steam_condensation_tube",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "_"
+        ],
+        [
+          "a"
+        ],
+        [
+          "_"
+        ]
+      ],
+      [
+        [
+          "a"
+        ],
+        [
+          "b"
+        ],
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "a"
+        ],
+        [
+          "_"
+        ]
+      ]
+    ]
+     
+}

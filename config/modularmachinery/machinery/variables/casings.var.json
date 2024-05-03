@@ -20,8 +20,10 @@
         "modularmachinery:blockenergyoutputhatch"
     ],
     "casings_item": [
+        "modularmachinery:blockoutputbus",
         "modularmachinery:blockinputbus",
-        "modularmachinery:blockoutputbus"
+        "modularmachinery:blockmeitemoutputbus",
+        "modularmachinery:blockmeiteminputbus"
     ],
     "generalized_input_item": [
         "modularmachinery:blockinputbus",
@@ -38,6 +40,21 @@
     "generalized_input_fluid": [
         "modularmachinery:blockfluidinputhatch",
         "modularmachinery:blockmefluidinputbus"
+    ],
+    "generalized_rainbow_leaves": [
+        "twilightforest:twilight_leaves@7",
+        "twilightforest:twilight_leaves@3",
+        "twilightforest:twilight_leaves@9"
+    ],
+    "berserker_forge_input": [
+        "modularmachinery:blockfluidinputhatch@2",
+        "modularmachinery:blockinputbus@0"
+    ],
+    "plasmatic_condenser_io": [
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockmeitemoutputbus",
+        "modularmachinery:blockmeiteminputbus"
     ]
 
 }

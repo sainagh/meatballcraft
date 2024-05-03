@@ -752,3 +752,24 @@ ascendeddraconicalloy.register();
 
 var pulsatingstarlight = VanillaFactory.createFluid("pulsating_starlight", Color.fromHex("5bb7c7"));
 pulsatingstarlight.register();
+
+var strangematter = VanillaFactory.createFluid("strange_matter", Color.fromHex("8aba2b"));
+strangematter.register();
+
+var fluidcaliforniumlattice = VanillaFactory.createFluid("fluid_californium_lattice", Color.fromHex("a12351"));
+fluidcaliforniumlattice.register();
+
+var bloodgreatsnake = VanillaFactory.createFluid("blood_great_snake", Color.fromHex("ba0962"));
+bloodgreatsnake.register();
+
+var sacrificialessence = VanillaFactory.createFluid("sacrificial_essence", Color.fromHex("daa4de"));
+sacrificialessence.register();
+
+var hihiirokane = VanillaFactory.createFluid("hihi_irokane", Color.fromHex("751256"));
+hihiirokane.register();
+
+var orichalcum = VanillaFactory.createFluid("orichalcum", Color.fromHex("21d9c0"));
+orichalcum.register();
+
+var arkencrushermix = VanillaFactory.createFluid("arkencrusher_mix", Color.fromHex("4d8082"));
+arkencrushermix.register();

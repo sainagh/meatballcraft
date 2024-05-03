@@ -94,7 +94,7 @@ recipes.removeShaped(<draconicevolution:celestial_manipulator>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:celestial_manipulator>, 
 [[<draconicevolution:chaotic_core>, <materialpart:lunastone:ingot>, <materialpart:brightsteel:ingot>, 
-<materialpart:chalcedony:ingot>, <torcherino:blocktorcherino>, <materialpart:chalcedony:ingot>, 
+<materialpart:chalcedony:ingot>, <torcherino:torch_lvl1>, <materialpart:chalcedony:ingot>, 
 <materialpart:brightsteel:ingot>, <materialpart:lunastone:ingot>, <draconicevolution:chaotic_core>], 
 
 [<materialpart:lunastone:ingot>, <mysticalagradditions:special:4>, <contenttweaker:rainbow_gemstones>, 
@@ -109,9 +109,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:celestial_manip
 <avaritia:block_resource:2>, <environmentaltech:solar_cont_6>, <avaritia:block_resource:2>, 
 <contenttweaker:rainbow_gemstones>, <extendedcrafting:storage:4>, <materialpart:chalcedony:ingot>], 
 
-[<torcherino:blocktorcherino>, <bloodmagic:blood_shard:1>, <bigreactors:mineralanglesite>, 
+[<torcherino:torch_lvl1>, <bloodmagic:blood_shard:1>, <bigreactors:mineralanglesite>, 
 <environmentaltech:solar_cont_6>, <magicbees:resource:11>, <environmentaltech:solar_cont_6>, 
-<bigreactors:mineralanglesite>, <bloodmagic:blood_shard:1>, <torcherino:blocktorcherino>], 
+<bigreactors:mineralanglesite>, <bloodmagic:blood_shard:1>, <torcherino:torch_lvl1>], 
 
 [<materialpart:chalcedony:ingot>, <extendedcrafting:storage:4>, <contenttweaker:rainbow_gemstones>, 
 <avaritia:block_resource:2>, <environmentaltech:solar_cont_6>, <avaritia:block_resource:2>, 
@@ -126,7 +126,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:celestial_manip
 <contenttweaker:rainbow_gemstones>, <mysticalagradditions:special:4>, <materialpart:lunastone:ingot>], 
 
 [<draconicevolution:chaotic_core>, <materialpart:lunastone:ingot>, <materialpart:brightsteel:ingot>, 
-<materialpart:chalcedony:ingot>, <torcherino:blocktorcherino>, <materialpart:chalcedony:ingot>, 
+<materialpart:chalcedony:ingot>, <torcherino:torch_lvl1>, <materialpart:chalcedony:ingot>, 
 <materialpart:brightsteel:ingot>, <materialpart:lunastone:ingot>, <draconicevolution:chaotic_core>]]);  
 
 
@@ -179,6 +179,11 @@ mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:draconic_core>,
 [<extendedcrafting:material:24>, <divinerpg:corrupted_stone>, <extendedcrafting:material:24>], 
 [<draconicevolution:draconium_block>, <extendedcrafting:material:24>, <draconicevolution:draconium_block>]]);  
 
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:draconic_core>*16, 
+[[<draconicevolution:draconium_block>, <extendedcrafting:material:24>, <draconicevolution:draconium_block>], 
+[<contenttweaker:eye_of_gallifrey>, <divinerpg:corrupted_stone>, <contenttweaker:eye_of_gallifrey>], 
+[<draconicevolution:draconium_block>, <extendedcrafting:material:24>, <draconicevolution:draconium_block>]]);  
+
 recipes.removeShaped(<draconicevolution:wyvern_core>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:wyvern_core>, 
@@ -195,6 +200,15 @@ mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:wyvern_core>*8,
 [null, <extendedcrafting:material:40>, null, <draconicevolution:draconic_core>, null, <extendedcrafting:material:40>, null], 
 [<ore:ingotIceDragonsteel>, null, null, <draconicevolution:draconic_core>, null, null, <bewitchment:cold_iron_ingot>], 
 [null, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, null, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, null], 
+[<bewitchment:cold_iron_ingot>, null, null, <draconicevolution:draconic_core>, null, null, <ore:ingotIceDragonsteel>], 
+[null, <extendedcrafting:material:40>, null, <draconicevolution:draconic_core>, null, <extendedcrafting:material:40>, null], 
+[<draconicevolution:draconium_block>, null, <ore:ingotFireDragonsteel>, null, <bewitchment:cold_iron_ingot>, null, <draconicevolution:draconium_block>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:wyvern_core>*32, 
+[[<draconicevolution:draconium_block>, null, <bewitchment:cold_iron_ingot>, null, <ore:ingotFireDragonsteel>, null, <draconicevolution:draconium_block>], 
+[null, <extendedcrafting:material:40>, null, <draconicevolution:draconic_core>, null, <extendedcrafting:material:40>, null], 
+[<ore:ingotIceDragonsteel>, null, null, <draconicevolution:draconic_core>, null, null, <bewitchment:cold_iron_ingot>], 
+[null, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <contenttweaker:eye_of_gallifrey>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, null], 
 [<bewitchment:cold_iron_ingot>, null, null, <draconicevolution:draconic_core>, null, null, <ore:ingotIceDragonsteel>], 
 [null, <extendedcrafting:material:40>, null, <draconicevolution:draconic_core>, null, <extendedcrafting:material:40>, null], 
 [<draconicevolution:draconium_block>, null, <ore:ingotFireDragonsteel>, null, <bewitchment:cold_iron_ingot>, null, <draconicevolution:draconium_block>]]);  

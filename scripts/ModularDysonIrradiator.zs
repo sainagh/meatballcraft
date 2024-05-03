@@ -6,7 +6,7 @@ recipes.addShaped(<contenttweaker:defined_servo>*4,
 [<materialpart:chaos:dust>, <contenttweaker:defined_redstone_chipset>, <materialpart:chaos:dust>],
 [<materialpart:vibranium_alloy:gear>, <materialpart:chaos:dust>, <materialpart:vibranium_alloy:gear>]]);
 
-mods.buildcraft.AssemblyTable.addRecipe("definedchipsetyee", <contenttweaker:defined_redstone_chipset>, 1000, [<contenttweaker:defined_ingot>, <minecraft:redstone>, <materialpart:chaos:ingot>, <avaritia:resource:5>]);
+// mods.buildcraft.AssemblyTable.addRecipe("definedchipsetyee", <contenttweaker:defined_redstone_chipset>, 1000, [<contenttweaker:defined_ingot>, <minecraft:redstone>, <materialpart:chaos:ingot>, <avaritia:resource:5>]);
 
 mods.techreborn.assemblingMachine.addRecipe(<contenttweaker:mithminite_prism>, <bibliocraft:cookiejar>, <thaumadditions:mithminite_nugget>, 60, 2);
 
@@ -158,7 +158,7 @@ corruptedlibrarydefinedengine.build();
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:irradiator_casing>*12, 
 [[<contenttweaker:high_refraction_alloy_ingot>, <contenttweaker:infinity_plate>, <contenttweaker:radiation_crafter>, <contenttweaker:infinity_plate>, <contenttweaker:high_refraction_alloy_ingot>], 
 [<contenttweaker:infinity_plate>, <extendedcrafting:storage:4>, <nuclearcraft:fusion_core>, <extendedcrafting:storage:4>, <contenttweaker:infinity_plate>], 
-[<contenttweaker:radiation_crafter>, <extracells:storage.component:3>, <contenttweaker:living_case>, <extracells:storage.component:3>, <contenttweaker:radiation_crafter>], 
+[<contenttweaker:radiation_crafter>, <nae2:material:4>, <contenttweaker:living_case>, <nae2:material:4>, <contenttweaker:radiation_crafter>], 
 [<contenttweaker:infinity_plate>, <extendedcrafting:storage:4>, <contenttweaker:defined_engine>, <extendedcrafting:storage:4>, <contenttweaker:infinity_plate>], 
 [<contenttweaker:high_refraction_alloy_ingot>, <contenttweaker:infinity_plate>, <contenttweaker:radiation_crafter>, <contenttweaker:infinity_plate>, <contenttweaker:high_refraction_alloy_ingot>]]);  
 
@@ -470,8 +470,7 @@ spatialcruchalite.addItemInput(<draconicevolution:awakened_core>*4);
 spatialcruchalite.addItemInput(<contenttweaker:bright_matter>*64);
 spatialcruchalite.addItemInput(<divinerpg:corrupted_stone>*64);
 spatialcruchalite.addItemInput(<contenttweaker:defined_engine>);
-spatialcruchalite.addItemInput(<contenttweaker:shyre_crystal>*2);
-spatialcruchalite.addItemInput(<divinerpg:skythern_block>*2);
+spatialcruchalite.addItemInput(<contenttweaker:shyre_crystal>*24);
 spatialcruchalite.addItemInput(<tconstruct:large_plate>.withTag({Material: "infinity_avaritia_plustic"}));
 spatialcruchalite.addFluidOutput(<fluid:halite_fluid>*1000);
 spatialcruchalite.build();

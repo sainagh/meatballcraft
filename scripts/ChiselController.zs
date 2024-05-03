@@ -132,6 +132,13 @@ mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:relat
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:definer_two_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:twelve_gates_of_heaven_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:font_of_divinity_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:tree_of_life_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:fluid_matrix_plasma_collider_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_discharger_t2_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_discharger_t3_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_discharger_t4_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_discharger_t5_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:ziggurat_of_life_controller>);
 
 
 
@@ -157,3 +164,15 @@ mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:plated_carpenter_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:salt_repolarizer_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:two_phase_fission_reactor_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:sparkled_spinning_wheel_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:honeysmelter_oven_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:whispering_infusion_fountain_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:elemental_altar_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_wiremill_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_assembling_machine_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_grinder_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_blaster_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_gravitite_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_arkencrusher_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:hypergrowth_insolator_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:berserker_forge_controller>);

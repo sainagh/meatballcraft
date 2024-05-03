@@ -48,3 +48,16 @@ enc5.addItemOutput(<bloodmagic:item_demon_crystal:2>*8);
 enc5.addItemOutput(<bloodmagic:item_demon_crystal:3>*8);
 enc5.addItemOutput(<bloodmagic:item_demon_crystal:4>*8);
 enc5.build();
+
+val enc6 = RecipeBuilder.newBuilder("icearca6","corrupted_library",20);
+enc6.addEnergyPerTickInput(100000);
+enc6.addFluidInput(<fluid:lifeessence>*800);
+enc6.addFluidInput(<fluid:liquidcoralium>*800);
+enc6.addItemInput(<contenttweaker:droplet_of_the_great_snake>);
+enc6.addItemInput(<advancedrocketry:hotturf>*32);
+enc6.addItemOutput(<bloodmagic:item_demon_crystal:0>*64);
+enc6.addItemOutput(<bloodmagic:item_demon_crystal:1>*64);
+enc6.addItemOutput(<bloodmagic:item_demon_crystal:2>*64);
+enc6.addItemOutput(<bloodmagic:item_demon_crystal:3>*64);
+enc6.addItemOutput(<bloodmagic:item_demon_crystal:4>*64);
+enc6.build();

@@ -1500,6 +1500,28 @@
     },
     "onjoin": true,
     "result": "deny"
+  },
+
+  {
+    "mob": "nuclearcraft:feral_ghoul",
+    "mincount": {
+      "amount": 15,
+      "mob": "nuclearcraft:feral_ghoul",
+      "perplayer": true
+    },
+    "onjoin": true,
+    "result": "deny"
+  },
+
+  {
+    "mob": "aoa3:realmshifter",
+    "maxcount": {
+      "amount": 15,
+      "mob": "aoa3:realmshifter",
+      "perplayer": true
+    },
+    "onjoin": true,
+    "result": "allow"
   }
 
 ]

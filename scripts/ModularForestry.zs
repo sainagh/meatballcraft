@@ -88,4 +88,10 @@ bettercarpenter12.addItemInput(<forestry:can>);
 bettercarpenter12.addItemOutput(<forestry:iodine_capsule>);
 bettercarpenter12.build();
 
+val bettercarpenter13 = RecipeBuilder.newBuilder("bettercarpenter13","plated_carpenter",20);
+bettercarpenter13.addFluidInput(<fluid:water>*500);
+bettercarpenter13.addItemInput(<forestry:crafting_material:2>*9);
+bettercarpenter13.addItemOutput(<forestry:crafting_material:3>);
+bettercarpenter13.build();
+
 

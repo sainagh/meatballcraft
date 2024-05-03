@@ -32,7 +32,7 @@ bot5.addItemInput(<erebus:materials:0>*64);
 bot5.addItemInput(<minecraft:iron_block>*32);
 bot5.addItemInput(<minecraft:nether_star>*4);
 bot5.addItemInput(<minecraft:diamond>*2);
-bot5.addItemOutput(<erebus:war_hammer>.withTag({ench: [{lvl: 31 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 3 as short, id: 34 as short},{lvl: 4 as short, id: 22 as short}], RepairCost: 1, display: {Name: "Mjolnir"}}));
+bot5.addItemOutput(<erebus:war_hammer>.withTag({ench: [{lvl: 31 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 3 as short, id: 34 as short},{lvl: 4 as short, id: 22 as short}], RepairCost: 1, display: {Name: "§6§oMjolnir§r", Lore:["§d§oSuper-Enchanted§r"]}}));
 bot5.build();
 
 val bot6 = RecipeBuilder.newBuilder("erefor6","cold_iron_forge",2000);

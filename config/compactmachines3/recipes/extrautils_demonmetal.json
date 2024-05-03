@@ -1,0 +1,55 @@
+{
+    "name": "compactmachines3:extrautils_demonmetal",
+    "target-item": "extrautils2:ingredients",
+    "target-meta": 11,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:nether_brick",
+        "meta": 0
+      },
+      "b": {
+        "id": "minecraft:tripwire",
+        "meta": 0,
+        "item": {
+            "id": "minecraft:gold_ingot",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "minecraft:lava",
+        "meta": 0,
+        "item": {
+            "id": "minecraft:lava_bucket",
+            "count": 1
+          }
+      }
+    },
+    "shape": [
+      [
+        [
+          "b",
+          "a",
+          "_"
+        ],
+        [
+          "a",
+          "c",
+          "a"
+        ],
+        [
+          "_",
+          "a",
+          "_"
+        ]
+      ]
+    ]
+     
+}

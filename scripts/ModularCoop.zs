@@ -9,7 +9,7 @@ chick1.build();
 val chick2 = RecipeBuilder.newBuilder("chick2","mechanized_coop",480);
 chick2.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:brightsteel_chicken"}}));
 chick2.setChance(0.0);
-chick2.addItemOutput(<contenttweaker:brightsteel_egg>*6);
+chick2.addItemOutput(<contenttweaker:brightsteel_egg>*16);
 chick2.build();
 
 val chick3 = RecipeBuilder.newBuilder("chick3","mechanized_coop",480);
@@ -449,3 +449,9 @@ chick70.addItemOutput(<contenttweaker:heraldry_egg>*16);
 chick70.addItemOutput(<contenttweaker:heraldry_egg>*16);
 chick70.addItemOutput(<contenttweaker:heraldry_egg>*16);
 chick70.build();
+
+val chick71 = RecipeBuilder.newBuilder("chick71","mechanized_coop",480);
+chick71.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:fesh_abomination_chicken"}}));
+chick71.setChance(0.0);
+chick71.addItemOutput(<contenttweaker:abominable_egg>*16);
+chick71.build();

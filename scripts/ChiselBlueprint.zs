@@ -139,11 +139,18 @@ mods.chisel.Carving.addGroup("dysonstuff");
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_sphere"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_irradiator"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger"}));
+mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t2"}));
+mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t3"}));
+mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t4"}));
+mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t5"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_compressor"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:relativistic_collapser"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:definer_two"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:twelve_gates_of_heaven"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:font_of_divinity"}));
+mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:tree_of_life"}));
+mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fluid_matrix_plasma_collider"}));
+mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ziggurat_of_life"}));
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_alloy_furnace"}),
 [[<modularmachinery:itemmodularium>,null,null],
@@ -160,6 +167,7 @@ mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itembluep
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_muon_extractor"}));
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_gearworking_die"}));
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_compactor"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_wiremill"}));
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:nightmare_electrolyzer"}));
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_furnace"}));
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_drying_rack"}));
@@ -170,3 +178,14 @@ mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itembluep
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:plated_carpenter"}));
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:salt_repolarizer"}));
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:two_phase_fission_reactor"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sparkled_spinning_wheel"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:honeysmelter_oven"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:whispering_infusion_fountain"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:elemental_altar"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_assembling_machine"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_grinder"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_blaster"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_gravitite"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_arkencrusher"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:hypergrowth_insolator"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:berserker_forge"}));

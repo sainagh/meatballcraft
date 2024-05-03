@@ -47,3 +47,9 @@ recipes.addShaped(<iceandfire:armor_silver_metal_boots>,
 [[<ore:blockSilver>, null, <ore:blockSilver>],
 [<ore:ingotSilver>, null, <ore:ingotSilver>],
 [null, null, null]]);
+
+recipes.addShapeless(<iceandfire:summoning_crystal_lightning>,
+[<iceandfire:lightning_dragon_blood>,
+<minecraft:ender_pearl>,
+<minecraft:diamond>,
+<ore:gemAmethyst>]);

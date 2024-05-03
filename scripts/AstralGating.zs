@@ -77,7 +77,17 @@ recipes.addShapeless(<aoa3:runium_ore>,
 [<contenttweaker:mineralis_ritual>]);
 recipes.addShapeless(<bewitchment:salt_ore>,
 [<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<aoa3:jade_ore>,
+[<contenttweaker:mineralis_ritual>]);
 
+mods.thermalexpansion.Crucible.addRecipe(<fluid:astralsorcery.liquidstarlight>*1000, <contenttweaker:starlight_sphere>, 1000);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:starlight_sphere>, <fluid:astralsorcery.liquidstarlight>*1000]);
+
+mods.astralsorcery.Altar.addAttunementAltarRecipe("MeatballCraft:shaped/internal/altar/holysword", <aether_legacy:holy_sword>, 500, 300, [
+			<aether_legacy:holystone>, <aether_legacy:enchanted_gravitite>, <aether_legacy:holystone>,
+			<aether_legacy:holystone>, <aether_legacy:enchanted_gravitite>, <aether_legacy:holystone>,
+			<aether_legacy:holystone>, <minecraft:stick>, <aether_legacy:holystone>,
+			<mod_lavacow:holy_sludge>, <mod_lavacow:holy_sludge>, <mod_lavacow:holy_sludge>, <mod_lavacow:holy_sludge>]);
 
 // mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/skythernEMC", 
 // <astralsorcery:blockaltar:3>, 100, 100, 

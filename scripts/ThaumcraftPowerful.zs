@@ -9,6 +9,10 @@ mapExpCutter += enclistEXPCutter[0].makeEnchantment(39).makeTag();
 mapExpCutter += enclistEXPCutter[1].makeEnchantment(100).makeTag();
 mapExpCutter += enclistEXPCutter[2].makeEnchantment(1).makeTag();
 mapExpCutter += enclistEXPCutter[3].makeEnchantment(5).makeTag();
+var mapExpCutterOther as IData = {
+	RepairCost: 1,
+	display: {Name: "§6§oPrimal Cutter§r",Lore:["§d§oSuper-Enchanted§r"]}
+};
 
 val enchlistMagicShield as IEnchantmentDefinition[] = [<enchantment:ebwizardry:shock_protection>, <enchantment:minecraft:protection>, <enchantment:ebwizardry:magic_protection>, <enchantment:ebwizardry:frost_protection>, <enchantment:minecraft:fire_protection>, <enchantment:minecraft:blast_protection>, <enchantment:minecraft:projectile_protection>];
 var mapMagicShielding as IData = {};
@@ -19,6 +23,27 @@ mapMagicShielding += enchlistMagicShield[3].makeEnchantment(16).makeTag();
 mapMagicShielding += enchlistMagicShield[4].makeEnchantment(16).makeTag();
 mapMagicShielding += enchlistMagicShield[5].makeEnchantment(16).makeTag();
 mapMagicShielding += enchlistMagicShield[6].makeEnchantment(16).makeTag();
+
+var mapSuperMithHelm as IData = {
+	RepairCost: 1,
+	display: {Name: "§6§oMithminite Hood§r",Lore:["§d§oSuper-Enchanted§r"]}
+};
+
+var mapSuperMithChest as IData = {
+	RepairCost: 1,
+	display: {Name: "§6§oMithminite Robe§r",Lore:["§d§oSuper-Enchanted§r"]}
+};
+
+var mapSuperMithLegs as IData = {
+	RepairCost: 1,
+	display: {Name: "§6§oMithminite Belt§r",Lore:["§d§oSuper-Enchanted§r"]}
+};
+
+var mapSuperMithBoots as IData = {
+	RepairCost: 1,
+	display: {Name: "§6§oMithminite Boots§r",Lore:["§d§oSuper-Enchanted§r"]}
+};
+
 
 mods.thaumcraft.Infusion.registerRecipe("inflesser", "", 
 <minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumcraft:cultistportallesser"}}), 10,
@@ -47,7 +72,7 @@ recipes.addShaped(<contenttweaker:ineffable_sun>,
 <contenttweaker:ineffable_sun>.setAspects([<aspect:ignis>*50, <aspect:aer>*50, <aspect:terra>*50, <aspect:aqua>*50, <aspect:ordo>*50, <aspect:perditio>*50, <aspect:auram>*50, <aspect:vitium>*50]);
 
 mods.thaumcraft.Infusion.registerRecipe("supercutter", "", 
-<thaumicaugmentation:primal_cutter>.withTag(mapExpCutter), 10,
+<thaumicaugmentation:primal_cutter>.withTag(mapExpCutter += mapExpCutterOther), 10,
 [<aspect:humanus>*200, <aspect:auram>*100], 
 <thaumicaugmentation:primal_cutter>, 
 [<thaumcraft:vis_resonator>, <contenttweaker:concentrated_essence>, <contenttweaker:concentrated_essence>, <deepmoblearning:living_matter_twilight>, <thaumadditions:adaminite_plate>, <thaumictinkerer:repairer>, <abyssalcraft:crystalcluster:7>, <botania:brewvial>.withTag({brewKey: "oneforall"})]);
@@ -90,7 +115,7 @@ mods.thaumcraft.Infusion.registerRecipe("fluxspongeftw", "",
 <contenttweaker:endergenic_sediment>, <contenttweaker:endergenic_sediment>]);
 
 mods.thaumcraft.Infusion.registerRecipe("supermithhelm", "", 
-<thaumadditions:mithminite_hood>.withTag(mapMagicShielding), 100,
+<thaumadditions:mithminite_hood>.withTag(mapSuperMithHelm += mapMagicShielding), 100,
 [<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
 <thaumadditions:mithminite_hood>, 
 [<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 
@@ -99,7 +124,7 @@ mods.thaumcraft.Infusion.registerRecipe("supermithhelm", "",
 <mysticalagradditions:storage:1>, <contenttweaker:faultless_ichor>]);
 
 mods.thaumcraft.Infusion.registerRecipe("supermithchest", "", 
-<thaumadditions:mithminite_robe>.withTag(mapMagicShielding), 100,
+<thaumadditions:mithminite_robe>.withTag(mapSuperMithChest += mapMagicShielding), 100,
 [<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
 <thaumadditions:mithminite_robe>, 
 [<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 
@@ -108,7 +133,7 @@ mods.thaumcraft.Infusion.registerRecipe("supermithchest", "",
 <mysticalagradditions:storage:1>, <contenttweaker:faultless_ichor>]);
 
 mods.thaumcraft.Infusion.registerRecipe("supermithlegs", "", 
-<thaumadditions:mithminite_belt>.withTag(mapMagicShielding), 100,
+<thaumadditions:mithminite_belt>.withTag(mapSuperMithLegs += mapMagicShielding), 100,
 [<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
 <thaumadditions:mithminite_belt>, 
 [<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 
@@ -117,10 +142,52 @@ mods.thaumcraft.Infusion.registerRecipe("supermithlegs", "",
 <mysticalagradditions:storage:1>, <contenttweaker:faultless_ichor>]);
 
 mods.thaumcraft.Infusion.registerRecipe("supermithfeet", "", 
-<thaumadditions:mithminite_boots>.withTag(mapMagicShielding), 100,
+<thaumadditions:mithminite_boots>.withTag(mapSuperMithBoots += mapMagicShielding), 100,
 [<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
 <thaumadditions:mithminite_boots>, 
 [<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 
 <contenttweaker:phasing_gem>, <bewitchment:poppet_deathprotection>, 
 <bewitchment:sigil_battle>, <aoa3:radiant_infusion_stone>, 
 <mysticalagradditions:storage:1>, <contenttweaker:faultless_ichor>]);
+
+mods.thaumcraft.Infusion.registerRecipe("craftcrimsonwarfare", "", 
+<crimsonwarfare:boss_activator>, 100,
+[<aspect:vitium>*90, <aspect:praemunio>*50, <aspect:exitium>*40, <aspect:alienis>*20], 
+<thaumcraft:pedestal_arcane>, 
+[<thaumcraft:void_seed>, <thaumcraft:void_seed>, 
+<thaumcraft:void_seed>, <contenttweaker:crimson_doctrine_tome>, 
+<contenttweaker:scarlet_letter>, <contenttweaker:crimson_emperor_icon>, 
+<contenttweaker:champion_token>, <contenttweaker:champion_token>]);
+
+mods.thaumcraft.Infusion.registerRecipe("makeforbiddengarden", "", 
+<contenttweaker:forbidden_garden_callstone>, 100,
+[<aspect:herba>*200, <aspect:victus>*70, <aspect:desiderium>*40, <aspect:fluctus>*30], 
+<contenttweaker:vegetarian_sentient_meatball>, 
+[<contenttweaker:undead_wing>, <contenttweaker:undead_wing>, 
+<contenttweaker:undead_wing>, <contenttweaker:undead_wing>, 
+<contenttweaker:undead_wing>, <contenttweaker:undead_wing>, 
+<contenttweaker:undead_wing>, <contenttweaker:undead_wing>, 
+<contenttweaker:undead_wing>, <contenttweaker:undead_wing>, 
+<contenttweaker:undead_wing>, <contenttweaker:undead_wing>, 
+<contenttweaker:undead_wing>, <contenttweaker:undead_wing>]);
+
+
+mods.thaumcraft.Infusion.registerRecipe("infmakeisekaibee", "", 
+<contenttweaker:broken_oath>, 1,
+[<aspect:cognitio>*100, <aspect:ordo>*100, <aspect:alienis>*100, <aspect:victus>*100], 
+<contenttweaker:wormhole_fragment>, 
+[<projectex:matter:11>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "gendustry.bee.Alchemical"}), 
+<contenttweaker:scarlet_letter>, <contenttweaker:crimson_doctrine_tome>, 
+<contenttweaker:crimson_emperor_icon>, <contenttweaker:harbinger_crystal>]);
+
+
+mods.thaumcraft.Infusion.registerRecipe("combinealtarscrabinf", "", 
+<contenttweaker:eldritch_crab_callstone>, 10,
+[<aspect:vitium>*200, <aspect:praecantatio>*100], 
+<divinerpg:aquatic_ingot>, 
+[<crimsonwarfare:boss_activator>, <crimsonwarfare:boss_activator>, 
+<crimsonwarfare:boss_activator>, <crimsonwarfare:boss_activator>, 
+<crimsonwarfare:boss_activator>, <crimsonwarfare:boss_activator>, 
+<crimsonwarfare:boss_activator>, <crimsonwarfare:boss_activator>, 
+<crimsonwarfare:boss_activator>, <crimsonwarfare:boss_activator>, 
+<crimsonwarfare:boss_activator>, <crimsonwarfare:boss_activator>]);

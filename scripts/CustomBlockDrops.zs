@@ -81,6 +81,108 @@ events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
 });
 
 events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
+	if ("forestry:leaves.default.3".matches(event.block.definition.id)) {
+		if (event.silkTouch) {
+			event.drops = [<contenttweaker:silky_forester_leaf>];
+		} else {
+           	return;
+		}
+	}
+});
+
+events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
+	if ("forestry:leaves.default.4".matches(event.block.definition.id)) {
+		if (event.silkTouch) {
+			event.drops = [<contenttweaker:silky_forester_leaf>];
+		} else {
+           	return;
+		}
+	}
+});
+
+events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
+	if ("forestry:leaves.default.5".matches(event.block.definition.id)) {
+		if (event.silkTouch) {
+			event.drops = [<contenttweaker:silky_forester_leaf>];
+		} else {
+           	return;
+		}
+	}
+});
+
+events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
+	if ("forestry:leaves.default.6".matches(event.block.definition.id)) {
+		if (event.silkTouch) {
+			event.drops = [<contenttweaker:silky_forester_leaf>];
+		} else {
+           	return;
+		}
+	}
+});
+
+events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
+	if ("forestry:leaves.default.7".matches(event.block.definition.id)) {
+		if (event.silkTouch) {
+			event.drops = [<contenttweaker:silky_forester_leaf>];
+		} else {
+           	return;
+		}
+	}
+});
+
+events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
+	if ("forestry:leaves.default.8".matches(event.block.definition.id)) {
+		if (event.silkTouch) {
+			event.drops = [<contenttweaker:silky_forester_leaf>];
+		} else {
+           	return;
+		}
+	}
+});
+
+events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
+	if ("forestry:leaves.default.fruit.0".matches(event.block.definition.id)) {
+		if (event.silkTouch) {
+			event.drops = [<contenttweaker:silky_forester_leaf>];
+		} else {
+           	return;
+		}
+	}
+});
+
+events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
+	if ("forestry:leaves.default.fruit.1".matches(event.block.definition.id)) {
+		if (event.silkTouch) {
+			event.drops = [<contenttweaker:silky_forester_leaf>];
+		} else {
+           	return;
+		}
+	}
+});
+
+events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
+	if ("forestry:leaves.default.fruit.2".matches(event.block.definition.id)) {
+		if (event.silkTouch) {
+			event.drops = [<contenttweaker:silky_forester_leaf>];
+		} else {
+           	return;
+		}
+	}
+});
+
+events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
+	if ("forestry:leaves.default.fruit.3".matches(event.block.definition.id)) {
+		if (event.silkTouch) {
+			event.drops = [<contenttweaker:silky_forester_leaf>];
+		} else {
+           	return;
+		}
+	}
+});
+
+
+
+events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
 	if ("extratrees:leaves.default.0".matches(event.block.definition.id)) {
 		if (event.silkTouch) {
 			event.drops = [<contenttweaker:silky_forester_leaf>];

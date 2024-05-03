@@ -61,3 +61,11 @@ recipes.addShaped(<contenttweaker:omothol_containment_stone>,
 [[<ore:ingotEthaxium>, <ore:ingotEthaxium>, <ore:ingotEthaxium>],
 [<ore:ingotEthaxium>, <abyssalcraft:tieredenergycontainer:3>, <ore:ingotEthaxium>],
 [<ore:ingotEthaxium>, <ore:ingotEthaxium>, <ore:ingotEthaxium>]]);
+
+recipes.addShaped(<abyssalcraft:gatewaykeyjzh>,
+[[<abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>],
+[<abyssalcraft:shoggothflesh:4>, <abyssalcraft:gatewaykeyjzh>.reuse(), <abyssalcraft:shoggothflesh:4>],
+[<abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>, <abyssalcraft:shoggothflesh:4>]]);
+
+
+mods.thermalexpansion.EnervationDynamo.removeFuel(<plustic:laser_gun>);

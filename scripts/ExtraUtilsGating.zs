@@ -199,6 +199,12 @@ recipes.addHiddenShaped("lawkingofpiratesone",
 [<minecraft:paper>.withTag({RepairCost: 1, display: {Name: "S"}}), <contenttweaker:recursive_powder>, <minecraft:paper>.withTag({RepairCost: 1, display: {Name: "M"}})],
 [<minecraft:paper>.withTag({RepairCost: 1, display: {Name: "E"}}), <minecraft:paper>.withTag({RepairCost: 1, display: {Name: "R"}}), <minecraft:paper>.withTag({RepairCost: 1, display: {Name: "B"}})]]);
 
+recipes.addHiddenShaped("lawkingofpiratesnone", 
+<contenttweaker:essence_of_the_room>, 
+[[<minecraft:paper>.withTag({display: {Name: "C"}}), <minecraft:paper>.withTag({display: {Name: "H"}}), <minecraft:paper>.withTag({display: {Name: "A"}})],
+[<minecraft:paper>.withTag({display: {Name: "S"}}), <contenttweaker:recursive_powder>, <minecraft:paper>.withTag({display: {Name: "M"}})],
+[<minecraft:paper>.withTag({display: {Name: "E"}}), <minecraft:paper>.withTag({display: {Name: "R"}}), <minecraft:paper>.withTag({display: {Name: "B"}})]]);
+
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}));
 
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}),

@@ -49,7 +49,7 @@ opdra6.addItemInput(<iceandfire:dragonscales_red>*4);
 opdra6.addItemInput(<iceandfire:dragonscales_green>*4);
 opdra6.addItemInput(<iceandfire:dragonscales_bronze>*4);
 opdra6.addItemInput(<iceandfire:dragonscales_gray>*4);
-opdra6.addItemOutput(<iceandfire:dragonbone_sword_fire>.withTag({ench: [{lvl: 75 as short, id: 16 as short}, {lvl: 3 as short, id: 22 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 4 as short, id: 21 as short},{lvl: 15 as short, id: 66 as short},{lvl: 2 as short, id: 19 as short}], RepairCost: 1, display: {Name: "Zar'Roc"}}));
+opdra6.addItemOutput(<iceandfire:dragonbone_sword_fire>.withTag({ench: [{lvl: 75 as short, id: 16 as short}, {lvl: 3 as short, id: 22 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 4 as short, id: 21 as short},{lvl: 15 as short, id: 66 as short},{lvl: 2 as short, id: 19 as short}], RepairCost: 1, display: {Name: "§6§oZar'Roc§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 opdra6.build();
 
 val opdra7 = RecipeBuilder.newBuilder("dragoncruc7","dragonfire_crucible",3000);
@@ -63,7 +63,7 @@ opdra7.addItemInput(<iceandfire:dragonscales_blue>*4);
 opdra7.addItemInput(<iceandfire:dragonscales_white>*4);
 opdra7.addItemInput(<iceandfire:dragonscales_sapphire>*4);
 opdra7.addItemInput(<iceandfire:dragonscales_silver>*4);
-opdra7.addItemOutput(<iceandfire:dragonbone_sword_ice>.withTag({ench: [{lvl: 75 as short, id: 16 as short}, {lvl: 3 as short, id: 22 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 4 as short, id: 21 as short},{lvl: 15 as short, id: 66 as short},{lvl: 2 as short, id: 19 as short}], RepairCost: 1, display: {Name: "Brisingr"}}));
+opdra7.addItemOutput(<iceandfire:dragonbone_sword_ice>.withTag({ench: [{lvl: 75 as short, id: 16 as short}, {lvl: 3 as short, id: 22 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 4 as short, id: 21 as short},{lvl: 15 as short, id: 66 as short},{lvl: 2 as short, id: 19 as short}], RepairCost: 1, display: {Name: "§6§oBrisingr§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 opdra7.build();
 
 val opdra8 = RecipeBuilder.newBuilder("dragoncruc8","dragonfire_crucible",3000);
@@ -74,7 +74,7 @@ opdra8.addItemInput(<minecraft:nether_star>*4);
 opdra8.addItemInput(<iceandfire:manuscript>*10);
 opdra8.addItemInput(<twilightforest:raven_feather>*16);
 opdra8.addItemInput(<xreliquary:angelic_feather>);
-opdra8.addItemOutput(<iceandfire:stymphalian_bird_dagger>.withTag({ench: [{lvl: 27 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 10 as short, id: 34 as short}], RepairCost: 1, display: {Name: "Dagger of the Skies"}}));
+opdra8.addItemOutput(<iceandfire:stymphalian_bird_dagger>.withTag({ench: [{lvl: 27 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 10 as short, id: 34 as short}], RepairCost: 1, display: {Name: "§6§oDagger of the Skies§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 opdra8.build();
 
 val opdra9 = RecipeBuilder.newBuilder("dragoncruc9","dragonfire_crucible",100);
@@ -103,7 +103,7 @@ opdra11.addItemInput(<iceandfire:dragonscales_black>*4);
 opdra11.addItemInput(<iceandfire:dragonscales_amythest>*4);
 opdra11.addItemInput(<iceandfire:dragonscales_copper>*4);
 opdra11.addItemInput(<iceandfire:dragonscales_electric>*4);
-opdra11.addItemOutput(<iceandfire:dragonbone_sword_lightning>.withTag({ench: [{lvl: 75 as short, id: 16 as short}, {lvl: 3 as short, id: 22 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 4 as short, id: 21 as short},{lvl: 15 as short, id: 66 as short},{lvl: 2 as short, id: 19 as short}], RepairCost: 1, display: {Name: "Claiomh Solais"}}));
+opdra11.addItemOutput(<iceandfire:dragonbone_sword_lightning>.withTag({ench: [{lvl: 75 as short, id: 16 as short}, {lvl: 3 as short, id: 22 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 4 as short, id: 21 as short},{lvl: 15 as short, id: 66 as short},{lvl: 2 as short, id: 19 as short}], RepairCost: 1, display: {Name: "§6§oClaiomh Solais§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 opdra11.build();
 
 

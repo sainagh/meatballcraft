@@ -10,6 +10,7 @@
 
     
 
+
     "input-types": {
       "a": {
         "id": "minecraft:tripwire",
@@ -33,13 +34,17 @@
       },
       "e": {
         "id": "thaumicwonders:fluid_quicksilver",
-        "meta": 0
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:quicksilver_bucket",
+            "count": 1
+          }
       }
     },
     "shape": [
       [
         [
-          "a",
+          "_",
           "_",
           "_"
         ],
@@ -78,13 +83,13 @@
           "b"
         ],
         [
-          "d",
+          "c",
           "e",
           "c"
         ],
         [
           "b",
-          "c",
+          "d",
           "b"
         ]
       ],
@@ -106,5 +111,5 @@
         ]
       ]
     ]
-     
+      
 }

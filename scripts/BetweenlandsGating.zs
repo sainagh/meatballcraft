@@ -93,3 +93,30 @@ recipes.addShaped(<contenttweaker:betweenlands_callstone_8>,
 [[<ore:ingotOctine>, <thebetweenlands:sludge_jello>, <ore:ingotOctine>],
 [<thebetweenlands:sludge_jello>, <thebetweenlands:swamp_talisman>.reuse(), <thebetweenlands:sludge_jello>],
 [<ore:ingotOctine>, <thebetweenlands:sludge_jello>, <ore:ingotOctine>]]);
+
+
+recipes.addShapeless(<thebetweenlands:shockwave_sword>,
+[<thebetweenlands:items_misc:34>,
+<thebetweenlands:items_misc:33>,
+<thebetweenlands:items_misc:36>,
+<thebetweenlands:items_misc:35>]);
+
+recipes.addShaped(<thebetweenlands:items_misc:33>,
+[[<ore:gemValonite>, <thebetweenlands:items_misc:26>, <ore:gemValonite>],
+[<thebetweenlands:items_misc:26>, <tconstruct:wide_guard>.withTag({Material: "dreadium"}), <thebetweenlands:items_misc:26>],
+[<ore:gemValonite>, <thebetweenlands:items_misc:26>, <ore:gemValonite>]]);
+
+recipes.addShaped(<thebetweenlands:items_misc:34>,
+[[<ore:gemScabyst>, <thebetweenlands:spirit_fruit>, <ore:gemScabyst>],
+[<thebetweenlands:spirit_fruit>, <tconstruct:sword_blade>.withTag({Material: "dreadium"}), <thebetweenlands:spirit_fruit>],
+[<ore:gemScabyst>, <thebetweenlands:spirit_fruit>, <ore:gemScabyst>]]);
+
+recipes.addShaped(<thebetweenlands:items_misc:36>,
+[[<ore:ingotOctine>, <thebetweenlands:rock_snot_pearl>, <ore:ingotOctine>],
+[<thebetweenlands:rock_snot_pearl>, <enderio:item_material:57>, <thebetweenlands:rock_snot_pearl>],
+[<ore:ingotOctine>, <thebetweenlands:rock_snot_pearl>, <ore:ingotOctine>]]);
+
+recipes.addShaped(<thebetweenlands:items_misc:35>,
+[[<ore:ingotSyrmorite>, <contenttweaker:menacing_sludge>, <ore:ingotSyrmorite>],
+[<contenttweaker:menacing_sludge>, <tconstruct:tool_rod>.withTag({Material: "dreadium"}), <contenttweaker:menacing_sludge>],
+[<ore:ingotSyrmorite>, <contenttweaker:menacing_sludge>, <ore:ingotSyrmorite>]]);

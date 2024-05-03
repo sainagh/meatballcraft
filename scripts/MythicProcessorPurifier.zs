@@ -23,3 +23,10 @@ mythpury4.addEnergyPerTickInput(40000);
 mythpury4.addItemInput(<appliedenergistics2:material:1>);
 mythpury4.addItemOutput(<appliedenergistics2:material:7>);
 mythpury4.build();
+
+val mythpury5 = RecipeBuilder.newBuilder("mythpury5","mythic_processor_purifier",1);
+mythpury5.addEnergyPerTickInput(40000);
+mythpury5.addItemInput(<ore:ingotSilicon>);
+mythpury5.addItemInput(<ore:nuggetSilicon>);
+mythpury5.addItemOutput(<libvulpes:productboule:3>);
+mythpury5.build();

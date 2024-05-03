@@ -3,6 +3,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 
 
+
 val enchlistSword as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:minecraft:unbreaking>, <enchantment:minecraft:mending>, <enchantment:minecraft:sweeping>, <enchantment:enderio:witherweapon>];
 var mapSword as IData = {};
 mapSword += enchlistSword[0].makeEnchantment(45).makeTag();
@@ -12,7 +13,7 @@ mapSword += enchlistSword[3].makeEnchantment(4).makeTag();
 mapSword += enchlistSword[4].makeEnchantment(3).makeTag();
 var mapSwordOther as IData = {
 	RepairCost: 1,
-	display: {Name: "Sword of the Swamps"}
+	display: {Name: "§6§oSword of the Swamps§r", Lore: ["§d§oSuper-Enchanted§r"]}
 };
 mapSword += mapSwordOther;
 
@@ -80,7 +81,7 @@ bot8.addItemInput(<thebetweenlands:aqua_middle_gem>*2);
 bot8.addItemInput(<thebetweenlands:green_middle_gem>*2);
 bot8.addItemInput(<thebetweenlands:crimson_middle_gem>*2);
 bot8.addItemInput(<minecraft:shulker_shell>*8);
-bot8.addItemOutput(<thebetweenlands:ancient_chestplate>.withTag({ench: [{lvl: 5 as short, id: 0 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Eonic Chestplate"}}));
+bot8.addItemOutput(<thebetweenlands:ancient_chestplate>.withTag({ench: [{lvl: 5 as short, id: 0 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oEonic Chestplate§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 bot8.build();
 
 val bot9 = RecipeBuilder.newBuilder("gateval9","valonite_gateway",2000);
@@ -91,7 +92,7 @@ bot9.addItemInput(<thebetweenlands:aqua_middle_gem>*2);
 bot9.addItemInput(<thebetweenlands:green_middle_gem>*2);
 bot9.addItemInput(<thebetweenlands:crimson_middle_gem>*2);
 bot9.addItemInput(<minecraft:shulker_shell>*5);
-bot9.addItemOutput(<thebetweenlands:ancient_helmet>.withTag({ench: [{lvl: 5 as short, id: 0 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Eonic Helmet"}}));
+bot9.addItemOutput(<thebetweenlands:ancient_helmet>.withTag({ench: [{lvl: 5 as short, id: 0 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oEonic Helmet§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 bot9.build();
 
 val bot10 = RecipeBuilder.newBuilder("gateval10","valonite_gateway",2000);
@@ -102,7 +103,7 @@ bot10.addItemInput(<thebetweenlands:aqua_middle_gem>*2);
 bot10.addItemInput(<thebetweenlands:green_middle_gem>*2);
 bot10.addItemInput(<thebetweenlands:crimson_middle_gem>*2);
 bot10.addItemInput(<minecraft:shulker_shell>*7);
-bot10.addItemOutput(<thebetweenlands:ancient_leggings>.withTag({ench: [{lvl: 5 as short, id: 0 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Eonic Leggings"}}));
+bot10.addItemOutput(<thebetweenlands:ancient_leggings>.withTag({ench: [{lvl: 5 as short, id: 0 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oEonic Leggings§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 bot10.build();
 
 val bot11 = RecipeBuilder.newBuilder("gateval11","valonite_gateway",2000);
@@ -113,7 +114,7 @@ bot11.addItemInput(<thebetweenlands:aqua_middle_gem>*2);
 bot11.addItemInput(<thebetweenlands:green_middle_gem>*2);
 bot11.addItemInput(<thebetweenlands:crimson_middle_gem>*2);
 bot11.addItemInput(<minecraft:shulker_shell>*4);
-bot11.addItemOutput(<thebetweenlands:ancient_boots>.withTag({ench: [{lvl: 5 as short, id: 0 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Eonic Boots"}}));
+bot11.addItemOutput(<thebetweenlands:ancient_boots>.withTag({ench: [{lvl: 5 as short, id: 0 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oEonic Boots§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 bot11.build();
 
 val bot12 = RecipeBuilder.newBuilder("gateval12","valonite_gateway",100);

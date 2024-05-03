@@ -42,3 +42,4 @@ mythfurn6.addEnergyPerTickInput(60000);
 mythfurn6.addItemInput(<contenttweaker:draconian_metal_clump>);
 mythfurn6.addItemOutput(<contenttweaker:draconian_metal_ingot>);
 mythfurn6.build();
+

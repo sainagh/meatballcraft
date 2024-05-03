@@ -213,7 +213,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<astralsorcery:itemcape>.withTag({
 {lvl: 1 as short, id: 70 as short},
 {lvl: 10 as short, id: 3 as short},
 {lvl: 10 as short, id: 4 as short}
-], RepairCost: 1, astralsorcery: {constellationName: "astralsorcery.constellation.armara"}}), 
+], RepairCost: 1, astralsorcery: {constellationName: "astralsorcery.constellation.armara"},display: {Name:"§6§oMantle of the Stars§r",Lore:["§d§oSuper-Enchanted§r"]}}), 
 [[<astralsorcery:itemperkseal>, <astralsorcery:itemrockcrystalsimple>, null, <contenttweaker:dynatos_crystal>, null, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemperkseal>], 
 [<astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <extendedcrafting:singularity:49>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>], 
 [null, <astralsorcery:itemrockcrystalsimple>, null, null, null, <astralsorcery:itemrockcrystalsimple>, null], 
@@ -388,3 +388,19 @@ recipes.addShaped(<xreliquary:potion>.withTag({effects: [{duration: 50000, poten
 [[<biomesoplenty:mushroom:3>, <divinerpg:corrupted_shards>, <biomesoplenty:mushroom:3>],
 [<divinerpg:corrupted_shards>, <xreliquary:potion>, <divinerpg:corrupted_shards>],
 [<biomesoplenty:mushroom:3>, <divinerpg:corrupted_shards>, <biomesoplenty:mushroom:3>]]);
+
+
+// recycle books
+
+recipes.addHiddenShaped("secretbookrecycler",<contenttweaker:spell_recycling_crystal>,
+[[null, <ebwizardry:magic_crystal:0>, null],
+[<ebwizardry:magic_crystal:0>, <ironchest:iron_chest:5>, <ebwizardry:magic_crystal:0>],
+[null, <ebwizardry:magic_crystal:0>, null]]);
+
+val bookebspells = <ore:bookEBSpells>;
+bookebspells.add(<ebwizardry:spell_book>);
+bookebspells.add(<tfspellpack:twilight_spell_book>);
+
+recipes.addShapeless(<ebwizardry:magic_crystal:0>*3,
+[<ore:bookEBSpells>,
+<contenttweaker:spell_recycling_crystal>.reuse()]);

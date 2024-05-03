@@ -330,3 +330,12 @@ plasmavethea.addItemInput(<divinerpg:arksiane_lump>*5);
 plasmavethea.addItemInput(<contenttweaker:skythern_core>*4);
 plasmavethea.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:hassium_chicken"}}));
 plasmavethea.build();
+
+val plasmaabomination = RecipeBuilder.newBuilder("plasmaabomination","plasmatic_condenser",20);
+plasmaabomination.addFluidInput(<fluid:dense_plasma>*160000);
+plasmaabomination.addItemInput(<contenttweaker:paradigm_of_dominion>*4);
+plasmaabomination.addItemInput(<contenttweaker:imperfect_gem_of_the_cosmos>*4);
+plasmaabomination.addItemInput(<contenttweaker:eternal_tulite>*16);
+plasmaabomination.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:fesh_abomination_chicken"}}));
+plasmaabomination.build();
+

@@ -326,5 +326,9 @@ heraldrychicken.setForegroundColor(Color.fromHex("388a2e"));
 heraldrychicken.setSpawnType("NONE");
 heraldrychicken.register();
 
+var fleshabominationchicken = ChickenFactory.createChicken("fesh_abomination_chicken", Color.fromHex("78005e"), <item:contenttweaker:abominable_egg>);
+fleshabominationchicken.setForegroundColor(Color.fromHex("850000"));
+fleshabominationchicken.setSpawnType("NONE");
+fleshabominationchicken.register();
 
 

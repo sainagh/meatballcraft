@@ -173,6 +173,8 @@ recipes.addShapeless(<contenttweaker:cut_mysterium_garnet>*4, [<contenttweaker:m
 
 recipes.addShapeless(<contenttweaker:cut_voxponds_garnet>*4, [<contenttweaker:vox_ponds_garnet>, <contenttweaker:ender_dolomite_dust>, <ore:dustPetrotheum>]);
 
+recipes.addShapeless(<contenttweaker:cut_shyrelands_garnet>*4, [<contenttweaker:shyrelands_garnet>, <contenttweaker:ender_dolomite_dust>, <ore:dustPetrotheum>]);
+
 recipes.addShapeless(<contenttweaker:cut_iromine_garnet>*4, [<contenttweaker:iromine_garnet>, <contenttweaker:ender_dolomite_dust>, <ore:dustPetrotheum>]);
 
 recipes.addShapeless(<contenttweaker:cut_runandor_garnet>*4, [<contenttweaker:runandor_garnet>, <contenttweaker:ender_dolomite_dust>, <ore:dustPetrotheum>]);

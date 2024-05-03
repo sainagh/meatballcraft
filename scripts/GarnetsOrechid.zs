@@ -101,3 +101,10 @@ specialgrinding2.setChance(0.0);
 specialgrinding2.addItemInput(<ore:oreEtherium> *4);
 specialgrinding2.addItemOutput(<contenttweaker:etherium_dust>*16);
 specialgrinding2.build();
+
+mods.botania.RuneAltar.addRecipe(<contenttweaker:botanical_dream_stone>, [<divinerpg:dream_stone>, <contenttweaker:etherium_ingot>, <contenttweaker:recursive_powder>, <extrabotany:material:3>, <extrabotany:specialbag>, <extrabotany:material:1>], 100);
+mods.botania.RuneAltar.addRecipe(<contenttweaker:botanical_nightmare_stone>, [<divinerpg:dream_dirt>, <contenttweaker:etherium_ingot>, <contenttweaker:recursive_powder>, <extrabotany:material:3>, <extrabotany:specialbag>, <extrabotany:material:1>], 100);
+
+
+mods.botania.PureDaisy.addRecipe(<contenttweaker:botanical_dream_stone>, <contenttweaker:arkenstone>);
+mods.botania.PureDaisy.addRecipe(<contenttweaker:botanical_nightmare_stone>, <contenttweaker:etherium_ore>);

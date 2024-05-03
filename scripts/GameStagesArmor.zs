@@ -203,6 +203,7 @@ var visualent = ArmorHandler.createArmorEntity("aoa3:visualent").withNBTCheck("H
 var voxxulon = ArmorHandler.createArmorEntity("aoa3:voxxulon").withNBTCheck("Health", 1.0, "GREATER"); 
 var xxeus = ArmorHandler.createArmorEntity("aoa3:xxeus").withNBTCheck("Health", 1.0, "GREATER"); 
 var glacide = ArmorHandler.createArmorEntity("divinerpg:glacide").withNBTCheck("Health", 1.0, "GREATER"); 
+var eldritchgolem = ArmorHandler.createArmorEntity("thaumcraft:eldritgolem").withNBTCheck("Health", 1.0, "GREATER"); 
 
 
 var aoabossesgroup = ArmorHandler.createArmorGroup("aoabossesgroup", 0.9);
@@ -919,5 +920,15 @@ hardmodegroupmid.addGameStage("hardmode");
 
 var ardmodegroupglacide = ArmorHandler.createArmorGroup("ardmodegroupglacide", 1.0);
 ardmodegroupglacide.addEntity(glacide);
-ardmodegroupglacide.addArmor(ArmorHandler.createArmorSlot("mainhand", <contenttweaker:phasing_snowflake>, 1, 0.1));
+ardmodegroupglacide.addArmor(ArmorHandler.createArmorSlot("mainhand", <contenttweaker:phasing_snowflake>, 1, 1.0));
 ardmodegroupglacide.addGameStage("hardmode"); 
+
+var hardmodegroupeldgolem = ArmorHandler.createArmorGroup("hardmodegroupeldgolem", 1.0);
+hardmodegroupeldgolem.addEntity(eldritchgolem);
+hardmodegroupeldgolem.addArmor(ArmorHandler.createArmorSlot("mainhand", <contenttweaker:eldritch_metal_plate>, 1, 0.9));
+hardmodegroupeldgolem.addGameStage("hardmode"); 
+
+var hardmodegroupcarrotop = ArmorHandler.createArmorGroup("hardmodegroupcarrotop", 1.0);
+hardmodegroupcarrotop.addEntity(carrotop);
+hardmodegroupcarrotop.addArmor(ArmorHandler.createArmorSlot("mainhand", <contenttweaker:tungsten_carrot>, 1, 1.0));
+hardmodegroupcarrotop.addGameStage("hardmode"); 

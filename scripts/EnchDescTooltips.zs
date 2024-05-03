@@ -45,7 +45,8 @@
 <contenttweaker:enchdesc_waterwalking>.addTooltip(format.red("Lets the player walk ontop of water like a solid block, sneak to swim."));
 <contenttweaker:enchdesc_waterwalking>.addTooltip(format.red("WARNING: this can cause crashes."));
 <contenttweaker:enchdesc_aftershock>.addTooltip(format.red("Weaker Vorpal, gives a 5% chance per level of double damage"));
-<contenttweaker:enchdesc_rive>.addTooltip(format.red("Makes tools like a hammer, mines a 3 x 3 x level area"));
+<contenttweaker:enchdesc_rive>.addTooltip(format.red("Makes tools like a hammer, mines a 3 x 3 x level area, and veinmines"));
+<contenttweaker:enchdesc_rive>.addTooltip(format.red("WARNING: do not use to break Draconum Chests, they will lose content"));
 <contenttweaker:enchdesc_reaper>.addTooltip(format.red("Boosts chance of mobs dropping Souls, +0.1% chance for mobs per level, +0.125% chance for animals per level. Wyvern sword and bow adds 1 level, Draconic sword and bow adds 2 levels, Staff of power adds 3 levels."));
 <contenttweaker:enchdesc_fire_imbuement>.addTooltip(format.red("Temporarily adds extra fire damage and burns mobs, only obtainable from the Flaming weapon spell."));
 <contenttweaker:enchdesc_frost_imbuement>.addTooltip(format.red("Temporarily adds extra Frost damage, only obtainable from the Freezing weapon spell."));

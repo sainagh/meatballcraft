@@ -25,4 +25,29 @@ mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:matrix_ore>, <aoa3:sh
 val runicoredict = <ore:oreRunic>;
 runicoredict.add(<contenttweaker:runic_ore>);
 
-mods.immersiveengineering.Excavator.addMineral("Runic", 80, 0.0001, ["oreRunic"], [1.0], [820]);
+mods.immersiveengineering.Excavator.addMineral("Runic", 80, 0.0001, ["oreRunic"], [1.0], [819]);
+
+
+
+val divineorecorrupted = <ore:oreDivineCorrupted>;
+divineorecorrupted.add(<contenttweaker:corrupted_divine_ore>);
+
+val divineoreender = <ore:oreDivineEnder>;
+divineoreender.add(<contenttweaker:ender_divine_ore>);
+
+val divineoreice = <ore:oreDivineIce>;
+divineoreice.add(<contenttweaker:ice_divine_ore>);
+
+val divineorejungle = <ore:oreDivineJungle>;
+divineorejungle.add(<contenttweaker:jungle_divine_ore>);
+
+val divineoremolten = <ore:oreDivineMolten>;
+divineoremolten.add(<contenttweaker:molten_divine_ore>);
+
+val divineoreshadow = <ore:oreDivineShadow>;
+divineoreshadow.add(<contenttweaker:shadow_divine_ore>);
+
+val divineoreterran = <ore:oreDivineTerran>;
+divineoreterran.add(<contenttweaker:terran_divine_ore>);
+
+mods.immersiveengineering.Excavator.addMineral("GallifreyanStones", 80, 0.0001, ["oreDivineCorrupted", "oreDivineEnder", "oreDivineIce", "oreDivineJungle", "oreDivineMolten", "oreDivineShadow", "oreDivineTerran"], [0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9], [624]);

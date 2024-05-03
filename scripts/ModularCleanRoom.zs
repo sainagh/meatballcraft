@@ -11,7 +11,7 @@ mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:singular_spa
 
 recipes.addShaped(<contenttweaker:fluix_etcher>,
 [[<contenttweaker:singular_spatial_processor>, <extendedcrafting:singularity:1>, <contenttweaker:singular_spatial_processor>],
-[<extendedcrafting:singularity:18>, <extracells:storage.component:3>, <extendedcrafting:singularity_custom:1032>],
+[<extendedcrafting:singularity:18>, <nae2:material:4>, <extendedcrafting:singularity_custom:1032>],
 [<contenttweaker:singular_spatial_processor>, <extendedcrafting:singularity:3>, <contenttweaker:singular_spatial_processor>]]);
 
 
@@ -73,3 +73,12 @@ cleanroom8.addItemInput(<minecraft:diamond>*32);
 cleanroom8.addItemInput(<contenttweaker:dense_redstone>*32);
 cleanroom8.addItemOutput(<buildcraftsilicon:redstone_chipset:4>*64);
 cleanroom8.build();
+
+val cleanroom9 = RecipeBuilder.newBuilder("cleanroom9","processor_clean_room",10);
+cleanroom9.addEnergyPerTickInput(40000);
+cleanroom9.addItemInput(<contenttweaker:defined_ingot>);
+cleanroom9.addItemInput(<minecraft:redstone>);
+cleanroom9.addItemInput(<ore:ingotChaos>);
+cleanroom9.addItemInput(<avaritia:resource:5>);
+cleanroom9.addItemOutput(<contenttweaker:defined_redstone_chipset>);
+cleanroom9.build();

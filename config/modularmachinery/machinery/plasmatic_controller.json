@@ -2,6 +2,21 @@
     "registryname": "plasmatic_controller",
     "localizedname": "Plasmatic Controller",
 	"color": "330909",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:nightmare_block@0",
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "description": "Increases production speed by 400, and massively increase power draw",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.0025
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -1,

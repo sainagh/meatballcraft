@@ -8,12 +8,25 @@
             "x": 0,
             "y": 1,
             "z": 3,
-            "description": "Mithminite instead of Adaminite to increase speed by 80%",
+            "description": "5X Speed",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.2
+            }
+        },
+        {
+            "elements": "contenttweaker:ichorium_catalyst@0",
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "description": "20X Speed",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.05
             }
         }
     ],

@@ -160,9 +160,8 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_compressor>*
 
 
 val haliteingotcompression = RecipeBuilder.newBuilder("haliteingotcompression","dyson_compressor",100);
-haliteingotcompression.addEnergyPerTickInput(50000000);
-haliteingotcompression.addItemInput(<contenttweaker:halite_warrior>);
-haliteingotcompression.addItemInput(<contenttweaker:horcrux>*4);
+haliteingotcompression.addEnergyPerTickInput(2000000000);
+haliteingotcompression.addItemInput(<contenttweaker:pure_halite_cluster>);
 haliteingotcompression.addItemOutput(<materialpart:halite:ingot>);
 haliteingotcompression.build();
 

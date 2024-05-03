@@ -167,6 +167,6 @@ var trait_ingarage = VanillaFactory.createItem("trait_ingarage");	trait_ingarage
 var trait_surfwaxmurica = VanillaFactory.createItem("trait_surfwaxmurica");	trait_surfwaxmurica.textureLocation = instanceTEX;  trait_surfwaxmurica.register();
 var trait_undone = VanillaFactory.createItem("trait_undone");	trait_undone.textureLocation = instanceTEX;  trait_undone.register();
 var trait_thunder = VanillaFactory.createItem("trait_thunder");	trait_thunder.textureLocation = instanceTEX;  trait_thunder.register();
-var trait_necrotic = VanillaFactory.createItem("trait_necrotic");  trait_necrotic.register();
-var trait_sentience = VanillaFactory.createItem("trait_sentience");	 trait_sentience.register();
+var trait_necrotic = VanillaFactory.createItem("trait_necrotic"); trait_necrotic.textureLocation = instanceTEX;   trait_necrotic.register();
+var trait_sentience = VanillaFactory.createItem("trait_sentience");	trait_sentience.textureLocation = instanceTEX;  trait_sentience.register();
 

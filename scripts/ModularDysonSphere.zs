@@ -12,11 +12,60 @@ dysonuse.addItemOutput(<contenttweaker:dyson_capacitor>);
 dysonuse.addEnergyPerTickOutput(5000000);
 dysonuse.build();
 
+val dysonuset2 = RecipeBuilder.newBuilder("dysonuset2","dyson_discharger_t2",72000);
+dysonuset2.addItemInput(<contenttweaker:charged_dyson_capacitor>*3);
+dysonuset2.addItemOutput(<contenttweaker:dyson_capacitor>*3);
+dysonuset2.addEnergyPerTickOutput(20000000);
+dysonuset2.build();
+
+val dysonuset3 = RecipeBuilder.newBuilder("dysonuset3","dyson_discharger_t3",72000);
+dysonuset3.addItemInput(<contenttweaker:charged_dyson_capacitor>*9);
+dysonuset3.addItemOutput(<contenttweaker:dyson_capacitor>*9);
+dysonuset3.addEnergyPerTickOutput(80000000);
+dysonuset3.build();
+
+val dysonuset4 = RecipeBuilder.newBuilder("dysonuset4","dyson_discharger_t4",72000);
+dysonuset4.addItemInput(<contenttweaker:charged_dyson_capacitor>*27);
+dysonuset4.addItemOutput(<contenttweaker:dyson_capacitor>*27);
+dysonuset4.addEnergyPerTickOutput(320000000);
+dysonuset4.build();
+
+val dysonuset5 = RecipeBuilder.newBuilder("dysonuset5","dyson_discharger_t5",72000);
+dysonuset5.addItemInput(<contenttweaker:charged_dyson_capacitor>*81);
+dysonuset5.addItemOutput(<contenttweaker:dyson_capacitor>*81);
+dysonuset5.addEnergyPerTickOutput(1280000000);
+dysonuset5.build();
+
+
 recipes.addShaped(<contenttweaker:dyson_capacitor>,
 [[<contenttweaker:muon_crystal>, <materialpart:chaos:dust>, <contenttweaker:magnetic_monopole>],
 [<materialpart:chaos:dust>, <contenttweaker:nightmare_coil>, <materialpart:chaos:dust>],
 [<contenttweaker:magnetic_monopole>, <materialpart:chaos:dust>, <contenttweaker:muon_crystal>]]);
 
+recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x1>,
+[[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
+[<enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), <contenttweaker:strings_crystal>, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000})],
+[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x4>,
+[[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
+[<contenttweaker:hypercapacitor_discharger_x1>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x1>],
+[<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x1>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x16>,
+[[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
+[<contenttweaker:hypercapacitor_discharger_x4>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x4>],
+[<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x4>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x64>,
+[[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
+[<contenttweaker:hypercapacitor_discharger_x16>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x16>],
+[<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x16>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x256>,
+[[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
+[<contenttweaker:hypercapacitor_discharger_x64>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x64>],
+[<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x64>, <modularmachinery:itemmodularium>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_shell>*6, 
 [[<extendedcrafting:material:13>, <contenttweaker:ogerite_crystal_matrix>, null, <contenttweaker:gravity_manipulator_device>, null, <contenttweaker:ogerite_crystal_matrix>, <extendedcrafting:material:13>], 
@@ -55,7 +104,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:ultracapacitor_ban
 <libvulpes:advstructuremachine>, <contenttweaker:nightmare_coil>, <contenttweaker:brightsteel_alloy_ingot>], 
 
 [<contenttweaker:empowerment_core>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:nightmare_coil>, 
-<contenttweaker:highly_advanced_machine_casing>, <extracells:storage.component:3>, <contenttweaker:highly_advanced_machine_casing>, 
+<contenttweaker:highly_advanced_machine_casing>, <nae2:material:4>, <contenttweaker:highly_advanced_machine_casing>, 
 <contenttweaker:nightmare_coil>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:empowerment_core>], 
 
 [<appliedenergistics2:spatial_pylon>, <avaritia:resource:4>, <techreborn:fusion_coil>, 

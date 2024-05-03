@@ -52,6 +52,7 @@
 
 <contenttweaker:wrought_summoner>.addTooltip(format.red("Callstone"));
 
+<contenttweaker:gravitite_dust>.addTooltip(format.red("Thanks to GalacticSilver for the textures for gravitite processing!"));
 <contenttweaker:gravitite_chunk>.addTooltip(format.red("Thanks to GalacticSilver for the textures for gravitite processing!"));
 
 <contenttweaker:paparazzi_camera>.addTooltip(format.red("Right click to unlock powerful extra botany artifacts"));
@@ -61,7 +62,11 @@
 
 <contenttweaker:pixonia_infusion_key>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
 
+<contenttweaker:energetic_prison_key>.addTooltip(format.red("Callstone"));
+
 <contenttweaker:arcane_prison_key>.addTooltip(format.red("Thanks to Josip for the texture!"));
+<contenttweaker:draconian_prison_key>.addTooltip(format.red("Thanks to Josip for the texture!"));
+<contenttweaker:energetic_prison_key>.addTooltip(format.red("Thanks to Josip for the texture!"));
 <contenttweaker:harbinger_charm>.addTooltip(format.red("Thanks to Josip for the texture!"));
 <contenttweaker:crimson_gem>.addTooltip(format.red("Thanks to Josip for the texture!"));
 <contenttweaker:aquatic_stone>.addTooltip(format.red("Thanks to Josip for the texture!"));
@@ -171,6 +176,8 @@
 <contenttweaker:dispelling_manuscript>.addTooltip(format.green("Reusable"));
 <contenttweaker:dread_crown>.addTooltip(format.green("Reusable"));
 
+<contenttweaker:vibrating_mithminite_schythe>.addTooltip(format.green("Reusable for no-EMC challenge recipes"));
+
 <bigreactors:reactorcontroller>.addTooltip(format.red("Better with a turbine!"));
 
 <minecraft:enchanted_book>.addTooltip(format.red("The dispelling manuscript can be used to recycle enchanted books for a small profit"));
@@ -237,8 +244,8 @@
 <contenttweaker:recursive_anomaly>.addTooltip(format.red("Pyromaniacal is accompanied by the sounds of chains, creaking, and groaning"));
 
 <contenttweaker:gemheart>.addTooltip(format.red("Found on Apichisi"));
-<contenttweaker:gemheart>.addTooltip(format.red("Combine with the right crystals, Crystevia will guide you"));
-<contenttweaker:infuser_fabrial>.addTooltip(format.red("Combine a Gemheart with the right crystals, Crystevia will guide you"));
+<contenttweaker:gemheart>.addTooltip(format.red("Combine with the right crystals (8), Crystevia will guide you"));
+<contenttweaker:infuser_fabrial>.addTooltip(format.red("Combine a Gemheart with the right crystals (8), Crystevia will guide you"));
 
 <abyssalcraft:dreadfragment>.addTooltip(format.red("Dropped by Dreadlands mobs"));
 
@@ -265,15 +272,15 @@
 
 <contenttweaker:apothecary_stone>.addTooltip(format.red("Found in Iromine"));
 
-<contenttweaker:empowered_apothecary_stone>.addTooltip(format.red("Combine with the right powders, Wildwood will guide you"));
+<contenttweaker:empowered_apothecary_stone>.addTooltip(format.red("Combine with the right powders (4), Wildwood will guide you"));
 
-<contenttweaker:apothecary_prison_key>.addTooltip(format.red("Combine the Empowered Apothecary Stone with the right powders, Wildwood will guide you"));
+<contenttweaker:apothecary_prison_key>.addTooltip(format.red("Combine the Empowered Apothecary Stone with the right powders (4), Wildwood will guide you"));
 
 <ore:dragonScaleItem>.addTooltip(format.red("Dragons are less buggy thanks to ChaosStrikez!"));
 
 <contenttweaker:dragon_will_fragment>.addTooltip(format.red("Found in Mysterium"));
 
-<contenttweaker:whispering_heart_of_hearts>.addTooltip(format.red("Combine with the right Dragon Scales, Mysterium will guide you"));
+<contenttweaker:whispering_heart_of_hearts>.addTooltip(format.red("Combine with the right Dragon Scales (4), Mysterium will guide you"));
 
 <plustic:katana>.addTooltip(format.red("Made with: Tough Tool Rod, Large Sword Blade X2, Tough Binding"));
 
@@ -325,22 +332,22 @@
 
 <gendustry:honey_comb:14019>.addTooltip(format.red("From the Apothecary Prison Key"));
 
-<contenttweaker:soul_of_the_dragonslayer>.addTooltip(format.red("Combine the Whispering Heart of Hearts with the right Scales, Mysterium will guide you!"));
+<contenttweaker:soul_of_the_dragonslayer>.addTooltip(format.red("Combine the Whispering Heart of Hearts with the right Scales (4), Mysterium will guide you!"));
 
 <contenttweaker:voraceous_worm_callstone>.addTooltip(format.red("Obtained from the gem of Voracity"));
 
 <contenttweaker:gem_of_gluttony>.addTooltip(format.red("Found in Pixonia"));
-<contenttweaker:gem_of_gluttony>.addTooltip(format.red("Craft with the right Bejewelled Banner, the Vox Ponds will guide you"));
+<contenttweaker:gem_of_gluttony>.addTooltip(format.red("Craft with the right Bejewelled Banner (1), the Vox Ponds will guide you"));
 
 <contenttweaker:gem_of_voracity>.addTooltip(format.red("Use me"));
-<contenttweaker:gem_of_voracity>.addTooltip(format.red("Craft the Gem of Gluttony with the right Bejewelled Banner, the Vox Ponds will guide you"));
+<contenttweaker:gem_of_voracity>.addTooltip(format.red("Craft the Gem of Gluttony with the right Bejewelled Banner (1), the Vox Ponds will guide you"));
 
 <ae2stuff:wireless>.addTooltip(format.red("Right click with Dyes to change color"));
 
 <contenttweaker:icy_dreadful_shard>.addTooltip(format.red("Found on Pixonia"));
-<contenttweaker:icy_dreadful_shard>.addTooltip(format.red("Surround with the right potion essences, the Apothecary Comb and the Dread Shards in the Twilight Forest will guide you"));
+<contenttweaker:icy_dreadful_shard>.addTooltip(format.red("Surround with the right potion essences (4), the Apothecary Comb and the Dread Shards in the Twilight Forest will guide you"));
 
-<contenttweaker:dreadful_shard>.addTooltip(format.red("Surround the Icy Dreadful Shard with the right potion essences, the Apothecary Comb and the Dread Shards in the Twilight Forest will guide you"));
+<contenttweaker:dreadful_shard>.addTooltip(format.red("Surround the Icy Dreadful Shard with the right potion essences (4), the Apothecary Comb and the Dread Shards in the Twilight Forest will guide you"));
 
 <contenttweaker:dreadful_prison_key>.addTooltip(format.red("Callstone"));
 
@@ -349,7 +356,7 @@
 
 <contenttweaker:good_extreme_turbine>.addTooltip(format.red("Four slices of ludicrite, ten slices of rotor blades"));
 
-<contenttweaker:stone_of_endless_hunger>.addTooltip(format.red("From the Voraceous Worm Callstone"));
+<contenttweaker:stone_of_endless_hunger>.addTooltip(format.red("From the Voracious Worm Callstone"));
 
 <contenttweaker:dread_crown>.addTooltip(format.red("From the Dreadful Prison Key"));
 
@@ -358,8 +365,8 @@
 <extrabotany:firstfractal>.addTooltip(format.red("Can be super-enchanted"));
 <animus:kama_bound>.addTooltip(format.red("Can be super-enchanted"));
 
-<aoa3:elecanium_ingot>.addTooltip(format.red("Fill an Openblocks tank with molten elecanium and surround with the right runes, Runandor will guide you"));
-<aoa3:elecanium_ore>.addTooltip(format.red("Fill an Openblocks tank with molten elecanium and surround with the right runes, Runandor will guide you"));
+<aoa3:elecanium_ingot>.addTooltip(format.red("Fill an Openblocks tank with molten elecanium and surround with the right runes (8), Runandor will guide you"));
+<aoa3:elecanium_ore>.addTooltip(format.red("Fill an Openblocks tank with molten elecanium and surround with the right runes (8), Runandor will guide you"));
 
 <thaumicwonders:alienist_stone>.addTooltip(format.red("Should be enchanted with the highest level of unbreaking available for automating Eldritch Clusters"));
 
@@ -384,11 +391,12 @@
 <contenttweaker:pressed_spice>.addTooltip(format.red("Combine the right spice with the right Openblocks Stencils, Lunalus will guide you"));
 
 <contenttweaker:runic_ore>.addTooltip(format.red("Use the Ore Excavator on Runandor, Runic vein"));
-<contenttweaker:runic_ore>.addTooltip(format.red("Combine with the right Eldritch Clusters, Apalachia will guide you"));
+<contenttweaker:runic_ore>.addTooltip(format.red("Combine with the right Eldritch Clusters (3), Apalachia will guide you"));
 
-<contenttweaker:catalyzed_runic_ore>.addTooltip(format.red("Combine a Runic Ore with the right Eldritch Clusters, Apalachia will guide you"));
+<contenttweaker:catalyzed_runic_ore>.addTooltip(format.red("Combine a Runic Ore with the right Eldritch Clusters (3), Apalachia will guide you"));
 
 <draconicevolution:draconium_block:1>.addTooltip(format.red("Place Awakened Draconium Blocks around a Draconic Reactor, and make it go boom"));
+<draconicevolution:draconium_block:1>.addTooltip(format.red("Mine with silk touch"));
 
 <contenttweaker:charged_gemstone>.addTooltip(format.red("Dropped by Charged Creepers, there are lots of ways of making lightning"));
 
@@ -448,7 +456,7 @@
 <contenttweaker:ensnaring_soul>.addTooltip(format.red("Obtained from the Horde Domination Callstone"));
 <contenttweaker:soul_of_colonial_servitude>.addTooltip(format.red("Obtained from the Horde Domination Callstone"));
 
-<contenttweaker:will_ensnaring_fabrial>.addTooltip(format.red("To make the potions with Thermal, start with Basaz Powder, Pufferfish, Pulverized Obsidian, Rabbit Foot"));
+<contenttweaker:will_ensnaring_fabrial>.addTooltip(format.red("To make the potions use the Alchemical Imbuer, start with Basaz Powder, Pufferfish, Pulverized Obsidian, Rabbit Foot"));
 
 <contenttweaker:phasing_snowflake>.addTooltip(format.red("Hard mode drop: Glacides in Iceika"));
 
@@ -456,10 +464,10 @@
 
 <contenttweaker:master_wizardry_catalyst>.addTooltip(format.red("Hard mode is your friend ;)"));
 
-<contenttweaker:phasing_fluix_construct>.addTooltip(format.red("Combine with the right Draconic Evolution Souls, look around"));
+<contenttweaker:phasing_fluix_construct>.addTooltip(format.red("Combine with the right Draconic Evolution Souls (8), look around"));
 <contenttweaker:phasing_fluix_construct>.addTooltip(format.red("A certain super-enchant will help you ;)"));
 
-<contenttweaker:attuned_fluix_construct>.addTooltip(format.red("Combine the Phasing Fluix Construct with the right Draconic Evolution Souls, the Fluix Historian Callstone will guide you"));
+<contenttweaker:attuned_fluix_construct>.addTooltip(format.red("Combine the Phasing Fluix Construct with the right Draconic Evolution Souls (8), the Fluix Historian Callstone will guide you"));
 
 <contenttweaker:digital_matter_transmission_module>.addTooltip(format.red("Thanks to shardion for implementing dimension-blacklisting to player interfaces! No more Vethea gating!"));
 
@@ -478,7 +486,12 @@
 <contenttweaker:hot_heat_exchanger>.addTooltip(format.red("Use Hard Carbon tubes"));
 <contenttweaker:cold_heat_exchanger>.addTooltip(format.red("Use Thermoconducting tubes"));
 
-<ore:plateCopper>.addTooltip(format.red("Thanks to Mambodog261 for helping out with oredict unification!"));
+<contenttweaker:hot_heat_exchanger>.addTooltip(format.red("INPUT SPREAD on output side (PRODUCT OUT for last slice), DEFAULT on input side, DISABLED on all other sides"));
+<contenttweaker:cold_heat_exchanger>.addTooltip(format.red("INPUT SPREAD on output side (PRODUCT OUT for last slice), DEFAULT on input side, DISABLED on all other sides"));
+
+<contenttweaker:particulate_steam_condensation_tube>.addTooltip(format.red("INPUT SPREAD on output side (PRODUCT OUT for last slice), DEFAULT on input side, DISABLED on all other sides"));
+
+<ore:plateCopper>.addTooltip(format.red("Thanks to Mambodog621 for helping out with oredict unification!"));
 
 <contenttweaker:superfocused_plate_mythic>.addTooltip(format.green("Reusable"));
 
@@ -628,3 +641,369 @@
 <divinerpg:tormented_boots>.addTooltip(format.red("Uses 8 Lumps"));
 
 <contenttweaker:radioactive_residue>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
+
+<contenttweaker:sparkled_oak_planks>.addTooltip(format.red("Craft the right Wood Planks with the right weapon, the Trinity Callstone will guide you"));
+
+<bewitchment:sigil_mending>.addTooltip(format.red("WARNING: shift clicking these out of the Sigil Table can delete them"));
+<bewitchment:sigil_ruin>.addTooltip(format.red("WARNING: shift clicking these out of the Sigil Table can delete them"));
+<bewitchment:sigil_binding>.addTooltip(format.red("WARNING: shift clicking these out of the Sigil Table can delete them"));
+<bewitchment:sigil_cleansing>.addTooltip(format.red("WARNING: shift clicking these out of the Sigil Table can delete them"));
+<bewitchment:sigil_failure>.addTooltip(format.red("WARNING: shift clicking these out of the Sigil Table can delete them"));
+<bewitchment:sigil_purity>.addTooltip(format.red("WARNING: shift clicking these out of the Sigil Table can delete them"));
+<bewitchment:sigil_luck>.addTooltip(format.red("WARNING: shift clicking these out of the Sigil Table can delete them"));
+<bewitchment:sigil_battle>.addTooltip(format.red("WARNING: shift clicking these out of the Sigil Table can delete them"));
+<bewitchment:sigil_disorientation>.addTooltip(format.red("WARNING: shift clicking these out of the Sigil Table can delete them"));
+<bewitchment:sigil_shrieking>.addTooltip(format.red("WARNING: shift clicking these out of the Sigil Table can delete them"));
+<bewitchment:sigil_sentinel>.addTooltip(format.red("WARNING: shift clicking these out of the Sigil Table can delete them"));
+
+<aoa3:hydro_stone>.addTooltip(format.red("Dropped by Hydrolons in L'Borean"));
+<aoa3:hydro_stone>.addTooltip(format.red("Used to break the shield on Hydrolisk"));
+
+<contenttweaker:infinity_seed>.addTooltip(format.red("Thanks to NerdySpider for making the textures in this chain!"));
+
+<contenttweaker:warlord_callstone>.addTooltip(format.red("WARNING: bring a very large amount of Hydro Stone!"));
+
+<contenttweaker:whitefire_callstone>.addTooltip(format.red("WARNING: Do not place two or more of these within render distance! They will bug out!"));
+
+<contenttweaker:eldritch_metal_plate>.addTooltip(format.red("Obtained from the Eldritch Crab Callstone"));
+<contenttweaker:eldritch_metal_plate>.addTooltip(format.red("Hard Mode Drop: Eldritch Constructs spawned using Ancient Altars from Crimson Warfare"));
+
+<contenttweaker:undead_wing>.addTooltip(format.red("From the Undead Botanist Callstone"));
+<contenttweaker:vegetarian_sentient_meatball>.addTooltip(format.red("From the Undead Botanist Callstone"));
+
+<contenttweaker:undead_botanist_callstone>.addTooltip(format.red("Only craftable in hard mode"));
+
+<botania:teruterubozu>.addTooltip(format.red("Right click with a sunflower to stop rain!"));
+
+<aoa3:skeletal_sword>.addTooltip(format.red("Can be super-enchanted!"));
+
+<contenttweaker:terra_vis_condensate>.addTooltip(format.red("Thanks to NerdySpider for drawing all condensate textures!"));
+<contenttweaker:ignis_vis_condensate>.addTooltip(format.red("Thanks to NerdySpider for drawing all condensate textures!"));
+<contenttweaker:aqua_vis_condensate>.addTooltip(format.red("Thanks to NerdySpider for drawing all condensate textures!"));
+<contenttweaker:aer_vis_condensate>.addTooltip(format.red("Thanks to NerdySpider for drawing all condensate textures!"));
+<contenttweaker:ordo_vis_condensate>.addTooltip(format.red("Thanks to NerdySpider for drawing all condensate textures!"));
+<contenttweaker:perditio_vis_condensate>.addTooltip(format.red("Thanks to NerdySpider for drawing all condensate textures!"));
+
+<contenttweaker:cotton_candy_withering_spray>.addTooltip(format.red("Right click on Cotton Candor to deal 300 damage to it - 10 are needed"));
+
+<contenttweaker:starlight_sphere>.addTooltip(format.red("For masters of spellcraft!"));
+
+<thermalfoundation:tool.fishing_rod_platinum>.addTooltip(format.red("Can be super-enchanted"));
+
+<contenttweaker:void_dust>.addTooltip(format.red("Thanks to Josip for revamping dust textures!"));
+<contenttweaker:crystaltine_dust>.addTooltip(format.red("Thanks to Josip for revamping dust textures!"));
+<contenttweaker:etherium_dust>.addTooltip(format.red("Thanks to Josip for revamping dust textures!"));
+<contenttweaker:ender_dolomite_dust>.addTooltip(format.red("Thanks to Josip for revamping dust textures!"));
+
+<contenttweaker:aesir_gemstone>.addTooltip(format.red("Thanks to NerdySpider for Arkenstone processing textures!"));
+
+<contenttweaker:recursive_powder>.addTooltip(format.red("Thanks to NerdySpider for Arkenstone processing textures!"));
+
+<contenttweaker:sideral_reflector>.addTooltip(format.red("Thanks to NerdySpider for sideral textures!"));
+
+<contenttweaker:nice_clean_salad>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:sacred_cinders_fruit>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:big_boy_steak>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:fortune_cookie>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:pan_di_stelle>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:friendly_frittata>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:lovely_latke>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+<contenttweaker:sacred_cinders_seed>.addTooltip(format.green("Reusable in the Tree of Life"));
+
+<contenttweaker:seraphinite_gem>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
+
+<contenttweaker:diabetic_callstone>.addTooltip(format.red("Can only be crafted after activating the hard mode"));
+
+<contenttweaker:tungsten_carrot>.addTooltip(format.red("Hard mode drop: Carrotops in Candyland"));
+
+<bewitchment:vampiric_amulet>.addTooltip(format.red("Warning: using this may cause crashes"));
+<bewitchment:girdle_of_the_dryads>.addTooltip(format.red("Warning: using this may cause crashes"));
+<bewitchment:hellish_bauble>.addTooltip(format.red("Warning: using this may cause crashes"));
+
+<contenttweaker:deuterium_crystal>.addTooltip(format.red("Thanks to Reclipse for the gas chunks and crystal textures!"));
+<contenttweaker:tritium_chunk>.addTooltip(format.red("Thanks to Reclipse for the gas chunks and crystal textures!"));
+
+<contenttweaker:diabetic_sentient_meatball>.addTooltip(format.red("Obtained from the Diabetic Callstone"));
+
+<contenttweaker:chaotic_poppet>.addTooltip(format.red("Obtained from the Draconian Prison Key"));
+<contenttweaker:chaotic_summoner>.addTooltip(format.red("Obtained from the Draconian Prison Key"));
+
+<contenttweaker:draconian_prison_key>.addTooltip(format.red("Callstone"));
+<contenttweaker:draconian_prison_key>.addTooltip(format.red("Thanks to Freeky for the help with this!"));
+
+<woot:upgrade:0>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgrade:1>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgrade:2>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgrade:3>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgrade:4>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgrade:5>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgrade:6>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgrade:7>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgrade:8>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgrade:9>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgrade:10>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgrade:11>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgrade:12>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgrade:13>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgrade:14>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:0>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:1>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:2>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:3>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:4>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:5>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:6>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:7>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:8>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:9>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:10>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:11>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:12>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:13>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+<woot:upgradeb:14>.addTooltip(format.red("Woot upgrades are added one on top of the other, I at the bottom, II in between, III at the top"));
+
+<nuclearcraft:rad_shielding:0>.addTooltip(format.red("Sometimes there's a visual bug where the armor recipe output will look like a different item, the recipe still works"));
+<nuclearcraft:rad_shielding:1>.addTooltip(format.red("Sometimes there's a visual bug where the armor recipe output will look like a different item, the recipe still works"));
+<nuclearcraft:rad_shielding:2>.addTooltip(format.red("Sometimes there's a visual bug where the armor recipe output will look like a different item, the recipe still works"));
+
+<randomthings:spectreenergyinjector>.addTooltip(format.red("WARNING: do not connect directly to your energy storage, use cables that don't have infinite power transfer and an intermediate energy buffer instead"));
+
+<projecte:item.pe_alchemical_bag:0>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:1>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:2>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:3>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:4>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:5>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:6>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:7>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:8>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:9>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:10>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:11>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:12>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:13>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:14>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+<projecte:item.pe_alchemical_bag:15>.addTooltip(format.red("Very good backpack, works like an Ender Chest from Vanilla Minecraft, each color corresponds to a different player-bound storage"));
+
+<projecte:item.pe_alchemical_bag>.addTooltip(format.red("Requires the Minor Vethea Binding to become craftable in Vethea"));
+
+<projecte:item.pe_alchemical_bag>.addTooltip(format.red("Thanks to Sandman366 for the idea"));
+
+<omniwand:wand>.addTooltip(format.red("Combine in a crafting table to add a wrench or similar!"));
+<omniwand:wand>.addTooltip(format.red("This includes magic tools too!"));
+<omniwand:wand>.addTooltip(format.red("Right click to select what wrench to use"));
+<omniwand:wand>.addTooltip(format.red("Shift + left click while looking air to unselect a book"));
+
+<contenttweaker:hand_framing_tool>.addTooltip(format.red("Many thanks to the Nomifactory team for creating this!"));
+
+<contenttweaker:cosmic_fabric>.addTooltip(format.red("Aedial and Miles wanted more goodies, I agree!"));
+
+<gendustry:honey_comb:14020>.addTooltip(format.red("Obtained from the Soulsucking Callstone"));
+
+<contenttweaker:cotton_candy_withering_spray>.addTooltip(format.red("Thanks to NerdySpider for the texture, and to Reclipse for the recovery!"));
+
+<contenttweaker:first_order_mythic_fractal>.addTooltip(format.red("Thanks to NerdySpider for the animation!"));
+<contenttweaker:second_order_mythic_fractal>.addTooltip(format.red("Thanks to NerdySpider for the animation!"));
+<contenttweaker:third_order_mythic_fractal>.addTooltip(format.red("Thanks to NerdySpider for the animation!"));
+<contenttweaker:fifth_order_mythic_fractal>.addTooltip(format.red("Thanks to NerdySpider for the animation!"));
+
+<contenttweaker:cosmic_fragment_copper>.addTooltip(format.red("Thanks to AFewGoodPlants for the textures!"));
+<contenttweaker:cosmic_fragment_iron>.addTooltip(format.red("Thanks to AFewGoodPlants for the textures!"));
+<contenttweaker:cosmic_fragment_gold>.addTooltip(format.red("Thanks to AFewGoodPlants for the textures!"));
+<contenttweaker:cosmic_fragment_tin>.addTooltip(format.red("Thanks to AFewGoodPlants for the textures!"));
+<contenttweaker:cosmic_fragment_redstone>.addTooltip(format.red("Thanks to AFewGoodPlants for the textures!"));
+<contenttweaker:cosmic_fragment_lapis>.addTooltip(format.red("Thanks to AFewGoodPlants for the textures!"));
+
+<contenttweaker:quicksilver_bucket>.addTooltip(format.red("Use an actual bucket of Quicksilver - normal one doesn't show up in this preview"));
+
+<gendustry:honey_comb:14021>.addTooltip(format.red("LordRaine is a storytelling master!"));
+
+<contenttweaker:alchemical_particle>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+<railcraft:reinforced_concrete:*>.addTooltip(format.red("Thanks to Freeky for adding decorative EMC values!"));
+
+<contenttweaker:leaves_of_life>.addTooltip(format.red("puddinpopper wanted to autobuild with these!"));
+
+<contenttweaker:pack_supporter_token>.addTooltip(format.red("Reclipse had an idea!"));
+
+<contenttweaker:corrupted_divine_ore>.addTooltip(format.red("Use the Ore Excavator in Gallifrey, Gallifreyan Stones Vein"));
+<contenttweaker:ender_divine_ore>.addTooltip(format.red("Use the Ore Excavator in Gallifrey, Gallifreyan Stones Vein"));
+<contenttweaker:ice_divine_ore>.addTooltip(format.red("Use the Ore Excavator in Gallifrey, Gallifreyan Stones Vein"));
+<contenttweaker:jungle_divine_ore>.addTooltip(format.red("Use the Ore Excavator in Gallifrey, Gallifreyan Stones Vein"));
+<contenttweaker:molten_divine_ore>.addTooltip(format.red("Use the Ore Excavator in Gallifrey, Gallifreyan Stones Vein"));
+<contenttweaker:shadow_divine_ore>.addTooltip(format.red("Use the Ore Excavator in Gallifrey, Gallifreyan Stones Vein"));
+<contenttweaker:terran_divine_ore>.addTooltip(format.red("Use the Ore Excavator in Gallifrey, Gallifreyan Stones Vein"));
+
+<forestry:ffarm:*>.addTooltip(format.red("WARNING: do not place multiblock through a chunk boundary, it will corrupt your world!"));
+<forestry:ffarm:*>.addTooltip(format.red("F3 + G to show chunks"));
+
+<contenttweaker:radioactive_sentient_meatball>.addTooltip(format.red("Obtained from the Zoi Callstone"));
+
+<contenttweaker:cosmic_fabric>.addTooltip(format.red("Obtained from a special Mark of the Fallen Tower"));
+
+<abyssalcraft:staff>.addTooltip(format.green("Reusable"));
+
+<contenttweaker:secretive_nightmare_heart>.addTooltip(format.red("Obtained from the Secret Lurker Callstone"));
+
+<bloodarsenal:glass_sacrificial_dagger>.addTooltip(format.red("WARNING: this can delete your inventory if you die from this while wearing Charms of Life"));
+
+<enderutilities:builderswand>.addTooltip(format.red("WARNING: do not add to the Omniwand, it can cause crashes"));
+
+<contenttweaker:fluid_matrix_conduit>.addTooltip(format.red("Erohw wanted plasma in here, I agree!"));
+
+<extrautils2:drum:1>.addTooltip(format.red("Holds 256 buckets"));
+
+<extrautils2:drum:2>.addTooltip(format.red("Holds 4096 buckets"));
+
+<extrautils2:drum:3>.addTooltip(format.red("Holds 65536 buckets"));
+
+<actuallyadditions:block_placer>.addTooltip(format.red("Automatically places blocks from its internal buffer"));
+<actuallyadditions:block_breaker>.addTooltip(format.red("Automatically breaks blocks and places them in its internal buffer"));
+<actuallyadditions:block_dropper>.addTooltip(format.red("Drops items vertically in an exact straight line"));
+
+<draconicevolution:entity_detector:0>.addTooltip(format.red("Counts entities of the specified type within the specified range, outputs a redstone signal accordingly"));
+<draconicevolution:entity_detector:1>.addTooltip(format.red("Counts entities of the specified type (including specific items) within the specified range, outputs a redstone signal accordingly"));
+
+<cyclicmagic:entity_detector>.addTooltip(format.red("Counts entities of the specified type within the specified range, outputs a redstone signal accordingly"));
+
+<actuallyadditions:block_fluid_placer>.addTooltip(format.red("Automatically places fluids from its internal buffer"));
+<actuallyadditions:block_fluid_collector>.addTooltip(format.red("Automatically collects fluids and places them in its internal buffer"));
+
+<openblocks:vacuum_hopper>.addTooltip(format.red("Collects items and XP at a distance"));
+
+<actuallyadditions:block_ranged_collector>.addTooltip(format.red("Collects items at a distance"));
+
+<enderio:block_vacuum_chest>.addTooltip(format.red("Collects items at a distance. Can accept upgrades and filters."));
+
+<randomthings:itemcollector>.addTooltip(format.red("Collects items at a distance"));
+<randomthings:advanceditemcollector>.addTooltip(format.red("Collects items at a distance, can be Filtered"));
+
+<mowziesmobs:wrought_axe>.addTooltip(format.red("Can be super-enchanted"));
+
+<bewitchment:stone_leonard_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:nether_brick_leonard_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:scorned_brick_leonard_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:gold_leonard_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+
+<bewitchment:stone_lilith_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:nether_brick_lilith_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:scorned_brick_lilith_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:gold_lilith_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+
+<bewitchment:stone_baphomet_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:nether_brick_baphomet_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:scorned_brick_baphomet_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:gold_baphomet_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+
+<bewitchment:stone_herne_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:nether_brick_herne_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:scorned_brick_herne_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:gold_herne_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+
+<bewitchment:stone_moloch_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:nether_brick_moloch_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:scorned_brick_moloch_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+<bewitchment:gold_moloch_statue>.addTooltip(format.red("WARNING: these can be a bit crashy when harvested"));
+
+<thaumcraft:creative_flux_sponge>.addTooltip(format.red("Combine with the right charms (4), this will not be consumed - Finem will guide you"));
+<contenttweaker:meatball_man_charm>.addTooltip(format.red("Combine a Flux Sponge with the right charms (4) - Finem will guide you"));
+
+<appliedenergistics2:material:42>.addTooltip(format.red("Place in an  ME Wireless Access Point to increase range"));
+
+<appliedenergistics2:material:59>.addTooltip(format.red("Place in a Quantum Link Chamber to gain infinite wireless range"));
+
+<contenttweaker:etherium_saw_blade>.addTooltip(format.red("WARNING: use in a Mythic Processor Pulverizer with a Tier 1 Mythic Coil"));
+
+<contenttweaker:droplet_of_the_great_snake>.addTooltip(format.red("Obtained from the Pauram Callstone"));
+
+<astralsorcery:itemenchantmentamulet>.addTooltip(format.red("WARNING: this causes lag with the protection buff"));
+
+<mysticalagradditions:stuff:69>.addTooltip(format.green("Reusable for duplication"));
+
+<contenttweaker:defined_ingot>.addTooltip(format.red("First crafted by:"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Dahcreeper, UNQpla, SecreCTB, WingWangg, Yoomara, QuakersOats (team)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("ChaosStrikez (solo)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Ikea Bear (solo)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Sandman366 (solo)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Paronity & Kherune (team) (autocrafting challenge)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Nullity UwU (solo)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Raziel (solo)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("okay (solo)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("IaM_Hybrid, _Syphex, Sl4g, Miyeonn (team)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("shadow46x2 (solo)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Pyromaniacal & irhshadow (team)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Aedial (solo)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Milesman34 (solo)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("NerdySpider & Herr_Dr_Uber (team)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("P_applexx, Matatabi_TRAX, johrangmal, FELLAL1, Aerlyt (team)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Mathias & MillerGaming321 (in spirit)"));
+
+
+<dankstorage:dank_1>.addTooltip(format.red("WARNING: the upgrade recipes delete contents, better to craft with new empty ones"));
+<dankstorage:dank_2>.addTooltip(format.red("WARNING: the upgrade recipes delete contents, better to craft with new empty ones"));
+<dankstorage:dank_3>.addTooltip(format.red("WARNING: the upgrade recipes delete contents, better to craft with new empty ones"));
+<dankstorage:dank_4>.addTooltip(format.red("WARNING: the upgrade recipes delete contents, better to craft with new empty ones"));
+<dankstorage:dank_5>.addTooltip(format.red("WARNING: the upgrade recipes delete contents, better to craft with new empty ones"));
+<dankstorage:dank_6>.addTooltip(format.red("WARNING: the upgrade recipes delete contents, better to craft with new empty ones"));
+<dankstorage:dank_7>.addTooltip(format.red("WARNING: the upgrade recipes delete contents, better to craft with new empty ones"));
+
+<immersiveengineering:shader_bag>.addTooltip(format.red("WARNING: do not place in AE2, it can cause crashes"));
+
+<extrabotany:material:3>.addTooltip(format.red("Thanks eximilus for helping out with the Gaia fight arenas!"));
+
+<contenttweaker:draconic_upgrades_locations>.addTooltip(format.red("Thanks Freeky for compiling the list!"));
+
+<unlimitedchiselworks:chisel_stonebrick_abyssalcraft_abydreadbrick_0>.addTooltip(format.red("Thanks Freeky for helping out with building blocks EMC!"));
+<unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_3>.addTooltip(format.red("Thanks Freeky for helping out with building blocks EMC!"));
+<unlimitedchiselworks:chisel_cobblestone_abyssalcraft_cobblestone_2>.addTooltip(format.red("Thanks Freeky for helping out with building blocks EMC!"));
+
+<modularmachinery:itemmodularium>.addTooltip(format.red("Kasumi_Nova is a genius!"));
+
+<astralsorcery:blockinfusedwood:*>.addTooltip(format.red("Drop Oak Wood Logs in Liquid Starlight"));
+
+<contenttweaker:runandor_garnet>.addTooltip(format.red("Thanks to Foucs for the garnet textures!"));
+<contenttweaker:cut_runandor_garnet>.addTooltip(format.red("Thanks to Foucs for the garnet textures!"));
+<contenttweaker:borean_garnet>.addTooltip(format.red("Thanks to Foucs for the garnet textures!"));
+<contenttweaker:cut_borean_garnet>.addTooltip(format.red("Thanks to Foucs for the garnet textures!"));
+<contenttweaker:barathos_garnet>.addTooltip(format.red("Thanks to Foucs for the garnet textures!"));
+<contenttweaker:cut_barathos_garnet>.addTooltip(format.red("Thanks to Foucs for the garnet textures!"));
+<contenttweaker:greckon_garnet>.addTooltip(format.red("Thanks to Foucs for the garnet textures!"));
+<contenttweaker:cut_greckon_garnet>.addTooltip(format.red("Thanks to Foucs for the garnet textures!"));
+<contenttweaker:dustopia_garnet>.addTooltip(format.red("Thanks to Foucs for the garnet textures!"));
+<contenttweaker:cut_dustopia_garnet>.addTooltip(format.red("Thanks to Foucs for the garnet textures!"));
+
+<contenttweaker:epic_tool_tipper>.addTooltip(format.green("Reusable"));
+<contenttweaker:epic_tool_tipper>.addTooltip(format.red("Craft with any item, and a corrupted stone, to make it epic!"));
+
+<contenttweaker:spell_recycling_crystal>.addTooltip(format.green("Reusable"));
+<contenttweaker:spell_recycling_crystal>.addTooltip(format.red("Craft the right type of chest with the right crystals, in the right shapes. The villagers above the nether will guide you"));
+<contenttweaker:spell_recycling_crystal>.addTooltip(format.red("Jonnywips had a good idea!"));
+
+<extrautils2:ingredients:11>.addTooltip(format.red("Drop a Gold Ingot into a single Lava source surrounded by Nether Bricks"));
+
+<divinerpg:divine_shickaxe>.addTooltip(format.red("Thanks to Angrivator for making the beautiful item border!"));
+<redstonearsenal:tool.bow_flux>.addTooltip(format.red("Thanks to Angrivator for making the beautiful item border!"));
+
+<nae2:part:0>.addTooltip(format.red("WARNINGS: these can introduce visual glitches on nearby ender chests and ender tanks"));
+
+<gendustry:honey_comb:14022>.addTooltip(format.red("Found in Gallifrey"));
+
+<mowziesmobs:barako_mask>.addTooltip(format.red("Found in Gallifrey"));
+
+<contenttweaker:warren_blindfold>.addTooltip(format.red("Craft an Ice and Fire Blindfold with the right Bee Combs (4), and four Essences of the Mythic Shells - the chests in dimensional doors will guide you"));
+<contenttweaker:warren_blindfold>.addTooltip(format.red("Use in the Limbo"));
+<contenttweaker:warren_blindfold>.addTooltip(format.red("TurtlePenguin9 had an idea"));
+
+<contenttweaker:monumentally_sentient_meatball>.addTooltip(format.red("To obtain the required crafting materials, surround the right Tributes to the Meatball Man with the right building blocks - a book in Zoi will guide you"));
+
+<contenttweaker:rainbow_fire>.addTooltip(format.red("Tribute to the Meatball Man"));
+<contenttweaker:blue_hair>.addTooltip(format.red("Tribute to the Meatball Man"));
+<contenttweaker:ai_art>.addTooltip(format.red("Tribute to the Meatball Man"));
+<contenttweaker:sick_fade>.addTooltip(format.red("Tribute to the Meatball Man"));
+<contenttweaker:addiction_cookie>.addTooltip(format.red("Tribute to the Meatball Man"));
+<contenttweaker:cat_ears>.addTooltip(format.red("Tribute to the Meatball Man"));
+<contenttweaker:italian_flag>.addTooltip(format.red("Tribute to the Meatball Man"));
+<contenttweaker:sausage_sandwich>.addTooltip(format.red("Tribute to the Meatball Man"));
+<contenttweaker:kitty_smile>.addTooltip(format.red("Tribute to the Meatball Man"));
+

@@ -417,7 +417,7 @@
       "minecraft:skull,1,1",
       "minecraft:coal,64",
       "xreliquary:mob_ingredient,1,1",
-      "iceandfire:witherbone,4,1"
+      "iceandfire:witherbone,4,0"
     ],
     "trial": {
       "entities": "minecraft:wither_skeleton",

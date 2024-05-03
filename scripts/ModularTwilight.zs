@@ -14,7 +14,7 @@ reci1.addItemInput(<twilightforest:knightmetal_ingot>*16);
 reci1.addItemInput(<twilightforest:twilight_log:3>*64);
 reci1.addItemInput(<minecraft:ghast_tear>*16);
 reci1.addItemInput(<minecraft:nether_star>);
-reci1.addItemOutput(<twilightforest:block_and_chain>.withTag({ench: [{lvl: 5 as short, id: 20 as short}, {lvl: 20 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 10 as short, id: 34 as short}], RepairCost: 1, display: {Name: "Morning Star"}}));
+reci1.addItemOutput(<twilightforest:block_and_chain>.withTag({ench: [{lvl: 5 as short, id: 20 as short}, {lvl: 20 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 10 as short, id: 34 as short}], RepairCost: 1, display: {Name: "§6§oMorning Star§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 reci1.build();
 
 val reci2 = RecipeBuilder.newBuilder("twiweap2","carminite_empowerer",1200);
@@ -25,9 +25,8 @@ reci2.addItemInput(<twilightforest:carminite>*16);
 reci2.addItemInput(<twilightforest:maze_stone:0>*64);
 reci2.addItemInput(<minecraft:gold_ingot>*64);
 reci2.addItemInput(<minecraft:nether_star>);
-reci2.addItemOutput(<twilightforest:minotaur_axe>.withTag({ench: [{lvl: 20 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 10 as short, id: 34 as short},{lvl: 4 as short, id: 79 as short}], RepairCost: 1, display: {Name: "Axe of Savagery"}}));
+reci2.addItemOutput(<twilightforest:minotaur_axe>.withTag({ench: [{lvl: 20 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 10 as short, id: 34 as short},{lvl: 4 as short, id: 79 as short}], RepairCost: 1, display: {Name: "§6§oAxe of Savagery§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 reci2.build();
-
 
 val reci3 = RecipeBuilder.newBuilder("twiweap3","carminite_empowerer",1200);
 reci3.addEnergyPerTickInput(15000);
@@ -37,7 +36,7 @@ reci3.addItemInput(<twilightforest:carminite>*16);
 reci3.addItemInput(<twilightforest:castle_brick:0>*64);
 reci3.addItemInput(<twilightforest:raven_feather>*32);
 reci3.addItemInput(<minecraft:nether_star>);
-reci3.addItemOutput(<twilightforest:giant_sword>.withTag({ench: [{lvl: 35 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 10 as short, id: 34 as short},{lvl: 8 as short, id: 19 as short}], RepairCost: 1, display: {Name: "Big Bertha"}}));
+reci3.addItemOutput(<twilightforest:giant_sword>.withTag({ench: [{lvl: 35 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 10 as short, id: 34 as short},{lvl: 8 as short, id: 19 as short}], RepairCost: 1, display: {Name: "§6§oBig Bertha§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 reci3.build();
 
 val reci4 = RecipeBuilder.newBuilder("twiweap4","carminite_empowerer",1200);

@@ -1055,19 +1055,19 @@ recipes.addShaped(<cyclicmagic:emerald_boots>,
 recipes.addShapeless(<astralsorcery:itemperkgem:0>,
 [<contenttweaker:making_dynamism_gems>,
 <astralsorcery:itemrockcrystalsimple>,
-<minecraft:glowstone>,
+<minecraft:glowstone_dust>,
 <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})]);
 
 recipes.addShapeless(<astralsorcery:itemperkgem:1>,
 [<contenttweaker:making_dynamism_gems>,
 <astralsorcery:itemrockcrystalsimple>,
-<minecraft:glowstone>,
+<minecraft:glowstone_dust>,
 <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})]);
 
 recipes.addShapeless(<astralsorcery:itemperkgem:2>,
 [<contenttweaker:making_dynamism_gems>,
 <astralsorcery:itemrockcrystalsimple>,
-<minecraft:glowstone>,
+<minecraft:glowstone_dust>,
 <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})]);
 
 
@@ -1411,6 +1411,9 @@ recipes.addShapeless(<contenttweaker:shining_sandstone>,
 recipes.addShapeless(<contenttweaker:demon_stone>,
 [<contenttweaker:mark_fallen_tower>]);
 
+recipes.addShapeless(<contenttweaker:cosmic_fabric>,
+[<contenttweaker:mark_fallen_tower>]);
+
 mods.thermalexpansion.Crucible.addRecipe(<fluid:manyullyn>*144, <tconstruct:ingots:2>, 1000);
 mods.nuclearcraft.melter.addRecipe([<ore:ingotManyullyn>, <fluid:manyullyn>*144]);
 
@@ -1451,42 +1454,50 @@ recipes.addShapeless(<aoa3:ambient_power_stone>,
 [<contenttweaker:right_click_with_lots_of_infusionstones>,
 <aoa3:infusion_table>,
 <aoa3:ambient_infusion_stone>,
-<contenttweaker:level20>]);
+<contenttweaker:level20>,
+<contenttweaker:1_in_35>]);
 recipes.addShapeless(<aoa3:blooming_power_stone>,
 [<contenttweaker:right_click_with_lots_of_infusionstones>,
 <aoa3:infusion_table>,
 <aoa3:blooming_infusion_stone>,
-<contenttweaker:level80>]);
+<contenttweaker:level80>,
+<contenttweaker:1_in_200>]);
 recipes.addShapeless(<aoa3:glaring_power_stone>,
 [<contenttweaker:right_click_with_lots_of_infusionstones>,
 <aoa3:infusion_table>,
 <aoa3:glaring_infusion_stone>,
-<contenttweaker:level30>]);
+<contenttweaker:level30>,
+<contenttweaker:1_in_200>]);
 recipes.addShapeless(<aoa3:gleaming_power_stone>,
 [<contenttweaker:right_click_with_lots_of_infusionstones>,
 <aoa3:infusion_table>,
 <aoa3:gleaming_infusion_stone>,
-<contenttweaker:level15>]);
+<contenttweaker:level15>,
+<contenttweaker:1_in_200>]);
 recipes.addShapeless(<aoa3:glistening_power_stone>,
 [<contenttweaker:right_click_with_lots_of_infusionstones>,
 <aoa3:infusion_table>,
 <aoa3:glistening_infusion_stone>,
-<contenttweaker:level5>]);
+<contenttweaker:level5>,
+<contenttweaker:1_in_200>]);
 recipes.addShapeless(<aoa3:glowing_power_stone>,
 [<contenttweaker:right_click_with_lots_of_infusionstones>,
 <aoa3:infusion_table>,
 <aoa3:glowing_infusion_stone>,
-<contenttweaker:level45>]);
+<contenttweaker:level45>,
+<contenttweaker:1_in_200>]);
 recipes.addShapeless(<aoa3:radiant_power_stone>,
 [<contenttweaker:right_click_with_lots_of_infusionstones>,
 <aoa3:infusion_table>,
 <aoa3:radiant_infusion_stone>,
-<contenttweaker:level70>]);
+<contenttweaker:level70>,
+<contenttweaker:1_in_200>]);
 recipes.addShapeless(<aoa3:shining_power_stone>,
 [<contenttweaker:right_click_with_lots_of_infusionstones>,
 <aoa3:infusion_table>,
 <aoa3:shining_infusion_stone>,
-<contenttweaker:level80>]);
+<contenttweaker:level80>,
+<contenttweaker:1_in_200>]);
 
 
 recipes.remove(<extracells:storage.fluid:0>);
@@ -1593,8 +1604,11 @@ recipes.addShapeless(<bigreactors:ingotcyanite>,
 [<contenttweaker:good_extreme_reactor_design>, 
 <ore:ingotYellorium>]);
 
-mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:extreme_turbine>, <fluid:water>, <fluid:steam>]);
-mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:good_extreme_turbine>, <fluid:water>, <fluid:steam>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:yellorite_reactor>, <fluid:water>, <fluid:steam>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:good_extreme_reactor_design>, <fluid:water>, <fluid:steam>]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:extreme_turbine>, <fluid:steam>, <fluid:water>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:good_extreme_turbine>, <fluid:steam>, <fluid:water>]);
 
 
 recipes.addShapeless(<bigreactors:reactorcontroller>,
@@ -1604,31 +1618,40 @@ recipes.addShapeless(<bigreactors:turbinecontroller>,
 
 recipes.addShapeless(<thaumicwonders:eldritch_cluster:0>,
 [<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>]);
+<thaumicwonders:alienist_stone>, 
+<ore:oreIron>]);
 recipes.addShapeless(<thaumicwonders:eldritch_cluster:1>,
 [<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>]);
+<thaumicwonders:alienist_stone>, 
+<ore:oreGold>]);
 recipes.addShapeless(<thaumicwonders:eldritch_cluster:2>,
 [<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>]);
+<thaumicwonders:alienist_stone>, 
+<ore:oreCopper>]);
 recipes.addShapeless(<thaumicwonders:eldritch_cluster:3>,
 [<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>]);
+<thaumicwonders:alienist_stone>, 
+<ore:oreTin>]);
 recipes.addShapeless(<thaumicwonders:eldritch_cluster:4>,
 [<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>]);
+<thaumicwonders:alienist_stone>, 
+<ore:oreSilver>]);
 recipes.addShapeless(<thaumicwonders:eldritch_cluster:5>,
 [<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>]);
+<thaumicwonders:alienist_stone>, 
+<ore:oreLead>]);
 recipes.addShapeless(<thaumicwonders:eldritch_cluster:6>,
 [<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>]);
+<thaumicwonders:alienist_stone>, 
+<ore:oreCinnabar>]);
 recipes.addShapeless(<thaumicwonders:eldritch_cluster:7>,
 [<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>]);
+<thaumicwonders:alienist_stone>, 
+<ore:oreNetherQuartz>]);
 recipes.addShapeless(<thaumicwonders:eldritch_cluster:8>,
 [<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>]);
+<thaumicwonders:alienist_stone>, 
+<ore:oreVoidMetal>]);
 
 recipes.addShapeless(<thaumicwonders:primordial_grain>,
 [<contenttweaker:primordial_accelerator>, 
@@ -1674,3 +1697,144 @@ mods.chisel.Carving.addVariation("ayeracostatuescolored", <divinerpg:ayeraco_sta
 mods.chisel.Carving.addVariation("ayeracostatuescolored", <divinerpg:ayeraco_statue_purple>);
 
 mods.nuclearcraft.melter.addRecipe([<minecraft:rotten_flesh>, <fluid:blood>*40]);
+
+recipes.remove(<erebus:umberstone_pillar>);
+recipes.addShaped(<erebus:umberstone_pillar>*3,
+[[<erebus:umberstone>],
+[<erebus:umberstone>],
+[<erebus:umberstone>]]);
+
+recipes.addShaped(<aoa3:pressure_tablet>,
+[[<aoa3:fragmented_anima_stone>, <aoa3:fragmented_anima_stone>, <aoa3:fragmented_anima_stone>],
+[<aoa3:fragmented_anima_stone>, <contenttweaker:better_goo_ball>, <aoa3:fragmented_anima_stone>],
+[<aoa3:fragmented_anima_stone>, <aoa3:fragmented_anima_stone>, <aoa3:fragmented_anima_stone>]]);
+
+recipes.remove(<avaritia:block_resource:2>);
+mods.extendedcrafting.TableCrafting.addShaped(<avaritia:block_resource:2>, 
+[[<avaritia:resource:0>, <avaritia:resource:0>, null, <avaritia:resource:0>, <avaritia:resource:0>], 
+[<avaritia:resource:0>, <avaritia:resource:1>, <avaritia:resource:1>, <avaritia:resource:1>, <avaritia:resource:0>], 
+[null, <avaritia:resource:1>, <avaritia:resource:1>, <avaritia:resource:1>, null], 
+[<avaritia:resource:0>, <avaritia:resource:1>, <avaritia:resource:1>, <avaritia:resource:1>, <avaritia:resource:0>], 
+[<avaritia:resource:0>, <avaritia:resource:0>, null, <avaritia:resource:0>, <avaritia:resource:0>]]);  
+
+
+recipes.removeShaped(<dimdoors:rift_signature>,
+[[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+[<minecraft:iron_ingot>, <dimdoors:stable_fabric>, <minecraft:iron_ingot>],
+[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+
+recipes.addShaped(<divinerpg:raw_arcanium>*9,
+[[<divinerpg:raw_arcanium>, <divinerpg:raw_arcanium>, <divinerpg:raw_arcanium>],
+[<divinerpg:raw_arcanium>, <divinerpg:arcanium_block>, <divinerpg:raw_arcanium>],
+[<divinerpg:raw_arcanium>, <divinerpg:raw_arcanium>, <divinerpg:raw_arcanium>]]);
+
+recipes.remove(<xreliquary:twilight_cloak>);
+
+mods.thermalexpansion.Sawmill.addRecipe(<extratrees:misc:0>*6, <minecraft:planks:*>, 1000);
+
+recipes.addShaped(<contenttweaker:hand_framing_tool>,
+[[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+[null, <storagedrawers:customdrawers:0>, <ore:plankWood>],
+[<minecraft:stick>, null, <ore:plankWood>]]);
+
+recipes.addShaped(<mysticalagradditions:stuff:69>,
+[[<mysticalagradditions:insanium:0>, null, <mysticalagradditions:insanium:0>],
+[null, <mysticalagradditions:stuff:69>.reuse(), null],
+[<mysticalagradditions:insanium:0>, null, <mysticalagradditions:insanium:0>]]);
+
+recipes.addShaped(<contenttweaker:whitefire_ember>,
+[[<contenttweaker:furnace_heart>, <contenttweaker:furnace_heart>, <contenttweaker:furnace_heart>],
+[<contenttweaker:furnace_heart>, <contenttweaker:whitefire_ember>.reuse(), <contenttweaker:furnace_heart>],
+[<contenttweaker:furnace_heart>, <contenttweaker:furnace_heart>, <contenttweaker:furnace_heart>]]);
+
+recipes.addShaped(<contenttweaker:shungite>*4,
+[[<contenttweaker:gravitite_dust>, <contenttweaker:shungite>.reuse(), <contenttweaker:gravitite_dust>],
+[<contenttweaker:shungite>.reuse(), <contenttweaker:gravitite_dust>, <contenttweaker:shungite>.reuse()],
+[<contenttweaker:gravitite_dust>, <contenttweaker:shungite>.reuse(), <contenttweaker:gravitite_dust>]]);
+
+recipes.addShaped(<contenttweaker:shungite_casing>,
+[[<contenttweaker:gravitite_dust>, <contenttweaker:shungite>, <contenttweaker:gravitite_dust>],
+[<contenttweaker:shungite>, <contenttweaker:experiment_casing>, <contenttweaker:shungite>],
+[<contenttweaker:gravitite_dust>, <contenttweaker:shungite>, <contenttweaker:gravitite_dust>]]);
+
+mods.chisel.Carving.addGroup("graphiteblockgroup");
+mods.chisel.Carving.addVariation("graphiteblockgroup", <bigreactors:blockgraphite>);
+mods.chisel.Carving.addVariation("graphiteblockgroup", <nuclearcraft:ingot_block:8>);
+
+
+recipes.addShapeless(<appliedenergistics2:wireless_terminal>,
+[<contenttweaker:increase_range>, 
+<appliedenergistics2:wireless_terminal>, 
+<appliedenergistics2:material:42>]);
+recipes.addShapeless(<appliedenergistics2:wireless_terminal>,
+[<contenttweaker:infinite_range>, 
+<appliedenergistics2:wireless_terminal>, 
+<appliedenergistics2:material:59>]);
+
+recipes.addShapeless(<appliedenergistics2:wireless_crafting_terminal>,
+[<contenttweaker:increase_range>, 
+<appliedenergistics2:wireless_crafting_terminal>, 
+<appliedenergistics2:material:42>]);
+recipes.addShapeless(<appliedenergistics2:wireless_crafting_terminal>,
+[<contenttweaker:infinite_range>, 
+<appliedenergistics2:wireless_crafting_terminal>, 
+<appliedenergistics2:material:59>]);
+
+recipes.addShapeless(<appliedenergistics2:wireless_pattern_terminal>,
+[<contenttweaker:increase_range>, 
+<appliedenergistics2:wireless_pattern_terminal>, 
+<appliedenergistics2:material:42>]);
+recipes.addShapeless(<appliedenergistics2:wireless_pattern_terminal>,
+[<contenttweaker:infinite_range>, 
+<appliedenergistics2:wireless_pattern_terminal>, 
+<appliedenergistics2:material:59>]);
+
+recipes.addShapeless(<appliedenergistics2:wireless_fluid_terminal>,
+[<contenttweaker:increase_range>, 
+<appliedenergistics2:wireless_fluid_terminal>, 
+<appliedenergistics2:material:42>]);
+recipes.addShapeless(<appliedenergistics2:wireless_fluid_terminal>,
+[<contenttweaker:infinite_range>, 
+<appliedenergistics2:wireless_fluid_terminal>, 
+<appliedenergistics2:material:59>]);
+
+recipes.addShapeless(<contenttweaker:cursed_rock>,
+[<contenttweaker:cursed_rock>.reuse(), 
+<bloodmagic:blood_shard:1>]);
+
+
+recipes.addShaped(<contenttweaker:vibrating_stone>*16,
+[[<projecte:item.pe_matter:1>, <contenttweaker:vibrating_stone>, <projecte:item.pe_matter:1>],
+[<contenttweaker:vibrating_stone>, <contenttweaker:vibrating_mithminite_schythe>.reuse(), <contenttweaker:vibrating_stone>],
+[<projecte:item.pe_matter:1>, <contenttweaker:vibrating_stone>, <projecte:item.pe_matter:1>]]);
+
+recipes.addShaped(<contenttweaker:resonating_stone>*16,
+[[<projecte:item.pe_matter:1>, <contenttweaker:resonating_stone>, <projecte:item.pe_matter:1>],
+[<contenttweaker:resonating_stone>, <contenttweaker:vibrating_mithminite_schythe>.reuse(), <contenttweaker:resonating_stone>],
+[<projecte:item.pe_matter:1>, <contenttweaker:resonating_stone>, <projecte:item.pe_matter:1>]]);
+
+
+recipes.remove(<microblockcbe:stone_rod>);
+recipes.addShaped(<microblockcbe:stone_rod>*6,
+[[<ore:cobblestone>],
+[<ore:cobblestone>],
+[<ore:cobblestone>]]);
+
+recipes.addShaped(<bibliocraft:typesettingtable>,
+[[<bibliocraft:typesettingtable>, <bibliocraft:bibliochase>, <minecraft:book>],
+[null, <contenttweaker:duplicating_enchants>, null],
+[<bibliocraft:printingpress>, <bibliocraft:enchantedplate>, <minecraft:dye:0>]]);
+
+recipes.addShaped(<bibliocraft:printingpress>,
+[[<bibliocraft:typesettingtable>, <bibliocraft:bibliochase>, <minecraft:book>],
+[null, <contenttweaker:duplicating_enchants>, null],
+[<bibliocraft:printingpress>, <bibliocraft:enchantedplate>, <minecraft:dye:0>]]);
+
+
+recipes.addShapeless(<contenttweaker:particulate_steam_condensation_tube>,
+[<contenttweaker:fill_with_high_particulate_steam>, <nuclearcraft:heat_exchanger_tube_thermoconducting>]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:fluidcrystalmatrix_condensation>, <fluid:high_particulate_steam>, <fluid:fluid_crystal_matrix>]);
+
+recipes.addShapeless(<nuclearcraft:heat_exchanger_controller>,
+[<contenttweaker:fluidcrystalmatrix_condensation>]);

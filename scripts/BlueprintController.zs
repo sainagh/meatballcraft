@@ -394,3 +394,49 @@ recipes.addShapeless(<modularmachinery:mythic_processor_rolling_machine_controll
 
 recipes.addShapeless(<modularmachinery:everburning_forge_controller>, 
 [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:everburning_forge"}).reuse(), <modularmachinery:blockcontroller>]);
+
+
+recipes.addShapeless(<modularmachinery:sparkled_spinning_wheel_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sparkled_spinning_wheel"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:honeysmelter_oven_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:honeysmelter_oven"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:whispering_infusion_fountain_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:whispering_infusion_fountain"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:tree_of_life_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:tree_of_life"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:elemental_altar_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:elemental_altar"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:mythic_processor_wiremill_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_wiremill"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:mythic_processor_assembling_machine_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_assembling_machine"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:mythic_processor_grinder_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_grinder"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:mythic_processor_blaster_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_blaster"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:mythic_processor_gravitite_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_gravitite"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:mythic_processor_arkencrusher_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_arkencrusher"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:hypergrowth_insolator_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:hypergrowth_insolator"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:fluid_matrix_plasma_collider_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fluid_matrix_plasma_collider"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:ziggurat_of_life_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ziggurat_of_life"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:berserker_forge_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:berserker_forge"}).reuse(), <modularmachinery:blockcontroller>]);

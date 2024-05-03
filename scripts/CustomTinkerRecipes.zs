@@ -266,3 +266,6 @@ mods.tconstruct.Casting.addTableRecipe(<contenttweaker:brightsteel_alloy_ingot>,
 
 mods.tconstruct.Melting.addRecipe(<liquid:ascended_draconic_alloy> * 144,<contenttweaker:ascended_draconic_alloy>);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:ascended_draconic_alloy>, <tconstruct:cast_custom:0>, <liquid:ascended_draconic_alloy>, 144, false, 80);
+
+mods.tconstruct.Melting.addRecipe(<liquid:hihi_irokane> * 144,<contenttweaker:hihi_irokane>);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:hihi_irokane>, <tconstruct:cast_custom:0>, <liquid:hihi_irokane>, 144, false, 80);

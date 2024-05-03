@@ -390,3 +390,9 @@ recipes.addShaped(<enderio:item_material:38>,
 [[<ore:dustLapis>, <ore:itemSilicon>, <ore:dustLapis>],
 [<ore:itemSilicon>, <ore:gemZanite>, <ore:itemSilicon>],
 [<ore:dustLapis>, <ore:itemSilicon>, <ore:dustLapis>]]);
+
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"}));
+recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"}),
+[[<contenttweaker:terrasteel_crystal>, <enderio:item_dark_steel_upgrade:0>, <contenttweaker:terrasteel_crystal>],
+[<enderio:item_dark_steel_upgrade:0>, <contenttweaker:terrasteel_crystal>, <enderio:item_dark_steel_upgrade:0>],
+[<contenttweaker:terrasteel_crystal>, <enderio:item_dark_steel_upgrade:0>, <contenttweaker:terrasteel_crystal>]]);

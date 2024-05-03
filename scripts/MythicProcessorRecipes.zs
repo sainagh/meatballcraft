@@ -56,4 +56,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_coil_t1>,
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_coil_t2>, 
 [[<libvulpes:coil0:7>, <contenttweaker:mythic_coil_t1>, <libvulpes:coil0:7>], 
 [<contenttweaker:mythic_coil_t1>, <libvulpes:coil0:7>, <contenttweaker:mythic_coil_t1>], 
-[<thaumadditions:mithrillium_ingot>, <extracells:storage.component:0>, <thaumadditions:mithrillium_ingot>]]);  
+[<thaumadditions:mithrillium_ingot>, <nae2:material:1>, <thaumadditions:mithrillium_ingot>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_coil_t3>, 
+[[<libvulpes:coil0:10>, <contenttweaker:mythic_coil_t2>, <libvulpes:coil0:10>], 
+[<contenttweaker:mythic_coil_t2>, <libvulpes:coil0:10>, <contenttweaker:mythic_coil_t2>], 
+[<thaumadditions:mithminite_ingot>, <nae2:material:1>, <thaumadditions:mithminite_ingot>]]);  

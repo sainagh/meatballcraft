@@ -102,5 +102,12 @@ mods.ltt.LootTable.removeGlobalItem("aoa3:ghoulish_ingot");
 mods.ltt.LootTable.removeGlobalItem("abyssalcraft:copperingot");
 mods.ltt.LootTable.removeGlobalItem("abyssalcraft:tiningot");
 
+mods.ltt.LootTable.removeTable("railcraft:chests/abandoned_mineshaft");
+mods.ltt.LootTable.removeTable("railcraft:chests/simple_dungeon");
+mods.ltt.LootTable.removeTable("railcraft:chests/stronghold_corridor");
+mods.ltt.LootTable.removeTable("railcraft:chests/stronghold_crossing");
+mods.ltt.LootTable.removeTable("railcraft:chests/village_blacksmith");
+mods.ltt.LootTable.removeTable("railcraft:chests/village_workshop");
 
+mods.ltt.LootTable.removeGlobalItem("iceandfire:copper_ingot");
 

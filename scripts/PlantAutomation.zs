@@ -83,6 +83,10 @@ mods.thermalexpansion.Insolator.addRecipeMonoculture(<bewitchment:wormwood>*3,
 105);
 
 
+
+
+
+
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "aer"})*5,
 <thaumadditions:vis_seeds/aer>, 
 <twilightforest:ironwood_raw>, 
@@ -505,5 +509,62 @@ mods.thermalexpansion.Insolator.addRecipeMonoculture(<contenttweaker:order_wood>
 
 
 
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<mysticalagriculture:slime_essence>*1,
+<mysticalagriculture:slime_seeds>, 
+<thermalfoundation:fertilizer:0>, 
+25000, 
+<mysticalagriculture:slime_seeds>, 
+105);
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<mysticalagriculture:slime_essence>*2,
+<mysticalagriculture:slime_seeds>, 
+<thermalfoundation:fertilizer:1>, 
+25000, 
+<mysticalagriculture:slime_seeds>, 
+105);
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<mysticalagriculture:slime_essence>*5,
+<mysticalagriculture:slime_seeds>, 
+<thermalfoundation:fertilizer:2>, 
+25000, 
+<mysticalagriculture:slime_seeds>, 
+105);
 
+
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<mysticalagriculture:jade_essence>*1,
+<mysticalagriculture:jade_seeds>, 
+<thermalfoundation:fertilizer:0>, 
+25000, 
+<mysticalagriculture:jade_seeds>, 
+105);
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<mysticalagriculture:jade_essence>*2,
+<mysticalagriculture:jade_seeds>, 
+<thermalfoundation:fertilizer:1>, 
+25000, 
+<mysticalagriculture:jade_seeds>, 
+105);
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<mysticalagriculture:jade_essence>*5,
+<mysticalagriculture:jade_seeds>, 
+<thermalfoundation:fertilizer:2>, 
+25000, 
+<mysticalagriculture:jade_seeds>, 
+105);
+
+
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<randomthings:glowingmushroom>*3,
+<randomthings:glowingmushroom>, 
+<thermalfoundation:fertilizer:0>, 
+25000, 
+<randomthings:glowingmushroom>, 
+105);
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<randomthings:glowingmushroom>*5,
+<randomthings:glowingmushroom>, 
+<thermalfoundation:fertilizer:1>, 
+25000, 
+<randomthings:glowingmushroom>, 
+105);
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<randomthings:glowingmushroom>*7,
+<randomthings:glowingmushroom>, 
+<thermalfoundation:fertilizer:2>, 
+25000, 
+<randomthings:glowingmushroom>, 
+105);
 

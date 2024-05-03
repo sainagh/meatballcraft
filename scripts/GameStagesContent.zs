@@ -166,3 +166,35 @@ recipes.addShaped(<contenttweaker:paparazzi_camera>,
 [[<contenttweaker:nero_core>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"}), <contenttweaker:pauram_core>],
 [<gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"}), <astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.horologium", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}), <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"})],
 [<contenttweaker:akathartos_core>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"}), <contenttweaker:zoi_core>]]);
+
+mods.recipestages.Recipes.addShaped("superforesteradventure", "hardmode", <contenttweaker:undead_botanist_callstone>, [
+    [<contenttweaker:eldritch_metal_plate>, <contenttweaker:silky_forester_leaf>, <contenttweaker:eldritch_metal_plate>],
+    [<contenttweaker:silky_forester_leaf>, <magicbees:beecomb:4>, <contenttweaker:silky_forester_leaf>],
+    [<contenttweaker:eldritch_metal_plate>, <contenttweaker:silky_forester_leaf>, <contenttweaker:eldritch_metal_plate>]
+]);
+
+mods.recipestages.Recipes.addShaped("imscottmalkinson", "hardmode", <contenttweaker:diabetic_callstone>, [
+    [<contenttweaker:phasing_snowflake>, <contenttweaker:tungsten_carrot>, <contenttweaker:phasing_snowflake>],
+    [<contenttweaker:tungsten_carrot>, <extendedcrafting:singularity_custom:2032>, <contenttweaker:tungsten_carrot>],
+    [<contenttweaker:phasing_snowflake>, <contenttweaker:tungsten_carrot>, <contenttweaker:phasing_snowflake>]
+]);
+
+recipes.addShaped(<contenttweaker:cotton_candy_withering_spray>,
+[[<thaumcraft:potion_sprayer>, <aoa3:candycane>, <thaumcraft:potion_sprayer>],
+[<aoa3:candycane>, <contenttweaker:diabetic_sentient_meatball>, <aoa3:candycane>],
+[<thaumcraft:potion_sprayer>, <aoa3:candycane>, <thaumcraft:potion_sprayer>]]);
+
+recipes.addHiddenShapeless("eldritchcharmsfordaemc",<contenttweaker:meatball_man_charm>,
+[<thaumcraft:creative_flux_sponge>.reuse(),
+<abyssalcraft:jzaharcharm:2>,
+<abyssalcraft:yogsothothcharm:3>,
+<abyssalcraft:azathothcharm:1>,
+<abyssalcraft:cthulhucharm:3>
+]);
+
+mods.recipestages.Recipes.addShaped("maketaintedloop", "hardmode", <contenttweaker:tainted_loop_callstone>, [
+    [<contenttweaker:first_order_mythic_fractal>, <projectex:matter:11>, <contenttweaker:first_order_mythic_fractal>],
+    [<contenttweaker:tainted_heart>, <contenttweaker:meatball_man_charm>, <contenttweaker:tainted_heart>],
+    [<contenttweaker:first_order_mythic_fractal>, <projectex:matter:11>, <contenttweaker:first_order_mythic_fractal>]
+]);
+

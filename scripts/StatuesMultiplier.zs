@@ -102,9 +102,11 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<aoa3:cotton_candor_statue>*
 50000, <contenttweaker:cotton_candor_frosting>, 
 [<abyssalcraft:crystalcluster:12>, <abyssalcraft:crystalcluster:14>]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<aoa3:craexxeus_statue>*2, 
-50000, <contenttweaker:xxeus_heart>, 
-[<abyssalcraft:crystalcluster:12>, <abyssalcraft:crystalcluster:14>]);
+// mods.extendedcrafting.CombinationCrafting.addRecipe(<aoa3:craexxeus_statue>*2, 
+// 50000, <contenttweaker:xxeus_heart>, 
+// [<abyssalcraft:crystalcluster:12>, <abyssalcraft:crystalcluster:14>]);
+
+recipes.addShapeless(<aoa3:craexxeus_statue>, [<aoa3:xxeus_statue>, <ore:ingotIron>]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<aoa3:creep_statue>*2, 
 50000, <contenttweaker:creep_explosive_gland>, 

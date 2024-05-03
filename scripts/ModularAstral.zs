@@ -1,5 +1,7 @@
 import mods.modularmachinery.RecipeBuilder;
+import mods.astralsorcery.Utils;
 
+val allcrystals = Utils.getCrystalORIngredient(false, false); //as crafttweaker.item.IIngredient
 
 val ast1 = RecipeBuilder.newBuilder("ast1","auto_astral_altar",1200);
 ast1.addEnergyPerTickInput(1000);
@@ -284,3 +286,24 @@ ast30.addItemInput(<astralsorcery:itemcraftingcomponent:3>*4);
 ast30.addItemInput(<astralsorcery:itemcraftingcomponent:4>*9);
 ast30.addItemOutput(<astralsorcery:blockaltar:3>);
 ast30.build();
+
+val ast31 = RecipeBuilder.newBuilder("ast31","auto_astral_altar",1200);
+ast31.addEnergyPerTickInput(1000);
+ast31.addItemInput(<minecraft:gold_ingot>*4);
+ast31.addItemInput(<astralsorcery:blockmarble:6>*11);
+ast31.addItemInput(<astralsorcery:itemrockcrystalsimple:0>);
+ast31.addItemInput(<astralsorcery:itemcraftingcomponent:4>*3);
+ast31.addItemInput(<astralsorcery:itemcraftingcomponent:2>*2);
+ast31.addItemOutput(<astralsorcery:blockborehead:0>);
+ast31.build();
+
+val ast32 = RecipeBuilder.newBuilder("ast32","auto_astral_altar",1200);
+ast32.addEnergyPerTickInput(1000);
+ast32.addItemInput(<minecraft:gold_ingot>*2);
+ast32.addItemInput(<astralsorcery:blockmarble:6>*15);
+ast32.addItemInput(<astralsorcery:itemrockcrystalsimple:0>);
+ast32.addItemInput(<astralsorcery:itemcraftingcomponent:4>*2);
+ast32.addItemInput(<astralsorcery:itemcraftingcomponent:2>*3);
+ast32.addItemInput(<astralsorcery:itemcraftingcomponent:1>*3);
+ast32.addItemOutput(<astralsorcery:blockborehead:1>);
+ast32.build();

@@ -17,8 +17,7 @@ infinityfurnaceshyre.build();
 
 val infinityfurnaceshyrebetter = RecipeBuilder.newBuilder("infinityfurnaceshyrebetter","infinity_furnace",100);
 infinityfurnaceshyrebetter.addFluidInput(<fluid:dense_plasma>*8000);
-infinityfurnaceshyrebetter.addItemInput(<contenttweaker:shyrelands_garnet>);
-infinityfurnaceshyrebetter.addItemInput(<contenttweaker:ender_dolomite_dust>);
+infinityfurnaceshyrebetter.addItemInput(<contenttweaker:cut_shyrelands_garnet>);
 infinityfurnaceshyrebetter.addItemOutput(<aoa3:shyregem>*6);
 infinityfurnaceshyrebetter.addItemOutput(<aoa3:shyrestone_ingot>*6);
 infinityfurnaceshyrebetter.addItemOutput(<contenttweaker:shyre_chunk>*6);

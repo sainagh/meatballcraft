@@ -776,3 +776,68 @@ recipes.addShapeless(<divinerpg:tormented_boots>,
 <divinerpg:infusion_table>,
 <divinerpg:tormented_template>,
 <divinerpg:pardimal_lump>]);
+
+
+recipes.addShaped(<contenttweaker:crown_of_the_energy_queen>,
+[[null, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), null],
+[<enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), <contenttweaker:crown_of_the_energy_queen>.reuse(), <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000})],
+[null, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), null]]);
+
+recipes.removeShaped(<thebetweenlands:lurker_skin_pouch>,
+[[<thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>],
+[<thebetweenlands:items_misc:4>, null, <thebetweenlands:items_misc:4>],
+[<thebetweenlands:items_misc:4>, <thebetweenlands:items_misc:4>, <thebetweenlands:items_misc:4>]]);
+
+recipes.addShaped(<thebetweenlands:lurker_skin_pouch>,
+[[<thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>],
+[<thebetweenlands:items_misc:4>, <contenttweaker:secretive_nightmare_heart>, <thebetweenlands:items_misc:4>],
+[<thebetweenlands:items_misc:4>, <thebetweenlands:items_misc:4>, <thebetweenlands:items_misc:4>]]);
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:secret_lurker_callstone>, 
+
+[[<contenttweaker:recursion_of_war>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:paradigm_of_dominion>, 
+<contenttweaker:cosmic_fracture>, <contenttweaker:third_order_mythic_fractal>, <contenttweaker:cosmic_fracture>, 
+<contenttweaker:paradigm_of_dominion>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:recursion_of_war>], 
+
+[<contenttweaker:big_slime>, <contenttweaker:clunky_chunky_brick>, <contenttweaker:strings_crystal>, 
+<contenttweaker:crown_of_the_energy_queen>, <contenttweaker:third_order_mythic_fractal>, <contenttweaker:crown_of_the_energy_queen>, 
+<contenttweaker:strings_crystal>, <contenttweaker:clunky_chunky_brick>, <contenttweaker:big_slime>], 
+
+[<contenttweaker:second_order_mythic_fractal>, <contenttweaker:cursed_sapphire>, <contenttweaker:draconian_metal_ingot>, 
+<contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, 
+<contenttweaker:draconian_metal_ingot>, <contenttweaker:cursed_sapphire>, <contenttweaker:second_order_mythic_fractal>], 
+
+[<contenttweaker:first_order_mythic_fractal>, <contenttweaker:corrupted_aragonite>, <contenttweaker:draconian_metal_ingot>, 
+<materialpart:sacrifice_metal:ingot>, <materialpart:sacrifice_metal:ingot>, <materialpart:sacrifice_metal:ingot>, 
+<contenttweaker:draconian_metal_ingot>, <contenttweaker:corrupted_aragonite>, <contenttweaker:first_order_mythic_fractal>], 
+
+[<contenttweaker:strings_crystal>, <contenttweaker:recursive_powder>, <contenttweaker:draconian_metal_ingot>, 
+<materialpart:sacrifice_metal:ingot>, <contenttweaker:imperfect_gem_of_the_cosmos>, <materialpart:sacrifice_metal:ingot>, 
+<contenttweaker:draconian_metal_ingot>, <contenttweaker:recursive_powder>, <contenttweaker:strings_crystal>], 
+
+[<contenttweaker:first_order_mythic_fractal>, <contenttweaker:corrupted_aragonite>, <contenttweaker:draconian_metal_ingot>, 
+<materialpart:sacrifice_metal:ingot>, <materialpart:sacrifice_metal:ingot>, <materialpart:sacrifice_metal:ingot>, 
+<contenttweaker:draconian_metal_ingot>, <contenttweaker:corrupted_aragonite>, <contenttweaker:first_order_mythic_fractal>], 
+
+[<contenttweaker:second_order_mythic_fractal>, <contenttweaker:cursed_sapphire>, <contenttweaker:draconian_metal_ingot>, 
+<contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, 
+<contenttweaker:draconian_metal_ingot>, <contenttweaker:cursed_sapphire>, <contenttweaker:second_order_mythic_fractal>], 
+
+[<contenttweaker:big_slime>, <contenttweaker:clunky_chunky_brick>, <contenttweaker:strings_crystal>, 
+<contenttweaker:crown_of_the_energy_queen>, <contenttweaker:third_order_mythic_fractal>, <contenttweaker:crown_of_the_energy_queen>, 
+<contenttweaker:strings_crystal>, <contenttweaker:clunky_chunky_brick>, <contenttweaker:big_slime>], 
+
+[<contenttweaker:recursion_of_war>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:paradigm_of_dominion>, 
+<contenttweaker:cosmic_fracture>, <contenttweaker:third_order_mythic_fractal>, <contenttweaker:cosmic_fracture>, 
+<contenttweaker:paradigm_of_dominion>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:recursion_of_war>]]);  
+
+
+recipes.addShaped(<supersoundmuffler:sound_muffler_bauble>,
+[[null, <divinerpg:dream_stone>, null],
+[<divinerpg:dream_stone>, <divinerpg:dirty_pearls>, <divinerpg:dream_stone>],
+[null, <divinerpg:dream_stone>, null]]);
+
+recipes.addShapeless(<supersoundmuffler:sound_muffler>,
+[<supersoundmuffler:sound_muffler_bauble>]);

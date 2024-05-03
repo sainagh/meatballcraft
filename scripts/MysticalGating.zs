@@ -226,3 +226,11 @@ recipes.addShapeless(<mysticalagriculture:crafting:4>*4,
 [<mysticalagradditions:insanium:0>, <matc:superiumcrystal>.anyDamage()]);
 recipes.addShapeless(<mysticalagriculture:crafting:4>*4,
 [<mysticalagradditions:insanium:0>, <matc:supremiumcrystal>.anyDamage()]);
+
+
+recipes.remove(<mysticalagriculture:inferium_furnace>);
+
+recipes.addShaped(<mysticalagriculture:inferium_furnace>,
+[[null, <contenttweaker:whitefire_ember>, null],
+[<mysticalagriculture:storage:0>, <minecraft:furnace>, <mysticalagriculture:storage:0>],
+[null, <mysticalagriculture:storage:0>, null]]);

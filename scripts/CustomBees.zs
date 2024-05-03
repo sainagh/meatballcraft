@@ -12,8 +12,6 @@ recipes.addShaped(<careerbees:ingredients:12>*15,
 [<minecraft:nether_star>, <gendustry:honey_comb:13349>, null],
 [<minecraft:nether_star>, null, null]]);
 
-mods.forestry.Squeezer.addRecipe(<fluid:hot_spring_water>*1000, 
-[<gendustry:honey_comb:13331>], 30);
 
 recipes.addShaped(<iceandfire:gorgon_head>,
 [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
@@ -59,7 +57,7 @@ recipes.addShapeless(<contenttweaker:botanic_alchemic_catalyst>,
 
 
 
-mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:nether_star> * 32) % 30, <minecraft:beacon> % 50], <gendustry:honey_comb:13369>, <liquid:honey>*100, 2000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:nether_star> * 32) % 30, <minecraft:beacon> % 50], <gendustry:honey_comb:13369>, <liquid:for.honey>*100, 2000);
 
 recipes.addShapeless(<xreliquary:potion>.withTag({effects: [{duration: 72000, potency: 1, name: "xreliquary:flight_potion"}], hasPotion: 1 as byte}),
 [<gendustry:honey_comb:13369>,
@@ -97,10 +95,13 @@ mods.forestry.Centrifuge.addRecipe([
 mods.forestry.Centrifuge.addRecipe([
     (<divinerpg:arlemite_ore> * 8) % 90, 
     (<divinerpg:realmite_ore> * 8) % 90,
-    (<divinerpg:rupee_ore> * 8) % 90,
+    (<divinerpg:rupee_ore> * 8) % 90], 
+<gendustry:honey_comb:13371>, 10);
+
+mods.forestry.Centrifuge.addRecipe([
     (<divinerpg:bloodgem_ore> * 8) % 90,
     (<divinerpg:netherite_ore> * 8) % 90], 
-<gendustry:honey_comb:13371>, 10);
+<gendustry:honey_comb:13379>, 10);
 
 recipes.addShaped(<contenttweaker:gun_devil_chunk>,
 [[<contenttweaker:curious_bullet>, <contenttweaker:gun_devil_fragment>, <contenttweaker:curious_bullet>],
@@ -127,10 +128,14 @@ mods.thermalexpansion.Centrifuge.addRecipe(
 mods.thermalexpansion.Centrifuge.addRecipe(
     [(<divinerpg:rupee_ore>) % 90, 
     <divinerpg:arlemite_ore> % 90, 
-    <divinerpg:realmite_ore> % 90, 
+    <divinerpg:realmite_ore> % 90], 
+    <gendustry:honey_comb:13371>, null, 2000);
+
+mods.thermalexpansion.Centrifuge.addRecipe(
+    [
     <divinerpg:netherite_ore> % 90, 
     <divinerpg:bloodgem_ore> % 90], 
-    <gendustry:honey_comb:13371>, null, 2000);
+    <gendustry:honey_comb:13379>, null, 2000);
 
 recipes.addShaped(<contenttweaker:water_doped_egg>*8,
 [[<minecraft:egg>, <minecraft:egg>, <minecraft:egg>],
@@ -778,6 +783,7 @@ recipes.addShaped(<mysticalagradditions:neutronium_seeds>.withTag({agri_analyzed
 [[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
 [<gendustry:honey_comb:14012>, <mysticalagradditions:neutronium_seeds>, <gendustry:honey_comb:14012>],
 [<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
 
 
 

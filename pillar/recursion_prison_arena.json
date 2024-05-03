@@ -21,7 +21,7 @@
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "",
+	"filling": "thaumcraft:stone_ancient_rock",
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	

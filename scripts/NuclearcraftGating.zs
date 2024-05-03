@@ -533,6 +533,43 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_
 <contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
 <aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <nuclearcraft:part:3>]]);  
 
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_hard_carbon>*16, 
+[[<contenttweaker:adamantium_plate>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
+<contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
+<aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <contenttweaker:adamantium_plate>], 
+
+[<nuclearcraft:part:3>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:alloy:2>, 
+<nuclearcraft:alloy:2>, <nuclearcraft:alloy:2>, <nuclearcraft:alloy:2>, 
+<nuclearcraft:alloy:2>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:part:3>], 
+
+[<aoa3:radiant_infusion_stone>, <nuclearcraft:alloy:2>, <contenttweaker:krypton_capture>, 
+<contenttweaker:imperfect_neutronium_nugget>, <contenttweaker:superconducting_thread>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:krypton_capture>, <nuclearcraft:alloy:2>, <aoa3:radiant_infusion_stone>], 
+
+[<contenttweaker:inert_crystal>, <nuclearcraft:alloy:2>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:mythic_machine_case>, <libvulpes:advstructuremachine>, <contenttweaker:mythic_machine_case>, 
+<contenttweaker:imperfect_neutronium_nugget>, <nuclearcraft:alloy:2>, <contenttweaker:inert_crystal>], 
+
+[<openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <nuclearcraft:alloy:2>, <libvulpes:advstructuremachine>, 
+<contenttweaker:superconducting_thread>, <contenttweaker:arc_reactor_coil>, <contenttweaker:superconducting_thread>, 
+<libvulpes:advstructuremachine>, <nuclearcraft:alloy:2>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}})], 
+
+[<contenttweaker:inert_crystal>, <nuclearcraft:alloy:2>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:mythic_machine_case>, <libvulpes:advstructuremachine>, <contenttweaker:mythic_machine_case>, 
+<contenttweaker:imperfect_neutronium_nugget>, <nuclearcraft:alloy:2>, <contenttweaker:inert_crystal>], 
+
+[<aoa3:radiant_infusion_stone>, <nuclearcraft:alloy:2>, <contenttweaker:krypton_capture>, 
+<contenttweaker:imperfect_neutronium_nugget>, <contenttweaker:superconducting_thread>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:krypton_capture>, <nuclearcraft:alloy:2>, <aoa3:radiant_infusion_stone>], 
+
+[<nuclearcraft:part:3>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:alloy:2>, 
+<nuclearcraft:alloy:2>, <nuclearcraft:alloy:2>, <nuclearcraft:alloy:2>, 
+<nuclearcraft:alloy:2>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:part:3>], 
+
+[<contenttweaker:adamantium_plate>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
+<contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
+<aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <contenttweaker:adamantium_plate>]]);  
+
 
 
 
@@ -705,22 +742,22 @@ recipes.addShaped(<nuclearcraft:buffer>*12,
 [<contenttweaker:radioactive_residue>, <extendedcrafting:singularity:23>, <contenttweaker:radioactive_residue>],
 [<nuclearcraft:fission_block:0>, <contenttweaker:radioactive_residue>, <nuclearcraft:fission_block:0>]]);
 
-recipes.addShaped(<thermalfoundation:armor.helmet_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "Radiation-Absorbing Helmet"}}), 
+recipes.addShaped(<thermalfoundation:armor.helmet_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "§6§oRadiation-Absorbing Helmet§r", Lore: ["§d§oSuper-Enchanted§r"]}}), 
 [[<nuclearcraft:rad_shielding:2>, <contenttweaker:active_cursed_jewel>, <nuclearcraft:rad_shielding:2>],
 [<minecraft:golden_apple:1>, <thermalfoundation:armor.helmet_lead>, <minecraft:golden_apple:1>],
 [<nuclearcraft:rad_shielding:2>, <nuclearcraft:helm_hazmat>, <nuclearcraft:rad_shielding:2>]]);
 
-recipes.addShaped(<thermalfoundation:armor.plate_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "Radiation-Absorbing Chestplate"}}), 
+recipes.addShaped(<thermalfoundation:armor.plate_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "§6§oRadiation-Absorbing Chestplate§r", Lore: ["§d§oSuper-Enchanted§r"]}}), 
 [[<nuclearcraft:rad_shielding:2>, <contenttweaker:active_cursed_jewel>, <nuclearcraft:rad_shielding:2>],
 [<minecraft:golden_apple:1>, <thermalfoundation:armor.plate_lead>, <minecraft:golden_apple:1>],
 [<nuclearcraft:rad_shielding:2>, <nuclearcraft:chest_hazmat>, <nuclearcraft:rad_shielding:2>]]);
 
-recipes.addShaped(<thermalfoundation:armor.legs_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "Radiation-Absorbing Leggings"}}), 
+recipes.addShaped(<thermalfoundation:armor.legs_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "§6§oRadiation-Absorbing Leggings§r", Lore: ["§d§oSuper-Enchanted§r"]}}), 
 [[<nuclearcraft:rad_shielding:2>, <contenttweaker:active_cursed_jewel>, <nuclearcraft:rad_shielding:2>],
 [<minecraft:golden_apple:1>, <thermalfoundation:armor.legs_lead>, <minecraft:golden_apple:1>],
 [<nuclearcraft:rad_shielding:2>, <nuclearcraft:legs_hazmat>, <nuclearcraft:rad_shielding:2>]]);
 
-recipes.addShaped(<thermalfoundation:armor.boots_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "Radiation-Absorbing Boots"}}), 
+recipes.addShaped(<thermalfoundation:armor.boots_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "§6§oRadiation-Absorbing Boots§r", Lore: ["§d§oSuper-Enchanted§r"]}}), 
 [[<nuclearcraft:rad_shielding:2>, <contenttweaker:active_cursed_jewel>, <nuclearcraft:rad_shielding:2>],
 [<minecraft:golden_apple:1>, <thermalfoundation:armor.boots_lead>, <minecraft:golden_apple:1>],
 [<nuclearcraft:rad_shielding:2>, <nuclearcraft:boots_hazmat>, <nuclearcraft:rad_shielding:2>]]);

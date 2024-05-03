@@ -18,6 +18,19 @@ mapBright += enchlistBright[4].makeEnchantment(10).makeTag();
 mapBright += enchlistBright[5].makeEnchantment(10).makeTag();
 mapBright += enchlistBright[6].makeEnchantment(10).makeTag();
 
+var mapBrightHead as IData = {
+	display: {Name: "§6§oBrightsteel Helmet§r", Lore: ["§d§oSuper-Enchanted§r"]}
+};
+var mapBrightChest as IData = {
+	display: {Name: "§6§oBrightsteel Chestplate§r", Lore: ["§d§oSuper-Enchanted§r"]}
+};
+var mapBrightLegs as IData = {
+	display: {Name: "§6§oBrightsteel Leggings§r", Lore: ["§d§oSuper-Enchanted§r"]}
+};
+var mapBrightBoots as IData = {
+	display: {Name: "§6§oBrightsteel Boots§r", Lore: ["§d§oSuper-Enchanted§r"]}
+};
+
 val reci1 = RecipeBuilder.newBuilder("electroblob1","wizardry_combiner",100);
 reci1.addEnergyPerTickInput(15000);
 reci1.addItemInput(<ebwizardry:magic_crystal:0>*4);
@@ -205,7 +218,7 @@ reci22.addItemInput(<ebwizardry:magic_crystal:4>*16);
 reci22.addItemInput(<ebwizardry:arcane_tome:3>*8);
 reci22.addItemInput(<materialpart:sednanite:ingot>*2);
 reci22.addItemInput(<materialpart:dreaded_steel:ingot>*2);
-reci22.addItemOutput(<arcane_essentials:master_necromancy_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Necromancy Flamberg"}}));
+reci22.addItemOutput(<arcane_essentials:master_necromancy_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oNecromancy Flamberg§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 reci22.build();
 
 val reci23 = RecipeBuilder.newBuilder("electroblob23","wizardry_combiner",4000);
@@ -216,7 +229,7 @@ reci23.addItemInput(<ebwizardry:magic_crystal:7>*16);
 reci23.addItemInput(<ebwizardry:arcane_tome:3>*8);
 reci23.addItemInput(<materialpart:sednanite:ingot>*2);
 reci23.addItemInput(<materialpart:dreaded_steel:ingot>*2);
-reci23.addItemOutput(<arcane_essentials:master_healing_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Healing Flamberg"}}));
+reci23.addItemOutput(<arcane_essentials:master_healing_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oHealing Flamberg§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 reci23.build();
 
 val reci24 = RecipeBuilder.newBuilder("electroblob24","wizardry_combiner",4000);
@@ -228,7 +241,7 @@ reci24.addItemInput(<ebwizardry:magic_crystal:6>*16);
 reci24.addItemInput(<ebwizardry:arcane_tome:3>*8);
 reci24.addItemInput(<materialpart:sednanite:ingot>*2);
 reci24.addItemInput(<materialpart:dreaded_steel:ingot>*2);
-reci24.addItemOutput(<arcane_essentials:master_nature_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Earth Flamberg"}}));
+reci24.addItemOutput(<arcane_essentials:master_nature_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oEarth Flamberg§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 reci24.build();
 
 val reci25 = RecipeBuilder.newBuilder("electroblob25","wizardry_combiner",4000);
@@ -239,7 +252,7 @@ reci25.addItemInput(<ebwizardry:magic_crystal:6>*16);
 reci25.addItemInput(<ebwizardry:arcane_tome:3>*8);
 reci25.addItemInput(<materialpart:sednanite:ingot>*2);
 reci25.addItemInput(<materialpart:dreaded_steel:ingot>*2);
-reci25.addItemOutput(<arcane_essentials:master_sorcery_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Sorcery Flamberg"}}));
+reci25.addItemOutput(<arcane_essentials:master_sorcery_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oSorcery Flamberg§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 reci25.build();
 
 val reci26 = RecipeBuilder.newBuilder("electroblob26","wizardry_combiner",4000);
@@ -250,7 +263,7 @@ reci26.addItemInput(<ebwizardry:magic_crystal:3>*16);
 reci26.addItemInput(<ebwizardry:arcane_tome:3>*8);
 reci26.addItemInput(<materialpart:sednanite:ingot>*2);
 reci26.addItemInput(<materialpart:dreaded_steel:ingot>*2);
-reci26.addItemOutput(<arcane_essentials:master_lightning_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Lightning Flamberg"}}));
+reci26.addItemOutput(<arcane_essentials:master_lightning_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oLightning Flamberg§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 reci26.build();
 
 val reci27 = RecipeBuilder.newBuilder("electroblob27","wizardry_combiner",4000);
@@ -261,7 +274,7 @@ reci27.addItemInput(<ebwizardry:magic_crystal:1>*16);
 reci27.addItemInput(<ebwizardry:arcane_tome:3>*8);
 reci27.addItemInput(<materialpart:sednanite:ingot>*2);
 reci27.addItemInput(<materialpart:dreaded_steel:ingot>*2);
-reci27.addItemOutput(<arcane_essentials:master_fire_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Fire Flamberg"}}));
+reci27.addItemOutput(<arcane_essentials:master_fire_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oFire Flamberg§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 reci27.build();
 
 val reci28 = RecipeBuilder.newBuilder("electroblob28","wizardry_combiner",4000);
@@ -272,7 +285,7 @@ reci28.addItemInput(<ebwizardry:magic_crystal:2>*16);
 reci28.addItemInput(<ebwizardry:arcane_tome:3>*8);
 reci28.addItemInput(<materialpart:sednanite:ingot>*2);
 reci28.addItemInput(<materialpart:dreaded_steel:ingot>*2);
-reci28.addItemOutput(<arcane_essentials:master_ice_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "Ice Flamberg"}}));
+reci28.addItemOutput(<arcane_essentials:master_ice_sword>.withTag({ench: [{lvl: 55 as short, id: 16 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oIce Flamberg§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 reci28.build();
 
 val reci29 = RecipeBuilder.newBuilder("electroblob29","wizardry_combiner",100);
@@ -295,7 +308,7 @@ reci30.addEnergyPerTickInput(15000);
 reci30.addItemInput(<contenttweaker:brightsteel_feet>);
 reci30.addItemInput(<materialpart:chalcedony:ingot>*2);
 reci30.addItemInput(<materialpart:lunastone:ingot>*2);
-reci30.addItemOutput(<contenttweaker:brightsteel_feet>.withTag(mapBright));
+reci30.addItemOutput(<contenttweaker:brightsteel_feet>.withTag(mapBrightBoots += mapBright));
 reci30.build();
 
 val reci31 = RecipeBuilder.newBuilder("electroblob31","wizardry_combiner",4000);
@@ -303,7 +316,7 @@ reci31.addEnergyPerTickInput(15000);
 reci31.addItemInput(<contenttweaker:brightsteel_legs>);
 reci31.addItemInput(<materialpart:chalcedony:ingot>*4);
 reci31.addItemInput(<materialpart:lunastone:ingot>*3);
-reci31.addItemOutput(<contenttweaker:brightsteel_legs>.withTag(mapBright));
+reci31.addItemOutput(<contenttweaker:brightsteel_legs>.withTag(mapBrightLegs += mapBright));
 reci31.build();
 
 val reci32 = RecipeBuilder.newBuilder("electroblob32","wizardry_combiner",4000);
@@ -311,7 +324,7 @@ reci32.addEnergyPerTickInput(15000);
 reci32.addItemInput(<contenttweaker:brightsteel_chest>);
 reci32.addItemInput(<materialpart:chalcedony:ingot>*4);
 reci32.addItemInput(<materialpart:lunastone:ingot>*5);
-reci32.addItemOutput(<contenttweaker:brightsteel_chest>.withTag(mapBright));
+reci32.addItemOutput(<contenttweaker:brightsteel_chest>.withTag(mapBrightChest += mapBright));
 reci32.build();
 
 val reci33 = RecipeBuilder.newBuilder("electroblob33","wizardry_combiner",4000);
@@ -319,7 +332,7 @@ reci33.addEnergyPerTickInput(15000);
 reci33.addItemInput(<contenttweaker:brightsteel_head>);
 reci33.addItemInput(<materialpart:chalcedony:ingot>*4);
 reci33.addItemInput(<materialpart:lunastone:ingot>*5);
-reci33.addItemOutput(<contenttweaker:brightsteel_head>.withTag(mapBright));
+reci33.addItemOutput(<contenttweaker:brightsteel_head>.withTag(mapBrightHead += mapBright));
 reci33.build();
 
 val reci34 = RecipeBuilder.newBuilder("electroblob34","wizardry_combiner",100);

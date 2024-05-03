@@ -58,3 +58,7 @@ recipes.addShaped(<divinerpg:netherite_ore>,
 [<mysticalagriculture:nether_essence>, <divinerpg:netherite_ingot>, <mysticalagriculture:nether_essence>],
 [<mysticalagriculture:nether_essence>, <mysticalagriculture:nether_essence>, <mysticalagriculture:nether_essence>]]);
 
+recipes.addShaped(<thaumcraft:ore_cinnabar>,
+[[<mysticalagriculture:sky_stone_essence>, <mysticalagriculture:sky_stone_essence>, <mysticalagriculture:sky_stone_essence>],
+[<mysticalagriculture:sky_stone_essence>, <thaumcraft:quicksilver>, <mysticalagriculture:sky_stone_essence>],
+[<mysticalagriculture:sky_stone_essence>, <mysticalagriculture:sky_stone_essence>, <mysticalagriculture:sky_stone_essence>]]);

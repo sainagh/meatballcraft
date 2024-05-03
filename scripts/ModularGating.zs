@@ -458,3 +458,18 @@ recipes.addShapeless(<modularmachinery:blockimpetusproviderinput>,
 [<modularmachinery:blockimpetusprovideroutput>]);
 recipes.addShapeless(<modularmachinery:blockimpetusprovideroutput>,
 [<modularmachinery:blockimpetusproviderinput>]);
+
+recipes.addShaped(<modularmachinery:blockwillproviderinput>,
+[[<bloodmagic:item_demon_crystal:1>, <modularmachinery:itemmodularium>, <bloodmagic:item_demon_crystal:4>],
+[<bloodmagic:item_demon_crystal:2>, <modularmachinery:blockfluidinputhatch:5>, <bloodmagic:item_demon_crystal:3>],
+[<modularmachinery:itemmodularium>, <bloodmagic:item_demon_crystal:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachinery:blockwillprovideroutput>,
+[[<bloodmagic:item_demon_crystal:1>, <modularmachinery:itemmodularium>, <bloodmagic:item_demon_crystal:4>],
+[<bloodmagic:item_demon_crystal:2>, <modularmachinery:blockfluidoutputhatch:5>, <bloodmagic:item_demon_crystal:3>],
+[<modularmachinery:itemmodularium>, <bloodmagic:item_demon_crystal:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShapeless(<modularmachinery:blockwillprovideroutput>,
+[<modularmachinery:blockwillproviderinput>]);
+recipes.addShapeless(<modularmachinery:blockwillproviderinput>,
+[<modularmachinery:blockwillprovideroutput>]);

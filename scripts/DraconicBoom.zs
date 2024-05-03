@@ -16,3 +16,5 @@ default.setColour2 = 0xffffff;
 //transmutation is the blastwave turning one block into another
 //transmutation is added with addTransmutation(BlockStateMatcher input, int power, blockstate output)
 default.addTransmutation(<blockstate:draconicevolution:draconic_block>, 10, <blockstate:draconicevolution:draconium_block:charged=true>);
+
+default.addTransmutation(<blockstate:aoa3:ancient_rock>.matchBlock(), 1, <blockstate:bnkrblks:megelium_stone>);

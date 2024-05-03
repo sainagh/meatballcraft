@@ -450,7 +450,7 @@
     },
     {
         "mode": "ADD",
-        "result": "iceandfire:dragonsteel_lighning_ingot",
+        "result": "iceandfire:dragonsteel_lightning_ingot",
         "catalyst": "draconicevolution:draconium_ingot",
         "energy": 100000,
         "tier": 2,
@@ -465,7 +465,7 @@
     },
     {
         "mode": "ADD",
-        "result": "iceandfire:dragonsteel_lighning_block",
+        "result": "iceandfire:dragonsteel_lightning_block",
         "catalyst": "draconicevolution:draconium_block",
         "energy": 1000000,
         "tier": 2,
@@ -616,6 +616,24 @@
             "contenttweaker:recursive_convergence",
             "contenttweaker:recursive_convergence",
             "contenttweaker:recursive_convergence"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:awakened_core,8,0",
+        "catalyst": "minecraft:nether_star",
+        "energy": 9000000,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "contenttweaker:eye_of_gallifrey"
         ]
     }
 ]

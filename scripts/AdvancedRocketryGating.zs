@@ -270,8 +270,8 @@ mods.techreborn.rollingMachine.addShapeless(<libvulpes:productsheet:4>, [<ore:pl
 mods.techreborn.rollingMachine.addShapeless(<libvulpes:productsheet:6>, [<ore:plateSteel>]);
 mods.techreborn.rollingMachine.addShapeless(<libvulpes:productsheet:7>, [<ore:plateTitanium>]);
 mods.techreborn.rollingMachine.addShapeless(<libvulpes:productsheet:9>, [<ore:plateAluminum>]);
-mods.techreborn.rollingMachine.addShapeless(<libvulpes:productsheet:0>, [<ore:plateTitaniumAluminide>]);
-mods.techreborn.rollingMachine.addShapeless(<libvulpes:productsheet:1>, [<ore:plateTitaniumIridium>]);
+mods.techreborn.rollingMachine.addShapeless(<advancedrocketry:productsheet:0>, [<ore:plateTitaniumAluminide>]);
+mods.techreborn.rollingMachine.addShapeless(<advancedrocketry:productsheet:1>, [<ore:plateTitaniumIridium>]);
 
 //recipes.addShaped(<advancedrocketry:rollingmachine>,
 //[[null, <ore:gearLumium>, null],

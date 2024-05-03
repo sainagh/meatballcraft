@@ -8,3 +8,5 @@ mods.jei.JEI.hideCategory("TechReborn.Centrifuge");
 mods.jei.JEI.hideCategory("TechReborn.ChemicalReactor");
 
 mods.jei.JEI.hideCategory("deepmoblearningbm.digital_will_injector");
+
+mods.jei.JEI.hideCategory("zmaster587.AR.lathe");

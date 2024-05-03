@@ -27,6 +27,38 @@
     {
       "item": "xreliquary:rod_of_lyssa",
       "damage": "*"
+    },
+    {
+      "item": "cyclicmagic:chest_sack_empty",
+      "damage": "*"
+    },
+    {
+      "item": "cyclicmagic:ender_pearl_mounted",
+      "damage": "*"
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "damage": "*"
+    },
+    {
+      "item": "enderio:item_travel_staff",
+      "damage": "*"
+    },
+    {
+      "item": "minecraft:chorus_fruit",
+      "damage": "*"
+    },
+    {
+      "item": "cyclicmagic:ender_pearl_reuse",
+      "damage": "*"
+    },
+    {
+      "item": "actuallyadditions:item_tele_staff",
+      "damage": "*"
+    },
+    {
+      "item": "enderutilities:enderbow",
+      "damage": "*"
     }
   ],
   "818": [
@@ -119,11 +151,23 @@
       "damage": "*"
     },
     {
-      "item": "minecraft:ender_pearl",
+      "item": "enderio:item_travel_staff",
       "damage": "*"
     },
     {
-      "item": "enderio:item_travel_staff",
+      "item": "minecraft:chorus_fruit",
+      "damage": "*"
+    },
+    {
+      "item": "cyclicmagic:ender_pearl_reuse",
+      "damage": "*"
+    },
+    {
+      "item": "actuallyadditions:item_tele_staff",
+      "damage": "*"
+    },
+    {
+      "item": "enderutilities:enderbow",
       "damage": "*"
     }
   ],
@@ -139,6 +183,22 @@
     {
       "item": "enderio:item_travel_staff",
       "damage": "*"
+    },
+    {
+      "item": "minecraft:chorus_fruit",
+      "damage": "*"
+    },
+    {
+      "item": "cyclicmagic:ender_pearl_reuse",
+      "damage": "*"
+    },
+    {
+      "item": "actuallyadditions:item_tele_staff",
+      "damage": "*"
+    },
+    {
+      "item": "enderutilities:enderbow",
+      "damage": "*"
     }
   ],
   "-11325": [
@@ -152,6 +212,34 @@
     },
     {
       "item": "enderio:item_travel_staff",
+      "damage": "*"
+    },
+    {
+      "item": "minecraft:chorus_fruit",
+      "damage": "*"
+    },
+    {
+      "item": "cyclicmagic:ender_pearl_reuse",
+      "damage": "*"
+    },
+    {
+      "item": "actuallyadditions:item_tele_staff",
+      "damage": "*"
+    },
+    {
+      "item": "enderutilities:enderbow",
+      "damage": "*"
+    }
+  ],
+  "163": [
+    {
+      "item": "extrautils2:terraformer",
+      "damage": "*"
+    }
+  ],
+  "151": [
+    {
+      "item": "extrautils2:terraformer",
       "damage": "*"
     }
   ]

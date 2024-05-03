@@ -119,7 +119,7 @@ mythroll15.build();
 val mythroll16 = RecipeBuilder.newBuilder("mythroll16","mythic_processor_rolling_machine",2);
 mythroll16.addEnergyPerTickInput(60000);
 mythroll16.addItemInput(<ore:plateTitaniumAluminide>*4);
-mythroll16.addItemOutput(<libvulpes:productsheet:0>*4);
+mythroll16.addItemOutput(<advancedrocketry:productsheet:0>*4);
 mythroll16.build();
 
 val mythroll17 = RecipeBuilder.newBuilder("mythroll17","mythic_processor_rolling_machine",2);

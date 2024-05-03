@@ -52,6 +52,8 @@ recipes.addShapeless(<techreborn:plates:18>,
 [<immersiveengineering:tool:0>,
 <ore:ingotBrass>]);
 
+recipes.removeShapeless(<tconstruct:ingots:5>, [<ore:blockBrass>]);
+
 
 //==================================================================
 // titanium
@@ -222,6 +224,10 @@ recipes.addShapeless(<thermalfoundation:material:320>,
 
 recipes.remove(<railcraft:plate:3>);
 
+mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:9>);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:64>*2, <ore:oreCopper>, 2048, <thermalfoundation:material:1>, 0.1);
+
+
 
 
 //==================================================================
@@ -270,6 +276,13 @@ recipes.removeShapeless(<immersiveengineering:metal:33>, [<immersiveengineering:
 recipes.addShapeless(<thermalfoundation:material:322>, 
 [<immersiveengineering:tool:0>,
 <ore:ingotSilver>]);
+
+mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:12>);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:66>*2, <ore:oreSilver>, 2048, <thermalfoundation:material:67>, 0.1);
+
+recipes.addShapeless(<thermalfoundation:material:130>, 
+[<bewitchment:silver_ingot>]);
+
 
 //==================================================================
 // steel
@@ -386,6 +399,10 @@ recipes.addShapeless(<thermalfoundation:material:324>,
 [<immersiveengineering:tool:0>,
 <ore:ingotAluminum>]);
 
+mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:10>);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:68>*2, <ore:oreAluminum>, 2048);
+
+
 //==================================================================
 // electrum
 val electrumingot = <ore:ingotElectrum>;
@@ -453,6 +470,10 @@ recipes.addShapeless(<thermalfoundation:material:323>,
 [<immersiveengineering:tool:0>,
 <ore:ingotLead>]);
 
+mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:11>);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:67>*2, <ore:oreLead>, 2048, <thermalfoundation:material:66>, 0.1);
+
+
 //==================================================================
 // nickel
 val nickelingot = <ore:ingotNickel>;
@@ -484,6 +505,10 @@ recipes.removeShapeless(<immersiveengineering:metal:34>, [<immersiveengineering:
 recipes.addShapeless(<thermalfoundation:material:325>, 
 [<immersiveengineering:tool:0>,
 <ore:ingotNickel>]);
+
+mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:13>);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:69>*2, <ore:oreNickel>, 2048, <thermalfoundation:material:70>, 0.1);
+
 
 //==================================================================
 // graphite
@@ -541,6 +566,14 @@ val uraniumdust = <ore:dustUranium>;
 uraniumdust.remove(<nuclearcraft:dust:4>);
 // uraniumdust.remove(<techreborn:dust:66>);
 
+recipes.remove(<nuclearcraft:dust:4>);
+recipes.addShapeless(<immersiveengineering:metal:14>*2,
+[<thermalfoundation:material:1027>,
+<ore:oreUranium>]);
+recipes.addShapeless(<immersiveengineering:metal:14>,
+[<thermalfoundation:material:1027>,
+<ore:ingotUranium>]);
+
 val uraniumore = <ore:oreUranium>;
 uraniumore.remove(<immersiveengineering:ore:5>);
 
@@ -553,6 +586,9 @@ furnace.remove(<techreborn:ingot:23>);
 furnace.addRecipe(<nuclearcraft:ingot:3>, <ore:oreThorium>);
 
 recipes.addShapeless(<nuclearcraft:ingot:3>*9, [<ore:blockThorium>]);
+
+furnace.addRecipe(<nuclearcraft:ingot:3>, <ore:dustThorium>);
+
 
 val thoriumdust = <ore:dustThorium>;
 // thoriumdust.remove(<techreborn:dust:65>);
@@ -606,6 +642,11 @@ recipes.removeShapeless(<immersiveengineering:metal:39>, [<immersiveengineering:
 recipes.addShapeless(<thermalfoundation:material:32>, 
 [<immersiveengineering:tool:0>,
 <ore:ingotIron>]);
+
+recipes.addShapeless(<thaumcraft:plate:1>*3, 
+[<ore:plateIron>,
+<ore:plateIron>,
+<ore:plateIron>]);
 
 //==================================================================
 // gold
@@ -693,3 +734,40 @@ recipes.addShapeless(<aoa3:jade>*9,
 [<aoa3:jade_block>]);
 recipes.addShapeless(<aoa3:amethyst>*9,
 [<aoa3:amethyst_block>]);
+
+
+//==================================================================
+// coal
+
+val coaldust = <ore:dustCoal>;
+coaldust.remove(<actuallyadditions:item_dust:6>);
+coaldust.remove(<bloodmagic:component:21>);
+coaldust.remove(<enderio:item_material:23>);
+coaldust.remove(<threng:material:3>);
+coaldust.remove(<nuclearcraft:gem_dust:7>);
+coaldust.remove(<railcraft:dust:5>);
+
+mods.extrautils2.Crusher.remove(<actuallyadditions:item_dust:6>);
+mods.extrautils2.Crusher.add(<thermalfoundation:material:768>, <minecraft:coal>);
+
+//==================================================================
+// cinnabar
+
+val cinnabarore = <ore:oreCinnabar>;
+cinnabarore.remove(<tardis:cinnabar_ore>);
+
+//==================================================================
+// wither bone
+
+val witherbone = <ore:boneWither>;
+witherbone.add(<bhc:wither_bone>);
+witherbone.add(<tconstruct:materials:17>);
+
+//==================================================================
+// amber
+
+furnace.remove(<biomesoplenty:gem:7>);
+furnace.addRecipe(<biomesoplenty:gem:7>, <biomesoplenty:gem_ore:7>);
+
+furnace.remove(<thaumcraft:amber>);
+furnace.addRecipe(<thaumcraft:amber>, <thaumcraft:ore_amber>);

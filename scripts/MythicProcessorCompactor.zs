@@ -449,5 +449,12 @@ mythcomp78.addItemInput(<contenttweaker:sedna_spinel>*4);
 mythcomp78.addItemOutput(<ore:plateSedna>*4);
 mythcomp78.build();
 
+val mythcomp79 = RecipeBuilder.newBuilder("mythcomp79","mythic_processor_compactor",2);
+mythcomp79.addEnergyPerTickInput(60000);
+mythcomp79.addItemInput(<ore:ingotBloodmasterMetal>*4);
+mythcomp79.addItemOutput(<contenttweaker:bloodmaster_block>);
+mythcomp79.build();
+
+
 
 

@@ -177,8 +177,11 @@ recipes.addShaped(<contenttweaker:mystical_gem>,
 
 mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:41>*2, <techreborn:dust:58>*2, <thermalfoundation:material:894>, <extrabees:misc:5>, <contenttweaker:mystical_gem>, <minecraft:flint>, <fluid:water>*1000, 40, 512);
 
-recipes.addShapeless(<nuclearcraft:gem_dust:11>,
-[<ore:dustEndstone>]);
+recipes.addShapeless(<nuclearcraft:gem_dust:11>*4,
+[<ore:dustEndstone>,
+<ore:dustEndstone>,
+<ore:dustEndstone>,
+<ore:dustEndstone>]);
 
 mods.thermalexpansion.Sawmill.addRecipe(<projectred-core:resource_item:301>*8, <projectred-core:resource_item:300>, 7000);
 
@@ -251,3 +254,8 @@ recipes.addShaped(<techreborn:part:28>,
 [[null, <techreborn:part:26>, null],
 [<techreborn:part:26>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "beryllium", Amount: 1000}}), <techreborn:part:26>],
 [null, <techreborn:part:26>, null]]);
+
+recipes.addShaped(<techreborn:dragon_egg_syphon>,
+[[<techreborn:part:0>,<techreborn:medium_voltage_su>,<techreborn:part:0>],
+[<techreborn:plates:38>,<techreborn:part:17>,<techreborn:plates:38>],
+[<techreborn:part:0>,<contenttweaker:better_lapotronic_orb>,<techreborn:part:0>]]);

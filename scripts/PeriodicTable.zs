@@ -539,6 +539,7 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:stable_darmstadtium>, <fluid
 // making roentgenium
 
 mods.nuclearcraft.melter.addRecipe([<draconicevolution:draconic_ingot>, <fluid:molten_awakened>*144]);
+mods.tconstruct.Melting.addRecipe(<fluid:molten_awakened> * 144,<draconicevolution:draconic_ingot>, 500);
 
 val roentgeniumaccelerator = RecipeBuilder.newBuilder("roentgeniumaccelerator","mythic_accelerator",40);
 roentgeniumaccelerator.addEnergyPerTickInput(2000000);

@@ -30,7 +30,7 @@ enc4.addItemInput(<aether_legacy:dungeon_block:4>*16);
 enc4.addItemInput(<astralsorcery:itemperkgem:0>);
 enc4.addItemInput(<astralsorcery:itemperkgem:1>);
 enc4.addItemInput(<astralsorcery:itemperkgem:2>);
-enc4.addItemOutput(<aether_legacy:holy_sword>.withTag({ench: [{lvl: 4 as short, id: 20 as short}, {lvl: 45 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 4 as short, id: 22 as short},{lvl: 5 as short, id: 21 as short},{lvl: 100 as short, id: 17 as short}], RepairCost: 1, display: {Name: "Durandal"}}));
+enc4.addItemOutput(<aether_legacy:holy_sword>.withTag({ench: [{lvl: 4 as short, id: 20 as short}, {lvl: 45 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 4 as short, id: 22 as short},{lvl: 5 as short, id: 21 as short},{lvl: 100 as short, id: 17 as short}], RepairCost: 1, display: {Name: "§6§oDurandal§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 enc4.build();
 
 val enc5 = RecipeBuilder.newBuilder("astaeth5","gravitite_enchanter",40);
@@ -45,7 +45,7 @@ enc6.addItemInput(<aether_legacy:ice_ring>);
 enc6.addItemInput(<aether_legacy:icestone>*16);
 enc6.addItemInput(<aether_legacy:dungeon_block:2>*4);
 enc6.addItemInput(<minecraft:nether_star>);
-enc6.addItemOutput(<aether_legacy:ice_ring>.withTag({ench: [{lvl: 20 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}]}));
+enc6.addItemOutput(<aether_legacy:ice_ring>.withTag({ench: [{lvl: 20 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], display: {Name: "§6§oIce Ring§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 enc6.build();
 
 val enc7 = RecipeBuilder.newBuilder("astaeth7","gravitite_enchanter",100);
@@ -54,7 +54,7 @@ enc7.addItemInput(<aether_legacy:phoenix_gloves>);
 enc7.addItemInput(<minecraft:blaze_rod>*32);
 enc7.addItemInput(<aether_legacy:dungeon_block:2>*4);
 enc7.addItemInput(<minecraft:nether_star>);
-enc7.addItemOutput(<aether_legacy:phoenix_gloves>.withTag({ench: [{lvl: 20 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}]}));
+enc7.addItemOutput(<aether_legacy:phoenix_gloves>.withTag({ench: [{lvl: 20 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], display: {Name: "§6§oPhoenix Gloves§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 enc7.build();
 
 val enc8 = RecipeBuilder.newBuilder("astaeth8","gravitite_enchanter",100);
@@ -63,7 +63,7 @@ enc8.addItemInput(<aether_legacy:ice_pendant>);
 enc8.addItemInput(<aether_legacy:icestone>*16);
 enc8.addItemInput(<aether_legacy:dungeon_block:2>*4);
 enc8.addItemInput(<minecraft:nether_star>);
-enc8.addItemOutput(<aether_legacy:ice_pendant>.withTag({ench: [{lvl: 20 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}]}));
+enc8.addItemOutput(<aether_legacy:ice_pendant>.withTag({ench: [{lvl: 20 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], display: {Name: "§6§oIce Pendant§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
 enc8.build();
 
 val enc9 = RecipeBuilder.newBuilder("astaeth9","gravitite_enchanter",40);

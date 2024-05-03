@@ -24,7 +24,7 @@
             "y": 3,
             "z": 3,
             "elements": [
-                "nuclearcraft:cooler@10"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -88,7 +88,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "nuclearcraft:cooler@10"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -112,7 +112,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "nuclearcraft:cooler@10"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -224,7 +224,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "nuclearcraft:cooler@10"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -240,7 +240,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "nuclearcraft:cooler@10"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -264,7 +264,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "nuclearcraft:cooler@2"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -272,355 +272,11 @@
             "y": 3,
             "z": 3,
             "elements": [
-                "nuclearcraft:ingot_block@8"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
             "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:cooler@12"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:cooler@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "nuclearcraft:cooler@12"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "nuclearcraft:cell_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:cell_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:cell_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:cooler@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:cooler@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "nuclearcraft:cooler@6"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "nuclearcraft:cell_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:cell_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "nuclearcraft:cell_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:cooler@6"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "nuclearcraft:cell_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "nuclearcraft:cell_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "nuclearcraft:cell_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:cell_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "nuclearcraft:cell_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:cell_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:cooler@10"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:ingot_block@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:cell_block@0"
-            ]
-        },
-        {
-            "x": -2,
             "y": 3,
             "z": 2,
             "elements": [
@@ -629,6 +285,350 @@
         },
         {
             "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:cell_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:cooler@10"
+            ]
+        },
+        {
+            "x": 0,
             "y": 2,
             "z": 1,
             "elements": [
@@ -640,7 +640,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "nuclearcraft:ingot_block@8"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -672,7 +672,7 @@
             "y": 4,
             "z": 5,
             "elements": [
-                "nuclearcraft:cooler@10"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -688,7 +688,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "nuclearcraft:cooler@10"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -736,7 +736,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "nuclearcraft:cooler@10"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -752,7 +752,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "nuclearcraft:cooler@10"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -784,7 +784,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "nuclearcraft:cooler@6"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -792,7 +792,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "nuclearcraft:cooler@6"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -816,7 +816,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "nuclearcraft:cooler@10"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -824,7 +824,7 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "nuclearcraft:cooler@10"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -848,7 +848,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "nuclearcraft:cooler@6"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -856,7 +856,7 @@
             "y": 2,
             "z": 5,
             "elements": [
-                "nuclearcraft:cooler@6"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -872,7 +872,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "nuclearcraft:cooler@10"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -888,7 +888,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "nuclearcraft:cooler@10"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -936,7 +936,7 @@
             "y": 4,
             "z": 3,
             "elements": [
-                "nuclearcraft:cooler@10"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -968,7 +968,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "nuclearcraft:cooler@2"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -976,7 +976,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "nuclearcraft:ingot_block@8"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -984,7 +984,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "nuclearcraft:cooler@12"
+                "nuclearcraft:cooler@10"
             ]
         },
         {
@@ -992,7 +992,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "nuclearcraft:cooler@2"
+                "nuclearcraft:cell_block@0"
             ]
         },
         {
@@ -1000,7 +1000,7 @@
             "y": 1,
             "z": 4,
             "elements": [
-                "nuclearcraft:cooler@12"
+                "nuclearcraft:cooler@10"
             ]
         }
     ]}
