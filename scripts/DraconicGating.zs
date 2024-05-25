@@ -94,7 +94,7 @@ recipes.removeShaped(<draconicevolution:celestial_manipulator>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:celestial_manipulator>, 
 [[<draconicevolution:chaotic_core>, <materialpart:lunastone:ingot>, <materialpart:brightsteel:ingot>, 
-<materialpart:chalcedony:ingot>, <torcherino:torch_lvl1>, <materialpart:chalcedony:ingot>, 
+<materialpart:chalcedony:ingot>, <tce:tce_torch_lvl1>, <materialpart:chalcedony:ingot>, 
 <materialpart:brightsteel:ingot>, <materialpart:lunastone:ingot>, <draconicevolution:chaotic_core>], 
 
 [<materialpart:lunastone:ingot>, <mysticalagradditions:special:4>, <contenttweaker:rainbow_gemstones>, 
@@ -109,9 +109,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:celestial_manip
 <avaritia:block_resource:2>, <environmentaltech:solar_cont_6>, <avaritia:block_resource:2>, 
 <contenttweaker:rainbow_gemstones>, <extendedcrafting:storage:4>, <materialpart:chalcedony:ingot>], 
 
-[<torcherino:torch_lvl1>, <bloodmagic:blood_shard:1>, <bigreactors:mineralanglesite>, 
+[<tce:tce_torch_lvl1>, <bloodmagic:blood_shard:1>, <bigreactors:mineralanglesite>, 
 <environmentaltech:solar_cont_6>, <magicbees:resource:11>, <environmentaltech:solar_cont_6>, 
-<bigreactors:mineralanglesite>, <bloodmagic:blood_shard:1>, <torcherino:torch_lvl1>], 
+<bigreactors:mineralanglesite>, <bloodmagic:blood_shard:1>, <tce:tce_torch_lvl1>], 
 
 [<materialpart:chalcedony:ingot>, <extendedcrafting:storage:4>, <contenttweaker:rainbow_gemstones>, 
 <avaritia:block_resource:2>, <environmentaltech:solar_cont_6>, <avaritia:block_resource:2>, 
@@ -126,7 +126,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:celestial_manip
 <contenttweaker:rainbow_gemstones>, <mysticalagradditions:special:4>, <materialpart:lunastone:ingot>], 
 
 [<draconicevolution:chaotic_core>, <materialpart:lunastone:ingot>, <materialpart:brightsteel:ingot>, 
-<materialpart:chalcedony:ingot>, <torcherino:torch_lvl1>, <materialpart:chalcedony:ingot>, 
+<materialpart:chalcedony:ingot>, <tce:tce_torch_lvl1>, <materialpart:chalcedony:ingot>, 
 <materialpart:brightsteel:ingot>, <materialpart:lunastone:ingot>, <draconicevolution:chaotic_core>]]);  
 
 

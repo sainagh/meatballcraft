@@ -447,7 +447,9 @@ mods.jei.JEI.addDescription(<iceandfire:fire_dragon_heart>,
     "",
     "Pipe the Blaze Rods from the condenser back into the crafter to complete the loop!",
     "",
-    "You can dump the excess Blaze Rods into another condenser to farm any EMC item you want!"
+    "You can dump the excess Blaze Rods into another condenser to farm any EMC item you want!",
+    "",
+    "The faster your item transfer, condenser rate, and crafter, the faster your EMC production."
 ]);
 
 mods.jei.JEI.addDescription(<draconicevolution:celestial_manipulator>,
@@ -591,7 +593,7 @@ mods.jei.JEI.addDescription(<magicbees:hiveblock:5>,
     "Found in the end! Drops an Oblivion Princess and Drones!"
 ]);
 
-mods.jei.JEI.addDescription([<torcherino:torch_lvl1>, <torcherino:compressed_torch_lvl1>],
+mods.jei.JEI.addDescription([<tce:tce_torch_lvl1>, <tce:tce_compressed_torch_lvl1>],
 [
     "The Torcherino lets you tick-accelerate nearby tiles!",
     "",
@@ -2582,7 +2584,8 @@ mods.jei.JEI.addDescription([<contenttweaker:dimension_ids>],
     "Alkemia: 174",
     "Earth (Lost Cities): 111",
     "Gallifrey: 624",
-    "RFTools Dimensions: 900 (and consecutive numbers)"
+    "RFTools Dimensions: 900 (and consecutive numbers)",
+    "Kashan: 190"
 ]);
 
 
@@ -4128,4 +4131,42 @@ mods.jei.JEI.addDescription([
     "Right click the desired enchanted book in the Typesetting Table near left slot, and a Chase in the far slot. Shift right click the Typesetting Table with an empty hand to create an enchanted plate. This will consume XP based on the enchantment type and level.",
     "",
     "Right click the enchanted plate in the back slot of the Printing Press, together with a bunch of ink sacks. Right click normal vanilla Books on the near left slot, and they will be transformed into enchanted books of the desired type! A single enchanted press can make up to 3 enchanted books, as it has durability, but it can be repaired using various modded tools."
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:jei_tipsandtricks>],
+[
+    "If you have lost an item somewhere in your storage and don't want to search through every storage slot, you can double click your seach bar, search JEI for your item and it will highlight slots in your storage / player inventory for similar items.",
+    "",
+    "You can also use certain prefixes in JEI in order to narrow down the item you are looking for.",
+    "",
+    "You can use these at the beginning of your search :",
+    "# - filters by tooltip descriptions",
+    "& - filters items by resource ID (You will likely never use this)",
+    "^ - filters items by color",
+    "$ - filters items by oreDictionary",
+    "@ - filters by mod names",
+    "% - filters by creative tab (You will likely never use this)",
+    "",
+    "You can also use - in order to exclude items from your search. You can only use this following one of the previous prefixes. Otherwise, you JEI just won't bother searching.",
+    "",
+    "For exemple, if you are searching for NuclearCraft fuels but dont want the depleted fuels to come up in your search, you can search with :",
+    "",
+    "@nuclearcraft fuel -depleted",
+    "",
+    "If you wish to narrow it down further, you can safely add -bucket -molten -oxide to the end of your search and you will be left with all the different types of fuels without their depleted counterparts, molten and bucket forms."
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:emptiness_tutorial>],
+[
+    "To enter the emptiness, you need to use the fracture locator to find fractures. The nether roof is a good place to look for them. The locator will glow if you are nearby a fracture.",
+    "",
+    "To open the fracture you need to use a fully charged thaumium or voidseer casting gauntlet augmented with the impetus conductor. To charge the augmented gauntlet, stand nearby a flux rift, and it will slowly consume it.",
+    "",
+    "Once the gauntlet is charged, you can right click a fracture to open it!",
+    "",
+    "To enter the dungeon you need to use a fully charged thaumium or voidseer casting gauntlet augmented with the impetus conductor on the gateway block.",
+    "",
+    "Defeat the final boss!"
 ]);

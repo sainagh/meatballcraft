@@ -421,4 +421,68 @@
             <artifact>contenttweaker:unreachable</artifact>
 		</planet>
     </star>
+    <star name="Azath" temp="100" x="30" y="30" size="3.0" numPlanets="0" numGasGiants="0" blackHole="true">
+        <star name="Azath A" temp="100" separation="50.0" size="1.5" blackHole="true"/>
+        <star name="Malaz 1" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+        <star name="Malaz 2" temp="100" separation="50.0" size="1.5" blackHole="false"/>
+        <star name="Malaz 3" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+        <star name="Azath B" temp="100" separation="50.0" size="1.5" blackHole="true"/>
+        <star name="Malaz 4" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+        <star name="Malaz 5" temp="100" separation="50.0" size="1.5" blackHole="false"/>
+        <star name="Malaz 6" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+        <star name="Azath C" temp="100" separation="50.0" size="1.5" blackHole="true"/>
+        <star name="Malaz 7" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+        <star name="Malaz 8" temp="100" separation="50.0" size="1.5" blackHole="false"/>
+        <star name="Malaz 9" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+        <star name="Azath D" temp="100" separation="50.0" size="1.5" blackHole="true"/>
+        <star name="Malaz 10" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+        <star name="Malaz 11" temp="100" separation="50.0" size="1.5" blackHole="false"/>
+        <star name="Malaz 12" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+		<planet name="Kashan" DIMID="190" customIcon="WaterWorld">
+            <atmosphereDensity>100</atmosphereDensity>
+            <hasOxygen>true</hasOxygen>
+            <fogColor>0.55,0.8,0.9</fogColor>
+            <skyColor>0.55,0.8,0.9</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>200</orbitalDistance>
+            <hasRings>false</hasRings>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>90</orbitalPhi>
+            <rotationalPeriod>36000</rotationalPeriod>
+			<biomeIds>dimdoors:limbo</biomeIds>
+            <fillerBlock>rftoolsdim:dimensional_blank_block</fillerBlock>
+			<oceanBlock>industrialforegoing:essence</oceanBlock>
+			<artifact>contenttweaker:unreachable</artifact>
+            <planet name="Kashan Moon A" customIcon="moon">
+                <GasGiant>true</GasGiant>
+                <orbitalTheta>0</orbitalTheta>
+			    <orbitalPhi>50</orbitalPhi>
+                <rotationalPeriod>72000</rotationalPeriod>
+            </planet>
+            <planet name="Kashan Moon B" customIcon="EarthLike">
+                <GasGiant>true</GasGiant>
+                <orbitalTheta>25</orbitalTheta>
+			    <orbitalPhi>30</orbitalPhi>
+                <rotationalPeriod>48000</rotationalPeriod>
+            </planet>
+            <planet name="Kashan Moon C" customIcon="WaterWorld">
+                <GasGiant>true</GasGiant>
+                <orbitalTheta>35</orbitalTheta>
+			    <orbitalPhi>40</orbitalPhi>
+                <rotationalPeriod>52000</rotationalPeriod>
+            </planet>
+            <planet name="Kashan Moon D" customIcon="MarsLike">
+                <GasGiant>true</GasGiant>
+                <orbitalTheta>15</orbitalTheta>
+			    <orbitalPhi>50</orbitalPhi>
+                <rotationalPeriod>52000</rotationalPeriod>
+            </planet>
+            <planet name="Kashan Moon E" customIcon="Venusian">
+                <GasGiant>true</GasGiant>
+                <orbitalTheta>55</orbitalTheta>
+			    <orbitalPhi>30</orbitalPhi>
+                <rotationalPeriod>32000</rotationalPeriod>
+            </planet>
+		</planet>
+    </star>
 </galaxy>

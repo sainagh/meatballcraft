@@ -23,9 +23,9 @@ molochaltar1.addItemOutput(<aoa3:medium_skill_crystal>);
 molochaltar1.build();
 
 recipes.addShaped(<contenttweaker:baphomet_altar_bricks>,
-[[<railcraft:brick_red_nether:3>, <aoa3:crystallite_bricks>, <railcraft:brick_red_nether:3>],
+[[<railcraft:red_nether:3>, <aoa3:crystallite_bricks>, <railcraft:red_nether:3>],
 [<aoa3:crystallite_bricks>, <contenttweaker:mythic_machine_case>, <aoa3:crystallite_bricks>],
-[<railcraft:brick_red_nether:3>, <aoa3:crystallite_bricks>, <railcraft:brick_red_nether:3>]]);
+[<railcraft:red_nether:3>, <aoa3:crystallite_bricks>, <railcraft:red_nether:3>]]);
 
 val baphometaltar1 = RecipeBuilder.newBuilder("baphometaltar1","baphomet_altar",300);
 baphometaltar1.addItemInput(<contenttweaker:mythic_electronic_circuit>);

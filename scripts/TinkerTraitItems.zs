@@ -169,4 +169,5 @@ var trait_undone = VanillaFactory.createItem("trait_undone");	trait_undone.textu
 var trait_thunder = VanillaFactory.createItem("trait_thunder");	trait_thunder.textureLocation = instanceTEX;  trait_thunder.register();
 var trait_necrotic = VanillaFactory.createItem("trait_necrotic"); trait_necrotic.textureLocation = instanceTEX;   trait_necrotic.register();
 var trait_sentience = VanillaFactory.createItem("trait_sentience");	trait_sentience.textureLocation = instanceTEX;  trait_sentience.register();
+var trait_steady = VanillaFactory.createItem("trait_steady");	trait_steady.textureLocation = instanceTEX;  trait_steady.register();
 

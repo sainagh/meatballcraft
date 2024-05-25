@@ -255,3 +255,34 @@ sacredcindersfruit.onItemFoodEaten = function(stack, world, player) {
 	player.sendChat("Stay Hungry. Stay Foolish.");
 };
 sacredcindersfruit.register();
+
+// __________________________________________________
+
+
+var ethicalempanada = VanillaFactory.createItemFood("ethical_empanada", 5);
+ethicalempanada.saturation = 1;
+ethicalempanada.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("We can't judge if people are good or evil, but we can definitely judge if their actions are good or evil!");
+};
+ethicalempanada.register();
+
+var nimblehummusdip = VanillaFactory.createItemFood("nimble_hummus_dip", 5);
+nimblehummusdip.saturation = 1;
+nimblehummusdip.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Stretching is important, especially after sitting down at a desk all day!");
+};
+nimblehummusdip.register();
+
+var heavypolenta = VanillaFactory.createItemFood("heavy_polenta", 5);
+heavypolenta.saturation = 1;
+heavypolenta.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Did you walk your 10'000 steps today?");
+};
+heavypolenta.register();
+
+var multifruitmilkshake = VanillaFactory.createItemFood("multi_fruit_milkshake", 5);
+multifruitmilkshake.saturation = 1;
+multifruitmilkshake.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Feels like it's time for a 10-minute abs workout!");
+};
+multifruitmilkshake.register();

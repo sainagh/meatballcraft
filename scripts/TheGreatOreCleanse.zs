@@ -402,6 +402,11 @@ recipes.addShapeless(<thermalfoundation:material:324>,
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:10>);
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:68>*2, <ore:oreAluminum>, 2048);
 
+recipes.remove(<libvulpes:productingot:9>);
+recipes.addShaped(<thermalfoundation:material:132>,
+[[<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>],
+[<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>],
+[<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>]]);
 
 //==================================================================
 // electrum
@@ -771,3 +776,11 @@ furnace.addRecipe(<biomesoplenty:gem:7>, <biomesoplenty:gem_ore:7>);
 
 furnace.remove(<thaumcraft:amber>);
 furnace.addRecipe(<thaumcraft:amber>, <thaumcraft:ore_amber>);
+
+//==================================================================
+// wooden gear
+
+
+recipes.remove(<appliedenergistics2:material:40>);
+recipes.remove(<buildcraftcore:gear_wood>);
+recipes.remove(<thermalfoundation:material:22>);

@@ -415,6 +415,8 @@ aquaticstone.itemRightClick = function(stack, world, player, hand) {
 		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, true, true);
 		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, true, true);
 		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, true, true);
+		Commands.call("summon divinerpg:liopleurodon ~ ~ ~", player, world, true, true);
+		Commands.call("summon divinerpg:liopleurodon ~ ~ ~", player, world, true, true);
 		stack.shrink(1);
 		return "PASS";
 	} 

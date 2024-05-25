@@ -583,7 +583,7 @@ import crafttweaker.item.IItemCondition;
 <techreborn:industrial_blast_furnace>.addTooltip(format.red("- right click with 4 nichrome heating coils"));
 
 
-<torcherino:torch_lvl1>.addTooltip(format.red("Only works with crystals from illuminated enchanter - 'it's not a bug it's a feature!'"));
+<tce:tce_torch_lvl1>.addTooltip(format.red("Only works with crystals from illuminated enchanter - 'it's not a bug it's a feature!'"));
 
 <matc:inferiumcrystal>.addTooltip(format.red("Cannot be upgraded at 0 durability"));
 
@@ -667,21 +667,21 @@ import crafttweaker.item.IItemCondition;
 <divinerpg:arcanite_blade>.addTooltip(format.red("Traded in arcana from the war general, obtained from the war general summoner"));
 <divinerpg:arcanite_blaster>.addTooltip(format.red("Traded in arcana from the war general, obtained from the war general summoner"));
 
-<aoa3:glistening_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type"));
+<aoa3:glistening_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type in the Overworld and Gardencia"));
 
-<aoa3:gleaming_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type"));
+<aoa3:gleaming_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type in Runandor"));
 
-<aoa3:glaring_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type"));
+<aoa3:glaring_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type in Lelyetia"));
 
-<aoa3:ambient_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type"));
+<aoa3:ambient_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type in Candyland, Haven, Runandor, Shyrelands"));
 
-<aoa3:shining_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type"));
+<aoa3:shining_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type in the Abyss"));
 
-<aoa3:glowing_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type"));
+<aoa3:glowing_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type in L'Borean"));
 
-<aoa3:blooming_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type"));
+<aoa3:blooming_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type in Mysterium"));
 
-<aoa3:radiant_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type"));
+<aoa3:radiant_infusion_stone>.addTooltip(format.red("Dropped by pixons of the corresponding type in Dustopia"));
 
 <contenttweaker:precasia_wormhole>.addTooltip(format.red("Found in Precasia"));
 
@@ -698,8 +698,6 @@ import crafttweaker.item.IItemCondition;
 <danknull:danknull_dock>.addTooltip(format.red("Do not connect to a storage bus, causes a crash"));
 
 <contenttweaker:ragnarok_sigil>.addTooltip(format.red("Craft with the right combination of crystal clusters (4) - the temple in the abyss will guide you"));
-
-<ore:ingotSteel>.addTooltip(format.red("Can be obtained with a blast furnace (any of them) or with an induction smelter"));
 
 <industrialforegoing:plastic>.addTooltip(format.red("Obtained using tree fluid extractors and a latex processing unit"));
 
@@ -2055,16 +2053,16 @@ import crafttweaker.item.IItemCondition;
 <projecte:item.pe_philosophers_stone>.addTooltip(format.red("Use V to increase range, shift+V to reduce range, C to open the crafting grid"));
 
 <projecte:item.pe_life_stone>.addTooltip(format.red("Requires EMC from a klein star to function!"));
-<projecte:item.pe_life_stone>.addTooltip(format.red("Press C to turn on!"));
+<projecte:item.pe_life_stone>.addTooltip(format.red("Press shift + X to turn on!"));
 
 <projecte:item.pe_body_stone>.addTooltip(format.red("Requires EMC from a klein star to function!"));
-<projecte:item.pe_body_stone>.addTooltip(format.red("Press C to turn on!"));
+<projecte:item.pe_body_stone>.addTooltip(format.red("Press shift + X to turn on!"));
 
 <projecte:item.pe_soul_stone>.addTooltip(format.red("Requires EMC from a klein star to function!"));
-<projecte:item.pe_soul_stone>.addTooltip(format.red("Press C to turn on!"));
+<projecte:item.pe_soul_stone>.addTooltip(format.red("Press shift + X to turn on!"));
 
 <projecte:item.pe_mind_stone>.addTooltip(format.red("Requires EMC from a klein star to function!"));
-<projecte:item.pe_mind_stone>.addTooltip(format.red("Press C to turn on!"));
+<projecte:item.pe_mind_stone>.addTooltip(format.red("Press shift + X to turn on!"));
 
 <betterbuilderswands:wandunbreakable>.addTooltip(format.red("Use Z to change mode, shift + Z to change fluid mode"));
 <betterbuilderswands:wandunbreakable>.addTooltip(format.red("Use /wandOops to undo last step"));
@@ -2613,7 +2611,7 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:horde_horn>.addTooltip(format.red("Warning: bring a good bow!"));
 
-<appliedenergistics2:material:60>.addTooltip(format.red("WARNING: this will void items if your wireless terminal is out of range!"));
+<appliedenergistics2:material:60>.addTooltip(format.red("WARNING: this is quite buggy and it probably will not work!"));
 
 <akashictome:tome>.addTooltip(format.red("WARNING: don't combine with Astral Tome, Thaumonomicon, Lexica botania, Necronomicon, Alkahestry"));
 
@@ -2986,7 +2984,6 @@ import crafttweaker.item.IItemCondition;
 
 <aether_legacy:life_shard>.addTooltip(format.red("Adds 20 HP"));
 
-<buildinggadgets:buildingtool>.addTooltip(format.red("WARNING: do not pull blocks from a satchel, it may crash the game"));
 
 <contenttweaker:crown_of_the_energy_queen>.addTooltip(format.red("Thank you NerdySpider for the texture!"));
 
@@ -3207,7 +3204,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:asgard_furnace_brick>.addTooltip(format.red("Obtained from the aesir rift"));
 
-<torcherino:compressed_torch_lvl1>.addTooltip(format.red("Found in apichisi"));
+<tce:tce_compressed_torch_lvl1>.addTooltip(format.red("Found in apichisi"));
 
 <ore:ingotMithrillium>.addTooltip(format.red("Unlocking this research is quite hard, better to make a really scary vishroom"));
 
@@ -3485,10 +3482,10 @@ import crafttweaker.item.IItemCondition;
 <divinerpg:korma_leggings>.addTooltip(format.red("Obtained from Lord Vatticus in the dungeon of arcana"));
 <divinerpg:korma_boots>.addTooltip(format.red("Obtained from Lord Vatticus in the dungeon of arcana"));
 
-<divinerpg:vemos_helmet>.addTooltip(format.red("Obtained from Lord Vatticus in the dungeon of arcana"));
-<divinerpg:vemos_chestplate>.addTooltip(format.red("Obtained from Lord Vatticus in the dungeon of arcana"));
-<divinerpg:vemos_leggings>.addTooltip(format.red("Obtained from Lord Vatticus in the dungeon of arcana"));
-<divinerpg:vemos_boots>.addTooltip(format.red("Obtained from Lord Vatticus in the dungeon of arcana"));
+<divinerpg:vemos_helmet>.addTooltip(format.red("Obtained from the war general in the dungeon of arcana"));
+<divinerpg:vemos_chestplate>.addTooltip(format.red("Obtained from the war general in the dungeon of arcana"));
+<divinerpg:vemos_leggings>.addTooltip(format.red("Obtained from the war general in the dungeon of arcana"));
+<divinerpg:vemos_boots>.addTooltip(format.red("Obtained from the war general in the dungeon of arcana"));
 
 <divinerpg:santa_helmet>.addTooltip(format.red("Obtained from the traders in the iceika"));
 <divinerpg:santa_chestplate>.addTooltip(format.red("Obtained from the traders in the iceika"));

@@ -36,6 +36,12 @@ dysonuset5.addItemOutput(<contenttweaker:dyson_capacitor>*81);
 dysonuset5.addEnergyPerTickOutput(1280000000);
 dysonuset5.build();
 
+val dysonuset6 = RecipeBuilder.newBuilder("dysonuset6","dyson_discharger_t6",72000);
+dysonuset6.addItemInput(<contenttweaker:charged_dyson_capacitor>*243);
+dysonuset6.addItemOutput(<contenttweaker:dyson_capacitor>*243);
+dysonuset6.addEnergyPerTickOutput(5120000000);
+dysonuset6.build();
+
 
 recipes.addShaped(<contenttweaker:dyson_capacitor>,
 [[<contenttweaker:muon_crystal>, <materialpart:chaos:dust>, <contenttweaker:magnetic_monopole>],
@@ -66,6 +72,11 @@ recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x256>,
 [[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
 [<contenttweaker:hypercapacitor_discharger_x64>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x64>],
 [<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x64>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x1024>,
+[[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
+[<contenttweaker:hypercapacitor_discharger_x256>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x256>],
+[<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x256>, <modularmachinery:itemmodularium>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_shell>*6, 
 [[<extendedcrafting:material:13>, <contenttweaker:ogerite_crystal_matrix>, null, <contenttweaker:gravity_manipulator_device>, null, <contenttweaker:ogerite_crystal_matrix>, <extendedcrafting:material:13>], 

@@ -21943,6 +21943,226 @@
     {
       "item": "divinerpg:rupee_minibricks|0",
       "emc": 1
+    },
+    {
+      "item": "aether_legacy:dungeon_block|1",
+      "emc": 32
+    },
+    {
+      "item": "aether_legacy:dungeon_block|3",
+      "emc": 32
+    },
+    {
+      "item": "aether_legacy:dungeon_block|5",
+      "emc": 32
+    },
+    {
+      "item": "aether_legacy:aerogel|0",
+      "emc": 64
+    },
+    {
+      "item": "aether_legacy:white_flower|0",
+      "emc": 16
+    },
+    {
+      "item": "aether_legacy:purple_flower|0",
+      "emc": 16
+    },
+    {
+      "item": "contenttweaker:darkstar_stone|0",
+      "emc": 64
+    },
+    {
+      "item": "aether_legacy:pillar|0",
+      "emc": 1024
+    },
+    {
+      "item": "aether_legacy:pillar_top|0",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|0",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|0",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|1",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|2",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|3",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|4",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|5",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|6",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|7",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|8",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|9",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|10",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|11",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|12",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|13",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|14",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0|15",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0|0",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0|1",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0|2",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0|3",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0|4",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0|5",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0|6",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0|7",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0|8",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0|9",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0|0",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0|1",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0|2",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0|3",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0|4",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0|5",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0|6",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0|7",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0|8",
+      "emc": 64
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0|9",
+      "emc": 64
+    },
+    {
+      "item": "biomesoplenty:mud_brick_block|0",
+      "emc": 1
+    },
+    {
+      "item": "aoa3:natural_ivory|0",
+      "emc": 256
+    },
+    {
+      "item": "aoa3:natural_jade_ivory|0",
+      "emc": 256
+    },
+    {
+      "item": "aoa3:natural_limonite_ivory|0",
+      "emc": 256
+    },
+    {
+      "item": "aoa3:natural_rosite_ivory|0",
+      "emc": 256
+    },
+    {
+      "item": "aoa3:natural_sapphire_ivory|0",
+      "emc": 256
+    },
+    {
+      "item": "aoa3:natural_amethyst_ivory|0",
+      "emc": 256
+    },
+    {
+      "item": "railcraft:ingot|9",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:material|228",
+      "emc": 0
     }
   ]
 }

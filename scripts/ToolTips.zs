@@ -102,7 +102,8 @@
 
 <contenttweaker:anomaly_detector_stage_3>.addTooltip(format.red("Callstone"));
 
-<contenttweaker:druden_horn>.addTooltip(format.red("Obtained from the Rite of Spiritual Shift"));
+<contenttweaker:druden_horn>.addTooltip(format.red("Obtained from the Rite of Spiritual Shift in forest biomes"));
+<contenttweaker:druden_horn>.addTooltip(format.red("Works if a biome contains the words 'forest', 'dense', 'coniferous', 'magical', 'spooky'"));
 <contenttweaker:druden_horn>.addTooltip(format.red("Check uses for spectral dust to see a preview of the ritual"));
 
 <contenttweaker:skythern_core>.addTooltip(format.red("NOTE: you need experienced cori statues to craft this, they are hard to see in recipe"));
@@ -141,7 +142,7 @@
 <extrabotany:magicfinger>.addTooltip(format.red("Tranfers mana from player to pool very fast when right clicking."));
 
 <bewitchment:perpetual_ice>.addTooltip(format.red("Use the Brew of Iceworld on stone to turn it into perpetual ice."));
-<bewitchment:perpetual_ice>.addTooltip(format.red("Brew Mandrake + Snow + Gunpowder (in this order) in a Witche's Cauldron and right click with empty bottles."));
+<bewitchment:perpetual_ice>.addTooltip(format.red("Brew Mandrake + Ice + Gunpowder (in this order) in a Witche's Cauldron and right click with empty bottles."));
 <bewitchment:perpetual_ice>.addTooltip(format.red("See cauldron JEI info box for more info on brews."));
 
 <contenttweaker:eldrich_blood_slime>.addTooltip(format.red("Obtained from the anemic callstone"));
@@ -175,6 +176,7 @@
 
 <contenttweaker:dispelling_manuscript>.addTooltip(format.green("Reusable"));
 <contenttweaker:dread_crown>.addTooltip(format.green("Reusable"));
+<mowziesmobs:barako_mask>.addTooltip(format.green("Reusable"));
 
 <contenttweaker:vibrating_mithminite_schythe>.addTooltip(format.green("Reusable for no-EMC challenge recipes"));
 
@@ -354,7 +356,7 @@
 <contenttweaker:good_extreme_reactor_design>.addTooltip(format.red("The taller the better, but no need to go crazy, 8 or 9 will be good enough"));
 <contenttweaker:good_extreme_reactor_design>.addTooltip(format.red("Thanks to Aquintus for the designs!"));
 
-<contenttweaker:good_extreme_turbine>.addTooltip(format.red("Four slices of ludicrite, ten slices of rotor blades"));
+<contenttweaker:good_extreme_turbine>.addTooltip(format.red("Four slices of ludicrite, ten slices of rotor blades, the preview is too small"));
 
 <contenttweaker:stone_of_endless_hunger>.addTooltip(format.red("From the Voracious Worm Callstone"));
 
@@ -708,6 +710,10 @@
 <contenttweaker:pan_di_stelle>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:friendly_frittata>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:lovely_latke>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:nimble_hummus_dip>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:ethical_empanada>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:heavy_polenta>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:multi_fruit_milkshake>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 
 <contenttweaker:sacred_cinders_seed>.addTooltip(format.green("Reusable in the Tree of Life"));
 
@@ -937,6 +943,8 @@
 <contenttweaker:defined_ingot>.addTooltip(format.red("Milesman34 (solo)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("NerdySpider & Herr_Dr_Uber (team)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("P_applexx, Matatabi_TRAX, johrangmal, FELLAL1, Aerlyt (team)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Chaika_In_Paanic (solo)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Artemis & CyberDrain (team) (automated with thaumcraft golems)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("Mathias & MillerGaming321 (in spirit)"));
 
 
@@ -1007,3 +1015,138 @@
 <contenttweaker:sausage_sandwich>.addTooltip(format.red("Tribute to the Meatball Man"));
 <contenttweaker:kitty_smile>.addTooltip(format.red("Tribute to the Meatball Man"));
 
+<thaumcraft:stone_ancient_rock>.addTooltip(format.red("Thanks to Artemis and birdie for adding microblocks for decorative blocks!"));
+<botania:bifrostperm>.addTooltip(format.red("Thanks to Artemis and birdie for adding microblocks for decorative blocks!"));
+
+<bewitchment:crying_scorned_bricks>.addTooltip(format.red("Thanks to Artemis for adding microblocks for decorative blocks!"));
+<bewitchment:block_of_cold_iron_moon>.addTooltip(format.red("Thanks to Artemis for adding microblocks for decorative blocks!"));
+
+<contenttweaker:jewel_of_the_twilight_forest>.addTooltip(format.green("Reusable"));
+
+<xtones:jelt:*>.addTooltip(format.red("Thanks to birdie for adding microblocks for decorative blocks!"));
+
+<aether_legacy:dungeon_block:*>.addTooltip(format.red("Thanks to Freeky for adding EMC for decorative blocks!"));
+
+<forge:bucketfilled>.withTag({FluidName: "aluminum", Amount: 1000}).addTooltip(format.red("Used to make the Defined Ingot"));
+<forge:bucketfilled>.withTag({FluidName: "fluorine", Amount: 1000}).addTooltip(format.red("Used to make the Defined Ingot"));
+<forge:bucketfilled>.withTag({FluidName: "molten_titanium", Amount: 1000}).addTooltip(format.red("Used to make the Defined Ingot"));
+
+<extrabotany:lens:6>.addTooltip(format.red("Dropped by a tier 4 gaia guardian"));
+
+<bloodmagic:sanguine_book>.addTooltip(format.red("Right click a Blood Altar to see a preview of the multiblock for each tier"));
+<bloodmagic:sanguine_book>.addTooltip(format.red("Shift + right click to change tier"));
+<bloodmagic:sanguine_book>.addTooltip(format.red("Tier 6 won't tell the name of the blocks if missing, it's crystal clusters"));
+
+<contenttweaker:first_recursive_lock>.addTooltip(format.red("Thanks to Foucs for the lock textures!"));
+<contenttweaker:fifth_recursive_lock>.addTooltip(format.red("Thanks to Foucs for the lock textures!"));
+
+<contenttweaker:lelyetian_artifact>.addTooltip(format.red("Thanks to Gebcrafter for the artifact and realmstone textures!"));
+<aoa3:lelyetia_realmstone>.addTooltip(format.red("Thanks to Gebcrafter for the artifact and realmstone textures!"));
+
+<contenttweaker:iromine_artifact>.addTooltip(format.red("Thanks to Gebcrafter for the artifact and realmstone textures!"));
+<aoa3:iromine_realmstone>.addTooltip(format.red("Thanks to Gebcrafter for the artifact and realmstone textures!"));
+
+<contenttweaker:runandor_artifact>.addTooltip(format.red("Thanks to Gebcrafter for the artifact and realmstone textures!"));
+<aoa3:runandor_realmstone>.addTooltip(format.red("Thanks to Gebcrafter for the artifact and realmstone textures!"));
+
+<contenttweaker:immortallis_artifact>.addTooltip(format.red("Thanks to Gebcrafter for the artifact and realmstone textures!"));
+<aoa3:immortallis_realmstone>.addTooltip(format.red("Thanks to Gebcrafter for the artifact and realmstone textures!"));
+
+<ore:ingotConstantan>.addTooltip(format.aqua("Alloy Ratio: 1 Copper, 1 Nickel"));
+<ore:ingotSteel>.addTooltip(format.aqua("Alloy Ratio: 1 Iron, 4 Coal"));
+<ore:ingotInvar>.addTooltip(format.aqua("Alloy Ratio: 2 Iron, 1 Nickel"));
+<ore:ingotAlumite>.addTooltip(format.aqua("Alloy Ratio: 5 Aluminum, 3 Iron"));
+<ore:ingotManyullyn>.addTooltip(format.aqua("Alloy Ratio: 1 Ardite, 1 Cobalt"));
+<ore:ingotBronze>.addTooltip(format.aqua("Alloy Ratio: 3 Copper, 1 Tin"));
+<ore:ingotElectrum>.addTooltip(format.aqua("Alloy Ratio: 1 Gold, 1 SIlver"));
+<ore:ingotAlubrass>.addTooltip(format.aqua("Alloy Ratio: 1 Copper, 3 Aluminum"));
+<ore:ingotBrass>.addTooltip(format.aqua("Alloy Ratio: 2 Copper, 1 Zinc"));
+
+<contenttweaker:super_stacker>.addTooltip(format.red("Makes it possible to autobuild massive multiblocks without filling your inventory"));
+<contenttweaker:super_stacker>.addTooltip(format.red("WARNING: only use in manual crafts"));
+
+<contenttweaker:jei_tipsandtricks>.addTooltip(format.red("Thanks to gafex11 for writing this!"));
+
+<contenttweaker:warren_shard_abyss>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_barathos>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_lelyetia>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_precasia>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_deeplands>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_creeponia>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+
+<contenttweaker:warren_shard_candyland>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_gardencia>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_crystevia>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_mysterium>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_voxponds>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_iromine>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_haven>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_celeve>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+
+<contenttweaker:warren_shard_runandor>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_lunalus>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_borean>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+
+<contenttweaker:warren_shard_ancientcavern>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_immortallis>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_greckon>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_dustopia>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+
+<contenttweaker:warren_shard_shyrelands>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+
+<contenttweaker:warren_shard_eden>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_wildwood>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_apalachia>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_skythern>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+<contenttweaker:warren_shard_mortum>.addTooltip(format.red("Use the recursive locks in the recursion prison key dungeon"));
+
+<contenttweaker:eye_of_limbo>.addTooltip(format.red("Obtained from the warren blindfold"));
+
+<nuclearcraft:part:10>.addTooltip(format.red("Thanks to FakeDomi for adding auto-output to nuclearcraft!"));
+
+<storagedrawers:controller>.addTooltip(format.red("Has a range of 12 blocks in a cuboid in each direction"));
+
+<ore:nuggetPromethium>.addTooltip(format.red("To get your first promethium you have to craft the fluid"));
+<ore:ingotPromethium>.addTooltip(format.red("To get your first promethium you have to craft the fluid"));
+
+<bigreactors:reactorcoolantport>.addTooltip(format.red("Use the extreme wrench to configure"));
+
+<actuallyadditions:block_greenhouse_glass>.addTooltip(format.red("WARNING: do not craft in ME terminal or arcane transmutation tablet, it could cause a crash"));
+
+<rftools:crafter2>.addTooltip(format.red("Speed can be increased if you alocate multiple slots to the same recipe"));
+<rftools:crafter3>.addTooltip(format.red("Speed can be increased if you alocate multiple slots to the same recipe"));
+
+<ore:plankTreatedWood>.addTooltip(format.red("The sequential fabricator is your friend in the meantime"));
+
+<thaumcraft:seal:16>.addTooltip(format.red("This is quite buggy, avoid using if possible"));
+
+<contenttweaker:hypercapacitor_discharger_x1024>.addTooltip(format.red("WARNING: connect energy output directly to a flux point to avoid deleting energy"));
+
+<contenttweaker:woot_flusher>.addTooltip(format.red("Right click to reset all woot farm loot tables"));
+<contenttweaker:woot_flusher>.addTooltip(format.red("This may cause lag after using"));
+
+<buildinggadgets:buildingtool>.addTooltip(format.red("It can auto-pull items from your EMC network"));
+<buildinggadgets:buildingtool>.addTooltip(format.red("WARNING: do not pull blocks from a satchel, it may crash the game"));
+
+<contenttweaker:rare_loot_table>.addTooltip(format.red("Can rarely be dropped by all Advent of Ascension mobs"));
+
+<twilightforest:trophy:0>.addTooltip(format.red("Found in the stone edge mazes in the Twilight Forest"));
+<twilightforest:trophy:1>.addTooltip(format.red("Found in the large branching towers in the Twilight Forest"));
+<twilightforest:trophy:6>.addTooltip(format.red("Found at the bottom of the swamps mazes in the Twilight Forest"));
+<twilightforest:trophy:2>.addTooltip(format.red("Found in the fire swamps in the Twilight Forest"));
+<twilightforest:trophy:4>.addTooltip(format.red("Found in the strongholds in the dark forests in the Twilight Forest"));
+<twilightforest:trophy:3>.addTooltip(format.red("Found in the large tower at the center of the dark forest in the Twilight Forest"));
+<twilightforest:trophy:5>.addTooltip(format.red("Found in the large tower on top of the ice wall in the Twilight Forest"));
+<twilightforest:alpha_fur>.addTooltip(format.red("Found in the winter forest in the Twilight Forest"));
+<twilightforest:giant_pickaxe>.addTooltip(format.red("Found in the clouds in the sky in the thornlans in the Twilight Forest"));
+<twilightforest:lamp_of_cinders>.addTooltip(format.red("Found in the caves in the thornlans in the Twilight Forest"));
+
+<contenttweaker:first_recursive_lock>.addTooltip(format.red("Use inside the Recursion Prison Key Dungeon"));
+<contenttweaker:second_recursive_lock>.addTooltip(format.red("Use inside the Recursion Prison Key Dungeon"));
+<contenttweaker:third_recursive_lock>.addTooltip(format.red("Use inside the Recursion Prison Key Dungeon"));
+<contenttweaker:fourth_recursive_lock>.addTooltip(format.red("Use inside the Recursion Prison Key Dungeon"));
+<contenttweaker:fifth_recursive_lock>.addTooltip(format.red("Use inside the Recursion Prison Key Dungeon"));
+
+<ore:plateMithrillium>.addTooltip(format.red("If you want to complete the Thaumonomicon entries that require plates, make sure you craft them, making them in a compactor won't work"));
+<ore:plateAdaminite>.addTooltip(format.red("If you want to complete the Thaumonomicon entries that require plates, make sure you craft them, making them in a compactor won't work"));
+<ore:plateMithminite>.addTooltip(format.red("If you want to complete the Thaumonomicon entries that require plates, make sure you craft them, making them in a compactor won't work"));

@@ -30,3 +30,51 @@ mytharken1.addItemOutput(<magicbees:resource:5>*64);
 mytharken1.addFluidOutput(<fluid:evanescent_bifrost>*16000);
 mytharken1.build();
 
+val mytharken2 = RecipeBuilder.newBuilder("mytharken2","mythic_processor_arkencrusher",1);
+mytharken2.addEnergyPerTickInput(1000000);
+mytharken2.addFluidInput(<fluid:recursive_life_essence>*10);
+mytharken2.addItemInput(<contenttweaker:corrupted_divine_ore>);
+mytharken2.addItemOutput(<divinerpg:corrupted_stone>*64);
+mytharken2.build();
+
+val mytharken3 = RecipeBuilder.newBuilder("mytharken3","mythic_processor_arkencrusher",1);
+mytharken3.addEnergyPerTickInput(1000000);
+mytharken3.addFluidInput(<fluid:recursive_life_essence>*10);
+mytharken3.addItemInput(<contenttweaker:ender_divine_ore>);
+mytharken3.addItemOutput(<divinerpg:ender_stone>*64);
+mytharken3.build();
+
+val mytharken4 = RecipeBuilder.newBuilder("mytharken4","mythic_processor_arkencrusher",1);
+mytharken4.addEnergyPerTickInput(1000000);
+mytharken4.addFluidInput(<fluid:recursive_life_essence>*10);
+mytharken4.addItemInput(<contenttweaker:ice_divine_ore>);
+mytharken4.addItemOutput(<divinerpg:ice_stone>*64);
+mytharken4.build();
+
+val mytharken5 = RecipeBuilder.newBuilder("mytharken5","mythic_processor_arkencrusher",1);
+mytharken5.addEnergyPerTickInput(1000000);
+mytharken5.addFluidInput(<fluid:recursive_life_essence>*10);
+mytharken5.addItemInput(<contenttweaker:jungle_divine_ore>);
+mytharken5.addItemOutput(<divinerpg:jungle_stone>*64);
+mytharken5.build();
+
+val mytharken6 = RecipeBuilder.newBuilder("mytharken6","mythic_processor_arkencrusher",1);
+mytharken6.addEnergyPerTickInput(1000000);
+mytharken6.addFluidInput(<fluid:recursive_life_essence>*10);
+mytharken6.addItemInput(<contenttweaker:molten_divine_ore>);
+mytharken6.addItemOutput(<divinerpg:molten_stone>*64);
+mytharken6.build();
+
+val mytharken7 = RecipeBuilder.newBuilder("mytharken7","mythic_processor_arkencrusher",1);
+mytharken7.addEnergyPerTickInput(1000000);
+mytharken7.addFluidInput(<fluid:recursive_life_essence>*10);
+mytharken7.addItemInput(<contenttweaker:shadow_divine_ore>);
+mytharken7.addItemOutput(<divinerpg:shadow_stone>*64);
+mytharken7.build();
+
+val mytharken8 = RecipeBuilder.newBuilder("mytharken8","mythic_processor_arkencrusher",1);
+mytharken8.addEnergyPerTickInput(1000000);
+mytharken8.addFluidInput(<fluid:recursive_life_essence>*10);
+mytharken8.addItemInput(<contenttweaker:terran_divine_ore>);
+mytharken8.addItemOutput(<divinerpg:terran_stone>*64);
+mytharken8.build();

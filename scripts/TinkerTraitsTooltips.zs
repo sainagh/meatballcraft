@@ -159,4 +159,5 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:trait_thunder>.addTooltip(format.red("Enemies are hit by lightning strikes"));
 <contenttweaker:trait_necrotic>.addTooltip(format.red("Life-steal"));
 <contenttweaker:trait_sentience>.addTooltip(format.red("Mobs drop will"));
+<contenttweaker:trait_steady>.addTooltip(format.red("Less knockback for you, more for your attacher"));
 

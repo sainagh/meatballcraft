@@ -1036,6 +1036,17 @@
     "damagemultiply": 20.0,
     "speedmultiply": 1.0
   },
+
+  {
+    "dimension": 624,
+    "hostile": true,
+    "result": "default",
+    "multxp": 10.0,
+    "healthmultiply": 200.0,
+    "damagemultiply": 200.0,
+    "speedmultiply": 1.0
+  },
+  
   {
     "dimension": 810,
     "hostile": true,
@@ -1396,6 +1407,17 @@
       "mincount": {
         "amount": 15,
         "mob": ["divinerpg:shark"],
+        "perplayer": true
+      },
+      "onjoin": true,
+      "result": "deny"
+  },
+  {
+      "mob": ["divinerpg:liopleurodon"],
+      "dimension": 0,
+      "mincount": {
+        "amount": 15,
+        "mob": ["divinerpg:liopleurodon"],
         "perplayer": true
       },
       "onjoin": true,

@@ -536,8 +536,6 @@ mods.nuclearcraft.manufactory.addRecipe([<minecraft:coal_block>, <thermalfoundat
 recipes.removeShapeless(<minecraft:redstone>, 
 [<ore:oreRedstone>, <ore:dustPetrotheum>]);
 
-recipes.addShapeless(<abyssalcraft:eoa>, 
-[<contenttweaker:ritual_of_the_sleeper>]);
 
 
 recipes.removeShapeless(<aoa3:precasia_realmstone>);
@@ -1838,3 +1836,56 @@ mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:fluidcrystalmatrix_conden
 
 recipes.addShapeless(<nuclearcraft:heat_exchanger_controller>,
 [<contenttweaker:fluidcrystalmatrix_condensation>]);
+
+mods.techreborn.grinder.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material:0>, 60, 4);
+
+// mods.integrateddynamics.Squeezer.addRecipe(<immersiveengineering:seed:0>, <liquid:seed.oil> * 50);
+
+// mods.integrateddynamics.MechanicalSqueezer.addRecipe(<immersiveengineering:seed:0>, <liquid:seed.oil> * 50);
+
+
+// recipes.addShaped(<divinerpg:arcanium>*12,
+// [[<botania:manaresource:7>, <botania:manaresource:0>, <botania:manaresource:7>],
+// [<botania:manaresource:0>, <divinerpg:arcanium_block>, <botania:manaresource:0>],
+// [<botania:manaresource:7>, <botania:manaresource:0>, <botania:manaresource:7>]]);
+
+recipes.addShaped(<extrabotany:lens:6>.withTag({})*2,
+[[null, <contenttweaker:greater_gaia_spirit>, null],
+[<contenttweaker:greater_gaia_spirit>, <extrabotany:lens:6>.withTag({}), <contenttweaker:greater_gaia_spirit>],
+[null, <contenttweaker:greater_gaia_spirit>, null]]);
+
+
+mods.chisel.Carving.addVariation("brassblockschisel", <railcraft:metal:9>);
+mods.chisel.Carving.addVariation("brassblockschisel", <techreborn:storage:5>);
+mods.chisel.Carving.addVariation("brassblockschisel", <thaumcraft:metal_brass>);
+
+
+recipes.addShapeless(<thaumicaugmentation:research_notes>,
+[<contenttweaker:emptiness_tutorial>]);
+
+recipes.addShapeless(<aoa3:magic_repair_dust>,
+[<contenttweaker:rare_loot_table>]);
+recipes.addShapeless(<aoa3:golden_upgrade_kit>,
+[<contenttweaker:rare_loot_table>]);
+recipes.addShapeless(<aoa3:small_skill_crystal>,
+[<contenttweaker:rare_loot_table>]);
+recipes.addShapeless(<aoa3:medium_skill_crystal>,
+[<contenttweaker:rare_loot_table>]);
+recipes.addShapeless(<aoa3:large_skill_crystal>,
+[<contenttweaker:rare_loot_table>]);
+recipes.addShapeless(<aoa3:giant_skill_crystal>,
+[<contenttweaker:rare_loot_table>]);
+recipes.addShapeless(<minecraft:diamond>,
+[<contenttweaker:rare_loot_table>]);
+recipes.addShapeless(<minecraft:emerald>,
+[<contenttweaker:rare_loot_table>]);
+recipes.addShapeless(<minecraft:nether_star>,
+[<contenttweaker:rare_loot_table>]);
+recipes.addShapeless(<minecraft:experience_bottle>,
+[<contenttweaker:rare_loot_table>]);
+recipes.addShapeless(<minecraft:ghast_tear>,
+[<contenttweaker:rare_loot_table>]);
+recipes.addShapeless(<minecraft:golden_apple>,
+[<contenttweaker:rare_loot_table>]);
+
+

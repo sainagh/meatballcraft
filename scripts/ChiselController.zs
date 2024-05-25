@@ -138,6 +138,7 @@ mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_discharger_t3_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_discharger_t4_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_discharger_t5_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_discharger_t6_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:ziggurat_of_life_controller>);
 
 

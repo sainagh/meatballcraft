@@ -163,9 +163,9 @@ mods.recipestages.Recipes.addShaped("ezpzwandsbbynos", "hardmode", <contenttweak
 ]);
 
 recipes.addShaped(<contenttweaker:paparazzi_camera>,
-[[<contenttweaker:nero_core>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"}), <contenttweaker:pauram_core>],
-[<gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"}), <astralsorcery:itemtunedcelestialcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.horologium", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}), <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"})],
-[<contenttweaker:akathartos_core>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"}), <contenttweaker:zoi_core>]]);
+[[<contenttweaker:nero_core>, <contenttweaker:orichalcum>, <contenttweaker:pauram_core>],
+[<contenttweaker:monumentally_sentient_meatball>, <contenttweaker:eye_of_limbo>, <contenttweaker:monumentally_sentient_meatball>],
+[<contenttweaker:akathartos_core>, <contenttweaker:orichalcum>, <contenttweaker:zoi_core>]]);
 
 mods.recipestages.Recipes.addShaped("superforesteradventure", "hardmode", <contenttweaker:undead_botanist_callstone>, [
     [<contenttweaker:eldritch_metal_plate>, <contenttweaker:silky_forester_leaf>, <contenttweaker:eldritch_metal_plate>],

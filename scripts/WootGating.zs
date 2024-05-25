@@ -98,3 +98,6 @@ recipes.addShaped(<woot:cell:2>,
 [[null, <woot:cell:1>, null],
 [<aoa3:speed_enhancer>, <woot:factorycore:5>, <aoa3:speed_enhancer>],
 [<woot:cell:1>, <minecraft:dragon_egg>, <woot:cell:1>]]);
+
+recipes.addShapeless(<woot:stygianironingot>*9,
+[<woot:stygianiron>]);

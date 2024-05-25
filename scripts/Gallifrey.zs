@@ -39,3 +39,10 @@ null,null,<contenttweaker:sacred_cinders_fruit>],
 null,<contenttweaker:fifth_order_mythic_fractal>,null,
 null,<contenttweaker:sacred_cinders_fruit>,<contenttweaker:sacred_cinders_fruit>]]);
 
+furnace.addRecipe(<divinerpg:corrupted_stone>, <contenttweaker:corrupted_divine_ore>);
+furnace.addRecipe(<divinerpg:ender_stone>, <contenttweaker:ender_divine_ore>);
+furnace.addRecipe(<divinerpg:ice_stone>, <contenttweaker:ice_divine_ore>);
+furnace.addRecipe(<divinerpg:jungle_stone>, <contenttweaker:jungle_divine_ore>);
+furnace.addRecipe(<divinerpg:molten_stone>, <contenttweaker:molten_divine_ore>);
+furnace.addRecipe(<divinerpg:shadow_stone>, <contenttweaker:shadow_divine_ore>);
+furnace.addRecipe(<divinerpg:terran_stone>, <contenttweaker:terran_divine_ore>);

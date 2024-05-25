@@ -440,3 +440,19 @@ recipes.addShapeless(<modularmachinery:ziggurat_of_life_controller>,
 
 recipes.addShapeless(<modularmachinery:berserker_forge_controller>, 
 [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:berserker_forge"}).reuse(), <modularmachinery:blockcontroller>]);
+
+
+recipes.addShapeless(<modularmachinery:dyson_discharger_t2_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t2"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:dyson_discharger_t3_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t3"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:dyson_discharger_t4_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t4"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:dyson_discharger_t5_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t5"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:dyson_discharger_t6_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t6"}).reuse(), <modularmachinery:blockcontroller>]);

@@ -7,3 +7,8 @@ AppliedEnergistics2
 loliasm
 	Re-enables some animations
 	Makes the pack less performant
+
+Legendary Tooltips 
+	replace legendarytooltips folder in resources folder
+	Replace legendarytooltips file in config folder
+	Sets item windows to look like vanilla MC

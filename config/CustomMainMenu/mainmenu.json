@@ -74,6 +74,21 @@
             }
         },
         
+        "performance":
+        {
+            "text" : "Improve Performance",
+            "hoverText" : "Faster load times!",
+            "posX" : -100,
+            "posY" : 192,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type": "openLink",
+                "link": "https://github.com/sainagh/meatballcraft/wiki/How-to-Improve-Performance!"
+            }
+        },
+        
         "quit":
         {
             "text" : "menu.quit",
@@ -88,19 +103,7 @@
             }
         },
         
-        "readme":
-        {
-            "text" : "ReadMe",
-            "hoverText" : "Beta Statement",
-            "posX" : 200,
-            "posY" : 200,
-            "width" : 98,
-            "height" : 20,
-            "action": {
-                "type": "openLink",
-                "link": "https://github.com/sainagh/meatballcraft/wiki/Beta-Statement"
-              }
-        },
+
         
         "language":
         {
@@ -210,6 +213,7 @@
                     "menu:back8.png",
                     "menu:back9.png",
                     "menu:back10.png",
+                    "menu:back36.png",
                     "menu:back12.png",
                     "menu:back13.png",
                     "menu:back15.png",
@@ -223,6 +227,7 @@
                     "menu:back35.png",
                     "menu:back32.png"],
                 "displayDuration" : 100,
+                "shuffle": true,
                 "fadeDuration" : 40
             }
         }

@@ -545,3 +545,9 @@ val chargedcreeperextra = chargedcreeper.getPool("powered_creeper");
 chargedcreeperextra.addItemEntry(<contenttweaker:charged_gemstone>, 15);
 chargedcreeperextra.addItemEntry(<xreliquary:mob_ingredient:8>, 15);
 
+val fishingloot = LootTweaker.getTable("minecraft:gameplay/fishing/fish");
+val fishinglootextrafeesh = fishingloot.addPool("extra_feesh", 1, 1, 0, 0);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_sapphire_strider>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_dark_hatchetfish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_sapphire_strider>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_fingerfish>, 15);

@@ -1017,3 +1017,37 @@ puzzlesolmonumeatball.maxStackSize = 64;
 puzzlesolmonumeatball.beaconPayment = false;
 puzzlesolmonumeatball.register();
 
+var superstacker = VanillaFactory.createItem("super_stacker");
+superstacker.maxStackSize = 64;
+superstacker.beaconPayment = false;
+superstacker.register();
+
+var bigstackaurorablock = VanillaFactory.createItem("big_stack_aurorablock");
+bigstackaurorablock.maxStackSize = 64;
+bigstackaurorablock.beaconPayment = false;
+bigstackaurorablock.register();
+
+var jeitipsitem = VanillaFactory.createItem("jei_tipsandtricks");
+jeitipsitem.maxStackSize = 64;
+jeitipsitem.beaconPayment = false;
+jeitipsitem.register();
+
+var emptinesstutorial = VanillaFactory.createItem("emptiness_tutorial");
+emptinesstutorial.maxStackSize = 64;
+emptinesstutorial.beaconPayment = false;
+emptinesstutorial.register();
+
+var rareloottable = VanillaFactory.createItem("rare_loot_table");
+rareloottable.maxStackSize = 64;
+rareloottable.beaconPayment = false;
+rareloottable.register();
+
+var bossdrop = VanillaFactory.createItem("boss_drop");
+bossdrop.maxStackSize = 64;
+bossdrop.beaconPayment = false;
+bossdrop.register();
+
+var dungeondrop = VanillaFactory.createItem("dungeon_drop");
+dungeondrop.maxStackSize = 64;
+dungeondrop.beaconPayment = false;
+dungeondrop.register();

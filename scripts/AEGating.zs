@@ -405,3 +405,18 @@ mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergist
 mods.nuclearcraft.pressurizer.addRecipe([<ore:dustCertusQuartz>, <appliedenergistics2:crystal_seed:0>]);
 mods.nuclearcraft.pressurizer.addRecipe([<ore:dustQuartz>, <appliedenergistics2:crystal_seed:600>]);
 mods.nuclearcraft.pressurizer.addRecipe([<ore:dustNetherQuartz>, <appliedenergistics2:crystal_seed:600>]);
+
+
+recipes.remove(<extracells:storage.component:0>);
+recipes.remove(<extracells:storage.component:1>);
+recipes.remove(<extracells:storage.component:2>);
+recipes.remove(<extracells:storage.component:3>);
+recipes.remove(<extracells:storage.component:4>);
+recipes.remove(<extracells:storage.component:5>);
+recipes.remove(<extracells:storage.component:6>);
+recipes.remove(<extracells:storage.component:7>);
+recipes.remove(<extracells:storage.component:8>);
+recipes.remove(<extracells:storage.component:9>);
+recipes.remove(<extracells:storage.component:10>);
+
+

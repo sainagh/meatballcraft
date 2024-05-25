@@ -4045,3 +4045,18 @@ fifthrecursivelock.itemRightClick = function(stack, world, player, hand) {
 };
 fifthrecursivelock.register();
 
+
+var wootflusher= VanillaFactory.createItem("woot_flusher");
+wootflusher.maxStackSize = 1;
+wootflusher.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    player.sendChat("Flush Started");
+    Commands.call("woot flush all", player, world, true, true);
+
+    return "PASS";
+
+};
+wootflusher.register();

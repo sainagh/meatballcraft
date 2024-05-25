@@ -16,8 +16,10 @@ mods.ltt.LootTable.removeGlobalItem("biomesoplenty:sapling_1:7");
 
 mods.ltt.LootTable.removeGlobalItem("aoa3:shiny_box");
 
+mods.ltt.LootTable.removeGlobalItem("techreborn:ingot");
 mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:8");
 
+mods.ltt.LootTable.removeGlobalItem("railcraft:ingot");
 mods.ltt.LootTable.removeGlobalItem("bewitchment:silver_ingot");
 mods.ltt.LootTable.removeGlobalItem("erebus:materials:45");
 mods.ltt.LootTable.removeGlobalItem("iceandfire:silver_ingot");
@@ -55,6 +57,7 @@ mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:7");
 mods.ltt.LootTable.removeGlobalItem("techreborn:ingot:10");
 mods.ltt.LootTable.removeGlobalItem("techreborn:ingot");
 
+mods.ltt.LootTable.removeGlobalItem("techreborn:machine_frame");
 mods.ltt.LootTable.removeGlobalItem("techreborn:machine_frame:0");
 mods.ltt.LootTable.removeGlobalItem("techreborn:machine_frame:1");
 mods.ltt.LootTable.removeGlobalItem("techreborn:machine_frame:2");
@@ -110,4 +113,5 @@ mods.ltt.LootTable.removeTable("railcraft:chests/village_blacksmith");
 mods.ltt.LootTable.removeTable("railcraft:chests/village_workshop");
 
 mods.ltt.LootTable.removeGlobalItem("iceandfire:copper_ingot");
+mods.ltt.LootTable.removeGlobalItem("iceandfire:copper_nugget");
 

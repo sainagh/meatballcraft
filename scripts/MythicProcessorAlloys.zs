@@ -337,7 +337,7 @@ val mythallo45 = RecipeBuilder.newBuilder("mythallo45","mythic_processor_alloy_f
 mythallo45.addEnergyPerTickInput(80000);
 mythallo45.addItemInput(<ore:itemSilicon>);
 mythallo45.addItemInput(<ore:ingotGraphite>);
-mythallo45.addItemOutput(<nuclearcraft:alloy:13>);
+mythallo45.addItemOutput(<nuclearcraft:alloy:13>*2);
 mythallo45.build();
 
 val mythallo46 = RecipeBuilder.newBuilder("mythallo46","mythic_processor_alloy_furnace",1);

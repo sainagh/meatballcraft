@@ -190,10 +190,10 @@ recipes.addShapeless(<mysticalagriculture:crafting:1>*4,
 
 recipes.addShapeless(<mysticalagriculture:crafting:2>*4,
 [<mysticalagriculture:crafting:3>, <mysticalagriculture:master_infusion_crystal>.reuse()]);
-recipes.addShapeless(<mysticalagriculture:crafting:2>*4,
-[<mysticalagriculture:crafting:3>, <matc:inferiumcrystal>.anyDamage()]);
-recipes.addShapeless(<mysticalagriculture:crafting:2>*4,
-[<mysticalagriculture:crafting:3>, <matc:prudentiumcrystal>.anyDamage()]);
+// recipes.addShapeless(<mysticalagriculture:crafting:2>*4,
+// [<mysticalagriculture:crafting:3>, <matc:inferiumcrystal>.anyDamage()]);
+// recipes.addShapeless(<mysticalagriculture:crafting:2>*4,
+// [<mysticalagriculture:crafting:3>, <matc:prudentiumcrystal>.anyDamage()]);
 recipes.addShapeless(<mysticalagriculture:crafting:2>*4,
 [<mysticalagriculture:crafting:3>, <matc:intermediumcrystal>.anyDamage()]);
 recipes.addShapeless(<mysticalagriculture:crafting:2>*4,
@@ -203,12 +203,12 @@ recipes.addShapeless(<mysticalagriculture:crafting:2>*4,
 
 recipes.addShapeless(<mysticalagriculture:crafting:3>*4,
 [<mysticalagriculture:crafting:4>, <mysticalagriculture:master_infusion_crystal>.reuse()]);
-recipes.addShapeless(<mysticalagriculture:crafting:3>*4,
-[<mysticalagriculture:crafting:4>, <matc:inferiumcrystal>.anyDamage()]);
-recipes.addShapeless(<mysticalagriculture:crafting:3>*4,
-[<mysticalagriculture:crafting:4>, <matc:prudentiumcrystal>.anyDamage()]);
-recipes.addShapeless(<mysticalagriculture:crafting:3>*4,
-[<mysticalagriculture:crafting:4>, <matc:intermediumcrystal>.anyDamage()]);
+// recipes.addShapeless(<mysticalagriculture:crafting:3>*4,
+// [<mysticalagriculture:crafting:4>, <matc:inferiumcrystal>.anyDamage()]);
+// recipes.addShapeless(<mysticalagriculture:crafting:3>*4,
+// [<mysticalagriculture:crafting:4>, <matc:prudentiumcrystal>.anyDamage()]);
+// recipes.addShapeless(<mysticalagriculture:crafting:3>*4,
+// [<mysticalagriculture:crafting:4>, <matc:intermediumcrystal>.anyDamage()]);
 recipes.addShapeless(<mysticalagriculture:crafting:3>*4,
 [<mysticalagriculture:crafting:4>, <matc:superiumcrystal>.anyDamage()]);
 recipes.addShapeless(<mysticalagriculture:crafting:3>*4,
@@ -216,14 +216,14 @@ recipes.addShapeless(<mysticalagriculture:crafting:3>*4,
 
 recipes.addShapeless(<mysticalagriculture:crafting:4>*4,
 [<mysticalagradditions:insanium:0>, <mysticalagriculture:master_infusion_crystal>.reuse()]);
-recipes.addShapeless(<mysticalagriculture:crafting:4>*4,
-[<mysticalagradditions:insanium:0>, <matc:inferiumcrystal>.anyDamage()]);
-recipes.addShapeless(<mysticalagriculture:crafting:4>*4,
-[<mysticalagradditions:insanium:0>, <matc:prudentiumcrystal>.anyDamage()]);
-recipes.addShapeless(<mysticalagriculture:crafting:4>*4,
-[<mysticalagradditions:insanium:0>, <matc:intermediumcrystal>.anyDamage()]);
-recipes.addShapeless(<mysticalagriculture:crafting:4>*4,
-[<mysticalagradditions:insanium:0>, <matc:superiumcrystal>.anyDamage()]);
+// recipes.addShapeless(<mysticalagriculture:crafting:4>*4,
+// [<mysticalagradditions:insanium:0>, <matc:inferiumcrystal>.anyDamage()]);
+// recipes.addShapeless(<mysticalagriculture:crafting:4>*4,
+// [<mysticalagradditions:insanium:0>, <matc:prudentiumcrystal>.anyDamage()]);
+// recipes.addShapeless(<mysticalagriculture:crafting:4>*4,
+// [<mysticalagradditions:insanium:0>, <matc:intermediumcrystal>.anyDamage()]);
+// recipes.addShapeless(<mysticalagriculture:crafting:4>*4,
+// [<mysticalagradditions:insanium:0>, <matc:superiumcrystal>.anyDamage()]);
 recipes.addShapeless(<mysticalagriculture:crafting:4>*4,
 [<mysticalagradditions:insanium:0>, <matc:supremiumcrystal>.anyDamage()]);
 

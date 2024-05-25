@@ -28,9 +28,9 @@ recipes.addShaped(<openblocks:tank>*4,
 [<ore:dustObsidian>, <randomthings:lapisglass>, <ore:dustObsidian>]]);
 
 
-recipes.removeShaped(<railcraft:tank_iron_gauge>);
+recipes.removeShaped(<railcraft:tank_iron_valve>);
 
-recipes.addShaped(<railcraft:tank_iron_gauge>*4,
+recipes.addShaped(<railcraft:tank_iron_valve>*4,
 [[<railcraft:tank_iron_wall>, <ore:blockGlass>, <railcraft:tank_iron_wall>],
 [<ore:blockGlass>, <openblocks:tank>, <ore:blockGlass>],
 [<railcraft:tank_iron_wall>, <ore:blockGlass>, <railcraft:tank_iron_wall>]]);
@@ -42,9 +42,9 @@ recipes.addShaped(<railcraft:tank_steel_wall>,
 [<ore:plateSteel>, <railcraft:tank_iron_wall>, <ore:plateSteel>],
 [null, <ore:plateSteel>, null]]);
 
-recipes.removeShaped(<railcraft:tank_steel_gauge>);
+recipes.removeShaped(<railcraft:tank_steel_valve>);
 
-recipes.addShaped(<railcraft:tank_steel_gauge>*4,
+recipes.addShaped(<railcraft:tank_steel_valve>*4,
 [[<railcraft:tank_steel_wall>, <ore:blockGlass>, <railcraft:tank_steel_wall>],
 [<ore:blockGlass>, <openblocks:tank>, <ore:blockGlass>],
 [<railcraft:tank_steel_wall>, <ore:blockGlass>, <railcraft:tank_steel_wall>]]);
@@ -54,4 +54,4 @@ recipes.remove(<industrialforegoing:black_hole_tank>);
 recipes.addShaped(<industrialforegoing:black_hole_tank>,
 [[<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>],
 [<minecraft:ender_eye>, <minecraft:ender_pearl>, <minecraft:ender_eye>],
-[<minecraft:bucket>, <railcraft:tank_steel_gauge>, <minecraft:bucket>]]);
+[<minecraft:bucket>, <railcraft:tank_steel_valve>, <minecraft:bucket>]]);

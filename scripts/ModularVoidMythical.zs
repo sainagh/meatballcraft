@@ -54,8 +54,6 @@ mith1.addItemOutput(<divinerpg:shark_fin>*10);
 mith1.setChance(0.2);
 mith1.addItemOutput(<divinerpg:whale_fin>*10);
 mith1.setChance(0.2);
-mith1.addItemOutput(<divinerpg:shark_fin>*10);
-mith1.setChance(0.2);
 mith1.addItemOutput(<divinerpg:cyclops_eye_shards>*10);
 mith1.setChance(0.05);
 mith1.addItemOutput(<divinerpg:aquatic_pellets>*10);
@@ -549,7 +547,7 @@ mith7.setChance(0.05);
 mith7.addItemOutput(<contenttweaker:tier7_token>);
 mith7.build();
 
-val mythassprecasia = RecipeBuilder.newBuilder("mythassprecasia","me_mythic_assembler",100);
+val mythassprecasia = RecipeBuilder.newBuilder("mythassprecasia","me_mythic_assembler",800);
 mythassprecasia.addEnergyPerTickInput(300000);
 mythassprecasia.addFluidInput(<fluid:spatial_matter>*1000);
 mythassprecasia.addFluidInput(<fluid:dragons_blood_plastic>*1000);
@@ -2610,17 +2608,17 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:gravity_inverter>,
 <botania:rune:14>, <contenttweaker:gravity_manipulator_device>, <botania:rune:14>, 
 <nuclearcraft:fusion_connector>, <extendedcrafting:ender_alternator>, <thaumcraft:causality_collapser>], 
 
-[<thaumcraft:causality_collapser>, <torcherino:torch_lvl1>, <contenttweaker:twilight_diamond>, 
+[<thaumcraft:causality_collapser>, <tce:tce_torch_lvl1>, <contenttweaker:twilight_diamond>, 
 <botania:rune:13>, <contenttweaker:nightmare_gem>, <botania:rune:13>, 
-<contenttweaker:twilight_diamond>, <torcherino:torch_lvl1>, <thaumcraft:causality_collapser>], 
+<contenttweaker:twilight_diamond>, <tce:tce_torch_lvl1>, <thaumcraft:causality_collapser>], 
 
-[<contenttweaker:universal_realgar>, <torcherino:torch_lvl1>, <careerbees:eternalframe>, 
+[<contenttweaker:universal_realgar>, <tce:tce_torch_lvl1>, <careerbees:eternalframe>, 
 <botania:rune:12>, <contenttweaker:white_hole>, <botania:rune:12>, 
-<careerbees:eternalframe>, <torcherino:torch_lvl1>, <contenttweaker:universal_realgar>], 
+<careerbees:eternalframe>, <tce:tce_torch_lvl1>, <contenttweaker:universal_realgar>], 
 
-[<thaumcraft:causality_collapser>, <torcherino:torch_lvl1>, <contenttweaker:twilight_diamond>, 
+[<thaumcraft:causality_collapser>, <tce:tce_torch_lvl1>, <contenttweaker:twilight_diamond>, 
 <botania:rune:11>, <contenttweaker:nightmare_gem>, <botania:rune:11>, 
-<contenttweaker:twilight_diamond>, <torcherino:torch_lvl1>, <thaumcraft:causality_collapser>], 
+<contenttweaker:twilight_diamond>, <tce:tce_torch_lvl1>, <thaumcraft:causality_collapser>], 
 
 [<thaumcraft:causality_collapser>, <extendedcrafting:ender_alternator>, <nuclearcraft:fusion_connector>, 
 <botania:rune:10>, <contenttweaker:gravity_manipulator_device>, <botania:rune:10>, 
