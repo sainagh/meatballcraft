@@ -777,10 +777,4 @@ furnace.addRecipe(<biomesoplenty:gem:7>, <biomesoplenty:gem_ore:7>);
 furnace.remove(<thaumcraft:amber>);
 furnace.addRecipe(<thaumcraft:amber>, <thaumcraft:ore_amber>);
 
-//==================================================================
-// wooden gear
 
-
-recipes.remove(<appliedenergistics2:material:40>);
-recipes.remove(<buildcraftcore:gear_wood>);
-recipes.remove(<thermalfoundation:material:22>);
