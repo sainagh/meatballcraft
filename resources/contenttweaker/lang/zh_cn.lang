@@ -2561,6 +2561,7 @@ fluid.orichalcum=奥利哈刚
 item.contenttweaker.boss_drop.name=Boss掉落
 item.contenttweaker.dungeon_drop.name=地牢掉落
 item.contenttweaker.how_to_finish_meatballcraft.name=如何通关肉丸工艺
+item.contenttweaker.rftools_syringe.name=Syringe from RFTools
 
 modularmachinery.active_cooled_hea242=主动冷却式裂变堆设计：高密度镅-242燃料
 modularmachinery.active_cooled_hecf249=主动冷却式裂变堆设计：高密度锎-249燃料
