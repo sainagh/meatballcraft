@@ -269,3 +269,6 @@ mods.tconstruct.Casting.addTableRecipe(<contenttweaker:ascended_draconic_alloy>,
 
 mods.tconstruct.Melting.addRecipe(<liquid:hihi_irokane> * 144,<contenttweaker:hihi_irokane>);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:hihi_irokane>, <tconstruct:cast_custom:0>, <liquid:hihi_irokane>, 144, false, 80);
+
+mods.tconstruct.Melting.addRecipe(<liquid:orichalcum> * 144,<contenttweaker:orichalcum>);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:orichalcum>, <tconstruct:cast_custom:0>, <liquid:orichalcum>, 144, false, 80);

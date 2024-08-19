@@ -1,3 +1,6 @@
+recipes.remove(<danknull:danknull_dock>);
+
+
 recipes.removeShaped(<dankstorage:dank_1>);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<dankstorage:dank_1>, 

@@ -1,5 +1,10 @@
 import mods.modularmachinery.RecipeBuilder;
 
+recipes.addShaped(<contenttweaker:plated_photonium>,
+[[<contenttweaker:eldritch_metal_plate>, <contenttweaker:eldritch_metal_plate>, <contenttweaker:eldritch_metal_plate>],
+[<contenttweaker:eldritch_metal_plate>, <extrabotany:blockphotonium>, <contenttweaker:eldritch_metal_plate>],
+[<contenttweaker:eldritch_metal_plate>, <contenttweaker:eldritch_metal_plate>, <contenttweaker:eldritch_metal_plate>]]);
+
 val fortree1 = RecipeBuilder.newBuilder("fortree1","enchanted_greenhouse",1000);
 fortree1.addItemInput(<forestry:sapling>.withTag({Genome: {Chromosomes: [{UID1: "forestry.treeChestnut", UID0: "forestry.treeChestnut", Slot: 0 as byte}]}}));
 fortree1.setChance(0.0);
@@ -1035,3 +1040,10 @@ fortree137.addItemInput(<forestry:peat>);
 fortree137.addItemOutput(<forestry:logs.5:1>*64);
 fortree137.addItemOutput(<extratrees:food:8>*16);
 fortree137.build();
+
+val fortree138 = RecipeBuilder.newBuilder("fortree138","enchanted_greenhouse",1000);
+fortree138.addItemInput(<abyssalcraft:dreadsapling>);
+fortree138.setChance(0.0);
+fortree138.addItemInput(<forestry:peat>);
+fortree138.addItemOutput(<abyssalcraft:charcoal>*64);
+fortree138.build();

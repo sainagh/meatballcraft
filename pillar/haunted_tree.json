@@ -11,7 +11,7 @@
 	"ignoreEntities": false,
 
 	"dimensionSpawns": [0],
-	"biomeNameSpawns": ["Ocean","FrozenOcean","Deep Ocean"],
+	"biomeNameSpawns": ["Ocean","FrozenOcean","Deep Ocean","Coral Reef"],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": true,

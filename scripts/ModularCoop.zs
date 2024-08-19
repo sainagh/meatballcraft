@@ -455,3 +455,28 @@ chick71.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttwe
 chick71.setChance(0.0);
 chick71.addItemOutput(<contenttweaker:abominable_egg>*16);
 chick71.build();
+
+val chick72 = RecipeBuilder.newBuilder("chick72","mechanized_coop",480);
+chick72.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:coalchicken"}}));
+chick72.setChance(0.0);
+chick72.addItemOutput(<minecraft:coal>*32);
+chick72.addItemOutput(<minecraft:coal>*32);
+chick72.addItemOutput(<minecraft:coal>*32);
+chick72.addItemOutput(<minecraft:coal>*32);
+chick72.build();
+
+val chick73 = RecipeBuilder.newBuilder("chick73","mechanized_coop",480);
+chick73.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:focusing_chicken"}}));
+chick73.setChance(0.0);
+chick73.addItemOutput(<contenttweaker:focusing_egg>*16);
+chick73.build();
+
+
+val chick74 = RecipeBuilder.newBuilder("chick74","mechanized_coop",480);
+chick74.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:redstonechicken"}}));
+chick74.setChance(0.0);
+chick74.addItemOutput(<minecraft:redstone>*32);
+chick74.addItemOutput(<minecraft:redstone>*32);
+chick74.addItemOutput(<minecraft:redstone>*32);
+chick74.addItemOutput(<minecraft:redstone>*32);
+chick74.build();

@@ -160,7 +160,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "generalized_input_item"
+                "both_item_fluid_input"
             ]
         },
         {

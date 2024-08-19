@@ -11,3 +11,9 @@ mythdry2.addEnergyPerTickInput(40000);
 mythdry2.addItemInput(<minecraft:clay>);
 mythdry2.addItemOutput(<tconstruct:dried_clay:0>);
 mythdry2.build();
+
+val mythdry3 = RecipeBuilder.newBuilder("mythdry3","mythic_processor_drying_rack",1);
+mythdry3.addEnergyPerTickInput(40000);
+mythdry3.addFluidInput(<fluid:milk>*1000);
+mythdry3.addItemOutput(<contenttweaker:curd>);
+mythdry3.build();

@@ -643,6 +643,71 @@ hypergrowth90.setChance(0.0);
 hypergrowth90.addItemOutput(<mysticalagriculture:fluix_essence>*64);
 hypergrowth90.build();
 
+val hypergrowth91 = RecipeBuilder.newBuilder("hypergrowth91","hypergrowth_insolator",10);
+hypergrowth91.addFluidInput(<fluid:bewitched_growth_catalyst>*1);
+hypergrowth91.addItemInput(<contenttweaker:tier_i_defined_seed>);
+hypergrowth91.setChance(0.0);
+hypergrowth91.addItemOutput(<contenttweaker:defined_inferium_catalyst>*1);
+hypergrowth91.addItemOutput(<contenttweaker:defined_prudentium_catalyst>*1);
+hypergrowth91.setChance(0.01);
+hypergrowth91.addItemOutput(<contenttweaker:recursion_of_clarity>*1);
+hypergrowth91.setChance(0.001);
+hypergrowth91.build();
+
+val hypergrowth92 = RecipeBuilder.newBuilder("hypergrowth92","hypergrowth_insolator",10);
+hypergrowth92.addFluidInput(<fluid:bewitched_growth_catalyst>*1);
+hypergrowth92.addItemInput(<contenttweaker:tier_ii_defined_seed>);
+hypergrowth92.setChance(0.0);
+hypergrowth92.addItemOutput(<contenttweaker:defined_prudentium_catalyst>*1);
+hypergrowth92.addItemOutput(<contenttweaker:defined_intermedium_catalyst>*1);
+hypergrowth92.setChance(0.05);
+hypergrowth92.addItemOutput(<contenttweaker:recursion_of_clarity>*1);
+hypergrowth92.setChance(0.01);
+hypergrowth92.build();
+
+val hypergrowth93 = RecipeBuilder.newBuilder("hypergrowth93","hypergrowth_insolator",10);
+hypergrowth93.addFluidInput(<fluid:bewitched_growth_catalyst>*1);
+hypergrowth93.addItemInput(<contenttweaker:tier_iii_defined_seed>);
+hypergrowth93.setChance(0.0);
+hypergrowth93.addItemOutput(<contenttweaker:defined_intermedium_catalyst>*1);
+hypergrowth93.addItemOutput(<contenttweaker:defined_superium_catalyst>*1);
+hypergrowth93.setChance(0.1);
+hypergrowth93.addItemOutput(<contenttweaker:recursion_of_clarity>*1);
+hypergrowth93.setChance(0.05);
+hypergrowth93.build();
+
+val hypergrowth94 = RecipeBuilder.newBuilder("hypergrowth94","hypergrowth_insolator",10);
+hypergrowth94.addFluidInput(<fluid:bewitched_growth_catalyst>*1);
+hypergrowth94.addItemInput(<contenttweaker:tier_iv_defined_seed>);
+hypergrowth94.setChance(0.0);
+hypergrowth94.addItemOutput(<contenttweaker:defined_superium_catalyst>*1);
+hypergrowth94.addItemOutput(<contenttweaker:defined_supremium_catalyst>*1);
+hypergrowth94.setChance(0.2);
+hypergrowth94.addItemOutput(<contenttweaker:recursion_of_clarity>*1);
+hypergrowth94.setChance(0.1);
+hypergrowth94.build();
+
+val hypergrowth95 = RecipeBuilder.newBuilder("hypergrowth95","hypergrowth_insolator",10);
+hypergrowth95.addFluidInput(<fluid:bewitched_growth_catalyst>*1);
+hypergrowth95.addItemInput(<contenttweaker:tier_v_defined_seed>);
+hypergrowth95.setChance(0.0);
+hypergrowth95.addItemOutput(<contenttweaker:defined_supremium_catalyst>*1);
+hypergrowth95.addItemOutput(<contenttweaker:defined_insanium_catalyst>*1);
+hypergrowth95.setChance(0.5);
+hypergrowth95.addItemOutput(<contenttweaker:recursion_of_clarity>*1);
+hypergrowth95.setChance(0.2);
+hypergrowth95.build();
+
+val hypergrowth96 = RecipeBuilder.newBuilder("hypergrowth96","hypergrowth_insolator",10);
+hypergrowth96.addFluidInput(<fluid:bewitched_growth_catalyst>*1);
+hypergrowth96.addItemInput(<contenttweaker:tier_vi_defined_seed>);
+hypergrowth96.setChance(0.0);
+hypergrowth96.addItemOutput(<contenttweaker:defined_insanium_catalyst>*1);
+hypergrowth96.addItemOutput(<contenttweaker:recursion_of_clarity>*5);
+hypergrowth96.setChance(0.5);
+hypergrowth96.addItemOutput(<contenttweaker:recursion_of_clarity>*1);
+hypergrowth96.setChance(0.5);
+hypergrowth96.build();
 
 
 

@@ -1,5 +1,7 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.thaumcraft.Infusion;
+import scripts.enchantwrapper.EnchantUtil.EnchantMap;
+import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
 
 // EZ aeternalis fuel
 
@@ -205,15 +207,21 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("meatballcraft:shaped/internal/alta
 ],
 "astralsorcery.constellation.armara");
 
-mods.extendedcrafting.TableCrafting.addShaped(<astralsorcery:itemcape>.withTag({ench: [
-{lvl: 10 as short, id: 0 as short},
-{lvl: 10 as short, id: 1 as short},
-{lvl: 30 as short, id: 30 as short},
-{lvl: 100 as short, id: 34 as short},
-{lvl: 1 as short, id: 70 as short},
-{lvl: 10 as short, id: 3 as short},
-{lvl: 10 as short, id: 4 as short}
-], RepairCost: 1, astralsorcery: {constellationName: "astralsorcery.constellation.armara"},display: {Name:"§6§oMantle of the Stars§r",Lore:["§d§oSuper-Enchanted§r"]}}), 
+
+val enclistSuperMantleWrapped as EnchantMap = EnchantMap()
+	.add("minecraft:protection",10)
+	.add("minecraft:fire_protection",10)
+	.add("openblocks:last_stand",30)
+	.add("minecraft:unbreaking",100)
+	.add("minecraft:mending",6)
+    .add("minecraft:blast_protection",10)
+    .add("minecraft:projectile_protection",10);
+
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.armara"},display: {Name:"§6§oMantle of the Stars§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSuperMantleWrapped).getItem(), 
 [[<astralsorcery:itemperkseal>, <astralsorcery:itemrockcrystalsimple>, null, <contenttweaker:dynatos_crystal>, null, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemperkseal>], 
 [<astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <extendedcrafting:singularity:49>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>], 
 [null, <astralsorcery:itemrockcrystalsimple>, null, null, null, <astralsorcery:itemrockcrystalsimple>, null], 
@@ -404,3 +412,23 @@ bookebspells.add(<tfspellpack:twilight_spell_book>);
 recipes.addShapeless(<ebwizardry:magic_crystal:0>*3,
 [<ore:bookEBSpells>,
 <contenttweaker:spell_recycling_crystal>.reuse()]);
+
+recipes.addShapeless(<ebwizardry:magic_crystal:0>*3,
+[<ebwizardry:spell_book:*>,
+<contenttweaker:spell_recycling_crystal>.reuse()]);
+
+recipes.addShapeless(<ebwizardry:magic_crystal:0>*3,
+[<tfspellpack:twilight_spell_book:*>,
+<contenttweaker:spell_recycling_crystal>.reuse()]);
+
+// black lotus
+
+recipes.addShapeless(<botania:blacklotus:0>,
+[<contenttweaker:alchemical_mushroom>.reuse(),
+<contenttweaker:champion_token>,
+<contenttweaker:essence_of_petrification>,
+<gendustry:honey_comb:13341>,
+<contenttweaker:broken_portal_arcana>.reuse(),
+<contenttweaker:broken_portal_arcana>.reuse(),
+<contenttweaker:broken_portal_arcana>.reuse(),
+<contenttweaker:broken_portal_arcana>.reuse()]);

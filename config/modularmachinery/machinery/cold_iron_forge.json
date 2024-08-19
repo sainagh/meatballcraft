@@ -2,6 +2,21 @@
     "registryname": "cold_iron_forge",
     "localizedname": "Cold Iron Forge",
 	"color": "383836",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:adamantium_reinforced_petrified_wood",
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "description": "Replace the top block for 20X speed",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.05
+            }
+        }
+    ],
     "parts": [
         {
             "x": -1,

@@ -216,6 +216,7 @@ recipes.addShaped(<contenttweaker:crimson_ichor>*2,
 [<gendustry:honey_comb:14015>, <contenttweaker:crimson_ichor>, <gendustry:honey_comb:14015>],
 [<gendustry:honey_comb:14015>, <gendustry:honey_comb:14015>, <gendustry:honey_comb:14015>]]);
 
+
 val makeichorium = RecipeBuilder.newBuilder("makeichorium","arcane_autoinfuser",200);
 makeichorium.addEnergyPerTickInput(150000000);
 makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alkimia"}]})*300);
@@ -226,7 +227,7 @@ makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amoun
 makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]})*50);
 makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aversio"}]})*50);
 makeichorium.addItemInput(<contenttweaker:crimson_ichor>*8);
-makeichorium.addItemInput(<thaumadditions:mithminite_block>*32);
+makeichorium.addItemInput(<thaumadditions:mithminite_block>*2);
 makeichorium.addItemInput(<thaumicaugmentation:material:5>*16);
 makeichorium.addItemInput(<thaumcraft:focus_3>);
 makeichorium.addItemInput(<thaumcraft:focus_3>);
@@ -541,7 +542,7 @@ null, <bloodmagic:points_upgrade>, null,
 null, null, null],
 
 [<contenttweaker:nero_core>, <contenttweaker:slate_of_endless_hunger>, <bloodmagic:points_upgrade>,
-null, <contenttweaker:essence_solitude>, null,
+null, <contenttweaker:essence_fear>, null,
 <bloodmagic:points_upgrade>, <contenttweaker:slate_of_endless_hunger>, <contenttweaker:akathartos_core>],
 
 [null, null, null,

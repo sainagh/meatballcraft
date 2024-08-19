@@ -35,7 +35,7 @@ soulcollectorinferium.addFluidInput(<fluid:essence>*1000);
 soulcollectorinferium.addFluidInput(<fluid:juice>*1000);
 soulcollectorinferium.addItemInput(<thebetweenlands:rock_snot_pearl>*4);
 soulcollectorinferium.addItemInput(<enderio:item_broken_spawner>.withTag({entityId: "divinerpg:rainbour"}));
-soulcollectorinferium.addItemOutput(<mysticalagradditions:insanium:0>*3);
+soulcollectorinferium.addItemOutput(<mysticalagradditions:insanium:0>*5);
 soulcollectorinferium.build();
 
 val soulcollectorcrops = RecipeBuilder.newBuilder("soulcollectorcrops","soul_accumulator",60);
@@ -62,3 +62,15 @@ soulcollectorcrops.addItemOutput(<thebetweenlands:weeping_blue_petal>*64);
 soulcollectorcrops.addItemOutput(<thebetweenlands:spirit_fruit>*64);
 soulcollectorcrops.build();
 
+
+val soulcollectorfertilizedefinedseed = RecipeBuilder.newBuilder("soulcollectorfertilizedefinedseed","soul_accumulator",60);
+soulcollectorfertilizedefinedseed.addEnergyPerTickInput(100000);
+soulcollectorfertilizedefinedseed.addFluidInput(<fluid:essence>*1000);
+soulcollectorfertilizedefinedseed.addFluidInput(<fluid:juice>*1000);
+soulcollectorfertilizedefinedseed.addItemInput(<thebetweenlands:rock_snot_pearl>*4);
+soulcollectorfertilizedefinedseed.addItemInput(<enderio:item_broken_spawner>.withTag({entityId: "bewitchment:feuerwurm"}));
+soulcollectorfertilizedefinedseed.addItemOutput(<contenttweaker:bewitched_growth_catalyst>*64);
+soulcollectorfertilizedefinedseed.build();
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:bewitched_growth_catalyst>, <fluid:bewitched_growth_catalyst>]);
+mods.thermalexpansion.Crucible.addRecipe(<fluid:bewitched_growth_catalyst>, <contenttweaker:bewitched_growth_catalyst>, 200);

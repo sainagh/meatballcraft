@@ -252,6 +252,8 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:wildwood_core>.addTooltip(format.red("Use a Rite of Shifting Seasons with a special boline to create the Stormland Biome"));
 
+<draconicevolution:chaos_shard:0>.addTooltip(format.red("First one is found at coordinates that are multiples of 10'000 in the end"));
+<draconicevolution:chaos_shard:0>.addTooltip(format.red("Defeat the chaos guardian to be able to harvest it"));
 <draconicevolution:chaos_shard:0>.addTooltip(format.red("There are multiple ways to farm this - Check JEI"));
 
 <contenttweaker:steamed_slime>.addTooltip(format.red("Steam comes from the Railcraft Boiler Multiblock"));
@@ -648,8 +650,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:master_spell_focus>.addTooltip(format.red("Let this be a warning, you want to be REALLY CAREFUL with these!"));
 <contenttweaker:master_spell_focus>.addTooltip(format.red("Some will be good, some will be bad, some will be funny!"));
 
-<contenttweaker:master_spell_focus>.addTooltip(format.red("Use 4096 crystals"));
-
 <thaumicaugmentation:research_notes>.addTooltip(format.red("Can be found in the Emptiness, or through a master spell (which one??)"));
 
 <thaumicenergistics:essentia_terminal>.addTooltip(format.red("Thanks to Dorambor for finding a better version!"));
@@ -660,9 +660,10 @@ import crafttweaker.item.IItemCondition;
 
 <advancedrocketry:warpcore>.addTooltip(format.red("The correct titanium block can be crafted from the incorrect titanium block"));
 
-<ore:aoaGarnet>.addTooltip(format.red("Use the corresponding mythic void resource miners for a (slow) steady supply of garnets!"));
-<ore:aoaGarnet>.addTooltip(format.red("If you need a large amount, batch craft or autocraft using the ME mythic assembler!"));
-<ore:aoaGarnet>.addTooltip(format.red("Puzzles will unlock better recipes for the ME mythic assembler!"));
+<ore:aoaGarnet>.addTooltip(format.red("Use the corresponding mythic Void Resource Miners for a (slow) steady supply of garnets!"));
+<ore:aoaGarnet>.addTooltip(format.red("If you need a large amount, batch craft or autocraft using the ME Mythic Assembler!"));
+<ore:aoaGarnet>.addTooltip(format.red("Puzzles will unlock better recipes for the ME Mythic Assembler!"));
+<ore:aoaGarnet>.addTooltip(format.red("Using these you will eventually be able to passive them all at once with good rates."));
 
 <divinerpg:arcanite_blade>.addTooltip(format.red("Traded in arcana from the war general, obtained from the war general summoner"));
 <divinerpg:arcanite_blaster>.addTooltip(format.red("Traded in arcana from the war general, obtained from the war general summoner"));
@@ -801,11 +802,11 @@ import crafttweaker.item.IItemCondition;
 
 <extrautils2:bagofholding>.addTooltip(format.red("Empty before using this in recipes!!"));
 
-<projectex:personal_link>.addTooltip(format.red("Do not connect directly to a storage bus (laggy), use drawers or danks!"));
+<projectex:personal_link>.addTooltip(format.red("Do not connect directly to a storage bus (laggy). Use drawers or danks instead!"));
 
-<projectex:refined_link>.addTooltip(format.red("Do not connect directly to a storage bus (laggy), use drawers or danks!"));
+<projectex:refined_link>.addTooltip(format.red("Do not connect directly to a storage bus (laggy). Use drawers or danks instead!"));
 
-<projectex:compressed_refined_link>.addTooltip(format.red("Do not connect directly to a storage bus (laggy), use drawers or danks!"));
+<projectex:compressed_refined_link>.addTooltip(format.red("Do not connect directly to a storage bus (laggy). Use drawers or danks instead!"));
 
 <aether_legacy:zanite_gemstone>.addTooltip(format.red("Now faster, thanks to Supernodap's sacrifice!"));
 
@@ -821,6 +822,7 @@ import crafttweaker.item.IItemCondition;
 
 <extrabotany:material:3>.addTooltip(format.red("Dropped by a tier 3 Gaia Guardian"));
 
+<bewitchment:blessed_stone>.addTooltip(format.red("Found in Furatto"));
 <bewitchment:blessed_stone>.addTooltip(format.red("CAREFUL: this block is unbreakable"));
 <bewitchment:blessed_stone>.addTooltip(format.red("Can be broken by the Master Spell Perditio"));
 
@@ -987,7 +989,7 @@ import crafttweaker.item.IItemCondition;
 
 <minecraft:chorus_fruit_popped>.addTooltip(format.red("Tinker Modifier: mobs float"));
 
-<minecraft:tnt>.addTooltip(format.red("Tinker Modifier: destroys shit"));
+<minecraft:tnt>.addTooltip(format.red("Tinker Modifier: destroys stuff"));
 
 <tconstruct:materials:13>.addTooltip(format.red("Tinker Modifier: taller"));
 
@@ -1033,7 +1035,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:harbinger_crystal>.addTooltip(format.red("Dropped by harbinger cubes in the final twilight forest castle"));
 
-<contenttweaker:ender_feather>.addTooltip(format.red("Dropped by the mighty ender chicken"));
+<contenttweaker:ender_feather>.addTooltip(format.red("Dropped by the Mighty Ender Chicken in Furatto"));
 
 <contenttweaker:sedna_artifact>.addTooltip(format.red("Right click before entering the planet"));
 
@@ -1150,8 +1152,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:sticky_callstone>.addTooltip(format.red("Sure you can craft it early on, but should you?"));
 <contenttweaker:sticky_callstone>.addTooltip(format.red("Because sometimes the worst ideas are the ones that work -0darkomen0"));
-
-<buildcraftsilicon:redstone_chipset>.addTooltip(format.red("Better to automate passively"));
 
 <thebetweenlands:aspect_vial>.addTooltip(format.red("Found by right clicking various betweenlands ground items from mortar and pestle on a gecko in a cage (different in every world)"));
 
@@ -1487,7 +1487,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:technetium_remains>.addTooltip(format.red("Can be multiplied in an infinite loop"));
 
-<ore:dragonScaleBlock>.addTooltip(format.red("Automate using the Aeldunari"));
 
 <contenttweaker:lanthanum_salt>.addTooltip(format.red("If you don't want to automate it, batch craft a large amount"));
 
@@ -1559,7 +1558,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:livermorium_sliver>.addTooltip(format.red("Make a runicorn farm"));
 
-<contenttweaker:arcane_prison_key>.addTooltip(format.red("Right click to summon a boss"));
+<contenttweaker:arcane_prison_key>.addTooltip(format.red("Right click to summon a boss!"));
 
 <contenttweaker:unusually_heavy_bone>.addTooltip(format.red("Eden dust is obtainable in chapter 1! Go explore the overworld!"));
 <contenttweaker:unusually_heavy_bone>.addTooltip(format.red("Right click to summon a boss!"));
@@ -1948,7 +1947,7 @@ import crafttweaker.item.IItemCondition;
 
 <cyclicmagic:beacon_potion>.addTooltip(format.red("Obtained from the pharos callstone"));
 
-<contenttweaker:pharos_callstone>.addTooltip(format.red("Ptah will guide you"));
+<contenttweaker:pharos_callstone>.addTooltip(format.red("Craft the right potions (5) together, Ptah will guide you"));
 
 <contenttweaker:ptah_spinel>.addTooltip(format.red("Obtained from the pharos callstone"));
 
@@ -2145,7 +2144,7 @@ import crafttweaker.item.IItemCondition;
 
 <erebus:spider_t_shirt>.addTooltip(format.red("Obtained from the tarantula brood mother"));
 
-<extendedcrafting:compressor>.addTooltip(format.red("Make sure the compressor has no solid blocks touching its sides!"));
+// <extendedcrafting:compressor>.addTooltip(format.red("Make sure the compressor has no solid blocks touching its sides!"));
 <extendedcrafting:compressor>.addTooltip(format.red("Warning: Do not shift click the Catalyst into the machine. It may bug out."));
 <extendedcrafting:compressor>.addTooltip(format.red("If the compressor bugs out, break and replace it :)"));
 
@@ -2180,10 +2179,10 @@ import crafttweaker.item.IItemCondition;
 
 <draconicevolution:celestial_manipulator>.addTooltip(format.red("Use in the overworld! It will also works in the void world!"));
 
-<appliedenergistics2:part:220>.addTooltip(format.red("Do not connect to a block that's in a different chunk, it will cause a crash"));
-<appliedenergistics2:part:221>.addTooltip(format.red("Do not connect to a block that's in a different chunk, it will cause a crash"));
-<appliedenergistics2:part:222>.addTooltip(format.red("Do not connect to a block that's in a different chunk, it will cause a crash"));
-<thaumicenergistics:essentia_storage>.addTooltip(format.red("Do not connect to a block that's in a different chunk, it will cause a crash"));
+<appliedenergistics2:part:220>.addTooltip(format.red("Do not connect to a block across a chunk boundary, it may cause a crash"));
+<appliedenergistics2:part:221>.addTooltip(format.red("Do not connect to a block across a chunk boundary, it may cause a crash"));
+<appliedenergistics2:part:222>.addTooltip(format.red("Do not connect to a block across a chunk boundary, it may cause a crash"));
+<thaumicenergistics:essentia_storage>.addTooltip(format.red("Do not connect to a block across a chunk boundary, it may cause a crash"));
 
 <divinerpg:icicle_bow>.addTooltip(format.red("Obtained from the workshop tinkerer in Iceika"));
 <divinerpg:icicle_bow>.addTooltip(format.red("Can be super-enchanted"));
@@ -2194,6 +2193,7 @@ import crafttweaker.item.IItemCondition;
 <akashictome:tome>.addTooltip(format.red("Combine in a crafting table to add a book!"));
 <akashictome:tome>.addTooltip(format.red("Right click to select what book to open"));
 <akashictome:tome>.addTooltip(format.red("Shift + left click while looking air to unselect a book"));
+<akashictome:tome>.addTooltip(format.red("Select an item and sneak + <drop keybind> to remove item from omniwand/akashic tome"));
 
 <forestry:bee_princess_ge:0>.withTag({MaxH: 50, Mate: {Chromosomes: [{UID1: "careerbees.mad_scientist", UID0: "careerbees.mad_scientist", Slot: 0 as byte}]}}).addTooltip(format.red("The mad scientist can only be bred in a normal apiary, while exploding TNT"));
 
@@ -2708,6 +2708,7 @@ import crafttweaker.item.IItemCondition;
 
 <nuclearcraft:fusion_core>.addTooltip(format.red("You can use any number of fusion connectors on each side, as long as the structure follows the preview"));
 
+<nuclearcraft:fusion_electromagnet_transparent_idle>.addTooltip(format.red("To function, Electromagnets require energy"));
 <nuclearcraft:fusion_electromagnet_transparent_idle>.addTooltip(format.red("Electromagnets need cooling from adjacent active coolers with water"));
 <nuclearcraft:fusion_electromagnet_transparent_idle>.addTooltip(format.red("If they follow cental symmetry they work better"));
 <nuclearcraft:fusion_electromagnet_transparent_idle>.addTooltip(format.red("You should reach 100% cooling, no more, no less"));
@@ -2956,6 +2957,10 @@ import crafttweaker.item.IItemCondition;
 <bewitchment:candelabra_gold>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
 <bewitchment:candelabra_iron>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
 <bewitchment:candelabra_silver>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
+<botania:shinyflower:*>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
+<botania:mushroom:*>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
+<botania:pylon:*>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
+<botania:miniisland:*>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
 
 <thaumcraft:infusion_matrix>.addTooltip(format.red("Search 'infusion stabilizer' in JEI to get the list"));
 
@@ -2982,7 +2987,7 @@ import crafttweaker.item.IItemCondition;
 <thermaldynamics:duct_0:5>.addTooltip(format.red("WARNING: do not connect to radiation scrubbers, it may corrupt your world"));
 <enderio:item_endergy_conduit:11>.addTooltip(format.red("WARNING: do not connect to radiation scrubbers, it may corrupt your world"));
 
-<aether_legacy:life_shard>.addTooltip(format.red("Adds 20 HP"));
+<aether_legacy:life_shard>.addTooltip(format.red("Adds 20 HP, found as chest loot in the Aether (more common in bronze dungeons)"));
 
 
 <contenttweaker:crown_of_the_energy_queen>.addTooltip(format.red("Thank you NerdySpider for the texture!"));
@@ -3061,7 +3066,8 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:vethea_wormhole>.addTooltip(format.red("Found from the nightmare callstone"));
 
-<botania:enchantedsoil>.addTooltip(format.red("Obtained from the enchanted orchid"));
+<botania:enchantedsoil>.addTooltip(format.red("Obtained from the Enchanted Orchid, or Overgrowth Seeds"));
+<botania:enchantedsoil>.addTooltip(format.red("Can be moved using Pistons, and the Sigil of Acquisition"));
 
 <contenttweaker:advanced_inscriber_doesnt_show_up>.addTooltip(format.red("The advanced version is better for automation"));
 
@@ -3184,7 +3190,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:furnace_heart>.addTooltip(format.red("Found in the furnace dimension"));
 
-<contenttweaker:living_myrmitite_ingot>.addTooltip(format.red("Combine enchanted myrmitite with the right modifier tomes (4), Precasia will guide you"));
+<contenttweaker:living_myrmitite_ingot>.addTooltip(format.red("Combine Myrmitite with the right modifier tomes (4), Precasia will guide you"));
 
 <cyclicmagic:glowing_helmet>.addTooltip(format.red("Found in battle towers"));
 
@@ -3378,7 +3384,9 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:psichic_stone>.addTooltip(format.red("Use the ore excavator on Europa, psivein"));
 
-<contenttweaker:better_red_coal>.addTooltip(format.red("This can be used to set recipes and automations more easily :)"));
+<contenttweaker:better_red_coal>.addTooltip(format.red("This can be used to set recipes more easily, good to have on passive :)"));
+
+<contenttweaker:broken_portal_arcana>.addTooltip(format.green("Reusable"));
 
 <nuclearcraft:rad_shielding:0>.addTooltip(format.red("Can be applied to any armor, as long as it's full durability"));
 <nuclearcraft:rad_shielding:1>.addTooltip(format.red("Can be applied to any armor, as long as it's full durability"));
@@ -3413,22 +3421,10 @@ import crafttweaker.item.IItemCondition;
 <careerbees:pheremone_frame>.addTooltip(format.red("Frames cannot be automated in an apiary, you need the alveary"));
 <magicbees:frames.oblivion>.addTooltip(format.red("Frames cannot be automated in an apiary, you need the alveary"));
 
-<compactmachines3:machine:0>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
-<compactmachines3:machine:1>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
-<compactmachines3:machine:2>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
-<compactmachines3:machine:4>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
-<compactmachines3:machine:3>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
-<compactmachines3:machine:5>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
-
-<compactmachines3:machine:0>.addTooltip(format.red("The ME capability adapter can be used to transfer AE2 channels inside a compact machine"));
-<compactmachines3:machine:1>.addTooltip(format.red("The ME capability adapter can be used to transfer AE2 channels inside a compact machine"));
-<compactmachines3:machine:2>.addTooltip(format.red("The ME capability adapter can be used to transfer AE2 channels inside a compact machine"));
-<compactmachines3:machine:4>.addTooltip(format.red("The ME capability adapter can be used to transfer AE2 channels inside a compact machine"));
-<compactmachines3:machine:3>.addTooltip(format.red("The ME capability adapter can be used to transfer AE2 channels inside a compact machine"));
-<compactmachines3:machine:5>.addTooltip(format.red("The ME capability adapter can be used to transfer AE2 channels inside a compact machine"));
 
 <forestry:sapling>.addTooltip(format.red("WARNING: Do not place forestry trees down for long periods of time, they will continuously spawn butterflies!"));
 <forestry:sapling>.addTooltip(format.red("Use the butterfly repellent to remove butterflies if there's too many."));
+<forestry:sapling>.addTooltip(format.red("Use an Industrial Grafter to break the corresponding leaf type to obtain more."));
 <forestry:sapling>.addTooltip(format.red("The enchanted greenhouse can be used to automate these trees!"));
 
 <contenttweaker:butterfly_repellent>.addTooltip(format.red("Right click to remove butterflies if they get laggy"));

@@ -813,3 +813,42 @@ mythallo111.addItemInput(<contenttweaker:superconducting_sednanite>);
 mythallo111.addItemInput(<careerbees:ingredients:13>);
 mythallo111.addItemOutput(<contenttweaker:superconducting_sednanite>*2);
 mythallo111.build();
+
+val mythallo112 = RecipeBuilder.newBuilder("mythallo112","mythic_processor_alloy_furnace",1);
+mythallo112.addEnergyPerTickInput(80000);
+mythallo112.addItemInput(<contenttweaker:chaosstrikium_cluster>*12);
+mythallo112.addItemInput(<contenttweaker:cactium_sliver>*12);
+mythallo112.addItemInput(<contenttweaker:crownite_chunk>*12);
+mythallo112.addItemInput(<contenttweaker:thrallium_fragment>*12);
+mythallo112.addItemInput(<contenttweaker:gem_of_the_warrior>);
+mythallo112.addItemOutput(<contenttweaker:imperfect_gallifreyan_alloy>);
+mythallo112.build();
+
+val mythallo113 = RecipeBuilder.newBuilder("mythallo113","mythic_processor_alloy_furnace",1);
+mythallo113.addEnergyPerTickInput(80000);
+mythallo113.addItemInput(<contenttweaker:modularium_primer>);
+mythallo113.addItemInput(<ore:ingotIron>);
+mythallo113.addItemOutput(<modularmachinery:itemmodularium>);
+mythallo113.build();
+
+val mythallo114 = RecipeBuilder.newBuilder("mythallo114","mythic_processor_alloy_furnace",1);
+mythallo114.addEnergyPerTickInput(80000);
+mythallo114.addItemInput(<contenttweaker:modularium_primer>);
+mythallo114.addItemInput(<contenttweaker:calcite_gem>);
+mythallo114.addItemOutput(<modularmachinery:itemmodularium>*8);
+mythallo114.build();
+
+val mythallo115 = RecipeBuilder.newBuilder("mythallo115","mythic_processor_alloy_furnace",1);
+mythallo115.addEnergyPerTickInput(80000);
+mythallo115.addItemInput(<contenttweaker:crystaltine_dust>);
+mythallo115.addItemInput(<contenttweaker:calcite_gem>);
+mythallo115.addItemOutput(<extendedcrafting:material:24>*8);
+mythallo115.build();
+
+val mythallo116 = RecipeBuilder.newBuilder("mythallo116","mythic_processor_alloy_furnace",1);
+mythallo116.addEnergyPerTickInput(80000);
+mythallo116.addItemInput(<contenttweaker:crystaltine_dust>);
+mythallo116.addItemInput(<ore:ingotIron>);
+mythallo116.addItemOutput(<extendedcrafting:material:24>);
+mythallo116.build();
+

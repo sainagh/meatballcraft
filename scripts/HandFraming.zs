@@ -21,6 +21,7 @@ val frontIngredient = (<xtones:zane:15> | framingMaterial).marked("MatF");
 <ore:handFramedThree>.add(<storagedrawers:customdrawers:*>,
                           <framedcompactdrawers:framed_drawer_controller>,
                           <framedcompactdrawers:framed_compact_drawer>,
+                          <fluiddrawers:tank_custom>,
                           <framedcompactdrawers:framed_slave>,
                           <contenttweaker:hand_framing_tool>);
 

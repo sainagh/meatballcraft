@@ -1,9 +1,9 @@
 import mods.thaumcraft.Infusion;
 import mods.modularmachinery.RecipeBuilder;
-import crafttweaker.enchantments.IEnchantmentDefinition;
-import crafttweaker.data.IData;
+import scripts.enchantwrapper.EnchantUtil.EnchantMap;
+import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
 
-val enclistEXPCutter as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:endercore:xpboost>, <enchantment:minecraft:mending>, <enchantment:minecraft:unbreaking>];
+/* val enclistEXPCutter as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:endercore:xpboost>, <enchantment:minecraft:mending>, <enchantment:minecraft:unbreaking>];
 var mapExpCutter as IData = {};
 mapExpCutter += enclistEXPCutter[0].makeEnchantment(39).makeTag();
 mapExpCutter += enclistEXPCutter[1].makeEnchantment(100).makeTag();
@@ -12,9 +12,17 @@ mapExpCutter += enclistEXPCutter[3].makeEnchantment(5).makeTag();
 var mapExpCutterOther as IData = {
 	RepairCost: 1,
 	display: {Name: "§6§oPrimal Cutter§r",Lore:["§d§oSuper-Enchanted§r"]}
-};
+}; */
 
-val enchlistMagicShield as IEnchantmentDefinition[] = [<enchantment:ebwizardry:shock_protection>, <enchantment:minecraft:protection>, <enchantment:ebwizardry:magic_protection>, <enchantment:ebwizardry:frost_protection>, <enchantment:minecraft:fire_protection>, <enchantment:minecraft:blast_protection>, <enchantment:minecraft:projectile_protection>];
+val enclistEXPCutterWrapped as EnchantMap = EnchantMap()
+	.add("minecraft:sharpness",39)
+	.add("endercore:xpboost",100)
+	.add("minecraft:mending",1)
+	.add("minecraft:unbreaking",5);
+
+
+
+/* val enchlistMagicShield as IEnchantmentDefinition[] = [<enchantment:ebwizardry:shock_protection>, <enchantment:minecraft:protection>, <enchantment:ebwizardry:magic_protection>, <enchantment:ebwizardry:frost_protection>, <enchantment:minecraft:fire_protection>, <enchantment:minecraft:blast_protection>, <enchantment:minecraft:projectile_protection>];
 var mapMagicShielding as IData = {};
 mapMagicShielding += enchlistMagicShield[0].makeEnchantment(16).makeTag();
 mapMagicShielding += enchlistMagicShield[1].makeEnchantment(16).makeTag();
@@ -22,9 +30,21 @@ mapMagicShielding += enchlistMagicShield[2].makeEnchantment(100).makeTag();
 mapMagicShielding += enchlistMagicShield[3].makeEnchantment(16).makeTag();
 mapMagicShielding += enchlistMagicShield[4].makeEnchantment(16).makeTag();
 mapMagicShielding += enchlistMagicShield[5].makeEnchantment(16).makeTag();
-mapMagicShielding += enchlistMagicShield[6].makeEnchantment(16).makeTag();
+mapMagicShielding += enchlistMagicShield[6].makeEnchantment(16).makeTag(); */
 
-var mapSuperMithHelm as IData = {
+
+val enchlistMagicShieldWrapped as EnchantMap = EnchantMap()
+	.add("ebwizardry:shock_protection",16)
+	.add("minecraft:protection",16)
+	.add("ebwizardry:magic_protection",100)
+	.add("ebwizardry:frost_protection",16)
+	.add("minecraft:fire_protection",16)
+	.add("minecraft:blast_protection",16)
+	.add("minecraft:projectile_protection",16);
+
+
+
+/* var mapSuperMithHelm as IData = {
 	RepairCost: 1,
 	display: {Name: "§6§oMithminite Hood§r",Lore:["§d§oSuper-Enchanted§r"]}
 };
@@ -42,7 +62,7 @@ var mapSuperMithLegs as IData = {
 var mapSuperMithBoots as IData = {
 	RepairCost: 1,
 	display: {Name: "§6§oMithminite Boots§r",Lore:["§d§oSuper-Enchanted§r"]}
-};
+}; */
 
 
 mods.thaumcraft.Infusion.registerRecipe("inflesser", "", 
@@ -72,7 +92,7 @@ recipes.addShaped(<contenttweaker:ineffable_sun>,
 <contenttweaker:ineffable_sun>.setAspects([<aspect:ignis>*50, <aspect:aer>*50, <aspect:terra>*50, <aspect:aqua>*50, <aspect:ordo>*50, <aspect:perditio>*50, <aspect:auram>*50, <aspect:vitium>*50]);
 
 mods.thaumcraft.Infusion.registerRecipe("supercutter", "", 
-<thaumicaugmentation:primal_cutter>.withTag(mapExpCutter += mapExpCutterOther), 10,
+SuperEnchantedItem(<thaumicaugmentation:primal_cutter>.withTag({display: {Name:"§6§oPrimal Cutter§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistEXPCutterWrapped).getItem(), 10,
 [<aspect:humanus>*200, <aspect:auram>*100], 
 <thaumicaugmentation:primal_cutter>, 
 [<thaumcraft:vis_resonator>, <contenttweaker:concentrated_essence>, <contenttweaker:concentrated_essence>, <deepmoblearning:living_matter_twilight>, <thaumadditions:adaminite_plate>, <thaumictinkerer:repairer>, <abyssalcraft:crystalcluster:7>, <botania:brewvial>.withTag({brewKey: "oneforall"})]);
@@ -115,7 +135,7 @@ mods.thaumcraft.Infusion.registerRecipe("fluxspongeftw", "",
 <contenttweaker:endergenic_sediment>, <contenttweaker:endergenic_sediment>]);
 
 mods.thaumcraft.Infusion.registerRecipe("supermithhelm", "", 
-<thaumadditions:mithminite_hood>.withTag(mapSuperMithHelm += mapMagicShielding), 100,
+SuperEnchantedItem(<thaumadditions:mithminite_hood>.withTag({display: {Name:"§6§oMithminite Hood§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistMagicShieldWrapped).getItem(), 100,
 [<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
 <thaumadditions:mithminite_hood>, 
 [<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 
@@ -124,7 +144,7 @@ mods.thaumcraft.Infusion.registerRecipe("supermithhelm", "",
 <mysticalagradditions:storage:1>, <contenttweaker:faultless_ichor>]);
 
 mods.thaumcraft.Infusion.registerRecipe("supermithchest", "", 
-<thaumadditions:mithminite_robe>.withTag(mapSuperMithChest += mapMagicShielding), 100,
+SuperEnchantedItem(<thaumadditions:mithminite_robe>.withTag({display: {Name:"§6§oMithminite Robe§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistMagicShieldWrapped).getItem(), 100,
 [<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
 <thaumadditions:mithminite_robe>, 
 [<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 
@@ -133,7 +153,7 @@ mods.thaumcraft.Infusion.registerRecipe("supermithchest", "",
 <mysticalagradditions:storage:1>, <contenttweaker:faultless_ichor>]);
 
 mods.thaumcraft.Infusion.registerRecipe("supermithlegs", "", 
-<thaumadditions:mithminite_belt>.withTag(mapSuperMithLegs += mapMagicShielding), 100,
+SuperEnchantedItem(<thaumadditions:mithminite_belt>.withTag({display: {Name:"§6§oMithminite Belt§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistMagicShieldWrapped).getItem(), 100,
 [<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
 <thaumadditions:mithminite_belt>, 
 [<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 
@@ -142,7 +162,7 @@ mods.thaumcraft.Infusion.registerRecipe("supermithlegs", "",
 <mysticalagradditions:storage:1>, <contenttweaker:faultless_ichor>]);
 
 mods.thaumcraft.Infusion.registerRecipe("supermithfeet", "", 
-<thaumadditions:mithminite_boots>.withTag(mapSuperMithBoots += mapMagicShielding), 100,
+SuperEnchantedItem(<thaumadditions:mithminite_boots>.withTag({display: {Name:"§6§oMithminite Boots§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistMagicShieldWrapped).getItem(), 100,
 [<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
 <thaumadditions:mithminite_boots>, 
 [<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 

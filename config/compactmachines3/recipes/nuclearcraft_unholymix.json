@@ -20,10 +20,14 @@
         "meta": 0
       },
       "c": {
-        "id": "contenttweaker:redstone_nak_cooler",
+        "id": "contenttweaker:liquidhelium_nak_cooler",
         "meta": 0
       },
       "d": {
+        "id": "contenttweaker:redstone_nak_cooler",
+        "meta": 0
+      },
+      "e": {
         "id": "contenttweaker:radioactive_mix_vessel",
         "meta": 0
       }
@@ -31,25 +35,39 @@
     "shape": [
       [
         [
-          "a",
+          "_",
           "c",
+          "_"
+        ]
+      ],
+      [
+        [
+          "a",
+          "d",
           "a"
         ]
       ],
       [
         [
           "b",
-          "d",
+          "e",
           "b"
         ]
       ],
       [
         [
           "a",
-          "c",
+          "d",
           "a"
+        ]
+      ],
+      [
+        [
+          "_",
+          "c",
+          "_"
         ]
       ]
     ]
-          
+           
 }

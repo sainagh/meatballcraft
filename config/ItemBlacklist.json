@@ -3,11 +3,27 @@
     {
       "item": "xreliquary:rod_of_lyssa",
       "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
     }
   ],
   "623": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_relocator",
+      "damage": "*"
+    },
+    {
+      "item": "draconicevolution:grinder",
       "damage": "*"
     }
   ],
@@ -15,11 +31,19 @@
     {
       "item": "xreliquary:rod_of_lyssa",
       "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
     }
   ],
   "805": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
       "damage": "*"
     }
   ],
@@ -59,11 +83,27 @@
     {
       "item": "enderutilities:enderbow",
       "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_relocator",
+      "damage": "*"
+    },
+    {
+      "item": "draconicevolution:grinder",
+      "damage": "*"
     }
   ],
   "818": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
       "damage": "*"
     }
   ],
@@ -71,11 +111,27 @@
     {
       "item": "xreliquary:rod_of_lyssa",
       "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
     }
   ],
   "165": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_relocator",
+      "damage": "*"
+    },
+    {
+      "item": "draconicevolution:grinder",
       "damage": "*"
     }
   ],
@@ -83,11 +139,19 @@
     {
       "item": "xreliquary:rod_of_lyssa",
       "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
     }
   ],
   "53": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
       "damage": "*"
     }
   ],
@@ -95,11 +159,19 @@
     {
       "item": "xreliquary:rod_of_lyssa",
       "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
     }
   ],
   "423": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
       "damage": "*"
     }
   ],
@@ -107,11 +179,35 @@
     {
       "item": "xreliquary:rod_of_lyssa",
       "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_relocator",
+      "damage": "*"
+    },
+    {
+      "item": "draconicevolution:grinder",
+      "damage": "*"
     }
   ],
   "171": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_relocator",
+      "damage": "*"
+    },
+    {
+      "item": "draconicevolution:grinder",
       "damage": "*"
     }
   ],
@@ -119,17 +215,49 @@
     {
       "item": "xreliquary:rod_of_lyssa",
       "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_relocator",
+      "damage": "*"
+    },
+    {
+      "item": "draconicevolution:grinder",
+      "damage": "*"
     }
   ],
   "173": [
     {
       "item": "xreliquary:rod_of_lyssa",
       "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_relocator",
+      "damage": "*"
+    },
+    {
+      "item": "draconicevolution:grinder",
+      "damage": "*"
     }
   ],
   "802": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_relocator",
+      "damage": "*"
+    },
+    {
+      "item": "draconicevolution:grinder",
       "damage": "*"
     }
   ],
@@ -229,17 +357,139 @@
     {
       "item": "enderutilities:enderbow",
       "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
     }
   ],
   "163": [
     {
       "item": "extrautils2:terraformer",
       "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
     }
   ],
   "151": [
     {
       "item": "extrautils2:terraformer",
+      "damage": "*"
+    }
+  ],
+  "111": [
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
+    },
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    }
+  ],
+  "4": [
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    }
+  ],
+  "425": [
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    }
+  ],
+  "50": [
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "draconicevolution:grinder",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_relocator",
+      "damage": "*"
+    }
+  ],
+  "51": [
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    }
+  ],
+  "52": [
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    }
+  ],
+  "180": [
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    }
+  ],
+  "181": [
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    }
+  ],
+  "182": [
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    }
+  ],
+  "162": [
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_relocator",
+      "damage": "*"
+    },
+    {
+      "item": "draconicevolution:grinder",
+      "damage": "*"
+    }
+  ],
+  "164": [
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    }
+  ],
+  "624": [
+    {
+      "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_relocator",
+      "damage": "*"
+    },
+    {
+      "item": "draconicevolution:grinder",
+      "damage": "*"
+    }
+  ],
+  "424": [
+    {
+      "item": "draconicevolution:grinder",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_relocator",
       "damage": "*"
     }
   ]

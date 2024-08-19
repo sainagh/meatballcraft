@@ -38,3 +38,12 @@ recipes.addShaped(<railcraft:armor_boots_steel>,
 [[<ore:nuggetSteel>, null, <ore:nuggetSteel>],
 [<ore:ingotSteel>, null, <ore:ingotSteel>],
 [null, null, null]]);
+
+recipes.remove(<railcraft:trade_station>);
+
+recipes.removeShaped(<railcraft:coke_oven_red:0>);
+
+mods.extendedcrafting.TableCrafting.addShaped(<railcraft:coke_oven_red:0>, 
+[[<minecraft:sand:1>, <tconstruct:materials:2>, <minecraft:sand:1>], 
+[<tconstruct:materials:2>, <immersiveengineering:treated_wood>, <tconstruct:materials:2>], 
+[<minecraft:sand:1>, <tconstruct:materials:2>, <minecraft:sand:1>]]); 

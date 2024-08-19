@@ -157,6 +157,8 @@ mith3.addItemOutput(<mysticalagradditions:stuff:3>*10);
 mith3.setChance(0.1);
 mith3.addItemOutput(<projectex:power_flower:1>);
 mith3.setChance(0.05);
+mith3.addItemOutput(<biomesoplenty:crystal:0>*15);
+mith3.setChance(0.25);
 mith3.addItemOutput(<contenttweaker:tier3_token>);
 mith3.build();
 
@@ -276,31 +278,31 @@ mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:steadfast_will_powde
 <bloodmagic:item_demon_crystal:4>, 
 200);
 
-mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:demonic_steel:ingot>*2, 
+mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:demonic_steel:ingot>, 
 <contenttweaker:demon_will_powder>, 
 <immersiveengineering:material:7>, 
 200, 2048, 
 [<divinerpg:rupee_ingot>], "Alloying");
 
-mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:corrosive_steel:ingot>*2, 
+mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:corrosive_steel:ingot>, 
 <contenttweaker:corrosive_will_powder>, 
 <immersiveengineering:material:7>, 
 200, 2048, 
 [<divinerpg:arlemite_ingot>], "Alloying");
 
-mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:destructive_steel:ingot>*2, 
+mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:destructive_steel:ingot>, 
 <contenttweaker:destructive_will_powder>, 
 <immersiveengineering:material:7>, 
 200, 2048, 
 [<aoa3:limonite_ingot>], "Alloying");
 
-mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:vengeful_steel:ingot>*2, 
+mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:vengeful_steel:ingot>, 
 <contenttweaker:vengeful_will_powder>, 
 <immersiveengineering:material:7>, 
 200, 2048, 
 [<aoa3:rosite_ingot>], "Alloying");
 
-mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:steadfast_steel:ingot>*2, 
+mods.immersiveengineering.ArcFurnace.addRecipe(<materialpart:steadfast_steel:ingot>, 
 <contenttweaker:steadfast_will_powder>, 
 <immersiveengineering:material:7>, 
 200, 2048, 
@@ -2472,7 +2474,7 @@ wildwooddragonref.build();
 
 val apalachiadragonref = RecipeBuilder.newBuilder("apalachiadragonref","dragonfire_crucible",100);
 apalachiadragonref.addFluidInput(<fluid:twilight_fire>*1000);
-apalachiadragonref.addItemInput(<divinerpg:wildwood_chunk>);
+apalachiadragonref.addItemInput(<divinerpg:apalachia_chunk>);
 apalachiadragonref.addItemInput(<contenttweaker:runandor_garnet>);
 apalachiadragonref.addItemInput(<contenttweaker:lunalus_garnet>);
 apalachiadragonref.addItemInput(<contenttweaker:borean_garnet>);
@@ -2481,7 +2483,7 @@ apalachiadragonref.build();
 
 val skytherndragonref = RecipeBuilder.newBuilder("skytherndragonref","dragonfire_crucible",100);
 skytherndragonref.addFluidInput(<fluid:twilight_fire>*1000);
-skytherndragonref.addItemInput(<divinerpg:wildwood_chunk>);
+skytherndragonref.addItemInput(<divinerpg:skythern_chunk>);
 skytherndragonref.addItemInput(<contenttweaker:ancient_cavern_garnet>);
 skytherndragonref.addItemInput(<contenttweaker:immortallis_garnet>);
 skytherndragonref.addItemInput(<contenttweaker:greckon_garnet>);

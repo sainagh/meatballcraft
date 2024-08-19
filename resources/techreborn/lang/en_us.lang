@@ -38,3 +38,5 @@ item.rubyHelmet.name=Reborn Ruby Helmet
 item.rubyChestplate.name=Reborn Ruby Chestplate
 item.rubyLeggings.name=Reborn Ruby Leggings
 item.rubyBoots.name=Reborn Ruby Boots
+
+techreborn.desc.scrapBox=Right click Scrap Boxes, or place them in the Scrapbox-inator to open them. JEI lists all possible loot.

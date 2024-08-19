@@ -197,7 +197,7 @@ chocchertruf.onItemFoodEaten = function(stack, world, player) {
 chocchertruf.register();
 
 
-//---------------------
+//-------------------------------------------------------------------
 
 
 var lovelylatke = VanillaFactory.createItemFood("lovely_latke", 5);
@@ -211,6 +211,7 @@ var nicecleansalad = VanillaFactory.createItemFood("nice_clean_salad", 5);
 nicecleansalad.saturation = 1;
 nicecleansalad.onItemFoodEaten = function(stack, world, player) {
 	player.sendChat("Minecraft sure is fun, but so is cleaning your room!");
+	player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(32000, 2));
 };
 nicecleansalad.register();
 
@@ -262,7 +263,7 @@ sacredcindersfruit.register();
 var ethicalempanada = VanillaFactory.createItemFood("ethical_empanada", 5);
 ethicalempanada.saturation = 1;
 ethicalempanada.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("We can't judge if people are good or evil, but we can definitely judge if their actions are good or evil!");
+	player.sendChat("Forgiveness can come a long way!");
 };
 ethicalempanada.register();
 
@@ -286,3 +287,68 @@ multifruitmilkshake.onItemFoodEaten = function(stack, world, player) {
 	player.sendChat("Feels like it's time for a 10-minute abs workout!");
 };
 multifruitmilkshake.register();
+
+var feastofhell = VanillaFactory.createItemFood("feast_of_hell", 5);
+feastofhell.saturation = 1;
+feastofhell.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Be kind to those around you, a 'Please' or a 'Thank You' can go a long way.");
+};
+feastofhell.register();
+
+var tastyeyedelight = VanillaFactory.createItemFood("tasty_eye_delight", 5);
+tastyeyedelight.saturation = 1;
+tastyeyedelight.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Sometimes the unexpected is the bigegst treasure. You just have to be there to take advantage of it when it comes!");
+};
+tastyeyedelight.register();
+
+var monolithicmeal = VanillaFactory.createItemFood("monolithic_meal", 5);
+monolithicmeal.saturation = 1;
+monolithicmeal.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Greatness does not come out of nowhere. We are dwarves standing on the shoulders of giants.");
+};
+monolithicmeal.register();
+
+var hellspotchop = VanillaFactory.createItemFood("hellspot_chop", 3);
+hellspotchop.saturation = 2;
+hellspotchop.onItemFoodEaten = function(stack, world, player) {
+	player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(1200, 0));
+};
+hellspotchop.register();
+
+var disgustingomelette = VanillaFactory.createItemFood("disgusting_omelette", 3);
+disgustingomelette.saturation = 2;
+disgustingomelette.onItemFoodEaten = function(stack, world, player) {
+	player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(1200, 0));
+};
+disgustingomelette.register();
+
+var cubejellocubes = VanillaFactory.createItemFood("cube_jello_cubes", 3);
+cubejellocubes.saturation = 2;
+cubejellocubes.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Praise the CUBE #notacult");
+};
+cubejellocubes.register();
+
+var radiactivenachos = VanillaFactory.createItemFood("radioactive_nachos", 1);
+radiactivenachos.saturation = 2;
+radiactivenachos.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Fast food feels nice, and it can be good in moderation, but it's not good for you if you eat it too often!");
+};
+radiactivenachos.register();
+
+
+var yummyconcrete = VanillaFactory.createItemFood("yummy_concrete", 5);
+yummyconcrete.saturation = 1;
+yummyconcrete.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("With regards to r/feedthememes");
+	player.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(3000, 20));
+};
+yummyconcrete.register();
+
+var justjambalaya = VanillaFactory.createItemFood("just_jambalaya", 5);
+justjambalaya.saturation = 1;
+justjambalaya.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Everyone goes through struggle, but we can help each other through it!");
+};
+justjambalaya.register();

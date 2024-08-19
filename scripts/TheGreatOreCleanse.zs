@@ -39,7 +39,7 @@ val brassingot = <ore:ingotBrass>;
 brassingot.remove(<railcraft:ingot:9>);
 
 recipes.removeShapeless(<railcraft:ingot:9>);
-recipes.addShapeless(<tconstruct:ingots:5>*9, [<ore:blockBrass>]);
+recipes.addShapeless(<techreborn:ingot:1>*9, [<ore:blockBrass>]);
 
 val brassplate = <ore:plateBrass>;
 brassplate.remove(<railcraft:plate:11>);
@@ -52,7 +52,22 @@ recipes.addShapeless(<techreborn:plates:18>,
 [<immersiveengineering:tool:0>,
 <ore:ingotBrass>]);
 
-recipes.removeShapeless(<tconstruct:ingots:5>, [<ore:blockBrass>]);
+// recipes.removeShapeless(<tconstruct:ingots:5>, [<ore:blockAlubrass>]);
+
+recipes.removeShaped(<railcraft:ingot:9>,
+[[<ore:nuggetBrass>, <ore:nuggetBrass>, <ore:nuggetBrass>],
+[<ore:nuggetBrass>, <ore:nuggetBrass>, <ore:nuggetBrass>],
+[<ore:nuggetBrass>, <ore:nuggetBrass>, <ore:nuggetBrass>]]);
+recipes.addShaped(<techreborn:ingot:1>,
+[[<ore:nuggetBrass>, <ore:nuggetBrass>, <ore:nuggetBrass>],
+[<ore:nuggetBrass>, <ore:nuggetBrass>, <ore:nuggetBrass>],
+[<ore:nuggetBrass>, <ore:nuggetBrass>, <ore:nuggetBrass>]]);
+
+mods.immersiveengineering.ArcFurnace.removeRecipe(<railcraft:ingot:9>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:1>, <ore:ingotZinc>, null, 100, 512, [<ore:dustCopper>*3]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:1>, <ore:dustZinc>, null, 100, 512, [<ore:ingotCopper>*3]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:1>, <ore:dustZinc>, null, 100, 512, [<ore:dustCopper>*3]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:1>, <ore:ingotZinc>, null, 100, 512, [<ore:ingotCopper>*3]);
 
 
 //==================================================================
@@ -283,6 +298,15 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:66>*2, <
 recipes.addShapeless(<thermalfoundation:material:130>, 
 [<bewitchment:silver_ingot>]);
 
+recipes.removeShaped(<bewitchment:silver_ingot>,
+[[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>],
+[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>],
+[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>]]);
+
+recipes.addShaped(<thermalfoundation:material:130>,
+[[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>],
+[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>],
+[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>]]);
 
 //==================================================================
 // steel
@@ -453,10 +477,14 @@ furnace.remove(<railcraft:ingot:3>);
 furnace.remove(<techreborn:ingot:8>);
 furnace.addRecipe(<thermalfoundation:material:131>, <ore:oreLead>);
 
-recipes.removeShapeless(<immersiveengineering:metal:2>);
-recipes.removeShapeless(<nuclearcraft:ingot:2>);
-recipes.removeShapeless(<railcraft:ingot:3>);
+recipes.remove(<immersiveengineering:metal:2>);
+recipes.remove(<nuclearcraft:ingot:2>);
+recipes.remove(<railcraft:ingot:3>);
 recipes.addShapeless(<thermalfoundation:material:131>*9, [<ore:blockLead>]);
+recipes.addShaped(<thermalfoundation:material:131>,
+[[<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>],
+[<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>],
+[<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>]]);
 
 val leaddust = <ore:dustLead>;
 leaddust.remove(<nuclearcraft:dust:2>);
@@ -554,6 +582,22 @@ recipes.addShapeless(<thermalfoundation:material:356>,
 [<immersiveengineering:tool:0>,
 <ore:ingotConstantan>]);
 
+recipes.removeShaped(<immersiveengineering:metal:36>,
+[[<ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>],
+[<ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>],
+[<ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>]]);
+recipes.addShaped(<thermalfoundation:material:164>,
+[[<ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>],
+[<ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>],
+[<ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>]]);
+
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:6>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:164>, <ore:ingotCopper>, null, 100, 512, [<ore:dustNickel>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:164>, <ore:dustCopper>, null, 100, 512, [<ore:ingotNickel>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:164>, <ore:dustCopper>, null, 100, 512, [<ore:dustNickel>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:164>, <ore:ingotCopper>, null, 100, 512, [<ore:ingotNickel>]);
+
+
 //==================================================================
 // uranium
 val uraniumingot = <ore:ingotUranium>;
@@ -604,8 +648,12 @@ val invaringot = <ore:ingotInvar>;
 invaringot.remove(<railcraft:ingot:7>);
 // invaringot.remove(<techreborn:ingot:6>);
 
-recipes.removeShapeless(<railcraft:ingot:7>);
+recipes.remove(<railcraft:ingot:7>);
 recipes.addShapeless(<thermalfoundation:material:162>*9, [<ore:blockInvar>]);
+recipes.addShaped(<thermalfoundation:material:162>,
+[[<ore:nuggetInvar>, <ore:nuggetInvar>, <ore:nuggetInvar>],
+[<ore:nuggetInvar>, <ore:nuggetInvar>, <ore:nuggetInvar>],
+[<ore:nuggetInvar>, <ore:nuggetInvar>, <ore:nuggetInvar>]]);
 
 val invardust = <ore:dustInvar>;
 // invardust.remove(<techreborn:dust:26>);
@@ -778,3 +826,47 @@ furnace.remove(<thaumcraft:amber>);
 furnace.addRecipe(<thaumcraft:amber>, <thaumcraft:ore_amber>);
 
 
+//==================================================================
+// wooden gears
+
+recipes.remove(<appliedenergistics2:material:40>);
+recipes.remove(<buildcraftcore:gear_wood>);
+recipes.remove(<enderio:item_material:9>);
+recipes.remove(<thermalfoundation:material:22>);
+
+recipes.addShaped(<buildcraftcore:gear_wood>,
+[[null, <ore:stickWood>, null],
+[<ore:stickWood>, null, <ore:stickWood>],
+[null, <ore:stickWood>, null]]);
+
+recipes.addShaped(<buildcraftcore:gear_wood>,
+[[<ore:stickWood>, null, <ore:stickWood>],
+[null, null, null],
+[<ore:stickWood>, null, <ore:stickWood>]]);
+
+recipes.addShaped(<buildcraftcore:gear_wood>,
+[[<ore:stickWood>, <ore:stickWood>, null],
+[null, null, null],
+[<ore:stickWood>, <ore:stickWood>, null]]);
+
+recipes.addShaped(<buildcraftcore:gear_wood>,
+[[null, null, null],
+[<ore:stickWood>, null, <ore:stickWood>],
+[<ore:stickWood>, null, <ore:stickWood>]]);
+
+//==================================================================
+// magnesium
+
+mods.nuclearcraft.manufactory.removeRecipeWithOutput([<techreborn:dust:30>]);
+mods.nuclearcraft.manufactory.removeRecipeWithOutput([<techreborn:dust:30>*2]);
+
+mods.nuclearcraft.manufactory.addRecipe([<ore:ingotMagnesium>, <nuclearcraft:dust:7>]);
+mods.nuclearcraft.manufactory.addRecipe([<ore:oreMagnesium>, <nuclearcraft:dust:7>*2]);
+
+recipes.removeShapeless(<techreborn:dust:30>);
+
+recipes.addShapeless(<nuclearcraft:dust:7>,
+[<ore:dustSmallMagnesium>,
+<ore:dustSmallMagnesium>,
+<ore:dustSmallMagnesium>,
+<ore:dustSmallMagnesium>]);

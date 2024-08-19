@@ -331,4 +331,9 @@ fleshabominationchicken.setForegroundColor(Color.fromHex("850000"));
 fleshabominationchicken.setSpawnType("NONE");
 fleshabominationchicken.register();
 
+var focusingchicken = ChickenFactory.createChicken("focusing_chicken", Color.fromHex("78005e"), <item:contenttweaker:focusing_egg>);
+focusingchicken.setForegroundColor(Color.fromHex("850000"));
+focusingchicken.setSpawnType("NONE");
+focusingchicken.register();
+
 

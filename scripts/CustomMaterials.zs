@@ -367,7 +367,7 @@ var hassium = MaterialSystem.getMaterialBuilder().setName("Hassium").setColor(co
 hassium.registerParts(["nugget", "ingot", "plate", "gear", "rod"] as string[]);
 
 var colorhalite = Color.fromHex("17c414") as Color;
-var halite = MaterialSystem.getMaterialBuilder().setName("Halite").setColor(colorhalite).build();
+var halite = MaterialSystem.getMaterialBuilder().setName("Fractallite Halite").setColor(colorhalite).build();
 halite.registerParts(["ingot", "rod"] as string[]);
 var armorhalite = halite.registerPart("armor").getData();
 armorhalite.addDataValue("durability", "9500000");

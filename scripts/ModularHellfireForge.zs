@@ -223,7 +223,7 @@ multihellfire23.addWillInput("DEFAULT", 16000);
 multihellfire23.addItemInput(<bloodarsenal:base_item:8>);
 multihellfire23.addItemInput(<bloodmagic:decorative_brick:2>);
 multihellfire23.addItemInput(<avaritia:block_resource:1>);
-multihellfire23.addItemInput(<ore:ingotHalite>);
+multihellfire23.addItemInput(<ore:ingotFractalliteHalite>);
 multihellfire23.addItemOutput(<bloodarsenal:base_item:9>);
 multihellfire23.build();
 
@@ -421,3 +421,81 @@ multihellfire45.addItemInput(<minecraft:ice>);
 multihellfire45.addItemInput(<minecraft:redstone>);
 multihellfire45.addItemOutput(<bloodmagic:component:32>);
 multihellfire45.build();
+
+
+recipes.addShapeless(<contenttweaker:stone_of_life_essence>,
+[<forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000}),
+<ore:coquina>]);
+
+
+val multihellfire46 = RecipeBuilder.newBuilder("multihellfire46","berserker_forge",1);
+multihellfire46.addWillInput("DEFAULT", 32);
+multihellfire46.addItemInput(<ore:ingotIron>);
+multihellfire46.addItemInput(<bloodarsenal:base_item:2>);
+multihellfire46.addItemInput(<bloodmagic:component:8>);
+multihellfire46.addItemInput(<contenttweaker:stone_of_life_essence>);
+multihellfire46.addItemOutput(<bloodarsenal:base_item:3>);
+multihellfire46.build();
+
+val multihellfire47 = RecipeBuilder.newBuilder("multihellfire47","berserker_forge",1);
+multihellfire47.addWillInput("DEFAULT", 512);
+multihellfire47.addItemInput(<ore:gemDiamond>);
+multihellfire47.addItemInput(<minecraft:dragon_breath>);
+multihellfire47.addItemInput(<bloodarsenal:blood_infused_glowstone>);
+multihellfire47.addItemInput(<contenttweaker:stone_of_life_essence>);
+multihellfire47.addItemOutput(<bloodarsenal:blood_diamond:0>);
+multihellfire47.build();
+
+val multihellfire48 = RecipeBuilder.newBuilder("multihellfire48","berserker_forge",1);
+multihellfire48.addWillInput("DEFAULT", 20);
+multihellfire48.addItemInput(<ore:sand>);
+multihellfire48.addItemInput(<minecraft:packed_ice>);
+multihellfire48.addItemInput(<minecraft:fishing_rod>);
+multihellfire48.addItemInput(<minecraft:ghast_tear>);
+multihellfire48.addItemOutput(<animus:component:4>);
+multihellfire48.build();
+
+val multihellfire49 = RecipeBuilder.newBuilder("multihellfire49","berserker_forge",1);
+multihellfire49.addWillInput("DEFAULT", 20);
+multihellfire49.addItemInput(<minecraft:packed_ice>);
+multihellfire49.addItemInput(<tconstruct:firewood>);
+multihellfire49.addItemInput(<contenttweaker:hydrogen_crystal>*4);
+multihellfire49.addItemInput(<minecraft:obsidian>);
+multihellfire49.addItemOutput(<bloodmagic:component:6>);
+multihellfire49.build();
+
+
+val multihellfire50 = RecipeBuilder.newBuilder("multihellfire50","berserker_forge",1);
+multihellfire50.addWillInput("DEFAULT", 3);
+multihellfire50.addItemInput(<minecraft:sugar>);
+multihellfire50.addItemInput(<minecraft:packed_ice>);
+multihellfire50.addItemInput(<minecraft:packed_ice>);
+multihellfire50.addItemOutput(<bloodmagic:component:0>);
+multihellfire50.build();
+
+val multihellfire51 = RecipeBuilder.newBuilder("multihellfire51","berserker_forge",1);
+multihellfire51.addWillInput("DEFAULT", 50);
+multihellfire51.addItemInput(<minecraft:packed_ice>);
+multihellfire51.addItemInput(<tconstruct:firewood>);
+multihellfire51.addItemInput(<bloodmagic:teleposer>);
+multihellfire51.addItemInput(<minecraft:blaze_rod>);
+multihellfire51.addItemOutput(<bloodmagic:component:9>);
+multihellfire51.build();
+
+val multihellfire52 = RecipeBuilder.newBuilder("multihellfire52","berserker_forge",1);
+multihellfire52.addWillInput("DEFAULT", 0);
+multihellfire52.addItemInput(<ore:ingotLumium>*4);
+multihellfire52.addItemInput(<ore:blockGlass>);
+multihellfire52.addItemInput(<ore:blockGlass>);
+multihellfire52.addItemInput(<minecraft:glowstone_dust>);
+multihellfire52.addItemOutput(<bloodmagic:component:7>);
+multihellfire52.build();
+
+val multihellfire53 = RecipeBuilder.newBuilder("multihellfire53","berserker_forge",1);
+multihellfire53.addWillInput("DEFAULT", 10);
+multihellfire53.addItemInput(<tconstruct:firewood>);
+multihellfire53.addItemInput(<minecraft:redstone>);
+multihellfire53.addItemInput(<ore:cobblestone>);
+multihellfire53.addItemInput(<ore:blockCoal>);
+multihellfire53.addItemOutput(<bloodmagic:component:1>);
+multihellfire53.build();

@@ -784,7 +784,7 @@ arcaneprisonkey.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon divinerpg:death_hound ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:sympan_spirit\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:20000.0},{Name:generic.attackDamage, Base:10000.0}],Health:20000f}", player, world, true, true);
+    Commands.call("summon divinerpg:death_hound ~2 ~1 ~2 {HandItems:[{Count:1,id:\"contenttweaker:sympan_spirit\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:20000.0},{Name:generic.attackDamage, Base:10000.0}],Health:20000f}", player, world, true, true);
     player.sendChat("Kill it!");
     stack.shrink(1);
     return "PASS";
@@ -1007,12 +1007,7 @@ terrestrialanimator0.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
-        return "FAIL";
-    }
-
-    Commands.call("pillar-spawn compressed_cobble_0", player, world, true, true);
+    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 0, blockID:6197}", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1027,12 +1022,7 @@ terrestrialanimator1.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
-        return "FAIL";
-    }
-
-    Commands.call("pillar-spawn compressed_cobble_1", player, world, true, true);
+    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 1, blockID:6197}", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1047,12 +1037,7 @@ terrestrialanimator2.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
-        return "FAIL";
-    }
-
-    Commands.call("pillar-spawn compressed_cobble_2", player, world, true, true);
+    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 2, blockID:6197}", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1067,12 +1052,7 @@ terrestrialanimator3.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
-        return "FAIL";
-    }
-
-    Commands.call("pillar-spawn compressed_cobble_3", player, world, true, true);
+    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 3, blockID:6197}", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1087,12 +1067,7 @@ terrestrialanimator4.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
-        return "FAIL";
-    }
-
-    Commands.call("pillar-spawn compressed_cobble_4", player, world, true, true);
+    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 4, blockID:6197}", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1107,12 +1082,7 @@ terrestrialanimator5.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
-        return "FAIL";
-    }
-
-    Commands.call("pillar-spawn compressed_cobble_5", player, world, true, true);
+    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 5, blockID:6197}", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1127,12 +1097,7 @@ terrestrialanimator6.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
-        return "FAIL";
-    }
-
-    Commands.call("pillar-spawn compressed_cobble_6", player, world, true, true);
+    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 6, blockID:6197}", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1147,12 +1112,7 @@ terrestrialanimator7.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
-        return "FAIL";
-    }
-
-    Commands.call("pillar-spawn compressed_cobble_7", player, world, true, true);
+    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 7, blockID:6197}", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1248,7 +1208,7 @@ demonologistcallstone.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
     Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
     Commands.call("summon aoa3:deinotherium ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:baku_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:300.0}],Health:3000f,CustomName:\"Baku\"}", player, world, true, true);
-    Commands.call("give @p contenttweaker:haumea_spinel", player, world, true, true);
+    // Commands.call("give @p contenttweaker:haumea_spinel", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1269,7 +1229,7 @@ armorercallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     Commands.call("pillar-spawn osiris_structure_callstone", player, world, true, true);
-    Commands.call("give @p contenttweaker:osiris_spinel", player, world, true, true);
+    // Commands.call("give @p contenttweaker:osiris_spinel", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1587,7 +1547,7 @@ ptah_callstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     Commands.call("pillar-spawn ptah_structure_callstone", player, world, true, true);
-    Commands.call("give @p contenttweaker:ptah_spinel", player, world, true, true);
+    // Commands.call("give @p contenttweaker:ptah_spinel", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1630,7 +1590,7 @@ peacefuloathcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     Commands.call("pillar-spawn europa_structure_callstone", player, world, true, true);
-    Commands.call("give @p contenttweaker:europa_spinel", player, world, true, true);
+    // Commands.call("give @p contenttweaker:europa_spinel", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1651,7 +1611,7 @@ gundevilcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     Commands.call("pillar-spawn falacer_structure_callstone", player, world, true, true);
-    Commands.call("give @p contenttweaker:falacer_spinel", player, world, true, true);
+    // Commands.call("give @p contenttweaker:falacer_spinel", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1672,7 +1632,7 @@ unburiedcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     Commands.call("pillar-spawn oi_structure_callstone", player, world, true, true);
-    Commands.call("give @p contenttweaker:oi_spinel", player, world, true, true);
+    // Commands.call("give @p contenttweaker:oi_spinel", player, world, true, true);
     Commands.call("summon iceandfire:dread_knight ~ ~8 ~ {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"techreborn:nuke\"}],HandDropChances:[1.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:8000.0},{Name:generic.attackDamage, Base:100.0}],Health:8000f,CustomName:\"Glimpse of the Meatball Man\"}", player, world, true, true);
 
     stack.shrink(1);
@@ -1694,7 +1654,7 @@ anemiccallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     Commands.call("pillar-spawn orcus_structure_callstone", player, world, true, true);
-    Commands.call("give @p contenttweaker:orcus_spinel", player, world, true, true);
+    // Commands.call("give @p contenttweaker:orcus_spinel", player, world, true, true);
     Commands.call("summon thebetweenlands:blood_snail ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:eldrich_blood_slime\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:6000.0},{Name:generic.attackDamage, Base:100.0}],Health:6000f,CustomName:\"Gashuhn the Blood God\"}", player, world, true, true);
 
     stack.shrink(1);
@@ -1718,7 +1678,7 @@ orbitalcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     Commands.call("pillar-spawn sedna_structure_callstone", player, world, true, true);
-    Commands.call("give @p contenttweaker:sedna_spinel", player, world, true, true);
+    // Commands.call("give @p contenttweaker:sedna_spinel", player, world, true, true);
     Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
     Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
     Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
@@ -4060,3 +4020,199 @@ wootflusher.itemRightClick = function(stack, world, player, hand) {
 
 };
 wootflusher.register();
+
+
+var infernalfurnacecallstone= VanillaFactory.createItem("infernal_furnace_callstone");
+infernalfurnacecallstone.maxStackSize = 1;
+infernalfurnacecallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 623) {
+        player.sendChat("You gotta be in the furnace dimension");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn furnacedim_structure_infernalfurnacefiend", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+infernalfurnacecallstone.register();
+
+
+var monumentalmeatballcallstone= VanillaFactory.createItem("monumental_meatball_callstone");
+monumentalmeatballcallstone.maxStackSize = 1;
+monumentalmeatballcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 624) {
+        player.sendChat("You gotta be in Gallifrey");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn monumental_meatball_callstone", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+monumentalmeatballcallstone.register();
+
+var furnacesecretcallstone= VanillaFactory.createItem("furnace_secret_callstone");
+furnacesecretcallstone.maxStackSize = 1;
+furnacesecretcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 624) {
+        player.sendChat("You gotta be in Gallifrey");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn furnace_guy_final", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+furnacesecretcallstone.register();
+
+
+var claimofworthiness = VanillaFactory.createItem("summon_of_the_gatekeeper");
+claimofworthiness.maxStackSize = 1;
+claimofworthiness.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != -11325) {
+        player.sendChat("You gotta be in the Deep Dark");
+        return "FAIL";
+    }
+
+    Commands.call("summon mod_lavacow:boneworm ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_paper\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f,CustomName:\"Gatekeeper of the Meatball Man\"}", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+claimofworthiness.register();
+
+
+
+var summonsoftheshyrewarden = VanillaFactory.createItem("summons_of_the_shyre_warden");
+summonsoftheshyrewarden.maxStackSize = 1;
+summonsoftheshyrewarden.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+    // obtain position under player
+	var pos = player.position.asPosition3f();
+
+	// check if player is standing on beacon
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y;
+   
+    var check_pos as crafttweaker.util.Position3f;
+    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
+	if(world.getBiome(check_pos).name != "White Void") {
+		player.sendChat("You have to be in your pocket dimension from dimensional doors");
+		player.sendChat("Use a quartz dimensional door");
+        return "FAIL";
+	}
+
+    Commands.call("summon aoa3:shyre_knight ~ ~3 ~ {HandItems:[{Count:32,id:\"contenttweaker:shyrelands_garnet\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1.0},{Name:generic.attackDamage, Base:10000.0}],Health:1f,CustomName:\"Warden of the Shyre Empire\",Invulnerable:1}", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+summonsoftheshyrewarden.register();
+
+
+var hiddenerrorscallstone = VanillaFactory.createItem("hidden_errors_callstone");
+hiddenerrorscallstone.maxStackSize = 1;
+hiddenerrorscallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 4) {
+        player.sendChat("You gotta be in the Aether");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn aether_hellfire_alternative", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+hiddenerrorscallstone.register();
+
+var tarantulacallstone = VanillaFactory.createItem("tarantula_callstone");
+tarantulacallstone.maxStackSize = 1;
+tarantulacallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 66) {
+        player.sendChat("You gotta be in the Erebus");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn erebus_callstone_tarantula", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+tarantulacallstone.register();
+
+var antlioncallstone = VanillaFactory.createItem("antlion_callstone");
+antlioncallstone.maxStackSize = 1;
+antlioncallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 66) {
+        player.sendChat("You gotta be in the Erebus");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn erebus_callstone_antlion", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+antlioncallstone.register();
+
+
+var recursivepaperillager= VanillaFactory.createItem("recursive_paper_illager");
+recursivepaperillager.maxStackSize = 16;
+recursivepaperillager.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // Commands.call("time set night", player, world, true, true);
+
+    Commands.call("summon minecraft:evocation_illager ~ ~3 ~", player, world, true, true);
+    Commands.call("summon minecraft:evocation_illager ~ ~3 ~", player, world, true, true);
+    Commands.call("summon minecraft:evocation_illager ~ ~3 ~", player, world, true, true);
+    Commands.call("summon minecraft:evocation_illager ~ ~3 ~", player, world, true, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+recursivepaperillager.register();

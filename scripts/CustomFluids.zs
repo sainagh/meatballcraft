@@ -773,3 +773,12 @@ orichalcum.register();
 
 var arkencrushermix = VanillaFactory.createFluid("arkencrusher_mix", Color.fromHex("4d8082"));
 arkencrushermix.register();
+
+var bewitchedgrowthcatalyst = VanillaFactory.createFluid("bewitched_growth_catalyst", Color.fromHex("25735e"));
+bewitchedgrowthcatalyst.register();
+
+var aeternalisfuel = VanillaFactory.createFluid("aeternalis_fuel", Color.fromHex("ded9ca"));
+aeternalisfuel.register();
+
+var imperialabyssite = VanillaFactory.createFluid("imperial_abyssite", Color.fromHex("048f88"));
+imperialabyssite.register();

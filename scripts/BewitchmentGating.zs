@@ -127,3 +127,19 @@ recipes.addShaped(<contenttweaker:herne_altar_stone>,
 recipes.addHiddenShapeless("sparkledaoak",<contenttweaker:sparkled_oak_planks>,
 [<divinerpg:captains_sparkler>.reuse(),
 <biomesoplenty:planks_0:0>]);
+
+
+recipes.addShaped(<patchouli:guide_book>.withTag({"patchouli:book": "bewitchment:codex_infernalis"}),
+[[<bewitchment:hoof>, <minecraft:nether_brick>, <bewitchment:hoof>],
+[<minecraft:nether_brick>, <minecraft:book>, <minecraft:nether_brick>],
+[<bewitchment:hoof>, <minecraft:nether_brick>, <bewitchment:hoof>]]);
+
+recipes.addShaped(<bewitchment:hellhound_horn>*4,
+[[<bewitchment:heart>],
+[<bewitchment:hellhound_horn>],
+[<bewitchment:heart>]]);
+
+recipes.addShaped(<contenttweaker:adamantium_reinforced_petrified_wood>,
+[[<contenttweaker:adamantium_plate>, <erebus:planks_petrified_wood>, <contenttweaker:adamantium_plate>],
+[<erebus:planks_petrified_wood>, <erebus:planks_petrified_wood>, <erebus:planks_petrified_wood>],
+[<contenttweaker:adamantium_plate>, <erebus:planks_petrified_wood>, <contenttweaker:adamantium_plate>]]);

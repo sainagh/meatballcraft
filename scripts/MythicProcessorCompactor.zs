@@ -455,6 +455,54 @@ mythcomp79.addItemInput(<ore:ingotBloodmasterMetal>*4);
 mythcomp79.addItemOutput(<contenttweaker:bloodmaster_block>);
 mythcomp79.build();
 
+val mythcomp80 = RecipeBuilder.newBuilder("mythcomp80","mythic_processor_compactor",2);
+mythcomp80.addEnergyPerTickInput(60000);
+mythcomp80.addItemInput(<contenttweaker:imperfect_gallifreyan_alloy>);
+mythcomp80.addItemOutput(<contenttweaker:imperfect_gallifreyan_plate>);
+mythcomp80.build();
 
+val mythcomp81 = RecipeBuilder.newBuilder("mythcomp81","mythic_processor_compactor",2);
+mythcomp81.addEnergyPerTickInput(60000);
+mythcomp81.addItemInput(<contenttweaker:perfected_gallifreyan_alloy>);
+mythcomp81.addItemOutput(<contenttweaker:perfected_gallifreyan_plate>);
+mythcomp81.build();
 
+val mythcomp82 = RecipeBuilder.newBuilder("mythcomp82","mythic_processor_compactor",2);
+mythcomp82.addEnergyPerTickInput(60000);
+mythcomp82.addItemInput(<erebus:materials:15>*4);
+mythcomp82.addItemInput(<erebus:materials:35>);
+mythcomp82.addItemOutput(<contenttweaker:hyperchitinous_plate>);
+mythcomp82.addItemOutput(<nuclearcraft:dust:8>);
+mythcomp82.build();
 
+val mythcomp83 = RecipeBuilder.newBuilder("mythcomp83","mythic_processor_compactor",2);
+mythcomp83.addEnergyPerTickInput(60000);
+mythcomp83.addItemInput(<contenttweaker:unidentified_ingot>);
+mythcomp83.addItemInput(<projecte:nova_cataclysm>*4);
+mythcomp83.addItemOutput(<contenttweaker:unidentified_plate>);
+mythcomp83.addItemOutput(<techreborn:dust:15>*12);
+mythcomp83.build();
+
+val mythcomp84 = RecipeBuilder.newBuilder("mythcomp84","mythic_processor_compactor",2);
+mythcomp84.addEnergyPerTickInput(60000);
+mythcomp84.addItemInput(<woot:shard:3>);
+mythcomp84.addItemOutput(<woot:stygianironingot>*1);
+mythcomp84.build();
+
+val mythcomp85 = RecipeBuilder.newBuilder("mythcomp85","mythic_processor_compactor",2);
+mythcomp85.addEnergyPerTickInput(60000);
+mythcomp85.addItemInput(<woot:shard:4>);
+mythcomp85.addItemOutput(<woot:stygianironingot>*2);
+mythcomp85.build();
+
+val mythcomp86 = RecipeBuilder.newBuilder("mythcomp86","mythic_processor_compactor",2);
+mythcomp86.addEnergyPerTickInput(60000);
+mythcomp86.addItemInput(<woot:shard:5>);
+mythcomp86.addItemOutput(<woot:stygianironingot>*3);
+mythcomp86.build();
+
+val mythcomp87 = RecipeBuilder.newBuilder("mythcomp87","mythic_processor_compactor",2);
+mythcomp87.addEnergyPerTickInput(60000);
+mythcomp87.addItemInput(<woot:shard:6>);
+mythcomp87.addItemOutput(<woot:stygianironingot>*4);
+mythcomp87.build();

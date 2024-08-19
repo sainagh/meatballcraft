@@ -20,7 +20,7 @@ matrixoredict.add(<contenttweaker:matrix_ore>);
 
 mods.immersiveengineering.Excavator.addMineral("Matrix", 80, 0.0001, ["oreMatrix"], [1.0], [820]);
 
-mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:matrix_ore>, <aoa3:shyrestone_block>, <avaritia:resource:1>*8]);
+mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:matrix_ore>, <aoa3:shyrelands_tokens>*21, <avaritia:resource:1>*8]);
 
 val runicoredict = <ore:oreRunic>;
 runicoredict.add(<contenttweaker:runic_ore>);
@@ -51,3 +51,11 @@ val divineoreterran = <ore:oreDivineTerran>;
 divineoreterran.add(<contenttweaker:terran_divine_ore>);
 
 mods.immersiveengineering.Excavator.addMineral("GallifreyanStones", 80, 0.0001, ["oreDivineCorrupted", "oreDivineEnder", "oreDivineIce", "oreDivineJungle", "oreDivineMolten", "oreDivineShadow", "oreDivineTerran"], [0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9], [624]);
+
+
+val alchemicaloredict = <ore:oreAlchemicalMatter>;
+alchemicaloredict.add(<contenttweaker:alchemical_ore>);
+
+recipes.addShapeless(<projecte:item.pe_fuel:2>,
+[<projecte:item.pe_philosophers_stone>.reuse(),
+<contenttweaker:alchemical_ore>]);

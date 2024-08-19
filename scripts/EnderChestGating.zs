@@ -1,4 +1,5 @@
-recipes.remove(<enderstorage:ender_storage:0>);
+recipes.removeByRecipeName("enderstorage:ender_chest");
+
 
 mods.extendedcrafting.TableCrafting.addShaped(<enderstorage:ender_storage>.withTag({Frequency: {middle: 0, left: 0, right: 0}}), 
 [[<minecraft:blaze_rod>, <minecraft:wool:0>, <minecraft:blaze_rod>], 
@@ -80,7 +81,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<enderstorage:ender_storage>.withT
 [<divinerpg:purple_blaze>, <ironchest:iron_chest:6>, <divinerpg:purple_blaze>], 
 [<minecraft:blaze_rod>, <minecraft:ender_eye>, <minecraft:blaze_rod>]]); 
 
-recipes.remove(<enderstorage:ender_storage:1>);
+recipes.removeByRecipeName("enderstorage:ender_tank");
 
 mods.extendedcrafting.TableCrafting.addShaped(<enderstorage:ender_storage:1>, 
 [[<minecraft:blaze_rod>, <ore:wool>, <minecraft:blaze_rod>], 

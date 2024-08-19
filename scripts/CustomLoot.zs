@@ -74,14 +74,11 @@ val dimdoordungeon = LootTweaker.getTable("dimdoors:dungeon_chest");
 val dimdoorsdungeonroll = dimdoordungeon.addPool("dimdoorsdungeonroll", 1, 1, 0, 0);
 dimdoorsdungeonroll.addItemEntry(<ebwizardry:grand_crystal>, 5);
 dimdoorsdungeonroll.addItemEntry(<projecte:item.pe_matter:1>, 2);
-dimdoorsdungeonroll.addItemEntry(<techreborn:ingot:14>, 3);
-dimdoorsdungeonroll.addItemEntry(<thermalfoundation:material:135>, 3);
 dimdoorsdungeonroll.addItemEntry(<contenttweaker:strange_charm>, 3);
-dimdoorsdungeonroll.addItemEntry(<thermalfoundation:material:134>, 3);
 dimdoorsdungeonroll.addItemEntry(<tardis:bowtie>, 1);
 dimdoorsdungeonroll.addItemEntry(<tardis:void_specs>, 1);
 dimdoorsdungeonroll.addItemEntry(<tardis:fourth_hat>, 1);
-dimdoorsdungeonroll.addItemEntry(<tardis:fez>, 1);
+// dimdoorsdungeonroll.addItemEntry(<tardis:fez>, 1);
 dimdoorsdungeonroll.addItemEntry(<tardis:thirteen_coat>, 1);
 val dimdoorseventroll = dimdoordungeon.addPool("dimdoorseventroll", 1, 1, 0, 0);
 dimdoorseventroll.addItemEntry(<contenttweaker:call_of_the_full_moon>, 3);
@@ -97,6 +94,12 @@ dimdoorbeecombpool.addItemEntry(<extrabees:honey_comb:30>, 15);
 dimdoorbeecombpool.addItemEntry(<extrabees:honey_comb:40>, 15);
 dimdoorbeecombpool.addItemEntry(<extrabees:honey_comb:41>, 15);
 dimdoorbeecombpool.addItemEntry(<extrabees:honey_comb:71>, 15);
+val dimdoorsingotroll = dimdoordungeon.addPool("dimdoorsingotroll", 2, 2, 0, 0);
+dimdoorsingotroll.addItemEntry(<techreborn:ingot:14>, 3);
+dimdoorsingotroll.addItemEntry(<techreborn:ingot:15>, 3);
+dimdoorsingotroll.addItemEntry(<techreborn:ingot:3>, 3);
+dimdoorsingotroll.addItemEntry(<thermalfoundation:material:135>, 3);
+dimdoorsingotroll.addItemEntry(<thermalfoundation:material:134>, 3);
 
 
 val mothervoidwalker = LootTweaker.getTable("aoa3:entities/mobs/overworld/mother_void_walker");
@@ -466,6 +469,7 @@ vanilladungeonmbc.addItemEntry(<contenttweaker:creepy_explosive>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:embiggener>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:call_of_enigma>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:witchery_summons>, 3);
+vanilladungeonmbc.addItemEntry(<contenttweaker:recursive_paper_illager>, 3);
 
 val vanillastronghold = LootTweaker.getTable("minecraft:chests/stronghold_corridor");
 val vanillastrongholdmbc = vanillastronghold.addPool("vanillastrongholdmbc", 1, 1, 0, 0);
@@ -551,3 +555,21 @@ fishinglootextrafeesh.addItemEntry(<aoa3:raw_sapphire_strider>, 15);
 fishinglootextrafeesh.addItemEntry(<aoa3:raw_dark_hatchetfish>, 15);
 fishinglootextrafeesh.addItemEntry(<aoa3:raw_sapphire_strider>, 15);
 fishinglootextrafeesh.addItemEntry(<aoa3:raw_fingerfish>, 15);
+
+
+val hellspot = LootTweaker.getTable("aoa3:entities/mobs/nether/hellspot");
+val hellspotchops = hellspot.addPool("hellspotchops", 1, 1, 0, 0);
+hellspotchops.addItemEntry(<contenttweaker:hellspot_chop>, 15);
+
+val twilighticequeen = LootTweaker.getTable("twilightforest:entities/snow_queen");
+val twilighticequeencube = twilighticequeen.addPool("twilighticequeencube", 1, 1, 0, 0);
+twilighticequeencube.addItemEntry(<contenttweaker:cube_jello_cubes>, 15);
+
+val magicbeansloot = LootTweaker.getTable("randomthings:beanpod");
+val magicbeanslootingots = magicbeansloot.addPool("magicbeanslootingots", 2, 2, 0, 0);
+magicbeanslootingots.addItemEntry(<techreborn:ingot:14>, 3);
+magicbeanslootingots.addItemEntry(<techreborn:ingot:15>, 3);
+magicbeanslootingots.addItemEntry(<techreborn:ingot:3>, 3);
+magicbeanslootingots.addItemEntry(<thermalfoundation:material:135>, 3);
+magicbeanslootingots.addItemEntry(<thermalfoundation:material:134>, 3);
+

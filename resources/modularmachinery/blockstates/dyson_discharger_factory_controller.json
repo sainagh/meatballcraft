@@ -1,0 +1,43 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "modularmachinery:blockfactorycontroller"
+  },
+  "variants": {
+    "facing=north,formed=false": {
+      "model": "modularmachinery:blockfactorycontroller"
+    },
+    "facing=south,formed=false": {
+      "model": "modularmachinery:blockfactorycontroller",
+      "y": 180
+    },
+    "facing=west,formed=false": {
+      "model": "modularmachinery:blockfactorycontroller",
+      "y": 270
+    },
+    "facing=east,formed=false": {
+      "model": "modularmachinery:blockfactorycontroller",
+      "y": 90
+    },
+    "facing=north,formed=true": {
+      "model": "modularmachinery:blockfactorycontroller"
+    },
+    "facing=south,formed=true": {
+      "model": "modularmachinery:blockfactorycontroller",
+      "y": 180
+    },
+    "facing=west,formed=true": {
+      "model": "modularmachinery:blockfactorycontroller",
+      "y": 270
+    },
+    "facing=east,formed=true": {
+      "model": "modularmachinery:blockfactorycontroller",
+      "y": 90
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

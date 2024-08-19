@@ -542,18 +542,18 @@ recipes.removeShapeless(<aoa3:precasia_realmstone>);
 recipes.removeShapeless(<aoa3:shyrelands_realmstone>);
 
 
-recipes.addShapeless(<thaumcraft:chunk:0>, 
-[<contenttweaker:infernal_furnace>]);
-recipes.addShapeless(<thaumcraft:chunk:1>, 
-[<contenttweaker:infernal_furnace>]);
-recipes.addShapeless(<thaumcraft:chunk:2>, 
-[<contenttweaker:infernal_furnace>]);
-recipes.addShapeless(<thaumcraft:chunk:3>, 
-[<contenttweaker:infernal_furnace>]);
-recipes.addShapeless(<thaumcraft:chunk:4>, 
-[<contenttweaker:infernal_furnace>]);
-recipes.addShapeless(<thaumcraft:chunk:5>, 
-[<contenttweaker:infernal_furnace>]);
+// recipes.addShapeless(<thaumcraft:chunk:0>, 
+// [<contenttweaker:infernal_furnace>]);
+// recipes.addShapeless(<thaumcraft:chunk:1>, 
+// [<contenttweaker:infernal_furnace>]);
+// recipes.addShapeless(<thaumcraft:chunk:2>, 
+// [<contenttweaker:infernal_furnace>]);
+// recipes.addShapeless(<thaumcraft:chunk:3>, 
+// [<contenttweaker:infernal_furnace>]);
+// recipes.addShapeless(<thaumcraft:chunk:4>, 
+// [<contenttweaker:infernal_furnace>]);
+// recipes.addShapeless(<thaumcraft:chunk:5>, 
+// [<contenttweaker:infernal_furnace>]);
 
 val alltheendersword = <ore:alltheEnderSwords>;
 alltheendersword.add(<divinerpg:black_ender_sword>);
@@ -1614,46 +1614,46 @@ recipes.addShapeless(<bigreactors:reactorcontroller>,
 recipes.addShapeless(<bigreactors:turbinecontroller>,
 [<contenttweaker:good_extreme_turbine>]);
 
-recipes.addShapeless(<thaumicwonders:eldritch_cluster:0>,
-[<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>, 
-<ore:oreIron>]);
-recipes.addShapeless(<thaumicwonders:eldritch_cluster:1>,
-[<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>, 
-<ore:oreGold>]);
-recipes.addShapeless(<thaumicwonders:eldritch_cluster:2>,
-[<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>, 
-<ore:oreCopper>]);
-recipes.addShapeless(<thaumicwonders:eldritch_cluster:3>,
-[<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>, 
-<ore:oreTin>]);
-recipes.addShapeless(<thaumicwonders:eldritch_cluster:4>,
-[<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>, 
-<ore:oreSilver>]);
-recipes.addShapeless(<thaumicwonders:eldritch_cluster:5>,
-[<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>, 
-<ore:oreLead>]);
-recipes.addShapeless(<thaumicwonders:eldritch_cluster:6>,
-[<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>, 
-<ore:oreCinnabar>]);
-recipes.addShapeless(<thaumicwonders:eldritch_cluster:7>,
-[<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>, 
-<ore:oreNetherQuartz>]);
-recipes.addShapeless(<thaumicwonders:eldritch_cluster:8>,
-[<contenttweaker:catalyzation_chamber>, 
-<thaumicwonders:alienist_stone>, 
-<ore:oreVoidMetal>]);
+// recipes.addShapeless(<thaumicwonders:eldritch_cluster:0>,
+// [<contenttweaker:catalyzation_chamber>, 
+// <thaumicwonders:alienist_stone>, 
+// <ore:oreIron>]);
+// recipes.addShapeless(<thaumicwonders:eldritch_cluster:1>,
+// [<contenttweaker:catalyzation_chamber>, 
+// <thaumicwonders:alienist_stone>, 
+// <ore:oreGold>]);
+// recipes.addShapeless(<thaumicwonders:eldritch_cluster:2>,
+// [<contenttweaker:catalyzation_chamber>, 
+// <thaumicwonders:alienist_stone>, 
+// <ore:oreCopper>]);
+// recipes.addShapeless(<thaumicwonders:eldritch_cluster:3>,
+// [<contenttweaker:catalyzation_chamber>, 
+// <thaumicwonders:alienist_stone>, 
+// <ore:oreTin>]);
+// recipes.addShapeless(<thaumicwonders:eldritch_cluster:4>,
+// [<contenttweaker:catalyzation_chamber>, 
+// <thaumicwonders:alienist_stone>, 
+// <ore:oreSilver>]);
+// recipes.addShapeless(<thaumicwonders:eldritch_cluster:5>,
+// [<contenttweaker:catalyzation_chamber>, 
+// <thaumicwonders:alienist_stone>, 
+// <ore:oreLead>]);
+// recipes.addShapeless(<thaumicwonders:eldritch_cluster:6>,
+// [<contenttweaker:catalyzation_chamber>, 
+// <thaumicwonders:alienist_stone>, 
+// <ore:oreCinnabar>]);
+// recipes.addShapeless(<thaumicwonders:eldritch_cluster:7>,
+// [<contenttweaker:catalyzation_chamber>, 
+// <thaumicwonders:alienist_stone>, 
+// <ore:oreNetherQuartz>]);
+// recipes.addShapeless(<thaumicwonders:eldritch_cluster:8>,
+// [<contenttweaker:catalyzation_chamber>, 
+// <thaumicwonders:alienist_stone>, 
+// <ore:oreVoidMetal>]);
 
-recipes.addShapeless(<thaumicwonders:primordial_grain>,
-[<contenttweaker:primordial_accelerator>, 
-<thaumcraft:primordial_pearl>]);
+// recipes.addShapeless(<thaumicwonders:primordial_grain>,
+// [<contenttweaker:primordial_accelerator>, 
+// <thaumcraft:primordial_pearl>]);
 
 recipes.remove(<cyclicmagic:battery_infinite>);
 recipes.remove(<computercraft:command_computer>);
@@ -1849,9 +1849,9 @@ mods.techreborn.grinder.addRecipe(<appliedenergistics2:material:2>, <appliedener
 // [<botania:manaresource:0>, <divinerpg:arcanium_block>, <botania:manaresource:0>],
 // [<botania:manaresource:7>, <botania:manaresource:0>, <botania:manaresource:7>]]);
 
-recipes.addShaped(<extrabotany:lens:6>.withTag({})*2,
+recipes.addShaped(<extrabotany:lens:6>.withTag({}),
 [[null, <contenttweaker:greater_gaia_spirit>, null],
-[<contenttweaker:greater_gaia_spirit>, <extrabotany:lens:6>.withTag({}), <contenttweaker:greater_gaia_spirit>],
+[<contenttweaker:greater_gaia_spirit>, <extrabotany:lens:6>.withTag({}).reuse(), <contenttweaker:greater_gaia_spirit>],
 [null, <contenttweaker:greater_gaia_spirit>, null]]);
 
 
@@ -1889,3 +1889,144 @@ recipes.addShapeless(<minecraft:golden_apple>,
 [<contenttweaker:rare_loot_table>]);
 
 
+recipes.addShaped(<contenttweaker:rftools_syringe>,
+[[<minecraft:iron_ingot>, <minecraft:structure_void>, <minecraft:structure_void>],
+[<minecraft:structure_void>, <minecraft:iron_ingot>, <minecraft:structure_void>],
+[<minecraft:structure_void>, <minecraft:structure_void>, <minecraft:glass_bottle>]]);
+
+
+recipes.addShapeless(<contenttweaker:fine_mineral_dust>,
+[<contenttweaker:passive_packagedauto>]);
+recipes.addShapeless(<contenttweaker:everwatching_eye>,
+[<contenttweaker:passive_extended_crafting>]);
+recipes.addShapeless(<contenttweaker:everwatching_eye>,
+[<contenttweaker:passive_packagedauto>]);
+recipes.addShapeless(<contenttweaker:gem_of_aura>,
+[<contenttweaker:passive_packagedauto>]);
+recipes.addShapeless(<contenttweaker:complex_gearbox>,
+[<contenttweaker:passive_packagedauto>]);
+recipes.addShapeless(<contenttweaker:complex_crank_shaft>,
+[<contenttweaker:passive_packagedauto>]);
+
+recipes.addShapeless(<minecraft:ender_pearl>,
+[<contenttweaker:nebulous_soul>]);
+
+
+recipes.addShaped(<contenttweaker:whispering_meatball>*2,
+[[<contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>],
+[<contenttweaker:sentient_meatball>, <contenttweaker:whispering_meatball>, <contenttweaker:sentient_meatball>],
+[<contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>]]);
+
+
+recipes.addShapeless(<contenttweaker:alchemical_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<minecraft:iron_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<minecraft:gold_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<thermalfoundation:ore:0>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<thermalfoundation:ore:1>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<minecraft:redstone_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<minecraft:diamond_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<libvulpes:ore0:0>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<libvulpes:ore0:8>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<thermalfoundation:ore:7>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<bigreactors:oreanglesite>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<bigreactors:orebenitoite>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<thermalfoundation:ore:8>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<divinerpg:arlemite_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<divinerpg:realmite_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<divinerpg:rupee_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<divinerpg:bloodgem_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<divinerpg:netherite_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<aoa3:rosite_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<aoa3:limonite_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<aoa3:runium_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<aoa3:sapphire_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<aoa3:jade_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+recipes.addShapeless(<aoa3:amethyst_ore>,
+[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+
+recipes.remove(<natura:respawn_obelisk>);
+
+mods.techreborn.industrialGrinder.addRecipe(<bigreactors:mineralbenitoite>, <techreborn:dust:33>, <techreborn:dust:33>, <techreborn:dust:33>, <bigreactors:orebenitoite>, <nuclearcraft:plutonium:15>, <fluid:water>, 80, 1);
+
+mods.techreborn.industrialGrinder.addRecipe(<bigreactors:mineralanglesite>, <techreborn:dust:33>, <techreborn:dust:33>, <techreborn:dust:33>, <bigreactors:oreanglesite>, <nuclearcraft:plutonium:15>, <fluid:water>, 80, 1);
+
+
+recipes.addShapeless(<astralsorcery:blockaltar:0>,
+[<contenttweaker:getting_more_starlight>]);
+recipes.addShapeless(<astralsorcery:blockaltar:1>,
+[<contenttweaker:getting_more_starlight>]);
+recipes.addShapeless(<astralsorcery:blockaltar:2>,
+[<contenttweaker:getting_more_starlight>]);
+recipes.addShapeless(<astralsorcery:blockaltar:3>,
+[<contenttweaker:getting_more_starlight>]);
+
+
+mods.nuclearcraft.manufactory.addRecipe([<ore:netherrack>, <techreborn:dust:33>]);
+mods.thermalexpansion.Pulverizer.addRecipe(<techreborn:dust:33>, <minecraft:netherrack>,100);
+
+mods.thermalexpansion.Compactor.addMintRecipe(<techreborn:plates:10>, <minecraft:dye:4>, 33);
+mods.nuclearcraft.pressurizer.addRecipe([<minecraft:dye:4>, <techreborn:plates:10>]);
+
+mods.nuclearcraft.rock_crusher.addRecipe([<aoa3:shyrelands_stone>, <enderio:item_material:20>*8, <enderio:item_material:20>*4, <enderio:item_material:20>*2]);
+
+mods.nuclearcraft.rock_crusher.addRecipe([<tardis:gallifreyan_stone>, <enderio:item_material:20>*12, <enderio:item_material:20>*6, <enderio:item_material:20>*3]);
+
+
+mods.nuclearcraft.manufactory.removeRecipeWithInput([<minecraft:clay>]);
+mods.nuclearcraft.manufactory.addRecipe([<minecraft:clay>, <techreborn:dust:12>*9]);
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<gendustry:honey_drop>, <contenttweaker:meatball>*4, <contenttweaker:sentient_meatball>*4]);
+
+furnace.addRecipe(<twilightforest:auroralized_glass>, <twilightforest:aurora_block>);
+
+mods.nuclearcraft.decay_hastener.addRecipe([<ore:ingotHotVibraniumAlloy>, <ore:ingotVibraniumAlloy>]);
+
+
+recipes.addShapeless(<techreborn:part:33>,
+[<techreborn:recycler>, <contenttweaker:recycler_drop>]);
+
+recipes.addShapeless(<contenttweaker:sanitized_dark_matter>,
+[<projecte:item.pe_matter:0>, <projecte:item.pe_fuel:2>]);
+
+furnace.addRecipe(<contenttweaker:crystaltine_dust>, <contenttweaker:vibranium_head>);
+furnace.addRecipe(<contenttweaker:crystaltine_dust>, <contenttweaker:vibranium_legs>);
+furnace.addRecipe(<contenttweaker:crystaltine_dust>, <contenttweaker:vibranium_feet>);
+furnace.addRecipe(<contenttweaker:crystaltine_dust>, <contenttweaker:vibranium_chest>);
+
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:865>, <techreborn:ore:8>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:866>, <techreborn:ore:8>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>, <techreborn:ore:8>);
+
+
+mods.thermalexpansion.InductionSmelter.addRecipe(<techreborn:ingot:15>*3, <thermalfoundation:material:865>, <techreborn:ore:8>, 4000, <thermalfoundation:material:864>, 75);
+mods.thermalexpansion.InductionSmelter.addRecipe(<techreborn:ingot:15>*3, <thermalfoundation:material:866>, <techreborn:ore:8>, 4000, <thermalfoundation:material:864>, 75);
+mods.thermalexpansion.InductionSmelter.addRecipe(<techreborn:ingot:15>*2, <minecraft:sand>, <techreborn:ore:8>, 4000, <thermalfoundation:material:864>, 75);
+
+recipes.remove(<actuallyadditions:item_food:13>);
+recipes.addShaped(<actuallyadditions:item_food:13>,
+[[null, <actuallyadditions:item_food:10>, null],
+[<actuallyadditions:item_food:0>, <minecraft:cooked_beef>, <actuallyadditions:item_knife>],
+[null, <actuallyadditions:item_food:10>, null]]);

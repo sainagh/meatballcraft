@@ -119,23 +119,23 @@ recipes.addShapeless(<thebetweenlands:aspect_vial>.withTag({blHerbloreAspects: {
 [<gendustry:honey_comb:14011>, <thebetweenlands:forbidden_fig>, <thebetweenlands:dentrothyst_vial>]);
 
 mods.thermalexpansion.Centrifuge.addRecipe(
-    [(<aoa3:emberstone_ore>) % 90, 
-    <aoa3:jade_ore> % 90, 
-    <aoa3:sapphire_ore> % 90, 
-    <aoa3:amethyst_ore> % 90], 
+    [(<aoa3:emberstone_ore>*8) % 90, 
+    (<aoa3:jade_ore>*8) % 90, 
+    (<aoa3:sapphire_ore>*8) % 90, 
+    (<aoa3:amethyst_ore>*8) % 90], 
     <gendustry:honey_comb:13370>, null, 2000);
 
 mods.thermalexpansion.Centrifuge.addRecipe(
-    [(<divinerpg:rupee_ore>) % 90, 
-    <divinerpg:arlemite_ore> % 90, 
-    <divinerpg:realmite_ore> % 90], 
+    [(<divinerpg:rupee_ore>*8) % 90, 
+    (<divinerpg:arlemite_ore>*8) % 90, 
+    (<divinerpg:realmite_ore>*8) % 90], 
     <gendustry:honey_comb:13371>, null, 2000);
 
 mods.thermalexpansion.Centrifuge.addRecipe(
     [
-    <divinerpg:netherite_ore> % 90, 
-    <divinerpg:bloodgem_ore> % 90], 
-    <gendustry:honey_comb:13379>, null, 2000);
+    (<divinerpg:netherite_ore>*8) % 90, 
+    (<divinerpg:bloodgem_ore>*8) % 90], 
+    (<gendustry:honey_comb:13379>*8), null, 2000);
 
 recipes.addShaped(<contenttweaker:water_doped_egg>*8,
 [[<minecraft:egg>, <minecraft:egg>, <minecraft:egg>],

@@ -16,3 +16,18 @@ recipes.addShaped(<contenttweaker:umberstone_callstone>,
 [[<erebus:materials:18>, <erebus:materials:0>, <erebus:materials:18>],
 [<erebus:materials:0>, <erebus:umberstone:0>, <erebus:materials:0>],
 [<erebus:materials:18>, <erebus:materials:0>, <erebus:materials:18>]]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tarantula_callstone>, 
+[[<erebus:log_cypress>, null, <erebus:log_baobab>, null, <erebus:log_balsam>], 
+[null, <erebus:red_gem>, <erebus:red_gem>, <erebus:red_gem>, null], 
+[<erebus:log_mossbark>, <erebus:red_gem>, <contenttweaker:wing_of_worship>, <erebus:red_gem>, <erebus:log_mahogany>], 
+[null, <erebus:red_gem>, <erebus:red_gem>, <erebus:red_gem>, null], 
+[<erebus:log_marshwood>, null, <erebus:log_eucalyptus>, null, <erebus:log_asper>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:antlion_callstone>, 
+[[<erebus:log_cypress>, null, <erebus:log_baobab>, null, <erebus:log_balsam>], 
+[null, <erebus:red_gem>, <erebus:red_gem>, <erebus:red_gem>, null], 
+[<erebus:log_mossbark>, <erebus:red_gem>, <contenttweaker:hand_of_dominion>, <erebus:red_gem>, <erebus:log_mahogany>], 
+[null, <erebus:red_gem>, <erebus:red_gem>, <erebus:red_gem>, null], 
+[<erebus:log_marshwood>, null, <erebus:log_eucalyptus>, null, <erebus:log_asper>]]);  

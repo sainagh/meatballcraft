@@ -456,3 +456,12 @@ recipes.addShapeless(<modularmachinery:dyson_discharger_t5_controller>,
 
 recipes.addShapeless(<modularmachinery:dyson_discharger_t6_controller>, 
 [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t6"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:impetus_syphon_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:impetus_syphon"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:sacred_cinders_apiary_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sacred_cinders_apiary"}).reuse(), <modularmachinery:blockcontroller>]);
+
+recipes.addShapeless(<modularmachinery:fractallite_furnace_controller>, 
+[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fractallite_furnace"}).reuse(), <modularmachinery:blockcontroller>]);

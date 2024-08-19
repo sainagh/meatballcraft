@@ -48,35 +48,86 @@ recipes.addShaped(<contenttweaker:dyson_capacitor>,
 [<materialpart:chaos:dust>, <contenttweaker:nightmare_coil>, <materialpart:chaos:dust>],
 [<contenttweaker:magnetic_monopole>, <materialpart:chaos:dust>, <contenttweaker:muon_crystal>]]);
 
-recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x1>,
-[[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
-[<enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), <contenttweaker:strings_crystal>, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000})],
-[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>]]);
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hypercapacitor_discharger_x1>, 
+[[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>], 
+[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), <contenttweaker:interdimensional_energy_orb>, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
+[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>]]);  
 
-recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x4>,
-[[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
-[<contenttweaker:hypercapacitor_discharger_x1>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x1>],
-[<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x1>, <modularmachinery:itemmodularium>]]);
+// recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x1>,
+// [[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
+// [<enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), <contenttweaker:strings_crystal>, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000})],
+// [<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>]]);
 
-recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x16>,
-[[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
-[<contenttweaker:hypercapacitor_discharger_x4>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x4>],
-[<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x4>, <modularmachinery:itemmodularium>]]);
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hypercapacitor_discharger_x4>, 
+[[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>], 
+[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x1>, <contenttweaker:interdimensional_energy_orb>, <contenttweaker:hypercapacitor_discharger_x1>, <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x1>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
+[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>]]);  
 
-recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x64>,
-[[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
-[<contenttweaker:hypercapacitor_discharger_x16>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x16>],
-[<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x16>, <modularmachinery:itemmodularium>]]);
+// recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x4>,
+// [[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
+// [<contenttweaker:hypercapacitor_discharger_x1>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x1>],
+// [<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x1>, <modularmachinery:itemmodularium>]]);
 
-recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x256>,
-[[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
-[<contenttweaker:hypercapacitor_discharger_x64>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x64>],
-[<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x64>, <modularmachinery:itemmodularium>]]);
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hypercapacitor_discharger_x16>, 
+[[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>], 
+[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x4>, <contenttweaker:sideral_energy_orb>, <contenttweaker:hypercapacitor_discharger_x4>, <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x4>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
+[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>]]);  
 
-recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x1024>,
-[[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
-[<contenttweaker:hypercapacitor_discharger_x256>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x256>],
-[<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x256>, <modularmachinery:itemmodularium>]]);
+// recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x16>,
+// [[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
+// [<contenttweaker:hypercapacitor_discharger_x4>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x4>],
+// [<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x4>, <modularmachinery:itemmodularium>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:recursive_catalyzation_device>, 
+[[<contenttweaker:strings_crystal>, null, null, <contenttweaker:gem_of_recursion>, null, null, <contenttweaker:strings_crystal>], 
+[null, <extrautils2:decorativesolid:8>, <extendedcrafting:material:13>, <contenttweaker:time_crystal>, <extendedcrafting:material:13>, <extrautils2:decorativesolid:8>, null], 
+[null, <extendedcrafting:material:13>, <avaritia:resource:0>, <avaritia:resource:0>, <avaritia:resource:0>, <extendedcrafting:material:13>, null], 
+[<contenttweaker:gem_of_recursion>, <contenttweaker:time_crystal>, <avaritia:resource:0>, <contenttweaker:recursium_ingot>, <avaritia:resource:0>, <contenttweaker:time_crystal>, <contenttweaker:gem_of_recursion>], 
+[null, <extendedcrafting:material:13>, <avaritia:resource:0>, <avaritia:resource:0>, <avaritia:resource:0>, <extendedcrafting:material:13>, null], 
+[null, <extrautils2:decorativesolid:8>, <extendedcrafting:material:13>, <contenttweaker:time_crystal>, <extendedcrafting:material:13>, <extrautils2:decorativesolid:8>, null], 
+[<contenttweaker:strings_crystal>, null, null, <contenttweaker:gem_of_recursion>, null, null, <contenttweaker:strings_crystal>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hypercapacitor_discharger_x64>, 
+[[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>], 
+[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:recursive_catalyzation_device>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x16>, <contenttweaker:sideral_energy_orb>, <contenttweaker:hypercapacitor_discharger_x16>, <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x16>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
+[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>]]);  
+
+// recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x64>,
+// [[<modularmachinery:itemmodularium>, <contenttweaker:recursive_catalyzation_device>, <modularmachinery:itemmodularium>],
+// [<contenttweaker:hypercapacitor_discharger_x16>, <extendedcrafting:singularity_custom:650>, <contenttweaker:hypercapacitor_discharger_x16>],
+// [<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x16>, <modularmachinery:itemmodularium>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hypercapacitor_discharger_x256>, 
+[[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>], 
+[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:recursive_catalyzation_device>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x64>, <contenttweaker:draconic_energy_orb>, <contenttweaker:hypercapacitor_discharger_x64>, <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x64>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
+[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>]]);  
+
+// recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x256>,
+// [[<modularmachinery:itemmodularium>, <contenttweaker:recursive_catalyzation_device>, <modularmachinery:itemmodularium>],
+// [<contenttweaker:hypercapacitor_discharger_x64>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x64>],
+// [<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x64>, <modularmachinery:itemmodularium>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hypercapacitor_discharger_x1024>, 
+[[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>], 
+[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:recursive_catalyzation_device>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x256>, <contenttweaker:draconic_energy_orb>, <contenttweaker:hypercapacitor_discharger_x256>, <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x256>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
+[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>]]);  
+
+// recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x1024>,
+// [[<modularmachinery:itemmodularium>, <contenttweaker:recursive_catalyzation_device>, <modularmachinery:itemmodularium>],
+// [<contenttweaker:hypercapacitor_discharger_x256>, <contenttweaker:strings_crystal>, <contenttweaker:hypercapacitor_discharger_x256>],
+// [<modularmachinery:itemmodularium>, <contenttweaker:hypercapacitor_discharger_x256>, <modularmachinery:itemmodularium>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_shell>*6, 
 [[<extendedcrafting:material:13>, <contenttweaker:ogerite_crystal_matrix>, null, <contenttweaker:gravity_manipulator_device>, null, <contenttweaker:ogerite_crystal_matrix>, <extendedcrafting:material:13>], 

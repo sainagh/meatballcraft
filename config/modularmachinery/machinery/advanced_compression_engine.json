@@ -224,90 +224,90 @@
             "y": -1,
             "z": 5,
             "elements": [
-                "chisel:blocksteel@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "chisel:blocksteel@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "techreborn:machine_casing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "bigreactors:blockcyanite@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "techreborn:machine_casing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:titanium_iridium_coil@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "bigreactors:blockcyanite@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:titanium_iridium_coil@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "generalized_output_fluid"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "chisel:blocksteel@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 5,
-            "elements": [
                 "generalized_input_fluid"
             ]
         },
         {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "chisel:blocksteel@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bigreactors:blockcyanite@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:titanium_iridium_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bigreactors:blockcyanite@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:titanium_iridium_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:blocksteel@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:blocksteel@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:blocksteel@5"
+            ]
+        },
+        {
             "x": -1,
             "y": 1,
             "z": 1,
@@ -384,7 +384,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "chisel:blocksteel@5"
+                "generalized_output_fluid"
             ]
         },
         {

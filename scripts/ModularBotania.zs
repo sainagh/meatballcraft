@@ -1,4 +1,17 @@
 import mods.modularmachinery.RecipeBuilder;
+import scripts.enchantwrapper.EnchantUtil.EnchantMap;
+import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
+
+val enclistThunderfuryWrapped as EnchantMap = EnchantMap()
+	.add("minecraft:fire_aspect",4)
+	.add("minecraft:sharpness",45)
+	.add("minecraft:mending",1)
+	.add("minecraft:unbreaking",3)
+	.add("minecraft:sweeping",6);
+
+
+val enclistKittySuitWrapped as EnchantMap = EnchantMap()
+	.add("minecraft:protection",20);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:gaia_spirit_block>, 
 [[null, <contenttweaker:living_gold>, null], 
@@ -20,7 +33,7 @@ bot2.addEnergyPerTickInput(40000);
 bot2.addItemInput(<botania:thundersword>);
 bot2.addItemInput(<botania:manaresource:5>*12);
 bot2.addItemInput(<minecraft:nether_star>*4);
-bot2.addItemOutput(<botania:thundersword>.withTag({ench: [{lvl: 4 as short, id: 20 as short}, {lvl: 45 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 3 as short, id: 34 as short},{lvl: 6 as short, id: 22 as short}], RepairCost: 1, display: {Name: "§6§oThunderfury, Blessed Blade of the Windseeker§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
+bot2.addItemOutput(SuperEnchantedItem(<botania:thundersword>.withTag({display: {Name:"§6§oThunderfury, Blessed Blade of the Windseeker§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistThunderfuryWrapped).getItem());
 bot2.build();
 
 val bot3 = RecipeBuilder.newBuilder("bot3","gaia_altar",400);
@@ -113,3 +126,39 @@ bot12.addItemInput(<aether_legacy:golden_ring>);
 bot12.addItemInput(<extrautils2:compressedsand:1>);
 bot12.addItemOutput(<botania:lokiring>);
 bot12.build();
+
+val bot13 = RecipeBuilder.newBuilder("bot13","gaia_altar",400);
+bot13.addEnergyPerTickInput(60000);
+bot13.addItemInput(<extrabotany:combatmaidhelmrevealing>);
+bot13.addItemInput(<botania:manaresource:4>*8);
+bot13.addItemInput(<contenttweaker:sentient_meatball>);
+bot13.addItemInput(<contenttweaker:mark_of_gluttony>);
+bot13.addItemOutput(SuperEnchantedItem(<extrabotany:combatmaidhelmrevealing>.withTag({display: {Name:"§6§oHelm of Gluttony§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistKittySuitWrapped).getItem());
+bot13.build();
+
+val bot14 = RecipeBuilder.newBuilder("bot14","gaia_altar",400);
+bot14.addEnergyPerTickInput(60000);
+bot14.addItemInput(<extrabotany:combatmaidchestdarkened>);
+bot14.addItemInput(<botania:manaresource:4>*8);
+bot14.addItemInput(<contenttweaker:sentient_meatball>);
+bot14.addItemInput(<contenttweaker:mark_of_gluttony>);
+bot14.addItemOutput(SuperEnchantedItem(<extrabotany:combatmaidchestdarkened>.withTag({display: {Name:"§6§oChest of Gluttony§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistKittySuitWrapped).getItem());
+bot14.build();
+
+val bot15 = RecipeBuilder.newBuilder("bot15","gaia_altar",400);
+bot15.addEnergyPerTickInput(60000);
+bot15.addItemInput(<extrabotany:combatmaidlegs>);
+bot15.addItemInput(<botania:manaresource:4>*8);
+bot15.addItemInput(<contenttweaker:sentient_meatball>);
+bot15.addItemInput(<contenttweaker:mark_of_gluttony>);
+bot15.addItemOutput(SuperEnchantedItem(<extrabotany:combatmaidlegs>.withTag({display: {Name:"§6§oLegs of Gluttony§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistKittySuitWrapped).getItem());
+bot15.build();
+
+val bot16 = RecipeBuilder.newBuilder("bot16","gaia_altar",400);
+bot16.addEnergyPerTickInput(60000);
+bot16.addItemInput(<extrabotany:combatmaidboots>);
+bot16.addItemInput(<botania:manaresource:4>*8);
+bot16.addItemInput(<contenttweaker:sentient_meatball>);
+bot16.addItemInput(<contenttweaker:mark_of_gluttony>);
+bot16.addItemOutput(SuperEnchantedItem(<extrabotany:combatmaidboots>.withTag({display: {Name:"§6§oBoots of Gluttony§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistKittySuitWrapped).getItem());
+bot16.build();

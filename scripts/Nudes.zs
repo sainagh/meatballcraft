@@ -80,11 +80,11 @@ recipes.addShaped(<contenttweaker:armorer_callstone>,
 
 
 recipes.addHiddenShapeless("ptahpuzzlepharos",<contenttweaker:pharos_callstone>,
-[<bloodmagic:component:2>,
-<bloodarsenal:base_item:8>,
-<bloodmagic:component:13>,
-<animus:component:5>,
-<bloodmagic:component:12>]);
+[<xreliquary:potion>.withTag({effects: [{duration: 72000, potency: 1, name: "xreliquary:flight_potion"}], hasPotion: 1 as byte}),
+<xreliquary:potion>.withTag({effects: [{duration: 72000, potency: 25, name: "minecraft:speed"}], hasPotion: 1 as byte}),
+<xreliquary:potion>.withTag({effects: [{duration: 72000, potency: 3, name: "minecraft:haste"}], hasPotion: 1 as byte}),
+<xreliquary:potion>.withTag({effects: [{duration: 72000, potency: 1, name: "cyclicmagic:potion.magnet"}], hasPotion: 1 as byte}),
+<xreliquary:potion>.withTag({effects: [{duration: 72000, potency: 25, name: "minecraft:luck"}], hasPotion: 1 as byte})]);
 
 //---------------------------------
 // hator

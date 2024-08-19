@@ -1,5 +1,7 @@
 import mods.modularmachinery.RecipeBuilder;
 
+mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:stone_of_aura>, <contenttweaker:gem_of_aura>, 4096, <extendedcrafting:material:11>, 20000000);
+
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:stone_of_aura>, 
 [[

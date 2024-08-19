@@ -390,7 +390,7 @@ val reci38 = RecipeBuilder.newBuilder("inf38","arcane_autoinfuser",120);
 reci38.addEnergyPerTickInput(100);
 reci38.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]})*100);
 reci38.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vacuos"}]})*50);
-reci38.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]})*26);
+reci38.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]})*25);
 reci38.addItemInput(<thaumcraft:void_seed>);
 reci38.addItemInput(<contenttweaker:primordial_sliver>);
 reci38.addItemInput(<minecraft:redstone>);
@@ -406,5 +406,7 @@ reci39.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, 
 reci39.addItemInput(<thaumcraft:mirrored_glass>);
 reci39.addItemInput(<thaumicaugmentation:material:5>);
 reci39.addItemInput(<minecraft:ender_pearl>);
+reci39.addItemInput(<ore:plateVoid>);
+reci39.addItemInput(<thaumcraft:stone_eldritch_tile>);
 reci39.addItemOutput(<thaumicaugmentation:impetus_mirror>);
 reci39.build();

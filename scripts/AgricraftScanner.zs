@@ -2264,6 +2264,51 @@ recipes.addShapeless(
     null
 );
 
+val seedflax = <actuallyadditions:item_flax_seed>;
+recipes.addShapeless(
+    "scanseedflax",seedflax,
+    [(seedflax.marked("mark").transformNew(function(item) { return item.withTag(item.tag); })).noReturn(), 
+    <contenttweaker:seed_analyzer>.reuse()],
+    function(out,ins,cInfo){
+		var species = ins.mark.tag.agri_seed as string;
+        var strength = ins.mark.tag.agri_strength as byte;
+        var gain = ins.mark.tag.agri_gain as byte;
+        var growth = ins.mark.tag.agri_growth as byte;
+        var analyzed = 1 as byte;
+        var updatedTag as IData = {
+                agri_analyzed: analyzed,
+                agri_strength: strength,
+                agri_gain: gain,
+                agri_seed: species,
+                agri_growth: growth
+			};
+		return out.updateTag(updatedTag);
+    },
+    null
+);
+
+val seedrice = <actuallyadditions:item_rice_seed>;
+recipes.addShapeless(
+    "scanseedrice",seedrice,
+    [(seedrice.marked("mark").transformNew(function(item) { return item.withTag(item.tag); })).noReturn(), 
+    <contenttweaker:seed_analyzer>.reuse()],
+    function(out,ins,cInfo){
+		var species = ins.mark.tag.agri_seed as string;
+        var strength = ins.mark.tag.agri_strength as byte;
+        var gain = ins.mark.tag.agri_gain as byte;
+        var growth = ins.mark.tag.agri_growth as byte;
+        var analyzed = 1 as byte;
+        var updatedTag as IData = {
+                agri_analyzed: analyzed,
+                agri_strength: strength,
+                agri_gain: gain,
+                agri_seed: species,
+                agri_growth: growth
+			};
+		return out.updateTag(updatedTag);
+    },
+    null
+);
 
 recipes.remove(<agricraft:peripheral>);
 recipes.remove(<agricraft:seed_analyzer>);
