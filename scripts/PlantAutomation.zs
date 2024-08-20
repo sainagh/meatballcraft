@@ -452,10 +452,10 @@ mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.wi
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumadditions:vis_pod>.withTag({Aspect: "mythus"})*5,
-<thaumadditions:vis_seeds>.withTag({Aspect: "mythus"}), 
+<thaumadditions:vis_seeds/mythus>, 
 <twilightforest:ironwood_raw>, 
 25000, 
-<thaumadditions:vis_seeds>.withTag({Aspect: "mythus"}), 
+<thaumadditions:vis_seeds/mythus>, 
 105);
 
 mods.thermalexpansion.Insolator.addRecipeMonocultureSaplingInfuser(<bewitchment:dragons_blood_resin>*6, 
