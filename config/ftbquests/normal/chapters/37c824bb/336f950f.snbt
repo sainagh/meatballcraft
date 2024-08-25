@@ -1,7 +1,7 @@
 {
 	x: 23.0d,
 	y: -9.0d,
-	description: "Use the unfathomatoble breaker to open the unfathomatoble gate in the deep dark.",
+	description: "Use the unfathomable breaker to open the unfathomable gate in the deep dark.",
 	dependencies: [
 		"7b03e812"
 	],
