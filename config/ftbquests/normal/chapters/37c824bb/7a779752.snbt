@@ -2,7 +2,7 @@
 	title: "Am I the Highlander?",
 	x: -1.0d,
 	y: -4.5d,
-	description: "Right click a grave to give your key the abilty to teleport you.",
+	description: "Right click a grave to give your key the ability to teleport you.",
 	text: [
 		"It seems like I can gain some control over this 'undeath' power. ",
 		"By infusing stone with this weird powder, I can fast travel back to my point of 'death'."

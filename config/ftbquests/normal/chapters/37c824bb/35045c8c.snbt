@@ -2,7 +2,7 @@
 	title: "Abyss Falls",
 	x: 45.5d,
 	y: -4.5d,
-	description: "Use a staring eye on illusion altar to summon elusive - To summon the shadowlord usee a book of shadows on a shadow altar",
+	description: "Use a staring eye on illusion altar to summon elusive - To summon the shadowlord use a book of shadows on a shadow altar",
 	text: [
 		"Unexpectedly, I stumbled upon a very interesting piece of stage 5 politics...",
 		"The Horde and the Empire, as I've clearly seen on furatto, don't really have a problem at fighting each other at a larger scale.",

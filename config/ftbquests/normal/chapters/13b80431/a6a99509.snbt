@@ -4,8 +4,8 @@
 	x: -1.0d,
 	y: 5.0d,
 	text: [
-		"The betweenlands, not unlike the Erebus caves, do not apper at exist within the three dimensions of space senses can feel.",
-		"Because of 'slices' that can be sometimes seen. It is evident that this place is located on terra, but it exists in higher dimensions, making it impossible to perceive for a three-dimensional being, unless the portal to this cursed swamp is used."
+		"The betweenlands, not unlike the Erebus caves, do not appear at exist within the three dimensions of space senses can feel.",
+		"Because of 'slices' that can be sometimes seen. It is evident that this place is located on Terra, but it exists in higher dimensions, making it impossible to perceive for a three-dimensional being, unless the portal to this cursed swamp is used."
 	],
 	dependencies: [
 		"446239db"

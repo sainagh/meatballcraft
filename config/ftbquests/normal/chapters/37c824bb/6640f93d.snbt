@@ -4,7 +4,7 @@
 	y: -3.0d,
 	description: "Use the guardian's eye on graw altar",
 	text: [
-		"The master of Lelyetia has been taken down, and the weird feeling I felt when I first eneterd is partially gone.",
+		"The master of Lelyetia has been taken down, and the weird feeling I felt when I first entered is partially gone.",
 		"This land still holds some secrets, and I am set on figuring out what's going on!"
 	],
 	dependencies: [

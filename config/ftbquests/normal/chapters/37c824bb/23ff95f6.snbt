@@ -5,7 +5,7 @@
 	description: "Used to craft machines from actually additions (see manufacturing and fabrication)",
 	text: [
 		"Wow, if only humanity knew of this!",
-		"It seems like there are other energy storage optionsthat are way better than batteries.",
+		"It seems like there are other energy storage options that are way better than batteries.",
 		"Not only I can store energy in other ways, but I can easily transform between different types of energy, including lasers..."
 	],
 	dependencies: [
