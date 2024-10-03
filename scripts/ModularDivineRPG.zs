@@ -61,3 +61,12 @@ enc6.addItemOutput(<bloodmagic:item_demon_crystal:2>*64);
 enc6.addItemOutput(<bloodmagic:item_demon_crystal:3>*64);
 enc6.addItemOutput(<bloodmagic:item_demon_crystal:4>*64);
 enc6.build();
+
+val enc7 = RecipeBuilder.newBuilder("icearca7","corrupted_library",20);
+enc7.addEnergyPerTickInput(100000);
+enc7.addFluidInput(<fluid:lifeessence>*200);
+enc7.addFluidInput(<fluid:liquidcoralium>*200);
+enc7.addItemInput(<aoa3:ice_crystal>);
+enc7.addItemInput(<contenttweaker:dreadful_ice>);
+enc7.addItemOutput(<divinerpg:snowflake>*24);
+enc7.build();

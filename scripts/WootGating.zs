@@ -25,6 +25,7 @@ mods.techreborn.compressor.addRecipe(<woot:stygianironingot>*2, <woot:shard:4>, 
 mods.techreborn.compressor.addRecipe(<woot:stygianironingot>*3, <woot:shard:5>, 40, 64);
 mods.techreborn.compressor.addRecipe(<woot:stygianironingot>*4, <woot:shard:6>, 40, 64);
 
+mods.nuclearcraft.pressurizer.addRecipe([<woot:shard:3>, <woot:stygianironingot>]);
 mods.nuclearcraft.pressurizer.addRecipe([<woot:shard:4>, <woot:stygianironingot>*2]);
 mods.nuclearcraft.pressurizer.addRecipe([<woot:shard:5>, <woot:stygianironingot>*3]);
 mods.nuclearcraft.pressurizer.addRecipe([<woot:shard:6>, <woot:stygianironingot>*4]);

@@ -209,4 +209,139 @@ recipes.addShaped(<iceandfire:dragonegg_black>,
 [<draconicevolution:chaos_shard:3>, <divinerpg:healing_stone>, <draconicevolution:chaos_shard:3>],
 [<minecraft:dragon_egg>, <minecraft:stained_hardened_clay:15>, <minecraft:dragon_egg>]]);
 
-furnace.addRecipe(<contenttweaker:burned_enchanted_feather>,<iceandfire:stymphalian_bird_feather>);
+mods.nuclearcraft.alloy_furnace.addRecipe([<iceandfire:stymphalian_bird_feather>, <minecraft:blaze_powder>, <contenttweaker:burned_enchanted_feather>]);
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:burned_enchanted_feather>, <iceandfire:stymphalian_bird_feather>, <minecraft:blaze_powder>, 10);
+
+
+recipes.addShapeless(<contenttweaker:de_thorned_bramble>,
+[<tconstruct:knife_blade>.withTag({Material: "mirion"}).reuse(),
+<biomesoplenty:bramble_plant:0>]);
+
+recipes.addShapeless(<contenttweaker:hellish_seasoning>,
+[<contenttweaker:de_thorned_bramble>,
+<natura:edibles:7>,
+<natura:edibles:9>,
+<mod_lavacow:bloodtooth_shroom>]);
+
+recipes.addShapeless(<contenttweaker:feast_of_hell>,
+[<minecraft:blaze_powder>,
+<contenttweaker:hellish_seasoning>,
+<contenttweaker:hellspot_chop>,
+<contenttweaker:hellspot_chop>]);
+
+recipes.addShaped(<contenttweaker:draconic_seasoning>,
+[[<biomesoplenty:crystal_shard>, <biomesoplenty:crystal_shard>, <minecraft:chorus_flower>],
+[<biomesoplenty:crystal_shard>, <draconicevolution:draconium_dust>, <biomesoplenty:crystal_shard>],
+[<minecraft:chorus_flower>, <biomesoplenty:crystal_shard>, <biomesoplenty:crystal_shard>]]);
+
+recipes.addShaped(<contenttweaker:tasty_eye_delight>,
+[[<contenttweaker:draconic_seasoning>, <contenttweaker:draconic_seasoning>, <contenttweaker:draconic_seasoning>],
+[<divinerpg:watching_eye>, <divinerpg:watching_eye>, <divinerpg:watching_eye>]]);
+
+recipes.addShaped(<contenttweaker:warren_noodles>,
+[[<dimdoors:world_thread>, <dimdoors:world_thread>, <dimdoors:world_thread>],
+[<dimdoors:world_thread>, <aoa3:ghostly_powder>, <dimdoors:world_thread>],
+[<dimdoors:world_thread>, <dimdoors:world_thread>, <dimdoors:world_thread>]]);
+
+recipes.addShaped(<contenttweaker:monolithic_meal>,
+[[<randomthings:glowingmushroom>, <bloodmagic:arcane_ashes>],
+[<minecraft:bowl>, <contenttweaker:warren_noodles>]]);
+
+
+recipes.addShapeless(<contenttweaker:julienned_potato>*4,
+[<minecraft:potato>,
+<tconstruct:knife_blade>.withTag({Material: "alumite"}).reuse()]);
+
+mods.thermalexpansion.Compactor.addPressRecipe(<contenttweaker:lovely_latke>, <contenttweaker:julienned_potato>*2, 25);
+mods.nuclearcraft.pressurizer.addRecipe([<contenttweaker:julienned_potato>*2, <contenttweaker:lovely_latke>]);
+
+recipes.addShapeless(<contenttweaker:julienned_carrot>*4,
+[<minecraft:carrot>,
+<tconstruct:knife_blade>.withTag({Material: "alumite"}).reuse()]);
+
+mods.integrateddynamics.MechanicalSqueezer.addRecipe(<extratrees:food:35>, null, <fluid:binnie.juice.olive>*100);
+
+recipes.addShapeless(<contenttweaker:nice_clean_salad>,
+[<contenttweaker:julienned_carrot>,
+<enderio:item_material:46>,
+<contenttweaker:curd>,
+<divinerpg:tomato>,
+<extratrees:food:52>,
+<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.olive", Amount: 1000}}),
+<minecraft:bowl>]);
+
+recipes.addShapeless(<contenttweaker:big_boy_steak>,
+[<bewitchment:ink_cap_dye>,
+<minecraft:cooked_beef>]);
+
+recipes.addShaped(<contenttweaker:fortune_cookie>*10,
+[[<ore:dustWheat>, <iceandfire:manuscript>, <ore:dustWheat>]]);
+
+recipes.addShaped(<contenttweaker:pan_di_stelle>*4,
+[[null, <minecraft:dye:3>, null],
+[<ore:dustWheat>, <ore:dustAstralSTarmetal>, <ore:dustWheat>],
+[null, <minecraft:dye:3>, null]]);
+
+// mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:plentiful_praline>, <extratrees:food:24>, <fluid:dark_chocolate>*10, 10);
+mods.nuclearcraft.infuser.addRecipe([<extratrees:food:24>, <fluid:dark_chocolate>*10, <contenttweaker:plentiful_praline>]);
+
+recipes.addShapeless(<contenttweaker:friendly_frittata>,
+[<abyssalcraft:friedegg>,
+<aoa3:chilli>,
+<contenttweaker:curd>]);
+
+recipes.addShaped(<contenttweaker:ethical_empanada>*4,
+[[<ore:dustWheat>, <minecraft:dye:3>, <ore:dustWheat>],
+[<contenttweaker:ground_pork>, <minecraft:egg>, <aoa3:chilli>],
+[<ore:dustWheat>, <ore:dustWheat>, <ore:dustWheat>]]);
+
+recipes.addShapeless(<contenttweaker:heavy_polenta>,
+[<extratrees:misc:9>,
+<extratrees:misc:9>,
+<extratrees:misc:9>,
+<minecraft:water_bucket>]);
+
+recipes.addShapeless(<contenttweaker:multi_fruit_milkshake>,
+[<extratrees:food:28>,
+<extratrees:food:29>,
+<minecraft:apple>,
+<natura:edibles:5>,
+<minecraft:milk_bucket>]);
+
+recipes.addShaped(<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"}),
+[[<minecraft:milk_bucket>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]}), <cyclicmagic:apple_lapis>]]);
+
+recipes.addShaped(<contenttweaker:cube_jello_cubes>*9,
+[[<twilightforest:aurora_block>, <twilightforest:aurora_block>, <twilightforest:aurora_block>],
+[<twilightforest:aurora_block>, <contenttweaker:cube_jello_cubes>, <twilightforest:aurora_block>],
+[<twilightforest:aurora_block>, <twilightforest:aurora_block>, <twilightforest:aurora_block>]]);
+
+recipes.addShaped(<contenttweaker:radioactive_nachos>*4,
+[[<divinerpg:tomato>, <divinerpg:tomato>, <divinerpg:tomato>],
+[<techreborn:smalldust:69>, <minecraft:potato>, <techreborn:smalldust:69>],
+[<minecraft:potato>, <minecraft:potato>, <minecraft:potato>]]);
+
+
+recipes.addShapeless(<contenttweaker:yummy_concrete>,
+[<advancedrocketry:concrete>,
+<minecraft:bucket>]);
+
+recipes.addShaped(<extratrees:food:40>*4,
+[[null, <forestry:fruits:6>, null],
+[<forestry:fruits:6>, <extratrees:food:40>, <forestry:fruits:6>],
+[null, <forestry:fruits:6>, null]]);
+
+recipes.addShapeless(<contenttweaker:cajun_spice>,
+[<bewitchment:garlic>,
+<aoa3:chilli>,
+<ore:salt>,
+<bewitchment:white_sage>]);
+
+
+recipes.addShapeless(<contenttweaker:just_jambalaya>,
+[<actuallyadditions:item_food:16>,
+<contenttweaker:cajun_spice>,
+<minecraft:chicken>,
+<contenttweaker:ground_pork>,
+<divinerpg:tomato>]);
+

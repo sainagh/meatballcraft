@@ -172,39 +172,39 @@ mythindgrind21.addItemInput(<ore:oreRhenium>*4);
 mythindgrind21.addItemOutput(<materialpart:rhenium:dust>*32);
 mythindgrind21.build();
 
-val mythindgrind22 = RecipeBuilder.newBuilder("mythindgrind22","mythic_processor_grinder",1);
+val mythindgrind22 = RecipeBuilder.newBuilder("mythindgrind22","mythic_processor_grinder",20);
 mythindgrind22.addEnergyPerTickInput(200000);
 mythindgrind22.addFluidInput(<fluid:dense_plasma>*100);
-mythindgrind22.addItemInput(<divinerpg:eden_ore>*1);
-mythindgrind22.addItemOutput(<divinerpg:eden_fragments>*32);
+mythindgrind22.addItemInput(<divinerpg:eden_ore>*32);
+mythindgrind22.addItemOutput(<divinerpg:eden_fragments>*1024);
 mythindgrind22.build();
 
-val mythindgrind23 = RecipeBuilder.newBuilder("mythindgrind23","mythic_processor_grinder",1);
+val mythindgrind23 = RecipeBuilder.newBuilder("mythindgrind23","mythic_processor_grinder",20);
 mythindgrind23.addEnergyPerTickInput(200000);
 mythindgrind23.addFluidInput(<fluid:dense_plasma>*100);
-mythindgrind23.addItemInput(<divinerpg:wildwood_ore>*1);
-mythindgrind23.addItemOutput(<divinerpg:wildwood_fragments>*32);
+mythindgrind23.addItemInput(<divinerpg:wildwood_ore>*32);
+mythindgrind23.addItemOutput(<divinerpg:wildwood_fragments>*1024);
 mythindgrind23.build();
 
-val mythindgrind24 = RecipeBuilder.newBuilder("mythindgrind24","mythic_processor_grinder",1);
+val mythindgrind24 = RecipeBuilder.newBuilder("mythindgrind24","mythic_processor_grinder",20);
 mythindgrind24.addEnergyPerTickInput(200000);
 mythindgrind24.addFluidInput(<fluid:dense_plasma>*100);
-mythindgrind24.addItemInput(<divinerpg:apalachia_ore>*1);
-mythindgrind24.addItemOutput(<divinerpg:apalachia_fragments>*32);
+mythindgrind24.addItemInput(<divinerpg:apalachia_ore>*32);
+mythindgrind24.addItemOutput(<divinerpg:apalachia_fragments>*1024);
 mythindgrind24.build();
 
-val mythindgrind25 = RecipeBuilder.newBuilder("mythindgrind25","mythic_processor_grinder",1);
+val mythindgrind25 = RecipeBuilder.newBuilder("mythindgrind25","mythic_processor_grinder",20);
 mythindgrind25.addEnergyPerTickInput(200000);
 mythindgrind25.addFluidInput(<fluid:dense_plasma>*100);
-mythindgrind25.addItemInput(<divinerpg:skythern_ore>*1);
-mythindgrind25.addItemOutput(<divinerpg:skythern_fragments>*32);
+mythindgrind25.addItemInput(<divinerpg:skythern_ore>*32);
+mythindgrind25.addItemOutput(<divinerpg:skythern_fragments>*1024);
 mythindgrind25.build();
 
-val mythindgrind26 = RecipeBuilder.newBuilder("mythindgrind26","mythic_processor_grinder",1);
+val mythindgrind26 = RecipeBuilder.newBuilder("mythindgrind26","mythic_processor_grinder",20);
 mythindgrind26.addEnergyPerTickInput(200000);
 mythindgrind26.addFluidInput(<fluid:dense_plasma>*100);
-mythindgrind26.addItemInput(<divinerpg:mortum_ore>*1);
-mythindgrind26.addItemOutput(<divinerpg:mortum_fragments>*32);
+mythindgrind26.addItemInput(<divinerpg:mortum_ore>*32);
+mythindgrind26.addItemOutput(<divinerpg:mortum_fragments>*1024);
 mythindgrind26.build();
 
 val mythindgrind27 = RecipeBuilder.newBuilder("mythindgrind27","mythic_processor_grinder",1);

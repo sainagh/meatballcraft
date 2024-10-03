@@ -620,7 +620,7 @@
     },
     {
         "mode": "ADD",
-        "result": "draconicevolution:awakened_core,8,0",
+        "result": "draconicevolution:awakened_core,16,0",
         "catalyst": "minecraft:nether_star",
         "energy": 9000000,
         "tier": 3,
@@ -634,6 +634,57 @@
             "draconicevolution:draconic_ingot",
             "draconicevolution:draconic_ingot",
             "contenttweaker:eye_of_gallifrey"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "iceandfire:fire_dragon_heart,1,0",
+        "catalyst": "contenttweaker:aeldunari",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "iceandfire:dragonsteel_fire_ingot",
+            "iceandfire:dragonsteel_fire_ingot",
+            "iceandfire:dragonsteel_fire_ingot",
+            "iceandfire:dragonsteel_fire_ingot",
+            "iceandfire:dragonsteel_fire_ingot",
+            "iceandfire:dragonsteel_fire_ingot",
+            "iceandfire:dragonsteel_fire_ingot",
+            "iceandfire:dragonsteel_fire_ingot"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "iceandfire:ice_dragon_heart,1,0",
+        "catalyst": "contenttweaker:aeldunari",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "iceandfire:dragonsteel_ice_ingot",
+            "iceandfire:dragonsteel_ice_ingot",
+            "iceandfire:dragonsteel_ice_ingot",
+            "iceandfire:dragonsteel_ice_ingot",
+            "iceandfire:dragonsteel_ice_ingot",
+            "iceandfire:dragonsteel_ice_ingot",
+            "iceandfire:dragonsteel_ice_ingot",
+            "iceandfire:dragonsteel_ice_ingot"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "iceandfire:lightning_dragon_heart,1,0",
+        "catalyst": "contenttweaker:aeldunari",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "iceandfire:dragonsteel_lightning_ingot",
+            "iceandfire:dragonsteel_lightning_ingot",
+            "iceandfire:dragonsteel_lightning_ingot",
+            "iceandfire:dragonsteel_lightning_ingot",
+            "iceandfire:dragonsteel_lightning_ingot",
+            "iceandfire:dragonsteel_lightning_ingot",
+            "iceandfire:dragonsteel_lightning_ingot",
+            "iceandfire:dragonsteel_lightning_ingot"
         ]
     }
 ]

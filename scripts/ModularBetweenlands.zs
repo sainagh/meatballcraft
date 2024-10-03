@@ -1,10 +1,10 @@
 import mods.modularmachinery.RecipeBuilder;
-import crafttweaker.enchantments.IEnchantmentDefinition;
-import crafttweaker.data.IData;
+import scripts.enchantwrapper.EnchantUtil.EnchantMap;
+import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
 
 
 
-val enchlistSword as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:minecraft:unbreaking>, <enchantment:minecraft:mending>, <enchantment:minecraft:sweeping>, <enchantment:enderio:witherweapon>];
+/* val enchlistSword as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:minecraft:unbreaking>, <enchantment:minecraft:mending>, <enchantment:minecraft:sweeping>, <enchantment:enderio:witherweapon>];
 var mapSword as IData = {};
 mapSword += enchlistSword[0].makeEnchantment(45).makeTag();
 mapSword += enchlistSword[1].makeEnchantment(3).makeTag();
@@ -15,7 +15,19 @@ var mapSwordOther as IData = {
 	RepairCost: 1,
 	display: {Name: "§6§oSword of the Swamps§r", Lore: ["§d§oSuper-Enchanted§r"]}
 };
-mapSword += mapSwordOther;
+mapSword += mapSwordOther; */
+
+val enclistSwampSwordWrapped as EnchantMap = EnchantMap()
+	.add("minecraft:sharpness",45)
+	.add("minecraft:unbreaking",3)
+	.add("minecraft:mending",1)
+	.add("minecraft:sweeping",4)
+	.add("enderio:witherweapon",3);
+
+val enclistEonArmorWrapped as EnchantMap = EnchantMap()
+	.add("minecraft:protection",5)
+	.add("minecraft:unbreaking",5)
+	.add("minecraft:mending",1);
 
 
 val bot1 = RecipeBuilder.newBuilder("gatevalf1","valonite_gateway",2000);
@@ -64,7 +76,7 @@ bot6.addItemInput(<thebetweenlands:green_middle_gem>*2);
 bot6.addItemInput(<thebetweenlands:crimson_middle_gem>*2);
 bot6.addItemInput(<minecraft:dragon_egg>*2);
 bot6.addItemInput(<minecraft:nether_star>*2);
-bot6.addItemOutput(<thebetweenlands:shockwave_sword>.withTag(mapSword));
+bot6.addItemOutput(SuperEnchantedItem(<thebetweenlands:shockwave_sword>.withTag({display: {Name:"§6§oSword of the Swamps§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSwampSwordWrapped).getItem());
 bot6.build();
 
 val bot7 = RecipeBuilder.newBuilder("gateval7","valonite_gateway",100);
@@ -81,7 +93,7 @@ bot8.addItemInput(<thebetweenlands:aqua_middle_gem>*2);
 bot8.addItemInput(<thebetweenlands:green_middle_gem>*2);
 bot8.addItemInput(<thebetweenlands:crimson_middle_gem>*2);
 bot8.addItemInput(<minecraft:shulker_shell>*8);
-bot8.addItemOutput(<thebetweenlands:ancient_chestplate>.withTag({ench: [{lvl: 5 as short, id: 0 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oEonic Chestplate§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
+bot8.addItemOutput(SuperEnchantedItem(<thebetweenlands:ancient_chestplate>.withTag({display: {Name:"§6§oEonic Chestplate§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistEonArmorWrapped).getItem());
 bot8.build();
 
 val bot9 = RecipeBuilder.newBuilder("gateval9","valonite_gateway",2000);
@@ -92,7 +104,7 @@ bot9.addItemInput(<thebetweenlands:aqua_middle_gem>*2);
 bot9.addItemInput(<thebetweenlands:green_middle_gem>*2);
 bot9.addItemInput(<thebetweenlands:crimson_middle_gem>*2);
 bot9.addItemInput(<minecraft:shulker_shell>*5);
-bot9.addItemOutput(<thebetweenlands:ancient_helmet>.withTag({ench: [{lvl: 5 as short, id: 0 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oEonic Helmet§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
+bot9.addItemOutput(SuperEnchantedItem(<thebetweenlands:ancient_helmet>.withTag({display: {Name:"§6§oEonic Helmet§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistEonArmorWrapped).getItem());
 bot9.build();
 
 val bot10 = RecipeBuilder.newBuilder("gateval10","valonite_gateway",2000);
@@ -103,7 +115,7 @@ bot10.addItemInput(<thebetweenlands:aqua_middle_gem>*2);
 bot10.addItemInput(<thebetweenlands:green_middle_gem>*2);
 bot10.addItemInput(<thebetweenlands:crimson_middle_gem>*2);
 bot10.addItemInput(<minecraft:shulker_shell>*7);
-bot10.addItemOutput(<thebetweenlands:ancient_leggings>.withTag({ench: [{lvl: 5 as short, id: 0 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oEonic Leggings§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
+bot10.addItemOutput(SuperEnchantedItem(<thebetweenlands:ancient_leggings>.withTag({display: {Name:"§6§oEonic Leggings§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistEonArmorWrapped).getItem());
 bot10.build();
 
 val bot11 = RecipeBuilder.newBuilder("gateval11","valonite_gateway",2000);
@@ -114,7 +126,7 @@ bot11.addItemInput(<thebetweenlands:aqua_middle_gem>*2);
 bot11.addItemInput(<thebetweenlands:green_middle_gem>*2);
 bot11.addItemInput(<thebetweenlands:crimson_middle_gem>*2);
 bot11.addItemInput(<minecraft:shulker_shell>*4);
-bot11.addItemOutput(<thebetweenlands:ancient_boots>.withTag({ench: [{lvl: 5 as short, id: 0 as short}, {lvl: 5 as short, id: 34 as short},{lvl: 1 as short, id: 70 as short}], RepairCost: 1, display: {Name: "§6§oEonic Boots§r", Lore: ["§d§oSuper-Enchanted§r"]}}));
+bot11.addItemOutput(SuperEnchantedItem(<thebetweenlands:ancient_boots>.withTag({display: {Name:"§6§oEonic Boots§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistEonArmorWrapped).getItem());
 bot11.build();
 
 val bot12 = RecipeBuilder.newBuilder("gateval12","valonite_gateway",100);

@@ -294,6 +294,7 @@ ast31.addItemInput(<astralsorcery:blockmarble:6>*11);
 ast31.addItemInput(<astralsorcery:itemrockcrystalsimple:0>);
 ast31.addItemInput(<astralsorcery:itemcraftingcomponent:4>*3);
 ast31.addItemInput(<astralsorcery:itemcraftingcomponent:2>*2);
+ast31.addItemInput(<minecraft:diamond>*3);
 ast31.addItemOutput(<astralsorcery:blockborehead:0>);
 ast31.build();
 

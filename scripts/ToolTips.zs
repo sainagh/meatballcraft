@@ -263,11 +263,11 @@
 
 <contenttweaker:seed_analyzer>.addTooltip(format.red("WIP"));
 
-<contenttweaker:burning_furnace>.addTooltip(format.red("Nether Brick Nether Brick Nether Brick Nether Roof"));
+<contenttweaker:burning_furnace>.addTooltip(format.red("Nether Brick Nether Brick Nether Brick Skull Nether Roof"));
 
 <contenttweaker:portable_furnace>.addTooltip(format.red("Found in the overworld!"));
 <contenttweaker:portable_furnace>.addTooltip(format.red("What do I do with this?"));
-<contenttweaker:portable_furnace>.addTooltip(format.red("Nether Brick Nether Brick Nether Brick Nether Roof"));
+<contenttweaker:portable_furnace>.addTooltip(format.red("Nether Brick Nether Brick Nether Brick Skull Nether Roof"));
 
 <ore:cropCherry>.addTooltip(format.red("Farm using the Enchanted Greenhouse, doing it in-world may corrupt things"));
 <ore:cropAcorn>.addTooltip(format.red("Farm using the Enchanted Greenhouse, doing it in-world may corrupt things"));
@@ -344,7 +344,7 @@
 <contenttweaker:gem_of_voracity>.addTooltip(format.red("Use me"));
 <contenttweaker:gem_of_voracity>.addTooltip(format.red("Craft the Gem of Gluttony with the right Bejewelled Banner (1), the Vox Ponds will guide you"));
 
-<ae2stuff:wireless>.addTooltip(format.red("Right click with Dyes to change color"));
+// <ae2stuff:wireless>.addTooltip(format.red("Right click with Dyes to change color"));
 
 <contenttweaker:icy_dreadful_shard>.addTooltip(format.red("Found on Pixonia"));
 <contenttweaker:icy_dreadful_shard>.addTooltip(format.red("Surround with the right potion essences (4), the Apothecary Comb and the Dread Shards in the Twilight Forest will guide you"));
@@ -406,6 +406,8 @@
 <contenttweaker:wyvern_monument_activation_fabrial>.addTooltip(format.red("Thanks to Connor for the help with making this!"));
 
 <draconicevolution:reactor_core>.addTooltip(format.red("Thanks to Connor for making Draconic Alchemy! Big booms are on the way!"));
+<bnkrblks:megelium_stone>.addTooltip(format.red("Thanks to Connor for making Draconic Alchemy! Big booms are on the way!"));
+<draconicevolution:draconium_block:1>.addTooltip(format.red("Thanks to Connor for making Draconic Alchemy! Big booms are on the way!"));
 
 <contenttweaker:stormlight_infused_crystal>.addTooltip(format.red("Use the Pumpjack from Immersive Engineering in Lyndenwyrm to get Stormlight"));
 
@@ -800,12 +802,13 @@
 <omniwand:wand>.addTooltip(format.red("This includes magic tools too!"));
 <omniwand:wand>.addTooltip(format.red("Right click to select what wrench to use"));
 <omniwand:wand>.addTooltip(format.red("Shift + left click while looking air to unselect a book"));
+<omniwand:wand>.addTooltip(format.red("Select an item and sneak + <drop keybind> to remove item from omniwand/akashic tome"));
 
 <contenttweaker:hand_framing_tool>.addTooltip(format.red("Many thanks to the Nomifactory team for creating this!"));
 
 <contenttweaker:cosmic_fabric>.addTooltip(format.red("Aedial and Miles wanted more goodies, I agree!"));
 
-<gendustry:honey_comb:14020>.addTooltip(format.red("Obtained from the Soulsucking Callstone"));
+<gendustry:honey_comb:14020>.addTooltip(format.red("Obtained from the Soul-Sucking Callstone"));
 
 <contenttweaker:cotton_candy_withering_spray>.addTooltip(format.red("Thanks to NerdySpider for the texture, and to Reclipse for the recovery!"));
 
@@ -853,6 +856,7 @@
 <contenttweaker:secretive_nightmare_heart>.addTooltip(format.red("Obtained from the Secret Lurker Callstone"));
 
 <bloodarsenal:glass_sacrificial_dagger>.addTooltip(format.red("WARNING: this can delete your inventory if you die from this while wearing Charms of Life"));
+<bloodarsenal:glass_dagger_of_sacrifice>.addTooltip(format.red("WARNING: this can delete your inventory if you die from this while wearing Charms of Life"));
 
 <enderutilities:builderswand>.addTooltip(format.red("WARNING: do not add to the Omniwand, it can cause crashes"));
 
@@ -945,6 +949,7 @@
 <contenttweaker:defined_ingot>.addTooltip(format.red("P_applexx, Matatabi_TRAX, johrangmal, FELLAL1, Aerlyt (team)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("Chaika_In_Paanic (solo)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("Artemis & CyberDrain (team) (automated with thaumcraft golems)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("CDPlayuur & DalaxyBruh (team)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("Mathias & MillerGaming321 (in spirit)"));
 
 
@@ -985,7 +990,7 @@
 <contenttweaker:epic_tool_tipper>.addTooltip(format.red("Craft with any item, and a corrupted stone, to make it epic!"));
 
 <contenttweaker:spell_recycling_crystal>.addTooltip(format.green("Reusable"));
-<contenttweaker:spell_recycling_crystal>.addTooltip(format.red("Craft the right type of chest with the right crystals, in the right shapes. The villagers above the nether will guide you"));
+<contenttweaker:spell_recycling_crystal>.addTooltip(format.red("Craft the right type of chest with the right crystals, in the right shapes. The villagers above the nether, and Sacred Oak will guide you"));
 <contenttweaker:spell_recycling_crystal>.addTooltip(format.red("Jonnywips had a good idea!"));
 
 <extrautils2:ingredients:11>.addTooltip(format.red("Drop a Gold Ingot into a single Lava source surrounded by Nether Bricks"));
@@ -1062,8 +1067,6 @@
 <ore:ingotAlubrass>.addTooltip(format.aqua("Alloy Ratio: 1 Copper, 3 Aluminum"));
 <ore:ingotBrass>.addTooltip(format.aqua("Alloy Ratio: 2 Copper, 1 Zinc"));
 
-<contenttweaker:super_stacker>.addTooltip(format.red("Makes it possible to autobuild massive multiblocks without filling your inventory"));
-<contenttweaker:super_stacker>.addTooltip(format.red("WARNING: only use in manual crafts"));
 
 <contenttweaker:jei_tipsandtricks>.addTooltip(format.red("Thanks to gafex11 for writing this!"));
 
@@ -1112,6 +1115,8 @@
 <bigreactors:reactorcoolantport>.addTooltip(format.red("Use the extreme wrench to configure"));
 
 <actuallyadditions:block_greenhouse_glass>.addTooltip(format.red("WARNING: do not craft in ME terminal or arcane transmutation tablet, it could cause a crash"));
+<botania:lexicon>.addTooltip(format.red("WARNING: do not craft in ME terminal or arcane transmutation tablet, it could cause a crash"));
+<extrautils2:terraformer:9>.addTooltip(format.red("WARNING: do not craft in ME terminal or arcane transmutation tablet, it could cause a crash"));
 
 <rftools:crafter2>.addTooltip(format.red("Speed can be increased if you alocate multiple slots to the same recipe"));
 <rftools:crafter3>.addTooltip(format.red("Speed can be increased if you alocate multiple slots to the same recipe"));
@@ -1124,6 +1129,7 @@
 
 <contenttweaker:woot_flusher>.addTooltip(format.red("Right click to reset all woot farm loot tables"));
 <contenttweaker:woot_flusher>.addTooltip(format.red("This may cause lag after using"));
+<contenttweaker:woot_flusher>.addTooltip(format.red("Read the info box for info on resetting individual mobs"));
 
 <buildinggadgets:buildingtool>.addTooltip(format.red("It can auto-pull items from your EMC network"));
 <buildinggadgets:buildingtool>.addTooltip(format.red("WARNING: do not pull blocks from a satchel, it may crash the game"));
@@ -1150,3 +1156,442 @@
 <ore:plateMithrillium>.addTooltip(format.red("If you want to complete the Thaumonomicon entries that require plates, make sure you craft them, making them in a compactor won't work"));
 <ore:plateAdaminite>.addTooltip(format.red("If you want to complete the Thaumonomicon entries that require plates, make sure you craft them, making them in a compactor won't work"));
 <ore:plateMithminite>.addTooltip(format.red("If you want to complete the Thaumonomicon entries that require plates, make sure you craft them, making them in a compactor won't work"));
+
+<contenttweaker:rftools_syringe>.addTooltip(format.red("The actual item has been hidden from JEI for lag reasons, ignore the structure voids"));
+
+
+<divinerpg:angelic_helmet>.addTooltip(format.red("Flight: creative"));
+<divinerpg:angelic_chestplate>.addTooltip(format.red("Flight: creative"));
+<divinerpg:angelic_leggings>.addTooltip(format.red("Flight: creative"));
+<divinerpg:angelic_boots>.addTooltip(format.red("Flight: creative"));
+<cyclicmagic:glowing_chorus>.addTooltip(format.red("Flight: creative"));
+<extrautils2:chickenring>.addTooltip(format.red("Flight: many jumps"));
+<extrautils2:angelring>.addTooltip(format.red("Flight: creative"));
+<projecte:item.pe_swrg>.addTooltip(format.red("Flight: creative"));
+<projecte:item.pe_arcana_ring>.addTooltip(format.red("Flight: creative"));
+<botania:flighttiara>.addTooltip(format.red("Flight: creative"));
+<extrabotany:coregod>.addTooltip(format.red("Flight: creative"));
+<simplyjetpacks:itemjetpack:*>.addTooltip(format.red("Flight: many jumps + hover"));
+<cyclicmagic:charm_air>.addTooltip(format.red("Flight: creative but worse"));
+
+<botania:shinyflower:*>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
+<thaumcraft:stabilizer>.addTooltip(format.red("Infusion Stabilizer (can produce some flux): see JEI info box for recommended setup"));
+
+<projecte:item.pe_rm_morning_star>.addTooltip(format.red("WARNING: do not use to break inventories"));
+
+<thaumicenergistics:essentia_import>.addTooltip(format.red("Vamael has da forbidden knowledge"));
+
+<thaumicenergistics:infusion_provider>.addTooltip(format.red("Acts as a wall of warded jars for the infusion matrix and the thaumatorium"));
+<thaumicenergistics:infusion_provider>.addTooltip(format.red("Can be connected to an essentia storage bus like an interface for subnetting, but it is buggy, so it is not recommended"));
+
+<ore:woolMagenta>.addTooltip(format.red("Sainagh and Angrivator failed, ChaosStrikez succeeded"));
+
+<enderstorage:ender_pouch>.addTooltip(format.red("Shift right click on an ender chest to bind to the corresponding colors"));
+
+<botany:pigment:*>.addTooltip(format.red("Found in a villager house"));
+
+<contenttweaker:firey_furnace_sand>.addTooltip(format.red("Why? This feels like a bad idea"));
+
+<contenttweaker:firey_furnace_glass>.addTooltip(format.red("Yup this is a terrible idea!"));
+
+<contenttweaker:furnace_looking_glass>.addTooltip(format.red("Stop, please, stop"));
+
+<contenttweaker:ender_feather>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+<contenttweaker:harbinger_crystal>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+<contenttweaker:eldritch_will_crystal>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+<contenttweaker:shyre_crystal>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+<contenttweaker:pure_halite_cluster>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+<contenttweaker:chaotic_feather>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:tainted_sentient_meatball>.addTooltip(format.red("Obtained from the tainted loop callstone"));
+
+<contenttweaker:harbinger_sentient_meatball>.addTooltip(format.red("Obtained from the monumental meatball callstone"));
+
+<erebus:glider_chestplate>.addTooltip(format.red("WARNING: it can corrupt your player if worn"));
+<erebus:glider_chestplate_powered>.addTooltip(format.red("WARNING: it can corrupt your player if worn"));
+
+<contenttweaker:furnace_secret_callstone>.addTooltip(format.red("Combine the Everburner with the right [4] Pigments, the Molten Furnace in Gallifrey will guide you"));
+
+<contenttweaker:gem_of_aura>.addTooltip(format.red("Crystal water bucket is crafter in a crucible!"));
+
+<contenttweaker:cactium_sliver>.addTooltip(format.red("Found on Gallifrey"));
+<contenttweaker:chaosstrikium_cluster>.addTooltip(format.red("Found on Gallifrey"));
+<contenttweaker:crownite_chunk>.addTooltip(format.red("Found on Gallifrey"));
+<contenttweaker:thrallium_fragment>.addTooltip(format.red("Found on Gallifrey"));
+
+<contenttweaker:fluit_of_flesh>.addTooltip(format.red("Found on Gallifrey"));
+<contenttweaker:flesh_of_the_gluttonous_one>.addTooltip(format.red("Found on Gallifrey"));
+
+<contenttweaker:prophetic_paper>.addTooltip(format.red("Obtained from the Summon of the Gatekeeper"));
+
+<contenttweaker:monolithic_meal>.addTooltip(format.red("Lulu likes regional cousine!"));
+<contenttweaker:feast_of_hell>.addTooltip(format.red("Lulu likes regional cousine!"));
+<contenttweaker:tasty_eye_delight>.addTooltip(format.red("Lulu likes regional cousine!"));
+
+<cyclicmagic:apple_lapis>.addTooltip(format.red("Artemis has an interesting sense of humor"));
+
+<contenttweaker:summons_of_the_shyre_warden>.addTooltip(format.red("WARNING: The knight can only be defeated by the deknighting stick"));
+<contenttweaker:deknighting_stick>.addTooltip(format.red("Right click on the Warden of the Shyre Empire"));
+
+<contenttweaker:eye_of_limbo>.addTooltip(format.green("Reusable for the Summons of the Shyre Warden"));
+
+<ebwizardry:master_wand>.addTooltip(format.green("Reusable for Callstone"));
+
+<contenttweaker:shungite>.addTooltip(format.green("Reusable for duplication"));
+
+<contenttweaker:cube_jello_cubes>.addTooltip(format.red("Dropped by the Snow Queen in the Twilight Forest"));
+
+<mysticalagriculture:master_infusion_crystal>.addTooltip(format.red("To automate the upgrading and downgrading of mystical essences, both for passive and autocrafting, a crafter in extC mode can be used"));
+<mysticalagriculture:master_infusion_crystal>.addTooltip(format.red("If you use it for autocrafting make sure you do not include any crystal in the recipe pattern"));
+
+<tombstone:decorative_grave_simple:*>.addTooltip(format.red("Right click a Grave charged with a soul with a Grave Key to teleport to your death point"));
+<tombstone:decorative_grave_simple:*>.addTooltip(format.red("Place a grave down, and it will eventually get charged with a soul"));
+<tombstone:decorative_grave_simple:*>.addTooltip(format.red("If you are dying a lot, build and place lots of graves!"));
+
+<tombstone:decorative_grave_normal:*>.addTooltip(format.red("Right click a Grave charged with a soul with a Grave Key to teleport to your death point"));
+<tombstone:decorative_grave_normal:*>.addTooltip(format.red("Place a grave down, and it will eventually get charged with a soul"));
+<tombstone:decorative_grave_normal:*>.addTooltip(format.red("If you are dying a lot, build and place lots of graves!"));
+
+<tombstone:decorative_grave_cross:*>.addTooltip(format.red("Right click a Grave charged with a soul with a Grave Key to teleport to your death point"));
+<tombstone:decorative_grave_cross:*>.addTooltip(format.red("Place a grave down, and it will eventually get charged with a soul"));
+<tombstone:decorative_grave_cross:*>.addTooltip(format.red("If you are dying a lot, build and place lots of graves!"));
+
+<tombstone:decorative_tombstone:*>.addTooltip(format.red("Right click a Grave charged with a soul with a Grave Key to teleport to your death point"));
+<tombstone:decorative_tombstone:*>.addTooltip(format.red("Place a grave down, and it will eventually get charged with a soul"));
+<tombstone:decorative_tombstone:*>.addTooltip(format.red("If you are dying a lot, build and place lots of graves!"));
+
+<tombstone:decorative_subaraki_grave:*>.addTooltip(format.red("Right click a Grave charged with a soul with a Grave Key to teleport to your death point"));
+<tombstone:decorative_subaraki_grave:*>.addTooltip(format.red("Place a grave down, and it will eventually get charged with a soul"));
+<tombstone:decorative_subaraki_grave:*>.addTooltip(format.red("If you are dying a lot, build and place lots of graves!"));
+
+<tombstone:decorative_grave_original:*>.addTooltip(format.red("Right click a Grave charged with a soul with a Grave Key to teleport to your death point"));
+<tombstone:decorative_grave_original:*>.addTooltip(format.red("Place a grave down, and it will eventually get charged with a soul"));
+<tombstone:decorative_grave_original:*>.addTooltip(format.red("If you are dying a lot, build and place lots of graves!"));
+
+<ebwizardry:spectral_dust:*>.addTooltip(format.red("Dropped by Renmants, coming from spawners found on the Overworld surface"));
+
+<abyssalcraft:necronomicon>.addTooltip(format.red("Overworld rituals use Vanilla Cobblestone"));
+<abyssalcraft:necronomicon>.addTooltip(format.red("Abyssal Wasteland rituals use Abyssal Cobblestone"));
+<abyssalcraft:necronomicon>.addTooltip(format.red("Dreadlands rituals use Dreadstone Cobblestone"));
+<abyssalcraft:necronomicon>.addTooltip(format.red("Omothol rituals use Ethaxium Bricks"));
+<abyssalcraft:necronomicon>.addTooltip(format.red("Darkl Realm rituals use Dark Ethaxium Bricks"));
+
+<abyssalcraft:necronomicon_cor>.addTooltip(format.red("Overworld rituals use Vanilla Cobblestone"));
+<abyssalcraft:necronomicon_cor>.addTooltip(format.red("Abyssal Wasteland rituals use Abyssal Cobblestone"));
+<abyssalcraft:necronomicon_cor>.addTooltip(format.red("Dreadlands rituals use Dreadstone Cobblestone"));
+<abyssalcraft:necronomicon_cor>.addTooltip(format.red("Omothol rituals use Ethaxium Bricks"));
+<abyssalcraft:necronomicon_cor>.addTooltip(format.red("Darkl Realm rituals use Dark Ethaxium Bricks"));
+
+<abyssalcraft:necronomicon_dre>.addTooltip(format.red("Overworld rituals use Vanilla Cobblestone"));
+<abyssalcraft:necronomicon_dre>.addTooltip(format.red("Abyssal Wasteland rituals use Abyssal Cobblestone"));
+<abyssalcraft:necronomicon_dre>.addTooltip(format.red("Dreadlands rituals use Dreadstone Cobblestone"));
+<abyssalcraft:necronomicon_dre>.addTooltip(format.red("Omothol rituals use Ethaxium Bricks"));
+<abyssalcraft:necronomicon_dre>.addTooltip(format.red("Darkl Realm rituals use Dark Ethaxium Bricks"));
+
+<abyssalcraft:necronomicon_omt>.addTooltip(format.red("Overworld rituals use Vanilla Cobblestone"));
+<abyssalcraft:necronomicon_omt>.addTooltip(format.red("Abyssal Wasteland rituals use Abyssal Cobblestone"));
+<abyssalcraft:necronomicon_omt>.addTooltip(format.red("Dreadlands rituals use Dreadstone Cobblestone"));
+<abyssalcraft:necronomicon_omt>.addTooltip(format.red("Omothol rituals use Ethaxium Bricks"));
+<abyssalcraft:necronomicon_omt>.addTooltip(format.red("Darkl Realm rituals use Dark Ethaxium Bricks"));
+
+<abyssalcraft:abyssalnomicon>.addTooltip(format.red("Overworld rituals use Vanilla Cobblestone"));
+<abyssalcraft:abyssalnomicon>.addTooltip(format.red("Abyssal Wasteland rituals use Abyssal Cobblestone"));
+<abyssalcraft:abyssalnomicon>.addTooltip(format.red("Dreadlands rituals use Dreadstone Cobblestone"));
+<abyssalcraft:abyssalnomicon>.addTooltip(format.red("Omothol rituals use Ethaxium Bricks"));
+<abyssalcraft:abyssalnomicon>.addTooltip(format.red("Darkl Realm rituals use Dark Ethaxium Bricks"));
+
+<botania:lens:1>.addTooltip(format.red("Faster mana beams, less mana in beam"));
+<botania:lens:2>.addTooltip(format.red("Each burst carries more mana, slower bursts"));
+<botania:lens:3>.addTooltip(format.red("Longer beams without losing mana, slower bursts"));
+<botania:lens:4>.addTooltip(format.red("Decreased mana loss rate, mana loss start at smaller distance"));
+<botania:lens:5>.addTooltip(format.red("Mana bursts bounce on blocks"));
+<botania:lens:6>.addTooltip(format.red("Mana bursts have gravity"));
+<botania:lens:7>.addTooltip(format.red("Mana bursts break blocks"));
+<botania:lens:8>.addTooltip(format.red("Mana bursts damage mobs"));
+<botania:lens:9>.addTooltip(format.red("Mana bursts go through blocks"));
+<botania:lens:10>.addTooltip(format.red("Mana bursts attract nearby blocks"));
+<botania:lens:11>.addTooltip(format.red("Mana bursts explode"));
+<botania:lens:12>.addTooltip(format.red("Mana bursts push dropped items and XP"));
+<botania:lens:13>.addTooltip(format.red("Mana bursts give hit blocks gravity"));
+<botania:lens:14>.addTooltip(format.red("Mana bursts color sheeps based on the dye on the lens"));
+<botania:lens:15>.addTooltip(format.red("Mana set things on fire"));
+<botania:lens:16>.addTooltip(format.red("Mana push blocks like pistons"));
+<botania:lens:17>.addTooltip(format.red("Mana bursts create colored decorative flames based on the dye on the lens"));
+<botania:lens:18>.addTooltip(format.red("Mana bursts hitting a Force Relay will teleport to the location bound by the Relay"));
+<botania:lens:19>.addTooltip(format.red("Mana bursts redirect Mana Spreaders"));
+<botania:lens:20>.addTooltip(format.red("Mana bursts shoot fireworks from hit block"));
+<botania:lens:21>.addTooltip(format.red("Turns Mana Spreaders into decorative particle shooting machines based on the dye on the lens"));
+<botania:lens:22>.addTooltip(format.red("Longer lasting bursts, less mana in beam"));
+<botania:lens:23>.addTooltip(format.red("Mana bursts are shot only if an entity passes in front of the Spreader"));
+
+<extrabotany:lens:0>.addTooltip(format.red("Mana bursts push mobs"));
+<extrabotany:lens:1>.addTooltip(format.red("Mana bursts smelt items"));
+<extrabotany:lens:2>.addTooltip(format.red("Mana bursts act like mana pool crafts on dropped items"));
+<extrabotany:lens:3>.addTooltip(format.red("Combine with a Potion Flask to make it give the Flask's effect to hit mobs"));
+<extrabotany:lens:4>.addTooltip(format.red("Combine with a Potion Flask to make it give the Falsk's effect as potion clouds"));
+<extrabotany:lens:5>.addTooltip(format.red("Mana bursts follow the closest entity"));
+<extrabotany:lens:6>.addTooltip(format.red("Massively increased throughput, mana bursts deal lots of damage"));
+
+<animus:sigil_chains>.addTooltip(format.red("Captures mobs, including some bosses"));
+<animus:sigil_transposition>.addTooltip(format.red("Moves the location of a block"));
+<animus:sigil_builder>.addTooltip(format.red("When active, places blocks from off-hand very fast"));
+<animus:sigil_consumption>.addTooltip(format.red("Spreads antimatter, DANGEROUS"));
+<animus:sigil_storm>.addTooltip(format.red("Summons lightning"));
+<animus:sigil_leech>.addTooltip(format.red("Consumes plants and saplings from your inventory and nearby to replenish hunger"));
+
+<bloodarsenal:sigil_swimming>.addTooltip(format.red("Fast swimming"));
+<bloodarsenal:sigil_ender>.addTooltip(format.red("Right click the air to open your ender chest, shift right click to teleport like an enderman"));
+<bloodarsenal:sigil_augmented_holding>.addTooltip(format.red("Holds other sigils"));
+<bloodarsenal:sigil_lightning>.addTooltip(format.red("Summons lightning"));
+<bloodarsenal:sigil_divinity>.addTooltip(format.red("Adds lots of absorption and damage protection"));
+<bloodarsenal:sigil_sentience>.addTooltip(format.red("Lets you use tools at a distance while held in off hand"));
+
+<bloodmagic:sigil_divination>.addTooltip(format.red("Lets you see information in the Blood Altar and your LP network"));
+<bloodmagic:sigil_air>.addTooltip(format.red("Right click to 'fly'"));
+<bloodmagic:sigil_water>.addTooltip(format.red("Places water"));
+<bloodmagic:sigil_lava>.addTooltip(format.red("Places lava"));
+<bloodmagic:sigil_void>.addTooltip(format.red("Removes fluids on right click"));
+<bloodmagic:sigil_green_grove>.addTooltip(format.red("Speeds up plant growth"));
+<bloodmagic:sigil_blood_light>.addTooltip(format.red("Places down light sources"));
+<bloodmagic:sigil_elemental_affinity>.addTooltip(format.red("Prevents drowning, fire damage, fall damage"));
+<bloodmagic:sigil_magnetism>.addTooltip(format.red("Magnet"));
+<bloodmagic:sigil_suppression>.addTooltip(format.red("Removes fluids around you automatically"));
+<bloodmagic:sigil_haste>.addTooltip(format.red("Increases speed, jump boost, and step assist"));
+<bloodmagic:sigil_fast_miner>.addTooltip(format.red("Gives faste mining"));
+<bloodmagic:sigil_seer>.addTooltip(format.red("Shows progress in a Blood Altar"));
+<bloodmagic:sigil_phantom_bridge>.addTooltip(format.red("Lets you walk on air placing temporary blocks below you"));
+<bloodmagic:sigil_whirlwind>.addTooltip(format.red("Deflects projectiles"));
+<bloodmagic:sigil_compression>.addTooltip(format.red("Automatically compresses items and blocks in your inventory"));
+<bloodmagic:sigil_ender_severance>.addTooltip(format.red("Blocks Enderman teleportation"));
+<bloodmagic:sigil_holding>.addTooltip(format.red("Holds other sigils"));
+<bloodmagic:sigil_teleposition>.addTooltip(format.red("Teleports to a linked Teleposer"));
+<bloodmagic:sigil_transposition>.addTooltip(format.red("Lets you pick up blocks and tile entities"));
+<bloodmagic:sigil_claw>.addTooltip(format.red("Lets you climb walls"));
+<bloodmagic:sigil_bounce>.addTooltip(format.red("Negates fall damage"));
+<bloodmagic:sigil_frost>.addTooltip(format.red("Freezes water"));
+
+<bloodmagic:arcane_ashes>.addTooltip(format.red("To draw a magic circle, right click the Ashes on a block, and right click the required reagents (as shown in JEI) to start a craft"));
+
+<twilightforest:charm_of_life_2>.addTooltip(format.red("Prevents death and gets consumed"));
+
+<rf-capability-adapter:aecapabilityadapter_part>.addTooltip(format.red("WARNING: placing multiple of these right next to each other may cause lag"));
+
+<randomthings:timeinabottle>.addTooltip(format.red("WARNING: do not use on Abyssalcraft or Deep Mob Evolution blocks"));
+
+<bewitchment:hoof>.addTooltip(format.red("Dropped by Bafometyr in the Nether"));
+
+<astralsorcery:blockobservatory>.addTooltip(format.red("Hold shift to lock its view in place"));
+
+<mysticalagradditions:stuff:69>.addTooltip(format.red("Found on Luna"));
+
+<forestry:pollen_fertile>.addTooltip(format.red("Right click on leaves of the Corresponding Species with a Pollen Collection Kit"));
+
+<contenttweaker:ichorium_catalyst>.addTooltip(format.red("To properly assemble the Impetus Syphons into the Font of Divinity, the diagonal bits of the smaller multiblock should intersect with the larger multiblock"));
+<modularmachinery:blockimpetusprovideroutput>.addTooltip(format.red("To properly assemble the Impetus Syphons into the Font of Divinity, the diagonal bits of the smaller multiblock should intersect with the larger multiblock"));
+<modularmachinery:blockimpetusproviderinput>.addTooltip(format.red("To properly assemble the Impetus Syphons into the Font of Divinity, the diagonal bits of the smaller multiblock should intersect with the larger multiblock"));
+
+<extrabotany:supercrown>.addTooltip(format.red("Reduces damage taken based on number of Pleiades or Starry Idol armor pieces worn"));
+
+<storagedrawers:controller>.addTooltip(format.red("Detects contiguous drawers at a distance of 12 blocks"));
+
+<thaumicwonders:panacea:*>.addTooltip(format.red("Stops warp effects for a limited time"));
+
+<contenttweaker:buildcraft_heat_exchanger>.addTooltip(format.red("Check uses in recipes, multiblock preview, and info box for more info on this item"));
+<buildcraftfactory:heat_exchange>.addTooltip(format.red("Check uses in recipes, multiblock preview, and info box for more info on this item"));
+
+<contenttweaker:heated_organic_board_fluid_progression>.addTooltip(format.red("To obtain the required fluid, use the following progression:"));
+<contenttweaker:heated_organic_board_fluid_progression>.addTooltip(format.red("Crude Oil (Cool) from the oil wells in the overworld"));
+<contenttweaker:heated_organic_board_fluid_progression>.addTooltip(format.red("Heavy Oil (Cool) from a Distiller"));
+<contenttweaker:heated_organic_board_fluid_progression>.addTooltip(format.red("Heavy Oil (Hot) from a Heat Exchanger"));
+<contenttweaker:heated_organic_board_fluid_progression>.addTooltip(format.red("Heavy Oil (Searing) from a Heat Exchanger"));
+<contenttweaker:heated_organic_board_fluid_progression>.addTooltip(format.red("Mixed Heavy Fuels (Searing) from a Distiller"));
+
+<nuclearcraft:fusion_electromagnet_idle>.addTooltip(format.red("To function, Electromagnets require energy"));
+<nuclearcraft:fusion_electromagnet_idle>.addTooltip(format.red("Electromagnets need cooling from adjacent active coolers with water"));
+<nuclearcraft:fusion_electromagnet_idle>.addTooltip(format.red("If they follow cental symmetry they work better"));
+<nuclearcraft:fusion_electromagnet_idle>.addTooltip(format.red("You should reach 100% cooling, no more, no less"));
+
+<enderio:item_soul_vial>.addTooltip(format.red("Filled Vials can be automated using a Powered Spawner in Capture mode"));
+
+<thermalexpansion:augment:320>.addTooltip(format.red("20% chance not to consume fertilizer, capped at 95%, but 15% more energy required per operation per augment"));
+
+<compactmachines3:machine:0>.addTooltip(format.red("It's a pocket dimension that can interact with the outside world using Tunnels."));
+<compactmachines3:machine:1>.addTooltip(format.red("It's a pocket dimension that can interact with the outside world using Tunnels."));
+<compactmachines3:machine:2>.addTooltip(format.red("It's a pocket dimension that can interact with the outside world using Tunnels."));
+<compactmachines3:machine:4>.addTooltip(format.red("It's a pocket dimension that can interact with the outside world using Tunnels."));
+<compactmachines3:machine:3>.addTooltip(format.red("It's a pocket dimension that can interact with the outside world using Tunnels."));
+<compactmachines3:machine:5>.addTooltip(format.red("It's a pocket dimension that can interact with the outside world using Tunnels."));
+
+<compactmachines3:machine:0>.addTooltip(format.red("The ME capability adapter can be used to transfer AE2 channels inside a compact machine"));
+<compactmachines3:machine:1>.addTooltip(format.red("The ME capability adapter can be used to transfer AE2 channels inside a compact machine"));
+<compactmachines3:machine:2>.addTooltip(format.red("The ME capability adapter can be used to transfer AE2 channels inside a compact machine"));
+<compactmachines3:machine:4>.addTooltip(format.red("The ME capability adapter can be used to transfer AE2 channels inside a compact machine"));
+<compactmachines3:machine:3>.addTooltip(format.red("The ME capability adapter can be used to transfer AE2 channels inside a compact machine"));
+<compactmachines3:machine:5>.addTooltip(format.red("The ME capability adapter can be used to transfer AE2 channels inside a compact machine"));
+
+<compactmachines3:machine:0>.addTooltip(format.red("WARNING: Do not place compact machines directly next to each other!"));
+<compactmachines3:machine:1>.addTooltip(format.red("WARNING: Do not place compact machines directly next to each other!"));
+<compactmachines3:machine:2>.addTooltip(format.red("WARNING: Do not place compact machines directly next to each other!"));
+<compactmachines3:machine:4>.addTooltip(format.red("WARNING: Do not place compact machines directly next to each other!"));
+<compactmachines3:machine:3>.addTooltip(format.red("WARNING: Do not place compact machines directly next to each other!"));
+<compactmachines3:machine:5>.addTooltip(format.red("WARNING: Do not place compact machines directly next to each other!"));
+
+<contenttweaker:alchemical_mushroom>.addTooltip(format.green("Reusable for making Black Lotus"));
+
+<compactmachines3:machine:0>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
+<compactmachines3:machine:1>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
+<compactmachines3:machine:2>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
+<compactmachines3:machine:4>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
+<compactmachines3:machine:3>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
+<compactmachines3:machine:5>.addTooltip(format.red("WARNING: Do not do thaumcraft in here! It will cause crashes!"));
+
+<botania:blacklotus:0>.addTooltip(format.red("GalacticSilver had an idea..."));
+
+<botania:enchantedsoil>.addTooltip(format.red("TurtlePenguin9 did some research"));
+
+<ore:ingotFractalliteHalite>.addTooltip(format.red("First crafted by:"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("Hunter3216 & Glance_ (team) (older recipe)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("lSllowl & HollowPeet (team) (older recipe)"));
+
+<contenttweaker:terrestrial_animator_0>.addTooltip(format.red("Can be used in a mechanical user"));
+<contenttweaker:terrestrial_animator_1>.addTooltip(format.red("Can be used in a mechanical user"));
+<contenttweaker:terrestrial_animator_2>.addTooltip(format.red("Can be used in a mechanical user"));
+<contenttweaker:terrestrial_animator_3>.addTooltip(format.red("Can be used in a mechanical user"));
+<contenttweaker:terrestrial_animator_4>.addTooltip(format.red("Can be used in a mechanical user"));
+<contenttweaker:terrestrial_animator_5>.addTooltip(format.red("Can be used in a mechanical user"));
+<contenttweaker:terrestrial_animator_6>.addTooltip(format.red("Can be used in a mechanical user"));
+<contenttweaker:terrestrial_animator_7>.addTooltip(format.red("Can be used in a mechanical user"));
+
+<advancedrocketry:fuelingstation>.addTooltip(format.red("Bind to a Rocket using the Linker from Vulpes"));
+
+<advancedrocketry:spacelaser>.addTooltip(format.red("Requires a redstone signal to run"));
+
+<microblockcbe:saw_stone>.addTooltip(format.red("Craft with decorative blocks to cut them into various shapes"));
+<microblockcbe:saw_iron>.addTooltip(format.red("Craft with decorative blocks to cut them into various shapes"));
+<microblockcbe:saw_diamond>.addTooltip(format.red("Craft with decorative blocks to cut them into various shapes"));
+
+<microblockcbe:saw_stone>.addTooltip(format.red("WARNING: excessive use of microblocks can cause lag on servers"));
+<microblockcbe:saw_iron>.addTooltip(format.red("WARNING: excessive use of microblocks can cause lag on servers"));
+<microblockcbe:saw_diamond>.addTooltip(format.red("WARNING: excessive use of microblocks can cause lag on servers"));
+
+<contenttweaker:harbinger_sentient_meatball>.addTooltip(format.green("Reusable"));
+<contenttweaker:radioactive_sentient_meatball>.addTooltip(format.green("Reusable"));
+<contenttweaker:gluttonous_flesh_singularity>.addTooltip(format.green("Reusable"));
+
+<contenttweaker:sympan_spirit>.addTooltip(format.red("Thanks to Foucs for the texture!"));
+<contenttweaker:gaia_tesseract>.addTooltip(format.red("Thanks to Foucs for the texture!"));
+<contenttweaker:lesser_mana_core>.addTooltip(format.red("Thanks to Foucs for the texture!"));
+<contenttweaker:greater_mana_core>.addTooltip(format.red("Thanks to Foucs for the texture!"));
+<contenttweaker:primordial_prism>.addTooltip(format.red("Thanks to Foucs for the texture!"));
+<contenttweaker:menacing_sludge>.addTooltip(format.red("Thanks to Foucs for the texture!"));
+<contenttweaker:shield_of_terra>.addTooltip(format.red("Thanks to Foucs for the texture!"));
+<contenttweaker:aeldunari>.addTooltip(format.red("Thanks to Foucs for the texture!"));
+<contenttweaker:cursed_rock>.addTooltip(format.red("Thanks to Foucs for the texture!"));
+<contenttweaker:multithreading_controller_upgrade>.addTooltip(format.red("Thanks to Foucs for the texture!"));
+
+<contenttweaker:flesh_of_the_gluttonous_one>.addTooltip(format.red("Thanks to Foucs for the Gluttonous Flesh crafting chain textures!"));
+<contenttweaker:fluit_of_flesh>.addTooltip(format.red("Thanks to Foucs for the Gluttonous Flesh crafting chain textures!"));
+<contenttweaker:hungering_flesh_ingot>.addTooltip(format.red("Thanks to Foucs for the Gluttonous Flesh crafting chain textures!"));
+
+<mod_lavacow:sharptooth>.addTooltip(format.red("Dropped by Foglet, Swarmer, Undead Swine"));
+
+
+<deepmoblearning:data_model_hydra>.addTooltip(format.red("Thanks to Foucs for the Deep Mob Learning custom textures!"));
+<deepmoblearning:pristine_matter_hydra>.addTooltip(format.red("Thanks to Foucs for the Deep Mob Learning custom textures!"));
+
+<deepmoblearning:data_model_smash>.addTooltip(format.red("Thanks to Foucs for the Deep Mob Learning custom textures!"));
+<deepmoblearning:pristine_matter_smash>.addTooltip(format.red("Thanks to Foucs for the Deep Mob Learning custom textures!"));
+
+<deepmoblearning:data_model_illager>.addTooltip(format.red("Thanks to Foucs for the Deep Mob Learning custom textures!"));
+<deepmoblearning:pristine_matter_illager>.addTooltip(format.red("Thanks to Foucs for the Deep Mob Learning custom textures!"));
+
+<deepmoblearning:data_model_cottoncandor>.addTooltip(format.red("Thanks to Foucs for the Deep Mob Learning custom textures!"));
+<deepmoblearning:pristine_matter_cottoncandor>.addTooltip(format.red("Thanks to Foucs for the Deep Mob Learning custom textures!"));
+
+<thermalexpansion:augment:128>.addTooltip(format.red("+100% energy consumption rate but +10% more energy required per operation per augment"));
+
+<thermalexpansion:augment:129>.addTooltip(format.red("secondary item % multiplied by 1.18x, 1.43x, 1.82x 2.5x 4x, 10x, and caps at 20x for each additional augment, with 10% more energy required per operation per augment"));
+
+<thermalexpansion:augment:448>.addTooltip(format.red("15% chance not to consume reagent, capped at 95% but 15% more energy required per operation per augment"));
+
+<thermalexpansion:augment:512>.addTooltip(format.red("+100% energy production rate for dynamos per augment"));
+
+<thermalexpansion:augment:513>.addTooltip(format.red("increases energy produced from fuel by 15% per augment"));
+
+<buildcraftsilicon:redstone_chipset:*>.addTooltip(format.red("Start making this in the Assembly Table (you do not need Draconium), the other recipes will come later"));
+
+<buildcraftsilicon:redstone_chipset:4>.addTooltip(format.red("Lashmak did an oopsie"));
+
+<mod_lavacow:hyphae>.addTooltip(format.red("Dropped by Mycosis in the Overworld"));
+
+<agricraft:crop_sticks>.addTooltip(format.red("Can be placed on normal Dirt, Fertilized Dirt, and the Biomes'o'Plenty variations"));
+
+<randomthings:fertilizeddirt>.addTooltip(format.red("Light really wanted to use this"));
+
+<techreborn:recycler>.addTooltip(format.red("Consumes ANYTHING to make Scrap"));
+// <techreborn:recycler>.addTooltip(format.red("Overclocker Upgrades do not make this faster"));
+
+<actuallyadditions:block_phantomface>.addTooltip(format.red("WARNING: Do not place right next to modular machinery hatches"));
+<actuallyadditions:block_phantom_liquiface>.addTooltip(format.red("WARNING: Do not place right next to modular machinery hatches"));
+
+<extratrees:food:40>.addTooltip(format.red("Found somewhere in the Nether"));
+
+<gendustry:honey_comb:14015>.addTooltip(format.red("Found on Akathartos"));
+<gendustry:honey_comb:14016>.addTooltip(format.red("Found on Pauram"));
+<gendustry:honey_comb:14017>.addTooltip(format.red("Found on Zoi"));
+
+<contenttweaker:stone_of_the_shyre_warden>.addTooltip(format.red("Use the Deknighting Stick on the Shyre Warden"));
+
+<contenttweaker:superenchant_wrapper>.addTooltip(format.red("Thanks to ChaosStrikez for the Super-Enchant Revamp!"));
+
+<contenttweaker:obtained_from_a_puzzle>.addTooltip(format.red("If you are struggling, 'Puzzle Solution' items are available in JEI and in the questbook"));
+<contenttweaker:obtained_from_a_puzzle>.addTooltip(format.red("ChaosStrikez and kurrycat had an idea!"));
+
+<extrabotany:cosmeticmaidchest>.addTooltip(format.red("BlueLuke looks fabolous!"));
+
+<rftools:space_chamber>.addTooltip(format.red("Fieno's favorite block"));
+
+<tardis:fez>.addTooltip(format.red("WARNING: do not wear this, it will cause memory leaks"));
+
+<contenttweaker:just_jambalaya>.addTooltip(format.red("Makes Panda happy!"));
+
+<contenttweaker:luna_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:osiris_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:ptah_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:hator_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:oi_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:europa_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:falacer_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:orcus_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:haumea_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:sedna_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:rhenia_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:myrmex_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:pixonia_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:proximabelt_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:nero_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:pauram_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:zoi_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:akathartos_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+<contenttweaker:alkemia_warper>.addTooltip(format.red("You can use this if you do not want to deal with rockets!"));
+
+<openblocks:sky:*>.addTooltip(format.red("Warning: these are pretty but laggy"));
+
+<openblocks:elevator:*>.addTooltip(format.red("Place multiples at different heights to teleport between them"));
+<openblocks:elevator:*>.addTooltip(format.red("Space bar to go up, shift to go down"));
+<openblocks:elevator:*>.addTooltip(format.red("Has a vertical range of 32 blocks"));
+<openblocks:elevator:*>.addTooltip(format.red("For a larger range, use the elevator from Ender Utilities"));
+
+<enderutilities:ender_elevator:*>.addTooltip(format.red("Place multiples at different heights to teleport between them"));
+<enderutilities:ender_elevator:*>.addTooltip(format.red("Space bar to go up, shift to go down"));
+
+<projecte:item.pe_evertide_amulet>.addTooltip(format.red("Thanks to ChaosStrikez for fixing the block deletion bug!"));
+<projecte:item.pe_volcanite_amulet>.addTooltip(format.red("Thanks to ChaosStrikez for fixing the block deletion bug!"));
+
+<appliedenergistics2:wireless_terminal>.addTooltip(format.red("Thanks to Glance for helping with bauble tooltips!"));
+<bhc:heart_amulet>.addTooltip(format.red("Thanks to Dorambor for helping with bauble tooltips!"));
+<thaumcraft:goggles>.addTooltip(format.red("Thanks to Dorambor for helping with bauble tooltips!"));
+
+<botania:cosmetic:32>.addTooltip(format.red("Dorambor's favorite!"));
+
+<draconicevolution:energy_storage_core>.addTooltip(format.red("kurrycat doesn't want you to crash"));

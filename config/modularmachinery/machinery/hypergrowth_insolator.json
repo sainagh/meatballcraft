@@ -2,6 +2,7 @@
     "registryname": "hypergrowth_insolator",
     "localizedname": "Hypergrowth Insolator",
 	"color": "790091",
+    "has-factory": true,
     "parts": [
         {
             "x": -1,

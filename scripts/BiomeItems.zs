@@ -358,7 +358,7 @@ gemvoracity.itemRightClick = function(stack, world, player, hand) {
 	} 
 
     if((UndergardenMatches) >= 1) {
-		player.sendChat("Correct, the right biome is the Undergarden!");
+		player.sendChat("Correct, the right biome is the Mesa Bryce!");
 		val UndergardenMatchesD = UndergardenMatches as double;
 		player.sendChat("Completion : " ~ UndergardenMatchesD/17*100 ~ "%");
 		player.sendChat("Convert a bigger area!");

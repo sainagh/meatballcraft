@@ -30,6 +30,14 @@
             "id": "contenttweaker:must_be_overworld_abyssal_dimensions",
             "count": 1
           }
+      },
+      "d": {
+        "id": "minecraft:wool",
+        "meta": 14,
+        "item": {
+            "id": "contenttweaker:keep_in_one_chunk",
+            "count": 1
+          }
       }
     },
     "shape": [
@@ -130,7 +138,7 @@
           "c",
           "b",
           "c",
-          "b",
+          "d",
           "c",
           "b",
           "c"

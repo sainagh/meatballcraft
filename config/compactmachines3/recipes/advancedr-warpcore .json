@@ -15,8 +15,8 @@
 
   "input-types": {
     "a": {
-      "id": "techreborn:storage",
-      "meta": 2
+      "id": "libvulpes:metal0",
+      "meta": 7
     },
     "b": {
       "id": "libvulpes:structuremachine",

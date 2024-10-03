@@ -14,7 +14,7 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "spectrolus"}
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "omniviolet"}),
 [
-    "Generates mana from books or written books (better)",
+    "Generates mana from books",
     "Can be boosted by bookshelves like an enchanting table"
 ]);
 
@@ -641,7 +641,7 @@ mods.jei.JEI.addDescription([<contenttweaker:rocket>,<advancedrocketry:rocketmot
 
 mods.jei.JEI.addDescription([<contenttweaker:space_station>,<advancedrocketry:monitoringstation>,<advancedrocketry:spacestationchip>,<advancedrocketry:loader:1>,<advancedrocketry:stationbuilder>],
 [
-    "A Space Station requires the Launchpad multiblock and two rockets! This has to be done in the Overworld!",
+    "A Space Station requires the Launchpad multiblock and a rocket! This has to be done in the Overworld!",
     "",
     "The Space Station can be made out of any blocks as long as they are placed inside the launchpad volume!",
     "",
@@ -655,9 +655,9 @@ mods.jei.JEI.addDescription([<contenttweaker:space_station>,<advancedrocketry:mo
     "",
     "Place one of your ID chips into the Guidance Computer.",
     "",
-    "Use the Rocket Monitoring Station to lauch the space station rocket!",
+    "You can jump into the rocket, and lauch it! It will land on the newly formed space station!",
     "",
-    "Build a rocket for yourself and place another ID chip into it to go to the space station!"
+    "The remaining ID chip can be used to get to the station with another rocket in case you get locked out!"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -797,7 +797,7 @@ mods.jei.JEI.addDescription([
 	"Abyssal Wasteland uses Abyssal Cobblestone",
 	"Dreadlands uses Dreadstone Cobblestone",
 	"Omothol uses Ethaxium Bricks",
-	"Darklands uses Dark Ethaxium Bricks"
+	"Darkl Realm uses Dark Ethaxium Bricks"
 ]);
 
 
@@ -1598,7 +1598,7 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_livingmyrmitite>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft an enchanted myrmitite with the following modifier tomes: aura of destruction 2, loot farmer 4, experienced 5, razor edge 5."
+    "Craft a Myrmitite with the following modifier tomes: aura of destruction 2, loot farmer 4, experienced 5, razor edge 5."
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_marksamurai>,
@@ -1701,11 +1701,11 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_ptah>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Press U on beecon comb, 5 reagents!",
+    "Press U on beecon comb!",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft these reagents together: air, haste, lightning, acquisition, magnetism"
+    "Craft the right condensed potions by crafting the following reagents with the Beecon Comb: air, haste, lightning, acquisition, magnetism"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_hator>,
@@ -1915,8 +1915,8 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_recursion_dungeon>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft a sacred acorn with the following tree barks: erebus eucalyptus, shyre, teak, brazilwood, fusewood, olive, cedar, mortum.",
-    "Craft a sacred acorn with the following tree barks: darkwood, iroko, hellbark, umbran, baobab, dragons blood, runic, canopy tree."
+    "Craft a sacred acorn with the following tree barks from careerbees: erebus eucalyptus, shyre, teak, brazilwood, fusewood, olive, cedar, mortum.",
+    "Craft a sacred acorn with the following tree barks from careerbees: natura darkwood, iroko, hellbark, umbran, baobab, dragons blood, runic, canopy tree."
 ]);
 
 mods.jei.JEI.addDescription(<bloodmagic:altar>,
@@ -2107,14 +2107,13 @@ mods.jei.JEI.addDescription([<extrautils2:compressedcobblestone:0>,
     <extrautils2:compressedcobblestone:4>,
     <extrautils2:compressedcobblestone:5>,
     <extrautils2:compressedcobblestone:6>,
-    <extrautils2:compressedcobblestone:7>,
-    <storagedrawers:compdrawers>,
-    <projecte:collector_mk1>,
-    <projecte:condenser_mk1>],
+    <extrautils2:compressedcobblestone:7>],
 [
-    "To automate Compressed Cobblestone, you should start by making Cobblestone using ProjectE, and combine it with Compacting Drawers.",
+    "To automate Compressed Cobblestone, you should start by making Cobblestone using ProjectE or Nuclearcraft, and combine it with Compacting Drawers.",
     "",
-    "A single cobblestone creation unit consists of an Energy Condenser MK1 with a collector on top (better MK3). You just need one collector for each condenser. If you need more cobble, make multiple of thse units.",
+    "A single cobblestone creation unit consists of an Energy Condenser MK1 with a collector on top (better MK3). You just need one collector for each condenser. If you need more cobble, make multiple of these units.",
+    "",
+    "The Dense Cobblestone Generator is also a viable option, as opposed to an EMC setup.",
     "",
     "To compress the cobblestone, Compacting Drawers are best, just chain them till the desired tiers.",
     "",
@@ -2174,9 +2173,9 @@ mods.jei.JEI.addDescription([<contenttweaker:farming_will>,
 
 mods.jei.JEI.addDescription([<contenttweaker:ritual_mass_enchanting>],
 [
-    "This is how you can combine enchantments over the vanilla anvil limit, up to level 15.",
+    "This is how you can combine enchantments over the vanilla anvil limit, up to level 15. It can combine normally-incompatible enchants, like fire protection and blast protection, as well.",
     "",
-    "The ritual requires the base Abyssalcraft setup, using the Abyssalnomicon, and can be performed in any dimension!",
+    "The ritual requires the base Abyssalcraft setup, using the Abyssalnomicon, and can be performed in any dimension! It costs 50000 PE.",
     "",
     "Place 8 enchanted books of any type (has to be eight) on the outer pedestals. Place a compatible enchantable item in the center.",
     "",
@@ -2484,9 +2483,11 @@ mods.jei.JEI.addDescription(<contenttweaker:farming_unattuned_celestial_crystals
     "",
     "If a Celestial Crystal is at max size (900) it has a chance of being split in two different crystals when dropped in Liquid Starlight. This will consume the bucket of Starlight.",
     "",
-    "This process can be automated by using an Auto-Placer to keep a block space full of Starlight and using an Entity Detector from Cyclic to send a redstone signal to a collector when two entities (aka two crystals) are present in the designated block space.",
+    "This process can be automated in two ways: ",
     "",
-    "The system can be set up to pick up only one of the two crystals, or to pick up both, and drop one of them back into the Starlight."
+    "1. [Slightly more laggy, but easier] By using an Auto-Placer to keep a block space with an attuned celestial crystal full of Starlight. A properly-filtered Vacuum Chest can collect the unattuned crystals that will result from the splitting, while leaving the attuned crystal to endlessly replicate more unattuned ones.",
+    "",
+    "2. By using an Auto-Placer to keep a block space full of Starlight and using an Entity Detector from Cyclic to send a redstone signal to a collector when two entities (aka two crystals) are present in the designated block space. The system can be set up to pick up only one of the two crystals, or to pick up both, and drop one of them back into the Starlight."
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:levelling_up_crystals>,
@@ -3808,7 +3809,7 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_dragonslayer>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Combine the Whispering Heart of Hearts with the following Dragon Scales: White, Amethyst, Green, Gray."
+    "Combine the Whispering Heart of Hearts with the following Dragon Scales: White, Amethyst, Emerald, Gray."
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_wyvernmonument>,
@@ -3887,11 +3888,60 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_spellrecyclercrystal
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the right type of chest with the right crystals, in the right shapes. The villagers above the nether will guide you. Red nether bricks and darkwood may give you hints.",
+    "Craft the right type of chest with the right crystals, in the right shapes. The villagers above the nether will guide you. Find the Sacred Oak.",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Craft a plus sign of Magic Crystals with a Crystal Chest in the center."
+]);
+
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_furnaceguy>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft the Everburner with the right Pigments. The Molten Furnace in Gallifrey will guide you.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft an Everburner with the following Pigments: Light Mauve, Teal, Indigo, Turquoise."
+]);
+
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_biomeritual>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "This all starts from the Biome Ritual Callstone. The books in there will direct you to the location where the biome ritual should be performed, as well as to many different structures in many different dimensions. The loot in these structures consists of 12 different biome foci. After finding the right dimension to use the Terraformassiflora, change the biomes in a 5x5 area according to the blocks on the floor of the Biome Ritual Callstone. Each of the 12 blocks corresponds to each of the 12 biomes (make sure you orient the north/south/east/west correctly). The Arcane Terraformer allows you to modify the biomes of the right dimension to reproduce the right biome pattern. The biome checker item is very helpful here. Once done (I know too easy), stand in the middle of the 5x5 and use the Terraformassiflora.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "This lists the various biomes, how many blocks you need in square brackets, and the coordinates to change in parentheses.",
+    "",
+    "MY: mysterium [2](-2,-2)(2,2)",
+    "NW: nuclear wasteland [2](-1,-2)(1,2)",
+    "SB: storage biome [2](0,-2)(0,2)",
+    "CC: crystal chasms [2](1,-2)(-1,2)",
+    "BV: dangerous black void [2](2,-2)(-2,2)",
+    "TS: twilight steam [4](-2,-1)(2,-1)(-2,1)(2,1)",
+    "AF: alien forest [2] (-1,-1)(1,1)",
+    "ST: stormland [2] (0,-1)(0,1)",
+    "TH: thornlands [2](1,-1)(-1,1)",
+    "TL: tainted lands [2](-2,0)(2,0)",
+    "IR: iromine [2](-1,0)(1,0)",
+    "BO: bog [1](0,0)",
+    "",
+    "Use the Terraformassiflora in Europa, in the center of the following pattern of biomes (top = north = -z) (left = west = -x) (bottom = south = +z) (right = east = +x)",
+    "",
+    "MY NW SB CC BV",
+    "TS AF ST TH TS",
+    "TL IR BO IR TL",
+    "TS TH ST AF TS",
+    "BV CC SB NW MY"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -4170,3 +4220,184 @@ mods.jei.JEI.addDescription([
     "",
     "Defeat the final boss!"
 ]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:passive_packagedauto>],
+[
+    "Both the packager and unpackager can be treated as any other type of machine, and they can be passived with a bit of setup. Useful for things like fine mineral dust!",
+    "",
+    "A few things to note:",
+    "A. Packager, unpackager, and package crafters act like normal machines if powered through quartz fiber or normal energy transfer. You want them to get power, you don't want them to get channels.",
+    "B. All packagers and unpackagers used for the same automation should have the same type of package recipe encoder. ",
+    "C. You will likely need more than 1 packager. Things are easier if you use a separate packager for each recipe package shown in the encoder gui. Mouse over each package to see the sub-recipe you will need to make in each packager.",
+    "D. Packagers in 'first match' mode will produce sub-recipes out of order. Set all your packager into this mode.",
+    "",
+    "If these are followed, you can set up a passive line as follows.",
+    "1. Start from an individual drawer wall (or other inventory) with the ingredients for each recipe package.",
+    "2. Pipe Items from each drawer wall into each packager using limited item filters, use the numbers corresponding to each sub-recipe.",
+    "3. Pipe  recipe packages from the packagers into one packager touching the right package crafter.",
+    "4. Pipe end result out of the package crafter."
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:passive_extended_crafting>],
+[
+    "Extended crafting can be automated passively with the automation interface.",
+    "",
+    "This method is slow, for fast automation passive packaged auto is recommended (it has its own JEI info box), but this method is simpler, and fast enough for some resources.",
+    "",
+    "Place an Automation Interface on top of an extended crafting table (including the Ender Crafting Table), and click 'Save Recipe' to set the ercipe to be automated.",
+    "",
+    "The Automation Interface can be set to auto-pull under 'Config'.",
+    "",
+    "A Drawer Controller with a wall containing the required ingredients can be placed next to the Automation Interface, and the ingredients can be auto-pulled into the table!"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:woot_flusher>],
+[
+    "This item resets ALL woot farms.",
+    "",
+    "To reset individual mobs, run the following command:",
+    "/woot flush *mobname*",
+    "",
+    "To obtain the mob name for the specific one you want to flush, you can check the entity ID while hovering your mouse over the corresponding spawn egg in JEI.",
+    "It will be formatted as *modid*:*mobid*"
+]);
+
+mods.jei.JEI.addDescription([
+    <projecte:collector_mk1>,
+    <projecte:collector_mk2>,
+    <projecte:collector_mk3>],
+[
+    "Collectors generate EMC from light.",
+    "",
+    "If one is placed in the world, it will make EMC passively. It can be sped up by placing Glowstone directly around it.",
+    "",
+    "It will automatically transfer EMC to Condensers and Relays placed directly adjacent.",
+    "",
+    "Placing coal and other fuels in the Collector will consume EMC to transmute them into higher EMC fuels, but this mechanic is not really used in the pack."
+]);
+
+mods.jei.JEI.addDescription([
+    <projecte:relay_mk1>,
+    <projecte:relay_mk2>,
+    <projecte:relay_mk3>],
+[
+    "Relays are EMC batteries.",
+    "",
+    "It will automatically collect EMC from adjacent Collectors.",
+    "",
+    "It will automatically transfer EMC to adjacent Condensers."
+]);
+
+mods.jei.JEI.addDescription([
+    <projecte:condenser_mk1>,
+    <projecte:condenser_mk2>],
+[
+    "Condensers are the earliest way to automate EMC items. Place the desired item to duplicate in the top left slot.",
+    "",
+    "EMC to duplicate the desired item can come from collectors and relays, or from other EMC items that are piped into the Condenser.",
+    "",
+    "There are many ways to farm items with high EMC to push into your condenser.",
+    "",
+    "The MK2 condenser has separate inventories for inputs and outputs, and it converts faster, making it better suited for automation."
+]);
+
+mods.jei.JEI.addDescription([
+    <dimdoors:stabilized_rift_signature>,
+    <dimdoors:rift_signature>],
+[
+    "Right clicking the Rift SIgnature on two different locations creates two rifts. The base version can get unstable, while the stabilized version will allow for safer use.",
+    "",
+    "Placing Iron Dimensional Doors on these rifts will link them to each other."
+]);
+
+mods.jei.JEI.addDescription([
+    <botania:enchanter>],
+[
+    "The Mana Enchanter lets you apply enchants on a tool without consuming the books.",
+    "",
+    "Form the structure as shown in the preview, and click the Lapis Block with a Wand of the Forest.",
+    "",
+    "Place a fully unenchanted item on the Enchanter, and drop the desired enchanted books around it.",
+    "",
+    "To power it, you can use sparks. The cost of each enchant grows exponentially with level, but it can accept enchants above the anvil limit."
+]);
+
+mods.jei.JEI.addDescription([
+    <ore:bewitchmentAltar>],
+[
+    "The witches altar is how you generate magical energy (ME) in bewitchment!",
+    "",
+    "The structure for the altar is a 3x2 table, and it can be made by any type of altar. Right click the structure with a vanilla carpet to form the altar!",
+    "",
+    "The altar generates energy passively. Right clicking the altar with an empty hand will tell you the available energy, as well as the maximum energy for the altar. Most mechanics in bewitchment use ME to run!",
+    "",
+    "The amount of diverse nature (crops, trees, flowers) will set the maximum ME. The more different plants you have, the higher the maximum energy in the altar!",
+    "",
+    "You can place statues around the altar, or particular artifacts on the altar to add multipliers to ME rate and amount. These will show up when searching Witches Altar in JEI."
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:buildcraft_heat_exchanger>,
+    <buildcraftfactory:heat_exchange>],
+[
+    "The Buildcraft Heat Exchanger is used to move fluids from various states, in order of temperature: Cool, Hot, Searing.",
+    "",
+    "To heat up a fluid (Cool to Hot), it must be placed as a cold input in the Heat Exchanger multiblock (see preview for multiblock structure, inputs, outputs), using lava as a hot input.",
+    "",
+    "To cool down a fluid (Hot to Cool), it must be placed as a hot input, with a fluid of a lower temperature as the cold input.",
+    "",
+    "In terms of pack progression, the only required chain uses Heavy Oil from Cool to Searing."
+]);
+
+mods.jei.JEI.addDescription([
+    <rf-capability-adapter:aecapabilityadapter>,
+    <rf-capability-adapter:aecapabilityadapter_part>],
+[
+    "The ME capability adapter allows to interface between AE2 and compact machines.",
+    "",
+    "Place a capability adapter adjacent to a compact machine. Inside the machine, connect another capability adapter adjacent to a tunnel set to the appropriate side (if you place the outside adapter on the west side, the interior tunnel needs to be set to WEST).",
+    "",
+    "The block form transfers 32 channels.",
+    "",
+    "The panel form transfers 8 channels. "
+]);
+
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:getting_more_starlight>,
+    <astralsorcery:blockaltar:*>],
+[
+    "To function, Altars from Astral Sorcery need starlight. Different recipes require different amounts. If an item does not show up in the Altar GUI after its recipe is added, it is because you need more starlight.",
+    "",
+    "Sky access at night is enough to get starlight, but some recipes require more that what's normally available.",
+    "",
+    "The higher your y level, the higher the starlight.",
+    "",
+    "Special chunks have higher starlight than others, holding a Fosic Resonator at night will show them.",
+    "",
+    "Placing Spectral Relays according to their multiblock (see preview) around the altar will boost starlight. If multiple of these multiblocks are too close to each other, they will reduce starlight.",
+    "",
+    "Linking a Collector Crystal to an altar will also increase starlight. Using the Collector Crystal multiblock will increase this boost."
+]);
+
+mods.jei.JEI.addDescription([
+    <rftools:space_chamber_controller>,
+    <rftools:space_chamber>,
+    <rftools:space_chamber_card>],
+[
+    "The space chamber is the most versatile way to automatically place large structures.",
+    "",
+    "To copy a shape to be automatically built, place Space Chamber Corner Blocks in 7 of the 8 corners of the structure you want built, and the Controller in the 8th and final corner.",
+    "",
+    "Right click the controller with a Wrench to set the structure.",
+    "",
+    "If the structure is set correctly, right clicking the controller with a Space Chamber Card will program it for the desired structure.",
+    "",
+    "Place the resulting card in a builder to auto-build your desired structure."
+]);
+
+
+

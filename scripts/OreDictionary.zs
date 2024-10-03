@@ -60,6 +60,7 @@ oresednanite.add(<contenttweaker:sednanite_ore>);
 
 val orerhenium = <ore:oreRhenium>;
 orerhenium.add(<contenttweaker:rhenium_ore>);
+orerhenium.remove(<contenttweaker:sub_block_holder_1:8>);
 
 val oremyrmitite = <ore:oreMyrmitite>;
 oremyrmitite.add(<contenttweaker:myrmitite_ore>);

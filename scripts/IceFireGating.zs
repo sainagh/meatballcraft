@@ -1,7 +1,7 @@
 mods.extendedcrafting.TableCrafting.addShaped(<iceandfire:dread_key>, 
-[[<iceandfire:dragon_skull:0>, <iceandfire:troll_tusk>, <iceandfire:dragon_skull:1>], 
+[[<iceandfire:dragon_skull:0>, <iceandfire:dragon_skull:2>, <iceandfire:dragon_skull:1>], 
 [null, <animus:keybinding>, null], 
-[<iceandfire:dragon_skull:0>, <iceandfire:cyclops_skull>, <iceandfire:dragon_skull:1>]]); 
+[<iceandfire:dragon_skull:0>, <iceandfire:dragon_skull:2>, <iceandfire:dragon_skull:1>]]); 
 
 recipes.addShapeless(<iceandfire:dragonforge_fire_core_disabled>,[<iceandfire:dragonforge_fire_core>]);
 recipes.addShapeless(<iceandfire:dragonforge_fire_core>,[<iceandfire:dragonforge_fire_core_disabled>]);
@@ -53,3 +53,5 @@ recipes.addShapeless(<iceandfire:summoning_crystal_lightning>,
 <minecraft:ender_pearl>,
 <minecraft:diamond>,
 <ore:gemAmethyst>]);
+
+

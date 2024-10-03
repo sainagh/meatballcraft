@@ -815,3 +815,9 @@ recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:5>,
 mods.nuclearcraft.heat_exchanger.addRecipe([<fluid:high_pressure_steam>*1000, <fluid:supercritical_steam>*1000, 80000.0, 300, 700]);
 
 mods.nuclearcraft.turbine.addRecipe([<fluid:supercritical_steam>, <fluid:exhaust_steam>*4, 3000.0, 200.0]);
+
+
+recipes.addShaped(<nuclearcraft:melter_idle>, 
+[[<nuclearcraft:part:1>, <contenttweaker:nethengeic_gem>, <nuclearcraft:part:1>],
+[<enderio:item_material:72>, <nuclearcraft:part:10>, <enderio:item_material:72>],
+[<nuclearcraft:part:1>, <tconstruct:ingots:1>, <nuclearcraft:part:1>]]);

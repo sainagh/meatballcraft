@@ -46,11 +46,11 @@ val befaller4 = RecipeBuilder.newBuilder("befaller4","meteoric_befaller",1200);
 // befaller4.addAspectInput("stellae",50);
 befaller4.addLifeEssenceInput(50000, false);
 befaller4.addItemInput(<contenttweaker:hyperchitinous_plate>);
-befaller4.addItemOutput(<erebus:ore_jade>*12);
-befaller4.addItemOutput(<erebus:ore_petrified_quartz>*12);
-befaller4.addItemOutput(<erebus:ore_fossil>*10);
-befaller4.addItemOutput(<erebus:ore_gneiss>*10);
-befaller4.addItemOutput(<erebus:ore_petrified_wood>*10);
+befaller4.addItemOutput(<erebus:ore_jade>*32);
+befaller4.addItemOutput(<erebus:ore_petrified_quartz>*32);
+befaller4.addItemOutput(<erebus:ore_fossil>*32);
+befaller4.addItemOutput(<erebus:ore_gneiss>*32);
+befaller4.addItemOutput(<erebus:ore_petrified_wood>*32);
 befaller4.build();
 
 val befaller5 = RecipeBuilder.newBuilder("befaller5","meteoric_befaller",1200);

@@ -15,6 +15,19 @@
                 "operation": 1,
                 "multiplier": 2.0
             }
+        },
+        {
+            "elements": "contenttweaker:core_of_halite_definition",
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "description": "Replace unidentified body for 8x output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 8.0
+            }
         }
     ],
     "parts": [

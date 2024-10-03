@@ -256,8 +256,13 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<materialpart:lunastone:ingot>*
 
 
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:chaotic_egg>, <fluid:abyssite>*144, <fluid:chaos>*1440]);
+
 mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:abyssite>*144, <fluid:twilight_fire>*20, <fluid:slumbering_abyssite>*144, null]);
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:chaotic_egg>, <fluid:slumbering_abyssite>*144, <fluid:chaos>*2880]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:slumbering_abyssite>*144, <fluid:shyrestone>*36, <fluid:imperial_abyssite>*144, null]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:chaotic_egg>, <fluid:imperial_abyssite>*144, <fluid:chaos>*14400]);
+
 
 mods.forestry.Squeezer.addRecipe(<fluid:purifying_fluid>*1000, [<contenttweaker:pure_egg>], 120);
 

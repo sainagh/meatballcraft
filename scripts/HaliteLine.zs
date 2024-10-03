@@ -39,6 +39,7 @@ plasmahalite.addItemInput(<contenttweaker:time_crystal>*8);
 plasmahalite.addItemInput(<contenttweaker:horcrux>*4);
 plasmahalite.addItemInput(<contenttweaker:recursium_ingot>*2);
 plasmahalite.addItemInput(<contenttweaker:optical_event_horizon>);
+plasmahalite.addItemInput(<extrabotany:lens:6>);
 plasmahalite.addItemOutput(<contenttweaker:gallifrey_fabrial>);
 plasmahalite.build();
 
@@ -56,11 +57,11 @@ creationwarren.build();
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:halite_imbuement_fabrial>, 
-[[null, null, null, null, null], 
-[null, null, <contenttweaker:halite_warrior>, null, null], 
-[null, <contenttweaker:halite_warrior>, <contenttweaker:gallifrey_fabrial>, <contenttweaker:halite_warrior>, null], 
-[null, null, <contenttweaker:halite_warrior>, null, null], 
-[null, null, null, null, null]]);  
+[[<contenttweaker:perfected_gallifreyan_plate>, <thaumcraft:mechanism_complex>, <conarm:armor_plate>.withTag({Material: "manyullyn"}), <thaumcraft:mechanism_complex>, <contenttweaker:perfected_gallifreyan_plate>], 
+[<thaumcraft:mechanism_complex>, <contenttweaker:ancient_recursion>, <contenttweaker:halite_warrior>, <contenttweaker:primordial_recursion>, <thaumcraft:mechanism_complex>], 
+[<conarm:armor_plate>.withTag({Material: "manyullyn"}), <contenttweaker:halite_warrior>, <contenttweaker:gallifrey_fabrial>, <contenttweaker:halite_warrior>, <conarm:armor_plate>.withTag({Material: "manyullyn"})], 
+[<thaumcraft:mechanism_complex>, <contenttweaker:immortal_recursion>, <contenttweaker:halite_warrior>, <contenttweaker:temporal_recursion>, <thaumcraft:mechanism_complex>], 
+[<contenttweaker:perfected_gallifreyan_plate>, <thaumcraft:mechanism_complex>, <conarm:armor_plate>.withTag({Material: "manyullyn"}), <thaumcraft:mechanism_complex>, <contenttweaker:perfected_gallifreyan_plate>]]);  
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:pure_halite_cluster>, 
 
@@ -82,3 +83,20 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:pure_halite_cluste
 
 [<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, null, <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>]]);  
 
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:core_of_halite_definition>, 
+[[<ore:ingotFractalliteHalite>, null, <contenttweaker:well_defined_machine_case>, null, <ore:ingotFractalliteHalite>], 
+[null, <contenttweaker:defined_block>, null, <contenttweaker:defined_block>, null], 
+[<contenttweaker:well_defined_machine_case>, null, <avaritia:block_resource:1>, null, <contenttweaker:well_defined_machine_case>], 
+[null, <contenttweaker:defined_block>, null, <contenttweaker:defined_block>, null], 
+[<ore:ingotFractalliteHalite>, null, <contenttweaker:well_defined_machine_case>, null, <ore:ingotFractalliteHalite>]]);  
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:greater_gaia_spirit>, 
+100000, <contenttweaker:lesser_mana_core>, 
+[<botania:manaresource:14>, <botania:manaresource:14>,
+<aoa3:shyregem>, <aoa3:shyregem>,
+<ore:ingotShadowium>, <ore:ingotShadowium>,
+<ore:ingotShadowium>, <ore:ingotShadowium>,
+<ore:ingotPhotonium>, <ore:ingotPhotonium>,
+<ore:ingotPhotonium>, <ore:ingotPhotonium>]);

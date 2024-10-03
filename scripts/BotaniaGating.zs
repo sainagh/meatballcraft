@@ -53,7 +53,24 @@ recipes.addShaped(<botania:specialflower>.withTag({type: "orechid"})*2,
 [<contenttweaker:mithrillium_catalyst>, <botania:specialflower>.withTag({type: "orechid"}), <contenttweaker:mithrillium_catalyst>],
 [<contenttweaker:arkenstone>, <contenttweaker:arkenstone>, <contenttweaker:arkenstone>]]);
 
+recipes.addShaped(<botania:specialflower>.withTag({type: "orechid"})*2,
+[[<contenttweaker:arkenstone>, <contenttweaker:arkenstone>, <contenttweaker:arkenstone>],
+[<contenttweaker:mithrillium_catalyst>, <botania:floatingspecialflower>.withTag({type: "orechid"}), <contenttweaker:mithrillium_catalyst>],
+[<contenttweaker:arkenstone>, <contenttweaker:arkenstone>, <contenttweaker:arkenstone>]]);
+
+
 recipes.addShaped(<botania:specialflower>.withTag({type: "orechidIgnem"})*2,
 [[<contenttweaker:arkenstone>, <contenttweaker:arkenstone>, <contenttweaker:arkenstone>],
 [<contenttweaker:mithrillium_catalyst>, <botania:specialflower>.withTag({type: "orechidIgnem"}), <contenttweaker:mithrillium_catalyst>],
 [<contenttweaker:arkenstone>, <contenttweaker:arkenstone>, <contenttweaker:arkenstone>]]);
+
+recipes.addShaped(<botania:specialflower>.withTag({type: "orechidIgnem"})*2,
+[[<contenttweaker:arkenstone>, <contenttweaker:arkenstone>, <contenttweaker:arkenstone>],
+[<contenttweaker:mithrillium_catalyst>, <botania:floatingspecialflower>.withTag({type: "orechidIgnem"}), <contenttweaker:mithrillium_catalyst>],
+[<contenttweaker:arkenstone>, <contenttweaker:arkenstone>, <contenttweaker:arkenstone>]]);
+
+recipes.remove(<extrabotany:puredaisypendant>);
+
+recipes.addShaped(<extrabotany:puredaisypendant>,
+[[<botania:specialflower>.withTag({type: "puredaisy"}), <botania:manaresource:19>, <botania:specialflower>.withTag({type: "puredaisy"})],
+[null, <botania:specialflower>.withTag({type: "puredaisy"}), null]]);

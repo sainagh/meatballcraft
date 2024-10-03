@@ -755,6 +755,7 @@ val mythpulv125 = RecipeBuilder.newBuilder("mythpulv125","mythic_processor_pulve
 mythpulv125.addEnergyPerTickInput(60000);
 mythpulv125.addItemInput(<ore:oreLapis> * 16);
 mythpulv125.addItemOutput(<minecraft:dye:4>*128);
+mythpulv125.addItemOutput(<techreborn:dust:28>*32);
 mythpulv125.addItemOutput(<thermalfoundation:material:771>*16);
 mythpulv125.build();
 
@@ -1257,3 +1258,9 @@ mythpulv202.addItemInput(<ore:oreChargedCertusQuartz> * 16);
 mythpulv202.addItemOutput(<appliedenergistics2:material:1>*64);
 mythpulv202.addItemOutput(<appliedenergistics2:material:2>*32);
 mythpulv202.build();
+
+val mythpulv203 = RecipeBuilder.newBuilder("mythpulv203","mythic_processor_pulverizer",2);
+mythpulv203.addEnergyPerTickInput(60000);
+mythpulv203.addItemInput(<ore:ingotRhenium> * 16);
+mythpulv203.addItemOutput(<materialpart:rhenium:dust>*16);
+mythpulv203.build();

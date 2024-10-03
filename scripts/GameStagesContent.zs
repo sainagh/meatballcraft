@@ -118,7 +118,7 @@ mods.DimensionStages.addDimensionStage("dynatos", 170);
 mods.DimensionStages.addDimensionStage("dynatos", 171);
 mods.DimensionStages.addDimensionStage("dynatos", 172);
 mods.DimensionStages.addDimensionStage("dynatos", 173);
-mods.DimensionStages.addDimensionStage("alkemia", 173);
+mods.DimensionStages.addDimensionStage("alkemia", 174);
 mods.DimensionStages.addDimensionStage("extendedcrafting", -1);
 
 mods.recipestages.Recipes.addShaped("makedivinestonesedna", "sedna", <divinerpg:divine_rock>, [

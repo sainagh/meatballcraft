@@ -40,7 +40,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -48,7 +48,7 @@
             "y": 5,
             "z": 6,
             "elements": [
-                "railcraft:brick_bloodstained@1"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -56,7 +56,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "railcraft:brick_bloodstained@1"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -64,7 +64,7 @@
             "y": 3,
             "z": 5,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -112,7 +112,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -136,7 +136,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -156,14 +156,6 @@
             ]
         },
         {
-            "x": 2,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "chisel:bloodmagic@5"
-            ]
-        },
-        {
             "x": -1,
             "y": 6,
             "z": 0,
@@ -174,7 +166,7 @@
         {
             "x": 2,
             "y": 6,
-            "z": 4,
+            "z": 3,
             "elements": [
                 "chisel:bloodmagic@5"
             ]
@@ -188,11 +180,19 @@
             ]
         },
         {
+            "x": 2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:bloodmagic@5"
+            ]
+        },
+        {
             "x": 1,
             "y": 5,
             "z": 0,
             "elements": [
-                "railcraft:brick_bloodstained@1"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -264,7 +264,7 @@
             "y": 4,
             "z": 5,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -288,7 +288,15 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:bloodmagic@3"
             ]
         },
         {
@@ -302,17 +310,9 @@
         {
             "x": 3,
             "y": 1,
-            "z": 3,
-            "elements": [
-                "chisel:bloodmagic@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
             "z": 4,
             "elements": [
-                "railcraft:brick_bloodstained@1"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -320,7 +320,7 @@
             "y": 5,
             "z": 4,
             "elements": [
-                "railcraft:brick_bloodstained@1"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -344,7 +344,7 @@
             "y": 5,
             "z": 2,
             "elements": [
-                "railcraft:brick_bloodstained@1"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -352,7 +352,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "railcraft:brick_bloodstained@1"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -360,7 +360,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "railcraft:brick_bloodstained@1"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -392,7 +392,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -440,7 +440,7 @@
             "y": 5,
             "z": 5,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -496,7 +496,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -532,19 +532,19 @@
             ]
         },
         {
-            "x": -2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
-            ]
-        },
-        {
             "x": 2,
             "y": 0,
             "z": 3,
             "elements": [
                 "chisel:bloodmagic@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -580,14 +580,6 @@
             ]
         },
         {
-            "x": -3,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "railcraft:brick_bloodstained@1"
-            ]
-        },
-        {
             "x": 1,
             "y": 0,
             "z": 1,
@@ -598,9 +590,9 @@
         {
             "x": -3,
             "y": 5,
-            "z": 3,
+            "z": 4,
             "elements": [
-                "chisel:bloodmagic@3"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -614,9 +606,17 @@
         {
             "x": -3,
             "y": 5,
+            "z": 3,
+            "elements": [
+                "chisel:bloodmagic@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
             "z": 2,
             "elements": [
-                "railcraft:brick_bloodstained@1"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -664,7 +664,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "railcraft:brick_bloodstained@1"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -688,7 +688,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -696,7 +696,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "railcraft:brick_bloodstained@1"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -705,6 +705,14 @@
             "z": 0,
             "elements": [
                 "chisel:bloodmagic@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -724,19 +732,11 @@
             ]
         },
         {
-            "x": 2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
-            ]
-        },
-        {
             "x": -2,
             "y": 3,
             "z": 5,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -752,7 +752,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -764,19 +764,19 @@
             ]
         },
         {
-            "x": 2,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
-            ]
-        },
-        {
             "x": -2,
             "y": 0,
             "z": 4,
             "elements": [
                 "chisel:bloodmagic@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -800,7 +800,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -828,19 +828,19 @@
             ]
         },
         {
-            "x": 1,
-            "y": 6,
-            "z": 6,
-            "elements": [
-                "chisel:bloodmagic@1"
-            ]
-        },
-        {
             "x": 0,
             "y": 6,
             "z": 5,
             "elements": [
                 "chisel:bloodmagic@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "chisel:bloodmagic@1"
             ]
         },
         {
@@ -868,14 +868,6 @@
             ]
         },
         {
-            "x": 1,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "chisel:bloodmagic@5"
-            ]
-        },
-        {
             "x": 0,
             "y": 6,
             "z": 1,
@@ -886,15 +878,23 @@
         {
             "x": 1,
             "y": 6,
-            "z": 3,
+            "z": 2,
             "elements": [
-                "chisel:bloodmagic@3"
+                "chisel:bloodmagic@5"
             ]
         },
         {
             "x": 0,
             "y": 6,
             "z": 2,
+            "elements": [
+                "chisel:bloodmagic@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
             "elements": [
                 "chisel:bloodmagic@3"
             ]
@@ -904,15 +904,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "railcraft:brick_bloodstained@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "chisel:bloodmagic@3"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -921,6 +913,14 @@
             "z": 0,
             "elements": [
                 "chisel:bloodmagic@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "chisel:bloodmagic@3"
             ]
         },
         {
@@ -928,21 +928,13 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
             "x": -3,
             "y": 1,
             "z": 3,
-            "elements": [
-                "chisel:bloodmagic@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 4,
             "elements": [
                 "chisel:bloodmagic@3"
             ]
@@ -956,11 +948,19 @@
             ]
         },
         {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:bloodmagic@3"
+            ]
+        },
+        {
             "x": -3,
             "y": 1,
             "z": 4,
             "elements": [
-                "railcraft:brick_bloodstained@1"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -981,10 +981,10 @@
         },
         {
             "x": -1,
-            "y": 5,
-            "z": 0,
+            "y": 0,
+            "z": 1,
             "elements": [
-                "railcraft:brick_bloodstained@1"
+                "chisel:bloodmagic@5"
             ]
         },
         {
@@ -997,10 +997,10 @@
         },
         {
             "x": -1,
-            "y": 0,
-            "z": 1,
+            "y": 5,
+            "z": 0,
             "elements": [
-                "chisel:bloodmagic@5"
+                "railcraft:bloodstained@1"
             ]
         },
         {
@@ -1048,7 +1048,7 @@
             "y": 2,
             "z": 5,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -1080,7 +1080,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -1088,7 +1088,7 @@
             "y": 4,
             "z": 5,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_railcraft_brick_bloodstained_0@2"
+                "railcraft:bloodstained@2"
             ]
         },
         {
@@ -1176,7 +1176,7 @@
             "y": 5,
             "z": 6,
             "elements": [
-                "railcraft:brick_bloodstained@1"
+                "railcraft:bloodstained@1"
             ]
         },
         {

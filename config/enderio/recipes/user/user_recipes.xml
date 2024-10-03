@@ -54,15 +54,24 @@
     </alloying>
   </recipe>
 
+  <recipe name="Alloy: alubrass, Variant: basealubrass" required="false">
+    <alloying energy="10000" exp="0.1">
+      <input name="ingotCopper" amount="1"/>
+      <input name="ingotAluminum" amount="3"/>
+      <output name="ingotAlubrass" amount="4"/>
+    </alloying>
+  </recipe>
 
-  <recipe name="Sagmill: oreYellorite Ore" disabled="true">
- <sagmilling energy="3600">
- <input name="oreYellorite" />
- <output name="dustYellorium" amount="2" />
- <output name="dustCyanite" chance="0.05" required="false" />
- <output name="oredict:cobblestone" chance="0.15" />
- </sagmilling>
- </recipe>
+
+  <recipe name="Sagmill: oreYellorite Ore" disabled="false">
+    <sagmilling energy="3600">
+    <input name="oreYellorite" />
+    <output name="dustYellorium" amount="2" />
+    <output name="dustCyanite" chance="0.01" required="false" />
+    <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+  
 
 
 </enderio:recipes>

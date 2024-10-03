@@ -225,3 +225,46 @@ recipes.addShaped(<environmentaltech:lightning_cont_1>,
 [[<environmentaltech:interconnect>, <environmentaltech:lightning_rod_insulated>, <environmentaltech:interconnect>],
 [<ore:blockLitherite>, <environmentaltech:lightning_rod_insulated>, <ore:blockLitherite>],
 [<ore:blockLitherite>, <ore:rodSednanite>, <ore:blockLitherite>]]);
+
+mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:singular_beecon>, <gendustry:honey_comb:13369>, 2048, <extendedcrafting:material:11>, 10000000);
+
+
+recipes.addShaped(<environmentaltech:modifier_creative_flight>,
+[[<contenttweaker:gravitite_dust>, <contenttweaker:singular_beecon>, <contenttweaker:gravitite_dust>],
+[<contenttweaker:first_order_mythic_fractal>, <environmentaltech:modifier_null>, <contenttweaker:first_order_mythic_fractal>],
+[<contenttweaker:gravitite_dust>, <contenttweaker:singular_beecon>, <contenttweaker:gravitite_dust>]]);
+
+recipes.addShaped(<environmentaltech:modifier_flight_speed>,
+[[<contenttweaker:gravitite_dust>, <environmentaltech:lonsdaleite_crystal>, <contenttweaker:gravitite_dust>],
+[<contenttweaker:first_order_mythic_fractal>, <environmentaltech:modifier_null>, <contenttweaker:first_order_mythic_fractal>],
+[<contenttweaker:gravitite_dust>, <environmentaltech:lonsdaleite_crystal>, <contenttweaker:gravitite_dust>]]);
+
+recipes.addShaped(<environmentaltech:modifier_strength>,
+[[<avaritia:block_resource:1>, <contenttweaker:eye_of_gallifrey>, <avaritia:block_resource:1>],
+[<contenttweaker:recursium_ingot>, <environmentaltech:modifier_null>, <contenttweaker:recursium_ingot>],
+[<avaritia:block_resource:1>, <contenttweaker:eye_of_gallifrey>, <avaritia:block_resource:1>]]);
+
+recipes.addShaped(<environmentaltech:modifier_regeneration>,
+[[<minecraft:ghast_tear>, <ore:ingotFractalliteHalite>, <minecraft:ghast_tear>],
+[<ore:ingotFractalliteHalite>, <environmentaltech:modifier_null>, <ore:ingotFractalliteHalite>],
+[<minecraft:ghast_tear>, <ore:ingotFractalliteHalite>, <minecraft:ghast_tear>]]);
+
+recipes.addShaped(<environmentaltech:modifier_resistance>,
+[[<ore:ingotFractalliteHalite>, <ore:ingotFractalliteHalite>, <ore:ingotFractalliteHalite>],
+[<ore:ingotFractalliteHalite>, <environmentaltech:modifier_null>, <ore:ingotFractalliteHalite>],
+[<ore:ingotFractalliteHalite>, <ore:ingotFractalliteHalite>, <ore:ingotFractalliteHalite>]]);
+
+recipes.addShaped(<environmentaltech:modifier_invisibility>,
+[[<contenttweaker:stone_of_the_shyre_warden>, <contenttweaker:mortum_star>, <contenttweaker:stone_of_the_shyre_warden>],
+[<contenttweaker:mortum_star>, <environmentaltech:modifier_null>, <contenttweaker:mortum_star>],
+[<contenttweaker:stone_of_the_shyre_warden>, <contenttweaker:mortum_star>, <contenttweaker:stone_of_the_shyre_warden>]]);
+
+recipes.addShaped(<environmentaltech:modifier_health_boost>,
+[[<minecraft:ghast_tear>, <contenttweaker:spinel_ring>, <minecraft:ghast_tear>],
+[<contenttweaker:spinel_ring>, <environmentaltech:modifier_null>, <contenttweaker:spinel_ring>],
+[<minecraft:ghast_tear>, <contenttweaker:spinel_ring>, <minecraft:ghast_tear>]]);
+
+recipes.addShaped(<environmentaltech:modifier_absorption>,
+[[<contenttweaker:shield_of_terra>, <contenttweaker:spinel_ring>, <contenttweaker:shield_of_terra>],
+[<contenttweaker:spinel_ring>, <environmentaltech:modifier_null>, <contenttweaker:spinel_ring>],
+[<contenttweaker:shield_of_terra>, <contenttweaker:spinel_ring>, <contenttweaker:shield_of_terra>]]);

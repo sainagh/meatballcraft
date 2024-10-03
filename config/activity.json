@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "meatballcraft",
+      "uniqueId": "8c381e15-592d-4003-ae11-6367e203127b"
+    },
+    "time": 1724018568188,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/foCY9uBp10"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "meatballcraft",
+      "uniqueId": "8c381e15-592d-4003-ae11-6367e203127b"
+    },
+    "time": 1724016589811,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/uL6KqlS0me"
+    }
+  }
+]

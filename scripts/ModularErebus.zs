@@ -1,5 +1,12 @@
 import mods.modularmachinery.RecipeBuilder;
+import scripts.enchantwrapper.EnchantUtil.EnchantMap;
+import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
 
+val enchlistMjolnirWrapped as EnchantMap = EnchantMap()
+	.add("minecraft:sharpness",31)
+	.add("minecraft:mending",1)
+	.add("minecraft:unbreaking",3)
+	.add("minecraft:sweeping",4);
 
 val bot1 = RecipeBuilder.newBuilder("erefor1","cold_iron_forge",200);
 bot1.addItemInput(<bewitchment:cold_iron_ingot>*4);
@@ -32,7 +39,7 @@ bot5.addItemInput(<erebus:materials:0>*64);
 bot5.addItemInput(<minecraft:iron_block>*32);
 bot5.addItemInput(<minecraft:nether_star>*4);
 bot5.addItemInput(<minecraft:diamond>*2);
-bot5.addItemOutput(<erebus:war_hammer>.withTag({ench: [{lvl: 31 as short, id: 16 as short}, {lvl: 1 as short, id: 70 as short}, {lvl: 3 as short, id: 34 as short},{lvl: 4 as short, id: 22 as short}], RepairCost: 1, display: {Name: "§6§oMjolnir§r", Lore:["§d§oSuper-Enchanted§r"]}}));
+bot5.addItemOutput(SuperEnchantedItem(<erebus:war_hammer>.withTag({display: {Name:"§6§oMjolnir§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistMjolnirWrapped).getItem());
 bot5.build();
 
 val bot6 = RecipeBuilder.newBuilder("erefor6","cold_iron_forge",2000);

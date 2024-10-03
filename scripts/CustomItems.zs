@@ -3409,10 +3409,7 @@ rainbowegg.maxStackSize = 64;
 rainbowegg.beaconPayment = false;
 rainbowegg.register();
 
-var disgustingomelette = VanillaFactory.createItem("disgusting_omelette");
-disgustingomelette.maxStackSize = 64;
-disgustingomelette.beaconPayment = false;
-disgustingomelette.register();
+
 
 var moscoviumtraces = VanillaFactory.createItem("moscovium_traces");
 moscoviumtraces.maxStackSize = 64;

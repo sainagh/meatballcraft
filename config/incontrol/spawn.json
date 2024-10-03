@@ -1544,6 +1544,29 @@
     },
     "onjoin": true,
     "result": "allow"
+  },
+
+  {
+    "mob": "divinerpg:rainbour",
+    "dimension": 0,
+    "maxcount": {
+      "amount": 10,
+      "mob": "divinerpg:rainbour",
+      "perplayer": true
+    },
+    "onjoin": true,
+    "result": "allow"
+  },
+
+  {
+    "mob": "minecraft:squid",
+    "maxcount": {
+      "amount": 20,
+      "mob": "minecraft:squid",
+      "perplayer": true
+    },
+    "onjoin": true,
+    "result": "allow"
   }
 
 ]

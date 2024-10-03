@@ -83,6 +83,11 @@ recipes.addShaped(<contenttweaker:etherium_saw_blade>,
 [<contenttweaker:adamantium_plate>, <extendedcrafting:singularity_custom:1025>, <contenttweaker:adamantium_plate>],
 [<techreborn:part:5>, <contenttweaker:adamantium_plate>, <techreborn:part:5>]]);
 
+recipes.addShaped(<contenttweaker:etherium_saw_blade>*2, 
+[[<contenttweaker:arkengem>, <contenttweaker:adamantium_plate>, <contenttweaker:arkengem>],
+[<contenttweaker:adamantium_plate>, <contenttweaker:etherium_saw_blade>, <contenttweaker:adamantium_plate>],
+[<contenttweaker:arkengem>, <contenttweaker:adamantium_plate>, <contenttweaker:arkengem>]]);
+
 
 val specialgrinding1 = RecipeBuilder.newBuilder("specialgrinding1","mythic_processor_pulverizer",1);
 specialgrinding1.addEnergyPerTickInput(60000);

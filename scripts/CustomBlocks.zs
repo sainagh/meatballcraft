@@ -1784,9 +1784,120 @@ recursivestone.setToolLevel(3);
 recursivestone.register();
 
 var monumentallysentientmeatball = VanillaFactory.createBlock("monumentally_sentient_meatball", <blockmaterial:iron>);
-monumentallysentientmeatball.setBlockHardness(-1.0);
+monumentallysentientmeatball.setBlockHardness(1.0);
 monumentallysentientmeatball.setBlockResistance(2.5);
 monumentallysentientmeatball.setToolClass("pickaxe");
 monumentallysentientmeatball.setToolLevel(3);
 monumentallysentientmeatball.register();
 
+var harbingersentientmeatball = VanillaFactory.createBlock("harbinger_sentient_meatball", <blockmaterial:iron>);
+harbingersentientmeatball.setBlockHardness(1.0);
+harbingersentientmeatball.setBlockResistance(2.5);
+harbingersentientmeatball.setToolClass("pickaxe");
+harbingersentientmeatball.setToolLevel(3);
+harbingersentientmeatball.register();
+
+var hotinput = VanillaFactory.createBlock("hot_input", <blockmaterial:iron>);
+hotinput.setBlockHardness(1.0);
+hotinput.setBlockResistance(2.5);
+hotinput.setToolClass("pickaxe");
+hotinput.setToolLevel(3);
+hotinput.register();
+
+var coldinput = VanillaFactory.createBlock("cold_input", <blockmaterial:iron>);
+coldinput.setBlockHardness(1.0);
+coldinput.setBlockResistance(2.5);
+coldinput.setToolClass("pickaxe");
+coldinput.setToolLevel(3);
+coldinput.register();
+
+var cooledoutput = VanillaFactory.createBlock("cooled_output", <blockmaterial:iron>);
+cooledoutput.setBlockHardness(1.0);
+cooledoutput.setBlockResistance(2.5);
+cooledoutput.setToolClass("pickaxe");
+cooledoutput.setToolLevel(3);
+cooledoutput.register();
+
+var heatedoutput = VanillaFactory.createBlock("heated_output", <blockmaterial:iron>);
+heatedoutput.setBlockHardness(1.0);
+heatedoutput.setBlockResistance(2.5);
+heatedoutput.setToolClass("pickaxe");
+heatedoutput.setToolLevel(3);
+heatedoutput.register();
+
+var sacredcindersapiary = VanillaFactory.createBlock("sacred_cinders_apiary", <blockmaterial:iron>);
+sacredcindersapiary.setBlockHardness(1.0);
+sacredcindersapiary.setBlockResistance(2.5);
+sacredcindersapiary.setToolClass("pickaxe");
+sacredcindersapiary.setToolLevel(3);
+sacredcindersapiary.register();
+
+var adamantiumreinforcedbricks = VanillaFactory.createBlock("adamantium_reinforced_petrified_wood", <blockmaterial:iron>);
+adamantiumreinforcedbricks.setBlockHardness(1.0);
+adamantiumreinforcedbricks.setBlockResistance(2.5);
+adamantiumreinforcedbricks.setToolClass("pickaxe");
+adamantiumreinforcedbricks.setToolLevel(3);
+adamantiumreinforcedbricks.register();
+
+var dreadfulice = VanillaFactory.createBlock("dreadful_ice", <blockmaterial:iron>);
+dreadfulice.setBlockHardness(1.0);
+dreadfulice.setBlockResistance(2.5);
+dreadfulice.setToolClass("pickaxe");
+dreadfulice.setToolLevel(3);
+dreadfulice.register();
+
+var alchemicalore = VanillaFactory.createBlock("alchemical_ore", <blockmaterial:iron>);
+alchemicalore.setBlockHardness(1.0);
+alchemicalore.setBlockResistance(2.5);
+alchemicalore.setToolClass("pickaxe");
+alchemicalore.setToolLevel(3);
+alchemicalore.register();
+
+var fractallitefurnacebricks = VanillaFactory.createBlock("fractallite_furnace_bricks", <blockmaterial:iron>);
+fractallitefurnacebricks.setBlockHardness(1.0);
+fractallitefurnacebricks.setBlockResistance(2.5);
+fractallitefurnacebricks.setToolClass("pickaxe");
+fractallitefurnacebricks.setToolLevel(3);
+fractallitefurnacebricks.register();
+
+var fractallitefurnaceconduit = VanillaFactory.createBlock("fractallite_furnace_conduit", <blockmaterial:iron>);
+fractallitefurnaceconduit.setBlockHardness(1.0);
+fractallitefurnaceconduit.setBlockResistance(2.5);
+fractallitefurnaceconduit.setToolClass("pickaxe");
+fractallitefurnaceconduit.setToolLevel(3);
+fractallitefurnaceconduit.register();
+
+var fractallitefurnaceempowerer = VanillaFactory.createBlock("fractallite_furnace_empowerer", <blockmaterial:iron>);
+fractallitefurnaceempowerer.setBlockHardness(1.0);
+fractallitefurnaceempowerer.setBlockResistance(2.5);
+fractallitefurnaceempowerer.setToolClass("pickaxe");
+fractallitefurnaceempowerer.setToolLevel(3);
+fractallitefurnaceempowerer.register();
+
+var fractallitefurnacecore = VanillaFactory.createBlock("fractallite_furnace_core", <blockmaterial:iron>);
+fractallitefurnacecore.setBlockHardness(1.0);
+fractallitefurnacecore.setBlockResistance(2.5);
+fractallitefurnacecore.setToolClass("pickaxe");
+fractallitefurnacecore.setToolLevel(3);
+fractallitefurnacecore.register();
+
+var halitereinforceddefinedblock = VanillaFactory.createBlock("core_of_halite_definition", <blockmaterial:iron>);
+halitereinforceddefinedblock.setBlockHardness(1.0);
+halitereinforceddefinedblock.setBlockResistance(2.5);
+halitereinforceddefinedblock.setToolClass("pickaxe");
+halitereinforceddefinedblock.setToolLevel(3);
+halitereinforceddefinedblock.register();
+
+var platedphotonium = VanillaFactory.createBlock("plated_photonium", <blockmaterial:iron>);
+platedphotonium.setBlockHardness(1.0);
+platedphotonium.setBlockResistance(2.5);
+platedphotonium.setToolClass("pickaxe");
+platedphotonium.setToolLevel(3);
+platedphotonium.register();
+
+var gallifreyanirradiator = VanillaFactory.createBlock("gallifreyan_irradiator", <blockmaterial:iron>);
+gallifreyanirradiator.setBlockHardness(1.0);
+gallifreyanirradiator.setBlockResistance(2.5);
+gallifreyanirradiator.setToolClass("pickaxe");
+gallifreyanirradiator.setToolLevel(3);
+gallifreyanirradiator.register();

@@ -4,7 +4,7 @@ recipes.removeShaped(<tardis:tardis_coral>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<tardis:tardis_coral>, 
 [[<avaritia:block_resource:1>, <contenttweaker:hypercubic_energy_orb>, <avaritia:block_resource:1>], 
-[<contenttweaker:hypercubic_energy_orb>, <ore:ingotHalite>, <contenttweaker:hypercubic_energy_orb>], 
+[<contenttweaker:hypercubic_energy_orb>, <ore:ingotFractalliteHalite>, <contenttweaker:hypercubic_energy_orb>], 
 [<avaritia:block_resource:1>, <contenttweaker:hypercubic_energy_orb>, <avaritia:block_resource:1>]]); 
 
 recipes.remove(<tardis:key>);

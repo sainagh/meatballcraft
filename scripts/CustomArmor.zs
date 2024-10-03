@@ -759,3 +759,50 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:ascended_draconic_
 [null, null, null, null, null, null, null, null, null], 
 [null, null, null, null, null, null, null, null, null], 
 [null, null, null, null, null, null, null, null, null]]);  
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:fractallite_halite_head>, 
+[[null, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, null], 
+[null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null], 
+[null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, <materialpart:fractallite_halite:ingot>, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null], 
+[null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null], 
+[null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null], 
+[null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, <contenttweaker:strings_crystal>, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:fractallite_halite_chest>, 
+[[null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, null, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null], 
+[<materialpart:fractallite_halite:ingot>, <contenttweaker:strings_crystal>, <materialpart:fractallite_halite:ingot>, null, null, null, <materialpart:fractallite_halite:ingot>, <contenttweaker:strings_crystal>, <materialpart:fractallite_halite:ingot>], 
+[<materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, null, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>], 
+[null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null], 
+[null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null], 
+[null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null], 
+[null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null], 
+[null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null], 
+[null, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, null]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:fractallite_halite_legs>, 
+[[<contenttweaker:strings_crystal>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <contenttweaker:strings_crystal>], 
+[<materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>], 
+[<materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>], 
+[<materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, null, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>], 
+[<materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, null, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>], 
+[<materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, null, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>], 
+[<materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, null, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>], 
+[<materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, null, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>], 
+[<materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, null, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:fractallite_halite_feet>, 
+[[null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null], 
+[null, <materialpart:fractallite_halite:ingot>, <contenttweaker:strings_crystal>, <materialpart:fractallite_halite:ingot>, null, <materialpart:fractallite_halite:ingot>, <contenttweaker:strings_crystal>, <materialpart:fractallite_halite:ingot>, null], 
+[null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null], 
+[<materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>], 
+[<materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>], 
+[<materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, null, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>, <materialpart:fractallite_halite:ingot>], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null]]);  

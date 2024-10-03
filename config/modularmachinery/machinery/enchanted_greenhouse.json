@@ -2,6 +2,22 @@
     "registryname": "enchanted_greenhouse",
     "localizedname": "Enchanted Greenhouse",
 	"color": "ffffcf",
+    "has-factory": true,
+    "modifiers": [
+        {
+            "elements": "contenttweaker:plated_photonium",
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "description": "Replace the top block for 10X speed",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.1
+            }
+        }
+    ],
     "parts": [
         {
             "x": 1,

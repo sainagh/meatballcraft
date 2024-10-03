@@ -1,0 +1,80 @@
+{
+    "name": "compactmachines3:buildcraft_heatexchanger",
+    "target-item": "buildcraftfactory:heat_exchange",
+    "target-meta": 5,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+
+    "input-types": {
+      "a": {
+        "id": "contenttweaker:hot_input",
+        "meta": 0
+      },
+      "b": {
+        "id": "contenttweaker:heated_output",
+        "meta": 0
+      },
+      "c": {
+        "id": "buildcraftfactory:heat_exchange",
+        "meta": 0,
+        "item": {
+            "id": "buildcraftfactory:heat_exchange",
+            "count": 3
+          }
+      },
+      "d": {
+        "id": "contenttweaker:cold_input",
+        "meta": 0
+      },
+      "e": {
+        "id": "contenttweaker:cooled_output",
+        "meta": 0
+      }
+    },
+    "input-nbt": {
+      "c:A": {
+        "nbt": "{id:\"buildcraftfactory:heat_exchange\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},data-version:2,deltas:{},owner:{Name:\"meatballcraft\",Id:\"8c381e15-592d-4003-ae11-6367e203127b\",Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTY3MDY1MTM5NCwKICAicHJvZmlsZUlkIiA6ICI4YzM4MWUxNTU5MmQ0MDAzYWUxMTYzNjdlMjAzMTI3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtZWF0YmFsbGNyYWZ0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcyNzNhYjFhZWNmNWY5MmNiMzU4ZjhlYmFjNTg1Yjc0M2VjNjY1N2NkZWZiOTA0YzE0MmQyYzY4ZTg2ZDQ3MDAiCiAgICB9CiAgfQp9\",Signature:\"kKGH2t3dCCTumS/xUq87O7TL/1apMFFNqvQ8KdNO8oi07LQUKpaz4fn/aMUZcjBqLP7I79C6QOARlL3voA8QxQOZ/Fu1xXFYjOscRiuvLoCaOJ4dCZ5y2nbfnmdEQbdxVyBZspX6h00WfcJjSvVHkH1sEUDoy48vvo1EIAB/+wPaRUJwQLxDYL+dUXBOBn1qDiKhu95AAUcYU1LaCuYgK8L64T3SHXqXWSl7ZxJvhpgUD8yRC5xd+OpRYGhE1Ckudpc/Wk+jlJkvilHrJim/xQvEt8Zi24FhaadmTja2n5f+IsrEjjJbjpsUQLTPlc7bQr2VsP4A9fTjvw8/ryO55Kh0reJdWfX/9/veX0jfwHRptz93a7FLeQVl42LlBuY8VQ2Ts78GNt0BBSZHqRyE/fZMTYd+DBPafotnGk/1BNX165JpYcU1zwaSuDrWgzy/kVKsGhi4fw1HJovRWyGyviHPAoxgeTSfBXiMx3gHOJUHaRBoZRlaxZk8/b2UhH0kPt8RA0x839fQYxErwAYNuc/eW63WnN306zP+PCX8fSDcmIIY/5mjgH4cOshF+DYaul1RxFTlwJRnnuZEymkje3PcVxEjX3dSy3utdtM24Wo/XIDe7CsjpEir7VPe+smNIIQxAU+2CgRT+SFzzv14ivnaSU0X2RKt+W6fZU8OUh0\u003d\"}]}},section:{input:{Empty:\"\"},output:{Empty:\"\"},start:0b}}"
+      },
+      "c:B": {
+        "nbt": "{id:\"buildcraftfactory:heat_exchange\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},data-version:2,deltas:{},owner:{Name:\"meatballcraft\",Id:\"8c381e15-592d-4003-ae11-6367e203127b\",Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTY3MDY1MTM5NCwKICAicHJvZmlsZUlkIiA6ICI4YzM4MWUxNTU5MmQ0MDAzYWUxMTYzNjdlMjAzMTI3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtZWF0YmFsbGNyYWZ0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcyNzNhYjFhZWNmNWY5MmNiMzU4ZjhlYmFjNTg1Yjc0M2VjNjY1N2NkZWZiOTA0YzE0MmQyYzY4ZTg2ZDQ3MDAiCiAgICB9CiAgfQp9\",Signature:\"kKGH2t3dCCTumS/xUq87O7TL/1apMFFNqvQ8KdNO8oi07LQUKpaz4fn/aMUZcjBqLP7I79C6QOARlL3voA8QxQOZ/Fu1xXFYjOscRiuvLoCaOJ4dCZ5y2nbfnmdEQbdxVyBZspX6h00WfcJjSvVHkH1sEUDoy48vvo1EIAB/+wPaRUJwQLxDYL+dUXBOBn1qDiKhu95AAUcYU1LaCuYgK8L64T3SHXqXWSl7ZxJvhpgUD8yRC5xd+OpRYGhE1Ckudpc/Wk+jlJkvilHrJim/xQvEt8Zi24FhaadmTja2n5f+IsrEjjJbjpsUQLTPlc7bQr2VsP4A9fTjvw8/ryO55Kh0reJdWfX/9/veX0jfwHRptz93a7FLeQVl42LlBuY8VQ2Ts78GNt0BBSZHqRyE/fZMTYd+DBPafotnGk/1BNX165JpYcU1zwaSuDrWgzy/kVKsGhi4fw1HJovRWyGyviHPAoxgeTSfBXiMx3gHOJUHaRBoZRlaxZk8/b2UhH0kPt8RA0x839fQYxErwAYNuc/eW63WnN306zP+PCX8fSDcmIIY/5mjgH4cOshF+DYaul1RxFTlwJRnnuZEymkje3PcVxEjX3dSy3utdtM24Wo/XIDe7CsjpEir7VPe+smNIIQxAU+2CgRT+SFzzv14ivnaSU0X2RKt+W6fZU8OUh0\u003d\"}]}}}"
+      },
+      "c:C": {
+        "nbt": "{id:\"buildcraftfactory:heat_exchange\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},data-version:2,deltas:{},owner:{Name:\"meatballcraft\",Id:\"8c381e15-592d-4003-ae11-6367e203127b\",Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTY3MDY1MTM5NCwKICAicHJvZmlsZUlkIiA6ICI4YzM4MWUxNTU5MmQ0MDAzYWUxMTYzNjdlMjAzMTI3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtZWF0YmFsbGNyYWZ0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcyNzNhYjFhZWNmNWY5MmNiMzU4ZjhlYmFjNTg1Yjc0M2VjNjY1N2NkZWZiOTA0YzE0MmQyYzY4ZTg2ZDQ3MDAiCiAgICB9CiAgfQp9\",Signature:\"kKGH2t3dCCTumS/xUq87O7TL/1apMFFNqvQ8KdNO8oi07LQUKpaz4fn/aMUZcjBqLP7I79C6QOARlL3voA8QxQOZ/Fu1xXFYjOscRiuvLoCaOJ4dCZ5y2nbfnmdEQbdxVyBZspX6h00WfcJjSvVHkH1sEUDoy48vvo1EIAB/+wPaRUJwQLxDYL+dUXBOBn1qDiKhu95AAUcYU1LaCuYgK8L64T3SHXqXWSl7ZxJvhpgUD8yRC5xd+OpRYGhE1Ckudpc/Wk+jlJkvilHrJim/xQvEt8Zi24FhaadmTja2n5f+IsrEjjJbjpsUQLTPlc7bQr2VsP4A9fTjvw8/ryO55Kh0reJdWfX/9/veX0jfwHRptz93a7FLeQVl42LlBuY8VQ2Ts78GNt0BBSZHqRyE/fZMTYd+DBPafotnGk/1BNX165JpYcU1zwaSuDrWgzy/kVKsGhi4fw1HJovRWyGyviHPAoxgeTSfBXiMx3gHOJUHaRBoZRlaxZk8/b2UhH0kPt8RA0x839fQYxErwAYNuc/eW63WnN306zP+PCX8fSDcmIIY/5mjgH4cOshF+DYaul1RxFTlwJRnnuZEymkje3PcVxEjX3dSy3utdtM24Wo/XIDe7CsjpEir7VPe+smNIIQxAU+2CgRT+SFzzv14ivnaSU0X2RKt+W6fZU8OUh0\u003d\"}]}},section:{start:1b,coolantCharge:0,heatantCharge:0}}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "_",
+          "b",
+          "_"
+        ]
+      ],
+      [
+        [
+          "e",
+          "c:C",
+          "c:B",
+          "c:A",
+          "a"
+        ]
+      ],
+      [
+        [
+          "_",
+          "d",
+          "_",
+          "_",
+          "_"
+        ]
+      ]
+    ]
+          
+}

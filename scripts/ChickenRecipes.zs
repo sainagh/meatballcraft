@@ -123,5 +123,30 @@ mods.techreborn.rollingMachine.addShaped(<chickens:spawn_egg>.withTag({ChickenTy
 [<contenttweaker:resplendent_ingot>,<minecraft:egg>,<contenttweaker:resplendent_ingot>],
 [<chickens:liquid_egg:1>,<contenttweaker:resplendent_ingot>,<chickens:liquid_egg:1>]]);
 
+mods.techreborn.rollingMachine.addShaped(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:coalchicken"}}), 
+[[<minecraft:coal>,<contenttweaker:resplendent_ingot>,<minecraft:coal>],
+[<contenttweaker:resplendent_ingot>,<minecraft:egg>,<contenttweaker:resplendent_ingot>],
+[<minecraft:coal>,<contenttweaker:resplendent_ingot>,<minecraft:coal>]]);
 
 mods.thermalexpansion.Centrifuge.addRecipe([(<bewitchment:tongue_of_dog>*12) % 20, (<bewitchment:adders_fork>*12) % 20, (<bewitchment:lizard_leg>*12) % 20, (<bewitchment:toe_of_frog>*12) % 20], <contenttweaker:abominable_egg>, null, 2000);
+
+
+mods.techreborn.rollingMachine.addShaped(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:redstonechicken"}}), 
+[[<minecraft:redstone>,<contenttweaker:resplendent_ingot>,<minecraft:redstone>],
+[<contenttweaker:resplendent_ingot>,<minecraft:egg>,<contenttweaker:resplendent_ingot>],
+[<minecraft:redstone>,<contenttweaker:resplendent_ingot>,<minecraft:redstone>]]);
+
+mods.techreborn.rollingMachine.addShaped(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:focusing_chicken"}}), 
+[[<contenttweaker:ichorium_gem>,<contenttweaker:resplendent_ingot>,<contenttweaker:ichorium_gem>],
+[<contenttweaker:resplendent_ingot>,<minecraft:egg>,<contenttweaker:resplendent_ingot>],
+[<contenttweaker:ichorium_gem>,<contenttweaker:resplendent_ingot>,<contenttweaker:ichorium_gem>]]);
+
+recipes.addShaped(<thaumcraft:focus_2>,
+[[<contenttweaker:focusing_egg>, <minecraft:ender_pearl>, <contenttweaker:focusing_egg>],
+[<ore:quicksilver>, <thaumcraft:focus_1>, <ore:quicksilver>],
+[<contenttweaker:focusing_egg>, <minecraft:diamond>, <contenttweaker:focusing_egg>]]);
+
+recipes.addShaped(<thaumcraft:focus_3>,
+[[<contenttweaker:focusing_egg>, <minecraft:nether_star>, <contenttweaker:focusing_egg>],
+[<ore:quicksilver>, <thaumcraft:focus_1>, <ore:quicksilver>],
+[<contenttweaker:focusing_egg>, <contenttweaker:primordial_sliver>, <contenttweaker:focusing_egg>]]);

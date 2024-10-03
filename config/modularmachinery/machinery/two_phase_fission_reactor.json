@@ -2,6 +2,21 @@
     "registryname": "two_phase_fission_reactor",
     "localizedname": "Two-Phase Fission reactor",
     "color": "113837",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:gallifreyan_irradiator",
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "description": "Replace the top block above the controller for 10X speed",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.1
+            }
+        }
+    ],
     "parts": [
         {
             "x": 2,

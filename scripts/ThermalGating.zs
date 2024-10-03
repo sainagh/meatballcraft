@@ -160,9 +160,9 @@ recipes.addShaped(<nuclearcraft:part:10>*4,
 [<ore:gaiaIngot>, <ore:plateCarbon>, <ore:gaiaIngot>]]);
 
 recipes.addShaped(<thermalexpansion:augment:258>,
-[[<ore:blockCoke>, <ore:blockCoke>, <ore:plateSignalum>],
-[<ore:blockCoke>, <thermalfoundation:material:515>, <ore:blockCoke>],
-[<ore:plateSignalum>, <ore:blockCoke>, <ore:blockCoke>]]);
+[[<ore:blockCoalCoke>, <ore:blockCoalCoke>, <ore:plateSignalum>],
+[<ore:blockCoalCoke>, <thermalfoundation:material:515>, <ore:blockCoalCoke>],
+[<ore:plateSignalum>, <ore:blockCoalCoke>, <ore:blockCoalCoke>]]);
 
 recipes.addShaped(<thermalexpansion:augment:258>,
 [[<ore:blockFuelCoke>, <ore:blockFuelCoke>, <ore:plateSignalum>],
@@ -310,3 +310,8 @@ recipes.addShaped(<thermalfoundation:tool.hammer_diamond>,
 [[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>],
 [<ore:gemDiamond>, <ore:stickWood>, <ore:gemDiamond>],
 [null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
+
+
+mods.nuclearcraft.manufactory.addRecipe([<ore:rodBlizz>, <thermalfoundation:material:2049>]);
+mods.nuclearcraft.manufactory.addRecipe([<ore:rodBlitz>, <thermalfoundation:material:2051>]);
+mods.nuclearcraft.manufactory.addRecipe([<ore:rodBasalz>, <thermalfoundation:material:2053>]);

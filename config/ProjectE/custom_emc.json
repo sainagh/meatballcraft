@@ -1934,7 +1934,7 @@
     },
     {
       "item": "botania:quartztypedark|2",
-      "emc": 0
+      "emc": 1024
     },
     {
       "item": "botania:quartzslabdarkhalf|0",
@@ -1946,11 +1946,11 @@
     },
     {
       "item": "botania:quartztypedark|1",
-      "emc": 0
+      "emc": 1024
     },
     {
       "item": "botania:quartztypedark|0",
-      "emc": 0
+      "emc": 1024
     },
     {
       "item": "forestry:flexible_casing|0",
@@ -3614,7 +3614,7 @@
     },
     {
       "item": "astralsorcery:blockmarbleslab|0",
-      "emc": 0
+      "emc": 2
     },
     {
       "item": "hatchery:chickenmanure|0",
@@ -5390,7 +5390,7 @@
     },
     {
       "item": "iceandfire:dragon_horn|0",
-      "emc": 4100
+      "emc": 0
     },
     {
       "item": "bloodmagic:demon_crucible|0",
@@ -6434,11 +6434,11 @@
     },
     {
       "item": "extrautils2:flattransfernode|1",
-      "emc": 100
+      "emc": 4
     },
     {
       "item": "extrautils2:flattransfernode|0",
-      "emc": 100
+      "emc": 4
     },
     {
       "item": "enderio:item_soul_filter_normal|0",
@@ -22163,6 +22163,390 @@
     {
       "item": "thermalfoundation:material|228",
       "emc": 0
+    },
+    {
+      "item": "railcraft:quarried_stone|0",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:quarried|0",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:quarried|1",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:quarried|2",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:quarried|3",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:quarried|4",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:quarried|5",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:quarried_brick_stairs|0",
+      "emc": 6
+    },
+    {
+      "item": "railcraft:quarried_paver_stairs|0",
+      "emc": 6
+    },
+    {
+      "item": "railcraft:quarried_slab|0",
+      "emc": 4
+    },
+    {
+      "item": "railcraft:quarried_slab|1",
+      "emc": 4
+    },
+    {
+      "item": "railcraft:bleachedbone|0",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:bleachedbone|1",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:bleachedbone|2",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:bleachedbone|3",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:bleachedbone|4",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:bleachedbone|5",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:bleachedbone_brick_stairs|0",
+      "emc": 6
+    },
+    {
+      "item": "railcraft:bleachedbone_paver_stairs|0",
+      "emc": 6
+    },
+    {
+      "item": "railcraft:bleachedbone_slab|1",
+      "emc": 4
+    },
+    {
+      "item": "railcraft:bleachedbone_slab|0",
+      "emc": 4
+    },
+    {
+      "item": "railcraft:bloodstained|1",
+      "emc": 68
+    },
+    {
+      "item": "railcraft:bloodstained|0",
+      "emc": 68
+    },
+    {
+      "item": "railcraft:bloodstained|2",
+      "emc": 68
+    },
+    {
+      "item": "railcraft:bloodstained|3",
+      "emc": 68
+    },
+    {
+      "item": "railcraft:bloodstained|4",
+      "emc": 68
+    },
+    {
+      "item": "railcraft:bloodstained|5",
+      "emc": 68
+    },
+    {
+      "item": "railcraft:bloodstained_paver_stairs|0",
+      "emc": 51
+    },
+    {
+      "item": "railcraft:bloodstained_brick_stairs|0",
+      "emc": 51
+    },
+    {
+      "item": "railcraft:bloodstained_slab|0",
+      "emc": 34
+    },
+    {
+      "item": "railcraft:bloodstained_slab|1",
+      "emc": 34
+    },
+    {
+      "item": "botania:grassseeds|0",
+      "emc": 1
+    },
+    {
+      "item": "botania:grassseeds|3",
+      "emc": 1
+    },
+    {
+      "item": "botania:grassseeds|4",
+      "emc": 1
+    },
+    {
+      "item": "botania:grassseeds|5",
+      "emc": 1
+    },
+    {
+      "item": "botania:grassseeds|6",
+      "emc": 1
+    },
+    {
+      "item": "botania:grassseeds|7",
+      "emc": 1
+    },
+    {
+      "item": "botania:grassseeds|8",
+      "emc": 1
+    },
+    {
+      "item": "enderio:item_material|50",
+      "emc": 112
+    },
+    {
+      "item": "xtones:bitt|1",
+      "emc": 17
+    },
+    {
+      "item": "xtones:bitt|2",
+      "emc": 17
+    },
+    {
+      "item": "xtones:bitt|3",
+      "emc": 17
+    },
+    {
+      "item": "xtones:bitt|4",
+      "emc": 17
+    },
+    {
+      "item": "xtones:bitt|5",
+      "emc": 17
+    },
+    {
+      "item": "xtones:bitt|6",
+      "emc": 17
+    },
+    {
+      "item": "xtones:bitt|7",
+      "emc": 17
+    },
+    {
+      "item": "xtones:bitt|8",
+      "emc": 17
+    },
+    {
+      "item": "xtones:bitt|9",
+      "emc": 17
+    },
+    {
+      "item": "xtones:bitt|10",
+      "emc": 17
+    },
+    {
+      "item": "xtones:bitt|11",
+      "emc": 17
+    },
+    {
+      "item": "xtones:bitt|12",
+      "emc": 17
+    },
+    {
+      "item": "xtones:bitt|14",
+      "emc": 17
+    },
+    {
+      "item": "xtones:bitt|13",
+      "emc": 17
+    },
+    {
+      "item": "xtones:bitt|15",
+      "emc": 17
+    },
+    {
+      "item": "tardis:gallifreyan_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "tardis:gallifreyan_stone|0",
+      "emc": 1
+    },
+    {
+      "item": "tardis:gallifreyan_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|0",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|1",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|2",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|3",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|4",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|5",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|2",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|3",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|12",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|11",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|10",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|9",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|8",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|7",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|6",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|7",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|6",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|5",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|13",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|14",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|15",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|0",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|1",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|4",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|8",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|9",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|10",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|15",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|14",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|13",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|12",
+      "emc": 1024
+    },
+    {
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|11",
+      "emc": 1024
+    },
+    {
+      "item": "railcraft:jaded_stone|0",
+      "emc": 1024
+    },
+    {
+      "item": "railcraft:jaded|0",
+      "emc": 1024
+    },
+    {
+      "item": "railcraft:jaded|1",
+      "emc": 1024
+    },
+    {
+      "item": "railcraft:jaded|2",
+      "emc": 1024
+    },
+    {
+      "item": "railcraft:jaded|3",
+      "emc": 1024
+    },
+    {
+      "item": "railcraft:jaded|5",
+      "emc": 1024
+    },
+    {
+      "item": "railcraft:jaded|4",
+      "emc": 1024
     }
   ]
 }

@@ -385,7 +385,8 @@ cra34.build();
 val cra35 = RecipeBuilder.newBuilder("cra35","sterilized_altar",400);
 cra35.addEnergyPerTickInput(1200);
 cra35.addFluidInput(<fluid:liquid_pe>*100);
-cra35.addItemInput(<minecraft:book>*4);
+cra35.addItemInput(<minecraft:book>*3);
+cra35.addItemInput(<minecraft:paper>*3);
 cra35.addItemOutput(<abyssalcraft:scroll:0>);
 cra35.build();
 

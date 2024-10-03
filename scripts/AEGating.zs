@@ -72,6 +72,10 @@ dragonScaleBlock.add(<iceandfire:dragonscale_blue>);
 dragonScaleBlock.add(<iceandfire:dragonscale_white>);
 dragonScaleBlock.add(<iceandfire:dragonscale_sapphire>);
 dragonScaleBlock.add(<iceandfire:dragonscale_silver>);
+dragonScaleBlock.add(<iceandfire:dragonscale_electric>);
+dragonScaleBlock.add(<iceandfire:dragonscale_amythest>);
+dragonScaleBlock.add(<iceandfire:dragonscale_copper>);
+dragonScaleBlock.add(<iceandfire:dragonscale_black>);
 
 
 recipes.removeShaped(<appliedenergistics2:spatial_pylon>);

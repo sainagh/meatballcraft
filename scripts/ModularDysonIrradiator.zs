@@ -256,35 +256,65 @@ fierypeat.addItemInput(<contenttweaker:energized_peat>);
 fierypeat.addFluidOutput(<fluid:fiery_peat>*100);
 fierypeat.build();
 
+recipes.addShaped(<contenttweaker:defined_inferium_catalyst>*32,
+[[<tconstruct:large_plate>.withTag({Material: "rosidian"}), <contenttweaker:defined_ingot>, <tconstruct:large_plate>.withTag({Material: "rosidian"})],
+[<contenttweaker:defined_ingot>, <extendedcrafting:singularity_custom:652>, <contenttweaker:defined_ingot>],
+[<tconstruct:large_plate>.withTag({Material: "rosidian"}), <contenttweaker:defined_ingot>, <tconstruct:large_plate>.withTag({Material: "rosidian"})]]);
+
+
+recipes.addShaped(<contenttweaker:defined_inferium_cluster>,
+[[<contenttweaker:defined_inferium_catalyst>, <contenttweaker:defined_inferium_catalyst>, <contenttweaker:defined_inferium_catalyst>],
+[<contenttweaker:defined_inferium_catalyst>, <contenttweaker:defined_ingot>, <contenttweaker:defined_inferium_catalyst>],
+[<contenttweaker:defined_inferium_catalyst>, <contenttweaker:defined_inferium_catalyst>, <contenttweaker:defined_inferium_catalyst>]]);
 recipes.addShaped(<contenttweaker:tier_i_defined_seed>,
-[[<contenttweaker:defined_ingot>, <mysticalagriculture:crafting:0>, <contenttweaker:defined_ingot>],
+[[<contenttweaker:defined_inferium_cluster>, <mysticalagriculture:crafting:0>, <contenttweaker:defined_inferium_cluster>],
 [<mysticalagriculture:crafting:0>, <mysticalagriculture:crafting:17>, <mysticalagriculture:crafting:0>],
-[<contenttweaker:defined_ingot>, <mysticalagriculture:crafting:0>, <contenttweaker:defined_ingot>]]);
+[<contenttweaker:defined_inferium_cluster>, <mysticalagriculture:crafting:0>, <contenttweaker:defined_inferium_cluster>]]);
 
+recipes.addShaped(<contenttweaker:defined_prudentium_cluster>,
+[[<contenttweaker:defined_prudentium_catalyst>, <contenttweaker:defined_prudentium_catalyst>, <contenttweaker:defined_prudentium_catalyst>],
+[<contenttweaker:defined_prudentium_catalyst>, <contenttweaker:defined_ingot>, <contenttweaker:defined_prudentium_catalyst>],
+[<contenttweaker:defined_prudentium_catalyst>, <contenttweaker:defined_prudentium_catalyst>, <contenttweaker:defined_prudentium_catalyst>]]);
 recipes.addShaped(<contenttweaker:tier_ii_defined_seed>,
-[[<contenttweaker:defined_ingot>, <mysticalagriculture:crafting:1>, <contenttweaker:defined_ingot>],
+[[<contenttweaker:defined_prudentium_cluster>, <mysticalagriculture:crafting:1>, <contenttweaker:defined_prudentium_cluster>],
 [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:1>],
-[<contenttweaker:defined_ingot>, <mysticalagriculture:crafting:1>, <contenttweaker:defined_ingot>]]);
+[<contenttweaker:defined_prudentium_cluster>, <mysticalagriculture:crafting:1>, <contenttweaker:defined_prudentium_cluster>]]);
 
+recipes.addShaped(<contenttweaker:defined_intermedium_cluster>,
+[[<contenttweaker:defined_intermedium_catalyst>, <contenttweaker:defined_intermedium_catalyst>, <contenttweaker:defined_intermedium_catalyst>],
+[<contenttweaker:defined_intermedium_catalyst>, <contenttweaker:defined_ingot>, <contenttweaker:defined_intermedium_catalyst>],
+[<contenttweaker:defined_intermedium_catalyst>, <contenttweaker:defined_intermedium_catalyst>, <contenttweaker:defined_intermedium_catalyst>]]);
 recipes.addShaped(<contenttweaker:tier_iii_defined_seed>,
-[[<contenttweaker:defined_ingot>, <mysticalagriculture:crafting:2>, <contenttweaker:defined_ingot>],
+[[<contenttweaker:defined_intermedium_cluster>, <mysticalagriculture:crafting:2>, <contenttweaker:defined_intermedium_cluster>],
 [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:2>],
-[<contenttweaker:defined_ingot>, <mysticalagriculture:crafting:2>, <contenttweaker:defined_ingot>]]);
+[<contenttweaker:defined_intermedium_cluster>, <mysticalagriculture:crafting:2>, <contenttweaker:defined_intermedium_cluster>]]);
 
+recipes.addShaped(<contenttweaker:defined_superium_cluster>,
+[[<contenttweaker:defined_superium_catalyst>, <contenttweaker:defined_superium_catalyst>, <contenttweaker:defined_superium_catalyst>],
+[<contenttweaker:defined_superium_catalyst>, <contenttweaker:defined_ingot>, <contenttweaker:defined_superium_catalyst>],
+[<contenttweaker:defined_superium_catalyst>, <contenttweaker:defined_superium_catalyst>, <contenttweaker:defined_superium_catalyst>]]);
 recipes.addShaped(<contenttweaker:tier_iv_defined_seed>,
-[[<contenttweaker:defined_ingot>, <mysticalagriculture:crafting:3>, <contenttweaker:defined_ingot>],
+[[<contenttweaker:defined_superium_cluster>, <mysticalagriculture:crafting:3>, <contenttweaker:defined_superium_cluster>],
 [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:3>],
-[<contenttweaker:defined_ingot>, <mysticalagriculture:crafting:3>, <contenttweaker:defined_ingot>]]);
+[<contenttweaker:defined_superium_cluster>, <mysticalagriculture:crafting:3>, <contenttweaker:defined_superium_cluster>]]);
 
+recipes.addShaped(<contenttweaker:defined_supremium_cluster>,
+[[<contenttweaker:defined_supremium_catalyst>, <contenttweaker:defined_supremium_catalyst>, <contenttweaker:defined_supremium_catalyst>],
+[<contenttweaker:defined_supremium_catalyst>, <contenttweaker:defined_ingot>, <contenttweaker:defined_supremium_catalyst>],
+[<contenttweaker:defined_supremium_catalyst>, <contenttweaker:defined_supremium_catalyst>, <contenttweaker:defined_supremium_catalyst>]]);
 recipes.addShaped(<contenttweaker:tier_v_defined_seed>,
-[[<contenttweaker:defined_ingot>, <mysticalagriculture:crafting:4>, <contenttweaker:defined_ingot>],
+[[<contenttweaker:defined_supremium_catalyst>, <mysticalagriculture:crafting:4>, <contenttweaker:defined_supremium_catalyst>],
 [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>],
-[<contenttweaker:defined_ingot>, <mysticalagriculture:crafting:4>, <contenttweaker:defined_ingot>]]);
+[<contenttweaker:defined_supremium_catalyst>, <mysticalagriculture:crafting:4>, <contenttweaker:defined_supremium_catalyst>]]);
 
+recipes.addShaped(<contenttweaker:defined_insanium_cluster>,
+[[<contenttweaker:defined_insanium_catalyst>, <contenttweaker:defined_insanium_catalyst>, <contenttweaker:defined_insanium_catalyst>],
+[<contenttweaker:defined_insanium_catalyst>, <contenttweaker:defined_ingot>, <contenttweaker:defined_insanium_catalyst>],
+[<contenttweaker:defined_insanium_catalyst>, <contenttweaker:defined_insanium_catalyst>, <contenttweaker:defined_insanium_catalyst>]]);
 recipes.addShaped(<contenttweaker:tier_vi_defined_seed>,
-[[<contenttweaker:defined_ingot>, <mysticalagradditions:insanium:0>, <contenttweaker:defined_ingot>],
+[[<contenttweaker:defined_insanium_cluster>, <mysticalagradditions:insanium:0>, <contenttweaker:defined_insanium_cluster>],
 [<mysticalagradditions:insanium:0>, <mysticalagradditions:insanium:1>, <mysticalagradditions:insanium:0>],
-[<contenttweaker:defined_ingot>, <mysticalagradditions:insanium:0>, <contenttweaker:defined_ingot>]]);
+[<contenttweaker:defined_insanium_cluster>, <mysticalagradditions:insanium:0>, <contenttweaker:defined_insanium_cluster>]]);
 
 val irradiationseed1 = RecipeBuilder.newBuilder("irradiationseed1","dyson_irradiator",200);
 irradiationseed1.addEnergyPerTickInput(500000);

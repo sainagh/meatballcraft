@@ -1,0 +1,5526 @@
+{
+    "registryname": "fractallite_furnace",
+    "localizedname": "Fractallite Furnace",
+	"color": "b5953c",
+    "parts": [
+        {
+            "x": -4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_core@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 13,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_core@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:miniature_star@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 13,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fractallite_furnace_empowerer@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:fractallite_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        }
+    ]}

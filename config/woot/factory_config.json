@@ -303,7 +303,9 @@
     "iceandfire:lightningdragon",
     "aoa3:stimulosus",
     "bewitchment:baphomet",
-    "bewitchment:leonard"
+    "bewitchment:leonard",
+    "thaumcraft:cultistportalgreater",
+    "thaumcraft:cultistportallesser"
   ],
   "entitywhitelist": [
   ],

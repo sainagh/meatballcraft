@@ -152,6 +152,16 @@ recipes.addShaped(<bewitchment:perpetual_ice>,
 [<minecraft:packed_ice>, <contenttweaker:dread_crown>.reuse(), <minecraft:packed_ice>],
 [<minecraft:packed_ice>, <minecraft:packed_ice>, <minecraft:packed_ice>]]);
 
+recipes.addShaped(<contenttweaker:dreadful_ice>,
+[[null, <bewitchment:perpetual_ice>, null],
+[<bewitchment:perpetual_ice>, <contenttweaker:dread_crown>.reuse(), <bewitchment:perpetual_ice>],
+[null, <bewitchment:perpetual_ice>, null]]);
+
+recipes.addShaped(<contenttweaker:dread_crown>,
+[[<ore:ingotVityte>, <iceandfire:dread_shard>, <ore:ingotVityte>],
+[<iceandfire:dread_shard>, <contenttweaker:dread_crown>.reuse(), <iceandfire:dread_shard>],
+[<ore:ingotVityte>, <iceandfire:dread_shard>, <ore:ingotVityte>]]);
+
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:second_order_mythic_fractal>, 
 1000000000, 1000000000, 
@@ -862,6 +872,10 @@ recipes.addShapeless(<contenttweaker:warren_shard_voxponds>*2,
 
 recipes.addShapeless(<contenttweaker:warren_shard_borean>*2,
 [<contenttweaker:warren_shard_borean>,
+<contenttweaker:recursium_fragment_iter3>]);
+
+recipes.addShapeless(<contenttweaker:warren_shard_runandor>*2,
+[<contenttweaker:warren_shard_runandor>,
 <contenttweaker:recursium_fragment_iter3>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_lunalus>*2,

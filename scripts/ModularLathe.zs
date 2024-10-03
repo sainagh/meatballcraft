@@ -164,8 +164,8 @@ lathe27.build();
 
 val lathe28 = RecipeBuilder.newBuilder("lathe28","aluminum_lathe",20);
 lathe28.addEnergyPerTickInput(2000);
-lathe28.addItemInput(<ore:ingotHalite>);
-lathe28.addItemOutput(<materialpart:halite:rod>*2);
+lathe28.addItemInput(<ore:ingotFractalliteHalite>);
+lathe28.addItemOutput(<materialpart:fractallite_halite:rod>*2);
 lathe28.build();
 
 val lathe29 = RecipeBuilder.newBuilder("lathe29","aluminum_lathe",20);

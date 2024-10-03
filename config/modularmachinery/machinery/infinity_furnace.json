@@ -2,6 +2,7 @@
     "registryname": "infinity_furnace",
     "localizedname": "Infinity Furnace",
 	"color": "ffffff",
+    "has-factory": true,
     "parts": [
         {
             "x": -1,
