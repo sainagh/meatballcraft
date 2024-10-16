@@ -2689,7 +2689,7 @@ tile.contenttweaker.fractallite_furnace_core.name=分形熔炉核心
 tile.contenttweaker.core_of_halite_definition.name=岩晶定义核心
 tile.contenttweaker.plated_photonium.name=镶板光子块
 tile.contenttweaker.gallifreyan_irradiator.name=伽里弗雷辐照器
-
+# Multiblocks
 modularmachinery.active_cooled_hea242=主动冷却式裂变堆设计：高密度镅-242燃料
 modularmachinery.active_cooled_hecf249=主动冷却式裂变堆设计：高密度锎-249燃料
 modularmachinery.active_cooled_hecm245=主动冷却式裂变堆设计：高密度锔-245燃料
@@ -2864,7 +2864,7 @@ modularmachinery.wizardry_combiner=巫术组合台
 modularmachinery.ziggurat_of_life=生命塔庙
 modularmachinery.sacred_cinders_apiary=神圣余烬蜂箱
 modularmachinery.fractallite_furnace=分形熔炉
-
+# Custom Materials
 base.material.demonic_steel=恶魔钢
 base.material.corrosive_steel=腐蚀钢
 base.material.destructive_steel=破坏钢
@@ -2943,7 +2943,7 @@ base.material.sentient_meatball=感知肉丸
 base.material.grave_dust=墓灰
 base.material.ichorium=灵液素
 base.material.ascended_draconic_alloy=飞升神龙合金
-
+# Missing Keys
 tile.bloodarsenal.slate..name=压缩石板
 fluid.bewitched_growth_catalyst=施魔生长催化剂
 fluid.aeternalis_fuel=液态永恒燃料
