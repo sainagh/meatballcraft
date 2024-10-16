@@ -2689,7 +2689,9 @@ tile.contenttweaker.fractallite_furnace_core.name=Fractallite Furnace Core
 tile.contenttweaker.core_of_halite_definition.name=Core of Halite Definition
 tile.contenttweaker.plated_photonium.name=Plated Photonium
 tile.contenttweaker.gallifreyan_irradiator.name=Gallifreyan Irradiator
-
+fluid.bewitched_growth_catalyst=Bewitched Growth Catalyst
+fluid.aeternalis_fuel=Aeternalis Fuel
+fluid.imperial_abyssite=Imperial Abyssite
 
 
 
