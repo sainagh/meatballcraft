@@ -2859,7 +2859,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos1.z = pos1.z + 1;
     var blockPos1 = pos1.asBlockPos();
     var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "Magenta Tallow Candle") {
+    if(blockState1 != "tile.candle_magenta.name") {
         player.sendChat("A Magenta Candle is incorrect or missing");
         return "FAIL";
     }
@@ -2869,7 +2869,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos2.z = pos2.z - 1;
     var blockPos2 = pos2.asBlockPos();
     var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "Magenta Tallow Candle") {
+    if(blockState2 != "tile.candle_magenta.name") {
         player.sendChat("A Magenta Candle is incorrect or missing");
         return "FAIL";
     }
@@ -2879,7 +2879,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos3.z = pos3.z - 1;
     var blockPos3 = pos3.asBlockPos();
     var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "Magenta Tallow Candle") {
+    if(blockState3 != "tile.candle_magenta.name") {
         player.sendChat("A Magenta Candle is incorrect or missing");
         return "FAIL";
     }
@@ -2889,7 +2889,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
     var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "Magenta Tallow Candle") {
+    if(blockState4 != "tile.candle_magenta.name") {
         player.sendChat("A Magenta Candle is incorrect or missing");
         return "FAIL";
     }
@@ -2899,7 +2899,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos5.z = pos5.z + 3;
     var blockPos5 = pos5.asBlockPos();
     var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "Magenta Tallow Candle") {
+    if(blockState5 != "tile.candle_magenta.name") {
         player.sendChat("A Magenta Candle is incorrect or missing");
         return "FAIL";
     }
@@ -2909,7 +2909,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos6.z = pos6.z + 3;
     var blockPos6 = pos6.asBlockPos();
     var blockState6 = world.getBlock(blockPos6).definition.displayName as string;
-    if(blockState6 != "Magenta Tallow Candle") {
+    if(blockState6 != "tile.candle_magenta.name") {
         player.sendChat("A Magenta Candle is incorrect or missing");
         return "FAIL";
     }
@@ -2919,7 +2919,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos7.z = pos7.z - 3;
     var blockPos7 = pos7.asBlockPos();
     var blockState7 = world.getBlock(blockPos7).definition.displayName as string;
-    if(blockState7 != "Magenta Tallow Candle") {
+    if(blockState7 != "tile.candle_magenta.name") {
         player.sendChat("A Magenta Candle is incorrect or missing");
         return "FAIL";
     }
@@ -2929,7 +2929,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos8.z = pos8.z - 3;
     var blockPos8 = pos8.asBlockPos();
     var blockState8 = world.getBlock(blockPos8).definition.displayName as string;
-    if(blockState8 != "Magenta Tallow Candle") {
+    if(blockState8 != "tile.candle_magenta.name") {
         player.sendChat("A Magenta Candle is incorrect or missing");
         return "FAIL";
     }
@@ -2938,7 +2938,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     posW.z = posW.z - 3;
     var blockPosW = posW.asBlockPos();
     var blockStateW = world.getBlock(blockPosW).definition.displayName as string;
-    if(blockStateW != "Orange Tallow Candle") {
+    if(blockStateW != "tile.candle_orange.name") {
         player.sendChat("An Orange Candle is incorrect or missing");
         return "FAIL";
     }
@@ -2947,7 +2947,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     posX.z = posX.z + 3;
     var blockPosX = posX.asBlockPos();
     var blockStateX = world.getBlock(blockPosX).definition.displayName as string;
-    if(blockStateX != "Orange Tallow Candle") {
+    if(blockStateX != "tile.candle_orange.name") {
         player.sendChat("An Orange Candle is incorrect or missing");
         return "FAIL";
     }
@@ -2956,7 +2956,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     posY.x = posY.x + 3;
     var blockPosY = posY.asBlockPos();
     var blockStateY = world.getBlock(blockPosY).definition.displayName as string;
-    if(blockStateY != "Orange Tallow Candle") {
+    if(blockStateY != "tile.candle_orange.name") {
         player.sendChat("An Orange Candle is incorrect or missing");
         return "FAIL";
     }
@@ -2965,7 +2965,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     posZ.x = posZ.x - 3;
     var blockPosZ = posZ.asBlockPos();
     var blockStateZ = world.getBlock(blockPosZ).definition.displayName as string;
-    if(blockStateZ != "Orange Tallow Candle") {
+    if(blockStateZ != "tile.candle_orange.name") {
         player.sendChat("An Orange Candle is incorrect or missing");
         return "FAIL";
     }
@@ -2975,7 +2975,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     posL.z = posL.z - 2;
     var blockPosL = posL.asBlockPos();
     var blockStateL = world.getBlock(blockPosL).definition.displayName as string;
-    if(blockStateL != "Blue Tallow Candle") {
+    if(blockStateL != "tile.candle_blue.name") {
         player.sendChat("A Blue Candle 1 is incorrect or missing");
         return "FAIL";
     }
@@ -2985,7 +2985,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     posM.z = posM.z - 2;
     var blockPosM = posM.asBlockPos();
     var blockStateM = world.getBlock(blockPosM).definition.displayName as string;
-    if(blockStateM != "Blue Tallow Candle") {
+    if(blockStateM != "tile.candle_blue.name") {
         player.sendChat("A Blue Candle 2 is incorrect or missing");
         return "FAIL";
     }
@@ -2995,7 +2995,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     posN.z = posN.z + 2;
     var blockPosN = posN.asBlockPos();
     var blockStateN = world.getBlock(blockPosN).definition.displayName as string;
-    if(blockStateN != "Blue Tallow Candle") {
+    if(blockStateN != "tile.candle_blue.name") {
         player.sendChat("A Blue Candle 3 is incorrect or missing");
         return "FAIL";
     }
@@ -3005,7 +3005,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     posO.z = posO.z + 2;
     var blockPosO = posO.asBlockPos();
     var blockStateO = world.getBlock(blockPosO).definition.displayName as string;
-    if(blockStateO != "Blue Tallow Candle") {
+    if(blockStateO != "tile.candle_blue.name") {
         player.sendChat("A Blue Candle 4 is incorrect or missing");
         return "FAIL";
     }
@@ -3578,7 +3578,7 @@ firstrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos1.z = pos1.z;
     var blockPos1 = pos1.asBlockPos();
     var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3589,7 +3589,7 @@ firstrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
     var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3600,7 +3600,7 @@ firstrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos3.z = pos3.z;
     var blockPos3 = pos3.asBlockPos();
     var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3611,7 +3611,7 @@ firstrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
     var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3622,7 +3622,7 @@ firstrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos5.z = pos5.z - 1;
     var blockPos5 = pos5.asBlockPos();
     var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3668,7 +3668,7 @@ secondrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos1.z = pos1.z;
     var blockPos1 = pos1.asBlockPos();
     var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3679,7 +3679,7 @@ secondrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
     var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3690,7 +3690,7 @@ secondrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos3.z = pos3.z;
     var blockPos3 = pos3.asBlockPos();
     var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3701,7 +3701,7 @@ secondrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
     var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3712,7 +3712,7 @@ secondrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos5.z = pos5.z - 1;
     var blockPos5 = pos5.asBlockPos();
     var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3762,7 +3762,7 @@ thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos1.z = pos1.z;
     var blockPos1 = pos1.asBlockPos();
     var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3773,7 +3773,7 @@ thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
     var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3784,7 +3784,7 @@ thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos3.z = pos3.z;
     var blockPos3 = pos3.asBlockPos();
     var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3795,7 +3795,7 @@ thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
     var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3806,7 +3806,7 @@ thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos5.z = pos5.z - 1;
     var blockPos5 = pos5.asBlockPos();
     var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3849,7 +3849,7 @@ fourthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos1.z = pos1.z;
     var blockPos1 = pos1.asBlockPos();
     var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3860,7 +3860,7 @@ fourthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
     var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3871,7 +3871,7 @@ fourthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos3.z = pos3.z;
     var blockPos3 = pos3.asBlockPos();
     var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3882,7 +3882,7 @@ fourthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
     var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3893,7 +3893,7 @@ fourthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos5.z = pos5.z - 1;
     var blockPos5 = pos5.asBlockPos();
     var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3942,7 +3942,7 @@ fifthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos1.z = pos1.z;
     var blockPos1 = pos1.asBlockPos();
     var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3953,7 +3953,7 @@ fifthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
     var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3964,7 +3964,7 @@ fifthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos3.z = pos3.z;
     var blockPos3 = pos3.asBlockPos();
     var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3975,7 +3975,7 @@ fifthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
     var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
@@ -3986,7 +3986,7 @@ fifthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos5.z = pos5.z - 1;
     var blockPos5 = pos5.asBlockPos();
     var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "tile.contenttweaker.recursive_stone.name") {
         player.sendChat("Stand in the middle of the recursion prison key arena!");
         return "FAIL";
     }
