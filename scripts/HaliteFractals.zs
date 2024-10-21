@@ -556,7 +556,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:fifth_order_
 <contenttweaker:monumentally_sentient_meatball>]);
 
 var mapmeatballmonument as IData = {
-		display: {Lore:["§d§oTribute to the Meatball Man§r"]}
+		display: {Lore:["§d§o献给肉丸人的贡物§r"]}
 	};
 
 recipes.addHiddenShaped("meatballmonument1",<chisel:temple:2>.withTag(mapmeatballmonument)*8,
