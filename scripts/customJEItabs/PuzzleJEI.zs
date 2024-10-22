@@ -8,7 +8,7 @@ import mods.randomtweaker.jei.IJeiUtils;
 import scripts.enchantwrapper.EnchantUtil;
 import scripts.enchantwrapper.EnchantUtil.WrapperRegistry;
 
-var modpackpuzzleJEI as IJeiPanel = JEI.createJei("meatball_puzzle", "Puzzles");
+var modpackpuzzleJEI as IJeiPanel = JEI.createJei("meatball_puzzle", "谜题");
 modpackpuzzleJEI.setModid("MeatballCraft");
 modpackpuzzleJEI.setIcon(<contenttweaker:obtained_from_a_puzzle>);
 modpackpuzzleJEI.addRecipeCatalyst(<contenttweaker:obtained_from_a_puzzle>);

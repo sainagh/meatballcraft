@@ -103,8 +103,8 @@ true,
 <bewitchment:sigil_battle>,<contenttweaker:dragon_will_fragment>,
 <contenttweaker:wing_of_worship>,<contenttweaker:dragon_will_fragment>,
 <bewitchment:swirl_of_depths>,<contenttweaker:dragon_will_fragment>]);
-game.setLocalization("ac.ritual.freetheheartofhearts", "Heart of hearts"); 
-game.setLocalization("ac.ritual.freetheheartofhearts.desc", "Free the Heart of hearts");
+game.setLocalization("ac.ritual.freetheheartofhearts", "心中之心"); 
+game.setLocalization("ac.ritual.freetheheartofhearts.desc", "解放心中之心");
 
 recipes.addHiddenShapeless("dragonscalesheart",<contenttweaker:soul_of_the_dragonslayer>,
 [<contenttweaker:whispering_heart_of_hearts>,

@@ -206,29 +206,29 @@ val enclistSoulEaterWrapped as EnchantMap = EnchantMap()
 	.add("minecraft:unbreaking",5)
 	.add("minecraft:mending",1);
 
-mods.bloodmagic.BloodAltar.addRecipe(SuperEnchantedItem(<bloodmagic:sentient_sword>.withTag({display: {Name:"§6§oSoul Eater§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSoulEaterWrapped).getItem(), 
+mods.bloodmagic.BloodAltar.addRecipe(SuperEnchantedItem(<bloodmagic:sentient_sword>.withTag({display: {Name:"§6§oSoul Eater§r",Lore:["§d§o超限附魔§r"]}}), enclistSoulEaterWrapped).getItem(), 
 <bloodarsenal:stasis_sword>, 
 4, 
 1000000, 
 300, 
 300);
 
-mods.bloodmagic.TartaricForge.addRecipe(SuperEnchantedItem(<contenttweaker:bloodmaster_metal_head>.withTag({display: {Name:"§6§oBloodmaster Metal Helmet§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistBloodmasterWrapped).getItem(), 
+mods.bloodmagic.TartaricForge.addRecipe(SuperEnchantedItem(<contenttweaker:bloodmaster_metal_head>.withTag({display: {Name:"§6§o血主金属头盔§r",Lore:["§d§o超限附魔§r"]}}), enclistBloodmasterWrapped).getItem(), 
 [<contenttweaker:bloodmaster_metal_head>,<bloodmagic:blood_shard:1>,<bloodmagic:slate:4>,<bloodmagic:decorative_brick:2>], 
 10000.00, 
 3000.00);
 
-mods.bloodmagic.TartaricForge.addRecipe(SuperEnchantedItem(<contenttweaker:bloodmaster_metal_chest>.withTag({display: {Name:"§6§oBloodmaster Metal Chestplate§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistBloodmasterWrapped).getItem(), 
+mods.bloodmagic.TartaricForge.addRecipe(SuperEnchantedItem(<contenttweaker:bloodmaster_metal_chest>.withTag({display: {Name:"§6§o血主金属胸甲§r",Lore:["§d§o超限附魔§r"]}}), enclistBloodmasterWrapped).getItem(), 
 [<contenttweaker:bloodmaster_metal_chest>,<bloodmagic:blood_shard:1>,<bloodmagic:slate:4>,<bloodmagic:decorative_brick:2>], 
 10000.00, 
 3000.00);
 
-mods.bloodmagic.TartaricForge.addRecipe(SuperEnchantedItem(<contenttweaker:bloodmaster_metal_feet>.withTag({display: {Name:"§6§oBloodmaster Metal Boots§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistBloodmasterWrapped).getItem(), 
+mods.bloodmagic.TartaricForge.addRecipe(SuperEnchantedItem(<contenttweaker:bloodmaster_metal_feet>.withTag({display: {Name:"§6§o血主金属靴子§r",Lore:["§d§o超限附魔§r"]}}), enclistBloodmasterWrapped).getItem(), 
 [<contenttweaker:bloodmaster_metal_feet>,<bloodmagic:blood_shard:1>,<bloodmagic:slate:4>,<bloodmagic:decorative_brick:2>], 
 10000.00, 
 3000.00);
 
-mods.bloodmagic.TartaricForge.addRecipe(SuperEnchantedItem(<contenttweaker:bloodmaster_metal_legs>.withTag({display: {Name:"§6§oBloodmaster Metal Leggings§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistBloodmasterWrapped).getItem(), 
+mods.bloodmagic.TartaricForge.addRecipe(SuperEnchantedItem(<contenttweaker:bloodmaster_metal_legs>.withTag({display: {Name:"§6§o血主金属护腿§r",Lore:["§d§o超限附魔§r"]}}), enclistBloodmasterWrapped).getItem(), 
 [<contenttweaker:bloodmaster_metal_legs>,<bloodmagic:blood_shard:1>,<bloodmagic:slate:4>,<bloodmagic:decorative_brick:2>], 
 10000.00, 
 3000.00);
@@ -267,7 +267,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<tconstruct:knife_blade>.wit
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<contenttweaker:sacrifice_metal_head>.withTag({display: {Name:"§6§oSacrifice Metal Helmet§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSacrificeHelmWrapped).getItem(), 
+mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<contenttweaker:sacrifice_metal_head>.withTag({display: {Name:"§6§o献祭金属头盔§r",Lore:["§d§o超限附魔§r"]}}), enclistSacrificeHelmWrapped).getItem(), 
 [[null, null, <extrabotany:material:1>, 
 <extrabotany:material:1>, <extrabotany:material:1>, <extrabotany:material:1>, 
 <extrabotany:material:1>, null, null], 
@@ -304,7 +304,7 @@ null, <bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "fierymetal", Amoun
 null, null, null, 
 null, null, null]]);  
 
-mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<contenttweaker:sacrifice_metal_chest>.withTag({display: {Name:"§6§oSacrifice Metal Chestplate§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSacrificeChestWrapped).getItem(), 
+mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<contenttweaker:sacrifice_metal_chest>.withTag({display: {Name:"§6§o献祭金属胸甲§r",Lore:["§d§o超限附魔§r"]}}), enclistSacrificeChestWrapped).getItem(), 
 [[<bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "platinum", Amount: 65336000}}), <extrabotany:material:1>, <extrabotany:material:1>, 
 null, null, null, 
 <extrabotany:material:1>, <extrabotany:material:1>, <bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "lumium", Amount: 65336000}})], 
@@ -341,7 +341,7 @@ null, null, null,
 <extrabotany:material:1>, <extrabotany:material:1>, <extrabotany:material:1>, 
 <extrabotany:material:1>, null, null]]);  
 
-mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<contenttweaker:sacrifice_metal_legs>.withTag({display: {Name:"§6§oSacrifice Metal Leggings§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSacrificeLegsWrapped).getItem(), 
+mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<contenttweaker:sacrifice_metal_legs>.withTag({display: {Name:"§6§o献祭金属护腿§r",Lore:["§d§o超限附魔§r"]}}), enclistSacrificeLegsWrapped).getItem(), 
 [[<extrabotany:material:1>, <extrabotany:material:1>, <extrabotany:material:1>, 
 <extrabotany:material:1>, <extrabotany:material:1>, <extrabotany:material:1>, 
 <extrabotany:material:1>, <extrabotany:material:1>, <extrabotany:material:1>], 
@@ -378,7 +378,7 @@ null, <bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "chrome", Amount: 6
 null, null, null, 
 <extrabotany:material:1>, <ore:ingotUltimate>, <extrabotany:material:1>]]);  
 
-mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<contenttweaker:sacrifice_metal_feet>.withTag({display: {Name:"§6§oSacrifice Metal Boots§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSacrificeBootsWrapped).getItem(), 
+mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<contenttweaker:sacrifice_metal_feet>.withTag({display: {Name:"§6§o献祭金属靴子§r",Lore:["§d§o超限附魔§r"]}}), enclistSacrificeBootsWrapped).getItem(), 
 [[null, <extrabotany:material:1>, <materialpart:sacrifice_metal:ingot>, 
 <extrabotany:material:1>, <contenttweaker:weight_of_the_heart>, <extrabotany:material:1>, 
 <materialpart:sacrifice_metal:ingot>, <extrabotany:material:1>, null], 

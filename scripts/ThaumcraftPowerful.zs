@@ -92,7 +92,7 @@ recipes.addShaped(<contenttweaker:ineffable_sun>,
 <contenttweaker:ineffable_sun>.setAspects([<aspect:ignis>*50, <aspect:aer>*50, <aspect:terra>*50, <aspect:aqua>*50, <aspect:ordo>*50, <aspect:perditio>*50, <aspect:auram>*50, <aspect:vitium>*50]);
 
 mods.thaumcraft.Infusion.registerRecipe("supercutter", "", 
-SuperEnchantedItem(<thaumicaugmentation:primal_cutter>.withTag({display: {Name:"§6§oPrimal Cutter§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistEXPCutterWrapped).getItem(), 10,
+SuperEnchantedItem(<thaumicaugmentation:primal_cutter>.withTag({display: {Name:"§6§o元始刃§r",Lore:["§d§o超限附魔§r"]}}), enclistEXPCutterWrapped).getItem(), 10,
 [<aspect:humanus>*200, <aspect:auram>*100], 
 <thaumicaugmentation:primal_cutter>, 
 [<thaumcraft:vis_resonator>, <contenttweaker:concentrated_essence>, <contenttweaker:concentrated_essence>, <deepmoblearning:living_matter_twilight>, <thaumadditions:adaminite_plate>, <thaumictinkerer:repairer>, <abyssalcraft:crystalcluster:7>, <botania:brewvial>.withTag({brewKey: "oneforall"})]);
@@ -135,7 +135,7 @@ mods.thaumcraft.Infusion.registerRecipe("fluxspongeftw", "",
 <contenttweaker:endergenic_sediment>, <contenttweaker:endergenic_sediment>]);
 
 mods.thaumcraft.Infusion.registerRecipe("supermithhelm", "", 
-SuperEnchantedItem(<thaumadditions:mithminite_hood>.withTag({display: {Name:"§6§oMithminite Hood§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistMagicShieldWrapped).getItem(), 100,
+SuperEnchantedItem(<thaumadditions:mithminite_hood>.withTag({display: {Name:"§6§o秘金神秘使兜帽§r",Lore:["§d§o超限附魔§r"]}}), enchlistMagicShieldWrapped).getItem(), 100,
 [<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
 <thaumadditions:mithminite_hood>, 
 [<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 
@@ -144,7 +144,7 @@ SuperEnchantedItem(<thaumadditions:mithminite_hood>.withTag({display: {Name:"§6
 <mysticalagradditions:storage:1>, <contenttweaker:faultless_ichor>]);
 
 mods.thaumcraft.Infusion.registerRecipe("supermithchest", "", 
-SuperEnchantedItem(<thaumadditions:mithminite_robe>.withTag({display: {Name:"§6§oMithminite Robe§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistMagicShieldWrapped).getItem(), 100,
+SuperEnchantedItem(<thaumadditions:mithminite_robe>.withTag({display: {Name:"§6§o秘金神秘使法袍§r",Lore:["§d§o超限附魔§r"]}}), enchlistMagicShieldWrapped).getItem(), 100,
 [<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
 <thaumadditions:mithminite_robe>, 
 [<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 
@@ -153,7 +153,7 @@ SuperEnchantedItem(<thaumadditions:mithminite_robe>.withTag({display: {Name:"§6
 <mysticalagradditions:storage:1>, <contenttweaker:faultless_ichor>]);
 
 mods.thaumcraft.Infusion.registerRecipe("supermithlegs", "", 
-SuperEnchantedItem(<thaumadditions:mithminite_belt>.withTag({display: {Name:"§6§oMithminite Belt§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistMagicShieldWrapped).getItem(), 100,
+SuperEnchantedItem(<thaumadditions:mithminite_belt>.withTag({display: {Name:"§6§o秘金神秘使腰带§r",Lore:["§d§o超限附魔§r"]}}), enchlistMagicShieldWrapped).getItem(), 100,
 [<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
 <thaumadditions:mithminite_belt>, 
 [<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 
@@ -162,7 +162,7 @@ SuperEnchantedItem(<thaumadditions:mithminite_belt>.withTag({display: {Name:"§6
 <mysticalagradditions:storage:1>, <contenttweaker:faultless_ichor>]);
 
 mods.thaumcraft.Infusion.registerRecipe("supermithfeet", "", 
-SuperEnchantedItem(<thaumadditions:mithminite_boots>.withTag({display: {Name:"§6§oMithminite Boots§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistMagicShieldWrapped).getItem(), 100,
+SuperEnchantedItem(<thaumadditions:mithminite_boots>.withTag({display: {Name:"§6§o秘金神秘使靴子§r",Lore:["§d§o超限附魔§r"]}}), enchlistMagicShieldWrapped).getItem(), 100,
 [<aspect:praemunio>*600, <aspect:metallum>*500, <aspect:praecantatio>*400, <aspect:alienis>*400], 
 <thaumadditions:mithminite_boots>, 
 [<contenttweaker:shard_of_protection>, <thaumadditions:mithminite_block>, 

@@ -22,12 +22,13 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:ancient_elven_knowledge>.addTooltip(format.red("世界难度变高了一些……."));
 
 <modularmachinery:blockcontroller>.addTooltip(format.red("Requires the Controller Manual to become craftable"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("WARNING: you should make the specific controller for each machine using the blueprint recipe"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("Cannot be crafted using AE2, use a crafter instead (RECURSIVE RECIPE ONLY)"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("IMPORTANT: you should make the specific controller for each machine using the blueprint recipe"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("The resulting controllers can be auto-built if right clicked with a stick"));
 <modularmachinery:blockcontroller>.addTooltip(format.red("This controller block will work for all machines, but it will make things way more laggy"));
 <modularmachinery:blockcontroller>.addTooltip(format.red("WARNING: do not place modular machines on chunk boundaries"));
 <modularmachinery:blockcontroller>.addTooltip(format.red("WARNING: machines will void inputs if they are not getting enough RF/t"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("Cannot be crafted using AE2, use a crafter instead (RECURSIVE RECIPE ONLY)"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("A huge thanks to Domi for working on and testing Modular Machinery Community Edition!"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("A huge thanks to Kasumi_Nova & Domi for working on and testing Modular Machinery Community Edition!"));
 
 
 <contenttweaker:nethersky_amber>.addTooltip(format.red("Requires the Bloodmaster Tome to become craftable"));
@@ -196,6 +197,7 @@ import crafttweaker.item.IItemCondition;
 <magicbees:beecomb:2>.addTooltip(format.red("Found on a warper plane (which one??) - Warper in JEI"));
 
 <bloodmagic:blood_shard:0>.addTooltip(format.red("Obtainable using a Bound Blade"));
+<bloodmagic:blood_shard:0>.addTooltip(format.red("The blade requires LP in your Blood Orb to function"));
 
 <bhc:red_heart>.addTooltip(format.red("Dropped by hostile mobs"));
 
@@ -354,7 +356,6 @@ import crafttweaker.item.IItemCondition;
 
 <techreborn:part:33>.addTooltip(format.red("Produced by the recycler"));
 
-<contenttweaker:gaia_tesseract>.addTooltip(format.red("Allows to escape the Dungeon of Arcana"));
 
 <contenttweaker:greater_gaia_spirit>.addTooltip(format.red("Dropped by a tier 2 Gaia Guardian"));
 
@@ -511,7 +512,7 @@ import crafttweaker.item.IItemCondition;
 
 <aoa3:creep_statue>.addTooltip(format.red("可在合成核心中复制"));
 
-<aoa3:craexxeus_statue>.addTooltip(format.red("可在合成核心中复制"));
+<aoa3:craexxeus_statue>.addTooltip(format.red("远古战神雕像可在合成核心中复制"));
 
 <aoa3:cotton_candor_statue>.addTooltip(format.red("可在合成核心中复制"));
 
@@ -585,7 +586,7 @@ import crafttweaker.item.IItemCondition;
 <techreborn:industrial_blast_furnace>.addTooltip(format.red("- right click with 4 nichrome heating coils"));
 
 
-<tce:tce_torch_lvl1>.addTooltip(format.red("只能用辉光附魔器制作的水晶石制作——“这不是bug是特性！”"));
+<tce:tce_torch_lvl1>.addTooltip(format.red("只能使用通过辉光附魔器或缠魂福鲁伊克斯制作的时钟座共鸣水晶石制作——“这不是bug是特性！”"));
 
 <matc:inferiumcrystal>.addTooltip(format.red("0耐久度时无法升级"));
 
@@ -694,7 +695,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:deeplands_wormhole>.addTooltip(format.red("Hidden in the Deeplands Callstone"));
 
-<contenttweaker:celestial_shield_fragment>.addTooltip(format.red("Can be obtained (but I won't tell you how...)"));
+<contenttweaker:celestial_shield_fragment>.addTooltip(format.red("For masters of spellcraft"));
 
 <danknull:danknull_dock>.addTooltip(format.red("Do not connect to a storage bus, causes a crash"));
 
@@ -818,7 +819,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:nightmare_incense>.addTooltip(format.red("Thanks to WithersChat for loving Spatial Storage"));
 
-<contenttweaker:sacrificial_contract>.addTooltip(format.red("Combine with the friendly soul vials of the wild rainbow tree - stone calls in the wild wood"));
 
 <extrabotany:material:3>.addTooltip(format.red("Dropped by a tier 3 Gaia Guardian"));
 
@@ -846,7 +846,7 @@ import crafttweaker.item.IItemCondition;
 
 <extrabotany:treasurebox>.addTooltip(format.red("Dropped by a tier 3 or 4 Gaia Guardian"));
 
-<botania:manaresource:5>.addTooltip(format.red("The gaia altar uses four gaia pylons over the manasteel"));
+// <botania:manaresource:5>.addTooltip(format.red("The gaia altar uses four gaia pylons over the manasteel"));
 
 <storagedrawers:upgrade_creative:0>.addTooltip(format.red("无法取出"));
 
@@ -960,7 +960,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:primordial_prism>.addTooltip(format.red("Dropped by the primordial malevolence in the betweenlands"));
 
-<contenttweaker:primordial_prism>.addTooltip(format.green("可重复使用"));
+<contenttweaker:primordial_prism>.addTooltip(format.green("可重复使用，但不适用于寰宇裂隙配方"));
 
 <draconicevolution:entity_detector:1>.addTooltip(format.red("Careful: causes crashes"));
 
@@ -976,6 +976,8 @@ import crafttweaker.item.IItemCondition;
 <techreborn:implosion_compressor>.addTooltip(format.red("hollow 3x3x3 of reinforced machine casings below the machine"));
 
 <bloodmagic:soul_gem:3>.addTooltip(format.red("Tinker Modifier: mobs drop will"));
+
+<tconstruct:materials:50>.addTooltip(format.red("Tinker Modifier: adds one extra modifier"));
 
 <bloodarsenal:glass_shards>.addTooltip(format.red("Tinker Modifier: bleeding"));
 
@@ -1593,9 +1595,11 @@ import crafttweaker.item.IItemCondition;
 
 <packagedexcrafting:combination_crafter>.addTooltip(format.red("Works with marked pedestals!"));
 
-<botania:baublebox>.addTooltip(format.red("This has a chance of deleting items"));
+<botania:baublebox>.addTooltip(format.red("WARNING: This has a chance of deleting items"));
 
-<botania:flowerbag>.addTooltip(format.red("This has a chance of deleting items"));
+<botania:flowerbag>.addTooltip(format.red("WARNING: This has a chance of deleting items"));
+
+<extrabotany:masterhandbag>.addTooltip(format.red("WARNING: This has a chance of deleting items"));
 
 <extrautils2:bagofholding>.addTooltip(format.red("This has a chance of deleting items"));
 
@@ -2159,20 +2163,20 @@ import crafttweaker.item.IItemCondition;
 
 <appliedenergistics2:part:1024>.addTooltip(format.red("Look at you! You just found a lost relic of the past..."));
 
-<contenttweaker:yttrium_oxide>.addTooltip(format.red("警告：该合成链会产生辐射！"));
-<contenttweaker:rhodium_mixture>.addTooltip(format.red("警告：该合成链会产生辐射！"));
-<contenttweaker:barium_chunk>.addTooltip(format.red("警告：该合成链会产生辐射！"));
-<contenttweaker:barium_oxide>.addTooltip(format.red("警告：该合成链会产生辐射！"));
-<contenttweaker:yttrium_ruthenium_cluster>.addTooltip(format.red("警告：该合成链会产生辐射！"));
-<contenttweaker:meatane_pellet>.addTooltip(format.red("警告：该合成链会产生辐射！"));
-<contenttweaker:krypton_capture>.addTooltip(format.red("警告：该合成链会产生辐射！"));
-<contenttweaker:ogerite_crystal_matrix>.addTooltip(format.red("警告：该合成链会产生辐射！"));
-<contenttweaker:ethereal_infusion_stone>.addTooltip(format.red("警告：该合成链会产生辐射！"));
-<contenttweaker:naquadah_ingot>.addTooltip(format.red("警告：该合成链会产生辐射！"));
-<contenttweaker:mutated_meatball>.addTooltip(format.red("警告：该合成链会产生辐射！"));
-<contenttweaker:meatane_pellet>.addTooltip(format.red("警告：该合成链会产生辐射！"));
-<materialpart:primal_ogerite:ingot>.addTooltip(format.red("警告：该合成链会产生辐射！"));
-<contenttweaker:stable_fusor>.addTooltip(format.red("警告：该合成链会产生辐射！"));
+<contenttweaker:yttrium_oxide>.addTooltip(format.red("警告：该合成线会产生辐射！"));
+<contenttweaker:rhodium_mixture>.addTooltip(format.red("警告：该合成线会产生辐射！"));
+<contenttweaker:barium_chunk>.addTooltip(format.red("警告：该合成线会产生辐射！"));
+<contenttweaker:barium_oxide>.addTooltip(format.red("警告：该合成线会产生辐射！"));
+<contenttweaker:yttrium_ruthenium_cluster>.addTooltip(format.red("警告：该合成线会产生辐射！"));
+<contenttweaker:meatane_pellet>.addTooltip(format.red("警告：该合成线会产生辐射！"));
+<contenttweaker:krypton_capture>.addTooltip(format.red("警告：该合成线会产生辐射！"));
+<contenttweaker:ogerite_crystal_matrix>.addTooltip(format.red("警告：该合成线会产生辐射！"));
+<contenttweaker:ethereal_infusion_stone>.addTooltip(format.red("警告：该合成线会产生辐射！"));
+<contenttweaker:naquadah_ingot>.addTooltip(format.red("警告：该合成线会产生辐射！"));
+<contenttweaker:mutated_meatball>.addTooltip(format.red("警告：该合成线会产生辐射！"));
+<contenttweaker:meatane_pellet>.addTooltip(format.red("警告：该合成线会产生辐射！"));
+<materialpart:primal_ogerite:ingot>.addTooltip(format.red("警告：该合成线会产生辐射！"));
+<contenttweaker:stable_fusor>.addTooltip(format.red("警告：该合成线会产生辐射！"));
 
 <contenttweaker:gem_of_the_sleeping_city>.addTooltip(format.red("Found in L'Borean"));
 <contenttweaker:stone_of_the_sleeping_city>.addTooltip(format.red("Found in L'Borean"));
@@ -2195,7 +2199,6 @@ import crafttweaker.item.IItemCondition;
 <akashictome:tome>.addTooltip(format.red("Shift + left click while looking air to unselect a book"));
 <akashictome:tome>.addTooltip(format.red("Select an item and sneak + <drop keybind> to remove item from omniwand/akashic tome"));
 
-<forestry:bee_princess_ge:0>.withTag({MaxH: 50, Mate: {Chromosomes: [{UID1: "careerbees.mad_scientist", UID0: "careerbees.mad_scientist", Slot: 0 as byte}]}}).addTooltip(format.red("The mad scientist can only be bred in a normal apiary, while exploding TNT"));
 
 <thaumadditions:jar_adaminite>.addTooltip(format.red("This will explode if you put vitium in it!!"));
 
@@ -2223,12 +2226,12 @@ import crafttweaker.item.IItemCondition;
 
 <techreborn:vacuum_freezer>.addTooltip(format.red("3x3x3 hollow cuboid below the machine, 18 reinforced machine casing (top and bottom), 8 advanced machine casing (middle)"));
 
-<projecte:item.pe_klein_star:0>.addTooltip(format.red("Charge using the transmutation table, the arcane table doesn't work!"));
-<projecte:item.pe_klein_star:1>.addTooltip(format.red("Charge using the transmutation table, the arcane table doesn't work!"));
-<projecte:item.pe_klein_star:2>.addTooltip(format.red("Charge using the transmutation table, the arcane table doesn't work!"));
-<projecte:item.pe_klein_star:3>.addTooltip(format.red("Charge using the transmutation table, the arcane table doesn't work!"));
-<projecte:item.pe_klein_star:4>.addTooltip(format.red("Charge using the transmutation table, the arcane table doesn't work!"));
-<projecte:item.pe_klein_star:5>.addTooltip(format.red("Charge using the transmutation table, the arcane table doesn't work!"));
+<projecte:item.pe_klein_star:0>.addTooltip(format.red("Charge using the transmutation table, or shift left click in the center of the arcane transmutation tablet!"));
+<projecte:item.pe_klein_star:1>.addTooltip(format.red("Charge using the transmutation table, or shift left click in the center of the arcane transmutation tablet!"));
+<projecte:item.pe_klein_star:2>.addTooltip(format.red("Charge using the transmutation table, or shift left click in the center of the arcane transmutation tablet!"));
+<projecte:item.pe_klein_star:3>.addTooltip(format.red("Charge using the transmutation table, or shift left click in the center of the arcane transmutation tablet!"));
+<projecte:item.pe_klein_star:4>.addTooltip(format.red("Charge using the transmutation table, or shift left click in the center of the arcane transmutation tablet!"));
+<projecte:item.pe_klein_star:5>.addTooltip(format.red("Charge using the transmutation table, or shift left click in the center of the arcane transmutation tablet!"));
 
 <divinerpg:frosted_allure>.addTooltip(format.red("即使是在虚空世界也会生成怪物！"));
 
@@ -2578,7 +2581,7 @@ import crafttweaker.item.IItemCondition;
 
 <bloodmagic:blood_rune:9>.addTooltip(format.red("Increases the tick frequency for all altar operations, effect caps at 19"));
 <bloodmagic:blood_rune:7>.addTooltip(format.red("Increases the LP storage of the altar multiplicatively by 10%, for 15 runes or less it's better to use base runes of capacity"));
-<bloodmagic:blood_rune:1>.addTooltip(format.red("Increases crafting speed by 20%"));
+<bloodmagic:blood_rune:1>.addTooltip(format.red("Increases altar speed by 20%"));
 <bloodmagic:blood_rune:3>.addTooltip(format.red("Increases LP made from each mob killed (both dagger and rituals)"));
 <bloodmagic:blood_rune:4>.addTooltip(format.red("Increases LP made from the sacrificial dagger"));
 <bloodmagic:blood_rune:6>.addTooltip(format.red("Increases the LP storage of the altar additively, 2k for each rune, for 16 runes or more it's better to use augmented capacity"));
@@ -2693,7 +2696,7 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:altar_of_corruption>.addTooltip(format.red("Works like an enchanting table, but it doesn't need bookshelves!"));
 
-<modularmachinery:itemblueprint>.addTooltip(format.red("Place in a controller and right click with a stick to autobuild!"));
+<modularmachinery:itemblueprint>.addTooltip(format.red("To autobuild a multiblock, right click the colored controller with a stick!"));
 
 <contenttweaker:bloodmaster_metal_chest>.addTooltip(format.red("Thanks to WearyCat for helping with lore!"));
 
@@ -2859,33 +2862,34 @@ import crafttweaker.item.IItemCondition;
 <forge:bucketfilled>.withTag({FluidName: "arbiterium", Amount: 1000}).addTooltip(format.red("用于制作定义锭"));
 
 
-<forge:bucketfilled>.withTag({FluidName: "noble_gas_mix", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "rhodium", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "thallium", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "primal_ogerite", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "supercooled_noble_gas_mix", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "krypton_xenon_mix", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "neon", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "fluidcalcium", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "coal", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "molten_scandium", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "hydrogenchloride", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "fluidchlorite", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "hydrochloric_acid", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "yttrium_oxide", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "yttrium_fluoride", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "yttrium", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "molten_molybdenum", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "triple_point_fluid", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "meitnerium", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "radium", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "rutherfordium_chloride", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "radon", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "rutherfordium", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "einstenium_254", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "einstenium_253", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "mendelevium", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
-<forge:bucketfilled>.withTag({FluidName: "energetic_ogerite", Amount: 1000}).addTooltip(format.red("警告：该合成链会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "noble_gas_mix", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "rhodium", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "thallium", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "primal_ogerite", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "supercooled_noble_gas_mix", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "krypton_xenon_mix", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "neon", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "fluidcalcium", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "coal", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "molten_scandium", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "hydrogenchloride", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "fluidchlorite", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "hydrochloric_acid", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "yttrium_oxide", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "yttrium_fluoride", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "yttrium", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "molten_molybdenum", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "triple_point_fluid", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "meitnerium", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "radium", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "rutherfordium_chloride", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "radon", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "rutherfordium", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "einstenium_254", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "einstenium_253", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "mendelevium", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "energetic_ogerite", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
+<forge:bucketfilled>.withTag({FluidName: "hydra_juices", Amount: 1000}).addTooltip(format.red("警告：该合成线会产生辐射！"));
 
 <tinker_io:smart_output>.addTooltip(format.red("Upgraded version of the casting table with a GUI and upgrages"));
 
@@ -2977,7 +2981,7 @@ import crafttweaker.item.IItemCondition;
 <environmentaltech:void_res_miner_cont_5>.addTooltip(format.red("Right click with an Assembler to auto-build"));
 <environmentaltech:void_res_miner_cont_6>.addTooltip(format.red("Right click with an Assembler to auto-build"));
 
-<botania:pylon:2>.addTooltip(format.red("Place on top of the manasteel blocks to make the gaia altar"));
+// <botania:pylon:2>.addTooltip(format.red("Place on top of the manasteel blocks to make the gaia altar"));
 
 <railcraft:ore_magic:0>.addTooltip(format.red("WARNING: will set things on fire if in your inventory"));
 
@@ -3042,7 +3046,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:bloodlust_coin>.addTooltip(format.red("Right click to get some butchery experience"));
 
 <contenttweaker:heart_stone>.addTooltip(format.red("Found in battle towers"));
-<contenttweaker:heart_stone>.addTooltip(format.red("Right click to get some butchery experience"));
+<contenttweaker:heart_stone>.addTooltip(format.red("Right click to get some innervation experience"));
 
 <thermalfoundation:armor.helmet_lead>.addTooltip(format.red("可施加超限附魔"));
 <thermalfoundation:armor.plate_lead>.addTooltip(format.red("可施加超限附魔"));
@@ -3252,6 +3256,9 @@ import crafttweaker.item.IItemCondition;
 
 <packagedauto:packager>.addTooltip(format.red("To set up autocrafting, use the following order: ME cable > packager > unpackager > package crafter or other machine, this consumes two channels"));
 <packagedauto:unpackager>.addTooltip(format.red("To set up autocrafting, use the following order: ME cable > packager > unpackager > package crafter or other machine, this consumes two channels"));
+
+<packagedauto:packager>.addTooltip(format.red("Each packager-unpackager pair can encode up to 20 different recipes"));
+<packagedauto:unpackager>.addTooltip(format.red("Each packager-unpackager pair can encode up to 20 different recipes"));
 
 <bloodmagic:blood_orb>.addTooltip(format.red("Right click to bind to your player"));
 <bloodmagic:blood_orb>.addTooltip(format.red("Place in a blood altar of the corresponding tier to charge your blood network"));

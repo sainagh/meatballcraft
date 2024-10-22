@@ -221,7 +221,7 @@ val enclistSuperMantleWrapped as EnchantMap = EnchantMap()
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.armara"},display: {Name:"§6§oMantle of the Stars§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSuperMantleWrapped).getItem(), 
+mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.armara"},display: {Name:"§6§o星斗披风§r",Lore:["§d§o超限附魔§r"]}}), enclistSuperMantleWrapped).getItem(), 
 [[<astralsorcery:itemperkseal>, <astralsorcery:itemrockcrystalsimple>, null, <contenttweaker:dynatos_crystal>, null, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemperkseal>], 
 [<astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <extendedcrafting:singularity:49>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>], 
 [null, <astralsorcery:itemrockcrystalsimple>, null, null, null, <astralsorcery:itemrockcrystalsimple>, null], 
