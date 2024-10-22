@@ -84,19 +84,19 @@ import crafttweaker.item.IItemCondition;
 
 <materialpart:ogerite:ingot>.addTooltip(format.red("Found on Pixonia - Craftable in the plasmatic condenser"));
 
-<contenttweaker:sedna_artifact>.addTooltip(format.red("Used in the Warp controller"));
+<contenttweaker:sedna_artifact>.addTooltip(format.red("在跃迁控制器中使用"));
 
-<contenttweaker:rhenia_artifact>.addTooltip(format.red("Used in the Warp controller"));
+<contenttweaker:rhenia_artifact>.addTooltip(format.red("在跃迁控制器中使用"));
 
-<contenttweaker:myrmex_artifact>.addTooltip(format.red("Used in the Warp controller"));
+<contenttweaker:myrmex_artifact>.addTooltip(format.red("在跃迁控制器中使用"));
 
-<contenttweaker:pixonia_artifact>.addTooltip(format.red("Used in the Warp controller"));
+<contenttweaker:pixonia_artifact>.addTooltip(format.red("在跃迁控制器中使用"));
 
-<contenttweaker:proxima_artifact>.addTooltip(format.red("Used in the Warp controller"));
+<contenttweaker:proxima_artifact>.addTooltip(format.red("在跃迁控制器中使用"));
 
-<contenttweaker:dynatos_artifact>.addTooltip(format.red("Used in the Warp controller"));
+<contenttweaker:dynatos_artifact>.addTooltip(format.red("在跃迁控制器中使用"));
 
-<contenttweaker:alkemia_artifact>.addTooltip(format.red("Used in the Warp controller"));
+<contenttweaker:alkemia_artifact>.addTooltip(format.red("在跃迁控制器中使用"));
 
 <minecraft:elytra>.addTooltip(format.red("Found in the Coke Library in the Overworld"));
 
@@ -112,15 +112,15 @@ import crafttweaker.item.IItemCondition;
 
 <thermalfoundation:ore:8>.addTooltip(format.red("Found in the Elemental Chamber in the Nether"));
 
-<contenttweaker:apichisi_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
+<contenttweaker:apichisi_warper>.addTooltip(format.red("打开一个临时虫洞，注•意，你无法使用该物品返回！"));
 
-<contenttweaker:vibe_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
+<contenttweaker:vibe_warper>.addTooltip(format.red("打开一个临时虫洞，注•意，你无法使用该物品返回！"));
 
-<contenttweaker:furatto_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
+<contenttweaker:furatto_warper>.addTooltip(format.red("打开一个临时虫洞，注•意，你无法使用该物品返回！"));
 
-<contenttweaker:taerrapiatta_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
+<contenttweaker:taerrapiatta_warper>.addTooltip(format.red("打开一个临时虫洞，注•意，你无法使用该物品返回！"));
 
-<contenttweaker:diamerisma_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
+<contenttweaker:diamerisma_warper>.addTooltip(format.red("打开一个临时虫洞，注•意，你无法使用该物品返回！"));
 
 <contenttweaker:pixonia_infusion_key>.addTooltip(format.red("Found in the swamp tower on Pixonia"));
 
@@ -140,33 +140,33 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:magic_mushroom_dark>.addTooltip(format.red("This knowledge cannot be unlearned... - Unlocks all Thaumcraft Knowledge at a great cost"));
 
-<contenttweaker:abyssal_wasteland_warp_cleanser>.addTooltip(format.red("Removes 20 temporary and 20 normal warp"));
-<contenttweaker:abyssal_wasteland_warp_cleanser>.addTooltip(format.red("Can be found in the abyssal wastelands"));
+<contenttweaker:abyssal_wasteland_warp_cleanser>.addTooltip(format.red("移除20临时和20普通扭曲"));
+<contenttweaker:abyssal_wasteland_warp_cleanser>.addTooltip(format.red("可发现于深渊荒原"));
 
-<contenttweaker:dreading_warp_cleanser>.addTooltip(format.red("Removes 20 permanent warp"));
-<contenttweaker:dreading_warp_cleanser>.addTooltip(format.red("can be found in the dreadlands"));
+<contenttweaker:dreading_warp_cleanser>.addTooltip(format.red("移除20永久扭曲"));
+<contenttweaker:dreading_warp_cleanser>.addTooltip(format.red("可发现于恐惧之地"));
 
-<contenttweaker:omothol_warp_cleanser>.addTooltip(format.red("Infinite Uses - Removes all warp"));
+<contenttweaker:omothol_warp_cleanser>.addTooltip(format.red("无限使用次数 - 移除所有扭曲"));
 
-<abyssalcraft:coraliumore>.addTooltip(format.red("Coralium Ore is Craftable, but can also be found in coralium infested biomes and oceans"));
+<abyssalcraft:coraliumore>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染生物群系和海洋发现"));
 
-<abyssalcraft:coralium>.addTooltip(format.red("Coralium Ore is Craftable, but can also be found in coralium infested biomes and oceans"));
+<abyssalcraft:coralium>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染生物群系和海洋发现"));
 
-<abyssalcraft:ccluster2>.addTooltip(format.red("Coralium Ore is Craftable, but can also be found in coralium infested biomes and oceans"));
+<abyssalcraft:ccluster2>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染生物群系和海洋发现"));
 
-<abyssalcraft:ccluster3>.addTooltip(format.red("Coralium Ore is Craftable, but can also be found in coralium infested biomes and oceans"));
+<abyssalcraft:ccluster3>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染生物群系和海洋发现"));
 
-<abyssalcraft:ccluster4>.addTooltip(format.red("Coralium Ore is Craftable, but can also be found in coralium infested biomes and oceans"));
+<abyssalcraft:ccluster4>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染生物群系和海洋发现"));
 
-<abyssalcraft:ccluster5>.addTooltip(format.red("Coralium Ore is Craftable, but can also be found in coralium infested biomes and oceans"));
+<abyssalcraft:ccluster5>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染生物群系和海洋发现"));
 
-<abyssalcraft:ccluster6>.addTooltip(format.red("Coralium Ore is Craftable, but can also be found in coralium infested biomes and oceans"));
+<abyssalcraft:ccluster6>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染生物群系和海洋发现"));
 
-<abyssalcraft:ccluster7>.addTooltip(format.red("Coralium Ore is Craftable, but can also be found in coralium infested biomes and oceans"));
+<abyssalcraft:ccluster7>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染生物群系和海洋发现"));
 
-<abyssalcraft:ccluster8>.addTooltip(format.red("Coralium Ore is Craftable, but can also be found in coralium infested biomes and oceans"));
+<abyssalcraft:ccluster8>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染生物群系和海洋发现"));
 
-<abyssalcraft:ccluster9>.addTooltip(format.red("Coralium Ore is Craftable, but can also be found in coralium infested biomes and oceans"));
+<abyssalcraft:ccluster9>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染生物群系和海洋发现"));
 
 <abyssalcraft:coraliumstone>.addTooltip(format.red("Coralium Infused Stone is Craftable"));
 
@@ -186,15 +186,15 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:conductive_powder>.addTooltip(format.red("Sludge is produced by the Plant Gatherer from Industrial Foregoing"));
 
-<extratrees:food:7>.addTooltip(format.red("Found on a warper plane (which one??) - Warper in JEI"));
+<extratrees:food:7>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？） - Warper in JEI"));
 
-<magicbees:resource:5>.addTooltip(format.red("Found on a warper plane (which one??) - Warper in JEI"));
+<magicbees:resource:5>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？） - Warper in JEI"));
 
-<magicbees:beecomb:7>.addTooltip(format.red("Found on a warper plane (which one??) - Warper in JEI"));
+<magicbees:beecomb:7>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？） - Warper in JEI"));
 
-<extrabees:honey_comb:27>.addTooltip(format.red("Found on a warper plane (which one??) - Warper in JEI"));
+<extrabees:honey_comb:27>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？） - Warper in JEI"));
 
-<magicbees:beecomb:2>.addTooltip(format.red("Found on a warper plane (which one??) - Warper in JEI"));
+<magicbees:beecomb:2>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？） - Warper in JEI"));
 
 <bloodmagic:blood_shard:0>.addTooltip(format.red("Obtainable using a Bound Blade"));
 <bloodmagic:blood_shard:0>.addTooltip(format.red("The blade requires LP in your Blood Orb to function"));
@@ -262,7 +262,7 @@ import crafttweaker.item.IItemCondition;
 
 <aoa3:jade>.addTooltip(format.red("Very common drop from the Mineralis Ritual"));
 
-<contenttweaker:petrified_snake>.addTooltip(format.red("Dropped by Gorgons"));
+<contenttweaker:petrified_snake>.addTooltip(format.red("蛇发女妖掉落"));
 
 <contenttweaker:petrified_snake>.addTooltip(format.green("可重复使用"));
 
@@ -429,7 +429,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:corrosive_crystal_cluster>.addTooltip(format.red("Found in the Will Crystal Monolith in the Nether roof"));
 
-<contenttweaker:forgotten_will>.addTooltip(format.green("reusable"));
+<contenttweaker:forgotten_will>.addTooltip(format.green("可重复使用"));
 
 <contenttweaker:divine_star>.addTooltip(format.red("Get the first one from a Endergenic Mythical Void Resource Miner, Draconic is a NoNo (random51 tried)"));
 
@@ -705,29 +705,29 @@ import crafttweaker.item.IItemCondition;
 
 <extrautils2:bagofholding>.addTooltip(format.red("Gosh I can fit so many shulker boxes in here..."));
 
-<draconicevolution:tool_upgrade:0>.addTooltip(format.red("Found on a warper plane (which one??)"));
+<draconicevolution:tool_upgrade:0>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
 
-<draconicevolution:tool_upgrade:1>.addTooltip(format.red("Found on a warper plane (which one??)"));
+<draconicevolution:tool_upgrade:1>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
 
-<draconicevolution:tool_upgrade:2>.addTooltip(format.red("Found on a warper plane (which one??)"));
+<draconicevolution:tool_upgrade:2>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
 
-<draconicevolution:tool_upgrade:3>.addTooltip(format.red("Found on a warper plane (which one??)"));
+<draconicevolution:tool_upgrade:3>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
 
-<draconicevolution:tool_upgrade:4>.addTooltip(format.red("Found on a warper plane (which one??)"));
+<draconicevolution:tool_upgrade:4>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
 
-<draconicevolution:tool_upgrade:5>.addTooltip(format.red("Found on a warper plane (which one??)"));
+<draconicevolution:tool_upgrade:5>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
 
-<draconicevolution:tool_upgrade:6>.addTooltip(format.red("Found on a warper plane (which one??)"));
+<draconicevolution:tool_upgrade:6>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
 
-<draconicevolution:tool_upgrade:7>.addTooltip(format.red("Found on a warper plane (which one??)"));
+<draconicevolution:tool_upgrade:7>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
 
-<draconicevolution:tool_upgrade:8>.addTooltip(format.red("Found on a warper plane (which one??)"));
+<draconicevolution:tool_upgrade:8>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
 
-<draconicevolution:tool_upgrade:9>.addTooltip(format.red("Found on a warper plane (which one??)"));
+<draconicevolution:tool_upgrade:9>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
 
-<draconicevolution:tool_upgrade:10>.addTooltip(format.red("Found on a warper plane (which one??)"));
+<draconicevolution:tool_upgrade:10>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
 
-<draconicevolution:tool_upgrade:11>.addTooltip(format.red("Found on a warper plane (which one??)"));
+<draconicevolution:tool_upgrade:11>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
 
 <contenttweaker:the_dark_star>.addTooltip(format.red("Found in a high place"));
 
@@ -763,17 +763,17 @@ import crafttweaker.item.IItemCondition;
 
 <bewitchment:sigil_purity>.addTooltip(format.green("Reusable in (almost all) crafting recipes"));
 
-<contenttweaker:celestial_shield_fragment>.addTooltip(format.red("Thanks to Uchiwars for the texture!"));
+<contenttweaker:celestial_shield_fragment>.addTooltip(format.red("感谢Uchiwars绘制的纹理！"));
 
-<contenttweaker:corporea_flower>.addTooltip(format.red("Thanks to Uchiwars for the texture!"));
+<contenttweaker:corporea_flower>.addTooltip(format.red("感谢Uchiwars绘制的纹理！"));
 
-<contenttweaker:evanescent_sednanite_dust>.addTooltip(format.red("Thanks to Uchiwars for the texture!"));
+<contenttweaker:evanescent_sednanite_dust>.addTooltip(format.red("感谢Uchiwars绘制的纹理！"));
 
-<contenttweaker:gemenyte_dust>.addTooltip(format.red("Thanks to Uchiwars for the texture!"));
+<contenttweaker:gemenyte_dust>.addTooltip(format.red("感谢Uchiwars绘制的纹理！"));
 
-<contenttweaker:jewelyte_dust>.addTooltip(format.red("Thanks to Uchiwars for the texture!"));
+<contenttweaker:jewelyte_dust>.addTooltip(format.red("感谢Uchiwars绘制的纹理！"));
 
-<contenttweaker:ornamyte_dust>.addTooltip(format.red("Thanks to Uchiwars for the texture!"));
+<contenttweaker:ornamyte_dust>.addTooltip(format.red("感谢Uchiwars绘制的纹理！"));
 
 <matc:inferiumcrystal>.addTooltip(format.red("Do not  automate until the master crystal, if you try it will delete your items"));
 
@@ -1585,21 +1585,21 @@ import crafttweaker.item.IItemCondition;
 
 <bewitchment:thyrsus>.addTooltip(format.red("可施加超限附魔"));
 
-<extrautils2:goldenlasso>.addTooltip(format.red("Captures mobs"));
+<extrautils2:goldenlasso>.addTooltip(format.red("捕捉生物"));
 
-<industrialforegoing:mob_imprisonment_tool>.addTooltip(format.red("Captures mobs"));
+<industrialforegoing:mob_imprisonment_tool>.addTooltip(format.red("捕捉生物"));
 
-<cyclicmagic:magic_net>.addTooltip(format.red("Captures mobs"));
+<cyclicmagic:magic_net>.addTooltip(format.red("捕捉生物"));
 
-<tinymobfarm:lasso>.addTooltip(format.red("Captures mobs"));
+<tinymobfarm:lasso>.addTooltip(format.red("捕捉生物"));
 
 <packagedexcrafting:combination_crafter>.addTooltip(format.red("Works with marked pedestals!"));
 
-<botania:baublebox>.addTooltip(format.red("WARNING: This has a chance of deleting items"));
+<botania:baublebox>.addTooltip(format.red("警•告：有概率删除物品"));
 
-<botania:flowerbag>.addTooltip(format.red("WARNING: This has a chance of deleting items"));
+<botania:flowerbag>.addTooltip(format.red("警•告：有概率删除物品"));
 
-<extrabotany:masterhandbag>.addTooltip(format.red("WARNING: This has a chance of deleting items"));
+<extrabotany:masterhandbag>.addTooltip(format.red("警•告：有概率删除物品"));
 
 <extrautils2:bagofholding>.addTooltip(format.red("This has a chance of deleting items"));
 
@@ -1619,53 +1619,53 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:gem_of_midas>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
 
-<contenttweaker:tsleu_235_fuel>.addTooltip(format.aqua("Base Depletion Time: 60 min"));
-<contenttweaker:tsleu_235_fuel>.addTooltip(format.aqua("Base Power Gen: 400 RF/t"));
-<contenttweaker:tsleu_235_fuel>.addTooltip(format.aqua("Base Heat Gen: 50 H/t"));
-<contenttweaker:tsleu_235_fuel>.addTooltip(format.red("Thanks to Photon-Gr4vity for the texture!"));
+<contenttweaker:tsleu_235_fuel>.addTooltip(format.aqua("基础持续时间：60 min"));
+<contenttweaker:tsleu_235_fuel>.addTooltip(format.aqua("基础能量：400 RF/t"));
+<contenttweaker:tsleu_235_fuel>.addTooltip(format.aqua("基础产热：50 H/t"));
+<contenttweaker:tsleu_235_fuel>.addTooltip(format.red("感谢Photon-Gr4vity绘制的纹理！"));
 
 
-<contenttweaker:superconducting_mithril>.addTooltip(format.red("Thanks to Photon-Gr4vity for the texture!"));
+<contenttweaker:superconducting_mithril>.addTooltip(format.red("感谢Photon-Gr4vity绘制的纹理！"));
 
-<contenttweaker:rainbow_lens>.addTooltip(format.red("Thanks to Photon-Gr4vity for the texture!"));
+<contenttweaker:rainbow_lens>.addTooltip(format.red("感谢Photon-Gr4vity绘制的纹理！"));
 
-<contenttweaker:amfm_fuel>.addTooltip(format.aqua("Base Depletion Time: 43 min"));
-<contenttweaker:amfm_fuel>.addTooltip(format.aqua("Base Power Gen: 10 RF/t"));
-<contenttweaker:amfm_fuel>.addTooltip(format.aqua("Base Heat Gen: 10 H/t"));
-<contenttweaker:amfm_fuel>.addTooltip(format.red("Thanks to Gebcrafter for the texture!"));
+<contenttweaker:amfm_fuel>.addTooltip(format.aqua("基础持续时间：43 min"));
+<contenttweaker:amfm_fuel>.addTooltip(format.aqua("基础能量：10 RF/t"));
+<contenttweaker:amfm_fuel>.addTooltip(format.aqua("基础产热：10 H/t"));
+<contenttweaker:amfm_fuel>.addTooltip(format.red("感谢Gebcrafter绘制的纹理！"));
 
-<contenttweaker:heuf_fuel>.addTooltip(format.aqua("Base Depletion Time: 60 min"));
-<contenttweaker:heuf_fuel>.addTooltip(format.aqua("Base Power Gen: 40 RF/t"));
-<contenttweaker:heuf_fuel>.addTooltip(format.aqua("Base Heat Gen: 200 H/t"));
-//<contenttweaker:heuf_fuel>.addTooltip(format.red("Thanks to Photon-Gr4vity for the texture!"));
+<contenttweaker:heuf_fuel>.addTooltip(format.aqua("基础持续时间：60 min"));
+<contenttweaker:heuf_fuel>.addTooltip(format.aqua("基础能量：40 RF/t"));
+<contenttweaker:heuf_fuel>.addTooltip(format.aqua("基础产热：200 H/t"));
+//<contenttweaker:heuf_fuel>.addTooltip(format.red("感谢Photon-Gr4vity绘制的纹理！"));
 
-<contenttweaker:lees_fuel>.addTooltip(format.aqua("Base Depletion Time: 27 min"));
-<contenttweaker:lees_fuel>.addTooltip(format.aqua("Base Power Gen: 400 RF/t"));
-<contenttweaker:lees_fuel>.addTooltip(format.aqua("Base Heat Gen: 70 H/t"));
-//<contenttweaker:lees_fuel>.addTooltip(format.red("Thanks to Photon-Gr4vity for the texture!"));
+<contenttweaker:lees_fuel>.addTooltip(format.aqua("基础持续时间：27 min"));
+<contenttweaker:lees_fuel>.addTooltip(format.aqua("基础能量：400 RF/t"));
+<contenttweaker:lees_fuel>.addTooltip(format.aqua("基础产热：70 H/t"));
+//<contenttweaker:lees_fuel>.addTooltip(format.red("感谢Photon-Gr4vity绘制的纹理！"));
 
-<contenttweaker:fluix_lens>.addTooltip(format.red("Thanks to Photon-Gr4vity for the texture!"));
+<contenttweaker:fluix_lens>.addTooltip(format.red("感谢Photon-Gr4vity绘制的纹理！"));
 
-<contenttweaker:greater_gaia_spirit>.addTooltip(format.red("Thanks to Photon-Gr4vity for the texture!"));
+<contenttweaker:greater_gaia_spirit>.addTooltip(format.red("感谢Photon-Gr4vity绘制的纹理！"));
 
-<contenttweaker:hefm_fuel>.addTooltip(format.aqua("Base Depletion Time: 27 min"));
-<contenttweaker:hefm_fuel>.addTooltip(format.aqua("Base Power Gen: 100 RF/t"));
-<contenttweaker:hefm_fuel>.addTooltip(format.aqua("Base Heat Gen: 101 H/t"));
-//<contenttweaker:hefm_fuel>.addTooltip(format.red("Thanks to Photon-Gr4vity for the texture!"));
+<contenttweaker:hefm_fuel>.addTooltip(format.aqua("基础持续时间：27 min"));
+<contenttweaker:hefm_fuel>.addTooltip(format.aqua("基础能量：100 RF/t"));
+<contenttweaker:hefm_fuel>.addTooltip(format.aqua("基础产热：101 H/t"));
+//<contenttweaker:hefm_fuel>.addTooltip(format.red("感谢Photon-Gr4vity绘制的纹理！"));
 
-<contenttweaker:herrr_fuel>.addTooltip(format.aqua("Base Depletion Time: 43 min"));
-<contenttweaker:herrr_fuel>.addTooltip(format.aqua("Base Power Gen: 10 RF/t"));
-<contenttweaker:herrr_fuel>.addTooltip(format.aqua("Base Heat Gen: 999 H/t"));
-<contenttweaker:herrr_fuel>.addTooltip(format.red("Thanks to Gebcrafter for the texture!"));
+<contenttweaker:herrr_fuel>.addTooltip(format.aqua("基础持续时间：43 min"));
+<contenttweaker:herrr_fuel>.addTooltip(format.aqua("基础能量：10 RF/t"));
+<contenttweaker:herrr_fuel>.addTooltip(format.aqua("基础产热：999 H/t"));
+<contenttweaker:herrr_fuel>.addTooltip(format.red("感谢Gebcrafter绘制的纹理！"));
 
-<contenttweaker:lefhm_fuel>.addTooltip(format.aqua("Base Depletion Time: 27 min"));
-<contenttweaker:lefhm_fuel>.addTooltip(format.aqua("Base Power Gen: 100 RF/t"));
-<contenttweaker:lefhm_fuel>.addTooltip(format.aqua("Base Heat Gen: 10 H/t"));
-//<contenttweaker:lefhm_fuel>.addTooltip(format.red("Thanks to Photon-Gr4vity for the texture!"));
+<contenttweaker:lefhm_fuel>.addTooltip(format.aqua("基础持续时间：27 min"));
+<contenttweaker:lefhm_fuel>.addTooltip(format.aqua("基础能量：100 RF/t"));
+<contenttweaker:lefhm_fuel>.addTooltip(format.aqua("基础产热：10 H/t"));
+//<contenttweaker:lefhm_fuel>.addTooltip(format.red("感谢Photon-Gr4vity绘制的纹理！"));
 
-<contenttweaker:polonium_beryllium_alloy_ingot>.addTooltip(format.aqua("Base Depletion Time: 200 sec"));
-<contenttweaker:polonium_beryllium_alloy_ingot>.addTooltip(format.aqua("Base Power Gen: 1800 RF/t"));
-<contenttweaker:polonium_beryllium_alloy_ingot>.addTooltip(format.aqua("Base Heat Gen: 1200 H/t"));
+<contenttweaker:polonium_beryllium_alloy_ingot>.addTooltip(format.aqua("基础持续时间：200 sec"));
+<contenttweaker:polonium_beryllium_alloy_ingot>.addTooltip(format.aqua("基础能量：1800 RF/t"));
+<contenttweaker:polonium_beryllium_alloy_ingot>.addTooltip(format.aqua("基础产热：1200 H/t"));
 
 <simplevoidworld:portal>.addTooltip(format.red("Thanks to ACGaming for making the Meatball Sauce Mod"));
 
@@ -1687,13 +1687,13 @@ import crafttweaker.item.IItemCondition;
 
 <abyssalcraft:stone:4>.addTooltip(format.red("Found in Abyssal Wasteland structures"));
 
-<abyssalcraft:statue:0>.addTooltip(format.red("Created by a group of 10 or more shoggoths (found in overworld)"));
-<abyssalcraft:statue:1>.addTooltip(format.red("Created by a group of 10 or more shoggoths (found in overworld)"));
-<abyssalcraft:statue:2>.addTooltip(format.red("Created by a group of 10 or more shoggoths (found in overworld)"));
-<abyssalcraft:statue:3>.addTooltip(format.red("Created by a group of 10 or more shoggoths (found in overworld)"));
-<abyssalcraft:statue:4>.addTooltip(format.red("Created by a group of 10 or more shoggoths (found in overworld)"));
-<abyssalcraft:statue:5>.addTooltip(format.red("Created by a group of 10 or more shoggoths (found in overworld)"));
-<abyssalcraft:statue:6>.addTooltip(format.red("Created by a group of 10 or more shoggoths (found in overworld)"));
+<abyssalcraft:statue:0>.addTooltip(format.red("由一群10只或更多修格斯建造（发现于主世界）"));
+<abyssalcraft:statue:1>.addTooltip(format.red("由一群10只或更多修格斯建造（发现于主世界）"));
+<abyssalcraft:statue:2>.addTooltip(format.red("由一群10只或更多修格斯建造（发现于主世界）"));
+<abyssalcraft:statue:3>.addTooltip(format.red("由一群10只或更多修格斯建造（发现于主世界）"));
+<abyssalcraft:statue:4>.addTooltip(format.red("由一群10只或更多修格斯建造（发现于主世界）"));
+<abyssalcraft:statue:5>.addTooltip(format.red("由一群10只或更多修格斯建造（发现于主世界）"));
+<abyssalcraft:statue:6>.addTooltip(format.red("由一群10只或更多修格斯建造（发现于主世界）"));
 
 <draconicevolution:dragon_heart>.addTooltip(format.red("Can be farmed with a woot ender dragon farm"));
 
@@ -1711,19 +1711,19 @@ import crafttweaker.item.IItemCondition;
 
 <astralsorcery:blockaltar:0>.addTooltip(format.green("Reusable when making sooty marble"));
 
-<contenttweaker:sigil_power>.addTooltip(format.red("Haumea will guide you"));
+<contenttweaker:sigil_power>.addTooltip(format.red("哈乌美亚将指引你"));
 
-<contenttweaker:bee_chestplate>.addTooltip(format.red("Osiris will guide you"));
+<contenttweaker:bee_chestplate>.addTooltip(format.red("奥西里斯将指引你"));
 
-<contenttweaker:bee_boots>.addTooltip(format.red("Osiris will guide you"));
+<contenttweaker:bee_boots>.addTooltip(format.red("奥西里斯将指引你"));
 
-<contenttweaker:bee_helmet>.addTooltip(format.red("Osiris will guide you"));
+<contenttweaker:bee_helmet>.addTooltip(format.red("奥西里斯将指引你"));
 
-<contenttweaker:bee_leggings>.addTooltip(format.red("Osiris will guide you"));
+<contenttweaker:bee_leggings>.addTooltip(format.red("奥西里斯将指引你"));
 
 <aether_legacy:holy_sword>.addTooltip(format.red("sandstorm and crowcottage love this sword!"));
 
-<ore:boneWithered>.addTooltip(format.red("Dropped by withers"));
+<ore:boneWithered>.addTooltip(format.red("凋灵掉落"));
 
 <enderio:item_material:60>.addTooltip(format.red("用于导管"));
 
@@ -1819,31 +1819,31 @@ import crafttweaker.item.IItemCondition;
 
 <bloodarsenal:base_item:5>.addTooltip(format.red("This is an item you need to use in the recipe!"));
 
-<ore:ingotSednanite>.addTooltip(format.red("Have you crafted the artifact??"));
+<ore:ingotSednanite>.addTooltip(format.red("你做神器了吗？？"));
 
-<ore:ingotRhenium>.addTooltip(format.red("Have you crafted the artifact??"));
+<ore:ingotRhenium>.addTooltip(format.red("你做神器了吗？？"));
 
-<ore:ingotMyrmitite>.addTooltip(format.red("Have you crafted the artifact??"));
+<ore:ingotMyrmitite>.addTooltip(format.red("你做神器了吗？？"));
 
-<ore:ingotOgerite>.addTooltip(format.red("Have you crafted the artifact??"));
+<ore:ingotOgerite>.addTooltip(format.red("你做神器了吗？？"));
 
-<contenttweaker:unidentified_body>.addTooltip(format.red("Have you crafted the artifact??"));
+<contenttweaker:unidentified_body>.addTooltip(format.red("你做神器了吗？？"));
 
-<contenttweaker:recursion_darkness>.addTooltip(format.red("Have you crafted the artifact??"));
+<contenttweaker:recursion_darkness>.addTooltip(format.red("你做神器了吗？？"));
 
-<contenttweaker:recursion_fear>.addTooltip(format.red("Have you crafted the artifact??"));
+<contenttweaker:recursion_fear>.addTooltip(format.red("你做神器了吗？？"));
 
-<contenttweaker:recursion_helplessness>.addTooltip(format.red("Have you crafted the artifact??"));
+<contenttweaker:recursion_helplessness>.addTooltip(format.red("你做神器了吗？？"));
 
-<contenttweaker:recursion_solitude>.addTooltip(format.red("Have you crafted the artifact??"));
+<contenttweaker:recursion_solitude>.addTooltip(format.red("你做神器了吗？？"));
 
 <thaumicaugmentation:gauntlet:0>.addTooltip(format.red("Do not put in bibliocraft display blocks"));
 
 <thaumicaugmentation:gauntlet:1>.addTooltip(format.red("Do not put in bibliocraft display blocks"));
 
-<projectred-exploration:backpack>.addTooltip(format.red("Backpack"));
+<projectred-exploration:backpack>.addTooltip(format.red("背包"));
 
-<thermalexpansion:satchel>.addTooltip(format.red("Backpack"));
+<thermalexpansion:satchel>.addTooltip(format.red("背包"));
 
 <enderutilities:handybag:0>.addTooltip(format.red("Holding this in your inventory will increase your storage slots automatically!"));
 <enderutilities:handybag:1>.addTooltip(format.red("Holding this in your inventory will increase your storage slots automatically!"));
@@ -1851,7 +1851,7 @@ import crafttweaker.item.IItemCondition;
 <enderutilities:handybag:1>.addTooltip(format.red("Use SHIFT + E to open your regular inventory"));
 
 
-<extrabotany:masterhandbag>.addTooltip(format.red("Backpack"));
+<extrabotany:masterhandbag>.addTooltip(format.red("背包"));
 
 <ore:bewitchmentAltar>.addTooltip(format.red("Elder wood can be found in the overworld and in dungeons"));
 
@@ -2009,7 +2009,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:baku_heart>.addTooltip(format.red("Obtained from the demonologist callstone"));
 
-<contenttweaker:demonologist_callstone>.addTooltip(format.red("Haumea will guide you"));
+<contenttweaker:demonologist_callstone>.addTooltip(format.red("哈乌美亚将指引你"));
 
 <contenttweaker:peaceful_oath_callstone>.addTooltip(format.red("Europa will guide you"));
 
@@ -2047,11 +2047,11 @@ import crafttweaker.item.IItemCondition;
 
 <gendustry:industrial_apiary>.addTooltip(format.red("A time in a bottle would work great with this!"));
 
-<buildinggadgets:buildingtool>.addTooltip(format.red("Use V to change mode, use U to undo"));
+<buildinggadgets:buildingtool>.addTooltip(format.red("按V键切换模式，按U键撤销"));
 
-<buildinggadgets:exchangertool>.addTooltip(format.red("Use V to change mode"));
+<buildinggadgets:exchangertool>.addTooltip(format.red("按V键切换模式"));
 
-<buildinggadgets:copypastetool>.addTooltip(format.red("Use V to change mode"));
+<buildinggadgets:copypastetool>.addTooltip(format.red("按V键切换模式"));
 
 <projecte:item.pe_philosophers_stone>.addTooltip(format.red("Use V to increase range, shift+V to reduce range, C to open the crafting grid"));
 
@@ -2922,64 +2922,64 @@ import crafttweaker.item.IItemCondition;
 <advancedrocketry:launchpad>.addTooltip(format.red("The launchpad structure be any size"));
 <advancedrocketry:structuretower>.addTooltip(format.red("The launchpad structure be any size"));
 
-<minecraft:skull:0>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<minecraft:skull:1>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<minecraft:skull:2>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<minecraft:skull:5>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:white_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:orange_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:magenta_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:light_blue_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:yellow_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:lime_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:pink_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:gray_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:light_gray_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:cyan_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:purple_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:blue_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:brown_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:green_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:red_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:black_candle>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_white>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_orange>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_magenta>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_lightblue>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_yellow>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_lime>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_pink>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_gray>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_silver>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_cyan>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_purple>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_blue>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_brown>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_green>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_red>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<thaumcraft:candle_black>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:candelabra_gold>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:candelabra_iron>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<bewitchment:candelabra_silver>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<botania:shinyflower:*>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<botania:mushroom:*>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<botania:pylon:*>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
-<botania:miniisland:*>.addTooltip(format.red("Infusion Stabilizer: see JEI info box for recommended setup"));
+<minecraft:skull:0>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<minecraft:skull:1>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<minecraft:skull:2>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<minecraft:skull:5>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:white_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:orange_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:magenta_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:light_blue_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:yellow_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:lime_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:pink_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:gray_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:light_gray_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:cyan_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:purple_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:blue_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:brown_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:green_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:red_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:black_candle>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_white>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_orange>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_magenta>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_lightblue>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_yellow>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_lime>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_pink>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_gray>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_silver>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_cyan>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_purple>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_blue>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_brown>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_green>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_red>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<thaumcraft:candle_black>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:candelabra_gold>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:candelabra_iron>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<bewitchment:candelabra_silver>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<botania:shinyflower:*>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<botania:mushroom:*>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<botania:pylon:*>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
+<botania:miniisland:*>.addTooltip(format.red("注魔稳定物：查看JEI信息框以获得推荐配置"));
 
 <thaumcraft:infusion_matrix>.addTooltip(format.red("Search 'infusion stabilizer' in JEI to get the list"));
 
-<environmentaltech:void_ore_miner_cont_1>.addTooltip(format.red("Right click with an Assembler to auto-build"));
-<environmentaltech:void_ore_miner_cont_2>.addTooltip(format.red("Right click with an Assembler to auto-build"));
-<environmentaltech:void_ore_miner_cont_3>.addTooltip(format.red("Right click with an Assembler to auto-build"));
-<environmentaltech:void_ore_miner_cont_4>.addTooltip(format.red("Right click with an Assembler to auto-build"));
-<environmentaltech:void_ore_miner_cont_5>.addTooltip(format.red("Right click with an Assembler to auto-build"));
-<environmentaltech:void_ore_miner_cont_6>.addTooltip(format.red("Right click with an Assembler to auto-build"));
-<environmentaltech:void_res_miner_cont_1>.addTooltip(format.red("Right click with an Assembler to auto-build"));
-<environmentaltech:void_res_miner_cont_2>.addTooltip(format.red("Right click with an Assembler to auto-build"));
-<environmentaltech:void_res_miner_cont_3>.addTooltip(format.red("Right click with an Assembler to auto-build"));
-<environmentaltech:void_res_miner_cont_4>.addTooltip(format.red("Right click with an Assembler to auto-build"));
-<environmentaltech:void_res_miner_cont_5>.addTooltip(format.red("Right click with an Assembler to auto-build"));
-<environmentaltech:void_res_miner_cont_6>.addTooltip(format.red("Right click with an Assembler to auto-build"));
+<environmentaltech:void_ore_miner_cont_1>.addTooltip(format.red("使用装配杆右击来自动搭建"));
+<environmentaltech:void_ore_miner_cont_2>.addTooltip(format.red("使用装配杆右击来自动搭建"));
+<environmentaltech:void_ore_miner_cont_3>.addTooltip(format.red("使用装配杆右击来自动搭建"));
+<environmentaltech:void_ore_miner_cont_4>.addTooltip(format.red("使用装配杆右击来自动搭建"));
+<environmentaltech:void_ore_miner_cont_5>.addTooltip(format.red("使用装配杆右击来自动搭建"));
+<environmentaltech:void_ore_miner_cont_6>.addTooltip(format.red("使用装配杆右击来自动搭建"));
+<environmentaltech:void_res_miner_cont_1>.addTooltip(format.red("使用装配杆右击来自动搭建"));
+<environmentaltech:void_res_miner_cont_2>.addTooltip(format.red("使用装配杆右击来自动搭建"));
+<environmentaltech:void_res_miner_cont_3>.addTooltip(format.red("使用装配杆右击来自动搭建"));
+<environmentaltech:void_res_miner_cont_4>.addTooltip(format.red("使用装配杆右击来自动搭建"));
+<environmentaltech:void_res_miner_cont_5>.addTooltip(format.red("使用装配杆右击来自动搭建"));
+<environmentaltech:void_res_miner_cont_6>.addTooltip(format.red("使用装配杆右击来自动搭建"));
 
 // <botania:pylon:2>.addTooltip(format.red("Place on top of the manasteel blocks to make the gaia altar"));
 
