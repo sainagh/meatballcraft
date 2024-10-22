@@ -2949,6 +2949,13 @@ modularmachinery.wizardry_combiner=巫术组合台
 modularmachinery.ziggurat_of_life=生命塔庙
 modularmachinery.sacred_cinders_apiary=神圣余烬蜂箱
 modularmachinery.fractallite_furnace=分形熔炉
+modularmachinery.bastion_of_flesh=血肉堡垒
+modularmachinery.mythic_processor_electrolyzer=神话处理器：电解机
+modularmachinery.mythic_processor_isotope_separator=神话处理器：同位素处理器
+modularmachinery.mythic_processor_melter=神话处理器：金属熔化机
+modularmachinery.mythic_processor_resonator=神话处理器：共振仪
+modularmachinery.quantum_condenser=量子聚合机
+modularmachinery.sentient_meatball_monument=感知肉丸纪念碑
 # Custom Materials
 base.material.demonic_steel=恶魔钢
 base.material.corrosive_steel=腐蚀钢
