@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    20198
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis can be crafted by placing a crafting table under one of the crystals located in the marble temples. Make sure the crystal has sky access!\n\nThis recipe may bug out, make sure you try both astral sorcery and chisel marble variants!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:itemwand",
+        "tag:10": {
+          "astralsorcery:10": {}
+        }
+      },
+      "name:8": "Resonating Wand"
+    }
+  },
+  "questID:3": 20107,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:itemknowledgeshare",
+          "tag:10": {
+            "astralsorcery:10": {}
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:itemwand",
+          "tag:10": {
+            "astralsorcery:10": {}
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

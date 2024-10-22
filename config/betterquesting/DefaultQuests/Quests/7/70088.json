@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found between Y\u003d0 and Y\u003d17.\nWill be dropped by \"The Eye\"\n\n- Second part written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:rupee_ingot"
+      },
+      "name:8": "Rupee Ingot"
+    }
+  },
+  "questID:3": 70088,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:rupee_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

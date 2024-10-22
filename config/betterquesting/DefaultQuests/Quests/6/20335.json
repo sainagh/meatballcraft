@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20336
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oPlace on top of fire, lava, or a magma block, and near a witches altar.\n\nTo start every recipe in the cauldron, place a water bucket inside. If the water stays in the cauldron too long, it will evaporate!\n\nJEI will show the required ingredients for recipes and brews! \n\nTo craft using the cauldron, drop in the required items after the water starts boiling! If a recipe was done correctly, the output will pop out automatically! Make sure you drop each ingredient quickly, otherwise the recipe won\u0027t complete.\n\nTo make brews, drop a mandrake root, and drop a combination of the desired brew items (JEI will show). You can add gunpowder at the end to make it splashable! Right click the cauldron with empty bottles to collect the potions! ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:witches_cauldron"
+      },
+      "name:8": "Witches Cauldron"
+    }
+  },
+  "questID:3": 20335,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:witches_cauldron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

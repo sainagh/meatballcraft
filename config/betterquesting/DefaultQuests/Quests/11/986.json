@@ -1,0 +1,213 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    945,
+    998
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oGet your hands on some materials from the third mythic shell.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:brightsteel_chest",
+        "tag:10": {
+          "ench:9": {
+            "0:10": {
+              "id:2": 73,
+              "lvl:2": 10
+            },
+            "1:10": {
+              "id:2": 0,
+              "lvl:2": 20
+            },
+            "2:10": {
+              "id:2": 4,
+              "lvl:2": 10
+            },
+            "3:10": {
+              "id:2": 69,
+              "lvl:2": 10
+            },
+            "4:10": {
+              "id:2": 72,
+              "lvl:2": 10
+            },
+            "5:10": {
+              "id:2": 1,
+              "lvl:2": 10
+            },
+            "6:10": {
+              "id:2": 3,
+              "lvl:2": 10
+            }
+          }
+        }
+      },
+      "name:8": "Brightsteel Armor"
+    }
+  },
+  "questID:3": 986,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:brightsteel_head",
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oBrightsteel Helmet§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 0,
+                "lvl:3": 10
+              },
+              "1:10": {
+                "id:3": 4,
+                "lvl:3": 20
+              },
+              "2:10": {
+                "id:3": 74,
+                "lvl:3": 10
+              },
+              "3:10": {
+                "id:3": 75,
+                "lvl:3": 10
+              },
+              "4:10": {
+                "id:3": 1,
+                "lvl:3": 10
+              },
+              "5:10": {
+                "id:3": 3,
+                "lvl:3": 10
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:brightsteel_chest",
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oBrightsteel Chestplate§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 0,
+                "lvl:3": 10
+              },
+              "1:10": {
+                "id:3": 4,
+                "lvl:3": 20
+              },
+              "2:10": {
+                "id:3": 74,
+                "lvl:3": 10
+              },
+              "3:10": {
+                "id:3": 75,
+                "lvl:3": 10
+              },
+              "4:10": {
+                "id:3": 1,
+                "lvl:3": 10
+              },
+              "5:10": {
+                "id:3": 3,
+                "lvl:3": 10
+              }
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:brightsteel_legs",
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oBrightsteel Leggings§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 0,
+                "lvl:3": 10
+              },
+              "1:10": {
+                "id:3": 4,
+                "lvl:3": 20
+              },
+              "2:10": {
+                "id:3": 74,
+                "lvl:3": 10
+              },
+              "3:10": {
+                "id:3": 75,
+                "lvl:3": 10
+              },
+              "4:10": {
+                "id:3": 1,
+                "lvl:3": 10
+              },
+              "5:10": {
+                "id:3": 3,
+                "lvl:3": 10
+              }
+            }
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:brightsteel_feet",
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oBrightsteel Boots§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 0,
+                "lvl:3": 10
+              },
+              "1:10": {
+                "id:3": 4,
+                "lvl:3": 20
+              },
+              "2:10": {
+                "id:3": 74,
+                "lvl:3": 10
+              },
+              "3:10": {
+                "id:3": 75,
+                "lvl:3": 10
+              },
+              "4:10": {
+                "id:3": 1,
+                "lvl:3": 10
+              },
+              "5:10": {
+                "id:3": 3,
+                "lvl:3": 10
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

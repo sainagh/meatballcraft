@@ -149,3 +149,39 @@ mods.nuclearcraft.melter.addRecipe([<gendustry:honey_comb:13331>, <fluid:hot_spr
 mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:hot_spring_water>*1000, <gendustry:honey_comb:13331>, 1000);
 
 mods.thermalexpansion.Centrifuge.addRecipe([(<gendustry:honey_drop:13337>) % 99, (<forestry:beeswax>) % 90], <gendustry:honey_comb:13337>, null, 2000);
+
+recipes.addShaped(<tconstruct:materials:50>,
+[[<gendustry:honey_comb:14023>, <tconstruct:large_plate>.withTag({Material: "xu_evil_metal"}), <gendustry:honey_comb:14023>],
+[<tconstruct:large_plate>.withTag({Material: "xu_evil_metal"}), <minecraft:skull:*>, <tconstruct:large_plate>.withTag({Material: "xu_evil_metal"})],
+[<gendustry:honey_comb:14023>, <tconstruct:large_plate>.withTag({Material: "xu_evil_metal"}), <gendustry:honey_comb:14023>]]);
+
+
+recipes.addShaped(<thermalfoundation:upgrade:35>*4,
+[[<gendustry:honey_comb:14024>, <ore:ingotEnderium>, <gendustry:honey_comb:14024>],
+[<ore:ingotEnderium>, <ore:gearLumium>, <ore:ingotEnderium>],
+[<gendustry:honey_comb:14024>, <ore:ingotEnderium>, <gendustry:honey_comb:14024>]]);
+
+recipes.addShaped(<nuclearcraft:upgrade:0>*16,
+[[<ore:gemLapis>, <ore:dustRedstone>, <ore:gemLapis>],
+[<ore:dustRedstone>, <gendustry:honey_comb:14025>, <ore:dustRedstone>],
+[<ore:gemLapis>, <ore:dustRedstone>, <ore:gemLapis>]]);
+
+recipes.addShapeless(<enderio:item_alloy_endergy_ball:2>,
+[<divinerpg:serenade_striker>.reuse(),
+<gendustry:honey_comb:14026>]);
+
+mods.nuclearcraft.melter.addRecipe([<gendustry:honey_comb:14027>, <fluid:fluorine>*2000]);
+
+mods.nuclearcraft.melter.addRecipe([<gendustry:honey_comb:14028>, <fluid:helium>*1000]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:chilled_helium_comb>, <fluid:liquidhelium>*1000]);
+
+recipes.addShapeless(<contenttweaker:chilled_helium_comb>,
+[<gendustry:honey_comb:14028>,
+<aoa3:ice_crystal>]);
+
+recipes.addShaped(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidhelium", Amount: 1000}}),
+[[null, <ore:ingotTin>, null],
+[<ore:ingotTin>, <gendustry:honey_comb:14028>, <ore:ingotTin>],
+[null, <ore:ingotTin>, null]]);
+

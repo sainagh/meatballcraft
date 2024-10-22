@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    1883,
+    28
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThese are your all-in-one tool!\n\nYou will use one of these for a very long time, for general purpose breaking.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:divine_shickaxe"
+      },
+      "name:8": "Shickaxe Power"
+    }
+  },
+  "questID:3": 1887,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:arlemite_shickaxe"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:rupee_shickaxe"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:divine_shickaxe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

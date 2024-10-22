@@ -32,7 +32,7 @@ gallifreymirrror.addItemOutput(<contenttweaker:optical_event_horizon>);
 gallifreymirrror.build();
 
 val plasmahalite = RecipeBuilder.newBuilder("plasmahalite","plasmatic_condenser",20);
-plasmahalite.addFluidInput(<fluid:halite_fluid>*1000);
+plasmahalite.addFluidInput(<fluid:halite_fluid>*500);
 plasmahalite.addItemInput(<contenttweaker:definer_core>*8);
 plasmahalite.addItemInput(<contenttweaker:lawrencium_262>*8);
 plasmahalite.addItemInput(<contenttweaker:time_crystal>*8);

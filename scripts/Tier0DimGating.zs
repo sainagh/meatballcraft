@@ -18,10 +18,10 @@ recipes.addShaped(<thebetweenlands:druid_altar>,
 [<tconstruct:materials:18>, <abyssalcraft:transmutationgem>.anyDamage(), <tconstruct:materials:18>],
 [<divinerpg:cyclops_eye>, <divinerpg:shadow_bar>, <divinerpg:cyclops_eye>]]);
 
-recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "thebetweenlands:dark_druid"}}),
-[[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],
-[<minecraft:diamond>, <abyssalcraft:scroll:0>, <minecraft:diamond>],
-[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
+// recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "thebetweenlands:dark_druid"}}),
+// [[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],
+// [<minecraft:diamond>, <abyssalcraft:scroll:0>, <minecraft:diamond>],
+// [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
 
 
 recipes.addShaped(<aether_legacy:skyroot_plank>,

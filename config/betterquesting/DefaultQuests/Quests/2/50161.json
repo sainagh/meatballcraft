@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    50148
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Generate RF by putting water and lava on opposite sides of the block.\nGeneration is optimized by putting two water and two lava sources on four sides of the block, and by extracting energy from one of the remaining ones.\nThree sources of lava and water each can be used if phantom energyfaces are available.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "immersiveengineering:metal_device1"
+      },
+      "name:8": "Thermoelectric Generator (Good)"
+    }
+  },
+  "questID:3": 50161,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "immersiveengineering:metal_device1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

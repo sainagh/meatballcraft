@@ -23,7 +23,7 @@ mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:blazing_refined_fuel>*100, 
 
 val compressionf1 = RecipeBuilder.newBuilder("compressionf1","compression_engine",100);
 compressionf1.addFluidInput(<fluid:high_pressure_energetic_fluid>*100);
-compressionf1.addEnergyPerTickOutput(32500);
+compressionf1.addEnergyPerTickOutput(45000);
 compressionf1.build();
 
 val compadvf1 = RecipeBuilder.newBuilder("compadvf1","advanced_compression_engine",4);

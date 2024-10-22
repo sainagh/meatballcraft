@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    20323
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "minecraft:sand"
+      },
+      "name:8": "Gallifrey"
+    }
+  },
+  "questID:3": 1365,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 624,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Gallifrey",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

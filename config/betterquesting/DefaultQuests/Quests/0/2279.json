@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    372
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Some people just refuse to quit. Despite the fall of its empire, its Warden keeps on fighting.\nI have to say, I almost respect his commitment, no matter how many times I defeat him, he keeps coming back, and he keeps fighting. This is one stubborn recursive dude.\nWell, at least there is something to be gained from this.",
+      "icon:10": {
+        "Count:3": 61,
+        "id:8": "contenttweaker:deknighting_stick"
+      },
+      "name:8": "Warden Keeps Wardening"
+    }
+  },
+  "questID:3": 2279,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:summons_of_the_shyre_warden"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:deknighting_stick"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

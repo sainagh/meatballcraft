@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    50184
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The extreme pressure turbine is part of the promethium loop. Once you have made enough promethium, you can infinitely loop it through the turbine and a solid state reactor by inversting silver and neutron fluid.\n\nThe bigger your solid-state fusion reactor, the higher the energy output of this loop!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularmachinery:itemblueprint",
+        "tag:10": {
+          "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier5"
+        }
+      },
+      "name:8": "Extreme Pressure Turbine (Great)"
+    }
+  },
+  "questID:3": 50251,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:compression_turbine"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

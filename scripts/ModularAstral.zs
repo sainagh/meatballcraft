@@ -87,6 +87,15 @@ ast9.addItemInput(<astralsorcery:blockmarble:4>*2);
 ast9.addItemOutput(<astralsorcery:blockwell>);
 ast9.build();
 
+val ast9b = RecipeBuilder.newBuilder("ast9b","auto_astral_altar",1200);
+ast9b.addEnergyPerTickInput(1000);
+ast9b.addItemInput(<astralsorcery:itemcelestialcrystal>);
+ast9b.addItemInput(<astralsorcery:itemcraftingcomponent:0>*2);
+ast9b.addItemInput(<astralsorcery:blockmarble:6>*3);
+ast9b.addItemInput(<astralsorcery:blockmarble:4>*2);
+ast9b.addItemOutput(<astralsorcery:blockwell>);
+ast9b.build();
+
 val ast10 = RecipeBuilder.newBuilder("ast10","auto_astral_altar",1200);
 ast10.addEnergyPerTickInput(1000);
 ast10.addItemInput(<astralsorcery:itemcraftingcomponent:4>*2);
@@ -117,6 +126,16 @@ ast12.addItemInput(<astralsorcery:blockattunementrelay>);
 ast12.addItemInput(<astralsorcery:itemrockcrystalsimple>);
 ast12.addItemOutput(<astralsorcery:blockattunementaltar>);
 ast12.build();
+
+val ast12b = RecipeBuilder.newBuilder("ast12b","auto_astral_altar",1200);
+ast12b.addEnergyPerTickInput(1000);
+ast12b.addItemInput(<astralsorcery:itemcraftingcomponent:0>*2);
+ast12b.addItemInput(<astralsorcery:itemcraftingcomponent:1>*2);
+ast12b.addItemInput(<astralsorcery:blockmarble:6>*4);
+ast12b.addItemInput(<astralsorcery:blockattunementrelay>);
+ast12b.addItemInput(<astralsorcery:itemcelestialcrystal>);
+ast12b.addItemOutput(<astralsorcery:blockattunementaltar>);
+ast12b.build();
 
 val ast13 = RecipeBuilder.newBuilder("ast13","auto_astral_altar",1200);
 ast13.addEnergyPerTickInput(1000);
@@ -171,6 +190,17 @@ ast17.addItemInput(<astralsorcery:blockmarble:6>*2);
 ast17.addItemOutput(<astralsorcery:blockcelestialgateway>);
 ast17.build();
 
+val ast17b = RecipeBuilder.newBuilder("ast17b","auto_astral_altar",1200);
+ast17b.addEnergyPerTickInput(1000);
+ast17b.addItemInput(<astralsorcery:itemcraftingcomponent:2>*4);
+ast17b.addItemInput(<astralsorcery:itemcraftingcomponent:1>);
+ast17b.addItemInput(<astralsorcery:itemcraftingcomponent:3>*2);
+ast17b.addItemInput(<astralsorcery:itemusabledust:0>*2);
+ast17b.addItemInput(<astralsorcery:itemcelestialcrystal>);
+ast17b.addItemInput(<astralsorcery:blockmarble:6>*2);
+ast17b.addItemOutput(<astralsorcery:blockcelestialgateway>);
+ast17b.build();
+
 val ast18 = RecipeBuilder.newBuilder("ast18","auto_astral_altar",1200);
 ast18.addEnergyPerTickInput(1000);
 ast18.addItemInput(<astralsorcery:itemcraftingcomponent:0>*2);
@@ -180,6 +210,16 @@ ast18.addItemInput(<astralsorcery:blockmarble:6>*2);
 ast18.addItemInput(<astralsorcery:blockinfusedwood:4>*2);
 ast18.addItemOutput(<astralsorcery:blocklens>.withTag({astralsorcery: {crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}));
 ast18.build();
+
+val ast18b = RecipeBuilder.newBuilder("ast18b","auto_astral_altar",1200);
+ast18b.addEnergyPerTickInput(1000);
+ast18b.addItemInput(<astralsorcery:itemcraftingcomponent:0>*2);
+ast18b.addItemInput(<astralsorcery:itemcraftingcomponent:3>*3);
+ast18b.addItemInput(<astralsorcery:itemcelestialcrystal>);
+ast18b.addItemInput(<astralsorcery:blockmarble:6>*2);
+ast18b.addItemInput(<astralsorcery:blockinfusedwood:4>*2);
+ast18b.addItemOutput(<astralsorcery:blocklens>.withTag({astralsorcery: {crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}));
+ast18b.build();
 
 val ast19 = RecipeBuilder.newBuilder("ast19","auto_astral_altar",1200);
 ast19.addEnergyPerTickInput(1000);
@@ -194,6 +234,19 @@ ast19.addItemInput(<minecraft:glass_pane>*4);
 ast19.addItemOutput(<astralsorcery:blockprism>.withTag({astralsorcery: {crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}));
 ast19.build();
 
+val ast19b = RecipeBuilder.newBuilder("ast19b","auto_astral_altar",1200);
+ast19b.addEnergyPerTickInput(1000);
+ast19b.addItemInput(<astralsorcery:itemcraftingcomponent:2>*2);
+ast19b.addItemInput(<astralsorcery:itemcraftingcomponent:3>*2);
+ast19b.addItemInput(<astralsorcery:itemcraftingcomponent:4>*2);
+ast19b.addItemInput(<astralsorcery:itemcelestialcrystal>);
+ast19b.addItemInput(<astralsorcery:blockmarble:6>*4);
+ast19b.addItemInput(<astralsorcery:blockinfusedwood:4>*2);
+ast19b.addItemInput(<minecraft:gold_ingot>*2);
+ast19b.addItemInput(<minecraft:glass_pane>*4);
+ast19b.addItemOutput(<astralsorcery:blockprism>.withTag({astralsorcery: {crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}));
+ast19b.build();
+
 val ast20 = RecipeBuilder.newBuilder("ast20","auto_astral_altar",1200);
 ast20.addEnergyPerTickInput(1000);
 ast20.addItemInput(<astralsorcery:itemrockcrystalsimple>);
@@ -204,6 +257,17 @@ ast20.addItemInput(<astralsorcery:blockinfusedwood:4>*2);
 ast20.addItemInput(<minecraft:gold_ingot>*2);
 ast20.addItemOutput(<astralsorcery:blockritualpedestal>);
 ast20.build();
+
+val ast20b = RecipeBuilder.newBuilder("ast20b","auto_astral_altar",1200);
+ast20b.addEnergyPerTickInput(1000);
+ast20b.addItemInput(<astralsorcery:itemcelestialcrystal>);
+ast20b.addItemInput(<astralsorcery:blockmarble:2>*4);
+ast20b.addItemInput(<astralsorcery:blockmarble:6>*3);
+ast20b.addItemInput(<astralsorcery:blockmarble:4>*2);
+ast20b.addItemInput(<astralsorcery:blockinfusedwood:4>*2);
+ast20b.addItemInput(<minecraft:gold_ingot>*2);
+ast20b.addItemOutput(<astralsorcery:blockritualpedestal>);
+ast20b.build();
 
 val ast21 = RecipeBuilder.newBuilder("ast21","auto_astral_altar",1200);
 ast21.addEnergyPerTickInput(1000);
@@ -298,6 +362,17 @@ ast31.addItemInput(<minecraft:diamond>*3);
 ast31.addItemOutput(<astralsorcery:blockborehead:0>);
 ast31.build();
 
+val ast31b = RecipeBuilder.newBuilder("ast31b","auto_astral_altar",1200);
+ast31b.addEnergyPerTickInput(1000);
+ast31b.addItemInput(<minecraft:gold_ingot>*4);
+ast31b.addItemInput(<astralsorcery:blockmarble:6>*11);
+ast31b.addItemInput(<astralsorcery:itemcelestialcrystal>);
+ast31b.addItemInput(<astralsorcery:itemcraftingcomponent:4>*3);
+ast31b.addItemInput(<astralsorcery:itemcraftingcomponent:2>*2);
+ast31b.addItemInput(<minecraft:diamond>*3);
+ast31b.addItemOutput(<astralsorcery:blockborehead:0>);
+ast31b.build();
+
 val ast32 = RecipeBuilder.newBuilder("ast32","auto_astral_altar",1200);
 ast32.addEnergyPerTickInput(1000);
 ast32.addItemInput(<minecraft:gold_ingot>*2);
@@ -308,3 +383,14 @@ ast32.addItemInput(<astralsorcery:itemcraftingcomponent:2>*3);
 ast32.addItemInput(<astralsorcery:itemcraftingcomponent:1>*3);
 ast32.addItemOutput(<astralsorcery:blockborehead:1>);
 ast32.build();
+
+val ast32b = RecipeBuilder.newBuilder("ast32b","auto_astral_altar",1200);
+ast32b.addEnergyPerTickInput(1000);
+ast32b.addItemInput(<minecraft:gold_ingot>*2);
+ast32b.addItemInput(<astralsorcery:blockmarble:6>*15);
+ast32b.addItemInput(<astralsorcery:itemrockcrystalsimple:0>);
+ast32b.addItemInput(<astralsorcery:itemcraftingcomponent:4>*2);
+ast32b.addItemInput(<astralsorcery:itemcraftingcomponent:2>*3);
+ast32b.addItemInput(<astralsorcery:itemcraftingcomponent:1>*3);
+ast32b.addItemOutput(<astralsorcery:blockborehead:1>);
+ast32b.build();

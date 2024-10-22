@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70128
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found in the Abyss Dimension from Advent of Ascension.\nDropped by Jawe.\nOre generates below Y\u003d64.\n\n- Written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:bloodstone"
+      },
+      "name:8": "Bloodstone"
+    }
+  },
+  "questID:3": 70241,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:bloodstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

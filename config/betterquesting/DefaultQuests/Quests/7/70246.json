@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70129
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Ore is found in the Crystevia Dimension near Crystevian Rock found between Y\u003d5 and Y\u003d114.\n\n- Written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:green_gemstones"
+      },
+      "name:8": "Green Gemstones"
+    }
+  },
+  "questID:3": 70246,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:green_gemstones"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

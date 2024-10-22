@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    20255
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDrop a fluix lens into a 2x2 pool of water surrounded by flowers\n\n§fThis strange planet dominated by the influence of thaumic magic is tidally locked, meaning that, in each region of the planet, the time of day is conserved.\nThe regions that are fully diurnal are too hot to allow for the presence of life, while the fully nocturnal regions are a barren, frozen wasteland.\nIn the regions in between though, called the Twilight Forest, life is abundant, and for some reason, those that master thaumic powers have decided to keep it as one of their strongholds.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "twilightforest:aurora_block"
+      },
+      "name:8": "Twilight Forest"
+    }
+  },
+  "questID:3": 20265,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 7,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Twilight Forest",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

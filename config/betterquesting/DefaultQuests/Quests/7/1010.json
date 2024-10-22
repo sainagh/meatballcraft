@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70119
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found below Y\u003d8 in the Overworld.\nCan be found at every level in the End and the Nether.\n\n- Written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:draconium_dust"
+      },
+      "name:8": "Draconium Dust"
+    }
+  },
+  "questID:3": 1010,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconium_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

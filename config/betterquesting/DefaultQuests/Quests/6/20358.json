@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    20357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis block is part of a multiblock.\n\nRight click with a sextant to see a multiblock preview.\n\nRight click the infuser with a resonating wand to activate the recipe.\n\nThe infuser will only work if all 12 of the spaces in the multiblock are filled with liquid starlight.\n\nEvery time the infuser crafts, liquid starlight has a chance of disappearing. \n\nThe containment chalice will provide liquid starlight instead of consuming it from the multiblock. You can pipe it in from the bottom using any fluid pipe!\n\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:blockstarlightinfuser"
+      },
+      "name:8": "Starlight Infuser"
+    }
+  },
+  "questID:3": 20358,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:blockchalice"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:blockstarlightinfuser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

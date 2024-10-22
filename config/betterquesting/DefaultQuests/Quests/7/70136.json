@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70122
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Can drop when using Holystone tools.\nThe ore spawns in the Aether.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aether_legacy:ambrosium_shard"
+      },
+      "name:8": "Ambrosium Shard"
+    }
+  },
+  "questID:3": 70136,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aether_legacy:ambrosium_shard"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

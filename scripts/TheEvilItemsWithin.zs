@@ -140,14 +140,25 @@ vengefulkey.itemRightClick = function(stack, world, player, hand) {
     pos.y = pos.y - 1;
     var blockPosBelowPlayer = pos.asBlockPos();
 
-	# Check if the blockstate that is under the player matches obsidian.
-    if(world.getBlockState(blockPosBelowPlayer) == <blockstate:minecraft:netherrack>) {
-        Commands.call("fill ~-1 ~-2 ~-1 ~1 ~2 ~1 air 0 replace contenttweaker:vengeful_portal 0", player, world, false, true);
+    Commands.call("execute @s ~ ~ ~ detect ~ ~2 ~ contenttweaker:corrosive_crystal_cluster 0 fill ~ ~2 ~ ~ ~2 ~ air 0 destroy", player, world, true, true);
+    Commands.call("execute @s ~ ~ ~ detect ~ ~2 ~ contenttweaker:destructive_crystal_cluster 0 fill ~ ~2 ~ ~ ~2 ~ air 0 destroy", player, world, true, true);
+    Commands.call("execute @s ~ ~ ~ detect ~ ~2 ~ contenttweaker:vengeful_crystal_cluster 0 fill ~ ~2 ~ ~ ~2 ~ air 0 destroy", player, world, true, true);
+    Commands.call("execute @s ~ ~ ~ detect ~ ~2 ~ contenttweaker:steadfast_crystal_cluster 0 fill ~ ~2 ~ ~ ~2 ~ air 0 destroy", player, world, true, true);
+
+    Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ contenttweaker:corrosive_crystal_cluster 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
+    Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ contenttweaker:destructive_crystal_cluster 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
+    Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ contenttweaker:vengeful_crystal_cluster 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
+    Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ contenttweaker:steadfast_crystal_cluster 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
+
+    Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ contenttweaker:vengeful_portal 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
+
+
+    player.sendChat("This item serves two purposes, to open the entrance to the will crystal monolith, and to break the first four crystal clusters located there!");
+    player.sendChat("Stand on top of the vengeful portal to break it!");
+    player.sendChat("Stand right below, or on top of (both work) the clusters to break them!");
+
+
         return "PASS";
-    } else {
-        Commands.call("say stand on the netherrack block in the middle of the will crystal monolith", player, world, false, true);
-        return "FAIL";
-    }
 };
 vengefulkey.register();
 
@@ -162,14 +173,17 @@ retaliationkey.itemRightClick = function(stack, world, player, hand) {
     pos.y = pos.y - 1;
     var blockPosBelowPlayer = pos.asBlockPos();
 
-	# Check if the blockstate that is under the player matches obsidian.
-    if(world.getBlockState(blockPosBelowPlayer) == <blockstate:minecraft:netherrack>) {
-        Commands.call("fill ~-1 ~1 ~-1 ~1 ~5 ~1 air 0 replace contenttweaker:retaliation_portal 0", player, world, false, true);
+    Commands.call("execute @s ~ ~ ~ detect ~ ~2 ~ contenttweaker:demonic_crystal_cluster 0 fill ~ ~2 ~ ~ ~2 ~ air 0 destroy", player, world, true, true);
+
+    Commands.call("execute @s ~ ~ ~ detect ~ ~2 ~ contenttweaker:retaliation_portal 0 fill ~ ~2 ~ ~ ~2 ~ air 0 destroy", player, world, true, true);
+
+
+    player.sendChat("This item serves two purposes, to open the second gate in the will crystal monolith, and to break the final crystal cluster located there!");
+    player.sendChat("Stand right below the vengeful portal to break it!");
+    player.sendChat("Stand right below the cluster to break it!");
+
+
         return "PASS";
-    } else {
-        Commands.call("say stand on the netherrack block inside the will crystal monolith", player, world, false, true);
-        return "FAIL";
-    }
 };
 retaliationkey.register();
 

@@ -530,7 +530,7 @@ import mods.astralsorcery.Utils;
 
 //	Spatial Phaser
 {
-	recipes.addHiddenShapeless("stellararmorhidden", <contenttweaker:spatial_phaser>,
+	scripts.PuzzleUtil.addPuzzleShapeless("stellararmorhidden", <contenttweaker:spatial_phaser>,
 		[<contenttweaker:inert_spatial_phaser>,
 		<divinerpg:diamond_bricks>,
 		<divinerpg:aquatonic_bricks>,
@@ -1109,14 +1109,14 @@ import mods.astralsorcery.Utils;
 	
 	//	Recipe
 	recipes.addShaped(SuperEnchantedItem(<abyssalcraft:dreadiumsamuraihelmet>.withTag({display: {Name:"§6§oStinger Samurai Helm§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSamuraiWrapped).getItem(),
-		[[null, <extendedcrafting:singularity_custom:629>, null],
+		[[null, <extendedcrafting:singularity_custom:2038>, null],
 		[null, <abyssalcraft:dreadiumsamuraihelmet>, null],
 		[null, <contenttweaker:sword_shield>, null]]);
 }
 
 //	Living Myrmitite Ingot
 {
-	recipes.addHiddenShapeless("sharpboneprecasia", <contenttweaker:living_myrmitite_ingot>,
+	scripts.PuzzleUtil.addPuzzleShapeless("sharpboneprecasia", <contenttweaker:living_myrmitite_ingot>,
 		[<ore:ingotMyrmitite>,
 		<bloodarsenal:modifier_tome>.withTag({Level: 4, Key: "bloodarsenal.modifier.sharpness", ReadyToUpgrade: 0 as byte}),
 		<bloodarsenal:modifier_tome>.withTag({Level: 4, Key: "bloodarsenal.modifier.xperienced", ReadyToUpgrade: 0 as byte}),
@@ -1162,7 +1162,7 @@ import mods.astralsorcery.Utils;
 		[<contenttweaker:wrought_iron_shard>, <aoa3:charged_runium_chunk>, <contenttweaker:wrought_iron_shard>]]);
 
 	//	Puzzle
-	recipes.addHiddenShaped("deeplandspuzzlestone",<contenttweaker:deep_metamorphic_rock>,
+	scripts.PuzzleUtil.addPuzzleShaped("deeplandspuzzlestone",<contenttweaker:deep_metamorphic_rock>,
 		[[<twilightforest:deadrock:1>, <aoa3:haven_stone>, <aoa3:lelyetia_stone>],
 		[<aether_legacy:mossy_holystone>, <aoa3:deeplands_stone>, <aoa3:unstable_stone>],
 		[<botania:biomestonea:14>, <abyssalcraft:cobblestone:2>, <divinerpg:twilight_stone>]]);
@@ -1240,7 +1240,7 @@ import mods.astralsorcery.Utils;
 	// mapSticc += enclistSticc[0].makeEnchantment(350).makeTag();
 
 	val enclistSticcWrapped as EnchantMap = EnchantMap()
-	.add("minecraft:unbreaking",85);
+	.add("minecraft:unbreaking",350);
 	
 	//	Recipe
 	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<thermalfoundation:tool.fishing_rod_platinum>.withTag({display: {Name:"§6§oFishing Sticc§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSticcWrapped).getItem(), 
@@ -1252,5 +1252,46 @@ import mods.astralsorcery.Utils;
 		[null, <contenttweaker:ascended_draconic_alloy>, null, <contenttweaker:ascended_draconic_alloy>, null, <contenttweaker:ascended_draconic_alloy>, null], 
 		[<contenttweaker:second_order_mythic_fractal>, null, null, <contenttweaker:second_order_mythic_fractal>, null, null, <contenttweaker:second_order_mythic_fractal>]]);  
 }
+
+
+//	Tater Smasher
+{
+
+	val enchlistTaterSmasherWrapped as EnchantMap = EnchantMap()
+	.add("minecraft:mending",25);
+	
+	//	Recipe
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<extrabotany:ultimatehammer>.withTag({damage: 3000, repair: 17000, display: {Name:"§6§oTater Smasher§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistTaterSmasherWrapped).getItem(), 
+		[[<extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>], 
+		[<extrabotany:gildedmashedpotato>, <contenttweaker:gem_of_the_warrior>, <contenttweaker:prophetic_paper>, null, <avaritia:resource:5>, null, <contenttweaker:prophetic_paper>, <contenttweaker:gem_of_the_warrior>, <extrabotany:gildedmashedpotato>], 
+		[<extrabotany:gildedmashedpotato>, <contenttweaker:prophetic_paper>, null, null, <contenttweaker:fifth_order_mythic_fractal>, null, null, <contenttweaker:prophetic_paper>, <extrabotany:gildedmashedpotato>], 
+		[<extrabotany:gildedmashedpotato>, null, null, <extrautils2:drum:2>.withTag({Fluid: {FluidName: "elementium", Amount: 4096000}}), <extrautils2:drum:2>.withTag({Fluid: {FluidName: "elementium", Amount: 4096000}}), <extrautils2:drum:2>.withTag({Fluid: {FluidName: "elementium", Amount: 4096000}}), null, null, <extrabotany:gildedmashedpotato>], 
+		[<extrabotany:gildedmashedpotato>, <avaritia:resource:5>, <contenttweaker:fifth_order_mythic_fractal>, <extrautils2:drum:2>.withTag({Fluid: {FluidName: "elementium", Amount: 4096000}}), <extrabotany:ultimatehammer>, <extrautils2:drum:2>.withTag({Fluid: {FluidName: "elementium", Amount: 4096000}}), <contenttweaker:fifth_order_mythic_fractal>, <avaritia:resource:5>, <extrabotany:gildedmashedpotato>], 
+		[<extrabotany:gildedmashedpotato>, null, null, <extrautils2:drum:2>.withTag({Fluid: {FluidName: "elementium", Amount: 4096000}}), <extrautils2:drum:2>.withTag({Fluid: {FluidName: "elementium", Amount: 4096000}}), <extrautils2:drum:2>.withTag({Fluid: {FluidName: "elementium", Amount: 4096000}}), null, null, <extrabotany:gildedmashedpotato>], 
+		[<extrabotany:gildedmashedpotato>, <contenttweaker:prophetic_paper>, null, null, <contenttweaker:fifth_order_mythic_fractal>, null, null, <contenttweaker:prophetic_paper>, <extrabotany:gildedmashedpotato>], 
+		[<extrabotany:gildedmashedpotato>, <contenttweaker:gem_of_the_warrior>, <contenttweaker:prophetic_paper>, null, <avaritia:resource:5>, null, <contenttweaker:prophetic_paper>, <contenttweaker:gem_of_the_warrior>, <extrabotany:gildedmashedpotato>], 
+		[<extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>]]);
+}
+
+
+//	Nightmare Hood
+{
+
+	val enchlistNightmareHoodWrapped as EnchantMap = EnchantMap()
+	.add("minecraft:thorns",250);
+	
+	//	Recipe
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:tormented_hood>.withTag({display: {Name:"§6§oNightmare Hood§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistNightmareHoodWrapped).getItem(), 
+		[[<contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, null, null, null, null, null, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>], 
+		[<contenttweaker:draconian_metal_ingot>, <ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>, null, null, null, <ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>, <contenttweaker:draconian_metal_ingot>], 
+		[null, <ore:ingotSacrificeMetal>, <contenttweaker:vethea_garnet>, <contenttweaker:vethea_garnet>, null, <contenttweaker:vethea_garnet>, <contenttweaker:vethea_garnet>, <ore:ingotSacrificeMetal>, null], 
+		[null, null, <contenttweaker:vethea_garnet>, <divinerpg:arksiane_lump>, <contenttweaker:fourth_order_mythic_fractal>, <divinerpg:arksiane_lump>, <contenttweaker:vethea_garnet>, null, null], 
+		[null, null, null, <contenttweaker:fourth_order_mythic_fractal>, <divinerpg:tormented_hood>, <contenttweaker:fourth_order_mythic_fractal>, null, null, null], 
+		[null, null, <contenttweaker:vethea_garnet>, <divinerpg:arksiane_lump>, <contenttweaker:fourth_order_mythic_fractal>, <divinerpg:arksiane_lump>, <contenttweaker:vethea_garnet>, null, null], 
+		[null, <ore:ingotSacrificeMetal>, <contenttweaker:vethea_garnet>, <contenttweaker:vethea_garnet>, null, <contenttweaker:vethea_garnet>, <contenttweaker:vethea_garnet>, <ore:ingotSacrificeMetal>, null], 
+		[<contenttweaker:draconian_metal_ingot>, <ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>, null, null, null, <ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>, <contenttweaker:draconian_metal_ingot>], 
+		[<contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, null, null, null, null, null, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>]]);
+}
+
 
 

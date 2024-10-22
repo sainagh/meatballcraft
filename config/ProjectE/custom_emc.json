@@ -22547,6 +22547,270 @@
     {
       "item": "railcraft:jaded|4",
       "emc": 1024
+    },
+    {
+      "item": "contenttweaker:lively_twilight_gem|0",
+      "emc": 2048
+    },
+    {
+      "item": "railcraft:sandy|1",
+      "emc": 34
+    },
+    {
+      "item": "railcraft:sandy|4",
+      "emc": 34
+    },
+    {
+      "item": "railcraft:sandy|5",
+      "emc": 34
+    },
+    {
+      "item": "contenttweaker:hand_framing_tool|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:soulstone|1",
+      "emc": 25
+    },
+    {
+      "item": "immersiveengineering:metal|6",
+      "emc": 0
+    },
+    {
+      "item": "techreborn:plates|10",
+      "emc": 0
+    },
+    {
+      "item": "railcraft:jaded_stone|0",
+      "emc": 1024
+    },
+    {
+      "item": "railcraft:jaded|0",
+      "emc": 1024
+    },
+    {
+      "item": "railcraft:jaded|1",
+      "emc": 1024
+    },
+    {
+      "item": "railcraft:jaded|2",
+      "emc": 1024
+    },
+    {
+      "item": "railcraft:jaded|3",
+      "emc": 1024
+    },
+    {
+      "item": "railcraft:jaded|5",
+      "emc": 1024
+    },
+    {
+      "item": "railcraft:jaded|4",
+      "emc": 1024
+    },
+    {
+      "item": "railcraft:abyssal|5",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:abyssal_stone|0",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:abyssal|3",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:abyssal|1",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:abyssal|2",
+      "emc": 8
+    },
+    {
+      "item": "railcraft:abyssal|0",
+      "emc": 8
+    },
+    {
+      "item": "aoa3:rainbow_grass|0",
+      "emc": 64
+    },
+    {
+      "item": "aoa3:rainbow_grass2|0",
+      "emc": 64
+    },
+    {
+      "item": "aoa3:rainbow_grass3|0",
+      "emc": 69
+    },
+    {
+      "item": "openblocks:elevator|0",
+      "emc": 1024
+    },
+    {
+      "item": "projecte:item.pe_mercurial_eye|0",
+      "emc": 0
+    },
+    {
+      "item": "enderio:block_travel_anchor|0",
+      "emc": 10508
+    },
+    {
+      "item": "enderutilities:ender_elevator|0",
+      "emc": 8508
+    },
+    {
+      "item": "immersiveengineering:metal_decoration1|5",
+      "emc": 106
+    },
+    {
+      "item": "gendustry:pollen_kit|0",
+      "emc": 514
+    },
+    {
+      "item": "thaumadditions:vis_seeds/mythus|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumadditions:vis_pod|0",
+      "emc": 0
+    },
+    {
+      "item": "projectred-exploration:stone|0",
+      "emc": 4
+    },
+    {
+      "item": "aoa3:creeponia_bricks|0",
+      "emc": 512
+    },
+    {
+      "item": "aoa3:lelyetia_bricks|0",
+      "emc": 512
+    },
+    {
+      "item": "aoa3:baron_bricks|0",
+      "emc": 512
+    },
+    {
+      "item": "minecraft:farmland|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:arlemite_lamp|0",
+      "emc": 3328
+    },
+    {
+      "item": "divinerpg:realmite_lamp|0",
+      "emc": 3328
+    },
+    {
+      "item": "divinerpg:netherite_lamp|0",
+      "emc": 3328
+    },
+    {
+      "item": "divinerpg:rupee_lamp|0",
+      "emc": 3328
+    },
+    {
+      "item": "divinerpg:terran_lamp|0",
+      "emc": 1536
+    },
+    {
+      "item": "divinerpg:jungle_lamp|0",
+      "emc": 1536
+    },
+    {
+      "item": "divinerpg:molten_lamp|0",
+      "emc": 1536
+    },
+    {
+      "item": "divinerpg:bluefire_lamp|0",
+      "emc": 1536
+    },
+    {
+      "item": "divinerpg:ice_lamp|0",
+      "emc": 1536
+    },
+    {
+      "item": "divinerpg:workshop_lamp|0",
+      "emc": 256
+    },
+    {
+      "item": "aether_legacy:aether_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "aether_legacy:aether_grass|0",
+      "emc": 1
+    },
+    {
+      "item": "botania:biomestonea|3",
+      "emc": 1
+    },
+    {
+      "item": "botania:biomestonea|2",
+      "emc": 1
+    },
+    {
+      "item": "botania:biomestonea|0",
+      "emc": 1
+    },
+    {
+      "item": "botania:biomestonea|1",
+      "emc": 1
+    },
+    {
+      "item": "botania:biomestonea|6",
+      "emc": 1
+    },
+    {
+      "item": "botania:biomestonea|4",
+      "emc": 1
+    },
+    {
+      "item": "botania:biomestonea|7",
+      "emc": 1
+    },
+    {
+      "item": "botania:biomestonea|5",
+      "emc": 1
+    },
+    {
+      "item": "thebetweenlands:wisp|0",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:castle_door|0",
+      "emc": 69420
+    },
+    {
+      "item": "twilightforest:castle_door|1",
+      "emc": 69420
+    },
+    {
+      "item": "twilightforest:castle_door|3",
+      "emc": 69420
+    },
+    {
+      "item": "twilightforest:castle_door|2",
+      "emc": 69420
+    },
+    {
+      "item": "glassential:glass_dark|0",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity_custom|996",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity_custom|992",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity|20",
+      "emc": 0
     }
   ]
 }

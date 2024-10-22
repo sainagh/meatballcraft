@@ -28,4 +28,8 @@ recipes.addShapeless(<modularmachinery:sacred_cinders_apiary_factory_controller>
 <contenttweaker:multithreading_controller_upgrade>,
 <contenttweaker:sacred_cinders_apiary>]);
 
+recipes.addShapeless(<modularmachinery:shadow_fracturer_factory_controller>,
+[<modularmachinery:shadow_fracturer_controller>,
+<contenttweaker:multithreading_controller_upgrade>,
+<contenttweaker:sacred_acorn>]);
 

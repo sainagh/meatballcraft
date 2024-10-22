@@ -120,6 +120,7 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:barium_chunk>, <fluid:barium
 // making zirconium
 
 mods.nuclearcraft.melter.addRecipe([<nuclearcraft:ingot:10>, <fluid:molten_zirconium>*144]);
+mods.nuclearcraft.melter.addRecipe([<nuclearcraft:dust:10>, <fluid:molten_zirconium>*144]);
 
 // making niobium
 
@@ -131,7 +132,7 @@ niobiumaccelerator1.build();
 
 val niobiumaccelerator2 = RecipeBuilder.newBuilder("niobiumaccelerator2","high_impulse_accelerator",40);
 niobiumaccelerator2.addEnergyPerTickInput(10000000);
-niobiumaccelerator2.addFluidInput(<fluid:molten_titanium>*100);
+niobiumaccelerator2.addFluidInput(<fluid:titanium>*100);
 niobiumaccelerator2.addFluidOutput(<fluid:niobium>*50);
 niobiumaccelerator2.build();
 
@@ -148,6 +149,16 @@ mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:tungsten_molybdenum_mix>*14
 // making einstenium
 
 mods.nuclearcraft.salt_fission.addRecipe([<fluid:unholy_radioactive_mix>*15, <fluid:einstenium>*15, 100.0, 600.0, 4.0]);
+
+val mixinfiniteunholy = RecipeBuilder.newBuilder("mixinfiniteunholy","iron_centrifuge",10);
+mixinfiniteunholy.addEnergyPerTickInput(5000000);
+mixinfiniteunholy.addFluidInput(<fluid:unholy_radioactive_mix>*100);
+mixinfiniteunholy.addFluidInput(<fluid:infinity>*144);
+mixinfiniteunholy.addFluidOutput(<fluid:infinitely_unholy_radioactive_mix>*100);
+mixinfiniteunholy.build();
+
+mods.nuclearcraft.salt_fission.addRecipe([<fluid:infinitely_unholy_radioactive_mix>*15, <fluid:einstenium>*500, 100.0, 600.0, 8.0]);
+
 
 // making lanthanum
 
@@ -401,7 +412,7 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:terbium_crystal>, <fluid:ter
 
 // making fermium
 
-mods.nuclearcraft.electrolyser.addRecipe([<fluid:einstenium>*100, <fluid:einstenium_253>*50, <fluid:einstenium_254>*50, null, null, 0.1, 0.9, 0.2]);
+mods.nuclearcraft.centrifuge.addRecipe([<fluid:einstenium>*100, <fluid:einstenium_253>*50, <fluid:einstenium_254>*50, null, null, 0.1, 0.9, 0.2]);
 
 mods.nuclearcraft.crystallizer.addRecipe([<fluid:einstenium_253>*50, <contenttweaker:einstenium_253>]);
 

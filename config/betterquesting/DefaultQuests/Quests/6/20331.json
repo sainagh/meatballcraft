@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    20328
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oYou should farm these plants! They will be used quite a lot in bewitchment!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:mandrake_root"
+      },
+      "name:8": "Witches Ingredients"
+    }
+  },
+  "questID:3": 20331,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:aconitum"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:belladonna"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:garlic"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:hellebore"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:mandrake_root"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:white_sage"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:wormwood"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found between Y\u003d5 and Y\u003d21",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:jade"
+      },
+      "name:8": "Ascended Jade"
+    }
+  },
+  "questID:3": 70068,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:jade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

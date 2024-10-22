@@ -179,16 +179,16 @@ mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_boots>);
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_sword>, 
-[[null, null, null, null, null, null, null, <avaritia:resource:6>, <avaritia:resource:6>], 
-[null, null, null, null, null, null, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>], 
-[null, null, null, null, null, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, null], 
-[null, <contenttweaker:defined_plate>, null, null, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, null, null], 
-[null, <contenttweaker:defined_plate>, null, <avaritia:resource:6>, <materialpart:fractallite_halite:ingot>, <avaritia:resource:6>, null, null, null], 
-[null, null, <contenttweaker:defined_plate>, <avaritia:resource:6>, <avaritia:resource:6>, null, null, null, null], 
-[null, null, <avaritia:block_resource:0>, <contenttweaker:defined_plate>, null, null, null, null, null], 
-[null, <avaritia:block_resource:0>, null, null, <contenttweaker:defined_plate>, <contenttweaker:defined_plate>, null, null, null], 
-[<contenttweaker:recursion_infinity>, null, null, null, null, null, null, null, null]]);  
+// mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_sword>, 
+// [[null, null, null, null, null, null, null, <avaritia:resource:6>, <avaritia:resource:6>], 
+// [null, null, null, null, null, null, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>], 
+// [null, null, null, null, null, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, null], 
+// [null, <contenttweaker:defined_plate>, null, null, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, null, null], 
+// [null, <contenttweaker:defined_plate>, null, <avaritia:resource:6>, <materialpart:fractallite_halite:ingot>, <avaritia:resource:6>, null, null, null], 
+// [null, null, <contenttweaker:defined_plate>, <avaritia:resource:6>, <avaritia:resource:6>, null, null, null, null], 
+// [null, null, <avaritia:block_resource:0>, <contenttweaker:defined_plate>, null, null, null, null, null], 
+// [null, <avaritia:block_resource:0>, null, null, <contenttweaker:defined_plate>, <contenttweaker:defined_plate>, null, null, null], 
+// [<contenttweaker:recursion_infinity>, null, null, null, null, null, null, null, null]]);  
 
 mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_bow>, 
 [[null, null, null, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, null, null, null], 

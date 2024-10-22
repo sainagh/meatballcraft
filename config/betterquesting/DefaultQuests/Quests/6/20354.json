@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20120
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis is part of a multiblock.\n\nRight click the ritual altar with a sextant to see a preview of the multiblock.\n\nPlace an attuned celestial crystal on the formed altar to produce a special effect. Some are very powerful!\n\nThe quests for each attunement will list the ritual effects!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:blockritualpedestal"
+      },
+      "name:8": "Ritual Pedestal"
+    }
+  },
+  "questID:3": 20354,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:blockritualpedestal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

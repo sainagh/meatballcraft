@@ -8,12 +8,12 @@
             "x": 0,
             "y": 0,
             "z": 1,
-            "description": "Replace center block for faster recipes, 20X faster",
+            "description": "Replace center block for faster recipes, 10X faster",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
                 "operation": 1,
-                "multiplier": 0.05
+                "multiplier": 0.1
             }
         }
     ],

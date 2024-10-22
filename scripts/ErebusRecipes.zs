@@ -7,10 +7,10 @@ recipes.removeShaped(<erebus:wand_of_animation>);
 // [null, <ore:stickWood>, <materialpart:hassium:ingot>],
 // [<materialpart:halite:ingot>, null, null]]);
 
-recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "erebus:erebus.stag_beetle"}}),
-[[null, <bewitchment:triskelion>, null],
-[<bewitchment:triskelion>, <bewitchment:poppet_earthprotection>, <bewitchment:triskelion>],
-[null, <bewitchment:triskelion>, null]]);
+// recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "erebus:erebus.stag_beetle"}}),
+// [[null, <bewitchment:triskelion>, null],
+// [<bewitchment:triskelion>, <bewitchment:poppet_earthprotection>, <bewitchment:triskelion>],
+// [null, <bewitchment:triskelion>, null]]);
 
 recipes.addShaped(<contenttweaker:umberstone_callstone>,
 [[<erebus:materials:18>, <erebus:materials:0>, <erebus:materials:18>],

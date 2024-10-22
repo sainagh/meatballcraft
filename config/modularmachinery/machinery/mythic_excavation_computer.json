@@ -15,6 +15,19 @@
                 "operation": 1,
                 "multiplier": 0.2
             }
+        },
+        {
+            "elements": "tardis:toyota_hexagon_4",
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "description": "Replace top block for faster recipes, 20X faster",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.05
+            }
         }
     ],
     "parts": [

@@ -1,4 +1,4 @@
-recipes.addHiddenShapeless("ezmithminiteboii",<contenttweaker:ghoul_spirit>,
+scripts.PuzzleUtil.addPuzzleShapeless("ezmithminiteboii",<contenttweaker:ghoul_spirit>,
 [<aoa3:primed_ghoulasm>,
 <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mythus"}]}),
 <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "auram"}]}),

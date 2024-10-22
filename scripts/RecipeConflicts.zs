@@ -440,14 +440,17 @@ mods.nuclearcraft.manufactory.addRecipe([<aoa3:ornamyte>, <contenttweaker:ornamy
 recipes.removeShapeless(<actuallyadditions:item_dust:7>, 
 [<actuallyadditions:block_misc:3>, <thermalfoundation:material:1027>]);
 
-mods.nuclearcraft.melter.removeRecipeWithInput([<libvulpes:productingot:7>]);
-mods.nuclearcraft.melter.removeRecipeWithInput([<techreborn:ingot:14>]);
-mods.nuclearcraft.melter.removeRecipeWithInput([<libvulpes:productdust:7>]);
-mods.nuclearcraft.melter.removeRecipeWithInput([<techreborn:dust:54>]);
-mods.nuclearcraft.melter.addRecipe([<libvulpes:productingot:7>, <fluid:molten_titanium>*144]);
-mods.nuclearcraft.melter.addRecipe([<techreborn:ingot:14>, <fluid:molten_titanium>*144]);
-mods.nuclearcraft.melter.addRecipe([<libvulpes:productdust:7>, <fluid:molten_titanium>*144]);
-mods.nuclearcraft.melter.addRecipe([<techreborn:dust:54>, <fluid:molten_titanium>*144]);
+// mods.nuclearcraft.melter.removeRecipeWithInput([<libvulpes:productingot:7>]);
+// mods.nuclearcraft.melter.removeRecipeWithInput([<techreborn:ingot:14>]);
+// mods.nuclearcraft.melter.removeRecipeWithInput([<libvulpes:productdust:7>]);
+// mods.nuclearcraft.melter.removeRecipeWithInput([<techreborn:dust:54>]);
+// mods.nuclearcraft.melter.addRecipe([<libvulpes:productingot:7>, <fluid:molten_titanium>*144]);
+// mods.nuclearcraft.melter.addRecipe([<techreborn:ingot:14>, <fluid:molten_titanium>*144]);
+// mods.nuclearcraft.melter.addRecipe([<libvulpes:productdust:7>, <fluid:molten_titanium>*144]);
+// mods.nuclearcraft.melter.addRecipe([<techreborn:dust:54>, <fluid:molten_titanium>*144]);
+
+mods.nuclearcraft.melter.addRecipe([<ore:ingotTitanium>, <fluid:titanium>*144]);
+mods.nuclearcraft.melter.addRecipe([<ore:dustTitanium>, <fluid:titanium>*144]);
 
 recipes.addShapeless(<techreborn:sapphirepickaxe>,
 [<projectred-exploration:sapphire_pickaxe>]);
@@ -514,9 +517,9 @@ recipes.addShapeless(<natura:overworld_seeds:1>,
 recipes.remove(<fluiddrawers:tank:0>);
 
 recipes.addShaped(<fluiddrawers:tank:0>,
-[[<ore:plateMithril>, <buildcraftfactory:tank>, <ore:plateMithril>],
-[<ore:plateMithril>, <ore:drawerBasic>, <ore:plateMithril>],
-[<ore:plateMithril>, <buildcraftfactory:tank>, <ore:plateMithril>]]);
+[[<ore:plateMithril>, <openblocks:tank>, <ore:plateMithril>],
+[<projecte:item.pe_fuel:1>, <ore:drawerBasic>, <projecte:item.pe_fuel:1>],
+[<ore:plateMithril>, <openblocks:tank>, <ore:plateMithril>]]);
 
 recipes.addShapeless(<projecte:item.pe_manual>,
 [<minecraft:book>, <projecte:item.pe_fuel:1>]);
@@ -1849,10 +1852,12 @@ mods.techreborn.grinder.addRecipe(<appliedenergistics2:material:2>, <appliedener
 // [<botania:manaresource:0>, <divinerpg:arcanium_block>, <botania:manaresource:0>],
 // [<botania:manaresource:7>, <botania:manaresource:0>, <botania:manaresource:7>]]);
 
-recipes.addShaped(<extrabotany:lens:6>.withTag({}),
+recipes.addShaped(<extrabotany:lens:6>,
 [[null, <contenttweaker:greater_gaia_spirit>, null],
-[<contenttweaker:greater_gaia_spirit>, <extrabotany:lens:6>.withTag({}).reuse(), <contenttweaker:greater_gaia_spirit>],
+[<contenttweaker:greater_gaia_spirit>, <extrabotany:lens:6>.reuse(), <contenttweaker:greater_gaia_spirit>],
 [null, <contenttweaker:greater_gaia_spirit>, null]]);
+
+
 
 
 mods.chisel.Carving.addVariation("brassblockschisel", <railcraft:metal:9>);
@@ -1998,7 +2003,7 @@ mods.nuclearcraft.rock_crusher.addRecipe([<tardis:gallifreyan_stone>, <enderio:i
 mods.nuclearcraft.manufactory.removeRecipeWithInput([<minecraft:clay>]);
 mods.nuclearcraft.manufactory.addRecipe([<minecraft:clay>, <techreborn:dust:12>*9]);
 
-mods.nuclearcraft.alloy_furnace.addRecipe([<gendustry:honey_drop>, <contenttweaker:meatball>*4, <contenttweaker:sentient_meatball>*4]);
+mods.nuclearcraft.alloy_furnace.addRecipe([<gendustry:honey_drop:13337>, <contenttweaker:meatball>*4, <contenttweaker:sentient_meatball>*4]);
 
 furnace.addRecipe(<twilightforest:auroralized_glass>, <twilightforest:aurora_block>);
 
@@ -2030,3 +2035,155 @@ recipes.addShaped(<actuallyadditions:item_food:13>,
 [[null, <actuallyadditions:item_food:10>, null],
 [<actuallyadditions:item_food:0>, <minecraft:cooked_beef>, <actuallyadditions:item_knife>],
 [null, <actuallyadditions:item_food:10>, null]]);
+
+
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:unidentified_body>, <fluid:mildly_recursive_goo>*4000, <contenttweaker:unidentified_body>*2]);
+
+
+recipes.addShapeless(<contenttweaker:skelebone_fragment>*4,
+[<aoa3:footbone_fragment>,
+<aoa3:chestbone_fragment>,
+<aoa3:legbone_fragment>,
+<aoa3:skullbone_fragment>]);
+
+furnace.addRecipe(<aoa3:skeletal_ingot>, <contenttweaker:skelebone_fragment>);
+
+
+recipes.addShaped(<actuallyadditions:item_food:13>,
+[[null, <actuallyadditions:item_food:10>, null],
+[<actuallyadditions:item_food:0>, <minecraft:cooked_beef>, <ore:itemQuartzKnife>],
+[null, <actuallyadditions:item_food:10>, null]]);
+
+mods.nuclearcraft.manufactory.addRecipe([<ore:gemDiamond>, <nuclearcraft:gem_dust:0>]);
+
+mods.nuclearcraft.manufactory.addRecipe([<appliedenergistics2:sky_stone_block>, <appliedenergistics2:material:45>]);
+
+mods.nuclearcraft.manufactory.addRecipe([<ore:ingotSilicon>, <libvulpes:productdust:3>]);
+
+mods.nuclearcraft.manufactory.addRecipe([<ore:stickWood>, <thermalfoundation:material:800>]);
+
+mods.nuclearcraft.manufactory.addRecipe([<ore:ingotLunar>, <extrautils2:ingredients:3>]);
+
+mods.nuclearcraft.manufactory.addRecipe([<ore:gemQuartzBlack>, <actuallyadditions:item_dust:7>]);
+
+mods.thermalexpansion.Transposer.addFillRecipe(<nuclearcraft:water_source>, <nuclearcraft:part:11>, <liquid:water> * 2000, 20);
+
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:gold_block>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:gold_block>);
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:gold_block>);
+
+brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <tconstruct:large_plate>.withTag({Material: "charger"}), <minecraft:potion>.withTag({Potion: "variegated:wings"}));
+brewing.addBrew(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <tconstruct:large_plate>.withTag({Material: "charger"}), <minecraft:splash_potion>.withTag({Potion: "variegated:wings"}));
+brewing.addBrew(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <tconstruct:large_plate>.withTag({Material: "charger"}), <minecraft:lingering_potion>.withTag({Potion: "variegated:wings"}));
+
+
+recipes.addShapeless(<thebetweenlands:aspect_vial:0>,
+[<contenttweaker:betweenlands_potions>,
+<thebetweenlands:infuser>,
+<thebetweenlands:alembic>,
+<thebetweenlands:mortar>,
+<thebetweenlands:pestle>,
+<thebetweenlands:bl_bucket>,
+<thebetweenlands:dentrothyst_vial:*>]);
+
+recipes.addShapeless(<thebetweenlands:aspect_vial:1>,
+[<contenttweaker:betweenlands_potions>,
+<thebetweenlands:infuser>,
+<thebetweenlands:alembic>,
+<thebetweenlands:mortar>,
+<thebetweenlands:pestle>,
+<thebetweenlands:bl_bucket>,
+<thebetweenlands:dentrothyst_vial:*>]);
+
+mods.nuclearcraft.melter.addRecipe([<avaritia:resource:6>, <fluid:infinity>*144]);
+
+
+recipes.remove(<natura:overworld_workbenches:0>);
+recipes.addShaped(<natura:overworld_workbenches:0>*2,
+[[null, <natura:overworld_planks:0>, null],
+[<natura:overworld_planks:0>, <minecraft:crafting_table>, <natura:overworld_planks:0>],
+[null, <natura:overworld_planks:0>, null]]);
+
+recipes.remove(<natura:overworld_workbenches:1>);
+recipes.addShaped(<natura:overworld_workbenches:1>*2,
+[[null, <natura:overworld_planks:1>, null],
+[<natura:overworld_planks:1>, <minecraft:crafting_table>, <natura:overworld_planks:1>],
+[null, <natura:overworld_planks:1>, null]]);
+
+recipes.remove(<natura:overworld_workbenches:2>);
+recipes.addShaped(<natura:overworld_workbenches:2>*2,
+[[null, <natura:overworld_planks:2>, null],
+[<natura:overworld_planks:2>, <minecraft:crafting_table>, <natura:overworld_planks:2>],
+[null, <natura:overworld_planks:2>, null]]);
+
+recipes.remove(<natura:overworld_workbenches:3>);
+recipes.addShaped(<natura:overworld_workbenches:3>*2,
+[[null, <natura:overworld_planks:3>, null],
+[<natura:overworld_planks:3>, <minecraft:crafting_table>, <natura:overworld_planks:3>],
+[null, <natura:overworld_planks:3>, null]]);
+
+recipes.remove(<natura:overworld_workbenches:4>);
+recipes.addShaped(<natura:overworld_workbenches:4>*2,
+[[null, <natura:overworld_planks:4>, null],
+[<natura:overworld_planks:4>, <minecraft:crafting_table>, <natura:overworld_planks:4>],
+[null, <natura:overworld_planks:4>, null]]);
+
+recipes.remove(<natura:overworld_workbenches:5>);
+recipes.addShaped(<natura:overworld_workbenches:5>*2,
+[[null, <natura:overworld_planks:5>, null],
+[<natura:overworld_planks:5>, <minecraft:crafting_table>, <natura:overworld_planks:5>],
+[null, <natura:overworld_planks:5>, null]]);
+
+recipes.remove(<natura:overworld_workbenches:6>);
+recipes.addShaped(<natura:overworld_workbenches:6>*2,
+[[null, <natura:overworld_planks:6>, null],
+[<natura:overworld_planks:6>, <minecraft:crafting_table>, <natura:overworld_planks:6>],
+[null, <natura:overworld_planks:6>, null]]);
+
+recipes.remove(<natura:overworld_workbenches:7>);
+recipes.addShaped(<natura:overworld_workbenches:7>*2,
+[[null, <natura:overworld_planks:7>, null],
+[<natura:overworld_planks:7>, <minecraft:crafting_table>, <natura:overworld_planks:7>],
+[null, <natura:overworld_planks:7>, null]]);
+
+recipes.remove(<natura:overworld_workbenches:8>);
+recipes.addShaped(<natura:overworld_workbenches:8>*2,
+[[null, <natura:overworld_planks:8>, null],
+[<natura:overworld_planks:8>, <minecraft:crafting_table>, <natura:overworld_planks:8>],
+[null, <natura:overworld_planks:8>, null]]);
+
+recipes.remove(<natura:nether_workbenches:0>);
+recipes.addShaped(<natura:nether_workbenches:0>*2,
+[[null, <natura:nether_planks:0>, null],
+[<natura:nether_planks:0>, <minecraft:crafting_table>, <natura:nether_planks:0>],
+[null, <natura:nether_planks:0>, null]]);
+
+recipes.remove(<natura:nether_workbenches:1>);
+recipes.addShaped(<natura:nether_workbenches:1>*2,
+[[null, <natura:nether_planks:1>, null],
+[<natura:nether_planks:1>, <minecraft:crafting_table>, <natura:nether_planks:1>],
+[null, <natura:nether_planks:1>, null]]);
+
+recipes.remove(<natura:nether_workbenches:2>);
+recipes.addShaped(<natura:nether_workbenches:2>*2,
+[[null, <natura:nether_planks:2>, null],
+[<natura:nether_planks:2>, <minecraft:crafting_table>, <natura:nether_planks:2>],
+[null, <natura:nether_planks:2>, null]]);
+
+recipes.remove(<natura:nether_workbenches:3>);
+recipes.addShaped(<natura:nether_workbenches:3>*2,
+[[null, <natura:nether_planks:3>, null],
+[<natura:nether_planks:3>, <minecraft:crafting_table>, <natura:nether_planks:3>],
+[null, <natura:nether_planks:3>, null]]);
+
+
+recipes.remove(<cyclicmagic:tool_trade>);
+
+
+mods.nuclearcraft.infuser.addRecipe([<ore:nuggetIron>, <fluid:crystal>*1000, <cyclicmagic:crystallized_obsidian>]);
+mods.nuclearcraft.infuser.addRecipe([<ore:nuggetIron>, <fluid:crystallized_obsidian>*1000, <cyclicmagic:crystallized_obsidian>]);
+
+mods.nuclearcraft.melter.addRecipe([<ore:ingotPrimalOgerite>, <fluid:primal_ogerite>*144]);
+
+

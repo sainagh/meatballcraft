@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    20433
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Just gonna leave this here!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tinymobfarm:gold_farm"
+      },
+      "name:8": "For the sake of your world, you should do this!"
+    }
+  },
+  "questID:3": 20438,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tinymobfarm:gold_farm"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "tinymobfarm:lasso",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

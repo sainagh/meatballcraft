@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "aether_legacy:gummy_swet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:gummy_swet"
+        },
+        {
+          "entryName": "aether_legacy:phoenix_bow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:phoenix_bow"
+        },
+        {
+          "entryName": "aether_legacy:flaming_sword",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:flaming_sword"
+        },
+        {
+          "entryName": "aether_legacy:lightning_knife",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 20.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aether_legacy:lightning_knife"
+        },
+        {
+          "entryName": "aether_legacy:valkyrie_lance",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:valkyrie_lance"
+        },
+        {
+          "entryName": "aether_legacy:agility_cape",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:agility_cape"
+        },
+        {
+          "entryName": "aether_legacy:sentry_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:sentry_boots"
+        },
+        {
+          "entryName": "aether_legacy:repulsion_shield",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:repulsion_shield"
+        },
+        {
+          "entryName": "aether_legacy:notch_hammer",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:notch_hammer"
+        },
+        {
+          "entryName": "aether_legacy:cloud_staff",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:cloud_staff"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20319,
+    20320,
+    20321,
+    20322
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Use a twilight clock on a frame of skythern block",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:mortum_grass"
+      },
+      "name:8": "Mortum Hills"
+    }
+  },
+  "questID:3": 20325,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 424,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Mortum Hills",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

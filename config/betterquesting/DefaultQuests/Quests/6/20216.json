@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1748
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oEssentia storage cells can be used to store essentia with AE2.\n\nAlternatively, you can also use essentia storage buses on jars!\n\nThe essentia terminal will let you see what you have stored in your network!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicenergistics:essentia_component_1k"
+      },
+      "name:8": "Essentia Storage"
+    }
+  },
+  "questID:3": 20216,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicenergistics:essentia_component_1k"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumicenergistics:essentia_storage"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thaumicenergistics:essentia_terminal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

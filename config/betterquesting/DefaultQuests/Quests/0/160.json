@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    163
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Compact power flowers?! Yes please!\nSimilarly to the various tiers of EMC matter, there seem to be multiple tiers of these, and they appear to be tied to mythic powers...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "projectex:power_flower"
+      },
+      "name:8": "My new favorite bonsai"
+    }
+  },
+  "questID:3": 160,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "projectex:power_flower"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "projectex:power_flower"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

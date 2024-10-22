@@ -17,8 +17,18 @@ mods.MobStages.addStage("modularstage", "thaumcraft:cultistleader", 0);
 
 mods.MobStages.addStage("modularstage", "thaumcraft:cultistknight", 0);
 
-mods.recipestages.Recipes.setRecipeStage("bloodmasterstage", <contenttweaker:nethersky_amber>);
+// mods.recipestages.Recipes.setRecipeStage("bloodmasterstage", <contenttweaker:nethersky_amber>);
 
+// recipes.addShaped(<contenttweaker:nethersky_amber>*4,
+// [[<divinerpg:ancient_entity_statue>, <aoa3:corallus_statue>, <divinerpg:ancient_entity_statue>],
+// [<aoa3:smash_statue>, <nuclearcraft:depleted_fuel_uranium:5>, <aoa3:smash_statue>],
+// [<divinerpg:ancient_entity_statue>, <aoa3:corallus_statue>, <divinerpg:ancient_entity_statue>]]);
+
+mods.recipestages.Recipes.addShaped("addnetherskyamber", "bloodmasterstage", <contenttweaker:nethersky_amber>, [
+    [<divinerpg:ancient_entity_statue>, <aoa3:corallus_statue>, <divinerpg:ancient_entity_statue>],
+    [<aoa3:smash_statue>, <nuclearcraft:depleted_fuel_uranium:5>, <aoa3:smash_statue>],
+    [<divinerpg:ancient_entity_statue>, <aoa3:corallus_statue>, <divinerpg:ancient_entity_statue>]
+]);
 
 
 
@@ -148,7 +158,7 @@ mods.recipestages.Recipes.addShaped("makebettergrandcrystals", "hardmode", <cont
     [<ebwizardry:large_mana_flask>, <ebwizardry:astral_diamond>, <ebwizardry:large_mana_flask>]
 ]);
 
-recipes.addHiddenShapeless("makethatanimatorboii",<contenttweaker:mark_of_the_arbiter>,
+scripts.PuzzleUtil.addPuzzleShapeless("makethatanimatorboii",<contenttweaker:mark_of_the_arbiter>,
 [<contenttweaker:astral_animator>,
 <enderio:item_soul_vial:1>.withTag({entityId: "minecraft:ghast"}),
 <enderio:item_soul_vial:1>.withTag({entityId: "minecraft:skeleton"}),
@@ -184,7 +194,7 @@ recipes.addShaped(<contenttweaker:cotton_candy_withering_spray>,
 [<aoa3:candycane>, <contenttweaker:diabetic_sentient_meatball>, <aoa3:candycane>],
 [<thaumcraft:potion_sprayer>, <aoa3:candycane>, <thaumcraft:potion_sprayer>]]);
 
-recipes.addHiddenShapeless("eldritchcharmsfordaemc",<contenttweaker:meatball_man_charm>,
+scripts.PuzzleUtil.addPuzzleShapeless("eldritchcharmsfordaemc",<contenttweaker:meatball_man_charm>,
 [<thaumcraft:creative_flux_sponge>.reuse(),
 <abyssalcraft:jzaharcharm:2>,
 <abyssalcraft:yogsothothcharm:3>,
@@ -198,3 +208,9 @@ mods.recipestages.Recipes.addShaped("maketaintedloop", "hardmode", <contenttweak
     [<contenttweaker:first_order_mythic_fractal>, <projectex:matter:11>, <contenttweaker:first_order_mythic_fractal>]
 ]);
 
+
+mods.recipestages.Recipes.addShaped("makeweaponsmitharbiter", "hardmode", <contenttweaker:weaponsmith_callstone>, [
+    [<contenttweaker:reactive_fluix>, <contenttweaker:chaotic_gem>, <contenttweaker:reactive_fluix>],
+    [<contenttweaker:chaotic_gem>, <contenttweaker:meatball_man_charm>, <contenttweaker:chaotic_gem>],
+    [<contenttweaker:reactive_fluix>, <contenttweaker:chaotic_gem>, <contenttweaker:reactive_fluix>]
+]);

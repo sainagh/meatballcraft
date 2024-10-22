@@ -17,3 +17,9 @@ mythdry3.addEnergyPerTickInput(40000);
 mythdry3.addFluidInput(<fluid:milk>*1000);
 mythdry3.addItemOutput(<contenttweaker:curd>);
 mythdry3.build();
+
+val mythdry4 = RecipeBuilder.newBuilder("mythdry4","mythic_processor_drying_rack",1);
+mythdry4.addEnergyPerTickInput(40000);
+mythdry4.addItemInput(<thaumcraft:vishroom>);
+mythdry4.addItemOutput(<contenttweaker:dried_vishroom>);
+mythdry4.build();

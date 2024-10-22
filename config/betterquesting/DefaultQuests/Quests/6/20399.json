@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1748
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oEssentia transfusers are the best way to move essentia around!\n\nPlace them on essentia machines, and they automatically move essentia to/from jars nearby.\n\nFilling \u003d from machines to jars\n\nEmptying \u003d from jars to machines\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:essentia_input"
+      },
+      "name:8": "Tubeless Essentia"
+    }
+  },
+  "questID:3": 20399,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:essentia_input"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:essentia_output"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

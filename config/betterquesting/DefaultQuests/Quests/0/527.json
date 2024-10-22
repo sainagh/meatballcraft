@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    528
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Who am I? \nA man of science? Sure.\nA curious person? Sure.\nDo I like these traits I have? Yeah absolutely, they are great.\nBut what have they brought me? Deep knowledge, an adventure nobody on earth could have dreamed of, and the knowledge of an evil out there that goes beyond anything I could have imagined.\nWould it have been better to live without this knowledge? No, well, maybe... I am starting to understand why the Testificates have secret societies hiding their deepest knowledge. The package as a whole comes with a lot of unwanted things, things that cahnged me. \nDoes good in this world truly exist? Well, I don\u0027t know anymore.\nLook at me asking questions to myself. All this knowledge, and the more I know, the crazier I feel...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:eldritch_flower"
+      },
+      "name:8": "I am Insane!"
+    }
+  },
+  "questID:3": 527,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "contenttweaker:big_boy_steak"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:eldritch_flower"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

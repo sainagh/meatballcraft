@@ -1,0 +1,53 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "ismain:1": 1,
+      "name:8": "Welcome to Chapter 7"
+    }
+  },
+  "questID:3": 20412,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 255,
+            "TrophyColorGreen:3": 255,
+            "TrophyColorRed:3": 255,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "divinerpg:arksiane_lump"
+            },
+            "TrophyName:8": "Welcome to Chapter 7",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "gold"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:apalachia_star"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    28
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "There are a ton of different minerals and metals to be found, here is how to get them all!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:diamond_ore"
+      },
+      "name:8": "All of the minerals!"
+    }
+  },
+  "questID:3": 70054,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

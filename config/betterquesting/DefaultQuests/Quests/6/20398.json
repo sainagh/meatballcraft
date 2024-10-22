@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20253
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oMithrillium: 1000",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumadditions:jar_mithrillium"
+      },
+      "name:8": "Mithrillium Reinforced Jar"
+    }
+  },
+  "questID:3": 20398,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumadditions:jar_mithrillium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

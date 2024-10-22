@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    2296
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oIf you do not want to go out and explore, you can craft Unstable DImensional Doors.\n\nThis could take you to a variety of places. Some can be dangerous.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "dimdoors:unstable_dimensional_door"
+      },
+      "name:8": "My Own Adventures"
+    }
+  },
+  "questID:3": 2297,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "dimdoors:unstable_dimensional_door"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

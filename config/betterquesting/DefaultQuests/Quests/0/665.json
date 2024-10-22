@@ -1,0 +1,83 @@
+{
+  "preRequisites:11": [
+    210
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDungeon constructors will drop the keys. All arcana mobs will drop collector fragments. \nThe keys will open the respective door types, and will allow you to get raw arcanium. \nThe arcanium extractor can be found exploring.\nDungeon contructors can be hard to find, you can use the optional item to summon them!\n\n§fThe Dungeon of Arcana, this is the name of the place I have entered. And endless expanse of rooms, rooms, and nothing else. This place keeps going on forever, I know it.\nIt is directly under the control of the Twilight Horde, but their domain is not absolute. A weak resistance is still present, not in the military form, but some of the secrets of this place have successfully been kept from the invaders.\nArcanium, a material with very peculiar properties is kept hidden in rooms, secretly built by the enslaved constructors who appear to be in charge of maintaining the rooms of this endless fortress. \nThe material has powerful magic properties, of the mythic type, and it autonomously arranges itself into particular structures, like an alloy that can change state without having to vary any outside conditions. \nThese slaves are broken people, barely capable of aknowledging their surroundings, and they mostly just mumble. One word, though was recognizable from their otherwise incoherent mumblings, the word was Asgard. The home of the gods in Norse mythology.\n\n ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:arcanium"
+      },
+      "name:8": "Ancient Secrets"
+    }
+  },
+  "questID:3": 665,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 1,
+            "TrophyColorGreen:3": 1,
+            "TrophyColorRed:3": 1,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "divinerpg:arcanium"
+            },
+            "TrophyName:8": "Arcanium Researcher",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:collector"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:ancient_key"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:sludge_key"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:soul_key"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:raw_arcanium"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:arcanium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:constructor_summoner"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

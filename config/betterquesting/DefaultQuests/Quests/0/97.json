@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    137
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Wow! What did I just witness!\nThe moment I challenged the Meatball Man, my recursion finally felt \u0027free\u0027, but alas, there was nothing I could do against him.\nThe \u0027gods\u0027 I thought I was able to best are nothing in front of the meatball man.\nI was just like a grain of sand facing a black hole. My power, even after it was freed, paled in comparison to his recursion.\nAnd yet, he let me win... \nWhy? Why did any of this happen? \nThe meatball man is clearly more powerful than any of the enemies I encountered, and he doesn\u0027t appear to want anything from anyone. Still, for some reason, he wants to fight me, as if it were a game...\nHe told me he will send his blessing over my enemies to make me stronger, if I so wish. Do I want to do this? Will this bring me freedom?\nI do have to say the challenge of facing such a foe is intriguing, but there is no way I can succeed in my current state. I do want my freedom, but it\u0027s not like I can beat him, and there are people that need my help.\nThe meatball man should not concern me, I will get stronger, but while doing things my way, I should fight for Terra!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:lore_of_the_meatball_man"
+      },
+      "name:8": "I want my freedom!"
+    }
+  },
+  "questID:3": 97,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:medal_of_freedom"
+            },
+            "TrophyName:8": "Freedom Warrior",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:lore_of_the_meatball_man"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

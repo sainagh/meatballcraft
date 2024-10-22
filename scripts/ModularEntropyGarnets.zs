@@ -15,7 +15,7 @@ combinethepuzzles.addItemInput(<contenttweaker:recursion_focus_lens>);
 combinethepuzzles.addItemOutput(<contenttweaker:recursion_fragment_terra>);
 combinethepuzzles.build();
 
-recipes.addHiddenShapeless("vetheapuzzle",<contenttweaker:dream_projector_gem>,
+scripts.PuzzleUtil.addPuzzleShapeless("vetheapuzzle",<contenttweaker:dream_projector_gem>,
 [<contenttweaker:projector_gem>,
 <tconstruct:tough_tool_rod>.withTag({Material: "jade"}),
 <plustic:battery_cell>.withTag({Material: "endrod"}),

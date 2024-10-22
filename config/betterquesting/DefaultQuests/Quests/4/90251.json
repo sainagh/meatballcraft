@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1176
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThese can filter by damage value!\n\nFaster and bigger whitelist/blacklist!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "thermaldynamics:servo"
+      },
+      "name:8": "Hardened Servo"
+    }
+  },
+  "questID:3": 90251,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "thermaldynamics:servo"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "thermaldynamics:filter"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "thermaldynamics:retriever"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

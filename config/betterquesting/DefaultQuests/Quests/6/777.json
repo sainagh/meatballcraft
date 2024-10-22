@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    787
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oGenerates mana if a mob nearby is hit by a shulker projectile, but only works if internal buffer is empty",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:specialflower",
+        "tag:10": {
+          "type:8": "shulk_me_not"
+        }
+      },
+      "name:8": "Shulk Me Not (Good)"
+    }
+  },
+  "questID:3": 777,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:specialflower",
+          "tag:10": {
+            "type:8": "shulk_me_not"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    50054,
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThere are multiple ways to get night vision permanently, with the best being a mob farm to get Corrupted Shards.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cyclicmagic:glowing_helmet",
+        "tag:10": {}
+      },
+      "name:8": "Night Vision "
+    }
+  },
+  "questID:3": 1358,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cyclicmagic:glowing_helmet",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:corrupted_shards"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "xreliquary:potion",
+          "tag:10": {
+            "effects:9": {
+              "0:10": {
+                "duration:3": 50000,
+                "name:8": "minecraft:night_vision",
+                "potency:3": 0
+              }
+            },
+            "hasPotion:1": 1
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

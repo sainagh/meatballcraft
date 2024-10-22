@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    63
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oHeads up! Quests will tell you what to do, figuring things out is up to you, and it\u0027s part of the fun!\n\nThe sack of holding can be used to move chests, spawners, and other tile entities without destroying them!\n\n§fBy upgrading my current way of building work tables, I should gain access to more complex machines!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extendedcrafting:table_advanced"
+      },
+      "name:8": "More Fabrication!"
+    }
+  },
+  "questID:3": 64,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "actuallyadditions:item_potion_ring",
+          "tag:10": {
+            "Blaze:3": 800
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "cyclicmagic:chest_sack_empty"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extendedcrafting:table_advanced"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

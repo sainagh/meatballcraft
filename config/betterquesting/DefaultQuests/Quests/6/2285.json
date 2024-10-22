@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    2280
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis is one of the earliest means of in-game teleportation.\n\nRight clicking the Rift SIgnature on two different locations creates two rifts. The base version can get unstable, while the stabilized version will allow for safer use.\n\nPlacing Iron Dimensional Doors on these rifts will link them to each other.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "dimdoors:rift_signature"
+      },
+      "name:8": "Cool Teleportation"
+    }
+  },
+  "questID:3": 2285,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "dimdoors:rift_signature"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "dimdoors:stabilized_rift_signature"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "dimdoors:iron_dimensional_door"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

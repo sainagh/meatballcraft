@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1179
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFluid conduits can only transport one fluid at a time, and follow gravity rules!§7§o\n\nAll conduits share the same block space, making them very useful for compact automations!\n\nTo configure a conduit, right click a connection with an empty hand, or shift left click using the crescent hammer!\n\nConduits have separate channels, corresponding to the 16 colors in vanilla minecraft! Channels with the same colors will be connected to each other. You can have multiple channels going through the same conduit lines!\n\nInputs and outputs can be configured using filters, and speed upgrades! All available filters will show up in JEI when searching for \u0027conduit\u0027!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:item_liquid_conduit"
+      },
+      "name:8": "Fluid Conduit"
+    }
+  },
+  "questID:3": 90219,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_liquid_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

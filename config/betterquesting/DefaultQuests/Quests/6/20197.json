@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20183
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The thaumonomicon is the magical guide to thaumic arts, and it holds all of its knowledge.\nEach tab in the book refers to a different branch of the art.\nMost of the knowledge in the book is hidden, and research needs to be performed to unlock such knowledge.\nThe requirements for each page are listed whenever they become available for discovery.\nThis knowledge can also be obtained through the chemicals held in Really Scary Vishrooms. They are indeed really scary, though, so be careful!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:thaumonomicon"
+      },
+      "name:8": "Thaumonomicon"
+    }
+  },
+  "questID:3": 20197,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:thaumonomicon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1748
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oJars are used to store essentia similarly to how tanks are used to store fluids.\n\nTo fill a jar, you can use phials, or you can directly click them on essentia containers.\n\nRight clicking a jar with a label will whitelist the essentia it\u0027s currently storing so that no other essentia can enter, even after the jar has been emptied. This can be used for essentia storage systems.\n\nThere are multiple tiers of jars, each with a different capacity:\n\nWarded: 250",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:jar_normal"
+      },
+      "name:8": "Warded Jar"
+    }
+  },
+  "questID:3": 20394,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:jar_normal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

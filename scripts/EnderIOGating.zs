@@ -396,3 +396,6 @@ recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "e
 [[<contenttweaker:terrasteel_crystal>, <enderio:item_dark_steel_upgrade:0>, <contenttweaker:terrasteel_crystal>],
 [<enderio:item_dark_steel_upgrade:0>, <contenttweaker:terrasteel_crystal>, <enderio:item_dark_steel_upgrade:0>],
 [<contenttweaker:terrasteel_crystal>, <enderio:item_dark_steel_upgrade:0>, <contenttweaker:terrasteel_crystal>]]);
+
+
+

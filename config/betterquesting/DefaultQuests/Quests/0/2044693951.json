@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    200
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oLeft click the pickaxe on the bedrock at the bottom of the overworld to create a portal to the bedrock dimension.\n\nThe bedrock here can only be broken using the Kamium pickaxe.\n\n§fOut of all the strange artifacts I have encountered in my journey of Thaumaturgy, a pickaxe capable of generating wormholes is the last thing I imagined.\nKamium, this strange and powerful material, rather than being permeated with vis or aura, seems to possess a different type of force, something that sounds familiar, and yet I have no idea what it is.\nThe wormhole opened by this artifact is fairly mundane, it is solely composed of hard bedrock, with large veins of minerals. I guess it could be useful for someone that is more resource-starved than I am.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumictinkerer:ichorium_pick_adv",
+        "tag:10": {
+          "awaken:3": 0
+        }
+      },
+      "name:8": "The World of Bedrock"
+    }
+  },
+  "questID:3": 2044693951,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyEarnedAt:4": 1727129438,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "thaumictinkerer:ichorium_pick_adv"
+            },
+            "TrophyName:8": "Kamium Miners Inc.",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumictinkerer:ichorium_pick_adv",
+          "tag:10": {
+            "awaken:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

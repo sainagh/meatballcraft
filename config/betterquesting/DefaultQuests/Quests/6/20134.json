@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20127
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oRight click while in the Overworld to open a portal to the Abyssal Wasteland.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "abyssalcraft:gatewaykey"
+      },
+      "name:8": "Gateway Key"
+    }
+  },
+  "questID:3": 20134,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "abyssalcraft:gatewaykey"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1751
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Knowledge of the thaumic arts, as most other things, does not come for free.\nInteracting with specific beings, and exploring specific branches of knowledge, can cause a series of unwanted effects, called warp.\nThis meter will keep track of warp levels in the user. The higher the warp, the more bad stuff is going to happen.\nThat said, in some situations, having high warp may be beneficial, but that\u0027s up to you to decide.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:sanity_checker"
+      },
+      "name:8": "Sanity Checker"
+    }
+  },
+  "questID:3": 20187,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:sanity_checker"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

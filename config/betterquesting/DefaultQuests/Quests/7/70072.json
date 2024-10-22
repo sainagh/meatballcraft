@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found in riverbeds and sandy pools.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:itemcraftingcomponent"
+      },
+      "name:8": "Aquamarine"
+    }
+  },
+  "questID:3": 70072,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:itemcraftingcomponent"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

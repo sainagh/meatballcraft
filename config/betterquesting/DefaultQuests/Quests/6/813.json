@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    20102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis ritual will make power directly into a battery. You will need to place some blocks on the flat section of the ritual!\n\nPlace 16 blood tanks on the water stones on the outer layer, these are filled with life essence (refined works better).\n\nPlace 16 blood tanks on the fire stones in the middle layer, these are filled with lava.\n\nYou can use blood tanks of any size!\n\nPlace 16 stasis plates on all blocks in the inner layer. Place glowstone on the stasis plates.\n\nPlace a stasis plate on the master ritual stone. Place a flint and steel on the stasis plate.\n\nPlace eight netherracks around the fire stone below the ritual stone. Set these on fire.\n\nPlace any battery (capacitor bank, energy cell, etc.) on top of the stasis plate above the ritual stone.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stone_of_the_wizard"
+      },
+      "name:8": "Blood Burner Rites"
+    }
+  },
+  "questID:3": 813,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "bloodmagic:blood_tank"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:blood_tank"
+        },
+        "2:10": {
+          "Count:3": 17,
+          "id:8": "bloodarsenal:stasis_plate"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:flint_and_steel"
+        },
+        "4:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:glowstone_dust"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:lava_bucket"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "forge:bucketfilled",
+          "tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "lifeessence"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    755
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": " ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:greater_mana_core"
+      },
+      "name:8": "Gaia noticed me?!?"
+    }
+  },
+  "questID:3": 761,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:greater_mana_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

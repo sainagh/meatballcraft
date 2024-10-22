@@ -279,7 +279,7 @@ recipes.addShaped(<contenttweaker:fortune_cookie>*10,
 
 recipes.addShaped(<contenttweaker:pan_di_stelle>*4,
 [[null, <minecraft:dye:3>, null],
-[<ore:dustWheat>, <ore:dustAstralSTarmetal>, <ore:dustWheat>],
+[<ore:dustWheat>, <astralsorcery:itemcraftingcomponent:2>, <ore:dustWheat>],
 [null, <minecraft:dye:3>, null]]);
 
 // mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:plentiful_praline>, <extratrees:food:24>, <fluid:dark_chocolate>*10, 10);

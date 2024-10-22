@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    20172
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bloodmagic:blood_orb",
+        "tag:10": {
+          "orb:8": "bloodmagic:magician"
+        }
+      },
+      "name:8": "Tier 3 Blood Altar"
+    }
+  },
+  "questID:3": 20175,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:blood_orb",
+          "tag:10": {
+            "orb:8": "bloodmagic:magician"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "bloodmagic:slate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

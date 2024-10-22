@@ -128,3 +128,6 @@ dustmanganese.remove(<nuclearcraft:dust:11>);
 
 val environmentallaserlens = <ore:etLaserLens>;
 environmentallaserlens.remove(<environmentaltech:laser_lens_crystal>);
+
+
+

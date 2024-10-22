@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20337
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDragon\u0027s blood trees can be found in the overworld in a special villager house, or they can be traded with alchemist villagers.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:dragons_blood_resin"
+      },
+      "name:8": "Dragon\u0027s Blood"
+    }
+  },
+  "questID:3": 20338,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:dragons_blood_resin"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

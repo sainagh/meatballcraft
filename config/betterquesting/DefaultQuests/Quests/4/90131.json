@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90129
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe ME controller is the heart of every AE2 system.\nEach controller can output 8 (basic) to 32 (dense) channels from each side, depending on the tipe of ME cable used.\nOnly one controller is allowed for a given network. Multiple controllers can be combined to form multiblocks. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:controller"
+      },
+      "name:8": "ME Controller"
+    }
+  },
+  "questID:3": 90131,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

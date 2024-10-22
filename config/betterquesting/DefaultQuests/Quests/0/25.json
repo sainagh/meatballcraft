@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    15
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe more you run around, the higher the chance of speeding up!\n\nIf this is annoying, press the AoA keybing (DELETE by default) to open up the skill GUI, and click on theexpedition icon. This will change the speed bonus to either hunger replenishment, or anima replenishment.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:opteryx_feather"
+      },
+      "name:8": "Expedition Skill"
+    }
+  },
+  "questID:3": 25,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:giant_skill_crystal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:feather"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

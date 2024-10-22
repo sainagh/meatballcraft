@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    209
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAssemble the gaia arena and click the beacon with call of the void.\n\n§fThese guardians are dreadful, and yet I cannot help but feel pity for them. If my theory is true, they cannot really help being mindless murder machines with the instincts of the most seasoned warriors.\nIf it is within my power, I will try to do something about this! If the oath is still alive, there must be a way to put an end to it.\nWho did these guardians answer to? Who is their master?\nThe stronger my call into this dead world, the stronger the response. So maybe I just have to call harder?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extrabotany:treasurebox"
+      },
+      "name:8": "Tier 4 Gaia Guardian"
+    }
+  },
+  "questID:3": 248,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "extrabotany:treasurebox"
+            },
+            "TrophyName:8": "Tier 4 Guardian Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extrabotany:specialbag"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extrabotany:treasurebox"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

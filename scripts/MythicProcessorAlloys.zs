@@ -721,42 +721,42 @@ val mythallo99 = RecipeBuilder.newBuilder("mythallo99","mythic_processor_alloy_f
 mythallo99.addEnergyPerTickInput(80000);
 mythallo99.addItemInput(<ore:dustRedstone>);
 mythallo99.addItemInput(<ore:ingotArlemite>);
-mythallo99.addItemOutput(<ore:ingotRedAlloy>*12);
+mythallo99.addItemOutput(<projectred-core:resource_item:103>*12);
 mythallo99.build();
 
 val mythallo100 = RecipeBuilder.newBuilder("mythallo100","mythic_processor_alloy_furnace",1);
 mythallo100.addEnergyPerTickInput(80000);
 mythallo100.addItemInput(<contenttweaker:demon_will_powder>);
 mythallo100.addItemInput(<divinerpg:rupee_ingot>);
-mythallo100.addItemOutput(<ore:ingotDemonicSteel>*2);
+mythallo100.addItemOutput(<ore:ingotDemonicSteel>);
 mythallo100.build();
 
 val mythallo101 = RecipeBuilder.newBuilder("mythallo101","mythic_processor_alloy_furnace",1);
 mythallo101.addEnergyPerTickInput(80000);
 mythallo101.addItemInput(<contenttweaker:corrosive_will_powder>);
 mythallo101.addItemInput(<divinerpg:arlemite_ingot>);
-mythallo101.addItemOutput(<ore:ingotCorrosiveSteel>*2);
+mythallo101.addItemOutput(<ore:ingotCorrosiveSteel>);
 mythallo101.build();
 
 val mythallo102 = RecipeBuilder.newBuilder("mythallo102","mythic_processor_alloy_furnace",1);
 mythallo102.addEnergyPerTickInput(80000);
 mythallo102.addItemInput(<contenttweaker:destructive_will_powder>);
 mythallo102.addItemInput(<aoa3:limonite_ingot>);
-mythallo102.addItemOutput(<ore:ingotDestructiveSteel>*2);
+mythallo102.addItemOutput(<ore:ingotDestructiveSteel>);
 mythallo102.build();
 
 val mythallo103 = RecipeBuilder.newBuilder("mythallo103","mythic_processor_alloy_furnace",1);
 mythallo103.addEnergyPerTickInput(80000);
 mythallo103.addItemInput(<contenttweaker:vengeful_will_powder>);
 mythallo103.addItemInput(<aoa3:rosite_ingot>);
-mythallo103.addItemOutput(<ore:ingotVengefulSteel>*2);
+mythallo103.addItemOutput(<ore:ingotVengefulSteel>);
 mythallo103.build();
 
 val mythallo104 = RecipeBuilder.newBuilder("mythallo104","mythic_processor_alloy_furnace",1);
 mythallo104.addEnergyPerTickInput(80000);
 mythallo104.addItemInput(<contenttweaker:steadfast_will_powder>);
 mythallo104.addItemInput(<ore:ingotManyullyn>);
-mythallo104.addItemOutput(<ore:ingotSteadfastSteel>*2);
+mythallo104.addItemOutput(<ore:ingotSteadfastSteel>);
 mythallo104.build();
 
 val mythallo105 = RecipeBuilder.newBuilder("mythallo105","mythic_processor_alloy_furnace",1);
@@ -851,4 +851,18 @@ mythallo116.addItemInput(<contenttweaker:crystaltine_dust>);
 mythallo116.addItemInput(<ore:ingotIron>);
 mythallo116.addItemOutput(<extendedcrafting:material:24>);
 mythallo116.build();
+
+val mythallo117 = RecipeBuilder.newBuilder("mythallo117","mythic_processor_alloy_furnace",1);
+mythallo117.addEnergyPerTickInput(80000);
+mythallo117.addItemInput(<contenttweaker:unidentified_ingot>);
+mythallo117.addItemInput(<thaumadditions:mithrillium_ingot>*3);
+mythallo117.addItemOutput(<avaritia:resource:1>);
+mythallo117.build();
+
+val mythallo118 = RecipeBuilder.newBuilder("mythallo118","mythic_processor_alloy_furnace",1);
+mythallo118.addEnergyPerTickInput(80000);
+mythallo118.addItemInput(<contenttweaker:matrix_ore>);
+mythallo118.addItemInput(<aoa3:shyrelands_tokens>*21);
+mythallo118.addItemOutput(<avaritia:resource:1>*8);
+mythallo118.build();
 

@@ -1,0 +1,8438 @@
+{
+    "registryname": "bastion_of_flesh",
+    "localizedname": "Bastion of Flesh",
+	"color": "0d5c66",
+    "parts": [
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 23,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 23,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 20,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 20,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 20,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 21,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 21,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "minecraft:red_sandstone_stairs@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:red_sandstone_stairs@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "minecraft:red_sandstone_stairs@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 19,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 22,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 27,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 19,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 19,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 19,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 17,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 17,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 21,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 14,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 14,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 22,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 22,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 25,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 22,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 25,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 21,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 21,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 21,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 24,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 19,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 23,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 23,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 19,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 23,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 15,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 15,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 22,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 21,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sentient_meatball@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 22,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "minecraft:red_sandstone_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 22,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 15,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 15,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 15,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 24,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 14,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 21,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "deepmoblearningbm:block_blood_infused_glitch_ingot@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sentient_meatball@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 28,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 28,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 24,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 24,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 25,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 25,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 23,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 25,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 20,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 20,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 20,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 19,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 13,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 26,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 27,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 27,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 19,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 18,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 21,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 21,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 21,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 20,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 22,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "minecraft:red_sandstone_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 23,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 27,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "generalized_output_fluid"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 24,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 30,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 29,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 29,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 21,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 31,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 21,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 21,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 26,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 32,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 32,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 22,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 33,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 24,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 20,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 18,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 26,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 27,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 27,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 20,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 20,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 20,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 26,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 28,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 20,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "railcraft:pearlized@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "deepmoblearningbm:block_blood_infused_glitch_ingot@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 21,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "railcraft:pearlized@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 33,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "deepmoblearningbm:block_blood_infused_glitch_ingot@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 20,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": -7,
+            "elements": [
+                "railcraft:pearlized@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 19,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 19,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 33,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 19,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 19,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 19,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 19,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "railcraft:pearlized@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 35,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 23,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 18,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 22,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 17,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:red_sandstone_stairs@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 22,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 11,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 32,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 26,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 21,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 25,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 23,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 23,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 26,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 31,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 35,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 30,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 30,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 30,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 27,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 32,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 29,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 14,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 34,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 34,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 29,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "railcraft:pearlized_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 31,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "railcraft:pearlized_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 31,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 31,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 30,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 15,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 15,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 27,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "railcraft:pearlized@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 35,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 35,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 35,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 35,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 32,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 32,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "minecraft:red_sandstone_stairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 34,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 34,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 34,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": -7,
+            "elements": [
+                "railcraft:pearlized@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "deepmoblearningbm:block_blood_infused_glitch_ingot@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 33,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 33,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "minecraft:red_sandstone_stairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 17,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "minecraft:red_sandstone_stairs@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 17,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:red_sandstone_stairs@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 25,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 35,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 25,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 34,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 34,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 32,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 34,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 33,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 33,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 33,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 12,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 26,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 28,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 26,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 32,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 28,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 28,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 31,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 31,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 31,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 35,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 22,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 22,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 19,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 19,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 16,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 16,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 30,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 18,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 30,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 30,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 20,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 28,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 20,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 20,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 15,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 15,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 15,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 18,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 29,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 23,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 17,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 17,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 25,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 28,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 24,
+            "z": -1,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 24,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 29,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:red_sandstone_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 15,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 24,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:red_sandstone_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 16,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 16,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 15,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "railcraft:pearlized@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 23,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 23,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 18,
+            "z": -2,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "railcraft:pearlized@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": -5,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 29,
+            "z": -3,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 29,
+            "z": -4,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "chisel:sandstonered2@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "railcraft:pearlized_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:red_sandstone_stairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "minecraft:red_sandstone_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "railcraft:pearlized_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sentient_meatball_flesh"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered1@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 39,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 37,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 37,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 37,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 38,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 38,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 38,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 38,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 38,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 38,
+            "z": 3,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 38,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 38,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 38,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 38,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 38,
+            "z": -3,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 39,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 38,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 38,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 39,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 37,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 39,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 37,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 39,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 38,
+            "z": 3,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 38,
+            "z": 2,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 38,
+            "z": 1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 38,
+            "z": 0,
+            "elements": [
+                "tconstruct:slime_congealed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 38,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 38,
+            "z": -1,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 38,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 38,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 38,
+            "z": 0,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 38,
+            "z": -2,
+            "elements": [
+                "railcraft:pearlized@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 38,
+            "z": -2,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 38,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 38,
+            "z": -3,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 38,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered2@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 38,
+            "z": -1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 38,
+            "z": -3,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 38,
+            "z": 0,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 38,
+            "z": 1,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 38,
+            "z": 2,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 38,
+            "z": 3,
+            "elements": [
+                "chisel:sandstonered@4"
+            ]
+        }
+    ]}

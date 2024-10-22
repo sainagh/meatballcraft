@@ -1,0 +1,45 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    1587,
+    1597
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:sentient_meatball_chest"
+      },
+      "name:8": "Sentient Meatball"
+    }
+  },
+  "questID:3": 1984,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:sentient_meatball_head"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:sentient_meatball_chest"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:sentient_meatball_legs"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:sentient_meatball_feet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

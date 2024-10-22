@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    48
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oMagic damage in this pack has been buffed, and more mobs than usual will be able to deal magic damage. This means that some mobs will do a lot of damage to you even when you wear good armor.\nYou can find magic protection books in overworld structures, those will help you!\n\n§fThe testificates trust me enough to share some of their historical secrets.\nAt some point, they had the ability to build portals to connect different regions of this world, including the large caves that are located kilometers under the surface.\nObsidian seems to be a catalyst for magic, and if I light it up I may be able to reopen some of these portals.\nI\u0027ll try to study this more in the hope that I may be able to use similar methods to get back home.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:flint_and_steel"
+      },
+      "name:8": "Cali Approved!"
+    }
+  },
+  "questID:3": 61,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:bedrock_chunk"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:flint_and_steel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:enchanted_book",
+          "tag:10": {
+            "StoredEnchantments:9": {
+              "0:10": {
+                "id:3": 69,
+                "lvl:2": 1
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

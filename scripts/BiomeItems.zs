@@ -63,7 +63,7 @@ markofthesamurai.itemRightClick = function(stack, world, player, hand) {
     val OminousMatches = checkBiomesAtPositions(OminousBiomeName, playerpos, OminousBiomeLocations, world) as int;
 	val VolcanicMatches = checkBiomesAtPositions(VolcanicBiomeName, playerpos, VolcanicBiomeLocations, world) as int;
 
-    player.sendChat("Use the arcane terraformer to create a plus sign of Ominous Woods biome blocks surrounded by volcanic biome (not volcanic barren)");
+    player.sendChat("Use the arcane terraformer to create a plus sign of Ominous Woods biome blocks surrounded by volcanic biome (not volcanic barren or volcanic lowlands)");
 	player.sendChat("Stand in the center and use this item!");
 
 	player.sendChat(" - - - ");
@@ -220,7 +220,7 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 	}
 
 	if((TaintedLandsMatches) == 2) {
-		player.sendChat("Bog : " ~ TaintedLandsMatches ~ " out of 2");
+		player.sendChat("Tainted Lands : " ~ TaintedLandsMatches ~ " out of 2");
 	} else {
 		player.sendChat("Biome #12: " ~ TaintedLandsMatches ~ " out of 2");
 	}
@@ -428,49 +428,7 @@ aquaticstone.itemRightClick = function(stack, world, player, hand) {
 };
 aquaticstone.register();
 
-var diabeticsummoner = VanillaFactory.createItem("diabetic_callstone");
-diabeticsummoner.maxStackSize = 16;
-diabeticsummoner.itemRightClick = function(stack, world, player, hand) {
-	if(world.remote) {
-        return "FAIL";
-    }
 
-    // check if player is in right dimension
-    if(player.getDimension() != 152) {
-        player.sendChat("You gotta be in Oi");
-        return "FAIL";
-    }
-
-    // obtain position under player
-	var playerpos = player.position as crafttweaker.util.Position3f;
-
-    // locations to place biomes
-    val CandyBiomeLocations = [[0,0]] as int[][];
-
-    // biome to pattern
-    val CandyBiomeName = "Candyland" as string;
-
-
-    // get number of matches
-    val CandyMatches = checkBiomesAtPositions(CandyBiomeName, playerpos, CandyBiomeLocations, world) as int;
-
-	if((CandyMatches) == 0) {
-		player.sendChat("You gotta be in a candyland biome");
-		return "FAIL";
-	} 
-
-    if((CandyMatches) == 1) {
-		Commands.call("pillar-spawn candyland_structure_diabetic", player, world, true, true);
-		stack.shrink(1);
-		return "PASS";
-	} 
-
-	player.sendChat("You gotta be in an candyland biome");
-	return "FAIL";
-
-
-};
-diabeticsummoner.register();
 
 
 
@@ -518,3 +476,183 @@ brokenoath.itemRightClick = function(stack, world, player, hand) {
 };
 brokenoath.register();
 
+
+var rhythmgreatworm = VanillaFactory.createItem("rhythm_of_the_great_worm");
+rhythmgreatworm.maxStackSize = 16;
+rhythmgreatworm.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 624) {
+        player.sendChat("You gotta be in Gallifrey");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val CandyBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val CandyBiomeName = "Wastelands" as string;
+
+
+    // get number of matches
+    val CandyMatches = checkBiomesAtPositions(CandyBiomeName, playerpos, CandyBiomeLocations, world) as int;
+
+	if((CandyMatches) == 0) {
+		player.sendChat("You gotta be in a Wastelands biome");
+		return "FAIL";
+	} 
+
+    if((CandyMatches) == 1) {
+		Commands.call("/summon iceandfire:deathworm ~ ~ ~ {Scale:10f,WormAge:10, HandItems:[{Count:1,id:\"contenttweaker:blood_of_enlightenment\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Shai-Hulud\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:100,permshields:100}}}", player, world, true, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in a Wastelands biome");
+	return "FAIL";
+
+
+};
+rhythmgreatworm.register();
+
+
+var diabeticsummoner = VanillaFactory.createItem("diabetic_callstone");
+diabeticsummoner.maxStackSize = 16;
+diabeticsummoner.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 152) {
+        player.sendChat("You gotta be in Oi");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val CandyBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val CandyBiomeName = "Candyland" as string;
+
+
+    // get number of matches
+    val CandyMatches = checkBiomesAtPositions(CandyBiomeName, playerpos, CandyBiomeLocations, world) as int;
+
+	if((CandyMatches) == 0) {
+		player.sendChat("You gotta be in a candyland biome");
+		return "FAIL";
+	} 
+
+    if((CandyMatches) == 1) {
+		Commands.call("pillar-spawn candyland_structure_diabetic", player, world, true, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in an candyland biome");
+	return "FAIL";
+
+
+};
+diabeticsummoner.register();
+
+
+
+var memoryrestorationritual = VanillaFactory.createItem("memory_restoration_ritual");
+memoryrestorationritual.maxStackSize = 16;
+memoryrestorationritual.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 0) {
+		if(player.getDimension() != 7) {
+			if(player.getDimension() != 150) {
+				if(player.getDimension() != 426) {
+        			player.sendChat("This item works in the Overworld, Twilight Forest, Hator, and Arcana");
+        			return "FAIL";
+				}
+			}
+		}
+    }
+
+	player.sendChat("Depending on the dimension you are located, this item will require a different biome to work");
+	player.sendChat("Overworld: Ancient Cavern (found in the Ancient Cavern)");
+	player.sendChat("Twilight Forest: Outer Lands (found in Akathartos)");
+	player.sendChat("Hator: Sacred Springs (found in the Overworld)");
+	player.sendChat("Arcana: Magical Forest (found in the Overworld)");
+	player.sendChat("The summoned bosses will lose HP after all shields are broken");
+	player.sendChat(" - - - ");
+	player.sendChat("Scanning your position");
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val AncientCavernBiomePos = [[0,0]] as int[][];
+	val OuterLandsBiomePos = [[0,0]] as int[][];
+	val SacredSpringsBiomePos = [[0,0]] as int[][];
+	val MagicalForestBiomePos = [[0,0]] as int[][];
+
+    // biome to pattern
+    val AncientCavernName = "Ancient Cavern" as string;
+    val OuterLandsName = "Outer Lands" as string;
+    val SacredSpringsName = "Sacred Springs" as string;
+    val MagicalForestName = "Magical Forest" as string;
+
+
+    // get number of matches
+    val AncientCavernMatches = checkBiomesAtPositions(AncientCavernName, playerpos, AncientCavernBiomePos, world) as int;
+    val OuterLandsMatches = checkBiomesAtPositions(OuterLandsName, playerpos, OuterLandsBiomePos, world) as int;
+    val SacredSpringsMatches = checkBiomesAtPositions(SacredSpringsName, playerpos, SacredSpringsBiomePos, world) as int;
+    val MagicalForestMatches = checkBiomesAtPositions(MagicalForestName, playerpos, MagicalForestBiomePos, world) as int;
+
+	if((AncientCavernMatches) == 1) {
+		if(player.getDimension() == 0) {
+			player.sendChat("Success");
+			Commands.call("summon aoa3:angelica ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_terra\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
+			return "PASS";
+		}
+	} 
+
+	if((OuterLandsMatches) == 1) {
+		if(player.getDimension() == 7) {
+			player.sendChat("Success");
+			Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_twilightforest\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
+			return "PASS";
+		}
+	} 
+
+	if((SacredSpringsMatches) == 1) {
+		if(player.getDimension() == 150) {
+			player.sendChat("Success");
+			Commands.call("summon divinerpg:hover_stringer ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_hator\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
+			return "PASS";
+		}
+	} 
+
+	if((MagicalForestName) == 1) {
+		if(player.getDimension() == 426) {
+			player.sendChat("Success");
+			Commands.call("summon divinerpg:deathcryx ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_asgard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
+			return "PASS";
+		}
+	} 
+
+	player.sendChat("None of the right combinations matches");
+	return "FAIL";
+
+
+};
+memoryrestorationritual.register();

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70124
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Spawns in The Betweenlands.\nSpawns below mud.\nRequires Purification in a Purifier.\n\n- Written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thebetweenlands:crimson_middle_gem"
+      },
+      "name:8": "Crimson Middle Gem"
+    }
+  },
+  "questID:3": 70198,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thebetweenlands:crimson_middle_gem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

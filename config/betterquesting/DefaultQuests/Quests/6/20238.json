@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    20194
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oStabilizers can be used to prevent some bad effects if infusions go unstable.\n\nRedstone Inlays should be used to connect the stabilizers to each pedestal. Redstone inlays behave like redstone, with a maximum range of 15 blocks.\n\nThese should still follow central symmetry.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:stabilizer"
+      },
+      "name:8": "Stabilizers"
+    }
+  },
+  "questID:3": 20238,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:stabilizer"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:inlay"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

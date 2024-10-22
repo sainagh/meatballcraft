@@ -488,7 +488,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "aoa3:carved_rune_space@0"
+                "generalized_input_item"
             ]
         },
         {
@@ -512,7 +512,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "aoa3:carved_rune_space@0"
+                "generalized_input_item"
             ]
         },
         {

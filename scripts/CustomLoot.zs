@@ -22,6 +22,25 @@ firedragmalr1.addItemEntry(<minecraft:ghast_tear>, 10);
 firedragmalr1.addItemEntry(<abyssalcraft:abyingot>*2, 5);
 firedragmalr1.addItemEntry(<aoa3:gold_coin>*2, 1);
 
+val lightningdragmal = LootTweaker.getTable("iceandfire:lightning_dragon_male_cave");
+val lightningdragmalr1 = lightningdragmal.addPool("lightningdragmalr1", 1, 1, 0, 0);
+lightningdragmalr1.addItemEntry(<contenttweaker:botanic_alchemic_catalyst>, 1);
+lightningdragmalr1.addItemEntry(<thaumcraft:loot_bag:1>, 5);
+lightningdragmalr1.addItemEntry(<aoa3:sapphire>, 1);
+lightningdragmalr1.addItemEntry(<minecraft:ghast_tear>, 10);
+lightningdragmalr1.addItemEntry(<abyssalcraft:abyingot>*2, 5);
+lightningdragmalr1.addItemEntry(<aoa3:gold_coin>*2, 1);
+
+val lightningdragfem = LootTweaker.getTable("iceandfire:lightning_dragon_female_cave");
+val lightningdragfemr1 = lightningdragfem.addPool("lightningdragfemr1", 1, 1, 0, 0);
+lightningdragfemr1.addItemEntry(<contenttweaker:botanic_alchemic_catalyst>, 1);
+lightningdragfemr1.addItemEntry(<thaumcraft:loot_bag:1>, 5);
+lightningdragfemr1.addItemEntry(<aoa3:sapphire>, 1);
+lightningdragfemr1.addItemEntry(<minecraft:ghast_tear>, 10);
+lightningdragfemr1.addItemEntry(<abyssalcraft:abyingot>*2, 5);
+lightningdragfemr1.addItemEntry(<aoa3:gold_coin>*2, 1);
+
+
 val icedragfem = LootTweaker.getTable("iceandfire:ice_dragon_female_cave");
 val icedragfemr1 = icedragfem.addPool("icedragfemr1", 1, 1, 0, 0);
 icedragfemr1.addItemEntry(<contenttweaker:botanic_alchemic_catalyst>, 1);
@@ -61,6 +80,7 @@ bonecreatureroll.addItemEntry(<thaumcraft:loot_bag:2>, 5);
 val witherwizard = LootTweaker.getTable("aoa3:entities/mobs/nether/wither_wizard");
 val witherwizardmoretokes = witherwizard.addPool("witherwizardmoretokes", 1, 1, 0, 0);
 witherwizardmoretokes.addItemEntry(<aoa3:nether_tokens>, 5);
+witherwizardmoretokes.addItemEntry(<thaumictinkerer:kamiresource:1>, 5);
 
 val chimera = LootTweaker.getTable("aoa3:entities/mobs/overworld/chimera");
 val chimeraroll = chimera.addPool("chimeraroll", 1, 1, 0, 0);
@@ -470,6 +490,8 @@ vanilladungeonmbc.addItemEntry(<contenttweaker:embiggener>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:call_of_enigma>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:witchery_summons>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:recursive_paper_illager>, 3);
+vanilladungeonmbc.addItemEntry(<contenttweaker:recursive_paper_abyssal>, 3);
+vanilladungeonmbc.addItemEntry(<contenttweaker:recursive_paper_buggy>, 3);
 
 val vanillastronghold = LootTweaker.getTable("minecraft:chests/stronghold_corridor");
 val vanillastrongholdmbc = vanillastronghold.addPool("vanillastrongholdmbc", 1, 1, 0, 0);
@@ -518,9 +540,9 @@ championpoolgeneral.addItemEntry(<aoa3:runium_chunk>, 20);
 championpoolgeneral.addItemEntry(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:slime"}}), 15);
 championpoolgeneral.addItemEntry(<projecte:item.pe_fuel:2>, 5);
 championpoolgeneral.addItemEntry(<projecte:item.pe_fuel:1>, 10);
-championpoolgeneral.addItemEntry(<projecte:item.pe_fuel:1>, 15);
+championpoolgeneral.addItemEntry(<projecte:item.pe_fuel:0>, 15);
 championpoolgeneral.addItemEntry(<rftools:dimensional_shard>, 15);
-championpoolgeneral.addItemEntry(<mysticalagradditions:nether_star_essence>, 5);
+// championpoolgeneral.addItemEntry(<mysticalagradditions:nether_star_essence>, 5);
 val championpoolguaranteed = champions.addPool("championpoolguaranteed", 1, 1, 0, 0);
 championpoolguaranteed.addItemEntry(<contenttweaker:champion_token>, 10);
 
@@ -573,3 +595,10 @@ magicbeanslootingots.addItemEntry(<techreborn:ingot:3>, 3);
 magicbeanslootingots.addItemEntry(<thermalfoundation:material:135>, 3);
 magicbeanslootingots.addItemEntry(<thermalfoundation:material:134>, 3);
 
+val pinkslime = LootTweaker.getTable("industrialforegoing:entities/pink_slime");
+val pinkslimeextraroll = pinkslime.addPool("pinkslimeextraroll", 1, 1, 0, 0);
+pinkslimeextraroll.addItemEntry(<industrialforegoing:pink_slime>, 3);
+
+val endertriplet = LootTweaker.getTable("divinerpg:entities/end/ender_triplets");
+val endertripletshard = endertriplet.addPool("endertripletshard", 1, 1, 0, 0);
+endertripletshard.addItemEntry(<thaumictinkerer:kamiresource:0>, 5);

@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    20167
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAssemble the gaia arena and click the beacon with a gaia spirit ingot",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14,
+        "id:8": "botania:manaresource"
+      },
+      "name:8": "Tier 2 Gaia Guardian"
+    }
+  },
+  "questID:3": 752,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

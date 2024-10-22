@@ -74,3 +74,6 @@ recipes.remove(<extrabotany:puredaisypendant>);
 recipes.addShaped(<extrabotany:puredaisypendant>,
 [[<botania:specialflower>.withTag({type: "puredaisy"}), <botania:manaresource:19>, <botania:specialflower>.withTag({type: "puredaisy"})],
 [null, <botania:specialflower>.withTag({type: "puredaisy"}), null]]);
+
+recipes.addShapeless(<botania:flighttiara:9>,
+[<botania:flighttiara:*>, <avaritia:cosmic_meatballs>]);

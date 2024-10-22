@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    20197
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTo unlock pages in the thaumonomicon, you need to perform research.\n\nThere are eight types of research, and each type can be an obervation or a theory!\n\nObservation research is performed by scanning things using the thaumometer. In this pack there is an addon that lets you scan items directly in chests. Just mouse over them while holding the thaumometer!\n\nTheory research is performed in the reserach table, obtained by right clicking scribing tools on a wood table. To unlock research, place paper in the scribing table, and click pages until completing a theory. This task must be reepated till the desired research is obtained.\n\nIn addition to this, preserved curiosities let you unlock any research at random!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:scribing_tools"
+      },
+      "name:8": "Thaumic Research"
+    }
+  },
+  "questID:3": 20189,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:scribing_tools"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:table_wood"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

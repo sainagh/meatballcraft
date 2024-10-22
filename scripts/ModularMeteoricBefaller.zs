@@ -108,3 +108,16 @@ befaller8.addItemOutput(<thebetweenlands:green_middle_gem_ore>*64);
 befaller8.addItemOutput(<thebetweenlands:crimson_middle_gem_ore>*64);
 befaller8.addItemOutput(<thebetweenlands:life_crystal_stalactite:1>*64);
 befaller8.build();
+
+val befaller9 = RecipeBuilder.newBuilder("befaller9","meteoric_befaller",100);
+befaller9.addLifeEssenceInput(10000, false);
+befaller9.addItemInput(<contenttweaker:polar_catalyst>*8);
+befaller9.addItemOutput(<bewitchment:salt_ore>*64);
+befaller9.addItemOutput(<bewitchment:salt_ore>*64);
+befaller9.addItemOutput(<bewitchment:salt_ore>*64);
+befaller9.addItemOutput(<bewitchment:salt_ore>*64);
+befaller9.addItemOutput(<bewitchment:salt_ore>*64);
+befaller9.addItemOutput(<bewitchment:salt_ore>*64);
+befaller9.addItemOutput(<bewitchment:salt_ore>*64);
+befaller9.addItemOutput(<bewitchment:salt_ore>*64);
+befaller9.build();

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20191
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Despite the relative lack of concrete uses in golemancy (given other, better options), seals have use in higher arts (you\u0027ll see when you get there.)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:seal"
+      },
+      "name:8": "Blank Seal"
+    }
+  },
+  "questID:3": 20220,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:seal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

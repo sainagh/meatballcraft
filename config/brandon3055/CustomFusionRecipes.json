@@ -686,5 +686,35 @@
             "iceandfire:dragonsteel_lightning_ingot",
             "iceandfire:dragonsteel_lightning_ingot"
         ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:essence_of_worthiness",
+        "catalyst": "contenttweaker:self_actualizing_warren_rift",
+        "energy": 64000000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:recursive_convergence",
+            "contenttweaker:recursive_convergence",
+            "contenttweaker:recursive_convergence",
+            "contenttweaker:recursive_convergence",
+            "contenttweaker:singular_recursion",
+            "contenttweaker:singular_recursion",
+            "contenttweaker:singular_recursion",
+            "contenttweaker:singular_recursion"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:recursion_of_worthiness",
+        "catalyst": "contenttweaker:prophetic_paper",
+        "energy": 64000000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:essence_of_worthiness",
+            "contenttweaker:essence_of_worthiness",
+            "contenttweaker:essence_of_worthiness",
+            "contenttweaker:essence_of_worthiness"
+        ]
     }
 ]

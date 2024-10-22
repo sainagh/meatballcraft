@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    20527
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "immersivepetroleum:schematic",
+        "tag:10": {
+          "multiblock:8": "IE:BlastFurnaceAdvanced"
+        }
+      },
+      "name:8": "Improved Blast Furnace"
+    }
+  },
+  "questID:3": 20611,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "immersivepetroleum:schematic",
+          "tag:10": {
+            "multiblock:8": "IE:BlastFurnaceAdvanced"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

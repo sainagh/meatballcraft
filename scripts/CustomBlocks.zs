@@ -748,35 +748,35 @@ retaliationportal.setToolLevel(3);
 retaliationportal.register();
 
 var demoniccrystalcluster = VanillaFactory.createBlock("demonic_crystal_cluster", <blockmaterial:iron>);
-demoniccrystalcluster.setBlockHardness(1.0);
+demoniccrystalcluster.setBlockHardness(-1.0);
 demoniccrystalcluster.setBlockResistance(2.5);
 demoniccrystalcluster.setToolClass("pickaxe");
 demoniccrystalcluster.setToolLevel(3);
 demoniccrystalcluster.register();
 
 var corrosivecrystalcluster = VanillaFactory.createBlock("corrosive_crystal_cluster", <blockmaterial:iron>);
-corrosivecrystalcluster.setBlockHardness(1.0);
+corrosivecrystalcluster.setBlockHardness(-1.0);
 corrosivecrystalcluster.setBlockResistance(2.5);
 corrosivecrystalcluster.setToolClass("pickaxe");
 corrosivecrystalcluster.setToolLevel(3);
 corrosivecrystalcluster.register();
 
 var destructivecrystalcluster = VanillaFactory.createBlock("destructive_crystal_cluster", <blockmaterial:iron>);
-destructivecrystalcluster.setBlockHardness(1.0);
+destructivecrystalcluster.setBlockHardness(-1.0);
 destructivecrystalcluster.setBlockResistance(2.5);
 destructivecrystalcluster.setToolClass("pickaxe");
 destructivecrystalcluster.setToolLevel(3);
 destructivecrystalcluster.register();
 
 var vengefulcrystalcluster = VanillaFactory.createBlock("vengeful_crystal_cluster", <blockmaterial:iron>);
-vengefulcrystalcluster.setBlockHardness(1.0);
+vengefulcrystalcluster.setBlockHardness(-1.0);
 vengefulcrystalcluster.setBlockResistance(2.5);
 vengefulcrystalcluster.setToolClass("pickaxe");
 vengefulcrystalcluster.setToolLevel(3);
 vengefulcrystalcluster.register();
 
 var steadfastcrystalcluster = VanillaFactory.createBlock("steadfast_crystal_cluster", <blockmaterial:iron>);
-steadfastcrystalcluster.setBlockHardness(1.0);
+steadfastcrystalcluster.setBlockHardness(-1.0);
 steadfastcrystalcluster.setBlockResistance(2.5);
 steadfastcrystalcluster.setToolClass("pickaxe");
 steadfastcrystalcluster.setToolLevel(3);
@@ -1512,9 +1512,9 @@ sacredeucalyptus.register();
 
 var leavesoflife = VanillaFactory.createBlock("leaves_of_life", <blockmaterial:iron>);
 leavesoflife.setBlockHardness(1.0);
-leavesoflife.setBlockResistance(2.5);
+leavesoflife.setBlockResistance(0.5);
 leavesoflife.setToolClass("axe");
-leavesoflife.setToolLevel(3);
+leavesoflife.setToolLevel(1);
 leavesoflife.register();
 
 var innervedskystone = VanillaFactory.createBlock("innerved_sky_stone", <blockmaterial:iron>);
@@ -1901,3 +1901,56 @@ gallifreyanirradiator.setBlockResistance(2.5);
 gallifreyanirradiator.setToolClass("pickaxe");
 gallifreyanirradiator.setToolLevel(3);
 gallifreyanirradiator.register();
+
+var sentientmeatballflesh = VanillaFactory.createBlock("sentient_meatball_flesh", <blockmaterial:iron>);
+sentientmeatballflesh.setBlockHardness(1.0);
+sentientmeatballflesh.setBlockResistance(2.5);
+sentientmeatballflesh.setToolClass("pickaxe");
+sentientmeatballflesh.setToolLevel(3);
+sentientmeatballflesh.register();
+
+var gluttonoussentientmeatball = VanillaFactory.createBlock("gluttonous_sentient_meatball", <blockmaterial:iron>);
+gluttonoussentientmeatball.setBlockHardness(1.0);
+gluttonoussentientmeatball.setBlockResistance(2.5);
+gluttonoussentientmeatball.setToolClass("pickaxe");
+gluttonoussentientmeatball.setToolLevel(3);
+gluttonoussentientmeatball.register();
+
+var witheringfabrial = VanillaFactory.createBlock("withering_fabrial", <blockmaterial:iron>);
+witheringfabrial.setBlockHardness(1.0);
+witheringfabrial.setBlockResistance(2.5);
+witheringfabrial.setToolClass("pickaxe");
+witheringfabrial.setToolLevel(3);
+witheringfabrial.register();
+
+var hyperuranonactualizingfabrial = VanillaFactory.createBlock("hyperuranon_actualizing_fabrial", <blockmaterial:iron>);
+hyperuranonactualizingfabrial.setBlockHardness(1.0);
+hyperuranonactualizingfabrial.setBlockResistance(2.5);
+hyperuranonactualizingfabrial.setToolClass("pickaxe");
+hyperuranonactualizingfabrial.setBeaconBase(true);
+hyperuranonactualizingfabrial.setToolLevel(3);
+hyperuranonactualizingfabrial.register();
+
+var gamblingsentientmeatball = VanillaFactory.createBlock("gambling_sentient_meatball", <blockmaterial:iron>);
+gamblingsentientmeatball.setBlockHardness(1.0);
+gamblingsentientmeatball.setBlockResistance(2.5);
+gamblingsentientmeatball.setToolClass("pickaxe");
+gamblingsentientmeatball.setBeaconBase(true);
+gamblingsentientmeatball.setToolLevel(3);
+gamblingsentientmeatball.register();
+
+var freedbetrayedsoul = VanillaFactory.createBlock("freed_betrayed_soul", <blockmaterial:iron>);
+freedbetrayedsoul.setBlockHardness(1.0);
+freedbetrayedsoul.setBlockResistance(2.5);
+freedbetrayedsoul.setToolClass("pickaxe");
+freedbetrayedsoul.setBeaconBase(true);
+freedbetrayedsoul.setToolLevel(3);
+freedbetrayedsoul.register();
+
+var quantumcondenser = VanillaFactory.createBlock("quantum_condenser", <blockmaterial:iron>);
+quantumcondenser.setBlockHardness(1.0);
+quantumcondenser.setBlockResistance(2.5);
+quantumcondenser.setToolClass("pickaxe");
+quantumcondenser.setBeaconBase(true);
+quantumcondenser.setToolLevel(3);
+quantumcondenser.register();

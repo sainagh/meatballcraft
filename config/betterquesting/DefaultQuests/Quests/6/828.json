@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    20102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oYou should use the ritual of culling instead, it\u0027s less laggy.\n\nPlace the ritual below a blood altar.\n\nAny mobs present below the ritual will be damaged to fill the blood altar.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stone_of_the_wizard"
+      },
+      "name:8": "Well of Suffering (Ritual of Culling Better)"
+    }
+  },
+  "questID:3": 828,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

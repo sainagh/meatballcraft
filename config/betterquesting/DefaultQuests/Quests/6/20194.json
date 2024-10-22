@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1748
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThaumcraft infusion is a crafting mechanic that uses altars to craft (see multiblock preview for infusion setup). Right click the matrix with salis mundus to form the structure.\n\nInfusion recipes require the right items to be placed in the altars, and essentia from nearby jars (or the infusion provider).\n\nTo start a recipe, after placing the correct items, right click the matrix with a casting gauntlet, the infusion will start with esselntia being automatically sucked out of the nearby sources.\n\nAll infusion recipes have a chance of going wrong and causing bad effects. If the runic matrix is stable (you can see stability while looking at it with goggles of revealing) those will not happen.\n\nTo stabilize thaumcraft infusions, you should place stabilizing blocks around the infusion matrix.\n\nAll stabilizing blocks should be placed following central symmetry with respect to the center pedestal!\n\nThe more variety of stabilizing blocks, the better! Different colors count as different blocks!\n\nIn addition, Stabilizers from Thaumcraft can be used to prevent some bad effects. Redstone Inlays should be used to connect the stabilizers to each pedestal. These should still follow central symmetry.\n\nThe following stabilizing blocks are listed in order of stability power (you should have at most 6 of each):\nCandelabra\nCandles\nMob heads",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:infusion_matrix"
+      },
+      "name:8": "Runic Matrix"
+    }
+  },
+  "questID:3": 20194,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:infusion_matrix"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:caster_basic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

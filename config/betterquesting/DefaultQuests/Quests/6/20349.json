@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    20337
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oBottled fires are used as reagents and mechanics for rituals and recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:bottled_hellfire"
+      },
+      "name:8": "Bottled Fire"
+    }
+  },
+  "questID:3": 20349,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:bottled_frostfire"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:bottled_hellfire"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

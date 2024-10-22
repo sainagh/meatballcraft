@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    2296
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oEvery time a Dimensional Door disappears, it leaves a rift in its place.\n\nThese rifts will slowly grow, and eventually will become massive.\n\nThey are fairly harmless, but they can get laggy so it is good to remove them with the Rift Remover. If you hold one nearby a rift, it will highlight a location where the item can be used to remove a given rift.\n\nIf you want to keep one for decorative purposes, the Rift Stabilizer can be used. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "dimdoors:rift_remover"
+      },
+      "name:8": "What is this and how do I get rid of it #2"
+    }
+  },
+  "questID:3": 2293,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "dimdoors:rift_remover"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

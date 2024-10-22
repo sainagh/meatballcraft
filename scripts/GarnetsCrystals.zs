@@ -15,7 +15,7 @@ mods.thaumcraft.Infusion.registerRecipe("abyssalnomiconopop", "",
 <avaritia:block_resource:0>,
 <avaritia:block_resource:0>]);
 
-recipes.addHiddenShapeless("rightbannersboi",<contenttweaker:anadrominomicom>,
+scripts.PuzzleUtil.addPuzzleShapeless("rightbannersboi",<contenttweaker:anadrominomicom>,
 [<contenttweaker:skotaninomicom>,
 <aoa3:bejewelled_blood_banner>,
 <aoa3:bejewelled_ancient_banner>,

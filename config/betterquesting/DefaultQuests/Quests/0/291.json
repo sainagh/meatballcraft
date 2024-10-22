@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    290
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWelcome to chapter 7!\n\n§fIn the race towards full space-warping abilities, I seem to be beating the Shyre Empire at catching up with the Twilight Horde.\nAn empire that spands hundreds of worlds, and yet they behave like overconfident meatheads. Unfortunately for them, magic ability and innate power are only part of what this race is about.\nI am good at one thing, and that is seeking knowledge! \nThe way into the next Mythic Shell is mine!\nWell, to be fair, while I have the knowledge, I still seem to be lacking the power of making full use of it, but there are others who can. \nBoth the Twilight Horde and the Shyre Empire are looking at me and, most importantly, at what I have learned. I cannot slip up now.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:apalachia_star"
+      },
+      "ismain:1": 1,
+      "name:8": "Power from Apalachia"
+    }
+  },
+  "questID:3": 291,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 100,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:apalachia_star"
+            },
+            "TrophyName:8": "Starry Apalachia Idol",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:apalachia_star"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

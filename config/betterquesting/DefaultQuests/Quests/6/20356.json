@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    20357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:blockprism",
+        "tag:10": {
+          "astralsorcery:10": {
+            "crystalProperties:10": {
+              "collectiveCapability:3": 100,
+              "fract:3": 0,
+              "purity:3": 100,
+              "size:3": 900,
+              "sizeOverride:3": -1
+            }
+          }
+        }
+      },
+      "name:8": "Prism Lens"
+    }
+  },
+  "questID:3": 20356,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:blockprism",
+          "tag:10": {
+            "astralsorcery:10": {
+              "crystalProperties:10": {
+                "collectiveCapability:3": 100,
+                "fract:3": 0,
+                "purity:3": 100,
+                "size:3": 900,
+                "sizeOverride:3": -1
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

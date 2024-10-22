@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    330
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse the guardian\u0027s eye on graw altar\n\n§fThe master of Lelyetia has been taken down, and the weird feeling I felt when I first entered is partially gone. \nA weird feeling of wrongness, a pressure weighting on me, as if I my wery being was being rejected by this place. And no it is not related to the weird gravity of Lelyetia, otherwise I would feel something like this in Arcana too. The powers of Graw were, and still are, affecting me.\nThis land still holds some secrets, and I am set on figuring out what\u0027s going on!\nFor starters, whatever the trick of manipulating space-time and gravity may be, science or magic, probably both, is available to both of my foes, and it seems to be used for strategic and military porposes. Places that can only be reached through wormholes, bound to specific coordinates, are quite useful in a cosmic war.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:lelyetian_cap"
+      },
+      "name:8": "Lelyetia Falls"
+    }
+  },
+  "questID:3": 331,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:graw_fang"
+            },
+            "TrophyName:8": "Graw Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:lelyetian_cap"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:guardians_eye"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

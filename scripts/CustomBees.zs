@@ -1,7 +1,6 @@
 import crafttweaker.potions.IPotion;
 
 
-
 recipes.addShaped(<careerbees:ingredients:11>*15,
 [[null, null, <minecraft:nether_star>],
 [null, <gendustry:honey_comb:13349>, <minecraft:nether_star>],
@@ -1189,7 +1188,7 @@ recipes.addShaped(<aoa3:vox_banner>*10,
 
 
 
-recipes.addHiddenShapeless("makerosidianblend", <contenttweaker:rosidian_blend>,
+scripts.PuzzleUtil.addPuzzleShapeless("makerosidianblend", <contenttweaker:rosidian_blend>,
 [<aoa3:rosidons>,
 <techreborn:smalldust:33>,
 <techreborn:smalldust:43>,

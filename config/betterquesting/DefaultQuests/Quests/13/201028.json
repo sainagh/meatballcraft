@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    201127
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Head\nDurability: 150\nMining Level: Iron\nMining Speed: 5\nAttack: 2.9\nCrude II\n\nHandle\nModifier: 0.6\nDurability: -60\nCrude\n\nExtra\nDurability: 40\nCrude\n\nBows\nDrawspeed: 5\nRange Multiplier: 0.4\nBonus Damage: -1\nCrude",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:shard",
+        "tag:10": {
+          "Material:8": "flint"
+        }
+      },
+      "name:8": "Flint"
+    }
+  },
+  "questID:3": 201028,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:shard",
+          "tag:10": {
+            "Material:8": "flint"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

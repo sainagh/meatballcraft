@@ -207,7 +207,7 @@ val enclistSoulEaterWrapped as EnchantMap = EnchantMap()
 	.add("minecraft:mending",1);
 
 mods.bloodmagic.BloodAltar.addRecipe(SuperEnchantedItem(<bloodmagic:sentient_sword>.withTag({display: {Name:"§6§oSoul Eater§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSoulEaterWrapped).getItem(), 
-<bloodarsenal:stasis_sword>, 
+<bloodmagic:sentient_sword>, 
 4, 
 1000000, 
 300, 

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20389
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDoes not produce any flux",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumadditions:mithrillium_smelter"
+      },
+      "name:8": "Mithrillium Smeltery"
+    }
+  },
+  "questID:3": 20390,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumadditions:mithrillium_smelter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

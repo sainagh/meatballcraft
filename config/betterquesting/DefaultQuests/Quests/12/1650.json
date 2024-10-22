@@ -1,0 +1,45 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    1599,
+    1587
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalfoundation:armor.plate_copper"
+      },
+      "name:8": "Copper"
+    }
+  },
+  "questID:3": 1650,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermalfoundation:armor.helmet_copper"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thermalfoundation:armor.plate_copper"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thermalfoundation:armor.legs_copper"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "thermalfoundation:armor.boots_copper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

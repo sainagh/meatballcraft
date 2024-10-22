@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Can be found between Y\u003d5 and Y\u003d132.\nCan be dropped by a Runic Guardian.\nCan be obtained by Deep Cases.\n\n- Written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:runium_chunk"
+      },
+      "name:8": "Runium Chunk"
+    }
+  },
+  "questID:3": 70071,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:runium_chunk"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

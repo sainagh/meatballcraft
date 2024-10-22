@@ -1,5 +1,5 @@
 
-recipes.addHiddenShapeless("secretcobblebranch",<contenttweaker:branch_of_life>,
+scripts.PuzzleUtil.addPuzzleShapeless("secretcobblebranch",<contenttweaker:branch_of_life>,
 [<extrautils2:compressedcobblestone:0>,
 <aoa3:turquoise_haven_sapling>,
 <aoa3:blue_celevus_sapling>,

@@ -4,7 +4,7 @@ recipes.addShapeless(<contenttweaker:burning_flint>,
 
 recipes.addShapeless(<contenttweaker:flint_and_furnace>, [<contenttweaker:burning_furnace>,<contenttweaker:burning_flint>]);
 
-recipes.addHiddenShapeless("furnaceguylives",<contenttweaker:burning_furnace>,
+scripts.PuzzleUtil.addPuzzleShapeless("furnaceguylives",<contenttweaker:burning_furnace>,
 [<contenttweaker:portable_furnace>,
 <extrautils2:drum:3>.withTag({Fluid: {FluidName: "molten_netherite", Amount: 65536000}})]);
 
@@ -47,9 +47,4 @@ recipes.addShaped(<contenttweaker:demonic_ember>*2,
 [[<railcraft:firestone_raw>, <railcraft:firestone_raw>, <railcraft:firestone_raw>],
 [<railcraft:firestone_raw>, <contenttweaker:demonic_ember>, <railcraft:firestone_raw>],
 [<railcraft:firestone_raw>, <railcraft:firestone_raw>, <railcraft:firestone_raw>]]);
-
-recipes.addShaped(<contenttweaker:demonic_ember>*2, 
-[[<contenttweaker:demonic_ember>],
-[<contenttweaker:demonic_ember>],
-[<tconstruct:tough_tool_rod>.withTag({Material: "dragonbone"})]]);
 

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20349
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oClick the bottled frostfire on a block to start a cold fire! This will not go out.\n\nDrop iron into the cold fire to make cold iron!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:cold_iron_ingot"
+      },
+      "name:8": "Cold Iron"
+    }
+  },
+  "questID:3": 20348,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:cold_iron_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    20255
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oRight click a warper item",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:stone"
+      },
+      "name:8": "Furatto Wormhole"
+    }
+  },
+  "questID:3": 20257,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 182,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Furatto Wormhole",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

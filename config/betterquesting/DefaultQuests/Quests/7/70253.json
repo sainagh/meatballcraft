@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70129
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Obtained from the Mysterium Dimension.\nCan be found when opening a Shiny Box.\nCan be found below Y\u003d100.\n\n- Written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:mystite_ingot"
+      },
+      "name:8": "Mystite Ingot"
+    }
+  },
+  "questID:3": 70253,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:mystite_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    20189
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oPreserved curiosities let you unlock any research at random!\n\n§fThe inscription table is quite tedious to use, so having access to a lot of mother void walkers may be a good idea...",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "thaumcraft:curio"
+      },
+      "name:8": "Preserved Curiosity"
+    }
+  },
+  "questID:3": 20184,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "thaumcraft:curio"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

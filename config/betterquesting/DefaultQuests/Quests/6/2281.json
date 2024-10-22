@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    2280
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe Iron Dimensional Door leads to a pocket dimension that can be used to store things.\n\nEach door will lead to a different pocket dimension.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "dimdoors:iron_dimensional_door"
+      },
+      "name:8": "Basic Pocket Dimension"
+    }
+  },
+  "questID:3": 2281,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "dimdoors:iron_dimensional_door"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20354
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oPlace above a ritual altar (4 blocks between altar and linker) to move the effects of a ritual elsewhere.\n\nPlace another anchor where you want your ritual to be active, and link the two anchors with a linking tool.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:blockrituallink"
+      },
+      "name:8": "Ritual Anchor"
+    }
+  },
+  "questID:3": 20353,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "astralsorcery:blockrituallink"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

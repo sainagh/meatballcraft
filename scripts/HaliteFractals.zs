@@ -47,7 +47,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:first_order_
 <contenttweaker:barathosynium_ingot>, <contenttweaker:sword_shield>,
 <contenttweaker:wrought_iron_plate>]);
 
-recipes.addHiddenShapeless("infusethatstormhoms",<contenttweaker:infuser_fabrial>,
+scripts.PuzzleUtil.addPuzzleShapeless("infusethatstormhoms",<contenttweaker:infuser_fabrial>,
 [<contenttweaker:gemheart>,
 <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "motus"}]}),
 <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}),
@@ -74,7 +74,7 @@ recipes.addShaped(<contenttweaker:empowered_apothecary_stone>,
 [<aoa3:glaring_power_stone>, <contenttweaker:apothecary_stone>, <aoa3:glaring_power_stone>],
 [<aoa3:blooming_power_stone>, <aoa3:glaring_power_stone>, <aoa3:blooming_power_stone>]]);
 
-recipes.addHiddenShapeless("makeapothecarykey",<contenttweaker:apothecary_prison_key>,
+scripts.PuzzleUtil.addPuzzleShapeless("makeapothecarykey",<contenttweaker:apothecary_prison_key>,
 [<contenttweaker:empowered_apothecary_stone>,
 <botania:dye:0>,
 <botania:dye:2>,
@@ -106,7 +106,7 @@ true,
 game.setLocalization("ac.ritual.freetheheartofhearts", "Heart of hearts"); 
 game.setLocalization("ac.ritual.freetheheartofhearts.desc", "Free the Heart of hearts");
 
-recipes.addHiddenShapeless("dragonscalesheart",<contenttweaker:soul_of_the_dragonslayer>,
+scripts.PuzzleUtil.addPuzzleShapeless("dragonscalesheart",<contenttweaker:soul_of_the_dragonslayer>,
 [<contenttweaker:whispering_heart_of_hearts>,
 <iceandfire:dragonscales_white>,
 <iceandfire:dragonscales_green>,
@@ -114,7 +114,7 @@ recipes.addHiddenShapeless("dragonscalesheart",<contenttweaker:soul_of_the_drago
 <iceandfire:dragonscales_amythest>
 ]);
 
-recipes.addHiddenShapeless("gluttonybanner",<contenttweaker:gem_of_voracity>,
+scripts.PuzzleUtil.addPuzzleShapeless("gluttonybanner",<contenttweaker:gem_of_voracity>,
 [<contenttweaker:gem_of_gluttony>,
 <aoa3:bejewelled_candy_banner>
 ]);
@@ -134,7 +134,7 @@ recipes.addShaped(<contenttweaker:stone_of_endless_hunger>*2,
 
 mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:slate_of_endless_hunger>, <contenttweaker:stone_of_endless_hunger>, 4, 1000000, 5000, 10000);
 
-recipes.addHiddenShapeless('combopotionsicy',<contenttweaker:dreadful_shard>,
+scripts.PuzzleUtil.addPuzzleShapeless('combopotionsicy',<contenttweaker:dreadful_shard>,
 [<contenttweaker:icy_dreadful_shard>,
 <xreliquary:potion_essence>.withTag({effects: [{duration: 10000, potency: 4, name: "xreliquary:flight_potion"}]}),
 <xreliquary:potion_essence>.withTag({effects: [{duration: 100, potency: 0, name: "bewitchment:fear"}]}),
@@ -189,7 +189,7 @@ recipes.addShaped(<contenttweaker:lunar_star>*9,
 [<aoa3:lunar_ingot>, <contenttweaker:lunar_star>, <aoa3:lunar_ingot>],
 [<aoa3:lunar_ingot>, <aoa3:lunar_ingot>, <aoa3:lunar_ingot>]]);
 
-recipes.addHiddenShapeless("pressspice",<contenttweaker:pressed_spice>,
+scripts.PuzzleUtil.addPuzzleShapeless("pressspice",<contenttweaker:pressed_spice>,
 [<extratrees:food:39>,
 <openblocks:stencil:0>.reuse(),
 <openblocks:stencil:2>.reuse(),
@@ -202,7 +202,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:recursive_im
 [<contenttweaker:pressed_spice>, <animus:component:1>,
 <ore:ingotUltimate>, <ore:ingotUltimate>]);
 
-recipes.addHiddenShapeless("catalizedatore",<contenttweaker:catalyzed_runic_ore>,
+scripts.PuzzleUtil.addPuzzleShapeless("catalizedatore",<contenttweaker:catalyzed_runic_ore>,
 [<contenttweaker:runic_ore>,
 <thaumicwonders:eldritch_cluster:6>,
 <thaumicwonders:eldritch_cluster:1>,
@@ -345,7 +345,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:fourth_order
 <contenttweaker:pearlescent_artifact>]);
 
 
-recipes.addHiddenShapeless("tabletcomboftw",<contenttweaker:stone_of_anima>,
+scripts.PuzzleUtil.addPuzzleShapeless("tabletcomboftw",<contenttweaker:stone_of_anima>,
 [<ore:ingotChalcedony>,
 <aoa3:sight_tablet>,
 <aoa3:strength_tablet>,
@@ -559,47 +559,47 @@ var mapmeatballmonument as IData = {
 		display: {Lore:["§d§oTribute to the Meatball Man§r"]}
 	};
 
-recipes.addHiddenShaped("meatballmonument1",<chisel:temple:2>.withTag(mapmeatballmonument)*8,
+scripts.PuzzleUtil.addPuzzleShaped("meatballmonument1",<chisel:temple:2>.withTag(mapmeatballmonument)*8,
 [[<chisel:temple:2>, <chisel:temple:2>, <chisel:temple:2>],
 [<chisel:temple:2>, <contenttweaker:rainbow_fire>, <chisel:temple:2>],
 [<chisel:temple:2>, <chisel:temple:2>, <chisel:temple:2>]]);
 
-recipes.addHiddenShaped("meatballmonument2",<chisel:futura:4>.withTag(mapmeatballmonument)*8,
+scripts.PuzzleUtil.addPuzzleShaped("meatballmonument2",<chisel:futura:4>.withTag(mapmeatballmonument)*8,
 [[<chisel:futura:4>, <chisel:futura:4>, <chisel:futura:4>],
 [<chisel:futura:4>, <contenttweaker:blue_hair>, <chisel:futura:4>],
 [<chisel:futura:4>, <chisel:futura:4>, <chisel:futura:4>]]);
 
-recipes.addHiddenShaped("meatballmonument3",<bewitchment:scorned_bricks>.withTag(mapmeatballmonument)*8,
+scripts.PuzzleUtil.addPuzzleShaped("meatballmonument3",<bewitchment:scorned_bricks>.withTag(mapmeatballmonument)*8,
 [[<bewitchment:scorned_bricks>, <bewitchment:scorned_bricks>, <bewitchment:scorned_bricks>],
 [<bewitchment:scorned_bricks>, <contenttweaker:ai_art>, <bewitchment:scorned_bricks>],
 [<bewitchment:scorned_bricks>, <bewitchment:scorned_bricks>, <bewitchment:scorned_bricks>]]);
 
-recipes.addHiddenShaped("meatballmonument4",<chisel:voidstone:5>.withTag(mapmeatballmonument)*8,
+scripts.PuzzleUtil.addPuzzleShaped("meatballmonument4",<chisel:voidstone:5>.withTag(mapmeatballmonument)*8,
 [[<chisel:voidstone:5>, <chisel:voidstone:5>, <chisel:voidstone:5>],
 [<chisel:voidstone:5>, <contenttweaker:sick_fade>, <chisel:voidstone:5>],
 [<chisel:voidstone:5>, <chisel:voidstone:5>, <chisel:voidstone:5>]]);
 
-recipes.addHiddenShaped("meatballmonument5",<compactmachines3:wallbreakable>.withTag(mapmeatballmonument)*8,
+scripts.PuzzleUtil.addPuzzleShaped("meatballmonument5",<compactmachines3:wallbreakable>.withTag(mapmeatballmonument)*8,
 [[<compactmachines3:wallbreakable>, <compactmachines3:wallbreakable>, <compactmachines3:wallbreakable>],
 [<compactmachines3:wallbreakable>, <contenttweaker:addiction_cookie>, <compactmachines3:wallbreakable>],
 [<compactmachines3:wallbreakable>, <compactmachines3:wallbreakable>, <compactmachines3:wallbreakable>]]);
 
-recipes.addHiddenShaped("meatballmonument6",<chisel:futura:2>.withTag(mapmeatballmonument)*8,
+scripts.PuzzleUtil.addPuzzleShaped("meatballmonument6",<chisel:futura:2>.withTag(mapmeatballmonument)*8,
 [[<chisel:futura:2>, <chisel:futura:2>, <chisel:futura:2>],
 [<chisel:futura:2>, <contenttweaker:cat_ears>, <chisel:futura:2>],
 [<chisel:futura:2>, <chisel:futura:2>, <chisel:futura:2>]]);
 
-recipes.addHiddenShaped("meatballmonument7",<chisel:valentines:9>.withTag(mapmeatballmonument)*8,
+scripts.PuzzleUtil.addPuzzleShaped("meatballmonument7",<chisel:valentines:9>.withTag(mapmeatballmonument)*8,
 [[<chisel:valentines:9>, <chisel:valentines:9>, <chisel:valentines:9>],
 [<chisel:valentines:9>, <contenttweaker:italian_flag>, <chisel:valentines:9>],
 [<chisel:valentines:9>, <chisel:valentines:9>, <chisel:valentines:9>]]);
 
-recipes.addHiddenShaped("meatballmonument8",<chisel:glowstone1:12>.withTag(mapmeatballmonument)*8,
+scripts.PuzzleUtil.addPuzzleShaped("meatballmonument8",<chisel:glowstone1:12>.withTag(mapmeatballmonument)*8,
 [[<chisel:glowstone1:12>, <chisel:glowstone1:12>, <chisel:glowstone1:12>],
 [<chisel:glowstone1:12>, <contenttweaker:sausage_sandwich>, <chisel:glowstone1:12>],
 [<chisel:glowstone1:12>, <chisel:glowstone1:12>, <chisel:glowstone1:12>]]);
 
-recipes.addHiddenShaped("meatballmonument9",<unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0:4>.withTag(mapmeatballmonument)*8,
+scripts.PuzzleUtil.addPuzzleShaped("meatballmonument9",<unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0:4>.withTag(mapmeatballmonument)*8,
 [[<unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0:4>, <unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0:4>, <unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0:4>],
 [<unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0:4>, <contenttweaker:kitty_smile>, <unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0:4>],
 [<unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0:4>, <unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0:4>, <unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0:4>]]);
@@ -957,7 +957,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:essence_of_the_myt
 
 // chapter 8 puzzles
 
-recipes.addHiddenShapeless("warrenblindfoldpzzl",<contenttweaker:warren_blindfold>,
+scripts.PuzzleUtil.addPuzzleShapeless("warrenblindfoldpzzl",<contenttweaker:warren_blindfold>,
 [<iceandfire:blindfold>,
 <contenttweaker:essence_of_the_mythic_shells>,
 <contenttweaker:essence_of_the_mythic_shells>,

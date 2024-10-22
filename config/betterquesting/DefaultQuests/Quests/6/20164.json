@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20163
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCreates potions and infusion sticks using mana from a spreader.\n\nJEI shows the various recipes made.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:brewery"
+      },
+      "name:8": "Botanical Brewery"
+    }
+  },
+  "questID:3": 20164,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:brewery"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

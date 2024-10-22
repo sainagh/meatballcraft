@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    2296
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWorld Thread is the base crafting item for Dimensional Doors, and it can be found in chests in the trippy warren worlds that can be accessed through doors found in many of the dimensions in the pack.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "dimdoors:world_thread"
+      },
+      "name:8": "World Thread"
+    }
+  },
+  "questID:3": 2280,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "dimdoors:world_thread"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

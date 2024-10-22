@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "I guess I\u0027m going down the mythic rabbithole...nothing wrong with that...yet...\nAnd the links keep forming! Nice! The more interactions between the branches of magic I can isolate, the more info I can gather to construct a hierarchy of magical forces.\nIt seems natural that some powers depend on others, same as gravity being an emergen property of sufficiently complex matter.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularmachinery:itemblueprint",
+        "tag:10": {
+          "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier5"
+        }
+      },
+      "name:8": "Nethengeic Mythical Resources"
+    }
+  },
+  "questID:3": 77,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:bluefire_stone"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:crimson_quartz"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dark_mithrillium_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier5"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

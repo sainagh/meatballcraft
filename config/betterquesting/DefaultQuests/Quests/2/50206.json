@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    50177
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Endergenic generators receive \u0027endergenic\u0027 pearls from a Pearl Injector, or an adjacent generator.\nReceiving a pearl produces a burst of energy, but keeping a pearl consumes energy, so timing is everything!\nEach generator will pass the endergenic hot potato to the next in line when receiving a redstone pulse.\nWith the right redstone timing and the right generator train, a lot of RF can be made.\nor you can be boring and go on youtube and look up a tutorial...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:endergenic"
+      },
+      "name:8": "Endergenic Generator (Good - Laggy)"
+    }
+  },
+  "questID:3": 50206,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:endergenic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

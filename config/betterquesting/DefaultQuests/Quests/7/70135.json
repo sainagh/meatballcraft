@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70121
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Obtained through the Void Resource Miner.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:mica"
+      },
+      "name:8": "Mica"
+    }
+  },
+  "questID:3": 70135,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:mica"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

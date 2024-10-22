@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70119
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found between Y\u003d10 and Y\u003d65.\n\n- Written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:iron_ingot"
+      },
+      "name:8": "Iron Ingot"
+    }
+  },
+  "questID:3": 70166,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

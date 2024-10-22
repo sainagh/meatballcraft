@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    20255
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse a gateway key.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "abyssalcraft:fusedabyssalsand"
+      },
+      "name:8": "Abyssal Wasteland"
+    }
+  },
+  "questID:3": 20269,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 50,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Abyssal Wasteland",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

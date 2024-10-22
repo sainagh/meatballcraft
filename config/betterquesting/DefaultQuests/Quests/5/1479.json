@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    1439
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:aconitum_seeds"
+      },
+      "name:8": "Bewitchment Seeds"
+    }
+  },
+  "questID:3": 1479,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:aconitum_seeds"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:belladonna_seeds"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:garlic_seeds"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:hellebore_seeds"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:mandrake_seeds"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:white_sage_seeds"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:wormwood_seeds"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

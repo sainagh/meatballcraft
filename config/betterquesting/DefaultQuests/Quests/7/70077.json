@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found between Y\u003d5 and Y\u003d30.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 130,
+        "id:8": "thermalfoundation:material"
+      },
+      "name:8": "Silver Ingot"
+    }
+  },
+  "questID:3": 70077,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 130,
+          "id:8": "thermalfoundation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

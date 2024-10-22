@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    340
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The creepers, these sad creatures of destruction, are yet another product of recursion. \nIt seems the ability to use this power was given to the higher up of Creeponia, who I know to still be an artificially created being. So recursion works on artificial life too. \nThe more I study new powers from my powerful enemies, the more it seems to relate back to recursion. To an extent, I am gaining more independence over my own recursive powers, could it be that I may achieve similar abilities too. Not that I want to, but one has to ask. Is this a result of a single power, or are there other factors at play I cannot imagine? Would I be able to turn creatures created through essence into recursive beings? \nWhat makes a creature alive? Back on Earth, we never considered essence animals to be truly alive, they lached the \u0027will\u0027 real animals have. And now I am confronted with artificial life that\u0027s even capable of magic.\nAnd this all gets back to the nature of recursion, I really have to figure out how it works!\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:creeponia_garnet"
+      },
+      "name:8": "Creeponia Garnet"
+    }
+  },
+  "questID:3": 341,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:creeponia_garnet"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:creeponia_garnet"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:creeponia_wormhole"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

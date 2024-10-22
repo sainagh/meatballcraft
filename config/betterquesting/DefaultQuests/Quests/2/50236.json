@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    50237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Yup! More unstable radiocative atoms go brrr, and no particle accelerators needed!\n(The first atom of Curium was made in an accelerator)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:fuel_curium"
+      },
+      "name:8": "LECm-243 Fuel"
+    }
+  },
+  "questID:3": 50236,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:fuel_curium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

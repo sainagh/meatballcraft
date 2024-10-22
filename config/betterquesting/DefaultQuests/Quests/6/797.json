@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    787
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oIf you run around it, it generates mana",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:specialflower",
+        "tag:10": {
+          "type:8": "tinkle"
+        }
+      },
+      "name:8": "Tinkle Flower (OK)"
+    }
+  },
+  "questID:3": 797,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:specialflower",
+          "tag:10": {
+            "type:8": "tinkle"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

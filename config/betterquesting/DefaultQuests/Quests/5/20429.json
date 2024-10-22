@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    20420
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Cursed earth, coming from withers, in absence of light, creates monsters at incredibly fast rates.\nA grinder kills monsters making essence as a byproduct, and its range can be upgraded using addons, depending on the size of the cursed earth parch.\nThis is a technique earth scientist developed after global warming almost wiped out humanity.\nEssence is essentially undifferentiated stem cellular matter, produced from decaying corpses.\nStem cells can be made into anything... Well, almost anything...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "industrialforegoing:mob_relocator"
+      },
+      "name:8": "Your First Mob Farm"
+    }
+  },
+  "questID:3": 20429,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:mob_relocator"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "extrautils2:ingredients"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

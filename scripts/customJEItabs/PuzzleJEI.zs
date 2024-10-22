@@ -313,3 +313,23 @@ val puzzleterraformassiflora = JEI.createJeiRecipe("meatball_puzzle");
 puzzleterraformassiflora.addInput(<contenttweaker:terraformassiflora>);
 puzzleterraformassiflora.setOutputs([<contenttweaker:crown_of_the_energy_queen>]);
 puzzleterraformassiflora.build();
+
+val puzzlearbitertomb = JEI.createJeiRecipe("meatball_puzzle");
+puzzlearbitertomb.addInput(<contenttweaker:star_of_betrayal>);
+puzzlearbitertomb.setOutputs([<contenttweaker:entropic_channeling_stone>]);
+puzzlearbitertomb.build();
+
+val puzzleabominationpower = JEI.createJeiRecipe("meatball_puzzle");
+puzzleabominationpower.addInput(<contenttweaker:touch_of_the_arbiter>);
+puzzleabominationpower.setOutputs([<contenttweaker:abomination_of_true_power>]);
+puzzleabominationpower.build();
+
+val puzzlememrestor = JEI.createJeiRecipe("meatball_puzzle");
+puzzlememrestor.addInput(<contenttweaker:eldunari>);
+puzzlememrestor.setOutputs([<contenttweaker:memory_restoration_ritual>]);
+puzzlememrestor.build();
+
+val puzzleruneslib = JEI.createJeiRecipe("meatball_puzzle");
+puzzleruneslib.addInput(<contenttweaker:memory_restoration_ritual>);
+puzzleruneslib.setOutputs([<contenttweaker:runes_of_liberation>]);
+puzzleruneslib.build();

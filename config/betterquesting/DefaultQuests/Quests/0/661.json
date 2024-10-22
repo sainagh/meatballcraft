@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    536
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This changes everything! If recursive matter can come from animals and people, it is truly possible that many of the strange materials and metals I have encountered so far to be artificial.\nIs that why dimensional shards are rare? Is it because someone on Terra created them. The dragons on the outer Ender islands use the power of chaos in ways that are similar to the chickens on Finem. Is it possible that they are related?\nAnd there is also the Arbiter too; most of the architecture tied to him uses fluix and skystone, which also appears to have originated on the End islands. Is there any symbolism there? Or something more?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:endergenic_sediment"
+      },
+      "name:8": "Sedimenting till the end!"
+    }
+  },
+  "questID:3": 661,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "contenttweaker:endergenic_sediment"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:endergenic_sediment"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

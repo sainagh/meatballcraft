@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20534
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Seed oil, honey, and a few other things...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forestry:squeezer"
+      },
+      "name:8": "Squeezer"
+    }
+  },
+  "questID:3": 20587,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forestry:squeezer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

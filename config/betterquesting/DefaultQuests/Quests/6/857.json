@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    20102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis ritual prevents mobs from jumping.\n\nIf raw will is present the ritual will work on players too.\n\nif steadfast will is present the ritual will work on bosses too.\n\nCorrosive will disables gravity.\n\nVengeful and corrosive will combined will turn the ritual into an aura of levitation.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stone_of_the_wizard"
+      },
+      "name:8": "Grounding"
+    }
+  },
+  "questID:3": 857,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

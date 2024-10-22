@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20394
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oVoid: 250 + void excess (makes flux)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:jar_void"
+      },
+      "name:8": "Void Jar"
+    }
+  },
+  "questID:3": 20395,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:jar_void"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

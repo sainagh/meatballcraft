@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    2280
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oIf you break a Dimensional Door inside a pocket dimension by mistake, you can use this to get out.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "dimdoors:oak_dimensional_door"
+      },
+      "name:8": "I\u0027m Stuck"
+    }
+  },
+  "questID:3": 2283,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "dimdoors:oak_dimensional_door"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

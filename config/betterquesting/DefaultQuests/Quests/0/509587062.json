@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1343888287
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:fluix_soul_fabrial"
+      },
+      "name:8": "Regained Trust"
+    }
+  },
+  "questID:3": 509587062,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:fluix_soul_fabrial"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:touch_of_the_arbiter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

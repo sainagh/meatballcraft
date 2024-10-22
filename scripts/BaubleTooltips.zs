@@ -66,9 +66,9 @@
 <botania:lokiring>.addTooltip(format.red("Allows user to place blocks in many places at once, following a pattern set by shift right clicking with an empty hand"));
 <botania:magnetringgreater>.addTooltip(format.red("Attracts items from a greater range"));
 <botania:speedupbelt>.addTooltip(format.red("Provides an escalating speed boost the longer a user walks without stopping"));
-<botania:baublebox>.addTooltip(format.red("Enables dashing to the left and right with a small cooldown"));
+<botania:baublebox>.addTooltip(format.red("Can store baubles"));
 <botania:dodgering>.addTooltip(format.red("Makes user invisible using mana"));
-<botania:invisibilitycloak>.addTooltip(format.red("Enables double jumping"));
+<botania:invisibilitycloak>.addTooltip(format.red("Makes you invisible"));
 <botania:cloudpendant>.addTooltip(format.red("Enables triple jumping"));
 <botania:supercloudpendant>.addTooltip(format.red("Highlights nearby mobs"));
 <botania:thirdeye>.addTooltip(format.red("Any explosions nearby will not damage blocks"));
@@ -215,9 +215,6 @@
 <projecte:item.pe_gem_density>.addTooltip(format.red("Absorbs items with EMC and converts to target item"));
 <projecte:item.pe_void_ring>.addTooltip(format.red("Combines Black Hole Band and Gem of Eternal Density"));
 <projecte:item.pe_arcana_ring>.addTooltip(format.red("Combines Zero Ring, Ignition Ring, Harvest Goddes Band and Swiftwolfs Rending Gale"));
-<projecte:item.pe_arcana_ring>.addTooltip(format.red("Combines Zero Ring, Ignition Ring, Harvest Goddes Band and Swiftwolfs Rending Gale"));
-<projecte:item.pe_arcana_ring>.addTooltip(format.red("Combines Zero Ring, Ignition Ring, Harvest Goddes Band and Swiftwolfs Rending Gale"));
-<projecte:item.pe_arcana_ring>.addTooltip(format.red("Combines Zero Ring, Ignition Ring, Harvest Goddes Band and Swiftwolfs Rending Gale"));
 <projecte:item.pe_body_stone>.addTooltip(format.red("Refills hunger every half second"));
 <projecte:item.pe_soul_stone>.addTooltip(format.red("Heals heart of damag every second"));
 <projecte:item.pe_life_stone>.addTooltip(format.red("Combines Body and Soul Stones"));
@@ -245,8 +242,6 @@
 <thaumcraft:amulet_vis:0>.addTooltip(format.red("Stores 25 base vis for recharging items that require Vis"));
 <thaumcraft:amulet_vis:1>.addTooltip(format.red("Stores 100 base vis for recharging items that require Vis"));
 <thaumcraft:verdant_charm>.addTooltip(format.red("Removes poison, wither, and taint poison for Vis"));
-<thaumcraft:verdant_charm>.addTooltip(format.red("Same as normal, but heals 1 heart per second for 5 vis"));
-<thaumcraft:verdant_charm>.addTooltip(format.red("Same as normal, but restores breath underwater and feeds user for 5 vis"));
 <thaumcraft:curiosity_band>.addTooltip(format.red("Experience orbs absorbed will be converted into random research points"));
 <thaumcraft:voidseer_charm>.addTooltip(format.red("Provides Vis discount proportional to permanent warp, up to a 25% discount"));
 <thaumcraft:cloud_ring>.addTooltip(format.red("Enables double jumping and fall damage is reduced by 75%"));

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1226
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe fluid terminal lets you access all fluids stored in your AE2 storage system.\n\nUse buckets and other fluid storage to extract fluids from the terminal!\n\nWARNING: if you plan to manage fluids with AE2, you should use a subnet to store and move fluids, and prevent access from the main network. This will reduce lag by a lot!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 520,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Fluid Terminal"
+    }
+  },
+  "questID:3": 90177,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 520,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

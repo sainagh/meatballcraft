@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    20471
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oVoid miners are multiblocks that automatically generate resources at random.\n\nVoid ore miners are very good at collecting all minerals. \n\nThe higher the tier, the better the drops, and you will unlock additional resources!\n\nIt is a good idea to start levelling up your void ore miners ASAP!\n\n§fLet\u0027s make things more environmental (and lag) friendly!\nAnd I can make litherite too!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:void_ore_miner_cont_1"
+      },
+      "name:8": "Void Ore Miner Tier 1"
+    }
+  },
+  "questID:3": 20475,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:tool_multiblock_assembler"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:void_ore_miner_cont_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
