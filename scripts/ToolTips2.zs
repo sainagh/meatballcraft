@@ -1,110 +1,110 @@
 import crafttweaker.item.IItemCondition;
 
 
-<contenttweaker:alien_material_manual>.addTooltip(format.red("The world may become a little harder..."));
+<contenttweaker:alien_material_manual>.addTooltip(format.red("世界或许会变得有些艰难..."));
 
-<contenttweaker:primordial_star>.addTooltip(format.red("Texture by Zuckerburger, thanks!"));
+<contenttweaker:primordial_star>.addTooltip(format.red("材质由Zuckerburger制作，感谢！"));
 
-<contenttweaker:lore_of_the_meatball_man>.addTooltip(format.red("This will activate a (reversible) hard mode"));
+<contenttweaker:lore_of_the_meatball_man>.addTooltip(format.red("这将激活困难模式（可逆的）"));
 
-<contenttweaker:lore_of_the_meatball_man>.addTooltip(format.red("Texture by Zuckerburger, thanks!"));
+<contenttweaker:lore_of_the_meatball_man>.addTooltip(format.red("材质由Zuckerburger制作，感谢！"));
 
-<contenttweaker:controller_manual>.addTooltip(format.red("The world may become a little harder..."));
+<contenttweaker:controller_manual>.addTooltip(format.red("世界或许会变得有些艰难..."));
 
-<contenttweaker:bloodmaster_tome>.addTooltip(format.red("The world may become a little harder..."));
+<contenttweaker:bloodmaster_tome>.addTooltip(format.red("世界或许会变得有些艰难..."));
 
-<contenttweaker:singularity_master>.addTooltip(format.red("The world may become a little harder..."));
+<contenttweaker:singularity_master>.addTooltip(format.red("世界或许会变得有些艰难..."));
 
-<contenttweaker:draconic_key>.addTooltip(format.red("The world may become a little harder..."));
+<contenttweaker:draconic_key>.addTooltip(format.red("世界或许会变得有些艰难..."));
 
-<contenttweaker:minor_vethea_binding>.addTooltip(format.red("The world may become a little harder..."));
+<contenttweaker:minor_vethea_binding>.addTooltip(format.red("世界或许会变得有些艰难..."));
 
-<contenttweaker:ancient_elven_knowledge>.addTooltip(format.red("The world may become a little harder..."));
+<contenttweaker:ancient_elven_knowledge>.addTooltip(format.red("世界或许会变得有些艰难..."));
 
-<modularmachinery:blockcontroller>.addTooltip(format.red("Requires the Controller Manual to become craftable"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("Cannot be crafted using AE2, use a crafter instead (RECURSIVE RECIPE ONLY)"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("IMPORTANT: you should make the specific controller for each machine using the blueprint recipe"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("The resulting controllers can be auto-built if right clicked with a stick"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("This controller block will work for all machines, but it will make things way more laggy"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("WARNING: do not place modular machines on chunk boundaries"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("WARNING: machines will void inputs if they are not getting enough RF/t"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("A huge thanks to Kasumi_Nova & Domi for working on and testing Modular Machinery Community Edition!"));
-
-
-<contenttweaker:nethersky_amber>.addTooltip(format.red("Requires the Bloodmaster Tome to become craftable"));
-
-<extendedcrafting:table_basic>.addTooltip(format.red("Requires the Alien Material Manual to become craftable"));
-
-<contenttweaker:realmstone>.addTooltip(format.red("Requires the Singularity Master Manual to become craftable"));
-
-<divinerpg:twilight_clock>.addTooltip(format.red("Requires the Singularity Master Manual to become craftable"));
-
-<draconicevolution:fusion_crafting_core>.addTooltip(format.red("Requires the Draconic Key to become craftable"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("使用控制器手册后解锁制作配方"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("无法使用AE2进行合成，请改用自动合成机（仅限复制配方）"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("重要提示：你需要使用机械蓝图为每台机器制作专属的控制器"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("使用木棍右键控制器可以自动搭建"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("这个控制器适用于所有机器，但会大幅增加延迟"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("警告：请勿将模块化机器放置在区块边界上"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("警告：如果机器获取的RF/t不足，将会丢失输入物品"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("非常感谢Kasumi_Nova和Domi对模块化机械社区版的开发和测试！"));
 
 
-<avaritia:resource:0>.addTooltip(format.red("Requires Ancient Elven knowledge to become craftable"));
+<contenttweaker:nethersky_amber>.addTooltip(format.red("使用血主秘典解锁制作配方"));
 
-<contenttweaker:brightsteel_chest>.addTooltip(format.red("Requires Ancient Elven knowledge to become craftable"));
+<extendedcrafting:table_basic>.addTooltip(format.red("使用异星材料手册解锁制作配方"));
 
-<contenttweaker:brightsteel_feet>.addTooltip(format.red("Requires Ancient Elven knowledge to become craftable"));
+<contenttweaker:realmstone>.addTooltip(format.red("使用奇点大师解锁制作配方"));
 
-<contenttweaker:brightsteel_head>.addTooltip(format.red("Requires Ancient Elven knowledge to become craftable"));
+<divinerpg:twilight_clock>.addTooltip(format.red("使用奇点大师解锁制作配方"));
 
-<contenttweaker:brightsteel_legs>.addTooltip(format.red("Requires Ancient Elven knowledge to become craftable"));
+<draconicevolution:fusion_crafting_core>.addTooltip(format.red("使用龙之钥解锁制作配方"));
 
-<contenttweaker:corrosive_crystal_cluster>.addTooltip(format.green("Reusable"));
-<contenttweaker:destructive_crystal_cluster>.addTooltip(format.green("Reusable"));
-<contenttweaker:steadfast_crystal_cluster>.addTooltip(format.green("Reusable"));
-<contenttweaker:demonic_crystal_cluster>.addTooltip(format.green("Reusable"));
-<contenttweaker:vengeful_crystal_cluster>.addTooltip(format.green("Reusable"));
 
-<aoa3:bejewelled_lotto_banner>.addTooltip(format.green("Reusable"));
+<avaritia:resource:0>.addTooltip(format.red("使用远古精灵知识解锁制作配方"));
 
-<contenttweaker:recursion_fear>.addTooltip(format.red("Found in the Towerwood Fortress on Pauram - reusable"));
-<contenttweaker:recursion_fear>.addTooltip(format.green("Reusable"));
+<contenttweaker:brightsteel_chest>.addTooltip(format.red("使用远古精灵知识解锁制作配方"));
 
-<contenttweaker:recursion_solitude>.addTooltip(format.red("Found in the Platinum Gyro on Zoi - reusable"));
-<contenttweaker:recursion_solitude>.addTooltip(format.green("Reusable"));
+<contenttweaker:brightsteel_feet>.addTooltip(format.red("使用远古精灵知识解锁制作配方"));
 
-<contenttweaker:recursion_darkness>.addTooltip(format.red("Found in the Eldritch Pyramid on Akathartos"));
-<contenttweaker:recursion_darkness>.addTooltip(format.green("Reusable"));
+<contenttweaker:brightsteel_head>.addTooltip(format.red("使用远古精灵知识解锁制作配方"));
 
-<contenttweaker:recursion_helplessness>.addTooltip(format.red("Found in the Menger Monument on Nero"));
-<contenttweaker:recursion_helplessness>.addTooltip(format.green("Reusable"));
+<contenttweaker:brightsteel_legs>.addTooltip(format.red("使用远古精灵知识解锁制作配方"));
 
-<contenttweaker:unidentified_body>.addTooltip(format.red("Found in the proxima belt"));
+<contenttweaker:corrosive_crystal_cluster>.addTooltip(format.green("可重复使用"));
+<contenttweaker:destructive_crystal_cluster>.addTooltip(format.green("可重复使用"));
+<contenttweaker:steadfast_crystal_cluster>.addTooltip(format.green("可重复使用"));
+<contenttweaker:demonic_crystal_cluster>.addTooltip(format.green("可重复使用"));
+<contenttweaker:vengeful_crystal_cluster>.addTooltip(format.green("可重复使用"));
 
-<contenttweaker:white_fuel>.addTooltip(format.red("Found on Alkemia"));
+<aoa3:bejewelled_lotto_banner>.addTooltip(format.green("可重复使用"));
 
-<materialpart:sednanite:ingot>.addTooltip(format.red("Found on Sedna, available at the end of chapter 3 - Craftable in the plasmatic condenser"));
+<contenttweaker:recursion_fear>.addTooltip(format.red("在惧惮界的塔木要塞中找到 - 可重复使用"));
+<contenttweaker:recursion_fear>.addTooltip(format.green("可重复使用"));
 
-<materialpart:rhenium:ingot>.addTooltip(format.red("Found on Rhenia"));
+<contenttweaker:recursion_solitude>.addTooltip(format.red("在孤寂界的铂回转仪中找到 - 可重复使用"));
+<contenttweaker:recursion_solitude>.addTooltip(format.green("可重复使用"));
 
-<materialpart:myrmitite:ingot>.addTooltip(format.red("Found on Myrmex - Craftable in the plasmatic condenser"));
+<contenttweaker:recursion_darkness>.addTooltip(format.red("在晦暗界的邪术金字塔中找到"));
+<contenttweaker:recursion_darkness>.addTooltip(format.green("可重复使用"));
 
-<materialpart:ogerite:ingot>.addTooltip(format.red("Found on Pixonia - Craftable in the plasmatic condenser"));
+<contenttweaker:recursion_helplessness>.addTooltip(format.red("在茕踽界的门格地标遗迹中找到"));
+<contenttweaker:recursion_helplessness>.addTooltip(format.green("可重复使用"));
 
-<contenttweaker:sedna_artifact>.addTooltip(format.red("Used in the Warp controller"));
+<contenttweaker:unidentified_body>.addTooltip(format.red("在比邻星带上找到"));
 
-<contenttweaker:rhenia_artifact>.addTooltip(format.red("Used in the Warp controller"));
+<contenttweaker:white_fuel>.addTooltip(format.red("在炼金界中找到"));
 
-<contenttweaker:myrmex_artifact>.addTooltip(format.red("Used in the Warp controller"));
+<materialpart:sednanite:ingot>.addTooltip(format.red("在赛德娜中找到，第三章末可获得 - 可在等离子聚合器中制作"));
 
-<contenttweaker:pixonia_artifact>.addTooltip(format.red("Used in the Warp controller"));
+<materialpart:rhenium:ingot>.addTooltip(format.red("在铼界中找到"));
 
-<contenttweaker:proxima_artifact>.addTooltip(format.red("Used in the Warp controller"));
+<materialpart:myrmitite:ingot>.addTooltip(format.red("在恐蚁界中找到 - 可在等离子聚合器中制作"));
 
-<contenttweaker:dynatos_artifact>.addTooltip(format.red("Used in the Warp controller"));
+<materialpart:ogerite:ingot>.addTooltip(format.red("在光精界中找到 - 可在等离子聚合器中制作"));
 
-<contenttweaker:alkemia_artifact>.addTooltip(format.red("Used in the Warp controller"));
+<contenttweaker:sedna_artifact>.addTooltip(format.red("用于迁跃控制器"));
 
-<minecraft:elytra>.addTooltip(format.red("Found in the Coke Library in the Overworld"));
+<contenttweaker:rhenia_artifact>.addTooltip(format.red("用于迁跃控制器"));
 
-<contenttweaker:ayeraco_heart>.addTooltip(format.red("Found in the Shulker Altar in the End"));
+<contenttweaker:myrmex_artifact>.addTooltip(format.red("用于迁跃控制器"));
 
-<minecraft:totem_of_undying>.addTooltip(format.red("Evoker spawn eggs are craftable"));
+<contenttweaker:pixonia_artifact>.addTooltip(format.red("用于迁跃控制器"));
 
-<thaumcraft:curio:6>.addTooltip(format.red("Crimson Portals can be found in the overworld"));
+<contenttweaker:proxima_artifact>.addTooltip(format.red("用于迁跃控制器"));
+
+<contenttweaker:dynatos_artifact>.addTooltip(format.red("用于迁跃控制器"));
+
+<contenttweaker:alkemia_artifact>.addTooltip(format.red("用于迁跃控制器"));
+
+<minecraft:elytra>.addTooltip(format.red("在主世界的焦炭图书馆中找到"));
+
+<contenttweaker:ayeraco_heart>.addTooltip(format.red("在末地的潜影贝祭坛中找到"));
+
+<minecraft:totem_of_undying>.addTooltip(format.red("可制作唤魔者刷怪蛋"));
+
+<thaumcraft:curio:6>.addTooltip(format.red("血腥传送门可在主世界找到"));
 
 <thermalfoundation:storage:8>.addTooltip(format.red("Found in the Elemental Chamber in the Nether"));
 
