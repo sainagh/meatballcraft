@@ -3214,7 +3214,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:asgard_furnace_brick>.addTooltip(format.red("Obtained from the aesir rift"));
 
-<tce:tce_compressed_torch_lvl1>.addTooltip(format.red("Found in apichisi"));
+<tce:tce_compressed_torch_lvl1>.addTooltip(format.red("发现于附魔山脉"));
 
 <ore:ingotMithrillium>.addTooltip(format.red("Unlocking this research is quite hard, better to make a really scary vishroom"));
 
@@ -3449,54 +3449,54 @@ import crafttweaker.item.IItemCondition;
 
 <aoa3:explosive_idol>.addTooltip(format.red("Found in the baron portal structure in the nether"));
 
-<contenttweaker:inert_spatial_phaser>.addTooltip(format.red("Found on rhenia"));
-<contenttweaker:inert_spatial_phaser>.addTooltip(format.red("Combine with the right bricks (4), the eden will guide you"));
-<contenttweaker:spatial_phaser>.addTooltip(format.red("Combine the inert spatial phaser with the right bricks (4), the eden will guide you"));
+<contenttweaker:inert_spatial_phaser>.addTooltip(format.red("发现于铼界"));
+<contenttweaker:inert_spatial_phaser>.addTooltip(format.red("与正确的砖块（4个）结合，伊甸将指引你"));
+<contenttweaker:spatial_phaser>.addTooltip(format.red("将惰性空间移相器与正确的砖块（4个）结合，伊甸将指引你"));
 
-<extrabotany:allforone>.addTooltip(format.red("All baubles in a bauble case will count as if they were worn"));
+<extrabotany:allforone>.addTooltip(format.red("使饰品盒内的所有饰品均能起效"));
 
-<extrabotany:camera>.addTooltip(format.red("Use the paparazzi camera to be able to use this"));
-<extrabotany:camera>.addTooltip(format.red("Paralizes the mobs in focus"));
+<extrabotany:camera>.addTooltip(format.red("使用狗仔队相机后才能使用该物品"));
+<extrabotany:camera>.addTooltip(format.red("麻痹视野内的生物"));
 
-<extrabotany:silenteternity>.addTooltip(format.red("Will make you regenerate extremely fast while standing still"));
+<extrabotany:silenteternity>.addTooltip(format.red("站定不动时以极快速度恢复生命值"));
 
-<extrabotany:excaliber>.addTooltip(format.red("Left click in the air to shoot beams that deal chaos damage"));
+<extrabotany:excaliber>.addTooltip(format.red("对空气左击发射造成混沌伤害的光束"));
 
-<extrabotany:firstfractal>.addTooltip(format.red("Shoots swords at enemies after they are hit"));
+<extrabotany:firstfractal>.addTooltip(format.red("击中敌人后召唤剑影追击"));
 
-<extrabotany:failnaught>.addTooltip(format.red("Does piercing damage"));
+<extrabotany:failnaught>.addTooltip(format.red("造成穿透伤害"));
 
-<extrabotany:buddhistrelics>.addTooltip(format.red("Use the paparazzi camera to be able to use this"));
-<extrabotany:buddhistrelics>.addTooltip(format.red("Shift right click to turn it into other relics"));
+<extrabotany:buddhistrelics>.addTooltip(format.red("使用狗仔队相机后才能使用该物品"));
+<extrabotany:buddhistrelics>.addTooltip(format.red("Shift右击将其转变为其他遗物"));
 
-<extrabotany:achilleshield>.addTooltip(format.red("Works even when not right clicking, gives a high thorns effect while holding right click"));
+<extrabotany:achilleshield>.addTooltip(format.red("不需要按住右键也能防御，按住右键时给予强效荆棘效果"));
 
-<botania:manaring>.addTooltip(format.red("Mana battery"));
-<botania:manaringgreater>.addTooltip(format.red("Mana battery"));
-<extrabotany:mastermanaring>.addTooltip(format.red("Mana battery"));
+<botania:manaring>.addTooltip(format.red("魔力电池"));
+<botania:manaringgreater>.addTooltip(format.red("魔力电池"));
+<extrabotany:mastermanaring>.addTooltip(format.red("魔力电池"));
 
-<extrabotany:jingweifeather>.addTooltip(format.red("Extra damage when attacking with bare hands"));
+<extrabotany:jingweifeather>.addTooltip(format.red("空手攻击时造成额外伤害"));
 
-<contenttweaker:phasing_gem>.addTooltip(format.red("Obtained from the spatial phaser"));
-<contenttweaker:phasing_gem>.addTooltip(format.red("WARNING: use stellar armor without modules to super enchant it"));
+<contenttweaker:phasing_gem>.addTooltip(format.red("通过空间移相器获得"));
+<contenttweaker:phasing_gem>.addTooltip(format.red("警•告：使用未加装升级的恒星合金盔甲来为其施加超限附魔"));
 
-<divinerpg:korma_helmet>.addTooltip(format.red("Obtained from Lord Vatticus in the dungeon of arcana"));
-<divinerpg:korma_chestplate>.addTooltip(format.red("Obtained from Lord Vatticus in the dungeon of arcana"));
-<divinerpg:korma_leggings>.addTooltip(format.red("Obtained from Lord Vatticus in the dungeon of arcana"));
-<divinerpg:korma_boots>.addTooltip(format.red("Obtained from Lord Vatticus in the dungeon of arcana"));
+<divinerpg:korma_helmet>.addTooltip(format.red("与秘界地牢的瓦提库斯领主交易获得"));
+<divinerpg:korma_chestplate>.addTooltip(format.red("与秘界地牢的瓦提库斯领主交易获得"));
+<divinerpg:korma_leggings>.addTooltip(format.red("与秘界地牢的瓦提库斯领主交易获得"));
+<divinerpg:korma_boots>.addTooltip(format.red("与秘界地牢的瓦提库斯领主交易获得"));
 
-<divinerpg:vemos_helmet>.addTooltip(format.red("Obtained from the war general in the dungeon of arcana"));
-<divinerpg:vemos_chestplate>.addTooltip(format.red("Obtained from the war general in the dungeon of arcana"));
-<divinerpg:vemos_leggings>.addTooltip(format.red("Obtained from the war general in the dungeon of arcana"));
-<divinerpg:vemos_boots>.addTooltip(format.red("Obtained from the war general in the dungeon of arcana"));
+<divinerpg:vemos_helmet>.addTooltip(format.red("与秘界地牢的战争将军交易获得"));
+<divinerpg:vemos_chestplate>.addTooltip(format.red("与秘界地牢的战争将军交易获得"));
+<divinerpg:vemos_leggings>.addTooltip(format.red("与秘界地牢的战争将军交易获得"));
+<divinerpg:vemos_boots>.addTooltip(format.red("与秘界地牢的战争将军交易获得"));
 
-<divinerpg:santa_helmet>.addTooltip(format.red("Obtained from the traders in the iceika"));
-<divinerpg:santa_chestplate>.addTooltip(format.red("Obtained from the traders in the iceika"));
-<divinerpg:santa_leggings>.addTooltip(format.red("Obtained from the traders in the iceika"));
-<divinerpg:santa_boots>.addTooltip(format.red("Obtained from the traders in the iceika"));
+<divinerpg:santa_helmet>.addTooltip(format.red("与冰晶雪原的商人交易获得"));
+<divinerpg:santa_chestplate>.addTooltip(format.red("与冰晶雪原的商人交易获得"));
+<divinerpg:santa_leggings>.addTooltip(format.red("与冰晶雪原的商人交易获得"));
+<divinerpg:santa_boots>.addTooltip(format.red("与冰晶雪原的商人交易获得"));
 
-<rftools:redstone_transmitter_block>.addTooltip(format.red("The wireless transmitter and receiver from WRCBE are better!"));
-<rftools:redstone_receiver_block>.addTooltip(format.red("The wireless transmitter and receiver from WRCBE are better!"));
+<rftools:redstone_transmitter_block>.addTooltip(format.red("无线红石模组的无线传达器和接收器更好！"));
+<rftools:redstone_receiver_block>.addTooltip(format.red("无线红石模组的无线传达器和接收器更好！"));
 
 <environmentaltech:lightning_cont_1>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
 <environmentaltech:lightning_cont_2>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
@@ -3533,18 +3533,18 @@ import crafttweaker.item.IItemCondition;
 <environmentaltech:void_botanic_miner_cont_5>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
 <environmentaltech:void_botanic_miner_cont_6>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
 
-<contenttweaker:wrought_iron_shard>.addTooltip(format.red("Found in the Deeplands, bring a pickaxe, and good reflexes!"));
+<contenttweaker:wrought_iron_shard>.addTooltip(format.red("发现于深层维度，记得带上镐子，机灵点！"));
 
-<contenttweaker:deep_metamorphic_rock>.addTooltip(format.red("Combine the right stones (9) in the right configuration, in a crafting table, the deeplands will guide you"));
+<contenttweaker:deep_metamorphic_rock>.addTooltip(format.red("将正确的石头（9个）以正确的顺序组合，深层维度将指引你"));
 
-<projecte:item.pe_rm_hammer>.addTooltip(format.green("Reusable for wrought iron plate"));
+<projecte:item.pe_rm_hammer>.addTooltip(format.green("在锻铁板配方中可重复使用"));
 
-<aoa3:weapon_parts>.addTooltip(format.red("Found in Lelyetia"));
+<aoa3:weapon_parts>.addTooltip(format.red("发现于赫尔维蒂维度"));
 
-<contenttweaker:baron_gem>.addTooltip(format.red("Barathos will tell you how to make this"));
-<contenttweaker:baron_gem>.addTooltip(format.red("The inscriber name press is your automation friend ;)"));
+<contenttweaker:baron_gem>.addTooltip(format.red("爵士维度将告诉你如何制作该物品"));
+<contenttweaker:baron_gem>.addTooltip(format.red("名称压印模板可帮助实现该自动化 ;)"));
 
-<bloodmagic:component:22>.addTooltip(format.red("Can be automated by renaming items using the inscriber name press in an inscriber"));
+<bloodmagic:component:22>.addTooltip(format.red("可以通过压印器和名称压印模板重命名物品，从而实现自动化"));
 
 <aoa3:alchemy_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
 <aoa3:anima_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
@@ -3625,7 +3625,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:creepy_explosive>.addTooltip(format.red("右击获得免费曲奇"));
 <contenttweaker:embiggener>.addTooltip(format.red("右击获得免费曲奇"));
 
-<contenttweaker:parafrosynium>.addTooltip(format.red("Obtained from the Nero Callstone"));
+<contenttweaker:parafrosynium>.addTooltip(format.red("通过茕踽界召唤石获得"));
 
 <contenttweaker:crazed_marble>.addTooltip(format.red("To complete the Twelve Gates of Heaven, place twelve of the blue celestial collector crystals on top of each pillar"));
 <contenttweaker:darkstar_catalyst>.addTooltip(format.red("To complete the Twelve Gates of Heaven, place twelve of the blue celestial collector crystals on top of each pillar"));
@@ -3643,21 +3643,21 @@ import crafttweaker.item.IItemCondition;
 
 <astralsorcery:blockaltar:3>.addTooltip(format.red("You will be able to make more after making the modular machinery multiblock"));
 
-<deepmoblearning:data_model_slime>.addTooltip(format.red("Also works with magma cubes and nether slimes"));
+<deepmoblearning:data_model_slime>.addTooltip(format.red("岩浆怪和下界的史莱姆也计入击杀数量"));
 
 <contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("Use the modular controllers in these recipes to auto-build reactor interiors for each fuel!"));
 <contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("Thanks to cry for coming up with the idea!"));
 
 <modularmachinery:safe_fission_tbu_controller>.addTooltip(format.red("This will work well with a bunch of other fuels!"));
 
-<contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("Replace this with an active cooler from nuclearcraft!"));
-<contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("Use buffers on the reactor wall instead of casing, pipe your fluids in there!"));
+<contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("使用核电工艺模组的液冷器替换该方块！"));
+<contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("用缓存器替换反应堆外墙的外壳，对其输送流体！"));
 
-<contenttweaker:polar_catalyst>.addTooltip(format.red("Found in Apichisi"));
+<contenttweaker:polar_catalyst>.addTooltip(format.red("发现于附魔山脉"));
 
-<contenttweaker:stormlight_fragment>.addTooltip(format.red("From the stormborn callstone"));
+<contenttweaker:stormlight_fragment>.addTooltip(format.red("通过飓风之子召唤石着火"));
 
-<divinerpg:storm_sword>.addTooltip(format.red("Traded from Captain Merik in Arcana"));
+<divinerpg:storm_sword>.addTooltip(format.red("与秘界的梅里克首领交易获得"));
 
 
 
