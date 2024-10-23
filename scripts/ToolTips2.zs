@@ -2409,7 +2409,7 @@ import crafttweaker.item.IItemCondition;
 <aoa3:soul_banner>.addTooltip(format.red("与任意维度的亡灵使者交易获得"));
 <aoa3:creation_banner>.addTooltip(format.red("与任意维度的亡灵使者交易获得"));
 <aoa3:void_banner>.addTooltip(format.red("与主世界的亡灵使者交易获得"));
-<aoa3:lotto_banner>.addTooltip(format.red("From lotto totems, or mob drop"));
+<aoa3:lotto_banner>.addTooltip(format.red("通过乐透图腾或怪物掉落获得"));
 <aoa3:nether_banner>.addTooltip(format.red("与下界的亡灵使者交易获得"));
 <aoa3:utopian_banner>.addTooltip(format.red("与天堂维度的亡灵使者交易获得"));
 <aoa3:shadow_banner>.addTooltip(format.red("与深渊维度的亡灵使者交易获得"));
@@ -2543,9 +2543,9 @@ import crafttweaker.item.IItemCondition;
 <forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
 <forge:bucketfilled>.withTag({FluidName: "sewage", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
 
-<divinerpg:arcana_portal_frame>.addTooltip(format.red("Place in a shape like the end portal"));
-<divinerpg:arcana_portal_frame>.addTooltip(format.red("Make sure the dots are facing the middle"));
-<divinerpg:arcana_portal_frame>.addTooltip(format.red("The portal forms automatically if it's formed correctly!"));
+<divinerpg:arcana_portal_frame>.addTooltip(format.red("按末地传送门框架的形状摆放"));
+<divinerpg:arcana_portal_frame>.addTooltip(format.red("确保带点的一面朝内"));
+<divinerpg:arcana_portal_frame>.addTooltip(format.red("若摆放正确，传送门会自动成型！"));
 
 <mod_lavacow:bonesword>.addTooltip(format.red("通过棘手召唤石获得！"));
 <mod_lavacow:bonesword>.addTooltip(format.red("可施加超限附魔"));
@@ -2554,14 +2554,14 @@ import crafttweaker.item.IItemCondition;
 
 <xreliquary:magicbane>.addTooltip(format.red("So S T A B B Y"));
 
-<enderio:item_conduit_probe>.addTooltip(format.red("Don't click on compact machine walls! It will cause a crash!"));
+<enderio:item_conduit_probe>.addTooltip(format.red("不要对压缩空间壁右击！会导致崩溃！"));
 
-<contenttweaker:better_hellfire>.addTooltip(format.red("Use this, it's easier to store and to use in recipes!"));
+<contenttweaker:better_hellfire>.addTooltip(format.red("该物品更易存储，合成也更方便！"));
 
-<aether_legacy:invisibility_cape>.addTooltip(format.red("LordRaine thinks it's too powerful, I agree!"));
+<aether_legacy:invisibility_cape>.addTooltip(format.red("LordRaine觉得这太强了，我同意！"));
 
-<appliedenergistics2:energy_acceptor>.addTooltip(format.red("Thank you Tom for adding the JEI info boxes for AE2"));
-<appliedenergistics2:controller>.addTooltip(format.red("Thank you Tom for adding the JEI info boxes for AE2"));
+<appliedenergistics2:energy_acceptor>.addTooltip(format.red("感谢Tom为AE2添加的JEI信息框"));
+<appliedenergistics2:controller>.addTooltip(format.red("感谢Tom为AE2添加的JEI信息框"));
 
 <contenttweaker:right_sacred_sapling>.addTooltip(format.red("用神圣橡果！"));
 <contenttweaker:left_sacred_sapling>.addTooltip(format.red("用神圣橡果！"));
@@ -2579,75 +2579,75 @@ import crafttweaker.item.IItemCondition;
 <bloodmagic:blood_rune:10>.addTooltip(format.red("血之祭坛的组成部分"));
 
 
-<bloodmagic:blood_rune:9>.addTooltip(format.red("Increases the tick frequency for all altar operations, effect caps at 19"));
-<bloodmagic:blood_rune:7>.addTooltip(format.red("Increases the LP storage of the altar multiplicatively by 10%, for 15 runes or less it's better to use base runes of capacity"));
-<bloodmagic:blood_rune:1>.addTooltip(format.red("Increases altar speed by 20%"));
-<bloodmagic:blood_rune:3>.addTooltip(format.red("Increases LP made from each mob killed (both dagger and rituals)"));
-<bloodmagic:blood_rune:4>.addTooltip(format.red("Increases LP made from the sacrificial dagger"));
-<bloodmagic:blood_rune:6>.addTooltip(format.red("Increases the LP storage of the altar additively, 2k for each rune, for 16 runes or more it's better to use augmented capacity"));
-<bloodmagic:blood_rune:5>.addTooltip(format.red("Increases the speed at which LP can be piped in and out of the altar"));
-<bloodmagic:blood_rune:10>.addTooltip(format.red("Changes the functionality of the altar: LP is consumed to create charges, which are consumed for instant recipes"));
-<bloodmagic:blood_rune:8>.addTooltip(format.red("Increases the capacity of your LP network"));
+<bloodmagic:blood_rune:9>.addTooltip(format.red("减少祭坛所有操作的间隔，19个时达到效果上限"));
+<bloodmagic:blood_rune:7>.addTooltip(format.red("为血之祭坛增加10%的LP容量上限，乘法叠加，符文数量不大于15时，使用增容符文更好"));
+<bloodmagic:blood_rune:1>.addTooltip(format.red("祭坛速度提升20%"));
+<bloodmagic:blood_rune:3>.addTooltip(format.red("增加击杀生物时获得的LP量（包括献祭刀和仪式）"));
+<bloodmagic:blood_rune:4>.addTooltip(format.red("增加使用牺牲匕首时获得的LP量"));
+<bloodmagic:blood_rune:6>.addTooltip(format.red("每个符文为血之祭坛增加2000点的LP容量上限，超容符文数量大于等于16时，增加的容量多于增容符文"));
+<bloodmagic:blood_rune:5>.addTooltip(format.red("提升祭坛的LP传输速度"));
+<bloodmagic:blood_rune:10>.addTooltip(format.red("改变祭坛机制：消耗LC积攒充能，可用来立即完成合成"));
+<bloodmagic:blood_rune:8>.addTooltip(format.red("增加LP网络的容量"));
 
-<divinerpg:divine_shickaxe>.addTooltip(format.red("Thanks to Lulu for adding lore for weapons!"));
-<botania:thundersword>.addTooltip(format.red("Thanks to Lulu for adding lore for weapons!"));
+<divinerpg:divine_shickaxe>.addTooltip(format.red("感谢Lulu为武器添加的剧情！"));
+<botania:thundersword>.addTooltip(format.red("感谢Lulu为武器添加的剧情！"));
 
-<ore:ingotColdIron>.addTooltip(format.red("Drop iron into the fire made by bottled frostfire"));
+<ore:ingotColdIron>.addTooltip(format.red("将铁丢入瓶装霜火生成的火中"));
 
 <projecte:item.pe_philosophers_stone>.addTooltip(format.green("可重复使用"));
 
-<contenttweaker:terrasteel_crystal>.addTooltip(format.green("Reusable for making terrasteel"));
+<contenttweaker:terrasteel_crystal>.addTooltip(format.green("在泰拉钢配方中可重复使用"));
 
-<chisel:valentines:9>.addTooltip(format.red("With apologies to LordRaine"));
+<chisel:valentines:9>.addTooltip(format.red("向LordRaine致歉"));
 
-<divinerpg:snow_globe>.addTooltip(format.red("Gaven cares about quest order :)"));
+<divinerpg:snow_globe>.addTooltip(format.red("Gaven很在乎任务顺序 :)"));
 
-<nuclearcraft:part:0>.addTooltip(format.red("Kherune and Paronity had a disagreement"));
+<nuclearcraft:part:0>.addTooltip(format.red("Kherune和Paronity意见不同"));
 
-<contenttweaker:mk1_power_flower>.addTooltip(format.red("Replace the collectors and condensers with higher tiers for faster EMC"));
+<contenttweaker:mk1_power_flower>.addTooltip(format.red("更换更高等级的收集器和凝聚器以加快EMC产出速度"));
 
-<contenttweaker:realmstone>.addTooltip(format.red("Fox wanted to know how to make it"));
+<contenttweaker:realmstone>.addTooltip(format.red("Fox想知道怎么做这玩意"));
 
-<forestry:sapling:0>.withTag({Genome: {Chromosomes: [{UID1: "forestry.treeBirch", UID0: "forestry.treeBirch", Slot: 0 as byte}]}}).addTooltip(format.red("Place a birch sapling in a Portable Analyzer"));
+<forestry:sapling:0>.withTag({Genome: {Chromosomes: [{UID1: "forestry.treeBirch", UID0: "forestry.treeBirch", Slot: 0 as byte}]}}).addTooltip(format.red("用便携式多用分析仪分析白桦树苗"));
 
-<bigreactors:blockcyanite>.addTooltip(format.red("Kyanos needs more steam!"));
+<bigreactors:blockcyanite>.addTooltip(format.red("Kyanos需要更多蒸汽！"));
 
-<divinerpg:horde_horn>.addTooltip(format.red("Warning: bring a good bow!"));
+<divinerpg:horde_horn>.addTooltip(format.red("警告：用张好点的弓！"));
 
-<appliedenergistics2:material:60>.addTooltip(format.red("WARNING: this is quite buggy and it probably will not work!"));
+<appliedenergistics2:material:60>.addTooltip(format.red("警告：存在bug，有可能不起作用！"));
 
-<akashictome:tome>.addTooltip(format.red("WARNING: don't combine with Astral Tome, Thaumonomicon, Lexica botania, Necronomicon, Alkahestry"));
+<akashictome:tome>.addTooltip(format.red("警告：不要与星芒宝典、魔导手册、植物魔法辞典、死灵之书以及万能溶剂之经合成"));
 
-<thaumicenergistics:arcane_terminal>.addTooltip(format.red("WARNINGS: This is very crashy, you shouldn't need to use it much"));
-<thaumicenergistics:arcane_terminal>.addTooltip(format.red("Vis discount does not work with voidseers pearl"));
+<thaumicenergistics:arcane_terminal>.addTooltip(format.red("警告：可能引起崩溃，应避免过多使用"));
+<thaumicenergistics:arcane_terminal>.addTooltip(format.red("虚空预言者的珍珠的魔力减免不起作用"));
 
-<libvulpes:advstructuremachine>.addTooltip(format.red("HiaggTM had to upgrade his hatch"));
+<libvulpes:advstructuremachine>.addTooltip(format.red("HiaggTM得升级他的IO仓了"));
 
-<thaumcraft:vishroom>.addTooltip(format.red("Found in magic forest biomes in the overworld"));
+<thaumcraft:vishroom>.addTooltip(format.red("发现于主世界的魔法森林群系"));
 
-<immersiveengineering:stone_device:1>.addTooltip(format.red("Ignore the cobblestone in the multiblock preview"));
-<immersiveengineering:stone_device:0>.addTooltip(format.red("Ignore the cobblestone in the multiblock preview"));
+<immersiveengineering:stone_device:1>.addTooltip(format.red("忽略多方块预览中的圆石"));
+<immersiveengineering:stone_device:0>.addTooltip(format.red("忽略多方块预览中的圆石"));
 
-<contenttweaker:multiblock_preview>.addTooltip(format.red("WARNING: All multiblocks should be in the same chunk! F3 + G to show chunks!"));
-<contenttweaker:multiblock_preview>.addTooltip(format.red("Thanks to Filostorm for the help with these"));
+<contenttweaker:multiblock_preview>.addTooltip(format.red("警告：所有多方块结构必须在统一区块！按F3+G查看区块边界！"));
+<contenttweaker:multiblock_preview>.addTooltip(format.red("感谢Filostorm提供的帮助"));
 
-<careerbees:alveary_frame>.addTooltip(format.red("Used to add frame slots to an alveary multiblock"));
-<extrabees:alveary:3>.addTooltip(format.red("Used to make bees work at night without gene editing, requires an alveary transmission"));
-<extrabees:alveary:6>.addTooltip(format.red("Used to input energy into the alveary"));
-<forestry:alveary.sieve>.addTooltip(format.red("Collects pollen from nearby trees"));
-<forestry:alveary.stabiliser>.addTooltip(format.red("Prevents bees from changing species"));
-<forestry:alveary.hygro>.addTooltip(format.red("Pipe lava and water to increase or reduce humidity"));
-<forestry:alveary.fan>.addTooltip(format.red("Reduces temperature, requires an alveary transmission"));
-<forestry:alveary.swarmer>.addTooltip(format.red("Has a chance to spawn bee hives around the alveary, requires royal jelly to run"));
-<forestry:alveary.heater>.addTooltip(format.red("Increases temperature, requires an alveary transmission"));
+<careerbees:alveary_frame>.addTooltip(format.red("用于为蜂箱组增加框架栏位"));
+<extrabees:alveary:3>.addTooltip(format.red("用于在不进行基因编辑的情况下使蜜蜂能在夜晚工作，需要蜂箱组能量接口"));
+<extrabees:alveary:6>.addTooltip(format.red("用于向蜂箱组输入能量"));
+<forestry:alveary.sieve>.addTooltip(format.red("从周围的树上收集花粉"));
+<forestry:alveary.stabiliser>.addTooltip(format.red("放置蜜蜂改变种类"));
+<forestry:alveary.hygro>.addTooltip(format.red("泵入熔岩或水来减少或增加湿度"));
+<forestry:alveary.fan>.addTooltip(format.red("降低温度，需要蜂箱组能量接口"));
+<forestry:alveary.swarmer>.addTooltip(format.red("有概率在蜂箱组周围生成迁居蜂巢，需要消耗蜂王浆"));
+<forestry:alveary.heater>.addTooltip(format.red("提高温度，需要蜂箱组能量接口"));
 
-<careerbees:ingredients:2>.addTooltip(format.red("Obtained from the pheremone frame!"));
+<careerbees:ingredients:2>.addTooltip(format.red("通过外激素框架获得！"));
 
-<contenttweaker:water_doped_egg>.addTooltip(format.red("Farm pheremones from the water bee (not watery)"));
+<contenttweaker:water_doped_egg>.addTooltip(format.red("通过水生蜜蜂获得外激素（不是水）"));
 
-<contenttweaker:lava_doped_egg>.addTooltip(format.red("Farm pheremones from the firey bee"));
+<contenttweaker:lava_doped_egg>.addTooltip(format.red("通过火蜜蜂获得外激素"));
 
-<erebus:dark_capped_mushroom>.addTooltip(format.red("Use the Dark Capped Mushroom Block to make the Mysterium Void Resource Miner"));
+<erebus:dark_capped_mushroom>.addTooltip(format.red("使用黑帽巨型蘑菇搭建秘境神话虚空资源采掘机"));
 
 <thermalexpansion:reservoir:0>.addTooltip(format.red("警告：不要放置在副手，可能会清空内容物"));
 <thermalexpansion:reservoir:1>.addTooltip(format.red("警告：不要放置在副手，可能会清空内容物"));
@@ -2656,7 +2656,7 @@ import crafttweaker.item.IItemCondition;
 <thermalexpansion:reservoir:4>.addTooltip(format.red("警告：不要放置在副手，可能会清空内容物"));
 
 <actuallyadditions:block_phantomface>.addTooltip(format.red("使用幻灵连接器来绑定机器"));
-<actuallyadditions:block_phantomface>.addTooltip(format.red("Used to connect item transfer to a nearby machine"));
+<actuallyadditions:block_phantomface>.addTooltip(format.red("用于连接附近机器的物品传输"));
 <actuallyadditions:block_phantomface>.addTooltip(format.red("在其上放置幻灵增幅器以增加范围"));
 
 <actuallyadditions:block_phantom_placer>.addTooltip(format.red("使用幻灵连接器来绑定方块"));
@@ -2664,11 +2664,11 @@ import crafttweaker.item.IItemCondition;
 <actuallyadditions:block_phantom_placer>.addTooltip(format.red("在其上放置幻灵增幅器以增加范围"));
 
 <actuallyadditions:block_phantom_liquiface>.addTooltip(format.red("使用幻灵连接器来绑定机器"));
-<actuallyadditions:block_phantom_liquiface>.addTooltip(format.red("Used to connect fluid transfer to a nearby machine"));
+<actuallyadditions:block_phantom_liquiface>.addTooltip(format.red("用于连接附近机器的流体传输"));
 <actuallyadditions:block_phantom_liquiface>.addTooltip(format.red("在其上放置幻灵增幅器以增加范围"));
 
 <actuallyadditions:block_phantom_energyface>.addTooltip(format.red("使用幻灵连接器来绑定机器"));
-<actuallyadditions:block_phantom_energyface>.addTooltip(format.red("Used to connect energy transfer to a nearby machine"));
+<actuallyadditions:block_phantom_energyface>.addTooltip(format.red("用于连接附近机器的能量传输"));
 <actuallyadditions:block_phantom_energyface>.addTooltip(format.red("在其上放置幻灵增幅器以增加范围"));
 
 <actuallyadditions:block_phantom_redstoneface>.addTooltip(format.red("使用幻灵连接器来绑定方块"));
