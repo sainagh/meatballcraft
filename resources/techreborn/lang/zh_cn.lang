@@ -38,3 +38,5 @@ item.rubyHelmet.name=[复兴]红宝石头盔
 item.rubyChestplate.name=[复兴]红宝石胸甲
 item.rubyLeggings.name=[复兴]红宝石护腿
 item.rubyBoots.name=[复兴]红宝石靴子
+
+techreborn.desc.scrapBox=通过右键点击或放入废料盒拆包机来打开废料盒。JEI中列出了所有可能的产物。
