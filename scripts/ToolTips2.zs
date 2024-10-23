@@ -112,15 +112,15 @@ import crafttweaker.item.IItemCondition;
 
 <thermalfoundation:ore:8>.addTooltip(format.red("Found in the Elemental Chamber in the Nether"));
 
-<contenttweaker:apichisi_warper>.addTooltip(format.red("打开一个临时虫洞，注•意，你无法使用该物品返回！"));
+<contenttweaker:apichisi_warper>.addTooltip(format.red("打开一个临时虫洞，注意，你无法使用该物品返回！"));
 
-<contenttweaker:vibe_warper>.addTooltip(format.red("打开一个临时虫洞，注•意，你无法使用该物品返回！"));
+<contenttweaker:vibe_warper>.addTooltip(format.red("打开一个临时虫洞，注意，你无法使用该物品返回！"));
 
-<contenttweaker:furatto_warper>.addTooltip(format.red("打开一个临时虫洞，注•意，你无法使用该物品返回！"));
+<contenttweaker:furatto_warper>.addTooltip(format.red("打开一个临时虫洞，注意，你无法使用该物品返回！"));
 
-<contenttweaker:taerrapiatta_warper>.addTooltip(format.red("打开一个临时虫洞，注•意，你无法使用该物品返回！"));
+<contenttweaker:taerrapiatta_warper>.addTooltip(format.red("打开一个临时虫洞，注意，你无法使用该物品返回！"));
 
-<contenttweaker:diamerisma_warper>.addTooltip(format.red("打开一个临时虫洞，注•意，你无法使用该物品返回！"));
+<contenttweaker:diamerisma_warper>.addTooltip(format.red("打开一个临时虫洞，注意，你无法使用该物品返回！"));
 
 <contenttweaker:pixonia_infusion_key>.addTooltip(format.red("Found in the swamp tower on Pixonia"));
 
@@ -791,13 +791,13 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:staff_of_iceika>.addTooltip(format.red("Use in the castle in the frozen world"));
 
-<teslacorelib:energy_tier1>.addTooltip(format.red("警•告：频繁加载卸载区块有概率导致机器被删除，放置在你不会经常前往的区块"));
+<teslacorelib:energy_tier1>.addTooltip(format.red("警告：频繁加载卸载区块有概率导致机器被删除，放置在你不会经常前往的区块"));
 
-<teslacorelib:energy_tier2>.addTooltip(format.red("警•告：频繁加载卸载区块有概率导致机器被删除，放置在你不会经常前往的区块"));
+<teslacorelib:energy_tier2>.addTooltip(format.red("警告：频繁加载卸载区块有概率导致机器被删除，放置在你不会经常前往的区块"));
 
-<teslacorelib:speed_tier1>.addTooltip(format.red("警•告：频繁加载卸载区块有概率导致机器被删除，放置在你不会经常前往的区块"));
+<teslacorelib:speed_tier1>.addTooltip(format.red("警告：频繁加载卸载区块有概率导致机器被删除，放置在你不会经常前往的区块"));
 
-<teslacorelib:speed_tier2>.addTooltip(format.red("警•告：频繁加载卸载区块有概率导致机器被删除，放置在你不会经常前往的区块"));
+<teslacorelib:speed_tier2>.addTooltip(format.red("警告：频繁加载卸载区块有概率导致机器被删除，放置在你不会经常前往的区块"));
 
 <contenttweaker:dragon_egg_omelette>.addTooltip(format.red("A cruel sacrifice for great power (Fabulous_Ampharos has a good sense of humor)"));
 
@@ -823,13 +823,13 @@ import crafttweaker.item.IItemCondition;
 <extrabotany:material:3>.addTooltip(format.red("Dropped by a tier 3 Gaia Guardian"));
 
 <bewitchment:blessed_stone>.addTooltip(format.red("发现于地盘界"));
-<bewitchment:blessed_stone>.addTooltip(format.red("注•意：该方块无法破坏"));
+<bewitchment:blessed_stone>.addTooltip(format.red("注意：该方块无法破坏"));
 <bewitchment:blessed_stone>.addTooltip(format.red("可被主宰法咒：Perditio破坏"));
 
-<contenttweaker:scale_of_the_ancient_heart>.addTooltip(format.red("注•意：该方块无法破坏"));
+<contenttweaker:scale_of_the_ancient_heart>.addTooltip(format.red("注意：该方块无法破坏"));
 <contenttweaker:scale_of_the_ancient_heart>.addTooltip(format.red("可被主宰法咒：Perditio破坏"));
 
-<contenttweaker:asgard_furnace_brick>.addTooltip(format.red("注•意：该方块无法破坏"));
+<contenttweaker:asgard_furnace_brick>.addTooltip(format.red("注意：该方块无法破坏"));
 <contenttweaker:asgard_furnace_brick>.addTooltip(format.red("可被主宰法咒：Perditio破坏"));
 
 <contenttweaker:lesser_mana_core>.addTooltip(format.red("Use a resonant tank full of primal mana in empty mode"));
@@ -1595,11 +1595,11 @@ import crafttweaker.item.IItemCondition;
 
 <packagedexcrafting:combination_crafter>.addTooltip(format.red("Works with marked pedestals!"));
 
-<botania:baublebox>.addTooltip(format.red("警•告：有概率删除物品"));
+<botania:baublebox>.addTooltip(format.red("警告：有概率删除物品"));
 
-<botania:flowerbag>.addTooltip(format.red("警•告：有概率删除物品"));
+<botania:flowerbag>.addTooltip(format.red("警告：有概率删除物品"));
 
-<extrabotany:masterhandbag>.addTooltip(format.red("警•告：有概率删除物品"));
+<extrabotany:masterhandbag>.addTooltip(format.red("警告：有概率删除物品"));
 
 <extrautils2:bagofholding>.addTooltip(format.red("This has a chance of deleting items"));
 
@@ -1898,29 +1898,29 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:betweenlands_callstone_8>.addTooltip(format.red("这是个召唤石"));
 
-<minecraft:bookshelf>.addTooltip(format.red("Research Aid"));
+<minecraft:bookshelf>.addTooltip(format.red("研究辅助"));
 
-<thaumcraft:stone_ancient_glyphed>.addTooltip(format.red("Research Aid"));
+<thaumcraft:stone_ancient_glyphed>.addTooltip(format.red("研究辅助"));
 
-<thaumcraft:jar_brain>.addTooltip(format.red("Research Aid"));
+<thaumcraft:jar_brain>.addTooltip(format.red("研究辅助"));
 
-<thaumcraft:crucible>.addTooltip(format.red("Research Aid"));
+<thaumcraft:crucible>.addTooltip(format.red("研究辅助"));
 
-<thaumcraft:arcane_workbench>.addTooltip(format.red("Research Aid"));
+<thaumcraft:arcane_workbench>.addTooltip(format.red("研究辅助"));
 
 
-<thaumcraft:infusion_matrix>.addTooltip(format.red("Research Aid"));
+<thaumcraft:infusion_matrix>.addTooltip(format.red("研究辅助"));
 
-<thaumcraft:wand_workbench>.addTooltip(format.red("Research Aid"));
+<thaumcraft:wand_workbench>.addTooltip(format.red("研究辅助"));
 
-<thaumcraft:golem_builder>.addTooltip(format.red("Research Aid"));
+<thaumcraft:golem_builder>.addTooltip(format.red("研究辅助"));
 
-<minecraft:enchanting_table>.addTooltip(format.red("Research Aid"));
+<minecraft:enchanting_table>.addTooltip(format.red("研究辅助"));
 
-<minecraft:beacon>.addTooltip(format.red("Research Aid"));
+<minecraft:beacon>.addTooltip(format.red("研究辅助"));
 
 <thaumcraft:research_table>.addTooltip(format.red("Right click two thaumcraft wood tables next to each other with scribing tools"));
-<thaumcraft:research_table>.addTooltip(format.red("You can search for research aids in JEI"));
+<thaumcraft:research_table>.addTooltip(format.red("You can search for 研究辅助s in JEI"));
 
 <immersiveengineering:stone_decoration:1>.addTooltip(format.red("Can be found in many overworld structures"));
 
@@ -2073,11 +2073,11 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:bubbell_banner>.addTooltip(format.red("Obtained from the orbital callstone"));
 <contenttweaker:bubbell_banner>.addTooltip(format.red("Thanks to Reclipse for the texture!"));
 
-<bloodmagic:inversion_pillar:0>.addTooltip(format.red("不•要•放•置：会崩档"));
-<bloodmagic:inversion_pillar:1>.addTooltip(format.red("不•要•放•置：会崩档"));
-<bloodmagic:inversion_pillar:2>.addTooltip(format.red("不•要•放•置：会崩档"));
-<bloodmagic:inversion_pillar:3>.addTooltip(format.red("不•要•放•置：会崩档"));
-<bloodmagic:inversion_pillar:4>.addTooltip(format.red("不•要•放•置：会崩档"));
+<bloodmagic:inversion_pillar:0>.addTooltip(format.red("不要放置：会崩档"));
+<bloodmagic:inversion_pillar:1>.addTooltip(format.red("不要放置：会崩档"));
+<bloodmagic:inversion_pillar:2>.addTooltip(format.red("不要放置：会崩档"));
+<bloodmagic:inversion_pillar:3>.addTooltip(format.red("不要放置：会崩档"));
+<bloodmagic:inversion_pillar:4>.addTooltip(format.red("不要放置：会崩档"));
 
 <contenttweaker:tainted_callstone>.addTooltip(format.red("It will spawn a very tough boss - You should be extremely careful with this one!"));
 
@@ -2337,40 +2337,40 @@ import crafttweaker.item.IItemCondition;
 <bewitchment:filled_goblet>.addTooltip(format.red("增加女巫祭坛的最大魔力！放置于祭坛上！"));
 <divinerpg:snow_globe>.addTooltip(format.red("对用雪搭成的传送门框架使用！"));
 
-<buildcrafttransport:pipe_structure>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_wood_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_cobble_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_stone_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_quartz_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_iron_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_gold_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_clay_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_sandstone_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_void_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_obsidian_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_diamond_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_diamond_wood_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_lapis_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_daizuli_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_emzuli_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_stripes_item>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_wood_fluid>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_cobble_fluid>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_stone_fluid>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_quartz_fluid>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_gold_fluid>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_iron_fluid>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_clay_fluid>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_sandstone_fluid>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_void_fluid>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_diamond_fluid>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_diamond_wood_fluid>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_wood_power>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_cobble_power>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_stone_power>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_quartz_power>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_gold_power>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
-<buildcrafttransport:pipe_sandstone_power>.addTooltip(format.red("注•意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_structure>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_wood_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_cobble_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_stone_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_quartz_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_iron_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_gold_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_clay_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_sandstone_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_void_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_obsidian_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_diamond_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_diamond_wood_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_lapis_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_daizuli_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_emzuli_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_stripes_item>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_wood_fluid>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_cobble_fluid>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_stone_fluid>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_quartz_fluid>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_gold_fluid>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_iron_fluid>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_clay_fluid>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_sandstone_fluid>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_void_fluid>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_diamond_fluid>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_diamond_wood_fluid>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_wood_power>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_cobble_power>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_stone_power>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_quartz_power>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_gold_power>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
+<buildcrafttransport:pipe_sandstone_power>.addTooltip(format.red("注意：优先使用导管或热力管道，除非身处梦魇世界！"));
 
 <actuallyadditions:block_laser_relay>.addTooltip(format.red("使用中继器扳手连接激光中继器。使用指南针改变模式！"));
 <actuallyadditions:block_laser_relay_advanced>.addTooltip(format.red("使用中继器扳手连接激光中继器。使用指南针改变模式！"));
@@ -2649,11 +2649,11 @@ import crafttweaker.item.IItemCondition;
 
 <erebus:dark_capped_mushroom>.addTooltip(format.red("Use the Dark Capped Mushroom Block to make the Mysterium Void Resource Miner"));
 
-<thermalexpansion:reservoir:0>.addTooltip(format.red("警•告：不要放置在副手，可能会清空内容物"));
-<thermalexpansion:reservoir:1>.addTooltip(format.red("警•告：不要放置在副手，可能会清空内容物"));
-<thermalexpansion:reservoir:2>.addTooltip(format.red("警•告：不要放置在副手，可能会清空内容物"));
-<thermalexpansion:reservoir:3>.addTooltip(format.red("警•告：不要放置在副手，可能会清空内容物"));
-<thermalexpansion:reservoir:4>.addTooltip(format.red("警•告：不要放置在副手，可能会清空内容物"));
+<thermalexpansion:reservoir:0>.addTooltip(format.red("警告：不要放置在副手，可能会清空内容物"));
+<thermalexpansion:reservoir:1>.addTooltip(format.red("警告：不要放置在副手，可能会清空内容物"));
+<thermalexpansion:reservoir:2>.addTooltip(format.red("警告：不要放置在副手，可能会清空内容物"));
+<thermalexpansion:reservoir:3>.addTooltip(format.red("警告：不要放置在副手，可能会清空内容物"));
+<thermalexpansion:reservoir:4>.addTooltip(format.red("警告：不要放置在副手，可能会清空内容物"));
 
 <actuallyadditions:block_phantomface>.addTooltip(format.red("使用幻灵连接器来绑定机器"));
 <actuallyadditions:block_phantomface>.addTooltip(format.red("Used to connect item transfer to a nearby machine"));
@@ -2718,9 +2718,9 @@ import crafttweaker.item.IItemCondition;
 
 <tconstruct:sharpening_kit>.addTooltip(format.red("Can be used to repair tools in your crafting table"));
 
-<naturescompass:naturescompass>.addTooltip(format.red("警•告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
-<extrautils2:biomemarker>.addTooltip(format.red("警•告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
-<extrautils2:terraformer:1>.addTooltip(format.red("警•告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
+<naturescompass:naturescompass>.addTooltip(format.red("警告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
+<extrautils2:biomemarker>.addTooltip(format.red("警告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
+<extrautils2:terraformer:1>.addTooltip(format.red("警告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
 
 <contenttweaker:recursive_recipes>.addTooltip(format.red("与Not Yue有关"));
 
@@ -2737,10 +2737,10 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:charged_dyson_capacitor>.addTooltip(format.red("Sandman366"));
 
 
-<thaumicenergistics:essentia_cell_1k>.addTooltip(format.red("警•告：不要Shift+右击，存储组件可能会被删除"));
-<thaumicenergistics:essentia_cell_4k>.addTooltip(format.red("警•告：不要Shift+右击，存储组件可能会被删除"));
-<thaumicenergistics:essentia_cell_16k>.addTooltip(format.red("警•告：不要Shift+右击，存储组件可能会被删除"));
-<thaumicenergistics:essentia_cell_64k>.addTooltip(format.red("警•告：不要Shift+右击，存储组件可能会被删除"));
+<thaumicenergistics:essentia_cell_1k>.addTooltip(format.red("警告：不要Shift+右击，存储组件可能会被删除"));
+<thaumicenergistics:essentia_cell_4k>.addTooltip(format.red("警告：不要Shift+右击，存储组件可能会被删除"));
+<thaumicenergistics:essentia_cell_16k>.addTooltip(format.red("警告：不要Shift+右击，存储组件可能会被删除"));
+<thaumicenergistics:essentia_cell_64k>.addTooltip(format.red("警告：不要Shift+右击，存储组件可能会被删除"));
 
 <forge:bucketfilled>.withTag({FluidName: "hydrogen", Amount: 1000}).addTooltip(format.red("用于制作定义锭"));
 
@@ -3003,10 +3003,10 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:object_of_great_mass>.addTooltip(format.red("WARNING: this has a chance of disappearing if hoppered into a metal press"));
 
-<bewitchment:scorned_brick_lilith_statue>.addTooltip(format.red("警•告：不要自动放置该多方块"));
-<bewitchment:nether_brick_baphomet_statue>.addTooltip(format.red("警•告：不要自动放置该多方块"));
-<bewitchment:stone_herne_statue>.addTooltip(format.red("警•告：不要自动放置该多方块"));
-<bewitchment:gold_moloch_statue>.addTooltip(format.red("警•告：不要自动放置该多方块"));
+<bewitchment:scorned_brick_lilith_statue>.addTooltip(format.red("警告：不要自动放置该多方块"));
+<bewitchment:nether_brick_baphomet_statue>.addTooltip(format.red("警告：不要自动放置该多方块"));
+<bewitchment:stone_herne_statue>.addTooltip(format.red("警告：不要自动放置该多方块"));
+<bewitchment:gold_moloch_statue>.addTooltip(format.red("警告：不要自动放置该多方块"));
 
 <contenttweaker:defined_gear>.addTooltip(format.red("Ikea Bear wanted a real challenge"));
 
@@ -3115,26 +3115,26 @@ import crafttweaker.item.IItemCondition;
 <aoa3:mega_rune_fragment_blue>.addTooltip(format.red("Right click a rune templar with runic energy and a water rune to activate it"));
 
 
-<erebus:exoskeleton_helmet>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
-<erebus:exoskeleton_chestplate>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
-<erebus:exoskeleton_leggings>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
-<erebus:exoskeleton_boots>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
-<erebus:rein_exoskeleton_helmet>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
-<erebus:rein_exoskeleton_chestplate>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
-<erebus:rein_exoskeleton_leggings>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
-<erebus:rein_exoskeleton_boots>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
-<erebus:rhino_exoskeleton_helmet>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
-<erebus:rhino_exoskeleton_chestplate>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
-<erebus:rhino_exoskeleton_leggings>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
-<erebus:rhino_exoskeleton_boots>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
+<erebus:exoskeleton_helmet>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+<erebus:exoskeleton_chestplate>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+<erebus:exoskeleton_leggings>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+<erebus:exoskeleton_boots>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+<erebus:rein_exoskeleton_helmet>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+<erebus:rein_exoskeleton_chestplate>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+<erebus:rein_exoskeleton_leggings>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+<erebus:rein_exoskeleton_boots>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+<erebus:rhino_exoskeleton_helmet>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+<erebus:rhino_exoskeleton_chestplate>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+<erebus:rhino_exoskeleton_leggings>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+<erebus:rhino_exoskeleton_boots>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
 
 <abyssalcraft:psdl>.addTooltip(format.red("First found in the abyssal wasteland, use powerstone trackers to find it!"));
 
 <contenttweaker:abyssal_wasteland_stronghold>.addTooltip(format.red("Use powerstone trackers to find it!"));
 
-<thaumicwonders:void_fortress_helm>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
-<thaumicwonders:void_fortress_chest>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
-<thaumicwonders:void_fortress_legs>.addTooltip(format.red("警•告：穿戴该装备可能造成大量卡顿"));
+<thaumicwonders:void_fortress_helm>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+<thaumicwonders:void_fortress_chest>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+<thaumicwonders:void_fortress_legs>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
 
 <enderutilities:handybag:0>.addTooltip(format.red("WARNING: do not place backpacks, satchels, etc in the extra slots, may cause memory leaks"));
 <enderutilities:handybag:1>.addTooltip(format.red("WARNING: do not place backpacks, satchels, etc in the extra slots, may cause memory leaks"));
@@ -3359,95 +3359,95 @@ import crafttweaker.item.IItemCondition;
 
 <thaumcraft:tube_buffer>.addTooltip(format.red("Tube component that can store up to 8 essentias"));
 
-<thaumcraft:alembic>.addTooltip(format.red("You can place up to three on top of the smeltery"));
+<thaumcraft:alembic>.addTooltip(format.red("冶炼厂上最多可放置三个"));
 
-<thaumcraft:salis_mundus>.addTooltip(format.red("Right click on things to transform them, see uses in multiblock previews"));
+<thaumcraft:salis_mundus>.addTooltip(format.red("对方块右击将其变换，在多方块预览中查看可变换对象"));
 
-<thaumcraft:brain_box>.addTooltip(format.red("Place on the side of a thaumatorium to encode an extra recipe!"));
+<thaumcraft:brain_box>.addTooltip(format.red("放置在神秘炼金塔旁可编码额外配方！"));
 
-<thaumadditions:mithrillium_smelter>.addTooltip(format.red("Does not produce any flux"));
-<thaumadditions:adaminite_smelter>.addTooltip(format.red("Does not produce any flux, and has a 120% yield"));
-<thaumadditions:mithminite_smelter>.addTooltip(format.red("Does not produce any flux, and has a 150% yield"));
+<thaumadditions:mithrillium_smelter>.addTooltip(format.red("不产生咒波"));
+<thaumadditions:adaminite_smelter>.addTooltip(format.red("不产生咒波，产量为120%"));
+<thaumadditions:mithminite_smelter>.addTooltip(format.red("不产生咒波，产量为150%"));
 
-<thaumcraft:goggles>.addTooltip(format.red("These will let you see essentia in thaumcraft machines, make sure you wear them at all times!"));
+<thaumcraft:goggles>.addTooltip(format.red("可观察神秘时代设备的源质含量，确保一直戴着！"));
 
-<thaumcraft:primordial_pearl>.addTooltip(format.red("Dropped by thaumcraft bosses, like the crimson praetors that are spawned by portals"));
+<thaumcraft:primordial_pearl>.addTooltip(format.red("神秘时代Boss掉落，例如由传送门生成的血腥主教"));
 
-<thaumicaugmentation:rift_seed>.addTooltip(format.red("Infuse with void seeds to grow"));
+<thaumicaugmentation:rift_seed>.addTooltip(format.red("使用虚空种子注魔以生长"));
 
-<thaumadditions:puriflower>.addTooltip(format.red("Place down to slowly remove flux in that chunk. There are no drawbacks!"));
+<thaumadditions:puriflower>.addTooltip(format.red("放置后缓慢移除所在区块的咒波。没有任何缺点！"));
 
-<thaumcraft:hungry_chest>.addTooltip(format.red("Automatically collects items dropped on it"));
+<thaumcraft:hungry_chest>.addTooltip(format.red("自动收集掉落在上面的物品"));
 
-<thaumicaugmentation:arcane_terraformer>.addTooltip(format.red("Use this with the biome checker"));
+<thaumicaugmentation:arcane_terraformer>.addTooltip(format.red("与生物群系检查器搭配使用"));
 
-<woot:anvil>.addTooltip(format.red("Place on top of a magma block"));
+<woot:anvil>.addTooltip(format.red("放置在岩浆块上"));
 
-<railcraft:rock_crusher>.addTooltip(format.red("This machine is disabled"));
+<railcraft:rock_crusher>.addTooltip(format.red("该机器已禁用"));
 
-<mod_lavacow:ectoplasm>.addTooltip(format.red("Dropped by ghost rays and banshees in the overworld"));
+<mod_lavacow:ectoplasm>.addTooltip(format.red("主世界的鬼灵鲼和报丧女妖掉落"));
 
-<mowziesmobs:ice_crystal>.addTooltip(format.red("Dropped by the frostmaw in iceika"));
+<mowziesmobs:ice_crystal>.addTooltip(format.red("冰晶雪原的冰霜巨口掉落"));
 
-<contenttweaker:psichic_stone>.addTooltip(format.red("Use the ore excavator on Europa, psivein"));
+<contenttweaker:psichic_stone>.addTooltip(format.red("在欧罗巴维度，使用斗轮式挖掘机开采psivein矿床"));
 
-<contenttweaker:better_red_coal>.addTooltip(format.red("This can be used to set recipes more easily, good to have on passive :)"));
+<contenttweaker:better_red_coal>.addTooltip(format.red("可以让配方设置更简单，推荐被动生产时使用 :)"));
 
 <contenttweaker:broken_portal_arcana>.addTooltip(format.green("可重复使用"));
 
-<nuclearcraft:rad_shielding:0>.addTooltip(format.red("Can be applied to any armor, as long as it's full durability"));
-<nuclearcraft:rad_shielding:1>.addTooltip(format.red("Can be applied to any armor, as long as it's full durability"));
-<nuclearcraft:rad_shielding:2>.addTooltip(format.red("Can be applied to any armor, as long as it's full durability"));
+<nuclearcraft:rad_shielding:0>.addTooltip(format.red("可安装到任意盔甲，只要耐久度为满即可"));
+<nuclearcraft:rad_shielding:1>.addTooltip(format.red("可安装到任意盔甲，只要耐久度为满即可"));
+<nuclearcraft:rad_shielding:2>.addTooltip(format.red("可安装到任意盔甲，只要耐久度为满即可"));
 
-<astralsorcery:itemlinkingtool>.addTooltip(format.red("To link a collector crystal to a block, right click it first, and then the target block"));
-<astralsorcery:itemlinkingtool>.addTooltip(format.red("The connection will remain even after the block is broken or replaced"));
+<astralsorcery:itemlinkingtool>.addTooltip(format.red("要将聚能水晶与方块绑定，首先右击水晶，然后右击目标方块"));
+<astralsorcery:itemlinkingtool>.addTooltip(format.red("即使方块被破坏或替换，连接仍会存在"));
 
-<contenttweaker:nero_callstone>.addTooltip(format.red("Make the black hole honey before using this ;)"));
+<contenttweaker:nero_callstone>.addTooltip(format.red("使用之前先制作黑洞蜂蜜 ;)"));
 
-<contenttweaker:cosmic_fracture>.addTooltip(format.red("Obtained from the horrific callstone"));
+<contenttweaker:cosmic_fracture>.addTooltip(format.red("通过恐怖召唤石获得"));
 
-<contenttweaker:crown_of_the_energy_queen>.addTooltip(format.red("Obtained from the terraformassiflora"));
+<contenttweaker:crown_of_the_energy_queen>.addTooltip(format.red("通过移地换形之花获得"));
 
-<aoa3:holly_top_seeds>.addTooltip(format.red("Does not work on fertilized dirt from random things"));
+<aoa3:holly_top_seeds>.addTooltip(format.red("不适用于随意作品模组的沃土"));
 
-<aoa3:rosidon_seeds>.addTooltip(format.red("Obtainable in Gardencia"));
+<aoa3:rosidon_seeds>.addTooltip(format.red("在花园维度获得"));
 
 <contenttweaker:adamantium_stinger>.addTooltip(format.red("发现于共鸣界"));
 <contenttweaker:gem_of_midas>.addTooltip(format.red("发现于共鸣界"));
 
-<contenttweaker:rosidian_blend>.addTooltip(format.red("Combine rosidons with the right small piles of dust (8), gardencia will tell you which ones!"));
+<contenttweaker:rosidian_blend>.addTooltip(format.red("将伊甸果与正确的小堆粉（8个）结合，花园维度会告诉你是哪些的！"));
 
-<gendustry:honey_comb:14018>.addTooltip(format.red("Obtained from the deep knowledge callstone"));
+<gendustry:honey_comb:14018>.addTooltip(format.red("通过深度知识召唤石获得"));
 
-<railcraft:generic:8>.addTooltip(format.red("DoomSquirter likes this block"));
+<railcraft:generic:8>.addTooltip(format.red("DoomSquirter喜欢这个方块"));
 
-<forestry:frame_proven>.addTooltip(format.red("Frames cannot be automated in an apiary, you need the alveary"));
-<careerbees:eternalframe>.addTooltip(format.red("Frames cannot be automated in an apiary, you need the alveary"));
-<magicbees:frames.metabolic>.addTooltip(format.red("Frames cannot be automated in an apiary, you need the alveary"));
-<magicbees:frames.gentle>.addTooltip(format.red("Frames cannot be automated in an apiary, you need the alveary"));
-<careerbees:pheremone_frame>.addTooltip(format.red("Frames cannot be automated in an apiary, you need the alveary"));
-<magicbees:frames.oblivion>.addTooltip(format.red("Frames cannot be automated in an apiary, you need the alveary"));
+<forestry:frame_proven>.addTooltip(format.red("框架不能在蜂箱中自动化，需要使用蜂箱组"));
+<careerbees:eternalframe>.addTooltip(format.red("框架不能在蜂箱中自动化，需要使用蜂箱组"));
+<magicbees:frames.metabolic>.addTooltip(format.red("框架不能在蜂箱中自动化，需要使用蜂箱组"));
+<magicbees:frames.gentle>.addTooltip(format.red("框架不能在蜂箱中自动化，需要使用蜂箱组"));
+<careerbees:pheremone_frame>.addTooltip(format.red("框架不能在蜂箱中自动化，需要使用蜂箱组"));
+<magicbees:frames.oblivion>.addTooltip(format.red("框架不能在蜂箱中自动化，需要使用蜂箱组"));
 
 
-<forestry:sapling>.addTooltip(format.red("WARNING: Do not place forestry trees down for long periods of time, they will continuously spawn butterflies!"));
-<forestry:sapling>.addTooltip(format.red("Use the butterfly repellent to remove butterflies if there's too many."));
-<forestry:sapling>.addTooltip(format.red("Use an Industrial Grafter to break the corresponding leaf type to obtain more."));
-<forestry:sapling>.addTooltip(format.red("The enchanted greenhouse can be used to automate these trees!"));
+<forestry:sapling>.addTooltip(format.red("警告：不要将林业的树长时间留在世界中，会持续生成蝴蝶！"));
+<forestry:sapling>.addTooltip(format.red("若蝴蝶数量过多，使用驱蝶剂将其移除。"));
+<forestry:sapling>.addTooltip(format.red("使用工业剪枝器破坏树叶以获得对应树苗。"));
+<forestry:sapling>.addTooltip(format.red("附魔温室可用于自动化这些树！"));
 
-<contenttweaker:butterfly_repellent>.addTooltip(format.red("Right click to remove butterflies if they get laggy"));
+<contenttweaker:butterfly_repellent>.addTooltip(format.red("右击移除蝴蝶以避免卡顿"));
 
-<thermalfoundation:storage_alloy:3>.addTooltip(format.red("Priscilla debugged broken block recipes"));
+<thermalfoundation:storage_alloy:3>.addTooltip(format.red("Priscilla排查了错误的金属块配方"));
 
-<appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("Use CTRL + E to open while in bauble"));
-<appliedenergistics2:wireless_fluid_terminal>.addTooltip(format.red("Use CTRL + F to open while in bauble"));
-<appliedenergistics2:wireless_pattern_terminal>.addTooltip(format.red("Use CTRL + R to open while in bauble"));
-<appliedenergistics2:wireless_terminal>.addTooltip(format.red("Use CTRL + T to open while in bauble"));
+<appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("装备在饰品栏中时，按下CTRL+E以打开"));
+<appliedenergistics2:wireless_fluid_terminal>.addTooltip(format.red("装备在饰品栏中时，按下CTRL+F以打开"));
+<appliedenergistics2:wireless_pattern_terminal>.addTooltip(format.red("装备在饰品栏中时，按下CTRL+R以打开"));
+<appliedenergistics2:wireless_terminal>.addTooltip(format.red("装备在饰品栏中时，按下CTRL+T以打开"));
 
-<tombstone:crafting_ingredient:4>.addTooltip(format.red("Obtained from fishing or the resource fisher"));
+<tombstone:crafting_ingredient:4>.addTooltip(format.red("通过钓鱼或钓鱼机获得"));
 
-<tesslocator:basic_energy_tesslocator>.addTooltip(format.red("Thanks to Vamael for proofreading things!"));
+<tesslocator:basic_energy_tesslocator>.addTooltip(format.red("感谢Vamael的校对工作！"));
 
-<aoa3:explosive_idol>.addTooltip(format.red("Found in the baron portal structure in the nether"));
+<aoa3:explosive_idol>.addTooltip(format.red("发现于下界的爵士砖块传送门结构"));
 
 <contenttweaker:inert_spatial_phaser>.addTooltip(format.red("发现于铼界"));
 <contenttweaker:inert_spatial_phaser>.addTooltip(format.red("与正确的砖块（4个）结合，伊甸将指引你"));
@@ -3478,7 +3478,7 @@ import crafttweaker.item.IItemCondition;
 <extrabotany:jingweifeather>.addTooltip(format.red("空手攻击时造成额外伤害"));
 
 <contenttweaker:phasing_gem>.addTooltip(format.red("通过空间移相器获得"));
-<contenttweaker:phasing_gem>.addTooltip(format.red("警•告：使用未加装升级的恒星合金盔甲来为其施加超限附魔"));
+<contenttweaker:phasing_gem>.addTooltip(format.red("警告：使用未加装升级的恒星合金盔甲来为其施加超限附魔"));
 
 <divinerpg:korma_helmet>.addTooltip(format.red("与秘界地牢的瓦提库斯领主交易获得"));
 <divinerpg:korma_chestplate>.addTooltip(format.red("与秘界地牢的瓦提库斯领主交易获得"));
@@ -3498,40 +3498,40 @@ import crafttweaker.item.IItemCondition;
 <rftools:redstone_transmitter_block>.addTooltip(format.red("无线红石模组的无线传达器和接收器更好！"));
 <rftools:redstone_receiver_block>.addTooltip(format.red("无线红石模组的无线传达器和接收器更好！"));
 
-<environmentaltech:lightning_cont_1>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:lightning_cont_2>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:lightning_cont_1>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:lightning_cont_4>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:lightning_cont_5>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:lightning_cont_6>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:lightning_cont_1>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:lightning_cont_2>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:lightning_cont_1>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:lightning_cont_4>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:lightning_cont_5>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:lightning_cont_6>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
 
-<environmentaltech:solar_cont_1>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:solar_cont_2>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:solar_cont_3>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:solar_cont_4>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:solar_cont_5>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:solar_cont_6>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:solar_cont_1>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:solar_cont_2>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:solar_cont_3>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:solar_cont_4>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:solar_cont_5>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:solar_cont_6>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
 
-<environmentaltech:void_ore_miner_cont_1>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_ore_miner_cont_2>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_ore_miner_cont_3>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_ore_miner_cont_4>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_ore_miner_cont_5>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_ore_miner_cont_6>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_ore_miner_cont_1>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_ore_miner_cont_2>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_ore_miner_cont_3>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_ore_miner_cont_4>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_ore_miner_cont_5>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_ore_miner_cont_6>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
 
-<environmentaltech:void_res_miner_cont_1>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_res_miner_cont_2>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_res_miner_cont_3>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_res_miner_cont_4>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_res_miner_cont_5>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_res_miner_cont_6>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_res_miner_cont_1>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_res_miner_cont_2>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_res_miner_cont_3>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_res_miner_cont_4>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_res_miner_cont_5>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_res_miner_cont_6>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
 
-<environmentaltech:void_botanic_miner_cont_1>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_botanic_miner_cont_2>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_botanic_miner_cont_3>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_botanic_miner_cont_4>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_botanic_miner_cont_5>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
-<environmentaltech:void_botanic_miner_cont_6>.addTooltip(format.red("注•意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_botanic_miner_cont_1>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_botanic_miner_cont_2>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_botanic_miner_cont_3>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_botanic_miner_cont_4>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_botanic_miner_cont_5>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
+<environmentaltech:void_botanic_miner_cont_6>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
 
 <contenttweaker:wrought_iron_shard>.addTooltip(format.red("发现于深层维度，记得带上镐子，机灵点！"));
 
@@ -3627,8 +3627,8 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:parafrosynium>.addTooltip(format.red("通过茕踽界召唤石获得"));
 
-<contenttweaker:crazed_marble>.addTooltip(format.red("To complete the Twelve Gates of Heaven, place twelve of the blue celestial collector crystals on top of each pillar"));
-<contenttweaker:darkstar_catalyst>.addTooltip(format.red("To complete the Twelve Gates of Heaven, place twelve of the blue celestial collector crystals on top of each pillar"));
+<contenttweaker:crazed_marble>.addTooltip(format.red("要完成天堂十二门的搭建，每根柱子上都需要放置蓝色的天辉聚能水晶"));
+<contenttweaker:darkstar_catalyst>.addTooltip(format.red("要完成天堂十二门的搭建，每根柱子上都需要放置蓝色的天辉聚能水晶"));
 
 <contenttweaker:abyssal_flesh>.addTooltip(format.red("发现于深渊维度"));
 
@@ -3639,16 +3639,16 @@ import crafttweaker.item.IItemCondition;
 <immersiveengineering:railgun>.addTooltip(format.red("铝棒"));
 <immersiveengineering:railgun>.addTooltip(format.red("铁棒"));
 
-<contenttweaker:clunky_chunky_brick>.addTooltip(format.red("Obtained from the runic key"));
+<contenttweaker:clunky_chunky_brick>.addTooltip(format.red("通过符文之钥获得"));
 
-<astralsorcery:blockaltar:3>.addTooltip(format.red("You will be able to make more after making the modular machinery multiblock"));
+<astralsorcery:blockaltar:3>.addTooltip(format.red("对应的模块化机械多方块拥有更多配方"));
 
 <deepmoblearning:data_model_slime>.addTooltip(format.red("岩浆怪和下界的史莱姆也计入击杀数量"));
 
-<contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("Use the modular controllers in these recipes to auto-build reactor interiors for each fuel!"));
-<contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("Thanks to cry for coming up with the idea!"));
+<contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("使用配方中的模块化控制器来自动搭建不同燃料反应堆的内部构造！"));
+<contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("感谢cry想出的这个点子！"));
 
-<modularmachinery:safe_fission_tbu_controller>.addTooltip(format.red("This will work well with a bunch of other fuels!"));
+<modularmachinery:safe_fission_tbu_controller>.addTooltip(format.red("同样适用于许多其他燃料！"));
 
 <contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("使用核电工艺模组的液冷器替换该方块！"));
 <contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("用缓存器替换反应堆外墙的外壳，对其输送流体！"));

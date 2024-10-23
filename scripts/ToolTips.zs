@@ -108,7 +108,7 @@
 <contenttweaker:druden_horn>.addTooltip(format.red("需要生物群系包含'forest'、'dense'、'coniferous'、'magical'或'spooky'词条"));
 <contenttweaker:druden_horn>.addTooltip(format.red("查看幽灵尘埃的用途以查看仪式配方"));
 
-<contenttweaker:skythern_core>.addTooltip(format.red("注•意：需要历战浮游者雕像，合成表里不是很容易看见"));
+<contenttweaker:skythern_core>.addTooltip(format.red("注意：需要历战浮游者雕像，合成表里不是很容易看见"));
 
 <contenttweaker:hand_of_dominion>.addTooltip(format.red("通过伦纳德之祭召唤伦纳德"));
 <contenttweaker:hand_of_dominion>.addTooltip(format.red("查看仪式刀的用途以查看仪式配方"));
@@ -174,10 +174,10 @@
 <nuclearcraft:fuel_uranium:2>.addTooltip(format.red("感谢Gebcrafter新绘制的核电工艺纹理！"));
 <nuclearcraft:fuel_thorium:0>.addTooltip(format.red("感谢Gebcrafter新绘制的核电工艺纹理！"));
 
-<enderio:item_conduit_facade:0>.addTooltip(format.red("警•告：该物品会造成卡顿"));
-<enderio:item_conduit_facade:1>.addTooltip(format.red("警•告：该物品会造成卡顿"));
-<enderio:item_conduit_facade:2>.addTooltip(format.red("警•告：该物品会造成卡顿"));
-<enderio:item_conduit_facade:3>.addTooltip(format.red("警•告：该物品会造成卡顿"));
+<enderio:item_conduit_facade:0>.addTooltip(format.red("警告：该物品会造成卡顿"));
+<enderio:item_conduit_facade:1>.addTooltip(format.red("警告：该物品会造成卡顿"));
+<enderio:item_conduit_facade:2>.addTooltip(format.red("警告：该物品会造成卡顿"));
+<enderio:item_conduit_facade:3>.addTooltip(format.red("警告：该物品会造成卡顿"));
 
 <contenttweaker:dispelling_manuscript>.addTooltip(format.green("可重复使用"));
 <contenttweaker:dread_crown>.addTooltip(format.green("可重复使用"));
@@ -232,9 +232,9 @@
 <nuclearcraft:turbine_dynamo_coil:4>.addTooltip(format.red("直接与能量传输类方块相连以输出能量"));
 <nuclearcraft:turbine_dynamo_coil:5>.addTooltip(format.red("直接与能量传输类方块相连以输出能量"));
 
-<agricraft:seed_analyzer>.addTooltip(format.red("警•告：将该方块放置在世界中可能会导致崩溃，用完请立即破坏"));
+<agricraft:seed_analyzer>.addTooltip(format.red("警告：将该方块放置在世界中可能会导致崩溃，用完请立即破坏"));
 <agricraft:seed_analyzer>.addTooltip(format.red("很快将会被便携式种子分析器取代"));
-<agricraft:peripheral>.addTooltip(format.red("警•告：将该方块放置在世界中可能会导致崩溃，用完请立即破坏"));
+<agricraft:peripheral>.addTooltip(format.red("警告：将该方块放置在世界中可能会导致崩溃，用完请立即破坏"));
 <agricraft:peripheral>.addTooltip(format.red("很快将会被便携式种子分析器取代"));
 
 <contenttweaker:recursive_anomaly>.addTooltip(format.green("可重复使用"));
@@ -397,7 +397,7 @@
 
 <contenttweaker:pressed_spice>.addTooltip(format.red("将正确的香料与正确的开放式方块模组的模板结合，月球维度将指引你"));
 
-<contenttweaker:runic_ore>.addTooltip(format.red("在符境维度，使用挖掘机开采Runic矿床"));
+<contenttweaker:runic_ore>.addTooltip(format.red("在符境维度，使用斗轮式挖掘机开采Runic矿床"));
 <contenttweaker:runic_ore>.addTooltip(format.red("与正确的奇异矿簇（3个）结合，附魔山脉将指引你"));
 
 <contenttweaker:catalyzed_runic_ore>.addTooltip(format.red("将符文矿石与正确的奇异矿簇（3个）结合，附魔山脉将指引你"));
@@ -432,12 +432,12 @@
 
 <contenttweaker:twilight_sigil_of_dominion>.addTooltip(format.green("可重复使用"));
 
-<thermalexpansion:satchel:0>.addTooltip(format.red("警•告：升级有概率会消失，自动拾取功能可能会有bug"));
-<thermalexpansion:satchel:1>.addTooltip(format.red("警•告：升级有概率会消失，自动拾取功能可能会有bug"));
-<thermalexpansion:satchel:2>.addTooltip(format.red("警•告：升级有概率会消失，自动拾取功能可能会有bug"));
-<thermalexpansion:satchel:3>.addTooltip(format.red("警•告：升级有概率会消失，自动拾取功能可能会有bug"));
-<thermalexpansion:satchel:4>.addTooltip(format.red("警•告：升级有概率会消失，自动拾取功能可能会有bug"));
-<thermalexpansion:satchel:100>.addTooltip(format.red("警•告：升级有概率会消失，自动拾取功能可能会有bug"));
+<thermalexpansion:satchel:0>.addTooltip(format.red("警告：升级有概率会消失，自动拾取功能可能会有bug"));
+<thermalexpansion:satchel:1>.addTooltip(format.red("警告：升级有概率会消失，自动拾取功能可能会有bug"));
+<thermalexpansion:satchel:2>.addTooltip(format.red("警告：升级有概率会消失，自动拾取功能可能会有bug"));
+<thermalexpansion:satchel:3>.addTooltip(format.red("警告：升级有概率会消失，自动拾取功能可能会有bug"));
+<thermalexpansion:satchel:4>.addTooltip(format.red("警告：升级有概率会消失，自动拾取功能可能会有bug"));
+<thermalexpansion:satchel:100>.addTooltip(format.red("警告：升级有概率会消失，自动拾取功能可能会有bug"));
 
 <enderio:item_end_steel_bow>.addTooltip(format.red("可施加超限附魔"));
 <botania:starsword>.addTooltip(format.red("可施加超限附魔"));
@@ -656,26 +656,26 @@
 
 <contenttweaker:sparkled_oak_planks>.addTooltip(format.red("将正确的木板与正确的武器结合，三一召唤石将指引你"));
 
-<bewitchment:sigil_mending>.addTooltip(format.red("警•告：在符文台之外Shift+右击符文会导致其消失"));
-<bewitchment:sigil_ruin>.addTooltip(format.red("警•告：在符文台之外Shift+右击符文会导致其消失"));
-<bewitchment:sigil_binding>.addTooltip(format.red("警•告：在符文台之外Shift+右击符文会导致其消失"));
-<bewitchment:sigil_cleansing>.addTooltip(format.red("警•告：在符文台之外Shift+右击符文会导致其消失"));
-<bewitchment:sigil_failure>.addTooltip(format.red("警•告：在符文台之外Shift+右击符文会导致其消失"));
-<bewitchment:sigil_purity>.addTooltip(format.red("警•告：在符文台之外Shift+右击符文会导致其消失"));
-<bewitchment:sigil_luck>.addTooltip(format.red("警•告：在符文台之外Shift+右击符文会导致其消失"));
-<bewitchment:sigil_battle>.addTooltip(format.red("警•告：在符文台之外Shift+右击符文会导致其消失"));
-<bewitchment:sigil_disorientation>.addTooltip(format.red("警•告：在符文台之外Shift+右击符文会导致其消失"));
-<bewitchment:sigil_shrieking>.addTooltip(format.red("警•告：在符文台之外Shift+右击符文会导致其消失"));
-<bewitchment:sigil_sentinel>.addTooltip(format.red("警•告：在符文台之外Shift+右击符文会导致其消失"));
+<bewitchment:sigil_mending>.addTooltip(format.red("警告：在符文台之外Shift+右击符文会导致其消失"));
+<bewitchment:sigil_ruin>.addTooltip(format.red("警告：在符文台之外Shift+右击符文会导致其消失"));
+<bewitchment:sigil_binding>.addTooltip(format.red("警告：在符文台之外Shift+右击符文会导致其消失"));
+<bewitchment:sigil_cleansing>.addTooltip(format.red("警告：在符文台之外Shift+右击符文会导致其消失"));
+<bewitchment:sigil_failure>.addTooltip(format.red("警告：在符文台之外Shift+右击符文会导致其消失"));
+<bewitchment:sigil_purity>.addTooltip(format.red("警告：在符文台之外Shift+右击符文会导致其消失"));
+<bewitchment:sigil_luck>.addTooltip(format.red("警告：在符文台之外Shift+右击符文会导致其消失"));
+<bewitchment:sigil_battle>.addTooltip(format.red("警告：在符文台之外Shift+右击符文会导致其消失"));
+<bewitchment:sigil_disorientation>.addTooltip(format.red("警告：在符文台之外Shift+右击符文会导致其消失"));
+<bewitchment:sigil_shrieking>.addTooltip(format.red("警告：在符文台之外Shift+右击符文会导致其消失"));
+<bewitchment:sigil_sentinel>.addTooltip(format.red("警告：在符文台之外Shift+右击符文会导致其消失"));
 
 <aoa3:hydro_stone>.addTooltip(format.red("暴风维度的水能守护者掉落"));
 <aoa3:hydro_stone>.addTooltip(format.red("用于破坏水能龙蜥的护盾"));
 
 <contenttweaker:infinity_seed>.addTooltip(format.red("感谢NerdySpider为该合成线的物品绘制的纹理！"));
 
-<contenttweaker:warlord_callstone>.addTooltip(format.red("警•告：会产生大量水能宝石！"));
+<contenttweaker:warlord_callstone>.addTooltip(format.red("警告：会产生大量水能宝石！"));
 
-<contenttweaker:whitefire_callstone>.addTooltip(format.red("警•告：不要再渲染范围内放置多于一个结构！会出bug！"));
+<contenttweaker:whitefire_callstone>.addTooltip(format.red("警告：不要再渲染范围内放置多于一个结构！会出bug！"));
 
 <contenttweaker:eldritch_metal_plate>.addTooltip(format.red("通过邪术爪牙召唤石获得"));
 <contenttweaker:eldritch_metal_plate>.addTooltip(format.red("困难模式掉落：Crimson Warfare模组中荒古祭坛生成的邪术构装体"));
@@ -784,7 +784,7 @@
 <nuclearcraft:rad_shielding:1>.addTooltip(format.red("有时会出现合成产物显示不正确的视觉bug，但配方仍然是有效的"));
 <nuclearcraft:rad_shielding:2>.addTooltip(format.red("有时会出现合成产物显示不正确的视觉bug，但配方仍然是有效的"));
 
-<randomthings:spectreenergyinjector>.addTooltip(format.red("警•告：不要直接连接到储能设备，使用不具备无限传输速率的线缆和能量缓存作为替代"));
+<randomthings:spectreenergyinjector>.addTooltip(format.red("警告：不要直接连接到储能设备，使用不具备无限传输速率的线缆和能量缓存作为替代"));
 
 <projecte:item.pe_alchemical_bag:0>.addTooltip(format.red("挺不错的背包，就像原版的末影箱，每种颜色对应一个不同的玩家专用存储空间"));
 <projecte:item.pe_alchemical_bag:1>.addTooltip(format.red("挺不错的背包，就像原版的末影箱，每种颜色对应一个不同的玩家专用存储空间"));
@@ -845,15 +845,15 @@
 
 <contenttweaker:pack_supporter_token>.addTooltip(format.red("Reclipse有个点子！"));
 
-<contenttweaker:corrupted_divine_ore>.addTooltip(format.red("在伽里弗雷维度，使用挖掘机开采Gallifreyan Stones矿床"));
-<contenttweaker:ender_divine_ore>.addTooltip(format.red("在伽里弗雷维度，使用挖掘机开采Gallifreyan Stones矿床"));
-<contenttweaker:ice_divine_ore>.addTooltip(format.red("在伽里弗雷维度，使用挖掘机开采Gallifreyan Stones矿床"));
-<contenttweaker:jungle_divine_ore>.addTooltip(format.red("在伽里弗雷维度，使用挖掘机开采Gallifreyan Stones矿床"));
-<contenttweaker:molten_divine_ore>.addTooltip(format.red("在伽里弗雷维度，使用挖掘机开采Gallifreyan Stones矿床"));
-<contenttweaker:shadow_divine_ore>.addTooltip(format.red("在伽里弗雷维度，使用挖掘机开采Gallifreyan Stones矿床"));
-<contenttweaker:terran_divine_ore>.addTooltip(format.red("在伽里弗雷维度，使用挖掘机开采Gallifreyan Stones矿床"));
+<contenttweaker:corrupted_divine_ore>.addTooltip(format.red("在伽里弗雷维度，使用斗轮式挖掘机开采Gallifreyan Stones矿床"));
+<contenttweaker:ender_divine_ore>.addTooltip(format.red("在伽里弗雷维度，使用斗轮式挖掘机开采Gallifreyan Stones矿床"));
+<contenttweaker:ice_divine_ore>.addTooltip(format.red("在伽里弗雷维度，使用斗轮式挖掘机开采Gallifreyan Stones矿床"));
+<contenttweaker:jungle_divine_ore>.addTooltip(format.red("在伽里弗雷维度，使用斗轮式挖掘机开采Gallifreyan Stones矿床"));
+<contenttweaker:molten_divine_ore>.addTooltip(format.red("在伽里弗雷维度，使用斗轮式挖掘机开采Gallifreyan Stones矿床"));
+<contenttweaker:shadow_divine_ore>.addTooltip(format.red("在伽里弗雷维度，使用斗轮式挖掘机开采Gallifreyan Stones矿床"));
+<contenttweaker:terran_divine_ore>.addTooltip(format.red("在伽里弗雷维度，使用斗轮式挖掘机开采Gallifreyan Stones矿床"));
 
-<forestry:ffarm:*>.addTooltip(format.red("警•告：不要跨区块放置多方块结构，将会导致坏档"));
+<forestry:ffarm:*>.addTooltip(format.red("警告：不要跨区块放置多方块结构，将会导致坏档"));
 <forestry:ffarm:*>.addTooltip(format.red("F3 + G显示区块边界"));
 
 <contenttweaker:radioactive_sentient_meatball>.addTooltip(format.red("通过孤寂界召唤石获得"));
@@ -864,10 +864,10 @@
 
 <contenttweaker:secretive_nightmare_heart>.addTooltip(format.red("通过隐秘潜尾鳄召唤石获得"));
 
-<bloodarsenal:glass_sacrificial_dagger>.addTooltip(format.red("警•告：在装备生命符咒的情况下，使用该物品自杀会清空物品栏"));
-<bloodarsenal:glass_dagger_of_sacrifice>.addTooltip(format.red("警•告：在装备生命符咒的情况下，使用该物品自杀会清空物品栏"));
+<bloodarsenal:glass_sacrificial_dagger>.addTooltip(format.red("警告：在装备生命符咒的情况下，使用该物品自杀会清空物品栏"));
+<bloodarsenal:glass_dagger_of_sacrifice>.addTooltip(format.red("警告：在装备生命符咒的情况下，使用该物品自杀会清空物品栏"));
 
-<enderutilities:builderswand>.addTooltip(format.red("警•告：不要添加到全能魔杖中，会导致崩溃"));
+<enderutilities:builderswand>.addTooltip(format.red("警告：不要添加到全能魔杖中，会导致崩溃"));
 
 <contenttweaker:fluid_matrix_conduit>.addTooltip(format.red("Erohw想在这来点等离子体，我觉得可以！！"));
 
@@ -900,30 +900,30 @@
 
 <mowziesmobs:wrought_axe>.addTooltip(format.red("可施加超限附魔"));
 
-<bewitchment:stone_leonard_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:nether_brick_leonard_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:scorned_brick_leonard_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:gold_leonard_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
+<bewitchment:stone_leonard_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:nether_brick_leonard_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:scorned_brick_leonard_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:gold_leonard_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
 
-<bewitchment:stone_lilith_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:nether_brick_lilith_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:scorned_brick_lilith_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:gold_lilith_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
+<bewitchment:stone_lilith_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:nether_brick_lilith_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:scorned_brick_lilith_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:gold_lilith_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
 
-<bewitchment:stone_baphomet_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:nether_brick_baphomet_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:scorned_brick_baphomet_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:gold_baphomet_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
+<bewitchment:stone_baphomet_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:nether_brick_baphomet_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:scorned_brick_baphomet_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:gold_baphomet_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
 
-<bewitchment:stone_herne_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:nether_brick_herne_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:scorned_brick_herne_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:gold_herne_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
+<bewitchment:stone_herne_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:nether_brick_herne_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:scorned_brick_herne_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:gold_herne_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
 
-<bewitchment:stone_moloch_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:nether_brick_moloch_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:scorned_brick_moloch_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
-<bewitchment:gold_moloch_statue>.addTooltip(format.red("警•告：破坏时可能造成崩溃"));
+<bewitchment:stone_moloch_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:nether_brick_moloch_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:scorned_brick_moloch_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
+<bewitchment:gold_moloch_statue>.addTooltip(format.red("警告：破坏时可能造成崩溃"));
 
 <thaumcraft:creative_flux_sponge>.addTooltip(format.red("与正确的符咒（4个）结合，该物品不会消耗，末结地将指引你"));
 <contenttweaker:meatball_man_charm>.addTooltip(format.red("将咒波清理海绵与正确的符咒（4个）结合，末结地将指引你"));
@@ -932,11 +932,11 @@
 
 <appliedenergistics2:material:59>.addTooltip(format.red("放入量子链接仓以获得无限访问范围"));
 
-<contenttweaker:etherium_saw_blade>.addTooltip(format.red("警•告：在神话处理器：磨粉机中使用时搭配T1 神话线圈"));
+<contenttweaker:etherium_saw_blade>.addTooltip(format.red("警告：在神话处理器：磨粉机中使用时搭配T1 神话线圈"));
 
 <contenttweaker:droplet_of_the_great_snake>.addTooltip(format.red("通过惧惮界召唤石获得"));
 
-<astralsorcery:itemenchantmentamulet>.addTooltip(format.red("警•告：该物品配合保护魔咒会造成卡顿"));
+<astralsorcery:itemenchantmentamulet>.addTooltip(format.red("警告：该物品配合保护魔咒会造成卡顿"));
 
 <mysticalagradditions:stuff:69>.addTooltip(format.green("在复制配方中可重复使用"));
 
@@ -961,15 +961,15 @@
 <contenttweaker:defined_ingot>.addTooltip(format.red("Mathias & MillerGaming321 (主打精神陪伴)"));
 
 
-<dankstorage:dank_1>.addTooltip(format.red("警•告：升级配方会删除内容物，最好使用空的进行升级"));
-<dankstorage:dank_2>.addTooltip(format.red("警•告：升级配方会删除内容物，最好使用空的进行升级"));
-<dankstorage:dank_3>.addTooltip(format.red("警•告：升级配方会删除内容物，最好使用空的进行升级"));
-<dankstorage:dank_4>.addTooltip(format.red("警•告：升级配方会删除内容物，最好使用空的进行升级"));
-<dankstorage:dank_5>.addTooltip(format.red("警•告：升级配方会删除内容物，最好使用空的进行升级"));
-<dankstorage:dank_6>.addTooltip(format.red("警•告：升级配方会删除内容物，最好使用空的进行升级"));
-<dankstorage:dank_7>.addTooltip(format.red("警•告：升级配方会删除内容物，最好使用空的进行升级"));
+<dankstorage:dank_1>.addTooltip(format.red("警告：升级配方会删除内容物，最好使用空的进行升级"));
+<dankstorage:dank_2>.addTooltip(format.red("警告：升级配方会删除内容物，最好使用空的进行升级"));
+<dankstorage:dank_3>.addTooltip(format.red("警告：升级配方会删除内容物，最好使用空的进行升级"));
+<dankstorage:dank_4>.addTooltip(format.red("警告：升级配方会删除内容物，最好使用空的进行升级"));
+<dankstorage:dank_5>.addTooltip(format.red("警告：升级配方会删除内容物，最好使用空的进行升级"));
+<dankstorage:dank_6>.addTooltip(format.red("警告：升级配方会删除内容物，最好使用空的进行升级"));
+<dankstorage:dank_7>.addTooltip(format.red("警告：升级配方会删除内容物，最好使用空的进行升级"));
 
-<immersiveengineering:shader_bag>.addTooltip(format.red("警•告：不要放入ME网络，会导致崩溃"));
+<immersiveengineering:shader_bag>.addTooltip(format.red("警告：不要放入ME网络，会导致崩溃"));
 
 <extrabotany:material:3>.addTooltip(format.red("感谢eximilus在盖亚战斗场地方面的帮助！"));
 
@@ -1006,7 +1006,7 @@
 <divinerpg:divine_shickaxe>.addTooltip(format.red("感谢Angrivator绘制的精美物品边框！"));
 <redstonearsenal:tool.bow_flux>.addTooltip(format.red("感谢Angrivator绘制的精美物品边框！"));
 
-<nae2:part:0>.addTooltip(format.red("警•告：会导致附近的末影箱子和末影蓄水槽出现显示错误"));
+<nae2:part:0>.addTooltip(format.red("警告：会导致附近的末影箱子和末影蓄水槽出现显示错误"));
 
 <gendustry:honey_comb:14022>.addTooltip(format.red("发现于伽里弗雷"));
 
@@ -1122,9 +1122,9 @@
 
 <bigreactors:reactorcoolantport>.addTooltip(format.red("使用极限反应堆模组的扳手进行配置"));
 
-<actuallyadditions:block_greenhouse_glass>.addTooltip(format.red("警•告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
-<botania:lexicon>.addTooltip(format.red("警•告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
-<extrautils2:terraformer:9>.addTooltip(format.red("警•告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
+<actuallyadditions:block_greenhouse_glass>.addTooltip(format.red("警告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
+<botania:lexicon>.addTooltip(format.red("警告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
+<extrautils2:terraformer:9>.addTooltip(format.red("警告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
 
 <rftools:crafter2>.addTooltip(format.red("为同一配方分配多个栏位可以提高合成速度"));
 <rftools:crafter3>.addTooltip(format.red("为同一配方分配多个栏位可以提高合成速度"));
@@ -1139,7 +1139,7 @@
 <contenttweaker:woot_flusher>.addTooltip(format.red("阅读JEI信息框以了解如何重置单种类生物战利品表"));
 
 <buildinggadgets:buildingtool>.addTooltip(format.red("可自动从EMC网络中抽取物品"));
-<buildinggadgets:buildingtool>.addTooltip(format.red("警•告：不要使用热力背包中的方块，可能会导致游戏崩溃"));
+<buildinggadgets:buildingtool>.addTooltip(format.red("警告：不要使用热力背包中的方块，可能会导致游戏崩溃"));
 
 <contenttweaker:rare_loot_table>.addTooltip(format.red("虚无世界生物稀有掉落"));
 
@@ -1183,7 +1183,7 @@
 
 <thaumcraft:stabilizer>.addTooltip(format.red("注魔稳定物（会产生一定量咒波）：查看JEI信息框以获得推荐配置"));
 
-<projecte:item.pe_rm_morning_star>.addTooltip(format.red("警•告：不要使用该物品破坏容器"));
+<projecte:item.pe_rm_morning_star>.addTooltip(format.red("警告：不要使用该物品破坏容器"));
 
 <thaumicenergistics:essentia_import>.addTooltip(format.red("Vamael掌握着禁忌的知识"));
 
@@ -1213,8 +1213,8 @@
 
 <contenttweaker:harbinger_sentient_meatball>.addTooltip(format.red("通过纪念肉丸召唤石获得"));
 
-<erebus:glider_chestplate>.addTooltip(format.red("警•告：穿戴会导致玩家人物坏档"));
-<erebus:glider_chestplate_powered>.addTooltip(format.red("警•告：穿戴会导致玩家人物坏档"));
+<erebus:glider_chestplate>.addTooltip(format.red("警告：穿戴会导致玩家人物坏档"));
+<erebus:glider_chestplate_powered>.addTooltip(format.red("警告：穿戴会导致玩家人物坏档"));
 
 <contenttweaker:furnace_secret_callstone>.addTooltip(format.red("将永燃炉心与正确的颜料（4个）结合，伽里弗雷的熔火熔炉将指引你"));
 
@@ -1236,7 +1236,7 @@
 
 <cyclicmagic:apple_lapis>.addTooltip(format.red("Artemis有种有趣的幽默感"));
 
-<contenttweaker:summons_of_the_shyre_warden>.addTooltip(format.red("警•告：骑士只会被反骑士之杖击败"));
+<contenttweaker:summons_of_the_shyre_warden>.addTooltip(format.red("警告：骑士只会被反骑士之杖击败"));
 <contenttweaker:deknighting_stick>.addTooltip(format.red("对塞尔瑞帝国监守者右击"));
 
 <contenttweaker:eye_of_limbo>.addTooltip(format.green("在召唤塞尔瑞监守者配方中可重复使用"));
@@ -1341,7 +1341,7 @@
 <animus:sigil_chains>.addTooltip(format.red("捕捉生物，包括某些Boss"));
 <animus:sigil_transposition>.addTooltip(format.red("改变方块位置"));
 <animus:sigil_builder>.addTooltip(format.red("激活时，快速放置副手方块"));
-<animus:sigil_consumption>.addTooltip(format.red("散布反物质，非•常•危•险"));
+<animus:sigil_consumption>.addTooltip(format.red("散布反物质，非常危险"));
 <animus:sigil_storm>.addTooltip(format.red("召唤闪电"));
 <animus:sigil_leech>.addTooltip(format.red("消耗背包及周围的植物和树苗来恢复饥饿值"));
 
@@ -1380,9 +1380,9 @@
 
 <twilightforest:charm_of_life_2>.addTooltip(format.red("取消死亡，消耗品"));
 
-<rf-capability-adapter:aecapabilityadapter_part>.addTooltip(format.red("警•告：相邻放置多个可能会导致卡顿"));
+<rf-capability-adapter:aecapabilityadapter_part>.addTooltip(format.red("警告：相邻放置多个可能会导致卡顿"));
 
-<randomthings:timeinabottle>.addTooltip(format.red("警•告：不要对深渊国度和深度怪物学习模组的方块使用"));
+<randomthings:timeinabottle>.addTooltip(format.red("警告：不要对深渊国度和深度怪物学习模组的方块使用"));
 
 <bewitchment:hoof>.addTooltip(format.red("下界的Bafometyr掉落"));
 
@@ -1442,21 +1442,21 @@
 <compactmachines3:machine:4>.addTooltip(format.red("可使用复制-粘贴小帮手或空间仓卡进行压缩合成自动化"));
 <compactmachines3:machine:5>.addTooltip(format.red("可使用复制-粘贴小帮手或空间仓卡进行压缩合成自动化"));
 
-<compactmachines3:machine:0>.addTooltip(format.red("警•告：不要将压缩空间机械相邻放置！"));
-<compactmachines3:machine:1>.addTooltip(format.red("警•告：不要将压缩空间机械相邻放置！"));
-<compactmachines3:machine:2>.addTooltip(format.red("警•告：不要将压缩空间机械相邻放置！"));
-<compactmachines3:machine:4>.addTooltip(format.red("警•告：不要将压缩空间机械相邻放置！"));
-<compactmachines3:machine:3>.addTooltip(format.red("警•告：不要将压缩空间机械相邻放置！"));
-<compactmachines3:machine:5>.addTooltip(format.red("警•告：不要将压缩空间机械相邻放置！"));
+<compactmachines3:machine:0>.addTooltip(format.red("警告：不要将压缩空间机械相邻放置！"));
+<compactmachines3:machine:1>.addTooltip(format.red("警告：不要将压缩空间机械相邻放置！"));
+<compactmachines3:machine:2>.addTooltip(format.red("警告：不要将压缩空间机械相邻放置！"));
+<compactmachines3:machine:4>.addTooltip(format.red("警告：不要将压缩空间机械相邻放置！"));
+<compactmachines3:machine:3>.addTooltip(format.red("警告：不要将压缩空间机械相邻放置！"));
+<compactmachines3:machine:5>.addTooltip(format.red("警告：不要将压缩空间机械相邻放置！"));
 
 <contenttweaker:alchemical_mushroom>.addTooltip(format.green("在黑莲花配方中可重复使用"));
 
-<compactmachines3:machine:0>.addTooltip(format.red("警•告：不要在内部发展神秘时代！会造成崩溃！"));
-<compactmachines3:machine:1>.addTooltip(format.red("警•告：不要在内部发展神秘时代！会造成崩溃！"));
-<compactmachines3:machine:2>.addTooltip(format.red("警•告：不要在内部发展神秘时代！会造成崩溃！"));
-<compactmachines3:machine:4>.addTooltip(format.red("警•告：不要在内部发展神秘时代！会造成崩溃！"));
-<compactmachines3:machine:3>.addTooltip(format.red("警•告：不要在内部发展神秘时代！会造成崩溃！"));
-<compactmachines3:machine:5>.addTooltip(format.red("警•告：不要在内部发展神秘时代！会造成崩溃！"));
+<compactmachines3:machine:0>.addTooltip(format.red("警告：不要在内部发展神秘时代！会造成崩溃！"));
+<compactmachines3:machine:1>.addTooltip(format.red("警告：不要在内部发展神秘时代！会造成崩溃！"));
+<compactmachines3:machine:2>.addTooltip(format.red("警告：不要在内部发展神秘时代！会造成崩溃！"));
+<compactmachines3:machine:4>.addTooltip(format.red("警告：不要在内部发展神秘时代！会造成崩溃！"));
+<compactmachines3:machine:3>.addTooltip(format.red("警告：不要在内部发展神秘时代！会造成崩溃！"));
+<compactmachines3:machine:5>.addTooltip(format.red("警告：不要在内部发展神秘时代！会造成崩溃！"));
 
 <botania:blacklotus:0>.addTooltip(format.red("GalacticSilver有个点子……"));
 
@@ -1492,9 +1492,9 @@
 <microblockcbe:saw_iron>.addTooltip(format.red("与装饰方块合成以将其切成不同形状"));
 <microblockcbe:saw_diamond>.addTooltip(format.red("与装饰方块合成以将其切成不同形状"));
 
-<microblockcbe:saw_stone>.addTooltip(format.red("警•告：大量使用小方块会造成服务器卡顿"));
-<microblockcbe:saw_iron>.addTooltip(format.red("警•告：大量使用小方块会造成服务器卡顿"));
-<microblockcbe:saw_diamond>.addTooltip(format.red("警•告：大量使用小方块会造成服务器卡顿"));
+<microblockcbe:saw_stone>.addTooltip(format.red("警告：大量使用小方块会造成服务器卡顿"));
+<microblockcbe:saw_iron>.addTooltip(format.red("警告：大量使用小方块会造成服务器卡顿"));
+<microblockcbe:saw_diamond>.addTooltip(format.red("警告：大量使用小方块会造成服务器卡顿"));
 
 <contenttweaker:harbinger_sentient_meatball>.addTooltip(format.green("可重复使用"));
 <contenttweaker:radioactive_sentient_meatball>.addTooltip(format.green("可重复使用"));
@@ -1550,11 +1550,11 @@
 
 <randomthings:fertilizeddirt>.addTooltip(format.red("Light真的很想这用玩意"));
 
-<techreborn:recycler>.addTooltip(format.red("消耗任•意物品制作废料"));
+<techreborn:recycler>.addTooltip(format.red("消耗任意物品制作废料"));
 // <techreborn:recycler>.addTooltip(format.red("Overclocker Upgrades do not make this faster"));
 
-<actuallyadditions:block_phantomface>.addTooltip(format.red("警•告：不要与模块化机械的输入输出仓相邻放置"));
-<actuallyadditions:block_phantom_liquiface>.addTooltip(format.red("警•告：不要与模块化机械的输入输出仓相邻放置"));
+<actuallyadditions:block_phantomface>.addTooltip(format.red("警告：不要与模块化机械的输入输出仓相邻放置"));
+<actuallyadditions:block_phantom_liquiface>.addTooltip(format.red("警告：不要与模块化机械的输入输出仓相邻放置"));
 
 <extratrees:food:40>.addTooltip(format.red("发现于下界某处"));
 
@@ -1573,7 +1573,7 @@
 
 <rftools:space_chamber>.addTooltip(format.red("Fieno最喜欢的方块"));
 
-<tardis:fez>.addTooltip(format.red("警•告：不要穿戴该装备，会造成内存泄漏"));
+<tardis:fez>.addTooltip(format.red("警告：不要穿戴该装备，会造成内存泄漏"));
 
 <contenttweaker:just_jambalaya>.addTooltip(format.red("Panda很开心！"));
 
@@ -1624,14 +1624,14 @@
 
 <draconicevolution:energy_storage_core>.addTooltip(format.red("kurryca不希望你崩溃"));
 
-<contenttweaker:rhythm_of_the_great_worm>.addTooltip(format.red("警•告：在护盾破坏之前，召唤的Boss生命值不会减少"));
+<contenttweaker:rhythm_of_the_great_worm>.addTooltip(format.red("警告：在护盾破坏之前，召唤的Boss生命值不会减少"));
 <contenttweaker:rhythm_of_the_great_worm>.addTooltip(format.red("感谢Vamael给出的正确命令！"));
 
 <contenttweaker:rites_of_the_meatball_man>.addTooltip(format.red("使用深渊国度仪式来获得第一桶背叛精华，然后就可以自循环了！"));
 
 <contenttweaker:weaponsmith_callstone>.addTooltip(format.red("仅可在困难模式下合成"));
 
-<contenttweaker:forbidden_meatball_man_rites>.addTooltip(format.red("警•告：在护盾破坏之前，召唤的Boss生命值不会减少"));
+<contenttweaker:forbidden_meatball_man_rites>.addTooltip(format.red("警告：在护盾破坏之前，召唤的Boss生命值不会减少"));
 
 <contenttweaker:requiem_of_the_arbiter>.addTooltip(format.red("召唤石"));
 
@@ -1667,7 +1667,7 @@
 
 <contenttweaker:skelebone_fragment>.addTooltip(format.red("Light喜欢均等消耗物品！"));
 
-<testdummy:dummy>.addTooltip(format.red("警•告：不要为试验假人穿戴盔甲，会导致bug"));
+<testdummy:dummy>.addTooltip(format.red("警告：不要为试验假人穿戴盔甲，会导致bug"));
 
 <contenttweaker:star_of_betrayal>.addTooltip(format.red("感谢Vamael搞清楚了护盾属性！"));
 
@@ -1709,7 +1709,7 @@
 
 <divinerpg:tormented_hood>.addTooltip(format.red("可施加超限附魔"));
 
-<randomthings:advanceditemcollector>.addTooltip(format.red("警•告：在收集器GUI内不要按住Shift点击，会直接删除物品"));
+<randomthings:advanceditemcollector>.addTooltip(format.red("警告：在收集器GUI内不要按住Shift点击，会直接删除物品"));
 
 <contenttweaker:energy_hive>.addTooltip(format.red("多方块升级，车床：处理数量x16"));
 <thaumadditions:adaminite_block>.addTooltip(format.red("多方块升级，自动奥术注魔器：机器速度提高80%"));
@@ -1778,7 +1778,7 @@
 
 <bewitchment:dimensional_sand>.addTooltip(format.red("Lord_Chaos想要更多维度！我觉得可以！！"));
 
-<contenttweaker:arcane_prison_key>.addTooltip(format.red("警•告：该Boss能破坏你的盔甲"));
+<contenttweaker:arcane_prison_key>.addTooltip(format.red("警告：该Boss能破坏你的盔甲"));
 
 <tinker_io:smart_output>.addTooltip(format.red("感谢Lashmak，现在快多了"));
 
@@ -1808,11 +1808,11 @@
 
 <thebetweenlands:swamp_talisman>.addTooltip(format.green("在空间卜石配方中可重复使用"));
 
-<botania:alfheimportal>.addTooltip(format.red("警•告：不要不间断往传送门内投掷物品，可能会导致极大卡顿"));
+<botania:alfheimportal>.addTooltip(format.red("警告：不要不间断往传送门内投掷物品，可能会导致极大卡顿"));
 
-<contenttweaker:mythic_coil_t1>.addTooltip(format.red("警•告：若想使用神话处理器进行自动化，请使用ME机械输出总线 :)"));
-<contenttweaker:mythic_coil_t2>.addTooltip(format.red("警•告：若想使用神话处理器进行自动化，请使用ME机械输出总线 :)"));
-<contenttweaker:mythic_coil_t3>.addTooltip(format.red("警•告：若想使用神话处理器进行自动化，请使用ME机械输出总线 :)"));
+<contenttweaker:mythic_coil_t1>.addTooltip(format.red("警告：若想使用神话处理器进行自动化，请使用ME机械输出总线 :)"));
+<contenttweaker:mythic_coil_t2>.addTooltip(format.red("警告：若想使用神话处理器进行自动化，请使用ME机械输出总线 :)"));
+<contenttweaker:mythic_coil_t3>.addTooltip(format.red("警告：若想使用神话处理器进行自动化，请使用ME机械输出总线 :)"));
 
 <contenttweaker:icy_dreadful_shard>.addTooltip(format.red("感谢NerdySpider重绘的碎片纹理！"));
 <contenttweaker:promethium_shard>.addTooltip(format.red("感谢NerdySpider重绘的碎片纹理！"));
@@ -1869,10 +1869,10 @@
 
 <gendustry:honey_comb:14028>.addTooltip(format.red("我觉得Fieno会喜欢的"));
 
-<xnet:wireless_router>.addTooltip(format.red("警•告：会随机断连关闭"));
-<xnet:antenna_dish>.addTooltip(format.red("警•告：会随机断连关闭"));
-<xnet:antenna>.addTooltip(format.red("警•告：会随机断连关闭"));
-<xnet:antenna_base>.addTooltip(format.red("警•告：会随机断连关闭"));
+<xnet:wireless_router>.addTooltip(format.red("警告：会随机断连关闭"));
+<xnet:antenna_dish>.addTooltip(format.red("警告：会随机断连关闭"));
+<xnet:antenna>.addTooltip(format.red("警告：会随机断连关闭"));
+<xnet:antenna_base>.addTooltip(format.red("警告：会随机断连关闭"));
 
 <xnet:antenna>.addTooltip(format.red("Sbmhawk悲伤逆流成河，这一天都毁了"));
 
@@ -1894,7 +1894,7 @@
 
 <contenttweaker:battle_tower>.addTooltip(format.red("直接，或间接战利品 ;)"));
 
-<extendedcrafting:compressor>.addTooltip(format.red("警•告：很卡，更推荐使用量子聚合机多方块"));
+<extendedcrafting:compressor>.addTooltip(format.red("警告：很卡，更推荐使用量子聚合机多方块"));
 
 <extendedcrafting:singularity_custom:1023>.addTooltip(format.red("不想等神话采掘机的话，可以使用塞尔瑞监守者之石"));
 
@@ -1911,7 +1911,7 @@
 
 <modularmachinery:quantum_condenser_controller>.addTooltip(format.red("感谢Mathias提供的控制器重置配方！"));
 
-<minecraft:hopper_minecart>.addTooltip(format.red("警•告：可能会删除物品，请避免使用"));
+<minecraft:hopper_minecart>.addTooltip(format.red("警告：可能会删除物品，请避免使用"));
 
 <thaumadditions:adaminite_ingot>.addTooltip(format.red("封包合成模组的处理模式可用于自动奥术注魔器"));
 <thaumadditions:mithminite_ingot>.addTooltip(format.red("封包合成模组的处理模式可用于自动奥术注魔器"));
@@ -1943,7 +1943,7 @@
 
 <nae2:reconstruction_chamber>.addTooltip(format.red("与原子再构机相邻放置，以在避免掉落物存在的情况下进行自动化"));
 
-<astralsorcery:blockaltar:*>.addTooltip(format.red("警•告：不要在存有物品时直接破坏该方块"));
+<astralsorcery:blockaltar:*>.addTooltip(format.red("警告：不要在存有物品时直接破坏该方块"));
 
 <contenttweaker:creeponia_wormhole>.addTooltip(format.red("通过蠕变召唤石获得"));
 
