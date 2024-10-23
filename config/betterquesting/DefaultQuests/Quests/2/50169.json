@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    50168
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "actuallyadditions:item_canola_seed"
+      },
+      "name:8": "Canola Seeds"
+    }
+  },
+  "questID:3": 50169,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "actuallyadditions:item_canola_seed"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "forge:bucketfilled",
+          "tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "empoweredoil"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

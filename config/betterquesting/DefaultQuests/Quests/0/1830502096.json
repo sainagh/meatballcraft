@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    946686645
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "I hate to say it, but as bad as it is, the gambling magic of the Meatball Man has its own advantages.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:gambling_sentient_meatball"
+      },
+      "name:8": "Gambling Addiction"
+    }
+  },
+  "questID:3": 1830502096,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "mod_lavacow:intestine"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:lucky_box_aether_bronze"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:lucky_box_aether_silver"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:lucky_box_aether_gold"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:lucky_box_twilight_books"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:lucky_box_twilight_weapons"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    15
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oMobs marked by swords are hunter mobs. if the swords are red, your level is too low, if they\u0027re green you can use them to level up. Savannahs are a good place to start!\n\n§fHere\u0027s a possible hint, violence is directly bound to this magic. Almost as if someone or something wanted us to fight each other till someone \u0027wins\u0027. This definitely does not feel like a law of nature, meaning that it may be mythic in origin.\nStill, I will need more information to say for sure.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "twilightforest:ender_bow"
+      },
+      "name:8": "Hunter Skill"
+    }
+  },
+  "questID:3": 17,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:spawn_egg",
+          "tag:10": {
+            "EntityTag:10": {
+              "id:8": "aoa3:rammerhead"
+            },
+            "display:10": {
+              "Name:8": "Duplicate me to farm Hunter Points"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:giant_skill_crystal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:gunpowder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

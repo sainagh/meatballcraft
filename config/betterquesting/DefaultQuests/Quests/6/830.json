@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20100
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oMakes it night!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:lapis_block"
+      },
+      "name:8": "Imperfect Night Ritual (Useful)"
+    }
+  },
+  "questID:3": 830,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:lapis_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

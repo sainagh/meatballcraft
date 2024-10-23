@@ -1,0 +1,103 @@
+{
+  "preRequisites:11": [
+    20159
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11,
+        "id:8": "botania:lens",
+        "tag:10": {}
+      },
+      "name:8": "Change Functionality of Mana Spreader"
+    }
+  },
+  "questID:3": 2321,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "botania:lens",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "botania:lens",
+          "tag:10": {}
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "botania:lens",
+          "tag:10": {}
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "id:8": "botania:lens",
+          "tag:10": {}
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "id:8": "botania:lens",
+          "tag:10": {}
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "botania:lens",
+          "tag:10": {}
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "extrabotany:lens",
+          "tag:10": {}
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "extrabotany:lens",
+          "tag:10": {}
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 16,
+          "id:8": "botania:lens",
+          "tag:10": {}
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "botania:lens",
+          "tag:10": {}
+        },
+        "10:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "extrabotany:lens",
+          "tag:10": {}
+        },
+        "11:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "extrabotany:lens",
+          "tag:10": {}
+        },
+        "12:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "extrabotany:lens",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

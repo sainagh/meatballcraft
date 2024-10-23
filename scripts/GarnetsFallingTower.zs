@@ -33,7 +33,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:nightmare_incense>
 [<ore:ingotUltimate>, <contenttweaker:forgotten_slime>, <contenttweaker:polytom_shard>, <contenttweaker:forgotten_slime>, <ore:ingotUltimate>]]);  
 
 
-recipes.addHiddenShapeless("trulyaterriblesacrifice",<contenttweaker:eternally_stained_soul>,
+scripts.PuzzleUtil.addPuzzleShapeless("trulyaterriblesacrifice",<contenttweaker:eternally_stained_soul>,
 [<contenttweaker:sacrificial_contract>,
 <enderio:item_soul_vial:1>.withTag({entityId: "divinerpg:fyracryx"}),
 <enderio:item_soul_vial:1>.withTag({entityId: "divinerpg:golem_of_rejuvenation"}),

@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    65
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWARNING: If this is the first time you do forestry, you should follow the instructions in the §cbook of creation§7§o!\nFollow those carefully, and things will be easy!\n\n§fBees are very abundant on Terra, and they seem to be similar to chickens, having the ability to be \u0027bound\u0027 to elements, I should experiment on them!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "forestry:bee_combs"
+      },
+      "name:8": "BUZZwords"
+    }
+  },
+  "questID:3": 99,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gendustry:industrial_scoop",
+          "tag:10": {
+            "charge:3": 5000
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "forestry:bee_combs"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "extrabees:honey_comb"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

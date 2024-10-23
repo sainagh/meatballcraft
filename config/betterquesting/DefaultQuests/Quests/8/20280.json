@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    20276
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTravel using a warp core on a space station",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "minecraft:sand"
+      },
+      "name:8": "Hator"
+    }
+  },
+  "questID:3": 20280,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 150,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Hator",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

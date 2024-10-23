@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20156
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe following flowers are used to generate mana!\n\nThey need to be bound to a mana spreader to send mana into pools!\n\nThe first one you should make is the endoflame. After that, you will be able to unlock more powerful ones!\n\nThe harder it is to automate a flower (generally), the more mana it will produce!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:pool"
+      },
+      "name:8": "Generating Flora"
+    }
+  },
+  "questID:3": 787,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:red_flower"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

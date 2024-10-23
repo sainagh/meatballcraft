@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found between Y\u003d10 and Y\u003d120.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:salt"
+      },
+      "name:8": "Salt"
+    }
+  },
+  "questID:3": 70078,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:salt"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

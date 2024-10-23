@@ -336,4 +336,10 @@ focusingchicken.setForegroundColor(Color.fromHex("850000"));
 focusingchicken.setSpawnType("NONE");
 focusingchicken.register();
 
+var loverchicken = ChickenFactory.createChicken("lovely_chicken", Color.fromHex("78005e"), <item:contenttweaker:lovely_egg>);
+loverchicken.setForegroundColor(Color.fromHex("850000"));
+loverchicken.setSpawnType("NONE");
+loverchicken.register();
+
+
 

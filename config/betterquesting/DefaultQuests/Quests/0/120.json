@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    126
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Here\u0027s an interesting insight. Despite nobody being willing to share what exactly Dimensional Shards really do, I can figure out information about their importance by seeing how the factions involved secure territories.\nBoth the Twilight Horde, and the faction of Corallus and Smash have an explicit desire for territorial control.\nGetting their hands on veins of Dimensional Shards, even very large numbers of them, is not enough, otherwise warfare that employs smaller number of troops would be more beneficial.\nCome in quickly, secure a vein of Shards, dig them, and get out as fast as possible.\nInstead, empires that span through galaxies have an explicit interest in controlling territories on a single planet, and enstablishing territorial control over large areas, both in the sea and on land.\nI am thinking too small here! After all we are dealing with the kardashev scale. I cannot say for sure, but to use these crystals for whatever purpose they have, you\u0027d probably need an extremely large amount, and to secure a stable supply chain, you likely would want control over the entire planet.\nOtherwise, why would someone want to mobilize multiple galaxy-conquering armies for just one single planet?\nI really hope these invaders don\u0027t decide to form alliances. At the moment, their reciprocal conflict is the only thing that\u0027s keeping the testificates alive. A united front will wipe out this planet in no time.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:corallus_polyp"
+      },
+      "name:8": "He controlled the seas"
+    }
+  },
+  "questID:3": 120,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:corallus_polyp"
+            },
+            "TrophyName:8": "Corallus Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:corallus_polyp"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

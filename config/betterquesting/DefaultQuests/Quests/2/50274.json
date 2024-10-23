@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    50178
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Arc Reactor passively produces RF, as well as Arc Residue.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularmachinery:itemblueprint",
+        "tag:10": {
+          "dynamicmachine:8": "modularmachinery:gravitite_enchanter"
+        }
+      },
+      "name:8": "Arc Reactor (Good)"
+    }
+  },
+  "questID:3": 50274,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:arc_reactor"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

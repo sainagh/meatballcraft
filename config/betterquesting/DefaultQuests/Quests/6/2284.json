@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    20055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe Apothecary Mortar and Cauldron can be used to produce potions.\n\nVarious ingredients can be placed in the Apothecary Mortar and groud through right clicking with an empty hand to produce potion essences.\n\nTo make a potion, fill the cauldron with water, drop nether wart or other ingredients into it (JEI will tell you what for each different essence), drop the desired potion essence, and collect the resulting fluid using Condensed Potion Vials.\n\nNot all possible potions are shown in JEI, some are hidden but can be found through other methods.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "xreliquary:apothecary_mortar"
+      },
+      "name:8": "Apothecary Potions"
+    }
+  },
+  "questID:3": 2284,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "xreliquary:apothecary_mortar"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "xreliquary:apothecary_cauldron"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "xreliquary:potion"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

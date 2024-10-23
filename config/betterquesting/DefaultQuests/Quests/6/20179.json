@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20197
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe Really Scary Vishroom is really scary. It unlocks all Thaumcraft knowledge, at the cost of a lot of permanent warp!\n\nHaving access to at least the Dreading Warp Cleanser is a decent idea, having access to the Omothol Warp Cleanser is a very good idea.\n\nTo craft this item, though, you will still need to do a little bit of research by yourself. The following steps are the bare minimum required to unlock this item.\n1. Fundamentals: first steps \u003e discovering alchemy \u003e discovering infusion \u003e discovering auromancy\n2. Alchemy: basic alchemy \u003e alumentum \u003e alchemical metalurgy \u003e essentia smelting \u003e warded jars and labels \n3. Arcane Infusion: basic infusion \u003e infusion \u003e (optional) infusion stablizer",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:magic_mushroom_dark"
+      },
+      "name:8": "Unlock ALL Research"
+    }
+  },
+  "questID:3": 20179,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:magic_mushroom_dark"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

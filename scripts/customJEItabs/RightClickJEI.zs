@@ -64,3 +64,22 @@ rightclick8.addInput(<contenttweaker:vibrating_mithminite_schythe>);
 rightclick8.setOutputs([<contenttweaker:ichor>]);
 rightclick8.build();
 
+val rightclick9 = JEI.createJeiRecipe("right_click_meatball");
+rightclick9.addInput(<contenttweaker:entropic_channeling_fabrial>);
+rightclick9.setOutputs([<contenttweaker:soul_of_entropy>*4]);
+rightclick9.build();
+
+val rightclick10 = JEI.createJeiRecipe("right_click_meatball");
+rightclick10.addInput(<contenttweaker:fluix_soul_fabrial>);
+rightclick10.setOutputs([<contenttweaker:touch_of_the_arbiter>]);
+rightclick10.build();
+
+val rightclick11 = JEI.createJeiRecipe("right_click_meatball");
+rightclick11.addInput(<contenttweaker:hymn_of_the_true_tongue>);
+rightclick11.setOutputs([<contenttweaker:runes_of_the_true_tongue>]);
+rightclick11.build();
+
+val rightclick12 = JEI.createJeiRecipe("right_click_meatball");
+rightclick12.addInput(<contenttweaker:call_of_the_arbiter>);
+rightclick12.setOutputs([<contenttweaker:scale_of_the_ancient_heart>]);
+rightclick12.build();

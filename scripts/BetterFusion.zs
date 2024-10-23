@@ -170,7 +170,7 @@ val betterfluidfusion16 = RecipeBuilder.newBuilder("betterfluidfusion16","linear
 betterfluidfusion16.addEnergyPerTickInput(1000000);
 betterfluidfusion16.addFluidInput(<fluid:americium_243>*1000);
 betterfluidfusion16.addFluidInput(<fluid:neon>*1000);
-betterfluidfusion16.addFluidOutput(<fluid:dubnium>*1000);
+betterfluidfusion16.addFluidOutput(<fluid:dubnium>*10000);
 betterfluidfusion16.addFluidOutput(<fluid:neutron>*1000);
 betterfluidfusion16.build();
 

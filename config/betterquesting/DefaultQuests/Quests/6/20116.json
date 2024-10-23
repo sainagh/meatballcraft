@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20109
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe lightwell produces liquid starlight passively if it has sky access. This is very slow.\n\nItems can be placed in the lightwell to increase the production rate. JEI will show them!\n\nThe dark star crystal is the best for making starlight!\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:blockwell"
+      },
+      "name:8": "Lightwell"
+    }
+  },
+  "questID:3": 20116,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:blockwell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

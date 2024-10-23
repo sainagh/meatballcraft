@@ -42,7 +42,8 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
     if (target.health <= DAMAGE) {
       target.onDeath(IDamageSource.createPlayerDamage(event.player));
       // give custom drop
-      Commands.call("summon Item ~ ~ ~ {Item:{id:\"contenttweaker:stone_of_the_shyre_warden\",Count:32b}}", event.player, event.world, true, true);
+      Commands.call("summon Item ~ ~ ~ {Item:{id:\"contenttweaker:stone_of_the_shyre_warden\",Count:64b}}", event.player, event.world, true, true);
+      Commands.call("summon Item ~ ~ ~ {Item:{id:\"contenttweaker:stone_of_the_shyre_warden\",Count:64b}}", event.player, event.world, true, true);
       // Allows for proper death
       target.health = 0;
       

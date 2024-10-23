@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    20101
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAttracts mobs in a six block radius.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stone_of_the_wizard"
+      },
+      "name:8": "Containment"
+    }
+  },
+  "questID:3": 803,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

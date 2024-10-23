@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20368
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oRight click while in the Dreadlands to open a portal to Omothol.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "abyssalcraft:gatewaykeyjzh"
+      },
+      "name:8": "Cha\u0027Garoth\u0027s R\u0027lyehian Gateway Key"
+    }
+  },
+  "questID:3": 20371,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "abyssalcraft:gatewaykeyjzh"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

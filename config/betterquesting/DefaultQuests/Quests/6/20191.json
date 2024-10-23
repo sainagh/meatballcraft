@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20182
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Golemancy is a strange branch of thaumaturgy. While being very cool on paper (just like rats), it often fails at delivering its promises.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:golem_bell"
+      },
+      "name:8": "Golemancer\u0027s Bell"
+    }
+  },
+  "questID:3": 20191,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:golem_bell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

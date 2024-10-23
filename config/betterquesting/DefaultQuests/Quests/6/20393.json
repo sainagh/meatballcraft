@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    1748
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWhile for most situations essentia transfusers are better, for some of the multiblock automations you may want to use essentia pipes.\n\nEssentia tubes only transport one essentia at a time, but multiple essentias can be in the same line.\n\nThe valve can be used to switch lines on and off.\n\nThe restricted tube can be used to make an output lower priority.\n\nThe directional tube only works one-way.\n\nThe filter can be used to allow passage of only one essentia. Right click with a phial of the desired type to set its whitelist.\n\nThe buffer can be used for intermediate storage of up to 8 essentias. This way multiple types can run through the same line.\n\n\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:tube"
+      },
+      "name:8": "Essentia Piping"
+    }
+  },
+  "questID:3": 20393,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:tube"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:tube_valve"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:tube_restrict"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:tube_oneway"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:tube_filter"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:tube_buffer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

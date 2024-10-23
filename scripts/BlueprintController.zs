@@ -1,467 +1,366 @@
-recipes.addShapeless(<modularmachinery:iron_centrifuge_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:iron_centrifuge"}).reuse(), <modularmachinery:blockcontroller>]);
+import crafttweaker.data.IData;
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
-recipes.addShapeless(<modularmachinery:creation_altar_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:creation_altar"}).reuse(), <modularmachinery:blockcontroller>]);
+global anyBlockControllerDict as IOreDictEntry = oreDict["anyBlockController"];
+anyBlockControllerDict.add(<modularmachinery:blockcontroller>); // For completeness
 
-recipes.addShapeless(<modularmachinery:infinity_furnace_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:infinity_furnace"}).reuse(), <modularmachinery:blockcontroller>]);
+function addController(controller as IItemStack, itemId as IData) {
+    recipes.addShapeless(controller, 
+    [<modularmachinery:itemblueprint>.withTag({dynamicmachine: itemId}).reuse(), <modularmachinery:blockcontroller>]);
+    anyBlockControllerDict.add(controller);
+}
 
-recipes.addShapeless(<modularmachinery:bloodmaster_crucible_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:bloodmaster_crucible"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:iron_centrifuge_controller>, "modularmachinery:iron_centrifuge");
 
-recipes.addShapeless(<modularmachinery:arc_reactor_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:arc_reactor"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:creation_altar_controller>, "modularmachinery:creation_altar");
 
-recipes.addShapeless(<modularmachinery:chaotic_condenser_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:chaotic_condenser"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:infinity_furnace_controller>, "modularmachinery:infinity_furnace");
 
-recipes.addShapeless(<modularmachinery:plasmatic_condenser_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:plasmatic_condenser"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:bloodmaster_crucible_controller>, "modularmachinery:bloodmaster_crucible");
 
-recipes.addShapeless(<modularmachinery:ender_stone_crucible_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ender_stone_crucible"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:arc_reactor_controller>, "modularmachinery:arc_reactor");
 
-recipes.addShapeless(<modularmachinery:plasmatic_controller_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:plasmatic_controller"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:chaotic_condenser_controller>, "modularmachinery:chaotic_condenser");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_crucible_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_crucible"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:plasmatic_condenser_controller>, "modularmachinery:plasmatic_condenser");
 
-recipes.addShapeless(<modularmachinery:infusinator_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:infusinator"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:ender_stone_crucible_controller>, "modularmachinery:ender_stone_crucible");
 
-recipes.addShapeless(<modularmachinery:gravitational_collapser_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:gravitational_collapser"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:plasmatic_controller_controller>, "modularmachinery:plasmatic_controller");
 
-recipes.addShapeless(<modularmachinery:mechanized_coop_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mechanized_coop"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_crucible_controller>, "modularmachinery:mythical_resource_crucible");
 
-recipes.addShapeless(<modularmachinery:shadow_fracturer_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:shadow_fracturer"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:infusinator_controller>, "modularmachinery:infusinator");
 
-recipes.addShapeless(<modularmachinery:token_totem_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:token_totem"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:gravitational_collapser_controller>, "modularmachinery:gravitational_collapser");
 
-recipes.addShapeless(<modularmachinery:compression_engine_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:compression_engine"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mechanized_coop_controller>, "modularmachinery:mechanized_coop");
 
-recipes.addShapeless(<modularmachinery:advanced_compression_engine_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:advanced_compression_engine"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:shadow_fracturer_controller>, "modularmachinery:shadow_fracturer");
 
-recipes.addShapeless(<modularmachinery:meteoric_befaller_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:meteoric_befaller"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:token_totem_controller>, "modularmachinery:token_totem");
 
-recipes.addShapeless(<modularmachinery:processor_clean_room_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:processor_clean_room"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:compression_engine_controller>, "modularmachinery:compression_engine");
 
-recipes.addShapeless(<modularmachinery:safe_nuke_environment_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:safe_nuke_environment"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:advanced_compression_engine_controller>, "modularmachinery:advanced_compression_engine");
 
-recipes.addShapeless(<modularmachinery:me_entropic_sythesizer_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:me_entropic_sythesizer"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:meteoric_befaller_controller>, "modularmachinery:meteoric_befaller");
 
-recipes.addShapeless(<modularmachinery:spatial_crucible_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:spatial_crucible"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:processor_clean_room_controller>, "modularmachinery:processor_clean_room");
 
-recipes.addShapeless(<modularmachinery:compression_turbine_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:compression_turbine"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:safe_nuke_environment_controller>, "modularmachinery:safe_nuke_environment");
 
-recipes.addShapeless(<modularmachinery:soul_accumulator_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:soul_accumulator"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:me_entropic_sythesizer_controller>, "modularmachinery:me_entropic_sythesizer");
 
+addController(<modularmachinery:spatial_crucible_controller>, "modularmachinery:spatial_crucible");
 
+addController(<modularmachinery:compression_turbine_controller>, "modularmachinery:compression_turbine");
 
+addController(<modularmachinery:soul_accumulator_controller>, "modularmachinery:soul_accumulator");
 
 
 
 
 
-recipes.addShapeless(<modularmachinery:arcane_autoworkbench_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:arcane_autoworkbench"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:lp_harvester_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:lp_harvester"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:dragonfire_forge_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dragonfire_forge"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:gaia_altar_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:gaia_altar"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:arcane_autoworkbench_controller>, "modularmachinery:arcane_autoworkbench");
 
-recipes.addShapeless(<modularmachinery:sentient_coagulator_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sentient_coagulator"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:lp_harvester_controller>, "modularmachinery:lp_harvester");
 
-recipes.addShapeless(<modularmachinery:illuminated_enchanter_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:illuminated_enchanter"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:dragonfire_forge_controller>, "modularmachinery:dragonfire_forge");
 
-recipes.addShapeless(<modularmachinery:cold_iron_forge_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:cold_iron_forge"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:gaia_altar_controller>, "modularmachinery:gaia_altar");
 
-recipes.addShapeless(<modularmachinery:valonite_gateway_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:valonite_gateway"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:sentient_coagulator_controller>, "modularmachinery:sentient_coagulator");
 
-recipes.addShapeless(<modularmachinery:dreading_crucible_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dreading_crucible"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:illuminated_enchanter_controller>, "modularmachinery:illuminated_enchanter");
 
-recipes.addShapeless(<modularmachinery:bloodmaster_crucible_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:bloodmaster_crucible"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:cold_iron_forge_controller>, "modularmachinery:cold_iron_forge");
 
-recipes.addShapeless(<modularmachinery:blood_reprocessor_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_reprocessor"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:valonite_gateway_controller>, "modularmachinery:valonite_gateway");
 
-recipes.addShapeless(<modularmachinery:empowered_monolith_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:empowered_monolith"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:dreading_crucible_controller>, "modularmachinery:dreading_crucible");
 
-recipes.addShapeless(<modularmachinery:arcane_autoinfuser_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:arcane_autoinfuser"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:bloodmaster_crucible_controller>, "modularmachinery:bloodmaster_crucible");
 
-recipes.addShapeless(<modularmachinery:essentia_crystallizer_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:essentia_crystallizer"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:blood_reprocessor_controller>, "modularmachinery:blood_reprocessor");
 
-recipes.addShapeless(<modularmachinery:auto_astral_altar_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:auto_astral_altar"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:empowered_monolith_controller>, "modularmachinery:empowered_monolith");
 
-recipes.addShapeless(<modularmachinery:dragonfire_crucible_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dragonfire_crucible"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:arcane_autoinfuser_controller>, "modularmachinery:arcane_autoinfuser");
 
-recipes.addShapeless(<modularmachinery:sterilized_altar_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sterilized_altar"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:essentia_crystallizer_controller>, "modularmachinery:essentia_crystallizer");
 
-recipes.addShapeless(<modularmachinery:botanic_condenser_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:botanic_condenser"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:auto_astral_altar_controller>, "modularmachinery:auto_astral_altar");
 
-recipes.addShapeless(<modularmachinery:pe_sterilizer_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:pe_sterilizer"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:dragonfire_crucible_controller>, "modularmachinery:dragonfire_crucible");
 
-recipes.addShapeless(<modularmachinery:wizardry_combiner_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:wizardry_combiner"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:sterilized_altar_controller>, "modularmachinery:sterilized_altar");
 
-recipes.addShapeless(<modularmachinery:carminite_empowerer_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:carminite_empowerer"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:botanic_condenser_controller>, "modularmachinery:botanic_condenser");
 
-recipes.addShapeless(<modularmachinery:gravitite_enchanter_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:gravitite_enchanter"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:pe_sterilizer_controller>, "modularmachinery:pe_sterilizer");
 
-recipes.addShapeless(<modularmachinery:thaumic_replicator_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:thaumic_replicator"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:wizardry_combiner_controller>, "modularmachinery:wizardry_combiner");
 
-recipes.addShapeless(<modularmachinery:corrupted_library_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:corrupted_library"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:carminite_empowerer_controller>, "modularmachinery:carminite_empowerer");
 
-recipes.addShapeless(<modularmachinery:lilith_altar_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:lilith_altar"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:gravitite_enchanter_controller>, "modularmachinery:gravitite_enchanter");
 
-recipes.addShapeless(<modularmachinery:moloch_altar_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:moloch_altar"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:thaumic_replicator_controller>, "modularmachinery:thaumic_replicator");
 
-recipes.addShapeless(<modularmachinery:essentia_solidifier_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:essentia_solidifier"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:corrupted_library_controller>, "modularmachinery:corrupted_library");
 
-recipes.addShapeless(<modularmachinery:mechanized_essentia_smeltery_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mechanized_essentia_smeltery"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:lilith_altar_controller>, "modularmachinery:lilith_altar");
 
-recipes.addShapeless(<modularmachinery:baphomet_altar_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:baphomet_altar"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:moloch_altar_controller>, "modularmachinery:moloch_altar");
 
-recipes.addShapeless(<modularmachinery:herne_altar_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:herne_altar"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:essentia_solidifier_controller>, "modularmachinery:essentia_solidifier");
 
-recipes.addShapeless(<modularmachinery:blood_god_altar_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_god_altar"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mechanized_essentia_smeltery_controller>, "modularmachinery:mechanized_essentia_smeltery");
 
-recipes.addShapeless(<modularmachinery:blood_god_altar_network_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_god_altar_network"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:baphomet_altar_controller>, "modularmachinery:baphomet_altar");
 
-recipes.addShapeless(<modularmachinery:dimensional_stabilizer_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dimensional_stabilizer"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:herne_altar_controller>, "modularmachinery:herne_altar");
 
-recipes.addShapeless(<modularmachinery:terrestrial_cauldron_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:terrestrial_cauldron"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:blood_god_altar_controller>, "modularmachinery:blood_god_altar");
 
+addController(<modularmachinery:blood_god_altar_network_controller>, "modularmachinery:blood_god_altar_network");
 
+addController(<modularmachinery:dimensional_stabilizer_controller>, "modularmachinery:dimensional_stabilizer");
 
+addController(<modularmachinery:terrestrial_cauldron_controller>, "modularmachinery:terrestrial_cauldron");
 
 
-recipes.addShapeless(<modularmachinery:neutronium_cannon_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:neutronium_cannon"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:neutronium_bombarder_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:neutronium_bombarder"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:particle_accelerator_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:particle_accelerator"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:high_impulse_accelerator_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:high_impulse_accelerator"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:neutronium_cannon_controller>, "modularmachinery:neutronium_cannon");
 
-recipes.addShapeless(<modularmachinery:mythic_accelerator_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_accelerator"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:neutronium_bombarder_controller>, "modularmachinery:neutronium_bombarder");
 
-recipes.addShapeless(<modularmachinery:mythic_excavation_computer_multiblock_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_excavation_computer_multiblock"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:particle_accelerator_controller>, "modularmachinery:particle_accelerator");
 
-recipes.addShapeless(<modularmachinery:the_cube_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:the_cube"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:high_impulse_accelerator_controller>, "modularmachinery:high_impulse_accelerator");
 
+addController(<modularmachinery:mythic_accelerator_controller>, "modularmachinery:mythic_accelerator");
 
+addController(<modularmachinery:mythic_excavation_computer_multiblock_controller>, "modularmachinery:mythic_excavation_computer_multiblock");
 
+addController(<modularmachinery:the_cube_controller>, "modularmachinery:the_cube");
 
 
 
-recipes.addShapeless(<modularmachinery:dyson_sphere_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_sphere"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:dyson_irradiator_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_irradiator"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:dyson_discharger_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:dyson_compressor_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_compressor"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:dyson_sphere_controller>, "modularmachinery:dyson_sphere");
 
-recipes.addShapeless(<modularmachinery:relativistic_collapser_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:relativistic_collapser"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:dyson_irradiator_controller>, "modularmachinery:dyson_irradiator");
 
-recipes.addShapeless(<modularmachinery:definer_two_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:definer_two"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:dyson_discharger_controller>, "modularmachinery:dyson_discharger");
 
-recipes.addShapeless(<modularmachinery:twelve_gates_of_heaven_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:twelve_gates_of_heaven"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:dyson_compressor_controller>, "modularmachinery:dyson_compressor");
 
+addController(<modularmachinery:relativistic_collapser_controller>, "modularmachinery:relativistic_collapser");
 
+addController(<modularmachinery:definer_two_controller>, "modularmachinery:definer_two");
 
+addController(<modularmachinery:twelve_gates_of_heaven_controller>, "modularmachinery:twelve_gates_of_heaven");
 
 
-recipes.addShapeless(<modularmachinery:mythic_processor_alloy_furnace_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_alloy_furnace"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:mythic_processor_empowerer_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_empowerer"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:mythic_processor_pulverizer_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_pulverizer"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:mythic_processor_purifier_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_purifier"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_alloy_furnace_controller>, "modularmachinery:mythic_processor_alloy_furnace");
 
-recipes.addShapeless(<modularmachinery:mythic_processor_muon_extractor_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_muon_extractor"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_empowerer_controller>, "modularmachinery:mythic_processor_empowerer");
 
-recipes.addShapeless(<modularmachinery:mythic_processor_gearworking_die_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_gearworking_die"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_pulverizer_controller>, "modularmachinery:mythic_processor_pulverizer");
 
-recipes.addShapeless(<modularmachinery:mythic_processor_compactor_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_compactor"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_purifier_controller>, "modularmachinery:mythic_processor_purifier");
 
-recipes.addShapeless(<modularmachinery:nightmare_electrolyzer_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:nightmare_electrolyzer"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_muon_extractor_controller>, "modularmachinery:mythic_processor_muon_extractor");
 
-recipes.addShapeless(<modularmachinery:mythic_processor_furnace_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_furnace"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_gearworking_die_controller>, "modularmachinery:mythic_processor_gearworking_die");
 
-recipes.addShapeless(<modularmachinery:mythic_processor_drying_rack_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_drying_rack"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_compactor_controller>, "modularmachinery:mythic_processor_compactor");
 
-recipes.addShapeless(<modularmachinery:inertial_confinement_reactor_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:inertial_confinement_reactor"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:nightmare_electrolyzer_controller>, "modularmachinery:nightmare_electrolyzer");
 
-recipes.addShapeless(<modularmachinery:linear_fusion_accelerator_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:linear_fusion_accelerator"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_furnace_controller>, "modularmachinery:mythic_processor_furnace");
 
-recipes.addShapeless(<modularmachinery:aluminum_lathe_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aluminum_lathe"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_drying_rack_controller>, "modularmachinery:mythic_processor_drying_rack");
 
-recipes.addShapeless(<modularmachinery:blood_god_altar_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_god_altar"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:inertial_confinement_reactor_controller>, "modularmachinery:inertial_confinement_reactor");
 
-recipes.addShapeless(<modularmachinery:plated_carpenter_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:plated_carpenter"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:linear_fusion_accelerator_controller>, "modularmachinery:linear_fusion_accelerator");
 
+addController(<modularmachinery:aluminum_lathe_controller>, "modularmachinery:aluminum_lathe");
 
+addController(<modularmachinery:blood_god_altar_controller>, "modularmachinery:blood_god_altar");
 
+addController(<modularmachinery:plated_carpenter_controller>, "modularmachinery:plated_carpenter");
 
 
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier1_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier1"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier2_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier2"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier3_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier3"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier4_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier4"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier1_controller>, "modularmachinery:mythical_resource_miner_tier1");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier5_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier5"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier2_controller>, "modularmachinery:mythical_resource_miner_tier2");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier6_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier6"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier3_controller>, "modularmachinery:mythical_resource_miner_tier3");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier7_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier7"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier4_controller>, "modularmachinery:mythical_resource_miner_tier4");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier8_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier8"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier5_controller>, "modularmachinery:mythical_resource_miner_tier5");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier9_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier9"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier6_controller>, "modularmachinery:mythical_resource_miner_tier6");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier10_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier10"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier7_controller>, "modularmachinery:mythical_resource_miner_tier7");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier11_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier11"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier8_controller>, "modularmachinery:mythical_resource_miner_tier8");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier12_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier12"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier9_controller>, "modularmachinery:mythical_resource_miner_tier9");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier13_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier13"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier10_controller>, "modularmachinery:mythical_resource_miner_tier10");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier14_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier14"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier11_controller>, "modularmachinery:mythical_resource_miner_tier11");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier15_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier15"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier12_controller>, "modularmachinery:mythical_resource_miner_tier12");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier16_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier16"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier13_controller>, "modularmachinery:mythical_resource_miner_tier13");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier17_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier17"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier14_controller>, "modularmachinery:mythical_resource_miner_tier14");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier18_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier18"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier15_controller>, "modularmachinery:mythical_resource_miner_tier15");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier19_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier19"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier16_controller>, "modularmachinery:mythical_resource_miner_tier16");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier20_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier20"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier17_controller>, "modularmachinery:mythical_resource_miner_tier17");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier21_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier21"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier18_controller>, "modularmachinery:mythical_resource_miner_tier18");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier22_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier22"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier19_controller>, "modularmachinery:mythical_resource_miner_tier19");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier23_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier23"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier20_controller>, "modularmachinery:mythical_resource_miner_tier20");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier24_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier24"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier21_controller>, "modularmachinery:mythical_resource_miner_tier21");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier25_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier25"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier22_controller>, "modularmachinery:mythical_resource_miner_tier22");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier26_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier26"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier23_controller>, "modularmachinery:mythical_resource_miner_tier23");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier27_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier27"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier24_controller>, "modularmachinery:mythical_resource_miner_tier24");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier28_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier28"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier25_controller>, "modularmachinery:mythical_resource_miner_tier25");
 
-recipes.addShapeless(<modularmachinery:mythical_resource_miner_tier29_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier29"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier26_controller>, "modularmachinery:mythical_resource_miner_tier26");
 
-recipes.addShapeless(<modularmachinery:me_mythic_assembler_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:me_mythic_assembler"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier27_controller>, "modularmachinery:mythical_resource_miner_tier27");
 
-recipes.addShapeless(<modularmachinery:quark_decomposer_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:quark_decomposer"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier28_controller>, "modularmachinery:mythical_resource_miner_tier28");
 
-recipes.addShapeless(<modularmachinery:enchanted_greenhouse_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:enchanted_greenhouse"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythical_resource_miner_tier29_controller>, "modularmachinery:mythical_resource_miner_tier29");
 
-recipes.addShapeless(<modularmachinery:salt_repolarizer_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:salt_repolarizer"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:me_mythic_assembler_controller>, "modularmachinery:me_mythic_assembler");
 
-recipes.addShapeless(<modularmachinery:two_phase_fission_reactor_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:two_phase_fission_reactor"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:quark_decomposer_controller>, "modularmachinery:quark_decomposer");
 
-recipes.addShapeless(<modularmachinery:font_of_divinity_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:font_of_divinity"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:enchanted_greenhouse_controller>, "modularmachinery:enchanted_greenhouse");
 
-recipes.addShapeless(<modularmachinery:mythic_processor_rolling_machine_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_rolling_machine"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:salt_repolarizer_controller>, "modularmachinery:salt_repolarizer");
 
-recipes.addShapeless(<modularmachinery:everburning_forge_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:everburning_forge"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:two_phase_fission_reactor_controller>, "modularmachinery:two_phase_fission_reactor");
 
+addController(<modularmachinery:font_of_divinity_controller>, "modularmachinery:font_of_divinity");
 
-recipes.addShapeless(<modularmachinery:sparkled_spinning_wheel_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sparkled_spinning_wheel"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_rolling_machine_controller>, "modularmachinery:mythic_processor_rolling_machine");
 
-recipes.addShapeless(<modularmachinery:honeysmelter_oven_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:honeysmelter_oven"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:everburning_forge_controller>, "modularmachinery:everburning_forge");
 
-recipes.addShapeless(<modularmachinery:whispering_infusion_fountain_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:whispering_infusion_fountain"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:tree_of_life_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:tree_of_life"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:sparkled_spinning_wheel_controller>, "modularmachinery:sparkled_spinning_wheel");
 
-recipes.addShapeless(<modularmachinery:elemental_altar_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:elemental_altar"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:honeysmelter_oven_controller>, "modularmachinery:honeysmelter_oven");
 
-recipes.addShapeless(<modularmachinery:mythic_processor_wiremill_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_wiremill"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:whispering_infusion_fountain_controller>, "modularmachinery:whispering_infusion_fountain");
 
-recipes.addShapeless(<modularmachinery:mythic_processor_assembling_machine_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_assembling_machine"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:tree_of_life_controller>, "modularmachinery:tree_of_life");
 
-recipes.addShapeless(<modularmachinery:mythic_processor_grinder_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_grinder"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:elemental_altar_controller>, "modularmachinery:elemental_altar");
 
-recipes.addShapeless(<modularmachinery:mythic_processor_blaster_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_blaster"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_wiremill_controller>, "modularmachinery:mythic_processor_wiremill");
 
-recipes.addShapeless(<modularmachinery:mythic_processor_gravitite_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_gravitite"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_assembling_machine_controller>, "modularmachinery:mythic_processor_assembling_machine");
 
-recipes.addShapeless(<modularmachinery:mythic_processor_arkencrusher_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_arkencrusher"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_grinder_controller>, "modularmachinery:mythic_processor_grinder");
 
-recipes.addShapeless(<modularmachinery:hypergrowth_insolator_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:hypergrowth_insolator"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_blaster_controller>, "modularmachinery:mythic_processor_blaster");
 
-recipes.addShapeless(<modularmachinery:fluid_matrix_plasma_collider_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fluid_matrix_plasma_collider"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_gravitite_controller>, "modularmachinery:mythic_processor_gravitite");
 
-recipes.addShapeless(<modularmachinery:ziggurat_of_life_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ziggurat_of_life"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:mythic_processor_arkencrusher_controller>, "modularmachinery:mythic_processor_arkencrusher");
 
-recipes.addShapeless(<modularmachinery:berserker_forge_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:berserker_forge"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:hypergrowth_insolator_controller>, "modularmachinery:hypergrowth_insolator");
 
+addController(<modularmachinery:fluid_matrix_plasma_collider_controller>, "modularmachinery:fluid_matrix_plasma_collider");
 
-recipes.addShapeless(<modularmachinery:dyson_discharger_t2_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t2"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:ziggurat_of_life_controller>, "modularmachinery:ziggurat_of_life");
 
-recipes.addShapeless(<modularmachinery:dyson_discharger_t3_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t3"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:berserker_forge_controller>, "modularmachinery:berserker_forge");
 
-recipes.addShapeless(<modularmachinery:dyson_discharger_t4_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t4"}).reuse(), <modularmachinery:blockcontroller>]);
 
-recipes.addShapeless(<modularmachinery:dyson_discharger_t5_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t5"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:dyson_discharger_t2_controller>, "modularmachinery:dyson_discharger_t2");
 
-recipes.addShapeless(<modularmachinery:dyson_discharger_t6_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dyson_discharger_t6"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:dyson_discharger_t3_controller>, "modularmachinery:dyson_discharger_t3");
 
-recipes.addShapeless(<modularmachinery:impetus_syphon_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:impetus_syphon"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:dyson_discharger_t4_controller>, "modularmachinery:dyson_discharger_t4");
 
-recipes.addShapeless(<modularmachinery:sacred_cinders_apiary_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sacred_cinders_apiary"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:dyson_discharger_t5_controller>, "modularmachinery:dyson_discharger_t5");
 
-recipes.addShapeless(<modularmachinery:fractallite_furnace_controller>, 
-[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fractallite_furnace"}).reuse(), <modularmachinery:blockcontroller>]);
+addController(<modularmachinery:dyson_discharger_t6_controller>, "modularmachinery:dyson_discharger_t6");
+
+addController(<modularmachinery:impetus_syphon_controller>, "modularmachinery:impetus_syphon");
+
+addController(<modularmachinery:sacred_cinders_apiary_controller>, "modularmachinery:sacred_cinders_apiary");
+
+addController(<modularmachinery:fractallite_furnace_controller>, "modularmachinery:fractallite_furnace");
+
+addController(<modularmachinery:altar_to_the_name_of_names_controller>, "modularmachinery:altar_to_the_name_of_names");
+
+addController(<modularmachinery:bastion_of_flesh_controller>, "modularmachinery:bastion_of_flesh");
+
+addController(<modularmachinery:mythic_processor_resonator_controller>, "modularmachinery:mythic_processor_resonator");
+
+addController(<modularmachinery:mythic_processor_electrolyzer_controller>, "modularmachinery:mythic_processor_electrolyzer");
+
+addController(<modularmachinery:mythic_processor_isotope_separator_controller>, "modularmachinery:mythic_processor_isotope_separator");
+
+addController(<modularmachinery:sentient_meatball_monument_controller>, "modularmachinery:sentient_meatball_monument");
+
+addController(<modularmachinery:quantum_condenser_controller>, "modularmachinery:quantum_condenser");
+
+addController(<modularmachinery:mythic_processor_melter_controller>, "modularmachinery:mythic_processor_melter");
+
+
+
+// Leave this at the bottom of the file, as it depends on the oredict being filled
+furnace.addRecipe(<modularmachinery:blockcontroller>, anyBlockControllerDict);
+
+
+
+
+
+
+
+
+
+
+

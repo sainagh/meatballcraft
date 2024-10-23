@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    20255
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFind a portal using eyes of ender, and right click them on the frame\n\n§fThe End islands are located on the outer ring of the asteroids orbiting Terra. They are mostly barren, yet, thanks to the presence of atmosphere, they allow for life to exist.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:end_stone"
+      },
+      "name:8": "End Islands"
+    }
+  },
+  "questID:3": 20256,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 1,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "The End",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

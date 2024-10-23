@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20182
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe thaumometer has three main uses.\nIt allows you to see the presence of the two main thaumic fields, vis (good) and flux (bad).\nIt can be used to scan items and blocks (both in world and from the inventory) to reveal the essentia they possess, and to gain knowledge about the thaumic arts.\nIt shows its user the presence of essentia in a given block or machine.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:thaumometer"
+      },
+      "name:8": "Thaumometer"
+    }
+  },
+  "questID:3": 20185,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:thaumometer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

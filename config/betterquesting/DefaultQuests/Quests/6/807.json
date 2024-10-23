@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    20101
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oIncreases the spawn rate of peaceful mobs.\n\nVery useful for will crystal automation!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "bloodmagic:blood_rune"
+      },
+      "name:8": "Peaceful Souls (Useful)"
+    }
+  },
+  "questID:3": 807,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:peaceful_soul"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

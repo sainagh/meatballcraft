@@ -870,3 +870,20 @@ recipes.addShapeless(<nuclearcraft:dust:7>,
 <ore:dustSmallMagnesium>,
 <ore:dustSmallMagnesium>,
 <ore:dustSmallMagnesium>]);
+
+
+//==================================================================
+// magnesium
+
+val ichoriumingot = <ore:ingotIchorium>;
+ichoriumingot.remove(<thaumictinkerer:kamiresource:3>);
+
+val ichoriumnugget = <ore:nuggetIchorium>;
+ichoriumnugget.remove(<thaumictinkerer:kamiresource:5>);
+
+mods.nuclearcraft.manufactory.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
+
+mods.nuclearcraft.melter.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
+mods.nuclearcraft.melter.removeRecipeWithInput([<thaumictinkerer:kamiresource:5>]);
+
+mods.nuclearcraft.pressurizer.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);

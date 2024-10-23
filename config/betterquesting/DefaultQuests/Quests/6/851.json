@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    20102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTeleports entities in the direction of the dusk stone.\n\nIf vengeful will is present, the ritual only works on baby mobs.\n\nIf destructive will is present the ritual only works on adult mobs.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stone_of_the_wizard"
+      },
+      "name:8": "Speed"
+    }
+  },
+  "questID:3": 851,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

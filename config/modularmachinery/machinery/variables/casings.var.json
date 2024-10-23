@@ -15,6 +15,26 @@
         "modularmachinery:blockfluidinputhatch",
         "generalized_output_fluid"
     ],
+    "any_dragonforge_brick": [
+        "iceandfire:dragonforge_lightning_brick",
+        "iceandfire:dragonforge_fire_brick",
+        "iceandfire:dragonforge_ice_brick"
+    ],
+    "any_dragonforge_core": [
+        "iceandfire:dragonforge_lightning_core",
+        "iceandfire:dragonforge_fire_core",
+        "iceandfire:dragonforge_ice_core",
+        "iceandfire:dragonforge_lightning_core_disabled",
+        "iceandfire:dragonforge_fire_core_disabled",
+        "iceandfire:dragonforge_ice_core_disabled"
+    ],
+    "dragonfire_fluids": [
+        "twilightforest:molten_fierymetal",
+        "twilightforest:molten_knightmetal",
+        "tconstruct:molten_manyullyn",
+        "tconstruct:molten_cobalt",
+        "tconstruct:molten_ardite"
+    ],
     "casings_energy": [
         "modularmachinery:blockenergyinputhatch",
         "modularmachinery:blockenergyoutputhatch"
@@ -61,6 +81,12 @@
         "modularmachinery:blockinputbus",
         "modularmachinery:blockmefluidinputbus",
         "modularmachinery:blockmeiteminputbus"
+    ],
+    "both_item_fluid_output": [
+        "modularmachinery:blockfluidoutputhatch",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockmefluidoutputbus",
+        "modularmachinery:blockmeitemoutputbus"
     ],
     "apiary_decoration_soil": [
         "minecraft:grass",

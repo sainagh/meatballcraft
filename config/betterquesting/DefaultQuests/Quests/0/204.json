@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o§7§oAround the overworld, you can find wizards towers. There you can find friendly wizards willing to trade wands and other goodies, as well as arcane workbenches to add spells and upgrade your wands!\n\nMore info in §cMagical Mastery.\n\n§fSome of the creatures I\u0027ve slayed seemed to be holding books that appear to have magical properties.\nBy building a table to analyze them, I stumbled into the art of Wizardry, a spellcasting technique based on knowledge. It seems like I can discover new aspects of this art by trial and error.\nTry to cast spells until they make sense?! What could go wrong?\nAround Terra, some testificates also appear to hold knowledge of this art. Some of them use it to help, others to destroy...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ebwizardry:arcane_workbench"
+      },
+      "name:8": "Playing with Wizardry"
+    }
+  },
+  "questID:3": 204,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "ebwizardry:magic_crystal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:arcane_workbench"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

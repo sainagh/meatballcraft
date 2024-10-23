@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90349
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "buildcrafttransport:pipe_structure"
+      },
+      "name:8": "Cobblestone Structure Pipe"
+    }
+  },
+  "questID:3": 90348,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_structure"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

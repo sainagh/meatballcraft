@@ -236,7 +236,7 @@ recipes.addShaped(<environmentaltech:modifier_creative_flight>,
 
 recipes.addShaped(<environmentaltech:modifier_flight_speed>,
 [[<contenttweaker:gravitite_dust>, <environmentaltech:lonsdaleite_crystal>, <contenttweaker:gravitite_dust>],
-[<contenttweaker:first_order_mythic_fractal>, <environmentaltech:modifier_null>, <contenttweaker:first_order_mythic_fractal>],
+[<environmentaltech:lonsdaleite_crystal>, <environmentaltech:modifier_null>, <environmentaltech:lonsdaleite_crystal>],
 [<contenttweaker:gravitite_dust>, <environmentaltech:lonsdaleite_crystal>, <contenttweaker:gravitite_dust>]]);
 
 recipes.addShaped(<environmentaltech:modifier_strength>,

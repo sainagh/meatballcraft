@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    73
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDo it ASAP\n\n§fMinerals aren\u0027t the only things that hold shyre power, it seems.\nI can sense that the ability to generate tools and weapons able to match shyre \u0027tech\u0027 is the key to defeating such powerful foes.\nIf more energy indeed means more power, I should start worrying about my power throughput soon!\nMore experimentation! More building!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularmachinery:itemblueprint",
+        "tag:10": {
+          "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier3"
+        }
+      },
+      "name:8": "End Mythical Resources"
+    }
+  },
+  "questID:3": 164,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "divinerpg:watching_eye"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "divinerpg:purple_steel"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "divinerpg:bedrock_minibricks"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier3"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

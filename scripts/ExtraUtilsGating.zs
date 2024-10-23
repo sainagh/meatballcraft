@@ -187,19 +187,19 @@ recipes.addShaped(<extrautils2:lawsword>,
 [null, <extrautils2:opinium:8>, null],
 [null, <contenttweaker:essence_of_the_room>, null]]);
 
-recipes.addHiddenShaped("lawkingofpirates", 
+scripts.PuzzleUtil.addPuzzleShaped("lawkingofpirates", 
 <contenttweaker:essence_of_the_room>, 
 [[<minecraft:paper>.withTag({RepairCost: 0, display: {Name: "C"}}), <minecraft:paper>.withTag({RepairCost: 0, display: {Name: "H"}}), <minecraft:paper>.withTag({RepairCost: 0, display: {Name: "A"}})],
 [<minecraft:paper>.withTag({RepairCost: 0, display: {Name: "S"}}), <contenttweaker:recursive_powder>, <minecraft:paper>.withTag({RepairCost: 0, display: {Name: "M"}})],
 [<minecraft:paper>.withTag({RepairCost: 0, display: {Name: "E"}}), <minecraft:paper>.withTag({RepairCost: 0, display: {Name: "R"}}), <minecraft:paper>.withTag({RepairCost: 0, display: {Name: "B"}})]]);
 
-recipes.addHiddenShaped("lawkingofpiratesone", 
+scripts.PuzzleUtil.addPuzzleShaped("lawkingofpiratesone", 
 <contenttweaker:essence_of_the_room>, 
 [[<minecraft:paper>.withTag({RepairCost: 1, display: {Name: "C"}}), <minecraft:paper>.withTag({RepairCost: 1, display: {Name: "H"}}), <minecraft:paper>.withTag({RepairCost: 1, display: {Name: "A"}})],
 [<minecraft:paper>.withTag({RepairCost: 1, display: {Name: "S"}}), <contenttweaker:recursive_powder>, <minecraft:paper>.withTag({RepairCost: 1, display: {Name: "M"}})],
 [<minecraft:paper>.withTag({RepairCost: 1, display: {Name: "E"}}), <minecraft:paper>.withTag({RepairCost: 1, display: {Name: "R"}}), <minecraft:paper>.withTag({RepairCost: 1, display: {Name: "B"}})]]);
 
-recipes.addHiddenShaped("lawkingofpiratesnone", 
+scripts.PuzzleUtil.addPuzzleShaped("lawkingofpiratesnone", 
 <contenttweaker:essence_of_the_room>, 
 [[<minecraft:paper>.withTag({display: {Name: "C"}}), <minecraft:paper>.withTag({display: {Name: "H"}}), <minecraft:paper>.withTag({display: {Name: "A"}})],
 [<minecraft:paper>.withTag({display: {Name: "S"}}), <contenttweaker:recursive_powder>, <minecraft:paper>.withTag({display: {Name: "M"}})],

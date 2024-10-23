@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70121
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Created from a Void Ore Miner.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:lonsdaleite_crystal"
+      },
+      "name:8": "Lonsdaleite Crystal"
+    }
+  },
+  "questID:3": 70181,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:lonsdaleite_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

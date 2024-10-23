@@ -826,6 +826,9 @@ recipes.addShapeless(<contenttweaker:energy_hive>,
 recipes.addShapeless(<contenttweaker:ineffable_light>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
 
+recipes.addShapeless(<contenttweaker:lively_twilight_gem>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
 recipes.addShapeless(<contenttweaker:starlight_sphere>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
 
@@ -862,7 +865,7 @@ recipes.addShapeless(<extendedcrafting:table_basic>,
 recipes.addShapeless(<modularmachinery:blockcontroller>, 
 [<contenttweaker:gamestage_recipe>, <contenttweaker:controller_manual>]);
 
-recipes.addShapeless(<contenttweaker:stone_of_the_shyre_warden>,
+recipes.addShapeless(<contenttweaker:stone_of_the_shyre_warden>*128,
 [<contenttweaker:boss_drop>, <contenttweaker:summons_of_the_shyre_warden>, <contenttweaker:deknighting_stick>]);
 
 // recipes.addShapeless(<contenttweaker:sigil_power>,
@@ -887,6 +890,9 @@ recipes.addShapeless(<contenttweaker:rulers_of_terra_callstone>,
 [<contenttweaker:gamestage_recipe>, <contenttweaker:lore_of_the_meatball_man>]);
 
 recipes.addShapeless(<contenttweaker:undead_botanist_callstone>, 
+[<contenttweaker:gamestage_recipe>, <contenttweaker:lore_of_the_meatball_man>]);
+
+recipes.addShapeless(<contenttweaker:weaponsmith_callstone>, 
 [<contenttweaker:gamestage_recipe>, <contenttweaker:lore_of_the_meatball_man>]);
 
 
@@ -920,3 +926,109 @@ recipes.addShapeless(<contenttweaker:apothecary_stone>,
 
 recipes.addShapeless(<contenttweaker:chaotic_poppet>,
 [<contenttweaker:boss_drop>, <contenttweaker:draconian_prison_key>]);
+
+recipes.addShapeless(<contenttweaker:blood_of_enlightenment>,
+[<contenttweaker:boss_drop>, <contenttweaker:rhythm_of_the_great_worm>]);
+
+recipes.addShapeless(<contenttweaker:fluix_medal>,
+[<contenttweaker:trader_drop>, <contenttweaker:space_station>, <contenttweaker:pixonia_artifact>, <contenttweaker:pixonia_warper>]);
+
+recipes.addShapeless(<contenttweaker:chaotic_gem>,
+[<contenttweaker:trader_drop>, <contenttweaker:lyndenwyrm_warper>]);
+
+recipes.addShapeless(<contenttweaker:star_of_betrayal>,
+[<contenttweaker:boss_drop>, <contenttweaker:forbidden_meatball_man_rites>, <contenttweaker:withering_fabrial>]);
+
+recipes.addShapeless(<contenttweaker:withering_construct>,
+[<contenttweaker:trader_drop>, <contenttweaker:weaponsmith_callstone>]);
+
+recipes.addShapeless(<contenttweaker:eldunari>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:master_of_the_true_tongue_callstone>]);
+
+recipes.addShapeless(<contenttweaker:gambling_sentient_meatball>,
+[<contenttweaker:boss_drop>, <contenttweaker:gambling_addiction_prison_key>]);
+
+recipes.addShapeless(<mowziesmobs:wrought_axe>,
+[<contenttweaker:boss_drop>, <contenttweaker:wrought_summoner>]);
+
+recipes.addShapeless(<contenttweaker:imperfect_anomaly>,
+[<contenttweaker:boss_drop>, <contenttweaker:anomaly_detector_stage_3>]);
+
+recipes.addShapeless(<contenttweaker:spatial_anomaly>,
+[<contenttweaker:boss_drop>, <contenttweaker:anomaly_detector_stage_3>]);
+
+recipes.addShapeless(<contenttweaker:scroll_of_truth_asgard>,
+[<contenttweaker:boss_drop>, <contenttweaker:memory_restoration_ritual>]);
+
+recipes.addShapeless(<contenttweaker:scroll_of_truth_terra>,
+[<contenttweaker:boss_drop>, <contenttweaker:memory_restoration_ritual>]);
+
+recipes.addShapeless(<contenttweaker:scroll_of_truth_twilightforest>,
+[<contenttweaker:boss_drop>, <contenttweaker:memory_restoration_ritual>]);
+
+recipes.addShapeless(<contenttweaker:scroll_of_truth_hator>,
+[<contenttweaker:boss_drop>, <contenttweaker:memory_restoration_ritual>]);
+
+recipes.addShapeless(<contenttweaker:dread_cleansing_fabrial>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:dread_cleansing_callstone>]);
+
+recipes.addShapeless(<gendustry:honey_comb:14019>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:apothecary_prison_key>]);
+
+recipes.addShapeless(<thebetweenlands:sapling_rubber>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:betweenlands_callstone_0>]);
+
+recipes.addShapeless(<thebetweenlands:items_misc:7>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:betweenlands_callstone_0>]);
+
+recipes.addShapeless(<divinerpg:dark_dream_bricks>,
+[<contenttweaker:trader_drop>, <divinerpg:nightmare_bed>]);
+recipes.addShapeless(<divinerpg:light_dream_bricks>,
+[<contenttweaker:trader_drop>, <divinerpg:nightmare_bed>]);
+recipes.addShapeless(<divinerpg:red_dream_bricks>,
+[<contenttweaker:trader_drop>, <divinerpg:nightmare_bed>]);
+
+recipes.addShapeless(<thebetweenlands:swamp_talisman:1>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<thebetweenlands:swamp_talisman:2>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<thebetweenlands:swamp_talisman:3>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<thebetweenlands:swamp_talisman:4>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+
+recipes.addShapeless(<contenttweaker:call_of_the_full_moon>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<contenttweaker:call_of_the_bloodhunt>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<contenttweaker:mark_of_the_soul_scurry>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<contenttweaker:signal_beacon>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<contenttweaker:call_of_the_death_games>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<contenttweaker:creepy_explosive>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<contenttweaker:embiggener>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<contenttweaker:call_of_enigma>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<contenttweaker:witchery_summons>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<contenttweaker:recursive_paper_illager>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<contenttweaker:recursive_paper_abyssal>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+
+recipes.addShapeless(<erebus:materials:0>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<erebus:materials:48>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<erebus:materials:35>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+
+recipes.addShapeless(<contenttweaker:freed_betrayed_soul>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:rites_of_liberation>]);
+
+recipes.addShapeless(<contenttweaker:creeponia_wormhole>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:creeponia_callstone>]);

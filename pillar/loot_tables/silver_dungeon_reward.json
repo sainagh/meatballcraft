@@ -1,0 +1,162 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "aether_legacy:gummy_swet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:gummy_swet"
+        },
+        {
+          "entryName": "aether_legacy:lightning_sword",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:lightning_sword"
+        },
+        {
+          "entryName": "aether_legacy:valkyrie_axe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:valkyrie_axe"
+        },
+        {
+          "entryName": "aether_legacy:valkyrie_shovel",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:valkyrie_shovel"
+        },
+        {
+          "entryName": "aether_legacy:valkyrie_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:valkyrie_pickaxe"
+        },
+        {
+          "entryName": "aether_legacy:holy_sword",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:holy_sword"
+        },
+        {
+          "entryName": "aether_legacy:valkyrie_helmet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:valkyrie_helmet"
+        },
+        {
+          "entryName": "aether_legacy:regeneration_stone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:regeneration_stone"
+        },
+        {
+          "entryName": "aether_legacy:neptune_helmet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:neptune_helmet"
+        },
+        {
+          "entryName": "aether_legacy:neptune_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:neptune_leggings"
+        },
+        {
+          "entryName": "aether_legacy:neptune_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:neptune_chestplate"
+        },
+        {
+          "entryName": "aether_legacy:neptune_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:neptune_boots"
+        },
+        {
+          "entryName": "aether_legacy:neptune_gloves",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:neptune_gloves"
+        },
+        {
+          "entryName": "aether_legacy:invisibility_cape",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:invisibility_cape"
+        },
+        {
+          "entryName": "aether_legacy:valkyrie_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:valkyrie_boots"
+        },
+        {
+          "entryName": "aether_legacy:valkyrie_gloves",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:valkyrie_gloves"
+        },
+        {
+          "entryName": "aether_legacy:valkyrie_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:valkyrie_leggings"
+        },
+        {
+          "entryName": "aether_legacy:valkyrie_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:valkyrie_chestplate"
+        },
+        {
+          "entryName": "aether_legacy:chests/silver_dungeon_reward_sub0",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/silver_dungeon_reward_sub0"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 1.0
+      }
+    }
+  ]
+}

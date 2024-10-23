@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    735
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oSpells of the matching type receive a 60% buff!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ebwizardry:master_necromancy_wand"
+      },
+      "name:8": "Master Necromancer"
+    }
+  },
+  "questID:3": 745,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:master_necromancy_wand"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

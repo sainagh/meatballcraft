@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    20101
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§8§7§oAutomatically places torches from a chest in the surrounding area.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stone_of_the_wizard"
+      },
+      "name:8": "Sol"
+    }
+  },
+  "questID:3": 804,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

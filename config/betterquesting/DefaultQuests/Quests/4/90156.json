@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1232
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oMolecular assemblers are used to perform crafting recipes.\n\nThe more molecular assemblers are touching an interface, the faster it will craft.\n\nAcceleration cards can be used on molecular assemblers!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:molecular_assembler"
+      },
+      "name:8": "Molecular Assembler"
+    }
+  },
+  "questID:3": 90156,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:molecular_assembler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

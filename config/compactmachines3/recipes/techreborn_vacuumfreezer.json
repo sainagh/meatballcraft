@@ -1,0 +1,123 @@
+{
+    "name": "compactmachines3:techreborn_vacuumfreezer",
+    "target-item": "techreborn:vacuum_freezer",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+  
+
+    "input-types": {
+      "a": {
+        "id": "techreborn:machine_casing",
+        "meta": 1,
+        "item": {
+            "id": "techreborn:machine_casing",
+            "meta": 1,
+            "count": 18
+          }
+      },
+      "b": {
+        "id": "techreborn:machine_casing",
+        "meta": 2,
+        "item": {
+            "id": "techreborn:machine_casing",
+            "meta": 2,
+            "count": 8
+          }
+      },
+      "c": {
+        "id": "techreborn:vacuum_freezer",
+        "meta": 7
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{id:\"techreborn:machine_casing\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+      },
+      "b:A": {
+        "nbt": "{id:\"techreborn:machine_casing\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+      },
+      "a:B": {
+        "nbt": "{id:\"techreborn:machine_casing\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},multiblockData:{}}"
+      },
+      "c:A": {
+        "nbt": "{id:\"techreborn:vacuum_freezer\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},Items:[],Crater:{currentTickTime:0.0d},slotConfig:{size:3,slot_0:{slotID:0,side_0:{side:0,config:{config:0},slot:0},side_1:{side:1,config:{config:0},slot:0},side_2:{side:2,config:{config:0},slot:0},side_3:{side:3,config:{config:0},slot:0},side_4:{side:4,config:{config:0},slot:0},side_5:{side:5,config:{config:0},slot:0},input:0b,output:0b,filter:0b},slot_1:{slotID:1,side_0:{side:0,config:{config:0},slot:1},side_1:{side:1,config:{config:0},slot:1},side_2:{side:2,config:{config:0},slot:1},side_3:{side:3,config:{config:0},slot:1},side_4:{side:4,config:{config:0},slot:1},side_5:{side:5,config:{config:0},slot:1},input:0b,output:0b,filter:0b},slot_2:{slotID:2,side_0:{side:0,config:{config:0},slot:2},side_1:{side:1,config:{config:0},slot:2},side_2:{side:2,config:{config:0},slot:2},side_3:{side:3,config:{config:0},slot:2},side_4:{side:4,config:{config:0},slot:2},side_5:{side:5,config:{config:0},slot:2},input:0b,output:0b,filter:0b}},Upgrades:[],TilePowerAcceptor:{energy:0.0d}}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "c:A",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "b:A",
+          "b:A",
+          "b:A"
+        ],
+        [
+          "b:A",
+          "_",
+          "b:A"
+        ],
+        [
+          "b:A",
+          "b:A",
+          "b:A"
+        ]
+      ],
+      [
+        [
+          "a:B",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "a:A",
+          "a:A"
+        ]
+      ]
+    ]
+  
+}

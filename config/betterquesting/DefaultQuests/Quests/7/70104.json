@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFound near lava in mountains.\n\nObtained as a byproduct of pulverizing many nether materials.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 771,
+        "id:8": "thermalfoundation:material"
+      },
+      "name:8": "Sulfur"
+    }
+  },
+  "questID:3": 70104,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 771,
+          "id:8": "thermalfoundation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

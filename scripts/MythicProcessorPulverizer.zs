@@ -756,7 +756,7 @@ mythpulv125.addEnergyPerTickInput(60000);
 mythpulv125.addItemInput(<ore:oreLapis> * 16);
 mythpulv125.addItemOutput(<minecraft:dye:4>*128);
 mythpulv125.addItemOutput(<techreborn:dust:28>*32);
-mythpulv125.addItemOutput(<thermalfoundation:material:771>*16);
+mythpulv125.addItemOutput(<techreborn:dust:37>*16);
 mythpulv125.build();
 
 val mythpulv126 = RecipeBuilder.newBuilder("mythpulv126","mythic_processor_pulverizer",2);
@@ -881,7 +881,7 @@ val mythpulv144 = RecipeBuilder.newBuilder("mythpulv144","mythic_processor_pulve
 mythpulv144.addEnergyPerTickInput(60000);
 mythpulv144.addItemInput(<ore:oreRuby> * 16);
 mythpulv144.addItemOutput(<biomesoplenty:gem:1>*64);
-mythpulv144.addItemOutput(<biomesoplenty:gem:1>*16);
+mythpulv144.addItemOutput(<techreborn:smalldust:43>*16);
 mythpulv144.build();
 
 val mythpulv145 = RecipeBuilder.newBuilder("mythpulv145","mythic_processor_pulverizer",2);
@@ -949,7 +949,7 @@ val mythpulv154 = RecipeBuilder.newBuilder("mythpulv154","mythic_processor_pulve
 mythpulv154.addEnergyPerTickInput(60000);
 mythpulv154.addItemInput(<ore:oreApatite> * 16);
 mythpulv154.addItemOutput(<forestry:apatite>*256);
-mythpulv154.addItemOutput(<thermalfoundation:material:771>*16);
+mythpulv154.addItemOutput(<techreborn:smalldust:37>*16);
 mythpulv154.build();
 
 val mythpulv155 = RecipeBuilder.newBuilder("mythpulv155","mythic_processor_pulverizer",2);
@@ -1165,6 +1165,7 @@ mythpulv187.addEnergyPerTickInput(60000);
 mythpulv187.addItemInput(<ore:oreSphalerite> * 16);
 mythpulv187.addItemOutput(<techreborn:dust:50>*256);
 mythpulv187.addItemOutput(<techreborn:dust:59>*128);
+mythpulv187.addItemOutput(<techreborn:smalldust:58>*16);
 mythpulv187.build();
 
 val mythpulv188 = RecipeBuilder.newBuilder("mythpulv188","mythic_processor_pulverizer",2);
@@ -1264,3 +1265,11 @@ mythpulv203.addEnergyPerTickInput(60000);
 mythpulv203.addItemInput(<ore:ingotRhenium> * 16);
 mythpulv203.addItemOutput(<materialpart:rhenium:dust>*16);
 mythpulv203.build();
+
+val mythpulv204 = RecipeBuilder.newBuilder("mythpulv204","mythic_processor_pulverizer",2);
+mythpulv204.addEnergyPerTickInput(60000);
+mythpulv204.addItemInput(<ore:stoneBasalt> * 16);
+mythpulv204.addItemOutput(<techreborn:dust:4>*16);
+mythpulv204.build();
+
+

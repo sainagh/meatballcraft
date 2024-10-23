@@ -303,9 +303,9 @@ recipes.addShaped(<contenttweaker:defined_supremium_cluster>,
 [<contenttweaker:defined_supremium_catalyst>, <contenttweaker:defined_ingot>, <contenttweaker:defined_supremium_catalyst>],
 [<contenttweaker:defined_supremium_catalyst>, <contenttweaker:defined_supremium_catalyst>, <contenttweaker:defined_supremium_catalyst>]]);
 recipes.addShaped(<contenttweaker:tier_v_defined_seed>,
-[[<contenttweaker:defined_supremium_catalyst>, <mysticalagriculture:crafting:4>, <contenttweaker:defined_supremium_catalyst>],
+[[<contenttweaker:defined_supremium_cluster>, <mysticalagriculture:crafting:4>, <contenttweaker:defined_supremium_cluster>],
 [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>],
-[<contenttweaker:defined_supremium_catalyst>, <mysticalagriculture:crafting:4>, <contenttweaker:defined_supremium_catalyst>]]);
+[<contenttweaker:defined_supremium_cluster>, <mysticalagriculture:crafting:4>, <contenttweaker:defined_supremium_cluster>]]);
 
 recipes.addShaped(<contenttweaker:defined_insanium_cluster>,
 [[<contenttweaker:defined_insanium_catalyst>, <contenttweaker:defined_insanium_catalyst>, <contenttweaker:defined_insanium_catalyst>],
@@ -508,7 +508,7 @@ spatialcruchalite.build();
 
 val halitewarrior = RecipeBuilder.newBuilder("halitewarrior","dyson_irradiator",200);
 halitewarrior.addEnergyPerTickInput(50000000);
-halitewarrior.addFluidInput(<fluid:halite_fluid>*2000);
+halitewarrior.addFluidInput(<fluid:halite_fluid>*250);
 halitewarrior.addFluidInput(<fluid:magnatar_stabilizer>*2000);
 // halitewarrior.addAspectInput("lux",50);
 // halitewarrior.addRainbowInput();

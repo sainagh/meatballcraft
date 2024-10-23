@@ -17,7 +17,7 @@ entangledsingularity.addSlot(IJeiUtils.createItemSlot(95, 50, false)); // main o
 entangledsingularity.addElement(IJeiUtils.createArrowElement(64, 50, 0));
 entangledsingularity.addElement(IJeiUtils.createImageElement("explosion", 68, 25, 16, 16, 0, 0, "contenttweaker:textures/gui/explosion.png", 16, 16));
 entangledsingularity.onTooltip(function(mouseX, mouseY) as string[]{
-  if (mouseX <= 81 && mouseX >= 68 && mouseY <= 22 && mouseY >= 6) {
+  if (mouseX <= 81 && mouseX >= 55 && mouseY <= 25 && mouseY >= 10) {
     return ["扔出所需物品，然后进行爆炸！"];
   }  
   return [];

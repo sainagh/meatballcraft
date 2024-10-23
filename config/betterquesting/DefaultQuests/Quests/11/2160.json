@@ -1,0 +1,75 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    945,
+    996
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDefeat Oblivionaire.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aether_legacy:valkyrie_lance",
+        "tag:10": {
+          "RepairCost:3": 1,
+          "display:10": {
+            "Name:8": "Dauthdaert"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:2": 16,
+              "lvl:2": 75
+            },
+            "1:10": {
+              "id:2": 88,
+              "lvl:2": 20
+            },
+            "2:10": {
+              "id:2": 43,
+              "lvl:2": 20
+            }
+          }
+        }
+      },
+      "name:8": "Dauthdaert"
+    }
+  },
+  "questID:3": 2160,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aether_legacy:valkyrie_lance",
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oDauthdaert§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 16,
+                "lvl:3": 75
+              },
+              "1:10": {
+                "id:3": 88,
+                "lvl:3": 20
+              },
+              "2:10": {
+                "id:3": 43,
+                "lvl:3": 20
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

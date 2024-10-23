@@ -5,6 +5,14 @@
       "damage": "*"
     },
     {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
       "item": "rftools:storage_scanner",
       "damage": "*"
     }
@@ -12,6 +20,14 @@
   "623": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
       "damage": "*"
     },
     {
@@ -25,11 +41,23 @@
     {
       "item": "draconicevolution:grinder",
       "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_slaughter_factory",
+      "damage": "*"
     }
   ],
   "183": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
       "damage": "*"
     },
     {
@@ -43,6 +71,14 @@
       "damage": "*"
     },
     {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
       "item": "rftools:storage_scanner",
       "damage": "*"
     }
@@ -50,6 +86,14 @@
   "184": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
       "damage": "*"
     },
     {
@@ -95,11 +139,23 @@
     {
       "item": "draconicevolution:grinder",
       "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_slaughter_factory",
+      "damage": "*"
     }
   ],
   "818": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
       "damage": "*"
     },
     {
@@ -113,6 +169,14 @@
       "damage": "*"
     },
     {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
       "item": "rftools:storage_scanner",
       "damage": "*"
     }
@@ -120,6 +184,14 @@
   "165": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
       "damage": "*"
     },
     {
@@ -133,11 +205,23 @@
     {
       "item": "draconicevolution:grinder",
       "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_slaughter_factory",
+      "damage": "*"
     }
   ],
   "814": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
       "damage": "*"
     },
     {
@@ -151,6 +235,14 @@
       "damage": "*"
     },
     {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
       "item": "rftools:storage_scanner",
       "damage": "*"
     }
@@ -158,6 +250,14 @@
   "166": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
       "damage": "*"
     },
     {
@@ -171,6 +271,14 @@
       "damage": "*"
     },
     {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
       "item": "rftools:storage_scanner",
       "damage": "*"
     }
@@ -181,6 +289,14 @@
       "damage": "*"
     },
     {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
       "item": "rftools:storage_scanner",
       "damage": "*"
     },
@@ -190,6 +306,10 @@
     },
     {
       "item": "draconicevolution:grinder",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_slaughter_factory",
       "damage": "*"
     }
   ],
@@ -199,6 +319,14 @@
       "damage": "*"
     },
     {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
       "item": "rftools:storage_scanner",
       "damage": "*"
     },
@@ -208,6 +336,10 @@
     },
     {
       "item": "draconicevolution:grinder",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_slaughter_factory",
       "damage": "*"
     }
   ],
@@ -217,6 +349,14 @@
       "damage": "*"
     },
     {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
       "item": "rftools:storage_scanner",
       "damage": "*"
     },
@@ -226,6 +366,10 @@
     },
     {
       "item": "draconicevolution:grinder",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_slaughter_factory",
       "damage": "*"
     }
   ],
@@ -235,6 +379,14 @@
       "damage": "*"
     },
     {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
       "item": "rftools:storage_scanner",
       "damage": "*"
     },
@@ -245,11 +397,23 @@
     {
       "item": "draconicevolution:grinder",
       "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_slaughter_factory",
+      "damage": "*"
     }
   ],
   "802": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
       "damage": "*"
     },
     {
@@ -259,11 +423,23 @@
     {
       "item": "draconicevolution:grinder",
       "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_slaughter_factory",
+      "damage": "*"
     }
   ],
   "1": [
     {
       "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
       "damage": "*"
     }
   ],
@@ -271,31 +447,13 @@
     {
       "item": "xreliquary:rod_of_lyssa",
       "damage": "*"
-    }
-  ],
-  "-1": [
+    },
     {
-      "item": "cyclicmagic:ender_pearl_mounted",
+      "item": "abyssalcraft:scroll",
       "damage": "*"
     },
     {
-      "item": "enderio:item_travel_staff",
-      "damage": "*"
-    },
-    {
-      "item": "minecraft:chorus_fruit",
-      "damage": "*"
-    },
-    {
-      "item": "cyclicmagic:ender_pearl_reuse",
-      "damage": "*"
-    },
-    {
-      "item": "actuallyadditions:item_tele_staff",
-      "damage": "*"
-    },
-    {
-      "item": "enderutilities:enderbow",
+      "item": "abyssalcraft:unique_scroll",
       "damage": "*"
     }
   ],
@@ -417,6 +575,10 @@
     {
       "item": "industrialforegoing:mob_relocator",
       "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_slaughter_factory",
+      "damage": "*"
     }
   ],
   "51": [
@@ -461,6 +623,10 @@
     {
       "item": "draconicevolution:grinder",
       "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_slaughter_factory",
+      "damage": "*"
     }
   ],
   "164": [
@@ -481,6 +647,22 @@
     {
       "item": "draconicevolution:grinder",
       "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_slaughter_factory",
+      "damage": "*"
+    },
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
     }
   ],
   "424": [
@@ -490,6 +672,10 @@
     },
     {
       "item": "industrialforegoing:mob_relocator",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_slaughter_factory",
       "damage": "*"
     }
   ]

@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    20101
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oConsumes leaves, grass, and flowers in a 48 block radius to produce LP for a blood altar located within 10 blocks.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stone_of_the_wizard"
+      },
+      "name:8": "Nature\u0027s Leech"
+    }
+  },
+  "questID:3": 806,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

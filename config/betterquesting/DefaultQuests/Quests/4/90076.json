@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90056
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Black Hole Unit is a very efficient storage method that only accounts for one item. Is it better than a drawer tho?!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "industrialforegoing:black_hole_unit"
+      },
+      "name:8": "Black Hole Unit"
+    }
+  },
+  "questID:3": 90076,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:black_hole_unit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

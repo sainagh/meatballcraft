@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    20270
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse Cha\u0027garoth r\u0027lyehian gateway key.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "abyssalcraft:stone"
+      },
+      "name:8": "Omothol"
+    }
+  },
+  "questID:3": 20271,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 52,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Omothol",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

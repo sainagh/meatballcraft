@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    201138
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "Even More Exotic Materials (Chapter 6)"
+    }
+  },
+  "questID:3": 201139,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:wildwood_star"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    90174
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oProvides infinite energy to your AE2 network.\n\nIf you have this, you won\u0027t need to give power to your controllers and energy acceptors!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:creative_energy_cell"
+      },
+      "name:8": "Creative Energy Cell"
+    }
+  },
+  "questID:3": 90175,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:creative_energy_cell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

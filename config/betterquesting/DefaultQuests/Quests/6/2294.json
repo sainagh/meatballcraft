@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    20064
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCrystals corresponding to the various types of Wizardry can be obtained in a variety of ways. \nHere are all of them.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ebwizardry:grand_crystal"
+      },
+      "name:8": "Elemental Crystals"
+    }
+  },
+  "questID:3": 2294,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "ebwizardry:magic_crystal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "ebwizardry:magic_crystal"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "ebwizardry:magic_crystal"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "ebwizardry:magic_crystal"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "ebwizardry:magic_crystal"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "ebwizardry:magic_crystal"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "ebwizardry:magic_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

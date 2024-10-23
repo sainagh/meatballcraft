@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20397
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oVoid Reinforced: 500",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumadditions:jar_eldritch"
+      },
+      "name:8": "Void Foritified Jar"
+    }
+  },
+  "questID:3": 20253,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumadditions:jar_eldritch"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

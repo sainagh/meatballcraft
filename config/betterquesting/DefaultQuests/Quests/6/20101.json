@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    20099
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThere are all the rituals that can be performed with a base ritual diviner and activation.\n\nThe notable ones are marked as (USEFUL).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bloodmagic:activation_crystal"
+      },
+      "name:8": "Rituals"
+    }
+  },
+  "questID:3": 20101,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:ritual_diviner"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:activation_crystal"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:ritual_controller"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "id:8": "bloodmagic:ritual_stone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

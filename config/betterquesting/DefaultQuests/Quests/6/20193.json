@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    20182
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:caster_basic"
+      },
+      "name:8": "Spellcasting"
+    }
+  },
+  "questID:3": 20193,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:caster_basic"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:wand_workbench"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

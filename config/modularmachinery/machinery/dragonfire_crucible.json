@@ -1,14 +1,14 @@
 {
     "registryname": "dragonfire_crucible",
     "localizedname": "Dragonfire Crucible",
-	"color": "494d52",
+	"color": "1e003d",
     "modifiers": [
         {
             "elements": "thaumadditions:adaminite_block",
             "x": 0,
-            "y": 0,
-            "z": -2,
-            "description": "Replace bottom middle block on wall in front of controller \n to increase machine speed, 6X faster!",
+            "y": 6,
+            "z": 4,
+            "description": "Replace top middle block under the fluid \n to increase machine speed, 6X faster!",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -19,531 +19,1699 @@
     ],
     "parts": [
         {
-            "x": -2,
-            "y": 0,
-            "z": 2,
+            "x": 2,
+            "y": 3,
+            "z": 1,
             "elements": [
-                "generalized_input_item"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "generalized_output_item"
+                "appliedenergistics2:sky_stone_small_brick_stairs@5"
             ]
         },
         {
             "x": 2,
-            "y": 0,
-            "z": 0,
+            "y": 3,
+            "z": 6,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "any_dragonforge_brick"
             ]
         },
         {
-            "x": -2,
-            "y": 0,
-            "z": 4,
+            "x": 2,
+            "y": 3,
+            "z": 7,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "appliedenergistics2:sky_stone_small_brick_stairs@5"
             ]
         },
         {
-            "x": -1,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
+            "x": 2,
+            "y": 3,
             "z": 2,
             "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
+                "any_dragonforge_brick"
             ]
         },
         {
             "x": 3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
+            "y": 4,
             "z": 2,
             "elements": [
-                "generalized_input_item"
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "any_dragonforge_core"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "dragonfire_fluids"
             ]
         },
         {
             "x": 0,
             "y": 0,
-            "z": 4,
+            "z": 8,
             "elements": [
                 "generalized_input_fluid"
             ]
         },
         {
-            "x": 1,
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "iceandfire:dragon_bone_block@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "any_dragonforge_core"
+            ]
+        },
+        {
+            "x": 0,
             "y": 0,
             "z": 4,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "iceandfire:dragon_bone_block@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "iceandfire:dragon_bone_block@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "iceandfire:dragon_bone_block@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "iceandfire:dragon_bone_block@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "iceandfire:dragon_bone_block@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
             ]
         },
         {
             "x": 3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 1,
             "y": 0,
             "z": 2,
             "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "any_dragonforge_brick"
             ]
         },
         {
             "x": -1,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragon_bone_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "iceandfire:dragon_bone_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "iceandfire:dragon_bone_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "iceandfire:dragon_bone_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": -2,
-            "elements": [
-                "iceandfire:dragonforge_fire_core"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "iceandfire:dragonforge_ice_core"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
+            "y": 5,
             "z": 1,
             "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
             ]
         },
         {
             "x": 2,
-            "y": 0,
-            "z": -1,
+            "y": 2,
+            "z": 6,
             "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
             ]
         },
         {
             "x": -3,
             "y": 0,
-            "z": 1,
+            "z": 2,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "appliedenergistics2:sky_stone_small_brick@0"
             ]
         },
         {
-            "x": -2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": -4,
+            "x": -3,
             "y": 0,
             "z": 3,
             "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
+                "appliedenergistics2:sky_stone_small_brick@0"
             ]
         },
         {
             "x": 1,
-            "y": 0,
-            "z": -1,
+            "y": 5,
+            "z": 1,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@0"
             ]
         },
         {
             "x": 0,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
+            "y": 4,
             "z": 0,
             "elements": [
-                "iceandfire:dragonforge_ice_core"
+                "appliedenergistics2:sky_stone_small_brick@0"
             ]
         },
         {
-            "x": -1,
-            "y": 0,
+            "x": 0,
+            "y": 4,
             "z": 1,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
             ]
         },
         {
             "x": -3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
+            "y": 7,
             "z": 4,
             "elements": [
-                "iceandfire:dragonforge_ice_core"
+                "any_dragonforge_core"
             ]
         },
         {
-            "x": 0,
-            "y": 0,
-            "z": 1,
+            "x": -4,
+            "y": 5,
+            "z": 4,
             "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
             ]
         },
         {
             "x": -1,
-            "y": 0,
-            "z": -1,
+            "y": 3,
+            "z": 4,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "appliedenergistics2:sky_stone_small_brick@0"
             ]
         },
         {
             "x": -1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
+            "y": 3,
             "z": 1,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "any_dragonforge_brick"
             ]
         },
         {
-            "x": 0,
-            "y": 0,
-            "z": 3,
+            "x": -1,
+            "y": 3,
+            "z": 0,
             "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
+                "appliedenergistics2:sky_stone_small_brick_stairs@6"
             ]
         },
         {
-            "x": -2,
-            "y": 0,
+            "x": 3,
+            "y": 1,
             "z": 5,
             "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
+                "any_dragonforge_brick"
             ]
         },
         {
-            "x": 0,
-            "y": 2,
-            "z": -2,
+            "x": -1,
+            "y": 3,
+            "z": 8,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "appliedenergistics2:sky_stone_small_brick_stairs@7"
             ]
         },
         {
-            "x": 0,
-            "y": 2,
+            "x": 3,
+            "y": 1,
             "z": 6,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "appliedenergistics2:sky_stone_small_brick_stairs@3"
             ]
         },
         {
-            "x": 2,
-            "y": 2,
-            "z": 4,
+            "x": -1,
+            "y": 3,
+            "z": 7,
             "elements": [
-                "iceandfire:dragonforge_ice_core"
+                "any_dragonforge_brick"
             ]
         },
         {
-            "x": 1,
-            "y": 0,
+            "x": 3,
+            "y": 1,
             "z": 3,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "any_dragonforge_core"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "any_dragonforge_core"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
             ]
         },
         {
             "x": 4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "any_dragonforge_core"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -2,
             "y": 2,
             "z": 2,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "iceandfire:dragon_bone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_brick@0"
             ]
         },
         {
             "x": 3,
             "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
             "z": 1,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "iceandfire:dragon_bone_block@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "any_dragonforge_core"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "any_dragonforge_brick"
             ]
         },
         {
@@ -551,39 +1719,31 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "any_dragonforge_brick"
             ]
         },
         {
-            "x": 4,
+            "x": -1,
             "y": 0,
-            "z": 1,
+            "z": 4,
             "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
+                "iceandfire:dragon_bone_block@4"
             ]
         },
         {
-            "x": 0,
+            "x": -1,
             "y": 0,
-            "z": 5,
+            "z": 8,
             "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
+                "appliedenergistics2:sky_stone_small_brick@0"
             ]
         },
         {
-            "x": 2,
+            "x": 3,
             "y": 0,
-            "z": 3,
+            "z": 2,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
+                "appliedenergistics2:sky_stone_small_brick@0"
             ]
         },
         {
@@ -591,103 +1751,151 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
+                "appliedenergistics2:sky_stone_small_brick@0"
             ]
         },
         {
             "x": 2,
-            "y": 0,
-            "z": 5,
+            "y": 4,
+            "z": 1,
             "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
+                "appliedenergistics2:sky_stone_small_brick@0"
             ]
         },
         {
-            "x": -4,
-            "y": 3,
+            "x": 2,
+            "y": 4,
             "z": 2,
             "elements": [
-                "iceandfire:dragonforge_fire_core"
+                "appliedenergistics2:sky_stone_small_brick@0"
             ]
         },
         {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "iceandfire:dragon_bone_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "iceandfire:dragon_bone_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "iceandfire:dragon_bone_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": -2,
-            "elements": [
-                "iceandfire:dragonforge_ice_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
+            "x": 2,
+            "y": 4,
             "z": 6,
             "elements": [
-                "iceandfire:dragonforge_fire_core"
+                "appliedenergistics2:sky_stone_small_brick@0"
             ]
         },
         {
-            "x": 1,
-            "y": 1,
-            "z": 3,
+            "x": 2,
+            "y": 4,
+            "z": 7,
             "elements": [
-                "iceandfire:dragon_bone_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "iceandfire:dragonforge_fire_core"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
+                "appliedenergistics2:sky_stone_small_brick@0"
             ]
         },
         {
             "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -4,
             "y": 0,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "any_dragonforge_brick"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
             "z": 2,
             "elements": [
-                "iceandfire:dragonforge_fire_brick@0"
+                "appliedenergistics2:sky_stone_small_brick_stairs@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "any_dragonforge_core"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@4"
             ]
         }
     ]}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1221
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDense cables carry up to 32 channels, and they display how many are in use.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 76,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Dense Smart Cable - Fluix"
+    }
+  },
+  "questID:3": 90144,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 76,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

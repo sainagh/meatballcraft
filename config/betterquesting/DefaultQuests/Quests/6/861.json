@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    20123
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe following contellations can be used to add a second attunement to a crystal, to modify its ritual effects.\n\nAlcara: corrupts the ritual, and gives an opposite effect.\n\nGelu: increases range, but lowers speed.\n\nUlteria: increases speed, but lowers range.\n\nVorux: increases range and speed, but the crystal has a chance of breaking.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:itemcelestialcrystal",
+        "tag:10": {
+          "astralsorcery:10": {
+            "crystalProperties:10": {
+              "collectiveCapability:3": 100,
+              "fract:3": 0,
+              "purity:3": 100,
+              "size:3": 900,
+              "sizeOverride:3": -1
+            }
+          }
+        }
+      },
+      "name:8": "Secondary Attunmenet"
+    }
+  },
+  "questID:3": 861,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20156
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThese flowers will let you do some useful stuff!\n\nSome of these will consume mana, some won\u0027t. \n\nThe notable ones are marked as (USEFUL).",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "botania:pool"
+      },
+      "name:8": "Useful Flora"
+    }
+  },
+  "questID:3": 788,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:red_flower"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    788
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§r§7§oConsumes mana to teleport animals.\n\nRight click with a position reader set to a location to set where the entities will be teleported.\n\nDrop a paper on the flower to activate it. \n\nIf done correctly, a particle effect will show up.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:specialflower",
+        "tag:10": {
+          "type:8": "stardustlotus"
+        }
+      },
+      "name:8": "Stardust Lotus"
+    }
+  },
+  "questID:3": 771,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:specialflower",
+          "tag:10": {
+            "type:8": "stardustlotus"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extrabotany:binder",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

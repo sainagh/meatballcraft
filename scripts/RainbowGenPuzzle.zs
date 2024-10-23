@@ -15,7 +15,7 @@ val supershulker = <minecraft:white_shulker_box>.withTag({BlockEntityTag:
     }
 });
 
-recipes.addHiddenShaped("rainbowstone", 
+scripts.PuzzleUtil.addPuzzleShaped("rainbowstone", 
 <contenttweaker:rainbow_core>*64, 
 [[<divinerpg:rainbow_wool>, <divinerpg:rainbow_wool>, <divinerpg:rainbow_wool>],
 [<divinerpg:rainbow_wool>, supershulker, <divinerpg:rainbow_wool>],

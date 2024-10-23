@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    20354
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oRituals can be boosted to have increased range and effects!\n\nTo boost a ritual, place a collector crystal with the same attunement as the ritual nearby, and link it to the altar using a linking tool. \n\nThe better the crystal, the better the boost.\n\nThe effect of the collector crystal is maximized if a multiblock is built around it. Right click the crystal with a sextant to obtain a preview of the multiblock.\n\nClick the crystal in this quest to see a preview of the ritual upgrade multiblock.\n\nTo increase the ritual effects even more, you should add lenses around the ritual.\n\nA light beam coming out of the altar will tell you where to place the lens. After it\u0027s placed, use the linking tool to point it back at the crystal. This will tell you where to place the next lens.\n\nThe better the lens, the better the boost.\n\nIf a ritual is fully boosted (maxed crystals and maximum number of fully maxed lenses), it will produce a special particle effect.\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:blockcelestialcollectorcrystal",
+        "tag:10": {
+          "astralsorcery:10": {
+            "collectorType:3": 1,
+            "constellationName:8": "astralsorcery.constellation.fornax",
+            "crystalProperties:10": {
+              "collectiveCapability:3": 100,
+              "fract:3": 0,
+              "purity:3": 100,
+              "size:3": 900,
+              "sizeOverride:3": -1
+            }
+          }
+        }
+      },
+      "name:8": "Ritual Upgrades"
+    }
+  },
+  "questID:3": 883,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:blockcelestialcollectorcrystal",
+          "tag:10": {
+            "astralsorcery:10": {
+              "collectorType:3": 1,
+              "constellationName:8": "astralsorcery.constellation.discidia",
+              "crystalProperties:10": {
+                "collectiveCapability:3": 100,
+                "fract:3": 0,
+                "purity:3": 100,
+                "size:3": 900,
+                "sizeOverride:3": -1
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

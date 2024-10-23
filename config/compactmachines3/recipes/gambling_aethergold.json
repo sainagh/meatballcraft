@@ -1,0 +1,83 @@
+{
+    "name": "compactmachines3:gambling_aethergold",
+    "target-item": "contenttweaker:lucky_box_aether_gold",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:reprocessed_cosmic_meatball",
+
+    
+  
+
+    "input-types": {
+      "a": {
+        "id": "aether_legacy:dungeon_block",
+        "meta": 4
+      },
+      "b": {
+        "id": "astralsorcery:blockblackmarble",
+        "meta": 0
+      },
+      "c": {
+        "id": "contenttweaker:gambling_sentient_meatball",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "b",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "b",
+          "a"
+        ],
+        [
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "a",
+          "b",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "b",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ]
+      ]
+    ]
+  
+
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    20194
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:matrix_speed"
+      },
+      "name:8": "Infusion Stones"
+    }
+  },
+  "questID:3": 20223,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:matrix_speed"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:matrix_cost"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

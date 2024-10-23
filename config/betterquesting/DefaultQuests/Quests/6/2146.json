@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    1755
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe Catalyzation Chamber is a 3x3x3 multiblock, see the JEI preview for the structure.\n\nRight click the structure with Salis Mundus to form it.\n\nTo make the multiblock function function, place a Stone from Thaumic Wonders in the machine gui.\n\nEach stone has a different functionality:\nAlienist: makes eldritch clusters\nTransmuter: turns ores into other ores and back\nAlchemist: purifies ores\n\nStones have durability, but they can be enchanted with high levels of unbreaking to become nearly infinite.\n\nThe ore inputs are dropped in from the top, and the machine will drop outputs from the front.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicwonders:catalyzation_chamber"
+      },
+      "name:8": "Catalyzation Chamber"
+    }
+  },
+  "questID:3": 2146,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forge:bucketfilled",
+          "tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "fluid_quicksilver"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumicwonders:alienist_stone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:catalyzation_chamber"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

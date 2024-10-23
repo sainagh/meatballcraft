@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    863
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis is how you automate will crystals.\n\nYou will need a fair amount of each will crystal type to start this process (10 or 20 to be safe), but it will run passively after that.\n\nYou will need two rituals, both located in the same chunk. The crack of the fractured crystal should be at the top, and the gathering of the forsaken souls should be at the bottom. You can place both ritual stones on top of each other (see multiblock preview).\n\nSet up a passive mob farm below the rituals. The higher the variety of different animals, the faster this farm will work.\n\nPlace the five will crystal clusters somewhere above the rituals, in the same chunk.\n\nPlace five crucibles nearby the crystals, and pipe will crystals of each type into each.\n\nThe crystal clusters will start growing, and they will drop will crystals on the ground. Use some sort of ranged collector to collect them, and pipe them into the crucibles.\n\nThis setup will produce a surplus of will crystals. They will be made faster than the demon crucibles consume them. Profit!\n\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bloodmagic:demon_crystal"
+      },
+      "name:8": "Farming Will Crystals"
+    }
+  },
+  "questID:3": 864,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:demon_crystal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "bloodmagic:demon_crystal"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "bloodmagic:demon_crystal"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "bloodmagic:demon_crystal"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "bloodmagic:demon_crystal"
+        },
+        "5:10": {
+          "Count:3": 16,
+          "id:8": "bloodmagic:item_demon_crystal"
+        },
+        "6:10": {
+          "Count:3": 16,
+          "Damage:2": 1,
+          "id:8": "bloodmagic:item_demon_crystal"
+        },
+        "7:10": {
+          "Count:3": 16,
+          "Damage:2": 2,
+          "id:8": "bloodmagic:item_demon_crystal"
+        },
+        "8:10": {
+          "Count:3": 16,
+          "Damage:2": 3,
+          "id:8": "bloodmagic:item_demon_crystal"
+        },
+        "9:10": {
+          "Count:3": 16,
+          "Damage:2": 4,
+          "id:8": "bloodmagic:item_demon_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

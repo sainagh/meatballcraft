@@ -1,4 +1,4 @@
-mods.abyssalcraft.Crystallizer.addCrystallization(<contenttweaker:cosmic_fragment_iron>, <abyssalcraft:crystal:0> * 16, <abyssalcraft:crystal:4> * 16, 0.5);
+mods.abyssalcraft.Crystallizer.addCrystallization(<contenttweaker:cosmic_fragment_iron>, <abyssalcraft:crystal:0> * 32, <abyssalcraft:crystal:4> * 16, 0.5);
 
 mods.abyssalcraft.Crystallizer.addCrystallization(<contenttweaker:cosmic_fragment_gold>, <abyssalcraft:crystal:1> * 16, <abyssalcraft:crystal:1> * 16, 0.5);
 

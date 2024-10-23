@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    40
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe lamps from torchmaster are very good at illuminating areas and preventing mob spawns!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "torchmaster:feral_flare_lantern"
+      },
+      "name:8": "Safe Space"
+    }
+  },
+  "questID:3": 706,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:moms_spaghetti"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "solcarrot:food_book"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "torchmaster:feral_flare_lantern"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "torchmaster:mega_torch"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "torchmaster:dread_lamp"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

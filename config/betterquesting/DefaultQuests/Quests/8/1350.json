@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    20254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oObtain the legendary Flint and Furnace!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tardis:telos_sand"
+      },
+      "name:8": "Telos, the Furnace Dimension"
+    }
+  },
+  "questID:3": 1350,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 623,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Telos, the Furnace Dimension",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

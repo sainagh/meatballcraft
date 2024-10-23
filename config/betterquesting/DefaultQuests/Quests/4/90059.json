@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90058
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe compacting drawer allows for multiple compacted version of an item (nuggets ingots blocks) to be extracted.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "storagedrawers:compdrawers"
+      },
+      "name:8": "Compacting Drawer"
+    }
+  },
+  "questID:3": 90059,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "storagedrawers:compdrawers"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

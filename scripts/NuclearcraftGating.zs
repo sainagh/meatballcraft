@@ -626,7 +626,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:turbine_rotor_shaft>
 [<nuclearcraft:alloy:15>, <nuclearcraft:alloy:15>, <contenttweaker:fluxed_electrum_shaft>, <contenttweaker:stellar_alloy_shaft>, <contenttweaker:fluxed_electrum_shaft>, <nuclearcraft:alloy:15>, <nuclearcraft:alloy:15>]]);  
 
 
-recipes.addHiddenShapeless("undeadfuelpuzzle",<contenttweaker:heuf_fuel>,
+scripts.PuzzleUtil.addPuzzleShapeless("undeadfuelpuzzle",<contenttweaker:heuf_fuel>,
 [<contenttweaker:core_of_undeath>,
 <nuclearcraft:neptunium:5>,
 <nuclearcraft:berkelium:4>,
@@ -730,7 +730,7 @@ recipes.addShaped(<contenttweaker:inert_cursed_jewel>,
 [<iceandfire:chain_link>, <contenttweaker:cursed_sapphire>, <iceandfire:chain_link>],
 [<iceandfire:chain_link>, <contenttweaker:radioactive_residue>, <iceandfire:chain_link>]]);
 
-recipes.addHiddenShapeless("activatecursedjewel",<contenttweaker:active_cursed_jewel>,
+scripts.PuzzleUtil.addPuzzleShapeless("activatecursedjewel",<contenttweaker:active_cursed_jewel>,
 [<contenttweaker:inert_cursed_jewel>,
 <divinerpg:realmite_shield>,
 <twilightforest:knightmetal_shield>,
@@ -821,3 +821,8 @@ recipes.addShaped(<nuclearcraft:melter_idle>,
 [[<nuclearcraft:part:1>, <contenttweaker:nethengeic_gem>, <nuclearcraft:part:1>],
 [<enderio:item_material:72>, <nuclearcraft:part:10>, <enderio:item_material:72>],
 [<nuclearcraft:part:1>, <tconstruct:ingots:1>, <nuclearcraft:part:1>]]);
+
+recipes.addShaped(<nuclearcraft:part:12>*2, 
+[[<ore:ingotLunastone>, <contenttweaker:hyperchitinous_plate>, <ore:ingotLunastone>],
+[<redstonearsenal:material:128>, <nuclearcraft:part:10>, <redstonearsenal:material:128>],
+[<ore:ingotLunastone>, <contenttweaker:hyperchitinous_plate>, <ore:ingotLunastone>]]);

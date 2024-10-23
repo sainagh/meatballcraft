@@ -1,0 +1,100 @@
+{
+  "preRequisites:11": [
+    50211
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCoolers lower heat to prevent things from exploding. Each cooler has a different rule (only works if next to block x).",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "nuclearcraft:cooler"
+      },
+      "name:8": "Coolers"
+    }
+  },
+  "questID:3": 50214,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "nuclearcraft:cooler"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "nuclearcraft:cooler"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "nuclearcraft:cooler"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "nuclearcraft:cooler"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "nuclearcraft:cooler"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "nuclearcraft:cooler"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "nuclearcraft:cooler"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "nuclearcraft:cooler"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "id:8": "nuclearcraft:cooler"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "nuclearcraft:cooler"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "nuclearcraft:cooler"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "nuclearcraft:cooler"
+        },
+        "12:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "id:8": "nuclearcraft:cooler"
+        },
+        "13:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "nuclearcraft:cooler"
+        },
+        "14:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "id:8": "nuclearcraft:cooler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

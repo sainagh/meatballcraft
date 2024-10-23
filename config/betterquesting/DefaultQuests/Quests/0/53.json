@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    52
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oNesting pens can be used to automate chickens in a straightforward matter! And there is a chance for a few special drops!\n\nThe net can be used to put chickens in the nesting pens.\n\nTo breed chickens into new species, place two nesting pens facing each other!\n\n§fI can put my chickens in a nesting pen, and they make eggs faster! Who knew that being teleported to an alien planet will allow me to explore my rural side...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hatchery:pen"
+      },
+      "name:8": "Nesting Pen"
+    }
+  },
+  "questID:3": 53,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hatchery:animalnet"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hatchery:pen"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

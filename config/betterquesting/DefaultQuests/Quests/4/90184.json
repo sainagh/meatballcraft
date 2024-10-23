@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1226
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe ME pattern terminal lets you encode recipes into patterns for autocrafting.\n\nPatterns have two modes: \u0027Crafting Pattern\u0027 works for molecular assembler recipes, \u0027Processing Pattern\u0027 mode works for any interface-machine interaction!\n\nPress R on an item in JEI to add it as a recipe. Click and drag items in JEI to add them as recipes manually!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 340,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Pattern Terminal"
+    }
+  },
+  "questID:3": 90184,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 340,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

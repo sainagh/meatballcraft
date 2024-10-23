@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20059
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oEnergy condensers can be used to replicate items with EMC value using the equivalence provided by Relays and Collectors.\n\nMore info in §cbook of creation§7§o to see how to make fast EMC farms using condensers!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "projecte:condenser_mk1"
+      },
+      "name:8": "Energy Condenser"
+    }
+  },
+  "questID:3": 20206,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "projecte:condenser_mk1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

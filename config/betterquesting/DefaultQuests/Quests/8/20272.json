@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    20254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDie in a dimensional door, or use the call to limbo!\n\nWhile for many creatures it is impossible to perceive, nor travel through, higher dimensions, it is possible to explore them thanks to doors left all over the surface of Terra.\nThe key behind these \u0027rifts\u0027 appears to be blood magic. Apparently, if enough life essence is sacrificed, higher dimensions can be \u0027connected to each other\u0027.\nSome of the great secrets of blood arts are hidden in higher-dimensional fortresses that can only be reached through these doors.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 15,
+        "id:8": "dimdoors:fabric"
+      },
+      "name:8": "Dimensional Doors"
+    }
+  },
+  "questID:3": 20272,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 684,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Dimensional Doors",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

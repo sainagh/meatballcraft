@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    20218,
+    1751
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe crucible is a crafting mechanic that uses essentia. Essentia is a magical fluid obtained in a variety of way in thaumcraft.\n\nTo function properly, a crucible needs to be on top of fire, or on top of nitor, and it needs to be full of water. If a crucible is working properly, the water in the crucible will make bubbles.\n\nItems dropped in the crucible will be decomposed into their essentia. Holding shift over an item after having scanned it with the thaumometer will show what essentia they have. Alternatively, all essentia for each item will be shown in JEI.\n\nIf you are wearing the goggles of revealing, you will see the essentia in the crucible.\n\nIf an appropriate combination of essentia is present, items dropped in the crucible will be transformed. JEI lists the available transformations.\n\nEssentia will slowly disappear from the crucible after it is added, and it will turn into flux. Drop quartz slivers in the crucible to collect any leftover essentia, and to avoid flux from building up!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:crucible"
+      },
+      "name:8": "Crucible"
+    }
+  },
+  "questID:3": 20244,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:nitor_yellow"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 9,
+          "id:8": "thaumcraft:nugget"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crucible"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

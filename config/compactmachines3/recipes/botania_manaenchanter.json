@@ -1,6 +1,6 @@
 {
     "name": "compactmachines3:botania_manaenchanter",
-    "target-item": "contenttweaker:gaia_guardian_arena",
+    "target-item": "botania:enchanter",
     "target-meta": 5,
     "target-count": 1,
 

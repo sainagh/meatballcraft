@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70123
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found in the Labyrinth, Hollow Hill, and Dark Tower chests in the Twilight Forest.\n\n- Written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "twilightforest:steeleaf_ingot"
+      },
+      "name:8": "Steeleaf"
+    }
+  },
+  "questID:3": 70191,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:steeleaf_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

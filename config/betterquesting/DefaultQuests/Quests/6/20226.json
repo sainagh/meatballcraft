@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    20194
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTo stabilize thaumcraft infusions, you should place stabilizing blocks around the infusion matrix.\n\nAll stabilizing blocks should be placed following central symmetry with respect to the center pedestal!\n\nThe more variety of stabilizing blocks, the better! Different colors count as different blocks!\n\nIn addition, Stabilizers from Thaumcraft can be used to prevent some bad effects. Redstone Inlays should be used to connect the stabilizers to each pedestal. These should still follow central symmetry.\n\nThe following stabilizing blocks are listed in order of stability power (you should have at most 6 of each):\nCandelabra,\nCandles,\nMob heads",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:candle_white"
+      },
+      "name:8": "Passive Stabilizers"
+    }
+  },
+  "questID:3": 20226,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:candle_white"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "minecraft:skull"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:candelabra_gold"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

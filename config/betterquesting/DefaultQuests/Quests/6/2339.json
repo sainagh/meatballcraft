@@ -1,0 +1,151 @@
+{
+  "preRequisites:11": [
+    20094
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bloodmagic:sigil_fast_miner",
+        "tag:10": {}
+      },
+      "name:8": "Less Notable Sigils"
+    }
+  },
+  "questID:3": 2339,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_fast_miner",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_phantom_bridge",
+          "tag:10": {}
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_whirlwind",
+          "tag:10": {}
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_compression",
+          "tag:10": {}
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_ender_severance",
+          "tag:10": {}
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_holding"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_teleposition"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_transposition"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "bloodarsenal:sigil_lightning"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "id:8": "bloodarsenal:sigil_sentience"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_water"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_lava"
+        },
+        "12:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_void"
+        },
+        "13:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_green_grove",
+          "tag:10": {}
+        },
+        "14:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_blood_light",
+          "tag:10": {}
+        },
+        "15:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_elemental_affinity",
+          "tag:10": {}
+        },
+        "16:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_magnetism",
+          "tag:10": {}
+        },
+        "17:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_suppression",
+          "tag:10": {}
+        },
+        "18:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_haste",
+          "tag:10": {}
+        },
+        "19:10": {
+          "Count:3": 1,
+          "id:8": "animus:sigil_builder",
+          "tag:10": {}
+        },
+        "20:10": {
+          "Count:3": 1,
+          "id:8": "animus:sigil_storm"
+        },
+        "21:10": {
+          "Count:3": 1,
+          "id:8": "animus:sigil_leech",
+          "tag:10": {}
+        },
+        "22:10": {
+          "Count:3": 1,
+          "id:8": "bloodarsenal:sigil_swimming",
+          "tag:10": {}
+        },
+        "23:10": {
+          "Count:3": 1,
+          "id:8": "bloodarsenal:sigil_ender",
+          "tag:10": {}
+        },
+        "24:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_claw",
+          "tag:10": {}
+        },
+        "25:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_bounce",
+          "tag:10": {}
+        },
+        "26:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:sigil_frost",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

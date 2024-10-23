@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    70120
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 48,
+        "id:8": "techreborn:dust"
+      },
+      "name:8": "Sodalite Dust"
+    }
+  },
+  "questID:3": 70170,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 48,
+          "id:8": "techreborn:dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

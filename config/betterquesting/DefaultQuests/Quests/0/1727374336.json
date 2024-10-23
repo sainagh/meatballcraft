@@ -1,0 +1,17 @@
+{
+  "preRequisites:11": [
+    1337626444
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "Kashan"
+    }
+  },
+  "questID:3": 1727374336,
+  "tasks:9": {}
+}

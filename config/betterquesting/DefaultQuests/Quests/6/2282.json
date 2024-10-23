@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    2280
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe Gold Dimensional Door works like its iron counterpart, but the pocket resulting dimension will remain chunkloaded.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "dimdoors:gold_dimensional_door"
+      },
+      "name:8": "Loaded Pocket Dimension"
+    }
+  },
+  "questID:3": 2282,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "dimdoors:gold_dimensional_door"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

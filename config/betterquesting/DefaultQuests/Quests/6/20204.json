@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    20205,
+    20215
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Alchemical coal can be obtained using equivalence conversion with a Philosopher Stone, or by infusing glowstone using a collector.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "projecte:item.pe_fuel"
+      },
+      "name:8": "Alchemical Coal",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 20204,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "projecte:item.pe_fuel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

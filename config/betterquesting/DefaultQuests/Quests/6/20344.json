@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    20336
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oChalk is used to draw rituals to produce special effects, summon mobs, or obtain items.\n\nRituals require an active altar nearby to function.\n\nRight click the ground with chalk to draw runes.\n\nIf a ritual requires items, right click them on the center rune!\n\nThere are three tiers of rituals, corresponding to the three colors of chalk! \n\nThe middle chalk is always yellow! Right click it to start the ritual!\n\nThe following quests list all rituals and what they do! JEI will list how to draw them!\n\nThe notable ones are marked as (USEFUL).\n\n\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:ritual_chalk"
+      },
+      "name:8": "Rituals"
+    }
+  },
+  "questID:3": 20344,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:ritual_chalk"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:focal_chalk"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

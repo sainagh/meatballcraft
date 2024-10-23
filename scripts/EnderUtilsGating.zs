@@ -15,3 +15,5 @@ recipes.remove(<enderutilities:enderpart:2>);
 mods.thermalexpansion.InductionSmelter.addRecipe(<enderutilities:enderpart:2>*2, 
 <thermalfoundation:material:166>, <enderutilities:enderpart:1>*2, 
 5000);
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<enderio:item_alloy_ingot:2>, <minecraft:iron_ingot>, <enderutilities:enderpart:0>*2]);

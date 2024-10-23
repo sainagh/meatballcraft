@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70122
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The ore spawns in the Aether.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aether_legacy:enchanted_gravitite"
+      },
+      "name:8": "Enchanted Gravitite"
+    }
+  },
+  "questID:3": 70189,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aether_legacy:enchanted_gravitite"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

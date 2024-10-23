@@ -57,6 +57,7 @@ key_key.ebwizardry.spell_6:7:ALT
 key_key.ebwizardry.spell_7:8:ALT
 key_key.ebwizardry.spell_8:9:ALT
 key_key.betterquesting.quests:37:NONE
+key_key.betterquesting.back:14:NONE
 key_key.conarm.toggle_helm.desc:0:NONE
 key_key.conarm.toggle_chest.desc:0:NONE
 key_key.conarm.toggle_leg.desc:0:NONE
@@ -199,7 +200,7 @@ key_xreliquary.keybind.fortune_coin:0:NONE
 key_key.radial_menu:74:NONE
 key_key.use_ring:0:NONE
 key_key.use_secondary_ring:0:NONE
-key_key.open_pouch:0:NONE
+key_key.open_pouch:40:NONE
 key_key.connect_caving_rope:0:NONE
 key_tardis.keybinds.demat_remat_anim:36:NONE
 key_key.carpet_forward:17:NONE

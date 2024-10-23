@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    20064
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oRenmant spawners can be found in the Overworld, and they drop various types of spectral dusts.\n\nThese can be used as a resource to craft the various elemental crystals in imbuement altars, which are also found in the Overworld.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 7,
+        "id:8": "ebwizardry:spectral_dust"
+      },
+      "name:8": "Spectral Dusts"
+    }
+  },
+  "questID:3": 2295,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "ebwizardry:spectral_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "ebwizardry:spectral_dust"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "ebwizardry:spectral_dust"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "ebwizardry:spectral_dust"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "ebwizardry:spectral_dust"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "ebwizardry:spectral_dust"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "ebwizardry:spectral_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

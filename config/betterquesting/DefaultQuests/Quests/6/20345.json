@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    20336
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe codex infernalis unlocks the demonic rituals!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "patchouli:guide_book",
+        "tag:10": {
+          "patchouli:book:8": "bewitchment:codex_infernalis"
+        }
+      },
+      "name:8": "Codex Infernalis"
+    }
+  },
+  "questID:3": 20345,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "patchouli:guide_book",
+          "tag:10": {
+            "patchouli:book:8": "bewitchment:codex_infernalis"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

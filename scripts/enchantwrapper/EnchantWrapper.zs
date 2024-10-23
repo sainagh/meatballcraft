@@ -104,21 +104,19 @@ zenClass SuperEnchantedItem {
   
   // Writes the name/tooltip to display on the wrapper item.
   function writeDisplayData(item as IItemStack) {
-    val displayedName = this.wrapperItem.displayName + " §r§f(" + item.displayName + ")";
-    var displayedEnchants = [] as string[];
+    var info = ["§r§fItem: " + item.displayName] as string[];
     for enchantEntry in this.mapNBT.delayedEnch.asList() {
       for name, level in enchantEntry.asMap() {
         val enchant = <enchantment:${name}>.makeEnchantment(level);
         // Localization for level isn't loaded yet for some reason, let's just use the numeric level if needed.
-        displayedEnchants += "§r§7" + StaticString.remove(enchant.displayName, "enchantment.level.");
+        info += "§r§7" + StaticString.remove(enchant.displayName, "enchantment.level.");
       }
     }
     // Just use an IItemStack to easily store and copy lore.
-    val tempCopy = this.wrapperItem.withLore(displayedEnchants) as IItemStack;
+    val tempCopy = this.wrapperItem.withLore(info) as IItemStack;
     this.mapNBT += {
       "display": {
         "Lore": tempCopy.tag.display.Lore,
-        "Name": displayedName
       }
     } as IData;
   }

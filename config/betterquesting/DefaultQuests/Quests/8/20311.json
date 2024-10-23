@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    20310
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Use a twilight clock on a frame of apalachia block",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:skythern_grass"
+      },
+      "name:8": "Skythern Islands"
+    }
+  },
+  "questID:3": 20311,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 423,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Skythern Islands",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

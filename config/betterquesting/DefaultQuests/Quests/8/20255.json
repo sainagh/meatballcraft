@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    20254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oLight up a rectangle of obsidian, after reading the alien material manual.\n\n§fThe first layer of caves located underneath Terra\u0027s surface is called the Nether by its inhabitants.\nIt is full of liquid magma, yet the strange properties of its rocks and vegetation, which mostly feeds on sulfus and other inorganic compounds, make these caves breathable, and not particularly hot.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:netherrack"
+      },
+      "name:8": "Nether World"
+    }
+  },
+  "questID:3": 20255,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": -1,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Nether",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

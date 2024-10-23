@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20475
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTo upgrade your void miners, you will need special drops from each tier.\n\nThe crystal lens increases the drop rate of these resources, making it easier to upgrade your miners as you level them up.\n\nIt is a good idea to invest into one of these!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:laser_lens_crystal"
+      },
+      "name:8": "More Upgrades"
+    }
+  },
+  "questID:3": 1399,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:laser_lens_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

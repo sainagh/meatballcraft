@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    3
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oHere you can find a lot of useful goodies that will help you getting a better foothold!\n\nMore will show up the more you progress, so make sure to come back here!\n\nThe bauble case can be used to store your baubles when you are not using them!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "Things Could be Better"
+    }
+  },
+  "questID:3": 50054,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:9": {}
+          },
+          "id:8": "botania:baublebox"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

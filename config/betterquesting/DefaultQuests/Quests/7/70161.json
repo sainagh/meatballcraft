@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    70119
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found in the Nether between Y\u003d10 and Y\u003d40.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 894,
+        "id:8": "thermalfoundation:material"
+      },
+      "name:8": "Energized Clathrate"
+    }
+  },
+  "questID:3": 70161,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 894,
+          "id:8": "thermalfoundation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

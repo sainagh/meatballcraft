@@ -1,0 +1,33 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    1587,
+    1683
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oImmune to sirens!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "iceandfire:earplugs"
+      },
+      "name:8": "Earplugs"
+    }
+  },
+  "questID:3": 1726,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:earplugs"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

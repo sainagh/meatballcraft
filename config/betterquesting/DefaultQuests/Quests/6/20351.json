@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20209
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "By investing a in more alchemicallly-infused materials, I can make the transmutation portable, and even use it as a work table on the go. Very useful!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "projecte:item.pe_transmutation_tablet"
+      },
+      "name:8": "Transmutation Tablet"
+    }
+  },
+  "questID:3": 20351,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "projectex:arcane_tablet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

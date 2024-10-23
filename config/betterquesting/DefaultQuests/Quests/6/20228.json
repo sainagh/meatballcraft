@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20219
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAfter making an initial batch, the void seedling can be used to safely automate void seeds.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumadditions:void_seed"
+      },
+      "name:8": "Void Farming"
+    }
+  },
+  "questID:3": 20228,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumadditions:void_seed"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

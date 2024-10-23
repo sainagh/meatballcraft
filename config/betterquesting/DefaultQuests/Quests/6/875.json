@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    20123
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oRitual Effect: prevents hostile spawns, the better the crystal, the larger the range\n\nAlcara Corrupted Effect: makes nights longer\n\nClick the pedestal to see a preview of the ritual multiblock.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:itemtunedcelestialcrystal",
+        "tag:10": {
+          "astralsorcery:10": {
+            "constellationName:8": "astralsorcery.constellation.bootes",
+            "crystalProperties:10": {
+              "collectiveCapability:3": 100,
+              "fract:3": 0,
+              "purity:3": 100,
+              "size:3": 900,
+              "sizeOverride:3": -1
+            }
+          }
+        }
+      },
+      "name:8": "Lucerna (Useful)"
+    }
+  },
+  "questID:3": 875,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:blockritualpedestal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    1597993732
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "That\u0027s what I needed! A secret order of bees!\nSomething I found very puzzling about bee society was the apparent lack of cooperation between the many societies inhabiting the Sol system planets. As I should\u0027ve guessed, there actually is some type of cooperation, just not the type I imagined.\nSimilarly to the testificates of Terra, bee society likes to hold secrets through a secret network of individuals in charge of both government and keeping a written history. After seeing this happen in two different societies, one starts to wonder. Is this how government is run once magic enters the equation? Are open, outspoken leaders too easy to manipulate? Are secret societies the way to go in a universe at war?\nI was able to encounter one of said secret society members on Luna who, being extremely nice as always, told me about a secret mark that is being shared all around the Sol system, they call themselves the Bubbell Alliance. The bees are coming together!\nThe gravity bees of Sedna, having attuned to the strange properties of their home world, have control over powerful gravitational magic (magic? science? I don\u0027t really know how bees work), and they seem to be sitting at the top of the Sol system hierarchy. They have been making political moves, and have sent signals to the other bees.\nThey are coming together, they are coming together for me.\nWhy me? Is this a prophecy story? Am I their version of the Messiah? Are they just being nice because they are always nice to everyone?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:sedna_spinel"
+      },
+      "name:8": "Secrets of Sedna"
+    }
+  },
+  "questID:3": 718,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 100,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:sedna_spinel"
+            },
+            "TrophyName:8": "Steward of Gravity",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:sedna_spinel"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:sedna_spinel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_sedna"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

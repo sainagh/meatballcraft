@@ -50,7 +50,7 @@ mods.thaumcraft.Infusion.registerRecipe("makefluixhistorcall", "",
 <contenttweaker:master_wizardry_catalyst>,
 <contenttweaker:master_wizardry_catalyst>]);
 
-recipes.addHiddenShapeless("attunethefluxconstruct",<contenttweaker:attuned_fluix_construct>,
+scripts.PuzzleUtil.addPuzzleShapeless("attunethefluxconstruct",<contenttweaker:attuned_fluix_construct>,
 [<contenttweaker:phasing_fluix_construct>,
 <draconicevolution:mob_soul>.withTag({EntityName: "mod_lavacow:salamander"}),
 <draconicevolution:mob_soul>.withTag({EntityName: "twilightforest:slime_beetle"}),

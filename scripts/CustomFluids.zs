@@ -635,8 +635,8 @@ energizedlava.register();
 var highpressureenergeticfluid = VanillaFactory.createFluid("high_pressure_energetic_fluid", Color.fromHex("ff5f42"));
 highpressureenergeticfluid.register();
 
-var moltentitanium = VanillaFactory.createFluid("molten_titanium", Color.fromHex("b6ccc4"));
-moltentitanium.register();
+// var moltentitanium = VanillaFactory.createFluid("molten_titanium", Color.fromHex("b6ccc4"));
+// moltentitanium.register();
 
 var recursiveexperience = VanillaFactory.createFluid("recursive_life_essence", Color.fromHex("99d117"));
 recursiveexperience.register();
@@ -782,3 +782,21 @@ aeternalisfuel.register();
 
 var imperialabyssite = VanillaFactory.createFluid("imperial_abyssite", Color.fromHex("048f88"));
 imperialabyssite.register();
+
+var liquidhungeringflesh = VanillaFactory.createFluid("liquid_hungering_flesh", Color.fromHex("bd538f"));
+liquidhungeringflesh.register();
+
+var essenceofbetrayal = VanillaFactory.createFluid("essence_of_betrayal", Color.fromHex("180866"));
+essenceofbetrayal.register();
+
+var riteofbetrayal = VanillaFactory.createFluid("rite_of_betrayal", Color.fromHex("4f3da6"));
+riteofbetrayal.register();
+
+var essenceofgluttony = VanillaFactory.createFluid("essence_of_gluttony", Color.fromHex("8a7d08"));
+essenceofgluttony.register();
+
+var hungeringfleshcatalyst = VanillaFactory.createFluid("hungering_flesh_catalyst", Color.fromHex("852059"));
+hungeringfleshcatalyst.register();
+
+var infinitelyunholyradiactivemix = VanillaFactory.createFluid("infinitely_unholy_radioactive_mix", Color.fromHex("5cbf94"));
+infinitelyunholyradiactivemix.register();

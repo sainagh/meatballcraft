@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90228
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis should be used to manage your long distance fluid transfer!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:purple_blaze"
+      },
+      "name:8": "Wireless Fluid Transfer"
+    }
+  },
+  "questID:3": 1180,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:purple_blaze"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

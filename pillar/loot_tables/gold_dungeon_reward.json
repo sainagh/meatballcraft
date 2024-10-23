@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "aether_legacy:iron_bubble",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:iron_bubble"
+        },
+        {
+          "entryName": "aether_legacy:vampire_blade",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:vampire_blade"
+        },
+        {
+          "entryName": "aether_legacy:pig_slayer",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:pig_slayer"
+        },
+        {
+          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub0",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/gold_dungeon_reward_sub0"
+        },
+        {
+          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub1",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/gold_dungeon_reward_sub1"
+        },
+        {
+          "entryName": "aether_legacy:life_shard",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:life_shard"
+        },
+        {
+          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub2",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/gold_dungeon_reward_sub2"
+        },
+        {
+          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub3",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/gold_dungeon_reward_sub3"
+        },
+        {
+          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub4",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/gold_dungeon_reward_sub4"
+        },
+        {
+          "entryName": "aether_legacy:obsidian_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:obsidian_chestplate"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20194
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis can be used to craft interesting, powerful, destructive, bizarre items!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:master_spell_focus"
+      },
+      "name:8": "Master Spell Focus"
+    }
+  },
+  "questID:3": 20181,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:master_spell_focus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

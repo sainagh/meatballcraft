@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    880
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe preview on the tier 6 blood altar is bugged, the block that should be used for tier 6 is the purple crystal cluster.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:demonic_crystal_cluster"
+      },
+      "name:8": "Demonic Powers"
+    }
+  },
+  "questID:3": 882,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:demonic_crystal_cluster"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "bloodmagic:decorative_brick"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

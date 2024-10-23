@@ -79,6 +79,9 @@ recipes.addShaped(<minecraft:clay_ball>*8,
 
 mods.tconstruct.Melting.addRecipe(<liquid:fluid_subconscius> * 25, <divinerpg:teaker_lump>);
 
+mods.nuclearcraft.melter.addRecipe([<divinerpg:teaker_lump>, <liquid:fluid_subconscius> * 25]);
+
+
 mods.tconstruct.Casting.addTableRecipe(<thaumcraft:focus_1>, <divinerpg:darven_lump>, <liquid:fluid_subconscius>, 200, true, 50);
 
 mods.tconstruct.Casting.addTableRecipe(<twilightforest:fiery_ingot>, <divinerpg:cermile_lump>, <liquid:fluid_subconscius>, 75, true, 50);

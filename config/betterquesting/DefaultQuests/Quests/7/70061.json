@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found between y\u003d1 and y\u003d28",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "minecraft:dye"
+      },
+      "name:8": "Lapis Lazuli"
+    }
+  },
+  "questID:3": 70061,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "minecraft:dye"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20196
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Salis Mundus is a strange powder used to activate many thaumic devices. Use on specific blocks to change them into magic tools.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:salis_mundus"
+      },
+      "name:8": "Salis Mundus"
+    }
+  },
+  "questID:3": 20183,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:salis_mundus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

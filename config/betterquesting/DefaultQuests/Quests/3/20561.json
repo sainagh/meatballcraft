@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    20529
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The smeltery is built out of seared bricks placed in a cuboid shell, with no roof and no edges.\nThe controller is where the interface is accessible, and acts as an item input (for automation).\nThe tank is the smeltery\u0027s lava (or other hot fluid) input.\nDrains act as fluid output ports. Faucets and fluid pipes connect to drains.\nTables and basins are placed under faucets to accept molten fluids. Basins turn them into blocks, tables can be used with a variety of casts (gold is better).\nFaucets output fluids when clicked, or with a redstone signal.\nRedstone clocks and timers are good for automating faucet extraction, if you don\u0027t want to use pipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:smeltery_controller"
+      },
+      "name:8": "Smeltery"
+    }
+  },
+  "questID:3": 20561,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:smeltery_controller"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 3,
+          "id:8": "tconstruct:seared"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "tconstruct:seared_tank"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "id:8": "tconstruct:smeltery_io"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:casting"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "tconstruct:casting"
+        },
+        "6:10": {
+          "Count:3": 2,
+          "id:8": "tconstruct:faucet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    20255
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse a voidseer caster gauntlet upgraded with an impetus conductor and charged with rifts on a fracture (find using a fracture locator). The nether roof is a good place to go look!\n\n§fNot sure on what the origin for such an occurrence could be, but in the past a great amount of thaumic energy has been unleashed, opening permanent rifts connecting Terra with a strange realm dominated by taint.\nLikely, this realm had been created (or taken over) by a might thaumaturgist trying to dominate taint. Needless to say, they failed, and now this land is purely dominated by corruption.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "thaumicaugmentation:stone"
+      },
+      "name:8": "The Emptiness"
+    }
+  },
+  "questID:3": 20267,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 14676,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "The Emptiness",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

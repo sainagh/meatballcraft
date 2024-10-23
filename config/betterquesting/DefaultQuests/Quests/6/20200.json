@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    20054,
+    114
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oBlood Magic is a mod based on sacrifices and demonic powers.\n\nIt provides many useful tools in the form of rituals and sigils. It interacts with Thaumcraft to provide a simple way to clear Flux.\n\nThe mod is quite friendly to automation, and a few custom multiblocks here will supply or upgrade some of its features.\n\nThe quests here will walk you through the mod and its addons Blood Arsenal and Animus.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic",
+        "tag:10": {}
+      },
+      "name:8": "Blood Magic"
+    }
+  },
+  "questID:3": 20200,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "guideapi:bloodmagic-guide"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "guideapi:bloodarsenal-guide",
+          "tag:10": {
+            "G-API_Category:3": 0,
+            "G-API_Category_Page:3": 0,
+            "G-API_Entry_Page:3": 0
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:soul_snare"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

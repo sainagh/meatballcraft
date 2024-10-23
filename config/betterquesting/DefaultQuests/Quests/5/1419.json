@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    1401
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "deepmoblearning:pristine_matter_thermal_elemental"
+      },
+      "name:8": "Thermal Elementals (Great)"
+    }
+  },
+  "questID:3": 1419,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "deepmoblearning:pristine_matter_thermal_elemental"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 772,
+          "id:8": "thermalfoundation:material"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2050,
+          "id:8": "thermalfoundation:material"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 2048,
+          "id:8": "thermalfoundation:material"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 2052,
+          "id:8": "thermalfoundation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

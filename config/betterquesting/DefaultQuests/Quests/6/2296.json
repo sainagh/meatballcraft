@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    20054,
+    31
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDimensional Doors is a mod about outlandish worlds and strange geometries, and it provides some convenience tools which will be explained here.\n\nTo get started, explore, and enter the doors that can be found scattered around many of the worlds you will explore!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "Dimensional Doors"
+    }
+  },
+  "questID:3": 2296,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:gold_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

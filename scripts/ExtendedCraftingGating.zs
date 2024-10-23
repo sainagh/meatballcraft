@@ -124,6 +124,9 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<extendedcrafting:material:36>,
 <enderio:item_alloy_ingot:5>, <enderio:item_alloy_endergy_ingot>, 
 5000);
 
+mods.nuclearcraft.alloy_furnace.addRecipe([<enderio:item_alloy_ingot:5>, <enderio:item_alloy_endergy_ingot>, <extendedcrafting:material:36>]);
+
+
 recipes.removeShaped(<extendedcrafting:ender_crafter>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<extendedcrafting:ender_crafter>, 

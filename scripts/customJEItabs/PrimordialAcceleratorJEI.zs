@@ -7,7 +7,7 @@ import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
 var primordialacceleratorJEI as IJeiPanel = JEI.createJei("primordial_accelerator", "元始加速器");
-primordialacceleratorJEI.setModid("MeatballCraft");
+primordialacceleratorJEI.setModid("Bewitchment");
 primordialacceleratorJEI.setIcon(<contenttweaker:primordial_accelerator>);
 primordialacceleratorJEI.addRecipeCatalyst(<contenttweaker:primordial_accelerator>);
 primordialacceleratorJEI.setBackground(IJeiUtils.createBackground(150, 55));

@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    881
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": " ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 33,
+        "id:8": "tconstruct:edible"
+      },
+      "name:8": "Guarded Will Powers"
+    }
+  },
+  "questID:3": 879,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:steadfast_crystal_cluster"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:destructive_crystal_cluster"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:corrosive_crystal_cluster"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:vengeful_crystal_cluster"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -2527,6 +2527,7 @@ mods.jei.JEI.addDescription([<contenttweaker:dimension_ids>],
     "Dimensional Doors: 684 (and consecutive numbers)",
     "Emptiness: 14676",
     "Deep Dark: -11325",
+    "Bedrock Dimension: 19",
     "Taerrapiatta: 180",
     "Diamerisma: 181",
     "Furatto: 182",
@@ -2866,7 +2867,7 @@ mods.jei.JEI.addDescription([
     "Void Reinforced: 500",
     "Mithrillium: 1000",
     "Adaminite: 2000 (cannot store vitium)",
-    "Adaminite: 4000 + void excess (makes flux)"
+    "Mithminite: 4000 + void excess (makes flux)"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3708,6 +3709,33 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_monumentallysentient
 ]);
 
 
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_chaoticchanneling>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "A recipe for a specific machine, and something to put into it...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Place a Life Crystal Ore in a Pulverizer from Thermal, and craft it with four Star of Betrayal, and four Chaotic Gems"
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_truepowerabomination>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "A certain tree stump in Diamerisma contains spawn",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft the Minted Fluix Crystal, the Touch of The Arbiter, the Aeldunari, and the Abominable Egg with the following Mob Souls from Animus: Jungle Spider, Hell Spider, Soul Spider, Ender Spider, Sea Spider."
+]);
+
+
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_icydreadshard>,
 [
     "拜托！至少试着解一下谜题嘛！",
@@ -3907,6 +3935,35 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_furnaceguy>,
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Craft an Everburner with the following Pigments: Light Mauve, Teal, Indigo, Turquoise."
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_memoryrestorationritual>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft the Will Ensnaring Fabrial with the right items obtained from the Eldunarì. The callstone for the Dread Cleansing Fabrial will help you.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Reproduce the following recipe, using the 'true name' attributed items:",
+    "<blaze powder> <abyssalnite ingot>, <oblivion death bomb>",
+    "<wireless booster> <will ensnaring fabrial> <raw charger shank>",
+    "<defined ingot> <kamium cloth> <rune of wrath>"
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_runesofliberation>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft the Runes of the True Tongue, the four Scrolls of Truth from the Memory Restoration Ritual, and Four Skill Chesplates. Some items in the Weaponsmith Callstone will point you towards some quests icons for the right skills.",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft Runes of the True Tongue, the four Scrolls of Truth from the Memory Restoration Ritual, and the four following chesplates: Innervation, Butchery, Runation, Expedition."
 ]);
 
 
@@ -4150,6 +4207,7 @@ mods.jei.JEI.addDescription([
     "Movement Speed - Furatto",
     "Attack Damage - Furatto",
     "Shield Capacity - Furatto",
+    "Shield Recovery - Furatto",
     "Jump Boost - Diamerisma",
     "Arrow Damage - Diamerisma",
     "Attack AOE - Diamerisma",
@@ -4400,4 +4458,30 @@ mods.jei.JEI.addDescription([
 ]);
 
 
+mods.jei.JEI.addDescription([
+    <contenttweaker:betweenlands_potions>,
+    <thebetweenlands:pestle>,
+    <thebetweenlands:mortar>,
+    <thebetweenlands:aspect_vial:*>,
+    <thebetweenlands:dentrothyst_vial:*>],
+[
+    "The mortar and pestle can be used to produce a variety of ground items. Their properties are different from every player. You can test their effects on a gecko that has been put in a cage using a net. ",
+    "",
+    "To make armaniis, you should use the ground powder that makes the gecko feel calm, and look at you with loving eyes.",
+    "",
+    "To make a potion out of the right ground item, fill the infuser with swamp water from a weedwood or syrmorite bucket, add the right ingredients, and stir (right click with empty hand) for a couple of minutes. ",
+    "",
+    "If the ingredient is correct, the liquid in the infuser will become darker. Once it's done, use a weedwood or syrmorite bucket to trasfer it to an alembic (shift right click). Use a dentrothyst vial to collect the aspect from the alembic."
+]);
 
+mods.jei.JEI.addDescription([
+    <enderstorage:ender_storage:0>,
+    <enderstorage:ender_storage:1>,
+    <enderstorage:ender_pouch>],
+[
+    "The Ender Chest and Ender Tank are wireless item and fluid tranfer options.",
+    "",
+    "These blocks can be set to a given frequency by coloring the three slots located on top of the blocks using dyes. Tanks and chests with the same color frequency are linked to each other, and share the same inventory.",
+    "",
+    "The Ender Pouch can be directly linked to an Ender Chest frequency by shift-clicking it. You will be able to access that inventory without having to open the chest."
+]);

@@ -257,3 +257,14 @@ warrenblindfold.itemRightClick = function(stack, world, player, hand) {
 };
 
 warrenblindfold.register();
+
+
+var masterspellvictus = VanillaFactory.createItem("master_spell_victus");
+masterspellvictus.maxStackSize = 1;
+masterspellvictus.glowing = true;
+masterspellvictus.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:lively_twilight_gem\",Count:1b}}", player, world, true, true);
+	return "Pass";
+};
+masterspellvictus.register();
+
