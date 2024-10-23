@@ -2435,7 +2435,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:energy_egg>.addTooltip(format.red("通过能量鸡召唤石获得"));
 
 <ebwizardry:crystal_silver_plating>.addTooltip(format.red("发现于战斗高塔"));
-<ebwizardry:crystal_silver_plating>.addTooltip(format.red("With regards to Dragon of Desire"));
+<ebwizardry:crystal_silver_plating>.addTooltip(format.red("与Dragon of Desire有关"));
 
 
 <thermaldynamics:duct_32:0>.addTooltip(format.red("使用伺服器、检索器和过滤器来传输物品（查看对应的JEI提示以了解如何使用）"));
@@ -2722,7 +2722,7 @@ import crafttweaker.item.IItemCondition;
 <extrautils2:biomemarker>.addTooltip(format.red("警•告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
 <extrautils2:terraformer:1>.addTooltip(format.red("警•告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
 
-<contenttweaker:recursive_recipes>.addTooltip(format.red("With regards to Not Yue"));
+<contenttweaker:recursive_recipes>.addTooltip(format.red("与Not Yue有关"));
 
 <contenttweaker:better_glass_cutter>.addTooltip(format.green("可重复使用"));
 

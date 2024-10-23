@@ -40,7 +40,7 @@
 <minecraft:concrete:0>.addTooltip(format.red("感谢4lyfe添加的EMC值"));
 
 <ebwizardry:ethereal_crystalweave>.addTooltip(format.red("发现于战斗高塔"));
-<ebwizardry:ethereal_crystalweave>.addTooltip(format.red("With regards to Dragon of Desire"));
+<ebwizardry:ethereal_crystalweave>.addTooltip(format.red("与Dragon of Desire有关"));
 
 <contenttweaker:spatial_phaser>.addTooltip(format.red("使用我"));
 <contenttweaker:terraformassiflora>.addTooltip(format.red("使用我"));
@@ -141,8 +141,8 @@
 <contenttweaker:alchemical_mushroom>.addTooltip(format.red("感谢Josip绘制的纹理！"));
 <contenttweaker:dried_vishroom>.addTooltip(format.red("感谢Josip绘制的纹理！"));
 
-<contenttweaker:alchemical_mushroom>.addTooltip(format.red("Thanks to kurrycat for adding viewable JEI recipes after completing each puzzle!"));
-<contenttweaker:burning_furnace>.addTooltip(format.red("Thanks to kurrycat for adding viewable JEI recipes after completing each puzzle!"));
+<contenttweaker:alchemical_mushroom>.addTooltip(format.red("感谢kurrycat实现的完成解谜后JEI配方显示！"));
+<contenttweaker:burning_furnace>.addTooltip(format.red("感谢kurrycat实现的完成解谜后JEI配方显示！"));
 
 <extrabotany:magicfinger>.addTooltip(format.red("右击以极快速度将魔力从玩家传输到魔力池。"));
 
@@ -1473,7 +1473,7 @@
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Pyromaniacal & irhshadow (团队) (首个实现被动生产)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("NickZumb & YtMcSkt (团队) (自动化挑战)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Erbus (单人)"));
-<ore:ingotFractalliteHalite>.addTooltip(format.red("Light, Mech1456 & ** (团队)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("Light, Mech1456 & creeperkid091 (团队)"));
 
 <contenttweaker:terrestrial_animator_0>.addTooltip(format.red("可被使用者使用"));
 <contenttweaker:terrestrial_animator_1>.addTooltip(format.red("可被使用者使用"));
@@ -1865,7 +1865,7 @@
 
 <divinerpg:dark_dream_bricks>.addTooltip(format.red("PocketSkeleton有些困惑"));
 
-<gendustry:honey_comb:14027>.addTooltip(format.red("With regards to Light"));
+<gendustry:honey_comb:14027>.addTooltip(format.red("与Light有关"));
 
 <gendustry:honey_comb:14028>.addTooltip(format.red("我觉得Fieno会喜欢的"));
 
@@ -1928,39 +1928,50 @@
 
 <contenttweaker:essence_of_worthiness>.addTooltip(format.red("Icewave很懂日文汉字 ;)"));
 
-<contenttweaker:sacrificial_contract>.addTooltip(format.red("Combine with the friendly soul vials of the wild rainbow tree (4) - stone calls in the wild wood"));
+<contenttweaker:sacrificial_contract>.addTooltip(format.red("与原始彩虹树中的友善生物的灵魂瓶（4个）结合 - 原始森林在召唤"));
 
-<contenttweaker:eternally_stained_soul>.addTooltip(format.red("Combine the Sacrificial Contract with the friendly soul vials of the wild rainbow tree (4) - stone calls in the wild wood"));
+<contenttweaker:eternally_stained_soul>.addTooltip(format.red("将献祭契约与原始彩虹树中的友善生物的灵魂瓶（4个）结合 - 原始森林在召唤"));
 
-<contenttweaker:withering_fabrial>.addTooltip(format.red("Use Wither boss Mob Souls"));
+<contenttweaker:withering_fabrial>.addTooltip(format.red("使用凋灵Boss生物灵魂"));
 
-<ae2fc:dual_interface>.addTooltip(format.red("Use Ingredient Buffers to handle both items and fluids in autocrafts"));
+<ae2fc:dual_interface>.addTooltip(format.red("使用原材料缓存仓以在自动合成中同时物品与流体"));
 
-<ae2fc:ingredient_buffer>.addTooltip(format.red("Can be placed in between a Dual Interface and the machine you want to autocraft to handle both items and fluids"));
-<ae2fc:large_ingredient_buffer>.addTooltip(format.red("Can be placed in between a Dual Interface and the machine you want to autocraft to handle both items and fluids"));
+<ae2fc:ingredient_buffer>.addTooltip(format.red("可放置在想自动处理的机器与二合一接口接口之间，以同时处理物品与流体"));
+<ae2fc:large_ingredient_buffer>.addTooltip(format.red("可放置在想自动处理的机器与二合一接口接口之间，以同时处理物品与流体"));
 
-<actuallyadditions:block_atomic_reconstructor>.addTooltip(format.red("Use the Reconstruction Chamber for easy automation ;)"));
+<actuallyadditions:block_atomic_reconstructor>.addTooltip(format.red("原子再构室使自动化更简单 ;)"));
 
-<nae2:reconstruction_chamber>.addTooltip(format.red("Place next to an Atomic Reconstructor to handle automation without having to drop items"));
+<nae2:reconstruction_chamber>.addTooltip(format.red("与原子再构机相邻放置，以在避免掉落物存在的情况下进行自动化"));
 
-<astralsorcery:blockaltar:*>.addTooltip(format.red("WARNING: do not break while it has items inside"));
+<astralsorcery:blockaltar:*>.addTooltip(format.red("警•告：不要在存有物品时直接破坏该方块"));
 
-<contenttweaker:creeponia_wormhole>.addTooltip(format.red("Obtained from the Creeponia Callstone"));
+<contenttweaker:creeponia_wormhole>.addTooltip(format.red("通过蠕变召唤石获得"));
 
-<contenttweaker:terrestrial_animator_0>.addTooltip(format.red("Thanks to ChaosStrikez for fixing this!"));
-<contenttweaker:terrestrial_animator_7>.addTooltip(format.red("Thanks to ChaosStrikez for fixing this!"));
+<contenttweaker:terrestrial_animator_0>.addTooltip(format.red("感谢ChaosStrikez提供的修复！"));
+<contenttweaker:terrestrial_animator_7>.addTooltip(format.red("感谢ChaosStrikez提供的修复！"));
 
-<ore:dustManyullyn>.addTooltip(format.red("Thanks to Panda for the Mythic Processor Melter script!"));
-<ore:ingotManyullyn>.addTooltip(format.red("Thanks to Panda for the Mythic Processor Melter script!"));
-<ore:blockManyullyn>.addTooltip(format.red("Thanks to Panda for the Mythic Processor Melter script!"));
+<ore:dustManyullyn>.addTooltip(format.red("感谢Panda编写的神话金属熔化机脚本！"));
+<ore:ingotManyullyn>.addTooltip(format.red("感谢Panda编写的神话金属熔化机脚本！"));
+<ore:blockManyullyn>.addTooltip(format.red("感谢Panda编写的神话金属熔化机脚本！"));
 
-<ore:ingotHardCarbon>.addTooltip(format.red("Thanks to Mathias for adding Mythic Processor Melter recipes!"));
+<ore:ingotHardCarbon>.addTooltip(format.red("感谢Mathias添加的神话金属熔化机配方！"));
 
-<nuclearcraft:boron:*>.addTooltip(format.red("Thanks to Mathias for adding Mythic Processor Melter recipes!"));
-<nuclearcraft:lithium:*>.addTooltip(format.red("Thanks to Mathias for adding Mythic Processor Melter recipes!"));
+<nuclearcraft:boron:*>.addTooltip(format.red("感谢Mathias添加的神话金属熔化机配方！"));
+<nuclearcraft:lithium:*>.addTooltip(format.red("感谢Mathias添加的神话金属熔化机配方！"));
 
-<agricraft:agri_seed>.withTag({agri_seed: "vanilla:potato_plant"}).addTooltip(format.red("To obtain this, place a potato on crop sticks"));
+<agricraft:agri_seed>.withTag({agri_seed: "vanilla:potato_plant"}).addTooltip(format.red("在作物架上种植胡萝卜以获得该物品"));
 
-<agricraft:agri_seed>.withTag({agri_seed: "vanilla:carrot_plant"}).addTooltip(format.red("To obtain this, place a carrot on crop sticks"));
+<agricraft:agri_seed>.withTag({agri_seed: "vanilla:carrot_plant"}).addTooltip(format.red("在作物架上种植胡萝卜以获得该物品"));
 
-<enderstorage:ender_storage:*>.addTooltip(format.red("NOTE: using an AE2 Quantum Bridge for wireless transfer is the least laggy way to do things"));
+<enderstorage:ender_storage:*>.addTooltip(format.red("注意：使用AE2量子网桥进行无线物品传输是最不会引起卡顿的手段"));
+
+<contenttweaker:lucky_box_aether_bronze>.addTooltip(format.red("召唤石"));
+<contenttweaker:lucky_box_aether_silver>.addTooltip(format.red("召唤石"));
+<contenttweaker:lucky_box_aether_gold>.addTooltip(format.red("召唤石"));
+<contenttweaker:lucky_box_twilight_books>.addTooltip(format.red("召唤石"));
+<contenttweaker:lucky_box_twilight_weapons>.addTooltip(format.red("召唤石"));
+
+<contenttweaker:sword_of_truth>.addTooltip(format.red("2000 基础攻击"));
+
+<bloodarsenal:glass_dagger_of_sacrifice>.addTooltip(format.red("ChaossStrikez又一次拯救了这个包！"));
+<bloodarsenal:glass_dagger_of_sacrifice>.addTooltip(format.red("感谢Daughter of Myx的debug工作！"));
