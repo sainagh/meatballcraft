@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    20102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§\n§o§7§oEXPLOSION WARNING!\n\nThis ritual will call down meteors containing various (sometimes) useful ores.\n\nThe drops will depend on the item you drop on the master ritualstone before you activate the ritual (you still need to use the activation crystal first).\n\nIron Block: medium size, mostly crappy ores\n\nGold Block: large size, mostly crappy ores\n\nDiamond Block: small size, mostly good ores\n\nWeight of the Ancient Heart: surprise\n\nBaku Heart: another surprise",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "bloodmagic:blood_rune"
+      },
+      "name:8": "Mark of the Falling Tower (Useful)"
+    }
+  },
+  "questID:3": 824,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

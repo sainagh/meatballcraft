@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    20423
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe excavator is used to produce infinite amounts of ores from Immersive Engineering veins. These are not like normal ore veins, and they do not exist in-world. Each chunk has one vein.\n\nTo identify a vein, place a core sample drill into a chunk, give it power, and right click it to start it. It will produce a core sample, with the name of the ore vein and fluid vein in that chunk.\n\nTo mine the ore vein vein, build the Excavator multiblocks in the corresponding chunk. \n\nSome ores can only be mined using excavators, and cannot be found in-world.\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 7,
+        "id:8": "immersiveengineering:metal_device1"
+      },
+      "name:8": "Excavation"
+    }
+  },
+  "questID:3": 2230,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "immersivepetroleum:schematic",
+          "tag:10": {
+            "flip:1": 1,
+            "multiblock:8": "IE:ExcavatorDemo"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "immersiveengineering:metal_device1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "immersiveengineering:metal_multiblock"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "immersiveengineering:metal_multiblock"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

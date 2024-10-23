@@ -1,4 +1,4 @@
-recipes.addHiddenShapeless("makerheniapuzzlestep1",<contenttweaker:mark_of_the_samurai>,
+scripts.PuzzleUtil.addPuzzleShapeless("makerheniapuzzlestep1",<contenttweaker:mark_of_the_samurai>,
 [<abyssalcraft:dreadiumsamuraihelmet>,
 <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Celawynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}),
 <thebetweenlands:aspectrus_fruit>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Azuwynn"}, storage: {hasStoredStatic: 0 as byte, storedStatic: 0, dynamic: 250}}]}}),

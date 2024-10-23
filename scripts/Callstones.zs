@@ -14,7 +14,8 @@ import mods.contenttweaker.Player;
 import crafttweaker.player.IPlayer;
 import crafttweaker.block.IBlock;
 import crafttweaker.data.IData;
-
+import native.erebus.entity.EntityAnimatedBlock;
+import crafttweaker.util.Position3f;
 
 
 
@@ -28,7 +29,7 @@ creeponiacallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 805) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("需在正确的维度使用");
         return "FAIL";
     }
 
@@ -47,7 +48,7 @@ stormborncallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 7) {
-        player.sendChat("Enter the twilight forest");
+        player.sendChat("需在暮色森林使用");
         return "FAIL";
     }
 
@@ -66,7 +67,7 @@ deeplandscallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 807) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("需在正确的维度使用");
         return "FAIL";
     }
 
@@ -85,7 +86,7 @@ crysteviacallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 806) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("需在正确的维度使用");
         return "FAIL";
     }
 
@@ -104,7 +105,7 @@ irominecallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 813) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("需在正确的维度使用");
         return "FAIL";
     }
 
@@ -123,7 +124,7 @@ boreancallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 814) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("需在正确的维度使用");
         return "FAIL";
     }
 
@@ -142,7 +143,7 @@ lunaluscallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 816) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("需在正确的维度使用");
         return "FAIL";
     }
 
@@ -161,7 +162,7 @@ wildwoodcallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 421) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("需在正确的维度使用");
         return "FAIL";
     }
 
@@ -180,7 +181,7 @@ skytherncallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 423) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("需在正确的维度使用");
         return "FAIL";
     }
 
@@ -199,7 +200,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 423) {
-        player.sendChat("Use in skythern");
+        player.sendChat("需在空境使用");
         return "FAIL";
     }
 
@@ -567,7 +568,7 @@ immortalliscallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 7) {
-        player.sendChat("Enter the twilight forest");
+        player.sendChat("需在暮色森林使用");
         return "FAIL";
     }
 
@@ -605,7 +606,7 @@ harbingercallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 7) {
-        player.sendChat("Enter the twilight forest");
+        player.sendChat("需在暮色森林使用");
         return "FAIL";
     }
 
@@ -784,7 +785,16 @@ arcaneprisonkey.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon divinerpg:death_hound ~2 ~1 ~2 {HandItems:[{Count:1,id:\"contenttweaker:sympan_spirit\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:20000.0},{Name:generic.attackDamage, Base:10000.0}],Health:20000f}", player, world, true, true);
+    var pos = player.position.asPosition3f();
+    if(pos.y < 30) {
+        player.sendChat("WARNING: this boss can break your armor");
+        player.sendChat("It's a good idea to bring unbreakable armor");
+        player.sendChat("Go above Y = 30 to summon the boss");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon divinerpg:death_hound ~7 ~1 ~7 {HandItems:[{Count:1,id:\"contenttweaker:sympan_spirit\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:20000.0},{Name:generic.attackDamage, Base:10000.0}],Health:20000f}", player, world, true, true);
     player.sendChat("Kill it!");
     stack.shrink(1);
     return "PASS";
@@ -1000,6 +1010,11 @@ fluixcallstone.itemRightClick = function(stack, world, player, hand) {
 };
 fluixcallstone.register();
 
+
+
+
+
+
 var terrestrialanimator0 = VanillaFactory.createItem("terrestrial_animator_0");
 terrestrialanimator0.maxStackSize = 1;
 terrestrialanimator0.itemRightClick = function(stack, world, player, hand) {
@@ -1007,9 +1022,11 @@ terrestrialanimator0.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 0, blockID:6197}", player, world, true, true);
+    val entity = <entity:erebus:erebus.animated_block>.createEntity(world);
+    entity.position = Position3f.create(player.x, player.y + 5, player.z);
+    (entity.native as EntityAnimatedBlock).setBlock(<item:extrautils2:compressedcobblestone>.asBlock(), 0);
+    world.spawnEntity(entity);
 
-    stack.shrink(1);
     return "PASS";
 
 };
@@ -1022,9 +1039,11 @@ terrestrialanimator1.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 1, blockID:6197}", player, world, true, true);
+    val entity = <entity:erebus:erebus.animated_block>.createEntity(world);
+    entity.position = Position3f.create(player.x, player.y + 5, player.z);
+    (entity.native as EntityAnimatedBlock).setBlock(<item:extrautils2:compressedcobblestone>.asBlock(), 1);
+    world.spawnEntity(entity);
 
-    stack.shrink(1);
     return "PASS";
 
 };
@@ -1037,9 +1056,11 @@ terrestrialanimator2.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 2, blockID:6197}", player, world, true, true);
+    val entity = <entity:erebus:erebus.animated_block>.createEntity(world);
+    entity.position = Position3f.create(player.x, player.y + 5, player.z);
+    (entity.native as EntityAnimatedBlock).setBlock(<item:extrautils2:compressedcobblestone>.asBlock(), 2);
+    world.spawnEntity(entity);
 
-    stack.shrink(1);
     return "PASS";
 
 };
@@ -1052,9 +1073,11 @@ terrestrialanimator3.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 3, blockID:6197}", player, world, true, true);
+    val entity = <entity:erebus:erebus.animated_block>.createEntity(world);
+    entity.position = Position3f.create(player.x, player.y + 5, player.z);
+    (entity.native as EntityAnimatedBlock).setBlock(<item:extrautils2:compressedcobblestone>.asBlock(), 3);
+    world.spawnEntity(entity);
 
-    stack.shrink(1);
     return "PASS";
 
 };
@@ -1067,9 +1090,11 @@ terrestrialanimator4.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 4, blockID:6197}", player, world, true, true);
+    val entity = <entity:erebus:erebus.animated_block>.createEntity(world);
+    entity.position = Position3f.create(player.x, player.y + 5, player.z);
+    (entity.native as EntityAnimatedBlock).setBlock(<item:extrautils2:compressedcobblestone>.asBlock(), 4);
+    world.spawnEntity(entity);
 
-    stack.shrink(1);
     return "PASS";
 
 };
@@ -1082,9 +1107,11 @@ terrestrialanimator5.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 5, blockID:6197}", player, world, true, true);
+    val entity = <entity:erebus:erebus.animated_block>.createEntity(world);
+    entity.position = Position3f.create(player.x, player.y + 5, player.z);
+    (entity.native as EntityAnimatedBlock).setBlock(<item:extrautils2:compressedcobblestone>.asBlock(), 5);
+    world.spawnEntity(entity);
 
-    stack.shrink(1);
     return "PASS";
 
 };
@@ -1097,9 +1124,11 @@ terrestrialanimator6.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 6, blockID:6197}", player, world, true, true);
+    val entity = <entity:erebus:erebus.animated_block>.createEntity(world);
+    entity.position = Position3f.create(player.x, player.y + 5, player.z);
+    (entity.native as EntityAnimatedBlock).setBlock(<item:extrautils2:compressedcobblestone>.asBlock(), 6);
+    world.spawnEntity(entity);
 
-    stack.shrink(1);
     return "PASS";
 
 };
@@ -1112,9 +1141,11 @@ terrestrialanimator7.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("/summon erebus:erebus.animated_block ~ ~5 ~ {blockMeta: 7, blockID:6197}", player, world, true, true);
+    val entity = <entity:erebus:erebus.animated_block>.createEntity(world);
+    entity.position = Position3f.create(player.x, player.y + 5, player.z);
+    (entity.native as EntityAnimatedBlock).setBlock(<item:extrautils2:compressedcobblestone>.asBlock(), 7);
+    world.spawnEntity(entity);
 
-    stack.shrink(1);
     return "PASS";
 
 };
@@ -1207,7 +1238,7 @@ demonologistcallstone.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
     Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
     Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon aoa3:deinotherium ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:baku_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:300.0}],Health:3000f,CustomName:\"Baku\"}", player, world, true, true);
+    Commands.call("summon aoa3:deinotherium ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:baku_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:300.0}],Health:3000f,CustomName:\"貘\"}", player, world, true, true);
     // Commands.call("give @p contenttweaker:haumea_spinel", player, world, true, true);
 
     stack.shrink(1);
@@ -1633,7 +1664,7 @@ unburiedcallstone.itemRightClick = function(stack, world, player, hand) {
 
     Commands.call("pillar-spawn oi_structure_callstone", player, world, true, true);
     // Commands.call("give @p contenttweaker:oi_spinel", player, world, true, true);
-    Commands.call("summon iceandfire:dread_knight ~ ~8 ~ {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"techreborn:nuke\"}],HandDropChances:[1.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:8000.0},{Name:generic.attackDamage, Base:100.0}],Health:8000f,CustomName:\"Glimpse of the Meatball Man\"}", player, world, true, true);
+    Commands.call("summon iceandfire:dread_knight ~ ~8 ~ {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"techreborn:nuke\"}],HandDropChances:[1.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:8000.0},{Name:generic.attackDamage, Base:100.0}],Health:8000f,CustomName:\"肉丸人的一瞥\"}", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1679,14 +1710,14 @@ orbitalcallstone.itemRightClick = function(stack, world, player, hand) {
 
     Commands.call("pillar-spawn sedna_structure_callstone", player, world, true, true);
     // Commands.call("give @p contenttweaker:sedna_spinel", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"维度守卫\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"维度守卫\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"维度守卫\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"维度守卫\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"维度守卫\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"维度守卫\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"维度守卫\"}", player, world, true, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"维度守卫\"}", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";
@@ -3727,7 +3758,7 @@ secondrecursivelock.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon aoa3:yellow_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
     Commands.call("summon aoa3:red_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
     Commands.call("summon aoa3:blue_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:rockrider ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:rock_rider ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
     Commands.call("summon aoa3:peppermint_snail ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_candyland\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:150000.0}],Health:100000f}", player, world, true, true);
     Commands.call("summon aoa3:king_shroomus ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mysterium\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
     Commands.call("summon aoa3:voxxulon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_voxponds\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
@@ -3908,7 +3939,7 @@ fourthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon aoa3:proshield ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
     Commands.call("summon aoa3:flash ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
     Commands.call("summon aoa3:klobber ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:mirage ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:proshield ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
     Commands.call("summon aoa3:coniferon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
     Commands.call("summon aoa3:goldorth ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
     Commands.call("summon aoa3:penumbra ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
@@ -4123,7 +4154,7 @@ summonsoftheshyrewarden.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
 	}
 
-    Commands.call("summon aoa3:shyre_knight ~ ~3 ~ {HandItems:[{Count:32,id:\"contenttweaker:shyrelands_garnet\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1.0},{Name:generic.attackDamage, Base:10000.0}],Health:1f,CustomName:\"Warden of the Shyre Empire\",Invulnerable:1}", player, world, true, true);
+    Commands.call("summon aoa3:shyre_knight ~ ~3 ~ {HandItems:[{Count:64,id:\"contenttweaker:stone_of_the_shyre_warden\"},{Count:64,id:\"contenttweaker:stone_of_the_shyre_warden\"}],HandDropChances:[1.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:1.0},{Name:generic.attackDamage, Base:10000.0}],Health:1f,CustomName:\"塞尔瑞帝国监守者\",Invulnerable:1}", player, world, true, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4216,3 +4247,407 @@ recursivepaperillager.itemRightClick = function(stack, world, player, hand) {
 
 };
 recursivepaperillager.register();
+
+var recursivepaperabyssal= VanillaFactory.createItem("recursive_paper_abyssal");
+recursivepaperabyssal.maxStackSize = 16;
+recursivepaperabyssal.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // Commands.call("time set night", player, world, true, true);
+
+    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, true, true);
+    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, true, true);
+    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, true, true);
+    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, true, true);
+    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, true, true);
+    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, true, true);
+    Commands.call("summon abyssalcraft:shadowbeast ~ ~3 ~", player, world, true, true);
+    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, true, true);
+    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, true, true);
+    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, true, true);
+    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, true, true);
+    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+recursivepaperabyssal.register();
+
+
+var recursivepaperbuggy= VanillaFactory.createItem("recursive_paper_buggy");
+recursivepaperbuggy.maxStackSize = 16;
+recursivepaperbuggy.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // Commands.call("time set night", player, world, true, true);
+
+    Commands.call("summon erebus:erebus.stag_beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("summon erebus:erebus.stag_beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("summon erebus:erebus.beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("summon erebus:erebus.beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("erebus:erebus.bombardier_beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("erebus:erebus.bombardier_beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("erebus:erebus.titan_beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("erebus:erebus.titan_beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("erebus:erebus.rhino_beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("erebus:erebus.rhino_beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("erebus:erebus.crushroom ~ ~3 ~", player, world, true, true);
+    Commands.call("erebus:erebus.crushroom ~ ~3 ~", player, world, true, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+recursivepaperbuggy.register();
+
+var weaponsmithcallstone = VanillaFactory.createItem("weaponsmith_callstone");
+weaponsmithcallstone.maxStackSize = 1;
+weaponsmithcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 1) {
+        player.sendChat("You gotta be in the End");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn hardmode_callstone_arbiterweaponsmith", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+weaponsmithcallstone.register();
+
+
+
+
+var forbiddenmeatballmanrites = VanillaFactory.createItem("forbidden_meatball_man_rites");
+forbiddenmeatballmanrites.maxStackSize = 1;
+forbiddenmeatballmanrites.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in the overworld");
+        return "FAIL";
+    }
+
+    player.sendChat("Stand on top of the Withering Fabrial block");
+
+    player.sendChat("Checking Player Position");
+    player.sendChat("==================================================");
+
+    var pos1 = player.position.asPosition3f();
+    pos1.x = pos1.x;
+    pos1.y = pos1.y - 1;
+    pos1.z = pos1.z;
+    var blockPos1 = pos1.asBlockPos();
+    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
+    if(blockState1 != "tile.contenttweaker.withering_fabrial.name" && blockState1 != "Withering Fabrial") {
+        player.sendChat("Stand on top of the Withering Fabrial block");
+        return "FAIL";
+    }
+
+    Commands.call("/summon minecraft:wither ~3 ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, true, true);
+    Commands.call("/summon minecraft:wither ~-3 ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, true, true);
+    Commands.call("/summon minecraft:wither ~ ~ ~3 {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, true, true);
+    Commands.call("/summon minecraft:wither ~ ~ ~-3 {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, true, true);
+    Commands.call("/summon minecraft:wither ~3 ~ ~3 {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, true, true);
+    Commands.call("/summon minecraft:wither ~-3 ~ ~-3 {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, true, true);
+
+    return "PASS";
+
+};
+forbiddenmeatballmanrites.register();
+
+
+
+var requiemofthearbiter = VanillaFactory.createItem("requiem_of_the_arbiter");
+requiemofthearbiter.maxStackSize = 1;
+requiemofthearbiter.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 1) {
+        player.sendChat("You gotta be in the End");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn tombstone_of_the_arbiter", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+requiemofthearbiter.register();
+
+var hymnofthetruetongue = VanillaFactory.createItem("hymn_of_the_true_tongue");
+hymnofthetruetongue.maxStackSize = 1;
+hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != -26) {
+        player.sendChat("Enter SPatial Storage from AE2");
+        return "FAIL";
+    }
+
+    player.sendChat("Stand on top of a tier 1 beacon pyramid with 9 Hyperuranon Actualizing Fabrials");
+
+    player.sendChat("Checking Player Position");
+    player.sendChat("==================================================");
+
+    var pos0 = player.position.asPosition3f();
+    pos0.x = pos0.x;
+    pos0.y = pos0.y - 1;
+    pos0.z = pos0.z;
+    var blockPos0 = pos0.asBlockPos();
+    var blockState0 = world.getBlock(blockPos0).definition.displayName as string;
+    if(blockState0 != "Beacon") {
+        player.sendChat("Beacon is missing");
+        return "FAIL";
+    }
+
+    var pos1 = player.position.asPosition3f();
+    pos1.x = pos1.x;
+    pos1.y = pos1.y - 2;
+    pos1.z = pos1.z;
+    var blockPos1 = pos1.asBlockPos();
+    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
+    if(blockState1 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState1 != "Hyperuranon Actualizing Fabrial") {
+        player.sendChat("Missing one beacon pyramid block");
+        return "FAIL";
+    }
+
+    var pos2 = player.position.asPosition3f();
+    pos2.x = pos2.x + 1;
+    pos2.y = pos2.y - 2;
+    pos2.z = pos2.z;
+    var blockPos2 = pos2.asBlockPos();
+    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
+    if(blockState2 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState2 != "Hyperuranon Actualizing Fabrial") {
+        player.sendChat("Missing one beacon pyramid block");
+        return "FAIL";
+    }
+
+    var pos3 = player.position.asPosition3f();
+    pos3.x = pos3.x - 1;
+    pos3.y = pos3.y - 2;
+    pos3.z = pos3.z;
+    var blockPos3 = pos3.asBlockPos();
+    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
+    if(blockState3 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState3 != "Hyperuranon Actualizing Fabrial") {
+        player.sendChat("Missing one beacon pyramid block");
+        return "FAIL";
+    }
+
+    var pos4 = player.position.asPosition3f();
+    pos4.x = pos4.x;
+    pos4.y = pos4.y - 2;
+    pos4.z = pos4.z + 1;
+    var blockPos4 = pos4.asBlockPos();
+    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
+    if(blockState4 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState4 != "Hyperuranon Actualizing Fabrial") {
+        player.sendChat("Missing one beacon pyramid block");
+        return "FAIL";
+    }
+
+    var pos5 = player.position.asPosition3f();
+    pos5.x = pos5.x;
+    pos5.y = pos5.y - 2;
+    pos5.z = pos5.z - 1;
+    var blockPos5 = pos5.asBlockPos();
+    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
+    if(blockState5 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState5 != "Hyperuranon Actualizing Fabrial") {
+        player.sendChat("Missing one beacon pyramid block");
+        return "FAIL";
+    }
+
+    var pos6 = player.position.asPosition3f();
+    pos6.x = pos6.x + 1;
+    pos6.y = pos6.y - 2;
+    pos6.z = pos6.z + 1;
+    var blockPos6 = pos6.asBlockPos();
+    var blockState6 = world.getBlock(blockPos6).definition.displayName as string;
+    if(blockState6 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState6 != "Hyperuranon Actualizing Fabrial") {
+        player.sendChat("Missing one beacon pyramid block");
+        return "FAIL";
+    }
+
+    var pos7 = player.position.asPosition3f();
+    pos7.x = pos7.x + 1;
+    pos7.y = pos7.y - 2;
+    pos7.z = pos7.z - 1;
+    var blockPos7 = pos7.asBlockPos();
+    var blockState7 = world.getBlock(blockPos7).definition.displayName as string;
+    if(blockState7 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState7 != "Hyperuranon Actualizing Fabrial") {
+        player.sendChat("Missing one beacon pyramid block");
+        return "FAIL";
+    }
+
+    var pos8 = player.position.asPosition3f();
+    pos8.x = pos8.x - 1;
+    pos8.y = pos8.y - 2;
+    pos8.z = pos8.z + 1;
+    var blockPos8 = pos8.asBlockPos();
+    var blockState8 = world.getBlock(blockPos8).definition.displayName as string;
+    if(blockState8 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState8 != "Hyperuranon Actualizing Fabrial") {
+        player.sendChat("Missing one beacon pyramid block");
+        return "FAIL";
+    }
+
+    var pos9 = player.position.asPosition3f();
+    pos9.x = pos9.x - 1;
+    pos9.y = pos9.y - 2;
+    pos9.z = pos9.z - 1;
+    var blockPos9 = pos9.asBlockPos();
+    var blockState9 = world.getBlock(blockPos9).definition.displayName as string;
+    if(blockState9 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState8 != "Hyperuranon Actualizing Fabrial") {
+        player.sendChat("Missing one beacon pyramid block");
+        return "FAIL";
+    }
+
+    Commands.call("summon Item ~ ~ ~ {Item:{id:\"contenttweaker:runes_of_the_true_tongue\",Count:1b}}", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+hymnofthetruetongue.register();
+
+
+var masterofthetruetonguecallstone = VanillaFactory.createItem("master_of_the_true_tongue_callstone");
+masterofthetruetonguecallstone.maxStackSize = 1;
+masterofthetruetonguecallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 1) {
+        player.sendChat("You gotta be in the End");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn master_eldunari_callstone_structure", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+masterofthetruetonguecallstone.register();
+
+var gamblingaddictionprisonkey = VanillaFactory.createItem("gambling_addiction_prison_key");
+gamblingaddictionprisonkey.maxStackSize = 1;
+gamblingaddictionprisonkey.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != -1) {
+        player.sendChat("You gotta be in the Nether");
+        return "FAIL";
+    }
+
+    player.sendChat("This is a joke, gambling is bad, don't waste your money like that :)");
+    Commands.call("pillar-spawn hard_mode_callstone_gambling", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+gamblingaddictionprisonkey.register();
+
+
+var luckyboxaetherbronze = VanillaFactory.createItem("lucky_box_aether_bronze");
+luckyboxaetherbronze.maxStackSize = 1;
+luckyboxaetherbronze.itemRightClick = function(stack, world, player, hand) {
+
+    Commands.call("pillar-spawn loot_box_aether_bronze", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+luckyboxaetherbronze.register();
+
+var luckyboxaethersilver = VanillaFactory.createItem("lucky_box_aether_silver");
+luckyboxaethersilver.maxStackSize = 1;
+luckyboxaethersilver.itemRightClick = function(stack, world, player, hand) {
+
+    Commands.call("pillar-spawn loot_box_aether_silver", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+luckyboxaethersilver.register();
+
+var luckyboxaethergold = VanillaFactory.createItem("lucky_box_aether_gold");
+luckyboxaethergold.maxStackSize = 1;
+luckyboxaethergold.itemRightClick = function(stack, world, player, hand) {
+
+    Commands.call("pillar-spawn loot_box_aether_gold", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+luckyboxaethergold.register();
+
+var luckyboxtwilightbooks = VanillaFactory.createItem("lucky_box_twilight_books");
+luckyboxtwilightbooks.maxStackSize = 1;
+luckyboxtwilightbooks.itemRightClick = function(stack, world, player, hand) {
+
+    Commands.call("pillar-spawn loot_box_twilight_books", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+luckyboxtwilightbooks.register();
+
+var luckyboxtwilightweapons = VanillaFactory.createItem("lucky_box_twilight_weapons");
+luckyboxtwilightweapons.maxStackSize = 1;
+luckyboxtwilightweapons.itemRightClick = function(stack, world, player, hand) {
+
+    Commands.call("pillar-spawn loot_box_twilight_weapons", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+luckyboxtwilightweapons.register();
+
+
+var dreadcleansingcallstone = VanillaFactory.createItem("dread_cleansing_callstone");
+dreadcleansingcallstone.maxStackSize = 1;
+dreadcleansingcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 19) {
+        player.sendChat("You gotta be in the Bedrock Dimension");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn arbiter_callstone_dreadcleanser", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+dreadcleansingcallstone.register();
+
+
+
+var betrayedsoulcallstone = VanillaFactory.createItem("rites_of_liberation");
+betrayedsoulcallstone.maxStackSize = 1;
+betrayedsoulcallstone.itemRightClick = function(stack, world, player, hand) {
+
+    Commands.call("pillar-spawn armedzombieautomation_callstone", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+betrayedsoulcallstone.register();
+

@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    20102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oIncreases growth rate of animals.\n\nIncreases breeding consuming vengeful will.\n\nAuto-feeds consuming steadfast will.\n\nDestructive will makes mobs explode ;)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stone_of_the_wizard"
+      },
+      "name:8": "Shepherd"
+    }
+  },
+  "questID:3": 859,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

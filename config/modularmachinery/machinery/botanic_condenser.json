@@ -8,7 +8,7 @@
             "x": 0,
             "y": 1,
             "z": 1,
-            "description": "Replace top Middle block for increased output, 15X",
+            "description": "15X increased output",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",

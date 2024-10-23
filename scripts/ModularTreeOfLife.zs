@@ -168,7 +168,7 @@ infusesacredeucaly.build();
 
 val treeoflifenergy = RecipeBuilder.newBuilder("treeoflifenergy","tree_of_life",6000);
 treeoflifenergy.addItemInput(<contenttweaker:energy_egg>);
-treeoflifenergy.addEnergyPerTickOutput(1000000);
+treeoflifenergy.addEnergyPerTickOutput(4000000);
 treeoflifenergy.build();
 
 

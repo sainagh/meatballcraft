@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    20102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oIncreases the number of upgrade points on living armor! Pretty good!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stone_of_the_wizard"
+      },
+      "name:8": "Ritual of the Living Evolution"
+    }
+  },
+  "questID:3": 840,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

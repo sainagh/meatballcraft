@@ -1,0 +1,36 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    138
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": " ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "indium"
+        }
+      },
+      "name:8": "Indium"
+    }
+  },
+  "questID:3": 626,
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 0,
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "indium"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

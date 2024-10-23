@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70123
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Can be crafted by combining an Iron Ingot and Fiery Blood.\n\n- Written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "twilightforest:fiery_ingot"
+      },
+      "name:8": "Fiery Ingot"
+    }
+  },
+  "questID:3": 70190,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:fiery_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

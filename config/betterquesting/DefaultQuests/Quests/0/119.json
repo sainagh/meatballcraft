@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    118
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The star found in the hearts of withers has very similar properties to the other \u0027mythic\u0027 magic I have encountered.\nThe testificates were willing to share that both the ceratures and the artifacts they produce are of their own making. From this, I can infer that mythic magic can indeed come from mundane sources that are not goddess-type beings.\nThis likely included some artifact, but it is comforting to know that the inaccessible mythic powers I have encountered aren\u0027t as alien as they seemed.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "The Power of Terra"
+    }
+  },
+  "questID:3": 119,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "minecraft:nether_star"
+            },
+            "TrophyName:8": "Wither Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:nether_star"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

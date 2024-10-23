@@ -506,3 +506,9 @@ mythcomp87.addEnergyPerTickInput(60000);
 mythcomp87.addItemInput(<woot:shard:6>);
 mythcomp87.addItemOutput(<woot:stygianironingot>*4);
 mythcomp87.build();
+
+val mythcomp88 = RecipeBuilder.newBuilder("mythcomp88","mythic_processor_compactor",2);
+mythcomp88.addEnergyPerTickInput(60000);
+mythcomp88.addItemInput(<ore:nuggeGold>);
+mythcomp88.addItemOutput(<contenttweaker:gold_leaf>);
+mythcomp88.build();

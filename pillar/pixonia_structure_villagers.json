@@ -1,7 +1,7 @@
 {
-	"generatorType": "SURFACE",
-	"minY": -1,
-	"maxY": -1,
+	"generatorType": "ANYWHERE",
+	"minY": 75,
+	"maxY": 120,
 	"offsetX": 0,
 	"offsetY": 0,
 	"offsetZ": 0,
@@ -25,5 +25,5 @@
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 900
+	"rarity": 600
 }

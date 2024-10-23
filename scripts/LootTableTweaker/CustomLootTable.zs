@@ -101,6 +101,7 @@ mods.ltt.LootTable.removeGlobalItem("aoa3:lyon_ingot");
 mods.ltt.LootTable.removeGlobalItem("aoa3:shyrestone_ingot");
 mods.ltt.LootTable.removeGlobalItem("aoa3:charged_runium_chunk");
 mods.ltt.LootTable.removeGlobalItem("aoa3:ghoulish_ingot");
+mods.ltt.LootTable.removeGlobalItem("aoa3:crystallite");
 
 mods.ltt.LootTable.removeGlobalItem("abyssalcraft:copperingot");
 mods.ltt.LootTable.removeGlobalItem("abyssalcraft:tiningot");

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70128
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found in the Precasia Dimension from Advent of Ascension, below Y\u003d42.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:legbone_fragment"
+      },
+      "name:8": "Legbone Fragment"
+    }
+  },
+  "questID:3": 70230,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:legbone_fragment"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

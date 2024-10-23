@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    20203
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDrop the lexica botania in an elven gateway to unlock pages.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:lexicon",
+        "tag:10": {
+          "knowledge.alfheim:1": 1,
+          "knowledge.dream:1": 1,
+          "knowledge.minecraft:1": 1,
+          "knowledge.relic:1": 1
+        }
+      },
+      "name:8": "Elven Knowledge"
+    }
+  },
+  "questID:3": 20062,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:lexicon",
+          "tag:10": {
+            "knowledge.alfheim:1": 1,
+            "knowledge.dream:1": 1,
+            "knowledge.minecraft:1": 1,
+            "knowledge.relic:1": 1
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "botania:manaresource"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

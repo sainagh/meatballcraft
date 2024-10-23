@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    132
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Despite their relatively low presence on Terra, sky dragons, including the very annoying chaotic ones, hold some serious power!\nWhen it comes to the Twilight Horde and the Shyre Empire, I\u0027m starting to believe I\u0027m dealing with quite literal deities...\nIt is interesting, though, how this ties in with the distinctions of magic types I have encountered. As a wandering kid, trying to imagine what alien civilizations may look like, I always thought technology would be the way. But I now have evidence that magic, of the \u0027mythic\u0027 type, can be enough to support a galactic rule.\nWell, to be fair, this magic may just be technology I do not understand yet.\nAnyhow, I keep having direct interactions with it, so there may be a way to directly use this powers to actively fight back.\nIf mythic magic is enough to conquer galaxies, it should be enough to protect Terra, right?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tinymobfarm:ultimate_farm"
+      },
+      "name:8": "Embracing Entropy"
+    }
+  },
+  "questID:3": 133,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "draconicevolution:chaos_shard"
+            },
+            "TrophyName:8": "Chaotic Warrior",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tinymobfarm:ultimate_farm"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

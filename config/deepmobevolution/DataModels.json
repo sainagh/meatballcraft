@@ -545,7 +545,7 @@
     ],
     "lootItems": [
       "twilightforest:naga_scale,16",
-      "twilightforest:charm_of_life_1,2",
+      "contenttweaker:lively_twilight_rock,2",
       "twilightforest:charm_of_keeping_1,2",
       "minecraft:paper,64",
       "minecraft:book,32"
@@ -630,7 +630,7 @@
       "twilightforest:alpha_fur,8",
       "minecraft:packed_ice,16",
       "minecraft:feather,32",
-      "twilightforest:charm_of_life_2,1",
+      "contenttweaker:lively_twilight_rock,2",
       "twilightforest:charm_of_keeping_2,1",
       "xreliquary:mob_ingredient,1,10",
       "bhc:blue_heart,4,0"
@@ -1131,7 +1131,7 @@
         "On God frfr no cap."
       ],
       "entity": "aoa3:graw",
-      "entityScale": 48,
+      "entityScale": 1,
       "entityOffsetX": 10,
       "entityOffsetY": 20
     }

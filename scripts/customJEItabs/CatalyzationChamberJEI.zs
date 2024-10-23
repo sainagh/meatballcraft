@@ -6,7 +6,7 @@ import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
-var catalyzationchamberJEI as IJeiPanel = JEI.createJei("catalyzation_chamber", "Catalyzation Chamber");
+var catalyzationchamberJEI as IJeiPanel = JEI.createJei("catalyzation_chamber", "催化室");
 catalyzationchamberJEI.setModid("MeatballCraft");
 catalyzationchamberJEI.setIcon(<contenttweaker:catalyzation_chamber>);
 catalyzationchamberJEI.addRecipeCatalyst(<contenttweaker:catalyzation_chamber>);
@@ -69,7 +69,7 @@ catalyzationchamber8.build();
 
 val catalyzationchamber9 = JEI.createJeiRecipe("catalyzation_chamber");
 catalyzationchamber9.addInput(<thaumicwonders:alienist_stone>);
-catalyzationchamber9.addInput(<ore:oreVoidMetal>);
+catalyzationchamber9.addInput(<thaumcraft:void_seed>);
 catalyzationchamber9.setOutputs([<thaumicwonders:eldritch_cluster:8>]);
 catalyzationchamber9.build();
 

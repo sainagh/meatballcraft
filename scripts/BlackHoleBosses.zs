@@ -165,7 +165,7 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/alta
 
 
 val makedarkstarlight = RecipeBuilder.newBuilder("makedarkstarlight","twelve_gates_of_heaven",200);
-makedarkstarlight.addStarlightInput(10000);
+makedarkstarlight.addStarlightInput(5000);
 makedarkstarlight.addEnergyPerTickInput(30000000);
 makedarkstarlight.addFluidInput(<fluid:sideral_life_essence>*10000);
 makedarkstarlight.addFluidOutput(<fluid:darkstarlight>*10000);

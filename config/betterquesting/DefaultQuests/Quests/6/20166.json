@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    20165
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oConstruct a 3x3 portal of livingwood (no corners), with the gateway core at the middle of the bottom, and the glimmering livingwood in the middle of the other three sides.\n\nPlace two mana pools with pylons on top within three blocks of the gateway core, at the same y level. There will be the mana buffer for the gateway. If the pools don\u0027t have enough mana, the portal will close!\n\nTo start the gateway, right click the core with the wand of the forest. You will need a lot of mana to open the portal.\n\nThrow items into the portal to craft. This will consume a small amount of mana.\n\nBe careful, throwing other items that do not have recipes will delete them!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:alfheimportal"
+      },
+      "name:8": "Elven Gateway"
+    }
+  },
+  "questID:3": 20166,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:alfheimportal"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "Damage:2": 5,
+          "id:8": "botania:livingwood"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 1,
+          "id:8": "botania:pylon"
+        },
+        "3:10": {
+          "Count:3": 8,
+          "id:8": "botania:livingwood"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -3,7 +3,7 @@
   "main": {
     "external_config": true,
     "debug_mode": true,
-    "custom_localization": false
+    "custom_localization": true
   },
   "tweaks": {
     "hide_curses": false,

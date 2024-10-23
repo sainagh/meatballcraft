@@ -5,6 +5,8 @@ mods.ItemStages.stageEnchant("divinestage", <enchantment:tombstone:magic_siphon>
 
 mods.ItemStages.stageEnchant("bloodmasterstage", <enchantment:cofhcore:multishot>);
 
+mods.ItemStages.stageEnchant("brightsteelforging", <enchantment:tombstone:shadow_step>);
+
 mods.ItemStages.addItemStage("camerastage", <extrabotany:buddhistrelics>);
 mods.ItemStages.addItemStage("camerastage", <extrabotany:camera>);
 mods.ItemStages.addItemStage("camerastage", <enderutilities:syringe:1>);

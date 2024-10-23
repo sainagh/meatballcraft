@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    20054,
+    114
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe following quests will guide you through thaumcraft, a mod focused on thaumturgy and the energy that permeates every aspect of reality!\n\nNOTE: these quests are designed around using the really scary vishroom, which is the recommended way to progress through the mod. If you do not want to go this route, just follow the thaumonomicon!\n\nThe mod and its addons provide for powerful tools and player upgrades.\n\nThe magic energies in Thaumcraft consis of Vis, which exists in the world by itself, and will slowly replenish itself if used, Flux, a radiation-like mechanic that causes bad effects, Warp, a player-bound system that produces negative effects, and Essentia, consisting of custom resources that can be obtained from most of the items in the pack.\n\nThe quests here will walk you through Thaumcraft and its many addons, Thaumic Energistics, Thaumic Wonders, Thaumic Additions, Thaumic Augmentation, Thaumic Tinkerer.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic",
+        "tag:10": {}
+      },
+      "name:8": "Thaumcraft"
+    }
+  },
+  "questID:3": 20196,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

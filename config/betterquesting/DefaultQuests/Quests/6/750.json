@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    752
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": " ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:greater_gaia_spirit"
+      },
+      "name:8": "Greater Gaia Spirit"
+    }
+  },
+  "questID:3": 750,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:greater_gaia_spirit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

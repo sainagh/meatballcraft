@@ -208,7 +208,7 @@ mythgear34.setChance(0.0);
 mythgear34.addItemOutput(<contenttweaker:plate_clump_mythic>*9);
 mythgear34.build();
 
-val mythgear35 = RecipeBuilder.newBuilder("mythgear32","mythic_processor_gearworking_die",2);
+val mythgear35 = RecipeBuilder.newBuilder("mythgear35","mythic_processor_gearworking_die",2);
 mythgear35.addEnergyPerTickInput(30000);
 mythgear35.addItemInput(<contenttweaker:object_of_great_mass>*4);
 mythgear35.addItemOutput(<storagedrawers:upgrade_creative>*4);

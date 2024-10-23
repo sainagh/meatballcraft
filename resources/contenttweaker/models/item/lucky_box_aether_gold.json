@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/lucky_box_aether_gold"
+  }
+}

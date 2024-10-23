@@ -235,7 +235,7 @@ mods.tconstruct.Casting.addTableRecipe(<contenttweaker:phasing_alloy_plate>, <tc
 mods.tconstruct.Melting.addRecipe(<liquid:molten_wrought_iron> * 144,<contenttweaker:wrought_iron_plate>);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:wrought_iron_plate>, <tconstruct:cast_custom:3>, <liquid:molten_wrought_iron>, 144, false, 80);
 
-recipes.addHiddenShaped("barongempuzzle", <contenttweaker:baron_gem>,
+scripts.PuzzleUtil.addPuzzleShaped("barongempuzzle", <contenttweaker:baron_gem>,
 [[<ore:blockCrystalFlux>, <ore:blockCrystalFlux>, <ore:blockCrystalFlux>],
 [<ore:blockCrystalFlux>, <aoa3:baron_cube>.withTag({display: {Name: "Ashari"}}), <ore:blockCrystalFlux>],
 [<ore:blockCrystalFlux>, <ore:blockCrystalFlux>, <ore:blockCrystalFlux>]]);

@@ -1,0 +1,315 @@
+{
+  "preRequisites:11": [
+    1253,
+    20412
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oObtained from the Soulsucking Callstone.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forestry:bee_queen_ge",
+        "tag:10": {
+          "Genome:10": {
+            "Chromosomes:9": {
+              "0:10": {
+                "Slot:1": 0,
+                "UID0:8": "gendustry.bee.Soulsucking",
+                "UID1:8": "gendustry.bee.Soulsucking"
+              },
+              "1:10": {
+                "Slot:1": 1,
+                "UID0:8": "forestry.speedSlow",
+                "UID1:8": "forestry.speedSlow"
+              },
+              "2:10": {
+                "Slot:1": 2,
+                "UID0:8": "forestry.lifespanLong",
+                "UID1:8": "forestry.lifespanLong"
+              },
+              "3:10": {
+                "Slot:1": 3,
+                "UID0:8": "forestry.fertilityNormal",
+                "UID1:8": "forestry.fertilityNormal"
+              },
+              "4:10": {
+                "Slot:1": 4,
+                "UID0:8": "forestry.toleranceNone",
+                "UID1:8": "forestry.toleranceNone"
+              },
+              "5:10": {
+                "Slot:1": 5,
+                "UID0:8": "forestry.boolTrue",
+                "UID1:8": "forestry.boolTrue"
+              },
+              "6:10": {
+                "Slot:1": 6,
+                "UID0:8": "forestry.toleranceNone",
+                "UID1:8": "forestry.toleranceNone"
+              },
+              "7:10": {
+                "Slot:1": 7,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "8:10": {
+                "Slot:1": 8,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "9:10": {
+                "Slot:1": 9,
+                "UID0:8": "forestry.flowersVanilla",
+                "UID1:8": "forestry.flowersVanilla"
+              },
+              "10:10": {
+                "Slot:1": 10,
+                "UID0:8": "forestry.floweringSlow",
+                "UID1:8": "forestry.floweringSlow"
+              },
+              "11:10": {
+                "Slot:1": 11,
+                "UID0:8": "forestry.territoryAverage",
+                "UID1:8": "forestry.territoryAverage"
+              },
+              "12:10": {
+                "Slot:1": 12,
+                "UID0:8": "careerbees.effect.exploding",
+                "UID1:8": "careerbees.effect.exploding"
+              }
+            }
+          },
+          "Health:3": 50,
+          "IsAnalyzed:1": 0,
+          "Mate:10": {
+            "Chromosomes:9": {
+              "0:10": {
+                "Slot:1": 0,
+                "UID0:8": "gendustry.bee.Soulsucking",
+                "UID1:8": "gendustry.bee.Soulsucking"
+              },
+              "1:10": {
+                "Slot:1": 1,
+                "UID0:8": "forestry.speedSlow",
+                "UID1:8": "forestry.speedSlow"
+              },
+              "2:10": {
+                "Slot:1": 2,
+                "UID0:8": "forestry.lifespanLong",
+                "UID1:8": "forestry.lifespanLong"
+              },
+              "3:10": {
+                "Slot:1": 3,
+                "UID0:8": "forestry.fertilityNormal",
+                "UID1:8": "forestry.fertilityNormal"
+              },
+              "4:10": {
+                "Slot:1": 4,
+                "UID0:8": "forestry.toleranceNone",
+                "UID1:8": "forestry.toleranceNone"
+              },
+              "5:10": {
+                "Slot:1": 5,
+                "UID0:8": "forestry.boolTrue",
+                "UID1:8": "forestry.boolTrue"
+              },
+              "6:10": {
+                "Slot:1": 6,
+                "UID0:8": "forestry.toleranceNone",
+                "UID1:8": "forestry.toleranceNone"
+              },
+              "7:10": {
+                "Slot:1": 7,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "8:10": {
+                "Slot:1": 8,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "9:10": {
+                "Slot:1": 9,
+                "UID0:8": "forestry.flowersVanilla",
+                "UID1:8": "forestry.flowersVanilla"
+              },
+              "10:10": {
+                "Slot:1": 10,
+                "UID0:8": "forestry.floweringSlow",
+                "UID1:8": "forestry.floweringSlow"
+              },
+              "11:10": {
+                "Slot:1": 11,
+                "UID0:8": "forestry.territoryAverage",
+                "UID1:8": "forestry.territoryAverage"
+              },
+              "12:10": {
+                "Slot:1": 12,
+                "UID0:8": "careerbees.effect.exploding",
+                "UID1:8": "careerbees.effect.exploding"
+              }
+            }
+          },
+          "MaxH:3": 50
+        }
+      },
+      "name:8": "Soulsucking Bee"
+    }
+  },
+  "questID:3": 2224,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forestry:bee_queen_ge",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gendustry.bee.Soulsucking",
+                  "UID1:8": "gendustry.bee.Soulsucking"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlow",
+                  "UID1:8": "forestry.speedSlow"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanLong",
+                  "UID1:8": "forestry.lifespanLong"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "forestry.flowersVanilla",
+                  "UID1:8": "forestry.flowersVanilla"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlow",
+                  "UID1:8": "forestry.floweringSlow"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "careerbees.effect.exploding",
+                  "UID1:8": "careerbees.effect.exploding"
+                }
+              }
+            },
+            "Health:3": 50,
+            "IsAnalyzed:1": 0,
+            "Mate:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gendustry.bee.Soulsucking",
+                  "UID1:8": "gendustry.bee.Soulsucking"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlow",
+                  "UID1:8": "forestry.speedSlow"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanLong",
+                  "UID1:8": "forestry.lifespanLong"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "forestry.flowersVanilla",
+                  "UID1:8": "forestry.flowersVanilla"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlow",
+                  "UID1:8": "forestry.floweringSlow"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "careerbees.effect.exploding",
+                  "UID1:8": "careerbees.effect.exploding"
+                }
+              }
+            },
+            "MaxH:3": 50
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

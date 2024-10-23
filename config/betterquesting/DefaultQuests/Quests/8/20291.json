@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    20285
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:lelyetia_grass"
+      },
+      "name:8": "Lelyetia Plane"
+    }
+  },
+  "questID:3": 20291,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 815,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Lelyetia Plane",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

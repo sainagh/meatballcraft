@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70127
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found in the Wildwood dimension from DivineRPG.\nCan be crafted from Wildwood souls from Wildwood native mobs.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:wildwood_fragments"
+      },
+      "name:8": "Wildwood Fragments"
+    }
+  },
+  "questID:3": 70215,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:wildwood_fragments"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

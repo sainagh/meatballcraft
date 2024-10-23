@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    787
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oGenerates mana by sucking water in a 3x3 area.\n\nWill decay eventually.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:specialflower",
+        "tag:10": {
+          "type:8": "hydroangeas"
+        }
+      },
+      "name:8": "Hydroangeas (OK)"
+    }
+  },
+  "questID:3": 776,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:specialflower",
+          "tag:10": {
+            "type:8": "hydroangeas"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

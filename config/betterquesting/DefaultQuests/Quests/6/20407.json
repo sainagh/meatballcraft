@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20406
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oMithminite: 4000",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumadditions:jar_mithminite"
+      },
+      "name:8": "Mithminite Jar"
+    }
+  },
+  "questID:3": 20407,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumadditions:jar_mithminite"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

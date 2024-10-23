@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70126
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found below Y\u003d50 on Osiris.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:serpentine"
+      },
+      "name:8": "Serpentine"
+    }
+  },
+  "questID:3": 70140,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:serpentine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

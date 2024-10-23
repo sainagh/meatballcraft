@@ -1,0 +1,76 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§7§r§7§oThis is a checkmark quest, click on the red X to complete it!\n\n§o§rThe equations make sense, string theory is true! We indeed live in a universe that has more dimensions than we can perceive...\nThis means that it is §otheoretically§r possible to travel through these dimensions!\nTime to start looking at some ways to prove this theory. Nobel prize here I come!!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_infinity_fog"
+      },
+      "name:8": "Powerful Knowledge"
+    }
+  },
+  "questID:3": 0,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:written_book",
+          "tag:10": {
+            "author:8": "meatballcraft",
+            "pages:9": {
+              "0:8": "{\"text\":\"For servers:\\n\\nCreate a party before completing any of the quests.\\n\\nYou can do this in the questbook homepage!\\n\\n\\nSEE NEXT PAGE\"}",
+              "1:8": "{\"text\":\"Sometimes the progress for checkbox quests is not shared with the rest of your party.\\n\\nMake sure everyone completes those!\"}"
+            },
+            "resolved:1": 1,
+            "title:8": "FOR SERVERS"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:written_book",
+          "tag:10": {
+            "author:8": "meatballcraft",
+            "pages:9": {
+              "0:8": "{\"text\":\"Channels aren\\u0027t for everyone, I know.\\n\\nIf you want to disable them, you can find an alternative config in the AlternativeConfigs folder. Just copy the AppliedEnergistics2 folder from there into config.\\n\\nNEXT PAGE\"}",
+              "1:8": "{\"text\":\"This will also increase the energy cost of your network 8X to offset the smaller number of wiring connections.\\n\\nWARNING: networks without channels are more laggy so they are not recommended for progressing past chapter 4!\"}"
+            },
+            "title:8": "No Channels?!?"
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:written_book",
+          "tag:10": {
+            "author:8": "meatballcraft",
+            "pages:9": {
+              "0:8": "{\"text\":\"To optimize the game and its performance across multiple hardware platforms, some in-game animations (like fire) have been disabled by default.\\n\\nSEE NEXT PAGE\"}",
+              "1:8": "{\"text\":\"I know some players care about having pretty-looking things.\\n\\nTo re-enable animations, paste the loliasm.cfg file from AlternativeConfigs into the config folder.\\n\\nSEE NEXT PAGE\"}",
+              "2:8": "{\"text\":\"WARNING: doing this may lower performance, or even make the pack unplayable.\"}"
+            },
+            "title:8": "No Animations"
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:written_book",
+          "tag:10": {
+            "author:8": "Meatballcraft",
+            "pages:9": {
+              "0:8": "{\"text\":\"Why do items look weird when I mouse over??\\n\\nThe modpack uses the Epic Tooltip mod. We understand if this is not for everyone.\\n\\nIf you want to change back to Vanilla presets, check the AlternativeConfig folder.\"}"
+            },
+            "title:8": "Items Look Weird"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

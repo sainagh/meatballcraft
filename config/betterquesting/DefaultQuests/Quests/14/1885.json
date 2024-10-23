@@ -1,0 +1,170 @@
+{
+  "preRequisites:11": [
+    1883,
+    40
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis quest can be completed using any hammer.\n\nHammers will let you break stone and ores in a 3x3 area, making it quite convenient for early game mining sessions.\n\nYou should switch to the destruction catalyst and the catalytic lens later on.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "plustic::10": {
+            "Items:9": {},
+            "Size:3": 1
+          },
+          "plustic:fruitsalad_cap:10": {
+            "Items:9": {},
+            "Size:3": 5
+          },
+          "plustic:musicofthespheres_cap:10": {
+            "Items:9": {},
+            "Size:3": 1
+          }
+        },
+        "id:8": "tconstruct:hammer",
+        "tag:10": {
+          "Modifiers:9": {
+            "0:10": {
+              "color:3": -3019530,
+              "identifier:8": "holy",
+              "level:3": 1
+            },
+            "1:10": {
+              "color:3": 16777215,
+              "identifier:8": "toolleveling",
+              "level:3": 1
+            }
+          },
+          "Special:10": {
+            "Categories:9": {
+              "0:8": "weapon",
+              "1:8": "harvest",
+              "2:8": "aoe",
+              "3:8": "tool"
+            }
+          },
+          "Stats:10": {
+            "Attack:5": 5.0,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 720,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 1,
+            "MiningSpeed:5": 5.0
+          },
+          "StatsOriginal:10": {
+            "Attack:5": 5.0,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 720,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 1,
+            "MiningSpeed:5": 5.0
+          },
+          "TinkerData:10": {
+            "Materials:9": {
+              "0:8": "silver",
+              "1:8": "silver",
+              "2:8": "silver",
+              "3:8": "silver"
+            },
+            "Modifiers:9": {
+              "0:8": "toolleveling"
+            }
+          },
+          "Traits:9": {
+            "0:8": "holy",
+            "1:8": "toolleveling"
+          }
+        }
+      },
+      "name:8": "Tinker\u0027s Hammers"
+    }
+  },
+  "questID:3": 1885,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "plustic::10": {
+              "Items:9": {},
+              "Size:3": 1
+            },
+            "plustic:fruitsalad_cap:10": {
+              "Items:9": {},
+              "Size:3": 5
+            },
+            "plustic:musicofthespheres_cap:10": {
+              "Items:9": {},
+              "Size:3": 1
+            }
+          },
+          "id:8": "tconstruct:hammer",
+          "tag:10": {
+            "Modifiers:9": {
+              "0:10": {
+                "color:3": -1186113,
+                "identifier:8": "fractured",
+                "level:3": 1
+              },
+              "1:10": {
+                "color:3": -1186113,
+                "identifier:8": "splintering",
+                "level:3": 1
+              },
+              "2:10": {
+                "color:3": 16777215,
+                "identifier:8": "toolleveling",
+                "level:3": 1
+              }
+            },
+            "Special:10": {
+              "Categories:9": {
+                "0:8": "weapon",
+                "1:8": "harvest",
+                "2:8": "aoe",
+                "3:8": "tool"
+              }
+            },
+            "Stats:10": {
+              "Attack:5": 4.0,
+              "AttackSpeedMultiplier:5": 1.0,
+              "Durability:3": 675,
+              "FreeModifiers:3": 3,
+              "HarvestLevel:3": 1,
+              "MiningSpeed:5": 5.09
+            },
+            "StatsOriginal:10": {
+              "Attack:5": 2.5,
+              "AttackSpeedMultiplier:5": 1.0,
+              "Durability:3": 675,
+              "FreeModifiers:3": 3,
+              "HarvestLevel:3": 1,
+              "MiningSpeed:5": 5.09
+            },
+            "TinkerData:10": {
+              "Materials:9": {
+                "0:8": "bone",
+                "1:8": "bone",
+                "2:8": "bone",
+                "3:8": "bone"
+              },
+              "Modifiers:9": {
+                "0:8": "toolleveling"
+              }
+            },
+            "Traits:9": {
+              "0:8": "fractured",
+              "1:8": "splintering",
+              "2:8": "toolleveling"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

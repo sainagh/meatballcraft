@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oYou can right click these to discover spells without having to try them out.\n\nAfter using, it will discover the spell closest to it in your inventory.\n\nCan be automated with the Loonium, or using the Wizardry Combiner.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ebwizardry:identification_scroll"
+      },
+      "name:8": "Scroll of Identification"
+    }
+  },
+  "questID:3": 2348,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:identification_scroll"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

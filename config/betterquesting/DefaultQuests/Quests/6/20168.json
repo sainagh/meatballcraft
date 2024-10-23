@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    20167
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:enchanter"
+      },
+      "name:8": "Mana Enchanter"
+    }
+  },
+  "questID:3": 20168,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:lapis_block"
+        },
+        "1:10": {
+          "Count:3": 17,
+          "id:8": "minecraft:obsidian"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:enchanter"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

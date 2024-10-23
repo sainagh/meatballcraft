@@ -27,7 +27,7 @@ mythasspurityoffer.addItemInput(<contenttweaker:vibrating_stone>*4);
 mythasspurityoffer.addItemOutput(<contenttweaker:purity_offer>);
 mythasspurityoffer.build();
 
-recipes.addHiddenShapeless("makethattributeboi",<contenttweaker:aesir_tribute>,
+scripts.PuzzleUtil.addPuzzleShapeless("makethattributeboi",<contenttweaker:aesir_tribute>,
 [<contenttweaker:ragnarok_sigil>,<abyssalcraft:crystalcluster:4>,<abyssalcraft:crystalcluster:9>,<abyssalcraft:crystalcluster:10>,<abyssalcraft:crystalcluster2:1>]);
 
 

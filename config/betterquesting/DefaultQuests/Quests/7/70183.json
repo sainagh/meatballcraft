@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70182
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Created from a Tier 1 Void Ore Miner.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:erodium_crystal"
+      },
+      "name:8": "Erodium Crystal"
+    }
+  },
+  "questID:3": 70183,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:erodium_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

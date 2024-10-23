@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    862
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oYou need to set up the resonance of the faceted crystal ritual.\n\nIn a chunk with demonic will from a demon crucible or other methods, place a crystallizer above the master ritual stone, and let a raw will crystal grow.\n\nCrystals of the other types will eventually grow on the ritual as long as you have enough raw will in the chunk.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bloodmagic:ritual_controller"
+      },
+      "name:8": "Aspected Will"
+    }
+  },
+  "questID:3": 863,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "bloodmagic:item_demon_crystal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "bloodmagic:item_demon_crystal"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "bloodmagic:item_demon_crystal"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "bloodmagic:item_demon_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

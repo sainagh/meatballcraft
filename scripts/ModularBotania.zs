@@ -33,7 +33,7 @@ bot2.addEnergyPerTickInput(40000);
 bot2.addItemInput(<botania:thundersword>);
 bot2.addItemInput(<botania:manaresource:5>*12);
 bot2.addItemInput(<minecraft:nether_star>*4);
-bot2.addItemOutput(SuperEnchantedItem(<botania:thundersword>.withTag({display: {Name:"§6§oThunderfury, Blessed Blade of the Windseeker§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistThunderfuryWrapped).getItem());
+bot2.addItemOutput(SuperEnchantedItem(<botania:thundersword>.withTag({display: {Name:"§6§o雷霆之怒，逐风者的祝福之剑§r",Lore:["§d§o超限附魔§r"]}}), enclistThunderfuryWrapped).getItem());
 bot2.build();
 
 val bot3 = RecipeBuilder.newBuilder("bot3","gaia_altar",400);
@@ -133,7 +133,7 @@ bot13.addItemInput(<extrabotany:combatmaidhelmrevealing>);
 bot13.addItemInput(<botania:manaresource:4>*8);
 bot13.addItemInput(<contenttweaker:sentient_meatball>);
 bot13.addItemInput(<contenttweaker:mark_of_gluttony>);
-bot13.addItemOutput(SuperEnchantedItem(<extrabotany:combatmaidhelmrevealing>.withTag({display: {Name:"§6§oHelm of Gluttony§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistKittySuitWrapped).getItem());
+bot13.addItemOutput(SuperEnchantedItem(<extrabotany:combatmaidhelmrevealing>.withTag({display: {Name:"§6§o暴食头饰§r",Lore:["§d§o超限附魔§r"]}}), enclistKittySuitWrapped).getItem());
 bot13.build();
 
 val bot14 = RecipeBuilder.newBuilder("bot14","gaia_altar",400);
@@ -142,7 +142,7 @@ bot14.addItemInput(<extrabotany:combatmaidchestdarkened>);
 bot14.addItemInput(<botania:manaresource:4>*8);
 bot14.addItemInput(<contenttweaker:sentient_meatball>);
 bot14.addItemInput(<contenttweaker:mark_of_gluttony>);
-bot14.addItemOutput(SuperEnchantedItem(<extrabotany:combatmaidchestdarkened>.withTag({display: {Name:"§6§oChest of Gluttony§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistKittySuitWrapped).getItem());
+bot14.addItemOutput(SuperEnchantedItem(<extrabotany:combatmaidchestdarkened>.withTag({display: {Name:"§6§o暴食女仆服§r",Lore:["§d§o超限附魔§r"]}}), enclistKittySuitWrapped).getItem());
 bot14.build();
 
 val bot15 = RecipeBuilder.newBuilder("bot15","gaia_altar",400);
@@ -151,7 +151,7 @@ bot15.addItemInput(<extrabotany:combatmaidlegs>);
 bot15.addItemInput(<botania:manaresource:4>*8);
 bot15.addItemInput(<contenttweaker:sentient_meatball>);
 bot15.addItemInput(<contenttweaker:mark_of_gluttony>);
-bot15.addItemOutput(SuperEnchantedItem(<extrabotany:combatmaidlegs>.withTag({display: {Name:"§6§oLegs of Gluttony§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistKittySuitWrapped).getItem());
+bot15.addItemOutput(SuperEnchantedItem(<extrabotany:combatmaidlegs>.withTag({display: {Name:"§6§o暴食裙甲§r",Lore:["§d§o超限附魔§r"]}}), enclistKittySuitWrapped).getItem());
 bot15.build();
 
 val bot16 = RecipeBuilder.newBuilder("bot16","gaia_altar",400);
@@ -160,5 +160,5 @@ bot16.addItemInput(<extrabotany:combatmaidboots>);
 bot16.addItemInput(<botania:manaresource:4>*8);
 bot16.addItemInput(<contenttweaker:sentient_meatball>);
 bot16.addItemInput(<contenttweaker:mark_of_gluttony>);
-bot16.addItemOutput(SuperEnchantedItem(<extrabotany:combatmaidboots>.withTag({display: {Name:"§6§oBoots of Gluttony§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistKittySuitWrapped).getItem());
+bot16.addItemOutput(SuperEnchantedItem(<extrabotany:combatmaidboots>.withTag({display: {Name:"§6§o暴食鞋子§r",Lore:["§d§o超限附魔§r"]}}), enclistKittySuitWrapped).getItem());
 bot16.build();

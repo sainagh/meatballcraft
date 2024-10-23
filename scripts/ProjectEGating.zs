@@ -1,6 +1,6 @@
 recipes.removeShaped(<projecte:item.pe_destruction_catalyst>);
 
-recipes.addHiddenShapeless("mushroompuzzle",<contenttweaker:alchemical_mushroom>,
+scripts.PuzzleUtil.addPuzzleShapeless("mushroompuzzle",<contenttweaker:alchemical_mushroom>,
 [<biomesoplenty:terrarium:8>,
 <botania:mushroom:15>,
 <botania:mushroom:13>,

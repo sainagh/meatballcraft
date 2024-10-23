@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    20500
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Better Relays, better Collectors, better EMC!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "projecte:collector_mk2"
+      },
+      "name:8": "MK2 Power Flower"
+    }
+  },
+  "questID:3": 20504,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "projecte:collector_mk2"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "projecte:relay_mk2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

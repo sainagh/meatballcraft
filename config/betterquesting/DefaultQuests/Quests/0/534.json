@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    524
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Got my hands on some Vibrating Stone, and this stuff is awesome. Harmonics play some role in the way magic is catalyzed, and a material that is capable of harmonization on its own, a sort of time crystal, has the power to amplify magic. This is the secret long safekept by the haunted souls of the Twilight Forest.\nAnd on even more incredible news, the Testificates that came here to retaliate are still alive, and I dare say, thriving. They did something to this place, something very drastic, that actually drove the Shyre empire away. This is the first great win of the Testificates against the Shyre Empire.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:vibrating_stone"
+      },
+      "name:8": "Interesting results"
+    }
+  },
+  "questID:3": 534,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "contenttweaker:vibrating_stone"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:vibrating_stone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

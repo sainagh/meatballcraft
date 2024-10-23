@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    20055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe Tome of Alkahestry allows you to duplicate certain items by using its own charge.\n\nJEI will provide info on what items can be used to charge this book, and what items can be duplicated with it.\n\nA crafter from RFTools in extC mode is a great way to automate this resource generation method.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1001,
+        "id:8": "xreliquary:alkahestry_tome"
+      },
+      "name:8": "Tome of Alkahestry"
+    }
+  },
+  "questID:3": 20063,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1001,
+          "id:8": "xreliquary:alkahestry_tome"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

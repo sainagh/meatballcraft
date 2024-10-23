@@ -124,7 +124,7 @@ recipes.addShaped(<contenttweaker:herne_altar_stone>,
 [<ore:stone>, <bewitchment:stone_herne_statue>, <ore:stone>],
 [<ore:stone>, <ore:stone>, <ore:stone>]]);
 
-recipes.addHiddenShapeless("sparkledaoak",<contenttweaker:sparkled_oak_planks>,
+scripts.PuzzleUtil.addPuzzleShapeless("sparkledaoak",<contenttweaker:sparkled_oak_planks>,
 [<divinerpg:captains_sparkler>.reuse(),
 <biomesoplenty:planks_0:0>]);
 

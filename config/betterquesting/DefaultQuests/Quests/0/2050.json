@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    2048
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Who knew that this power would also act as a moderator for extremely fast fission reactions? Well, I am very happy I tinkered with it, fission is a useful way to obtain large amounts of isotopes!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:salt_exchanger_vessel"
+      },
+      "name:8": "Fast Fission Forreal"
+    }
+  },
+  "questID:3": 2050,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "nuclearcraft:fission_block"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:fuel_exchanger_vessel"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:salt_exchanger_vessel"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:heat_sink_vessel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:two_phase_fission_reactor"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

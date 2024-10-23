@@ -1,0 +1,45 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    1587,
+    1598
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "actuallyadditions:item_chest_crystal_white"
+      },
+      "name:8": "Enori Crystal"
+    }
+  },
+  "questID:3": 1627,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "actuallyadditions:item_helm_crystal_white"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "actuallyadditions:item_chest_crystal_white"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "actuallyadditions:item_pants_crystal_white"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "actuallyadditions:item_boots_crystal_white"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

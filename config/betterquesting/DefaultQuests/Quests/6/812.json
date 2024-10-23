@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    20102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis ritual works as a crafting mechanic. Place a blood altar on top of the master ritual stone, and eight stasis plates over the fire runes forming a \u0027circle\u0027 around the master ritual stone.\n\nJEI will show recipes made by this ritual. This includes stasis tools.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "bloodmagic:blood_rune"
+      },
+      "name:8": "Infusion de Sanguine (Useful)"
+    }
+  },
+  "questID:3": 812,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "bloodarsenal:stasis_plate"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:altar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

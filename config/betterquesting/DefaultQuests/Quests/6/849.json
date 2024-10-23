@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    20102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oHarvests crops and replants them at the cost of LP.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stone_of_the_wizard"
+      },
+      "name:8": "Reap of the Harvest Moon"
+    }
+  },
+  "questID:3": 849,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

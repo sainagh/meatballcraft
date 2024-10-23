@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTo encode recipes that have more than 9 inputs at once, you cannot use the pattern terminal. Instead, you should use the package recipe encoder to set package recipe holders (these are your patterns).\n\nFor each set of recipes, you should encode TWO recipe holders. Each recipe holder can do up to 20 recipes, categorized as processing, and as each of the extended crafting mechanics.\n\nTo encode a recipe, you can do it similarly to how a pattern terminal works! The plus sign in JEI will work!\n\nYou should NOT encode multiple recipe types (processing, basic table, etc) on the same recipe holder pair!\n\nMake sure you save your recipe holders!\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "packagedauto:recipe_holder"
+      },
+      "name:8": "Package Recipes"
+    }
+  },
+  "questID:3": 90154,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "packagedauto:recipe_holder"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "packagedauto:encoder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

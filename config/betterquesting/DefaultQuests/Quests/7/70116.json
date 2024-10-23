@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found near Bedrock.\nHolding a Resonating Wand will illuminate regions above Rock Crystal ores, and even highlight them through walls!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:itemrockcrystalsimple",
+        "tag:10": {
+          "astralsorcery:10": {
+            "crystalProperties:10": {
+              "collectiveCapability:3": 100,
+              "fract:3": 0,
+              "purity:3": 100,
+              "size:3": 400,
+              "sizeOverride:3": -1
+            }
+          }
+        }
+      },
+      "name:8": "Rock Crystal"
+    }
+  },
+  "questID:3": 70116,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:itemrockcrystalsimple",
+          "tag:10": {
+            "astralsorcery:10": {
+              "crystalProperties:10": {
+                "collectiveCapability:3": 100,
+                "fract:3": 0,
+                "purity:3": 100,
+                "size:3": 400,
+                "sizeOverride:3": -1
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

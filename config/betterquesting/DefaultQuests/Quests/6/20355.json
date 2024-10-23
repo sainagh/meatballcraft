@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    20122
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCollector crystals are used in a variety of applications.\n\nThey can be linked to an altar to boost starlight levels.\n\nThey can be linked to a ritual using the same attunement to boost the effect of the altar.\n\nBy building a structure around the crystal (see preview) it can be used to increase its boosting effect further.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:blockcelestialcollectorcrystal",
+        "tag:10": {
+          "astralsorcery:10": {
+            "collectorType:3": 1,
+            "constellationName:8": "astralsorcery.constellation.discidia",
+            "crystalProperties:10": {
+              "collectiveCapability:3": 100,
+              "fract:3": 0,
+              "purity:3": 100,
+              "size:3": 900,
+              "sizeOverride:3": -1
+            }
+          }
+        }
+      },
+      "name:8": "Floating Crystal"
+    }
+  },
+  "questID:3": 20355,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:blockcelestialcollectorcrystal",
+          "tag:10": {
+            "astralsorcery:10": {
+              "collectorType:3": 1,
+              "constellationName:8": "astralsorcery.constellation.discidia",
+              "crystalProperties:10": {
+                "collectiveCapability:3": 100,
+                "fract:3": 0,
+                "purity:3": 100,
+                "size:3": 900,
+                "sizeOverride:3": -1
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

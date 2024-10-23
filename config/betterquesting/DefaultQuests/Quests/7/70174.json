@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70120
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Spawns below Y\u003d16.\n\n- Written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:diamond"
+      },
+      "name:8": "Diamond"
+    }
+  },
+  "questID:3": 70174,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

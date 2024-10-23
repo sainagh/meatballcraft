@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    149
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Again, despite being my enemies, I have to appreciate the beauty and diversity of the territories in the Shyre Empire. There\u0027s a whole civilization that evolved from nitrate! The creepers are deadly creatures, but the fact that nature produced such beings is astonishing. They self-immolate by exploding, and leave spores that makes more creepers. The circle of life sure is crazy. \nThis is very cool, although there is something that does not feel right about this. Some of these creepers have forgone the self-immolation part, and some have varying levels of consciousness, despite being basically the same type of creature. There is something more than evolution at play, I believe.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:creeponia_realmstone"
+      },
+      "name:8": "Life from Nitrate?!?"
+    }
+  },
+  "questID:3": 339,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:creep_altar",
+            "meta:3": 0
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:creeponia_realmstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

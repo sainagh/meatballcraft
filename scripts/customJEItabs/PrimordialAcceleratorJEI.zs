@@ -6,8 +6,8 @@ import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
-var primordialacceleratorJEI as IJeiPanel = JEI.createJei("primordial_accelerator", "Primordial Accelerator");
-primordialacceleratorJEI.setModid("MeatballCraft");
+var primordialacceleratorJEI as IJeiPanel = JEI.createJei("primordial_accelerator", "元始加速器");
+primordialacceleratorJEI.setModid("Bewitchment");
 primordialacceleratorJEI.setIcon(<contenttweaker:primordial_accelerator>);
 primordialacceleratorJEI.addRecipeCatalyst(<contenttweaker:primordial_accelerator>);
 primordialacceleratorJEI.setBackground(IJeiUtils.createBackground(150, 55));
@@ -17,7 +17,7 @@ primordialacceleratorJEI.addElement(IJeiUtils.createArrowElement(64, 25, 0));
 primordialacceleratorJEI.addElement(IJeiUtils.createImageElement("primordialsymbol", 68, 6, 16, 16, 0, 0, "contenttweaker:textures/gui/primordial_accelerator.png", 16, 16));
 primordialacceleratorJEI.onTooltip(function(mouseX, mouseY) as string[]{
   if (mouseX <= 81 && mouseX >= 68 && mouseY <= 22 && mouseY >= 6) {
-    return ["Power accelerator with a redstone pulse"];
+    return ["使用红石脉冲启动加速器"];
   }  
   return [];
 });

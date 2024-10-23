@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90130
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe energy acceptor is used to input energy into a basic (8 channels) AE2 network. \nFor larger numbers of channels, the ME controller should be used.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:energy_acceptor"
+      },
+      "name:8": "Energy Acceptor"
+    }
+  },
+  "questID:3": 90129,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:energy_acceptor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

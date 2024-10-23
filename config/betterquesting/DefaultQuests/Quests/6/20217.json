@@ -1,0 +1,86 @@
+{
+  "preRequisites:11": [
+    20194
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTo enter the emptiness, you need to use the fracture locator to find fractures. The nether roof is a good place to look for them. The locator will glow if you are nearby a fracture.\n\nTo open the fracture you need to use a fully charged thaumium or voidseer casting gauntlet augmented with the impetus conductor. To charge the augmented gauntlet, stand nearby a flux rift, and it will slowly consume it.\n\nOnce the gauntlet is charged, you can right click a fracture to open it!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:fracture_locator"
+      },
+      "name:8": "Enter the Emptiness"
+    }
+  },
+  "questID:3": 20217,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:fracture_locator"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "augment:10": {},
+              "energy:10": {
+                "energy:4": 300
+              }
+            }
+          },
+          "id:8": "thaumicaugmentation:augment_caster_rift_energy_storage",
+          "tag:10": {
+            "cap:10": {
+              "augment:10": {},
+              "energy:10": {
+                "energy:4": 300
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "slots:3": 3
+            }
+          },
+          "id:8": "thaumicaugmentation:gauntlet",
+          "tag:10": {
+            "cap:10": {
+              "slots:3": 3
+            },
+            "color:3": 8022208
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "slots:3": 3
+            }
+          },
+          "id:8": "thaumicaugmentation:gauntlet",
+          "tag:10": {
+            "cap:10": {
+              "slots:3": 3
+            },
+            "color:3": 2498903
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    20102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis is used to obtain your first aspected will crystals.\n\nPlace a crystallizer on top of the master ritual stone to collect raw demon will.\n\nAfter the will crystal is fully grown, the ritual will slowly split it into crystals of the other types.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "bloodmagic:blood_rune"
+      },
+      "name:8": "Resonance of the Faceted Crystal (Useful)"
+    }
+  },
+  "questID:3": 852,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:faceted_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

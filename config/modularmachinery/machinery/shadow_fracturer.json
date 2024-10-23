@@ -2,6 +2,7 @@
     "registryname": "shadow_fracturer",
     "localizedname": "Shadow Fracturer",
 	"color": "382e2d",
+    "has-factory": true,
     "parts": [
         {
             "x": -2,

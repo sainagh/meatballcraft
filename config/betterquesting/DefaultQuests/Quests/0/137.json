@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    240
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The primordial malevolence words now make sense! Well, sort of...\nI know who the \u0027He\u0027 it was referring to is...\nHis name is the Meatball Man! \nHow stupid! You are a god around mortals, and the name you choose is Meatball man? Why?\nFor some reason, he really wanted to give me recursion, and he even made pacts with a bunch of other gods to bring me to Terra. It seems like he expected me to be enslaved to their will, like the monsters from the swamp in between. \nAnd yet I am here, ready to kick ass! Those puny abyssal ones were not enough to hold me back!\nIf you wanted to escape with your head on your shoulders, you should not have asked all your cthulhu friends to make me immortal! I am free! And I am coming for you!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:sentient_meatball"
+      },
+      "name:8": "The Meatball Man"
+    }
+  },
+  "questID:3": 137,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "contenttweaker:sentient_meatball"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:undead_callstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

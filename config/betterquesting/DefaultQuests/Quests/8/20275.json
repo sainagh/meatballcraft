@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    20255
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse a snow globe from divinerpg on a frame made out of snow blocks\n\n§fThe frozen planet of Iceika is a testament to what the powers of wizardry can achieve in their most extreme version.\nIt seems hard to believe, but the state of this land was caused by a single individual, having unleashed enough power to cause effects comparable to the fall of a large meteor.\nA single spell was able to fully change its climate, turning it into a desolate, icy, land.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:frozen_grass"
+      },
+      "name:8": "Iceika Hills"
+    }
+  },
+  "questID:3": 20275,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 425,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Iceika Hills",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    2270
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:harbinger_sentient_meatball"
+      },
+      "name:8": "Harbinger Meatballs"
+    }
+  },
+  "questID:3": 2273,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:monumental_meatball_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:harbinger_sentient_meatball"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

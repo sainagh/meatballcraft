@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1748
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oEssentia can be moved in and out of your AE2 network with these buses (or with the infusion provider).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicenergistics:essentia_terminal"
+      },
+      "name:8": "Essentia Networking"
+    }
+  },
+  "questID:3": 20229,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicenergistics:essentia_import"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumicenergistics:essentia_export"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

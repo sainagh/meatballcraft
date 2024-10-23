@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    50140
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "draconicevolution:draconium_capacitor"
+      },
+      "name:8": "Draconic Flux Capacitor"
+    }
+  },
+  "questID:3": 50141,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "draconicevolution:draconium_capacitor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

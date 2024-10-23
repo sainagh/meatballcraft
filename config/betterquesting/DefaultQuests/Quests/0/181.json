@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    180
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Well, First time seeing the extent of the effects of this \u0027recursion\u0027...\nIf whatever process that leads to recursion is not done correctly, the result is an extremely mighty \u0027berserk\u0027...\nAnd when the stakes are high, this can be used as a weapon...\nIn a ditch attempt to reclaim the territories of Furatto, the leaders of the now local testificate group unleashed the ender chicken. This drove the bulk of shyre forces away, but also made the planet nearly unlivable.\nTerra Chickens, thanks to the influence of dimensional shards, are able to \u0027absorb\u0027 matter.\nThis is similar to my attitude towards alchemy, which I am starting to believe to be a human-only trait. Within me, I can store matter as EMC.\nChickens are similar, but they \u0027become what they absorb\u0027.\nAre there dimensional shards on earth? At home? That would explain why I can do such things...\nOr maybe I\u0027m overthinking it...\nRegardless, I guess now I know why the conflict between the Twilight Horde and Shyre Empire hasn\u0027t escalated. Nobody wants to cause a chicken-level threat, or something even more destructive.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:ender_feather"
+      },
+      "name:8": "Ender Feather"
+    }
+  },
+  "questID:3": 181,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:ender_feather"
+            },
+            "TrophyName:8": "Ender Chicken Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ender_feather"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

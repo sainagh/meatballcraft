@@ -6,7 +6,7 @@ import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
-var rightclickitemJEI as IJeiPanel = JEI.createJei("right_click_meatball", "Right Clicking");
+var rightclickitemJEI as IJeiPanel = JEI.createJei("right_click_meatball", "右键点击");
 rightclickitemJEI.setModid("MeatballCraft");
 rightclickitemJEI.setIcon(<contenttweaker:use_item>);
 rightclickitemJEI.addRecipeCatalyst(<contenttweaker:use_item>);
@@ -17,7 +17,7 @@ rightclickitemJEI.addElement(IJeiUtils.createArrowElement(64, 25, 0));
 rightclickitemJEI.addElement(IJeiUtils.createImageElement("mouseLeft", 68, 6, 13, 14, 0, 0, "contenttweaker:textures/gui/mouse_right.png", 16, 16));
 rightclickitemJEI.onTooltip(function(mouseX, mouseY) as string[]{
   if (mouseX <= 81 && mouseX >= 68 && mouseY <= 22 && mouseY >= 6) {
-    return ["Right click"];
+    return ["右键点击"];
   }  
   return [];
 });
@@ -64,3 +64,22 @@ rightclick8.addInput(<contenttweaker:vibrating_mithminite_schythe>);
 rightclick8.setOutputs([<contenttweaker:ichor>]);
 rightclick8.build();
 
+val rightclick9 = JEI.createJeiRecipe("right_click_meatball");
+rightclick9.addInput(<contenttweaker:entropic_channeling_fabrial>);
+rightclick9.setOutputs([<contenttweaker:soul_of_entropy>*4]);
+rightclick9.build();
+
+val rightclick10 = JEI.createJeiRecipe("right_click_meatball");
+rightclick10.addInput(<contenttweaker:fluix_soul_fabrial>);
+rightclick10.setOutputs([<contenttweaker:touch_of_the_arbiter>]);
+rightclick10.build();
+
+val rightclick11 = JEI.createJeiRecipe("right_click_meatball");
+rightclick11.addInput(<contenttweaker:hymn_of_the_true_tongue>);
+rightclick11.setOutputs([<contenttweaker:runes_of_the_true_tongue>]);
+rightclick11.build();
+
+val rightclick12 = JEI.createJeiRecipe("right_click_meatball");
+rightclick12.addInput(<contenttweaker:call_of_the_arbiter>);
+rightclick12.setOutputs([<contenttweaker:scale_of_the_ancient_heart>]);
+rightclick12.build();

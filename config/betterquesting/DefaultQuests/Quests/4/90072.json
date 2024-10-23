@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90068
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe upgrades keep on coming!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "dankstorage:dank_6"
+      },
+      "name:8": "Dank 6"
+    }
+  },
+  "questID:3": 90072,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "dankstorage:dank_6"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

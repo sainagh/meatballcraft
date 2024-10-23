@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    20092
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oPlace a tartaric gem of any type into the crucible. This will suck will out of the gem, and put it into the chunk.\n\nPlace a demon crystallizer into the same chunk. A will crystal will eventaully grow. Break it to obtain a raw will crystal!\n\nThe will aura gauge will show how much will of each type is present in a chunk.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bloodmagic:item_demon_crystal"
+      },
+      "name:8": "Raw Will"
+    }
+  },
+  "questID:3": 862,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:demon_will_gauge"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:item_demon_crystal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:demon_crucible"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:demon_crystallizer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

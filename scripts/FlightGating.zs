@@ -110,10 +110,10 @@ recipes.removeShaped(<simplyjetpacks:metaitemmods:0>);
 recipes.removeShaped(<simplyjetpacks:metaitemmods:1>);
 recipes.removeShaped(<simplyjetpacks:metaitemmods:2>);
 
-recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:evocation_illager"}}),
-[[<abyssalcraft:shadowgem>, <projecte:item.pe_fuel:2>, <abyssalcraft:shadowgem>],
-[<projecte:item.pe_fuel:2>, <thermalfoundation:storage:8>, <projecte:item.pe_fuel:2>],
-[<abyssalcraft:shadowgem>, <projecte:item.pe_fuel:2>, <abyssalcraft:shadowgem>]]);
+// recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:evocation_illager"}}),
+// [[<abyssalcraft:shadowgem>, <projecte:item.pe_fuel:2>, <abyssalcraft:shadowgem>],
+// [<projecte:item.pe_fuel:2>, <thermalfoundation:storage:8>, <projecte:item.pe_fuel:2>],
+// [<abyssalcraft:shadowgem>, <projecte:item.pe_fuel:2>, <abyssalcraft:shadowgem>]]);
 
 recipes.removeShaped(<actuallyadditions:item_wings_of_the_bats>);
 

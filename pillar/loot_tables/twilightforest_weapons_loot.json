@@ -1,0 +1,365 @@
+{
+    "pools": [
+      {
+        "name": "crimsonstuffs",
+        "entries": [
+          {
+            "entryName": "tfspellpack:amulet_life_charm",
+            "weight": 1,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "tfspellpack:amulet_life_charm"
+          },
+          {
+            "entryName": "twilightforest:twilight_scepter",
+            "weight": 10,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "twilightforest:twilight_scepter"
+          },
+          {
+            "entryName": "twilightforest:lifedrain_scepter",
+            "weight": 10,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "twilightforest:lifedrain_scepter"
+          },
+          {
+            "entryName": "twilightforest:zombie_scepter",
+            "weight": 10,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "twilightforest:zombie_scepter"
+          },
+          {
+            "entryName": "twilightforest:shield_scepter",
+            "weight": 10,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "twilightforest:shield_scepter"
+          },
+          {
+            "entryName": "twilightforest:minotaur_axe",
+            "weight": 10,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "twilightforest:minotaur_axe"
+          },
+          {
+            "entryName": "twilightforest:mazebreaker_pickaxe",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "twilightforest:mazebreaker_pickaxe"
+          },
+          {
+            "entryName": "twilightforest:triple_bow",
+            "weight": 10,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "twilightforest:triple_bow"
+          },
+          {
+            "entryName": "twilightforest:seeker_bow",
+            "weight": 10,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "twilightforest:seeker_bow"
+          },
+          {
+            "entryName": "twilightforest:ice_bow",
+            "weight": 10,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "twilightforest:ice_bow"
+          },
+          {
+            "entryName": "twilightforest:ender_bow",
+            "weight": 10,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "twilightforest:ender_bow"
+          },
+          {
+            "entryName": "tfspellpack:ring_twilight",
+            "weight": 8,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "tfspellpack:ring_twilight"
+          },
+          {
+            "entryName": "tfspellpack:ring_hydra_kaboom",
+            "weight": 8,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "tfspellpack:ring_hydra_kaboom"
+          },
+          {
+            "entryName": "tfspellpack:ring_aurora",
+            "weight": 8,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "tfspellpack:ring_aurora"
+          },
+          {
+            "entryName": "tfspellpack:ring_trollsteinn",
+            "weight": 8,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "tfspellpack:ring_trollsteinn"
+          },
+          {
+            "entryName": "tfspellpack:ring_stealth_attack",
+            "weight": 8,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "tfspellpack:ring_stealth_attack"
+          },
+          {
+            "entryName": "tfspellpack:amulet_steeleaf",
+            "weight": 8,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "tfspellpack:amulet_steeleaf"
+          },
+          {
+            "entryName": "tfspellpack:amulet_carminite",
+            "weight": 8,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "tfspellpack:amulet_carminite"
+          },
+          {
+            "entryName": "tfspellpack:charm_ice_exploder",
+            "weight": 8,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "tfspellpack:charm_ice_exploder"
+          },
+          {
+            "entryName": "tfspellpack:charm_goblin",
+            "weight": 8,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "tfspellpack:charm_goblin"
+          },
+          {
+            "entryName": "tfspellpack:charm_troll",
+            "weight": 8,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "tfspellpack:charm_troll"
+          },
+          {
+            "entryName": "tfspellpack:charm_accursed_tome",
+            "weight": 8,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "tfspellpack:charm_accursed_tome"
+          }
+        ],
+        "rolls": {
+          "min": 1.0,
+          "max": 1.0
+        }
+      }
+    ]
+  }

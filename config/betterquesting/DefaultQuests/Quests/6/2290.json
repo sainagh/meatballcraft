@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    2280
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe Quartz DImensional Door works like its iron conterpart, but it is player-bound. Two different players entering the same door will enter different places.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "dimdoors:quartz_dimensional_door"
+      },
+      "name:8": "Personal Pocket Dimension"
+    }
+  },
+  "questID:3": 2290,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "dimdoors:quartz_dimensional_door"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

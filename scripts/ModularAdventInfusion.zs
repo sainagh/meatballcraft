@@ -69,7 +69,6 @@ alltheinfinf.addItemInput(<thaumcraft:seal:1>*1);
 alltheinfinf.addItemInput(<thaumcraft:seal:13>*1);
 alltheinfinf.addItemInput(<thaumcraft:seal:4>*1);
 alltheinfinf.addItemInput(<thaumcraft:seal:6>*1);
-alltheinfinf.addItemInput(<thaumcraft:seal:13>*1);
 alltheinfinf.addItemInput(<thaumcraft:seal:8>*1);
 alltheinfinf.addItemInput(<thaumcraft:seal:10>*1);
 alltheinfinf.addItemInput(<thaumcraft:seal:7>*1);

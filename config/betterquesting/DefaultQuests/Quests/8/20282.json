@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    20276
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTravel using a warp core on a space station",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:dry_earth"
+      },
+      "name:8": "Oi"
+    }
+  },
+  "questID:3": 20282,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 152,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Oi",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

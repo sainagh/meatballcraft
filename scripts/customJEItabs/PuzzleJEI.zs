@@ -8,7 +8,7 @@ import mods.randomtweaker.jei.IJeiUtils;
 import scripts.enchantwrapper.EnchantUtil;
 import scripts.enchantwrapper.EnchantUtil.WrapperRegistry;
 
-var modpackpuzzleJEI as IJeiPanel = JEI.createJei("meatball_puzzle", "Puzzles");
+var modpackpuzzleJEI as IJeiPanel = JEI.createJei("meatball_puzzle", "谜题");
 modpackpuzzleJEI.setModid("MeatballCraft");
 modpackpuzzleJEI.setIcon(<contenttweaker:obtained_from_a_puzzle>);
 modpackpuzzleJEI.addRecipeCatalyst(<contenttweaker:obtained_from_a_puzzle>);
@@ -19,10 +19,10 @@ modpackpuzzleJEI.addElement(IJeiUtils.createArrowElement(64, 25, 0));
 modpackpuzzleJEI.addElement(IJeiUtils.createImageElement("usingBrain", 68, 6, 16, 16, 0, 0, "contenttweaker:textures/gui/brainuse.png", 16, 16));
 modpackpuzzleJEI.onTooltip(function(mouseX, mouseY) as string[]{
   if (mouseX <= 81 && mouseX >= 68 && mouseY <= 22 && mouseY >= 6) {
-    return ["Use your Brain!"];
+    return ["开动大脑！"];
   }  
   else if (mouseX <= 85 && mouseX >= 64 && mouseY <= 35 && mouseY >= 25) {
-    return ["Puzzle can be completed after getting item on the left"];
+    return ["获得左侧物品后即可完成谜题"];
   }
   return [];
 });
@@ -313,3 +313,23 @@ val puzzleterraformassiflora = JEI.createJeiRecipe("meatball_puzzle");
 puzzleterraformassiflora.addInput(<contenttweaker:terraformassiflora>);
 puzzleterraformassiflora.setOutputs([<contenttweaker:crown_of_the_energy_queen>]);
 puzzleterraformassiflora.build();
+
+val puzzlearbitertomb = JEI.createJeiRecipe("meatball_puzzle");
+puzzlearbitertomb.addInput(<contenttweaker:star_of_betrayal>);
+puzzlearbitertomb.setOutputs([<contenttweaker:entropic_channeling_stone>]);
+puzzlearbitertomb.build();
+
+val puzzleabominationpower = JEI.createJeiRecipe("meatball_puzzle");
+puzzleabominationpower.addInput(<contenttweaker:touch_of_the_arbiter>);
+puzzleabominationpower.setOutputs([<contenttweaker:abomination_of_true_power>]);
+puzzleabominationpower.build();
+
+val puzzlememrestor = JEI.createJeiRecipe("meatball_puzzle");
+puzzlememrestor.addInput(<contenttweaker:eldunari>);
+puzzlememrestor.setOutputs([<contenttweaker:memory_restoration_ritual>]);
+puzzlememrestor.build();
+
+val puzzleruneslib = JEI.createJeiRecipe("meatball_puzzle");
+puzzleruneslib.addInput(<contenttweaker:memory_restoration_ritual>);
+puzzleruneslib.setOutputs([<contenttweaker:runes_of_liberation>]);
+puzzleruneslib.build();

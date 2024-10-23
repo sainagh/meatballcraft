@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    20102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis ritual nerfs the augments present on living armor to increase the number of upgrade points.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stone_of_the_wizard"
+      },
+      "name:8": "Penance of the Leadened Soul"
+    }
+  },
+  "questID:3": 816,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

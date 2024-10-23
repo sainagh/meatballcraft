@@ -185,10 +185,6 @@ endston.addItemInput(<contenttweaker:everwatching_eye>);
 endston.addFluidOutput(<fluid:liquid_void>*2000);
 endston.build();
 
-recipes.addShaped(<contenttweaker:nethersky_amber>*4,
-[[<divinerpg:ancient_entity_statue>, <aoa3:corallus_statue>, <divinerpg:ancient_entity_statue>],
-[<aoa3:smash_statue>, <nuclearcraft:depleted_fuel_uranium:5>, <aoa3:smash_statue>],
-[<divinerpg:ancient_entity_statue>, <aoa3:corallus_statue>, <divinerpg:ancient_entity_statue>]]);
 
 
 val mith4 = RecipeBuilder.newBuilder("mythicaltier4","mythical_resource_miner_tier4",800);
@@ -402,7 +398,7 @@ dreadcruc.addItemOutput(<materialpart:dreaded_steel:ingot>*5);
 dreadcruc.build();
 
 mods.botania.RuneAltar.addRecipe(<contenttweaker:nethengeic_rune>, 
-[<botania:rune:1>,<botania:rune:1>,<materialpart:dreaded_steel:ingot>,<twilightforest:transformation_powder>], 
+[<botania:rune:1>, <botania:rune:1>, <materialpart:dreaded_steel:ingot>, <twilightforest:transformation_powder>, <contenttweaker:nethengeic_gem>], 
 8000);
 
 mods.botania.RuneAltar.addRecipe(<contenttweaker:nethengeic_rune>*3, 
@@ -2042,7 +2038,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:apalachia_st
 
 recipes.addShaped(<contenttweaker:rainbow_petal>,
 [[<aoa3:holly_top_petals>, <aoa3:holly_top_petals>, <aoa3:holly_top_petals>],
-[<aoa3:holly_top_petals>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.rainbow"}), <aoa3:holly_top_petals>],
+[<aoa3:holly_top_petals>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.rainbow"}).noReturn(), <aoa3:holly_top_petals>],
 [<aoa3:holly_top_petals>, <aoa3:holly_top_petals>, <aoa3:holly_top_petals>]]);
 
 val spatcruc5 = RecipeBuilder.newBuilder("spatialcruc5","spatial_crucible",200);
@@ -2723,8 +2719,8 @@ true,
 <contenttweaker:realmstone>, 
 [<aoa3:magic_mending_solution>,<aoa3:magic_mending_solution>,<draconicevolution:chaotic_core>,<draconicevolution:chaotic_core>,
 <contenttweaker:plasmatic_neutronium_ingot>,<contenttweaker:plasmatic_neutronium_ingot>,<contenttweaker:infinity_fragment>,<divinerpg:arksiane_lump>]);
-game.setLocalization("ac.ritual.ShyreWaystoneInf", "Into the Shyre"); 
-game.setLocalization("ac.ritual.ShyreWaystoneInf.desc", "Into the Shyre");
+game.setLocalization("ac.ritual.ShyreWaystoneInf", "前往塞尔瑞"); 
+game.setLocalization("ac.ritual.ShyreWaystoneInf.desc", "前往塞尔瑞");
 
 val shyreStatue = <ore:shyreStatue>;
 shyreStatue.add(<aoa3:craexxeus_statue>);
@@ -2982,7 +2978,7 @@ easierbloodmaster1.build();
 recipes.addShapeless(<materialpart:bloodmaster_metal:ingot>*4,
 [<contenttweaker:bloodmaster_block>]);
 
-recipes.addHiddenShaped("mysteriummysteryez", 
+scripts.PuzzleUtil.addPuzzleShaped("mysteriummysteryez", 
 <contenttweaker:mysterium_wormhole>, 
 [[null, <bloodmagic:blood_rune:8>, null],
 [<bloodmagic:blood_rune:4>, <aoa3:lunar_block>, <bloodmagic:blood_rune:10>],
@@ -3017,7 +3013,7 @@ recipes.addShaped(<contenttweaker:enhanced_chaos_shard>,
 recipes.addShapeless(<contenttweaker:enhanced_chaos_fragment>*9,
 [<contenttweaker:enhanced_chaos_shard>]);
 
-recipes.addHiddenShapeless("runandormysteryez", 
+scripts.PuzzleUtil.addPuzzleShapeless("runandormysteryez", 
 <contenttweaker:runandor_wormhole>, 
 [<aoa3:fire_rune>, <aoa3:wither_rune>, <aoa3:strike_rune>,
 <aoa3:distortion_rune>, <aoa3:compass_rune>, <aoa3:storm_rune>,
@@ -3152,13 +3148,13 @@ recipes.addShaped(<contenttweaker:sacred_acorn>,
 [<extratrees:food:33>, <twilightforest:cinder_log>, <extratrees:food:33>],
 [<contenttweaker:shyre_chunk>, <contenttweaker:shyre_chunk>, <contenttweaker:shyre_chunk>]]);
 
-recipes.addHiddenShapeless("leftsacredsaplingmystery", 
+scripts.PuzzleUtil.addPuzzleShapeless("leftsacredsaplingmystery", 
 <contenttweaker:left_sacred_sapling>, 
 [<careerbees:ingredients:1>.withTag({bark: {id: "erebus:log_eucalyptus", Count: 1 as byte, Damage: 0 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1 as byte, Damage: 0 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "forestry:logs.0", Count: 1 as byte, Damage: 1 as short}}),
 <careerbees:ingredients:1>.withTag({bark: {id: "natura:nether_logs", Count: 1 as byte, Damage: 2 as short}}), <contenttweaker:sacred_acorn>, <careerbees:ingredients:1>.withTag({bark: {id: "extratrees:logs.6", Count: 1 as byte, Damage: 2 as short}}),
 <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:mortum_log", Count: 1 as byte, Damage: 0 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "extratrees:logs.5", Count: 1 as byte, Damage: 0 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "extratrees:logs.5", Count: 1 as byte, Damage: 1 as short}})]);
 
-recipes.addHiddenShapeless("rightsacredsaplingmystery", 
+scripts.PuzzleUtil.addPuzzleShapeless("rightsacredsaplingmystery", 
 <contenttweaker:right_sacred_sapling>, 
 [<careerbees:ingredients:1>.withTag({bark: {id: "bewitchment:dragons_blood_wood", Count: 1 as byte, Damage: 0 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:runic_log", Count: 1 as byte, Damage: 0 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:twilight_log", Count: 1 as byte, Damage: 1 as short}}),
 <careerbees:ingredients:1>.withTag({bark: {id: "biomesoplenty:log_0", Count: 1 as byte, Damage: 6 as short}}), <contenttweaker:sacred_acorn>, <careerbees:ingredients:1>.withTag({bark: {id: "forestry:logs.1", Count: 1 as byte, Damage: 2 as short}}),

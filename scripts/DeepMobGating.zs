@@ -106,4 +106,3 @@ recipes.addShaped(<contenttweaker:rainbow_heart_canister>,
 
 mods.bloodmagic.BloodAltar.removeRecipe(<deepmoblearning:glitch_infused_ingot>);
 
-mods.bloodmagic.BloodAltar.addRecipe(<deepmoblearningbm:blood_infused_glitch_ingot>, <avaritia:resource:6>, 5, 10000, 20, 20);

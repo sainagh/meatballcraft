@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20214
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:bright_matter"
+      },
+      "name:8": "Bright Matter"
+    }
+  },
+  "questID:3": 20352,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:bright_matter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

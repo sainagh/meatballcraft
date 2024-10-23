@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    1401
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "deepmoblearning:pristine_matter_twilight_swamp"
+      },
+      "name:8": "Twilight Swamp (Great)"
+    }
+  },
+  "questID:3": 1423,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "deepmoblearning:pristine_matter_twilight_swamp"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:steeleaf_ingot"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:ironwood_raw"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:fiery_ingot"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:hydra_chop"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "bhc:yellow_heart"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

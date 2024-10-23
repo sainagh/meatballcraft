@@ -125,7 +125,7 @@ makedefinedingot.addFluidInput(<fluid:arbiterium>*500);
 makedefinedingot.addItemOutput(<contenttweaker:defined_ingot>);
 makedefinedingot.build();
 
-
+/*
 val makedefinedingotother = RecipeBuilder.newBuilder("makedefinedingotother","definer_two",100);
 makedefinedingotother.addEnergyPerTickInput(10000000);
 makedefinedingotother.addFluidInput(<fluid:hydrogen>*500);
@@ -249,4 +249,4 @@ makedefinedingotother.addFluidInput(<fluid:lawrencium>*500);
 makedefinedingotother.addFluidInput(<fluid:meatballium>*500);
 makedefinedingotother.addFluidInput(<fluid:arbiterium>*500);
 makedefinedingotother.addItemOutput(<contenttweaker:defined_ingot>);
-makedefinedingotother.build();
+makedefinedingotother.build(); */

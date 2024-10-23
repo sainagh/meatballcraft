@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    90437
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe best storage option early game are crates!\n\nDanks and drawer walls can be used with storage buses to store large amounts of items!\n\nUse filing cabinets and junk storage units to store unstackable items!\n\nUse the ender library to store enchanted books!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic",
+        "tag:10": {}
+      },
+      "name:8": "Item Storage"
+    }
+  },
+  "questID:3": 90056,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "plankWood",
+          "id:8": "minecraft:planks"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

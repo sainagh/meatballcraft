@@ -1162,3 +1162,52 @@ thaum112.addItemInput(<thaumicaugmentation:material:3>);
 thaum112.addItemInput(<thaumcraft:plate:2>);
 thaum112.addItemOutput(<thaumicaugmentation:augment_caster_rift_energy_storage>);
 thaum112.build();
+
+
+
+val reci49a = RecipeBuilder.newBuilder("thaum49a","arcane_autoworkbench",120);
+reci49a.addEnergyPerTickInput(100);
+reci49a.addItemInput(<appliedenergistics2:material:0>*4);
+reci49a.addItemInput(<appliedenergistics2:material:22>);
+reci49a.addItemInput(<thaumcraft:salis_mundus>*4);
+reci49a.addItemOutput(<thaumicenergistics:essentia_component_1k>);
+reci49a.build();
+
+val reci53a = RecipeBuilder.newBuilder("thaum53a","arcane_autoworkbench",120);
+reci53a.addEnergyPerTickInput(100);
+reci53a.addItemInput(<appliedenergistics2:material:8>);
+reci53a.addItemInput(<appliedenergistics2:material:22>);
+reci53a.addItemInput(<appliedenergistics2:material:0>);
+reci53a.addItemInput(<thaumcraft:nugget:5>*6);
+reci53a.addItemOutput(<thaumicenergistics:coalescence_core>*2);
+reci53a.build();
+
+val thaum113 = RecipeBuilder.newBuilder("thaum113","arcane_autoworkbench",120);
+thaum113.addEnergyPerTickInput(100);
+thaum113.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})*10);
+thaum113.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})*10);
+thaum113.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})*10);
+thaum113.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})*10);
+thaum113.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})*10);
+thaum113.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})*10);
+thaum113.addItemInput(<thaumcraft:fabric>*3);
+thaum113.addItemInput(<thaumictinkerer:kamiresource:2>*3);
+thaum113.addItemInput(<minecraft:diamond>*3);
+thaum113.addItemOutput(<thaumictinkerer:kamiresource:4>*3);
+thaum113.build();
+
+val thaum114 = RecipeBuilder.newBuilder("thaum114","arcane_autoworkbench",120);
+thaum114.addEnergyPerTickInput(100);
+thaum114.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})*5);
+thaum114.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})*5);
+thaum114.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})*5);
+thaum114.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})*5);
+thaum114.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})*5);
+thaum114.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})*5);
+thaum114.addItemInput(<thaumcraft:ingot:0>);
+thaum114.addItemInput(<thaumictinkerer:kamiresource:2>*3);
+thaum114.addItemInput(<minecraft:diamond>*1);
+thaum114.addItemOutput(<thaumictinkerer:kamiresource:3>*3);
+thaum114.build();
+
+

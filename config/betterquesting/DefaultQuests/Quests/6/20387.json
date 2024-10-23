@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1748
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oSmelteries are used to make essentia out of items. To see what essentia a given item will produce, you can check the JEI tab for essentia, or press shift while hovering over an item in JEI.\n\nA smeltery works like a furnace, where it needs fuel, which can be automatically inputted from the bottom, to function.\n\nTo function properly, a smeltery needs at least one alembic placed on top. If an alembic is not present, all that is smelted will be tuned into flux.\n\nWhen an item with essentia is smelted, it will be turned into an essentia slurry, shown as a purple bar on the left of the smeltery interface. If an alembic is present, the slurry will be transferred as essentia to the alembic.\n\nEssentia can be collected from the alembic using phials, or you can place a filling essentia transfuser to automatically push essentia to nearby jars.\n\nAll operations done by the smeltery will produce a bit of flux, so be careful! Mithrillium tier and above will not make any flux!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:smelter_basic"
+      },
+      "name:8": "Essentia Smeltery"
+    }
+  },
+  "questID:3": 20387,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:smelter_basic"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:alembic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "preRequisites:11": [
+    20255
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oLeft click bedrock at the bottom of the overworld using an Awakened Kamium Pickaxe",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumictinkerer:ichor_block"
+      },
+      "name:8": "Bedrock Dimension"
+    }
+  },
+  "questID:3": 1426917301,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 19,
+      "index:3": 0,
+      "name:8": "Bedrock Dimension",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Spawns from Y\u003d0 to Y\u003d127\n\n- Written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:coal"
+      },
+      "name:8": "Coal"
+    }
+  },
+  "questID:3": 70115,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:coal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

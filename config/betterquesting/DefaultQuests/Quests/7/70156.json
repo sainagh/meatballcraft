@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70119
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found in the Nether.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mysticalagriculture:crafting"
+      },
+      "name:8": "Inferium Essence"
+    }
+  },
+  "questID:3": 70156,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:crafting"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

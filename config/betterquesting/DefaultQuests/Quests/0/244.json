@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    200
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFound in the crimson portal towers in the overworld.\n\n§f A strange group of thaumaturgists has taken over various locations around Terra. They call themselves the Crimson Cult, and while they are unaffiliated with any of the factions involved in this conflict, they are hardly friendly.\nThey have direct access to portals that deploy troops directly where needed, and they have magical abilities far above many other opponents.\nIt is clear they have a deep network of information, they avoid large scale confrontations, and they focus on territorial control over low-interest areas. I know making more and more enmies will not serve me well in the long run, but fighting them is guaranteed to give me some insight about the stakes of this conflict.\nIf this was solely a war about resources, why so many other factions, including the Cult, don\u0027t seem to be interested in collecting said resources, and are instead waiting for something to happen?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:crimson_gem"
+      },
+      "name:8": "Crimson Cult Towers"
+    }
+  },
+  "questID:3": 244,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 1,
+            "TrophyColorGreen:3": 1,
+            "TrophyColorRed:3": 1,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:crimson_gem"
+            },
+            "TrophyName:8": "Robbing the Crimson Cult",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:crimson_gem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

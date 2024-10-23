@@ -424,3 +424,18 @@ recipes.remove(<extracells:storage.component:9>);
 recipes.remove(<extracells:storage.component:10>);
 
 
+recipes.addShapeless(<appliedenergistics2:part:461>,
+[<appliedenergistics2:part:460>, <minecraft:redstone>.reuse()]);
+
+recipes.addShapeless(<appliedenergistics2:part:462>,
+[<appliedenergistics2:part:460>, <minecraft:chest>.reuse()]);
+
+recipes.addShapeless(<appliedenergistics2:part:463>,
+[<appliedenergistics2:part:460>, <minecraft:bucket>.reuse()]);
+
+recipes.addShapeless(<appliedenergistics2:part:467>,
+[<appliedenergistics2:part:460>, <minecraft:glowstone>.reuse()]);
+
+recipes.addShapeless(<appliedenergistics2:part:469>,
+[<appliedenergistics2:part:460>, <appliedenergistics2:energy_cell>.reuse()]);
+

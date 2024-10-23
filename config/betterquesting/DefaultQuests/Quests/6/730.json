@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20070
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oSpells of the matching type receive a 30% buff!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ebwizardry:apprentice_fire_wand"
+      },
+      "name:8": "Apprentice Pyromancer"
+    }
+  },
+  "questID:3": 730,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:apprentice_fire_wand"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

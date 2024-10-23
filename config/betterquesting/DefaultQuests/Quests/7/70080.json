@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found below Y\u003d32 in Ocean Biomes, and as a chance drop from Advent of Ascension ores.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "biomesoplenty:gem"
+      },
+      "name:8": "Sapphire"
+    }
+  },
+  "questID:3": 70080,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "biomesoplenty:gem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

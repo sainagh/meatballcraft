@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1401
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "deepmoblearning:pristine_matter_creeper"
+      },
+      "name:8": "Creeper (OK)"
+    }
+  },
+  "questID:3": 1408,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "deepmoblearning:pristine_matter_creeper"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "minecraft:skull"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:gunpowder"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:copper_coin"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

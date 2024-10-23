@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    20315
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTravel using a warp core with the right artifact on a space station",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:recursion_darkness"
+      },
+      "name:8": "Akathartos"
+    }
+  },
+  "questID:3": 20319,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 172,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Akathartos",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

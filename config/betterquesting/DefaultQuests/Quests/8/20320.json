@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    20315
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTravel using a warp core with the right artifact on a space station",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:recursion_fear"
+      },
+      "name:8": "Pauram"
+    }
+  },
+  "questID:3": 20320,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 173,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Pauram",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    275
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "More strange life forms in the Shyre Empire. Life from sugar, just sugar, nothing else.\nCandyland is a land of sugar too, rocks, plants, and animals. After seeing Creeponia, I strongly suspect this may have been done artificially. Nitrate and explosives are strategically useful, but sugar, why sugar?\nThe candy creatures of Candyland are not particularly imprssive fighers, and yet they exhibit extraordinary discipline. Whatever leadership governs this place, they are doing a stellar job.\nA planet of artificially-created beings that make little to no sense strategically, a seemingly iron-clad organization structure, and goofy presentation. What have I stubled upun here? And despite all of this, why does this place feel dangerous?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:candyland_realmstone"
+      },
+      "name:8": "Just Sugar, no Carbs"
+    }
+  },
+  "questID:3": 462,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:candyland_realmstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

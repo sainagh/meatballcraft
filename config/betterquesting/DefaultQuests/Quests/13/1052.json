@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1032
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe smart output is an upgraded version of the casting table, it can be used for automation, and it can be upgraded for extra functionality!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tinker_io:smart_output"
+      },
+      "name:8": "So Smart, Such Output"
+    }
+  },
+  "questID:3": 1052,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tinker_io:smart_output"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

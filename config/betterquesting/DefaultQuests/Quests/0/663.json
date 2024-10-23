@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    68
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe last stand enchantment will prevent death at the cost of experience. By this point, it should be a good idea to have some sort of XP farm, and to put last stand on your armor.\n\n§fDo I like being trapped in an endless loop of death and rebirth? Absolutely not.\nDoes it have some unexpected advantages! Well, surprisingly, yes!\nKnowing a bit more about magic has allowed me to get more insight into what is happening to me. I still have no idea how or why this is happening, but some empirical testing showed that this rebirth consumes some of my own essence.\nBut thanks to my newly magic abilities, and a bit of industrialization, I can get lots and lots of essense into my person, and bypass the death and rebirth cycle.\nThis has some undesirable side effects, as the protection enchants on my armor lose effectiveness, but I can still become nearly immortal.\nWhoever gave me this \u0027curse\u0027 may have gifted me with something amazing, but it may be a bit too early to say...\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "erebus:death_compass",
+        "tag:10": {}
+      },
+      "name:8": "The power of undeath"
+    }
+  },
+  "questID:3": 663,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:charm_of_life_2"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:enchanted_book",
+          "tag:10": {
+            "StoredEnchantments:9": {
+              "0:10": {
+                "id:3": 30,
+                "lvl:2": 1
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

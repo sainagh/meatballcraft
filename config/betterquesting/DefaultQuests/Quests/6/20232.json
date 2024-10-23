@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    20228
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "thaumicaugmentation:rift_seed",
+        "tag:10": {
+          "flux:3": 100
+        }
+      },
+      "name:8": "Flux Seed"
+    }
+  },
+  "questID:3": 20232,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "thaumicaugmentation:rift_seed",
+          "tag:10": {
+            "flux:3": 100
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

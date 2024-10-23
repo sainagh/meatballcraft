@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    50054,
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe slime sling lets you jump very high by holding right click.\nThe slime boots prevent fall damage and let you bounce when you hit the ground.\nRight clicking the glider will let you glide.\n\nCombine all three, and moving around will be a lot easier!\n\nSee the next quests for better means of movement!\n\n§fSlime is gross, but it\u0027s a good way to get around.\nBouncing and gliding are fun!",
+      "icon:10": {
+        "Count:3": 1,
+        "OreDict:8": "slimeSling",
+        "id:8": "tconstruct:slimesling"
+      },
+      "name:8": "Movement \u0026 Flight"
+    }
+  },
+  "questID:3": 50060,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "slimeSling",
+          "id:8": "tconstruct:slimesling"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "OreDict:8": "slimeBoots",
+          "id:8": "tconstruct:slime_boots"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "openblocks:hang_glider"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

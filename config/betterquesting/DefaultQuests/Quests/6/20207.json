@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20059
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oEnergy collectors use light (glowstone is the best source) to generate equivalence, and to upgrade fuels.\n\nThe fuel upgrade sequence is: Charcoal, Redstone, Coal, Gunpowder, Glowstone, Alchemical Coal, Block of Redstone, Blaze Powder, Coal Block, Glowstone Block, Mobius Fuel, Alchemical Coal Block, Aeternalis Fuel, Mobius Fuel Block, Aeternalis Fuel Block",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "projecte:collector_mk1"
+      },
+      "name:8": "Energy Collector MK1"
+    }
+  },
+  "questID:3": 20207,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "projecte:collector_mk1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

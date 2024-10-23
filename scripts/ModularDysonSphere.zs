@@ -1,6 +1,18 @@
 
 import mods.modularmachinery.RecipeBuilder;
 
+
+recipes.remove(<glassential:glass_clear>);
+recipes.remove(<glassential:glass_light>);
+recipes.remove(<glassential:glass_dark>);
+recipes.remove(<glassential:glass_ghostly>);
+recipes.remove(<glassential:glass_ethereal>);
+recipes.remove(<glassential:glass_ethereal_reverse>);
+recipes.remove(<glassential:glass_redstone>);
+recipes.remove(<glassential:glass_cutter_iron>);
+
+
+
 val dysoncreate = RecipeBuilder.newBuilder("dysoncreate","dyson_sphere",10);
 dysoncreate.addItemInput(<contenttweaker:dyson_capacitor>*64);
 dysoncreate.addItemOutput(<contenttweaker:charged_dyson_capacitor>*64);
@@ -52,6 +64,13 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hypercapacitor_dis
 [[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>], 
 [<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
 [<contenttweaker:strings_crystal>, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), <contenttweaker:interdimensional_energy_orb>, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
+[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hypercapacitor_discharger_x1>, 
+[[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>], 
+[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000, "enderio:data": {"faceModes-": 1 as byte, maxOutput: -1, faceDisplayTypes: [3, 0, 1024] as int[], inputControlMode: 0, maxInput: -1, outputControlMode: 0}}), <contenttweaker:interdimensional_energy_orb>, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000, "enderio:data": {"faceModes-": 1 as byte, maxOutput: -1, faceDisplayTypes: [3, 0, 1024] as int[], inputControlMode: 0, maxInput: -1, outputControlMode: 0}}), <contenttweaker:strings_crystal>], 
 [<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
 [<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>]]);  
 
@@ -132,11 +151,20 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hypercapacitor_dis
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_shell>*6, 
 [[<extendedcrafting:material:13>, <contenttweaker:ogerite_crystal_matrix>, null, <contenttweaker:gravity_manipulator_device>, null, <contenttweaker:ogerite_crystal_matrix>, <extendedcrafting:material:13>], 
 [<contenttweaker:ogerite_crystal_matrix>, <contenttweaker:atomic_mirror>, <contenttweaker:collapser_casing>, <avaritia:resource:5>, <contenttweaker:collapser_casing>, <contenttweaker:atomic_mirror>, <contenttweaker:ogerite_crystal_matrix>], 
-[null, <contenttweaker:sentient_factory_core>, <contenttweaker:muon_crystal>, <materialpart:chaos:dust>, <contenttweaker:magnetic_monopole>, <contenttweaker:sentient_factory_core>, null], 
+[null, <contenttweaker:sentient_factory_core>, <contenttweaker:magnetic_monopole>, <materialpart:chaos:dust>, <contenttweaker:magnetic_monopole>, <contenttweaker:sentient_factory_core>, null], 
 [<contenttweaker:gravity_manipulator_device>, <aoa3:radiant_infusion_stone>, <materialpart:chaos:dust>, <techreborn:solar_panel:4>, <materialpart:chaos:dust>, <aoa3:radiant_infusion_stone>, <contenttweaker:gravity_manipulator_device>], 
-[null, <contenttweaker:sentient_factory_core>, <contenttweaker:magnetic_monopole>, <materialpart:chaos:dust>, <contenttweaker:muon_crystal>, <contenttweaker:sentient_factory_core>, null], 
+[null, <contenttweaker:sentient_factory_core>, <contenttweaker:magnetic_monopole>, <materialpart:chaos:dust>, <contenttweaker:magnetic_monopole>, <contenttweaker:sentient_factory_core>, null], 
 [<contenttweaker:ogerite_crystal_matrix>, <contenttweaker:atomic_mirror>, <contenttweaker:collapser_casing>, <avaritia:resource:5>, <contenttweaker:collapser_casing>, <contenttweaker:atomic_mirror>, <contenttweaker:ogerite_crystal_matrix>], 
 [<extendedcrafting:material:13>, <contenttweaker:ogerite_crystal_matrix>, null, <contenttweaker:gravity_manipulator_device>, null, <contenttweaker:ogerite_crystal_matrix>, <extendedcrafting:material:13>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<glassential:glass_dark>*24, 
+[[<extrautils2:decorativeglass:3>, <extrautils2:decorativeglass:3>, <extrautils2:decorativeglass:3>, <extrautils2:decorativeglass:3>, <extrautils2:decorativeglass:3>, <extrautils2:decorativeglass:3>, <extrautils2:decorativeglass:3>], 
+[<extrautils2:decorativeglass:3>, <contenttweaker:brightsteel_alloy_ingot>, <nuclearcraft:turbine_frame>, <contenttweaker:hassium_alloy_ingot>, <nuclearcraft:turbine_frame>, <contenttweaker:brightsteel_alloy_ingot>, <extrautils2:decorativeglass:3>], 
+[<extrautils2:decorativeglass:3>, <nuclearcraft:turbine_frame>, <contenttweaker:defined_machine_case>, <contenttweaker:muon_crystal>, <contenttweaker:defined_machine_case>, <nuclearcraft:turbine_frame>, <extrautils2:decorativeglass:3>], 
+[<extrautils2:decorativeglass:3>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:muon_crystal>, <techreborn:solar_panel:3>, <contenttweaker:muon_crystal>, <contenttweaker:hassium_alloy_ingot>, <extrautils2:decorativeglass:3>], 
+[<extrautils2:decorativeglass:3>, <nuclearcraft:turbine_frame>, <contenttweaker:defined_machine_case>, <contenttweaker:muon_crystal>, <contenttweaker:defined_machine_case>, <nuclearcraft:turbine_frame>, <extrautils2:decorativeglass:3>], 
+[<extrautils2:decorativeglass:3>, <contenttweaker:brightsteel_alloy_ingot>, <nuclearcraft:turbine_frame>, <contenttweaker:hassium_alloy_ingot>, <nuclearcraft:turbine_frame>, <contenttweaker:brightsteel_alloy_ingot>, <extrautils2:decorativeglass:3>], 
+[<extrautils2:decorativeglass:3>, <extrautils2:decorativeglass:3>, <extrautils2:decorativeglass:3>, <extrautils2:decorativeglass:3>, <extrautils2:decorativeglass:3>, <extrautils2:decorativeglass:3>, <extrautils2:decorativeglass:3>]]);  
 
 
 recipes.addShaped(<contenttweaker:atomic_mirror>*2,

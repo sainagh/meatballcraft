@@ -11,7 +11,7 @@
             "z": 3,
             "description": "Replace the top block for 10X speed",
             "modifier": {
-                "io": "output",
+                "io": "input",
                 "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.1

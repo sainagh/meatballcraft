@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20398
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAdaminite: 2000 (cannot store vitium)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumadditions:jar_adaminite"
+      },
+      "name:8": "Adaminite Foritified Jar"
+    }
+  },
+  "questID:3": 20406,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumadditions:jar_adaminite"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

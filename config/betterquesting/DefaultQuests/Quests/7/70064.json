@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found in the Coralium Infested Swamps, and at the bottom of oceans!\nCoralium Ore is craftable.\nFound in Nether Fortress chests.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "abyssalcraft:coralium"
+      },
+      "name:8": "Coralium Gem"
+    }
+  },
+  "questID:3": 70064,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "abyssalcraft:coralium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

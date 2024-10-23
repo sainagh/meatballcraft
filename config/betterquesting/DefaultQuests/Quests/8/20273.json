@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    20271
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oJump into the omothol void...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "abyssalcraft:stone"
+      },
+      "name:8": "Dark Realm"
+    }
+  },
+  "questID:3": 20273,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 53,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Dark Realm",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

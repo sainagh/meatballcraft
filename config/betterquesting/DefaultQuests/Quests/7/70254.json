@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70129
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:cursed_sapphire"
+      },
+      "name:8": "Cursed Sapphire"
+    }
+  },
+  "questID:3": 70254,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:cursed_sapphire"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

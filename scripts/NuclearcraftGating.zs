@@ -626,7 +626,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:turbine_rotor_shaft>
 [<nuclearcraft:alloy:15>, <nuclearcraft:alloy:15>, <contenttweaker:fluxed_electrum_shaft>, <contenttweaker:stellar_alloy_shaft>, <contenttweaker:fluxed_electrum_shaft>, <nuclearcraft:alloy:15>, <nuclearcraft:alloy:15>]]);  
 
 
-recipes.addHiddenShapeless("undeadfuelpuzzle",<contenttweaker:heuf_fuel>,
+scripts.PuzzleUtil.addPuzzleShapeless("undeadfuelpuzzle",<contenttweaker:heuf_fuel>,
 [<contenttweaker:core_of_undeath>,
 <nuclearcraft:neptunium:5>,
 <nuclearcraft:berkelium:4>,
@@ -730,7 +730,7 @@ recipes.addShaped(<contenttweaker:inert_cursed_jewel>,
 [<iceandfire:chain_link>, <contenttweaker:cursed_sapphire>, <iceandfire:chain_link>],
 [<iceandfire:chain_link>, <contenttweaker:radioactive_residue>, <iceandfire:chain_link>]]);
 
-recipes.addHiddenShapeless("activatecursedjewel",<contenttweaker:active_cursed_jewel>,
+scripts.PuzzleUtil.addPuzzleShapeless("activatecursedjewel",<contenttweaker:active_cursed_jewel>,
 [<contenttweaker:inert_cursed_jewel>,
 <divinerpg:realmite_shield>,
 <twilightforest:knightmetal_shield>,
@@ -742,22 +742,22 @@ recipes.addShaped(<nuclearcraft:buffer>*12,
 [<contenttweaker:radioactive_residue>, <extendedcrafting:singularity:23>, <contenttweaker:radioactive_residue>],
 [<nuclearcraft:fission_block:0>, <contenttweaker:radioactive_residue>, <nuclearcraft:fission_block:0>]]);
 
-recipes.addShaped(<thermalfoundation:armor.helmet_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "§6§oRadiation-Absorbing Helmet§r", Lore: ["§d§oSuper-Enchanted§r"]}}), 
+recipes.addShaped(<thermalfoundation:armor.helmet_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "§6§o辐射吸收头盔§r", Lore: ["§d§o超限附魔§r"]}}), 
 [[<nuclearcraft:rad_shielding:2>, <contenttweaker:active_cursed_jewel>, <nuclearcraft:rad_shielding:2>],
 [<minecraft:golden_apple:1>, <thermalfoundation:armor.helmet_lead>, <minecraft:golden_apple:1>],
 [<nuclearcraft:rad_shielding:2>, <nuclearcraft:helm_hazmat>, <nuclearcraft:rad_shielding:2>]]);
 
-recipes.addShaped(<thermalfoundation:armor.plate_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "§6§oRadiation-Absorbing Chestplate§r", Lore: ["§d§oSuper-Enchanted§r"]}}), 
+recipes.addShaped(<thermalfoundation:armor.plate_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "§6§o辐射吸收胸甲§r", Lore: ["§d§o超限附魔§r"]}}), 
 [[<nuclearcraft:rad_shielding:2>, <contenttweaker:active_cursed_jewel>, <nuclearcraft:rad_shielding:2>],
 [<minecraft:golden_apple:1>, <thermalfoundation:armor.plate_lead>, <minecraft:golden_apple:1>],
 [<nuclearcraft:rad_shielding:2>, <nuclearcraft:chest_hazmat>, <nuclearcraft:rad_shielding:2>]]);
 
-recipes.addShaped(<thermalfoundation:armor.legs_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "§6§oRadiation-Absorbing Leggings§r", Lore: ["§d§oSuper-Enchanted§r"]}}), 
+recipes.addShaped(<thermalfoundation:armor.legs_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "§6§o辐射吸收护腿§r", Lore: ["§d§o超限附魔§r"]}}), 
 [[<nuclearcraft:rad_shielding:2>, <contenttweaker:active_cursed_jewel>, <nuclearcraft:rad_shielding:2>],
 [<minecraft:golden_apple:1>, <thermalfoundation:armor.legs_lead>, <minecraft:golden_apple:1>],
 [<nuclearcraft:rad_shielding:2>, <nuclearcraft:legs_hazmat>, <nuclearcraft:rad_shielding:2>]]);
 
-recipes.addShaped(<thermalfoundation:armor.boots_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "§6§oRadiation-Absorbing Boots§r", Lore: ["§d§oSuper-Enchanted§r"]}}), 
+recipes.addShaped(<thermalfoundation:armor.boots_lead>.withTag({ncRadiationResistance: 100.0, display: {Name: "§6§o辐射吸收靴子§r", Lore: ["§d§o超限附魔§r"]}}), 
 [[<nuclearcraft:rad_shielding:2>, <contenttweaker:active_cursed_jewel>, <nuclearcraft:rad_shielding:2>],
 [<minecraft:golden_apple:1>, <thermalfoundation:armor.boots_lead>, <minecraft:golden_apple:1>],
 [<nuclearcraft:rad_shielding:2>, <nuclearcraft:boots_hazmat>, <nuclearcraft:rad_shielding:2>]]);
@@ -821,3 +821,8 @@ recipes.addShaped(<nuclearcraft:melter_idle>,
 [[<nuclearcraft:part:1>, <contenttweaker:nethengeic_gem>, <nuclearcraft:part:1>],
 [<enderio:item_material:72>, <nuclearcraft:part:10>, <enderio:item_material:72>],
 [<nuclearcraft:part:1>, <tconstruct:ingots:1>, <nuclearcraft:part:1>]]);
+
+recipes.addShaped(<nuclearcraft:part:12>*2, 
+[[<ore:ingotLunastone>, <contenttweaker:hyperchitinous_plate>, <ore:ingotLunastone>],
+[<redstonearsenal:material:128>, <nuclearcraft:part:10>, <redstonearsenal:material:128>],
+[<ore:ingotLunastone>, <contenttweaker:hyperchitinous_plate>, <ore:ingotLunastone>]]);

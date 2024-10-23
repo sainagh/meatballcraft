@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    34
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The key behind understanding unknown phenomena is to nderstand the patterns that define them.\nMagical properties follow some sort of conservation law, where the vital energy I possess, what on Earth we call essence, can be transferred to inanimate objects too.\nSome of these connections appear to be strong, while others aren\u0027t, and some are straight up inconsequential.\nBy being able to move these enchantments between objects, I can find good ways to combine them.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:diss_enchanter"
+      },
+      "name:8": "Disenchanting"
+    }
+  },
+  "questID:3": 707,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:diss_enchanter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

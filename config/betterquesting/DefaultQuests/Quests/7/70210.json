@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70126
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found on the surface of Hator.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:fiery_pyrite"
+      },
+      "name:8": "Fiery Pyrite"
+    }
+  },
+  "questID:3": 70210,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:fiery_pyrite"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

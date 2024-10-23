@@ -312,6 +312,6 @@ recipes.addShaped(<thermalfoundation:tool.hammer_diamond>,
 [null, <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).reuse(), null]]);
 
 
-mods.nuclearcraft.manufactory.addRecipe([<ore:rodBlizz>, <thermalfoundation:material:2049>]);
-mods.nuclearcraft.manufactory.addRecipe([<ore:rodBlitz>, <thermalfoundation:material:2051>]);
-mods.nuclearcraft.manufactory.addRecipe([<ore:rodBasalz>, <thermalfoundation:material:2053>]);
+mods.nuclearcraft.manufactory.addRecipe([<ore:rodBlizz>, <thermalfoundation:material:2049>*5]);
+mods.nuclearcraft.manufactory.addRecipe([<ore:rodBlitz>, <thermalfoundation:material:2051>*5]);
+mods.nuclearcraft.manufactory.addRecipe([<ore:rodBasalz>, <thermalfoundation:material:2053>*5]);

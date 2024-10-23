@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    50238
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Here on Terra, though, those radioactive scraps can be used to breed higher energy fuels.\nThe materials found here allow me to build more stable reactor casings, so I shouldn\u0027t have to detonate any nukes just to make new elements.\n(Which is what the US did during the cold war BTW)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:curium"
+      },
+      "name:8": "Curium-243"
+    }
+  },
+  "questID:3": 50237,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:curium"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "nuclearcraft:curium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

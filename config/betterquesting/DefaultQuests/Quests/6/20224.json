@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1748
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe essentia infusion provider works like an extension of your essentia storage that lets you interact directly with thaumcraft machines.\n\nIf the provider is nearby your infusion setup, it will automatically collect essentia from your network.\n\nThe same applies to emptying essentia transfusers. This can be used for fully-automated setups for machines like the crucible/thaumatorium.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicenergistics:infusion_provider"
+      },
+      "name:8": "Wireless Automated Essentia"
+    }
+  },
+  "questID:3": 20224,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicenergistics:infusion_provider"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -57,7 +57,7 @@ recipes.addShaped(<contenttweaker:monumental_meatball_callstone>,
 [<extendedcrafting:singularity_custom:998>, <contenttweaker:flesh_of_the_gluttonous_one>, <extendedcrafting:singularity_custom:998>],
 [<contenttweaker:monumentally_sentient_meatball>, <contenttweaker:fluit_of_flesh>, <contenttweaker:monumentally_sentient_meatball>]]);
 
-recipes.addHiddenShapeless("furnaceguyfinalform", <contenttweaker:furnace_secret_callstone>,
+scripts.PuzzleUtil.addPuzzleShapeless("furnaceguyfinalform", <contenttweaker:furnace_secret_callstone>,
 [<contenttweaker:everburner>,
 <botany:pigment:57>,
 <botany:pigment:72>,
@@ -89,10 +89,10 @@ game.setLocalization("ac.ritual.gatekeeperofthemeatballman", "Gatekeeper of the 
 game.setLocalization("ac.ritual.gatekeeperofthemeatballman.desc", "The war with the meatball man has begun!");
 
 
-recipes.addShaped(<contenttweaker:prophetic_paper>*16,
-[[null, <contenttweaker:draconian_metal_ingot>, null],
-[null, <contenttweaker:prophetic_paper>, null],
-[<contenttweaker:draconian_metal_ingot>, null, <contenttweaker:draconian_metal_ingot>]]);
+recipes.addShaped(<contenttweaker:prophetic_paper>*2,
+[[<ore:blockLightningDragonsteel>, null, <ore:blockLightningDragonsteel>],
+[<ore:blockIceDragonsteel>, <contenttweaker:prophetic_paper>, <ore:blockIceDragonsteel>],
+[<ore:blockFireDragonsteel>, null, <ore:blockFireDragonsteel>]]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:fractallite_furnace_core>, 
 100000000, <contenttweaker:fractallite_furnace>, 
@@ -328,8 +328,317 @@ greenhousemeatballtree.addItemInput(<contenttweaker:harbinger_hungering_flesh>);
 greenhousemeatballtree.addItemOutput(<contenttweaker:hungering_flesh_fruit>*4);
 greenhousemeatballtree.build();
 
-recipes.addShaped(<contenttweaker:star_of_betrayal>*2,
-[[<ore:blockStellarAlloy>, <ore:blockStellarAlloy>, <ore:blockStellarAlloy>],
-[<ore:blockStellarAlloy>, <contenttweaker:star_of_betrayal>, <ore:blockStellarAlloy>],
-[<ore:blockStellarAlloy>, <ore:blockStellarAlloy>, <ore:blockStellarAlloy>]]);
 
+
+
+mods.thaumcraft.Infusion.registerRecipe("inftruename", "", 
+<contenttweaker:true_name>, 10,
+[<aspect:vitium>*100, <aspect:mythus>*100, <aspect:humanus>*100, <aspect:sol>*100, <aspect:luna>*100], 
+<contenttweaker:humanus_vis_condensate>, 
+[<contenttweaker:recursion_of_clarity>, <contenttweaker:human_imperfection>, <contenttweaker:recursion_of_clarity>, <contenttweaker:gem_of_the_warrior>,
+<contenttweaker:recursion_of_clarity>, <contenttweaker:human_imperfection>, <contenttweaker:recursion_of_clarity>, <contenttweaker:gem_of_the_warrior>]);
+
+recipes.addShaped(<contenttweaker:rhythm_of_the_great_worm>,
+[[<bloodmagic:blood_tank:4>.withTag({Fluid: {FluidName: "hint_of_insanity", Amount: 256000}}), <tardis:gallifreyan_grass>, <bloodmagic:blood_tank:4>.withTag({Fluid: {FluidName: "hint_of_divinity", Amount: 256000}})],
+[<tardis:gallifreyan_sand>, <contenttweaker:true_name>.reuse(), <tardis:gallifreyan_sand>],
+[<bloodmagic:blood_tank:4>.withTag({Fluid: {FluidName: "hint_of_divinity", Amount: 256000}}), <tardis:gallifreyan_grass>, <bloodmagic:blood_tank:4>.withTag({Fluid: {FluidName: "hint_of_insanity", Amount: 256000}})]]);
+
+
+mods.thaumcraft.Infusion.registerRecipe("infheartofthedesert", "", 
+<contenttweaker:heart_of_the_desert>, 10,
+[<aspect:draco>*1000, <aspect:mythus>*600, <aspect:humanus>*200], 
+<contenttweaker:blood_of_enlightenment>, 
+[<contenttweaker:draconian_metal_ingot>, <iceandfire:deathworm_chitin:0>, <contenttweaker:draconian_metal_ingot>,
+<iceandfire:deathworm_chitin:1>, <contenttweaker:draconian_metal_ingot>, <iceandfire:deathworm_chitin:2>]);
+
+
+recipes.addShaped(<contenttweaker:star_of_betrayal>,
+[[<contenttweaker:star_of_betrayal>.reuse(), <contenttweaker:prophetic_paper>, <contenttweaker:star_of_betrayal>.reuse()],
+[<contenttweaker:star_of_betrayal>.reuse(), <extendedcrafting:singularity_custom:2040>, <contenttweaker:star_of_betrayal>.reuse()],
+[<contenttweaker:star_of_betrayal>.reuse(), <contenttweaker:prophetic_paper>, <contenttweaker:star_of_betrayal>.reuse()]]);
+
+
+recipes.addShaped(<deepmoblearningbm:blood_infused_glitch_ingot>,
+[[null, <openblocks:tank>.withTag({tank: {FluidName: "lifeessence", Amount: 16000}}), null],
+[<contenttweaker:star_of_betrayal>, <deepmoblearning:glitch_infused_ingot>, <contenttweaker:star_of_betrayal>],
+[null, <openblocks:tank>.withTag({tank: {FluidName: "lifeessence", Amount: 16000}}), null]]);
+
+recipes.addShaped(<contenttweaker:sentient_meatball_flesh>*8,
+[[<biomesoplenty:flesh>, <biomesoplenty:flesh>, <biomesoplenty:flesh>],
+[<biomesoplenty:flesh>, <contenttweaker:sentient_meatball>, <biomesoplenty:flesh>],
+[<biomesoplenty:flesh>, <biomesoplenty:flesh>, <biomesoplenty:flesh>]]);
+
+
+
+val monumentalmeatball1 = RecipeBuilder.newBuilder("monumentalmeatball1","sentient_meatball_monument",100);
+monumentalmeatball1.addItemInput(<contenttweaker:hungering_flesh_fruit>);
+monumentalmeatball1.addItemInput(<contenttweaker:hungering_flesh_egg>);
+monumentalmeatball1.addFluidInput(<fluid:meatballium>*288);
+monumentalmeatball1.addFluidOutput(<fluid:liquid_hungering_flesh>*100);
+monumentalmeatball1.build();
+
+mods.abyssalcraft.InfusionRitual.addRitual("getfirstessencebetrayal", 
+4, 0, 
+100000, 
+true, 
+<forge:bucketfilled>.withTag({FluidName: "essence_of_betrayal", Amount: 1000}), 
+<minecraft:bucket>, 
+[<contenttweaker:star_of_betrayal>,<contenttweaker:cursed_gem_of_betrayal>,<contenttweaker:star_of_betrayal>,<contenttweaker:cursed_gem_of_betrayal>,
+<contenttweaker:star_of_betrayal>,<contenttweaker:cursed_gem_of_betrayal>,<contenttweaker:star_of_betrayal>,<contenttweaker:cursed_gem_of_betrayal>]);
+game.setLocalization("ac.ritual.getfirstessencebetrayal", "The great betrayal of terra"); 
+game.setLocalization("ac.ritual.getfirstessencebetrayal.desc", "The great betrayal of terra");
+
+val monumentalmeatball2 = RecipeBuilder.newBuilder("monumentalmeatball2","sentient_meatball_monument",100);
+monumentalmeatball2.addItemInput(<contenttweaker:rites_of_the_meatball_man>);
+monumentalmeatball2.addItemInput(<contenttweaker:cursed_gem_of_betrayal>);
+monumentalmeatball2.addFluidInput(<fluid:essence_of_betrayal>*100);
+monumentalmeatball2.addFluidOutput(<fluid:rite_of_betrayal>*100);
+monumentalmeatball2.build();
+
+val monumentalmeatball3 = RecipeBuilder.newBuilder("monumentalmeatball3","sentient_meatball_monument",100);
+monumentalmeatball3.addItemInput(<avaritia:ultimate_stew>);
+monumentalmeatball3.addFluidInput(<fluid:nutrient_distillation>*100);
+monumentalmeatball3.addFluidInput(<fluid:meatane>*15);
+monumentalmeatball3.addFluidOutput(<fluid:essence_of_gluttony>*100);
+monumentalmeatball3.build();
+
+val monumentalmeatball4 = RecipeBuilder.newBuilder("monumentalmeatball4","sentient_meatball_monument",100);
+monumentalmeatball4.addFluidInput(<fluid:liquid_hungering_flesh>*100);
+monumentalmeatball4.addFluidInput(<fluid:rite_of_betrayal>*100);
+monumentalmeatball4.addFluidInput(<fluid:essence_of_gluttony>*100);
+monumentalmeatball4.addFluidOutput(<fluid:hungering_flesh_catalyst>*100);
+monumentalmeatball4.build();
+
+val bastionofflesh = RecipeBuilder.newBuilder("bastionofflesh","bastion_of_flesh",100);
+bastionofflesh.addItemInput(<avaritia:resource:6>);
+bastionofflesh.addItemOutput(<contenttweaker:hungering_flesh_ingot>);
+bastionofflesh.addFluidInput(<fluid:hungering_flesh_catalyst>*100);
+bastionofflesh.addFluidOutput(<fluid:essence_of_betrayal>*100);
+bastionofflesh.build();
+
+
+
+recipes.addShaped(<contenttweaker:withering_fabrial>,
+[[<contenttweaker:fluix_microcontroller>, <animus:mobsoul>.withTag({entity: "minecraft:wither"}), <contenttweaker:fluix_microcontroller>],
+[<animus:mobsoul>.withTag({entity: "minecraft:wither"}), <contenttweaker:withering_construct>, <animus:mobsoul>.withTag({entity: "minecraft:wither"})],
+[<contenttweaker:fluix_microcontroller>, <animus:mobsoul>.withTag({entity: "minecraft:wither"}), <contenttweaker:fluix_microcontroller>]]);
+
+
+
+mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/meatballmanritual", <contenttweaker:forbidden_meatball_man_rites>, 4500, 400, [
+	<contenttweaker:mark_of_gluttony>, <contenttweaker:gem_of_voracity>, <contenttweaker:mark_of_gluttony>,<contenttweaker:gem_of_voracity>, <contenttweaker:monumentally_sentient_meatball>, 
+	<contenttweaker:gem_of_voracity>, <contenttweaker:mark_of_gluttony>, <contenttweaker:gem_of_voracity>, <contenttweaker:mark_of_gluttony>,<draconicevolution:chaos_shard:0>, 
+	<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>,<contenttweaker:rites_of_the_meatball_man>, <contenttweaker:rites_of_the_meatball_man>,
+	<contenttweaker:rites_of_the_meatball_man>, <contenttweaker:rites_of_the_meatball_man>, <contenttweaker:rites_of_the_meatball_man>, <contenttweaker:rites_of_the_meatball_man>,<contenttweaker:rites_of_the_meatball_man>, 
+	<contenttweaker:rites_of_the_meatball_man>,<contenttweaker:infused_dread_shard>, <contenttweaker:infused_dread_shard>,<contenttweaker:infused_dread_shard>, <contenttweaker:infused_dread_shard>,
+	//Outer Items, indices 25+
+	<divinerpg:eden_heart>, <contenttweaker:tainted_sentient_meatball>, <divinerpg:eden_heart>, <contenttweaker:tainted_sentient_meatball>, <divinerpg:eden_heart>, <contenttweaker:tainted_sentient_meatball>, <divinerpg:eden_heart>, <contenttweaker:tainted_sentient_meatball>
+],
+"astralsorcery.constellation.discidia");
+
+
+val nameofnamesingot = RecipeBuilder.newBuilder("nameofnamesingot","altar_to_the_name_of_names",100);
+nameofnamesingot.addEnergyPerTickInput(2000000000);
+nameofnamesingot.addFluidInput(<fluid:brightsteel_alloy>*16000);
+nameofnamesingot.addFluidInput(<fluid:dragonsteel_fire>*16000);
+nameofnamesingot.addFluidInput(<fluid:dragonsteel_ice>*16000);
+nameofnamesingot.addFluidInput(<fluid:dragonsteel_lightning>*16000);
+nameofnamesingot.addFluidInput(<fluid:mildly_recursive_goo>*16000);
+nameofnamesingot.addFluidInput(<fluid:hyperdense_plasma>*16000);
+nameofnamesingot.addFluidInput(<fluid:hint_of_divinity>*16000);
+nameofnamesingot.addFluidInput(<fluid:hint_of_insanity>*16000);
+nameofnamesingot.addItemInput(<contenttweaker:defined_ingot>);
+nameofnamesingot.addItemInput(<contenttweaker:recursion_of_clarity>*4);
+nameofnamesingot.addItemOutput(<contenttweaker:hyperuranion_ingot>);
+nameofnamesingot.build();
+
+
+mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/requemofthearbiter", <contenttweaker:requiem_of_the_arbiter>, 4500, 400, [
+	<contenttweaker:innerved_sky_stone>, null, <contenttweaker:innerved_sky_stone>,null, <extendedcrafting:singularity_custom:2031>, 
+	null, <contenttweaker:innerved_sky_stone>, null, <contenttweaker:innerved_sky_stone>,<contenttweaker:sacred_cinders_fruit>, 
+	<contenttweaker:sacred_cinders_fruit>, <contenttweaker:sacred_cinders_fruit>, <contenttweaker:sacred_cinders_fruit>,null, null,
+	null, null, null, null,null, 
+	null,<contenttweaker:arbiterite_crystal>, <contenttweaker:arbiterite_crystal>,<contenttweaker:arbiterite_crystal>, <contenttweaker:arbiterite_crystal>,
+	//Outer Items, indices 25+
+	<contenttweaker:star_of_betrayal>, <contenttweaker:star_of_betrayal>, <contenttweaker:star_of_betrayal>, <contenttweaker:star_of_betrayal>, <contenttweaker:star_of_betrayal>, <contenttweaker:star_of_betrayal>
+],
+"astralsorcery.constellation.aevitas");
+
+
+mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:self_actualizing_warren_rift>, <contenttweaker:actualizing_hyperuranion_ingot>, 250, <extendedcrafting:material:11>, 10000000);
+
+mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:singular_recursion>, <contenttweaker:recursium_ingot>, 100, <extendedcrafting:material:11>, 10000000);
+
+
+
+scripts.PuzzleUtil.addPuzzleShaped("entropicstonepuzzle", <contenttweaker:entropic_channeling_stone>,
+[[<contenttweaker:chaotic_gem>, <contenttweaker:star_of_betrayal>, <contenttweaker:chaotic_gem>],
+[<contenttweaker:star_of_betrayal>, <thebetweenlands:life_crystal:32767>, <contenttweaker:star_of_betrayal>],
+[<contenttweaker:chaotic_gem>, <contenttweaker:star_of_betrayal>, <contenttweaker:chaotic_gem>]]);
+
+
+mods.thaumcraft.Infusion.registerRecipe("entropicchannelingfabrialinf", "", 
+<contenttweaker:entropic_channeling_fabrial>, 10,
+[<aspect:draco>*500, <aspect:mythus>*200, <aspect:auram>*100], 
+<contenttweaker:entropic_channeling_stone>, 
+[<draconicevolution:chaotic_core>, <contenttweaker:well_defined_machine_case>, <draconicevolution:chaotic_core>, <contenttweaker:well_defined_machine_case>,
+<draconicevolution:chaotic_core>, <contenttweaker:well_defined_machine_case>, <draconicevolution:chaotic_core>, <contenttweaker:well_defined_machine_case>]);
+
+
+mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/regainedtrustfabrial", <contenttweaker:fluix_soul_fabrial>, 4500, 400, [
+	<contenttweaker:well_defined_machine_case>, <contenttweaker:aeldunari>, <contenttweaker:well_defined_machine_case>,
+	<contenttweaker:aeldunari>, <extendedcrafting:singularity_custom:654>, <contenttweaker:aeldunari>, 
+	<contenttweaker:well_defined_machine_case>, <contenttweaker:aeldunari>, <contenttweaker:well_defined_machine_case>,
+	<contenttweaker:soul_of_entropy>, <contenttweaker:soul_of_entropy>, 
+	<contenttweaker:soul_of_entropy>, <contenttweaker:soul_of_entropy>,
+	<contenttweaker:mark_of_the_arbiter>, <contenttweaker:mark_of_the_arbiter>,
+	<contenttweaker:mark_of_the_arbiter>, <contenttweaker:mark_of_the_arbiter>, 
+	<contenttweaker:mark_of_the_arbiter>, <contenttweaker:mark_of_the_arbiter>,
+	<contenttweaker:mark_of_the_arbiter>, <contenttweaker:mark_of_the_arbiter>,
+	<contenttweaker:unidentified_plate>, 
+	<contenttweaker:unidentified_plate>,<contenttweaker:unidentified_plate>, 
+	<contenttweaker:unidentified_plate>,
+	//Outer Items, indices 25+
+	<ore:crystalPureFluix>, <ore:crystalPureFluix>, <ore:crystalPureFluix>, <ore:crystalPureFluix>, <ore:crystalPureFluix>, <ore:crystalPureFluix>, <ore:crystalPureFluix>, <ore:crystalPureFluix>
+],
+"astralsorcery.constellation.lucerna");
+
+
+recipes.addShaped(<contenttweaker:rarified_fluix_crystal>,
+[[<contenttweaker:touch_of_the_arbiter>, <contenttweaker:unidentified_ingot>, <contenttweaker:touch_of_the_arbiter>],
+[<contenttweaker:unidentified_ingot>, <ore:crystalPureFluix>, <contenttweaker:unidentified_ingot>],
+[<contenttweaker:touch_of_the_arbiter>, <contenttweaker:unidentified_ingot>, <contenttweaker:touch_of_the_arbiter>]]);
+
+recipes.addShaped(<contenttweaker:touch_of_the_arbiter>,
+[[<contenttweaker:unidentified_gem>, <contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_gem>],
+[<contenttweaker:unidentified_ingot>, <contenttweaker:touch_of_the_arbiter>.reuse(), <contenttweaker:unidentified_ingot>],
+[<contenttweaker:unidentified_gem>, <contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_gem>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hyperuranon_actualizing_fabrial>, 
+[[<contenttweaker:mythic_excavation_reactor>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:well_defined_machine_case>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:mythic_excavation_reactor>], 
+[<contenttweaker:mythic_excavation_reactor>, <contenttweaker:collapser_conduit>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:collapser_conduit>, <contenttweaker:mythic_excavation_reactor>], 
+[<contenttweaker:well_defined_machine_case>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:actualizing_hyperuranion_ingot>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:well_defined_machine_case>], 
+[<contenttweaker:mythic_excavation_reactor>, <contenttweaker:collapser_conduit>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:collapser_conduit>, <contenttweaker:mythic_excavation_reactor>], 
+[<contenttweaker:mythic_excavation_reactor>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:well_defined_machine_case>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:mythic_excavation_reactor>]]);  
+
+recipes.addShaped(<contenttweaker:hymn_of_the_true_tongue>,
+[[<contenttweaker:rarified_fluix_crystal>, <contenttweaker:well_defined_machine_case>, <contenttweaker:rarified_fluix_crystal>],
+[<contenttweaker:mythic_excavation_reactor>, <contenttweaker:prophetic_paper>, <contenttweaker:mythic_excavation_reactor>],
+[<contenttweaker:rarified_fluix_crystal>, <contenttweaker:well_defined_machine_case>, <contenttweaker:rarified_fluix_crystal>]]);
+
+recipes.addShaped(<contenttweaker:minted_fluix_crystal>,
+[[<contenttweaker:runes_of_the_true_tongue>, <contenttweaker:unidentified_gem>, <contenttweaker:runes_of_the_true_tongue>],
+[<contenttweaker:unidentified_gem>, <contenttweaker:rarified_fluix_crystal>, <contenttweaker:unidentified_gem>],
+[<contenttweaker:runes_of_the_true_tongue>, <contenttweaker:unidentified_gem>, <contenttweaker:runes_of_the_true_tongue>]]);
+
+recipes.addShaped(<contenttweaker:runes_of_the_true_tongue>,
+[[<contenttweaker:unidentified_gem>, <contenttweaker:prophetic_paper>, <contenttweaker:unidentified_gem>],
+[<contenttweaker:prophetic_paper>, <contenttweaker:runes_of_the_true_tongue>.reuse(), <contenttweaker:prophetic_paper>],
+[<contenttweaker:unidentified_gem>, <contenttweaker:prophetic_paper>, <contenttweaker:unidentified_gem>]]);
+
+scripts.PuzzleUtil.addPuzzleShapeless("eldunaricallstonepuzzle", <contenttweaker:abomination_of_true_power>,
+[<contenttweaker:touch_of_the_arbiter>,
+<contenttweaker:minted_fluix_crystal>,
+<contenttweaker:abominable_egg>,
+<contenttweaker:aeldunari>,
+<animus:mobsoul>.withTag({entity: "divinerpg:jungle_spider"}),
+<animus:mobsoul>.withTag({entity: "divinerpg:hell_spider"}),
+<animus:mobsoul>.withTag({entity: "divinerpg:soul_spider"}),
+<animus:mobsoul>.withTag({entity: "divinerpg:ender_spider"}),
+<animus:mobsoul>.withTag({entity: "aoa3:sea_spider"})]);
+
+
+mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/eldunarytruetongue", <contenttweaker:master_of_the_true_tongue_callstone>, 4500, 400, [
+	<contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>,
+	<contenttweaker:abomination_of_true_power>, <contenttweaker:actualizing_hyperuranion_ingot>, <contenttweaker:abomination_of_true_power>, 
+	<contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>,
+	<ore:dragonScaleBlock>, <ore:dragonScaleBlock>, 
+	<ore:dragonScaleBlock>, <ore:dragonScaleBlock>,
+	<contenttweaker:mark_of_the_arbiter>, <contenttweaker:mark_of_the_arbiter>,
+	<contenttweaker:mark_of_the_arbiter>, <contenttweaker:mark_of_the_arbiter>, 
+	<contenttweaker:mark_of_the_arbiter>, <contenttweaker:mark_of_the_arbiter>,
+	<contenttweaker:mark_of_the_arbiter>, <contenttweaker:mark_of_the_arbiter>,
+	<contenttweaker:draco_vis_condensate>, 
+	<contenttweaker:draco_vis_condensate>,<contenttweaker:draco_vis_condensate>, 
+	<contenttweaker:draco_vis_condensate>,
+	//Outer Items, indices 25+
+	<contenttweaker:minted_fluix_crystal>, <contenttweaker:minted_fluix_crystal>, <contenttweaker:minted_fluix_crystal>, <contenttweaker:minted_fluix_crystal>, <contenttweaker:minted_fluix_crystal>, <contenttweaker:minted_fluix_crystal>, <contenttweaker:minted_fluix_crystal>, <contenttweaker:minted_fluix_crystal>
+],
+"astralsorcery.constellation.armara");
+
+
+scripts.PuzzleUtil.addPuzzleShaped("truetongue", <contenttweaker:memory_restoration_ritual>,
+[[<minecraft:blaze_powder>.withTag({display: {Name: "ᚠᚣ",Lore:["§d§oTrue Name§r"]}}), <abyssalcraft:abyingot>.withTag({display: {Name: "ᛔᚣᛕᛛᛂᚡᛁᛁ",Lore:["§d§oTrue Name§r"]}}), <abyssalcraft:odb>.withTag({display: {Name: "ᛒᛟᛟᛦ᛫ᛒᛟᛟᛦ",Lore:["§d§oTrue Name§r"]}})],
+[<appliedenergistics2:material:42>.withTag({display: {Name: "ᛡᛒ",Lore:["§d§oTrue Name§r"]}}), <contenttweaker:will_ensnaring_fabrial>, <aoa3:raw_charger_shank>.withTag({display: {Name: "ᛈᚺᚽᚥᛕᚽᚤ",Lore:["§d§oTrue Name§r"]}})],
+[<contenttweaker:defined_ingot>.withTag({display: {Name: "ᛑᛂᚠᛁᚿᛂᛑ᛫ᚧ",Lore:["§d§oTrue Name§r"]}}), <thaumictinkerer:kamiresource:4>.withTag({display: {Name: "ᚵᛊᛠᛔᛟᚤᛕᛊᚧ",Lore:["§d§oTrue Name§r"]}}), <botania:rune:13>.withTag({display: {Name: "ᚥᚱᚣᛠᚻ",Lore:["§d§oTrue Name§r"]}})]]);
+
+
+recipes.addShaped(<contenttweaker:dread_cleansing_callstone>,
+[[<contenttweaker:first_order_mythic_fractal>, <contenttweaker:infused_dread_shard>, <contenttweaker:first_order_mythic_fractal>],
+[<contenttweaker:infused_dread_shard>, <contenttweaker:fluix_medal>, <contenttweaker:infused_dread_shard>],
+[<contenttweaker:first_order_mythic_fractal>, <contenttweaker:infused_dread_shard>, <contenttweaker:first_order_mythic_fractal>]]);
+
+recipes.addShaped(<contenttweaker:perfected_fluix_crystal>,
+[[<contenttweaker:defined_ingot>, <contenttweaker:scroll_of_truth_terra>.reuse(), <contenttweaker:defined_ingot>],
+[<contenttweaker:scroll_of_truth_asgard>.reuse(), <contenttweaker:minted_fluix_crystal>, <contenttweaker:scroll_of_truth_hator>.reuse()],
+[<contenttweaker:defined_ingot>, <contenttweaker:scroll_of_truth_twilightforest>.reuse(), <contenttweaker:defined_ingot>]]);
+
+scripts.PuzzleUtil.addPuzzleShapeless("runesofliberation1", <contenttweaker:runes_of_liberation>,
+[<contenttweaker:runes_of_the_true_tongue>,
+<contenttweaker:scroll_of_truth_terra>.reuse(),
+<contenttweaker:scroll_of_truth_hator>.reuse(),
+<contenttweaker:scroll_of_truth_twilightforest>.reuse(),
+<contenttweaker:scroll_of_truth_asgard>.reuse(),
+<aoa3:butchery_chestplate>,
+<aoa3:expedition_chestplate>,
+<aoa3:innervation_chestplate>,
+<aoa3:runation_chestplate>]);
+
+
+mods.thaumcraft.Infusion.registerRecipe("infritestruetongue", "", 
+<contenttweaker:true_name>, 10,
+[<aspect:vitium>*100, <aspect:mythus>*100, <aspect:humanus>*100, <aspect:sol>*100, <aspect:luna>*100], 
+<contenttweaker:humanus_vis_condensate>, 
+[<contenttweaker:recursion_of_clarity>, <contenttweaker:human_imperfection>, <contenttweaker:recursion_of_clarity>, <contenttweaker:gem_of_the_warrior>,
+<contenttweaker:recursion_of_clarity>, <contenttweaker:human_imperfection>, <contenttweaker:recursion_of_clarity>, <contenttweaker:gem_of_the_warrior>]);
+
+mods.thaumcraft.Infusion.registerRecipe("infritesofliberation", "", 
+<contenttweaker:rites_of_liberation>, 10,
+[<aspect:vinculum>*800, <aspect:spiritus>*600, <aspect:desiderium>*400, <aspect:imperium>*200, <aspect:diabolus>*100], 
+<contenttweaker:runes_of_liberation>, 
+[<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:hyperuranion_ingot>, <contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:hyperuranion_ingot>,
+<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:hyperuranion_ingot>, <contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:hyperuranion_ingot>]);
+
+
+recipes.addShaped(<contenttweaker:flawless_fluix_crystal>,
+[[<contenttweaker:pulsating_fluix>, <contenttweaker:infinity_core>, <contenttweaker:pulsating_fluix>],
+[<contenttweaker:freed_betrayed_soul>, <contenttweaker:perfected_fluix_crystal>, <contenttweaker:freed_betrayed_soul>],
+[<contenttweaker:pulsating_fluix>, <contenttweaker:infinity_core>, <contenttweaker:pulsating_fluix>]]);
+
+recipes.addShaped(<contenttweaker:fabrial_of_liberation>,
+[[<contenttweaker:collapser_conduit>, <contenttweaker:construct_of_liberation>, <contenttweaker:collapser_conduit>],
+[<contenttweaker:construct_of_liberation>, <contenttweaker:well_defined_machine_case>, <contenttweaker:construct_of_liberation>],
+[<contenttweaker:collapser_conduit>, <contenttweaker:construct_of_liberation>, <contenttweaker:collapser_conduit>]]);
+
+recipes.addShapeless(<contenttweaker:freed_betrayed_soul>,
+[<contenttweaker:fabrial_of_liberation>.reuse(),
+<randomthings:spectreilluminator>]);
+
+recipes.addShaped(<randomthings:ingredient:2>*16,
+[[null, <aoa3:ghostly_powder>, null],
+[<aoa3:ghostly_powder>, <aoa3:ghastly_ingot>, <aoa3:ghostly_powder>],
+[null, <aoa3:ghostly_powder>, null]]);
+
+recipes.addShaped(<contenttweaker:ascended_fluix_crystal>*4,
+[[<contenttweaker:flawless_fluix_crystal>, <avaritia:resource:6>, <contenttweaker:flawless_fluix_crystal>],
+[<avaritia:resource:6>, <contenttweaker:sword_of_truth>.reuse(), <avaritia:resource:6>],
+[<contenttweaker:flawless_fluix_crystal>, <avaritia:resource:6>, <contenttweaker:flawless_fluix_crystal>]]);
+
+val swordoftruth = <contenttweaker:sword_of_truth>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 4000},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]});
+
+mods.extendedcrafting.TableCrafting.addShaped(swordoftruth, 
+[[null, null, <contenttweaker:recursium_ingot>, null, null], 
+[null, <contenttweaker:recursium_ingot>, <contenttweaker:upper_fragment_cosmos>, <contenttweaker:recursium_ingot>, null], 
+[null, <contenttweaker:recursium_ingot>, <contenttweaker:lower_fragment_cosmos>, <contenttweaker:recursium_ingot>, null], 
+[<contenttweaker:fifth_order_mythic_fractal>, <contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:freed_betrayed_soul>, <contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:fifth_order_mythic_fractal>], 
+[null, null, <tconstruct:tough_tool_rod>.withTag({Material: "infinity_avaritia_plustic"}), null, null]]);  

@@ -410,3 +410,25 @@ reci39.addItemInput(<ore:plateVoid>);
 reci39.addItemInput(<thaumcraft:stone_eldritch_tile>);
 reci39.addItemOutput(<thaumicaugmentation:impetus_mirror>);
 reci39.build();
+
+val reci40 = RecipeBuilder.newBuilder("inf40","arcane_autoinfuser",120);
+reci40.addEnergyPerTickInput(100);
+reci40.addItemInput(<contenttweaker:victus_vis_condensate>);
+reci40.addItemInput(<contenttweaker:sympan_spirit>);
+reci40.addItemInput(<contenttweaker:master_spell_focus>);
+reci40.addItemInput(<thaumadditions:mithminite_fabric>);
+reci40.addItemOutput(<contenttweaker:master_spell_victus>);
+reci40.build();
+
+val reci41 = RecipeBuilder.newBuilder("inf41","arcane_autoinfuser",120);
+reci41.addEnergyPerTickInput(100);
+reci41.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]})*250);
+reci41.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "lux"}]})*125);
+reci41.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]})*125);
+reci41.addItemInput(<minecraft:nether_star>);
+reci41.addItemInput(<minecraft:diamond>);
+reci41.addItemInput(<minecraft:ender_eye>);
+reci41.addItemInput(<thaumictinkerer:kamiresource:0>);
+reci41.addItemInput(<thaumictinkerer:kamiresource:1>);
+reci41.addItemOutput(<thaumictinkerer:ichor_block>);
+reci41.build();

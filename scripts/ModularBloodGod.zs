@@ -17,7 +17,7 @@ elemaltar2.addItemInput(<minecraft:wheat>);
 elemaltar2.addItemInput(<minecraft:sugar>);
 elemaltar2.addItemInput(<minecraft:brown_mushroom>);
 elemaltar2.addItemInput(<minecraft:red_mushroom>);
-elemaltar2.addItemOutput(<bloodmagic:component:26>);
+elemaltar2.addItemOutput(<bloodmagic:component:26>*2);
 elemaltar2.build();
 
 val elemaltar3 = RecipeBuilder.newBuilder("elemaltar3","elemental_altar",10);

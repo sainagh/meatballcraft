@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    20182
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFlux in one of the core thaumcraft mechanics. \n\nFlux is similar to radiation, where each chunk has a certain flux level. If flux is too high, bad things will happen.\n\nThe thaumometer lets you see the flux levels in a given chunk (the dark purple bar). You can sneak to see the numerical value.\n\nFlux is created when a few things in thaumcraft are done:\n1. A crucible has excess essentia\n2. An essentia smeltery is processing items (mithrillium tier and above don\u0027t make flux)\n3. You fail an infusion craft\n\nThe ritual of eldritch will from blood magic will eliminate some flux and turn it into will.\n\nEventually, you will unlock ways of clearing flux efficiently.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "bloodmagic:ritual_stone"
+      },
+      "name:8": "Flux is Dangerous!"
+    }
+  },
+  "questID:3": 20218,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

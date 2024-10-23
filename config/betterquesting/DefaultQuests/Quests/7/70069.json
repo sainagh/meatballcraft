@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found between Y\u003d9 and Y\u003d70.\nCan be found in a Treasure Box or a Shiny Box.\nCan be found in Loot Chests from Structures.\nCan be traded from a Metalloid for 15 Copper Coins.\nCan be dropped by Chimeras.\n\n- Most written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:limonite_ingot"
+      },
+      "name:8": "Limonite Ingot"
+    }
+  },
+  "questID:3": 70069,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:limonite_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

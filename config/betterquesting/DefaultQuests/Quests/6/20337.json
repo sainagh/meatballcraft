@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20336
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe distillery uses ME to craft! Place it near the witches altar!\n\nJEI will tell you the recipes done by the distillery!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:distillery"
+      },
+      "name:8": "Distillery"
+    }
+  },
+  "questID:3": 20337,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:distillery"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

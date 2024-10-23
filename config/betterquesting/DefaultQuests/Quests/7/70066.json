@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found below Y\u003d30\n\n- Written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "abyssalcraft:nitre"
+      },
+      "name:8": "Nitre"
+    }
+  },
+  "questID:3": 70066,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 772,
+          "OreDict:8": "dustSaltpeter",
+          "id:8": "thermalfoundation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

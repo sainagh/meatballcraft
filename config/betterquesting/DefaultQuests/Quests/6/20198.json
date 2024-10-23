@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    20054,
+    114
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAstral Sorcery is a mod focused on the power of stars and constellations.\n\nIt provides many powerful player upgrades, as well as rituals that allow for convenience and resource generation.\n\nStarlight is the magic energy that powers this mod; it exists naturally in locations with sky access, but it can be boosted using mod tools.\n\nThe mod has a couple of automatable base mechanics, but custom multiblocks will consist of the bulk of Astral Sorcery automation in the pack.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic",
+        "tag:10": {}
+      },
+      "name:8": "Astral Sorcery"
+    }
+  },
+  "questID:3": 20198,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:itemjournal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    1415320476
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:runes_of_liberation"
+      },
+      "name:8": "Liberation"
+    }
+  },
+  "questID:3": 1479405903,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:runes_of_liberation"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:rites_of_liberation"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:freed_betrayed_soul"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_runesofliberation"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

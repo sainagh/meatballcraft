@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70129
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Spawns in the Ironmine Dimension from Advent of Ascension, below Y\u003d64 where Iro Stone is.\n\n- Written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:lyon_ingot"
+      },
+      "name:8": "Lyon Ingot"
+    }
+  },
+  "questID:3": 70251,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:lyon_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

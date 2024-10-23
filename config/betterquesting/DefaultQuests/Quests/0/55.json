@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    43
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Dragons are both fascinating and scary, but I was able to slay one!\n\nFire dragons are the master of the plains, and all other lowlands!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "iceandfire:dragon_skull"
+      },
+      "name:8": "Fire Dragon"
+    }
+  },
+  "questID:3": 55,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 200,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "iceandfire:fire_dragon_heart"
+            },
+            "TrophyName:8": "Fire Dragon Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:dragon_skull"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:fire_dragon_heart"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    50179
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The draconic reactor passively produces energy, at the cost of mantaining a forcefield around its core. If the core is stronger than the forcefield, expect a big (really big) boom.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:reactor_core"
+      },
+      "name:8": "Draconic Reactor (Good)"
+    }
+  },
+  "questID:3": 50280,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:reactor_core"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "draconicevolution:reactor_component"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:reactor_component"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:flow_gate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

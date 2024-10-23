@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    50177
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Supersized Dynamo, uses a combination of many Dynamo fuels.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularmachinery:itemblueprint",
+        "tag:10": {
+          "dynamicmachine:8": "modularmachinery:blood_reprocessor"
+        }
+      },
+      "name:8": "Compression Engine (Great)"
+    }
+  },
+  "questID:3": 50208,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:compression_engine"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

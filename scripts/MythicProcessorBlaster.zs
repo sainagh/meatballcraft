@@ -34,3 +34,19 @@ mythindblast5.addFluidInput(<fluid:dense_plasma>*30000);
 mythindblast5.addItemInput(<bnkrblks:megelium_stone>);
 mythindblast5.addItemOutput(<bnkrblks:megelium_block>);
 mythindblast5.build();
+
+val mythindblast6 = RecipeBuilder.newBuilder("mythindblast6","mythic_processor_blaster",1);
+mythindblast6.addEnergyPerTickInput(200000);
+mythindblast6.addFluidInput(<fluid:dense_plasma>*30000);
+mythindblast6.addItemInput(<contenttweaker:hyperuranion_ingot>);
+mythindblast6.addItemInput(<extendedcrafting:singularity_custom:2030>);
+mythindblast6.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>);
+mythindblast6.build();
+
+val mythindblast7 = RecipeBuilder.newBuilder("mythindblast7","mythic_processor_blaster",1);
+mythindblast7.addEnergyPerTickInput(200000);
+mythindblast7.addFluidInput(<fluid:dense_plasma>*30000);
+mythindblast7.addItemInput(<contenttweaker:freed_betrayed_soul>*55);
+mythindblast7.addItemInput(<contenttweaker:will_ensnaring_fabrial>);
+mythindblast7.addItemOutput(<contenttweaker:construct_of_liberation>);
+mythindblast7.build();

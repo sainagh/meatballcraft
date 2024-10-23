@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found below Y\u003d32 in Arid Biomes (Desert-Like), and as a chance drop from Advent of Ascension ores.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "biomesoplenty:gem"
+      },
+      "name:8": "Ruby"
+    }
+  },
+  "questID:3": 70079,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "gemRuby",
+          "id:8": "biomesoplenty:gem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

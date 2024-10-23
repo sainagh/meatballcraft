@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    20054,
+    114
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oBewitchment is a mod focused on natural magic and demons.\n\nIt provides some player tools.\n\nThe mod has a basic support of automation, but it is not the best, so custom multiblocks will eventually replace many of its base machines.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic",
+        "tag:10": {}
+      },
+      "name:8": "Bewitchment"
+    }
+  },
+  "questID:3": 20328,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "patchouli:guide_book",
+          "tag:10": {
+            "patchouli:book:8": "bewitchment:book_of_shadows"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

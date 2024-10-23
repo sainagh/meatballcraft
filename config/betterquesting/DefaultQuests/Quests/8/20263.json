@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    20255
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse a deep dark portal",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 7,
+        "id:8": "extrautils2:compressedcobblestone"
+      },
+      "name:8": "The Deep Dark"
+    }
+  },
+  "questID:3": 20263,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": -11325,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "The Deep Dark",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

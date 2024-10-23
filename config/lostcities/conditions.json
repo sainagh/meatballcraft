@@ -1,0 +1,72 @@
+[
+  {
+    "type": "condition",
+    "name": "easymobs",
+    "values": [
+      {
+        "factor": 1,
+        "value": "Zombie"
+      },
+      {
+        "factor": 1,
+        "value": "Skeleton"
+      },
+      {
+        "factor": 1,
+        "value": "Spider"
+      }
+    ]
+  },
+  {
+    "type": "condition",
+    "name": "hardmobs",
+    "values": [
+      {
+        "factor": 1,
+        "value": "Blaze"
+      },
+      {
+        "factor": 1,
+        "value": "Witch"
+      }
+    ]
+  },
+  {
+    "type": "condition",
+    "name": "chestloot",
+    "values": [
+      {
+        "factor": 8,
+        "value": "lostcities:chests/lostcitychest",
+        "range": "4,100"
+      },
+      {
+        "factor": 8,
+        "value": "lostcities:chests/lostcitychest",
+        "range": "-100,-3"
+      },
+      {
+        "factor": 20,
+        "value": "lostcities:chests/raildungeonchest",
+        "inpart": "rail_dungeon1"
+      },
+      {
+        "factor": 20,
+        "value": "lostcities:chests/raildungeonchest",
+        "inpart": "rail_dungeon2"
+      },
+	  {
+        "factor": 0,
+        "value": "gregtech:chests/abandoned_safe_1"
+      },
+	  {
+        "factor": 20,
+        "value": "walle:chests/gt_trash"
+      },
+	  {
+        "factor": 20,
+        "value": "walle:chests/gt_components"
+      }
+    ]
+  }
+]

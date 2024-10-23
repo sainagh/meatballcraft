@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found only in mountainous biomes, but testificates seem to have lots of it!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:emerald"
+      },
+      "name:8": "Emerald"
+    }
+  },
+  "questID:3": 70063,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:emerald"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -221,7 +221,7 @@ val enclistSuperMantleWrapped as EnchantMap = EnchantMap()
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.armara"},display: {Name:"§6§oMantle of the Stars§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSuperMantleWrapped).getItem(), 
+mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.armara"},display: {Name:"§6§o星斗披风§r",Lore:["§d§o超限附魔§r"]}}), enclistSuperMantleWrapped).getItem(), 
 [[<astralsorcery:itemperkseal>, <astralsorcery:itemrockcrystalsimple>, null, <contenttweaker:dynatos_crystal>, null, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemperkseal>], 
 [<astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <extendedcrafting:singularity:49>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>], 
 [null, <astralsorcery:itemrockcrystalsimple>, null, null, null, <astralsorcery:itemrockcrystalsimple>, null], 
@@ -400,7 +400,7 @@ recipes.addShaped(<xreliquary:potion>.withTag({effects: [{duration: 50000, poten
 
 // recycle books
 
-recipes.addHiddenShaped("secretbookrecycler",<contenttweaker:spell_recycling_crystal>,
+scripts.PuzzleUtil.addPuzzleShaped("secretbookrecycler",<contenttweaker:spell_recycling_crystal>,
 [[null, <ebwizardry:magic_crystal:0>, null],
 [<ebwizardry:magic_crystal:0>, <ironchest:iron_chest:5>, <ebwizardry:magic_crystal:0>],
 [null, <ebwizardry:magic_crystal:0>, null]]);
@@ -432,3 +432,30 @@ recipes.addShapeless(<botania:blacklotus:0>,
 <contenttweaker:broken_portal_arcana>.reuse(),
 <contenttweaker:broken_portal_arcana>.reuse(),
 <contenttweaker:broken_portal_arcana>.reuse()]);
+
+// gambling addiction
+
+recipes.addShaped(<contenttweaker:gambling_addiction_prison_key>,
+[[<mod_lavacow:intestine>, <bewitchment:sigil_luck>, <mod_lavacow:intestine>],
+[<iceandfire:dread_queen_sword>, <extendedcrafting:singularity_custom:2040>, <iceandfire:dread_queen_sword>],
+[<mod_lavacow:intestine>, <bewitchment:fortunes_favor>, <mod_lavacow:intestine>]]);
+
+recipes.addShaped(<contenttweaker:gambling_sentient_meatball>*2,
+[[<ore:coinGold>, <ebwizardry:grand_crystal>, <ore:coinGold>],
+[<ebwizardry:grand_crystal>, <contenttweaker:gambling_sentient_meatball>, <ebwizardry:grand_crystal>],
+[<ore:coinGold>, <ebwizardry:grand_crystal>, <ore:coinGold>]]);
+
+
+// life charms
+
+recipes.addShaped(<twilightforest:charm_of_life_1>,
+[[<contenttweaker:lively_twilight_rock>, <contenttweaker:shield_of_terra>, <contenttweaker:lively_twilight_rock>],
+[<botania:blacklotus>, <contenttweaker:lively_twilight_gem>, <botania:blacklotus>],
+[<contenttweaker:lively_twilight_rock>, <contenttweaker:shield_of_terra>, <contenttweaker:lively_twilight_rock>]]);
+
+// ezdread
+
+recipes.addShaped(<iceandfire:dread_shard>*4,
+[[null, <iceandfire:witherbone>, null],
+[<iceandfire:witherbone>, <contenttweaker:dread_cleansing_fabrial>.reuse(), <iceandfire:witherbone>],
+[null, <iceandfire:witherbone>, null]]);

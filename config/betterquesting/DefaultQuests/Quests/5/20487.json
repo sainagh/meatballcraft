@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    20483
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oIf you get errors in the industrial apiary GUI, use these upgrades to change the biome or humidity!\n\n§IInstead of moving my bees around, I can just emulate biomes from the comfort of my §fhome!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 17,
+        "id:8": "gendustry:apiary.upgrade"
+      },
+      "name:8": "Biome Upgrades"
+    }
+  },
+  "questID:3": 20487,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 17,
+          "id:8": "gendustry:apiary.upgrade"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 20,
+          "id:8": "gendustry:apiary.upgrade"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "id:8": "gendustry:apiary.upgrade"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 16,
+          "id:8": "gendustry:apiary.upgrade"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 18,
+          "id:8": "gendustry:apiary.upgrade"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 21,
+          "id:8": "gendustry:apiary.upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

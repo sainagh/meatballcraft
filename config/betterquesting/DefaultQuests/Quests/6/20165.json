@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    20163
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTo assemble the terrestrial agglomeration plate, make a diagonal x of livingrock, with lapis in the edges, and place the plate on top of the middle livingrock!\n\nThe plate receives mana from a spark placed on it! Mana spreaders will work, but they will be really slow!\n\nMake terrasteel by dropping a manasteel ingot, a mana diamond, and a mana pearl on the plate.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:terraplate"
+      },
+      "name:8": "Terrestrial Aggomeration Plate"
+    }
+  },
+  "questID:3": 20165,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:terraplate"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:lapis_block"
+        },
+        "2:10": {
+          "Count:3": 5,
+          "id:8": "botania:livingrock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

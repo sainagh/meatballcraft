@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    31
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Terra is a really weird planet, and for more that one reason.\nDue to its size, it should definitely be a gas giant, yet, for some reason, it is solid, and it\u0027s atmosphere is mostly made out of light gases, making it breathable.\nAlthough it has a moon, Luna, orbiting it at a fairly large distance, Terra is also surrounded by a moltitude of island-like asteroids.\nThese asteroids, due to their proximity, lie within the planet\u0027s atmosphere, and act as sky islands where gravity is pretty much mantained.\nIn addition to this, many regions of the planet\u0027s interior are hollow, in the form of very large caves situated at about the same distance from the core.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:stone"
+      },
+      "name:8": "Terra"
+    }
+  },
+  "questID:3": 20254,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:written_book",
+          "tag:10": {
+            "author:8": "meatballcraft",
+            "pages:9": {
+              "0:8": "{\"text\":\"You can use this book, or the searchable JEI item called \\u0027Dimension IDs\\u0027 to obtain a list of all the IDs associated with each dimension.\\n\\nIf your world save gets too large (saves \\u003e yourworldname), you can reset a given dimension by removing the DIMx folder corresponding to the ID you want to reset.\\nExample: Nether is DIM-1\\n \"}",
+              "1:8": "{\"text\":\"Terra (overworld): 0\\nVoid World: 43\\nWoot Dimension (tartarus): 418\\nNether: -1\\nEnd: 1\\nFurnace World (Telos): 623\\nTwilight Forest: 7\\nAether: 4\\nErebus: 66\\nBetweenlands: 20\\nIceika: 425\\nArcana: 426\\n \"}",
+              "2:8": "{\"text\":\"Abyssal wasteland: 50\\nDreadlands: 51\\nOmothol: 52\\nDark realm: 53\\nDimensional Doors: 684 (and consecutive numbers)\\nEmptiness: 14676\\nDeep Dark: -11325\\nTaerrapiatta: 180\\nDiamerisma: 181\\nFuratto: 182\\nVibe: 183\\nApichisi: 184\"}",
+              "3:8": "{\"text\":\"Finem: 185\\nLuna: 145\\nOsiris: 148\\nPtah: 149\\nHator: 150\\nEuropa: 151\\nOi: 152\\nFalacer:160\\nOrcus: 161\\nHaumea: 146\\nSedna: 147\\nEden: 420\\nPrecasia: 818\"}",
+              "4:8": "{\"text\":\"Barathos: 802\\nLelyetia: 815\\nCreeponia: 805\\nDeeplands: 807\\nAbyss: 800\\nRhenia: 163\\nMyrmex: 164\\nWildwood: 421\\nCandyland: 803\\nGardencia: 809\\nCeleve: 804\\nCrystevia: 806\\n\"}",
+              "5:8": "{\"text\":\"Haven: 811\\nIromine: 813\\nMysterium: 817\\nVox Ponds: 821\\nPixonia: 165\\nSpatial Storage: -26\\nApalachia: 422\\nLindenwyrm: 162 \\nL\\u0027Borean: 814\\nRunandor: 819\\nLunalus: 816\\nProxima Belt: 166\\nSkythern: 423\\n\"}",
+              "6:8": "{\"text\":\"Ancient Cavern: 801\\nImmortallis: 812\\nGreckon: 810\\nDustopia: 808\\nVethea: 427\\nZoi: 171\\nNero: 170\\nAkathartos: 172\\nPauram: 173\\nMortum: 424\\nShyrelands: 820\\nAlkemia: 174\\n\"}",
+              "7:8": "{\"text\":\"Earth (Lost Cities): 111\\nGallifrey: 624\\nRFTools Dimensions: 900 (and consecutive numbers)\\n \"}"
+            },
+            "resolved:1": 1,
+            "title:8": "Dimension Debugging"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Overworld",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

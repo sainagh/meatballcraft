@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    20102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis is the best way of automating a blood altar before deep mob evolution.\n\nPlace below the blood altar.\n\nMobs below the ritual will be killed to fill the blood altar.\n\nAny mob farms can be used to have an endless supply of LP.\n\nMax tier soul cages can be controlled with redstone, and are the fastest way to fuel this ritual.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "bloodmagic:blood_rune"
+      },
+      "name:8": "Ritual of Culling (Useful)"
+    }
+  },
+  "questID:3": 842,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ritual_culling"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

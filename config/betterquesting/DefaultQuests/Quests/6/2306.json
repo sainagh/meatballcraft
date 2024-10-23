@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1170
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oGraves, when placed down, will eventually charge with a soul.\n\nSouls are used for many mod mechanics, but they can also Enchant Grave keys.\n\nWhen you die and get your Grave Key, you can right click it on a charged Gravestone to enchant it, and it will let you teleport to your death point!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tombstone:decorative_grave_simple"
+      },
+      "name:8": "Return after Death"
+    }
+  },
+  "questID:3": 2306,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "decorativeGrave",
+          "id:8": "tombstone:decorative_grave_simple"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

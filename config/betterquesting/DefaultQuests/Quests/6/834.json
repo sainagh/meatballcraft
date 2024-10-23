@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    20101
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oConstantly consumes LP to speed up plant growth.\n\nIf there is will in the chunk, the ritual can be upgraded:\n\nRaw: increased speed\n\nCorrosive: entities are damaged for extra plant speed\n\nDestructive: the more will, the faster\n\nVengeful: increases frequency of growth ticks\n\nSteadfast: replants crops, and hydrates soil with no water",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stone_of_the_wizard"
+      },
+      "name:8": "Green Grove"
+    }
+  },
+  "questID:3": 834,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

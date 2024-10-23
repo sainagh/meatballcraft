@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90306
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "integrateddynamics:part_redstone_writer_item"
+      },
+      "name:8": "Redstone Writer"
+    }
+  },
+  "questID:3": 90317,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "integrateddynamics:part_redstone_writer_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

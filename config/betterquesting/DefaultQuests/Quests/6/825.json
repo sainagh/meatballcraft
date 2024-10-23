@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    20102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis ritual creates refined life essence.\n\nPlace four stasis plates on top of the fire runes.\n\nPlace two blood tanks above the master ritual stone, leaving a one block gap. Top is input, bottom is output.\n\nYou can use blood tanks of any size!\n\nRecipe: \n     ender pearl\n     blaze powder\n     redstone\n     blood infused glowstone dust\n     life essence\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stone_of_the_wizard"
+      },
+      "name:8": "Purification"
+    }
+  },
+  "questID:3": 825,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "bloodarsenal:stasis_plate"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:blood_tank"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

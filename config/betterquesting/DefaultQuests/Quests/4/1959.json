@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1956
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe remote can be set to any wireless frequency, and used to toggle signals directly from your inventory.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "wrcbe:remote"
+      },
+      "name:8": "Remote Control"
+    }
+  },
+  "questID:3": 1959,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "wrcbe:remote"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

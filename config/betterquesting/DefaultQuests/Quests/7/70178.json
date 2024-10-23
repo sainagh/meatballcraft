@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70120
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Spawns in the Nether and the End.\nIn RFTools Dimensions, it can be found below Y\u003d40.\n\n- Written by Bluecat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:dimensional_shard"
+      },
+      "name:8": "Dimensional Shard"
+    }
+  },
+  "questID:3": 70178,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:dimensional_shard"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

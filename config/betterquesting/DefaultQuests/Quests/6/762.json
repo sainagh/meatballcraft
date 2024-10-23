@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    20156
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oSparks can be used to transfer mana between mana pools and other botania items. Right click a spark on the pool to place it.\n\nBy default, all blocks with a spark will share mana equally, but spark augments can be used to change priorities.\n\nDominant: will take mana from other pools until it\u0027s full.\n\nDispersive: will send mana to players.\n\nRecessive: will send mana to other pools if they can take it.\n\nIsolated: will not send mana to other normal sparks.",
+      "icon:10": {
+        "Count:3": 64,
+        "id:8": "botania:spark"
+      },
+      "name:8": "I see sparks!"
+    }
+  },
+  "questID:3": 762,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:spark"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "botania:sparkupgrade"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "botania:sparkupgrade"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "botania:sparkupgrade"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "botania:sparkupgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
