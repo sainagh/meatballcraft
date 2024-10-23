@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1298
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "It took some time and experimentation, but yes, etherium has at least one use. I definitely lack the power and knowledge to fully take advantage of it, though.\nThe existance of something like this is good for me, though. I went from not knowing what I did not know, to knowing what I do not know. That\u0027s progress!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:arkengem"
+      },
+      "name:8": "Arkengem"
+    }
+  },
+  "questID:3": 1345,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:arkengem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:arkengem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

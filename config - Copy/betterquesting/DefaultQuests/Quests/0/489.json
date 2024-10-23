@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    490
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse a giant crystal on a power station to summon Crystocore.\n\n§fI have yet to understand the mechanics of this new branch of magic, but observing it in the local Crystevia population has provided some information. The constructs that inhabit this world are biological in nature, but a large part of their bodies is composed of inorganic crystal, which they appear to use as a conduit of their magic. It is almost as if they evolved to coexist with this type of magic; or, also likely, they bound themselves to it through some act or ritual.\nThis type of magic seems to operate through \u0027investitures\u0027 of some sort. Not unlike Wizardry, it manifests through different forms, different aspects, such as speed or strength; unlike wizardry, though, the requirements for mastering more of these aspects are much higher.\nOnly one being in this world is capable of perfoming magic within more than one aspect; the recursive being that rules it, Crystocore.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:crystevia_cap"
+      },
+      "name:8": "Crystevia Falls"
+    }
+  },
+  "questID:3": 489,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:crystocore_shard"
+            },
+            "TrophyName:8": "Crystocore Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:crystevia_cap"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:crystevia_callstone"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:giant_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

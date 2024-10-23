@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1181
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFluid laser relays can transmit fluids instantly!\n\nUse the laser wrench to link lasers together.\nUse a compass to change mode!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "actuallyadditions:block_laser_relay_fluids"
+      },
+      "name:8": "Fluid Laser"
+    }
+  },
+  "questID:3": 1182,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "actuallyadditions:block_laser_relay_fluids"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

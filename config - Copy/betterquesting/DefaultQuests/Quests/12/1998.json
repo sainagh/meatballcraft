@@ -1,0 +1,45 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    1595,
+    1597
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ebwizardry:battlemage_chestplate_ice"
+      },
+      "name:8": "Ice Battlemage"
+    }
+  },
+  "questID:3": 1998,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:battlemage_helmet_ice"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:battlemage_chestplate_ice"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:battlemage_leggings_ice"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:battlemage_boots_ice"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

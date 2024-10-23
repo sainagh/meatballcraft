@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1873,
+    63
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oBuilding made even easier! (according to Jørge)\n\nPress Z to change mode, and sift + Z to change the way it interacts with fluids.\n\nType /wandOops in chat to undo the latest step!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterbuilderswands:wandunbreakable"
+      },
+      "name:8": "New Quest"
+    }
+  },
+  "questID:3": 1939,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterbuilderswands:wandunbreakable"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

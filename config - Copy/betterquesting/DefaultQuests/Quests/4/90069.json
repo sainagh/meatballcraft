@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90058
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe drawer controller can be used to connect a network of touching drawers to be seen as a single inventory. Great for storage busses!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "storagedrawers:controller"
+      },
+      "name:8": "Drawer Controller"
+    }
+  },
+  "questID:3": 90069,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "storagedrawers:controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    788
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oMoves mana wirelessly. Use the position reader to bind to an output manapool.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:specialflower",
+        "tag:10": {
+          "type:8": "manalinkium"
+        }
+      },
+      "name:8": "Manalinkium"
+    }
+  },
+  "questID:3": 1313,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:specialflower",
+          "tag:10": {
+            "type:8": "manalinkium"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extrabotany:binder",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

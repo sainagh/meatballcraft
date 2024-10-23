@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    501
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No clear reasons, none at all. From what I have seen in the Eden, the Twilight Horde is no stranger to espionage, and from what I am seeing now, I strongly suspect the Shyre Empire is doing some spy work of its own too.\nI myself am capable of disguising or hiding myself using magic, so one can only assume similar methods, or even ones more advanced than an invisibility potion, could be used by more magically-inclined foes.\nThankfully, after having encountered bee civilization and their secrets, I am no stranger to mysteries of this type anymore.\nI still think I am missing some fundamental piece of the puzzle. I will probably have to come back to this mystery later.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:haven_garnet"
+      },
+      "name:8": "Haven Garnet"
+    }
+  },
+  "questID:3": 500,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:haven_garnet"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:haven_garnet"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:haven_wormhole"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

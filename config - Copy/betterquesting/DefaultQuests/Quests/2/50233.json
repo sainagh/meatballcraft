@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    50230
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "More random radioactive isotopes?\nMore random radioactive isotopes!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:fuel_mixed_oxide"
+      },
+      "name:8": "MOX-239 Fuel"
+    }
+  },
+  "questID:3": 50233,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:fuel_mixed_oxide"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

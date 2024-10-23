@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    865
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No matter what I told them, the Testificate wizards did not share how they were capable of producing so much flux to stop the soul of a planet. They say it was too big a crime to nature to be shared. Their souls are gone, they say, and so are their powers. They were the most powerful back then, but are now comparatively powerless. Losing their powers is what halted the progress of the campaign of Terra, and they believe it was a bad idea to deal with the enemy by taking away their only chance of continuing. I have to say I agree with them.\nWhile having access to this power would allow me to put an end to the monstrous world that is the Abyss, I am more useful as an immortal fighter as opposed to a one-time-use taint bomb.\nThe soul of Vibe, though, is now finally gone! The last of its ichor has been spilled! ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:faultless_ichor_gem"
+      },
+      "name:8": "The Soul of a Planet"
+    }
+  },
+  "questID:3": 1198,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 200,
+            "TrophyColorRed:3": 200,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:faultless_ichor_gem"
+            },
+            "TrophyName:8": "Planetary Papercuts",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:tainted_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:faultless_ichor_gem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

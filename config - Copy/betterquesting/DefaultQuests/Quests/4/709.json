@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    84
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": " §7§oCannot charge all RF items, but can charge certus and some AE2 tools.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:charger"
+      },
+      "name:8": "Charger"
+    }
+  },
+  "questID:3": 709,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:charger"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

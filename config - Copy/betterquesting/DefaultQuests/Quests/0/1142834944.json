@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    2140
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A lone Testificate seems to have gone on after the campaign on Furatto. Acting by himself, one of the faithful of the Arbiter has followed the guide of some bees, and was able to reach Lyndenwyrm, gathering knowledge about the power of Entropy after studying the Chaos Dragons in the Sky of Terra.\nThis agent was one of the Arbiter\u0027s inner circle back on Terra, a powerful magician and alchemist, and the creator of the Withers. These six creatures, created from the undead of the Meatball Man, were put in place as the ultimate defense of Terra, and would awaken if the full corporeal form of the Lord of Gluttony were to ever set foot in the land of the Testificates.\nAs they told me of their mission and research, one interesting detail about powerful recursion came up. \nFractallite powers have strict rules; no more and no less than one individual can hold a given fractallite power; if a fractallite being dies, their power and their mission become available for the taking. \nOne can ascend before gaining powers, as the process of ascension simply consists of reaching a level of attunement to recursion that allows one to sense the fields for these immense powers.\nBecause of this, there are powerful fractallite beings that hold no powers, and who are simply fighting or waiting to take control over a specific one.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:chaotic_gem"
+      },
+      "name:8": "The Origin of Withers"
+    }
+  },
+  "questID:3": 1142834944,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:chaotic_gem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

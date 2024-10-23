@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20155
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe mana pool transforms items that are dropped in it consuming some mana.\n\nIt is also the main way to store mana, which can be transferred using sparks or mana spreaders.\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:pool"
+      },
+      "name:8": "Mana Pool"
+    }
+  },
+  "questID:3": 20156,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:pool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

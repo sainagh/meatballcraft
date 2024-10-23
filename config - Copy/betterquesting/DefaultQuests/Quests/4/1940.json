@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    90095
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe redstone proxy is an Xnet component that allows to convert an Xnet logic signal to regular redstone, if you have to interact with things externally.\n\nThere are two versions, one that produces block updates (like right clicking a redstone ore) and one that doesn\u0027t.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "xnet:redstone_proxy"
+      },
+      "name:8": "Redstone Proxy"
+    }
+  },
+  "questID:3": 1940,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "xnet:redstone_proxy"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "xnet:redstone_proxy_upd"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

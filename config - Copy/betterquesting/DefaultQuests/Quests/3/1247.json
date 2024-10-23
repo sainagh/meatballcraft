@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20544
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCan perform some of the functions of the crystal growth chamber, and has a few extra recipes to make the mass assembler components!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "threng:machine"
+      },
+      "name:8": "Fluix Aggregator"
+    }
+  },
+  "questID:3": 1247,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "threng:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

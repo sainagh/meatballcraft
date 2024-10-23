@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    745089078,
+    1713406254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "Back to Earth"
+    }
+  },
+  "questID:3": 1388,
+  "tasks:9": {}
+}

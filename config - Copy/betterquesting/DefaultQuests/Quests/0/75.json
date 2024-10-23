@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    74
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oBy the way, infinite AE2 range can be obtained placing a Quantum Link Card in a Quantum Ring.\n\n§fThe druids from the Betweenlands do have some advanced knowledge of alchemy and equivalency.\nDeep Blue Matter is a more powerful, and more expensive, version of red matter, a vessel of equivalency in large amounts.\nIt\u0027s nature seems to directly originate from the higher dimensions of the betweenlands.\nMy ability to open wormholes originates from the higher dimensions where the Betweenlands reside, so I guess it makes sense that I became aware of the methods of creating Deep Blue Matter after working on my own wormholes.\nThis is not the first time I have witnessed interactions between various types of magic, suggesting that the fields they revolve around may share some origins. \nIs this why I can perform so many different types? Not everyone can, though, so there may be something else going on...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:blue_matter"
+      },
+      "name:8": "Advanced Equivalency"
+    }
+  },
+  "questID:3": 75,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:blue_matter"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:blue_matter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 59,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    20197
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDefeating a crimson portal, which can be found in the overworld, will let you get this.\n\nIf you are progressing through thaumcraft without using the really scary vishroom, you will need this to unlock the eldritch section of the thaumonomicon.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "thaumcraft:curio"
+      },
+      "name:8": "Crimson Rites"
+    }
+  },
+  "questID:3": 20056,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "thaumcraft:curio"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

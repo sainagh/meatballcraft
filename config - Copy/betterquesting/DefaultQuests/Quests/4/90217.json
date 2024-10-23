@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90216
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCollects items at a distance. Can be Filtered.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "randomthings:advanceditemcollector"
+      },
+      "name:8": "Advanced Item Collector"
+    }
+  },
+  "questID:3": 90217,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "randomthings:advanceditemcollector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    20550
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oA magma block is required underneath the anvil to provide enough heat.\n\nSpecific casts can be used for multiple outcomes, so an anvil for each cast is recommended.\n\nRecipe items can be dropped or dispensed directly on the anvil.\n\nSome sort of user can be used to hit the anvil with a Ya Hammer.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "woot:anvil"
+      },
+      "name:8": "Stygian Iron Anvil"
+    }
+  },
+  "questID:3": 20685,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "woot:anvil"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "woot:yahhammer"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:magma"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

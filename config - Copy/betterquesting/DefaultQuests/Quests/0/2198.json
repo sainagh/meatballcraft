@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    97
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Meatball Man has a mighty army, mostly composed of undead who, for some reason, have to follow his rule.\nThey definitely seem unwilling to submit to his rule, and yet they are unable to escape it.\nMany of them are nothing more than mere cannon fodder, and yet some serve higher purposes.\nOne of them is a botanist, how unexpected!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:vegetarian_sentient_meatball"
+      },
+      "name:8": "Meatball Botanist"
+    }
+  },
+  "questID:3": 2198,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 1,
+            "TrophyColorGreen:3": 1,
+            "TrophyColorRed:3": 1,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:vegetarian_sentient_meatball"
+            },
+            "TrophyName:8": "Vegetarian Meatballs FTW",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:undead_botanist_callstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "crimsonwarfare:boss_activator"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

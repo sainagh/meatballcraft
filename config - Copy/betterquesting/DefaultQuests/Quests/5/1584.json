@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1571
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:fiery_pyrite"
+      },
+      "name:8": "Fiery Pyrite"
+    }
+  },
+  "questID:3": 1584,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:fiery_pyrite"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:fluix_essence"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:alumite_essence"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

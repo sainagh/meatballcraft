@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    73
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWelcome to chapter 3!\n\n§fCorallus, the ruler of the seas, was also a scientist.\nIt seems like the shyre empire used him to perfect their wormhole technology.\nI stopped him just in time...his last experiments appeared to be focused on opening a portal that would allow for the entire military might of the empire to enter Terra at once.\nThis type of science is way beyond my understanding, yet, I may be able to use its basic applications to open my own wormholes...",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:wormhole_catalyst"
+      },
+      "ismain:1": 1,
+      "name:8": "Wormhole Experiments"
+    }
+  },
+  "questID:3": 74,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:corallus_statue"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:wormhole_catalyst"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:how_to_finish_meatballcraft"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

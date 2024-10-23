@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    1401
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "deepmoblearning:pristine_matter_guardian"
+      },
+      "name:8": "Guardian (Good)"
+    }
+  },
+  "questID:3": 1414,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "deepmoblearning:pristine_matter_guardian"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:prismarine_shard"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:prismarine_crystals"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "bhc:red_heart"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 16,
+          "id:8": "xreliquary:mob_ingredient"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

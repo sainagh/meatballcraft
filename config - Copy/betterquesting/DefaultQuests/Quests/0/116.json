@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    68
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Just a few weeks here, and I already surpassed human tech!\nBy exploiting the power of dimensional doors, I can now make my own wormholes in a controlled environment!\nPhysics is so much easier with so many resources available.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:matter_transmitter"
+      },
+      "name:8": "Better than planes!"
+    }
+  },
+  "questID:3": 116,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "rftools:matter_receiver"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:matter_transmitter"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "rftools:matter_receiver"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "rftools:advanced_charged_porter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

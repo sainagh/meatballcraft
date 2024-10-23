@@ -1,0 +1,50 @@
+{
+  "preRequisites:11": [
+    472
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Gardencia magicians seem to have spent some time working on special recursive materials. Rosidian is indeed quite interesting, it has properties very similar to the soul manipulation abilities I was given through the Meatball Man.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:rosidian_ingot"
+      },
+      "name:8": "Floral Alloying"
+    }
+  },
+  "questID:3": 2183,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:rosidian_blend"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:rosidian_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_rosidianblend"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

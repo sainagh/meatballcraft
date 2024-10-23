@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    48
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDon\u0027t know how a machine or a recipe works? Info will be found in the manufacturing and fabrication tab!\n\nThe crescent hammer is the preferred wrench in this pack! It can rotate blocks, break pipes and cables, and it should work with all other tech mods!\n\n§fYES! I can now build a better workbench, which should allow me to put together some machines to make my life easier!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extendedcrafting:table_basic"
+      },
+      "name:8": "Better Fabrication"
+    }
+  },
+  "questID:3": 63,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermalfoundation:wrench"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 7,
+          "id:8": "extendedcrafting:material"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "omniwand:wand"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extendedcrafting:table_basic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

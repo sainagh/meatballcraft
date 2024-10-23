@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    20344
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oMakes it night.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:red_flower"
+      },
+      "name:8": "Rite of the High Moon"
+    }
+  },
+  "questID:3": 1165,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 130,
+          "OreDict:8": "ingotSilver",
+          "id:8": "thermalfoundation:material"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:red_flower"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:ectoplasm"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:spider_eye"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

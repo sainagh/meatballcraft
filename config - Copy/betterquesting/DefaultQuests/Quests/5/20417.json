@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20415
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe following quests will guide you through bee breeding.\n\nBees can get complex, but they are also quite powerful.\n\nIf you are getting started with bees, make sure to follow these quests!\n\n§fbees are cool\nbees are cool!\nbees are cool!!!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "Apian Genetics"
+    }
+  },
+  "questID:3": 20417,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:shears"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

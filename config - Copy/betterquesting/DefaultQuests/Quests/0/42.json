@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    41
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:sentient_meatball"
+      },
+      "name:8": "Sentient Meatball"
+    }
+  },
+  "questID:3": 42,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 160,
+            "TrophyColorGreen:3": 2,
+            "TrophyColorRed:3": 190,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:sentient_meatball"
+            },
+            "TrophyName:8": "Meatball encounter of the third kind",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "cyclicmagic:ender_lightning",
+          "tag:10": {}
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:sentient_meatball"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

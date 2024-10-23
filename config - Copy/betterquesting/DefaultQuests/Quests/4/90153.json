@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1232
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe interface has two functions, see the section on network I/O for an explanation on the other functionality.\n\nThe slots at the bottom on an interface GUI can be used to store patterns. Each pattern encodes a recipe or processing step.\n\nIf the interface is touching a molecular assembler, it will perform a crafting recipe.\n\nIf the interface is next to a machine (furnace, pulverizer, chest, etc) it will perform a processing recipe.\n\nSome machines don\u0027t auto output, so you will have to use conduits or other transfer pipes to put machine outputs back into the interface.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:interface"
+      },
+      "name:8": "ME Interface"
+    }
+  },
+  "questID:3": 90153,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:interface"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

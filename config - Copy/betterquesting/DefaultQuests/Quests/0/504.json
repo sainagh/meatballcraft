@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    273
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Myrmitite\u0027s affinity with draconic and blood magic is quite useful. Full use over the power of chaos is still a long ways away, but this is the first time that I made something that directly uses this principle. And it can be weaponized.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:knife_blade",
+        "tag:10": {
+          "Material:8": "chaotic_plustic"
+        }
+      },
+      "name:8": "Chaotic Knife Blade"
+    }
+  },
+  "questID:3": 504,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:infused_rhenium_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:knife_blade",
+          "tag:10": {
+            "Material:8": "chaotic_plustic"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

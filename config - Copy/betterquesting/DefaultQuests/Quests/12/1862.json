@@ -1,0 +1,89 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    1595,
+    1598
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "twilightforest:yeti_chestplate",
+        "tag:10": {
+          "ench:9": {
+            "0:10": {
+              "id:3": 0,
+              "lvl:2": 2
+            }
+          }
+        }
+      },
+      "name:8": "Yeti"
+    }
+  },
+  "questID:3": 1862,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:yeti_helmet",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:3": 0,
+                "lvl:2": 2
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:yeti_chestplate",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:3": 0,
+                "lvl:2": 2
+              }
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:yeti_leggings",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:3": 0,
+                "lvl:2": 2
+              }
+            }
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:yeti_boots",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:3": 0,
+                "lvl:2": 2
+              },
+              "1:10": {
+                "id:3": 2,
+                "lvl:2": 4
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

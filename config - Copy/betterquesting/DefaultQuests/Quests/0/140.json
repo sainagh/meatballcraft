@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    68
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oRight click a Flammable Dust (item from advent of ascension) on a nethengeic beast, found in a dungeon in the nether. Drop in the nether!\n\n§fWell... I\u0027ve finally met one of Smash\u0027s superiors, and it\u0027s a lieutenant for the Shyre Empire, a galaxy-spanning civilization that has been able to spread through all regions of space thanks to their immense power.\nAnd I am picking a fight with them. I\u0027m probably screwed, but hey, I can\u0027t die, and I can only get stronger!\nThe main leader of the Shyre Empire on Terra is a genetically modified monster that was given many of the Wither\u0027s abilities.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:nethengeic_callstone"
+      },
+      "name:8": "The Shyre Empire"
+    }
+  },
+  "questID:3": 140,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:wither_bow"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:nethengeic_callstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

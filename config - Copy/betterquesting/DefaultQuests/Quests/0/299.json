@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    297,
+    298
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You should complete all other quests in dimensional ascension alongside vethea if you haven\u0027t done so already",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:nightmare_bed"
+      },
+      "name:8": "Nightmare Bed"
+    }
+  },
+  "questID:3": 299,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:skythern_star"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:nightmare_bed"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

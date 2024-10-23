@@ -1,0 +1,105 @@
+{
+  "preRequisites:11": [
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTinker\u0027s construct is a tool and armor making mod! \n\nIt is recommended to start off with this mod to make tools in early game!\nLater on, other mods add good tools as well!\n\nFor armor, tinker\u0027s construct is OK, but from chapter 2 onwards it\u0027s probably better to go for other armor sets (although you can make it work).",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "plustic::10": {
+            "Items:9": {},
+            "Size:3": 1
+          },
+          "plustic:fruitsalad_cap:10": {
+            "Items:9": {},
+            "Size:3": 5
+          },
+          "plustic:musicofthespheres_cap:10": {
+            "Items:9": {},
+            "Size:3": 1
+          }
+        },
+        "id:8": "plustic:laser_gun",
+        "tag:10": {
+          "Modifiers:9": {
+            "0:10": {
+              "color:3": -6202120,
+              "identifier:8": "coldblooded",
+              "level:3": 1
+            },
+            "1:10": {
+              "color:3": -6202120,
+              "identifier:8": "insatiable",
+              "level:3": 1
+            },
+            "2:10": {
+              "color:3": -8462660,
+              "identifier:8": "aquadynamic",
+              "level:3": 1
+            },
+            "3:10": {
+              "color:3": 16777215,
+              "identifier:8": "toolleveling",
+              "level:3": 1
+            }
+          },
+          "Special:10": {
+            "Categories:9": {
+              "0:8": "weapon",
+              "1:8": "tool"
+            }
+          },
+          "Stats:10": {
+            "Attack:5": 2.5,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 660,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 4,
+            "LaserGunEnergy:3": 120000,
+            "LaserGunPower:5": 2.5,
+            "LaserGunRange:5": 20.0,
+            "MiningSpeed:5": 7.02
+          },
+          "StatsOriginal:10": {
+            "Attack:5": 2.5,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 660,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 4,
+            "LaserGunEnergy:3": 120000,
+            "LaserGunPower:5": 2.5,
+            "LaserGunRange:5": 20.0,
+            "MiningSpeed:5": 7.02
+          },
+          "TinkerData:10": {
+            "Materials:9": {
+              "0:8": "manyullyn",
+              "1:8": "manyullyn",
+              "2:8": "prismarine",
+              "3:8": "manyullyn"
+            },
+            "Modifiers:9": {
+              "0:8": "toolleveling"
+            }
+          },
+          "Traits:9": {
+            "0:8": "coldblooded",
+            "1:8": "insatiable",
+            "2:8": "aquadynamic",
+            "3:8": "toolleveling"
+          }
+        }
+      },
+      "name:8": "All of the Tinkering"
+    }
+  },
+  "questID:3": 1036,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

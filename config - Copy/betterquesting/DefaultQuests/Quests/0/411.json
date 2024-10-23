@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    292
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A large part of what constitutes the power and cohesiveness of civilizations as vast as the Twilight Horde lies in Fractallites.\nDominion over aspects of the laws of the universe and consciousness, it seems, is the main requirement for a civilization to expand outside their own galaxy, and Fractallites provide that to a great extent.\nThe Shyre Empire does this through the powers of the Ancients of the Cavern, who become deities for the worlds the Empire targets, blessing and punishing based on their rule.\nEven I am subject to this. Powerful surges, or derision, come every night.\nThis power is quite vast, and I am unsure I can fully tackle it, but I think I can cause some damage to these undesired Ancients.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:ancient_cavern_realmstone"
+      },
+      "name:8": "Ancient Cavern Realmstone"
+    }
+  },
+  "questID:3": 411,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:ancient_cavern_realmstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

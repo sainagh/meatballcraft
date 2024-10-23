@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oRedstone tunnels work like tunnels, but for redstone signals.\n\nPlace one on a wall on the inside of a compact machine to link it to the outside.\n\nRight click a tunnel to set what side of the outside machine you want to interact with.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "compactmachines3:redstonetunneltool"
+      },
+      "name:8": "Redstone Tunnel"
+    }
+  },
+  "questID:3": 1251,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "compactmachines3:redstonetunneltool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

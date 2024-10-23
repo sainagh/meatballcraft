@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    2203
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFor trees, a sapling works the same as bee princesses, and pollen works the same as bee drones.\n\nPollen and saplings of different types can be bred together to produce new species. This can be done in the mutatron!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gendustry:mutatron_advanced"
+      },
+      "name:8": "Tree Breeding"
+    }
+  },
+  "questID:3": 2204,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gendustry:mutatron_advanced"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

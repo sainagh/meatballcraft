@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    201127
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Head\nDurability: 380\nMining Level: Diamond\nMining Speed: 6\nAttack: 4.5\nDevil\u0027s Strength\nCrude II\n\nHandle\nModifier: 0.8\nDurability: 0\nDevil\u0027s Strength\nCrude II\n\nExtra\nDurability: 50\nDevil\u0027s Strength\nCrude II\n\nBows\nDrawspeed: 5\nRange Multiplier: 0.4\nBonus Damage: -1\nDevil\u0027s Strength\nCrude II",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:shard",
+        "tag:10": {
+          "Material:8": "blackquartz_plustic"
+        }
+      },
+      "name:8": "Black Quartz"
+    }
+  },
+  "questID:3": 201166,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:shard",
+          "tag:10": {
+            "Material:8": "blackquartz_plustic"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
