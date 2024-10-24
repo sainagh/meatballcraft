@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemCondition;
 
 
-<contenttweaker:alien_material_manual>.addTooltip(format.red("世界难度变高了一些……."));
+<contenttweaker:alien_material_manual>.addTooltip(format.red("世界难度变高了一些……"));
 
 <contenttweaker:primordial_star>.addTooltip(format.red("Texture by Zuckerburger, thanks!"));
 
@@ -9,17 +9,17 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:lore_of_the_meatball_man>.addTooltip(format.red("Texture by Zuckerburger, thanks!"));
 
-<contenttweaker:controller_manual>.addTooltip(format.red("世界难度变高了一些……."));
+<contenttweaker:controller_manual>.addTooltip(format.red("世界难度变高了一些……"));
 
-<contenttweaker:bloodmaster_tome>.addTooltip(format.red("世界难度变高了一些……."));
+<contenttweaker:bloodmaster_tome>.addTooltip(format.red("世界难度变高了一些……"));
 
-<contenttweaker:singularity_master>.addTooltip(format.red("世界难度变高了一些……."));
+<contenttweaker:singularity_master>.addTooltip(format.red("世界难度变高了一些……"));
 
-<contenttweaker:draconic_key>.addTooltip(format.red("世界难度变高了一些……."));
+<contenttweaker:draconic_key>.addTooltip(format.red("世界难度变高了一些……"));
 
-<contenttweaker:minor_vethea_binding>.addTooltip(format.red("世界难度变高了一些……."));
+<contenttweaker:minor_vethea_binding>.addTooltip(format.red("世界难度变高了一些……"));
 
-<contenttweaker:ancient_elven_knowledge>.addTooltip(format.red("世界难度变高了一些……."));
+<contenttweaker:ancient_elven_knowledge>.addTooltip(format.red("世界难度变高了一些……"));
 
 <modularmachinery:blockcontroller>.addTooltip(format.red("Requires the Controller Manual to become craftable"));
 <modularmachinery:blockcontroller>.addTooltip(format.red("Cannot be crafted using AE2, use a crafter instead (RECURSIVE RECIPE ONLY)"));
@@ -2298,30 +2298,30 @@ import crafttweaker.item.IItemCondition;
 
 <draconicevolution:reactor_core>.addTooltip(format.red("Place around the naquadah catalyst for the ME Entropic Sythesizer"));
 
-<ae2stuff:visualiser>.addTooltip(format.red("antrobot thinks this one is the best!"));
-<aenetvistool:net_visualizer>.addTooltip(format.red("StaffiX and ChaosStrikez think this one is the best!"));
+<ae2stuff:visualiser>.addTooltip(format.red("antrobot觉得这个最好！"));
+<aenetvistool:net_visualizer>.addTooltip(format.red("StaffiX和ChaosStrikez觉得这个最好！"));
 
 <erebus:war_hammer>.addTooltip(format.red("可施加超限附魔"));
 
-<erebus:materials:0>.addTooltip(format.red("Dropped by beetles and antlions in the erebus"));
+<erebus:materials:0>.addTooltip(format.red("混沌之地的甲虫和蚁狮掉落"));
 
-<enderio:block_powered_spawner>.addTooltip(format.red("Officially endorsed by Quantum Chromodynamic Charge"));
+<enderio:block_powered_spawner>.addTooltip(format.red("Quantum Chromodynamic Charge官方认证"));
 
-<projectex:energy_link>.addTooltip(format.red("This takes EMC from collectors, and adds it to your own network!"));
+<projectex:energy_link>.addTooltip(format.red("从收集器中获取EMC，将其输入玩家网络！"));
 
-<projectex:personal_link>.addTooltip(format.red("This takes EMC from your network, and infinitely makes an item!"));
-<projectex:refined_link>.addTooltip(format.red("This takes EMC from your network, and infinitely makes 9 items!"));
-<projectex:compressed_refined_link>.addTooltip(format.red("This takes EMC from your network, and infinitely makes 54 items!"));
+<projectex:personal_link>.addTooltip(format.red("从玩家网络中抽取EMC，无限制造单个物品！"));
+<projectex:refined_link>.addTooltip(format.red("从玩家网络中抽取EMC，无限制造最多9种物品！"));
+<projectex:compressed_refined_link>.addTooltip(format.red("从玩家网络中抽取EMC，无限制造最多54种物品！"));
 
-<thaumadditions:vis_seeds>.withTag({Aspect: "mythus"}).addTooltip(format.red("This seed only works in the phytogenic insolator!"));
+<thaumadditions:vis_seeds>.withTag({Aspect: "mythus"}).addTooltip(format.red("仅适用与有机灌注器！"));
 
-<gendustry:honey_comb:13341>.addTooltip(format.red("Obtained from the fluix callstone"));
+<gendustry:honey_comb:13341>.addTooltip(format.red("通过福鲁伊克斯召唤石获得"));
 
-<ore:ingotIridium>.addTooltip(format.red("Thanks to Tom for working on the resource JEI info boxes!"));
+<ore:ingotIridium>.addTooltip(format.red("感谢Tom为JEI信息框所做的工作！"));
 
-<ore:ingotTitanium>.addTooltip(format.red("Thanks to Bluecat for compiling all ores Y levels!"));
+<ore:ingotTitanium>.addTooltip(format.red("感谢Bluecat整理了所有矿物的生成高度！"));
 
-<astralsorcery:blockaltar:0>.addTooltip(format.red("Right click with a resonating wand to craft using this and other altars!"));
+<astralsorcery:blockaltar:0>.addTooltip(format.red("使用共振星杖右击以制作祭坛，后续祭坛升级同理！"));
 
 <ore:fuelTBU>.addTooltip(format.red("推荐被动生产所有核电工艺的裂变燃料！"));
 <ore:fuelLEU235>.addTooltip(format.red("推荐被动生产所有核电工艺的裂变燃料！"));
