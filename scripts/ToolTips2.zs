@@ -104,7 +104,7 @@ import crafttweaker.item.IItemCondition;
 
 <minecraft:totem_of_undying>.addTooltip(format.red("Evoker spawn eggs are craftable"));
 
-<thaumcraft:curio:6>.addTooltip(format.red("Crimson Portals can be found in the overworld"));
+<thaumcraft:curio:6>.addTooltip(format.red("Crimson Portals can be 发现于主世界"));
 
 <thermalfoundation:storage:8>.addTooltip(format.red("Found in the Elemental Chamber in the Nether"));
 
@@ -182,7 +182,7 @@ import crafttweaker.item.IItemCondition;
 <abyssalcraft:shadowshard>.addTooltip(format.red("You should use a mob duplicator and crusher to farm it"));
 <abyssalcraft:shadowgem>.addTooltip(format.red("You should use a mob duplicator and crusher to farm it"));
 
-<abyssalcraft:shoggothflesh:0>.addTooltip(format.red("Dropped by Shoggoths in their lair found in the Overworld"));
+<abyssalcraft:shoggothflesh:0>.addTooltip(format.red("Dropped by Shoggoths in their lair 发现于主世界"));
 
 <contenttweaker:conductive_powder>.addTooltip(format.red("Sludge is produced by the Plant Gatherer from Industrial Foregoing"));
 
@@ -880,7 +880,7 @@ import crafttweaker.item.IItemCondition;
 
 <appliedenergistics2:material:12>.addTooltip(format.red("Grow its respective seed in a pool of water surrounded by crystal growth accelerators (slow), or in a crystal growth chamber (fast)"));
 
-<contenttweaker:shadow_steel>.addTooltip(format.red("Blast bricks and coke can be found in the overworld"));
+<contenttweaker:shadow_steel>.addTooltip(format.red("Blast bricks and coke can be 发现于主世界"));
 
 <astralsorcery:blockchalice>.addTooltip(format.red("Needs to be in line of sight and within 2 blocks of the infuser block"));
 
@@ -1175,17 +1175,17 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:titanium_iridium_coil>.addTooltip(format.red("Rat loves gregtech"));
 
-<bewitchment:cypress_sapling>.addTooltip(format.red("Found in the overworld"));
+<bewitchment:cypress_sapling>.addTooltip(format.red("发现于主世界"));
 
-<bewitchment:elder_sapling>.addTooltip(format.red("Found in the overworld"));
+<bewitchment:elder_sapling>.addTooltip(format.red("发现于主世界"));
 
-<bewitchment:juniper_sapling>.addTooltip(format.red("Found in the overworld"));
+<bewitchment:juniper_sapling>.addTooltip(format.red("发现于主世界"));
 
 <bewitchment:dragons_blood_sapling>.addTooltip(format.red("Found as loot"));
 
 <aoa3:observing_eye>.addTooltip(format.red("Place one lunar orb  and one moonlight orb on the pads at the lunar creation table structure, and right click"));
 
-<aoa3:ancient_rock>.addTooltip(format.red("Can be found in the Overworld"));
+<aoa3:ancient_rock>.addTooltip(format.red("可发现于主世界"));
 
 <aoa3:lotto_banner>.addTooltip(format.red("Lottomen drop tokens, and ultimate farms are a thing..."));
 
@@ -1195,28 +1195,28 @@ import crafttweaker.item.IItemCondition;
 
 <techreborn:distillation_tower>.addTooltip(format.red("17 standard machine casing, 17 advanced, middle hollow"));
 
-<astralsorcery:itemrockcrystalsimple>.addTooltip(format.red("Found in the overworld, use a resonating wand to find the ore"));
+<astralsorcery:itemrockcrystalsimple>.addTooltip(format.red("发现于主世界, use a resonating wand to find the ore"));
 
-<abyssalcraft:abyingot>.addTooltip(format.red("Found in the overworld, in darklands biomes, and in dragon dens"));
+<abyssalcraft:abyingot>.addTooltip(format.red("发现于主世界, in darklands biomes, and in dragon dens"));
 
-<agricraft:crop_sticks>.addTooltip(format.red("Plants can be harvested with a plant gatherer without breaking"));
+<agricraft:crop_sticks>.addTooltip(format.red("收割机可在不破坏作物架的情况下收获产物"));
 
-<contenttweaker:dreadful_bone>.addTooltip(format.red("Don't worry it's ketchup -reginull"));
+<contenttweaker:dreadful_bone>.addTooltip(format.red("别担心，只是番茄酱 -reginull"));
 
-<advancedrocketry:rocketbuilder>.addTooltip(format.red("May cause lag, better to break it after using it"));
+<advancedrocketry:rocketbuilder>.addTooltip(format.red("可能会造成卡顿，使用后最好破坏掉"));
 
-<techreborn:fusion_control_computer>.addTooltip(format.red("If the recipe has a negative RF sign, it will use it instead of producing it, use the smallest size for those"));
+<techreborn:fusion_control_computer>.addTooltip(format.red("如果配方显示的FE/t为负数，则说明该配方会消耗能量，对于这些配方使用最小尺寸的结构"));
 
-<forestry:bee_drone_ge>.addTooltip(format.red("Read the JEI info box for explanation on bees"));
+<forestry:bee_drone_ge>.addTooltip(format.red("阅读JEI信息框来查看蜜蜂说明"));
 
-<forestry:bee_princess_ge>.addTooltip(format.red("Read the JEI info box for explanation on bees"));
+<forestry:bee_princess_ge>.addTooltip(format.red("阅读JEI信息框来查看蜜蜂说明"));
 
-<contenttweaker:mossy_grave_dust>.addTooltip(format.red("Right click for your First Boss Fight!"));
+<contenttweaker:mossy_grave_dust>.addTooltip(format.red("右击来进行第一场Boss站！"));
 
-<contenttweaker:master_spell_caeles>.addTooltip(format.red("Sandman366 can split stacks!"));
+<contenttweaker:master_spell_caeles>.addTooltip(format.red("Sandman366能拆分堆栈！"));
 
-<contenttweaker:master_spell_perditio>.addTooltip(format.red("Before the fix, erohw exploited it first!"));
-<contenttweaker:master_spell_perditio>.addTooltip(format.red("Thanks to Brownster for adding cool features!"));
+<contenttweaker:master_spell_perditio>.addTooltip(format.red("在修复之前，erohw是第一个利用它的！"));
+<contenttweaker:master_spell_perditio>.addTooltip(format.red("感谢Brownster添加的炫酷特性！"));
 
 <divinerpg:divine_shickaxe>.addTooltip(format.red("可施加超限附魔"));
 
@@ -1250,25 +1250,25 @@ import crafttweaker.item.IItemCondition;
 <divinerpg:black_ender_sword>.addTooltip(format.red("可施加超限附魔"));
 
 <arcane_essentials:master_lightning_sword>.addTooltip(format.red("可施加超限附魔"));
-<arcane_essentials:master_lightning_sword>.addTooltip(format.red("You have to used a freshly-upgraded master wand to craft this"));
+<arcane_essentials:master_lightning_sword>.addTooltip(format.red("需要使用崭新升级的大师法杖制作该物品"));
 
 <arcane_essentials:master_sorcery_sword>.addTooltip(format.red("可施加超限附魔"));
-<arcane_essentials:master_sorcery_sword>.addTooltip(format.red("You have to used a freshly-upgraded master wand to craft this"));
+<arcane_essentials:master_sorcery_sword>.addTooltip(format.red("需要使用崭新升级的大师法杖制作该物品"));
 
 <arcane_essentials:master_nature_sword>.addTooltip(format.red("可施加超限附魔"));
-<arcane_essentials:master_nature_sword>.addTooltip(format.red("You have to used a freshly-upgraded master wand to craft this"));
+<arcane_essentials:master_nature_sword>.addTooltip(format.red("需要使用崭新升级的大师法杖制作该物品"));
 
 <arcane_essentials:master_fire_sword>.addTooltip(format.red("可施加超限附魔"));
-<arcane_essentials:master_fire_sword>.addTooltip(format.red("You have to used a freshly-upgraded master wand to craft this"));
+<arcane_essentials:master_fire_sword>.addTooltip(format.red("需要使用崭新升级的大师法杖制作该物品"));
 
 <arcane_essentials:master_ice_sword>.addTooltip(format.red("可施加超限附魔"));
-<arcane_essentials:master_ice_sword>.addTooltip(format.red("You have to used a freshly-upgraded master wand to craft this"));
+<arcane_essentials:master_ice_sword>.addTooltip(format.red("需要使用崭新升级的大师法杖制作该物品"));
 
 <arcane_essentials:master_healing_sword>.addTooltip(format.red("可施加超限附魔"));
-<arcane_essentials:master_healing_sword>.addTooltip(format.red("You have to used a freshly-upgraded master wand to craft this"));
+<arcane_essentials:master_healing_sword>.addTooltip(format.red("需要使用崭新升级的大师法杖制作该物品"));
 
 <arcane_essentials:master_necromancy_sword>.addTooltip(format.red("可施加超限附魔"));
-<arcane_essentials:master_necromancy_sword>.addTooltip(format.red("You have to used a freshly-upgraded master wand to craft this"));
+<arcane_essentials:master_necromancy_sword>.addTooltip(format.red("需要使用崭新升级的大师法杖制作该物品"));
 
 <abyssalcraft:soulreaper>.addTooltip(format.red("可施加超限附魔"));
 
@@ -1291,7 +1291,7 @@ import crafttweaker.item.IItemCondition;
 <aether_legacy:ice_pendant>.addTooltip(format.red("可施加超限附魔"));
 
 <astralsorcery:itemcape>.addTooltip(format.red("可施加超限附魔"));
-<astralsorcery:itemcape>.addTooltip(format.red("The recipe will not show up in JEI, check uses for the Neromantic Prime"));
+<astralsorcery:itemcape>.addTooltip(format.red("超限附魔配方不会显示在JEI中，请查看纳耳狂曼引口的用途"));
 
 <redstonearsenal:tool.bow_flux>.addTooltip(format.red("可施加超限附魔"));
 
@@ -1341,23 +1341,23 @@ import crafttweaker.item.IItemCondition;
 
 <extrautils2:lawsword>.addTooltip(format.red("可施加超限附魔"));
 
-<appliedenergistics2:part:340>.addTooltip(format.red("Use U (uses) and R (recipes) to select items from JEI"));
+<appliedenergistics2:part:340>.addTooltip(format.red("使用U键和R键来从JEI中选择物品"));
 
-<industrialforegoing:crop_sower>.addTooltip(format.red("Better to make farms away from your base"));
+<industrialforegoing:crop_sower>.addTooltip(format.red("最好把农场建得离基地远一些"));
 
-<industrialforegoing:crop_recolector>.addTooltip(format.red("Better to make farms away from your base"));
+<industrialforegoing:crop_recolector>.addTooltip(format.red("最好把农场建得离基地远一些"));
 
-<industrialforegoing:plant_interactor>.addTooltip(format.red("Better to make farms away from your base"));
+<industrialforegoing:plant_interactor>.addTooltip(format.red("最好把农场建得离基地远一些"));
 
-<enderio:block_farm_station>.addTooltip(format.red("Better to make farms away from your base"));
+<enderio:block_farm_station>.addTooltip(format.red("最好把农场建得离基地远一些"));
 
-<aoa3:stone_bowl>.addTooltip(format.red("Used to harvest pixons"));
+<aoa3:stone_bowl>.addTooltip(format.red("用于收获光"));
 
-<aoa3:diamond_bowl>.addTooltip(format.red("Used to harvest pixons"));
+<aoa3:diamond_bowl>.addTooltip(format.red("用于收获光"));
 
-<wrcbe:material:1>.addTooltip(format.red("Do not use to harvest pixons"));
+<wrcbe:material:1>.addTooltip(format.red("无法用于收获光"));
 
-<industrialforegoing:enchantment_aplicator>.addTooltip(format.red("Can apply enchantments over the anvil limit"));
+<industrialforegoing:enchantment_aplicator>.addTooltip(format.red("可无视原版铁砧限制附魔"));
 
 <ae2fc:fluid_packet_decoder>.addTooltip(format.red("You need one fluid discretizer in your AE to make fluid recipes"));
 
