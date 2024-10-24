@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    20344
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCheck uses for these items for the ritual preview.\n\nThis will create purifying earth!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:purifying_earth"
+      },
+      "name:8": "Rite of Purification (Useful)"
+    }
+  },
+  "questID:3": 1148,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:dirt"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:white_sage"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:salt"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:purifying_earth"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    20099
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oImperfect rituals are structures that consist of an imperfect ritual stone with a block on top.\n\nDepending on the block, they do different things when right clicked with an empty hand.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "bloodmagic:ritual_controller"
+      },
+      "name:8": "Imperfect Ritual Stone"
+    }
+  },
+  "questID:3": 20100,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "bloodmagic:ritual_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

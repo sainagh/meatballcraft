@@ -1,0 +1,85 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    942,
+    998
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": " ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:bayonette_rifle",
+        "tag:10": {
+          "HideFlags:1": 2,
+          "RepairCost:3": 1,
+          "display:10": {
+            "Name:8": "Gun Devil Tribute"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:2": 70,
+              "lvl:2": 3
+            },
+            "1:10": {
+              "id:2": 53,
+              "lvl:2": 1
+            },
+            "2:10": {
+              "id:2": 59,
+              "lvl:2": 15
+            },
+            "3:10": {
+              "id:2": 58,
+              "lvl:2": 3
+            }
+          }
+        }
+      },
+      "name:8": "Gun Devil Tribute"
+    }
+  },
+  "questID:3": 994,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:bayonette_rifle",
+          "tag:10": {
+            "HideFlags:1": 2,
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oGun Devil Tribute§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 70,
+                "lvl:3": 3
+              },
+              "1:10": {
+                "id:3": 56,
+                "lvl:3": 1
+              },
+              "2:10": {
+                "id:3": 64,
+                "lvl:3": 15
+              },
+              "3:10": {
+                "id:3": 63,
+                "lvl:3": 3
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20534
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Let\u0027s distill something!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forestry:still"
+      },
+      "name:8": "Still"
+    }
+  },
+  "questID:3": 20589,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forestry:still"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

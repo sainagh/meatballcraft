@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    514
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Yup, these turbines can handle plasma, and quite well too!\nTime to go make a bunch of promethium!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 202,
+        "id:8": "contenttweaker:material_part"
+      },
+      "name:8": "High Atomic Number Fusion!"
+    }
+  },
+  "questID:3": 513,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "enderio:block_alloy_endergy"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 202,
+          "id:8": "contenttweaker:material_part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

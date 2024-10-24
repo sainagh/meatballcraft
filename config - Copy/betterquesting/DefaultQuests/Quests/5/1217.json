@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20490
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFrames are used to upgrade the apiary and alveary! The following quests list the best frames for each objective!\n\nYou should learn how to use the apiary before using frames!\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forestry:frame_untreated"
+      },
+      "name:8": "Frames (Advanced)"
+    }
+  },
+  "questID:3": 1217,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:stick"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    495
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This was a massive strategic blunder. What if the Shyre Empire now knows how to unleash laser checkens? What if they know of Taint? These are planet-destroying powers could now be used against my allies.\nThankfully, Terra is too precious to cover up with Taint, but what about the Bubbell Alliance? Can they hold their ground?\nThis could be very bad. Why? Why did I push so hard? This isn\u0027t like me! I used to be so methodical, so careful! Why?\nI am too curious, that\u0027s my problem, it makes me careless, it makes me greedy, gluttonous for more knowledge!\nThis knowledge, though, is admittedly very useful. At least now I can study the properties of Mystite, use it to shield myself from future attacks of this type, and maybe to learn a things or two from my enemies. Probably not from the Shyre Empire, as they are likely shielded the same way I am, but maybe the Twilight Horde is not protected.\nThis was a terrible blunder, there is no other way to say it, and it may cost my allies a lot, possibly everything, but if we make it through this, if, this may even the playing field.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:mysterium_garnet"
+      },
+      "name:8": "Mysterium Garnet"
+    }
+  },
+  "questID:3": 494,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:mysterium_garnet"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:mysterium_garnet"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:mysterium_wormhole"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_mysterium"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

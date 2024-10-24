@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    68
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse in the nether!\n\n§fFrom what I\u0027ve seen so far, the nether region of Terra has been fairly unstable for the last few years, that said, the King of Scorchers is quickly gaining power and influence.\nBut I am the one that\u0027s supposed to be gaining power and influence...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:infernal_flame"
+      },
+      "name:8": "A contender for the underworld"
+    }
+  },
+  "questID:3": 129,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:infernal_flame"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:divine_shards"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

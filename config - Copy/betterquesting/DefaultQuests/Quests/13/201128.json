@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    201127
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "These materials will need more exploration or a dive into magical mastery to obtain.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "Magical Materials (Chapter 2)"
+    }
+  },
+  "questID:3": 201128,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extendedcrafting:table_elite"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

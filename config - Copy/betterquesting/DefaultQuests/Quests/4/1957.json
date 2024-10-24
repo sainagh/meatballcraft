@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1955
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe RFTools redstone transmitter and receiver transfer redstone signal to each other if they have the same frequency.\n\nThey work like the Chicken Bones wireless gates, but they are not as configurable, and a bit more laggy.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:redstone_receiver_block"
+      },
+      "name:8": "RFT Wireless"
+    }
+  },
+  "questID:3": 1957,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:redstone_transmitter_block"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "rftools:redstone_receiver_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

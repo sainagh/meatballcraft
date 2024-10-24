@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    90357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis gate works like an AND gate, but it can also mantain one of the input signals.\n\nThe output is the side with the taller torch.\n\nThe strong input is the side with the shorter torch.\n\nThe top line connects the other two sides.\n\nThe top line can act as a redstone line, transmitting signals to the other side.\n\nIf both the strong input, and either side of the strong line are on, the output will be on.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 27,
+        "id:8": "projectred-integration:gate"
+      },
+      "name:8": "AND Cell"
+    }
+  },
+  "questID:3": 90386,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 27,
+          "id:8": "projectred-integration:gate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

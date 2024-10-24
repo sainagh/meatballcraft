@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    50275
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oIt\u0027s very slow.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "unholy_radioactive_mix"
+        }
+      },
+      "name:8": "Simplest One-Fits-All Salt Reactor"
+    }
+  },
+  "questID:3": 1985,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forge:bucketfilled",
+          "tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "whispering_starlight"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:simplest_hot_salt_reactor"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20202
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe Petal Apothecary needs water to work. It can be piped in using the everful urn or a mechanical user with evertide amulet.\n\nThe ingredients shown in JEI recipes are dropped into the apthecary.\n\nSeeds are dropped into the Apothecary after adding all ingredients to complete the recipe.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:altar"
+      },
+      "name:8": "Petal Apothecary"
+    }
+  },
+  "questID:3": 20154,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:altar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

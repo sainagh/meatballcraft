@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90087
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Holds max int millibuckets.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "industrialforegoing:black_hole_tank"
+      },
+      "name:8": "Black Hole Tank"
+    }
+  },
+  "questID:3": 90088,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:black_hole_tank"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

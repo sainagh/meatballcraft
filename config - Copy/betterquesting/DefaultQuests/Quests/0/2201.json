@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    2141
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:chaotic_poppet"
+      },
+      "name:8": "The Poppet"
+    }
+  },
+  "questID:3": 2201,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:draconian_prison_key"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:chaotic_summoner"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:chaotic_poppet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

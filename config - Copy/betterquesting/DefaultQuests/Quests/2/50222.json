@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    50223,
+    50217
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "More radioactive isotopes? Better uranium fuel!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "nuclearcraft:fuel_uranium"
+      },
+      "name:8": "HEU-233 Fuel"
+    }
+  },
+  "questID:3": 50222,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "nuclearcraft:fuel_uranium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

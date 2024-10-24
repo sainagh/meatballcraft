@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1033
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe armor forge works like the tool station, but for armor!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "conarm:armorforge",
+        "tag:10": {
+          "textureBlock:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "id:8": "avaritia:block_resource"
+          }
+        }
+      },
+      "name:8": "Making Armor"
+    }
+  },
+  "questID:3": 1031,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "conarm:armorforge",
+          "tag:10": {
+            "textureBlock:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "id:8": "minecraft:iron_block"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

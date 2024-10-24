@@ -3,7 +3,7 @@
 	x: 23.0d,
 	y: -4.5d,
 	text: [
-		"This is very nice, obsidian and the bedrock found on Terra allow for a material that allows for lossless energy transfer in the form of waves that can travel through very long distances."
+		"This is very nice, obsidian and the bedrock found on Terra allow for a material that allows for loseless energy transfer in the form of waves that can travel through very long distances."
 	],
 	dependencies: [
 		"d4a82bd8"

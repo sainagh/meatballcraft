@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1233
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oYou need a fluid discretizer (just one is enough) in your network to perform fluid crafting!\n\nIf a discretizer is present, fluids will show up as drop items in your crafting terminal.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2fc:fluid_discretizer"
+      },
+      "name:8": "ME Fluid Discretizer"
+    }
+  },
+  "questID:3": 1234,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:fluid_discretizer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

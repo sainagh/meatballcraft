@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    143
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "From now on, your attitude should be to automate (passive or autocraft) everything you see!\nA passive supply of the ingredients for fusion electromagnets, for example, would be most desirable at this point.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:dark_soul_machine_chassis"
+      },
+      "name:8": "*All-the-Things intensifies!"
+    }
+  },
+  "questID:3": 148,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

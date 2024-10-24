@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1764
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "These materials are mostly found in far dimensions",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "Exotic Materials (Chapter 4)"
+    }
+  },
+  "questID:3": 201137,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:realmstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:twilight_clock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

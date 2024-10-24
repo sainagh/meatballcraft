@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    50233,
+    50228
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:depleted_fuel_mixed_oxide"
+      },
+      "name:8": "Depleted MOX Fuels"
+    }
+  },
+  "questID:3": 2087,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:depleted_fuel_mixed_oxide"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "nuclearcraft:depleted_fuel_mixed_oxide"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:safe_fission_mox241_controller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:safe_fission_mox239_controller"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

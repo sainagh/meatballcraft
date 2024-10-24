@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    64
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oSome items have special recipes for powerful enchants. Search for \u0027super-enchanted\u0027 in JEI!\n\nThe enchantment applicator and extractor can be used to move high level enchants :)\n\n§7§oWith apologies to Sandman366\n\n§rMythic magic is powerful, very powerful, yet it seems my mind may be simply too \u0027weak\u0027 to comprehend this.\nDespite my inability to comprehend it, I feel extremely drawn to the remains from \u0027mythic creatures\u0027. \nThey are still permeated with the powers of this type of magic. \nTime to start experimenting with mythic remains. But i\u0027ll have to be careful, really careful, I don\u0027t know what could happen...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:divine_shickaxe"
+      },
+      "name:8": "Super Enchanting"
+    }
+  },
+  "questID:3": 86,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:slime_sword"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:epic_tool_tipper"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:divine_shickaxe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:enchantment_extractor"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:enchantment_aplicator"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

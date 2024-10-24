@@ -6,8 +6,8 @@
 	text: [
 		"Terra is a really weird planet, and for more that one reason.",
 		"Due to its size, it should definitely be a gas giant, yet, for some reason, it is solid, and it's atmosphere is mostly made out of light gases, making it breathable.",
-		"Although it has a moon, Luna, orbiting it at a fairly large distance, Terra is also surrounded by a multitude of island-like asteroids.",
-		"These asteroids, due to their proximity, lie within the planet's atmosphere, and act as sky islands where gravity is pretty much maintained.",
+		"Although it has a moon, Luna, orbiting it at a fairly large distance, Terra is also surrounded by a moltitude of island-like asteroids.",
+		"These asteroids, due to their proximity, lie within the planet's atmosphere, and act as sky islands where gravity is pretty much mantained.",
 		"In addition to this, many regions of the planet's interior are hollow, in the form of very large caves situated at about the same distance from the core."
 	],
 	dependencies: [

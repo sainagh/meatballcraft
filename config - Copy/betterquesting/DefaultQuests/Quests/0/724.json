@@ -1,0 +1,203 @@
+{
+  "preRequisites:11": [
+    718,
+    717,
+    715,
+    714,
+    713,
+    712,
+    711,
+    719
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": " So this is the true story of the bees. This galaxy, in its entirety is theirs. Not just planets, not mere star systems. The universe is theirs. Well, it used to.\nEver since the first bees started to become aware, their drive was one, and it was one of creation and life. From their home world, they would learn how to survive without oxygen, and, in spite of extreme cold or heat, they started expanding, bringing new life into the surrounding worlds. They seldom would seek to dominate the life they brought, they were simply there to help, to serve, to let life originate new life.\nBecause of this, they slowly but surely kept growing, and their colonies eventually were present on every single planet, asteroid, or comet, spreading the light of life.\nHow did they do it? Well, this was the secret held by the Bubbell Alliance, until I came along. What made it possible for bees to climb through the Kardashev scale is energy. Not lots of it, not a gargantuan amount of it. Infinite energy, freely originating from one bee, capable of powering an entire universe.\nDuring their mission to spread life, though, the bees met what we now call the Twilight Horde, and the Shyre Empire. The two were never allies, and would never be after that moment, but for once, after learning of the power of the bees, the two worked together, and exploited the good nature of bees to steal their power, and imprison the true queen of bees.\nSince then, bee civilization has had one mission, and one mission only; to help those in need, no matter who, but to never reveal their story to anyone ever again, until someone would pass their test.\nNeedless to say, I passed the test, I reassembled the spinel ring, and as the champion of bees, I will bring their queen back to them!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forestry:bee_drone_ge",
+        "tag:10": {
+          "Genome:10": {
+            "Chromosomes:9": {
+              "0:10": {
+                "Slot:1": 0,
+                "UID0:8": "careerbees.energy",
+                "UID1:8": "careerbees.energy"
+              },
+              "1:10": {
+                "Slot:1": 1,
+                "UID0:8": "forestry.speedSlow",
+                "UID1:8": "forestry.speedSlow"
+              },
+              "2:10": {
+                "Slot:1": 2,
+                "UID0:8": "forestry.lifespanLong",
+                "UID1:8": "forestry.lifespanLong"
+              },
+              "3:10": {
+                "Slot:1": 3,
+                "UID0:8": "forestry.fertilityNormal",
+                "UID1:8": "forestry.fertilityNormal"
+              },
+              "4:10": {
+                "Slot:1": 4,
+                "UID0:8": "forestry.toleranceNone",
+                "UID1:8": "forestry.toleranceNone"
+              },
+              "5:10": {
+                "Slot:1": 5,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "6:10": {
+                "Slot:1": 6,
+                "UID0:8": "forestry.toleranceNone",
+                "UID1:8": "forestry.toleranceNone"
+              },
+              "7:10": {
+                "Slot:1": 7,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "8:10": {
+                "Slot:1": 8,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "9:10": {
+                "Slot:1": 9,
+                "UID0:8": "forestry.flowersVanilla",
+                "UID1:8": "forestry.flowersVanilla"
+              },
+              "10:10": {
+                "Slot:1": 10,
+                "UID0:8": "forestry.floweringSlow",
+                "UID1:8": "forestry.floweringSlow"
+              },
+              "11:10": {
+                "Slot:1": 11,
+                "UID0:8": "forestry.territoryAverage",
+                "UID1:8": "forestry.territoryAverage"
+              },
+              "12:10": {
+                "Slot:1": 12,
+                "UID0:8": "careerbees.effect.rf",
+                "UID1:8": "careerbees.effect.rf"
+              }
+            }
+          },
+          "Health:3": 50,
+          "IsAnalyzed:1": 0,
+          "Mate:10": {
+            "Chromosomes:9": {
+              "0:10": {
+                "Slot:1": 0,
+                "UID0:8": "careerbees.energy",
+                "UID1:8": "careerbees.energy"
+              },
+              "1:10": {
+                "Slot:1": 1,
+                "UID0:8": "forestry.speedSlow",
+                "UID1:8": "forestry.speedSlow"
+              },
+              "2:10": {
+                "Slot:1": 2,
+                "UID0:8": "forestry.lifespanLong",
+                "UID1:8": "forestry.lifespanLong"
+              },
+              "3:10": {
+                "Slot:1": 3,
+                "UID0:8": "forestry.fertilityNormal",
+                "UID1:8": "forestry.fertilityNormal"
+              },
+              "4:10": {
+                "Slot:1": 4,
+                "UID0:8": "forestry.toleranceNone",
+                "UID1:8": "forestry.toleranceNone"
+              },
+              "5:10": {
+                "Slot:1": 5,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "6:10": {
+                "Slot:1": 6,
+                "UID0:8": "forestry.toleranceNone",
+                "UID1:8": "forestry.toleranceNone"
+              },
+              "7:10": {
+                "Slot:1": 7,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "8:10": {
+                "Slot:1": 8,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "9:10": {
+                "Slot:1": 9,
+                "UID0:8": "forestry.flowersVanilla",
+                "UID1:8": "forestry.flowersVanilla"
+              },
+              "10:10": {
+                "Slot:1": 10,
+                "UID0:8": "forestry.floweringSlow",
+                "UID1:8": "forestry.floweringSlow"
+              },
+              "11:10": {
+                "Slot:1": 11,
+                "UID0:8": "forestry.territoryAverage",
+                "UID1:8": "forestry.territoryAverage"
+              },
+              "12:10": {
+                "Slot:1": 12,
+                "UID0:8": "careerbees.effect.rf",
+                "UID1:8": "careerbees.effect.rf"
+              }
+            }
+          },
+          "MaxH:3": 50
+        }
+      },
+      "name:8": "The Queen of the Bees"
+    }
+  },
+  "questID:3": 724,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 100,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:spinel_ring"
+            },
+            "TrophyName:8": "Ice on my pinky",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:spinel_ring"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

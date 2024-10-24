@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1226
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWorks like the pattern terminal, but can encode recipes with fluids as well!\n\nYou should have both a fluid pattern terminal and a pattern terminal!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2fc:part_fluid_pattern_terminal"
+      },
+      "name:8": "ME Fluid Pattern Terminal"
+    }
+  },
+  "questID:3": 90183,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:part_fluid_pattern_terminal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

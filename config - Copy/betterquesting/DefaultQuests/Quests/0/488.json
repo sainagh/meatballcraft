@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    489
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "I do not think I am powerful enough to understand this magic. Just like the entropic powers of the dragons living in the outer sky islands of Terra, I can interact with them through objects that have been imbued with this power, but I cannot manipulate it directly. Just like the ancestor of man could wield fire if it came from outside sources such as lightning, I cannot directly harness this magic, I cannot tap into its source.\nRecursion, as I understand it now, seems to hide many more secrets still. The powers I decided to face are much stronger than me, and, most importantly, much more knowledgeable than me. \nThe good thing about being behind on my homework, though, is that I can catch up looking at those ahead of me!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:crystevia_garnet"
+      },
+      "name:8": "Crystevia Garnet"
+    }
+  },
+  "questID:3": 488,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:crystevia_garnet"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:crystevia_garnet"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:crystevia_wormhole"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

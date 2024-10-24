@@ -1,0 +1,17 @@
+{
+  "preRequisites:11": [
+    59
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "Naquadah Worlds"
+    }
+  },
+  "questID:3": 1386,
+  "tasks:9": {}
+}

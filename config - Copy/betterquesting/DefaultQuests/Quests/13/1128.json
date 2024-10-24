@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    1101
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "bloodmagic:soul_gem",
+        "tag:10": {
+          "souls:6": 4096.0
+        }
+      },
+      "name:8": "Mobs drop Will"
+    }
+  },
+  "questID:3": 1128,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "bloodmagic:soul_gem",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

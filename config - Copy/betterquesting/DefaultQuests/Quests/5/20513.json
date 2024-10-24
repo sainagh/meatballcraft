@@ -1,0 +1,128 @@
+{
+  "preRequisites:11": [
+    20421
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWhile there are other, more compact ways of farming plants and trees, large material-based farms can be used for more than trees, and they have really good yield.\n\nMultiblock farms can be programmed for a variety of purposes. The best use is to make peat, which is used in a lot of recipes later on.\n\nTo program a multiblock farm, you need a circuit, which is programmed using a soldering iron!\n\nThe higher the circuit tier, the more things at the same time can be farmed (up to 4).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forestry:ffarm",
+        "tag:10": {
+          "FarmBlock:3": 0
+        }
+      },
+      "name:8": "Farm Block"
+    }
+  },
+  "questID:3": 20513,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forestry:soldering_iron",
+          "tag:10": {
+            "Slots:10": {
+              "0:10": {
+                "Count:3": 1,
+                "Damage:2": 1,
+                "id:8": "forestry:chipsets",
+                "tag:10": {
+                  "T:2": 1
+                }
+              }
+            },
+            "UID:3": -251769419
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forestry:ffarm",
+          "tag:10": {
+            "FarmBlock:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "forestry:ffarm",
+          "tag:10": {
+            "FarmBlock:3": 0
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "forestry:ffarm",
+          "tag:10": {
+            "FarmBlock:3": 0
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "forestry:ffarm",
+          "tag:10": {
+            "FarmBlock:3": 0
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "forestry:ffarm",
+          "tag:10": {
+            "FarmBlock:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forestry:chipsets",
+          "tag:10": {
+            "T:2": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "forestry:chipsets",
+          "tag:10": {
+            "T:2": 1
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "forestry:chipsets",
+          "tag:10": {
+            "T:2": 2
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "forestry:chipsets",
+          "tag:10": {
+            "T:2": 3
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

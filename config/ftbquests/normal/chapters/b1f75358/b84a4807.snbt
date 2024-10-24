@@ -3,7 +3,7 @@
 	x: 3.0d,
 	y: -4.0d,
 	text: [
-		"It seems I can melt down this Depleted fuel, and use it with other fluids I've encountered to create some sort of Unidentified Material? Must Investigate Further."
+		"It seems I can melt down this Depleted fuel, and use it with other fluids i've encountered to create some sort of Unidentified Material? Must Investigate Further."
 	],
 	dependencies: [
 		"d6c40044"

@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    69
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oBetter to build a base in the void world. At this point, you may want to take a peek at the logistics and organization tab.\n\n§fThe power of fluix is great!\nCentralized networks can be created around a controller block, which can handle storage and transportation.\nIn addition to this, it seems like I can embed more complex logic into pipe systems, making it even easier to manage my belongings.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:controller"
+      },
+      "name:8": "Advanced Storage"
+    }
+  },
+  "questID:3": 70,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterp2p:advanced_memory_card",
+          "tag:10": {
+            "selectedIndex:3": -1
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aenetvistool:net_visualizer"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "chickenchunks:chunk_loader"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ae2_base_management"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

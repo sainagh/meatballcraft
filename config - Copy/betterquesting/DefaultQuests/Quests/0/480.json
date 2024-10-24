@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    479
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This newfound power of blood magic has allowed me to call forth a special type of meteor, one containing a recursive material I have not encountered before, one that, like the recursive powder left hidden by the Aesir, has magical interactions with multiple fields.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:cursed_sapphire"
+      },
+      "name:8": "Cursed Sapphire"
+    }
+  },
+  "questID:3": 480,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 100,
+            "TrophyColorRed:3": 100,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:cursed_sapphire"
+            },
+            "TrophyName:8": "Pretty Curses",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "neon"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:cursed_sapphire"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

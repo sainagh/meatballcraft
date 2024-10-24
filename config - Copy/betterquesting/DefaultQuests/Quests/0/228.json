@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    200
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDropped by crimson portals, or by the bosses spawned by the pedestals found in teh world.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:primordial_pearl"
+      },
+      "name:8": "Primordial Powers"
+    }
+  },
+  "questID:3": 228,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "thaumcraft:primordial_pearl"
+            },
+            "TrophyName:8": "Meeting the Crimson Cult",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:primordial_pearl"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1217
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUseful for long breeding chains!\n\n§7§oSoul combs can be farmed from multiple bees!\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "magicbees:frames.oblivion"
+      },
+      "name:8": "Bees are Instant!"
+    }
+  },
+  "questID:3": 1223,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "magicbees:frames.oblivion"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

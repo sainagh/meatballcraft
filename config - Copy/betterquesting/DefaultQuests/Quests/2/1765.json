@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    50177
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oIt\u0027s not fast, but it\u0027s convenient!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "randomthings:spectrecoil_number"
+      },
+      "name:8": "Numbered Spectre Coil (Great)"
+    }
+  },
+  "questID:3": 1765,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "randomthings:spectrecoil_number"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

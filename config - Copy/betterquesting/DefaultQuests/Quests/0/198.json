@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    114
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis is the start of Bewitchment, see more in §cMagical Mastery§7§o.\n\n§fSome testificates, I found, also practice magic. Their religion seems to be based around some sort of demonic pantheon, and by using herbs and minerals, the powers of these beings is brought into this world.\nTime for me to start experimenting with Witchery.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:scorned_brick_witches_altar"
+      },
+      "name:8": "Sons of Witches"
+    }
+  },
+  "questID:3": 198,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:pentacle"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "bewitchmentAltar",
+          "id:8": "bewitchment:stone_witches_altar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

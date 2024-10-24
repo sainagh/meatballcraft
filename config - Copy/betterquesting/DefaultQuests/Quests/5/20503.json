@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20418
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe alchemical catalyst is a valuable EMC item. It can be farmed using a botanic condenser, or with the EMBee!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:botanic_alchemic_catalyst"
+      },
+      "name:8": "Botanic-Alchemic Catalyst"
+    }
+  },
+  "questID:3": 20503,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:botanic_alchemic_catalyst"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

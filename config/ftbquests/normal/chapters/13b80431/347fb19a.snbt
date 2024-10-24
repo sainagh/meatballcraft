@@ -6,7 +6,7 @@
 	description: "Light up a rectangle of obsidian",
 	text: [
 		"The first layer of caves located underneath Terra's surface is called the Nether by its inhabitants.",
-		"It is full of liquid magma, yet the strange properties of its rocks and vegetation, which mostly feeds on sulfur and other inorganic compounds, make these caves breathable, and not particularly hot."
+		"It is full of liquid magma, yet the strange properties of its rocks and vegetation, which mostly feeds on sulfus and other inorganic compounds, make these caves breathable, and not particularly hot."
 	],
 	dependencies: [
 		"5d48a82a"

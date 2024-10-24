@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20690
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Tier 1, pretty vanilla.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:crafting_injector"
+      },
+      "name:8": "Basic Fusion Crafting Injector"
+    }
+  },
+  "questID:3": 20697,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:crafting_injector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

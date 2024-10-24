@@ -2,7 +2,7 @@
 	x: 1.5d,
 	y: -1.0d,
 	text: [
-		"Once again, I have received new Isotopes. Time to experiment for some new fuel"
+		"Once again, I have recieved new Isotopes. Time to experiment for some new fuel"
 	],
 	dependencies: [
 		"1ad8e351"

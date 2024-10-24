@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    648991311
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:entropic_channeling_fabrial"
+      },
+      "name:8": "Trials of the Arbiter"
+    }
+  },
+  "questID:3": 1343888287,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:entropic_channeling_stone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:entropic_channeling_fabrial"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:soul_of_entropy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

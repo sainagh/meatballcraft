@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    272
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Bees of Rhenia, as the apt strategists they are, were willing to reveal, after some trials and tribulations, one of the more common weapons used by successful recursive beings. Thorns enchants.\nWhile my base magical abilities allow for pretty poor forms of this enchant, past recursive beings in their records were able to scale this power to incredible heights.\nThankfully, the Testificates safekept their thorny secrets for posterity, and apparently so did the Bees of Rhenia.\nThe extent of thorn enchants, I was told, is much higher than what they can achieve. \nThat is ok, though. Hopefully by examining these enchants I can produce more powerful ones on my own.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:mark_of_the_samurai"
+      },
+      "name:8": "Thorny Sensei"
+    }
+  },
+  "questID:3": 508,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 100,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:sword_shield"
+            },
+            "TrophyName:8": "It attac, it protec",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:mark_of_the_samurai"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:sword_shield"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_marksamurai"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

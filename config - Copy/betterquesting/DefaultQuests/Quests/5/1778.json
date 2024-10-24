@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    1777
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "deepmoblearning:pristine_matter_tyrosaur"
+      },
+      "name:8": "Tyrosaur (Good)"
+    }
+  },
+  "questID:3": 1778,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "deepmoblearning:pristine_matter_tyrosaur"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:milk_chocolate"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "tconstruct:firewood"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "actuallyadditions:item_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

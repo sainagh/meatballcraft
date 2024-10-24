@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20424
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe following quests list all useful chickens in the pack.\n\nFor all of these, spawn eggs are craftable to be used in the mechanized coop.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "Notable Chickens"
+    }
+  },
+  "questID:3": 1512,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:egg"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

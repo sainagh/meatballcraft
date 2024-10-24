@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    20423
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oA builder, programmed with a quarry card, is very good at ruining landscapes!\n\nIn this configuartion, this machine will automatically excavate large regions, collecting all blocks it escavates.\n\nPlace an inventory on top of the builder to collect drops.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:builder"
+      },
+      "name:8": "Builder"
+    }
+  },
+  "questID:3": 20471,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "rftools:shape_card"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:builder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

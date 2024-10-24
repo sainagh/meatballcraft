@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    50275
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oHeat exchangers are used to cool down Hot NaK fluids for making closed loop coolant systems in salt reactors and for making high pressure steam, which is used in some recipes and for making power.\n\nSee the multiblock preview for a preview of the exterior design of a heat exchanger.\n\nTo function, a heat exchanger needs hot and cold fluid inputs. All that\u0027s needed for progression is to use water as the cold fluid and Hot NaK of any type as the hot fluids.\n\nInside a heat exchanger, fluids are transported using heat exchanger tubes (used for both hot and cold). These act like Fission Vessels or Coolant Heaters in salt reactors.\n\nTo properly function, hot and cold lines should run in parallel, touching each other, with fluid flow in opposite directions. Hot goes one way, cold goes the other way.\n\nRight click each face of a tube with an empty hand to change its input/output mode. Shift right click lets you change the opposite side.\n\nYou can place a new heat exchanger tube with a copy of the settings of a previous vessel by shift right clicking it with a vessel to place (this can bug out unfortunately).\n\nThe easiest way to build a heat exchanger is to configure a single layer of the interior setup first (starting from the middle block), followed by shift-clicking the next layers, and building the outside frame at the end.\n\nINPUT SPREAD is the original fluid output face, akin to COOLANT SPREAD in a Coolant Heater, so two lines can be joined by both entering a DEFAULT face of a vessel.\n\nTo make hot and cold lines interact, they should have DISABLED on touching faces.\n\nTo feed fluids from outside a heat exchanger, tubes have to be connected to vents, both on the input and output side. \n\nKeep in mind that hot will output on the side where cold will input and vice versa.\n\nTo connect a tube to the output vent, it should have PRODUCT OUT on the face touching the vent. Connected vessels will all push their product through that block.\n\nDepending on the designs you pick for salt reactors, you will want to recycle up to 5 different NaK fluids.\n\nDepending on the designs you pick for salt reactors, you may want to recycle multiple NaK fluids. There are a few multiblock previews that accomodate different numbers of NaK fluids. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:heat_exchanger_controller"
+      },
+      "name:8": "Heat Exchangers"
+    }
+  },
+  "questID:3": 1986,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:heat_exchanger_controller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:heat_exchanger_wall"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:heat_exchanger_glass"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:heat_exchanger_frame"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:heat_exchanger_vent"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

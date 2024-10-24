@@ -1,0 +1,77 @@
+{
+  "preRequisites:11": [
+    20490
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oIf you are still learning bees, make sure you understand the apiary before using the alveary!\n\nThe alveary is the upgraded version of the apiary, it\u0027s a multiblock where you can add upgrades and frame slots! \n\nA maxed alveary with automation is quite good for automations that require frames. For base bee automation an industrial apiary will be best.\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forestry:alveary.plain"
+      },
+      "name:8": "Alveary (Advanced)"
+    }
+  },
+  "questID:3": 1004,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 9,
+          "Damage:2": 1,
+          "id:8": "minecraft:wooden_slab"
+        },
+        "1:10": {
+          "Count:3": 27,
+          "id:8": "forestry:alveary.plain"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forestry:alveary.swarmer"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "forestry:alveary.fan"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "forestry:alveary.heater"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "forestry:alveary.hygro"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "forestry:alveary.stabiliser"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "forestry:alveary.sieve"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "careerbees:alveary_frame"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "extrabees:alveary"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "extrabees:alveary"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}
