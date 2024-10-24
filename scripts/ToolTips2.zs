@@ -1,7 +1,6 @@
 import crafttweaker.item.IItemCondition;
 
 
-
 <contenttweaker:alien_material_manual>.addTooltip(format.red("世界难度变高了一些……"));
 
 <contenttweaker:primordial_star>.addTooltip(format.red("纹理由Zuckerburger绘制，感谢！"));
