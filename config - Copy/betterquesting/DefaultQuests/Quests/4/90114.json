@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    90095
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oRouting cables and connectors are used to link routers to each other, if for some reason you need even more channels to interact between each other.\n\nRouters connected by routing cables and connectors will work the same way, but using the right side of the GUI as well.\n\nBoth local (left) and remote (right) channels can interact with each other, and be unified, as long as they have the same label in the router GUI.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "xnet:netcable",
+        "tag:10": {
+          "display:10": {
+            "LocName:8": "tile.xnet.netcable_routing.name"
+          }
+        }
+      },
+      "name:8": "Routing Network Cable"
+    }
+  },
+  "questID:3": 90114,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "xnet:netcable",
+          "tag:10": {
+            "display:10": {
+              "LocName:8": "tile.xnet.netcable_routing.name"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "xnet:connector",
+          "tag:10": {
+            "display:10": {
+              "LocName:8": "tile.xnet.connector_routing.name"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

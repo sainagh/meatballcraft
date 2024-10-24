@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    307
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:white_hole"
+      },
+      "name:8": "Negative Exotic Body"
+    }
+  },
+  "questID:3": 376,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:white_hole"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:collapser_casing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:collapser_conduit"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:gravity_inverter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

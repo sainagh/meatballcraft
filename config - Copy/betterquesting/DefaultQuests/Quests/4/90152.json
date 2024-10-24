@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1233
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe fluid interface lets you encode processing recipes with fluid inputs and outputs!\n\nPlace a pattern into the interface to add the recipe to they network.\n\nWith some machines, you may need to use conduits or other pipes to extract and insert!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:fluid_interface"
+      },
+      "name:8": "ME Fluid Interface"
+    }
+  },
+  "questID:3": 90152,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:fluid_interface"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

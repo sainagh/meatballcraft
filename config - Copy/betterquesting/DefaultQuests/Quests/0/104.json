@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    68
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse the item to spawn a boss.\n\n§fAnimals are animals, no matter how powerful.\nThe primary instinct of life is to spread, but what if this puts an entire planet under control?! Such is the power of some of these creatures...\nThey seem to be organized in some way, and the Testificates call them the Twilight Horde.\nIt seems like the Ancient Entity is powerful amongst them, if I eliminate it, some of its weaker followers could give up...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:mysterious_clock"
+      },
+      "name:8": "The Twilight Horde"
+    }
+  },
+  "questID:3": 104,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:ring_condensing"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:mysterious_clock"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:divine_shards"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

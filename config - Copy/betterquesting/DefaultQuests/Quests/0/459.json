@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    278
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "It has become evident now that not all Recursion is created equal. The difference abilities and capabilities between both recursive objects and beings is way too large for one single definition to be enough.\nIn relativity, the concept of singularity is used to describe density and gravity that is too strong to be lumped in with the rest of the universe; being very dense is one thing, being infinitely dense is another; one is quantifiable, one is even hard to comprehend to begin with.\nThat\u0027s how I feel about the manifestation of Recursion I have encountered. If a Wither is a planet, being dragged around by most other astral bodies, yet still capable of carrying moons, and if the Ender Chicken is a star, capable of a larger reach, but evenly matched with many other things around it, the Meatball Man is a quasar, a massive black hole capable of holding together an entire galaxy. Using the same mindset to describe both feels a bit reductive, especially of these are the enemies of my war.\nStill there is similarities; at a large distance, both a star and a black hole have near-identical-looking gravitational fields, and one is created from the collapse of the other. To have a black hole, you first need to have a star, and black holes generally start small before growing.\nThankfully, I was able to get my hand on a smaller, more understandable, black hole of Recursion, another star of the Twilight Horde.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:wildwood_refined_gem"
+      },
+      "name:8": "Wildwood Refined Gem"
+    }
+  },
+  "questID:3": 459,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 100,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:wildwood_refined_gem"
+            },
+            "TrophyName:8": "Tier 2 Mythic Sheller",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "neon"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:wildwood_refined_gem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

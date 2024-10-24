@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    77
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "I may have just stumbled into a tale as old as the universe itself. Elysium and Tartaros, Order and Chaos, Apollo and Dionysus...\nA tale of taking, and a tale of giving...\nThe tale of the Lord of Gluttony, and the Master of Discipline. A struggle that can never end, as one will always require the other.\nWhat is the purpose of giving, if there is nobody there to take?\nSuch is the balance of the universe, it seems, and yet, this does not stop these two forces from wanting to win over the other.\nThis infortunately, would mean misery for the people of Terra.\nThe one who orders, the one that upholds morality and gives dignity, the Arbiter, came to Terra, and educated the Testificates on the incredible power of the Dimensional Shards that so abundantly appear in the Planet\u0027s Depths, and taught them the wonders of magic and Recursion.\nBut, one day, he who craves, he who desires, the Meatball Man, avatar of gluttony, and lord of the Undead, came to Terra to face his eternal foe.\nWhat followed was an age of fear and conflict. Many became aware of the treasure hidden within Terra, and nothing would ever be the same for the Testificates.\nThe first incursions were pacific, but violence and war quickly ensued, and increasingly more powerful factions started to desire a share of the treasure.\nThe Arbiter, as an act of atonement from bringing in such ruin, offered to fight for Terra, and faced off the Meatball Man.\nWell, I saw the Meatball Man, I faced him, but I have yet to see this Arbiter? What happened?\nAnd what the hell can you do with Dimensional Shards?\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:fluix_historian_callstone"
+      },
+      "name:8": "The Fluix Historians"
+    }
+  },
+  "questID:3": 2170,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "rftools:dimensional_shard"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:fluix_historian_callstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

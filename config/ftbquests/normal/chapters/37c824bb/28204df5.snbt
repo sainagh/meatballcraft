@@ -1,7 +1,7 @@
 {
 	x: 32.0d,
 	y: -7.5d,
-	description: "Lord Vatticus will trade the wizard book, right click it on the Phoenix Altar",
+	description: "Lord vatticus will trade the wizard book, right click it on the Phoenix Altar",
 	dependencies: [
 		"dd400df7"
 	],

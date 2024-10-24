@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1372
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:dynatos_catalyst"
+      },
+      "name:8": "Fractallite Machinery"
+    }
+  },
+  "questID:3": 1381,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ichorium_catalyst"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:darkstar_catalyst"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:matrix_plasma_fusor"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:hihi_irokane_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

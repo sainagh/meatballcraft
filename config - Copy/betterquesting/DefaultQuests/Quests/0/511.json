@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    272
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The atmosphere of Rhenia is near inexistent, making it a target for many resource-rich asteroids, many of which carry near-pure rhenium.\nI did not even know so much of this element could exist in one place. It can definitely be used for more interesting purposes!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:jeweled_runium"
+      },
+      "name:8": "Material Science Improvements"
+    }
+  },
+  "questID:3": 511,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 77,
+          "id:8": "contenttweaker:material_part"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:jeweled_runium"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 69,
+          "id:8": "contenttweaker:material_part"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 77,
+          "OreDict:8": "dustRhenium",
+          "id:8": "contenttweaker:material_part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

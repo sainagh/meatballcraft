@@ -1,0 +1,66 @@
+{
+  "preRequisites:11": [
+    50148
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A large power producing beast of a multiblock, \nTakes Biodiesel or other types of combustible fuels.\nHas a high output but a high fuel usage, so think big when making a farm for this.\nProduces around 4096 Rf/t so pretty beefy early game \n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "immersiveengineering:metal_decoration0"
+      },
+      "name:8": "Diesel Generator (Great)"
+    }
+  },
+  "questID:3": 50163,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 1,
+          "id:8": "immersiveengineering:metal_decoration1"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 6,
+          "id:8": "immersiveengineering:metal_device1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "immersiveengineering:metal_decoration0"
+        },
+        "3:10": {
+          "Count:3": 13,
+          "Damage:2": 5,
+          "id:8": "immersiveengineering:metal_decoration0"
+        },
+        "4:10": {
+          "Count:3": 4,
+          "Damage:2": 6,
+          "id:8": "immersiveengineering:metal_decoration0"
+        },
+        "5:10": {
+          "Count:3": 9,
+          "Damage:2": 7,
+          "id:8": "immersiveengineering:metal_decoration0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "immersiveengineering:metal_multiblock"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

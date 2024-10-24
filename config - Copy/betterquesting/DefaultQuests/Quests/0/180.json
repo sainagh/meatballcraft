@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    177
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Furatto, it seems, was the last succesfull battle of the testificates. While most of their forces were gone, some testificate wizards went on, and entered the third buffer world of the shyre empire.\nThe remainder of these forces are still present, and have fortified small pockets of safety in an otherwise chaotic world.\nThese testificates have been cut off from a permanent connection to Terra, so they had to adapt an live in Furatto. \nAn order of wizards appears to be their leaders, but when I asked if I could meet them, I was denied. Maybe I\u0027m not worthy enough?\nThe next wormhole, the next buffer world, I was warned, is where only few dared to adventure, and where the retaliation war from Terra became nothing more than a few rebel wizards trying to accomplish the impossible.\nNote for the future, no more wormhole portals until I\u0027m more powerful, I guess I\u0027ll have time to practice...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:furatto_warper"
+      },
+      "name:8": "Experiment #3"
+    }
+  },
+  "questID:3": 180,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:friendly_frittata"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:furatto_warper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

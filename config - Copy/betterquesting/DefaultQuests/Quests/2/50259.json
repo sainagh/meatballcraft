@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    50184
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Redstone+Lava\u003dProfit",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extrautils2:machine",
+        "tag:10": {
+          "Type:8": "extrautils2:generator_redstone"
+        }
+      },
+      "name:8": "Heated Redstone Generator (OK)"
+    }
+  },
+  "questID:3": 50259,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extrautils2:machine",
+          "tag:10": {
+            "Type:8": "extrautils2:generator_redstone"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

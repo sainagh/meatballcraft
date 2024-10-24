@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    20054,
+    114
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAbyssalcraft id a dangerous mod focust on the eldritch horrors from the Lovecraft mythos.\n\nThe mod provides some player upgrades, a powerful enchanting tool, and many bosses and exploration elements.\n\nThe mod\u0027s systems revolve around the Necronomicon book, and the Potential Energy (PE) magic system. Abyssalcraft also interacts with Warp from Thaumcraft, producing it at most interactions with the enemies and dimensions you will encounter in this progression (see more info in the Thaumcraft quests or in the Warp Basics JEI info box).\n\nThe mod does not have many automation tools, but custom multiblocks become available relatively early on to allow for automation.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic",
+        "tag:10": {}
+      },
+      "name:8": "Abyssalcraft"
+    }
+  },
+  "questID:3": 20061,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

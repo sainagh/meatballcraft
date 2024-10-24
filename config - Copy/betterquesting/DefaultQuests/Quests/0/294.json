@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    293
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:dream_cluster"
+      },
+      "name:8": "I\u0027m not strong enough!"
+    }
+  },
+  "questID:3": 294,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dream_cluster"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

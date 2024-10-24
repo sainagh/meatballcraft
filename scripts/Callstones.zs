@@ -4290,14 +4290,14 @@ recursivepaperbuggy.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon erebus:erebus.stag_beetle ~ ~3 ~", player, world, true, true);
     Commands.call("summon erebus:erebus.beetle ~ ~3 ~", player, world, true, true);
     Commands.call("summon erebus:erebus.beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("erebus:erebus.bombardier_beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("erebus:erebus.bombardier_beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("erebus:erebus.titan_beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("erebus:erebus.titan_beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("erebus:erebus.rhino_beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("erebus:erebus.rhino_beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("erebus:erebus.crushroom ~ ~3 ~", player, world, true, true);
-    Commands.call("erebus:erebus.crushroom ~ ~3 ~", player, world, true, true);
+    Commands.call("summon erebus:erebus.bombardier_beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("summon erebus:erebus.bombardier_beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("summon erebus:erebus.titan_beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("summon erebus:erebus.titan_beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("summon erebus:erebus.rhino_beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("summon erebus:erebus.rhino_beetle ~ ~3 ~", player, world, true, true);
+    Commands.call("summon erebus:erebus.crushroom ~ ~3 ~", player, world, true, true);
+    Commands.call("summon erebus:erebus.crushroom ~ ~3 ~", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";

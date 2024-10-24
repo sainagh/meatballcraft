@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    97
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "After my encounter with the meatball man, a singular testificate scholar decided to approach me with some help.\nThey did not reveal any details, but it is evident they know of my newly gained enemy (wow, the list of enemies is getting long).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:grand_magician_callstone"
+      },
+      "name:8": "So Grand"
+    }
+  },
+  "questID:3": 1395,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "ebwizardry:grand_crystal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:grand_magician_callstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

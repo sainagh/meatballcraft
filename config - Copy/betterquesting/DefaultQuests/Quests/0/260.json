@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    259
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse the harbinger charm to spawn harbinger cubes!\n\nFound in the palace at the center of the thornlands.\n\n§fAnother piece of the puzzle! Yes the Crimson Cult was around back then, and they were not friendly towards the people of the Forest. \nWhile the transformation was going on all around, that\u0027s when they started their campaign against the Twilight Forest. The invaded, despite their already-dire situation, fought back and, even as their bodies were transformed, tried to protect this one fortress, now encased in some sort of magic. \nThings here do not age, and the damage of time has not ruined the white halls of this palace. Those who inhabit it are no more, but their crafts and artifacts are still there. They were trying to open a portal, and to protect something.\nThat something is likely tied to the studies undergone by the many scholarly sites I have encountered here. They were probably able to produce their end goal, the reason for undergoing alchemical studies, despite their entire population being steadily transformed. The magic in this place is a testament of that. Unfortunately, though, the Crimson Cult won, and the artifact is not here.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:harbinger_crystal"
+      },
+      "name:8": "The Timeless Castle"
+    }
+  },
+  "questID:3": 260,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 1,
+            "TrophyColorGreen:3": 1,
+            "TrophyColorRed:3": 1,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:harbinger_crystal"
+            },
+            "TrophyName:8": "Harbinger Cube Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:harbinger_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:harbinger_charm"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

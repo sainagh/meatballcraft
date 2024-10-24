@@ -1,0 +1,68 @@
+{
+  "preRequisites:11": [
+    208
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7Slay the primordial malevolence. The Shockwave Sword is the best weapon to damage it!\n\n§fAn abyssal one! I found it!\nThe primordial malevolence recognized me, it called me by name...\nIt was this creature that gave me the ability to open wormholes, but it appeared very surprised about my independence. \n\"How can you act on your own?\" it said, \"He told me to give you power as a sacrifice, you should be in His grasp! The others gave you undeath, I gave you travel, and we were promised the Arbiter! Why are you free?\"\nWhy am I free? Because there is more to be learned in this universe, and I will not let this lovecraftian horror hold me back!\nThis \u0027He\u0027 does worry me, though. It appears I was simply the bargaining chip for some sort of deal between abyssal creatures. At least I know I\u0027m not the one that made a pact with the devil.\nAnd what the hell is this Arbiter? ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:primordial_prism"
+      },
+      "name:8": "Master of the Haunted"
+    }
+  },
+  "questID:3": 239,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:primordial_prism"
+            },
+            "TrophyName:8": "Primordial Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:primordial_prism"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thebetweenlands:shockwave_sword"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:betweenlands_callstone_8"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

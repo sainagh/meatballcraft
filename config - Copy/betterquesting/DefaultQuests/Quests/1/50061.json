@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    50054,
+    5
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Heart Amulet is used to store Heart Canisters, which increase maximum health.\nTen of each type of Canister can be stored in the Amulet.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bhc:heart_amulet"
+      },
+      "name:8": "Heart Amulet"
+    }
+  },
+  "questID:3": 50061,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bhc:heart_amulet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

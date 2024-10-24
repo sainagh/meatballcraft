@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    201128
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Head\nDurability: 1,000\nMining Level: Obsidian\nMining Speed: 9\nAttack: 7.5\nVindictive\nNature\u0027s Wrath\n\nHandle\nModifier: 0.9\nDurability: -5\nVindictive\nNature\u0027s Wrath\n\nExtra\nDurability: 140\nVindictive\nNature\u0027s Wrath\n\nBows\nDrawspeed: 5\nRange Multiplier: 0.4\nBonus Damage: -1\nVindictive\nNature\u0027s Wrath",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:shard",
+        "tag:10": {
+          "Material:8": "erodium"
+        }
+      },
+      "name:8": "Erodium"
+    }
+  },
+  "questID:3": 201177,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:shard",
+          "tag:10": {
+            "Material:8": "erodium"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

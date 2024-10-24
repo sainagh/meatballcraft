@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    90401
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCollects items in-world.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "modularrouters:module",
+        "tag:10": {
+          "Flags:1": 13,
+          "ModuleFilter:9": {}
+        }
+      },
+      "name:8": "Vacuum Module"
+    }
+  },
+  "questID:3": 90412,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "modularrouters:module",
+          "tag:10": {
+            "Flags:1": 13,
+            "ModuleFilter:9": {}
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

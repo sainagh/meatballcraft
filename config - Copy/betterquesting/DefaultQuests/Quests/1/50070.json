@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    50062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe alchemical bag is a very large backpack that also works like a vanilla ender chest. If you make two alchemical bags of the same color, they share inventory. Different players will have their own different \u0027alchemical bag networks\u0027.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32767,
+        "id:8": "projecte:item.pe_alchemical_bag"
+      },
+      "name:8": "Alchemical Bag"
+    }
+  },
+  "questID:3": 50070,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "projecte:item.pe_alchemical_bag"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    311
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:parafrosynium"
+      },
+      "name:8": "Elders Among Elders"
+    }
+  },
+  "questID:3": 1383,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:nero_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:parafrosynium"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:body_of_nero"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:soul_of_nero"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:breath_of_nero"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:heart_of_nero"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

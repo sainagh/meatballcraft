@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    0
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oA huge thanks to Birch8101, Gizyz, Mathias, Staffix, Tictak3, Tom for porting the questbook to BQ!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterquesting:placeholder"
+      },
+      "name:8": "The Great Questers"
+    }
+  },
+  "questID:3": 725,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "contenttweaker:intense_meatball_pasta"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

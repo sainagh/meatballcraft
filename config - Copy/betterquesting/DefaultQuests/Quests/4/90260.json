@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    90241
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "buildcrafttransport:pipe_cobble_item"
+      },
+      "name:8": "Stone Transport Pipe"
+    }
+  },
+  "questID:3": 90260,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_cobble_item"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_stone_item"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_quartz_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

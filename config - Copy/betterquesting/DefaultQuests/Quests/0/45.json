@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    49
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oGetting your dynamos and machines to resonant tier is best!\n\n§rResonant is much, much better than the prior tiers...",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "thermalfoundation:upgrade"
+      },
+      "name:8": "Way better!"
+    }
+  },
+  "questID:3": 45,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 35,
+          "id:8": "thermalfoundation:upgrade"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "thermalfoundation:upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    31
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oBecause of a bug with Binnie\u0027s Mods, it is possible that trees from forestry and its addons will spawn large amounts of butterflies that will lag your game.\n\nIf that happens, use this quest reward.\n\nThis quest is repeatable so you can come back if you run into issues.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:butterfly_bloom"
+      },
+      "name:8": "Butterfly Invasion",
+      "repeattime:3": 10000
+    }
+  },
+  "questID:3": 1802,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:butterfly_repellent"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

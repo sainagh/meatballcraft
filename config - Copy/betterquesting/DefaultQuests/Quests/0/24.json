@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    15
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse an extraction device to obtain drops from lava!\n\n§fSome magic pertains to life, some with interaction, and this one pertains to using a tool. Still, all of these seem to share a common factor, creation.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:lava_bucket"
+      },
+      "name:8": "Extraction Skill"
+    }
+  },
+  "questID:3": 24,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:giant_skill_crystal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:lava_bucket"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

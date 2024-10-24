@@ -1,0 +1,70 @@
+{
+  "preRequisites:11": [
+    136
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oBaroness is summoned by using a Warlock Gem on a Baroness Altar.\n\nUse a Hive Egg on a Hive Spawner to summon the Hive King\n\n§fBarathos\u0027 is a very religious planet, and their religion is NOT PEACEFUL!\nAnd, of course, the avatars of their god of war are recursion masters...\nRecursion, among the many powers I have encountered, is very interesting. Many times during my journeys, I have tried to form some type of hierarchy of the various magical fields, trying to enstablish which depends on which.\nThe eldritch powers of the monster Cha\u0027garoth, for example, seem to rely on the field of aura, and on the use of specific essentias, and yet, the final result is a magic type that\u0027s very much not thaumaturgy. It depends on thaumaturgy, but it does not look like thaumaturgy, similar to how gravity is a change in the field of space-time, but it doesn\u0027t look like it, it looks like acceleration. If it didn\u0027t, we could have figured it out way before Einstein came along.\nBecause of this, trying to enstablish a hierarchy is of outmost importance, if I want to progress in my study of magic.\nRecursion, though, is weird. Its dynamics remind me of a pendulum that never stops. What causes recursion effects to happen is other recursion effects. It is like light travelling in the void of space, it keeps going. Even light, though, loses its energy once it encounters things that aren\u0027t the void. Recursion, though, just happens.\nI keep coming back, and so do my enemies, although not as fast as me, thankfully. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:barathos_cap"
+      },
+      "name:8": "Barathos Falls"
+    }
+  },
+  "questID:3": 343,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:hive_king_tendril"
+            },
+            "TrophyName:8": "Hive King Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:baroness_brain"
+            },
+            "TrophyName:8": "Baroness Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:barathos_cap"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

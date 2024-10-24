@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    75
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The willingness of bees to bind to various natural elements and forces is incredible. While I definitely would not call individual bees intelligent, as a collective they are capable of complex decision-making, and it seems like they like me!\nWell, maybe they like everyone, but I am sure happy that they came up with useful ways to produce radioactive compounds just for me.\nThanks bees!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:radiating_callstone"
+      },
+      "name:8": "Radiating Bees"
+    }
+  },
+  "questID:3": 178,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 4,
+          "id:8": "nuclearcraft:ore"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 3,
+          "id:8": "nuclearcraft:ore"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:radiating_callstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

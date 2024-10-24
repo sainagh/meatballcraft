@@ -1,0 +1,59 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    940,
+    995
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCollect the elder coins, they can all be found in the overworld.\n\n§fEngraving the sigls of the great old ones and the outer gods onto a divine shickaxe with pyrite grants it a fraction (of a fraction of a refection of a..) of their destructive might! \nThe echo of this one\u0027s creatiton is very faint, this power must have been used quite a few times. \nAll i can get out of it is that it was used by Terra to mine in the deep dark during a past war, when the testificates first became aware of dimensional shards.\nIt must have been a dire situation for Terra to use the might of the elder ones in their mining tools.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:divine_shickaxe",
+        "tag:10": {
+          "RepairCost:3": 1,
+          "display:10": {
+            "Name:8": "Direpick"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:2": 32,
+              "lvl:2": 20
+            }
+          }
+        }
+      },
+      "name:8": "Direpick"
+    }
+  },
+  "questID:3": 987,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:divine_shickaxe",
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oDirepick§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:2": 32,
+                "lvl:2": 20
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

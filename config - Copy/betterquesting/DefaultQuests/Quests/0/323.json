@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    322
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:miniature_star"
+      },
+      "name:8": "Dyson Sphere"
+    }
+  },
+  "questID:3": 323,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ultracapacitor_bank"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dyson_shell"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dyson_beam"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dyson_capacitor"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:star_core"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "glassential:glass_dark"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

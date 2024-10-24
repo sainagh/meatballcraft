@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    90275
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "draconicevolution:energy_crystal"
+      },
+      "name:8": "Wyvern Energy Relay Crystal"
+    }
+  },
+  "questID:3": 90276,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "draconicevolution:energy_crystal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "draconicevolution:energy_crystal"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "draconicevolution:energy_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

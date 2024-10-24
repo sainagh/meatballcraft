@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    355
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "xreliquary:pyromancer_staff"
+      },
+      "name:8": "Pyromancer\u0027s Staff"
+    }
+  },
+  "questID:3": 383,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "xreliquary:pyromancer_staff"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:blaze_powder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

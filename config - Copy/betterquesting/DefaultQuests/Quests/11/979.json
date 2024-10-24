@@ -1,0 +1,59 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    943,
+    995
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oObtain the trust of the rhenia bees, and conquer finem.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extrautils2:lawsword",
+        "tag:10": {
+          "RepairCost:3": 1,
+          "display:10": {
+            "Name:8": "K-Room"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:2": 98,
+              "lvl:2": 6
+            }
+          }
+        }
+      },
+      "name:8": "K-Room"
+    }
+  },
+  "questID:3": 979,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extrautils2:lawsword",
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oK-Room§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 101,
+                "lvl:3": 16
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

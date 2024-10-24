@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    50074
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Some of the stronger creatures I met have \u0027more powerful\u0027 hearts, which can be used to further improve my stamina.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bhc:yellow_heart_canister"
+      },
+      "name:8": "Yellow Heart Canister"
+    }
+  },
+  "questID:3": 50075,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bhc:yellow_heart_canister"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

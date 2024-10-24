@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    28
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o1.2.5 dupes were the best!§r\n\nThe circle within 1200 blocks of spawn is safe(r).\nNo dragons here!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "iceandfire:fire_dragon_heart"
+      },
+      "name:8": "We love our safe space!"
+    }
+  },
+  "questID:3": 29,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bhc:red_heart_canister"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:sugar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
