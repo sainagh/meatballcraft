@@ -1234,7 +1234,7 @@
 <contenttweaker:feast_of_hell>.addTooltip(format.red("Lulu喜欢地方美食！"));
 <contenttweaker:tasty_eye_delight>.addTooltip(format.red("Lulu喜欢地方美食！"));
 
-<cyclicmagic:apple_lapis>.addTooltip(format.red("Artemis有种有趣的幽默感"));
+<cyclicmagic:apple_lapis>.addTooltip(format.red("Artemis幽默感不错"));
 
 <contenttweaker:summons_of_the_shyre_warden>.addTooltip(format.red("警告：骑士只会被反骑士之杖击败"));
 <contenttweaker:deknighting_stick>.addTooltip(format.red("对塞尔瑞帝国监守者右击"));
