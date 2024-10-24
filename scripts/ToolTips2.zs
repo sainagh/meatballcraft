@@ -106,11 +106,11 @@ import crafttweaker.item.IItemCondition;
 
 <thaumcraft:curio:6>.addTooltip(format.red("Crimson Portals can be 发现于主世界"));
 
-<thermalfoundation:storage:8>.addTooltip(format.red("Found in the Elemental Chamber in the Nether"));
+<thermalfoundation:storage:8>.addTooltip(format.red("发现于下界的元素室"));
 
-<thermalfoundation:material:136>.addTooltip(format.red("Found in the Elemental Chamber in the Nether"));
+<thermalfoundation:material:136>.addTooltip(format.red("发现于下界的元素室"));
 
-<thermalfoundation:ore:8>.addTooltip(format.red("Found in the Elemental Chamber in the Nether"));
+<thermalfoundation:ore:8>.addTooltip(format.red("发现于下界的元素室"));
 
 <contenttweaker:apichisi_warper>.addTooltip(format.red("打开一个临时虫洞，注意，无法使用该物品返回！"));
 
@@ -122,23 +122,23 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:diamerisma_warper>.addTooltip(format.red("打开一个临时虫洞，注意，无法使用该物品返回！"));
 
-<contenttweaker:pixonia_infusion_key>.addTooltip(format.red("Found in the swamp tower on Pixonia"));
+<contenttweaker:pixonia_infusion_key>.addTooltip(format.red("发现于光精界的沼泽高塔"));
 
 <contenttweaker:pixonia_infusion_key>.addTooltip(format.green("可重复使用"));
 
 <aoa3:lunar_greatblade>.addTooltip(format.red("发现于月球维度"));
 
-<contenttweaker:fluix_lens>.addTooltip(format.red("Drop in the water to open a portal to the Twilight Forest"));
+<contenttweaker:fluix_lens>.addTooltip(format.red("丢入水中来打开通往暮色森林的传送门"));
 
-<aether_legacy:skyroot_bucket:0>.addTooltip(format.red("Fill with water and use to open a portal to the Aether"));
+<aether_legacy:skyroot_bucket:0>.addTooltip(format.red("装上水，接着用它打开通往天境的传送门"));
 
-<aether_legacy:skyroot_bucket:0>.addTooltip(format.red("Skyroot Planks are craftable"));
+<aether_legacy:skyroot_bucket:0>.addTooltip(format.red("天根木板存在配方"));
 
-<draconicevolution:chaos_shard:2>.addTooltip(format.red("Can be automated using Woot"));
+<draconicevolution:chaos_shard:2>.addTooltip(format.red("可使用Woot实现自动化"));
 
 <divinerpg:teaker_lump>.addTooltip(format.red("Found interacting with the Mysterious Man in Vethea"));
 
-<contenttweaker:magic_mushroom_dark>.addTooltip(format.red("This knowledge cannot be unlearned... - Unlocks all Thaumcraft Knowledge at a great cost"));
+<contenttweaker:magic_mushroom_dark>.addTooltip(format.red("知识必须被掌握…… - 付出巨大代价解锁所有神秘时代探究知识"));
 
 <contenttweaker:abyssal_wasteland_warp_cleanser>.addTooltip(format.red("移除20临时和20普通扭曲"));
 <contenttweaker:abyssal_wasteland_warp_cleanser>.addTooltip(format.red("可发现于深渊荒原"));
@@ -168,23 +168,23 @@ import crafttweaker.item.IItemCondition;
 
 <abyssalcraft:ccluster9>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染（Coralium Infested）群系和海洋发现"));
 
-<abyssalcraft:coraliumstone>.addTooltip(format.red("Coralium Infused Stone is Craftable"));
+<abyssalcraft:coraliumstone>.addTooltip(format.red("蕴含珊瑚的石头存在配方"));
 
-<abyssalcraft:shadowfragment>.addTooltip(format.red("Dropped by shadow monsters, found in ancient dungeons and in darklands biomes"));
-<abyssalcraft:shadowshard>.addTooltip(format.red("Dropped by shadow monsters, found in ancient dungeons and in darklands biomes"));
-<abyssalcraft:shadowgem>.addTooltip(format.red("Dropped by shadow monsters, found in ancient dungeons and in darklands biomes"));
+<abyssalcraft:shadowfragment>.addTooltip(format.red("阴影野兽掉落，发现于黑暗之地（Darklands）群系的古老遗迹"));
+<abyssalcraft:shadowshard>.addTooltip(format.red("阴影野兽掉落，发现于黑暗之地（Darklands）群系的古老遗迹"));
+<abyssalcraft:shadowgem>.addTooltip(format.red("阴影野兽掉落，发现于黑暗之地（Darklands）群系的古老遗迹"));
 
-<abyssalcraft:shadowfragment>.addTooltip(format.red("Shadow Creature spawn eggs are craftable if you're unlucky"));
-<abyssalcraft:shadowshard>.addTooltip(format.red("Shadow Creature spawn eggs are craftable if you're unlucky"));
-<abyssalcraft:shadowgem>.addTooltip(format.red("Shadow Creature spawn eggs are craftable if you're unlucky"));
+<abyssalcraft:shadowfragment>.addTooltip(format.red("若运气实在太差，阴影活物刷怪蛋存在配方"));
+<abyssalcraft:shadowshard>.addTooltip(format.red("若运气实在太差，阴影活物刷怪蛋存在配方"));
+<abyssalcraft:shadowgem>.addTooltip(format.red("若运气实在太差，阴影活物刷怪蛋存在配方"));
 
-<abyssalcraft:shadowfragment>.addTooltip(format.red("You should use a mob duplicator and crusher to farm it"));
-<abyssalcraft:shadowshard>.addTooltip(format.red("You should use a mob duplicator and crusher to farm it"));
-<abyssalcraft:shadowgem>.addTooltip(format.red("You should use a mob duplicator and crusher to farm it"));
+<abyssalcraft:shadowfragment>.addTooltip(format.red("可使用自动刷怪机和屠宰机获得"));
+<abyssalcraft:shadowshard>.addTooltip(format.red("可使用自动刷怪机和屠宰机获得"));
+<abyssalcraft:shadowgem>.addTooltip(format.red("可使用自动刷怪机和屠宰机获得"));
 
-<abyssalcraft:shoggothflesh:0>.addTooltip(format.red("Dropped by Shoggoths in their lair 发现于主世界"));
+<abyssalcraft:shoggothflesh:0>.addTooltip(format.red("修格斯掉落，位于主世界的修格斯巢穴"));
 
-<contenttweaker:conductive_powder>.addTooltip(format.red("Sludge is produced by the Plant Gatherer from Industrial Foregoing"));
+<contenttweaker:conductive_powder>.addTooltip(format.red("淤泥由工业先锋模组的收割机产出"));
 
 <extratrees:food:7>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？） - 在JEI中查看跃迁器"));
 
@@ -196,67 +196,67 @@ import crafttweaker.item.IItemCondition;
 
 <magicbees:beecomb:2>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？） - 在JEI中查看跃迁器"));
 
-<bloodmagic:blood_shard:0>.addTooltip(format.red("Obtainable using a Bound Blade"));
-<bloodmagic:blood_shard:0>.addTooltip(format.red("The blade requires LP in your Blood Orb to function"));
+<bloodmagic:blood_shard:0>.addTooltip(format.red("通过使用束缚之剑获得"));
+<bloodmagic:blood_shard:0>.addTooltip(format.red("束缚之剑需要消耗网络中的LP"));
 
-<bhc:red_heart>.addTooltip(format.red("Dropped by hostile mobs"));
+<bhc:red_heart>.addTooltip(format.red("敌对生物掉落"));
 
-<bhc:yellow_heart>.addTooltip(format.red("Dropped by boss mobs"));
+<bhc:yellow_heart>.addTooltip(format.red("Boss掉落"));
 
-<bhc:green_heart>.addTooltip(format.red("Dropped by Ender Dragon"));
+<bhc:green_heart>.addTooltip(format.red("末影龙掉落"));
 
-<bhc:blue_heart>.addTooltip(format.red("Dropped by Evokers"));
+<bhc:blue_heart>.addTooltip(format.red("唤魔者掉落"));
 
-<bhc:heart_amulet>.addTooltip(format.red("Shift right click to store heart canisters"));
+<bhc:heart_amulet>.addTooltip(format.red("Shift右击来放入心之容器"));
 
-<bhc:red_heart_canister>.addTooltip(format.red("Put into the heart amulet"));
-<bhc:yellow_heart_canister>.addTooltip(format.red("Put into the heart amulet"));
-<bhc:green_heart_canister>.addTooltip(format.red("Put into the heart amulet"));
-<bhc:blue_heart_canister>.addTooltip(format.red("Put into the heart amulet"));
+<bhc:red_heart_canister>.addTooltip(format.red("放入生命护符"));
+<bhc:yellow_heart_canister>.addTooltip(format.red("放入生命护符"));
+<bhc:green_heart_canister>.addTooltip(format.red("放入生命护符"));
+<bhc:blue_heart_canister>.addTooltip(format.red("放入生命护符"));
 
-<botania:flugeleye>.addTooltip(format.red("Found using the Dice of Fate"));
+<botania:flugeleye>.addTooltip(format.red("使用命运骰子获得"));
 
-<contenttweaker:eldritch_flower>.addTooltip(format.red("Right click while standing in front of a Block of Obsidian (same level as the floor) looking east"));
+<contenttweaker:eldritch_flower>.addTooltip(format.red("站在黑曜石前方（黑曜石高度与玩家脚下方块高度相同），面朝东"));
 
-<contenttweaker:lost_memory>.addTooltip(format.red("Obtained from the Crazylily"));
+<contenttweaker:lost_memory>.addTooltip(format.red("通过疯狂百合获得"));
 
-<contenttweaker:solidified_memory>.addTooltip(format.red("This MAY be dangerous"));
+<contenttweaker:solidified_memory>.addTooltip(format.red("也许大概可能很危险"));
 
-<contenttweaker:human_imperfection>.addTooltip(format.red("Obtained by right-clicking a Solidified Memory"));
+<contenttweaker:human_imperfection>.addTooltip(format.red("使用固化记忆右击获得"));
 
-<contenttweaker:evil_insight>.addTooltip(format.red("This MAY be dangerous"));
+<contenttweaker:evil_insight>.addTooltip(format.red("也许大概可能很危险"));
 
-<contenttweaker:malum>.addTooltip(format.red("Obtained by right-clicking an Evil Insight"));
+<contenttweaker:malum>.addTooltip(format.red("使用洞悉邪恶右击获得"));
 
-<contenttweaker:deinthos>.addTooltip(format.red("This MAY be dangerous"));
+<contenttweaker:deinthos>.addTooltip(format.red("也许大概可能很危险"));
 
-<contenttweaker:pure_warp>.addTooltip(format.red("Obtained by right-clicking a Deinthos"));
+<contenttweaker:pure_warp>.addTooltip(format.red("使用恐灾右击获得"));
 
-<enderio:item_broken_spawner>.addTooltip(format.red("Broken Zombie Spawners are craftable"));
+<enderio:item_broken_spawner>.addTooltip(format.red("破损的僵尸刷怪箱存在配方"));
 
-<thaumcraft:void_seed>.addTooltip(format.red("Found by collapsing a large flux rift"));
+<thaumcraft:void_seed>.addTooltip(format.red("通过坍缩大型咒波裂隙获得"));
 
-<dankstorage:dank_1>.addTooltip(format.red("Works like the /dank/null/, but is used as a chest"));
+<dankstorage:dank_1>.addTooltip(format.red("和/dank/null/模组类似，但是可作为箱子使用"));
 
-<dankstorage:dank_2>.addTooltip(format.red("Works like the /dank/null/, but is used as a chest"));
+<dankstorage:dank_2>.addTooltip(format.red("和/dank/null/模组类似，但是可作为箱子使用"));
 
-<dankstorage:dank_3>.addTooltip(format.red("Works like the /dank/null/, but is used as a chest"));
+<dankstorage:dank_3>.addTooltip(format.red("和/dank/null/模组类似，但是可作为箱子使用"));
 
-<dankstorage:dank_4>.addTooltip(format.red("Works like the /dank/null/, but is used as a chest"));
+<dankstorage:dank_4>.addTooltip(format.red("和/dank/null/模组类似，但是可作为箱子使用"));
 
-<dankstorage:dank_5>.addTooltip(format.red("Works like the /dank/null/, is used as a chest"));
+<dankstorage:dank_5>.addTooltip(format.red("和/dank/null/模组类似，但是可作为箱子使用"));
 
-<dankstorage:dank_6>.addTooltip(format.red("Works like the /dank/null/, is used as a chest"));
+<dankstorage:dank_6>.addTooltip(format.red("和/dank/null/模组类似，但是可作为箱子使用"));
 
-<dankstorage:dank_7>.addTooltip(format.red("Works like the /dank/null/, is used as a chest"));
+<dankstorage:dank_7>.addTooltip(format.red("和/dank/null/模组类似，但是可作为箱子使用"));
 
-<libvulpes:productdust:0>.addTooltip(format.red("Obtained with an Industrial Grinder"));
+<libvulpes:productdust:0>.addTooltip(format.red("通过工业磨粉机获得"));
 
-<contenttweaker:wildwood_core>.addTooltip(format.red("Use a Rite of Shifting Seasons with a special boline to create the Stormland Biome"));
+<contenttweaker:wildwood_core>.addTooltip(format.red("使用特殊的伯莱恩新月小刀进行沧海桑田仪式来生成风暴之地（Stormland）群系"));
 
-<draconicevolution:chaos_shard:0>.addTooltip(format.red("First one is found at coordinates that are multiples of 10'000 in the end"));
-<draconicevolution:chaos_shard:0>.addTooltip(format.red("Defeat the chaos guardian to be able to harvest it"));
-<draconicevolution:chaos_shard:0>.addTooltip(format.red("There are multiple ways to farm this - Check JEI"));
+<draconicevolution:chaos_shard:0>.addTooltip(format.red("第一份混沌碎片可在末地中坐标为10000整数的混沌之岛获得"));
+<draconicevolution:chaos_shard:0>.addTooltip(format.red("击败混沌守卫后方可收获"));
+<draconicevolution:chaos_shard:0>.addTooltip(format.red("有许多方法可获得该物品 - 查看JEI"));
 
 <contenttweaker:steamed_slime>.addTooltip(format.red("使用铁路模组的多方块锅炉产出蒸汽"));
 
@@ -273,7 +273,7 @@ import crafttweaker.item.IItemCondition;
 
 <aoa3:whitewash_bricks>.addTooltip(format.red("粉饰祭坛是任务奖励"));
 
-<libvulpes:productgem:0>.addTooltip(format.red("双锂粉可合成"));
+<libvulpes:productgem:0>.addTooltip(format.red("双锂粉存在配方"));
 
 <contenttweaker:sednanite_ore>.addTooltip(format.red("探索塞德娜后可在等离子聚合器中制作"));
 
@@ -306,9 +306,9 @@ import crafttweaker.item.IItemCondition;
 
 <iceandfire:fire_dragon_heart>.addTooltip(format.green("在钻石配方中可重复使用"));
 
-<forestry:planks.1:6>.addTooltip(format.red("原木可合成"));
+<forestry:planks.1:6>.addTooltip(format.red("原木存在配方"));
 
-<extratrees:planks.1:2>.addTooltip(format.red("原木可合成"));
+<extratrees:planks.1:2>.addTooltip(format.red("原木存在配方"));
 
 <bewitchment:spectral_dust>.addTooltip(format.red("幽灵可在末地发现，位于末地苔石附近"));
 
@@ -606,7 +606,7 @@ import crafttweaker.item.IItemCondition;
 
 <techreborn:fusion_control_computer>.addTooltip(format.red("可使用线圈右击控制器进行自动放置"));
 
-<erebus:stag_heart_raw>.addTooltip(format.red("鹿角甲虫刷怪蛋是可制作的"));
+<erebus:stag_heart_raw>.addTooltip(format.red("鹿角甲虫刷怪蛋存在配方"));
 
 <nuclearcraft:part:2>.addTooltip(format.red("钚粉是不错的产铀来源，但是怎么获得呢？？"));
 
@@ -745,7 +745,7 @@ import crafttweaker.item.IItemCondition;
 
 <extendedcrafting:table_basic>.addTooltip(format.red("如果对基础工作台配方有疑问，那就跟着任务走吧！"));
 
-<iceandfire:stymphalian_bird_feather>.addTooltip(format.red("铜羽泽鹗刷怪蛋是可制作的"));
+<iceandfire:stymphalian_bird_feather>.addTooltip(format.red("铜羽泽鹗刷怪蛋存在配方"));
 
 <thaumcraft:phial:0>.addTooltip(format.red("使用任意可以右击源质罐子的手段来实现自动化，如果真的有必要的话……"));
 
@@ -2021,7 +2021,7 @@ import crafttweaker.item.IItemCondition;
 
 <iceandfire:hydra_fang>.addTooltip(format.red("九头蛇生成于主世界的沼泽，或者下界的骨头结构"));
 
-<contenttweaker:myrmex_coolant_cell>.addTooltip(format.red("诅咒恐蚁金属流体桶可合成"));
+<contenttweaker:myrmex_coolant_cell>.addTooltip(format.red("诅咒恐蚁金属流体桶存在配方"));
 
 <contenttweaker:singular_gravity_honey>.addTooltip(format.red("允许在第3章为止的所有维度使用创造飞行"));
 
