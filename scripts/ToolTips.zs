@@ -162,13 +162,13 @@
 <contenttweaker:simplest_salt_reactor>.addTooltip(format.red("点击查看安全的反应堆设计"));
 <contenttweaker:simplest_hot_salt_reactor>.addTooltip(format.red("点击查看安全的反应堆设计"));
 
-<contenttweaker:simplest_salt_reactor>.addTooltip(format.red("WARNING: this can only be one slice long, and won't work with unholy radiactive mix"));
-<contenttweaker:simplest_hot_salt_reactor>.addTooltip(format.red("WARNING: this can only be one slice long for unholy radioactive mix, five slices for lymph"));
+<contenttweaker:simplest_salt_reactor>.addTooltip(format.red("警告：只能有一个切片，并且不适用于不洁放射性混浆"));
+<contenttweaker:simplest_hot_salt_reactor>.addTooltip(format.red("警告：对于不洁放射性混浆，只能有一个切片，对于淋巴液，可以有5个切片"));
 
-<contenttweaker:safe_lymph_of_pixonia>.addTooltip(format.red("It shows the cross section of the interior rector setup, it can have as many slices as you want"));
-<contenttweaker:safe_polonium>.addTooltip(format.red("It shows the cross section of the interior rector setup, it can have as many slices as you want"));
-<contenttweaker:safe_meatballstarlight>.addTooltip(format.red("It shows the cross section of the interior rector setup, it can have as many slices as you want"));
-<contenttweaker:safe_einstenium>.addTooltip(format.red("It shows the cross section of the interior rector setup, it can have as many slices as you want"));
+<contenttweaker:safe_lymph_of_pixonia>.addTooltip(format.red("预览显示的是反应堆内部的横截面，切片数量可自己选择"));
+<contenttweaker:safe_polonium>.addTooltip(format.red("预览显示的是反应堆内部的横截面，切片数量可自己选择"));
+<contenttweaker:safe_meatballstarlight>.addTooltip(format.red("预览显示的是反应堆内部的横截面，切片数量可自己选择"));
+<contenttweaker:safe_einstenium>.addTooltip(format.red("预览显示的是反应堆内部的横截面，切片数量可自己选择"));
 
 <nuclearcraft:fuel_uranium:4>.addTooltip(format.red("感谢Gebcrafter新绘制的核电工艺纹理！"));
 <nuclearcraft:fuel_uranium:2>.addTooltip(format.red("感谢Gebcrafter新绘制的核电工艺纹理！"));
@@ -189,37 +189,37 @@
 
 <minecraft:enchanted_book>.addTooltip(format.red("祛魔手稿可将附魔书回收利用，赚点添头"));
 
-<contenttweaker:cryotheum_nak_cooler>.addTooltip(format.red("COOLANT SPREAD on output side (HOT COOLANT OUT on last slice output side), DEFAULT on input side, DISABLED on all others"));
-<contenttweaker:raw_nak_cooler>.addTooltip(format.red("COOLANT SPREAD on output side (HOT COOLANT OUT on last slice output side), DEFAULT on input side, DISABLED on all others"));
-<contenttweaker:redstone_nak_cooler>.addTooltip(format.red("COOLANT SPREAD on output side (HOT COOLANT OUT on last slice output side), DEFAULT on input side, DISABLED on all others"));
-<contenttweaker:gold_nak_cooler>.addTooltip(format.red("COOLANT SPREAD on output side (HOT COOLANT OUT on last slice output side), DEFAULT on input side, DISABLED on all others"));
-<contenttweaker:liquidhelium_nak_cooler>.addTooltip(format.red("COOLANT SPREAD on output side (HOT COOLANT OUT on last slice output side), DEFAULT on input side, DISABLED on all others"));
+<contenttweaker:cryotheum_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个切片的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:raw_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个切片的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:redstone_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个切片的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:gold_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个切片的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:liquidhelium_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个切片的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
 
-<contenttweaker:ogerite_vital_vessel>.addTooltip(format.red("FUEL SPREAD on output side (DEPLETED OUT on last slice output side), DEFAULT on input side, DISABLED on all others"));
-<contenttweaker:polonium_vessel>.addTooltip(format.red("FUEL SPREAD on output side (DEPLETED OUT on last slice output side), DEFAULT on input side, DISABLED on all others"));
-<contenttweaker:radioactive_mix_vessel>.addTooltip(format.red("FUEL SPREAD on output side (DEPLETED OUT on last slice output side), DEFAULT on input side, DISABLED on all others"));
-<contenttweaker:pssessed_starlight_vessel>.addTooltip(format.red("FUEL SPREAD on output side (DEPLETED OUT on last slice output side), DEFAULT on input side, DISABLED on all others"));
+<contenttweaker:ogerite_vital_vessel>.addTooltip(format.red("输出端配置为'燃料分配'模式（最后一个切片的输出端设置为'枯竭输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:polonium_vessel>.addTooltip(format.red("输出端配置为'燃料分配'模式（最后一个切片的输出端设置为'枯竭输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:radioactive_mix_vessel>.addTooltip(format.red("输出端配置为'燃料分配'模式（最后一个切片的输出端设置为'枯竭输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:pssessed_starlight_vessel>.addTooltip(format.red("输出端配置为'燃料分配'模式（最后一个切片的输出端设置为'枯竭输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
 
 <astralsorcery:itemknowledgeshare>.addTooltip(format.red("用于和其他玩家分享知识。"));
 
 <contenttweaker:triple_nak_heat_exchanger>.addTooltip(format.red("点击查看比较好的热交换器设计"));
 <contenttweaker:quintuple_nak_heat_exchanger>.addTooltip(format.red("点击查看比较好的热交换器设计似"));
 
-<contenttweaker:triple_nak_heat_exchanger>.addTooltip(format.red("The more slices, the faster"));
-<contenttweaker:quintuple_nak_heat_exchanger>.addTooltip(format.red("The more slices, the faster"));
+<contenttweaker:triple_nak_heat_exchanger>.addTooltip(format.red("切片越多，速度越快"));
+<contenttweaker:quintuple_nak_heat_exchanger>.addTooltip(format.red("切片越多，速度越快"));
 
-<contenttweaker:triple_nak_heat_exchanger>.addTooltip(format.red("Can process up to 3 different NaK fluids for closed loop"));
-<contenttweaker:quintuple_nak_heat_exchanger>.addTooltip(format.red("Can process up to 5 different NaK fluids for closed loop"));
+<contenttweaker:triple_nak_heat_exchanger>.addTooltip(format.red("可处理最多3种不同的钠钾流体用于闭环系统"));
+<contenttweaker:quintuple_nak_heat_exchanger>.addTooltip(format.red("可处理最多5种不同的钠钾流体用于闭环系统"));
 
-<nuclearcraft:salt_fission_controller>.addTooltip(format.red("Pyromaniacal is a nuclearcraft expert! Thanks for the help with documentation, and fixing typos!"));
-<nuclearcraft:heat_exchanger_controller>.addTooltip(format.red("Pyromaniacal is a nuclearcraft expert! Thanks for the help with documentation, and fixing typos!"));
+<nuclearcraft:salt_fission_controller>.addTooltip(format.red("Pyromaniacal是核电工艺专家！感谢他在文档及勘误方面的帮助！"));
+<nuclearcraft:heat_exchanger_controller>.addTooltip(format.red("Pyromaniacal是核电工艺专家！感谢他在文档及勘误方面的帮助！"));
 
-<contenttweaker:inlet_outlet>.addTooltip(format.red("Use turbine inlet on one side, outlet on the other side"));
+<contenttweaker:inlet_outlet>.addTooltip(format.red("一端使用涡轮输入口，另一端使用输出口"));
 
-<contenttweaker:turbine_bearing>.addTooltip(format.red("Use the suggested designs on both sides, one for inlet, one for outlet"));
+<contenttweaker:turbine_bearing>.addTooltip(format.red("两端均使用推荐设计，一端输入，一端输出"));
 
-<contenttweaker:five_turbine_design>.addTooltip(format.red("Use the suggested designs on both sides, one for inlet, one for outlet"));
-<contenttweaker:five_turbine_design>.addTooltip(format.red("Use turbine shaft design in the middle, it can be as long as you want following this pattern"));
+<contenttweaker:five_turbine_design>.addTooltip(format.red("两端均使用推荐设计，一端输入，一端输出"));
+<contenttweaker:five_turbine_design>.addTooltip(format.red("中间使用涡轮转子轴，长度任意，只要遵循该模式即可"));
 
 <contenttweaker:seed_analyzer>.addTooltip(format.red("与农业工艺以及神秘农业的合成以进行分析"));
 <contenttweaker:seed_analyzer>.addTooltip(format.red("使用循环装配台进行自动化"));
@@ -498,10 +498,10 @@
 <contenttweaker:hot_heat_exchanger>.addTooltip(format.red("使用硬碳管道"));
 <contenttweaker:cold_heat_exchanger>.addTooltip(format.red("使用导热合金管道"));
 
-<contenttweaker:hot_heat_exchanger>.addTooltip(format.red("INPUT SPREAD on output side (PRODUCT OUT for last slice), DEFAULT on input side, DISABLED on all other sides"));
-<contenttweaker:cold_heat_exchanger>.addTooltip(format.red("INPUT SPREAD on output side (PRODUCT OUT for last slice), DEFAULT on input side, DISABLED on all other sides"));
+<contenttweaker:hot_heat_exchanger>.addTooltip(format.red("INPUT SPREAD on output side (PRODUCT OUT for last slice），输入端配置为'默认'模式, DISABLED on all other sides"));
+<contenttweaker:cold_heat_exchanger>.addTooltip(format.red("INPUT SPREAD on output side (PRODUCT OUT for last slice），输入端配置为'默认'模式, DISABLED on all other sides"));
 
-<contenttweaker:particulate_steam_condensation_tube>.addTooltip(format.red("INPUT SPREAD on output side (PRODUCT OUT for last slice), DEFAULT on input side, DISABLED on all other sides"));
+<contenttweaker:particulate_steam_condensation_tube>.addTooltip(format.red("INPUT SPREAD on output side (PRODUCT OUT for last slice），输入端配置为'默认'模式, DISABLED on all other sides"));
 
 <ore:plateCopper>.addTooltip(format.red("感谢Mambodog621帮助实现矿词统一！"));
 
@@ -1187,7 +1187,7 @@
 
 <thaumicenergistics:essentia_import>.addTooltip(format.red("Vamael掌握着禁忌的知识"));
 
-<thaumicenergistics:infusion_provider>.addTooltip(format.red("Acts as a wall of warded jars for the infusion matrix and the thaumatorium"));
+<thaumicenergistics:infusion_provider>.addTooltip(format.red("对于注魔矩阵和神秘炼金塔，可替代一墙的源质罐子"));
 <thaumicenergistics:infusion_provider>.addTooltip(format.red("可以像ME接口一样与源质存储总线连接，形成子网，但存在bug，因此不建议如此使用"));
 
 <ore:woolMagenta>.addTooltip(format.red("Sainagh和Angrivator失败了，ChaosStrikez成功了"));
@@ -1532,7 +1532,7 @@
 
 <thermalexpansion:augment:128>.addTooltip(format.red("每个升级+100%能量消耗速率，但是+10%每次操作所需的能量"));
 
-<thermalexpansion:augment:129>.addTooltip(format.red("secondary item % multiplied by 1.18x, 1.43x, 1.82x 2.5x 4x, 10x, and caps at 20x for each additional augment, with 10% more energy required per operation per augment"));
+<thermalexpansion:augment:129>.addTooltip(format.red("随着升级数量增加，副产物产出概率依次x1.18、x1.43、x1.82、x2.5、x4、x10，第7个升级时概率x20，到达极限；每个升级+10%每次操作所需的能量"));
 
 <thermalexpansion:augment:448>.addTooltip(format.red("每个升级+15%概率不消耗试剂（上限95%），但是+15%每次操作所需的能量"));
 
