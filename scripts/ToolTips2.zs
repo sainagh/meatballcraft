@@ -5,7 +5,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:primordial_star>.addTooltip(format.red("纹理由Zuckerburger绘制，感谢！"));
 
-<contenttweaker:lore_of_the_meatball_man>.addTooltip(format.red("这将激活困难模式（可开关）"));
+<contenttweaker:lore_of_the_meatball_man>.addTooltip(format.red("该物品将激活困难模式（可开关）"));
 
 <contenttweaker:lore_of_the_meatball_man>.addTooltip(format.red("纹理由Zuckerburger绘制，感谢！"));
 
@@ -136,7 +136,7 @@ import crafttweaker.item.IItemCondition;
 
 <draconicevolution:chaos_shard:2>.addTooltip(format.red("可使用Woot实现自动化"));
 
-<divinerpg:teaker_lump>.addTooltip(format.red("Found interacting with the Mysterious Man in Vethea"));
+<divinerpg:teaker_lump>.addTooltip(format.red("与梦魇世界的神秘人互动获得"));
 
 <contenttweaker:magic_mushroom_dark>.addTooltip(format.red("知识必须被掌握…… - 付出巨大代价解锁所有神秘时代探究知识"));
 
@@ -1359,7 +1359,7 @@ import crafttweaker.item.IItemCondition;
 
 <industrialforegoing:enchantment_aplicator>.addTooltip(format.red("可无视原版铁砧限制附魔"));
 
-<ae2fc:fluid_packet_decoder>.addTooltip(format.red("You need one fluid discretizer in your AE to make fluid recipes"));
+<ae2fc:fluid_packet_decoder>.addTooltip(format.red("ME网络中需要存在一个流体离散器以处理流体配方"));
 
 <contenttweaker:fluix_microcontroller>.addTooltip(format.red("使用召唤计算机"));
 
@@ -1479,7 +1479,7 @@ import crafttweaker.item.IItemCondition;
 
 <materialpart:abyssite:ingot>.addTooltip(format.red("可从聚变反应堆中泵出等离子体"));
 
-<materialpart:abyssite:ingot>.addTooltip(format.red("Use redstone clocks to alternate when pump and fusion reactor are on"));
+<materialpart:abyssite:ingot>.addTooltip(format.red("使用红石钟来使流体运输和反应堆工作交替进行"));
 
 <twilightforest:cube_talisman>.addTooltip(format.red("悬浮立方掉落 - 使用暮色宝石"));
 
@@ -2550,9 +2550,9 @@ import crafttweaker.item.IItemCondition;
 <mod_lavacow:bonesword>.addTooltip(format.red("通过棘手召唤石获得！"));
 <mod_lavacow:bonesword>.addTooltip(format.red("可施加超限附魔"));
 
-<contenttweaker:thorny_callstone>.addTooltip(format.red("soulfie's damage go spinny"));
+<contenttweaker:thorny_callstone>.addTooltip(format.red("soulfie的伤害转起来了"));
 
-<xreliquary:magicbane>.addTooltip(format.red("So S T A B B Y"));
+<xreliquary:magicbane>.addTooltip(format.red("戳戳戳戳戳"));
 
 <enderio:item_conduit_probe>.addTooltip(format.red("不要对压缩空间壁右击！会导致崩溃！"));
 
