@@ -146,7 +146,7 @@
 
 <extrabotany:magicfinger>.addTooltip(format.red("右击以极快速度将魔力从玩家传输到魔力池。"));
 
-<bewitchment:perpetual_ice>.addTooltip(format.red("对石头使用冰霜世界药剂将其变为永恒之冰。"));
+<bewitchment:perpetual_ice>.addTooltip(format.red("对石头使用冰霜世界之酿将其变为永恒之冰。"));
 <bewitchment:perpetual_ice>.addTooltip(format.red("在女巫釜锅中按顺序放入曼陀罗根+冰+火药，最后使用玻璃瓶右击。"));
 <bewitchment:perpetual_ice>.addTooltip(format.red("查看女巫釜锅的JEI信息框以获得更多关于酿造的信息。"));
 

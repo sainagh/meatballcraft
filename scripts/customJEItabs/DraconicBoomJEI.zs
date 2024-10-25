@@ -6,7 +6,7 @@ import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
-var draconicboomJEI as IJeiPanel = JEI.createJei("draconic_alchemy", "Boom Boom");
+var draconicboomJEI as IJeiPanel = JEI.createJei("draconic_alchemy", "爆炸");
 draconicboomJEI.setModid("Draconic Alchemy");
 draconicboomJEI.setIcon(<draconicevolution:reactor_core>);
 draconicboomJEI.addRecipeCatalyst(<draconicevolution:reactor_core>);
@@ -17,7 +17,7 @@ draconicboomJEI.addElement(IJeiUtils.createArrowElement(64, 25, 0));
 draconicboomJEI.addElement(IJeiUtils.createImageElement("nuclearboom", 68, 6, 16, 16, 0, 0, "contenttweaker:textures/gui/nuclearicon.png", 16, 16));
 draconicboomJEI.onTooltip(function(mouseX, mouseY) as string[]{
   if (mouseX <= 81 && mouseX >= 68 && mouseY <= 22 && mouseY >= 6) {
-    return ["What is this and how do I make it explode"];
+    return ["这是什么我该怎么引爆"];
   }  
   return [];
 });

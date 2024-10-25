@@ -6,7 +6,7 @@ import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
-var foregoingsludgeJEI as IJeiPanel = JEI.createJei("foregoing_plant_gatherer", "Plant Gatherer");
+var foregoingsludgeJEI as IJeiPanel = JEI.createJei("foregoing_plant_gatherer", "收割机");
 foregoingsludgeJEI.setModid("Industrial Foregoing");
 foregoingsludgeJEI.setIcon(<industrialforegoing:crop_recolector>);
 foregoingsludgeJEI.addRecipeCatalyst(<industrialforegoing:crop_recolector>);
@@ -17,7 +17,7 @@ foregoingsludgeJEI.addElement(IJeiUtils.createArrowElement(64, 25, 0));
 foregoingsludgeJEI.addElement(IJeiUtils.createImageElement("plant", 68, 6, 16, 16, 0, 0, "contenttweaker:textures/gui/plant.png", 16, 16));
 foregoingsludgeJEI.onTooltip(function(mouseX, mouseY) as string[]{
   if (mouseX <= 81 && mouseX >= 68 && mouseY <= 22 && mouseY >= 6) {
-    return ["Obtained from harvesting any plants"];
+    return ["通过收获任意作物获得"];
   }  
   return [];
 });
