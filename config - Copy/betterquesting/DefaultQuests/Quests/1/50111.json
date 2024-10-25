@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    50054,
+    119
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Many of the creatures I\u0027ve encountered possess the power of decay.\nI\u0027ve yet to fully understand it, but this power allows them to \u0027poison\u0027 other beings by accelerating their decay and decomposition. Nasty stuff...\nThis rose, though, appears to counteract the effects of withering.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "xreliquary:witherless_rose"
+      },
+      "name:8": "Witherless Rose"
+    }
+  },
+  "questID:3": 50111,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "xreliquary:witherless_rose"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

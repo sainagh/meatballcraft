@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    268
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "See, material science is useful!\nBloodmaster has many useful properties that make it well-suited for a variety of applications. It should be a good idea to stockpile it.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "contenttweaker:material_part"
+      },
+      "name:8": "More Bloodmaster!"
+    }
+  },
+  "questID:3": 526,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 31,
+          "id:8": "contenttweaker:material_part"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 31,
+          "id:8": "contenttweaker:material_part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

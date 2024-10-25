@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    364
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:chaosstrikium_cluster"
+      },
+      "name:8": "Chaotic Darkness"
+    }
+  },
+  "questID:3": 2276,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:chaosstrikium_cluster"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

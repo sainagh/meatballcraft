@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    20344
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCrafts a crystal ball.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:crystal_ball"
+      },
+      "name:8": "Ritual of Foresight"
+    }
+  },
+  "questID:3": 1645,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:glass"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:quartz"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:droplet_of_wisdom"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

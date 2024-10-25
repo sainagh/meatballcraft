@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1597993732
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAutomate essences ASAP!\n\n§fThe world of hator holds an interesting secret. A weird pyrite metal, infused with alchemical magic, that is capable of transmuting stone into complex metal alloys.\nMy alchemy wasn\u0027t able to do that, so I better take advantage of this new tool!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:fiery_pyrite"
+      },
+      "name:8": "Fiery Pyrite"
+    }
+  },
+  "questID:3": 195,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "contenttweaker:fiery_pyrite"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:fiery_pyrite"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

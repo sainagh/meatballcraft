@@ -7,7 +7,7 @@
 		"This is quite interesting, the thaumic energy held in dragon remains hold some sort of code, coordinates...",
 		"...to a location just outside this solar system, there's no doubt about it!",
 		"It is clear that these coordinates are placed intentionally.",
-		"By traveling there I'll kill two birds with one stone! I can continue my research on gravity, and I can investigate what's going on at those coordinates."
+		"By travelling there I'll kill two birds with one stone! I can continue my research on gravity, and I can investigate what's going on at those coordinates."
 	],
 	dependencies: [
 		"0bdb8ab8"

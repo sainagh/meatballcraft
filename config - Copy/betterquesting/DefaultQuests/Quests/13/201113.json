@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    201127
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Head\nDurability: 157\nMining Level: Iron\nMining Speed: 11\nAttack: 3.5\nHoly\nLightweight\n\nHandle\nModifier: 1\nDurability: 49\nLightweight\n\nExtra\nDurability: 7\nLightweight\n\nBows\nDrawspeed: 2\nRange Multiplier: 2\nBonus Damage: 3.5\nHoly\nLightweight",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:shard",
+        "tag:10": {
+          "Material:8": "magnesium"
+        }
+      },
+      "name:8": "Magnesium"
+    }
+  },
+  "questID:3": 201113,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:shard",
+          "tag:10": {
+            "Material:8": "magnesium"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

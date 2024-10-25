@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    20460
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Things get W I D E R!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "mysticalagriculture:watering_can"
+      },
+      "name:8": "Prudentium Watering Can"
+    }
+  },
+  "questID:3": 20457,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "mysticalagriculture:watering_can"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    90357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oSaws from forge microblocks let you cut any solid blocks into smaller versions.\n\nStrips can be used to separate multiple lines of red alloy wire!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "microblockcbe:saw_stone"
+      },
+      "name:8": "Strips"
+    }
+  },
+  "questID:3": 1392,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 769,
+          "id:8": "microblockcbe:microblock",
+          "tag:10": {
+            "mat:8": "minecraft:stone[variant\u003dstone]"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "microblockcbe:saw_stone"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

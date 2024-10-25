@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1101
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14,
+        "id:8": "tconstruct:materials"
+      },
+      "name:8": "Unbreaking (infinite durability with 5)"
+    }
+  },
+  "questID:3": 1125,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "tconstruct:materials"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

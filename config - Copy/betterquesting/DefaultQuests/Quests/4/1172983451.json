@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    198005667
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAfter copying a given structure, the Copy-Paste gadget works with a Mechanical User.\n\nThis works with relatively small structures, and it cannot place some blocks because of a mod limitation.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "buildinggadgets:exchangertool",
+        "tag:10": {
+          "blockstate:10": {
+            "Name:8": "minecraft:air"
+          }
+        }
+      },
+      "name:8": "Mechanical Copy-Pasting"
+    }
+  },
+  "questID:3": 1172983451,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildinggadgets:copypastetool",
+          "tag:10": {
+            "mode:8": "Copy"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "extrautils2:user"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "preRequisites:11": [
+    336
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oPlace a charging table on top of kror altar, and right click with the boulder dash.\n\n§fInteresting, the Shyre Empire placed a master of recursion to protect a cave world that barely has any useful resource.\nRunium is cool, I guess, but it definitely isn\u0027t worth spending all this military infrastructure on, when it only possesses minor alchemical properties, and it is only capable of transmuting a low range of elements.\nDon\u0027t get me wrong, the fact that this material exists to begin with is impressive, but compared to any alchemist it has very limited abilities, making it a mildly convenient tool for a powerful empire that has climbed the Kardashev scale.\nIf you have the power to control space-time, wouldn\u0027t it be better to find a planet full of red matter? \nI have two hypotheses. The first, they just want to study it; at the end of the day, curiosity is a staple of every life form, no matter how evil or devoid of ethics. The second, the Shyre Empire has no alchemy, they cannot do it; I have yet to see alchemists in any of these territories. There are many on Terra, and even bees are capable of performing this art, but what if none of the species under the unbrella of this empire actually have the capability to do so.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:deepland_cap"
+      },
+      "name:8": "Deeplands Fall"
+    }
+  },
+  "questID:3": 337,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:kror_sediment"
+            },
+            "TrophyName:8": "Kror Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:deepland_cap"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:deeplands_callstone"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:charging_table"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:boulder_dash"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

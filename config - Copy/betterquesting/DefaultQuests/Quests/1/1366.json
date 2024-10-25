@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    50054,
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "biomesoplenty:mushroom"
+      },
+      "name:8": "A good Night Vision Potion!"
+    }
+  },
+  "questID:3": 1366,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "xreliquary:potion",
+          "tag:10": {
+            "effects:9": {
+              "0:10": {
+                "duration:3": 50000,
+                "name:8": "minecraft:night_vision",
+                "potency:3": 0
+              }
+            },
+            "hasPotion:1": 1
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

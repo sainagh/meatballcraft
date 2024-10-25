@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    270
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No matter the scale of the war, it seems like everyone has the same motifs as on Earth.\nJust like a certain western power in the early 2000s, it is all about resource control.\nMany of the planets and worlds under the control of the Shyre empire are composed of materials with interesting properties. From what I have seen, their trategy, when it comes to incorporating new civilizations in their empire (as opposed to erasing a planet with little thought), primarily revolves around their military potential; with that said, I think natural resources may play a role too, at least in some cases. \nThe affinity of these resources to the chaotic, entropic effects I encountered on the upper sky of Terra is extremely interesting!\n...and powerful, very powerful!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:fusion_crafting_core"
+      },
+      "name:8": "Energetic Manipulation"
+    }
+  },
+  "questID:3": 271,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:draconic_machine_frame"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:fusion_crafting_core"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:crafting_injector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

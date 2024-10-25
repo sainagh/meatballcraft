@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    201
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "I\u0027m not the first one to discover fluix, and it seems like its power was used to hit even more profound depths within Terra.\nBy using fluix as a catalyst, I can reopen the portal that was opened by the one that came before me...\nAnd it brought up an interesting aspect of Testificate society. As a whole, they seem to be fairly ok with the concept of \u0027cancelling history\u0027 with regards to discoveries and technologies that may have caused conflict in the past. \nThis willingness to conveniently forget about uncomfortable history felt quite dangerous, until I discovered more about Testificate secret societies. \nInstead of leaving the knowledge of potentially dangerous discoveries open to the public, the Testificate way is to incorporate those that make these discoveries into specific \u0027secret\u0027 groups in charge of studying said discoveries, and to find responsible applications for them before releasing them to the public. I am still a bit uncomfortable about this way of dealing with science, but I appreciate how Testificate society found a way to deal with dangerous tech that\u0027s not giving nukes to power-hungry governments.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "extrautils2:teleporter"
+      },
+      "name:8": "Even Deeper"
+    }
+  },
+  "questID:3": 205,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "extrautils2:compressedcobblestone"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "extrautils2:teleporter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

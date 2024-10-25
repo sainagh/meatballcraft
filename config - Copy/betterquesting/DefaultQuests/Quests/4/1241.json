@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    90130
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oChannels are the main mechanic in applied energistics!\n\nThere are things that give channels, things that transport channels, and things that use channels.\n\nThis is done to efficiently manage your base with as little lag as possible!\n\nEvery machine in the mod (interfaces, buses, etc) uses channels.\n\nThe controller and the nergy acceptor produce channels.\n\nCables from the mod trasfer channels. Some transfer 8, and some transfer 32 channels.\n\nIf you connect a cable to too many machines (1 smart cable line connecting to over 8 machines) the entwork will error out, and it will not connect to machines.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 60,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "What are Channels?"
+    }
+  },
+  "questID:3": 1241,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    31
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oEnchanting is important, and so are bedrock chunks!\n\n§rThere is so much about the universe humanity is not aware of.\nWe have spent so many years trying to reject things such as magic and superstition in the name of \u0027science\u0027.\nBut it appears that magic and science are just two faces of the same medals, and the existance of other dimensions seems to be the catalyst behind what I\u0027d normally call \u0027miracles\u0027.\nDiamonds and obsidian seem to be catalysts for magic energy, which is going to allow me to enhance my tools.\nI don\u0027t really know what prompted me to study this phenomenon, but, for some reason, paper has something to do with it...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:enchanting_table"
+      },
+      "name:8": "Magic is Real!"
+    }
+  },
+  "questID:3": 34,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:thaumium_sword"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:enchanting_table"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

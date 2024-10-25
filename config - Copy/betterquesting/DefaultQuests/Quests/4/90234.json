@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1183
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oPlace two tesslocators in the same block space to transfer energy between them.\n\nOrange: output\nBlue: input\n\nAdd glowstone to incerase speed.\nAdd diamond to transfer fullstacks instead of items.\nWith max upgrades, tesslocators are one of the fastest item transfer in the pack!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tesslocator:basic_item_tesslocator"
+      },
+      "name:8": "Basic Item Tesslocator"
+    }
+  },
+  "questID:3": 90234,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tesslocator:basic_item_tesslocator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

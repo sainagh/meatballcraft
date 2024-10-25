@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Void miners have been pretty good at providing info about mythic powers, but, for the long term, they do not seem like a reliable option.\nI drew the blueprints of a machine able to use the powers of fluix to better manage mythic resource generation.\nIt\u0027s going to be a bit of a long project, so better to start early, even if I may not have all the means to make it work as of right now...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularmachinery:itemblueprint",
+        "tag:10": {
+          "dynamicmachine:8": "modularmachinery:me_mythic_assembler"
+        }
+      },
+      "name:8": "Beeg Crafter!"
+    }
+  },
+  "questID:3": 264,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:me_mythic_assembler"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

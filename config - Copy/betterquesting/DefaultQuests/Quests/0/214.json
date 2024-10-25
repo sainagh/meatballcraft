@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    724
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Having access to a universe-spanning civilization sure has its perks. At some point in their history, the bees had worked with the Arbiter, the guardian deity of Terra, on a magic tree, capable of partially harnessing the power of infinite energy.\nThe catalyst to activate it? A chicken!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:innerved_sky_stone"
+      },
+      "name:8": "The Tree of Life"
+    }
+  },
+  "questID:3": 214,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "contenttweaker:innerved_sky_stone"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:innerved_sky_stone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:tree_of_life"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

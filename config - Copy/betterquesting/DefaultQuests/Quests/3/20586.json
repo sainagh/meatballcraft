@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20534
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Makes biomass from a variety of inputs.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forestry:fermenter"
+      },
+      "name:8": "Fermenter"
+    }
+  },
+  "questID:3": 20586,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forestry:fermenter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

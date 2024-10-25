@@ -1,0 +1,68 @@
+{
+  "preRequisites:11": [
+    284
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:lunalus_realmstone"
+      },
+      "name:8": "Asteroid World"
+    }
+  },
+  "questID:3": 445,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:lunar_orb",
+            "meta:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:moonlight_orb",
+            "meta:3": 0
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:lunar_creation_table",
+            "meta:3": 0
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:visualent_altar",
+            "meta:3": 0
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:lunalus_realmstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    463
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The train of infinite energy does not stop! The residue left over by Arc Reactors is imbued with Mythic powers itself.\nThis matter appears to react quite well with photons, and it is a great medium for high efficiency solar panels.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "techreborn:creative_solar_panel"
+      },
+      "name:8": "Creative Solar Array"
+    }
+  },
+  "questID:3": 466,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 4,
+          "id:8": "techreborn:solar_panel"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "techreborn:creative_solar_panel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

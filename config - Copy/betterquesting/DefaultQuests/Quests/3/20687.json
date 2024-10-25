@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20549
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Just like wine makers in the middle ages.\nJump on it, and the juice will come out!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "integrateddynamics:squeezer"
+      },
+      "name:8": "Squeezer"
+    }
+  },
+  "questID:3": 20687,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "integrateddynamics:squeezer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

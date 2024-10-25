@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    201138
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Head\nDurability: 300\nMining Level: 3\nMining Speed: 2.2\nAttack: 85\nSharp\nJaded\nNature\u0027s Wrath\n\nHandle\nModifier: 1\nDurability: 200\nSharp\nJaded\nNature\u0027s Wrath\n\nExtra\nDurability: 300\nSharp\nJaded\nNature\u0027s Wrath\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:shard",
+        "tag:10": {
+          "Material:8": "rosidian"
+        }
+      },
+      "name:8": "Rosidian"
+    }
+  },
+  "questID:3": 1801,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:shard",
+          "tag:10": {
+            "Material:8": "rosidian"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

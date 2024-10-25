@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    15
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe creation forge allows you to summon minions!\n\n§fYup, this definitely feels like essence, but, unlike the scientific, mechanical process that guides the replication of life on earth, this one is more \u0027personal\u0027, and more general in power.\nEssence tech has its limits, and beings created using this method are not much more sentient than computers.\nThe creatures I create with this magic, though, are very much alive, and very much connected to me in some way.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:penguin_slab"
+      },
+      "name:8": "Creation Skill"
+    }
+  },
+  "questID:3": 26,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:giant_skill_crystal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:blank_slab"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

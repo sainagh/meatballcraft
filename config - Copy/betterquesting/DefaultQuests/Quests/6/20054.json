@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    31
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "There are many branches of the magic arts, and each of them has its own set of rules and powers.\nAll the knowledge required to succeed (and complete this pack) is available here.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:causality_collapser"
+      },
+      "name:8": "Magic is Real"
+    }
+  },
+  "questID:3": 20054,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

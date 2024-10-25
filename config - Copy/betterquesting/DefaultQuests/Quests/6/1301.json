@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    788
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oPrevents the ring of magnetization from working in a radius around it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:specialflower",
+        "tag:10": {
+          "type:8": "solegnolia"
+        }
+      },
+      "name:8": "Solegnolia (Useful)"
+    }
+  },
+  "questID:3": 1301,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:specialflower",
+          "tag:10": {
+            "type:8": "solegnolia"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    201137
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Head\nDurability: 200\nMining Level: 4\nMining Speed: 4.2\nAttack: 31\nThunder\nInferno\nBlizzard\n\nHandle\nModifier: 3\nDurability: 200\nThunder\nInferno\nBlizzard\n\nExtra\nDurability: 200\nThunder\nInferno\nBlizzard\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:shard",
+        "tag:10": {
+          "Material:8": "barathosynium"
+        }
+      },
+      "name:8": "Barathosynium"
+    }
+  },
+  "questID:3": 2078,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:shard",
+          "tag:10": {
+            "Material:8": "barathosynium"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

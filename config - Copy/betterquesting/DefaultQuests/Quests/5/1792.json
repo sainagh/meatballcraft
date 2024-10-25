@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    1777
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "deepmoblearning:pristine_matter_vinocorne"
+      },
+      "name:8": "Vinocorne (Good)"
+    }
+  },
+  "questID:3": 1792,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "deepmoblearning:pristine_matter_vinocorne"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "magicbees:resource"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 37,
+          "id:8": "techreborn:smalldust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

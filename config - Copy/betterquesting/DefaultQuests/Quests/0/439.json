@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    2142
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:draconic_sword"
+      },
+      "name:8": "TRUE Draconic Power"
+    }
+  },
+  "questID:3": 439,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_sword"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_bow"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_helm"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_chest"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_legs"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:draconic_upgrades_locations"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

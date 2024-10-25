@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    2262
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:prophetic_paper"
+      },
+      "name:8": "A Prophecy of Orcer and Chaos"
+    }
+  },
+  "questID:3": 946204526,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:summon_of_the_gatekeeper"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:prophetic_paper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

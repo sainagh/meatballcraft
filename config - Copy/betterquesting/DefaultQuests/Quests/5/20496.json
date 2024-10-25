@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    20490
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oYou should upgrade to the advanced mutatron ASAP! No need to use the base one, unless you know what you are doing!\n\nThe mutagen produces makes mutagen, which is used in the mutatron.\n\n§fAt the cost of some radioactive material, and a bunch of power, bees can be easily bred into new species. Variance may still play a role, though...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gendustry:mutatron"
+      },
+      "name:8": "Mutatron"
+    }
+  },
+  "questID:3": 20496,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gendustry:mutatron"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gendustry:mutagen_producer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

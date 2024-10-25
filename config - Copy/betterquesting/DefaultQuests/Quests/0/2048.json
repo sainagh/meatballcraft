@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    2031
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "While the Bees were unable to bind Naquadah, they were successful at binding a material, well, a material impregnated by a foreign energy, from one of the other beings that came to Apichisi.\nIt is permeated by the same magic I have seen in Crystevia.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:stormborn_callstone"
+      },
+      "name:8": "Sormy Bees"
+    }
+  },
+  "questID:3": 2048,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "thaumicaugmentation:material"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:stormborn_callstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

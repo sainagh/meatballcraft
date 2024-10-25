@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    50244
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "...and what does berkelium break into?!?\nCalifornium Baby!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:californium"
+      },
+      "name:8": "Californium-249"
+    }
+  },
+  "questID:3": 50242,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:californium"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "nuclearcraft:californium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

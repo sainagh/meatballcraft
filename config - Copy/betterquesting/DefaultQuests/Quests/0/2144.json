@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    350
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:ascended_draconium_ingot"
+      },
+      "name:8": "Draconian Influence in the Belt"
+    }
+  },
+  "questID:3": 2144,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 100,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:stormlight_infused_crystal"
+            },
+            "TrophyName:8": "Draconically Ascended",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ascended_draconium_ingot"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ascended_draconic_alloy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

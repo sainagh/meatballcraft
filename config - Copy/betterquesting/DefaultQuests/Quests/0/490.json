@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    275
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "I know it was fool of me to think so, but I really thought I had a good grasp about the fundamentals of magic, I thought I knew all there was to know about the fields of magic.\nAnd little did I know, I completely missed the existance of one field; well, at elast one field, as chances are I am missing more. \nThe inhabitants of Crystevia, besides beaing zealots of the Shyre Empire, wield a type of magic I have not seen before. It is elemental in nature, it seems to bie tied to air, or to something that has to do with air; I can feel traces of it when cast, but I am struggling to figure out its source. \nI will have to investigate more; maybe it has to do with the way Crystevia is structured. It consists of a cave world located inside the solid core of a gas giant. The surface out there is a continuous storm of heavy gas elements and particulates, making it impossible for life to develop or evolve. Maybe the recursive properties of one of those particulates is originating this strange magic field. Maybe?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:crystevia_realmstone"
+      },
+      "name:8": "Evil Crystals too!"
+    }
+  },
+  "questID:3": 490,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:power_station",
+            "meta:3": 0
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:crystevia_realmstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

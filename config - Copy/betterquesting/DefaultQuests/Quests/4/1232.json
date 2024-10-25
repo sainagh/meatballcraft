@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1230
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis section explains how to set up logistics using crafting recipes.\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "immersiveengineering:tool"
+      },
+      "name:8": "Crafting Recipes"
+    }
+  },
+  "questID:3": 1232,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

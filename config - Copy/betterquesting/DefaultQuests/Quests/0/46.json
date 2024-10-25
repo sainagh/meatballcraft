@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    43
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Now that I can make alloys, I can finally produce and use electricity, this should allow me to improve my manufacturing capabilities!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "immersiveengineering:metal_decoration0"
+      },
+      "name:8": "Engineering Time!"
+    }
+  },
+  "questID:3": 46,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "immersiveengineering:metal_device1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "immersiveengineering:metal_decoration0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

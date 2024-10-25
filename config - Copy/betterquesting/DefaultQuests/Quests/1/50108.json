@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    50054,
+    105
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe harvest goddess band drastically speeds up plant growth around the player! \n\nIf placed on a pedestal, this will make things much faster than several lilypads of fertility!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "projecte:item.pe_harvest_god"
+      },
+      "name:8": "Harvest Goddess Band"
+    }
+  },
+  "questID:3": 50108,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "projecte:item.pe_harvest_god"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

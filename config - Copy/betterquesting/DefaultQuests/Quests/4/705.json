@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1227
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe ME capability adapter allows to interface between AE2 and compact machines.\n\nPlace a capability adapter adjacent to a compact machine. Inside the machine, connect another capability adapter adjacent to a tunnel set to the appropriate side (if you place the outside adapter on the west side, the interior tunnel needs to be set to WEST).\n\nThe block form transfers 32 channels.\n\nThe panel form transfers 8 channels. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rf-capability-adapter:aecapabilityadapter"
+      },
+      "name:8": "ME Capability Adapter"
+    }
+  },
+  "questID:3": 705,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rf-capability-adapter:aecapabilityadapter"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "rf-capability-adapter:aecapabilityadapter_part"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "compactmachines3:tunneltool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

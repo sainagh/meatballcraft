@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    20109
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis table is part of a multiblock.\n\nIf the bar in the table\u0027s GUI is red, it means the multiblock is incorrect.\n\nRight click the table with a sextant to see a preview of the multiblock.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "astralsorcery:blockaltar"
+      },
+      "name:8": "Starlight Crafting Altar"
+    }
+  },
+  "questID:3": 20120,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:itemsextant",
+          "tag:10": {
+            "astralsorcery:10": {}
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:itemsextant",
+          "tag:10": {
+            "astralsorcery:10": {
+              "advanced:1": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "astralsorcery:blockaltar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

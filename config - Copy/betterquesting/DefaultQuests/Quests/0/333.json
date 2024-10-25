@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    149
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Shyre empire is vast, and very powerful... so powerful that apparently they can afford leaving one of their main stronghold planets in a state of extreme corruption. This is not unlike the Twilight Forest, where direct, purposeful actions were operpetrated to intentionally turn an entire world into a land of blight.\nThis is the Abyss. The very core of this world is corrupted, down to the actual matter that makes up this place. At the moment, the basis for the words I am about to say is just a feeling, but my feelings have been way too right after I ended up on Terra. This world has a soul, just like any sentient being I have encountered in my now numerous travels, and this soul is one of twisted unhinged madness.\nThis is what a Kardashev type 5 weapon looks like: a world of decay, a god of decay. What the Crimson Cult was able to achieve through effortful deception, the Shyre Empire automated. Deleting planets, ending entire evolutionary chains, can be done by a single being. \nIf this planet soul were to do this on Terra, the planet will be gone in mere moments.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:abyss_realmstone"
+      },
+      "name:8": "Corruption of a Planet"
+    }
+  },
+  "questID:3": 333,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:illusion_altar",
+            "meta:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:shadow_altar",
+            "meta:3": 0
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:abyss_realmstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

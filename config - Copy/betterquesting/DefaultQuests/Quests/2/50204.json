@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    50177
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The yellorite reactor uses yellorium to produce RF.\nThe reactor is a hollow cuboid made out of casings, including at least two access points (input \u0026 output), a power tap, and a controller.\nA transparent version of casings can also be used.\nIn the hollow of the cuboid, it is possible to insert any number of vertical columns of fuel rods, capped with a control rod on the casing\nCooling (both fluids and blocks) can be added in the remaining hollow spaces.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bigreactors:reactorcontroller"
+      },
+      "name:8": "Yellorite Reactor (Good - Great with Extreme Turbine)"
+    }
+  },
+  "questID:3": 50204,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bigreactors:reactorcontroller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bigreactors:reactorcasing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bigreactors:reactorfuelrod"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "bigreactors:reactorcontrolrod"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "bigreactors:reactoraccessport"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "bigreactors:reactorpowertaprf"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:good_extreme_reactor_design"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

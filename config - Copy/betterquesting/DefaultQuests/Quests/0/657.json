@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    208
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oRocksnots can be placed in water. They will eat mobs around them, and eventually eject pearls if enough are consumed.\n\n§fThey were all swindled. The inhabitants of the swamp in between are all part of a larger plan, and it has to do with terra.\nI seem to be also part of this plan, and yet I can oppose these invaders. Why? Why am I different? What is the price for my immortality? Is my immortality the price?\nI do not know if I will ever be able to find answers, but I can at least use my power to put these slaves out of their misery....\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thebetweenlands:rock_snot_pearl"
+      },
+      "name:8": "Hunger"
+    }
+  },
+  "questID:3": 657,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "thebetweenlands:rock_snot_pearl"
+            },
+            "TrophyName:8": "Rocksnot Farmer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        },
+        "1:10": {
+          "Count:3": 8,
+          "id:8": "thebetweenlands:fumigant"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thebetweenlands:rock_snot_pearl"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:betweenlands_callstone_5"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    48
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oHere you can find explanations and tutorials on all of the ways of making infinite resources!\n\n§fIt is clear that, in order to achieve my goals, I need to CREATE!\nLuckily, there are a lot of ways of generating matter using science, magic, and a combination of both.\nI will keep track of the various methods to generate matter \u0027ex nihilo\u0027 in this chapter.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "I need more! A lot More!"
+    }
+  },
+  "questID:3": 20415,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

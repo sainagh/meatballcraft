@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    68
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Use in the nether!\n\nThe twilight horde\u0027s influence over the happenings in this world is crazy! It appears their spies on Terra are based in the nether world.\nThey probably already communicated with their superiors about me, I have to cut communications at all costs!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:call_of_the_watcher"
+      },
+      "name:8": "Spies!"
+    }
+  },
+  "questID:3": 131,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:bluefire_stone"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:call_of_the_watcher"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:divine_shards"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

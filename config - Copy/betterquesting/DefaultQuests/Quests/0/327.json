@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    149
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Preistoric land of Precasia is one of the Shyre strongholds, yet, it does not feel like one...\ngiven the nature of this empire, and how they are taking over Terra, I would have expected a land of brainwashed beings, or savage monsters. There still are a large amount of animal-looking things in Precasia, but that\u0027s not what surprises me. Every single creature I have met here, no exceptions, has shown to have a quite evident free will. And it is out of their free will that they serve the empire.\nWhoever leads the Shyre empire sure has good PR. Seeing how things are here religion may play a role, I could see a powerful enough recursive being be worshipped by normal people.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:precasia_realmstone"
+      },
+      "name:8": "A Primordial World"
+    }
+  },
+  "questID:3": 327,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:army_block",
+            "meta:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:kaiyu_spawner",
+            "meta:3": 0
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:precasia_realmstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

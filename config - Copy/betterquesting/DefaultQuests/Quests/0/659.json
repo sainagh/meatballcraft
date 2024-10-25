@@ -1,0 +1,97 @@
+{
+  "preRequisites:11": [
+    208
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe mortar and pestle can be used to produce a variety of ground items. Their properties are different from every player. You can test their effects on a gecko that has been put in a cage using a net. \nTo make armaniis, you should use the ground powder that makes the gecko feel calm, and look at you with loving eyes.\nTo make a potion out of the right ground item, fill the infuser with swamp water from a weedwood or syrmorite bucket, add the right ingredients, and stir (right click with empty hand) for a couple of minutes. \nIf the ingredient is correct, the liquid in the infuser will become darker. Once it\u0027s done, use a weedwood or syrmorite bucket to trasfer it to an alembic (shift right click). Use a dentrothyst vial to collect the aspect from the alembic.\n\n§fThe druids are capable of manipulating the souls of the beings around them, and twisting the inhabitants of the swamp in between into their unknowing servants.\nPotion-making has to do with this control, but the source appears to be the abyssal creatures that live in the higher dimensions.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thebetweenlands:aspect_vial",
+        "tag:10": {
+          "blHerbloreAspects:10": {
+            "container:9": {
+              "0:10": {
+                "aspect:10": {
+                  "type:8": "Armaniis"
+                },
+                "storage:10": {
+                  "dynamic:3": 2000,
+                  "hasStoredStatic:1": 0,
+                  "storedStatic:3": 0
+                }
+              }
+            }
+          }
+        }
+      },
+      "name:8": "Spirit Domination"
+    }
+  },
+  "questID:3": 659,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 1,
+            "TrophyColorGreen:3": 1,
+            "TrophyColorRed:3": 1,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "thebetweenlands:elixir"
+            },
+            "TrophyName:8": "Alchemical Annoyance Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "thebetweenlands:aspect_vial",
+          "tag:10": {
+            "blHerbloreAspects:10": {
+              "container:9": {
+                "0:10": {
+                  "aspect:10": {
+                    "type:8": "Armaniis"
+                  },
+                  "storage:10": {
+                    "dynamic:3": 2000,
+                    "hasStoredStatic:1": 0,
+                    "storedStatic:3": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:betweenlands_callstone_3"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

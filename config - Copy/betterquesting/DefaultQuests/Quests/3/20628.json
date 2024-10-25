@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    20536
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Dragonfire Crucible uses the extreme heat of eternal dragon fire and twilight fire to fuse materials together.\nFire can be passively supplied using fluid transport methods.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularmachinery:itemblueprint",
+        "tag:10": {
+          "dynamicmachine:8": "modularmachinery:dragonfire_crucible"
+        }
+      },
+      "name:8": "Dragonfire Crucible"
+    }
+  },
+  "questID:3": 20628,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:dragonfire_crucible"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

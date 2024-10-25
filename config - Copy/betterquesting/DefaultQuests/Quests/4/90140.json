@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oPlace the ender package crafter next to a properly configured unpackager to autocraft with it!\n\nThe more ender alternators you place around the crafter (you need at least one), the faster it will craft!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extendedcrafting:ender_crafter"
+      },
+      "name:8": "Ender Package Crafter"
+    }
+  },
+  "questID:3": 90140,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extendedcrafting:ender_crafter"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "extendedcrafting:ender_alternator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

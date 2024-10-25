@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    201127
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Head\nDurability: 250\nMining Level: Diamond\nMining Speed: 3\nAttack: 2.8\nDiscounted\n\nHandle\nModifier: 0.6\nDurability: 70\nDiscounted\n\nExtra\nDurability: 75\nDiscounted\n\nBows\nDrawspeed: 2.5\nRange Multiplier: 0.6\nBonus Damage: 0\nDiscounted",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:shard",
+        "tag:10": {
+          "Material:8": "limonite"
+        }
+      },
+      "name:8": "Limonite"
+    }
+  },
+  "questID:3": 201064,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:shard",
+          "tag:10": {
+            "Material:8": "limonite"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

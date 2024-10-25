@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    185
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDrops are custom! This is a great source for ores that are otherwise unobtainable, like Dilithium!\n\n§fThis laser is useful, it should provide a lot of very good minerals!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:spacelaser"
+      },
+      "name:8": "Big laser, much rupee"
+    }
+  },
+  "questID:3": 192,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:spacelaser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

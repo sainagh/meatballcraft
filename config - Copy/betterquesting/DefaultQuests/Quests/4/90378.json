@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    90357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§otwo inputs \u003d one output\non + on \u003d off\non + off \u003d off\noff + on \u003d off\noff + off \u003d on",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "projectred-integration:gate"
+      },
+      "name:8": "NOR Gate"
+    }
+  },
+  "questID:3": 90378,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "projectred-integration:gate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

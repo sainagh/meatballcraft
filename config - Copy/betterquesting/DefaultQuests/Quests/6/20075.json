@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oSpells of the matching type receive a 15% buff!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ebwizardry:novice_healing_wand"
+      },
+      "name:8": "Wand of Healing"
+    }
+  },
+  "questID:3": 20075,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:novice_healing_wand"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

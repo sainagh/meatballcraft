@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    50275
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe retriever and distributor are advanced versions of the salt reactor vents.\n\nThey allow to automatically push fuel (distributor) and pull depleted fuel (retriever) without requiring contact with vessels (all sides can be DEFAULT and don\u0027t need touching vessels).\n\nEach retriever and distributor can interact with up to four individual vessels inside a valid salt reactor vessel.\n\nThis makes it possible to design reactors that can be optimized by the leu235 using active coolers only (as the rules are now the same).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:salt_fission_distributor"
+      },
+      "name:8": "Advanced Fuel Distribution"
+    }
+  },
+  "questID:3": 1982,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:salt_fission_retriever"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:salt_fission_distributor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

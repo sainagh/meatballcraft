@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    50239
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Guess what? I made berkelium, and didn\u0027t have to blow up an entire arcipelago! The process is safe, and doesn\u0027t give birth to talking sponges!\nTurns out that the Bikini Atoll experiments, thanks to some terran cooling, are not the only way of breeding this element!\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "nuclearcraft:berkelium"
+      },
+      "name:8": "Berkelium-248"
+    }
+  },
+  "questID:3": 50240,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "nuclearcraft:berkelium"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:berkelium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "savedSubBlockNames": {
+    "0": {
+      "0": "brightsteel_block",
+      "1": "candyte_ore_minecraft_stone",
+      "2": "palladium_ore_minecraft_stone",
+      "3": "vityte_ore_minecraft_stone",
+      "4": "chalcedony_ore_minecraft_stone",
+      "5": "vibranium_block",
+      "6": "ogerite_ore_minecraft_stone",
+      "7": "destructive_steel_block",
+      "8": "sacrifice_metal_block",
+      "9": "vityte_block",
+      "10": "bloodmaster_metal_block",
+      "11": "polonium_ore_minecraft_stone",
+      "12": "ogerite_block",
+      "13": "lunastone_ore_minecraft_stone",
+      "14": "polonium_block",
+      "15": "myrmitite_block"
+    },
+    "1": {
+      "0": "dreadite_block",
+      "1": "myrmitite_ore_minecraft_stone",
+      "2": "sednanite_ore_minecraft_stone",
+      "3": "demonic_steel_block",
+      "4": "fluctuatite_ore_minecraft_stone",
+      "5": "vengeful_steel_block",
+      "6": "tartarite_ore_minecraft_stone",
+      "7": "brightsteel_ore_minecraft_stone",
+      "8": "rhenium_ore_minecraft_stone",
+      "9": "lunastone_block",
+      "10": "palladium_block",
+      "11": "black_metal_block",
+      "12": "chalcedony_block",
+      "13": "dreaded_steel_block",
+      "14": "steadfast_steel_block",
+      "15": "candyte_block"
+    },
+    "2": {
+      "0": "corrosive_steel_block"
+    }
+  }
+}

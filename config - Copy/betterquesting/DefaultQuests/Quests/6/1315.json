@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    788
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oConsumes mana to spawn mobs with extra loot.\n\nAnything that can be found in vanilla dungeon chests can be obtained with this flower.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:specialflower",
+        "tag:10": {
+          "type:8": "loonium"
+        }
+      },
+      "name:8": "Loonium (Useful)"
+    }
+  },
+  "questID:3": 1315,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:specialflower",
+          "tag:10": {
+            "type:8": "loonium"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

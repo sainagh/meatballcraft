@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    274
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "At some point, in some place, the recursive beings of the Twilight Horde came around a powerful material, one that directly allowed to enhance their powers, Bluefire.\nSome of the warriors sent to fight in the Nether caves of Terra seem to be directly bound to the powers of this material, and shed some of it after one of their bodies is felled.\nWhile I do not know how this was done, and I have no idea about the origin of Bluefire, it is probably a good idea to make more and more of it, just in case.\nThe good thing about recursive beings is that they have infinite bodies, and infinite bodies can be harvested over and over.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 991,
+        "id:8": "extendedcrafting:singularity_custom"
+      },
+      "name:8": "All of the bluefire!"
+    }
+  },
+  "questID:3": 503,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "divinerpg:bluefire_stone"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 991,
+          "id:8": "extendedcrafting:singularity_custom"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    149
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "I gotta say, the Shyre Empire is extremely diverse, which I guess makes sense when it\u0027s ruled by immortal, mythic beings (or being?).\nBarathos is a desert land of proud warriors. They have an unisually rich history and tradition, and both the beasts and people of this world live by ideals of might and power, not so different from many of the great civilizations that produced Earth\u0027s rich history. \nTo the eyes of the people of Barathos, I look nothing more than a usurper to what they believe a righteous position of power. It truly feels bad to have to fight these people, it does, but I cannot let this stop me. The Shyre Empire is a power that must be kept in check, and if I weren\u0027t here, those getting killed would be the people of Terra, and who knows how many other planets in the vast universe. Still, it is upsetting to see these poor souls die in the name of gods too complacent to do the job themselves.\nOn a different note, it seems like that, to become part of the Shyre Empire, a civilization need to be considered \u0027powerful\u0027 by some sort of standard. If a conquered world is deemed worthy, they are annexed. If a world is deemed too weak, they are terminated, completely.\nThe fact that these almost omnipotent beings can choose what civilizations are worthy of existing is so sad. This answers the Fermi paradox, I guess...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:barathos_realmstone"
+      },
+      "name:8": "Warriors of the Baron Desert"
+    }
+  },
+  "questID:3": 136,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:hive_spawner",
+            "meta:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:baroness_altar",
+            "meta:3": 0
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:barathos_realmstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "preRequisites:11": [
+    210
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oLord Vatticus will trade the wizard book, used to summon two bosses.\nIt can be tricky to find, so the optional item can be used to summon him!\n\n§fWell this is peculiar! On one hand, I think I have a good idea on the power level of the Twilight Horde, on the other hand, this power level feels a bit too high to make sense.\nOne of the slaves kept writing this place\u0027s history, and shared it with me.\nThe Dungeon of Arcana, in its weirdness, used to be a much different place; this used to be Asgard, home of the Aesirs, the deities in the Norse pantheon. Looking at the properities of Arcanium the only remaining trace of what this place used to be, I can assume they were some sort of order of magicians, and a very powerful one. \nThis place has its own gravitational field, independent of any planet, with perfectly parallel field lines. How is this possible? I don\u0027t know!\nAnd yet, in a matter of mere seconds, the entirety of this place was taken over. Not by troops, not by weapons of mass destruction. No, they were taken over by an actual infinite fortress. A building, a set of rooms, stairs, and doors that, in the time it takes to drink a cup of water, replaced itself with the home of teh Aesirs, killing everything that tried to oppose it.\nThis should be impossible by all physiscs humans have discovered, but here it is. I had to measure everything so many times, and all data points to this fact. I am not on the surface of a planet; I am inside a flat, infinite, pancake-looking fortress sitting somewhere in a space-time anomaly!?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:wizards_book"
+      },
+      "name:8": "Dungeon Invaders"
+    }
+  },
+  "questID:3": 666,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "divinerpg:dramix_altar",
+            "meta:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "divinerpg:parasecta_altar",
+            "meta:3": 0
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:wizards_book"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:lord_summoner"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:wargeneral_summoner"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

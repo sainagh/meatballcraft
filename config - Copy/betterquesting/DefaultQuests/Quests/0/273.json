@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    272
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The search for powerful resources keeps guiding me forward! Another planet!\nUnlike the Rhenia, though, this one is inhabited by foes, by Myrmitites...\nThese creatures managed to colonize their own planet?! How?\nAs a society, if you can call them one, they exist in colonies that are extremely unfriendly towards each other. Not only they must have fought whatever other species to gain dominion of this planet, they keep fighting each other too.\nI guess it makes sense given how competition is a big driver of evolution, but I strongly doubt this strategy would ever produce an interplanetary species.\nWell, at least this world has other, less crawly, things to offer. The aptly-named myrmitite has both good material properties and compatibility with many magic fields.\nThis is probably one of the materials sought after by the Shyre Empire.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:myrmex_artifact"
+      },
+      "name:8": "The Myrmex Swarm"
+    }
+  },
+  "questID:3": 273,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "libvulpes:productgem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:myrmex_artifact"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

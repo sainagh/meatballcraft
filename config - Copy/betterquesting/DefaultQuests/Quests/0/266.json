@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    265
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oYou may want to bring a way to escape...\n\n§fThe fallen of the Twilight Forest have unfinished business, it seems, and their will has remained alive in the form of ghosts, it seems. They are beings of vengeance, nothing more than shadows of a shameful defeat. \nAnd yet their will carried artifacts they were able to keep safe from the Crimson Cult. \nVibration, harmonization, resonance. These phenomena have something to do with magic, and they are a catalyst for it. They are the secret of the Twilight Forest, one they wanted safekept, so it must be useful for something.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:call_of_the_haunted"
+      },
+      "name:8": "Sounds of the Haunted"
+    }
+  },
+  "questID:3": 266,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "hatchery:prize_egg"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:call_of_the_haunted"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

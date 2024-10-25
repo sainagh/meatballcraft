@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90402
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oModular Routers are blocks capable of performing logistics actions (similar to AE2) for small-scale, short-distance automations.\n\nA router performs actions based on the modules placed in its slots, following a cyclical left-to-right order. Modules prform simple actions like pulling and pushing blocks, or more complex ones like breaking, placing, or launching items.\n\nThe target locations for each module can be specified by shift + right clicking them on the desired block space.\n\nOnce modules are installed, they can be configured by middle clicking them. This allows to set filters and add augments.\n\nUpgrades can be placed in the corresponding slots in a Modular Router.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularrouters:item_router"
+      },
+      "name:8": "Item Router"
+    }
+  },
+  "questID:3": 90401,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularrouters:item_router"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

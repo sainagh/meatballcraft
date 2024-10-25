@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1437
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe following quests will list methods to speed up plant growth, and how to level up your seeds with agricraft!\n\nSee the r/notjusttrees quest for info on farming automation!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "A Green Revolution"
+    }
+  },
+  "questID:3": 20422,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_hoe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1176
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oServos, filters, and retrievers are what allows to move items using itemducts and fluiducts!\n\nAll have whitelist/blacklist to only move specific items, and they have different redstone modes. \n\nRight click the connection between a conduit and an inventory to place these items.\nUse a crescent hammer to remove them from ducts!\n\nServos are used to extract from an inventory and push into other inventories.\n\nFilters are used to select or prevent specific items from entering an inventory.\n\nRetrievers are used to pull items from other inventories.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermaldynamics:servo"
+      },
+      "name:8": "Moving Stuffs"
+    }
+  },
+  "questID:3": 90249,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermaldynamics:servo"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thermaldynamics:filter"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thermaldynamics:retriever"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

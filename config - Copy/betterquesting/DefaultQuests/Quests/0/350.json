@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    288
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The prophecy of the Arbiter, the last writ of this nearly-all-knowing being, told of one person, one not from Terra, that would arrive from meteorite of sky stone, at the peak of an eclipse, and followed by the Rainbours; This newcomer will be given the blessing of alchemy, and the power to restore balance between order and chaos.\nThis is me, I am the one the prophecy predicted. That is why the Testificates were asking those specific questions, that is why the Meatball Man is interested in me!\nAlchemy is a strange one, I was never capable of feeling it until I came to Terra, but now it is just second nature. Almost as if the other conditions in the prophecy were part of a ritual to unlock that ability within me. The ability to access this type of magic, after all, is rare and precious, so rare and precious that the Shyre Empire was happy to get the scraps of any weakened form of it for runation. \nAnd while the prophecy predicts of my coming, it does not state my purpose.\nWhat is this prophecy predicting? What role am I to play in this battle? Why me? What does this restoration between order and chaos mean?\nWell, I may get some more answers in my next voyage. The strange characters left by the Arbiter, for just an instant, started to make sense, and just like that, they went back to being gibberish. Coordinates to a space between the Proxima Stars. That is where the sky stone meteorites come from, that is where I will find more answers!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:proxima_artifact"
+      },
+      "name:8": "Signal from the Belt"
+    }
+  },
+  "questID:3": 350,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:proxima_artifact"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

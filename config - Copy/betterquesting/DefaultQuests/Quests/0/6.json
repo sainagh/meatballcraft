@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    5
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oYou will unlock more pages as you progress - Follow \u0027Dimensional Ascension\u0027 to progress through the pack! The other quests are for info and tutorials!\n\n§rThere seems to be a lot of stuff to keep track of... I better start documenting my findings!\n\n§\n§cPersonal Augmentation §ris to keep track of useful or powerful gadgets.\n\n§cTooling Shmooving §fis to keep track of tools for building and breaking things.\n\n§cTinkerer\u0027s Toolbox §fis to list the properties of the tools I build.\n\nThe §c§cEnergy Sources§r manual will keep track of all the ways of making energy.\n\n§cManufacturing and Fabrication§r will be there to help me remember how to use machines.\n\nIf I ever need to automate a process or implement a logistical system, I will keep track of my findings in §cLogistics and Organization§r.\n\nIf I come up with a way of producing resources autonomously, §cThe Book of Creation§r will keep track of these.\n\nAll the knowledge of magic will be held in the §cMagical Mastery§r book.\n\n§cThe book of Worlds§r will be there to keep track of the places I visit!\n\nThe §cCompenduum Materialis §flists all in-world resources that can be found in each place I explore.\n\nThere are many powerful artifacts, I will list them in the §cSuper-Enchanting §ftab.\n\nThe §cArmory §fwill be used to list useful and cool-looking gear.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {}
+        },
+        "id:8": "redstonearsenal:tool.hammer_flux",
+        "tag:10": {
+          "Energy:3": 0
+        }
+      },
+      "name:8": "How do quests work?"
+    }
+  },
+  "questID:3": 6,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:reeds"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:sign"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

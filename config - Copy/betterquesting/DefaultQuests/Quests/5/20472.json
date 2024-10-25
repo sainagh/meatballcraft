@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    20471
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUsing a quantum quarry is optional, but it may be good depending on your situation!\n\nThe quantum quarry produces ground drops from a hypothetical dimension, thus limiting the environmental impact of quarrying.\nSpecific biomes can be configured in the multiblock to target particular minerals or ground materials.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extrautils2:quarry"
+      },
+      "name:8": "Quantum Quarry"
+    }
+  },
+  "questID:3": 20472,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extrautils2:quarry"
+        },
+        "1:10": {
+          "Count:3": 6,
+          "id:8": "extrautils2:quarryproxy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

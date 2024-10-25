@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20415
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDo you want to make lots and lots of nether starts, come this way!\n\n§fAlkahestry is a weird art, some may call it a pallid imitation of EMC alchemy, yet, it has its advantages.\nThe Tome of Arcana is pretty good too!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "A good read"
+    }
+  },
+  "questID:3": 20419,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:book"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

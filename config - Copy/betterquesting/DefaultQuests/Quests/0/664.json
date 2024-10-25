@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    31
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oEvery night and day, there is a chance special events will occur, where special mobs will spawn. These will be announced by messages in chat.\n\n\u0027The ground bathes in the pearly light of the moon\u0027: full moon, special hunter mobs will spawn at night\n\n\u0027The hunt for blood has begun\u0027: blood hunt, special blood-themed mobs will spawn\n\n\u0027Lost souls scurry across the world in the darkness\u0027: soul scurry, special versions of mobs will spawn, these will be immune to most damage types (magic works)\n\n\u0027The world just got stranger\u0027: alien invasion, aliens will spawn\n\n\u0027Today is a good day to die\u0027: death day, hunter mobs that give a lot of experience will spawn\n\n\u0027The hissing sounds begin\u0027: creep day, mobs capable of spawning creepers will spawn\n\n§fThe amount of violence in this world it truly staggering. Are we good caretakers of Earth? No, but we sure have it better than here.\nAlien raids, blood hunts, ghosts? This world is fully under siege, and the attacks are fairly organized; it seems like everyone wants something out of it! But I don\u0027t see anything that may warrant such drastic measures.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:hunters_rifle",
+        "tag:10": {
+          "HideFlags:1": 2
+        }
+      },
+      "name:8": "What\u0027s going on?"
+    }
+  },
+  "questID:3": 664,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:nice_clean_salad"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:wool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

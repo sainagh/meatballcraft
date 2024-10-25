@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oNormally, when working with patterns for \u0027normal\u0027 recipes, you just need one interface.\nTo encode these recipes, you need two blocks! \n\nThe packager is the first! You should put your first package recipe holder in a packager.\n\nThese can be placed anywhere in your AE2 network, but for organization it\u0027s a good idea to put them close to their respective unpackager.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "packagedauto:encoder"
+      },
+      "name:8": "Packager"
+    }
+  },
+  "questID:3": 90149,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "packagedauto:packager"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

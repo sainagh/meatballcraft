@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    339187524
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAn upgraded version of solidified experience, obtained from a bee that becomes available in chapter 3.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:condensed_essence"
+      },
+      "name:8": "Condensed Essence"
+    }
+  },
+  "questID:3": 795857967,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:condensed_essence"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

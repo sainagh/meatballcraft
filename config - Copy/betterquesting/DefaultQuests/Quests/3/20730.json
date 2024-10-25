@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20552
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Yet another way to make hydrogen and oxygen...\nUse holo projector to see multiblock preview.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:electrolyser"
+      },
+      "name:8": "Electrolyser"
+    }
+  },
+  "questID:3": 20730,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:electrolyser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

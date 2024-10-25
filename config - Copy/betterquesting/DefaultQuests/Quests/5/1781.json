@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1777
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "deepmoblearning:pristine_matter_hiveking"
+      },
+      "name:8": "Hive King (Good)"
+    }
+  },
+  "questID:3": 1781,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "deepmoblearning:pristine_matter_hiveking"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:myrmex_desert_chitin"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:myrmex_jungle_chitin"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "extrautils2:ingredients"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

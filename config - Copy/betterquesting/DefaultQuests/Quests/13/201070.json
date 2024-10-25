@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    201137
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Head\nDurability: 610\nMining Level: 5\nMining Speed: 10\nAttack: 4.3\nBone Shock\nHigh in Calcium\n\nHandle\nModifier: 0.75\nDurability: 140\nBone Shock\nHigh in Calcium\n\nExtra\nDurability: 290\nBone Shock\nHigh in Calcium\n\nBows\nDrawspeed: 0.87\nRange Multiplier: 1.4\nBonus Damage: 2.6\nBone Shock\nHigh in Calcium",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:shard",
+        "tag:10": {
+          "Material:8": "skeletal"
+        }
+      },
+      "name:8": "Skeletal"
+    }
+  },
+  "questID:3": 201070,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:shard",
+          "tag:10": {
+            "Material:8": "skeletal"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

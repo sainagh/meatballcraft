@@ -1,6 +1,6 @@
 {
     "registryname": "induction_electrolyzer",
-    "localizedname": "Induction Electrolyzer",
+    "localizedname": "感应电解机",
 	"color": "636363",
     "parts": [
         {

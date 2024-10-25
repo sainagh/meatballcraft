@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    50060
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis ring will allow you to slow fall, it is quite bad, but it can be upgraded into better things!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extrautils2:chickenring"
+      },
+      "name:8": "Chicken Wing Ring"
+    }
+  },
+  "questID:3": 50081,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extrautils2:chickenring"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    1587,
+    1598
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:chest_boron"
+      },
+      "name:8": "Boron"
+    }
+  },
+  "questID:3": 1710,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:helm_boron"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:chest_boron"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:legs_boron"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:boots_boron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

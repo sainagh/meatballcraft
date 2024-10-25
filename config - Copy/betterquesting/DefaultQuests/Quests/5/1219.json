@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1217
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oSoul combs can be farmed from multiple bees!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "magicbees:frames.gentle"
+      },
+      "name:8": "Makes Ignobles Bees Work!"
+    }
+  },
+  "questID:3": 1219,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "magicbees:frames.gentle"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    20344
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oSmelts dropped items in the ritual area.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:coal"
+      },
+      "name:8": "Ritual of the Hungry Flames"
+    }
+  },
+  "questID:3": 1156,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:ectoplasm"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:blaze_powder"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:coal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -6,7 +6,7 @@ import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
-var infernalfurnaceJEI as IJeiPanel = JEI.createJei("infernal_furnace", "Infernal Furnace");
+var infernalfurnaceJEI as IJeiPanel = JEI.createJei("infernal_furnace", "炼狱熔炉");
 infernalfurnaceJEI.setModid("MeatballCraft");
 infernalfurnaceJEI.setIcon(<contenttweaker:infernal_furnace>);
 infernalfurnaceJEI.addRecipeCatalyst(<contenttweaker:infernal_furnace>);
@@ -18,7 +18,7 @@ infernalfurnaceJEI.addSlot(IJeiUtils.createItemSlot(95, 50, false)); // chance o
 infernalfurnaceJEI.addElement(IJeiUtils.createArrowElement(64, 30, 0));
 infernalfurnaceJEI.onTooltip(function(mouseX, mouseY) as string[]{
   if (mouseX <= 81 && mouseX >= 68 && mouseY <= 22 && mouseY >= 6) {
-    return ["Chance Drops"];
+    return ["概率产出"];
   }  
   return [];
 });

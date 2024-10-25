@@ -39,7 +39,7 @@ bot5.addItemInput(<erebus:materials:0>*64);
 bot5.addItemInput(<minecraft:iron_block>*32);
 bot5.addItemInput(<minecraft:nether_star>*4);
 bot5.addItemInput(<minecraft:diamond>*2);
-bot5.addItemOutput(SuperEnchantedItem(<erebus:war_hammer>.withTag({display: {Name:"§6§oMjolnir§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistMjolnirWrapped).getItem());
+bot5.addItemOutput(SuperEnchantedItem(<erebus:war_hammer>.withTag({display: {Name:"§6§o妙尔尼尔§r",Lore:["§d§o超限附魔§r"]}}), enchlistMjolnirWrapped).getItem());
 bot5.build();
 
 val bot6 = RecipeBuilder.newBuilder("erefor6","cold_iron_forge",2000);

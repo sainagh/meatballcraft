@@ -1,0 +1,17 @@
+{
+  "preRequisites:11": [
+    1388
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "Death to the Meatball Man"
+    }
+  },
+  "questID:3": 1313815980,
+  "tasks:9": {}
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    90357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis gate lets you place down crossing redstone lines.\n\nYes, that\u0027s it!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 23,
+        "id:8": "projectred-integration:gate"
+      },
+      "name:8": "Null Cell"
+    }
+  },
+  "questID:3": 90388,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 23,
+          "id:8": "projectred-integration:gate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

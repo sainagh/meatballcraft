@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    63
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe pack uses custom \u0027info boxes\u0027 items to explain mechanics and suggest strategies.\n\nYou can pin them in JEI if you need to keep track of things!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "immersiveengineering:metal_device1"
+      },
+      "name:8": "Energy!"
+    }
+  },
+  "questID:3": 1138,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "immersiveengineering:metal_device1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "blockRedstone",
+          "id:8": "minecraft:redstone_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:early_game_energy"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

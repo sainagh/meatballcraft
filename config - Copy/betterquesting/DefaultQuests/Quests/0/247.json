@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    209
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAssemble the gaia arena and click the beacon with challenge ticket.\n\n§fThe more powerful my calls into the broken world of the Aesirs, the more crazed and twisted the guardians that answer it.\nTheir existance despite the fall of Asgard is interesting. None of the broken creatures I found outside of Arcana appeared to have a will of their own, and, just like the guardians I am calling, they only answer to violence. And yet, both the guardians and the dogs answer when being called. The act of being called, I think, is important here.\nIf the Aesir indeed inhabited the world that is now Arcana, it is likely that the guards of this place had to swear some sort of oath.\nBut what happens to the oath when the world itself that binds it stops existing? My guess; once proud guardian deities of nature are now turned into mindless killers, unable to fulfill their destiny, and yet unable to stop fighting.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "extrabotany:material"
+      },
+      "name:8": "Tier 3 Gaia Guardian"
+    }
+  },
+  "questID:3": 247,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 3,
+              "id:8": "extrabotany:material"
+            },
+            "TrophyName:8": "Tier 3 Guardian Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "extrabotany:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

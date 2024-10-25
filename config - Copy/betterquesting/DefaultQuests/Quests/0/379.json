@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    301
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCheck uses for each template to see what items can be crafted using the Infusion Table.\n\nFor each recipe, Lumps should be added one by one until you get the exact number!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:teaker_hammer"
+      },
+      "name:8": "Dream Infusion Crafting"
+    }
+  },
+  "questID:3": 379,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:disk_template"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:hammer_template"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:staff_template"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:claw_template"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:cannon_template"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:bow_template"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:backsword_template"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:degraded_template"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:finished_template"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:glistening_template"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:demonized_template"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:tormented_template"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

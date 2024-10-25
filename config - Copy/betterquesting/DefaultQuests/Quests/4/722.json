@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90103
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThese energy cells are not great, but they can be used for wireless energy at a low transfer rate!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:powercell"
+      },
+      "name:8": "Powercell"
+    }
+  },
+  "questID:3": 722,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:powercell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

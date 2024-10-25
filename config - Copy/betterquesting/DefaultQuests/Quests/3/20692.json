@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20545
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Makes neutrinos, really, really slowly...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "avaritia:neutron_collector"
+      },
+      "name:8": "Neutron Collector"
+    }
+  },
+  "questID:3": 20692,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "avaritia:neutron_collector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

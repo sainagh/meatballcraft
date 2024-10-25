@@ -16,8 +16,8 @@ realmitetic.addHeadMaterialStats(250, 3.0f, 2.6f, 4);
 realmitetic.addHandleMaterialStats(0.6, 80);
 realmitetic.addBowMaterialStats(2.5, 0.7, 1);
 realmitetic.addMaterialTrait("discounted");
-realmitetic.itemLocalizer = function(thisMaterial, itemName){return "Realmite " + itemName;};
-realmitetic.localizedName = "Realmite";
+realmitetic.itemLocalizer = function(thisMaterial, itemName){return "现石 " + itemName;};
+realmitetic.localizedName = "现石";
 realmitetic.register();
 
 val arlemitetic = mods.contenttweaker.tconstruct.MaterialBuilder.create("arlemite");
@@ -32,8 +32,8 @@ arlemitetic.addHeadMaterialStats(190, 3.2f, 2.4f, 4);
 arlemitetic.addHandleMaterialStats(0.6, 70);
 arlemitetic.addBowMaterialStats(0.65, 1.3, 1);
 arlemitetic.addMaterialTrait("discounted");
-arlemitetic.itemLocalizer = function(thisMaterial, itemName){return "Arlemite " + itemName;};
-arlemitetic.localizedName = "Arlemite";
+arlemitetic.itemLocalizer = function(thisMaterial, itemName){return "阿勒石 " + itemName;};
+arlemitetic.localizedName = "阿勒石";
 arlemitetic.register();
 
 val rupeetic = mods.contenttweaker.tconstruct.MaterialBuilder.create("rupee");
@@ -48,8 +48,8 @@ rupeetic.addHeadMaterialStats(1000, 1.4f, 0.4f, 4);
 rupeetic.addHandleMaterialStats(0.6, 900);
 rupeetic.addBowMaterialStats(2.6, 1.3, 0);
 rupeetic.addMaterialTrait("shocking");
-rupeetic.itemLocalizer = function(thisMaterial, itemName){return "Rupee " + itemName;};
-rupeetic.localizedName = "Rupee";
+rupeetic.itemLocalizer = function(thisMaterial, itemName){return "卢比 " + itemName;};
+rupeetic.localizedName = "卢比";
 rupeetic.register();
 
 val netheritetic = mods.contenttweaker.tconstruct.MaterialBuilder.create("netherite");
@@ -64,8 +64,8 @@ netheritetic.addHeadMaterialStats(200, 2.4f, 2.4f, 15);
 netheritetic.addHandleMaterialStats(0.6, 100);
 netheritetic.addBowMaterialStats(2.0, 8.4, 0);
 netheritetic.addMaterialTrait("blazing");
-netheritetic.itemLocalizer = function(thisMaterial, itemName){return "Netherite " + itemName;};
-netheritetic.localizedName = "Netherite";
+netheritetic.itemLocalizer = function(thisMaterial, itemName){return "炎岩 " + itemName;};
+netheritetic.localizedName = "炎岩";
 netheritetic.register();
 
 val bloodmastertic = mods.contenttweaker.tconstruct.MaterialBuilder.create("bloodmaster");
@@ -81,8 +81,8 @@ bloodmastertic.addExtraMaterialStats(60);
 bloodmastertic.addProjectileMaterialStats();
 bloodmastertic.addBowMaterialStats(0.5, 18.4, 15);
 bloodmastertic.addMaterialTrait("blazing");
-bloodmastertic.itemLocalizer = function(thisMaterial, itemName){return "Bloodmaster " + itemName;};
-bloodmastertic.localizedName = "Bloodmaster";
+bloodmastertic.itemLocalizer = function(thisMaterial, itemName){return "血主 " + itemName;};
+bloodmastertic.localizedName = "血主";
 bloodmastertic.register();
 
 
@@ -99,8 +99,8 @@ adamantiumtic.addExtraMaterialStats(100000);
 adamantiumtic.addProjectileMaterialStats();
 adamantiumtic.addBowMaterialStats(4.5, 18.4, 12);
 adamantiumtic.addMaterialTrait("magnetic2");
-adamantiumtic.itemLocalizer = function(thisMaterial, itemName){return "Adamantium " + itemName;};
-adamantiumtic.localizedName = "Adamantium";
+adamantiumtic.itemLocalizer = function(thisMaterial, itemName){return "艾德曼 " + itemName;};
+adamantiumtic.localizedName = "艾德曼";
 adamantiumtic.register();
 
 // val vibraniumtic = mods.contenttweaker.tconstruct.MaterialBuilder.create("vibranium");
@@ -134,8 +134,8 @@ vibraniumtic.addExtraMaterialStats(5000);
 vibraniumtic.addProjectileMaterialStats();
 vibraniumtic.addBowMaterialStats(0.2, 20.0, 182);
 vibraniumtic.addMaterialTrait("sos");
-vibraniumtic.itemLocalizer = function(thisMaterial, itemName){return "Vibranium " + itemName;};
-vibraniumtic.localizedName = "Vibranium";
+vibraniumtic.itemLocalizer = function(thisMaterial, itemName){return "振金 " + itemName;};
+vibraniumtic.localizedName = "振金";
 vibraniumtic.register();
 
 // val vibraniumalloytic = mods.contenttweaker.tconstruct.MaterialBuilder.create("vibranium_alloy");
@@ -169,8 +169,8 @@ vibraniumalloytic.addExtraMaterialStats(5000);
 vibraniumalloytic.addProjectileMaterialStats();
 vibraniumalloytic.addBowMaterialStats(0.5, 4.0, 45);
 vibraniumalloytic.addMaterialTrait("endspeed");
-vibraniumalloytic.itemLocalizer = function(thisMaterial, itemName){return "Vibranium Alloy " + itemName;};
-vibraniumalloytic.localizedName = "Vibranium Alloy";
+vibraniumalloytic.itemLocalizer = function(thisMaterial, itemName){return "振金合金 " + itemName;};
+vibraniumalloytic.localizedName = "振金合金";
 vibraniumalloytic.register();
 
 // val enderfeathertic = mods.contenttweaker.tconstruct.MaterialBuilder.create("ender_feather");
@@ -205,8 +205,8 @@ parafrosynium.addProjectileMaterialStats();
 parafrosynium.addMaterialTrait("darktraveler");
 parafrosynium.addMaterialTrait("runic1");
 parafrosynium.addMaterialTrait("stalwart");
-parafrosynium.itemLocalizer = function(thisMaterial, itemName){return "Parafrosynium " + itemName;};
-parafrosynium.localizedName = "Parafrosynium";
+parafrosynium.itemLocalizer = function(thisMaterial, itemName){return "狂乱 " + itemName;};
+parafrosynium.localizedName = "狂乱";
 parafrosynium.register();
 
 val rosidian = mods.contenttweaker.tconstruct.MaterialBuilder.create("rosidian");
@@ -223,8 +223,8 @@ rosidian.addProjectileMaterialStats();
 rosidian.addMaterialTrait("sharp");
 rosidian.addMaterialTrait("jaded");
 rosidian.addMaterialTrait("natureswrath");
-rosidian.itemLocalizer = function(thisMaterial, itemName){return "Rosidian " + itemName;};
-rosidian.localizedName = "Rosidian";
+rosidian.itemLocalizer = function(thisMaterial, itemName){return "伊恩 " + itemName;};
+rosidian.localizedName = "伊恩";
 rosidian.register();
 
 val phasingalloy = mods.contenttweaker.tconstruct.MaterialBuilder.create("phasing_alloy");
@@ -241,8 +241,8 @@ phasingalloy.addProjectileMaterialStats();
 phasingalloy.addMaterialTrait("reflect");
 phasingalloy.addMaterialTrait("exploit");
 phasingalloy.addMaterialTrait("portly");
-phasingalloy.itemLocalizer = function(thisMaterial, itemName){return "Phasing Alloy " + itemName;};
-phasingalloy.localizedName = "Phasing Alloy";
+phasingalloy.itemLocalizer = function(thisMaterial, itemName){return "相位合金 " + itemName;};
+phasingalloy.localizedName = "相位合金";
 phasingalloy.register();
 
 val wroughtiron = mods.contenttweaker.tconstruct.MaterialBuilder.create("wrought_iron");
@@ -259,8 +259,8 @@ wroughtiron.addProjectileMaterialStats();
 wroughtiron.addMaterialTrait("hailhydra");
 wroughtiron.addMaterialTrait("unnamed");
 wroughtiron.addMaterialTrait("sharp");
-wroughtiron.itemLocalizer = function(thisMaterial, itemName){return "Wrought Iron " + itemName;};
-wroughtiron.localizedName = "Wrought Iron";
+wroughtiron.itemLocalizer = function(thisMaterial, itemName){return "锻铁 " + itemName;};
+wroughtiron.localizedName = "锻铁";
 wroughtiron.register();
 
 val barathosynium = mods.contenttweaker.tconstruct.MaterialBuilder.create("barathosynium");
@@ -277,8 +277,8 @@ barathosynium.addProjectileMaterialStats();
 barathosynium.addMaterialTrait("thunder2");
 barathosynium.addMaterialTrait("flame2");
 barathosynium.addMaterialTrait("frost2");
-barathosynium.itemLocalizer = function(thisMaterial, itemName){return "Barathosynium " + itemName;};
-barathosynium.localizedName = "Barathosynium";
+barathosynium.itemLocalizer = function(thisMaterial, itemName){return "爵士元素 " + itemName;};
+barathosynium.localizedName = "爵士元素";
 barathosynium.register();
 
 val abyssalflesh = mods.contenttweaker.tconstruct.MaterialBuilder.create("abyssal_flesh");
@@ -296,8 +296,8 @@ abyssalflesh.addMaterialTrait("energyeater");
 abyssalflesh.addMaterialTrait("manaeater");
 abyssalflesh.addMaterialTrait("dreadpurity");
 abyssalflesh.addMaterialTrait("laced");
-abyssalflesh.itemLocalizer = function(thisMaterial, itemName){return "Abyssal Flesh " + itemName;};
-abyssalflesh.localizedName = "Abyssal Flesh";
+abyssalflesh.itemLocalizer = function(thisMaterial, itemName){return "深渊血肉 " + itemName;};
+abyssalflesh.localizedName = "深渊血肉";
 abyssalflesh.register();
 
 
@@ -314,8 +314,8 @@ ichorium.addExtraMaterialStats(5000);
 ichorium.addProjectileMaterialStats();
 ichorium.addMaterialTrait("bloodymary");
 ichorium.addMaterialTrait("ecological");
-ichorium.itemLocalizer = function(thisMaterial, itemName){return "Crystalline Ichorium " + itemName;};
-ichorium.localizedName = "Crystalline Ichorium";
+ichorium.itemLocalizer = function(thisMaterial, itemName){return "晶化灵液素 " + itemName;};
+ichorium.localizedName = "晶化灵液素";
 ichorium.register();
 
 val kaiyualloy = mods.contenttweaker.tconstruct.MaterialBuilder.create("kaiyu");
@@ -332,8 +332,8 @@ kaiyualloy.addProjectileMaterialStats();
 kaiyualloy.addBowMaterialStats(0.5, 8.0, 30);
 kaiyualloy.addMaterialTrait("bone_shock");
 kaiyualloy.addMaterialTrait("high_in_calcium");
-kaiyualloy.itemLocalizer = function(thisMaterial, itemName){return "Kaiyu " + itemName;};
-kaiyualloy.localizedName = "Kaiyu";
+kaiyualloy.itemLocalizer = function(thisMaterial, itemName){return "开宇 " + itemName;};
+kaiyualloy.localizedName = "开宇";
 kaiyualloy.register();
 
 
@@ -352,8 +352,8 @@ berserksteel.addMaterialTrait("exploit");
 berserksteel.addMaterialTrait("payback");
 berserksteel.addMaterialTrait("mod_lavacow.unholytouch");
 berserksteel.addMaterialTrait("holy");
-berserksteel.itemLocalizer = function(thisMaterial, itemName){return "Berserker Steel " + itemName;};
-berserksteel.localizedName = "Berserker Steel";
+berserksteel.itemLocalizer = function(thisMaterial, itemName){return "狂战钢 " + itemName;};
+berserksteel.localizedName = "狂战钢";
 berserksteel.register();
 
 
@@ -371,8 +371,8 @@ stoneendlesshunger.addProjectileMaterialStats();
 stoneendlesshunger.addMaterialTrait("sentience");
 stoneendlesshunger.addMaterialTrait("necrotic");
 stoneendlesshunger.addMaterialTrait("mod_lavacow.famine");
-stoneendlesshunger.itemLocalizer = function(thisMaterial, itemName){return "Endlessly Hungry " + itemName;};
-stoneendlesshunger.localizedName = "Endlessly Hungry";
+stoneendlesshunger.itemLocalizer = function(thisMaterial, itemName){return "无尽饥饿 " + itemName;};
+stoneendlesshunger.localizedName = "无尽饥饿";
 stoneendlesshunger.register();
 
 val infdreadshard = mods.contenttweaker.tconstruct.MaterialBuilder.create("infused_dread_shard");
@@ -389,8 +389,8 @@ infdreadshard.addProjectileMaterialStats();
 infdreadshard.addMaterialTrait("freezing");
 infdreadshard.addMaterialTrait("frost2");
 infdreadshard.addMaterialTrait("apocalypse");
-infdreadshard.itemLocalizer = function(thisMaterial, itemName){return "Infused Dread " + itemName;};
-infdreadshard.localizedName = "Infused Dread";
+infdreadshard.itemLocalizer = function(thisMaterial, itemName){return "灌注怖惧 " + itemName;};
+infdreadshard.localizedName = "灌注怖惧";
 infdreadshard.register();
 
 val brightsteelalloy = mods.contenttweaker.tconstruct.MaterialBuilder.create("brightsteel_alloy");
@@ -408,8 +408,8 @@ brightsteelalloy.addMaterialTrait("runic2");
 brightsteelalloy.addMaterialTrait("flame2");
 brightsteelalloy.addMaterialTrait("morganlefay");
 brightsteelalloy.addMaterialTrait("baron");
-brightsteelalloy.itemLocalizer = function(thisMaterial, itemName){return "Brightsteel Alloy " + itemName;};
-brightsteelalloy.localizedName = "Brightsteel Alloy";
+brightsteelalloy.itemLocalizer = function(thisMaterial, itemName){return "亮钢合金 " + itemName;};
+brightsteelalloy.localizedName = "亮钢合金";
 brightsteelalloy.register();
 
 val runandium = mods.contenttweaker.tconstruct.MaterialBuilder.create("runandium");
@@ -426,8 +426,8 @@ runandium.addProjectileMaterialStats();
 runandium.addMaterialTrait("evil_pressure");
 runandium.addMaterialTrait("apocalypse");
 runandium.addMaterialTrait("laced");
-runandium.itemLocalizer = function(thisMaterial, itemName){return "Runandium " + itemName;};
-runandium.localizedName = "Runandium";
+runandium.itemLocalizer = function(thisMaterial, itemName){return "符银 " + itemName;};
+runandium.localizedName = "符银";
 runandium.register();
 
 val ascendeddracalloy = mods.contenttweaker.tconstruct.MaterialBuilder.create("ascended_draconic_alloy");
@@ -444,8 +444,8 @@ ascendeddracalloy.addProjectileMaterialStats();
 ascendeddracalloy.addMaterialTrait("spiky");
 ascendeddracalloy.addMaterialTrait("prickly");
 ascendeddracalloy.addMaterialTrait("ghastly");
-ascendeddracalloy.itemLocalizer = function(thisMaterial, itemName){return "Ascended Draconic Alloy " + itemName;};
-ascendeddracalloy.localizedName = "Ascended Draconic Alloy";
+ascendeddracalloy.itemLocalizer = function(thisMaterial, itemName){return "飞升神龙合金 " + itemName;};
+ascendeddracalloy.localizedName = "飞升神龙合金";
 ascendeddracalloy.register();
 
 val neutronium = mods.contenttweaker.tconstruct.MaterialBuilder.create("neutronium");
@@ -462,8 +462,8 @@ neutronium.addProjectileMaterialStats();
 neutronium.addMaterialTrait("uplifting");
 neutronium.addMaterialTrait("shulking");
 neutronium.addMaterialTrait("frost2");
-neutronium.itemLocalizer = function(thisMaterial, itemName){return "Neutronium " + itemName;};
-neutronium.localizedName = "Neutronium";
+neutronium.itemLocalizer = function(thisMaterial, itemName){return "中子素 " + itemName;};
+neutronium.localizedName = "中子素";
 neutronium.register();
 
 
@@ -481,8 +481,8 @@ hihiirokane.addProjectileMaterialStats();
 hihiirokane.addMaterialTrait("energyeater");
 hihiirokane.addMaterialTrait("manaeater");
 hihiirokane.addMaterialTrait("necrotic");
-hihiirokane.itemLocalizer = function(thisMaterial, itemName){return "Hihi'Irokane " + itemName;};
-hihiirokane.localizedName = "Hihi'Irokane";
+hihiirokane.itemLocalizer = function(thisMaterial, itemName){return "绯绯色金 " + itemName;};
+hihiirokane.localizedName = "绯绯色金";
 hihiirokane.register();
 
 val orichalcum = mods.contenttweaker.tconstruct.MaterialBuilder.create("orichalcum");
@@ -502,8 +502,8 @@ orichalcum.addMaterialTrait("soul1");
 orichalcum.addMaterialTrait("thunder2");
 orichalcum.addMaterialTrait("flame2");
 orichalcum.addMaterialTrait("frost2");
-orichalcum.itemLocalizer = function(thisMaterial, itemName){return "Orichalcum " + itemName;};
-orichalcum.localizedName = "Orichalcum";
+orichalcum.itemLocalizer = function(thisMaterial, itemName){return "山铜 " + itemName;};
+orichalcum.localizedName = "山铜";
 orichalcum.register();
 
 val demonicember = mods.contenttweaker.tconstruct.MaterialBuilder.create("demonc_ember");
@@ -519,8 +519,8 @@ demonicember.addExtraMaterialStats(10);
 demonicember.addProjectileMaterialStats();
 demonicember.addMaterialTrait("infernal_energy");
 demonicember.addMaterialTrait("flame2");
-demonicember.itemLocalizer = function(thisMaterial, itemName){return "Demonic Ember " + itemName;};
-demonicember.localizedName = "Demonic Ember";
+demonicember.itemLocalizer = function(thisMaterial, itemName){return "恶魔余烬 " + itemName;};
+demonicember.localizedName = "恶魔余烬";
 demonicember.register();
 
 val darkmatter = mods.contenttweaker.tconstruct.MaterialBuilder.create("rebalanced_dark_matter");
@@ -537,6 +537,6 @@ darkmatter.addProjectileMaterialStats();
 darkmatter.addBowMaterialStats(0.53, 3.54, 8);
 darkmatter.addMaterialTrait("darkness");
 darkmatter.addMaterialTrait("magical_modifier");
-darkmatter.itemLocalizer = function(thisMaterial, itemName){return "Dark Matter " + itemName;};
-darkmatter.localizedName = "Dark Matter";
+darkmatter.itemLocalizer = function(thisMaterial, itemName){return "暗物质 " + itemName;};
+darkmatter.localizedName = "暗物质";
 darkmatter.register();

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1373
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWelcome to chapter 9!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:alkemia_artifact"
+      },
+      "ismain:1": 1,
+      "name:8": "Supreme Power in the Universe"
+    }
+  },
+  "questID:3": 319,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:alkemia_artifact"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

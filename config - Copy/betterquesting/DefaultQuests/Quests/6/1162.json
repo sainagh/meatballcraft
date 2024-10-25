@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    20344
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oStops rain.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:white_sage"
+      },
+      "name:8": "Ritual of the Parched Sands"
+    }
+  },
+  "questID:3": 1162,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:white_sage"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:acacia_resin"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:sand"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:opal"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:lizard_leg"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

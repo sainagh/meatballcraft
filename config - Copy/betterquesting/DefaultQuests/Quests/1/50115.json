@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    50114
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:magnet"
+      },
+      "name:8": "Item Dislocator"
+    }
+  },
+  "questID:3": 50115,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:magnet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

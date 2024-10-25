@@ -1,6 +1,6 @@
 {
     "registryname": "enchanted_greenhouse",
-    "localizedname": "Enchanted Greenhouse",
+    "localizedname": "附魔温室",
 	"color": "ffffcf",
     "has-factory": true,
     "modifiers": [

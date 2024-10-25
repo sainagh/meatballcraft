@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    205
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFound in the pyramid in the deep dark.\n\n§fA couple of these Testificate secret research organizations seem to be based in the deep dark undergroud caves of Terra. And wow, one of them deals with Dimensional Shards! Finally a clue about what they do!\nIn small quantities, much smaller than what I initially expected, they can be used to embed intelligence into inhanimate matter. Intellingence, not consciousness, but this is quite incredible! No need for neural networks, or even computers! Creating robots with minimal effort! WOW!\nAt some point in the past, a Testificate scholar came up with a way to create an automaton capable of refining Shards into ingots, which are in turn used to build the golems that guard all the towers found all around Terra. These golems can create more ingots, which are used to make more golems, leading to a divergent recursive loop, all under the control of this Testificate group.\nThis appears to be one of the main ways of Testificate warfare, where golems are allowed to spread into enemy territories very quickly. The downsides, the golems themselves are not particularly strong or apt fighters, they are fairly easy to defeat, and they are not easily programmed to recognize froend from foe.\nAnd I am sure that this is not the sole application of Dimensional Shards, if small amounts can do this, what about the massive quantities the invaders of Terra are trying to secure?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:dimensional_ingot"
+      },
+      "name:8": "Dimensional Ingot"
+    }
+  },
+  "questID:3": 219,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:dimensional_ingot"
+            },
+            "TrophyName:8": "Dimensional Golem Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dimensional_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

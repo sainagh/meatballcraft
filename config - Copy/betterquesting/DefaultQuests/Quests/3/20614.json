@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    20527
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "immersivepetroleum:schematic",
+        "tag:10": {
+          "flip:1": 0,
+          "multiblock:8": "IE:Assembler",
+          "rotate:3": 2
+        }
+      },
+      "name:8": "Automated Engineer\u0027s Workbench"
+    }
+  },
+  "questID:3": 20614,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "immersivepetroleum:schematic",
+          "tag:10": {
+            "multiblock:8": "IE:AutoWorkbench"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "immersiveengineering:metal_multiblock"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

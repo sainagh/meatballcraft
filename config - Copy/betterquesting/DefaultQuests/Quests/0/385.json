@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oNether bricks can be made in the hellfire forge!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:catechu_brown"
+      },
+      "name:8": "Catechu Brown"
+    }
+  },
+  "questID:3": 385,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:catechu_brown"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:nether_brick_witches_altar"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:witches_cauldron"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:water_bucket"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

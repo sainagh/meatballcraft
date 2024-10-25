@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1586,
+    20324
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:written_book"
+      },
+      "name:8": "Chapter 3"
+    }
+  },
+  "questID:3": 1766,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:wormhole_catalyst"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

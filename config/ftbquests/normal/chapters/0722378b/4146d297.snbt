@@ -2,7 +2,7 @@
 	x: 8.0d,
 	y: 4.0d,
 	text: [
-		"At the cost of some grid power and some RF, this machine can harness the power of enchanting to create some pretty cool things.",
+		"At the cost of some grid powewr and some RF, this machine can harness the power of enchanting to create some pretty cool things.",
 		"Just like an enchanting table, this requires some external boost (from bookshelves, magical wood, etc.)"
 	],
 	dependencies: [

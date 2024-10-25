@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20156
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe rune altar can only accept mana from mana spreaders.\n\nDrop the required materials for a recipe on the altar.\n\nIf the recipe is successful, the spreader will start shooting mana, until the altar is full.\n\nOnce the altar is full, you have to drop a livingrock on it, and right click with a wand of the forest to complete the craft.\n\nRunes in rune altar recipes are not consumed.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:runealtar"
+      },
+      "name:8": "Runic Altar"
+    }
+  },
+  "questID:3": 20163,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:runealtar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

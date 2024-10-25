@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20533
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Pulverizes things producing chance drops.\nGrinding balls can be used to increase yield.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_sag_mill"
+      },
+      "name:8": "SAG Mill"
+    }
+  },
+  "questID:3": 20567,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_sag_mill"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

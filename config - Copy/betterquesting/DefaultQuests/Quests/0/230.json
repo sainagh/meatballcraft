@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    216
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFound in the stone edge mazes.\n\n§fWhile this world, like many others, is linked to Terra through wormholes, it is different than the rest. The crimson cult uses those portals to travel back and forth between the planets, but the general population of the Twilight Forest seems uninterested in the outside conflict. Well, with the exception of crabs...\nInstead, they are going through their own conflict. The land is covered in ruins, hinting at an ancient might, and powerful creatures control specific regions of the world. These creatures hold magic powers of what I call the mythic type, and they seem to hold strong grudges against each other.\nOne of these creatures is a big snake living in a maze. There is no way this creature built the maze itself, so who did? \nWith the exception of the crimson cult, who seem to have their own architecture and infrastructure outside of the proper forest, I have met no sentient life here.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "twilightforest:trophy"
+      },
+      "name:8": "Greatest of snakes"
+    }
+  },
+  "questID:3": 230,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "twilightforest:naga_scale"
+            },
+            "TrophyName:8": "Naga Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:trophy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

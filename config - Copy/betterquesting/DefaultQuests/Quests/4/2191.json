@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1221
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe Beam Former allows to connect two sections of ME cables at a short distance (32 blocks in a straight line).\n\nA beam will form between Formers if a path is available between them. The beam can pass through transparent blocks, including other ME cables.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nae2:part"
+      },
+      "name:8": "Beam Former"
+    }
+  },
+  "questID:3": 2191,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nae2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

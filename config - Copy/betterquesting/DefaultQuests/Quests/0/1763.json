@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    203
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFound natually in Iceika.\n\n§fThe extents of the magic powers of this master wizard are incredible. Not only the land has been affected, but life too.\nMy abilities can bring forth new life, but nothing that comes even close to the Frostmaws of Iceika.\nI don\u0027t feel like I am built for wizardry, but I sure want to improve my capabilities. Maybe technology can help with that!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mowziesmobs:ice_crystal"
+      },
+      "name:8": "The Ice Beast"
+    }
+  },
+  "questID:3": 1763,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 1,
+            "TrophyColorGreen:3": 1,
+            "TrophyColorRed:3": 1,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "mowziesmobs:ice_crystal"
+            },
+            "TrophyName:8": "Frostmaw Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mowziesmobs:ice_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

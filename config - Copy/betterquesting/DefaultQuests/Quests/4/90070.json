@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90058
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oController slaves can be used to connect parts of a drawer network for additional inputs and outputs.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "storagedrawers:controllerslave"
+      },
+      "name:8": "Controller Slave"
+    }
+  },
+  "questID:3": 90070,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "storagedrawers:controllerslave"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

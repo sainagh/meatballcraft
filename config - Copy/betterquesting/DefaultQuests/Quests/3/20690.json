@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20546
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Uses a hefty amount of energy to draconically infuse items from surrounding injectors.\nEach injector consumes power.\nThe higher the tier of the injectors, the faster parts will craft.\nMany items require a minimum tier for the injectors.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:fusion_crafting_core"
+      },
+      "name:8": "Fusion Crafting Core"
+    }
+  },
+  "questID:3": 20690,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:fusion_crafting_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

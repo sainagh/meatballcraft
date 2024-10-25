@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    90131
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe following quests show the ways to store items/fluids in your AE2 network as a storage system.\n\nTo store general items, you can use the ME drive with storage cells.\n\nTo store items that are being automated passively, you should use storage buses on drawer walls or danks!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extracells:storage.casing"
+      },
+      "name:8": "Storage!"
+    }
+  },
+  "questID:3": 1236,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

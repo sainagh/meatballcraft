@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1444
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mysticalagriculture:void_metal_seeds"
+      },
+      "name:8": "Void Metal"
+    }
+  },
+  "questID:3": 1494,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:void_metal_seeds"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

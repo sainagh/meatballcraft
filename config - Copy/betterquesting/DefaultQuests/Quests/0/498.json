@@ -1,0 +1,82 @@
+{
+  "preRequisites:11": [
+    499
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse a silvro coin on a silverfoot altar to summon Silverfoot.\n\nUse a gold spring on a mechbot altar to summon MechBot.\n\n§fFrom many of the early expeditions to Antartica, reports mention a peculiar species of penguin, the Adèlie. During those times not much was divulged about these birds; not because they were hard to observe, but because their habits were enough to traumatize the scientists trying to study them.\nAdèlie penguins, as they enter adulthood, develop extremely violent unhinged tendencies, tendencies that are only satiated through enough violence to scar a scientist for life.\nIromine reminds me of that, the Polytoms that roam this world are senseless berserks unwilling of any feeling of restraint or mercy. Not even against their own. Things that would very easily be considered war crimes are a common occurrance in this world.\nThe only thing that brings some sort of order and direction are its rulers, who are powerful enough to hold order in case of rebellions against their (and the Shyre Empire\u0027s) authority. The term \u0027jailer of the damned\u0027 has never felt more appropriate...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:iromine_cap"
+      },
+      "name:8": "Iromine Falls"
+    }
+  },
+  "questID:3": 498,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:silver_foot"
+            },
+            "TrophyName:8": "Silverfoot Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:mechbot_cpu"
+            },
+            "TrophyName:8": "Mechbot Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:iromine_cap"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:iromine_callstone"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:silvro_coin"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:gold_spring"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

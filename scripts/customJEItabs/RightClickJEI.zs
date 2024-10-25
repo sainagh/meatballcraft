@@ -6,7 +6,7 @@ import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
-var rightclickitemJEI as IJeiPanel = JEI.createJei("right_click_meatball", "Right Clicking");
+var rightclickitemJEI as IJeiPanel = JEI.createJei("right_click_meatball", "右键点击");
 rightclickitemJEI.setModid("MeatballCraft");
 rightclickitemJEI.setIcon(<contenttweaker:use_item>);
 rightclickitemJEI.addRecipeCatalyst(<contenttweaker:use_item>);
@@ -17,7 +17,7 @@ rightclickitemJEI.addElement(IJeiUtils.createArrowElement(64, 25, 0));
 rightclickitemJEI.addElement(IJeiUtils.createImageElement("mouseLeft", 68, 6, 13, 14, 0, 0, "contenttweaker:textures/gui/mouse_right.png", 16, 16));
 rightclickitemJEI.onTooltip(function(mouseX, mouseY) as string[]{
   if (mouseX <= 81 && mouseX >= 68 && mouseY <= 22 && mouseY >= 6) {
-    return ["Right click"];
+    return ["右键点击"];
   }  
   return [];
 });

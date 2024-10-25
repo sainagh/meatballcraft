@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20344
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTeleports you to a location indicated by a waystone.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:waystone"
+      },
+      "name:8": "Rite of the Open Way"
+    }
+  },
+  "questID:3": 1161,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:waystone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

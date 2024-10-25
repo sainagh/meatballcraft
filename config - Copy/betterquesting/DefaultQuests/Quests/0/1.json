@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    0
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oI don\u0027t want to overload you with knowledge, so important info will become available through checkbox quests and subtitles when it\u0027s needed. If you feel like something is wrong, let me know on discord!\n\n§rThere it is, I found a way to use these higher dimensions to produce \u0027rifts\u0027 (spherical in shape) that allow to travel through space. Who knows what great advancements such a discovery would cause?!\nToday is the day! I will be the first human to open a wormhole!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:grass"
+      },
+      "name:8": "A Rift",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:bento_m"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

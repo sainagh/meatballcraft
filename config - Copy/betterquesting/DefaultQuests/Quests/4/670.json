@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    90171
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWireless version of the pattern terminal. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:wireless_pattern_terminal",
+        "tag:10": {}
+      },
+      "name:8": "Wireless Pattern terminal"
+    }
+  },
+  "questID:3": 670,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:wireless_pattern_terminal",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

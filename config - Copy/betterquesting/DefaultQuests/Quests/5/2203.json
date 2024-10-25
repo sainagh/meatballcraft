@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    2202
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTo breed trees, you need two things: pollen and saplings.\n\nTo collect pollen, you can right click forestry leaves using a pollen collection kit.\n\nThe grafter is a tool that breaks leaves with highly increased drop rates!\n\nWARNING: keeping forestry saplings placed for extended periods of time can cause lag due to the spawning of butterflies!\n\nThe portable analyzer can be used to check the stats and genes of your trees. These are not as important as bee genetics, since there is a custom multiblock that lets you farm trees in a lag-free environment!\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "gendustry:industrial_grafter",
+        "tag:10": {
+          "charge:3": 100000
+        }
+      },
+      "name:8": "Basic Tree Tools"
+    }
+  },
+  "questID:3": 2203,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 100,
+          "id:8": "gendustry:industrial_grafter",
+          "tag:10": {
+            "charge:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gendustry:pollen_kit"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "forestry:portable_alyzer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

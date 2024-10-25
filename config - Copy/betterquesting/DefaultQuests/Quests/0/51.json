@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    48
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe mob imprisonment tool lets you capture and move mobs around. There are other options as well, but this is the least buggy on§fe!\n\nI can now capture and transport other creatures for my own purposes, I promise I will not abuse this...",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {}
+        },
+        "id:8": "industrialforegoing:mob_imprisonment_tool"
+      },
+      "name:8": "Imprisonment"
+    }
+  },
+  "questID:3": 51,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:mob_imprisonment_tool"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "industrialforegoing:mob_imprisonment_tool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

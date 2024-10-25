@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    1007
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "At the cost of DNA and Protein, I can even make new bees from scratch, including hard-to-get princesses!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gendustry:liquifier"
+      },
+      "name:8": "Protein Liquifier"
+    }
+  },
+  "questID:3": 20492,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gendustry:liquifier"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gendustry:extractor"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gendustry:replicator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

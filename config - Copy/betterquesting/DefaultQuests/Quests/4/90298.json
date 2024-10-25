@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1184
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oOut of the infinite energy cables, these are the worst for lag!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8,
+        "id:8": "techreborn:cable"
+      },
+      "name:8": "Superconductor Cable"
+    }
+  },
+  "questID:3": 90298,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "techreborn:cable"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

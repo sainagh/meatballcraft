@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    148,
+    146,
+    147
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "I\u0027ve learnt something new about astral magic! Its power originates from the influence of numerically imaginary and comples gravity spreading through space time!\nThose that harness this power, including me, use this influence to affect the world around them. After leaving this imaginary realm (I\u0027m not quite sure how to visualize such a thing, but the math makes sense), starlight manifests as a liquid.\nWhile starlight is one form of this power that exists in the imaginary plane of existance, I suspect there may be other types. Who knows what type of magic I may be able to do with other lights.\nThose in the Twilight Horde seem to be able to use these higher-dimensional powers directly for much more powerful uses, including the opening of wormholes!\nBy reverse-engineering this theory, I can now use it to reopen portals to their world!\nI suspect this may have to do with the nature of the Dungeon of Arcana as well, but at the moment it\u0027s a total guess.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:divine_rock"
+      },
+      "name:8": "Into the Twilit Skies!"
+    }
+  },
+  "questID:3": 149,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:divine_star"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:divine_rock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

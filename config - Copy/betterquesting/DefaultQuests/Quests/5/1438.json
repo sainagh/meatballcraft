@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1437
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe seeds listed in the following quests will come in handy!\n\nNot all seeds are listed here, but the useful ones are here!\n\nThanks to shadow46x2 for helping with the list!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "Notable Plants"
+    }
+  },
+  "questID:3": 1438,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:wheat_seeds"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

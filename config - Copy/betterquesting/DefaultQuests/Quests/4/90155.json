@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1232
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oPatters are used to store crafting and processing recipes so that your AE2 network can autocraft!\n\nPatterns are encoded in the pattern terminal (any type).\n\nTo perform a recipe, place a pattern into an interface. If this is set up correctly, you will be able to requiest automatic crafting of items from your crafting terminal!\n\nIf the interface is touching a molecular assembler, it will perform a crafting recipe.\n\nIf the interface is next to a machine (furnace, pulverizer, chest, etc) it will perform a processing recipe.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 52,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Blank Pattern"
+    }
+  },
+  "questID:3": 90155,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 52,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

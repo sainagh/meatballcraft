@@ -2,7 +2,7 @@
 	title: "Alien technology is cool!",
 	x: 15.5d,
 	y: 1.5d,
-	description: "Used to craft machines from EnderIO (see manufacturing and fabrication)",
+	description: "Used to craft machines from enderIO (see manufacturing and fabrication)",
 	text: [
 		"It seems like my unwanted connection with death has some other uses besides immortality.",
 		"This death energy can be used to make machines!"

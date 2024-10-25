@@ -1,0 +1,74 @@
+{
+  "preRequisites:11": [
+    206
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe boss can be summoned in three different ways.\n\nDetonate an oblivion death bomb (do it a universe away from your base).\n\nCraft the spawn egg.\n\nPerform the ritual of shadows in the abyssal wastelands.\n\n§fWhile I\u0027m at it, it\u0027s time to investigate the phenomenon of \u0027recursion\u0027, which apparently is the ability to \u0027perennially exist\u0027.\nThis is what allows me to come back every time after I \u0027die\u0027.\nMany of the creatures I am encountering have this power, but, unlike me, they have control over it, while I am still bound to the will of whoever decided to give me recursion.\nIf I were able to learn this power, I may be able to gain the ability to split my being into multiple places as one, just like the ancient Entity...\nNow at least I understand why there\u0027s so many withers; apparently there are only 6 but they are able to exist \u0027everywhere they are summoned\u0027 thanks to the power of recursion.\nThe cause for why they are able to do so is the Draconium that was used to originate the six original withers, or so testificate lore says.\nDraconium may be the key to mastering recursion, and free myself!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "abyssalcraft:odb"
+      },
+      "name:8": "Ritual of Shadows"
+    }
+  },
+  "questID:3": 240,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 3,
+              "id:8": "abyssalcraft:scroll"
+            },
+            "TrophyName:8": "Slayer of Shadows",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "abyssalcraft:scroll",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "abyssalcraft:odb"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:spawn_egg",
+          "tag:10": {
+            "EntityTag:10": {
+              "id:8": "abyssalcraft:shadowboss"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,989 @@
+{
+  "preRequisites:11": [
+    1253,
+    20324
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAdvanced rocketry gets buggy sometimes (often). These bees will let you craft new warpers that will let you get to these planets without havint to deal with buggy rockets.\nYou will still have to make at least one rocket, and a space station, as all of these warper items, with the exception of the first one, can only be used in space!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:bee_stargate"
+      },
+      "name:8": "Skip (some) Advanced Rocketry"
+    }
+  },
+  "questID:3": 2257,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forestry:bee_queen_ge",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gendustry.bee.Pyramid",
+                  "UID1:8": "gendustry.bee.Pyramid"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlow",
+                  "UID1:8": "forestry.speedSlow"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanShort",
+                  "UID1:8": "forestry.lifespanShort"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceDown2",
+                  "UID1:8": "forestry.toleranceDown2"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "forestry.flowersNether",
+                  "UID1:8": "forestry.flowersNether"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlowest",
+                  "UID1:8": "forestry.floweringSlowest"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "forestry.effectAggressive",
+                  "UID1:8": "forestry.effectAggressive"
+                }
+              }
+            },
+            "Health:3": 30,
+            "IsAnalyzed:1": 0,
+            "Mate:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gendustry.bee.Pyramid",
+                  "UID1:8": "gendustry.bee.Pyramid"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlow",
+                  "UID1:8": "forestry.speedSlow"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanShort",
+                  "UID1:8": "forestry.lifespanShort"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceDown2",
+                  "UID1:8": "forestry.toleranceDown2"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "forestry.flowersNether",
+                  "UID1:8": "forestry.flowersNether"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlowest",
+                  "UID1:8": "forestry.floweringSlowest"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "forestry.effectAggressive",
+                  "UID1:8": "forestry.effectAggressive"
+                }
+              }
+            },
+            "MaxH:3": 30
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "forestry:bee_queen_ge",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gendustry.bee.Buried",
+                  "UID1:8": "gendustry.bee.Buried"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedNormal",
+                  "UID1:8": "forestry.speedNormal"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanElongated",
+                  "UID1:8": "forestry.lifespanElongated"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityLow",
+                  "UID1:8": "forestry.fertilityLow"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceUp2",
+                  "UID1:8": "forestry.toleranceUp2"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "magicbees:flowersbookshelf",
+                  "UID1:8": "magicbees:flowersbookshelf"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlowest",
+                  "UID1:8": "forestry.floweringSlowest"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "forestry.effectNone",
+                  "UID1:8": "forestry.effectNone"
+                }
+              }
+            },
+            "Health:3": 45,
+            "IsAnalyzed:1": 0,
+            "Mate:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gendustry.bee.Buried",
+                  "UID1:8": "gendustry.bee.Buried"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedNormal",
+                  "UID1:8": "forestry.speedNormal"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanElongated",
+                  "UID1:8": "forestry.lifespanElongated"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityLow",
+                  "UID1:8": "forestry.fertilityLow"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceUp2",
+                  "UID1:8": "forestry.toleranceUp2"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "magicbees:flowersbookshelf",
+                  "UID1:8": "magicbees:flowersbookshelf"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlowest",
+                  "UID1:8": "forestry.floweringSlowest"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "forestry.effectNone",
+                  "UID1:8": "forestry.effectNone"
+                }
+              }
+            },
+            "MaxH:3": 45
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "forestry:bee_queen_ge",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gendustry.bee.Controller",
+                  "UID1:8": "gendustry.bee.Controller"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlowest",
+                  "UID1:8": "forestry.speedSlowest"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanShorter",
+                  "UID1:8": "forestry.lifespanShorter"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "gendustry.flowersSideralSteel",
+                  "UID1:8": "gendustry.flowersSideralSteel"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlowest",
+                  "UID1:8": "forestry.floweringSlowest"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "forestry.effectNone",
+                  "UID1:8": "forestry.effectNone"
+                }
+              }
+            },
+            "Health:3": 20,
+            "IsAnalyzed:1": 0,
+            "Mate:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gendustry.bee.Controller",
+                  "UID1:8": "gendustry.bee.Controller"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlowest",
+                  "UID1:8": "forestry.speedSlowest"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanShorter",
+                  "UID1:8": "forestry.lifespanShorter"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "gendustry.flowersSideralSteel",
+                  "UID1:8": "gendustry.flowersSideralSteel"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlowest",
+                  "UID1:8": "forestry.floweringSlowest"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "forestry.effectNone",
+                  "UID1:8": "forestry.effectNone"
+                }
+              }
+            },
+            "MaxH:3": 20
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "forestry:bee_queen_ge",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gendustry.bee.Chevron",
+                  "UID1:8": "gendustry.bee.Chevron"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlowest",
+                  "UID1:8": "forestry.speedSlowest"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanShorter",
+                  "UID1:8": "forestry.lifespanShorter"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "gendustry.flowersSideralSteel",
+                  "UID1:8": "gendustry.flowersSideralSteel"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlowest",
+                  "UID1:8": "forestry.floweringSlowest"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "forestry.effectNone",
+                  "UID1:8": "forestry.effectNone"
+                }
+              }
+            },
+            "Health:3": 20,
+            "IsAnalyzed:1": 0,
+            "Mate:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gendustry.bee.Chevron",
+                  "UID1:8": "gendustry.bee.Chevron"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlowest",
+                  "UID1:8": "forestry.speedSlowest"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanShorter",
+                  "UID1:8": "forestry.lifespanShorter"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "gendustry.flowersSideralSteel",
+                  "UID1:8": "gendustry.flowersSideralSteel"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlowest",
+                  "UID1:8": "forestry.floweringSlowest"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "forestry.effectNone",
+                  "UID1:8": "forestry.effectNone"
+                }
+              }
+            },
+            "MaxH:3": 20
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "forestry:bee_queen_ge",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gendustry.bee.Stargazer",
+                  "UID1:8": "gendustry.bee.Stargazer"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlowest",
+                  "UID1:8": "forestry.speedSlowest"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanShorter",
+                  "UID1:8": "forestry.lifespanShorter"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "gendustry.flowersSideralSteel",
+                  "UID1:8": "gendustry.flowersSideralSteel"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlowest",
+                  "UID1:8": "forestry.floweringSlowest"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "forestry.effectNone",
+                  "UID1:8": "forestry.effectNone"
+                }
+              }
+            },
+            "Health:3": 20,
+            "IsAnalyzed:1": 0,
+            "Mate:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gendustry.bee.Stargazer",
+                  "UID1:8": "gendustry.bee.Stargazer"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlowest",
+                  "UID1:8": "forestry.speedSlowest"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanShorter",
+                  "UID1:8": "forestry.lifespanShorter"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "gendustry.flowersSideralSteel",
+                  "UID1:8": "gendustry.flowersSideralSteel"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlowest",
+                  "UID1:8": "forestry.floweringSlowest"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "forestry.effectNone",
+                  "UID1:8": "forestry.effectNone"
+                }
+              }
+            },
+            "MaxH:3": 20
+          }
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "forestry:bee_queen_ge",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gendustry.bee.Ringbearer",
+                  "UID1:8": "gendustry.bee.Ringbearer"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlowest",
+                  "UID1:8": "forestry.speedSlowest"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanShorter",
+                  "UID1:8": "forestry.lifespanShorter"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "gendustry.flowersSideralSteel",
+                  "UID1:8": "gendustry.flowersSideralSteel"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlowest",
+                  "UID1:8": "forestry.floweringSlowest"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "forestry.effectNone",
+                  "UID1:8": "forestry.effectNone"
+                }
+              }
+            },
+            "Health:3": 20,
+            "IsAnalyzed:1": 0,
+            "Mate:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gendustry.bee.Ringbearer",
+                  "UID1:8": "gendustry.bee.Ringbearer"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlowest",
+                  "UID1:8": "forestry.speedSlowest"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanShorter",
+                  "UID1:8": "forestry.lifespanShorter"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "gendustry.flowersSideralSteel",
+                  "UID1:8": "gendustry.flowersSideralSteel"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlowest",
+                  "UID1:8": "forestry.floweringSlowest"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "forestry.effectNone",
+                  "UID1:8": "forestry.effectNone"
+                }
+              }
+            },
+            "MaxH:3": 20
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:luna_warper"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:osiris_warper"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ptah_warper"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:hator_warper"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:europa_warper"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:oi_warper"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:falacer_warper"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:orcus_warper"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:haumea_warper"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:sedna_warper"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:rhenia_warper"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:myrmex_warper"
+        },
+        "12:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:pixonia_warper"
+        },
+        "13:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:proximabelt_warper"
+        },
+        "14:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:nero_warper"
+        },
+        "15:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:zoi_warper"
+        },
+        "16:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:akathartos_warper"
+        },
+        "17:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:pauram_warper"
+        },
+        "18:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:alkemia_warper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

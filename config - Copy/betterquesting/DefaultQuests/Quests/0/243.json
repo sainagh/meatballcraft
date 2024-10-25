@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    230
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFound in the large branching towers in the twilight forest.\n\n§fSome inhabited architecture! Well, inhabited is a strong word, but an undead lich sitting at the top of a tower is useful intel about this world.\nIt can be assumed that this creature used to be one of the original inhabitants of the Twilight Forest. The iconography inside the tower reflects the aesthetics of the outfits worn by the lich and the other undead.\nI have seen enough magic (look at me, talking as if I were an expert) to safely guess that I may have stumbled into a \u0027magic gone wild\u0027 situation. I have seen it happen, and the testificates have warned me of it, power corrupts.\nThis still doesn\u0027t give any information about the crimson cult, and what they are doing here. They are completely uninterested in the local struggles, and they just sit in their floating castles in the sky. Why are they here to begin with?",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "twilightforest:trophy"
+      },
+      "name:8": "Master of the Tower"
+    }
+  },
+  "questID:3": 243,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "twilightforest:shield_scepter"
+            },
+            "TrophyName:8": "Lich Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "twilightforest:trophy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

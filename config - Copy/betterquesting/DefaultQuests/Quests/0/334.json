@@ -1,0 +1,82 @@
+{
+  "preRequisites:11": [
+    333
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse a staring eye on illusion altar to summon elusive.\n\nTo summon the shadowlord use a book of shadows on a shadow altar\n\n§fUnexpectedly, I stumbled upon a very interesting piece of Kardashev stage 5 politics...\nThe Horde and the Empire don\u0027t really seem to have a problem at fighting each other using all they have, including the use of planet-ending magic, like the one used on the Abyss.\nYet, on Terra, they do not; they are very careful about keeping direct conflict to a minimum.\nThose that lead the troops stationed on my new home, now I know, are not the best either faction has to offer, by far. This is quite good for the testificates, all things considered, I just have to make sure things don\u0027t get worse as a consequence of my actions.\nI think I know why, though, or, at least, I have a plausible explanation that makes sense based on available data.\nEach of these two big civilizations doesn\u0027t just want to get their hands on the shards, they want to control their entire supply chain. Because of this, any action that will damage Terra beyond a certain point might push the other faction to pull the trigger on planet-pulverizing actions. \nThis reminds of the way the nuclear deterrent was used during the cold war on Earth. Neither of the factions raised tensions above a certain point, to avoid having the other press the \u0027kill everyone\u0027 button.\nGood for me, 0% chance I would\u0027ve survived if those eldritch abominations had been waiting for me on Terra!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:abyssal_cap"
+      },
+      "name:8": "Abyss Falls"
+    }
+  },
+  "questID:3": 334,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:shadowlord_eye"
+            },
+            "TrophyName:8": "Shadowlord Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:elusive_horn"
+            },
+            "TrophyName:8": "Elusive Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:abyssal_cap"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:nightmare_flakes"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:book_of_shadows"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:staring_eye"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

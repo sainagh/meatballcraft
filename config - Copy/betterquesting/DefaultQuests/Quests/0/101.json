@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    68
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThrow it on the ground!\n\n§fI really feel bad about the state of Terra...\nI have gained some power, so I\u0027m going to use it to fight back oppressors!\nI hate bullies, and the king of Trolls is definitely one of them!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:troll_idol"
+      },
+      "name:8": "Time for some beatings!"
+    }
+  },
+  "questID:3": 101,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:troll_idol"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:troll_idol"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

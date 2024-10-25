@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    1227
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe interface has two functions, see the section on autocrafting for an explanation on the other functionality.\n\nThe slots at the top of an interface GUI can be configured so that the network will keep a certain amount of items in the interface.\n\nConduits and other pipes can be used to extract and insert things from the interface.\n\nThis is more lag friendly than using export buses.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:interface"
+      },
+      "name:8": "ME Interface"
+    }
+  },
+  "questID:3": 1244,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:interface"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:fluid_interface"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:dual_interface"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:ingredient_buffer"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:large_ingredient_buffer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

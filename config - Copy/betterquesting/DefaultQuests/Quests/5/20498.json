@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    339187524
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Using a tome of arcana, emerald can be converted into experience bottles, this is awesome!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:experience_bottle"
+      },
+      "name:8": "Emeralds to XP"
+    }
+  },
+  "questID:3": 20498,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "minecraft:emerald"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "ebwizardry:arcane_tome"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "id:8": "minecraft:experience_bottle"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

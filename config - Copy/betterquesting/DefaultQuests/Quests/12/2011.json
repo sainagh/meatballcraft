@@ -1,0 +1,45 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    1595,
+    1598
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ebwizardry:sage_robe_lightning"
+      },
+      "name:8": "Storm Sage"
+    }
+  },
+  "questID:3": 2011,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:sage_hat_lightning"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:sage_robe_lightning"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:sage_leggings_lightning"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:sage_boots_lightning"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

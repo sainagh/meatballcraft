@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20064
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§8§7§oThe arcane workbench can be found in wizard towers in the overworld. Careful, they may not be friendly!\n\nAll magic wands can be traded with friendly wizards!\n\nThis is the main block to add spells to your wand, to add mana, and to upgrade it!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ebwizardry:arcane_workbench"
+      },
+      "name:8": "Arcane Workbench"
+    }
+  },
+  "questID:3": 20066,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ebwizardry:arcane_workbench"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

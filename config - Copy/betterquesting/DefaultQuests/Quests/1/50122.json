@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    50054,
+    200
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The goggles of revealing are used to observe many Thaumic phenomena.\nMany of the thaumic fields, which are naturally intangible and impossible to observe, become evident while wearing these goggles.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:goggles"
+      },
+      "name:8": "Goggles of Revealing"
+    }
+  },
+  "questID:3": 50122,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:goggles"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    1681849124,
+    509587062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:hymn_of_the_true_tongue"
+      },
+      "name:8": "The True Tongue"
+    }
+  },
+  "questID:3": 2022468480,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:hymn_of_the_true_tongue"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:hyperuranon_actualizing_fabrial"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:runes_of_the_true_tongue"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

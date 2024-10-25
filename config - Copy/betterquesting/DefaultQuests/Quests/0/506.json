@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    273
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "I do not know if this is going to be of any relevance, but myrmitite emits a strong aura of witchcraft, much stronger than the other fields. None of my tests so far, though, found any use for this. Yet.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "cursed_myrmitite"
+        }
+      },
+      "name:8": "A powerful fluid"
+    }
+  },
+  "questID:3": 506,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forge:bucketfilled",
+          "tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "cursed_myrmitite"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forge:bucketfilled",
+          "tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "cursed_myrmitite"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

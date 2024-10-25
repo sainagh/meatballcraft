@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    304
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:dragons_blood_sapling"
+      },
+      "name:8": "Dragons Blood Sapling"
+    }
+  },
+  "questID:3": 381,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:dragons_blood_sapling"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:dirt"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "id:8": "minecraft:dye"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:boline"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

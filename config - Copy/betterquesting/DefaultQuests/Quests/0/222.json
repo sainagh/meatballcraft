@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    208
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe sapling dropped by the large mask can be used to make fruits in a phytogenic insolator.\n\n§fThere are many outsiders that seem to be interested in dominion over Terra. These dark druids are very particular, very strange...\nThe evil masters of the book of the dead have agreed to some sort of pact, and allowed the druids to bind their world to terra.\nI\u0027m not really sure how something like this may be possible, but this connection is not a simple wormhole. \nBy being able to connect and reshape the dimensions of space, the swamp world the druids inhabit is now \u0027in between\u0027 the space we live in.\nHow do I know this? I don\u0027t know, but the tree for some reason seemed to recognize me...\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thebetweenlands:sapling_spirit_tree"
+      },
+      "name:8": "Evil Trees"
+    }
+  },
+  "questID:3": 222,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 1,
+            "TrophyColorGreen:3": 1,
+            "TrophyColorRed:3": 1,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "thebetweenlands:sapling_spirit_tree"
+            },
+            "TrophyName:8": "Spirit Tree Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thebetweenlands:sapling_spirit_tree"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:betweenlands_callstone_1"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

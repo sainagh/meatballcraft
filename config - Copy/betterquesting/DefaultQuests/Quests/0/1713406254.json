@@ -1,0 +1,74 @@
+{
+  "preRequisites:11": [
+    1479405903
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:sword_of_truth",
+        "tag:10": {
+          "AttributeModifiers:9": {
+            "0:10": {
+              "Amount:3": 4000,
+              "AttributeName:8": "generic.attackDamage",
+              "Name:8": "generic.attackDamage",
+              "Operation:3": 0,
+              "Slot:8": "mainhand",
+              "UUIDLeast:4": 120000,
+              "UUIDMost:4": 121000
+            },
+            "1:10": {
+              "Amount:6": 1.2,
+              "AttributeName:8": "generic.attackSpeed",
+              "Name:8": "generic.attackSpeed",
+              "Operation:3": 0,
+              "Slot:8": "mainhand",
+              "UUIDLeast:4": 120001,
+              "UUIDMost:4": 121001
+            }
+          },
+          "HideFlags:3": 2
+        }
+      },
+      "name:8": "Weaponized Truth"
+    }
+  },
+  "questID:3": 1713406254,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:sword_of_truth",
+          "tag:10": {
+            "AttributeModifiers:9": {
+              "0:10": {
+                "Amount:3": 4000,
+                "AttributeName:8": "generic.attackDamage",
+                "Name:8": "generic.attackDamage",
+                "Operation:3": 0,
+                "Slot:8": "mainhand",
+                "UUIDLeast:4": 120000,
+                "UUIDMost:4": 121000
+              },
+              "1:10": {
+                "Amount:6": 1.2,
+                "AttributeName:8": "generic.attackSpeed",
+                "Name:8": "generic.attackSpeed",
+                "Operation:3": 0,
+                "Slot:8": "mainhand",
+                "UUIDLeast:4": 120001,
+                "UUIDMost:4": 121001
+              }
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

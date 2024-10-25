@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    76
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oKyronite will soon become necessary! You should have a tier 2 void ore miner up and running!\n\n§fIt is now evident that the great powers of the universe see me as some sort of threat. The enemies that are stalking me are definitely getting better equipment, so I think it\u0027s time for some upgrades.\nBlood Magic is a tricky art, but the knowledge of a blood master could grant me some of the power I am looking for!\nBeing absolutely and totally mentally scarred from all of this elder gods stuff, I at least know of recursion.\nThe machines I built using material impregnated with mythic energy, the miners, now make more sense.\nThe power of recursion, which keeps me immortal, is a mythic art, and I am slowly starting to understand it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:bloodmaster_tome"
+      },
+      "name:8": "I may be losing it..."
+    }
+  },
+  "questID:3": 150,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 4,
+          "id:8": "nuclearcraft:fuel_uranium"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:bloodmaster_tome"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:kyronite_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

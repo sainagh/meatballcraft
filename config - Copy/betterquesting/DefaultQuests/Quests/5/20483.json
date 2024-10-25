@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20490
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe industrail apiary has two functions:\n\n1. Combines a princess and a drone into a queen! You should only put bees of the same species in here, unless you know what you are doing!\n\n2. If you put a queen in the apiary, it will slowly produce combs, drones, and a princess (guaranteed if pristine, only use pristine). \n\nEvery bee will need flowers to work, the portable analyzer will tell you what flowers to use!\n\nIf you get an error, it means you need to change biome or humidity settings! The upgrades in the attached quests can be used to get rid of these arrors.\n\nIf you want to automate a particular type of comb, you can use the automation upgrade!\n\nThe industrial apiary can be tick accelerated using time in a bottle!\n\n§fTechnology makes everything better, waaaaaay better.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gendustry:industrial_apiary"
+      },
+      "name:8": "Industrial Apiary"
+    }
+  },
+  "questID:3": 20483,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gendustry:industrial_apiary"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

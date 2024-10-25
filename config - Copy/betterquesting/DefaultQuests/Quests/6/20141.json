@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    20134
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "abyssalcraft:stone"
+      },
+      "name:8": "Coralium Stone"
+    }
+  },
+  "questID:3": 20141,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "abyssalcraft:stone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

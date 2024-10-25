@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    50082
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oJetpacks are not as good as creative flight, but they can be used in all dimensions!\n\n§fElytra can be used to produce very basic jetpacks, which allow for slow flight.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 16,
+        "id:8": "simplyjetpacks:itemjetpack",
+        "tag:10": {
+          "Energy:3": 0,
+          "JetpackParticle:3": 0
+        }
+      },
+      "name:8": "Leadstone Jetpack"
+    }
+  },
+  "questID:3": 50089,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 16,
+          "id:8": "simplyjetpacks:itemjetpack",
+          "tag:10": {
+            "Energy:3": 0,
+            "JetpackParticle:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

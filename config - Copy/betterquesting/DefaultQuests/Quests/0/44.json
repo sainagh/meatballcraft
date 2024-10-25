@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "For the sake of organization, I started building \u0027drawers\u0027 that can hold a lot of a single item. I don\u0027t know what it is, but I have a feeling I will need these eventually...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "storagedrawers:basicdrawers",
+        "tag:10": {
+          "material:8": "oak"
+        }
+      },
+      "name:8": "Compact Storage"
+    }
+  },
+  "questID:3": 44,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:golden_steak"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:hand_framing_tool"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "drawerBasic",
+          "id:8": "storagedrawers:basicdrawers",
+          "tag:10": {
+            "material:8": "oak"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

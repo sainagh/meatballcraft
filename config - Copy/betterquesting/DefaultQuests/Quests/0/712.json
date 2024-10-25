@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    1597993732
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Something in the past of bee civilization went wrong, really really wrong. This may be the reason behind all the subterfuge, and all the secrets.\nThe helpful bees, so full of nivety and ever-willing to help, helped the wrong people, and to this day they are suffering the consequences. I am not sure what went down exactly, but I know it has to do with the Twilight Horde, and with the Shyre Empire. The two of them had a dealing with the bees, at some point in the past, and they were able to take something from them.\nThose that were involved in this deal are still around, hidden in Europa as a form of self-exile. When I met them, their shame was evident. They still don\u0027t trust me enough to tell me what went wrong, but they think I can help them, so I will!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:europa_spinel"
+      },
+      "name:8": "Secrets of Europa"
+    }
+  },
+  "questID:3": 712,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 100,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:europa_spinel"
+            },
+            "TrophyName:8": "The Betrayal of Bees",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:europa_spinel"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:europa_spinel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_europa"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

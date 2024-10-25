@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    286
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis way for draconic armor!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:reactor_core"
+      },
+      "name:8": "Power from Entropy"
+    }
+  },
+  "questID:3": 428,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:reactor_core"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "draconicevolution:draconium_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

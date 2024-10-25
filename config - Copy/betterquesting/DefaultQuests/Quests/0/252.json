@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    200
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Many artifacts from Testificate lore still seem to be somehow accessible to those seeking for them. This one is quite peculiar, though. I was told of a powerful shield artifact developed to fight against stronger magical opponents, and I was even given blueprints for it.\nThese seem way too complicated for what this artifact can do. There has to be something wrong...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:shield_of_terra"
+      },
+      "name:8": "An Artifact of Defense"
+    }
+  },
+  "questID:3": 252,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 1,
+            "TrophyColorGreen:3": 1,
+            "TrophyColorRed:3": 1,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:shield_of_terra"
+            },
+            "TrophyName:8": "Absorbant Shieldmaster",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:shield_of_terra"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

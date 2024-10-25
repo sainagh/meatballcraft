@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    129
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Well, terra is going through some serious power struggle!\nBut now that I am here, I gotta learn about who is leading this war, the Testificates deserve better!\nI don\u0027t know why I ended up here, or why I can do what I do, but I am here, and I have the power to change some things, so I will do my all to have an effect in this situation.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:scorcher_eternal_flame"
+      },
+      "name:8": "A new contender?"
+    }
+  },
+  "questID:3": 130,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:scorcher_eternal_flame"
+            },
+            "TrophyName:8": "Scorcher Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:scorcher_eternal_flame"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

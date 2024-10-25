@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    209
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oEscape the dungeon of arcana using the gaia tesseract\n\n§fThe fact that the names of Norse Mythology appear in botanical magic is, well, very interesting.\nDid our ancestors know something we have forgotten?\nI do not know why or how, but the power within mana compelled me to the Dungeon of Arcana.\nKnowing this, I started researching Norse legends for clues.\nOne word, somehow, resonated with me from these old texts... Tesseract! An object capable of transcending space and time, and a trick comic writers used to justify space-time magic.\nAsgard, once the realm of Aesir, is no more, and its call has not been answered. The infinite Dungeon of Arcana has taken over the space that used to be Asgard, Alfheim, once reigns of magic.\nThankfully, though, there are more dimensions I can maybe access, with enough magic, and for some reason, I suspect the magic that created Arcana did not include them. Now I just need to enter these dimensions!\nThe ruins of Asgard, this ancient seat of power, are still there, and the key for it is the Tesseract...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:terrasteel_crystal"
+      },
+      "name:8": "Ruins"
+    }
+  },
+  "questID:3": 246,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:terrasteel_crystal"
+            },
+            "TrophyName:8": "Bifrost Wolf Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:gaia_tesseract"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:terrasteel_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

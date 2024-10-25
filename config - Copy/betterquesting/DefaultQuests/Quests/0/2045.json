@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    274
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Pure recursive matter. \nAs I explored and experimented, I have encountered many things that exhibited partially-recursive abilities. Gems that can phase in and out of higher dimensions, blood-imbued myrmitite that self-replicates. All of these felt like \u0027shadows\u0027 of something bigger, something more powerful.\nWhile shadows only provide of a single slice of the true nature of something, if enough shadows from enough angles are used, it is possible to get a good idea about the object that originates them.\nAnd so, I was able to make pure recursive matter. \nMy first Mythic Fractal!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:first_order_mythic_fractal"
+      },
+      "name:8": "First Order Fractal"
+    }
+  },
+  "questID:3": 2045,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 100,
+            "TrophyColorRed:3": 100,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:first_order_mythic_fractal"
+            },
+            "TrophyName:8": "Tier 1 Fractal Boi",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "neon"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:first_order_mythic_fractal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

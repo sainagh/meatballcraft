@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    90346
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:crafter3"
+      },
+      "ismain:1": 1,
+      "name:8": "Crafter Tier 3 (Recommended)"
+    }
+  },
+  "questID:3": 90345,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:crafter3"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    50083
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe tiara gives creative flight consuming mana from a mana tablet or other mana storage!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32767,
+        "ForgeCaps:10": {
+          "thaumicaugmentation:elytra_harness_augment:10": {}
+        },
+        "id:8": "botania:flighttiara"
+      },
+      "name:8": "Flügel Tiara"
+    }
+  },
+  "questID:3": 50087,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "ForgeCaps:10": {
+            "thaumicaugmentation:elytra_harness_augment:10": {}
+          },
+          "id:8": "botania:flighttiara"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

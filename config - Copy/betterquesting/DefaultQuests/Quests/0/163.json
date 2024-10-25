@@ -1,0 +1,64 @@
+{
+  "preRequisites:11": [
+    73
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDo this ASAP\n\n§fMore Mythic minerals, more Shyre matter!\nThis mythic magic, while it is still mostly unknown to me, definitely has rules.\nFirst, energy; it requires lots and lots of energy.\nSecond, power is directly tied to energy expenditure; the more energy is given, the higher the nature of what is produced.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularmachinery:itemblueprint",
+        "tag:10": {
+          "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier2"
+        }
+      },
+      "name:8": "Nether Mythical Resources"
+    }
+  },
+  "questID:3": 163,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "divinerpg:purple_blaze"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "divinerpg:bloodgem_block"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "divinerpg:netherite_block"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "id:8": "aoa3:emberstone_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier2"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

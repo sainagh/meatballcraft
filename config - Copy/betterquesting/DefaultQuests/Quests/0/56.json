@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oGorgons are found in the large stone brick temples found on coasts near the sea!\n\nWear a blindfold to stay alive!\n\n§fHere\u0027s a good example of mythic magic. Gorgons, the ones from greek mythology, and they are here on this world!\nAlmost feels like someone wanted to bring in all sorts of creatures from all folklore in one place.\nAm I in an anime?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "iceandfire:gorgon_head"
+      },
+      "name:8": "Gorgon Head"
+    }
+  },
+  "questID:3": 56,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "projecte:item.pe_fuel"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:gorgon_head"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:blindfold"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

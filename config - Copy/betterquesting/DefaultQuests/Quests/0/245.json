@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    209
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAssemble the gaia arena and click the beacon with gaia spirit ingot\n\n§fYes, I can see a pattern now! A link between worlds, a call from a holy land, is now severed.\nThe home world of these guardians is no more, and their duty has now turned into rage. What was their mission? What did they protect?\nHow does one enter a world that is no more, and how are these guardians still alive? The stronger my call, the stronger their response. There has to be a rule to this!\nAnd why is Arcana linked to this magic to begin with? I know I am missing something, and the answer may be in the ancient lore we \u0027modern men\u0027 rejected as \u0027ancient myths\u0027.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:greater_gaia_spirit"
+      },
+      "name:8": "Tier 2 Gaia Guardian"
+    }
+  },
+  "questID:3": 245,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:greater_gaia_spirit"
+            },
+            "TrophyName:8": "Tier 2 Guardian Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:greater_gaia_spirit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

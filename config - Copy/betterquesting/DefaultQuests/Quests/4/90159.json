@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    1227
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe export buses are used to move items/fluids/essentia from the AE2 network to external inventories.\n\nAn export bus pointing into a chest will put items into the chest.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 260,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Export Bus"
+    }
+  },
+  "questID:3": 90159,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 260,
+          "id:8": "appliedenergistics2:part"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 261,
+          "id:8": "appliedenergistics2:part"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thaumicenergistics:essentia_export"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

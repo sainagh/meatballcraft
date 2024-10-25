@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    50181
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "More compactness!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "techreborn:solar_panel"
+      },
+      "name:8": "LV Solar Array (Good)"
+    }
+  },
+  "questID:3": 50195,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "techreborn:solar_panel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

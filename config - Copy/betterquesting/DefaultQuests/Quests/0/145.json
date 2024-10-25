@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    157
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "With this new understanding of gravity, things like singularities, which I have played with before, should make a lot more sense! Time to study some more!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:singularity_master"
+      },
+      "name:8": "A Point, THE Point"
+    }
+  },
+  "questID:3": 145,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:divine_star"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:ancient_rock"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:singularity_master"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:how_to_finish_meatballcraft"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

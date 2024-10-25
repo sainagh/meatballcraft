@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    50099
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Faster! Higher!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:speedupbelt"
+      },
+      "name:8": "Planestrider\u0027s Sash"
+    }
+  },
+  "questID:3": 50118,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:speedupbelt"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

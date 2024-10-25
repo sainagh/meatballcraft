@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1777
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "deepmoblearning:pristine_matter_elusive"
+      },
+      "name:8": "Elusive (Good)"
+    }
+  },
+  "questID:3": 1773,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "deepmoblearning:pristine_matter_elusive"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "tconstruct:ingots"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "tconstruct:materials"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "actuallyadditions:item_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

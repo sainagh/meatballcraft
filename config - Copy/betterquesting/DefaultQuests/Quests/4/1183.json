@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    90240
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThese will allow you to move items extremely fast, but be careful, fast item transfer is very laggy!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:redstone"
+      },
+      "name:8": "Fast Item Transfer"
+    }
+  },
+  "questID:3": 1183,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "blockGlass",
+          "id:8": "minecraft:glass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

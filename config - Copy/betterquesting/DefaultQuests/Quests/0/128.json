@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    127
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The interest these invaders have for dimensional shards is truly staggering.\nThe nether caves of Terra contain lots of them, and yet nobody was able to tell me a use for these gems.\n\u0027King\u0027 BamBamBam wanted to cut out some sort of supply chain that came from the nether caves.\nI guess greed guides us all, and yet, not even BamBamBam seemed to know what to do with these shards, he just wanted to hold on to them...\nAren\u0027t they just shiny rocks? I really don\u0027t get the excitement. I guess they are rare, but shouldn\u0027t they also be useful to cause entire galaxies to try and do war here?\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:king_bambambam_pelvis"
+      },
+      "name:8": "Violence incites violence..."
+    }
+  },
+  "questID:3": 128,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:king_bambambam_pelvis"
+            },
+            "TrophyName:8": "BamBamBummer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:king_bambambam_pelvis"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

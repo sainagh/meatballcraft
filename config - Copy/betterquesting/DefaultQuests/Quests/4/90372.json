@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    90357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis gate lets you time redstone pulses and signals.\n\nThe gate has a clock input, a reset input, a running output, and an end output.\n\nThe clock for the state cell can be changed by right clicking.\n\nWhen signal enters the clock input, the running output will produce a redstone signal for the amount of seconds specified in the clock. \n\nAt the end of the specified time, the end output will pulse.\n\nThe state cell can be reset with a signal from the reset side.\n\nThe reset input is the side with the clock hand.\n\nThe clock input is the side with a redstone line that\u0027s next to the clock hand.\n\nThe running output is the side with a redstone line that\u0027s opposite to the clock hand.\n\nThe end output is the side with a redstone torch.\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 20,
+        "id:8": "projectred-integration:gate"
+      },
+      "name:8": "State Cell"
+    }
+  },
+  "questID:3": 90372,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 20,
+          "id:8": "projectred-integration:gate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

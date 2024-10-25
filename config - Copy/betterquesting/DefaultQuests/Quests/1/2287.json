@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    2286
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tombstone:scroll_of_knowledge"
+      },
+      "name:8": "Scroll of Knowledge"
+    }
+  },
+  "questID:3": 2287,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tombstone:scroll_of_knowledge"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

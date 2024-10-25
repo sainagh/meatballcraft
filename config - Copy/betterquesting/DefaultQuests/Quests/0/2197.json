@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    2196
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe ultimate furnace is incredibly fast.\n\n§fOk, there may be something more to it. I feel like I am getting carried away, my desires seem to have lost their guide.\nI crave the furnace world, and yet, once I am there, I do not feel satisfied. This feels like drugs, and nothing that feels like drugs can be good. I will have to find some tricks to prevent this obsession from taking control.\nIt sure is going to be hard to stay in control, especially when the furnace world has been able to give me these amazing gadgets!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mysticalagriculture:ultimate_furnace"
+      },
+      "name:8": "Furnace Potential"
+    }
+  },
+  "questID:3": 2197,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:ultimate_furnace"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:inferium_furnace"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:ultimate_furnace"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

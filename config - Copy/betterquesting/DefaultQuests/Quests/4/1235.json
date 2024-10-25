@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1233
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oConverts fluid drop items into fluids.\n\nThis lets you set up automations where you can treat fluid drops as items.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2fc:fluid_packet_decoder"
+      },
+      "name:8": "ME Fluid Packet Decoder"
+    }
+  },
+  "questID:3": 1235,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:fluid_packet_decoder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

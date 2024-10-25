@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    201127
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Head\nDurability: 220\nMining Level: Cobalt\nMining Speed: 3.5\nAttack: 9\nVanishing II\n\nHandle\nModifier: 0.5\nDurability: -50\nDirect\n\nExtra\nDurability: 60\nDirect\n\nBows\nDrawspeed: 1.33\nRange Multiplier: 1\nBonus Damage: 5\nDirect\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:shard",
+        "tag:10": {
+          "Material:8": "vibrant_alloy"
+        }
+      },
+      "name:8": "Vibrant Alloy"
+    }
+  },
+  "questID:3": 201015,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:shard",
+          "tag:10": {
+            "Material:8": "vibrant_alloy"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

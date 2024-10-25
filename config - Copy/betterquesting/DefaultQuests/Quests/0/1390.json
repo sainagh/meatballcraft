@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    5
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis version of minecraft has a weird bug where your player may experience an endless death animation.\n\nTo fix it, use this quest reward.\n\nThis quest is repeatable, so you can get the reward every time you get stuck!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:deathloop"
+      },
+      "name:8": "Stuck in a Deathloop",
+      "repeattime:3": 10000
+    }
+  },
+  "questID:3": 1390,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:deathloop"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

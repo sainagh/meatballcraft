@@ -1,0 +1,73 @@
+{
+  "preRequisites:11": [
+    63
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oNeed to make some RF? All available ways will be in the energy sources tab!\n\nThe logistics and organization tab has a section that includes all power storage methods!\n\n§fNow that I have better means of fabrication, I can start collecting larger amounts of energy.\nFrom now on I expect I\u0027ll need lots of it!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalexpansion:cell",
+        "tag:10": {
+          "Energy:3": 0,
+          "Facing:1": 3,
+          "Level:1": 0,
+          "RSControl:1": 0,
+          "Recv:3": 10000,
+          "Send:3": 10000,
+          "SideCache:7": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "name:8": "I like big batteries and I cannot lie"
+    }
+  },
+  "questID:3": 83,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "randomthings:spectrecoil_number"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermalexpansion:cell",
+          "tag:10": {
+            "Energy:3": 0,
+            "Facing:1": 3,
+            "Level:1": 0,
+            "RSControl:1": 0,
+            "Recv:3": 10000,
+            "Send:3": 10000,
+            "SideCache:7": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

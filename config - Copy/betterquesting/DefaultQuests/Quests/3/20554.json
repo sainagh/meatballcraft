@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20531
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The resonator uses grid power to infuse some materials with grid power, which can be passively produced from a wide array of sources.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extrautils2:resonator"
+      },
+      "name:8": "Resonator"
+    }
+  },
+  "questID:3": 20554,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extrautils2:resonator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

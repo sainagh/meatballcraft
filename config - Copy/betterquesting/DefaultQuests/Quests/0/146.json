@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    144
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Many items have multiple ways to be obtained, but sometimes only one can lead to full automation. JEI is your friend!\nFor example, at this point you should have a passive production of sednanite.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:sednanite_ore"
+      },
+      "name:8": "Look and See..."
+    }
+  },
+  "questID:3": 146,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

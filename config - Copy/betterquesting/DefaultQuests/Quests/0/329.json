@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    328
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Learning about Shyre religion is not what I expected to do as part of my retaliation for Terra, but the insight I am gaining from this place is very useful.\nThe people of Precasia indeed do worship their masters; not as gods, as avatars, envoys of something bigger. In their pantheon there is a clear hierarchy, and by delving into their culture, I was able to get the names of those who sit at the top.\nTheir true deities are called the Immortals... \nDid I just learn who the leaders of the Shyre Empire are?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:precasia_garnet"
+      },
+      "name:8": "Precasian Garnet"
+    }
+  },
+  "questID:3": 329,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:precasia_garnet"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:precasia_garnet"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:precasia_wormhole"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

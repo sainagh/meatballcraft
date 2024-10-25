@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    20530
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Trading is an act between two living things, but it doesn\u0027t have to be like that thanks to this device, which allows to automate this process.\nA villager captured using a Mob Imprisonment Tool can be mercilessly forced to spend the rest of its life as an emerald farm!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "industrialforegoing:villager_trade_exchanger"
+      },
+      "name:8": "Villager Trade Exchanger"
+    }
+  },
+  "questID:3": 20576,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:villager_trade_exchanger"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:mob_imprisonment_tool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

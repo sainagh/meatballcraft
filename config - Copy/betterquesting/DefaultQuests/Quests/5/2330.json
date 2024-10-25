@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    2314
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oLets you craft specific enchanted books",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_enchanter"
+      },
+      "name:8": "EnderIO Enchanter (Great)"
+    }
+  },
+  "questID:3": 2330,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_enchanter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    50275
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUsed to transport salt fluids. If the reactor design is correct, the reactor will output the processed byproduct of the fuel.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:salt_fission_vessel"
+      },
+      "name:8": "Salt Vessel"
+    }
+  },
+  "questID:3": 1975,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:salt_fission_vessel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

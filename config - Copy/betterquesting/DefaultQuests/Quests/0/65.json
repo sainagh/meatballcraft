@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    61
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§G§7§oGeneral and specific mob farms are good to do at this point. Doing a cursed earth farm at y\u003d2 is recommended for better drops! The §cBook of Creation §7§ohas a section dedicated to farming mob drops in better and better ways.\n\nThe scoop will break bee hives found all around. This would bee a good time to start collecting bees! Bee-related tips and tricks can also be found in the  §cBook of Creation§f§7.\n\n§fThe caves located in Terra\u0027s nether region are truly stunning, and truly dangerous!\nThe stone that illuminates these magma-filled caves appears to have magical properties way superior to obsidian",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:glowstone"
+      },
+      "name:8": "Luminous Underground"
+    }
+  },
+  "questID:3": 65,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forestry:scoop"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:glowstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "extrautils2:ingredients"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:mob_relocator"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:mob_duplicator"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

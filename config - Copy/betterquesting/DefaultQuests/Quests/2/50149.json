@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    50148
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This generator consumes leaves in a 7x7x7 range to produce RF.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "actuallyadditions:block_leaf_generator"
+      },
+      "name:8": "Leaf-Eating Generator (OK)"
+    }
+  },
+  "questID:3": 50149,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "actuallyadditions:block_leaf_generator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

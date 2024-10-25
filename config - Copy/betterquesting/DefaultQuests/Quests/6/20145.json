@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20140
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFound through Powerstone Trackers.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "abyssalcraft:psdl"
+      },
+      "name:8": "Dreadlands Infused Powerstone"
+    }
+  },
+  "questID:3": 20145,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "abyssalcraft:psdl"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

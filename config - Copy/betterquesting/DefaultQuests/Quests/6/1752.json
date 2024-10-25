@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    1748
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe crucible can be transformed into the thaumatorium, an upgraded version that has a user interface, and can be automated.\n\nTo form the thaumatorium, place two alchemical contructs on top of a formed crucible, and right click them with salis mundus.\n\nThe thaumatorium can receive essentia from an emptying essentia transfuser placed on its side. It can collect from both nearby jars, and from an essentia infusion provider.\n\nTo select a recipe, place the desired input item, and click on the desired output to bind the thaumatorium to that recipe. If the input item is present, essentia will be automatically drained and the recipe output will be dropped in world in fron of the crucible. A hungry chest or a vacuum chest can be used to collect outputs.\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:crucible"
+      },
+      "name:8": "Crucible Automation"
+    }
+  },
+  "questID:3": 1752,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:metal_alchemical"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:thaumatorium"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    90437
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic",
+        "tag:10": {}
+      },
+      "name:8": "Computers!"
+    }
+  },
+  "questID:3": 90192,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "paneGlass",
+          "id:8": "minecraft:glass_pane"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

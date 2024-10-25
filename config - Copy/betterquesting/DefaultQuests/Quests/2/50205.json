@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    50177
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Generate RF using Dew of the Void, which can be automated using a series of Vats.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_ender_generator"
+      },
+      "name:8": "Ender Generator (OK)"
+    }
+  },
+  "questID:3": 50205,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_ender_generator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    201127
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Head\nDurability: 690\nMining Level: Obsidian\nMining Speed: 6\nAttack: 6\nNature\u0027s Power\n\nHandle\nModifier: 0.8\nDurability: 70\nNature\u0027s Power\n\nExtra\nDurability: 65\nNature\u0027s Power\n\nBows\nDrawspeed: 2.5\nRange Multiplier: 1.4\nBonus Damage: 7\nNature\u0027s Power",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:shard",
+        "tag:10": {
+          "Material:8": "topaz"
+        }
+      },
+      "name:8": "Topaz"
+    }
+  },
+  "questID:3": 201161,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:shard",
+          "tag:10": {
+            "Material:8": "topaz"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

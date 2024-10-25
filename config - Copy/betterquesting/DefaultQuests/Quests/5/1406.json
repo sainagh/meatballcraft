@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1400
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oEden cadillions are a great source of bloodmaster for the long term!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:bloodmaster_metal_head"
+      },
+      "name:8": "Cadillions A\u0027Plenty"
+    }
+  },
+  "questID:3": 1406,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:eden_soul"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 30,
+          "id:8": "contenttweaker:material_part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

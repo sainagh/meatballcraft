@@ -1,0 +1,68 @@
+{
+  "preRequisites:11": [
+    40
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe smeltery is made out of seared bricks (or other seared blocks). \nIt needs a smeltery controller, and at least a seared tank (or other fuel sources), and they can be placed anywhere in the structure.\nThe multiblock consists of a hollow cuboid without edges, and an open top.\nSeared drains with faucets are used to output molten metals to casting tables and basins.\n\n§fFinally at the bronze age! By building a smeltery, I can extract metal from ore more efficiently, and I can start making alloys!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:smeltery_controller"
+      },
+      "name:8": "Alloys"
+    }
+  },
+  "questID:3": 43,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "tconstruct:materials"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:smeltery_controller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "tconstruct:seared_tank"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:smeltery_io"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:casting"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "tconstruct:casting"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "tconstruct:seared"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:faucet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

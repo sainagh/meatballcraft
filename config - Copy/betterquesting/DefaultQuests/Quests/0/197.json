@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    198
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Wow, literally nobody living on Terra is actually from Terra.\nDimensional shards are desired by everything that becomes aware of them, it seems...\nAnd apparently, bugs with mastery of witchery used it to create wormholes and fight for a piece of the pie.\nAnd now I think I know how they did it, and I may be able to travel back to their world...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "erebus:gaean_keystone"
+      },
+      "name:8": "Arthropods are here too!"
+    }
+  },
+  "questID:3": 197,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:web"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "erebus:gaean_keystone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "erebus:portal_activator"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "erebus:altar_offering"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

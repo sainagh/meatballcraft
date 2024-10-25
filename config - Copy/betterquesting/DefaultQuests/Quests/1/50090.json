@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    50089
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Better Jetpacks!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 17,
+        "id:8": "simplyjetpacks:itemjetpack",
+        "tag:10": {
+          "Energy:3": 0,
+          "JetpackParticle:3": 0
+        }
+      },
+      "name:8": "Hardened Jetpack"
+    }
+  },
+  "questID:3": 50090,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 17,
+          "id:8": "simplyjetpacks:itemjetpack",
+          "tag:10": {
+            "Energy:3": 0,
+            "JetpackParticle:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

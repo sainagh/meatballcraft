@@ -1,0 +1,68 @@
+{
+  "preRequisites:11": [
+    90394
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oRedstone conduits have logic gates, but they are a bit unreliable.\n\nFor logic, it is recommended to use projectred.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:item_redstone_not_filter"
+      },
+      "name:8": "Redstone Filter"
+    }
+  },
+  "questID:3": 90393,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_redstone_not_filter"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_redstone_or_filter"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_redstone_and_filter"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_redstone_nor_filter"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_redstone_nand_filter"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_redstone_xor_filter"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_redstone_xnor_filter"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_redstone_toggle_filter"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_redstone_counting_filter"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_redstone_sensor_filter"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_redstone_timer_filter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

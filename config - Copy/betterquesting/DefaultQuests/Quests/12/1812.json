@@ -1,0 +1,41 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    1595,
+    1683
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis set can be used to reduce the vis cost of thaumcraft recipes in the arcane workbench.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:cloth_chest"
+      },
+      "name:8": "Thaumaturge"
+    }
+  },
+  "questID:3": 1812,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:cloth_chest"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:cloth_legs"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:cloth_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

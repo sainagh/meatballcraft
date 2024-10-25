@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    150
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTo make easier fission casings!\n\n§fJust whenever I thought things were starting to make sense, here is something I do not understand at all!\nWhat is going on with magic? My infinite rebirth, my recursion, can also be used to make radioactive compounds, ones that should be impossible to stabilize.\nAnd it all comes back to meatballs, this is just silly.\nA truth that disagrees with current understanding is a sign, though, a sign that it may be time to start looking at a bigger picture.\nString theory, the scientific studies that started all of this, were born out of a desire to unify, to connect things. So far I have treated the branches of magic as independent, and deemed their interactions as the exception. But what if these interactions instead point towards a unity.\nThis recursion, the power I was given without choice, is tied to atomic stability. The field of aura that generates water is a life source for botanical magic. The craziness of the abyssal realms permeates the Crimson Cult. The links are everywhere, a unified theory must exist.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:fission_block"
+      },
+      "name:8": "Don\u0027t think about it too much..."
+    }
+  },
+  "questID:3": 167,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "nuclearcraft:fission_block"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:fission_block"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:meatballium_322"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

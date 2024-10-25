@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    20465
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe agricultural bee will let you make 10/10/10 seeds automatically!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14012,
+        "id:8": "gendustry:honey_comb"
+      },
+      "name:8": "Bees are Good"
+    }
+  },
+  "questID:3": 1398,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 14012,
+          "id:8": "gendustry:honey_comb"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

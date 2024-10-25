@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    20422
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Moon Harvest blood ritual can be used to infuse life essence into plants, and crops too!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bloodmagic:ritual_diviner"
+      },
+      "name:8": "Harvest Moon (OK)"
+    }
+  },
+  "questID:3": 20453,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:ritual_controller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:ritual_diviner"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

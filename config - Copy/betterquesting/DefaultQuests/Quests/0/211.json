@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    197
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o§o§oFound in the pyramid in volcanic deserts.\n\n§fThere are many, many enemies that are after Dimensional Shards, but how do they know of them, and why do they want them?\nAfter seeing so many that seek them, I still have no idea about the very basics I need to understand my enemies and their motives.\nDeep in the temple of the antlions, the apparent ruling class of the bug world, I may have found some hints.\nMachines, golems of ancient origin, were awoken just a few generations ago, and they are the ones that made the antlions aware of the existance of the Shards.\nIt seems like they are directly tied to a deity, a figure of creation, the one that arbitrates knowledge.\nIs access or use of a large amount of Dimensional Shards tied to gaining some divine power?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "erebus:antlion_egg"
+      },
+      "name:8": "Antlion Temple Hunters"
+    }
+  },
+  "questID:3": 211,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "erebus:antlion_egg"
+            },
+            "TrophyName:8": "Antlion Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "erebus:antlion_egg"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:antlion_callstone"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

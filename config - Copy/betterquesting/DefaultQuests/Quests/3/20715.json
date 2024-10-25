@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20548
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "7x7 autocrafting too.\nPlaced next to an unpackager for autocrafting.\nA packager is required somewhere in the AE network, but it doesn\u0027t need to be close.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "packagedexcrafting:elite_crafter"
+      },
+      "name:8": "Elite Package Crafter"
+    }
+  },
+  "questID:3": 20715,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "packagedexcrafting:elite_crafter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20534
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Infuses water into items.\nBasically a worse fluid transposer (but don\u0027t tell him that).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forestry:moistener"
+      },
+      "name:8": "Moistener"
+    }
+  },
+  "questID:3": 20588,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forestry:moistener"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

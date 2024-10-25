@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90056
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Alchemical chests are a fairly cheap but powerful storage option.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "projecte:alchemical_chest"
+      },
+      "name:8": "Alchemical Chest"
+    }
+  },
+  "questID:3": 90077,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "projecte:alchemical_chest"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

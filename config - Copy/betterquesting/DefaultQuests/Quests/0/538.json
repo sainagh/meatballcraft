@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    536
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The way the war in Furatto was concluded is a cruel but viable war tactic, in case I may need it for the future. if I ever find myself in a situation where a planet\u0027s worth of enemies just needs to be erased, filling it with chickens may be the way to go.\nIt is scary to be able to contemplate this thought to begin with, but this is the situation I found myself in, and I must be prepared.\nThere are still going to be many things that can get rid of laser chickens easily, but they seem quite effective anyway.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:secret_weapon"
+      },
+      "name:8": "Secret Weapon"
+    }
+  },
+  "questID:3": 538,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:secret_weapon"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:secret_weapon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

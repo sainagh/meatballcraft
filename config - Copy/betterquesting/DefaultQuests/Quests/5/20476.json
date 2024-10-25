@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20475
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Better virtual minerals, better yield!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:void_ore_miner_cont_2"
+      },
+      "name:8": "Void Ore Miner Tier 2"
+    }
+  },
+  "questID:3": 20476,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:void_ore_miner_cont_2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

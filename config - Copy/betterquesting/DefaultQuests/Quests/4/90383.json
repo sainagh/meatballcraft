@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    90357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWhile reciving a redstone signal from its input side, this gate produces random redstone pulses §7§ofrom all other sides.\n\nRight click with a screwdriver to activate or deactivate each output.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11,
+        "id:8": "projectred-integration:gate"
+      },
+      "name:8": "Randomizer"
+    }
+  },
+  "questID:3": 90383,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "projectred-integration:gate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

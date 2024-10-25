@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1233
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe ME dual interface can store patters for recipes that contain both items and fluids.\n\nFluids will have to be moved with conduits or other fluid transport.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2fc:dual_interface"
+      },
+      "name:8": "ME Dual Interface"
+    }
+  },
+  "questID:3": 90137,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:dual_interface"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

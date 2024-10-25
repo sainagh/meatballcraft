@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    1817
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "It\u0027s not snow! It\u0027s more furnaces (of course)!\nIt\u0027s not just tiny granular furnaces, now there\u0027s tiny crystallized furnaces.\nOne fiend in particular seems to be tied to these tiny furnaces. This one seemed even more \u0027loopy\u0027 than the ones I\u0027ve met before.\nWhile being capable of teleportation and other wonderful powers, one and only one thing drove this creature.\nAnd who can blame it, furnaces are awesome! And there is really nothing more to it, who wouldn\u0027t love furnaces?!?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:whitefire_callstone"
+      },
+      "name:8": "Furnace Snow"
+    }
+  },
+  "questID:3": 2196,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "divinerpg:whitefire_furnace"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "divinerpg:whitefire_furnace"
+            },
+            "TrophyName:8": "Wonderful Whitefire Warrior",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:whitefire_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:whitefire_ember"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

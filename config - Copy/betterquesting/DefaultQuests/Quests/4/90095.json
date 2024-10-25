@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    90437
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oXnet is a medium-power logistics tool.\n\nIt is the recommended way to manage passive automations of lots of different items coming in and out of machines.\n\nIt is much more performant than enderIO conduits for item transfer.\n\nXnet can also be used to mode energy, although the transfer rate may not be high enough for all applications.\n\nBecause of a bug with the mod, conduits are still better than Xnet for fluid automation.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic",
+        "tag:10": {}
+      },
+      "name:8": "Xnet"
+    }
+  },
+  "questID:3": 90095,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:machine_frame"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

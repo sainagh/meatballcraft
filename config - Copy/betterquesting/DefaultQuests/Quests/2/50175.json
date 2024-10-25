@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    50174
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The elemental catalyzer allows for increased output from the reactant dynamo.\nThis limits the types of inputs the dynamo can accept.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 688,
+        "id:8": "thermalexpansion:augment"
+      },
+      "name:8": "Augment: Elemental Catalyzer"
+    }
+  },
+  "questID:3": 50175,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 688,
+          "id:8": "thermalexpansion:augment"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

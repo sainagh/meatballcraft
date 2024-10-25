@@ -1,0 +1,69 @@
+{
+  "preRequisites:11": [
+    208
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oSlay tar beasts and wights to craft a tar beast heart.\n\n§fThe stories and legends of \u0027pacts with the devil\u0027 seem to have some truths to them. The power of the druids is not their own, it comes from the abyssal beings, who gave them the power to be like them.\nThe devil of folklore always gave a great price, and so did the abyssal ones. The druids were able to ascent to higher dimensions of space, but they had to pay for their freedom.\nThey are now just slaves that use their powers to capture more and more beings to the cause of the abyssal ones.\nI would like to know what the swamp looked like before this pact...",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 24,
+        "id:8": "thebetweenlands:items_misc"
+      },
+      "name:8": "Tormented Souls"
+    }
+  },
+  "questID:3": 658,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 24,
+              "id:8": "thebetweenlands:items_misc"
+            },
+            "TrophyName:8": "Tar Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        },
+        "1:10": {
+          "Count:3": 8,
+          "id:8": "thebetweenlands:fumigant"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 24,
+          "id:8": "thebetweenlands:items_misc"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:betweenlands_callstone_4"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

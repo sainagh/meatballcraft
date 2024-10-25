@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    20420
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Thaumic magic can be used to replicate monsters?!\nNo essence needed?!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumadditions:entity_summoner"
+      },
+      "name:8": "Entity Summoner"
+    }
+  },
+  "questID:3": 20433,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumadditions:entity_summoner"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumadditions:dna_sample"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

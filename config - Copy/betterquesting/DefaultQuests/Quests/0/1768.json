@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    1767
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "As hard as it was, the reversing of the biome ritual was the easy part of freeing the Queen of Bees.\nSure, technically I know what could be done to make a key to open the prison of Recursion where she is imprisoned, but I have no idea where this prison is located (likely at the heart of the Twilight Horde if I had to guess), and most importantly, I do not have a small infinitesimal fraction of the power required to produce such an artifact.\nStill growing in power has been the main objective of my campaign, I have nothing but time after all, and I suspect that the more I fight, the more I will learn about Recursion, and hopefully there is going to be something there I can use.\nI am an unstoppable force, after all. A weak one, in the grand scheme of things, sure, but a relentless one nevertheless.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:crown_of_the_energy_queen"
+      },
+      "name:8": "Ze Crown"
+    }
+  },
+  "questID:3": 1768,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "enderio:block_cap_bank",
+          "tag:10": {
+            "enderio:energy:3": 500000000
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:crown_of_the_energy_queen"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

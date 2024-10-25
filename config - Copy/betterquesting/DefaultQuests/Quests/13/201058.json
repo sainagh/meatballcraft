@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    201137
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Head\nDurability: 900\nMining Level: Cobalt\nMining Speed: 5.3\nAttack: 3.75\nBaron\n\nHandle\nModifier: 1.15\nDurability: 130\nBaron\n\nExtra\nDurability: 220\nBaron",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:shard",
+        "tag:10": {
+          "Material:8": "baronyte"
+        }
+      },
+      "name:8": "Baronyte"
+    }
+  },
+  "questID:3": 201058,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:shard",
+          "tag:10": {
+            "Material:8": "baronyte"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    50241
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "And californium works too!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32767,
+        "OreDict:8": "depletedFuelHECf249",
+        "id:8": "nuclearcraft:depleted_fuel_californium"
+      },
+      "name:8": "Depeled HECf-249 Fuel"
+    }
+  },
+  "questID:3": 50245,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "depletedFuelHECf249",
+          "id:8": "nuclearcraft:depleted_fuel_californium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:safe_fission_hecf249_controller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:active_cooled_hecf249_controller"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

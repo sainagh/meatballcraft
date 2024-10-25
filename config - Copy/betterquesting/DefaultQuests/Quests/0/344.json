@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    343
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "From visiting Shyre territories, and especially Barathos, I\u0027ve been able to piece a few things together.\n1. Whoever is leading this empire has full power over recursion, and this type of control is something that can be teached. The Baroness was capable of teaching this power to beasts of Barathos, even granting them intelligence. Looking at the way the society of this world is structured, though, I strongly believe recursion was not part of this society from the start.\n2. The creatures inhabiting Shyre planets are not opposed to their rulers and, as a matter of fact, they respect them, and even aid them. I suspect this has to do with the gift of recursion.\n3. Many of the Shyre people believe in a \u0027god of war\u0027, who has come into this world to start a \u0027holy crusade\u0027 to eliminate weakness from the universe. I don\u0027t want to jump to conclusions, but, I think, the empire is not just an \u0027empire\u0027, but a religion. One with many denominations and septs, though, seeing how differing the values of each Shyre world are.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:barathos_garnet"
+      },
+      "name:8": "Barathos Garnet"
+    }
+  },
+  "questID:3": 344,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:barathos_garnet"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:barathos_garnet"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:barathos_wormhole"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

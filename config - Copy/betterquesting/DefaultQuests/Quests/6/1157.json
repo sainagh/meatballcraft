@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    20344
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTransform vanilla saplings into bewitchment saplings (if you get unlucky).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:vine"
+      },
+      "name:8": "Ritual of Frenzied Growth (Useful)"
+    }
+  },
+  "questID:3": 1157,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:oak_apple_gall"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:vine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:dye"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

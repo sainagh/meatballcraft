@@ -1,0 +1,71 @@
+{
+  "preRequisites:11": [
+    2126
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "I guess I should not be surprised by the depravities of the Meatball Man, but is indeed quite disconcerning to know.\nNope, the mass annhilation of innocent civilizations has nothing to do with building a larger army.\nA large part of these poor souls are being sacrificed for an individual being.\nOut of the forsaken beings ensnared by the Meatball Man, one exceeds all in terms of greed and gluttony. A monster of endless hunger, and one of the lieutenants of the undead horde, this creature\u0027s power revolves around the consumption of souls who died a violent death; the more that are consumed, the stronger this being gets.\nIt seems like the magical power provided by a single soul may be quite low, which is even more concerning. How many must have died to achieve the foe I have faced? ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:gem_of_voracity"
+      },
+      "name:8": "The Eater of Gluttonous Souls"
+    }
+  },
+  "questID:3": 2128,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 100,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:slate_of_endless_hunger"
+            },
+            "TrophyName:8": "Hungwy",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:gem_of_voracity"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:stone_of_endless_hunger"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_gemvoracity"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_gemvoracity2"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

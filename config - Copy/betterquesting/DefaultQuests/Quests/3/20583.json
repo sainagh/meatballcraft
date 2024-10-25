@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20533
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Dissolves solid items into fluids to make other fluids! (did you really need quest text to figure that out?!?)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_vat"
+      },
+      "name:8": "The Vat"
+    }
+  },
+  "questID:3": 20583,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_vat"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    1401
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "deepmoblearning:pristine_matter_kingbambambam"
+      },
+      "name:8": "BamBamBam (Great)"
+    }
+  },
+  "questID:3": 1431,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "deepmoblearning:pristine_matter_kingbambambam"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:silver_coin"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 27,
+          "id:8": "extrabees:misc"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

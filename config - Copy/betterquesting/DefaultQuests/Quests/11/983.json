@@ -1,0 +1,83 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    941,
+    997
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oProgress through bewitchment.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "erebus:spider_t_shirt",
+        "tag:10": {
+          "RepairCost:3": 1,
+          "display:10": {
+            "Name:8": "Someone\u0027s Costume"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:2": 0,
+              "lvl:2": 9
+            },
+            "1:10": {
+              "id:2": 34,
+              "lvl:2": 5
+            },
+            "2:10": {
+              "id:2": 46,
+              "lvl:2": 10
+            },
+            "3:10": {
+              "id:2": 70,
+              "lvl:2": 1
+            }
+          }
+        }
+      },
+      "name:8": "Someone\u0027s Costume"
+    }
+  },
+  "questID:3": 983,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "erebus:spider_t_shirt",
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oSomeone\u0027s Costume§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 0,
+                "lvl:3": 9
+              },
+              "1:10": {
+                "id:3": 34,
+                "lvl:3": 5
+              },
+              "2:10": {
+                "id:3": 46,
+                "lvl:3": 10
+              },
+              "3:10": {
+                "id:3": 70,
+                "lvl:3": 1
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

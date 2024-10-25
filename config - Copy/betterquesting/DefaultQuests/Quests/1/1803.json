@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    50100
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "projecte:item.pe_black_hole",
+        "tag:10": {}
+      },
+      "name:8": "Black Hole Band"
+    }
+  },
+  "questID:3": 1803,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "projecte:item.pe_black_hole",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

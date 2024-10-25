@@ -1,0 +1,175 @@
+{
+  "preRequisites:11": [
+    20483
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWARNING: the assassin bee will cause crashes if placed in an apiary, it is meant to used in the bee-bee gun.\n\nThe assassin bee has the special effect of finishing off queens, making them drop the respective princess and drones.\nThe Bee-Bee gun lets you control the effects of a bee, if it is inserted in the gun\u0027s GUI (shift + right click). The Bee-Bee Gun needs honey to work!\nAftter placing a new queen into an apiary or industrial apiary, right click it with a loaded Assassin Queen Bee-Bee Gun to finish off the queen life cycle.\nThis makes it much faster to go through breeding chains, especially for the temporal bee!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "careerbees:beegun"
+      },
+      "name:8": "Speed-Breeding"
+    }
+  },
+  "questID:3": 2252,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "careerbees:beegun"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "forestry:bee_queen_ge",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "careerbees.assassin",
+                  "UID1:8": "careerbees.assassin"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlow",
+                  "UID1:8": "forestry.speedSlow"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanLong",
+                  "UID1:8": "forestry.lifespanLong"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "forestry.flowersVanilla",
+                  "UID1:8": "forestry.flowersVanilla"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlow",
+                  "UID1:8": "forestry.floweringSlow"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "careerbees.effect.assassin",
+                  "UID1:8": "careerbees.effect.assassin"
+                }
+              }
+            },
+            "Health:3": 50,
+            "IsAnalyzed:1": 0,
+            "Mate:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "careerbees.assassin",
+                  "UID1:8": "careerbees.assassin"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlow",
+                  "UID1:8": "forestry.speedSlow"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanLong",
+                  "UID1:8": "forestry.lifespanLong"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "forestry.flowersVanilla",
+                  "UID1:8": "forestry.flowersVanilla"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlow",
+                  "UID1:8": "forestry.floweringSlow"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "careerbees.effect.assassin",
+                  "UID1:8": "careerbees.effect.assassin"
+                }
+              }
+            },
+            "MaxH:3": 50
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

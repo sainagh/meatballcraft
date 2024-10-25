@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1571
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:feldspar"
+      },
+      "name:8": "Feldspar"
+    }
+  },
+  "questID:3": 1580,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:feldspar"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:brass_essence"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:soularium_essence"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:pulsating_iron_essence"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

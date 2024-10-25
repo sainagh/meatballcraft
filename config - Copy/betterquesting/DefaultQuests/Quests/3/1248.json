@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    20544
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCan craft some processors used to make the mass assembler components!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "threng:machine"
+      },
+      "name:8": "ME Circuit Etcher"
+    }
+  },
+  "questID:3": 1248,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "threng:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

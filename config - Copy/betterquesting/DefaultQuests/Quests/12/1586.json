@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    13
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§8§7§oThis quest tab lists all of the armor sets available in each chapter.\n\nThe enchantments on your armor are more important than the armor you wear, and it is possible to make good builds with pretty much any set!\n\nBonus points if you collect them all!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:bedrock_chestplate"
+      },
+      "name:8": "The Meatballcraft Armory"
+    }
+  },
+  "questID:3": 1586,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

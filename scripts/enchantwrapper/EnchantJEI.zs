@@ -8,7 +8,7 @@ import mods.randomtweaker.jei.IJeiUtils;
 import scripts.enchantwrapper.EnchantUtil;
 import scripts.enchantwrapper.EnchantUtil.WrapperRegistry;
 
-var superenchantJEI as IJeiPanel = JEI.createJei("custom_superenchant", "Superenchants");
+var superenchantJEI as IJeiPanel = JEI.createJei("custom_superenchant", "超限附魔");
 superenchantJEI.setModid("MeatballCraft");
 superenchantJEI.setIcon(<contenttweaker:superenchant_wrapper>);
 superenchantJEI.addRecipeCatalyst(<contenttweaker:superenchant_wrapper>);
@@ -20,10 +20,10 @@ superenchantJEI.addElement(IJeiUtils.createArrowElement(64, 25, 0));
 superenchantJEI.addElement(IJeiUtils.createImageElement("mouseLeft", 68, 6, 13, 14, 0, 0, "contenttweaker:textures/gui/mouse_right.png", 16, 16));
 superenchantJEI.onTooltip(function(mouseX, mouseY) as string[]{
   if (mouseX <= 81 && mouseX >= 68 && mouseY <= 22 && mouseY >= 6) {
-    return ["Right-click"];
+    return ["右键点击"];
   }  
   else if (mouseX <= 109 && mouseX >= 95 && mouseY <= 18 && mouseY >= 4) {
-    return ["Will have these enchants"];
+    return ["将拥有这些魔咒"];
   }
   return [];
 });

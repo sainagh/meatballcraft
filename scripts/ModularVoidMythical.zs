@@ -2719,8 +2719,8 @@ true,
 <contenttweaker:realmstone>, 
 [<aoa3:magic_mending_solution>,<aoa3:magic_mending_solution>,<draconicevolution:chaotic_core>,<draconicevolution:chaotic_core>,
 <contenttweaker:plasmatic_neutronium_ingot>,<contenttweaker:plasmatic_neutronium_ingot>,<contenttweaker:infinity_fragment>,<divinerpg:arksiane_lump>]);
-game.setLocalization("ac.ritual.ShyreWaystoneInf", "Into the Shyre"); 
-game.setLocalization("ac.ritual.ShyreWaystoneInf.desc", "Into the Shyre");
+game.setLocalization("ac.ritual.ShyreWaystoneInf", "前往塞尔瑞"); 
+game.setLocalization("ac.ritual.ShyreWaystoneInf.desc", "前往塞尔瑞");
 
 val shyreStatue = <ore:shyreStatue>;
 shyreStatue.add(<aoa3:craexxeus_statue>);

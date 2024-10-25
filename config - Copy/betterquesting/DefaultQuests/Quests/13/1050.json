@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    1032
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6§7Some of the molten metals in the smeltery combine into alloys. JEI has a page listing what metal combinations will form alloys.\n\nThe first alloys used in the pack are bronze and aluminum brass.\n\nBronze is made by combining one part molten tin, and three parts molten copper!\n\nAluminum brass is made by combining one part molten copper and three parts molten aluminum!\n\n\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "tconstruct:metal"
+      },
+      "name:8": "Alloys"
+    }
+  },
+  "questID:3": 1050,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 163,
+          "OreDict:8": "ingotBronze",
+          "id:8": "thermalfoundation:material"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "ingotAlubrass",
+          "id:8": "tconstruct:ingots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

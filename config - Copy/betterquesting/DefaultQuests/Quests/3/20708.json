@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20548
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To unpackage all your 3x3 recipes!\nPlaced next to an unpackager for autocrafting.\nA packager is required somewhere in the AE network, but it doesn\u0027t need to be close.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "packagedexcrafting:basic_crafter"
+      },
+      "name:8": "Basic Package Crafter"
+    }
+  },
+  "questID:3": 20708,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "packagedexcrafting:basic_crafter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

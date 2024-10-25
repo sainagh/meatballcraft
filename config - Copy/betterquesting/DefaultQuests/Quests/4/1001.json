@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90083
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWorks like an item drawer, and can accept the same upgrades.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "fluiddrawers:tank"
+      },
+      "name:8": "Drawer Tank"
+    }
+  },
+  "questID:3": 1001,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "fluiddrawers:tank"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

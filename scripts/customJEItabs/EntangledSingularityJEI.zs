@@ -6,7 +6,7 @@ import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
-var entangledsingularity as IJeiPanel = JEI.createJei("entangled_singularity", "Singular Entanglement");
+var entangledsingularity as IJeiPanel = JEI.createJei("entangled_singularity", "奇点纠缠");
 entangledsingularity.setModid("AE2 Unofficial Extended Life");
 entangledsingularity.setIcon(<appliedenergistics2:material:47>);
 entangledsingularity.addRecipeCatalyst(<appliedenergistics2:material:47>);
@@ -18,7 +18,7 @@ entangledsingularity.addElement(IJeiUtils.createArrowElement(64, 50, 0));
 entangledsingularity.addElement(IJeiUtils.createImageElement("explosion", 68, 25, 16, 16, 0, 0, "contenttweaker:textures/gui/explosion.png", 16, 16));
 entangledsingularity.onTooltip(function(mouseX, mouseY) as string[]{
   if (mouseX <= 81 && mouseX >= 55 && mouseY <= 25 && mouseY >= 10) {
-    return ["Drop the required items, and cause an explosion!"];
+    return ["扔出所需物品，然后进行爆炸！"];
   }  
   return [];
 });

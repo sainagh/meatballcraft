@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20529
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Smart molten metal output, can be upgraded to fulfill a variety of needs.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tinker_io:smart_output"
+      },
+      "name:8": "Smart Output"
+    }
+  },
+  "questID:3": 20608,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tinker_io:smart_output"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

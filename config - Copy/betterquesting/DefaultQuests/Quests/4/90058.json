@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    90056
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDrawers are a cheap way of storing a lot of a single item. Upgrades can increase or decrease their capacity, and they allow for \u0027void excess\u0027 functionality.",
+      "icon:10": {
+        "Count:3": 1,
+        "OreDict:8": "drawerBasic",
+        "id:8": "storagedrawers:basicdrawers",
+        "tag:10": {
+          "material:8": "oak"
+        }
+      },
+      "name:8": "Any drawerBasic"
+    }
+  },
+  "questID:3": 90058,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "drawerBasic",
+          "id:8": "storagedrawers:basicdrawers",
+          "tag:10": {
+            "material:8": "oak"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

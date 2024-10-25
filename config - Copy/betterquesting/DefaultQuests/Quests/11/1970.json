@@ -1,0 +1,77 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    943,
+    996
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:chilli_chugger",
+        "tag:10": {
+          "HideFlags:1": 2,
+          "RepairCost:3": 1,
+          "display:10": {
+            "Name:8": "Spicy Air Gun"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:2": 70,
+              "lvl:2": 3
+            },
+            "1:10": {
+              "id:2": 64,
+              "lvl:2": 125
+            },
+            "2:10": {
+              "id:2": 63,
+              "lvl:2": 3
+            }
+          }
+        }
+      },
+      "name:8": "Spicy Air Gun"
+    }
+  },
+  "questID:3": 1970,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:chilli_chugger",
+          "tag:10": {
+            "HideFlags:1": 2,
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oSpicy Air Gun§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 70,
+                "lvl:3": 3
+              },
+              "1:10": {
+                "id:3": 64,
+                "lvl:3": 125
+              },
+              "2:10": {
+                "id:3": 63,
+                "lvl:3": 3
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

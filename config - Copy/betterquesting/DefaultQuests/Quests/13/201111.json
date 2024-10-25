@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    201127
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Head\nDurability: 180\nMining Level: Diamond\nMining Speed: 9\nAttack: 4.5\nWithering\n\nHandle\nModifier: 0.75\nDurability: 56\nPoisonous\nWithering\n\nExtra\nDurability: 11\nPoisonous\nWithering\n\nBows\nDrawspeed: 2.67\nRange Multiplier: 1.5\nBonus Damage: 4.5\nWithering",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:shard",
+        "tag:10": {
+          "Material:8": "thorium"
+        }
+      },
+      "name:8": "Thorium"
+    }
+  },
+  "questID:3": 201111,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:shard",
+          "tag:10": {
+            "Material:8": "thorium"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    275
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The plot thickens...I guess?!?\nHaven, now a stronghold of the Shyre empire, apparently, used to be part of that weird space-time origami that makes up the territories of the Twilight Horde.\nI don\u0027t really understand their motifs, but who am I to ask?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:haven_realmstone"
+      },
+      "name:8": "Twilight Deserters"
+    }
+  },
+  "questID:3": 502,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:guardian_altar",
+            "meta:3": 0
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:haven_realmstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

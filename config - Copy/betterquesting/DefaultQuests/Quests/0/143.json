@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Gravity makes sense, and I feel pretty good about myself!\nThe knowledge of the way they manipulate space-time to open their portals should allow me to take the fight to their territory!\nWhat I know points inequivocably to an answer, recursion is the key. If I want to know more, I have to go to those that hold it!\n*one man army vibes intensify*",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:realmstone"
+      },
+      "ismain:1": 1,
+      "name:8": "War to the Shyre Empire!"
+    }
+  },
+  "questID:3": 143,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:realmstone"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:realmstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    1228
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTo access your AE2 network wirelessly, you will first need a security terminal and a wireless access point.\n\nThe security terminal is for linking your wireless terminal to a network. Simply insert your wireless terminal and take it right back out. The wireless access point is for extending the range of your wireless terminal. \n\nBy default, there is a 16 block range, but this can be increased by giving the wireless access point booster cards. This will exponentially increase both the range and the power consumption of the device. The maximum is 64 booster cards for a range of 544 blocks and 8.21 kRF per tick.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:wireless_access_point"
+      },
+      "name:8": "ME Wireless Access Point"
+    }
+  },
+  "questID:3": 90171,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:wireless_access_point"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:security_station"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 42,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20533
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Infuses souls from soul vials into items!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_soul_binder"
+      },
+      "name:8": "Soul Binder"
+    }
+  },
+  "questID:3": 20582,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_soul_binder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

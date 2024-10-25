@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20156
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:hourglass"
+      },
+      "name:8": "Hovering Hourglass"
+    }
+  },
+  "questID:3": 20157,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:hourglass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

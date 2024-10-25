@@ -1,0 +1,50 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    1587,
+    1592
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mysticalagriculture:supremium_chestplate",
+        "tag:10": {}
+      },
+      "name:8": "Supremium"
+    }
+  },
+  "questID:3": 1606,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:supremium_helmet",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:supremium_chestplate",
+          "tag:10": {}
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:supremium_leggings",
+          "tag:10": {}
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:supremium_boots",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

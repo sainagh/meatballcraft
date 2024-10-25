@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    20344
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "Conjure Wither"
+    }
+  },
+  "questID:3": 1657,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:athame"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "minecraft:skull"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:soul_sand"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:wormwood"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:ectoplasm"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

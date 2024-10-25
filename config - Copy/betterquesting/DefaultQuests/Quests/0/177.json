@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    174
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is good news! Some of the testificated dared to explore more! \nThe coordinates for this wormhole will bring me to a second buffer world.\nThis world appears to be the place where the testificates learned of astral sorcery. Long ago, the now extinct people of Diamerisma travelled to Terra through gateways, and revealed their secrets to those that ended up becoming the cultist of the Aether sky islands. Interestingly enough, those same power that got the cult banned is now freely used on Terra to protect the remaining villagers using iron golems.\nAfter their more recnt retaliation, the forces of Terra ended up being defeated in Diamerisma, but they were able to get their hands on useful intelligence, the nature of this \u0027recursion\u0027 I have been hearing about.\nThis power allows for masters of this art to be essentially deities, having the ability to exist in multiple places at once, and to escape death.\nI do wonder if I will ever be able to escape my own Recursion prison and be able to unlock such powers...\n\n§7§oThanks to lulu for the Iron Golem lore!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:diamerisma_warper"
+      },
+      "name:8": "Experiment #2"
+    }
+  },
+  "questID:3": 177,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "contenttweaker:fortune_cookie"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:diamerisma_warper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

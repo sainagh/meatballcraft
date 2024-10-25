@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    205
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFound in the temple in the deep dark.\n\n§fBlood magic is quite amazing, but, I won\u0027t lie, it is scary. The act of performing any blood magic, I now know, leaves a permanent mark on you, one that cannot be cleansed nor removed.\nThis curse is everpresent from the first moment the magic is performed, and it does not ever leave the user. In extreme cases, it can even lead to transformations, such as the one I have encountered in the deep dark caves.\nThis probably emans that any sufficiently powerful blood master will end up looking like a body horror. While I definitely appreciate the upsides of this powerful magic, I do not intend to turn into a deformed mass of blood and flesh. No thank you! ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:cursed_rock"
+      },
+      "name:8": "Cursed Rock"
+    }
+  },
+  "questID:3": 231,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:cursed_rock"
+            },
+            "TrophyName:8": "Cursed Anemia Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:cursed_rock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    50100
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is better! Botanical magic and mana are way better at making magnets!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:magnetring",
+        "tag:10": {}
+      },
+      "name:8": "Ring of Magnetization"
+    }
+  },
+  "questID:3": 50114,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:magnetring",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

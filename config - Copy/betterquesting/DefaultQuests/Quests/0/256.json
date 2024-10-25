@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFound in the large tower at the center of the dark forest.\n\n§fAfter seeing the ctatacombs of the fallen strongholds, I had a good guess about what happened to the people of the Twilight Forest, and now, after navigating the madness of the large tower nearby, I think I know why.\nMaterial wealth, and its pursuit, are yet again to be blamed. The power of alchemy, the ability I was so easily able to obtain (well not so easily but I did it ok!), was the main topic of research of the erudites living in this place that was once a library. \nAn ancient scholar-king wanted to achieve the ability of transforming matter. Their attempts were, well not great, and prone to lots of explosions. I know it is not good to compare the deeds of people of the past to ours, but c\u0027mon making a philosopher\u0027s stone was not that hard. Well, I guess I may be different, maybe being human gave me abilities they do not possess.\nAnyhow, despite their failings at turning stone into gold, they achieved something I could not dream to conceive. The ability to transform flesh. A powder, volatile and stable enough to convert the matter around it into more of itself. A virus of some sort.\nThe spread of this powder was slow at the start, so some tried to prepare for it, but it steadily took over the entire world.\nNot the entirety of it, actually; the Crimson Cult, in their castles in the sky, seem to be immune to it, or maybe they are already mythical beings so nothing happens to them.\nAnd what about me? Do I fell more magical? More mythical?",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "twilightforest:trophy"
+      },
+      "name:8": "More Fire!"
+    }
+  },
+  "questID:3": 256,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "twilightforest:fiery_tears"
+            },
+            "TrophyName:8": "Ur-Ghast Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "twilightforest:trophy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

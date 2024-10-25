@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    512
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "And what can you make with monopoles? Perfect circular motion!\nThe best jet engines humanity ever devised? Bah, such imperfection.\nThis is what true rotation looks like! Perfectly directed magnetic fields, capable of things no single crystal bearing parts could even dream of achieving! You want to experience true circlar motion? Here is true circular motion!\nTurbines built with this paradigm should allow for much higher pressures, and who knows, maybe even handle plasma!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:highly_advanced_machine_casing"
+      },
+      "name:8": "Draconic Turbines!"
+    }
+  },
+  "questID:3": 514,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:highly_advanced_machine_casing"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:highly_advanced_machine_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:compression_turbine"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

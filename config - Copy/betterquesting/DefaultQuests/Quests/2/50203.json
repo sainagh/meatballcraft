@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    50187
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oSolar arrays are solar panel multiblocks that can be assembled using a variety of solar cell combinations.\n\nThe higher the tier of the controller, and the higher the tier of the cells, the better.\n\nFor Tier 6:\nLitherite: 332254 RF/t\nErodium: 442949 RF/t\nKyronite: 664508 RF/t\nPladium: 885898 RF/t\nIonite: 1329016 RF/t\nAethium: 1771965 RF/t\n\n§fI REALLY get it!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:solar_cont_6"
+      },
+      "name:8": "Solar Array Controller Tier 6 (Great)"
+    }
+  },
+  "questID:3": 50203,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:solar_cont_6"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

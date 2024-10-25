@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    50254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:lightning_cont_4"
+      },
+      "name:8": "Lightning Controller Tier 4 (Good)"
+    }
+  },
+  "questID:3": 50255,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:lightning_cont_4"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20544
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFor some of your processor-making needs.\n\nIt can only make one at a time. Consider upgrading to the advanced inscriber, and to the processor clean room!\n\nRequires energy from an AE network. Early on, you can use an energy acceptor with a few cables!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:inscriber"
+      },
+      "name:8": "Inscriber"
+    }
+  },
+  "questID:3": 20691,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:inscriber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

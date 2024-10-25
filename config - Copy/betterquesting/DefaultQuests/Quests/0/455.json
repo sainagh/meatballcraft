@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    279
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The nice thing about this new technology is that it can be used to directly boost the production rates of more mythic technology.\nOr is it recursive technology? I really have to come up with a coherent definition. Not fully knowing what type of magic is what, though, does not make things easy.\nTo be fair, what we now call \u0027electricity\u0027 wasn\u0027t always called that, ancient egyptians, who had observed the phenomena in electric fish, called it the \u0027thunder of the Nile\u0027, so I think I can cut myself some slack...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:baphomet_altar_bricks"
+      },
+      "name:8": "Mythic Witchery?"
+    }
+  },
+  "questID:3": 455,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:mythic_machine_case"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:baphomet_altar_bricks"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:mythic_machine_case"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

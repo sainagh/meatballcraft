@@ -1,0 +1,421 @@
+<galaxy>
+    <star name="Sol" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="0" >
+        <planet name="Terra" DIMID="0" dimMapping="" customIcon="earthlike">
+            <isKnown>true</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>100</atmosphereDensity>
+            <planet name="Luna" DIMID="145" customIcon="moon">
+                <isKnown>true</isKnown>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>72000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+            </planet>
+        </planet>
+		<planet name="Haumea" DIMID="146" customIcon="Venusian">
+			<hasRings>true</hasRings>
+            <fogColor>0.5,0.0,0.5</fogColor>
+            <skyColor>0.5,0.0,0.5</skyColor>
+            <atmosphereDensity>80</atmosphereDensity>
+            <gravitationalMultiplier>75</gravitationalMultiplier>
+            <orbitalDistance>800</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>10</orbitalPhi>
+			<OreGen>
+				<ore block="libvulpes:ore0" meta="0" minHeight="20" maxHeight="80" clumpSize="32" chancePerChunk="64" />
+			</OreGen>
+            <rotationalPeriod>30000</rotationalPeriod>
+            <biomeIds>minecraft:mushroom_island</biomeIds>
+        </planet>
+		<planet name="Sedna" DIMID="147" customIcon="IceWorld">
+            <fogColor>0.0,0.2,0.9</fogColor>
+            <skyColor>0.0,0.2,0.9</skyColor>
+            <atmosphereDensity>20</atmosphereDensity>
+            <gravitationalMultiplier>55</gravitationalMultiplier>
+            <orbitalDistance>900</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>5</orbitalPhi>
+			<OreGen>
+				<ore block="nuclearcraft:block_depleted_plutonium" minHeight="10" maxHeight="80" clumpSize="32" chancePerChunk="10" />
+				<ore block="contenttweaker:sednanite_ore" minHeight="10" maxHeight="40" clumpSize="5" chancePerChunk="3" />
+			</OreGen>
+            <rotationalPeriod>60000</rotationalPeriod>
+			<fillerBlock>minecraft:stone</fillerBlock>
+            <biomeIds>advancedrocketry:crystalchasms</biomeIds>
+			<artifact>contenttweaker:sedna_artifact</artifact>
+		</planet>
+		<planet name="Osiris" DIMID="148" customIcon="DesertWorld">
+            <fogColor>0.9,0.3,0.0</fogColor>
+            <skyColor>0.9,0.3,0.0</skyColor>
+            <atmosphereDensity>20</atmosphereDensity>
+            <gravitationalMultiplier>30</gravitationalMultiplier>
+            <orbitalDistance>10</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+			<OreGen>
+				<ore block="minecraft:iron_block" minHeight="20" maxHeight="80" clumpSize="20" chancePerChunk="64" />
+				<ore block="thermalfoundation:storage" meta="5" minHeight="20" maxHeight="80" clumpSize="20" chancePerChunk="64" />
+			</OreGen>
+            <rotationalPeriod>20000</rotationalPeriod>
+            <biomeIds>advancedrocketry:hotdryrock,nuclearcraft:nuclear_wasteland</biomeIds>
+		</planet>
+		<planet name="Ptah" DIMID="149" customIcon="Venusian">
+            <fogColor>0.4,0.3,0.0</fogColor>
+            <skyColor>0.4,0.3,0.0</skyColor>
+            <atmosphereDensity>20</atmosphereDensity>
+            <gravitationalMultiplier>90</gravitationalMultiplier>
+            <orbitalDistance>50</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+			<OreGen>
+				<ore block="abyssalcraft:coraliumstone" minHeight="10" maxHeight="80" clumpSize="32" chancePerChunk="64" />
+			</OreGen>
+            <rotationalPeriod>20000</rotationalPeriod>
+			<fillerBlock>minecraft:obsidian</fillerBlock>
+            <biomeIds>advancedrocketry:hotdryrock</biomeIds>
+		</planet>
+		<planet name="Hator" DIMID="150" customIcon="MarsLike">
+            <fogColor>0.9,0.1,0.1</fogColor>
+            <skyColor>0.9,0.1,0.1</skyColor>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>90</gravitationalMultiplier>
+            <orbitalDistance>150</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+			<OreGen>
+				<ore block="minecraft:bone_block" minHeight="20" maxHeight="80" clumpSize="32" chancePerChunk="64" />
+			</OreGen>
+            <rotationalPeriod>36000</rotationalPeriod>
+			<fillerBlock>minecraft:stone</fillerBlock>
+			<oceanBlock>Minecraft:lava</oceanBlock>
+            <biomeIds>minecraft:mesa_clear_rock,minecraft:mesa_rock,minecraft:ocean</biomeIds>
+		</planet>
+		<planet name="Vulcan" customIcon="GasGiantRed">
+			<GasGiant>true</GasGiant>
+			<fogColor>0.9,0.7,0.5</fogColor>
+            <skyColor>0.9,0.7,0.5</skyColor>
+            <orbitalDistance>250</orbitalDistance>
+			<gas>hydrogen</gas>
+			<gas>fluid_methanol</gas>
+			<planet name="Europa" DIMID="151" customIcon="moon">
+                <isKnown>true</isKnown>
+                <fogColor>0.0,0.0,1.0</fogColor>
+                <skyColor>0.0,0.0,1.0</skyColor>
+                <gravitationalMultiplier>130</gravitationalMultiplier>
+                <orbitalDistance>8</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>72000</rotationalPeriod>
+                <atmosphereDensity>250</atmosphereDensity>
+                <biomeIds>biomesoplenty:glacier,iceandfire:glacier</biomeIds>
+            </planet>
+			<planet name="Oi" DIMID="152" customIcon="moon">
+                <isKnown>true</isKnown>
+                <fogColor>1.0,0.8,0.0</fogColor>
+                <skyColor>1.0,0.8,0.0</skyColor>
+                <gravitationalMultiplier>130</gravitationalMultiplier>
+                <orbitalDistance>5</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>72000</rotationalPeriod>
+                <atmosphereDensity>120</atmosphereDensity>
+				<OreGen>
+					<ore block="nuclearcraft:ore" meta="4" minHeight="10" maxHeight="80" clumpSize="32" chancePerChunk="25" />
+				</OreGen>
+                <biomeIds>nuclearcraft:nuclear_wasteland,biomesoplenty:wasteland</biomeIds>
+            </planet>
+		</planet>
+		<planet name="Ceres" customIcon="GasGiantBrown">
+			<GasGiant>true</GasGiant>
+			<hasRings>true</hasRings>
+            <fogColor>0.6,0.6,0.6</fogColor>
+            <skyColor>0.6,0.6,0.6</skyColor>
+            <orbitalDistance>350</orbitalDistance>
+			<gas>hydrogen</gas>
+			<gas>helium</gas>
+		</planet>
+		<planet name="Liber" customIcon="GasGiantBlue">
+			<GasGiant>true</GasGiant>
+            <fogColor>0.0,0.1,0.9</fogColor>
+            <skyColor>0.0,0.1,0.9</skyColor>
+            <orbitalDistance>500</orbitalDistance>
+			<gas>cryotheum</gas>
+			<gas>helium</gas>
+		</planet>
+		<planet name="Aventus" customIcon="GasGiantBlue">
+			<GasGiant>true</GasGiant>
+            <fogColor>0.0,0.0,0.6</fogColor>
+            <skyColor>0.0,0.0,0.6</skyColor>
+            <orbitalDistance>600</orbitalDistance>
+			<gas>cryotheum</gas>
+			<gas>helium</gas>
+		</planet>
+		<planet name="Falacer" DIMID="160" customIcon="DesertWorld">
+            <fogColor>0.9,0.3,0.0</fogColor>
+            <skyColor>0.9,0.3,0.0</skyColor>
+            <atmosphereDensity>0</atmosphereDensity>
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>700</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>30</orbitalPhi>
+			<OreGen>
+				<ore block="rftools:dimensional_shard_ore" meta="0" minHeight="10" maxHeight="50" clumpSize="25" chancePerChunk="15" />
+			</OreGen>
+            <rotationalPeriod>10000</rotationalPeriod>
+            <biomeIds>advancedrocketry:volcanicbarren</biomeIds>
+			<planet name="Orcus" DIMID="161" customIcon="moon">
+                <isKnown>true</isKnown>
+                <fogColor>0.9,0.3,0.0</fogColor>
+                <skyColor>0.9,0.3,0.0</skyColor>
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>20</orbitalDistance>
+                <orbitalPhi>30</orbitalPhi>
+                <rotationalPeriod>10000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <biomeIds>advancedrocketry:volcanicbarren</biomeIds>
+            </planet>
+		</planet>
+    </star>
+	<star name="Proxima Duo A" temp="140" x="6" y="-6" size="2.0" numPlanets="0" numGasGiants="0">
+		<star name="Proxima Duo B" temp="200" separation="20.0" />
+        <planet name="Tartarus" DIMID="162" customIcon="CarbonWorld">
+            <fogColor>0.0,0.9,0.0</fogColor>
+            <skyColor>0.0,0.9,0.0</skyColor>
+			<hasRings>false</hasRings>
+            <atmosphereDensity>160</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>350</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>10</orbitalPhi>
+			<OreGen>
+				<ore block="contenttweaker:tartarite_ore" minHeight="20" maxHeight="80" clumpSize="2" chancePerChunk="1" />
+			</OreGen>
+            <rotationalPeriod>72000</rotationalPeriod>
+			<biomeIds>advancedrocketry:stormland</biomeIds>
+			<artifact>contenttweaker:tartarus_artifact</artifact>
+		</planet>
+		<planet name="Rhenia" DIMID="163" customIcon="MarsLike">
+            <fogColor>0.1,0.0,0.0</fogColor>
+            <skyColor>0.1,0.0,0.0</skyColor>
+			<hasRings>true</hasRings>
+            <atmosphereDensity>0</atmosphereDensity>
+            <gravitationalMultiplier>200</gravitationalMultiplier>
+            <orbitalDistance>50</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+			<OreGen>
+				<ore block="contenttweaker:rhenium_ore" minHeight="20" maxHeight="80" clumpSize="2" chancePerChunk="1" />
+			</OreGen>
+            <rotationalPeriod>72000</rotationalPeriod>
+			<biomeIds>advancedrocketry:volcanic,advancedrocketry:volcanicbarren</biomeIds>
+			<artifact>contenttweaker:rhenia_artifact</artifact>
+		</planet>
+        <planet name="Myrmex" DIMID="164" customIcon="EarthLike">
+            <fogColor>0.3,0.2,0.0</fogColor>
+            <skyColor>0.3,0.2,0.0</skyColor>
+			<hasRings>true</hasRings>
+            <atmosphereDensity>110</atmosphereDensity>
+            <gravitationalMultiplier>60</gravitationalMultiplier>
+            <orbitalDistance>400</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>25</orbitalPhi>
+			<OreGen>
+				<ore block="contenttweaker:myrmitite_ore" minHeight="20" maxHeight="80" clumpSize="2" chancePerChunk="1" />
+			</OreGen>
+            <rotationalPeriod>72000</rotationalPeriod>
+			<biomeIds>advancedrocketry:alien forest,thaumcraft:magical_forest,biomesoplenty:cherry_blossom_grove</biomeIds>
+			<artifact>contenttweaker:myrmex_artifact</artifact>
+		</planet>
+        <planet name="Pixonia" DIMID="165" customIcon="GasGiantBrown">
+            <fogColor>0.1,0.8,0.3</fogColor>
+            <skyColor>0.1,0.8,0.3</skyColor>
+			<hasRings>false</hasRings>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>440</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <spawnable weight="1" groupMin="1" groupMax="1">thaumcraft:giantbrainyzombie</spawnable>
+            <spawnable weight="2" groupMin="1" groupMax="1">aoa3:wood_giant</spawnable>
+            <spawnable weight="2" groupMin="1" groupMax="1">aoa3:leafy_giant</spawnable>
+            <OreGen>
+				<ore block="contenttweaker:ogerite_ore" minHeight="5" maxHeight="50" clumpSize="4" chancePerChunk="3" />
+			</OreGen>
+            <rotationalPeriod>72000</rotationalPeriod>
+			<biomeIds>advancedrocketry:marsh,advancedrocketry:deepswamp,minecraft:swampland,biomesoplenty:bog,biomesoplenty:lush_swamp,twilightforest:twilight_swamp</biomeIds>
+			<artifact>contenttweaker:pixonia_artifact</artifact>
+		</planet>
+        <planet name="Proxima Belt" DIMID="166" customIcon="Moon">
+            <atmosphereDensity>10</atmosphereDensity>
+            <gravitationalMultiplier>30</gravitationalMultiplier>
+            <orbitalDistance>25</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>16000</rotationalPeriod>
+            <genType>2</genType>
+			<biomeIds>advancedrocketry:moon</biomeIds>
+			<artifact>contenttweaker:proxima_artifact</artifact>
+		</planet>
+    </star>
+    <star name="Dynatos" temp="140" x="5" y="7" size="2.5" numPlanets="0" numGasGiants="0" blackHole="true">
+		<planet name="Nero" DIMID="170" customIcon="WaterWorld">
+            <atmosphereDensity>100</atmosphereDensity>
+            <hasOxygen>true</hasOxygen>
+            <fogColor>0.9,0.0,0.9</fogColor>
+            <skyColor>0.0,0.0,0.9</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>200</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>100000000</rotationalPeriod>
+			<biomeIds>advancedrocketry:oceanspires,minecraft:deep_ocean</biomeIds>
+			<artifact>contenttweaker:dynatos_artifact</artifact>
+		</planet>
+        <planet name="Zoi" DIMID="171" customIcon="DesertWorld">
+            <atmosphereDensity>100</atmosphereDensity>
+            <hasOxygen>true</hasOxygen>
+            <fogColor>0.1,0.6,0.0</fogColor>
+            <skyColor>0.1,0.6,0.0</skyColor>
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>250</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>100000</rotationalPeriod>
+			<biomeIds>biomesoplenty:quagmire</biomeIds>
+			<artifact>contenttweaker:dynatos_artifact</artifact>
+		</planet>
+        <planet name="Akathartos" DIMID="172" customIcon="GasGiantRed">
+            <atmosphereDensity>120</atmosphereDensity>
+            <hasOxygen>true</hasOxygen>
+            <fogColor>0.9,0.0,0.1</fogColor>
+            <skyColor>0.9,0.0,0.1</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>300</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>144000</rotationalPeriod>
+			<biomeIds>thaumcraft:eldritch</biomeIds>
+			<artifact>contenttweaker:dynatos_artifact</artifact>
+		</planet>
+        <planet name="Pauram" DIMID="173" customIcon="Moon">
+            <atmosphereDensity>120</atmosphereDensity>
+            <hasOxygen>true</hasOxygen>
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>350</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>16000</rotationalPeriod>
+			<biomeIds>twilightforest:spooky_forest</biomeIds>
+			<artifact>contenttweaker:dynatos_artifact</artifact>
+		</planet>
+        <planet name="Alkemia" DIMID="174" customIcon="CarbonWorld">
+            <atmosphereDensity>10</atmosphereDensity>
+            <fogColor>0.1,0.1,0.1</fogColor>
+            <skyColor>0.1,0.1,0.1</skyColor>
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>800</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <fillerBlock>contenttweaker:white_fuel</fillerBlock>
+            <rotationalPeriod>10000</rotationalPeriod>
+			<biomeIds>advancedrocketry:moondark</biomeIds>
+			<artifact>contenttweaker:alkemia_artifact</artifact>
+		</planet>
+    </star>
+    <star name="Sole" temp="105" x="20" y="-20" size="1.0" numPlanets="0" numGasGiants="0" blackHole="false">
+		<planet name="Taerrapiatta" DIMID="180" customIcon="WaterWorld">
+            <atmosphereDensity>100</atmosphereDensity>
+            <fogColor>0.4,0.0,0.4</fogColor>
+            <skyColor>0.4,0.0,0.4</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>36000</rotationalPeriod>
+			<biomeIds>biomesoplenty:redwood_forest,minecraft:plains</biomeIds>
+			<artifact>contenttweaker:unreachable</artifact>
+		</planet>
+        <planet name="Diamerisma" DIMID="181" customIcon="WaterWorld">
+            <atmosphereDensity>100</atmosphereDensity>
+            <fogColor>0.4,0.0,0.8</fogColor>
+            <skyColor>0.4,0.0,0.8</skyColor>
+            <gravitationalMultiplier>50</gravitationalMultiplier>
+            <orbitalDistance>90</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>36000</rotationalPeriod>
+            <OreGen>
+				<ore block="abyssalcraft:coralliumore" minHeight="5" maxHeight="100" clumpSize="50" chancePerChunk="7" />
+                <ore block="abyssalcraft:abyore" minHeight="5" maxHeight="100" clumpSize="50" chancePerChunk="7" />
+			</OreGen>
+			<biomeIds>biomesoplenty:cherry_blossom_grove</biomeIds>
+			<artifact>contenttweaker:unreachable</artifact>
+		</planet>
+        <planet name="Furatto" DIMID="182" customIcon="WaterWorld">
+            <atmosphereDensity>100</atmosphereDensity>
+            <fogColor>0.1,0.0,0.4</fogColor>
+            <skyColor>0.1,0.0,0.4</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>90</orbitalDistance>
+            <orbitalTheta>30</orbitalTheta>
+			<orbitalPhi>30</orbitalPhi>
+            <rotationalPeriod>36000</rotationalPeriod>
+            <OreGen>
+				<ore block="astralsorcery:blockcustomore" meta="0" minHeight="5" maxHeight="100" clumpSize="55" chancePerChunk="6" />
+			</OreGen>
+			<biomeIds>biomesoplenty:woodland</biomeIds>
+			<artifact>contenttweaker:unreachable</artifact>
+		</planet>
+        <planet name="Vibe" DIMID="183" customIcon="WaterWorld">
+            <atmosphereDensity>100</atmosphereDensity>
+            <fogColor>0.4,0.3,0.2</fogColor>
+            <skyColor>0.4,0.3,0.2</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>90</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>36000</rotationalPeriod>
+            <OreGen>
+				<ore block="contenttweaker:vibrating_stone" meta="0" minHeight="5" maxHeight="100" clumpSize="55" chancePerChunk="6" />
+			</OreGen>
+			<biomeIds>biomesoplenty:woodland</biomeIds>
+			<artifact>contenttweaker:unreachable</artifact>
+		</planet>
+        <planet name="Apichisi" DIMID="184" customIcon="WaterWorld">
+            <atmosphereDensity>100</atmosphereDensity>
+            <fogColor>0.4,0.9,0.2</fogColor>
+            <skyColor>0.4,0.9,0.2</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>50</orbitalTheta>
+			<orbitalPhi>50</orbitalPhi>
+            <rotationalPeriod>36000</rotationalPeriod>
+            <OreGen>
+				<ore block="contenttweaker:resonating_stone" meta="0" minHeight="5" maxHeight="100" clumpSize="55" chancePerChunk="6" />
+			</OreGen>
+			<biomeIds>minecraft:desert_hills</biomeIds>
+			<artifact>contenttweaker:unreachable</artifact>
+		</planet>
+        <planet name="Finem" DIMID="185" customIcon="MarsLike">
+            <fogColor>0.9,0.0,0.9</fogColor>
+            <skyColor>0.9,0.0,0.9</skyColor>
+            <atmosphereDensity>130</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>105</orbitalDistance>
+            <orbitalTheta>30</orbitalTheta>
+			<orbitalPhi>30</orbitalPhi>
+            <rotationalPeriod>38000</rotationalPeriod>
+			<fillerBlock>contenttweaker:ender_dolomite</fillerBlock>
+			<oceanBlock>thermalfoundation:fluid_ender</oceanBlock>
+            <biomeIds>advancedrocketry:moondark,minecraft:ocean</biomeIds>
+            <artifact>contenttweaker:unreachable</artifact>
+		</planet>
+    </star>
+</galaxy>

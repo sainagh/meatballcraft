@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    20548
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This bad boy can turn extended crafting tables into one-recipe crafters.\nUseful for passive automation, just in case...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extendedcrafting:interface"
+      },
+      "name:8": "Automation Interface"
+    }
+  },
+  "questID:3": 20689,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extendedcrafting:interface"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "extendedcrafting:table_basic"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "extendedcrafting:table_advanced"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "extendedcrafting:table_elite"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "extendedcrafting:table_ultimate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

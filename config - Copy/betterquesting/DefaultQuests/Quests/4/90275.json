@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    90274
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:energy_crystal"
+      },
+      "name:8": "Basic Energy Relay Crystal"
+    }
+  },
+  "questID:3": 90275,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:energy_crystal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "draconicevolution:energy_crystal"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "draconicevolution:energy_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

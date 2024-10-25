@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    209
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAssemble the gaia arena and click the beacon with terrasteel.\n\n§fI am missing something, I can feel it. Everything about flower magic points towards a different world. Some traces of it led me to Arcana, but that\u0027s not it. The symbolism surrounding the portal I opened points to Alfheim, the home of the elves in Norse lore.\nAnd yet, no elves, just a magic portal that leads nowhere, and it transforms things. I know this portal should have opened, the way I put it together, the call that resounds in my mind when I get nearby tells me so. But no, something is wrong.\nTo confirm my theory that a world indeed exists on the other side, I tried to send a signal, a message, past its veil.\nSomeone did come, but it was not what I expected. The symbolism, again, points towards Norse mythology; the mother of nature, the goddess of fertility. But the creature I met was definitely not motherly. While I clearly perceived something holy about the enemy I fought, it was clear it has long gone.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "botania:manaresource"
+      },
+      "name:8": "Gaia Guardian"
+    }
+  },
+  "questID:3": 232,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 5,
+              "id:8": "botania:manaresource"
+            },
+            "TrophyName:8": "Tier 1 Guardian Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "botania:manaresource"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

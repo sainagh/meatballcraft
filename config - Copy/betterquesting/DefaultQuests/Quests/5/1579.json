@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1571
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:agate"
+      },
+      "name:8": "Agate"
+    }
+  },
+  "questID:3": 1579,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:agate"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:lumium_essence"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:invar_essence"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:signalum_essence"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

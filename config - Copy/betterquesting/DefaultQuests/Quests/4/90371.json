@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    90357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis gate lets you control the ability to transmit a signal based on another signal.\n\nThe data cell has two input-output paths, that work in both directions, a top path and a bottom path.\n\nThe top path is a one-input-one-output redstone connection.\n\nThe bottom path only transmits redstone if the top path has redstone.\n\nIf the top path is tuned off before the bottom path, the bottom output will produre a signal until the top path is turned back on.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "projectred-integration:gate"
+      },
+      "name:8": "Data Cell"
+    }
+  },
+  "questID:3": 90371,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 31,
+          "id:8": "projectred-integration:gate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

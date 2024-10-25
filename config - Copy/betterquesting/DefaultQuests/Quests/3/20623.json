@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    20539
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:crucible"
+      },
+      "name:8": "Automated Crucible"
+    }
+  },
+  "questID:3": 20623,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crucible"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "thaumcraft:metal_alchemical"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:brain_box"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

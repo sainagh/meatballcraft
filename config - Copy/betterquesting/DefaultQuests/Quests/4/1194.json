@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    90056
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTo store enchantments!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cyclicmagic:block_library_ctrl"
+      },
+      "name:8": "Ender Library"
+    }
+  },
+  "questID:3": 1194,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cyclicmagic:block_library_ctrl"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "cyclicmagic:block_library"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -41,7 +41,7 @@ enc4.addItemInput(<aether_legacy:dungeon_block:4>*16);
 enc4.addItemInput(<astralsorcery:itemperkgem:0>);
 enc4.addItemInput(<astralsorcery:itemperkgem:1>);
 enc4.addItemInput(<astralsorcery:itemperkgem:2>);
-enc4.addItemOutput(SuperEnchantedItem(<aether_legacy:holy_sword>.withTag({display: {Name:"§6§oDurandal§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistDurandalWrapped).getItem());
+enc4.addItemOutput(SuperEnchantedItem(<aether_legacy:holy_sword>.withTag({display: {Name:"§6§o杜兰达尔§r",Lore:["§d§o超限附魔§r"]}}), enclistDurandalWrapped).getItem());
 enc4.build();
 
 val enc5 = RecipeBuilder.newBuilder("astaeth5","gravitite_enchanter",40);
@@ -60,7 +60,7 @@ enc6.addItemInput(<aether_legacy:ice_ring>);
 enc6.addItemInput(<aether_legacy:icestone>*16);
 enc6.addItemInput(<aether_legacy:dungeon_block:2>*4);
 enc6.addItemInput(<minecraft:nether_star>);
-enc6.addItemOutput(SuperEnchantedItem(<aether_legacy:ice_ring>.withTag({display: {Name:"§6§oIce Ring§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistAetherTrinketsWrapped).getItem());
+enc6.addItemOutput(SuperEnchantedItem(<aether_legacy:ice_ring>.withTag({display: {Name:"§6§o寒冰戒指§r",Lore:["§d§o超限附魔§r"]}}), enclistAetherTrinketsWrapped).getItem());
 enc6.build();
 
 val enc7 = RecipeBuilder.newBuilder("astaeth7","gravitite_enchanter",100);
@@ -69,7 +69,7 @@ enc7.addItemInput(<aether_legacy:phoenix_gloves>);
 enc7.addItemInput(<minecraft:blaze_rod>*32);
 enc7.addItemInput(<aether_legacy:dungeon_block:2>*4);
 enc7.addItemInput(<minecraft:nether_star>);
-enc7.addItemOutput(SuperEnchantedItem(<aether_legacy:phoenix_gloves>.withTag({display: {Name:"§6§oPhoenix Gloves§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistAetherTrinketsWrapped).getItem());
+enc7.addItemOutput(SuperEnchantedItem(<aether_legacy:phoenix_gloves>.withTag({display: {Name:"§6§o凤凰护手§r",Lore:["§d§o超限附魔§r"]}}), enclistAetherTrinketsWrapped).getItem());
 enc7.build();
 
 val enc8 = RecipeBuilder.newBuilder("astaeth8","gravitite_enchanter",100);
@@ -78,7 +78,7 @@ enc8.addItemInput(<aether_legacy:ice_pendant>);
 enc8.addItemInput(<aether_legacy:icestone>*16);
 enc8.addItemInput(<aether_legacy:dungeon_block:2>*4);
 enc8.addItemInput(<minecraft:nether_star>);
-enc8.addItemOutput(SuperEnchantedItem(<aether_legacy:ice_pendant>.withTag({display: {Name:"§6§oIce Pendant§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistAetherTrinketsWrapped).getItem());
+enc8.addItemOutput(SuperEnchantedItem(<aether_legacy:ice_pendant>.withTag({display: {Name:"§6§o寒冰链坠§r",Lore:["§d§o超限附魔§r"]}}), enclistAetherTrinketsWrapped).getItem());
 enc8.build();
 
 val enc9 = RecipeBuilder.newBuilder("astaeth9","gravitite_enchanter",40);

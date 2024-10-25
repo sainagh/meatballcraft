@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    68
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe assembly table is powered by lasers. Each laser needs line of sight to the table. The more lasers, the faster the recipes.\n\nYou can place chests nearby the assembly tables for the output.\n\n§fTime for some some lasers!\nThe assembly table should allow me to build some good logic processors and circuits.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "buildcraftsilicon:assembly_table"
+      },
+      "name:8": "Laser Fabrication"
+    }
+  },
+  "questID:3": 112,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "buildcraftsilicon:laser"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildcraftsilicon:assembly_table"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "buildcraftsilicon:laser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    0
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis is a laggy pack, so try keeping large automation under control!\n\n§rThis is a story about portals and space-time, but all this cool and powerful stuff is not necessarily good for the fabric of reality, which may freeze and break, from time to time...\n\n§osomething something§o§r there will be lag...\nThanks to Luctor for the quest suggestion!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:rift_essence"
+      },
+      "name:8": "The universe is shattering! "
+    }
+  },
+  "questID:3": 4,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 24,
+          "id:8": "minecraft:carrot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

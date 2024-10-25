@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1173
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFluxducts have good performance, and are good for lag!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermaldynamics:duct_0"
+      },
+      "name:8": "Leadstone Fluxduct"
+    }
+  },
+  "questID:3": 90285,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermaldynamics:duct_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

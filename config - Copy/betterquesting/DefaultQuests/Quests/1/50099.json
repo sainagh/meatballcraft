@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    50054,
+    209
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Higher jumping and faster running! who could\u0027ve asked for more?\nThanks to Tomato_Is_Life for the text!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:travelbelt"
+      },
+      "name:8": "Soujourner\u0027s Sash"
+    }
+  },
+  "questID:3": 50099,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:travelbelt"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

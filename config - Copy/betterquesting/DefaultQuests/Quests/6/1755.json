@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    20182
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7The following quests list useful gadgets from thaumcraft and its addons!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:mechanism_simple"
+      },
+      "name:8": "Useful Thaumic Goodies"
+    }
+  },
+  "questID:3": 1755,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

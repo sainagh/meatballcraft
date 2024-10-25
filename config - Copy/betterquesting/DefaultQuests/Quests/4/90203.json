@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90196
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDrops items vertically in an exact straight line.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "actuallyadditions:block_dropper"
+      },
+      "name:8": "Automatic Precision Dropper"
+    }
+  },
+  "questID:3": 90203,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "actuallyadditions:block_dropper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    453
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThanks to goreae for the name suggestion!\n\n§fThere is recursion, and then there\u0027s whatever I just witnessed.\nThe limit to what I though was possible is much higher than I thought. These recursive beings are much different from what I have witnessed before. Their \u0027vastness\u0027 is on a different order of magnitude.\nI have seen at least two of these beings, the Meatball Man, and now this! \nThere seems to be a threshold of power after which start looking and feeling of a different nature; likely, this class of power is what allows all of the big players in the universe to act as they do. These beings have their own name; Fractallites!\nIt was beings like this that were called by the Bubbell Alliance onto Apichisi, and who caused enough destruction that the Shyre Empire throught it no longer worth it to hold on to this world.\nWhile most left after taking their Resonating Stone, this one remained. The material this cerature was holding, Naquadah, is like nothing I have ever seen; it is precious, very precious, and very powerful. Possibly even as powerful and Dimensional Shards. Sheb-Asothot wanted the Bee\u0027s help to make more, but not even they could bind to it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:heart_of_the_elder_one"
+      },
+      "name:8": "The Elder Spooder"
+    }
+  },
+  "questID:3": 2031,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 100,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:heart_of_the_elder_one"
+            },
+            "TrophyName:8": "Beeg Spooder",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:heart_of_the_elder_one"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

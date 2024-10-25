@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1036
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe pattern is the base mechanic for Tinker\u0027s Construct. \n\nIn this pack each pattern is individually crafted in a crafting table! \n\nSo are easy to make, and some are hard, and some are very hard! \n\nMost patters, with the exception of laser gun pieces, will be craftable by chapter 2!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:pattern"
+      },
+      "name:8": "Patterning!"
+    }
+  },
+  "questID:3": 1035,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:pattern"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

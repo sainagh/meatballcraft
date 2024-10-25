@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    20344
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oReverts the blighted lands.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:cleansing_balm"
+      },
+      "name:8": "Nature\u0027s Blessing"
+    }
+  },
+  "questID:3": 1159,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:white_sage"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "minecraft:dye"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:essence_of_vitality"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:pentacle"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:cleansing_balm"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:dimensional_sand"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:garlic"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:spruce_heart"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:oak_spirit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

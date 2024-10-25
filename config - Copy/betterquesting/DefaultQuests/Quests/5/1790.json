@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1777
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "deepmoblearning:pristine_matter_cottoncandor"
+      },
+      "name:8": "Cotton Candor (Good)"
+    }
+  },
+  "questID:3": 1790,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "deepmoblearning:pristine_matter_cottoncandor"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "abyssalcraft:psdl"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "techreborn:smalldust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

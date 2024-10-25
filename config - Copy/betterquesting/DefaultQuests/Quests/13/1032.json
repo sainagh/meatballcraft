@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1033
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe smeltery is the main multiblock in tinker\u0027s construct! It smelts ores and other metal items into molten fluids.\n\nThe multiblock can be any cuboud shape (without corners and edges) with an open top, and it is made out of any seared stone block. \n\nThe multiblock needs one smeltery controller, this can replace any block! Item inputs can be piped into the controller.\n\nThe multiblock needs at least one seared tank, but it can have more, those can replace any block! This is to input fuel into the tank. Lava is the easiest fuel to get.\n\nTo output the fluids from the smeltery, you need seared drains. Those can replace any blocks!\n\nYou can use fluiducts on the smeltery drains. EnderIO conduits in theory work too, but they can bug out.\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:smeltery_controller"
+      },
+      "name:8": "Smeltery"
+    }
+  },
+  "questID:3": 1032,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:smeltery_controller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "tconstruct:seared_tank"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:smeltery_io"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "OreDict:8": "blockSeared",
+          "id:8": "tconstruct:seared"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

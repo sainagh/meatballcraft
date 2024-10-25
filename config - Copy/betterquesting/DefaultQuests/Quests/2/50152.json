@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    50148
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Generate RF by using a solid fuel and water.\nWater can be automated using an Aqueous Accumulator, or an Infinite Water Source.\nFuels can be automated using EMC, or through a variety of other methods...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalexpansion:dynamo",
+        "tag:10": {
+          "Energy:3": 0,
+          "Facing:1": 1,
+          "Level:1": 0,
+          "RSControl:1": 0
+        }
+      },
+      "name:8": "Steam Dynamo (Great)"
+    }
+  },
+  "questID:3": 50152,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermalexpansion:dynamo",
+          "tag:10": {
+            "Energy:3": 0,
+            "Facing:1": 1,
+            "Level:1": 0,
+            "RSControl:1": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

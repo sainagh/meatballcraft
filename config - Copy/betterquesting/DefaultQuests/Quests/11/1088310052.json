@@ -1,0 +1,65 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    948,
+    995
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extrabotany:ultimatehammer",
+        "tag:10": {
+          "damage:3": 3000,
+          "display:10": {
+            "Lore:9": {
+              "0:8": "§d§oSuper-Enchanted§r"
+            },
+            "Name:8": "§6§oTater Smasher§r"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:3": 70,
+              "lvl:3": 25
+            }
+          },
+          "repair:3": 17000
+        }
+      },
+      "name:8": "Tater Smasher"
+    }
+  },
+  "questID:3": 1088310052,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extrabotany:ultimatehammer",
+          "tag:10": {
+            "damage:3": 3000,
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oTater Smasher§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 70,
+                "lvl:3": 25
+              }
+            },
+            "repair:3": 17000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

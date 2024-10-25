@@ -1,0 +1,99 @@
+{
+  "preRequisites:11": [
+    78
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Cuz rockets are cool!\n\nThe divine star was cool and all, but I cannot fully understand it.\nThe shyre empire\u0027s wormhole capabilities seem to be driven by gravity, which, to us humans, is still a great mystery. It emerges at some point from matter, but how? Why?\nI think it\u0027s time to understand more about it...\nAnd to do this, I believe it\u0027s important to discover how Terra\u0027s wacky gravity works by looking at it from a distance.\nIt\u0027s rocket time!\n§7§o\nThanks to Kdog0421 for the meme subtitles!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:rocketbuilder"
+      },
+      "name:8": "Searching for answers"
+    }
+  },
+  "questID:3": 152,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "advancedrocketry:launchpad"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "advancedrocketry:structuretower"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 100,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "advancedrocketry:nuclearrocketmotor"
+            },
+            "TrophyName:8": "First Rocket!",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:rocketbuilder"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:launchpad"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:structuretower"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:advrocketmotor"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:fueltank"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:guidancecomputer"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:seat"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:launchpad"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:rocket"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

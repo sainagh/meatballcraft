@@ -1,0 +1,87 @@
+{
+  "preRequisites:11": [
+    462
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oConsume a treat bag anywhere in candyland to summon Cotton Candor.\nCotton Candor can only be damaged using Staves from Advent of Ascension, Excaliber, Zenith, and the Cotton Candy Withering Spray.\nCotton Candor can only be killed using the Staves and the Spray.\nDepending on the health bar of the boss, different Staves need to be used, they can all be found in Candyland.\nWhite: Wind, Primordial\nRed: Fire, Baron, Firestorm, Firefly\nGreen: Poison, Noxious\nBlue: Water\nGrey: Wither, Underworld\nPink: Lunar\n\n§fI was right about the artificial origins of this world, but I was wrong about what brought it forth. The Shyre Empire has little to do about this. Candyland is not another Creeponia, it is another Iceika. And that is why my guts kept telling me this place was dangerous.\nCotton Candor, or the being they once were, is the sole culprit behid the origins of this world as it is right now. A single act of magic, gone wrong for most, gone incredibly right for just one. At the cost of an entire planet, its inhabitants, its ecosystems, and everything else, a single being gained an extremely powerful form of recursion.\nI am capable or returning from death right after dying, the Withers of Terra continuously duplicate, Cotton Candor is invulnerable. This is why Candyland is part of the Shyre Empire; they do not care at all about these warriors, nor the resources the world has to offer. The power of its ruler, though, is enough.\nWell, almost. Whatever power was channeled to imbue this being with such power must have had some twisted sense of humor. Cotton Candor is immune to every single power, with the exception of one of the weakest form of magic, runic attacks. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:candyland_cap"
+      },
+      "name:8": "Candyland Falls"
+    }
+  },
+  "questID:3": 461,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:cotton_candor_frosting"
+            },
+            "TrophyName:8": "Cotton Candor Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:candyland_cap"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:treat_bag"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:noxious_staff"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:primordial_staff"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:firefly_staff"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:water_staff"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:underworld_staff"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:lunar_staff"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

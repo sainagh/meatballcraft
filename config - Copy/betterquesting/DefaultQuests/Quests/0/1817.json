@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    1363
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Everything in Telos is furnaces, everything!\nEven the sand that makes up the soil of this strange world is made up of small granular furnaces. Now I just need some granular tiny coal, and I can smell granular tiny objects too!\nWhile I am objectively taken aback by the nature of this world, it will be a good idea to discover more properties about this world.\nThere is no star, nor any other celestial body, in the sky, and yet light seems to vary. Weather phenomena cannot be perceived, and yet a strange snow somehow forms out of thin air on the soil.\nAnd then there\u0027s the inhabitants. Howlers are fairly unintelligent beings. The furnace fiends I have encountered are beings that seem to posses more intelligence, but little to no consciousness.\nIt alsmost feels like I am interacting with artificial intelligence. These beings are willing to come up with intelligent ways to solve problems, but they only seem to care about specific things.\nWell, one thing, really, they just think about furnaces...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:greenlight_callstone"
+      },
+      "name:8": "More Furnaces!"
+    }
+  },
+  "questID:3": 1817,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "divinerpg:greenlight_furnace"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "divinerpg:greenlight_furnace"
+            },
+            "TrophyName:8": "Great Greenlight Guardian",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:greenlight_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:greenlight_ember"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

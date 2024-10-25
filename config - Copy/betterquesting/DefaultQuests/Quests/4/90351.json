@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    90348
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "buildcraftsilicon:plug_gate",
+        "tag:10": {
+          "gate:10": {
+            "logic:1": 0,
+            "material:1": 1,
+            "modifier:1": 0
+          }
+        }
+      },
+      "name:8": "Iron AND Gate"
+    }
+  },
+  "questID:3": 90351,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildcraftsilicon:plug_gate",
+          "tag:10": {
+            "gate:10": {
+              "logic:1": 0,
+              "material:1": 1,
+              "modifier:1": 0
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "buildcraftsilicon:plug_gate",
+          "tag:10": {
+            "gate:10": {
+              "logic:1": 1,
+              "material:1": 1,
+              "modifier:1": 0
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

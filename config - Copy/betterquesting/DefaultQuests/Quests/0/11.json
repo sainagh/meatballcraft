@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    10
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oRadiation is a thing! \n\nOres like Uranium, Thorium, Yellorium will poison you! \n\nThere are tooltips for things that are radioactive!\n\nThe nuclear wasteland biome is also radioactive, stay away!\n\n§7§oIf you are experiencing effects like weakness, hunger, poison, it means you have radiation poisoning.\n\nRadiation poisoning can be cured by eating golden carrots, golden apples, enchanted golden apples, and RadAway!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:radaway"
+      },
+      "name:8": "Get poisoned!"
+    }
+  },
+  "questID:3": 11,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bigreactors:ingotyellorium"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:geiger_counter"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:golden_carrot"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:rad_shielding"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:paper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    3
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oPlayer upgrades are available in the Personal Augmentation tab! More quest pages will unlock as you keep going!\n\n§rOk, I used some wood to build a basic worktable, and I\u0027ve been able to put together some basic tools.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:crafting_table"
+      },
+      "name:8": "Fabrication"
+    }
+  },
+  "questID:3": 5,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:wooden_pickaxe"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:crafting_table"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

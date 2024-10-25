@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    1597993732
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Everyone keeps secrets, that\u0027s just part of being a person. Sometimes it is shame that drives us to hide things, but sometimes we just hide things for absolutely no reason.\nAnd sometimes, we hide things from ourselves, afraid of what may happen.\nThis seems to be the main motivation behind the hidden Pharos powers of the bees of Ptah. \nBees are nice and helpful, really nice and helpful, so it is easy to take them as just that, but it is clear now that even they have their own politics, and most importantly, a bigger overarching goal, that goes beyond just helping everyone around them.\nI\u0027m not really sure how, but I seem to have passed some sort of test, and the bees now trust me. Something big is in the works.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:ptah_spinel"
+      },
+      "name:8": "Secrets of Ptah"
+    }
+  },
+  "questID:3": 716,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 100,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:ptah_spinel"
+            },
+            "TrophyName:8": "Powerful Radiance",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:ptah_spinel"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ptah_spinel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_ptah"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

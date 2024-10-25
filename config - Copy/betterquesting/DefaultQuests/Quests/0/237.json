@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    208
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oSlay the sludge menace.\n\n§fI have seen things I never wished to experience. My life is the one of a murderer, and yet, I am enjoying it, in some twisted way.\nDo I wish this fate had fallen on someone else? Yes I do, and yet I am learning so many incredible things.\nMagic can be extremely powerful, and there are levels to it. The sludge creature I fought is powerful, to the point that it can perennially exist in its fortress. And yet, the druids were able to subjugate it into service for the abyssal ones. Was this also part of a pact, or is there something else to it.\nI am also part of some sort of pact, but I cannot remember what I did. Was it when I opened the wormhole, or did it happen long before?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:menacing_sludge"
+      },
+      "name:8": "Too Deep..."
+    }
+  },
+  "questID:3": 237,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:menacing_sludge"
+            },
+            "TrophyName:8": "Sludge Menace Exterminator",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:menacing_sludge"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:betweenlands_callstone_7"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

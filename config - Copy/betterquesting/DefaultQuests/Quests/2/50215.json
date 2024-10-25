@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    50212
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oModerators increase the efficiency of cells (more power, less fuel), but they also increase heat. They need to be placed next to cells.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8,
+        "id:8": "nuclearcraft:ingot_block"
+      },
+      "name:8": "Moderators"
+    }
+  },
+  "questID:3": 50215,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "nuclearcraft:ingot_block"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "id:8": "nuclearcraft:ingot_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

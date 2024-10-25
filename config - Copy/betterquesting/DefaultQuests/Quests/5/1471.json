@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    1440
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oNot great for emerald, but it\u0027s used in some recipes!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "agricraft:agri_seed",
+        "tag:10": {
+          "agri_analyzed:1": 0,
+          "agri_gain:1": 1,
+          "agri_growth:1": 1,
+          "agri_seed:8": "resource:emeryllis_plant",
+          "agri_strength:1": 1
+        }
+      },
+      "name:8": "Emeryllis"
+    }
+  },
+  "questID:3": 1471,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "agricraft:agri_seed",
+          "tag:10": {
+            "agri_analyzed:1": 0,
+            "agri_gain:1": 1,
+            "agri_growth:1": 1,
+            "agri_seed:8": "resource:emeryllis_plant",
+            "agri_strength:1": 1
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

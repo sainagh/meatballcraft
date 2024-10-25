@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    20540
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Pure Daisy is used to transform the 8 blocks around it.\nThis can be easily automated using block placers and breakers, or by using formation and annihilation planes in a AE2 subnet.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:specialflower",
+        "tag:10": {
+          "type:8": "puredaisy"
+        }
+      },
+      "name:8": "Pure Daisy"
+    }
+  },
+  "questID:3": 20621,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:specialflower",
+          "tag:10": {
+            "type:8": "puredaisy"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    280
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Some of the bugs of what used to be just the Erebus indeed appear to have incredibly useful powers. This species of wasps evolved to reinforce their chitin into a near-unbreakable metal-organic composite,Adamantium.\nThis material is incredibly durable, beyond pretty much anything I have seen.\nAll the zombies that are now ever-present around me have been getting better and better equipment, and I suspect it may come from sources similar to how this Adamantium is being obtained. Ambitious beings thinking they could enter an equal trade with the Meatball Man, who ended up being exploited and cheated out of their secretes instead.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:adamantium_stinger"
+      },
+      "name:8": "Adamantium Stinger"
+    }
+  },
+  "questID:3": 472,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:adamantium_stinger"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:adamantium_stinger"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

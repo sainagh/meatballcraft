@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1401
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "deepmoblearning:pristine_matter_illager"
+      },
+      "name:8": "Illager (Good)"
+    }
+  },
+  "questID:3": 1427,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "deepmoblearning:pristine_matter_illager"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:totem_of_undying"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bhc:blue_heart"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

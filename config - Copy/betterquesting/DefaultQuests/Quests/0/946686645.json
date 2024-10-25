@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    97
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The mark of the Meatball Man has lots of symbolism that is related to gluttony, so I guess I should not be surprised that one of his minions is a gambling-addicted monster.\nStill, I did not expect my fighting to get to gambling...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:gambling_addiction_prison_key"
+      },
+      "name:8": "That\u0027s a Bad Meatball"
+    }
+  },
+  "questID:3": 946686645,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 1,
+            "TrophyColorGreen:3": 1,
+            "TrophyColorRed:3": 1,
+            "TrophyEarnedAt:4": 1726529097,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:gambling_sentient_meatball"
+            },
+            "TrophyName:8": "Gambler\u0027s win",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:gambling_addiction_prison_key"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:gambling_sentient_meatball"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

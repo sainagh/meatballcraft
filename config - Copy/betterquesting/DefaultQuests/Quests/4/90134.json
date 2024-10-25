@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oIncreases the number of configurable slots in export, import, and storage buses.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 27,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Capacity Card"
+    }
+  },
+  "questID:3": 90134,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 27,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

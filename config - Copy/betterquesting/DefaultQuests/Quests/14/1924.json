@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1883,
+    209
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oStarts off like a normal pickaxe, but can be levelled by consuming mana.\n\nThe higher the level, the larger its range.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:terrapick",
+        "tag:10": {
+          "mana:3": 999999999
+        }
+      },
+      "name:8": "Terra Shatterer"
+    }
+  },
+  "questID:3": 1924,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:terrapick",
+          "tag:10": {
+            "mana:3": 999999999
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

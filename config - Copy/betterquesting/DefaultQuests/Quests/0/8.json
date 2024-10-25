@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    7
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUndead mobs drop grave dust\n\n§rWhat is going on? This is scary!\nI thought I would be done for, I thought I was going to die...\nInstead, everything turned dark, and a strange feeling came over me, and I suddenly woke up!\nAfter killing some of the undead-looking creatures that roam this planet at night, I got my hands on this strange powder.\nTouching it gave me a feeling similar to what I felt whenever I thought I would die.\nIt seems like I cannot die. Instead, I lose my ability to carry things, and I somehow manage to travel in some sort of \u0027ghostly shape\u0027 for a few hours after that.\nShould I assume that someone, or something, wants me alive?!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "tombstone:crafting_ingredient"
+      },
+      "name:8": "Death is just another journey..."
+    }
+  },
+  "questID:3": 8,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 3,
+          "id:8": "tombstone:crafting_ingredient"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "tombstone:crafting_ingredient"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

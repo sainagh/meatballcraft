@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    304
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:heliosis_lump"
+      },
+      "name:8": "Heliosis Lump"
+    }
+  },
+  "questID:3": 353,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "divinerpg:wreck_altar",
+            "meta:3": 0
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:heliosis_lump"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

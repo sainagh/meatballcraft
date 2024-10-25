@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    90228
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oBuildcraft pipes are an available option, but they are quite unoptimized, so they are discouraged.\n\nYou will have to use them in Vethea, though (chapter 7).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:teaker_lump"
+      },
+      "name:8": "Not Buildcraft"
+    }
+  },
+  "questID:3": 1136,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:teaker_lump"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "blockGlass",
+          "id:8": "minecraft:glass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

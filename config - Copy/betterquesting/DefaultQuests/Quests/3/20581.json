@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20533
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Slices and Splices organic and inorganic things together consuming the durability of an axe and shears.\nDurability is not consumed if the tools are unbreakable!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_slice_and_splice"
+      },
+      "name:8": "Slice\u0027N\u0027Splice"
+    }
+  },
+  "questID:3": 20581,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_slice_and_splice"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

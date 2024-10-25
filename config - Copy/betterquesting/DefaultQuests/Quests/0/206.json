@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    114
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis is the start of Abyssalcraft, see more in §cMagical Mastery§7§o.\n\n§fA lead! After I got close to this dark monster, the same feeling I experienced whenever I was about to die came over me, and a strange, deep voice started resonating in my mind.\nThe words were unclear, yet one of them lingered in my memory. Just one word, Necronomicon!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "abyssalcraft:necronomicon",
+        "tag:10": {
+          "PotEnergy:5": 0.0
+        }
+      },
+      "name:8": "Definitely a bad idea..."
+    }
+  },
+  "questID:3": 206,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 14010,
+          "id:8": "gendustry:honey_comb"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "abyssalcraft:necronomicon",
+          "tag:10": {
+            "PotEnergy:5": 0.0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
