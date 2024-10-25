@@ -65,7 +65,7 @@ opdra6.addItemInput(<iceandfire:dragonscales_red>*4);
 opdra6.addItemInput(<iceandfire:dragonscales_green>*4);
 opdra6.addItemInput(<iceandfire:dragonscales_bronze>*4);
 opdra6.addItemInput(<iceandfire:dragonscales_gray>*4);
-opdra6.addItemOutput(SuperEnchantedItem(<iceandfire:dragonbone_sword_fire>.withTag({display: {Name:"§6§oZar'Roc§r",Lore:["§d§o超限附魔§r"]}}), enchlistDragonSwordWrapped).getItem());
+opdra6.addItemOutput(SuperEnchantedItem(<iceandfire:dragonbone_sword_fire>.withTag({display: {Name:"§6§o萨若克§r",Lore:["§d§o超限附魔§r"]}}), enchlistDragonSwordWrapped).getItem());
 opdra6.build();
 
 val opdra7 = RecipeBuilder.newBuilder("dragoncruc7","dragonfire_crucible",3000);
@@ -79,7 +79,7 @@ opdra7.addItemInput(<iceandfire:dragonscales_blue>*4);
 opdra7.addItemInput(<iceandfire:dragonscales_white>*4);
 opdra7.addItemInput(<iceandfire:dragonscales_sapphire>*4);
 opdra7.addItemInput(<iceandfire:dragonscales_silver>*4);
-opdra7.addItemOutput(SuperEnchantedItem(<iceandfire:dragonbone_sword_ice>.withTag({display: {Name:"§6§oBrisingr§r",Lore:["§d§o超限附魔§r"]}}), enchlistDragonSwordWrapped).getItem());
+opdra7.addItemOutput(SuperEnchantedItem(<iceandfire:dragonbone_sword_ice>.withTag({display: {Name:"§6§o火剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistDragonSwordWrapped).getItem());
 opdra7.build();
 
 val opdra8 = RecipeBuilder.newBuilder("dragoncruc8","dragonfire_crucible",3000);
@@ -90,7 +90,7 @@ opdra8.addItemInput(<minecraft:nether_star>*4);
 opdra8.addItemInput(<iceandfire:manuscript>*10);
 opdra8.addItemInput(<twilightforest:raven_feather>*16);
 opdra8.addItemInput(<xreliquary:angelic_feather>);
-opdra8.addItemOutput(SuperEnchantedItem(<iceandfire:stymphalian_bird_dagger>.withTag({display: {Name:"§6§oDagger of the Skies§r",Lore:["§d§o超限附魔§r"]}}), enchlistBirdSwordWrapped).getItem());
+opdra8.addItemOutput(SuperEnchantedItem(<iceandfire:stymphalian_bird_dagger>.withTag({display: {Name:"§6§o天空之匕§r",Lore:["§d§o超限附魔§r"]}}), enchlistBirdSwordWrapped).getItem());
 opdra8.build();
 
 val opdra9 = RecipeBuilder.newBuilder("dragoncruc9","dragonfire_crucible",100);
@@ -119,7 +119,7 @@ opdra11.addItemInput(<iceandfire:dragonscales_black>*4);
 opdra11.addItemInput(<iceandfire:dragonscales_amythest>*4);
 opdra11.addItemInput(<iceandfire:dragonscales_copper>*4);
 opdra11.addItemInput(<iceandfire:dragonscales_electric>*4);
-opdra11.addItemOutput(SuperEnchantedItem(<iceandfire:dragonbone_sword_lightning>.withTag({display: {Name:"§6§oClaiomh Solais§r",Lore:["§d§o超限附魔§r"]}}), enchlistDragonSwordWrapped).getItem());
+opdra11.addItemOutput(SuperEnchantedItem(<iceandfire:dragonbone_sword_lightning>.withTag({display: {Name:"§6§o光之剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistDragonSwordWrapped).getItem());
 opdra11.build();
 
 

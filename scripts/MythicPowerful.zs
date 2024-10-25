@@ -36,7 +36,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:sweeping",10);
 
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:tidal_greatblade>.withTag({display: {Name:"§6§oTidal Greatblade§r",Lore:["§d§o超限附魔§r"]}}), enclistTidalWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:tidal_greatblade>.withTag({display: {Name:"§6§o潮汐长刀§r",Lore:["§d§o超限附魔§r"]}}), enclistTidalWrapped).getItem(), 
 		[[<tombstone:impregnated_diamond>, null, null, null, null, null, <tombstone:impregnated_diamond>], 
 		[null, <ore:ingotStellarAlloy>, <divinerpg:aquatic_ingot>, <divinerpg:aquatic_ingot>, <divinerpg:aquatic_ingot>, <ore:ingotStellarAlloy>, null], 
 		[null, <divinerpg:aquatic_ingot>, <contenttweaker:corallus_polyp>, <aoa3:runium_chunk>, <contenttweaker:corallus_polyp>, <divinerpg:aquatic_ingot>, null], 
@@ -67,7 +67,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:fire_aspect",10);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:vulcammer_maul>.withTag({display: {Name:"§6§oVulcammer Maul§r",Lore:["§d§o超限附魔§r"]}}), enclistHammerWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:vulcammer_maul>.withTag({display: {Name:"§6§o浊流槌§r",Lore:["§d§o超限附魔§r"]}}), enclistHammerWrapped).getItem(), 
 		[[<contenttweaker:king_bambambam_pelvis>, null, null, null, null, null, <contenttweaker:king_bambambam_pelvis>], 
 		[null, <divinerpg:molten_stone>, <divinerpg:molten_stone>, <divinerpg:molten_stone>, <divinerpg:molten_stone>, <divinerpg:molten_stone>, null], 
 		[null, <divinerpg:molten_stone>, <aoa3:runium_chunk>, <aoa3:runium_chunk>, <aoa3:runium_chunk>, <divinerpg:molten_stone>, null], 
@@ -100,7 +100,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:mending",1);
 
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:crabclaw_maul>.withTag({display: {Name:"§6§oCrabsmasher Maul§r",Lore:["§d§o超限附魔§r"]}}), enclistCrabWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:crabclaw_maul>.withTag({display: {Name:"§6§o碎蟹锤§r",Lore:["§d§o超限附魔§r"]}}), enclistCrabWrapped).getItem(), 
 		[[<minecraft:red_shulker_box>, null, null, null, null, null, <minecraft:red_shulker_box>], 
 		[null, <ore:ingotStellarAlloy>, <divinerpg:frosted_allure>, <divinerpg:frosted_allure>, <divinerpg:frosted_allure>, <ore:ingotStellarAlloy>, null], 
 		[null, <divinerpg:frosted_allure>, <contenttweaker:watcher_eye>, <aoa3:runium_chunk>, <contenttweaker:watcher_eye>, <divinerpg:frosted_allure>, null], 
@@ -127,7 +127,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:unbreaking",6);
 	
 	//	Recipe
-	recipes.addShaped(SuperEnchantedItem(<soulshardsrespawn:vile_sword>.withTag({display: {Name:"§6§oSoul Stealer§r",Lore:["§d§o超限附魔§r"]}}), enchlistVileWrapped).getItem(),
+	recipes.addShaped(SuperEnchantedItem(<soulshardsrespawn:vile_sword>.withTag({display: {Name:"§6§o窃魂者§r",Lore:["§d§o超限附魔§r"]}}), enchlistVileWrapped).getItem(),
 		[[<extendedcrafting:storage:2>, <deepmoblearning:pristine_matter_wither>, <extendedcrafting:storage:2>],
 		[<extendedcrafting:storage:2>, <soulshardsrespawn:vile_sword>, <extendedcrafting:storage:2>],
 		[<extendedcrafting:storage:2>, <contenttweaker:aeldunari>.reuse(), <extendedcrafting:storage:2>]]);
@@ -153,7 +153,7 @@ import mods.astralsorcery.Utils;
 	.add("cofhcore:leech",1);
 	
 	//	Recipe
-	recipes.addShaped(SuperEnchantedItem(<redstonearsenal:tool.bow_flux>.withTag({display: {Name:"§6§oBrave§r",Lore:["§d§o超限附魔§r"]}}), enchlistBraveWrapped).getItem(),
+	recipes.addShaped(SuperEnchantedItem(<redstonearsenal:tool.bow_flux>.withTag({display: {Name:"§6§o勇气§r",Lore:["§d§o超限附魔§r"]}}), enchlistBraveWrapped).getItem(),
 		[[<bewitchment:hellhound_horn>, <bewitchment:demon_heart>, <bewitchment:hellhound_horn>],
 		[<contenttweaker:dragons_blood_plastic>, <bewitchment:sigil_ruin>, <contenttweaker:dragons_blood_plastic>],
 		[<bewitchment:hellhound_horn>, <redstonearsenal:tool.bow_flux>, <bewitchment:hellhound_horn>]]);
@@ -181,7 +181,7 @@ import mods.astralsorcery.Utils;
 
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<enderio:item_end_steel_bow>.withTag({display: {Name:"§6§oPrison Realm Bow§r",Lore:["§d§o超限附魔§r"]}}), enchlistPrisonrealmWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<enderio:item_end_steel_bow>.withTag({display: {Name:"§6§o监域弓§r",Lore:["§d§o超限附魔§r"]}}), enchlistPrisonrealmWrapped).getItem(), 
 		[[<contenttweaker:cursed_gem_of_betrayal>, null, null, <contenttweaker:recursive_imprisonment_gem>, null, null, <contenttweaker:cursed_gem_of_betrayal>], 
 		[null, <divinerpg:legendary_ender_eye>, <contenttweaker:gun_devil_piece>, <divinerpg:legendary_ender_eye>, <contenttweaker:gun_devil_piece>, <divinerpg:legendary_ender_eye>, null], 
 		[null, <contenttweaker:gun_devil_piece>, <contenttweaker:visualent_fang>, <aoa3:runium_chunk>, <contenttweaker:visualent_fang>, <contenttweaker:gun_devil_piece>, null], 
@@ -212,7 +212,7 @@ import mods.astralsorcery.Utils;
 	.add("cofhcore:leech",1);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<twilightforest:seeker_bow>.withTag({display: {Name:"§6§oMirkwood Bow§r",Lore:["§d§o超限附魔§r"]}}), enchlistMirkwoodWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<twilightforest:seeker_bow>.withTag({display: {Name:"§6§o幽暗密林弓§r",Lore:["§d§o超限附魔§r"]}}), enchlistMirkwoodWrapped).getItem(), 
 		[[<twilightforest:tower_device:12>, null, null, null, null, null, <twilightforest:tower_device:12>], 
 		[null, <ore:ingotStellarAlloy>, <divinerpg:corrupted_stone>, <divinerpg:legendary_ender_eye>, <divinerpg:corrupted_stone>, <ore:ingotStellarAlloy>, null], 
 		[null, <divinerpg:corrupted_stone>, <contenttweaker:nethengeic_bone>, <minecraft:skull:4>, <contenttweaker:nethengeic_bone>, <divinerpg:corrupted_stone>, null], 
@@ -243,7 +243,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:mending",1);
 	
 	//	Recipe
-	recipes.addShaped(SuperEnchantedItem(<abyssalcraft:soulreaper>.withTag({display: {Name:"§6§oVrangr§r",Lore:["§d§o超限附魔§r"]}}), enchlistAbyssWrapped).getItem(),
+	recipes.addShaped(SuperEnchantedItem(<abyssalcraft:soulreaper>.withTag({display: {Name:"§6§o乌拉戈尔§r",Lore:["§d§o超限附魔§r"]}}), enchlistAbyssWrapped).getItem(),
 		[[<abyssalcraft:crystalcluster:7>, <abyssalcraft:essence:2>, <abyssalcraft:crystalcluster:5>],
 		[<abyssalcraft:essence:2>, <abyssalcraft:soulreaper>, <abyssalcraft:essence:2>],
 		[<abyssalcraft:crystalcluster:4>, <abyssalcraft:essence:2>, <abyssalcraft:crystalcluster:6>]]);
@@ -293,7 +293,7 @@ import mods.astralsorcery.Utils;
 	.add("aoa3:control",3);
 	
 	//	Recipe
-	recipes.addShaped(SuperEnchantedItem(<aoa3:bayonette_rifle>.withTag({display: {Name:"§6§oGun Devil Tribute§r",Lore:["§d§o超限附魔§r"]}}), enchlistBayonetteWrapped).getItem(),
+	recipes.addShaped(SuperEnchantedItem(<aoa3:bayonette_rifle>.withTag({display: {Name:"§6§o枪之恶魔的礼物§r",Lore:["§d§o超限附魔§r"]}}), enchlistBayonetteWrapped).getItem(),
 		[[<contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>],
 		[<contenttweaker:gun_devil_piece>, <aoa3:bayonette_rifle>, <contenttweaker:gun_devil_piece>],
 		[<contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>]]);
@@ -318,7 +318,7 @@ import mods.astralsorcery.Utils;
 	.add("aoa3:control",3);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:chilli_chugger>.withTag({display: {Name:"§6§oSpicy Air Gun§r",Lore:["§d§o超限附魔§r"]}}), enchlistChilliWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:chilli_chugger>.withTag({display: {Name:"§6§o辣气枪§r",Lore:["§d§o超限附魔§r"]}}), enchlistChilliWrapped).getItem(), 
 	[[<aoa3:chilli>, null, null, null, null, null, <aoa3:chilli>], 
 		[null, <ore:ingotStellarAlloy>, <divinerpg:terran_stone>, <contenttweaker:vibrating_stone>, <divinerpg:terran_stone>, <ore:ingotStellarAlloy>, null], 
 		[null, <divinerpg:terran_stone>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <divinerpg:terran_stone>, null], 
@@ -353,7 +353,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:sharpness",20);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<bewitchment:thyrsus>.withTag({display: {Name:"§6§oVenomous Thyrsus§r",Lore:["§d§o超限附魔§r"]}}), enchlistPoisonSpearWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<bewitchment:thyrsus>.withTag({display: {Name:"§6§o剧毒酒神杖§r",Lore:["§d§o超限附魔§r"]}}), enchlistPoisonSpearWrapped).getItem(), 
 		[[<contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>, <contenttweaker:faultless_ichor>], 
 		[<contenttweaker:faultless_ichor>, <erebus:materials:21>, <erebus:materials:21>, <iceandfire:hydra_fang>, <erebus:materials:21>, <erebus:materials:21>, <contenttweaker:faultless_ichor>], 
 		[<contenttweaker:faultless_ichor>, <erebus:materials:21>, <iceandfire:hydra_fang>, <aoa3:runium_chunk>, <iceandfire:hydra_fang>, <erebus:materials:21>, <contenttweaker:faultless_ichor>], 
@@ -395,7 +395,7 @@ import mods.astralsorcery.Utils;
 	.add("extrautils2:xu.zoomerang",20);
 	
 	//	Recipe
-	recipes.addShaped(SuperEnchantedItem(<extrautils2:boomerang>.withTag({display: {Name:"§6§oSuperoomerang§r",Lore:["§d§o超限附魔§r"]}}), enchlistBoomerangWrapped).getItem(),
+	recipes.addShaped(SuperEnchantedItem(<extrautils2:boomerang>.withTag({display: {Name:"§6§o超级回旋镖§r",Lore:["§d§o超限附魔§r"]}}), enchlistBoomerangWrapped).getItem(),
 		[[<contenttweaker:elder_spooder_string>, <techreborn:nuke>, <contenttweaker:elder_spooder_string>],
 		[<extrautils2:opinium:8>, <extrautils2:boomerang>, <extrautils2:opinium:8>],
 		[<contenttweaker:elder_spooder_string>, <techreborn:nuke>, <contenttweaker:elder_spooder_string>]]);
@@ -416,7 +416,7 @@ import mods.astralsorcery.Utils;
 	.add("openblocks:flim_flam",222);
 	
 	//	Recipe
-	recipes.addShaped(SuperEnchantedItem(<bewitchment:cleaver_sword>.withTag({display: {Name:"§6§oThe Flim-Flammer§r",Lore:["§d§o超限附魔§r"]}}), enchlistFlimFlamCleaveWrapped).getItem(),
+	recipes.addShaped(SuperEnchantedItem(<bewitchment:cleaver_sword>.withTag({display: {Name:"§6§o欺诈者§r",Lore:["§d§o超限附魔§r"]}}), enchlistFlimFlamCleaveWrapped).getItem(),
 		[[<contenttweaker:unstable_fragment_of_unraveling>, <openblocks:trophy:25>.withTag({entity_id: "minecraft:endermite"}), <contenttweaker:unstable_fragment_of_unraveling>],
 		[<contenttweaker:stone_of_the_sleeping_city>, <bewitchment:cleaver_sword>, <contenttweaker:stone_of_the_sleeping_city>],
 		[<contenttweaker:unstable_fragment_of_unraveling>, <openblocks:trophy:25>.withTag({entity_id: "minecraft:endermite"}), <contenttweaker:unstable_fragment_of_unraveling>]]);
@@ -447,7 +447,7 @@ import mods.astralsorcery.Utils;
 	.add("cyclicmagic:enchantment.quickdraw",1);
 	
 	//	Recipe
-	mods.extendedcrafting.CombinationCrafting.addRecipe(SuperEnchantedItem(<divinerpg:icicle_bow>.withTag({display: {Name:"§6§oEurobeat Bow§r",Lore:["§d§o超限附魔§r"]}}), enchlistSpeedybowWrapped).getItem(), 10000000, 
+	mods.extendedcrafting.CombinationCrafting.addRecipe(SuperEnchantedItem(<divinerpg:icicle_bow>.withTag({display: {Name:"§6§o欧陆节拍弓§r",Lore:["§d§o超限附魔§r"]}}), enchlistSpeedybowWrapped).getItem(), 10000000, 
 	<divinerpg:icicle_bow>, 
 		[<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
 		<contenttweaker:cursed_gem_of_betrayal>, <contenttweaker:cursed_gem_of_betrayal>,
@@ -655,7 +655,7 @@ import mods.astralsorcery.Utils;
 	.add("aoa3:sever",20);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:baron_greatblade>.withTag({display: {Name:"§6§oDragon Slayer§r",Lore:["§d§o超限附魔§r"]}}), enchlistBigBoySwordWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:baron_greatblade>.withTag({display: {Name:"§6§o斩龙剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistBigBoySwordWrapped).getItem(), 
 		[[null, null, null, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, null, null, null], 
 		[null, null, null, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, null, null, null], 
 		[null, null, null, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, null, null, null], 
@@ -686,7 +686,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:smite",20);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<extrabotany:firstfractal>.withTag({display: {Name:"§6§oPlaguesword§r",Lore:["§d§o超限附魔§r"]}}), enchlistPlagueswordWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<extrabotany:firstfractal>.withTag({display: {Name:"§6§o瘟疫之剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistPlagueswordWrapped).getItem(), 
 		[[<contenttweaker:eden_star>, <contenttweaker:infused_dread_shard>, null, null, null, <contenttweaker:infused_dread_shard>, <contenttweaker:eden_star>], 
 		[<contenttweaker:infused_dread_shard>, <iceandfire:dread_shard>, <iceandfire:dread_shard>, null, <iceandfire:dread_shard>, <iceandfire:dread_shard>, <contenttweaker:infused_dread_shard>], 
 		[null, <iceandfire:dread_shard>, <contenttweaker:fiery_rhenium_ingot>, <aoa3:runium_chunk>, <contenttweaker:fiery_rhenium_ingot>, <iceandfire:dread_shard>, null], 
@@ -713,7 +713,7 @@ import mods.astralsorcery.Utils;
 	.add("endercore:xpboost",50);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:slime_sword>.withTag({display: {Name:"§6§oJerry's Sword§r",Lore:["§d§o超限附魔§r"]}}), enchlistSlimeswordWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:slime_sword>.withTag({display: {Name:"§6§oJerry之剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistSlimeswordWrapped).getItem(), 
 		[[<extrabees:honey_comb:82>, null, null, <magicbees:beecomb:8>, null, null, <extrabees:honey_comb:82>], 
 		[null, <ore:ingotStellarAlloy>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <ore:ingotStellarAlloy>, null], 
 		[null, <thermalfoundation:material:1024>, <contenttweaker:scorcher_eternal_flame>, <aoa3:runium_chunk>, <contenttweaker:scorcher_eternal_flame>, <divinerpg:frosted_allure>, null], 
@@ -742,7 +742,7 @@ import mods.astralsorcery.Utils;
 	.add("mod_lavacow:lifesteal",150);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<animus:kama_bound>.withTag({display: {Name:"§6§oSacrificial Khopesh§r",Lore:["§d§o超限附魔§r"]}}), enchlistBloodKopeshWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<animus:kama_bound>.withTag({display: {Name:"§6§o献祭扣派刀§r",Lore:["§d§o超限附魔§r"]}}), enchlistBloodKopeshWrapped).getItem(), 
 		[[<contenttweaker:slate_of_endless_hunger>, <aoa3:bloodstone>, null, null, null, <aoa3:bloodstone>, <contenttweaker:slate_of_endless_hunger>], 
 		[<aoa3:bloodstone>, null, null, <bewitchment:poppet_vampiric>, null, null, <aoa3:bloodstone>], 
 		[null, null, <contenttweaker:fiery_rhenium_ingot>, <aoa3:runium_chunk>, <contenttweaker:fiery_rhenium_ingot>, null, null], 
@@ -800,7 +800,7 @@ import mods.astralsorcery.Utils;
 	.add("tombstone:plague_bringer",20);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aether_legacy:valkyrie_lance>.withTag({display: {Name:"§6§oDauthdaert§r",Lore:["§d§o超限附魔§r"]}}), enchlistDauthdaertWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aether_legacy:valkyrie_lance>.withTag({display: {Name:"§6§o达司忒§r",Lore:["§d§o超限附魔§r"]}}), enchlistDauthdaertWrapped).getItem(), 
 		[[<contenttweaker:primordial_catalyst>, null, null, null, null, null, <contenttweaker:primordial_catalyst>], 
 		[null, <abyssalcraft:platec>, <abyssalcraft:platec>, <abyssalcraft:platec>, <abyssalcraft:platec>, <abyssalcraft:platec>, null], 
 		[null, <abyssalcraft:platec>, <ore:dragonScaleBlock>, <ore:dragonScaleBlock>, <ore:dragonScaleBlock>, <abyssalcraft:platec>, null], 
@@ -921,7 +921,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:knockback",49);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:limonite_sword>.withTag({display: {Name:"§6§oBiggus Yeetus§r",Lore:["§d§o超限附魔§r"]}}), enclistYeetWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:limonite_sword>.withTag({display: {Name:"§6§o大抛抛§r",Lore:["§d§o超限附魔§r"]}}), enclistYeetWrapped).getItem(), 
 		[[<contenttweaker:smash_jaw>, null, null, null, null, null, <contenttweaker:smash_jaw>], 
 		[null, <aoa3:limonite_block>, <aoa3:limonite_block>, <aoa3:limonite_block>, <aoa3:limonite_block>, <aoa3:limonite_block>, null], 
 		[null, <aoa3:limonite_block>, <aoa3:runium_chunk>, <aoa3:runium_chunk>, <aoa3:runium_chunk>, <aoa3:limonite_block>, null], 
@@ -950,7 +950,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:thorns",30);
 
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:bedrock_leggings>.withTag({display: {Name:"§6§oThorns of Villainy§r",Lore:["§d§o超限附魔§r"]}}), enclistBedrockWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:bedrock_leggings>.withTag({display: {Name:"§6§o罪恶荆棘§r",Lore:["§d§o超限附魔§r"]}}), enclistBedrockWrapped).getItem(), 
 		[[<contenttweaker:ancient_remnants>, null, null, <contenttweaker:manastone_dust>, null, null, <contenttweaker:ancient_remnants>], 
 		[null, <divinerpg:bedrock_chunk>, <divinerpg:bedrock_chunk>, <divinerpg:bedrock_chunk>, <divinerpg:bedrock_chunk>, <divinerpg:bedrock_chunk>, null], 
 		[<iceandfire:sea_serpent_scale_block_purple>, <divinerpg:bedrock_chunk>, <aoa3:runium_chunk>, <aoa3:runium_chunk>, <aoa3:runium_chunk>, <divinerpg:bedrock_chunk>, <iceandfire:sea_serpent_scale_block_purple>], 
@@ -1008,7 +1008,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:mending",1);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:arcanite_blade>.withTag({display: {Name:"§6§oArcanium Blade§r",Lore:["§d§o超限附魔§r"]}}), enclistArcaniumWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:arcanite_blade>.withTag({display: {Name:"§6§o秘金之刃§r",Lore:["§d§o超限附魔§r"]}}), enclistArcaniumWrapped).getItem(), 
 		[[<contenttweaker:greater_gaia_spirit>, <divinerpg:arcanium_block>, <divinerpg:arcanium_block>, <divinerpg:arcanium_block>, <contenttweaker:greater_gaia_spirit>], 
 		[<divinerpg:arcanium_block>, <divinerpg:dungeon_tokens>, null, <divinerpg:dungeon_tokens>, <divinerpg:arcanium_block>], 
 		[<divinerpg:arcanium_block>, null, <divinerpg:arcanite_blade>, null, <divinerpg:arcanium_block>], 
@@ -1037,7 +1037,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:sweeping",10);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:rosidian_greatblade>.withTag({display: {Name:"§6§oVorpal Sword§r",Lore:["§d§o超限附魔§r"]}}), enclistVorpalWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:rosidian_greatblade>.withTag({display: {Name:"§6§o神锋剑§r",Lore:["§d§o超限附魔§r"]}}), enclistVorpalWrapped).getItem(), 
 		[[<twilightforest:magic_beans>, null, null, null, null, null, <twilightforest:magic_beans>], 
 		[null, <ore:ingotStellarAlloy>, <divinerpg:corrupted_stone>, <divinerpg:corrupted_stone>, <divinerpg:corrupted_stone>, <ore:ingotStellarAlloy>, null], 
 		[null, <divinerpg:corrupted_stone>, <contenttweaker:watcher_eye>, <minecraft:skull:5>, <contenttweaker:watcher_eye>, <divinerpg:corrupted_stone>, null], 
@@ -1061,7 +1061,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:efficiency",20);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:divine_shickaxe>.withTag({display: {Name:"§6§oDirepick§r",Lore:["§d§o超限附魔§r"]}}), enclistDireWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:divine_shickaxe>.withTag({display: {Name:"§6§o神速镐§r",Lore:["§d§o超限附魔§r"]}}), enclistDireWrapped).getItem(), 
 		[[null, <abyssalcraft:cthulhucoin>, null, <abyssalcraft:eldercoin>, null], 
 		[<abyssalcraft:shubniggurathcoin>, null, <ore:dustPyrite>, null, <abyssalcraft:jzaharcoin>], 
 		[null, <ore:dustPyrite>, <divinerpg:divine_shickaxe>, <ore:dustPyrite>, null], 
@@ -1083,7 +1083,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:unbreaking",233);
 	
 	//	Recipe
-	recipes.addShaped(SuperEnchantedItem(<immersiveengineering:graphite_electrode>.withTag({display: {Name:"§6§oDoped Electrode§r",Lore:["§d§o超限附魔§r"]}}), enclistElectrodeWrapped).getItem(),
+	recipes.addShaped(SuperEnchantedItem(<immersiveengineering:graphite_electrode>.withTag({display: {Name:"§6§o掺杂电极§r",Lore:["§d§o超限附魔§r"]}}), enclistElectrodeWrapped).getItem(),
 		[[<ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>],
 		[<ore:ingotHOPGraphite>, <immersiveengineering:graphite_electrode>, <ore:ingotHOPGraphite>],
 		[<ore:ingotHOPGraphite>, <projectex:matter:7>, <ore:ingotHOPGraphite>]]);
@@ -1108,7 +1108,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:thorns",55);
 	
 	//	Recipe
-	recipes.addShaped(SuperEnchantedItem(<abyssalcraft:dreadiumsamuraihelmet>.withTag({display: {Name:"§6§oStinger Samurai Helm§r",Lore:["§d§o超限附魔§r"]}}), enclistSamuraiWrapped).getItem(),
+	recipes.addShaped(SuperEnchantedItem(<abyssalcraft:dreadiumsamuraihelmet>.withTag({display: {Name:"§6§o尖刺武士头盔§r",Lore:["§d§o超限附魔§r"]}}), enclistSamuraiWrapped).getItem(),
 		[[null, <extendedcrafting:singularity_custom:2038>, null],
 		[null, <abyssalcraft:dreadiumsamuraihelmet>, null],
 		[null, <contenttweaker:sword_shield>, null]]);
@@ -1193,7 +1193,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:knockback",2);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<mowziesmobs:wrought_axe>.withTag({display: {Name:"§6§oWalking Axe§r",Lore:["§d§o超限附魔§r"]}}), enclistWalkingWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<mowziesmobs:wrought_axe>.withTag({display: {Name:"§6§o健步斧§r",Lore:["§d§o超限附魔§r"]}}), enclistWalkingWrapped).getItem(), 
 		[[<contenttweaker:wrought_iron_plate>, null, null, <forestry:planks.1:11>, null, null, <contenttweaker:wrought_iron_plate>], 
 		[null, <ore:ingotStellarAlloy>, <divinerpg:corrupted_stone>, <divinerpg:arlemite_shickaxe>, <divinerpg:corrupted_stone>, <ore:ingotStellarAlloy>, null], 
 		[null, <divinerpg:corrupted_stone>, <ebwizardry:astral_diamond>, <enderutilities:enderpart:12>, <ebwizardry:astral_diamond>, <divinerpg:corrupted_stone>, null], 
@@ -1218,7 +1218,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:sharpness",85);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:corrupted_maul>.withTag({display: {Name:"§6§oHelltree§r",Lore:["§d§o超限附魔§r"]}}), enclistHelltreeWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:corrupted_maul>.withTag({display: {Name:"§6§o地狱树锤§r",Lore:["§d§o超限附魔§r"]}}), enclistHelltreeWrapped).getItem(), 
 		[[<contenttweaker:eden_star>, <contenttweaker:barathosynium_ingot>, <iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_lightning_ingot>, <contenttweaker:barathosynium_ingot>, <contenttweaker:eden_star>], 
 		[<contenttweaker:barathosynium_ingot>, <contenttweaker:abyssal_flesh>, <contenttweaker:abyssal_flesh>, <contenttweaker:abyssal_flesh>, <contenttweaker:abyssal_flesh>, <contenttweaker:abyssal_flesh>, <contenttweaker:barathosynium_ingot>], 
 		[<iceandfire:dragonsteel_lightning_ingot>, <contenttweaker:abyssal_flesh>, <contenttweaker:infused_rhenium_ingot>, <aoa3:runium_chunk>, <contenttweaker:infused_rhenium_ingot>, <contenttweaker:abyssal_flesh>, <iceandfire:dragonsteel_fire_ingot>], 
@@ -1243,7 +1243,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:unbreaking",350);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<thermalfoundation:tool.fishing_rod_platinum>.withTag({display: {Name:"§6§oFishing Sticc§r",Lore:["§d§o超限附魔§r"]}}), enclistSticcWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<thermalfoundation:tool.fishing_rod_platinum>.withTag({display: {Name:"§6§o钓鱼擀§r",Lore:["§d§o超限附魔§r"]}}), enclistSticcWrapped).getItem(), 
 		[[<contenttweaker:second_order_mythic_fractal>, null, null, <contenttweaker:second_order_mythic_fractal>, null, null, <contenttweaker:second_order_mythic_fractal>], 
 		[null, <contenttweaker:ascended_draconic_alloy>, null, <contenttweaker:ascended_draconic_alloy>, null, <contenttweaker:ascended_draconic_alloy>, null], 
 		[null, null, <projectex:matter:11>, null, <projectex:matter:11>, null, null], 
@@ -1261,7 +1261,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:mending",25);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<extrabotany:ultimatehammer>.withTag({damage: 3000, repair: 17000, display: {Name:"§6§oTater Smasher§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistTaterSmasherWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<extrabotany:ultimatehammer>.withTag({damage: 3000, repair: 17000, display: {Name:"§6§o土豆粉碎锤§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistTaterSmasherWrapped).getItem(), 
 		[[<extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>], 
 		[<extrabotany:gildedmashedpotato>, <contenttweaker:gem_of_the_warrior>, <contenttweaker:prophetic_paper>, null, <avaritia:resource:5>, null, <contenttweaker:prophetic_paper>, <contenttweaker:gem_of_the_warrior>, <extrabotany:gildedmashedpotato>], 
 		[<extrabotany:gildedmashedpotato>, <contenttweaker:prophetic_paper>, null, null, <contenttweaker:fifth_order_mythic_fractal>, null, null, <contenttweaker:prophetic_paper>, <extrabotany:gildedmashedpotato>], 
@@ -1281,7 +1281,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:thorns",250);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:tormented_hood>.withTag({display: {Name:"§6§oNightmare Hood§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistNightmareHoodWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:tormented_hood>.withTag({display: {Name:"§6§o梦魇头罩§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistNightmareHoodWrapped).getItem(), 
 		[[<contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, null, null, null, null, null, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>], 
 		[<contenttweaker:draconian_metal_ingot>, <ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>, null, null, null, <ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>, <contenttweaker:draconian_metal_ingot>], 
 		[null, <ore:ingotSacrificeMetal>, <contenttweaker:vethea_garnet>, <contenttweaker:vethea_garnet>, null, <contenttweaker:vethea_garnet>, <contenttweaker:vethea_garnet>, <ore:ingotSacrificeMetal>, null], 
