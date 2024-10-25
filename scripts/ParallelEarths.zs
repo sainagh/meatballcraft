@@ -96,7 +96,7 @@ imstuckgetmehome.itemRightClick = function(stack, world, player, hand) {
 			if(player.getDimension() != 686) {
 				if(player.getDimension() != 687) {
 					if(player.getDimension() != 66) {
-        				player.sendChat("This will get you unstuck from a dimensional door, the erebus, and the limbo");
+        				player.sendChat("该物品能让你从维度门、混沌之地和灵薄狱中脱身");
         				return "FAIL";
 					}
 				}
@@ -113,8 +113,8 @@ flintandfurnace.maxStackSize = 1;
 flintandfurnace.glowing = true;
 flintandfurnace.itemRightClick = function(stack, world, player, hand) {
 
-player.sendChat("Use this in the overworld to enter the furnace dimension");
-player.sendChat("Use this in the furnace dimension to come back");
+player.sendChat("在主世界使用以进入熔炉维度");
+player.sendChat("在熔炉维度使用该物品以返回");
 
 
 if(player.getDimension() == 0) {
@@ -129,7 +129,7 @@ if(player.getDimension() == 0) {
     var blockBelow = world.getBlockState(blockPosBelowPlayer);
 	print(blockBelow.commandString);
     if(blockBelow != <blockstate:minecraft:cobblestone>) {
-        player.sendChat("Stand on Cobblestone");
+        player.sendChat("站在圆石上");
         return "FAIL";
     }
 	var posfurnace1 = player.position.asPosition3f();
@@ -138,7 +138,7 @@ if(player.getDimension() == 0) {
     var blockposfurnace1 = posfurnace1.asBlockPos();
     var blockBelow1 = world.getBlockState(posfurnace1);
     if(blockBelow1 != <blockstate:minecraft:coal_block>) {
-        player.sendChat("Place four coal blocks around the cobblestone");
+        player.sendChat("在圆石周围放置四个煤块");
         return "FAIL";
     }
 	var posfurnace2 = player.position.asPosition3f();
@@ -147,7 +147,7 @@ if(player.getDimension() == 0) {
     var blockposfurnace2 = posfurnace2.asBlockPos();
     var blockBelow2 = world.getBlockState(posfurnace2);
     if(blockBelow2 != <blockstate:minecraft:coal_block>) {
-        player.sendChat("Place four coal blocks around the cobblestone");
+        player.sendChat("在圆石周围放置四个煤块");
         return "FAIL";
     }
 	var posfurnace3 = player.position.asPosition3f();
@@ -156,7 +156,7 @@ if(player.getDimension() == 0) {
     var blockposfurnace3 = posfurnace3.asBlockPos();
     var blockBelow3 = world.getBlockState(posfurnace3);
     if(blockBelow3 != <blockstate:minecraft:coal_block>) {
-        player.sendChat("Place four coal blocks around the cobblestone");
+        player.sendChat("在圆石周围放置四个煤块");
         return "FAIL";
     }
 	var posfurnace4 = player.position.asPosition3f();
@@ -165,7 +165,7 @@ if(player.getDimension() == 0) {
     var blockposfurnace4 = posfurnace3.asBlockPos();
     var blockBelow4 = world.getBlockState(posfurnace4);
     if(blockBelow4 != <blockstate:minecraft:coal_block>) {
-        player.sendChat("Place four coal blocks around the cobblestone");
+        player.sendChat("在圆石周围放置四个煤块");
         return "FAIL";
     }
 
@@ -235,7 +235,7 @@ lunawarper.itemRightClick = function(stack, world, player, hand) {
 		Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
 	return "Pass";
 	}
-	player.sendChat("You gotta be in the end");
+	player.sendChat("需位于末地");
 	return "FAIL";
 };
 lunawarper.register();
@@ -257,7 +257,7 @@ osiriswarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 148", player, world, true, true);
@@ -282,7 +282,7 @@ ptahwarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 149", player, world, true, true);
@@ -307,7 +307,7 @@ hatorwarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 150", player, world, true, true);
@@ -332,7 +332,7 @@ europawarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 151", player, world, true, true);
@@ -356,7 +356,7 @@ oiwarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 152", player, world, true, true);
@@ -380,7 +380,7 @@ falacerwarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 160", player, world, true, true);
@@ -404,7 +404,7 @@ orcuswarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 161", player, world, true, true);
@@ -428,7 +428,7 @@ haumeawarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 146", player, world, true, true);
@@ -452,7 +452,7 @@ sednawarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 147", player, world, true, true);
@@ -476,7 +476,7 @@ rheniawarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 163", player, world, true, true);
@@ -500,7 +500,7 @@ myrmexwarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 164", player, world, true, true);
@@ -524,7 +524,7 @@ pixoniawarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 165", player, world, true, true);
@@ -548,7 +548,7 @@ proximabeltwarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 166", player, world, true, true);
@@ -572,7 +572,7 @@ nerowarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 170", player, world, true, true);
@@ -596,7 +596,7 @@ zoiwarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 171", player, world, true, true);
@@ -620,7 +620,7 @@ akathartoswarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 172", player, world, true, true);
@@ -644,7 +644,7 @@ pauramwarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 173", player, world, true, true);
@@ -668,7 +668,7 @@ alkemiawarper.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station");
+		player.sendChat("需位于空间站内");
 		return "FAIL";
 	}   
     Commands.call("cofh tpx @p 174", player, world, true, true);

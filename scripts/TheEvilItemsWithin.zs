@@ -153,9 +153,9 @@ vengefulkey.itemRightClick = function(stack, world, player, hand) {
     Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ contenttweaker:vengeful_portal 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
 
 
-    player.sendChat("This item serves two purposes, to open the entrance to the will crystal monolith, and to break the first four crystal clusters located there!");
-    player.sendChat("Stand on top of the vengeful portal to break it!");
-    player.sendChat("Stand right below, or on top of (both work) the clusters to break them!");
+    player.sendChat("该物品有两种用途，其一是打开意志晶块碑的入口，其二是破坏位于那里的四种晶簇块！");
+    player.sendChat("站在复仇传送门下方来将其破坏！");
+    player.sendChat("站在晶簇块正下方，或上方来将其破坏！");
 
 
         return "PASS";
@@ -178,9 +178,9 @@ retaliationkey.itemRightClick = function(stack, world, player, hand) {
     Commands.call("execute @s ~ ~ ~ detect ~ ~2 ~ contenttweaker:retaliation_portal 0 fill ~ ~2 ~ ~ ~2 ~ air 0 destroy", player, world, true, true);
 
 
-    player.sendChat("This item serves two purposes, to open the second gate in the will crystal monolith, and to break the final crystal cluster located there!");
-    player.sendChat("Stand right below the vengeful portal to break it!");
-    player.sendChat("Stand right below the cluster to break it!");
+    player.sendChat("该物品有两种用途，其一是打开意志晶块碑的第二扇门，其二是破坏位于那里的最终晶簇块！");
+    player.sendChat("站在复仇传送门下方来将其破坏！");
+    player.sendChat("站在晶簇块下方来将其破坏！");
 
 
         return "PASS";
@@ -263,7 +263,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != -26) {
-        player.sendChat("Enter the spatial storage and stand on a beacon");
+        player.sendChat("进入空间元件维度，然后站在信标上");
         return "FAIL";
     }
 
@@ -277,7 +277,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockBelow = world.getBlockState(blockPosBelowPlayer);
 	print(blockBelow.commandString);
     if(blockBelow != <blockstate:minecraft:beacon>) {
-        player.sendChat("Stand on a beacon");
+        player.sendChat("站在信标上");
         return "FAIL";
     }
 	
@@ -289,7 +289,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon1 = posbeacon1.asBlockPos();
     var blockBelow1 = world.getBlockState(blockposbeacon1);
     if(blockBelow1 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("Stand on a tier 1 diamond beacon");
+        player.sendChat("站在1级信标上");
         return "FAIL";
     }
 	var posbeacon2 = player.position.asPosition3f();
@@ -299,7 +299,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon2 = posbeacon2.asBlockPos();
     var blockBelow2 = world.getBlockState(blockposbeacon2);
     if(blockBelow2 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("Stand on a tier 1 diamond beacon");
+        player.sendChat("站在1级信标上");
         return "FAIL";
     }
 	var posbeacon3 = player.position.asPosition3f();
@@ -309,7 +309,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon3 = posbeacon3.asBlockPos();
     var blockBelow3 = world.getBlockState(blockposbeacon3);
     if(blockBelow3 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("Stand on a tier 1 diamond beacon");
+        player.sendChat("站在1级信标上");
         return "FAIL";
     }
 	var posbeacon4 = player.position.asPosition3f();
@@ -319,7 +319,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon4 = posbeacon4.asBlockPos();
     var blockBelow4 = world.getBlockState(blockposbeacon4);
     if(blockBelow4 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("Stand on a tier 1 diamond beacon");
+        player.sendChat("站在1级信标上");
         return "FAIL";
     }
 	var posbeacon5 = player.position.asPosition3f();
@@ -329,7 +329,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon5 = posbeacon5.asBlockPos();
     var blockBelow5 = world.getBlockState(blockposbeacon5);
     if(blockBelow5 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("Stand on a tier 1 diamond beacon");
+        player.sendChat("站在1级信标上");
         return "FAIL";
     }
 	var posbeacon6 = player.position.asPosition3f();
@@ -339,7 +339,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon6 = posbeacon6.asBlockPos();
     var blockBelow6 = world.getBlockState(blockposbeacon6);
     if(blockBelow6 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("Stand on a tier 1 diamond beacon");
+        player.sendChat("站在1级信标上");
         return "FAIL";
     }
 	var posbeacon7 = player.position.asPosition3f();
@@ -349,7 +349,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon7 = posbeacon7.asBlockPos();
     var blockBelow7 = world.getBlockState(blockposbeacon7);
     if(blockBelow7 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("Stand on a tier 1 diamond beacon");
+        player.sendChat("站在1级信标上");
         return "FAIL";
     }
 	var posbeacon8 = player.position.asPosition3f();
@@ -359,7 +359,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon8 = posbeacon8.asBlockPos();
     var blockBelow8 = world.getBlockState(blockposbeacon8);
     if(blockBelow8 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("Stand on a tier 1 diamond beacon");
+        player.sendChat("站在1级信标上");
         return "FAIL";
     }
 	var posbeacon9 = player.position.asPosition3f();
@@ -369,7 +369,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon9 = posbeacon9.asBlockPos();
     var blockBelow9 = world.getBlockState(blockposbeacon9);
     if(blockBelow9 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("Stand on a tier 1 diamond beacon");
+        player.sendChat("站在1级信标上");
         return "FAIL";
     }
 
@@ -390,7 +390,7 @@ recursiontrap.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("Must be in the overworld");
+        player.sendChat("必须位于主世界");
         return "FAIL";
     }
 

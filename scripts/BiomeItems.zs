@@ -43,7 +43,7 @@ markofthesamurai.itemRightClick = function(stack, world, player, hand) {
 
     // check if player is in right dimension
     if(player.getDimension() != 163) {
-        player.sendChat("You gotta be in rhenia in a volcanic biome");
+        player.sendChat("需位于铼界的火山带（Volcanic）群系");
         return "FAIL";
     }
 
@@ -63,21 +63,21 @@ markofthesamurai.itemRightClick = function(stack, world, player, hand) {
     val OminousMatches = checkBiomesAtPositions(OminousBiomeName, playerpos, OminousBiomeLocations, world) as int;
 	val VolcanicMatches = checkBiomesAtPositions(VolcanicBiomeName, playerpos, VolcanicBiomeLocations, world) as int;
 
-    player.sendChat("Use the arcane terraformer to create a plus sign of Ominous Woods biome blocks surrounded by volcanic biome (not volcanic barren or volcanic lowlands)");
-	player.sendChat("Stand in the center and use this item!");
+    player.sendChat("使用奥术群系转换仪来生成单方块十字形的不详森林（Ominous Woods）群系，十字四角为火山带（Volcanic）群系");
+	player.sendChat("站在中心使用该物品！");
 
 	player.sendChat(" - - - ");
-	player.sendChat("Scanning 3x3 area around you");
+	player.sendChat("正在扫描周围的3x3区域");
 
-	player.sendChat("Ominous Woods : " ~ OminousMatches ~ " out of 5");
-	player.sendChat("Volcanic : " ~ VolcanicMatches ~ " out of 4");
+	player.sendChat("不详森林（Ominous Woods）：" ~ OminousMatches ~ " / 5");
+	player.sendChat("火山带（Volcanic）：" ~ VolcanicMatches ~ " / 4");
 
     if((OminousMatches+VolcanicMatches) == 9) {
 		Commands.call("give @p contenttweaker:sword_shield", player, world, true, true);
 		stack.shrink(1);
 		return "PASS";
 	} else {
-		player.sendChat("Shape is incomplete!");
+		player.sendChat("形状不完整！");
 		return "FAIL";
 	}
 
@@ -94,10 +94,10 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 151) {
-        player.sendChat("The biome ritual callstone will tell you where you need to be!");
+        player.sendChat("群系仪式召唤石会告诉你该去哪！");
         return "FAIL";
     }
-    player.sendChat("Success! You are in the right place!");
+    player.sendChat("成功！你位于正确的维度！");
 
 	// obtain position under player
 	var playerpos = player.position as crafttweaker.util.Position3f;
@@ -130,8 +130,8 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 	val BogBiomeName = "Bog" as string;
 	val TaintedLandsBiomeName = "Tainted Lands" as string;
 
-    player.sendChat("Complete the biome ritual!");
-	player.sendChat("It occupies a 5x5 around you, you are in the center!");
+    player.sendChat("完成群系仪式！");
+	player.sendChat("将检测以玩家为中心的5x5格区域！");
 
 	    // get number of matches
     val MysteriumMatches = checkBiomesAtPositions(MysteriumBiomeName, playerpos, MystriumBiomeLocations, world) as int;
@@ -149,80 +149,80 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 
 	val NumberOfMatches = MysteriumMatches + NuclearWastelandMatches + StorageBiomeMatches + CrystalChasmsMatches + BlackVoidMatches + TwilightStreamMatches + AlienForestMatches + ThornlandsMatches + IromineMatches + StormlandMatches + BogMatches + TaintedLandsMatches as int;
 
-	player.sendChat("Scanning 5x5 area around you");
-	player.sendChat("Biome Ritual: " ~ NumberOfMatches ~ " out of 25");
+	player.sendChat("扫描周围5x5区域");
+	player.sendChat("群系仪式：" ~ NumberOfMatches ~ " / 25");
 	
 
 	if((MysteriumMatches) == 2) {
-		player.sendChat("Mysterium : " ~ MysteriumMatches ~ " out of 2");
+		player.sendChat("秘境（Mysterium）：" ~ MysteriumMatches ~ " / 2");
 	} else {
-		player.sendChat("Biome #1 : " ~ MysteriumMatches ~ " out of 2");
+		player.sendChat("群系 #1：" ~ MysteriumMatches ~ " / 2");
 	}
 	
 	if((NuclearWastelandMatches) == 2) {
-		player.sendChat("Nuclear Wasteland : " ~ NuclearWastelandMatches ~ " out of 2");
+		player.sendChat("核泄露之地（Nuclear Wasteland）：" ~ NuclearWastelandMatches ~ " / 2");
 	} else {
-		player.sendChat("Biome #2 : " ~ NuclearWastelandMatches ~ " out of 2");
+		player.sendChat("群系 #2：" ~ NuclearWastelandMatches ~ " / 2");
 	}
 
 	if((StorageBiomeMatches) == 2) {
-		player.sendChat("Storage Biome : " ~ StorageBiomeMatches ~ " out of 2");
+		player.sendChat("AE2群系（Storage Cell）：" ~ StorageBiomeMatches ~ " / 2");
 	} else {
-		player.sendChat("Biome #3 : " ~ StorageBiomeMatches ~ " out of 2");
+		player.sendChat("群系 #3：" ~ StorageBiomeMatches ~ " / 2");
 	}
 
 	if((CrystalChasmsMatches) == 2) {
-		player.sendChat("Crystal Chasms : " ~ CrystalChasmsMatches ~ " out of 2");
+		player.sendChat("水晶巨峰（Crystal Chasms）：" ~ CrystalChasmsMatches ~ " / 2");
 	} else {
-		player.sendChat("Biome #4 : " ~ CrystalChasmsMatches ~ " out of 2");
+		player.sendChat("群系 #4：" ~ CrystalChasmsMatches ~ " / 2");
 	}
 
 	if((BlackVoidMatches) == 2) {
-		player.sendChat("Dangerous Black Void : " ~ BlackVoidMatches ~ " out of 2");
+		player.sendChat("凶险的黑暗虚空（Dangerous Black Void）：" ~ BlackVoidMatches ~ " / 2");
 	} else {
-		player.sendChat("Biome #5 : " ~ BlackVoidMatches ~ " out of 2");
+		player.sendChat("群系 #5：" ~ BlackVoidMatches ~ " / 2");
 	}
 
 	if((TwilightStreamMatches) == 4) {
-		player.sendChat("Twilight Stream : " ~ TwilightStreamMatches ~ " out of 4");
+		player.sendChat("暮色河流（Twilight Stream）：" ~ TwilightStreamMatches ~ " out of 4");
 	} else {
-		player.sendChat("Biome #6 : " ~ TwilightStreamMatches ~ " out of 4");
+		player.sendChat("群系 #6：" ~ TwilightStreamMatches ~ " out of 4");
 	}
 
 	if((AlienForestMatches) == 2) {
-		player.sendChat("Alien Forest : " ~ AlienForestMatches ~ " out of 2");
+		player.sendChat("外星森林（Alien Forest）：" ~ AlienForestMatches ~ " / 2");
 	} else {
-		player.sendChat("Biome #7 : " ~ AlienForestMatches ~ " out of 2");
+		player.sendChat("群系 #7：" ~ AlienForestMatches ~ " / 2");
 	}
 
 	if((ThornlandsMatches) == 2) {
-		player.sendChat("Thornlands : " ~ ThornlandsMatches ~ " out of 2");
+		player.sendChat("荆棘之地（Thornlands）：" ~ ThornlandsMatches ~ " / 2");
 	} else {
-		player.sendChat("Biome #8 : " ~ ThornlandsMatches ~ " out of 2");
+		player.sendChat("群系 #8：" ~ ThornlandsMatches ~ " / 2");
 	}
 
 	if((IromineMatches) == 2) {
-		player.sendChat("Iromine : " ~ IromineMatches ~ " out of 2");
+		player.sendChat("黄金（Iromine）：" ~ IromineMatches ~ " / 2");
 	} else {
-		player.sendChat("Biome #9 : " ~ IromineMatches ~ " out of 2");
+		player.sendChat("群系 #9：" ~ IromineMatches ~ " / 2");
 	}
 
 	if((StormlandMatches) == 2) {
-		player.sendChat("Stormland : " ~ StormlandMatches ~ " out of 2");
+		player.sendChat("风暴之地（Stormland）：" ~ StormlandMatches ~ " / 2");
 	} else {
-		player.sendChat("Biome #10: " ~ StormlandMatches ~ " out of 2");
+		player.sendChat("群系 #10: " ~ StormlandMatches ~ " / 2");
 	}
 
 	if((BogMatches) == 1) {
-		player.sendChat("Bog : " ~ BogMatches ~ " out of 1");
+		player.sendChat("泥塘（Bog）：" ~ BogMatches ~ " / 1");
 	} else {
-		player.sendChat("Biome #11: " ~ BogMatches ~ " out of 1");
+		player.sendChat("群系 #11: " ~ BogMatches ~ " / 1");
 	}
 
 	if((TaintedLandsMatches) == 2) {
-		player.sendChat("Tainted Lands : " ~ TaintedLandsMatches ~ " out of 2");
+		player.sendChat("腐化之地（Tainted Lands）：" ~ TaintedLandsMatches ~ " / 2");
 	} else {
-		player.sendChat("Biome #12: " ~ TaintedLandsMatches ~ " out of 2");
+		player.sendChat("群系 #12: " ~ TaintedLandsMatches ~ " / 2");
 	}
 
 
@@ -233,7 +233,7 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 		stack.shrink(1);
 		return "PASS";
 	} else {
-		player.sendChat("The ritual is incomplete!");
+		player.sendChat("仪式不完整！");
 		return "FAIL";
 	}
 
@@ -255,7 +255,7 @@ biomechecker.itemRightClick = function(stack, world, player, hand) {
 
 
 	// send biome name in chat
-	player.sendChat("Biome : " ~ world.getBiome(playerpos).name ~ " ");
+	player.sendChat("群系：" ~ world.getBiome(playerpos).name ~ " ");
 
 	return "PASS";
 };
@@ -271,7 +271,7 @@ spatialphaser.itemRightClick = function(stack, world, player, hand) {
 
     // check if player is in right dimension
     if(player.getDimension() != 805) {
-        player.sendChat("You gotta be in the right dimension, lelyetia will tell you which one");
+        player.sendChat("需位于正确的维度，赫尔维蒂维度将告诉你是哪一个");
         return "FAIL";
     }
 
@@ -288,29 +288,29 @@ spatialphaser.itemRightClick = function(stack, world, player, hand) {
     // get number of matches
     val UndergardenMatches = checkBiomesAtPositions(UndergardenBiomeName, playerpos, UndergardenBiomeLocations, world) as int;
 
-    player.sendChat("Use the terraformer from extra utilities to change the biome to the correct one, lelyetia will tell you which one.");
-    player.sendChat("You will have to convert a large area!");
-	player.sendChat("Stand in the changed biome and use this item!");
+    player.sendChat("使用更多实用设备模组的地形转化仪将群系转化为正确群系，赫尔维蒂维度将告诉你是哪一个。");
+    player.sendChat("你得转化很大一块区域！");
+	player.sendChat("站在改变后的群戏中使用该物品！");
 
 	player.sendChat(" - - - ");
-	player.sendChat("Scanning area around you");
+	player.sendChat("正在扫描周围区域");
 
 	if((UndergardenMatches) == 17) {
-		player.sendChat("Success!");
+		player.sendChat("成功！");
 		Commands.call("give @p contenttweaker:phasing_gem", player, world, true, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
 
     if((UndergardenMatches) >= 1) {
-		player.sendChat("Correct, the right biome is the Undergarden!");
+		player.sendChat("检测无误，正确的群系为地下花园（Undergarden）！");
 		val UndergardenMatchesD = UndergardenMatches as double;
-		player.sendChat("Completion : " ~ UndergardenMatchesD/17*100 ~ "%");
-		player.sendChat("Convert a bigger area!");
+		player.sendChat("完成度：" ~ UndergardenMatchesD/17*100 ~ "%");
+		player.sendChat("还需转化更大区域！");
 		return "FAIL";
 	} 
 
-	player.sendChat("The biome is wrong!");
+	player.sendChat("群系错误！");
 	return "FAIL";
 
 
@@ -326,7 +326,7 @@ gemvoracity.itemRightClick = function(stack, world, player, hand) {
 
     // check if player is in right dimension
     if(player.getDimension() != 803) {
-        player.sendChat("You gotta be in the right dimension, the Vox Ponds will tell you which one");
+        player.sendChat("需位于正确的维度，未知维度将告诉你是哪一个");
         return "FAIL";
     }
 
@@ -343,29 +343,29 @@ gemvoracity.itemRightClick = function(stack, world, player, hand) {
     // get number of matches
     val UndergardenMatches = checkBiomesAtPositions(UndergardenBiomeName, playerpos, UndergardenBiomeLocations, world) as int;
 
-    player.sendChat("Use the terraformer from extra utilities to change the biome to the correct one, the Vox Ponds will tell you which one.");
-    player.sendChat("You will have to convert a large area!");
-	player.sendChat("Stand in the changed biome and use this item!");
+    player.sendChat("使用更多实用设备模组的地形转化仪将群系转化为正确群系，未知维度将告诉你是哪一个。");
+    player.sendChat("你得转化很大一块区域！");
+	player.sendChat("站在改变后的群戏中使用该物品！");
 
 	player.sendChat(" - - - ");
-	player.sendChat("Scanning area around you");
+	player.sendChat("正在扫描周围区域");
 
 	if((UndergardenMatches) == 17) {
-		player.sendChat("Success!");
+		player.sendChat("成功！");
 		Commands.call("give @p contenttweaker:voraceous_worm_callstone", player, world, true, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
 
     if((UndergardenMatches) >= 1) {
-		player.sendChat("Correct, the right biome is the Mesa Bryce!");
+		player.sendChat("检测无误，正确的群系为平顶山（岩柱）（Mesa (Bryce)）！");
 		val UndergardenMatchesD = UndergardenMatches as double;
-		player.sendChat("Completion : " ~ UndergardenMatchesD/17*100 ~ "%");
-		player.sendChat("Convert a bigger area!");
+		player.sendChat("完成度：" ~ UndergardenMatchesD/17*100 ~ "%");
+		player.sendChat("还需转化更大区域！");
 		return "FAIL";
 	} 
 
-	player.sendChat("The biome is wrong!");
+	player.sendChat("群系错误！");
 	return "FAIL";
 
 
@@ -381,7 +381,7 @@ aquaticstone.itemRightClick = function(stack, world, player, hand) {
 
     // check if player is in right dimension
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in the overworld");
+        player.sendChat("需位于主世界");
         return "FAIL";
     }
 
@@ -399,7 +399,7 @@ aquaticstone.itemRightClick = function(stack, world, player, hand) {
     val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
 
 	if((OceanMatches) == 0) {
-		player.sendChat("You gotta be in an ocean biome");
+		player.sendChat("需位于海洋（Ocean）群系");
 		return "FAIL";
 	} 
 
@@ -421,7 +421,7 @@ aquaticstone.itemRightClick = function(stack, world, player, hand) {
 		return "PASS";
 	} 
 
-	player.sendChat("You gotta be in an ocean biome");
+	player.sendChat("需位于海洋（Ocean）群系");
 	return "FAIL";
 
 
@@ -441,7 +441,7 @@ brokenoath.itemRightClick = function(stack, world, player, hand) {
 
     // check if player is in right dimension
     if(player.getDimension() != 7) {
-        player.sendChat("You gotta be in the Twilight Forest");
+        player.sendChat("需位于暮色森林");
         return "FAIL";
     }
 
@@ -459,7 +459,7 @@ brokenoath.itemRightClick = function(stack, world, player, hand) {
     val CandyMatches = checkBiomesAtPositions(CandyBiomeName, playerpos, CandyBiomeLocations, world) as int;
 
 	if((CandyMatches) == 0) {
-		player.sendChat("You gotta be in the final plateau biome");
+		player.sendChat("需位于终焉高原（Final Plateau）群系");
 		return "FAIL";
 	} 
 
@@ -469,7 +469,7 @@ brokenoath.itemRightClick = function(stack, world, player, hand) {
 		return "PASS";
 	} 
 
-	player.sendChat("You gotta be in an final plateau biome");
+	player.sendChat("需位于终焉高原（Final Plateau）群系");
 	return "FAIL";
 
 
@@ -486,7 +486,7 @@ rhythmgreatworm.itemRightClick = function(stack, world, player, hand) {
 
     // check if player is in right dimension
     if(player.getDimension() != 624) {
-        player.sendChat("You gotta be in Gallifrey");
+        player.sendChat("需位于伽里弗雷");
         return "FAIL";
     }
 
@@ -504,17 +504,17 @@ rhythmgreatworm.itemRightClick = function(stack, world, player, hand) {
     val CandyMatches = checkBiomesAtPositions(CandyBiomeName, playerpos, CandyBiomeLocations, world) as int;
 
 	if((CandyMatches) == 0) {
-		player.sendChat("You gotta be in a Wastelands biome");
+		player.sendChat("需位于Wastelands群系");
 		return "FAIL";
 	} 
 
     if((CandyMatches) == 1) {
-		Commands.call("/summon iceandfire:deathworm ~ ~ ~ {Scale:10f,WormAge:10, HandItems:[{Count:1,id:\"contenttweaker:blood_of_enlightenment\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Shai-Hulud\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:100,permshields:100}}}", player, world, true, true);
+		Commands.call("/summon iceandfire:deathworm ~ ~ ~ {Scale:10f,WormAge:10, HandItems:[{Count:1,id:\"contenttweaker:blood_of_enlightenment\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"夏胡鲁\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:100,permshields:100}}}", player, world, true, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
 
-	player.sendChat("You gotta be in a Wastelands biome");
+	player.sendChat("需位于Wastelands群系");
 	return "FAIL";
 
 
@@ -531,7 +531,7 @@ diabeticsummoner.itemRightClick = function(stack, world, player, hand) {
 
     // check if player is in right dimension
     if(player.getDimension() != 152) {
-        player.sendChat("You gotta be in Oi");
+        player.sendChat("需位于奥伊");
         return "FAIL";
     }
 
@@ -549,7 +549,7 @@ diabeticsummoner.itemRightClick = function(stack, world, player, hand) {
     val CandyMatches = checkBiomesAtPositions(CandyBiomeName, playerpos, CandyBiomeLocations, world) as int;
 
 	if((CandyMatches) == 0) {
-		player.sendChat("You gotta be in a candyland biome");
+		player.sendChat("需位于糖果（Candyland）群系");
 		return "FAIL";
 	} 
 
@@ -559,7 +559,7 @@ diabeticsummoner.itemRightClick = function(stack, world, player, hand) {
 		return "PASS";
 	} 
 
-	player.sendChat("You gotta be in an candyland biome");
+	player.sendChat("需位于糖果（Candyland）群系");
 	return "FAIL";
 
 
@@ -580,21 +580,21 @@ memoryrestorationritual.itemRightClick = function(stack, world, player, hand) {
 		if(player.getDimension() != 7) {
 			if(player.getDimension() != 150) {
 				if(player.getDimension() != 426) {
-        			player.sendChat("This item works in the Overworld, Twilight Forest, Hator, and Arcana");
+        			player.sendChat("该物品可在主世界、暮色森林、哈托尔以及秘界使用");
         			return "FAIL";
 				}
 			}
 		}
     }
 
-	player.sendChat("Depending on the dimension you are located, this item will require a different biome to work");
-	player.sendChat("Overworld: Ancient Cavern (found in the Ancient Cavern)");
-	player.sendChat("Twilight Forest: Outer Lands (found in Akathartos)");
-	player.sendChat("Hator: Sacred Springs (found in the Overworld)");
-	player.sendChat("Arcana: Magical Forest (found in the Overworld)");
-	player.sendChat("The summoned bosses will lose HP after all shields are broken");
+	player.sendChat("根据所在维度不同，该物品需要不同的群系才能工作");
+	player.sendChat("主世界：远古神殿（Ancient Cavern）（发现于远古神殿维度）");
+	player.sendChat("暮色森林：外域（Outer Lands）（发现于晦暗界）");
+	player.sendChat("哈托尔：Hator: 神圣之泉（Sacred Springs）（发现于主世界）");
+	player.sendChat("秘界：魔法森林（Magical Forest）（发现于主世界）");
+	player.sendChat("召唤的Boss只有在护盾破坏之后才会受到伤害");
 	player.sendChat(" - - - ");
-	player.sendChat("Scanning your position");
+	player.sendChat("正在扫描玩家位置");
 
     // obtain position under player
 	var playerpos = player.position as crafttweaker.util.Position3f;
@@ -620,37 +620,37 @@ memoryrestorationritual.itemRightClick = function(stack, world, player, hand) {
 
 	if((AncientCavernMatches) == 1) {
 		if(player.getDimension() == 0) {
-			player.sendChat("Success");
-			Commands.call("summon aoa3:angelica ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_terra\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
+			player.sendChat("成功");
+			Commands.call("summon aoa3:angelica ~ ~2 ~ {CustomName:\"谎言护卫\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_terra\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
 			return "PASS";
 		}
 	} 
 
 	if((OuterLandsMatches) == 1) {
 		if(player.getDimension() == 7) {
-			player.sendChat("Success");
-			Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_twilightforest\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
+			player.sendChat("成功");
+			Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"谎言护卫\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_twilightforest\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
 			return "PASS";
 		}
 	} 
 
 	if((SacredSpringsMatches) == 1) {
 		if(player.getDimension() == 150) {
-			player.sendChat("Success");
-			Commands.call("summon divinerpg:hover_stringer ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_hator\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
+			player.sendChat("成功");
+			Commands.call("summon divinerpg:hover_stringer ~ ~2 ~ {CustomName:\"谎言护卫\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_hator\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
 			return "PASS";
 		}
 	} 
 
 	if((MagicalForestName) == 1) {
 		if(player.getDimension() == 426) {
-			player.sendChat("Success");
-			Commands.call("summon divinerpg:deathcryx ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_asgard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
+			player.sendChat("成功");
+			Commands.call("summon divinerpg:deathcryx ~ ~2 ~ {CustomName:\"谎言护卫\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_asgard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
 			return "PASS";
 		}
 	} 
 
-	player.sendChat("None of the right combinations matches");
+	player.sendChat("群系不匹配");
 	return "FAIL";
 
 

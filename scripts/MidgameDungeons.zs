@@ -22,7 +22,7 @@ creeponiacallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 805) {
-        player.sendChat("需在正确的维度使用");
+        player.sendChat("需位于正确的维度");
         return "FAIL";
     }
 
@@ -41,7 +41,7 @@ deeplandscallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 807) {
-        player.sendChat("需在正确的维度使用");
+        player.sendChat("需位于正确的维度");
         return "FAIL";
     }
 
@@ -60,7 +60,7 @@ crysteviacallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 806) {
-        player.sendChat("需在正确的维度使用");
+        player.sendChat("需位于正确的维度");
         return "FAIL";
     }
 
@@ -79,7 +79,7 @@ irominecallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 813) {
-        player.sendChat("需在正确的维度使用");
+        player.sendChat("需位于正确的维度");
         return "FAIL";
     }
 
@@ -98,7 +98,7 @@ boreancallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 814) {
-        player.sendChat("需在正确的维度使用");
+        player.sendChat("需位于正确的维度");
         return "FAIL";
     }
 
@@ -117,7 +117,7 @@ lunaluscallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 816) {
-        player.sendChat("需在正确的维度使用");
+        player.sendChat("需位于正确的维度");
         return "FAIL";
     }
 
@@ -136,7 +136,7 @@ wildwoodcallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 421) {
-        player.sendChat("需在正确的维度使用");
+        player.sendChat("需位于正确的维度");
         return "FAIL";
     }
 
@@ -155,7 +155,7 @@ skytherncallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 423) {
-        player.sendChat("需在正确的维度使用");
+        player.sendChat("需位于正确的维度");
         return "FAIL";
     }
 
@@ -174,7 +174,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 423) {
-        player.sendChat("需在空境使用");
+        player.sendChat("需位于空境");
         return "FAIL";
     }
 
@@ -188,7 +188,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockBelow = world.getBlockState(blockPosBelowPlayer);
 	print(blockBelow.commandString);
     if(blockBelow != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Stand on a purpur block");
+        player.sendChat("站在紫珀块上");
         return "FAIL";
     }
 	
@@ -200,7 +200,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon1 = posbeacon1.asBlockPos();
     var blockBelow1 = world.getBlockState(blockposbeacon1);
     if(blockBelow1 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, heed the call of the white sky, and reproduce the redquartz shape");
+        player.sendChat("使用紫珀块组成正确的形状，听从白色天空的呼唤，重现红色石英的形状");
         return "FAIL";
     }
 	var posbeacon2 = player.position.asPosition3f();
@@ -210,7 +210,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon2 = posbeacon2.asBlockPos();
     var blockBelow2 = world.getBlockState(blockposbeacon2);
     if(blockBelow2 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
 	var posbeacon3 = player.position.asPosition3f();
@@ -220,7 +220,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon3 = posbeacon3.asBlockPos();
     var blockBelow3 = world.getBlockState(blockposbeacon3);
     if(blockBelow3 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
 	var posbeacon4 = player.position.asPosition3f();
@@ -230,7 +230,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon4 = posbeacon4.asBlockPos();
     var blockBelow4 = world.getBlockState(blockposbeacon4);
     if(blockBelow4 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
 	var posbeacon5 = player.position.asPosition3f();
@@ -240,7 +240,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon5 = posbeacon5.asBlockPos();
     var blockBelow5 = world.getBlockState(blockposbeacon5);
     if(blockBelow5 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
 	var posbeacon6 = player.position.asPosition3f();
@@ -250,7 +250,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon6 = posbeacon6.asBlockPos();
     var blockBelow6 = world.getBlockState(blockposbeacon6);
     if(blockBelow6 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
 	var posbeacon7 = player.position.asPosition3f();
@@ -260,7 +260,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon7 = posbeacon7.asBlockPos();
     var blockBelow7 = world.getBlockState(blockposbeacon7);
     if(blockBelow7 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
 	var posbeacon8 = player.position.asPosition3f();
@@ -270,7 +270,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon8 = posbeacon8.asBlockPos();
     var blockBelow8 = world.getBlockState(blockposbeacon8);
     if(blockBelow8 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
 
@@ -281,7 +281,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon9 = posbeacon9.asBlockPos();
     var blockBelow9 = world.getBlockState(blockposbeacon9);
     if(blockBelow9 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
 
@@ -292,7 +292,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon10 = posbeacon10.asBlockPos();
     var blockBelow10 = world.getBlockState(blockposbeacon10);
     if(blockBelow10 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
     var posbeacon11 = player.position.asPosition3f();
@@ -302,7 +302,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon11 = posbeacon11.asBlockPos();
     var blockBelow11 = world.getBlockState(blockposbeacon11);
     if(blockBelow11 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
     var posbeacon12 = player.position.asPosition3f();
@@ -312,7 +312,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon12 = posbeacon12.asBlockPos();
     var blockBelow12 = world.getBlockState(blockposbeacon12);
     if(blockBelow12 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
     var posbeacon13 = player.position.asPosition3f();
@@ -322,7 +322,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon13 = posbeacon13.asBlockPos();
     var blockBelow13 = world.getBlockState(blockposbeacon13);
     if(blockBelow13 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
     var posbeacon14 = player.position.asPosition3f();
@@ -332,7 +332,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon14 = posbeacon14.asBlockPos();
     var blockBelow14 = world.getBlockState(blockposbeacon14);
     if(blockBelow14 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
     var posbeacon15 = player.position.asPosition3f();
@@ -342,7 +342,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon15 = posbeacon15.asBlockPos();
     var blockBelow15 = world.getBlockState(blockposbeacon15);
     if(blockBelow15 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
     var posbeacon16 = player.position.asPosition3f();
@@ -352,7 +352,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon16 = posbeacon16.asBlockPos();
     var blockBelow16 = world.getBlockState(blockposbeacon16);
     if(blockBelow16 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
     var posbeacon17 = player.position.asPosition3f();
@@ -362,7 +362,7 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon17 = posbeacon17.asBlockPos();
     var blockBelow17 = world.getBlockState(blockposbeacon17);
     if(blockBelow17 != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("Compose the right shape out of purpur, the key is in the white sky");
+        player.sendChat("使用紫珀块组成正确的形状，答案就在白色天空中");
         return "FAIL";
     }
 
@@ -382,7 +382,7 @@ immortalliscallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 7) {
-        player.sendChat("需在暮色森林使用");
+        player.sendChat("需位于暮色森林");
         return "FAIL";
     }
 
@@ -401,7 +401,7 @@ horrificcallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 20) {
-        player.sendChat("Enter the betweenlands");
+        player.sendChat("进入交错次元");
         return "FAIL";
     }
 
@@ -420,7 +420,7 @@ harbingercallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 7) {
-        player.sendChat("需在暮色森林使用");
+        player.sendChat("需位于暮色森林");
         return "FAIL";
     }
 
@@ -439,7 +439,7 @@ dreamcallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 427) {
-        player.sendChat("You gotta be in vethea");
+        player.sendChat("需位于梦魇世界");
         return "FAIL";
     }
 
@@ -458,7 +458,7 @@ nightmarecallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 427) {
-        player.sendChat("You gotta be in vethea");
+        player.sendChat("需位于梦魇世界");
         return "FAIL";
     }
 
@@ -478,7 +478,7 @@ sacredcallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 4) {
-        player.sendChat("You gotta be in the aether");
+        player.sendChat("需位于天境");
         return "FAIL";
     }
 
@@ -497,7 +497,7 @@ callofthehaunted.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 7) {
-        player.sendChat("You gotta be in the twilight forest");
+        player.sendChat("需位于暮色森林");
         return "FAIL";
     }
 
@@ -516,7 +516,7 @@ recursionprisonkey.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in the overworld");
+        player.sendChat("需位于主世界");
         return "FAIL";
     }
 
@@ -536,13 +536,13 @@ stickycallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 50) {
-        player.sendChat("You gotta be in the abyssal wasteland");
+        player.sendChat("需位于深渊荒原");
         return "FAIL";
     }
 
     Commands.call("pillar-spawn big_bouncy_castle", player, world, true, true);
     Commands.call("summon Slime ~ ~10 ~ {Size:100,ActiveEffects:[{Id:10,Amplifier:4,Duration:999999},{Id:6,Amplifier:250,Duration:999999}],HandItems:[{Count:1,id:\"contenttweaker:big_slime\"},{}],HandDropChances:[1.0f,0.0f],Health:3000f}", player, world, true, true);
-    player.sendChat("Kill it!");
+    player.sendChat("杀了他！");
     stack.shrink(1);
     return "PASS";
 
@@ -563,7 +563,7 @@ runickey.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon aoa3:clunkhead ~-5 ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:clunky_chunky_brick\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, true, true);
     Commands.call("summon aoa3:clunkhead ~ ~10 ~5 {HandItems:[{Count:1,id:\"contenttweaker:clunky_chunky_brick\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, true, true);
     Commands.call("summon aoa3:clunkhead ~ ~10 ~-5 {HandItems:[{Count:1,id:\"contenttweaker:clunky_chunky_brick\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, true, true);
-    player.sendChat("Kill them all!");
+    player.sendChat("杀光他们！");
     stack.shrink(1);
     return "PASS";
 
@@ -578,7 +578,7 @@ secretweapon.itemRightClick = function(stack, world, player, hand) {
     }
 
     Commands.call("summon mightyenderchicken:ent_enderchicken ~ ~30 ~ {HandItems:[{Count:1,id:\"contenttweaker:recursive_feather\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0}],Health:2000f}", player, world, true, true);
-    player.sendChat("Kill them all!");
+    player.sendChat("杀光他们！");
     stack.shrink(1);
     return "PASS";
 
@@ -593,12 +593,12 @@ arcaneprisonkey.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 426) {
-        player.sendChat("You gotta be in arcana");
+        player.sendChat("需位于秘界");
         return "FAIL";
     }
 
     Commands.call("summon divinerpg:death_hound ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:sympan_spirit\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:20000.0},{Name:generic.attackDamage, Base:10000.0}],Health:20000f}", player, world, true, true);
-    player.sendChat("Kill it!");
+    player.sendChat("杀了他！");
     stack.shrink(1);
     return "PASS";
 
@@ -627,10 +627,10 @@ callofthejudge.itemRightClick = function(stack, world, player, hand) {
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station to assemble this multiblock");
+		player.sendChat("必须在空间站组装该多方块");
 	}
     if(blockBelow != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("THIS CANNOT BE UNDONE - Stand on a purpur block to mark where you want to place the multiblock");
+        player.sendChat("该操作无法撤消 - 站在紫珀块上来标记在何处放置此多方块");
         return "FAIL";
     }
     
@@ -661,12 +661,12 @@ aesirrift.itemRightClick = function(stack, world, player, hand) {
 	print(blockBelow.commandString);
     var check_pos as crafttweaker.util.Position3f;
     check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
-    player.sendChat("This will place down a structure, place away from your other stuff");
+    player.sendChat("该物品将放置一个结构，使用时离其他东西远一些");
 	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("You have to be in a space station to assemble this multiblock");
+		player.sendChat("必须在空间站组装该多方块");
 	}
     if(blockBelow != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("THIS CANNOT BE UNDONE - Stand on a purpur block to mark where you want to place the multiblock");
+        player.sendChat("该操作无法撤消 - 站在紫珀块上来标记在何处放置此多方块");
         return "FAIL";
     }
 
@@ -686,13 +686,13 @@ mossygravedust.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in the overworld");
+        player.sendChat("需位于主世界");
         return "FAIL";
     }
 
     Commands.call("time set night", player, world, true, true);
     Commands.call("summon mod_lavacow:sludgelord ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, true, true);
-    player.sendChat("Kill it!");
+    player.sendChat("杀了他！");
     stack.shrink(1);
     return "PASS";
 
@@ -707,13 +707,13 @@ unusuallyheavybone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in the overworld");
+        player.sendChat("需位于主世界");
         return "FAIL";
     }
 
     Commands.call("time set night", player, world, true, true);
     Commands.call("summon aoa3:bone_creature ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:hard_bone\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:10.0}],Health:1000f}", player, world, true, true);
-    player.sendChat("Kill it!");
+    player.sendChat("杀了他！");
     stack.shrink(1);
     return "PASS";
 
@@ -728,12 +728,12 @@ summoningcomputer.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 166) {
-        player.sendChat("You gotta be in the proxima belt");
+        player.sendChat("需位于比邻星带");
         return "FAIL";
     }
 
     Commands.call("summon aoa3:polytom ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:fluix_microcontroller\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:300.0}],Health:3000f}", player, world, true, true);
-    player.sendChat("Kill it!");
+    player.sendChat("杀了他！");
     stack.shrink(1);
     return "PASS";
 
@@ -753,7 +753,7 @@ skeletalcallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in the overworld");
+        player.sendChat("需位于主世界");
         return "FAIL";
     }
 
@@ -785,7 +785,7 @@ fluixcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 1) {
-        player.sendChat("You gotta be in the end");
+        player.sendChat("需位于末地");
         return "FAIL";
     }
 
@@ -806,7 +806,7 @@ terrestrialanimator0.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
+        player.sendChat("需位于光精界");
         return "FAIL";
     }
 
@@ -826,7 +826,7 @@ terrestrialanimator1.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
+        player.sendChat("需位于光精界");
         return "FAIL";
     }
 
@@ -846,7 +846,7 @@ terrestrialanimator2.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
+        player.sendChat("需位于光精界");
         return "FAIL";
     }
 
@@ -866,7 +866,7 @@ terrestrialanimator3.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
+        player.sendChat("需位于光精界");
         return "FAIL";
     }
 
@@ -886,7 +886,7 @@ terrestrialanimator4.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
+        player.sendChat("需位于光精界");
         return "FAIL";
     }
 
@@ -906,7 +906,7 @@ terrestrialanimator5.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
+        player.sendChat("需位于光精界");
         return "FAIL";
     }
 
@@ -926,7 +926,7 @@ terrestrialanimator6.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
+        player.sendChat("需位于光精界");
         return "FAIL";
     }
 
@@ -946,7 +946,7 @@ terrestrialanimator7.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 165) {
-        player.sendChat("You gotta be in pixonia");
+        player.sendChat("需位于光精界");
         return "FAIL";
     }
 
@@ -966,10 +966,10 @@ vibratingmithminiteschythe.itemRightClick = function(stack, world, player, hand)
     }
 
     if(player.getDimension() != 183) {
-        player.sendChat("You gotta be in vibe");
+        player.sendChat("需位于谐律界");
         return "FAIL";
     }
-    player.sendChat("Use on tainted soil");
+    player.sendChat("在腐化泥土上使用");
 
     Commands.call("fill ~2 ~2 ~2 ~-2 ~-2 ~-2 contenttweaker:ichor 0 replace thaumcraft:taint_soil", player, world, true, true);
 
@@ -987,7 +987,7 @@ taintedcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 183) {
-        player.sendChat("You gotta be in vibe");
+        player.sendChat("需位于谐律界");
         return "FAIL";
     }
 
@@ -1007,7 +1007,7 @@ radiatingcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 1) {
-        player.sendChat("You gotta be in the end");
+        player.sendChat("需位于末地");
         return "FAIL";
     }
 
@@ -1032,7 +1032,7 @@ demonologistcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 146) {
-        player.sendChat("You gotta be in Haumea");
+        player.sendChat("需位于哈乌美亚");
         return "FAIL";
     }
 
@@ -1062,7 +1062,7 @@ armorercallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 148) {
-        player.sendChat("You gotta be in Osiris");
+        player.sendChat("需位于奥西里斯");
         return "FAIL";
     }
 
@@ -1083,7 +1083,7 @@ undeadcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 53) {
-        player.sendChat("You gotta be in The Dark Realm");
+        player.sendChat("需位于黑暗领域");
         return "FAIL";
     }
 
@@ -1115,7 +1115,7 @@ betweenlandscallstone0.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("需位于主世界");
         return "FAIL";
     }
 
@@ -1136,7 +1136,7 @@ betweenlandscallstone1.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("需位于主世界");
         return "FAIL";
     }
 
@@ -1156,7 +1156,7 @@ betweenlandscallstone2.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("需位于主世界");
         return "FAIL";
     }
 
@@ -1176,7 +1176,7 @@ betweenlandscallstone3.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("需位于主世界");
         return "FAIL";
     }
 
@@ -1196,7 +1196,7 @@ betweenlandscallstone4.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("需位于主世界");
         return "FAIL";
     }
 
@@ -1216,7 +1216,7 @@ betweenlandscallstone5.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("需位于主世界");
         return "FAIL";
     }
 
@@ -1236,7 +1236,7 @@ betweenlandscallstone6.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("需位于主世界");
         return "FAIL";
     }
 
@@ -1256,7 +1256,7 @@ betweenlandscallstone7.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("需位于主世界");
         return "FAIL";
     }
 
@@ -1276,7 +1276,7 @@ betweenlandscallstone8.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("需位于主世界");
         return "FAIL";
     }
 
@@ -1297,7 +1297,7 @@ constructorsummoner.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 426) {
-        player.sendChat("You gotta be in Arcana");
+        player.sendChat("需位于秘界");
         return "FAIL";
     }
 
@@ -1319,7 +1319,7 @@ lordsummoner.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 426) {
-        player.sendChat("You gotta be in Arcana");
+        player.sendChat("需位于秘界");
         return "FAIL";
     }
 
@@ -1360,7 +1360,7 @@ ptah_callstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 149) {
-        player.sendChat("You gotta be in ptah");
+        player.sendChat("需位于普塔");
         return "FAIL";
     }
 
@@ -1381,7 +1381,7 @@ trinitycallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 150) {
-        player.sendChat("You gotta be in hator");
+        player.sendChat("需位于哈托尔");
         return "FAIL";
     }
 
@@ -1403,7 +1403,7 @@ peacefuloathcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 151) {
-        player.sendChat("You gotta be in europa");
+        player.sendChat("需位于欧罗巴");
         return "FAIL";
     }
 
@@ -1424,7 +1424,7 @@ gundevilcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 160) {
-        player.sendChat("You gotta be in falacer");
+        player.sendChat("需位于法拉瑟");
         return "FAIL";
     }
 
@@ -1445,7 +1445,7 @@ unburiedcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 152) {
-        player.sendChat("You gotta be in oi");
+        player.sendChat("需位于奥伊");
         return "FAIL";
     }
 
@@ -1467,7 +1467,7 @@ anemiccallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != -11325) {
-        player.sendChat("You gotta be in the deep dark");
+        player.sendChat("需位于漆黑世界");
         return "FAIL";
     }
 
@@ -1491,7 +1491,7 @@ orbitalcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 1) {
-        player.sendChat("You gotta be in the end");
+        player.sendChat("需位于末地");
         return "FAIL";
     }
 
@@ -1520,7 +1520,7 @@ bubbellalliancecallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 147) {
-        player.sendChat("You gotta be in sedna");
+        player.sendChat("需位于塞德娜");
         return "FAIL";
     }
 
@@ -1540,7 +1540,7 @@ biomeritualcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 149) {
-        player.sendChat("You gotta be in ptah");
+        player.sendChat("需位于普塔");
         return "FAIL";
     }
 
@@ -1561,7 +1561,7 @@ hiddenpowercallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 166) {
-        player.sendChat("You gotta be in proxima");
+        player.sendChat("需位于比邻星带");
         return "FAIL";
     }
 
@@ -1605,7 +1605,7 @@ thornycallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 818) {
-        player.sendChat("You gotta be in precasia");
+        player.sendChat("需位于传说维度");
         return "FAIL";
     }
 
@@ -1625,7 +1625,7 @@ umberstonecallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 66) {
-        player.sendChat("You gotta be in Erebus");
+        player.sendChat("需位于混沌之地");
         return "FAIL";
     }
 
@@ -1645,7 +1645,7 @@ cleansingcallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 50) {
-        player.sendChat("You gotta be in the Abyssal Wastelands");
+        player.sendChat("需位于深渊荒原");
         return "FAIL";
     }
 
