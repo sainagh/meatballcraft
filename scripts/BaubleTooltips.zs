@@ -179,7 +179,7 @@
 <extrautils2:angelring>.addTooltip(format.red("允许创造飞行"));
 <extrabotany:froststar>.addTooltip(format.red("冻结脚下大范围的水和熔岩，对所视生物造成缓慢 II效果"));
 <extrabotany:deathring>.addTooltip(format.red("所视的生物获得凋零和不幸效果"));
-<extrabotany:natureorb>.addTooltip(format.red("存储自然之息，用以提供增益效果，魔力的加护可为魔力物品充能，生命的加护提供两倍速度的生命再生效果，森罗的加护免疫负面效果"));
+<extrabotany:natureorb>.addTooltip(format.red("存储自然之息，用以提供正面效果，魔力的加护可为魔力物品充能，生命的加护提供两倍速度的生命再生效果，森罗的加护免疫负面效果"));
 <extrabotany:mastermanaring>.addTooltip(format.red("可存储整型上限数量的魔力"));
 <extrabotany:puredaisypendant>.addTooltip(format.red("手持物品右击立刻造成一次白雏菊效果，每使用64次需冷却2.5分钟"));
 <extrabotany:supercrown>.addTooltip(format.red("穿戴昴星团战斗女仆和星空歌姬套装时，受到的伤害减少2点"));

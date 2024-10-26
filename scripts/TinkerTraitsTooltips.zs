@@ -126,7 +126,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:trait_spiky>.addTooltip(format.red("格挡时伤害接触到的敌人"));
 <contenttweaker:trait_splinters>.addTooltip(format.red("攻击时造成1级碎裂效果，最多可堆叠5级。每有一级效果，获得0.3额外伤害"));
 <contenttweaker:trait_squeaky>.addTooltip(format.red("带有精准采集，但无法造成伤害"));
-<contenttweaker:trait_stalwart>.addTooltip(format.red("概率获得增益效果"));
+<contenttweaker:trait_stalwart>.addTooltip(format.red("概率获得正面效果"));
 <contenttweaker:trait_starfishy>.addTooltip(format.red("可设置传送门，即将死亡时消耗32个铁晶传送到设置的地点"));
 <contenttweaker:trait_stiff>.addTooltip(format.red("强化格挡"));
 <contenttweaker:trait_stonebound>.addTooltip(format.red("耐久越低，挖掘速度越快"));

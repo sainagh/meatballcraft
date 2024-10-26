@@ -481,7 +481,7 @@ function effectDescription(stack as IItemStack, showDescription as bool, shift a
     }
     val effect as string = effectData.asString();
     
-    if (!showDescription) { return "Effect: " + effect; }
+    if (!showDescription) { return "特殊效果：" + effect; }
     if (!shift) { return "§8§o按住Shift键显示特殊效果描述§r"; }
 
     val descriptionData = EFFECT_DESCRIPTIONS.memberGet(effect);

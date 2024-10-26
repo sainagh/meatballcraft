@@ -848,57 +848,57 @@ import mods.astralsorcery.Utils;
 //	Evernight Chain
 {
 	//	Amthirmis
-	recipes.addShaped(<divinerpg:amthirmis_staff>.withTag({display: {Name: "§4§oAmthirmis Staff§r"}}),
+	recipes.addShaped(<divinerpg:amthirmis_staff>.withTag({display: {Name: "§4§o精湛法杖§r"}}),
 		[[<aoa3:hauntedwood_planks>, <leshen:root_attack>, <aoa3:hauntedwood_planks>],
 		[<divinerpg:ice_stone>, <divinerpg:teaker_staff>, <divinerpg:ice_stone>],
 		[<aoa3:hauntedwood_planks>, <divinerpg:ice_stone>, <aoa3:hauntedwood_planks>]]);
 	
 	//	Darven
-	recipes.addShaped(<divinerpg:darven_staff>.withTag({display: {Name: "§c§oDarven Staff§r"}}),
+	recipes.addShaped(<divinerpg:darven_staff>.withTag({display: {Name: "§c§o闪耀法杖§r"}}),
 		[[<aoa3:vitality_tablet>, <divinerpg:jungle_stone>, <aoa3:vitality_tablet>],
-		[<divinerpg:jungle_stone>, <divinerpg:amthirmis_staff>.withTag({display: {Name: "§4§oAmthirmis Staff§r"}}, false), <divinerpg:jungle_stone>],
+		[<divinerpg:jungle_stone>, <divinerpg:amthirmis_staff>.withTag({display: {Name: "§4§o精湛法杖§r"}}, false), <divinerpg:jungle_stone>],
 		[<aoa3:vitality_tablet>, <divinerpg:jungle_stone>, <aoa3:vitality_tablet>]]);
 	
 	//	Cermile
 	recipes.addShaped(<divinerpg:cermile_staff>.withTag({display: {Name: "§d§oCermile Staff§r"}}),
 		[[<aoa3:medium_skill_crystal>, <divinerpg:shadow_stone>, <aoa3:medium_skill_crystal>],
-		[<divinerpg:shadow_stone>, <divinerpg:darven_staff>.withTag({display: {Name: "§c§oDarven Staff§r"}}, false), <divinerpg:shadow_stone>],
+		[<divinerpg:shadow_stone>, <divinerpg:darven_staff>.withTag({display: {Name: "§c§o闪耀法杖§r"}}, false), <divinerpg:shadow_stone>],
 		[<aoa3:medium_skill_crystal>, <divinerpg:shadow_stone>, <aoa3:medium_skill_crystal>]]);
 	
 	//	Pardimal
-	recipes.addShaped(<divinerpg:pardimal_staff>.withTag({display: {Name: "§5§oPardimal Staff§r"}}),
+	recipes.addShaped(<divinerpg:pardimal_staff>.withTag({display: {Name: "§5§o刑罚法杖§r"}}),
 		[[<projectex:matter:6>, <divinerpg:terran_stone>, <projectex:matter:6>],
 		[<divinerpg:terran_stone>, <divinerpg:cermile_staff>.withTag({display: {Name: "§d§oCermile Staff§r"}}, false), <divinerpg:terran_stone>],
 		[<projectex:matter:6>, <divinerpg:terran_stone>, <projectex:matter:6>]]);
 	
 	//	Quadrotic
-	recipes.addShaped(<divinerpg:quadrotic_staff>.withTag({display: {Name: "§9§oQuadrotic Staff§r"}}),
+	recipes.addShaped(<divinerpg:quadrotic_staff>.withTag({display: {Name: "§9§o四相法杖§r"}}),
 		[[<aoa3:glistening_infusion_stone>, <divinerpg:corrupted_stone>, <aoa3:glistening_infusion_stone>],
-		[<divinerpg:corrupted_stone>, <divinerpg:pardimal_staff>.withTag({display: {Name: "§5§oPardimal Staff§r"}}, false), <divinerpg:corrupted_stone>],
+		[<divinerpg:corrupted_stone>, <divinerpg:pardimal_staff>.withTag({display: {Name: "§5§o刑罚法杖§r"}}, false), <divinerpg:corrupted_stone>],
 		[<aoa3:glistening_infusion_stone>, <divinerpg:corrupted_stone>, <aoa3:glistening_infusion_stone>]]);
 	
 	//	Karos
-	recipes.addShaped(<divinerpg:karos_staff>.withTag({display: {Name: "§b§oKaros Staff§r"}}),
+	recipes.addShaped(<divinerpg:karos_staff>.withTag({display: {Name: "§b§o卡洛斯法杖§r"}}),
 		[[<divinerpg:bluefire_stone>, <divinerpg:molten_stone>, <divinerpg:bluefire_stone>],
-		[<divinerpg:molten_stone>, <divinerpg:quadrotic_staff>.withTag({display: {Name: "§9§oQuadrotic Staff§r"}}, false), <divinerpg:molten_stone>],
+		[<divinerpg:molten_stone>, <divinerpg:quadrotic_staff>.withTag({display: {Name: "§9§o四相法杖§r"}}, false), <divinerpg:molten_stone>],
 		[<divinerpg:bluefire_stone>, <divinerpg:molten_stone>, <divinerpg:bluefire_stone>]]);
 	
 	//	Heliosis
-	recipes.addShaped(<divinerpg:heliosis_staff>.withTag({display: {Name: "§a§oHeliosis Staff§r"}}),
+	recipes.addShaped(<divinerpg:heliosis_staff>.withTag({display: {Name: "§a§o炎魔法杖§r"}}),
 		[[<bigreactors:blockludicrite>, <divinerpg:ender_stone>, <bigreactors:blockludicrite>],
-		[<divinerpg:ender_stone>, <divinerpg:karos_staff>.withTag({display: {Name: "§b§oKaros Staff§r"}}, false), <divinerpg:ender_stone>],
+		[<divinerpg:ender_stone>, <divinerpg:karos_staff>.withTag({display: {Name: "§b§o卡洛斯法杖§r"}}, false), <divinerpg:ender_stone>],
 		[<bigreactors:blockludicrite>, <divinerpg:ender_stone>, <bigreactors:blockludicrite>]]);
 	
 	//	Arksiane
-	recipes.addShaped(<divinerpg:arksiane_staff>.withTag({display: {Name: "§e§oArksiane Staff§r"}}),
+	recipes.addShaped(<divinerpg:arksiane_staff>.withTag({display: {Name: "§e§o圣魔法杖§r"}}),
 		[[<draconicevolution:dragon_heart>, <divinerpg:divine_stone>, <draconicevolution:dragon_heart>],
-		[<divinerpg:divine_stone>, <divinerpg:heliosis_staff>.withTag({display: {Name: "§a§oHeliosis Staff§r"}}, false), <divinerpg:divine_stone>],
+		[<divinerpg:divine_stone>, <divinerpg:heliosis_staff>.withTag({display: {Name: "§a§o炎魔法杖§r"}}, false), <divinerpg:divine_stone>],
 		[<draconicevolution:dragon_heart>, <divinerpg:divine_stone>, <draconicevolution:dragon_heart>]]);
 	
 	//	Evernight
-	recipes.addShaped(<divinerpg:evernight>.withTag({display: {Name: "§6§oEvernight§r"}}),
+	recipes.addShaped(<divinerpg:evernight>.withTag({display: {Name: "§6§o永恒之夜§r"}}),
 		[[<materialpart:bloodmaster_metal:ingot>, <extendedcrafting:singularity_custom:992>, <materialpart:bloodmaster_metal:ingot>],
-		[<materialpart:bloodmaster_metal:ingot>, <divinerpg:arksiane_staff>.withTag({display: {Name: "§e§oArksiane Staff§r"}}, false), <materialpart:bloodmaster_metal:ingot>],
+		[<materialpart:bloodmaster_metal:ingot>, <divinerpg:arksiane_staff>.withTag({display: {Name: "§e§o圣魔法杖§r"}}, false), <materialpart:bloodmaster_metal:ingot>],
 		[<materialpart:bloodmaster_metal:ingot>, <materialpart:bloodmaster_metal:ingot>, <materialpart:bloodmaster_metal:ingot>]]);
 }
 
@@ -1261,7 +1261,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:mending",25);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<extrabotany:ultimatehammer>.withTag({damage: 3000, repair: 17000, display: {Name:"§6§o土豆粉碎锤§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistTaterSmasherWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<extrabotany:ultimatehammer>.withTag({damage: 3000, repair: 17000, display: {Name:"§6§o土豆粉碎锤§r",Lore:["§d§o超限附魔§r"]}}), enchlistTaterSmasherWrapped).getItem(), 
 		[[<extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>], 
 		[<extrabotany:gildedmashedpotato>, <contenttweaker:gem_of_the_warrior>, <contenttweaker:prophetic_paper>, null, <avaritia:resource:5>, null, <contenttweaker:prophetic_paper>, <contenttweaker:gem_of_the_warrior>, <extrabotany:gildedmashedpotato>], 
 		[<extrabotany:gildedmashedpotato>, <contenttweaker:prophetic_paper>, null, null, <contenttweaker:fifth_order_mythic_fractal>, null, null, <contenttweaker:prophetic_paper>, <extrabotany:gildedmashedpotato>], 
@@ -1281,7 +1281,7 @@ import mods.astralsorcery.Utils;
 	.add("minecraft:thorns",250);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:tormented_hood>.withTag({display: {Name:"§6§o梦魇头罩§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistNightmareHoodWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:tormented_hood>.withTag({display: {Name:"§6§o梦魇头罩§r",Lore:["§d§o超限附魔§r"]}}), enchlistNightmareHoodWrapped).getItem(), 
 		[[<contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, null, null, null, null, null, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>], 
 		[<contenttweaker:draconian_metal_ingot>, <ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>, null, null, null, <ore:ingotSacrificeMetal>, <ore:ingotSacrificeMetal>, <contenttweaker:draconian_metal_ingot>], 
 		[null, <ore:ingotSacrificeMetal>, <contenttweaker:vethea_garnet>, <contenttweaker:vethea_garnet>, null, <contenttweaker:vethea_garnet>, <contenttweaker:vethea_garnet>, <ore:ingotSacrificeMetal>, null], 
