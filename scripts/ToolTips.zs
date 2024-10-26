@@ -813,7 +813,7 @@
 <omniwand:wand>.addTooltip(format.red("对空气Shift左击以恢复原样"));
 <omniwand:wand>.addTooltip(format.red("选中工具后，潜行+丢弃来将该工具从全能魔杖中移除"));
 
-<contenttweaker:hand_framing_tool>.addTooltip(format.red("非常感谢Nomifactory团队制作的该工具！"));
+<contenttweaker:hand_framing_tool>.addTooltip(format.red("非常感谢Nomifactory团队制作的工具！"));
 
 <contenttweaker:cosmic_fabric>.addTooltip(format.red("Aedial和Miles想要更多好玩意，我觉得可以！！"));
 
