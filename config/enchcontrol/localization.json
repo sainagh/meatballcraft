@@ -18,7 +18,7 @@
 		{"key": "aoa3:form.desc", "value": "Reduces shotgun spread. (-15%% spread per level.)"},
 		{"key": "aoa3:intervention.desc", "value": "Works like Soulbound but has a 20%% chance of removing itself on death."},
 		{"key": "aoa3:recharge.desc", "value": "Reduces the spirit cost of blasters. (-7%% cost per level.)"},
-		{"key": "aoa3:sever.desc", "value": "Increases crit damage on greatblades. (+15%% damage per level.)"},
+		{"key": "aoa3:sever.desc", "value": "Increases damage on greatblades. (+1.5 damage per level.)"},
 		{"key": "aoa3:shell.desc", "value": "Increases damage on guns. (+10%% damage per level.)"},
 		{"key": "astralsorcery:enchantment.as.nightvision.desc", "value": "Grants permanent Night Vision effect."},
 		{"key": "astralsorcery:enchantment.as.smelting.desc", "value": "Smelts mined blocks. Works with Fortune."},
