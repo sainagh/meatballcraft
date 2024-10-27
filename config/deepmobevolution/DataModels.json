@@ -549,7 +549,7 @@
     "craftingIngredients": [
       "twilightforest:firefly"
     ],
-    "extraTooltip": "Gain data by defeating non-vanilla mobs in the Naga Courtyard and Lich Tower.",
+    "extraTooltip": "通过击败娜迦庭院和巫妖塔的非原版生物获取数据。",
     "associatedMobs": [
       "twilightforest:naga",
       "twilightforest:lich_minion",
@@ -586,7 +586,7 @@
     "craftingIngredients": [
       "minecraft:waterlily"
     ],
-    "extraTooltip": "Gain data by defeating non-vanilla mobs in the Swamp Labyrinth and Hydra Lair.",
+    "extraTooltip": "通过击败沼泽牛头人迷宫和九头蛇巢穴的非原版生物获取数据。",
     "associatedMobs": [
       "twilightforest:minotaur",
       "twilightforest:minoshroom",
@@ -630,7 +630,7 @@
     "craftingIngredients": [
       "twilightforest:arctic_fur"
     ],
-    "extraTooltip": "Gain data by defeating non-vanilla mobs in the Yeti Lair and Ice Tower.",
+    "extraTooltip": "通过击败雪怪巢穴和极光宫殿的非原版生物获取数据。",
     "associatedMobs": [
       "twilightforest:yeti_alpha",
       "twilightforest:yeti",
@@ -674,7 +674,7 @@
     "craftingIngredients": [
       "twilightforest:twilight_log"
     ],
-    "extraTooltip": "Gain data by defeating non-vanilla mobs in the Goblin Knight Stronghold and Dark Tower.",
+    "extraTooltip": "通过击败地精骑士要塞和黑暗高塔的非原版生物获取数据。",
     "associatedMobs": [
       "twilightforest:redcap",
       "twilightforest:blockchain_goblin",

@@ -479,7 +479,7 @@
 <contenttweaker:phasing_fluix_construct>.addTooltip(format.red("与正确的龙之进化模组的生物灵魂（8个）结合，四处看看"));
 <contenttweaker:phasing_fluix_construct>.addTooltip(format.red("某个超限附魔会很有用 ;)"));
 
-<contenttweaker:attuned_fluix_construct>.addTooltip(format.red("将相位福鲁伊克斯构造体与正确的龙之进化模组的生物灵魂（8个）结合，福鲁伊克斯史学家召唤石将指引你"));
+<contenttweaker:attuned_fluix_construct>.addTooltip(format.red("将相位福鲁伊克斯构装体与正确的龙之进化模组的生物灵魂（8个）结合，福鲁伊克斯史学家召唤石将指引你"));
 
 <contenttweaker:digital_matter_transmission_module>.addTooltip(format.red("感谢shardion为玩家接口实现了维度黑名单！梦魇世界不再有阶段锁了！"));
 
