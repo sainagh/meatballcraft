@@ -1286,7 +1286,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:servo:0>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Servos are used to extract from an inventory and push into other inventories."
 ]);
@@ -1295,7 +1295,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:servo:1>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Servos are used to extract from an inventory and push into other inventories."
 ]);
@@ -1304,7 +1304,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:servo:2>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Servos are used to extract from an inventory and push into other inventories."
 ]);
@@ -1313,7 +1313,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:servo:3>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Servos are used to extract from an inventory and push into other inventories."
 ]);
@@ -1322,7 +1322,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:servo:4>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Servos are used to extract from an inventory and push into other inventories."
 ]);
@@ -1331,7 +1331,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:filter:0>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Filters are used to select or prevent specific items from entering an inventory."
 ]);
@@ -1340,7 +1340,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:filter:1>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
 
     "",
     "Filters are used to select or prevent specific items from entering an inventory."
@@ -1350,7 +1350,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:filter:2>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Filters are used to select or prevent specific items from entering an inventory."
 ]);
@@ -1359,7 +1359,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:filter:3>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Filters are used to select or prevent specific items from entering an inventory."
 ]);
@@ -1368,7 +1368,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:filter:4>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Filters are used to select or prevent specific items from entering an inventory."
 ]);
@@ -1377,7 +1377,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:retriever:0>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Retrievers are used to pull items from other inventories."
 ]);
@@ -1386,7 +1386,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:retriever:1>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Retrievers are used to pull items from other inventories."
 ]);
@@ -1395,7 +1395,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:retriever:2>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Retrievers are used to pull items from other inventories."
 ]);
@@ -1404,7 +1404,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:retriever:3>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Retrievers are used to pull items from other inventories."
 ]);
@@ -1413,7 +1413,7 @@ mods.jei.JEI.addDescription(<thermaldynamics:retriever:4>,
 [
     "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "Right click the connection between a duct and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
     "",
     "Retrievers are used to pull items from other inventories."
 ]);
