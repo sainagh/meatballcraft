@@ -4396,7 +4396,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != -26) {
-        player.sendChat("进入AE2的空间元件维度");
+        player.sendChat("进入AE2的封闭空间维度");
         return "FAIL";
     }
 

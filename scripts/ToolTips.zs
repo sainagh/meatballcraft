@@ -1388,7 +1388,7 @@
 
 <astralsorcery:blockobservatory>.addTooltip(format.red("按住Shift锁定视角"));
 
-<mysticalagradditions:stuff:69>.addTooltip(format.red("发现于月球维度"));
+<mysticalagradditions:stuff:69>.addTooltip(format.red("发现于月球"));
 
 <forestry:pollen_fertile>.addTooltip(format.red("使用花粉收集装备右击杂交种的树叶"));
 

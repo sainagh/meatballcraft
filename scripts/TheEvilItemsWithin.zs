@@ -263,7 +263,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in spatial storage
     if(player.getDimension() != -26) {
-        player.sendChat("进入空间元件维度，然后站在信标上");
+        player.sendChat("进入封闭空间维度，然后站在信标上");
         return "FAIL";
     }
 

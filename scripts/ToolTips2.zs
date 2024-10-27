@@ -1526,7 +1526,7 @@ import crafttweaker.item.IItemCondition;
 
 <enderio:item_travel_staff>.addTooltip(format.red("传送！可穿过方块，或者传送到旅行锚"));
 
-<contenttweaker:fragment_of_the_arbiter>.addTooltip(format.red("发现于月球维度"));
+<contenttweaker:fragment_of_the_arbiter>.addTooltip(format.red("发现于月球"));
 
 <contenttweaker:fragment_of_the_arbiter>.addTooltip(format.green("在月面土配方中可重复使用"));
 
