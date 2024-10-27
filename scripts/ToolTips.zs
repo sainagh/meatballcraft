@@ -498,10 +498,10 @@
 <contenttweaker:hot_heat_exchanger>.addTooltip(format.red("使用硬碳管道"));
 <contenttweaker:cold_heat_exchanger>.addTooltip(format.red("使用导热合金管道"));
 
-<contenttweaker:hot_heat_exchanger>.addTooltip(format.red("INPUT SPREAD on output side (PRODUCT OUT for last slice），输入端配置为'默认'模式, DISABLED on all other sides"));
-<contenttweaker:cold_heat_exchanger>.addTooltip(format.red("INPUT SPREAD on output side (PRODUCT OUT for last slice），输入端配置为'默认'模式, DISABLED on all other sides"));
+<contenttweaker:hot_heat_exchanger>.addTooltip(format.red("输出端配置为'输入分配'模式（最后一个切片的输出端配置为'产物输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:cold_heat_exchanger>.addTooltip(format.red("输出端配置为'输入分配'模式（最后一个切片的输出端配置为'产物输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
 
-<contenttweaker:particulate_steam_condensation_tube>.addTooltip(format.red("INPUT SPREAD on output side (PRODUCT OUT for last slice），输入端配置为'默认'模式, DISABLED on all other sides"));
+<contenttweaker:particulate_steam_condensation_tube>.addTooltip(format.red("输出端配置为'输入分配'模式（最后一个切片的输出端配置为'产物输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
 
 <ore:plateCopper>.addTooltip(format.red("感谢Mambodog621帮助实现矿词统一！"));
 
