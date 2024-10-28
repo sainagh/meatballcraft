@@ -2635,7 +2635,7 @@ mods.jei.JEI.addDescription([<bigreactors:turbinecontroller>, <bigreactors:turbi
     "",
     "You can search 'turbine coil' in JEI for a list of the available coils. Ludicrite blocks are the best!",
     "",
-    "To run the turbine, input steam into one Fluid Port, and it will be consumed and turned into Water. You will need to set the other Access Port to Output Mode to auto extract Water.",
+    "To run the turbine, input steam into one Fluid Port, and it will be consumed and turned into Water. You will need to set the other Fluid Port to Output Mode to auto extract Water.",
     "",
     "Steam can be obtained from Yellorite Reactors, Steam Dynamos, Boilers."
 ]);
