@@ -633,7 +633,7 @@ mods.jei.JEI.addDescription([<contenttweaker:rocket>,<advancedrocketry:rocketmot
     "",
     "Shift右击导航电脑来打开火箭GUI。在导航电脑中放入星球ID芯片。使用选择界面左上角的PlanetList按钮来选择目的地！",
     "",
-    "是有火箭燃料桶右击火箭为其装填燃料，或使用燃油站进行装填（放置在发射台旁，比发射台高一格）。",
+    "使用火箭燃料桶右击火箭为其装填燃料，或使用燃油站进行装填（放置在发射台旁，比发射台高一格）。",
     "",
     "确保太空服或附有真空密封的盔甲内有氧气！"
 ]);
@@ -766,7 +766,7 @@ mods.jei.JEI.addDescription([<contenttweaker:ritual_of_the_sleeper>, <abyssalcra
     "1个液态珊瑚桶",
     "1个附魔台",
     "",
-    "仪式需消耗1000 PE。",
+    "仪式需消耗1000PE。",
 	"",
 	"死灵之书中有更详细信息。"
 ]);
@@ -2081,7 +2081,7 @@ mods.jei.JEI.addDescription(<modularmachinery:itemblueprint>,
     "",
     "以下蓝图可直接合成，并用于转化为其他所有蓝图！",
     "热钢混合器 - 大部分机械！",
-    "Tier 1 mythic miner for all mythic miners!",
+    "泰拉神话虚空资源采掘机 - 所有神话采掘机！",
     "中子炮 - 第6章的多方块！",
     "相对论坍缩器 - 第9章的多方块！",
     "神话处理器：合金炉 - 所有神话处理器！",
@@ -2090,13 +2090,13 @@ mods.jei.JEI.addDescription(<modularmachinery:itemblueprint>,
 
 mods.jei.JEI.addDescription(<contenttweaker:recursive_recipes>,
 [
-    "There are two types of recursive recipes. For some inputs are reusable, for some they are not.",
+    "有两类递归配方。一些配方的输入物可重复使用，另一些则不可。",
     "",
-    "For both types, if you want to set autocrafting recipes, the duplicated item SHOULD NOT be set as an input. Set your recipes in processing mode, without including the recursive item in the inputs list, and use an interface touching an RFTools crafter.",
+    "对于两种类型来说，在设置自动合成配方时，被复制的物品都不应被标记为输入物。将配方设置为处理模式，除递归物品之外的材料设为输入物，用接口操作RFTools模组的自动合成台。",
     "",
-    "If the input is reusable: use a Crafter in ExtC mode and set it to remember the slot for the reusable input item.",
+    "对输入物可重复使用的配方来说：将合成机设置为ExtC模式，并记录输入中可重复使用物品所在槽位。",
     "",
-    "If the input is not reusable: set the Crafter in the same way as above, and use item conduits (those can self feed) to pipe the non-reusable recursive item into the table's input slot.",
+    "对输入物不可重复使用的配方来说：同样将合成机设置为ExtC模式，使用物品导管（可自供给）将不可重复使用的递归物品输送回输入栏。",
     ""
 ]);
 
@@ -2109,27 +2109,27 @@ mods.jei.JEI.addDescription([<extrautils2:compressedcobblestone:0>,
     <extrautils2:compressedcobblestone:6>,
     <extrautils2:compressedcobblestone:7>],
 [
-    "To automate Compressed Cobblestone, you should start by making Cobblestone using ProjectE or Nuclearcraft, and combine it with Compacting Drawers.",
+    "要自动化压缩圆石，首先使用等价交换或核电工艺生产圆石，将其输入到压缩抽屉中。",
     "",
-    "A single cobblestone creation unit consists of an Energy Condenser MK1 with a collector on top (better MK3). You just need one collector for each condenser. If you need more cobble, make multiple of these units.",
+    "一个圆石生产单元由能量凝聚器 MK1及其上方的能量收集器（最好是MK3）构成。每个凝聚器只需要一个收集器。若想要更多圆石，就使用更多单元。",
     "",
-    "The Dense Cobblestone Generator is also a viable option, as opposed to an EMC setup.",
+    "与EMC设计相比，致密造石机也是可行的选择。",
     "",
-    "To compress the cobblestone, Compacting Drawers are best, just chain them till the desired tiers.",
+    "压缩圆石的最佳手段是压缩抽屉，通过压缩抽屉逐级获得所需重数的压缩圆石。",
     "",
-    "To move the cobblestone and lower tiers, Tesslocators are quite fast!"
+    "超转运体可用于快速运输圆石！"
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:making_will>,
     <bloodmagic:item_demon_crystal:0>],
 [
-    "To make your first Will Crystal you will need a Demon Crucible, and a Demon Crystallizer.",
+    "需要恶魔坩埚和恶魔结晶坛来制作第一份意志晶体。",
     "",
-    "Place a Tartaric Gem of any type into the crucible. This will suck Demonic Will out of the gem, and put it into the chunk.",
+    "在恶魔坩埚中放置任意种类的地狱魂石。它会吸收魂石中的恶魔意志，将其释放到所在区块。",
     "",
-    "Place a Demon Crystallizer into the same chunk. A Will Crystal will eventually grow. Break it to obtain a Raw Will Crystal!",
+    "在同一区块中放置恶魔结晶坛。最终，其中会生长出意志水晶。将其破坏来获得原生意志晶体！",
     "",
-    "The Will Aura Gauge will show how much will of each type is present in a chunk.",
+    "灵域测量仪可显示区块中每种意志的含量。",
     "========================"
 ]);
 
@@ -2139,11 +2139,11 @@ mods.jei.JEI.addDescription([<contenttweaker:making_colored_will>,
     <bloodmagic:item_demon_crystal:3>,
     <bloodmagic:item_demon_crystal:4>],
 [
-    "To obtain your first Aspected Will, you need to set up the Resonance of the Faceted Crystal ritual.",
+    "使用结晶共鸣仪式来获得第一份特殊意志晶体。",
     "",
-    "In a chunk with Demonic Will from a Demon Crucible or other methods, place a Crystallizer right above the Master Ritual Stone, and let a Raw Will Crystal grow.",
+    "通过恶魔坩埚或其他手段向区块中释放原生意志，然后在主仪式石上放置恶魔结晶坛，来让原生意志晶体生长。",
     "",
-    "Crystals of the other types will eventually grow on the ritual as long as you have enough Raw Will in the chunk.",
+    "只要区块中的原生意志足够，其他种类的意志晶体最终会在仪式上长出。",
     "========================"
 ]);
 
@@ -2154,56 +2154,56 @@ mods.jei.JEI.addDescription([<contenttweaker:farming_will>,
     <bloodmagic:item_demon_crystal:3>,
     <bloodmagic:item_demon_crystal:4>],
 [
-    "This is how you automate Will Crystals.",
+    "可通过以下方法实现意志晶体自动化。",
     "",
-    "You will need a fair amount of each will crystal type to start this process (10 or 20 to be safe), but it will run passively after that.",
+    "需要一定数量（10个，20个更安全）的每种意志晶体来启动该过程，启动后不需要消耗晶体运行。",
     "",
-    "You will need two rituals, both located in the same chunk. The Crack of the Fractured Crystal should be at the top, and the Gathering of the Forsaken Souls should be at the bottom. You can place both ritual stones on top of each other (see multiblock preview).",
+    "需要在同区块内运行两个仪式。碎晶裂纹仪式在顶部，孤魂集会仪式在底部。两种仪式的主仪式石可垂直相邻放置（查看多方块预览）。",
     "",
-    "Set up a passive mob farm below the rituals. The higher the variety of different animals, the faster this farm will work.",
+    "在仪式下发建立被动生物刷怪场。动物种类越多，晶体产量越多。",
     "",
-    "Place the five Will Crystal Clusters somewhere above the rituals, in the same chunk.",
+    "在仪式同区块上方放置5种意志晶簇。",
     "",
-    "Place five Crucibles nearby the crystals, and pipe Will Crystals of each type into each.",
+    "在晶簇附近放置5个恶魔坩埚，分别输入5种不同的意志晶体。.",
     "",
-    "The Crystal Clusters will start growing, and they will drop Will Crystals on the ground. Use some sort of ranged collector to collect them, and pipe them into the crucibles.",
+    "意志晶簇将开始生长，掉落意志晶体。使用物品收集器收集晶体，并输送到坩埚内。",
     "",
-    "This setup will produce a surplus of Will Crystals. They will be made faster than the Demon Crucibles consume them. Profit!"
+    "该设计会产出多余的意志晶体，因为产生的速度比消耗速度快！"
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:ritual_mass_enchanting>],
 [
-    "This is how you can combine enchantments over the vanilla anvil limit, up to level 15. It can combine normally-incompatible enchants, like fire protection and blast protection, as well.",
+    "可通过以下方法突破原版附魔限制，魔咒等级最多可达15级。还可以使正常情况下不兼容的魔咒共存，例如火焰保护和爆炸保护。",
     "",
-    "The ritual requires the base Abyssalcraft setup, using the Abyssalnomicon, and can be performed in any dimension! It costs 50000 PE.",
+    "仪式需要基础的深渊国度仪式祭坛，可在任意维度使用深渊荒原死灵之书进行！消耗50000PE。",
     "",
-    "Place 8 enchanted books of any type (has to be eight) on the outer pedestals. Place a compatible enchantable item in the center.",
+    "在仪式基座上放置8本任意种类的附魔书（必须是8本）。在祭坛上放置可附魔物品（物品本身必须无附魔）。",
     "",
-    "If multiple enchants of the same type are present, they will be added together up to level 15."
+    "相同种类魔咒的等级在这一过程中会叠加，最大上限为15级。"
 ]);
 
 mods.jei.JEI.addDescription([<thaumcraft:infusion_matrix>],
 [
-    "Thaumcraft infusion is a crafting mechanic that uses Arcane Stone Pedestals to craft (see multiblock preview for infusion setup). Right click the Runic Matrix with Salis Mundus to form the structure.",
+    "神秘时代的注魔是一种通过奥术基座进行的合成机制（查看多方块预览来了解如何搭建）。使用世界盐对符文矩阵右击来使结构成型。",
     "",
-    "Infusion recipes require the right items to be placed in the pedestals, and essentia from nearby Warded Jars (or the Infusion Provider).",
+    "注魔配方需要在基座上放置正确的物品，使用附近的源质罐子（或注魔供应器）提供源质。",
     "",
-    "To start a recipe, after placing the correct items, right click the Matrix with a Caster's Gauntlet. The infusion will start with essentia being automatically sucked out of the nearby sources.",
+    "要开始注魔，在放置好正确的物品之后，使用法师护手对矩阵右击。注魔将自动从附近的源质来源抽取源质以进行。",
     "",
-    "All infusion recipes have a chance of going wrong and causing bad effects. If the Runic Matrix is stable (you can see stability while looking at it with Goggles of Revealing), those will not happen.",
+    "所有注魔配方都有一定概率失败并造成负面效果。若符文矩阵处于稳定状态（佩戴揭示之护目镜可查看注魔稳定度），则不会出现上述后果。",
     "",
-    "To stabilize Thaumcraft infusions, you should place stabilizing blocks around the Runic Matrix.",
+    "可通过在符文矩阵周围放置特定方块来增加注魔稳定性。",
     "",
-    "All stabilizing blocks should be placed following central symmetry with respect to the center pedestal!",
+    "所有稳定物都应相对于中心祭坛中心对称！",
     "",
-    "The more variety of stabilizing blocks, the better! Different colors count as different blocks!",
+    "稳定物种类越多，效果越好！颜色不同会被视为不同方块！",
     "",
-    "In addition, Stabilizers from Thaumcraft can be used to prevent some bad effects. Redstone Inlays should be used to connect the Stabilizers to each pedestal. These should still follow central symmetry.",
+    "此外，神秘时代的稳定器还可用来防止某些负面效果。使用红石镶嵌将稳定器与每个基座相连接。也应遵守中心对称规则。",
     "",
-    "The following stabilizing blocks are listed in order of stability power (you should have at most 6 of each):",
-    "Candelabra,",
-    "Candles,",
-    "Mob heads"
+    "使用以下列出的稳定物来增加稳定性（每种最多可使用6个）：",
+    "烛台,",
+    "蜡烛,",
+    "怪物头颅"
 ]);
 
 mods.jei.JEI.addDescription([<minecraft:skull:0>,
@@ -2246,37 +2246,37 @@ mods.jei.JEI.addDescription([<minecraft:skull:0>,
     <bewitchment:candelabra_iron>,
     <bewitchment:candelabra_silver>],
 [
-    "To stabilize Thaumcraft infusions, you should place stabilizing blocks around the Runic Matrix.",
+    "可通过在符文矩阵周围放置特定方块来增加注魔稳定性。",
     "",
-    "All stabilizing blocks should be placed following central symmetry with respect to the center pedestal!",
+    "所有稳定物都应相对于中心祭坛中心对称！",
     "",
-    "The more variety of stabilizing blocks, the better! Different colors count as different blocks!",
+    "稳定物种类越多，效果越好！颜色不同会被视为不同方块！",
     "",
-    "In addition, Stabilizers from Thaumcraft can be used to prevent some bad effects. Redstone Inlays should be used to connect the stabilizers to each pedestal. These should still follow central symmetry.",
+    "此外，神秘时代的稳定器还可用来防止某些负面效果。使用红石镶嵌将稳定器与每个基座相连接。也应遵守中心对称规则。",
     "",
-    "The following stabilizing blocks are listed in order of stability power (you should have at most 6 of each):",
-    "Candelabra,",
-    "Candles,",
-    "Mob heads"
+    "使用以下列出的稳定物来增加稳定性（每种最多可使用6个）：",
+    "烛台,",
+    "蜡烛,",
+    "怪物头颅"
 ]);
 
 mods.jei.JEI.addDescription([<thaumcraft:stabilizer>,
     <thaumcraft:inlay>],
 [
-    "Stabilizers can be used to prevent some bad effects if infusions go unstable.",
+    "稳定器可在注魔不稳定时防止某些负面效果。",
     "",
-    "Redstone Inlays should be used to connect the stabilizers to each pedestal. Redstone Inlays behave like redstone, with a maximum range of 15 blocks.",
+    "使用红石镶嵌将稳定器与每个基座相连接。红石镶嵌与红石类似，最大范围为15格。",
     "",
-    "These should still follow central symmetry."
+    "应遵守中心对称规则。"
 ]);
 
 mods.jei.JEI.addDescription([<forestry:bee_drone_ge>,<forestry:bee_princess_ge>,<forestry:bee_queen_ge>],
 [
-    "This will explain the basics, see the Book of Creation section of the questbook for more detailed info!",
+    "此处只阐述基础知识，查看任务书的创造之书章节来获得更多详细信息！",
     "",
-    "To farm the drops of a bee (e.g. honey combs) you should use the Industrial Apiary. You start with a princess and a drone of the same species, and they make a queen. The queen will slowly die out, and it will produce drops, as well as a new princess and more drones.",
+    "要获得蜜蜂的产出物（例如蜂窝），最好将其放入工业蜂箱。使用同品种的公主蜂和雄蜂来产出蜂后。蜂后会渐渐死亡，在此过程中生成产物，最终产出新的公主蜂和更多雄蜂。",
     "",
-    "To make a new species of bee (with the exception of the Mad Scientist Bee), you should use the Advanced Mutatron. It will take the drone and princess required (JEI will tell you) and it will make a queen of the new species."
+    "要获得新品种的蜜蜂（除了疯狂科学家蜜蜂），最好使用高级诱变机。它会消耗所需的公主蜂和雄蜂（具体查看JEI）来制作新品种的蜂后。"
 ]);
 
 
@@ -2286,11 +2286,11 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_sacredmushroom>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "One of the overworld structures uses sacred oak. Check the loot there!",
+    "主世界中的某种结构中有神圣橡木。看看那儿的战利品！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the glowshroom terrarium with the following glimmering mushrooms: black, cyan, blue, green!"
+    "将夜光菇培养罐与以下微光蘑菇结合：黑色、青色、蓝色、绿色！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_radiationsuit>,
@@ -2299,210 +2299,210 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_radiationsuit>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "There are shields hidden in Vox Ponds worldgen. You may have to break some blocks!",
+    "未知维度中隐藏着各种盾牌。可能得破坏些方块才能找到。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the inert cursed jewel with the following shields: realmite, knightly, elementium, electrum."
+    "将惰性诅咒宝石与以下盾牌结合：现石盾、骑士盾、源质钢盾牌、琥珀金盾牌。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "rannucarpus"}),
 [
-    "Places blocks automatically in a radius around it. Mana will increase this radius. To place blocks with specific patters, place a specific filter block under the flower (right under the soil). Supplied blocks will only be placed above the filter block."
+    "在范围内自动放置方块。提供魔力可增加工作范围。要指定方块放置位置，在花所种植的方块下方放置一个过滤用方块，如此便只会在该种方块上放置提供的方块。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "tangleberrie"}),
 [
-    "Acts as a magnet for mobs and animals at the cost of mana."
+    "消耗魔力，使工作范围内的生物无法离开。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "fallenKanade"}),
 [
-    "Gives regeneration in a radius around it at the cost of mana."
+    "消耗魔力在工作范围内给予生命恢复效果。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "necrofleur"}),
 [
-    "Damages and prevents healing in mobs with less than half health. "
+    "伤害并阻止生命值低于一半的生物回复生命。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "stardustlotus"}),
 [
-    "Consumes mana to teleport animals. Right click with a Position Reader set to a location to set where the entities will be teleported. Drop a paper on the flower to activate it. If done correctly, a particle effect will show up."
+    "消耗魔力传送动物。使用存有坐标的坐标读取器右击来设置实体将被传送到的地点。在花上丢一张纸将其激活。操作正确时会出现粒子效果。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "orechidIgnem"}),
 [
-    "This flower is gated to later on in progression. It has a custom loot table with unique drops. At the cost of mana, this flower converts nearby Netherrack into ores. "
+    "这朵花在后续进度中才能合成。可生产的矿物列表已经过修改。这朵花能通过消耗魔力，将附近的地狱岩转化为矿物。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "hopperhock"}),
 [
-    "Vacuums items and puts them into nearby chests. You can whitelist specific chests by placing Item Frames on them. "
+    "捡拾附近物品并存入相邻容器。可在容器上放置物品展示框来设置白名单。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "marimorphosis"}),
 [
-    "Consumes mana to transform nearby stone into metamorphic stone (all types at random). "
+    "消耗魔力，将附近的石头转化为变质岩（种类随机）。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "daffomill"}),
 [
-    "Pushes items in a given direction at a small cost of mana. Right clicking with a Wand of the Forest changes the pushing direction. "
+    "消耗少许魔力，将物品向设定的水平方向推动。使用工作模式下的森林法杖潜行右击来更改方向。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "jiyuulia"}),
 [
-    "Pushes mobs away at the cost of mana. "
+    "消耗魔力推开生物。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "tigerseye"}),
 [
-    "Prevents creeper explosions, and makes creepers run away from players. "
+    "阻止爬行者爆炸，并使爬行者远离玩家。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "exoflame"}),
 [
-    "Consumes mana to power nearby furnaces without the need for fuel. "
+    "消耗魔力驱动附近熔炉。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "annoyingflower"}),
 [
-    "Produces fishing loot from nearby Livingrock Pedestals. Drop Fried Chickens Legs to give it luck of the sea."
+    "从附近的活石祭坛中产生钓鱼战利品。提供香香鸡可大幅提高工作效率，并有更高概率钓到稀有物品。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "solegnolia"}),
 [
-    "Prevents the Ring of Magnetization from working in a radius around it."
+    "在工作范围内阻止磁化指环生效。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "hyacidus"}),
 [
-    "Poisons nearby mobs."
+    "使附近生物中毒。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "bellethorn"}),
 [
-    "Consumes mana to damage nearby mobs."
+    "消耗魔力伤害附近生物。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "spectranthemum"}),
 [
-    "Use a Wand of the Forest in bind mode to bind it to a specific block. Items dropped on this flower will be teleported there."
+    "使用绑定模式下的森林法杖与特定方块绑定。掉落在这朵花工作范围内的物品将会被传送到绑定地点。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "agricarnation"}),
 [
-    "Consumes mana to speed up plant growth."
+    "消耗魔力增加植物生长速度。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "bubbell"}),
 [
-    "Consumes mana to clear water within a 12 block radius."
+    "消耗魔力清除12格范围内的水。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "clayconia"}),
 [
-    "Consumes mana to turn nearby sand into clay. "
+    "消耗魔力将附近的沙子变为粘土块。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "dreadthorn"}),
 [
-    "Consumes mana to hurt adult animals."
+    "消耗魔力伤害成年动物。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "heiseiDream"}),
 [
-    "Consumes mana to make mobs hostile towards each other."
+    "消耗魔力使怪物互相敌对。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "jadedAmaranthus"}),
 [
-    "Consumes mana to spawn Mystical Flowers nearby."
+    "消耗魔力在附近生成神秘花。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "mirrowtunia"}),
 [
-    "Gives nearby players immunity against some bad effects. Won't work against warp."
+    "使附近玩家免疫某些负面效果。不能免疫扭曲。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "pollidisiac"}),
 [
-    "Consumes mana to make animals breed."
+    "消耗魔力繁育动物。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "medumone"}),
 [
-    "Gives slowness to nearby mobs."
+    "消耗魔力抑制附近生物移动。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "manalinkium"}),
 [
-    "Moves mana wirelessly. Use the position reader to bind to an output manapool."
+    "无线传输魔力。使用存有坐标的坐标读取器绑定到目标魔力池。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "loonium"}),
 [
-    "Consumes mana to spawn mobs with extra loot. Anything that can be found in vanilla dungeon chests can be obtained with this flower."
+    "消耗魔力生成拥有额外掉落物池的怪物。任何原版地牢箱子中的物品都可通过这朵花获得。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "bergamute"}),
 [
-    "Mutes animals."
+    "动物的噪声。"
 ]);
 
 mods.jei.JEI.addDescription([<botania:specialflower>.withTag({type: "enchantedorchid"}), <botania:enchantedsoil>],
 [
-    "Consumes a dropped black lotus and a lot of mana to turn grass into enchanted soil."
+    "消耗丢出的黑莲花和大量魔力，将草方块转化为蕴魔土。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "orechid"}),
 [
-    "This flower is gated to later on in progression. It has a custom loot table with unique drops. At the cost of mana, this flower converts nearby stone into ores."
+    "这朵花在后续进度中才能合成。可生产的矿物列表已经过修改。这朵花能通过消耗魔力，将附近的石头转化为矿物。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "vinculotus"}),
 [
-    "Prevents endermen from teleporting."
+    "阻止末影人传送。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:making_unattuned_celestial_crystals>,
 [
-    "To make your first Celestial crystal, you need Liquid Starlight, Stardust, and a Rock Crystal.",
+    "需要星能液、星尘以及水晶石来制作第一块天辉水晶石。",
     "",
-    "Place down a bucket of Liquid Starlight, with sky access, and preferably a nearby Collector Crystal.",
+    "露天放置一桶星能液，最近最好有聚能水晶。",
     "",
-    "Drop the Stardust and Rock Crystal into the Liquid Starlight, and a Celestial Crystal Cluster will form.",
+    "将星尘和水晶石丢入星能液中，等待一段时间即可产生天辉水晶簇。",
     "",
-    "The Cluster will drop a Celestial Crystal when fully grown. Using a linking tool to bind a Collector Crystal with the Cluster will speed up its growth!"
+    "完全生长后，水晶簇会掉落天辉水晶石。使用链接工具将水晶簇与聚能水晶绑定来加速生长！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:farming_unattuned_celestial_crystals>,
 [
-    "Celestial Crystals can be duplicated using Liquid Starlight.",
+    "天辉水晶石可使用星能液进行复制。",
     "",
-    "If a Celestial Crystal is at max size (900) it has a chance of being split in two different crystals when dropped in Liquid Starlight. This will consume the bucket of Starlight.",
+    "若一块天辉水晶石达到最大尺寸（900），丢入星能液后就有概率分裂为两个不同的天辉水晶石。此过程会消耗星能液。",
     "",
-    "This process can be automated in two ways: ",
+    "可使用以下两种方法实现上述过程的自动化：",
     "",
-    "1. [Slightly more laggy, but easier] By using an Auto-Placer to keep a block space with an attuned celestial crystal full of Starlight. A properly-filtered Vacuum Chest can collect the unattuned crystals that will result from the splitting, while leaving the attuned crystal to endlessly replicate more unattuned ones.",
+    "1. [有点卡，但是更简单]使用方块放置器使共鸣天辉水晶石始终浸泡在星能液中。使用配置好过滤的虚空箱子收集分裂出的未共鸣的天辉水晶石，将共鸣天辉水晶石留在原地来无限复制未共鸣的天辉水晶石。",
     "",
-    "2. By using an Auto-Placer to keep a block space full of Starlight and using an Entity Detector from Cyclic to send a redstone signal to a collector when two entities (aka two crystals) are present in the designated block space. The system can be set up to pick up only one of the two crystals, or to pick up both, and drop one of them back into the Starlight."
+    "2. 使用方块防止器使单格空间内始终存在星能液，使用循环模组的实体检测器，使其在上述空间内检测到两个实体（也就是两个水晶石）时，向收集器发出红石信号。该系统可被设置为只拾取一个水晶石，或两个都拾取然后将其中之一丢入星能液中。"
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:levelling_up_crystals>,
     <astralsorcery:blockmachine:1>,
     <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})],
 [
-    "Crystals from astral sorcery have three stats that determine how good they are. The higher the number, the more effective they are.",
+    "星辉魔法的水晶石有三个决定其品质的属性。数值越高，性能越好。",
     "",
-    "Attuned crystals with max stats have custom recipes, but you may want to level some manually for other purposes.",
+    "满属性的共鸣天辉水晶石存在自定义配方，但是你可能需要手动升级一些以用于其他目的。",
     "",
-    "Size is increased by using Starlight. A crystal dropped in Liquid Starlight will consume the liquid to increase its size by a bit.",
+    "尺寸可使用星能液增加。浸泡在星能液中的水晶石能消耗星能液增加尺寸。",
     "",
-    "Purity is increased by duplicating crystals. A max size crystal will split in two after collecting more starlight, and one of the two crystals may have higher purity than the previous generation.",
+    "纯度可通过水晶石分裂增加。满尺寸的水晶石浸泡在星能液有概率会分裂为两块，其中一块会有更高的纯度。",
     "",
-    "Cut can be increased using a Grindstone. Every time the Grindstone is used, the crystal will gain cut, but lose size (which can be increased again using starlight)."
+    "抛光可使用砂轮增加。每使用一次砂轮，水晶石的抛光都会增加，但尺寸会减少（可通过浸泡星能液再次增加）。"
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:dimension_ids>],
@@ -2594,85 +2594,85 @@ mods.jei.JEI.addDescription([<contenttweaker:dimension_ids>],
 
 mods.jei.JEI.addDescription([<appliedenergistics2:part:460>, <betterp2p:advanced_memory_card>, <appliedenergistics2:certus_quartz_cutting_knife>],
 [
-    "P2P buses are used to connect transport of items, redstone, fluids, light, energy, and AE2 channels using AE2.",
+    "P2P通道可用于创建物品、红石信号、流体、光照、能量以及AE2频道的连接关系。",
     "",
-    "Right click with the following items to change mode:",
-    "Bucket for fluid mode,",
-    "Chest for item mode,",
-    "Smart cable for channel mode,",
-    "Energy cell for energy mode,",
-    "Redstone for redstone mode.",
+    "使用以下物品右击通道来改变模式：",
+    "桶：流体模式，",
+    "箱子：物品模式，",
+    "智能线缆：频道模式，",
+    "能源元件：能量模式，",
+    "红石：红石模式。",
     "",
-    "Two or more P2P buses are connected between each other using the advanced memory card. P2P connections can be renamed using a quartz knife, making it easy to keep track of stuff!",
+    "两个或更多的P2P通道可使用高级内存卡连接。P2P通道可使用石英切割刀进行重命名，以便追踪定位！",
     "",
-    "These buses can be used to move a lot of channels using a lot fewer cables, making it easier to manage the logistics in your base. The best way to do this is by using a smaller AE2 network, called a subnet, that consists only of P2P connections used to connect your main controller with other parts of your base. This way a single Dense Smart Cable can transport up to 1024 channels.",
+    "通道可使用更少的线缆来传输更多的频道，使基地布线更易于管理。最佳方法是使用一个小型的AE2网络，我们称之为子网，这个网络仅用于创建主控制器与基地其他部分的P2P连接。如此一来，单根致密线缆最多可传输1024个频道。",
     "",
-    "The multiblock preview shows how P2P can be used to move channels. The main network is in white, the subnet is in purple.",
-    "The center controller is the main controller, P2P buses can be placed directly on it, or through a dense cable. This is the input side.",
-    "The output side can be placed anywhere on the same subnet used for the input side (the purple ones).",
-    "Subnets can be powered by using external controllers, or by connecting to the main network using quartz fiber.",
-    "NOTE: you should not connect the main net and the subnet together with any ME cable outside of quartz fiber."
+    "多方块预览中显示了P2P通道是如何传输频道的。主网络为白色，子网为紫色。",
+    "中间的控制器为主控制器，P2P通道可直接放置在其上，或通过致密线缆连接。此端通道为输入端。",
+    "输出端可放置在输入端通道所在子网的任意部分（紫色的网络）。",
+    "子网可通过额外的控制器，或者与主网络用石英纤维连接来供能。",
+    "注意：除石英纤维外，不要用任何其他线缆将主网络与子网连接。"
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:yellorite_reactor>, <bigreactors:reactorcontroller>, <bigreactors:reactoraccessport>, <bigreactors:reactorcoolantport>, <bigreactors:reactorpowertaprf>],
 [
-    "To build a Yellorite Reactor you need Reactor casings (or Reactor Glass), a Reactor Controller, two Reactor Access Ports, a Redstone Flux Power Tap, Fuel Rods, Control Rods, and coolers.",
+    "要搭建黄铀反应堆，需要若干反应堆外壳（或反应堆玻璃）、一个反应堆控制器、两个反应堆访问端口、一个反应堆RF能源接口和若干反应堆燃料棒、控制杆、冷却剂。",
     "",
-    "There are multiple multiblock previews to show how each component works! Reactors can be made nearly any size, with any number of Fuel Rods. Right click the Controller with an empty hand to check if a given reactor structure is valid.",
+    "有多种多方块预览以展示各部件如何工作！反应堆几乎可以是任何尺寸，拥有任意数量的燃料棒和控制杆。空手右击控制器来查看结构是否有效。",
     "",
-    "You can search 'reactor cooler' in JEI for a list of the available coolers. Draconium blocks are the best!",
+    "在JEI中搜索'反应堆冷却剂'来查看可使用的冷却剂列表。龙块是最好的冷却剂！",
     "",
-    "To run the reactor, input Yellorium into one Access Port, and it will be consumed and turned into Cyanite. You will need to set the other Access Port to Output Mode to auto extract Cyanite.",
+    "要运行反应堆，通过访问端口输入黄铀锭，黄铀会被消耗并转化为蓝晶。将另一访问端口设置为输出模式来自动输出蓝晶锭。",
     "",
-    "To turn it into a steam-making reactor, you will need to replace the Power Tap with two Coolant Ports, one to input water, and one to output steam."
+    "若要搭建蒸汽反应堆，需要将能源接口替换为两个冷却端口，一个用来输入水，另一个输出蒸汽。"
 ]);
 
 mods.jei.JEI.addDescription([<bigreactors:turbinecontroller>, <bigreactors:turbinefluidport>, <bigreactors:turbinepowertaprf>, <contenttweaker:extreme_turbine>],
 [
-    "To build an Extreme Turbine you need Turbine casings (or Turbine Glass), a Turbine Controller, two Turbine fluid Ports, a Redstone Flux Power Tap, a Turbine Rotor Bearing, Turbine Rotor Shafts, and coils.",
+    "要搭建极限涡轮机，需要若干涡轮机外壳（或涡轮机玻璃）、一个涡轮机控制器、两个涡轮机液体端口、一个涡轮机RF能源接口、一个涡轮机转子轴承和若干涡轮机转轴、叶片和线圈。",
     "",
-    "There are multiple multiblock previews to show how each component works! Turbines can be made nearly any size. Right click the Controller with an empty hand to check if a given turbine structure is valid.",
+    "有多种多方块预览以展示各部件如何工作！涡轮机几乎可以是任何尺寸。空手右击控制器来查看结构是否有效。",
     "",
-    "You can search 'turbine coil' in JEI for a list of the available coolers. Ludicrite blocks are the best!",
+    "在JEI中搜索'涡轮机线圈'来查看可使用的线圈方块。镠块是最好的线圈！",
     "",
-    "To run the turbine, input steam into one Fluid Port, and it will be consumed and turned into Water. You will need to set the other Access Port to Output Mode to auto extract Water.",
+    "要运行涡轮机，通过液体端口输入蒸汽，蒸汽会被消耗并转化为水。需要将另一液体端口设置为输出模式来自动输出水。",
     "",
-    "Steam can be obtained from Yellorite Reactors, Steam Dynamos, Boilers."
+    "蒸汽可通过黄铀反应堆、蒸汽能源炉和锅炉获得。"
 ]);
 
 mods.jei.JEI.addDescription([<deepmoblearning:simulation_chamber>, <deepmoblearning:extraction_chamber>, <deepmoblearning:polymer_clay>, <deepmoblearning:deep_learner>],
 [
-    "To farm mob drops with Deep Mob Learning (Evolution), you need a Simulation Chamber, a Loot Fabricator, and a steady supply of Polymer Clay (which has EMC), as well as a Data Model.",
+    "要使用深度怪物学习（进化）来获取掉落物，需要模拟室、战利品制造器以及稳定的聚合粘土（有EMC值）供应，当然还有数据模型。",
     "",
-    "To function, a Simulation Chamber needs a Data Model that has been configured to a mob.",
+    "模拟室需要配置为特定生物的数据模型才能工作。",
     "",
-    "To configure a model, you need to place one for the mob you want to farm into the Deep Learner. Then, while holding the Learner in your hotbar, you want to slay a certain number of that mob to activate the model.",
+    "要配置模型，需要在深度学习器种放入所需生物的数据模型。然后，将深度学习器放入快捷栏，击杀特定数量的对应生物来激活模型。",
     "",
-    "The more mobs you slay, the higher the tier of the model. The higher the tier, the better.",
+    "击杀的生物数量越多，模型等级越高。等级越高，工作效果越好。",
     "",
-    "Placing a model in the Simulation Chamber will produce Pristine Matter, which is consumed in Loot Fabricators to farm specific mob drops."
+    "放入模型后，模拟室会产出原始物质，可在战利品制造器中消耗原始物质来获取特定掉落物。"
 ]);
 
 mods.jei.JEI.addDescription([<deepmoblearningbm:digital_agonizer>,<deepmoblearningbm:altar_linker>],
 [
-    "The Digital Mob Agonizer is a very effective way to produce essence for a Blood Altar.",
+    "数字化苦难之井是产出生命源质的有效手段。",
     "",
-    "Place one next to a Blood Altar, and use the Altar Linker to bind it.",
+    "在血之祭坛旁放置数字化苦难之井，使用祭坛连接器将二者绑定。",
     "",
-    "The Digital Mob Agonizer needs a Data Model and a steady supply of matter, and it will automatically add LP to the Altar.",
+    "数字化苦难之井需要数据模型和稳定的物质供应来自动为祭坛产出LP！",
     "",
-    "Multiple Agonizers can be connected to the same Altar!"
+    "多个数字化苦难之井可绑定至同一祭坛！"
 ]);
 
 mods.jei.JEI.addDescription([<extrautils2:terraformer:0>,<extrautils2:terraformer:1>,<extrautils2:biomemarker>,<extrautils2:terraformer:2>,<extrautils2:terraformer:3>,<extrautils2:terraformer:4>,<extrautils2:terraformer:5>,<extrautils2:terraformer:6>,<extrautils2:terraformer:7>,<extrautils2:terraformer:8>],
 [
-    "To change biomes using extra utilities, you need a terraformer, a biome marker, some antennas, and other blocks depending on the biome.",
+    "要使用更多实用设备模组来改变生物群系，需要地形转化仪、生物群系标记器、若干天线以及基于群系的其他方块。",
     "",
-    "After placing a biome marker inside the terraformer, the GUI will tell you what other blocks are needed.",
+    "在地形转化仪中放入生物群系标记器后，GUI将告诉你需要何种方块。",
     "",
-    "For each of the required blocks, place an antenna on top of them, and add the required ingredients listed by clicking the arrow.",
+    "对于每种所需方块，在其上放置天线，在方块的GUI中点击箭头查看所需材料。",
     "",
-    "If configured correctly, the terraformer will start automatically! Make sure you set the correct range!"
+    "若配置正确，地形转化仪会自动开始工作！确保范围设置正确！"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -2681,73 +2681,73 @@ mods.jei.JEI.addDescription([
     <astralsorcery:itemperkgem:2>,
     <contenttweaker:making_dynamism_gems>],
 [
-    "To craft dynamism gems, you need to drop a Rock Crystal and Glowstone in Liquid Starlight.",
+    "要制作能力宝石，需要将水晶石和荧石丢入星能液中。",
     "",
-    "Depending on the time of day this happens, the resulting crystal will drop a different gem.",
-    "Day = Ilium",
-    "Night = Fengarum",
-    "Morning/Evening = Ourium"
+    "根据生长完成的时间，会生成不同宝石。",
+    "白天 = 烈阳宝石",
+    "夜晚 = 皎月宝石",
+    "日出/日落 = 天空宝石"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:magic_mushroom_dark>],
 [
-    "The Really Scary Vishroom lets you unlock all Thaumcraft research, but it will also fill your warp bar! Unless you really like Thaumcraft research, you should probably do this, since the pack also uses a lot of addons with complicated research.",
+    "惊怖纤毛菇可解锁所有神秘时代研究，但是会直接填满扭曲条！除非你实在是很喜欢神秘时代的研究，否则最好是制作该物品，因为本包中有很多添加了复杂研究的附属模组。",
     "",
-    "In addition to the following steps, it's a good idea to have some permanent warp cleaning ability, either using the Warp Cleansers found in the Dreadlands dimension, or crafting the Omothol Warp Cleanser.",
+    "除了遵循以下步骤，最好也通过其他模组获得永久移除扭曲的手段，不论是在恐惧之地发现的扭曲净化护符，还是合成获得的奥穆索扭曲净化护符。",
     "",
-    "To craft this item, though, you will still need to do a little bit of research by yourself. The following steps are the bare minimum required to unlock this item.",
+    "要制作该物品，你还得先自己进行一些研究。以下步骤是解锁该物品的最短路径。",
     "",
-    "1. Fundamentals: First Steps > Discovering Alchemy > Discovering Infusion > Discovering Auromancy",
+    "1. 基础学：最初的摸索 > 发现：炼金术 > 发现：注魔 > 发现：神秘学",
     "",
-    "2. Alchemy: Basic Alchemy > Alumentum > Alchemical Metalurgy > Essentia Smelting > Warded Jars and Labels ",
+    "2. 炼金术：基础炼金术 > 源动之焰 > 金属炼成 > 源质冶炼 > 要素罐子和标签",
     "",
-    "3. Arcane Infusion: Basic Infusion > Infusion > (optional) Infusion Stablizer"
+    "3. 奥术注魔：基础注魔 > 注魔 > （可选）注魔稳定性"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:flux_basics>],
 [
-    "Flux is one of the core thaumcraft mechanics. ",
+    "咒波是神秘时代的核心机制之一。",
     "",
-    "Flux is similar to radiation, where each chunk has a certain flux level. If flux is too high, bad things will happen.",
+    "咒波与辐射类似，每个区块有特定的咒波值。若咒波过高，会发生不好的事情。",
     "",
-    "The Thaumometer lets you see the flux levels in a given chunk (the dark purple bar). You can sneak to see the numerical value.",
+    "使用魔导透镜可查看当前区块的咒波值（深紫色的条）。潜行以查看具体数值。",
     "",
-    "Flux is created when a few things in Thaumcraft are done:",
-    "1. A Crucible has excess essentia (use Quartz Slivers to prevent this)",
-    "2. An Essentia Smeltery is processing items (Mithrillium tier and above don't make flux)",
-    "3. You fail an infusion craft"
+    "在神秘时代中，以下事情发生时会产生咒波：",
+    "1. 坩埚的源质溢出（使用石英碎片来防止）",
+    "2. 源质冶炼厂处理物品（秘银及更高等级不会产生咒波）",
+    "3. 注魔合成失败"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:remove_flux>],
 [
-    "There are a few ways to remove flux:",
+    "有一些移除咒波的方法：",
     "",
-    "1. The Ritual of Eldritch Will from Blood Magic (good start). Place the ritual down, it will reduce flux levels in a 3x3 chunk area, and it will convert it to Demonic Will. If the 9 chunks are full of will, the ritual will stop clearing flux. Use Demon Crystallizers to make sure your chunks doesn't fill with will!",
+    "1. 血魔法的邪术意志仪式（前期推荐）。放置仪式，其会减少3x3区块内的咒波量，并将其转化为恶魔意志。如果9个区块内的意志均为满，仪式会停止清除咒波。使用恶魔结晶坛来确保区块内意志不被充满！",
     "",
-    "2. The Flux Condenser (not recommended). To unlock this you will need to have progressed through some Thaumcraft. A set of lattices should be placed above the Flux Condenser. Lattices have a chance of clogging, if that happens, you should break and replace them. This block consumes Herba essentia to function, and it produces Vitium essentia. You should have essentia pipes to input and output the two.",
+    "2. 咒波凝结器（不推荐）。要解锁该物品，需要推进一些神秘时代进度。咒波凝结器应放置格栅。格栅有概率堵塞，若格栅堵塞，需要破坏并重新放置。该方块需消耗Herba源质才能工作，并且会产出Vitium源质。使用源质管道来输入输出这两种源质。",
     "",
-    "3. The Puriflower (best for long term). The Puriflower simply drains flux from the chunk it's placed in passively, nothing else needed!"
+    "3. 纯净之花（长期使用的最佳选择）。纯净之花放置后便可直接吸收所在区块的咒波，没有额外需求！"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:eldritch_will_ritual>],
 [
-    "The Ritual of Eldritch Will from Blood Magic is the easiest way of getting rid of flux. Place the ritual down, it will reduce flux levels in a 3x3 chunk area, and it will convert it to Demonic Will. If the 9 chunks are full of will, the ritual will stop clearing flux. Use Demon Crystallizers to make sure your chunks doesn't fill with will!"
+    "血魔法的邪术意志仪式是解决咒波的最简单方法之一。放置仪式，其会减少3x3区块内的咒波量，并将其转化为恶魔意志。如果9个区块内的意志均为满，仪式会停止清除咒波。使用恶魔结晶坛来确保区块内意志不被充满！"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:aura_basics>],
 [
-    "Aura is one of the main mechanics in Thaumcraft.",
+    "灵气是神秘时代的主要机制之一。",
     "",
-    "Aura is magical energy used to craft using some of the blocks and items in the mod.",
+    "灵气是用于本模组某些物品和方块的魔法能量。",
     "",
-    "Each chunk has a different aura level. Once it is depleted, it will slowly go back up to a maximum value that depends on seed.",
+    "每个区块都有不同的灵气值。区块内灵气耗尽后，会随时间缓慢恢复至世界种子决定的最大值。",
     "",
-    "Regardless of your world, Magical Forest biomes have much higher aura levels than all other biomes."
+    "不论什么存档，魔法森林（Magical Forest）群系的灵气值都比其他群系要高得多。"
 ]);
 
 mods.jei.JEI.addDescription([

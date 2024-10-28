@@ -2276,7 +2276,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:crimson_gem>.addTooltip(format.red("发现于主世界的血腥之塔！"));
 
-<contenttweaker:alchemical_mushroom>.addTooltip(format.red("将夜光蘑菇培养罐与正确的蘑菇（4个）结合，神圣橡木将指引你！"));
+<contenttweaker:alchemical_mushroom>.addTooltip(format.red("将夜光菇培养罐与正确的蘑菇（4个）结合，神圣橡木将指引你！"));
 
 <divinerpg:corrupted_shards>.addTooltip(format.red("生成在Y=11以下的怪物掉落"));
 <divinerpg:corrupted_stone>.addTooltip(format.red("生成在Y=11以下的怪物掉落"));
