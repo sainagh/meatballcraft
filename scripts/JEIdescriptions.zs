@@ -3138,7 +3138,7 @@ mods.jei.JEI.addDescription([
     <draconicevolution:energy_pylon>,
     <draconicevolution:particle_generator:2>],
 [
-    "The Draconic Energy Orb is a very large and versatile energy storage option. You shoudl definitely make one!",
+    "The Draconic Energy Orb is a very large and versatile energy storage option. You should definitely make one!",
     "",
     "To start, place down an Energy Core. You can right click it to select the desired tier, and to turn on a build guide. All tiers but the final one use Redstone and Draconium blocks. The final tier uses Awakened Draconium. To assemble the orb, either follow the building guide or use the automatic building in the GUI.",
     "",
