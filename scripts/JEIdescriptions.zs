@@ -2348,7 +2348,7 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "marimorphosi
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "daffomill"}),
 [
-    "Pushes items in a given direction at a small cost of mana. Right clicking with a Wand of the Forest changes the pushing direction. "
+    "Pushes items in a given direction at a small cost of mana. Shift + Right clicking with a Wand of the Forest changes the pushing direction. "
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "jiyuulia"}),
