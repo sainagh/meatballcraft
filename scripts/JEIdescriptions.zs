@@ -1962,7 +1962,7 @@ mods.jei.JEI.addDescription(<projectex:stone_table>,
     "",
     "All items that have been learned can be extracted if your network has enough EMC to sustain them!",
     "",
-    "The Klein Star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
+    "The Klein Star can be used to take EMC from your network to be used for other purposes."
 ]);
 mods.jei.JEI.addDescription(<projecte:transmutation_table>,
 [
@@ -1974,7 +1974,7 @@ mods.jei.JEI.addDescription(<projecte:transmutation_table>,
     "",
     "All items that have been learned can be extracted if your network has enough EMC to sustain them!",
     "",
-    "The Klein Star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
+    "The Klein Star can be used to take EMC from your network to be used for other purposes."
 ]);
 mods.jei.JEI.addDescription(<projecte:item.pe_transmutation_tablet>,
 [
@@ -1986,7 +1986,7 @@ mods.jei.JEI.addDescription(<projecte:item.pe_transmutation_tablet>,
     "",
     "All items that have been learned can be extracted if your network has enough EMC to sustain them!",
     "",
-    "The Klein Star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
+    "The Klein Star can be used to take EMC from your network to be used for other purposes."
 ]);
 mods.jei.JEI.addDescription(<projectex:arcane_tablet>,
 [
@@ -1998,7 +1998,7 @@ mods.jei.JEI.addDescription(<projectex:arcane_tablet>,
     "",
     "All items that have been learned can be extracted if your network has enough EMC to sustain them!",
     "",
-    "The Klein Star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
+    "The Klein Star can be used to take EMC from your network to be used for other purposes."
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:mk1_power_flower>,
