@@ -804,7 +804,7 @@ mods.jei.JEI.addDescription([
 mods.jei.JEI.addDescription([
     <abyssalcraft:powerstonetracker>],
 [
-    "蕴能石追踪器与末影之眼类似，可引导你寻找恐惧知道蕴能石。",
+    "蕴能石追踪器与末影之眼类似，可引导你寻找恐惧之地蕴能石。",
 	"",
 	"蕴能石不容易找到，使用任务书中的扫描模块帮助寻找！"
 ]);
@@ -2015,77 +2015,77 @@ mods.jei.JEI.addDescription(<contenttweaker:mk1_power_flower>,
 
 mods.jei.JEI.addDescription([<tconstruct:smeltery_controller>, <tconstruct:seared_tank>, <tconstruct:smeltery_io>, <tconstruct:seared>],
 [
-    "The Smeltery is the main multiblock in Tinker's Construct! It smelts ores and other metal items into molten fluids.",
+    "冶炼炉是匠魂模组的主要多方块结构！它能够将矿物和其他金属物品熔炼为熔融流体。",
     "",
-    "The multiblock can be any cuboid shape (without corners and edges) with an open top, and it is made out of any Seared Stone block. ",
+    "冶炼炉可以是底面不超过9x9的任意立方体（不需要边框），可以用任意焦黑方块构成。",
     "",
-    "The multiblock needs one Smeltery Controller, this can replace any block! Item inputs can be piped into the controller.",
+    "结构需要一个冶炼炉控制器，替换任意侧面方块即可！物品可通过控制器输入。",
     "",
-    "The multiblock needs at least one Seared Tank, but it can have more, those can replace any block! This is to input fuel into the tank. Lava is the easiest fuel to get.",
+    "结构需要至少一个焦黑储罐，替换任意侧面方块即可！通过储罐为冶炼炉输入燃料。熔岩是最易获得的燃料。",
     "",
-    "To output the fluids from the smeltery, you need Seared Drains. Those can replace any blocks!",
+    "要从冶炼炉中输出流体，需要焦黑排液口。替换任意侧面方块即可！",
     "",
-    "You can use fluiducts on the smeltery drains. EnderIO conduits in theory work too, but they can bug out."
+    "可使用流体管道从排液口抽取流体。末影接口的流体导管也可以，但有可能会出bug。"
 ]);
 
 mods.jei.JEI.addDescription(<ore:cast>,
 [
-    "To make a cast, you want to start by making a part in the Part Builder. You should use a cheap material like Cobblestone.",
+    "要制作铸模，首先需要在部件加工台中制作对应部件。推荐使用例如圆石的廉价材料。",
     "",
-    "Place the part on the Casting Table, and pour a casting material by right clicking the faucet above the Casting Table.",
+    "将部件放入浇筑台，右击浇筑台上方的浇筑口来使用浇筑材料进行浇筑。",
     "",
-    "Casting materials can be Molten Gold or Molten Aluminum Brass!",
+    "浇筑材料可以是熔融金或熔融铝黄铜！",
     "",
-    "After you have made a cast, you can place it in the table, and use it to make parts out of any metal you want!"
+    "制作出铸模后，可将其放入浇筑台中，从而使用金属材料制作部件！"
 ]);
 
 
 mods.jei.JEI.addDescription(<gendustry:sampler>,
 [
-    "To better the genes of your bees you need the Genetic Sampler, Genetic Transposer, and Genetic Imprinter.",
+    "使用基因采样机、基因转换机和基因压印机来优化蜜蜂基因。",
     "",
-    "The Genetic Sampler takes bees, and has a chance of producing Gene Samples from a given bee.",
+    "基因采样机可以消耗所给蜜蜂，产出其基因样本。",
     "",
-    "For each bee species that has a desirable gene, you can dump excess drones into the sampler, until you obtain the gene samples you desire!",
+    "每种蜜蜂都有值得获取的基因，你可以将多余的雄蜂输入采样机，直到获得想要的基因样本！",
     "",
-    "See the Book of Creation for a list of the bees with the best genes!"
+    "前往创造之书章节查看拥有最佳基因的蜜蜂列表！"
 ]);
 
 mods.jei.JEI.addDescription(<gendustry:transposer>,
 [
-    "To better the genes of your bees you need the Genetic Sampler, Genetic Transposer, and Genetic Imprinter.",
+    "使用基因采样机、基因转换机和基因压印机来优化蜜蜂基因。",
     "",
-    "The Genetic Transposer has two main functions.",
+    "基因转换机主要有两种功能。",
     "",
-    "First, it can be used to duplicate gene samples, combine a blank one with an imprinted one to duplicate it! This is how you can farm the ingredients to craft the Torcherino!",
+    "第一，它可以用于复制基因样本，放入空白基因样本与含有信息的基因样本来进行复制！通过此方法来获得制作加速火把的材料！",
     "",
-    "Second, you can combine Genetic Samples into templates, these will be used to customize your bees!",
+    "第二，可以在工作台中将基因样本与基因模板合成，从而将其基因添加到模板中，之后可用模板自定义蜜蜂！",
     "",
-    "NOTE: templates do not need to have all 12 genes! You can make templates with even one chromosome!"
+    "注意：模板不需要具备全部12种基因！"
 ]);
 
 mods.jei.JEI.addDescription(<gendustry:imprinter>,
 [
-    "To better the genes of your bees you need the Genetic Sampler, Genetic Transposer, and Genetic Imprinter.",
+    "使用基因采样机、基因转换机和基因压印机来优化蜜蜂基因。",
     "",
-    "Given a template from the Genetic Transposer, you can use the Imprinter to modify a bee's genes.",
+    "通过制好的基因样板，使用基因压印机来编辑蜜蜂基因。",
     "",
-    "WARNING: bees have a chance of being turned into Genetic Waste, so be careful about imprinting princesses and queens.",
+    "警告：蜜蜂有概率变为垃圾基因，放入公主蜂和蜂后时要小心。",
     "",
-    "The recommended strategy is to imprint a lot of drones from your desired species, and to continuously breed with the same princess until the genes are transferred."
+    "建议压印大量雄蜂，然后不停与同一公主蜂繁殖直到基因完全转移。"
 ]);
 
 mods.jei.JEI.addDescription(<modularmachinery:itemblueprint>,
 [
-    "Use a diamond chisel to transition between blueprints!",
+    "使用钻石凿子来切换不同蓝图！",
     "",
-    "The following blueprints are craftable, and can be turned into all others.",
-    "Steel Thermal Mixer for most machines!",
+    "以下蓝图可直接合成，并用于转化为其他所有蓝图！",
+    "热钢混合器 - 大部分机械！",
     "Tier 1 mythic miner for all mythic miners!",
-    "Neutronium Cannon for chapter 6 multiblocks!",
-    "Relativistic Collapser for chapter 9 multiblocks!",
-    "Mythic Processor Alloy Furnace for all mythic processors!",
-    "Arcane Autoworkbench for all magic multiblocks!"
+    "中子炮 - 第6章的多方块！",
+    "相对论坍缩器 - 第9章的多方块！",
+    "神话处理器：合金炉 - 所有神话处理器！",
+    "自动奥术工作台 - 所有魔法多方块！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:recursive_recipes>,
