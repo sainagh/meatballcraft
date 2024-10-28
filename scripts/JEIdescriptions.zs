@@ -3061,7 +3061,7 @@ mods.jei.JEI.addDescription([
     "",
     "To transfer Impetus, you need an Impetus Resonator and Impetus Relays. The Relays are like cables used to transfer this energy, and the Resonator is like a wrench. To connect two Impetus blocks to each other, shift right click the starting block, and right click the destination block. If this is done correctly, a visual effect will start connecting the two blocks.",
     "",
-    "To store Impetus, you need an Impetus Matrix, which behaves like a battery. To make one, assemble a structure with a Runic Matrix and two Eldritch Pedestals (see JEI preview). Right click the Matrix with Salis Mundus, and use eight Impetus Cells on the pedestals, one on each side. This battery is liked using the Impetus Resonator."
+    "To store Impetus, you need an Impetus Matrix, which behaves like a battery. To make one, assemble a structure with a Runic Matrix and two Eldritch Pedestals (see JEI preview). Right click the Matrix with Salis Mundus, and use eight Impetus Cells on the pedestals, one on each side. This battery is linked using the Impetus Resonator."
 ]);
 
 mods.jei.JEI.addDescription([
