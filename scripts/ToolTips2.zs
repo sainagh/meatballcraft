@@ -140,7 +140,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:magic_mushroom_dark>.addTooltip(format.red("知识必须被掌握…… - 付出巨大代价解锁所有神秘时代探究知识"));
 
-<contenttweaker:abyssal_wasteland_warp_cleanser>.addTooltip(format.red("移除20临时和20普通扭曲"));
+<contenttweaker:abyssal_wasteland_warp_cleanser>.addTooltip(format.red("移除20临时和20粘性扭曲"));
 <contenttweaker:abyssal_wasteland_warp_cleanser>.addTooltip(format.red("可发现于深渊荒原"));
 
 <contenttweaker:dreading_warp_cleanser>.addTooltip(format.red("移除20永久扭曲"));
@@ -616,7 +616,7 @@ import crafttweaker.item.IItemCondition;
 
 <modularmachinery:blockaspectproviderinput>.addTooltip(format.red("如果源质无法输入，可用要素安瓿手动输入源质以快速启动，然后使用标签；源质将自动流入"));
 
-<thaumcraft:sanity_soap>.addTooltip(format.red("按住右键可清除临时扭曲，减少1点普通扭曲"));
+<thaumcraft:sanity_soap>.addTooltip(format.red("按住右键可清除临时扭曲，减少1点粘性扭曲"));
 
 <thaumcraft:sanity_soap>.addTooltip(format.red("可使用净化召唤石自动化"));
 
@@ -2200,7 +2200,7 @@ import crafttweaker.item.IItemCondition;
 <akashictome:tome>.addTooltip(format.red("选中书后，潜行+丢弃来将该书从阿卡什宝典中移除"));
 
 
-<thaumadditions:jar_adaminite>.addTooltip(format.red("放入Vitium时会爆炸！！"));
+<thaumadditions:jar_adaminite>.addTooltip(format.red("存入Vitium时会爆炸！！"));
 
 <advancedrocketry:rocketbuilder>.addTooltip(format.red("需要放置在发射台旁，较发射台高一格处！"));
 <advancedrocketry:stationbuilder>.addTooltip(format.red("需要放置在发射台旁，较发射台高一格处！"));

@@ -1054,7 +1054,7 @@ mods.jei.JEI.addDescription(<ae2fc:part_fluid_pattern_terminal>,
 
 mods.jei.JEI.addDescription(<erebus:portal_activator>,
 [
-    "混沌之地欢送们的一部分！Part of the portal to the Erebus!",
+    "混沌之地传送门的一部分！",
     "",
     "使用石砖建造任意尺寸的传送门框架，在其中放满树叶！",
     "",
@@ -1443,7 +1443,7 @@ mods.jei.JEI.addDescription(<contenttweaker:magic_strategy_warped>,
 [
     "首先发展血魔法来解锁邪术意志仪式！",
     "",
-    "在神秘时代中陷入疯狂，解锁回san肥皂。",
+    "在神秘时代中陷入疯狂，解锁祛邪肥皂。",
     "",
     "在深渊国度那儿得了PTSD！但你能获得奥穆索扭曲净化符咒！",
     "",
@@ -2727,7 +2727,7 @@ mods.jei.JEI.addDescription([
     "",
     "1. 血魔法的邪术意志仪式（前期推荐）。放置仪式，其会减少3x3区块内的咒波量，并将其转化为恶魔意志。如果9个区块内的意志均为满，仪式会停止清除咒波。使用恶魔结晶坛来确保区块内意志不被充满！",
     "",
-    "2. 咒波凝结器（不推荐）。要解锁该物品，需要推进一些神秘时代进度。咒波凝结器应放置格栅。格栅有概率堵塞，若格栅堵塞，需要破坏并重新放置。该方块需消耗Herba源质才能工作，并且会产出Vitium源质。使用源质管道来输入输出这两种源质。",
+    "2. 咒波凝结器（不推荐）。要解锁该物品，需要推进一些神秘时代进度。咒波凝结器上应放置格栅。格栅有概率堵塞，若格栅堵塞，需要破坏并重新放置。该方块需消耗Herba源质才能工作，并且会产出Vitium源质。使用源质管道来输入输出这两种源质。",
     "",
     "3. 纯净之花（长期使用的最佳选择）。纯净之花放置后便可直接吸收所在区块的咒波，没有额外需求！"
 ]);
@@ -2755,91 +2755,91 @@ mods.jei.JEI.addDescription([
     <thaumcraft:scribing_tools>,
     <thaumcraft:table_wood>],
 [
-    "To unlock pages in the Thaumonomicon, you need to perform research.",
+    "要解锁魔导手册的章节，需要进行研究。",
     "",
-    "There are eight types of research, and each type can be an obervation or a theory!",
+    "一共有8种研究，每种都对应一种观测或理论！",
     "",
-    "Observation research is performed by scanning things using the Thaumometer. In this pack there is an addon that lets you scan items directly in chests. Just mouse over them while holding the Thaumometer!",
+    "使用魔导透镜来进行观测研究。本包中的附属模组可以令你直接扫描箱子中的物品。用鼠标拖动魔导透镜直接从物品上滑过即可！",
     "",
-    "Theory research is performed in the Research Table, obtained by right clicking Scribing Tools on a Wood Table. To unlock research, place paper in the Scribing Table, and click pages until completing a theory. This task must be repeated till the desired research is obtained.",
+    "理论研究需在研究台中进行，使用笔与墨右击木桌来获得研究台。要解锁研究，在研究同中放置纸，点击选项直至完成一个理论。重复此操作直至所需获得研究。",
     "",
-    "In addition to this, Preserved Curiosities let you unlock any research at random!"
+    "除此之外，传世珍品可随机解锁研究！"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:thaumometer>],
 [
-    "The Thaumometer has three main uses.",
+    "魔导透镜主要有三种用途。",
     "",
-    "It allows you to see the presence of the two main Thaumic fields, vis (good) and flux (bad).",
+    "显示所在区块的灵气场信息：灵气量，咒波量和灵气容量。",
     "",
-    "It can be used to scan items and blocks (both in world and from the inventory) to reveal the essentia they possess, and to gain knowledge about the Thaumic arts.",
+    "扫描物品和方块（世界中和物品栏中均可）以揭示其含有的源质，并获得相关的神秘学知识。",
     "",
-    "It shows its user the presence of essentia in a given block or machine."
+    "显示方块或机器中的源质含量。"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:warp_basics>,
     <thaumcraft:sanity_checker>],
 [
-    "Warp is a mechanic used in both Thaumcraft and Abyssalcraft.",
+    "扭曲是神秘时代和深渊国度的一种机制。",
     "",
-    "Warp is something that is directly connected to your player, and it is gained in a variety of ways:",
-    "1. Eating Zombie Brains",
-    "2. Unlocking certain Thaumcraft research",
-    "3. Fighting mobs from Abyssalcraft",
-    "4. Exploring Abyssalcraft dimensions",
+    "扭曲与玩家直接相关，其来源有很多：",
+    "1. 实用僵尸之脑",
+    "2. 解锁特定神秘时代研究",
+    "3. 与深渊国度的怪物战斗",
+    "4. 探索深渊国度的维度",
     "",
-    "Warp is checked using a Sanity Checker!",
+    "可使用神志检测仪来查看扭曲值！",
     "",
-    "If your warp level is high, you will occasionally gain debuffs, and special mobs will sometimes spawn around you.",
+    "若扭曲值过高，玩家会偶尔获得负面效果，周围有时会生成特定怪物。",
     "",
-    "There are three types of warp, temporary, sticky, and permanent.",
-    "Temporary warp goes down over time, and is bright pink in the Sanity Checker.",
-    "Sticky warp needs Sanity Soap or Warp Cleansers to be removed, and is purple in the Sanity Checker.",
-    "Permanent warp is only removed using the Dreadlands and Omothol Warp Cleansers, and is dark purple in the Sanity Checker."
+    "扭曲分为三种类型：临时、粘性和永久。",
+    "临时扭曲会随时间自然减少，在神志检测仪中显示为亮粉红色。",
+    "粘性扭曲需要用祛邪肥皂或扭曲净化护符移除，在神志检测仪中显示为紫色。",
+    "永久扭曲只能使用恐惧之地和奥穆索扭曲净化护符移除，在神志检测仪中显示为深紫色。"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:crucible>],
 [
-    "The Crucible is a crafting mechanic that uses essentia. Essentia is a magical fluid obtained in a varity of ways in Thaumcraft.",
+    "坩埚使用源质来进行合成。源质是神秘国度中的一种魔法流体，可使用多种方式获得。",
     "",
-    "To function properly, a Crucible needs to be on top of fire or Nitor, and it needs to be full of water. If a crucible is working properly, the water in the crucible will bubble.",
+    "坩埚需要放置在火或者闪耀之光上来正常工作，坩埚内还需放满水。正常工作时，坩埚内的水会冒气泡。",
     "",
-    "Items dropped in the Crucible will be decomposed into their essentia. Holding shift over an item after having scanned it with the Thaumometer will show what essentia they have. Alternatively, all essentia for each item will be shown in JEI.",
+    "丢入坩埚的物品会被分解为所具备的源质。将鼠标放在被魔导透镜扫描后的物品上，按住Shift可显示其包含的源质。此外，每种物品具有的源质均可在JEI中查看。",
     "",
-    "If you are wearing the Goggles of Revealing, you will see the essentia in the Crucible.",
+    "若佩戴有揭示之护目镜，可直接看到坩埚内的源质。",
     "",
-    "If an appropriate combination of essentia is present, items dropped in the Crucible will be transformed. JEI lists the available transformations.",
+    "若源质组合正确，丢入坩埚内的物品将会被转化。JEI中列出了可用的转化配方。",
     "",
-    "Essentia will slowly disappear from the Crucible after it is added and turn into flux. Drop quartz slivers in the Crucible to collect any leftover essentia and to keep flux from building up!"
+    "坩埚中的源质会缓慢消失，并转化为咒波。向坩埚中丢入石英碎片来收集剩余的源质，避免咒波增长！"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:essentia_management>],
 [
-    "Essentia is a magical fluid that can be created, moved, and consumed as part of many Thaumcraft mechanics. While the Crucible can be used to create essentia, it can only be used for Crucible crafting.",
+    "源质是一种魔法流体，可作为许多神秘时代机制的一部分进行创造、移动以及消耗。尽管坩埚可以用于制作源质，但其制作的源质只能用于坩埚合成。",
     "",
-    "To create essentia, you need an Essentia Smeltery, which works like a furnace that 'smelts' items into their essentia components (which can be seen in JEI).",
-    "Place Arcane Alembics on top of the Smeltery to collect the output. If no Alembics are present, flux will be made.",
-    "The higher the tier, the better the yield out of each item, and less flux will be made each operation. Mithrillium tier and above make no flux.",
+    "要创造源质，需要源质冶炼厂，可以像熔炉那样把物品'烧炼'为其包含的源质（在JEI中查看）。",
+    "在冶炼厂上方放置蒸馏器以收集输出的源质。若没有蒸馏器，则会产生咒波。",
+    "冶炼厂的等级越高，物品产生的源质越多，每次操作产生的咒波越少。秘银及以上等级的冶炼厂不会产生咒波。",
     "",
-    "Essentia can be stored using Phials, or using jars. Phials are like buckets, which can be used to move essentia between containers. Jars are like tanks, which can be placed in world. Labels can be used to filter jars to store only one type of essentia.",
+    "可用安瓿或罐子来存储源质。安瓿类似桶，可用于在容器间移动源质。罐子类似储罐，可放置在世界中。标签可用于过滤罐子，使其只存储指定种类的源质。",
     "",
-    "To transport essentia, the Filling and Emptying Essentia Transfusers can be used to move essentia wirelessly. There are pipes, but they should be avoided.",
-    "The Filling Essentia Transfuser is used as a machine output, and it automatically pushes essentia into jars.",
-    "The Emptying Essentia Transfuser is used as a machine input, and it automatically pulls essentia out of jars."
+    "要传输源质，源质析出和注入装置可用于无线传输源质。当然也有源质管道，但最好别用。",
+    "源质析出装置可作为机械的输出，自动将源质输出到罐子里。",
+    "源质注入装置可作为机械的输入，自动从罐子里抽取源质。"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:phial>],
 [
-    "Phials are used to store essentia similarly to how buckets are used to store fluids.",
+    "安瓿可用于存储源质，和桶差不多。",
     "",
-    "One Phial stores exactly 10 of a given essentia.",
+    "一个安瓿可存储10单位源质。",
     "",
-    "Phials can be right clicked on essentia machines or storage to collect or deposit essentia just like buckets!"
+    "可使用安瓿右击源质机械或容器，像用桶一样收集或放入源质！"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -2853,33 +2853,33 @@ mods.jei.JEI.addDescription([
     <thaumadditions:jar_mithminite>,
     <thaumcraft:label>],
 [
-    "Jars are used to store essentia similarly to how tanks are used to store fluids.",
+    "罐子可用于存储源质，和存储流体的储罐差不多。",
     "",
-    "To fill a jar, you can use Phials, or you can directly click them on essentia containers.",
+    "可使用安瓿来装填罐子，或直接使用罐子右击源质容器。",
     "",
-    "Right clicking a jar with a label will whitelist the essentia it's currently storing so that no other essentia can enter, even after the jar has been emptied. This can be used for essentia storage systems.",
+    "使用标签右击罐子可以将罐子当前存储的源质设为白名单，阻止其他源质进入，即便罐子空了。可用于组建源质存储系统。",
     "",
-    "There are multiple tiers of jars, each with a different capacity:",
-    "Warded: 250",
-    "Void: 250 + void excess (makes flux)",
-    "Brass: 275",
-    "Thaumium: 350",
-    "Void Reinforced: 500",
-    "Mithrillium: 1000",
-    "Adaminite: 2000 (cannot store vitium)",
-    "Mithminite: 4000 + void excess (makes flux)"
+    "罐子有多个等级，每级的容量不同：",
+    "源质罐子：250",
+    "虚空罐子：250，附带溢出销毁（产生咒波）",
+    "黄铜源质罐子：275",
+    "神秘源质罐子：350",
+    "邪术源质罐子：500",
+    "秘银源质罐子：1000",
+    "精金源质罐子：2000（无法存储Vitium）",
+    "秘金源质罐子：4000，附带溢出销毁（产生咒波）"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:essentia_input>,
     <thaumcraft:essentia_output>],
 [
-    "Essentia Transfusers are the best way to move essentia around!",
+    "源质析出和注入装置是传输源质的最佳手段！",
     "",
-    "Place them on essentia machines, and they automatically move essentia to/from jars nearby.",
+    "将其放置在源质机械上，可以从附近的罐子里自动输入/输出源质。",
     "",
-    "Filling = from machines to jars",
-    "Emptying = from jars to machines"
+    "析出 = 从机械到罐子",
+    "注入 = 从罐子到机械"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -2888,9 +2888,9 @@ mods.jei.JEI.addDescription([
     <botania:pool:2>,
     <botania:pool:3>],
 [
-    "The Mana Pool transforms items that are dropped in it consuming some mana.",
+    "魔力池可消耗魔力，转化丢入其内的物品。",
     "",
-    "It is also the main way to store mana, which can be transferred using Sparks or Mana Spreaders."
+    "同时也是存储魔力的主要手段，可用火花和魔力发射器来传输魔力。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -2899,13 +2899,13 @@ mods.jei.JEI.addDescription([
     <botania:spreader:1>,
     <botania:spreader:3>],
 [
-    "Mana spreaders are used to transfer mana between mana sources or containers.",
+    "魔力发射器用于在魔力源或容器间传输魔力。",
     "",
-    "The Wand of the Forest is used to bind generating flora to a spreader. Make sure the wand is in bind mode. Shift + right click on flower first, then right click the spreader.",
+    "森林法杖可将产魔花与发射器绑定。确保森林法杖处于绑定模式。首先Shift右击花，然后右击发射器。",
     "",
-    "The Wand of the Forest is used to bind the spreader to fill a Mana Pool. Shift + right click on spreader first, then right click the pool.",
+    "森林法杖可将发射器与魔力池绑定。首先Shift右击发射器，然后右击魔力池。",
     "",
-    "To empty a mana pool, place a Mana Spreader directly adjacent to the Mana Pool. There is no need to bind them. The adjacent mana pool will be emptied by the spreader if it has another target."
+    "要从魔力池中抽取魔力，将魔力发射器直接与魔力池相邻放置。无需绑定。发射器向目标发射魔力脉冲时，将从相邻的魔力池中抽取魔力。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -2915,43 +2915,43 @@ mods.jei.JEI.addDescription([
     <botania:sparkupgrade:2>,
     <botania:sparkupgrade:3>],
 [
-    "Sparks can be used to transfer mana between Mana Pools and other Botania items. Right click a Spark on the pool to place it.",
+    "火花用于在魔力池和其他植物魔法物品间传输魔力。使用火花右击魔力池来放置。",
     "",
-    "By default, all blocks with a Spark will share mana equally, but spark augments can be used to change priorities.",
+    "默认状态下，所有放有火花的方块将平等分享魔力，但可使用火花升级来改变优先级。",
     "",
-    "Dominant: will take mana from other pools until it's full.",
-    "Dispersive: will send mana to players.",
-    "Recessive: will send mana to other pools if they can take it.",
-    "Isolated: will not send mana to other normal sparks."
+    "聚集：从其他火花中抽取魔力直至魔力池满。",
+    "弥散：向玩家传输魔力。",
+    "扩散：向其他火花传输魔力。",
+    "隔绝：不向其他按普通火花传输魔力。"
 ]);
 
 mods.jei.JEI.addDescription([
     <botania:runealtar>],
 [
-    "The Runic Altar can only accept mana from Mana Spreaders.",
+    "符文祭坛只能从魔力发射器中接收魔力。",
     "",
-    "Drop the required materials for a recipe on top of the Altar.",
+    "将配方所需材料丢到祭坛顶部。",
     "",
-    "If the recipe is correct, the spreader will start shooting mana until the altar is full.",
+    "若配方正确，发射器将开始发射魔力脉冲，直至祭坛充满。",
     "",
-    "Once the altar is full, you have to drop Livingrock on it, and right click with a Wand of the Forest to complete the craft.",
+    "一旦祭坛充满魔力，向祭坛上丢出一个活石，使用森林法杖右击祭坛来完成合成。",
     "",
-    "Runes in Runic Altar recipes are not consumed."
+    "在符文祭坛配方中，符文不会消耗。"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:crucible_automation>,
     <thaumcraft:thaumatorium>],
 [
-    "The Crucible can be transformed into the Thaumatorium, an upgraded version that has a user interface, and can be automated.",
+    "坩埚可转化为神秘炼金塔，相当于升级版本的坩埚，拥有用户界面，可进行自动化。",
     "",
-    "To form the Thaumatorium, place two Alchemical Contructs on top of a formed Crucible, and right click the stack with Salis Mundus.",
+    "要构建神秘炼金塔，在成型的坩埚上方放置两个炼金构材，接着使用世界盐右击。",
     "",
-    "The Thaumatorium can receive essentia from an Emptying Essentia Transfuser placed on its side. It can collect both from nearby jars and from an Essentia Infusion Provider.",
+    "神秘炼金塔可从放置在其侧面的源质注入装置处接收源质。可从附近的罐子或源质析出装置中收集源质。",
     "",
-    "To select a recipe, insert the desired input item, and click on the desired output to bind the Thaumatorium to that recipe. If the input item is present, essentia will be automatically drained and the recipe output will be dropped in world in front of the crucible. Any item collector can be used to collect outputs.",
+    "要选择配方，先放入所需物品，然后点击输出物以将神秘炼金塔与该配方绑定。输入所需物品，将自动抽取源质并将产物在坩埚前方（之前使用世界盐的方向）丢出。使用物品收集器来收集产物。",
     "",
-    "By default, the Thaumatorium can only perform one recipe, but if you place a Mnemonic Matrix on one of its sides, you will be able to set two additional recipes."
+    "默认状态下，神秘炼金塔只能记录一个配方，可通过在其侧面放置记忆矩阵来增加配方数量，最多可额外增加两个配方。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -2962,41 +2962,41 @@ mods.jei.JEI.addDescription([
     <thaumadditions:adaminite_smelter>,
     <thaumadditions:mithminite_smelter>],
 [
-    "Smelteries are used to make essentia out of items. To see what essentia a given item will produce, you can check the JEI tab for essentia, or press shift while hovering over an item in JEI.",
+    "冶炼厂可使用物品产出源质。可在JEI中查看物品所产出的源质，或将鼠标悬停在物品上方按住Shift查看。",
     "",
-    "A smeltery works like a furnace in that it needs fuel, which can be inserted from the bottom, to function.",
+    "冶炼厂与熔炉类似，同样需要燃料，燃料可从底部输入。",
     "",
-    "To function properly, a smeltery needs at least one Arcane Alembic placed on top. If an Alembic is not present, all that is smelted will be turned into flux.",
+    "冶炼厂上方需要放置只要一个蒸馏器才能正常工作。如果没有蒸馏器，所有产出的源质都将变为咒波。",
     "",
-    "When an item with essentia is smelted, it will be turned into an essentia slurry, shown as a purple bar on the left of the smeltery interface. If an Alembic is present, the slurry will be transferred as essentia to the Alembic.",
+    "包含源质的物品被烧炼后，会变为源质粘浆，显示在冶炼厂界面左侧的紫色条中。若存在蒸馏器，粘浆会在蒸馏器中被转化为源质。",
     "",
-    "Essentia can be collected from the Alembic using Phials, or you can place a Filling Essentia Transfuser to automatically push essentia to nearby jars.",
+    "可使用安瓿从蒸馏器中收集源质，或放置源质析出装置来自动将源质输入到附近罐子中。",
     "",
-    "All operations done by the smeltery will produce a bit of flux, so be careful! Mithrillium tier and above will not make any flux!"
+    "冶炼厂每完成一次操作都会产生少量咒波，所以要小心！秘银及以上等级的冶炼厂不会产出咒波！"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:sanity_soap>],
 [
-    "To unlock this, you will need to have completed the following research steps.",
+    "要解锁该物品，需完成以下研究步骤。",
     "",
-    "1. Fundamentals: First Steps > Discovering Alchemy",
+    "1. 基础学：最初的摸索 > 发现：炼金术",
     "",
-    "2. Alchemy: Basic Alchemy > Hedge Alchemy",
+    "2. 炼金术：基础炼金术 > 炼金杂项",
     "",
-    "3. Gain warp until you get the message 'Surely there must be a way to stop these headaches?', exploring Abyssalcraft worlds is a good way to get there",
+    "3. 获取扭曲，直到得到信息'肯定有什么办法可以遏制这些头疼事！（Surely there must be a way to stop these headaches?）'，探索深渊国度维度是获取扭曲的不错选择",
     "",
-    "4. Alchemy: Purifying Bath Salts > Sanity Soap"
+    "4. 炼金术：净化浴盐 > 祛邪肥皂"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumicenergistics:infusion_provider>],
 [
-    "The Essentia Infusion Provider works like an extension of your essentia storage that lets you interact directly with Thaumcraft machines.",
+    "注魔供应器就像是AE源质存储网络的延伸，可直接与神秘时代的机械交互。",
     "",
-    "If the provider is near your infusion setup, it will automatically collect essentia from your network.",
+    "如果放置在注魔祭坛附近，供应器会自动从网络中收集源质。",
     "",
-    "The same applies to Emptying Essentia Transfusers. This can be used for fully-automated setups for machines like the Thaumatorium."
+    "同样也适用于源质注入装置。可利用该特点使例如神秘炼金塔得机械实现完全自动化。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3004,23 +3004,23 @@ mods.jei.JEI.addDescription([
     <thaumcraft:void_seed>,
     <thaumcraft:causality_collapser>],
 [
-    "The Void Siphon is used to obtain Void Seeds from a flux rift. You can also use Causality Collapsers but they are not as reliable.",
+    "虚空吸管可从咒波裂隙中获得虚空种子。也可使用悖论物质获得种子，但是不怎么可靠。",
     "",
-    "To make a flux rift, you need high levels of flux in a chunk. The best way of doing this is to go FAR FAR away from your base or to another dimension and to drop a lot of Compressed Cobblestone into a Crucible.",
+    "要生成咒波裂隙，需要一个有高咒波值的区块。在远离基地的地方或者直接前往其他维度，向坩埚中丢入大量压缩圆石来达成要求。",
     "",
-    "Place the Siphon near the rift, and it will slowly suck it and drop Void Seeds nearby. You can collect those with an item collector of some sort.",
+    "在裂隙附近放置虚空吸管，它会缓慢汲取虚空之力，在附近掉落虚空种子。使用物品收集器等方法收集种子。",
     "",
-    "If you want to use the Collapser, throw it like a snowball at the rift and it will explode on contact. If the explosion hits the rift, the rift will close and drop a random number of Void Seeds.",
+    "若想使用悖论物质，将其想雪球一样丢向裂隙，接触方块时产生爆炸。若爆炸范围内存在裂隙，裂隙将闭合并掉落随机数量的虚空种子。",
     "",
-    "After making an initial batch, the Void Seedling can be used to safely automate Void Seeds."
+    "获取最初一批虚空种子之后，可使用虚空芽自动化安全获得虚空种子。"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumicaugmentation:rift_seed>],
 [
-    "Flux seeds are used to make rifts at your own will.",
+    "咒波种子可用来生成咒波裂隙。",
     "",
-    "To grow the seed, perform infusion by placing any number of Void Seeds around the Flux Seed."
+    "要使种子生长，在注魔祭坛的外环基座上放置任意数量的虚空种子对咒波种子进行注魔合成。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3029,22 +3029,22 @@ mods.jei.JEI.addDescription([
     <thaumicaugmentation:gauntlet:0>,
     <thaumicaugmentation:gauntlet:1>],
 [
-    "To enter the Emptiness, you need to use the Fracture Locator to find Fractures. The Nether roof is a good place to look for them. The Locator will glow if you are near a Fracture.",
+    "要进入虚域，需要使用裂隙定位器寻找裂隙。下界天花板是寻找裂隙的好地方。靠近裂隙时，定位器会发光。",
     "",
-    "To open the Fracture, you need to use a fully charged Thaumium or Voidseer Caster's Gauntlet augmented with the Impetus Conductor. To charge the augmented Gauntlet, stand near a flux rift and it will slowly consume it.",
+    "要打开裂隙，需要使用安装有元动能量电池的满充能神秘或虚空预言者法师护手。靠近咒波裂隙吸收其能量来为护手充能。",
     "",
-    "Once the Gauntlet is charged, you can right click a Fracture to open it!"
+    "护手充能完毕之后，右击裂隙将其打开！"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:condenser>,
     <thaumcraft:condenser_lattice>],
 [
-    "The Flux Condenser is a fast but unreliable way of removing flux.",
+    "咒波凝结器可快速移除咒波，但是不够稳定。",
     "",
-    "A set of lattices should be placed above the Flux Condenser. Lattices have a chance of clogging, if that happens you should break and replace them.",
+    "咒波凝结器上应放置格栅。格栅有概率堵塞，若格栅堵塞，需要破坏并重新放置。",
     "",
-    "This block consumes Herba essentia to function, and it produces Vitium essentia. You should have essentia pipes to input and output the two."
+    "该方块需消耗Herba源质才能工作，并且会产出Vitium源质。使用源质管道来输入输出这两种源质。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3055,81 +3055,81 @@ mods.jei.JEI.addDescription([
     <thaumicaugmentation:rift_seed>,
     <thaumicaugmentation:material:3>],
 [
-    "Impetus is an energy system based around flux rifts.",
+    "元动能量是一种基于咒波裂隙的能量系统。",
     "",
-    "To generate Impetus, you need to place an Impetus drainer near a flux rift. It will slowly drain the rift, and make Impetus!",
+    "要生成元动能量。需要在咒波裂隙附近放置元动汲取仪。它会缓慢汲取裂隙能量。生成元动能量！",
     "",
-    "To transfer Impetus, you need an Impetus Resonator and Impetus Relays. The Relays are like cables used to transfer this energy, and the Resonator is like a wrench. To connect two Impetus blocks to each other, shift right click the starting block, and right click the destination block. If this is done correctly, a visual effect will start connecting the two blocks.",
+    "要传输元动能量，需要使用元动谐振器和元动中继器。中继器类似传输能量的线缆，谐振器就像是个扳手。使用谐振器Shift右击起始方块，然后右击目标方块，从而在两个元动能量方块之间建立连接。连接成功后，两个方块之间会有连接的视觉效果。",
     "",
-    "To store Impetus, you need an Impetus Matrix, which behaves like a battery. To make one, assemble a structure with a Runic Matrix and two Eldritch Pedestals (see JEI preview). Right click the Matrix with Salis Mundus, and use eight Impetus Cells on the pedestals, one on each side. This battery is liked using the Impetus Resonator."
+    "使用元动矩阵来存储元动能量，其行为和电池类似。将符文矩阵与两个邪术基座组合来构成元动矩阵（查看JEI的预览）。使用世界盐右击矩阵，然后对基座使用元动能量单元，基座每个侧面都可安装1个单元，造多安装8个。使用元动谐振器来连接元动矩阵与其他设备。"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumicaugmentation:arcane_terraformer>],
 [
-    "The Arcane Terraformer is a powerful block that lets you transform the biomes of individual blocks. It is used as a part of puzzles and rituals.",
+    "奥术群系转换仪的功能十分强大，它可以改变单个方块的生物群系。在本包中作为解谜和仪式的一环。",
     "",
-    "To power the Arcane Terraformer you need aura, Impetus, and essentia in the form of Ignis, Aer, Aqua, Terra, and Permutatio. To see a setup for inputting all of these resources, read the info box on Impetus, and check the multiblock preview for the Arcane Terraformer. Permuatatio is input at the bottom, and the other essentia aspects are input from the sides of the corresponding colors. The Impetus can be obtained directly from a Drainer, but it is a good idea to use Relays to check your system. The Impetus Matrix is not needed, and it may overcomplicate things.",
+    "奥术群系转换仪需要用灵气、元动能量，以及源质形式的Ignis、、Aer、Aqua、Terra以及Permutatio。阅读元动能量的JEI信息框，并查看奥术群系转换仪的多方块预览，来了解如何输入所有这些资源。Permuatatio可从底部输入，其他源质可从对应颜色的侧面输入。元动能量可通过元动汲取仪直接获得，但最好使用元动中继器来检查元动能量系统。并不需要元动矩阵，它可能会让事情变的过于复杂。",
     "",
-    "Once your connections have been setup, place the Biome Focus in the Arcane Terraformer and select the shape and size of the biome you want to create. For some of the puzzles in the pack you will need to change single blocks, defined as a circle of radius one (do not do square of radius one).",
+    "设置后连接后，在奥术群系转换仪中放入群系核心，选择想要创建的群系半径和形状。本包中的某些解谜要求改变单个方块的群系，可使用半径为1的圆形形状（不要选择方形）实现。",
     "",
-    "To start changing the biome, right click the center of the Terraformer with an upgraded Thaumium or Voidseer Caster's Gauntlet. A particle effect will show up if you have done this correctly.",
+    "使用升级过的神秘或虚空预言者法师护手右击转换仪中心来开始转换。操作正确时会出现粒子效果。",
     "",
-    "Because of a bug with the mod, it's possible that nothing will happen after the particle effect shows up. If that happens relogging generally fixes things and it will update the biome."
+    "由于该模组的一个bug，粒子效果出现后可能什么都不会发生。在这种情况下，重新登陆通常可以解决问题，群系将正常更新。"
 ]);
 
 mods.jei.JEI.addDescription([
     <botania:alfheimportal>],
 [
-    "Construct a 5x5 portal of Livingwood (no corners), with the Elven Gateway Core at the middle of the bottom, and the Glimmering Livingwood in the middle of the other three sides.",
+    "使用活木建造一个5x5的传送门框架（不包括四角），其中底部中心为精灵门核心，其他三边中心为微光活木。",
     "",
-    "Place two Mana Pools with Natura Pylons on top within three blocks of the Gateway Core, at the same y level. That will be the mana buffer for the gateway. If the pools don't have enough mana, the portal will close!",
+    "在精灵门核心三格范围内，水平放置两个魔力池，其上放置自然水晶。这两个魔力池即为精灵门的魔力缓存。若魔力池中没有足够魔力，精灵门将关闭！",
     "",
-    "To start the portal, right click the core with the Wand of the Forest. You will need a lot of mana to open the portal.",
+    "使用森林法杖右击核心来激活精灵门。开启精灵门需要消耗巨量魔力。",
     "",
-    "Throw items into the portal to craft. This will consume a small amount of mana.",
+    "向精灵门丢出物品进行合成。会消耗少量魔力。",
     "",
-    "Be careful, throwing other items that do not have recipes will delete them!"
+    "小心，没有配方的物品将会被直接删除！"
 ]);
 
 mods.jei.JEI.addDescription([
     <ore:bewitchmentAltar>],
 [
-    "The Witches Altar is how you generate magical energy (ME) in bewitchment!",
+    "在巫师之路模组中，需要使用女巫祭坛来产生魔力（ME）！",
     "",
-    "The structure for the Altar is a 3x2 table, and it can be made by any type of Altar. Right click the structure with a vanilla carpet to form the Altar!",
+    "祭坛结构是一个3x2的桌子，可以用任意种类祭坛方块组成。使用原版地毯右击来使祭坛成型！",
     "",
-    "The Altar generates energy passively. Right clicking the Altar with an empty hand will tell you the available energy, as well as the maximum energy for the altar. Most mechanics in Bewitchment use ME to run!",
+    "祭坛会被动产生魔力。空手右击祭坛会显示可用魔力及最大魔力。巫师之路的许多机制都需要魔力来运行！",
     "",
-    "The amount of diverse nature (crops, trees, flowers) will set the maximum ME. The more different plants you have, the higher the maximum energy in the Altar!",
+    "自然方块（作物、树、花）的种类关乎魔力上限。祭坛周围的植物种类越多，魔力上限越高！",
     "",
-    "You can place statues around the Altar, or particular artifacts on the Altar to add multipliers to ME rate and amount. These will show up when searching 'witches altar' in JEI."
+    "可以通过祭坛周围放置雕像，或在祭坛上摆放物品，来为ME上限和回复速度提供加成。在JEI中搜索'女巫祭坛'来显示相关物品。"
 ]);
 
 mods.jei.JEI.addDescription([
     <bewitchment:witches_cauldron>],
 [
-    "Place on top of fire, lava, or a magma block, and near a Witches Altar.",
+    "放置在火、熔岩或岩浆块上方，靠近女巫祭坛。",
     "",
-    "To start every recipe in the Cauldron, place a water bucket inside. If the water stays in the cauldron too long, it will evaporate!",
+    "釜锅的所有配方都需要水。釜锅中的水若放置时间过长，会被蒸发！",
     "",
-    "JEI will show the required ingredients for recipes and brews! ",
+    "JEI中显示了配方和酿造所需的材料！",
     "",
-    "To craft using the Cauldron, drop in the required items after the water starts boiling! If a recipe was done correctly, the output will pop out automatically! Make sure you drop each ingredient quickly, otherwise the recipe won't complete.",
+    "待水烧滚之后，向釜锅中丢入物品来开始合成！若配方正确，产物将自动从中弹出！确保丢入原料的速度够快，否则配方不会完成。",
     "",
-    "To make brews, drop a Mandrake Root, and drop a combination of the desired brew items (JEI will show). Right click the cauldron with empty bottles to collect the potions!"
+    "要酿造药剂，先丢入曼陀罗根，接着丢入药剂所需的物品组合（JEI中有显示）。使用玻璃瓶右击釜锅来收集药剂！"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:full_essentia_automation>],
 [
-    "To fully farm essentia crystals, the recommended way is to use Vis Seeds, Phytogenic Insolators, Essentia Crystallizers, and Deep Mob Evolution. You should have an Insolator for each seed, with a steady supply of Raw Ironwood Materials from Swamp Creature Data Models.",
-    "Depending on your Insolator speed, you will need multiple Essentia Crystallizers. For a setup at base speed, 7 or 8 Crystallizers can process all pods.",
+    "要完全自动化魔力水晶碎片，推荐使用魔力种子、有机灌注器、源质结晶器以及深度怪物学习。为每种种子准备一台有机灌注器，使用沼泽生物数据模型获得稳定的生铁树原料供应。",
+    "取决于有机灌注器速度，可能会需要多个源质结晶器。对于基础速度的灌注器，7到8台结晶器可以处理所有豆荚。",
     "",
-    "To produce essentia, Mithrillium tier and above Essentia Smelteries can be used to passively make it from crystals. These are recommended because they do not make flux.",
-    "Some sort of redstone control is recommended for this setup to avoid essentia buildups. This can be done using comparators on jars that are hooked up to your automation system, and setting the smelteries to only run if essentia is below a certain threshold.",
+    "使用秘银或更高等级的冶炼厂来从魔力水晶碎片中被动产出源质。该等级的冶炼厂不会产出咒波。",
+    "推荐使用红石控制以上产线，以避免源质溢出。通过对罐子使用比较器，来实现对自动化系统源质储量的监控，如此可将冶炼厂设置为仅当源质低于特定阈值时运行。",
     "",
-    "The Mechanized Essentia Smeltery can also be used to make essentia out of the crystals. This multiblock does not require a redstone contraption, as it will stop once its essentia output hatch gets full."
+    "机械源质冶炼厂也可通过魔力水晶碎片生成源质。该多方块不需要红石控制，因为在源质输出仓满时会自动停止。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3138,13 +3138,13 @@ mods.jei.JEI.addDescription([
     <draconicevolution:energy_pylon>,
     <draconicevolution:particle_generator:2>],
 [
-    "The Draconic Energy Orb is a very large and versatile energy storage option. You shoudl definitely make one!",
+    "神龙能量核心的占地和能量储量都十分巨大。你真应该做一个！",
     "",
-    "To start, place down an Energy Core. You can right click it to select the desired tier, and to turn on a build guide. All tiers but the final one use Redstone and Draconium blocks. The final tier uses Awakened Draconium. To assemble the orb, either follow the building guide or use the automatic building in the GUI.",
+    "首先，放置能量核心。右击核心选择尺寸，然后打开建筑指导。除了最高等级，其他等级均使用红石块和龙块。最高等级会使用觉醒龙块。遵循建筑指导手动建造，或选择组装核心进行自动建造。",
     "",
-    "After building the central sphere, Energy Core Stabilizers must be placed around it, within 16 blocks of the center. Tiers 1,2,3,4 require 4 Stabilizers, one on each side. All other tiers use 36, 9 on each side in 3x3 squares. If formed correcly, they will change textures.",
+    "上述结构建造好后，在四周放置能量核心稳定器，距中心16格范围内。1到4级需要4个稳定器，每个侧面一个。更高等级需要36个稳定器，每个侧面9个，按3x3放置。若放置正确，稳定器纹理会发生改变。",
     "",
-    "Finally, to input and output energy, place Energy Pylons within 16 blocks of the core, and place Glass on top (below) them if the Pylons are below (above) the level of the energy core. If formed correctly, the glass will turn into a sphere. Right click the sphere with an empty hand to switch the pylon between input and output mode."
+    "最后，在核心16格范围内放置能量塔，能量塔的上（下）方需放置一块玻璃，若比核心高/低则玻璃需要放在能量塔下/上方，从而实现能量交互。若放置正确，玻璃将变为一个球体。空手右击球体来切换能量塔的输入输出模式。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3153,17 +3153,17 @@ mods.jei.JEI.addDescription([
     <nuclearcraft:fission_port>,
     <contenttweaker:nuclearcraft_fission_interior>],
 [
-    "The Fission Reactor is a multiblock that is both used to process fuels to obtain new resources, and to make energy.",
+    "裂变反应堆多方块结构可将燃料处理为新资源，同时还可产出能量。",
     "",
-    "The exterior of the reactor is made out of Fission Casings, a Controller, and at least one Port (can replace any fission casing on the sides). The multiblock preview shows an example exterior for a 5x5x5 interior design.",
+    "反应堆外层由若干裂变反应堆外壳、一个裂变控制器，以及至少一个裂变堆端口（替换侧面任意裂变反应堆外壳）构成。多方块预览展示的是一个5x5x5裂变堆的外层设计示例。",
     "",
-    "Depending on your fuel, you will need different interior designs. The interiors are made out of reactor cells, to process fuel while making heat, coolers of various types, to compensate the heat of the fuel, and moderators, to boost fuel efficiency while making more heat. Each of these blocks can only function if it follows certain requirements, listed on the block tooltips. If a reactor's heat is too high, it will melt down and make lots of radiation and turn into Corium.",
+    "根据使用的燃料，需设计不同的内部结构。反应堆内部由用于处理燃料的反应堆单元、用于降低热量的不同种类冷却器，以及产生更多热量同时提升燃料效率的减速剂构成。每种方块仅可在特定条件下工作，显示于物品信息框中。若热量过高，反应堆将融解，产生大量辐射并生成堆芯熔融物。",
     "",
-    "For each fuel, autobuildable multiblock structures are available. Check the crafting recipes for each fission fuel in the energy sources tab!",
+    "每种燃料都有可自动建造的多方块结构。查看能量源章节中每种裂变燃料的配方！",
     "",
-    "These designs are all 5x5x5, which should be enough for your fission needs. All designs available were made using the leu-235.com calculator. Use that website if you want to make reactors of different sizes.",
+    "所有设计都是5x5x5的，应该能满足裂变需求。所有可用设计均使用了leu-235.com中的计算器。如果想自己设计不同尺寸的反应堆，请使用该网站。",
     "",
-    "For some fuels, there are both actively and passively cooled builds. The actively cooled ones will be faster and more efficient, but will consume cryotheum to run."
+    "对于某些燃料，提供了主动式和被动式冷却两种建造方案。主动式冷却更快，效率更高，但是需要消耗极寒之凛冰。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3171,41 +3171,41 @@ mods.jei.JEI.addDescription([
     <nuclearcraft:active_cooler>,
     <contenttweaker:active_cryotheum_cooler>],
 [
-    "The Active Cooler is a better version of the associated Passive Coolers for Fission Reactors, but it requires a fluid to run.",
+    "液冷器是裂变反应堆相关冷却器的更好版本，但是要消耗流体才能运行。",
     "",
-    "To pump the fluid inside the reactor structure, replace a Reactor Casing with a Buffer. All Active Coolers touching the Buffer, directly or indirectly, will receive the fluid. See the multiblock preview for an example on how this can be done.",
+    "用缓存器替换反应堆外壳来向反应堆内部输入流体。所有直接或间接接触缓存器的液冷器都会接收到输入的流体。在多方块预览中查看其工作示例。",
     "",
-    "Active coolers can receive any fluid that is used to craft passive (normal) coolers, and will follow the same requirements.",
+    "液冷器可接收任何用于制作被动（也就是普通）冷却器的流体，工作条件也相同。",
     "",
-    "All autobuildable designs suggested will use Gelid Cryotheum.",
+    "所有可自动建造的设计均使用极寒之凛冰。",
     "",
-    "Active coolers are also used in Fusion Reactors, check the Fusion Electromagnet multiblock preview and explanation for more info."
+    "液冷器也可用于聚变反应堆，查看电磁体的多方块预览与信息框以获得更多信息。"
 ]);
 
 mods.jei.JEI.addDescription([
     <nuclearcraft:fusion_electromagnet_idle>,
     <nuclearcraft:fusion_electromagnet_transparent_idle>],
 [
-    "To operate safely, and prevent meltdowns, Fusion Electromagnets need cooling and energy.",
+    "电磁体需要冷却和能量以安全运行，避免融解。",
     "",
-    "To provide energy, connect energy cables with high transfer rate to the Electromagnets. If properly powered, sections of connected Electromagnets will turn from red to green.",
-    "To operate safely, you will need multiple connections! One every 7 blocks should be good.",
+    "使用高能量传输速率的线缆与电磁体连接来提供能量。若正确供能，所连接的电磁体将从红色变为绿色。",
+    "提供多个能量连接以确保安全！每7个方块可以搭配1个能量输入。",
     "",
-    "To provide cooling, you will need to use Active Coolers filled with water (infinite water sources are recommended).",
-    "Cooling has to be added after the reactor starts making energy (optional while it's heating up). You want to make sure cooling is at 100%, no more, no less!"
+    "使用装填水（推荐使用无限水）的液冷器来提供冷却。",
+    "在反应堆开始产出能量时，必须进行冷却（加热时也可选择进行）。确保冷却效率在100%，不能多也不能少！"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <genetics:lab_machine:4>],
 [
-    "The acclimatiser lets you incerase the temperature and humidity tolerance of your bees.",
+    "适应性调整器可以增加蜜蜂的温度和湿度耐性。",
     "",
-    "Combine with the following items for the following effects:",
-    "Blaze powder or Lava = higher temperature",
-    "Ice or snowball = lower temperature",
-    "Water = higher humidity",
-    "Sand = lower humidity"
+    "使用以下物品组合来获得对应效果：",
+    "烈焰棒或熔岩 = 更高温度",
+    "冰或雪球 = 更低温度",
+    "水 = 更高湿度",
+    "沙子 = 更低湿度"
 
 ]);
 
@@ -3215,84 +3215,84 @@ mods.jei.JEI.addDescription([
     <bewitchment:fiery_chalk>,
     <bewitchment:phasing_chalk>],
 [
-    "Chalk is used to draw rituals to produce special effects, summon mobs, or obtain items.",
+    "粉笔用于绘制仪式，来造成特殊效果、召唤生物或获得物品。",
     "",
-    "Rituals require an active altar nearby to function.",
+    "仪式需要附近有激活的祭坛以运行。",
     "",
-    "Right click the ground with chalk to draw runes.",
+    "使用粉笔对底面右击来绘制符文。",
     "",
-    "If a ritual requires items, right click them on the center rune!",
+    "若仪式需要物品，使用所需物品对中心符文右击！",
     "",
-    "There are three tiers of rituals, corresponding to the three colors of chalk!",
+    "总共有三种等级的仪式，对应三种颜色的粉笔！",
     "",
-    "The middle chalk is always yellow! Right click it to start the ritual!"
+    "所有仪式的核心符文均为黄色！右击中心符文来启动仪式！"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <bewitchment:boline>],
 [
-    "Check uses for the boline to see a preview for the Rite of Shifting Seasons circle setup.",
+    "检查伯莱恩新月小刀的用途，以查看沧海桑田仪式的仪式圈布局。",
     "",
-    "This circle requires a boline that has been set to a specific biome. Right click one to bind it to the biome you are in. See a special recipe to craft a Stormland boline, which will be required at some point."
+    "该仪式圈需要设置于特定群系的伯莱恩新月小刀。使用小刀右击与所在群系绑定。风暴之地（Stormland）群系有特殊的配方，之后某个节点会用得到。"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <astralsorcery:blockattunementaltar>],
 [
-    "This altar is part of a multiblock structure.",
+    "该祭坛是多方块结构的一部分。",
     "",
-    "Right click with a sextant to see a multiblock preview!",
+    "使用六分仪右击查看多方块预览！Right click with a sextant to see a multiblock preview!",
     "",
-    "Holding a constellation paper in off-hand while looking at a fully built attunement structure will produce particle effects on specific blocks.",
+    "副手手持星图看向建造完成的共鸣祭坛结构，特定的方块上会有粒子效果。",
     "",
-    "Place spectral relays to for the constellation shape on the spots indicated by the particles. New visuals will show up if the relays are placed properly, and if the constellation is in the sky.",
+    "在粒子效果指示的方块上放置星辉转继器来构成星座形状。若转继器放置正确且对应的星座在天空中，会出现新的视觉效果。",
     "",
-    "The attunement altar can attune players (you stand in it) or crystals (put them on the altar).",
+    "共鸣祭坛可使玩家（站在中心）或水晶石（放入祭坛）与星座共鸣。",
     "",
-    "Each attuned crystal can produce an effect if used in a ritual altar."
+    "将共鸣水晶石放入仪式祭坛会产生不同效果。"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <astralsorcery:blockcelestialcollectorcrystal>],
 [
-    "Collector crystals are used in a variety of applications.",
+    "聚能水晶有多种用途。",
     "",
-    "They can be linked to an altar to boost starlight levels.",
+    "可与祭坛链接以增加星能水平。",
     "",
-    "They can be linked to a ritual using the same attunement to boost the effect of the altar.",
+    "可与祭坛链接，以增加与共鸣星座相同的仪式效果。",
     "",
-    "By building a structure around the crystal (see preview) it can be used to increase its boosting effect further."
+    "通过在聚能水晶周围建造多方块结构（查看预览），增幅效果还可进一步提升。"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:buffing_astral_ritual>],
 [
-    "Rituals can be boosted to have increased range and effects!",
+    "仪式可被增强，以增加范围和效果！",
     "",
-    "To boost a ritual, place a collector crystal with the same attunement as the ritual nearby, and link it to the altar using a linking tool. ",
+    "要增强仪式，在附近放置共鸣星座与仪式星座相同的聚能水晶，使用链接工具将其与祭坛链接。",
     "",
-    "The better the crystal, the better the boost.",
+    "水晶属性越强，增强效果越强。",
     "",
-    "The effect of the collector crystal is maximized if a multiblock is built around it. Right click the crystal with a sextant to obtain a preview of the multiblock.",
+    "在聚能水晶周围建造多方块结构后，其效果会最大化。使用六分仪右击聚能水晶以查看多方块预览。",
     "",
-    "To increase the ritual effects even more, you should add lenses around the ritual.",
+    "要进一步增强仪式效果，可在仪式周围放置透镜。",
     "",
-    "A light beam coming out of the altar will tell you where to place the lens. After it's placed, use the linking tool to point it back at the crystal. This will tell you where to place the next lens.",
+    "祭坛中发出的光束会指示在何处放置透镜。使用链接工具棱镜与水晶链接。接着祭坛会再次发出光束指示在何处放置下一个透镜。",
     "",
-    "The better the lens, the better the boost.",
+    "透镜属性越强，增强效果越强。",
     "",
-    "If a ritual is fully boosted (maxed crystals and maximum number of fully maxed lenses), it will produce a special particle effect."
+    "完全增强（满属性水晶和最大数量的满属性透镜）的仪式会产生特殊粒子效果。"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <xnet:controller>],
 [
-    "Every Xnet system requires a controller, a connector for each inventory you want to interact with, and network cables to connect them.",
+    "每个Xnet系统都需要一个控制器， system requires a controller, a connector for each inventory you want to interact with, and network cables to connect them.",
     "",
     "The controller requires power, which should come from an external source (flux point my beloved). Do not power your Xnet controller with an Xnet connector, it will cause lag.",
     "",
@@ -4465,13 +4465,13 @@ mods.jei.JEI.addDescription([
     <thebetweenlands:aspect_vial:*>,
     <thebetweenlands:dentrothyst_vial:*>],
 [
-    "The mortar and pestle can be used to produce a variety of ground items. Their properties are different from every player. You can test their effects on a gecko that has been put in a cage using a net. ",
+    "研磨器与石杵可用于制作多种磨碎的物品。每个玩家存档中物品含有的要素都各不相同。可以使用壁虎笼子来测试磨碎物品的效果。",
     "",
-    "To make armaniis, you should use the ground powder that makes the gecko feel calm, and look at you with loving eyes.",
+    "要制作Armaniis，使用能让壁虎镇静下来，用可爱的眼神看着你的磨碎物品。",
     "",
-    "To make a potion out of the right ground item, fill the infuser with swamp water from a weedwood or syrmorite bucket, add the right ingredients, and stir (right click with empty hand) for a couple of minutes. ",
+    "要使用正确的磨碎物品来酿造药水，用杂草木或赛摩桶给炼药器加满沼泽水，放入正确的原料，然后搅拌（空手右击）数分钟。",
     "",
-    "If the ingredient is correct, the liquid in the infuser will become darker. Once it's done, use a weedwood or syrmorite bucket to trasfer it to an alembic (shift right click). Use a dentrothyst vial to collect the aspect from the alembic."
+    "若原料正确，炼药器内流体的颜色将变深。酿造成功后，使用杂草木或赛摩桶将流体放入蒸馏器中（Shift右击）。使用木晶药瓶从蒸馏器中收集要素。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -4479,9 +4479,9 @@ mods.jei.JEI.addDescription([
     <enderstorage:ender_storage:1>,
     <enderstorage:ender_pouch>],
 [
-    "The Ender Chest and Ender Tank are wireless item and fluid tranfer options.",
+    "末影箱子和末影蓄水槽可无线传输物品和流体。",
     "",
-    "These blocks can be set to a given frequency by coloring the three slots located on top of the blocks using dyes. Tanks and chests with the same color frequency are linked to each other, and share the same inventory.",
+    "这些方块可使用染料染色顶部颜色槽来设置为不同频率。颜色频率相同的箱子和蓄水槽之间互相连接，共享物品栏/流体存储。",
     "",
-    "The Ender Pouch can be directly linked to an Ender Chest frequency by shift-clicking it. You will be able to access that inventory without having to open the chest."
+    "末影袋子可通过Shift右击末影箱子来与其连接。可通过袋子直接访问物品栏，而无需打开箱子。"
 ]);

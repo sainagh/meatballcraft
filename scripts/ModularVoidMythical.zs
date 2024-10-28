@@ -2439,8 +2439,8 @@ true,
 <extendedcrafting:singularity:1>, 
 [<draconicevolution:chaos_shard:1>,<contenttweaker:eden_refined_gem>,<draconicevolution:chaos_shard:1>,<contenttweaker:wildwood_refined_gem>,
 <draconicevolution:chaos_shard:1>,<contenttweaker:apalachia_refined_gem>,<draconicevolution:chaos_shard:1>,<contenttweaker:skythern_refined_gem>]);
-game.setLocalization("ac.ritual.VetheaWhiteInfusion", "Vethea Negative Body Infusion"); 
-game.setLocalization("ac.ritual.VetheaWhiteInfusion.desc", "Bring a body with negative mass into existance through eldritch infusion!");
+game.setLocalization("ac.ritual.VetheaWhiteInfusion", "梦魇负性物体灌注仪式"); 
+game.setLocalization("ac.ritual.VetheaWhiteInfusion.desc", "通过邪术灌注，将负质量物体变为现实！");
 
 val edendragonref = RecipeBuilder.newBuilder("edendragonref","dragonfire_crucible",100);
 edendragonref.addFluidInput(<fluid:twilight_fire>*1000);
@@ -2697,8 +2697,8 @@ true,
 <contenttweaker:perfected_gem_of_the_cosmos>, 
 [<draconicevolution:chaos_shard:0>,<divinerpg:mortum_block>,<divinerpg:arksiane_claw>,<divinerpg:mortum_block>,
 <divinerpg:arksiane_claw>,<divinerpg:mortum_block>,<draconicevolution:chaos_shard:0>,<divinerpg:mortum_block>]);
-game.setLocalization("ac.ritual.DynatosArtifactInf", "Black Holes FTW"); 
-game.setLocalization("ac.ritual.DynatosArtifactInf.desc", "I can finally visit a black hole, a REAL one!");
+game.setLocalization("ac.ritual.DynatosArtifactInf", "黑洞太强辣"); 
+game.setLocalization("ac.ritual.DynatosArtifactInf.desc", "终于可以亲眼见到真正的黑洞了！");
 
 
 recipes.addShaped(<avaritia:resource:5>,

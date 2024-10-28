@@ -4124,7 +4124,7 @@ claimofworthiness.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon mod_lavacow:boneworm ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_paper\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f,CustomName:\"肉丸人的守门人\"}", player, world, true, true);
+    Commands.call("summon mod_lavacow:boneworm ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_paper\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f,CustomName:\"肉丸人的守门者\"}", player, world, true, true);
     stack.shrink(1);
     return "PASS";
 

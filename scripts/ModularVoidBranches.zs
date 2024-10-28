@@ -87,7 +87,7 @@ true,
 [<aoa3:dense_rock>,<aoa3:dense_rock>,<aoa3:dense_rock>,<aoa3:dense_rock>,
 <abyssalcraft:stone:6>,<abyssalcraft:stone:6>,<abyssalcraft:stone:6>,<abyssalcraft:stone:6>]);
 game.setLocalization("ac.ritual.MakeTartariteInf", "Tartar"); 
-game.setLocalization("ac.ritual.MakeTartariteInf.desc", "Tartarite!");
+game.setLocalization("ac.ritual.MakeTartariteInf.desc", "魂石！");
 
 
 

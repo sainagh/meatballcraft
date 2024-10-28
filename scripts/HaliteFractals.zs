@@ -258,8 +258,8 @@ true,
 <contenttweaker:cursed_sapphire>, 
 [<contenttweaker:pulsating_fluix>,<extendedcrafting:singularity_custom:994>,<contenttweaker:pulsating_fluix>,<extendedcrafting:singularity_custom:994>,
 <contenttweaker:pulsating_fluix>,<extendedcrafting:singularity_custom:994>,<contenttweaker:pulsating_fluix>,<extendedcrafting:singularity_custom:994>]);
-game.setLocalization("ac.ritual.oblivionairecallstone", "into oblivion"); 
-game.setLocalization("ac.ritual.oblivionairecallstone.desc", "oblivionaire");
+game.setLocalization("ac.ritual.oblivionairecallstone", "湮没无闻"); 
+game.setLocalization("ac.ritual.oblivionairecallstone.desc", "遗忘者");
 
 recipes.addShaped(<contenttweaker:oblivionaire_callstone>,
 [[<contenttweaker:oblivion_catalyzer>, <abyssalcraft:odb>, <contenttweaker:oblivion_catalyzer>],
@@ -408,8 +408,8 @@ true,
 <abyssalcraft:gatewaykeyjzh>, 
 [<aoa3:staring_eye>,<contenttweaker:abyssal_flesh>,<aoa3:staring_eye>,<contenttweaker:abyssal_flesh>,
 <aoa3:staring_eye>,<contenttweaker:abyssal_flesh>,<aoa3:staring_eye>,<contenttweaker:abyssal_flesh>]);
-game.setLocalization("ac.ritual.shadowlordsupcallstone", "The Lord of Shadows"); 
-game.setLocalization("ac.ritual.shadowlordsupcallstone.desc", "Domains of the flesh");
+game.setLocalization("ac.ritual.shadowlordsupcallstone", "阴影之主"); 
+game.setLocalization("ac.ritual.shadowlordsupcallstone.desc", "支配血肉");
 
 recipes.addShapeless(<abyssalcraft:shoggothflesh:0>,
 [<contenttweaker:eye_of_flesh_manipulation>.reuse(),
