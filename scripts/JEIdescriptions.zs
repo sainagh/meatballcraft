@@ -2633,7 +2633,7 @@ mods.jei.JEI.addDescription([<bigreactors:turbinecontroller>, <bigreactors:turbi
     "",
     "There are multiple multiblock previews to show how each component works! Turbines can be made nearly any size. Right click the Controller with an empty hand to check if a given turbine structure is valid.",
     "",
-    "You can search 'turbine coil' in JEI for a list of the available coolers. Ludicrite blocks are the best!",
+    "You can search 'turbine coil' in JEI for a list of the available coils. Ludicrite blocks are the best!",
     "",
     "To run the turbine, input steam into one Fluid Port, and it will be consumed and turned into Water. You will need to set the other Access Port to Output Mode to auto extract Water.",
     "",
