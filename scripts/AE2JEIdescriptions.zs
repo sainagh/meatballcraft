@@ -36,7 +36,7 @@ mods.jei.JEI.addDescription(<appliedenergistics2:part:56>,["智能线缆，可�
 mods.jei.JEI.addDescription([<appliedenergistics2:part:40>,<appliedenergistics2:part:41>,<appliedenergistics2:part:42>,<appliedenergistics2:part:43>,<appliedenergistics2:part:44>,<appliedenergistics2:part:45>,<appliedenergistics2:part:46>,<appliedenergistics2:part:47>,<appliedenergistics2:part:48>,<appliedenergistics2:part:49>,<appliedenergistics2:part:50>,<appliedenergistics2:part:51>,<appliedenergistics2:part:52>,<appliedenergistics2:part:53>,<appliedenergistics2:part:54>,<appliedenergistics2:part:55>],["染色智能线缆，只能与同色线缆连接，能够显示传输的频道数。"]);
 mods.jei.JEI.addDescription(<appliedenergistics2:part:516>,["基础致密线缆，可与任何染色线缆连接，能够传输32个频道。"]);
 mods.jei.JEI.addDescription(<appliedenergistics2:part:76>,["智能致密线缆，可与任何染色线缆连接，能够传输32个频道，能够显示传输的频道数。"]);
-mods.jei.JEI.addDescription([<appliedenergistics2:part:60>,<appliedenergistics2:part:61>,<appliedenergistics2:part:62>,<appliedenergistics2:part:63>,<appliedenergistics2:part:64>,<appliedenergistics2:part:65>,<appliedenergistics2:part:66>,<appliedenergistics2:part:67>,<appliedenergistics2:part:68>,<appliedenergistics2:part:69>,<appliedenergistics2:part:70>,<appliedenergistics2:part:71>,<appliedenergistics2:part:72>,<appliedenergistics2:part:73>,<appliedenergistics2:part:74>,<appliedenergistics2:part:75>],["染色智能致密线缆，只能与同色线缆连接，能够传输32个频道，能够显示传输的频道数。"]);
+mods.jei.JEI.addDescription([<appliedenergistics2:part:60>,<appliedenergistics2:part:61>,<appliedenergistics2:part:62>,<appliedenergistics2:part:63>,<appliedenergistics2:part:64>,<appliedenergistics2:part:65>,<appliedenergistics2:part:66>,<appliedenergistics2:part:67>,<appliedenergistics2:part:68>,<appliedenergistics2:part:69>,<appliedenergistics2:part:70>,<appliedenergistics2:part:71>,<appliedenergistics2:part:72>,<appliedenergistics2:part:73>,<appliedenergistics2:part:74>,<appliedenergistics2:part:75>],["染色致密线缆，只能与同色线缆连接，能够传输32个频道，能够显示传输的频道数。"]);
 mods.jei.JEI.addDescription(<appliedenergistics2:part:120>,["可用于阻断线缆连接，还可以用于合成线缆伪装板。"]);
 mods.jei.JEI.addDescription(<appliedenergistics2:part:80>,["通过红石信号控制线缆开关，默认为无信号则断开。"]);
 mods.jei.JEI.addDescription(<appliedenergistics2:part:100>,["通过红石信号控制线缆开关，默认为有信号则断开。"]);
@@ -59,74 +59,74 @@ mods.jei.JEI.addDescription(<appliedenergistics2:part:420>,["升级版的存储�
 mods.jei.JEI.addDescription(<appliedenergistics2:interface>,["根据编码样板发配物品，还可从ME网络中抽取标记物品在其内部进行缓存。","","会将接收到的物品发送回ME网络。"]);
 mods.jei.JEI.addDescription(<appliedenergistics2:fluid_interface>,["可从ME网络中抽取标记流体在其内部进行缓存。"]);
 mods.jei.JEI.addDescription(<appliedenergistics2:molecular_assembler>,["用于自动合成物品，可单独放置样板，或者由相邻的ME接口进行控制。"]);
-mods.jei.JEI.addDescription(<extracells:fluidfiller>,["Teaches the ME System how to craft buckets from fluids stored in the ME System, crafts that use buckets like this return the bucket but the craft will still need enough buckets to fill all the fluids before it can start.","","Consider using AE2FluidCrafting before this."]);
-mods.jei.JEI.addDescription(<extracells:part.base:10>,["Can be given a bucket of fluid and will display how much of it is stored in the ME System."]);
-mods.jei.JEI.addDescription(<extracells:part.base:11>,["An upgraded Fluid Storage Monitor fluids can be taken out and inserted directly."]);
-mods.jei.JEI.addDescription(<extracells:part.base:12>,["Exports items from the ME system into the facing block using ore dictionary tags, i.e. 'ore*' would export all ores."]);
-mods.jei.JEI.addDescription(<appliedenergistics2:quartz_growth_accelerator>,["Makes adjacent water growth pure seeds faster, up to 6 can be placed around water."]);
-mods.jei.JEI.addDescription(<ae2stuff:grower>,["Grows pure seeds very fast and can make fluix without water."]);
-mods.jei.JEI.addDescription(<threng:machine:3>,["Lazy ae2 interface, only holds 9 patterns but has very high throughput"]);
-mods.jei.JEI.addDescription(<threng:machine:4>,["Better version of level emitter, can restock 5 items."]);
-mods.jei.JEI.addDescription(<threng:machine:5>,["Better version of charger, doesn’t accept ae2 power, but is very fast."]);
-mods.jei.JEI.addDescription([<threng:big_assembler:0>,<threng:big_assembler:1>,<threng:big_assembler:2>],["Used for the Mass Assembly Chamber, a ludicrously fast alternative to molecular assemblers.","","Made with edges from Mass Assembler Frames, faces from Mass Assembler Vents, and 1 Mass Assembler Controller in place of any vent.","","The Insides are filled with either MA Pattern Providers or MA Crafting Coprocessors, at least 1 Pattern Provider is needed.","","Right click the controller to form, max volume is 512 blocks."]);
-mods.jei.JEI.addDescription(<threng:big_assembler:3>,["Provides 36 patterns for the Mass Assembly Chamber."]);
-mods.jei.JEI.addDescription(<threng:big_assembler:4>,["Increases the speed of the Mass Assembly Chamber."]);
-mods.jei.JEI.addDescription(<threng:big_assembler:5>,["Optional feature for the Mass Assembly Chamber, allows the patterns inside the chamber to be accessed."]);
-mods.jei.JEI.addDescription(<thaumicenergistics:arcane_assembler>,["Autocrafts Thaumcraft recipes, use the Arcane Autoworkbench instead."]);
-mods.jei.JEI.addDescription(<thaumicenergistics:arcane_terminal>,["Like a regular crafting table but can craft Thaumcraft recipes."]);
-mods.jei.JEI.addDescription(<thaumicenergistics:arcane_inscriber>,["Used to make 'patterns' for the Arcane Assembler"]);
-mods.jei.JEI.addDescription(<thaumicenergistics:essentia_terminal>,["Terminal for storing and retrieving essentia"]);
-mods.jei.JEI.addDescription(<thaumicenergistics:essentia_import>,["Pulls essentia from the connected container into the ME system."]);
-mods.jei.JEI.addDescription(<thaumicenergistics:essentia_export>,["Pushes essentia from the ME system to the connected container."]);
-mods.jei.JEI.addDescription(<thaumicenergistics:essentia_storage>,["Lets the ME system treat a jar or container as a part of the system."]);
-mods.jei.JEI.addDescription(<thaumicenergistics:essentia_cell_1k>,["Stores essentia in cell form, stores ~8k essentia"]);
-mods.jei.JEI.addDescription(<thaumicenergistics:essentia_cell_4k>,["Stores essentia in cell form, stores ~32k essentia"]);
-mods.jei.JEI.addDescription(<thaumicenergistics:essentia_cell_16k>,["Stores essentia in cell form, stores ~128k essentia"]);
-mods.jei.JEI.addDescription(<thaumicenergistics:essentia_cell_64k>,["Stores essentia in cell form, stores ~512k essentia"]);
-mods.jei.JEI.addDescription(<extracells:fluidcrafter>,["Can craft recipes that use buckets using fluid stored in the ME system using stored fluid instead of a bucket."]);
-mods.jei.JEI.addDescription(<ae2fc:fluid_assembler>,["Can craft recipes that use buckets using fluid stored in the ME system using stored fluid instead of a bucket, needs a ME Fluid Discretizer to craft fake fluid."]);
-mods.jei.JEI.addDescription(<ae2stuff:encoder>,["Block version of pattern terminal"]);
-mods.jei.JEI.addDescription(<ae2fc:fluid_pattern_encoder>,["Block version of fluid pattern terminal"]);
-mods.jei.JEI.addDescription(<appliedenergistics2:inscriber>,["Crafts processors, the face in which items are inserted matters."]);
-mods.jei.JEI.addDescription(<ae2stuff:inscriber>,["Crafts processors faster, the face in which items are inserted does not matter."]);
-mods.jei.JEI.addDescription(<ae2fc:fluid_discretizer>,["Allows easier fluid crafting by letting fluid be converted into droplet items during crafting, DO NOT make more than 1 on a ME system."]);
-mods.jei.JEI.addDescription(<ae2fc:fluid_packet_decoder>,["Converts droplets back into fluid in case you manage to stuck with some. This lets you set up automations where you can treat fluid drops as items."]);
-mods.jei.JEI.addDescription(<ae2fc:ingredient_buffer>,["A buffer block that is both a chest and tank, has 4x 16b tanks and 9 slots"]);
-mods.jei.JEI.addDescription(<ae2fc:large_ingredient_buffer>,["A buffer block that is both a chest and tank, has 7x 16b tanks and 27 slots"]);
-mods.jei.JEI.addDescription(<ae2fc:burette>,["Can be used to fill a tank with a precise amount of fluid, not needed due to decent JEI integration."]);
-mods.jei.JEI.addDescription(<ae2fc:dual_interface>,["A Interface and Fluid Interface in one block."]);
-mods.jei.JEI.addDescription(<ae2fc:fluid_level_maintainer>,["Better version of fluid level emitter, can maintain 5 fluids."]);
-mods.jei.JEI.addDescription(<appliedenergistics2:fluid_storage_cell_1k>,["Stores fluid in cell form, stores ~8k buckets."]);
-mods.jei.JEI.addDescription(<appliedenergistics2:fluid_storage_cell_4k>,["Stores fluid in cell form, stores ~32k buckets."]);
-mods.jei.JEI.addDescription(<appliedenergistics2:fluid_storage_cell_16k>,["Stores fluid in cell form, stores ~128k buckets."]);
-mods.jei.JEI.addDescription(<appliedenergistics2:fluid_storage_cell_64k>,["Stores fluid in cell form, stores ~512k buckets."]);
-mods.jei.JEI.addDescription(<nae2:storage_cell_fluid_256k>,["Stores fluid in cell form, stores ~2048k buckets."]);
-mods.jei.JEI.addDescription(<nae2:storage_cell_fluid_1024k>,["Stores fluid in cell form, stores ~8192k buckets."]);
-mods.jei.JEI.addDescription(<nae2:storage_cell_fluid_4096k>,["Stores fluid in cell form, stores ~65536k buckets."]);
-mods.jei.JEI.addDescription(<nae2:storage_cell_fluid_16384k>,["Stores fluid in cell form, stores ~262144k buckets."]);
-mods.jei.JEI.addDescription(<ae2fc:part_fluid_pattern_terminal>,["Like a Pattern Terminal but can make patterns using fluids."]);
-mods.jei.JEI.addDescription(<ae2fc:part_fluid_pattern_ex_terminal>,["Like a Fluid Pattern Terminal but can have up to 16 inputs and 6 outputs for more complex recipes."]);
-mods.jei.JEI.addDescription(<appliedenergistics2:part:340>,["Used to make patterns, crafting patterns can be placed in interfaces touching molecular assemblers and processing patterns can be put in interfaces touching machines to automate them."]);
-mods.jei.JEI.addDescription(<appliedenergistics2:part:341>,["Like a Pattern Terminal but can have up to 16 inputs and 6 outputs for more complex recipes."]);
-mods.jei.JEI.addDescription(<appliedenergistics2:part:520>,["Like a standard terminal but for fluids.","","Can be used to fill some tanks and buckets from the ME system."]);
-mods.jei.JEI.addDescription(<appliedenergistics2:part:380>,["Basic terminal used to store and retrieve items from the ME system."]);
-mods.jei.JEI.addDescription(<appliedenergistics2:part:521>,["Like the ME Interface Terminal but shows the stocked item config rather than stored patterns."]);
-mods.jei.JEI.addDescription(<appliedenergistics2:part:522>,["Shows the stocked fluid config for fluid terminals."]);
-mods.jei.JEI.addDescription([<appliedenergistics2:part:500>,<appliedenergistics2:part:501>,<appliedenergistics2:part:502>,<appliedenergistics2:part:503>,<appliedenergistics2:part:504>,<appliedenergistics2:part:505>,<appliedenergistics2:part:506>,<appliedenergistics2:part:507>,<appliedenergistics2:part:508>,<appliedenergistics2:part:509>,<appliedenergistics2:part:510>,<appliedenergistics2:part:511>,<appliedenergistics2:part:512>,<appliedenergistics2:part:513>,<appliedenergistics2:part:514>,<appliedenergistics2:part:515>],["Coloured dense cable, only connects to cables of the same colour."]);
+mods.jei.JEI.addDescription(<extracells:fluidfiller>,["使ME网络能够使用存储在网络中的流体来制作桶装流体，使用这样的桶装流体进行合成后，空桶会返还回系统中，但在开始前仍需要足够的桶来盛装所有流体。","","在此之前可以先考虑使用AE2流体合成套件模组。"]);
+mods.jei.JEI.addDescription(<extracells:part.base:10>,["用桶装流体标记后，它会显示网络里该流体的剩余量。标记后，它会显示ME网络里该流体的储量。"]);
+mods.jei.JEI.addDescription(<extracells:part.base:11>,["升级版的流体存储监控器，可以直接取出和存入流体。"]);
+mods.jei.JEI.addDescription(<extracells:part.base:12>,["按照矿物词典从ME网络中输出物品。例如，使用'ore*'来输出所有矿石。"]);
+mods.jei.JEI.addDescription(<appliedenergistics2:quartz_growth_accelerator>,["提高相邻水中的种子的生长速度，一格水周围最多可围6个。"]);
+mods.jei.JEI.addDescription(<ae2stuff:grower>,["快速催熟种子；放入原料就能形成福鲁伊克斯水晶，无需扔到水里。"]);
+mods.jei.JEI.addDescription(<threng:machine:3>,["懒人版的ME接口，只有9个样板槽，但是吞吐量极高。"]);
+mods.jei.JEI.addDescription(<threng:machine:4>,["更好版本的标准发信器，可标记5种物品。"]);
+mods.jei.JEI.addDescription(<threng:machine:5>,["更好版本的充能器，不接受AE2能量，但是非常快。"]);
+mods.jei.JEI.addDescription([<threng:big_assembler:0>,<threng:big_assembler:1>,<threng:big_assembler:2>],["用于大型分子装配室，与分子装配室相比快得离谱。","","用大型分子装配室框架构成框架，用大型分子装配室外壁和1个大型分子装配室控制器构成外壳。","","内部装满大型分子装配室样板核心或大型分子装配室处理核心，至少要有1个样板核心。","","右击控制器以成型，最大容积为512方块。"]);
+mods.jei.JEI.addDescription(<threng:big_assembler:3>,["为大型分子装配室提供36个样板槽位。"]);
+mods.jei.JEI.addDescription(<threng:big_assembler:4>,["增加大型分子装配室合成速度。"]);
+mods.jei.JEI.addDescription(<threng:big_assembler:5>,["大型分子装配室的可选部件，用于访问内部样板。"]);
+mods.jei.JEI.addDescription(<thaumicenergistics:arcane_assembler>,["自动合成神秘时代配方，请转用自动奥术工作台。"]);
+mods.jei.JEI.addDescription(<thaumicenergistics:arcane_terminal>,["和普通工作台类似，但是可以处理神秘时代的配方。"]);
+mods.jei.JEI.addDescription(<thaumicenergistics:arcane_inscriber>,["用于为奥术装配室编码'样板'。"]);
+mods.jei.JEI.addDescription(<thaumicenergistics:essentia_terminal>,["用于整理和接收源质的终端。"]);
+mods.jei.JEI.addDescription(<thaumicenergistics:essentia_import>,["从连接的容器中抽取源质进入ME网络。"]);
+mods.jei.JEI.addDescription(<thaumicenergistics:essentia_export>,["从ME网络中输出源质到连接的容器。"]);
+mods.jei.JEI.addDescription(<thaumicenergistics:essentia_storage>,["将源质罐子或类似容器纳入ME网络。"]);
+mods.jei.JEI.addDescription(<thaumicenergistics:essentia_cell_1k>,["以元件形式存储源质，可存储大约8k单位单种源质。"]);
+mods.jei.JEI.addDescription(<thaumicenergistics:essentia_cell_4k>,["以元件形式存储源质，可存储大约32k单位单种源质。"]);
+mods.jei.JEI.addDescription(<thaumicenergistics:essentia_cell_16k>,["以元件形式存储源质，可存储大约128k单位单种源质。"]);
+mods.jei.JEI.addDescription(<thaumicenergistics:essentia_cell_64k>,["以元件形式存储源质，可存储大约512k单位单种源质。"]);
+mods.jei.JEI.addDescription(<extracells:fluidcrafter>,["可直接使用ME系统中存储的流体处理桶装流体配方。"]);
+mods.jei.JEI.addDescription(<ae2fc:fluid_assembler>,["可直接使用ME系统中存储的流体处理桶装流体配方，需要ME流体离散器来制作伪流体。"]);
+mods.jei.JEI.addDescription(<ae2stuff:encoder>,["方块版本的样板终端。"]);
+mods.jei.JEI.addDescription(<ae2fc:fluid_pattern_encoder>,["方块版本的流体样板终端。"]);
+mods.jei.JEI.addDescription(<appliedenergistics2:inscriber>,["制作处理器，各个面的IO各不相同。"]);
+mods.jei.JEI.addDescription(<ae2stuff:inscriber>,["制作处理器，速度更快，可从任意面输入物品。"]);
+mods.jei.JEI.addDescription(<ae2fc:fluid_discretizer>,["将流体转化为液滴形式以便于流体合成，一个ME网络中只能存在一个！"]);
+mods.jei.JEI.addDescription(<ae2fc:fluid_packet_decoder>,["将液滴转化回流体，以防卡住。使用该方块可将液滴视为物品进行自动化。"]);
+mods.jei.JEI.addDescription(<ae2fc:ingredient_buffer>,["既是箱子又是储罐的缓存方块，有4x16B的流体容量和9个物品槽位。"]);
+mods.jei.JEI.addDescription(<ae2fc:large_ingredient_buffer>,["既是箱子又是储罐的缓存方块，有7x16b的流体容量和27物品槽位。"]);
+mods.jei.JEI.addDescription(<ae2fc:burette>,["可用于向储罐内输入精准数量的流体，因为JEI联动的缘故实际上并不需要。"]);
+mods.jei.JEI.addDescription(<ae2fc:dual_interface>,["物品和流体二合一的接口。"]);
+mods.jei.JEI.addDescription(<ae2fc:fluid_level_maintainer>,["更好版本的流体标准发信器，可标记5种流体。"]);
+mods.jei.JEI.addDescription(<appliedenergistics2:fluid_storage_cell_1k>,["以元件形式存储流体，可存储大约8k桶单种流体。"]);
+mods.jei.JEI.addDescription(<appliedenergistics2:fluid_storage_cell_4k>,["以元件形式存储流体，可存储大约32k桶单种流体。"]);
+mods.jei.JEI.addDescription(<appliedenergistics2:fluid_storage_cell_16k>,["以元件形式存储流体，可存储大约128k桶单种流体。"]);
+mods.jei.JEI.addDescription(<appliedenergistics2:fluid_storage_cell_64k>,["以元件形式存储流体，可存储大约512k桶单种流体。"]);
+mods.jei.JEI.addDescription(<nae2:storage_cell_fluid_256k>,["以元件形式存储流体，可存储大约2048k桶单种流体。"]);
+mods.jei.JEI.addDescription(<nae2:storage_cell_fluid_1024k>,["以元件形式存储流体，可存储大约8192k桶单种流体。"]);
+mods.jei.JEI.addDescription(<nae2:storage_cell_fluid_4096k>,["以元件形式存储流体，可存储大约65536k桶单种流体。"]);
+mods.jei.JEI.addDescription(<nae2:storage_cell_fluid_16384k>,["以元件形式存储流体，可存储大约262144k桶单种流体。"]);
+mods.jei.JEI.addDescription(<ae2fc:part_fluid_pattern_terminal>,["类似于样板终端，但可使用流体编码样板。"]);
+mods.jei.JEI.addDescription(<ae2fc:part_fluid_pattern_ex_terminal>,["类似于流体样板终端，但最多可容纳16种输入和6种输出，适用于复杂配方。"]);
+mods.jei.JEI.addDescription(<appliedenergistics2:part:340>,["用于编码样板，合成样板可放在与分子装配室相邻的接口中，处理样板可放在与机器相邻的接口中以实现广义自动化。"]);
+mods.jei.JEI.addDescription(<appliedenergistics2:part:341>,["类似于样板终端，但最多可容纳16种输入和6种输出，适用于复杂配方。"]);
+mods.jei.JEI.addDescription(<appliedenergistics2:part:520>,["类似于普通终端，但显示的是流体。","","可将ME网络中的流体填充到储罐和桶中。"]);
+mods.jei.JEI.addDescription(<appliedenergistics2:part:380>,["可从ME网络中存储和取出物品的基础终端。"]);
+mods.jei.JEI.addDescription(<appliedenergistics2:part:521>,["类似于ME接口终端，但显示的是接口的物品标记设置，而不是存储的样板。"]);
+mods.jei.JEI.addDescription(<appliedenergistics2:part:522>,["显示接口的流体标记设置。"]);
+mods.jei.JEI.addDescription([<appliedenergistics2:part:500>,<appliedenergistics2:part:501>,<appliedenergistics2:part:502>,<appliedenergistics2:part:503>,<appliedenergistics2:part:504>,<appliedenergistics2:part:505>,<appliedenergistics2:part:506>,<appliedenergistics2:part:507>,<appliedenergistics2:part:508>,<appliedenergistics2:part:509>,<appliedenergistics2:part:510>,<appliedenergistics2:part:511>,<appliedenergistics2:part:512>,<appliedenergistics2:part:513>,<appliedenergistics2:part:514>,<appliedenergistics2:part:515>],["染色致密包层线缆，只能与同色线缆连接。"]);
 
 mods.jei.JEI.addDescription([<appliedenergistics2:quantum_link>,
 <appliedenergistics2:quantum_ring>],
-["The quantum bridge is a multiblock that allows you to do two things: ",
+["量子网桥是一个多方块结构，有以下两种功能：The quantum bridge is a multiblock that allows you to do two things: ",
 "",
-"Transfer 32 channels wirelessly over infinite distances and between dimensions.",
-"Obtain a pair of entangled singularties and a pair of quantum bridges that you would like to connect. Place an entangled singularity in each quantum bridge to link them.",
-"Both sides of the connection should have a power input, either from the Controller or from an Energy Acceptor, and both should have at least one Energy Cell.",
-"You can use these to run p2p subnets, but they may misbehave depending on the complexity of your subnet.",
+"跨维度无视距离无线传输32个频道。",
+"将一对量子缠绕态奇点分别放入一对希望连接的量子网桥中，来将二者相连。",
+"连接两端都应提供能量输入，不论是通过控制器还是能源接收器，并且两边都至少要有一个能源元件。",
+"可以通过量子网桥来运行P2P子网，但根据子网的复杂程度，可能会出现异常行为。",
 "",
-"Infinitely expand the range of your wireless terminals.",
-"Connect a quantum bridge to the network which you would like to access wirelessly. Insert the quantum link card into the quantum bridge. Note that this will prevent you from inserting an entangled singularity because a quantum bridge can only have one function at a time. This also replaces the need for a wireless access point."]);
+"将无线终端的范围扩展到无限。",
+"将一个量子网桥与想要无线访问的网络连接。将量子链接卡放入网桥中。注意，进行此操作后，将无法放入量子缠绕态奇点，因为一个量子网桥同一时间只能运行一种功能。这样做之后，就不再需要无线访问点了。"]);
 
 mods.jei.JEI.addDescription([<nae2:part:0>],
-["The Beam Former allows to connect two sections of ME cables at a short distance (32 blocks in a straight line).",
+["ME光束成型器可以短距离（直线32格）连接两节ME线缆。",
 "",
-"A beam will form between Formers if a path is available between them. The beam can pass through transparent blocks, including other ME cables."]);
+"若两个成型器间存在通路，光束就会在二者之间形成。光束可以穿过透明方块，包括其他ME线缆。"]);
