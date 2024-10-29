@@ -3340,7 +3340,7 @@ mods.jei.JEI.addDescription([
     "",
     "Like cables, connectors can be dyed to allow for different setups next to each other.",
     "",
-    "Connectors are placed on a side of inventories and machines, but they can interact with any side. So you can extract from the bottom while the connector is on the top (if you have to work with sided machines). This can be specified in the controller GUI."
+    "Connectors are placed on a side of inventories and machines, but they can interact with any side(only Advanced Connectors). So you can extract from the bottom while the connector is on the top (if you have to work with sided machines). This can be specified in the controller GUI."
 
 ]);
 
