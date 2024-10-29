@@ -4384,20 +4384,6 @@ mods.jei.JEI.addDescription([
 ]);
 
 mods.jei.JEI.addDescription([
-    <ore:bewitchmentAltar>],
-[
-    "The witches altar is how you generate magical energy (ME) in bewitchment!",
-    "",
-    "The structure for the altar is a 3x2 table, and it can be made by any type of altar. Right click the structure with a vanilla carpet to form the altar!",
-    "",
-    "The altar generates energy passively. Right clicking the altar with an empty hand will tell you the available energy, as well as the maximum energy for the altar. Most mechanics in bewitchment use ME to run!",
-    "",
-    "The amount of diverse nature (crops, trees, flowers) will set the maximum ME. The more different plants you have, the higher the maximum energy in the altar!",
-    "",
-    "You can place statues around the altar, or particular artifacts on the altar to add multipliers to ME rate and amount. These will show up when searching Witches Altar in JEI."
-]);
-
-mods.jei.JEI.addDescription([
     <contenttweaker:buildcraft_heat_exchanger>,
     <buildcraftfactory:heat_exchange>],
 [
