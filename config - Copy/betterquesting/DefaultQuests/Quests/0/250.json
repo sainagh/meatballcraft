@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    200
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFound in the emptiness.\n\n§fThe Crimson Cult is indeed very powerful, and I suspect their area of influence may extend over much wider domains that I know of.\nThey are extremely well versed at tactical movement thanks to their cultists\u0027 ability to summon portals quickly and without leaving traces. They seldom get involved into large scale conflict, at least with members of the larget invading forces on Terra, but they have engaged with me. They likely did not expect a now crazed human stuck in a deathloop to show up and beat up their cultists. Reasonable, I guess.\nSome of their portals, though, do leave very faint traces, which have become more and more evident the more I have delt deeper into the thaumic arts.\nThese traces lead to what the Cult calls the Emptiness, a higher dimensional space, much like a place like the dreadlands, that is both very close and very far from the three-dimensional world I can conceive with my senses. In this land of paradox, the cultists have built mighty fortresses. \nI initially thought I may have finally encountered their leader, but things are way, way deeper than that. The Crimson Cult operates on a different scale. Not at a planetary level, damn, not even at a galaxy level. I wouldn\u0027t be surprised that earth politics may be influenced by this organization, if there were something they could gain from it.\nDespite all the ruckus I caused, though, they did not retaliate in a meaningful way. Their modus operandi seems to be more subtle that the Twilight Horde\u0027s or the Shyre Empire\u0027s. This does not mean they are less dangerous, though...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:research_notes"
+      },
+      "name:8": "The Emptiness"
+    }
+  },
+  "questID:3": 250,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "thaumicaugmentation:research_notes"
+            },
+            "TrophyName:8": "Conqueror of the Emptiness Fortress",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:research_notes"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

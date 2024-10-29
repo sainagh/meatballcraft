@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    2325
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe Mana Enchanter lets you apply enchants on a tool without consuming the books.\n\nForm the structure as shown in the preview, and click the Lapis Block with a Wand of the Forest.\n\nPlace a fully unenchanted item on the Enchanter, and drop the desired enchanted books around it.\n\nTo power it, you can use sparks. The cost of each enchant grows exponentially with level, but it can accept enchants above the anvil limit.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:enchanter"
+      },
+      "name:8": "Mana Enchanter"
+    }
+  },
+  "questID:3": 2328,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:twigwand",
+          "tag:10": {
+            "color1:3": 0,
+            "color2:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:enchanter"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

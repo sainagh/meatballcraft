@@ -1,406 +1,406 @@
 mods.jei.JEI.addDescription(<botania:terraplate>,
 [
-    "Place on top of a 3x3 base, 5 blocks of Livingrock in an X shape, 4 blocks of lapis to fill the edges.",
-    "Drop a Manasteel Ingot, a Mana Pearl, and a Mana Diamond on top of the plate to make Terrasteel",
-    "It will consume half of a mana pool to craft, so make sure you have plenty of mana!"
+    "放置在3x3的基座中心，其中以X形放置5块活石，4块青金石块填补空隙",
+    "在中心丢入一个魔力钢锭，一个魔力珍珠，以及一个魔力钻石来制作泰拉钢",
+    "制作需消耗半魔力池魔力，确保魔力供应充足！"
 ]);
 
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "spectrolus"}),
 [
-    "Generates mana by consuming wool blocks of the right colors, dropped in the right order",
-    "The Wand of the Forest can be used to check the desired order"
+    "以特定顺序消耗特定颜色的羊毛产生魔力",
+    "可用森林法杖查看所需羊毛的颜色"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "omniviolet"}),
 [
-    "Generates mana from books",
-    "Can be boosted by bookshelves like an enchanting table"
+    "消耗书产生魔力",
+    "类似附魔台，可用书架增强产魔能力"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "stonesia"}),
 [
-    "Generates mana from stone and ores, the rarer the ore, the more mana"
+    "消耗石头和矿物产生魔力，矿物越稀有，产魔越多"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "dandelifeon"}),
 [
-    "Generates mana from Conway's Game of Life in a 25x25 area centered around the flower",
-    "Best flower, but hardest to set up!"
+    "在以启命英为中心25x25的范围内，遵循康威生命游戏的规则产生魔力",
+    "最佳产能花，但是最难使用！"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "endoflame"}),
 [
-    "Generates mana from furnace fuels dropped nearby"
+    "消耗附近掉落的熔炉燃料产生魔力"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "moonbless"}),
 [
-    "Generates mana at night",
-    "Will decay eventually"
+    "在夜间产生魔力",
+    "会自然枯萎"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "bellflower"}),
 [
-    "Generates mana passively, the higher the y level the better",
-    "Will decay eventually"
+    "被动产生魔力，高度越高产魔越高",
+    "会自然枯萎"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "hydroangeas"}),
 [
-    "Generates mana by sucking water in a 3x3 area",
-    "Will decay eventually"
+    "吸收3x3范围内的水产生魔力",
+    "会自然枯萎"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "shulk_me_not"}),
 [
-    "Generates mana if a mob nearby is hit by a Shulker projectile, but only works if internal buffer is empty"
+    "在附近有生物被潜影贝弹射物攻击时产生魔力，但仅在内部魔力缓存为空时工作"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "reikarlily"}),
 [
-    "Generates mana from lightning strikes"
+    "从雷击中产生魔力"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "rafflowsia"}),
 [
-    "Consumes flowers that are man-made to make mana, the more variety, the higher the output"
+    "消耗人工合成的植魔花产生魔力，花的种类越丰富，产魔越高"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "arcanerose"}),
 [
-    "Sucks experience to make mana"
+    "吸收经验产生魔力"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "entropinnyum"}),
 [
-    "Absorbs TNT explosions to generate mana, but it only works if it has no mana in its buffer"
+    "吸收TNT爆炸产生魔力，但仅在内部魔力缓存为空时工作"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "narslimmus"}),
 [
-    "Consumes Slimes to make mana, only works in a slime chunk"
+    "消耗史莱姆产生魔力，仅在史莱姆区块中工作"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "edelweiss"}),
 [
-    "Consumes Snow Golems to make mana"
+    "消耗雪傀儡产生魔力"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "kekimurus"}),
 [
-    "Generates mana by eating cakes placed nearby"
+    "通过吃附近的蛋糕来产生魔力"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "munchdew"}),
 [
-    "Generates mana consuming leaves placed nearby"
+    "消耗附近放置的树叶产生魔力"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "bloodyenchantress"}),
 [
-    "Kills mobs nearby for mana"
+    "伤害附近生物产生魔力"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "geminiorchid"}),
 [
-    "Place lava and water on opposite corners to generate mana passively",
-    "Will decay eventually"
+    "在斜对角放置熔岩和水来被动产生魔力",
+    "会自然枯萎"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "tinkle"}),
 [
-    "If you run around it, it generates mana"
+    "玩家在附近移动时产生魔力"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "gourmaryllis"}),
 [
-    "Generates mana from food dropped nearby",
-    "It will stop making mana after receiving too much of the same food"
+    "消耗附近掉落的食物产生魔力",
+    "连续消耗同种食物会导致产魔减少"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "thermalily"}),
 [
-    "Generates mana consuming lava in a 3x3 area",
-    "It has a cooldown period, when it will generate no mana while still absorbing lava"
+    "消耗3x3范围内的熔岩产生魔力",
+    "有冷却时间，冷却时仍会吸收熔岩，但不产生魔力"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "sunbless"}),
 [
-    "Generates mana during the day",
-    "Will decay eventually"
+    "在白天产生魔力",
+    "会自然枯萎"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "beegonia"}),
 [
-    "Generates mana from Forestry Drones tossed nearby"
+    "通过附近掉落的林业蜜蜂产生魔力"
 ]);
 
 mods.jei.JEI.addDescription(<bloodmagic:ritual_controller:1>,
 [
-    "Place the following blocks on top for special effects, right click to activate:",
+    "在上方放置以下方块产生不同效果，右击激活：",
     "",
-    "Lapis: make it night",
+    "青金石块：跳过白天",
     "",
-    "Water: make it thunder",
+    "水：变为雷雨天",
     "",
-    "Coal: spawn a zombie"
+    "煤炭块：生成僵尸"
 ]);
 
 mods.jei.JEI.addDescription(<bloodmagic:ritual_controller:0>,
 [
-    "The following rituals require a base Ritual Diviner (see questbook for info on each ritual):",
+    "以下仪式需要基础的仪式推测杖（在任务书中查看每种仪式的信息）：",
     "",
-    "Satiated Stomach",
+    "盛宴之歌",
     "",
-    "Magnetism",
+    "磁引仪式",
     "",
-    "Containment",
+    "牵引仪式",
     "",
-    "Call of Zephyr",
+    "和风之召",
     "",
-    "Suppression",
+    "抑液仪式",
     "",
-    "Sol",
+    "日之仪式",
     "",
-    "Peaceful Soul",
+    "和平灵魂仪式",
     "",
-    "Nature's Leech",
+    "自然汲取仪式",
     "",
-    "Laying of the Filler",
+    "铺设仪式",
     "",
-    "High Jump",
+    "高跳仪式",
     "",
-    "Steadfast Heart",
+    "坚定之心仪式",
     "",
-    "Interdiction",
+    "制止仪式",
     "",
-    "Green Grove",
+    "绿丛仪式",
     "",
-    "Crash of the Timberman",
+    "伐林仪式",
     "",
-    "Le Vulcanus Frigius",
+    "极寒火山",
     "",
-    "Full Spring",
+    "涌泉仪式",
     "",
-    "Serenade of the Nether"
+    "下界夜曲"
 ]);
 
 mods.jei.JEI.addDescription(<bloodmagic:ritual_controller:0>,
 [
-    "The following rituals require a Dusk Ritual Diviner (see questbook for info on each ritual):",
+    "以下仪式需要仪式推测杖 [薄暮]（在任务书中查看每种仪式的信息）：",
     "",
-    "Infusion de Sanguine",
+    "灌注仪式",
     "",
-    "Blood Burner Rites",
+    "血葬仪式",
     "",
-    "Mark of the Falling Tower",
+    "坠星标位",
     "",
-    "Assembly of the High Altar",
+    "祭坛集结号",
     "",
-    "Reverence of the Condor",
+    "崇敬之鹰",
     "",
-    "Cry of Eternal Soul",
+    "永魂之泣",
     "",
-    "Purification",
+    "净化仪式",
     "",
-    "Veil of Evil",
+    "邪恶面纱",
     "",
-    "Penance of the Leadened Soul",
+    "沉重灵魂的忏悔",
     "",
-    "Sound of the Cleansing Soul",
+    "净灵之音",
     "",
-    "Aura of Expulsion",
+    "驱逐氛场",
     "",
-    "Ritual of Living Evolution",
+    "束灵进化",
     "",
-    "Regeneration",
+    "重生仪式",
     "",
-    "Gathering of the Forsaken Souls",
+    "孤魂集会",
     "",
-    "Crack of the Fractured Crystal",
+    "碎晶裂纹",
     "",
-    "Unmaking",
+    "拆解仪式",
     "",
-    "Feathered Knife",
+    "羽刀仪式",
     "",
-    "Feathered Earth",
+    "羽地仪式",
     "",
-    "Well of Suffering",
+    "苦难之井",
     "",
-    "Ritual of Culling",
+    "剔除仪式",
     "",
-    "Cloned Soul",
+    "克隆之魂仪式",
     "",
-    "Focus of the Ellipsoid",
+    "椭球的焦点",
     "",
-    "Ward of Sacrosanctity",
+    "神圣守护",
     "",
-    "Sanguine Urn",
+    "猩红之瓮仪式",
     "",
-    "Mechanical Altar",
+    "机械之瓮仪式",
     "",
-    "Reap of the Harvest Moon",
+    "丰收之月",
     "",
-    "Resonance of the Faceted Crystal",
+    "结晶共鸣",
     "",
-    "Ritual of Eldritch Will",
+    "邪术意志仪式",
     "",
-    "Ritual of the Crusher",
+    "挖掘仪式",
     "",
-    "Shepherd",
+    "牧养仪式",
     "",
-    "Gate of the Fold",
+    "折域之门",
     "",
-    "Ritual of Luna",
+    "月之仪式",
     "",
-    "Grounding",
+    "接地仪式",
     "",
-    "Speed",
+    "速移仪式",
     "",
-    "Hymn of Siphoning"
+    "虹吸圣曲"
 ]);
 
 mods.jei.JEI.addDescription(<bloodmagic:ritual_diviner:1>,
 [
-    "The following rituals require a Dusk Ritual Diviner (see questbook for info on each ritual):",
+    "以下仪式需要仪式推测杖 [薄暮]（在任务书中查看每种仪式的信息）：",
     "",
-    "Infusion de Sanguine",
+    "灌注仪式",
     "",
-    "Blood Burner Rites",
+    "血葬仪式",
     "",
-    "Mark of the Falling Tower",
+    "坠星标位",
     "",
-    "Assembly of the High Altar",
+    "祭坛集结号",
     "",
-    "Reverence of the Condor",
+    "崇敬之鹰",
     "",
-    "Cry of Eternal Soul",
+    "永魂之泣",
     "",
-    "Purification",
+    "净化仪式",
     "",
-    "Veil of Evil",
+    "邪恶面纱",
     "",
-    "Penance of the Leadened Soul",
+    "沉重灵魂的忏悔",
     "",
-    "Sound of the Cleansing Soul",
+    "净灵之音",
     "",
-    "Aura of Expulsion",
+    "驱逐氛场",
     "",
-    "Ritual of Living Evolution",
+    "束灵进化",
     "",
-    "Regeneration",
+    "重生仪式",
     "",
-    "Gathering of the Forsaken Souls",
+    "孤魂集会",
     "",
-    "Crack of the Fractured Crystal",
+    "碎晶裂纹",
     "",
-    "Unmaking",
+    "拆解仪式",
     "",
-    "Feathered Knife",
+    "羽刀仪式",
     "",
-    "Feathered Earth",
+    "羽地仪式",
     "",
-    "Well of Suffering",
+    "苦难之井",
     "",
-    "Ritual of Culling",
+    "剔除仪式",
     "",
-    "Cloned Soul",
+    "克隆之魂仪式",
     "",
-    "Focus of the Ellipsoid",
+    "椭球的焦点",
     "",
-    "Ward of Sacrosanctity",
+    "神圣守护",
     "",
-    "Sanguine Urn",
+    "猩红之瓮仪式",
     "",
-    "Mechanical Altar",
+    "机械之瓮仪式",
     "",
-    "Reap of the Harvest Moon",
+    "丰收之月",
     "",
-    "Resonance of the Faceted Crystal",
+    "结晶共鸣",
     "",
-    "Ritual of Eldritch Will",
+    "邪术意志仪式",
     "",
-    "Ritual of the Crusher",
+    "挖掘仪式",
     "",
-    "Shepherd",
+    "牧养仪式",
     "",
-    "Gate of the Fold",
+    "折域之门",
     "",
-    "Ritual of Luna",
+    "月之仪式",
     "",
-    "Grounding",
+    "接地仪式",
     "",
-    "Speed",
+    "速移仪式",
     "",
-    "Hymn of Siphoning"
+    "虹吸圣曲"
 ]);
 
 
 mods.jei.JEI.addDescription(<bloodmagic:ritual_diviner:0>,
 [
-    "The following rituals require a base Ritual Diviner (see questbook for info on each ritual):",
+    "以下仪式需要基础的仪式推测杖（在任务书中查看每种仪式的信息）：",
     "",
-    "Satiated Stomach",
+    "盛宴之歌",
     "",
-    "Magnetism",
+    "磁引仪式",
     "",
-    "Containment",
+    "牵引仪式",
     "",
-    "Call of Zephyr",
+    "和风之召",
     "",
-    "Suppression",
+    "抑液仪式",
     "",
-    "Sol",
+    "日之仪式",
     "",
-    "Peaceful Soul",
+    "和平灵魂仪式",
     "",
-    "Nature's Leech",
+    "自然汲取仪式",
     "",
-    "Laying of the Filler",
+    "铺设仪式",
     "",
-    "High Jump",
+    "高跳仪式",
     "",
-    "Steadfast Heart",
+    "坚定之心仪式",
     "",
-    "Interdiction",
+    "制止仪式",
     "",
-    "Green Grove",
+    "绿丛仪式",
     "",
-    "Crash of the Timberman",
+    "伐林仪式",
     "",
-    "Le Vulcanus Frigius",
+    "极寒火山",
     "",
-    "Full Spring",
+    "涌泉仪式",
     "",
-    "Serenade of the Nether"
+    "下界夜曲"
 ]);
 
 
 mods.jei.JEI.addDescription(<thaumcraft:thaumonomicon>,
 [
-    "You have to complete these steps to obtain it:",
+    "进行以下步骤以获得该物品：",
     "",
-    "1. Mine some essentia crystals, you will get a message in chat if the requirement is complete",
+    "1. 挖掘一些源质结晶，达成需求时聊天栏会出现一条信息",
     "",
-    "2. Sleep, you will get a special book in your inventory",
+    "2. 睡觉，会在物品栏中获得一本特殊的书",
     "",
-    "3. Craft Salis Mundus",
+    "3. 制作世界盐",
     "",
-    "4. Right click a bookshelf (vanilla) with the Salis Mundus"
+    "4. 使用世界盐对原版书架右击"
 ]);
 
 mods.jei.JEI.addDescription(<extrautils2:ingredients:10>,
 [
-    "Right click a patch of dirt to transform it into Cursed Earth.",
+    "使用邪恶点滴右击泥土来将其转变为诅咒之土。",
     "",
-    "Cursed Earth increases all hostile mob spawns. And vanilla spawn proximity rules are ignored.",
+    "诅咒之土可增加敌对生物生成率。几乎无视原版数量限制。",
     "",
-    "As long as Cursed Earth is chunkloaded, monsters will spawn!",
+    "只要所在区块处于加载状态，就会生成怪物！",
     "",
-    "The best place to use this is at y = 2 in the overworld.",
+    "主世界的最佳放置地点为Y=2处。",
     "",
-    "If you build a Cursed Earth farm in the nether, make sure you cover it with string. This will prevent fires!"
+    "若想在下界用诅咒之土建刷怪场，确保在上面铺满线。如此可防火！"
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:quarry>,
@@ -412,13 +412,13 @@ mods.jei.JEI.addDescription([<contenttweaker:quarry>,
                             <rftools:shape_card:6>,
                             <rftools:shape_card:7>],
 [
-    "A quarry is the way you automate mining!",
+    "采石场是对自动挖矿手段的统称！",
     "",
-    "The Builder from RFTools can be upgraded with a Shape Card (Quarry) to automatically dig out an area!",
+    "RFTools模组的建造机配合塑形卡（采掘）可自动挖空指定区域！",
     "",
-    "Shift + right click the quarry card to set the size of the area you want to clear out.",
+    "使用塑形卡Shift右击来设定挖掘区域。",
     "",
-    "Place a chest above the Builder to automatically collect drops! Ender Chests are best ;)"
+    "在建造机上放置容器来自动收集掉落物！末影箱是个好选择 ;)"
 ]);
 
 
@@ -426,238 +426,238 @@ mods.jei.JEI.addDescription([<contenttweaker:quarry>,
 
 mods.jei.JEI.addDescription(<contenttweaker:ore_processing>,
 [
-    "Using a Puverizer and Redstone Furnace will double most ores! The Nuclearcraft Manufactory is faster, but it's harder to craft.",
+    "使用磨粉机和红石炉来实现大部分矿物的双倍产出！核电工艺的小制造机更快，但是也更难做。",
     "",
-    "Using the Flux Anodizers augment on the Redstone Furnace will double ores!",
+    "为红石炉安装通量阳极电镀升级可直接产出双倍产物！",
     "",
-    "Using the Pyro-Concentrator upgrade on the Induction Smelter will quadruple ores!",
+    "为感应炉安装炽焱高温裂解升级可产出三倍产物！",
     "",
-    "Ores from DivineRPG and Advent of Ascension can be processed using a smeltery or using an Industrial Grinder!"
+    "神圣RPG和虚无世界模组的矿物可使用冶炼炉或工业磨粉机进行处理！"
 ]);
 
 mods.jei.JEI.addDescription(<iceandfire:fire_dragon_heart>,
 [
-    "The dragon heart loop is the best EMC farm in early game!",
+    "龙心循环是前期获得EMC的最佳手段！",
     "",
-    "Four Blaze Rods have a combined EMC value of 6144, a Diamond has a value of 8192!",
+    "4根烈焰棒的EMC总和为6144，1个钻石的EMC值为8192！",
     "",
-    "The crafter from RFTools can be used to automate making Diamonds from Blaze Rods! Make sure you set it to ExtC mode to keep the Dragon Heart!",
+    "RFTools模组的自动合成机可以自动用烈焰棒制作钻石！确保选择ExtC模式来将龙心保持在输入栏！",
     "",
-    "The Diamonds can be piped into an Energy Condenser MK2 to make more Blaze Rods than you started with!",
+    "钻石可以运输到能量凝聚器 MK2，从而制作更多烈焰棒！",
     "",
-    "Pipe the Blaze Rods from the condenser back into the crafter to complete the loop!",
+    "将凝聚器里的烈焰棒运输回自动合成机，从而实现循环！",
     "",
-    "You can dump the excess Blaze Rods into another condenser to farm any EMC item you want!",
+    "将多余的烈焰棒运输到另一个能量凝聚器中来制作设定好的EMC物品！",
     "",
-    "The faster your item transfer, condenser rate, and crafter, the faster your EMC production."
+    "物品传输速度、能量凝聚速度、自动合成速度越快，EMC产出越高。"
 ]);
 
 mods.jei.JEI.addDescription(<draconicevolution:celestial_manipulator>,
 [
-    "There are two main ways of skipping days and making it night in this pack!",
+    "本包中主要有两种手段跳过白天！",
     "",
-    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
+    "使用青金石配合血魔法模组的不完善的仪式石可以手动跳过白天。",
     "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
+    "龙之进化模组的苍穹变换器可以通过红石控制自动跳过白天。"
 ]);
 
 mods.jei.JEI.addDescription(<minecraft:lapis_block>,
 [
-    "There are two main ways of skipping days and making it night in this pack!",
+    "本包中主要有两种手段跳过白天！",
     "",
-    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
+    "使用青金石配合血魔法模组的不完善的仪式石可以手动跳过白天。",
     "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
+    "龙之进化模组的苍穹变换器可以通过红石控制自动跳过白天。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:make_it_night>,
 [
-    "There are two main ways of skipping days and making it night in this pack!",
+    "本包中主要有两种手段跳过白天！",
     "",
-    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
+    "使用青金石配合血魔法模组的不完善的仪式石可以手动跳过白天。",
     "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
+    "龙之进化模组的苍穹变换器可以通过红石控制自动跳过白天。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:hammock>,
 [
-    "There are two main ways of skipping days and making it night in this pack!",
+    "本包中主要有两种手段跳过白天！",
     "",
-    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
+    "使用青金石配合血魔法模组的不完善的仪式石可以手动跳过白天。",
     "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
+    "龙之进化模组的苍穹变换器可以通过红石控制自动跳过白天。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:skip_day>,
 [
-    "There are two main ways of skipping days and making it night in this pack!",
+    "本包中主要有两种手段跳过白天！",
     "",
-    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
+    "使用青金石配合血魔法模组的不完善的仪式石可以手动跳过白天。",
     "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
+    "龙之进化模组的苍穹变换器可以通过红石控制自动跳过白天。"
 ]);
 
 mods.jei.JEI.addDescription([<buildcraftsilicon:assembly_table>, <buildcraftsilicon:laser>],
 [
-    "The Assembly Table can only receive energy from Buildcraft Lasers! The more Lasers, the faster!",
+    "装配台只能使用Buildcraft模组的镭射器供能！镭射器越多，速度越快！",
     "",
-    "Lasers can be powered with any RF cable, but some can bug out and disconnect, use conduits!",
+    "镭射器可使用任意兼容RF的线缆供能，但是有些可能会出bug断连，请使用能量导管！",
     "",
-    "Lasers need line of sight to power the table!"
+    "镭射器与装配台之间不能有障碍物！"
 ]);
 
 
 
 mods.jei.JEI.addDescription(<extrabees:hive:0>,
 [
-    "Found in oceans and rivers! Drops a Water Princess and Drones!"
+    "发现于海洋和河流！掉落水生公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<extrabees:hive:1>,
 [
-    "Found underground! Mountain biomes are best! Drops a Rocky Princess and Drones!"
+    "发现于地下！山脉群系最多！掉落石头公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<extrabees:hive:3>,
 [
-    "Found in villager houses! Drops a Marble Princess and Drones!"
+    "发现于村民居所！掉落大理石公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<forestry:beehives:0>,
 [
-    "Found in forests! Drops a Forest Princess and Drones!"
+    "发现于森林！掉落森林公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<forestry:beehives:1>,
 [
-    "Found in plains! Drops a Meadows Princess and Drones!"
+    "发现于平原！掉落草原公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<forestry:beehives:2>,
 [
-    "Found in deserts! Drops a Modest Princess and Drones!"
+    "发现于沙漠！掉落温和公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<forestry:beehives:3>,
 [
-    "Found in jungles! Drops a Tropical Princess and Drones!"
+    "发现于丛林！掉落热带公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<forestry:beehives:6>,
 [
-    "Found in swamps! Drops a Marshy Princess and Drones!"
+    "发现于沼泽！掉落沼泽公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<forestry:beehives:5>,
 [
-    "Found in cold biomes! Drops a Wintry Princess and Drones!"
+    "发现于寒冷群系！掉落凛冬公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<forestry:beehives:4>,
 [
-    "Found in the end! Drops an Ender Princess and Drones, with a chance of dropping a Valiant!"
+    "发现于末地！掉落末影公主蜂和雄蜂，有概率掉落勇者蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<extrabees:hive:2>,
 [
-    "Found in the nether! Drops an Embittered Princess and Drones!"
+    "发现于下界！掉落激怒公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<magicbees:hiveblock:0>,
 [
-    "Found in forests! Drops a Mystical Princess and Drones!"
+    "发现于森林！掉落神秘公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<magicbees:hiveblock:1>,
 [
-    "Found in plains and rivers! Drops an Unusual Princess and Drones!"
+    "发现于平原和河流！掉落非凡公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<magicbees:hiveblock:2>,
 [
-    "Found in deserts and mesas! Drops a Sorcerous Princess and Drones!"
+    "发现于沙漠和高原！掉落巫术公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<magicbees:hiveblock:3>,
 [
-    "Found in underground! Drops an Attuned Princess and Drones!"
+    "发现于地下！掉落谐振公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<magicbees:hiveblock:4>,
 [
-    "Found in the nether! Drops an Infernal Princess and Drones!"
+    "发现于下界！掉落地狱公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription(<magicbees:hiveblock:5>,
 [
-    "Found in the end! Drops an Oblivion Princess and Drones!"
+    "发现于末地！掉落湮没公主蜂和雄蜂！"
 ]);
 
 mods.jei.JEI.addDescription([<tce:tce_torch_lvl1>, <tce:tce_compressed_torch_lvl1>],
 [
-    "The Torcherino lets you tick-accelerate nearby tiles!",
+    "加速火把可以加速附近的方块！",
     "",
-    "Right click to increase range.",
+    "右击打开GUI。",
     "",
-    "Shift + right click to increase acceleration (default is 0%)."
+    "可设置红石控制。"
 ]);
 
 mods.jei.JEI.addDescription([<advancedrocketry:launchpad>,<advancedrocketry:structuretower>,<contenttweaker:launchpad>],
 [
-    "To lauch any rocket, satellite, or space station into orbit, you need a Launchpad multiblock! This has to be done in the overworld!",
+    "要发射火箭、卫星或者空间站，需要发射台多方块结构！需要在主世界搭建！",
     "",
-    "Place a rectangle of Launch Pads that can be any size. The larger the launchpad, the bigger the rocket you can build!",
+    "放置方形的发射台，尺寸任意。发射台越大，可建造的火箭就越大！",
     "",
-    "Place a single block tower of Structure Towers right next to the launchpad. The taller the tower, the the bigger the rocket you can build!",
+    "在放射台旁放置结构塔。结构塔越高，可建造的火箭就越大！",
     "",
-    "Any assembler block will need to be placed one level above the launchpad, right next to it!"
+    "组装机需要放置在发射台上方，与发射台相邻！"
 ]);
 
 
 
 mods.jei.JEI.addDescription([<contenttweaker:rocket>,<advancedrocketry:rocketmotor>,<advancedrocketry:advrocketmotor>,<advancedrocketry:fueltank>,<advancedrocketry:guidancecomputer>,<advancedrocketry:seat>,<advancedrocketry:rocketbuilder>,<advancedrocketry:planetidchip>],
 [
-    "A rocket requires the Launchpad multiblock! This has to be done in the overworld!",
+    "火箭需要发射台多方块结构！需要在主世界搭建！",
     "",
-    "Rockets can be made out of any blocks as long as they are placed inside the launchpad volume!",
+    "火箭可以由放置在发射台空间范围内任意方块构成！",
     "",
-    "To produce boost, the rocket needs engines. The Advanced Rocket Engine is the best! Use those!",
+    "火箭需要引擎来推进。高级火箭发动机是最好选择！",
     "",
-    "To store fuel, you need Liquid Fuel Tanks!",
+    "需要燃料箱来存储燃料！",
     "",
-    "To control the rocket, you need one Guidance Computer!",
+    "控制火箭需要使用导航电脑！",
     "",
-    "To house the player, you need a Seat!",
+    "需要座位来容纳玩家！",
     "",
-    "The Rocket Assembling Machine will tell you if the rocket is good for lift-off! Once you have built it, press build!",
+    "火箭组装机可显示火箭是否满足发射条件！建造好后点击建造按钮！",
     "",
-    "Shift + right click the Guidance Computer to open the rocket GUI. Place a Planet ID Chip into the Guidance Computer. Use PlanetList in the top left of the selection screen to pick your destination!",
+    "Shift右击导航电脑来打开火箭GUI。在导航电脑中放入星球ID芯片。使用选择界面左上角的PlanetList按钮来选择目的地！",
     "",
-    "Right click the rocket with buckets of rocket fuel to fuel it, or use the Fueling Station (placed adjacent to launchpad, one block above).",
+    "使用火箭燃料桶右击火箭为其装填燃料，或使用燃油站进行装填（放置在发射台旁，比发射台高一格）。",
     "",
-    "Make sure you have oxygen in your space suit or the Airtight Seal enchantment on your armor!"
+    "确保太空服或附有真空密封的盔甲内有氧气！"
 ]);
 
 
 mods.jei.JEI.addDescription([<contenttweaker:space_station>,<advancedrocketry:monitoringstation>,<advancedrocketry:spacestationchip>,<advancedrocketry:loader:1>,<advancedrocketry:stationbuilder>],
 [
-    "A Space Station requires the Launchpad multiblock and a rocket! This has to be done in the Overworld!",
+    "空间站需要发射台多方块结构！需要在主世界搭建！",
     "",
-    "The Space Station can be made out of any blocks as long as they are placed inside the launchpad volume!",
+    "空间站可以由放置在发射台空间范围内任意方块构成！",
     "",
-    "The Space Station Assembler will tell you if the Station Structure is valid!",
+    "太空站组装机可显示空间站是否有效！",
     "",
-    "To assemble the Space Station you will need a Space Station ID Chip and a Satellite Bay!",
+    "需要空间站ID芯片和卫星仓来组装太空站！",
     "",
-    "Make multiple copies of the chip using the Satellite Builder!",
+    "复制多份芯片以在卫星建造机中使用！",
     "",
-    "Build a valid rocket that has a Satellite Bay, and place the Space Station Container inside the bay.",
+    "建造一个有卫星仓的有效火箭，将空间站容器放入卫星仓中。",
     "",
-    "Place one of your ID chips into the Guidance Computer.",
+    "将一个ID芯片放入导航电脑。",
     "",
-    "You can jump into the rocket, and lauch it! It will land on the newly formed space station!",
+    "进入火箭，发射！火箭将在新成型的空间站着陆！",
     "",
-    "The remaining ID chip can be used to get to the station with another rocket in case you get locked out!"
+    "如果丢失空间站信息，可使用剩余的ID芯片搭乘其他火箭来返回空间站！"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -665,110 +665,110 @@ mods.jei.JEI.addDescription([
     <advancedrocketry:warpcore>,
     <advancedrocketry:warpmonitor>],
 [
-    "The Warp Drive setup needs to be done in a space station!",
+    "跃迁引擎需要在空间站内构建！",
     "",
-    "Assemble the Warp Core multiblock, you can use the Holo-Projector to see a preview!",
+    "组装跃迁核心多方块，可使用全息投影器查看预览！",
     "",
-    "Pipe Dilithium into the warp core.",
+    "向跃迁核心输入双锂。",
     "",
-    "You can select your destination using the Warp Controller!",
+    "使用跃迁控制器选择目的地！",
     "",
-    "Some planets need an artifact to be placed in the controller to be reached:",
-    "Sedna",
-    "Rhenia",
-    "Myrmex",
-    "Pixonia",
-    "Proxima belt",
-    "All Dynathos planets",
-    "Alkemia",
+    "某些星球需要在控制器内放置神器才能到达：",
+    "塞德娜",
+    "铼界",
+    "恐蚁界",
+    "光精界",
+    "比邻星带",
+    "所有强能界星球",
+    "炼金界",
     "",
-    "To reach Sedna, it may be too far to do in one lauch, travel to Haumea or Falacer first if that's the case."
+    "要前往塞德娜，一次可能不够，可以先前往哈乌美亚或法拉瑟作为中转。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:mob_farm>,
 [
-    "There are a lot of ways to make a mob farm! The Book of Creation lists all options, but the recommended progression is:",
-    "Industrial Foregoing",
+    "建造刷怪场的方法有很多！创造之书中列出了所有可选项，但是推荐按以下流程进行：",
+    "工业先锋",
     "Woot",
-    "Deep Mob Learning",
-    "Ultimate Mob Farm",
+    "深度怪物学习",
+    "终极生物农场",
     "",
-    "The best way to spawn mobs early on is to use a Drop of Evil on a patch of dirt to make Cursed Earth, which will spread like grass. It will increase hostile mob spawns! Y = 2 is the best place to do this!",
+    "在早期，刷怪的最佳手段是对泥土使用邪恶点滴来生成诅咒之土，它会像草方块一样蔓延。诅咒之土能增加敌对生物的刷新率！放置的最佳地点是Y=2处！",
     "",
-    "The Mob Crusher is the most convenient way to kill mobs. Range Addons let you cover an entire patch of Cursed Earth!",
+    "屠宰机是最方便的杀怪手段。安装范围升级后可覆盖一整片诅咒之土！",
     "",
-    "The essence from the Crusher can be used to run Mob Duplicators for specific mob farms."
+    "屠宰机产出的精华液可在自动刷怪机中生成特定生物。"
 ]);
 
 mods.jei.JEI.addDescription(<industrialforegoing:mob_duplicator>,
 [
-    "There are a lot of ways to make a mob farm! The Book of Creation lists all options, but the recommended progression is:",
-    "Industrial Foregoing",
+    "建造刷怪场的方法有很多！创造之书中列出了所有可选项，但是推荐按以下流程进行：",
+    "工业先锋",
     "Woot",
-    "Deep Mob Learning",
-    "Ultimate Mob Farm",
+    "深度怪物学习",
+    "终极生物农场",
     "",
-    "The best way to spawn mobs early on is to use a Drop of Evil on a patch of dirt to make Cursed Earth, which will spread like grass. It will increase hostile mob spawns! Y = 2 is the best place to do this!",
+    "在早期，刷怪的最佳手段是对泥土使用邪恶点滴来生成诅咒之土，它会像草方块一样蔓延。诅咒之土能增加敌对生物的刷新率！放置的最佳地点是Y=2处！",
     "",
-    "The Mob Crusher is the most convenient way to kill mobs. Range Addons let you cover an entire patch of Cursed Earth!",
+    "屠宰机是最方便的杀怪手段。安装范围升级后可覆盖一整片诅咒之土！",
     "",
-    "The essence from the Crusher can be used to run Mob Duplicators for specific mob farms."
+    "屠宰机产出的精华液可在自动刷怪机中生成特定生物。"
 ]);
 
 mods.jei.JEI.addDescription(<industrialforegoing:mob_relocator>,
 [
-    "There are a lot of ways to make a mob farm! The Book of Creation lists all options, but the recommended progression is:",
-    "Industrial Foregoing",
+    "建造刷怪场的方法有很多！创造之书中列出了所有可选项，但是推荐按以下流程进行：",
+    "工业先锋",
     "Woot",
-    "Deep Mob Learning",
-    "Ultimate Mob Farm",
+    "深度怪物学习",
+    "终极生物农场",
     "",
-    "The best way to spawn mobs early on is to use a Drop of Evil on a patch of dirt to make Cursed Earth, which will spread like grass. It will increase hostile mob spawns! Y = 2 is the best place to do this!",
+    "在早期，刷怪的最佳手段是对泥土使用邪恶点滴来生成诅咒之土，它会像草方块一样蔓延。诅咒之土能增加敌对生物的刷新率！放置的最佳地点是Y=2处！",
     "",
-    "The Mob Crusher is the most convenient way to kill mobs. Range Addons let you cover an entire patch of Cursed Earth!",
+    "屠宰机是最方便的杀怪手段。安装范围升级后可覆盖一整片诅咒之土！",
     "",
-    "The essence from the Crusher can be used to run Mob Duplicators for specific mob farms."
+    "屠宰机产出的精华液可在自动刷怪机中生成特定生物。"
 ]);
 
 mods.jei.JEI.addDescription([<woot:controller>,<woot:factory>,<woot:builder>],
 [
-    "Woot lets you build mob farms without spawning mobs. Note that the factories can get large!",
+    "Woot模组可以在不生成生物的情况下制作刷怪场。注意，工厂结构会很大！",
     "",
-    "There are 4 tiers of Woot farms! Each tier will drop shards of the tier after (tier 1 farm drops tier 1 and 2 shards).",
+    "Woot工厂一共有4级！每级都可掉落对应及更高一级的碎片。",
     "",
-    "To start, craft a factory heart and an Intern! The Intern lets you select a tier, and it will tell you the materials you need to build the Woot farm! Clicking the Factory Heart with the Intern will build the mob farm!",
+    "首先，制作工厂核心和工厂搭建器！工厂搭建器可以选择工厂等级，显示搭建工厂所需材料！使用工厂搭建器右击工厂核心来自动搭建！",
     "",
-    "After the structure is complete, you will have to add some blocks manually. To check if those are correct, right click the Factory Heart with a Ya Hammer. ",
+    "结构完整后，还需要手动放置一些方块。可使用YA锤子右击工厂核心来查看结构是否正确。",
     "",
-    "Place the following blocks under the farm, in this exact order from top to bottom, directly under the Heart, with a gap of at most 10 blocks: Power Cell, Factory Importer, Factory Exporter.",
+    "在工厂核心下方最多10格间隔处放置以下方块，顺序从上到下：能量单元、工厂输入设备、工厂输出设备。",
     "",
-    "To farm a specific mob with Woot, you need a bound Ender Shard. Hit a mob with it, and kill it after to bind your shard (it will start glowing).",
+    "要组成特定生物的Woot工厂，需要绑定对应生物的末影碎片。用末影碎片攻击一下所选生物，接着击杀便可将其绑定至末影碎片（碎片会拥有附魔闪光特效）。",
     "",
-    "Use the bound shard to craft a controller, and place it on top of the block behind the Factory Heart!"
+    "使用绑定好的碎片制作工厂控制器，将其放置在工厂核心后方方块之上来组成Woot工厂！"
 ]);
 
 
 
 mods.jei.JEI.addDescription(<thaumcraft:causality_collapser>,
 [
-    "To unlock this with thaumcraft research complete:",
-    "1. Scan a vis crystal (the block not the item)",
-    "2. Unlock vis battery in auromancy"
+    "如何完全解锁该物品的研究：",
+    "1. 扫描魔力水晶（方块，不是物品）",
+    "2. 解锁神秘学中的灵气电池"
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:ritual_of_the_sleeper>, <abyssalcraft:eoa>],
 [
-    "Obtained from the Ritual of the Sleeper!",
+    "通过沉睡者仪式获得！",
     "",
-    "The ritual must be performed in the Abyssal Wasteland, using an Abyssal Wasteland Necronomicon, following the base Abyssalcraft ritual shape. All the following ingredients are on the outside pedestals:",
-    "4 Gold Ingots",
-    "1 Transmutation Gem",
-    "1 Bucket of Liquid Coralium",
-    "1 Enchantment Table",
+    "仪式必须在深渊荒原使用深渊荒原死灵之书进行。在仪式基座上放置以下材料：All the following ingredients are on the outside pedestals:",
+    "4个金锭",
+    "1个嬗变宝石",
+    "1个液态珊瑚桶",
+    "1个附魔台",
     "",
-    "The ritual costs 1000 PE.",
+    "仪式需消耗1000PE。",
 	"",
-	"The Necronomicon has more information."
+	"死灵之书中有更详细信息。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -778,35 +778,35 @@ mods.jei.JEI.addDescription([
     <abyssalcraft:necronomicon_omt>,
     <abyssalcraft:abyssalnomicon>],
 [
-    "The Necronomicon is the 'magic wand' of Abyssalcraft that lets you perform rituals and activate mechanics.",
+    "死灵之书是深渊国度版的'法杖'，可用来进行仪式，激活机器。",
     "",
-    "There are 5 tiers of Necronomicon, corresponding to each dimension in the mod. Specific rituals require specific tiers, so you should upgrade as soon as you enter a new Abyssalcraft dimension.",
+    "一共有5个级别的死灵之书，与模组内的各个维度对应。特定仪式存在等级要求，所以尽快前往模组的新维度。",
     "",
-    "To run a Necronomicon needs Potential Energy (PE). This can be obtained through: ",
+    "死灵之书需要位能（PE）来工作。可通过以下方式获得：",
     "",
-    "Abyssalcraft Statues: you can place these in-world, and they will passively charge a Necronomicon held by a player or placed on a Charging Pedestal nearby. Statues can be organized in Places of Power so that they do not produce bad effects from being placed in world. Check the multiblock previews for Statues to see Places of Power.",
+    "雕像：放置在世界中，可为附近玩家手中或能量基座上的死灵之书被动充能。雕像可构成权力之地，以避免产生负面效果。查看雕像的多方块预览以了解权力之地。",
     "",
-    "Sacrificial altar: kill mobs around the altar to charge a Necronomicon held by a player or  placed on a Charging Pedestal nearby.",
+    "献祭祭坛：在祭坛周围杀死生物可为附近玩家手中或能量基座上的死灵之书充能。",
     "",
-    "Necronomibee: make Necronomicombs to craft fully charged Necronomicons. Use the Nomnomnomicon to recycle empty books.",
+    "死灵书蜜蜂：使用死灵书蜂窝来完全充能死灵之书。使用吧唧之书来回收零充能的书",
 	"",
-	"To perform rituals, you need 9 cobblestone of a particular type depending on the tier required by the ritual. See the multiblock preview to see how they are placed. Right click the middle cobblestone with a Necronomicon to form the ritual structure. These can bug out, if they don't work, make sure the ritual is not on a chunk boundary, and relog.",
+	"要进行仪式，需要按仪式要求放置特定种类的圆石。查看多方块预览以了解如何放置。使用死灵之书右击中心的圆石来使仪式结构成型。可能会出bug，若未成形，确保仪式结构在同一区块，然后重新登陆。",
 	"",
-	"Ritual tiers, JEI shows the specific tier for each dimension:",
-	"Overworld uses Vanilla Cobblestone",
-	"Abyssal Wasteland uses Abyssal Cobblestone",
-	"Dreadlands uses Dreadstone Cobblestone",
-	"Omothol uses Ethaxium Bricks",
-	"Darkl Realm uses Dark Ethaxium Bricks"
+	"仪式等级，JEI中显示了每个维度的具体等级：",
+	"主世界，使用原版圆石",
+	"深渊荒原，使用深渊圆石",
+	"恐惧之地，使用恐惧圆石",
+	"奥穆索，使用伊塞斯砖块",
+	"黑暗领域，使用暗色伊塞斯砖块"
 ]);
 
 
 mods.jei.JEI.addDescription([
     <abyssalcraft:powerstonetracker>],
 [
-    "The powerstone trackers work like eyes of ender, and will lead you to the dreadlands powerstone.",
+    "蕴能石追踪器与末影之眼类似，可引导你寻找恐惧之地蕴能石。",
 	"",
-	"The powerstone is quite hard to find, use the Scanner Module from the questbook to help yourself out!"
+	"蕴能石不容易找到，使用任务书中的扫描模块帮助寻找！"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -816,23 +816,23 @@ mods.jei.JEI.addDescription([
     <abyssalcraft:drainstaff:3>,
     <abyssalcraft:staff>],
 [
-    "The Staffs are used to make Abyssalcraft Essences.",
+    "法杖用于制作深渊国度模组的精华。",
     "",
-    "Right click a Staff on Abyssalcraft Mobs on a given dimension to drain some of their HP and absorb energy.",
+    "对深渊国度模组对应维度的怪物右击，消耗其生命来吸收能量。",
 	"",
-	"After energy reaches a treshold, an essence will be made."
+	"达到阈值后，会产出精华。"
 ]);
 
 
 mods.jei.JEI.addDescription(<contenttweaker:infernal_furnace>,
 [
-    "The Infernal Furnace is a 3x3x3 multiblock. See the JEI preview for the structure.",
+    "狱火熔炉是一个3x3x3大小的多方块。在JEI中查看结构预览。",
     "",
-    "Right click the structure with Salis Mundus to form the furnace.",
+    "使用世界盐右击结构来使熔炉成型。",
     "",
-    "This multiblock produces flux, so make sure you have ways to clear it up if you automate it!",
+    "该多方块会产出咒波，想自动化的话请确保有清除咒波的手段！",
     "",
-    "Drop items from the top to smelt them. Ingots have a chance of giving bonus nuggets and meats have a chance of producing meat nuggets!"
+    "从上方丢入物品来进行烧炼。锭有概率产出额外粒，肉有概率产出额外肉粒！"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -843,1022 +843,1022 @@ mods.jei.JEI.addDescription([
     <thaumcraft:chunk:4>,
     <thaumcraft:chunk:5>],
 [
-    "The Infernal Furnace is a 3x3x3 multiblock.",
-    "The four vertical corners of the structure are made out of Nether Bricks.",
-    "The middle block of one of the faces is an iron bar.",
-    "The top middle block is empty.",
-    "The rest is obsidian.",
-    "The center of the cube is lava.",
-    "Right click the structure with Salis Mundus to form the furnace.",
+    "狱火熔炉是一个3x3x3大小的多方块。",
+    "结构的竖直四角由地狱砖构成。",
+    "其中一个侧面的中心为铁栏杆。",
+    "二三层中心方块留空。",
+    "其余地方放置黑曜石。",
+    "立方体中心为熔岩。",
+    "使用世界盐右击结构来使熔炉成型。",
     "",
-    "Drop items from the top to smelt them. Ingots have a chance of giving bonus nuggets and meats have a chance of producing meat nuggets!"
+    "从上方丢入物品来进行烧炼。锭有概率产出额外粒，肉有概率产出额外肉粒！"
 ]);
 
 mods.jei.JEI.addDescription(<techreborn:machine_frame:0>,
 [
-    "Tech Reborn machines have a limit on the amount of power they can accept, this can be increased with the Transformer Upgrade!",
+    "科技复兴模组的机器能接受的能量有上限。可使用变压器升级增加！",
     "",
-    "The Overclocker Upgrade lets you increase machine speed!",
+    "超频升级可提高机器速度！",
     "",
-    "The Energy Storage Upgrade will increase machine buffer!"
+    "储能升级可增加机器能量缓存！"
 ]);
 mods.jei.JEI.addDescription(<techreborn:machine_frame:1>,
 [
-    "Tech Reborn machines have a limit on the amount of power they can accept, this can be increased with the Transformer Upgrade!",
+    "科技复兴模组的机器能接受的能量有上限。可使用变压器升级增加！",
     "",
-    "The Overclocker Upgrade lets you increase machine speed!",
+    "超频升级可提高机器速度！",
     "",
-    "The Energy Storage Upgrade will increase machine buffer!"
+    "储能升级可增加机器能量缓存！"
 ]);
 mods.jei.JEI.addDescription(<techreborn:machine_frame:2>,
 [
-    "Tech Reborn machines have a limit on the amount of power they can accept, this can be increased with the Transformer Upgrade!",
+    "科技复兴模组的机器能接受的能量有上限。可使用变压器升级增加！",
     "",
-    "The Overclocker Upgrade lets you increase machine speed!",
+    "超频升级可提高机器速度！",
     "",
-    "The Energy Storage Upgrade will increase machine buffer!"
+    "储能升级可增加机器能量缓存！"
 ]);
 mods.jei.JEI.addDescription(<techreborn:upgrades:0>,
 [
-    "Tech Reborn machines have a limit on the amount of power they can accept, this can be increased with the Transformer Upgrade!",
+    "科技复兴模组的机器能接受的能量有上限。可使用变压器升级增加！",
     "",
-    "The Overclocker Upgrade lets you increase machine speed!",
+    "超频升级可提高机器速度！",
     "",
-    "The Energy Storage Upgrade will increase machine buffer!"
+    "储能升级可增加机器能量缓存！"
 ]);
 mods.jei.JEI.addDescription(<techreborn:upgrades:1>,
 [
-    "Tech Reborn machines have a limit on the amount of power they can accept, this can be increased with the Transformer Upgrade!",
+    "科技复兴模组的机器能接受的能量有上限。可使用变压器升级增加！",
     "",
-    "The Overclocker Upgrade lets you increase machine speed!",
+    "超频升级可提高机器速度！",
     "",
-    "The Energy Storage Upgrade will increase machine buffer!"
+    "储能升级可增加机器能量缓存！"
 ]);
 mods.jei.JEI.addDescription(<techreborn:upgrades:2>,
 [
-    "Tech Reborn machines have a limit on the amount of power they can accept, this can be increased with the Transformer Upgrade!",
+    "科技复兴模组的机器能接受的能量有上限。可使用变压器升级增加！",
     "",
-    "The Overclocker Upgrade lets you increase machine speed!",
+    "超频升级可提高机器速度！",
     "",
-    "The Energy Storage Upgrade will increase machine buffer!"
+    "储能升级可增加机器能量缓存！"
 ]);
 
 mods.jei.JEI.addDescription(<techreborn:fusion_control_computer>,
 [
-    "The Solid Fusion Reactor is part of a multiblock! It requires a ring of Fusion Coils and a Fusion Control Computer. You can right click the coils on the reactor to auto place!",
+    "固态聚变反应堆是一个多方块结构！需要一圈固态聚变线圈和一个固态聚变控制计算机。可使用线圈右击控制器进行自动放置！",
     "",
-    "The reactor can have multiple sizes, but you should use the smallest size for all recipes except Promethium and Ruthenium.",
+    "反应堆可以是多种尺寸，但除了钷和钌的配方，均应使用最小尺寸。",
     "",
-    "For energy-negative recipes (check JEI), the reactor will consume more power if it's larger.",
+    "对于负能量配方（查看JEI），反应堆越大能量消耗越大。",
     "",
-    "For energy-positive recipes (Promethium and Ruthenium) the reactor make more power if it's larger."
+    "对于正能量配方（钷和钌），反应堆越大产出能量越大。"
 ]);
 mods.jei.JEI.addDescription(<techreborn:fusion_coil>,
 [
-    "The Solid Fusion Reactor is part of a multiblock! It requires a ring of Fusion Coils and a Fusion Control Computer. You can right click the coils on the reactor to auto place!",
+    "固态聚变反应堆是一个多方块结构！需要一圈固态聚变线圈和一个固态聚变控制计算机。可使用线圈右击控制器进行自动放置！",
     "",
-    "The reactor can have multiple sizes, but you should use the smallest size for all recipes except Promethium and Ruthenium.",
+    "反应堆可以是多种尺寸，但除了钷和钌的配方，均应使用最小尺寸。",
     "",
-    "For energy-negative recipes (check JEI), the reactor will consume more power if it's larger.",
+    "对于负能量配方（查看JEI），反应堆越大能量消耗越大。",
     "",
-    "For energy-positive recipes (Promethium and Ruthenium) the reactor make more power if it's larger."
+    "对于正能量配方（钷和钌），反应堆越大产出能量越大。"
 ]);
 mods.jei.JEI.addDescription(<contenttweaker:plasma_wood>,
 [
-    "The Solid Fusion Reactor is part of a multiblock! It requires a ring of Fusion Coils and a Fusion Control Computer. You can right click the coils on the reactor to auto place!",
+    "固态聚变反应堆是一个多方块结构！需要一圈固态聚变线圈和一个固态聚变控制计算机。可使用线圈右击控制器进行自动放置！",
     "",
-    "The reactor can have multiple sizes, but you should use the smallest size for all recipes except Promethium and Ruthenium.",
+    "反应堆可以是多种尺寸，但除了钷和钌的配方，均应使用最小尺寸。",
     "",
-    "For energy-negative recipes (check JEI), the reactor will consume more power if it's larger.",
+    "对于负能量配方（查看JEI），反应堆越大能量消耗越大。",
     "",
-    "For energy-positive recipes (Promethium and Ruthenium) the reactor make more power if it's larger."
+    "对于正能量配方（钷和钌），反应堆越大产出能量越大。"
 ]);
 
 
 mods.jei.JEI.addDescription(<nuclearcraft:fusion_core>,
 [
-    "The Magnetic Confinement Fusion Reactor is a multiblock made with one Fusion Core, a lot of Fusion Electromagnets, and at least four Fusion Connectors!",
+    "磁约束聚变反应堆是由聚变堆核心、大量电磁体以及至少四个聚变连接器构成的多方块结构！",
     "",
-    "The Fusion Connectors are placed in straight lines coming out of the core on all four sides. You need at least one on each side.",
-    "The longer the arms, the higher the energy output! All arms should be the same length!",
+    "聚变连接器从聚变堆核心的四个侧面向外沿直线放置。每面至少需要一个。",
+    "聚变连接器越长，能量输出越高！四个连接器臂长度需相等！",
     "",
-    "The Fusion Electromagnets are placed in four square rings around the connectors, see the multiblock preview for a size one assembly.",
+    "电磁体以4个方形环状与连接器相邻放置，查看多方块预览中单个连接器下的建造配置。",
     "",
-    "Place Flux Points or other energy transfer on the electromagnets until they are all green.",
+    "将电磁体与通量接出点或其他能量传输方块连接充能，直到所有电磁体都变为绿色。",
     "",
-    "Once a reactor is started, temperature will build up until the heat bar is full. During this stage, the reactor will consume energy.",
+    "反应堆启动后，温度会逐渐上升直到热量槽充满。在此期间，反应堆会消耗能量。",
     "",
-    "After that bar is filled, the reactor will enter operating mode, and it will start making energy. In this state, the reactor will have to be cooled. If the temperature gets too high, it will melt down.",
+    "热量槽充满后，反应堆会进入操作模式，开始产出能量。在此阶段，反应堆必须被冷却。一旦温度过高，结构将融化。",
     "",
-    "To cool the reactor, place Active Coolers around the electromagnets, and pipe water into them.",
-    "If coolers are placed following central symmetry with respect to the core, they are more efficient.",
-    "The reactor makes the most power at 100% efficiency! No more, no less."
+    "要冷却反应堆，在电磁体周围放置液冷器，向液冷器中输送水。",
+    "液冷器相对于反应堆核心中心对称时，效率最高。",
+    "反应堆在100%效率下产能最大！不能多也不能少。"
 ]);
 
 
 mods.jei.JEI.addDescription(<industrialforegoing:tinydryrubber>,
 [
-    "To make Tiny Dry Rubber you will need a Latex Processing Unit, and Tree Fluid Extractors!",
+    "需要树液提取器和胶乳加工机来制作小块干橡胶！",
     "",
-    "Three fluid extractors will make latex by breaking wood logs placed in front of them. Multiple extractors can be placed on the same wood block!",
-    "This can be automated with any block placer (Mechanical User recommended) to continuously refill wood!",
+    "树液提取器可缓慢破坏前方木头来产出胶乳。多个提取器可同时对同一块木头工作！",
+    "可使用任意方块放置手段（推荐使用者）来自动化！",
     "",
-    "The Latex Processing Unit takes water, latex, and energy to make Tiny Dry Rubber!"
+    "胶乳加工机消耗水、胶乳和能量产出小块干橡胶！"
 ]);
 
 mods.jei.JEI.addDescription(<industrialforegoing:latex_processing_unit>,
 [
-    "To make Tiny Dry Rubber you will need a Latex Processing Unit, and Tree Fluid Extractors!",
+    "需要树液提取器和胶乳加工机来制作小块干橡胶！",
     "",
-    "Three fluid extractors will make latex by breaking wood logs placed in front of them. Multiple extractors can be placed on the same wood block!",
-    "This can be automated with any block placer (Mechanical User recommended) to continuously refill wood!",
+    "树液提取器可缓慢破坏前方木头来产出胶乳。多个提取器可同时对同一块木头工作！",
+    "可使用任意方块放置手段（推荐使用者）来自动化！",
     "",
-    "The Latex Processing Unit takes water, latex, and energy to make Tiny Dry Rubber!"
+    "胶乳加工机消耗水、胶乳和能量产出小块干橡胶！"
 ]);
 
 mods.jei.JEI.addDescription(<industrialforegoing:tree_fluid_extractor>,
 [
-    "To make Tiny Dry Rubber you will need a Latex Processing Unit, and Tree Fluid Extractors!",
+    "需要树液提取器和胶乳加工机来制作小块干橡胶！",
     "",
-    "Three fluid extractors will make latex by breaking wood logs placed in front of them. Multiple extractors can be placed on the same wood block!",
-    "This can be automated with any block placer (Mechanical User recommended) to continuously refill wood!",
+    "树液提取器可缓慢破坏前方木头来产出胶乳。多个提取器可同时对同一块木头工作！",
+    "可使用任意方块放置手段（推荐使用者）来自动化！",
     "",
-    "The Latex Processing Unit takes water, latex, and energy to make Tiny Dry Rubber!"
+    "胶乳加工机消耗水、胶乳和能量产出小块干橡胶！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:early_game_energy>,
 [
-    "The recommended early-game energy progression is:",
-    "1. Thermoelectric Generators (for getting started)",
-    "2. Any dynamo from Thermal Expansion (you may want to spam these), or the Diesel Generator from Immersive Engineering",
-    "3. Compression Engine (to run mythic miners)",
-    "4. Yellorium-fueled Extreme Reactor",
-    "5. Nuclearcraft"
+    "前期推荐按以下流程发电：",
+    "1. 热传导发电器（起步）",
+    "2. 任意热力膨胀模组的能源炉（多堆量），或者沉浸工程模组的柴油发电机",
+    "3. 压缩引擎（用于运行神话采掘机）",
+    "4. 极限反应堆模组，使用黄铀",
+    "5. 核电工艺"
 ]);
 
 mods.jei.JEI.addDescription(<astralsorcery:itemwand>,
 [
-    "Recipes that require starlight are done in the large Astral Sorcery temples!",
+    "需要星能的配方可在星辉魔法的大型神庙中进行！",
     "",
-    "Place a crafting table under the Collector Crystal, and break blocks so that the crystal can see the sky.",
+    "在聚能水晶下放置工作台，水晶上方需露天。",
     "",
-    "Starlight recipes can only be made at night!"
+    "星能配方只可在夜晚进行！"
 ]);
 
 mods.jei.JEI.addDescription(<astralsorcery:blockaltar:0>,
 [
-    "Recipes that require starlight are done in the large Astral Sorcery temples!",
+    "需要星能的配方可在星辉魔法的大型神庙中进行！",
     "",
-    "Place a crafting table under the Collector Crystal, and break blocks so that the crystal can see the sky.",
+    "在聚能水晶下放置工作台，水晶上方需露天。",
     "",
-    "Starlight recipes can only be made at night!"
+    "星能配方只可在夜晚进行！"
 ]);
 
 mods.jei.JEI.addDescription(<appliedenergistics2:part:360>,
 [
-    "The ME Crafting Terminal lets you see all items in your AE2 network and it includes a crafting table!",
+    "ME合成终端可以访问AE2网络中的所有物品，本身还自带一个工作台！",
     "",
-    "You can import recipes from JEI. If an item shows as blue in the JEI recipe preview, you can middle click on it to autocraft it!"
+    "可以通过JEI填充配方。若物品在JEI配方预览中显示为蓝色，则可中键点击该物品来自动合成！"
 ]);
 
 mods.jei.JEI.addDescription(<appliedenergistics2:part:380>,
 [
-    "The ME Terminal lets you see all items in your AE2 network. You should upgrade to the crafting terminal!"
+    "ME终端可以访问AE2网络中的所有物品。你应该把它升级为合成终端！"
 ]);
 
 mods.jei.JEI.addDescription([<appliedenergistics2:part:340>,<appliedenergistics2:part:340>],
 [
-    "The ME Pattern Terminal lets you encode recipes into patterns for autocrafting.",
+    "ME样板终端可以编码样板来进行自动合成。",
     "",
-    "Patterns have two modes: 'Crafting Pattern' works for Molecular Assembler recipes, 'Processing Pattern' mode works for any interface-machine interaction!",
+    "样板有两种模式：'合成样板'，可用于分子装配室；'处理样板'，可用于和接口相连的机器交互！",
     "",
-    "Press R on an item in JEI to add it as a recipe. Click and drag items from JEI to add them as recipes manually!"
+    "在JEI中对物品按R键将其作为配方添加。从JEI中点击并拖拽物品将其手动添加到配方中！"
 ]);
 
 mods.jei.JEI.addDescription(<appliedenergistics2:part:480>,
 [
-    "The ME Interface Terminal lets you see all interfaces in your network!",
+    "ME接口终端可查看网络中的所有接口！",
     "",
-    "Each interface can be named, and patterns can be added directly from this terminal!"
+    "每个接口都可重命名，可以从该终端中直接把样板放入终端！"
 ]);
 
 mods.jei.JEI.addDescription(<appliedenergistics2:part:520>,
 [
-    "The ME Fluid Terminal lets you see all fluids in your network!"
+    "ME流体终端可查看网络中的所有流体！"
 ]);
 
 mods.jei.JEI.addDescription(<ae2fc:part_fluid_pattern_terminal>,
 [
-    "The ME Fluid Pattern Terminal works like the ME Pattern Terminal, but with fluids too!"
+    "ME流体样板终端与ME样板终端类似，但是可用于流体！"
 ]);
 
 mods.jei.JEI.addDescription(<erebus:portal_activator>,
 [
-    "Part of the portal to the Erebus!",
+    "混沌之地传送门的一部分！",
     "",
-    "Build a portal frame (any size) out of stone bricks, and place leaves inside!",
+    "使用石砖建造任意尺寸的传送门框架，在其中放满树叶！",
     "",
-    "Place the Gaean Keystone within 6 blocks of the portal (same height as bottom block).",
+    "在传送门6格范围内放置盖亚楔石。",
     "",
-    "Use the Staff of Gaea on the altar to open the portal. This may bug out, so try different locations for the keystone!",
+    "对楔石使用盖亚权杖来打开传送门。可能会出bug，可改变楔石位置多次尝试！",
     "",
-    "You will need a way back!"
+    "需要额外一个盖亚权杖用来返回！"
 ]);
 
 mods.jei.JEI.addDescription(<immersiveengineering:connector:0>,
 [
-    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "将接线器放置在想要传输能量的方块上，使用线圈右击接线器以相互连接。",
     "",
-    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
+    "线圈的范围为16格（高压线圈为32格），如果接线端超出范围，需要在中间放置继电器！",
     "",
-    "Connectors can only have one input and one output, relays can have multiple!",
+    "接线器只能与一个接线器连接，继电器则连接数限制！",
     "",
-    "If too much current is going through, the wire will explode!",
+    "若电流过大，线缆将烧毁！",
     "",
-    "Non-insulated wires will damage you if you touch them!"
+    "非绝缘线圈会在接触时造成伤害！"
 ]);
 
 mods.jei.JEI.addDescription(<immersiveengineering:connector:1>,
 [
-    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "将接线器放置在想要传输能量的方块上，使用线圈右击接线器以相互连接。",
     "",
-    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
+    "线圈的范围为16格（高压线圈为32格），如果接线端超出范围，需要在中间放置继电器！",
     "",
-    "Connectors can only have one input and one output, relays can have multiple!",
+    "接线器只能与一个接线器连接，继电器则连接数限制！",
     "",
-    "If too much current is going through, the wire will explode!",
+    "若电流过大，线缆将烧毁！",
     "",
-    "Non-insulated wires will damage you if you touch them!"
+    "非绝缘线圈会在接触时造成伤害！"
 ]);
 
 mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:0>,
 [
-    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "将接线器放置在想要传输能量的方块上，使用线圈右击接线器以相互连接。",
     "",
-    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
+    "线圈的范围为16格（高压线圈为32格），如果接线端超出范围，需要在中间放置继电器！",
     "",
-    "Connectors can only have one input and one output, relays can have multiple!",
+    "接线器只能与一个接线器连接，继电器则连接数限制！",
     "",
-    "If too much current is going through, the wire will explode!",
+    "若电流过大，线缆将烧毁！",
     "",
-    "Non-insulated wires will damage you if you touch them!"
+    "非绝缘线圈会在接触时造成伤害！"
 ]);
 
 mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:6>,
 [
-    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "将接线器放置在想要传输能量的方块上，使用线圈右击接线器以相互连接。",
     "",
-    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
+    "线圈的范围为16格（高压线圈为32格），如果接线端超出范围，需要在中间放置继电器！",
     "",
-    "Connectors can only have one input and one output, relays can have multiple!",
+    "接线器只能与一个接线器连接，继电器则连接数限制！",
     "",
-    "If too much current is going through, the wire will explode!",
+    "若电流过大，线缆将烧毁！",
     "",
-    "Non-insulated wires will damage you if you touch them!"
+    "非绝缘线圈会在接触时造成伤害！"
 ]);
 
 mods.jei.JEI.addDescription(<immersiveengineering:connector:2>,
 [
-    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "将接线器放置在想要传输能量的方块上，使用线圈右击接线器以相互连接。",
     "",
-    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
+    "线圈的范围为16格（高压线圈为32格），如果接线端超出范围，需要在中间放置继电器！",
     "",
-    "Connectors can only have one input and one output, relays can have multiple!",
+    "接线器只能与一个接线器连接，继电器则连接数限制！",
     "",
-    "If too much current is going through, the wire will explode!",
+    "若电流过大，线缆将烧毁！",
     "",
-    "Non-insulated wires will damage you if you touch them!"
+    "非绝缘线圈会在接触时造成伤害！"
 ]);
 
 mods.jei.JEI.addDescription(<immersiveengineering:connector:3>,
 [
-    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "将接线器放置在想要传输能量的方块上，使用线圈右击接线器以相互连接。",
     "",
-    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
+    "线圈的范围为16格（高压线圈为32格），如果接线端超出范围，需要在中间放置继电器！",
     "",
-    "Connectors can only have one input and one output, relays can have multiple!",
+    "接线器只能与一个接线器连接，继电器则连接数限制！",
     "",
-    "If too much current is going through, the wire will explode!",
+    "若电流过大，线缆将烧毁！",
     "",
-    "Non-insulated wires will damage you if you touch them!"
+    "非绝缘线圈会在接触时造成伤害！"
 ]);
 
 mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:1>,
 [
-    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "将接线器放置在想要传输能量的方块上，使用线圈右击接线器以相互连接。",
     "",
-    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
+    "线圈的范围为16格（高压线圈为32格），如果接线端超出范围，需要在中间放置继电器！",
     "",
-    "Connectors can only have one input and one output, relays can have multiple!",
+    "接线器只能与一个接线器连接，继电器则连接数限制！",
     "",
-    "If too much current is going through, the wire will explode!",
+    "若电流过大，线缆将烧毁！",
     "",
-    "Non-insulated wires will damage you if you touch them!"
+    "非绝缘线圈会在接触时造成伤害！"
 ]);
 
 mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:7>,
 [
-    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "将接线器放置在想要传输能量的方块上，使用线圈右击接线器以相互连接。",
     "",
-    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
+    "线圈的范围为16格（高压线圈为32格），如果接线端超出范围，需要在中间放置继电器！",
     "",
-    "Connectors can only have one input and one output, relays can have multiple!",
+    "接线器只能与一个接线器连接，继电器则连接数限制！",
     "",
-    "If too much current is going through, the wire will explode!",
+    "若电流过大，线缆将烧毁！",
     "",
-    "Non-insulated wires will damage you if you touch them!"
+    "非绝缘线圈会在接触时造成伤害！"
 ]);
 
 mods.jei.JEI.addDescription(<immersiveengineering:connector:4>,
 [
-    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "将接线器放置在想要传输能量的方块上，使用线圈右击接线器以相互连接。",
     "",
-    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
+    "线圈的范围为16格（高压线圈为32格），如果接线端超出范围，需要在中间放置继电器！",
     "",
-    "Connectors can only have one input and one output, relays can have multiple!",
+    "接线器只能与一个接线器连接，继电器则连接数限制！",
     "",
-    "If too much current is going through, the wire will explode!",
+    "若电流过大，线缆将烧毁！",
     "",
-    "Non-insulated wires will damage you if you touch them!"
+    "非绝缘线圈会在接触时造成伤害！"
 ]);
 
 mods.jei.JEI.addDescription(<immersiveengineering:connector:5>,
 [
-    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "将接线器放置在想要传输能量的方块上，使用线圈右击接线器以相互连接。",
     "",
-    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
+    "线圈的范围为16格（高压线圈为32格），如果接线端超出范围，需要在中间放置继电器！",
     "",
-    "Connectors can only have one input and one output, relays can have multiple!",
+    "接线器只能与一个接线器连接，继电器则连接数限制！",
     "",
-    "If too much current is going through, the wire will explode!",
+    "若电流过大，线缆将烧毁！",
     "",
-    "Non-insulated wires will damage you if you touch them!"
+    "非绝缘线圈会在接触时造成伤害！"
 ]);
 
 mods.jei.JEI.addDescription(<immersiveengineering:wirecoil:2>,
 [
-    "Place Connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.",
+    "将接线器放置在想要传输能量的方块上，使用线圈右击接线器以相互连接。",
     "",
-    "Connectors have a 16 block range, so if your ends are further than that, you will have to place a relay in between!",
+    "线圈的范围为16格（高压线圈为32格），如果接线端超出范围，需要在中间放置继电器！",
     "",
-    "Connectors can only have one input and one output, relays can have multiple!",
+    "接线器只能与一个接线器连接，继电器则连接数限制！",
     "",
-    "If too much current is going through, the wire will explode!",
+    "若电流过大，线缆将烧毁！",
     "",
-    "Non-insulated wires will damage you if you touch them!"
+    "非绝缘线圈会在接触时造成伤害！"
 ]);
 
 mods.jei.JEI.addDescription(<tesslocator:basic_item_tesslocator>,
 [
-    "Place two Tesslocators in the same block space to transfer items between them.",
+    "在同一方块空间内放置两个超转运体来在二者间传输物品。",
     "",
-    "Orange: output",
-    "Blue: input",
+    "橙色：输出",
+    "蓝色：输入",
     "",
-    "Add Glowstone to increase speed.",
-    "Add Diamond to transfer full stacks instead of individual items.",
-    "With max upgrades, Tesslocators are one of the fastest item transfer methods in the pack!"
+    "放入荧石来增加速度。",
+    "放入钻石增加每次传输物品的数量。",
+    "在满升级状态下，超转运体是本包中最快的物品传输手段之一！"
 ]);
 
 mods.jei.JEI.addDescription(<tesslocator:basic_fluid_tesslocator>,
 [
-    "Place two Tesslocators in the same block space to transfer fluids between them."
+    "在同一方块空间内放置两个超转运体来在二者间传输流体。"
 ]);
 
 mods.jei.JEI.addDescription(<tesslocator:basic_energy_tesslocator>,
 [
-    "Place two Tesslocators in the same block space to transfer energy between them."
+    "在同一方块空间内放置两个超转运体来在二者间传输能量。"
 ]);
 
 mods.jei.JEI.addDescription(<enderio:item_item_conduit>,
 [
-    "All conduits share the same block space, making them very useful for compact automation!",
+    "所有类型导管可共享方块空间，在密集型自动化中非常实用！",
     "",
-    "To configure a conduit, right click a connection with an empty hand, or shift left click using the Crescent Hammer!",
+    "空手右击导管接口进行配置，也可使用新月锤Shift左击导管！",
     "",
-    "Each connection can be configured to be input or output, and redstone interactions can be specified. 'Always on' mode is not active by default!",
+    "每个连接都可配置输入输出，还可配置红石模式。'始终工作'模式默认关闭！",
     "",
-    "Conduits have separate channels, corresponding to the 16 colors in vanilla Minecraft! Channels with the same colors will be connected to each other. You can have multiple channels going through the same conduit lines!",
+    "导管有频道区分，对应原版中的16中颜色！相同颜色的频道会互相连通。同一根导管中可传输多种频道！",
     "",
-    "Inputs and outputs can be configured using filters, and speed upgrades! All available filters will show up in JEI when searching for 'conduit'!"
+    "输入和输出都可使用过滤器进行配置，还有速度升级！在JEI中搜索'导管'来查看所有可用过滤器！"
 ]);
 
 mods.jei.JEI.addDescription(<enderio:item_liquid_conduit>,
 [
-       "All conduits share the same block space, making them very useful for compact automation!",
+    "所有类型导管可共享方块空间，在密集型自动化中非常实用！",
     "",
-    "To configure a conduit, right click a connection with an empty hand, or shift left click using the Crescent Hammer!",
+    "空手右击导管接口进行配置，也可使用新月锤Shift左击导管！",
     "",
-    "Each connection can be configured to be input or output, and redstone interactions can be specified. 'Always on' mode is not active by default!",
+    "每个连接都可配置输入输出，还可配置红石模式。'始终工作'模式默认关闭！",
     "",
-    "Conduits have separate channels, corresponding to the 16 colors in vanilla Minecraft! Channels with the same colors will be connected to each other. You can have multiple channels going through the same conduit lines!",
+    "导管有频道区分，对应原版中的16中颜色！相同颜色的频道会互相连通。同一根导管中可传输多种频道！",
     "",
-    "Inputs and outputs can be configured using filters, and speed upgrades! All available filters will show up in JEI when searching for 'conduit'!"
+    "输入和输出都可使用过滤器进行配置，还有速度升级！在JEI中搜索'导管'来查看所有可用过滤器！"
 ]);
 
 mods.jei.JEI.addDescription(<enderio:item_liquid_conduit:1>,
 [
-       "All conduits share the same block space, making them very useful for compact automation!",
+    "所有类型导管可共享方块空间，在密集型自动化中非常实用！",
     "",
-    "To configure a conduit, right click a connection with an empty hand, or shift left click using the Crescent Hammer!",
+    "空手右击导管接口进行配置，也可使用新月锤Shift左击导管！",
     "",
-    "Each connection can be configured to be input or output, and redstone interactions can be specified. 'Always on' mode is not active by default!",
+    "每个连接都可配置输入输出，还可配置红石模式。'始终工作'模式默认关闭！",
     "",
-    "Conduits have separate channels, corresponding to the 16 colors in vanilla Minecraft! Channels with the same colors will be connected to each other. You can have multiple channels going through the same conduit lines!",
+    "导管有频道区分，对应原版中的16中颜色！相同颜色的频道会互相连通。同一根导管中可传输多种频道！",
     "",
-    "Inputs and outputs can be configured using filters, and speed upgrades! All available filters will show up in JEI when searching for 'conduit'!"
+    "输入和输出都可使用过滤器进行配置，还有速度升级！在JEI中搜索'导管'来查看所有可用过滤器！"
 ]);
 
 mods.jei.JEI.addDescription(<enderio:item_liquid_conduit:2>,
 [
-       "All conduits share the same block space, making them very useful for compact automation!",
+     "所有类型导管可共享方块空间，在密集型自动化中非常实用！",
     "",
-    "To configure a conduit, right click a connection with an empty hand, or shift left click using the Crescent Hammer!",
+    "空手右击导管接口进行配置，也可使用新月锤Shift左击导管！",
     "",
-    "Each connection can be configured to be input or output, and redstone interactions can be specified. 'Always on' mode is not active by default!",
+    "每个连接都可配置输入输出，还可配置红石模式。'始终工作'模式默认关闭！",
     "",
-    "Conduits have separate channels, corresponding to the 16 colors in vanilla Minecraft! Channels with the same colors will be connected to each other. You can have multiple channels going through the same conduit lines!",
+    "导管有频道区分，对应原版中的16中颜色！相同颜色的频道会互相连通。同一根导管中可传输多种频道！",
     "",
-    "Inputs and outputs can be configured using filters, and speed upgrades! All available filters will show up in JEI when searching for 'conduit'!"
+    "输入和输出都可使用过滤器进行配置，还有速度升级！在JEI中搜索'导管'来查看所有可用过滤器！"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:servo:0>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
     "",
-    "Servos are used to extract from an inventory and push into other inventories."
+    "伺服器可以从容器中提取物品或流体并传输到其他容器。"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:servo:1>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
     "",
-    "Servos are used to extract from an inventory and push into other inventories."
+    "伺服器可以从容器中提取物品或流体并传输到其他容器。"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:servo:2>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
     "",
-    "Servos are used to extract from an inventory and push into other inventories."
+    "伺服器可以从容器中提取物品或流体并传输到其他容器。"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:servo:3>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
     "",
-    "Servos are used to extract from an inventory and push into other inventories."
+    "伺服器可以从容器中提取物品或流体并传输到其他容器。"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:servo:4>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
     "",
-    "Servos are used to extract from an inventory and push into other inventories."
+    "伺服器可以从容器中提取物品或流体并传输到其他容器。"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:filter:0>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
     "",
-    "Filters are used to select or prevent specific items from entering an inventory."
+    "过滤器可选择特定物品或流体，允许/阻止其进入容器。"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:filter:1>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
 
     "",
-    "Filters are used to select or prevent specific items from entering an inventory."
+    "过滤器可选择特定物品或流体，允许/阻止其进入容器。"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:filter:2>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
     "",
-    "Filters are used to select or prevent specific items from entering an inventory."
+    "过滤器可选择特定物品或流体，允许/阻止其进入容器。"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:filter:3>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
     "",
-    "Filters are used to select or prevent specific items from entering an inventory."
+    "过滤器可选择特定物品或流体，允许/阻止其进入容器。"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:filter:4>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
     "",
-    "Filters are used to select or prevent specific items from entering an inventory."
+    "过滤器可选择特定物品或流体，允许/阻止其进入容器。"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:retriever:0>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
     "",
-    "Retrievers are used to pull items from other inventories."
+    "检索器可从其他容器中抽取物品或流体。"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:retriever:1>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
     "",
-    "Retrievers are used to pull items from other inventories."
+    "检索器可从其他容器中抽取物品或流体。"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:retriever:2>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
     "",
-    "Retrievers are used to pull items from other inventories."
+    "检索器可从其他容器中抽取物品或流体。"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:retriever:3>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
     "",
-    "Retrievers are used to pull items from other inventories."
+    "检索器可从其他容器中抽取物品或流体。"
 ]);
 
 mods.jei.JEI.addDescription(<thermaldynamics:retriever:4>,
 [
-    "Servos have whitelist/blacklist to only move specific items, and they have different redstone modes.",
+    "伺服器自带白名单/黑名单，并且有多种红石模式。",
     "",
-    "Right click the connection between a conduit and an inventory to place it. Use a Crescent Hammer to remove them from ducts!",
+    "对管道与容器的连接端右击来安装伺服器。使用新月锤来移除！",
     "",
-    "Retrievers are used to pull items from other inventories."
+    "检索器可从其他容器中抽取物品或流体。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:magic_strategy_technologist>,
 [
-    "Start with Botania and Bewitchment, these will unlock the Builder and the ability to build Modular Machines!",
-    "Every magic mod you do after this point will be automatable!",
+    "首先发展植物魔法和巫师之路，这可解锁建造机和模块化机械！",
+    "之后的每个魔法模组都可进行自动化！",
     "",
-    "Continue with Blood Magic (to unlock the ability to make it night), and follow it with Astral Sorcery and Electroblob's Wizardry!",
+    "接着发展血魔法（获得跳过白天的能力），然后是星辉魔法和巫术学！",
     "",
-    "Finish with Thaumcraft and Abyssalcraft! Follow the guidelines for these!"
+    "最后发展神秘时代和深渊国度！遵循任务书给的发展线路！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:magic_strategy_warrior>,
 [
-    "Start with Electroblob's Wizardry, this will give you the best early game damage!",
+    "首先发展巫术学，前期最好的攻击手段！",
     "",
-    "Continue with Blood Magic (to unlock the ability to make it night), and follow it with Astral Sorcery.",
+    "接着发展血魔法（获得跳过白天的能力），然后是星辉魔法。",
     "",
-    "Set up Botania and Bewitchment to unlock the Builder and the ability to build Modular Machines!",
+    "发展植物魔法和巫师之路来解锁建造机和模块化机械！",
     "",
-    "Finish with Thaumcraft and Abyssalcraft! Follow the guidelines for these!"
+    "最后发展神秘时代和深渊国度！遵循任务书给的发展线路！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:magic_strategy_warped>,
 [
-    "Start with Blood Magic to unlock the Ritual of Eldritch Will!",
+    "首先发展血魔法来解锁邪术意志仪式！",
     "",
-    "Go crazy with Thaumcraft to unlock Sanity Soap.",
+    "在神秘时代中陷入疯狂，解锁祛邪肥皂。",
     "",
-    "Get PTSD from Abyssalcraft! But you can get your hands on the Omothol warp cleanser!",
+    "在深渊国度那儿得了PTSD！但你能获得奥穆索扭曲净化符咒！",
     "",
-    "Unlock all Thaumcraft research and get Mithminite armor!",
+    "解锁所有神秘时代研究，解锁秘金盔甲！",
     "",
-    "Go through Bewitchment and Botania, these will unlock the Builder and the ability to build Modular Machines!",
+    "穿过巫师之路和植物魔法，解锁建造机和模块化机械！",
     "",
-    "Finish with Electroblob's Wizardry and Astral Sorcery."
+    "以巫术学和星辉魔法作为结尾。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:mining_advice>,
 [
-    "This is the suggested strategy for obtaining ores resources!",
+    "推荐使用以下思路来获取矿物资源！",
     "",
-    "1. Get basic tools, and mine below y = 17 to get enough Rupee to make a shickaxe!",
+    "1. 获得基础工具，前往Y=17以下获得足够的卢比锭来制作锹镐斧！",
     "",
-    "2. Use the shickaxe below y = 10 to obtain Ascended Sapphire to make a Hammer Stencil from Tinker's Construct! Shocking is a good trait for this because it gives haste!",
+    "2. 用锹镐斧在Y=10以下挖掘[虚无]蓝宝石，来制作匠魂的锤头模具！震击是个不错的属性，因为有急迫效果！",
     "",
-    "3. Craft the Destruction Catalyst after unlocking Elite Crafting. Early on you will have to run it with coal, but soon you can use a Klein Star!",
+    "3. 解锁高级合成后，制作毁灭燧石。一开始你得用煤炭充能，但很快就能换成卡莱恩能量之星了！",
     "",
-    "4. Make a quarry using a Builder after unlocking Botania! If you have done Astral Sorcery, the Mineralis ritual combined with the Builder will give infinite ores!",
+    "4. 在解锁植物魔法后用建造机来自动挖矿！如果有发展过星辉魔法，将建造机与晶金座仪式组合来获得无限矿物！",
     "",
-    "5. Void ore miner from environmental tech!"
+    "5. 环境科技的虚空矿物采掘机！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:ae2_base_management>,
 [
-    "You should follow these practices when setting up an AE2 network!",
+    "组建AE2网络时，应遵循以下惯例！",
     "",
-    "Make sure the entirety of your network (every single cabe and bus) is chunkloaded! FTB chunks sometimes can be unreliable, so chunk and spot loaders are better!",
+    "确保整个网络（每根线缆和设备）所在区块处于加载状态！FTB Chunks模组有时不是很可靠，所以最好使用区块和节点载入器！",
     "",
-    "Do not loop cables! Just don't do it! Colored cables and anchors are your friends!",
+    "不要回接线缆！千万不要！染色线缆和线缆锚是你的好伙伴！",
     "",
-    "Store fluids in a separate subnet, hide fluids in your terminal, and avoid on-demand crafting with them. The constant changing of fluid values in the network will cause lag! It's better to passive fluids using other means!",
+    "用单独的子网来存储流体，在终端中隐藏流体，避免使用下单合成处理流体配方。网络中流体值的持续变动会导致卡顿！最好使用其他手段来被动生产流体！",
     "",
-    "Make sure your network has a healthy supply of energy cells! You may need to place some on both sides of a quantum link connection!",
+    "确保网络能量供应（能源元件）充足！你可能需要在量子网桥的两侧都放一些能源元件！",
     "",
-    "Turn off advanced tooltips (F3 + H)! It will recuce lag in the terminal!"
+    "关闭高级提示框（F3+H）！可以减少终端界面的卡顿！"
 ]);
 
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_blast_furnace>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "", "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  
-    "Coke Blocks are found on the roof of the library structures that spawn books and contain Elytra.",
+    "焦煤块可发现于图书馆结构的屋顶，馆内有鞘翅，还会生成死灵书。",
     "",
-    "Blast Bricks are found at the petrified troll camps around the fire, and in the middle of the watchtowers made out Dried Bricks with Black Ink Chicken Eggs!"
+    "高炉砖可发现于篝火处的石化食人妖营地，以及由干燥黏土砖构成的瞭望塔中（里面还藏有墨囊黑鸡蛋）！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_haumea>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "The bubbell structure has four signs, for four sigils, and the invar is SINGULAR!",
+    "气泡铃建筑内有四个告示牌，代表四种符文，殷钢为奇点！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft an invar singularity with these sigils: luck, battle, ruin, cleansing."
+    "将殷钢奇点与以下符文结合：幸运、战斗、损毁、净化。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_spatialphaser>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "There are hidden crates in the eden, containing a particular item. Combine these items with the right blocks, a chest in the eden will show what recipe. Combine the resulting outputs with the inert spatial phaser.",
+    "在伊甸有隐藏的板条箱，里面有某些特定物品。将这些物品与正确的方块结合，伊甸中的箱子会显示配方。将合成的物品与惰性空间移相器结合。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft three stone bricks with the following items: diamond, aqua ball, cactus green, iron ingot."
+    "分别将以下物品与三个石砖结合：钻石、海蓝球、仙人掌绿、铁锭。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_deepmetamorphic>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Two structures in the deeplands will guide you on this. One will give you the shape of the recipe, one will give the orientation.",
+    "深层维度的两种结构将指引你。一个指示配方的形状，另一个指示排列顺序。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft this recipe:",
-    "Cracked Deadrock, Haven Stone, Lelyetian Stone;",
-    "Mossy Holystone, Deep Rock, Unstable Stone;",
-    "Taiga Metamorphic Cobblestone (botania not chisel), Dreadstone Cobblestone (abyssalcraft not chisel), Twilight Stone"
+    "使用该配方制作：",
+    "裂纹死岩，天堂石头，赫尔维蒂石头；",
+    "圣苔石，深层岩石，松动的石头；",
+    "变质雪原圆石（非凿子模组），恐惧圆石（非凿子模组），暮光石头"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_phasinggem>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "You have to use the Spatial Phaser in the right dimension and in the right biome, Lelyetia will tell you the info you need!",
+    "需要在正确的维度与正确的群系使用空间移相器，赫尔维蒂维度有你需要的信息！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Use the Spatial Phaser in a 9x9 area of Undergarden inside of Creeponia."
+    "在蠕变维度中的9x9大小的地下花园（Undergarden）群系使用空间移相器。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_barongem>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "The layout for the recipe can be found in a chest in barathos. One of the items in that recipe needs to be renamed, an enemy in barathos will tell you how to rename it.",
+    "配方的布局可在爵士维度的箱子里发现。其中一个物品需要重命名，爵士维度的一个敌人会告诉你如何重命名。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "In a crafting table, surround a Baron Cube renamed with the word 'Ashari' with flux crystal blocks."
+    "在工作台内，用红石水晶块环绕被重命名为'Ashari'的爵士方块。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_branchoflife>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "In Pixonia there is a structure with special blocky bugs, the chest there will tell you what to craft together.",
+    "光精界的一种结构里有方块虫子，里面的箱子会告诉你如何制作。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft a compressed cobblestone with these saplings: turquoise haven, lucalus, haunted, blue celevus."
+    "将压缩圆石与以下树苗结合：天青色天堂、卢卡罗斯、鬼魅、蓝色玩具。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_rosidianblend>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "The crates in gardencia contain many dusts. These will tell you what small piles of dust you should craft with rosidons.",
+    "花园维度的板条箱里有很多粉末。他们将告诉你该用什么小堆粉与伊甸果结合。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft a rosidon with these tiny piles of dust: netherrack, ruby, sapphire, phosphorous, marble, sphalerite, galena, pyrite."
+    "将伊甸果与以下小堆粉结合：地狱岩、红宝石、蓝宝石、磷、大理石、闪锌矿、方铅矿、黄铁矿。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_livingmyrmitite>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "There are four specific modifier tomes found in chests in precasia!",
+    "传说维度的箱子里有四种强化手册！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft a Myrmitite with the following modifier tomes: aura of destruction 2, loot farmer 4, experienced 5, razor edge 5."
+    "将恐蚁金属锭与以下强化手册结合：毁灭光环（等级2）、掠夺农夫（等级4）、经验加成（等级5）、锋利剃刀（等级5）。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_marksamurai>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "To craft this you will need an armor piece, and eight fruits, the chests and signs in rhenia will tell you what armor to use and what fruits.",
+    "需要一件盔甲和8种果实来制作该物品，铼界的箱子和告示牌会告诉你使用何种盔甲与果实。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft a dreading samurai helmet with the following aspectus fruits: Celawynn, Azuwynn, Yeowynn, Geoliirgaz, Armaniis, Fergalaz, Firnalaz, Ordaniis."
+    "将惧质武士头盔与以下要素果实结合：Celawynn、Azuwynn、Yeowynn、Geoliirgaz、Armaniis、Fergalaz、Firnalaz、Ordaniis。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_kikoku>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "To craft the essence, surround recursive powder with correctly renamed pieces of paper. A house in rhenia will tell you what word the papers should spell. Start from top left, and go clockwise!",
+    "要制作配方所需精华，将递归粉末与被正确命名的纸结合。铼界的房子会告诉你纸名拼出的单词。从左上角开始，顺时针！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Follow this recipe layout:",
+    "遵循以下配方：",
     "<C> <H> <A>",
-    "<S> <recursive powder> <M>",
+    "<S> <递归粉末> <M>",
     "<E> <R> <B>"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_recursiveimprisonment>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "The right spice has to be pressed using the right Stencils from Openblocks. Lunalus will tell you which ones, and the plant used to farm this spice.",
+    "使用开放式方块模组的正确种类模板压制正确的香料。月球维度会告诉你使用何种模板，以及何种植物来制作香料。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft Cloves with the following Openblocks Stencils: Creeper Face, Vertical Bars, Spiral, Chest."
+    "将丁香与以下开放式方块模组的模板结合：爬行者脸、竖状条纹、螺旋、箱子。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_runicore>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Various ores are found in Apalachia worldgen, process them into Eldritch Clusters using a Catalyzation Chamber and an Alienist's Stone",
+    "附魔山脉会生成多种矿物，使用催化室与异形之石将其处理为奇异矿簇。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Combine the Runic Ore with the following Eldritch Clusters: Cinnabar, Gold, Lead."
+    "将符文矿石与以下奇异矿簇结合：朱砂、金、铅。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_mysterium>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "There are four structures in mysterium that have a blood magic theme? Check their blocks, and read the signs!",
+    "秘境维度有四种血魔法主题的结构？检查其使用的方块，阅读告示牌！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the lunar block in the center with a rune of the orb on top, a charging rune on the right, a rune of self sacrifice on the left, a speed rune at the bottom."
+    "配方布局：月球块在中心，上面是宝珠符文，右边是充能符文，左边是牺牲符文，下面是速度符文。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_runandor>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "There are three structures in runandor with chests containing various runes. There are eight runes in total!",
+    "符境维度有三种结构，里面的箱子装有多种符文。总共是8种符文！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the filled openblocks elecanium tank with the following runes: compass, storm, distortion, kinetic, strike, poison, fire, wither."
+    "将装满熔融荧银的开放式方块模组的蓄水槽，与以下符文结合：定位、暴风、扭曲、动能、雷鸣、剧毒、火焰、凋灵。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_osiris>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "", "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Black metal armmor, and mithrillium ingots :)",
+    "黑色金属盔甲，以及秘银锭 :)",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Surround the pieces of black metal armor found in the planet with mithrillium."
+    "用秘银锭环绕黑色金属盔甲。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_ptah>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Press U on beecon comb!",
+    "按U键查看蜂标蜂窝的用途！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the right condensed potions by crafting the following reagents with the Beecon Comb: air, haste, lightning, acquisition, magnetism"
+    "将使用以下试剂与蜂标蜂窝制成的浓缩药水结合：风、急速、闪电、获取、磁引。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_hator>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Corrupted hyperspace hearts are from the miniboss, worldgen will give you the other 5 ingredients!",
+    "腐化超空间之心由小Boss掉落，在本世界中找到其他5种材料！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft this recipe. Triquetra in the middle, four corrupted hyperspace hearts in the corners, anti-chicken, anti-pork, anti spider eye, anti-bone in the other slots."
+    "按以下配方合成：三弧饰在中心，四角放置腐化超空间之心，其余槽位分别为反物质鸡肉、反物质猪肉、反物质蜘蛛眼、反物质骨头。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_europa>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  
-    "There are 7 capital sins runes, and seven azulejos types! What do they have in common? 9 10 11 12 13 14 15",
+    "有七罪宗符文和七种阿兹勒赫瓷砖！它们有什么共同点？9 10 11 12 13 14 15",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Surround the seven runes corresponding to capital sins (lust, gluttony, greed, sloth, wrath, envy, pride) with azulejo blocks with the same metadata."
+    "分别用具有相同元数据的阿兹勒赫瓷砖环绕对应的七宗罪符文（欲望、暴食、贪婪、懒惰、暴怒、嫉妒、傲慢）。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_oi>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  
-    "Worldgen will tell you what isotopes to use, search near liquid death!",
+    "本世界会告诉你使用何种同位素，在死亡之水附近寻找！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the core of undeath with the following isotopes: berkelium-248, plutonium-238, californium-249 oxide, neptunium-237 oxide."
+    "将亡灵核心与以下同位素结合：锫-248、钚-238、氧化锎-249、氧化镎-237。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_falacer>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "You use 8 combs in total, four from worldgen, four from the bubbell signs!",
+    "总共要用到8种蜂窝，其中4种来自本世界，4种在气泡铃建筑内的告示牌上！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft a limonite bullet with these combs: papery, transmuting, mundane, molten, bomb, cannon, pistol, sniper rifle."
+    "将褐铁子弹与以下蜂窝结合：纸质、蜕变、平凡、熔融、炸弹、大炮、手枪、狙击步枪。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_orcus>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "The sword pedestals have two different colors, there are four of each, corresponding to two recipes!",
+    "有两种不同颜色的剑座，每种总共有四柄剑，对应两种配方！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Two recipes. Craft a Blood Infused Dimensional Ingot with Aquatooth, Cermile, Hippogryph, Darkwood swords.",
-    "Craft a Blood Infused Dimensional Ingot with Legbone, Bone from Betweenlands, Wasp, Dragonbone Swords.",
-    "All swords are found in orcus."
+    "两个配方。将注血维度锭与海齿剑、魔化单刃剑、骏鹰爪剑、黑暗木剑结合。",
+    "将注血维度锭与腿骨剑、粘骨剑、黄蜂剑、龙骨剑结合。",
+    "所有剑都可在奥迦斯找到。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_furnacedim>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "One of the villager houses in the overworld has useful portable loot, and a book on the nether roof will tell you how to use it!",
+    "主世界的某栋村民房子里有实用的便携战利品，下界天花板上的某本书会告诉你如何使用！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft a demonically gargantuan drum full of netherite with a portable furnace!"
+    "将装满熔融炎岩的恶魔桶与便携熔炉结合！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_sedna>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Sedna dust is not desnanite dust!",
+    "塞德娜粉不是塞德娜金属粉！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Surround a sedna dust (not sednanite dust) with gravity combs."
+    "用引力蜂窝环绕塞德娜粉（不是塞德娜金属粉）。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_first_shell>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "There is a dangerous temple in the abyss, the front contains some crystal clusters...",
+    "深渊维度有一座危险的神庙，其正面有一些结晶簇……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Combine the ragnarok sigil with the following crystal clusters: copper, methane, nitrate, oxygen."
+    "将诸神黄昏印记与以下结晶簇结合：铜、甲烷、硝酸、氧。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_second_shell>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "The wildwood callstone has four spawn eggs...",
+    "原始森林召唤石里有四个刷怪蛋……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Combine the sacrificial contract with soul vials for the following mobs: paratiku, fyracryx, seimer, golem of rejuvination.",
-    "They are found in the wildwood callstone!"
+    "将献祭契约与以下生物的灵魂瓶结合：寄生幼虫、火焰棘背兽、赛默、治疗傀儡。",
+    "四种生物可在原始森林召唤石中找到！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_third_shell>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Apalachia has a lotto structure, check out the chest!",
+    "附魔山脉有个乐透建筑，看看里面的箱子！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the skotaninomicom with the following bejewelled banners: blood, ancient, boreic, mecha, nethengeic, runic, creation, void."
+    "将斯克塔尼之书与以下嵌宝旗帜结合：嗜血、远古、暴风、机甲、纳德吉克、符文、召唤、虚空。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_fourth_shell>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "The skythern callstone sure has an interesting shape in the middle...",
+    "空境召唤石中间肯定存在有趣的形状……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Use the tulite flower in skythern on top of a structure made out of purpur blocks.",
-    "First level (0 = empty, x = purpur):",
+    "在空境，站在由紫珀块构成的结构顶部，使用图丽石之花。",
+    "第一层（0为空，x为紫珀块）:",
     "0 x x x 0",
     "x 0 x 0 x",
     "x x x x x",
     "x 0 x 0 x",
     "0 x x x 0",
-    "Second level:",
+    "第二层：",
     "0 x 0 x 0",
     "x 0 0 0 x",
     "0 0 x 0 0",
@@ -1868,235 +1868,235 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_fourth_shell>,
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_vethea>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "There are some tinkers components craftable from lumps ;)",
+    "有些匠魂部件可以用团块制作 ;)",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft a projector gem with the following tinkers parts: jade tough tool rod, endrod battery cell, titanium pipe piece, starmetal laser medium."
+    "将投影宝石与以下匠魂部件结合：玉 坚韧手柄、末地烛 蓄电池、钛 枪管、星辉 激光传导器。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_masterwizards>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "In Taerrapiatta, there are four different special pumpkins. Make soul vials for the corresponding mobs, and craft them with an astral animator!",
+    "在地平界有四种特殊南瓜。用对应生物的灵魂瓶，与星辉活化器结合！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft a an astral animator with the following soul vials: cyclops, ghast, skeleton, frost."
+    "将星辉活化器与以下灵魂瓶结合：独眼巨人、恶魂、骷髅、冰霜怪。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_sparkledoak>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "The Pedestals in the Trinity Callstone structure hold some interesting objects. Combine the right wood plank with the right weapon.",
+    "三一召唤石里的基座上有些有趣的东西。将正确的木板与正确的武器结合。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft a Sacred Oak Plank with the Captains Sparkler. It's reusable too!"
+    "将神圣橡木木板与首领烟火炮结合。武器在配方中可重复使用！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_recursion_dungeon>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Check the roof of the temple, two recipes, left and right!",
+    "检查神庙顶部，有两种配方，左和右！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft a sacred acorn with the following tree barks from careerbees: erebus eucalyptus, shyre, teak, brazilwood, fusewood, olive, cedar, mortum.",
-    "Craft a sacred acorn with the following tree barks from careerbees: natura darkwood, iroko, hellbark, umbran, baobab, dragons blood, runic, canopy tree."
+    "将神圣橡果与以下职业蜜蜂模组的树皮结合：[混沌之地]桉树、塞尔瑞、柚树、巴西红木、熔融木、橄榄树、雪松、死域。",
+    "将神圣橡果与以下职业蜜蜂模组的树皮结合：黑暗木、大绿柄桑木、地狱皮木、暗影木、猴面包树、龙血木、符文木、苍穹木。"
 ]);
 
 mods.jei.JEI.addDescription(<bloodmagic:altar>,
 [
-    "The altar requires blood (LP) to craft, JEI will indicate the tier of altar and LP cost for each recipe.",
+    "祭坛需要生命源质（LP）进行合成，JEI中显示了配方要求的祭坛等级和LP消耗量。",
     "",
-    "The Inspectoris Scandalum lets you see previews for each tier.",
+    "指示之书可与查看每级祭坛的多方块预览。",
     "",
-    "To produce LP, this is the recommended progression:",
-    "1a. Sacrificial Dagger to produce LP from yourself till you can make a Ritual Diviner: Dusk",
-    "1b. If making LP from yourself is a trigger, you can use the Dagger of Sacrifice to kill mobs near the altar",
-    "3. Ritual of Culling with a mob farm (more info on questbook). Soul shards makes the fastest spawners ;)",
-    "4. Digital Mob Agonizers"
+    "推荐遵循以下流程产出LP：",
+    "1a. 使用牺牲匕首伤害自己来产生LP，直到能制作仪式推测杖 [薄暮]",
+    "1b. 如果用刀划拉自己让你感觉不舒服，可以使用献祭刀在祭坛附近杀死生物来产生LP",
+    "3. 使用剔除仪式配合刷怪场场（任务书中有更多信息）。灵魂碎片可用来制作刷怪速度最快的灵魂笼 ;)",
+    "4. 数字化苦难之井"
 ]);
 
 mods.jei.JEI.addDescription(<bloodmagic:blood_orb>,
 [
-    "The Blood Orb is how you start an LP network. Right click the orb to bind it to your player.",
+    "使用气血宝珠来创建LP网络。使用宝珠右击将其与玩家绑定。",
     "",
-    "The LP network is used to fuel all rituals.",
+    "LP网络可为所有仪式供能。",
     "",
-    "Place a Blood Orb in the Blood Altar to add LP to your LP network.",
+    "在血之祭坛上放置气血宝珠来为LP网络提供LP。",
     "",
-    "The higher the Blood Orb tier, the higher the capacity of your LP network.",
+    "气血宝珠等级越高，LP网络的容量越大。",
     "",
-    "Capacity:",
-    "Weak 5'000",
-    "Apprentice 25'000",
-    "Magician 150'000",
-    "Master 1'000'000",
-    "Archmage 10'000'000",
-    "Transcendent 30'000'000"
+    "容量：",
+    "虚弱 5'000",
+    "学徒 25'000",
+    "法师 150'000",
+    "导师 1'000'000",
+    "贤者 10'000'000",
+    "卓越 30'000'000"
 ]);
 
 
 mods.jei.JEI.addDescription(<projectex:stone_table>,
 [
-    "The Transmutation Table lets you learn and reproduce all items that have EMC values!",
+    "转化桌可学习和制作拥有EMC值的物品！",
     "",
-    "Place an item in the table, or burn it in the fire, to learn it!",
+    "将物品放入转化桌，或者放入有火焰的槽位来学习物品！",
     "",
-    "Burnt items add to your personal EMC network, shared between all tables.",
+    "燃烧物品可向网络中增加EMC，所有转化桌共享该网络。",
     "",
-    "All items that have been learned can be extracted if your network has enough EMC to sustain them!",
+    "只要网络中有足够的EMC，就能直接取出已学习的物品！",
     "",
-    "The Klein Star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
+    "卡莱恩能量之星可以用网络的EMC充能，从而为其他消耗EMC的物品供能！"
 ]);
 mods.jei.JEI.addDescription(<projecte:transmutation_table>,
 [
-    "The Transmutation Table lets you learn and reproduce all items that have EMC values!",
+    "转化桌可学习和制作拥有EMC值的物品！",
     "",
-    "Place an item in the table, or burn it in the fire, to learn it!",
+    "将物品放入转化桌，或者放入有火焰的槽位来学习物品！",
     "",
-    "Burnt items add to your personal EMC network, shared between all tables.",
+    "燃烧物品可向网络中增加EMC，所有转化桌共享该网络。",
     "",
-    "All items that have been learned can be extracted if your network has enough EMC to sustain them!",
+    "只要网络中有足够的EMC，就能直接取出已学习的物品！",
     "",
-    "The Klein Star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
+    "卡莱恩能量之星可以用网络的EMC充能，从而为其他消耗EMC的物品供能！"
 ]);
 mods.jei.JEI.addDescription(<projecte:item.pe_transmutation_tablet>,
 [
-    "The Transmutation Table lets you learn and reproduce all items that have EMC values!",
+    "转化桌可学习和制作拥有EMC值的物品！",
     "",
-    "Place an item in the table, or burn it in the fire, to learn it!",
+    "将物品放入转化桌，或者放入有火焰的槽位来学习物品！",
     "",
-    "Burnt items add to your personal EMC network, shared between all tables.",
+    "燃烧物品可向网络中增加EMC，所有转化桌共享该网络。",
     "",
-    "All items that have been learned can be extracted if your network has enough EMC to sustain them!",
+    "只要网络中有足够的EMC，就能直接取出已学习的物品！",
     "",
-    "The Klein Star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
+    "卡莱恩能量之星可以用网络的EMC充能，从而为其他消耗EMC的物品供能！"
 ]);
 mods.jei.JEI.addDescription(<projectex:arcane_tablet>,
 [
-    "The Transmutation Table lets you learn and reproduce all items that have EMC values!",
+    "转化桌可学习和制作拥有EMC值的物品！",
     "",
-    "Place an item in the table, or burn it in the fire, to learn it!",
+    "将物品放入转化桌，或者放入有火焰的槽位来学习物品！",
     "",
-    "Burnt items add to your personal EMC network, shared between all tables.",
+    "燃烧物品可向网络中增加EMC，所有转化桌共享该网络。",
     "",
-    "All items that have been learned can be extracted if your network has enough EMC to sustain them!",
+    "只要网络中有足够的EMC，就能直接取出已学习的物品！",
     "",
-    "The Klein Star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!"
+    "卡莱恩能量之星可以用网络的EMC充能，从而为其他消耗EMC的物品供能！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:mk1_power_flower>,
 [
-    "Use this to farm items with medium EMC (less than 100k).",
+    "使用以下方法来刷取EMC制作拥有中等EMC值（小于100k）的物品。",
     "",
-    "For larger EMC yield, use the dragon heart loop!",
+    "使用龙心循环来大量产出EMC！",
     "",
-    "For low EMC items, use fewer Collectors and Relays!",
+    "对于低EMC值物品，用些能量收集器和反物质继电器就够了！",
     "",
-    "After unlocking bonsai pots and EMC links, you should use those!"
+    "在解锁后，应转用力量花盆栽罐和EMC接口！"
 ]);
 
 
 mods.jei.JEI.addDescription([<tconstruct:smeltery_controller>, <tconstruct:seared_tank>, <tconstruct:smeltery_io>, <tconstruct:seared>],
 [
-    "The Smeltery is the main multiblock in Tinker's Construct! It smelts ores and other metal items into molten fluids.",
+    "冶炼炉是匠魂模组的主要多方块结构！它能够将矿物和其他金属物品熔炼为熔融流体。",
     "",
-    "The multiblock can be any cuboid shape (without corners and edges) with an open top, and it is made out of any Seared Stone block. ",
+    "冶炼炉可以是底面不超过9x9的任意立方体（不需要边框），可以用任意焦黑方块构成。",
     "",
-    "The multiblock needs one Smeltery Controller, this can replace any block! Item inputs can be piped into the controller.",
+    "结构需要一个冶炼炉控制器，替换任意侧面方块即可！物品可通过控制器输入。",
     "",
-    "The multiblock needs at least one Seared Tank, but it can have more, those can replace any block! This is to input fuel into the tank. Lava is the easiest fuel to get.",
+    "结构需要至少一个焦黑储罐，替换任意侧面方块即可！通过储罐为冶炼炉输入燃料。熔岩是最易获得的燃料。",
     "",
-    "To output the fluids from the smeltery, you need Seared Drains. Those can replace any blocks!",
+    "要从冶炼炉中输出流体，需要焦黑排液口。替换任意侧面方块即可！",
     "",
-    "You can use fluiducts on the smeltery drains. EnderIO conduits in theory work too, but they can bug out."
+    "可使用流体管道从排液口抽取流体。末影接口的流体导管也可以，但有可能会出bug。"
 ]);
 
 mods.jei.JEI.addDescription(<ore:cast>,
 [
-    "To make a cast, you want to start by making a part in the Part Builder. You should use a cheap material like Cobblestone.",
+    "要制作铸模，首先需要在部件加工台中制作对应部件。推荐使用例如圆石的廉价材料。",
     "",
-    "Place the part on the Casting Table, and pour a casting material by right clicking the faucet above the Casting Table.",
+    "将部件放入浇筑台，右击浇筑台上方的浇筑口来使用浇筑材料进行浇筑。",
     "",
-    "Casting materials can be Molten Gold or Molten Aluminum Brass!",
+    "浇筑材料可以是熔融金或熔融铝黄铜！",
     "",
-    "After you have made a cast, you can place it in the table, and use it to make parts out of any metal you want!"
+    "制作出铸模后，可将其放入浇筑台中，从而使用金属材料制作部件！"
 ]);
 
 
 mods.jei.JEI.addDescription(<gendustry:sampler>,
 [
-    "To better the genes of your bees you need the Genetic Sampler, Genetic Transposer, and Genetic Imprinter.",
+    "使用基因采样机、基因转换机和基因压印机来优化蜜蜂基因。",
     "",
-    "The Genetic Sampler takes bees, and has a chance of producing Gene Samples from a given bee.",
+    "基因采样机可以消耗所给蜜蜂，产出其基因样本。",
     "",
-    "For each bee species that has a desirable gene, you can dump excess drones into the sampler, until you obtain the gene samples you desire!",
+    "每种蜜蜂都有值得获取的基因，你可以将多余的雄蜂输入采样机，直到获得想要的基因样本！",
     "",
-    "See the Book of Creation for a list of the bees with the best genes!"
+    "前往创造之书章节查看拥有最佳基因的蜜蜂列表！"
 ]);
 
 mods.jei.JEI.addDescription(<gendustry:transposer>,
 [
-    "To better the genes of your bees you need the Genetic Sampler, Genetic Transposer, and Genetic Imprinter.",
+    "使用基因采样机、基因转换机和基因压印机来优化蜜蜂基因。",
     "",
-    "The Genetic Transposer has two main functions.",
+    "基因转换机主要有两种功能。",
     "",
-    "First, it can be used to duplicate gene samples, combine a blank one with an imprinted one to duplicate it! This is how you can farm the ingredients to craft the Torcherino!",
+    "第一，它可以用于复制基因样本，放入空白基因样本与含有信息的基因样本来进行复制！通过此方法来获得制作加速火把的材料！",
     "",
-    "Second, you can combine Genetic Samples into templates, these will be used to customize your bees!",
+    "第二，可以在工作台中将基因样本与基因模板合成，从而将其基因添加到模板中，之后可用模板自定义蜜蜂！",
     "",
-    "NOTE: templates do not need to have all 12 genes! You can make templates with even one chromosome!"
+    "注意：模板不需要具备全部12种基因！"
 ]);
 
 mods.jei.JEI.addDescription(<gendustry:imprinter>,
 [
-    "To better the genes of your bees you need the Genetic Sampler, Genetic Transposer, and Genetic Imprinter.",
+    "使用基因采样机、基因转换机和基因压印机来优化蜜蜂基因。",
     "",
-    "Given a template from the Genetic Transposer, you can use the Imprinter to modify a bee's genes.",
+    "通过制好的基因样板，使用基因压印机来编辑蜜蜂基因。",
     "",
-    "WARNING: bees have a chance of being turned into Genetic Waste, so be careful about imprinting princesses and queens.",
+    "警告：蜜蜂有概率变为垃圾基因，放入公主蜂和蜂后时要小心。",
     "",
-    "The recommended strategy is to imprint a lot of drones from your desired species, and to continuously breed with the same princess until the genes are transferred."
+    "建议压印大量雄蜂，然后不停与同一公主蜂繁殖直到基因完全转移。"
 ]);
 
 mods.jei.JEI.addDescription(<modularmachinery:itemblueprint>,
 [
-    "Use a diamond chisel to transition between blueprints!",
+    "使用钻石凿子来切换不同蓝图！",
     "",
-    "The following blueprints are craftable, and can be turned into all others.",
-    "Steel Thermal Mixer for most machines!",
-    "Tier 1 mythic miner for all mythic miners!",
-    "Neutronium Cannon for chapter 6 multiblocks!",
-    "Relativistic Collapser for chapter 9 multiblocks!",
-    "Mythic Processor Alloy Furnace for all mythic processors!",
-    "Arcane Autoworkbench for all magic multiblocks!"
+    "以下蓝图可直接合成，并用于转化为其他所有蓝图！",
+    "热钢混合器 - 大部分机械！",
+    "泰拉神话虚空资源采掘机 - 所有神话采掘机！",
+    "中子炮 - 第6章的多方块！",
+    "相对论坍缩器 - 第9章的多方块！",
+    "神话处理器：合金炉 - 所有神话处理器！",
+    "自动奥术工作台 - 所有魔法多方块！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:recursive_recipes>,
 [
-    "There are two types of recursive recipes. For some inputs are reusable, for some they are not.",
+    "有两类递归配方。一些配方的输入物可重复使用，另一些则不可。",
     "",
-    "For both types, if you want to set autocrafting recipes, the duplicated item SHOULD NOT be set as an input. Set your recipes in processing mode, without including the recursive item in the inputs list, and use an interface touching an RFTools crafter.",
+    "对于两种类型来说，在设置自动合成配方时，被复制的物品都不应被标记为输入物。将配方设置为处理模式，除递归物品之外的材料设为输入物，用接口操作RFTools模组的自动合成台。",
     "",
-    "If the input is reusable: use a Crafter in ExtC mode and set it to remember the slot for the reusable input item.",
+    "对输入物可重复使用的配方来说：将合成机设置为ExtC模式，并记录输入中可重复使用物品所在槽位。",
     "",
-    "If the input is not reusable: set the Crafter in the same way as above, and use item conduits (those can self feed) to pipe the non-reusable recursive item into the table's input slot.",
+    "对输入物不可重复使用的配方来说：同样将合成机设置为ExtC模式，使用物品导管（可自供给）将不可重复使用的递归物品输送回输入栏。",
     ""
 ]);
 
@@ -2109,27 +2109,27 @@ mods.jei.JEI.addDescription([<extrautils2:compressedcobblestone:0>,
     <extrautils2:compressedcobblestone:6>,
     <extrautils2:compressedcobblestone:7>],
 [
-    "To automate Compressed Cobblestone, you should start by making Cobblestone using ProjectE or Nuclearcraft, and combine it with Compacting Drawers.",
+    "要自动化压缩圆石，首先使用等价交换或核电工艺生产圆石，将其输入到压缩抽屉中。",
     "",
-    "A single cobblestone creation unit consists of an Energy Condenser MK1 with a collector on top (better MK3). You just need one collector for each condenser. If you need more cobble, make multiple of these units.",
+    "一个圆石生产单元由能量凝聚器 MK1及其上方的能量收集器（最好是MK3）构成。每个凝聚器只需要一个收集器。若想要更多圆石，就使用更多单元。",
     "",
-    "The Dense Cobblestone Generator is also a viable option, as opposed to an EMC setup.",
+    "与EMC设计相比，致密造石机也是可行的选择。",
     "",
-    "To compress the cobblestone, Compacting Drawers are best, just chain them till the desired tiers.",
+    "压缩圆石的最佳手段是压缩抽屉，通过压缩抽屉逐级获得所需重数的压缩圆石。",
     "",
-    "To move the cobblestone and lower tiers, Tesslocators are quite fast!"
+    "超转运体可用于快速运输圆石！"
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:making_will>,
     <bloodmagic:item_demon_crystal:0>],
 [
-    "To make your first Will Crystal you will need a Demon Crucible, and a Demon Crystallizer.",
+    "需要恶魔坩埚和恶魔结晶坛来制作第一份意志晶体。",
     "",
-    "Place a Tartaric Gem of any type into the crucible. This will suck Demonic Will out of the gem, and put it into the chunk.",
+    "在恶魔坩埚中放置任意种类的地狱魂石。它会吸收魂石中的恶魔意志，将其释放到所在区块。",
     "",
-    "Place a Demon Crystallizer into the same chunk. A Will Crystal will eventually grow. Break it to obtain a Raw Will Crystal!",
+    "在同一区块中放置恶魔结晶坛。最终，其中会生长出意志水晶。将其破坏来获得原生意志晶体！",
     "",
-    "The Will Aura Gauge will show how much will of each type is present in a chunk.",
+    "灵域测量仪可显示区块中每种意志的含量。",
     "========================"
 ]);
 
@@ -2139,11 +2139,11 @@ mods.jei.JEI.addDescription([<contenttweaker:making_colored_will>,
     <bloodmagic:item_demon_crystal:3>,
     <bloodmagic:item_demon_crystal:4>],
 [
-    "To obtain your first Aspected Will, you need to set up the Resonance of the Faceted Crystal ritual.",
+    "使用结晶共鸣仪式来获得第一份特殊意志晶体。",
     "",
-    "In a chunk with Demonic Will from a Demon Crucible or other methods, place a Crystallizer right above the Master Ritual Stone, and let a Raw Will Crystal grow.",
+    "通过恶魔坩埚或其他手段向区块中释放原生意志，然后在主仪式石上放置恶魔结晶坛，来让原生意志晶体生长。",
     "",
-    "Crystals of the other types will eventually grow on the ritual as long as you have enough Raw Will in the chunk.",
+    "只要区块中的原生意志足够，其他种类的意志晶体最终会在仪式上长出。",
     "========================"
 ]);
 
@@ -2154,56 +2154,56 @@ mods.jei.JEI.addDescription([<contenttweaker:farming_will>,
     <bloodmagic:item_demon_crystal:3>,
     <bloodmagic:item_demon_crystal:4>],
 [
-    "This is how you automate Will Crystals.",
+    "可通过以下方法实现意志晶体自动化。",
     "",
-    "You will need a fair amount of each will crystal type to start this process (10 or 20 to be safe), but it will run passively after that.",
+    "需要一定数量（10个，20个更安全）的每种意志晶体来启动该过程，启动后不需要消耗晶体运行。",
     "",
-    "You will need two rituals, both located in the same chunk. The Crack of the Fractured Crystal should be at the top, and the Gathering of the Forsaken Souls should be at the bottom. You can place both ritual stones on top of each other (see multiblock preview).",
+    "需要在同区块内运行两个仪式。碎晶裂纹仪式在顶部，孤魂集会仪式在底部。两种仪式的主仪式石可垂直相邻放置（查看多方块预览）。",
     "",
-    "Set up a passive mob farm below the rituals. The higher the variety of different animals, the faster this farm will work.",
+    "在仪式下发建立被动生物刷怪场。动物种类越多，晶体产量越多。",
     "",
-    "Place the five Will Crystal Clusters somewhere above the rituals, in the same chunk.",
+    "在仪式同区块上方放置5种意志晶簇。",
     "",
-    "Place five Crucibles nearby the crystals, and pipe Will Crystals of each type into each.",
+    "在晶簇附近放置5个恶魔坩埚，分别输入5种不同的意志晶体。",
     "",
-    "The Crystal Clusters will start growing, and they will drop Will Crystals on the ground. Use some sort of ranged collector to collect them, and pipe them into the crucibles.",
+    "意志晶簇将开始生长，掉落意志晶体。使用物品收集器收集晶体，并输送到坩埚内。",
     "",
-    "This setup will produce a surplus of Will Crystals. They will be made faster than the Demon Crucibles consume them. Profit!"
+    "该设计会产出多余的意志晶体，因为产生的速度比消耗速度快！"
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:ritual_mass_enchanting>],
 [
-    "This is how you can combine enchantments over the vanilla anvil limit, up to level 15. It can combine normally-incompatible enchants, like fire protection and blast protection, as well.",
+    "可通过以下方法突破原版附魔限制，魔咒等级最多可达15级。还可以使正常情况下不兼容的魔咒共存，例如火焰保护和爆炸保护。",
     "",
-    "The ritual requires the base Abyssalcraft setup, using the Abyssalnomicon, and can be performed in any dimension! It costs 50000 PE.",
+    "仪式需要基础的深渊国度仪式祭坛，可在任意维度使用深渊荒原死灵之书进行！消耗50000PE。",
     "",
-    "Place 8 enchanted books of any type (has to be eight) on the outer pedestals. Place a compatible enchantable item in the center.",
+    "在仪式基座上放置8本任意种类的附魔书（必须是8本）。在祭坛上放置可附魔物品（物品本身必须无附魔）。",
     "",
-    "If multiple enchants of the same type are present, they will be added together up to level 15."
+    "相同种类魔咒的等级在这一过程中会叠加，最大上限为15级。"
 ]);
 
 mods.jei.JEI.addDescription([<thaumcraft:infusion_matrix>],
 [
-    "Thaumcraft infusion is a crafting mechanic that uses Arcane Stone Pedestals to craft (see multiblock preview for infusion setup). Right click the Runic Matrix with Salis Mundus to form the structure.",
+    "神秘时代的注魔是一种通过奥术基座进行的合成机制（查看多方块预览来了解如何搭建）。使用世界盐对符文矩阵右击来使结构成型。",
     "",
-    "Infusion recipes require the right items to be placed in the pedestals, and essentia from nearby Warded Jars (or the Infusion Provider).",
+    "注魔配方需要在基座上放置正确的物品，使用附近的源质罐子（或注魔供应器）提供源质。",
     "",
-    "To start a recipe, after placing the correct items, right click the Matrix with a Caster's Gauntlet. The infusion will start with essentia being automatically sucked out of the nearby sources.",
+    "要开始注魔，在放置好正确的物品之后，使用法师护手对矩阵右击。注魔将自动从附近的源质来源抽取源质以进行。",
     "",
-    "All infusion recipes have a chance of going wrong and causing bad effects. If the Runic Matrix is stable (you can see stability while looking at it with Goggles of Revealing), those will not happen.",
+    "所有注魔配方都有一定概率失败并造成负面效果。若符文矩阵处于稳定状态（佩戴揭示之护目镜可查看注魔稳定度），则不会出现上述后果。",
     "",
-    "To stabilize Thaumcraft infusions, you should place stabilizing blocks around the Runic Matrix.",
+    "可通过在符文矩阵周围放置特定方块来增加注魔稳定性。",
     "",
-    "All stabilizing blocks should be placed following central symmetry with respect to the center pedestal!",
+    "所有稳定物都应相对于中心祭坛中心对称！",
     "",
-    "The more variety of stabilizing blocks, the better! Different colors count as different blocks!",
+    "稳定物种类越多，效果越好！颜色不同会被视为不同方块！",
     "",
-    "In addition, Stabilizers from Thaumcraft can be used to prevent some bad effects. Redstone Inlays should be used to connect the Stabilizers to each pedestal. These should still follow central symmetry.",
+    "此外，神秘时代的稳定器还可用来防止某些负面效果。使用红石镶嵌将稳定器与每个基座相连接。也应遵守中心对称规则。",
     "",
-    "The following stabilizing blocks are listed in order of stability power (you should have at most 6 of each):",
-    "Candelabra,",
-    "Candles,",
-    "Mob heads"
+    "使用以下列出的稳定物来增加稳定性（每种最多可使用6个）：",
+    "烛台,",
+    "蜡烛,",
+    "怪物头颅"
 ]);
 
 mods.jei.JEI.addDescription([<minecraft:skull:0>,
@@ -2246,347 +2246,347 @@ mods.jei.JEI.addDescription([<minecraft:skull:0>,
     <bewitchment:candelabra_iron>,
     <bewitchment:candelabra_silver>],
 [
-    "To stabilize Thaumcraft infusions, you should place stabilizing blocks around the Runic Matrix.",
+    "可通过在符文矩阵周围放置特定方块来增加注魔稳定性。",
     "",
-    "All stabilizing blocks should be placed following central symmetry with respect to the center pedestal!",
+    "所有稳定物都应相对于中心祭坛中心对称！",
     "",
-    "The more variety of stabilizing blocks, the better! Different colors count as different blocks!",
+    "稳定物种类越多，效果越好！颜色不同会被视为不同方块！",
     "",
-    "In addition, Stabilizers from Thaumcraft can be used to prevent some bad effects. Redstone Inlays should be used to connect the stabilizers to each pedestal. These should still follow central symmetry.",
+    "此外，神秘时代的稳定器还可用来防止某些负面效果。使用红石镶嵌将稳定器与每个基座相连接。也应遵守中心对称规则。",
     "",
-    "The following stabilizing blocks are listed in order of stability power (you should have at most 6 of each):",
-    "Candelabra,",
-    "Candles,",
-    "Mob heads"
+    "使用以下列出的稳定物来增加稳定性（每种最多可使用6个）：",
+    "烛台,",
+    "蜡烛,",
+    "怪物头颅"
 ]);
 
 mods.jei.JEI.addDescription([<thaumcraft:stabilizer>,
     <thaumcraft:inlay>],
 [
-    "Stabilizers can be used to prevent some bad effects if infusions go unstable.",
+    "稳定器可在注魔不稳定时防止某些负面效果。",
     "",
-    "Redstone Inlays should be used to connect the stabilizers to each pedestal. Redstone Inlays behave like redstone, with a maximum range of 15 blocks.",
+    "使用红石镶嵌将稳定器与每个基座相连接。红石镶嵌与红石类似，最大范围为15格。",
     "",
-    "These should still follow central symmetry."
+    "应遵守中心对称规则。"
 ]);
 
 mods.jei.JEI.addDescription([<forestry:bee_drone_ge>,<forestry:bee_princess_ge>,<forestry:bee_queen_ge>],
 [
-    "This will explain the basics, see the Book of Creation section of the questbook for more detailed info!",
+    "此处只阐述基础知识，查看任务书的创造之书章节来获得更多详细信息！",
     "",
-    "To farm the drops of a bee (e.g. honey combs) you should use the Industrial Apiary. You start with a princess and a drone of the same species, and they make a queen. The queen will slowly die out, and it will produce drops, as well as a new princess and more drones.",
+    "要获得蜜蜂的产出物（例如蜂窝），最好将其放入工业蜂箱。使用同品种的公主蜂和雄蜂来产出蜂后。蜂后会渐渐死亡，在此过程中生成产物，最终产出新的公主蜂和更多雄蜂。",
     "",
-    "To make a new species of bee (with the exception of the Mad Scientist Bee), you should use the Advanced Mutatron. It will take the drone and princess required (JEI will tell you) and it will make a queen of the new species."
+    "要获得新品种的蜜蜂（除了疯狂科学家蜜蜂），最好使用高级诱变机。它会消耗所需的公主蜂和雄蜂（具体查看JEI）来制作新品种的蜂后。"
 ]);
 
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_sacredmushroom>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "One of the overworld structures uses sacred oak. Check the loot there!",
+    "主世界中的某种结构中有神圣橡木。看看那儿的战利品！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the glowshroom terrarium with the following glimmering mushrooms: black, cyan, blue, green!"
+    "将夜光菇培养罐与以下微光蘑菇结合：黑色、青色、蓝色、绿色！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_radiationsuit>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "There are shields hidden in Vox Ponds worldgen. You may have to break some blocks!",
+    "未知维度中隐藏着各种盾牌。可能得破坏些方块才能找到。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the inert cursed jewel with the following shields: realmite, knightly, elementium, electrum."
+    "将惰性诅咒宝石与以下盾牌结合：现石盾、骑士盾、源质钢盾牌、琥珀金盾牌。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "rannucarpus"}),
 [
-    "Places blocks automatically in a radius around it. Mana will increase this radius. To place blocks with specific patters, place a specific filter block under the flower (right under the soil). Supplied blocks will only be placed above the filter block."
+    "在范围内自动放置方块。提供魔力可增加工作范围。要指定方块放置位置，在花所种植的方块下方放置一个过滤用方块，如此便只会在该种方块上放置提供的方块。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "tangleberrie"}),
 [
-    "Acts as a magnet for mobs and animals at the cost of mana."
+    "消耗魔力，使工作范围内的生物无法离开。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "fallenKanade"}),
 [
-    "Gives regeneration in a radius around it at the cost of mana."
+    "消耗魔力在工作范围内给予生命恢复效果。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "necrofleur"}),
 [
-    "Damages and prevents healing in mobs with less than half health. "
+    "伤害并阻止生命值低于一半的生物回复生命。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "stardustlotus"}),
 [
-    "Consumes mana to teleport animals. Right click with a Position Reader set to a location to set where the entities will be teleported. Drop a paper on the flower to activate it. If done correctly, a particle effect will show up."
+    "消耗魔力传送动物。使用存有坐标的坐标读取器右击来设置实体将被传送到的地点。在花上丢一张纸将其激活。操作正确时会出现粒子效果。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "orechidIgnem"}),
 [
-    "This flower is gated to later on in progression. It has a custom loot table with unique drops. At the cost of mana, this flower converts nearby Netherrack into ores. "
+    "这朵花在后续进度中才能合成。可生产的矿物列表已经过修改。这朵花能通过消耗魔力，将附近的地狱岩转化为矿物。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "hopperhock"}),
 [
-    "Vacuums items and puts them into nearby chests. You can whitelist specific chests by placing Item Frames on them. "
+    "捡拾附近物品并存入相邻容器。可在容器上放置物品展示框来设置白名单。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "marimorphosis"}),
 [
-    "Consumes mana to transform nearby stone into metamorphic stone (all types at random). "
+    "消耗魔力，将附近的石头转化为变质岩（种类随机）。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "daffomill"}),
 [
-    "Pushes items in a given direction at a small cost of mana. Right clicking with a Wand of the Forest changes the pushing direction. "
+    "消耗少许魔力，将物品向设定的水平方向推动。使用工作模式下的森林法杖潜行右击来更改方向。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "jiyuulia"}),
 [
-    "Pushes mobs away at the cost of mana. "
+    "消耗魔力推开生物。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "tigerseye"}),
 [
-    "Prevents creeper explosions, and makes creepers run away from players. "
+    "阻止爬行者爆炸，并使爬行者远离玩家。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "exoflame"}),
 [
-    "Consumes mana to power nearby furnaces without the need for fuel. "
+    "消耗魔力驱动附近熔炉。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "annoyingflower"}),
 [
-    "Produces fishing loot from nearby Livingrock Pedestals. Drop Fried Chickens Legs to give it luck of the sea."
+    "从附近的活石祭坛中产生钓鱼战利品。提供香香鸡可大幅提高工作效率，并有更高概率钓到稀有物品。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "solegnolia"}),
 [
-    "Prevents the Ring of Magnetization from working in a radius around it."
+    "在工作范围内阻止磁化指环生效。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "hyacidus"}),
 [
-    "Poisons nearby mobs."
+    "使附近生物中毒。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "bellethorn"}),
 [
-    "Consumes mana to damage nearby mobs."
+    "消耗魔力伤害附近生物。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "spectranthemum"}),
 [
-    "Use a Wand of the Forest in bind mode to bind it to a specific block. Items dropped on this flower will be teleported there."
+    "使用绑定模式下的森林法杖与特定方块绑定。掉落在这朵花工作范围内的物品将会被传送到绑定地点。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "agricarnation"}),
 [
-    "Consumes mana to speed up plant growth."
+    "消耗魔力增加植物生长速度。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "bubbell"}),
 [
-    "Consumes mana to clear water within a 12 block radius."
+    "消耗魔力清除12格范围内的水。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "clayconia"}),
 [
-    "Consumes mana to turn nearby sand into clay. "
+    "消耗魔力将附近的沙子变为粘土块。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "dreadthorn"}),
 [
-    "Consumes mana to hurt adult animals."
+    "消耗魔力伤害成年动物。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "heiseiDream"}),
 [
-    "Consumes mana to make mobs hostile towards each other."
+    "消耗魔力使怪物互相敌对。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "jadedAmaranthus"}),
 [
-    "Consumes mana to spawn Mystical Flowers nearby."
+    "消耗魔力在附近生成神秘花。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "mirrowtunia"}),
 [
-    "Gives nearby players immunity against some bad effects. Won't work against warp."
+    "使附近玩家免疫某些负面效果。不能免疫扭曲。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "pollidisiac"}),
 [
-    "Consumes mana to make animals breed."
+    "消耗魔力繁育动物。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "medumone"}),
 [
-    "Gives slowness to nearby mobs."
+    "消耗魔力抑制附近生物移动。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "manalinkium"}),
 [
-    "Moves mana wirelessly. Use the position reader to bind to an output manapool."
+    "无线传输魔力。使用存有坐标的坐标读取器绑定到目标魔力池。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "loonium"}),
 [
-    "Consumes mana to spawn mobs with extra loot. Anything that can be found in vanilla dungeon chests can be obtained with this flower."
+    "消耗魔力生成拥有额外掉落物池的怪物。任何原版地牢箱子中的物品都可通过这朵花获得。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "bergamute"}),
 [
-    "Mutes animals."
+    "动物的噪声。"
 ]);
 
 mods.jei.JEI.addDescription([<botania:specialflower>.withTag({type: "enchantedorchid"}), <botania:enchantedsoil>],
 [
-    "Consumes a dropped black lotus and a lot of mana to turn grass into enchanted soil."
+    "消耗丢出的黑莲花和大量魔力，将草方块转化为蕴魔土。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "orechid"}),
 [
-    "This flower is gated to later on in progression. It has a custom loot table with unique drops. At the cost of mana, this flower converts nearby stone into ores."
+    "这朵花在后续进度中才能合成。可生产的矿物列表已经过修改。这朵花能通过消耗魔力，将附近的石头转化为矿物。"
 ]);
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "vinculotus"}),
 [
-    "Prevents endermen from teleporting."
+    "阻止末影人传送。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:making_unattuned_celestial_crystals>,
 [
-    "To make your first Celestial crystal, you need Liquid Starlight, Stardust, and a Rock Crystal.",
+    "需要星能液、星尘以及水晶石来制作第一块天辉水晶石。",
     "",
-    "Place down a bucket of Liquid Starlight, with sky access, and preferably a nearby Collector Crystal.",
+    "露天放置一桶星能液，最近最好有聚能水晶。",
     "",
-    "Drop the Stardust and Rock Crystal into the Liquid Starlight, and a Celestial Crystal Cluster will form.",
+    "将星尘和水晶石丢入星能液中，等待一段时间即可产生天辉水晶簇。",
     "",
-    "The Cluster will drop a Celestial Crystal when fully grown. Using a linking tool to bind a Collector Crystal with the Cluster will speed up its growth!"
+    "完全生长后，水晶簇会掉落天辉水晶石。使用链接工具将水晶簇与聚能水晶绑定来加速生长！"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:farming_unattuned_celestial_crystals>,
 [
-    "Celestial Crystals can be duplicated using Liquid Starlight.",
+    "天辉水晶石可使用星能液进行复制。",
     "",
-    "If a Celestial Crystal is at max size (900) it has a chance of being split in two different crystals when dropped in Liquid Starlight. This will consume the bucket of Starlight.",
+    "若一块天辉水晶石达到最大尺寸（900），丢入星能液后就有概率分裂为两个不同的天辉水晶石。此过程会消耗星能液。",
     "",
-    "This process can be automated in two ways: ",
+    "可使用以下两种方法实现上述过程的自动化：",
     "",
-    "1. [Slightly more laggy, but easier] By using an Auto-Placer to keep a block space with an attuned celestial crystal full of Starlight. A properly-filtered Vacuum Chest can collect the unattuned crystals that will result from the splitting, while leaving the attuned crystal to endlessly replicate more unattuned ones.",
+    "1. [有点卡，但是更简单]使用方块放置器使共鸣天辉水晶石始终浸泡在星能液中。使用配置好过滤的虚空箱子收集分裂出的未共鸣的天辉水晶石，将共鸣天辉水晶石留在原地来无限复制未共鸣的天辉水晶石。",
     "",
-    "2. By using an Auto-Placer to keep a block space full of Starlight and using an Entity Detector from Cyclic to send a redstone signal to a collector when two entities (aka two crystals) are present in the designated block space. The system can be set up to pick up only one of the two crystals, or to pick up both, and drop one of them back into the Starlight."
+    "2. 使用方块防止器使单格空间内始终存在星能液，使用循环模组的实体检测器，使其在上述空间内检测到两个实体（也就是两个水晶石）时，向收集器发出红石信号。该系统可被设置为只拾取一个水晶石，或两个都拾取然后将其中之一丢入星能液中。"
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:levelling_up_crystals>,
     <astralsorcery:blockmachine:1>,
     <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})],
 [
-    "Crystals from astral sorcery have three stats that determine how good they are. The higher the number, the more effective they are.",
+    "星辉魔法的水晶石有三个决定其品质的属性。数值越高，性能越好。",
     "",
-    "Attuned crystals with max stats have custom recipes, but you may want to level some manually for other purposes.",
+    "满属性的共鸣天辉水晶石存在自定义配方，但是你可能需要手动升级一些以用于其他目的。",
     "",
-    "Size is increased by using Starlight. A crystal dropped in Liquid Starlight will consume the liquid to increase its size by a bit.",
+    "尺寸可使用星能液增加。浸泡在星能液中的水晶石能消耗星能液增加尺寸。",
     "",
-    "Purity is increased by duplicating crystals. A max size crystal will split in two after collecting more starlight, and one of the two crystals may have higher purity than the previous generation.",
+    "纯度可通过水晶石分裂增加。满尺寸的水晶石浸泡在星能液有概率会分裂为两块，其中一块会有更高的纯度。",
     "",
-    "Cut can be increased using a Grindstone. Every time the Grindstone is used, the crystal will gain cut, but lose size (which can be increased again using starlight)."
+    "抛光可使用砂轮增加。每使用一次砂轮，水晶石的抛光都会增加，但尺寸会减少（可通过浸泡星能液再次增加）。"
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:dimension_ids>],
 [
-    "Terra (overworld): 0",
-    "Void World: 43",
-    "Compact Machines: 144",
-    "Woot Dimension (tartarus): 418",
-    "Nether: -1",
-    "End: 1",
-    "Furnace World (Telos): 623",
-    "Twilight Forest: 7",
-    "Aether: 4",
-    "Erebus: 66",
-    "Betweenlands: 20",
-    "Iceika: 425",
-    "Arcana: 426",
-    "Abyssal wasteland: 50",
-    "Dreadlands: 51",
-    "Omothol: 52",
-    "Dark realm: 53",
-    "Dimensional Doors: 684 (and consecutive numbers)",
-    "Emptiness: 14676",
-    "Deep Dark: -11325",
-    "Bedrock Dimension: 19",
-    "Taerrapiatta: 180",
-    "Diamerisma: 181",
-    "Furatto: 182",
-    "Vibe: 183",
-    "Apichisi: 184",
-    "Finem:185",
-    "Luna: 145",
-    "Space Station: -2",
-    "Osiris: 148",
-    "Ptah: 149",
-    "Hator: 150",
-    "Europa: 151",
-    "Oi: 152",
-    "Falacer:160",
-    "Orcus: 161",
-    "Haumea: 146",
-    "Sedna: 147",
-    "Eden: 420",
-    "Precasia: 818",
-    "Barathos: 802",
-    "Lelyetia: 815",
-    "Creeponia: 805",
-    "Deeplands: 807",
-    "Abyss: 800",
-    "Rhenia: 163",
-    "Myrmex: 164",
-    "Wildwood: 421",
-    "Candyland: 803",
-    "Gardencia: 809",
-    "Celeve: 804",
-    "Crystevia: 806",
-    "Haven: 811",
-    "Iromine: 813",
-    "Mysterium: 817",
-    "Vox Ponds: 821",
-    "Pixonia: 165",
-    "Spatial Storage: -26",
-    "Apalachia: 422",
-    "Lyndenwyrm: 162",
-    "L'Borean: 814",
-    "Runandor: 819",
-    "Lunalus: 816",
-    "Proxima Belt: 166",
-    "Skythern: 423",
-    "Ancient Cavern: 801",
-    "Immortallis: 812",
-    "Greckon: 810",
-    "Dustopia: 808",
-    "Vethea: 427",
-    "Zoi: 171",
-    "Nero: 170",
-    "Akathartos: 172",
-    "Pauram: 173",
-    "Mortum: 424",
-    "Shyrelands: 820",
-    "Alkemia: 174",
-    "Earth (Lost Cities): 111",
-    "Gallifrey: 624",
-    "RFTools Dimensions: 900 (and consecutive numbers)",
+    "泰拉（主世界）：0",
+    "虚空世界：43",
+    "压缩空间：144",
+    "Woot维度（Tartarus）：418",
+    "下界：-1",
+    "末地：1",
+    "熔炉世界（Telos）：623",
+    "暮色森林：7",
+    "天境：4",
+    "混沌之地：66",
+    "交错次元：20",
+    "冰晶雪原：425",
+    "秘界：426",
+    "深渊荒原：50",
+    "恐惧之地：51",
+    "奥穆索：52",
+    "黑暗领域：53",
+    "维度门：684（以及其后的连续数字）",
+    "虚域：14676",
+    "漆黑世界：-11325",
+    "基岩维度：19",
+    "地平界：180",
+    "地方界：181",
+    "地盘界：182",
+    "谐律界：183",
+    "共鸣界：184",
+    "末结地：185",
+    "月球：145",
+    "空间站：-2",
+    "奥西里斯：148",
+    "普塔：149",
+    "哈托尔：150",
+    "欧罗巴：151",
+    "奥伊：152",
+    "法拉瑟：160",
+    "奥迦斯：161",
+    "哈乌美亚：146",
+    "塞德娜：147",
+    "伊甸：420",
+    "传说：818",
+    "爵士：802",
+    "赫尔维蒂：815",
+    "蠕变805",
+    "深层：807",
+    "深渊：800",
+    "铼界：163",
+    "恐蚁界：164",
+    "原始森林：421",
+    "糖果：803",
+    "花园：809",
+    "玩具：804",
+    "晶体：806",
+    "天堂：811",
+    "黄金：813",
+    "秘境：817",
+    "未知：821",
+    "光精界：165",
+    "封闭空间：-26",
+    "附魔山脉：422",
+    "树龙界：162",
+    "暴风：814",
+    "符境：819",
+    "[虚无]月球维度：816",
+    "比邻星带：166",
+    "空境：423",
+    "远古神殿：801",
+    "不朽之地：812",
+    "格瑞克：810",
+    "异位：808",
+    "梦魇世界：427",
+    "孤寂界：171",
+    "茕踽界：170",
+    "晦暗界：172",
+    "惧惮界：173",
+    "死域：424",
+    "塞尔瑞：820",
+    "炼金界：174",
+    "地球（失落的城市）：111",
+    "伽里弗雷：624",
+    "RFTools维度：900（以及其后的连续数字）",
     "Kashan: 190"
 ]);
 
@@ -2594,85 +2594,85 @@ mods.jei.JEI.addDescription([<contenttweaker:dimension_ids>],
 
 mods.jei.JEI.addDescription([<appliedenergistics2:part:460>, <betterp2p:advanced_memory_card>, <appliedenergistics2:certus_quartz_cutting_knife>],
 [
-    "P2P buses are used to connect transport of items, redstone, fluids, light, energy, and AE2 channels using AE2.",
+    "P2P通道可用于创建物品、红石信号、流体、光照、能量以及AE2频道的连接关系。",
     "",
-    "Right click with the following items to change mode:",
-    "Bucket for fluid mode,",
-    "Chest for item mode,",
-    "Smart cable for channel mode,",
-    "Energy cell for energy mode,",
-    "Redstone for redstone mode.",
+    "使用以下物品右击通道来改变模式：",
+    "桶：流体模式，",
+    "箱子：物品模式，",
+    "智能线缆：频道模式，",
+    "能源元件：能量模式，",
+    "红石：红石模式。",
     "",
-    "Two or more P2P buses are connected between each other using the advanced memory card. P2P connections can be renamed using a quartz knife, making it easy to keep track of stuff!",
+    "两个或更多的P2P通道可使用高级内存卡连接。P2P通道可使用石英切割刀进行重命名，以便追踪定位！",
     "",
-    "These buses can be used to move a lot of channels using a lot fewer cables, making it easier to manage the logistics in your base. The best way to do this is by using a smaller AE2 network, called a subnet, that consists only of P2P connections used to connect your main controller with other parts of your base. This way a single Dense Smart Cable can transport up to 1024 channels.",
+    "通道可使用更少的线缆来传输更多的频道，使基地布线更易于管理。最佳方法是使用一个小型的AE2网络，我们称之为子网，这个网络仅用于创建主控制器与基地其他部分的P2P连接。如此一来，单根致密线缆最多可传输1024个频道。",
     "",
-    "The multiblock preview shows how P2P can be used to move channels. The main network is in white, the subnet is in purple.",
-    "The center controller is the main controller, P2P buses can be placed directly on it, or through a dense cable. This is the input side.",
-    "The output side can be placed anywhere on the same subnet used for the input side (the purple ones).",
-    "Subnets can be powered by using external controllers, or by connecting to the main network using quartz fiber.",
-    "NOTE: you should not connect the main net and the subnet together with any ME cable outside of quartz fiber."
+    "多方块预览中显示了P2P通道是如何传输频道的。主网络为白色，子网为紫色。",
+    "中间的控制器为主控制器，P2P通道可直接放置在其上，或通过致密线缆连接。此端通道为输入端。",
+    "输出端可放置在输入端通道所在子网的任意部分（紫色的网络）。",
+    "子网可通过额外的控制器，或者与主网络用石英纤维连接来供能。",
+    "注意：除石英纤维外，不要用任何其他线缆将主网络与子网连接。"
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:yellorite_reactor>, <bigreactors:reactorcontroller>, <bigreactors:reactoraccessport>, <bigreactors:reactorcoolantport>, <bigreactors:reactorpowertaprf>],
 [
-    "To build a Yellorite Reactor you need Reactor casings (or Reactor Glass), a Reactor Controller, two Reactor Access Ports, a Redstone Flux Power Tap, Fuel Rods, Control Rods, and coolers.",
+    "要搭建黄铀反应堆，需要若干反应堆外壳（或反应堆玻璃）、一个反应堆控制器、两个反应堆访问端口、一个反应堆RF能源接口和若干反应堆燃料棒、控制杆、冷却剂。",
     "",
-    "There are multiple multiblock previews to show how each component works! Reactors can be made nearly any size, with any number of Fuel Rods. Right click the Controller with an empty hand to check if a given reactor structure is valid.",
+    "有多种多方块预览以展示各部件如何工作！反应堆几乎可以是任何尺寸，拥有任意数量的燃料棒和控制杆。空手右击控制器来查看结构是否有效。",
     "",
-    "You can search 'reactor cooler' in JEI for a list of the available coolers. Draconium blocks are the best!",
+    "在JEI中搜索'反应堆冷却剂'来查看可使用的冷却剂列表。龙块是最好的冷却剂！",
     "",
-    "To run the reactor, input Yellorium into one Access Port, and it will be consumed and turned into Cyanite. You will need to set the other Access Port to Output Mode to auto extract Cyanite.",
+    "要运行反应堆，通过访问端口输入黄铀锭，黄铀会被消耗并转化为蓝晶。将另一访问端口设置为输出模式来自动输出蓝晶锭。",
     "",
-    "To turn it into a steam-making reactor, you will need to replace the Power Tap with two Coolant Ports, one to input water, and one to output steam."
+    "若要搭建蒸汽反应堆，需要将能源接口替换为两个冷却端口，一个用来输入水，另一个输出蒸汽。"
 ]);
 
 mods.jei.JEI.addDescription([<bigreactors:turbinecontroller>, <bigreactors:turbinefluidport>, <bigreactors:turbinepowertaprf>, <contenttweaker:extreme_turbine>],
 [
-    "To build an Extreme Turbine you need Turbine casings (or Turbine Glass), a Turbine Controller, two Turbine fluid Ports, a Redstone Flux Power Tap, a Turbine Rotor Bearing, Turbine Rotor Shafts, and coils.",
+    "要搭建极限涡轮机，需要若干涡轮机外壳（或涡轮机玻璃）、一个涡轮机控制器、两个涡轮机液体端口、一个涡轮机RF能源接口、一个涡轮机转子轴承和若干涡轮机转轴、叶片和线圈。",
     "",
-    "There are multiple multiblock previews to show how each component works! Turbines can be made nearly any size. Right click the Controller with an empty hand to check if a given turbine structure is valid.",
+    "有多种多方块预览以展示各部件如何工作！涡轮机几乎可以是任何尺寸。空手右击控制器来查看结构是否有效。",
     "",
-    "You can search 'turbine coil' in JEI for a list of the available coolers. Ludicrite blocks are the best!",
+    "在JEI中搜索'涡轮机线圈'来查看可使用的线圈方块。镠块是最好的线圈！",
     "",
-    "To run the turbine, input steam into one Fluid Port, and it will be consumed and turned into Water. You will need to set the other Access Port to Output Mode to auto extract Water.",
+    "要运行涡轮机，通过液体端口输入蒸汽，蒸汽会被消耗并转化为水。需要将另一液体端口设置为输出模式来自动输出水。",
     "",
-    "Steam can be obtained from Yellorite Reactors, Steam Dynamos, Boilers."
+    "蒸汽可通过黄铀反应堆、蒸汽能源炉和锅炉获得。"
 ]);
 
 mods.jei.JEI.addDescription([<deepmoblearning:simulation_chamber>, <deepmoblearning:extraction_chamber>, <deepmoblearning:polymer_clay>, <deepmoblearning:deep_learner>],
 [
-    "To farm mob drops with Deep Mob Learning (Evolution), you need a Simulation Chamber, a Loot Fabricator, and a steady supply of Polymer Clay (which has EMC), as well as a Data Model.",
+    "要使用深度怪物学习（进化）来获取掉落物，需要模拟室、战利品制造器以及稳定的聚合粘土（有EMC值）供应，当然还有数据模型。",
     "",
-    "To function, a Simulation Chamber needs a Data Model that has been configured to a mob.",
+    "模拟室需要配置为特定生物的数据模型才能工作。",
     "",
-    "To configure a model, you need to place one for the mob you want to farm into the Deep Learner. Then, while holding the Learner in your hotbar, you want to slay a certain number of that mob to activate the model.",
+    "要配置模型，需要在深度学习器种放入所需生物的数据模型。然后，将深度学习器放入快捷栏，击杀特定数量的对应生物来激活模型。",
     "",
-    "The more mobs you slay, the higher the tier of the model. The higher the tier, the better.",
+    "击杀的生物数量越多，模型等级越高。等级越高，工作效果越好。",
     "",
-    "Placing a model in the Simulation Chamber will produce Pristine Matter, which is consumed in Loot Fabricators to farm specific mob drops."
+    "放入模型后，模拟室会产出原始物质，可在战利品制造器中消耗原始物质来获取特定掉落物。"
 ]);
 
 mods.jei.JEI.addDescription([<deepmoblearningbm:digital_agonizer>,<deepmoblearningbm:altar_linker>],
 [
-    "The Digital Mob Agonizer is a very effective way to produce essence for a Blood Altar.",
+    "数字化苦难之井是产出生命源质的有效手段。",
     "",
-    "Place one next to a Blood Altar, and use the Altar Linker to bind it.",
+    "在血之祭坛旁放置数字化苦难之井，使用祭坛连接器将二者绑定。",
     "",
-    "The Digital Mob Agonizer needs a Data Model and a steady supply of matter, and it will automatically add LP to the Altar.",
+    "数字化苦难之井需要数据模型和稳定的物质供应来自动为祭坛产出LP！",
     "",
-    "Multiple Agonizers can be connected to the same Altar!"
+    "多个数字化苦难之井可绑定至同一祭坛！"
 ]);
 
 mods.jei.JEI.addDescription([<extrautils2:terraformer:0>,<extrautils2:terraformer:1>,<extrautils2:biomemarker>,<extrautils2:terraformer:2>,<extrautils2:terraformer:3>,<extrautils2:terraformer:4>,<extrautils2:terraformer:5>,<extrautils2:terraformer:6>,<extrautils2:terraformer:7>,<extrautils2:terraformer:8>],
 [
-    "To change biomes using extra utilities, you need a terraformer, a biome marker, some antennas, and other blocks depending on the biome.",
+    "要使用更多实用设备模组来改变生物群系，需要地形转化仪、生物群系标记器、若干天线以及基于群系的其他方块。",
     "",
-    "After placing a biome marker inside the terraformer, the GUI will tell you what other blocks are needed.",
+    "在地形转化仪中放入生物群系标记器后，GUI将告诉你需要何种方块。",
     "",
-    "For each of the required blocks, place an antenna on top of them, and add the required ingredients listed by clicking the arrow.",
+    "对于每种所需方块，在其上放置天线，在方块的GUI中点击箭头查看所需材料。",
     "",
-    "If configured correctly, the terraformer will start automatically! Make sure you set the correct range!"
+    "若配置正确，地形转化仪会自动开始工作！确保范围设置正确！"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -2681,73 +2681,73 @@ mods.jei.JEI.addDescription([
     <astralsorcery:itemperkgem:2>,
     <contenttweaker:making_dynamism_gems>],
 [
-    "To craft dynamism gems, you need to drop a Rock Crystal and Glowstone in Liquid Starlight.",
+    "要制作能力宝石，需要将水晶石和荧石丢入星能液中。",
     "",
-    "Depending on the time of day this happens, the resulting crystal will drop a different gem.",
-    "Day = Ilium",
-    "Night = Fengarum",
-    "Morning/Evening = Ourium"
+    "根据生长完成的时间，会生成不同宝石。",
+    "白天 = 烈阳宝石",
+    "夜晚 = 皎月宝石",
+    "日出/日落 = 天空宝石"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:magic_mushroom_dark>],
 [
-    "The Really Scary Vishroom lets you unlock all Thaumcraft research, but it will also fill your warp bar! Unless you really like Thaumcraft research, you should probably do this, since the pack also uses a lot of addons with complicated research.",
+    "惊怖纤毛菇可解锁所有神秘时代研究，但是会直接填满扭曲条！除非你实在是很喜欢神秘时代的研究，否则最好是制作该物品，因为本包中有很多添加了复杂研究的附属模组。",
     "",
-    "In addition to the following steps, it's a good idea to have some permanent warp cleaning ability, either using the Warp Cleansers found in the Dreadlands dimension, or crafting the Omothol Warp Cleanser.",
+    "除了遵循以下步骤，最好也通过其他模组获得永久移除扭曲的手段，不论是在恐惧之地发现的扭曲净化护符，还是合成获得的奥穆索扭曲净化护符。",
     "",
-    "To craft this item, though, you will still need to do a little bit of research by yourself. The following steps are the bare minimum required to unlock this item.",
+    "要制作该物品，你还得先自己进行一些研究。以下步骤是解锁该物品的最短路径。",
     "",
-    "1. Fundamentals: First Steps > Discovering Alchemy > Discovering Infusion > Discovering Auromancy",
+    "1. 基础学：最初的摸索 > 发现：炼金术 > 发现：注魔 > 发现：神秘学",
     "",
-    "2. Alchemy: Basic Alchemy > Alumentum > Alchemical Metalurgy > Essentia Smelting > Warded Jars and Labels ",
+    "2. 炼金术：基础炼金术 > 源动之焰 > 金属炼成 > 源质冶炼 > 要素罐子和标签",
     "",
-    "3. Arcane Infusion: Basic Infusion > Infusion > (optional) Infusion Stablizer"
+    "3. 奥术注魔：基础注魔 > 注魔 > （可选）注魔稳定性"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:flux_basics>],
 [
-    "Flux is one of the core thaumcraft mechanics. ",
+    "咒波是神秘时代的核心机制之一。",
     "",
-    "Flux is similar to radiation, where each chunk has a certain flux level. If flux is too high, bad things will happen.",
+    "咒波与辐射类似，每个区块有特定的咒波值。若咒波过高，会发生不好的事情。",
     "",
-    "The Thaumometer lets you see the flux levels in a given chunk (the dark purple bar). You can sneak to see the numerical value.",
+    "使用魔导透镜可查看当前区块的咒波值（深紫色的条）。潜行以查看具体数值。",
     "",
-    "Flux is created when a few things in Thaumcraft are done:",
-    "1. A Crucible has excess essentia (use Quartz Slivers to prevent this)",
-    "2. An Essentia Smeltery is processing items (Mithrillium tier and above don't make flux)",
-    "3. You fail an infusion craft"
+    "在神秘时代中，以下事情发生时会产生咒波：",
+    "1. 坩埚的源质溢出（使用石英碎片来防止）",
+    "2. 源质冶炼厂处理物品（秘银及更高等级不会产生咒波）",
+    "3. 注魔合成失败"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:remove_flux>],
 [
-    "There are a few ways to remove flux:",
+    "有一些移除咒波的方法：",
     "",
-    "1. The Ritual of Eldritch Will from Blood Magic (good start). Place the ritual down, it will reduce flux levels in a 3x3 chunk area, and it will convert it to Demonic Will. If the 9 chunks are full of will, the ritual will stop clearing flux. Use Demon Crystallizers to make sure your chunks doesn't fill with will!",
+    "1. 血魔法的邪术意志仪式（前期推荐）。放置仪式，其会减少3x3区块内的咒波量，并将其转化为恶魔意志。如果9个区块内的意志均为满，仪式会停止清除咒波。使用恶魔结晶坛来确保区块内意志不被充满！",
     "",
-    "2. The Flux Condenser (not recommended). To unlock this you will need to have progressed through some Thaumcraft. A set of lattices should be placed above the Flux Condenser. Lattices have a chance of clogging, if that happens, you should break and replace them. This block consumes Herba essentia to function, and it produces Vitium essentia. You should have essentia pipes to input and output the two.",
+    "2. 咒波凝结器（不推荐）。要解锁该物品，需要推进一些神秘时代进度。咒波凝结器上应放置格栅。格栅有概率堵塞，若格栅堵塞，需要破坏并重新放置。该方块需消耗Herba源质才能工作，并且会产出Vitium源质。使用源质管道来输入输出这两种源质。",
     "",
-    "3. The Puriflower (best for long term). The Puriflower simply drains flux from the chunk it's placed in passively, nothing else needed!"
+    "3. 纯净之花（长期使用的最佳选择）。纯净之花放置后便可直接吸收所在区块的咒波，没有额外需求！"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:eldritch_will_ritual>],
 [
-    "The Ritual of Eldritch Will from Blood Magic is the easiest way of getting rid of flux. Place the ritual down, it will reduce flux levels in a 3x3 chunk area, and it will convert it to Demonic Will. If the 9 chunks are full of will, the ritual will stop clearing flux. Use Demon Crystallizers to make sure your chunks doesn't fill with will!"
+    "血魔法的邪术意志仪式是解决咒波的最简单方法之一。放置仪式，其会减少3x3区块内的咒波量，并将其转化为恶魔意志。如果9个区块内的意志均为满，仪式会停止清除咒波。使用恶魔结晶坛来确保区块内意志不被充满！"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:aura_basics>],
 [
-    "Aura is one of the main mechanics in Thaumcraft.",
+    "灵气是神秘时代的主要机制之一。",
     "",
-    "Aura is magical energy used to craft using some of the blocks and items in the mod.",
+    "灵气是用于本模组某些物品和方块的魔法能量。",
     "",
-    "Each chunk has a different aura level. Once it is depleted, it will slowly go back up to a maximum value that depends on seed.",
+    "每个区块都有不同的灵气值。区块内灵气耗尽后，会随时间缓慢恢复至世界种子决定的最大值。",
     "",
-    "Regardless of your world, Magical Forest biomes have much higher aura levels than all other biomes."
+    "不论什么存档，魔法森林（Magical Forest）群系的灵气值都比其他群系要高得多。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -2755,91 +2755,91 @@ mods.jei.JEI.addDescription([
     <thaumcraft:scribing_tools>,
     <thaumcraft:table_wood>],
 [
-    "To unlock pages in the Thaumonomicon, you need to perform research.",
+    "要解锁魔导手册的章节，需要进行研究。",
     "",
-    "There are eight types of research, and each type can be an obervation or a theory!",
+    "一共有8种研究，每种都对应一种观测或理论！",
     "",
-    "Observation research is performed by scanning things using the Thaumometer. In this pack there is an addon that lets you scan items directly in chests. Just mouse over them while holding the Thaumometer!",
+    "使用魔导透镜来进行观测研究。本包中的附属模组可以令你直接扫描箱子中的物品。用鼠标拖动魔导透镜直接从物品上滑过即可！",
     "",
-    "Theory research is performed in the Research Table, obtained by right clicking Scribing Tools on a Wood Table. To unlock research, place paper in the Scribing Table, and click pages until completing a theory. This task must be repeated till the desired research is obtained.",
+    "理论研究需在研究台中进行，使用笔与墨右击木桌来获得研究台。要解锁研究，在研究同中放置纸，点击选项直至完成一个理论。重复此操作直至所需获得研究。",
     "",
-    "In addition to this, Preserved Curiosities let you unlock any research at random!"
+    "除此之外，传世珍品可随机解锁研究！"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:thaumometer>],
 [
-    "The Thaumometer has three main uses.",
+    "魔导透镜主要有三种用途。",
     "",
-    "It allows you to see the presence of the two main Thaumic fields, vis (good) and flux (bad).",
+    "显示所在区块的灵气场信息：灵气量，咒波量和灵气容量。",
     "",
-    "It can be used to scan items and blocks (both in world and from the inventory) to reveal the essentia they possess, and to gain knowledge about the Thaumic arts.",
+    "扫描物品和方块（世界中和物品栏中均可）以揭示其含有的源质，并获得相关的神秘学知识。",
     "",
-    "It shows its user the presence of essentia in a given block or machine."
+    "显示方块或机器中的源质含量。"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:warp_basics>,
     <thaumcraft:sanity_checker>],
 [
-    "Warp is a mechanic used in both Thaumcraft and Abyssalcraft.",
+    "扭曲是神秘时代和深渊国度的一种机制。",
     "",
-    "Warp is something that is directly connected to your player, and it is gained in a variety of ways:",
-    "1. Eating Zombie Brains",
-    "2. Unlocking certain Thaumcraft research",
-    "3. Fighting mobs from Abyssalcraft",
-    "4. Exploring Abyssalcraft dimensions",
+    "扭曲与玩家直接相关，其来源有很多：",
+    "1. 实用僵尸之脑",
+    "2. 解锁特定神秘时代研究",
+    "3. 与深渊国度的怪物战斗",
+    "4. 探索深渊国度的维度",
     "",
-    "Warp is checked using a Sanity Checker!",
+    "可使用神志检测仪来查看扭曲值！",
     "",
-    "If your warp level is high, you will occasionally gain debuffs, and special mobs will sometimes spawn around you.",
+    "若扭曲值过高，玩家会偶尔获得负面效果，周围有时会生成特定怪物。",
     "",
-    "There are three types of warp, temporary, sticky, and permanent.",
-    "Temporary warp goes down over time, and is bright pink in the Sanity Checker.",
-    "Sticky warp needs Sanity Soap or Warp Cleansers to be removed, and is purple in the Sanity Checker.",
-    "Permanent warp is only removed using the Dreadlands and Omothol Warp Cleansers, and is dark purple in the Sanity Checker."
+    "扭曲分为三种类型：临时、粘性和永久。",
+    "临时扭曲会随时间自然减少，在神志检测仪中显示为亮粉红色。",
+    "粘性扭曲需要用祛邪肥皂或扭曲净化护符移除，在神志检测仪中显示为紫色。",
+    "永久扭曲只能使用恐惧之地和奥穆索扭曲净化护符移除，在神志检测仪中显示为深紫色。"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:crucible>],
 [
-    "The Crucible is a crafting mechanic that uses essentia. Essentia is a magical fluid obtained in a varity of ways in Thaumcraft.",
+    "坩埚使用源质来进行合成。源质是神秘国度中的一种魔法流体，可使用多种方式获得。",
     "",
-    "To function properly, a Crucible needs to be on top of fire or Nitor, and it needs to be full of water. If a crucible is working properly, the water in the crucible will bubble.",
+    "坩埚需要放置在火或者闪耀之光上来正常工作，坩埚内还需放满水。正常工作时，坩埚内的水会冒气泡。",
     "",
-    "Items dropped in the Crucible will be decomposed into their essentia. Holding shift over an item after having scanned it with the Thaumometer will show what essentia they have. Alternatively, all essentia for each item will be shown in JEI.",
+    "丢入坩埚的物品会被分解为所具备的源质。将鼠标放在被魔导透镜扫描后的物品上，按住Shift可显示其包含的源质。此外，每种物品具有的源质均可在JEI中查看。",
     "",
-    "If you are wearing the Goggles of Revealing, you will see the essentia in the Crucible.",
+    "若佩戴有揭示之护目镜，可直接看到坩埚内的源质。",
     "",
-    "If an appropriate combination of essentia is present, items dropped in the Crucible will be transformed. JEI lists the available transformations.",
+    "若源质组合正确，丢入坩埚内的物品将会被转化。JEI中列出了可用的转化配方。",
     "",
-    "Essentia will slowly disappear from the Crucible after it is added and turn into flux. Drop quartz slivers in the Crucible to collect any leftover essentia and to keep flux from building up!"
+    "坩埚中的源质会缓慢消失，并转化为咒波。向坩埚中丢入石英碎片来收集剩余的源质，避免咒波增长！"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:essentia_management>],
 [
-    "Essentia is a magical fluid that can be created, moved, and consumed as part of many Thaumcraft mechanics. While the Crucible can be used to create essentia, it can only be used for Crucible crafting.",
+    "源质是一种魔法流体，可作为许多神秘时代机制的一部分进行创造、移动以及消耗。尽管坩埚可以用于制作源质，但其制作的源质只能用于坩埚合成。",
     "",
-    "To create essentia, you need an Essentia Smeltery, which works like a furnace that 'smelts' items into their essentia components (which can be seen in JEI).",
-    "Place Arcane Alembics on top of the Smeltery to collect the output. If no Alembics are present, flux will be made.",
-    "The higher the tier, the better the yield out of each item, and less flux will be made each operation. Mithrillium tier and above make no flux.",
+    "要创造源质，需要源质冶炼厂，可以像熔炉那样把物品'烧炼'为其包含的源质（在JEI中查看）。",
+    "在冶炼厂上方放置蒸馏器以收集输出的源质。若没有蒸馏器，则会产生咒波。",
+    "冶炼厂的等级越高，物品产生的源质越多，每次操作产生的咒波越少。秘银及以上等级的冶炼厂不会产生咒波。",
     "",
-    "Essentia can be stored using Phials, or using jars. Phials are like buckets, which can be used to move essentia between containers. Jars are like tanks, which can be placed in world. Labels can be used to filter jars to store only one type of essentia.",
+    "可用安瓿或罐子来存储源质。安瓿类似桶，可用于在容器间移动源质。罐子类似储罐，可放置在世界中。标签可用于过滤罐子，使其只存储指定种类的源质。",
     "",
-    "To transport essentia, the Filling and Emptying Essentia Transfusers can be used to move essentia wirelessly. There are pipes, but they should be avoided.",
-    "The Filling Essentia Transfuser is used as a machine output, and it automatically pushes essentia into jars.",
-    "The Emptying Essentia Transfuser is used as a machine input, and it automatically pulls essentia out of jars."
+    "要传输源质，源质析出和注入装置可用于无线传输源质。当然也有源质管道，但最好别用。",
+    "源质析出装置可作为机械的输出，自动将源质输出到罐子里。",
+    "源质注入装置可作为机械的输入，自动从罐子里抽取源质。"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:phial>],
 [
-    "Phials are used to store essentia similarly to how buckets are used to store fluids.",
+    "安瓿可用于存储源质，和桶差不多。",
     "",
-    "One Phial stores exactly 10 of a given essentia.",
+    "一个安瓿可存储10单位源质。",
     "",
-    "Phials can be right clicked on essentia machines or storage to collect or deposit essentia just like buckets!"
+    "可使用安瓿右击源质机械或容器，像用桶一样收集或放入源质！"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -2853,33 +2853,33 @@ mods.jei.JEI.addDescription([
     <thaumadditions:jar_mithminite>,
     <thaumcraft:label>],
 [
-    "Jars are used to store essentia similarly to how tanks are used to store fluids.",
+    "罐子可用于存储源质，和存储流体的储罐差不多。",
     "",
-    "To fill a jar, you can use Phials, or you can directly click them on essentia containers.",
+    "可使用安瓿来装填罐子，或直接使用罐子右击源质容器。",
     "",
-    "Right clicking a jar with a label will whitelist the essentia it's currently storing so that no other essentia can enter, even after the jar has been emptied. This can be used for essentia storage systems.",
+    "使用标签右击罐子可以将罐子当前存储的源质设为白名单，阻止其他源质进入，即便罐子空了。可用于组建源质存储系统。",
     "",
-    "There are multiple tiers of jars, each with a different capacity:",
-    "Warded: 250",
-    "Void: 250 + void excess (makes flux)",
-    "Brass: 275",
-    "Thaumium: 350",
-    "Void Reinforced: 500",
-    "Mithrillium: 1000",
-    "Adaminite: 2000 (cannot store vitium)",
-    "Mithminite: 4000 + void excess (makes flux)"
+    "罐子有多个等级，每级的容量不同：",
+    "源质罐子：250",
+    "虚空罐子：250，附带溢出销毁（产生咒波）",
+    "黄铜源质罐子：275",
+    "神秘源质罐子：350",
+    "邪术源质罐子：500",
+    "秘银源质罐子：1000",
+    "精金源质罐子：2000（无法存储Vitium）",
+    "秘金源质罐子：4000，附带溢出销毁（产生咒波）"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:essentia_input>,
     <thaumcraft:essentia_output>],
 [
-    "Essentia Transfusers are the best way to move essentia around!",
+    "源质析出和注入装置是传输源质的最佳手段！",
     "",
-    "Place them on essentia machines, and they automatically move essentia to/from jars nearby.",
+    "将其放置在源质机械上，可以从附近的罐子里自动输入/输出源质。",
     "",
-    "Filling = from machines to jars",
-    "Emptying = from jars to machines"
+    "析出 = 从机械到罐子",
+    "注入 = 从罐子到机械"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -2888,9 +2888,9 @@ mods.jei.JEI.addDescription([
     <botania:pool:2>,
     <botania:pool:3>],
 [
-    "The Mana Pool transforms items that are dropped in it consuming some mana.",
+    "魔力池可消耗魔力，转化丢入其内的物品。",
     "",
-    "It is also the main way to store mana, which can be transferred using Sparks or Mana Spreaders."
+    "同时也是存储魔力的主要手段，可用火花和魔力发射器来传输魔力。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -2899,13 +2899,13 @@ mods.jei.JEI.addDescription([
     <botania:spreader:1>,
     <botania:spreader:3>],
 [
-    "Mana spreaders are used to transfer mana between mana sources or containers.",
+    "魔力发射器用于在魔力源或容器间传输魔力。",
     "",
-    "The Wand of the Forest is used to bind generating flora to a spreader. Make sure the wand is in bind mode. Shift + right click on flower first, then right click the spreader.",
+    "森林法杖可将产魔花与发射器绑定。确保森林法杖处于绑定模式。首先Shift右击花，然后右击发射器。",
     "",
-    "The Wand of the Forest is used to bind the spreader to fill a Mana Pool. Shift + right click on spreader first, then right click the pool.",
+    "森林法杖可将发射器与魔力池绑定。首先Shift右击发射器，然后右击魔力池。",
     "",
-    "To empty a mana pool, place a Mana Spreader directly adjacent to the Mana Pool. There is no need to bind them. The adjacent mana pool will be emptied by the spreader if it has another target."
+    "要从魔力池中抽取魔力，将魔力发射器直接与魔力池相邻放置。无需绑定。发射器向目标发射魔力脉冲时，将从相邻的魔力池中抽取魔力。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -2915,43 +2915,43 @@ mods.jei.JEI.addDescription([
     <botania:sparkupgrade:2>,
     <botania:sparkupgrade:3>],
 [
-    "Sparks can be used to transfer mana between Mana Pools and other Botania items. Right click a Spark on the pool to place it.",
+    "火花用于在魔力池和其他植物魔法物品间传输魔力。使用火花右击魔力池来放置。",
     "",
-    "By default, all blocks with a Spark will share mana equally, but spark augments can be used to change priorities.",
+    "默认状态下，所有放有火花的方块将平等分享魔力，但可使用火花升级来改变优先级。",
     "",
-    "Dominant: will take mana from other pools until it's full.",
-    "Dispersive: will send mana to players.",
-    "Recessive: will send mana to other pools if they can take it.",
-    "Isolated: will not send mana to other normal sparks."
+    "聚集：从其他火花中抽取魔力直至魔力池满。",
+    "弥散：向玩家传输魔力。",
+    "扩散：向其他火花传输魔力。",
+    "隔绝：不向其他按普通火花传输魔力。"
 ]);
 
 mods.jei.JEI.addDescription([
     <botania:runealtar>],
 [
-    "The Runic Altar can only accept mana from Mana Spreaders.",
+    "符文祭坛只能从魔力发射器中接收魔力。",
     "",
-    "Drop the required materials for a recipe on top of the Altar.",
+    "将配方所需材料丢到祭坛顶部。",
     "",
-    "If the recipe is correct, the spreader will start shooting mana until the altar is full.",
+    "若配方正确，发射器将开始发射魔力脉冲，直至祭坛充满。",
     "",
-    "Once the altar is full, you have to drop Livingrock on it, and right click with a Wand of the Forest to complete the craft.",
+    "一旦祭坛充满魔力，向祭坛上丢出一个活石，使用森林法杖右击祭坛来完成合成。",
     "",
-    "Runes in Runic Altar recipes are not consumed."
+    "在符文祭坛配方中，符文不会消耗。"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:crucible_automation>,
     <thaumcraft:thaumatorium>],
 [
-    "The Crucible can be transformed into the Thaumatorium, an upgraded version that has a user interface, and can be automated.",
+    "坩埚可转化为神秘炼金塔，相当于升级版本的坩埚，拥有用户界面，可进行自动化。",
     "",
-    "To form the Thaumatorium, place two Alchemical Contructs on top of a formed Crucible, and right click the stack with Salis Mundus.",
+    "要构建神秘炼金塔，在成型的坩埚上方放置两个炼金构材，接着使用世界盐右击。",
     "",
-    "The Thaumatorium can receive essentia from an Emptying Essentia Transfuser placed on its side. It can collect both from nearby jars and from an Essentia Infusion Provider.",
+    "神秘炼金塔可从放置在其侧面的源质注入装置处接收源质。可从附近的罐子或源质析出装置中收集源质。",
     "",
-    "To select a recipe, insert the desired input item, and click on the desired output to bind the Thaumatorium to that recipe. If the input item is present, essentia will be automatically drained and the recipe output will be dropped in world in front of the crucible. Any item collector can be used to collect outputs.",
+    "要选择配方，先放入所需物品，然后点击输出物以将神秘炼金塔与该配方绑定。输入所需物品，将自动抽取源质并将产物在坩埚前方（之前使用世界盐的方向）丢出。使用物品收集器来收集产物。",
     "",
-    "By default, the Thaumatorium can only perform one recipe, but if you place a Mnemonic Matrix on one of its sides, you will be able to set two additional recipes."
+    "默认状态下，神秘炼金塔只能记录一个配方，可通过在其侧面放置记忆矩阵来增加配方数量，最多可额外增加两个配方。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -2962,41 +2962,41 @@ mods.jei.JEI.addDescription([
     <thaumadditions:adaminite_smelter>,
     <thaumadditions:mithminite_smelter>],
 [
-    "Smelteries are used to make essentia out of items. To see what essentia a given item will produce, you can check the JEI tab for essentia, or press shift while hovering over an item in JEI.",
+    "冶炼厂可使用物品产出源质。可在JEI中查看物品所产出的源质，或将鼠标悬停在物品上方按住Shift查看。",
     "",
-    "A smeltery works like a furnace in that it needs fuel, which can be inserted from the bottom, to function.",
+    "冶炼厂与熔炉类似，同样需要燃料，燃料可从底部输入。",
     "",
-    "To function properly, a smeltery needs at least one Arcane Alembic placed on top. If an Alembic is not present, all that is smelted will be turned into flux.",
+    "冶炼厂上方需要放置只要一个蒸馏器才能正常工作。如果没有蒸馏器，所有产出的源质都将变为咒波。",
     "",
-    "When an item with essentia is smelted, it will be turned into an essentia slurry, shown as a purple bar on the left of the smeltery interface. If an Alembic is present, the slurry will be transferred as essentia to the Alembic.",
+    "包含源质的物品被烧炼后，会变为源质粘浆，显示在冶炼厂界面左侧的紫色条中。若存在蒸馏器，粘浆会在蒸馏器中被转化为源质。",
     "",
-    "Essentia can be collected from the Alembic using Phials, or you can place a Filling Essentia Transfuser to automatically push essentia to nearby jars.",
+    "可使用安瓿从蒸馏器中收集源质，或放置源质析出装置来自动将源质输入到附近罐子中。",
     "",
-    "All operations done by the smeltery will produce a bit of flux, so be careful! Mithrillium tier and above will not make any flux!"
+    "冶炼厂每完成一次操作都会产生少量咒波，所以要小心！秘银及以上等级的冶炼厂不会产出咒波！"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:sanity_soap>],
 [
-    "To unlock this, you will need to have completed the following research steps.",
+    "要解锁该物品，需完成以下研究步骤。",
     "",
-    "1. Fundamentals: First Steps > Discovering Alchemy",
+    "1. 基础学：最初的摸索 > 发现：炼金术",
     "",
-    "2. Alchemy: Basic Alchemy > Hedge Alchemy",
+    "2. 炼金术：基础炼金术 > 炼金杂项",
     "",
-    "3. Gain warp until you get the message 'Surely there must be a way to stop these headaches?', exploring Abyssalcraft worlds is a good way to get there",
+    "3. 获取扭曲，直到得到信息'肯定有什么办法可以遏制这些头疼事！（Surely there must be a way to stop these headaches?）'，探索深渊国度维度是获取扭曲的不错选择",
     "",
-    "4. Alchemy: Purifying Bath Salts > Sanity Soap"
+    "4. 炼金术：净化浴盐 > 祛邪肥皂"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumicenergistics:infusion_provider>],
 [
-    "The Essentia Infusion Provider works like an extension of your essentia storage that lets you interact directly with Thaumcraft machines.",
+    "注魔供应器就像是AE源质存储网络的延伸，可直接与神秘时代的机械交互。",
     "",
-    "If the provider is near your infusion setup, it will automatically collect essentia from your network.",
+    "如果放置在注魔祭坛附近，供应器会自动从网络中收集源质。",
     "",
-    "The same applies to Emptying Essentia Transfusers. This can be used for fully-automated setups for machines like the Thaumatorium."
+    "同样也适用于源质注入装置。可利用该特点使例如神秘炼金塔得机械实现完全自动化。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3004,23 +3004,23 @@ mods.jei.JEI.addDescription([
     <thaumcraft:void_seed>,
     <thaumcraft:causality_collapser>],
 [
-    "The Void Siphon is used to obtain Void Seeds from a flux rift. You can also use Causality Collapsers but they are not as reliable.",
+    "虚空吸管可从咒波裂隙中获得虚空种子。也可使用悖论物质获得种子，但是不怎么可靠。",
     "",
-    "To make a flux rift, you need high levels of flux in a chunk. The best way of doing this is to go FAR FAR away from your base or to another dimension and to drop a lot of Compressed Cobblestone into a Crucible.",
+    "要生成咒波裂隙，需要一个有高咒波值的区块。在远离基地的地方或者直接前往其他维度，向坩埚中丢入大量压缩圆石来达成要求。",
     "",
-    "Place the Siphon near the rift, and it will slowly suck it and drop Void Seeds nearby. You can collect those with an item collector of some sort.",
+    "在裂隙附近放置虚空吸管，它会缓慢汲取虚空之力，在附近掉落虚空种子。使用物品收集器等方法收集种子。",
     "",
-    "If you want to use the Collapser, throw it like a snowball at the rift and it will explode on contact. If the explosion hits the rift, the rift will close and drop a random number of Void Seeds.",
+    "若想使用悖论物质，将其想雪球一样丢向裂隙，接触方块时产生爆炸。若爆炸范围内存在裂隙，裂隙将闭合并掉落随机数量的虚空种子。",
     "",
-    "After making an initial batch, the Void Seedling can be used to safely automate Void Seeds."
+    "获取最初一批虚空种子之后，可使用虚空芽自动化安全获得虚空种子。"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumicaugmentation:rift_seed>],
 [
-    "Flux seeds are used to make rifts at your own will.",
+    "咒波种子可用来生成咒波裂隙。",
     "",
-    "To grow the seed, perform infusion by placing any number of Void Seeds around the Flux Seed."
+    "要使种子生长，在注魔祭坛的外环基座上放置任意数量的虚空种子对咒波种子进行注魔合成。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3029,22 +3029,22 @@ mods.jei.JEI.addDescription([
     <thaumicaugmentation:gauntlet:0>,
     <thaumicaugmentation:gauntlet:1>],
 [
-    "To enter the Emptiness, you need to use the Fracture Locator to find Fractures. The Nether roof is a good place to look for them. The Locator will glow if you are near a Fracture.",
+    "要进入虚域，需要使用裂隙定位器寻找裂隙。下界天花板是寻找裂隙的好地方。靠近裂隙时，定位器会发光。",
     "",
-    "To open the Fracture, you need to use a fully charged Thaumium or Voidseer Caster's Gauntlet augmented with the Impetus Conductor. To charge the augmented Gauntlet, stand near a flux rift and it will slowly consume it.",
+    "要打开裂隙，需要使用安装有元动能量电池的满充能神秘或虚空预言者法师护手。靠近咒波裂隙吸收其能量来为护手充能。",
     "",
-    "Once the Gauntlet is charged, you can right click a Fracture to open it!"
+    "护手充能完毕之后，右击裂隙将其打开！"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumcraft:condenser>,
     <thaumcraft:condenser_lattice>],
 [
-    "The Flux Condenser is a fast but unreliable way of removing flux.",
+    "咒波凝结器可快速移除咒波，但是不够稳定。",
     "",
-    "A set of lattices should be placed above the Flux Condenser. Lattices have a chance of clogging, if that happens you should break and replace them.",
+    "咒波凝结器上应放置格栅。格栅有概率堵塞，若格栅堵塞，需要破坏并重新放置。",
     "",
-    "This block consumes Herba essentia to function, and it produces Vitium essentia. You should have essentia pipes to input and output the two."
+    "该方块需消耗Herba源质才能工作，并且会产出Vitium源质。使用源质管道来输入输出这两种源质。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3055,81 +3055,81 @@ mods.jei.JEI.addDescription([
     <thaumicaugmentation:rift_seed>,
     <thaumicaugmentation:material:3>],
 [
-    "Impetus is an energy system based around flux rifts.",
+    "元动能量是一种基于咒波裂隙的能量系统。",
     "",
-    "To generate Impetus, you need to place an Impetus drainer near a flux rift. It will slowly drain the rift, and make Impetus!",
+    "要生成元动能量。需要在咒波裂隙附近放置元动汲取仪。它会缓慢汲取裂隙能量。生成元动能量！",
     "",
-    "To transfer Impetus, you need an Impetus Resonator and Impetus Relays. The Relays are like cables used to transfer this energy, and the Resonator is like a wrench. To connect two Impetus blocks to each other, shift right click the starting block, and right click the destination block. If this is done correctly, a visual effect will start connecting the two blocks.",
+    "要传输元动能量，需要使用元动谐振器和元动中继器。中继器类似传输能量的线缆，谐振器就像是个扳手。使用谐振器Shift右击起始方块，然后右击目标方块，从而在两个元动能量方块之间建立连接。连接成功后，两个方块之间会有连接的视觉效果。",
     "",
-    "To store Impetus, you need an Impetus Matrix, which behaves like a battery. To make one, assemble a structure with a Runic Matrix and two Eldritch Pedestals (see JEI preview). Right click the Matrix with Salis Mundus, and use eight Impetus Cells on the pedestals, one on each side. This battery is liked using the Impetus Resonator."
+    "使用元动矩阵来存储元动能量，其行为和电池类似。将符文矩阵与两个邪术基座组合来构成元动矩阵（查看JEI的预览）。使用世界盐右击矩阵，然后对基座使用元动能量单元，基座每个侧面都可安装1个单元，造多安装8个。使用元动谐振器来连接元动矩阵与其他设备。"
 ]);
 
 mods.jei.JEI.addDescription([
     <thaumicaugmentation:arcane_terraformer>],
 [
-    "The Arcane Terraformer is a powerful block that lets you transform the biomes of individual blocks. It is used as a part of puzzles and rituals.",
+    "奥术群系转换仪的功能十分强大，它可以改变单个方块的生物群系。在本包中作为解谜和仪式的一环。",
     "",
-    "To power the Arcane Terraformer you need aura, Impetus, and essentia in the form of Ignis, Aer, Aqua, Terra, and Permutatio. To see a setup for inputting all of these resources, read the info box on Impetus, and check the multiblock preview for the Arcane Terraformer. Permuatatio is input at the bottom, and the other essentia aspects are input from the sides of the corresponding colors. The Impetus can be obtained directly from a Drainer, but it is a good idea to use Relays to check your system. The Impetus Matrix is not needed, and it may overcomplicate things.",
+    "奥术群系转换仪需要用灵气、元动能量，以及源质形式的Ignis、、Aer、Aqua、Terra以及Permutatio。阅读元动能量的JEI信息框，并查看奥术群系转换仪的多方块预览，来了解如何输入所有这些资源。Permuatatio可从底部输入，其他源质可从对应颜色的侧面输入。元动能量可通过元动汲取仪直接获得，但最好使用元动中继器来检查元动能量系统。并不需要元动矩阵，它可能会让事情变的过于复杂。",
     "",
-    "Once your connections have been setup, place the Biome Focus in the Arcane Terraformer and select the shape and size of the biome you want to create. For some of the puzzles in the pack you will need to change single blocks, defined as a circle of radius one (do not do square of radius one).",
+    "设置后连接后，在奥术群系转换仪中放入群系核心，选择想要创建的群系半径和形状。本包中的某些解谜要求改变单个方块的群系，可使用半径为1的圆形形状（不要选择方形）实现。",
     "",
-    "To start changing the biome, right click the center of the Terraformer with an upgraded Thaumium or Voidseer Caster's Gauntlet. A particle effect will show up if you have done this correctly.",
+    "使用升级过的神秘或虚空预言者法师护手右击转换仪中心来开始转换。操作正确时会出现粒子效果。",
     "",
-    "Because of a bug with the mod, it's possible that nothing will happen after the particle effect shows up. If that happens relogging generally fixes things and it will update the biome."
+    "由于该模组的一个bug，粒子效果出现后可能什么都不会发生。在这种情况下，重新登陆通常可以解决问题，群系将正常更新。"
 ]);
 
 mods.jei.JEI.addDescription([
     <botania:alfheimportal>],
 [
-    "Construct a 5x5 portal of Livingwood (no corners), with the Elven Gateway Core at the middle of the bottom, and the Glimmering Livingwood in the middle of the other three sides.",
+    "使用活木建造一个5x5的传送门框架（不包括四角），其中底部中心为精灵门核心，其他三边中心为微光活木。",
     "",
-    "Place two Mana Pools with Natura Pylons on top within three blocks of the Gateway Core, at the same y level. That will be the mana buffer for the gateway. If the pools don't have enough mana, the portal will close!",
+    "在精灵门核心三格范围内，水平放置两个魔力池，其上放置自然水晶。这两个魔力池即为精灵门的魔力缓存。若魔力池中没有足够魔力，精灵门将关闭！",
     "",
-    "To start the portal, right click the core with the Wand of the Forest. You will need a lot of mana to open the portal.",
+    "使用森林法杖右击核心来激活精灵门。开启精灵门需要消耗巨量魔力。",
     "",
-    "Throw items into the portal to craft. This will consume a small amount of mana.",
+    "向精灵门丢出物品进行合成。会消耗少量魔力。",
     "",
-    "Be careful, throwing other items that do not have recipes will delete them!"
+    "小心，没有配方的物品将会被直接删除！"
 ]);
 
 mods.jei.JEI.addDescription([
     <ore:bewitchmentAltar>],
 [
-    "The Witches Altar is how you generate magical energy (ME) in bewitchment!",
+    "在巫师之路模组中，需要使用女巫祭坛来产生魔力（ME）！",
     "",
-    "The structure for the Altar is a 3x2 table, and it can be made by any type of Altar. Right click the structure with a vanilla carpet to form the Altar!",
+    "祭坛结构是一个3x2的桌子，可以用任意种类祭坛方块组成。使用原版地毯右击来使祭坛成型！",
     "",
-    "The Altar generates energy passively. Right clicking the Altar with an empty hand will tell you the available energy, as well as the maximum energy for the altar. Most mechanics in Bewitchment use ME to run!",
+    "祭坛会被动产生魔力。空手右击祭坛会显示可用魔力及最大魔力。巫师之路的许多机制都需要魔力来运行！",
     "",
-    "The amount of diverse nature (crops, trees, flowers) will set the maximum ME. The more different plants you have, the higher the maximum energy in the Altar!",
+    "自然方块（作物、树、花）的种类关乎魔力上限。祭坛周围的植物种类越多，魔力上限越高！",
     "",
-    "You can place statues around the Altar, or particular artifacts on the Altar to add multipliers to ME rate and amount. These will show up when searching 'witches altar' in JEI."
+    "可以通过祭坛周围放置雕像，或在祭坛上摆放物品，来为ME上限和回复速度提供加成。在JEI中搜索'女巫祭坛'来显示相关物品。"
 ]);
 
 mods.jei.JEI.addDescription([
     <bewitchment:witches_cauldron>],
 [
-    "Place on top of fire, lava, or a magma block, and near a Witches Altar.",
+    "放置在火、熔岩或岩浆块上方，靠近女巫祭坛。",
     "",
-    "To start every recipe in the Cauldron, place a water bucket inside. If the water stays in the cauldron too long, it will evaporate!",
+    "釜锅的所有配方都需要水。釜锅中的水若放置时间过长，会被蒸发！",
     "",
-    "JEI will show the required ingredients for recipes and brews! ",
+    "JEI中显示了配方和酿造所需的材料！",
     "",
-    "To craft using the Cauldron, drop in the required items after the water starts boiling! If a recipe was done correctly, the output will pop out automatically! Make sure you drop each ingredient quickly, otherwise the recipe won't complete.",
+    "待水烧滚之后，向釜锅中丢入物品来开始合成！若配方正确，产物将自动从中弹出！确保丢入原料的速度够快，否则配方不会完成。",
     "",
-    "To make brews, drop a Mandrake Root, and drop a combination of the desired brew items (JEI will show). Right click the cauldron with empty bottles to collect the potions!"
+    "要酿造药剂，先丢入曼陀罗根，接着丢入药剂所需的物品组合（JEI中有显示）。使用玻璃瓶右击釜锅来收集药剂！"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:full_essentia_automation>],
 [
-    "To fully farm essentia crystals, the recommended way is to use Vis Seeds, Phytogenic Insolators, Essentia Crystallizers, and Deep Mob Evolution. You should have an Insolator for each seed, with a steady supply of Raw Ironwood Materials from Swamp Creature Data Models.",
-    "Depending on your Insolator speed, you will need multiple Essentia Crystallizers. For a setup at base speed, 7 or 8 Crystallizers can process all pods.",
+    "要完全自动化魔力水晶碎片，推荐使用魔力种子、有机灌注器、源质结晶器以及深度怪物学习。为每种种子准备一台有机灌注器，使用沼泽生物数据模型获得稳定的生铁树原料供应。",
+    "取决于有机灌注器速度，可能会需要多个源质结晶器。对于基础速度的灌注器，7到8台结晶器可以处理所有豆荚。",
     "",
-    "To produce essentia, Mithrillium tier and above Essentia Smelteries can be used to passively make it from crystals. These are recommended because they do not make flux.",
-    "Some sort of redstone control is recommended for this setup to avoid essentia buildups. This can be done using comparators on jars that are hooked up to your automation system, and setting the smelteries to only run if essentia is below a certain threshold.",
+    "使用秘银或更高等级的冶炼厂来从魔力水晶碎片中被动产出源质。该等级的冶炼厂不会产出咒波。",
+    "推荐使用红石控制以上产线，以避免源质溢出。通过对罐子使用比较器，来实现对自动化系统源质储量的监控，如此可将冶炼厂设置为仅当源质低于特定阈值时运行。",
     "",
-    "The Mechanized Essentia Smeltery can also be used to make essentia out of the crystals. This multiblock does not require a redstone contraption, as it will stop once its essentia output hatch gets full."
+    "机械源质冶炼厂也可通过魔力水晶碎片生成源质。该多方块不需要红石控制，因为在源质输出仓满时会自动停止。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3138,13 +3138,13 @@ mods.jei.JEI.addDescription([
     <draconicevolution:energy_pylon>,
     <draconicevolution:particle_generator:2>],
 [
-    "The Draconic Energy Orb is a very large and versatile energy storage option. You shoudl definitely make one!",
+    "神龙能量核心的占地和能量储量都十分巨大。你真应该做一个！",
     "",
-    "To start, place down an Energy Core. You can right click it to select the desired tier, and to turn on a build guide. All tiers but the final one use Redstone and Draconium blocks. The final tier uses Awakened Draconium. To assemble the orb, either follow the building guide or use the automatic building in the GUI.",
+    "首先，放置能量核心。右击核心选择尺寸，然后打开建筑指导。除了最高等级，其他等级均使用红石块和龙块。最高等级会使用觉醒龙块。遵循建筑指导手动建造，或选择组装核心进行自动建造。",
     "",
-    "After building the central sphere, Energy Core Stabilizers must be placed around it, within 16 blocks of the center. Tiers 1,2,3,4 require 4 Stabilizers, one on each side. All other tiers use 36, 9 on each side in 3x3 squares. If formed correcly, they will change textures.",
+    "上述结构建造好后，在四周放置能量核心稳定器，距中心16格范围内。1到4级需要4个稳定器，每个侧面一个。更高等级需要36个稳定器，每个侧面9个，按3x3放置。若放置正确，稳定器纹理会发生改变。",
     "",
-    "Finally, to input and output energy, place Energy Pylons within 16 blocks of the core, and place Glass on top (below) them if the Pylons are below (above) the level of the energy core. If formed correctly, the glass will turn into a sphere. Right click the sphere with an empty hand to switch the pylon between input and output mode."
+    "最后，在核心16格范围内放置能量塔，能量塔的上（下）方需放置一块玻璃，若比核心高/低则玻璃需要放在能量塔下/上方，从而实现能量交互。若放置正确，玻璃将变为一个球体。空手右击球体来切换能量塔的输入输出模式。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3153,17 +3153,17 @@ mods.jei.JEI.addDescription([
     <nuclearcraft:fission_port>,
     <contenttweaker:nuclearcraft_fission_interior>],
 [
-    "The Fission Reactor is a multiblock that is both used to process fuels to obtain new resources, and to make energy.",
+    "裂变反应堆多方块结构可将燃料处理为新资源，同时还可产出能量。",
     "",
-    "The exterior of the reactor is made out of Fission Casings, a Controller, and at least one Port (can replace any fission casing on the sides). The multiblock preview shows an example exterior for a 5x5x5 interior design.",
+    "反应堆外层由若干裂变反应堆外壳、一个裂变控制器，以及至少一个裂变堆端口（替换侧面任意裂变反应堆外壳）构成。多方块预览展示的是一个5x5x5裂变堆的外层设计示例。",
     "",
-    "Depending on your fuel, you will need different interior designs. The interiors are made out of reactor cells, to process fuel while making heat, coolers of various types, to compensate the heat of the fuel, and moderators, to boost fuel efficiency while making more heat. Each of these blocks can only function if it follows certain requirements, listed on the block tooltips. If a reactor's heat is too high, it will melt down and make lots of radiation and turn into Corium.",
+    "根据使用的燃料，需设计不同的内部结构。反应堆内部由用于处理燃料的反应堆单元、用于降低热量的不同种类冷却器，以及产生更多热量同时提升燃料效率的减速剂构成。每种方块仅可在特定条件下工作，显示于物品信息框中。若热量过高，反应堆将融解，产生大量辐射并生成堆芯熔融物。",
     "",
-    "For each fuel, autobuildable multiblock structures are available. Check the crafting recipes for each fission fuel in the energy sources tab!",
+    "每种燃料都有可自动建造的多方块结构。查看能量源章节中每种裂变燃料的配方！",
     "",
-    "These designs are all 5x5x5, which should be enough for your fission needs. All designs available were made using the leu-235.com calculator. Use that website if you want to make reactors of different sizes.",
+    "所有设计都是5x5x5的，应该能满足裂变需求。所有可用设计均使用了leu-235.com中的计算器。如果想自己设计不同尺寸的反应堆，请使用该网站。",
     "",
-    "For some fuels, there are both actively and passively cooled builds. The actively cooled ones will be faster and more efficient, but will consume cryotheum to run."
+    "对于某些燃料，提供了主动式和被动式冷却两种建造方案。主动式冷却更快，效率更高，但是需要消耗极寒之凛冰。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -3171,41 +3171,41 @@ mods.jei.JEI.addDescription([
     <nuclearcraft:active_cooler>,
     <contenttweaker:active_cryotheum_cooler>],
 [
-    "The Active Cooler is a better version of the associated Passive Coolers for Fission Reactors, but it requires a fluid to run.",
+    "液冷器是裂变反应堆相关冷却器的更好版本，但是要消耗流体才能运行。",
     "",
-    "To pump the fluid inside the reactor structure, replace a Reactor Casing with a Buffer. All Active Coolers touching the Buffer, directly or indirectly, will receive the fluid. See the multiblock preview for an example on how this can be done.",
+    "用缓存器替换反应堆外壳来向反应堆内部输入流体。所有直接或间接接触缓存器的液冷器都会接收到输入的流体。在多方块预览中查看其工作示例。",
     "",
-    "Active coolers can receive any fluid that is used to craft passive (normal) coolers, and will follow the same requirements.",
+    "液冷器可接收任何用于制作被动（也就是普通）冷却器的流体，工作条件也相同。",
     "",
-    "All autobuildable designs suggested will use Gelid Cryotheum.",
+    "所有可自动建造的设计均使用极寒之凛冰。",
     "",
-    "Active coolers are also used in Fusion Reactors, check the Fusion Electromagnet multiblock preview and explanation for more info."
+    "液冷器也可用于聚变反应堆，查看电磁体的多方块预览与信息框以获得更多信息。"
 ]);
 
 mods.jei.JEI.addDescription([
     <nuclearcraft:fusion_electromagnet_idle>,
     <nuclearcraft:fusion_electromagnet_transparent_idle>],
 [
-    "To operate safely, and prevent meltdowns, Fusion Electromagnets need cooling and energy.",
+    "电磁体需要冷却和能量以安全运行，避免融解。",
     "",
-    "To provide energy, connect energy cables with high transfer rate to the Electromagnets. If properly powered, sections of connected Electromagnets will turn from red to green.",
-    "To operate safely, you will need multiple connections! One every 7 blocks should be good.",
+    "使用高能量传输速率的线缆与电磁体连接来提供能量。若正确供能，所连接的电磁体将从红色变为绿色。",
+    "提供多个能量连接以确保安全！每7个方块可以搭配1个能量输入。",
     "",
-    "To provide cooling, you will need to use Active Coolers filled with water (infinite water sources are recommended).",
-    "Cooling has to be added after the reactor starts making energy (optional while it's heating up). You want to make sure cooling is at 100%, no more, no less!"
+    "使用装填水（推荐使用无限水）的液冷器来提供冷却。",
+    "在反应堆开始产出能量时，必须进行冷却（加热时也可选择进行）。确保冷却效率在100%，不能多也不能少！"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <genetics:lab_machine:4>],
 [
-    "The acclimatiser lets you incerase the temperature and humidity tolerance of your bees.",
+    "适应性调整器可以增加蜜蜂的温度和湿度耐性。",
     "",
-    "Combine with the following items for the following effects:",
-    "Blaze powder or Lava = higher temperature",
-    "Ice or snowball = lower temperature",
-    "Water = higher humidity",
-    "Sand = lower humidity"
+    "使用以下物品组合来获得对应效果：",
+    "烈焰棒或熔岩 = 更高温度",
+    "冰或雪球 = 更低温度",
+    "水 = 更高湿度",
+    "沙子 = 更低湿度"
 
 ]);
 
@@ -3215,106 +3215,106 @@ mods.jei.JEI.addDescription([
     <bewitchment:fiery_chalk>,
     <bewitchment:phasing_chalk>],
 [
-    "Chalk is used to draw rituals to produce special effects, summon mobs, or obtain items.",
+    "粉笔用于绘制仪式，来造成特殊效果、召唤生物或获得物品。",
     "",
-    "Rituals require an active altar nearby to function.",
+    "仪式需要附近有激活的祭坛以运行。",
     "",
-    "Right click the ground with chalk to draw runes.",
+    "使用粉笔对底面右击来绘制符文。",
     "",
-    "If a ritual requires items, right click them on the center rune!",
+    "若仪式需要物品，使用所需物品对中心符文右击！",
     "",
-    "There are three tiers of rituals, corresponding to the three colors of chalk!",
+    "总共有三种等级的仪式，对应三种颜色的粉笔！",
     "",
-    "The middle chalk is always yellow! Right click it to start the ritual!"
+    "所有仪式的核心符文均为黄色！右击中心符文来启动仪式！"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <bewitchment:boline>],
 [
-    "Check uses for the boline to see a preview for the Rite of Shifting Seasons circle setup.",
+    "检查伯莱恩新月小刀的用途，以查看沧海桑田仪式的仪式圈布局。",
     "",
-    "This circle requires a boline that has been set to a specific biome. Right click one to bind it to the biome you are in. See a special recipe to craft a Stormland boline, which will be required at some point."
+    "该仪式圈需要设置于特定群系的伯莱恩新月小刀。使用小刀右击与所在群系绑定。风暴之地（Stormland）群系有特殊的配方，之后某个节点会用得到。"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <astralsorcery:blockattunementaltar>],
 [
-    "This altar is part of a multiblock structure.",
+    "该祭坛是多方块结构的一部分。",
     "",
-    "Right click with a sextant to see a multiblock preview!",
+    "使用六分仪右击查看多方块预览！Right click with a sextant to see a multiblock preview!",
     "",
-    "Holding a constellation paper in off-hand while looking at a fully built attunement structure will produce particle effects on specific blocks.",
+    "副手手持星图看向建造完成的共鸣祭坛结构，特定的方块上会有粒子效果。",
     "",
-    "Place spectral relays to for the constellation shape on the spots indicated by the particles. New visuals will show up if the relays are placed properly, and if the constellation is in the sky.",
+    "在粒子效果指示的方块上放置星辉转继器来构成星座形状。若转继器放置正确且对应的星座在天空中，会出现新的视觉效果。",
     "",
-    "The attunement altar can attune players (you stand in it) or crystals (put them on the altar).",
+    "共鸣祭坛可使玩家（站在中心）或水晶石（放入祭坛）与星座共鸣。",
     "",
-    "Each attuned crystal can produce an effect if used in a ritual altar."
+    "将共鸣水晶石放入仪式祭坛会产生不同效果。"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <astralsorcery:blockcelestialcollectorcrystal>],
 [
-    "Collector crystals are used in a variety of applications.",
+    "聚能水晶有多种用途。",
     "",
-    "They can be linked to an altar to boost starlight levels.",
+    "可与祭坛链接以增加星能水平。",
     "",
-    "They can be linked to a ritual using the same attunement to boost the effect of the altar.",
+    "可与祭坛链接，以增加与共鸣星座相同的仪式效果。",
     "",
-    "By building a structure around the crystal (see preview) it can be used to increase its boosting effect further."
+    "通过在聚能水晶周围建造多方块结构（查看预览），增幅效果还可进一步提升。"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:buffing_astral_ritual>],
 [
-    "Rituals can be boosted to have increased range and effects!",
+    "仪式可被增强，以增加范围和效果！",
     "",
-    "To boost a ritual, place a collector crystal with the same attunement as the ritual nearby, and link it to the altar using a linking tool. ",
+    "要增强仪式，在附近放置共鸣星座与仪式星座相同的聚能水晶，使用链接工具将其与祭坛链接。",
     "",
-    "The better the crystal, the better the boost.",
+    "水晶属性越强，增强效果越强。",
     "",
-    "The effect of the collector crystal is maximized if a multiblock is built around it. Right click the crystal with a sextant to obtain a preview of the multiblock.",
+    "在聚能水晶周围建造多方块结构后，其效果会最大化。使用六分仪右击聚能水晶以查看多方块预览。",
     "",
-    "To increase the ritual effects even more, you should add lenses around the ritual.",
+    "要进一步增强仪式效果，可在仪式周围放置透镜。",
     "",
-    "A light beam coming out of the altar will tell you where to place the lens. After it's placed, use the linking tool to point it back at the crystal. This will tell you where to place the next lens.",
+    "祭坛中发出的光束会指示在何处放置透镜。使用链接工具棱镜与水晶链接。接着祭坛会再次发出光束指示在何处放置下一个透镜。",
     "",
-    "The better the lens, the better the boost.",
+    "透镜属性越强，增强效果越强。",
     "",
-    "If a ritual is fully boosted (maxed crystals and maximum number of fully maxed lenses), it will produce a special particle effect."
+    "完全增强（满属性水晶和最大数量的满属性透镜）的仪式会产生特殊粒子效果。"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <xnet:controller>],
 [
-    "Every Xnet system requires a controller, a connector for each inventory you want to interact with, and network cables to connect them.",
+    "每个Xnet网络都需要一个控制器，与想要进行交互的容器相连的若干连接器，以及连通连接器的网络线缆。",
     "",
-    "The controller requires power, which should come from an external source (flux point my beloved). Do not power your Xnet controller with an Xnet connector, it will cause lag.",
+    "控制器需要能量，可使用外部能量源供应（个人最喜欢通量接出点）。不要用控制器给控制器供能，会造成卡顿。",
     "",
-    "For conduits and ducts, each individual connection is handled independently. For Xnet, each connection to other inventories in handled by the controller GUI.",
+    "对导管和管道而言，每个连接均为独立处理。对Xnet而言，每个连接至容器的连接都在控制器界面中处理。",
     "",
-    "All inventories that have connectors and valid network cable connections will show up on the controller. You can double click an inventory to see its location in-world.",
+    "所有与连接器连接，并且具备有效网络线缆连接的容器，都会在控制器中显示。双击界面中的容器以在世界中显示其位置。",
     "",
-    "A single Xnet setup can do up to 8 functions at the same time, described by 8 channels, corresponding to the columns in the GUI.",
+    "单个Xnet网络最多可有8种功能，或者说8个频道，对应控制器界面中的8列。",
     "",
-    "Each channel can be configured to do:",
+    "每个频道都可配置为以下模式：",
     "",
-    "Energy transfer: set individual inventories as energy inputs or outputs, useful for powering single-block machines that also need item automation.",
+    "能量传输（xnet.energy）：分别将每个容器设为能量输入或输出端，可用于为需要物品自动化的单方块机器供能。",
     "",
-    "Item transfer: set individual inventories as inputs or outputs of specific filtered or general items; you can specify what sides to interact with for sided machines like furnaces.",
+    "物品传输（xnet.item）：分别将每个容器设置为物品输入或输出端，可配置过滤选项；可指定互动的具体方向（仅限高级连接器），对像熔炉这样的机器十分有用。",
     "",
-    "Logic (redstone): you can add sensors (produce redstone if chest has over X amount of item A); additionally, both item and energy channels can receive logic signals to turn on/off their function (move item B if receiving redstone signal); logic (redstone) channels can be colored as well to operate independently.",
+    "逻辑（红石）（xnet.logic）：可添加传感器（Sensor，箱子中A物品超过X数量时发出红石信号）；此外，物品和能量频道都可接收逻辑信号来控制功能开关（接收到红石信号时移动B物品）；逻辑（红石）频道可配置颜色来独立工作。",
     "",
-    "Fluid transfer: it's bugged, don't use it",
+    "流体传输（xnet.fluid）：有bug，不要使用",
     "",
-    "RFTools: combined with the storage interface from RFTools, you can make mini AE2 networks.",
+    "RFTools（rftools.storage）：: 与RFTools的存储接口类方块（例如存储检测器）组合来制作青春版AE2网络。",
     "",
-    "ComputerCraft Plethora: you can interact with computers."
+    "电脑外设（plethora.cc）：可与电脑交互。"
 
 ]);
 
@@ -3324,9 +3324,9 @@ mods.jei.JEI.addDescription([
     <xnet:netcable:2>,
     <xnet:netcable:3>],
 [
-    "Every Xnet system requires a controller, a connector for each inventory you want to interact with, and network cables to connect them.",
+    "每个Xnet网络都需要一个控制器，与想要进行交互的容器相连的若干连接器，以及连通连接器的网络线缆。",
     "",
-    "Cables can be colored if you want to have different Xnet setups next to each other."
+    "线缆可以染色，以避免相邻网络互相连接。"
 
 ]);
 
@@ -3336,11 +3336,11 @@ mods.jei.JEI.addDescription([
     <xnet:connector:2>,
     <xnet:connector:3>],
 [
-    "Every Xnet system requires a controller, a connector for each inventory you want to interact with, and network cables to connect them.",
+    "每个Xnet网络都需要一个控制器，与想要进行交互的容器相连的若干连接器，以及连通连接器的网络线缆。",
     "",
-    "Like cables, connectors can be dyed to allow for different setups next to each other.",
+    "与线缆类似，连接器也可染色，以避免相邻网络互相连接。",
     "",
-    "Connectors are placed on a side of inventories and machines, but they can interact with any side. So you can extract from the bottom while the connector is on the top (if you have to work with sided machines). This can be specified in the controller GUI."
+    "连接器应放置在容器与机器旁，可与连接方块的每个面互动（仅限高级连接器）。例如，放置在底部的连接器可以从顶部提取物品（如果机器有侧面IO差异）。可在控制器GUI中指定互动面。"
 
 ]);
 
@@ -3348,20 +3348,20 @@ mods.jei.JEI.addDescription([
     <xnet:redstone_proxy>,
     <xnet:redstone_proxy_upd>],
 [
-    "The redstone proxy is an Xnet component that allows to convert an Xnet logic signal to regular redstone, if you have to interact with things externally.",
+    "红石代理器可将Xnet的逻辑信号转化为可与外部互动的红石信号。",
     "",
-    "There are two versions, one that produces block updates (like right clicking a redstone ore) and one that doesn't."
+    "代理器有两种版本，一种会造成方块更新（就像右击红石矿石那样），另一种则不会。"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <xnet:router>],
 [
-    "A router can be used to share functionality between different Xnet setups.",
+    "路由器可在不同的Xnet网络中共享功能。",
     "",
-    "If multiple different Xnet setups are connected to the same router, individual channels can be unified between them.",
+    "使用同一路由器连接多个不同Xnet网络时，可在其间合并指定频道。",
     "",
-    "The left side of the router GUI lists all channels in all Xnet setups attached to the router. If two channels are given the same label in the router, they will start acting as the same channel, split between different Xnet controllers."
+    "路由器GUI左侧会列出所有相连接的Xnet网络的频道。两个在路由器中拥有相同标签名的频道，会作为同一频道工作，在不同控制器中分配。"
 
 ]);
 
@@ -3369,11 +3369,11 @@ mods.jei.JEI.addDescription([
     <xnet:netcable:4>,
     <xnet:connector:4>],
 [
-    "Routing cables and connectors are used to link routers to each other, if for some reason you need even more channels to interact between each other.",
+    "路由网络线缆和路由连接器用于路由器的彼此连接，以使用更多频道进行交互。",
     "",
-    "Routers connected by routing cables and connectors will work the same way, but using the right side of the GUI as well.",
+    "使用路由网络线缆和路由连接器连接的路由器工作方式不变，同样共享GUI右侧的频道。",
     "",
-    "Both local (left) and remote (right) channels can interact with each other, and be unified, as long as they have the same label in the router GUI."
+    "本地（左侧）和远程（右侧）频道只要具有相同的标签名，就可以互相连接并相互交互。"
 
 ]);
 
@@ -3383,15 +3383,15 @@ mods.jei.JEI.addDescription([
     <xnet:antenna_dish>,
     <xnet:antenna>],
 [
-    "Wireless routers and antennas can be used instead of multiple routers being connected by routing cables, if you want to connect Xnet setups, and share channels, wirelessly.",
+    "无线路由器和天线可代替路由线缆，无线连接多个路由器。",
     "",
-    "They work like regular routers, but they need energy.",
+    "与普通路由器类似，但是需要能量。",
     "",
-    "The antenna base is placed on top of the wireless router.",
+    "天线基座需放置在无线路由器上方。",
     "",
-    "Regular antennas can be placed on top of the antenna base for short distance connections.",
+    "天线需放置在天线基座上，以提供短距离无线路由连接。",
     "",
-    "Antenna dishes are used for large distance connections instead of antennas."
+    "天线盘可代替天线，提供的范围更大。"
 
 ]);
 
@@ -3400,208 +3400,208 @@ mods.jei.JEI.addDescription([
     <nuclearcraft:salt_fission_heater>,
     <nuclearcraft:salt_fission_vessel>],
 [
-    "Salt reactors are used to process fission fuels and to heat NaK fluids, which can be used to generate power using a heat exchanger and a turbine.",
+    "熔盐反应堆可处理裂变燃料，加热钠钾流体，加热后的钠钾流体可在热交换器和涡轮机中产出能量。",
     "",
-    "See the multiblock preview for a preview of the exterior frame of a salt reactor.",
+    "在多方块预览中查看熔盐反应堆的外层结构。",
     "",
-    "To function, a salt reactor needs cooling, done through NaK fluids, and fuel, all of which follow proximity rules similar to fission reactors.",
+    "熔盐反应堆需要冷却（通过加热钠钾流体）和燃料进行工作，所有这些遵循与裂变反应堆相似的临近规则。",
     "",
-    "Inside a salt reactor, fluids are transported using coolant heaters (for NaK) and fission vessels (for fuel). These act similarly to fluid pipes, with a few extra rules.",
+    "在熔盐反应堆内部，流体通过熔盐冷却剂加热器（用于钠钾流体）和熔盐裂变容器（用于燃料）进行传输。与流体管道类似，但有一些额外规则。",
     "",
-    "Simpler designs use fuel flowing from end to end, but if fluids can be properly handled, coolants and fission vessels can be placed anywhere within the coolants' rules. ",
+    "较简单的设计直接将燃料从一端输送到另一端，但若能妥善处理流体，冷却剂加热器和裂变容器可以放置在冷却剂规则允许的任何地方。",
     "",
-    "The rules for a given coolant vessel depend on the fluid flowing through it and are the same as their solid fuel counterpart, e.g. NaK-Redstone filled coolant heaters have the same placement rules as passive redstone coolers.",
+    "冷却剂加热器的放置规则取决于其中流经的流体，与对应的被动冷却器规则相同。例如，装填共晶钠钾-红石混合物的冷却剂加热器的放置规则，与红石冷却器相同。",
     "",
-    "Right click each face of a vessel and coolant heater with an empty hand to change its input/output mode. Shift right click lets you change the opposite side.",
+    "空手右击容器和冷却剂加热器的各个面来更改输入/输出模式。Shift右击可更改反面的模式。",
     "",
-    "You can place a new vessel (or coolant heater) with a copy of the settings of a previous vessel by shift right clicking it with a vessel to place (this can bug out unfortunately).",
+    "放置新容器（或冷却剂加热器）时对现有容器按住Shift，可复制其侧面配置（运气不好时可能会出现bug）。",
     "",
-    "The easiest way to build a salt reactor is to configure a single layer of the interior setup first (starting from the middle block), followed by shift-clicking the next layers, and to build the outside frame at the end.",
+    "建造熔盐反应器最简单的方法：先配置单层内部结构（从中间方块开始），然后按住Shift依次放置剩余层，最后再建造外部框架。",
     "",
-    "To connect two vessels (or coolant heaters) they should have FUEL SPREAD (or COOLANT SPREAD) on their exit face, entering a DEFAULT face. ",
+    "要连接两个容器（或冷却剂加热器），应将输出端设置为'燃料分配'（或'冷却液分配'），燃料（冷却剂）输入端设置为'默认'。",
     "",
-    "Touching coolant and fuel lines with different fluids should have DISABLED on touching faces.",
+    "使用不同流体的容器或冷却剂加热器管线接触时，接触面应设置为'禁用'。",
     "",
-    "To feed fluids from outside a salt reactor, vessels have to be connected to vents, both on the input and output side. ",
+    "要从熔盐反应堆外部供应流体，容器需连接至熔盐反应堆出入口，输入端和输出端均需连接。",
     "",
-    "To connect a vessel (or coolant heater) to the output vent it should have DEPLETED OUT (or HOT COOLANT OUT) on the face touching the vent.",
+    "要将容器（或冷却剂加热器）连接至输出端的出入口，与出入口接触的面应设置为'枯竭输出'（或'热冷却液输出'）。",
     "",
-    "For each of the fuel byproducts required in progression, multiblock previews for interior reactor designs are provided. These will show an individual cross section that can be stacked into any length.",
+    "对于流程中需要的所有燃料副产物，多方块预览中都提供了相应的反应堆内部设计。以可堆叠为任意高度的横截面形式显示。",
     "",
-    "If NaK coolant is absent from inside the reactor, or if fluids cannot freely leave the reactor, it will melt down, making even more radiation. Make sure you are making plenty of coolant, and have a way to circulate it quickly.",
+    "如果内部缺少钠钾冷却剂，或加热流体无法从内部输出，反应堆将融解，产生巨量辐射。确保冷却剂供应充足，并有快速循环的方法。",
     "",
-    "Using a heat exchanger, it is possible to fully recycle NaK fluids, allowing for closed-loop designs."
+    "使用热交换器来完全循环钠钾流体，以实现闭环设计。"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:peaceful_soul>],
 [
-    "Increases the spawn rate of peaceful mobs.",
+    "增加友好生物的刷新率。",
     "",
-    "Very useful for will crystal automation!"
+    "在意志结晶自动化中很有用！"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:gathering_forsaken_souls>],
 [
-    "Speeds up will crystal growth in demon crystallizers by damaging mobs nearby. The more different mobs, the better!",
+    "通过伤害附近生物，增加恶魔结晶坛中意志晶簇的生长速度。生物种类越多，效果越好！",
     "",
-    "Combine with crack of the fractured crystal to make a will crystal farm!"
+    "与碎晶裂纹仪式组合来建造意志晶体农场！"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:crack_fractured_crystal>],
 [
-    "Automates crystal clusters dropping will crystals when fully grown.",
+    "意志晶簇生长完成后，自动掉落意志晶体。",
     "",
-    "Combine with gathering of the forsaken souls to make a will crystal farm."
+    "与孤魂集会仪式组合来建造意志晶体农场。"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:faceted_crystal>],
 [
-    "This is used to obtain your first aspected will crystals.",
+    "用于获得第一块特殊仪式晶体。",
     "",
-    "Place a crystallizer on top of the master ritual stone to collect raw demon will.",
+    "在主仪式石上放置恶魔结晶坛来收集原生恶魔意志。",
     "",
-    "After the will crystal is fully grown, the ritual will slowly split it into crystals of the other types."
+    "意志晶簇生长完全后，仪式会将其分裂为其他种类的晶簇。"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:ritual_culling>],
 [
-    "This is the best way of automating a blood altar before deep mob evolution.",
+    "深度怪物学习之前，血之祭坛的最佳自动化方案。",
     "",
-    "Place below the blood altar.",
+    "放置在血之祭坛下方。",
     "",
-    "Mobs below the ritual will be killed to fill the blood altar.",
+    "会杀死仪式下发的生物来填充血之祭坛。",
     "",
-    "Any mob farms can be used to have an endless supply of LP.",
+    "可用任意刷怪场来无限供应LP。",
     "",
-    "Max tier soul cages can be controlled with redstone, and are the fastest way to fuel this ritual."
+    "满级的灵魂笼可用红石控制，是为仪式供应生物的最快手段。"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:mark_fallen_tower>],
 [
-    "EXPLOSION WARNING!",
+    "爆炸警告！",
     "",
-    "This ritual will call down meteors containing various (sometimes) useful ores.",
+    "该仪式会召唤含有各种（有时）有用矿物的流星。",
     "",
-    "The drops will depend on the item you drop on the master ritualstone before you activate the ritual (you still need to use the activation crystal first).",
-    "Iron Block: medium size, mostly crappy ores",
-    "Gold Block: large size, mostly crappy ores",
-    "Diamond Block: small size, mostly good ores",
-    "Weight of the Ancient Heart: surprise",
-    "Baku Heart: another surprise"
+    "根据仪式激活后，丢在主仪式石上的物品召唤不同流星（需先使用激活水晶）。",
+    "铁块：中等尺寸，大部分为低价值矿物",
+    "金块：大型尺寸，大部分为低价值矿物",
+    "钻石块：小型尺寸，大部分为有用矿物",
+    "远古之心之重量：惊喜",
+    "貘之心：另一个惊喜"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <environmentaltech:solar_cont_6>],
 [
-    "Solar arrays are solar panel multiblocks that can be assembled using a variety of solar cell combinations.",
+    "太阳能阵列是可用多种太阳能板组成的多方块结构。",
     "",
-    "The higher the tier of the controller, and the higher the tier of the cells, the better.",
+    "控制器与太阳能板等级越高，发电量越大。",
     "",
-    "For Tier 6:",
-    "Litherite: 332254 RF/t",
-    "Erodium: 442949 RF/t",
-    "Kyronite: 664508 RF/t",
-    "Pladium: 885898 RF/t",
-    "Ionite: 1329016 RF/t",
-    "Aethium: 1771965 RF/t"
+    "对于6太阳能：",
+    "莱泽尔：332254 RF/t",
+    "艾洛蒂：442949 RF/t",
+    "凯罗尼：664508 RF/t",
+    "普雷蒂：885898 RF/t",
+    "艾恩尼：1329016 RF/t",
+    "以太：1771965 RF/t"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <environmentaltech:solar_cont_5>],
 [
-    "Solar arrays are solar panel multiblocks that can be assembled using a variety of solar cell combinations.",
+    "太阳能阵列是可用多种太阳能板组成的多方块结构。",
     "",
-    "The higher the tier of the controller, and the higher the tier of the cells, the better.",
+    "控制器与太阳能板等级越高，发电量越大。",
     "",
-    "For Tier 5:",
-    "Litherite: 118943 RF/t",
-    "Erodium: 158510 RF/t",
-    "Kyronite: 237886 RF/t",
-    "Pladium: 317141 RF/t",
-    "Ionite: 475772 RF/t",
-    "Aethium: 634282 RF/t"
+    "对于5太阳能：",
+    "莱泽尔：118943 RF/t",
+    "艾洛蒂：158510 RF/t",
+    "凯罗尼：237886 RF/t",
+    "普雷蒂：317141 RF/t",
+    "艾恩尼：475772 RF/t",
+    "以太：634282 RF/t"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <environmentaltech:solar_cont_4>],
 [
-    "Solar arrays are solar panel multiblocks that can be assembled using a variety of solar cell combinations.",
+    "太阳能阵列是可用多种太阳能板组成的多方块结构。",
     "",
-    "The higher the tier of the controller, and the higher the tier of the cells, the better.",
+    "控制器与太阳能板等级越高，发电量越大。",
     "",
-    "For Tier 4:",
-    "Litherite: 39771 RF/t",
-    "Erodium: 53055 RF/t",
-    "Kyronite: 79623 RF/t",
-    "Pladium: 106110 RF/t",
-    "Ionite: 159246 RF/t",
-    "Aethium: 212301 RF/t"
+    "对于4太阳能：",
+    "莱泽尔：39771 RF/t",
+    "艾洛蒂：53055 RF/t",
+    "凯罗尼：79623 RF/t",
+    "普雷蒂：106110 RF/t",
+    "艾恩尼：159246 RF/t",
+    "以太：212301 RF/t"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <environmentaltech:solar_cont_3>],
 [
-    "Solar arrays are solar panel multiblocks that can be assembled using a variety of solar cell combinations.",
+    "太阳能阵列是可用多种太阳能板组成的多方块结构。",
     "",
-    "The higher the tier of the controller, and the higher the tier of the cells, the better.",
+    "控制器与太阳能板等级越高，发电量越大。",
     "",
-    "For Tier 3:",
-    "Litherite: 12005 RF/t",
-    "Erodium: 16023 RF/t",
-    "Kyronite: 24059 RF/t",
-    "Pladium: 32095 RF/t",
-    "Ionite: 48167 RF/t",
-    "Aethium: 64190 RF/t"
+    "对于3太阳能：",
+    "莱泽尔：12005 RF/t",
+    "艾洛蒂：16023 RF/t",
+    "凯罗尼：24059 RF/t",
+    "普雷蒂：32095 RF/t",
+    "艾恩尼：48167 RF/t",
+    "以太：64190 RF/t"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <environmentaltech:solar_cont_2>],
 [
-    "Solar arrays are solar panel multiblocks that can be assembled using a variety of solar cell combinations.",
+    "太阳能阵列是可用多种太阳能板组成的多方块结构。",
     "",
-    "The higher the tier of the controller, and the higher the tier of the cells, the better.",
+    "控制器与太阳能板等级越高，发电量越大。",
     "",
-    "For Tier 2:",
-    "Litherite: 3050 RF/t",
-    "Erodium: 4075 RF/t",
-    "Kyronite: 6125 RF/t",
-    "Pladium: 8175 RF/t",
-    "Ionite: 12275 RF/t",
-    "Aethium: 12800 RF/t"
+    "对于2太阳能：",
+    "莱泽尔：3050 RF/t",
+    "艾洛蒂：4075 RF/t",
+    "凯罗尼：6125 RF/t",
+    "普雷蒂：8175 RF/t",
+    "艾恩尼：12275 RF/t",
+    "以太：12800 RF/t"
 
 ]);
 
 mods.jei.JEI.addDescription([
     <environmentaltech:solar_cont_1>],
 [
-    "Solar arrays are solar panel multiblocks that can be assembled using a variety of solar cell combinations.",
+    "太阳能阵列是可用多种太阳能板组成的多方块结构。",
     "",
-    "The higher the tier of the controller, and the higher the tier of the cells, the better.",
+    "控制器与太阳能板等级越高，发电量越大。",
     "",
-    "For Tier 1:",
-    "Litherite: 549 RF/t",
-    "Erodium: 729 RF/t",
-    "Kyronite: 1098 RF/t",
-    "Pladium: 1152 RF/t",
-    "Ionite: 1152 RF/t",
-    "Aethium: 1152 RF/t"
+    "对于1太阳能：",
+    "莱泽尔：549 RF/t",
+    "艾洛蒂：729 RF/t",
+    "凯罗尼：1098 RF/t",
+    "普雷蒂：1152 RF/t",
+    "艾恩尼：1152 RF/t",
+    "以太：1152 RF/t"
 
 ]);
 
@@ -3609,13 +3609,13 @@ mods.jei.JEI.addDescription([
     <nuclearcraft:salt_fission_retriever>,
     <nuclearcraft:salt_fission_distributor>],
 [
-    "The retriever and distributor are advanced versions of the salt reactor vents.",
+    "熔盐枯竭燃料回收器和熔盐燃料分配器是高级版本的熔岩反应堆出入口。",
     "",
-    "They allow to automatically push fuel (distributor) and pull depleted fuel (retriever) without requiring contact with vessels (all sides can be DEFAULT and don't need touching vessels).",
+    "不需要与容器接触（所有面都可设置为'默认'，并行不需要彼此连接），即可自动输出燃料（分配器），抽入枯竭燃料（回收器）。",
     "",
-    "Each retriever and distributor can interact with up to four individual vessels inside a valid salt reactor vessel.",
+    "每个回收器和分配器最多可与4个容器交互。",
     "",
-    "This makes it possible to design reactors that can be optimized by the leu235 using active coolers only (as the rules are now the same)."
+    "这样就可以设计出通过leu235优化的，只使用主动式冷却器的熔盐反应堆（因为规则相同了）。"
 
 ]);
 
@@ -3623,376 +3623,376 @@ mods.jei.JEI.addDescription([
     <nuclearcraft:heat_exchanger_controller>,
     <nuclearcraft:heat_exchanger_tube_thermoconducting>],
 [
-    "Heat exchangers are used to cool down Hot NaK fluids for making closed loop coolant systems in salt reactors and for making high pressure steam, which is used in some recipes and for making power.",
+    "热交换器可以冷却热钠钾流体，配合熔盐反应堆实现闭环冷却系统，产出高压蒸汽，高压蒸汽可用于某些配方和发电。",
     "",
-    "See the multiblock preview for a preview of the exterior design of a heat exchanger.",
+    "在多方块预览中查看热交换器的内部设计。",
     "",
-    "To function, a heat exchanger needs hot and cold fluid inputs. All that's needed for progression is to use water as the cold fluid and Hot NaK of any type as the hot fluids.",
+    "热交换器需要输入热流体和冷流体进行工作。流程中只需要使用水作为冷流体，任意热钠钾流体作为热流体即可。",
     "",
-    "Inside a heat exchanger, fluids are transported using heat exchanger tubes (used for both hot and cold). These act like Fission Vessels or Coolant Heaters in salt reactors.",
+    "在热交换器内部，使用热交换管道（冷热流体均可）来传输流体。工作方式与熔盐反应堆中的燃料容器或冷却剂加热器类似。",
     "",
-    "To properly function, hot and cold lines should run in parallel, touching each other, with fluid flow in opposite directions. Hot goes one way, cold goes the other way.",
+    "要正常工作，冷热流体管道应并行放置，相互接触，流体流向相反。热流体流向一个方向，冷流体流向则相反。",
     "",
-    "Right click each face of a tube with an empty hand to change its input/output mode. Shift right click lets you change the opposite side.",
+    "空手右击管道的各个面来更改输入/输出模式。Shift右击可更改反面的模式。",
     "",
-    "You can place a new heat exchanger tube with a copy of the settings of a previous vessel by shift right clicking it with a vessel to place (this can bug out unfortunately).",
+    "放置新热交换管道时对现有管道按住Shift，可复制其侧面配置（运气不好时可能会出现bug）。",
     "",
-    "The easiest way to build a heat exchanger is to configure a single layer of the interior setup first (starting from the middle block), followed by shift-clicking the next layers, and building the outside frame at the end.",
+    "建造热交换器最简单的方法：先配置单层内部结构（从中间方块开始），然后按住Shift依次放置剩余层，最后再建造外部框架。",
     "",
-    "INPUT SPREAD is the original fluid output face, akin to COOLANT SPREAD in a Coolant Heater, so two lines can be joined by both entering a DEFAULT face of a vessel.",
+    "'输入分配'是原流体的输出端，类似于冷却剂加热器的'冷却液分配'，因此两条管线可以通过同时进入管道的'默认'端来连接。",
     "",
-    "To make hot and cold lines interact, they should have DISABLED on touching faces.",
+    "要使冷热管道交互，其接触面应设置为'禁用'。",
     "",
-    "To feed fluids from outside a heat exchanger, tubes have to be connected to vents, both on the input and output side. ",
+    "要从热交换器堆外部供应流体，管道需连接至热交换出入口，输入端和输出端均需连接。",
     "",
-    "Keep in mind that hot will output on the side where cold will input, and vice versa.",
+    "请记住，热流体会在冷流体输入的一侧输出，反之亦然。",
     "",
-    "To connect a tube to the output vent, it should have PRODUCT OUT on the face touching the vent. Connected vessels will all push their product through that block.",
+    "要将管道连接至输出端的出入口，与出入口接触的面应设置为'产物输出'。所有连接的管道会通过该方块输出其产物。",
     "",
-    "Depending on the designs you pick for salt reactors, you will want to recycle up to 5 different NaK fluids.",
+    "根据选择的熔盐反应堆设计，需要循环使用最多5种不同的钠钾流体。",
     "",
-    "Depending on the designs you pick for salt reactors, you may want to recycle multiple NaK fluids. There are a few multiblock previews that accomodate different numbers of NaK fluids. "
+    "根据选择的熔盐反应堆设计，可能需要循环使用多种不同的钠钾流体。多方块预览中有可容纳不同种类数量钠钾流体的设计。"
 
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_stage1anomaly>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "In the Haven you can find colored Fabric. One structure gives you the shape of the totem, the trees tell you what blocks to use to build the totem. Stand on it, and use the anomaly.",
+    "在天堂维度可以找到一些染色的变化之壁。存在变化之壁的结构会告诉你图腾的形状、树告诉你使用何种方块来搭建图腾。站在图腾上，使用异常检测器。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "The totem is built as follows (top to bottom):",
-    "Emeral Block",
-    "Obsidian",
-    "Obsidian",
-    "Obsidian",
-    "Obsidian with four iron blocks making a plus sign"
+    "使用以下方块建造图腾（从上到下）：",
+    "绿宝石块",
+    "黑曜石",
+    "黑曜石",
+    "黑曜石",
+    "用4个铁块以十字形环绕黑曜石"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_warrenblindfold>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Chest loot in dimensional doors includes four different bee combs. Combine those with four Essences of the Mythic Shells and a Blindfold.",
+    "维度门里的箱子中包含四种不同的蜂窝。将它们与四个神话质壳精华以及一个眼罩结合。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Use the following combs: Blaze, Zinc, Titanium, Magenta."
+    "使用以下蜂窝：烈焰蜂窝、锌蜂窝、钛蜂窝、染色蜂窝（品红）。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_monumentallysentientbeatball>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Zoi hides some interesting loot, a book knows the way! Combine the right Tributes to the Meatball Man with the right decorative blocks.",
+    "孤寂界中有一些有趣的战利品，Zoi hides some interesting loot, a book knows the way! Combine the right Tributes to the Meatball Man with the right decorative blocks.",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "These are the combinations of items to surround with blocks:",
-    "Rainbow Fire + Plate Temple Block",
-    "Blue Hair + Purple ME Controller Futura Block",
-    "AI Art + Scorned Bricks from Bewitchment",
-    "Sick fade + Metallic Voidstone",
-    "Addiction Cookie + Compact Machine Wall",
-    "Cat Ears + ME Controller Futura Block",
-    "Italian Flag + Companion Valentines' Block",
-    "Sausage Sandwich + Bismuth Glowstone",
-    "Kitty Smile + Encased Bricks Sky Stone Bricks"
+    "使用对应方块环绕物品：",
+    "虹火 + 镶板神庙石",
+    "蓝发 + 紫色ME控制器科幻方块",
+    "AI图 + 巫师之路的鄙夷方砖",
+    "病态淡消 + 金属镶板虚空石",
+    "成瘾性曲奇 + 压缩空间壁",
+    "猫耳 + ME控制器科幻方块",
+    "意大利国旗 + 同伴爱之方块",
+    "香肠三明治 + 铋纹路荧石",
+    "猫咪笑脸 + 嵌套砖块陨石石砖"
 ]);
 
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_chaoticchanneling>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "A recipe for a specific machine, and something to put into it...",
+    "一个特定机器的配方，往里面放入特定物品……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Place a Life Crystal Ore in a Pulverizer from Thermal, and craft it with four Star of Betrayal, and four Chaotic Gems"
+    "使用热力的磨粉机处理生命水晶矿石，将产物与4个背叛之星、4个混沌宝石结合。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_truepowerabomination>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "A certain tree stump in Diamerisma contains spawn",
+    "地方界的特定树桩处会生成。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the Minted Fluix Crystal, the Touch of The Arbiter, the Aeldunari, and the Abominable Egg with the following Mob Souls from Animus: Jungle Spider, Hell Spider, Soul Spider, Ender Spider, Sea Spider."
+    "将精铸福鲁伊克斯水晶、仲裁者之触、龙之晶核、憎恶蛋与以下Animus模组的生物灵魂结合：丛林蜘蛛、地狱蜘蛛、灵魂蜘蛛、末影蜘蛛、海洋蜘蛛。"
 ]);
 
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_icydreadshard>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "The Apothecary Comb can be crafted with some blocks to make various Potion Essences. The Twilight Forest will tell you what blocks to use to make the right Essences. Craft them with the Icy Dreadful Shard",
+    "药剂师蜂窝可与某些方块合成，制作不同药水精华。暮色森林会告诉你使用何种方块来制作正确的精华。将药水精华与寒霜怖惧碎片结合。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the Icy Dreadful Shard with the following Potion Essences: Flight V (8:20) [Golden Aercloud], Fear (0:05) [Ethaxium Bricks], Iceworld V (0:05) [Perpetual Ice], Curse of Undeath (0:50) [Block of Flesh]."
+    "将寒霜怖惧碎片与以下药水精华结合：腾空 V (8:20) [黄金境云]、恐惧 (0:05) [伊塞斯砖块]、冰霜世界 V (0:05) [永恒之冰]、死灵诅咒 (0:50) [压缩腐肉块]。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_attunedfluixconstruct>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "The Fluix Historian Callstone will give you the Phasing Fluix Construct, various notes hidden in the structure will explain what Draconic Evolution Souls you need to combine it with. A good super enchant",
+    "福鲁伊克斯史学家召唤石可以让你获得相位福鲁伊克斯构装体，隐藏在结构中的各种说明会解释需要将它与哪些龙之进化的生物灵魂结合。推荐用超限附魔快速获得生物灵魂。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the Phasing Fluix Construct with the Following Draconic Evolution Souls: Enthralled Dramcryx, Glacide, Slime Beetle, Salamander, Minion of the Gatekeeper, Stag Beetle, Death Hound, Ender Triplet."
+    "将相位福鲁伊克斯构装体与以下龙之进化的生物灵魂结合：腐化棘背兽、冰川兽、粘液甲虫、炎蝾螈、守门者仆从、鹿角甲虫、死亡猎犬、末影三子。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_gemvoracity>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "A banner that does not belong is found in the Vox Ponds, make it bejewelled and craft it with the Gem of Gluttony.",
+    "在未知维度找到一面不属于它的旗帜，将其制作成嵌宝旗帜，与暴食宝石结合。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the Gem of Gluttony with a Bejewelled Candy Banner."
+    "将暴食宝石与嵌宝糖果旗帜结合。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_gemvoracity2>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "You have to use the Gem of Voracity in the right dimension and in the right biome, the Vox Ponds will tell you the info you need!",
+    "在正确的维度与正确的群系中使用贪食宝石，未知维度会有你需要的信息！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Use the Gem of Voracity in a 9x9 area of Mesa (Bryce) inside of Candyland."
+    "在糖果维度中，于9x9大小的平顶山（岩柱）（Mesa (Bryce)）群系中使用贪食宝石。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_stage2anomaly>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "If only there was a way to teleport above an unbreakable wall...",
+    "要是有办法传送到某个不可破坏的墙壁之外就好了……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Use the Gaia tesseract to get to the right height."
+    "使用盖亚超立方体以达到正确的高度。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_infuserfabrial>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Many Warded Jars can be found in Crystevia, and Essentia can be turned into Vis Crystals.",
+    "在晶体维度中可找到许多源质罐子，将里面的源质变为魔力水晶碎片。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Combine the gemheart with the following Vis Crystals: Luna, Ventus, Vitreus, Aer, Aqua, Terra, Perditio, Motus."
+    "将宝石之心与以下魔力水晶碎片结合：Ventus、Vitreus、Aer、Aqua、Terra、Perditio、Motus。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_apothecaryprisonkey>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "A few special mushrooms can be found in Wildwood, grind them up with a Mortar and Pestle to make Powders.",
+    "原始森林中可找到一些特殊蘑菇，用杵和臼将其制成花粉。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Combine the Empowered Apothecary Stone with the following Floral Powders: White, Magenta, Blue, Brown."
+    "将注魔药剂师之石与以下花粉结合：白色、品红色、蓝色、棕色。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_dragonslayer>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "You can fight some special armored enemies in Mysterium, their armor will tell you what to combine the Heart of Hearts with.",
+    "在秘境维度，可以与一些特殊的着甲敌人战斗，它们的盔甲会告诉你将何物与心中之心结合。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Combine the Whispering Heart of Hearts with the following Dragon Scales: White, Amethyst, Emerald, Gray."
+    "将低语心中之心与以下龙鳞结合：凇白、晶紫、翡绿、烬灰。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_wyvernmonument>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "The marble monument found in Lyndenwyrm has four columns, place attuned collector crystals on them, and use the Wyvern Monument Activation Fabrial. The four attunement requirements are found in worldgen, and a structure will tell you which one goes where.",
+    "树龙界中的大理石神殿有四根柱子，在柱子上放置聚能水晶，使用双足飞龙神殿激活法器。4个聚能水晶的共鸣星座要求可在本世界中找到，某个结构会告诉你星座对应的柱子方向。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "North: Octans",
-    "South: Horologium",
-    "East: Lucerna",
-    "West: Vicio"
+    "北方：南极座",
+    "南方：时钟座",
+    "东方：圣芒座",
+    "西方：虚御座"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_oblivioncandle>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Click the candle, and it'll tell you what to do!",
+    "点击蜡烛，它会告诉你需要做什么！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Travel through the maze in L'Borean, and use the Candle while standing in the center of the candle circle at the bottom of the maze."
+    "穿过暴风维度中的迷宫，站在迷宫底部的蜡烛圈中心使用湮灭蜡烛。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_stoneofanima>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Many Tablets can be found around L'Borean, combine them with a Chancedony Ingot. Some may drop from minibosses.",
+    "暴风维度可找到许多石板，将它们与玉髓锭结合。部分石板由小Boss掉落。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Combine a Chalcedony Ingot with the following Tablets: Sight, Stength, Vitality, Pressure, Satiation, Cleansing, Distortion, Sanctity."
+    "将玉髓锭与以下石板结合：视野、力量、活力、高压、饱和、净化、扭曲、圣洁。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_ghoulspirit>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Greckon worldgen contains various Crystal Clusters, the corresponding Essentia Crystals can be combined with Primed Ghoulasm.",
+    "格瑞克维度中有许多水晶块，用对应的魔力水晶碎片与浓缩恐惧血液结合。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Combine a Primed Ghoulasm with the following Essentia Crystals: Mythus, Auram, Vitreus, Potentia."
+    "将浓缩恐惧血液与以下魔力水晶碎片结合：Mythus、Auram、Vitreus、Potentia。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_taintedmeatball>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Finem worldgen hides the instructions to make four Abyssalcraft Charms. You may have to break some things to find them. Combine them with a Flux Sponge.",
+    "末结地世界中隐藏了4个深渊国度符咒的制作说明。可能需要挖掘一些方块才能找到。将提示的符咒与咒波清理海绵结合。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Combine a Flux Sponge with the following Abyssalcraft Charms: J'zahar Duration, Yog-Sothoth Power, Azathoth Range, Cthulhu Power."
+    "将咒波清理海绵与以下四个深渊国度的符咒结合：J'zahar：连续、Yog-Sothoth：能量、Azathoth：范围、Cthulhu：能量。"
 ]);
 
 
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_spellrecyclercrystal>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the right type of chest with the right crystals, in the right shapes. The villagers above the nether will guide you. Find the Sacred Oak.",
+    "将正确种类的箱子，与正确的水晶，以正确的形状结合。下界上方的村民将指引你。去找神圣橡木。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft a plus sign of Magic Crystals with a Crystal Chest in the center."
+    "用魔力水晶以十字形环绕水晶箱子。"
 ]);
 
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_furnaceguy>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the Everburner with the right Pigments. The Molten Furnace in Gallifrey will guide you.",
+    "将永燃炉心与正确的颜料结合。伽里弗雷的熔火熔炉会指引你。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft an Everburner with the following Pigments: Light Mauve, Teal, Indigo, Turquoise."
+    "将永燃炉心与以下颜料结合：淡木槿紫、鸭绿、靛蓝、绿松石。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_memoryrestorationritual>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the Will Ensnaring Fabrial with the right items obtained from the Eldunarì. The callstone for the Dread Cleansing Fabrial will help you.",
+    "将意志陷落法器与正确的用龙之晶制作的物品结合。悚怖净化召唤石会帮助你。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Reproduce the following recipe, using the 'true name' attributed items:",
-    "<blaze powder> <abyssalnite ingot>, <oblivion death bomb>",
-    "<wireless booster> <will ensnaring fabrial> <raw charger shank>",
-    "<defined ingot> <kamium cloth> <rune of wrath>"
+    "使用拥有'真名'属性的物品重现以下配方：",
+    "<烈焰粉> <渊素锭>, <湮灭弹>",
+    "<无线信号增幅器> <意志陷落法器> <生的袭击者腿肉>",
+    "<定义锭> <神灵之布> <暴怒符文>"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_runesofliberation>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the Runes of the True Tongue, the four Scrolls of Truth from the Memory Restoration Ritual, and Four Skill Chesplates. Some items in the Weaponsmith Callstone will point you towards some quests icons for the right skills.",
+    "将源语符文、通过记忆恢复仪式获得的四个真相之卷以及四个虚无世界模组的技能胸甲结合。武器匠召唤石中的物品会指引你对应技能的任务图标。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft Runes of the True Tongue, the four Scrolls of Truth from the Memory Restoration Ritual, and the four following chesplates: Innervation, Butchery, Runation, Expedition."
+    "将源语符文、通过记忆恢复仪式获得的四个真相之卷与以下四种胸甲结合：支配、嗜血、魔力、远征。"
 ]);
 
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_biomeritual>,
 [
-    "Come on! At least try to solve the puzzle!",
+    "拜托！至少试着解一下谜题嘛！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "This all starts from the Biome Ritual Callstone. The books in there will direct you to the location where the biome ritual should be performed, as well as to many different structures in many different dimensions. The loot in these structures consists of 12 different biome foci. After finding the right dimension to use the Terraformassiflora, change the biomes in a 5x5 area according to the blocks on the floor of the Biome Ritual Callstone. Each of the 12 blocks corresponds to each of the 12 biomes (make sure you orient the north/south/east/west correctly). The Arcane Terraformer allows you to modify the biomes of the right dimension to reproduce the right biome pattern. The biome checker item is very helpful here. Once done (I know too easy), stand in the middle of the 5x5 and use the Terraformassiflora.",
+    "一切始于群系仪式召唤石。里面的书会指引你举行群系仪式的地点，以及许多不同维度中的结构。这些结构的战利品中有12个不同的群系核心。找到使用移地换形之花的正确维度后，根据群系仪式召唤石地面上的方块，在5x5的区域内改变群系。12个方块分别对应12种群系（确保东南西北方向正确）。奥术群系转换仪可以将群系转换为正确维度的群系，重现正确的群系布局。生物群系检查器在这里非常有用。完成后（小菜一碟，我懂），站在5x5区域的中心，使用移地换形之花。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Imagine not trying to connect the dots...",
+    "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "This lists the various biomes, how many blocks you need in square brackets, and the coordinates to change in parentheses.",
+    "下面列出了需要的群系、群系对应的方块数量，以及相对坐标。",
     "",
-    "MY: mysterium [2](-2,-2)(2,2)",
-    "NW: nuclear wasteland [2](-1,-2)(1,2)",
-    "SB: storage biome [2](0,-2)(0,2)",
-    "CC: crystal chasms [2](1,-2)(-1,2)",
-    "BV: dangerous black void [2](2,-2)(-2,2)",
-    "TS: twilight steam [4](-2,-1)(2,-1)(-2,1)(2,1)",
-    "AF: alien forest [2] (-1,-1)(1,1)",
-    "ST: stormland [2] (0,-1)(0,1)",
-    "TH: thornlands [2](1,-1)(-1,1)",
-    "TL: tainted lands [2](-2,0)(2,0)",
-    "IR: iromine [2](-1,0)(1,0)",
-    "BO: bog [1](0,0)",
+    "MY：秘境(Mysterium) [2](-2,-2)(2,2)",
+    "NW：核泄露之地(Nuclear Wasteland) [2](-1,-2)(1,2)",
+    "SB：AE2群系(Storage Cell) [2](0,-2)(0,2)",
+    "CC：水晶巨峰(Crystal Chasms) [2](1,-2)(-1,2)",
+    "BV：凶险的黑暗虚空(Dangerous Black Void) [2](2,-2)(-2,2)",
+    "TS：暮色河流(Twilight Stream) [4](-2,-1)(2,-1)(-2,1)(2,1)",
+    "AF：外星森林(Alien Forest) [2] (-1,-1)(1,1)",
+    "ST：风暴之地(Stormland) [2] (0,-1)(0,1)",
+    "TH：荆棘之地(Thornlands) [2](1,-1)(-1,1)",
+    "TL：腐化之地(Tainted Lands) [2](-2,0)(2,0)",
+    "IR：黄金(Iromine) [2](-1,0)(1,0)",
+    "BO：泥塘(Bog) [1](0,0)",
     "",
-    "Use the Terraformassiflora in Europa, in the center of the following pattern of biomes (top = north = -z) (left = west = -x) (bottom = south = +z) (right = east = +x)",
+    "在欧罗巴使用移地换形之花，位于以下群系布局的中心（上 = 北 = -z）（左 = 西 = -x）（下 = 南 = +z）（右 = 东 = +x）",
     "",
     "MY NW SB CC BV",
     "TS AF ST TH TS",
@@ -4009,87 +4009,87 @@ mods.jei.JEI.addDescription([
     <fluxnetworks:herculeanfluxstorage>,
     <fluxnetworks:gargantuanfluxstorage>],
 [
-    "Flux Networks are used to transfer energy wirelessly, and are the preferred energy transfer method in the pack.",
+    "通量网络可无线传输能量，是本包中首选的能量传输方式。",
     "",
-    "To create your own Flux Network, you need a Controller. You can specify the name of teh network and a color in the Controller GUI. Each Flux Networks machine will have to be bound to a network to function.",
+    "要创建自己的通量网络，首先需要一个通量控制器。可以在控制器的UI中配置网络的名称和颜色。所有通量网络机器都必须与网络绑定才能运行。",
     "",
-    "Flux Plugs are used to move energy from a source to a network.",
+    "通量接入点可以从能量源向网络中添加能量。",
     "",
-    "Flux Points are used to move energy from a network to a set of machines.",
+    "通量接出点可以从网络中向机器输出能量。",
     "",
-    "Flux Storage is used to include a buffer of energy in a network. If you have to transfer large amounts of RF/t, Storage is required to prevent energy cutouts.",
+    "通量存储器可作为网络的能量缓存。如果必须传输大量RF/t，则需要存储器以防止能量中断。",
     "",
-    "It is recommended to still use other energy transfer methods to limit the use of Flux Plugs, as using too many can cause lag. If you want to power a machine wall, for example, use a single Flux Point, and Energy Conduits of the appropriate size to power the machines.",
+    "由于接入接出点过多会引起卡顿，所以推荐与其他能量传输手段配合以减少接入接出点的使用。例如，使用单个通量接出点和能量管道为大片机器供能。",
     "",
-    "Your base should have two Flux Networks, one to move energy from your generators to a centralized energy storage (eventually the Draconic Energy Orb), one to move energy from storage to all of your machines."
+    "基地应该至少有两个通量网络，一个用于将能量从发电机传输到储能设备（比如神龙能量核心），另一个用来将能量从储能设备传输到所有机器。"
 ]);
 
 mods.jei.JEI.addDescription([
     <botania:altar>],
 [
-    "The Pethal Apothecary needs water to work. It can be piped in using the Everful Urn or a Mechanical User with an Evertide Amulet.",
+    "花药台需要水才能工作。可以用无底之瓮或带有潮汐护符的使用者来填充水。",
     "",
-    "The ingredients shown in JEI recipes are dropped into the Apothecary.",
+    "JEI中显示的材料需丢入花药台中。",
     "",
-    "Seeds are dropped into the Apothecary after adding all ingredients to complete the recipe."
+    "所有材料添加好后，丢入种子来完成配方。"
 ]);
 
 mods.jei.JEI.addDescription([
     <extrabotany:spiritfuel>],
 [
-    "To make Spirit Fuel, you can either eat Nightmare Fuel (manual) or you can place nightmare fuel in a Livingrock Pedestal."
+    "可通过直接食用梦魇燃料，或将其植入活石祭坛内获得精神燃料。"
 ]);
 
 
 mods.jei.JEI.addDescription([
     <contenttweaker:catalyzation_chamber>],
 [
-    "The Catalyzation Chamber is a 3x3x3 multiblock, see the JEI preview for the structure.",
+    "催化室是一个3x3x3的多方块结构，在JEI中查看结构预览。",
     "",
-    "Right click the structure with Salis Mundus to form it.",
+    "使用世界盐右击结构来使结构成型。",
     "",
-    "To make the multiblock function function, place a Stone from Thaumic Wonders in the machine gui.",
+    "要使多方块正常工作，需在机器GUI中放入神秘奇境模组的催化石。",
     "",
-    "Each stone has a different functionality:",
-    "Alienist: makes eldritch clusters from ores or native clusters",
-    "Transmuter: turns ores into other ores and back",
-    "Alchemist: purifies ores",
+    "每种催化石有不同效果：",
+    "异形之石：将矿石转换成奇异矿簇",
+    "转化之石：转化矿石的种类",
+    "炼金术士之石：purifies ores",
     "",
-    "Stones have durability, but they can be enchanted with high levels of unbreaking to become nearly infinite.",
+    "催化石有耐久度，但可以附上高等级的耐久魔咒，来变的几乎不会损坏。",
     "",
-    "The ore inputs are dropped in from the top, and the machine will drop outputs from the front."
+    "从顶部丢入矿物进行输入，机器会将产物从前方丢出。"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:primordial_accelerator>],
 [
-    "The primordial accelerator is used to break Primordial Pearls into Primordial Grains.",
+    "元始加速器用于将元始珍珠变为元始晶粒。",
     "",
-    "It is a multiblock of variable length, see the JEI preview for the multiblock structure, the more Tunnels, the more Grains can be produced (with diminishing returns). The maximum length is 10.",
+    "加速器是一个可自定义长度的多方块结构，在JEI中查看多方块预览，轨道越长，产出的晶粒就越多（收益递减）。最大长度为10格。",
     "",
-    "Primordial pearls can be piped into the Accelerator.",
+    "可用管道将元始珍珠输入到加速器内。",
     "",
-    "Use a redstone pulse to activate the machine, Primordial Grains will be dropped out around the Terminus.",
+    "使用红石脉冲来激活该机器，元始晶粒会在终端附近掉落。",
     "",
-    "Grains can be turned back into full Pearls for an endless loop, with a bit of crucible automation."
+    "晶粒可通过处理重新变为元始珍珠，需要一些坩埚自动化。"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:heat_exchanger_math>],
 [
-    "To build a heat exchanger, first calculate how much NaK coolant you're heating from your MSR. The MSR heats 1 mB of coolant per Coolant Heater, multiplied by the efficiency, e.g. an MSR at 150% efficiency heats 1.5 mB/t per Coolant Heater.",
+    "要建造热交换器，首先需要计算熔盐反应堆加热的钠钾冷却剂的速度。每个冷却剂加热器的基础速度为1mB/t，效率提供乘数加成。例如，一个150%效率的溶解反应堆，每个冷却剂加热器的加热速度为1.5mB/t。",
     "",
-    "Each coolant requires a different amount of heat to be exchanged to cool it, and coolants take a different amount of heat to warm. In JEI, cooling recipes have a red to blue arrow and heating recipes have a blue to red arrow, which, upon hover, shows the Heat Required. Those numbers determine the rate at which coolant can be processed, at 1/Coolant Tube Conductivity mB * Heat Required to Cool / Heat Required to Warm per face touching hot and cold liquids."
+    "每种冷却剂需要交换不同的热量来冷却，需要不同的热量来加热。在JEI中，冷却配方显示为由红变蓝的箭头，加热配方显示为由蓝变红的箭头，鼠标放在箭头上可显示所需热/冷却量。这些数字决定了冷却剂的处理速度，计算方式为：对于每个接触冷热流体的面，处理速度=冷却或加热所需热量*(1/管道导热倍率) mB/t。"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:hand_framing_tool>],
 [
-    "Combine with the desired blocks to set the framing tool pattern.",
+    "与方块结合以设置镶框样式。",
     "",
-    "Top Left: drawer sides.",
-    "Top Right: drawer trim.",
-    "Middle Left: drawer front."
+    "左上：抽屉外壳。",
+    "右上：抽屉边框。",
+    "左中：抽屉正面。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -4101,88 +4101,88 @@ mods.jei.JEI.addDescription([
     <contenttweaker:psichic_stone>,
     <contenttweaker:runic_ore>],
 [
-    "The excavator is used to produce infinite amounts of ores from Immersive Engineering veins. These are not like normal ore veins, and they do not exist in-world. Each chunk has one vein.",
+    "斗轮式挖掘机可从沉浸工程模组的矿床中无限产出矿物。与正常矿脉不同，矿床并不实际存在于世界中。每个区块有20%概率生成矿脉。",
     "",
-    "To identify a vein, place a core sample drill into a chunk, give it power, and right click it to start it. It will produce a core sample, with the name of the ore vein and fluid vein in that chunk.",
+    "要鉴别矿床，在区块中放置岩芯钻井，输入能量后右击启动。钻井会生成岩芯样本，能显示该区块内的矿床和油藏名称。",
     "",
-    "To mine the ore vein vein, build the Excavator multiblocks in the corresponding chunk. ",
+    "在对应区块内建造斗轮式挖掘机多方块来开采矿床。",
     "",
-    "Some ores can only be mined using excavators, and cannot be found in-world."
+    "部分矿物不在世界中生成，只能通过斗轮式挖掘机获取。"
 ]);
 
 mods.jei.JEI.addDescription([
     <immersivepetroleum:metal_multiblock:2>,
     <contenttweaker:stormlight_infused_crystal>],
 [
-    "The pumpjack is used to produce infinite amounts of fluids from Immersive Engineering veins. These are not like normal fluid deposits, and they do not exist in-world. Each chunk has one vein.",
+    "采油机可从沉浸原油模组的油藏中无限产出矿物。与正常流体生成不同，油藏并不实际存在于世界中。每个区块有50%概率生成油藏。",
     "",
-    "To identify a vein, place a core sample drill into a chunk, give it power, and right click it to start it. It will produce a core sample, with the name of the ore vein and fluid vein in that chunk.",
+    "要鉴别油藏，在区块中放置岩芯钻井，输入能量后右击启动。钻井会生成岩芯样本，能显示该区块内的矿床和油藏名称。",
     "",
-    "To extract the fluid deposit, build the Pumpjack multiblock in the corresponding chunk. "
+    "在对应区块内建造采油机多方块来开采油藏。"
 ]);
 
 mods.jei.JEI.addDescription([
     <tconstruct:seared_furnace_controller>],
 [
-    "The seared furnace uses lava to run, and can process multiple items in parallel.",
+    "焦黑熔炉消耗熔岩进行工作，可并行处理多个物品。",
     "",
-    "It can be built out of any cubic shape, as long as the interior is empty, the controller is in the middle of a face, and the seared tank is located on a corner. The bigger, the more parallel recipes it can perform."
+    "熔炉可以是任意尺寸的立方体，只要内部为空，控制器在侧面，储罐在边框即可。结构越大，可并行处理的配方就越多。"
 ]);
 
 mods.jei.JEI.addDescription([
     <modularrouters:item_router>],
 [
-    "Modular Routers are blocks capable of performing logistics actions (similar to AE2) for small-scale, short-distance automations.",
+    "模块化路由器可以进行物流操作（类似于AE2），适用于小规模、短距离的自动化。Modular Routers are blocks capable of performing logistics actions (similar to AE2) for small-scale, short-distance automations.",
     "",
-    "A router performs actions based on the modules placed in its slots, following a cyclical left-to-right order. Modules prform simple actions like pulling and pushing blocks, or more complex ones like breaking, placing, or launching items.",
+    "路由器按照从左到右的循环顺序，根据模块放置区中的模块执行操作。模块可以执行简单的操作，如推拉方块，也可执行更复杂的操作，如破坏、放置或发射物品。",
     "",
-    "The target locations for each module can be specified by shift + right clicking them on the desired block space.",
+    "每个模块的目标位置可通过Shift右击对应位置来指定。",
     "",
-    "Once modules are installed, they can be configured by middle clicking them. This allows to set filters and add augments.",
+    "安装好模块后，可通过中键点击来配置模块。可设置过滤器或添加拓展。",
     "",
-    "Upgrades can be placed in the corresponding slots in a Modular Router.",
+    "升级可放置在路由器对应的区域。",
     "",
-    "Hold control while hovering over any Modular Router item to see their function."
+    "鼠标放在任意模块化路由器模组的物品上时，按住Ctrl键查看其功能。"
 ]);
 
 mods.jei.JEI.addDescription([
     <extrautils2:scanner>],
 [
-    "Scans the blockspace adjacent to the red circle.",
+    "扫描红圈所对的方块空间。",
     "",
-    "Produces a redstone signal if the block type in that space matches the target one.",
+    "若空间内方块与目标方块相匹配，发出红石信号。",
     "",
-    "The target is set by clicking 'set to current block'."
+    "目标方块可通过点击界面中的'设置为当前方块'按钮来设置。"
 ]);
 
 mods.jei.JEI.addDescription([
     <extrautils2:user>],
 [
-    "Simulates various types of player clicks.",
+    "模拟多种玩家点击行为。",
     "",
-    "You can cycle through the clicking type, left or right click, and what slot to use to perform the click.",
+    "可在点击类型中循环，左击或右击，使用哪个栏位中的物品进行点击。",
     "",
-    "EG: To fill a lava tank, place a Lava Amulet in the first slot, and a klein star in any other slot; set to 'Use Item on Block', 'Right Click', 'Upper Left Slot Only'.",
+    "例如：要为储罐填充熔岩，在第一格内放置熔焰护符，其他栏位放置卡莱恩能量之星；将模式设置为'对方块使用物品（Use Item on Block）'，'右击（Right Click）'，'仅使用左上角栏位（Upper Left Slot Only）'。",
     "",
-    "EG: To fill a pethal apothecary, place an Evertide Amulet in the first slot; set to 'Activate Block with Item', 'Right Click', 'Upper Left Slot Only'.",
+    "例如：要为花药台填充水，在第一格内放置潮汐护符；将模式设置为'使用物品激活方块（Activate Block with Item）'，'右击（Right Click）'，'仅使用左上角栏位（Upper Left Slot Only）'。",
     "",
-    "EG: To shear leaves, place shears in the first slot; set to 'Use Item on Block', 'Left Click', 'Upper Left Slot Only'."
+    "例如：要用剪刀收获树叶，在第一格内放置剪刀；将模式设置为'对方块使用物品（Use Item on Block）'，'左击（Left Click）'，'仅使用左上角栏位（Upper Left Slot Only）'。"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:how_to_finish_meatballcraft>],
 [
-    "If you want to finish the pack, here is the best advice I could give you!",
+    "如果想要打通本包，下面是我能给你的最好建议！",
     "",
-    "Infrastructure is the most important thing! This refers to your ability to expand your base and upgrade things easily. Make sure you passively automate the resources that will let you make more machines, more blocks, and more crafting ingredients! The more mods you unlock, the more infrastructure you will have to set up!",
+    "基建是重中之重！好的基建能让你轻松扩展基地，升级各类机器。确保被动合成各种资源来更多机器、方块和合成材料！解锁的模组越多，就需要铺设的基建就越多！",
     "",
-    "Be proactive with automation! The best way to expand your infrastructure is to set up automations for new materials and recipes as soon as you unlock them! If a material shows up in a side quest, it's a good idea to automate it!",
+    "积极进行自动化！扩展基建的最佳方法就是在解锁新材料和配方时，立即建设相关的自动化！如果某种材料出现在了支线任务中，最好也将其自动化！",
     "",
-    "Take your time! Completing and automating things from side quests, or for general base convenience, before doing more main line content is almost always the best way to do things! You will run into many hard 'wall' recipes, and the side quests will prepare you for these! This refers to weapond and armor upgrades too, side content often provides good upgrades for your gear!",
+    "慢慢来！在推进主线之前，完成支线任务、建设相关自动化或便利设施几乎总是最佳选择！流程中会遇到很多难啃的配方，而完成支线任务能让你做好准备！这种做法也适用于武器和盔甲升级，支线内容通常能提供不错的装备升级！",
     "",
-    "Take your time with JEI! Many items have multiple recipes and ways of obtaining, some will be easier than others at different points in progression!",
+    "多花点时间查看JEI！许多物品有多种配方和获取方法，在不同阶段各有优劣！",
     "",
-    "Check the in-game documentation! It's there for a reason!"
+    "查看游戏内文档！它总不能是白写的吧！"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -4204,29 +4204,29 @@ mods.jei.JEI.addDescription([
 [
     "All Draconic Upgrades can be found in the warper planes!",
     "",
-    "Movement Speed - Furatto",
-    "Attack Damage - Furatto",
-    "Shield Capacity - Furatto",
-    "Shield Recovery - Furatto",
-    "Jump Boost - Diamerisma",
-    "Arrow Damage - Diamerisma",
-    "Attack AOE - Diamerisma",
-    "RF Capacity - Taerrapiatta",
-    "Draw Speed - Vibe",
-    "Dig Speed - Vibe",
-    "Dig AOE - Apichisi"
+    "移动速度 - 地盘界",
+    "攻击伤害 - 地盘界",
+    "护盾充能 - 地盘界",
+    "护盾恢复 - 地盘界",
+    "跳跃提升 - 地方界",
+    "箭矢伤害 - 地方界",
+    "范围攻击 - 地方界",
+    "RF容量 - 地平界",
+    "拉弓速度 - 谐律界",
+    "挖掘速度 - 谐律界",
+    "范围挖掘 - 共鸣界"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:berserker_forge_loop>],
 [
-    "The Berserker Forge can be used to duplicate target Will Crystals for automation.",
+    "狂战熔炉可用来复制意志晶体用于自动化。",
     "",
-    "Place the multiblock in the same chunk as a Demon Crucible.",
+    "将多方块与恶魔坩埚放置在同一区块内。",
     "",
-    "Start off by burning a few Will Crystals of the desired aspect into the Crucible. The will in the aura can be used to make will crystals at a reduced cost.",
+    "首先在坩埚中燃烧一些需要的特殊意志晶体。灵域内的意志可用来以较低成本制作意志晶体。",
     "",
-    "By looping the output crystals back into the Crucible, and making more crystals, you'll end up with a net positive!"
+    "通过将输出的意志晶体循环输入回坩埚，然后制造更多晶体，最终会获得净收益！"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -4234,93 +4234,93 @@ mods.jei.JEI.addDescription([
     <bibliocraft:typesettingtable>,
     <bibliocraft:printingpress>],
 [
-    "Bibliocraft allows to duplicate enchanted books! To use the Typesetting Table and Printing Press, make sure you a wearing a Monocle, otherwise you won't see XP costs!",
+    "收藏馆（Bibliocraft）模组可以复制附魔书！使用排版台和拓印机前，确保佩戴有单片眼镜，否则无法查看经验消耗信息！",
     "",
-    "Right click the desired enchanted book in the Typesetting Table near left slot, and a Chase in the far slot. Shift right click the Typesetting Table with an empty hand to create an enchanted plate. This will consume XP based on the enchantment type and level.",
+    "将想要复制的附魔书右击放入排版台左下的栏位，上方栏位放入拓印槽。空手Shift右击排版台来制作附魔片。此操作会基于魔咒种类和等级消耗经验。",
     "",
-    "Right click the enchanted plate in the back slot of the Printing Press, together with a bunch of ink sacks. Right click normal vanilla Books on the near left slot, and they will be transformed into enchanted books of the desired type! A single enchanted press can make up to 3 enchanted books, as it has durability, but it can be repaired using various modded tools."
+    "将附魔片右击放入拓印机中间最深的槽中，靠后的斜板上放置一些墨囊。将书右击放入长板的左侧，随后就会被转换为想要复制的附魔书！一个附魔片最多能消耗耐久制作3本附魔书，可使用其他模组进行修复。"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:jei_tipsandtricks>],
 [
-    "If you have lost an item somewhere in your storage and don't want to search through every storage slot, you can double click your seach bar, search JEI for your item and it will highlight slots in your storage / player inventory for similar items.",
+    "如果记不得把某个物品放在哪了，又不想一格一格找，可以双击搜索栏，在JEI中搜索想要寻找的物品，然后玩家物品栏/容器物品栏中的相同物品会高亮显示。",
     "",
-    "You can also use certain prefixes in JEI in order to narrow down the item you are looking for.",
+    "还可以在JEI中使用特定前缀缩小所查找物品的范围。",
     "",
-    "You can use these at the beginning of your search :",
-    "# - filters by tooltip descriptions",
-    "& - filters items by resource ID (You will likely never use this)",
-    "^ - filters items by color",
-    "$ - filters items by oreDictionary",
-    "@ - filters by mod names",
-    "% - filters by creative tab (You will likely never use this)",
+    "可使用以下符号作为搜索前缀：",
+    "# - 按物品提示信息过滤",
+    "& - 按资源ID过滤物品（可能永远也用不到）",
+    "^ - 按颜色过滤物品",
+    "$ - 按矿物词典过滤物品",
+    "@ - 按模组名称过滤",
+    "% - 按创造模式标签栏名称过滤（可能永远也用不到）",
     "",
-    "You can also use - in order to exclude items from your search. You can only use this following one of the previous prefixes. Otherwise, you JEI just won't bother searching.",
+    "还可使用'-'（减号）来从搜索中剔除物品。只能在上述前缀之后使用该前缀。否则JEI不会进行搜索。",
     "",
-    "For exemple, if you are searching for NuclearCraft fuels but dont want the depleted fuels to come up in your search, you can search with :",
+    "例如，若想要搜索核电工艺的燃料，但不想搜索中出现枯竭燃料，可用以下形式搜索：",
     "",
-    "@nuclearcraft fuel -depleted",
+    "@nuclearcraft 燃料 -枯竭",
     "",
-    "If you wish to narrow it down further, you can safely add -bucket -molten -oxide to the end of your search and you will be left with all the different types of fuels without their depleted counterparts, molten and bucket forms."
+    "若想进一步缩小搜索范围，可以在搜索末尾添加-桶 -熔融 -氧化，这样就可以搜索到所有不同类型的燃料，同时排除其枯竭、熔融和桶装形式。"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:emptiness_tutorial>],
 [
-    "To enter the emptiness, you need to use the fracture locator to find fractures. The nether roof is a good place to look for them. The locator will glow if you are nearby a fracture.",
+    "要进入虚域，需要使用裂隙定位器寻找裂隙。下界天花板是寻找裂隙的好地方。靠近裂隙时，定位器会发光。",
     "",
-    "To open the fracture you need to use a fully charged thaumium or voidseer casting gauntlet augmented with the impetus conductor. To charge the augmented gauntlet, stand nearby a flux rift, and it will slowly consume it.",
+    "要打开裂隙，需要使用安装有元动能量电池的满充能神秘或虚空预言者法师护手。靠近咒波裂隙吸收其能量来为护手充能。",
     "",
-    "Once the gauntlet is charged, you can right click a fracture to open it!",
+    "护手充能完毕之后，右击裂隙将其打开！",
     "",
-    "To enter the dungeon you need to use a fully charged thaumium or voidseer casting gauntlet augmented with the impetus conductor on the gateway block.",
+    "要进入邪术旋塔，需要使用安装有元动能量电池的满充能神秘或虚空预言者法师护手右击邪术锁孔。",
     "",
-    "Defeat the final boss!"
+    "击败最终Boss！"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:passive_packagedauto>],
 [
-    "Both the packager and unpackager can be treated as any other type of machine, and they can be passived with a bit of setup. Useful for things like fine mineral dust!",
+    "封包机和解包机都可当做其他种类机器一样处理，只需稍加设置便可实现被动生产。对于像精制矿物粉这类物品来说很有用！",
     "",
-    "A few things to note:",
-    "A. Packager, unpackager, and package crafters act like normal machines if powered through quartz fiber or normal energy transfer. You want them to get power, you don't want them to get channels.",
-    "B. All packagers and unpackagers used for the same automation should have the same type of package recipe encoder. ",
-    "C. You will likely need more than 1 packager. Things are easier if you use a separate packager for each recipe package shown in the encoder gui. Mouse over each package to see the sub-recipe you will need to make in each packager.",
-    "D. Packagers in 'first match' mode will produce sub-recipes out of order. Set all your packager into this mode.",
+    "有几点需要注意：",
+    "A. 当使用石英纤维或其他能量传输手段时，封包机、解包机以及封包合成器工作机制与普通机器相同。只供能，别提供频道。",
+    "B. 用于同一配方自动化的封包机和解包机都应使用相同的封包配方存储器。",
+    "C. 可能会需要不止一个封包机。为编码器GUI中显示的每个配方包使用单独的封包机，设置会更简单。将鼠标放在每个配方包上，查看每个封包机需要制作的子配方包。",
+    "D. 设置为'第一匹配'的封包机会无序合成满足材料需求的子配方包。将所有封包机都设置为该模式。",
     "",
-    "If these are followed, you can set up a passive line as follows.",
-    "1. Start from an individual drawer wall (or other inventory) with the ingredients for each recipe package.",
-    "2. Pipe Items from each drawer wall into each packager using limited item filters, use the numbers corresponding to each sub-recipe.",
-    "3. Pipe  recipe packages from the packagers into one packager touching the right package crafter.",
-    "4. Pipe end result out of the package crafter."
+    "遵循以下步骤，来设置被动化流水线。",
+    "1. 给每个合成子配方包的封包机，配备存有其子配方包所需材料的单独抽屉墙（或其他容器）。",
+    "2. 使用限制物品过滤器将物品从抽屉墙输送到对应封包机，过滤器设置为匹配子配方包材料数量。",
+    "3. 将封包机合成的子配方包传输到与正确的封包合成器相连的封包机。",
+    "4. 将最终产物从封包机中输出。"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:passive_extended_crafting>],
 [
-    "Extended crafting can be automated passively with the automation interface.",
+    "合成拓展模组可通过自动化接口实现被动自动化。",
     "",
-    "This method is slow, for fast automation passive packaged auto is recommended (it has its own JEI info box), but this method is simpler, and fast enough for some resources.",
+    "该方法速度较慢，如果要实现快速的被动合成，推荐使用封包合成（有自己的JEI信息框），但本方法易于实现，并且对某些资源来说速度也够了。",
     "",
-    "Place an Automation Interface on top of an extended crafting table (including the Ender Crafting Table), and click 'Save Recipe' to set the ercipe to be automated.",
+    "在合成拓展的工作台（包括末影工作台）上放置一个自动化接口，点击'保存配方'按钮即可将配方设置为自动运行。",
     "",
-    "The Automation Interface can be set to auto-pull under 'Config'.",
+    "自动化接口可在'配置'菜单中设置为自动输入。",
     "",
-    "A Drawer Controller with a wall containing the required ingredients can be placed next to the Automation Interface, and the ingredients can be auto-pulled into the table!"
+    "在自动化接口旁放置一个抽屉控制器，控制器与包含所有所需材料的抽屉墙连接，如此材料便可自动被抽入工作台！"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:woot_flusher>],
 [
-    "This item resets ALL woot farms.",
+    "该物品会重置所有Woot工厂。",
     "",
-    "To reset individual mobs, run the following command:",
-    "/woot flush *mobname*",
+    "要重置特定种类生物，运行以下命令：",
+    "/woot flush *生物ID*",
     "",
-    "To obtain the mob name for the specific one you want to flush, you can check the entity ID while hovering your mouse over the corresponding spawn egg in JEI.",
-    "It will be formatted as *modid*:*mobid*"
+    "要获得特定生物的ID，可以在JEI中将鼠标悬停在JEI中对应的刷怪蛋上，查看实体ID。",
+    "格式为：*modid*:*mobid*"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -4328,13 +4328,13 @@ mods.jei.JEI.addDescription([
     <projecte:collector_mk2>,
     <projecte:collector_mk3>],
 [
-    "Collectors generate EMC from light.",
+    "能量收集器可从光照中生成EMC。",
     "",
-    "If one is placed in the world, it will make EMC passively. It can be sped up by placing Glowstone directly around it.",
+    "放置后会被动生成EMC。可通过在其上方放置荧石来加速。",
     "",
-    "It will automatically transfer EMC to Condensers and Relays placed directly adjacent.",
+    "会自动将EMC传输到相邻的能量凝聚器或反物质继电器。",
     "",
-    "Placing coal and other fuels in the Collector will consume EMC to transmute them into higher EMC fuels, but this mechanic is not really used in the pack."
+    "在收集器中放入煤炭和其他燃料可消耗EMC将其转化为EMC值更高的物品，但该机制在本包中没有实际作用。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -4342,85 +4342,71 @@ mods.jei.JEI.addDescription([
     <projecte:relay_mk2>,
     <projecte:relay_mk3>],
 [
-    "Relays are EMC batteries.",
+    "反物质继电器就是EMC电池。",
     "",
-    "It will automatically collect EMC from adjacent Collectors.",
+    "可自动从相邻的能量收集器中获取EMC。",
     "",
-    "It will automatically transfer EMC to adjacent Condensers."
+    "可自动将EMC传输到相邻的能量凝聚器。"
 ]);
 
 mods.jei.JEI.addDescription([
     <projecte:condenser_mk1>,
     <projecte:condenser_mk2>],
 [
-    "Condensers are the earliest way to automate EMC items. Place the desired item to duplicate in the top left slot.",
+    "能量凝聚器是自动化EMC物品的最简单方法。将想要复制的物品标记在左上方的槽位里。",
     "",
-    "EMC to duplicate the desired item can come from collectors and relays, or from other EMC items that are piped into the Condenser.",
+    "用于复制物品的EMC可从能量收集器和继电器中获得，或者从输入凝聚器的其他EMC物品中获得。",
     "",
-    "There are many ways to farm items with high EMC to push into your condenser.",
+    "有很多方法生成高EMC值物品，将其输入凝聚器。",
     "",
-    "The MK2 condenser has separate inventories for inputs and outputs, and it converts faster, making it better suited for automation."
+    "凝聚器 MK2有单独的输入和输出物品栏，转化速度更快，更适合自动化。"
 ]);
 
 mods.jei.JEI.addDescription([
     <dimdoors:stabilized_rift_signature>,
     <dimdoors:rift_signature>],
 [
-    "Right clicking the Rift SIgnature on two different locations creates two rifts. The base version can get unstable, while the stabilized version will allow for safer use.",
+    "使用裂痕印记在两个不同地点分别右击来创建连接两点的裂隙。基础版的裂痕印记创造的裂隙不稳定，使用稳定版的裂痕印记来创造安全的稳定裂隙。",
     "",
-    "Placing Iron Dimensional Doors on these rifts will link them to each other."
+    "在裂隙上放置铁质维度门便可通过门穿梭两地。"
 ]);
 
 mods.jei.JEI.addDescription([
     <botania:enchanter>],
 [
-    "The Mana Enchanter lets you apply enchants on a tool without consuming the books.",
+    "魔力附魔台可以不消耗附魔书为工具附魔。",
     "",
-    "Form the structure as shown in the preview, and click the Lapis Block with a Wand of the Forest.",
+    "按照预览搭建结构，使用森林法杖右击青金石块来成型。",
     "",
-    "Place a fully unenchanted item on the Enchanter, and drop the desired enchanted books around it.",
+    "将未附魔的物品放入附魔台中，在黑曜石圈内丢入附魔书。",
     "",
-    "To power it, you can use sparks. The cost of each enchant grows exponentially with level, but it can accept enchants above the anvil limit."
-]);
-
-mods.jei.JEI.addDescription([
-    <ore:bewitchmentAltar>],
-[
-    "The witches altar is how you generate magical energy (ME) in bewitchment!",
-    "",
-    "The structure for the altar is a 3x2 table, and it can be made by any type of altar. Right click the structure with a vanilla carpet to form the altar!",
-    "",
-    "The altar generates energy passively. Right clicking the altar with an empty hand will tell you the available energy, as well as the maximum energy for the altar. Most mechanics in bewitchment use ME to run!",
-    "",
-    "The amount of diverse nature (crops, trees, flowers) will set the maximum ME. The more different plants you have, the higher the maximum energy in the altar!",
-    "",
-    "You can place statues around the altar, or particular artifacts on the altar to add multipliers to ME rate and amount. These will show up when searching Witches Altar in JEI."
+    "使用火花为附魔台提供魔力。每个魔咒的魔力消耗随等级呈指数增长，但可以接受超过铁砧上限的魔咒。"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:buildcraft_heat_exchanger>,
     <buildcraftfactory:heat_exchange>],
 [
-    "The Buildcraft Heat Exchanger is used to move fluids from various states, in order of temperature: Cool, Hot, Searing.",
+    "BC模组的热交换器可按温度顺序，改变流体的状态：冷、热、炽热。",
     "",
-    "To heat up a fluid (Cool to Hot), it must be placed as a cold input in the Heat Exchanger multiblock (see preview for multiblock structure, inputs, outputs), using lava as a hot input.",
+    "要加热流体（冷 > 热），必须将其在热交换器中作为冷流体输入（查看预览以了解多方块结构、输入、输出），使用熔岩作为热流体输入。",
     "",
-    "To cool down a fluid (Hot to Cool), it must be placed as a hot input, with a fluid of a lower temperature as the cold input.",
+    "要冷却流体（热 > 冷），必须将其在热交换器中作为热流体输入，使用更低温度的流体作为冷流体输入",
     "",
-    "In terms of pack progression, the only required chain uses Heavy Oil from Cool to Searing."
+    "在本包流程中，仅涉及重油的冷到炽热转变。"
 ]);
 
 mods.jei.JEI.addDescription([
     <rf-capability-adapter:aecapabilityadapter>,
     <rf-capability-adapter:aecapabilityadapter_part>],
 [
-    "The ME capability adapter allows to interface between AE2 and compact machines.",
+    "ME功能适配器可将频道传输到压缩空间中。",
     "",
-    "Place a capability adapter adjacent to a compact machine. Inside the machine, connect another capability adapter adjacent to a tunnel set to the appropriate side (if you place the outside adapter on the west side, the interior tunnel needs to be set to WEST).",
+    "将功能适配器与压缩空间机械相邻放置。在压缩空间内，将另一个功能适配器与配置到合适面（若外部的功能适配器在压缩空间机械的西侧，接口同样也需要设置为西）。",
     "",
-    "The block form transfers 32 channels.",
+    "方块形式的功能适配器可传输32个频道。",
     "",
-    "The panel form transfers 8 channels. "
+    "面板形式的功能适配器可传输8个频道。"
 ]);
 
 
@@ -4428,17 +4414,17 @@ mods.jei.JEI.addDescription([
     <contenttweaker:getting_more_starlight>,
     <astralsorcery:blockaltar:*>],
 [
-    "To function, Altars from Astral Sorcery need starlight. Different recipes require different amounts. If an item does not show up in the Altar GUI after its recipe is added, it is because you need more starlight.",
+    "星辉魔法的祭坛需要星能才能工作。不同配方需要的星能不同。若放置好配方后，产物没有出现在祭坛GUI中，则说明星能不足。",
     "",
-    "Sky access at night is enough to get starlight, but some recipes require more that what's normally available.",
+    "一般情况下，夜晚露天时的星能就够用了，但是有些配方需要更多星能。",
     "",
-    "The higher your y level, the higher the starlight.",
+    "所处的Y值越高，星能越强。",
     "",
-    "Special chunks have higher starlight than others, holding a Fosic Resonator at night will show them.",
+    "特定区块的星能会高于其他区块，在夜晚使用汇星共振器来寻找这类区块。",
     "",
-    "Placing Spectral Relays according to their multiblock (see preview) around the altar will boost starlight. If multiple of these multiblocks are too close to each other, they will reduce starlight.",
+    "在祭坛周围按多方块结构（查看JEI预览）摆放星辉转继器可以增强星能。但当多个多方块结构彼此距离过近时，反而会减少星能。",
     "",
-    "Linking a Collector Crystal to an altar will also increase starlight. Using the Collector Crystal multiblock will increase this boost."
+    "将聚能水晶与祭坛链接同样可增加星能。使用聚能水晶多方块结构可以进一步提升增幅效果。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -4446,15 +4432,15 @@ mods.jei.JEI.addDescription([
     <rftools:space_chamber>,
     <rftools:space_chamber_card>],
 [
-    "The space chamber is the most versatile way to automatically place large structures.",
+    "空间仓是自动放置大型结构的最通用方法。",
     "",
-    "To copy a shape to be automatically built, place Space Chamber Corner Blocks in 7 of the 8 corners of the structure you want built, and the Controller in the 8th and final corner.",
+    "要复制进行自动搭建的结构，将7个空间角落方块放置在结构空间范围的8个角落里，最后一个角落放置空间控制方块。",
     "",
-    "Right click the controller with a Wrench to set the structure.",
+    "使用智能扳手右击控制方块来设置结构。",
     "",
-    "If the structure is set correctly, right clicking the controller with a Space Chamber Card will program it for the desired structure.",
+    "若结构设置正确，使用空间仓卡右击控制方块，结构将加载到空间仓卡中。",
     "",
-    "Place the resulting card in a builder to auto-build your desired structure."
+    "将得到的空间仓卡放入建造机中来自动搭建记录的结构。"
 ]);
 
 
@@ -4465,13 +4451,13 @@ mods.jei.JEI.addDescription([
     <thebetweenlands:aspect_vial:*>,
     <thebetweenlands:dentrothyst_vial:*>],
 [
-    "The mortar and pestle can be used to produce a variety of ground items. Their properties are different from every player. You can test their effects on a gecko that has been put in a cage using a net. ",
+    "研磨器与石杵可用于制作多种磨碎的物品。每个玩家存档中物品含有的要素都各不相同。可以使用壁虎笼子来测试磨碎物品的效果。",
     "",
-    "To make armaniis, you should use the ground powder that makes the gecko feel calm, and look at you with loving eyes.",
+    "要制作Armaniis，使用能让壁虎镇静下来，用可爱的眼神看着你的磨碎物品。",
     "",
-    "To make a potion out of the right ground item, fill the infuser with swamp water from a weedwood or syrmorite bucket, add the right ingredients, and stir (right click with empty hand) for a couple of minutes. ",
+    "要使用正确的磨碎物品来酿造药水，用杂草木或赛摩桶给炼药器加满沼泽水，放入正确的原料，然后搅拌（空手右击）数分钟。",
     "",
-    "If the ingredient is correct, the liquid in the infuser will become darker. Once it's done, use a weedwood or syrmorite bucket to trasfer it to an alembic (shift right click). Use a dentrothyst vial to collect the aspect from the alembic."
+    "若原料正确，炼药器内流体的颜色将变深。酿造成功后，使用杂草木或赛摩桶将流体放入蒸馏器中（Shift右击）。使用木晶药瓶从蒸馏器中收集要素。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -4479,9 +4465,9 @@ mods.jei.JEI.addDescription([
     <enderstorage:ender_storage:1>,
     <enderstorage:ender_pouch>],
 [
-    "The Ender Chest and Ender Tank are wireless item and fluid tranfer options.",
+    "末影箱子和末影蓄水槽可无线传输物品和流体。",
     "",
-    "These blocks can be set to a given frequency by coloring the three slots located on top of the blocks using dyes. Tanks and chests with the same color frequency are linked to each other, and share the same inventory.",
+    "这些方块可使用染料染色顶部颜色槽来设置为不同频率。颜色频率相同的箱子和蓄水槽之间互相连接，共享物品栏/流体存储。",
     "",
-    "The Ender Pouch can be directly linked to an Ender Chest frequency by shift-clicking it. You will be able to access that inventory without having to open the chest."
+    "末影袋子可通过Shift右击末影箱子来与其连接。可通过袋子直接访问物品栏，而无需打开箱子。"
 ]);

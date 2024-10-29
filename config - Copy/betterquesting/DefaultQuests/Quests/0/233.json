@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    203
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse the staff of iceika to reach to top of the castle of the grand wizard. Stand of the block of bedrock to open the gateway!\n\nYou will need a gravemaster\u0027s key to enter the castle!\n\n§fThe power of wizardry is, well, seemingly unlimited.\nJust like knowledge, an infinite process that tries to approximate reality in increasingly accurate ways, with this type of magic, the sky is the limit.\nThat said, the grand wizard that \u0027created\u0027 the land of Iceika may have flown too close to the sun, and paid the price for risking too much with their experiments.\nIf this is what supreme ice power looks like, I am curious to see what \u0027awakened\u0027 versions of the other branches of wizardry look like.\nDefinitely would be nice to learn how to change the climate of a planet..",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:soul_of_the_grand_wizard"
+      },
+      "name:8": "Soul of the Grand Wizard"
+    }
+  },
+  "questID:3": 233,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 1,
+            "TrophyColorGreen:3": 1,
+            "TrophyColorRed:3": 1,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:soul_of_the_grand_wizard"
+            },
+            "TrophyName:8": "Slayer of the Grand Wizard",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:soul_of_the_grand_wizard"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:dread_key"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

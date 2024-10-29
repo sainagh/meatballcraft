@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    305
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:specialflower",
+        "tag:10": {
+          "type:8": "orechid"
+        }
+      },
+      "name:8": "Botanical Dreams and Nightmares"
+    }
+  },
+  "questID:3": 2250,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:botanical_dream_stone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:botanical_nightmare_stone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

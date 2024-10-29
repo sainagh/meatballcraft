@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    90357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis gate lets you cut connections through bundled cables.\n\nBy default, the transceiver prevents signals grom going through.\n\nRedstone from the sides with redstone lines can allow signals in the directions specified by the red squares and gray rectangles.\n\nThe direction goes red square -\u003e gray rectangle.\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 22,
+        "id:8": "projectred-integration:gate"
+      },
+      "name:8": "Bus Tranceiver"
+    }
+  },
+  "questID:3": 90375,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 22,
+          "id:8": "projectred-integration:gate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

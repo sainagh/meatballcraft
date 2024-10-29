@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    150
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Some of my previous experiments have allowed me to use now partially-known shyre powers to generate organic matter from weak shyre creatures, but the powers from advanced blood magic should greatly boost my abilities.\nThis form of magic, that I like to call mythic, holds a power of creation similar to alchemy, but it\u0027s more tricky to manage.\nAgain, another link, another interaction, the creation of mythic magic directly interacts with the powers of blood alchemy.\nIf I theory of fields is possible for atomic forces, why not do the same for magic?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularmachinery:itemblueprint",
+        "tag:10": {
+          "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier4"
+        }
+      },
+      "name:8": "Terragenic Mythical Resources"
+    }
+  },
+  "questID:3": 151,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "divinerpg:divine_shards"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:nethersky_amber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier4"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

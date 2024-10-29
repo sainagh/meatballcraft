@@ -1,11 +1,11 @@
 {
 	x: 30.5d,
 	y: -12.0d,
-	description: "Escape the dungeon of arcana using the Gaia tesseract",
+	description: "Escape the dungeon of arcana using the gaia tesseract",
 	text: [
 		"The fact that the names of Norse Mythology appear in botanical magic is, well, very interesting.",
 		"Did our ancestors know something we have forgotten?",
-		"I do not know why or how, but the power within mana compelled me to the Dungeon of Arcana.",
+		"I do not know why or how, but the power withn mana compelled me to the Dungeon of Arcana.",
 		"Knowing this, I started researching Norse legends for clues.",
 		"One word, somehow, resonated with me from these old texts...a revelation came to me",
 		"Asgard, once the realm of gods, has been defeated by the Twilight Horde, and turned into Arcana.",

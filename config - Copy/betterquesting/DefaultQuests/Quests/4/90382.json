@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    90357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis gate works like the randomizer, but it will produce the same signal on all output sides, as opposed to different signals on all sides.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 33,
+        "id:8": "projectred-integration:gate"
+      },
+      "name:8": "Dec Randomizer"
+    }
+  },
+  "questID:3": 90382,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 33,
+          "id:8": "projectred-integration:gate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

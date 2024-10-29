@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1176
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:item_extract_speed_upgrade"
+      },
+      "name:8": "Extract Speed Upgrade"
+    }
+  },
+  "questID:3": 90242,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_extract_speed_upgrade"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_extract_speed_downgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

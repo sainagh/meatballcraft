@@ -1,7 +1,8 @@
 [
   {
     "id": "blaze",
-    "displayName": "Blaze",
+    "displayName": "烈焰人",
+    "displayNamePlural": "烈焰人",
     "livingMatter": "hellish",
     "simulationRFCost": 1500,
     "craftingIngredients": [
@@ -30,7 +31,8 @@
   },
   {
     "id": "creeper",
-    "displayName": "Creeper",
+    "displayName": "爬行者",
+    "displayNamePlural": "爬行者",
     "livingMatter": "overworldian",
     "simulationRFCost": 80,
     "craftingIngredients": [
@@ -58,7 +60,8 @@
   },
   {
     "id": "dragon",
-    "displayName": "Ender Dragon",
+    "displayName": "末影龙",
+    "displayNamePlural": "末影龙",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -88,8 +91,8 @@
   },
   {
     "id": "enderman",
-    "displayName": "Enderman",
-    "displayNamePlural": "Endermen",
+    "displayName": "末影人",
+    "displayNamePlural": "末影人",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 2000,
     "craftingIngredients": [
@@ -126,7 +129,8 @@
   },
   {
     "id": "ghast",
-    "displayName": "Ghast",
+    "displayName": "恶魂",
+    "displayNamePlural": "恶魂",
     "livingMatter": "hellish",
     "simulationRFCost": 2000,
     "craftingIngredients": [
@@ -153,7 +157,8 @@
   },
   {
     "id": "guardian",
-    "displayName": "Guardian",
+    "displayName": "守护者",
+    "displayNamePlural": "守护者",
     "livingMatter": "overworldian",
     "simulationRFCost": 1500,
     "craftingIngredients": [
@@ -185,7 +190,8 @@
   },
   {
     "id": "shulker",
-    "displayName": "Shulker",
+    "displayName": "潜影贝",
+    "displayNamePlural": "潜影贝",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 1000,
     "craftingIngredients": [
@@ -212,7 +218,8 @@
   },
   {
     "id": "skeleton",
-    "displayName": "Skeleton",
+    "displayName": "骷髅",
+    "displayNamePlural": "骷髅",
     "livingMatter": "overworldian",
     "simulationRFCost": 80,
     "craftingIngredients": [
@@ -254,7 +261,8 @@
   },
   {
     "id": "slime",
-    "displayName": "Slime",
+    "displayName": "史莱姆",
+    "displayNamePlural": "史莱姆",
     "livingMatter": "overworldian",
     "simulationRFCost": 300,
     "craftingIngredients": [
@@ -290,7 +298,8 @@
   },
   {
     "id": "spider",
-    "displayName": "Spider",
+    "displayName": "蜘蛛",
+    "displayNamePlural": "蜘蛛",
     "livingMatter": "overworldian",
     "simulationRFCost": 80,
     "craftingIngredients": [
@@ -335,8 +344,8 @@
   },
   {
     "id": "witch",
-    "displayName": "Witch",
-    "displayNamePlural": "Witches",
+    "displayName": "女巫",
+    "displayNamePlural": "女巫",
     "livingMatter": "overworldian",
     "simulationRFCost": 400,
     "craftingIngredients": [
@@ -373,7 +382,8 @@
   },
   {
     "id": "wither",
-    "displayName": "Wither",
+    "displayName": "凋灵",
+    "displayNamePlural": "凋灵",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 5000,
     "craftingIngredients": [
@@ -404,7 +414,8 @@
   },
   {
     "id": "wither_skeleton",
-    "displayName": "Wither Skeleton",
+    "displayName": "凋灵骷髅",
+    "displayNamePlural": "凋灵骷髅",
     "livingMatter": "hellish",
     "simulationRFCost": 3000,
     "craftingIngredients": [
@@ -441,7 +452,8 @@
   },
   {
     "id": "zombie",
-    "displayName": "Zombie",
+    "displayName": "僵尸",
+    "displayNamePlural": "僵尸",
     "livingMatter": "overworldian",
     "simulationRFCost": 80,
     "craftingIngredients": [
@@ -492,7 +504,8 @@
   {
     "id": "thermal_elemental",
     "mod": "thermalfoundation",
-    "displayName": "Thermal Elemental",
+    "displayName": "热力元素",
+    "displayNamePlural": "热力元素",
     "livingMatter": "overworldian",
     "simulationRFCost": 500,
     "craftingIngredients": [
@@ -529,13 +542,14 @@
   {
     "id": "twilight_forest",
     "mod": "twilightforest",
-    "displayName": "Forest creature",
+    "displayName": "森林生物",
+    "displayNamePlural": "森林生物",
     "livingMatter": "twilight",
     "simulationRFCost": 500,
     "craftingIngredients": [
       "twilightforest:firefly"
     ],
-    "extraTooltip": "Gain data by defeating non-vanilla mobs in the Naga Courtyard and Lich Tower.",
+    "extraTooltip": "通过击败娜迦庭院和巫妖塔的非原版生物获取数据。",
     "associatedMobs": [
       "twilightforest:naga",
       "twilightforest:lich_minion",
@@ -565,13 +579,14 @@
   {
     "id": "twilight_swamp",
     "mod": "twilightforest",
-    "displayName": "Swamp creature",
+    "displayName": "沼泽生物",
+    "displayNamePlural": "沼泽生物",
     "livingMatter": "twilight",
     "simulationRFCost": 500,
     "craftingIngredients": [
       "minecraft:waterlily"
     ],
-    "extraTooltip": "Gain data by defeating non-vanilla mobs in the Swamp Labyrinth and Hydra Lair.",
+    "extraTooltip": "通过击败沼泽牛头人迷宫和九头蛇巢穴的非原版生物获取数据。",
     "associatedMobs": [
       "twilightforest:minotaur",
       "twilightforest:minoshroom",
@@ -608,13 +623,14 @@
   {
     "id": "twilight_glacier",
     "mod": "twilightforest",
-    "displayName": "Glacier inhabitant",
+    "displayName": "冰川住民",
+    "displayNamePlural": "冰川住民",
     "livingMatter": "twilight",
     "simulationRFCost": 500,
     "craftingIngredients": [
       "twilightforest:arctic_fur"
     ],
-    "extraTooltip": "Gain data by defeating non-vanilla mobs in the Yeti Lair and Ice Tower.",
+    "extraTooltip": "通过击败雪怪巢穴和极光宫殿的非原版生物获取数据。",
     "associatedMobs": [
       "twilightforest:yeti_alpha",
       "twilightforest:yeti",
@@ -651,13 +667,14 @@
   {
     "id": "twilight_darkwood",
     "mod": "twilightforest",
-    "displayName": "Darkwood creature",
+    "displayName": "黑树生物",
+    "displayNamePlural": "黑树生物",
     "livingMatter": "twilight",
     "simulationRFCost": 500,
     "craftingIngredients": [
       "twilightforest:twilight_log"
     ],
-    "extraTooltip": "Gain data by defeating non-vanilla mobs in the Goblin Knight Stronghold and Dark Tower.",
+    "extraTooltip": "通过击败地精骑士要塞和黑暗高塔的非原版生物获取数据。",
     "associatedMobs": [
       "twilightforest:redcap",
       "twilightforest:blockchain_goblin",
@@ -697,7 +714,8 @@
   {
     "id": "tinker_slime",
     "mod": "tconstruct",
-    "displayName": "Blue Slime",
+    "displayName": "蓝色史莱姆",
+    "displayNamePlural": "蓝色史莱姆",
     "livingMatter": "overworldian",
     "simulationRFCost": 500,
     "craftingIngredients": [
@@ -730,7 +748,8 @@
   {
     "id": "mo_android",
     "mod": "matteroverdrive",
-    "displayName": "Rogue Android",
+    "displayName": "混战机械人",
+    "displayNamePlural": "混战机械人",
     "livingMatter": "overworldian",
     "simulationRFCost": 256,
     "craftingIngredients": [
@@ -762,7 +781,8 @@
   },
   {
     "id": "illager",
-    "displayName": "Illager",
+    "displayName": "灾厄村民",
+    "displayNamePlural": "灾厄村民",
     "livingMatter": "overworldian",
     "simulationRFCost": 128,
     "craftingIngredients": [
@@ -792,7 +812,8 @@
   },
   {
     "id": "hydra",
-    "displayName": "Hydra",
+    "displayName": "九头蛇",
+    "displayNamePlural": "九头蛇",
     "livingMatter": "overworldian",
     "simulationRFCost": 256,
     "craftingIngredients": [
@@ -819,7 +840,8 @@
   },
   {
     "id": "ayeraco",
-    "displayName": "Ayeraco",
+    "displayName": "空影兽",
+    "displayNamePlural": "空影兽",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 4000,
     "craftingIngredients": [
@@ -852,7 +874,8 @@
   },
   {
     "id": "nethengeicbeast",
-    "displayName": "Nethengeic Beast",
+    "displayName": "纳德吉克兽",
+    "displayNamePlural": "纳德吉克兽",
     "livingMatter": "hellish",
     "simulationRFCost": 1000,
     "craftingIngredients": [
@@ -907,7 +930,8 @@
   },
   {
     "id": "smash",
-    "displayName": "Smash",
+    "displayName": "粉碎",
+    "displayNamePlural": "粉碎",
     "livingMatter": "overworldian",
     "simulationRFCost": 2000,
     "craftingIngredients": [
@@ -937,7 +961,8 @@
   },
   {
     "id": "corallus",
-    "displayName": "Corallus",
+    "displayName": "珊瑚守卫者",
+    "displayNamePlural": "珊瑚守卫者",
     "livingMatter": "overworldian",
     "simulationRFCost": 3000,
     "craftingIngredients": [
@@ -966,7 +991,8 @@
   },
   {
     "id": "nethengeicwither",
-    "displayName": "Nethengeic Wither",
+    "displayName": "纳德吉克凋灵",
+    "displayNamePlural": "纳德吉克凋灵",
     "livingMatter": "hellish",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -995,7 +1021,8 @@
   },
   {
     "id": "mothervoidwalker",
-    "displayName": "Mother Void Walker",
+    "displayName": "虚空步行者之母",
+    "displayNamePlural": "虚空步行者之母",
     "livingMatter": "overworldian",
     "simulationRFCost": 1000,
     "craftingIngredients": [
@@ -1022,7 +1049,8 @@
   },
   {
     "id": "betweenswamp",
-    "displayName": "Sludge Worm",
+    "displayName": "烂泥蠕虫",
+    "displayNamePlural": "烂泥蠕虫",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 1000,
     "craftingIngredients": [
@@ -1051,7 +1079,8 @@
   },
   {
     "id": "elusive",
-    "displayName": "Elusive",
+    "displayName": "虚影",
+    "displayNamePlural": "虚影",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1080,7 +1109,8 @@
   },
   {
     "id": "shadowlord",
-    "displayName": "Shadow Lord",
+    "displayName": "暗影领主",
+    "displayNamePlural": "暗影领主",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1109,7 +1139,8 @@
   },
   {
     "id": "graw",
-    "displayName": "Graw",
+    "displayName": "森林守护者",
+    "displayNamePlural": "森林守护者",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1138,7 +1169,8 @@
   },
   {
     "id": "tyrosaur",
-    "displayName": "Tyrosaur",
+    "displayName": "地域领主",
+    "displayNamePlural": "地域领主",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1167,7 +1199,8 @@
   },
   {
     "id": "skeletron",
-    "displayName": "Skeletron",
+    "displayName": "骷髅首领",
+    "displayNamePlural": "骷髅首领",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1195,7 +1228,8 @@
   },
   {
     "id": "baroness",
-    "displayName": "Baroness",
+    "displayName": "女爵",
+    "displayNamePlural": "女爵",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1224,7 +1258,8 @@
   },
   {
     "id": "hiveking",
-    "displayName": "Hive King",
+    "displayName": "蜂王",
+    "displayNamePlural": "蜂王",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1282,7 +1317,8 @@
   },
   {
     "id": "kror",
-    "displayName": "Kror",
+    "displayName": "石巨人",
+    "displayNamePlural": "石巨人",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1311,7 +1347,8 @@
   },
   {
     "id": "voxxulon",
-    "displayName": "Voxxulon",
+    "displayName": "不详巨物",
+    "displayNamePlural": "不详巨物",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1340,7 +1377,8 @@
   },
   {
     "id": "kingshroomus",
-    "displayName": "King Shroomus",
+    "displayName": "魔菇王",
+    "displayNamePlural": "魔菇王",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1369,7 +1407,8 @@
   },
   {
     "id": "silverfoot",
-    "displayName": "Silverfoot",
+    "displayName": "剑圣",
+    "displayNamePlural": "剑圣",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1397,7 +1436,8 @@
   },
   {
     "id": "mechbot",
-    "displayName": "Mechbot",
+    "displayName": "机甲战士",
+    "displayNamePlural": "机甲战士",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1425,7 +1465,8 @@
   },
   {
     "id": "havenguardians",
-    "displayName": "Haven Guardians",
+    "displayName": "天堂监管者",
+    "displayNamePlural": "天堂监管者",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1456,7 +1497,8 @@
   },
   {
     "id": "rockrider",
-    "displayName": "Rockrider",
+    "displayName": "巨岩骑士",
+    "displayNamePlural": "巨岩骑士",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1484,7 +1526,8 @@
   },
   {
     "id": "cottoncandor",
-    "displayName": "Cotton Candor",
+    "displayName": "糖果巨人",
+    "displayNamePlural": "糖果巨人",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1512,7 +1555,8 @@
   },
   {
     "id": "gyro",
-    "displayName": "Gyro",
+    "displayName": "陀螺仪",
+    "displayNamePlural": "陀螺仪",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1540,7 +1584,8 @@
   },
   {
     "id": "vinocorne",
-    "displayName": "Vinocorne",
+    "displayName": "植物王",
+    "displayNamePlural": "植物王",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1568,7 +1613,8 @@
   },
   {
     "id": "crystocore",
-    "displayName": "Crystocore",
+    "displayName": "能量构建者",
+    "displayNamePlural": "能量构建者",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1596,7 +1642,8 @@
   },
   {
     "id": "visualent",
-    "displayName": "Visualent",
+    "displayName": "观察者",
+    "displayNamePlural": "观察者",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1625,7 +1672,8 @@
   },
   {
     "id": "clunkhead",
-    "displayName": "Clunkhead",
+    "displayName": "斩首",
+    "displayNamePlural": "斩首",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1654,7 +1702,8 @@
   },
   {
     "id": "dracyon",
-    "displayName": "Dracyon",
+    "displayName": "飞行守护者",
+    "displayNamePlural": "飞行守护者",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1683,7 +1732,8 @@
   },
   {
     "id": "hydrolisk",
-    "displayName": "Hydrolisk",
+    "displayName": "水能龙蜥",
+    "displayNamePlural": "水能龙蜥",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1711,7 +1761,8 @@
   },
   {
     "id": "terrafractallites",
-    "displayName": "Ancients Fractallites",
+    "displayName": "远古分形者",
+    "displayNamePlural": "远古分形者",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1745,7 +1796,8 @@
   },
   {
     "id": "immortalfractallites",
-    "displayName": "Immortal Fractallites",
+    "displayName": "不朽分形者",
+    "displayNamePlural": "不朽分形者",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1779,7 +1831,8 @@
   },
   {
     "id": "temporalfractallites",
-    "displayName": "Temporal Fractallites",
+    "displayName": "瞬世分形者",
+    "displayNamePlural": "瞬世分形者",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1807,7 +1860,8 @@
   },
   {
     "id": "primordialfractallites",
-    "displayName": "Primordial Fractallites",
+    "displayName": "原初分形者",
+    "displayNamePlural": "原初分形者",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [

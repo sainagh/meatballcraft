@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    50243
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Here is something that no man on earth ever did. Safe fission of berkelium, and even produced some energy from it!\n(for the record, this fission reaction is possible IRL, but only with nukes)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:depleted_fuel_berkelium"
+      },
+      "name:8": "Depleted LEB-248 Fuel"
+    }
+  },
+  "questID:3": 50244,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:depleted_fuel_berkelium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:safe_fission_leb248_controller"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

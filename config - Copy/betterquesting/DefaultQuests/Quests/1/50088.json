@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    50087
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWorks like the tiara, but faster, better, stronger!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32767,
+        "id:8": "extrabotany:coregod"
+      },
+      "name:8": "Core of God"
+    }
+  },
+  "questID:3": 50088,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "extrabotany:coregod"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

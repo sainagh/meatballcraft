@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    207
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oYou can use the scanner modules in the rewards to locate the dungeons more easily.\n§f\nAstral magic is so cool, yet, many of its users do not share my intents for liberation...\nA group of testificates, long ago, has taken over some sky islands within Terra\u0027s atmosphere to experiment with artificial life.\nBecause of their crimes, Testificate history has decided to forget about them...\nUnfortunately, the product of their work is still very much alive and dangerous.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aether_legacy:skyroot_bucket"
+      },
+      "name:8": "Warriors of the lower sky!"
+    }
+  },
+  "questID:3": 199,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aether_legacy:locked_dungeon_block",
+            "meta:3": 4
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aether_legacy:dungeon_block",
+            "meta:3": 2
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aether_legacy:dungeon_block",
+            "meta:3": 0
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aether_legacy:skyroot_bucket"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

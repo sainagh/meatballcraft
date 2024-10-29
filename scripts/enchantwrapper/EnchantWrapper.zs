@@ -104,7 +104,7 @@ zenClass SuperEnchantedItem {
   
   // Writes the name/tooltip to display on the wrapper item.
   function writeDisplayData(item as IItemStack) {
-    var info = ["§r§fItem: " + item.displayName] as string[];
+    var info = ["§r§f物品：" + item.displayName] as string[];
     for enchantEntry in this.mapNBT.delayedEnch.asList() {
       for name, level in enchantEntry.asMap() {
         val enchant = <enchantment:${name}>.makeEnchantment(level);

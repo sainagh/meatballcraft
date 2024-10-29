@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    20061
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe Necronomicon is the \u0027magic wand\u0027 of Abyssalcraft that lets you perform rituals and activate mechanics.\n\nThere are 5 tiers of Necronomicon, corresponding to each dimension in the mod. Specific rituals require specific tiers, so you should upgrade as soon as you enter a new Abyssalcraft dimension.\n\nTo run a Necronomicon needs Potential Energy (PE). This can be obtained through: \n\nAbyssalcraft Statues: you can place these in-world, and they will passively charge a Necronomicon held by a player or placed on a Charging Pedestal nearby. Statues can be organized in Places of Power so that they do not produce bad effects from being placed in world. Check the multiblock previews for Statues to see Places of Power.\n\nSacrificial altar: kill mobs around the altar to charge a Necronomicon held by a player or  placed on a Charging Pedestal nearby.\n\nNecronomibee: make Necronomicombs to craft fully charged Necronomicons. Use the Nomnomnomicon to recycle empty books.\n\nTo perform rituals, you need 9 cobblestone of a particular type depending on the tier required by the ritual. See the multiblock preview to see how they are placed. Right click the middle cobblestone with a Necronomicon to form the ritual structure. These can bug out, if they don\u0027t work, make sure the ritual is not on a chunk boundary, and relog.\n\nRitual Tiers:\nOverworld uses Vanilla Cobblestone\nAbyssal Wasteland uses Abyssal Cobblestone\nDreadlands uses Dreadstone Cobblestone\nOmothol uses Ethaxium Bricks\nDarklands uses Dark Ethaxium Bricks",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "abyssalcraft:necronomicon",
+        "tag:10": {
+          "PotEnergy:5": 0.0
+        }
+      },
+      "name:8": "Necronomicon"
+    }
+  },
+  "questID:3": 20113,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "abyssalcraft:necronomicon",
+          "tag:10": {
+            "PotEnergy:5": 0.0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

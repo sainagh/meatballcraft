@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    197
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFound in a giant tree in the ulterior outback.\n\n§fWhile bugs on Terra seem to be fairly friendly to each other, things on the other side of the wormhole, in Erebus, are a bit more complex.\nArthropods are not universally peaceful towards each other, but the threat of a possible bigger harm, in the form of a giant tarantula witch, was enough to force an unwanted peace.\nMultiple factions still engage in skirmishes, but the threat of the Brood Mother seems enough to allow for a united front with regards to the invasion of Terra.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "erebus:tarantula_egg"
+      },
+      "name:8": "Queen of Spiders"
+    }
+  },
+  "questID:3": 225,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "erebus:tarantula_egg"
+            },
+            "TrophyName:8": "Tarantula Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "erebus:tarantula_egg"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:tarantula_callstone"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

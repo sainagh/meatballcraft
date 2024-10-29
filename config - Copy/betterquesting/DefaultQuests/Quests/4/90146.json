@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1221
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDense cables that can fit in the same block space as other conduits.\n\nGood for compactness!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "enderio:item_me_conduit"
+      },
+      "name:8": "Dense ME Conduit"
+    }
+  },
+  "questID:3": 90146,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "enderio:item_me_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

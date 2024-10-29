@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    203
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o§7Found in dungeons in the underground of iceika!\n\n§fNot only somebody was able to use wizardry to open wormholes, but this \u0027master of frost\u0027 seemingly subjugated an entire planet to their power, turning it into a desolate icy land.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:snowflake"
+      },
+      "name:8": "Snowy Powers"
+    }
+  },
+  "questID:3": 217,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "projecte:item.pe_matter"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 1,
+            "TrophyColorGreen:3": 1,
+            "TrophyColorRed:3": 1,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "divinerpg:snowflake"
+            },
+            "TrophyName:8": "Archer Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:snowflake"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

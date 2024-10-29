@@ -12,7 +12,7 @@ function addPuzzleShapeless(name as string, output as IItemStack, ingredients as
         function(out, cInfo, player){
             if !isNull(player) && !player.hasGameStage(stage_name) {
                 player.addGameStage(stage_name);
-                player.sendChat("Unlocked stage \"" + stage_name + "\"");
+                player.sendChat("已解锁阶段 \"" + stage_name + "\"");
             }
         }
     );
@@ -27,7 +27,7 @@ function addPuzzleShaped(name as string, output as IItemStack, ingredients as II
         function(out, cInfo, player){
             if !isNull(player) && !player.hasGameStage(stage_name) {
                 player.addGameStage(stage_name);
-                player.sendChat("Unlocked stage \"" + stage_name + "\"");
+                player.sendChat("已解锁阶段 \"" + stage_name + "\"");
             }
         }
     );

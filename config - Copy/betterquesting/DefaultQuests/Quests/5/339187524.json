@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20415
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe following quests list good sources of XP for enchanting, and for cheeky last stand builds.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "All of the Experience"
+    }
+  },
+  "questID:3": 339187524,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:coal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

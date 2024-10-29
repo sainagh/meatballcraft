@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    70
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis is a peaceful world, no mob spawns here!\n\n§fIt seems like the power of fluix is greater than I expected.\nNot only I can digitalize matter, but space as well!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "simplevoidworld:portal"
+      },
+      "name:8": "Digital Space"
+    }
+  },
+  "questID:3": 110,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:teruterubozu"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:void_portal_breaker"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simplevoidworld:portal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

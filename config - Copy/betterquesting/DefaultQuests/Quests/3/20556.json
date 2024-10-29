@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20533
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Makes alloys accepting up to three materials.\nAnd smelts things too!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_alloy_smelter"
+      },
+      "name:8": "Alloy Smelter"
+    }
+  },
+  "questID:3": 20556,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_alloy_smelter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

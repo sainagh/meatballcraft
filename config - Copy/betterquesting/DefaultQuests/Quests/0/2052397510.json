@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    714682973
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "I am still not fully sure of what happened exactly, but someone among the Faithful of the Arbiter studied the power of deraddread, and was able to cleanse from its origin it in some way. Again, I may be piecing together things that are not connected, but dread beings seem quite similar to Withers; undead capable of independent will, and yet capable of serving a greater purpose on their own.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:dread_cleansing_fabrial"
+      },
+      "name:8": "Dread Cleansing"
+    }
+  },
+  "questID:3": 2052397510,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "iceandfire:dread_shard"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dread_cleansing_fabrial"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

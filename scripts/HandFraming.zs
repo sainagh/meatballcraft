@@ -29,11 +29,11 @@ val frontIngredient = (<xtones:zane:15> | framingMaterial).marked("MatF");
 <ore:handFramed>.add(<storagedrawers:customtrim>);
 
 function addInfo(stack as IItemStack) as IItemStack {
-    return stack.withDisplayName("Frame your drawers by hand!")
+    return stack.withDisplayName("手工给抽屉镶框！")
         .withLore([
-            "Top left: sides",
-            "Top right: trim",
-            "Middle left: front"
+            "左上：外壳",
+            "右上：边框",
+            "左中: 正面"
         ]);
 }
 
@@ -168,12 +168,12 @@ for stickStacks in 1 .. 9 {
 
 <contenttweaker:hand_framing_tool>.addAdvancedTooltip(
     function(stack as IItemStack) {
-        return "Sticks: " + (isNull(stack) ? "0" : getNested(stack.tag, ["sticks"], 0));
+        return "木棍：" + (isNull(stack) ? "0" : getNested(stack.tag, ["sticks"], 0));
     } as ITooltipFunction
 );
 
-function makeTagFunc(name as string) as ITooltipFunction {
-    val matTag = "Mat" + name[0];
+function makeTagFunc(name as string, tag as string) as ITooltipFunction {
+    val matTag = tag;
     return function(stack as IItemStack) as string {
         val item as IItemStack =
             isNull(stack) ?
@@ -184,9 +184,9 @@ function makeTagFunc(name as string) as ITooltipFunction {
     } as ITooltipFunction;
 }
 
-<contenttweaker:hand_framing_tool>.addAdvancedTooltip(makeTagFunc("Side"));
-<contenttweaker:hand_framing_tool>.addAdvancedTooltip(makeTagFunc("Front"));
-<contenttweaker:hand_framing_tool>.addAdvancedTooltip(makeTagFunc("Trim"));
+<contenttweaker:hand_framing_tool>.addAdvancedTooltip(makeTagFunc("外壳", "MatS"));
+<contenttweaker:hand_framing_tool>.addAdvancedTooltip(makeTagFunc("正面", "MatF"));
+<contenttweaker:hand_framing_tool>.addAdvancedTooltip(makeTagFunc("边框", "MatT"));
 
 recipes.addShaped(
     "hand_framing_tool",

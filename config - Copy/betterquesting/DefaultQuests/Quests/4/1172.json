@@ -1,0 +1,17 @@
+{
+  "preRequisites:11": [
+    90300
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThese should be use to manage your energy network, and move energy wirelessly!\n\nYou should use flux networks to manage your base from chapter 2 onwards!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:purple_blaze"
+      },
+      "name:8": "Wireless Energy Transfer"
+    }
+  },
+  "questID:3": 1172,
+  "tasks:9": {}
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1221
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oME glass cables are the simplest way to transfer channels to make a AE2 network. \nThey can carry up to 8 channels, but they do not display how many are currently used.\n\nIn general, you should use smart cables instead!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 16,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Glass Cable - Fluix"
+    }
+  },
+  "questID:3": 90141,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 16,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -6,7 +6,7 @@ import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
-var compressedcobblestoneJEI as IJeiPanel = JEI.createJei("compressed_cobblestone", "Cobblestone Compression");
+var compressedcobblestoneJEI as IJeiPanel = JEI.createJei("compressed_cobblestone", "圆石压缩");
 compressedcobblestoneJEI.setModid("Nuclearcraft");
 compressedcobblestoneJEI.setIcon(<nuclearcraft:cobblestone_generator_dense>);
 compressedcobblestoneJEI.addRecipeCatalyst(<nuclearcraft:cobblestone_generator>);

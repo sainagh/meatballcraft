@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    20528
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Four display stands, placed around the empowerer two blocks away.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "actuallyadditions:block_empowerer"
+      },
+      "name:8": "Empowerer"
+    }
+  },
+  "questID:3": 20574,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "actuallyadditions:block_empowerer"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "actuallyadditions:block_display_stand"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

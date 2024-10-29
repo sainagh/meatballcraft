@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    317,
+    360
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:recursion_prison_key"
+      },
+      "name:8": "Recursion Prison Key"
+    }
+  },
+  "questID:3": 371,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:recursion_prison_key"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:first_recursive_lock"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:second_recursive_lock"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:third_recursive_lock"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:fourth_recursive_lock"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:fifth_recursive_lock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

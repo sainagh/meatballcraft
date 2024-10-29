@@ -1,0 +1,6 @@
+entity.naga.name=Wyvern
+item.nagaFang.name=Wyvern Fang
+item.nagaFang.text.0=Used to brew Potion of Poison Resistance or craft a Wyvern Fang Dagger
+item.nagaFangDagger.name=Wyvern Fang Dagger
+item.nagaFangDagger.text.0=Poisons targets
+item.nagaFangDagger.text.1=Deals bonus damage from behind

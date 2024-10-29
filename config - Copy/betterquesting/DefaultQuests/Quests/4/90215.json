@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90196
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cyclicmagic:block_vacuum"
+      },
+      "name:8": "Item Collector"
+    }
+  },
+  "questID:3": 90215,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cyclicmagic:block_vacuum"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -58,7 +58,7 @@ recipes.remove(<immersiveengineering:railgun>);
 // [[<contenttweaker:fluctuating_alloy>, <immersiveengineering:metal_device0:2>, <immersiveengineering:material:13>],
 // [<immersiveengineering:metal_decoration0:1>, <contenttweaker:stellar_alloy_shaft>, <immersiveengineering:metal_device0:2>],
 // [<immersiveengineering:material:14>, <immersiveengineering:metal_decoration0:1>, <contenttweaker:fluctuating_alloy>]]);
-mods.extendedcrafting.TableCrafting.addShaped(<immersiveengineering:railgun>.withTag({display:{Name: "§6§oRailgun§r"}}), 
+mods.extendedcrafting.TableCrafting.addShaped(<immersiveengineering:railgun>.withTag({display:{Name: "§6§o磁轨炮§r"}}), 
 [[<contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>, <contenttweaker:gun_devil_piece>], 
 [<contenttweaker:gun_devil_piece>, <contenttweaker:fluctuating_alloy>, <immersiveengineering:metal_device0:2>, <immersiveengineering:material:13>, <contenttweaker:gun_devil_piece>], 
 [<contenttweaker:gun_devil_piece>, <immersiveengineering:metal_decoration0:1>, <contenttweaker:stellar_alloy_shaft>, <immersiveengineering:metal_device0:2>, <contenttweaker:gun_devil_piece>], 

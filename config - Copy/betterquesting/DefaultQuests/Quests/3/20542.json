@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    20481,
+    207
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "Astral Sorcery"
+    }
+  },
+  "questID:3": 20542,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:itemwand",
+          "tag:10": {
+            "astralsorcery:10": {}
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

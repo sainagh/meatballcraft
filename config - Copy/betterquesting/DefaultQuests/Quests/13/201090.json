@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    201127
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Head\nDurability: 400\nMining Level: Obsidian\nMining Speed: 4\nAttack: 5.5\nAutosmelt\nSuperheat\n\nHandle\nModifier: 1\nDurability: 100\nSuperheat\n\nExtra\nDurability: 150\nSuperheat\n\nBows\nDrawspeed: 2\nRange Multiplier: 0.4\nBonus Damage: 3\nSuperheat",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:shard",
+        "tag:10": {
+          "Material:8": "mod_lavacow.moltenbeef"
+        }
+      },
+      "name:8": "Molten Meat"
+    }
+  },
+  "questID:3": 201090,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:shard",
+          "tag:10": {
+            "Material:8": "mod_lavacow.moltenbeef"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

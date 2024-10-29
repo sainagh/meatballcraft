@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20551
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "For RadAway, and a few other things!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:dissolver_idle"
+      },
+      "name:8": "Fluid Enricher"
+    }
+  },
+  "questID:3": 20749,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:dissolver_idle"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

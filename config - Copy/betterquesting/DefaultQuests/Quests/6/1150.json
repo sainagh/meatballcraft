@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    20344
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCheck uses for these items for the ritual preview.\n\nThis will summon a hellhound! ",
+      "icon:10": {
+        "Count:3": 2,
+        "id:8": "bewitchment:tongue_of_dog"
+      },
+      "name:8": "Rite of Greater Hellmouth (Useful)"
+    }
+  },
+  "questID:3": 1150,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:athame"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:hellebore"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:bottle_of_blood"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:blaze_rod"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:gunpowder"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "bewitchment:tongue_of_dog"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

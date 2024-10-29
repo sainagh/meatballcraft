@@ -178,21 +178,21 @@ gummywormz.register();
 var addictioncookie = VanillaFactory.createItemFood("addiction_cookie", 5);
 addictioncookie.saturation = 1;
 addictioncookie.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Go outside already!");
+	player.sendChat("出门逛逛吧！");
 };
 addictioncookie.register();
 
 var sausagesandwich = VanillaFactory.createItemFood("sausage_sandwich", 5);
 sausagesandwich.saturation = 1;
 sausagesandwich.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Do you come from a land down under?");
+	player.sendChat("莫非你是从地球另一边来的？");
 };
 sausagesandwich.register();
 
 var chocchertruf = VanillaFactory.createItemFood("chocolate_cherry_truffle", 5);
 chocchertruf.saturation = 1;
 chocchertruf.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Don't forget to enjoy the small wins in life!");
+	player.sendChat("享受生活中的小确幸。");
 };
 chocchertruf.register();
 
@@ -203,14 +203,14 @@ chocchertruf.register();
 var lovelylatke = VanillaFactory.createItemFood("lovely_latke", 5);
 lovelylatke.saturation = 1;
 lovelylatke.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Time with loved ones is important! Dont forget that!");
+	player.sendChat("聚亲友，享天伦，不可轻忽。");
 };
 lovelylatke.register();
 
 var nicecleansalad = VanillaFactory.createItemFood("nice_clean_salad", 5);
 nicecleansalad.saturation = 1;
 nicecleansalad.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Minecraft sure is fun, but so is cleaning your room!");
+	player.sendChat("一屋不扫，何以MC！");
 	player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(32000, 2));
 };
 nicecleansalad.register();
@@ -218,42 +218,42 @@ nicecleansalad.register();
 var bigboysteak = VanillaFactory.createItemFood("big_boy_steak", 5);
 bigboysteak.saturation = 1;
 bigboysteak.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("There's no shame in asking for help! Apes together strong!");
+	player.sendChat("乘众人之智，则无不任也；用众人之力，则无不胜也。");
 };
 bigboysteak.register();
 
 var fortunecookie = VanillaFactory.createItemFood("fortune_cookie", 5);
 fortunecookie.saturation = 1;
 fortunecookie.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Thinking about the future is important, but so is living the present!");
+	player.sendChat("志可凌云，活在当下。");
 };
 fortunecookie.register();
 
 var pandistelle = VanillaFactory.createItemFood("pan_di_stelle", 5);
 pandistelle.saturation = 1;
 pandistelle.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Never stop dreaming big!");
+	player.sendChat("梦想当怀，志不可失。");
 };
 pandistelle.register();
 
 var plentifulpraline = VanillaFactory.createItemFood("plentiful_praline", 5);
 plentifulpraline.saturation = 1;
 plentifulpraline.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Chasing happiness is more important than chasing accomplishment! But the two can coincide!");
+	player.sendChat("幸福比成就更重要，不过两者并不冲突！");
 };
 plentifulpraline.register();
 
 var friendlyfrittata = VanillaFactory.createItemFood("friendly_frittata", 5);
 friendlyfrittata.saturation = 1;
 friendlyfrittata.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Real, true friends are important! Almost as important as finishing this modpack ;)");
+	player.sendChat("真朋友很重要，几乎和打通这个整合包一样重要 ;)");
 };
 friendlyfrittata.register();
 
 var sacredcindersfruit = VanillaFactory.createItemFood("sacred_cinders_fruit", 5);
 sacredcindersfruit.saturation = 1;
 sacredcindersfruit.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Stay Hungry. Stay Foolish.");
+	player.sendChat("求知若饥，虚心若愚。");
 };
 sacredcindersfruit.register();
 
@@ -263,49 +263,49 @@ sacredcindersfruit.register();
 var ethicalempanada = VanillaFactory.createItemFood("ethical_empanada", 5);
 ethicalempanada.saturation = 1;
 ethicalempanada.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Forgiveness can come a long way!");
+	player.sendChat("君子量不极，胸吞百川流。");
 };
 ethicalempanada.register();
 
 var nimblehummusdip = VanillaFactory.createItemFood("nimble_hummus_dip", 5);
 nimblehummusdip.saturation = 1;
 nimblehummusdip.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Stretching is important, especially after sitting down at a desk all day!");
+	player.sendChat("久在樊笼里，复得返自然。");
 };
 nimblehummusdip.register();
 
 var heavypolenta = VanillaFactory.createItemFood("heavy_polenta", 5);
 heavypolenta.saturation = 1;
 heavypolenta.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Did you walk your 10'000 steps today?");
+	player.sendChat("今天你走够1万步了吗？");
 };
 heavypolenta.register();
 
 var multifruitmilkshake = VanillaFactory.createItemFood("multi_fruit_milkshake", 5);
 multifruitmilkshake.saturation = 1;
 multifruitmilkshake.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Feels like it's time for a 10-minute abs workout!");
+	player.sendChat("是时候起来练10分钟腹肌了！");
 };
 multifruitmilkshake.register();
 
 var feastofhell = VanillaFactory.createItemFood("feast_of_hell", 5);
 feastofhell.saturation = 1;
 feastofhell.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Be kind to those around you, a 'Please' or a 'Thank You' can go a long way.");
+	player.sendChat("良言一句三冬暖，恶语伤人六月寒。");
 };
 feastofhell.register();
 
 var tastyeyedelight = VanillaFactory.createItemFood("tasty_eye_delight", 5);
 tastyeyedelight.saturation = 1;
 tastyeyedelight.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Sometimes the unexpected is the bigegst treasure. You just have to be there to take advantage of it when it comes!");
+	player.sendChat("机会总是不期而至，要做的便是做好准备！");
 };
 tastyeyedelight.register();
 
 var monolithicmeal = VanillaFactory.createItemFood("monolithic_meal", 5);
 monolithicmeal.saturation = 1;
 monolithicmeal.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Greatness does not come out of nowhere. We are dwarves standing on the shoulders of giants.");
+	player.sendChat("伟大必有其根基。我们是站在巨人肩上的矮人。");
 };
 monolithicmeal.register();
 
@@ -326,14 +326,14 @@ disgustingomelette.register();
 var cubejellocubes = VanillaFactory.createItemFood("cube_jello_cubes", 3);
 cubejellocubes.saturation = 2;
 cubejellocubes.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Praise the CUBE #notacult");
+	player.sendChat("赞美立方 #并非邪教");
 };
 cubejellocubes.register();
 
 var radiactivenachos = VanillaFactory.createItemFood("radioactive_nachos", 1);
 radiactivenachos.saturation = 2;
 radiactivenachos.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Fast food feels nice, and it can be good in moderation, but it's not good for you if you eat it too often!");
+	player.sendChat("快餐虽好，莫要贪多。");
 };
 radiactivenachos.register();
 
@@ -341,7 +341,7 @@ radiactivenachos.register();
 var yummyconcrete = VanillaFactory.createItemFood("yummy_concrete", 5);
 yummyconcrete.saturation = 1;
 yummyconcrete.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("With regards to r/feedthememes");
+	player.sendChat("来自r/feedthememes");
 	player.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(3000, 20));
 };
 yummyconcrete.register();
@@ -349,6 +349,6 @@ yummyconcrete.register();
 var justjambalaya = VanillaFactory.createItemFood("just_jambalaya", 5);
 justjambalaya.saturation = 1;
 justjambalaya.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("Everyone goes through struggle, but we can help each other through it!");
+	player.sendChat("世事无常，困苦共担。");
 };
 justjambalaya.register();

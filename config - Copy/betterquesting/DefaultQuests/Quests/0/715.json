@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    1597993732
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The resorfulness of bees is incredible, but sometimes, their naivety really surprises me. They are collaborating with the Meatball Man, the evil god of pleasure, and they are doing it because he ASKED NICELY?! I really don\u0027t get it, but it\u0027s clear that, even though it may not seem like it, the bees must have thought a lot about this.\nThis could have to do with how powerful the Meatball Man is. He is clearly someone you don\u0027t want to mess with. And who knows, he may even be stronger than what I make him to be, that\u0027s how little I know about this creature. Well, to be fair, I know even less about the invaders of Terra, the Twilight Horde, and the Shyre Empire. And the Crimson Cult, even less.\nAnyhow, exploring the secrets of Oi was a good idea. I have learned something about the Meatball Man. His powers, which I still find terrifying, make a bit more sense. Those that die under certain conditions, which I still don\u0027t fully know, fall under his influence, and become his undead slaves till the end of time.\nApparently, natural death is not enough for this monster. So how does he get more undead slaves? Well, he nukes planets. Magic allows for many tools of mass destruction, but it seems like they do not cause death in the \u0027right way\u0027 that will produce more undead. Oi is just one of many planets like this, a once prosperous world, now completely erased.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:oi_spinel"
+      },
+      "name:8": "Secrets of Oi"
+    }
+  },
+  "questID:3": 715,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 100,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:oi_spinel"
+            },
+            "TrophyName:8": "Meatball Artillery",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:oi_spinel"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:oi_spinel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_oi"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

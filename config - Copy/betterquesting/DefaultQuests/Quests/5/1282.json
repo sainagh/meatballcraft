@@ -1,0 +1,314 @@
+{
+  "preRequisites:11": [
+    1253
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFound on a warper plane! But which one?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forestry:bee_queen_ge",
+        "tag:10": {
+          "Genome:10": {
+            "Chromosomes:9": {
+              "0:10": {
+                "Slot:1": 0,
+                "UID0:8": "magicbees.speciesDraconic",
+                "UID1:8": "magicbees.speciesDraconic"
+              },
+              "1:10": {
+                "Slot:1": 1,
+                "UID0:8": "forestry.speedSlowest",
+                "UID1:8": "forestry.speedSlowest"
+              },
+              "2:10": {
+                "Slot:1": 2,
+                "UID0:8": "forestry.lifespanLongest",
+                "UID1:8": "forestry.lifespanLongest"
+              },
+              "3:10": {
+                "Slot:1": 3,
+                "UID0:8": "forestry.fertilityLow",
+                "UID1:8": "forestry.fertilityLow"
+              },
+              "4:10": {
+                "Slot:1": 4,
+                "UID0:8": "forestry.toleranceUp2",
+                "UID1:8": "forestry.toleranceUp2"
+              },
+              "5:10": {
+                "Slot:1": 5,
+                "UID0:8": "forestry.boolTrue",
+                "UID1:8": "forestry.boolTrue"
+              },
+              "6:10": {
+                "Slot:1": 6,
+                "UID0:8": "forestry.toleranceBoth1",
+                "UID1:8": "forestry.toleranceBoth1"
+              },
+              "7:10": {
+                "Slot:1": 7,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "8:10": {
+                "Slot:1": 8,
+                "UID0:8": "forestry.boolTrue",
+                "UID1:8": "forestry.boolTrue"
+              },
+              "9:10": {
+                "Slot:1": 9,
+                "UID0:8": "forestry.flowersEnd",
+                "UID1:8": "forestry.flowersEnd"
+              },
+              "10:10": {
+                "Slot:1": 10,
+                "UID0:8": "forestry.floweringSlowest",
+                "UID1:8": "forestry.floweringSlowest"
+              },
+              "11:10": {
+                "Slot:1": 11,
+                "UID0:8": "forestry.territoryAverage",
+                "UID1:8": "forestry.territoryAverage"
+              },
+              "12:10": {
+                "Slot:1": 12,
+                "UID0:8": "forestry.effectMisanthrope",
+                "UID1:8": "forestry.effectMisanthrope"
+              }
+            }
+          },
+          "Health:3": 70,
+          "IsAnalyzed:1": 0,
+          "Mate:10": {
+            "Chromosomes:9": {
+              "0:10": {
+                "Slot:1": 0,
+                "UID0:8": "magicbees.speciesDraconic",
+                "UID1:8": "magicbees.speciesDraconic"
+              },
+              "1:10": {
+                "Slot:1": 1,
+                "UID0:8": "forestry.speedSlowest",
+                "UID1:8": "forestry.speedSlowest"
+              },
+              "2:10": {
+                "Slot:1": 2,
+                "UID0:8": "forestry.lifespanLongest",
+                "UID1:8": "forestry.lifespanLongest"
+              },
+              "3:10": {
+                "Slot:1": 3,
+                "UID0:8": "forestry.fertilityLow",
+                "UID1:8": "forestry.fertilityLow"
+              },
+              "4:10": {
+                "Slot:1": 4,
+                "UID0:8": "forestry.toleranceUp2",
+                "UID1:8": "forestry.toleranceUp2"
+              },
+              "5:10": {
+                "Slot:1": 5,
+                "UID0:8": "forestry.boolTrue",
+                "UID1:8": "forestry.boolTrue"
+              },
+              "6:10": {
+                "Slot:1": 6,
+                "UID0:8": "forestry.toleranceBoth1",
+                "UID1:8": "forestry.toleranceBoth1"
+              },
+              "7:10": {
+                "Slot:1": 7,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "8:10": {
+                "Slot:1": 8,
+                "UID0:8": "forestry.boolTrue",
+                "UID1:8": "forestry.boolTrue"
+              },
+              "9:10": {
+                "Slot:1": 9,
+                "UID0:8": "forestry.flowersEnd",
+                "UID1:8": "forestry.flowersEnd"
+              },
+              "10:10": {
+                "Slot:1": 10,
+                "UID0:8": "forestry.floweringSlowest",
+                "UID1:8": "forestry.floweringSlowest"
+              },
+              "11:10": {
+                "Slot:1": 11,
+                "UID0:8": "forestry.territoryAverage",
+                "UID1:8": "forestry.territoryAverage"
+              },
+              "12:10": {
+                "Slot:1": 12,
+                "UID0:8": "forestry.effectMisanthrope",
+                "UID1:8": "forestry.effectMisanthrope"
+              }
+            }
+          },
+          "MaxH:3": 70
+        }
+      },
+      "name:8": "Draconic Bee"
+    }
+  },
+  "questID:3": 1282,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forestry:bee_queen_ge",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "magicbees.speciesDraconic",
+                  "UID1:8": "magicbees.speciesDraconic"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlowest",
+                  "UID1:8": "forestry.speedSlowest"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanLongest",
+                  "UID1:8": "forestry.lifespanLongest"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityLow",
+                  "UID1:8": "forestry.fertilityLow"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceUp2",
+                  "UID1:8": "forestry.toleranceUp2"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceBoth1",
+                  "UID1:8": "forestry.toleranceBoth1"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "forestry.flowersEnd",
+                  "UID1:8": "forestry.flowersEnd"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlowest",
+                  "UID1:8": "forestry.floweringSlowest"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "forestry.effectMisanthrope",
+                  "UID1:8": "forestry.effectMisanthrope"
+                }
+              }
+            },
+            "Health:3": 70,
+            "IsAnalyzed:1": 0,
+            "Mate:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "magicbees.speciesDraconic",
+                  "UID1:8": "magicbees.speciesDraconic"
+                },
+                "1:10": {
+                  "Slot:1": 1,
+                  "UID0:8": "forestry.speedSlowest",
+                  "UID1:8": "forestry.speedSlowest"
+                },
+                "2:10": {
+                  "Slot:1": 2,
+                  "UID0:8": "forestry.lifespanLongest",
+                  "UID1:8": "forestry.lifespanLongest"
+                },
+                "3:10": {
+                  "Slot:1": 3,
+                  "UID0:8": "forestry.fertilityLow",
+                  "UID1:8": "forestry.fertilityLow"
+                },
+                "4:10": {
+                  "Slot:1": 4,
+                  "UID0:8": "forestry.toleranceUp2",
+                  "UID1:8": "forestry.toleranceUp2"
+                },
+                "5:10": {
+                  "Slot:1": 5,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "6:10": {
+                  "Slot:1": 6,
+                  "UID0:8": "forestry.toleranceBoth1",
+                  "UID1:8": "forestry.toleranceBoth1"
+                },
+                "7:10": {
+                  "Slot:1": 7,
+                  "UID0:8": "forestry.boolFalse",
+                  "UID1:8": "forestry.boolFalse"
+                },
+                "8:10": {
+                  "Slot:1": 8,
+                  "UID0:8": "forestry.boolTrue",
+                  "UID1:8": "forestry.boolTrue"
+                },
+                "9:10": {
+                  "Slot:1": 9,
+                  "UID0:8": "forestry.flowersEnd",
+                  "UID1:8": "forestry.flowersEnd"
+                },
+                "10:10": {
+                  "Slot:1": 10,
+                  "UID0:8": "forestry.floweringSlowest",
+                  "UID1:8": "forestry.floweringSlowest"
+                },
+                "11:10": {
+                  "Slot:1": 11,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "12:10": {
+                  "Slot:1": 12,
+                  "UID0:8": "forestry.effectMisanthrope",
+                  "UID1:8": "forestry.effectMisanthrope"
+                }
+              }
+            },
+            "MaxH:3": 70
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

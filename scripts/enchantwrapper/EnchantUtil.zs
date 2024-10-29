@@ -83,7 +83,7 @@ function unwrapJEI(wrapper as IItemStack) as IItemStack[] {
         enchList += makeIntTag(<enchantment:${name}>.makeEnchantment(level), true);
       }
     }
-    return item.withTag(enchList).withLore(["The superenchanted item will have these enchants"]);
+    return item.withTag(enchList).withLore(["被施加超限附魔的物品将拥有以上魔咒"]);
   });
   // Run the transformer on book tooltip hover.
   book.addAdvancedTooltip(function(item) {

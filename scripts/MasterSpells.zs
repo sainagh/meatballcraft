@@ -183,7 +183,7 @@ voidportalbreaker.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 43) {
-        player.sendChat("This only works in the void world (you won't need it anywhere else)");
+        player.sendChat("仅在虚空世界可用（其他地方也用不到它）");
         return "FAIL";
     }
 
@@ -244,7 +244,7 @@ warrenblindfold.beaconPayment = false;
 warrenblindfold.itemRightClick = function(stack, world, player, hand) {
 
 	if(player.getDimension() != 684) {
-        player.sendChat("You gotta be in the Limbo");
+        player.sendChat("需位于灵薄狱");
         return "FAIL";
     }
 	Commands.call("particle totem ~ ~ ~ 2 30 2 1 2000 20", player, world, true, true);

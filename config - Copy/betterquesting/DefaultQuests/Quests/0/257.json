@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    256
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFound in the winter forest biome.\n\n§fI know it is silly to complain about one\u0027s condition in life, as the things of the universe rarely bend to our own will, but man, why is it that I have already seen two magical ice incidents, and I have yet to see a magical lighting incident?\nThis part of the forest is perennially covered in snow. It would make sense that the effects of the powder resonated with the magic powers of those affected by it, so different magical attitudes led to different transformations. Some colder than others.\nThis does raise a question, though, I have seen other mythological creatures on Terra too. My senses tell me they are not from the Twilight Forest, but it would be safe to assume that the same powder, the same virus, may have been used in other places and other times.\nWho knows what many of the enemies I have encountered so far looked like in the past?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "twilightforest:alpha_fur"
+      },
+      "name:8": "Icy Rage"
+    }
+  },
+  "questID:3": 257,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "twilightforest:alpha_fur"
+            },
+            "TrophyName:8": "Alpha Yeti Slayer",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "twilightforest:alpha_fur"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

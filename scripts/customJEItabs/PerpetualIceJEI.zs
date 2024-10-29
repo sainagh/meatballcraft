@@ -6,7 +6,7 @@ import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
-var brewiceworldJEI as IJeiPanel = JEI.createJei("brew_iceworld", "Brew of Iceworld");
+var brewiceworldJEI as IJeiPanel = JEI.createJei("brew_iceworld", "冰霜世界之酿");
 brewiceworldJEI.setModid("MeatballCraft");
 brewiceworldJEI.setIcon(<bewitchment:perpetual_ice>);
 brewiceworldJEI.addRecipeCatalyst(<bewitchment:perpetual_ice>);
@@ -18,7 +18,7 @@ brewiceworldJEI.addSlot(IJeiUtils.createItemSlot(55, 75, true)); // input
 brewiceworldJEI.addSlot(IJeiUtils.createItemSlot(55, 25, true)); // input
 brewiceworldJEI.onTooltip(function(mouseX, mouseY) as string[]{
   if (mouseX <= 60 && mouseX >= 40 && mouseY <= 40 && mouseY >= 60) {
-    return ["Drop them in order"];
+    return ["按顺序投入物品"];
   }  
   return [];
 });

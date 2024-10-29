@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    20422
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Sprinklers can increase a plant\u0027s growth speed by acting as automatic watering cans, when provided with water.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "agricraft:sprinkler"
+      },
+      "name:8": "Agricraft Sprinkers (OK)"
+    }
+  },
+  "questID:3": 20455,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "agricraft:water_tank"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "agricraft:water_channel_valve"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "agricraft:grate"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "agricraft:water_channel_normal"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "agricraft:sprinkler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

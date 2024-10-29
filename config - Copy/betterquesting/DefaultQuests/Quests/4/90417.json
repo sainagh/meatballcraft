@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    90401
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oExtracts items from an inventory directly adjacent to the Modular Router.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8,
+        "id:8": "modularrouters:module",
+        "tag:10": {
+          "Flags:1": 13,
+          "ModuleFilter:9": {}
+        }
+      },
+      "name:8": "Puller Module Mk1"
+    }
+  },
+  "questID:3": 90417,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "modularrouters:module",
+          "tag:10": {
+            "Flags:1": 13,
+            "ModuleFilter:9": {}
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

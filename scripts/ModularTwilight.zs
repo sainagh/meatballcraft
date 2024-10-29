@@ -24,7 +24,7 @@ reci1.addItemInput(<twilightforest:knightmetal_ingot>*16);
 reci1.addItemInput(<twilightforest:twilight_log:3>*64);
 reci1.addItemInput(<minecraft:ghast_tear>*16);
 reci1.addItemInput(<minecraft:nether_star>);
-reci1.addItemOutput(SuperEnchantedItem(<twilightforest:block_and_chain>.withTag({display: {Name:"§6§oMorning Star§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistMorningStarWrapped).getItem());
+reci1.addItemOutput(SuperEnchantedItem(<twilightforest:block_and_chain>.withTag({display: {Name:"§6§o晨星§r",Lore:["§d§o超限附魔§r"]}}), enclistMorningStarWrapped).getItem());
 reci1.build();
 
 
@@ -42,7 +42,7 @@ reci2.addItemInput(<twilightforest:carminite>*16);
 reci2.addItemInput(<twilightforest:maze_stone:0>*64);
 reci2.addItemInput(<minecraft:gold_ingot>*64);
 reci2.addItemInput(<minecraft:nether_star>);
-reci2.addItemOutput(SuperEnchantedItem(<twilightforest:minotaur_axe>.withTag({display: {Name:"§6§oAxe of Savagery§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSavageAxeWrapped).getItem());
+reci2.addItemOutput(SuperEnchantedItem(<twilightforest:minotaur_axe>.withTag({display: {Name:"§6§o野蛮之斧§r",Lore:["§d§o超限附魔§r"]}}), enclistSavageAxeWrapped).getItem());
 reci2.build();
 
 val enclistBigBerthaWrapped as EnchantMap = EnchantMap()
@@ -60,7 +60,7 @@ reci3.addItemInput(<twilightforest:carminite>*16);
 reci3.addItemInput(<twilightforest:castle_brick:0>*64);
 reci3.addItemInput(<twilightforest:raven_feather>*32);
 reci3.addItemInput(<minecraft:nether_star>);
-reci3.addItemOutput(SuperEnchantedItem(<twilightforest:giant_sword>.withTag({display: {Name:"§6§oBig Bertha§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistBigBerthaWrapped).getItem());
+reci3.addItemOutput(SuperEnchantedItem(<twilightforest:giant_sword>.withTag({display: {Name:"§6§o大贝莎§r",Lore:["§d§o超限附魔§r"]}}), enclistBigBerthaWrapped).getItem());
 reci3.build();
 
 val reci4 = RecipeBuilder.newBuilder("twiweap4","carminite_empowerer",1200);

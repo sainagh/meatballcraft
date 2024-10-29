@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    90357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oBoth wires and framed wires have insulated counterparts.\n\nInsulated wires of the same color will connect to each other.\n\nInsulated wires of different colors will not connect, letting you run multiple redstone lines in compact spaces.\n\nInsulated wires cannot receive redstone directly, you will need a regular red alloy wire to attach to machines or levers.\n\nFor even more compactness, use bundled wires!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": "projredInsulatedWire",
+        "id:8": "projectred-transmission:wire"
+      },
+      "name:8": "Insulated Wire"
+    }
+  },
+  "questID:3": 90355,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "projredInsulatedWire",
+          "id:8": "projectred-transmission:wire"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "projredInsFramedWire",
+          "id:8": "projectred-transmission:framed_wire"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

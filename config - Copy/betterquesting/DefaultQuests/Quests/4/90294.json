@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    1173
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCoils are very pretty, and they are are quite cheap, but are not recommended past chapter 1.\n\nPlace connectors on the blocks where you want to transfer power, and connect them by right clicking with a wire.\n\nConnectors have a 16 block range, so if your ends are furthen than that, you will have to place one in between!\n\nConnectors can only have one input and one output, relays can have multiple!\n\nIf too much current is going through, the wire will explode!\n\nNon-insulated wires will damage you if you touch them!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "immersiveengineering:connector"
+      },
+      "name:8": "LV Wires"
+    }
+  },
+  "questID:3": 90294,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "immersiveengineering:connector"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "immersiveengineering:connector"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "immersiveengineering:wirecoil"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "immersiveengineering:wirecoil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
