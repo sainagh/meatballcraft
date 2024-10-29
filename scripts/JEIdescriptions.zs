@@ -4101,7 +4101,7 @@ mods.jei.JEI.addDescription([
     <contenttweaker:psichic_stone>,
     <contenttweaker:runic_ore>],
 [
-    "The excavator is used to produce infinite amounts of ores from Immersive Engineering veins. These are not like normal ore veins, and they do not exist in-world. Each chunk has one vein.",
+    "The excavator is used to produce infinite amounts of ores from Immersive Engineering veins. These are not like normal ore veins, and they do not exist in-world. Each chunk has a chance of 20% to contain a vein.",
     "",
     "To identify a vein, place a core sample drill into a chunk, give it power, and right click it to start it. It will produce a core sample, with the name of the ore vein and fluid vein in that chunk.",
     "",
@@ -4114,9 +4114,9 @@ mods.jei.JEI.addDescription([
     <immersivepetroleum:metal_multiblock:2>,
     <contenttweaker:stormlight_infused_crystal>],
 [
-    "The pumpjack is used to produce infinite amounts of fluids from Immersive Engineering veins. These are not like normal fluid deposits, and they do not exist in-world. Each chunk has one vein.",
+    "The pumpjack is used to produce infinite amounts of fluids from Immersive Engineering reservoirs. These are not like normal fluid deposits, and they do not exist in-world. Each chunk has a chance of 50% to contain a reservoir.",
     "",
-    "To identify a vein, place a core sample drill into a chunk, give it power, and right click it to start it. It will produce a core sample, with the name of the ore vein and fluid vein in that chunk.",
+    "To identify a reservoir, place a core sample drill into a chunk, give it power, and right click it to start it. It will produce a core sample, with the name of the ore vein and fluid reservoir in that chunk.",
     "",
     "To extract the fluid deposit, build the Pumpjack multiblock in the corresponding chunk. "
 ]);
