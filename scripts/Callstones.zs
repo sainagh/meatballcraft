@@ -2889,8 +2889,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos1.x = pos1.x + 3;
     pos1.z = pos1.z + 1;
     var blockPos1 = pos1.asBlockPos();
-    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.candle_magenta.name") {
+    var blockState1 = world.getBlock(blockPos1).definition.id as string;
+    if(blockState1 != "thaumcraft:candle_magenta") {
         player.sendChat("品红色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -2899,8 +2899,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos2.x = pos2.x + 3;
     pos2.z = pos2.z - 1;
     var blockPos2 = pos2.asBlockPos();
-    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.candle_magenta.name") {
+    var blockState2 = world.getBlock(blockPos2).definition.id as string;
+    if(blockState2 != "thaumcraft:candle_magenta") {
         player.sendChat("品红色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -2909,8 +2909,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos3.x = pos3.x - 3;
     pos3.z = pos3.z - 1;
     var blockPos3 = pos3.asBlockPos();
-    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "tile.candle_magenta.name") {
+    var blockState3 = world.getBlock(blockPos3).definition.id as string;
+    if(blockState3 != "thaumcraft:candle_magenta") {
         player.sendChat("品红色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -2919,8 +2919,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos4.x = pos4.x - 3;
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
-    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "tile.candle_magenta.name") {
+    var blockState4 = world.getBlock(blockPos4).definition.id as string;
+    if(blockState4 != "thaumcraft:candle_magenta") {
         player.sendChat("品红色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -2929,8 +2929,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos5.x = pos5.x - 1;
     pos5.z = pos5.z + 3;
     var blockPos5 = pos5.asBlockPos();
-    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "tile.candle_magenta.name") {
+    var blockState5 = world.getBlock(blockPos5).definition.id as string;
+    if(blockState5 != "thaumcraft:candle_magenta") {
         player.sendChat("品红色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -2939,8 +2939,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos6.x = pos6.x + 1;
     pos6.z = pos6.z + 3;
     var blockPos6 = pos6.asBlockPos();
-    var blockState6 = world.getBlock(blockPos6).definition.displayName as string;
-    if(blockState6 != "tile.candle_magenta.name") {
+    var blockState6 = world.getBlock(blockPos6).definition.id as string;
+    if(blockState6 != "thaumcraft:candle_magenta") {
         player.sendChat("品红色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -2949,8 +2949,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos7.x = pos7.x + 1;
     pos7.z = pos7.z - 3;
     var blockPos7 = pos7.asBlockPos();
-    var blockState7 = world.getBlock(blockPos7).definition.displayName as string;
-    if(blockState7 != "tile.candle_magenta.name") {
+    var blockState7 = world.getBlock(blockPos7).definition.id as string;
+    if(blockState7 != "thaumcraft:candle_magenta") {
         player.sendChat("品红色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -2959,8 +2959,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     pos8.x = pos8.x - 1;
     pos8.z = pos8.z - 3;
     var blockPos8 = pos8.asBlockPos();
-    var blockState8 = world.getBlock(blockPos8).definition.displayName as string;
-    if(blockState8 != "tile.candle_magenta.name") {
+    var blockState8 = world.getBlock(blockPos8).definition.id as string;
+    if(blockState8 != "thaumcraft:candle_magenta") {
         player.sendChat("品红色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -2968,8 +2968,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     var posW = player.position.asPosition3f();
     posW.z = posW.z - 3;
     var blockPosW = posW.asBlockPos();
-    var blockStateW = world.getBlock(blockPosW).definition.displayName as string;
-    if(blockStateW != "tile.candle_orange.name") {
+    var blockStateW = world.getBlock(blockPosW).definition.id as string;
+    if(blockStateW != "thaumcraft:candle_orange") {
         player.sendChat("橙色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -2977,8 +2977,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     var posX = player.position.asPosition3f();
     posX.z = posX.z + 3;
     var blockPosX = posX.asBlockPos();
-    var blockStateX = world.getBlock(blockPosX).definition.displayName as string;
-    if(blockStateX != "tile.candle_orange.name") {
+    var blockStateX = world.getBlock(blockPosX).definition.id as string;
+    if(blockStateX != "thaumcraft:candle_orange") {
         player.sendChat("橙色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -2986,8 +2986,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     var posY = player.position.asPosition3f();
     posY.x = posY.x + 3;
     var blockPosY = posY.asBlockPos();
-    var blockStateY = world.getBlock(blockPosY).definition.displayName as string;
-    if(blockStateY != "tile.candle_orange.name") {
+    var blockStateY = world.getBlock(blockPosY).definition.id as string;
+    if(blockStateY != "thaumcraft:candle_orange") {
         player.sendChat("橙色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -2995,8 +2995,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     var posZ = player.position.asPosition3f();
     posZ.x = posZ.x - 3;
     var blockPosZ = posZ.asBlockPos();
-    var blockStateZ = world.getBlock(blockPosZ).definition.displayName as string;
-    if(blockStateZ != "tile.candle_orange.name") {
+    var blockStateZ = world.getBlock(blockPosZ).definition.id as string;
+    if(blockStateZ != "thaumcraft:candle_orange") {
         player.sendChat("橙色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -3005,8 +3005,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     posL.x = posL.x - 2;
     posL.z = posL.z - 2;
     var blockPosL = posL.asBlockPos();
-    var blockStateL = world.getBlock(blockPosL).definition.displayName as string;
-    if(blockStateL != "tile.candle_blue.name") {
+    var blockStateL = world.getBlock(blockPosL).definition.id as string;
+    if(blockStateL != "thaumcraft:candle_blue") {
         player.sendChat("1号蓝色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -3015,8 +3015,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     posM.x = posM.x + 2;
     posM.z = posM.z - 2;
     var blockPosM = posM.asBlockPos();
-    var blockStateM = world.getBlock(blockPosM).definition.displayName as string;
-    if(blockStateM != "tile.candle_blue.name") {
+    var blockStateM = world.getBlock(blockPosM).definition.id as string;
+    if(blockStateM != "thaumcraft:candle_blue") {
         player.sendChat("2号蓝色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -3025,8 +3025,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     posN.x = posN.x + 2;
     posN.z = posN.z + 2;
     var blockPosN = posN.asBlockPos();
-    var blockStateN = world.getBlock(blockPosN).definition.displayName as string;
-    if(blockStateN != "tile.candle_blue.name") {
+    var blockStateN = world.getBlock(blockPosN).definition.id as string;
+    if(blockStateN != "thaumcraft:candle_blue") {
         player.sendChat("3号蓝色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -3035,8 +3035,8 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     posO.x = posO.x - 2;
     posO.z = posO.z + 2;
     var blockPosO = posO.asBlockPos();
-    var blockStateO = world.getBlock(blockPosO).definition.displayName as string;
-    if(blockStateO != "tile.candle_blue.name") {
+    var blockStateO = world.getBlock(blockPosO).definition.id as string;
+    if(blockStateO != "thaumcraft:candle_blue") {
         player.sendChat("4号蓝色蜡烛缺失或种类错误");
         return "FAIL";
     }
@@ -3608,8 +3608,8 @@ firstrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos1.y = pos1.y - 1;
     pos1.z = pos1.z;
     var blockPos1 = pos1.asBlockPos();
-    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+    var blockState1 = world.getBlock(blockPos1).definition.id as string;
+    if(blockState1 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3619,8 +3619,8 @@ firstrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos2.y = pos2.y - 1;
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
-    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+    var blockState2 = world.getBlock(blockPos2).definition.id as string;
+    if(blockState2 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3630,8 +3630,8 @@ firstrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos3.y = pos3.y - 1;
     pos3.z = pos3.z;
     var blockPos3 = pos3.asBlockPos();
-    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+    var blockState3 = world.getBlock(blockPos3).definition.id as string;
+    if(blockState3 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3641,8 +3641,8 @@ firstrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos4.y = pos4.y - 1;
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
-    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+    var blockState4 = world.getBlock(blockPos4).definition.id as string;
+    if(blockState4 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3652,8 +3652,8 @@ firstrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos5.y = pos5.y - 1;
     pos5.z = pos5.z - 1;
     var blockPos5 = pos5.asBlockPos();
-    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+    var blockState5 = world.getBlock(blockPos5).definition.id as string;
+    if(blockState5 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3698,8 +3698,8 @@ secondrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos1.y = pos1.y - 1;
     pos1.z = pos1.z;
     var blockPos1 = pos1.asBlockPos();
-    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+    var blockState1 = world.getBlock(blockPos1).definition.id as string;
+    if(blockState1 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3709,8 +3709,8 @@ secondrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos2.y = pos2.y - 1;
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
-    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+    var blockState2 = world.getBlock(blockPos2).definition.id as string;
+    if(blockState2 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3720,8 +3720,8 @@ secondrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos3.y = pos3.y - 1;
     pos3.z = pos3.z;
     var blockPos3 = pos3.asBlockPos();
-    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+    var blockState3 = world.getBlock(blockPos3).definition.id as string;
+    if(blockState3 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3731,8 +3731,8 @@ secondrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos4.y = pos4.y - 1;
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
-    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+    var blockState4 = world.getBlock(blockPos4).definition.id as string;
+    if(blockState4 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3742,8 +3742,8 @@ secondrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos5.y = pos5.y - 1;
     pos5.z = pos5.z - 1;
     var blockPos5 = pos5.asBlockPos();
-    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+    var blockState5 = world.getBlock(blockPos5).definition.id as string;
+    if(blockState5 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3792,8 +3792,8 @@ thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos1.y = pos1.y - 1;
     pos1.z = pos1.z;
     var blockPos1 = pos1.asBlockPos();
-    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+    var blockState1 = world.getBlock(blockPos1).definition.id as string;
+    if(blockState1 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3803,8 +3803,8 @@ thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos2.y = pos2.y - 1;
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
-    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+    var blockState2 = world.getBlock(blockPos2).definition.id as string;
+    if(blockState2 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3814,8 +3814,8 @@ thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos3.y = pos3.y - 1;
     pos3.z = pos3.z;
     var blockPos3 = pos3.asBlockPos();
-    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+    var blockState3 = world.getBlock(blockPos3).definition.id as string;
+    if(blockState3 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3825,8 +3825,8 @@ thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos4.y = pos4.y - 1;
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
-    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+    var blockState4 = world.getBlock(blockPos4).definition.id as string;
+    if(blockState4 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3836,8 +3836,8 @@ thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos5.y = pos5.y - 1;
     pos5.z = pos5.z - 1;
     var blockPos5 = pos5.asBlockPos();
-    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+    var blockState5 = world.getBlock(blockPos5).definition.id as string;
+    if(blockState5 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3879,8 +3879,8 @@ fourthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos1.y = pos1.y - 1;
     pos1.z = pos1.z;
     var blockPos1 = pos1.asBlockPos();
-    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+    var blockState1 = world.getBlock(blockPos1).definition.id as string;
+    if(blockState1 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3890,8 +3890,8 @@ fourthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos2.y = pos2.y - 1;
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
-    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+    var blockState2 = world.getBlock(blockPos2).definition.id as string;
+    if(blockState2 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3901,8 +3901,8 @@ fourthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos3.y = pos3.y - 1;
     pos3.z = pos3.z;
     var blockPos3 = pos3.asBlockPos();
-    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+    var blockState3 = world.getBlock(blockPos3).definition.id as string;
+    if(blockState3 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3912,8 +3912,8 @@ fourthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos4.y = pos4.y - 1;
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
-    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+    var blockState4 = world.getBlock(blockPos4).definition.id as string;
+    if(blockState4 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3923,8 +3923,8 @@ fourthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos5.y = pos5.y - 1;
     pos5.z = pos5.z - 1;
     var blockPos5 = pos5.asBlockPos();
-    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+    var blockState5 = world.getBlock(blockPos5).definition.id as string;
+    if(blockState5 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3972,8 +3972,8 @@ fifthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos1.y = pos1.y - 1;
     pos1.z = pos1.z;
     var blockPos1 = pos1.asBlockPos();
-    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+    var blockState1 = world.getBlock(blockPos1).definition.id as string;
+    if(blockState1 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3983,8 +3983,8 @@ fifthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos2.y = pos2.y - 1;
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
-    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+    var blockState2 = world.getBlock(blockPos2).definition.id as string;
+    if(blockState2 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -3994,8 +3994,8 @@ fifthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos3.y = pos3.y - 1;
     pos3.z = pos3.z;
     var blockPos3 = pos3.asBlockPos();
-    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+    var blockState3 = world.getBlock(blockPos3).definition.id as string;
+    if(blockState3 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -4005,8 +4005,8 @@ fifthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos4.y = pos4.y - 1;
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
-    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+    var blockState4 = world.getBlock(blockPos4).definition.id as string;
+    if(blockState4 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -4016,8 +4016,8 @@ fifthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     pos5.y = pos5.y - 1;
     pos5.z = pos5.z - 1;
     var blockPos5 = pos5.asBlockPos();
-    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+    var blockState5 = world.getBlock(blockPos5).definition.id as string;
+    if(blockState5 != "contenttweaker:recursive_stone") {
         player.sendChat("站在递归监狱钥匙生成区域的中心！");
         return "FAIL";
     }
@@ -4349,8 +4349,8 @@ forbiddenmeatballmanrites.itemRightClick = function(stack, world, player, hand) 
     pos1.y = pos1.y - 1;
     pos1.z = pos1.z;
     var blockPos1 = pos1.asBlockPos();
-    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.contenttweaker.withering_fabrial.name" && blockState1 != "Withering Fabrial") {
+    var blockState1 = world.getBlock(blockPos1).definition.id as string;
+    if(blockState1 != "contenttweaker:withering_fabrial") {
         player.sendChat("站在凋零法器上");
         return "FAIL";
     }
@@ -4410,8 +4410,8 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos0.y = pos0.y - 1;
     pos0.z = pos0.z;
     var blockPos0 = pos0.asBlockPos();
-    var blockState0 = world.getBlock(blockPos0).definition.displayName as string;
-    if(blockState0 != "Beacon") {
+    var blockState0 = world.getBlock(blockPos0).definition.id as string;
+    if(blockState0 != "minecraft:beacon") {
         player.sendChat("缺少信标");
         return "FAIL";
     }
@@ -4421,8 +4421,8 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos1.y = pos1.y - 2;
     pos1.z = pos1.z;
     var blockPos1 = pos1.asBlockPos();
-    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState1 != "Hyperuranon Actualizing Fabrial") {
+    var blockState1 = world.getBlock(blockPos1).definition.id as string;
+    if(blockState1 != "contenttweaker:hyperuranon_actualizing_fabrial") {
         player.sendChat("缺少信标基座方块");
         return "FAIL";
     }
@@ -4432,8 +4432,8 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos2.y = pos2.y - 2;
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
-    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState2 != "Hyperuranon Actualizing Fabrial") {
+    var blockState2 = world.getBlock(blockPos2).definition.id as string;
+    if(blockState2 != "contenttweaker:hyperuranon_actualizing_fabrial") {
         player.sendChat("缺少信标基座方块");
         return "FAIL";
     }
@@ -4443,8 +4443,8 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos3.y = pos3.y - 2;
     pos3.z = pos3.z;
     var blockPos3 = pos3.asBlockPos();
-    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState3 != "Hyperuranon Actualizing Fabrial") {
+    var blockState3 = world.getBlock(blockPos3).definition.id as string;
+    if(blockState3 != "contenttweaker:hyperuranon_actualizing_fabrial") {
         player.sendChat("缺少信标基座方块");
         return "FAIL";
     }
@@ -4454,8 +4454,8 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos4.y = pos4.y - 2;
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
-    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState4 != "Hyperuranon Actualizing Fabrial") {
+    var blockState4 = world.getBlock(blockPos4).definition.id as string;
+    if(blockState4 != "contenttweaker:hyperuranon_actualizing_fabrial") {
         player.sendChat("缺少信标基座方块");
         return "FAIL";
     }
@@ -4465,8 +4465,8 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos5.y = pos5.y - 2;
     pos5.z = pos5.z - 1;
     var blockPos5 = pos5.asBlockPos();
-    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState5 != "Hyperuranon Actualizing Fabrial") {
+    var blockState5 = world.getBlock(blockPos5).definition.id as string;
+    if(blockState5 != "contenttweaker:hyperuranon_actualizing_fabrial") {
         player.sendChat("缺少信标基座方块");
         return "FAIL";
     }
@@ -4476,8 +4476,8 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos6.y = pos6.y - 2;
     pos6.z = pos6.z + 1;
     var blockPos6 = pos6.asBlockPos();
-    var blockState6 = world.getBlock(blockPos6).definition.displayName as string;
-    if(blockState6 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState6 != "Hyperuranon Actualizing Fabrial") {
+    var blockState6 = world.getBlock(blockPos6).definition.id as string;
+    if(blockState6 != "contenttweaker:hyperuranon_actualizing_fabrial") {
         player.sendChat("缺少信标基座方块");
         return "FAIL";
     }
@@ -4487,8 +4487,8 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos7.y = pos7.y - 2;
     pos7.z = pos7.z - 1;
     var blockPos7 = pos7.asBlockPos();
-    var blockState7 = world.getBlock(blockPos7).definition.displayName as string;
-    if(blockState7 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState7 != "Hyperuranon Actualizing Fabrial") {
+    var blockState7 = world.getBlock(blockPos7).definition.id as string;
+    if(blockState7 != "contenttweaker:hyperuranon_actualizing_fabrial") {
         player.sendChat("缺少信标基座方块");
         return "FAIL";
     }
@@ -4498,8 +4498,8 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos8.y = pos8.y - 2;
     pos8.z = pos8.z + 1;
     var blockPos8 = pos8.asBlockPos();
-    var blockState8 = world.getBlock(blockPos8).definition.displayName as string;
-    if(blockState8 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState8 != "Hyperuranon Actualizing Fabrial") {
+    var blockState8 = world.getBlock(blockPos8).definition.id as string;
+    if(blockState8 != "contenttweaker:hyperuranon_actualizing_fabrial") {
         player.sendChat("缺少信标基座方块");
         return "FAIL";
     }
@@ -4509,8 +4509,8 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos9.y = pos9.y - 2;
     pos9.z = pos9.z - 1;
     var blockPos9 = pos9.asBlockPos();
-    var blockState9 = world.getBlock(blockPos9).definition.displayName as string;
-    if(blockState9 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState8 != "Hyperuranon Actualizing Fabrial") {
+    var blockState9 = world.getBlock(blockPos9).definition.id as string;
+    if(blockState9 != "contenttweaker:hyperuranon_actualizing_fabrial") {
         player.sendChat("缺少信标基座方块");
         return "FAIL";
     }
