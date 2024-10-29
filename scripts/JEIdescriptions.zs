@@ -4105,7 +4105,7 @@ mods.jei.JEI.addDescription([
     "",
     "To identify a vein, place a core sample drill into a chunk, give it power, and right click it to start it. It will produce a core sample, with the name of the ore vein and fluid vein in that chunk.",
     "",
-    "To mine the ore vein vein, build the Excavator multiblocks in the corresponding chunk. ",
+    "To mine the ore vein, build the Excavator multiblocks in the corresponding chunk. ",
     "",
     "Some ores can only be mined using excavators, and cannot be found in-world."
 ]);
