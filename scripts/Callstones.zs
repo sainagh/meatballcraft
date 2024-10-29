@@ -2666,7 +2666,7 @@ wyvenmonumentfabrial.itemRightClick = function(stack, world, player, hand) {
     var blockPosA = posA.asBlockPos();
     var blockStateA = world.getBlockState(blockPosA);
     if(blockStateA != <blockstate:minecraft:obsidian>) {
-        player.sendChat("玩家未站在碑石中心的黑曜石上");
+        player.sendChat("玩家未站在神殿中心的黑曜石上");
         return "FAIL";
     }
 
@@ -2676,7 +2676,7 @@ wyvenmonumentfabrial.itemRightClick = function(stack, world, player, hand) {
     var blockPosB = posB.asBlockPos();
     var blockStateB = world.getBlockState(blockPosB);
     if(blockStateB != <blockstate:minecraft:obsidian>) {
-        player.sendChat("玩家未站在碑石中心的黑曜石上");
+        player.sendChat("玩家未站在神殿中心的黑曜石上");
         return "FAIL";
     }
 
@@ -2686,7 +2686,7 @@ wyvenmonumentfabrial.itemRightClick = function(stack, world, player, hand) {
     var blockPosC = posC.asBlockPos();
     var blockStateC = world.getBlockState(blockPosC);
     if(blockStateC != <blockstate:minecraft:obsidian>) {
-        player.sendChat("玩家未站在碑石中心的黑曜石上");
+        player.sendChat("玩家未站在神殿中心的黑曜石上");
         return "FAIL";
     }
 
@@ -2696,7 +2696,7 @@ wyvenmonumentfabrial.itemRightClick = function(stack, world, player, hand) {
     var blockPosD = posD.asBlockPos();
     var blockStateD = world.getBlockState(blockPosD);
     if(blockStateD != <blockstate:minecraft:obsidian>) {
-        player.sendChat("玩家未站在碑石中心的黑曜石上");
+        player.sendChat("玩家未站在神殿中心的黑曜石上");
         return "FAIL";
     }
 
@@ -2706,11 +2706,11 @@ wyvenmonumentfabrial.itemRightClick = function(stack, world, player, hand) {
     var blockPosE = posE.asBlockPos();
     var blockStateE = world.getBlockState(blockPosE);
     if(blockStateE != <blockstate:minecraft:obsidian>) {
-        player.sendChat("玩家未站在碑石中心的黑曜石上");
+        player.sendChat("玩家未站在神殿中心的黑曜石上");
         return "FAIL";
     }
 
-    player.sendChat("你正站在碑石中心的黑曜石上");
+    player.sendChat("你正站在神殿中心的黑曜石上");
     player.sendChat("现在往柱子上放置正确的天辉聚能水晶");
 
     player.sendChat("检查水晶中");
@@ -2836,7 +2836,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     var blockPosA = posA.asBlockPos();
     var blockStateA = world.getBlockState(blockPosA);
     if(blockStateA != <blockstate:minecraft:mossy_cobblestone>) {
-        player.sendChat("玩家未站在碑石中心的苔石上");
+        player.sendChat("玩家未站在神殿中心的苔石上");
         return "FAIL";
     }
 
@@ -2846,7 +2846,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     var blockPosB = posB.asBlockPos();
     var blockStateB = world.getBlockState(blockPosB);
     if(blockStateB != <blockstate:minecraft:mossy_cobblestone>) {
-        player.sendChat("玩家未站在碑石中心的苔石上");
+        player.sendChat("玩家未站在神殿中心的苔石上");
         return "FAIL";
     }
 
@@ -2856,7 +2856,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     var blockPosC = posC.asBlockPos();
     var blockStateC = world.getBlockState(blockPosC);
     if(blockStateC != <blockstate:minecraft:mossy_cobblestone>) {
-        player.sendChat("玩家未站在碑石中心的苔石上");
+        player.sendChat("玩家未站在神殿中心的苔石上");
         return "FAIL";
     }
 
@@ -2866,7 +2866,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     var blockPosD = posD.asBlockPos();
     var blockStateD = world.getBlockState(blockPosD);
     if(blockStateD != <blockstate:minecraft:mossy_cobblestone>) {
-        player.sendChat("玩家未站在碑石中心的苔石上");
+        player.sendChat("玩家未站在神殿中心的苔石上");
         return "FAIL";
     }
 
@@ -2876,11 +2876,11 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     var blockPosE = posE.asBlockPos();
     var blockStateE = world.getBlockState(blockPosE);
     if(blockStateE != <blockstate:minecraft:mossy_cobblestone>) {
-        player.sendChat("玩家未站在碑石中心的苔石上");
+        player.sendChat("玩家未站在神殿中心的苔石上");
         return "FAIL";
     }
 
-    player.sendChat("你正站在碑石中心的苔石上");
+    player.sendChat("你正站在神殿中心的苔石上");
 
     player.sendChat("检查蜡烛中");
     player.sendChat("==================================================");

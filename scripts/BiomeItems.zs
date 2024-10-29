@@ -590,7 +590,7 @@ memoryrestorationritual.itemRightClick = function(stack, world, player, hand) {
 	player.sendChat("根据所在维度不同，该物品需要不同的群系才能工作");
 	player.sendChat("主世界：远古神殿（Ancient Cavern）（发现于远古神殿维度）");
 	player.sendChat("暮色森林：外域（Outer Lands）（发现于晦暗界）");
-	player.sendChat("哈托尔：Hator: 神圣之泉（Sacred Springs）（发现于主世界）");
+	player.sendChat("哈托尔：神圣之泉（Sacred Springs）（发现于主世界）");
 	player.sendChat("秘界：魔法森林（Magical Forest）（发现于主世界）");
 	player.sendChat("召唤的Boss只有在护盾破坏之后才会受到伤害");
 	player.sendChat(" - - - ");

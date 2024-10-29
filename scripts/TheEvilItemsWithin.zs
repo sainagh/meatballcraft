@@ -153,7 +153,7 @@ vengefulkey.itemRightClick = function(stack, world, player, hand) {
     Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ contenttweaker:vengeful_portal 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, true, true);
 
 
-    player.sendChat("该物品有两种用途，其一是打开意志晶块碑的入口，其二是破坏位于那里的四种晶簇块！");
+    player.sendChat("该物品有两种用途，其一是打开意志晶块神殿的入口，其二是破坏位于那里的四种晶簇块！");
     player.sendChat("站在复仇传送门下方来将其破坏！");
     player.sendChat("站在晶簇块正下方，或上方来将其破坏！");
 
@@ -178,7 +178,7 @@ retaliationkey.itemRightClick = function(stack, world, player, hand) {
     Commands.call("execute @s ~ ~ ~ detect ~ ~2 ~ contenttweaker:retaliation_portal 0 fill ~ ~2 ~ ~ ~2 ~ air 0 destroy", player, world, true, true);
 
 
-    player.sendChat("该物品有两种用途，其一是打开意志晶块碑的第二扇门，其二是破坏位于那里的最终晶簇块！");
+    player.sendChat("该物品有两种用途，其一是打开意志晶块神殿的第二扇门，其二是破坏位于那里的最终晶簇块！");
     player.sendChat("站在复仇传送门下方来将其破坏！");
     player.sendChat("站在晶簇块下方来将其破坏！");
 

@@ -365,11 +365,11 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:vengeful_key>.addTooltip(format.red("使用灵薄狱之唤来获得破碎之壁"));
 
-<contenttweaker:vengeful_key>.addTooltip(format.red("打开意志晶块碑的入口"));
+<contenttweaker:vengeful_key>.addTooltip(format.red("打开意志晶块神殿的入口"));
 
 <contenttweaker:vengeful_key>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
 
-<contenttweaker:retaliation_key>.addTooltip(format.red("打开意志晶块碑内的最终房间"));
+<contenttweaker:retaliation_key>.addTooltip(format.red("打开意志晶块神殿内的最终房间"));
 
 <soulshardsrespawn:soul_shard>.addTooltip(format.red("在世界中合成，放置一个荧石块，用四个石英块包围，四角放置黑曜石。 - Sandman366"));
 
@@ -419,15 +419,15 @@ import crafttweaker.item.IItemCondition;
 
 <dimdoors:fabric>.addTooltip(format.red("发现于灵薄狱 - 使用精准采集挖掘"));
 
-<contenttweaker:demonic_crystal_cluster>.addTooltip(format.red("发现于下界天花板上的意志晶块碑"));
+<contenttweaker:demonic_crystal_cluster>.addTooltip(format.red("发现于下界天花板上的意志晶块神殿"));
 
-<contenttweaker:destructive_crystal_cluster>.addTooltip(format.red("发现于下界天花板上的意志晶块碑"));
+<contenttweaker:destructive_crystal_cluster>.addTooltip(format.red("发现于下界天花板上的意志晶块神殿"));
 
-<contenttweaker:vengeful_crystal_cluster>.addTooltip(format.red("发现于下界天花板上的意志晶块碑"));
+<contenttweaker:vengeful_crystal_cluster>.addTooltip(format.red("发现于下界天花板上的意志晶块神殿"));
 
-<contenttweaker:steadfast_crystal_cluster>.addTooltip(format.red("发现于下界天花板上的意志晶块碑"));
+<contenttweaker:steadfast_crystal_cluster>.addTooltip(format.red("发现于下界天花板上的意志晶块神殿"));
 
-<contenttweaker:corrosive_crystal_cluster>.addTooltip(format.red("发现于下界天花板上的意志晶块碑"));
+<contenttweaker:corrosive_crystal_cluster>.addTooltip(format.red("发现于下界天花板上的意志晶块神殿"));
 
 <contenttweaker:forgotten_will>.addTooltip(format.green("可重复使用"));
 
@@ -1536,7 +1536,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:meatball_attuned_crystal>.addTooltip(format.red("小心，制作该物品会产生大量辐射！"));
 
-<contenttweaker:meatball_attuned_crystal>.addTooltip(format.red("在盐反应堆中制作第一份后，低语星能液可进行复制"));
+<contenttweaker:meatball_attuned_crystal>.addTooltip(format.red("在熔盐反应堆中制作第一份后，低语星能液可进行复制"));
 
 <contenttweaker:singularity_master>.addTooltip(format.red("将星能力等级上限提升至35"));
 
@@ -1607,7 +1607,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:heart_of_the_elder_one>.addTooltip(format.red("发现于共鸣界"));
 
-<contenttweaker:naquadah_chunk>.addTooltip(format.red("发现于附魔山脉的地牢"));
+<contenttweaker:naquadah_chunk>.addTooltip(format.red("发现于共鸣界的地牢"));
 
 <contenttweaker:ichor>.addTooltip(format.red("通过站在腐化泥土上使用谐振秘金镰刀右击获得"));
 
@@ -2287,7 +2287,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:tainted_heart>.addTooltip(format.red("发现于谐律界"));
 
-<contenttweaker:recursive_meatball>.addTooltip(format.red("发现于共鸣界"));
+<contenttweaker:recursive_meatball>.addTooltip(format.red("发现于光精界"));
 
 <thaumcraft:chunk:5>.addTooltip(format.red("通过神秘时代的炼狱熔炉获得！"));
 <thaumcraft:chunk:4>.addTooltip(format.red("通过神秘时代的炼狱熔炉获得！"));
@@ -3214,7 +3214,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:asgard_furnace_brick>.addTooltip(format.red("通过阿萨神族裂隙获得"));
 
-<tce:tce_compressed_torch_lvl1>.addTooltip(format.red("发现于附魔山脉"));
+<tce:tce_compressed_torch_lvl1>.addTooltip(format.red("发现于共鸣界"));
 
 <ore:ingotMithrillium>.addTooltip(format.red("解锁该研究有些困难，最好是使用惊怖纤毛菇"));
 
@@ -3412,8 +3412,8 @@ import crafttweaker.item.IItemCondition;
 
 <aoa3:rosidon_seeds>.addTooltip(format.red("在花园维度获得"));
 
-<contenttweaker:adamantium_stinger>.addTooltip(format.red("发现于共鸣界"));
-<contenttweaker:gem_of_midas>.addTooltip(format.red("发现于共鸣界"));
+<contenttweaker:adamantium_stinger>.addTooltip(format.red("发现于光精界"));
+<contenttweaker:gem_of_midas>.addTooltip(format.red("发现于光精界"));
 
 <contenttweaker:rosidian_blend>.addTooltip(format.red("将伊甸果与正确的小堆粉（8个）结合，花园维度会告诉你是哪些的！"));
 
@@ -3653,9 +3653,9 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("使用核电工艺模组的液冷器替换该方块！"));
 <contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("用缓存器替换反应堆外墙的外壳，对其输送流体！"));
 
-<contenttweaker:polar_catalyst>.addTooltip(format.red("发现于附魔山脉"));
+<contenttweaker:polar_catalyst>.addTooltip(format.red("发现于共鸣界"));
 
-<contenttweaker:stormlight_fragment>.addTooltip(format.red("通过飓风之子召唤石着火"));
+<contenttweaker:stormlight_fragment>.addTooltip(format.red("通过飓风之子召唤石获得"));
 
 <divinerpg:storm_sword>.addTooltip(format.red("与秘界的梅里克首领交易获得"));
 

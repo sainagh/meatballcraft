@@ -134,7 +134,7 @@
 
 <divinerpg:corrupted_maul>.addTooltip(format.red("可施加超限附魔"));
 
-<contenttweaker:anomaly_detector_stage_1>.addTooltip(format.red("发现于共鸣界"));
+<contenttweaker:anomaly_detector_stage_1>.addTooltip(format.red("发现于光精界"));
 
 <contenttweaker:anomaly_detector_stage_1>.addTooltip(format.red("感谢Josip绘制的纹理！"));
 <contenttweaker:magic_mushroom_dark>.addTooltip(format.red("感谢Josip绘制的纹理！"));
@@ -343,11 +343,11 @@
 
 <contenttweaker:voraceous_worm_callstone>.addTooltip(format.red("通过贪食宝石获得"));
 
-<contenttweaker:gem_of_gluttony>.addTooltip(format.red("发现于共鸣界"));
-<contenttweaker:gem_of_gluttony>.addTooltip(format.red("与正确的嵌宝旗帜（1个）结合，位置维度将指引你"));
+<contenttweaker:gem_of_gluttony>.addTooltip(format.red("发现于光精界"));
+<contenttweaker:gem_of_gluttony>.addTooltip(format.red("与正确的嵌宝旗帜（1个）结合，未知维度将指引你"));
 
 <contenttweaker:gem_of_voracity>.addTooltip(format.red("使用我"));
-<contenttweaker:gem_of_voracity>.addTooltip(format.red("将贪食宝石与正确的嵌宝旗帜（1个）结合，位置维度将指引你u"));
+<contenttweaker:gem_of_voracity>.addTooltip(format.red("将贪食宝石与正确的嵌宝旗帜（1个）结合，未知维度将指引你"));
 
 // <ae2stuff:wireless>.addTooltip(format.red("Right click with Dyes to change color"));
 
@@ -416,7 +416,7 @@
 
 <contenttweaker:stormlight_infused_crystal>.addTooltip(format.red("在赫尔维蒂维度使用沉浸原油模组的采油机来获得飓光"));
 
-<contenttweaker:shard_of_a_fallen_spren>.addTooltip(format.red("通过双足飞龙纪念碑激活法器获得"));
+<contenttweaker:shard_of_a_fallen_spren>.addTooltip(format.red("通过双足飞龙神殿激活法器获得"));
 
 <contenttweaker:wyvern_head_stone>.addTooltip(format.red("发现于赫尔维蒂维度"));
 
@@ -1211,7 +1211,7 @@
 
 <contenttweaker:tainted_sentient_meatball>.addTooltip(format.red("通过腐化之环召唤石获得"));
 
-<contenttweaker:harbinger_sentient_meatball>.addTooltip(format.red("通过纪念肉丸召唤石获得"));
+<contenttweaker:harbinger_sentient_meatball>.addTooltip(format.red("通过神殿肉丸召唤石获得"));
 
 <erebus:glider_chestplate>.addTooltip(format.red("警告：穿戴会导致玩家人物坏档"));
 <erebus:glider_chestplate_powered>.addTooltip(format.red("警告：穿戴会导致玩家人物坏档"));
