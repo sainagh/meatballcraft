@@ -3306,7 +3306,7 @@ mods.jei.JEI.addDescription([
     "",
     "Energy transfer: set individual inventories as energy inputs or outputs, useful for powering single-block machines that also need item automation.",
     "",
-    "Item transfer: set individual inventories as inputs or outputs of specific filtered or general items; you can specify what sides to interact with for sided machines like furnaces.",
+    "Item transfer: set individual inventories as inputs or outputs of specific filtered or general items; you can specify what sides to interact with for sided machines like furnaces(only with Advanced Connectors).",
     "",
     "Logic (redstone): you can add sensors (produce redstone if chest has over X amount of item A); additionally, both item and energy channels can receive logic signals to turn on/off their function (move item B if receiving redstone signal); logic (redstone) channels can be colored as well to operate independently.",
     "",
