@@ -909,7 +909,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:skotaninomicom>.addTooltip(format.red("对，必须是满充能的"));
 
-<contenttweaker:anadrominomicom>.addTooltip(format.red("用正确的嵌宝旗帜环绕斯塔科尼之书，紫色世界的亡灵使者知道该用什么"));
+<contenttweaker:anadrominomicom>.addTooltip(format.red("用正确的嵌宝旗帜环绕黑暗之书，紫色世界的亡灵使者知道该用什么"));
 
 <minecraft:experience_bottle>.addTooltip(format.red("巫术大师能轻易自动化这个"));
 

@@ -1838,7 +1838,7 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_third_shell>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "将斯克塔尼之书与以下嵌宝旗帜结合：嗜血、远古、暴风、机甲、纳德吉克、符文、召唤、虚空。"
+    "将黑暗之书与以下嵌宝旗帜结合：嗜血、远古、暴风、机甲、纳德吉克、符文、召唤、虚空。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_fourth_shell>,
@@ -2587,7 +2587,7 @@ mods.jei.JEI.addDescription([<contenttweaker:dimension_ids>],
     "地球（失落的城市）：111",
     "伽里弗雷：624",
     "RFTools维度：900（以及其后的连续数字）",
-    "Kashan: 190"
+    "卡尚：190"
 ]);
 
 

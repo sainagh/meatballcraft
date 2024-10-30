@@ -111,7 +111,7 @@ mods.jei.JEI.addDescription(<minecraft:diamond>,["发现于Y=0与Y=18之间。"]
 mods.jei.JEI.addDescription(<minecraft:diamond>,["生成于Y=16之下。" ]);
 mods.jei.JEI.addDescription(<minecraft:diamond>,["生成于Y=16之下。" ]);
 mods.jei.JEI.addDescription(<minecraft:dye:4>,["发现于Y=1与Y=28之间。"]);
-mods.jei.JEI.addDescription(<minecraft:emerald>,["仅可发现于山地群系，但村民好像有不少绿宝石！"]);
+mods.jei.JEI.addDescription(<minecraft:emerald>,["仅可发现于山地群系，但村族好像有不少绿宝石！"]);
 mods.jei.JEI.addDescription(<minecraft:flint>,["破坏沙砾获得，沙砾通常可在水边发现。" ]);
 mods.jei.JEI.addDescription(<minecraft:glowstone_dust>,["发现于下界天花板的底部"]);
 mods.jei.JEI.addDescription(<minecraft:gold_ingot>,["发现于Y=0与Y=35之间。"]);
