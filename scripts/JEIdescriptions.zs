@@ -3692,7 +3692,7 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_monumentallysentient
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "说真的！解谜很有意思的！下一页有额外提示！",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "孤寂界中有一些有趣的战利品，Zoi hides some interesting loot, a book knows the way! Combine the right Tributes to the Meatball Man with the right decorative blocks.",
+    "孤寂界中有一些有趣的战利品，有本书会告诉答案！将献给肉丸人的贡品与正确的装饰方块结合。",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
@@ -4132,7 +4132,7 @@ mods.jei.JEI.addDescription([
 mods.jei.JEI.addDescription([
     <modularrouters:item_router>],
 [
-    "模块化路由器可以进行物流操作（类似于AE2），适用于小规模、短距离的自动化。Modular Routers are blocks capable of performing logistics actions (similar to AE2) for small-scale, short-distance automations.",
+    "模块化路由器可以进行物流操作（类似于AE2），适用于小规模、短距离的自动化。",
     "",
     "路由器按照从左到右的循环顺序，根据模块放置区中的模块执行操作。模块可以执行简单的操作，如推拉方块，也可执行更复杂的操作，如破坏、放置或发射物品。",
     "",
