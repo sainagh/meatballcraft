@@ -1686,17 +1686,24 @@
 <botania:spreader:0>.addTooltip(format.red("Burst travels 12 blocks, or 3 seconds, before losing mana"));
 <botania:spreader:0>.addTooltip(format.red("Burst loses 4 mana/t"));
 
+<botania:spreader:1>.addTooltip(format.red("Only fire mana bursts when given a redstone pulse"));
 <botania:spreader:1>.addTooltip(format.red("Holds 1000 mana"));
-<botania:spreader:1>.addTooltip(format.red("Sends 240 mana per burst"));
-<botania:spreader:1>.addTooltip(format.red("Burst travels 5 blocks per second"));
-<botania:spreader:1>.addTooltip(format.red("Burst travels 20 blocks, or 4 seconds, before losing mana"));
+<botania:spreader:1>.addTooltip(format.red("Sends 160 mana per burst"));
+<botania:spreader:1>.addTooltip(format.red("Burst travels 4 blocks per second"));
+<botania:spreader:1>.addTooltip(format.red("Burst travels 12 blocks, or 3 seconds, before losing mana"));
 <botania:spreader:1>.addTooltip(format.red("Burst loses 4 mana/t"));
 
-<botania:spreader:1>.addTooltip(format.red("Holds 6400 mana"));
-<botania:spreader:1>.addTooltip(format.red("Sends 640 mana per burst"));
-<botania:spreader:1>.addTooltip(format.red("Burst travels 8 blocks per second"));
-<botania:spreader:1>.addTooltip(format.red("Burst travels 48 blocks, or 6 seconds, before losing mana"));
-<botania:spreader:1>.addTooltip(format.red("Burst loses 20 mana/t"));
+<botania:spreader:2>.addTooltip(format.red("Holds 1000 mana"));
+<botania:spreader:2>.addTooltip(format.red("Sends 240 mana per burst"));
+<botania:spreader:2>.addTooltip(format.red("Burst travels 5 blocks per second"));
+<botania:spreader:2>.addTooltip(format.red("Burst travels 20 blocks, or 4 seconds, before losing mana"));
+<botania:spreader:2>.addTooltip(format.red("Burst loses 4 mana/t"));
+
+<botania:spreader:3>.addTooltip(format.red("Holds 6400 mana"));
+<botania:spreader:3>.addTooltip(format.red("Sends 640 mana per burst"));
+<botania:spreader:3>.addTooltip(format.red("Burst travels 8 blocks per second"));
+<botania:spreader:3>.addTooltip(format.red("Burst travels 48 blocks, or 6 seconds, before losing mana"));
+<botania:spreader:3>.addTooltip(format.red("Burst loses 20 mana/t"));
 
 <gendustry:honey_comb:14023>.addTooltip(format.red("For the joy of Light and LordRaine"));
 
