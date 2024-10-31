@@ -1686,17 +1686,24 @@
 <botania:spreader:0>.addTooltip(format.red("脉冲在移动12格，或者3秒后，开始流失魔力"));
 <botania:spreader:0>.addTooltip(format.red("脉冲魔力流失速度为4/t"));
 
+<botania:spreader:1>.addTooltip(format.red("接收到红石信号时才会发出脉冲"));
 <botania:spreader:1>.addTooltip(format.red("可容纳1000魔力"));
-<botania:spreader:1>.addTooltip(format.red("每次脉冲发送240魔力"));
-<botania:spreader:1>.addTooltip(format.red("脉冲每秒移动5格"));
-<botania:spreader:1>.addTooltip(format.red("脉冲在移动20格，或者4秒后，开始流失魔力"));
+<botania:spreader:1>.addTooltip(format.red("每次脉冲发送160魔力"));
+<botania:spreader:1>.addTooltip(format.red("脉冲每秒移动4格"));
+<botania:spreader:1>.addTooltip(format.red("脉冲在移动12格，或者3秒后，开始流失魔力"));
 <botania:spreader:1>.addTooltip(format.red("脉冲魔力流失速度为4/t"));
 
-<botania:spreader:1>.addTooltip(format.red("可容纳6400魔力"));
-<botania:spreader:1>.addTooltip(format.red("每次脉冲发送640魔力"));
-<botania:spreader:1>.addTooltip(format.red("脉冲每秒移动8格"));
-<botania:spreader:1>.addTooltip(format.red("脉冲在移动48格，或者6秒后，开始流失魔力"));
-<botania:spreader:1>.addTooltip(format.red("脉冲魔力流失速度为20/t"));
+<botania:spreader:2>.addTooltip(format.red("可容纳1000魔力"));
+<botania:spreader:2>.addTooltip(format.red("每次脉冲发送240魔力"));
+<botania:spreader:2>.addTooltip(format.red("脉冲每秒移动5格"));
+<botania:spreader:2>.addTooltip(format.red("脉冲在移动20格，或者4秒后，开始流失魔力"));
+<botania:spreader:2>.addTooltip(format.red("脉冲魔力流失速度为4/t"));
+
+<botania:spreader:3>.addTooltip(format.red("可容纳6400魔力"));
+<botania:spreader:3>.addTooltip(format.red("每次脉冲发送640魔力"));
+<botania:spreader:3>.addTooltip(format.red("脉冲每秒移动8格"));
+<botania:spreader:3>.addTooltip(format.red("脉冲在移动48格，或者6秒后，开始流失魔力"));
+<botania:spreader:3>.addTooltip(format.red("脉冲魔力流失速度为20/t"));
 
 <gendustry:honey_comb:14023>.addTooltip(format.red("为了让Light和LordRaine高兴"));
 
