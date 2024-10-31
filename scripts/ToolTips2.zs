@@ -640,7 +640,7 @@ import crafttweaker.item.IItemCondition;
 
 <bigreactors:reactorcontrolrod>.addTooltip(format.red("放置在反应堆燃料棒柱顶部"));
 
-<ore:ingotTerrasteel>.addTooltip(format.red("使用泰拉钢凝聚板制作"));
+<ore:ingotTerrasteel>.addTooltip(format.red("使用泰拉凝聚板制作"));
  
 <enderio:item_alloy_endergy_ingot:2>.addTooltip(format.red("核电工艺和能量符文让它更容易制作了！"));
 
