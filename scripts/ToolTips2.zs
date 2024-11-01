@@ -659,7 +659,7 @@ import crafttweaker.item.IItemCondition;
 
 <techreborn:gem:3>.addTooltip(format.red("使用神秘宝石实现自动化"));
 
-<advancedrocketry:warpcore>.addTooltip(format.red("可以用不正确的钛块合成正确的钛块"));
+<advancedrocketry:warpcore>.addTooltip(format.red("可使用钛块通过合成获得所需的特殊钛 块"));
 
 <ore:aoaGarnet>.addTooltip(format.red("使用对应的神话虚空资源采掘机以稳定（缓慢）获得石榴石！"));
 <ore:aoaGarnet>.addTooltip(format.red("如果大量需要，使用ME神话装配室来批量合成！"));
