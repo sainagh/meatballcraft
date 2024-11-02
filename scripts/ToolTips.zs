@@ -685,9 +685,9 @@
 
 <contenttweaker:undead_botanist_callstone>.addTooltip(format.red("仅可在困难模式下合成"));
 
-<botania:teruterubozu>.addTooltip(format.red("使用向日葵右击来结束雨天!"));
+<botania:teruterubozu>.addTooltip(format.red("使用向日葵右击来结束雨天！"));
 
-<aoa3:skeletal_sword>.addTooltip(format.red("可施加超限附魔!"));
+<aoa3:skeletal_sword>.addTooltip(format.red("可施加超限附魔！"));
 
 <contenttweaker:terra_vis_condensate>.addTooltip(format.red("感谢NerdySpider绘制的要素聚合物纹理！"));
 <contenttweaker:ignis_vis_condensate>.addTooltip(format.red("感谢NerdySpider绘制的要素聚合物纹理！"));

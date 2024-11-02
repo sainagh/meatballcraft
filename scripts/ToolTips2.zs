@@ -3310,7 +3310,7 @@ import crafttweaker.item.IItemCondition;
 
 <advancedrocketry:rollingmachine>.addTooltip(format.red("该机器已禁用！"));
 
-<contenttweaker:dense_redstone>.addTooltip(format.red("感谢EchoEclipse绘制的纹理!"));
+<contenttweaker:dense_redstone>.addTooltip(format.red("感谢EchoEclipse绘制的纹理！"));
 
 <bloodmagic:altar>.addTooltip(format.red("阅读JEI信息框以了解获取LP的各种手段"));
 

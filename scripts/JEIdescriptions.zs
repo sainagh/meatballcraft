@@ -3243,7 +3243,7 @@ mods.jei.JEI.addDescription([
 [
     "该祭坛是多方块结构的一部分。",
     "",
-    "使用六分仪右击查看多方块预览！Right click with a sextant to see a multiblock preview!",
+    "使用六分仪右击查看多方块预览！",
     "",
     "副手手持星图看向建造完成的共鸣祭坛结构，特定的方块上会有粒子效果。",
     "",
@@ -4188,21 +4188,21 @@ mods.jei.JEI.addDescription([
 mods.jei.JEI.addDescription([
     <contenttweaker:fission_automation>],
 [
-    "Being able to have a steady passive supply of fission isotopes will be very important!",
+    "能够稳定地被动产出裂变同位素十分重要！",
     "",
-    "You want to have an indvidual fission reactor for each fuel processing step! The quests in energy sources will list all required fission steps!",
+    "你需要为每步燃料加工配备单独的裂变反应堆！能量源章节中的任务列出了所有需要的裂变步骤！",
     "",
-    "As long as the setup is passively running, speed won't be a concern (till later)! The 5x5x5 previews provided for each fuel should be enough! For some fuels (not all), checkerboard cryotheum lattices work too!",
+    "只要能够被动运行，速度就不是问题（之后另说）！每种燃料提供的5x5x5的多方块预览就够了！对于某些燃料（并非全部），也可使用棋盘状的凛冰冷却思路！",
     "",
-    "For each step, it's good to split the output isotopes between a buffer for recipes, and the subsequent step in the fission chain. Compacting Drawers will be very helpful for some steps!",
+    "对于每步处理，最好将输出的同位素分为两种，用于合成配方的缓存，以及用于后续裂变步骤的原料。压缩抽屉对某些步骤很有帮助！",
     "",
-    "In late chapter 5 you will unlock the Two-Phase Reactor, you eventually want to replace the slower fission steps for faster processing with this new multiblock! You'll need that for late game!"
+    "在第5章后期，将解锁两相裂变堆，用这个新的多方块来取代之前速度较慢的裂变堆，以加快处理速度！游戏后期会需要它的！"
 ]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:draconic_upgrades_locations>],
 [
-    "All Draconic Upgrades can be found in the warper planes!",
+    "所有的龙之进化模组升级可发现于以下跃迁器位面！",
     "",
     "移动速度 - 地盘界",
     "攻击伤害 - 地盘界",
