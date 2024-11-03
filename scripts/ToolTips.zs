@@ -1050,8 +1050,8 @@
 <bloodmagic:sanguine_book>.addTooltip(format.red("右击改变祭坛等级"));
 <bloodmagic:sanguine_book>.addTooltip(format.red("6级祭坛情况下，不会提示缺失方块名称，所缺失方块为晶簇块"));
 
-<contenttweaker:first_recursive_lock>.addTooltip(format.red("感觉Foucs添加的递归锁纹理！"));
-<contenttweaker:fifth_recursive_lock>.addTooltip(format.red("感觉Foucs添加的递归锁纹理！"));
+<contenttweaker:first_recursive_lock>.addTooltip(format.red("感谢Foucs添加的递归锁纹理！"));
+<contenttweaker:fifth_recursive_lock>.addTooltip(format.red("感谢Foucs添加的递归锁纹理！"));
 
 <contenttweaker:lelyetian_artifact>.addTooltip(format.red("感谢Gebcrafter绘制的神器和界石纹理！"));
 <aoa3:lelyetia_realmstone>.addTooltip(format.red("感谢Gebcrafter绘制的神器和界石纹理！"));
