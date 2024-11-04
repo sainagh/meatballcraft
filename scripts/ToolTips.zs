@@ -675,7 +675,7 @@
 
 <contenttweaker:warlord_callstone>.addTooltip(format.red("警告：会产生大量水能宝石！"));
 
-<contenttweaker:whitefire_callstone>.addTooltip(format.red("警告：不要再渲染范围内放置多于一个结构！会出bug！"));
+<contenttweaker:whitefire_callstone>.addTooltip(format.red("警告：不要在渲染范围内放置多于一个结构！会出bug！"));
 
 <contenttweaker:eldritch_metal_plate>.addTooltip(format.red("通过邪术爪牙召唤石获得"));
 <contenttweaker:eldritch_metal_plate>.addTooltip(format.red("困难模式掉落：Crimson Warfare模组中荒古祭坛生成的邪术构装体"));

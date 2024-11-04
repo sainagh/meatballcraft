@@ -3189,7 +3189,7 @@ import crafttweaker.item.IItemCondition;
 
 <twilightforest:seeker_bow>.addTooltip(format.red("暮色森林的冰雪女王掉落"));
 
-<ore:bed>.addTooltip(format.red("警告：不要再虚空维度中使用"));
+<ore:bed>.addTooltip(format.red("警告：不要在虚空维度中使用"));
 
 
 <contenttweaker:furnace_heart>.addTooltip(format.red("发现于熔炉维度"));
