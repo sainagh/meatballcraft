@@ -2586,7 +2586,7 @@ import crafttweaker.item.IItemCondition;
 <bloodmagic:blood_rune:4>.addTooltip(format.red("增加使用牺牲匕首时获得的LP量"));
 <bloodmagic:blood_rune:6>.addTooltip(format.red("每个符文为血之祭坛增加2000点的LP容量上限，超容符文数量大于等于16时，增加的容量多于增容符文"));
 <bloodmagic:blood_rune:5>.addTooltip(format.red("提升祭坛的LP传输速度"));
-<bloodmagic:blood_rune:10>.addTooltip(format.red("改变祭坛机制：消耗LC积攒充能，可用来立即完成合成"));
+<bloodmagic:blood_rune:10>.addTooltip(format.red("改变祭坛机制：消耗LP积攒充能，可用来立即完成合成"));
 <bloodmagic:blood_rune:8>.addTooltip(format.red("增加LP网络的容量"));
 
 <divinerpg:divine_shickaxe>.addTooltip(format.red("感谢Lulu为武器添加的剧情！"));
