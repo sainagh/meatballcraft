@@ -7,7 +7,7 @@ mods.initialinventory.InvHandler.addStartingItem(<minecraft:paper>.withTag({disp
 mods.initialinventory.InvHandler.addStartingItem(<minecraft:paper>.withTag({display: {Name: "最初的生存会很艰难，小心点！"}}));
 mods.initialinventory.InvHandler.addStartingItem(<minecraft:paper>.withTag({display: {Name: "可使用物品栏界面左上角的按钮进行区块声明和加载"}}));
 mods.initialinventory.InvHandler.addStartingItem(<minecraft:paper>.withTag({display: {Name: "物品栏界面左上角有垃圾桶"}}));
-mods.initialinventory.InvHandler.addStartingItem(<minecraft:paper>.withTag({display: {Name: "We do a lil trolling ;) Enjoy the books!"}}));
+mods.initialinventory.InvHandler.addStartingItem(<minecraft:paper>.withTag({display: {Name: "故意捣了点蛋 ;) 享受这坨书吧！"}}));
 
 mods.initialinventory.InvHandler.addStartingItem(<thebetweenlands:manual_hl>.withTag({}));
 mods.initialinventory.InvHandler.addStartingItem(<patchouli:guide_book>.withTag({"patchouli:book": "bigreactors:erguide"}));

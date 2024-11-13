@@ -640,7 +640,7 @@ import crafttweaker.item.IItemCondition;
 
 <bigreactors:reactorcontrolrod>.addTooltip(format.red("放置在反应堆燃料棒柱顶部"));
 
-<ore:ingotTerrasteel>.addTooltip(format.red("使用泰拉钢凝聚板制作"));
+<ore:ingotTerrasteel>.addTooltip(format.red("使用泰拉凝聚板制作"));
  
 <enderio:item_alloy_endergy_ingot:2>.addTooltip(format.red("核电工艺和能量符文让它更容易制作了！"));
 
@@ -659,7 +659,7 @@ import crafttweaker.item.IItemCondition;
 
 <techreborn:gem:3>.addTooltip(format.red("使用神秘宝石实现自动化"));
 
-<advancedrocketry:warpcore>.addTooltip(format.red("可以用不正确的钛块合成正确的钛块"));
+<advancedrocketry:warpcore>.addTooltip(format.red("可使用钛块通过合成获得所需的特殊钛 块"));
 
 <ore:aoaGarnet>.addTooltip(format.red("使用对应的神话虚空资源采掘机以稳定（缓慢）获得石榴石！"));
 <ore:aoaGarnet>.addTooltip(format.red("如果大量需要，使用ME神话装配室来批量合成！"));
@@ -909,7 +909,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:skotaninomicom>.addTooltip(format.red("对，必须是满充能的"));
 
-<contenttweaker:anadrominomicom>.addTooltip(format.red("用正确的嵌宝旗帜环绕斯塔科尼之书，紫色世界的亡灵使者知道该用什么"));
+<contenttweaker:anadrominomicom>.addTooltip(format.red("用正确的嵌宝旗帜环绕黑暗之书，紫色世界的亡灵使者知道该用什么"));
 
 <minecraft:experience_bottle>.addTooltip(format.red("巫术大师能轻易自动化这个"));
 
@@ -2586,7 +2586,7 @@ import crafttweaker.item.IItemCondition;
 <bloodmagic:blood_rune:4>.addTooltip(format.red("增加使用牺牲匕首时获得的LP量"));
 <bloodmagic:blood_rune:6>.addTooltip(format.red("每个符文为血之祭坛增加2000点的LP容量上限，超容符文数量大于等于16时，增加的容量多于增容符文"));
 <bloodmagic:blood_rune:5>.addTooltip(format.red("提升祭坛的LP传输速度"));
-<bloodmagic:blood_rune:10>.addTooltip(format.red("改变祭坛机制：消耗LC积攒充能，可用来立即完成合成"));
+<bloodmagic:blood_rune:10>.addTooltip(format.red("改变祭坛机制：消耗LP积攒充能，可用来立即完成合成"));
 <bloodmagic:blood_rune:8>.addTooltip(format.red("增加LP网络的容量"));
 
 <divinerpg:divine_shickaxe>.addTooltip(format.red("感谢Lulu为武器添加的剧情！"));
@@ -3189,7 +3189,7 @@ import crafttweaker.item.IItemCondition;
 
 <twilightforest:seeker_bow>.addTooltip(format.red("暮色森林的冰雪女王掉落"));
 
-<ore:bed>.addTooltip(format.red("警告：不要再虚空维度中使用"));
+<ore:bed>.addTooltip(format.red("警告：不要在虚空维度中使用"));
 
 
 <contenttweaker:furnace_heart>.addTooltip(format.red("发现于熔炉维度"));
@@ -3310,7 +3310,7 @@ import crafttweaker.item.IItemCondition;
 
 <advancedrocketry:rollingmachine>.addTooltip(format.red("该机器已禁用！"));
 
-<contenttweaker:dense_redstone>.addTooltip(format.red("感谢EchoEclipse绘制的纹理!"));
+<contenttweaker:dense_redstone>.addTooltip(format.red("感谢EchoEclipse绘制的纹理！"));
 
 <bloodmagic:altar>.addTooltip(format.red("阅读JEI信息框以了解获取LP的各种手段"));
 

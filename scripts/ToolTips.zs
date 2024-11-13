@@ -675,7 +675,7 @@
 
 <contenttweaker:warlord_callstone>.addTooltip(format.red("警告：会产生大量水能宝石！"));
 
-<contenttweaker:whitefire_callstone>.addTooltip(format.red("警告：不要再渲染范围内放置多于一个结构！会出bug！"));
+<contenttweaker:whitefire_callstone>.addTooltip(format.red("警告：不要在渲染范围内放置多于一个结构！会出bug！"));
 
 <contenttweaker:eldritch_metal_plate>.addTooltip(format.red("通过邪术爪牙召唤石获得"));
 <contenttweaker:eldritch_metal_plate>.addTooltip(format.red("困难模式掉落：Crimson Warfare模组中荒古祭坛生成的邪术构装体"));
@@ -685,9 +685,9 @@
 
 <contenttweaker:undead_botanist_callstone>.addTooltip(format.red("仅可在困难模式下合成"));
 
-<botania:teruterubozu>.addTooltip(format.red("使用向日葵右击来结束雨天!"));
+<botania:teruterubozu>.addTooltip(format.red("使用向日葵右击来结束雨天！"));
 
-<aoa3:skeletal_sword>.addTooltip(format.red("可施加超限附魔!"));
+<aoa3:skeletal_sword>.addTooltip(format.red("可施加超限附魔！"));
 
 <contenttweaker:terra_vis_condensate>.addTooltip(format.red("感谢NerdySpider绘制的要素聚合物纹理！"));
 <contenttweaker:ignis_vis_condensate>.addTooltip(format.red("感谢NerdySpider绘制的要素聚合物纹理！"));
@@ -1050,8 +1050,8 @@
 <bloodmagic:sanguine_book>.addTooltip(format.red("右击改变祭坛等级"));
 <bloodmagic:sanguine_book>.addTooltip(format.red("6级祭坛情况下，不会提示缺失方块名称，所缺失方块为晶簇块"));
 
-<contenttweaker:first_recursive_lock>.addTooltip(format.red("感觉Foucs添加的递归锁纹理！"));
-<contenttweaker:fifth_recursive_lock>.addTooltip(format.red("感觉Foucs添加的递归锁纹理！"));
+<contenttweaker:first_recursive_lock>.addTooltip(format.red("感谢Foucs添加的递归锁纹理！"));
+<contenttweaker:fifth_recursive_lock>.addTooltip(format.red("感谢Foucs添加的递归锁纹理！"));
 
 <contenttweaker:lelyetian_artifact>.addTooltip(format.red("感谢Gebcrafter绘制的神器和界石纹理！"));
 <aoa3:lelyetia_realmstone>.addTooltip(format.red("感谢Gebcrafter绘制的神器和界石纹理！"));
@@ -1686,17 +1686,24 @@
 <botania:spreader:0>.addTooltip(format.red("脉冲在移动12格，或者3秒后，开始流失魔力"));
 <botania:spreader:0>.addTooltip(format.red("脉冲魔力流失速度为4/t"));
 
+<botania:spreader:1>.addTooltip(format.red("接收到红石信号时才会发出脉冲"));
 <botania:spreader:1>.addTooltip(format.red("可容纳1000魔力"));
-<botania:spreader:1>.addTooltip(format.red("每次脉冲发送240魔力"));
-<botania:spreader:1>.addTooltip(format.red("脉冲每秒移动5格"));
-<botania:spreader:1>.addTooltip(format.red("脉冲在移动20格，或者4秒后，开始流失魔力"));
+<botania:spreader:1>.addTooltip(format.red("每次脉冲发送160魔力"));
+<botania:spreader:1>.addTooltip(format.red("脉冲每秒移动4格"));
+<botania:spreader:1>.addTooltip(format.red("脉冲在移动12格，或者3秒后，开始流失魔力"));
 <botania:spreader:1>.addTooltip(format.red("脉冲魔力流失速度为4/t"));
 
-<botania:spreader:1>.addTooltip(format.red("可容纳6400魔力"));
-<botania:spreader:1>.addTooltip(format.red("每次脉冲发送640魔力"));
-<botania:spreader:1>.addTooltip(format.red("脉冲每秒移动8格"));
-<botania:spreader:1>.addTooltip(format.red("脉冲在移动48格，或者6秒后，开始流失魔力"));
-<botania:spreader:1>.addTooltip(format.red("脉冲魔力流失速度为20/t"));
+<botania:spreader:2>.addTooltip(format.red("可容纳1000魔力"));
+<botania:spreader:2>.addTooltip(format.red("每次脉冲发送240魔力"));
+<botania:spreader:2>.addTooltip(format.red("脉冲每秒移动5格"));
+<botania:spreader:2>.addTooltip(format.red("脉冲在移动20格，或者4秒后，开始流失魔力"));
+<botania:spreader:2>.addTooltip(format.red("脉冲魔力流失速度为4/t"));
+
+<botania:spreader:3>.addTooltip(format.red("可容纳6400魔力"));
+<botania:spreader:3>.addTooltip(format.red("每次脉冲发送640魔力"));
+<botania:spreader:3>.addTooltip(format.red("脉冲每秒移动8格"));
+<botania:spreader:3>.addTooltip(format.red("脉冲在移动48格，或者6秒后，开始流失魔力"));
+<botania:spreader:3>.addTooltip(format.red("脉冲魔力流失速度为20/t"));
 
 <gendustry:honey_comb:14023>.addTooltip(format.red("为了让Light和LordRaine高兴"));
 

@@ -6,7 +6,7 @@ import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
-var terrestrialagglomerationJEI as IJeiPanel = JEI.createJei("terrestrial_agglomeration", "泰拉钢凝聚");
+var terrestrialagglomerationJEI as IJeiPanel = JEI.createJei("terrestrial_agglomeration", "泰拉凝聚");
 terrestrialagglomerationJEI.setModid("Botania");
 terrestrialagglomerationJEI.setIcon(<botania:terraplate>);
 terrestrialagglomerationJEI.addRecipeCatalyst(<botania:terraplate>);
