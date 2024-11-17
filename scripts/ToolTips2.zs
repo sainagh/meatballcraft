@@ -3194,7 +3194,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:furnace_heart>.addTooltip(format.red("发现于熔炉维度"));
 
-<contenttweaker:living_myrmitite_ingot>.addTooltip(format.red("将恐蚁金属和正确的强化手册结合，远古维度将指引你"));
+<contenttweaker:living_myrmitite_ingot>.addTooltip(format.red("将恐蚁金属和正确的强化手册结合，传说维度将指引你"));
 
 <cyclicmagic:glowing_helmet>.addTooltip(format.red("发现于战斗高塔"));
 
