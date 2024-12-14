@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.recipes.IRecipeFunction;
 
 recipes.removeShaped(<rftools:builder>);
 
@@ -211,19 +212,22 @@ recipes.addShapeless(<rftools:storage_module_tablet:1>, [<rftools:storage_module
     return out.withTag(ins.module.tag).withDamage(0).updateTag({
         childDamage: ins.module.damage
     });
-});
+} as IRecipeFunction, null);
+
 recipes.addShapeless(<rftools:storage_module_tablet:1>, [<rftools:storage_module_tablet:0>, <rftools:storage_module:2>.marked("module")] as IIngredient[], function(out, ins, cInfo) {
     return out.withTag(ins.module.tag).withDamage(0).updateTag({
         childDamage: ins.module.damage
     });
-});
-recipes.addShapeless(<rftools:storage_module_tablet:1>, [<rftools:storage_module_tablet:0>, <rftools:storage_module:6>.marked("module")]as IIngredient[], function(out, ins, cInfo) {
+} as IRecipeFunction, null);
+
+recipes.addShapeless(<rftools:storage_module_tablet:1>, [<rftools:storage_module_tablet:0>, <rftools:storage_module:6>.marked("module")] as IIngredient[], function(out, ins, cInfo) {
     return out.withTag(ins.module.tag).withDamage(0).updateTag({
         childDamage: ins.module.damage
     });
-});
-recipes.addShapeless(<rftools:storage_module_tablet:2>, [<rftools:storage_module_tablet:0>, <rftools:storage_control_module>.marked("module")]as IIngredient[], function(out, ins, cInfo) {
+} as IRecipeFunction, null);
+
+recipes.addShapeless(<rftools:storage_module_tablet:2>, [<rftools:storage_module_tablet:0>, <rftools:storage_control_module>.marked("module")] as IIngredient[], function(out, ins, cInfo) {
     return out.withTag(ins.module.tag).withDamage(0).updateTag({
         childDamage: 666
     });
-});
+} as IRecipeFunction, null);
