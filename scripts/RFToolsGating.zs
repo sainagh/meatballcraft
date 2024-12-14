@@ -196,12 +196,16 @@ recipes.addShaped(<rftools:machine_frame>*3,
 [<ore:ingotYellorium>, null, <ore:ingotYellorium>],
 [<ore:ingotAlubrass>, <ore:ingotManasteel>, <ore:ingotAlubrass>]]);
 
-
 recipes.removeShaped(<rftools:storage_module_tablet>);
 
-mods.extendedcrafting.TableCrafting.addShaped(<rftools:storage_module_tablet>, 
-[[<projecte:fuel_block:2>, <projecte:fuel_block:2>, null, <projecte:fuel_block:2>, <projecte:fuel_block:2>], 
-[<projecte:fuel_block:2>, <contenttweaker:nebulous_soul>, <appliedenergistics2:fluix_block>, <contenttweaker:nebulous_soul>, <projecte:fuel_block:2>], 
-[null, <appliedenergistics2:fluix_block>, <projecte:alchemical_chest>, <appliedenergistics2:fluix_block>, null], 
-[<projecte:fuel_block:2>, <contenttweaker:nebulous_soul>, <appliedenergistics2:fluix_block>, <contenttweaker:nebulous_soul>, <projecte:fuel_block:2>], 
-[<projecte:fuel_block:2>, <projecte:fuel_block:2>, null, <projecte:fuel_block:2>, <projecte:fuel_block:2>]]);  
+mods.extendedcrafting.TableCrafting.addShaped(<rftools:storage_module_tablet>,
+[[<projecte:fuel_block:2>, <projecte:fuel_block:2>, null, <projecte:fuel_block:2>, <projecte:fuel_block:2>],
+[<projecte:fuel_block:2>, <contenttweaker:nebulous_soul>, <appliedenergistics2:fluix_block>, <contenttweaker:nebulous_soul>, <projecte:fuel_block:2>],
+[null, <appliedenergistics2:fluix_block>, <projecte:alchemical_chest>, <appliedenergistics2:fluix_block>, null],
+[<projecte:fuel_block:2>, <contenttweaker:nebulous_soul>, <appliedenergistics2:fluix_block>, <contenttweaker:nebulous_soul>, <projecte:fuel_block:2>],
+[<projecte:fuel_block:2>, <projecte:fuel_block:2>, null, <projecte:fuel_block:2>, <projecte:fuel_block:2>]]);
+
+recipes.addShapeless(<rftools:storage_module_tablet:1>, [<rftools:storage_module_tablet:0>, <rftools:storage_module:1>]);
+recipes.addShapeless(<rftools:storage_module_tablet:1>, [<rftools:storage_module_tablet:0>, <rftools:storage_module:2>]);
+recipes.addShapeless(<rftools:storage_module_tablet:1>, [<rftools:storage_module_tablet:0>, <rftools:storage_module:6>]);
+recipes.addShapeless(<rftools:storage_module_tablet:2>, [<rftools:storage_module_tablet:0>, <rftools:storage_control_module>]);
