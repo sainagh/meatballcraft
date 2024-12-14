@@ -1,3 +1,5 @@
+import crafttweaker.item.IIngredient;
+
 recipes.removeShaped(<rftools:builder>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<rftools:builder>, 
