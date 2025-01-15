@@ -1911,7 +1911,7 @@
 
 <modularmachinery:quantum_condenser_controller>.addTooltip(format.red("Thanks to Mathias for the controller resetting recipes!"));
 
-<minecraft:hopper_minecart>.addTooltip(format.red("WARNING: may delete items, aboid using"));
+<minecraft:hopper_minecart>.addTooltip(format.red("WARNING: may delete items, avoid using"));
 
 <thaumadditions:adaminite_ingot>.addTooltip(format.red("PackagedAuto in Processing mode can be used for the Arcane Autoinfuser"));
 <thaumadditions:mithminite_ingot>.addTooltip(format.red("PackagedAuto in Processing mode can be used for the Arcane Autoinfuser"));
