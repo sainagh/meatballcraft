@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oComplete all rooms in immortallis.",
+      "desc:8": "§7§oComplete all rooms in immortallis.\n\n§fDelving deeper into the fortress of the Immortal Fractallites, at least one reassuring thing is certain.\nThey cannot do anything about my own immortality and recursion. \nThe powers of the Immortals have different rules from the Old Ones\u0027. The recursion prison that entrapped me is not something than can be easily broken, if at all. Once given, it cannot be taken back, or it would not really be a prison, wouldn\u0027t it? The gift to the favored by the Shyre Empire was, as a matter of fact, a gift, which could, and was, many times, rudely taken back.\nAnd yet, I myself was able to partially wiggle my way out of my own prison, which none of the my enemies were able to do. To be fair, though, I do not think any of my enemies really wanted to give up their immortality.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:immortallis_cap"

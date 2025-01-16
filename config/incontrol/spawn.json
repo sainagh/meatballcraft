@@ -1240,15 +1240,11 @@
         "aoa3:nethengeic_wither",
         "thebetweenlands:chiromaw",
         "thebetweenlands:large_sludge_worm"],
-        "onjoin": true,
-        "result": "allow",
-        "potion": ["minecraft:strength,999999,3",
-        "minecraft:regeneration,60,255", 
-        "minecraft:health_boost,999999,30", 
-        "minecraft:absorption,999999,2", 
-        "minecraft:fire_resistance,999999,1",
-        "bewitchment:magic_resistance,999999,1",
-        "minecraft:regeneration,999999,1"]
+    "onjoin": true,
+    "result": "allow",
+    "healthmultiply": 2.0,
+    "damagemultiply": 3.0,
+    "speedmultiply": 1.0
   },
 
 
@@ -1273,14 +1269,13 @@
       "bewitchment:demon",
       "bewitchment:demoness",
       "bewitchment:imp"],
-    "onjoin": true,
-    "result": "allow",
-    "potion": ["minecraft:strength,999999,1",
-      "minecraft:regeneration,250,255", 
-      "minecraft:health_boost,999999,100", 
-      "minecraft:fire_resistance,999999,1",
-      "bewitchment:magic_resistance,999999,1",
-      "minecraft:regeneration,999999,1"]
+      "onjoin": true,
+      "result": "allow",
+      "healthmultiply": 2.0,
+      "damagemultiply": 3.0,
+      "speedmultiply": 1.0,
+      "potion": ["minecraft:fire_resistance,999999,1",
+        "bewitchment:magic_resistance,999999,1"]
   },
 
 
@@ -1292,7 +1287,6 @@
       "aoa3:creep",
       "aoa3:crystocore",
       "aoa3:tyrosaur",
-      "aoa3:flash",
       "abyssalcraft:shadowboss",
       "aoa3:goldorth",
       "aoa3:yellow_guardian",
@@ -1307,14 +1301,30 @@
       "aoa3:shadowlord",
       "aoa3:vinocorne",
       "aoa3:voxxulon"],
-    "onjoin": true,
-    "result": "allow",
-    "potion": ["minecraft:strength,999999,1",
-      "minecraft:regeneration,50,255", 
-      "minecraft:health_boost,999999,250", 
-      "minecraft:fire_resistance,999999,1",
-      "bewitchment:magic_resistance,999999,1",
-      "minecraft:regeneration,999999,1"]
+      "onjoin": true,
+      "result": "allow",
+      "healthmultiply": 2.0,
+      "damagemultiply": 4.0,
+      "speedmultiply": 1.0,
+      "potion": ["minecraft:fire_resistance,999999,1",
+        "bewitchment:magic_resistance,999999,1"]
+  },
+
+
+
+  {
+    "mob": [
+      "aoa3:klobber",
+      "aoa3:flash",
+      "aoa3:proshield",
+      "aoa3:mirage"],
+      "onjoin": true,
+      "result": "allow",
+      "healthmultiply": 10.0,
+      "damagemultiply": 20.0,
+      "speedmultiply": 1.0,
+      "potion": ["minecraft:fire_resistance,999999,1",
+        "bewitchment:magic_resistance,999999,1"]
   },
 
 
@@ -1335,18 +1345,14 @@
       "aoa3:reaver",
       "aoa3:urioh",
       "aoa3:skeledon",
-      "aoa3:mirage",
-      "aoa3:miskel",
-      "aoa3:klobber",
-      "aoa3:proshield"],
-    "onjoin": true,
-    "result": "allow",
-    "healthmultiply": 5,
-    "speedmultiply": 1,
-    "potion": ["minecraft:strength,999999,20", 
-      "minecraft:fire_resistance,999999,1",
-      "bewitchment:magic_resistance,999999,1",
-      "minecraft:regeneration,999999,2"]
+      "aoa3:miskel"],
+      "onjoin": true,
+      "result": "allow",
+      "healthmultiply": 5.0,
+      "damagemultiply": 20.0,
+      "speedmultiply": 1.0,
+      "potion": ["minecraft:fire_resistance,999999,1",
+        "bewitchment:magic_resistance,999999,1"]
   },
 
 
@@ -1355,9 +1361,11 @@
     "mob": ["aoa3:xxeus"],
     "onjoin": true,
     "result": "allow",
-    "healthmultiply": 5,
-    "damagemultiply": 180,
-    "speedmultiply": 1
+    "healthmultiply": 15.0,
+    "damagemultiply": 180.0,
+    "speedmultiply": 1.0,
+    "potion": ["minecraft:fire_resistance,999999,1",
+      "bewitchment:magic_resistance,999999,1"]
   },
 
 
@@ -1370,11 +1378,28 @@
       "thaumcraft:cultistknight",
       "thaumcraft:cultistleader",
       "thaumcraft:cultistcleric"],
+      "onjoin": true,
+      "result": "allow",
+      "healthmultiply": 2.0,
+      "damagemultiply": 2.0,
+      "speedmultiply": 1.0,
+      "potion": ["minecraft:fire_resistance,999999,1",
+        "bewitchment:magic_resistance,999999,1"]
+  },
+
+
+
+  {
+    "mob": ["minecraft:zombie",
+      "minecraft:skeleton"],
+    "dimension": 111,
     "onjoin": true,
     "result": "allow",
-    "speedmultiply": 1,
-    "potion": ["minecraft:strength,999999,2", 
-    "bewitchment:magic_resistance,999999,2"]
+    "healthmultiply": 500.0,
+    "damagemultiply": 200.0,
+    "speedmultiply": 1.0,
+    "potion": ["minecraft:fire_resistance,999999,1",
+        "bewitchment:magic_resistance,999999,1"]
   },
 
 
@@ -1550,7 +1575,7 @@
     "mob": "divinerpg:rainbour",
     "dimension": 0,
     "maxcount": {
-      "amount": 10,
+      "amount": 7,
       "mob": "divinerpg:rainbour",
       "perplayer": true
     },

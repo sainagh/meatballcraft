@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Your first fission fuel! TSLEU-235 is also a thing! Same output, better power!\n\nThe uranium found on Terra seems to behave the same as Earth, time to split some isotopes!",
+      "desc:8": "§7§oYour first fission fuel! TSLEU-235 is also a thing! Same output, better power!\n\n§fThe uranium found on Terra seems to behave the same as Earth, time to split some isotopes!",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
@@ -25,6 +25,16 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:tsleu_235_fuel"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

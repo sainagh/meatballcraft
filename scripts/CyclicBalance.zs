@@ -48,3 +48,19 @@ recipes.remove(<cyclicmagic:auto_crafter>);
 
 recipes.remove(<cyclicmagic:fluid_drain>);
 
+recipes.remove(<cyclicmagic:melter>);
+
+mods.nuclearcraft.melter.addRecipe([<cyclicmagic:peat_biomass>, <fluid:biomass>*1000]);
+mods.nuclearcraft.melter.addRecipe([<minecraft:waterlily>, <fluid:biomass>*100]);
+mods.nuclearcraft.melter.addRecipe([<minecraft:carrot>, <fluid:biomass>*100]);
+mods.nuclearcraft.melter.addRecipe([<minecraft:vine>, <fluid:biomass>*100]);
+mods.nuclearcraft.melter.addRecipe([<minecraft:cactus>, <fluid:biomass>*100]);
+mods.nuclearcraft.melter.addRecipe([<minecraft:tallgrass>, <fluid:biomass>*100]);
+mods.nuclearcraft.melter.addRecipe([<minecraft:wheat_seeds>, <fluid:biomass>*100]);
+mods.nuclearcraft.melter.addRecipe([<minecraft:apple>, <fluid:biomass>*100]);
+
+mods.nuclearcraft.melter.addRecipe([<minecraft:log2:0>, <fluid:amber>*100]);
+mods.nuclearcraft.melter.addRecipe([<cyclicmagic:crystallized_amber>, <fluid:amber>*1000]);
+
+mods.nuclearcraft.melter.addRecipe([<minecraft:poisonous_potato>, <fluid:poison>*2000]);
+

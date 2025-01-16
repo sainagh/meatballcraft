@@ -51,6 +51,10 @@
         "0:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:draconic_energy_ball"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:energy_management_tipsandtricks"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -1,0 +1,79 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.data.IData;
+
+
+recipes.addShaped(<contenttweaker:klein_charger>,
+[[<contenttweaker:champion_token>, <contenttweaker:alchemical_crystal>, <contenttweaker:champion_token>],
+[<contenttweaker:alchemical_crystal>, <contenttweaker:deep_dark_matter>, <contenttweaker:alchemical_crystal>],
+[<contenttweaker:champion_token>, <contenttweaker:alchemical_crystal>, <contenttweaker:champion_token>]]);
+
+
+function addKleinStarCharging(matterName as string, matterInput as IItemStack, matterEMC as long, starName as string, starFill as IItemStack, starMaxEMC as long) {
+    val recipe_name = matterName + "_" + starName;
+    recipes.addShapeless(
+        recipe_name,starFill,
+        [(starFill.marked("mark").transformNew(function(item) { return item.withTag(item.tag); })).noReturn(), 
+        matterInput,
+        <contenttweaker:klein_charger>.reuse()],
+        function(out,ins,cInfo){
+		    var oldEMC = ins.mark.tag.StoredEMC as long;
+            var newEMC = oldEMC + matterEMC;
+            if (newEMC > starMaxEMC) {
+                newEMC = starMaxEMC;
+            }
+            var updatedTag as IData = {
+                StoredEMC: newEMC
+			};
+		    return ins.mark.withTag(updatedTag);
+        },
+        null
+        );
+
+}
+
+
+
+
+function primeKleinStarNBT(starName as string, starFill as IItemStack) {
+    val recipe_name = "primeNBT_" + starName;
+    recipes.addShapeless(
+        recipe_name,starFill,
+        [(starFill.marked("mark").transformNew(function(item) { return item.withTag(item.tag); })).noReturn(), 
+        <minecraft:cobblestone>,
+        <contenttweaker:klein_charger>.reuse()],
+        function(out,ins,cInfo){
+            var updatedTag as IData = {
+                StoredEMC: 1 as long
+			};
+		    return ins.mark.withTag(updatedTag);
+        },
+        null
+        );
+
+}
+
+
+
+
+val matter_name = ["dark", "red", "magenta", "pink", "purple", "violet", "blue", "cyan", "green", "lime", "yellow", "orange", "white", "fading"] as string[];
+val matter_stack = [<projecte:item.pe_matter:0>, <projecte:item.pe_matter:1>, <projectex:matter:0>, <projectex:matter:1>, <projectex:matter:2>, <projectex:matter:3>, <projectex:matter:4>, <projectex:matter:5>, <projectex:matter:6>, <projectex:matter:7>, <projectex:matter:8>, <projectex:matter:9>, <projectex:matter:10>, <projectex:matter:11>] as IItemStack[];
+val matter_EMC = [139264, 466944, 1449984, 4399104, 13246464, 39788544, 119414784, 358293504, 1074929664, 3224838144, 9674563584, 29023739904, 87071268864, 261213855744] as long[];
+
+val star_name = ["klein_ein", "klein_zwei", "klein_drei", "klein_vier", "klein_sphere", "klein_omega", "magnum_ein", "magnum_zwei", "magnum_drei", "magnum_vier", "magnum_sphere", "magnum_omega", "kolossal_ein", "kolossal_zwei", "kolossal_drei", "kolossal_vier", "kolossal_sphere", "kolossal_omega"] as string[];
+val star_stack = [<projecte:item.pe_klein_star:0>, <projecte:item.pe_klein_star:1>, <projecte:item.pe_klein_star:2>, <projecte:item.pe_klein_star:3>, <projecte:item.pe_klein_star:4>, <projecte:item.pe_klein_star:5>, <projectex:magnum_star_ein>, <projectex:magnum_star_zwei>, <projectex:magnum_star_drei>, <projectex:magnum_star_vier>, <projectex:magnum_star_sphere>, <projectex:magnum_star_omega>, <projectex:colossal_star_ein>, <projectex:colossal_star_zwei>, <projectex:colossal_star_drei>, <projectex:colossal_star_vier>, <projectex:colossal_star_sphere>, <projectex:colossal_star_omega>] as IItemStack[];
+val star_capacity = [50000, 200000, 800000, 3200000, 12800000, 51200000, 204800000, 819200000, 3276800000, 13107200000, 52428800000, 209715200000, 838860800000, 3355443200000, 13421772800000, 53687091200000, 214748364800000, 858993459200000] as long[];
+
+for matterIDX in 0 .. 14 {
+    for starIDX in 0 .. 18 {
+
+        val matterNameSingle = matter_name[matterIDX] as string;
+        val matterStackSingle = matter_stack[matterIDX] as IItemStack;
+        val matterEMCSingle = matter_EMC[matterIDX] as long;
+        val starNameSingle = star_name[starIDX] as string;
+        val starStackSingle = star_stack[starIDX] as IItemStack;
+        val starEMCSingle = star_capacity[starIDX] as long;
+        addKleinStarCharging(matterNameSingle, matterStackSingle, matterEMCSingle, starNameSingle, starStackSingle, starEMCSingle);
+    }
+}
+

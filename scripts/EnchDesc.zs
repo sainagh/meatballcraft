@@ -233,3 +233,6 @@ var enchdesc_blessing = VanillaFactory.createItem("enchdesc_blessing");
 enchdesc_blessing.register();   
 var enchdesc_curse_bones = VanillaFactory.createItem("enchdesc_curse_bones");    
 enchdesc_curse_bones.register();   
+
+var enchdesc_flaming_touch = VanillaFactory.createItem("enchdesc_flaming_touch");    
+enchdesc_flaming_touch.register();   

@@ -25,7 +25,7 @@ draconicboomJEI.register();
 
 
 val draconicboom1 = JEI.createJeiRecipe("draconic_alchemy");
-draconicboom1.addInput(<draconicevolution:draconium_block:0>);
+draconicboom1.addInput(<draconicevolution:draconic_block>);
 draconicboom1.setOutputs([<draconicevolution:draconium_block:1>]);
 draconicboom1.build();
 

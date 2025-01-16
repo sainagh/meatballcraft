@@ -314,7 +314,7 @@ reci30.addItemInput(<aoa3:gold_coin>*32);
 reci30.addItemInput(<thaumicaugmentation:gauntlet:1>);
 reci30.addItemInput(<projectex:matter:0>);
 reci30.addItemInput(<twilightforest:magic_beans>*4);
-reci30.addItemOutput(<contenttweaker:master_spell_focus>);
+reci30.addItemOutput(<contenttweaker:master_spell_focus>*2);
 reci30.build();
 
 val reci31 = RecipeBuilder.newBuilder("inf31","arcane_autoinfuser",120);
@@ -432,3 +432,93 @@ reci41.addItemInput(<thaumictinkerer:kamiresource:0>);
 reci41.addItemInput(<thaumictinkerer:kamiresource:1>);
 reci41.addItemOutput(<thaumictinkerer:ichor_block>);
 reci41.build();
+
+val reci42 = RecipeBuilder.newBuilder("inf42","arcane_autoinfuser",120);
+reci42.addEnergyPerTickInput(100);
+reci42.addItemInput(<contenttweaker:ordo_vis_condensate>);
+reci42.addItemInput(<iceandfire:gorgon_head>);
+reci42.addItemInput(<contenttweaker:master_spell_focus>);
+reci42.addItemInput(<thaumadditions:mithminite_fabric>);
+reci42.addItemOutput(<contenttweaker:master_spell_ordo>);
+reci42.build();
+
+val reci43 = RecipeBuilder.newBuilder("inf43","arcane_autoinfuser",120);
+reci43.addEnergyPerTickInput(100);
+reci43.addItemInput(<contenttweaker:draco_vis_condensate>);
+reci43.addItemInput(<draconicevolution:chaos_shard:2>);
+reci43.addItemInput(<contenttweaker:master_spell_focus>);
+reci43.addItemInput(<thaumadditions:mithminite_fabric>);
+reci43.addItemOutput(<contenttweaker:master_spell_draco>);
+reci43.build();
+
+val reci44 = RecipeBuilder.newBuilder("inf44","arcane_autoinfuser",120);
+reci44.addEnergyPerTickInput(100);
+reci44.addItemInput(<contenttweaker:humanus_vis_condensate>);
+reci44.addItemInput(<extendedcrafting:singularity:7>);
+reci44.addItemInput(<contenttweaker:master_spell_focus>);
+reci44.addItemInput(<thaumadditions:mithminite_fabric>);
+reci44.addItemOutput(<contenttweaker:master_spell_humanus>);
+reci44.build();
+
+val reci45 = RecipeBuilder.newBuilder("inf45","arcane_autoinfuser",120);
+reci45.addEnergyPerTickInput(100);
+reci45.addItemInput(<contenttweaker:sensus_vis_condensate>);
+reci45.addItemInput(<divinerpg:corrupted_stone>);
+reci45.addItemInput(<contenttweaker:master_spell_focus>);
+reci45.addItemInput(<thaumadditions:mithminite_fabric>);
+reci45.addItemOutput(<contenttweaker:master_spell_sensus>);
+reci45.build();
+
+val reci46 = RecipeBuilder.newBuilder("inf46","arcane_autoinfuser",120);
+reci46.addEnergyPerTickInput(100);
+reci46.addItemInput(<contenttweaker:ignis_vis_condensate>);
+reci46.addItemInput(<minecraft:fire_charge>);
+reci46.addItemInput(<contenttweaker:master_spell_focus>);
+reci46.addItemInput(<thaumadditions:mithminite_fabric>);
+reci46.addItemOutput(<contenttweaker:master_spell_ignis>);
+reci46.build();
+
+val reci47 = RecipeBuilder.newBuilder("inf47","arcane_autoinfuser",120);
+reci47.addEnergyPerTickInput(100);
+reci47.addItemInput(<contenttweaker:mythus_vis_condensate>);
+reci47.addItemInput(<iceandfire:deathworm_tounge>);
+reci47.addItemInput(<contenttweaker:master_spell_focus>);
+reci47.addItemInput(<thaumadditions:mithminite_fabric>);
+reci47.addItemOutput(<contenttweaker:master_spell_mythus>);
+reci47.build();
+
+val reci48 = RecipeBuilder.newBuilder("inf48","arcane_autoinfuser",120);
+reci48.addEnergyPerTickInput(100);
+reci48.addItemInput(<contenttweaker:aversio_vis_condensate>);
+reci48.addItemInput(<thaumictinkerer:kamiresource:3>);
+reci48.addItemInput(<contenttweaker:master_spell_focus>);
+reci48.addItemInput(<thaumadditions:mithminite_fabric>);
+reci48.addItemOutput(<contenttweaker:master_spell_aversio>);
+reci48.build();
+
+val reci49 = RecipeBuilder.newBuilder("inf49","arcane_autoinfuser",120);
+reci49.addEnergyPerTickInput(100);
+reci49.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]})*75);
+reci49.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vacuos"}]})*75);
+reci49.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]})*50);
+reci49.addItemInput(<thaumcraft:salis_mundus>);
+reci49.addItemInput(<thaumcraft:fabric>);
+reci49.addItemInput(<thaumcraft:plate:3>*4);
+reci49.addItemInput(<thaumcraft:voidseer_charm>);
+reci49.addItemOutput(<thaumicaugmentation:gauntlet:1>);
+reci49.build();
+
+val reci50 = RecipeBuilder.newBuilder("inf50","arcane_autoinfuser",120);
+reci50.addEnergyPerTickInput(100);
+reci50.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "cognitio"}]})*150);
+reci50.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vacuos"}]})*150);
+reci50.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]})*100);
+reci50.addItemInput(<contenttweaker:primordial_sliver>);
+reci50.addItemInput(<thaumcraft:brain>*2);
+reci50.addItemInput(<thaumcraft:void_seed>);
+reci50.addItemInput(<thaumcraft:baubles:4>);
+reci50.addItemOutput(<thaumcraft:voidseer_charm>);
+reci50.build();
+
+
+

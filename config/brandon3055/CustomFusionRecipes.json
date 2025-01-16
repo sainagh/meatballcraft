@@ -716,5 +716,39 @@
             "contenttweaker:essence_of_worthiness",
             "contenttweaker:essence_of_worthiness"
         ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:chaotic_sentient_meatball",
+        "catalyst": "contenttweaker:harbinger_sentient_meatball",
+        "energy": 64000000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:possessed_fluix",
+            "contenttweaker:possessed_fluix",
+            "contenttweaker:possessed_fluix",
+            "contenttweaker:possessed_fluix",
+            "draconicevolution:draconic_block,1,1",
+            "draconicevolution:draconic_block,1,1",
+            "draconicevolution:draconic_block,1,1",
+            "draconicevolution:draconic_block,1,1",
+            "draconicevolution:chaotic_core",
+            "draconicevolution:chaotic_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "avaritia:resource,4,0",
+        "catalyst": "contenttweaker:unidentified_ingot",
+        "energy": 30000000,
+        "tier": 2,
+        "ingredients": [
+            "appliedenergistics2:material,1,38",
+            "ore:ingotBrightsteel",
+            "contenttweaker:orichalcum_sliver",
+            "contenttweaker:orichalcum_sliver",
+            "contenttweaker:neodymium_magnetic_alloy",
+            "contenttweaker:neodymium_magnetic_alloy"
+        ]
     }
 ]

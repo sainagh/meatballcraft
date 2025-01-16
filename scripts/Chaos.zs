@@ -10,6 +10,12 @@ recipes.addShaped(<woot:endershard>.withTag({wootMobNameKey: "draconicevolution:
 [<draconicevolution:chaos_shard:0>, <woot:endershard>, <draconicevolution:chaos_shard:0>],
 [<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>]]);
 
+recipes.addShaped(<draconicevolution:chaos_shard:0>*9,
+[[<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>],
+[<draconicevolution:chaos_shard:0>, <contenttweaker:lost_soul_of_entropy>, <draconicevolution:chaos_shard:0>],
+[<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>]]);
+
+
 val drac = RecipeBuilder.newBuilder("chaotic","chaotic_condenser",400);
 drac.addEnergyPerTickInput(400000);
 drac.addItemOutput(<draconicevolution:chaos_shard:3>*3);

@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    2106186542,
+    1681217594
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:prophetic_sentient_meatball"
+      },
+      "name:8": "Undead Prophecy"
+    }
+  },
+  "questID:3": 457497037,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:prophetic_sentient_meatball"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:summons_of_the_faithful_undead"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Can be crafted by combining an Iron Ingot and Fiery Blood.\n\n- Written by Bluecat",
+      "desc:8": "§7§oCan be crafted by combining an Iron Ingot and Fiery Blood.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "twilightforest:fiery_ingot"

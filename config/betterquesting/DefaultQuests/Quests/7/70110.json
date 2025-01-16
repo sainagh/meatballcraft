@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Found at all heights in the Overworld.",
+      "desc:8": "§7§oFound at all heights in the Overworld.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:quartz"

@@ -7456,7 +7456,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "enderio:block_alloy@7"
+                "modularmachinery:blockenergyinputhatch"
             ]
         },
         {
@@ -13200,7 +13200,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "enderio:block_alloy@7"
+                "modularmachinery:blockenergyinputhatch"
             ]
         },
         {
@@ -70481,6 +70481,30 @@
             "z": -19,
             "elements": [
                 "railcraft:sandy@1"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 3,
+            "z": -21,
+            "elements": [
+                "chisel:sandstoneyellow1@1"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 3,
+            "z": -22,
+            "elements": [
+                "chisel:sandstoneyellow2@1"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 3,
+            "z": -22,
+            "elements": [
+                "chisel:sandstoneyellow1@1"
             ]
         }
     ]}

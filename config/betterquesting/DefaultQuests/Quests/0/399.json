@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "Was this worth it? To be honest I am not sure.\nI learned a lot less than what I initially thought. And yet, the Slime I was able to bring forth did indeed carry a large amount of the power I seek. Just in a form that did not quite make sense.\nLooking at the silver lining, though, it was quite amusing to see the Abyssal wastelands covered in slime.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:big_slime"
       },
-      "name:8": "Big Slime"
+      "name:8": "The Biggest Slime"
     }
   },
   "questID:3": 399,

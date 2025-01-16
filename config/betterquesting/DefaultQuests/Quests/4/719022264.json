@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    90171
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWireless versions of the Extended Crafting Terminals",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2exttable:wireless_ultimate_crafting_terminal",
+        "tag:10": {}
+      },
+      "name:8": "Extended Crafting Wireless Terminals"
+    }
+  },
+  "questID:3": 719022264,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2exttable:wireless_basic_crafting_terminal",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "ae2exttable:wireless_advanced_crafting_terminal",
+          "tag:10": {}
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "ae2exttable:wireless_elite_crafting_terminal",
+          "tag:10": {}
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "ae2exttable:wireless_ultimate_crafting_terminal",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

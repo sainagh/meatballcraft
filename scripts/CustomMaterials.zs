@@ -813,3 +813,42 @@ armorascendeddraconicalloy.addDataValue("durability", "100000");
 armorascendeddraconicalloy.addDataValue("enchantability", "99");
 armorascendeddraconicalloy.addDataValue("reduction", "18,22,26,20");
 armorascendeddraconicalloy.addDataValue("toughness", "25");
+
+
+var colormeatballlegionnaire = Color.fromHex("5559a1") as Color;
+var meatballlegionnaire = MaterialSystem.getMaterialBuilder().setName("Meatball Legionnaire").setColor(colormeatballlegionnaire).build();
+meatballlegionnaire.registerParts(["nugget"] as string[]);
+var armormeatballlegionnaire = meatballlegionnaire.registerPart("armor").getData();
+armormeatballlegionnaire.addDataValue("durability", "20000000");
+armormeatballlegionnaire.addDataValue("enchantability", "99");
+armormeatballlegionnaire.addDataValue("reduction", "100,100,100,100");
+armormeatballlegionnaire.addDataValue("toughness", "100");
+
+
+var colormeatballcenturion = Color.fromHex("853232") as Color;
+var meatballcenturion = MaterialSystem.getMaterialBuilder().setName("Meatball Centurion").setColor(colormeatballcenturion).build();
+meatballcenturion.registerParts(["nugget"] as string[]);
+var armormeatballcenturion = meatballcenturion.registerPart("armor").getData();
+armormeatballcenturion.addDataValue("durability", "20000000");
+armormeatballcenturion.addDataValue("enchantability", "99");
+armormeatballcenturion.addDataValue("reduction", "100,100,100,100");
+armormeatballcenturion.addDataValue("toughness", "100");
+
+
+var colormeatballpraetorian = Color.fromHex("4d8c67") as Color;
+var meatballpraetorian = MaterialSystem.getMaterialBuilder().setName("Meatball Praetorian").setColor(colormeatballpraetorian).build();
+meatballpraetorian.registerParts(["nugget"] as string[]);
+var armormeatballpraetorian = meatballpraetorian.registerPart("armor").getData();
+armormeatballpraetorian.addDataValue("durability", "20000000");
+armormeatballpraetorian.addDataValue("enchantability", "99");
+armormeatballpraetorian.addDataValue("reduction", "200,200,200,200");
+armormeatballpraetorian.addDataValue("toughness", "200");
+
+// var colormeatballman = Color.fromHex("242e2e") as Color;
+// var meatballman = MaterialSystem.getMaterialBuilder().setName("Meatball Man").setColor(colormeatballman).build();
+// meatballman.registerParts(["nugget"] as string[]);
+// var armormeatballman = meatballman.registerPart("armor").getData();
+// armormeatballman.addDataValue("durability", "20000000");
+// armormeatballman.addDataValue("enchantability", "99");
+// armormeatballman.addDataValue("reduction", "200,200,200,200");
+// armormeatballman.addDataValue("toughness", "200");

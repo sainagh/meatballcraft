@@ -14,3 +14,8 @@ recipes.addShaped(SuperEnchantedItem(<erebus:spider_t_shirt>.withTag({display: {
 [<contenttweaker:dragons_blood_plastic>, <erebus:spider_t_shirt>, <contenttweaker:dragons_blood_plastic>],
 [<bewitchment:hellhound_horn>, <bewitchment:sigil_shrieking>, <bewitchment:hellhound_horn>]]);
 
+
+recipes.addShaped(<contenttweaker:terrestrial_cauldron>,
+[[<bewitchment:crying_scorned_bricks>, <bewitchment:mossy_scorned_bricks>, <bewitchment:crying_scorned_bricks>],
+[<bewitchment:mossy_scorned_bricks>, <bewitchment:witches_cauldron>, <bewitchment:mossy_scorned_bricks>],
+[<bewitchment:crying_scorned_bricks>, <bewitchment:mossy_scorned_bricks>, <bewitchment:crying_scorned_bricks>]]);

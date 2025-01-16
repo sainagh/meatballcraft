@@ -867,6 +867,9 @@ val mythpulv142 = RecipeBuilder.newBuilder("mythpulv142","mythic_processor_pulve
 mythpulv142.addEnergyPerTickInput(60000);
 mythpulv142.addItemInput(<ore:oreSalt> * 16);
 mythpulv142.addItemOutput(<bewitchment:salt>*64);
+mythpulv142.addItemOutput(<bewitchment:salt>*64);
+mythpulv142.addItemOutput(<bewitchment:salt>*64);
+mythpulv142.addItemOutput(<bewitchment:salt>*64);
 mythpulv142.addItemOutput(<thermalfoundation:material:67>*16);
 mythpulv142.build();
 
@@ -882,6 +885,7 @@ mythpulv144.addEnergyPerTickInput(60000);
 mythpulv144.addItemInput(<ore:oreRuby> * 16);
 mythpulv144.addItemOutput(<biomesoplenty:gem:1>*64);
 mythpulv144.addItemOutput(<techreborn:smalldust:43>*16);
+mythpulv144.addItemOutput(<techreborn:smalldust:41>*16);
 mythpulv144.build();
 
 val mythpulv145 = RecipeBuilder.newBuilder("mythpulv145","mythic_processor_pulverizer",2);
@@ -1272,4 +1276,17 @@ mythpulv204.addItemInput(<ore:stoneBasalt> * 16);
 mythpulv204.addItemOutput(<techreborn:dust:4>*16);
 mythpulv204.build();
 
+val mythpulv205 = RecipeBuilder.newBuilder("mythpulv205","mythic_processor_pulverizer",2);
+mythpulv205.addEnergyPerTickInput(60000);
+mythpulv205.addItemInput(<ore:blockClay> * 16);
+mythpulv205.addItemOutput(<techreborn:dust:12>*48);
+mythpulv205.addItemOutput(<techreborn:dust:12>*48);
+mythpulv205.addItemOutput(<techreborn:dust:12>*48);
+mythpulv205.build();
+
+val mythpulv206 = RecipeBuilder.newBuilder("mythpulv206","mythic_processor_pulverizer",2);
+mythpulv206.addEnergyPerTickInput(60000);
+mythpulv206.addItemInput(<ore:itemClay> * 16);
+mythpulv206.addItemOutput(<techreborn:dust:12>*16);
+mythpulv206.build();
 

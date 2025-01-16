@@ -116,9 +116,9 @@ recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "divinerpg:rain
 [<rftools:dimensional_shard>, <abyssalcraft:stone:7>, <rftools:dimensional_shard>]]);
 
 recipes.addShaped(<contenttweaker:secret_weapon>,
-[[<thaumcraft:taint_rock>, <contenttweaker:resonating_stone>, <thaumcraft:taint_rock>],
-[<contenttweaker:resonating_stone>, <contenttweaker:ender_feather>, <contenttweaker:resonating_stone>],
-[<thaumcraft:taint_rock>, <contenttweaker:resonating_stone>, <thaumcraft:taint_rock>]]);
+[[<thaumcraft:taint_rock>, <contenttweaker:vibrating_stone>, <thaumcraft:taint_rock>],
+[<contenttweaker:vibrating_stone>, <contenttweaker:ender_feather>, <contenttweaker:vibrating_stone>],
+[<thaumcraft:taint_rock>, <contenttweaker:vibrating_stone>, <thaumcraft:taint_rock>]]);
 
 val makerecursivegoo = RecipeBuilder.newBuilder("makerecursivegoo","bloodmaster_crucible",1200);
 makerecursivegoo.addFluidInput(<fluid:lifeessence>*500);
@@ -128,6 +128,15 @@ makerecursivegoo.addItemInput(<contenttweaker:fiery_pyrite>*4);
 makerecursivegoo.addItemInput(<ore:blockPlatinum>*8);
 makerecursivegoo.addFluidOutput(<fluid:mildly_recursive_goo>*1000);
 makerecursivegoo.build();
+
+val betterrecursivegoo = RecipeBuilder.newBuilder("betterrecursivegoo","bloodmaster_crucible",40);
+betterrecursivegoo.addFluidInput(<fluid:lifeessence>*500);
+betterrecursivegoo.addItemInput(<contenttweaker:nethengeic_rune>);
+betterrecursivegoo.addItemInput(<contenttweaker:everwatching_eye>);
+betterrecursivegoo.addItemInput(<contenttweaker:ender_dolomite>*4);
+betterrecursivegoo.addItemInput(<ore:blockPlatinum>*8);
+betterrecursivegoo.addFluidOutput(<fluid:mildly_recursive_goo>*1000);
+betterrecursivegoo.build();
 
 mods.nuclearcraft.centrifuge.addRecipe([<fluid:mildly_recursive_goo>*100, <fluid:dimensional_essence>*1000, <fluid:liquid_void>*1000, <fluid:overworldian_fluid>*1000, <fluid:nethengeic_fluid>*1000]);
 

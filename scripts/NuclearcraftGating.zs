@@ -308,7 +308,21 @@ mods.techreborn.rollingMachine.addShaped(<contenttweaker:tsleu_235_fuel>,
 [<ore:dustPetrotheum>, <nuclearcraft:fuel_uranium:4>, <ore:dustCryotheum>],
 [null, <ore:dustAerotheum>, null]]);
 
+mods.nuclearcraft.infuser.addRecipe([<nuclearcraft:fuel_thorium:0>, <fluid:high_pressure_energetic_fluid>*5, <contenttweaker:etbu_fuel>]);
+
+mods.nuclearcraft.infuser.addRecipe([<nuclearcraft:fuel_mixed_oxide:1>, <fluid:high_pressure_energetic_fluid>*5, <contenttweaker:emox_241_fuel>]);
+
+mods.nuclearcraft.infuser.addRecipe([<nuclearcraft:fuel_mixed_oxide:0>, <fluid:high_pressure_energetic_fluid>*5, <contenttweaker:emox_239_fuel>]);
+
+
 mods.nuclearcraft.fission.addRecipe([<contenttweaker:tsleu_235_fuel>, <nuclearcraft:depleted_fuel_uranium:4>, 72000.0, 400.0, 50.0, "betterstarterfission", 0.000008]);
+
+mods.nuclearcraft.fission.addRecipe([<contenttweaker:etbu_fuel>, <nuclearcraft:depleted_fuel_thorium:0>, 144000.0, 400.0, 18.0, "bettertbufission", 0.000008]);
+
+mods.nuclearcraft.fission.addRecipe([<contenttweaker:emox_239_fuel>, <nuclearcraft:depleted_fuel_mixed_oxide:0>, 84000.0, 1000.0, 57.5, "bettermox0fission", 0.000008]);
+
+mods.nuclearcraft.fission.addRecipe([<contenttweaker:emox_241_fuel>, <nuclearcraft:depleted_fuel_mixed_oxide:1>, 56004.0, 1500.5, 97.5, "bettermox1fission", 0.000008]);
+
 
 mods.nuclearcraft.extractor.addRecipe([<twilightforest:hydra_chop>, <minecraft:rotten_flesh>, <fluid:hydra_juices>*100, 0.5, 1.5, 0.1]);
 

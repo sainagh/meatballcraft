@@ -80,9 +80,16 @@ recipes.remove(<tce:tce_time_particle_redstone>);
 recipes.remove(<tce:tce_time_particle_diamond>);
 recipes.remove(<tce:tce_time_particle_emerald>);
 
-recipes.remove(<tce:tce_uk1>);
-recipes.remove(<tce:tce_uk2>);
-recipes.remove(<tce:tce_uk3>);
-recipes.remove(<tce:tce_uk4>);
-recipes.remove(<tce:tce_uk5>);
-recipes.remove(<tce:tce_uk6>);
+recipes.remove(<tce:tce_energy_particle>);
+
+recipes.remove(<tce:tce_grow_lvl1>);
+recipes.remove(<tce:tce_grow_lvl2>);
+recipes.remove(<tce:tce_grow_lvl3>);
+recipes.remove(<tce:tce_grow_lvl4>);
+recipes.remove(<tce:tce_grow_lvl5>);
+
+recipes.remove(<tce:tce_time_plate>);
+recipes.remove(<tce:tce_time_star>);
+
+recipes.remove(<tce:tce_upgrade_count>);
+recipes.remove(<tce:tce_upgrade_speed>);

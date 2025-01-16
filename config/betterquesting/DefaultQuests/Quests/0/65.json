@@ -51,6 +51,10 @@
         "2:10": {
           "Count:3": 1,
           "id:8": "industrialforegoing:mob_duplicator"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "enchlib:enchantment_library"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -92,42 +92,43 @@ recipes.addShaped(<draconicevolution:dislocator>,
 
 recipes.removeShaped(<draconicevolution:celestial_manipulator>);
 
-mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:celestial_manipulator>, 
-[[<draconicevolution:chaotic_core>, <materialpart:lunastone:ingot>, <materialpart:brightsteel:ingot>, 
-<materialpart:chalcedony:ingot>, <tce:tce_torch_lvl1>, <materialpart:chalcedony:ingot>, 
-<materialpart:brightsteel:ingot>, <materialpart:lunastone:ingot>, <draconicevolution:chaotic_core>], 
 
-[<materialpart:lunastone:ingot>, <mysticalagradditions:special:4>, <contenttweaker:rainbow_gemstones>, 
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§oPlanetary Artifact§r"]}}), 
+[[<draconicevolution:chaotic_core>, <contenttweaker:brightsteel_alloy_ingot>, <contenttweaker:actualizing_stone>, 
+<contenttweaker:recursium_ingot>, <tce:tce_torch_lvl1>, <contenttweaker:recursium_ingot>, 
+<contenttweaker:actualizing_stone>, <contenttweaker:brightsteel_alloy_ingot>, <draconicevolution:chaotic_core>], 
+
+[<contenttweaker:brightsteel_alloy_ingot>, <mysticalagradditions:special:4>, <contenttweaker:rainbow_gemstones>, 
 <extendedcrafting:storage:4>, <bloodmagic:blood_shard:1>, <extendedcrafting:storage:4>, 
-<contenttweaker:rainbow_gemstones>, <mysticalagradditions:special:4>, <materialpart:lunastone:ingot>], 
+<contenttweaker:rainbow_gemstones>, <mysticalagradditions:special:4>, <contenttweaker:brightsteel_alloy_ingot>], 
 
-[<materialpart:brightsteel:ingot>, <contenttweaker:rainbow_gemstones>, <bigreactors:mineralbenitoite>, 
+[<contenttweaker:actualizing_stone>, <contenttweaker:rainbow_gemstones>, <bigreactors:mineralbenitoite>, 
 <contenttweaker:rainbow_gemstones>, <bigreactors:mineralanglesite>, <contenttweaker:rainbow_gemstones>, 
-<bigreactors:mineralbenitoite>, <contenttweaker:rainbow_gemstones>, <materialpart:brightsteel:ingot>], 
+<bigreactors:mineralbenitoite>, <contenttweaker:rainbow_gemstones>, <contenttweaker:actualizing_stone>], 
 
-[<materialpart:chalcedony:ingot>, <extendedcrafting:storage:4>, <contenttweaker:rainbow_gemstones>, 
+[<contenttweaker:recursium_ingot>, <extendedcrafting:storage:4>, <contenttweaker:rainbow_gemstones>, 
 <avaritia:block_resource:2>, <environmentaltech:solar_cont_6>, <avaritia:block_resource:2>, 
-<contenttweaker:rainbow_gemstones>, <extendedcrafting:storage:4>, <materialpart:chalcedony:ingot>], 
+<contenttweaker:rainbow_gemstones>, <extendedcrafting:storage:4>, <contenttweaker:recursium_ingot>], 
 
 [<tce:tce_torch_lvl1>, <bloodmagic:blood_shard:1>, <bigreactors:mineralanglesite>, 
 <environmentaltech:solar_cont_6>, <magicbees:resource:11>, <environmentaltech:solar_cont_6>, 
 <bigreactors:mineralanglesite>, <bloodmagic:blood_shard:1>, <tce:tce_torch_lvl1>], 
 
-[<materialpart:chalcedony:ingot>, <extendedcrafting:storage:4>, <contenttweaker:rainbow_gemstones>, 
+[<contenttweaker:recursium_ingot>, <extendedcrafting:storage:4>, <contenttweaker:rainbow_gemstones>, 
 <avaritia:block_resource:2>, <environmentaltech:solar_cont_6>, <avaritia:block_resource:2>, 
-<contenttweaker:rainbow_gemstones>, <extendedcrafting:storage:4>, <materialpart:chalcedony:ingot>], 
+<contenttweaker:rainbow_gemstones>, <extendedcrafting:storage:4>, <contenttweaker:recursium_ingot>], 
 
-[<materialpart:brightsteel:ingot>, <contenttweaker:rainbow_gemstones>, <bigreactors:mineralbenitoite>, 
+[<contenttweaker:actualizing_stone>, <contenttweaker:rainbow_gemstones>, <bigreactors:mineralbenitoite>, 
 <contenttweaker:rainbow_gemstones>, <bigreactors:mineralanglesite>, <contenttweaker:rainbow_gemstones>, 
-<bigreactors:mineralbenitoite>, <contenttweaker:rainbow_gemstones>, <materialpart:brightsteel:ingot>], 
+<bigreactors:mineralbenitoite>, <contenttweaker:rainbow_gemstones>, <contenttweaker:actualizing_stone>], 
 
-[<materialpart:lunastone:ingot>, <mysticalagradditions:special:4>, <contenttweaker:rainbow_gemstones>, 
+[<contenttweaker:brightsteel_alloy_ingot>, <mysticalagradditions:special:4>, <contenttweaker:rainbow_gemstones>, 
 <extendedcrafting:storage:4>, <bloodmagic:blood_shard:1>, <extendedcrafting:storage:4>, 
-<contenttweaker:rainbow_gemstones>, <mysticalagradditions:special:4>, <materialpart:lunastone:ingot>], 
+<contenttweaker:rainbow_gemstones>, <mysticalagradditions:special:4>, <contenttweaker:brightsteel_alloy_ingot>], 
 
-[<draconicevolution:chaotic_core>, <materialpart:lunastone:ingot>, <materialpart:brightsteel:ingot>, 
-<materialpart:chalcedony:ingot>, <tce:tce_torch_lvl1>, <materialpart:chalcedony:ingot>, 
-<materialpart:brightsteel:ingot>, <materialpart:lunastone:ingot>, <draconicevolution:chaotic_core>]]);  
+[<draconicevolution:chaotic_core>, <contenttweaker:brightsteel_alloy_ingot>, <contenttweaker:actualizing_stone>, 
+<contenttweaker:recursium_ingot>, <tce:tce_torch_lvl1>, <contenttweaker:recursium_ingot>, 
+<contenttweaker:actualizing_stone>, <contenttweaker:brightsteel_alloy_ingot>, <draconicevolution:chaotic_core>]]);  
 
 
 recipes.removeShaped(<draconicevolution:energy_crystal:0>);

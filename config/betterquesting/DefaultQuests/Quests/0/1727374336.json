@@ -7,11 +7,22 @@
       "desc:8": "",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "minecraft:nether_star"
+        "id:8": "contenttweaker:warren_creation_fabrial"
       },
-      "name:8": "Kashan"
+      "name:8": "Kashan, the Warren of Actualization"
     }
   },
   "questID:3": 1727374336,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:warren_creation_fabrial"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

@@ -73,7 +73,7 @@ markofthesamurai.itemRightClick = function(stack, world, player, hand) {
 	player.sendChat("Volcanic : " ~ VolcanicMatches ~ " out of 4");
 
     if((OminousMatches+VolcanicMatches) == 9) {
-		Commands.call("give @p contenttweaker:sword_shield", player, world, true, true);
+		Commands.call("give @p contenttweaker:sword_shield", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} else {
@@ -229,7 +229,7 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 
 
 	if((NumberOfMatches) == 25) {
-		Commands.call("give @p contenttweaker:crown_of_the_energy_queen", player, world, true, true);
+		Commands.call("give @p contenttweaker:crown_of_the_energy_queen", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} else {
@@ -297,7 +297,7 @@ spatialphaser.itemRightClick = function(stack, world, player, hand) {
 
 	if((UndergardenMatches) == 17) {
 		player.sendChat("Success!");
-		Commands.call("give @p contenttweaker:phasing_gem", player, world, true, true);
+		Commands.call("give @p contenttweaker:phasing_gem", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
@@ -352,7 +352,7 @@ gemvoracity.itemRightClick = function(stack, world, player, hand) {
 
 	if((UndergardenMatches) == 17) {
 		player.sendChat("Success!");
-		Commands.call("give @p contenttweaker:voraceous_worm_callstone", player, world, true, true);
+		Commands.call("give @p contenttweaker:voraceous_worm_callstone", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
@@ -404,19 +404,19 @@ aquaticstone.itemRightClick = function(stack, world, player, hand) {
 	} 
 
     if((OceanMatches) == 1) {
-		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, true, true);
-		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, true, true);
-		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, true, true);
-		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, true, true);
-		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, true, true);
-		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, true, true);
-		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, true, true);
-		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, true, true);
-		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, true, true);
-		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, true, true);
-		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, true, true);
-		Commands.call("summon divinerpg:liopleurodon ~ ~ ~", player, world, true, true);
-		Commands.call("summon divinerpg:liopleurodon ~ ~ ~", player, world, true, true);
+		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, false, true);
+		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, false, true);
+		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, false, true);
+		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, false, true);
+		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, false, true);
+		Commands.call("summon divinerpg:whale ~ ~ ~", player, world, false, true);
+		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, false, true);
+		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, false, true);
+		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, false, true);
+		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, false, true);
+		Commands.call("summon divinerpg:shark ~ ~ ~", player, world, false, true);
+		Commands.call("summon divinerpg:liopleurodon ~ ~ ~", player, world, false, true);
+		Commands.call("summon divinerpg:liopleurodon ~ ~ ~", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
@@ -464,7 +464,7 @@ brokenoath.itemRightClick = function(stack, world, player, hand) {
 	} 
 
     if((CandyMatches) == 1) {
-		Commands.call("summon twilightforest:adherent ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:crepuscular_callstone\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:9000.0},{Name:generic.attackDamage, Base:3000.0}],Health:9000f,CustomName:\"Failed Portal Master\"}", player, world, true, true);
+		Commands.call("summon twilightforest:adherent ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:crepuscular_callstone\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:9000.0},{Name:generic.attackDamage, Base:3000.0}],Health:9000f,CustomName:\"Failed Portal Master\"}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
@@ -509,7 +509,7 @@ rhythmgreatworm.itemRightClick = function(stack, world, player, hand) {
 	} 
 
     if((CandyMatches) == 1) {
-		Commands.call("/summon iceandfire:deathworm ~ ~ ~ {Scale:10f,WormAge:10, HandItems:[{Count:1,id:\"contenttweaker:blood_of_enlightenment\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Shai-Hulud\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:100,permshields:100}}}", player, world, true, true);
+		Commands.call("/summon iceandfire:deathworm ~ ~ ~ {Scale:10f,WormAge:10, HandItems:[{Count:1,id:\"contenttweaker:blood_of_enlightenment\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Shai-Hulud\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:100,permshields:100}}}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
@@ -554,7 +554,7 @@ diabeticsummoner.itemRightClick = function(stack, world, player, hand) {
 	} 
 
     if((CandyMatches) == 1) {
-		Commands.call("pillar-spawn candyland_structure_diabetic", player, world, true, true);
+		Commands.call("pillar-spawn candyland_structure_diabetic", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
@@ -621,7 +621,7 @@ memoryrestorationritual.itemRightClick = function(stack, world, player, hand) {
 	if((AncientCavernMatches) == 1) {
 		if(player.getDimension() == 0) {
 			player.sendChat("Success");
-			Commands.call("summon aoa3:angelica ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_terra\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
+			Commands.call("summon aoa3:angelica ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_terra\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, false, true);
 			return "PASS";
 		}
 	} 
@@ -629,7 +629,7 @@ memoryrestorationritual.itemRightClick = function(stack, world, player, hand) {
 	if((OuterLandsMatches) == 1) {
 		if(player.getDimension() == 7) {
 			player.sendChat("Success");
-			Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_twilightforest\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
+			Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_twilightforest\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, false, true);
 			return "PASS";
 		}
 	} 
@@ -637,15 +637,15 @@ memoryrestorationritual.itemRightClick = function(stack, world, player, hand) {
 	if((SacredSpringsMatches) == 1) {
 		if(player.getDimension() == 150) {
 			player.sendChat("Success");
-			Commands.call("summon divinerpg:hover_stringer ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_hator\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
+			Commands.call("summon divinerpg:hover_stinger ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_hator\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, false, true);
 			return "PASS";
 		}
 	} 
 
-	if((MagicalForestName) == 1) {
+	if((MagicalForestMatches) == 1) {
 		if(player.getDimension() == 426) {
 			player.sendChat("Success");
-			Commands.call("summon divinerpg:deathcryx ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_asgard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, true, true);
+			Commands.call("summon divinerpg:deathcryx ~ ~2 ~ {CustomName:\"Protector of Lies\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_asgard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, false, true);
 			return "PASS";
 		}
 	} 

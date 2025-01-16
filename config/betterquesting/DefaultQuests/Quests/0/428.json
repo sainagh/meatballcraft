@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis way for draconic armor!",
+      "desc:8": "§7§oThis way for draconic armor!\n\n§fThe properties of maximum-entropy Chaos matter are remerkable. Energy transformations involving this state of matter naturally achieve their Carnot efficiency, making it a highly effective source for generating electricity.\nThis does not always play well, as the reaction is so efficient that it can automatically lower the enrgy state of the world around it, leading to catastrophic destruction.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:reactor_core"

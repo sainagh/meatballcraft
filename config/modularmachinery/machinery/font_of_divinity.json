@@ -4568,7 +4568,7 @@
             "y": -3,
             "z": -8,
             "elements": [
-                "thaumcraft:stone_arcane_brick@0"
+                "thaumcraft:metal_void@0"
             ]
         },
         {
@@ -4824,7 +4824,7 @@
             "y": -3,
             "z": 10,
             "elements": [
-                "thaumcraft:stone_arcane_brick@0"
+                "thaumcraft:metal_void@0"
             ]
         },
         {
@@ -6408,7 +6408,7 @@
             "y": -3,
             "z": 10,
             "elements": [
-                "thaumcraft:stone_arcane_brick@0"
+                "thaumcraft:metal_void@0"
             ]
         },
         {
@@ -6536,7 +6536,7 @@
             "y": -3,
             "z": -8,
             "elements": [
-                "thaumcraft:stone_arcane_brick@0"
+                "thaumcraft:metal_void@0"
             ]
         },
         {

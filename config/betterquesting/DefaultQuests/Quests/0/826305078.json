@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    467
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oA polonium salt reactor is a good way to obtain Californium-250 in larger amounts.\n\nFor the joy of Snock.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "nuclearcraft:californium"
+      },
+      "name:8": "Polonium is Spent"
+    }
+  },
+  "questID:3": 826305078,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forge:bucketfilled",
+          "tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "spent_polonium"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "forge:bucketfilled",
+          "tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "californium_250"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

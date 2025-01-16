@@ -1,3 +1,7 @@
+import mods.thaumcraft.Infusion;
+
+
+
 recipes.removeShaped(<rftools:builder>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<rftools:builder>, 
@@ -68,13 +72,13 @@ recipes.remove(<rftools:coalgenerator>);
 recipes.removeShaped(<rftoolsdim:dimension_enscriber>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<rftoolsdim:dimension_enscriber>, 
-[[<contenttweaker:mythic_excavation_reactor>, <contenttweaker:charged_dyson_capacitor>, <contenttweaker:infinity_plate>, <tconstruct:pan_head>.withTag({Material: "infinity_avaritia_plustic"}), <contenttweaker:infinity_plate>, <contenttweaker:charged_dyson_capacitor>, <contenttweaker:mythic_excavation_reactor>], 
-[<contenttweaker:charged_dyson_capacitor>, <contenttweaker:collapser_conduit>, <contenttweaker:neutronium_cannon>, <contenttweaker:dyson_collector>, <draconicevolution:reactor_component:0>, <contenttweaker:collapser_conduit>, <contenttweaker:charged_dyson_capacitor>], 
-[<contenttweaker:infinity_plate>, <draconicevolution:reactor_component:0>, <rftools:remote_scanner>, <rftools:scanner>, <rftools:remote_scanner>, <contenttweaker:neutronium_cannon>, <contenttweaker:infinity_plate>], 
+[[<contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:charged_dyson_capacitor>, <contenttweaker:infinity_plate>, <tconstruct:pan_head>.withTag({Material: "infinity_avaritia_plustic"}), <contenttweaker:infinity_plate>, <contenttweaker:charged_dyson_capacitor>, <contenttweaker:hyperuranon_actualizing_fabrial>], 
+[<contenttweaker:charged_dyson_capacitor>, <contenttweaker:collapser_conduit>, <avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:dyson_collector>, <avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:collapser_conduit>, <contenttweaker:charged_dyson_capacitor>], 
+[<contenttweaker:infinity_plate>, <contenttweaker:actualizing_stone>, <rftools:remote_scanner>, <rftools:scanner>, <rftools:remote_scanner>, <contenttweaker:actualizing_stone>, <contenttweaker:infinity_plate>], 
 [<tconstruct:pan_head>.withTag({Material: "infinity_avaritia_plustic"}), <contenttweaker:dyson_collector>, <rftools:projector>, <rftools:machine_frame>, <rftools:projector>, <contenttweaker:dyson_collector>, <tconstruct:pan_head>.withTag({Material: "infinity_avaritia_plustic"})], 
-[<contenttweaker:infinity_plate>, <contenttweaker:neutronium_cannon>, <rftools:remote_scanner>, <rftools:scanner>, <rftools:remote_scanner>, <draconicevolution:reactor_component:0>, <contenttweaker:infinity_plate>], 
-[<contenttweaker:charged_dyson_capacitor>, <contenttweaker:collapser_conduit>, <draconicevolution:reactor_component:0>, <contenttweaker:dyson_collector>, <contenttweaker:neutronium_cannon>, <contenttweaker:collapser_conduit>, <contenttweaker:charged_dyson_capacitor>], 
-[<contenttweaker:mythic_excavation_reactor>, <contenttweaker:charged_dyson_capacitor>, <contenttweaker:infinity_plate>, <tconstruct:pan_head>.withTag({Material: "infinity_avaritia_plustic"}), <contenttweaker:infinity_plate>, <contenttweaker:charged_dyson_capacitor>, <contenttweaker:mythic_excavation_reactor>]]);  
+[<contenttweaker:infinity_plate>, <contenttweaker:actualizing_stone>, <rftools:remote_scanner>, <rftools:scanner>, <rftools:remote_scanner>, <contenttweaker:actualizing_stone>, <contenttweaker:infinity_plate>], 
+[<contenttweaker:charged_dyson_capacitor>, <contenttweaker:collapser_conduit>, <avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:dyson_collector>, <avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:collapser_conduit>, <contenttweaker:charged_dyson_capacitor>], 
+[<contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:charged_dyson_capacitor>, <contenttweaker:infinity_plate>, <tconstruct:pan_head>.withTag({Material: "infinity_avaritia_plustic"}), <contenttweaker:infinity_plate>, <contenttweaker:charged_dyson_capacitor>, <contenttweaker:hyperuranon_actualizing_fabrial>]]);  
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<rftoolsdim:dimension_builder>, 
@@ -82,43 +86,43 @@ mods.extendedcrafting.TableCrafting.addShaped(<rftoolsdim:dimension_builder>,
 <contenttweaker:charged_dyson_capacitor>, <advancedrocketry:gravitymachine>, <contenttweaker:charged_dyson_capacitor>, 
 <contenttweaker:charged_dyson_capacitor>, <contenttweaker:charged_dyson_capacitor>, <contenttweaker:charged_dyson_capacitor>], 
 
-[<botania:specialflower>.withTag({type: "dandelifeon"}), null, <contenttweaker:mythic_excavation_reactor>, 
-null, <bewitchment:stew_of_the_grotesque>, null, 
-<contenttweaker:mythic_excavation_reactor>, null, <botania:specialflower>.withTag({type: "dandelifeon"})], 
+[<contenttweaker:perfected_gallifreyan_plate>, null, <contenttweaker:hyperuranon_actualizing_fabrial>, 
+<nuclearcraft:turbine_wall>, <nuclearcraft:turbine_wall>, <nuclearcraft:turbine_wall>, 
+<contenttweaker:hyperuranon_actualizing_fabrial>, null, <contenttweaker:perfected_gallifreyan_plate>], 
 
 [null, <contenttweaker:hypercubic_energy_orb>, null, 
-<rftools:space_chamber_controller>, <tconstruct:toolforge>.withTag({textureBlock: {id: "avaritia:block_resource", Count: 1, Damage: 1 as short}}), <rftools:space_chamber_controller>, 
+<rftools:space_chamber_controller>, <openblocks:tank>.withTag({tank: {FluidName: "infinity", Amount: 16000}}), <rftools:space_chamber_controller>, 
 null, <contenttweaker:hypercubic_energy_orb>, null], 
 
 [<extendedcrafting:storage:4>, null, null, 
 null, <draconicevolution:chaotic_core>, null, 
 null, null, <extendedcrafting:storage:4>], 
 
-[<extendedcrafting:storage:4>, null, null, 
+[<extendedcrafting:storage:4>, <avaritiaitem:fractallite_halite_catalyst>, null, 
 <draconicevolution:chaotic_core>, <draconicevolution:reactor_core>, <draconicevolution:chaotic_core>, 
-null, null, <extendedcrafting:storage:4>], 
+null, <avaritiaitem:fractallite_halite_catalyst>, <extendedcrafting:storage:4>], 
 
 [<extendedcrafting:storage:4>, null, null, 
 null, <draconicevolution:chaotic_core>, null, 
 null, null, <extendedcrafting:storage:4>], 
 
 [null, <contenttweaker:hypercubic_energy_orb>, null, 
-<rftools:space_chamber_controller>, <tconstruct:toolforge>.withTag({textureBlock: {id: "avaritia:block_resource", Count: 1, Damage: 1 as short}}), <rftools:space_chamber_controller>, 
+<rftools:space_chamber_controller>, <openblocks:tank>.withTag({tank: {FluidName: "infinity", Amount: 16000}}), <rftools:space_chamber_controller>, 
 null, <contenttweaker:hypercubic_energy_orb>, null], 
 
-[<botania:specialflower>.withTag({type: "dandelifeon"}), null, <contenttweaker:mythic_excavation_reactor>, 
-null, <bewitchment:stew_of_the_grotesque>, null, 
-<contenttweaker:mythic_excavation_reactor>, null, <botania:specialflower>.withTag({type: "dandelifeon"})], 
+[<contenttweaker:perfected_gallifreyan_plate>, null, <contenttweaker:hyperuranon_actualizing_fabrial>, 
+<nuclearcraft:turbine_wall>, <nuclearcraft:turbine_wall>, <nuclearcraft:turbine_wall>, 
+<contenttweaker:hyperuranon_actualizing_fabrial>, null, <contenttweaker:perfected_gallifreyan_plate>], 
 
-[<advancedrocketry:terraformer>, <contenttweaker:charged_dyson_capacitor>, <contenttweaker:charged_dyson_capacitor>, 
-<contenttweaker:charged_dyson_capacitor>, <contenttweaker:charged_dyson_capacitor>, <contenttweaker:charged_dyson_capacitor>, 
-<contenttweaker:charged_dyson_capacitor>, <contenttweaker:charged_dyson_capacitor>, <draconicevolution:celestial_manipulator>]]);  
+[<contenttweaker:charged_dyson_capacitor>, <contenttweaker:charged_dyson_capacitor>, <contenttweaker:charged_dyson_capacitor>, 
+<contenttweaker:charged_dyson_capacitor>, <advancedrocketry:terraformer>, <contenttweaker:charged_dyson_capacitor>, 
+<contenttweaker:charged_dyson_capacitor>, <contenttweaker:charged_dyson_capacitor>, <contenttweaker:charged_dyson_capacitor>]]);  
 
 
 recipes.addShaped(<rftoolsdim:dimension_builder>*2,
-[[<rftools:infused_diamond>, <rftools:infused_diamond>, <rftools:infused_diamond>],
-[<rftools:infused_diamond>, <rftoolsdim:dimension_builder>, <rftools:infused_diamond>],
-[<rftools:infused_diamond>, <rftools:infused_diamond>, <rftools:infused_diamond>]]);
+[[<rftools:infused_diamond>, <advancedrocketry:gravitymachine>, <rftools:infused_diamond>],
+[<avaritiaitem:fractallite_halite_catalyst>, <rftoolsdim:dimension_builder>, <avaritiaitem:fractallite_halite_catalyst>],
+[<rftools:infused_diamond>, <advancedrocketry:terraformer>, <rftools:infused_diamond>]]);
 
 
 recipes.removeShaped(<rftoolsdim:dimension_editor>);
@@ -130,10 +134,45 @@ recipes.addShaped(<rftoolsdim:dimension_editor>,
 
 recipes.removeShaped(<rftoolsdim:dimlet_workbench>);
 
-recipes.addShaped(<rftoolsdim:dimlet_workbench>,
-[[<contenttweaker:defined_redstone_chipset>, <materialpart:abyssite:ingot>, <contenttweaker:defined_redstone_chipset>],
-[<rftoolsdim:dimlet_template>, <rftools:machine_frame>, <rftoolsdim:dimlet_template>],
-[<avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>]]);
+mods.extendedcrafting.TableCrafting.addShaped(<rftoolsdim:dimlet_workbench>, 
+
+[[<openblocks:tank>.withTag({tank: {FluidName: "infinity", Amount: 16000}}), <contenttweaker:defined_redstone_chipset>, null, 
+null, null, null, 
+null, <contenttweaker:defined_redstone_chipset>, <openblocks:tank>.withTag({tank: {FluidName: "infinity", Amount: 16000}})], 
+
+[<contenttweaker:defined_redstone_chipset>, null, null, 
+<rftoolsdim:dimlet_template>, <rftoolsdim:dimlet_template>, <rftoolsdim:dimlet_template>, 
+null, null, <contenttweaker:defined_redstone_chipset>], 
+
+[null, null, <rftoolsdim:dimlet_template>, 
+<rftoolsdim:dimlet_template>, <avaritia:resource:5>, <rftoolsdim:dimlet_template>, 
+<rftoolsdim:dimlet_template>, null, null], 
+
+[null, <rftoolsdim:dimlet_template>, <rftoolsdim:dimlet_template>, 
+<ore:ingotAbyssite>, <avaritiaitem:fractallite_halite_catalyst>, <ore:ingotAbyssite>, 
+<rftoolsdim:dimlet_template>, <rftoolsdim:dimlet_template>, null], 
+
+[null, <rftoolsdim:dimlet_template>, <avaritia:resource:5>, 
+<avaritiaitem:fractallite_halite_catalyst>, <rftools:machine_frame>, <avaritiaitem:fractallite_halite_catalyst>, 
+<avaritia:resource:5>, <rftoolsdim:dimlet_template>, null], 
+
+[null, <rftoolsdim:dimlet_template>, <rftoolsdim:dimlet_template>, 
+<ore:ingotAbyssite>, <avaritiaitem:fractallite_halite_catalyst>, <ore:ingotAbyssite>, 
+<rftoolsdim:dimlet_template>, <rftoolsdim:dimlet_template>, null], 
+
+[null, null, <rftoolsdim:dimlet_template>, 
+<rftoolsdim:dimlet_template>, <avaritia:resource:5>, <rftoolsdim:dimlet_template>, 
+<rftoolsdim:dimlet_template>, null, null], 
+
+[<contenttweaker:defined_redstone_chipset>, null, null, 
+<rftoolsdim:dimlet_template>, <rftoolsdim:dimlet_template>, <rftoolsdim:dimlet_template>, 
+null, null, <contenttweaker:defined_redstone_chipset>], 
+
+[<openblocks:tank>.withTag({tank: {FluidName: "infinity", Amount: 16000}}), <contenttweaker:defined_redstone_chipset>, null, 
+null, null, null, 
+null, <contenttweaker:defined_redstone_chipset>, <openblocks:tank>.withTag({tank: {FluidName: "infinity", Amount: 16000}})]]);  
+
+
 
 recipes.removeShaped(<rftoolsdim:activity_probe>);
 
@@ -152,44 +191,46 @@ recipes.addShaped(<rftoolsdim:energy_extractor>,
 recipes.removeShaped(<rftoolsdim:material_absorber>);
 
 recipes.addShaped(<rftoolsdim:material_absorber>,
-[[<contenttweaker:defined_ingot>, <contenttweaker:infinity_core>, <contenttweaker:defined_ingot>],
-[<contenttweaker:infinity_core>, <bewitchment:token_of_remedies>, <contenttweaker:infinity_core>],
-[<contenttweaker:defined_ingot>, <contenttweaker:infinity_core>, <contenttweaker:defined_ingot>]]);
+[[<contenttweaker:defined_redstone_chipset>, <tconstruct:seared>, <contenttweaker:defined_redstone_chipset>],
+[<contenttweaker:infinity_core>, <contenttweaker:hungering_machine_case>, <contenttweaker:infinity_core>],
+[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§oPlanetary Artifact§r"]}}).reuse(), <avaritia:resource:6>]]);
 
 recipes.removeShaped(<rftoolsdim:liquid_absorber>);
 
 recipes.addShaped(<rftoolsdim:liquid_absorber>,
-[[<tconstruct:seared_furnace_controller:0>, <contenttweaker:infinity_core>, <tconstruct:seared_furnace_controller:0>],
-[<contenttweaker:infinity_core>, <bewitchment:token_of_remedies>, <contenttweaker:infinity_core>],
-[<tconstruct:seared_furnace_controller:0>, <contenttweaker:infinity_core>, <tconstruct:seared_furnace_controller:0>]]);
+[[<contenttweaker:defined_redstone_chipset>, <tconstruct:seared_glass>, <contenttweaker:defined_redstone_chipset>],
+[<contenttweaker:infinity_core>, <contenttweaker:hungering_machine_case>, <contenttweaker:infinity_core>],
+[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§oPlanetary Artifact§r"]}}).reuse(), <avaritia:resource:6>]]);
 
 recipes.removeShaped(<rftoolsdim:biome_absorber>);
 
 recipes.addShaped(<rftoolsdim:biome_absorber>,
-[[<biomesoplenty:terrestrial_artifact>, <contenttweaker:infinity_core>, <biomesoplenty:terrestrial_artifact>],
-[<contenttweaker:infinity_core>, <bewitchment:token_of_remedies>, <contenttweaker:infinity_core>],
-[<biomesoplenty:terrestrial_artifact>, <contenttweaker:infinity_core>, <biomesoplenty:terrestrial_artifact>]]);
+[[<contenttweaker:defined_redstone_chipset>, <biomesoplenty:terrestrial_artifact>, <contenttweaker:defined_redstone_chipset>],
+[<contenttweaker:infinity_core>, <contenttweaker:hungering_machine_case>, <contenttweaker:infinity_core>],
+[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§oPlanetary Artifact§r"]}}).reuse(), <avaritia:resource:6>]]);
 
 recipes.removeShaped(<rftoolsdim:terrain_absorber>);
 
 recipes.addShaped(<rftoolsdim:terrain_absorber>,
-[[<thaumcraft:metal_void>, <contenttweaker:infinity_core>, <thaumcraft:metal_void>],
-[<contenttweaker:infinity_core>, <bewitchment:token_of_remedies>, <contenttweaker:infinity_core>],
-[<thaumcraft:metal_void>, <contenttweaker:infinity_core>, <thaumcraft:metal_void>]]);
+[[<contenttweaker:defined_redstone_chipset>, <thaumcraft:metal_void>, <contenttweaker:defined_redstone_chipset>],
+[<contenttweaker:infinity_core>, <contenttweaker:hungering_machine_case>, <contenttweaker:infinity_core>],
+[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§oPlanetary Artifact§r"]}}).reuse(), <avaritia:resource:6>]]);
 
 recipes.removeShaped(<rftoolsdim:feature_absorber>);
 
 recipes.addShaped(<rftoolsdim:feature_absorber>,
-[[<minecraft:elytra>, <contenttweaker:infinity_core>, <minecraft:elytra>],
-[<contenttweaker:infinity_core>, <bewitchment:token_of_remedies>, <contenttweaker:infinity_core>],
-[<minecraft:elytra>, <contenttweaker:infinity_core>, <minecraft:elytra>]]);
+[[<contenttweaker:defined_redstone_chipset>, <minecraft:elytra>, <contenttweaker:defined_redstone_chipset>],
+[<contenttweaker:infinity_core>, <contenttweaker:hungering_machine_case>, <contenttweaker:infinity_core>],
+[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§oPlanetary Artifact§r"]}}).reuse(), <avaritia:resource:6>]]);
 
 recipes.removeShaped(<rftoolsdim:time_absorber>);
 
 recipes.addShaped(<rftoolsdim:time_absorber>,
-[[<minecraft:clock>, <contenttweaker:infinity_core>, <minecraft:clock>],
-[<contenttweaker:infinity_core>, <bewitchment:token_of_remedies>, <contenttweaker:infinity_core>],
-[<minecraft:clock>, <contenttweaker:infinity_core>, <minecraft:clock>]]);
+[[<contenttweaker:defined_redstone_chipset>, <minecraft:clock>, <contenttweaker:defined_redstone_chipset>],
+[<contenttweaker:infinity_core>, <contenttweaker:hungering_machine_case>, <contenttweaker:infinity_core>],
+[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§oPlanetary Artifact§r"]}}).reuse(), <avaritia:resource:6>]]);
+
+
 
 recipes.addShaped(<rftools:machine_frame>*3,
 [[<ore:ingotAlubrass>, <ore:ingotManasteel>, <ore:ingotAlubrass>],
@@ -197,7 +238,10 @@ recipes.addShaped(<rftools:machine_frame>*3,
 [<ore:ingotAlubrass>, <ore:ingotManasteel>, <ore:ingotAlubrass>]]);
 
 
-recipes.removeShaped(<rftools:storage_module_tablet>);
+recipes.removeShaped(<rftools:storage_module_tablet>,
+[[<minecraft:gold_nugget>, <minecraft:emerald>, <minecraft:gold_nugget>],
+[<ore:blockRedstone>, <ore:blockQuartz>, <ore:blockRedstone>],
+[<minecraft:gold_nugget>, <ore:blockRedstone>, <minecraft:gold_nugget>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<rftools:storage_module_tablet>, 
 [[<projecte:fuel_block:2>, <projecte:fuel_block:2>, null, <projecte:fuel_block:2>, <projecte:fuel_block:2>], 
@@ -205,3 +249,60 @@ mods.extendedcrafting.TableCrafting.addShaped(<rftools:storage_module_tablet>,
 [null, <appliedenergistics2:fluix_block>, <projecte:alchemical_chest>, <appliedenergistics2:fluix_block>, null], 
 [<projecte:fuel_block:2>, <contenttweaker:nebulous_soul>, <appliedenergistics2:fluix_block>, <contenttweaker:nebulous_soul>, <projecte:fuel_block:2>], 
 [<projecte:fuel_block:2>, <projecte:fuel_block:2>, null, <projecte:fuel_block:2>, <projecte:fuel_block:2>]]);  
+
+
+
+mods.extendedcrafting.CompressionCrafting.addRecipe(<avaritiaitem:self_actualizing_stone>, <contenttweaker:actualizing_stone>, 2048, <extendedcrafting:material:11>, 5000000);
+
+
+
+
+mods.thaumcraft.Infusion.registerRecipe("matabsorbernaquadah", "", 
+<rftoolsdim:material_absorber>.withTag({block: "contenttweaker:naquadah_ore"}), 
+5, 
+[<aspect:ordo>*1000, <aspect:caeles>*500], 
+<rftoolsdim:material_absorber>, 
+[<avaritiaitem:self_actualizing_stone>, <ore:ingotFractalliteHalite>,
+<contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>,
+<contenttweaker:naquadah_ingot>, <contenttweaker:stormlight_sphere>,
+<contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>]);
+
+mods.thaumcraft.Infusion.registerRecipe("matabsorberfiredrag", "", 
+<rftoolsdim:material_absorber>.withTag({block: "contenttweaker:fire_dragonsteel_ore"}), 
+5, 
+[<aspect:ordo>*1000, <aspect:draco>*500], 
+<rftoolsdim:material_absorber>, 
+[<avaritiaitem:self_actualizing_stone>, <ore:ingotFractalliteHalite>,
+<contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>,
+<iceandfire:dragonsteel_fire_block>, <iceandfire:dragonforge_fire_brick>,
+<contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>]);
+
+mods.thaumcraft.Infusion.registerRecipe("matabsorbericedrag", "", 
+<rftoolsdim:material_absorber>.withTag({block: "contenttweaker:ice_dragonsteel_ore"}), 
+5, 
+[<aspect:ordo>*1000, <aspect:draco>*500], 
+<rftoolsdim:material_absorber>, 
+[<avaritiaitem:self_actualizing_stone>, <ore:ingotFractalliteHalite>,
+<contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>,
+<iceandfire:dragonsteel_ice_block>, <iceandfire:dragonforge_ice_brick>,
+<contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>]);
+
+mods.thaumcraft.Infusion.registerRecipe("matabsorberlightdrag", "", 
+<rftoolsdim:material_absorber>.withTag({block: "contenttweaker:lightning_dragonsteel_ore"}), 
+5, 
+[<aspect:ordo>*1000, <aspect:draco>*500], 
+<rftoolsdim:material_absorber>, 
+[<avaritiaitem:self_actualizing_stone>, <ore:ingotFractalliteHalite>,
+<contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>,
+<iceandfire:dragonsteel_lightning_block>, <iceandfire:dragonforge_lightning_brick>,
+<contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>]);
+
+mods.thaumcraft.Infusion.registerRecipe("matabsorberdensedimshard", "", 
+<rftoolsdim:material_absorber>.withTag({block: "contenttweaker:dense_dimensional_shard_ore"}), 
+5, 
+[<aspect:ordo>*1000, <aspect:terra>*500], 
+<rftoolsdim:material_absorber>, 
+[<avaritiaitem:self_actualizing_stone>, <ore:ingotFractalliteHalite>,
+<contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>,
+<ore:oreDimensionalShard>, <rftools:infused_enderpearl>,
+<contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>]);

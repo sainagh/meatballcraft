@@ -11,12 +11,21 @@
     
 
 
+
     "input-types": {
       "a": {
         "id": "buildcraftsilicon:laser",
-        "meta": 0,
+        "meta": 2,
         "item": {
             "id": "buildcraftsilicon:laser",
+            "count": 1
+          }
+      },
+      "f": {
+        "id": "buildcraftsilicon:assembly_table",
+        "meta": 0,
+        "item": {
+            "id": "buildcraftsilicon:assembly_table",
             "count": 1
           }
       },
@@ -37,12 +46,45 @@
           }
       },
       "d": {
-        "id": "buildcraftsilicon:assembly_table",
-        "meta": 0,
+        "id": "buildcraftsilicon:laser",
+        "meta": 5,
         "item": {
-            "id": "buildcraftsilicon:assembly_table",
+            "id": "buildcraftsilicon:laser",
             "count": 1
           }
+      },
+      "e": {
+        "id": "buildcraftsilicon:laser",
+        "meta": 4,
+        "item": {
+            "id": "buildcraftsilicon:laser",
+            "count": 1
+          }
+      },
+      "g": {
+        "id": "buildcraftsilicon:laser",
+        "meta": 3,
+        "item": {
+            "id": "buildcraftsilicon:laser",
+            "count": 1
+          }
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{id:\"buildcraftsilicon:laser\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},data-version:2,deltas:{},owner:{Name:\"meatballcraft\",Id:\"8c381e15-592d-4003-ae11-6367e203127b\",Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczMjY1NzkwNjM4OSwKICAicHJvZmlsZUlkIiA6ICI4YzM4MWUxNTU5MmQ0MDAzYWUxMTYzNjdlMjAzMTI3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtZWF0YmFsbGNyYWZ0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcyNzNhYjFhZWNmNWY5MmNiMzU4ZjhlYmFjNTg1Yjc0M2VjNjY1N2NkZWZiOTA0YzE0MmQyYzY4ZTg2ZDQ3MDAiCiAgICB9CiAgfQp9\",Signature:\"dozkTW4omm3dXb02u116sKgPykrX/f9zufhHuqwzbu8Z9fQiMnj4FyCfa4An7FQLgRpg9F1QJAA1QX3i6xu5u7CpW6QJGeBZ5+oEdqdbF3TwU2RhQ22dxJyKDdEYnCOuf9EhxBImVSgyltsCnxVSh52AaMrDgVVZHEMAhRdWOTX0Ne5UGG2N/3fViu8g6z3aVh4tMhVg87V8PBs4SPJRSpSYZL24894Aj00J/SJ1NHxdL4MTjgeqCrR5x//GsctEt7abwXGplPhPBgClotJClAPjaI762o1JpR6K6Fda4Y6Vl1djCzuhtfyHykGAo5v8M86DLui6X0siXQaQyMpw6G8YVpZuh5pe+Yx5FUBxGFmULcO0oe8xyQFvUYGfOPXNTy0QPrd/kUqoPjUNAFfVJLJgpGT9u0HOTWr4zlUIKj/86LdCMH+kXxyi1Yk4ReAovEE9u/LRgU86XdMTMF8gabrXGVzjPH08f5oGKlhbVr6S0vdzoaDLWSe0KIsNLPlP4HNMPaISCVfikHTHMKgAwc+gaEisUQpDUb/27BrWWdls/WXgRaEdRjXLrH7ngEI69I9QcQ8ac/IqqmwtQd6/lvC2OI0xt4DGxIekmZi0Fn6q6ys+LEz0W9UUiIRPBeYDyHjQMevQky1bhWQV4pJ3EFhbim74uP7WPG4wjdjklcI\u003d\"}]}},battery:{stored:0L},average_power:[I;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
+      },
+      "d:A": {
+        "nbt": "{id:\"buildcraftsilicon:laser\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},data-version:2,deltas:{},owner:{Name:\"meatballcraft\",Id:\"8c381e15-592d-4003-ae11-6367e203127b\",Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczMjY1NzkwNjM4OSwKICAicHJvZmlsZUlkIiA6ICI4YzM4MWUxNTU5MmQ0MDAzYWUxMTYzNjdlMjAzMTI3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtZWF0YmFsbGNyYWZ0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcyNzNhYjFhZWNmNWY5MmNiMzU4ZjhlYmFjNTg1Yjc0M2VjNjY1N2NkZWZiOTA0YzE0MmQyYzY4ZTg2ZDQ3MDAiCiAgICB9CiAgfQp9\",Signature:\"dozkTW4omm3dXb02u116sKgPykrX/f9zufhHuqwzbu8Z9fQiMnj4FyCfa4An7FQLgRpg9F1QJAA1QX3i6xu5u7CpW6QJGeBZ5+oEdqdbF3TwU2RhQ22dxJyKDdEYnCOuf9EhxBImVSgyltsCnxVSh52AaMrDgVVZHEMAhRdWOTX0Ne5UGG2N/3fViu8g6z3aVh4tMhVg87V8PBs4SPJRSpSYZL24894Aj00J/SJ1NHxdL4MTjgeqCrR5x//GsctEt7abwXGplPhPBgClotJClAPjaI762o1JpR6K6Fda4Y6Vl1djCzuhtfyHykGAo5v8M86DLui6X0siXQaQyMpw6G8YVpZuh5pe+Yx5FUBxGFmULcO0oe8xyQFvUYGfOPXNTy0QPrd/kUqoPjUNAFfVJLJgpGT9u0HOTWr4zlUIKj/86LdCMH+kXxyi1Yk4ReAovEE9u/LRgU86XdMTMF8gabrXGVzjPH08f5oGKlhbVr6S0vdzoaDLWSe0KIsNLPlP4HNMPaISCVfikHTHMKgAwc+gaEisUQpDUb/27BrWWdls/WXgRaEdRjXLrH7ngEI69I9QcQ8ac/IqqmwtQd6/lvC2OI0xt4DGxIekmZi0Fn6q6ys+LEz0W9UUiIRPBeYDyHjQMevQky1bhWQV4pJ3EFhbim74uP7WPG4wjdjklcI\u003d\"}]}},battery:{stored:0L},average_power:[I;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
+      },
+      "e:A": {
+        "nbt": "{id:\"buildcraftsilicon:laser\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},data-version:2,deltas:{},owner:{Name:\"meatballcraft\",Id:\"8c381e15-592d-4003-ae11-6367e203127b\",Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczMjY1NzkwNjM4OSwKICAicHJvZmlsZUlkIiA6ICI4YzM4MWUxNTU5MmQ0MDAzYWUxMTYzNjdlMjAzMTI3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtZWF0YmFsbGNyYWZ0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcyNzNhYjFhZWNmNWY5MmNiMzU4ZjhlYmFjNTg1Yjc0M2VjNjY1N2NkZWZiOTA0YzE0MmQyYzY4ZTg2ZDQ3MDAiCiAgICB9CiAgfQp9\",Signature:\"dozkTW4omm3dXb02u116sKgPykrX/f9zufhHuqwzbu8Z9fQiMnj4FyCfa4An7FQLgRpg9F1QJAA1QX3i6xu5u7CpW6QJGeBZ5+oEdqdbF3TwU2RhQ22dxJyKDdEYnCOuf9EhxBImVSgyltsCnxVSh52AaMrDgVVZHEMAhRdWOTX0Ne5UGG2N/3fViu8g6z3aVh4tMhVg87V8PBs4SPJRSpSYZL24894Aj00J/SJ1NHxdL4MTjgeqCrR5x//GsctEt7abwXGplPhPBgClotJClAPjaI762o1JpR6K6Fda4Y6Vl1djCzuhtfyHykGAo5v8M86DLui6X0siXQaQyMpw6G8YVpZuh5pe+Yx5FUBxGFmULcO0oe8xyQFvUYGfOPXNTy0QPrd/kUqoPjUNAFfVJLJgpGT9u0HOTWr4zlUIKj/86LdCMH+kXxyi1Yk4ReAovEE9u/LRgU86XdMTMF8gabrXGVzjPH08f5oGKlhbVr6S0vdzoaDLWSe0KIsNLPlP4HNMPaISCVfikHTHMKgAwc+gaEisUQpDUb/27BrWWdls/WXgRaEdRjXLrH7ngEI69I9QcQ8ac/IqqmwtQd6/lvC2OI0xt4DGxIekmZi0Fn6q6ys+LEz0W9UUiIRPBeYDyHjQMevQky1bhWQV4pJ3EFhbim74uP7WPG4wjdjklcI\u003d\"}]}},battery:{stored:0L},average_power:[I;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
+      },
+      "f:A": {
+        "nbt": "{id:\"buildcraftsilicon:assembly_table\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},data-version:2,deltas:{},owner:{Name:\"meatballcraft\",Id:\"8c381e15-592d-4003-ae11-6367e203127b\",Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczMjY1NzkwNjM4OSwKICAicHJvZmlsZUlkIiA6ICI4YzM4MWUxNTU5MmQ0MDAzYWUxMTYzNjdlMjAzMTI3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtZWF0YmFsbGNyYWZ0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcyNzNhYjFhZWNmNWY5MmNiMzU4ZjhlYmFjNTg1Yjc0M2VjNjY1N2NkZWZiOTA0YzE0MmQyYzY4ZTg2ZDQ3MDAiCiAgICB9CiAgfQp9\",Signature:\"dozkTW4omm3dXb02u116sKgPykrX/f9zufhHuqwzbu8Z9fQiMnj4FyCfa4An7FQLgRpg9F1QJAA1QX3i6xu5u7CpW6QJGeBZ5+oEdqdbF3TwU2RhQ22dxJyKDdEYnCOuf9EhxBImVSgyltsCnxVSh52AaMrDgVVZHEMAhRdWOTX0Ne5UGG2N/3fViu8g6z3aVh4tMhVg87V8PBs4SPJRSpSYZL24894Aj00J/SJ1NHxdL4MTjgeqCrR5x//GsctEt7abwXGplPhPBgClotJClAPjaI762o1JpR6K6Fda4Y6Vl1djCzuhtfyHykGAo5v8M86DLui6X0siXQaQyMpw6G8YVpZuh5pe+Yx5FUBxGFmULcO0oe8xyQFvUYGfOPXNTy0QPrd/kUqoPjUNAFfVJLJgpGT9u0HOTWr4zlUIKj/86LdCMH+kXxyi1Yk4ReAovEE9u/LRgU86XdMTMF8gabrXGVzjPH08f5oGKlhbVr6S0vdzoaDLWSe0KIsNLPlP4HNMPaISCVfikHTHMKgAwc+gaEisUQpDUb/27BrWWdls/WXgRaEdRjXLrH7ngEI69I9QcQ8ac/IqqmwtQd6/lvC2OI0xt4DGxIekmZi0Fn6q6ys+LEz0W9UUiIRPBeYDyHjQMevQky1bhWQV4pJ3EFhbim74uP7WPG4wjdjklcI\u003d\"}]}},items:{inv:{items:[{id:\"minecraft:air\",Count:2,Damage:0s},{id:\"minecraft:air\",Count:2,Damage:0s},{id:\"minecraft:air\",Count:2,Damage:0s},{id:\"minecraft:air\",Count:2,Damage:0s},{id:\"minecraft:air\",Count:2,Damage:0s},{id:\"minecraft:air\",Count:2,Damage:0s},{id:\"minecraft:air\",Count:2,Damage:0s},{id:\"minecraft:air\",Count:2,Damage:0s},{id:\"minecraft:air\",Count:2,Damage:0s},{id:\"minecraft:air\",Count:2,Damage:0s},{id:\"minecraft:air\",Count:2,Damage:0s},{id:\"minecraft:air\",Count:2,Damage:0s}]}},power:0L,recipes_states:[]}"
+      },
+      "g:A": {
+        "nbt": "{id:\"buildcraftsilicon:laser\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},data-version:2,deltas:{},owner:{Name:\"meatballcraft\",Id:\"8c381e15-592d-4003-ae11-6367e203127b\",Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczMjY1NzkwNjM4OSwKICAicHJvZmlsZUlkIiA6ICI4YzM4MWUxNTU5MmQ0MDAzYWUxMTYzNjdlMjAzMTI3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtZWF0YmFsbGNyYWZ0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcyNzNhYjFhZWNmNWY5MmNiMzU4ZjhlYmFjNTg1Yjc0M2VjNjY1N2NkZWZiOTA0YzE0MmQyYzY4ZTg2ZDQ3MDAiCiAgICB9CiAgfQp9\",Signature:\"dozkTW4omm3dXb02u116sKgPykrX/f9zufhHuqwzbu8Z9fQiMnj4FyCfa4An7FQLgRpg9F1QJAA1QX3i6xu5u7CpW6QJGeBZ5+oEdqdbF3TwU2RhQ22dxJyKDdEYnCOuf9EhxBImVSgyltsCnxVSh52AaMrDgVVZHEMAhRdWOTX0Ne5UGG2N/3fViu8g6z3aVh4tMhVg87V8PBs4SPJRSpSYZL24894Aj00J/SJ1NHxdL4MTjgeqCrR5x//GsctEt7abwXGplPhPBgClotJClAPjaI762o1JpR6K6Fda4Y6Vl1djCzuhtfyHykGAo5v8M86DLui6X0siXQaQyMpw6G8YVpZuh5pe+Yx5FUBxGFmULcO0oe8xyQFvUYGfOPXNTy0QPrd/kUqoPjUNAFfVJLJgpGT9u0HOTWr4zlUIKj/86LdCMH+kXxyi1Yk4ReAovEE9u/LRgU86XdMTMF8gabrXGVzjPH08f5oGKlhbVr6S0vdzoaDLWSe0KIsNLPlP4HNMPaISCVfikHTHMKgAwc+gaEisUQpDUb/27BrWWdls/WXgRaEdRjXLrH7ngEI69I9QcQ8ac/IqqmwtQd6/lvC2OI0xt4DGxIekmZi0Fn6q6ys+LEz0W9UUiIRPBeYDyHjQMevQky1bhWQV4pJ3EFhbim74uP7WPG4wjdjklcI\u003d\"}]}},battery:{stored:0L},average_power:[I;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
       }
     },
     "shape": [
@@ -50,11 +92,9 @@
         [
           "_",
           "_",
-          "a",
-          "a",
-          "a",
-          "a",
-          "a",
+          "g:A",
+          "g:A",
+          "g:A",
           "_",
           "_"
         ],
@@ -65,68 +105,36 @@
           "_",
           "_",
           "_",
-          "_",
-          "_",
           "_"
         ],
         [
-          "a",
+          "d:A",
           "_",
           "_",
           "_",
           "_",
           "_",
-          "_",
-          "_",
-          "a"
+          "e:A"
         ],
         [
-          "a",
+          "d:A",
           "_",
           "_",
+          "f:A",
           "_",
           "_",
-          "_",
-          "_",
-          "_",
-          "a"
+          "e:A"
         ],
         [
-          "a",
+          "d:A",
           "_",
           "_",
           "_",
-          "d",
           "_",
           "_",
-          "_",
-          "a"
+          "e:A"
         ],
         [
-          "a",
-          "_",
-          "_",
-          "_",
-          "_",
-          "_",
-          "_",
-          "_",
-          "a"
-        ],
-        [
-          "a",
-          "_",
-          "_",
-          "_",
-          "_",
-          "_",
-          "_",
-          "_",
-          "a"
-        ],
-        [
-          "_",
-          "_",
           "_",
           "_",
           "_",
@@ -138,11 +146,9 @@
         [
           "_",
           "_",
-          "a",
-          "a",
-          "a",
-          "a",
-          "a",
+          "a:A",
+          "a:A",
+          "a:A",
           "_",
           "_"
         ]
@@ -155,13 +161,9 @@
           "c",
           "b",
           "c",
-          "b",
-          "c",
           "b"
         ],
         [
-          "c",
-          "b",
           "c",
           "b",
           "c",
@@ -177,13 +179,9 @@
           "c",
           "b",
           "c",
-          "b",
-          "c",
           "b"
         ],
         [
-          "c",
-          "b",
           "c",
           "b",
           "c",
@@ -199,8 +197,6 @@
           "c",
           "b",
           "c",
-          "b",
-          "c",
           "b"
         ],
         [
@@ -210,35 +206,9 @@
           "b",
           "c",
           "b",
-          "c",
-          "b",
           "c"
         ],
         [
-          "b",
-          "c",
-          "b",
-          "c",
-          "b",
-          "c",
-          "b",
-          "c",
-          "b"
-        ],
-        [
-          "c",
-          "b",
-          "c",
-          "b",
-          "c",
-          "b",
-          "c",
-          "b",
-          "c"
-        ],
-        [
-          "b",
-          "c",
           "b",
           "c",
           "b",
@@ -249,5 +219,5 @@
         ]
       ]
     ]
-  
+   
 }

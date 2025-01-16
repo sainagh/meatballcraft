@@ -349,6 +349,24 @@ addController(<modularmachinery:quantum_condenser_controller>, "modularmachinery
 
 addController(<modularmachinery:mythic_processor_melter_controller>, "modularmachinery:mythic_processor_melter");
 
+addController(<modularmachinery:berserker_crucible_controller>, "modularmachinery:berserker_crucible");
+
+addController(<modularmachinery:dyson_irradiator_top_controller>, "modularmachinery:dyson_irradiator_top");
+
+addController(<modularmachinery:dyson_irradiator_bottom_controller>, "modularmachinery:dyson_irradiator_bottom");
+
+addController(<modularmachinery:forge_of_the_wyvern_controller>, "modularmachinery:forge_of_the_wyvern");
+
+addController(<modularmachinery:shrine_of_the_sentient_meatballs_controller>, "modularmachinery:shrine_of_the_sentient_meatballs");
+
+addController(<modularmachinery:matter_reprocessor_controller>, "modularmachinery:matter_reprocessor");
+
+addController(<modularmachinery:plated_thermofabricator_controller>, "modularmachinery:plated_thermofabricator");
+
+addController(<modularmachinery:divine_combiner_controller>, "modularmachinery:divine_combiner");
+
+addController(<modularmachinery:eldritch_impetus_catalyzer_controller>, "modularmachinery:eldritch_impetus_catalyzer");
+
 
 
 // Leave this at the bottom of the file, as it depends on the oredict being filled

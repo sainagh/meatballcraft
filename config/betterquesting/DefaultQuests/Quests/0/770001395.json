@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    5
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis item will set the gamerule to disable command blocks chat output.\n\nMany dungeons use command blocks here, so it is recommended to do this as it helps to declutter the chat.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:forclient_setgamerules"
+      },
+      "name:8": "Chat Clutter",
+      "repeattime:3": 5000
+    }
+  },
+  "questID:3": 770001395,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:forclient_setgamerules"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

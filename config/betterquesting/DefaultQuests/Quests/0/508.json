@@ -59,6 +59,13 @@
         "0:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:puzzle_solution_marksamurai"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:eldritch_impetus_catalyzer"
+          }
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

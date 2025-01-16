@@ -1,18 +1,29 @@
 {
   "preRequisites:11": [
-    1313815980,
-    362
+    1313815980
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oWelcome to Chapter 10!\n\nThis is the end-game! You made it!",
+      "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "minecraft:nether_star"
+        "id:8": "contenttweaker:staff_of_the_lord_of_gluttony"
       },
       "name:8": "Long Live the Meatball Man"
     }
   },
   "questID:3": 1337626444,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:staff_of_the_lord_of_gluttony"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

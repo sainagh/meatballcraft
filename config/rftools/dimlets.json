@@ -1,5 +1,4 @@
 [
-  "Everything below this line will be regenerated from defaults every time. Remove this line if you do not want that",
   {
     "filter": {
       "name": "owner",
@@ -584,15 +583,83 @@
   },
   {
     "filter": {
-      "name": ".*_ore",
+      "mod": [
+        "thermalfoundation",
+        "thebetweenlands",
+        "divinerpg",
+        "mysticalagriculture"
+      ],
+      "name": ".*ore",
       "type": "material"
     },
     "settings": {
       "rarity": 4,
       "create": 2000,
-      "maintain": 1000,
+      "maintain": 100000,
       "ticks": 500,
-      "worldgen": true,
+      "worldgen": false,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "contenttweaker",
+      "name": ".*_divine_ore",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 4,
+      "create": 2000,
+      "maintain": 100000,
+      "ticks": 500,
+      "worldgen": false,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "contenttweaker",
+      "name": ".*_dragonsteel_ore",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 4,
+      "create": 2000,
+      "maintain": 100000,
+      "ticks": 500,
+      "worldgen": false,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "contenttweaker",
+      "name": [
+        "ogerite_ore",
+        "arkenstone",
+        "tartarite_ore",
+        "actualizing_stone",
+        "psichic_stone",
+        "dense_dimensional_shard_ore",
+        "etherium_ore",
+        "alchemical_ore",
+        "matrix_ore",
+        "rhenium_ore",
+        "sednanite_ore",
+        "holographic_ore",
+        "dense_gravitite_ore",
+        "naquadah_ore",
+        "ultimate_ore",
+        "myrmitite_ore"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 4,
+      "create": 2000,
+      "maintain": 100000,
+      "ticks": 500,
+      "worldgen": false,
       "dimlet": true
     }
   },
@@ -657,20 +724,6 @@
     "settings": {
       "worldgen": false,
       "dimlet": false
-    }
-  },
-  {
-    "filter": {
-      "name": "water",
-      "type": "liquid"
-    },
-    "settings": {
-      "rarity": 0,
-      "create": 10,
-      "maintain": 10,
-      "ticks": 10,
-      "worldgen": true,
-      "dimlet": true
     }
   },
   {
@@ -773,19 +826,6 @@
       "maintain": 5,
       "ticks": 5,
       "worldgen": true,
-      "dimlet": true
-    }
-  },
-  {
-    "filter": {
-      "type": "liquid"
-    },
-    "settings": {
-      "rarity": 5,
-      "create": 10000,
-      "maintain": 10000,
-      "ticks": 1000,
-      "worldgen": false,
       "dimlet": true
     }
   },
@@ -1184,16 +1224,6 @@
       "create": 100,
       "maintain": 0,
       "ticks": 1,
-      "worldgen": true,
-      "dimlet": true
-    }
-  },
-  {
-    "settings": {
-      "rarity": 0,
-      "create": 10,
-      "maintain": 10,
-      "ticks": 10,
       "worldgen": true,
       "dimlet": true
     }

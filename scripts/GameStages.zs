@@ -154,3 +154,11 @@ paparazzicamera.itemRightClick = function(stack, world, player, hand) {
 	return "Pass";
 };
 paparazzicamera.register();
+
+var wardeclarationmeatballman = VanillaFactory.createItem("true_name_meatball_man");
+wardeclarationmeatballman.maxStackSize = 64;
+wardeclarationmeatballman.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("gamestage add @p lostcitiesstage", player, world, true, true);
+	return "Pass";
+};
+wardeclarationmeatballman.register();

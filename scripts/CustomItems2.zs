@@ -1729,3 +1729,192 @@ battletower.maxStackSize = 64;
 battletower.beaconPayment = false;
 battletower.register();
 
+var demonwillsliver = VanillaFactory.createItem("demon_will_sliver");
+demonwillsliver.maxStackSize = 64;
+demonwillsliver.beaconPayment = false;
+demonwillsliver.register();
+
+var corrosivewillsliver = VanillaFactory.createItem("corrosive_will_sliver");
+corrosivewillsliver.maxStackSize = 64;
+corrosivewillsliver.beaconPayment = false;
+corrosivewillsliver.register();
+
+var destructivewillsliver = VanillaFactory.createItem("destructive_will_sliver");
+destructivewillsliver.maxStackSize = 64;
+destructivewillsliver.beaconPayment = false;
+destructivewillsliver.register();
+
+var vengefulwillsliver = VanillaFactory.createItem("vengeful_will_sliver");
+vengefulwillsliver.maxStackSize = 64;
+vengefulwillsliver.beaconPayment = false;
+vengefulwillsliver.register();
+
+var steadfastwillsliver = VanillaFactory.createItem("steadfast_will_sliver");
+steadfastwillsliver.maxStackSize = 64;
+steadfastwillsliver.beaconPayment = false;
+steadfastwillsliver.register();
+
+var infiniteresonator = VanillaFactory.createItem("infinite_resonator");
+infiniteresonator.maxStackSize = 64;
+infiniteresonator.beaconPayment = false;
+infiniteresonator.register();
+
+var heartofthehalitewarrior = VanillaFactory.createItem("heart_of_the_halite_warrior");
+heartofthehalitewarrior.maxStackSize = 64;
+heartofthehalitewarrior.beaconPayment = false;
+heartofthehalitewarrior.register();
+
+var stoneofuniversalbalance = VanillaFactory.createItem("stone_of_universal_balance");
+stoneofuniversalbalance.maxStackSize = 64;
+stoneofuniversalbalance.beaconPayment = false;
+stoneofuniversalbalance.register();
+
+var markofsacrifice = VanillaFactory.createItem("mark_of_sacrifice");
+markofsacrifice.maxStackSize = 64;
+markofsacrifice.beaconPayment = false;
+markofsacrifice.register();
+
+var meatballsectawing = VanillaFactory.createItem("meatballsecta_wing");
+meatballsectawing.maxStackSize = 64;
+meatballsectawing.beaconPayment = false;
+meatballsectawing.register();
+
+var multiblocksticc = VanillaFactory.createItem("multiblock_sticc");
+multiblocksticc.maxStackSize = 64;
+multiblocksticc.beaconPayment = false;
+multiblocksticc.register();
+
+var shieldfleshworld = VanillaFactory.createItem("shield_of_the_flesh_world");
+shieldfleshworld.maxStackSize = 64;
+shieldfleshworld.beaconPayment = false;
+shieldfleshworld.register();
+
+var fleshworldstaff = VanillaFactory.createItem("flesh_world_staff");
+fleshworldstaff.maxStackSize = 64;
+fleshworldstaff.beaconPayment = false;
+fleshworldstaff.register();
+
+var hungeringworldsoul = VanillaFactory.createItem("hungering_world_soul");
+hungeringworldsoul.maxStackSize = 64;
+hungeringworldsoul.beaconPayment = false;
+hungeringworldsoul.register();
+
+var shieldofthemeatballman = VanillaFactory.createItem("shield_of_the_meatball_man");
+shieldofthemeatballman.maxStackSize = 64;
+shieldofthemeatballman.beaconPayment = false;
+shieldofthemeatballman.register();
+
+var coreoftruechaos = VanillaFactory.createItem("true_chaos");
+coreoftruechaos.maxStackSize = 64;
+coreoftruechaos.beaconPayment = false;
+coreoftruechaos.register();
+
+var customdimlets = VanillaFactory.createItem("custom_dimlets");
+customdimlets.maxStackSize = 64;
+customdimlets.beaconPayment = false;
+customdimlets.register();
+
+var customdimensions = VanillaFactory.createItem("custom_dimensions");
+customdimensions.maxStackSize = 64;
+customdimensions.beaconPayment = false;
+customdimensions.register();
+
+var constructofwill = VanillaFactory.createItem("construct_of_will");
+constructofwill.maxStackSize = 64;
+constructofwill.beaconPayment = false;
+constructofwill.register();
+
+var draconicfabrial = VanillaFactory.createItem("draconic_fabrial");
+draconicfabrial.maxStackSize = 64;
+draconicfabrial.beaconPayment = false;
+draconicfabrial.register();
+
+var celestialnotes = VanillaFactory.createItem("celestial_notes");
+celestialnotes.maxStackSize = 64;
+celestialnotes.beaconPayment = false;
+celestialnotes.register();
+
+var etbufuel = VanillaFactory.createItem("etbu_fuel");
+etbufuel.maxStackSize = 64;
+etbufuel.beaconPayment = false;
+etbufuel.register();
+
+var emox241fuel = VanillaFactory.createItem("emox_241_fuel");
+emox241fuel.maxStackSize = 64;
+emox241fuel.beaconPayment = false;
+emox241fuel.register();
+
+var emox239fuel = VanillaFactory.createItem("emox_239_fuel");
+emox239fuel.maxStackSize = 64;
+emox239fuel.beaconPayment = false;
+emox239fuel.register();
+
+var deepdarkmatter = VanillaFactory.createItem("deep_dark_matter");
+deepdarkmatter.maxStackSize = 64;
+deepdarkmatter.beaconPayment = false;
+deepdarkmatter.register();
+
+var sunspiritcheese = VanillaFactory.createItem("sun_spirit_cheese");
+sunspiritcheese.maxStackSize = 64;
+sunspiritcheese.beaconPayment = false;
+sunspiritcheese.register();
+
+var gaia3tips = VanillaFactory.createItem("gaia_3_tips");
+gaia3tips.maxStackSize = 64;
+gaia3tips.beaconPayment = false;
+gaia3tips.register();
+
+var gaia4tips = VanillaFactory.createItem("gaia_4_tips");
+gaia4tips.maxStackSize = 64;
+gaia4tips.beaconPayment = false;
+gaia4tips.register();
+
+var energytipsandtricks = VanillaFactory.createItem("energy_management_tipsandtricks");
+energytipsandtricks.maxStackSize = 64;
+energytipsandtricks.beaconPayment = false;
+energytipsandtricks.register();
+
+var passivecraftingsubnets = VanillaFactory.createItem("passive_crafting_subnets");
+passivecraftingsubnets.maxStackSize = 64;
+passivecraftingsubnets.beaconPayment = false;
+passivecraftingsubnets.register();
+
+var tokenconfigurator = VanillaFactory.createItem("token_configurator");
+tokenconfigurator.maxStackSize = 64;
+tokenconfigurator.beaconPayment = false;
+tokenconfigurator.register();
+
+var helpfultippyhat = VanillaFactory.createItem("helpful_tippy_hat");
+helpfultippyhat.maxStackSize = 64;
+helpfultippyhat.beaconPayment = false;
+helpfultippyhat.register();
+
+var lostsoulofentropy = VanillaFactory.createItem("lost_soul_of_entropy");
+lostsoulofentropy.maxStackSize = 64;
+lostsoulofentropy.beaconPayment = false;
+lostsoulofentropy.register();
+
+var thaumatoriumautomation = VanillaFactory.createItem("thaumatorium_automation");
+thaumatoriumautomation.maxStackSize = 64;
+thaumatoriumautomation.beaconPayment = false;
+thaumatoriumautomation.register();
+
+var runicaltarautomation = VanillaFactory.createItem("runic_altar_automation");
+runicaltarautomation.maxStackSize = 64;
+runicaltarautomation.beaconPayment = false;
+runicaltarautomation.register();
+
+var plasmafarm = VanillaFactory.createItem("plasma_farm");
+plasmafarm.maxStackSize = 64;
+plasmafarm.beaconPayment = false;
+plasmafarm.register();
+
+var diaryrealmshifter = VanillaFactory.createItem("diary_of_a_realmshifter");
+diaryrealmshifter.maxStackSize = 64;
+diaryrealmshifter.beaconPayment = false;
+diaryrealmshifter.register();
+
+
+
+
+

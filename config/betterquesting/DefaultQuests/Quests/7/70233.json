@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Found in the Barathos Dimension from Advent of Ascension.\nCan be found from opening Shiny Boxes.\nCan be found in chests from a Baron Castle.\nSpawns between Y\u003d23 and Y\u003d36.\n\n- Written by Bluecat",
+      "desc:8": "§7§oFound in the Barathos Dimension from Advent of Ascension.\nCan be found from opening Shiny Boxes.\nCan be found in chests from a Baron Castle.\nSpawns between Y\u003d23 and Y\u003d36.\n\n- Written by Bluecat",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:baronyte_ingot"

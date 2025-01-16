@@ -95,3 +95,125 @@ bettercarpenter13.addItemOutput(<forestry:crafting_material:3>);
 bettercarpenter13.build();
 
 
+
+val betterthermofab1 = RecipeBuilder.newBuilder("betterthermofab1","plated_thermofabricator",20);
+betterthermofab1.addFluidInput(<fluid:glass>*500);
+betterthermofab1.addItemInput(<minecraft:blaze_powder>*5);
+betterthermofab1.addItemInput(<minecraft:redstone>*2);
+betterthermofab1.addItemOutput(<forestry:thermionic_tubes:7>*4);
+betterthermofab1.build();
+
+val betterthermofab2 = RecipeBuilder.newBuilder("betterthermofab2","plated_thermofabricator",20);
+betterthermofab2.addFluidInput(<fluid:glass>*500);
+betterthermofab2.addItemInput(<ore:itemRubber>*5);
+betterthermofab2.addItemInput(<minecraft:redstone>*2);
+betterthermofab2.addItemOutput(<forestry:thermionic_tubes:8>*4);
+betterthermofab2.build();
+
+val betterthermofab3 = RecipeBuilder.newBuilder("betterthermofab3","plated_thermofabricator",20);
+betterthermofab3.addFluidInput(<fluid:glass>*500);
+betterthermofab3.addItemInput(<forestry:apatite>*5);
+betterthermofab3.addItemInput(<minecraft:redstone>*2);
+betterthermofab3.addItemOutput(<forestry:thermionic_tubes:10>*4);
+betterthermofab3.build();
+
+val betterthermofab4 = RecipeBuilder.newBuilder("betterthermofab4","plated_thermofabricator",20);
+betterthermofab4.addFluidInput(<fluid:glass>*500);
+betterthermofab4.addItemInput(<minecraft:diamond>*5);
+betterthermofab4.addItemInput(<minecraft:redstone>*2);
+betterthermofab4.addItemOutput(<forestry:thermionic_tubes:5>*4);
+betterthermofab4.build();
+
+val betterthermofab5 = RecipeBuilder.newBuilder("betterthermofab5","plated_thermofabricator",20);
+betterthermofab5.addFluidInput(<fluid:glass>*500);
+betterthermofab5.addItemInput(<ore:ingotBronze>*5);
+betterthermofab5.addItemInput(<minecraft:redstone>*2);
+betterthermofab5.addItemOutput(<forestry:thermionic_tubes:2>*4);
+betterthermofab5.build();
+
+val betterthermofab6 = RecipeBuilder.newBuilder("betterthermofab6","plated_thermofabricator",20);
+betterthermofab6.addFluidInput(<fluid:glass>*500);
+betterthermofab6.addItemInput(<minecraft:emerald>*5);
+betterthermofab6.addItemInput(<minecraft:redstone>*2);
+betterthermofab6.addItemOutput(<forestry:thermionic_tubes:9>*4);
+betterthermofab6.build();
+
+val betterthermofab7 = RecipeBuilder.newBuilder("betterthermofab7","plated_thermofabricator",20);
+betterthermofab7.addFluidInput(<fluid:glass>*500);
+betterthermofab7.addItemInput(<minecraft:gold_ingot>*5);
+betterthermofab7.addItemInput(<minecraft:redstone>*2);
+betterthermofab7.addItemOutput(<forestry:thermionic_tubes:4>*4);
+betterthermofab7.build();
+
+val betterthermofab8 = RecipeBuilder.newBuilder("betterthermofab8","plated_thermofabricator",20);
+betterthermofab8.addFluidInput(<fluid:glass>*500);
+betterthermofab8.addItemInput(<minecraft:obsidian>*5);
+betterthermofab8.addItemInput(<minecraft:redstone>*2);
+betterthermofab8.addItemOutput(<forestry:thermionic_tubes:6>*4);
+betterthermofab8.build();
+
+val betterthermofab9 = RecipeBuilder.newBuilder("betterthermofab9","plated_thermofabricator",20);
+betterthermofab9.addFluidInput(<fluid:glass>*500);
+betterthermofab9.addItemInput(<ore:ingotCopper>*5);
+betterthermofab9.addItemInput(<minecraft:redstone>*2);
+betterthermofab9.addItemOutput(<forestry:thermionic_tubes:0>*4);
+betterthermofab9.build();
+
+val betterthermofab10 = RecipeBuilder.newBuilder("betterthermofab10","plated_thermofabricator",20);
+betterthermofab10.addFluidInput(<fluid:glass>*500);
+betterthermofab10.addItemInput(<minecraft:end_stone>*5);
+betterthermofab10.addItemInput(<minecraft:ender_eye>*2);
+betterthermofab10.addItemOutput(<forestry:thermionic_tubes:12>*4);
+betterthermofab10.build();
+
+val betterthermofab11 = RecipeBuilder.newBuilder("betterthermofab11","plated_thermofabricator",20);
+betterthermofab11.addFluidInput(<fluid:glass>*500);
+betterthermofab11.addItemInput(<ore:ingotTin>*5);
+betterthermofab11.addItemInput(<minecraft:redstone>*2);
+betterthermofab11.addItemOutput(<forestry:thermionic_tubes:1>*4);
+betterthermofab11.build();
+
+val betterthermofab12 = RecipeBuilder.newBuilder("betterthermofab12","plated_thermofabricator",20);
+betterthermofab12.addFluidInput(<fluid:glass>*500);
+betterthermofab12.addItemInput(<ore:gemLapis>*5);
+betterthermofab12.addItemInput(<minecraft:redstone>*2);
+betterthermofab12.addItemOutput(<forestry:thermionic_tubes:11>*4);
+betterthermofab12.build();
+
+val betterthermofab13 = RecipeBuilder.newBuilder("betterthermofab13","plated_thermofabricator",20);
+betterthermofab13.addFluidInput(<fluid:glass>*500);
+betterthermofab13.addItemInput(<ore:ingotIron>*5);
+betterthermofab13.addItemInput(<minecraft:redstone>*2);
+betterthermofab13.addItemOutput(<forestry:thermionic_tubes:3>*4);
+betterthermofab13.build();
+
+val betterthermofab14 = RecipeBuilder.newBuilder("betterthermofab14","plated_thermofabricator",20);
+betterthermofab14.addFluidInput(<fluid:glass>*500);
+betterthermofab14.addItemInput(<ore:oreRedstone>*5);
+betterthermofab14.addItemInput(<minecraft:repeater>*2);
+betterthermofab14.addItemOutput(<forestry:thermionic_tubes:13>*4);
+betterthermofab14.build();
+
+val betterthermofab15 = RecipeBuilder.newBuilder("betterthermofab15","plated_thermofabricator",20);
+betterthermofab15.addFluidInput(<fluid:glass>*500);
+betterthermofab15.addItemInput(<ore:ingotBronze>*4);
+betterthermofab15.addItemInput(<minecraft:emerald>*2);
+betterthermofab15.addItemInput(<ore:slimeball>*2);
+betterthermofab15.addItemOutput(<forestry:flexible_casing>);
+betterthermofab15.build();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

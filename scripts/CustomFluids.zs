@@ -800,3 +800,10 @@ hungeringfleshcatalyst.register();
 
 var infinitelyunholyradiactivemix = VanillaFactory.createFluid("infinitely_unholy_radioactive_mix", Color.fromHex("5cbf94"));
 infinitelyunholyradiactivemix.register();
+
+var fleshworldichor = VanillaFactory.createFluid("flesh_world_ichor", Color.fromHex("9bbabf"));
+fleshworldichor.register();
+
+var fractallitehalite = VanillaFactory.createFluid("fractallite_halite", Color.fromHex("17c414"));
+fractallitehalite.register();
+

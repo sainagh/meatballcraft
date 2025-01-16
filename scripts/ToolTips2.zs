@@ -24,10 +24,8 @@ import crafttweaker.item.IItemCondition;
 <modularmachinery:blockcontroller>.addTooltip(format.red("Requires the Controller Manual to become craftable"));
 <modularmachinery:blockcontroller>.addTooltip(format.red("Cannot be crafted using AE2, use a crafter instead (RECURSIVE RECIPE ONLY)"));
 <modularmachinery:blockcontroller>.addTooltip(format.red("IMPORTANT: you should make the specific controller for each machine using the blueprint recipe"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("The resulting controllers can be auto-built if right clicked with a stick"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("This controller block will work for all machines, but it will make things way more laggy"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("WARNING: do not place modular machines on chunk boundaries"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("WARNING: machines will void inputs if they are not getting enough RF/t"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("The resulting controllers can be auto-built if right clicked with a Multiblock Sticc"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("This controller block will work for all machines, but it will make things way more laggy, and multiblock may bug out if on chunk boundaries"));
 <modularmachinery:blockcontroller>.addTooltip(format.red("A huge thanks to Kasumi_Nova & Domi for working on and testing Modular Machinery Community Edition!"));
 
 
@@ -352,9 +350,9 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:unfathomable_breaker>.addTooltip(format.red("Key to a prison in a deep, dark place"));
 
-<techreborn:uumatter>.addTooltip(format.red("Produced by the matter fabricator (boosted with scrap)"));
+<techreborn:uumatter>.addTooltip(format.red("Produced by the Matter Reprocessor or by the Matter Fabricator"));
 
-<techreborn:part:33>.addTooltip(format.red("Produced by the recycler"));
+<techreborn:part:33>.addTooltip(format.red("Produced by the Matter Reprocessor or by the Recycler"));
 
 
 <contenttweaker:greater_gaia_spirit>.addTooltip(format.red("Dropped by a tier 2 Gaia Guardian"));
@@ -415,9 +413,9 @@ import crafttweaker.item.IItemCondition;
 
 <erebus:antlion_egg>.addTooltip(format.red("Dropped by the Antlion Overlord in the Erebus"));
 
-<dimdoors:unravelled_fabric>.addTooltip(format.red("Found in dimensional doors - mined with silk touch"));
+<dimdoors:unravelled_fabric>.addTooltip(format.red("Found in the Limbo - mined with silk touch"));
 
-<dimdoors:fabric>.addTooltip(format.red("Found in the limbo - mined with silk touch"));
+<dimdoors:fabric:*>.addTooltip(format.red("Fabric of reality is found in Dimensional Doors - mined with silk touch"));
 
 <contenttweaker:demonic_crystal_cluster>.addTooltip(format.red("Found in the Will Crystal Monolith in the Nether roof"));
 
@@ -576,7 +574,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:aeldunari>.addTooltip(format.green("Reusable for shapeless recipes"));
 
-<buildcraftsilicon:laser>.addTooltip(format.red("Connect to EnderIO conduits!"));
 
 <techreborn:industrial_blast_furnace>.addTooltip(format.red("3x4x3 hollow cuboid, machine touching the bottom layer"));
 <techreborn:industrial_blast_furnace>.addTooltip(format.red("you can do these things to increase the heat:"));
@@ -606,7 +603,6 @@ import crafttweaker.item.IItemCondition;
 
 <techreborn:fusion_control_computer>.addTooltip(format.red("You can right click the coils on the controller to place them automatically"));
 
-<erebus:stag_heart_raw>.addTooltip(format.red("Stag Beetle spawn eggs are craftable"));
 
 <nuclearcraft:part:2>.addTooltip(format.red("Plutonium Dust is a good source, but how do I get some?"));
 
@@ -791,13 +787,13 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:staff_of_iceika>.addTooltip(format.red("Use in the castle in the frozen world"));
 
-<teslacorelib:energy_tier1>.addTooltip(format.red("WARNING: this has a chance of deleting the machine if it's loaded and unloaded often, use in chunks you won't visit often"));
+<teslacorelib:energy_tier1>.addTooltip(format.red("WARNING: this has a chance of deleting the mob crusher if it's loaded and unloaded often, use in chunks you won't visit often"));
 
-<teslacorelib:energy_tier2>.addTooltip(format.red("WARNING: this has a chance of deleting the machine if it's loaded and unloaded often, use in chunks you won't visit often"));
+<teslacorelib:energy_tier2>.addTooltip(format.red("WARNING: this has a chance of deleting the mob crusher if it's loaded and unloaded often, use in chunks you won't visit often"));
 
-<teslacorelib:speed_tier1>.addTooltip(format.red("WARNING: this has a chance of deleting the machine if it's loaded and unloaded often, use in chunks you won't visit often"));
+<teslacorelib:speed_tier1>.addTooltip(format.red("WARNING: this has a chance of deleting the mob crusher if it's loaded and unloaded often, use in chunks you won't visit often"));
 
-<teslacorelib:speed_tier2>.addTooltip(format.red("WARNING: this has a chance of deleting the machine if it's loaded and unloaded often, use in chunks you won't visit often"));
+<teslacorelib:speed_tier2>.addTooltip(format.red("WARNING: this has a chance of deleting the mob crusher if it's loaded and unloaded often, use in chunks you won't visit often"));
 
 <contenttweaker:dragon_egg_omelette>.addTooltip(format.red("A cruel sacrifice for great power (Fabulous_Ampharos has a good sense of humor)"));
 
@@ -2023,7 +2019,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:myrmex_coolant_cell>.addTooltip(format.red("Cursed myrmitite buckets have a recipe"));
 
-<contenttweaker:singular_gravity_honey>.addTooltip(format.red("Will allow creative flight in all dimensions up to chapter 3"));
 
 <contenttweaker:black_hole_honey>.addTooltip(format.red("Will allow creative flight in all dimensions"));
 
@@ -2054,6 +2049,7 @@ import crafttweaker.item.IItemCondition;
 <buildinggadgets:copypastetool>.addTooltip(format.red("Use V to change mode"));
 
 <projecte:item.pe_philosophers_stone>.addTooltip(format.red("Use V to increase range, shift+V to reduce range, C to open the crafting grid"));
+<projecte:item.pe_philosophers_stone>.addTooltip(format.red("Use R to shoot projectiles that transform vanilla mobs into each other"));
 
 <projecte:item.pe_life_stone>.addTooltip(format.red("Requires EMC from a klein star to function!"));
 <projecte:item.pe_life_stone>.addTooltip(format.red("Press shift + X to turn on!"));
@@ -2719,7 +2715,6 @@ import crafttweaker.item.IItemCondition;
 <tconstruct:sharpening_kit>.addTooltip(format.red("Can be used to repair tools in your crafting table"));
 
 <naturescompass:naturescompass>.addTooltip(format.red("WARNING: do not craft in ME terminal or arcane transmutation tablet, it could cause a crash"));
-<extrautils2:biomemarker>.addTooltip(format.red("WARNING: do not craft in ME terminal or arcane transmutation tablet, it could cause a crash"));
 <extrautils2:terraformer:1>.addTooltip(format.red("WARNING: do not craft in ME terminal or arcane transmutation tablet, it could cause a crash"));
 
 <contenttweaker:recursive_recipes>.addTooltip(format.red("With regards to Not Yue"));
@@ -3101,7 +3096,7 @@ import crafttweaker.item.IItemCondition;
 
 <aoa3:vile_stone>.addTooltip(format.red("Right click the enigma table in the Vox ponds, make sure you build a cover for the drops"));
 
-<aoa3:uncharged_stone>.addTooltip(format.red("Right click the enigma table in mysterium, make sure you build a cover for the drops"));
+<aoa3:uncharged_stone>.addTooltip(format.red("Right click the enigma table in Vox Ponds, make sure you build a cover for the drops"));
 
 <aoa3:pure_water_stone>.addTooltip(format.red("Right click a Rune Post with a Water Bucket"));
 
@@ -3345,7 +3340,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:omothol_warp_cleanser>.addTooltip(format.red("Thanks to Tom for compiling the research steps!"));
 
-<thaumcraft:nugget:9>.addTooltip(format.red("Drop in a crucible to transform excess essentia into ctystals"));
+<thaumcraft:nugget:9>.addTooltip(format.red("Drop in a crucible to transform excess essentia into crystals"));
 
 <thaumcraft:tube>.addTooltip(format.red("Tube that transports one type of essentia at a time"));
 
@@ -3658,6 +3653,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:stormlight_fragment>.addTooltip(format.red("From the stormborn callstone"));
 
 <divinerpg:storm_sword>.addTooltip(format.red("Traded from Captain Merik in Arcana"));
+
 
 
 

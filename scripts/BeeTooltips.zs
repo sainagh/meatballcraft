@@ -276,6 +276,7 @@ static EFFECTS as IData = {
     "gendustry.bee.Warrior": "None",
     "gendustry.bee.white": "None",
     "gendustry.bee.yellow": "None",
+    "gendustry.bee.ThermallyExpanded": "None",
     "magicbees.speciesAbandoned": "Repulsion",
     "magicbees.speciesAESkystone": "Flammable",
     "magicbees.speciesAluminium": "None",

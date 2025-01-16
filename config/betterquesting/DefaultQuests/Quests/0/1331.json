@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "With enough energy, alpha particles in return can be split into the fundamental components of the atomic nucleus. With these hadrons, I should be able to do fairly controlled collisions to obtain more fundamental particles!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -19,7 +19,6 @@
   "questID:3": 1331,
   "tasks:9": {
     "0:10": {
-      "consume:1": 0,
       "index:3": 0,
       "requiredFluids:9": {
         "0:10": {

@@ -413,10 +413,10 @@
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>105</orbitalDistance>
             <orbitalTheta>30</orbitalTheta>
-			<orbitalPhi>30</orbitalPhi>
+            <orbitalPhi>30</orbitalPhi>
             <rotationalPeriod>38000</rotationalPeriod>
-			<fillerBlock>contenttweaker:ender_dolomite</fillerBlock>
-			<oceanBlock>thermalfoundation:fluid_ender</oceanBlock>
+            <fillerBlock>contenttweaker:ender_dolomite</fillerBlock>
+            <oceanBlock>tconstruct:blueslime</oceanBlock>
             <biomeIds>advancedrocketry:moondark,minecraft:ocean</biomeIds>
             <artifact>contenttweaker:unreachable</artifact>
 		</planet>

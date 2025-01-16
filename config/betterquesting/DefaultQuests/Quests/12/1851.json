@@ -24,17 +24,13 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "tardis:void_specs"
+          "id:8": "tardis:bowtie"
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "tardis:bowtie"
-        },
-        "2:10": {
-          "Count:3": 1,
           "id:8": "tardis:thirteen_coat"
         },
-        "3:10": {
+        "2:10": {
           "Count:3": 1,
           "id:8": "tardis:fourth_hat"
         }

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Created from a Tier 1 Void Ore Miner.\nYou\u0027ll need to craft some to get started.",
+      "desc:8": "§7§oCreated from a Tier 1 Void Ore Miner.\nYou\u0027ll need to craft some to get started.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "environmentaltech:litherite_crystal"

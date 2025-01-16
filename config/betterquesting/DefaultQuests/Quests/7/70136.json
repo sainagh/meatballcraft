@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Can drop when using Holystone tools.\nThe ore spawns in the Aether.",
+      "desc:8": "§7§oCan drop when using Holystone tools.\nThe ore spawns in the Aether.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aether_legacy:ambrosium_shard"

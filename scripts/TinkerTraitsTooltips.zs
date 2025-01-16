@@ -151,7 +151,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:trait_withering>.addTooltip(format.red("Applies wither"));
 <contenttweaker:trait_writable>.addTooltip(format.red("Bonus 1 modifier. If the whole tool is made of paper, you gain 2 modifiers."));
 <contenttweaker:trait_bloody_mary>.addTooltip(format.red("Deals more damage based on a mob's missing HP"));
-<contenttweaker:trait_synergy>.addTooltip(format.red("Auto repairs tool consuming steeleaves from hotbar"));
+<contenttweaker:trait_synergy>.addTooltip(format.red("Auto repairs tool using steeleaves from hotbar(dosen't consume), the more leaves, the faster the repair speed"));
 <contenttweaker:trait_antigravity>.addTooltip(format.red("Projectiles will not be effected by gravity"));
 <contenttweaker:trait_ingarage>.addTooltip(format.red("Extra five damage when in the shadow"));
 <contenttweaker:trait_undone>.addTooltip(format.red("Chance of removing an armor piece on critical hits"));

@@ -33,7 +33,7 @@ creeponiacallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn creeponia_dungeon", player, world, true, true);
+    Commands.call("pillar-spawn creeponia_dungeon", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -52,7 +52,7 @@ stormborncallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn stormborn_bee_callstone", player, world, true, true);
+    Commands.call("pillar-spawn stormborn_bee_callstone", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -71,7 +71,7 @@ deeplandscallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn deeplands_dungeon", player, world, true, true);
+    Commands.call("pillar-spawn deeplands_dungeon", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -90,7 +90,7 @@ crysteviacallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn crystevia_dungeon", player, world, true, true);
+    Commands.call("pillar-spawn crystevia_dungeon", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -109,7 +109,7 @@ irominecallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn iromine_dungeon", player, world, true, true);
+    Commands.call("pillar-spawn iromine_dungeon", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -128,7 +128,7 @@ boreancallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn borean_dungeon", player, world, true, true);
+    Commands.call("pillar-spawn borean_dungeon", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -147,7 +147,7 @@ lunaluscallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn lunalus_dungeon", player, world, true, true);
+    Commands.call("pillar-spawn lunalus_dungeon", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -166,7 +166,7 @@ wildwoodcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn wildwood_dungeon", player, world, true, true);
+    Commands.call("pillar-spawn wildwood_dungeon", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -185,7 +185,7 @@ skytherncallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn skythern_dungeon", player, world, true, true);
+    Commands.call("pillar-spawn skythern_dungeon", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -551,8 +551,8 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("give @p contenttweaker:astral_lizardite", player, world, true, true);
-    Commands.call("give @p contenttweaker:astral_lizardite", player, world, true, true);
+    Commands.call("give @p contenttweaker:astral_lizardite", player, world, false, true);
+    Commands.call("give @p contenttweaker:astral_lizardite", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -572,7 +572,7 @@ immortalliscallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn immortallis_dungeon", player, world, true, true);
+    Commands.call("pillar-spawn immortallis_dungeon", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -591,7 +591,7 @@ horrificcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn casa_degli_orrori", player, world, true, true);
+    Commands.call("pillar-spawn casa_degli_orrori", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -610,7 +610,7 @@ harbingercallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn harbinger_castle", player, world, true, true);
+    Commands.call("pillar-spawn harbinger_castle", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -629,7 +629,7 @@ dreamcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn vethea_dungeon", player, world, true, true);
+    Commands.call("pillar-spawn vethea_dungeon", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -648,7 +648,7 @@ nightmarecallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn nighmare_dungeon", player, world, true, true);
+    Commands.call("pillar-spawn nighmare_dungeon", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -668,7 +668,7 @@ sacredcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn recursion_temple_final", player, world, true, true);
+    Commands.call("pillar-spawn recursion_temple_final", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -687,7 +687,7 @@ callofthehaunted.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn ghost_disk_dungeon", player, world, true, true);
+    Commands.call("pillar-spawn ghost_disk_dungeon", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -706,7 +706,7 @@ recursionprisonkey.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn recursion_prison_arena", player, world, true, true);
+    Commands.call("pillar-spawn recursion_prison_arena", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -725,8 +725,8 @@ stickycallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn big_bouncy_castle", player, world, true, true);
-    // Commands.call("summon Slime ~ ~10 ~ {Size:100,ActiveEffects:[{Id:10,Amplifier:4,Duration:999999},{Id:6,Amplifier:250,Duration:999999}],HandItems:[{Count:1,id:\"contenttweaker:big_slime\"},{}],HandDropChances:[1.0f,0.0f],Health:3000f}", player, world, true, true);
+    Commands.call("pillar-spawn big_bouncy_castle", player, world, false, true);
+    // Commands.call("summon Slime ~ ~10 ~ {Size:100,ActiveEffects:[{Id:10,Amplifier:4,Duration:999999},{Id:6,Amplifier:250,Duration:999999}],HandItems:[{Count:1,id:\"contenttweaker:big_slime\"},{}],HandDropChances:[1.0f,0.0f],Health:3000f}", player, world, false, true);
     player.sendChat("Kill it!");
     stack.shrink(1);
     return "PASS";
@@ -749,8 +749,8 @@ runickey.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn runandor_structure_superclunk", player, world, true, true);
-    //Commands.call("summon aoa3:clunkhead ~-5 ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:clunky_chunky_brick\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, true, true);
+    Commands.call("pillar-spawn runandor_structure_superclunk", player, world, false, true);
+    //Commands.call("summon aoa3:clunkhead ~-5 ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:clunky_chunky_brick\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, false, true);
     player.sendChat("Kill them all!");
     stack.shrink(1);
     return "PASS";
@@ -765,7 +765,7 @@ secretweapon.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon mightyenderchicken:ent_enderchicken ~ ~30 ~ {HandItems:[{Count:1,id:\"contenttweaker:recursive_feather\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0}],Health:2000f}", player, world, true, true);
+    Commands.call("summon mightyenderchicken:ent_enderchicken ~ ~30 ~ {HandItems:[{Count:1,id:\"contenttweaker:recursive_feather\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0}],Health:2000f}", player, world, false, true);
     player.sendChat("Kill them all!");
     stack.shrink(1);
     return "PASS";
@@ -794,7 +794,7 @@ arcaneprisonkey.itemRightClick = function(stack, world, player, hand) {
     }
 
 
-    Commands.call("summon divinerpg:death_hound ~7 ~1 ~7 {HandItems:[{Count:1,id:\"contenttweaker:sympan_spirit\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:20000.0},{Name:generic.attackDamage, Base:10000.0}],Health:20000f}", player, world, true, true);
+    Commands.call("summon divinerpg:death_hound ~7 ~1 ~7 {HandItems:[{Count:1,id:\"contenttweaker:sympan_spirit\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:20000.0},{Name:generic.attackDamage, Base:10000.0}],Health:20000f}", player, world, false, true);
     player.sendChat("Kill it!");
     stack.shrink(1);
     return "PASS";
@@ -833,7 +833,7 @@ callofthejudge.itemRightClick = function(stack, world, player, hand) {
     
 	
 
-    Commands.call("setblock ~ ~6 ~ contenttweaker:scale_of_the_ancient_heart", player, world, true, true);
+    Commands.call("setblock ~ ~6 ~ contenttweaker:scale_of_the_ancient_heart", player, world, false, true);
 
     return "PASS";
 
@@ -868,20 +868,20 @@ aesirrift.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("fill ~-2 ~0 ~-2 ~-2 ~0 ~2 contenttweaker:asgard_furnace_brick 0", player, world, true, true);
-    Commands.call("fill ~2 ~0 ~-2 ~2 ~0 ~2 contenttweaker:asgard_furnace_brick 0", player, world, true, true);
-    Commands.call("fill ~-2 ~0 ~-2 ~2 ~0 ~-2 contenttweaker:asgard_furnace_brick 0", player, world, true, true);
-    Commands.call("fill ~-2 ~0 ~2 ~2 ~0 ~2 contenttweaker:asgard_furnace_brick 0", player, world, true, true);
+    Commands.call("fill ~-2 ~0 ~-2 ~-2 ~0 ~2 contenttweaker:asgard_furnace_brick 0", player, world, false, true);
+    Commands.call("fill ~2 ~0 ~-2 ~2 ~0 ~2 contenttweaker:asgard_furnace_brick 0", player, world, false, true);
+    Commands.call("fill ~-2 ~0 ~-2 ~2 ~0 ~-2 contenttweaker:asgard_furnace_brick 0", player, world, false, true);
+    Commands.call("fill ~-2 ~0 ~2 ~2 ~0 ~2 contenttweaker:asgard_furnace_brick 0", player, world, false, true);
 
-    Commands.call("fill ~-2 ~2 ~-2 ~-2 ~2 ~2 contenttweaker:asgard_furnace_brick 0", player, world, true, true);
-    Commands.call("fill ~2 ~2 ~-2 ~2 ~2 ~2 contenttweaker:asgard_furnace_brick 0", player, world, true, true);
-    Commands.call("fill ~-2 ~2 ~-2 ~2 ~2 ~-2 contenttweaker:asgard_furnace_brick 0", player, world, true, true);
-    Commands.call("fill ~-2 ~2 ~2 ~2 ~2 ~2 contenttweaker:asgard_furnace_brick 0", player, world, true, true);
+    Commands.call("fill ~-2 ~2 ~-2 ~-2 ~2 ~2 contenttweaker:asgard_furnace_brick 0", player, world, false, true);
+    Commands.call("fill ~2 ~2 ~-2 ~2 ~2 ~2 contenttweaker:asgard_furnace_brick 0", player, world, false, true);
+    Commands.call("fill ~-2 ~2 ~-2 ~2 ~2 ~-2 contenttweaker:asgard_furnace_brick 0", player, world, false, true);
+    Commands.call("fill ~-2 ~2 ~2 ~2 ~2 ~2 contenttweaker:asgard_furnace_brick 0", player, world, false, true);
 
-    Commands.call("fill ~-2 ~0 ~-2 ~-2 ~2 ~-2 contenttweaker:asgard_furnace_brick 0", player, world, true, true);
-    Commands.call("fill ~2 ~0 ~-2 ~2 ~2 ~-2 contenttweaker:asgard_furnace_brick 0", player, world, true, true);
-    Commands.call("fill ~-2 ~0 ~2 ~-2 ~2 ~2 contenttweaker:asgard_furnace_brick 0", player, world, true, true);
-    Commands.call("fill ~2 ~0 ~2 ~2 ~2 ~2 contenttweaker:asgard_furnace_brick 0", player, world, true, true);
+    Commands.call("fill ~-2 ~0 ~-2 ~-2 ~2 ~-2 contenttweaker:asgard_furnace_brick 0", player, world, false, true);
+    Commands.call("fill ~2 ~0 ~-2 ~2 ~2 ~-2 contenttweaker:asgard_furnace_brick 0", player, world, false, true);
+    Commands.call("fill ~-2 ~0 ~2 ~-2 ~2 ~2 contenttweaker:asgard_furnace_brick 0", player, world, false, true);
+    Commands.call("fill ~2 ~0 ~2 ~2 ~2 ~2 contenttweaker:asgard_furnace_brick 0", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -902,8 +902,8 @@ mossygravedust.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set night", player, world, true, true);
-    Commands.call("summon mod_lavacow:sludgelord ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, true, true);
+    // Commands.call("time set night", player, world, false, true);
+    Commands.call("summon mod_lavacow:sludgelord ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f]}", player, world, false, true);
     player.sendChat("Kill it!");
     stack.shrink(1);
     return "PASS";
@@ -923,8 +923,8 @@ unusuallyheavybone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set night", player, world, true, true);
-    Commands.call("summon aoa3:bone_creature ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:hard_bone\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:10.0}],Health:1000f}", player, world, true, true);
+    // Commands.call("time set night", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:hard_bone\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:10.0}],Health:1000f}", player, world, false, true);
     player.sendChat("Kill it!");
     stack.shrink(1);
     return "PASS";
@@ -944,7 +944,7 @@ summoningcomputer.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon aoa3:polytom ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:fluix_microcontroller\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:300.0}],Health:3000f}", player, world, true, true);
+    Commands.call("summon aoa3:polytom ~ ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:fluix_microcontroller\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:300.0}],Health:3000f}", player, world, false, true);
     player.sendChat("Kill it!");
     stack.shrink(1);
     return "PASS";
@@ -969,18 +969,18 @@ skeletalcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set night", player, world, true, true);
-    Commands.call("pillar-spawn spring_bee_dungeon", player, world, true, true);
-    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
-    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
-    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"iceandfire:dread_key\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
-    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
-    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
-    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
-    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
-    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
-    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
-    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, true, true);
+    // Commands.call("time set night", player, world, false, true);
+    Commands.call("pillar-spawn spring_bee_dungeon", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"iceandfire:dread_key\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:100f}", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1001,8 +1001,8 @@ fluixcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set night", player, world, true, true);
-    Commands.call("pillar-spawn arbiter_structure_end", player, world, true, true);
+    // Commands.call("time set night", player, world, false, true);
+    Commands.call("pillar-spawn arbiter_structure_end", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1164,7 +1164,7 @@ vibratingmithminiteschythe.itemRightClick = function(stack, world, player, hand)
     }
     player.sendChat("Use on tainted soil");
 
-    Commands.call("fill ~2 ~2 ~2 ~-2 ~-2 ~-2 contenttweaker:ichor 0 replace thaumcraft:taint_soil", player, world, true, true);
+    Commands.call("fill ~2 ~2 ~2 ~-2 ~-2 ~-2 contenttweaker:ichor 0 replace thaumcraft:taint_soil", player, world, false, true);
 
     return "PASS";
 
@@ -1184,7 +1184,7 @@ taintedcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn taint_callstone_dungeon", player, world, true, true);
+    Commands.call("pillar-spawn taint_callstone_dungeon", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1204,11 +1204,11 @@ radiatingcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn uranium_bee_callstone", player, world, true, true);
-    Commands.call("summon aoa3:nightfly ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:blue_matter\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, true, true);
-    Commands.call("summon aoa3:nightfly ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:blue_matter\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, true, true);
-    Commands.call("summon aoa3:nightfly ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:blue_matter\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, true, true);
-    Commands.call("summon aoa3:nightfly ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:blue_matter\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, true, true);
+    Commands.call("pillar-spawn uranium_bee_callstone", player, world, false, true);
+    Commands.call("summon aoa3:nightfly ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:blue_matter\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, false, true);
+    Commands.call("summon aoa3:nightfly ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:blue_matter\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, false, true);
+    Commands.call("summon aoa3:nightfly ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:blue_matter\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, false, true);
+    Commands.call("summon aoa3:nightfly ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:blue_matter\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1229,17 +1229,17 @@ demonologistcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn haumea_structure_callstone", player, world, true, true);
-    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon aoa3:deinotherium ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:baku_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:300.0}],Health:3000f,CustomName:\"Baku\"}", player, world, true, true);
-    // Commands.call("give @p contenttweaker:haumea_spinel", player, world, true, true);
+    Commands.call("pillar-spawn haumea_structure_callstone", player, world, false, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, false, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, false, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, false, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, false, true);
+    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, false, true);
+    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, false, true);
+    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, false, true);
+    Commands.call("summon aoa3:night_reaper ~ ~4 ~ {HandItems:[{Count:1,id:\"bewitchment:demon_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, false, true);
+    Commands.call("summon aoa3:deinotherium ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:baku_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:300.0}],Health:3000f,CustomName:\"Baku\"}", player, world, false, true);
+    // Commands.call("give @p contenttweaker:haumea_spinel", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1259,8 +1259,8 @@ armorercallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn osiris_structure_callstone", player, world, true, true);
-    // Commands.call("give @p contenttweaker:osiris_spinel", player, world, true, true);
+    Commands.call("pillar-spawn osiris_structure_callstone", player, world, false, true);
+    // Commands.call("give @p contenttweaker:osiris_spinel", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1280,18 +1280,18 @@ undeadcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn hard_mode_callstone", player, world, true, true);
-    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:100.0}],Health:100f}", player, world, true, true);
-    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:100.0}],Health:100f}", player, world, true, true);
-    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:100.0}],Health:100f}", player, world, true, true);
-    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:100.0}],Health:100f}", player, world, true, true);
-    Commands.call("summon mod_lavacow:parasite ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:1.0}],Health:100f}", player, world, true, true);
-    Commands.call("summon mod_lavacow:ithaqua ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon mod_lavacow:ithaqua ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon mod_lavacow:sludgelord ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon mod_lavacow:sludgelord ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon mod_lavacow:unburied ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
-    Commands.call("summon mod_lavacow:unburied ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, true, true);
+    Commands.call("pillar-spawn hard_mode_callstone", player, world, false, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:100.0}],Health:100f}", player, world, false, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:100.0}],Health:100f}", player, world, false, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:100.0}],Health:100f}", player, world, false, true);
+    Commands.call("summon abyssalcraft:demoncow ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:100.0}],Health:100f}", player, world, false, true);
+    Commands.call("summon mod_lavacow:parasite ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100.0},{Name:generic.attackDamage, Base:1.0}],Health:100f}", player, world, false, true);
+    Commands.call("summon mod_lavacow:ithaqua ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, false, true);
+    Commands.call("summon mod_lavacow:ithaqua ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, false, true);
+    Commands.call("summon mod_lavacow:sludgelord ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, false, true);
+    Commands.call("summon mod_lavacow:sludgelord ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, false, true);
+    Commands.call("summon mod_lavacow:unburied ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, false, true);
+    Commands.call("summon mod_lavacow:unburied ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:sentient_meatball\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:100.0}],Health:1000f}", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1312,7 +1312,7 @@ betweenlandscallstone0.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn betweenlands_callstone_ores", player, world, true, true);
+    Commands.call("pillar-spawn betweenlands_callstone_ores", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1333,7 +1333,7 @@ betweenlandscallstone1.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn betweenlands_callstone_spirit_tree", player, world, true, true);
+    Commands.call("pillar-spawn betweenlands_callstone_spirit_tree", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1353,7 +1353,7 @@ betweenlandscallstone2.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn betweenlands_callstone_chiromaw", player, world, true, true);
+    Commands.call("pillar-spawn betweenlands_callstone_chiromaw", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1373,7 +1373,7 @@ betweenlandscallstone3.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn betweenlands_callstone_potions", player, world, true, true);
+    Commands.call("pillar-spawn betweenlands_callstone_potions", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1393,7 +1393,7 @@ betweenlandscallstone4.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn betweenlands_callstone_tar", player, world, true, true);
+    Commands.call("pillar-spawn betweenlands_callstone_tar", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1413,7 +1413,7 @@ betweenlandscallstone5.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn betweenlands_callstone_5", player, world, true, true);
+    Commands.call("pillar-spawn betweenlands_callstone_5", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1433,7 +1433,7 @@ betweenlandscallstone6.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn betweenlands_callstone_6", player, world, true, true);
+    Commands.call("pillar-spawn betweenlands_callstone_6", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1453,7 +1453,7 @@ betweenlandscallstone7.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn betweenlands_callstone_sludge", player, world, true, true);
+    Commands.call("pillar-spawn betweenlands_callstone_sludge", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1473,7 +1473,7 @@ betweenlandscallstone8.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn betweenlands_callstone_final", player, world, true, true);
+    Commands.call("pillar-spawn betweenlands_callstone_final", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1494,9 +1494,9 @@ constructorsummoner.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon divinerpg:dungeon_constructor ~ ~1 ~ {HandItems:[{Count:1,id:\"divinerpg:soul_key\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, true, true);
-    Commands.call("summon divinerpg:dungeon_constructor ~ ~1 ~ {HandItems:[{Count:1,id:\"divinerpg:sludge_key\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, true, true);
-    Commands.call("summon divinerpg:dungeon_constructor ~ ~1 ~ {HandItems:[{Count:1,id:\"divinerpg:ancient_key\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, true, true);
+    Commands.call("summon divinerpg:dungeon_constructor ~ ~1 ~ {HandItems:[{Count:1,id:\"divinerpg:soul_key\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, false, true);
+    Commands.call("summon divinerpg:dungeon_constructor ~ ~1 ~ {HandItems:[{Count:1,id:\"divinerpg:sludge_key\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, false, true);
+    Commands.call("summon divinerpg:dungeon_constructor ~ ~1 ~ {HandItems:[{Count:1,id:\"divinerpg:ancient_key\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500.0},{Name:generic.attackDamage, Base:30.0}],Health:500f}", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1516,7 +1516,7 @@ wargeneralsummoner.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon divinerpg:war_general ~ ~1 ~ ", player, world, true, true);
+    Commands.call("summon divinerpg:war_general ~ ~1 ~ ", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1536,7 +1536,7 @@ lordsummoner.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon divinerpg:lord_vatticus ~ ~1 ~", player, world, true, true);
+    Commands.call("summon divinerpg:lord_vatticus ~ ~1 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1551,12 +1551,12 @@ strangecharm.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, true, true);
-    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, true, true);
-    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, true, true);
-    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, true, true);
-    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, true, true);
-    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, true, true);
+    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, false, true);
+    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, false, true);
+    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, false, true);
+    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, false, true);
+    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, false, true);
+    Commands.call("summon abyssalcraft:depthsghoul ~ ~1 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1577,8 +1577,8 @@ ptah_callstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn ptah_structure_callstone", player, world, true, true);
-    // Commands.call("give @p contenttweaker:ptah_spinel", player, world, true, true);
+    Commands.call("pillar-spawn ptah_structure_callstone", player, world, false, true);
+    // Commands.call("give @p contenttweaker:ptah_spinel", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1598,8 +1598,8 @@ trinitycallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn hator_structure_callstone", player, world, true, true);
-//     Commands.call("give @p contenttweaker:hator_spinel", player, world, true, true);
+    Commands.call("pillar-spawn hator_structure_callstone", player, world, false, true);
+//     Commands.call("give @p contenttweaker:hator_spinel", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1620,8 +1620,8 @@ peacefuloathcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn europa_structure_callstone", player, world, true, true);
-    // Commands.call("give @p contenttweaker:europa_spinel", player, world, true, true);
+    Commands.call("pillar-spawn europa_structure_callstone", player, world, false, true);
+    // Commands.call("give @p contenttweaker:europa_spinel", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1641,8 +1641,8 @@ gundevilcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn falacer_structure_callstone", player, world, true, true);
-    // Commands.call("give @p contenttweaker:falacer_spinel", player, world, true, true);
+    Commands.call("pillar-spawn falacer_structure_callstone", player, world, false, true);
+    // Commands.call("give @p contenttweaker:falacer_spinel", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1662,9 +1662,9 @@ unburiedcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn oi_structure_callstone", player, world, true, true);
-    // Commands.call("give @p contenttweaker:oi_spinel", player, world, true, true);
-    Commands.call("summon iceandfire:dread_knight ~ ~8 ~ {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"techreborn:nuke\"}],HandDropChances:[1.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:8000.0},{Name:generic.attackDamage, Base:100.0}],Health:8000f,CustomName:\"Glimpse of the Meatball Man\"}", player, world, true, true);
+    Commands.call("pillar-spawn oi_structure_callstone", player, world, false, true);
+    // Commands.call("give @p contenttweaker:oi_spinel", player, world, false, true);
+    Commands.call("summon iceandfire:dread_knight ~ ~8 ~ {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"techreborn:nuke\"}],HandDropChances:[1.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:8000.0},{Name:generic.attackDamage, Base:100.0}],Health:8000f,CustomName:\"Glimpse of the Meatball Man\"}", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1684,9 +1684,9 @@ anemiccallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn orcus_structure_callstone", player, world, true, true);
-    // Commands.call("give @p contenttweaker:orcus_spinel", player, world, true, true);
-    Commands.call("summon thebetweenlands:blood_snail ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:eldrich_blood_slime\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:6000.0},{Name:generic.attackDamage, Base:100.0}],Health:6000f,CustomName:\"Gashuhn the Blood God\"}", player, world, true, true);
+    Commands.call("pillar-spawn orcus_structure_callstone", player, world, false, true);
+    // Commands.call("give @p contenttweaker:orcus_spinel", player, world, false, true);
+    Commands.call("summon thebetweenlands:blood_snail ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:eldrich_blood_slime\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:6000.0},{Name:generic.attackDamage, Base:100.0}],Health:6000f,CustomName:\"Gashuhn the Blood God\"}", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1708,16 +1708,16 @@ orbitalcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn sedna_structure_callstone", player, world, true, true);
-    // Commands.call("give @p contenttweaker:sedna_spinel", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
-    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, true, true);
+    Commands.call("pillar-spawn sedna_structure_callstone", player, world, false, true);
+    // Commands.call("give @p contenttweaker:sedna_spinel", player, world, false, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, false, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, false, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, false, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, false, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, false, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, false, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, false, true);
+    Commands.call("summon divinerpg:ender_triplets ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:bubbell_banner\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f,CustomName:\"Dimensional Guardian\"}", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1737,7 +1737,7 @@ bubbellalliancecallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn midgame_puzzle_callstone", player, world, true, true);
+    Commands.call("pillar-spawn midgame_puzzle_callstone", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1757,7 +1757,7 @@ biomeritualcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn biome_puzzle_callstone", player, world, true, true);
+    Commands.call("pillar-spawn biome_puzzle_callstone", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1778,7 +1778,7 @@ hiddenpowercallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn creative_tank_callstone", player, world, true, true);
+    Commands.call("pillar-spawn creative_tank_callstone", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1794,15 +1794,15 @@ harbingercharm.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
-    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
-    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
-    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
-    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
-    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
-    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
-    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
-    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, true, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, false, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, false, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, false, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, false, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, false, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, false, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, false, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, false, true);
+    Commands.call("summon twilightforest:harbinger_cube ~ ~1 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1822,7 +1822,7 @@ thornycallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn bone_sword_callstone", player, world, true, true);
+    Commands.call("pillar-spawn bone_sword_callstone", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1842,7 +1842,7 @@ umberstonecallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn erebus_roof_structure", player, world, true, true);
+    Commands.call("pillar-spawn erebus_roof_structure", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1862,7 +1862,7 @@ cleansingcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn sanitizing_bee_callstone", player, world, true, true);
+    Commands.call("pillar-spawn sanitizing_bee_callstone", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1882,7 +1882,7 @@ furnacecallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn furnacedim_callstone_justfurnace", player, world, true, true);
+    Commands.call("pillar-spawn furnacedim_callstone_justfurnace", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1902,7 +1902,7 @@ grandmagiciancallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn hardmode_grandcrystal", player, world, true, true);
+    Commands.call("pillar-spawn hardmode_grandcrystal", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1922,7 +1922,7 @@ rulersofterracallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn hardmode_allthewands", player, world, true, true);
+    Commands.call("pillar-spawn hardmode_allthewands", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1943,7 +1943,7 @@ nerocallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn water_fractal_boss_callstone", player, world, true, true);
+    Commands.call("pillar-spawn water_fractal_boss_callstone", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1963,7 +1963,7 @@ deepknowledgecallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn gardencia_structure_callstonebee", player, world, true, true);
+    Commands.call("pillar-spawn gardencia_structure_callstonebee", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -1978,8 +1978,8 @@ butterflyrepellent.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("cofh killall butterfly", player, world, true, true);
-    Commands.call("cofh killall moth", player, world, true, true);
+    Commands.call("cofh killall butterfly", player, world, false, true);
+    Commands.call("cofh killall moth", player, world, false, true);
 
     return "PASS";
 
@@ -1998,7 +1998,7 @@ greenlightcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn furnacedim_callstone_greenlight", player, world, true, true);
+    Commands.call("pillar-spawn furnacedim_callstone_greenlight", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -2014,27 +2014,27 @@ callfullmoon.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, false, true);
 
-    Commands.call("summon aoa3:dark_beast ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:dark_beast ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:dark_beast ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:dark_beast ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:dark_beast ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:dark_beast ~ ~3 ~", player, world, false, true);
 
-    Commands.call("summon aoa3:irkling ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:irkling ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:irkling ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:irkling ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:irkling ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:irkling ~ ~3 ~", player, world, false, true);
 
-    Commands.call("summon aoa3:night_watcher ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:night_watcher ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:night_watcher ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:night_watcher ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:night_watcher ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:night_watcher ~ ~3 ~", player, world, false, true);
 
-    Commands.call("summon aoa3:scrubby ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:scrubby ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:scrubby ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:scrubby ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:scrubby ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:scrubby ~ ~3 ~", player, world, false, true);
 
-    Commands.call("summon aoa3:skellox ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:skellox ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:skellox ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:skellox ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:skellox ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:skellox ~ ~3 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -2049,26 +2049,26 @@ callbloodhunt.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, false, true);
 
-    Commands.call("summon aoa3:anemia ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:anemia ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:anemia ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:anemia ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:anemia ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:anemia ~ ~3 ~", player, world, false, true);
 
-    Commands.call("summon aoa3:bloodmist ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:bloodmist ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:bloodmist ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:bloodmist ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:bloodmist ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:bloodmist ~ ~3 ~", player, world, false, true);
 
-    Commands.call("summon aoa3:linger ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:linger ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:linger ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:linger ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:linger ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:linger ~ ~3 ~", player, world, false, true);
 
-    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -2083,25 +2083,25 @@ marksoulscurry.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, false, true);
 
-    Commands.call("summon aoa3:ghostly_goblin ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:ghostly_goblin ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ghostly_goblin ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_goblin ~ ~3 ~", player, world, false, true);
 
-    Commands.call("summon aoa3:ghostly_cyclops ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:ghostly_cyclops ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ghostly_cyclops ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_cyclops ~ ~3 ~", player, world, false, true);
 
-    Commands.call("summon aoa3:ghostly_sasquatch ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:ghostly_sasquatch ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ghostly_sasquatch ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_sasquatch ~ ~3 ~", player, world, false, true);
 
-    Commands.call("summon aoa3:ghostly_night_reaper ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:ghostly_night_reaper ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ghostly_night_reaper ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_night_reaper ~ ~3 ~", player, world, false, true);
     
-    Commands.call("summon aoa3:ghostly_bugeye ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:ghostly_bugeye ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~ ~3 ~", player, world, false, true);
     
-    Commands.call("summon aoa3:ghostly_charger ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:ghostly_charger ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ghostly_charger ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_charger ~ ~3 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -2116,20 +2116,20 @@ signalbeacon.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, false, true);
 
-    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:modulo ~ ~3 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -2144,23 +2144,23 @@ calldeathgames.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set day", player, world, true, true);
+    // Commands.call("time set day", player, world, false, true);
 
-    Commands.call("summon aoa3:death_hunter ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:death_hunter ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:death_hunter ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:death_hunter ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:death_hunter ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:death_hunter ~ ~3 ~", player, world, false, true);
     
-    Commands.call("summon aoa3:reaper_twins ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:reaper_twins ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:reaper_twins ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:reaper_twins ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:reaper_twins ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:reaper_twins ~ ~3 ~", player, world, false, true);
     
-    Commands.call("summon aoa3:headless_destroyer ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:headless_destroyer ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:headless_destroyer ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:headless_destroyer ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:headless_destroyer ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:headless_destroyer ~ ~3 ~", player, world, false, true);
     
-    Commands.call("summon aoa3:triclops ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:triclops ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:triclops ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:triclops ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:triclops ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:triclops ~ ~3 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -2175,15 +2175,15 @@ creepyexplosive.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set day", player, world, true, true);
+    // Commands.call("time set day", player, world, false, true);
 
-    Commands.call("summon aoa3:host ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:host ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:host ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:host ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:host ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:host ~ ~3 ~", player, world, false, true);
     
-    Commands.call("summon aoa3:host ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:host ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:host ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:host ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:host ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:host ~ ~3 ~", player, world, false, true);
     
     stack.shrink(1);
     return "PASS";
@@ -2198,27 +2198,27 @@ embiggener.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // ommands.call("time set day", player, world, true, true);
+    // ommands.call("time set day", player, world, false, true);
 
-    Commands.call("summon aoa3:sand_giant ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:sand_giant ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:sand_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:sand_giant ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:sand_giant ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:sand_giant ~ ~3 ~", player, world, false, true);
     
-    Commands.call("summon aoa3:stone_giant ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:stone_giant ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:stone_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:stone_giant ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:stone_giant ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:stone_giant ~ ~3 ~", player, world, false, true);
 
-    Commands.call("summon aoa3:ice_giant ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:ice_giant ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:ice_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:ice_giant ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:ice_giant ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:ice_giant ~ ~3 ~", player, world, false, true);
 
-    Commands.call("summon aoa3:wood_giant ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:wood_giant ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:wood_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:wood_giant ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:wood_giant ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:wood_giant ~ ~3 ~", player, world, false, true);
 
-    Commands.call("summon aoa3:leafy_giant ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:leafy_giant ~ ~3 ~", player, world, true, true);
-    Commands.call("summon aoa3:leafy_giant ~ ~3 ~", player, world, true, true);
+    Commands.call("summon aoa3:leafy_giant ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:leafy_giant ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:leafy_giant ~ ~3 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -2238,7 +2238,7 @@ wroughtcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon mowziesmobs:ferrous_wroughtnaut ~ ~3 ~ {Attributes:[{Name:generic.maxHealth, Base:200.0},{Name:generic.attackDamage, Base:100.0}],Health:200f}", player, world, true, true);
+    Commands.call("summon mowziesmobs:ferrous_wroughtnaut ~ ~3 ~ {Attributes:[{Name:generic.maxHealth, Base:200.0},{Name:generic.attackDamage, Base:100.0}],Health:200f}", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -2252,19 +2252,19 @@ callofenigma.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, false, true);
 
-    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
-    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
-    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, false, true);
     
-    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
-    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:ptera ~ ~3 ~", player, world, false, true);
 
-    Commands.call("summon mod_lavacow:mimicrab ~ ~ ~", player, world, true, true);
-    Commands.call("summon mod_lavacow:mimicrab ~ ~ ~", player, world, true, true);
-    Commands.call("summon mod_lavacow:ghostray ~ ~ ~", player, world, true, true);
-    Commands.call("summon mod_lavacow:ghostray ~ ~ ~", player, world, true, true);
+    Commands.call("summon mod_lavacow:mimicrab ~ ~ ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:mimicrab ~ ~ ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:ghostray ~ ~ ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:ghostray ~ ~ ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -2279,27 +2279,24 @@ witcherysummons.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, false, true);
 
-    Commands.call("summon bewitchment:toad ~ ~ ~", player, world, true, true);
-    Commands.call("summon bewitchment:toad ~ ~ ~", player, world, true, true);
-    Commands.call("summon bewitchment:toad ~ ~ ~", player, world, true, true);
+    Commands.call("summon bewitchment:toad ~ ~ ~", player, world, false, true);
+    Commands.call("summon bewitchment:toad ~ ~ ~", player, world, false, true);
+    Commands.call("summon bewitchment:toad ~ ~ ~", player, world, false, true);
 
-    Commands.call("summon bewitchment:lizard ~ ~ ~", player, world, true, true);
-    Commands.call("summon bewitchment:lizard ~ ~ ~", player, world, true, true);
-    Commands.call("summon bewitchment:lizard ~ ~ ~", player, world, true, true);
+    Commands.call("summon bewitchment:lizard ~ ~ ~", player, world, false, true);
+    Commands.call("summon bewitchment:lizard ~ ~ ~", player, world, false, true);
+    Commands.call("summon bewitchment:lizard ~ ~ ~", player, world, false, true);
 
-    Commands.call("summon bewitchment:snake ~ ~ ~", player, world, true, true);
-    Commands.call("summon bewitchment:snake ~ ~ ~", player, world, true, true);
-    Commands.call("summon bewitchment:snake ~ ~ ~", player, world, true, true);
+    Commands.call("summon bewitchment:snake ~ ~ ~", player, world, false, true);
+    Commands.call("summon bewitchment:snake ~ ~ ~", player, world, false, true);
+    Commands.call("summon bewitchment:snake ~ ~ ~", player, world, false, true);
 
-    Commands.call("summon minecraft:evocation_illager ~ ~ ~", player, world, true, true);
-    Commands.call("summon minecraft:vindication_illager ~ ~ ~", player, world, true, true);
-    Commands.call("summon minecraft:vindication_illager ~ ~ ~", player, world, true, true);
-    Commands.call("summon minecraft:vindication_illager ~ ~ ~", player, world, true, true);
-    Commands.call("summon minecraft:vindication_illager ~ ~ ~", player, world, true, true);
-    Commands.call("summon minecraft:vindication_illager ~ ~ ~", player, world, true, true);
-    Commands.call("summon minecraft:vindication_illager ~ ~ ~", player, world, true, true);
+    Commands.call("summon bewitchment:ghost ~ ~ ~", player, world, false, true);
+    Commands.call("summon bewitchment:ghost ~ ~ ~", player, world, false, true);
+    Commands.call("summon bewitchment:ghost ~ ~ ~", player, world, false, true);
+
 
 
     stack.shrink(1);
@@ -2314,7 +2311,7 @@ funnypumpkin.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    Commands.call("summon divinerpg:jack_o_man ~ ~ ~", player, world, true, true);
+    Commands.call("summon divinerpg:jack_o_man ~ ~ ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -2328,7 +2325,7 @@ wormholefragment.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    Commands.call("summon aoa3:realmshifter ~ ~ ~", player, world, true, true);
+    Commands.call("summon aoa3:realmshifter ~ ~ ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -2349,7 +2346,7 @@ akathartoscallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn akathartos_structure_crimsonemperor", player, world, true, true);
+    Commands.call("pillar-spawn akathartos_structure_crimsonemperor", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -2472,7 +2469,7 @@ anomalydetectorstage1.itemRightClick = function(stack, world, player, hand) {
     }
     player.sendChat("Base block 4 is correct - iron block");
 
-    Commands.call("give @p contenttweaker:anomaly_detector_stage_2", player, world, true, true);
+    Commands.call("give @p contenttweaker:anomaly_detector_stage_2", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -2507,7 +2504,7 @@ anomalydetectorstage2.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("give @p contenttweaker:anomaly_detector_stage_3", player, world, true, true);
+    Commands.call("give @p contenttweaker:anomaly_detector_stage_3", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -2526,7 +2523,7 @@ anomalydetectorstage3.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn wildwood_structure_betrayer", player, world, true, true);
+    Commands.call("pillar-spawn wildwood_structure_betrayer", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -2545,7 +2542,7 @@ apothecaryprisonkey.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn iromine_structure_bee", player, world, true, true);
+    Commands.call("pillar-spawn iromine_structure_bee", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -2565,7 +2562,7 @@ voraceouswormcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn oi_structure_bigwormboss", player, world, true, true);
+    Commands.call("pillar-spawn oi_structure_bigwormboss", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -2588,7 +2585,7 @@ dreadqueendomcallstone.itemRightClick = function(stack, world, player, hand) {
 
     player.sendChat("Let this be your final warning");
 
-    Commands.call("pillar-spawn iceika_structure_dreadqueenboss", player, world, true, true);
+    Commands.call("pillar-spawn iceika_structure_dreadqueenboss", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -2776,7 +2773,7 @@ wyvenmonumentfabrial.itemRightClick = function(stack, world, player, hand) {
     
 
 
-    Commands.call("give @p contenttweaker:shard_of_a_fallen_spren", player, world, true, true);
+    Commands.call("give @p contenttweaker:shard_of_a_fallen_spren", player, world, false, true);
 
     return "PASS";
 
@@ -2798,7 +2795,7 @@ ancientwyverncallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn lyndenwyrm_structure_ancientwyvern", player, world, true, true);
+    Commands.call("pillar-spawn lyndenwyrm_structure_ancientwyvern", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -3044,7 +3041,7 @@ oblivioncandle.itemRightClick = function(stack, world, player, hand) {
     player.sendChat("All Candles are correctly located");
 
 
-    Commands.call("give @p contenttweaker:oblivion_catalyzer", player, world, true, true);
+    Commands.call("give @p contenttweaker:oblivion_catalyzer", player, world, false, true);
 
     return "PASS";
 
@@ -3066,7 +3063,7 @@ oblivionairecallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn oblivionaire_structure_callstone", player, world, true, true);
+    Commands.call("pillar-spawn oblivionaire_structure_callstone", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -3085,7 +3082,7 @@ keyfleshdominion.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn abyss_structure_supershadow", player, world, true, true);
+    Commands.call("pillar-spawn abyss_structure_supershadow", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -3104,7 +3101,7 @@ gravitationalcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn lelyetia_structure_supergraw", player, world, true, true);
+    Commands.call("pillar-spawn lelyetia_structure_supergraw", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -3123,7 +3120,7 @@ warlordcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn borean_structure_superdragons", player, world, true, true);
+    Commands.call("pillar-spawn borean_structure_superdragons", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -3149,7 +3146,7 @@ hordedominationcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn underoverworld_structure_callstone", player, world, true, true);
+    Commands.call("pillar-spawn underoverworld_structure_callstone", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -3168,7 +3165,7 @@ fluixhistoriancallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn fluix_historian_structure", player, world, true, true);
+    Commands.call("pillar-spawn fluix_historian_structure", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -3187,7 +3184,7 @@ hungersummoner.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon divinerpg:the_hunger ~ ~1 ~", player, world, true, true);
+    Commands.call("summon divinerpg:the_hunger ~ ~1 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -3207,7 +3204,7 @@ mysterymansummoner.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon divinerpg:mysterious_man_layer_1 ~ ~1 ~", player, world, true, true);
+    Commands.call("summon divinerpg:mysterious_man_layer_1 ~ ~1 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -3240,7 +3237,7 @@ mysteryman2summoner.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon divinerpg:mysterious_man_layer_2 ~ ~1 ~", player, world, true, true);
+    Commands.call("summon divinerpg:mysterious_man_layer_2 ~ ~1 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -3274,7 +3271,7 @@ mysteryman3summoner.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon divinerpg:mysterious_man_layer_3 ~ ~1 ~", player, world, true, true);
+    Commands.call("summon divinerpg:mysterious_man_layer_3 ~ ~1 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -3294,7 +3291,7 @@ whitefirecallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn furnacedim_structure_whitefireboss", player, world, true, true);
+    Commands.call("pillar-spawn furnacedim_structure_whitefireboss", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -3313,7 +3310,7 @@ undeadbotanistcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn hardmode_undead_botanist", player, world, true, true);
+    Commands.call("pillar-spawn hardmode_undead_botanist", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -3332,7 +3329,7 @@ forbiddengardencallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn botanist_loot_chest", player, world, true, true);
+    Commands.call("pillar-spawn botanist_loot_chest", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -3351,7 +3348,7 @@ energeticprisonkey.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn energy_bee_callstone", player, world, true, true);
+    Commands.call("pillar-spawn energy_bee_callstone", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -3385,7 +3382,7 @@ draconianprisonkey.itemRightClick = function(stack, world, player, hand) {
         }
     }
 
-    Commands.call("pillar-spawn lyndenwyrm_structure_chaosmonument", player, world, true, true);
+    Commands.call("pillar-spawn lyndenwyrm_structure_chaosmonument", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -3431,10 +3428,10 @@ chaoticsummoner.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon draconicevolution:chaosguardian ~ ~4 ~20 {CustomName:\"Guardian of Fear\",Tags:[\"guardianoffear\"]}", player, world, true, true);
-    Commands.call("summon draconicevolution:chaosguardian ~-20 ~4 ~ {CustomName:\"Guardian of Helplessness\",Tags:[\"guardianofhelplessness\"]}", player, world, true, true);
-    Commands.call("summon draconicevolution:chaosguardian ~20 ~4 ~ {CustomName:\"Guardian of Darkness\",Tags:[\"guardianofdarkness\"]}", player, world, true, true);
-    Commands.call("summon draconicevolution:chaosguardian ~ ~4 ~-20 {CustomName:\"Guardian of Solitude\",Tags:[\"guardianofsolitude\"]}", player, world, true, true);
+    Commands.call("summon draconicevolution:chaosguardian ~ ~4 ~20 {CustomName:\"Guardian of Fear\",Tags:[\"guardianoffear\"]}", player, world, false, true);
+    Commands.call("summon draconicevolution:chaosguardian ~-20 ~4 ~ {CustomName:\"Guardian of Helplessness\",Tags:[\"guardianofhelplessness\"]}", player, world, false, true);
+    Commands.call("summon draconicevolution:chaosguardian ~20 ~4 ~ {CustomName:\"Guardian of Darkness\",Tags:[\"guardianofdarkness\"]}", player, world, false, true);
+    Commands.call("summon draconicevolution:chaosguardian ~ ~4 ~-20 {CustomName:\"Guardian of Solitude\",Tags:[\"guardianofsolitude\"]}", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -3455,7 +3452,7 @@ soulsuckingcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn skythern_structure_soulbee", player, world, true, true);
+    Commands.call("pillar-spawn skythern_structure_soulbee", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -3475,7 +3472,7 @@ crepuscularcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn twilightforest_structure_isekaibee", player, world, true, true);
+    Commands.call("pillar-spawn twilightforest_structure_isekaibee", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -3496,7 +3493,7 @@ zoicallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn tech_meatball_callstone", player, world, true, true);
+    Commands.call("pillar-spawn tech_meatball_callstone", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -3517,7 +3514,7 @@ secretlurkercallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn skip_vethea_callstone", player, world, true, true);
+    Commands.call("pillar-spawn skip_vethea_callstone", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -3537,7 +3534,7 @@ eldritchcrabcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn eldritch_crab_callstone", player, world, true, true);
+    Commands.call("pillar-spawn eldritch_crab_callstone", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -3557,7 +3554,7 @@ taintedloopcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn hardmode_callstone_emcmeatball", player, world, true, true);
+    Commands.call("pillar-spawn hardmode_callstone_emcmeatball", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -3577,7 +3574,7 @@ pauramcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn pauram_structure_callstone", player, world, true, true);
+    Commands.call("pillar-spawn pauram_structure_callstone", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -3659,15 +3656,15 @@ firstrecursivelock.itemRightClick = function(stack, world, player, hand) {
     }
 
 
-    Commands.call("summon aoa3:elusive ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_abyss\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:shadowlord ~3 ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_abyss\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:graw ~-3 ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_lelyetia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:tyrosaur ~-3 ~1 ~-3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_precasia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:skeletron ~3 ~1 ~-3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_precasia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:baroness ~ ~1 ~-3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_barathos\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:50000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:hive_king ~-3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_barathos\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:creep ~-3 ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_creeponia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:kror ~-3 ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_deeplands\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:elusive ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_abyss\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:shadowlord ~3 ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_abyss\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:graw ~-3 ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_lelyetia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:tyrosaur ~-3 ~1 ~-3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_precasia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:skeletron ~3 ~1 ~-3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_precasia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:baroness ~ ~1 ~-3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_barathos\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:50000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:hive_king ~-3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_barathos\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:creep ~-3 ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_creeponia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:kror ~-3 ~1 ~ {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_deeplands\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
 
 
     return "PASS";
@@ -3749,19 +3746,19 @@ secondrecursivelock.itemRightClick = function(stack, world, player, hand) {
     }
 
 
-    Commands.call("summon aoa3:crystocore ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_crystevia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:vinocorne ~3 ~1 ~-3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_gardencia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:gyro ~-3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_celeve\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:silverfoot ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_iromine\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:mechbot ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_iromine\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:green_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:yellow_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:red_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:blue_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:rock_rider ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:peppermint_snail ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_candyland\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:150000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:king_shroomus ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mysterium\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:voxxulon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_voxponds\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:crystocore ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_crystevia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:vinocorne ~3 ~1 ~-3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_gardencia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:gyro ~-3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_celeve\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:silverfoot ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_iromine\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:mechbot ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_iromine\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:green_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:yellow_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:red_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:blue_guardian ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:rock_rider ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_haven\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:peppermint_snail ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_candyland\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:150000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:king_shroomus ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mysterium\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:voxxulon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_voxponds\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
 
 
     return "PASS";
@@ -3843,13 +3840,13 @@ thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
     }
 
 
-    Commands.call("summon aoa3:dracyon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_borean\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:visualent ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_lunalus\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:clunkhead ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_runandor\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon divinerpg:sunstorm ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_eden\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon divinerpg:termasect ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_wildwood\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon divinerpg:eternal_archer ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_apalachia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon divinerpg:experienced_cori ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_skythern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:dracyon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_borean\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:visualent ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_lunalus\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:clunkhead ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_runandor\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon divinerpg:sunstorm ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_eden\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon divinerpg:termasect ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_wildwood\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon divinerpg:eternal_archer ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_apalachia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon divinerpg:experienced_cori ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_skythern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
 
     return "PASS";
 
@@ -3930,20 +3927,20 @@ fourthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     }
 
 
-    Commands.call("summon aoa3:bane ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_greckon\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:kajaros ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:harkos ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:miskel ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:okazor ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:raxxan ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:proshield ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:flash ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:klobber ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:proshield ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:coniferon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:goldorth ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:penumbra ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
-    Commands.call("summon aoa3:horon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, true, true);
+    Commands.call("summon aoa3:bane ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_greckon\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:kajaros ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:harkos ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:miskel ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:okazor ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:raxxan ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_dustopia\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:proshield ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:flash ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:klobber ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:proshield ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_immortallis\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:coniferon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:goldorth ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:penumbra ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:horon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_ancientcavern\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
 
     return "PASS";
 
@@ -4023,13 +4020,13 @@ fifthrecursivelock.itemRightClick = function(stack, world, player, hand) {
     }
 
 
-    Commands.call("summon aoa3:xxeus ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_shyrelands\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, true, true);
-    Commands.call("summon divinerpg:soul_fiend ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, true, true);
-    Commands.call("summon divinerpg:densos ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, true, true);
-    Commands.call("summon divinerpg:vamacheron ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, true, true);
-    Commands.call("summon divinerpg:reyvor ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, true, true);
-    Commands.call("summon divinerpg:karot ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, true, true);
-    Commands.call("summon divinerpg:twilight_demon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, true, true);
+    Commands.call("summon aoa3:xxeus ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_shyrelands\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, false, true);
+    Commands.call("summon divinerpg:soul_fiend ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, false, true);
+    Commands.call("summon divinerpg:densos ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, false, true);
+    Commands.call("summon divinerpg:vamacheron ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, false, true);
+    Commands.call("summon divinerpg:reyvor ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, false, true);
+    Commands.call("summon divinerpg:karot ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, false, true);
+    Commands.call("summon divinerpg:twilight_demon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_mortum\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:100000.0}],Health:200000f}", player, world, false, true);
 
     return "PASS";
 
@@ -4045,7 +4042,7 @@ wootflusher.itemRightClick = function(stack, world, player, hand) {
     }
 
     player.sendChat("Flush Started");
-    Commands.call("woot flush all", player, world, true, true);
+    Commands.call("woot flush all", player, world, false, true);
 
     return "PASS";
 
@@ -4065,7 +4062,7 @@ infernalfurnacecallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn furnacedim_structure_infernalfurnacefiend", player, world, true, true);
+    Commands.call("pillar-spawn furnacedim_structure_infernalfurnacefiend", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4085,7 +4082,7 @@ monumentalmeatballcallstone.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn monumental_meatball_callstone", player, world, true, true);
+    Commands.call("pillar-spawn monumental_meatball_callstone", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4104,7 +4101,7 @@ furnacesecretcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn furnace_guy_final", player, world, true, true);
+    Commands.call("pillar-spawn furnace_guy_final", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4124,7 +4121,7 @@ claimofworthiness.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon mod_lavacow:boneworm ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_paper\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f,CustomName:\"Gatekeeper of the Meatball Man\"}", player, world, true, true);
+    Commands.call("summon mod_lavacow:boneworm ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_paper\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f,CustomName:\"Gatekeeper of the Meatball Man\"}", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4154,7 +4151,7 @@ summonsoftheshyrewarden.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
 	}
 
-    Commands.call("summon aoa3:shyre_knight ~ ~3 ~ {HandItems:[{Count:64,id:\"contenttweaker:stone_of_the_shyre_warden\"},{Count:64,id:\"contenttweaker:stone_of_the_shyre_warden\"}],HandDropChances:[1.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:1.0},{Name:generic.attackDamage, Base:10000.0}],Health:1f,CustomName:\"Warden of the Shyre Empire\",Invulnerable:1}", player, world, true, true);
+    Commands.call("summon aoa3:shyre_knight ~ ~3 ~ {HandItems:[{Count:64,id:\"contenttweaker:stone_of_the_shyre_warden\"},{Count:64,id:\"contenttweaker:stone_of_the_shyre_warden\"}],HandDropChances:[1.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:1.0},{Name:generic.attackDamage, Base:10000.0}],Health:1f,CustomName:\"Warden of the Shyre Empire\",Invulnerable:1}", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4174,7 +4171,7 @@ hiddenerrorscallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn aether_hellfire_alternative", player, world, true, true);
+    Commands.call("pillar-spawn aether_hellfire_alternative", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4193,7 +4190,7 @@ tarantulacallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn erebus_callstone_tarantula", player, world, true, true);
+    Commands.call("pillar-spawn erebus_callstone_tarantula", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4212,7 +4209,7 @@ antlioncallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn erebus_callstone_antlion", player, world, true, true);
+    Commands.call("pillar-spawn erebus_callstone_antlion", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4227,20 +4224,20 @@ recursivepaperillager.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, false, true);
 
-    Commands.call("summon minecraft:evocation_illager ~ ~3 ~", player, world, true, true);
-    Commands.call("summon minecraft:evocation_illager ~ ~3 ~", player, world, true, true);
-    Commands.call("summon minecraft:evocation_illager ~ ~3 ~", player, world, true, true);
-    Commands.call("summon minecraft:evocation_illager ~ ~3 ~", player, world, true, true);
-    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
-    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
-    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
-    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
-    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
-    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
-    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
-    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, true, true);
+    Commands.call("summon minecraft:evocation_illager ~ ~3 ~", player, world, false, true);
+    Commands.call("summon minecraft:evocation_illager ~ ~3 ~", player, world, false, true);
+    Commands.call("summon minecraft:evocation_illager ~ ~3 ~", player, world, false, true);
+    Commands.call("summon minecraft:evocation_illager ~ ~3 ~", player, world, false, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, false, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, false, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, false, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, false, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, false, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, false, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, false, true);
+    Commands.call("summon minecraft:vindication_illager ~ ~3 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -4255,20 +4252,20 @@ recursivepaperabyssal.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, false, true);
 
-    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, true, true);
-    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, true, true);
-    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, true, true);
-    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, true, true);
-    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, true, true);
-    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, true, true);
-    Commands.call("summon abyssalcraft:shadowbeast ~ ~3 ~", player, world, true, true);
-    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, true, true);
-    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, true, true);
-    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, true, true);
-    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, true, true);
-    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, true, true);
+    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, false, true);
+    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, false, true);
+    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, false, true);
+    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, false, true);
+    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, false, true);
+    Commands.call("summon thebetweenlands:dark_druid ~ ~3 ~", player, world, false, true);
+    Commands.call("summon abyssalcraft:shadowbeast ~ ~3 ~", player, world, false, true);
+    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, false, true);
+    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, false, true);
+    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, false, true);
+    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, false, true);
+    Commands.call("summon abyssalcraft:shadowmonster ~ ~3 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -4284,26 +4281,60 @@ recursivepaperbuggy.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // Commands.call("time set night", player, world, true, true);
+    // Commands.call("time set night", player, world, false, true);
 
-    Commands.call("summon erebus:erebus.stag_beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("summon erebus:erebus.stag_beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("summon erebus:erebus.beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("summon erebus:erebus.beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("summon erebus:erebus.bombardier_beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("summon erebus:erebus.bombardier_beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("summon erebus:erebus.titan_beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("summon erebus:erebus.titan_beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("summon erebus:erebus.rhino_beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("summon erebus:erebus.rhino_beetle ~ ~3 ~", player, world, true, true);
-    Commands.call("summon erebus:erebus.crushroom ~ ~3 ~", player, world, true, true);
-    Commands.call("summon erebus:erebus.crushroom ~ ~3 ~", player, world, true, true);
+    Commands.call("summon erebus:erebus.stag_beetle ~ ~3 ~", player, world, false, true);
+    Commands.call("summon erebus:erebus.stag_beetle ~ ~3 ~", player, world, false, true);
+    Commands.call("summon erebus:erebus.beetle ~ ~3 ~", player, world, false, true);
+    Commands.call("summon erebus:erebus.beetle ~ ~3 ~", player, world, false, true);
+    Commands.call("summon erebus:erebus.bombardier_beetle ~ ~3 ~", player, world, false, true);
+    Commands.call("summon erebus:erebus.bombardier_beetle ~ ~3 ~", player, world, false, true);
+    Commands.call("summon erebus:erebus.titan_beetle ~ ~3 ~", player, world, false, true);
+    Commands.call("summon erebus:erebus.titan_beetle ~ ~3 ~", player, world, false, true);
+    Commands.call("summon erebus:erebus.rhino_beetle ~ ~3 ~", player, world, false, true);
+    Commands.call("summon erebus:erebus.rhino_beetle ~ ~3 ~", player, world, false, true);
+    Commands.call("summon erebus:erebus.crushroom ~ ~3 ~", player, world, false, true);
+    Commands.call("summon erebus:erebus.crushroom ~ ~3 ~", player, world, false, true);
+    Commands.call("summon erebus:erebus.praying_mantis ~ ~3 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
 
 };
 recursivepaperbuggy.register();
+
+
+var recursivepaperfaithfulundead= VanillaFactory.createItem("recursive_paper_faithfulundead");
+recursivepaperfaithfulundead.maxStackSize = 16;
+recursivepaperfaithfulundead.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // Commands.call("time set night", player, world, false, true);
+
+    Commands.call("summon mod_lavacow:zombiemushroom ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:ithaqua ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:undertaker ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:undeadswine ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:banshee ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:mummy ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:sludgelord ~ ~3 ~", player, world, false, true);
+
+    Commands.call("summon mod_lavacow:zombiemushroom ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:ithaqua ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:undertaker ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:undeadswine ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:banshee ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:mummy ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:sludgelord ~ ~3 ~", player, world, false, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+recursivepaperfaithfulundead.register();
+
 
 var weaponsmithcallstone = VanillaFactory.createItem("weaponsmith_callstone");
 weaponsmithcallstone.maxStackSize = 1;
@@ -4317,7 +4348,7 @@ weaponsmithcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn hardmode_callstone_arbiterweaponsmith", player, world, true, true);
+    Commands.call("pillar-spawn hardmode_callstone_arbiterweaponsmith", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4355,12 +4386,12 @@ forbiddenmeatballmanrites.itemRightClick = function(stack, world, player, hand) 
         return "FAIL";
     }
 
-    Commands.call("/summon minecraft:wither ~3 ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, true, true);
-    Commands.call("/summon minecraft:wither ~-3 ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, true, true);
-    Commands.call("/summon minecraft:wither ~ ~ ~3 {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, true, true);
-    Commands.call("/summon minecraft:wither ~ ~ ~-3 {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, true, true);
-    Commands.call("/summon minecraft:wither ~3 ~ ~3 {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, true, true);
-    Commands.call("/summon minecraft:wither ~-3 ~ ~-3 {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, true, true);
+    Commands.call("/summon minecraft:wither ~3 ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, false, true);
+    Commands.call("/summon minecraft:wither ~-3 ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, false, true);
+    Commands.call("/summon minecraft:wither ~ ~ ~3 {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, false, true);
+    Commands.call("/summon minecraft:wither ~ ~ ~-3 {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, false, true);
+    Commands.call("/summon minecraft:wither ~3 ~ ~3 {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, false, true);
+    Commands.call("/summon minecraft:wither ~-3 ~ ~-3 {HandItems:[{Count:1,id:\"contenttweaker:star_of_betrayal\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Ward of Terra\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:100000.0}],Health:1000000f}", player, world, false, true);
 
     return "PASS";
 
@@ -4381,7 +4412,7 @@ requiemofthearbiter.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn tombstone_of_the_arbiter", player, world, true, true);
+    Commands.call("pillar-spawn tombstone_of_the_arbiter", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4515,7 +4546,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon Item ~ ~ ~ {Item:{id:\"contenttweaker:runes_of_the_true_tongue\",Count:1b}}", player, world, true, true);
+    Commands.call("summon Item ~ ~ ~ {Item:{id:\"contenttweaker:runes_of_the_true_tongue\",Count:1b}}", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4535,7 +4566,7 @@ masterofthetruetonguecallstone.itemRightClick = function(stack, world, player, h
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn master_eldunari_callstone_structure", player, world, true, true);
+    Commands.call("pillar-spawn master_eldunari_callstone_structure", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4555,7 +4586,7 @@ gamblingaddictionprisonkey.itemRightClick = function(stack, world, player, hand)
     }
 
     player.sendChat("This is a joke, gambling is bad, don't waste your money like that :)");
-    Commands.call("pillar-spawn hard_mode_callstone_gambling", player, world, true, true);
+    Commands.call("pillar-spawn hard_mode_callstone_gambling", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4567,7 +4598,7 @@ var luckyboxaetherbronze = VanillaFactory.createItem("lucky_box_aether_bronze");
 luckyboxaetherbronze.maxStackSize = 1;
 luckyboxaetherbronze.itemRightClick = function(stack, world, player, hand) {
 
-    Commands.call("pillar-spawn loot_box_aether_bronze", player, world, true, true);
+    Commands.call("pillar-spawn loot_box_aether_bronze", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4578,7 +4609,7 @@ var luckyboxaethersilver = VanillaFactory.createItem("lucky_box_aether_silver");
 luckyboxaethersilver.maxStackSize = 1;
 luckyboxaethersilver.itemRightClick = function(stack, world, player, hand) {
 
-    Commands.call("pillar-spawn loot_box_aether_silver", player, world, true, true);
+    Commands.call("pillar-spawn loot_box_aether_silver", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4589,7 +4620,7 @@ var luckyboxaethergold = VanillaFactory.createItem("lucky_box_aether_gold");
 luckyboxaethergold.maxStackSize = 1;
 luckyboxaethergold.itemRightClick = function(stack, world, player, hand) {
 
-    Commands.call("pillar-spawn loot_box_aether_gold", player, world, true, true);
+    Commands.call("pillar-spawn loot_box_aether_gold", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4600,7 +4631,7 @@ var luckyboxtwilightbooks = VanillaFactory.createItem("lucky_box_twilight_books"
 luckyboxtwilightbooks.maxStackSize = 1;
 luckyboxtwilightbooks.itemRightClick = function(stack, world, player, hand) {
 
-    Commands.call("pillar-spawn loot_box_twilight_books", player, world, true, true);
+    Commands.call("pillar-spawn loot_box_twilight_books", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4611,7 +4642,7 @@ var luckyboxtwilightweapons = VanillaFactory.createItem("lucky_box_twilight_weap
 luckyboxtwilightweapons.maxStackSize = 1;
 luckyboxtwilightweapons.itemRightClick = function(stack, world, player, hand) {
 
-    Commands.call("pillar-spawn loot_box_twilight_weapons", player, world, true, true);
+    Commands.call("pillar-spawn loot_box_twilight_weapons", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4631,7 +4662,7 @@ dreadcleansingcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("pillar-spawn arbiter_callstone_dreadcleanser", player, world, true, true);
+    Commands.call("pillar-spawn arbiter_callstone_dreadcleanser", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -4639,15 +4670,303 @@ dreadcleansingcallstone.itemRightClick = function(stack, world, player, hand) {
 dreadcleansingcallstone.register();
 
 
+var forclientsetgamerules = VanillaFactory.createItem("forclient_setgamerules");
+forclientsetgamerules.maxStackSize = 1;
+forclientsetgamerules.itemRightClick = function(stack, world, player, hand) {
+
+    Commands.call("gamerule commandBlockOutput false", player, world, false, true);
+    Commands.call("gamerule showDeathMessages false", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+forclientsetgamerules.register();
 
 var betrayedsoulcallstone = VanillaFactory.createItem("rites_of_liberation");
 betrayedsoulcallstone.maxStackSize = 1;
 betrayedsoulcallstone.itemRightClick = function(stack, world, player, hand) {
 
-    Commands.call("pillar-spawn armedzombieautomation_callstone", player, world, true, true);
+    Commands.call("pillar-spawn armedzombieautomation_callstone", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
 };
 betrayedsoulcallstone.register();
 
+
+
+var meatballtitancallstone = VanillaFactory.createItem("summons_of_the_meatball_titan");
+meatballtitancallstone.maxStackSize = 1;
+meatballtitancallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 111) {
+        player.sendChat("You gotta be in the Lost Cities");
+        return "FAIL";
+    }
+
+    Commands.call("/summon giant ~ ~1 ~ {PersistenceRequired:1,HandItems:[{Count:1,id:\"redstonearsenal:tool.sword_flux\"},{}],ArmorItems:[{Count:1,id:\"redstonearsenal:armor.boots_flux\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"redstonearsenal:armor.legs_flux\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"redstonearsenal:armor.plate_flux\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:all_powerful_sentient_meatball\"}],CustomName:\"Meatball Titan\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f],ActiveEffects:[{Id:11,Amplifier:5,Duration:999999}],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+meatballtitancallstone.register();
+
+
+
+var fleshworldcallstone = VanillaFactory.createItem("flesh_world_callstone");
+fleshworldcallstone.maxStackSize = 1;
+fleshworldcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 111) {
+        player.sendChat("You gotta be in the Lost Cities");
+        return "FAIL";
+    }
+
+    var pos9 = player.position.asPosition3f();
+    pos9.y = pos9.y;
+    if(pos9.y > 10) {
+        player.sendChat("You have to be below y = 10");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn flesh_world_callstone", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+fleshworldcallstone.register();
+
+
+var faithfulundeadcallstone = VanillaFactory.createItem("summons_of_the_faithful_undead");
+faithfulundeadcallstone.maxStackSize = 1;
+faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 111) {
+        player.sendChat("You gotta be in the Lost Cities");
+        return "FAIL";
+    }
+
+    player.sendChat("Stand in the middle of the arena structure with Recursive Stone!");
+
+    player.sendChat("Checking Player Position");
+    player.sendChat("==================================================");
+
+    var pos1 = player.position.asPosition3f();
+    pos1.x = pos1.x;
+    pos1.y = pos1.y - 1;
+    pos1.z = pos1.z;
+    var blockPos1 = pos1.asBlockPos();
+    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
+    if(blockState1 != "tile.contenttweaker.recursive_stone.name" && blockState1 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the arena structure with Recursive Stone!");
+        return "FAIL";
+    }
+
+    var pos2 = player.position.asPosition3f();
+    pos2.x = pos2.x - 1;
+    pos2.y = pos2.y - 1;
+    pos2.z = pos2.z;
+    var blockPos2 = pos2.asBlockPos();
+    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
+    if(blockState2 != "tile.contenttweaker.recursive_stone.name" && blockState2 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the arena structure with Recursive Stone!");
+        return "FAIL";
+    }
+
+    var pos3 = player.position.asPosition3f();
+    pos3.x = pos3.x + 1;
+    pos3.y = pos3.y - 1;
+    pos3.z = pos3.z;
+    var blockPos3 = pos3.asBlockPos();
+    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
+    if(blockState3 != "tile.contenttweaker.recursive_stone.name" && blockState3 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the arena structure with Recursive Stone!");
+        return "FAIL";
+    }
+
+    var pos4 = player.position.asPosition3f();
+    pos4.x = pos4.x;
+    pos4.y = pos4.y - 1;
+    pos4.z = pos4.z + 1;
+    var blockPos4 = pos4.asBlockPos();
+    var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
+    if(blockState4 != "tile.contenttweaker.recursive_stone.name" && blockState4 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the arena structure with Recursive Stone!");
+        return "FAIL";
+    }
+
+    var pos5 = player.position.asPosition3f();
+    pos5.x = pos5.x;
+    pos5.y = pos5.y - 1;
+    pos5.z = pos5.z - 1;
+    var blockPos5 = pos5.asBlockPos();
+    var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
+    if(blockState5 != "tile.contenttweaker.recursive_stone.name" && blockState5 != "Recursive Stone") {
+        player.sendChat("Stand in the middle of the arena structure with Recursive Stone!");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon mod_lavacow:undertaker ~2 ~2 ~0 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"Faithful Undead\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:banshee ~-2 ~2 ~0 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"Faithful Undead\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:forsaken ~-2 ~2 ~2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"Faithful Undead\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:zombiemushroom ~2 ~2 ~2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"Faithful Undead\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:mummy ~0 ~2 ~-2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"Faithful Undead\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:unburied ~2 ~2 ~-2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"Faithful Undead\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:zombiefrozen ~0 ~2 ~2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"Faithful Undead\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:ithaqua ~-2 ~2 ~-2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"Faithful Undead\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+
+
+    return "PASS";
+
+};
+faithfulundeadcallstone.register();
+
+
+
+var staffofthemeatballman = VanillaFactory.createItem("staff_of_the_lord_of_gluttony");
+staffofthemeatballman.maxStackSize = 1;
+staffofthemeatballman.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("summon twilightforest:loyal_zombie ~-2 ~2 ~-2 {HandItems:[{Count:1,id:\"aoa3:primal_sword\"},{}],HandDropChances:[0.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f,ArmorItems:[{Count:1,id:\"contenttweaker:meatball_praetorian_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_head\"}],CustomName:\"Warden of the Lord of Gluttony\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon twilightforest:loyal_zombie ~-2 ~2 ~2 {HandItems:[{Count:1,id:\"aoa3:primal_sword\"},{}],HandDropChances:[0.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f,ArmorItems:[{Count:1,id:\"contenttweaker:meatball_praetorian_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_head\"}],CustomName:\"Warden of the Lord of Gluttony\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon twilightforest:loyal_zombie ~2 ~2 ~-2 {HandItems:[{Count:1,id:\"aoa3:primal_sword\"},{}],HandDropChances:[0.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f,ArmorItems:[{Count:1,id:\"contenttweaker:meatball_praetorian_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_head\"}],CustomName:\"Warden of the Lord of Gluttony\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon twilightforest:loyal_zombie ~2 ~2 ~2 {HandItems:[{Count:1,id:\"aoa3:primal_sword\"},{}],HandDropChances:[0.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f,ArmorItems:[{Count:1,id:\"contenttweaker:meatball_praetorian_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_head\"}],CustomName:\"Warden of the Lord of Gluttony\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon twilightforest:loyal_zombie ~-2 ~2 ~ {HandItems:[{Count:1,id:\"aoa3:primal_sword\"},{}],HandDropChances:[0.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f,ArmorItems:[{Count:1,id:\"contenttweaker:meatball_praetorian_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_head\"}],CustomName:\"Warden of the Lord of Gluttony\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon twilightforest:loyal_zombie ~2 ~2 ~ {HandItems:[{Count:1,id:\"aoa3:primal_sword\"},{}],HandDropChances:[0.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f,ArmorItems:[{Count:1,id:\"contenttweaker:meatball_praetorian_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_head\"}],CustomName:\"Warden of the Lord of Gluttony\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon twilightforest:loyal_zombie ~ ~2 ~-2 {HandItems:[{Count:1,id:\"aoa3:primal_sword\"},{}],HandDropChances:[0.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f,ArmorItems:[{Count:1,id:\"contenttweaker:meatball_praetorian_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_head\"}],CustomName:\"Warden of the Lord of Gluttony\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon twilightforest:loyal_zombie ~ ~2 ~2 {HandItems:[{Count:1,id:\"aoa3:primal_sword\"},{}],HandDropChances:[0.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f,ArmorItems:[{Count:1,id:\"contenttweaker:meatball_praetorian_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:meatball_praetorian_head\"}],CustomName:\"Warden of the Lord of Gluttony\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+
+
+    return "PASS";
+
+};
+staffofthemeatballman.register();
+
+
+
+
+var meatballmancallstone = VanillaFactory.createItem("meatball_man_callstone");
+meatballmancallstone.maxStackSize = 1;
+meatballmancallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 111) {
+        player.sendChat("You gotta be in the Lost Cities");
+        return "FAIL";
+    }
+
+    player.sendChat("Stand on top of of the following blocks:");
+    player.sendChat("Hungering Machine Case (top)");
+    player.sendChat("Hyperuranon Actualizing Fabrial (middle)");
+    player.sendChat("Mythic Excavation reactor (bottom)");
+
+    player.sendChat("Checking Player Position");
+    player.sendChat("==================================================");
+
+    var pos1 = player.position.asPosition3f();
+    pos1.x = pos1.x;
+    pos1.y = pos1.y - 1;
+    pos1.z = pos1.z;
+    var blockPos1 = pos1.asBlockPos();
+    var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
+    if(blockState1 != "tile.contenttweaker.hungering_machine_case.name" && blockState1 != "Hungering Machine Case") {
+        player.sendChat("Missing Hungering Machine Case");
+        return "FAIL";
+    }
+
+    var pos2 = player.position.asPosition3f();
+    pos2.x = pos2.x;
+    pos2.y = pos2.y - 2;
+    pos2.z = pos2.z;
+    var blockPos2 = pos2.asBlockPos();
+    var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
+    if(blockState2 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState2 != "Hyperuranion Actualizing Fabrial") {
+        player.sendChat("Missing Hyperuranion Actualizing Fabrial");
+        return "FAIL";
+    }
+
+    var pos3 = player.position.asPosition3f();
+    pos3.x = pos3.x;
+    pos3.y = pos3.y - 3;
+    pos3.z = pos3.z;
+    var blockPos3 = pos3.asBlockPos();
+    var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
+    if(blockState3 != "tile.contenttweaker.mythic_excavation_reactor.name" && blockState3 != "Mythic Excavation Reactor") {
+        player.sendChat("Missing Mythic Excavation Reactor");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn meatball_man_final_boss", player, world, false, true);
+
+    return "PASS";
+
+};
+meatballmancallstone.register();
+
+
+
+var ancientdecrystallizer = VanillaFactory.createItem("ancient_decrystallizer");
+ancientdecrystallizer.maxStackSize = 1;
+ancientdecrystallizer.glowing = true;
+ancientdecrystallizer.itemRightClick = function(stack, world, player, hand) {
+
+	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ thaumcraft:crystal_aer 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, false, true);
+	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ thaumcraft:crystal_ignis 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, false, true);
+	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ thaumcraft:crystal_aqua 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, false, true);
+	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ thaumcraft:crystal_terra 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, false, true);
+	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ thaumcraft:crystal_ordo 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, false, true);
+	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ thaumcraft:crystal_perditio 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, false, true);
+	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ thaumcraft:crystal_vitium 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, false, true);
+	return "Pass";
+};
+ancientdecrystallizer.register();
+
+
+var ancientwyverntrinket = VanillaFactory.createItem("ancient_wyvern_trinket");
+ancientwyverntrinket.maxStackSize = 1;
+ancientwyverntrinket.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 162) {
+        player.sendChat("You gotta be in Lyndenwyrm");
+        return "FAIL";
+    }
+
+
+    Commands.call("tp @p 1000 100 1000", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+ancientwyverntrinket.register();
+
+
+
+
+var luckyboxadventarmor = VanillaFactory.createItem("lucky_box_advent_armor");
+luckyboxadventarmor.maxStackSize = 1;
+luckyboxadventarmor.itemRightClick = function(stack, world, player, hand) {
+
+    Commands.call("pillar-spawn loot_box_adventarmor", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+luckyboxadventarmor.register();

@@ -9,10 +9,11 @@
     "catalyst": "contenttweaker:multiblock_preview",
 
 
+
     "input-types": {
       "a": {
         "id": "thaumicwonders:primordial_accelerator",
-        "meta": 4,
+        "meta": 5,
         "item": {
             "id": "thaumicwonders:primordial_accelerator",
             "count": 1
@@ -55,5 +56,5 @@
         ]
       ]
     ]
-     
+      
 }

@@ -65,18 +65,18 @@ var mapSuperMithBoots as IData = {
 }; */
 
 
-mods.thaumcraft.Infusion.registerRecipe("inflesser", "", 
-<minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumcraft:cultistportallesser"}}), 10,
-[<aspect:vitium>*30, <aspect:perditio>*56, <aspect:alienis>*25, <aspect:cognitio>*30], 
-<minecraft:egg>, 
-[<minecraft:book>, <thaumcraft:inlay>, <thaumcraft:ingot:0>, <thaumcraft:ingot:0>]);
+// mods.thaumcraft.Infusion.registerRecipe("inflesser", "", 
+// <minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumcraft:cultistportallesser"}}), 10,
+// [<aspect:vitium>*30, <aspect:perditio>*56, <aspect:alienis>*25, <aspect:cognitio>*30], 
+// <minecraft:egg>, 
+// [<minecraft:book>, <thaumcraft:inlay>, <thaumcraft:ingot:0>, <thaumcraft:ingot:0>]);
 
 
-mods.thaumcraft.Infusion.registerRecipe("infgreater", "", 
-<minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumcraft:cultistportalgreater"}}), 10,
-[<aspect:vitium>*50, <aspect:perditio>*56, <aspect:alienis>*32, <aspect:cognitio>*40], 
-<minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumcraft:cultistportallesser"}}), 
-[<thaumcraft:filter>, <thaumcraft:inlay>, <thaumcraft:ingot:1>, <thaumcraft:ingot:1>]);
+// mods.thaumcraft.Infusion.registerRecipe("infgreater", "", 
+// <minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumcraft:cultistportalgreater"}}), 10,
+// [<aspect:vitium>*50, <aspect:perditio>*56, <aspect:alienis>*32, <aspect:cognitio>*40], 
+// <minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumcraft:cultistportallesser"}}), 
+// [<thaumcraft:filter>, <thaumcraft:inlay>, <thaumcraft:ingot:1>, <thaumcraft:ingot:1>]);
 
 
 recipes.addShaped(<contenttweaker:abyssal_wasteland_warp_cleanser>,

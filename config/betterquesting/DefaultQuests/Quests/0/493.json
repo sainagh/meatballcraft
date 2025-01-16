@@ -1,6 +1,6 @@
 {
   "preRequisites:11": [
-    275
+    274
   ],
   "properties:10": {
     "betterquesting:10": {
@@ -56,6 +56,28 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:hazmat_helmet"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:hazmat_chestplate"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:hazmat_legs"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:hazmat_boots"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

@@ -932,3 +932,12 @@ var hardmodegroupcarrotop = ArmorHandler.createArmorGroup("hardmodegroupcarrotop
 hardmodegroupcarrotop.addEntity(carrotop);
 hardmodegroupcarrotop.addArmor(ArmorHandler.createArmorSlot("mainhand", <contenttweaker:tungsten_carrot>, 1, 1.0));
 hardmodegroupcarrotop.addGameStage("hardmode"); 
+
+var lostcitiesgroup = ArmorHandler.createArmorGroup("lostcitiesgroup", 1.0);
+lostcitiesgroup.addEntity(upzombie);
+lostcitiesgroup.addEntity(upskelly);
+lostcitiesgroup.addArmor(ArmorHandler.createArmorSlot("head", <contenttweaker:sentient_meatball>.withTag({ench: [{lvl: 1 as short, id: 70 as short}, {lvl: 15 as short, id: 34 as short}, {lvl: 100 as short, id: 7 as short}]}), 1, 0.05)); 
+lostcitiesgroup.addArmor(ArmorHandler.createArmorSlot("chest", <contenttweaker:sentient_meatball_chest>.withTag({ench: [{lvl: 1 as short, id: 70 as short}, {lvl: 15 as short, id: 34 as short}, {lvl: 100 as short, id: 7 as short}]}), 1, 0.05)); 
+lostcitiesgroup.addArmor(ArmorHandler.createArmorSlot("legs", <contenttweaker:sentient_meatball_legs>.withTag({ench: [{lvl: 1 as short, id: 70 as short}, {lvl: 15 as short, id: 34 as short}, {lvl: 100 as short, id: 7 as short}]}), 1, 0.05)); 
+lostcitiesgroup.addArmor(ArmorHandler.createArmorSlot("feet", <contenttweaker:sentient_meatball_feet>.withTag({ench: [{lvl: 1 as short, id: 70 as short}, {lvl: 15 as short, id: 34 as short}, {lvl: 100 as short, id: 7 as short}]}), 1, 0.05)); 
+lostcitiesgroup.addGameStage("lostcitiesstage"); 

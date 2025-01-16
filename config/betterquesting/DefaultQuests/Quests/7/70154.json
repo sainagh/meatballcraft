@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Spawns in the Nether and the End.\nIn RFTools Dimensions, it can be found below Y\u003d40.\n\n- Written by Bluecat",
+      "desc:8": "§7§oSpawns in the Nether and the End.\nIn RFTools Dimensions, it can be found below Y\u003d40.\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftools:dimensional_shard"

@@ -155,7 +155,7 @@ corruptedlibrarydefinedengine.addItemInput(<contenttweaker:defined_gear>*4);
 corruptedlibrarydefinedengine.addItemOutput(<contenttweaker:defined_engine>);
 corruptedlibrarydefinedengine.build();
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:irradiator_casing>*12, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:irradiator_casing>*24, 
 [[<contenttweaker:high_refraction_alloy_ingot>, <contenttweaker:infinity_plate>, <contenttweaker:radiation_crafter>, <contenttweaker:infinity_plate>, <contenttweaker:high_refraction_alloy_ingot>], 
 [<contenttweaker:infinity_plate>, <extendedcrafting:storage:4>, <nuclearcraft:fusion_core>, <extendedcrafting:storage:4>, <contenttweaker:infinity_plate>], 
 [<contenttweaker:radiation_crafter>, <nae2:material:4>, <contenttweaker:living_case>, <nae2:material:4>, <contenttweaker:radiation_crafter>], 
@@ -177,33 +177,75 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:starmetal_alloy
 <astralsorcery:itemcraftingcomponent:1>, 
 <materialpart:primal_ogerite:ingot>, 3333);
 
-val irradiationultimate = RecipeBuilder.newBuilder("irradiationultimate","dyson_irradiator",200);
-irradiationultimate.addEnergyPerTickInput(500000);
-// irradiationultimate.addGridPowerInput(500);
-// irradiationultimate.addAspectInput("lux",30);
-// irradiationultimate.addRainbowInput();
-irradiationultimate.addItemInput(<extrautils2:decorativesolid:8>);
-irradiationultimate.addFluidInput(<fluid:hyperdense_plasma>*100);
-irradiationultimate.addFluidInput(<fluid:magnatar_stabilizer>*200);
-irradiationultimate.addItemInput(<contenttweaker:defined_ingot>);
-irradiationultimate.addItemInput(<minecraft:diamond>);
-irradiationultimate.addItemInput(<avaritia:resource:5>*4);
-irradiationultimate.addItemOutput(<avaritia:resource:6>);
-irradiationultimate.build();
+val irradiationultimatetop = RecipeBuilder.newBuilder("irradiationultimatetop","dyson_irradiator_top",200);
+irradiationultimatetop.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationultimatetop.addItemInput(<contenttweaker:defined_ingot>);
+irradiationultimatetop.addItemInput(<minecraft:diamond>);
+irradiationultimatetop.addItemInput(<contenttweaker:infinity_stone>);
+irradiationultimatetop.addItemInput(<appliedenergistics2:material:47>);
+irradiationultimatetop.addItemOutput(<avaritia:resource:6>);
+irradiationultimatetop.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationultimatetop.build();
 
-val irradiationultimate1 = RecipeBuilder.newBuilder("irradiationultimate1","dyson_irradiator",200);
-irradiationultimate1.addEnergyPerTickInput(500000);
-// irradiationultimate1.addGridPowerInput(500);
-// irradiationultimate1.addAspectInput("lux",30);
-// irradiationultimate1.addRainbowInput();
-irradiationultimate1.addItemInput(<extrautils2:decorativesolid:8>);
-irradiationultimate1.addFluidInput(<fluid:hyperdense_plasma>*100);
-irradiationultimate1.addFluidInput(<fluid:magnatar_stabilizer>*200);
-irradiationultimate1.addItemInput(<contenttweaker:defined_ingot>);
-irradiationultimate1.addItemInput(<avaritia:resource:5>*4);
-irradiationultimate1.addItemInput(<contenttweaker:infinity_egg>);
-irradiationultimate1.addItemOutput(<avaritia:resource:6>*12);
-irradiationultimate1.build();
+val irradiationultimatebot = RecipeBuilder.newBuilder("irradiationultimatebot","dyson_irradiator_bottom",200);
+irradiationultimatebot.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationultimatebot.addItemInput(<contenttweaker:defined_ingot>);
+irradiationultimatebot.addItemInput(<minecraft:diamond>);
+irradiationultimatebot.addItemInput(<contenttweaker:infinity_stone>);
+irradiationultimatebot.addItemInput(<appliedenergistics2:material:47>);
+irradiationultimatebot.addItemOutput(<avaritia:resource:6>);
+irradiationultimatebot.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationultimatebot.build();
+
+val irradiationultimatechicktop = RecipeBuilder.newBuilder("irradiationultimatechicktop","dyson_irradiator_top",200);
+irradiationultimatechicktop.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationultimatechicktop.addItemInput(<contenttweaker:defined_ingot>);
+irradiationultimatechicktop.addItemInput(<contenttweaker:infinity_egg>);
+irradiationultimatechicktop.addItemInput(<contenttweaker:infinity_stone>);
+irradiationultimatechicktop.addItemInput(<appliedenergistics2:material:47>);
+irradiationultimatechicktop.addItemOutput(<avaritia:resource:6>*12);
+irradiationultimatechicktop.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationultimatechicktop.build();
+
+val irradiationultimatechickbot = RecipeBuilder.newBuilder("irradiationultimatechickbot","dyson_irradiator_bottom",200);
+irradiationultimatechickbot.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationultimatechickbot.addItemInput(<contenttweaker:defined_ingot>);
+irradiationultimatechickbot.addItemInput(<contenttweaker:infinity_egg>);
+irradiationultimatechickbot.addItemInput(<contenttweaker:infinity_stone>);
+irradiationultimatechickbot.addItemInput(<appliedenergistics2:material:47>);
+irradiationultimatechickbot.addItemOutput(<avaritia:resource:6>*12);
+irradiationultimatechickbot.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationultimatechickbot.build();
+
+val irradiationrainbowtop = RecipeBuilder.newBuilder("irradiationrainbowtop","dyson_irradiator_top",200);
+irradiationrainbowtop.addFluidInput(<fluid:chaos>*1440);
+irradiationrainbowtop.addItemInput(<extrautils2:decorativesolid:8>);
+irradiationrainbowtop.addItemInput(<contenttweaker:infinite_resonator>);
+irradiationrainbowtop.addItemInput(<draconicevolution:chaos_shard:3>);
+irradiationrainbowtop.addItemInput(<draconicevolution:draconic_block>);
+irradiationrainbowtop.addItemOutput(<contenttweaker:infinity_stone>);
+irradiationrainbowtop.addItemOutput(<draconicevolution:chaos_shard:0>);
+irradiationrainbowtop.build();
+
+val irradiationrainbowbot = RecipeBuilder.newBuilder("irradiationrainbowbot","dyson_irradiator_bottom",200);
+irradiationrainbowbot.addFluidInput(<fluid:chaos>*1440);
+irradiationrainbowbot.addItemInput(<extrautils2:decorativesolid:8>);
+irradiationrainbowbot.addItemInput(<contenttweaker:infinite_resonator>);
+irradiationrainbowbot.addItemInput(<draconicevolution:chaos_shard:3>);
+irradiationrainbowbot.addItemInput(<draconicevolution:draconic_block>);
+irradiationrainbowbot.addItemOutput(<contenttweaker:infinity_stone>);
+irradiationrainbowbot.addItemOutput(<draconicevolution:chaos_shard:0>);
+irradiationrainbowbot.build();
+
+val irradiationtimecrystal = RecipeBuilder.newBuilder("irradiationtimecrystal","dyson_irradiator",200);
+irradiationtimecrystal.addEnergyPerTickInput(500000000);
+irradiationtimecrystal.addFluidInput(<fluid:magnatar_stabilizer>*200);
+irradiationtimecrystal.addFluidInput(<fluid:atomic_nuclei>*100);
+irradiationtimecrystal.addFluidInput(<fluid:electrons>*100);
+irradiationtimecrystal.addItemInput(<avaritia:resource:5>*4);
+irradiationtimecrystal.addItemInput(<contenttweaker:time_crystal>);
+irradiationtimecrystal.addItemOutput(<contenttweaker:infinite_resonator>);
+irradiationtimecrystal.build();
 
 mods.thaumcraft.Infusion.registerRecipe("infinityseedinfusion", "", <contenttweaker:infinity_seed>, 
 20, 
@@ -316,182 +358,182 @@ recipes.addShaped(<contenttweaker:tier_vi_defined_seed>,
 [<mysticalagradditions:insanium:0>, <mysticalagradditions:insanium:1>, <mysticalagradditions:insanium:0>],
 [<contenttweaker:defined_insanium_cluster>, <mysticalagradditions:insanium:0>, <contenttweaker:defined_insanium_cluster>]]);
 
-val irradiationseed1 = RecipeBuilder.newBuilder("irradiationseed1","dyson_irradiator",200);
-irradiationseed1.addEnergyPerTickInput(500000);
-irradiationseed1.addFluidInput(<fluid:fiery_peat>*400);
-// irradiationseed1.addAspectInput("lux",30);
-irradiationseed1.addItemInput(<contenttweaker:tier_i_defined_seed>);
-irradiationseed1.addItemOutput(<mysticalagriculture:stone_essence>*64);
-irradiationseed1.addItemOutput(<mysticalagriculture:dirt_essence>*64);
-irradiationseed1.addItemOutput(<mysticalagriculture:nature_essence>*64);
-irradiationseed1.addItemOutput(<mysticalagriculture:wood_essence>*64);
-irradiationseed1.addItemOutput(<mysticalagriculture:water_essence>*64);
-irradiationseed1.addItemOutput(<mysticalagriculture:ice_essence>*64);
-irradiationseed1.addItemOutput(<mysticalagriculture:zombie_essence>*64);
-irradiationseed1.build();
+// val irradiationseed1 = RecipeBuilder.newBuilder("irradiationseed1","dyson_irradiator",200);
+// irradiationseed1.addEnergyPerTickInput(500000);
+// irradiationseed1.addFluidInput(<fluid:fiery_peat>*400);
+// // irradiationseed1.addAspectInput("lux",30);
+// irradiationseed1.addItemInput(<contenttweaker:tier_i_defined_seed>);
+// irradiationseed1.addItemOutput(<mysticalagriculture:stone_essence>*64);
+// irradiationseed1.addItemOutput(<mysticalagriculture:dirt_essence>*64);
+// irradiationseed1.addItemOutput(<mysticalagriculture:nature_essence>*64);
+// irradiationseed1.addItemOutput(<mysticalagriculture:wood_essence>*64);
+// irradiationseed1.addItemOutput(<mysticalagriculture:water_essence>*64);
+// irradiationseed1.addItemOutput(<mysticalagriculture:ice_essence>*64);
+// irradiationseed1.addItemOutput(<mysticalagriculture:zombie_essence>*64);
+// irradiationseed1.build();
 
-val irradiationseed2 = RecipeBuilder.newBuilder("irradiationseed2","dyson_irradiator",200);
-irradiationseed2.addEnergyPerTickInput(500000);
-irradiationseed2.addFluidInput(<fluid:fiery_peat>*600);
-// irradiationseed2.addAspectInput("lux",30);
-irradiationseed2.addItemInput(<contenttweaker:tier_ii_defined_seed>);
-irradiationseed2.addItemOutput(<mysticalagriculture:fire_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:dye_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:nether_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:coal_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:pig_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:chicken_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:cow_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:sheep_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:slime_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:rubber_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:silicon_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:sulfur_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:aluminum_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:copper_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:aluminum_brass_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:grains_of_infinity_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:mystical_flower_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:marble_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:limestone_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:basalt_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:apatite_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:slimy_bone_essence>*64);
-irradiationseed2.addItemOutput(<mysticalagriculture:menril_essence>*64);
-irradiationseed2.build();
+// val irradiationseed2 = RecipeBuilder.newBuilder("irradiationseed2","dyson_irradiator",200);
+// irradiationseed2.addEnergyPerTickInput(500000);
+// irradiationseed2.addFluidInput(<fluid:fiery_peat>*600);
+// // irradiationseed2.addAspectInput("lux",30);
+// irradiationseed2.addItemInput(<contenttweaker:tier_ii_defined_seed>);
+// irradiationseed2.addItemOutput(<mysticalagriculture:fire_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:dye_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:nether_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:coal_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:pig_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:chicken_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:cow_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:sheep_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:slime_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:rubber_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:silicon_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:sulfur_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:aluminum_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:copper_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:aluminum_brass_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:grains_of_infinity_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:mystical_flower_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:marble_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:limestone_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:basalt_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:apatite_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:slimy_bone_essence>*64);
+// irradiationseed2.addItemOutput(<mysticalagriculture:menril_essence>*64);
+// irradiationseed2.build();
 
-val irradiationseed3 = RecipeBuilder.newBuilder("irradiationseed3","dyson_irradiator",200);
-irradiationseed3.addEnergyPerTickInput(500000);
-irradiationseed3.addFluidInput(<fluid:fiery_peat>*800);
-// irradiationseed3.addAspectInput("lux",30);
-irradiationseed3.addItemInput(<contenttweaker:tier_iii_defined_seed>);
-irradiationseed3.addItemOutput(<mysticalagriculture:iron_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:nether_quartz_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:glowstone_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:redstone_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:obsidian_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:skeleton_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:creeper_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:spider_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:rabbit_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:guardian_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:saltpeter_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:tin_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:bronze_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:zinc_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:brass_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:silver_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:lead_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:graphite_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:blizz_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:blitz_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:basalz_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:knightslime_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:ardite_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:electrical_steel_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:redstone_alloy_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:conductive_iron_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:manasteel_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:quicksilver_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:thaumium_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:electrotine_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:steeleaf_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:ironwood_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:coralium_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:syrmorite_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:octine_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:black_quartz_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:aquamarine_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:sky_stone_essence>*64);
-irradiationseed3.addItemOutput(<mysticalagriculture:certus_quartz_essence>*64);
-irradiationseed3.build();
+// val irradiationseed3 = RecipeBuilder.newBuilder("irradiationseed3","dyson_irradiator",200);
+// irradiationseed3.addEnergyPerTickInput(500000);
+// irradiationseed3.addFluidInput(<fluid:fiery_peat>*800);
+// // irradiationseed3.addAspectInput("lux",30);
+// irradiationseed3.addItemInput(<contenttweaker:tier_iii_defined_seed>);
+// irradiationseed3.addItemOutput(<mysticalagriculture:iron_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:nether_quartz_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:glowstone_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:redstone_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:obsidian_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:skeleton_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:creeper_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:spider_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:rabbit_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:guardian_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:saltpeter_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:tin_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:bronze_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:zinc_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:brass_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:silver_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:lead_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:graphite_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:blizz_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:blitz_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:basalz_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:knightslime_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:ardite_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:electrical_steel_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:redstone_alloy_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:conductive_iron_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:manasteel_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:quicksilver_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:thaumium_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:electrotine_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:steeleaf_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:ironwood_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:coralium_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:syrmorite_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:octine_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:black_quartz_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:aquamarine_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:sky_stone_essence>*64);
+// irradiationseed3.addItemOutput(<mysticalagriculture:certus_quartz_essence>*64);
+// irradiationseed3.build();
 
-val irradiationseed4 = RecipeBuilder.newBuilder("irradiationseed4","dyson_irradiator",200);
-irradiationseed4.addEnergyPerTickInput(500000);
-irradiationseed4.addFluidInput(<fluid:fiery_peat>*1000);
-// irradiationseed4.addAspectInput("lux",30);
-irradiationseed4.addItemInput(<contenttweaker:tier_iv_defined_seed>);
-irradiationseed4.addItemOutput(<mysticalagriculture:gold_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:lapis_lazuli_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:end_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:experience_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:blaze_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:ghast_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:enderman_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:steel_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:nickel_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:constantan_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:electrum_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:invar_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:mithril_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:ruby_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:sapphire_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:peridot_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:amber_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:topaz_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:malachite_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:tanzanite_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:signalum_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:lumium_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:fluxed_electrum_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:hop_graphite_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:cobalt_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:soularium_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:dark_steel_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:pulsating_iron_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:energetic_alloy_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:elementium_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:void_metal_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:alumite_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:knightmetal_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:fiery_ingot_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:abyssalnite_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:thorium_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:boron_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:lithium_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:magnesium_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:jade_essence>*64);
-irradiationseed4.addItemOutput(<mysticalagriculture:fluix_essence>*64);
-irradiationseed4.build();
+// val irradiationseed4 = RecipeBuilder.newBuilder("irradiationseed4","dyson_irradiator",200);
+// irradiationseed4.addEnergyPerTickInput(500000);
+// irradiationseed4.addFluidInput(<fluid:fiery_peat>*1000);
+// // irradiationseed4.addAspectInput("lux",30);
+// irradiationseed4.addItemInput(<contenttweaker:tier_iv_defined_seed>);
+// irradiationseed4.addItemOutput(<mysticalagriculture:gold_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:lapis_lazuli_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:end_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:experience_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:blaze_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:ghast_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:enderman_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:steel_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:nickel_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:constantan_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:electrum_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:invar_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:mithril_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:ruby_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:sapphire_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:peridot_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:amber_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:topaz_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:malachite_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:tanzanite_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:signalum_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:lumium_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:fluxed_electrum_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:hop_graphite_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:cobalt_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:soularium_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:dark_steel_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:pulsating_iron_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:energetic_alloy_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:elementium_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:void_metal_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:alumite_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:knightmetal_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:fiery_ingot_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:abyssalnite_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:thorium_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:boron_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:lithium_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:magnesium_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:jade_essence>*64);
+// irradiationseed4.addItemOutput(<mysticalagriculture:fluix_essence>*64);
+// irradiationseed4.build();
 
-val irradiationseed5 = RecipeBuilder.newBuilder("irradiationseed5","dyson_irradiator",200);
-irradiationseed5.addEnergyPerTickInput(500000);
-irradiationseed5.addFluidInput(<fluid:fiery_peat>*1400);
-// irradiationseed5.addAspectInput("lux",30);
-irradiationseed5.addItemInput(<contenttweaker:tier_v_defined_seed>);
-irradiationseed5.addItemOutput(<mysticalagriculture:diamond_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:emerald_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:wither_skeleton_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:tungsten_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:titanium_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:uranium_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:chrome_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:platinum_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:iridium_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:enderium_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:manyullyn_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:vibrant_alloy_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:end_steel_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:terrasteel_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:dreadium_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:valonite_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:starmetal_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:rock_crystal_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:ender_amethyst_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:draconium_essence>*64);
-irradiationseed5.addItemOutput(<mysticalagriculture:yellorium_essence>*64);
-irradiationseed5.build();
+// val irradiationseed5 = RecipeBuilder.newBuilder("irradiationseed5","dyson_irradiator",200);
+// irradiationseed5.addEnergyPerTickInput(500000);
+// irradiationseed5.addFluidInput(<fluid:fiery_peat>*1400);
+// // irradiationseed5.addAspectInput("lux",30);
+// irradiationseed5.addItemInput(<contenttweaker:tier_v_defined_seed>);
+// irradiationseed5.addItemOutput(<mysticalagriculture:diamond_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:emerald_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:wither_skeleton_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:tungsten_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:titanium_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:uranium_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:chrome_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:platinum_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:iridium_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:enderium_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:manyullyn_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:vibrant_alloy_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:end_steel_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:terrasteel_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:dreadium_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:valonite_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:starmetal_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:rock_crystal_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:ender_amethyst_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:draconium_essence>*64);
+// irradiationseed5.addItemOutput(<mysticalagriculture:yellorium_essence>*64);
+// irradiationseed5.build();
 
-val irradiationseed6 = RecipeBuilder.newBuilder("irradiationseed6","dyson_irradiator",200);
-irradiationseed6.addEnergyPerTickInput(500000);
-irradiationseed6.addFluidInput(<fluid:fiery_peat>*6000);
-// irradiationseed6.addAspectInput("lux",30);
-irradiationseed6.addItemInput(<contenttweaker:tier_vi_defined_seed>);
-irradiationseed6.addItemOutput(<mysticalagradditions:nether_star_essence>*64);
-irradiationseed6.addItemOutput(<mysticalagradditions:dragon_egg_essence>*64);
-irradiationseed6.addItemOutput(<mysticalagradditions:awakened_draconium_essence>*64);
-irradiationseed6.addItemOutput(<mysticalagradditions:neutronium_essence>*64);
-irradiationseed6.build();
+// val irradiationseed6 = RecipeBuilder.newBuilder("irradiationseed6","dyson_irradiator",200);
+// irradiationseed6.addEnergyPerTickInput(500000);
+// irradiationseed6.addFluidInput(<fluid:fiery_peat>*6000);
+// // irradiationseed6.addAspectInput("lux",30);
+// irradiationseed6.addItemInput(<contenttweaker:tier_vi_defined_seed>);
+// irradiationseed6.addItemOutput(<mysticalagradditions:nether_star_essence>*64);
+// irradiationseed6.addItemOutput(<mysticalagradditions:dragon_egg_essence>*64);
+// irradiationseed6.addItemOutput(<mysticalagradditions:awakened_draconium_essence>*64);
+// irradiationseed6.addItemOutput(<mysticalagradditions:neutronium_essence>*64);
+// irradiationseed6.build();
 
 val spatialcruchalite = RecipeBuilder.newBuilder("spatialcruchalite","spatial_crucible",100);
 spatialcruchalite.addEnergyPerTickInput(120000);
@@ -506,36 +548,56 @@ spatialcruchalite.addFluidOutput(<fluid:halite_fluid>*1000);
 spatialcruchalite.build();
 
 
-val halitewarrior = RecipeBuilder.newBuilder("halitewarrior","dyson_irradiator",200);
-halitewarrior.addEnergyPerTickInput(50000000);
-halitewarrior.addFluidInput(<fluid:halite_fluid>*250);
-halitewarrior.addFluidInput(<fluid:magnatar_stabilizer>*2000);
-// halitewarrior.addAspectInput("lux",50);
-// halitewarrior.addRainbowInput();
-halitewarrior.addItemInput(<divinerpg:halite_shield>);
-halitewarrior.addItemInput(<divinerpg:halite_blade>);
-halitewarrior.addItemInput(<divinerpg:halite_bow>);
-halitewarrior.addItemInput(<divinerpg:halite_slicer>);
-halitewarrior.addItemInput(<divinerpg:halite_blitz>);
-halitewarrior.addItemInput(<divinerpg:halite_phaser>);
-halitewarrior.addItemInput(<divinerpg:halite_helmet>);
-halitewarrior.addItemInput(<divinerpg:halite_chestplate>);
-halitewarrior.addItemInput(<divinerpg:halite_leggings>);
-halitewarrior.addItemInput(<divinerpg:halite_boots>);
-halitewarrior.addItemOutput(<contenttweaker:halite_warrior>);
-halitewarrior.build();
+// val halitewarrior = RecipeBuilder.newBuilder("halitewarrior","dyson_irradiator",200);
+// halitewarrior.addEnergyPerTickInput(50000000);
+// halitewarrior.addFluidInput(<fluid:halite_fluid>*250);
+// halitewarrior.addFluidInput(<fluid:magnatar_stabilizer>*2000);
+// halitewarrior.addItemInput(<divinerpg:halite_shield>);
+// halitewarrior.addItemInput(<divinerpg:halite_blade>);
+// halitewarrior.addItemInput(<divinerpg:halite_bow>);
+// halitewarrior.addItemInput(<divinerpg:halite_slicer>);
+// halitewarrior.addItemInput(<divinerpg:halite_blitz>);
+// halitewarrior.addItemInput(<divinerpg:halite_phaser>);
+// halitewarrior.addItemInput(<divinerpg:halite_helmet>);
+// halitewarrior.addItemInput(<divinerpg:halite_chestplate>);
+// halitewarrior.addItemInput(<divinerpg:halite_leggings>);
+// halitewarrior.addItemInput(<divinerpg:halite_boots>);
+// halitewarrior.addItemOutput(<contenttweaker:halite_warrior>);
+// halitewarrior.build();
+
+mods.nuclearcraft.infuser.addRecipe([<extendedcrafting:singularity_ultimate>, <fluid:halite_fluid>*250, <contenttweaker:heart_of_the_halite_warrior>]);
+
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:heart_of_the_halite_warrior>, <extendedcrafting:singularity_ultimate>, <fluid:halite_fluid>*250, 2000);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:halite_warrior>, 
+[[null, null, null, null, <divinerpg:halite_helmet>, null, null, null, null], 
+[null, <divinerpg:halite_phaser>, null, null, null, null, null, <divinerpg:halite_blitz>, null], 
+[null, null, null, null, <divinerpg:halite_chestplate>, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null], 
+[null, <divinerpg:halite_bow>, null, null, <contenttweaker:heart_of_the_halite_warrior>, null, null, <divinerpg:halite_blade>, null], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, <divinerpg:halite_leggings>, null, null, null, null], 
+[null, <divinerpg:halite_shield>, null, null, null, null, null, <divinerpg:halite_slicer>, null], 
+[null, null, null, null, <divinerpg:halite_boots>, null, null, null, null]]);  
+
 
 mods.nuclearcraft.fusion.addRecipe([<fluid:relativistic_matter>*10, <fluid:technetium>*10, <fluid:magnatar_stabilizer>*100, <fluid:technetium>*10, null, null, 150.0, 155.0, 6556.0]);
 
-val irradiationchaosbuff = RecipeBuilder.newBuilder("irradiationchaosbuff","dyson_irradiator",200);
-irradiationchaosbuff.addEnergyPerTickInput(500000);
-// irradiationchaosbuff.addGridPowerInput(6000);
-// irradiationchaosbuff.addRainbowInput();
-// halitewarrior.addAspectInput("lux",10);
-irradiationchaosbuff.addItemInput(<extrautils2:decorativesolid:8>);
-irradiationchaosbuff.addFluidInput(<fluid:hyperdense_plasma>*200);
-irradiationchaosbuff.addFluidInput(<fluid:magnatar_stabilizer>*200);
-irradiationchaosbuff.addFluidInput(<fluid:chaos>*1440);
-irradiationchaosbuff.addItemInput(<draconicevolution:chaos_shard:2>);
-irradiationchaosbuff.addItemOutput(<draconicevolution:chaos_shard:0>);
-irradiationchaosbuff.build();
+mods.extendedcrafting.TableCrafting.addShaped(<glassential:glass_light>*32, 
+[[<thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>], 
+[<thermalfoundation:glass_alloy:6>, <contenttweaker:high_refraction_alloy_ingot>, <nuclearcraft:heat_exchanger_frame>, <contenttweaker:brightsteel_alloy_ingot>, <nuclearcraft:heat_exchanger_frame>, <contenttweaker:high_refraction_alloy_ingot>, <thermalfoundation:glass_alloy:6>], 
+[<thermalfoundation:glass_alloy:6>, <nuclearcraft:heat_exchanger_frame>, <nuclearcraft:accelerator_electromagnet_idle>, <nuclearcraft:accelerator_electromagnet_idle>, <nuclearcraft:accelerator_electromagnet_idle>, <nuclearcraft:heat_exchanger_frame>, <thermalfoundation:glass_alloy:6>], 
+[<thermalfoundation:glass_alloy:6>, <contenttweaker:brightsteel_alloy_ingot>, <nuclearcraft:accelerator_electromagnet_idle>, <contenttweaker:well_defined_machine_case>, <nuclearcraft:accelerator_electromagnet_idle>, <contenttweaker:brightsteel_alloy_ingot>, <thermalfoundation:glass_alloy:6>], 
+[<thermalfoundation:glass_alloy:6>, <nuclearcraft:heat_exchanger_frame>, <nuclearcraft:accelerator_electromagnet_idle>, <nuclearcraft:accelerator_electromagnet_idle>, <nuclearcraft:accelerator_electromagnet_idle>, <nuclearcraft:heat_exchanger_frame>, <thermalfoundation:glass_alloy:6>], 
+[<thermalfoundation:glass_alloy:6>, <contenttweaker:high_refraction_alloy_ingot>, <nuclearcraft:heat_exchanger_frame>, <contenttweaker:brightsteel_alloy_ingot>, <nuclearcraft:heat_exchanger_frame>, <contenttweaker:high_refraction_alloy_ingot>, <thermalfoundation:glass_alloy:6>], 
+[<thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:pulsar_screen>, 
+[[<contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>], 
+[<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
+[<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <nuclearcraft:accelerator_electromagnet_idle>, <contenttweaker:atomic_mirror>, <contenttweaker:atomic_mirror>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
+[<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <nuclearcraft:accelerator_electromagnet_idle>, <contenttweaker:atomic_mirror>, <contenttweaker:well_defined_machine_case>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
+[<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <nuclearcraft:accelerator_electromagnet_idle>, <contenttweaker:atomic_mirror>, <contenttweaker:atomic_mirror>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
+[<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
+[<contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>]]);  
+

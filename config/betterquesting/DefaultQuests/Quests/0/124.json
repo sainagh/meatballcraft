@@ -34,6 +34,10 @@
             "block:8": "minecraft:end_portal_frame",
             "meta:3": 0
           }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:diary_of_a_realmshifter"
         }
       }
     }

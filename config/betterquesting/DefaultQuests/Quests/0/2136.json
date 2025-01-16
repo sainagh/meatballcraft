@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "While the powers of the Lunar Lover is enough at suppressing the will of the enemies of the Shyre Empire, that alone will not topple the prison world of Lunalus.\nTo suppress the magical abilities of the prisoners, the jailers of Lunalus make use of a well-kept secret of the Shyre Empire, a spice, a volatile dust capable of inducing a cencelling effect of the fields of recursion.\nIn the same way that a superconductor, thanks to the Meissner effect, can repel the magnetic field around it, this spice can do the same with recursion.\nThis is a dangerous weapon, one so dangerous that it could not be used openly, in the fear that others may attempt to replicate it after observing it on a battlefield.\nEven then, I suspect it may have been used on me in Mysterium; it would explain lots of things.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:recursive_imprisonment_gem"

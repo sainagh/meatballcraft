@@ -459,3 +459,8 @@ recipes.addShaped(<iceandfire:dread_shard>*4,
 [[null, <iceandfire:witherbone>, null],
 [<iceandfire:witherbone>, <contenttweaker:dread_cleansing_fabrial>.reuse(), <iceandfire:witherbone>],
 [null, <iceandfire:witherbone>, null]]);
+
+recipes.addShaped(<iceandfire:dread_shard>*4,
+[[null, <tconstruct:materials:17>, null],
+[<tconstruct:materials:17>, <contenttweaker:dread_cleansing_fabrial>.reuse(), <tconstruct:materials:17>],
+[null, <tconstruct:materials:17>, null]]);

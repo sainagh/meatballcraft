@@ -10,7 +10,7 @@ mods.jei.JEI.addDescription(<aoa3:baronyte_ingot>,["Found in the Barathos Dimens
 mods.jei.JEI.addDescription(<aoa3:blazium_ingot>,["Found in the Barathos Dimension from Advent of Ascension.","","Can be found from opening Shiny Boxes.","","Can be found in chests from a Baron Castle.","","Spawns below Y=22."]);
 mods.jei.JEI.addDescription(<aoa3:bloodstone>,["Found in the Abyss Dimension from Advent of Ascension.","","Dropped by Jawe.","","Ore generates below Y=64." ]);
 mods.jei.JEI.addDescription(<aoa3:blue_gemstones>,["Ore is found in the Crystevia Dimension near Crystevian Rock found between Y=5 and Y=114." ]);
-mods.jei.JEI.addDescription(<aoa3:charged_runium_chunk>,["Found in the Deeplands Dimension from Advent of Ascension.","","Can be dropped by Kror.","","Can be found in Deep Cases.","","Can be found between Y=70 and Y=114 wherever there is Deep Rock.","","","","- Written by Bluecat."]);
+mods.jei.JEI.addDescription(<aoa3:charged_runium_chunk>,["Found in the Deeplands Dimension from Advent of Ascension.","","Can be found between Y=70 and Y=114 wherever there is Deep Rock.","","","","- Written by Bluecat."]);
 mods.jei.JEI.addDescription(<aoa3:chestbone_fragment>,["Found in the Precasia Dimension from Advent of Ascension, below Y=42."]);
 mods.jei.JEI.addDescription(<aoa3:crystallite>,["Found in the Haven Dimension from Advent of Ascension.","","Can be dropped by \"Four Guardians\".","","Can spawn in chests in the Guardian Tower.","","Can be found between Y=30 and Y=69 in Haven Stone." ]);
 mods.jei.JEI.addDescription(<aoa3:elecanium_ingot>,["Comes from the Runandor Dimension from Advent of Ascension.","","Can be found in Shiny Boxes.","","Can be found between Y=1 to Y=34 wherever there is Runic Bricks." ]);
@@ -54,7 +54,7 @@ mods.jei.JEI.addDescription(<biomesoplenty:gem:6>,["Found below Y=32 in Ocean Bi
 mods.jei.JEI.addDescription(<biomesoplenty:gem:7>,["Found below Y=32 in Forest Biomes, and as a chance drop from Advent of Ascension ores."]);
 mods.jei.JEI.addDescription(<contenttweaker:agate>,["Found below Y=50 on Oi."]);
 mods.jei.JEI.addDescription(<contenttweaker:corrupted_aragonite>,["Obtained from the third mythic shell puzzle"]);
-mods.jei.JEI.addDescription(<contenttweaker:cursed_sapphire>,["Obtained from the secon mythic shell puzzle"]);
+mods.jei.JEI.addDescription(<contenttweaker:cursed_sapphire>,["Obtained from the second mythic shell puzzle"]);
 mods.jei.JEI.addDescription(<contenttweaker:feldspar>,["Found below Y=50 on Falacer."]);
 mods.jei.JEI.addDescription(<contenttweaker:fiery_pyrite>,["Found on the surface of Hator."]);
 mods.jei.JEI.addDescription(<contenttweaker:imperfect_gem_of_the_cosmos>,["Obtained from the fourth mythic shell puzzle"]);
@@ -137,7 +137,7 @@ mods.jei.JEI.addDescription(<techreborn:dust:50>,["Found in the Nether."]);
 mods.jei.JEI.addDescription(<techreborn:ingot:14>,["From Rutile ore, very rare, obtained by electrolizing bauxite, found in dimensional doors!"]);
 mods.jei.JEI.addDescription(<thermalfoundation:material:135>,["From sheldonite ore in the end, very rare in the overworld, found in dimensional doors!"]);
 mods.jei.JEI.addDescription(<techreborn:ingot:15>,["Found in the End."]);
-mods.jei.JEI.addDescription(<techreborn:ingot:18>,["Found in The Nether between Y=10 and Y=126"]);
+mods.jei.JEI.addDescription(<techreborn:ingot:18>,["Found in The Overworld between Y=20 and Y=40"]);
 mods.jei.JEI.addDescription(<techreborn:ingot:23>,["Found below Y=32."]);
 mods.jei.JEI.addDescription(<thaumcraft:amber>,["Can be dropped from Furious Zombies.","","The ore can be found wherever there is stone, but is more common at higher elevations." ]);
 mods.jei.JEI.addDescription(<thaumcraft:quicksilver>,["Obtained by smelting Cinnabar Ore.","","Found at every level." ]);
