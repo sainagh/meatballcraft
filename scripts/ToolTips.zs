@@ -414,11 +414,11 @@
 <bnkrblks:megelium_stone>.addTooltip(format.red("感谢Connor制作的Draconic Alchemy自动化！大爆炸在路上喽！"));
 <draconicevolution:draconium_block:1>.addTooltip(format.red("感谢Connor制作的Draconic Alchemy自动化！大爆炸在路上喽！"));
 
-<contenttweaker:stormlight_infused_crystal>.addTooltip(format.red("在赫尔维蒂维度使用沉浸原油模组的采油机来获得飓光"));
+<contenttweaker:stormlight_infused_crystal>.addTooltip(format.red("在树龙界使用沉浸原油模组的采油机来获得飓光"));
 
 <contenttweaker:shard_of_a_fallen_spren>.addTooltip(format.red("通过双足飞龙神殿激活法器获得"));
 
-<contenttweaker:wyvern_head_stone>.addTooltip(format.red("发现于赫尔维蒂维度"));
+<contenttweaker:wyvern_head_stone>.addTooltip(format.red("发现于树龙界"));
 
 <contenttweaker:pulsating_fluix>.addTooltip(format.red("在地方界使用沉浸原油模组的采油机来获得脉冲星光"));
 

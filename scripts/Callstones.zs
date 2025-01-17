@@ -2647,8 +2647,8 @@ wyvenmonumentfabrial.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    player.sendChat("站在发现于赫尔维蒂维度的大理石结构顶部");
-    player.sendChat("柱子上缺失天辉聚能水晶，赫尔维蒂将告诉你如何放置");
+    player.sendChat("站在发现于树龙界的大理石结构顶部");
+    player.sendChat("柱子上缺失天辉聚能水晶，树龙界将告诉你如何放置");
 
     player.sendChat("检查玩家位置中");
     player.sendChat("==================================================");

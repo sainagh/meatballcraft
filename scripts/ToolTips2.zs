@@ -866,7 +866,7 @@ import crafttweaker.item.IItemCondition;
 
 <thermalexpansion:augment:576>.addTooltip(format.red("使用极限反应堆模组的涡轮机以获得最大收益！"));
 
-<contenttweaker:rainbow_core>.addTooltip(format.red("使用正确颜色的潜影盒，其中需装有正确颜色的羊毛，用潜影盒环绕彩虹羊毛合成"));
+<contenttweaker:rainbow_core>.addTooltip(format.red("使用正确颜色的潜影盒，其中需装有正确颜色的羊毛，用彩虹羊毛环绕潜影盒合成"));
 
 <appliedenergistics2:material:10>.addTooltip(format.red("将对应的种子泡入水中，用晶体催生器环绕（慢），或者使用晶体催生仓（快）"));
 
@@ -876,7 +876,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:shadow_steel>.addTooltip(format.red("高炉砖和焦煤可发现于主世界"));
 
-<astralsorcery:blockchalice>.addTooltip(format.red("需在同一直线并且无遮挡，与星能注入器距离需在2格以内"));
+<astralsorcery:blockchalice>.addTooltip(format.red("需与星能注入器在同一直线且其间无遮挡，距离需在2格以内"));
 
 <appliedenergistics2:quartz_growth_accelerator>.addTooltip(format.red("需要来自能源接收器的AE能量"));
 
