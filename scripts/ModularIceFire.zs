@@ -146,3 +146,14 @@ opdra13.addItemInput(<contenttweaker:dreadful_shard>);
 opdra13.addItemInput(<ore:ingotIceDragonsteel>*32);
 opdra13.addItemOutput(<contenttweaker:dreadful_prison_key>);
 opdra13.build();
+
+val opdra14 = RecipeBuilder.newBuilder("dragoncruc14","dragonfire_crucible",40);
+opdra14.addFluidInput(<fluid:eternal_dragon_fire>*5000);
+opdra14.addItemInput(<ore:gemDilithium>);
+opdra14.addItemInput(<bloodmagic:demon_crystal:0>*4);
+opdra14.addItemInput(<bloodmagic:demon_crystal:1>*4);
+opdra14.addItemInput(<bloodmagic:demon_crystal:2>*4);
+opdra14.addItemInput(<bloodmagic:demon_crystal:3>*4);
+opdra14.addItemInput(<bloodmagic:demon_crystal:4>*4);
+opdra14.addItemOutput(<contenttweaker:construct_of_will>);
+opdra14.build();

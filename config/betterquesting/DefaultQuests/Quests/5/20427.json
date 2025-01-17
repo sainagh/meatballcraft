@@ -1,6 +1,7 @@
 {
   "preRequisites:11": [
-    20424
+    20424,
+    270
   ],
   "properties:10": {
     "betterquesting:10": {
@@ -20,6 +21,10 @@
         "0:10": {
           "Count:3": 1,
           "id:8": "roost:roost"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "roost:catcher"
         }
       },
       "taskID:8": "bq_standard:retrieval"

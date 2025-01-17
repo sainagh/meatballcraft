@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "As part of this new great technology left by the Arbiter, the ability to directly collect neutrinos will be very beneficial.\nI have yet to invest in any particle accelerator subatomic particle synthesis, since so far I have not had the need for it, but from now on it may be a good idea to start thinking about those tools.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "avaritia:neutron_collector"

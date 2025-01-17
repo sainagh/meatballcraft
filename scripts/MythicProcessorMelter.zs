@@ -6,7 +6,7 @@ import mods.modularmachinery.RecipeBuilder;
 
 val mythmelt1 = RecipeBuilder.newBuilder("mythmelt1","mythic_processor_melter",2);mythmelt1.addEnergyPerTickInput(60000);mythmelt1.addItemInput(<contenttweaker:meatballium_ingot>);mythmelt1.addFluidOutput(<liquid:meatballium> * 144);mythmelt1.build();
 val mythmelt2 = RecipeBuilder.newBuilder("mythmelt2","mythic_processor_melter",2);mythmelt2.addEnergyPerTickInput(60000);mythmelt2.addItemInput(<ore:ingotCobalt>);mythmelt2.addFluidOutput(<liquid:cobalt> * 144);mythmelt2.build();
-val mythmelt3 = RecipeBuilder.newBuilder("mythmelt3","mythic_processor_melter",2);mythmelt3.addEnergyPerTickInput(60000);mythmelt3.addItemInput(<ore:oreCobalt>);mythmelt3.addFluidOutput(<liquid:cobalt> * 144);mythmelt3.build();
+val mythmelt3 = RecipeBuilder.newBuilder("mythmelt3","mythic_processor_melter",2);mythmelt3.addEnergyPerTickInput(60000);mythmelt3.addItemInput(<ore:oreCobalt>);mythmelt3.addFluidOutput(<liquid:cobalt> * 288);mythmelt3.build();
 val mythmelt4 = RecipeBuilder.newBuilder("mythmelt4","mythic_processor_melter",2);mythmelt4.addEnergyPerTickInput(60000);mythmelt4.addItemInput(<nuclearcraft:compound:5>);mythmelt4.addFluidOutput(<liquid:naoh> * 666);mythmelt4.build();
 val mythmelt5 = RecipeBuilder.newBuilder("mythmelt5","mythic_processor_melter",2);mythmelt5.addEnergyPerTickInput(60000);mythmelt5.addItemInput(<ore:dustSulfur>);mythmelt5.addFluidOutput(<liquid:sulfur> * 666);mythmelt5.build();
 val mythmelt6 = RecipeBuilder.newBuilder("mythmelt6","mythic_processor_melter",2);mythmelt6.addEnergyPerTickInput(60000);mythmelt6.addItemInput(<nuclearcraft:compound:6>);mythmelt6.addFluidOutput(<liquid:koh> * 666);mythmelt6.build();
@@ -601,7 +601,7 @@ val mythmelt594 = RecipeBuilder.newBuilder("mythmelt594","mythic_processor_melte
 val mythmelt595 = RecipeBuilder.newBuilder("mythmelt595","mythic_processor_melter",2);mythmelt595.addEnergyPerTickInput(60000);mythmelt595.addItemInput(<contenttweaker:barium_chunk>);mythmelt595.addFluidOutput(<liquid:barium> * 72);mythmelt595.build();
 val mythmelt596 = RecipeBuilder.newBuilder("mythmelt596","mythic_processor_melter",2);mythmelt596.addEnergyPerTickInput(60000);mythmelt596.addItemInput(<nuclearcraft:ingot:10>);mythmelt596.addFluidOutput(<liquid:molten_zirconium> * 144);mythmelt596.build();
 val mythmelt597 = RecipeBuilder.newBuilder("mythmelt597","mythic_processor_melter",2);mythmelt597.addEnergyPerTickInput(60000);mythmelt597.addItemInput(<contenttweaker:ruthenium_ingot>);mythmelt597.addFluidOutput(<liquid:molten_ruthenium> * 144);mythmelt597.build();
-val mythmelt598 = RecipeBuilder.newBuilder("mythmelt598","mythic_processor_melter",2);mythmelt598.addEnergyPerTickInput(60000);mythmelt598.addItemInput(<contenttweaker:seaborgium_chunk>);mythmelt598.addFluidOutput(<liquid:seaborgium> * 144);mythmelt598.build();
+val mythmelt598 = RecipeBuilder.newBuilder("mythmelt598","mythic_processor_melter",2);mythmelt598.addEnergyPerTickInput(60000);mythmelt598.addItemInput(<contenttweaker:seaborgium_chunk>);mythmelt598.addFluidOutput(<liquid:seaborgium> * 250);mythmelt598.build();
 val mythmelt599 = RecipeBuilder.newBuilder("mythmelt599","mythic_processor_melter",2);mythmelt599.addEnergyPerTickInput(60000);mythmelt599.addItemInput(<contenttweaker:indium_dust>);mythmelt599.addFluidOutput(<liquid:indium> * 144);mythmelt599.build();
 val mythmelt600 = RecipeBuilder.newBuilder("mythmelt600","mythic_processor_melter",2);mythmelt600.addEnergyPerTickInput(60000);mythmelt600.addItemInput(<contenttweaker:antimony_crystal>);mythmelt600.addFluidOutput(<liquid:antimony> * 144);mythmelt600.build();
 val mythmelt601 = RecipeBuilder.newBuilder("mythmelt601","mythic_processor_melter",2);mythmelt601.addEnergyPerTickInput(60000);mythmelt601.addItemInput(<contenttweaker:tellurium_crystal>);mythmelt601.addFluidOutput(<liquid:tellurium> * 144);mythmelt601.build();
@@ -646,5 +646,12 @@ val mythmelt637 = RecipeBuilder.newBuilder("mythmelt637","mythic_processor_melte
 val mythmelt640 = RecipeBuilder.newBuilder("mythmelt640","mythic_processor_melter",2);mythmelt640.addEnergyPerTickInput(60000);mythmelt640.addItemInput(<twilightforest:knightmetal_ingot>);mythmelt640.addFluidOutput(<liquid:knightmetal> * 144);mythmelt640.build();
 val mythmelt641 = RecipeBuilder.newBuilder("mythmelt641","mythic_processor_melter",2);mythmelt641.addEnergyPerTickInput(60000);mythmelt641.addItemInput(<ore:ingotKnightslime>);mythmelt641.addFluidOutput(<liquid:knightslime> * 144);mythmelt641.build();
 val mythmelt642 = RecipeBuilder.newBuilder("mythmelt642","mythic_processor_melter",2);mythmelt642.addEnergyPerTickInput(60000);mythmelt642.addItemInput(<biomesoplenty:gem:7>);mythmelt642.addFluidOutput(<liquid:amber> * 250);mythmelt642.build();
-val mythmelt643 = RecipeBuilder.newBuilder("mythmelt643","mythic_processor_melter",2);mythmelt643.addEnergyPerTickInput(60000);mythmelt643.addItemInput(<cyclicmagic:crystallized_obsidian>);mythmelt643.addFluidOutput(<liquid:crystal> * 1000);mythmelt643.build();
+val mythmelt643 = RecipeBuilder.newBuilder("mythmelt643","mythic_processor_melter",2);mythmelt643.addEnergyPerTickInput(60000);mythmelt643.addItemInput(<cyclicmagic:crystallized_obsidian>);mythmelt643.addFluidOutput(<liquid:crystallized_obsidian> * 1000);mythmelt643.build();
 val mythmelt644 = RecipeBuilder.newBuilder("mythmelt644","mythic_processor_melter",2);mythmelt644.addEnergyPerTickInput(60000);mythmelt644.addItemInput(<ore:ingotManyullyn>);mythmelt644.addFluidOutput(<liquid:manyullyn> * 144);mythmelt644.build();
+
+
+val mythmelt645 = RecipeBuilder.newBuilder("mythmelt645","mythic_processor_melter",2);
+mythmelt645.addEnergyPerTickInput(60000);
+mythmelt645.addItemInput(<contenttweaker:world_corrupting_sentient_meatball>);
+mythmelt645.addFluidOutput(<fluid:flesh_world_ichor> * 32000);
+mythmelt645.build();

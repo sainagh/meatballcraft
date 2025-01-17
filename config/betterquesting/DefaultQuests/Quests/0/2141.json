@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "Very little remains of the people of Lyndenwyrm, but one thing is certain, they had something to do with the Arbiter. The iconography is undeniably the same as Terra\u0027s, the Testificates were led by the same individual, person, God?\nI cannot say if the advanced knowledge of chaos achieved in Lyndenwyrm is directly tied to this figure, or if the Arbiter just showed up later, but it is undeniable.\nWell, whatever the involvement, things did not go well. I cannot say if it was an accident, or if it was an act from an enemy, but the people of Lyndenwyrm flew too close to the sun, or maybe bit off more than they could chew. Anyway, they are gone.\nWhat is not gone, though, together with monuments and stormlight, are the beasts of this world, which were once actively used as part of their powerful military. Everything I know about magic tells me this was the case, these incredibly powerful dragons have been tamed in some way, no differently than dogs, and their immense magic ability was pivotal to how Lyndenwyrm once dominated. And even now, after however long ago this downfall may have occurred, the dragons are still faithful to their long-gone friends.\nThe dragons are guarding something, something powerful, something dangerous...",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:wyvern_monument_activation_fabrial"
@@ -59,6 +59,10 @@
         "0:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:puzzle_solution_wyvernmonument"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ancient_wyvern_trinket"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

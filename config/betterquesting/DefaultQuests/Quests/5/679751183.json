@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    1031147864
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:actualizing_stone"
+      },
+      "name:8": "Special Materials"
+    }
+  },
+  "questID:3": 679751183,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:actualizing_stone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:naquadah_ore"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:fire_dragonsteel_ore"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ice_dragonsteel_ore"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:lightning_dragonsteel_ore"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dense_dimensional_shard_ore"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

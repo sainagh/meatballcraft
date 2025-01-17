@@ -8,11 +8,30 @@
       "desc:8": "",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "minecraft:nether_star"
+        "id:8": "contenttweaker:returning_point"
       },
-      "name:8": "Back to Earth"
+      "name:8": "Return"
     }
   },
   "questID:3": 1388,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:true_name_meatball_man"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:mark_of_sacrifice"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:returning_point"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

@@ -32,6 +32,14 @@
         "3:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:pulsar_core"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:pulsar_screen"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "glassential:glass_light"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -388,7 +388,7 @@ val ast32b = RecipeBuilder.newBuilder("ast32b","auto_astral_altar",1200);
 ast32b.addEnergyPerTickInput(1000);
 ast32b.addItemInput(<minecraft:gold_ingot>*2);
 ast32b.addItemInput(<astralsorcery:blockmarble:6>*15);
-ast32b.addItemInput(<astralsorcery:itemrockcrystalsimple:0>);
+ast32b.addItemInput(<astralsorcery:itemcelestialcrystal:0>);
 ast32b.addItemInput(<astralsorcery:itemcraftingcomponent:4>*2);
 ast32b.addItemInput(<astralsorcery:itemcraftingcomponent:2>*3);
 ast32b.addItemInput(<astralsorcery:itemcraftingcomponent:1>*3);

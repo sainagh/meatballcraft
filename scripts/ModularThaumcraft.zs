@@ -1188,7 +1188,7 @@ thaum113.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1
 thaum113.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})*10);
 thaum113.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})*10);
 thaum113.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})*10);
-thaum113.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})*10);
+thaum113.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]})*10);
 thaum113.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})*10);
 thaum113.addItemInput(<thaumcraft:fabric>*3);
 thaum113.addItemInput(<thaumictinkerer:kamiresource:2>*3);
@@ -1202,12 +1202,12 @@ thaum114.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1
 thaum114.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})*5);
 thaum114.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})*5);
 thaum114.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})*5);
-thaum114.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})*5);
+thaum114.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]})*5);
 thaum114.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})*5);
 thaum114.addItemInput(<thaumcraft:ingot:0>);
 thaum114.addItemInput(<thaumictinkerer:kamiresource:2>*3);
 thaum114.addItemInput(<minecraft:diamond>*1);
-thaum114.addItemOutput(<thaumictinkerer:kamiresource:3>*3);
+thaum114.addItemOutput(<thaumictinkerer:kamiresource:3>);
 thaum114.build();
 
 

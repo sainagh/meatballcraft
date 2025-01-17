@@ -500,3 +500,22 @@ recipes.addShapeless(<modularmachinery:safe_fission_lefhm_controller>,
 
 recipes.addShapeless(<modularmachinery:safe_fission_hecm245_controller>, 
 [<modularmachinery:safe_fission_hecm245_controller>]);
+
+
+recipes.addShapeless(<modularmachinery:active_cooled_hecf249_controller>, 
+[<modularmachinery:active_cooled_hecf249_controller>]);
+
+recipes.addShapeless(<modularmachinery:active_cooled_herrr_controller>, 
+[<modularmachinery:active_cooled_herrr_controller>]);
+
+recipes.addShapeless(<modularmachinery:active_cooled_polonium_controller>, 
+[<modularmachinery:active_cooled_polonium_controller>]);
+
+recipes.addShapeless(<modularmachinery:active_cooled_heu233_controller>, 
+[<modularmachinery:active_cooled_heu233_controller>]);
+
+recipes.addShapeless(<modularmachinery:active_cooled_hecm245_controller>, 
+[<modularmachinery:active_cooled_hecm245_controller>]);
+
+recipes.addShapeless(<modularmachinery:active_cooled_hea242_controller>, 
+[<modularmachinery:active_cooled_hea242_controller>]);

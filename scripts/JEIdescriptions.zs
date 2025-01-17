@@ -4470,4 +4470,238 @@ mods.jei.JEI.addDescription([
     "这些方块可使用染料染色顶部颜色槽来设置为不同频率。颜色频率相同的箱子和蓄水槽之间互相连接，共享物品栏/流体存储。",
     "",
     "末影袋子可通过Shift右击末影箱子来与其连接。可通过袋子直接访问物品栏，而无需打开箱子。"
+;
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:custom_dimlets>,
+    <rftoolsdim:dimlet_workbench>,
+    <rftoolsdim:dimlet_parcel>,
+    <rftoolsdim:material_absorber>,
+    <rftoolsdim:liquid_absorber>,
+    <rftoolsdim:biome_absorber>,
+    <rftoolsdim:terrain_absorber>,
+    <rftoolsdim:feature_absorber>,
+    <rftoolsdim:time_absorber>],
+[
+    "Dimlets are used to control the properties of the custom dimensions created using RFTools Dimensions.",
+    "",
+    "Dimlets are either found as loot in particular RFTools Dimensions, or are crafted in a Dimlet Workbench using materials dropped by Dimlet Parcels.",
+    "",
+    "There are many types of Dimlets, that allow to control biomes, liquids, materials, mobs, sky properies, structure generation, terrain type, features, time cycles, effects, weather in your custom Dimensions.",
+    "",
+    "In order to progress, some specific liquids and materials are made exclusive to these dimensions.",
+    "",
+    "To craft some (most) Dimlets in the Workbench, Absorbers are required. While the absorbers part of progression have their own custom recipes, the 'normal' ones require in-world crafting to be configured.",
+    "",
+    "Material Absorber: place 128 blocks adjacent, they will be consumed",
+    "",
+    "Liquid Absorber: place 128 buckets adjacent, they will be consumed",
+    "",
+    "Biome Absorber: place in the desired biome",
+    "",
+    "Terrain Absorber: place in the dimension with the desired tarrain type (end islands, nether, etc)",
+    "",
+    "Feature Absorber: place in the dimension with the desired feature type (ore veins, caves, etc); some features are exclusive to some custom RFTools Dimensions, so you may want to generate random ones",
+    "",
+    "Time Absorber: trigger with a redstone pulse at the desired time for 10 consecutive days (can be cheated with a timer and time in a bottle)"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:custom_dimensions>,
+    <rftoolsdim:dimension_enscriber>,
+    <rftoolsdim:empty_dimension_tab>,
+    <rftoolsdim:realized_dimension_tab>,
+    <rftoolsdim:dimension_builder>,
+    <rftools:dialing_device>,
+    <rftools:matter_transmitter>],
+[
+    "To create custom dimensions with RFTools, you start with an Empty Dimension Tab.",
+    "",
+    "While the tab alone can create custom dimensions, it will do so at random, with cool-looking, but often useless results (you may still want to do it a few times). To start a random Dimension, place the Tab in the Dimension Enscriber, and press 'Store'.",
+    "",
+    "To control the contents of these Dimensions, you can use a Dimension Enscriber to add Dimlets to a Dimension. For more info on Dimlets, check their respective JEI info box (search 'custom dimlets' in JEI).",
+    "",
+    "To activate the Custom Dimension, place it in a Dimension Builder. It will consume the displayed amount of energy to remain active. As long as the dimension has energy, it is accessible. You do not want to be in a dimension if it runs out of energy. Bad things will happen.",
+    "",
+    "To teleport to your custom Dimension, you can use a Dialing Device to link a Matter Transmitter nearby to the desired dimension."
+]);
+
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:celestial_notes>,
+    <thaumcraft:celestial_notes:*>],
+[
+    "To obtain Celestial Notes, you need a Thaumometer, Scribing Tools, and Paper.",
+    "",
+    "Point the Thaumometer at the sky in the right direction with the two other items in your inventory to obtain the respective Celestial Notes.",
+    "",
+    "Each note can be obtained multiple times, but only once per minecraft day. Things like the Blood Magic Imperfect Ritual or the Celestial Manipulator, or Mastery of Spellcraft (?) can help out with this.",
+    "",
+    "Requirements for the different papers:",
+    "The sun,",
+    "Empty Sky in the North/South/East/West Direction,",
+    "Various Phases of the Moon (different each night)"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:gaia_3_tips>],
+[
+    "Here are some tips for fighting the tier 3 Gaia Guardian:",
+    "",
+    "Only vanilla, Botania, and ExtraBotany gear can be used. Because of this, bring good enchants on gear from these mods!",
+    "",
+    "The red mines on the ground can one-shot you, stay away from them! The green mines disarm you. The blue mines give slowness and blindness.",
+    "",
+    "Baubles from other mods are accepted, it is good to bring a magnet there, as the boss can disarm you.",
+    "",
+    "Good gear to have:",
+    "Pleiades Combat Maid Armor (best if super-enchanted)",
+    "Super Crown",
+    "Supremium Apples (eat before fight)",
+    "Enchanted Golden Apples",
+    "Band of Mana of some sort",
+    "Globethrotter's sash",
+    "",
+    "Melee weapon:",
+    "Thundercaller (best if super-enchanted, good to add lifesteal)",
+    "Excaliber (with good enchants, good to add lifesteal)",
+    "",
+    "Ranged weapons",
+    "Crystal Bow",
+    "Key of King's Law", 
+    "Failnaught"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:gaia_4_tips>],
+[
+    "Here are some tips for fighting the tier 3 Gaia Guardian:",
+    "",
+    "The boss copies all positive buffs you have (resistance, regeneration, etc). DO NOT buff yourself using effects!",
+    "",
+    "Only vanilla, Botania, and ExtraBotany gear can be used. Because of this, bring good enchants on gear from these mods!",
+    "",
+    "The red mines on the ground can one-shot you, stay away from them! The green mines disarm you. The blue mines give slowness and blindness.",
+    "",
+    "Baubles from other mods are accepted, it is good to bring a magnet there, as the boss can disarm you.",
+    "",
+    "Good gear to have:",
+    "Pleiades Combat Maid Armor (best if super-enchanted)",
+    "Super Crown",
+    "Band of Mana of some sort",
+    "Globethrotter's sash",
+    "",
+    "Melee weapon:",
+    "Thundercaller (best if super-enchanted, good to add lifesteal)",
+    "Excaliber (with good enchants, good to add lifesteal)",
+    "",
+    "Ranged weapons",
+    "Crystal Bow",
+    "Key of King's Law", 
+    "Failnaught"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:energy_management_tipsandtricks>],
+[
+    "Here are some tips and tricks for managing energy in your base:",
+    "",
+    "It is a very good idea to have a centralized energy storage system, this is how you ensure your base has enough to run, and it makes it easy to debug issues.",
+    "If your centralized storage is empty, it means you need more generators, if it is filling up, you are all good!",
+    "In terms of centralized energy storage, you can start off with EnderIO Capacitor Banks, but the Draconic Energy Orb is the best method, and it craftable in chapter 2.",
+    "",
+    "Wireless energy transfer through Flux Networks is the best way to move energy around your base.",
+    "To avoid issues with looping energy flows, you should use TWO SEPARATE Flux Networks, one going from your generators to your centralized energy storage, and the other from the centralized storage to your machines.",
+    "Depending on the energy throughput for a given machine or generator, disable the transfer limit in the relevant Flux Points and/or Plugs.",
+    "",
+    "Having a Flux Point for every machine, or a Flux Plug for every generator is a bad idea, and it can lead to lag.",
+    "It is a good idea to use other energy transfer (Fluxducts, Conduits, Energy Lasers) to connect a single Point/Plug to multiple machines/generators. Just make sure your transfer rates are high enough to keep up."
+]);
+
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:passive_crafting_subnets>],
+[
+    "NOTE: Crafting Cards and Level Maintainers are still very laggy if present in your main AE2 network, but yes they are useful in this subnet setup.",
+    "",
+    "NOTE: Using a recipe's output as an input to another recipe on the same passive crafting subnet can cause lag. If you want to automate nesting recipes, normal passive stups are better.",
+    "",
+    "For passive packagedauto setups where you may want higher processing speed, or for passiving multiple recipes on the same multiblock, crafting AE2 subnets using Level Maintainers are a useful tool.",
+    "",
+    "If you want to automate multiple recipes on the same multiblock using this method, note that it may be faster and more efficient to just build multiple of the same machine, and do normal passive automation. For some items that are required at smaller rates, though, this is a viable strategy.",
+    "",
+    "If you want to automate PackagedAuto this way, note that this method is particularly effective with combination crafting, but also viable for other crafts.",
+    "",
+    "A subnet of this type consists of a small AE2 network with:",
+    "",
+    "1) The crafting setup for a single machine (Interface with patters on a machine, Packager and Unpackager with configured recipe setup, etc.). If you want to automate more than one machine with this method, build multiple of these subnets! For higher processing speed, build multiples of the same crafting setup, with the exact same Pattern or Recipe Package.",
+    "",
+    "2) Some sort of storage for just the inputs to your recipes; this can also be a storage bus placed on a configured interface coming from the main AE2 network.",
+    "",
+    "3) Storage for the resuts of your recipes; drawers with storage buses are a good idea here.",
+    "",
+    "4) A Level Maintainer configured for the desired recipes and the desired amounts. "
+]);
+
+
+mods.jei.JEI.addDescription([
+    <xreliquary:infernal_tear>],
+[
+    "XP production rates:",
+    "",
+    " . Nether Star - 500xp each (~level 19 for one)",
+    " . Diamond -  125xp  each (~level 8 for one)",
+    " . Iron/Tin/Silver/Copper/Steel/Gold ingots, also Emeralds - 63 xp each  (~level 5 for one)",
+    " . End Stone/Gravel/Netherrack/Sandstone- 1 xp each",
+    " . Obsidian- 5xp each",
+    " . Coal - 4xp each",
+    " . Lapis Lazuli - 9xp each",
+    " . Gunpowder - 8xp each",
+    " . Charcoal - 2xp each",
+    " . Clay block - 4xp each",
+    " . Soul sand - 2xp each",
+    " . Netherbrick - 4xp each",
+    " . Flint - 2xp each"
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:thaumatorium_automation>],
+[
+    "To reliably produce some resources, shown in JEI, you will want to set up some automation for the Thaumatorium. This method applies to both passive production and autocrafting, depending on how it is setup.",
+    "",
+    "If you have a reliable production of essentia, the Infusion Provider can be used with the Emptying Essentia Transfuser (placed on the Thumatorium) to automatically collect the required essentia for a given recipe.",
+    "",
+    "The Thaumatorium accepts items from pipes from its sides, and the dropped items it produces can be collected through any ranged item collector like the Vacuum Chest.",
+    "",
+    "Multiple recipes can be encoded on the same Thaumatorium using the Mnemonic Device.",
+    "",
+    "Since these setups drop items in-world, they can get laggy, so if you set these up passively, it is good to have some sort of shutdown mechanism to turn them off (using a comparator or a level emitter for example)."
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:runic_altar_automation>],
+[
+    "To obtain large amounts of Runes, some sort of automation for the Runic Altar may be desirable. This methods applies to both passiveproduction and autocrafting, depending on how it is setup. Note that Runes can be obtained in other ways as well (if you are inventive).",
+    "",
+    "The open crate, when provided with the right ingredients for a given recipe, can drop them directly into the Altar. Note that the Livingrock should always be last to be dropped; this can be ensured by placing it in the last slot in a AE2 procesisng pattern (for autocrafting), or using some item transfer logic (for passive). If you are autocrafting, to ensure that the Crate does not overfill, Blocking Mode on the Interface should be used.",
+    "",
+    "Alternatively, the Livingrock can be provided by a separate system. The Runic Altar provides a Comparator signal of 1 if it has a valid recipe, so it can be used for that.",
+    "",
+    "Mana spreaders have to be used to provide the Altar with the mana to run the recipe. Note that when a recipe is valid, and it has enough mana, the Runic Altar will produce a comparator signal of 2.",
+    "",
+    "Once both the valid items and the Livingrock are present, and the ALtar has enough mana, the Wand of the Forest can be used through a Mechanical User to start the recipe, and any ranged item collection system can be used to take the output.",
+    "",
+    "Note that Botania Runes are not consumed in recipes, so the output collection system will have to account for that.",
+    "",
+    "Since these setups drop items in-world, they can get laggy, so if you set these up passively, it is good to have some sort of shutdown mechanism to turn them off (using a comparator or a level emitter for example)."
+]);
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:plasma_farm>],
+[
+    "Plasma is produced inside a Fusion Reactor from Nuclearcraft while it is running.",
+    "",
+    "It can be pumped out using a Builder or a Ranged Pump",
+    "",
+    "After being emptied, the Reactor will not refill unless it is turned off and back on. Redstone circuitry can be used to periodically toggle the fusion reactor on and off to replenish it."
 ]);

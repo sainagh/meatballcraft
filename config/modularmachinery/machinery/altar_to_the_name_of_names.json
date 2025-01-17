@@ -7456,7 +7456,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "enderio:block_alloy@7"
+                "modularmachinery:blockenergyinputhatch"
             ]
         },
         {
@@ -13200,7 +13200,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "enderio:block_alloy@7"
+                "modularmachinery:blockenergyinputhatch"
             ]
         },
         {

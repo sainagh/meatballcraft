@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Can be dropped from Furious Zombies.\nThe ore can be found wherever there is stone, but is more common at higher elevations.\n\n- Written by Bluecat",
+      "desc:8": "§7§oCan be dropped from Furious Zombies.\nThe ore can be found wherever there is stone, but is more common at higher elevations.\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:amber"

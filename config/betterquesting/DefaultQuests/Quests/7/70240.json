@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Found in the Deeplands Dimension from Advent of Ascension.\nCan be dropped by Kror.\nCan be found in Deep Cases.\nCan be found between Y\u003d70 and Y\u003d114 wherever there is Deep Rock.\n\n- Written by Bluecat.",
+      "desc:8": "§7§oFound in the Deeplands Dimension from Advent of Ascension.\nCan be found between Y\u003d70 and Y\u003d114 wherever there is Deep Rock.\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:charged_runium_chunk"

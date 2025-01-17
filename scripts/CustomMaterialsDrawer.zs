@@ -61,3 +61,5 @@ mods.storagedrawers.Compaction.add(<materialpart:promethium:ingot>, <materialpar
 mods.storagedrawers.Compaction.add(<materialpart:sideral_damascus_steel:ingot>, <materialpart:sideral_damascus_steel:nugget>, 9);
 
 mods.storagedrawers.Compaction.add(<materialpart:ascended_draconic_alloy:ingot>, <materialpart:ascended_draconic_alloy:nugget>, 9);
+
+mods.storagedrawers.Compaction.add(<ebwizardry:magic_crystal:0>, <ebwizardry:crystal_shard>, 9);

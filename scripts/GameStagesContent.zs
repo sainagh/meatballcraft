@@ -104,7 +104,8 @@ mods.recipestages.Recipes.addShaped("brightsteel_feet_gs", "brightsteelforging",
     [<materialpart:brightsteel:ingot>, <iceandfire:dragonsteel_fire_boots>, <materialpart:brightsteel:ingot>]
 ]);
 
-mods.botania.RuneAltar.addRecipe(<contenttweaker:ancient_elven_knowledge>,[<materialpart:brightsteel:ingot>, <botania:rune:15>, <botania:rune:15>, <extrabotany:material:8>, <extrabotany:material:5>, <minecraft:book>], 600);
+mods.botania.RuneAltar.addRecipe(<contenttweaker:ancient_elven_knowledge>,
+[<materialpart:brightsteel:ingot>, <botania:rune:15>, <botania:rune:15>, <extrabotany:material:8>, <extrabotany:material:5>, <minecraft:book>, <extendedcrafting:singularity_custom:992>], 600);
 
 recipes.addShaped(<contenttweaker:alien_material_manual>,
 [[<ore:blockAlubrass>, <contenttweaker:shadow_steel>, <contenttweaker:shadow_steel>],
@@ -214,3 +215,15 @@ mods.recipestages.Recipes.addShaped("makeweaponsmitharbiter", "hardmode", <conte
     [<contenttweaker:chaotic_gem>, <contenttweaker:meatball_man_charm>, <contenttweaker:chaotic_gem>],
     [<contenttweaker:reactive_fluix>, <contenttweaker:chaotic_gem>, <contenttweaker:reactive_fluix>]
 ]);
+
+
+mods.recipestages.Recipes.addShaped("makemarkofsacrifice", "lostcitiesstage", <contenttweaker:mark_of_sacrifice>, [
+    [<ore:ingotSacrificeMetal>, <contenttweaker:sentient_meatball>, <ore:ingotSacrificeMetal>],
+    [<contenttweaker:sentient_meatball>, <contenttweaker:actualizing_hyperuranion_ingot>, <contenttweaker:sentient_meatball>],
+    [<ore:ingotSacrificeMetal>, <contenttweaker:sentient_meatball>, <ore:ingotSacrificeMetal>]
+]);
+
+recipes.addShaped(<contenttweaker:true_name_meatball_man>,
+[[<contenttweaker:hungering_flesh_ingot>, <contenttweaker:ascended_fluix_crystal>, <contenttweaker:hungering_flesh_ingot>],
+[<contenttweaker:ascended_fluix_crystal>, <contenttweaker:eldunari>.reuse(), <contenttweaker:ascended_fluix_crystal>],
+[<contenttweaker:hungering_flesh_ingot>, <contenttweaker:ascended_fluix_crystal>, <contenttweaker:hungering_flesh_ingot>]]);

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "May be dropped by The Sunstorm.\nBunnies and Eden Cadillion drop Eden Souls which can be used to make these fragments.\nFound in the Eden Dimension from DivineRPG.\nFound anywhere with stone.\nAlthough the ore is rainbow, the gem is red.\n\n- Written by Bluecat",
+      "desc:8": "§7§oMay be dropped by The Sunstorm.\nBunnies and Eden Cadillion drop Eden Souls which can be used to make these fragments.\nFound in the Eden Dimension from DivineRPG.\nFound anywhere with stone.\nAlthough the ore is rainbow, the gem is red.\n\n- Written by Bluecat",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:eden_fragments"

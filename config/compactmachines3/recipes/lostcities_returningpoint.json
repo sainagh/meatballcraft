@@ -1,0 +1,112 @@
+{
+    "name": "compactmachines3:lostcities_returningpoint",
+    "target-item": "contenttweaker:returning_point",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+  
+
+
+    "input-types": {
+      "a": {
+        "id": "minecraft:skull",
+        "meta": 2
+      },
+      "b": {
+        "id": "minecraft:skull",
+        "meta": 5
+      },
+      "c": {
+        "id": "minecraft:bed",
+        "meta": 0
+      },
+      "d": {
+        "id": "minecraft:skull",
+        "meta": 4
+      },
+      "e": {
+        "id": "contenttweaker:returning_point",
+        "meta": 0
+      },
+      "f": {
+        "id": "minecraft:bed",
+        "meta": 8
+      },
+      "g": {
+        "id": "minecraft:skull",
+        "meta": 3
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{id:\"minecraft:skull\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},SkullType:0b,Rot:0b}"
+      },
+      "b:A": {
+        "nbt": "{id:\"minecraft:skull\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},SkullType:0b,Rot:0b}"
+      },
+      "c:A": {
+        "nbt": "{id:\"minecraft:bed\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},color:6}"
+      },
+      "d:A": {
+        "nbt": "{id:\"minecraft:skull\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},SkullType:0b,Rot:0b}"
+      },
+      "f:A": {
+        "nbt": "{id:\"minecraft:bed\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},color:6}"
+      },
+      "g:A": {
+        "nbt": "{id:\"minecraft:skull\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},SkullType:0b,Rot:0b}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "a:A",
+          "_"
+        ],
+        [
+          "d:A",
+          "c:A",
+          "b:A"
+        ],
+        [
+          "d:A",
+          "f:A",
+          "b:A"
+        ],
+        [
+          "_",
+          "g:A",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "e",
+          "_"
+        ],
+        [
+          "_",
+          "e",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_"
+        ]
+      ]
+    ]
+   
+}

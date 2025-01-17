@@ -208,7 +208,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "bewitchment:witches_cauldron@0"
+                "contenttweaker:terrestrial_cauldron"
             ]
         },
         {
@@ -216,7 +216,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "bewitchment:witches_cauldron@0"
+                "contenttweaker:terrestrial_cauldron"
             ]
         },
         {
@@ -256,7 +256,7 @@
             "y": 3,
             "z": 4,
             "elements": [
-                "bewitchment:witches_cauldron@0"
+                "contenttweaker:terrestrial_cauldron"
             ]
         },
         {
@@ -272,7 +272,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "bewitchment:witches_cauldron@0"
+                "contenttweaker:terrestrial_cauldron"
             ]
         },
         {

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Found in the Mortum dimension from DivineRPG.\nThe ore spawns wherever Twilight Stone is.\nCan be crafted from Mortum souls, which drop from Mortum Cadillions, Basilisks, Demons of Darkness, Soul Stealers, and Twilight Archers.\n\n- Written by Bluecat",
+      "desc:8": "§7§oFound in the Mortum dimension from DivineRPG.\nThe ore spawns wherever Twilight Stone is.\nCan be crafted from Mortum souls, which drop from Mortum Cadillions, Basilisks, Demons of Darkness, Soul Stealers, and Twilight Archers.\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:mortum_fragments"

@@ -10,7 +10,7 @@
             "z": 5,
             "description": "8X speed",
             "modifier": {
-                "io": "output",
+                "io": "input",
                 "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.125

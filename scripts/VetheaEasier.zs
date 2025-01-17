@@ -137,7 +137,7 @@ recipes.addShaped(<minecraft:dye:15>*8,
 
 recipes.addShaped(<bewitchment:nether_brick_witches_altar>,
 [[<minecraft:netherbrick>, <divinerpg:arksiane_lump>, <minecraft:netherbrick>],
-[<minecraft:netherbrick>, <divinerpg:shiny_pearls>, <minecraft:netherbrick>],
+[<bewitchment:dragons_blood_resin>, <divinerpg:shiny_pearls>, <bewitchment:dragons_blood_resin>],
 [<minecraft:netherbrick>, <divinerpg:arksiane_lump>, <minecraft:netherbrick>]]);
 
 recipes.addShaped(<bewitchment:witches_cauldron>,

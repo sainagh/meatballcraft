@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Obtained from the Mysterium Dimension.\nCan be found when opening a Shiny Box.\nCan be found below Y\u003d100.\n\n- Written by Bluecat",
+      "desc:8": "§7§oObtained from the Mysterium Dimension.\nCan be found when opening a Shiny Box.\nCan be found below Y\u003d100.\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:mystite_ingot"

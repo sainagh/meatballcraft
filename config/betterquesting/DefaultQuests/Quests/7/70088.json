@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Found between Y\u003d0 and Y\u003d17.\nWill be dropped by \"The Eye\"\n\n- Second part written by Bluecat",
+      "desc:8": "§7§oFound between Y\u003d0 and Y\u003d17.\nWill be dropped by \"The Eye\"\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:rupee_ingot"

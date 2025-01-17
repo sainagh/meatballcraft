@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "After having seen all these crazy things, I do believe the Old Ones play a fundamental role to the power play of the universe. They are not just morally dark observers who only sometimes take action for personal benefit. They seem to have something to do with how recursion runs.\nThey are not necessarily the strongest beings I have met, but they are by far the oldest, and their bond to recursion is the strongest I have seen. ",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 653,
         "id:8": "extendedcrafting:singularity_custom"
       },
-      "name:8": "Ethaxium Singularity"
+      "name:8": "Ethaxium Overdrive"
     }
   },
   "questID:3": 420,

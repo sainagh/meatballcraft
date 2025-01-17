@@ -9,7 +9,7 @@
         "Count:3": 1,
         "id:8": "rftoolsdim:empty_dimension_tab"
       },
-      "name:8": "RF Tools Dimension Building"
+      "name:8": "Actualizing Warrens"
     }
   },
   "questID:3": 59,
@@ -31,41 +31,29 @@
         },
         "3:10": {
           "Count:3": 1,
-          "id:8": "rftoolsdim:dimension_editor"
+          "id:8": "rftoolsdim:dimlet_workbench"
         },
         "4:10": {
           "Count:3": 1,
-          "id:8": "rftoolsdim:energy_extractor"
+          "id:8": "rftoolsdim:material_absorber"
         },
         "5:10": {
           "Count:3": 1,
-          "id:8": "rftoolsdim:activity_probe"
+          "id:8": "rftoolsdim:liquid_absorber"
         },
         "6:10": {
           "Count:3": 1,
-          "id:8": "rftoolsdim:dimlet_workbench"
+          "id:8": "rftoolsdim:biome_absorber"
         },
         "7:10": {
           "Count:3": 1,
-          "id:8": "rftoolsdim:material_absorber"
+          "id:8": "rftoolsdim:terrain_absorber"
         },
         "8:10": {
           "Count:3": 1,
-          "id:8": "rftoolsdim:liquid_absorber"
-        },
-        "9:10": {
-          "Count:3": 1,
-          "id:8": "rftoolsdim:biome_absorber"
-        },
-        "10:10": {
-          "Count:3": 1,
-          "id:8": "rftoolsdim:terrain_absorber"
-        },
-        "11:10": {
-          "Count:3": 1,
           "id:8": "rftoolsdim:feature_absorber"
         },
-        "12:10": {
+        "9:10": {
           "Count:3": 1,
           "id:8": "rftoolsdim:time_absorber"
         }

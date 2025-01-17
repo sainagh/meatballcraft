@@ -102,7 +102,7 @@ precasiaartifact.beaconPayment = false;
 precasiaartifact.register();
 
 var edencore = VanillaFactory.createItem("eden_core");
-edencore.maxStackSize = 16;
+edencore.maxStackSize = 64;
 edencore.register();
 
 var abyssartifact = VanillaFactory.createItem("abyssal_artifact");
@@ -4061,10 +4061,6 @@ spinelring.maxStackSize = 64;
 spinelring.beaconPayment = false;
 spinelring.register();
 
-var singulargravityhoney = VanillaFactory.createItem("singular_gravity_honey");
-singulargravityhoney.maxStackSize = 64;
-singulargravityhoney.beaconPayment = false;
-singulargravityhoney.register();
 
 var timecrystal = VanillaFactory.createItem("time_crystal");
 timecrystal.maxStackSize = 64;
@@ -5052,10 +5048,6 @@ zoicore.maxStackSize = 64;
 zoicore.beaconPayment = false;
 zoicore.register();
 
-var blackholehoney = VanillaFactory.createItem("black_hole_honey");
-blackholehoney.maxStackSize = 64;
-blackholehoney.beaconPayment = false;
-blackholehoney.register();
 
 var rosidianingot = VanillaFactory.createItem("rosidian_ingot");
 rosidianingot.maxStackSize = 64;
@@ -5537,5 +5529,7 @@ var stargatehieroglyphs = VanillaFactory.createItem("stargate_hieroglyphs");
 stargatehieroglyphs.maxStackSize = 64;
 stargatehieroglyphs.beaconPayment = false;
 stargatehieroglyphs.register();
+
+
 
 

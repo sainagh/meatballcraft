@@ -678,3 +678,227 @@ alkemiawarper.itemRightClick = function(stack, world, player, hand) {
 alkemiawarper.register();
 
 
+
+
+var warrencreationfabrial = VanillaFactory.createItem("warren_creation_fabrial");
+warrencreationfabrial.maxStackSize = 1;
+warrencreationfabrial.glowing = true;
+warrencreationfabrial.itemRightClick = function(stack, world, player, hand) {
+
+    player.sendChat("站在迷道创造法器结构中心（查看多方块预览）");
+
+    player.sendChat("检查玩家位置中");
+    player.sendChat("==================================================");
+
+
+
+    var pos1 = player.position.asPosition3f();
+    pos1.x = pos1.x;
+    pos1.y = pos1.y - 1;
+    pos1.z = pos1.z;
+    var blockPos1 = pos1.asBlockPos();
+    var blockState1 = world.getBlock(blockPos1).definition.id as string;
+    if(blockState1 != "contenttweaker:hungering_machine_case") {
+        player.sendChat("缺少饥渴机壳");
+        return "FAIL";
+    }
+
+    var pos2 = player.position.asPosition3f();
+    pos2.x = pos2.x;
+    pos2.y = pos2.y - 2;
+    pos2.z = pos2.z;
+    var blockPos2 = pos2.asBlockPos();
+    var blockState2 = world.getBlock(blockPos2).definition.id as string;
+    if(blockState2 != "rftools:dimensional_shard_ore") {
+        player.sendChat("缺少维度碎片矿石 (0,0)");
+        return "FAIL";
+    }
+
+    var pos3 = player.position.asPosition3f();
+    pos3.x = pos3.x + 1;
+    pos3.y = pos3.y - 2;
+    pos3.z = pos3.z;
+    var blockPos3 = pos3.asBlockPos();
+    var blockState3 = world.getBlock(blockPos3).definition.id as string;
+    if(blockState3 != "rftools:dimensional_shard_ore") {
+        player.sendChat("缺少维度碎片矿石 (1,0)");
+        return "FAIL";
+    }
+
+    var pos4 = player.position.asPosition3f();
+    pos4.x = pos4.x - 1;
+    pos4.y = pos4.y - 2;
+    pos4.z = pos4.z;
+    var blockPos4 = pos4.asBlockPos();
+    var blockState4 = world.getBlock(blockPos4).definition.id as string;
+    if(blockState4 != "rftools:dimensional_shard_ore") {
+        player.sendChat("缺少维度碎片矿石 (-1,0)");
+        return "FAIL";
+    }
+
+    var pos5 = player.position.asPosition3f();
+    pos5.x = pos5.x;
+    pos5.y = pos5.y - 2;
+    pos5.z = pos5.z + 1;
+    var blockPos5 = pos5.asBlockPos();
+    var blockState5 = world.getBlock(blockPos5).definition.id as string;
+    if(blockState5 != "rftools:dimensional_shard_ore") {
+        player.sendChat("缺少维度碎片矿石 (0,1)");
+        return "FAIL";
+    }
+
+    var pos6 = player.position.asPosition3f();
+    pos6.x = pos6.x;
+    pos6.y = pos6.y - 2;
+    pos6.z = pos6.z - 1;
+    var blockPos6 = pos6.asBlockPos();
+    var blockState6 = world.getBlock(blockPos6).definition.id as string;
+    if(blockState6 != "rftools:dimensional_shard_ore") {
+        player.sendChat("缺少维度碎片矿石 (0,-1)");
+        return "FAIL";
+    }
+
+    var pos7 = player.position.asPosition3f();
+    pos7.x = pos7.x - 1;
+    pos7.y = pos7.y - 2;
+    pos7.z = pos7.z - 1;
+    var blockPos7 = pos7.asBlockPos();
+    var blockState7 = world.getBlock(blockPos7).definition.id as string;
+    if(blockState7 != "rftools:dimensional_shard_ore") {
+        player.sendChat("缺少维度碎片矿石 (-1,-1)");
+        return "FAIL";
+    }
+
+    var pos8 = player.position.asPosition3f();
+    pos8.x = pos8.x - 1;
+    pos8.y = pos8.y - 2;
+    pos8.z = pos8.z + 1;
+    var blockPos8 = pos8.asBlockPos();
+    var blockState8 = world.getBlock(blockPos8).definition.id as string;
+    if(blockState8 != "rftools:dimensional_shard_ore") {
+        player.sendChat("缺少维度碎片矿石 (-1,1)");
+        return "FAIL";
+    }
+
+    var pos9 = player.position.asPosition3f();
+    pos9.x = pos9.x + 1;
+    pos9.y = pos9.y - 2;
+    pos9.z = pos9.z - 1;
+    var blockPos9 = pos9.asBlockPos();
+    var blockState9 = world.getBlock(blockPos9).definition.id as string;
+    if(blockState9 != "rftools:dimensional_shard_ore") {
+        player.sendChat("缺少维度碎片矿石 (1,-1)");
+        return "FAIL";
+    }
+
+    var pos10 = player.position.asPosition3f();
+    pos10.x = pos10.x + 1;
+    pos10.y = pos10.y - 2;
+    pos10.z = pos10.z + 1;
+    var blockPos10 = pos10.asBlockPos();
+    var blockState10 = world.getBlock(blockPos10).definition.id as string;
+    if(blockState10 != "rftools:dimensional_shard_ore") {
+        player.sendChat("缺少维度碎片矿石 (1,1)");
+        return "FAIL";
+    }
+
+    var pos11 = player.position.asPosition3f();
+    pos11.x = pos11.x + 2;
+    pos11.y = pos11.y - 2;
+    pos11.z = pos11.z + 2;
+    var blockPos11 = pos11.asBlockPos();
+    var blockState11 = world.getBlock(blockPos11).definition.id as string;
+    if(blockState11 != "contenttweaker:mythic_excavation_reactor" && blockState11 != "Mythic Excavation Reactor") {
+        player.sendChat("缺少神话开掘反应堆 (2,2)");
+        return "FAIL";
+    }
+
+    var pos12 = player.position.asPosition3f();
+    pos12.x = pos12.x + 2;
+    pos12.y = pos12.y - 2;
+    pos12.z = pos12.z - 2;
+    var blockPos12 = pos12.asBlockPos();
+    var blockState12 = world.getBlock(blockPos12).definition.id as string;
+    if(blockState12 != "contenttweaker:mythic_excavation_reactor") {
+        player.sendChat("缺少神话开掘反应堆 (2,-2)");
+        return "FAIL";
+    }
+
+    var pos13 = player.position.asPosition3f();
+    pos13.x = pos13.x - 2;
+    pos13.y = pos13.y - 2;
+    pos13.z = pos13.z + 2;
+    var blockPos13 = pos13.asBlockPos();
+    var blockState13 = world.getBlock(blockPos13).definition.id as string;
+    if(blockState13 != "contenttweaker:mythic_excavation_reactor") {
+        player.sendChat("缺少神话开掘反应堆 (-2,2)");
+        return "FAIL";
+    }
+
+    var pos14 = player.position.asPosition3f();
+    pos14.x = pos14.x - 2;
+    pos14.y = pos14.y - 2;
+    pos14.z = pos14.z - 2;
+    var blockPos14 = pos14.asBlockPos();
+    var blockState14 = world.getBlock(blockPos14).definition.id as string;
+    if(blockState14 != "contenttweaker:mythic_excavation_reactor") {
+        player.sendChat("缺少神话开掘反应堆 (-2,-2)");
+        return "FAIL";
+    }
+
+    var pos15 = player.position.asPosition3f();
+    pos15.x = pos15.x - 2;
+    pos15.y = pos15.y - 1;
+    pos15.z = pos15.z - 2;
+    var blockPos15 = pos15.asBlockPos();
+    var blockState15 = world.getBlock(blockPos15).definition.id as string;
+    if(blockState15 != "contenttweaker:hyperuranon_actualizing_fabrial") {
+        player.sendChat("缺少超越天显化法器 (-2,-2)");
+        return "FAIL";
+    }
+
+    var pos16 = player.position.asPosition3f();
+    pos16.x = pos16.x + 2;
+    pos16.y = pos16.y - 1;
+    pos16.z = pos16.z - 2;
+    var blockPos16 = pos16.asBlockPos();
+    var blockState16 = world.getBlock(blockPos16).definition.id as string;
+    if(blockState16 != "contenttweaker:hyperuranon_actualizing_fabrial") {
+        player.sendChat("缺少超越天显化法器 (2,-2)");
+        return "FAIL";
+    }
+
+    var pos17 = player.position.asPosition3f();
+    pos17.x = pos17.x - 2;
+    pos17.y = pos17.y - 1;
+    pos17.z = pos17.z + 2;
+    var blockPos17 = pos17.asBlockPos();
+    var blockState17 = world.getBlock(blockPos17).definition.id as string;
+    if(blockState17 != "contenttweaker:hyperuranon_actualizing_fabrial") {
+        player.sendChat("缺少超越天显化法器 (-2,2)");
+        return "FAIL";
+    }
+
+    var pos18 = player.position.asPosition3f();
+    pos18.x = pos18.x + 2;
+    pos18.y = pos18.y - 1;
+    pos18.z = pos18.z + 2;
+    var blockPos18 = pos18.asBlockPos();
+    var blockState18 = world.getBlock(blockPos18).definition.id as string;
+    if(blockState18 != "contenttweaker:hyperuranon_actualizing_fabrial") {
+        player.sendChat("缺少超越天显化法器 (2,2)");
+        return "FAIL";
+    }
+
+
+
+	Commands.call("cofh tpx @p 190", player, world, true, true);
+	Commands.call("summon astralsorcery:entitystarburst", player, world, true, true);
+    return "Pass";
+
+
+
+
+};
+warrencreationfabrial.register();
+

@@ -1,3 +1,5 @@
+#priority 11
+
 import mods.astralsorcery.Utils;
 
 
@@ -8,7 +10,7 @@ recipes.remove(<railcraft:rock_crusher>);
 //==================================================================
 // saltpeter
 val saltpeterdust = <ore:dustSaltpeter>;
-saltpeterdust.remove(<abyssalcraft:nitre>);
+// saltpeterdust.remove(<abyssalcraft:nitre>);
 saltpeterdust.remove(<bloodmagic:component:24>);
 saltpeterdust.remove(<immersiveengineering:material:24>);
 saltpeterdust.remove(<railcraft:dust:2>);
@@ -357,6 +359,14 @@ recipes.addShaped(<railcraft:locomotive_electric>,
 [<railcraft:charge:5>, <ore:blockBatteryRechargeable>, <railcraft:charge:5>],
 [<ore:gearSteel>, <minecraft:minecart>, <ore:gearSteel>]]);
 
+
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:8>);
+
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:160>, <ore:ingotIron>, <immersiveengineering:material:7>, 20, 512, [<ore:dustCoke>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:160>, <ore:dustIron>, <immersiveengineering:material:7>, 20, 512, [<ore:dustCoke>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:160>, <ore:dustSteel>, null, 5, 512);
+
+
 //==================================================================
 // bronze
 val bronzeingot = <ore:ingotBronze>;
@@ -701,6 +711,11 @@ recipes.addShapeless(<thaumcraft:plate:1>*3,
 <ore:plateIron>,
 <ore:plateIron>]);
 
+mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:18>);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:0>*2, <ore:oreIron>, 2048, <thermalfoundation:material:69>, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:0>, <ore:ingotIron>, 2048);
+
+
 //==================================================================
 // gold
 val golddust = <ore:dustGold>;
@@ -728,6 +743,11 @@ recipes.addShapeless(<thermalfoundation:material:33>,
 
 val goldgear = <ore:gearGold>;
 goldgear.remove(<buildcraftcore:gear_gold>);
+
+mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:19>);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1>*2, <ore:oreGold>, 2048, <thermalfoundation:material:866>, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:1>, <ore:ingotGold>, 2048);
+
 
 //==================================================================
 // diamond

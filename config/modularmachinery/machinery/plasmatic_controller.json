@@ -8,7 +8,7 @@
             "x": 0,
             "y": 4,
             "z": 0,
-            "description": "Increases production speed by 400, and massively increase power draw",
+            "description": "产出速度提高400倍，极大增加能量消耗",
             "modifiers": [{
                 "io": "input",
                 "target": "modularmachinery:duration",

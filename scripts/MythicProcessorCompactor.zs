@@ -509,6 +509,6 @@ mythcomp87.build();
 
 val mythcomp88 = RecipeBuilder.newBuilder("mythcomp88","mythic_processor_compactor",2);
 mythcomp88.addEnergyPerTickInput(60000);
-mythcomp88.addItemInput(<ore:nuggeGold>);
+mythcomp88.addItemInput(<ore:nuggetGold>);
 mythcomp88.addItemOutput(<contenttweaker:gold_leaf>);
 mythcomp88.build();

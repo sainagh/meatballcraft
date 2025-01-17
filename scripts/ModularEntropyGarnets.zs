@@ -5,6 +5,7 @@ import mods.thaumcraft.Infusion;
 // recursion terra chain
 
 val combinethepuzzles = RecipeBuilder.newBuilder("combinethepuzzles","me_entropic_sythesizer",200);
+combinethepuzzles.addEnergyPerTickInput(2000000);
 combinethepuzzles.addFluidInput(<fluid:twilight_fire>*800);
 combinethepuzzles.addFluidInput(<fluid:nightmarish_matter>*800);
 combinethepuzzles.addFluidInput(<fluid:chaotic_matter>*800);

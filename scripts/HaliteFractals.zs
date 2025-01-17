@@ -36,6 +36,11 @@ recipes.addShaped(<contenttweaker:spatial_anomaly>*2,
 mods.nuclearcraft.alloy_furnace.addRecipe([<careerbees:ingredients:13>, <contenttweaker:superconducting_sednanite>, <contenttweaker:superconducting_sednanite>*2]);
 mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:superconducting_sednanite>*2, <contenttweaker:superconducting_sednanite>, <careerbees:ingredients:13>, 500);
 
+recipes.addShaped(<contenttweaker:phasing_gem>*4,
+[[<aoa3:ornamyte_block>, <aoa3:jewelyte_block>, <aoa3:gemenyte_block>],
+[<careerbees:ingredients:1>.withTag({bark: {id: "extratrees:logs.2", Count: 1, Damage: 1 as short}}), <contenttweaker:phasing_gem>, <careerbees:ingredients:1>.withTag({bark: {id: "extratrees:logs.2", Count: 1, Damage: 1 as short}})],
+[<aoa3:gemenyte_block>, <aoa3:jewelyte_block>, <aoa3:ornamyte_block>]]);
+
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:first_order_mythic_fractal>, 
 1000000000, 1000000000, 
@@ -105,6 +110,11 @@ true,
 <bewitchment:swirl_of_depths>,<contenttweaker:dragon_will_fragment>]);
 game.setLocalization("ac.ritual.freetheheartofhearts", "心中之心"); 
 game.setLocalization("ac.ritual.freetheheartofhearts.desc", "解放心中之心");
+
+recipes.addShaped(<contenttweaker:whispering_heart_of_hearts>*2,
+[[<aoa3:mystite_block>, <abyssalcraft:materializer>, <aoa3:mystite_block>],
+[<contenttweaker:hand_of_dominion>, <contenttweaker:whispering_heart_of_hearts>, <contenttweaker:wing_of_worship>],
+[<aoa3:mystite_block>, <abyssalcraft:materializer>, <aoa3:mystite_block>]]);
 
 scripts.PuzzleUtil.addPuzzleShapeless("dragonscalesheart",<contenttweaker:soul_of_the_dragonslayer>,
 [<contenttweaker:whispering_heart_of_hearts>,
@@ -228,6 +238,12 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/alta
 	<draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>
 ],
 "astralsorcery.constellation.discidia");
+
+recipes.addShaped(<contenttweaker:ancient_wyvern_trinket>,
+[[null, <advancedrocketry:electricmushroom>, null],
+[<advancedrocketry:electricmushroom>, <aether_legacy:zanite_pendant>, <advancedrocketry:electricmushroom>],
+[null, <advancedrocketry:electricmushroom>, null]]);
+
 
 recipes.addShaped(<contenttweaker:fragment_of_creation>,
 [[<divinerpg:bedrock_chunk>, <contenttweaker:rainbow_gemstones>, <divinerpg:bedrock_chunk>],

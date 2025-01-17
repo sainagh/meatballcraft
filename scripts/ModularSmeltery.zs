@@ -1,0 +1,73 @@
+import mods.modularmachinery.RecipeBuilder;
+
+
+val forgewyvinf1 = RecipeBuilder.newBuilder("forgewyvinf1","forge_of_the_wyvern",2);
+forgewyvinf1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvinf1.setChance(0.0);
+forgewyvinf1.addItemInput(<ore:ingotInfinity>);
+forgewyvinf1.addFluidOutput(<fluid:infinity>*144);
+forgewyvinf1.build();
+
+val forgewyvinf2 = RecipeBuilder.newBuilder("forgewyvinf2","forge_of_the_wyvern",2);
+forgewyvinf2.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvinf2.setChance(0.0);
+forgewyvinf2.addItemInput(<ore:blockInfinity>);
+forgewyvinf2.addFluidOutput(<fluid:infinity>*1296);
+forgewyvinf2.build();
+
+val forgewyvbri1 = RecipeBuilder.newBuilder("forgewyvbri1","forge_of_the_wyvern",2);
+forgewyvbri1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvbri1.setChance(0.0);
+forgewyvbri1.addItemInput(<contenttweaker:brightsteel_alloy_ingot>);
+forgewyvbri1.addFluidOutput(<fluid:brightsteel_alloy>*144);
+forgewyvbri1.build();
+
+val forgewyvfir1 = RecipeBuilder.newBuilder("forgewyvfir1","forge_of_the_wyvern",2);
+forgewyvfir1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvfir1.setChance(0.0);
+forgewyvfir1.addItemInput(<ore:ingotFireDragonsteel>);
+forgewyvfir1.addFluidOutput(<fluid:dragonsteel_fire>*144);
+forgewyvfir1.build();
+
+val forgewyvfir2 = RecipeBuilder.newBuilder("forgewyvfir2","forge_of_the_wyvern",2);
+forgewyvfir2.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvfir2.setChance(0.0);
+forgewyvfir2.addItemInput(<ore:blockFireDragonsteel>);
+forgewyvfir2.addFluidOutput(<fluid:dragonsteel_fire>*1296);
+forgewyvfir2.build();
+
+
+val forgewyvic1 = RecipeBuilder.newBuilder("forgewyvic1","forge_of_the_wyvern",2);
+forgewyvic1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvic1.setChance(0.0);
+forgewyvic1.addItemInput(<ore:ingotIceDragonsteel>);
+forgewyvic1.addFluidOutput(<fluid:dragonsteel_ice>*144);
+forgewyvic1.build();
+
+val forgewyvic2 = RecipeBuilder.newBuilder("forgewyvic2","forge_of_the_wyvern",2);
+forgewyvic2.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvic2.setChance(0.0);
+forgewyvic2.addItemInput(<ore:blockIceDragonsteel>);
+forgewyvic2.addFluidOutput(<fluid:dragonsteel_ice>*1296);
+forgewyvic2.build();
+
+val forgewyvlig1 = RecipeBuilder.newBuilder("forgewyvlig1","forge_of_the_wyvern",2);
+forgewyvlig1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvlig1.setChance(0.0);
+forgewyvlig1.addItemInput(<ore:ingotLightningDragonsteel>);
+forgewyvlig1.addFluidOutput(<fluid:dragonsteel_lightning>*144);
+forgewyvlig1.build();
+
+val forgewyvlig2 = RecipeBuilder.newBuilder("forgewyvlig2","forge_of_the_wyvern",2);
+forgewyvlig2.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvlig2.setChance(0.0);
+forgewyvlig2.addItemInput(<ore:blockLightningDragonsteel>);
+forgewyvlig2.addFluidOutput(<fluid:dragonsteel_lightning>*1296);
+forgewyvlig2.build();
+
+val forgewyvhal1 = RecipeBuilder.newBuilder("forgewyvhal1","forge_of_the_wyvern",2);
+forgewyvhal1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvhal1.setChance(0.0);
+forgewyvhal1.addItemInput(<ore:ingotFractalliteHalite>);
+forgewyvhal1.addFluidOutput(<fluid:fractallite_halite>*144);
+forgewyvhal1.build();

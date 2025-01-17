@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1699700070
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:world_corrupting_sentient_meatball"
+      },
+      "name:8": "Ending the End"
+    }
+  },
+  "questID:3": 690563211,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:world_corrupting_sentient_meatball"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:flesh_world_callstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

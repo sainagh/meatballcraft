@@ -507,13 +507,6 @@ darkmithrilliumblock.setToolClass("pickaxe");
 darkmithrilliumblock.setToolLevel(3);
 darkmithrilliumblock.register();
 
-var miniaturestar = VanillaFactory.createBlock("miniature_star", <blockmaterial:iron>);
-miniaturestar.setBlockHardness(0.7);
-miniaturestar.setBlockResistance(2.5);
-miniaturestar.setToolClass("pickaxe");
-miniaturestar.setLightValue(1);
-miniaturestar.setToolLevel(3);
-miniaturestar.register();
 
 var dysonshell = VanillaFactory.createBlock("dyson_shell", <blockmaterial:iron>);
 dysonshell.setBlockHardness(0.7);
@@ -578,13 +571,6 @@ irradiatorcasing.setToolClass("pickaxe");
 irradiatorcasing.setToolLevel(3);
 irradiatorcasing.register();
 
-var miniaturepulsar = VanillaFactory.createBlock("miniature_pulsar", <blockmaterial:iron>);
-miniaturepulsar.setBlockHardness(0.7);
-miniaturepulsar.setBlockResistance(2.5);
-miniaturepulsar.setToolClass("pickaxe");
-miniaturepulsar.setToolLevel(3);
-miniaturepulsar.setLightValue(1);
-miniaturepulsar.register();
 
 var collectingstone = VanillaFactory.createBlock("collecting_stone", <blockmaterial:iron>);
 collectingstone.setBlockHardness(0.7);
@@ -670,12 +656,6 @@ baphomethaltarbricks.setToolClass("pickaxe");
 baphomethaltarbricks.setToolLevel(3);
 baphomethaltarbricks.register();
 
-var miniatureblackhole = VanillaFactory.createBlock("miniature_black_hole", <blockmaterial:iron>);
-miniatureblackhole.setBlockHardness(0.7);
-miniatureblackhole.setBlockResistance(2.5);
-miniatureblackhole.setToolClass("pickaxe");
-miniatureblackhole.setToolLevel(3);
-miniatureblackhole.register();
 
 var horizonstabilizer = VanillaFactory.createBlock("horizon_stabilizer", <blockmaterial:iron>);
 horizonstabilizer.setBlockHardness(0.7);
@@ -1954,3 +1934,195 @@ quantumcondenser.setToolClass("pickaxe");
 quantumcondenser.setBeaconBase(true);
 quantumcondenser.setToolLevel(3);
 quantumcondenser.register();
+
+var pulsarscreen = VanillaFactory.createBlock("pulsar_screen", <blockmaterial:iron>);
+pulsarscreen.setBlockHardness(1.0);
+pulsarscreen.setBlockResistance(2.5);
+pulsarscreen.setToolClass("pickaxe");
+pulsarscreen.setBeaconBase(true);
+pulsarscreen.setToolLevel(3);
+pulsarscreen.register();
+
+var infinitystone = VanillaFactory.createBlock("infinity_stone", <blockmaterial:iron>);
+infinitystone.setBlockHardness(1.0);
+infinitystone.setBlockResistance(2.5);
+infinitystone.setToolClass("pickaxe");
+infinitystone.setBeaconBase(true);
+infinitystone.setToolLevel(3);
+infinitystone.register();
+
+var hungeringmachinecase = VanillaFactory.createBlock("hungering_machine_case", <blockmaterial:iron>);
+hungeringmachinecase.setBlockHardness(1.0);
+hungeringmachinecase.setBlockResistance(2.5);
+hungeringmachinecase.setToolClass("pickaxe");
+hungeringmachinecase.setBeaconBase(true);
+hungeringmachinecase.setToolLevel(3);
+hungeringmachinecase.register();
+
+var allseeingsentientmeatball = VanillaFactory.createBlock("all_seeing_sentient_meatball", <blockmaterial:iron>);
+allseeingsentientmeatball.setBlockHardness(1.0);
+allseeingsentientmeatball.setBlockResistance(2.5);
+allseeingsentientmeatball.setToolClass("pickaxe");
+allseeingsentientmeatball.setBeaconBase(true);
+allseeingsentientmeatball.setToolLevel(3);
+allseeingsentientmeatball.register();
+
+var possessedskystone = VanillaFactory.createBlock("possessed_sky_stone", <blockmaterial:iron>);
+possessedskystone.setBlockHardness(1.0);
+possessedskystone.setBlockResistance(2.5);
+possessedskystone.setToolClass("pickaxe");
+possessedskystone.setBeaconBase(true);
+possessedskystone.setToolLevel(3);
+possessedskystone.register();
+
+var burlysentientmeatball = VanillaFactory.createBlock("burly_sentient_meatball", <blockmaterial:iron>);
+burlysentientmeatball.setBlockHardness(1.0);
+burlysentientmeatball.setBlockResistance(2.5);
+burlysentientmeatball.setToolClass("pickaxe");
+burlysentientmeatball.setBeaconBase(true);
+burlysentientmeatball.setToolLevel(3);
+burlysentientmeatball.register();
+
+var fractalstone = VanillaFactory.createBlock("fractal_stone", <blockmaterial:iron>);
+fractalstone.setBlockHardness(1.0);
+fractalstone.setBlockResistance(2.5);
+fractalstone.setToolClass("pickaxe");
+fractalstone.setBeaconBase(true);
+fractalstone.setToolLevel(3);
+fractalstone.register();
+
+var spreadingsentientmeatball = VanillaFactory.createBlock("spreading_sentient_meatball", <blockmaterial:iron>);
+spreadingsentientmeatball.setBlockHardness(1.0);
+spreadingsentientmeatball.setBlockResistance(2.5);
+spreadingsentientmeatball.setToolClass("pickaxe");
+spreadingsentientmeatball.setBeaconBase(true);
+spreadingsentientmeatball.setToolLevel(3);
+spreadingsentientmeatball.register();
+
+var parasiticsentientmeatball = VanillaFactory.createBlock("parasitic_sentient_meatball", <blockmaterial:iron>);
+parasiticsentientmeatball.setBlockHardness(1.0);
+parasiticsentientmeatball.setBlockResistance(2.5);
+parasiticsentientmeatball.setToolClass("pickaxe");
+parasiticsentientmeatball.setBeaconBase(true);
+parasiticsentientmeatball.setToolLevel(3);
+parasiticsentientmeatball.register();
+
+var allpowerfulsentientmeatball = VanillaFactory.createBlock("all_powerful_sentient_meatball", <blockmaterial:iron>);
+allpowerfulsentientmeatball.setBlockHardness(1.0);
+allpowerfulsentientmeatball.setBlockResistance(2.5);
+allpowerfulsentientmeatball.setToolClass("pickaxe");
+allpowerfulsentientmeatball.setBeaconBase(true);
+allpowerfulsentientmeatball.setToolLevel(3);
+allpowerfulsentientmeatball.register();
+
+var worldcorrsentientmeatball = VanillaFactory.createBlock("world_corrupting_sentient_meatball", <blockmaterial:iron>);
+worldcorrsentientmeatball.setBlockHardness(1.0);
+worldcorrsentientmeatball.setBlockResistance(2.5);
+worldcorrsentientmeatball.setToolClass("pickaxe");
+worldcorrsentientmeatball.setBeaconBase(true);
+worldcorrsentientmeatball.setToolLevel(3);
+worldcorrsentientmeatball.register();
+
+var allknowingsentientmeatball = VanillaFactory.createBlock("prophetic_sentient_meatball", <blockmaterial:iron>);
+allknowingsentientmeatball.setBlockHardness(1.0);
+allknowingsentientmeatball.setBlockResistance(2.5);
+allknowingsentientmeatball.setToolClass("pickaxe");
+allknowingsentientmeatball.setBeaconBase(true);
+allknowingsentientmeatball.setToolLevel(3);
+allknowingsentientmeatball.register();
+
+var propheticmeatballflesh = VanillaFactory.createBlock("prophetic_meatball_flesh", <blockmaterial:iron>);
+propheticmeatballflesh.setBlockHardness(1.0);
+propheticmeatballflesh.setBlockResistance(2.5);
+propheticmeatballflesh.setToolClass("pickaxe");
+propheticmeatballflesh.setBeaconBase(true);
+propheticmeatballflesh.setToolLevel(3);
+propheticmeatballflesh.register();
+
+var chaoticsentientmeatball = VanillaFactory.createBlock("chaotic_sentient_meatball", <blockmaterial:iron>);
+chaoticsentientmeatball.setBlockHardness(1.0);
+chaoticsentientmeatball.setBlockResistance(2.5);
+chaoticsentientmeatball.setToolClass("pickaxe");
+chaoticsentientmeatball.setBeaconBase(true);
+chaoticsentientmeatball.setToolLevel(3);
+chaoticsentientmeatball.register();
+
+var actualizingore = VanillaFactory.createBlock("actualizing_stone", <blockmaterial:iron>);
+actualizingore.setBlockHardness(1.0);
+actualizingore.setBlockResistance(2.5);
+actualizingore.setToolClass("pickaxe");
+actualizingore.setBeaconBase(true);
+actualizingore.setToolLevel(3);
+actualizingore.register();
+
+var naquadahore = VanillaFactory.createBlock("naquadah_ore", <blockmaterial:iron>);
+naquadahore.setBlockHardness(1.0);
+naquadahore.setBlockResistance(2.5);
+naquadahore.setToolClass("pickaxe");
+naquadahore.setBeaconBase(true);
+naquadahore.setToolLevel(3);
+naquadahore.register();
+
+var firedragonsteel = VanillaFactory.createBlock("fire_dragonsteel_ore", <blockmaterial:iron>);
+firedragonsteel.setBlockHardness(1.0);
+firedragonsteel.setBlockResistance(2.5);
+firedragonsteel.setToolClass("pickaxe");
+firedragonsteel.setBeaconBase(true);
+firedragonsteel.setToolLevel(3);
+firedragonsteel.register();
+
+var icedragonsteel = VanillaFactory.createBlock("ice_dragonsteel_ore", <blockmaterial:iron>);
+icedragonsteel.setBlockHardness(1.0);
+icedragonsteel.setBlockResistance(2.5);
+icedragonsteel.setToolClass("pickaxe");
+icedragonsteel.setBeaconBase(true);
+icedragonsteel.setToolLevel(3);
+icedragonsteel.register();
+
+var lightningdragonsteel = VanillaFactory.createBlock("lightning_dragonsteel_ore", <blockmaterial:iron>);
+lightningdragonsteel.setBlockHardness(1.0);
+lightningdragonsteel.setBlockResistance(2.5);
+lightningdragonsteel.setToolClass("pickaxe");
+lightningdragonsteel.setBeaconBase(true);
+lightningdragonsteel.setToolLevel(3);
+lightningdragonsteel.register();
+
+var densedimensionalshardore = VanillaFactory.createBlock("dense_dimensional_shard_ore", <blockmaterial:iron>);
+densedimensionalshardore.setBlockHardness(1.0);
+densedimensionalshardore.setBlockResistance(2.5);
+densedimensionalshardore.setToolClass("pickaxe");
+densedimensionalshardore.setBeaconBase(true);
+densedimensionalshardore.setToolLevel(3);
+densedimensionalshardore.register();
+
+var meteoricdraconicstone = VanillaFactory.createBlock("meteoric_draconic_stone", <blockmaterial:iron>);
+meteoricdraconicstone.setBlockHardness(1.0);
+meteoricdraconicstone.setBlockResistance(2.5);
+meteoricdraconicstone.setToolClass("pickaxe");
+meteoricdraconicstone.setBeaconBase(true);
+meteoricdraconicstone.setToolLevel(3);
+meteoricdraconicstone.register();
+
+var freedskystone = VanillaFactory.createBlock("freed_sky_stone", <blockmaterial:iron>);
+freedskystone.setBlockHardness(1.0);
+freedskystone.setBlockResistance(2.5);
+freedskystone.setToolClass("pickaxe");
+freedskystone.setBeaconBase(true);
+freedskystone.setToolLevel(3);
+freedskystone.register();
+
+var eldritchimpetuscatalyzer = VanillaFactory.createBlock("eldritch_impetus_catalyzer", <blockmaterial:iron>);
+eldritchimpetuscatalyzer.setBlockHardness(1.0);
+eldritchimpetuscatalyzer.setBlockResistance(2.5);
+eldritchimpetuscatalyzer.setToolClass("pickaxe");
+eldritchimpetuscatalyzer.setBeaconBase(true);
+eldritchimpetuscatalyzer.setToolLevel(3);
+eldritchimpetuscatalyzer.register();
+
+var terrestrialcauldron = VanillaFactory.createBlock("terrestrial_cauldron", <blockmaterial:iron>);
+terrestrialcauldron.setBlockHardness(1.0);
+terrestrialcauldron.setBlockResistance(2.5);
+terrestrialcauldron.setToolClass("pickaxe");
+terrestrialcauldron.setBeaconBase(true);
+terrestrialcauldron.setToolLevel(3);
+terrestrialcauldron.register();

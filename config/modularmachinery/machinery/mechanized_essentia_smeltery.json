@@ -2,6 +2,46 @@
     "registryname": "mechanized_essentia_smeltery",
     "localizedname": "机械源质冶炼厂",
 	"color": "4b2c7d",
+    "modifiers": [
+        {
+            "elements": "thaumadditions:adaminite_smelter",
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "description": "Multiplies amounts processed by 4",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:aspect",
+                "operation": 1,
+                "multiplier": 4
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            }]
+        },
+        {
+            "elements": "thaumadditions:mithminite_smelter",
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "description": "Multiplies amounts processed by 16",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:aspect",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -1,

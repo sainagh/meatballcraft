@@ -77,12 +77,12 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:recursion_infinity
 [<draconicevolution:chaotic_core>, <contenttweaker:primordial_star>, <draconicevolution:chaotic_core>], 
 [<avaritia:resource:6>, <draconicevolution:chaotic_core>, <avaritia:resource:6>]]);  
 
-mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:horizon_stabilizer>*6, 
+mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:horizon_stabilizer>*8, 
 [[<contenttweaker:dyson_collector>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:dyson_collector>], 
 [<contenttweaker:entropy_construct>, <contenttweaker:hypercubic_energy_orb>, <contenttweaker:entropy_construct>], 
 [<contenttweaker:dyson_collector>, <contenttweaker:recursion_infinity>, <contenttweaker:dyson_collector>]], 1);
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:infinity_dyson_conduit>*12, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:infinity_dyson_conduit>*25, 
 [[<appliedenergistics2:spatial_pylon>, <contenttweaker:barathos_cap>, <contenttweaker:abyssal_cap>, 
 <contenttweaker:creeponian_cap>, <contenttweaker:lelyetian_cap>, <contenttweaker:precasian_cap>, 
 <contenttweaker:crystevia_cap>, <contenttweaker:deepland_cap>, <appliedenergistics2:spatial_pylon>], 
@@ -120,7 +120,7 @@ null, <contenttweaker:compressed_realgar>, <draconicevolution:reactor_component:
 <contenttweaker:celeve_cap>, <contenttweaker:gardencia_cap>, <appliedenergistics2:spatial_pylon>]]);  
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_compressor>*5, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_compressor>*12, 
 
 [[<contenttweaker:mythic_coil_t2>, <contenttweaker:linear_accelerator_tube>, <contenttweaker:nightmare_block>, 
 <contenttweaker:mythic_excavation_reactor>, <contenttweaker:hypercubic_energy_orb>, <contenttweaker:mythic_excavation_reactor>, 
@@ -172,3 +172,11 @@ makehorcrux.addItemOutput(<contenttweaker:horcrux>);
 makehorcrux.build();
 
 
+mods.extendedcrafting.TableCrafting.addShaped(<glassential:glass_redstone>*32, 
+[[<thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>], 
+[<thermalfoundation:glass_alloy:5>, <contenttweaker:recursium_ingot>, <contenttweaker:neutronium_casing>, <avaritia:resource:6>, <contenttweaker:neutronium_casing>, <contenttweaker:recursium_ingot>, <thermalfoundation:glass_alloy:5>], 
+[<thermalfoundation:glass_alloy:5>, <contenttweaker:neutronium_casing>, <contenttweaker:brightsteel_conduit>, <contenttweaker:mythic_machine_case>, <contenttweaker:brightsteel_conduit>, <contenttweaker:neutronium_casing>, <thermalfoundation:glass_alloy:5>], 
+[<thermalfoundation:glass_alloy:5>, <avaritia:resource:6>, <contenttweaker:mythic_machine_case>, <contenttweaker:well_defined_machine_case>, <contenttweaker:mythic_machine_case>, <avaritia:resource:6>, <thermalfoundation:glass_alloy:5>], 
+[<thermalfoundation:glass_alloy:5>, <contenttweaker:neutronium_casing>, <contenttweaker:brightsteel_conduit>, <contenttweaker:mythic_machine_case>, <contenttweaker:brightsteel_conduit>, <contenttweaker:neutronium_casing>, <thermalfoundation:glass_alloy:5>], 
+[<thermalfoundation:glass_alloy:5>, <contenttweaker:recursium_ingot>, <contenttweaker:neutronium_casing>, <avaritia:resource:6>, <contenttweaker:neutronium_casing>, <contenttweaker:recursium_ingot>, <thermalfoundation:glass_alloy:5>], 
+[<thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>]]);  

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oStart of a long crafting chain ahead!\n\nIf you want to be able to craft end-game recipes, you should build an individual machine, and set up automation, for each individual step.",
+      "desc:8": "§7§oStart of a long crafting chain ahead!\n\nIf you want to be able to craft end-game recipes, you should build an individual machine, and set up automation, for each crafting step in the following chain.\n\n§fYes! The traces still make sense, down to the raw neutrinos leftover all around the sky islands on Terra. They were left there for me, as a starting point, a starting point for the things I can do now!\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,

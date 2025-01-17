@@ -219,9 +219,9 @@ recipes.removeShaped(<divinerpg:skythern_block>);
 recipes.removeShaped(<divinerpg:mortum_block>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<divinerpg:mortum_block>, 
-[[<divinerpg:skythern_heart>, <draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, 
+[[<contenttweaker:skythern_core>, <draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, 
 <ebwizardry:grand_crystal>, <ebwizardry:grand_crystal>, <ebwizardry:grand_crystal>, 
-<draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, <divinerpg:skythern_heart>], 
+<draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, <contenttweaker:skythern_core>], 
 
 [<draconicevolution:chaos_shard:3>, <contenttweaker:doge_coin>, <draconicevolution:chaos_shard:3>, 
 <avaritia:resource:0>, <contenttweaker:aethite_chunk>, <avaritia:resource:0>, 
@@ -251,9 +251,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<divinerpg:mortum_block>,
 <avaritia:resource:0>, <contenttweaker:aethite_chunk>, <avaritia:resource:0>, 
 <draconicevolution:chaos_shard:3>, <contenttweaker:doge_coin>, <draconicevolution:chaos_shard:3>], 
 
-[<divinerpg:skythern_heart>, <draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, 
+[<contenttweaker:skythern_core>, <draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, 
 <ebwizardry:grand_crystal>, <ebwizardry:grand_crystal>, <ebwizardry:grand_crystal>, 
-<draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, <divinerpg:skythern_heart>]]);
+<draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, <contenttweaker:skythern_core>]]);
 
 
 
@@ -330,3 +330,45 @@ recipes.addShaped(<bewitchment:boline>.withTag({biome_id: 232}),
 
 
 mods.extendedcrafting.CompressionCrafting.addRecipe(<divinerpg:divine_shards>, <contenttweaker:divine_wisp>, 36, <extendedcrafting:material:11>, 100000);
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:eden_core>*2, 
+[[<divinerpg:sunstorm_statue>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:eden_heart>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:sunstorm_statue>], 
+[<contenttweaker:starlight_sphere>, <extrabotany:material:8>, <avaritia:resource:7>, <divinerpg:divine_shards>, <avaritia:resource:7>, <extrabotany:material:8>, <contenttweaker:starlight_sphere>], 
+[<contenttweaker:starlight_sphere>, <aether_legacy:enchanted_blueberry>, <ore:ingotPlutonium>, <astralsorcery:itemperkgem:1>, <ore:ingotPlutonium>, <aether_legacy:enchanted_blueberry>, <contenttweaker:starlight_sphere>], 
+[<divinerpg:eden_heart>, <divinerpg:divine_shards>, <astralsorcery:itemperkgem:1>, <contenttweaker:eden_core>, <astralsorcery:itemperkgem:1>, <divinerpg:divine_shards>, <divinerpg:eden_heart>], 
+[<contenttweaker:starlight_sphere>, <aether_legacy:enchanted_blueberry>, <ore:ingotPlutonium>, <astralsorcery:itemperkgem:1>, <ore:ingotPlutonium>, <aether_legacy:enchanted_blueberry>, <contenttweaker:starlight_sphere>], 
+[<contenttweaker:starlight_sphere>, <extrabotany:material:8>, <avaritia:resource:7>, <divinerpg:divine_shards>, <avaritia:resource:7>, <extrabotany:material:8>, <contenttweaker:starlight_sphere>], 
+[<divinerpg:sunstorm_statue>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:eden_heart>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:sunstorm_statue>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:wildwood_core>*2, 
+[[<divinerpg:termasect_statue>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:wildwood_heart>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:termasect_statue>], 
+[<contenttweaker:starlight_sphere>, <extrabotany:material:5>, <erebus:stag_heart_raw>, <extendedcrafting:singularity_custom:991>, <erebus:stag_heart_raw>, <extrabotany:material:5>, <contenttweaker:starlight_sphere>], 
+[<contenttweaker:starlight_sphere>, <erebus:stag_heart_raw>, <extrautils2:biomemarker>.withTag({Biome: "advancedrocketry:stormland"}), <astralsorcery:itemperkgem:0>, <extrautils2:biomemarker>.withTag({Biome: "advancedrocketry:stormland"}), <erebus:stag_heart_raw>, <contenttweaker:starlight_sphere>], 
+[<divinerpg:wildwood_heart>, <abyssalcraft:crystalcluster:13>, <astralsorcery:itemperkgem:0>, <contenttweaker:wildwood_core>, <astralsorcery:itemperkgem:0>, <abyssalcraft:crystalcluster:13>, <divinerpg:wildwood_heart>], 
+[<contenttweaker:starlight_sphere>, <erebus:stag_heart_raw>, <extrautils2:biomemarker>.withTag({Biome: "advancedrocketry:stormland"}), <astralsorcery:itemperkgem:0>, <extrautils2:biomemarker>.withTag({Biome: "advancedrocketry:stormland"}), <erebus:stag_heart_raw>, <contenttweaker:starlight_sphere>], 
+[<contenttweaker:starlight_sphere>, <extrabotany:material:5>, <erebus:stag_heart_raw>, <abyssalcraft:crystalcluster:13>, <erebus:stag_heart_raw>, <extrabotany:material:5>, <contenttweaker:starlight_sphere>], 
+[<divinerpg:termasect_statue>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:wildwood_heart>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:termasect_statue>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:apalachia_core>*2, 
+[[<divinerpg:eternal_archer_statue>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:apalachia_heart>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:eternal_archer_statue>], 
+[<contenttweaker:starlight_sphere>, <ore:ingotSacrificeMetal>, <aoa3:blooming_infusion_stone>, <botania:corporeaindex>, <aoa3:blooming_infusion_stone>, <ore:ingotSacrificeMetal>, <contenttweaker:starlight_sphere>], 
+[<contenttweaker:starlight_sphere>, <aoa3:blooming_infusion_stone>, <mysticalagradditions:insanium:0>, <enderio:item_material:18>, <mysticalagradditions:insanium:0>, <aoa3:blooming_infusion_stone>, <contenttweaker:starlight_sphere>], 
+[<divinerpg:apalachia_heart>, <botania:corporeaindex>, <enderio:item_material:18>, <contenttweaker:apalachia_core>, <enderio:item_material:18>, <botania:corporeaindex>, <divinerpg:apalachia_heart>], 
+[<contenttweaker:starlight_sphere>, <aoa3:blooming_infusion_stone>, <mysticalagradditions:insanium:0>, <enderio:item_material:18>, <mysticalagradditions:insanium:0>, <aoa3:blooming_infusion_stone>, <contenttweaker:starlight_sphere>], 
+[<contenttweaker:starlight_sphere>, <ore:ingotSacrificeMetal>, <aoa3:blooming_infusion_stone>, <botania:corporeaindex>, <aoa3:blooming_infusion_stone>, <ore:ingotSacrificeMetal>, <contenttweaker:starlight_sphere>], 
+[<divinerpg:eternal_archer_statue>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:apalachia_heart>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:eternal_archer_statue>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:skythern_core>*2, 
+[[<divinerpg:experienced_cori_statue>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:skythern_heart>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:experienced_cori_statue>], 
+[<contenttweaker:starlight_sphere>, <avaritia:block_resource:2>, <contenttweaker:empowerment_core>, <contenttweaker:triple_compressed_wafer>, <contenttweaker:empowerment_core>, <avaritia:block_resource:2>, <contenttweaker:starlight_sphere>], 
+[<contenttweaker:starlight_sphere>, <contenttweaker:empowerment_core>, <contenttweaker:muon_crystal>, <aoa3:ambient_infusion_stone>, <contenttweaker:muon_crystal>, <contenttweaker:empowerment_core>, <contenttweaker:starlight_sphere>], 
+[<divinerpg:skythern_heart>, <bloodmagic:blood_shard:1>, <aoa3:ambient_infusion_stone>, <contenttweaker:skythern_core>, <aoa3:ambient_infusion_stone>, <bloodmagic:blood_shard:1>, <divinerpg:skythern_heart>], 
+[<contenttweaker:starlight_sphere>, <contenttweaker:empowerment_core>, <contenttweaker:muon_crystal>, <aoa3:ambient_infusion_stone>, <contenttweaker:muon_crystal>, <contenttweaker:empowerment_core>, <contenttweaker:starlight_sphere>], 
+[<contenttweaker:starlight_sphere>, <avaritia:block_resource:2>, <contenttweaker:empowerment_core>, <bloodmagic:blood_tank:7>.withTag({Fluid: {FluidName: "iron", Amount: 2048000}}), <contenttweaker:empowerment_core>, <avaritia:block_resource:2>, <contenttweaker:starlight_sphere>], 
+[<divinerpg:experienced_cori_statue>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:skythern_heart>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:experienced_cori_statue>]]);  

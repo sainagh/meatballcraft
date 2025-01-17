@@ -1,10 +1,10 @@
 {
   "preRequisites:11": [
-    284
+    283
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "Lunalus is another of the Shyre worlds that holds a particular relevance. If the beings in Mysterium are the ones that enacted the plan to capture me, the ones in Lunalus are the ones that came up with that plan.\nFortunately, I made it out alive, and now I am ready to face them!\nWith regards to its role in the organization of the Empire, Lunalus absolves two main strategic functions. Its powerful military, instead of being assigned to warfare, is used to jail some of the more powerful enemies of the Shyre Empire, and to protect its intelligence mastermind.\nThis asteroid world is a massive prison, and the center of an espionage agency. Dismantling both should consideraly weaken my enemy.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:lunalus_realmstone"

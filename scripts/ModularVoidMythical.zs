@@ -62,10 +62,16 @@ mith1.addItemOutput(<aoa3:void_scales>*10);
 mith1.setChance(0.3);
 mith1.addItemOutput(<aoa3:ivory>*10);
 mith1.setChance(0.05);
-mith1.addItemOutput(<projectex:personal_link>);
+mith1.addItemOutput(<contenttweaker:deep_dark_matter>);
 mith1.setChance(0.1);
 mith1.addItemOutput(<contenttweaker:tier1_token>);
 mith1.build();
+
+recipes.addShaped(<projectex:personal_link>,
+[[<contenttweaker:champion_token>, <aoa3:nether_tokens>, <contenttweaker:champion_token>],
+[<divinerpg:ender_shards>, <contenttweaker:deep_dark_matter>, <divinerpg:ender_shards>],
+[<contenttweaker:champion_token>, <projecte:relay_mk1>, <contenttweaker:champion_token>]]);
+
 
 recipes.addShaped(<projectex:refined_link>,
 [[<aoa3:coral_bricks>, <divinerpg:divine_shards>, <aoa3:coral_bricks>],
@@ -165,6 +171,14 @@ mith3.build();
 mods.nuclearcraft.infuser.addRecipe([<bewitchment:cold_iron_ingot>, 
 <fluid:dimensional_essence>*100, 
 <contenttweaker:nethersky_steel_ingot>]);
+
+mods.nuclearcraft.infuser.addRecipe([<ore:ingotFluctuatite>, 
+<fluid:dimensional_essence>*100, 
+<contenttweaker:nethersky_steel_ingot>*2]);
+
+mods.nuclearcraft.infuser.addRecipe([<ore:ingotVityte>, 
+<fluid:dimensional_essence>*100, 
+<contenttweaker:nethersky_steel_ingot>*3]);
 
 mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:nethersky_steel_ingot>, 
 <contenttweaker:nethersky_steel_dust>]);
@@ -1475,6 +1489,11 @@ mods.nuclearcraft.salt_fission.addRecipe([<fluid:vital_lymph>*50, <fluid:lymph_o
 
 mods.nuclearcraft.infuser.addRecipe([<materialpart:vibranium:ingot>, <fluid:lymph_of_pixonia>*72, <contenttweaker:ethereal_infusion_stone>, 0.5, 0.5, 1.1]);
 
+recipes.addShaped(<contenttweaker:pixonia_infusion_key>*2,
+[[<aoa3:glistening_power_stone>],
+[<contenttweaker:pixonia_infusion_key>],
+[<aoa3:glistening_power_stone>]]);
+
 recipes.addShapeless(<contenttweaker:universal_booster>, [<contenttweaker:pixonia_infusion_key>.reuse(), <contenttweaker:ethereal_infusion_stone>, <divinerpg:wildwood_heart>, <enderio:item_basic_capacitor:2>]);
 
 recipes.addShapeless(<contenttweaker:infused_myrmitite>, [<contenttweaker:pixonia_infusion_key>.reuse(), <materialpart:myrmitite:ingot>]);
@@ -2439,8 +2458,8 @@ true,
 <extendedcrafting:singularity:1>, 
 [<draconicevolution:chaos_shard:1>,<contenttweaker:eden_refined_gem>,<draconicevolution:chaos_shard:1>,<contenttweaker:wildwood_refined_gem>,
 <draconicevolution:chaos_shard:1>,<contenttweaker:apalachia_refined_gem>,<draconicevolution:chaos_shard:1>,<contenttweaker:skythern_refined_gem>]);
-game.setLocalization("ac.ritual.VetheaWhiteInfusion", "梦魇负性物体灌注仪式"); 
-game.setLocalization("ac.ritual.VetheaWhiteInfusion.desc", "通过邪术灌注，将负质量物体变为现实！");
+game.setLocalization("ac.ritual.VetheaWhiteInfusion", "Vethea Negative Body Infusion"); 
+game.setLocalization("ac.ritual.VetheaWhiteInfusion.desc", "Bring a body with negative mass into existance through eldritch infusion!");
 
 val edendragonref = RecipeBuilder.newBuilder("edendragonref","dragonfire_crucible",100);
 edendragonref.addFluidInput(<fluid:twilight_fire>*1000);
@@ -2697,8 +2716,8 @@ true,
 <contenttweaker:perfected_gem_of_the_cosmos>, 
 [<draconicevolution:chaos_shard:0>,<divinerpg:mortum_block>,<divinerpg:arksiane_claw>,<divinerpg:mortum_block>,
 <divinerpg:arksiane_claw>,<divinerpg:mortum_block>,<draconicevolution:chaos_shard:0>,<divinerpg:mortum_block>]);
-game.setLocalization("ac.ritual.DynatosArtifactInf", "黑洞太强辣"); 
-game.setLocalization("ac.ritual.DynatosArtifactInf.desc", "终于可以亲眼见到真正的黑洞了！");
+game.setLocalization("ac.ritual.DynatosArtifactInf", "Black Holes FTW"); 
+game.setLocalization("ac.ritual.DynatosArtifactInf.desc", "I can finally visit a black hole, a REAL one!");
 
 
 recipes.addShaped(<avaritia:resource:5>,
@@ -2711,6 +2730,26 @@ recipes.addShaped(<contenttweaker:infinity_fragment>*9,
 [<contenttweaker:recursion_solitude>.reuse(), <avaritia:resource:5>, <contenttweaker:recursion_darkness>.reuse()],
 [null, <contenttweaker:recursion_fear>.reuse(), null]]);
 
+recipes.addShaped(<contenttweaker:recursion_darkness>*2,
+[[<divinerpg:shiny_pearls>, <contenttweaker:mortum_core>, <divinerpg:shiny_pearls>],
+[<contenttweaker:mortum_core>, <contenttweaker:recursion_darkness>, <contenttweaker:mortum_core>],
+[<divinerpg:shiny_pearls>, <contenttweaker:mortum_core>, <divinerpg:shiny_pearls>]]);
+
+recipes.addShaped(<contenttweaker:recursion_fear>*2,
+[[<divinerpg:shiny_pearls>, <contenttweaker:mortum_core>, <divinerpg:shiny_pearls>],
+[<contenttweaker:mortum_core>, <contenttweaker:recursion_fear>, <contenttweaker:mortum_core>],
+[<divinerpg:shiny_pearls>, <contenttweaker:mortum_core>, <divinerpg:shiny_pearls>]]);
+
+recipes.addShaped(<contenttweaker:recursion_helplessness>*2,
+[[<divinerpg:shiny_pearls>, <contenttweaker:mortum_core>, <divinerpg:shiny_pearls>],
+[<contenttweaker:mortum_core>, <contenttweaker:recursion_helplessness>, <contenttweaker:mortum_core>],
+[<divinerpg:shiny_pearls>, <contenttweaker:mortum_core>, <divinerpg:shiny_pearls>]]);
+
+recipes.addShaped(<contenttweaker:recursion_solitude>*2,
+[[<divinerpg:shiny_pearls>, <contenttweaker:mortum_core>, <divinerpg:shiny_pearls>],
+[<contenttweaker:mortum_core>, <contenttweaker:recursion_solitude>, <contenttweaker:mortum_core>],
+[<divinerpg:shiny_pearls>, <contenttweaker:mortum_core>, <divinerpg:shiny_pearls>]]);
+
 mods.abyssalcraft.InfusionRitual.addRitual("ShyreWaystoneInf", 
 4, 0, 
 100000, 
@@ -2719,8 +2758,8 @@ true,
 <contenttweaker:realmstone>, 
 [<aoa3:magic_mending_solution>,<aoa3:magic_mending_solution>,<draconicevolution:chaotic_core>,<draconicevolution:chaotic_core>,
 <contenttweaker:plasmatic_neutronium_ingot>,<contenttweaker:plasmatic_neutronium_ingot>,<contenttweaker:infinity_fragment>,<divinerpg:arksiane_lump>]);
-game.setLocalization("ac.ritual.ShyreWaystoneInf", "前往塞尔瑞"); 
-game.setLocalization("ac.ritual.ShyreWaystoneInf.desc", "前往塞尔瑞");
+game.setLocalization("ac.ritual.ShyreWaystoneInf", "Into the Shyre"); 
+game.setLocalization("ac.ritual.ShyreWaystoneInf.desc", "Into the Shyre");
 
 val shyreStatue = <ore:shyreStatue>;
 shyreStatue.add(<aoa3:craexxeus_statue>);
@@ -2755,31 +2794,46 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_star>
 [<contenttweaker:myrminiobite_ingot>, <contenttweaker:hafnium_chunk>, <contenttweaker:tantalum_chunk>, <contenttweaker:cerium_ingot>, <materialpart:hassium:ingot>]);
 
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:universal_realgar>, 
-100000, 
-<contenttweaker:eternal_tulite>, 
-[<contenttweaker:abyss_garnet>, 
-<contenttweaker:lelyetia_garnet>,
-<contenttweaker:precasia_garnet>,
-<contenttweaker:runandor_garnet>,
-<contenttweaker:creeponia_garnet>,
-<contenttweaker:deeplands_garnet>,
-<contenttweaker:vox_ponds_garnet>,
-<contenttweaker:mysterium_garnet>,
-<contenttweaker:iromine_garnet>,
-<contenttweaker:haven_garnet>,
-<contenttweaker:candyland_garnet>,
-<contenttweaker:celeve_garnet>,
-<contenttweaker:gardencia_garnet>,
-<contenttweaker:crystevia_garnet>,
-<contenttweaker:lunalus_garnet>,
-<contenttweaker:barathos_garnet>,
-<contenttweaker:borean_garnet>,
-<contenttweaker:immortallis_garnet>,
-<contenttweaker:ancient_cavern_garnet>,
-<contenttweaker:greckon_garnet>,
-<contenttweaker:dustopia_garnet>,
-<contenttweaker:vethea_garnet>]);
+val divinecombinerrealgar = RecipeBuilder.newBuilder("divinecombinerrealgar","divine_combiner",2);
+divinecombinerrealgar.addFluidInput(<fluid:hint_of_divinity>*10);
+divinecombinerrealgar.addItemInput(<contenttweaker:eternal_tulite>);
+divinecombinerrealgar.addItemInput(<contenttweaker:abyss_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:lelyetia_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:precasia_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:runandor_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:creeponia_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:deeplands_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:vox_ponds_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:mysterium_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:iromine_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:haven_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:candyland_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:celeve_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:gardencia_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:crystevia_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:lunalus_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:barathos_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:borean_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:immortallis_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:ancient_cavern_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:greckon_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:dustopia_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:vethea_garnet>);
+divinecombinerrealgar.addItemOutput(<contenttweaker:universal_realgar>);
+divinecombinerrealgar.build();
+
+
+val divinecombinergemrec = RecipeBuilder.newBuilder("divinecombinergemrec","divine_combiner",2);
+divinecombinergemrec.addFluidInput(<fluid:hint_of_divinity>*10);
+divinecombinergemrec.addItemInput(<contenttweaker:universal_realgar>);
+divinecombinergemrec.addItemInput(<contenttweaker:shyrelands_garnet>);
+divinecombinergemrec.addItemInput(<divinerpg:eden_chunk>);
+divinecombinergemrec.addItemInput(<divinerpg:wildwood_chunk>);
+divinecombinergemrec.addItemInput(<divinerpg:apalachia_chunk>);
+divinecombinergemrec.addItemInput(<divinerpg:skythern_chunk>);
+divinecombinergemrec.addItemInput(<divinerpg:mortum_chunk>);
+divinecombinergemrec.addItemOutput(<contenttweaker:gem_of_recursion>);
+divinecombinergemrec.build();
 
 
 recipes.addShaped(<contenttweaker:compressed_realgar>,
@@ -3050,6 +3104,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:eternal_nigh
 <contenttweaker:recursion_fragment_immortallis>, 
 <contenttweaker:recursion_fragment_greckon>, 
 <contenttweaker:recursion_fragment_dustopia>]);
+
 
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:planetary_essence>, 

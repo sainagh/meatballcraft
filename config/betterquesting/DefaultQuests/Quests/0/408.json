@@ -1,10 +1,10 @@
 {
   "preRequisites:11": [
-    292
+    291
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "Another requirement for an empire capable of taking over the universe. A way to maintain continuity in ruling. \nNot just immortality, the ability to give and re-take it. In a way similar to how I gained recursion from the Old Ones, the Immortal Fractallites can bestow recursive powers on whoever they desire, and just as simply take them away.\nThrough their manipulation, they were able of ensuring the ideological continuity of the Shyre Empire. Those that followed, endured, those that did not, were simply lost through the sands of time...",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:immortallis_realmstone"

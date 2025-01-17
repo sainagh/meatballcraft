@@ -69,6 +69,28 @@ scripts.PuzzleUtil.addPuzzleShaped("osirisarmor4",<contenttweaker:bee_boots>,
 [<ore:ingotMithrillium>, <contenttweaker:black_metal_feet>, <ore:ingotMithrillium>],
 [<ore:ingotMithrillium>, <ore:ingotMithrillium>, <ore:ingotMithrillium>]]);
 
+recipes.addShaped(<contenttweaker:black_metal_feet>*2,
+[[<contenttweaker:fiery_pyrite>, <ore:ingotBlackIron>, <contenttweaker:fiery_pyrite>],
+[<ore:ingotBlackIron>, <contenttweaker:black_metal_feet>, <ore:ingotBlackIron>],
+[<contenttweaker:fiery_pyrite>, <ore:ingotBlackIron>, <contenttweaker:fiery_pyrite>]]);
+
+recipes.addShaped(<contenttweaker:black_metal_chest>*2,
+[[<contenttweaker:fiery_pyrite>, <ore:ingotBlackIron>, <contenttweaker:fiery_pyrite>],
+[<ore:ingotBlackIron>, <contenttweaker:black_metal_chest>, <ore:ingotBlackIron>],
+[<contenttweaker:fiery_pyrite>, <ore:ingotBlackIron>, <contenttweaker:fiery_pyrite>]]);
+
+recipes.addShaped(<contenttweaker:black_metal_legs>*2,
+[[<contenttweaker:fiery_pyrite>, <ore:ingotBlackIron>, <contenttweaker:fiery_pyrite>],
+[<ore:ingotBlackIron>, <contenttweaker:black_metal_legs>, <ore:ingotBlackIron>],
+[<contenttweaker:fiery_pyrite>, <ore:ingotBlackIron>, <contenttweaker:fiery_pyrite>]]);
+
+recipes.addShaped(<contenttweaker:black_metal_head>*2,
+[[<contenttweaker:fiery_pyrite>, <ore:ingotBlackIron>, <contenttweaker:fiery_pyrite>],
+[<ore:ingotBlackIron>, <contenttweaker:black_metal_head>, <ore:ingotBlackIron>],
+[<contenttweaker:fiery_pyrite>, <ore:ingotBlackIron>, <contenttweaker:fiery_pyrite>]]);
+
+
+
 recipes.addShaped(<contenttweaker:armorer_callstone>,
 [[<contenttweaker:bee_helmet>, <ore:ingotMithrillium>, <contenttweaker:bee_leggings>],
 [<ore:ingotMithrillium>, <ore:ingotMithrillium>, <ore:ingotMithrillium>],
@@ -202,6 +224,16 @@ recipes.addShapeless(<contenttweaker:anemic_callstone>,
 [<contenttweaker:lower_fragment_cosmos>,
 <contenttweaker:upper_fragment_cosmos>,
 <animus:kama_bound>]);
+
+recipes.addShaped(<contenttweaker:upper_fragment_cosmos>*2,
+[[<contenttweaker:fiery_pyrite>, <biomesoplenty:flower_0:5>, <contenttweaker:fiery_pyrite>],
+[<openblocks:tank>.withTag({tank: {FluidName: "lifeessence", Amount: 16000}}), <contenttweaker:upper_fragment_cosmos>, <openblocks:tank>.withTag({tank: {FluidName: "lifeessence", Amount: 16000}})],
+[<contenttweaker:fiery_pyrite>, <biomesoplenty:flower_0:5>, <contenttweaker:fiery_pyrite>]]);
+
+recipes.addShaped(<contenttweaker:lower_fragment_cosmos>*2,
+[[<contenttweaker:fiery_pyrite>, <biomesoplenty:flower_0:5>, <contenttweaker:fiery_pyrite>],
+[<openblocks:tank>.withTag({tank: {FluidName: "lifeessence", Amount: 16000}}), <contenttweaker:lower_fragment_cosmos>, <openblocks:tank>.withTag({tank: {FluidName: "lifeessence", Amount: 16000}})],
+[<contenttweaker:fiery_pyrite>, <biomesoplenty:flower_0:5>, <contenttweaker:fiery_pyrite>]]);
 
 //---------------------------------
 // sedna
