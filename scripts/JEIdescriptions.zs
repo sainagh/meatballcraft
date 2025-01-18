@@ -3953,6 +3953,14 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_memoryrestorationrit
     "<定义锭> <神灵之布> <暴怒符文>"
 ]);
 
+mods.jei.JEI.addDescription(<contenttweaker:sun_spirit_cheese>,
+[
+    "还有其他更纯净的方法，使用游戏内的工具即可！",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "烈阳巨灵发射的冰结球可用自动刷怪机复制。"
+]);
+
+
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_runesofliberation>,
 [
     "拜托！至少试着解一下谜题嘛！",
@@ -4222,9 +4230,9 @@ mods.jei.JEI.addDescription([
 [
     "狂战熔炉可用来复制意志晶体用于自动化。",
     "",
-    "将多方块与恶魔坩埚放置在同一区块内。",
+    "将多方块与恶魔坩埚或狂战坩埚放置在同一区块内。",
     "",
-    "首先在坩埚中燃烧一些需要的特殊意志晶体。灵域内的意志可用来以较低成本制作意志晶体。",
+    "首先在坩埚中燃烧一些需要的特殊意志晶体。灵域内的意志可用来以较低成本制作意志晶体。意志晶体产出100点意志，意志碎段产出为10点。",
     "",
     "通过将输出的意志晶体循环输入回坩埚，然后制造更多晶体，最终会获得净收益！"
 ]);
@@ -4422,7 +4430,7 @@ mods.jei.JEI.addDescription([
     "",
     "特定区块的星能会高于其他区块，在夜晚使用汇星共振器来寻找这类区块。",
     "",
-    "在祭坛周围按多方块结构（查看JEI预览）摆放星辉转继器可以增强星能。但当多个多方块结构彼此距离过近时，反而会减少星能。",
+    "在祭坛周围按多方块结构（查看JEI预览）摆放星辉转继器（其中放置玻璃透镜）可以增强星能。但当多个多方块结构彼此距离过近时，反而会减少星能。",
     "",
     "将聚能水晶与祭坛链接同样可增加星能。使用聚能水晶多方块结构可以进一步提升增幅效果。"
 ]);
@@ -4699,9 +4707,9 @@ mods.jei.JEI.addDescription([
 mods.jei.JEI.addDescription([
     <contenttweaker:plasma_farm>],
 [
-    "Plasma is produced inside a Fusion Reactor from Nuclearcraft while it is running.",
+    "核电工艺模组的聚变反应堆在工作时会产出等离子体。",
     "",
-    "It can be pumped out using a Builder or a Ranged Pump",
+    "可使用建造机或范围泵抽取。",
     "",
-    "After being emptied, the Reactor will not refill unless it is turned off and back on. Redstone circuitry can be used to periodically toggle the fusion reactor on and off to replenish it."
+    "在排空后，除非重启反应堆，否则等离子体不会重新填充。可使用红石电路定时开关反应堆来填充等离子体。"
 ]);
