@@ -4731,7 +4731,7 @@ fleshworldcallstone.itemRightClick = function(stack, world, player, hand) {
     var pos9 = player.position.asPosition3f();
     pos9.y = pos9.y;
     if(pos9.y > 10) {
-        player.sendChat("需位于 y = 10以下");
+        player.sendChat("需位于y=10以下");
         return "FAIL";
     }
 
@@ -4776,7 +4776,7 @@ faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
     pos2.y = pos2.y - 1;
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
-    var blockState2 = world.getBlock(blockPos2).id.displayName as string;
+    var blockState2 = world.getBlock(blockPos2).definition.id as string;
     if(blockState2 != "contenttweaker:recursive_stone") {
         player.sendChat("站在场地结构中心使用递归之石！");
         return "FAIL";
@@ -4787,7 +4787,7 @@ faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
     pos3.y = pos3.y - 1;
     pos3.z = pos3.z;
     var blockPos3 = pos3.asBlockPos();
-    var blockState3 = world.getBlock(blockPos3).id.displayName as string;
+    var blockState3 = world.getBlock(blockPos3).definition.id as string;
     if(blockState3 != "contenttweaker:recursive_stone") {
         player.sendChat("站在场地结构中心使用递归之石！");
         return "FAIL";

@@ -8,7 +8,7 @@
             "x": 0,
             "y": 0,
             "z": 3,
-            "description": "replace the middle block for increased speed, 10X faster",
+            "description": "替换中间方块以获得速度x10",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",

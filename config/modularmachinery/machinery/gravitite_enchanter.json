@@ -8,7 +8,7 @@
             "x": 0,
             "y": 1,
             "z": 1,
-            "description": "95% Fluid Discount",
+            "description": "95%流体减免",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:fluid",
@@ -21,7 +21,7 @@
             "x": 0,
             "y": 1,
             "z": 1,
-            "description": "95% Fluid Discount \n20X Speed",
+            "description": "95%流体减免 \n速度x20",
             "modifiers": [{
                 "io": "input",
                 "target": "modularmachinery:fluid",

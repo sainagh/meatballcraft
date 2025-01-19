@@ -1813,23 +1813,23 @@ import crafttweaker.item.IItemCondition;
 
 <bloodarsenal:base_item:5>.addTooltip(format.red("配方中需要使用该物品！"));
 
-<ore:ingotSednanite>.addTooltip(format.red("你做神器了吗？？"));
+<ore:ingotSednanite>.addTooltip(format.red("你做工件了吗？？"));
 
-<ore:ingotRhenium>.addTooltip(format.red("你做神器了吗？？"));
+<ore:ingotRhenium>.addTooltip(format.red("你做工件了吗？？"));
 
-<ore:ingotMyrmitite>.addTooltip(format.red("你做神器了吗？？"));
+<ore:ingotMyrmitite>.addTooltip(format.red("你做工件了吗？？"));
 
-<ore:ingotOgerite>.addTooltip(format.red("你做神器了吗？？"));
+<ore:ingotOgerite>.addTooltip(format.red("你做工件了吗？？"));
 
-<contenttweaker:unidentified_body>.addTooltip(format.red("你做神器了吗？？"));
+<contenttweaker:unidentified_body>.addTooltip(format.red("你做工件了吗？？"));
 
-<contenttweaker:recursion_darkness>.addTooltip(format.red("你做神器了吗？？"));
+<contenttweaker:recursion_darkness>.addTooltip(format.red("你做工件了吗？？"));
 
-<contenttweaker:recursion_fear>.addTooltip(format.red("你做神器了吗？？"));
+<contenttweaker:recursion_fear>.addTooltip(format.red("你做工件了吗？？"));
 
-<contenttweaker:recursion_helplessness>.addTooltip(format.red("你做神器了吗？？"));
+<contenttweaker:recursion_helplessness>.addTooltip(format.red("你做工件了吗？？"));
 
-<contenttweaker:recursion_solitude>.addTooltip(format.red("你做神器了吗？？"));
+<contenttweaker:recursion_solitude>.addTooltip(format.red("你做工件了吗？？"));
 
 <thaumicaugmentation:gauntlet:0>.addTooltip(format.red("不要放在收藏馆（Bibliocraft）模组的展示方块中"));
 
@@ -2428,7 +2428,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:energy_egg>.addTooltip(format.red("通过能量鸡召唤石获得"));
 
 <ebwizardry:crystal_silver_plating>.addTooltip(format.red("发现于战斗高塔"));
-<ebwizardry:crystal_silver_plating>.addTooltip(format.red("与Dragon of Desire有关"));
+<ebwizardry:crystal_silver_plating>.addTooltip(format.red("感谢Dragon of Desire"));
 
 
 <thermaldynamics:duct_32:0>.addTooltip(format.red("使用伺服器、检索器和过滤器来传输物品（查看对应的JEI提示以了解如何使用）"));
@@ -2714,7 +2714,7 @@ import crafttweaker.item.IItemCondition;
 <naturescompass:naturescompass>.addTooltip(format.red("警告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
 <extrautils2:terraformer:1>.addTooltip(format.red("警告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
 
-<contenttweaker:recursive_recipes>.addTooltip(format.red("与Not Yue有关"));
+<contenttweaker:recursive_recipes>.addTooltip(format.red("感谢Not Yue"));
 
 <contenttweaker:better_glass_cutter>.addTooltip(format.green("可重复使用"));
 

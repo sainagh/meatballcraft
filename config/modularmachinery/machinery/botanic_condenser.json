@@ -8,7 +8,7 @@
             "x": 0,
             "y": 1,
             "z": 1,
-            "description": "15X increased output",
+            "description": "产出x15",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",

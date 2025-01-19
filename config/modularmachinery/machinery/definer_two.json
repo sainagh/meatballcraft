@@ -8,7 +8,7 @@
             "x": 0,
             "y": 2,
             "z": 6,
-            "description": "Replace unidentified body for doubled output",
+            "description": "替换未定义物体以获得双倍产出",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",
@@ -21,7 +21,7 @@
             "x": 0,
             "y": 2,
             "z": 6,
-            "description": "Replace unidentified body for 8x output",
+            "description": "替换未定义物体以获得产出x8",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",

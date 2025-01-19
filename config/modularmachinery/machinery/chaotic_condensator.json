@@ -8,7 +8,7 @@
             "x": 0,
             "y": 0,
             "z": 2,
-            "description": "Replace charged draconium to make a lot more shards, 15X",
+            "description": "替换充能龙块以获得更多碎片，产出x15",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",
