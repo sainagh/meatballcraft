@@ -747,13 +747,13 @@ import crafttweaker.item.IItemCondition;
 
 <erebus:materials:38>.addTooltip(format.red("使用绿宝石、钻石以及黑曜石右击贡献祭坛"));
 
-<minecraft:chest>.addTooltip(format.red("感谢Sandman366在修复JEI搜索木板崩溃问题方面的帮助 ;)"));
+<minecraft:chest>.addTooltip(format.red("感谢Sandman366在修复JEI搜索木板导致崩溃的问题方面的帮助 ;)"));
 
-<ore:dustBedrock>.addTooltip(format.red("用打火石点燃基岩，或者在基岩上倒一桶烈焰之炽焱，还可使用SAG磨粉机的循环配方"));
+<ore:dustBedrock>.addTooltip(format.red("用打火石点燃基岩，或者在基岩上倒一桶烈焰之炽焱，也可使用SAG磨粉机的循环配方"));
 
 <extendedcrafting:singularity_custom:991>.addTooltip(format.red("我们喜欢Woot！"));
 
-<contenttweaker:aesir_tribute>.addTooltip(format.red("如何获得这玩意？"));
+<contenttweaker:aesir_tribute>.addTooltip(format.red("我该怎么获得这玩意？"));
 
 <bewitchment:sigil_purity>.addTooltip(format.green("（基本上）所有配方中均可重复使用"));
 
