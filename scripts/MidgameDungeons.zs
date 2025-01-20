@@ -1473,7 +1473,7 @@ anemiccallstone.itemRightClick = function(stack, world, player, hand) {
 
     Commands.call("pillar-spawn orcus_structure_callstone", player, world, true, true);
     Commands.call("give @p contenttweaker:orcus_spinel", player, world, true, true);
-    Commands.call("summon thebetweenlands:blood_snail ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:eldrich_blood_slime\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:6000.0},{Name:generic.attackDamage, Base:100.0}],Health:6000f,CustomName:\"Gash'uhn the Blood God\"}", player, world, true, true);
+    Commands.call("summon thebetweenlands:blood_snail ~ ~4 ~ {HandItems:[{Count:1,id:\"contenttweaker:eldrich_blood_slime\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:6000.0},{Name:generic.attackDamage, Base:100.0}],Health:6000f,CustomName:\"血神Gash'uhn\"}", player, world, true, true);
 
     stack.shrink(1);
     return "PASS";

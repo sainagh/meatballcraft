@@ -297,8 +297,8 @@ var masterspellhumanus = VanillaFactory.createItem("master_spell_humanus");
 masterspellhumanus.maxStackSize = 1;
 masterspellhumanus.glowing = true;
 masterspellhumanus.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("/summon villager ~ ~3 ~ {CustomName:\"Cool Banker\",Offers:{Recipes:[{buy:{id:\"aoa3:copper_coin\",Count:2},sell:{id:\"aoa3:silver_coin\",Count:1},rewardExp:0b,maxUses:9999999}]},Profession:2,Career:1,CareerLevel:3}", player, world, false, true);
-	Commands.call("/summon villager ~ ~3 ~ {CustomName:\"Cool Banker\",Offers:{Recipes:[{buy:{id:\"aoa3:silver_coin\",Count:2},sell:{id:\"aoa3:gold_coin\",Count:1},rewardExp:0b,maxUses:9999999}]},Profession:2,Career:1,CareerLevel:3}", player, world, false, true);
+	Commands.call("/summon villager ~ ~3 ~ {CustomName:\"酷炫银行家\",Offers:{Recipes:[{buy:{id:\"aoa3:copper_coin\",Count:2},sell:{id:\"aoa3:silver_coin\",Count:1},rewardExp:0b,maxUses:9999999}]},Profession:2,Career:1,CareerLevel:3}", player, world, false, true);
+	Commands.call("/summon villager ~ ~3 ~ {CustomName:\"酷炫银行家\",Offers:{Recipes:[{buy:{id:\"aoa3:silver_coin\",Count:2},sell:{id:\"aoa3:gold_coin\",Count:1},rewardExp:0b,maxUses:9999999}]},Profession:2,Career:1,CareerLevel:3}", player, world, false, true);
 	return "Pass";
 };
 masterspellhumanus.register();

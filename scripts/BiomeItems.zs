@@ -464,7 +464,7 @@ brokenoath.itemRightClick = function(stack, world, player, hand) {
 	} 
 
     if((CandyMatches) == 1) {
-		Commands.call("summon twilightforest:adherent ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:crepuscular_callstone\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:9000.0},{Name:generic.attackDamage, Base:3000.0}],Health:9000f,CustomName:\"Failed Portal Master\"}", player, world, false, true);
+		Commands.call("summon twilightforest:adherent ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:crepuscular_callstone\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:9000.0},{Name:generic.attackDamage, Base:3000.0}],Health:9000f,CustomName:\"失败的传送门大师\"}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 

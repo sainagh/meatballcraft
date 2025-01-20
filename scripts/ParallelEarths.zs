@@ -808,7 +808,7 @@ warrencreationfabrial.itemRightClick = function(stack, world, player, hand) {
     pos11.z = pos11.z + 2;
     var blockPos11 = pos11.asBlockPos();
     var blockState11 = world.getBlock(blockPos11).definition.id as string;
-    if(blockState11 != "contenttweaker:mythic_excavation_reactor" && blockState11 != "Mythic Excavation Reactor") {
+    if(blockState11 != "contenttweaker:mythic_excavation_reactor") {
         player.sendChat("缺少神话开掘反应堆 (2,2)");
         return "FAIL";
     }
