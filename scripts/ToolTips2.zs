@@ -723,7 +723,7 @@ import crafttweaker.item.IItemCondition;
 
 <draconicevolution:tool_upgrade:11>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
 
-<contenttweaker:the_dark_star>.addTooltip(format.red("发现于高出"));
+<contenttweaker:the_dark_star>.addTooltip(format.red("发现于高处"));
 
 <contenttweaker:purity_offer>.addTooltip(format.red("由白雏菊放置"));
 
