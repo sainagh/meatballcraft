@@ -4328,7 +4328,7 @@ mods.jei.JEI.addDescription([
     "/woot flush *生物ID*",
     "",
     "要获得特定生物的ID，可以在JEI中将鼠标悬停在JEI中对应的刷怪蛋上，查看实体ID。",
-    "格式为：*modid*:*mobid*"
+    "格式为：*模组ID*:*生物ID*"
 ]);
 
 mods.jei.JEI.addDescription([
