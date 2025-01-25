@@ -156,7 +156,7 @@ import mods.astralsorcery.Utils;
 	recipes.addShaped(SuperEnchantedItem(<redstonearsenal:tool.bow_flux>.withTag({display: {Name:"§6§o勇气§r",Lore:["§d§o超限附魔§r"]}}), enchlistBraveWrapped).getItem(),
 		[[<bewitchment:hellhound_horn>, <bewitchment:demon_heart>, <bewitchment:hellhound_horn>],
 		[<contenttweaker:dragons_blood_plastic>, <bewitchment:sigil_ruin>, <contenttweaker:dragons_blood_plastic>],
-		[<bewitchment:hellhound_horn>, <redstonearsenal:tool.bow_flux>, <bewitchment:hellhound_horn>]]);
+		[<contenttweaker:calcite_gem>, <redstonearsenal:tool.bow_flux>, <contenttweaker:calcite_gem>]]);
 }
 
 //	Prison Realm Bow

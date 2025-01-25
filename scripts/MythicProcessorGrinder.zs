@@ -215,3 +215,10 @@ mythindgrind27.addItemOutput(<techreborn:dust:55>*8);
 mythindgrind27.addItemOutput(<contenttweaker:tungsten_molybdenum_dust>*4);
 mythindgrind27.addItemOutput(<thermalfoundation:material:96>*8);
 mythindgrind27.build();
+
+val mythindgrind28 = RecipeBuilder.newBuilder("mythindgrind28","mythic_processor_grinder",2);
+mythindgrind28.addEnergyPerTickInput(2000000);
+mythindgrind28.addFluidInput(<fluid:essence>*1000);
+mythindgrind28.addItemInput(<contenttweaker:naquadah_ore>);
+mythindgrind28.addItemOutput(<contenttweaker:naquadah_chunk>);
+mythindgrind28.build();

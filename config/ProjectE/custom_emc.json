@@ -22899,6 +22899,10 @@
     {
       "item": "contenttweaker:diary_of_a_realmshifter|0",
       "emc": 2048
+    },
+    {
+      "item": "glassential:glass_redstone|0",
+      "emc": 0
     }
   ]
 }

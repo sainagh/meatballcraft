@@ -1494,6 +1494,8 @@
 <ore:ingotFractalliteHalite>.addTooltip(format.red("okay (单人)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("IridiumSky, maxwell_lt, Darkally (团队)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Origami10004, Lumamaster, Kafuruu (团队)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("MrRepside (单人)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("hael (单人)"));
 
 <contenttweaker:terrestrial_animator_0>.addTooltip(format.red("可被使用者使用"));
 <contenttweaker:terrestrial_animator_1>.addTooltip(format.red("可被使用者使用"));

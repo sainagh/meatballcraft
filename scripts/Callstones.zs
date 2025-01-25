@@ -4320,6 +4320,8 @@ recursivepaperfaithfulundead.itemRightClick = function(stack, world, player, han
     Commands.call("summon mod_lavacow:banshee ~ ~3 ~", player, world, false, true);
     Commands.call("summon mod_lavacow:mummy ~ ~3 ~", player, world, false, true);
     Commands.call("summon mod_lavacow:sludgelord ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:amberlord ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:cactyrant ~ ~3 ~", player, world, false, true);
 
     Commands.call("summon mod_lavacow:zombiemushroom ~ ~3 ~", player, world, false, true);
     Commands.call("summon mod_lavacow:ithaqua ~ ~3 ~", player, world, false, true);

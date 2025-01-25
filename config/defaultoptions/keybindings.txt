@@ -58,9 +58,6 @@ key_key.ebwizardry.spell_7:8:ALT
 key_key.ebwizardry.spell_8:9:ALT
 key_key.betterquesting.quests:37:NONE
 key_key.betterquesting.back:14:NONE
-key_key.conarm.toggle_helm.desc:0:NONE
-key_key.conarm.toggle_chest.desc:0:NONE
-key_key.conarm.toggle_leg.desc:0:NONE
 key_cos.key.opencosarmorinventory:0:NONE
 key_pe.key.armor_toggle:0:NONE
 key_pe.key.charge:47:NONE
@@ -164,6 +161,7 @@ key_key.craftingtweaks.refill_last_stack:0:NONE
 key_key.projectex.focusSearchBar:0:NONE
 key_key.clipboardPaste:210:NONE
 key_key.mod_lavacow.special:0:NONE
+key_key.mod_lavacow.down:44:NONE
 key_key.ae2fc.open_wireless_fluid_pattern_terminal.desc:0:NONE
 key_FpsReducer.key.guiOpen:207:NONE
 key_FpsReducer.key.forceIdle:197:NONE
