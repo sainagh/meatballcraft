@@ -1689,7 +1689,7 @@
 
 <contenttweaker:skelebone_fragment>.addTooltip(format.red("Light喜欢均等消耗物品！"));
 
-<testdummy:dummy>.addTooltip(format.red("警告：不要为试验假人穿戴盔甲，会导致bug"));
+<testdummy2:dummy>.addTooltip(format.red("警告：不要为试验假人穿戴盔甲，会导致bug"));
 
 <contenttweaker:star_of_betrayal>.addTooltip(format.red("感谢Vamael搞清楚了护盾属性！"));
 
@@ -1849,6 +1849,10 @@
 
 <contenttweaker:warren_rift>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:essence_of_the_mythic_shells>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:helpful_tippy_hat>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:diary_of_a_realmshifter>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:true_chaos>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:multiblock_sticc>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 
 <contenttweaker:fragment_of_creation>.addTooltip(format.red("感谢NerdySpider为裂影界之光系列物品绘制的纹理！"));
 <contenttweaker:light_of_shadesmar>.addTooltip(format.red("感谢NerdySpider为裂影界之光系列物品绘制的纹理！"));
@@ -1912,7 +1916,6 @@
 <xreliquary:infernal_tear>.addTooltip(format.red("消耗物品栏中的炭、铁、青金石、金和钻石获得经验"));
 <xreliquary:infernal_tear>.addTooltip(format.red("Shift右击以激活，重复该操作以绑定物品"));
 <xreliquary:infernal_tear>.addTooltip(format.red("感谢ChaotkKiller整理的产率"));
-
 
 <divinerpg:dark_dream_bricks>.addTooltip(format.red("从梦魇世界的饥饿者处获得"));
 <divinerpg:light_dream_bricks>.addTooltip(format.red("从梦魇世界的饥饿者处获得"));
@@ -2166,6 +2169,43 @@
 <ae2fc:fluid_level_maintainer>.addTooltip(format.red("注意：若存在于AE2主网络中，仍可能造成卡顿"));
 <ae2fc:fluid_level_maintainer>.addTooltip(format.red("但在某些子网设置中依旧很实用"));
 <ae2fc:fluid_level_maintainer>.addTooltip(format.red("感谢kurrycat对其性能的优化"));
+
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("跃迁器"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("站在JEI中显示的结构中心来激活"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("警告：若世界是在beta-0.15版本之前创建的，你需要手动生成维度"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("关闭整合包，备份存档"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("从config > advRocketry文件夹中复制'plantDefs.xml'文件到saves > worldname > advRocketry"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("打开整合包，重新使用该物品"));
+
+<contenttweaker:lucky_box_aether_bronze>.addTooltip(format.red("感谢UselessForce绘制的幸运盒子纹理"));
+<contenttweaker:lucky_box_twilight_weapons>.addTooltip(format.red("感谢UselessForce绘制的幸运盒子纹理"));
+
+<contenttweaker:cleansing_callstone>.addTooltip(format.red("bwuh提醒你该洗澡了！"));
+
+<contenttweaker:skeletal_callstone>.addTooltip(format.red("感谢bwuh和DrMirrus为召唤石添加的维度信息提示！"));
+<contenttweaker:fluix_callstone>.addTooltip(format.red("感谢bwuh和DrMirrus为召唤石添加的维度信息提示！"));
+<contenttweaker:betweenlands_callstone_0>.addTooltip(format.red("感谢bwuh和DrMirrus为召唤石添加的维度信息提示！"));
+
+<contenttweaker:construct_of_will>.addTooltip(format.red("感谢Darkromano绘制的纹理！"));
+
+<randomthings:basicredstoneinterface>.addTooltip(format.red("警告：非常卡顿，没必要使用"));
+<randomthings:advancedredstoneinterface>.addTooltip(format.red("警告：非常卡顿，没必要使用"));
+
+<storagedrawers:upgrade_creative>.addTooltip(format.red("警告：使用其升级抽屉后不要取出"));
+
+<contenttweaker:condensed_essence>.addTooltip(format.red("感谢osto添加的Shift+右击选项！"));
+
+<contenttweaker:alchemical_particle>.addTooltip(format.red("可使用ME机械输入总线在多方块中合成"));
+
+<tconstruct:large_sword_blade>.withTag({Material: "dragonsteel_lightning"}).addTooltip(format.red("AshThaMoth对匠魂盔甲的移除十分遗憾"));
+
+<opeq:stabilization_tape>.addTooltip(format.red("与选定物品合成，以防止其被放入转化桌"));
+<opeq:stabilization_tape>.addTooltip(format.red("注意：若稳定化了过多物品，会造成卡顿"));
+<opeq:stabilization_tape>.addTooltip(format.red("使用剪刀来去稳定化"));
+
+<contenttweaker:mythic_coil_t1>.addTooltip(format.red("对于神话处理器，ME机械输出总线是输出产物最快的方式"));
+<contenttweaker:draconium_electromagnet>.addTooltip(format.red("对于神话处理器，ME机械输出总线是输出产物最快的方式"));
+<contenttweaker:awakened_electromagnet>.addTooltip(format.red("对于神话处理器，ME机械输出总线是输出产物最快的方式"));
 
 
 
