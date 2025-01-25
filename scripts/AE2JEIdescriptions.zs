@@ -116,7 +116,7 @@ mods.jei.JEI.addDescription([<appliedenergistics2:part:500>,<appliedenergistics2
 
 mods.jei.JEI.addDescription([<appliedenergistics2:quantum_link>,
 <appliedenergistics2:quantum_ring>],
-["量子网桥是一个多方块结构，有以下两种功能：The quantum bridge is a multiblock that allows you to do two things: ",
+["量子网桥是一个多方块结构，有以下两种功能：",
 "",
 "跨维度无视距离无线传输32个频道。",
 "将一对量子缠绕态奇点分别放入一对希望连接的量子网桥中，来将二者相连。",

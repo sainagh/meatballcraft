@@ -8,7 +8,7 @@
             "x": 0,
             "y": 6,
             "z": 4,
-            "description": "Replace top middle block under the fluid \n to increase machine speed, 6X faster!",
+            "description": "替换流体下方中间顶部方块以提高机器速度，速度x6！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",

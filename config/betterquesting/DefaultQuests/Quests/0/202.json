@@ -25,6 +25,10 @@
         "1:10": {
           "Count:3": 1,
           "id:8": "twilightforest:torchberries"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:diary_of_a_realmshifter"
         }
       }
     }

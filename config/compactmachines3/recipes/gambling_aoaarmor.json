@@ -1,0 +1,83 @@
+{
+    "name": "compactmachines3:gambling_aoaarmor",
+    "target-item": "contenttweaker:lucky_box_advent_armor",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:reprocessed_cosmic_meatball",
+
+    
+  
+
+    "input-types": {
+      "a": {
+        "id": "aoa3:yellow_shyre_bricks",
+        "meta": 0
+      },
+      "b": {
+        "id": "divinerpg:bedrock_minibricks",
+        "meta": 0
+      },
+      "c": {
+        "id": "contenttweaker:gambling_sentient_meatball",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "b",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "b",
+          "a"
+        ],
+        [
+          "b",
+          "c",
+          "b"
+        ],
+        [
+          "a",
+          "b",
+          "a"
+        ]
+      ],
+      [
+        [
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "a",
+          "b",
+          "a"
+        ],
+        [
+          "a",
+          "a",
+          "a"
+        ]
+      ]
+    ]
+  
+
+}

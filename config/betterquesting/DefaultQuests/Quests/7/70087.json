@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Found between Y\u003d5 and Y\u003d17.\nCan be dropped by Cave Crawlers and Caveclops.\n\n- Written by Bluecat",
+      "desc:8": "§7§oFound between Y\u003d5 and Y\u003d17.\nCan be dropped by Cave Crawlers and Caveclops.\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:realmite_ingot"

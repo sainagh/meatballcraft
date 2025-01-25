@@ -177,7 +177,7 @@ mythelectro22.build();
 
 val mythelectro23 = RecipeBuilder.newBuilder("mythelectro23","mythic_processor_electrolyzer",2);
 mythelectro23.addEnergyPerTickInput(40000);
-mythelectro23.addItemInput(<ore:dustObsidian>);
+mythelectro23.addItemInput(<ore:dustObsidian>*4);
 mythelectro23.addItemInput(<techreborn:dynamiccell>*3);
 mythelectro23.addItemOutput(<techreborn:smalldust:30>*2);
 mythelectro23.addItemOutput(<techreborn:smalldust:27>*2);
@@ -198,3 +198,113 @@ mythelectro25.addItemInput(<nuclearcraft:gem:0>);
 mythelectro25.addItemOutput(<contenttweaker:rhodium_mixture>);
 mythelectro25.addItemOutput(<techreborn:smalldust:10>);
 mythelectro25.build();
+
+val mythelectro26 = RecipeBuilder.newBuilder("mythelectro26","mythic_processor_electrolyzer",2);
+mythelectro26.addEnergyPerTickInput(40000);
+mythelectro26.addItemInput(<ore:dustSpessartine>*20);
+mythelectro26.addItemInput(<techreborn:dynamiccell>*9);
+mythelectro26.addItemOutput(<thermalfoundation:material:68>*2);
+mythelectro26.addItemOutput(<techreborn:dust:31>*3);
+mythelectro26.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}})*3);
+mythelectro26.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*6);
+mythelectro26.build();
+
+val mythelectro27 = RecipeBuilder.newBuilder("mythelectro27","mythic_processor_electrolyzer",2);
+mythelectro27.addEnergyPerTickInput(40000);
+mythelectro27.addItemInput(<ore:dustPyrite>*3);
+mythelectro27.addItemOutput(<thermalfoundation:material:0>);
+mythelectro27.addItemOutput(<thermalfoundation:material:771>*2);
+mythelectro27.build();
+
+val mythelectro28 = RecipeBuilder.newBuilder("mythelectro28","mythic_processor_electrolyzer",2);
+mythelectro28.addEnergyPerTickInput(40000);
+mythelectro28.addItemInput(<ore:dustSphalerite>*2);
+mythelectro28.addItemOutput(<techreborn:dust:59>);
+mythelectro28.addItemOutput(<thermalfoundation:material:771>);
+mythelectro28.build();
+
+val mythelectro29 = RecipeBuilder.newBuilder("mythelectro29","mythic_processor_electrolyzer",2);
+mythelectro29.addEnergyPerTickInput(40000);
+mythelectro29.addItemInput(<ore:dustBauxite>*12);
+mythelectro29.addItemInput(<techreborn:dynamiccell>*8);
+mythelectro29.addItemOutput(<thermalfoundation:material:68>*8);
+mythelectro29.addItemOutput(<techreborn:smalldust:54>*2);
+mythelectro29.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "hydrogen", Amount: 1000}})*5);
+mythelectro29.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*3);
+mythelectro29.build();
+
+val mythelectro30 = RecipeBuilder.newBuilder("mythelectro30","mythic_processor_electrolyzer",2);
+mythelectro30.addEnergyPerTickInput(40000);
+mythelectro30.addItemInput(<ore:dustRuby>*9);
+mythelectro30.addItemInput(<techreborn:dynamiccell>*3);
+mythelectro30.addItemOutput(<thermalfoundation:material:68>*2);
+mythelectro30.addItemOutput(<techreborn:dust:10>*1);
+mythelectro30.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*3);
+mythelectro30.build();
+
+val mythelectro31 = RecipeBuilder.newBuilder("mythelectro31","mythic_processor_electrolyzer",2);
+mythelectro31.addEnergyPerTickInput(40000);
+mythelectro31.addItemInput(<ore:dustSapphire>*8);
+mythelectro31.addItemInput(<techreborn:dynamiccell>*3);
+mythelectro31.addItemOutput(<thermalfoundation:material:68>*2);
+mythelectro31.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*3);
+mythelectro31.build();
+
+val mythelectro32 = RecipeBuilder.newBuilder("mythelectro32","mythic_processor_electrolyzer",2);
+mythelectro32.addEnergyPerTickInput(40000);
+mythelectro32.addItemInput(<ore:dustGalena>*2);
+mythelectro32.addItemOutput(<techreborn:smalldust:47>*3);
+mythelectro32.addItemOutput(<techreborn:smalldust:29>*3);
+mythelectro32.addItemOutput(<techreborn:smalldust:52>*2);
+mythelectro32.build();
+
+val mythelectro33 = RecipeBuilder.newBuilder("mythelectro33","mythic_processor_electrolyzer",2);
+mythelectro33.addEnergyPerTickInput(40000);
+mythelectro33.addItemInput(<ore:dustPyrope>*20);
+mythelectro33.addItemInput(<techreborn:dynamiccell>*9);
+mythelectro33.addItemOutput(<thermalfoundation:material:68>*2);
+mythelectro33.addItemOutput(<techreborn:dust:30>*3);
+mythelectro33.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}})*3);
+mythelectro33.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*6);
+mythelectro33.build();
+
+val mythelectro34 = RecipeBuilder.newBuilder("mythelectro34","mythic_processor_electrolyzer",2);
+mythelectro34.addEnergyPerTickInput(40000);
+mythelectro34.addItemInput(<ore:dustAlmandine>*20);
+mythelectro34.addItemInput(<techreborn:dynamiccell>*9);
+mythelectro34.addItemOutput(<thermalfoundation:material:68>*2);
+mythelectro34.addItemOutput(<techreborn:dust:30>*3);
+mythelectro34.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}})*3);
+mythelectro34.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*6);
+mythelectro34.build();
+
+val mythelectro35 = RecipeBuilder.newBuilder("mythelectro35","mythic_processor_electrolyzer",2);
+mythelectro35.addEnergyPerTickInput(40000);
+mythelectro35.addItemInput(<ore:dustAndradite>*20);
+mythelectro35.addItemInput(<techreborn:dynamiccell>*12);
+mythelectro35.addItemOutput(<thermalfoundation:material:0>*2);
+mythelectro35.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcalcium", Amount: 1000}})*3);
+mythelectro35.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}})*3);
+mythelectro35.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*6);
+mythelectro35.build();
+
+val mythelectro36 = RecipeBuilder.newBuilder("mythelectro36","mythic_processor_electrolyzer",2);
+mythelectro36.addEnergyPerTickInput(40000);
+mythelectro36.addItemInput(<ore:dustGrossular>*20);
+mythelectro36.addItemInput(<techreborn:dynamiccell>*12);
+mythelectro36.addItemOutput(<thermalfoundation:material:68>*2);
+mythelectro36.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcalcium", Amount: 1000}})*3);
+mythelectro36.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}})*3);
+mythelectro36.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*6);
+mythelectro36.build();
+
+val mythelectro37 = RecipeBuilder.newBuilder("mythelectro37","mythic_processor_electrolyzer",2);
+mythelectro37.addEnergyPerTickInput(40000);
+mythelectro37.addItemInput(<ore:dustUvarovite>*20);
+mythelectro37.addItemInput(<techreborn:dynamiccell>*12);
+mythelectro37.addItemOutput(<techreborn:dust:10>*2);
+mythelectro37.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcalcium", Amount: 1000}})*3);
+mythelectro37.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}})*3);
+mythelectro37.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*6);
+mythelectro37.build();
+

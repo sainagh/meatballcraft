@@ -175,3 +175,8 @@ recipes.addShaped(<thaumictinkerer:kamiresource:1>*2,
 [<divinerpg:molten_shards>, <contenttweaker:divine_wisp>, <divinerpg:molten_shards>],
 [<divinerpg:molten_shards>, <divinerpg:molten_shards>, <divinerpg:molten_shards>]]);
 
+recipes.addShaped(<contenttweaker:ancient_decrystallizer>,
+[[<divinerpg:corrupted_shards>, <thaumcraft:crystal_essence>, <divinerpg:corrupted_shards>],
+[<thaumcraft:crystal_essence>, <aoa3:sapphire_pickaxe>, <thaumcraft:crystal_essence>],
+[<divinerpg:corrupted_shards>, <thaumcraft:crystal_essence>, <divinerpg:corrupted_shards>]]);
+

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Found only in mountainous biomes, but testificates seem to have lots of it!",
+      "desc:8": "§7§oFound only in mountainous biomes, but testificates seem to have lots of it!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:emerald"

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "While turbines are hardly a new technology at this point, I think it would be a good idea to come up with a technology that can handle vapors other than water.\nI am encountering so many crazy and strange fluids, so I would not be suprised if some of them played well with turbines.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:turbine_controller"

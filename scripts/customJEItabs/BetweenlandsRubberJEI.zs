@@ -6,7 +6,7 @@ import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
-var rubbercollectionJEI as IJeiPanel = JEI.createJei("betweenlands_rubber", "Rubber Collection");
+var rubbercollectionJEI as IJeiPanel = JEI.createJei("betweenlands_rubber", "橡胶采集");
 rubbercollectionJEI.setModid("The Betweenlands");
 rubbercollectionJEI.setIcon(<thebetweenlands:sapling_rubber>);
 rubbercollectionJEI.addRecipeCatalyst(<thebetweenlands:sapling_rubber>);

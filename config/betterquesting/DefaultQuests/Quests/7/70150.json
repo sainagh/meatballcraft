@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Found under Lava Lakes in the Nether.\nIf you hold it, fire spreads around you!\n\n- Written by Bluecat",
+      "desc:8": "§7§oFound under Lava Lakes in the Nether.\nIf you hold it, fire spreads around you!\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "railcraft:firestone_raw"

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Many thanks to Dr Zoidberg for adding the fuel quests\n\nUhhh, and thorium generates naturally as well, this planet is truly amazing!",
+      "desc:8": "§7§oMany thanks to Dr Zoidberg for adding the fuel quests\n\n§fUhhh, and thorium generates naturally as well, this planet is truly amazing!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:fuel_thorium"
@@ -23,6 +23,16 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:etbu_fuel"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

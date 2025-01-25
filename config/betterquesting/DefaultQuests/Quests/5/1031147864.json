@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    20415,
+    1727374336
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe following quests explain how to create dimensions with RFTools dimensions.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "Custom Dimensions"
+    }
+  },
+  "questID:3": 1031147864,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:warren_creation_fabrial"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

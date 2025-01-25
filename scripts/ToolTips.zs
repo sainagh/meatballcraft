@@ -1,4 +1,4 @@
-<contenttweaker:plate_clump_mythic>.addTooltip(format.red("可在制作炼金界神器之后开始进行该物品自动化"));
+<contenttweaker:plate_clump_mythic>.addTooltip(format.red("可在制作炼金界工件之后开始进行该物品自动化"));
 
 <aoa3:omni_chestplate>.addTooltip(format.red("在蠕变维度的爆破专家处获得"));
 <aoa3:omni_helmet>.addTooltip(format.red("在蠕变维度的爆破专家处获得"));
@@ -40,7 +40,7 @@
 <minecraft:concrete:0>.addTooltip(format.red("感谢4lyfe添加的EMC值"));
 
 <ebwizardry:ethereal_crystalweave>.addTooltip(format.red("发现于战斗高塔"));
-<ebwizardry:ethereal_crystalweave>.addTooltip(format.red("与Dragon of Desire有关"));
+<ebwizardry:ethereal_crystalweave>.addTooltip(format.red("感谢Dragon of Desire"));
 
 <contenttweaker:spatial_phaser>.addTooltip(format.red("使用我"));
 <contenttweaker:terraformassiflora>.addTooltip(format.red("使用我"));
@@ -187,6 +187,7 @@
 
 <bigreactors:reactorcontroller>.addTooltip(format.red("与涡轮机搭配更佳！"));
 
+<minecraft:enchanted_book>.addTooltip(format.red("可方便地储存在魔咒图书馆中"));
 <minecraft:enchanted_book>.addTooltip(format.red("祛魔手稿可将附魔书回收利用，赚点添头"));
 
 <contenttweaker:cryotheum_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个切片的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
@@ -414,11 +415,11 @@
 <bnkrblks:megelium_stone>.addTooltip(format.red("感谢Connor制作的Draconic Alchemy自动化！大爆炸在路上喽！"));
 <draconicevolution:draconium_block:1>.addTooltip(format.red("感谢Connor制作的Draconic Alchemy自动化！大爆炸在路上喽！"));
 
-<contenttweaker:stormlight_infused_crystal>.addTooltip(format.red("在赫尔维蒂维度使用沉浸原油模组的采油机来获得飓光"));
+<contenttweaker:stormlight_infused_crystal>.addTooltip(format.red("在树龙界使用沉浸原油模组的采油机来获得飓光"));
 
-<contenttweaker:shard_of_a_fallen_spren>.addTooltip(format.red("通过双足飞龙神殿激活法器获得"));
+<contenttweaker:shard_of_a_fallen_spren>.addTooltip(format.red("通过飞龙神殿激活法器获得"));
 
-<contenttweaker:wyvern_head_stone>.addTooltip(format.red("发现于赫尔维蒂维度"));
+<contenttweaker:wyvern_head_stone>.addTooltip(format.red("发现于树龙界"));
 
 <contenttweaker:pulsating_fluix>.addTooltip(format.red("在地方界使用沉浸原油模组的采油机来获得脉冲星光"));
 
@@ -444,7 +445,7 @@
 <aether_legacy:valkyrie_lance>.addTooltip(format.red("可施加超限附魔"));
 <bloodmagic:bound_sword>.addTooltip(format.red("可施加超限附魔"));
 
-<contenttweaker:headstone>.addTooltip(format.red("通过远古双足飞龙召唤石获得"));
+<contenttweaker:headstone>.addTooltip(format.red("通过远古飞龙召唤石获得"));
 
 <contenttweaker:silky_forester_leaf>.addTooltip(format.red("通过使用精准采集破坏世界中林业和Binnie模组的树获得"));
 
@@ -698,8 +699,8 @@
 
 <contenttweaker:cotton_candy_withering_spray>.addTooltip(format.red("右击糖果巨人对其造成600点伤害，需使用5次"));
 
-<contenttweaker:starlight_sphere>.addTooltip(format.red("咒法主宰才能获得！"));
-<contenttweaker:lively_twilight_gem>.addTooltip(format.red("咒法主宰才能获得！"));
+<contenttweaker:starlight_sphere>.addTooltip(format.red("只有咒法主宰才能获得！"));
+<contenttweaker:lively_twilight_gem>.addTooltip(format.red("只有咒法主宰才能获得！"));
 
 <thermalfoundation:tool.fishing_rod_platinum>.addTooltip(format.red("可施加超限附魔"));
 
@@ -779,6 +780,9 @@
 <woot:upgradeb:12>.addTooltip(format.red("Woot升级是逐级添加的，I级放置在底部，II级在中间，III级在顶部"));
 <woot:upgradeb:13>.addTooltip(format.red("Woot升级是逐级添加的，I级放置在底部，II级在中间，III级在顶部"));
 <woot:upgradeb:14>.addTooltip(format.red("Woot升级是逐级添加的，I级放置在底部，II级在中间，III级在顶部"));
+
+<woot:cell:*>.addTooltip(format.red("警告：不要与通量接出点直接连接，会出现断连问题，使用导管作为中介"));
+
 
 <nuclearcraft:rad_shielding:0>.addTooltip(format.red("有时会出现合成产物显示不正确的视觉bug，但配方仍然是有效的"));
 <nuclearcraft:rad_shielding:1>.addTooltip(format.red("有时会出现合成产物显示不正确的视觉bug，但配方仍然是有效的"));
@@ -1053,17 +1057,17 @@
 <contenttweaker:first_recursive_lock>.addTooltip(format.red("感谢Foucs添加的递归锁纹理！"));
 <contenttweaker:fifth_recursive_lock>.addTooltip(format.red("感谢Foucs添加的递归锁纹理！"));
 
-<contenttweaker:lelyetian_artifact>.addTooltip(format.red("感谢Gebcrafter绘制的神器和界石纹理！"));
-<aoa3:lelyetia_realmstone>.addTooltip(format.red("感谢Gebcrafter绘制的神器和界石纹理！"));
+<contenttweaker:lelyetian_artifact>.addTooltip(format.red("感谢Gebcrafter绘制的工件和界石纹理！"));
+<aoa3:lelyetia_realmstone>.addTooltip(format.red("感谢Gebcrafter绘制的工件和界石纹理！"));
 
-<contenttweaker:iromine_artifact>.addTooltip(format.red("感谢Gebcrafter绘制的神器和界石纹理！"));
-<aoa3:iromine_realmstone>.addTooltip(format.red("感谢Gebcrafter绘制的神器和界石纹理！"));
+<contenttweaker:iromine_artifact>.addTooltip(format.red("感谢Gebcrafter绘制的工件和界石纹理！"));
+<aoa3:iromine_realmstone>.addTooltip(format.red("感谢Gebcrafter绘制的工件和界石纹理！"));
 
-<contenttweaker:runandor_artifact>.addTooltip(format.red("感谢Gebcrafter绘制的神器和界石纹理！"));
-<aoa3:runandor_realmstone>.addTooltip(format.red("感谢Gebcrafter绘制的神器和界石纹理！"));
+<contenttweaker:runandor_artifact>.addTooltip(format.red("感谢Gebcrafter绘制的工件和界石纹理！"));
+<aoa3:runandor_realmstone>.addTooltip(format.red("感谢Gebcrafter绘制的工件和界石纹理！"));
 
-<contenttweaker:immortallis_artifact>.addTooltip(format.red("感谢Gebcrafter绘制的神器和界石纹理！"));
-<aoa3:immortallis_realmstone>.addTooltip(format.red("感谢Gebcrafter绘制的神器和界石纹理！"));
+<contenttweaker:immortallis_artifact>.addTooltip(format.red("感谢Gebcrafter绘制的工件和界石纹理！"));
+<aoa3:immortallis_realmstone>.addTooltip(format.red("感谢Gebcrafter绘制的工件和界石纹理！"));
 
 <ore:ingotConstantan>.addTooltip(format.aqua("合金比例：1铜1镍"));
 <ore:ingotSteel>.addTooltip(format.aqua("合金比例：1铁4煤"));
@@ -1183,7 +1187,7 @@
 
 <thaumcraft:stabilizer>.addTooltip(format.red("注魔稳定物（会产生一定量咒波）：查看JEI信息框以获得推荐配置"));
 
-<projecte:item.pe_rm_morning_star>.addTooltip(format.red("警告：不要使用该物品破坏容器"));
+<projecte:item.pe_rm_morning_star>.addTooltip(format.red("警告：不要使用该物品破坏机器或容器"));
 
 <thaumicenergistics:essentia_import>.addTooltip(format.red("Vamael掌握着禁忌的知识"));
 
@@ -1337,6 +1341,7 @@
 <extrabotany:lens:4>.addTooltip(format.red("与烧瓶结合，脉冲在触碰到生物时候会产生对应药水效果的药水云"));
 <extrabotany:lens:5>.addTooltip(format.red("魔力脉冲会持续跟踪最近的生物"));
 <extrabotany:lens:6>.addTooltip(format.red("极大提升脉冲携带的魔力量，造成大量伤害"));
+<extrabotany:lens:6>.addTooltip(format.red("脉冲携带的魔力量x8，脉冲移动速度x1.5，但魔力流失前的等待时间x0.8，魔力流失速度x16"));
 
 <animus:sigil_chains>.addTooltip(format.red("捕捉生物，包括某些Boss"));
 <animus:sigil_transposition>.addTooltip(format.red("改变方块位置"));
@@ -1392,9 +1397,18 @@
 
 <forestry:pollen_fertile>.addTooltip(format.red("使用花粉收集装备右击杂交种的树叶"));
 
-<contenttweaker:ichorium_catalyst>.addTooltip(format.red("要将元动虹吸器与神洗圣泉正确对接，小多方块结构的对角线位应该与大多方块结构相交"));
-<modularmachinery:blockimpetusprovideroutput>.addTooltip(format.red("要将元动虹吸器与神洗圣泉正确对接，小多方块结构的对角线位应该与大多方块结构相交"));
-<modularmachinery:blockimpetusproviderinput>.addTooltip(format.red("要将元动虹吸器与神洗圣泉正确对接，小多方块结构的对角线位应该与大多方块结构相交"));
+<contenttweaker:ichorium_catalyst>.addTooltip(format.red("要将元动虹吸器与神洗圣泉正确对接，小多方块结构的对角线部位应该与大多方块结构相交"));
+
+<modularmachinery:blockimpetusprovideroutput>.addTooltip(format.red("使用元动谐振器来传输元动能量"));
+<modularmachinery:blockimpetusproviderinput>.addTooltip(format.red("使用元动谐振器来传输元动能量"));
+
+<modularmachinery:blockimpetusprovideroutput>.addTooltip(format.red("如何将元动虹吸器与神洗圣泉正确对接："));
+<modularmachinery:blockimpetusprovideroutput>.addTooltip(format.red("虹吸器对角线部分的末端有一个“缺失”的方块"));
+<modularmachinery:blockimpetusprovideroutput>.addTooltip(format.red("该方块对应神洗圣泉中的4个虚空金属块"));
+
+<modularmachinery:blockimpetusproviderinput>.addTooltip(format.red("如何将元动虹吸器与神洗圣泉正确对接："));
+<modularmachinery:blockimpetusproviderinput>.addTooltip(format.red("虹吸器对角线部分的末端有一个“缺失”的方块"));
+<modularmachinery:blockimpetusproviderinput>.addTooltip(format.red("该方块对应神洗圣泉中的4个虚空金属块"));
 
 <extrabotany:supercrown>.addTooltip(format.red("根据装备的昴星团战斗女仆装备和星空歌姬装备数量提供伤害减免"));
 
@@ -1466,7 +1480,7 @@
 
 <ore:ingotFractalliteHalite>.addTooltip(format.red("首批制作出该物品的名单："));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Hunter3216 & Glance_ (团队)"));
-<ore:ingotFractalliteHalite>.addTooltip(format.red("lSllowl & HollowPeet (团队) (旧版配方)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("lSllowl & HollowPeet (团队)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Akeianova, TaterBlight (团队)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Ԍrzegorz Technologicznowiczewski AKA MegaLegoTom (单人)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Yunis & ryuu (团队)"));
@@ -1474,6 +1488,14 @@
 <ore:ingotFractalliteHalite>.addTooltip(format.red("NickZumb & YtMcSkt (团队) (自动化挑战)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Erbus (单人)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Light, Mech1456 & creeperkid091 (团队)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("Snuttig (单人) (#无EMC挑战)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("PocketSkeleton (单人)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("Chaika_In_Paanic & rfhb21 (团队)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("okay (单人)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("IridiumSky, maxwell_lt, Darkally (团队)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("Origami10004, Lumamaster, Kafuruu (团队)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("MrRepside (单人)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("hael (单人)"));
 
 <contenttweaker:terrestrial_animator_0>.addTooltip(format.red("可被使用者使用"));
 <contenttweaker:terrestrial_animator_1>.addTooltip(format.red("可被使用者使用"));
@@ -1667,7 +1689,7 @@
 
 <contenttweaker:skelebone_fragment>.addTooltip(format.red("Light喜欢均等消耗物品！"));
 
-<testdummy:dummy>.addTooltip(format.red("警告：不要为试验假人穿戴盔甲，会导致bug"));
+<testdummy2:dummy>.addTooltip(format.red("警告：不要为试验假人穿戴盔甲，会导致bug"));
 
 <contenttweaker:star_of_betrayal>.addTooltip(format.red("感谢Vamael搞清楚了护盾属性！"));
 
@@ -1744,17 +1766,19 @@
 <contenttweaker:omothol_containment_stone>.addTooltip(format.red("多方块升级，PE失能器：输出x5"));
 <contenttweaker:nightmare_block>.addTooltip(format.red("多方块升级，等离子控制器：输出x400"));
 <divinerpg:eden_planks>.addTooltip(format.red("多方块升级，镀层木工机：速度x10"));
+<divinerpg:eden_planks>.addTooltip(format.red("多方块升级，镀层热电子加工台：速度x10"));
 <contenttweaker:stone_of_the_wizard>.addTooltip(format.red("多方块升级，感知凝结器：输出x8"));
 <thebetweenlands:pearl_block>.addTooltip(format.red("多方块升级，无害化牺牲及探究：速度x10"));
 <contenttweaker:gallifreyan_irradiator>.addTooltip(format.red("多方块升级，两相裂变堆：速度x10"));
 <abyssalcraft:ethaxiumbrick:2>.addTooltip(format.red("多方块升级，英玫之门：速度x5"));
 <contenttweaker:elemental_harmonizer>.addTooltip(format.red("多方块升级，巫术组合台：速度x20"));
+<tardis:toyota_hexagon_4>.addTooltip(format.red("多方块升级，神话开掘反应堆：速度x20"));
 
 
 <thebetweenlands:lurker_skin_pouch>.addTooltip(format.red("该物品可以将物品带进梦魇世界（好耶！）"));
 <thebetweenlands:lurker_skin_pouch>.addTooltip(format.red("把宝贝东西放进这个袋子里"));
-<thebetweenlands:lurker_skin_pouch>.addTooltip(format.red("按“-”键装备袋子"));
-<thebetweenlands:lurker_skin_pouch>.addTooltip(format.red("这样就可以随时按“'”键打开袋子了"));
+<thebetweenlands:lurker_skin_pouch>.addTooltip(format.red("按'-'键装备袋子"));
+<thebetweenlands:lurker_skin_pouch>.addTooltip(format.red("这样就可以随时按'''键打开袋子了"));
 
 <modularmachinery:safe_fission_leu235_controller>.addTooltip(format.red("Aedial太在乎反应堆速度了！"));
 
@@ -1763,7 +1787,7 @@
 <forestry:portable_alyzer>.addTooltip(format.red("为每种蜜蜂添加了特性信息显示"));
 
 <forestry:portable_alyzer>.addTooltip(format.red("感谢koos撰写的蜜蜂特性信息！"));
-<forestry:portable_alyzer>.addTooltip(format.red("感谢kurrykat编写的脚本！"));
+<forestry:portable_alyzer>.addTooltip(format.red("感谢kurrycat编写的脚本！"));
 <forestry:portable_alyzer>.addTooltip(format.red("感谢Vamael的点子！"));
 
 
@@ -1771,17 +1795,17 @@
 <forestry:bee_queen_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "careerbees.acceleration", UID0: "careerbees.acceleration", Slot: 0 as byte}]}}).addTooltip(format.red("感谢koos撰写的蜜蜂特性信息！"));
 <forestry:bee_drone_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "careerbees.acceleration", UID0: "careerbees.acceleration", Slot: 0 as byte}]}}).addTooltip(format.red("感谢koos撰写的蜜蜂特性信息！"));
 
-<forestry:bee_princess_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "careerbees.acceleration", UID0: "careerbees.acceleration", Slot: 0 as byte}]}}).addTooltip(format.red("感谢kurrykat编写的脚本！"));
-<forestry:bee_queen_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "careerbees.acceleration", UID0: "careerbees.acceleration", Slot: 0 as byte}]}}).addTooltip(format.red("感谢kurrykat编写的脚本！"));
-<forestry:bee_drone_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "careerbees.acceleration", UID0: "careerbees.acceleration", Slot: 0 as byte}]}}).addTooltip(format.red("感谢kurrykat编写的脚本！"));
+<forestry:bee_princess_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "careerbees.acceleration", UID0: "careerbees.acceleration", Slot: 0 as byte}]}}).addTooltip(format.red("感谢kurrycat编写的脚本！"));
+<forestry:bee_queen_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "careerbees.acceleration", UID0: "careerbees.acceleration", Slot: 0 as byte}]}}).addTooltip(format.red("感谢kurrycat编写的脚本！"));
+<forestry:bee_drone_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "careerbees.acceleration", UID0: "careerbees.acceleration", Slot: 0 as byte}]}}).addTooltip(format.red("感谢kurrycat编写的脚本！"));
 
 <forestry:bee_princess_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Agricultural", UID0: "gendustry.bee.Agricultural", Slot: 0 as byte}]}}).addTooltip(format.red("感谢koos撰写的蜜蜂特性信息！"));
 <forestry:bee_queen_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Agricultural", UID0: "gendustry.bee.Agricultural", Slot: 0 as byte}]}}).addTooltip(format.red("感谢koos撰写的蜜蜂特性信息！"));
 <forestry:bee_drone_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Agricultural", UID0: "gendustry.bee.Agricultural", Slot: 0 as byte}]}}).addTooltip(format.red("感谢koos撰写的蜜蜂特性信息！"));
 
-<forestry:bee_princess_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Agricultural", UID0: "gendustry.bee.Agricultural", Slot: 0 as byte}]}}).addTooltip(format.red("感谢kurrykat编写的脚本！"));
-<forestry:bee_queen_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Agricultural", UID0: "gendustry.bee.Agricultural", Slot: 0 as byte}]}}).addTooltip(format.red("感谢kurrykat编写的脚本！"));
-<forestry:bee_drone_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Agricultural", UID0: "gendustry.bee.Agricultural", Slot: 0 as byte}]}}).addTooltip(format.red("感谢kurrykat编写的脚本！"));
+<forestry:bee_princess_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Agricultural", UID0: "gendustry.bee.Agricultural", Slot: 0 as byte}]}}).addTooltip(format.red("感谢kurrycat编写的脚本！"));
+<forestry:bee_queen_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Agricultural", UID0: "gendustry.bee.Agricultural", Slot: 0 as byte}]}}).addTooltip(format.red("感谢kurrycat编写的脚本！"));
+<forestry:bee_drone_ge:0>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Agricultural", UID0: "gendustry.bee.Agricultural", Slot: 0 as byte}]}}).addTooltip(format.red("感谢kurrycat编写的脚本！"));
 
 <bewitchment:dimensional_sand>.addTooltip(format.red("Lord_Chaos想要更多维度！我觉得可以！！"));
 
@@ -1817,10 +1841,6 @@
 
 <botania:alfheimportal>.addTooltip(format.red("警告：不要不间断往传送门内投掷物品，可能会导致极大卡顿"));
 
-<contenttweaker:mythic_coil_t1>.addTooltip(format.red("警告：若想使用神话处理器进行自动化，请使用ME机械输出总线 :)"));
-<contenttweaker:mythic_coil_t2>.addTooltip(format.red("警告：若想使用神话处理器进行自动化，请使用ME机械输出总线 :)"));
-<contenttweaker:mythic_coil_t3>.addTooltip(format.red("警告：若想使用神话处理器进行自动化，请使用ME机械输出总线 :)"));
-
 <contenttweaker:icy_dreadful_shard>.addTooltip(format.red("感谢NerdySpider重绘的碎片纹理！"));
 <contenttweaker:promethium_shard>.addTooltip(format.red("感谢NerdySpider重绘的碎片纹理！"));
 <contenttweaker:warren_shard_gardencia>.addTooltip(format.red("感谢NerdySpider重绘的碎片纹理！"));
@@ -1829,6 +1849,10 @@
 
 <contenttweaker:warren_rift>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:essence_of_the_mythic_shells>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:helpful_tippy_hat>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:diary_of_a_realmshifter>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:true_chaos>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:multiblock_sticc>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 
 <contenttweaker:fragment_of_creation>.addTooltip(format.red("感谢NerdySpider为裂影界之光系列物品绘制的纹理！"));
 <contenttweaker:light_of_shadesmar>.addTooltip(format.red("感谢NerdySpider为裂影界之光系列物品绘制的纹理！"));
@@ -1872,7 +1896,7 @@
 
 <divinerpg:dark_dream_bricks>.addTooltip(format.red("PocketSkeleton有些困惑"));
 
-<gendustry:honey_comb:14027>.addTooltip(format.red("与Light有关"));
+<gendustry:honey_comb:14027>.addTooltip(format.red("感谢Light"));
 
 <gendustry:honey_comb:14028>.addTooltip(format.red("我觉得Fieno会喜欢的"));
 
@@ -1891,6 +1915,7 @@
 
 <xreliquary:infernal_tear>.addTooltip(format.red("消耗物品栏中的炭、铁、青金石、金和钻石获得经验"));
 <xreliquary:infernal_tear>.addTooltip(format.red("Shift右击以激活，重复该操作以绑定物品"));
+<xreliquary:infernal_tear>.addTooltip(format.red("感谢ChaotkKiller整理的产率"));
 
 <divinerpg:dark_dream_bricks>.addTooltip(format.red("从梦魇世界的饥饿者处获得"));
 <divinerpg:light_dream_bricks>.addTooltip(format.red("从梦魇世界的饥饿者处获得"));
@@ -1982,3 +2007,212 @@
 
 <bloodarsenal:glass_dagger_of_sacrifice>.addTooltip(format.red("ChaossStrikez又一次拯救了这个包！"));
 <bloodarsenal:glass_dagger_of_sacrifice>.addTooltip(format.red("感谢Daughter of Myx的debug工作！"));
+
+<contenttweaker:forclient_setgamerules>.addTooltip(format.red("使用该物品右击来关闭聊天栏中的命令方块输出信息以及死亡信息"));
+<contenttweaker:forclient_setgamerules>.addTooltip(format.red("推荐使用，因为流程地牢中使用了大量的命令方块以及重命名的生物"));
+
+<contenttweaker:tainted_sentient_meatball>.addTooltip(format.red("感谢Water"));
+
+<contenttweaker:recursion_of_worthiness>.addTooltip(format.red("Reclipse有个点子……"));
+
+<contenttweaker:all_seeing_sentient_meatball>.addTooltip(format.red("发现于失落的城市"));
+
+<contenttweaker:possessed_sky_stone>.addTooltip(format.red("发现于失落的城市"));
+
+<contenttweaker:eldunari>.addTooltip(format.green("可重复使用"));
+
+<contenttweaker:mark_of_sacrifice>.addTooltip(format.red("需要肉丸人之真名以解锁合成"));
+
+<contenttweaker:true_name_meatball_man>.addTooltip(format.red("世界可能会变得更加奇异"));
+
+<contenttweaker:multiblock_sticc>.addTooltip(format.red("右击彩色控制器以自动构建指定的模块化机器"));
+<contenttweaker:multiblock_sticc>.addTooltip(format.red("自动放置的流体必须来自储罐，桶不作数"));
+
+<contenttweaker:returning_point>.addTooltip(format.red("从这个阶段开始，整套无限耐久的盔甲会非常不错"));
+<contenttweaker:returning_point>.addTooltip(format.red("但如果你愿意等，也可以等到无尽套"));
+
+<contenttweaker:summons_of_the_meatball_titan>.addTooltip(format.red("警告：召唤出的Boss只能用鬼哭造成伤害"));
+
+<contenttweaker:shield_of_the_flesh_world>.addTooltip(format.red("Boss战召唤石的一部分"));
+
+<contenttweaker:shield_of_the_meatball_man>.addTooltip(format.red("Boss战召唤石的一部分"));
+
+<contenttweaker:staff_of_the_lord_of_gluttony>.addTooltip(format.green("可重复使用"));
+
+<extrabotany:bottledflame>.addTooltip(format.red("未携带火把时，会发出烦人的声音"));
+
+<contenttweaker:meteoric_draconic_stone>.addTooltip(format.red("通过在坠星标位仪式中使用龙之法器作为祭品获得"));
+
+<contenttweaker:draconic_fabrial>.addTooltip(format.red("坠星标位祭品，消耗50000LP"));
+<contenttweaker:draconic_fabrial>.addTooltip(format.red("videojamiemostlikely有个点子"));
+
+<buildcraftsilicon:laser>.addTooltip(format.red("面向装配台来为其供能"));
+<buildcraftsilicon:laser>.addTooltip(format.red("使用末影接口模组的能量导管连接，热力的能量管道经常会断连！"));
+
+<contenttweaker:singular_gravity_honey>.addTooltip(format.red("Light想腾出点背包空间！"));
+
+<aoa3:distorting_artifact>.addTooltip(format.red("消除赫尔维蒂维度中的重力影响"));
+
+<aoa3:hazmat_boots>.addTooltip(format.red("免疫未知维度的毒气伤害"));
+<aoa3:hazmat_legs>.addTooltip(format.red("免疫未知维度的毒气伤害"));
+<aoa3:hazmat_chestplate>.addTooltip(format.red("免疫未知维度的毒气伤害"));
+<aoa3:hazmat_helmet>.addTooltip(format.red("免疫未知维度的毒气伤害"));
+
+
+<ebwizardry:master_sorcery_wand>.addTooltip(format.red("与位于****的巫师交易时，使用贸易交换机或用巫术大师催化剂右击来获得正确的NBT"));
+<ebwizardry:master_earth_wand>.addTooltip(format.red("与位于****的巫师交易时，使用贸易交换机或用巫术大师催化剂右击来获得正确的NBT"));
+<ebwizardry:master_fire_wand>.addTooltip(format.red("与位于****的巫师交易时，使用贸易交换机或用巫术大师催化剂右击来获得正确的NBT"));
+<ebwizardry:master_ice_wand>.addTooltip(format.red("与位于****的巫师交易时，使用贸易交换机或用巫术大师催化剂右击来获得正确的NBT"));
+<ebwizardry:master_healing_wand>.addTooltip(format.red("与位于****的巫师交易时，使用贸易交换机或用巫术大师催化剂右击来获得正确的NBT"));
+<ebwizardry:master_necromancy_wand>.addTooltip(format.red("与位于****的巫师交易时，使用贸易交换机或用巫术大师催化剂右击来获得正确的NBT"));
+<ebwizardry:master_lightning_wand>.addTooltip(format.red("与位于****的巫师交易时，使用贸易交换机或用巫术大师催化剂右击来获得正确的NBT"));
+<ebwizardry:master_wand>.addTooltip(format.red("与位于****的巫师交易时，使用贸易交换机或用巫术大师催化剂右击来获得正确的NBT"));
+
+<contenttweaker:ancient_decrystallizer>.addTooltip(format.red("在远古神殿维度中，右击以破坏下方神秘时代模组的魔力结晶"));
+
+<extrautils2:biomemarker>.addTooltip(format.red("在想要的生物群系中，使用该物品右击即可记录（装备有手提包时可能不起效）"));
+<extrautils2:biomemarker>.addTooltip(format.red("警告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
+
+<contenttweaker:myrmitite_casing>.addTooltip(format.red("丛林棘背兽：主世界丛林"));
+<contenttweaker:myrmitite_casing>.addTooltip(format.red("死亡棘背兽：秘界地牢"));
+<contenttweaker:myrmitite_casing>.addTooltip(format.red("伊甸独角兽：伊甸"));
+<contenttweaker:myrmitite_casing>.addTooltip(format.red("腐化棘背兽：主世界Y=50以下"));
+
+<contenttweaker:etbu_fuel>.addTooltip(format.aqua("基础持续时间：120 min"));
+<contenttweaker:etbu_fuel>.addTooltip(format.aqua("基础能量：400 RF/t"));
+<contenttweaker:etbu_fuel>.addTooltip(format.aqua("基础产热：18 H/t"));
+
+<contenttweaker:emox_239_fuel>.addTooltip(format.aqua("基础持续时间：70 min"));
+<contenttweaker:emox_239_fuel>.addTooltip(format.aqua("基础能量：1000 RF/t"));
+<contenttweaker:emox_239_fuel>.addTooltip(format.aqua("基础产热：57.5 H/t"));
+
+<contenttweaker:emox_241_fuel>.addTooltip(format.aqua("基础持续时间：46.67 min"));
+<contenttweaker:emox_241_fuel>.addTooltip(format.aqua("基础能量：1500 RF/t"));
+<contenttweaker:emox_241_fuel>.addTooltip(format.aqua("基础产热：97.5 H/t"));
+
+<ore:ingotPrimalOgerite>.addTooltip(format.red("力量符文不会消耗"));
+
+<randomthings:eclipsedclock>.addTooltip(format.red("挂在墙上后，对其使用时间之瓶来加速日夜循环"));
+
+<enchlib:enchantment_library>.addTooltip(format.red("以更便捷的方式存储附魔书"));
+<enchlib:enchantment_library>.addTooltip(format.red("兼容存储总线 ;)"));
+<enchlib:enchantment_library>.addTooltip(format.red("Kurrycat真是个天才！"));
+
+<erebus:materials:18>.addTooltip(format.red("混沌之地的螳螂掉落"));
+
+<astralsorcery:blockattunementaltar>.addTooltip(format.red("警告：不要与游戏刻加速手段共用"));
+
+<itemblacklist:blacklisted>.addTooltip(format.red("警告：有时卡在方块状态，将其放入工作台来解除"));
+
+<contenttweaker:ancient_wyvern_trinket>.addTooltip(format.red("右击传送到远古飞龙神殿所在地"));
+
+<advancedrocketry:stationbuilder>.addTooltip(format.red("警告：若不再出现下雨天气，很可能是因为空间站或自定义维度处于区块加载状态"));
+
+<contenttweaker:rhenia_warper>.addTooltip(format.red("警告：若不再出现下雨天气，很可能是因为空间站或自定义维度处于区块加载状态"));
+
+<contenttweaker:lyndenwyrm_warper>.addTooltip(format.red("警告：若不再出现下雨天气，很可能是因为空间站或自定义维度处于区块加载状态"));
+
+<rftoolsdim:material_absorber>.addTooltip(format.red("需要天地宝晶版本的苍穹变换器，其可重复使用"));
+<rftoolsdim:liquid_absorber>.addTooltip(format.red("需要天地宝晶版本的苍穹变换器，其可重复使用"));
+<rftoolsdim:biome_absorber>.addTooltip(format.red("需要天地宝晶版本的苍穹变换器，其可重复使用"));
+<rftoolsdim:terrain_absorber>.addTooltip(format.red("需要天地宝晶版本的苍穹变换器，其可重复使用"));
+<rftoolsdim:feature_absorber>.addTooltip(format.red("需要天地宝晶版本的苍穹变换器，其可重复使用"));
+<rftoolsdim:time_absorber>.addTooltip(format.red("需要天地宝晶版本的苍穹变换器，其可重复使用"));
+
+<rftoolsdim:dimension_builder>.addTooltip(format.red("无法在卡尚维度中放置"));
+<rftoolsdim:dimension_enscriber>.addTooltip(format.red("无法在卡尚维度中放置"));
+<rftoolsdim:dimlet_workbench>.addTooltip(format.red("无法在卡尚维度中放置"));
+
+<contenttweaker:fiery_pyrite>.addTooltip(format.red("也可通过使用对应维度的尖晶石作为祭品的坠星位标仪式获得，适用于#无EMC挑战"));
+
+<contenttweaker:helpful_tippy_hat>.addTooltip(format.red("本包的许多设计都与众不同……"));
+<contenttweaker:helpful_tippy_hat>.addTooltip(format.red("请仔细阅读任务书和信息框中的内容！"));
+<contenttweaker:helpful_tippy_hat>.addTooltip(format.red("对，老手也不例外！"));
+
+<contenttweaker:ritual_of_the_sleeper>.addTooltip(format.red("这些结构空位仅用于展示JEI配方中的空位，请忽略"));
+
+<packagedauto:recipe_holder>.addTooltip(format.red("警告：不要放入背包，可能导致数据损坏"));
+
+<ae2exttable:basic_crafting_terminal>.addTooltip(format.red("感谢0xC4DE的工作！"));
+<ae2exttable:advanced_crafting_terminal>.addTooltip(format.red("感谢0xC4DE的工作！"));
+<ae2exttable:elite_crafting_terminal>.addTooltip(format.red("感谢0xC4DE的工作！"));
+<ae2exttable:ultimate_crafting_terminal>.addTooltip(format.red("感谢0xC4DE的工作！"));
+
+<contenttweaker:ritual_culling>.addTooltip(format.red("对以下生物无效："));
+<contenttweaker:ritual_culling>.addTooltip(format.red("需要狩猎等级的生物"));
+<contenttweaker:ritual_culling>.addTooltip(format.red("Boss"));
+<contenttweaker:ritual_culling>.addTooltip(format.red("用于自定义地牢的生物（尤其是僵尸）"));
+
+<advancedrocketry:warpmonitor>.addTooltip(format.red("警告：不要将非工件物品放入工件栏位，机器可能会出错"));
+
+<fluxnetworks:flux>.addTooltip(format.red("警告：不要放入Dank，可能会出错"));
+
+<contenttweaker:possessed_sky_stone>.addTooltip(format.red("要是有咒法主宰能命令（Order）我就好了……"));
+
+<contenttweaker:freed_sky_stone>.addTooltip(format.red("只有咒法主宰才能获得！"));
+
+<draconicevolution:fusion_crafting_core>.addTooltip(format.red("警告：不要对其使用超级消音器，会造成卡顿"));
+
+<bewitchment:bottled_hellfire>.addTooltip(format.red("警告：若蒸馏塔只有一个可用输出栏位，合成该物品会导致崩溃"));
+
+<contenttweaker:sword_shield>.addTooltip(format.red("使用循环装配台实现复制配方的自动化"));
+
+<contenttweaker:diary_of_a_realmshifter>.addTooltip(format.red("由于原版1.12的一个bug，"));
+<contenttweaker:diary_of_a_realmshifter>.addTooltip(format.red("过于频繁地切换维度会引发内存泄漏（游戏会卡死几秒）"));
+<contenttweaker:diary_of_a_realmshifter>.addTooltip(format.red("要避免该情况，每次切换维度时等待30秒"));
+
+
+<threng:machine:4>.addTooltip(format.red("注意：若存在于AE2主网络中，仍可能造成卡顿"));
+<threng:machine:4>.addTooltip(format.red("但在某些子网设置中依旧很实用"));
+<threng:machine:4>.addTooltip(format.red("感谢kurrycat对其性能的优化"));
+
+<ae2fc:fluid_level_maintainer>.addTooltip(format.red("注意：若存在于AE2主网络中，仍可能造成卡顿"));
+<ae2fc:fluid_level_maintainer>.addTooltip(format.red("但在某些子网设置中依旧很实用"));
+<ae2fc:fluid_level_maintainer>.addTooltip(format.red("感谢kurrycat对其性能的优化"));
+
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("跃迁器"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("站在JEI中显示的结构中心来激活"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("警告：若世界是在beta-0.15版本之前创建的，你需要手动生成维度"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("关闭整合包，备份存档"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("从config > advRocketry文件夹中复制'plantDefs.xml'文件到saves > worldname > advRocketry"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("打开整合包，重新使用该物品"));
+
+<contenttweaker:lucky_box_aether_bronze>.addTooltip(format.red("感谢UselessForce绘制的幸运盒子纹理"));
+<contenttweaker:lucky_box_twilight_weapons>.addTooltip(format.red("感谢UselessForce绘制的幸运盒子纹理"));
+
+<contenttweaker:cleansing_callstone>.addTooltip(format.red("bwuh提醒你该洗澡了！"));
+
+<contenttweaker:skeletal_callstone>.addTooltip(format.red("感谢bwuh和DrMirrus为召唤石添加的维度信息提示！"));
+<contenttweaker:fluix_callstone>.addTooltip(format.red("感谢bwuh和DrMirrus为召唤石添加的维度信息提示！"));
+<contenttweaker:betweenlands_callstone_0>.addTooltip(format.red("感谢bwuh和DrMirrus为召唤石添加的维度信息提示！"));
+
+<contenttweaker:construct_of_will>.addTooltip(format.red("感谢Darkromano绘制的纹理！"));
+
+<randomthings:basicredstoneinterface>.addTooltip(format.red("警告：非常卡顿，没必要使用"));
+<randomthings:advancedredstoneinterface>.addTooltip(format.red("警告：非常卡顿，没必要使用"));
+
+<storagedrawers:upgrade_creative>.addTooltip(format.red("警告：使用其升级抽屉后不要取出"));
+
+<contenttweaker:condensed_essence>.addTooltip(format.red("感谢osto添加的Shift+右击选项！"));
+
+<contenttweaker:alchemical_particle>.addTooltip(format.red("可使用ME机械输入总线在多方块中合成"));
+
+<tconstruct:large_sword_blade>.withTag({Material: "dragonsteel_lightning"}).addTooltip(format.red("AshThaMoth对匠魂盔甲的移除十分遗憾"));
+
+<opeq:stabilization_tape>.addTooltip(format.red("与选定物品合成，以防止其被放入转化桌"));
+<opeq:stabilization_tape>.addTooltip(format.red("注意：若稳定化了过多物品，会造成卡顿"));
+<opeq:stabilization_tape>.addTooltip(format.red("使用剪刀来去稳定化"));
+
+<contenttweaker:mythic_coil_t1>.addTooltip(format.red("对于神话处理器，ME机械输出总线是输出产物最快的方式"));
+<contenttweaker:draconium_electromagnet>.addTooltip(format.red("对于神话处理器，ME机械输出总线是输出产物最快的方式"));
+<contenttweaker:awakened_electromagnet>.addTooltip(format.red("对于神话处理器，ME机械输出总线是输出产物最快的方式"));
+
+
+
+
+
+
+
+
+
+

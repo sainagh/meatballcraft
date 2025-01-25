@@ -48,6 +48,10 @@
         "4:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:lucky_box_twilight_weapons"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:lucky_box_advent_armor"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "At the energy state of dense plasma, it is possible to increase the potential of the fluid through electron irradiation!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -19,7 +19,6 @@
   "questID:3": 1325,
   "tasks:9": {
     "0:10": {
-      "consume:1": 0,
       "index:3": 0,
       "requiredFluids:9": {
         "0:10": {

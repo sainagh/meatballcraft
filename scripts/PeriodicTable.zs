@@ -244,7 +244,7 @@ recipes.addShaped(<contenttweaker:seaborgium_chunk>,
 
 mods.tconstruct.Melting.addRecipe(<fluid:seaborgium> * 250,<contenttweaker:seaborgium_chunk>);
 
-mods.nuclearcraft.melter.addRecipe([<contenttweaker:seaborgium_chunk>, <fluid:seaborgium>*144]);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:seaborgium_chunk>, <fluid:seaborgium>*250]);
 
 // making indium
 
@@ -406,7 +406,9 @@ mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:yttrium_oxide>*50, <fluid:r
 
 mods.nuclearcraft.crystallizer.addRecipe([<fluid:yttrium_ruthenium>*200, <contenttweaker:yttrium_ruthenium_cluster>]);
 
-AssemblyTable.addRecipe("maketerbiumfrommix", <contenttweaker:terbium_crystal>, 10, [<contenttweaker:yttrium_ruthenium_cluster>]);
+// AssemblyTable.addRecipe("maketerbiumfrommix", <contenttweaker:terbium_crystal>, 10, [<contenttweaker:yttrium_ruthenium_cluster>]);
+
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<contenttweaker:terbium_crystal>, <contenttweaker:yttrium_ruthenium_cluster>, 1000);
 
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:terbium_crystal>, <fluid:terbium>*144]);
 

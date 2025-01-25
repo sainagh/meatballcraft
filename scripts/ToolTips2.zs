@@ -24,10 +24,8 @@ import crafttweaker.item.IItemCondition;
 <modularmachinery:blockcontroller>.addTooltip(format.red("使用控制器手册后解锁配方"));
 <modularmachinery:blockcontroller>.addTooltip(format.red("无法使用AE2进行合成，请改用自动合成机（仅限递归配方）"));
 <modularmachinery:blockcontroller>.addTooltip(format.red("重要提示：最好使用机械蓝图为每台机器制作专属的控制器"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("使用木棍右击此类专属控制器可以自动搭建"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("普通控制器适用于所有机器，但会大幅增加延迟"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("警告：不要跨区块放置模块化机械"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("警告：若输入能量不足，将会丢失输入物品"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("使用多方块棒棒右击此类专属控制器可以自动搭建"));
+<modularmachinery:blockcontroller>.addTooltip(format.red("普通控制器适用于所有机器，但会大幅增加延迟，跨区块放置多方块可能会导致bug"));
 <modularmachinery:blockcontroller>.addTooltip(format.red("非常感谢Kasumi_Nova和Domi对模块化机械社区版的开发和测试！"));
 
 
@@ -352,9 +350,9 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:unfathomable_breaker>.addTooltip(format.red("某个漆黑世界里的监狱钥匙"));
 
-<techreborn:uumatter>.addTooltip(format.red("物质机产出（可用废料加速）"));
+<techreborn:uumatter>.addTooltip(format.red("物质机或物质回收机产出（可用废料加速）"));
 
-<techreborn:part:33>.addTooltip(format.red("回收机产出"));
+<techreborn:part:33>.addTooltip(format.red("回收机或物质回收机产出"));
 
 
 <contenttweaker:greater_gaia_spirit>.addTooltip(format.red("盖亚守护者 II掉落"));
@@ -415,9 +413,9 @@ import crafttweaker.item.IItemCondition;
 
 <erebus:antlion_egg>.addTooltip(format.red("混沌之地的蚁狮大领主掉落"));
 
-<dimdoors:unravelled_fabric>.addTooltip(format.red("发现于维度门内 - 使用精准采集挖掘"));
+<dimdoors:unravelled_fabric>.addTooltip(format.red("发现于灵薄狱 - 使用精准采集挖掘"));
 
-<dimdoors:fabric>.addTooltip(format.red("发现于灵薄狱 - 使用精准采集挖掘"));
+<dimdoors:fabric:*>.addTooltip(format.red("现实之壁发现于维度门内 - 使用精准采集挖掘"));
 
 <contenttweaker:demonic_crystal_cluster>.addTooltip(format.red("发现于下界天花板上的意志晶块神殿"));
 
@@ -576,8 +574,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:aeldunari>.addTooltip(format.green("在无序配方中可重复使用"));
 
-<buildcraftsilicon:laser>.addTooltip(format.red("用末影接口模组的能量导管连接！"));
-
 <techreborn:industrial_blast_furnace>.addTooltip(format.red("3x4x3的中空立方体，机器在最底层中间"));
 <techreborn:industrial_blast_furnace>.addTooltip(format.red("可进行以下操作以提升温度："));
 <techreborn:industrial_blast_furnace>.addTooltip(format.red("- 使用更高级别的机械外壳"));
@@ -605,8 +601,6 @@ import crafttweaker.item.IItemCondition;
 <aoa3:amphibiyte_lung>.addTooltip(format.red("发现于主世界沙滩（Beach）群系的安佛比亚洞穴"));
 
 <techreborn:fusion_control_computer>.addTooltip(format.red("可使用线圈右击控制器进行自动放置"));
-
-<erebus:stag_heart_raw>.addTooltip(format.red("鹿角甲虫刷怪蛋存在配方"));
 
 <nuclearcraft:part:2>.addTooltip(format.red("钚粉是不错的产铀来源，但是怎么获得呢？？"));
 
@@ -729,7 +723,7 @@ import crafttweaker.item.IItemCondition;
 
 <draconicevolution:tool_upgrade:11>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
 
-<contenttweaker:the_dark_star>.addTooltip(format.red("发现于高出"));
+<contenttweaker:the_dark_star>.addTooltip(format.red("发现于高处"));
 
 <contenttweaker:purity_offer>.addTooltip(format.red("由白雏菊放置"));
 
@@ -753,13 +747,13 @@ import crafttweaker.item.IItemCondition;
 
 <erebus:materials:38>.addTooltip(format.red("使用绿宝石、钻石以及黑曜石右击贡献祭坛"));
 
-<minecraft:chest>.addTooltip(format.red("感谢Sandman366在修复JEI搜索木板崩溃问题方面的帮助 ;)"));
+<minecraft:chest>.addTooltip(format.red("感谢Sandman366在修复JEI搜索木板导致崩溃的问题方面的帮助 ;)"));
 
-<ore:dustBedrock>.addTooltip(format.red("用打火石点燃基岩，或者在基岩上倒一桶烈焰之炽焱，还可使用SAG磨粉机的循环配方"));
+<ore:dustBedrock>.addTooltip(format.red("用打火石点燃基岩，或者在基岩上倒一桶烈焰之炽焱，也可使用SAG磨粉机的循环配方"));
 
 <extendedcrafting:singularity_custom:991>.addTooltip(format.red("我们喜欢Woot！"));
 
-<contenttweaker:aesir_tribute>.addTooltip(format.red("如何获得这玩意？"));
+<contenttweaker:aesir_tribute>.addTooltip(format.red("我该怎么获得这玩意？"));
 
 <bewitchment:sigil_purity>.addTooltip(format.green("（基本上）所有配方中均可重复使用"));
 
@@ -872,7 +866,7 @@ import crafttweaker.item.IItemCondition;
 
 <thermalexpansion:augment:576>.addTooltip(format.red("使用极限反应堆模组的涡轮机以获得最大收益！"));
 
-<contenttweaker:rainbow_core>.addTooltip(format.red("使用正确颜色的潜影盒，其中需装有正确颜色的羊毛，用潜影盒环绕彩虹羊毛合成"));
+<contenttweaker:rainbow_core>.addTooltip(format.red("使用正确颜色的潜影盒，其中需装有正确颜色的羊毛，用彩虹羊毛环绕潜影盒合成"));
 
 <appliedenergistics2:material:10>.addTooltip(format.red("将对应的种子泡入水中，用晶体催生器环绕（慢），或者使用晶体催生仓（快）"));
 
@@ -882,7 +876,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:shadow_steel>.addTooltip(format.red("高炉砖和焦煤可发现于主世界"));
 
-<astralsorcery:blockchalice>.addTooltip(format.red("需在同一直线并且无遮挡，与星能注入器距离需在2格以内"));
+<astralsorcery:blockchalice>.addTooltip(format.red("需与星能注入器在同一直线且其间无遮挡，距离需在2格以内"));
 
 <appliedenergistics2:quartz_growth_accelerator>.addTooltip(format.red("需要来自能源接收器的AE能量"));
 
@@ -1819,23 +1813,23 @@ import crafttweaker.item.IItemCondition;
 
 <bloodarsenal:base_item:5>.addTooltip(format.red("配方中需要使用该物品！"));
 
-<ore:ingotSednanite>.addTooltip(format.red("你做神器了吗？？"));
+<ore:ingotSednanite>.addTooltip(format.red("你做工件了吗？？"));
 
-<ore:ingotRhenium>.addTooltip(format.red("你做神器了吗？？"));
+<ore:ingotRhenium>.addTooltip(format.red("你做工件了吗？？"));
 
-<ore:ingotMyrmitite>.addTooltip(format.red("你做神器了吗？？"));
+<ore:ingotMyrmitite>.addTooltip(format.red("你做工件了吗？？"));
 
-<ore:ingotOgerite>.addTooltip(format.red("你做神器了吗？？"));
+<ore:ingotOgerite>.addTooltip(format.red("你做工件了吗？？"));
 
-<contenttweaker:unidentified_body>.addTooltip(format.red("你做神器了吗？？"));
+<contenttweaker:unidentified_body>.addTooltip(format.red("你做工件了吗？？"));
 
-<contenttweaker:recursion_darkness>.addTooltip(format.red("你做神器了吗？？"));
+<contenttweaker:recursion_darkness>.addTooltip(format.red("你做工件了吗？？"));
 
-<contenttweaker:recursion_fear>.addTooltip(format.red("你做神器了吗？？"));
+<contenttweaker:recursion_fear>.addTooltip(format.red("你做工件了吗？？"));
 
-<contenttweaker:recursion_helplessness>.addTooltip(format.red("你做神器了吗？？"));
+<contenttweaker:recursion_helplessness>.addTooltip(format.red("你做工件了吗？？"));
 
-<contenttweaker:recursion_solitude>.addTooltip(format.red("你做神器了吗？？"));
+<contenttweaker:recursion_solitude>.addTooltip(format.red("你做工件了吗？？"));
 
 <thaumicaugmentation:gauntlet:0>.addTooltip(format.red("不要放在收藏馆（Bibliocraft）模组的展示方块中"));
 
@@ -2023,8 +2017,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:myrmex_coolant_cell>.addTooltip(format.red("诅咒恐蚁金属流体桶存在配方"));
 
-<contenttweaker:singular_gravity_honey>.addTooltip(format.red("允许在第3章为止的所有维度使用创造飞行"));
-
 <contenttweaker:black_hole_honey>.addTooltip(format.red("允许在所有维度使用创造飞行"));
 
 <immersiveengineering:stone_decoration:0>.addTooltip(format.red("在基础工作台之前不需要合成，焦煤块可以在主世界找到"));
@@ -2054,6 +2046,7 @@ import crafttweaker.item.IItemCondition;
 <buildinggadgets:copypastetool>.addTooltip(format.red("按V键切换模式"));
 
 <projecte:item.pe_philosophers_stone>.addTooltip(format.red("按V键扩大范围，Shift+V缩小范围，C键打开合成方格"));
+<projecte:item.pe_philosophers_stone>.addTooltip(format.red("使用R键发射可转化生物的弹射物"));
 
 <projecte:item.pe_life_stone>.addTooltip(format.red("需要EMC才能工作，使用卡莱恩之星之类的物品供能！"));
 <projecte:item.pe_life_stone>.addTooltip(format.red("按Shift+X打开！"));
@@ -2435,7 +2428,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:energy_egg>.addTooltip(format.red("通过能量鸡召唤石获得"));
 
 <ebwizardry:crystal_silver_plating>.addTooltip(format.red("发现于战斗高塔"));
-<ebwizardry:crystal_silver_plating>.addTooltip(format.red("与Dragon of Desire有关"));
+<ebwizardry:crystal_silver_plating>.addTooltip(format.red("感谢Dragon of Desire"));
 
 
 <thermaldynamics:duct_32:0>.addTooltip(format.red("使用伺服器、检索器和过滤器来传输物品（查看对应的JEI提示以了解如何使用）"));
@@ -2719,10 +2712,9 @@ import crafttweaker.item.IItemCondition;
 <tconstruct:sharpening_kit>.addTooltip(format.red("可在工作台中修复工具"));
 
 <naturescompass:naturescompass>.addTooltip(format.red("警告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
-<extrautils2:biomemarker>.addTooltip(format.red("警告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
 <extrautils2:terraformer:1>.addTooltip(format.red("警告：不要在ME终端或奥术转化桌中合成，可能会造成崩溃"));
 
-<contenttweaker:recursive_recipes>.addTooltip(format.red("与Not Yue有关"));
+<contenttweaker:recursive_recipes>.addTooltip(format.red("感谢Not Yue"));
 
 <contenttweaker:better_glass_cutter>.addTooltip(format.green("可重复使用"));
 
@@ -3101,7 +3093,7 @@ import crafttweaker.item.IItemCondition;
 
 <aoa3:vile_stone>.addTooltip(format.red("右击未知维度的谜团祭坛，确保事先建好遮挡接住掉落物"));
 
-<aoa3:uncharged_stone>.addTooltip(format.red("右击秘境维度的谜团祭坛，确保事先建好遮挡接住掉落物"));
+<aoa3:uncharged_stone>.addTooltip(format.red("右击未知维度的谜团祭坛，确保事先建好遮挡接住掉落物"));
 
 <aoa3:pure_water_stone>.addTooltip(format.red("使用水桶右击符文宝珠"));
 

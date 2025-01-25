@@ -128,7 +128,7 @@ mods.techreborn.rollingMachine.addShaped(<chickens:spawn_egg>.withTag({ChickenTy
 [<contenttweaker:resplendent_ingot>,<minecraft:egg>,<contenttweaker:resplendent_ingot>],
 [<minecraft:coal>,<contenttweaker:resplendent_ingot>,<minecraft:coal>]]);
 
-mods.thermalexpansion.Centrifuge.addRecipe([(<bewitchment:tongue_of_dog>*12) % 20, (<bewitchment:adders_fork>*12) % 20, (<bewitchment:lizard_leg>*12) % 20, (<bewitchment:toe_of_frog>*12) % 20], <contenttweaker:abominable_egg>, null, 2000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<bewitchment:tongue_of_dog>*32) % 50, (<bewitchment:adders_fork>*32) % 50, (<bewitchment:lizard_leg>*32) % 50, (<bewitchment:toe_of_frog>*32) % 50], <contenttweaker:abominable_egg>, null, 2000);
 
 
 mods.techreborn.rollingMachine.addShaped(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:redstonechicken"}}), 

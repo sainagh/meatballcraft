@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Created from a Void Ore Miner.",
+      "desc:8": "§7§oCreated from a Void Ore Miner.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "environmentaltech:lonsdaleite_crystal"

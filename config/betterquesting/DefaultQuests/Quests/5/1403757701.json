@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    1031147864
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oDimlets are used to control the properties of the custom dimensions created using RFTools Dimensions.\n\nDimlets are either found as loot in particular RFTools Dimensions, or are crafted in a Dimlet Workbench using materials dropped by Dimlet Parcels.\n\nThere are many types of Dimlets, that allow to control biomes, liquids, materials, mobs, sky properies, structure generation, terrain type, features, time cycles, effects, weather in your custom Dimensions.\n\nIn order to progress, some specific liquids and materials are made exclusive to these dimensions.\n\nTo craft some (most) Dimlets in the Workbench, Absorbers are required. While the absorbers part of progression have their own custom recipes, the \u0027normal\u0027 ones require in-world crafting to be configured.\n\nMaterial Absorber: place 128 blocks adjacent, they will be consumed\n\nLiquid Absorber: place 128 buckets adjacent, they will be consumed\n\nBiome Absorber: place in the desired biome\n\nTerrain Absorber: place in the dimension with the desired tarrain type (end islands, nether, etc)\n\nFeature Absorber: place in the dimension with the desired feature type (ore veins, caves, etc); some features are exclusive to some custom RFTools Dimensions, so you may want to generate random ones\n\nTime Absorber: trigger with a redstone pulse at the desired time for 10 consecutive days (can be cheated with a timer and time in a bottle)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftoolsdim:dimlet_workbench"
+      },
+      "name:8": "Customizing Dimensions"
+    }
+  },
+  "questID:3": 1403757701,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:dimlet_workbench"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:material_absorber"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:liquid_absorber"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:biome_absorber"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:terrain_absorber"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:feature_absorber"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:time_absorber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

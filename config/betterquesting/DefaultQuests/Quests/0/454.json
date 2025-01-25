@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "Pixon infusion is something I do not really understand. Well, sure, there is nothing complicated to it; Pixons exist, and they can be \u0027milked\u0027 into magical essences, that produce neat enchants.\nWhat puzzles me about is why? Why would anyone want to do infusion?\nWell, just in case I discover useful applications for these essences, mythic machinery seems quite compatible with this type of magic.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:infusion_catalyst"
       },
-      "name:8": "Shyre Tech"
+      "name:8": "Shyre Infusion Tech"
     }
   },
   "questID:3": 454,

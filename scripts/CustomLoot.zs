@@ -96,7 +96,7 @@ dimdoorsdungeonroll.addItemEntry(<ebwizardry:grand_crystal>, 5);
 dimdoorsdungeonroll.addItemEntry(<projecte:item.pe_matter:1>, 2);
 dimdoorsdungeonroll.addItemEntry(<contenttweaker:strange_charm>, 3);
 dimdoorsdungeonroll.addItemEntry(<tardis:bowtie>, 1);
-dimdoorsdungeonroll.addItemEntry(<tardis:void_specs>, 1);
+// dimdoorsdungeonroll.addItemEntry(<tardis:void_specs>, 1);
 dimdoorsdungeonroll.addItemEntry(<tardis:fourth_hat>, 1);
 // dimdoorsdungeonroll.addItemEntry(<tardis:fez>, 1);
 dimdoorsdungeonroll.addItemEntry(<tardis:thirteen_coat>, 1);
@@ -532,19 +532,6 @@ val daysee = LootTweaker.getTable("aoa3:entities/mobs/gardencia/daysee");
 val dayseerosid = daysee.addPool("dayseerosid", 1, 1, 0, 0);
 dayseerosid.addItemEntry(<aoa3:rosid_root>, 15);
 
-val champions = LootTweaker.getTable("champions:champion_loot");
-val championpoolgeneral = champions.addPool("championpoolgeneral", 1, 1, 0, 0);
-championpoolgeneral.addItemEntry(<minecraft:boat>, 25);
-championpoolgeneral.addItemEntry(<minecraft:diamond_hoe>, 25);
-championpoolgeneral.addItemEntry(<aoa3:runium_chunk>, 20);
-championpoolgeneral.addItemEntry(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:slime"}}), 15);
-championpoolgeneral.addItemEntry(<projecte:item.pe_fuel:2>, 5);
-championpoolgeneral.addItemEntry(<projecte:item.pe_fuel:1>, 10);
-championpoolgeneral.addItemEntry(<projecte:item.pe_fuel:0>, 15);
-championpoolgeneral.addItemEntry(<rftools:dimensional_shard>, 15);
-// championpoolgeneral.addItemEntry(<mysticalagradditions:nether_star_essence>, 5);
-val championpoolguaranteed = champions.addPool("championpoolguaranteed", 1, 1, 0, 0);
-championpoolguaranteed.addItemEntry(<contenttweaker:champion_token>, 10);
 
 val druden = LootTweaker.getTable("bewitchment:entities/druden");
 val drudencustom = druden.addPool("drudencustom", 1, 1, 0, 0);
@@ -602,3 +589,8 @@ pinkslimeextraroll.addItemEntry(<industrialforegoing:pink_slime>, 3);
 val endertriplet = LootTweaker.getTable("divinerpg:entities/end/ender_triplets");
 val endertripletshard = endertriplet.addPool("endertripletshard", 1, 1, 0, 0);
 endertripletshard.addItemEntry(<thaumictinkerer:kamiresource:0>, 5);
+
+val lostcitiesloot = LootTweaker.getTable("lostcities:chests/lostcitychest");
+val lostcitieslootmeatball = lostcitiesloot.addPool("lostcitieslootmeatball", 2, 3, 0, 0);
+lostcitieslootmeatball.addItemEntry(<contenttweaker:sentient_meatball>, 5);
+

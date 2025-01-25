@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Start making a few...",
+      "desc:8": "§7§oIt may be a good time to start filling up a bunch of books!\n\n§fThe potential energy of the Book of the Dead, while having the capability of performing rituals touching the higher-order dimensions, exists itself in the string-theory space. \nI have not really thought about building devices or artifacts working in these higher dimensions, as I was scared of starting more conflicts against the Old Ones, but I think it may be time to experiment more with this!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:abyssalnomicon",
@@ -12,7 +12,7 @@
           "PotEnergy:5": 0.0
         }
       },
-      "name:8": "Abyssalnomicon"
+      "name:8": "More Full Abyssalmonicons!"
     }
   },
   "questID:3": 424,

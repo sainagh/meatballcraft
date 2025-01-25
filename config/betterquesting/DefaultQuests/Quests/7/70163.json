@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Found in the Nether.\nCan be dropped from \"The Watcher\", which spawns from Wildfires or in the Nether.\nThe Ore looks like a full block but it requires being smelted.\nDestroys items coming in contact of it.",
+      "desc:8": "§7§oFound in the Nether.\nCan be dropped from \"The Watcher\", which spawns from Wildfires or in the Nether.\nThe Ore looks like a full block but it requires being smelted.\nDestroys items coming in contact of it.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:netherite_ingot"

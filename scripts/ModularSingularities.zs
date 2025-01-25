@@ -184,6 +184,7 @@ val quantumcond172 = RecipeBuilder.newBuilder("quantumcond172","quantum_condense
 val quantumcond173 = RecipeBuilder.newBuilder("quantumcond173","quantum_condenser",10);	quantumcond173.addEnergyPerTickInput(500000);	quantumcond173.addItemInput(<contenttweaker:immortallis_garnet>*5056);	quantumcond173.addItemOutput(<extendedcrafting:singularity_custom:1021>);	quantumcond173.build();
 val quantumcond174 = RecipeBuilder.newBuilder("quantumcond174","quantum_condenser",10);	quantumcond174.addEnergyPerTickInput(500000);	quantumcond174.addItemInput(<contenttweaker:vethea_garnet>*5056);	quantumcond174.addItemOutput(<extendedcrafting:singularity_custom:1022>);	quantumcond174.build();
 val quantumcond175 = RecipeBuilder.newBuilder("quantumcond175","quantum_condenser",10);	quantumcond175.addEnergyPerTickInput(500000);	quantumcond175.addItemInput(<contenttweaker:shyrelands_garnet>*5056);	quantumcond175.addItemOutput(<extendedcrafting:singularity_custom:1023>);	quantumcond175.build();
+val quantumcond176 = RecipeBuilder.newBuilder("quantumcond176","quantum_condenser",10);	quantumcond176.addEnergyPerTickInput(500000);	quantumcond176.addItemInput(<minecraft:nether_star>*5056);	quantumcond176.addItemOutput(<extendedcrafting:singularity_custom:2040>);	quantumcond176.build();
 
 
 
@@ -505,3 +506,13 @@ quantumcondmotus.addEnergyPerTickInput(500000);
 quantumcondmotus.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "motus"}]})* 4096);
 quantumcondmotus.addItemOutput(<contenttweaker:motus_vis_condensate>);
 quantumcondmotus.build();
+
+
+
+
+
+val quantumcondactual = RecipeBuilder.newBuilder("quantumcondactual", "quantum_condenser", 10);
+quantumcondactual.addEnergyPerTickInput(500000);
+quantumcondactual.addItemInput(<contenttweaker:actualizing_stone>*2048);
+quantumcondactual.addItemOutput(<avaritiaitem:self_actualizing_stone>);
+quantumcondactual.build();

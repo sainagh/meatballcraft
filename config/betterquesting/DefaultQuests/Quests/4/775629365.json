@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1227
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oExposes the ENTIRETY of your AE2 network\u0027s contents to item or fluid transfer.\n\nIf not filtered, these can be quite laggy, but they can be used for subnetting.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nae2:exposer"
+      },
+      "name:8": "ME Storage Exposer"
+    }
+  },
+  "questID:3": 775629365,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nae2:exposer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

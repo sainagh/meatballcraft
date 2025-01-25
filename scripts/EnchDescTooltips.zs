@@ -121,3 +121,5 @@ import crafttweaker.text.ITextComponent;
 <contenttweaker:enchdesc_aerial_affinity>.addTooltip(format.red(ITextComponent.fromTranslation("aerialaffinity:aerial_affinity.desc").unformattedText));
 <contenttweaker:enchdesc_blessing>.addTooltip(format.red(ITextComponent.fromTranslation("tombstone:blessing.desc").unformattedText));
 <contenttweaker:enchdesc_curse_bones>.addTooltip(format.red(ITextComponent.fromTranslation("tombstone:curse_of_bones.desc").unformattedText));
+
+<contenttweaker:enchdesc_flaming_touch>.addTooltip(format.red(ITextComponent.fromTranslation("cyclicmagic:flaming_touch.desc").unformattedText));

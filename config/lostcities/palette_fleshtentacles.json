@@ -1,3 +1,0 @@
-[
-{"type": "palette", "name": "meatball_1", "palette": [{"char": "W", "blocks": [{"random": 3, "block": "contenttweaker:gluttonous_sentient_meatball"},{"random": 15, "block": "contenttweaker:tainted_sentient_meatball"},{"random": 30, "block": "contenttweaker:sentient_meatball"},{"random": 80, "block": "contenttweaker:sentient_meatball_flesh"}]}]}
-]

@@ -22811,6 +22811,98 @@
     {
       "item": "extendedcrafting:singularity|20",
       "emc": 0
+    },
+    {
+      "item": "glassential:glass_light|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:multiblock_sticc|0",
+      "emc": 1
+    },
+    {
+      "item": "forestry:thermionic_tubes|7",
+      "emc": 0
+    },
+    {
+      "item": "forestry:thermionic_tubes|8",
+      "emc": 0
+    },
+    {
+      "item": "forestry:thermionic_tubes|10",
+      "emc": 0
+    },
+    {
+      "item": "forestry:thermionic_tubes|5",
+      "emc": 0
+    },
+    {
+      "item": "forestry:thermionic_tubes|2",
+      "emc": 0
+    },
+    {
+      "item": "forestry:thermionic_tubes|9",
+      "emc": 0
+    },
+    {
+      "item": "forestry:thermionic_tubes|4",
+      "emc": 0
+    },
+    {
+      "item": "forestry:thermionic_tubes|6",
+      "emc": 0
+    },
+    {
+      "item": "forestry:thermionic_tubes|0",
+      "emc": 0
+    },
+    {
+      "item": "forestry:thermionic_tubes|12",
+      "emc": 0
+    },
+    {
+      "item": "forestry:thermionic_tubes|1",
+      "emc": 0
+    },
+    {
+      "item": "forestry:thermionic_tubes|11",
+      "emc": 0
+    },
+    {
+      "item": "forestry:thermionic_tubes|3",
+      "emc": 0
+    },
+    {
+      "item": "forestry:thermionic_tubes|13",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:eternal_nightmare|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:helpful_tippy_hat|0",
+      "emc": 2048
+    },
+    {
+      "item": "bewitchment:coquina|0",
+      "emc": 64
+    },
+    {
+      "item": "biomesoplenty:hard_ice|0",
+      "emc": 16
+    },
+    {
+      "item": "astralsorcery:blockcustomflower|0",
+      "emc": 16
+    },
+    {
+      "item": "contenttweaker:diary_of_a_realmshifter|0",
+      "emc": 2048
+    },
+    {
+      "item": "glassential:glass_redstone|0",
+      "emc": 0
     }
   ]
 }

@@ -8,7 +8,7 @@
             "x": 0,
             "y": 1,
             "z": 1,
-            "description": "Replace top middle Carminite Block for faster recipes, 5x faster",
+            "description": "替换顶部中间的砷铅铁块以使用更快的配方，速度x5",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",

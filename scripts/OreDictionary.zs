@@ -129,5 +129,25 @@ dustmanganese.remove(<nuclearcraft:dust:11>);
 val environmentallaserlens = <ore:etLaserLens>;
 environmentallaserlens.remove(<environmentaltech:laser_lens_crystal>);
 
+val oreactualizingstone = <ore:oreActualizingStone>;
+oreactualizingstone.add(<contenttweaker:actualizing_stone>);
 
 
+val orenaquadah = <ore:oreNaquadah>;
+orenaquadah.add(<contenttweaker:naquadah_ore>);
+
+
+val orefiredragonsteel = <ore:oreFireDragonsteel>;
+orefiredragonsteel.add(<contenttweaker:fire_dragonsteel_ore>);
+
+val oreicedragonsteel = <ore:oreIceDragonsteel>;
+oreicedragonsteel.add(<contenttweaker:ice_dragonsteel_ore>);
+
+val orelightningdragonsteel = <ore:oreLightningDragonsteel>;
+orelightningdragonsteel.add(<contenttweaker:lightning_dragonsteel_ore>);
+
+val oremeteoricdraconium = <ore:oreMeteoricDraconium>;
+oremeteoricdraconium.add(<contenttweaker:meteoric_draconic_stone>);
+
+val orefierypyrite = <ore:oreFieryPyrite>;
+orefierypyrite.add(<contenttweaker:fiery_pyrite>);

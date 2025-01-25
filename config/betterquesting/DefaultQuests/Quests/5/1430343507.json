@@ -1,0 +1,160 @@
+{
+  "preRequisites:11": [
+    1031147864
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oTo create custom dimensions with RFTools, you start with an Empty Dimension Tab.\n\nWhile the tab alone can create custom dimensions, it will do so at random, with cool-looking, but often useless results (you may still want to do it a few times). To start a random Dimension, place the Tab in the Dimension Enscriber, and press \u0027Store\u0027.\n\nTo control the contents of these Dimensions, you can use a Dimension Enscriber to add Dimlets to a Dimension. For more info on Dimlets, check their respective JEI info box (search \u0027custom dimlets\u0027 in JEI).\n\nTo activate the Custom Dimension, place it in a Dimension Builder. It will consume the displayed amount of energy to remain active. As long as the dimension has energy, it is accessible. You do not want to be in a dimension if it runs out of energy. Bad things will happen.\n\nTo teleport to your custom Dimension, you can use a Dialing Device to link a Matter Transmitter nearby to the desired dimension.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftoolsdim:dimension_builder"
+      },
+      "name:8": "Creating Dimensions"
+    }
+  },
+  "questID:3": 1430343507,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:empty_dimension_tab"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:dimension_enscriber",
+          "tag:10": {
+            "Items:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {},
+              "5:10": {},
+              "6:10": {},
+              "7:10": {},
+              "8:10": {},
+              "9:10": {},
+              "10:10": {},
+              "11:10": {},
+              "12:10": {},
+              "13:10": {},
+              "14:10": {},
+              "15:10": {},
+              "16:10": {},
+              "17:10": {},
+              "18:10": {},
+              "19:10": {},
+              "20:10": {},
+              "21:10": {},
+              "22:10": {},
+              "23:10": {},
+              "24:10": {},
+              "25:10": {},
+              "26:10": {},
+              "27:10": {},
+              "28:10": {},
+              "29:10": {},
+              "30:10": {},
+              "31:10": {},
+              "32:10": {},
+              "33:10": {},
+              "34:10": {},
+              "35:10": {},
+              "36:10": {},
+              "37:10": {},
+              "38:10": {},
+              "39:10": {},
+              "40:10": {},
+              "41:10": {},
+              "42:10": {},
+              "43:10": {},
+              "44:10": {},
+              "45:10": {},
+              "46:10": {},
+              "47:10": {},
+              "48:10": {},
+              "49:10": {},
+              "50:10": {},
+              "51:10": {},
+              "52:10": {},
+              "53:10": {},
+              "54:10": {},
+              "55:10": {},
+              "56:10": {},
+              "57:10": {},
+              "58:10": {},
+              "59:10": {},
+              "60:10": {},
+              "61:10": {},
+              "62:10": {},
+              "63:10": {},
+              "64:10": {},
+              "65:10": {},
+              "66:10": {},
+              "67:10": {},
+              "68:10": {},
+              "69:10": {},
+              "70:10": {},
+              "71:10": {},
+              "72:10": {},
+              "73:10": {},
+              "74:10": {},
+              "75:10": {},
+              "76:10": {},
+              "77:10": {},
+              "78:10": {},
+              "79:10": {},
+              "80:10": {},
+              "81:10": {},
+              "82:10": {},
+              "83:10": {},
+              "84:10": {},
+              "85:10": {},
+              "86:10": {},
+              "87:10": {},
+              "88:10": {},
+              "89:10": {},
+              "90:10": {},
+              "91:10": {
+                "Count:3": 1,
+                "Damage:2": 0,
+                "id:8": "rftoolsdim:realized_dimension_tab",
+                "tag:10": {
+                  "descriptionString:8": "@",
+                  "forcedSeed:4": 0,
+                  "name:8": "",
+                  "rfCreateCost:3": 1000,
+                  "rfMaintainCost:3": 10,
+                  "tickCost:3": 100,
+                  "ticksLeft:3": 100
+                }
+              }
+            },
+            "idL:4": -5903828338681376133,
+            "idM:4": -8342885232664559613,
+            "infused:3": 0,
+            "owner:8": "meatballcraft"
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:dimension_builder",
+          "tag:10": {
+            "Energy:4": 0,
+            "Items:9": {
+              "0:10": {}
+            },
+            "idL:4": -5903828338681376133,
+            "idM:4": -8342885232664559613,
+            "infused:3": 0,
+            "owner:8": "meatballcraft",
+            "rsMode:1": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

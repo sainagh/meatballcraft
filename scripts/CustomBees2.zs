@@ -166,6 +166,11 @@ recipes.addShaped(<nuclearcraft:upgrade:0>*16,
 [<ore:dustRedstone>, <gendustry:honey_comb:14025>, <ore:dustRedstone>],
 [<ore:gemLapis>, <ore:dustRedstone>, <ore:gemLapis>]]);
 
+recipes.addShaped(<nuclearcraft:upgrade:1>*16,
+[[<ore:dustObsidian>, <ore:dustQuartz>, <ore:dustObsidian>],
+[<ore:dustQuartz>, <gendustry:honey_comb:14025>, <ore:dustQuartz>],
+[<ore:dustObsidian>, <ore:dustQuartz>, <ore:dustObsidian>]]);
+
 recipes.addShapeless(<enderio:item_alloy_endergy_ball:2>,
 [<divinerpg:serenade_striker>.reuse(),
 <gendustry:honey_comb:14026>]);

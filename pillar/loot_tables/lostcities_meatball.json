@@ -1,0 +1,61 @@
+{
+    "pools": [
+      {
+        "name": "generalmeatballness",
+        "entries": [
+          {
+            "entryName": "contenttweaker:sentient_meatball",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "contenttweaker:sentient_meatball"
+          },
+          {
+            "entryName": "contenttweaker:vegetarian_sentient_meatball",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "contenttweaker:vegetarian_sentient_meatball"
+          },
+          {
+            "entryName": "contenttweaker:tainted_sentient_meatball",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "contenttweaker:tainted_sentient_meatball"
+          }
+        ],
+        "rolls": {
+          "min": 1.0,
+          "max": 4.0
+        }
+      }
+    ]
+  }

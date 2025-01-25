@@ -473,3 +473,12 @@ recipes.addShapeless(<modularmachinery:blockwillprovideroutput>,
 [<modularmachinery:blockwillproviderinput>]);
 recipes.addShapeless(<modularmachinery:blockwillproviderinput>,
 [<modularmachinery:blockwillprovideroutput>]);
+
+
+recipes.addShaped(<contenttweaker:multiblock_sticc>,
+[[<modularmachinery:itemmodularium>, null],
+[null, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<contenttweaker:multiblock_sticc>,
+[[null, <modularmachinery:itemmodularium>],
+[<modularmachinery:itemmodularium>, null]]);

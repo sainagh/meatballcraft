@@ -27,3 +27,10 @@ recipes.addShaped(<randomthings:spectrecoil_number>,
 [[<enderio:block_reinforced_obsidian>, <projectex:matter:6>, <enderio:block_reinforced_obsidian>],
 [<projectex:matter:6>, <enderio:block_reinforced_obsidian>, <projectex:matter:6>],
 [<enderio:block_reinforced_obsidian>, <projectex:matter:6>, <enderio:block_reinforced_obsidian>]]);
+
+
+recipes.remove(<randomthings:eclipsedclock>);
+recipes.addShaped(<randomthings:eclipsedclock>,
+[[<ore:obsidian>, <contenttweaker:living_gold>, <ore:obsidian>],
+[<contenttweaker:living_gold>, <randomthings:ingredient:1>, <contenttweaker:living_gold>],
+[<ore:obsidian>, <contenttweaker:living_gold>, <ore:obsidian>]]);

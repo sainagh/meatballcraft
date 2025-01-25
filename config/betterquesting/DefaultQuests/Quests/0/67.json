@@ -21,6 +21,14 @@
         "0:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:botanic_alchemic_catalyst"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:helpful_tippy_hat"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "opeq:stabilization_tape"
         }
       }
     }

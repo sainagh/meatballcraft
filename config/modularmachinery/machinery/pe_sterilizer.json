@@ -8,7 +8,7 @@
             "x": 0,
             "y": 2,
             "z": 3,
-            "description": "Replace energy container for better output, 5X",
+            "description": "替换能量收容石以获得产出x5",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:fluid",

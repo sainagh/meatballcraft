@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    143
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oLetting you know now; from this point forward, puzzles may involve some hidden chests and loot.\n\nThere are a variety of methods that can help you find these, a few are listed here...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:storage_scanner"
+      },
+      "name:8": "Tools of Discovery"
+    }
+  },
+  "questID:3": 1980945817,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:storage_scanner"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "extrautils2:interactionproxy"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "projecte:item.pe_catalitic_lens",
+          "tag:10": {}
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:magnet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

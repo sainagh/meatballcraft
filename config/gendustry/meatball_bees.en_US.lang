@@ -98,11 +98,12 @@ gendustry.bees.species.Helium=High-Pitched
 gendustry.bees.species.Nucleartechnician=Nuclear Technician
 gendustry.bees.species.Serenading=Serenading
 gendustry.bees.species.Tinkerest=Tinkerest
-gendustry.bees.species.ThermallyExpanded=Thermallt Expanded
+gendustry.bees.species.Thermallyexpanded=Thermally Expanded
 gendustry.honeycomb.tinkerest.name=Tinkerest Comb
 gendustry.honeycomb.thermallyexpanded.name=Thermally Expanded Comb
 gendustry.honeycomb.nucleartechnician.name=Nuclear Comb
 gendustry.honeycomb.serenading.name=Serenading Comb
 gendustry.honeycomb.fluorine.name=Fluorine Comb
 gendustry.honeycomb.helium.name=Helium Comb
-
+gendustry.allele.flowers.woodLog=Wood Logs
+gendustry.allele.flowers.sideralSteel=Steel

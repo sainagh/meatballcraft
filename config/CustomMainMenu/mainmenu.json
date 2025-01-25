@@ -85,7 +85,7 @@
             "action" : 
             {
                 "type": "openLink",
-                "link": "https://github.com/sainagh/meatballcraft/wiki/%5B0.16.5%5D-Improving-Performance"
+                "link": "https://github.com/sainagh/meatballcraft/wiki/%5B0.17.0%5D-Improving-Performance"
             }
         },
         
@@ -230,7 +230,8 @@
                     "menu:back38.png",
                     "menu:back39.png",
                     "menu:back40.png",
-                    "menu:back41.png"],
+                    "menu:back41.png",
+                    "menu:back42.png"],
                 "displayDuration" : 100,
                 "shuffle": true,
                 "fadeDuration" : 40

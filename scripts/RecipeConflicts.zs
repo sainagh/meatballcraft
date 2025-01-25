@@ -1409,6 +1409,12 @@ recipes.addShapeless(<bloodmagic:altar>,
 recipes.addShapeless(<contenttweaker:shining_sandstone>,
 [<contenttweaker:mark_fallen_tower>]);
 
+recipes.addShapeless(<contenttweaker:fiery_pyrite>,
+[<contenttweaker:mark_fallen_tower>]);
+
+recipes.addShapeless(<contenttweaker:meteoric_draconic_stone>,
+[<contenttweaker:mark_fallen_tower>]);
+
 recipes.addShapeless(<contenttweaker:demon_stone>,
 [<contenttweaker:mark_fallen_tower>]);
 
@@ -2096,7 +2102,7 @@ recipes.addShapeless(<thebetweenlands:aspect_vial:1>,
 <thebetweenlands:bl_bucket>,
 <thebetweenlands:dentrothyst_vial:*>]);
 
-mods.nuclearcraft.melter.addRecipe([<avaritia:resource:6>, <fluid:infinity>*144]);
+// mods.nuclearcraft.melter.addRecipe([<avaritia:resource:6>, <fluid:infinity>*144]);
 
 
 recipes.remove(<natura:overworld_workbenches:0>);
@@ -2187,3 +2193,260 @@ mods.nuclearcraft.infuser.addRecipe([<ore:nuggetIron>, <fluid:crystallized_obsid
 mods.nuclearcraft.melter.addRecipe([<ore:ingotPrimalOgerite>, <fluid:primal_ogerite>*144]);
 
 
+recipes.remove(<openblocks:luggage>);
+
+
+recipes.addShapeless(<rftoolsdim:known_dimlet:0>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+recipes.addShapeless(<rftoolsdim:known_dimlet:1>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+recipes.addShapeless(<rftoolsdim:known_dimlet:2>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+recipes.addShapeless(<rftoolsdim:known_dimlet:3>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+recipes.addShapeless(<rftoolsdim:known_dimlet:4>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+recipes.addShapeless(<rftoolsdim:known_dimlet:5>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+recipes.addShapeless(<rftoolsdim:known_dimlet:6>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+recipes.addShapeless(<rftoolsdim:known_dimlet:7>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+recipes.addShapeless(<rftoolsdim:known_dimlet:8>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+recipes.addShapeless(<rftoolsdim:known_dimlet:9>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+recipes.addShapeless(<rftoolsdim:known_dimlet:10>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+recipes.addShapeless(<rftoolsdim:known_dimlet:11>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+recipes.addShapeless(<rftoolsdim:known_dimlet:12>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+recipes.addShapeless(<rftoolsdim:known_dimlet:13>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+recipes.addShapeless(<rftoolsdim:known_dimlet:14>,
+[<contenttweaker:custom_dimlets>, <rftoolsdim:dimlet_workbench>]);
+
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:rhenium_ore>, <fluid:rhenium>*360]);
+
+
+// mods.immersiveengineering.ArcFurnace.removeRecipe(<ore:ingotIchorium>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<materialpart:ichorium:ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<contenttweaker:material_part:309>);
+
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "mod_lavacow:strong_corrosive"}), <minecraft:sugar>);
+
+brewing.addBrew(<minecraft:potion>.withTag({Potion: "mod_lavacow:corrosive"}), <ore:salt>, <minecraft:potion>.withTag({Potion: "mod_lavacow:strong_corrosive"}));
+
+
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "extrautils2:xu2.doom"}), <minecraft:gunpowder>);
+
+
+recipes.remove(<xtones:base>);
+recipes.addShaped(<xtones:base>*4,
+[[<ore:slabStone>, <ore:slabStone>, null],
+[<ore:slabStone>, <ore:stone>, <ore:slabStone>],
+[null, <ore:slabStone>, <ore:slabStone>]]);
+
+
+recipes.addShapeless(<thaumcraft:celestial_notes:0>,
+[<contenttweaker:celestial_notes>, <thaumcraft:scribing_tools>, <thaumcraft:thaumometer>, <minecraft:paper>]);
+
+recipes.addShapeless(<thaumcraft:celestial_notes:1>,
+[<contenttweaker:celestial_notes>, <thaumcraft:scribing_tools>, <thaumcraft:thaumometer>, <minecraft:paper>]);
+
+recipes.addShapeless(<thaumcraft:celestial_notes:2>,
+[<contenttweaker:celestial_notes>, <thaumcraft:scribing_tools>, <thaumcraft:thaumometer>, <minecraft:paper>]);
+
+recipes.addShapeless(<thaumcraft:celestial_notes:3>,
+[<contenttweaker:celestial_notes>, <thaumcraft:scribing_tools>, <thaumcraft:thaumometer>, <minecraft:paper>]);
+
+recipes.addShapeless(<thaumcraft:celestial_notes:4>,
+[<contenttweaker:celestial_notes>, <thaumcraft:scribing_tools>, <thaumcraft:thaumometer>, <minecraft:paper>]);
+
+recipes.addShapeless(<thaumcraft:celestial_notes:5>,
+[<contenttweaker:celestial_notes>, <thaumcraft:scribing_tools>, <thaumcraft:thaumometer>, <minecraft:paper>]);
+
+recipes.addShapeless(<thaumcraft:celestial_notes:6>,
+[<contenttweaker:celestial_notes>, <thaumcraft:scribing_tools>, <thaumcraft:thaumometer>, <minecraft:paper>]);
+
+recipes.addShapeless(<thaumcraft:celestial_notes:7>,
+[<contenttweaker:celestial_notes>, <thaumcraft:scribing_tools>, <thaumcraft:thaumometer>, <minecraft:paper>]);
+
+recipes.addShapeless(<thaumcraft:celestial_notes:8>,
+[<contenttweaker:celestial_notes>, <thaumcraft:scribing_tools>, <thaumcraft:thaumometer>, <minecraft:paper>]);
+
+recipes.addShapeless(<thaumcraft:celestial_notes:9>,
+[<contenttweaker:celestial_notes>, <thaumcraft:scribing_tools>, <thaumcraft:thaumometer>, <minecraft:paper>]);
+
+recipes.addShapeless(<thaumcraft:celestial_notes:10>,
+[<contenttweaker:celestial_notes>, <thaumcraft:scribing_tools>, <thaumcraft:thaumometer>, <minecraft:paper>]);
+
+recipes.addShapeless(<thaumcraft:celestial_notes:11>,
+[<contenttweaker:celestial_notes>, <thaumcraft:scribing_tools>, <thaumcraft:thaumometer>, <minecraft:paper>]);
+
+recipes.addShapeless(<thaumcraft:celestial_notes:12>,
+[<contenttweaker:celestial_notes>, <thaumcraft:scribing_tools>, <thaumcraft:thaumometer>, <minecraft:paper>]);
+
+mods.nuclearcraft.manufactory.addRecipe([<ore:oreElectrotine>, <projectred-core:resource_item:105>*2]);
+
+recipes.remove(<binniecore:cylinder>);
+
+recipes.addShaped(<binniecore:cylinder>*8,
+[[<ore:paneGlass>, null, <ore:paneGlass>],
+[null, <ore:paneGlass>, null]]);
+
+recipes.addShapeless(<rftools:storage_scanner>,
+[<rftools:storage_scanner>]);
+
+
+recipes.addShapeless(<fluxnetworks:fluxcontroller>,
+[<contenttweaker:energy_management_tipsandtricks>]);
+recipes.addShapeless(<fluxnetworks:fluxplug>,
+[<contenttweaker:energy_management_tipsandtricks>]);
+recipes.addShapeless(<fluxnetworks:fluxpoint>,
+[<contenttweaker:energy_management_tipsandtricks>]);
+recipes.addShapeless(<thermalexpansion:cell>,
+[<contenttweaker:energy_management_tipsandtricks>]);
+recipes.addShapeless(<enderio:block_cap_bank:0>,
+[<contenttweaker:energy_management_tipsandtricks>]);
+recipes.addShapeless(<enderio:block_cap_bank:1>,
+[<contenttweaker:energy_management_tipsandtricks>]);
+recipes.addShapeless(<enderio:block_cap_bank:2>,
+[<contenttweaker:energy_management_tipsandtricks>]);
+recipes.addShapeless(<draconicevolution:energy_storage_core>,
+[<contenttweaker:energy_management_tipsandtricks>]);
+recipes.addShapeless(<draconicevolution:particle_generator:2>,
+[<contenttweaker:energy_management_tipsandtricks>]);
+recipes.addShapeless(<fluxnetworks:fluxstorage>,
+[<contenttweaker:energy_management_tipsandtricks>]);
+recipes.addShapeless(<fluxnetworks:herculeanfluxstorage>,
+[<contenttweaker:energy_management_tipsandtricks>]);
+recipes.addShapeless(<fluxnetworks:gargantuanfluxstorage>,
+[<contenttweaker:energy_management_tipsandtricks>]);
+
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<ore:dustBedrock>, <ore:dustCoal>, <enderio:item_material:75>]);
+
+
+recipes.addShapeless(<contenttweaker:eternal_nightmare>,
+[<contenttweaker:passive_crafting_subnets>, <packagedexcrafting:combination_crafter>]);
+recipes.addShapeless(<bloodmagic:demon_crystal:0>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:berserker_forge_controller>]);
+recipes.addShapeless(<bloodmagic:demon_crystal:1>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:berserker_forge_controller>]);
+recipes.addShapeless(<bloodmagic:demon_crystal:2>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:berserker_forge_controller>]);
+recipes.addShapeless(<bloodmagic:demon_crystal:3>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:berserker_forge_controller>]);
+recipes.addShapeless(<bloodmagic:demon_crystal:4>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:berserker_forge_controller>]);
+recipes.addShapeless(<bloodmagic:component:8>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:berserker_forge_controller>]);
+recipes.addShapeless(<animus:component:1>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:berserker_forge_controller>]);
+recipes.addShapeless(<animus:component:4>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:berserker_forge_controller>]);
+recipes.addShapeless(<bloodmagic:component:16>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:berserker_forge_controller>]);
+recipes.addShapeless(<bloodarsenal:base_item:6>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:berserker_forge_controller>]);
+recipes.addShapeless(<bloodmagic:component:11>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:berserker_forge_controller>]);
+recipes.addShapeless(<bloodmagic:component:4>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:berserker_forge_controller>]);
+recipes.addShapeless(<bloodmagic:component:0>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:berserker_forge_controller>]);
+recipes.addShapeless(<bewitchment:oak_spirit>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:honeysmelter_oven_controller>]);
+recipes.addShapeless(<bewitchment:spruce_heart>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:honeysmelter_oven_controller>]);
+recipes.addShapeless(<bewitchment:birch_soul>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:honeysmelter_oven_controller>]);
+recipes.addShapeless(<bewitchment:cloudy_oil>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:honeysmelter_oven_controller>]);
+recipes.addShapeless(<bewitchment:acacia_resin>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:honeysmelter_oven_controller>]);
+recipes.addShapeless(<bewitchment:ebb_of_death>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:honeysmelter_oven_controller>]);
+recipes.addShapeless(<bewitchment:droplet_of_wisdom>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:honeysmelter_oven_controller>]);
+recipes.addShapeless(<bewitchment:liquid_witchcraft>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:honeysmelter_oven_controller>]);
+recipes.addShapeless(<bewitchment:essence_of_vitality>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:honeysmelter_oven_controller>]);
+recipes.addShapeless(<bewitchment:cloudy_oil>,
+[<contenttweaker:passive_crafting_subnets>, <modularmachinery:honeysmelter_oven_controller>]);
+recipes.addShapeless(<contenttweaker:corrupted_aragonite>,
+[<contenttweaker:passive_crafting_subnets>, <packagedexcrafting:combination_crafter>]);
+
+
+recipes.addShapeless(<contenttweaker:vitium_gem>,
+[<contenttweaker:thaumatorium_automation>, <thaumcraft:thaumatorium>, <thaumicenergistics:infusion_provider>, <thaumcraft:essentia_output>, <thaumcraft:brain_box>]);
+recipes.addShapeless(<contenttweaker:madness_gem>,
+[<contenttweaker:thaumatorium_automation>, <thaumcraft:thaumatorium>, <thaumicenergistics:infusion_provider>, <thaumcraft:essentia_output>, <thaumcraft:brain_box>]);
+recipes.addShapeless(<contenttweaker:antimony_crystal>,
+[<contenttweaker:thaumatorium_automation>, <thaumcraft:thaumatorium>, <thaumicenergistics:infusion_provider>, <thaumcraft:essentia_output>, <thaumcraft:brain_box>]);
+recipes.addShapeless(<contenttweaker:core_of_mirroring>,
+[<contenttweaker:thaumatorium_automation>, <thaumcraft:thaumatorium>, <thaumicenergistics:infusion_provider>, <thaumcraft:essentia_output>, <thaumcraft:brain_box>]);
+recipes.addShapeless(<contenttweaker:imperfect_gem_of_the_cosmos>,
+[<contenttweaker:thaumatorium_automation>, <thaumcraft:thaumatorium>, <thaumicenergistics:infusion_provider>, <thaumcraft:essentia_output>, <thaumcraft:brain_box>]);
+recipes.addShapeless(<thaumicwonders:panacea:0>,
+[<contenttweaker:thaumatorium_automation>, <thaumcraft:thaumatorium>, <thaumicenergistics:infusion_provider>, <thaumcraft:essentia_output>, <thaumcraft:brain_box>]);
+recipes.addShapeless(<contenttweaker:cursed_myrmitite_catalyst>,
+[<contenttweaker:thaumatorium_automation>, <thaumcraft:thaumatorium>, <thaumicenergistics:infusion_provider>, <thaumcraft:essentia_output>, <thaumcraft:brain_box>]);
+recipes.addShapeless(<thaumcraft:sanity_soap>,
+[<contenttweaker:thaumatorium_automation>, <thaumcraft:thaumatorium>, <thaumicenergistics:infusion_provider>, <thaumcraft:essentia_output>, <thaumcraft:brain_box>]);
+recipes.addShapeless(<thaumcraft:tallow>,
+[<contenttweaker:thaumatorium_automation>, <thaumcraft:thaumatorium>, <thaumicenergistics:infusion_provider>, <thaumcraft:essentia_output>, <thaumcraft:brain_box>]);
+recipes.addShapeless(<contenttweaker:inanimate_soul>,
+[<contenttweaker:thaumatorium_automation>, <thaumcraft:thaumatorium>, <thaumicenergistics:infusion_provider>, <thaumcraft:essentia_output>, <thaumcraft:brain_box>]);
+recipes.addShapeless(<contenttweaker:caeles_gem>,
+[<contenttweaker:thaumatorium_automation>, <thaumcraft:thaumatorium>, <thaumicenergistics:infusion_provider>, <thaumcraft:essentia_output>, <thaumcraft:brain_box>]);
+recipes.addShapeless(<contenttweaker:dreadia_gem>,
+[<contenttweaker:thaumatorium_automation>, <thaumcraft:thaumatorium>, <thaumicenergistics:infusion_provider>, <thaumcraft:essentia_output>, <thaumcraft:brain_box>]);
+recipes.addShapeless(<contenttweaker:ichorium_gem>,
+[<contenttweaker:thaumatorium_automation>, <thaumcraft:thaumatorium>, <thaumicenergistics:infusion_provider>, <thaumcraft:essentia_output>, <thaumcraft:brain_box>]);
+recipes.addShapeless(<contenttweaker:mythus_gem>,
+[<contenttweaker:thaumatorium_automation>, <thaumcraft:thaumatorium>, <thaumicenergistics:infusion_provider>, <thaumcraft:essentia_output>, <thaumcraft:brain_box>]);
+
+
+recipes.addShapeless(<botania:rune:0>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:1>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:2>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:3>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:4>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:5>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:6>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:7>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:8>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:9>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:10>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:11>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:12>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:13>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:14>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+recipes.addShapeless(<botania:rune:15>,
+[<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
+
+
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:plasma_farm>, <fluid:water>, <fluid:plasma>]);

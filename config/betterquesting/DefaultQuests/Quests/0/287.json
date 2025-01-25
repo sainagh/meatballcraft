@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "Mythic excavation has its rules, and they are as rigorous as they are versatile. Recursive powers, while being quite different in how they take form, ranging from aura to botanical energy, they follow the same first principles.\nMachines and devices equipped with mythic excavation units can use recursion as their own energy source, and can in turn shape it for various purposes. \nBuilding more powerful mythic miners, capable of synthesizing matter from my recently-explored Shyre worlds, is a good purpose for this technology.\nInvestigating the way recursion works and how I may gain control over the cycle of undeath, that is another! ",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:mythic_excavation_computer"

@@ -250,6 +250,13 @@
         "abyssalcraft:crystalcluster2",
         "abyssalcraft:luminousthistle",
         "abyssalcraft:wastelandsthorn"
+    ],
+    "wyvern_casing": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockmeiteminputbus",
+        "modularmachinery:blockfluidoutputhatch",
+        "modularmachinery:blockmefluidoutputbus",
+        "modularmachinery:blockcasing"
     ]
 
 }

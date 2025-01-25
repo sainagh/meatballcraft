@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDrop a haunted idol to summon Bane.",
+      "desc:8": "§7§oDrop a haunted idol to summon Bane.\n\n§fA voice resounding through the sheer cliffs of Greckon. A haunting chant.\nNot the dragons in the outer skies of Terra, not the beasts of Lyndenwyrm. No, the true master of chaos and entropy, that is Bane.\nThanks to its powers, this creature can even alter the change of time in Greckon. \nThis mastery over the power of entropy is what\u0027s behind the supercharging of the chickens now ravaging the land. \nJust to put things into perspective, the might of Lyndenwyrm alone was enough to move factions throughout the entire universe, and this creature alone can summon something that is as powerful and dangerous by itself? And do it multiple times?",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:greckon_cap"

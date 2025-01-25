@@ -10,6 +10,7 @@
 
     
 
+
     "input-types": {
       "a": {
         "id": "draconicevolution:crafting_injector",
@@ -21,15 +22,15 @@
       },
       "b": {
         "id": "minecraft:wool",
-        "meta": 15,
+        "meta": 0,
         "item": {
-            "id": "contenttweaker:injectors_line_sight_within_16_block",
+            "id": "contenttweaker:injectors_line_sight_within_16_blocks",
             "count": 1
           }
       },
       "c": {
         "id": "minecraft:wool",
-        "meta": 0,
+        "meta": 15,
         "item": {
             "id": "contenttweaker:higher_tier_better",
             "count": 1
@@ -44,42 +45,58 @@
           }
       }
     },
-
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{id:\"draconicevolution:crafting_injector\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},BCManagedData:{facing:3b,energy:0L,lastCorePos:[0,0,0],singleItem:0b}}"
+      },
+      "a:B": {
+        "nbt": "{id:\"draconicevolution:crafting_injector\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},BCManagedData:{facing:4b,energy:0L,lastCorePos:[0,0,0],singleItem:0b}}"
+      },
+      "a:C": {
+        "nbt": "{id:\"draconicevolution:crafting_injector\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},BCManagedData:{facing:5b,energy:0L,lastCorePos:[0,0,0],singleItem:0b}}"
+      },
+      "d:A": {
+        "nbt": "{id:\"draconicevolution:fusion_crafting_core\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},BCManagedData:{isCrafting:0b,craftingStage:0s}}"
+      },
+      "a:D": {
+        "nbt": "{id:\"draconicevolution:crafting_injector\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},BCManagedData:{facing:2b,energy:0L,lastCorePos:[0,0,0],singleItem:0b}}"
+      }
+    },
     "shape": [
       [
         [
           "_",
-          "a",
-          "a",
-          "a",
+          "a:A",
+          "a:A",
+          "a:A",
           "_"
         ],
         [
-          "a",
+          "a:C",
           "_",
           "_",
           "_",
-          "a"
+          "a:B"
         ],
         [
-          "a",
+          "a:C",
           "_",
-          "d",
+          "d:A",
           "_",
-          "a"
+          "a:B"
         ],
         [
-          "a",
+          "a:C",
           "_",
           "_",
           "_",
-          "a"
+          "a:B"
         ],
         [
           "_",
-          "a",
-          "a",
-          "a",
+          "a:D",
+          "a:D",
+          "a:D",
           "_"
         ]
       ],
@@ -121,5 +138,5 @@
         ]
       ]
     ]
-  
+   
 }

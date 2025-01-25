@@ -67,9 +67,9 @@
 <botania:magnetringgreater>.addTooltip(format.red("范围更大的磁吸效果"));
 <botania:speedupbelt>.addTooltip(format.red("玩家不停移动得越多，增加的速度越高"));
 <botania:baublebox>.addTooltip(format.red("可存储饰品"));
-<botania:dodgering>.addTooltip(format.red("消耗魔力使玩家隐身"));
+<botania:dodgering>.addTooltip(format.red("可双击方向键进行闪避"));
 <botania:invisibilitycloak>.addTooltip(format.red("使玩家隐身"));
-<botania:cloudpendant>.addTooltip(format.red("启用三段跳"));
+<botania:cloudpendant>.addTooltip(format.red("启用二段跳"));<botania:supercloudpendant>.addTooltip(format.red("启用三段跳"));
 <botania:supercloudpendant>.addTooltip(format.red("高亮附近生物"));
 <botania:thirdeye>.addTooltip(format.red("附近的爆炸不会破坏方块"));
 <botania:goddesscharm>.addTooltip(format.red("附近的爆炸不会破坏方块"));

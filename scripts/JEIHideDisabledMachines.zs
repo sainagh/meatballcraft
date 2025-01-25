@@ -19,6 +19,10 @@ mods.jei.JEI.hideCategory("draconicalchemy.Deposition");
 
 mods.jei.JEI.hideCategory("tinker_io:ore_crusher");
 
+mods.jei.JEI.hideCategory("threng.purify");
+
+mods.jei.JEI.hideCategory("melter");
+
 
 
 

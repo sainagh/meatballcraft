@@ -10,7 +10,7 @@ mods.jei.JEI.addDescription(<aoa3:baronyte_ingot>,["发现于虚无世界模组�
 mods.jei.JEI.addDescription(<aoa3:blazium_ingot>,["发现于虚无世界模组的爵士维度。","","可通过打开闪亮的盒子获得。","","可发现于爵士城堡的箱子内。","","生成于Y=22之下。"]);
 mods.jei.JEI.addDescription(<aoa3:bloodstone>,["发现于虚无世界模组的深渊维度。","","可由深渊蹒跚者掉落。","","矿物生成与Y=64以下。" ]);
 mods.jei.JEI.addDescription(<aoa3:blue_gemstones>,["发现于晶体维度，生成于Y=5与Y=114之间的晶体石头附近。" ]);
-mods.jei.JEI.addDescription(<aoa3:charged_runium_chunk>,["发现于虚无世界模组的深层维度。","","可由石巨人掉落。","","破坏沉睡之石有概率。","","发现于Y=70与Y=114之间，存在深层岩石的地方。","","","","- Bluecat撰写"]);
+mods.jei.JEI.addDescription(<aoa3:charged_runium_chunk>,["发现于虚无世界模组的深层维度。","","发现于Y=70与Y=114之间，存在深层岩石的地方。","","","","- Bluecat撰写"]);
 mods.jei.JEI.addDescription(<aoa3:chestbone_fragment>,["发现于虚无世界模组的传说维度，位于Y=42以下。"]);
 mods.jei.JEI.addDescription(<aoa3:crystallite>,["发现于虚无世界模组的天堂维度。","","可由\"四种守护者\"掉落。","","可生成与监管者之塔的箱子里。","","可发现于Y=30与Y=69之间的天堂石头里。" ]);
 mods.jei.JEI.addDescription(<aoa3:elecanium_ingot>,["来自虚无世界模组的符境维度。","","可通过打开闪亮的盒子获得。","","可发现于Y=1与Y=34之间有符文块砖的地方。" ]);
@@ -137,7 +137,7 @@ mods.jei.JEI.addDescription(<techreborn:dust:50>,["发现于下界。"]);
 mods.jei.JEI.addDescription(<techreborn:ingot:14>,["来自金红石矿石，非常稀有，可通过电解铝土矿粉获得，也可在维度门中发现！"]);
 mods.jei.JEI.addDescription(<thermalfoundation:material:135>,["通过末地的铂矿石获得，在主世界中非常稀有，也可在维度门中发现！"]);
 mods.jei.JEI.addDescription(<techreborn:ingot:15>,["发现于末地。"]);
-mods.jei.JEI.addDescription(<techreborn:ingot:18>,["发现于Y=10与Y=126之间。"]);
+mods.jei.JEI.addDescription(<techreborn:ingot:18>,["发现于主世界Y=20与Y=40之间。"]);
 mods.jei.JEI.addDescription(<techreborn:ingot:23>,["发现于Y=32以下。"]);
 mods.jei.JEI.addDescription(<thaumcraft:amber>,["可由红眼僵尸巨人掉落。","","有石头的地方就能生成，但是高海拔区域更常见。" ]);
 mods.jei.JEI.addDescription(<thaumcraft:quicksilver>,["通过烧炼朱砂矿石获得。","","所有高度均可发现。" ]);

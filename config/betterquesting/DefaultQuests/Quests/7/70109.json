@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Obtained by smelting Cinnabar Ore.\nFound at every level.\n\n- Written by Bluecat",
+      "desc:8": "§7§oObtained by smelting Cinnabar Ore.\nFound at every level.\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:quicksilver"

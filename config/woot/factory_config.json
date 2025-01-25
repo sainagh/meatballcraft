@@ -216,12 +216,6 @@
     "twilightforest:giant_miner",
     "twilightforest:armored_giant",
     "divinerpg:karot",
-    "minecraft:zombie",
-    "minecraft:husk",
-    "mod_lavacow:zombiefrozen",
-    "mod_lavacow:zombiemushroom",
-    "mod_lavacow:unburied",
-    "mod_lavacow:mummy",
     "divinerpg:ayeraco_red",
     "divinerpg:ayeraco_purple",
     "divinerpg:ayeraco_green",
@@ -305,7 +299,9 @@
     "bewitchment:baphomet",
     "bewitchment:leonard",
     "thaumcraft:cultistportalgreater",
-    "thaumcraft:cultistportallesser"
+    "thaumcraft:cultistportallesser",
+    "mowziesmobs:frostmaw",
+    "divinerpg:behemoth"
   ],
   "entitywhitelist": [
   ],

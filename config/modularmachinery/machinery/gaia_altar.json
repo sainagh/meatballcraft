@@ -8,7 +8,7 @@
             "x": 0,
             "y": 0,
             "z": 3,
-            "description": "Replace elementium for faster recipes, 6X",
+            "description": "替换源质钢块以使用更快的配方，速度x6",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",

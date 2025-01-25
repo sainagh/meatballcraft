@@ -1,0 +1,108 @@
+{
+    "name": "compactmachines3:contenttweaker_kashan",
+    "target-item": "contenttweaker:warren_creation_fabrial",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+    "input-types": {
+      "a": {
+        "id": "contenttweaker:hyperuranon_actualizing_fabrial",
+        "meta": 0
+      },
+      "b": {
+        "id": "contenttweaker:mythic_excavation_reactor",
+        "meta": 0
+      },
+      "c": {
+        "id": "rftools:dimensional_shard_ore",
+        "meta": 0
+      },
+      "d": {
+        "id": "contenttweaker:hungering_machine_case",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "a",
+          "_",
+          "_",
+          "_",
+          "a"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "d",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "a",
+          "_",
+          "_",
+          "_",
+          "a"
+        ]
+      ],
+      [
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "_",
+          "c",
+          "c",
+          "c",
+          "_"
+        ],
+        [
+          "_",
+          "c",
+          "c",
+          "c",
+          "_"
+        ],
+        [
+          "_",
+          "c",
+          "c",
+          "c",
+          "_"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "b"
+        ]
+      ]
+    ]
+   
+}

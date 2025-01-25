@@ -579,11 +579,11 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:droplet_of_the_great_snake>,
 
 val maketruelifeessence = RecipeBuilder.newBuilder("maketruelifeessence","ziggurat_of_life",200);
 maketruelifeessence.addEnergyPerTickInput(30000000);
-maketruelifeessence.addWillInput("DEFAULT", 200);
-maketruelifeessence.addWillInput("CORROSIVE", 200);
-maketruelifeessence.addWillInput("DESTRUCTIVE", 200);
-maketruelifeessence.addWillInput("VENGEFUL", 200);
-maketruelifeessence.addWillInput("STEADFAST", 200);
+maketruelifeessence.addWillInput("DEFAULT", 50,0,1000000);
+maketruelifeessence.addWillInput("CORROSIVE", 50,0,1000000);
+maketruelifeessence.addWillInput("DESTRUCTIVE", 50,0,1000000);
+maketruelifeessence.addWillInput("VENGEFUL", 50,0,1000000);
+maketruelifeessence.addWillInput("STEADFAST", 50,0,1000000);
 maketruelifeessence.addFluidInput(<fluid:liquid_life>*100);
 maketruelifeessence.addItemInput(<bewitchment:demon_heart>);
 maketruelifeessence.addFluidOutput(<fluid:sacrificial_essence>*10000);

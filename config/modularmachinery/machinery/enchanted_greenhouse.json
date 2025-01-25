@@ -9,7 +9,7 @@
             "x": 0,
             "y": 5,
             "z": 3,
-            "description": "Replace the top block for 10X speed",
+            "description": "替换顶部方块以获得速度x10",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",

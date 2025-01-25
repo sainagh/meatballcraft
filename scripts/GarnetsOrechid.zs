@@ -2,7 +2,7 @@ import mods.modularmachinery.RecipeBuilder;
 
 mods.botania.Orechid.addOre(<ore:oreArkenstone>, 1000);
 
-mods.botania.Orechid.addOre(<ore:oreChargedRunium>, 5000);
+// mods.botania.Orechid.addOre(<ore:oreChargedRunium>, 5000);
 
 mods.botania.Orechid.addOre(<ore:oreLiquifiedCoralium>, 3000);
 

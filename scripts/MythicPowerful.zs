@@ -156,7 +156,7 @@ import mods.astralsorcery.Utils;
 	recipes.addShaped(SuperEnchantedItem(<redstonearsenal:tool.bow_flux>.withTag({display: {Name:"§6§o勇气§r",Lore:["§d§o超限附魔§r"]}}), enchlistBraveWrapped).getItem(),
 		[[<bewitchment:hellhound_horn>, <bewitchment:demon_heart>, <bewitchment:hellhound_horn>],
 		[<contenttweaker:dragons_blood_plastic>, <bewitchment:sigil_ruin>, <contenttweaker:dragons_blood_plastic>],
-		[<bewitchment:hellhound_horn>, <redstonearsenal:tool.bow_flux>, <bewitchment:hellhound_horn>]]);
+		[<contenttweaker:calcite_gem>, <redstonearsenal:tool.bow_flux>, <contenttweaker:calcite_gem>]]);
 }
 
 //	Prison Realm Bow
@@ -522,7 +522,7 @@ import mods.astralsorcery.Utils;
 		[[<openblocks:tank>.withTag({tank: {FluidName: "overworldian_fluid", Amount: 16000}}), <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <openblocks:tank>.withTag({tank: {FluidName: "overworldian_fluid", Amount: 16000}})], 
 		[<contenttweaker:nethengeic_gem>, <contenttweaker:unstable_fragment_of_unraveling>, <dimdoors:world_thread>, <contenttweaker:unstable_fragment_of_unraveling>, <dimdoors:world_thread>, <contenttweaker:unstable_fragment_of_unraveling>, <contenttweaker:nethengeic_gem>], 
 		[<contenttweaker:nethengeic_gem>, <dimdoors:world_thread>, <dimdoors:world_thread>, <dimdoors:world_thread>, <dimdoors:world_thread>, <dimdoors:world_thread>, <contenttweaker:nethengeic_gem>], 
-		[<contenttweaker:nethengeic_gem>, <dimdoors:world_thread>, <dimdoors:world_thread>, <bloodmagic:bound_sword>, <dimdoors:world_thread>, <contenttweaker:unstable_fragment_of_unraveling>, <contenttweaker:nethengeic_gem>], 
+		[<contenttweaker:nethengeic_gem>, <contenttweaker:unstable_fragment_of_unraveling>, <dimdoors:world_thread>, <bloodmagic:bound_sword>, <dimdoors:world_thread>, <contenttweaker:unstable_fragment_of_unraveling>, <contenttweaker:nethengeic_gem>], 
 		[<contenttweaker:nethengeic_gem>, <dimdoors:world_thread>, <dimdoors:world_thread>, <dimdoors:world_thread>, <dimdoors:world_thread>, <dimdoors:world_thread>, <contenttweaker:nethengeic_gem>], 
 		[<contenttweaker:nethengeic_gem>, <contenttweaker:unstable_fragment_of_unraveling>, <dimdoors:world_thread>, <contenttweaker:unstable_fragment_of_unraveling>, <dimdoors:world_thread>, <contenttweaker:unstable_fragment_of_unraveling>, <contenttweaker:nethengeic_gem>], 
 		[<openblocks:tank>.withTag({tank: {FluidName: "overworldian_fluid", Amount: 16000}}), <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <contenttweaker:nethengeic_gem>, <openblocks:tank>.withTag({tank: {FluidName: "overworldian_fluid", Amount: 16000}})]]);  

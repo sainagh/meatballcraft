@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    50125
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oPlace on an item frame, and use Time in a Bottle to speed up the day/night cycle.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "randomthings:eclipsedclock"
+      },
+      "name:8": "Eclipsed Clock"
+    }
+  },
+  "questID:3": 1878675504,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "randomthings:eclipsedclock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

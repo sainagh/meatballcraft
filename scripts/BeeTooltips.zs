@@ -276,6 +276,7 @@ static EFFECTS as IData = {
     "gendustry.bee.Warrior": "无",
     "gendustry.bee.white": "无",
     "gendustry.bee.yellow": "无",
+    "gendustry.bee.ThermallyExpanded": "无",
     "magicbees.speciesAbandoned": "抗拒",
     "magicbees.speciesAESkystone": "燃烧[林业]",
     "magicbees.speciesAluminium": "无",
@@ -368,7 +369,13 @@ static EFFECTS as IData = {
     "magicbees.speciesUnusual": "无",
     "magicbees.speciesWatery": "无",
     "magicbees.speciesWindy": "无",
-    "magicbees.speciesWithering": "凋零[魔法蜜蜂]"
+    "magicbees.speciesWithering": "凋零[魔法蜜蜂]",
+    "gendustry.bee.Tinkerest": "无",
+    "gendustry.bee.Serenading": "无",
+    "gendustry.bee.Helium": "无",
+    "gendustry.bee.Nucleartechnician": "无",
+    "gendustry.bee.Fluorine": "无",
+    "gendustry.bee.Thermallyexpanded": "无"
 } as IData;
 
 static EFFECT_DESCRIPTIONS as IData = {

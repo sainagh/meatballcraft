@@ -4,6 +4,10 @@ import crafttweaker.events.IEventManager;
 import crafttweaker.event.BlockHarvestDropsEvent;
 import crafttweaker.event.IBlockEvent;
 import crafttweaker.world.IWorld;
+import crafttweaker.event.PlayerBreakSpeedEvent;
+
+
+
 
  
 events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "Here are the fundamental building blocks of the atom!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -19,7 +19,6 @@
   "questID:3": 1334,
   "tasks:9": {
     "0:10": {
-      "consume:1": 0,
       "index:3": 0,
       "requiredFluids:9": {
         "0:10": {

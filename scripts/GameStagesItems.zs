@@ -3,9 +3,15 @@ mods.ItemStages.stageEnchant("draconicstage", <enchantment:cofhcore:vorpal>);
 
 mods.ItemStages.stageEnchant("divinestage", <enchantment:tombstone:magic_siphon>);
 
+mods.ItemStages.stageEnchant("divinestage", <enchantment:mod_lavacow:corrosive>);
+
 mods.ItemStages.stageEnchant("bloodmasterstage", <enchantment:cofhcore:multishot>);
 
 mods.ItemStages.stageEnchant("brightsteelforging", <enchantment:tombstone:shadow_step>);
+
+mods.ItemStages.stageEnchant("brightsteelforging", <enchantment:thaumictinkerer:pounce>);
+
+mods.ItemStages.stageEnchant("camerastage", <enchantment:thaumictinkerer:finalstrike>);
 
 mods.ItemStages.addItemStage("camerastage", <extrabotany:buddhistrelics>);
 mods.ItemStages.addItemStage("camerastage", <extrabotany:camera>);

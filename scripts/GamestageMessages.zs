@@ -11,59 +11,59 @@ events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent)
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
   if (event.dimension != 147 || !event.entity instanceof IPlayer) return;
   val player as IPlayer = event.entity;
-  if (!player.hasGameStage("sedna")) player.sendChat("看起来你还没使用过塞德娜神器！你无法进入该维度！");
+  if (!player.hasGameStage("sedna")) player.sendChat("看起来你还没使用过塞德娜工件！你无法进入该维度！");
 });
 
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
   if (event.dimension != 163 || !event.entity instanceof IPlayer) return;
   val player as IPlayer = event.entity;
-  if (!player.hasGameStage("rhenia")) player.sendChat("看起来你还没使用过铼界神器！你无法进入该维度！");
+  if (!player.hasGameStage("rhenia")) player.sendChat("看起来你还没使用过铼界工件！你无法进入该维度！");
 });
 
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
   if (event.dimension != 164 || !event.entity instanceof IPlayer) return;
   val player as IPlayer = event.entity;
-  if (!player.hasGameStage("myrmex")) player.sendChat("看起来你还没使用过恐蚁界神器！你无法进入该维度！");
+  if (!player.hasGameStage("myrmex")) player.sendChat("看起来你还没使用过恐蚁界工件！你无法进入该维度！");
 });
 
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
   if (event.dimension != 165 || !event.entity instanceof IPlayer) return;
   val player as IPlayer = event.entity;
-  if (!player.hasGameStage("pixonia")) player.sendChat("看起来你还没使用过光精界神器！你无法进入该维度！");
+  if (!player.hasGameStage("pixonia")) player.sendChat("看起来你还没使用过光精界工件！你无法进入该维度！");
 });
 
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
   if (event.dimension != 166 || !event.entity instanceof IPlayer) return;
   val player as IPlayer = event.entity;
-  if (!player.hasGameStage("proxima")) player.sendChat("看起来你还没使用过比邻星神器！你无法进入该维度！");
+  if (!player.hasGameStage("proxima")) player.sendChat("看起来你还没使用过比邻星工件！你无法进入该维度！");
 });
 
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
   if (event.dimension != 174 || !event.entity instanceof IPlayer) return;
   val player as IPlayer = event.entity;
-  if (!player.hasGameStage("alkemia")) player.sendChat("看起来你还没使用过炼金界神器！你无法进入该维度！");
+  if (!player.hasGameStage("alkemia")) player.sendChat("看起来你还没使用过炼金界工件！你无法进入该维度！");
 });
 
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
   if (event.dimension != 170 || !event.entity instanceof IPlayer) return;
   val player as IPlayer = event.entity;
-  if (!player.hasGameStage("dynatos")) player.sendChat("看起来你还没使用过强能界神器！你无法进入该维度！");
+  if (!player.hasGameStage("dynatos")) player.sendChat("看起来你还没使用过强能界工件！你无法进入该维度！");
 });
 
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
   if (event.dimension != 171 || !event.entity instanceof IPlayer) return;
   val player as IPlayer = event.entity;
-  if (!player.hasGameStage("dynatos")) player.sendChat("看起来你还没使用过强能界神器！你无法进入该维度！");
+  if (!player.hasGameStage("dynatos")) player.sendChat("看起来你还没使用过强能界工件！你无法进入该维度！");
 });
 
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
   if (event.dimension != 172 || !event.entity instanceof IPlayer) return;
   val player as IPlayer = event.entity;
-  if (!player.hasGameStage("dynatos")) player.sendChat("看起来你还没使用过强能界神器！你无法进入该维度！");
+  if (!player.hasGameStage("dynatos")) player.sendChat("看起来你还没使用过强能界工件！你无法进入该维度！");
 });
 
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
   if (event.dimension != 173 || !event.entity instanceof IPlayer) return;
   val player as IPlayer = event.entity;
-  if (!player.hasGameStage("dynatos")) player.sendChat("看起来你还没使用过强能界神器！你无法进入该维度！");
+  if (!player.hasGameStage("dynatos")) player.sendChat("看起来你还没使用过强能界工件！你无法进入该维度！");
 });

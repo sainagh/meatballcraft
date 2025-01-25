@@ -7,11 +7,53 @@
       "desc:8": "",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "minecraft:nether_star"
+        "id:8": "contenttweaker:naquadah_ore"
       },
-      "name:8": "Naquadah Worlds"
+      "name:8": "The Great Warrens"
     }
   },
   "questID:3": 1386,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:material_absorber",
+          "tag:10": {
+            "block:8": "contenttweaker:dense_dimensional_shard_ore"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:material_absorber",
+          "tag:10": {
+            "block:8": "contenttweaker:lightning_dragonsteel_ore"
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:material_absorber",
+          "tag:10": {
+            "block:8": "contenttweaker:naquadah_ore"
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:material_absorber",
+          "tag:10": {
+            "block:8": "contenttweaker:ice_dragonsteel_ore"
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:material_absorber",
+          "tag:10": {
+            "block:8": "contenttweaker:fire_dragonsteel_ore"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

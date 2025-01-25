@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1226
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThese terminals work like the ME crafting terminal, but for Extended Crafting :)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2exttable:ultimate_crafting_terminal"
+      },
+      "name:8": "ME Extended Crafting Terminals"
+    }
+  },
+  "questID:3": 1324993630,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2exttable:basic_crafting_terminal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "ae2exttable:advanced_crafting_terminal"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "ae2exttable:elite_crafting_terminal"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "ae2exttable:ultimate_crafting_terminal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

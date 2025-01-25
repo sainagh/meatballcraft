@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Spawns in the Ironmine Dimension from Advent of Ascension, below Y\u003d64 where Iro Stone is.\n\n- Written by Bluecat",
+      "desc:8": "§7§oSpawns in the Ironmine Dimension from Advent of Ascension, below Y\u003d64 where Iro Stone is.\n§7§o",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:lyon_ingot"

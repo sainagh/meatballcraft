@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Found in riverbeds and sandy pools.",
+      "desc:8": "§7§oFound in riverbeds and sandy pools.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:itemcraftingcomponent"

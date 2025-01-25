@@ -15,6 +15,18 @@
     {
       "item": "rftools:storage_scanner",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "623": [
@@ -45,6 +57,30 @@
     {
       "item": "industrialforegoing:mob_slaughter_factory",
       "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_destruction_catalyst",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_catalitic_lens",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_rm_morning_star",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "183": [
@@ -63,6 +99,18 @@
     {
       "item": "rftools:storage_scanner",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "805": [
@@ -80,6 +128,18 @@
     },
     {
       "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
     }
   ],
@@ -143,6 +203,18 @@
     {
       "item": "industrialforegoing:mob_slaughter_factory",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "818": [
@@ -161,6 +233,18 @@
     {
       "item": "rftools:storage_scanner",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "821": [
@@ -178,6 +262,18 @@
     },
     {
       "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
     }
   ],
@@ -209,6 +305,30 @@
     {
       "item": "industrialforegoing:mob_slaughter_factory",
       "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_destruction_catalyst",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_catalitic_lens",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_rm_morning_star",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "814": [
@@ -226,6 +346,42 @@
     },
     {
       "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_relocator",
+      "damage": "*"
+    },
+    {
+      "item": "draconicevolution:grinder",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_slaughter_factory",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_destruction_catalyst",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_catalitic_lens",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_rm_morning_star",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
     }
   ],
@@ -245,6 +401,18 @@
     {
       "item": "rftools:storage_scanner",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "166": [
@@ -263,6 +431,18 @@
     {
       "item": "rftools:storage_scanner",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "423": [
@@ -280,6 +460,18 @@
     },
     {
       "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
     }
   ],
@@ -311,6 +503,30 @@
     {
       "item": "industrialforegoing:mob_slaughter_factory",
       "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_destruction_catalyst",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_catalitic_lens",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_rm_morning_star",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "171": [
@@ -340,6 +556,30 @@
     },
     {
       "item": "industrialforegoing:mob_slaughter_factory",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_destruction_catalyst",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_catalitic_lens",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_rm_morning_star",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
     }
   ],
@@ -371,6 +611,30 @@
     {
       "item": "industrialforegoing:mob_slaughter_factory",
       "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_destruction_catalyst",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_catalitic_lens",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_rm_morning_star",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "173": [
@@ -401,6 +665,30 @@
     {
       "item": "industrialforegoing:mob_slaughter_factory",
       "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_destruction_catalyst",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_catalitic_lens",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_rm_morning_star",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "802": [
@@ -427,6 +715,18 @@
     {
       "item": "industrialforegoing:mob_slaughter_factory",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "1": [
@@ -441,6 +741,18 @@
     {
       "item": "abyssalcraft:unique_scroll",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "146": [
@@ -454,6 +766,18 @@
     },
     {
       "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
     }
   ],
@@ -484,6 +808,18 @@
     },
     {
       "item": "enderutilities:enderbow",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
     }
   ],
@@ -519,6 +855,30 @@
     {
       "item": "rftools:storage_scanner",
       "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_destruction_catalyst",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_catalitic_lens",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_rm_morning_star",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "163": [
@@ -529,11 +889,35 @@
     {
       "item": "rftools:storage_scanner",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "151": [
     {
       "item": "extrautils2:terraformer",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
     }
   ],
@@ -549,17 +933,65 @@
     {
       "item": "rftools:storage_scanner",
       "damage": "*"
+    },
+    {
+      "item": "xreliquary:rod_of_lyssa",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "4": [
     {
       "item": "rftools:storage_scanner",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "425": [
     {
       "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
     }
   ],
@@ -579,11 +1011,35 @@
     {
       "item": "industrialforegoing:mob_slaughter_factory",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "51": [
     {
       "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
     }
   ],
@@ -591,11 +1047,35 @@
     {
       "item": "rftools:storage_scanner",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "180": [
     {
       "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
     }
   ],
@@ -603,11 +1083,35 @@
     {
       "item": "rftools:storage_scanner",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "182": [
     {
       "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
     }
   ],
@@ -627,11 +1131,35 @@
     {
       "item": "industrialforegoing:mob_slaughter_factory",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "164": [
     {
       "item": "rftools:storage_scanner",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
     }
   ],
@@ -663,6 +1191,18 @@
     {
       "item": "abyssalcraft:unique_scroll",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ],
   "424": [
@@ -677,6 +1217,237 @@
     {
       "item": "industrialforegoing:mob_slaughter_factory",
       "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    }
+  ],
+  "800": [
+    {
+      "item": "draconicevolution:grinder",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_relocator",
+      "damage": "*"
+    },
+    {
+      "item": "industrialforegoing:mob_slaughter_factory",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    }
+  ],
+  "813": [
+    {
+      "item": "projecte:item.pe_destruction_catalyst",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_catalitic_lens",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_rm_morning_star",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    }
+  ],
+  "819": [
+    {
+      "item": "projecte:item.pe_destruction_catalyst",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_catalitic_lens",
+      "damage": "*"
+    },
+    {
+      "item": "projecte:item.pe_rm_morning_star",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    }
+  ],
+  "0": [
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    }
+  ],
+  "43": [
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    }
+  ],
+  "144": [
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    }
+  ],
+  "-1": [
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    }
+  ],
+  "7": [
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    }
+  ],
+  "66": [
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    }
+  ],
+  "20": [
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    }
+  ],
+  "14676": [
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    }
+  ],
+  "19": [
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    }
+  ],
+  "-2": [
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
     }
   ]
+
 }

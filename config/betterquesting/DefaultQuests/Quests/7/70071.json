@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Can be found between Y\u003d5 and Y\u003d132.\nCan be dropped by a Runic Guardian.\nCan be obtained by Deep Cases.\n\n- Written by Bluecat",
+      "desc:8": "§7§oCan be found between Y\u003d5 and Y\u003d132.\nCan be dropped by a Runic Guardian.\nCan be obtained by Deep Cases.\n\n- Written by Bluecat",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:runium_chunk"

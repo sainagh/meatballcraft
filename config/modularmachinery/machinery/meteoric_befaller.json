@@ -8,9 +8,9 @@
             "x": 0,
             "y": 3,
             "z": 5,
-            "description": "8X speed",
+            "description": "速度x8",
             "modifier": {
-                "io": "output",
+                "io": "input",
                 "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.125
