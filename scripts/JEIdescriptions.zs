@@ -4478,7 +4478,7 @@ mods.jei.JEI.addDescription([
     "这些方块可使用染料染色顶部颜色槽来设置为不同频率。颜色频率相同的箱子和蓄水槽之间互相连接，共享物品栏/流体存储。",
     "",
     "末影袋子可通过Shift右击末影箱子来与其连接。可通过袋子直接访问物品栏，而无需打开箱子。"
-;
+]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:custom_dimlets>,
