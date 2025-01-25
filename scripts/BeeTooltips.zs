@@ -369,7 +369,13 @@ static EFFECTS as IData = {
     "magicbees.speciesUnusual": "None",
     "magicbees.speciesWatery": "None",
     "magicbees.speciesWindy": "None",
-    "magicbees.speciesWithering": "Withering"
+    "magicbees.speciesWithering": "Withering",
+    "gendustry.bee.Tinkerest": "None",
+    "gendustry.bee.Serenading": "None",
+    "gendustry.bee.Helium": "None",
+    "gendustry.bee.Nucleartechnician": "None",
+    "gendustry.bee.Fluorine": "None",
+    "gendustry.bee.Thermallyexpanded": "None"
 } as IData;
 
 static EFFECT_DESCRIPTIONS as IData = {

@@ -9,7 +9,9 @@ mods.ItemStages.stageEnchant("bloodmasterstage", <enchantment:cofhcore:multishot
 
 mods.ItemStages.stageEnchant("brightsteelforging", <enchantment:tombstone:shadow_step>);
 
-mods.ItemStages.stageEnchant("lostcitiesstage", <enchantment:thaumictinkerer:finalstrike>);
+mods.ItemStages.stageEnchant("brightsteelforging", <enchantment:thaumictinkerer:pounce>);
+
+mods.ItemStages.stageEnchant("camerastage", <enchantment:thaumictinkerer:finalstrike>);
 
 mods.ItemStages.addItemStage("camerastage", <extrabotany:buddhistrelics>);
 mods.ItemStages.addItemStage("camerastage", <extrabotany:camera>);

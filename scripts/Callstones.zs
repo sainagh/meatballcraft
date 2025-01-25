@@ -4320,6 +4320,8 @@ recursivepaperfaithfulundead.itemRightClick = function(stack, world, player, han
     Commands.call("summon mod_lavacow:banshee ~ ~3 ~", player, world, false, true);
     Commands.call("summon mod_lavacow:mummy ~ ~3 ~", player, world, false, true);
     Commands.call("summon mod_lavacow:sludgelord ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:amberlord ~ ~3 ~", player, world, false, true);
+    Commands.call("summon mod_lavacow:cactyrant ~ ~3 ~", player, world, false, true);
 
     Commands.call("summon mod_lavacow:zombiemushroom ~ ~3 ~", player, world, false, true);
     Commands.call("summon mod_lavacow:ithaqua ~ ~3 ~", player, world, false, true);
@@ -4431,7 +4433,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    player.sendChat("Stand on top of a tier 1 beacon pyramid with 9 Hyperuranon Actualizing Fabrials");
+    player.sendChat("Stand on top of a tier 1 beacon pyramid with 9 Hyperuranion Actualizing Fabrials");
 
     player.sendChat("Checking Player Position");
     player.sendChat("==================================================");
@@ -4453,7 +4455,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos1.z = pos1.z;
     var blockPos1 = pos1.asBlockPos();
     var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState1 != "Hyperuranon Actualizing Fabrial") {
+    if(blockState1 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState1 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4464,7 +4466,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
     var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState2 != "Hyperuranon Actualizing Fabrial") {
+    if(blockState2 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState2 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4475,7 +4477,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos3.z = pos3.z;
     var blockPos3 = pos3.asBlockPos();
     var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState3 != "Hyperuranon Actualizing Fabrial") {
+    if(blockState3 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState3 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4486,7 +4488,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
     var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState4 != "Hyperuranon Actualizing Fabrial") {
+    if(blockState4 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState4 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4497,7 +4499,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos5.z = pos5.z - 1;
     var blockPos5 = pos5.asBlockPos();
     var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState5 != "Hyperuranon Actualizing Fabrial") {
+    if(blockState5 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState5 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4508,7 +4510,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos6.z = pos6.z + 1;
     var blockPos6 = pos6.asBlockPos();
     var blockState6 = world.getBlock(blockPos6).definition.displayName as string;
-    if(blockState6 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState6 != "Hyperuranon Actualizing Fabrial") {
+    if(blockState6 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState6 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4519,7 +4521,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos7.z = pos7.z - 1;
     var blockPos7 = pos7.asBlockPos();
     var blockState7 = world.getBlock(blockPos7).definition.displayName as string;
-    if(blockState7 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState7 != "Hyperuranon Actualizing Fabrial") {
+    if(blockState7 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState7 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4530,7 +4532,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos8.z = pos8.z + 1;
     var blockPos8 = pos8.asBlockPos();
     var blockState8 = world.getBlock(blockPos8).definition.displayName as string;
-    if(blockState8 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState8 != "Hyperuranon Actualizing Fabrial") {
+    if(blockState8 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState8 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4541,7 +4543,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos9.z = pos9.z - 1;
     var blockPos9 = pos9.asBlockPos();
     var blockState9 = world.getBlock(blockPos9).definition.displayName as string;
-    if(blockState9 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState8 != "Hyperuranon Actualizing Fabrial") {
+    if(blockState9 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState8 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4872,7 +4874,7 @@ meatballmancallstone.itemRightClick = function(stack, world, player, hand) {
 
     player.sendChat("Stand on top of of the following blocks:");
     player.sendChat("Hungering Machine Case (top)");
-    player.sendChat("Hyperuranon Actualizing Fabrial (middle)");
+    player.sendChat("Hyperuranion Actualizing Fabrial (middle)");
     player.sendChat("Mythic Excavation reactor (bottom)");
 
     player.sendChat("Checking Player Position");
@@ -4895,7 +4897,7 @@ meatballmancallstone.itemRightClick = function(stack, world, player, hand) {
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
     var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState2 != "Hyperuranion Actualizing Fabrial") {
+    if(blockState2 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState2 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing Hyperuranion Actualizing Fabrial");
         return "FAIL";
     }

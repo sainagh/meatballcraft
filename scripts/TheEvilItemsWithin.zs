@@ -465,9 +465,14 @@ blackholecore.register();
 var condensedessence = VanillaFactory.createItem("condensed_essence");
 condensedessence.maxStackSize = 64;
 condensedessence.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("xp 10000 @p", player, world, true, true);
+    if (player.isSneaking) {
+    Commands.call("xp " + (10000 * stack.amount) + " @p", player, world, true, true);
+    stack.shrink(stack.amount);
+    } else {
+    Commands.call("xp 10000 @p", player, world, true, true);
     stack.shrink(1);
-	return "Pass";
+    }
+    return "Pass";
 };
 condensedessence.glowing = true;
 condensedessence.register();

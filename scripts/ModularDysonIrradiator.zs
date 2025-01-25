@@ -164,6 +164,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:irradiator_casing>
 
 
 val hyperdenseplasmacent = RecipeBuilder.newBuilder("hyperdenseplasmacent","iron_centrifuge",200);
+hyperdenseplasmacent.addEnergyPerTickInput(1000000);
 hyperdenseplasmacent.addFluidInput(<fluid:chaotic_matter>*50);
 hyperdenseplasmacent.addFluidInput(<fluid:nightmarish_matter>*50);
 hyperdenseplasmacent.addFluidInput(<fluid:universal_matter>*50);
@@ -592,12 +593,12 @@ mods.extendedcrafting.TableCrafting.addShaped(<glassential:glass_light>*32,
 [<thermalfoundation:glass_alloy:6>, <contenttweaker:high_refraction_alloy_ingot>, <nuclearcraft:heat_exchanger_frame>, <contenttweaker:brightsteel_alloy_ingot>, <nuclearcraft:heat_exchanger_frame>, <contenttweaker:high_refraction_alloy_ingot>, <thermalfoundation:glass_alloy:6>], 
 [<thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>]]);  
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:pulsar_screen>, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:pulsar_screen>*2, 
 [[<contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>], 
 [<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
-[<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <nuclearcraft:accelerator_electromagnet_idle>, <contenttweaker:atomic_mirror>, <contenttweaker:atomic_mirror>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
-[<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <nuclearcraft:accelerator_electromagnet_idle>, <contenttweaker:atomic_mirror>, <contenttweaker:well_defined_machine_case>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
-[<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <nuclearcraft:accelerator_electromagnet_idle>, <contenttweaker:atomic_mirror>, <contenttweaker:atomic_mirror>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
+[<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <contenttweaker:atomic_mirror>, <contenttweaker:atomic_mirror>, <contenttweaker:atomic_mirror>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
+[<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <contenttweaker:atomic_mirror>, <contenttweaker:well_defined_machine_case>, <contenttweaker:atomic_mirror>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
+[<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <contenttweaker:atomic_mirror>, <contenttweaker:atomic_mirror>, <contenttweaker:atomic_mirror>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
 [<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
 [<contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>]]);  
 

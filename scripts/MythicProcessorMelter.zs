@@ -655,3 +655,9 @@ mythmelt645.addEnergyPerTickInput(60000);
 mythmelt645.addItemInput(<contenttweaker:world_corrupting_sentient_meatball>);
 mythmelt645.addFluidOutput(<fluid:flesh_world_ichor> * 32000);
 mythmelt645.build();
+
+val mythmelt646 = RecipeBuilder.newBuilder("mythmelt646","mythic_processor_melter",2);
+mythmelt646.addEnergyPerTickInput(60000);
+mythmelt646.addItemInput(<contenttweaker:rosidian_ingot>);
+mythmelt646.addFluidOutput(<fluid:rosidian> * 144);
+mythmelt646.build();

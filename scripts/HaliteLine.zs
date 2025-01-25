@@ -57,11 +57,11 @@ creationwarren.build();
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:halite_imbuement_fabrial>, 
-[[<contenttweaker:perfected_gallifreyan_plate>, <thaumcraft:mechanism_complex>, <conarm:armor_plate>.withTag({Material: "manyullyn"}), <thaumcraft:mechanism_complex>, <contenttweaker:perfected_gallifreyan_plate>], 
+[[<contenttweaker:perfected_gallifreyan_plate>, <thaumcraft:mechanism_complex>, <tconstruct:large_plate>.withTag({Material: "manyullyn"}), <thaumcraft:mechanism_complex>, <contenttweaker:perfected_gallifreyan_plate>], 
 [<thaumcraft:mechanism_complex>, <contenttweaker:ancient_recursion>, <contenttweaker:halite_warrior>, <contenttweaker:primordial_recursion>, <thaumcraft:mechanism_complex>], 
-[<conarm:armor_plate>.withTag({Material: "manyullyn"}), <contenttweaker:halite_warrior>, <contenttweaker:gallifrey_fabrial>, <contenttweaker:halite_warrior>, <conarm:armor_plate>.withTag({Material: "manyullyn"})], 
+[<tconstruct:large_plate>.withTag({Material: "manyullyn"}), <contenttweaker:halite_warrior>, <contenttweaker:gallifrey_fabrial>, <contenttweaker:halite_warrior>, <tconstruct:large_plate>.withTag({Material: "manyullyn"})], 
 [<thaumcraft:mechanism_complex>, <contenttweaker:immortal_recursion>, <contenttweaker:halite_warrior>, <contenttweaker:temporal_recursion>, <thaumcraft:mechanism_complex>], 
-[<contenttweaker:perfected_gallifreyan_plate>, <thaumcraft:mechanism_complex>, <conarm:armor_plate>.withTag({Material: "manyullyn"}), <thaumcraft:mechanism_complex>, <contenttweaker:perfected_gallifreyan_plate>]]);  
+[<contenttweaker:perfected_gallifreyan_plate>, <thaumcraft:mechanism_complex>, <tconstruct:large_plate>.withTag({Material: "manyullyn"}), <thaumcraft:mechanism_complex>, <contenttweaker:perfected_gallifreyan_plate>]]);  
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:pure_halite_cluster>, 
 

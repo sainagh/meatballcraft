@@ -1303,7 +1303,7 @@
       "aoa3:voxxulon"],
       "onjoin": true,
       "result": "allow",
-      "healthmultiply": 2.0,
+      "healthmultiply": 5.0,
       "damagemultiply": 4.0,
       "speedmultiply": 1.0,
       "potion": ["minecraft:fire_resistance,999999,1",

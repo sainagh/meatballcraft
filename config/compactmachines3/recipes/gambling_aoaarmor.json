@@ -13,11 +13,11 @@
 
     "input-types": {
       "a": {
-        "id": "twilightforest:castle_brick",
-        "meta": 2
+        "id": "aoa3:yellow_shyre_bricks",
+        "meta": 0
       },
       "b": {
-        "id": "thaumcraft:metal_void",
+        "id": "divinerpg:bedrock_minibricks",
         "meta": 0
       },
       "c": {

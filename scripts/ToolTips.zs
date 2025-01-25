@@ -1494,6 +1494,8 @@
 <ore:ingotFractalliteHalite>.addTooltip(format.red("okay (solo)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("IridiumSky, maxwell_lt, Darkally (team)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Origami10004, Lumamaster, Kafuruu (team)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("MrRepside (solo)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("hael (solo)"));
 
 <contenttweaker:terrestrial_animator_0>.addTooltip(format.red("Can be used in a mechanical user"));
 <contenttweaker:terrestrial_animator_1>.addTooltip(format.red("Can be used in a mechanical user"));
@@ -1687,7 +1689,7 @@
 
 <contenttweaker:skelebone_fragment>.addTooltip(format.red("Light likes even consumption of items!"));
 
-<testdummy:dummy>.addTooltip(format.red("WARNING: do not put armor on the dummy, it can corrupt things"));
+<testdummy2:dummy>.addTooltip(format.red("WARNING: do not put armor on the dummy, it can corrupt things"));
 
 <contenttweaker:star_of_betrayal>.addTooltip(format.red("Thanks to Vamael for figuring out the shielding attribute!"));
 
@@ -1753,7 +1755,7 @@
 <contenttweaker:darkstar_collector>.addTooltip(format.red("Multiblock Upgrade, Gravitite Enchanter: 95% fluid discount, 20X speed"));
 <contenttweaker:omothol_containment_stone>.addTooltip(format.red("Multiblock Upgrade, LP Harvester: 5X output"));
 <avaritia:block_resource:0>.addTooltip(format.red("Multiblock Upgrade, Mythic Excavation Reactor: 5X speed"));
-<contenttweaker:mythic_coil_t2>.addTooltip(format.red("Multiblock Upgrade, Mythic Excavation Processors: parallelization"));
+<contenttweaker:mythic_coil_t2>.addTooltip(format.red("Multiblock Upgrade, Mythic Processors: parallelization"));
 <contenttweaker:omothol_containment_stone>.addTooltip(format.red("Multiblock Upgrade, Mythic PE Sterilizer: 5X output"));
 <contenttweaker:nightmare_block>.addTooltip(format.red("Multiblock Upgrade, Plasmatic Controller: 400X output"));
 <divinerpg:eden_planks>.addTooltip(format.red("Multiblock Upgrade, Plated Carpenter: 10X speed"));
@@ -1840,6 +1842,10 @@
 
 <contenttweaker:warren_rift>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:essence_of_the_mythic_shells>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:helpful_tippy_hat>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:diary_of_a_realmshifter>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:true_chaos>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:multiblock_sticc>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 
 <contenttweaker:fragment_of_creation>.addTooltip(format.red("Thanks to NerdySpider for the Light of Shadesmar crafting item textures!"));
 <contenttweaker:light_of_shadesmar>.addTooltip(format.red("Thanks to NerdySpider for the Light of Shadesmar crafting item textures!"));
@@ -2157,7 +2163,42 @@
 <ae2fc:fluid_level_maintainer>.addTooltip(format.red("It still can be useful for some setups in subnets"));
 <ae2fc:fluid_level_maintainer>.addTooltip(format.red("Thanks to kurrycat for improving its performance"));
 
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("Warper"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("Stand in the middle of the structure shown in JEI to activate it"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("WARNING: For worlds created before beta-0.15, you may have to manually generate the dimension"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("Close the pack, and do a backup of your world"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("Copy the 'plantDefs.xml' file from config > advRocketry into saves > worldname > advRocketry"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("Start the pack, and use this item again"));
 
+<contenttweaker:lucky_box_aether_bronze>.addTooltip(format.red("Thanks to UselessForce for the Lucky Box texture"));
+<contenttweaker:lucky_box_twilight_weapons>.addTooltip(format.red("Thanks to UselessForce for the Lucky Box texture"));
+
+<contenttweaker:cleansing_callstone>.addTooltip(format.red("bwuh reminds you to take a shower!"));
+
+<contenttweaker:skeletal_callstone>.addTooltip(format.red("Thanks to bwuh and DrMirrus for the dimension tooltips on Callstones!"));
+<contenttweaker:fluix_callstone>.addTooltip(format.red("Thanks to bwuh and DrMirrus for the dimension tooltips on Callstones!"));
+<contenttweaker:betweenlands_callstone_0>.addTooltip(format.red("Thanks to bwuh and DrMirrus for the dimension tooltips on Callstones!"));
+
+<contenttweaker:construct_of_will>.addTooltip(format.red("Thanks to Darkromano for the texture!"));
+
+<randomthings:basicredstoneinterface>.addTooltip(format.red("WARNING: this is very laggy, there is no need to use it"));
+<randomthings:advancedredstoneinterface>.addTooltip(format.red("WARNING: this is very laggy, there is no need to use it"));
+
+<storagedrawers:upgrade_creative>.addTooltip(format.red("WARNING: do not take out after upgrading a drawer"));
+
+<contenttweaker:condensed_essence>.addTooltip(format.red("Thanks to osto for adding the shift + right click option!"));
+
+<contenttweaker:alchemical_particle>.addTooltip(format.red("Can be crafted in the multiblock using the ME Machinery Input Bus"));
+
+<tconstruct:large_sword_blade>.withTag({Material: "dragonsteel_lightning"}).addTooltip(format.red("AshThaMoth mourns the loss of Construct's Armory"));
+
+<opeq:stabilization_tape>.addTooltip(format.red("Craft with select items to prevent them being burned by the Transmutation Table"));
+<opeq:stabilization_tape>.addTooltip(format.red("NOTE: if too many items are stabilized, it may cause lag"));
+<opeq:stabilization_tape>.addTooltip(format.red("Use the scissors to de-stabilize items"));
+
+<contenttweaker:mythic_coil_t1>.addTooltip(format.red("For Mythic Processors, ME Machinery Output Buses are the fastest way to export items"));
+<contenttweaker:draconium_electromagnet>.addTooltip(format.red("For Mythic Processors, ME Machinery Output Buses are the fastest way to export items"));
+<contenttweaker:awakened_electromagnet>.addTooltip(format.red("For Mythic Processors, ME Machinery Output Buses are the fastest way to export items"));
 
 
 
