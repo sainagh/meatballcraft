@@ -301,7 +301,8 @@
     "thaumcraft:cultistportalgreater",
     "thaumcraft:cultistportallesser",
     "mowziesmobs:frostmaw",
-    "divinerpg:behemoth"
+    "divinerpg:behemoth",
+    "minecraft:zombie"
   ],
   "entitywhitelist": [
   ],
