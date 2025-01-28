@@ -2689,7 +2689,7 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:altar_of_corruption>.addTooltip(format.red("和附魔台一样，但是不需要书架！"));
 
-<modularmachinery:itemblueprint>.addTooltip(format.red("使用木棍右击专用的控制器进行自动搭建！"));
+<modularmachinery:itemblueprint>.addTooltip(format.red("使用多方块棒棒右击专用的控制器进行自动搭建！"));
 
 <contenttweaker:bloodmaster_metal_chest>.addTooltip(format.red("感谢WearyCat帮助撰写剧情！"));
 
