@@ -1991,7 +1991,7 @@
 <nuclearcraft:boron:*>.addTooltip(format.red("感谢Mathias添加的神话金属熔化机配方！"));
 <nuclearcraft:lithium:*>.addTooltip(format.red("感谢Mathias添加的神话金属熔化机配方！"));
 
-<agricraft:agri_seed>.withTag({agri_seed: "vanilla:potato_plant"}).addTooltip(format.red("在作物架上种植胡萝卜以获得该物品"));
+<agricraft:agri_seed>.withTag({agri_seed: "vanilla:potato_plant"}).addTooltip(format.red("在作物架上种植马铃薯以获得该物品"));
 
 <agricraft:agri_seed>.withTag({agri_seed: "vanilla:carrot_plant"}).addTooltip(format.red("在作物架上种植胡萝卜以获得该物品"));
 
