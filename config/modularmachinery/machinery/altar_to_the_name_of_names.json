@@ -1,6 +1,6 @@
 {
     "registryname": "altar_to_the_name_of_names",
-    "localizedname": "万名之名祭坛",
+    "localizedname": "Altar to the Name of Names",
 	"color": "695000",
     "parts": [
         {
@@ -70481,6 +70481,30 @@
             "z": -19,
             "elements": [
                 "railcraft:sandy@1"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 3,
+            "z": -21,
+            "elements": [
+                "chisel:sandstoneyellow1@1"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 3,
+            "z": -22,
+            "elements": [
+                "chisel:sandstoneyellow2@1"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 3,
+            "z": -22,
+            "elements": [
+                "chisel:sandstoneyellow1@1"
             ]
         }
     ]}

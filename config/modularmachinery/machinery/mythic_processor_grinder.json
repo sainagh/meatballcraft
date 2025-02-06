@@ -1,6 +1,6 @@
 {
     "registryname": "mythic_processor_grinder",
-    "localizedname": "递归处理器：工业磨粉机",
+    "localizedname": "Recursive Processor: Grinder",
 	"color": "464f47",
     "parts": [
         {
