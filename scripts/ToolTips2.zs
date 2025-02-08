@@ -725,7 +725,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:the_dark_star>.addTooltip(format.red("发现于高处"));
 
-<contenttweaker:purity_offer>.addTooltip(format.red("由白雏菊放置"));
+<contenttweaker:purity_offer>.addTooltip(format.red("放置于白雏菊旁"));
 
 <contenttweaker:eden_refined_gem>.addTooltip(format.red("发现于伊甸某处"));
 
