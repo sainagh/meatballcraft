@@ -6,7 +6,7 @@ import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
-var foregoingsludgeJEI as IJeiPanel = JEI.createJei("foregoing_plant_gatherer", "收割机");
+var foregoingsludgeJEI as IJeiPanel = JEI.createJei("foregoing_plant_gatherer", "植物收割机");
 foregoingsludgeJEI.setModid("Industrial Foregoing");
 foregoingsludgeJEI.setIcon(<industrialforegoing:crop_recolector>);
 foregoingsludgeJEI.addRecipeCatalyst(<industrialforegoing:crop_recolector>);

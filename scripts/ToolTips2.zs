@@ -176,13 +176,13 @@ import crafttweaker.item.IItemCondition;
 <abyssalcraft:shadowshard>.addTooltip(format.red("若运气实在太差，阴影活物刷怪蛋存在配方"));
 <abyssalcraft:shadowgem>.addTooltip(format.red("若运气实在太差，阴影活物刷怪蛋存在配方"));
 
-<abyssalcraft:shadowfragment>.addTooltip(format.red("可使用自动刷怪机和屠宰机获得"));
-<abyssalcraft:shadowshard>.addTooltip(format.red("可使用自动刷怪机和屠宰机获得"));
-<abyssalcraft:shadowgem>.addTooltip(format.red("可使用自动刷怪机和屠宰机获得"));
+<abyssalcraft:shadowfragment>.addTooltip(format.red("可使用生物复制机和生物粉碎机获得"));
+<abyssalcraft:shadowshard>.addTooltip(format.red("可使用生物复制机和生物粉碎机获得"));
+<abyssalcraft:shadowgem>.addTooltip(format.red("可使用生物复制机和生物粉碎机获得"));
 
 <abyssalcraft:shoggothflesh:0>.addTooltip(format.red("修格斯掉落，位于主世界的修格斯巢穴"));
 
-<contenttweaker:conductive_powder>.addTooltip(format.red("淤泥由工业先锋模组的收割机产出"));
+<contenttweaker:conductive_powder>.addTooltip(format.red("淤泥由工业先锋模组的植物收割机产出"));
 
 <extratrees:food:7>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？） - 在JEI中查看跃迁器"));
 
@@ -785,13 +785,13 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:staff_of_iceika>.addTooltip(format.red("在冰冻世界的城堡中使用"));
 
-<teslacorelib:energy_tier1>.addTooltip(format.red("警告：频繁加载卸载区块有概率导致机器被删除，放置在你不会经常前往的区块"));
+<teslacorelib:energy_tier1>.addTooltip(format.red("警告：频繁加载卸载区块有概率导致生物粉碎机被删除，放置在你不会经常前往的区块"));
 
-<teslacorelib:energy_tier2>.addTooltip(format.red("警告：频繁加载卸载区块有概率导致机器被删除，放置在你不会经常前往的区块"));
+<teslacorelib:energy_tier2>.addTooltip(format.red("警告：频繁加载卸载区块有概率导致生物粉碎机被删除，放置在你不会经常前往的区块"));
 
-<teslacorelib:speed_tier1>.addTooltip(format.red("警告：频繁加载卸载区块有概率导致机器被删除，放置在你不会经常前往的区块"));
+<teslacorelib:speed_tier1>.addTooltip(format.red("警告：频繁加载卸载区块有概率导致生物粉碎机被删除，放置在你不会经常前往的区块"));
 
-<teslacorelib:speed_tier2>.addTooltip(format.red("警告：频繁加载卸载区块有概率导致机器被删除，放置在你不会经常前往的区块"));
+<teslacorelib:speed_tier2>.addTooltip(format.red("警告：频繁加载卸载区块有概率导致生物粉碎机被删除，放置在你不会经常前往的区块"));
 
 <contenttweaker:dragon_egg_omelette>.addTooltip(format.red("伟大的牺牲（Fabulous_Ampharos幽默感不错）"));
 
@@ -1163,7 +1163,7 @@ import crafttweaker.item.IItemCondition;
 
 <environmentaltech:litherite_crystal>.addTooltip(format.red("最好先用建造机和采掘塑形卡，合成这些东西可得好一会儿……"));
 
-<contenttweaker:experienced_spider_eye>.addTooltip(format.red("使用屠宰机产出精华液"));
+<contenttweaker:experienced_spider_eye>.addTooltip(format.red("使用生物粉碎机产出精华液"));
 
 <thaumcraft:taint_rock>.addTooltip(format.red("使用精准采集挖掘"));
 
@@ -1193,7 +1193,7 @@ import crafttweaker.item.IItemCondition;
 
 <abyssalcraft:abyingot>.addTooltip(format.red("发现于主世界，存在于黑暗之地（Darklands）群系和龙巢"));
 
-<agricraft:crop_sticks>.addTooltip(format.red("收割机可在不破坏作物架的情况下收获产物"));
+<agricraft:crop_sticks>.addTooltip(format.red("植物收割机可在不破坏作物架的情况下收获产物"));
 
 <contenttweaker:dreadful_bone>.addTooltip(format.red("别担心，只是番茄酱 -reginull"));
 
@@ -1940,7 +1940,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:strange_charm>.addTooltip(format.red("使用我 ;)"));
 
-<industrialforegoing:mob_duplicator>.addTooltip(format.red("屠宰机配合诅咒之土刷怪场是获得精华液的最佳手段"));
+<industrialforegoing:mob_duplicator>.addTooltip(format.red("生物粉碎机配合诅咒之土刷怪场是获得精华液的最佳手段"));
 <industrialforegoing:mob_duplicator>.addTooltip(format.red("在暗室中使用邪恶点滴右击泥土来生成诅咒之土"));
 
 <cyclicmagic:beacon_potion>.addTooltip(format.red("通过星炬召唤石获得"));
