@@ -892,7 +892,7 @@ mythallo121.build();
 val mythallo122 = RecipeBuilder.newBuilder("mythallo122","mythic_processor_alloy_furnace",2);
 mythallo122.addEnergyPerTickInput(80000);
 mythallo122.addItemInput(<ore:dustRedstone>*10);
-mythallo122.addItemInput(<ore:diamond>*2);
+mythallo122.addItemInput(<ore:gemDiamond>*2);
 mythallo122.addItemOutput(<redstonearsenal:material:160>*2);
 mythallo122.build();
 
