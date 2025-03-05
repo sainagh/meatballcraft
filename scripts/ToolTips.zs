@@ -1022,6 +1022,8 @@
 
 <contenttweaker:monumentally_sentient_meatball>.addTooltip(format.red("To obtain the required crafting materials, surround the right Tributes to the Meatball Man with the right building blocks - a book in Zoi will guide you"));
 
+<contenttweaker:shield_of_the_arbiter>.addTooltip(format.red("To obtain the required crafting materials, surround the right Shields to the Arbiter with the right building blocks - a book in Lyndenwyrm will guide you"));
+
 <contenttweaker:rainbow_fire>.addTooltip(format.red("Tribute to the Meatball Man"));
 <contenttweaker:blue_hair>.addTooltip(format.red("Tribute to the Meatball Man"));
 <contenttweaker:ai_art>.addTooltip(format.red("Tribute to the Meatball Man"));
@@ -1031,6 +1033,17 @@
 <contenttweaker:italian_flag>.addTooltip(format.red("Tribute to the Meatball Man"));
 <contenttweaker:sausage_sandwich>.addTooltip(format.red("Tribute to the Meatball Man"));
 <contenttweaker:kitty_smile>.addTooltip(format.red("Tribute to the Meatball Man"));
+
+<contenttweaker:spooder_glasses>.addTooltip(format.red("Shield to the Arbiter"));
+<contenttweaker:massive_boomboom>.addTooltip(format.red("Shield to the Arbiter"));
+<contenttweaker:emc_crown>.addTooltip(format.red("Shield to the Arbiter"));
+<contenttweaker:atomic_glasses>.addTooltip(format.red("Shield to the Arbiter"));
+<contenttweaker:cool_walking_stick>.addTooltip(format.red("Shield to the Arbiter"));
+<contenttweaker:horrible_unedited_fanfiction>.addTooltip(format.red("Shield to the Arbiter"));
+<contenttweaker:null_pointer>.addTooltip(format.red("Shield to the Arbiter"));
+<contenttweaker:p0rtals_redish_white_hat>.addTooltip(format.red("Shield to the Arbiter"));
+<contenttweaker:collar_bells>.addTooltip(format.red("Shield to the Arbiter"));
+
 
 <thaumcraft:stone_ancient_rock>.addTooltip(format.red("Thanks to Artemis and birdie for adding microblocks for decorative blocks!"));
 <botania:bifrostperm>.addTooltip(format.red("Thanks to Artemis and birdie for adding microblocks for decorative blocks!"));
@@ -1496,6 +1509,10 @@
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Origami10004, Lumamaster, Kafuruu (team)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("MrRepside (solo)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("hael (solo)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("adrin58 (solo)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("Broomey2 (solo)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("The2ThatR1 (solo)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("mewmaister (solo)"));
 
 <contenttweaker:terrestrial_animator_0>.addTooltip(format.red("Can be used in a mechanical user"));
 <contenttweaker:terrestrial_animator_1>.addTooltip(format.red("Can be used in a mechanical user"));
@@ -1535,6 +1552,9 @@
 
 <contenttweaker:flesh_of_the_gluttonous_one>.addTooltip(format.red("Thanks to Foucs for the Gluttonous Flesh crafting chain textures!"));
 <contenttweaker:fluit_of_flesh>.addTooltip(format.red("Thanks to Foucs for the Gluttonous Flesh crafting chain textures!"));
+
+<contenttweaker:hungering_flesh_ingot>.addTooltip(format.red("Essence of betrayal is originally crafted as a bucket manually, then it can be duplicated"));
+
 <contenttweaker:hungering_flesh_ingot>.addTooltip(format.red("Thanks to Foucs for the Gluttonous Flesh crafting chain textures!"));
 
 <mod_lavacow:sharptooth>.addTooltip(format.red("Dropped by Foglet, Swarmer, Undead Swine"));
@@ -1702,24 +1722,33 @@
 <botania:lens:4>.addTooltip(format.red("Mana loss rate is x0.2, and time before loss is 1.1x"));
 
 <botania:spreader:0>.addTooltip(format.red("Thanks to koos for compiling spreader stats!"));
+//Mana spreader
 <botania:spreader:0>.addTooltip(format.red("Holds 1000 mana"));
 <botania:spreader:0>.addTooltip(format.red("Sends 160 mana per burst"));
 <botania:spreader:0>.addTooltip(format.red("Burst travels 4 blocks per second"));
 <botania:spreader:0>.addTooltip(format.red("Burst travels 12 blocks, or 3 seconds, before losing mana"));
 <botania:spreader:0>.addTooltip(format.red("Burst loses 4 mana/t"));
 
+//Pulse spreader
 <botania:spreader:1>.addTooltip(format.red("Holds 1000 mana"));
-<botania:spreader:1>.addTooltip(format.red("Sends 240 mana per burst"));
-<botania:spreader:1>.addTooltip(format.red("Burst travels 5 blocks per second"));
-<botania:spreader:1>.addTooltip(format.red("Burst travels 20 blocks, or 4 seconds, before losing mana"));
+<botania:spreader:1>.addTooltip(format.red("Sends 160 mana per burst"));
+<botania:spreader:1>.addTooltip(format.red("Burst travels 4 blocks per second"));
+<botania:spreader:1>.addTooltip(format.red("Burst travels 12 blocks, or 3 seconds, before losing mana"));
 <botania:spreader:1>.addTooltip(format.red("Burst loses 4 mana/t"));
 
-<botania:spreader:1>.addTooltip(format.red("Holds 6400 mana"));
-<botania:spreader:1>.addTooltip(format.red("Sends 640 mana per burst"));
-<botania:spreader:1>.addTooltip(format.red("Burst travels 8 blocks per second"));
-<botania:spreader:1>.addTooltip(format.red("Burst travels 48 blocks, or 6 seconds, before losing mana"));
-<botania:spreader:1>.addTooltip(format.red("Burst loses 20 mana/t"));
+//Elven spreader
+<botania:spreader:2>.addTooltip(format.red("Holds 1000 mana"));
+<botania:spreader:2>.addTooltip(format.red("Sends 240 mana per burst"));
+<botania:spreader:2>.addTooltip(format.red("Burst travels 5 blocks per second"));
+<botania:spreader:2>.addTooltip(format.red("Burst travels 20 blocks, or 4 seconds, before losing mana"));
+<botania:spreader:2>.addTooltip(format.red("Burst loses 4 mana/t"));
 
+//Gaia spreader
+<botania:spreader:3>.addTooltip(format.red("Holds 6400 mana"));
+<botania:spreader:3>.addTooltip(format.red("Sends 640 mana per burst"));
+<botania:spreader:3>.addTooltip(format.red("Burst travels 8 blocks per second"));
+<botania:spreader:3>.addTooltip(format.red("Burst travels 48 blocks, or 6 seconds, before losing mana"));
+<botania:spreader:3>.addTooltip(format.red("Burst loses 20 mana/t"));
 <gendustry:honey_comb:14023>.addTooltip(format.red("For the joy of Light and LordRaine"));
 
 <extrabotany:ultimatehammer>.addTooltip(format.red("Consumes mana if used as a weapon"));
@@ -1766,6 +1795,16 @@
 <abyssalcraft:ethaxiumbrick:2>.addTooltip(format.red("Multiblock Upgrade, Valonite Gateway: 5X speed"));
 <contenttweaker:elemental_harmonizer>.addTooltip(format.red("Multiblock Upgrade, Wizardry Combiner: 20X speed"));
 <tardis:toyota_hexagon_4>.addTooltip(format.red("Multiblock Upgrade, Mythic Excavation Reactor: 20X speed"));
+<contenttweaker:focused_plasma_collider>.addTooltip(format.red("Multiblock Upgrade, Linear Plasma Accelerator: 10X parallelization"));
+<contenttweaker:superfocused_plasma_collider>.addTooltip(format.red("Multiblock Upgrade, Linear Plasma Accelerator: 100X parallelization"));
+<contenttweaker:hyperfocused_plasma_collider>.addTooltip(format.red("Multiblock Upgrade, Linear Plasma Accelerator: 1000X parallelization"));
+<contenttweaker:halite_bejewelled_ichorium_catalyst>.addTooltip(format.red("Multiblock Upgrade, Thaumic Replicator: 2X fluid output"));
+<contenttweaker:catalyst_of_the_warrens>.addTooltip(format.red("Multiblock Upgrade, Thaumic Replicator: 10X fluid output"));
+<contenttweaker:hihi_irokane_block>.addTooltip(format.red("Multiblock Upgrade, Meteoric Befaller: 8X speed"));
+<contenttweaker:plasma_accelerator_tube>.addTooltip(format.red("Multiblock Upgrade, Particle Accelerator & Mythic Accelerator: 5X speed"));
+<contenttweaker:gallifreyan_neutronium_casing>.addTooltip(format.red("Multiblock Upgrade, Neutronium Cannon & Bombarder: 5X speed"));
+<contenttweaker:quark_neutronium_module>.addTooltip(format.red("Multiblock Upgrade, Quark Decomposer and High Impulse Accelerator: 5X speed"));
+<contenttweaker:well_defined_machine_case>.addTooltip(format.red("Multiblock Upgrade, the CUBE: 5X speed"));
 
 
 <thebetweenlands:lurker_skin_pouch>.addTooltip(format.red("This will let you bring your items into Vethea (yippee)"));
@@ -2143,6 +2182,7 @@
 <contenttweaker:possessed_sky_stone>.addTooltip(format.red("If only some Master of Spellcraft could Order me..."));
 
 <contenttweaker:freed_sky_stone>.addTooltip(format.red("Only for masters of spellcraft!"));
+<contenttweaker:freed_sky_stone>.addTooltip(format.red("Mechanical User friendly :)"));
 
 <draconicevolution:fusion_crafting_core>.addTooltip(format.red("WARNING: do not super sound muffle, it causes lag"));
 
@@ -2199,6 +2239,170 @@
 <contenttweaker:mythic_coil_t1>.addTooltip(format.red("For Mythic Processors, ME Machinery Output Buses are the fastest way to export items"));
 <contenttweaker:draconium_electromagnet>.addTooltip(format.red("For Mythic Processors, ME Machinery Output Buses are the fastest way to export items"));
 <contenttweaker:awakened_electromagnet>.addTooltip(format.red("For Mythic Processors, ME Machinery Output Buses are the fastest way to export items"));
+
+<contenttweaker:infinite_alchemical_plate>.addTooltip(format.red("Hammer Materials: Parafrosynium Tool Rod, Barathosynium Hammer, Adamantium left Plate, Wrought Iron right Plate"));
+<contenttweaker:infinite_recursive_plate>.addTooltip(format.red("Hammer Materials: Runandium Tool Rod, Orichalcum Hammer, kaiyu left Plate, Neutronium right Plate"));
+<contenttweaker:infinite_entropic_plate>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
+
+<contenttweaker:alchemical_deep_rock>.addTooltip(format.red("Break some Deep Cases"));
+
+<contenttweaker:hypercharged_wool>.addTooltip(format.red("Right click a Fading Wool on a special Sheep"));
+<contenttweaker:hypercharged_wool>.addTooltip(format.red("Masters of Spellcraft may know which one..."));
+
+<modularmachinery:blockmefluidoutputbus>.addTooltip(format.red("Use Capacity Cards to inclease its output buffer, this may be required for some machines"));
+
+<contenttweaker:white_hole_core>.addTooltip(format.red("Stand on top of a sednanite stabilizer"));
+
+
+<contenttweaker:shard_of_forgiven_lost_time>.addTooltip(format.red("Thanks to NerdySpider for the Shard Textures!"));
+<contenttweaker:shard_of_humble_education>.addTooltip(format.red("Thanks to NerdySpider for the Shard Textures!"));
+<contenttweaker:shard_of_surrender>.addTooltip(format.red("Thanks to NerdySpider for the Shard Textures!"));
+<contenttweaker:shard_of_restored_faith>.addTooltip(format.red("Thanks to NerdySpider for the Shard Textures!"));
+
+<contenttweaker:abyssal_alloy_ingot>.addTooltip(format.red("Thanks to NerdySpider for the revamp to Ingots!"));
+<contenttweaker:adamantium_ingot>.addTooltip(format.red("Thanks to NerdySpider for the revamp to Ingots!"));
+<contenttweaker:ascended_draconium_ingot>.addTooltip(format.red("Thanks to NerdySpider for the revamp to Ingots!"));
+<contenttweaker:berserker_steel_ingot>.addTooltip(format.red("Thanks to NerdySpider for the revamp to Ingots!"));
+<contenttweaker:brightsteel_alloy_ingot>.addTooltip(format.red("Thanks to NerdySpider for the revamp to Ingots!"));
+<contenttweaker:divine_ironwood_ingot>.addTooltip(format.red("Thanks to NerdySpider for the revamp to Ingots!"));
+<contenttweaker:fluctuating_alloy>.addTooltip(format.red("Thanks to NerdySpider for the revamp to Ingots!"));
+<contenttweaker:high_refraction_alloy_ingot>.addTooltip(format.red("Thanks to NerdySpider for the revamp to Ingots!"));
+<contenttweaker:phasing_alloy_ingot>.addTooltip(format.red("Thanks to NerdySpider for the revamp to Ingots!"));
+
+<contenttweaker:eden_refined_gem>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:wildwood_refined_gem>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:apalachia_refined_gem>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:skythern_refined_gem>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+<contenttweaker:warren_splitter_fabrial>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:strings_crystal>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:stone_of_anima>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:shyre_chunk>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:recursion_of_war>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:rhenium_catalyst>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:solidified_memory>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:supertranslucent_catalyst>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:aesir_rift>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+<contenttweaker:annealed_high_density_frame>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:arc_coil>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:call_of_the_arbiter>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+<contenttweaker:charged_dyson_capacitor>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:pure_warp>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:botanical_pillar>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:eldritch_flower>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:chaotic_summoner>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:clausurae>.addTooltip(format.red("Thanks to NerdySpider for the textures in this chain!"));
+
+<contenttweaker:stable_orbiting_device>.addTooltip(format.red("Thanks to NerdySpider for the textures in this chain!"));
+
+<contenttweaker:dream_cluster>.addTooltip(format.red("Thanks to NerdySpider for the textures in this chain!"));
+<contenttweaker:mithminite_prism>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:crystalline_lens>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:cursed_myrmitite_catalyst>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:core_of_mirroring>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:high_strength_transmission>.addTooltip(format.red("Thanks to NerdySpider for the textures in this chain!"));
+<contenttweaker:ethereal_infusion_stone>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:resonating_eldritch_artifact>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:organic_jade_plate>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:mystical_gem>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:myrmitite_catalyst>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+<contenttweaker:defined_plate>.addTooltip(format.red("Thanks to NerdySpider for all the defined textures!"));
+<contenttweaker:defined_redstone_chipset>.addTooltip(format.red("Thanks to NerdySpider for all the defined textures!"));
+<contenttweaker:defined_insanium_cluster>.addTooltip(format.red("Thanks to NerdySpider for all the defined textures!"));
+<contenttweaker:defined_inferium_cluster>.addTooltip(format.red("Thanks to NerdySpider for all the defined textures!"));
+<contenttweaker:unidentified_plate>.addTooltip(format.red("Thanks to NerdySpider for all the defined textures!"));
+
+<contenttweaker:actualized_warren_alloy>.addTooltip(format.red("Thanks to NerdySpider for the Warren Alloy textures!"));
+
+<contenttweaker:unleashed_mithril_3>.addTooltip(format.red("Thanks to NerdySpider for the Unleashed Mithril textures!"));
+
+<contenttweaker:recursium_ingot>.addTooltip(format.red("Thanks to NerdySpider for the Recursium textures!"));
+
+
+<contenttweaker:arcane_fissile_alloy>.addTooltip(format.aqua("Base Depletion Time: 72 min"));
+<contenttweaker:arcane_fissile_alloy>.addTooltip(format.aqua("Base Power Gen: 1000 RF/t"));
+<contenttweaker:arcane_fissile_alloy>.addTooltip(format.aqua("Base Heat Gen: 52 H/t"));
+
+<contenttweaker:apothecary_fissile_alloy>.addTooltip(format.aqua("Base Depletion Time: 57 min"));
+<contenttweaker:apothecary_fissile_alloy>.addTooltip(format.aqua("Base Power Gen: 1000 RF/t"));
+<contenttweaker:apothecary_fissile_alloy>.addTooltip(format.aqua("Base Heat Gen: 408 H/t"));
+
+<contenttweaker:silvan_fissile_alloy>.addTooltip(format.aqua("Base Depletion Time: 44 min"));
+<contenttweaker:silvan_fissile_alloy>.addTooltip(format.aqua("Base Power Gen: 1000 RF/t"));
+<contenttweaker:silvan_fissile_alloy>.addTooltip(format.aqua("Base Heat Gen: 360 H/t"));
+
+<contenttweaker:innerved_fissile_alloy>.addTooltip(format.aqua("Base Depletion Time: 36 min"));
+<contenttweaker:innerved_fissile_alloy>.addTooltip(format.aqua("Base Power Gen: 1000 RF/t"));
+<contenttweaker:innerved_fissile_alloy>.addTooltip(format.aqua("Base Heat Gen: 112 H/t"));
+
+<contenttweaker:radiant_fissile_alloy>.addTooltip(format.aqua("Base Depletion Time: 83 min"));
+<contenttweaker:radiant_fissile_alloy>.addTooltip(format.aqua("Base Power Gen: 1000 RF/t"));
+<contenttweaker:radiant_fissile_alloy>.addTooltip(format.aqua("Base Heat Gen: 1 H/t"));
+
+
+
+<contenttweaker:actualizing_casing>.addTooltip(format.red("NOTE: it is a good idea to have a redstone-controlled shutoff mechanism for the Warren Extractor multiblocks, as they can get laggy"));
+<contenttweaker:hyperuranion_actualizer_naquadah>.addTooltip(format.red("NOTE: it is a good idea to have a redstone-controlled shutoff mechanism for the Warren Extractor multiblocks, as they can get laggy"));
+<contenttweaker:hyperuranion_actualizer_dimshard>.addTooltip(format.red("NOTE: it is a good idea to have a redstone-controlled shutoff mechanism for the Warren Extractor multiblocks, as they can get laggy"));
+<contenttweaker:hyperuranion_actualizer_dragonsteel>.addTooltip(format.red("NOTE: it is a good idea to have a redstone-controlled shutoff mechanism for the Warren Extractor multiblocks, as they can get laggy"));
+
+<contenttweaker:call_to_mission>.addTooltip(format.red("Warper"));
+<contenttweaker:call_to_mission>.addTooltip(format.red("Stand in the middle of the structure shown in JEI to activate it"));
+<contenttweaker:call_to_mission>.addTooltip(format.red("WARNING: For worlds created before pre-0.18, you may have to manually generate the dimension"));
+<contenttweaker:call_to_mission>.addTooltip(format.red("Close the pack, and do a backup of your world"));
+<contenttweaker:call_to_mission>.addTooltip(format.red("Copy the 'plantDefs.xml' file from config > advRocketry into saves > worldname > advRocketry"));
+<contenttweaker:call_to_mission>.addTooltip(format.red("Start the pack, and use this item again"));
+
+<modularmachinery:cryolattice_tbu_controller>.addTooltip(format.red("This will work well with a bunch of other fuels!"));
+
+<contenttweaker:summons_of_the_realmshifter_cherubim>.addTooltip(format.red("Use in Trinitas while standing on any of the Terracotta blocks found there"));
+
+<contenttweaker:call_of_the_lover>.addTooltip(format.red("Right click the right realmshifter, the Summons of the Realmshifter Cherubims will guide you"));
+<contenttweaker:call_of_the_loved>.addTooltip(format.red("Right click the right realmshifter, the Summons of the Realmshifter Cherubims will guide you"));
+<contenttweaker:call_of_the_love>.addTooltip(format.red("Right click the right realmshifter, the Summons of the Realmshifter Cherubims will guide you"));
+
+<tombstone:grave_key>.addTooltip(format.red("If for some reason your grave does not generate, you can use thic command to restore your inventory:"));
+<tombstone:grave_key>.addTooltip(format.red("/ob_inventory restore [username] [death]"));
+<tombstone:grave_key>.addTooltip(format.red("Use the TAB key to set [death] to your latest"));
+
+<contenttweaker:cuendillar_catalyst_1>.addTooltip(format.red("Right click a True Tongue Oath on the Trinity mobs in the Trinitas Callstone"));
+<contenttweaker:cuendillar_catalyst_2>.addTooltip(format.red("Right click a True Tongue Oath on the Trinity mobs in the Trinitas Callstone"));
+<contenttweaker:cuendillar_catalyst_3>.addTooltip(format.red("Right click a True Tongue Oath on the Trinity mobs in the Trinitas Callstone"));
+
+<contenttweaker:recursive_quantum>.addTooltip(format.red("Powered by wallsharing"));
+<contenttweaker:fractallite_quantum>.addTooltip(format.red("Powered by wallsharing"));
+
+<aoa3:immortal_banner>.addTooltip(format.red("Obtained from the Token Collector in the Immortallis entrance"));
+
+<contenttweaker:infinite_plate_stamp>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:cuendillar_plate>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:infinite_alchemical_plate>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:infinite_entropic_plate>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:infinite_recursive_plate>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+
+
+
+
+<contenttweaker:addrefinedgemstocuendillar>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
+
+<contenttweaker:checkdimquestblocksforpuzzle>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
+
+<contenttweaker:phantomfacestupformechcoopandothers>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
+
+<contenttweaker:dragoneggomeletteredowithmasterspell>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
+
+<contenttweaker:experiencefarmingmultiblock>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
+
+<contenttweaker:onemorehyperuranionupgradefortardis>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
+
+<contenttweaker:convertchickenstospawneggsrecipes>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
+
+
+
 
 
 

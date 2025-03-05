@@ -452,50 +452,19 @@ mods.jei.JEI.addDescription(<iceandfire:fire_dragon_heart>,
     "The faster your item transfer, condenser rate, and crafter, the faster your EMC production."
 ]);
 
-mods.jei.JEI.addDescription(<draconicevolution:celestial_manipulator>,
+mods.jei.JEI.addDescription([<draconicevolution:celestial_manipulator>, <contenttweaker:skip_day>, <minecraft:lapis_block>, <contenttweaker:make_it_night>, <contenttweaker:hammock>],
 [
-    "There are two main ways of skipping days and making it night in this pack!",
+    "There are four main ways of skipping days and making it night in this pack!",
     "",
     "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
     "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
+    "The Eclipsed Clock consumes time from Time in a Bottle to speed up the day/night cycle.",
+    "",
+    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!",
+    "",
+    "The Time Manipulator spell from Electroblob."
 ]);
 
-mods.jei.JEI.addDescription(<minecraft:lapis_block>,
-[
-    "There are two main ways of skipping days and making it night in this pack!",
-    "",
-    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
-    "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
-]);
-
-mods.jei.JEI.addDescription(<contenttweaker:make_it_night>,
-[
-    "There are two main ways of skipping days and making it night in this pack!",
-    "",
-    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
-    "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
-]);
-
-mods.jei.JEI.addDescription(<contenttweaker:hammock>,
-[
-    "There are two main ways of skipping days and making it night in this pack!",
-    "",
-    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
-    "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
-]);
-
-mods.jei.JEI.addDescription(<contenttweaker:skip_day>,
-[
-    "There are two main ways of skipping days and making it night in this pack!",
-    "",
-    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
-    "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
-]);
 
 mods.jei.JEI.addDescription([<buildcraftsilicon:assembly_table>, <buildcraftsilicon:laser>],
 [
@@ -3627,7 +3596,7 @@ mods.jei.JEI.addDescription([
     "",
     "See the multiblock preview for a preview of the exterior design of a heat exchanger.",
     "",
-    "To function, a heat exchanger needs hot and cold fluid inputs. All that's needed for progression is to use water as the cold fluid and Hot NaK of any type as the hot fluids.",
+    "To function, a heat exchanger needs hot and cold fluid inputs.",
     "",
     "Inside a heat exchanger, fluids are transported using heat exchanger tubes (used for both hot and cold). These act like Fission Vessels or Coolant Heaters in salt reactors.",
     "",
@@ -3672,6 +3641,21 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_stage1anomaly>,
     "Obsidian",
     "Obsidian with four iron blocks making a plus sign"
 ]);
+
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_cherubim>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "The Realmshifter Cherubims are summoned on certain colored terracotta blocks...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Right click the Cherubims summoned by the Terracotta that has the same color: Lover = red, Loved = green, Love = blue"
+]);
+
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_warrenblindfold>,
 [
@@ -4008,6 +3992,20 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_biomeritual>,
     "TS TH ST AF TS",
     "BV CC SB NW MY"
 ]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_freedskystone>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Possessed Sky Stone and Master Spells, wonder if the two go together...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Use the Master Spell: Ordo around placed Possessed Sky Stone. This can be automated with a Mechanical User."
+]);
+
 
 mods.jei.JEI.addDescription([
     <fluxnetworks:fluxplug>,

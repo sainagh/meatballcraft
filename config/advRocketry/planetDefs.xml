@@ -485,4 +485,25 @@
             </planet>
 		</planet>
     </star>
+    <star name="Trinuum" temp="100" x="50" y="-50" size="4.0" numPlanets="0" numGasGiants="0" blackHole="false">
+        <star name="Trinuum A" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="Trinuum B" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="Trinuum C" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+		<planet name="Trinitas" DIMID="191" customIcon="WaterWorld">
+            <atmosphereDensity>100</atmosphereDensity>
+            <hasOxygen>true</hasOxygen>
+            <fogColor>0.68,0.67,0.06</fogColor>
+            <skyColor>0.68,0.67,0.06</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>200</orbitalDistance>
+            <hasRings>true</hasRings>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>00</orbitalPhi>
+            <rotationalPeriod>36000</rotationalPeriod>
+			<biomeIds>tardis:mountains</biomeIds>
+            <fillerBlock>divinerpg:arcanite_grass</fillerBlock>
+			<oceanBlock>biomesoplenty:hot_spring_water</oceanBlock>
+			<artifact>contenttweaker:unreachable</artifact>
+		</planet>
+    </star>    
 </galaxy>

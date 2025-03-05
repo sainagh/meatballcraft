@@ -1,7 +1,0 @@
-{
-	title: "Energy Sources",
-	icon: "techreborn:part 1 39",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

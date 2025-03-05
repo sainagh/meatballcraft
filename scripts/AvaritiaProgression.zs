@@ -313,3 +313,44 @@ mods.avaritia.ExtremeCrafting.addShaped("maketheultimatestewdire",
 <contenttweaker:lovely_latke>, <contenttweaker:feast_of_hell>, <contenttweaker:lovely_latke>,
 <contenttweaker:nice_clean_salad>, <contenttweaker:burned_enchanted_feather>, <contenttweaker:intense_meatball_pasta>]]);
 
+
+
+
+mods.avaritia.ExtremeCrafting.addShaped("maketheultimatestewdire2",
+<avaritia:ultimate_stew>*16, 
+[[<contenttweaker:intense_meatball_pasta>, <contenttweaker:burned_enchanted_feather>, <contenttweaker:nice_clean_salad>, 
+<contenttweaker:lovely_latke>, <contenttweaker:feast_of_hell>, <contenttweaker:lovely_latke>,
+<contenttweaker:nice_clean_salad>, <contenttweaker:burned_enchanted_feather>, <contenttweaker:intense_meatball_pasta>],
+
+[<contenttweaker:addiction_cookie>, <contenttweaker:aglio_olio_peperoncino_pasta>, <contenttweaker:tasty_eye_delight>, 
+<contenttweaker:big_boy_steak>, <contenttweaker:yummy_concrete>, <contenttweaker:big_boy_steak>,
+<contenttweaker:tasty_eye_delight>, <contenttweaker:aglio_olio_peperoncino_pasta>, <contenttweaker:addiction_cookie>],
+
+[<contenttweaker:cube_jello_cubes>, <contenttweaker:monolithic_meal>, <contenttweaker:bento_xxxl>, 
+<contenttweaker:just_jambalaya>, <contenttweaker:sausage_sandwich>, <contenttweaker:just_jambalaya>,
+<contenttweaker:bento_xxxl>, <contenttweaker:monolithic_meal>, <contenttweaker:cube_jello_cubes>],
+
+[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
+<contenttweaker:dragon_egg_omelette>, <contenttweaker:strange_meatball>, <contenttweaker:dragon_egg_omelette>,
+<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"})],
+
+[<contenttweaker:dried_vishroom>, <contenttweaker:really_golden_steak>, <contenttweaker:chocolate_cherry_truffle>, 
+<contenttweaker:hearty_meatball>, <contenttweaker:cosmic_pot>, <contenttweaker:hearty_meatball>,
+<contenttweaker:chocolate_cherry_truffle>, <contenttweaker:really_golden_steak>, <contenttweaker:dried_vishroom>],
+
+[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
+<contenttweaker:dragon_egg_omelette>, <contenttweaker:strange_meatball>, <contenttweaker:dragon_egg_omelette>,
+<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"})],
+
+[<contenttweaker:cube_jello_cubes>, <contenttweaker:monolithic_meal>, <contenttweaker:bento_xxxl>, 
+<contenttweaker:just_jambalaya>, <contenttweaker:sausage_sandwich>, <contenttweaker:just_jambalaya>,
+<contenttweaker:bento_xxxl>, <contenttweaker:monolithic_meal>, <contenttweaker:cube_jello_cubes>],
+
+[<contenttweaker:addiction_cookie>, <contenttweaker:aglio_olio_peperoncino_pasta>, <contenttweaker:tasty_eye_delight>, 
+<contenttweaker:big_boy_steak>, <contenttweaker:yummy_concrete>, <contenttweaker:big_boy_steak>,
+<contenttweaker:tasty_eye_delight>, <contenttweaker:aglio_olio_peperoncino_pasta>, <contenttweaker:addiction_cookie>],
+
+[<contenttweaker:intense_meatball_pasta>, <contenttweaker:burned_enchanted_feather>, <contenttweaker:nice_clean_salad>, 
+<contenttweaker:lovely_latke>, <contenttweaker:feast_of_hell>, <contenttweaker:lovely_latke>,
+<contenttweaker:nice_clean_salad>, <contenttweaker:burned_enchanted_feather>, <contenttweaker:intense_meatball_pasta>]]);
+

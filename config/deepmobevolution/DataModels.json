@@ -459,7 +459,8 @@
       "minecraft:carrot,32",
       "minecraft:potato,32",
       "xreliquary:mob_ingredient,1,6",
-      "minecraft:skull,1,2"
+      "minecraft:skull,1,2",
+      "thaumcraft:brain,8"
     ],
     "trial": {
       "entities": [
@@ -802,7 +803,7 @@
       "iceandfire:if_hydra"
     ],
     "lootItems": [
-      "iceandfire:hydra_fang,1,0",
+      "iceandfire:hydra_fang,5,0",
       "iceandfire:hydra_skull,1,0"
     ],
     "deepLearnerDisplay": {
@@ -1006,7 +1007,7 @@
     ],
     "lootItems": [
       "aoa3:void_scales,1,0",
-      "actuallyadditions:item_misc,1,20",
+      "actuallyadditions:item_misc,10,20",
       "thaumcraft:curio,1,1"
     ],
     "deepLearnerDisplay": {
@@ -1814,7 +1815,11 @@
       "aoa3:raxxan_statue,1,0"
     ],
     "associatedMobs": [
-      "aoa3:bane"
+      "aoa3:raxxan",
+      "aoa3:harkos",
+      "aoa3:kajaros",
+      "aoa3:miskel",
+      "aoa3:okazor"
     ],
     "lootItems": [
       "extrabotany:material,4,8",

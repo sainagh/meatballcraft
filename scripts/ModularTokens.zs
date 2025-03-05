@@ -36,6 +36,7 @@ mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurat
 mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oTier 28§r"]}}));
 mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oTier 29§r"]}}));
 mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oTier 30§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oTier F§r"]}}));
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:master_rune_box>, 
@@ -838,3 +839,78 @@ tokentiered29.addItemInput(<contenttweaker:tier28_token>);
 tokentiered29.addItemInput(<contenttweaker:tier29_token>);
 tokentiered29.addEnergyPerTickOutput(100000000);
 tokentiered29.build();
+
+
+val tokentiered30 = RecipeBuilder.newBuilder("tokentiered30","token_totem",800);
+tokentiered30.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oTier 30§r"]}}));
+tokentiered30.setChance(0.0);
+tokentiered30.addItemInput(<contenttweaker:tier1_token>);
+tokentiered30.addItemInput(<contenttweaker:tier2_token>);
+tokentiered30.addItemInput(<contenttweaker:tier3_token>);
+tokentiered30.addItemInput(<contenttweaker:tier4_token>);
+tokentiered30.addItemInput(<contenttweaker:tier5_token>);
+tokentiered30.addItemInput(<contenttweaker:tier6_token>);
+tokentiered30.addItemInput(<contenttweaker:tier7_token>);
+tokentiered30.addItemInput(<contenttweaker:tier8_token>);
+tokentiered30.addItemInput(<contenttweaker:tier9_token>);
+tokentiered30.addItemInput(<contenttweaker:tier10_token>);
+tokentiered30.addItemInput(<contenttweaker:tier11_token>);
+tokentiered30.addItemInput(<contenttweaker:tier12_token>);
+tokentiered30.addItemInput(<contenttweaker:tier13_token>);
+tokentiered30.addItemInput(<contenttweaker:tier14_token>);
+tokentiered30.addItemInput(<contenttweaker:tier15_token>);
+tokentiered30.addItemInput(<contenttweaker:tier16_token>);
+tokentiered30.addItemInput(<contenttweaker:tier17_token>);
+tokentiered30.addItemInput(<contenttweaker:tier18_token>);
+tokentiered30.addItemInput(<contenttweaker:tier19_token>);
+tokentiered30.addItemInput(<contenttweaker:tier20_token>);
+tokentiered30.addItemInput(<contenttweaker:tier21_token>);
+tokentiered30.addItemInput(<contenttweaker:tier22_token>);
+tokentiered30.addItemInput(<contenttweaker:tier23_token>);
+tokentiered30.addItemInput(<contenttweaker:tier24_token>);
+tokentiered30.addItemInput(<contenttweaker:tier25_token>);
+tokentiered30.addItemInput(<contenttweaker:tier26_token>);
+tokentiered30.addItemInput(<contenttweaker:tier27_token>);
+tokentiered30.addItemInput(<contenttweaker:tier28_token>);
+tokentiered30.addItemInput(<contenttweaker:tier29_token>);
+tokentiered30.addItemInput(<contenttweaker:tier30_token>);
+tokentiered30.addEnergyPerTickOutput(10000000000);
+tokentiered30.build();
+
+
+
+val tokentiered30a = RecipeBuilder.newBuilder("tokentiered30a","token_totem",800);
+tokentiered30a.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oTier F§r"]}}));
+tokentiered30a.setChance(0.0);
+tokentiered30a.addItemInput(<contenttweaker:tier1_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier2_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier3_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier4_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier5_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier6_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier7_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier8_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier9_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier10_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier11_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier12_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier13_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier14_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier15_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier16_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier17_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier18_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier19_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier20_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier21_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier22_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier23_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier24_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier25_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier26_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier27_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier28_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier29_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier30_token>);
+tokentiered30a.addFluidOutput(<fluid:pure_recursion>*100);
+tokentiered30a.build();

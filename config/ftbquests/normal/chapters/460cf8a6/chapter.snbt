@@ -1,7 +1,0 @@
-{
-	title: "Material Compenduum",
-	icon: "contenttweaker:unidentified_ingot",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

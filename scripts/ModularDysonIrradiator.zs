@@ -40,7 +40,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_conduit>*4,
 
 mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:irradiated_filler>, <extracells:fluidfiller>, 1000);
 
-val creationray = RecipeBuilder.newBuilder("creationray","creation_altar",1600);
+val creationray = RecipeBuilder.newBuilder("creationray","creation_altar",100);
 creationray.addEnergyPerTickInput(400000);
 creationray.addFluidInput(<fluid:lifeessence>*10);
 creationray.addFluidInput(<fluid:astralsorcery.liquidstarlight>*10);
@@ -163,7 +163,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:irradiator_casing>
 [<contenttweaker:high_refraction_alloy_ingot>, <contenttweaker:infinity_plate>, <contenttweaker:radiation_crafter>, <contenttweaker:infinity_plate>, <contenttweaker:high_refraction_alloy_ingot>]]);  
 
 
-val hyperdenseplasmacent = RecipeBuilder.newBuilder("hyperdenseplasmacent","iron_centrifuge",200);
+val hyperdenseplasmacent = RecipeBuilder.newBuilder("hyperdenseplasmacent","iron_centrifuge",2);
 hyperdenseplasmacent.addEnergyPerTickInput(1000000);
 hyperdenseplasmacent.addFluidInput(<fluid:chaotic_matter>*50);
 hyperdenseplasmacent.addFluidInput(<fluid:nightmarish_matter>*50);

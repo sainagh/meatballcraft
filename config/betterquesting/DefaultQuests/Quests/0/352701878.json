@@ -1,0 +1,17 @@
+{
+  "preRequisites:11": [
+    718654576
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "Trinitas"
+    }
+  },
+  "questID:3": 352701878,
+  "tasks:9": {}
+}

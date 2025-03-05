@@ -519,3 +519,6 @@ recipes.addShapeless(<modularmachinery:active_cooled_hecm245_controller>,
 
 recipes.addShapeless(<modularmachinery:active_cooled_hea242_controller>, 
 [<modularmachinery:active_cooled_hea242_controller>]);
+
+recipes.addShapeless(<modularmachinery:berserker_crucible_controller>, 
+[<modularmachinery:berserker_crucible_controller>]);

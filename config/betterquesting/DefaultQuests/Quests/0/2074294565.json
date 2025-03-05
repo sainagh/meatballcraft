@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    1210666494,
+    404913088,
+    2070436398,
+    140052666
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:shard_of_individual_freedom"
+      },
+      "name:8": "Prepotence"
+    }
+  },
+  "questID:3": 2074294565,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:spren_summoner_prepotence"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:shard_of_individual_freedom"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

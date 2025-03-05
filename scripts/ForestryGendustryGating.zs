@@ -5,13 +5,13 @@ mods.extendedcrafting.TableCrafting.addShaped(<forestry:sturdy_machine>,
 [<divinerpg:realmite_ingot>, <thermalfoundation:material:512>, <divinerpg:realmite_ingot>], 
 [<thermalfoundation:material:291>, <divinerpg:realmite_ingot>, <thermalfoundation:material:291>]]); 
 
-recipes.remove(<forestry:arboretum:0>);
-recipes.remove(<forestry:farm_crops:0>);
-recipes.remove(<forestry:farm_mushroom:0>);
-recipes.remove(<forestry:farm_gourd:0>);
-recipes.remove(<forestry:farm_nether:0>);
-recipes.remove(<forestry:farm_ender:0>);
-recipes.remove(<forestry:peat_bog:0>);
+// recipes.remove(<forestry:arboretum:0>);
+// recipes.remove(<forestry:farm_crops:0>);
+// recipes.remove(<forestry:farm_mushroom:0>);
+// recipes.remove(<forestry:farm_gourd:0>);
+// recipes.remove(<forestry:farm_nether:0>);
+// recipes.remove(<forestry:farm_ender:0>);
+// recipes.remove(<forestry:peat_bog:0>);
 
 recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "bewitchment:ghost"}}), 
 [[<bewitchment:frostflower>, <bewitchment:bottled_hellfire>, <bewitchment:bottled_hellfire>], 

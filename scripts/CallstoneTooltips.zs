@@ -18,7 +18,7 @@
 <contenttweaker:lunalus_callstone>.addTooltip(format.red("Use in this dimension:  Lunalus"));
 <contenttweaker:wildwood_callstone>.addTooltip(format.red("Use in this dimension:  Wildwood"));
 <contenttweaker:skythern_callstone>.addTooltip(format.red("Use in this dimension:  Skythern"));
-<contenttweaker:immortallis_callstone>.addTooltip(format.red("Use in this dimension:  Immortallis"));
+<contenttweaker:immortallis_callstone>.addTooltip(format.red("Use in this dimension:  Twilight Forest"));
 <contenttweaker:horrific_callstone>.addTooltip(format.red("Use in this dimension:  Hator"));
 <contenttweaker:harbinger_callstone>.addTooltip(format.red("Use in this dimension:  Twilight Forest"));
 <contenttweaker:dream_callstone>.addTooltip(format.red("Use in this dimension:  Vethea"));
@@ -88,4 +88,5 @@
 <contenttweaker:lucky_box_twilight_books>.addTooltip(format.red("Use in this dimension:  Overworld"));
 <contenttweaker:lucky_box_twilight_weapons>.addTooltip(format.red("Use in this dimension:  Overworld"));
 <contenttweaker:dread_cleansing_callstone>.addTooltip(format.red("Use in this dimension:  Bedrock Dimension"));
-<contenttweaker:rites_of_liberation>.addTooltip(format.red("Use in this dimension:  Overworld"));
+<contenttweaker:guardians_of_shadesmar_callstone>.addTooltip(format.red("Use in this dimension:  Kashan"));
+<contenttweaker:trinitas_callstone>.addTooltip(format.red("Use in this dimension:  Trinitas"));

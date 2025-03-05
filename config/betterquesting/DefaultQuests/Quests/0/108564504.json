@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    1066250269,
+    608217835
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "Start of Cosmos Chain"
+    }
+  },
+  "questID:3": 108564504,
+  "tasks:9": {}
+}

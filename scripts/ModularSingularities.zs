@@ -516,3 +516,13 @@ quantumcondactual.addEnergyPerTickInput(500000);
 quantumcondactual.addItemInput(<contenttweaker:actualizing_stone>*2048);
 quantumcondactual.addItemOutput(<avaritiaitem:self_actualizing_stone>);
 quantumcondactual.build();
+
+
+val quantumcondinsanium = RecipeBuilder.newBuilder("quantumcondinsanium", "quantum_condenser", 2);
+quantumcondinsanium.addEnergyPerTickInput(500000);
+quantumcondinsanium.addItemInput(<mysticalagriculture:master_infusion_crystal>);
+quantumcondinsanium.setChance(0.0);
+quantumcondinsanium.addItemInput(<contenttweaker:actualizing_stone>*1024);
+quantumcondinsanium.addItemOutput(<mysticalagradditions:insanium:0>);
+quantumcondinsanium.build();
+

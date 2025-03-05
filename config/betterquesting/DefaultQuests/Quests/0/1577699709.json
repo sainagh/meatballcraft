@@ -1,0 +1,17 @@
+{
+  "preRequisites:11": [
+    1660051088
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "Seal #1"
+    }
+  },
+  "questID:3": 1577699709,
+  "tasks:9": {}
+}

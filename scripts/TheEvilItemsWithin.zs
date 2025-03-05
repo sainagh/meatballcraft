@@ -461,6 +461,15 @@ blackholecore.itemRightClick = function(stack, world, player, hand) {
 blackholecore.glowing = true;
 blackholecore.register();
 
+var whiteholecore = VanillaFactory.createItem("white_hole_core");
+whiteholecore.maxStackSize = 1;
+whiteholecore.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("fill ~-1 ~-1 ~-1 ~1 ~1 ~1 contenttweaker:miniature_white_hole 0 replace contenttweaker:sednanite_stabilizer", player, world, true, true);
+	return "Pass";
+};
+whiteholecore.glowing = true;
+whiteholecore.register();
+
 
 var condensedessence = VanillaFactory.createItem("condensed_essence");
 condensedessence.maxStackSize = 64;

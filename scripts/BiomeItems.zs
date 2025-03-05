@@ -656,3 +656,551 @@ memoryrestorationritual.itemRightClick = function(stack, world, player, hand) {
 
 };
 memoryrestorationritual.register();
+
+
+
+
+
+
+var sprensummonerfaith = VanillaFactory.createItem("spren_summoner_faith");
+sprensummonerfaith.maxStackSize = 16;
+sprensummonerfaith.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Ancient Cavern" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("You gotta be in the Ancient Cavern biome");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon ebwizardry:spectral_golem ~ ~2 ~ {CustomName:\"Corrupted Spren of Faith\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_restored_faith\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in the Ancient Cavern biome");
+	return "FAIL";
+
+
+};
+sprensummonerfaith.register();
+
+
+var sprensummonerdeath = VanillaFactory.createItem("spren_summoner_death");
+sprensummonerdeath.maxStackSize = 16;
+sprensummonerdeath.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Immortallis" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("You gotta be in the Immortallis biome");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon aoa3:ghostly_night_reaper ~ ~2 ~ {CustomName:\"Spren of Death\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_forgotten_fear_of_death\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in the Immortallis biome");
+	return "FAIL";
+
+
+};
+sprensummonerdeath.register();
+
+
+
+var sprensummonerhaste = VanillaFactory.createItem("spren_summoner_haste");
+sprensummonerhaste.maxStackSize = 16;
+sprensummonerhaste.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Greckon" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("You gotta be in the Greckon biome");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon aoa3:ghostly_charger ~ ~2 ~ {CustomName:\"Spren of Haste\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_forgiven_lost_time\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in the Greckon biome");
+	return "FAIL";
+
+
+};
+sprensummonerhaste.register();
+
+
+
+var sprensummonerblasphemy = VanillaFactory.createItem("spren_summoner_blasphemy");
+sprensummonerblasphemy.maxStackSize = 16;
+sprensummonerblasphemy.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Dustopian Forest" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("You gotta be in the Dustopian Forest biome");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon mod_lavacow:grave_robber_ghost ~ ~2 ~ {CustomName:\"Spren of Blasphemy\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_rekindled_heritage\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in the Dustopian Forest biome");
+	return "FAIL";
+
+
+};
+sprensummonerblasphemy.register();
+
+
+
+var sprensummonerdarkness = VanillaFactory.createItem("spren_summoner_plot");
+sprensummonerdarkness.maxStackSize = 16;
+sprensummonerdarkness.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Outer Lands" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("You gotta be in the Outer Lands biome");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon thaumcraft:eldritchguardian ~ ~2 ~ {CustomName:\"Spren of Dark Plots\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_no_hidden_intentions\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in the Outer Lands biome");
+	return "FAIL";
+
+
+};
+sprensummonerdarkness.register();
+
+
+
+var sprensummonerinjury = VanillaFactory.createItem("spren_summoner_injury");
+sprensummonerinjury.maxStackSize = 16;
+sprensummonerinjury.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Spooky Forest" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("You gotta be in the Spooky Forest biome");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon aoa3:ghostly_bugeye ~ ~2 ~ {CustomName:\"Spren of Injury\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_physical_healing\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in the Spooky Forest biome");
+	return "FAIL";
+
+
+};
+sprensummonerinjury.register();
+
+
+var sprensummonerhelplessness = VanillaFactory.createItem("spren_summoner_inadequacy");
+sprensummonerhelplessness.maxStackSize = 16;
+sprensummonerhelplessness.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Ocean Spires" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("You gotta be in the Ocean Spires biome");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon mod_lavacow:ghost_swarmer ~ ~2 ~ {CustomName:\"Spren of Inadequacy\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_realized_worth\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in the Ocean Spires biome");
+	return "FAIL";
+
+
+};
+sprensummonerhelplessness.register();
+
+
+var sprensummonerloneliness = VanillaFactory.createItem("spren_summoner_loneliness");
+sprensummonerloneliness.maxStackSize = 16;
+sprensummonerloneliness.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Bog" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("You gotta be in the Bog biome");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon aoa3:ghostly_cyclops ~ ~2 ~ {CustomName:\"Spren of Loneliness\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_restored_relationship\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in the Bog biome");
+	return "FAIL";
+
+
+};
+sprensummonerloneliness.register();
+
+
+var sprensummonercontrol = VanillaFactory.createItem("spren_summoner_control");
+sprensummonercontrol.maxStackSize = 16;
+sprensummonercontrol.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Mortum" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("You gotta be in the Mortum biome");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon abyssalcraft:dragonminion ~ ~2 ~ {CustomName:\"Spren of Control\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_surrender\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in the Mortum biome");
+	return "FAIL";
+
+
+};
+sprensummonercontrol.register();
+
+
+var sprensummonerprepotence = VanillaFactory.createItem("spren_summoner_prepotence");
+sprensummonerprepotence.maxStackSize = 16;
+sprensummonerprepotence.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Shyrelands" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("You gotta be in the Shyrelands biome");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon aoa3:spectral_wizard ~ ~2 ~ {CustomName:\"Spren of Prepotence\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_individual_freedom\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in the Shyrelands biome");
+	return "FAIL";
+
+
+};
+sprensummonerprepotence.register();
+
+
+var sprensummonergluttony = VanillaFactory.createItem("spren_summoner_gluttony");
+sprensummonergluttony.maxStackSize = 16;
+sprensummonergluttony.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Nuclear Wasteland" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("You gotta be in the Nuclear Wasteland biome");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon mod_lavacow:soulworm ~ ~2 ~ {CustomName:\"Spren of Gluttony\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_individual_freedom\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:10000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in the Nuclear Wasteland biome");
+	return "FAIL";
+
+
+};
+sprensummonergluttony.register();
+
+
+var sprensummonerarrogance = VanillaFactory.createItem("spren_summoner_arrogance");
+sprensummonerarrogance.maxStackSize = 16;
+sprensummonerarrogance.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Storage Cell" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("You gotta be in the Storage Cell biome");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon divinerpg:rainbour ~ ~2 ~ {CustomName:\"Spren of Arrogance\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_individual_freedom\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:10000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("You gotta be in the Storage Cell biome");
+	return "FAIL";
+
+
+};
+sprensummonerarrogance.register();

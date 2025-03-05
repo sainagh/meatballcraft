@@ -7,6 +7,11 @@ recipes.addShaped(<contenttweaker:stone_of_universal_balance>,
 [<contenttweaker:hungering_flesh_ingot>, <contenttweaker:actualizing_hyperuranion_ingot>, <contenttweaker:ascended_fluix_crystal>],
 [<contenttweaker:chaos_wood>, <careerbees:ingredients:11>, <contenttweaker:recursium_ingot>]]);
 
+recipes.addShaped(<contenttweaker:stone_of_universal_balance>*5,
+[[<contenttweaker:recursium_ingot>, <careerbees:ingredients:12>, <contenttweaker:order_wood>],
+[<contenttweaker:hungering_flesh_ingot>, <contenttweaker:trinity_ingot>, <contenttweaker:ascended_fluix_crystal>],
+[<contenttweaker:chaos_wood>, <careerbees:ingredients:11>, <contenttweaker:recursium_ingot>]]);
+
 val hungeringfleshgear = RecipeBuilder.newBuilder("hungeringfleshgear","mythic_processor_gearworking_die",1);
 hungeringfleshgear.addEnergyPerTickInput(1000000);
 hungeringfleshgear.addItemInput(<contenttweaker:hungering_flesh_ingot>*16);
@@ -92,7 +97,7 @@ mods.thaumcraft.Infusion.registerRecipe("infmeatballtitan", "",
 
 
 mods.thaumcraft.Infusion.registerRecipe("inffleshworldcallstone", "", 
-<contenttweaker:summons_of_the_meatball_titan>, 10,
+<contenttweaker:flesh_world_callstone>, 10,
 [<aspect:vitium>*1000, <aspect:desiderium>*1000, <aspect:diabolus>*500, <aspect:infernum>*200], 
 <contenttweaker:spreading_sentient_meatball>, 
 [<contenttweaker:slate_of_endless_hunger>, <contenttweaker:hungering_flesh_ingot>,
@@ -233,3 +238,9 @@ true,
 <contenttweaker:true_chaos>,<contenttweaker:wormhole_catalyst>]);
 game.setLocalization("ac.ritual.KashanWarperInf", "The universe at my fingertips"); 
 game.setLocalization("ac.ritual.KashanWarperInf.desc", "This is what it's all about");
+
+
+recipes.addShaped(<contenttweaker:true_tongue_oath>,
+[[<contenttweaker:cuendillar_plate>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:cuendillar_plate>],
+[<contenttweaker:hungering_flesh_ingot>, <contenttweaker:staff_of_the_lord_of_gluttony>.reuse(), <contenttweaker:hungering_flesh_ingot>],
+[<contenttweaker:cuendillar_plate>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:cuendillar_plate>]]);

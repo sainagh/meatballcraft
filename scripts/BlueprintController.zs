@@ -367,6 +367,47 @@ addController(<modularmachinery:divine_combiner_controller>, "modularmachinery:d
 
 addController(<modularmachinery:eldritch_impetus_catalyzer_controller>, "modularmachinery:eldritch_impetus_catalyzer");
 
+addController(<modularmachinery:chaotic_striker_controller>, "modularmachinery:chaotic_striker");
+
+addController(<modularmachinery:mythical_resource_miner_tier30_controller>, "modularmachinery:mythical_resource_miner_tier30");
+
+addController(<modularmachinery:warren_extractor_actualizing_stone_controller>, "modularmachinery:warren_extractor_actualizing_stone");
+
+addController(<modularmachinery:warren_extractor_naquadah_controller>, "modularmachinery:warren_extractor_naquadah");
+
+addController(<modularmachinery:warren_extractor_dimensional_shards_controller>, "modularmachinery:warren_extractor_dimensional_shards");
+
+addController(<modularmachinery:warren_extractor_dragonsteel_controller>, "modularmachinery:warren_extractor_dragonsteel");
+
+addController(<modularmachinery:recursive_brain_in_a_vat_controller>, "modularmachinery:recursive_brain_in_a_vat");
+
+addController(<modularmachinery:recursive_brain_in_a_vat_ahkrast_korvalain_controller>, "modularmachinery:recursive_brain_in_a_vat_ahkrast_korvalain");
+
+addController(<modularmachinery:recursive_brain_in_a_vat_donaeth_rusen_controller>, "modularmachinery:recursive_brain_in_a_vat_donaeth_rusen");
+
+addController(<modularmachinery:recursive_brain_in_a_vat_kurald_emurlahn_controller>, "modularmachinery:recursive_brain_in_a_vat_kurald_emurlahn");
+
+addController(<modularmachinery:recursive_brain_in_a_vat_kurald_galain_controller>, "modularmachinery:recursive_brain_in_a_vat_kurald_galain");
+
+addController(<modularmachinery:recursive_brain_in_a_vat_kurald_thyrllan_controller>, "modularmachinery:recursive_brain_in_a_vat_kurald_thyrllan");
+
+addController(<modularmachinery:recursive_brain_in_a_vat_omtose_phellack_controller>, "modularmachinery:recursive_brain_in_a_vat_omtose_phellack");
+
+addController(<modularmachinery:recursive_brain_in_a_vat_starvald_demelain_controller>, "modularmachinery:recursive_brain_in_a_vat_starvald_demelain");
+
+addController(<modularmachinery:recursive_brain_in_a_vat_tellan_controller>, "modularmachinery:recursive_brain_in_a_vat_tellan");
+
+addController(<modularmachinery:recursive_brain_in_a_vat_thel_controller>, "modularmachinery:recursive_brain_in_a_vat_thel");
+
+addController(<modularmachinery:recursive_brain_in_a_vat_verdith_anath_controller>, "modularmachinery:recursive_brain_in_a_vat_verdith_anath");
+
+addController(<modularmachinery:warren_extractor_rhenia_controller>, "modularmachinery:warren_extractor_rhenia");
+
+addController(<modularmachinery:dyson_extruder_controller>, "modularmachinery:dyson_extruder");
+
+addController(<modularmachinery:mythic_excavation_lattice_controller>, "modularmachinery:mythic_excavation_lattice");
+
+
 
 
 // Leave this at the bottom of the file, as it depends on the oredict being filled

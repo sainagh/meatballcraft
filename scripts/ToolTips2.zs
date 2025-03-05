@@ -100,7 +100,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:ayeraco_heart>.addTooltip(format.red("Found in the Shulker Altar in the End"));
 
-<minecraft:totem_of_undying>.addTooltip(format.red("Evoker spawn eggs are craftable"));
+<minecraft:totem_of_undying>.addTooltip(format.red("Recursive papers are your friend"));
 
 <thaumcraft:curio:6>.addTooltip(format.red("Crimson Portals can be found in the overworld"));
 
@@ -1114,6 +1114,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:mortum_star>.addTooltip(format.red("Have you uncovered the secret of the sacred palace?"));
 
 <contenttweaker:sacred_acorn>.addTooltip(format.red("Combine with the right tree barks to obtain the two sacred saplings"));
+<contenttweaker:sacred_acorn>.addTooltip(format.red("The Sacred Callstone will guide you"));
 
 <extrabotany:allforone>.addTooltip(format.red("Most likely will not work (forge bug)"));
 
@@ -1471,7 +1472,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:matrix_ore>.addTooltip(format.red("Use the ore excavator in Shyrelands, Matrix vein"));
 
-<contenttweaker:everlasting_fusor>.addTooltip(format.red("Make four of these"));
+<contenttweaker:everlasting_fusor>.addTooltip(format.red("Five are required for the canon ending"));
 
 <materialpart:abyssite:ingot>.addTooltip(format.red("You can pump plasma out of a fusion reactor"));
 
@@ -2692,7 +2693,7 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:altar_of_corruption>.addTooltip(format.red("Works like an enchanting table, but it doesn't need bookshelves!"));
 
-<modularmachinery:itemblueprint>.addTooltip(format.red("To autobuild a multiblock, right click the colored controller with a stick!"));
+<modularmachinery:itemblueprint>.addTooltip(format.red("To autobuild a multiblock, right click the colored controller with a Multiblock Sticc!"));
 
 <contenttweaker:bloodmaster_metal_chest>.addTooltip(format.red("Thanks to WearyCat for helping with lore!"));
 
@@ -3643,7 +3644,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("Use the modular controllers in these recipes to auto-build reactor interiors for each fuel!"));
 <contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("Thanks to cry for coming up with the idea!"));
 
-<modularmachinery:safe_fission_tbu_controller>.addTooltip(format.red("This will work well with a bunch of other fuels!"));
 
 <contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("Replace this with an active cooler from nuclearcraft!"));
 <contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("Use buffers on the reactor wall instead of casing, pipe your fluids in there!"));

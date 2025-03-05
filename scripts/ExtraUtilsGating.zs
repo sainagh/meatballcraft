@@ -220,3 +220,6 @@ recipes.addShaped(<extrautils2:opinium:0>,
 [<contenttweaker:better_red_coal>, <ore:blockIron>, <contenttweaker:better_red_coal>],
 [null, <contenttweaker:better_red_coal>, null]]);
 
+
+recipes.addShapeless(<contenttweaker:absolutely_autentic_rainbowgen>,
+[<extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:2>]);

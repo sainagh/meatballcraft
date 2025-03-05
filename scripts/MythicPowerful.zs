@@ -2,6 +2,9 @@ import scripts.enchantwrapper.EnchantUtil.EnchantMap;
 import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
 import mods.thaumcraft.Infusion;
 import mods.astralsorcery.Utils;
+import mods.modularmachinery.RecipeBuilder;
+import crafttweaker.data.IData;
+import crafttweaker.enchantments.IEnchantmentDefinition;
 
 
 //	New Super-Enchant Page: Reorganized Edition
@@ -365,6 +368,11 @@ import mods.astralsorcery.Utils;
 
 //	Elder Spooder String
 {
+	recipes.addShaped(<contenttweaker:heart_of_the_elder_one>,
+		[[<abyssalcraft:antispidereye>, <contenttweaker:tainted_sentient_meatball>, <abyssalcraft:antispidereye>],
+		[<contenttweaker:tainted_sentient_meatball>, <contenttweaker:heart_of_the_elder_one>.reuse(), <contenttweaker:tainted_sentient_meatball>],
+		[<abyssalcraft:antispidereye>, <contenttweaker:tainted_sentient_meatball>, <abyssalcraft:antispidereye>]]);
+
 	recipes.addShaped(<contenttweaker:elder_spooder_string>,
 		[[<bloodarsenal:blood_burned_string>, <bloodarsenal:blood_burned_string>, <bloodarsenal:blood_burned_string>],
 		[<bloodarsenal:blood_burned_string>, <contenttweaker:heart_of_the_elder_one>.reuse(), <bloodarsenal:blood_burned_string>],
@@ -827,6 +835,71 @@ import mods.astralsorcery.Utils;
 	// mapOathbringer += enchlistOathbringer[0].makeEnchantment(150).makeTag();
 	// mapOathbringer += enchlistOathbringer[1].makeEnchantment(25).makeTag();
 
+	var mapshieldofthearbiter as IData = {
+		display: {Lore:["§d§oShield to the Arbiter§r"]}
+	};
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard1", <chisel:factory1:1>.withTag(mapshieldofthearbiter)*8,
+		[[<chisel:factory1:1>, <chisel:factory1:1>, <chisel:factory1:1>],
+		[<chisel:factory1:1>, <contenttweaker:spooder_glasses>, <chisel:factory1:1>],
+		[<chisel:factory1:1>, <chisel:factory1:1>, <chisel:factory1:1>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard2", <draconicevolution:draconic_block>.withTag(mapshieldofthearbiter)*8,
+		[[<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:draconic_block>],
+		[<draconicevolution:draconic_block>, <contenttweaker:massive_boomboom>, <draconicevolution:draconic_block>],
+		[<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:draconic_block>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard3", <railcraft:abyssal:1>.withTag(mapshieldofthearbiter)*8,
+		[[<railcraft:abyssal:1>, <railcraft:abyssal:1>, <railcraft:abyssal:1>],
+		[<railcraft:abyssal:1>, <contenttweaker:emc_crown>, <railcraft:abyssal:1>],
+		[<railcraft:abyssal:1>, <railcraft:abyssal:1>, <railcraft:abyssal:1>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard4", <appliedenergistics2:smooth_sky_stone_block>.withTag(mapshieldofthearbiter)*8,
+		[[<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>],
+		[<appliedenergistics2:smooth_sky_stone_block>, <contenttweaker:atomic_glasses>, <appliedenergistics2:smooth_sky_stone_block>],
+		[<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard5", <chisel:concrete_purple:4>.withTag(mapshieldofthearbiter)*8,
+		[[<chisel:concrete_purple:4>, <chisel:concrete_purple:4>, <chisel:concrete_purple:4>],
+		[<chisel:concrete_purple:4>, <contenttweaker:cool_walking_stick>, <chisel:concrete_purple:4>],
+		[<chisel:concrete_purple:4>, <chisel:concrete_purple:4>, <chisel:concrete_purple:4>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard6", <chisel:bookshelf_spruce:6>.withTag(mapshieldofthearbiter)*8,
+		[[<chisel:bookshelf_spruce:6>, <chisel:bookshelf_spruce:6>, <chisel:bookshelf_spruce:6>],
+		[<chisel:bookshelf_spruce:6>, <contenttweaker:horrible_unedited_fanfiction>, <chisel:bookshelf_spruce:6>],
+		[<chisel:bookshelf_spruce:6>, <chisel:bookshelf_spruce:6>, <chisel:bookshelf_spruce:6>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard7", <minecraft:sandstone:2>.withTag(mapshieldofthearbiter)*8,
+		[[<minecraft:sandstone:2>, <minecraft:sandstone:2>, <minecraft:sandstone:2>],
+		[<minecraft:sandstone:2>, <contenttweaker:null_pointer>, <minecraft:sandstone:2>],
+		[<minecraft:sandstone:2>, <minecraft:sandstone:2>, <minecraft:sandstone:2>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard8", <integrateddynamics:menril_planks>.withTag(mapshieldofthearbiter)*8,
+		[[<integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>],
+		[<integrateddynamics:menril_planks>, <contenttweaker:p0rtals_redish_white_hat>, <integrateddynamics:menril_planks>],
+		[<integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard9", <chisel:laboratory:8>.withTag(mapshieldofthearbiter)*8,
+		[[<chisel:laboratory:8>, <chisel:laboratory:8>, <chisel:laboratory:8>],
+		[<chisel:laboratory:8>, <contenttweaker:collar_bells>, <chisel:laboratory:8>],
+		[<chisel:laboratory:8>, <chisel:laboratory:8>, <chisel:laboratory:8>]]);
+
+	val shieldarbiterdragcruc1 = RecipeBuilder.newBuilder("shieldarbiterdragcruc1","dragonfire_crucible",3000);
+	shieldarbiterdragcruc1.addFluidInput(<fluid:eternal_dragon_fire>*72000);
+	shieldarbiterdragcruc1.addItemInput(<chisel:laboratory:8>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<integrateddynamics:menril_planks>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<minecraft:sandstone:2>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<chisel:bookshelf_spruce:6>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<chisel:concrete_purple:4>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<appliedenergistics2:smooth_sky_stone_block>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<railcraft:abyssal:1>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<draconicevolution:draconic_block>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<chisel:factory1:1>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemOutput(<contenttweaker:shield_of_the_arbiter>);
+	shieldarbiterdragcruc1.build();
+
+	
+
 	val enchlistOathbringerWrapped as EnchantMap = EnchantMap()
 	.add("minecraft:sharpness",150)
 	.add("cofhcore:vorpal",25);
@@ -839,8 +912,8 @@ import mods.astralsorcery.Utils;
 		[null, <bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "enderium", Amount: 65336000}}), null, null, null, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, null], 
 		[null, <draconicevolution:chaos_shard:0>, null, null, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, null, null], 
 		[null, <draconicevolution:chaos_shard:0>, null, <contenttweaker:draconian_metal_ingot>, <contenttweaker:third_order_mythic_fractal>, <contenttweaker:draconian_metal_ingot>, null, null, null], 
-		[null, null, <draconicevolution:chaos_shard:0>, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, null, null, null, null], 
-		[null, null, <contenttweaker:chaotic_poppet>, <draconicevolution:chaos_shard:0>, null, null, null, null, null], 
+		[null, null, <contenttweaker:shield_of_the_arbiter>, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, null, null, null, null], 
+		[null, null, <contenttweaker:chaotic_poppet>, <contenttweaker:shield_of_the_arbiter>, null, null, null, null, null], 
 		[null, <mod_lavacow:bonesword>, null, null, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "molten_awakened", Amount: 65336000}}), null, null], 
 		[<contenttweaker:light_of_shadesmar>, null, null, null, null, null, null, null, null]]);  
 }

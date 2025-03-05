@@ -1,6 +1,7 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.thaumcraft.Crucible;
 import mods.thaumcraft.Infusion;
+import crafttweaker.data.IData;
 
 
 
@@ -219,6 +220,43 @@ fractallitefurnacealloy.addItemInput(<contenttweaker:cactium_sliver>);
 fractallitefurnacealloy.addItemInput(<contenttweaker:essence_of_creation>);
 fractallitefurnacealloy.addItemOutput(<contenttweaker:perfected_gallifreyan_alloy>);
 fractallitefurnacealloy.build();
+
+var unfulfilleddata as IData = {
+	display: {Lore:["§d§oUnfulfilled§r"]}
+};
+
+var livelydata as IData = {
+	display: {Lore:["§d§oLively§r"]}
+};
+
+var brimmingdata as IData = {
+	display: {Lore:["§d§oBrimming§r"]}
+};
+
+var energicdata as IData = {
+	display: {Lore:["§d§oEnergic§r"]}
+};
+
+var fulfilleddata as IData = {
+	display: {Lore:["§d§oFulfilled§r"]}
+};
+
+val fractallitefurnacetrinity = RecipeBuilder.newBuilder("fractallitefurnacetrinity","fractallite_furnace",10);
+fractallitefurnacetrinity.addFluidInput(<fluid:aeternalis_fuel>*1000);
+fractallitefurnacetrinity.addItemInput(<contenttweaker:perfected_gallifreyan_alloy>);
+fractallitefurnacetrinity.addItemInput(<contenttweaker:trinity_ingot>);
+fractallitefurnacetrinity.addItemInput(<ore:ingotMithril>*32);
+fractallitefurnacetrinity.addItemOutput(<contenttweaker:ascended_gallifreyan_alloy>.withTag(unfulfilleddata)*32);
+fractallitefurnacetrinity.build();
+
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:ascended_gallifreyan_alloy>.withTag(unfulfilleddata), <fluid:vityte>*288, <contenttweaker:ascended_gallifreyan_alloy>.withTag(livelydata)]);
+
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:ascended_gallifreyan_alloy>.withTag(livelydata), <fluid:candyte>*288, <contenttweaker:ascended_gallifreyan_alloy>.withTag(brimmingdata)]);
+
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:ascended_gallifreyan_alloy>.withTag(brimmingdata), <fluid:brightsteel_alloy>*288, <contenttweaker:ascended_gallifreyan_alloy>.withTag(energicdata)]);
+
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:ascended_gallifreyan_alloy>.withTag(energicdata), <fluid:infinity>*288, <contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata)]);
+
 
 recipes.addShaped(<contenttweaker:matter_digitalization_fabrial>,
 [[<appliedenergistics2:part:140>, <contenttweaker:recursion_of_clarity>, <appliedenergistics2:part:140>],
@@ -451,6 +489,21 @@ nameofnamesingot.addItemInput(<contenttweaker:defined_ingot>);
 nameofnamesingot.addItemInput(<contenttweaker:recursion_of_clarity>*4);
 nameofnamesingot.addItemOutput(<contenttweaker:hyperuranion_ingot>);
 nameofnamesingot.build();
+
+val nameofnamesingotup = RecipeBuilder.newBuilder("nameofnamesingotup","altar_to_the_name_of_names",20);
+nameofnamesingotup.addEnergyPerTickInput(2000000000);
+nameofnamesingotup.addFluidInput(<fluid:naquadah_alloy>*16000);
+nameofnamesingotup.addFluidInput(<fluid:dragonsteel_fire>*16000);
+nameofnamesingotup.addFluidInput(<fluid:dragonsteel_ice>*16000);
+nameofnamesingotup.addFluidInput(<fluid:dragonsteel_lightning>*16000);
+nameofnamesingotup.addFluidInput(<fluid:mildly_recursive_goo>*16000);
+nameofnamesingotup.addFluidInput(<fluid:high_entropy_hyperdense_plasma>*16000);
+nameofnamesingotup.addFluidInput(<fluid:hint_of_divinity>*16000);
+nameofnamesingotup.addFluidInput(<fluid:hint_of_insanity>*16000);
+nameofnamesingotup.addItemInput(<contenttweaker:defined_ingot>);
+nameofnamesingotup.addItemInput(<contenttweaker:recursion_of_clarity>*2);
+nameofnamesingotup.addItemOutput(<contenttweaker:hyperuranion_ingot>);
+nameofnamesingotup.build();
 
 
 mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/requemofthearbiter", <contenttweaker:requiem_of_the_arbiter>, 4500, 400, [

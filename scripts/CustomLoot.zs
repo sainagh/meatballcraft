@@ -90,6 +90,14 @@ val polarursa = LootTweaker.getTable("aoa3:entities/mobs/overworld/polar_ursa");
 val polarursaroll = polarursa.addPool("polarursaroll", 1, 1, 0, 0);
 polarursaroll.addItemEntry(<aoa3:rosite_ingot>, 5);
 
+val deepcase = LootTweaker.getTable("aoa3:blocks/deep_case");
+val deepcasemain = deepcase.getPool("main");
+deepcasemain.addItemEntry(<contenttweaker:alchemical_deep_rock>*4, 20);
+deepcasemain.addItemEntry(<projecte:item.pe_fuel:2>*64, 20);
+deepcasemain.addItemEntry(<contenttweaker:botanic_alchemic_catalyst>*16, 20);
+deepcasemain.addItemEntry(<extrabees:honey_comb:11>*64, 30);
+
+
 val dimdoordungeon = LootTweaker.getTable("dimdoors:dungeon_chest");
 val dimdoorsdungeonroll = dimdoordungeon.addPool("dimdoorsdungeonroll", 1, 1, 0, 0);
 dimdoorsdungeonroll.addItemEntry(<ebwizardry:grand_crystal>, 5);
@@ -580,6 +588,7 @@ magicbeanslootingots.addItemEntry(<techreborn:ingot:14>, 3);
 magicbeanslootingots.addItemEntry(<techreborn:ingot:15>, 3);
 magicbeanslootingots.addItemEntry(<techreborn:ingot:3>, 3);
 magicbeanslootingots.addItemEntry(<thermalfoundation:material:135>, 3);
+magicbeanslootingots.addItemEntry(<thermalfoundation:material:134>, 3);
 magicbeanslootingots.addItemEntry(<thermalfoundation:material:134>, 3);
 
 val pinkslime = LootTweaker.getTable("industrialforegoing:entities/pink_slime");

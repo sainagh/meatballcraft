@@ -724,6 +724,40 @@ recursiumfragcombine.addItemInput(<contenttweaker:recursium_fragment_iter5>);
 recursiumfragcombine.addItemOutput(<contenttweaker:recursium_ingot>);
 recursiumfragcombine.build();
 
+val recursiumfragupgrade = RecipeBuilder.newBuilder("recursiumfragupgrade","infinity_furnace",20);
+recursiumfragupgrade.addFluidInput(<fluid:actualizing_fluid>*50);
+recursiumfragupgrade.addItemInput(<divinerpg:arlemite_block>);
+recursiumfragupgrade.addItemInput(<divinerpg:realmite_block>);
+recursiumfragupgrade.addItemInput(<divinerpg:rupee_block>);
+recursiumfragupgrade.addItemInput(<aoa3:amethyst_block>);
+recursiumfragupgrade.addItemInput(<aoa3:jade_block>);
+recursiumfragupgrade.addItemInput(<aoa3:sapphire_block>);
+recursiumfragupgrade.addItemInput(<divinerpg:bloodgem_block>);
+recursiumfragupgrade.addItemInput(<divinerpg:netherite_block>);
+recursiumfragupgrade.addItemInput(<aoa3:emberstone_block>);
+recursiumfragupgrade.addItemInput(<aoa3:limonite_block>);
+recursiumfragupgrade.addItemInput(<aoa3:rosite_block>);
+recursiumfragupgrade.addItemInput(<aoa3:baronyte_block>);
+recursiumfragupgrade.addItemInput(<aoa3:blazium_block>);
+recursiumfragupgrade.addItemInput(<aoa3:bloodstone_block>);
+recursiumfragupgrade.addItemInput(<aoa3:varsium_block>);
+recursiumfragupgrade.addItemInput(<aoa3:skeletal_ingot_block>);
+recursiumfragupgrade.addItemInput(<aoa3:gemenyte_block>);
+recursiumfragupgrade.addItemInput(<aoa3:jewelyte_block>);
+recursiumfragupgrade.addItemInput(<aoa3:ornamyte_block>);
+recursiumfragupgrade.addItemInput(<aoa3:elecanium_block>);
+recursiumfragupgrade.addItemInput(<aoa3:crystallite_block>);
+recursiumfragupgrade.addItemInput(<aoa3:ghastly_block>);
+recursiumfragupgrade.addItemInput(<aoa3:ghoulish_block>);
+recursiumfragupgrade.addItemInput(<aoa3:mystite_block>);
+recursiumfragupgrade.addItemInput(<aoa3:lyon_block>);
+recursiumfragupgrade.addItemInput(<aoa3:lunar_block>);
+recursiumfragupgrade.addItemInput(<aoa3:shyregem_block>);
+recursiumfragupgrade.addItemInput(<aoa3:shyrestone_block>);
+recursiumfragupgrade.addItemInput(<contenttweaker:recursion_focus_lens>);
+recursiumfragupgrade.addItemOutput(<contenttweaker:recursium_ingot>);
+recursiumfragupgrade.build();
+
 
 //
 
@@ -824,46 +858,80 @@ recipes.addShapeless(<contenttweaker:warren_shard_abyss>*4,
 [<contenttweaker:warren_shard_abyss>,
 <contenttweaker:warren_shard_abyss>,
 <contenttweaker:recursium_fragment_iter1>]);
+recipes.addShapeless(<contenttweaker:warren_shard_abyss>*4,
+[<contenttweaker:warren_shard_abyss>,
+<contenttweaker:warren_shard_abyss>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_lelyetia>*2,
 [<contenttweaker:warren_shard_lelyetia>,
 <contenttweaker:recursium_fragment_iter1>]);
+recipes.addShapeless(<contenttweaker:warren_shard_lelyetia>*2,
+[<contenttweaker:warren_shard_lelyetia>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_precasia>*4,
 [<contenttweaker:warren_shard_precasia>,
 <contenttweaker:warren_shard_precasia>,
 <contenttweaker:recursium_fragment_iter1>]);
+recipes.addShapeless(<contenttweaker:warren_shard_precasia>*4,
+[<contenttweaker:warren_shard_precasia>,
+<contenttweaker:warren_shard_precasia>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_barathos>*4,
 [<contenttweaker:warren_shard_barathos>,
 <contenttweaker:warren_shard_barathos>,
 <contenttweaker:recursium_fragment_iter1>]);
+recipes.addShapeless(<contenttweaker:warren_shard_barathos>*4,
+[<contenttweaker:warren_shard_barathos>,
+<contenttweaker:warren_shard_barathos>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_creeponia>*2,
 [<contenttweaker:warren_shard_creeponia>,
 <contenttweaker:recursium_fragment_iter1>]);
+recipes.addShapeless(<contenttweaker:warren_shard_creeponia>*2,
+[<contenttweaker:warren_shard_creeponia>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_deeplands>*2,
 [<contenttweaker:warren_shard_deeplands>,
 <contenttweaker:recursium_fragment_iter1>]);
+recipes.addShapeless(<contenttweaker:warren_shard_deeplands>*2,
+[<contenttweaker:warren_shard_deeplands>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 
 recipes.addShapeless(<contenttweaker:warren_shard_crystevia>*2,
 [<contenttweaker:warren_shard_crystevia>,
 <contenttweaker:recursium_fragment_iter2>]);
+recipes.addShapeless(<contenttweaker:warren_shard_crystevia>*2,
+[<contenttweaker:warren_shard_crystevia>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_gardencia>*2,
 [<contenttweaker:warren_shard_gardencia>,
 <contenttweaker:recursium_fragment_iter2>]);
+recipes.addShapeless(<contenttweaker:warren_shard_gardencia>*2,
+[<contenttweaker:warren_shard_gardencia>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_celeve>*2,
 [<contenttweaker:warren_shard_celeve>,
 <contenttweaker:recursium_fragment_iter2>]);
+recipes.addShapeless(<contenttweaker:warren_shard_celeve>*2,
+[<contenttweaker:warren_shard_celeve>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_iromine>*4,
 [<contenttweaker:warren_shard_iromine>,
 <contenttweaker:warren_shard_iromine>,
 <contenttweaker:recursium_fragment_iter2>]);
+recipes.addShapeless(<contenttweaker:warren_shard_iromine>*4,
+[<contenttweaker:warren_shard_iromine>,
+<contenttweaker:warren_shard_iromine>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_haven>*10,
 [<contenttweaker:warren_shard_haven>,
@@ -872,52 +940,92 @@ recipes.addShapeless(<contenttweaker:warren_shard_haven>*10,
 <contenttweaker:warren_shard_haven>,
 <contenttweaker:warren_shard_haven>,
 <contenttweaker:recursium_fragment_iter2>]);
+recipes.addShapeless(<contenttweaker:warren_shard_haven>*10,
+[<contenttweaker:warren_shard_haven>,
+<contenttweaker:warren_shard_haven>,
+<contenttweaker:warren_shard_haven>,
+<contenttweaker:warren_shard_haven>,
+<contenttweaker:warren_shard_haven>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_candyland>*2,
 [<contenttweaker:warren_shard_candyland>,
 <contenttweaker:recursium_fragment_iter2>]);
+recipes.addShapeless(<contenttweaker:warren_shard_candyland>*2,
+[<contenttweaker:warren_shard_candyland>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_mysterium>*2,
 [<contenttweaker:warren_shard_mysterium>,
 <contenttweaker:recursium_fragment_iter2>]);
+recipes.addShapeless(<contenttweaker:warren_shard_mysterium>*2,
+[<contenttweaker:warren_shard_mysterium>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_voxponds>*2,
 [<contenttweaker:warren_shard_voxponds>,
 <contenttweaker:recursium_fragment_iter2>]);
+recipes.addShapeless(<contenttweaker:warren_shard_voxponds>*2,
+[<contenttweaker:warren_shard_voxponds>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 
 recipes.addShapeless(<contenttweaker:warren_shard_borean>*2,
 [<contenttweaker:warren_shard_borean>,
 <contenttweaker:recursium_fragment_iter3>]);
+recipes.addShapeless(<contenttweaker:warren_shard_borean>*2,
+[<contenttweaker:warren_shard_borean>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_runandor>*2,
 [<contenttweaker:warren_shard_runandor>,
 <contenttweaker:recursium_fragment_iter3>]);
+recipes.addShapeless(<contenttweaker:warren_shard_runandor>*2,
+[<contenttweaker:warren_shard_runandor>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_lunalus>*2,
 [<contenttweaker:warren_shard_lunalus>,
 <contenttweaker:recursium_fragment_iter3>]);
+recipes.addShapeless(<contenttweaker:warren_shard_lunalus>*2,
+[<contenttweaker:warren_shard_lunalus>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_eden>*2,
 [<contenttweaker:warren_shard_eden>,
 <contenttweaker:recursium_fragment_iter1>]);
+recipes.addShapeless(<contenttweaker:warren_shard_eden>*2,
+[<contenttweaker:warren_shard_eden>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_wildwood>*2,
 [<contenttweaker:warren_shard_wildwood>,
 <contenttweaker:recursium_fragment_iter2>]);
+recipes.addShapeless(<contenttweaker:warren_shard_wildwood>*2,
+[<contenttweaker:warren_shard_wildwood>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_apalachia>*2,
 [<contenttweaker:warren_shard_apalachia>,
 <contenttweaker:recursium_fragment_iter3>]);
+recipes.addShapeless(<contenttweaker:warren_shard_apalachia>*2,
+[<contenttweaker:warren_shard_apalachia>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 
 recipes.addShapeless(<contenttweaker:warren_shard_skythern>*2,
 [<contenttweaker:warren_shard_skythern>,
 <contenttweaker:recursium_fragment_iter4>]);
+recipes.addShapeless(<contenttweaker:warren_shard_skythern>*2,
+[<contenttweaker:warren_shard_skythern>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_greckon>*2,
 [<contenttweaker:warren_shard_greckon>,
 <contenttweaker:recursium_fragment_iter4>]);
+recipes.addShapeless(<contenttweaker:warren_shard_greckon>*2,
+[<contenttweaker:warren_shard_greckon>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_dustopia>*10,
 [<contenttweaker:warren_shard_dustopia>,
@@ -926,6 +1034,13 @@ recipes.addShapeless(<contenttweaker:warren_shard_dustopia>*10,
 <contenttweaker:warren_shard_dustopia>,
 <contenttweaker:warren_shard_dustopia>,
 <contenttweaker:recursium_fragment_iter4>]);
+recipes.addShapeless(<contenttweaker:warren_shard_dustopia>*10,
+[<contenttweaker:warren_shard_dustopia>,
+<contenttweaker:warren_shard_dustopia>,
+<contenttweaker:warren_shard_dustopia>,
+<contenttweaker:warren_shard_dustopia>,
+<contenttweaker:warren_shard_dustopia>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_immortallis>*8,
 [<contenttweaker:warren_shard_immortallis>,
@@ -933,6 +1048,12 @@ recipes.addShapeless(<contenttweaker:warren_shard_immortallis>*8,
 <contenttweaker:warren_shard_immortallis>,
 <contenttweaker:warren_shard_immortallis>,
 <contenttweaker:recursium_fragment_iter4>]);
+recipes.addShapeless(<contenttweaker:warren_shard_immortallis>*8,
+[<contenttweaker:warren_shard_immortallis>,
+<contenttweaker:warren_shard_immortallis>,
+<contenttweaker:warren_shard_immortallis>,
+<contenttweaker:warren_shard_immortallis>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_ancientcavern>*8,
 [<contenttweaker:warren_shard_ancientcavern>,
@@ -940,10 +1061,19 @@ recipes.addShapeless(<contenttweaker:warren_shard_ancientcavern>*8,
 <contenttweaker:warren_shard_ancientcavern>,
 <contenttweaker:warren_shard_ancientcavern>,
 <contenttweaker:recursium_fragment_iter4>]);
+recipes.addShapeless(<contenttweaker:warren_shard_ancientcavern>*8,
+[<contenttweaker:warren_shard_ancientcavern>,
+<contenttweaker:warren_shard_ancientcavern>,
+<contenttweaker:warren_shard_ancientcavern>,
+<contenttweaker:warren_shard_ancientcavern>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_shyrelands>*2,
 [<contenttweaker:warren_shard_shyrelands>,
 <contenttweaker:recursium_fragment_iter5>]);
+recipes.addShapeless(<contenttweaker:warren_shard_shyrelands>*2,
+[<contenttweaker:warren_shard_shyrelands>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShapeless(<contenttweaker:warren_shard_mortum>*12,
 [<contenttweaker:warren_shard_mortum>,
@@ -953,6 +1083,14 @@ recipes.addShapeless(<contenttweaker:warren_shard_mortum>*12,
 <contenttweaker:warren_shard_mortum>,
 <contenttweaker:warren_shard_mortum>,
 <contenttweaker:recursium_fragment_iter5>]);
+recipes.addShapeless(<contenttweaker:warren_shard_mortum>*12,
+[<contenttweaker:warren_shard_mortum>,
+<contenttweaker:warren_shard_mortum>,
+<contenttweaker:warren_shard_mortum>,
+<contenttweaker:warren_shard_mortum>,
+<contenttweaker:warren_shard_mortum>,
+<contenttweaker:warren_shard_mortum>,
+<contenttweaker:unbound_recursium_fragment>]);
 
 recipes.addShaped(<contenttweaker:sacred_callstone>,
 [[<contenttweaker:warren_splitter_fabrial>, <contenttweaker:essence_of_the_mythic_shells>, <contenttweaker:warren_splitter_fabrial>],

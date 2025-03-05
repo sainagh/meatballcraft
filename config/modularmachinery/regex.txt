@@ -1,4 +1,0 @@
-modularmachinery:blockfluidinputhatch		generalized_input_fluid
-modularmachinery:blockfluidoutputhatch		generalized_output_fluid
-modularmachinery:blockoutputbus			generalized_output_item
-modularmachinery:blockinputbus			generalized_input_item

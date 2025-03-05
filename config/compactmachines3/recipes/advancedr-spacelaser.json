@@ -15,7 +15,7 @@
 
   "input-types": {
     "a": {
-      "id": "libvulpes:advstructuremachine",
+      "id": "libvulpesdvstructuremachine",
       "meta": 0
     },
     "b": {
@@ -40,7 +40,7 @@
     },
     "f": {
       "id": "advancedrocketry:spacelaser",
-      "meta": 2,
+      "meta": 0,
       "item": {
         "id": "advancedrocketry:spacelaser",
         "count": 1
@@ -186,7 +186,7 @@
         "_"
       ],
       [
-        "d:A",
+        "d",
         "b",
         "b",
         "b",
@@ -199,7 +199,7 @@
         "_"
       ],
       [
-        "d:A",
+        "d",
         "b",
         "b",
         "b",
@@ -251,7 +251,7 @@
         "g"
       ],
       [
-        "d:A",
+        "d",
         "b",
         "b",
         "b",
@@ -264,7 +264,7 @@
         "_"
       ],
       [
-        "d:A",
+        "d",
         "b",
         "b",
         "b",
@@ -305,7 +305,7 @@
         "_"
       ],
       [
-        "d:A",
+        "d",
         "b",
         "b",
         "b",
@@ -318,7 +318,7 @@
         "_"
       ],
       [
-        "d:A",
+        "d",
         "b",
         "b",
         "b",
@@ -326,9 +326,9 @@
         "a",
         "a",
         "_",
-        "e:A",
-        "f:A",
-        "e:A"
+        "e",
+        "f",
+        "e"
       ],
       [
         "_",
@@ -370,7 +370,7 @@
         "g"
       ],
       [
-        "d:A",
+        "d",
         "b",
         "b",
         "b",
@@ -383,7 +383,7 @@
         "_"
       ],
       [
-        "d:A",
+        "d",
         "b",
         "b",
         "b",

@@ -4897,7 +4897,7 @@ meatballmancallstone.itemRightClick = function(stack, world, player, hand) {
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
     var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState2 != "Hyperuranion Actualizing Fabrial") {
+    if(blockState2 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState2 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing Hyperuranion Actualizing Fabrial");
         return "FAIL";
     }
@@ -4972,3 +4972,131 @@ luckyboxadventarmor.itemRightClick = function(stack, world, player, hand) {
 
 };
 luckyboxadventarmor.register();
+
+
+var guardiansofshadesmarcallstone = VanillaFactory.createItem("guardians_of_shadesmar_callstone");
+guardiansofshadesmarcallstone.maxStackSize = 1;
+guardiansofshadesmarcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+
+    Commands.call("pillar-spawn kashan_structure_fourspren", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+guardiansofshadesmarcallstone.register();
+
+
+var sprensummonerhope = VanillaFactory.createItem("spren_summoner_hope");
+sprensummonerhope.maxStackSize = 1;
+sprensummonerhope.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon twilightforest:raven ~ ~5 ~ {PersistenceRequired:1,Tags:[\"sprenhope\"],CustomName:\"Spren of Hope\"}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+sprensummonerhope.register();
+
+
+var sprensummonerbalance = VanillaFactory.createItem("spren_summoner_balance");
+sprensummonerbalance.maxStackSize = 1;
+sprensummonerbalance.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon ebwizardry:spirit_wolf ~ ~5 ~ {PersistenceRequired:1,Tags:[\"sprenbalance\"],CustomName:\"Spren of Balance\"}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+sprensummonerbalance.register();
+
+
+var sprensummonerglory = VanillaFactory.createItem("spren_summoner_glory");
+sprensummonerglory.maxStackSize = 1;
+sprensummonerglory.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon ebwizardry:spirit_horse ~ ~5 ~ {PersistenceRequired:1,Tags:[\"sprenglory\"],CustomName:\"Spren of Glory\"}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+sprensummonerglory.register();
+
+
+var sprensummonerknowledge = VanillaFactory.createItem("spren_summoner_knowledge");
+sprensummonerknowledge.maxStackSize = 1;
+sprensummonerknowledge.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 190) {
+        player.sendChat("You gotta be in Kashan");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon aether_legacy:sheepuff ~ ~5 ~ {PersistenceRequired:1,Tags:[\"sprenknowledge\"],CustomName:\"Spren of Knowledge\"}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+sprensummonerknowledge.register();
+
+
+var trinitascallstone = VanillaFactory.createItem("trinitas_callstone");
+trinitascallstone.maxStackSize = 1;
+trinitascallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 191) {
+        player.sendChat("You gotta be in Trinitas");
+        return "FAIL";
+    }
+
+
+    Commands.call("pillar-spawn trinitas_structure_trinity", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+trinitascallstone.register();
+
+
