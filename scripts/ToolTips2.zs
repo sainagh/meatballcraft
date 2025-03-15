@@ -1661,7 +1661,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:polonium_beryllium_alloy_ingot>.addTooltip(format.aqua("基础能量：1800 RF/t"));
 <contenttweaker:polonium_beryllium_alloy_ingot>.addTooltip(format.aqua("基础产热：1200 H/t"));
 
-<simplevoidworld:portal>.addTooltip(format.red("感谢ACGaming只做了Meatball Sauce模组"));
+<simplevoidworld:portal>.addTooltip(format.red("感谢ACGaming制作了Meatball Sauce模组"));
 
 <bloodmagic:inversion_pillar:4>.addTooltip(format.red("TKuja1最爱的方块"));
 
