@@ -1768,7 +1768,7 @@
 <divinerpg:eden_planks>.addTooltip(format.red("多方块升级，镀层木工机：速度x10"));
 <divinerpg:eden_planks>.addTooltip(format.red("多方块升级，镀层热电子加工台：速度x10"));
 <contenttweaker:stone_of_the_wizard>.addTooltip(format.red("多方块升级，感知凝结器：输出x8"));
-<thebetweenlands:pearl_block>.addTooltip(format.red("多方块升级，无害化牺牲及探究：速度x10"));
+<thebetweenlands:pearl_block>.addTooltip(format.red("多方块升级，无害化牺牲祭坛：速度x10"));
 <contenttweaker:gallifreyan_irradiator>.addTooltip(format.red("多方块升级，两相裂变堆：速度x10"));
 <abyssalcraft:ethaxiumbrick:2>.addTooltip(format.red("多方块升级，英玫之门：速度x5"));
 <contenttweaker:elemental_harmonizer>.addTooltip(format.red("多方块升级，巫术组合台：速度x20"));
