@@ -3798,7 +3798,7 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_stage2anomaly>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "使用盖亚超立方体以达到正确的高度。"
+    "使用盖亚宇宙魔方以达到正确的高度。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_infuserfabrial>,
