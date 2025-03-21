@@ -1425,7 +1425,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:skeletal_callstone>.addTooltip(format.red("第一个召唤石！右击召唤一座地牢！"));
 
-<dimdoors:oak_dimensional_door>.addTooltip(format.red("传送！使用裂隙印记将两个地点绑定，接着在裂隙上放置维度门将其连接"));
+<dimdoors:oak_dimensional_door>.addTooltip(format.red("传送！使用裂痕印记将两个地点绑定，接着在裂隙上放置维度门将其连接"));
 
 <rftools:matter_transmitter>.addTooltip(format.red("传送！传送到指定地点"));
 
