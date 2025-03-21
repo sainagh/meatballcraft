@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSearch for tinker modifier in JEI for list of modifiers. Any material can be used for the tool forge!\n\nThe §cTinkerer\u0027s Toolbox §7§oquest tab will guide you through the mod\u0027s mechanics!\n\n§rModular is better! Now that I know I\u0027m stuck here, at least for the forseeable future, I should start focusing on better tools and weapons.",
+      "desc:8": "§7§o在JEI中搜索“匠魂强化”以查看匠魂强化列表。任何材料制作的工具锻造台都可完成任务！\n\n§c工匠工具箱§7§o任务标签页会指引你了解该模组的机制！\n\n§r模块化设计方为王道！既然已知受困于此，至少在可见的未来难以脱身，是时候着手提升装备品质了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:pattern"
       },
-      "name:8": "Mix and Match"
+      "name:8": "混合搭配"
     }
   },
   "questID:3": 40,
@@ -28,13 +28,13 @@
           "tag:10": {
             "author:8": "gafex11",
             "pages:9": {
-              "0:8": "{\"text\":\"If you have lost an item somewhere in your storage and don\u0027t want to search through every storage slot, you can double click your seach bar, search JEI for your item and it will highlight slots in your storage / player inventory for similar items.\"}",
-              "1:8": "{\"text\":\"You can use these at the beginning of your search to narrow down what you are looking for:\\n# - filters by tooltip descriptions\\n\u0026 - filters items by resource ID (You will likely never use this)\\n^ - filters items by color\\n$ - filters items by oreDictionary\\n@ - filters by mod names\\n% - filters by creative tab (You will likely never use this)\"}",
-              "2:8": "{\"text\":\"You can also use - in order to exclude items from your search. You can only use this following one of the previous prefixes. Otherwise, you JEI just won\u0027t bother searching.\"}",
-              "3:8": "{\"text\":\"For exemple, if you are searching for NuclearCraft fuels but dont want the depleted fuels to come up in your search, you can search with :\\n\\n@nuclearcraft fuel -depleted\"}",
-              "4:8": "{\"text\":\"If you wish to narrow it down further, you can safely add -bucket -molten -oxide to the end of your search and you will be left with all the different types of fuels without their depleted counterparts, molten and bucket forms. \\n\"}"
+              "0:8": "{\"text\":\"如果记不得把某个物品放在哪了，又不想一格一格找，可以双击搜索栏，在JEI中搜索想要寻找的物品，然后玩家物品栏/容器物品栏中的相同物品会高亮显示。\"}",
+              "1:8": "{\"text\":\"还可以在JEI中使用以下前缀缩小所查找物品的范围：\\n# - 按物品提示文本过滤\\n\u0026 - 按资源ID过滤物品（可能永远也用不到）\\n^ - 按颜色过滤物品\\n$ - 按矿物词典过滤物品\\n@ - 按模组名称过滤\\n% - 按创造模式标签栏名称过滤（可能永远也用不到）\"}",
+              "2:8": "{\"text\":\"还可使用'-'（减号）来从搜索中剔除物品。只能在上述前缀之后使用该前缀。否则JEI不会进行搜索。\"}",
+              "3:8": "{\"text\":\"例如，若想要搜索核电工艺的燃料，但不想搜索中出现枯竭燃料，可用以下形式搜索：\\n\\n@nuclearcraft 燃料 -枯竭\"}",
+              "4:8": "{\"text\":\"若想进一步缩小搜索范围，可以在搜索末尾添加-桶 -熔融 -氧化，这样就可以搜索到所有不同类型的燃料，同时排除其枯竭、熔融和桶装形式。\\n\"}"
             },
-            "title:8": "JEI Tips and Tricks"
+            "title:8": "JEI提示与技巧"
           }
         },
         "2:10": {

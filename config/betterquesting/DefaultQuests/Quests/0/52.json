@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Chickens here are weird.\nThe testificates told me that they are also native to this planet, and they have a very special affinity for materials and elements.\nInk, for some reason, is a very effective way to reinforce iron, and it just so happens that some chickens produce it naturally.",
+      "desc:8": "这里的鸡真的很奇怪。\n泰斯特斐人告诉我这些鸡也是泰拉的本土物种，它们对材料和元素有种十分特别的亲和性。\n墨水，不知为何，可用作强化铁的高效材料，好巧不巧，有些鸡能够自然产出这种材料。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "chickens:colored_egg"
       },
-      "name:8": "Cool Chickens"
+      "name:8": "潮鸡"
     }
   },
   "questID:3": 52,

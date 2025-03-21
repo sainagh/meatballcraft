@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I found a village of intelligent creatures! They call themselves the testificates, and they are native to this planet, which they call Terra.\nThe testificates have a troubled history, they used to be a powerful civilization, advanced in the use of magic, which they used to open portals to connect them to other parts of the planet, including the massive caves that fill Terra\u0027s underground.\nThen, war from outside came. This has something to do with the fact that the Universe\u0027s rarest mineral, dimensional shards, appear naturally, and ever since their discovery, the mightiest powers in the universe have fought to gain control over it.\nMost of the creatures currently on Terra are not natives, instead they are here to fight. Some of them, I was told, are from \u0027nations\u0027 that have been able to take over entire galaxies!\nI should be very careful about who I fight, I\u0027m dealing with Kardashev type 3 civilizations that have powers beyond any human understanding. \nI feel very sorry for the testificates, to see your planet be invaded and become a battleground between type 5 civilizations is truly tragic...",
+      "desc:8": "我发现了一个智慧生物的村落！他们自称泰斯提斐人，是这颗被称作泰拉的星球的原生种族。\n\n§r泰斯提斐人有着动荡的历史——他们曾建立强大的魔法文明，通过开启传送门连接星球各处，包括遍布泰拉地底的巨型洞穴系统。\n而后，战争自天外而来。这是因为泰拉上存在着宇宙间最为稀有的矿物：“维度碎片”。自其发现了它，宇宙中最强大的势力就为争夺它而战。\n如今泰拉上的大部分生物都并非原住民，而是参战者。据说，某些生物甚至来自能掌控整个星系的“国度”！\n我必须谨慎选择战斗对象，面对的可能是超越人类理解的卡尔达舍夫III级文明。\n看着自己的星球沦为V级文明的战场，村民的遭遇实在令人扼腕……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:emerald"
       },
-      "name:8": "Terra"
+      "name:8": "泰拉"
     }
   },
   "questID:3": 38,

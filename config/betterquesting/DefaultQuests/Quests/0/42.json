@@ -9,7 +9,7 @@
         "Count:3": 1,
         "id:8": "contenttweaker:sentient_meatball"
       },
-      "name:8": "Sentient Meatball"
+      "name:8": "感知肉丸"
     }
   },
   "questID:3": 42,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:sentient_meatball"
             },
-            "TrophyName:8": "Meatball encounter of the third kind",
+            "TrophyName:8": "第三类肉丸接触",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

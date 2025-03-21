@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe mob imprisonment tool lets you capture and move mobs around. There are other options as well, but this is the least buggy on§fe!\n\nI can now capture and transport other creatures for my own purposes, I promise I will not abuse this...",
+      "desc:8": "§7§o生物捕捉工具可以捕捉并转移生物。当然也有其他手段，但生物捕捉工具的bug最少！§f\n\n如今我已掌握捕获并运送其他生物的能力，让它们为我所用，我保证不会滥用的……",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -12,7 +12,7 @@
         },
         "id:8": "industrialforegoing:mob_imprisonment_tool"
       },
-      "name:8": "Imprisonment"
+      "name:8": "捕捉"
     }
   },
   "questID:3": 51,

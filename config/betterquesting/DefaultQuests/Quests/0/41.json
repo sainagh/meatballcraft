@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYour first boss fight! This pack has a lot of items with custom functions, right click to use it, and summon an enemy!",
+      "desc:8": "§7§o第一场Boss战！本整合包有很多自定义功能的物品，右击使用，召唤敌人！",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -12,7 +12,7 @@
         },
         "id:8": "contenttweaker:mossy_grave_dust"
       },
-      "name:8": "Mossy Grave Dust"
+      "name:8": "苔藓墓灰"
     }
   },
   "questID:3": 41,
