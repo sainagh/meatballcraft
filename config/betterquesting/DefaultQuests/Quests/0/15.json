@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThere are many skills and abilities that can be levelled up!\n\nEach different skill has its own way of obtaining levels, but all skills past level 15 can be levelled using skill crystals!\n\n§fHere\u0027s another interesting case of magic! \nAs was recently discovered on Earth (man I miss it so much, especially pizza) the \u0027weight of the soul\u0027 many spoke of does hold some scientific veracity. This is what we call essence, a substance that is directly tied to the emergent property of life. Anything that is alive, and is capable of a will, even in the form of an instinct, can produce essence.\nOn earth, the main application for essence became animal farming. The ethics of it were questionable at best, but it ended up being a fairly environmentally friendly solution, and capitalism went with it!\nBut I\u0027m getting sidetracked; essence is not the only emergent substance of life, or at least here. \nThis is something I have not felt before, but since I arrived here I feel something else. Is this magic of the type that agrees to the laws of nature, or is it something that transcends them, the mythic type?\nI\u0027ll start categorizing it, and hopefully I\u0027ll stumble into some truths.",
+      "desc:8": "§7§o有很多技能和能力可以升级！\n\n每种技能都有独特的升级方式，并且在技能等级到达15级后，可以通过使用技能水晶直接获得技能经验！\n\n§f又一种有趣的魔法！\n正如最近在地球上发现的那样（天哪，我太想念地球了，特别是披萨），许多人所说的 “灵魂的重量”确实具有一定的科学意义。我们将其称为 “精华”，一种与生命的涌现性质直接相关的物质。任何有生命、有意志的东西，哪怕只有本能，都能产生精华。\n在地球上，精华主要应用于动物养殖。虽然伦理道德方面有点问题，但是相当环保，资本主义也随之而兴！\n扯远了；看起来精华并不是生命唯一的涌现性质，至少在这里不是。\n自从来到这儿后，我开始感觉到某种以前从未察觉过的东西。这种魔法符合自然法则吗，还是说，是超越了自然法则的，神话魔法？\n我会尝试归类它们，希望能发现一些真理。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:medium_skill_crystal"
       },
-      "name:8": "Skillful"
+      "name:8": "娴熟技艺"
     }
   },
   "questID:3": 15,

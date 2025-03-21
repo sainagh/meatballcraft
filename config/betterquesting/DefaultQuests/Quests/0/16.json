@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBreak leaves to get anima stones, use them on the ground to speed growth temporarily. Tablets can be used as temporary beacons at the cost of anima.\n\n§o§fOne of the things I can do with this magic is very similar to spellcasting. It is quite quantitative in nature, not unlike the wizardry I\u0027ve seen performed by some of the local inhabitants, but it follows a different sets of rules, rules that still feel fairly arbitrary.\nIs this arbitrariness a sign that the magic is of a natural origin, or does it mean it is \u0027bestowed from up above\u0027 by someone or something?",
+      "desc:8": "§7§o破坏树叶可获得灵魂石，对草方块使用可促进周围植物生长。石板可用作临时信标，但需要消耗灵魂石。\n\n§o§f我所能施展的这种魔法与施法极为相似。其本质相当量化，虽不同于当地居民使用的巫术，但仍遵循另一套规则——一套仍显得颇为主观的规则体系。\n这种规则的主观性究竟意味着魔法源于自然法则，还是暗示其由更高存在所“赐予”？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:fragmented_anima_stone"
       },
-      "name:8": "Anima Skill"
+      "name:8": "技能：灵气"
     }
   },
   "questID:3": 16,

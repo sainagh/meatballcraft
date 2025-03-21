@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§r§7§oThis is an RPG-themed pack, so quests will tell you what you can do, not what you have to do. The way you do things is up to YOU!\n§r\n§rI really appreciate you for playing my pack \u003c3",
+      "desc:8": "§r§7§o这是个RPG主题的整合包，所以任务只会告诉你能做什么，而不是应该做什么。怎么玩取决于§l你自己§r！\n\n§r非常感谢你能来玩我的整合包 \u003c3",
       "icon:10": {
         "Count:3": 1,
         "id:8": "avaritia:cosmic_meatballs"
       },
-      "name:8": "Thanks for playing!"
+      "name:8": "感谢游玩！"
     }
   },
   "questID:3": 2,

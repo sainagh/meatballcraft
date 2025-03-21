@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe more you mine, the better the random drops and luck.\n\n§fThe energy of this new magic is very conceptual, it seems. It has specific rules, but these rules directly relate to emerging concepts. When I mine, I get stuff that weren\u0027t there, but what does \u0027mine\u0027 mean? Does this only work on some types of stone, but not others? What if I am using the wrong tool?\nAnd how does the magic force guiding this even know that I am \u0027mining\u0027 as opposed to \u0027logging\u0027?\n",
+      "desc:8": "§7§o挖得越多，随机掉落物越好，幸运越高。\n\n§f这种新魔法的能量似乎非常的概念化。它有特定的规则，但这些规则与涌现性质直接相关。当挖掘的时候，我挖到了原本不存在的东西，但“挖掘”又是怎么界定的呢？这是否只对某些特定种类的石头生效？如果我用的工具类型不对又会发生什么？\n引导这一切的魔法力量又是如何知道我是在“挖掘”而不是“砍伐”呢？\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:corrupted_pickaxe"
       },
-      "name:8": "Foraging Skill"
+      "name:8": "技能：采掘"
     }
   },
   "questID:3": 23,

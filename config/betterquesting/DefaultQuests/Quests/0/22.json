@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe more you fish, the better the loot!\n\n§fWho would\u0027ve though fishing magic was a thing?",
+      "desc:8": "§7§o钓得越多，战利品越好！\n\n§f谁能想到钓鱼也有魔法？",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "minecraft:fish"
       },
-      "name:8": "Hauling Skill"
+      "name:8": "技能：垂钓"
     }
   },
   "questID:3": 22,

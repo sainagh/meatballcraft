@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDealing high damage increases the chance of crit hits and increases rage.\n\nThis skill is levelled up by using bloodlust coins, found as loot in battle towers!\n\n§fWhat I initially thought to be one form of magic, in actuality, is a multi-faceted system.\nWhile it is evident that these powers have a common origin, their distinctness is also indisputable. This one almost feel like essence, but different, very different.",
+      "desc:8": "§7§o造成大额伤害会增加暴击率并增加战斗怒火。\n\n战斗高塔中发现的嗜血硬币也可提升该技能等级！\n\n§f我本以为这是单一的魔法形式，但实际上这是个多面系统。\n尽管这些力量有着共同的起源，但其独特性也是不争的事实。给我的感觉十分近似于精华，但又不同，非常不同。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "randomthings:rezstone"
       },
-      "name:8": "Butchery Skill"
+      "name:8": "技能：嗜血"
     }
   },
   "questID:3": 27,

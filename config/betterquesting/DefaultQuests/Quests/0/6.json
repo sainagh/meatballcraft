@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou will unlock more pages as you progress - Follow \u0027Dimensional Ascension\u0027 to progress through the pack! The other quests are for info and tutorials!\n\n§rThere seems to be a lot of stuff to keep track of... I better start documenting my findings!\n\n§\n§cPersonal Augmentation §ris to keep track of useful or powerful gadgets.\n\n§cTooling Shmooving §fis to keep track of tools for building and breaking things.\n\n§cTinkerer\u0027s Toolbox §fis to list the properties of the tools I build.\n\nThe §c§cEnergy Sources§r manual will keep track of all the ways of making energy.\n\n§cManufacturing and Fabrication§r will be there to help me remember how to use machines.\n\nIf I ever need to automate a process or implement a logistical system, I will keep track of my findings in §cLogistics and Organization§r.\n\nIf I come up with a way of producing resources autonomously, §cThe Book of Creation§r will keep track of these.\n\nAll the knowledge of magic will be held in the §cMagical Mastery§r book.\n\n§cThe book of Worlds§r will be there to keep track of the places I visit!\n\nThe §cCompenduum Materialis §flists all in-world resources that can be found in each place I explore.\n\nThere are many powerful artifacts, I will list them in the §cSuper-Enchanting §ftab.\n\nThe §cArmory §fwill be used to list useful and cool-looking gear.\n",
+      "desc:8": "§7§o随着进度的推进，你会解锁更多页面 ——按照“维度飞升”任务线来推进流程！其他任务是用来提供信息和教程的！\n\n§r看起来有不少东西需要记录……我最好把我的发现整理成册！\n\n§c个人强化§r用来记录各种实用工具。\n\n§c工具攀升§f用来记录建造与破坏相关的工具。\n\n§c工匠工具箱§f中列出了我制造的工具的各项属性。\n\n§c§c能量来源§r手册中记录了所有产出能量的方法。\n\n§c制作与加工§r会帮助我记住如何使用各种机器。\n\n如果需要自动化某个流程，或者实现一个物流系统，我会把发现记录在§c物流与组织§r中。\n\n如果我想出了自主生产资源的方法，§c创造之书§r会记录这些思路。\n\n所有魔法相关的知识都将收录在§c魔法精通§r一书中。\n\n§c世界之书§r将记录我到过的地方！\n\n§c材料汇编§f中列出了我探索过的每个地方中，所有可在世界中找到的资源。\n\n还有许多强大的造物，我会在§c超限附魔§f标签页中一一列出。\n\n§c装甲库§f将用于列出实用、外观酷炫的装备。\n",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -15,7 +15,7 @@
           "Energy:3": 0
         }
       },
-      "name:8": "How do quests work?"
+      "name:8": "任务是如何规划的？"
     }
   },
   "questID:3": 6,

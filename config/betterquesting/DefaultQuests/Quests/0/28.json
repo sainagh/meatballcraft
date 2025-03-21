@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAll natural occurring minerals are found in the §cMaterial Compenduum §7§otab. JEI will help too, all resources have info boxes describing where each ingot or gem can be obtained!\n\n§7§oThe pack uses custom \u0027info boxes\u0027 items to explain mechanics and suggest strategies.\n\nYou can pin them in JEI if you need to keep track of things!\n\n§fThis planet\u0027s soil appears to be very rich of minerals and metals. This is good, because a lot of the creatures here are definitely not friendly, and I need weapons and some means of protection.\nSome materials are harder than others, and some seem to have particular properties, I\u0027ll keep track of what I find to make sure I can figure out what to use them for...",
+      "desc:8": "§7§o所有自然生成的矿物都可在§c材料汇编§7§o标签页中找到。JEI同样也能提供帮助，所有资源都有描述如何获得锭/宝石的信息框！\n\n§7§o本包使用自定义的“信息框”物品来阐述机制与建议。\n\n如果需要，你可以把它们固定在JEI标签中！\n\n§f这颗行星的土壤似乎含有非常丰富的矿物质和金属。这是个好消息，因为这里的许多生物明显不是很友好，我需要武器和一些保护措施。\n有些材料比其他材料更坚硬，还有些似乎具有特殊属性，我会记录下发现的材料，以确保我能找到它们的用途…….",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:iron_ore"
       },
-      "name:8": "Minerals"
+      "name:8": "矿物"
     }
   },
   "questID:3": 28,

@@ -1,12 +1,12 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§7§r§7§oThis is a checkmark quest, click on the red X to complete it!\n\n§o§rThe equations make sense, string theory is true! We indeed live in a universe that has more dimensions than we can perceive...\nThis means that it is §otheoretically§r possible to travel through these dimensions!\nTime to start looking at some ways to prove this theory. Nobel prize here I come!!",
+      "desc:8": "§7§7§r§7§o这是个复选框任务，点击红色的X号来完成！\n\n§o§r方程式正确的，弦论是真的！我们生活的宇宙确实存在超出人类感知能力的的维度……\n这意味着，§o§r§o理论上§r是有可能穿越到这些维度的！\n是时候开始寻找能证明该理论的方法了。诺贝尔奖我来了！！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:block_infinity_fog"
       },
-      "name:8": "Powerful Knowledge"
+      "name:8": "强大的知识"
     }
   },
   "questID:3": 0,
@@ -19,36 +19,36 @@
           "Count:3": 1,
           "id:8": "minecraft:written_book",
           "tag:10": {
-            "author:8": "meatballcraft",
+            "author:8": "Meatballcraft",
             "pages:9": {
-              "0:8": "{\"text\":\"For servers:\\n\\nCreate a party before completing any of the quests.\\n\\nYou can do this in the questbook homepage!\\n\\n\\nSEE NEXT PAGE\"}",
-              "1:8": "{\"text\":\"Sometimes the progress for checkbox quests is not shared with the rest of your party.\\n\\nMake sure everyone completes those!\"}"
+              "0:8": "\"text\":\"在服务器游玩时：\\n\\n在完成任务之前，先创建一个队伍。\\n\\n可在任务书主页进行该操作！\\n\\n\\nS查看下一页\"}",
+              "1:8": "{\"text\":\"复选框任务进度有时不会与队伍中其他玩家同步。\\n\\nM确保所有人都完成了这些复选框任务！\"}"
             },
             "resolved:1": 1,
-            "title:8": "FOR SERVERS"
+            "title:8": "服务器须知"
           }
         },
         "1:10": {
           "Count:3": 1,
           "id:8": "minecraft:written_book",
           "tag:10": {
-            "author:8": "meatballcraft",
+            "author:8": "Meatballcraft",
             "pages:9": {
-              "0:8": "{\"text\":\"Channels aren\\u0027t for everyone, I know.\\n\\nIf you want to disable them, you can find an alternative config in the AlternativeConfigs folder. Just copy the AppliedEnergistics2 folder from there into config.\\n\\nNEXT PAGE\"}",
-              "1:8": "{\"text\":\"This will also increase the energy cost of your network 8X to offset the smaller number of wiring connections.\\n\\nWARNING: networks without channels are more laggy so they are not recommended for progressing past chapter 4!\"}"
+              "0:8": "{\"text\":\"我知道不是所有人都喜欢频道。\\n\\n如果想要关闭频道，可在AlternativeConfigs目录中找到备选的配置文件。直接复制AppliedEnergistics2文件夹到config目录即可。\\n\\n下一页\"}",
+              "1:8": "{\"text\":\"这会使网络能耗变为原来的8倍，以匹配简化的网络布线。\\n\\n警告：关闭频道的网络会更加卡顿，因此不建议在第4章后使用此配置！\"}"
             },
-            "title:8": "No Channels?!?"
+            "title:8": "不想要频道？！？"
           }
         },
         "2:10": {
           "Count:3": 1,
           "id:8": "minecraft:written_book",
           "tag:10": {
-            "author:8": "meatballcraft",
+            "author:8": "Meatballcraft",
             "pages:9": {
-              "0:8": "{\"text\":\"To optimize the game and its performance across multiple hardware platforms, some in-game animations (like fire) have been disabled by default.\\n\\nSEE NEXT PAGE\"}",
-              "1:8": "{\"text\":\"I know some players care about having pretty-looking things.\\n\\nTo re-enable animations, paste the loliasm.cfg file from AlternativeConfigs into the config folder.\\n\\nSEE NEXT PAGE\"}",
-              "2:8": "{\"text\":\"WARNING: doing this may lower performance, or even make the pack unplayable.\"}"
+              "0:8": "{\"text\":\"为了优化游戏在不同硬件平台上的性能表现，部分游戏内动画（例如火焰）默认为关闭状态。\\n\\n查看下一页\"}",
+              "1:8": "{\"text\":\"我知道有些玩家很在乎视觉体验。\\n\\n要重新启用这些动画，将AlternativeConfigs目录下的loliasm.cfg文件复制到config目录下。\\n\\n查看下一页\"}",
+              "2:8": "{\"text\":\"警告：这样可能会影响性能表现，甚至可能完全玩不了。\"}"
             },
             "title:8": "No Animations"
           }
@@ -59,9 +59,9 @@
           "tag:10": {
             "author:8": "Meatballcraft",
             "pages:9": {
-              "0:8": "{\"text\":\"Why do items look weird when I mouse over??\\n\\nThe modpack uses the Epic Tooltip mod. We understand if this is not for everyone.\\n\\nIf you want to change back to Vanilla presets, check the AlternativeConfig folder.\"}"
+              "0:8": "{\"text\":\"为什么鼠标悬浮在上面的时候，物品看起来很奇怪？？\\n\\n本整合包使用了Epic Tooltip模组。我们理解不是所有人都喜欢这个外观。\\n\\n若想换回原版预设，去看看AlternativeConfigs目录。\"}"
             },
-            "title:8": "Items Look Weird"
+            "title:8": "物品看起来有点怪"
           }
         }
       }

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUndead mobs drop grave dust\n\n§rWhat is going on? This is scary!\nI thought I would be done for, I thought I was going to die...\nInstead, everything turned dark, and a strange feeling came over me, and I suddenly woke up!\nAfter killing some of the undead-looking creatures that roam this planet at night, I got my hands on this strange powder.\nTouching it gave me a feeling similar to what I felt whenever I thought I would die.\nIt seems like I cannot die. Instead, I lose my ability to carry things, and I somehow manage to travel in some sort of \u0027ghostly shape\u0027 for a few hours after that.\nShould I assume that someone, or something, wants me alive?!",
+      "desc:8": "§7§o亡灵生物会掉落墓灰\n\n§r这怎么回事？太吓人了！\n我以为我完蛋了，我以为我要死了……\n相反，一切都变暗了，一种奇怪的感觉笼罩着我，接着我突然醒了过来！\n杀死了一些夜间在这颗星球上游荡的，看起来像是亡灵一样的生物后，我得到了这种奇怪的粉末。\n触摸它时，我有一种似曾相识的感觉，这感觉和我上次以为自己要死时的感觉非常相似。\n我似乎无法死亡。但同时，我失去了携带东西的能力，在那之后的几个小时里，我不知怎么地能够以某种“幽灵形态”进行移动。\n这是否说明，有人，或者有什么东西，想让我活着？！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "tombstone:crafting_ingredient"
       },
-      "name:8": "Death is just another journey..."
+      "name:8": "死亡只是另一段旅途……"
     }
   },
   "questID:3": 8,

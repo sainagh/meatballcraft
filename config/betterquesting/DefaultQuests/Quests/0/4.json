@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is a laggy pack, so try keeping large automation under control!\n\n§rThis is a story about portals and space-time, but all this cool and powerful stuff is not necessarily good for the fabric of reality, which may freeze and break, from time to time...\n\n§osomething something§o§r there will be lag...\nThanks to Luctor for the quest suggestion!",
+      "desc:8": "§7§o本整合包较卡，所以尽量控制好大规模自动化！\n\n§r这是一个关于传送门与时空的故事，但这些酷炫的玩意对现实结构并不一定是好事，可能会时不时冻结和崩溃……\n\n§o什么玩意§o§r在卡……\n感谢Luctor提出的这条任务建议！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:rift_essence"
       },
-      "name:8": "The universe is shattering! "
+      "name:8": "宇宙正在破裂！"
     }
   },
   "questID:3": 4,
