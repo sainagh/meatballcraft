@@ -9,7 +9,7 @@ mods.jei.JEI.addDescription(<aoa3:amethyst>,["发现于Y=13到Y=31之间。","",
 mods.jei.JEI.addDescription(<aoa3:baronyte_ingot>,["发现于虚无世界模组的爵士维度。","","可通过打开闪亮的盒子获得。","","可发现于爵士城堡的箱子内。","","生成于Y=23与Y=36之间。" ]);
 mods.jei.JEI.addDescription(<aoa3:blazium_ingot>,["发现于虚无世界模组的爵士维度。","","可通过打开闪亮的盒子获得。","","可发现于爵士城堡的箱子内。","","生成于Y=22之下。"]);
 mods.jei.JEI.addDescription(<aoa3:bloodstone>,["发现于虚无世界模组的深渊维度。","","可由深渊蹒跚者掉落。","","矿物生成于Y=64以下。" ]);
-mods.jei.JEI.addDescription(<aoa3:blue_gemstones>,["发现于晶体维度，生成于Y=5与Y=114之间的晶体石头附近。" ]);
+mods.jei.JEI.addDescription(<aoa3:blue_gemstones>,["发现于晶体维度，生成于晶体维度Y=5与Y=114之间的晶体石头附近。" ]);
 mods.jei.JEI.addDescription(<aoa3:charged_runium_chunk>,["发现于虚无世界模组的深层维度。","","发现于Y=70与Y=114之间，存在深层岩石的地方。","","","","- Bluecat撰写"]);
 mods.jei.JEI.addDescription(<aoa3:chestbone_fragment>,["发现于虚无世界模组的传说维度，位于Y=42以下。"]);
 mods.jei.JEI.addDescription(<aoa3:crystallite>,["发现于虚无世界模组的天堂维度。","","可由\"四种守护者\"掉落。","","可生成于监管者之塔的箱子里。","","可发现于Y=30与Y=69之间的天堂石头里。" ]);
@@ -19,7 +19,7 @@ mods.jei.JEI.addDescription(<aoa3:footbone_fragment>,["发现于虚无世界模�
 mods.jei.JEI.addDescription(<aoa3:gemenyte>,["发现于虚无世界模组的蠕变维度，位于Y=21与Y=37之间。" ]);
 mods.jei.JEI.addDescription(<aoa3:ghastly_ingot>,["发现于虚无世界模组的格瑞克维度，位于Y=28与Y=58之间。" ]);
 mods.jei.JEI.addDescription(<aoa3:ghoulish_ingot>,["发现于虚无世界模组的格瑞克维度，位于Y=28以下。" ]);
-mods.jei.JEI.addDescription(<aoa3:green_gemstones>,["生成于Y=5与Y=114之间的晶体石头附近。" ]);
+mods.jei.JEI.addDescription(<aoa3:green_gemstones>,["生成于晶体维度Y=5与Y=114之间的晶体石头附近。" ]);
 mods.jei.JEI.addDescription(<aoa3:jade>,["发现于Y=5与Y=21之间。"]);
 mods.jei.JEI.addDescription(<aoa3:jewelyte>,["发现于虚无世界模组的蠕变维度，位于Y=21与Y=37之间。" ]);
 mods.jei.JEI.addDescription(<aoa3:legbone_fragment>,["发现于虚无世界模组的传说维度，位于Y=42以下。"]);
@@ -27,16 +27,16 @@ mods.jei.JEI.addDescription(<aoa3:limonite_ingot>,["发现于Y=9与Y=70之间。
 mods.jei.JEI.addDescription(<aoa3:lyon_ingot>,["发现于虚无世界模组的黄金纬度，Y=64以下有黄金石头的地方。" ]);
 mods.jei.JEI.addDescription(<aoa3:mystite_ingot>,["可通过秘境维度获得。","","可通过打开闪亮的盒子获得。","","可发现于Y=100以下。" ]);
 mods.jei.JEI.addDescription(<aoa3:ornamyte>,["发现于虚无世界模组的蠕变维度，位于Y=2与Y=15之间。" ]);
-mods.jei.JEI.addDescription(<aoa3:purple_gemstones>,["生成于Y=5与Y=114之间的晶体石头附近。" ]);
-mods.jei.JEI.addDescription(<aoa3:red_gemstones>,["生成于Y=5与Y=114之间的晶体石头附近。" ]);
+mods.jei.JEI.addDescription(<aoa3:purple_gemstones>,["生成于晶体维度Y=5与Y=114之间的晶体石头附近。" ]);
+mods.jei.JEI.addDescription(<aoa3:red_gemstones>,["生成于晶体维度Y=5与Y=114之间的晶体石头附近。" ]);
 mods.jei.JEI.addDescription(<aoa3:rosite_ingot>,["发现于Y=15到Y=49之间。","","可与金属收藏家用20铜币交易获得。","","精炼达到40级可从熔岩中获得，采掘达到85级可从石头中获得，砍伐达到95级可从木头中获得。","","可通过打开宝藏箱或闪亮的盒子获得。","","结构中的奖励箱可能会有一些。" ]);
 mods.jei.JEI.addDescription(<aoa3:runium_chunk>,["发现于Y=5到Y=132之间。","","可由符文守护者掉落。","","可通过沉睡之石获得。" ]);
 mods.jei.JEI.addDescription(<aoa3:shyregem>,["发现于虚无世界模组的赛尔瑞维度。","","可在洛梵地牢、遗迹小屋、塞尔瑞陵墓以及塞尔瑞庇护所中的奖励箱内发现。" ]);
 mods.jei.JEI.addDescription(<aoa3:shyrestone_ingot>,["发现于虚无世界模组的赛尔瑞维度。","","可在洛梵地牢、遗迹小屋、塞尔瑞陵墓以及塞尔瑞庇护所中的奖励箱内发现。","","可发现于Y=64与Y=104之间有塞尔瑞岩石的地方。" ]);
 mods.jei.JEI.addDescription(<aoa3:skullbone_fragment>,["发现于虚无世界模组的传说维度，位于Y=42以下。"]);
 mods.jei.JEI.addDescription(<aoa3:varsium_ingot>,["发现于虚无世界模组的爵士维度。","","生成于Y=24与Y=64之间。" ]);
-mods.jei.JEI.addDescription(<aoa3:white_gemstones>,["生成于Y=5与Y=114之间的晶体石头附近。" ]);
-mods.jei.JEI.addDescription(<aoa3:yellow_gemstones>,["生成于Y=5与Y=114之间的晶体石头附近。" ]);
+mods.jei.JEI.addDescription(<aoa3:white_gemstones>,["生成于晶体维度Y=5与Y=114之间的晶体石头附近。" ]);
+mods.jei.JEI.addDescription(<aoa3:yellow_gemstones>,["生成于晶体维度Y=5与Y=114之间的晶体石头附近。" ]);
 mods.jei.JEI.addDescription(<appliedenergistics2:material:0>,["发现于Y=12与Y=74之间。"]);
 mods.jei.JEI.addDescription(<astralsorcery:itemcraftingcomponent:0>,["发现于河床与水坑。"]);
 mods.jei.JEI.addDescription(<astralsorcery:itemrockcrystalsimple>,["发现于基岩层附近。","","手持共振星杖时，有水晶石矿石的地方会发出白色光点，甚至能穿墙显示！"]);
