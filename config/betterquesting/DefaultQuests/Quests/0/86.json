@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSome items have special recipes for powerful enchants. Search for \u0027super-enchanted\u0027 in JEI!\n\nThe enchantment applicator and extractor can be used to move high level enchants :)\n\n§7§oWith apologies to Sandman366\n\n§rMythic magic is powerful, very powerful, yet it seems my mind may be simply too \u0027weak\u0027 to comprehend this.\nDespite my inability to comprehend it, I feel extremely drawn to the remains from \u0027mythic creatures\u0027. \nThey are still permeated with the powers of this type of magic. \nTime to start experimenting with mythic remains. But i\u0027ll have to be careful, really careful, I don\u0027t know what could happen...",
+      "desc:8": "§7§o部分物品有用于获得强力魔咒的特殊配方。在JEI中搜索“超限附魔”！\n\n魔咒施加机和提取机可用于转移高等级的魔咒 :)\n\n§7§o向Sandman366致歉\n\n§r神话魔法无比强大，强大到难以想象，但我的思维似乎过于“弱小”，始终无法真正理解它。\n尽管无法参透其中的奥秘，我仍对那些“神话生物”的残留物有种近乎本能的痴迷。\n尽管是残留物，它们仍浸染着这种魔法的力量。\n是时候用神话残留物做些实验了。不过必须万分谨慎，谨慎到极致，毕竟谁也不知道会发生什么……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:divine_shickaxe"
       },
-      "name:8": "Super Enchanting"
+      "name:8": "超限附魔"
     }
   },
   "questID:3": 86,

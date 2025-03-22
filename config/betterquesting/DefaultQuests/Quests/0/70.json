@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBetter to build a base in the void world. At this point, you may want to take a peek at the logistics and organization tab.\n\n§fThe power of fluix is great!\nCentralized networks can be created around a controller block, which can handle storage and transportation.\nIn addition to this, it seems like I can embed more complex logic into pipe systems, making it even easier to manage my belongings.",
+      "desc:8": "§7§o最好在虚空世界中建造基地。在当前阶段，你可能需要看看物流与管理标签页。\n\n§f福鲁伊克斯的力量真是神奇！\n以控制器方块为核心构建集中式网络后，它便能负责存储与运输的调度。\n此外，似乎还能在管道系统中加入更复杂的逻辑体系，让物品的管理愈发轻松。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:controller"
       },
-      "name:8": "Advanced Storage"
+      "name:8": "高阶存储"
     }
   },
   "questID:3": 70,

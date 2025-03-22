@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHeads up! Quests will tell you what to do, figuring things out is up to you, and it\u0027s part of the fun!\n\nThe sack of holding can be used to move chests, spawners, and other tile entities without destroying them!\n\n§fBy upgrading my current way of building work tables, I should gain access to more complex machines!",
+      "desc:8": "§7§o请注意！任务会指引你方向，但探索与解谜的乐趣仍需你自己体验！\n\n搬箱袋可搬运箱子、刷怪箱及其他方块实体，且搬运时不会破坏它们！\n\n§f通过升级现有的工作台建造方式，我将能够制作更复杂的机器！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extendedcrafting:table_advanced"
       },
-      "name:8": "More Fabrication!"
+      "name:8": "更多合成！"
     }
   },
   "questID:3": 64,

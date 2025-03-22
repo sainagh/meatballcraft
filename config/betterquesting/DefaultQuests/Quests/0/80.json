@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Used to craft machines from actually additions (see manufacturing and fabrication)\n\nWow, if only humanity knew of this!\nIt seems like there are other energy storage optionsthat are way better than batteries.\nNot only I can store energy in other ways, but I can easily transform between different types of energy, including lasers...",
+      "desc:8": "§7§o用于制作使用拓展模组的机器（可前往§c§o制作与加工§o§r§o§7§o查看）\n\n哇哦，要是人类能知道这个就好了！\n似乎还有其他比电池更好的储能方案。\n不仅能以其他方式储存能量，还能在不同类型的能量之间轻松转换，包括激光……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 9,
         "id:8": "actuallyadditions:block_misc"
       },
-      "name:8": "Energetic Manipulation"
+      "name:8": "能量操控"
     }
   },
   "questID:3": 80,

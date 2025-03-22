@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oNeed to make some RF? All available ways will be in the energy sources tab!\n\nThe logistics and organization tab has a section that includes all power storage methods!\n\n§fNow that I have better means of fabrication, I can start collecting larger amounts of energy.\nFrom now on I expect I\u0027ll need lots of it!",
+      "desc:8": "§7§o需要RF？能量来源标签页中列出了所有可用的方法！\n\n物流与管理标签页中有单独一块区域用于介绍所有能量存储思路！\n\n§f有了更好的合成手段，我可以开始大规模收集能量了。\n我想之后会需要大量能量！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermalexpansion:cell",
@@ -25,7 +25,7 @@
           ]
         }
       },
-      "name:8": "I like big batteries and I cannot lie"
+      "name:8": "我喜欢大电池，我没有说谎"
     }
   },
   "questID:3": 83,

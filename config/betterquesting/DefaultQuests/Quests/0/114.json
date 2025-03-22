@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This way for your first dimensions!\n\nMagic can be done in any order, but the optional objective lists some good strategies!\n\nWhen doing magic, bad things may happen. In order to minimize negative effects to your world, the following order should be followed, all other mods can be done earlier or later.\n1. Start with blood magic, until unlocking the Ritual of Eldritch will. This will prevent flux from building up.\n2. Start thaumcraft, until unlocking sanitizing soap. This will help out with temporary warp.\n3. Go through abyssalcraft, collect the abyssal wasteland and dreadlands warp cleansers in the respective dimensions. They can be found in altars around the dimensions!\n4. The omothol warp cleanser will completely eliminate the issue with warp!\n5. Now you are protected, feel free to right-click a Really Scary Vishroom!\nWhen it comes to other magic mods, feel free to progress though them in whichever way you prefer :)\n",
+      "desc:8": "首批维度在这边！\n\n魔法可以按任意顺序进行，但可选目标列出了一些不错的策略！\n\n在研究魔法时，可能会引发负面效果。为将对世界的损害降至最低，请遵循以下顺序，其他模组可自行安排进程。\n1. 首先发展血魔法，直到解锁邪术意志仪式！该仪式可防止咒波积累。\n2. 发展神秘时代，直到解锁祛邪肥皂。该物品能帮助消除临时扭曲。\n3. 探索深渊国度，在对应维度中收集深渊荒原和恐惧之地扭曲净化符咒。它们分布在各个维度的祭坛周围！\n4. 奥穆索扭曲净化护符可以彻底解决扭曲问题！\n5. 现在你已受护佑，可以放心右击使用惊悚纤毛菇！\n至于其他魔法模组，请按照你喜欢的任意方式推进流程 :)\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Magic is Dangerous"
+      "name:8": "魔法很危险"
     }
   },
   "questID:3": 114,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEvery night and day, there is a chance special events will occur, where special mobs will spawn. These will be announced by messages in chat.\n\n\u0027The ground bathes in the pearly light of the moon\u0027: full moon, special hunter mobs will spawn at night\n\n\u0027The hunt for blood has begun\u0027: blood hunt, special blood-themed mobs will spawn\n\n\u0027Lost souls scurry across the world in the darkness\u0027: soul scurry, special versions of mobs will spawn, these will be immune to most damage types (magic works)\n\n\u0027The world just got stranger\u0027: alien invasion, aliens will spawn\n\n\u0027Today is a good day to die\u0027: death day, hunter mobs that give a lot of experience will spawn\n\n\u0027The hissing sounds begin\u0027: creep day, mobs capable of spawning creepers will spawn\n\n§fThe amount of violence in this world it truly staggering. Are we good caretakers of Earth? No, but we sure have it better than here.\nAlien raids, blood hunts, ghosts? This world is fully under siege, and the attacks are fairly organized; it seems like everyone wants something out of it! But I don\u0027t see anything that may warrant such drastic measures.",
+      "desc:8": "§7§o每次昼夜更替时都可能触发特殊事件，届时会生成特殊生物。这些事件将通过聊天栏提示通知：\n\n“月照大地”: 满月，夜晚将生成特殊狩猎生物\n\n“血之狩猎拉开了帷幕”：血猎，生成以血为主题的特殊生物\n\n“匆匆亡魂在黑暗中游荡”：灵魂行军，生成特殊种类的生物，免疫大部分种类的伤害（魔法攻击有效）\n\n“世界开始变得怪诞诡奇”：外星人入侵，生成外星人\n\n“且听死亡使者低吟”：死亡之日，生成掉落大量经验的狩猎生物\n\n“嘶嘶作响的声音在耳边萦绕”：蠕变之日，生成能召唤爬行者的生物\n\n§f这个世界的暴力密度令人窒息。我们人类算是地球的理想守护者吗？算不上，但至少比这里好多了。\n外星突袭、血猎狂欢，甚至还有幽灵？这个世界杯重重围困，并且攻击相当组织严密；似乎各方都有所图谋！但我看不出有任何值得动用如此极端手段的东西。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:hunters_rifle",
@@ -12,7 +12,7 @@
           "HideFlags:1": 2
         }
       },
-      "name:8": "What\u0027s going on?"
+      "name:8": "发生什么事了？"
     }
   },
   "questID:3": 664,

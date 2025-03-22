@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Dragons are both fascinating and scary, but I was able to slay one!\n\nFire dragons are the master of the plains, and all other lowlands!",
+      "desc:8": "龙既迷人又可怕，但我成功斩杀了一条！\n\n火龙盘踞于平原与低地，是这些地域的主宰！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "iceandfire:dragon_skull"
       },
-      "name:8": "Fire Dragon"
+      "name:8": "火龙"
     }
   },
   "questID:3": 55,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "iceandfire:fire_dragon_heart"
             },
-            "TrophyName:8": "Fire Dragon Slayer",
+            "TrophyName:8": "屠龙者·火",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

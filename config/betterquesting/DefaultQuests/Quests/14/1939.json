@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o让建筑变得更简单！（据Jørge所说）\n\n按Z键切换模式，Shift+Z键切换与流体的交互方式。\n\n在聊天栏中输入/wandOops可撤销最后一步操作！",
+      "desc:8": "§7§o让建筑变得更简单！（Jørge是这么说的）\n\n按Z键切换模式，Shift+Z键切换与流体的交互方式。\n\n在聊天栏中输入/wandOops可撤销最后一步操作！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "betterbuilderswands:wandunbreakable"

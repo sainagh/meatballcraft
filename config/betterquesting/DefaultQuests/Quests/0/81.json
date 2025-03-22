@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Used to craft machines from extra utilities (see manufacturing and fabrication)\n\nThe same magical affinity I used to make enchanted tables seems to allow for the making of machinery, this is very interesting!",
+      "desc:8": "§7§o用于制作更多实用设备模组的机器（可前往§c§o制作与加工§o§r§o§7§o查看）\n\n那种用于制作附魔台的魔法亲和性似乎也可以用来制作机械，有点意思！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:machine"
       },
-      "name:8": "Magic or Science?"
+      "name:8": "魔法还是科学？"
     }
   },
   "questID:3": 81,

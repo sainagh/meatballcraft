@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWoot mobfarms work by repeating the same loot of the first 100 kills of a given mob.\n\nBecause of this, if a mob has rare loot, it is possible that what you are looking for will not show up.\n\nIf that happens you can use this item to reset ALL Woot pools.\n\nSince this does it for every woot farm, it may cause lag if you have lots of Woot farms currently running.",
+      "desc:8": "§7§oWoot模组通过将生物击杀100次来计算掉落物。\n\n因此，某些特别稀有的掉落物可能不会出现。\n\n在这种情况下，你可以使用该物品来重置所有的Woot刷怪场战利品池。\n\n因为是对所有Woot刷怪场生效，若目前在运行的Woot刷怪场过多，使用后可能会造成一段时间的卡顿。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "woot:xpshard"
       },
-      "name:8": "Where\u0027s my Loot",
+      "name:8": "我掉落物呢",
       "repeattime:3": 1000
     }
   },

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBuilding your base in the void world is highly recommended for performance purposes.\nThere are a few things like cursed earth farms that will have to be built in the overworld, but everything else should go in the void world.\nThe portal to the void will be unlocked in a handful of quests.",
+      "desc:8": "§7§o为了性能考量，强烈建议在虚空世界中建造基地。\n有些例如诅咒之土的东西必须在主世界建造，除此之外的所有东西都应该放在虚空世界。\n虚空世界传送门将在少量任务后解锁。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "simplevoidworld:portal"
       },
-      "name:8": "Void Base FTW!"
+      "name:8": "虚空基地万岁！"
     }
   },
   "questID:3": 88,

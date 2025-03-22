@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe last stand enchantment will prevent death at the cost of experience. By this point, it should be a good idea to have some sort of XP farm, and to put last stand on your armor.\n\n§fDo I like being trapped in an endless loop of death and rebirth? Absolutely not.\nDoes it have some unexpected advantages! Well, surprisingly, yes!\nKnowing a bit more about magic has allowed me to get more insight into what is happening to me. I still have no idea how or why this is happening, but some empirical testing showed that this rebirth consumes some of my own essence.\nBut thanks to my newly magic abilities, and a bit of industrialization, I can get lots and lots of essense into my person, and bypass the death and rebirth cycle.\nThis has some undesirable side effects, as the protection enchants on my armor lose effectiveness, but I can still become nearly immortal.\nWhoever gave me this \u0027curse\u0027 may have gifted me with something amazing, but it may be a bit too early to say...\n",
+      "desc:8": "§7§o屹立不倒魔咒能消耗经验避免死亡。因此，做个经验农场，然后给盔甲附上屹立不倒应该是个好主意。\n\n§f我喜欢被困在这无尽的生死循环中吗？当然不是。\n但这难道就没有什么意想不到的好处吗？出人意料的是，确实有！\n对魔法的进一步了解让我更清楚发生在自己身上的现象。虽然我仍不明白其原理或缘由，但通过实验，我发现每次重生都会消耗自身的精华。\n不过得益于新掌握的魔法能力与工业化生产，我能够将海量精华注入体内，从而跳过死亡轮回的过程。\n尽管这会带来护甲的保护魔咒失效等副作用，但近乎永生的状态已然达成。\n赋予我这种“诅咒”的存在或许给了我非凡的馈赠，不过现在下结论还为时尚早……\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "erebus:death_compass",
         "tag:10": {}
       },
-      "name:8": "The power of undeath"
+      "name:8": "不死之力"
     }
   },
   "questID:3": 663,

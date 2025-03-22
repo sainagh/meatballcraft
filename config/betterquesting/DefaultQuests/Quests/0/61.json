@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMagic damage in this pack has been buffed, and more mobs than usual will be able to deal magic damage. This means that some mobs will do a lot of damage to you even when you wear good armor.\nYou can find magic protection books in overworld structures, those will help you!\n\n§fThe testificates trust me enough to share some of their historical secrets.\nAt some point, they had the ability to build portals to connect different regions of this world, including the large caves that are located kilometers under the surface.\nObsidian seems to be a catalyst for magic, and if I light it up I may be able to reopen some of these portals.\nI\u0027ll try to study this more in the hope that I may be able to use similar methods to get back home.",
+      "desc:8": "§7§o本整合包的魔法伤害已大幅强化，且更多生物将具备魔法攻击能力。这意味着即使身穿顶级护甲，某些生物仍可对你造成巨额伤害。\n你可在§f主世界建筑§7中发现魔法保护附魔书，它们能提供关键保护！\n\n§f泰斯特斐人对我信任有加，透露了部分历史秘辛。\n远古时期他们掌握着建造跨维度传送门的技术，甚至能连通地表数公里之下的巨大洞穴。\n黑曜石似乎是魔法能量的催化剂，若将其点燃，或许能重启部分传送门。\n我将深入研究这项技术，期待能用类似方法打开回家的通道。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:flint_and_steel"
       },
-      "name:8": "Cali Approved!"
+      "name:8": "Cali同意了！"
     }
   },
   "questID:3": 61,
