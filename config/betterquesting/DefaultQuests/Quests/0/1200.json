@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMeatballcraft is a very long modpack, and things will eventually get very hard. \n\nWith that said, the first three chapters are designed to be more friendly towards new players! \nIn terms of challenge and time to complete, finishing these chapters will be comparable to a modpack like Enigmatica 2 Expert.\nThe final goal for this \u0027play mode\u0027 is to obtain the energy chicken!\n\nThe questbook and in-game documentation is being worked on to be as polished and clear as possible. If you have suggestions to make things more clear, let me know on discord!",
+      "desc:8": "§7§o肉丸工艺整合包的流程非常长，难度最后也会变得非常困难。\n\n话虽如此，前三章的设计对新手玩家还是比较友好的！\n在挑战难度和完成时间方面，完成这几个章节与Enigmatica 2 Expert这样的整合包相当。\n这种“游戏模式”的最终目标是获得能量鸡！\n\n我们正在努力完善任务手册和游戏内文档，使其尽可能完美和清晰。如有更好的建议，请在Discord上告诉我！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "nuclearcraft:alloy"
       },
-      "name:8": "Long and Hard"
+      "name:8": "道阻且长"
     }
   },
   "questID:3": 1200,

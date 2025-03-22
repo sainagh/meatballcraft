@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o在找特定物品？更多信息查看§c个人强化§r！",
+      "desc:8": "§7§o在找特定物品？更多信息查看§c个人强化§7§o！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "scannable:scanner"

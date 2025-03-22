@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o使用这些物品来回收不想要的书本！\n\n§f魔法确实很酷，呃，但是站的空间有点太多了。",
+      "desc:8": "§7§o使用这些物品来回收不想要的书本！\n\n§f魔法确实很酷，呃，但是占的空间有点太多了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:spell_recycling_crystal"
