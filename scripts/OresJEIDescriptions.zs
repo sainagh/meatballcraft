@@ -49,7 +49,7 @@ mods.jei.JEI.addDescription(<biomesoplenty:gem:1>,["发现于干旱类群系（�
 mods.jei.JEI.addDescription(<biomesoplenty:gem:2>,["发现于平原类群系Y=32以下，虚无世界模组矿物有概率掉落。"]);
 mods.jei.JEI.addDescription(<biomesoplenty:gem:3>,["发现于繁茂类群系（类似丛林）Y=32以下，虚无世界模组矿物有概率掉落。"]);
 mods.jei.JEI.addDescription(<biomesoplenty:gem:4>,["发现于寒冷类群系Y=32以下，虚无世界模组矿物有概率掉落。"]);
-mods.jei.JEI.addDescription(<biomesoplenty:gem:5>,["发现于沼泽类群系Y=32以下，虚无世界模组矿物有概率掉落。"]);
+mods.jei.JEI.addDescription(<biomesoplenty:gem:5>,["发现于沼泽和寒冷类群系Y=32以下，虚无世界模组矿物有概率掉落。"]);
 mods.jei.JEI.addDescription(<biomesoplenty:gem:6>,["发现于海洋类群系Y=32以下，虚无世界模组矿物有概率掉落。"]);
 mods.jei.JEI.addDescription(<biomesoplenty:gem:7>,["发现于森林类群系Y=32以下，虚无世界模组矿物有概率掉落。"]);
 mods.jei.JEI.addDescription(<contenttweaker:agate>,["发现于奥伊Y=50以下。"]);
