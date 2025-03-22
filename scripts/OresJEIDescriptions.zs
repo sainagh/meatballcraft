@@ -5,7 +5,7 @@ mods.jei.JEI.addDescription(<actuallyadditions:item_misc:5>,["所有高度均可
 mods.jei.JEI.addDescription(<aether_legacy:ambrosium_shard>,["使用圣石工具时会掉落。","","该矿物生成于天境。"]);
 mods.jei.JEI.addDescription(<aether_legacy:enchanted_gravitite>,["该矿物生成于天境。"]);
 mods.jei.JEI.addDescription(<aether_legacy:zanite_gemstone>,["该矿物生成于天境。"]);
-mods.jei.JEI.addDescription(<aoa3:amethyst>,["发现于Y=13到Y=31之间。","","可生成于结构中的奖励箱。","","可发现于宝石袋。","","可与金属收藏家用40铜币交易获得。","","可由幽魂掉落。","","使用水晶狙击击杀生物有概率掉落该物品。" ]);
+mods.jei.JEI.addDescription(<aoa3:amethyst>,["发现于Y=13到Y=31之间。","","可生成于结构中的奖励箱。","","可于宝石袋中发现。","","可与金属收藏家用40铜币交易获得。","","可由幽魂掉落。","","使用水晶狙击击杀生物有概率掉落该物品。" ]);
 mods.jei.JEI.addDescription(<aoa3:baronyte_ingot>,["发现于虚无世界模组的爵士维度。","","可通过打开闪亮的盒子获得。","","可发现于爵士城堡的箱子内。","","生成于Y=23与Y=36之间。" ]);
 mods.jei.JEI.addDescription(<aoa3:blazium_ingot>,["发现于虚无世界模组的爵士维度。","","可通过打开闪亮的盒子获得。","","可发现于爵士城堡的箱子内。","","生成于Y=22之下。"]);
 mods.jei.JEI.addDescription(<aoa3:bloodstone>,["发现于虚无世界模组的深渊维度。","","可由深渊蹒跚者掉落。","","矿物生成与Y=64以下。" ]);
