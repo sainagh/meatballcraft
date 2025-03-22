@@ -408,8 +408,8 @@ brightsteelalloy.addMaterialTrait("runic2");
 brightsteelalloy.addMaterialTrait("flame2");
 brightsteelalloy.addMaterialTrait("morganlefay");
 brightsteelalloy.addMaterialTrait("baron");
-brightsteelalloy.itemLocalizer = function(thisMaterial, itemName){return "亮钢合金 " + itemName;};
-brightsteelalloy.localizedName = "亮钢合金";
+brightsteelalloy.itemLocalizer = function(thisMaterial, itemName){return "星钢合金 " + itemName;};
+brightsteelalloy.localizedName = "星钢合金";
 brightsteelalloy.register();
 
 val runandium = mods.contenttweaker.tconstruct.MaterialBuilder.create("runandium");
