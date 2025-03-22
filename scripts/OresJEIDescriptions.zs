@@ -160,7 +160,7 @@ mods.jei.JEI.addDescription(<thermalfoundation:material:134>,["发现于Y=5与Y=
 mods.jei.JEI.addDescription(<thermalfoundation:material:134>,["发现于末地Y=20与Y=70之间。"]);
 mods.jei.JEI.addDescription(<thermalfoundation:material:135>,["主世界中很稀有，也可通过末地的铂矿石获得。"]);
 mods.jei.JEI.addDescription(<thermalfoundation:material:136>,["发现于下界的元素室。"]);
-mods.jei.JEI.addDescription(<thermalfoundation:material:771>,["发现浴室地下熔岩池附近，可由烈焰人掉落。可作为许多下界材料磨粉的副产物获得。"]);
+mods.jei.JEI.addDescription(<thermalfoundation:material:771>,["发现于地下熔岩池附近，可由烈焰人掉落。可作为许多下界材料磨粉的副产物获得。"]);
 mods.jei.JEI.addDescription(<thermalfoundation:material:772>,["发现于Y=30以下。"]);
 mods.jei.JEI.addDescription(<thermalfoundation:material:892>,["发现于沙漠Y=10与Y=80之间。"]);
 mods.jei.JEI.addDescription(<thermalfoundation:material:893>,["发现于Y=20以下。"]);
