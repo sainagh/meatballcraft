@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Skythern dimension.\nCan be crafted from Skythern souls.\nFound where stone is.\n",
+      "desc:8": "§7§o发现于空境维度。\n可使用空境之魂制作。\n有石头的地方就会生成。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:skythern_fragments"
       },
-      "name:8": "Skythern Fragments"
+      "name:8": "空境碎片"
     }
   },
   "questID:3": 70217,

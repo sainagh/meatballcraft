@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSpawns below Y\u003d17.",
+      "desc:8": "§7§o生成于Y\u003d17以下。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:redstone"
       },
-      "name:8": "Redstone"
+      "name:8": "红石"
     }
   },
   "questID:3": 70167,

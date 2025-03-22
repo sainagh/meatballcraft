@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound below Y\u003d50 on Hator.",
+      "desc:8": "§7§o发现于哈托尔Y\u003d50以下。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:pink_marble"
       },
-      "name:8": "Pink Marble"
+      "name:8": "粉红大理石"
     }
   },
   "questID:3": 70205,

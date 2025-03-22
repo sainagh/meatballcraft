@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound below Y\u003d50 on Europa.",
+      "desc:8": "§7§o发现于欧罗巴Y\u003d50以下。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:onyx"
       },
-      "name:8": "Onyx"
+      "name:8": "缟玛瑙"
     }
   },
   "questID:3": 70209,

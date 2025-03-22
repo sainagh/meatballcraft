@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Haven Dimension from Advent of Ascension.\nCan be dropped by \"Four Guardians\".\nCan spawn in chests in the Guardian Tower.\nCan be found between Y\u003d30 and Y\u003d69 in Haven Stone.\n",
+      "desc:8": "§7§o发现于虚无世界模组的天堂维度。\n可由\"四种守护者\"掉落。\n可生成于监管者之塔的箱子里。\n可发现于Y\u003d30与Y\u003d69之间的天堂石头里。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:crystallite"
       },
-      "name:8": "Crystallite"
+      "name:8": "微晶"
     }
   },
   "questID:3": 70252,

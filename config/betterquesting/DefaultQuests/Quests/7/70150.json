@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound under Lava Lakes in the Nether.\nIf you hold it, fire spreads around you!\n",
+      "desc:8": "§7§o发现于下界熔岩湖之下。\n持有时会在周围蔓延火势！\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "railcraft:firestone_raw"
       },
-      "name:8": "Raw Firestone"
+      "name:8": "天然火石"
     }
   },
   "questID:3": 70150,

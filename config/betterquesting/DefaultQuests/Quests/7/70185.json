@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCreated from a Tier 3 Void Ore Miner.",
+      "desc:8": "§7§o3级虚空矿物采掘机产出。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "environmentaltech:pladium_crystal"
       },
-      "name:8": "Pladium Crystal"
+      "name:8": "普雷蒂水晶"
     }
   },
   "questID:3": 70185,

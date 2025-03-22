@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Spawns in The Betweenlands.\nSpawns below mud.\nRequires Purification in a Purifier.\n\n- Written by Bluecat",
+      "desc:8": "生成于交错次元。\n生成于泥巴之下。\n需要在净化器中净化处理。\n\n- Bluecat撰写",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thebetweenlands:crimson_middle_gem"
       },
-      "name:8": "Crimson Middle Gem"
+      "name:8": "绯红元素宝石"
     }
   },
   "questID:3": 70198,

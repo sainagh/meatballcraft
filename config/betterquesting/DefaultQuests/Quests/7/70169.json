@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound between Y\u003d20 and Y\u003d70 in the End from sheldonite.",
+      "desc:8": "§7§o通过末地Y\u003d20与Y\u003d70之间的铂矿石获得。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 134,
         "id:8": "thermalfoundation:material"
       },
-      "name:8": "Platinum Ingot"
+      "name:8": "铂锭"
     }
   },
   "questID:3": 70169,

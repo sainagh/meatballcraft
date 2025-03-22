@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound on the surface of Hator.",
+      "desc:8": "§7§o发现于哈托尔地表。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:fiery_pyrite"
       },
-      "name:8": "Fiery Pyrite"
+      "name:8": "炽热黄铁矿"
     }
   },
   "questID:3": 70210,
