@@ -53,11 +53,11 @@ mods.jei.JEI.addDescription(<biomesoplenty:gem:5>,["发现于沼泽和寒冷类�
 mods.jei.JEI.addDescription(<biomesoplenty:gem:6>,["发现于海洋类群系Y=32以下，虚无世界模组矿物有概率掉落。"]);
 mods.jei.JEI.addDescription(<biomesoplenty:gem:7>,["发现于森林类群系Y=32以下，虚无世界模组矿物有概率掉落。"]);
 mods.jei.JEI.addDescription(<contenttweaker:agate>,["发现于奥伊Y=50以下。"]);
-mods.jei.JEI.addDescription(<contenttweaker:corrupted_aragonite>,["通过第三神话质壳解谜获得"]);
-mods.jei.JEI.addDescription(<contenttweaker:cursed_sapphire>,["通过第二神话质壳解谜获得"]);
+mods.jei.JEI.addDescription(<contenttweaker:corrupted_aragonite>,["通过第三神话叠壳解谜获得"]);
+mods.jei.JEI.addDescription(<contenttweaker:cursed_sapphire>,["通过第二神话叠壳解谜获得"]);
 mods.jei.JEI.addDescription(<contenttweaker:feldspar>,["发现于法拉瑟Y=50以下。"]);
 mods.jei.JEI.addDescription(<contenttweaker:fiery_pyrite>,["发现于哈托尔地表。"]);
-mods.jei.JEI.addDescription(<contenttweaker:imperfect_gem_of_the_cosmos>,["通过第四神话质壳解谜获得"]);
+mods.jei.JEI.addDescription(<contenttweaker:imperfect_gem_of_the_cosmos>,["通过第四神话叠壳解谜获得"]);
 mods.jei.JEI.addDescription(<materialpart:sednanite:ingot>,["通过塞德娜中漂浮在空中的水晶簇获得。"]);
 mods.jei.JEI.addDescription(<materialpart:fluctuatite:ingot>,["在探索过赫尔维蒂维度后，可通过等离子聚合器获得。"]);
 mods.jei.JEI.addDescription(<materialpart:rhenium:ingot>,["发现于很难看到的陨石。"]);
@@ -76,7 +76,7 @@ mods.jei.JEI.addDescription(<materialpart:hassium:ingot>,["在探索过梦魇世
 mods.jei.JEI.addDescription(<contenttweaker:metagabbro>,["发现于奥迦斯Y=50以下。"]);
 mods.jei.JEI.addDescription(<contenttweaker:onyx>,["发现于欧罗巴Y=50以下。"]);
 mods.jei.JEI.addDescription(<contenttweaker:pink_marble>,["发现于哈托尔Y=50以下。"]);
-mods.jei.JEI.addDescription(<contenttweaker:recursive_powder>,["通过第一神话质壳解谜获得"]);
+mods.jei.JEI.addDescription(<contenttweaker:recursive_powder>,["通过第一神话叠壳解谜获得"]);
 mods.jei.JEI.addDescription(<contenttweaker:serpentine>,["发现于奥西里斯Y=50以下。"]);
 mods.jei.JEI.addDescription(<contenttweaker:travertine>,["发现于普塔Y=50以下。"]);
 mods.jei.JEI.addDescription(<divinerpg:apalachia_fragments>,["发现于神圣RPG模组的附魔山脉维度。","","可使用附魔山脉本土怪物掉落的附魔山脉之魂制作。" ]);

@@ -1016,7 +1016,7 @@
 
 <mowziesmobs:barako_mask>.addTooltip(format.red("发现于伽里弗雷"));
 
-<contenttweaker:warren_blindfold>.addTooltip(format.red("将冰火传说模组的眼罩与正确的蜂窝（4个）以及4个神话质壳精华结合，维度门中的箱子将指引你"));
+<contenttweaker:warren_blindfold>.addTooltip(format.red("将冰火传说模组的眼罩与正确的蜂窝（4个）以及4个神话叠壳精华结合，维度门中的箱子将指引你"));
 <contenttweaker:warren_blindfold>.addTooltip(format.red("在灵薄狱中使用"));
 <contenttweaker:warren_blindfold>.addTooltip(format.red("TurtlePenguin9有个点子"));
 
