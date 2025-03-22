@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBuilding made easy!\n\nPress V to select building mode! \n\nIf you place the wrong blocks, press U to undo!",
+      "desc:8": "§7§o让建造变得简单！\n\n按住V键选择建造模式！\n\n不小心放错方块时，可按U撤销！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "buildinggadgets:buildingtool",
@@ -15,7 +15,7 @@
           }
         }
       },
-      "name:8": "Building Garget"
+      "name:8": "建筑小帮手"
     }
   },
   "questID:3": 1934,

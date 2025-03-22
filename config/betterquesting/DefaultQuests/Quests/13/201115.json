@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,200\nMining Level: Stone\nMining Speed: 3.5\nAttack: -1\nStonebound\n\nHandle\nModifier: 0.1\nDurability: 1,500\nStonebound\n\nExtra\nDurability: 100\nStonebound\n\nBows\nDrawspeed: 1.11\nRange Multiplier: 1.1\nBonus Damage: 1\nStonebound",
+      "desc:8": "顶端\n耐久：1,200\n挖掘等级：石头\n挖掘速度：3.5\n攻击力：-1\n石缚\n\n手柄\n手柄系数：0.1\n耐久：1,500\n石缚\n\n其它部件\n耐久：100\n石缚\n\n弓\n拉弓速度：1.11\n范围系数：1.1\n附加伤害：1\n石缚",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "integrationforegoing.plastic"
         }
       },
-      "name:8": "Plastic"
+      "name:8": "塑料"
     }
   },
   "questID:3": 201115,

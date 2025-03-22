@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 730\nMining Level: Obsidian\nMining Speed: 4.6\nAttack: 5.7\nShocking\n\nHandle\nModifier: 1\nDurability: 30\nShocking\n\nExtra\nDurability: 100\nShocking\n\nBows\nDrawspeed: 5\nRange Multiplier: 0.4\nBonus Damage: -1\nShocking",
+      "desc:8": "顶端\n耐久：730\n挖掘等级：黑曜石\n挖掘速度：4.6\n攻击力：5.7\n震击\n\n手柄\n手柄系数：1\n耐久：30\n震击\n\n其它部件\n耐久：100\n震击\n\n弓\n拉弓速度：5\n范围系数：0.4\n附加伤害：-1\n震击",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "amber"
         }
       },
-      "name:8": "Amber"
+      "name:8": "琥珀"
     }
   },
   "questID:3": 201160,

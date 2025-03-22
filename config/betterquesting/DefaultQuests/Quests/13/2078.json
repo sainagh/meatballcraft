@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 200\nMining Level: 4\nMining Speed: 4.2\nAttack: 31\nThunder\nInferno\nBlizzard\n\nHandle\nModifier: 3\nDurability: 200\nThunder\nInferno\nBlizzard\n\nExtra\nDurability: 200\nThunder\nInferno\nBlizzard\n\n",
+      "desc:8": "顶端\n耐久：200\n挖掘等级：4\n挖掘速度：4.2\n攻击力：31\n殛雷\n炽火\n凛冰\n\n手柄\n手柄系数：3\n耐久：200\n殛雷\n炽火\n凛冰\n\n其它部件\n耐久：200\n殛雷\n炽火\n凛冰\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "barathosynium"
         }
       },
-      "name:8": "Barathosynium"
+      "name:8": "爵士元素"
     }
   },
   "questID:3": 2078,

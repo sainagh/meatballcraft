@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,000\nMining Level: Stone\nMining Speed: 12\nAttack: 0\nUnholy Touch\n\nHandle\nModifier: 1.4\nDurability: -50\nUnholy Touch\n\nExtra\nDurability: 220\nUnholy Touch\n\nBows\nDrawspeed: 0.15\nRange Multiplier: 2.5\nBonus Damage: -1\nUnholy Touch",
+      "desc:8": "顶端\n耐久：1,000\n挖掘等级：石头\n挖掘速度：12\n攻击力：0\n不洁之触\n\n手柄\n手柄系数：1.4\n耐久：-50\n不洁之触\n\n其它部件\n耐久：220\n不洁之触\n\n弓\n拉弓速度：0.15\n范围系数：2.5\n附加伤害：-1\n不洁之触",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "mod_lavacow.ectoplasm"
         }
       },
-      "name:8": "Ectoplasm"
+      "name:8": "灵浆"
     }
   },
   "questID:3": 201093,

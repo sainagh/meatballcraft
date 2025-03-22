@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 180\nMining Level: Diamond\nMining Speed: 7\nAttack: 6\nTwilit\nSynergy\n\nHandle\nModifier: 0.8\nDurability: 100\nTwilit\nSynergy\n\nExtra\nDurability: 90\nTwilit\nSynergy\n\nBows\nDrawspeed: 0.83\nRange Multiplier: 1.5\nBonus Damage: 2\nTwilit\nSynergy",
+      "desc:8": "顶端\n耐久：180\n挖掘等级：钻石\n挖掘速度：7\n攻击力：6\n暮光\n同调\n\n手柄\n手柄系数：0.8\n耐久：100\n暮光\n同调\n\n其它部件\n耐久：90\n暮光\n同调\n\n弓\n拉弓速度：0.83\n范围系数：1.5\n附加伤害：2\n暮光\n同调",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "steeleaf"
         }
       },
-      "name:8": "Steeleaf"
+      "name:8": "钢叶"
     }
   },
   "questID:3": 201024,

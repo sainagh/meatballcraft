@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 450\nMining Level: Cobalt\nMining Speed: 19.2\nAttack: 6.66\nOverflow\n\nHandle\nModifier: 1.1\nDurability: 0\nBloodlust\nGlitch\n\nExtra\nDurability: 130\nBloodlust\nGlitch\n\nBows\nDrawspeed: 1.52\nRange Multiplier: 1.2\nBonus Damage: 6.66\nBloodlust\nGlitch",
+      "desc:8": "顶端\n耐久：450\n挖掘等级：钴\n挖掘速度：19.2\n攻击力：6.66\n溢出\n\n手柄\n手柄系数：1.1\n耐久：0\n嗜血\n故障\n\n其它部件\n耐久：130\n嗜血\n故障\n\n弓\n拉弓速度：1.52\n范围系数：1.2\n附加伤害：6.66\n嗜血\n故障",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "blood_infused_glitch"
         }
       },
-      "name:8": "Blood Infused Glitch"
+      "name:8": "注血故障"
     }
   },
   "questID:3": 201083,

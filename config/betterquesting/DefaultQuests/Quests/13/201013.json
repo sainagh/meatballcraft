@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 306\nMining Level: Diamond\nMining Speed: 6.5\nAttack: 2.25\nShocking\n\nHandle\nModifier: 0.75\nDurability: 80\n\nExtra\nDurability: 75\nLightweight\n\nBows\nDrawspeed: 0.67\nRange Multiplier: 0.9\nBonus Damage: 1\nLightweight\n",
+      "desc:8": "顶端\n耐久：306\n挖掘等级：钻石\n挖掘速度：6.5\n攻击力：2.25\n震击\n\n手柄\n手柄系数：0.75\n耐久：80\n\n其它部件\n耐久：75\n轻便\n\n弓\n拉弓速度：0.67\n范围系数：0.9\n附加伤害：1\n轻便\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "electrical_steel"
         }
       },
-      "name:8": "Electrical Steel"
+      "name:8": "磁钢锭"
     }
   },
   "questID:3": 201013,

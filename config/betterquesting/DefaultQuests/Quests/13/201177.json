@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,000\nMining Level: Obsidian\nMining Speed: 9\nAttack: 7.5\nVindictive\nNature\u0027s Wrath\n\nHandle\nModifier: 0.9\nDurability: -5\nVindictive\nNature\u0027s Wrath\n\nExtra\nDurability: 140\nVindictive\nNature\u0027s Wrath\n\nBows\nDrawspeed: 5\nRange Multiplier: 0.4\nBonus Damage: -1\nVindictive\nNature\u0027s Wrath",
+      "desc:8": "顶端\n耐久：1,000\n挖掘等级：黑曜石\n挖掘速度：9\n攻击力：7.5\n报复\n自然之怒\n\n手柄\n手柄系数：0.9\n耐久：-5\n报复\n自然之怒\n\n其它部件\n耐久：140\n报复\n自然之怒\n\n弓\n拉弓速度：5\n范围系数：0.4\n附加伤害：-1\n报复\n自然之怒",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "erodium"
         }
       },
-      "name:8": "Erodium"
+      "name:8": "艾洛蒂"
     }
   },
   "questID:3": 201177,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 400\nMining Level: Obsidian\nMining Speed: 3.4\nAttack: 3.4\nWritable\n\nHandle\nModifier: 0.95\nDurability: 20\n\nExtra\nDurability: 55\n\nBows\nDrawspeed: 1.85\nRange Multiplier: 0.8\nBonus Damage: 1",
+      "desc:8": "顶端\n耐久：400\n挖掘等级：黑曜石\n挖掘速度：3.4\n攻击力：3.4\n铭刻\n\n手柄\n手柄系数：0.95\n耐久：20\n\n其它部件\n耐久：55\n\n弓\n拉弓速度：1.85\n范围系数：0.8\n附加伤害：1",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "rosite"
         }
       },
-      "name:8": "Rosite"
+      "name:8": "玫石"
     }
   },
   "questID:3": 201068,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 244\nMining Level: Diamond\nMining Speed: 6.65\nAttack: 4.33\nProsperous\n\nHandle\nModifier: 0.7\nDurability: 65\nProsperous\n\nExtra\nDurability: 50\nProsperous\n\nBows\nDrawspeed: 2\nRange Multiplier: 1.5\nBonus Damage: 1.02\nProsperous",
+      "desc:8": "顶端\n耐久：244\n挖掘等级：钻石\n挖掘速度：6.65\n攻击力：4.33\n活化\n\n手柄\n手柄系数：0.7\n耐久：65\n活化\n\n其它部件\n耐久：50\n活化\n\n弓\n拉弓速度：2\n范围系数：1.5\n附加伤害：1.02\n活化",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "ma.base_essence"
         }
       },
-      "name:8": "Base Essence"
+      "name:8": "基础精华"
     }
   },
   "questID:3": 201101,

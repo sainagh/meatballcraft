@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 710\nMining Level: 2\nMining Speed: 11.0\nAttack: 25.0\nBone Shock\nHigh in Calcium\n\nHandle\nModifier: 2\nDurability: 800\nBone Shock\nHigh in Calcium\n\nExtra\nDurability: 600\nBone Shock\nHigh in Calcium\n\nBows\nDrawspeed: 0.5\nRange Multiplier: 8.0\nBonus Damage: 30\nBone Shock\nHigh in Calcium",
+      "desc:8": "顶端\n耐久：710\n挖掘等级：2\n挖掘速度：11.0\n攻击力：25.0\n骨头休克\n高钙\n\n手柄\n手柄系数：2\n耐久：800\n骨头休克\n高钙\n\n其它部件\n耐久：600\n骨头休克\n高钙\n\n弓\n拉弓速度：0.5\n范围系数：8.0\n附加伤害：30\n骨头休克\n高钙",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "kaiyu"
         }
       },
-      "name:8": "Kaiyu"
+      "name:8": "开宇"
     }
   },
   "questID:3": 1941,

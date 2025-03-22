@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "These materials will need more exploration or a dive into magical mastery to obtain.",
+      "desc:8": "要获得这些材料，需要更多探索或深入掌握魔法。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Magical Materials (Chapter 2)"
+      "name:8": "魔法材料（第2章）"
     }
   },
   "questID:3": 201128,

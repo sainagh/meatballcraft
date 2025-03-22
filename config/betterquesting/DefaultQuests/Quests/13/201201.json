@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 800\nMining Level: Obsidian\nMining Speed: 8.25\nAttack: 7.12\nPsi Eater\n\nHandle\nModifier: 1.54\nDurability: 100\nPsi Eater\n\nExtra\nDurability: 100\nPsi Eater\n\nBows\nDrawspeed: 0.83\nRange Multiplier: 0.85\nBonus Damage: 4\nPsi Eater",
+      "desc:8": "顶端\n耐久：800\n挖掘等级：黑曜石\n挖掘速度：8.25\n攻击力：7.12\nPsi吞噬\n\n手柄\n手柄系数：1.54\n耐久：100\nPsi吞噬\n\n其它部件\n耐久：100\nPsi吞噬\n\n弓\n拉弓速度：0.83\n范围系数：0.85\n附加伤害：4\nPsi吞噬",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "psigem"
         }
       },
-      "name:8": "Psigem"
+      "name:8": "Psi宝石"
     }
   },
   "questID:3": 201201,

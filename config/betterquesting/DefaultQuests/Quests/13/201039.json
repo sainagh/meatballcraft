@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 850\nMining Level: Obsidian\nMining Speed: 5.8\nAttack: 5.1\nCrumbling\n\nHandle\nModifier: 0.5\nDurability: 500\nUnnatural\n\nExtra\nDurability: 125\nUnnatural\n\nBows\nDrawspeed: 2.5\nRange Multiplier: 2\nBonus Damage: 2\nUnnatural",
+      "desc:8": "顶端\n耐久：850\n挖掘等级：黑曜石\n挖掘速度：5.8\n攻击力：5.1\n坍毁\n\n手柄\n手柄系数：0.5\n耐久：500\n超自然\n\n其它部件\n耐久：125\n超自然\n\n弓\n拉弓速度：2.5\n范围系数：2\n附加伤害：2\n超自然",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "knightslime"
         }
       },
-      "name:8": "Knightslime"
+      "name:8": "骑士史莱姆"
     }
   },
   "questID:3": 201039,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 610\nMining Level: 5\nMining Speed: 10\nAttack: 4.3\nBone Shock\nHigh in Calcium\n\nHandle\nModifier: 0.75\nDurability: 140\nBone Shock\nHigh in Calcium\n\nExtra\nDurability: 290\nBone Shock\nHigh in Calcium\n\nBows\nDrawspeed: 0.87\nRange Multiplier: 1.4\nBonus Damage: 2.6\nBone Shock\nHigh in Calcium",
+      "desc:8": "顶端\n耐久：610\n挖掘等级：5\n挖掘速度：10\n攻击力：4.3\n骨头休克\n高钙\n\n手柄\n手柄系数：0.75\n耐久：140\n骨头休克\n高钙\n\n其它部件\n耐久：290\n骨头休克\n高钙\n\n弓\n拉弓速度：0.87\n范围系数：1.4\n附加伤害：2.6\n骨头休克\n高钙",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "skeletal"
         }
       },
-      "name:8": "Skeletal"
+      "name:8": "骷髅"
     }
   },
   "questID:3": 201070,

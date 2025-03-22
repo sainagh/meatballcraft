@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 800\nMining Level: Cobalt\nMining Speed: 7.5\nAttack: 7\nPortly Gentleman\n\nHandle\nModifier: 1.05\nDurability: -5\nGlobal Traveler\nEnderference\n\nExtra\nDurability: 65\nGlobal Traveler\nEnderference\n\nBows\nDrawspeed: 1.11\nRange Multiplier: 1.9\nBonus Damage: 8\nGlobal Traveler\nEnderference",
+      "desc:8": "顶端\n耐久：800\n挖掘等级：钴\n挖掘速度：7.5\n攻击力：7\n憨厚的绅士\n\n手柄\n手柄系数：1.05\n耐久：-5\n环球旅行者\n抑影\n\n其它部件\n耐久：65\n环球旅行者\n抑影\n\n弓\n拉弓速度：1.11\n范围系数：1.9\n附加伤害：8\n环球旅行者\n抑影",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "enderium_plustic"
         }
       },
-      "name:8": "Enderium"
+      "name:8": "末影"
     }
   },
   "questID:3": 201165,

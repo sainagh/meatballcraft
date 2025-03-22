@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 25\nMining Level: Stone\nMining Speed: 2\nAttack: 2\nMoldable\nTasty\n\nHandle\nModifier: 0.15\nDurability: 8\nMoldable\nUplifting\n\nExtra\nDurability: 8\nMoldable\nUplifting\n\nBows\nDrawspeed: 13.33\nRange Multiplier: 0.3\nBonus Damage: 2\nMoldable\nTasty",
+      "desc:8": "顶端\n耐久：25\n挖掘等级：石头\n挖掘速度：2\n攻击力：2\n可铸模\n美味\n\n手柄\n手柄系数：0.15\n耐久：8\n可铸模\n振奋\n\n其它部件\n耐久：8\n可铸模\n振奋\n\n弓\n拉弓速度：13.33\n范围系数：0.3\n附加伤害：2\n可铸模\n美味",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "chocolate"
         }
       },
-      "name:8": "Chocolate"
+      "name:8": "巧克力"
     }
   },
   "questID:3": 201114,

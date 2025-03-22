@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 204\nMining Level: Diamond\nMining Speed: 6\nAttack: 4\nI\u0027m a Superstar\n\nHandle\nModifier: 1\nDurability: 60\nIlluminati\n\nExtra\nDurability: 100\nIlluminati\n\nBows\nDrawspeed: 2\nRange Multiplier: 1.5\nBonus Damage: 7\nIlluminati",
+      "desc:8": "顶端\n耐久：204\n挖掘等级：钻石\n挖掘速度：6\n攻击力：4\n我是超级巨星\n\n手柄\n手柄系数：1\n耐久：60\n光照派\n\n其它部件\n耐久：100\n光照派\n\n弓\n拉弓速度：2\n范围系数：1.5\n附加伤害：7\n光照派",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "starmetal"
         }
       },
-      "name:8": "Starmetal"
+      "name:8": "星辉"
     }
   },
   "questID:3": 201183,

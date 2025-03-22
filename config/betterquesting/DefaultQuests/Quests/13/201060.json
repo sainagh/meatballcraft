@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 600\nMining Level: 6\nMining Speed: 8.3\nAttack: 6.1\nRunic II\n\nHandle\nModifier: 2\nDurability: -400\nRunic\n\nExtra\nDurability: 30\nRunic\n\nBows\nDrawspeed: 1.22\nRange Multiplier: 1.8\nBonus Damage: 7.7\nRunic",
+      "desc:8": "顶端\n耐久：600\n挖掘等级：6\n挖掘速度：8.3\n攻击力：6.1\n符文 II\n\n手柄\n手柄系数：2\n耐久：-400\n符文\n\n其它部件\n耐久：30\n符文\n\n弓\n拉弓速度：1.22\n范围系数：1.8\n附加伤害：7.7\n符文",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "elecanium"
         }
       },
-      "name:8": "Elecanium"
+      "name:8": "荧银"
     }
   },
   "questID:3": 201060,

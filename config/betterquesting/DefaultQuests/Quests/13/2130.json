@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 100\nMining Level: 3\nMining Speed: 11.0\nAttack: 100.0\nSentience\nNecrotic\nFamine\n\nHandle\nModifier: 1\nDurability: 300\nSentience\nNecrotic\nFamine\n\nExtra\nDurability: 300\nSentience\nNecrotic\nFamine\n\n",
+      "desc:8": "顶端\n耐久：100\n挖掘等级：3\n挖掘速度：11.0\n攻击力：100.0\n感知\n生命窃取\n饥荒\n\n手柄\n手柄系数：1\n耐久：300\n感知\n生命窃取\n饥荒\n\n其它部件\n耐久：300\n感知\n生命窃取\n饥荒\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "stone_endless_hunger"
         }
       },
-      "name:8": "Endlessly Hungry"
+      "name:8": "无尽饥饿"
     }
   },
   "questID:3": 2130,

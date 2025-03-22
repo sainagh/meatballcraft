@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 540\nMining Level: Obsidian\nMining Speed: 7\nAttack: 6\nMana\nElemental\n\nHandle\nModifier: 1.25\nDurability: 150\nMana\n\nExtra\nDurability: 60\nMana\n\nBows\nDrawspeed: 1.25\nRange Multiplier: 1.5\nBonus Damage: 7.5\nMana",
+      "desc:8": "顶端\n耐久：540\n挖掘等级：黑曜石\n挖掘速度：7\n攻击力：6\n魔力\n元素\n\n手柄\n手柄系数：1.25\n耐久：150\n魔力\n\n其它部件\n耐久：60\n魔力\n\n弓\n拉弓速度：1.25\n范围系数：1.5\n附加伤害：7.5\n魔力",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "elementium"
         }
       },
-      "name:8": "Elementium"
+      "name:8": "源质钢"
     }
   },
   "questID:3": 201187,

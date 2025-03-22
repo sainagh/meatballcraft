@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 660\nMining Level: Diamond\nMining Speed: 7.52\nAttack: 5.08\nRadioactive II\n\nHandle\nModifier: 0.76\nDurability: -40\nRadioactive II\n\nExtra\nDurability: -20\nRadioactive II\n\nBows\nDrawspeed: 1.03\nRange Multiplier: 0.79\nBonus Damage: 3\nRadioactive II",
+      "desc:8": "顶端\n耐久：660\n挖掘等级：钻石\n挖掘速度：7.52\n攻击力：5.08\n辐射 II\n\n手柄\n手柄系数：0.76\n耐久：-40\n辐射 II\n\n其它部件\n耐久：-20\n辐射 II\n\n弓\n拉弓速度：1.03\n范围系数：0.79\n附加伤害：3\n辐射 II",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "yellorium"
         }
       },
-      "name:8": "Yellorium"
+      "name:8": "黄铀"
     }
   },
   "questID:3": 201133,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 80\nMining Level: Iron\nMining Speed: 1.23\nAttack: 0.85\n\nHandle\nModifier: 0.21\nDurability: -20\n\nExtra\nDurability: -10\n\nBows\nDrawspeed: 4.76\nRange Multiplier: 0.34\nBonus Damage: 0.59",
+      "desc:8": "顶端\n耐久：80\n挖掘等级：铁\n挖掘速度：1.23\n攻击力：0.85\n\n手柄\n手柄系数：0.21\n耐久：-20\n\n其它部件\n耐久：-10\n\n弓\n拉弓速度：4.76\n范围系数：0.34\n附加伤害：0.59",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "aluminum"
         }
       },
-      "name:8": "Aluminum"
+      "name:8": "铝"
     }
   },
   "questID:3": 201125,

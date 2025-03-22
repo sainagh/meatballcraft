@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,222\nMining Level: Cobalt\nMining Speed: 7\nAttack: 7\nElemental\n\nHandle\nModifier: 1.1\nDurability: 0\nTerrafirma\n\nExtra\nDurability: 70\nTerrafirma\n\nBows\nDrawspeed: 0.91\nRange Multiplier: 1\nBonus Damage: 0.9\nTerrafirma",
+      "desc:8": "顶端\n耐久：1,222\n挖掘等级：钴\n挖掘速度：7\n攻击力：7\n元素\n\n手柄\n手柄系数：1.1\n耐久：0\n坚实基础\n\n其它部件\n耐久：70\n坚实基础\n\n弓\n拉弓速度：0.91\n范围系数：1\n附加伤害：0.9\n坚实基础",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "emerald_plustic"
         }
       },
-      "name:8": "Emerald"
+      "name:8": "绿宝石"
     }
   },
   "questID:3": 201191,

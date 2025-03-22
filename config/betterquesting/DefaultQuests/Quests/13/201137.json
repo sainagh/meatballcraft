@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "These materials are mostly found in far dimensions",
+      "desc:8": "这些材料大多存在于遥远的异界维度之中。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Exotic Materials (Chapter 4)"
+      "name:8": "珍惜材料（第4章）"
     }
   },
   "questID:3": 201137,

@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThese are your all-in-one tool!\n\nYou will use one of these for a very long time, for general purpose breaking.",
+      "desc:8": "§7§o这是你的万能工具！\n\n你将长期使用其中一件工具来进行常规的破坏工作。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:divine_shickaxe"
       },
-      "name:8": "Shickaxe Power"
+      "name:8": "锹镐斧之力"
     }
   },
   "questID:3": 1887,

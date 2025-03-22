@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe destruction catalyst is a large mining tool. You can increase its range through a keybind. \n\nBE CAREFUL, this could destroy your base!\n\nIt consumes furnace fuels to run, but EMC from klein stars will keep you running for much longer!",
+      "desc:8": "§7§o毁灭燧石相当于一个大范围挖掘工具。可使用绑定按键扩大范围。\n\n小心使用，不要把基地扬了！\n\n需要消耗熔炉燃料才能工作，卡莱恩之星提供的EMC可供长时间使用！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_destruction_catalyst",
         "tag:10": {}
       },
-      "name:8": "Destruction Catalyst"
+      "name:8": "毁灭燧石"
     }
   },
   "questID:3": 1895,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 666\nMining Level: Cobalt\nMining Speed: 13\nAttack: 13\nEvil Aura\n\nHandle\nModifier: 1\nDurability: 0\n\nExtra\nDurability: 66",
+      "desc:8": "顶端\n耐久：666\n挖掘等级：钴\n挖掘速度：13\n攻击力：13\n厄运光环\n\n手柄\n手柄系数：1\n耐久：0\n\n其它部件\n耐久：66",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "xu_evil_metal"
         }
       },
-      "name:8": "Evil Infused Iron"
+      "name:8": "恶魔灌注铁"
     }
   },
   "questID:3": 201087,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 500\nMining Level: Obsidian\nMining Speed: 7.65\nAttack: 6.83\n\nHandle\nModifier: 1.22\nDurability: 140\n\nExtra\nDurability: 70\n\nBows\nDrawspeed: 1.56\nRange Multiplier: 0.86\nBonus Damage: 4",
+      "desc:8": "顶端\n耐久：500\n挖掘等级：黑曜石\n挖掘速度：7.65\n攻击力：6.83\n\n手柄\n手柄系数：1.22\n耐久：140\n\n其它部件\n耐久：70\n\n弓\n拉弓速度：1.56\n范围系数：0.86\n附加伤害：4",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "quartzenrichediron"
         }
       },
-      "name:8": "Quartz Enriched Iron (WIP)"
+      "name:8": "富石英铁（未完成）"
     }
   },
   "questID:3": 201199,
