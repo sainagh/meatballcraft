@@ -8,11 +8,11 @@ mods.jei.JEI.addDescription(<aether_legacy:zanite_gemstone>,["该矿物生成于
 mods.jei.JEI.addDescription(<aoa3:amethyst>,["发现于Y=13到Y=31之间。","","可生成于结构中的奖励箱。","","可于宝石袋中发现。","","可与金属收藏家用40铜币交易获得。","","可由幽魂掉落。","","使用水晶狙击击杀生物有概率掉落该物品。" ]);
 mods.jei.JEI.addDescription(<aoa3:baronyte_ingot>,["发现于虚无世界模组的爵士维度。","","可通过打开闪亮的盒子获得。","","可发现于爵士城堡的箱子内。","","生成于Y=23与Y=36之间。" ]);
 mods.jei.JEI.addDescription(<aoa3:blazium_ingot>,["发现于虚无世界模组的爵士维度。","","可通过打开闪亮的盒子获得。","","可发现于爵士城堡的箱子内。","","生成于Y=22之下。"]);
-mods.jei.JEI.addDescription(<aoa3:bloodstone>,["发现于虚无世界模组的深渊维度。","","可由深渊蹒跚者掉落。","","矿物生成与Y=64以下。" ]);
+mods.jei.JEI.addDescription(<aoa3:bloodstone>,["发现于虚无世界模组的深渊维度。","","可由深渊蹒跚者掉落。","","矿物生成于Y=64以下。" ]);
 mods.jei.JEI.addDescription(<aoa3:blue_gemstones>,["发现于晶体维度，生成于Y=5与Y=114之间的晶体石头附近。" ]);
 mods.jei.JEI.addDescription(<aoa3:charged_runium_chunk>,["发现于虚无世界模组的深层维度。","","发现于Y=70与Y=114之间，存在深层岩石的地方。","","","","- Bluecat撰写"]);
 mods.jei.JEI.addDescription(<aoa3:chestbone_fragment>,["发现于虚无世界模组的传说维度，位于Y=42以下。"]);
-mods.jei.JEI.addDescription(<aoa3:crystallite>,["发现于虚无世界模组的天堂维度。","","可由\"四种守护者\"掉落。","","可生成与监管者之塔的箱子里。","","可发现于Y=30与Y=69之间的天堂石头里。" ]);
+mods.jei.JEI.addDescription(<aoa3:crystallite>,["发现于虚无世界模组的天堂维度。","","可由\"四种守护者\"掉落。","","可生成于监管者之塔的箱子里。","","可发现于Y=30与Y=69之间的天堂石头里。" ]);
 mods.jei.JEI.addDescription(<aoa3:elecanium_ingot>,["来自虚无世界模组的符境维度。","","可通过打开闪亮的盒子获得。","","可发现于Y=1与Y=34之间有符文块砖的地方。" ]);
 mods.jei.JEI.addDescription(<aoa3:emberstone_ingot>,["发现于下界Y=5与Y=124之间。"]);
 mods.jei.JEI.addDescription(<aoa3:footbone_fragment>,["发现于虚无世界模组的传说维度，位于Y=42以下。"]);
