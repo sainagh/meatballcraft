@@ -1693,11 +1693,11 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:superconducting_sednanite>.addTooltip(format.red("发现于铼界"));
 
-<projecte:transmutation_table>.addTooltip(format.red("用于充能卡莱恩之星 - 取出物品时会卡顿"));
+<projecte:transmutation_table>.addTooltip(format.red("用于充能卡莱恩能量之星 - 取出物品时会卡顿"));
 
-<projecte:item.pe_transmutation_tablet>.addTooltip(format.red("用于充能卡莱恩之星 - 取出物品时会卡顿"));
+<projecte:item.pe_transmutation_tablet>.addTooltip(format.red("用于充能卡莱恩能量之星 - 取出物品时会卡顿"));
 
-<projectex:arcane_tablet>.addTooltip(format.red("更适合制作物品 - 转化为便携式转化桌来充能卡莱恩之星"));
+<projectex:arcane_tablet>.addTooltip(format.red("更适合制作物品 - 转化为便携式转化桌来充能卡莱恩能量之星"));
 
 <contenttweaker:vibrating_mithminite_schythe>.addTooltip(format.red("感谢CappanLF绘制的纹理！"));
 
@@ -2048,16 +2048,16 @@ import crafttweaker.item.IItemCondition;
 <projecte:item.pe_philosophers_stone>.addTooltip(format.red("按V键扩大范围，Shift+V缩小范围，C键打开合成方格"));
 <projecte:item.pe_philosophers_stone>.addTooltip(format.red("使用R键发射可转化生物的弹射物"));
 
-<projecte:item.pe_life_stone>.addTooltip(format.red("需要EMC才能工作，使用卡莱恩之星之类的物品供能！"));
+<projecte:item.pe_life_stone>.addTooltip(format.red("需要EMC才能工作，使用卡莱恩能量之星之类的物品供能！"));
 <projecte:item.pe_life_stone>.addTooltip(format.red("按Shift+X打开！"));
 
-<projecte:item.pe_body_stone>.addTooltip(format.red("需要EMC才能工作，使用卡莱恩之星之类的物品供能！"));
+<projecte:item.pe_body_stone>.addTooltip(format.red("需要EMC才能工作，使用卡莱恩能量之星之类的物品供能！"));
 <projecte:item.pe_body_stone>.addTooltip(format.red("按Shift+X打开！"));
 
-<projecte:item.pe_soul_stone>.addTooltip(format.red("需要EMC才能工作，使用卡莱恩之星之类的物品供能！"));
+<projecte:item.pe_soul_stone>.addTooltip(format.red("需要EMC才能工作，使用卡莱恩能量之星之类的物品供能！"));
 <projecte:item.pe_soul_stone>.addTooltip(format.red("按Shift+X打开！"));
 
-<projecte:item.pe_mind_stone>.addTooltip(format.red("需要EMC才能工作，使用卡莱恩之星之类的物品供能！"));
+<projecte:item.pe_mind_stone>.addTooltip(format.red("需要EMC才能工作，使用卡莱恩能量之星之类的物品供能！"));
 <projecte:item.pe_mind_stone>.addTooltip(format.red("按Shift+X打开！"));
 
 <betterbuilderswands:wandunbreakable>.addTooltip(format.red("按Z键切换模式，Shift+Z切换流体模式"));
@@ -2241,10 +2241,10 @@ import crafttweaker.item.IItemCondition;
 <projecte:item.pe_destruction_catalyst>.addTooltip(format.red("警告：该物品十分危险，不要基地使用！"));
 <projecte:item.pe_destruction_catalyst>.addTooltip(format.red("按V键扩大范围，Shift+V缩小范围。"));
 <projecte:item.pe_destruction_catalyst>.addTooltip(format.red("右击进行挖掘！"));
-<projecte:item.pe_destruction_catalyst>.addTooltip(format.red("需要EMC才能工作，使用卡莱恩之星之类的物品供能！"));
+<projecte:item.pe_destruction_catalyst>.addTooltip(format.red("需要EMC才能工作，使用卡莱恩能量之星之类的物品供能！"));
 
 <projecte:item.pe_zero_ring>.addTooltip(format.red("按V键扩大范围，Shift+V缩小范围，C键开关。"));
-<projecte:item.pe_zero_ring>.addTooltip(format.red("需要EMC才能工作，使用卡莱恩之星之类的物品供能！"));
+<projecte:item.pe_zero_ring>.addTooltip(format.red("需要EMC才能工作，使用卡莱恩能量之星之类的物品供能！"));
 
 <tesslocator:basic_item_tesslocator>.addTooltip(format.red("不要使用过滤器，会导致游戏崩溃"));
 <tesslocator:basic_fluid_tesslocator>.addTooltip(format.red("不要使用过滤器，会导致游戏崩溃"));
