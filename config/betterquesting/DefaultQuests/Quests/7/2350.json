@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound between Y \u003d 1 and Y \u003d 10",
+      "desc:8": "§7§o发现于Y\u003d1与Y\u003d10之间",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:sapphire"
       },
-      "name:8": "Ascended Sapphire"
+      "name:8": "[虚无]蓝宝石"
     }
   },
   "questID:3": 2350,

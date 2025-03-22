@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound only in mountainous biomes, but testificates seem to have lots of it!",
+      "desc:8": "§7§o仅发现于山脉群系，但泰斯特斐人似乎有不少！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:emerald"
       },
-      "name:8": "Emerald"
+      "name:8": "绿宝石"
     }
   },
   "questID:3": 70063,

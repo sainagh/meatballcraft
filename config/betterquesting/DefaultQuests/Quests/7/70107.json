@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oObtained from aluminum ore in an industrial grinder.",
+      "desc:8": "§7§o通过在工业磨粉机中处理铝矿石获得。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "techreborn:dust"
       },
-      "name:8": "Bauxite Dust"
+      "name:8": "铝土矿粉"
     }
   },
   "questID:3": 70107,

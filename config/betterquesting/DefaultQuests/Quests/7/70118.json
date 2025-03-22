@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound below Y\u003d20.",
+      "desc:8": "§7§o发现于Y\u003d20以下。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 893,
         "id:8": "thermalfoundation:material"
       },
-      "name:8": "Destabilized Clathrate"
+      "name:8": "不稳定红石络合物"
     }
   },
   "questID:3": 70118,

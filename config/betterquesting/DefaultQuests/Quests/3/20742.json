@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "For mixing salts whenever you will have to mix salts...",
+      "desc:8": "专为混合盐而生，当不得不混合盐时……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:salt_mixer_idle"
       },
-      "name:8": "Salt Mixer"
+      "name:8": "盐混合器"
     }
   },
   "questID:3": 20742,

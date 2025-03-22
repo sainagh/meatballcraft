@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound below Y\u003d8 in the Overworld.\nCan be found at every level in the End and the Nether.",
+      "desc:8": "§7§o发现于主世界Y\u003d8以下。\n末地和下界的所有高度均可发现。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:draconium_dust"
       },
-      "name:8": "Draconium Dust"
+      "name:8": "龙尘"
     }
   },
   "questID:3": 1009,

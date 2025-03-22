@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound between Y\u003d15 and Y\u003d50 in the Overworld",
+      "desc:8": "§7§o发现于主世界Y\u003d15与Y\u003d50之间。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "mysticalagriculture:crafting"
       },
-      "name:8": "Prosperity Shard"
+      "name:8": "活化水晶碎片"
     }
   },
   "questID:3": 70096,

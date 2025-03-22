@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFrom Rutile ore, very rare, obtained by electrolizing bauxite, found in dimensional doors!",
+      "desc:8": "§7§o来自金红石矿石，非常稀有，可通过电解铝土矿粉获得，也可在维度门中发现！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 14,
         "id:8": "techreborn:ingot"
       },
-      "name:8": "Titanium Ingot"
+      "name:8": "钛锭"
     }
   },
   "questID:3": 70114,
