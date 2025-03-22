@@ -5,7 +5,7 @@ mods.jei.JEI.addDescription(<actuallyadditions:item_misc:5>,["所有高度均可
 mods.jei.JEI.addDescription(<aether_legacy:ambrosium_shard>,["使用圣石工具时会掉落。","","该矿物生成于天境。"]);
 mods.jei.JEI.addDescription(<aether_legacy:enchanted_gravitite>,["该矿物生成于天境。"]);
 mods.jei.JEI.addDescription(<aether_legacy:zanite_gemstone>,["该矿物生成于天境。"]);
-mods.jei.JEI.addDescription(<aoa3:amethyst>,["发现于Y=13到Y=31之间。","","可生成于结构中的奖励箱。","","可发现于宝石袋。","","可与金属收藏家交易获得40铜币。","","可由幽魂掉落。","","使用水晶狙击击杀生物有概率掉落该物品。" ]);
+mods.jei.JEI.addDescription(<aoa3:amethyst>,["发现于Y=13到Y=31之间。","","可生成于结构中的奖励箱。","","可发现于宝石袋。","","可与金属收藏家用40铜币交易获得。","","可由幽魂掉落。","","使用水晶狙击击杀生物有概率掉落该物品。" ]);
 mods.jei.JEI.addDescription(<aoa3:baronyte_ingot>,["发现于虚无世界模组的爵士维度。","","可通过打开闪亮的盒子获得。","","可发现于爵士城堡的箱子内。","","生成于Y=23与Y=36之间。" ]);
 mods.jei.JEI.addDescription(<aoa3:blazium_ingot>,["发现于虚无世界模组的爵士维度。","","可通过打开闪亮的盒子获得。","","可发现于爵士城堡的箱子内。","","生成于Y=22之下。"]);
 mods.jei.JEI.addDescription(<aoa3:bloodstone>,["发现于虚无世界模组的深渊维度。","","可由深渊蹒跚者掉落。","","矿物生成与Y=64以下。" ]);
@@ -23,13 +23,13 @@ mods.jei.JEI.addDescription(<aoa3:green_gemstones>,["生成于Y=5与Y=114之间�
 mods.jei.JEI.addDescription(<aoa3:jade>,["发现于Y=5与Y=21之间。"]);
 mods.jei.JEI.addDescription(<aoa3:jewelyte>,["发现于虚无世界模组的蠕变维度，位于Y=21与Y=37之间。" ]);
 mods.jei.JEI.addDescription(<aoa3:legbone_fragment>,["发现于虚无世界模组的传说维度，位于Y=42以下。"]);
-mods.jei.JEI.addDescription(<aoa3:limonite_ingot>,["发现于Y=9与Y=70之间。","","可通过打开宝藏箱或闪亮的盒子获得。","","可生成于结构中的奖励箱。","","可与金属收藏家交易获得15铜币。","","可由奇美拉掉落。","","","","- Most Bluecat撰写"]);
+mods.jei.JEI.addDescription(<aoa3:limonite_ingot>,["发现于Y=9与Y=70之间。","","可通过打开宝藏箱或闪亮的盒子获得。","","可生成于结构中的奖励箱。","","可与金属收藏家用15铜币交易获得。","","可由奇美拉掉落。","","","","- Most Bluecat撰写"]);
 mods.jei.JEI.addDescription(<aoa3:lyon_ingot>,["发现于虚无世界模组的黄金纬度，Y=64以下有黄金石头的地方。" ]);
 mods.jei.JEI.addDescription(<aoa3:mystite_ingot>,["可通过秘境维度获得。","","可通过打开闪亮的盒子获得。","","可发现于Y=100以下。" ]);
 mods.jei.JEI.addDescription(<aoa3:ornamyte>,["发现于虚无世界模组的蠕变维度，位于Y=2与Y=15之间。" ]);
 mods.jei.JEI.addDescription(<aoa3:purple_gemstones>,["生成于Y=5与Y=114之间的晶体石头附近。" ]);
 mods.jei.JEI.addDescription(<aoa3:red_gemstones>,["生成于Y=5与Y=114之间的晶体石头附近。" ]);
-mods.jei.JEI.addDescription(<aoa3:rosite_ingot>,["发现于Y=15到Y=49之间。","","可与金属收藏家交易获得20铜币。","","精炼达到40级可从熔岩中获得，采掘达到85级可从石头中获得，砍伐达到95级可从木头中获得。","","可通过打开宝藏箱或闪亮的盒子获得。","","结构中的奖励箱可能会有一些。" ]);
+mods.jei.JEI.addDescription(<aoa3:rosite_ingot>,["发现于Y=15到Y=49之间。","","可与金属收藏家用20铜币交易获得。","","精炼达到40级可从熔岩中获得，采掘达到85级可从石头中获得，砍伐达到95级可从木头中获得。","","可通过打开宝藏箱或闪亮的盒子获得。","","结构中的奖励箱可能会有一些。" ]);
 mods.jei.JEI.addDescription(<aoa3:runium_chunk>,["发现于Y=5到Y=132之间。","","可由符文守护者掉落。","","可通过沉睡之石获得。" ]);
 mods.jei.JEI.addDescription(<aoa3:shyregem>,["发现于虚无世界模组的赛尔瑞维度。","","可在洛梵地牢、遗迹小屋、塞尔瑞陵墓以及塞尔瑞庇护所中的奖励箱内发现。" ]);
 mods.jei.JEI.addDescription(<aoa3:shyrestone_ingot>,["发现于虚无世界模组的赛尔瑞维度。","","可在洛梵地牢、遗迹小屋、塞尔瑞陵墓以及塞尔瑞庇护所中的奖励箱内发现。","","可发现于Y=64与Y=104之间有塞尔瑞岩石的地方。" ]);
