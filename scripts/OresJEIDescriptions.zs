@@ -82,7 +82,7 @@ mods.jei.JEI.addDescription(<contenttweaker:travertine>,["发现于普塔Y=50以
 mods.jei.JEI.addDescription(<divinerpg:apalachia_fragments>,["发现于神圣RPG模组的附魔山脉维度。","","可使用附魔山脉本土怪物掉落的附魔山脉之魂制作。" ]);
 mods.jei.JEI.addDescription(<divinerpg:arlemite_ingot>,["发现于Y=15以下。" ]);
 mods.jei.JEI.addDescription(<divinerpg:bloodgem>,["发现于下界。","","矿石纹理看起来像宝石块，但是需要烧炼。"]);
-mods.jei.JEI.addDescription(<divinerpg:eden_fragments>,["太阳风暴可能会掉落。","","可使用兔子和伊甸独角兽掉落的伊甸之魂制作碎片。","","发现于神圣RPG模组的伊甸维度。","","有石头的地方就会生成。","","虽然矿石是彩色，但碎片确是红色的。" ]);
+mods.jei.JEI.addDescription(<divinerpg:eden_fragments>,["太阳风暴可能会掉落。","","可使用兔子和伊甸独角兽掉落的伊甸之魂制作碎片。","","发现于神圣RPG模组的伊甸维度。","","有石头的地方就会生成。","","虽然矿石是彩色，但碎片却是红色的。" ]);
 mods.jei.JEI.addDescription(<divinerpg:mortum_fragments>,["发现于神圣RPG模组的死域维度。","","与暮光石一起生成。","","可使用死域之魂制作，死域之魂可由死域独角兽、蛇蜥兽、黑暗恶魔、窃魂者以及暮光射手掉落。" ]);
 mods.jei.JEI.addDescription(<divinerpg:netherite_ingot>,["发现于下界。","","可由监视者，或生成于下界的狱火射手掉落。","","矿石纹理看起来像宝石块，但是需要烧炼。","","销毁与之接触的物品。"]);
 mods.jei.JEI.addDescription(<divinerpg:realmite_ingot>,["发现于Y=5与Y=17之间。","","可由洞穴爬行者和洞穴独眼巨人掉落。" ]);
