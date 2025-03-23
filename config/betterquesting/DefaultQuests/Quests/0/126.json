@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oToss it in an ocean biome!\n\n§fThe seas on Terra are definitely dangerous. It seems like the local fauna has made it difficult for alien invaders to take over the seas, yet, one of them seems to have no problem there...\nCorallus belongs to the same faction as Smash, but they seem to behave independently of each other. The two share intelligence using amphybyite coves located on beaches, at the interface of the lands and seas they control.",
+      "desc:8": "§7§o在海洋生物群系中扔出！\n\n§f泰拉世界的海洋危机四伏。本土生物似乎让外星入侵者难以掌控海域，但其中某个存在却如鱼得水……\n珊瑚守护者与粉碎同属一个阵营，但两者行为相互独立。它们通过海滩上的安佛比亚洞穴交换情报，那里正是陆海统治的交界处。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:amphibiyte_lung"
       },
-      "name:8": "He controls the seas..."
+      "name:8": "海洋掌控者"
     }
   },
   "questID:3": 126,

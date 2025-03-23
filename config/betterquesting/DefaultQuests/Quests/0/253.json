@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the center of the fire swamp biome.\n\n§fA fire-spewing hydra! Yes, I love it! The fact that I think this is cool is not problematic at all, trust me!\nThis encounter does provide more information about the possible nature of whatever \u0027accident\u0027 left this world in its current state. \nUnlike the other monsters I fought, this one is not encased by an architectural barrier. Instead, it is surrounded by pure destruction. There are no signs of an attempt to contain it, which was the case of the lich and for the minotaurs. This leaves two possible explanations, as far as I am concerned. It could be that the \u0027prison\u0027 built for this creature was so weak it got completely annhilated, or it could be that the coming (or the creation) of this beast was unforseen.\nSeeing so many other containment structures built to entrap monsters suggest that the builders of said structures were somewhat \u0027ready\u0027 to face them. Building a large tower takes time, resources, supply chains, people, and many other things. The people of the twilight forest were ready to face the other monsters I have met so far. \nNot this one, so it probably means the hydra was one of the first to show up. \nOr I may just be grossly misconstructing things.\n",
+      "desc:8": "§7§o发现于火焰沼泽生物群系的中心。\n\n§f一只会喷火的九头蛇！没错，我超爱它！我觉得这很酷这一点完全没问题，真的相信我！\n这次遭遇确实提供了更多线索，有助于理解那个让世界陷入当前状态的所谓“事故”的本质。\n与之前战斗的其他怪物不同，这个生物没有被建筑所禁锢。相反，它被纯粹的毁灭景象所环绕。没有像巫妖和米诺陶那样存在试图收容的迹象。有两种可能的解释。要么为这个生物建造的“监狱”过于脆弱而被彻底摧毁，要么是这个怪物的降临（或被创造）完全出乎意料。\n看到这么多专门建造的收容设施来困住怪物，表明这些建筑的建造者多少已“准备好”面对它们。建造一座高塔需要时间、资源、供应链、人力等诸多要素。暮色森林的居民早已经准备好面对我迄今为止遇到的那些怪物。\n但显然不包括这个，因此很可能意味着九头蛇是最早出现的生物之一。\n当然，也有可能我的这些推测完全站不住脚。\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "twilightforest:trophy"
       },
-      "name:8": "Fire!"
+      "name:8": "火！"
     }
   },
   "questID:3": 253,
@@ -31,7 +31,7 @@
               "Damage:2": 0,
               "id:8": "twilightforest:fiery_blood"
             },
-            "TrophyName:8": "Fiery Hydra Slayer",
+            "TrophyName:8": "火焰九头蛇屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

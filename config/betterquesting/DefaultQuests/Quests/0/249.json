@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse the arcane prison key\n\n§fThe broken remains of Asgard carry some traces of a strong magic, which does appear to be the same force I felt while being constrained by the guardians.\nHe who dominated this magic, the warden of Asgard, the last wolf, the last of the Aesir, the Sympan spirit, answered my call.\nThe oath is broken, the enemy has won, but at least these poor souls are now free.\nAnd who knows, maybe they may come to my aid at some point in the future...",
+      "desc:8": "§7§o使用秘界监狱钥匙\n\n§f阿斯加德的破碎遗迹残留着强大魔法痕迹，那力量与我被守护者束缚时感受到的如出一辙。\n掌控这股魔法的存在——阿斯加德的典狱长、最后之狼、阿萨神族的最后血脉、宇宙之魂——回应了我的召唤。\n誓约已破，敌人获胜，但至少这些可怜的灵魂终于获得自由。\n谁知道呢，或许在未来的某个时刻，他们还会成为我的助力……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:sympan_spirit"
       },
-      "name:8": "The Last Wolf"
+      "name:8": "最后之狼"
     }
   },
   "questID:3": 249,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:sympan_spirit"
             },
-            "TrophyName:8": "Aesir Slayer",
+            "TrophyName:8": "阿萨神族屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

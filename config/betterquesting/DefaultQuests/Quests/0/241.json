@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the shadow world below omothol.\n\n§fThe abyssal ones were hiding something in the depths of the hyperspace. It looks like the heart of a dragon, and it is alive.\nThis \u0027recursion\u0027 has some strange properties, most of which are unknown to me, and yet, this finding consolidated the fact that draconium may be the key to discovering more about this.\nRegardless of this, it was interesting to find out that even the elder ones were so scared of something that they hid it behind 15 dimensions of space. What is up with dragons?\n",
+      "desc:8": "§7§o发现于奥穆索之下的黑暗领域。\n\n§f深渊存在超空间深处藏匿之物。这看起来像是龙的心脏，而且具有活性。\n这种“递归”具有某些奇特属性，其中大部分特性我都无从知晓，但这一发现印证了龙尘或是探索其奥秘的关键。\n不管怎样，有趣的是即便是古神也对某些事物畏惧至深，竟将其隐藏在十五重空间维度之后。龙究竟潜藏着什么秘密？\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:aeldunari"
       },
-      "name:8": "Aeldunari"
+      "name:8": "龙之晶核"
     }
   },
   "questID:3": 241,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:aeldunari"
             },
-            "TrophyName:8": "Uncovering the Heart of Hearts",
+            "TrophyName:8": "揭秘心中之心",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

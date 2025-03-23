@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDo it ASAP\n\n§fMinerals aren\u0027t the only things that hold shyre power, it seems.\nI can sense that the ability to generate tools and weapons able to match shyre \u0027tech\u0027 is the key to defeating such powerful foes.\nIf more energy indeed means more power, I should start worrying about my power throughput soon!\nMore experimentation! More building!",
+      "desc:8": "§7§o尽早做出来\n\n§f塞尔瑞之力似乎不仅蕴藏于矿物之中。\n我能感知到，生成抗衡塞尔瑞“科技”的武装，才是击败这些强敌的关键。\n若能量规模确与威能正相关，是时候升级我的能源网络了！\n更多实验！更多建造！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier3"
         }
       },
-      "name:8": "End Mythical Resources"
+      "name:8": "末地神话资源"
     }
   },
   "questID:3": 164,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEscape the dungeon of arcana using the gaia tesseract\n\n§fThe fact that the names of Norse Mythology appear in botanical magic is, well, very interesting.\nDid our ancestors know something we have forgotten?\nI do not know why or how, but the power within mana compelled me to the Dungeon of Arcana.\nKnowing this, I started researching Norse legends for clues.\nOne word, somehow, resonated with me from these old texts... Tesseract! An object capable of transcending space and time, and a trick comic writers used to justify space-time magic.\nAsgard, once the realm of Aesir, is no more, and its call has not been answered. The infinite Dungeon of Arcana has taken over the space that used to be Asgard, Alfheim, once reigns of magic.\nThankfully, though, there are more dimensions I can maybe access, with enough magic, and for some reason, I suspect the magic that created Arcana did not include them. Now I just need to enter these dimensions!\nThe ruins of Asgard, this ancient seat of power, are still there, and the key for it is the Tesseract...",
+      "desc:8": "§7§o使用盖亚宇宙魔方从秘界地牢中脱出\n\n§f北欧神话中的名字出现在植物魔法中，嗯，这非常有趣。\n难道祖先知道一些我们已经遗忘的东西？\n我不知原因，也不清楚方式，但魔力中的某种力量驱使着我前往秘界地牢。\n意识到这点后，我开始研究北欧传说寻找线索。\n在这些古老典籍中，某个词汇与我产生了奇异的共鸣……宇宙魔方！这个能够跨越时空的物体，曾是漫画作家们用来合理化时空魔法的取巧设定。\n曾经属于阿萨神域的阿斯加德已然消失，其召唤再无回应。无尽的秘界地牢占据了昔日魔法统治的阿斯加德与艾尔夫海姆的空间。\n不过值得庆幸的是，只要魔力足够，我或许能进入其他更多维度，而且出于某种原因，我怀疑创造秘界的魔法并未包含这些维度。现在要做的就是进入这些维度！\n阿斯加德，这片古老力量之域的废墟依然存在，而开启它的钥匙正是宇宙魔方……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:terrasteel_crystal"
       },
-      "name:8": "Ruins"
+      "name:8": "废墟"
     }
   },
   "questID:3": 246,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:terrasteel_crystal"
             },
-            "TrophyName:8": "Bifrost Wolf Slayer",
+            "TrophyName:8": "彩虹桥之狼屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

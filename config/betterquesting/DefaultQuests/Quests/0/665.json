@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDungeon constructors will drop the keys. All arcana mobs will drop collector fragments. \nThe keys will open the respective door types, and will allow you to get raw arcanium. \nThe arcanium extractor can be found exploring.\nDungeon contructors can be hard to find, you can use the optional item to summon them!\n\n§fThe Dungeon of Arcana, this is the name of the place I have entered. And endless expanse of rooms, rooms, and nothing else. This place keeps going on forever, I know it.\nIt is directly under the control of the Twilight Horde, but their domain is not absolute. A weak resistance is still present, not in the military form, but some of the secrets of this place have successfully been kept from the invaders.\nArcanium, a material with very peculiar properties is kept hidden in rooms, secretly built by the enslaved constructors who appear to be in charge of maintaining the rooms of this endless fortress. \nThe material has powerful magic properties, of the mythic type, and it autonomously arranges itself into particular structures, like an alloy that can change state without having to vary any outside conditions. \nThese slaves are broken people, barely capable of aknowledging their surroundings, and they mostly just mumble. One word, though was recognizable from their otherwise incoherent mumblings, the word was Asgard. The home of the gods in Norse mythology.\n\n ",
+      "desc:8": "§7§o地牢构建者会掉落钥匙。所有的秘界生物都会掉落集能器碎片。\n钥匙可以打开对应种类的门，其中可获得粗秘金.\n秘金提取器可在探索时发现。\n地牢构建者可能难以找到，可使用可选物品召唤它们！\n\n§f秘界地牢，这正是我所踏入之地的名讳。无穷无尽的房间，房间，除了房间别无他物。我深知，这个空间将永恒延展。\n此处直接受暮光部落掌控，但他们的统治并非绝对。微弱的抵抗仍在持续，并非以军事形式，而是成功向入侵者隐瞒了此地的部分秘密。\n秘金，这种特性奇异的材料被藏匿于密室之中，由看似负责维护这座无尽要塞房间的奴隶构建者秘密建造。\n这种材料有着神话种类的强大魔法性质，能自主排列成特殊结构，如同无需改变外界条件即可变换形态的合金。\n这些奴隶早已精神破碎，几乎无法感知周遭环境，终日喃喃自语。但在他们支离破碎的絮语中，仍可辨一词：阿斯加德。北欧神话中诸神的国度。\n\n ",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:arcanium"
       },
-      "name:8": "Ancient Secrets"
+      "name:8": "远古秘辛"
     }
   },
   "questID:3": 665,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "divinerpg:arcanium"
             },
-            "TrophyName:8": "Arcanium Researcher",
+            "TrophyName:8": "秘金研究者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

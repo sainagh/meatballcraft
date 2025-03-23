@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDrop mummy bait in a betweenlands marsh or sludge plains biome! You can obtain the biome marker from the callstone.\n\n§fSome answers! And even more questions!\nI should have not been able to open the wormhole that led me to Terra, and yet, I was able to do it. The physics made sense, but something was missing. That something is magic...\nIt seems like I also entered a pact with an abyssal being, or someone with powers like theirs. My ability to do magic is what I gained, but the price was my death. I can now touch vis, and open wormholes, but I have to endure the pain of reincarnation.\nThe mummy appeared to have a moment of clarity before its death, it spoke...\n\"We are both alike, we are both enslaved, the power we gained will be our undoing\"\n",
+      "desc:8": "§7§o在污泥平原（Sludge Plain）或湿地（Marsh）群系丢出木乃伊诱饵！可通过交错次元召唤石获得生物群落修改器。\n\n§f一些答案！以及更多的疑问！\n我本应无法打开那个将我带往泰拉的虫洞，但我却成功了。物理法则本应合理，但总感觉缺少了什么。缺少的正是魔法……\n看来我与某个深渊存在，或者说拥有类似力量的存在，缔结了契约。获得魔法能力的代价是我的死亡。如今我能触碰魔力（vis），开启虫洞，却必须承受轮转重生的痛楚。\n这具木乃伊在临死前似乎回光返照，它说……\n“我们何其相似，我们皆为奴仆，所得之力终将自毁”\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:dreadful_bone"
       },
-      "name:8": "Forbidden Experiments"
+      "name:8": "禁忌实验"
     }
   },
   "questID:3": 235,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:dreadful_bone"
             },
-            "TrophyName:8": "Dreadful Peat Mummy Slayer",
+            "TrophyName:8": "恐虐泥炭木乃伊屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

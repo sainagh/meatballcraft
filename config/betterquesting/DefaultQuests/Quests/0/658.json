@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSlay tar beasts and wights to craft a tar beast heart.\n\n§fThe stories and legends of \u0027pacts with the devil\u0027 seem to have some truths to them. The power of the druids is not their own, it comes from the abyssal beings, who gave them the power to be like them.\nThe devil of folklore always gave a great price, and so did the abyssal ones. The druids were able to ascent to higher dimensions of space, but they had to pay for their freedom.\nThey are now just slaves that use their powers to capture more and more beings to the cause of the abyssal ones.\nI would like to know what the swamp looked like before this pact...",
+      "desc:8": "§7§o击杀焦油兽和阴魂来制作焦油兽心脏。\n\n§f“与魔鬼订立契约”的传说和故事似乎蕴含着一些真相。德鲁伊的力量并非源自他们自身，而是来自深渊存在，那些赋予他们近似自身伟力的可怖生物。\n民间传说中的魔鬼总是索要高昂的代价，深渊存在亦是如此。德鲁伊得以升入更高维度的空间，却不得不以自由为代价。\n如今他们只是游荡的傀儡，用被赐予的力量不断将更多生灵献祭给深渊。\n我想知道，在订立契约之前，那片沼泽本应是怎样的景象……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 24,
         "id:8": "thebetweenlands:items_misc"
       },
-      "name:8": "Tormented Souls"
+      "name:8": "受折磨的灵魂"
     }
   },
   "questID:3": 658,
@@ -31,7 +31,7 @@
               "Damage:2": 24,
               "id:8": "thebetweenlands:items_misc"
             },
-            "TrophyName:8": "Tar Slayer",
+            "TrophyName:8": "焦油屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRight click a Flammable Dust (item from advent of ascension) on a nethengeic beast, found in a dungeon in the nether. Drop in the nether!\n\n§fWell... I\u0027ve finally met one of Smash\u0027s superiors, and it\u0027s a lieutenant for the Shyre Empire, a galaxy-spanning civilization that has been able to spread through all regions of space thanks to their immense power.\nAnd I am picking a fight with them. I\u0027m probably screwed, but hey, I can\u0027t die, and I can only get stronger!\nThe main leader of the Shyre Empire on Terra is a genetically modified monster that was given many of the Wither\u0027s abilities.",
+      "desc:8": "§7§o使用易燃尘（虚无世界模组的物品）右击下界地牢发现的纳德吉克兽。在下界扔出！\n\n§f终于见到了粉碎的上司，他是塞尔瑞帝国——一个凭借强大实力将触角延伸至宇宙每个角落的横跨星系文明——的中尉。\n而我正在与他们为敌。虽然大概率会完蛋，但反正我又不会死，只会越战越强！\n塞尔瑞帝国在泰拉的指挥官是个基因改造怪物，拥有许多凋灵的能力。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:nethengeic_callstone"
       },
-      "name:8": "The Shyre Empire"
+      "name:8": "塞尔瑞帝国"
     }
   },
   "questID:3": 140,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse in the nether!\n\n§fFrom what I\u0027ve seen so far, the nether region of Terra has been fairly unstable for the last few years, that said, the King of Scorchers is quickly gaining power and influence.\nBut I am the one that\u0027s supposed to be gaining power and influence...",
+      "desc:8": "§7§o在下界使用！\n\n§f根据我目前的观察，泰拉的下界区域近年来极不稳定，怒焰王正在迅速扩张势力。\n但执掌权柄之人明明该是我才对……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:infernal_flame"
       },
-      "name:8": "A contender for the underworld"
+      "name:8": "下界角逐者"
     }
   },
   "questID:3": 129,

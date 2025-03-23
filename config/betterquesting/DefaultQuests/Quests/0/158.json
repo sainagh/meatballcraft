@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This \u0027recursion prison\u0027 that prevents me from dying, combined with some blood magic, can be very beneficial!\nMany of the creatures involved in this conflict, willingly or unwillingly, seem to be permeated by it. For most it\u0027s a small amount, much less than me.\nRecursion seems to be directly tied to the soul, and thanks to the magic knowledge I now have, I can start using it.\nIt\u0027s nothing big, but I don\u0027t need essence to create living matter anymore!\nThis means of organic replication is much more involved than using the \u0027standard\u0027 essence method developed back on earth (which is what I\u0027ve been using until now).\nThat said, on its upper end, it is much more effective!",
+      "desc:8": "这种阻止我死亡的“递归监狱”与血魔法结合后，竟能产生惊人的效益！\n无论自愿与否，许多卷入纷争的生物体内都流淌着这种能量。只不过大多数个体的浓度远不及我。\n递归似乎直连灵魂本质，凭借现今掌握的魔法知识，我已能初步驾驭它。\n虽算不上什么伟力，但从此制造生命物质再不需依赖精华！\n这种有机复制技术远比地球上的“标准”精华法（即我此前所用方法）复杂。\n但高阶应用时，其效能堪称质的飞跃！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "soulshardsrespawn:soul_cage"
       },
-      "name:8": "Soul manipulation!"
+      "name:8": "操纵灵魂！"
     }
   },
   "questID:3": 158,

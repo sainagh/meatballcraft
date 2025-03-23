@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§7§oThe altar is crafted, not found!\n\nThe betweenlands dimension is quite laggy, so you can use the spatial diviner callstones to summon the necessary worldgen in the overworld. Each quest in this chain will have an optional objective to make the appropriate callstone to craft.\n\n§fThis is freaky... I don\u0027t like it at all...\nAs I started reading the pages of the necronomicon, I became aware of something...\nMy destiny may be predetermined, and someone is responsible for it.\n(No not Sainagh the pack author)\nThere is an order of druids that worships those that have written the book of the dead, and they, for some reason, have chosen me for a task I cannot avoid...\nNow that I have read the pages I know this, and I know where they come from. Those bastards will pay!",
+      "desc:8": "§7§7§o祭坛不会自然生成，需要自己制作！\n\n交错次元维度相当卡顿，因此你可以使用空间占石在主世界生成必要的结构。这条任务线中的每个任务都会有可选目标，即制作相应的召唤石。\n\n§f太诡异了……我一点儿也不喜欢……\n当我开始阅读死灵之书时，我意识到了某些事情……\n我的命运或许早已注定，幕后有人在操控。\n（注意：不是整合包作者Sainagh）\n有一支德鲁伊教团崇拜那些撰写死者之书的存在，而出于某种原因，他们选择了我来完成一项无法逃避的任务……\n通过阅读，我知晓了这一切，也知道了他们的来历。那些混蛋必将付出代价！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thebetweenlands:druid_altar"
       },
-      "name:8": "The druids are here!"
+      "name:8": "德鲁伊降临！"
     }
   },
   "questID:3": 208,

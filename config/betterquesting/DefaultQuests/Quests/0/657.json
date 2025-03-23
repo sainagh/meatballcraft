@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRocksnots can be placed in water. They will eat mobs around them, and eventually eject pearls if enough are consumed.\n\n§fThey were all swindled. The inhabitants of the swamp in between are all part of a larger plan, and it has to do with terra.\nI seem to be also part of this plan, and yet I can oppose these invaders. Why? Why am I different? What is the price for my immortality? Is my immortality the price?\nI do not know if I will ever be able to find answers, but I can at least use my power to put these slaves out of their misery....\n\n",
+      "desc:8": "§7§o岩涕蚌可放置在水中。它们可以吞噬周围的生物，当进食量足够时便会吐出珍珠。\n\n§f他们都被骗了。沼泽中游荡的生灵，不过是某个与泰拉有关的宏大计划的一部分。\n我似乎也是这计划的一部分，但我却能反抗这些入侵者。为何？为什么我与众不同？这份不朽本质是否就是我付出的代价？\n纵然不知道能否得知真相，至少我能用这力量终结受困者的痛苦……\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thebetweenlands:rock_snot_pearl"
       },
-      "name:8": "Hunger"
+      "name:8": "饥饿"
     }
   },
   "questID:3": 657,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "thebetweenlands:rock_snot_pearl"
             },
-            "TrophyName:8": "Rocksnot Farmer",
+            "TrophyName:8": "岩涕蚌养殖者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

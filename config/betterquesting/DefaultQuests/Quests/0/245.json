@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAssemble the gaia arena and click the beacon with gaia spirit ingot\n\n§fYes, I can see a pattern now! A link between worlds, a call from a holy land, is now severed.\nThe home world of these guardians is no more, and their duty has now turned into rage. What was their mission? What did they protect?\nHow does one enter a world that is no more, and how are these guardians still alive? The stronger my call, the stronger their response. There has to be a rule to this!\nAnd why is Arcana linked to this magic to begin with? I know I am missing something, and the answer may be in the ancient lore we \u0027modern men\u0027 rejected as \u0027ancient myths\u0027.",
+      "desc:8": "§7§o建造盖亚祭坛，使用盖亚魂锭右击信标。\n\n§f是的，我窥见了规律！世界间的纽带、来自神圣之地的召唤，如今已然断裂。\n这些守护者的故土早已消亡，而他们的使命已化作滔天怒焰。他们曾肩负何种重任？又曾守护何等存在？\n如何踏入早已湮灭的世界，这些守护者又何以存续至今？我的召唤愈强烈，他们的回应愈狂暴，其中必有法则可循！\n为何秘界会与这种魔法产生关联？我深知自己遗漏了关键线索，答案或许正蕴藏于被我们“现代人”视作“古老神话”的古代传说之中。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:greater_gaia_spirit"
       },
-      "name:8": "Tier 2 Gaia Guardian"
+      "name:8": "盖亚守护者 II"
     }
   },
   "questID:3": 245,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:greater_gaia_spirit"
             },
-            "TrophyName:8": "Tier 2 Guardian Slayer",
+            "TrophyName:8": "守护者屠戮者·T2",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

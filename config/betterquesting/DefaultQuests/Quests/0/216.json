@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMake this to find locations in the twilight forest.\nThe normal progression gating in the dimension is disabled, but the quests will have a thematic order.\n\n§fThe Twilight Forest, a tidally locked planet in a far (far) away system. This is where Terra crabs are from. Oh and the crimson cult too, well, I think? They are a mysterious bunch, and they aren\u0027t too keen on sharing details.\nAnyhow, the nature of this planet is very peculiar. Being tidally locked, like the moon of earth, part of the planet is always illuminated, and part of it is always in darkness. Worlds like this one have been observed extensively by many space telescopes, but it feels unreal to be actually here. Do I miss my family, my friends back on Earth? Absolutely, but I guess I am happy I got to see this place, so different, so beautiful, and a part of me is glad I got to experience this, even if it meant losing my loved ones.\nWhile the bright and dark of the planet are likely too hot and too cold to be survivable, there exist areas of eternal twilight, neither day nor night, where the climate is favorable, and where life can flourish.\n",
+      "desc:8": "§7§o制作该物品以定位暮色森林中的特殊结构。\n该维度常规流程限制已解除，但任务仍保持原有顺序。\n\n§f暮色森林，某个遥远星系中的潮汐锁定星球。泰拉螃蟹的起源之地，猩红教团似乎也源于此？他们行事诡秘且讳莫如深。\n这颗行星的特性极为独特：由于被潮汐锁定，正如月球之于地球，星球部分永沐光明，部分长陷黑暗。虽早在天文望远镜中观测到此类星球，但亲临此地仍觉虚幻。我思念地球的亲朋吗？当然，但能见证如此奇异美景也算幸事。\n在极昼极夜区域难以生存的夹缝中，存在着永恒的暮色地带，既非白昼亦非黑夜，气候宜人，生机盎然。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "twilightforest:magic_map_empty"
       },
-      "name:8": "Magic Map"
+      "name:8": "魔法地图"
     }
   },
   "questID:3": 216,

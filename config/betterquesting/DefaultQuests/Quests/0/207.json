@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is the start of Astral Sorcery, see more in §cMagical Mastery§7§o.\n\n§fStars hold power, and a lot of it!\nThis is crazy, but the fusion reactions happening inside the core of stars not only produce light and heat, but another type of energy as well.\nThis \u0027astral power\u0027 can travel through higher dimensions. Through these pathways, stars are connected to each other forming \u0027real\u0027 constellations.\nSome of these constellations hold particular properties, and I\u0027ll do my best to take advantage of them.",
+      "desc:8": "§7§o这是星辉魔法模组的开端，更多信息请查看§c魔法精通§7§o。\n\n§f星辰蕴藏能量，且浩瀚无穷！\n这听起来匪夷所思，但恒星核心发生的核聚变反应不仅产生光与热，还会生成另一种能量形式。\n这种“星能”可可通过高维传播。可通过高维空间传播。藉由这些维度通道，星辰彼此连接形成“真实”的星座。\n某些星座具备特殊属性，我将竭力开发利用这些奥秘。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:blockaltar"
       },
-      "name:8": "Sorcerers of the Skies"
+      "name:8": "星空法师"
     }
   },
   "questID:3": 207,
@@ -26,12 +26,12 @@
           "Count:3": 1,
           "id:8": "minecraft:written_book",
           "tag:10": {
-            "author:8": "CB Fan Club",
+            "author:8": "经典状态条粉丝俱乐部",
             "pages:9": {
-              "0:8": "{\"text\":\"Classic Bars is a mod that edits the way things like health points, hunger, and armor are displayed.\\n\\nLater on, some of these numbers get quite big, so it could be useful.\"}",
-              "1:8": "{\"text\":\"The mod is not in the pack by default as it does not look the best, but it can be convenient.\"}"
+              "0:8": "{\"text\":\"经典状态条模组可编辑生命值、饥饿值、护甲值的显示模式。\\n\\n在游戏中后期，某些数值可能会变得过于巨大，所以这个模组会很有用。\"}",
+              "1:8": "{\"text\":\"由于视觉效果并非最佳，该模组默认不在本整合包内，但你可以自己添加。\"}"
             },
-            "title:8": "Too Many Hearts"
+            "title:8": "心心太多了"
           }
         }
       }

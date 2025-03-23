@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSlay the chiromaw matriarch.\n\n§fLife does take many forms, yet words cannot describe the unnatural feeling that permeates me when interacting with the beings of this 6-dimensional swamp. \nThey posses great abilities, yet they do not appear to be free, this is wrong...\nAre they just like me, bound to a fate outside of their control, enslaved by unexplainable knowledge?\n",
+      "desc:8": "§7§o击杀翼手女王。\n\n§f生命确实形态万千，但面对这六维沼泽中的存在时，言语实在是难以形容那渗透骨髓的异常感。\n它们拥有强大能力，却似乎并不自由，这不对劲……\n它们是否也像我一样，被无法掌控的命运束缚，被不可名状的知识奴役？?\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thebetweenlands:chirobarb_erupter"
       },
-      "name:8": "Horrid sacrifice"
+      "name:8": "骇人献祭"
     }
   },
   "questID:3": 660,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "thebetweenlands:chirobarb_erupter"
             },
-            "TrophyName:8": "Chiromaw Matriarch Slayer",
+            "TrophyName:8": "翼手女王屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAssemble the gaia arena and click the beacon with challenge ticket.\n\n§fThe more powerful my calls into the broken world of the Aesirs, the more crazed and twisted the guardians that answer it.\nTheir existance despite the fall of Asgard is interesting. None of the broken creatures I found outside of Arcana appeared to have a will of their own, and, just like the guardians I am calling, they only answer to violence. And yet, both the guardians and the dogs answer when being called. The act of being called, I think, is important here.\nIf the Aesir indeed inhabited the world that is now Arcana, it is likely that the guards of this place had to swear some sort of oath.\nBut what happens to the oath when the world itself that binds it stops existing? My guess; once proud guardian deities of nature are now turned into mindless killers, unable to fulfill their destiny, and yet unable to stop fighting.",
+      "desc:8": "§7§o建造盖亚祭坛，使用挑战券右击信标。\n\n§f我对阿萨神族破碎世界的召唤力度越大，回应的守护者就越扭曲疯狂。\n阿斯加德虽已陷落，这些存在却依然存续，这颇为耐人寻味。在秘界地牢外发现的破碎生物皆无自主意志，正如我所召唤的守护者那般，它们只以暴力回应。然而无论是守护者还是魔犬，只要召唤就会响应。这种“被召唤”的行为本身或许才是关键。\n若阿萨神族当真曾栖居于如今的秘界，此处的守卫必定立过某种誓约。\n但当维系誓约的世界消亡时，誓约将何去何从？我猜想：那些曾骄傲的自然守护神，如今沦为无意识的杀戮机器，既无法完成使命，又无法停止战斗。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "extrabotany:material"
       },
-      "name:8": "Tier 3 Gaia Guardian"
+      "name:8": "盖亚守护者 III"
     }
   },
   "questID:3": 247,
@@ -31,7 +31,7 @@
               "Damage:2": 3,
               "id:8": "extrabotany:material"
             },
-            "TrophyName:8": "Tier 3 Guardian Slayer",
+            "TrophyName:8": "守护者屠戮者·T3",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

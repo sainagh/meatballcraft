@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse the vengeance and retaliation keys on top of the nether.\n\n§fThe testificates, all things considered, are a very \u0027reasonable\u0027 people. Considering the amount of incredible powers this people has encountered, it is interesting to see how they dealt with the threats of mass destruction. No testificate equivalent of nukes, despite having more than enough means to create even more destructive things.\nWhatever the main cultural values of testificate civilization may be, something instilled the idea that power corrupts, and it is evident while listening to any testificate narrate their history. Even more remarkable, is the lack of any apparent government in testificate society.\nI still think that something is being hidden from me, probably some story where the testificates indeed sought power, but I do appreciate their commitment to only use power when absolutely necessary.\nOne of these sources of power, apparently left there for emergencies, was hidden in the nether caves, and should come in handy for some more powerful blood magic.\nWhat confuses me is why not use these powers against the invaders of Terra? ",
+      "desc:8": "§7§o在下界天花板上使用复仇和报复之钥。\n\n§f平心而论，试泰斯提斐人算得上极为“理性”。他们虽曾直面诸多不可思议的超凡力量，却能以独特方式应对大规模毁灭威胁——明明拥有足以制造比核弹更恐怖武器的技术，却未见任何类似核威慑的产物。\n无论其文明的核心价值观为何，“力量滋生腐化”的理念显然已深植血脉，聆听任何一位泰斯提斐人讲述历史时，这点都昭然若揭。更耐人寻味的是，他们的社会竟无显性政府架构。\n我仍怀疑有些秘辛被刻意隐瞒，或许曾有过追求力量的黑暗篇章，但必须承认，他们非必要不动用武力的克制令人钦佩。\n眼下发现的力量源之一，据说是为应对紧急状况而封存于下界洞穴，或可助我施展更高阶的血魔法。\n唯一不解的是，既有此等力量，为何不用以对抗入侵泰拉的敌人？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:demonic_crystal_cluster"
       },
-      "name:8": "Crystal Clusters"
+      "name:8": "晶簇块"
     }
   },
   "questID:3": 229,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:demonic_crystal_cluster"
             },
-            "TrophyName:8": "Crystal Conqueror",
+            "TrophyName:8": "水晶征服者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

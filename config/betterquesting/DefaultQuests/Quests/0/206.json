@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is the start of Abyssalcraft, see more in §cMagical Mastery§7§o.\n\n§fA lead! After I got close to this dark monster, the same feeling I experienced whenever I was about to die came over me, and a strange, deep voice started resonating in my mind.\nThe words were unclear, yet one of them lingered in my memory. Just one word, Necronomicon!",
+      "desc:8": "§7§o这是深渊国度模组的起点，更多信息请查看§c魔法精通§7§o。\n\n§f线索！当我靠近这头黑暗怪物时，那种每当濒死之际才会涌现的熟悉战栗感突然笼罩全身，脑海中开始回响诡异低语。\n那些呓语虽模糊难辨，唯有一个词汇在记忆深处萦绕不去，死灵之书！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:necronomicon",
@@ -12,7 +12,7 @@
           "PotEnergy:5": 0.0
         }
       },
-      "name:8": "Definitely a bad idea..."
+      "name:8": "绝对不是个好主意……"
     }
   },
   "questID:3": 206,

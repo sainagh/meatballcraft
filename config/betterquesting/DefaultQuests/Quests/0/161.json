@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse a diamond chisel to transition between blueprints!\n\nThe following blueprints are craftable, and can be turned into all others. Crafting any blueprint will complete this quest!\n\nSteel Thermal Mixer for most machines!\n\nTier 1 mythic miner for all mythic miners!\n\nNeutronium Cannon for chapter 6 multiblocks!\n\nRelativistic Collapser for chapter 9 multiblocks!\n\nMythic Processor Alloy Furnace for all mythic processors!\n\nArcane Autoworkbench for all magic multiblocks!",
+      "desc:8": "§7§o使用钻石凿子来切换蓝图类型！\n\n以下蓝图可合成，并通过凿子转换为其他所有种类的蓝图。制造任意蓝图即可完成任务！\n\n热钢混合器可转化为大部分机械！\n\n泰拉神话采掘机可转化为所有神话采掘机！\n\n中子炮可转化为第6章的多方块结构！\n\n相对论坍缩器可转化为第9章的多方块结构！\n\n神话处理器：合金炉可转化为所有神话处理器！\n\n自动奥术工作台可转化为所有魔法相关的多方块结构！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectred-fabrication:ic_blueprint"
       },
-      "name:8": "Modular Machinery Info"
+      "name:8": "模块化机械信息"
     }
   },
   "questID:3": 161,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the emptiness.\n\n§fThe Crimson Cult is indeed very powerful, and I suspect their area of influence may extend over much wider domains that I know of.\nThey are extremely well versed at tactical movement thanks to their cultists\u0027 ability to summon portals quickly and without leaving traces. They seldom get involved into large scale conflict, at least with members of the larget invading forces on Terra, but they have engaged with me. They likely did not expect a now crazed human stuck in a deathloop to show up and beat up their cultists. Reasonable, I guess.\nSome of their portals, though, do leave very faint traces, which have become more and more evident the more I have delt deeper into the thaumic arts.\nThese traces lead to what the Cult calls the Emptiness, a higher dimensional space, much like a place like the dreadlands, that is both very close and very far from the three-dimensional world I can conceive with my senses. In this land of paradox, the cultists have built mighty fortresses. \nI initially thought I may have finally encountered their leader, but things are way, way deeper than that. The Crimson Cult operates on a different scale. Not at a planetary level, damn, not even at a galaxy level. I wouldn\u0027t be surprised that earth politics may be influenced by this organization, if there were something they could gain from it.\nDespite all the ruckus I caused, though, they did not retaliate in a meaningful way. Their modus operandi seems to be more subtle that the Twilight Horde\u0027s or the Shyre Empire\u0027s. This does not mean they are less dangerous, though...",
+      "desc:8": "§7§o发现于虚域。\n\n§f血腥教团的力量远超预期，我怀疑他们的势力范围可能覆盖着比已知领域更为广阔的维度。\n凭借教徒们无需痕迹即可快速开启传送门的能力，他们在战术机动层面堪称登峰造极。尽管避免与泰拉上各路入侵势力正面对抗，但他们却选择了与我交锋，或许他们未曾料到一个深陷死亡循环的疯狂人类会突然出现并重创其教徒，这倒也算合乎情理。\n随着我对神秘学的深入研究，某些传送门遗留的微弱痕迹逐渐清晰可辨。\n这些能量轨迹通向教团所谓的“虚域”，那是个类似恐惧之地的高维空间，既近在咫尺又遥不可及，完全超脱了我基于三维感官构筑的认知体系。在这片悖论之地，教徒们建造了宏伟的要塞群。\n最初我以为终于触及教团核心，但真相远比想象深邃。血腥教团的运作尺度早已突破行星级，不，甚至超越了银河系的范畴。倘若有利可图，我毫不怀疑这个组织能轻易影响地球政局。\n尽管我制造了诸多事端，他们却未采取实质性的报复行动。相较于暮光部落或塞尔瑞帝国，他们的行事风格更为隐秘。但这绝不意味着他们的危险性有所降低……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicaugmentation:research_notes"
       },
-      "name:8": "The Emptiness"
+      "name:8": "虚域"
     }
   },
   "questID:3": 250,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "thaumicaugmentation:research_notes"
             },
-            "TrophyName:8": "Conqueror of the Emptiness Fortress",
+            "TrophyName:8": "虚域要塞征服者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

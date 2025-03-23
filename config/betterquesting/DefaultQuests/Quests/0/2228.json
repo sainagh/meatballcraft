@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "As the transformation started, as the Crimson Cult unveiled their true intents, an oath was forged. \nA powerful bee, who had the magical ability to open up portals into new worlds, decided to to devote herself to help out the dwindling forces of the Twilight forest. Opening a portal to bring in a champion from a different world, one that would not be affected by the transformation spell.\nThe oath was forged, and the portal setup, and yet, mere moments before it opened, the Crimson Cult came in, and put an end to the ritual.\nBees, from what I have seen, have a very strong code of honor. It was probably her who led the now transformed crabs to Terra.\nEven now, corrupted and turned into a creature of darkness, the one who was in charge of performing the ritual, still held on to the ritual materials. If this being alone could remain faithful to this mission, so I too will persevere.\nThis immortality I have, this recursive cycle of life and death, is a way to right the wrongs I see around me, to fight for those that could not keep up with the shameful masters of their fate.",
+      "desc:8": "当转化降临，血腥教团撕下面具之时，一道誓言铸成。\n某只拥有开启通往新世界传送门的魔法能力的蜜蜂，决意援助暮色森林的残存势力。她欲开启传送门，从其他世界召唤不受转化法咒影响的勇者。\n誓言已立，传送门已起，但血腥教团在门户洞开前刹那突袭而至，终结了这场仪式。\n据我所知，蜜蜂崇尚荣光信条。或许正是她指引那些被转化的螃蟹来到泰拉。\n即便如今腐化堕入黑暗，那位主持仪式的存在仍紧握着仪式材料。其能孤身坚守誓言，我亦当矢志不移。\n此身不死不灭，往复于生死轮回，正当用于拨乱反正，为那些无法主宰命运的受难者而战。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:broken_oath"
       },
-      "name:8": "Failures and Oaths"
+      "name:8": "失败与誓言"
     }
   },
   "questID:3": 2228,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:broken_oath"
             },
-            "TrophyName:8": "Almost Isekai",
+            "TrophyName:8": "异界咫尺",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

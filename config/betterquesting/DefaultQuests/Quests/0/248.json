@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAssemble the gaia arena and click the beacon with call of the void.\n\n§fThese guardians are dreadful, and yet I cannot help but feel pity for them. If my theory is true, they cannot really help being mindless murder machines with the instincts of the most seasoned warriors.\nIf it is within my power, I will try to do something about this! If the oath is still alive, there must be a way to put an end to it.\nWho did these guardians answer to? Who is their master?\nThe stronger my call into this dead world, the stronger the response. So maybe I just have to call harder?",
+      "desc:8": "§7§o建造盖亚祭坛，使用来自虚空的呼唤右击信标。\n\n§f这些守护者可怖至极，我却无法抑制怜悯之心。若我的猜想正确，它们不过是继承了最骁勇战士本能的无意识杀戮机器，对此根本无能为力。\n若我有能力，定要尝试终结这场悲剧！只要誓约尚未消散，必定存在解除之法。\n这些守护者究竟效忠于谁？他们的主人究竟是谁？\n对已消亡世界的呼唤越强，回应就越激烈。或许，我的召唤力度得更加强烈？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrabotany:treasurebox"
       },
-      "name:8": "Tier 4 Gaia Guardian"
+      "name:8": "盖亚守护者 IV"
     }
   },
   "questID:3": 248,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "extrabotany:treasurebox"
             },
-            "TrophyName:8": "Tier 4 Guardian Slayer",
+            "TrophyName:8": "守护者屠戮者·T4",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

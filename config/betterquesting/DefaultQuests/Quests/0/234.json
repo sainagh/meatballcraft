@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPerform the ritual of the sleeper within the abyssal wasteland.\n\n§fThe necronomicon is, well, evil... The rituals hold a lot of power, but the price you pay is a seemingly permanent scar in the fabric of my being. It feels wrong...\nThat said, corrupting my entire being at least got me closer to answers. Those that control my immortality are higher dimensional beings, existing in multiple 3D \u0027sections\u0027 of reality.\nThanks to these extremely evil, but extremely effective, powers, I\u0027ve been able to open a portal that\u0027ll grant me access to more dimensions of space.\nThis evil, cursed, wasteland is impregnated with the magic that binds my undeath, I feel it in my bones...",
+      "desc:8": "§7§o在深渊荒原进行沉睡者仪式。\n\n§f死灵之书，呃，确实很邪恶……那些仪式虽然蕴含着强大的力量，但付出的代价却在我的存在本质中烙下了似乎永久的伤痕。这感觉不对劲……\n不过话说回来，这种对我整个存在的腐蚀至少让我更接近真相。控制我不朽之身的其实是更高维度的存在，它们栖息在现实世界的多重三维“切片”中。\n多亏了这些极端邪恶却极为强大的力量，我终于打开了一个能通往更多空间维度的传送门。\n这片被诅咒的邪恶荒原浸透着束缚我不死之身的魔法，我骨子里都能感受到……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:eoa"
       },
-      "name:8": "Eye of The Abyss"
+      "name:8": "深渊之眼"
     }
   },
   "questID:3": 234,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "abyssalcraft:eoa"
             },
-            "TrophyName:8": "Abyssal Dragon Slayer",
+            "TrophyName:8": "屠龙者·深渊",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

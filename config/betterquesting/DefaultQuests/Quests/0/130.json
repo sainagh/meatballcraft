@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Well, terra is going through some serious power struggle!\nBut now that I am here, I gotta learn about who is leading this war, the Testificates deserve better!\nI don\u0027t know why I ended up here, or why I can do what I do, but I am here, and I have the power to change some things, so I will do my all to have an effect in this situation.",
+      "desc:8": "泰拉正经历激烈的权力洗牌！\n既然身处漩涡中心，我必须弄清这场战争的幕后推手，泰斯提斐人值得更好的未来！\n虽不知为何会流落至此，也不知自身能力的来源，但既然手握改变局势的力量，我必将全力以赴扭转乾坤。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:scorcher_eternal_flame"
       },
-      "name:8": "A new contender?"
+      "name:8": "新晋挑战者？"
     }
   },
   "questID:3": 130,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:scorcher_eternal_flame"
             },
-            "TrophyName:8": "Scorcher Slayer",
+            "TrophyName:8": "怒焰王屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Use in the nether!\n\nThe twilight horde\u0027s influence over the happenings in this world is crazy! It appears their spies on Terra are based in the nether world.\nThey probably already communicated with their superiors about me, I have to cut communications at all costs!",
+      "desc:8": "§7§o在下界使用！\n\n§f暮色部落对世界的渗透令人发指！其情报暗桩竟深植于下界之中。\n恐怕我的情报早已被上传，必须不惜代价切断这条通信渠道！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:call_of_the_watcher"
       },
-      "name:8": "Spies!"
+      "name:8": "间谍！"
     }
   },
   "questID:3": 131,

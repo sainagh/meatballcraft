@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can use the wizards book on the parasecta and dramix altar to summon the two bosses.\n\n§fThe twilight horde must pay for this! \nThis place has rulers, time to get rid of them! I have serious doubts I can do anything to address the vastness of this place, or even change how thing are here, but hopefully breaking the chain of command can bring some relief to the enslaved beings of this world.\nHopefully the Twilight Horde will bring their wrath on me instead of them. I am starting to doubt my capabilities, though. Fighting big insects? That I can do. Destroying an infinite fortress sitting somewhere in a space-time anomaly? No idea how to deal with that!\nIt is evident I will have to come up with better tools for both understanding and using the forces of this universe. It is clear I need to know more!",
+      "desc:8": "§7§o对秘界寄生虫和地牢监管者祭坛使用巫师之书来召唤这两只Boss。\n\n§f暮光部落必须为此付出代价！\n是时候铲除这里的统治者了！我对自己能否应对这里的浩瀚存在深切怀疑，更遑论改变此地的现状，不过但愿切断其指挥链能给这个世界的被奴役生灵带来喘息之机。\n希望暮光部落能将怒火发泄在我，而非他们身上。不过我开始怀疑自身能力了。对抗巨型昆虫？这我能做到。摧毁位于时空异常中的无尽要塞？这该从哪下手！\n显然，我必须找到更有效的方法来理解和驾驭这个宇宙的力量。毫无疑问，我需要更深入地探索这一切！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:dungeon_tokens"
       },
-      "name:8": "The Twilight Horde must pay!"
+      "name:8": "暮光部落必将付出代价！"
     }
   },
   "questID:3": 224,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:dramix_skin"
             },
-            "TrophyName:8": "Dramix Slayer",
+            "TrophyName:8": "地牢监管者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -47,7 +47,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:parasecta_wing"
             },
-            "TrophyName:8": "Parasecta Slayer",
+            "TrophyName:8": "秘界寄生虫屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
