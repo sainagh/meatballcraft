@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The furnace dimension is real, I knew it!\nThis world seems to be in some way connected to Terra. The wormhole to it opened in response to furnaces, and a whole lot of fuel.\nAs my other recent encounters with magic show, there seems to be many more emergent properties in the more \u0027conceptual\u0027 aspects of nature.\nMagic in books, magic in meatballs, and I guess furnaces too. Well, magic is a good word for it, but there must be some fundamental physical laws behind these phenomena, I just have to figure them out!\nAnyhow, the furnace world of Telos is a strange and beautiful place. Howlers call this place their home, and yet they seem to be capable of travelling between Telos and Terra in a seamless way.\nI was able to enter the furnace world by forming a strong bond with the flint and furnace. Howlers possess this bond innately, thanks to their furnace hearts.",
+      "desc:8": "熔炉维度是真的，我就知道！\n这个世界似乎与泰拉有着某种联系。通往这里的虫洞因熔炉与大量燃料而开启。\n正如我最近遭遇的其他魔法现象所示，在自然界的“概念性”层面似乎存在着更多的涌现性质。\n书本里有魔法，肉丸里有魔法，我猜熔炉里也有魔法。虽然魔法是个好词，但这些现象背后定有某种基础物理法则，我必须将其揭示出来！\n不论如何，这个名为泰洛斯的熔炉维度是个奇异壮美之地。嚎叫者以此为家，却又能自如穿梭于泰洛斯与泰拉之间。\n通过在燧石和熔炉建立绑定联系，我成功进入了熔炉世界。而得益于熔炉之心，嚎叫者天生就拥有这种联结。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:furnace_heart"
       },
-      "name:8": "Adventures in the Furnace Dimension"
+      "name:8": "熔炉维度的冒险"
     }
   },
   "questID:3": 1352,
@@ -34,7 +34,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:furnace_heart"
             },
-            "TrophyName:8": "Corageous Chonker Clairvoyance",
+            "TrophyName:8": "勇敢猪咪瞪大眼",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

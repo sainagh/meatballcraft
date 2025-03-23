@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "It\u0027s not snow! It\u0027s more furnaces (of course)!\nIt\u0027s not just tiny granular furnaces, now there\u0027s tiny crystallized furnaces.\nOne fiend in particular seems to be tied to these tiny furnaces. This one seemed even more \u0027loopy\u0027 than the ones I\u0027ve met before.\nWhile being capable of teleportation and other wonderful powers, one and only one thing drove this creature.\nAnd who can blame it, furnaces are awesome! And there is really nothing more to it, who wouldn\u0027t love furnaces?!?",
+      "desc:8": "这不是雪！是更多的熔炉（当然）！\n现在不仅仅有熔炉微粒，还出现了晶化的熔炉微粒。\n有一个特别的熔炉魔似乎与这些微型熔炉紧密相关。这个家伙比我之前遇到的同类更加“疯癫”。\n尽管拥有传送能力和其他神奇力量，但驱使这个生物的唯一动力只有一件事\n谁又能责怪它呢？熔炉真是太棒了！除此之外再无其他意义，谁能不爱熔炉呢？！？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:whitefire_callstone"
       },
-      "name:8": "Furnace Snow"
+      "name:8": "熔炉之雪"
     }
   },
   "questID:3": 2196,
@@ -34,7 +34,7 @@
               "Damage:2": 0,
               "id:8": "divinerpg:whitefire_furnace"
             },
-            "TrophyName:8": "Wonderful Whitefire Warrior",
+            "TrophyName:8": "白焰勇士",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

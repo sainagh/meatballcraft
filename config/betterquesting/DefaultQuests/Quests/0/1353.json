@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFor fast end efficient smelting, the dark and red matter furnaces are capable of smelting items using EMC.\n\nPlace energy collectors around the furnace to make it run without fuel.\n\nThe more collectors, and the higher the tier, the faster the furnace!\n\n§fTelos is such a lovely place! Not only I get access to all the furnace goodness I could dream of, but I also ca access some new alchemical smelting toys!\n",
+      "desc:8": "§7§o对于快速高效烧炼，暗物质和红物质熔炉能够使用EMC烧炼物品。\n\n在熔炉旁放置能量收集器，如此熔炉无需燃料也可工作。\n\n能量收集器的数量越多，等级越高，熔炉烧得就越快！\n\n§f泰洛斯真是个好地方！这里不仅有我梦寐以求的各种熔炉宝贝，还有能用于烧炼物品的炼金玩意！\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:rm_furnace"
       },
-      "name:8": "The best furnaces?"
+      "name:8": "最好的熔炉？"
     }
   },
   "questID:3": 1353,
