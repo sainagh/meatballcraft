@@ -2716,7 +2716,7 @@ true,
 <contenttweaker:perfected_gem_of_the_cosmos>, 
 [<draconicevolution:chaos_shard:0>,<divinerpg:mortum_block>,<divinerpg:arksiane_claw>,<divinerpg:mortum_block>,
 <divinerpg:arksiane_claw>,<divinerpg:mortum_block>,<draconicevolution:chaos_shard:0>,<divinerpg:mortum_block>]);
-game.setLocalization("ac.ritual.DynatosArtifactInf", "黑洞胜出"); 
+game.setLocalization("ac.ritual.DynatosArtifactInf", "黑洞万岁"); 
 game.setLocalization("ac.ritual.DynatosArtifactInf.desc", "终于能探索黑洞了，真正的黑洞！");
 
 
