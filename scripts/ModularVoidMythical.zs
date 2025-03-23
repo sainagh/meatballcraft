@@ -2458,8 +2458,8 @@ true,
 <extendedcrafting:singularity:1>, 
 [<draconicevolution:chaos_shard:1>,<contenttweaker:eden_refined_gem>,<draconicevolution:chaos_shard:1>,<contenttweaker:wildwood_refined_gem>,
 <draconicevolution:chaos_shard:1>,<contenttweaker:apalachia_refined_gem>,<draconicevolution:chaos_shard:1>,<contenttweaker:skythern_refined_gem>]);
-game.setLocalization("ac.ritual.VetheaWhiteInfusion", "Vethea Negative Body Infusion"); 
-game.setLocalization("ac.ritual.VetheaWhiteInfusion.desc", "Bring a body with negative mass into existance through eldritch infusion!");
+game.setLocalization("ac.ritual.VetheaWhiteInfusion", "梦魇世界负性物体灌注"); 
+game.setLocalization("ac.ritual.VetheaWhiteInfusion.desc", "通过诡异的灌注仪式，令负质量物体成为现实！");
 
 val edendragonref = RecipeBuilder.newBuilder("edendragonref","dragonfire_crucible",100);
 edendragonref.addFluidInput(<fluid:twilight_fire>*1000);
@@ -2716,8 +2716,8 @@ true,
 <contenttweaker:perfected_gem_of_the_cosmos>, 
 [<draconicevolution:chaos_shard:0>,<divinerpg:mortum_block>,<divinerpg:arksiane_claw>,<divinerpg:mortum_block>,
 <divinerpg:arksiane_claw>,<divinerpg:mortum_block>,<draconicevolution:chaos_shard:0>,<divinerpg:mortum_block>]);
-game.setLocalization("ac.ritual.DynatosArtifactInf", "Black Holes FTW"); 
-game.setLocalization("ac.ritual.DynatosArtifactInf.desc", "I can finally visit a black hole, a REAL one!");
+game.setLocalization("ac.ritual.DynatosArtifactInf", "黑洞胜出"); 
+game.setLocalization("ac.ritual.DynatosArtifactInf.desc", "终于能探索黑洞了，真正的黑洞！");
 
 
 recipes.addShaped(<avaritia:resource:5>,
@@ -2758,8 +2758,8 @@ true,
 <contenttweaker:realmstone>, 
 [<aoa3:magic_mending_solution>,<aoa3:magic_mending_solution>,<draconicevolution:chaotic_core>,<draconicevolution:chaotic_core>,
 <contenttweaker:plasmatic_neutronium_ingot>,<contenttweaker:plasmatic_neutronium_ingot>,<contenttweaker:infinity_fragment>,<divinerpg:arksiane_lump>]);
-game.setLocalization("ac.ritual.ShyreWaystoneInf", "Into the Shyre"); 
-game.setLocalization("ac.ritual.ShyreWaystoneInf.desc", "Into the Shyre");
+game.setLocalization("ac.ritual.ShyreWaystoneInf", "进入塞尔瑞"); 
+game.setLocalization("ac.ritual.ShyreWaystoneInf.desc", "进入塞尔瑞");
 
 val shyreStatue = <ore:shyreStatue>;
 shyreStatue.add(<aoa3:craexxeus_statue>);
