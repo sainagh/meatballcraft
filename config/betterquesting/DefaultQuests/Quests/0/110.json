@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is a peaceful world, no mob spawns here!\n\n§fIt seems like the power of fluix is greater than I expected.\nNot only I can digitalize matter, but space as well!",
+      "desc:8": "§7§o该世界为和平模式，不会生成生物！\n\n§f福鲁伊克斯的力量似乎超出我的预计。\n不仅能数字化物质，甚至对空间也起作用！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "simplevoidworld:portal"
       },
-      "name:8": "Digital Space"
+      "name:8": "数字空间"
     }
   },
   "questID:3": 110,

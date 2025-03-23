@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Condensers are nice, but they take up a lot of space...\nThese are definitely better!",
+      "desc:8": "前一款很不错，但是占的空间有点大了……\n这一款显然更好！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectex:refined_link"
       },
-      "name:8": "Alchemication Automation!"
+      "name:8": "炼金自动化！"
     }
   },
   "questID:3": 169,

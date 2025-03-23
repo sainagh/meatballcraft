@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThere are many ways to make large amounts of steam. Dynamos with the Boiler Augment, the Advanced Compression Engine, Extreme Reactors, and Railcraft boilers!\n\n§fUsing the remnants of yellorite fission, I was able to fabricate casing to effectively contain steam. This housing is perfect for making turbines!",
+      "desc:8": "§7§o有很多方法可以产出大量蒸汽。装有蒸汽锅炉转化升级的能源炉、高级压缩引擎、极限反应堆，以及铁路模组的锅炉！\n\n§f利用黄铀裂变的残留物，我可以制作出能高效容纳蒸汽的外壳。非常适合用来制作涡轮机！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bigreactors:turbinecontroller"
       },
-      "name:8": "Less Basic Fission"
+      "name:8": "不那么基础的裂变"
     }
   },
   "questID:3": 173,
