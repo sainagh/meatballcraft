@@ -40,7 +40,7 @@
 <minecraft:concrete:0>.addTooltip(format.red("感谢4lyfe添加的EMC值"));
 
 <ebwizardry:ethereal_crystalweave>.addTooltip(format.red("发现于战斗高塔"));
-<ebwizardry:ethereal_crystalweave>.addTooltip(format.red("感谢Dragon of Desire"));
+<ebwizardry:ethereal_crystalweave>.addTooltip(format.red("灵感来自Dragon of Desire"));
 
 <contenttweaker:spatial_phaser>.addTooltip(format.red("使用我"));
 <contenttweaker:terraformassiflora>.addTooltip(format.red("使用我"));
@@ -1896,7 +1896,7 @@
 
 <divinerpg:dark_dream_bricks>.addTooltip(format.red("PocketSkeleton有些困惑"));
 
-<gendustry:honey_comb:14027>.addTooltip(format.red("感谢Light"));
+<gendustry:honey_comb:14027>.addTooltip(format.red("灵感来自Light"));
 
 <gendustry:honey_comb:14028>.addTooltip(format.red("我觉得Fieno会喜欢的"));
 
@@ -2011,7 +2011,7 @@
 <contenttweaker:forclient_setgamerules>.addTooltip(format.red("使用该物品右击来关闭聊天栏中的命令方块输出信息以及死亡信息"));
 <contenttweaker:forclient_setgamerules>.addTooltip(format.red("推荐使用，因为流程地牢中使用了大量的命令方块以及重命名的生物"));
 
-<contenttweaker:tainted_sentient_meatball>.addTooltip(format.red("感谢Water"));
+<contenttweaker:tainted_sentient_meatball>.addTooltip(format.red("灵感来自Water"));
 
 <contenttweaker:recursion_of_worthiness>.addTooltip(format.red("Reclipse有个点子……"));
 
