@@ -1811,7 +1811,7 @@
 
 <contenttweaker:arcane_prison_key>.addTooltip(format.red("警告：该Boss能破坏你的盔甲"));
 
-<tinker_io:smart_output>.addTooltip(format.red("感谢Lashmak，现在快多了"));
+<tinker_io:smart_output>.addTooltip(format.red("感谢Lashmak，智能输出端速度已被增强！"));
 
 <thaumictinkerer:ichorium_pick_adv>.addTooltip(format.red("在主世界底部左击基岩来进入基岩维度"));
 
