@@ -11,7 +11,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can complete this quest with any material!\n\nWorks like a sword, but it can be p掺和 down and used to cook food!",
+      "desc:8": "§7§o使用任意材料制作均可完成本任务！\n\n与剑类似，但可放下并用于烹饪！",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -82,7 +82,7 @@
           }
         }
       },
-      "name:8": "Frypan"
+      "name:8": "煎锅"
     }
   },
   "questID:3": 1087,

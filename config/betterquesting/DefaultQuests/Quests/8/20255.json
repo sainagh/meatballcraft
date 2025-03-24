@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oLight up a rectangle of obsidian, after reading the alien material manual.\n\n§fThe first layer of caves located underneath Terra\u0027s surface is called the Nether by its inhabitants.\nIt is full of liquid magma, yet the strange properties of its rocks and vegetation, which mostly feeds on sulfus and other inorganic compounds, make these caves breathable, and not particularly hot.",
+      "desc:8": "§7§o阅读异星材料手册后，点亮一扇下界门。\n\n§f泰拉地表之下的首层洞穴被当地居民称为下界。\n尽管遍布熔岩，但该区域岩石的奇异特性，和以硫化物等无机质为生的特殊植被群系，使得这些洞穴不仅可供呼吸，温度也不特别高。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:netherrack"
       },
-      "name:8": "Nether World"
+      "name:8": "下界世界"
     }
   },
   "questID:3": 20255,
@@ -18,7 +18,7 @@
       "dimension:3": -1,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Nether",
+      "name:8": "下界",
       "taskID:8": "bq_standard:location"
     }
   }

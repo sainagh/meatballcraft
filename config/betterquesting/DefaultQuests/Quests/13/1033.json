@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe tool station combines parts together to make tools!\n\nThe station cannot make all tool types, so you should upgrade to a tool forge ASAP!",
+      "desc:8": "§7§o工具装配台能将部件组合成工具！\n\n部分工具无法使用装配台制作，尽快升级到工具锻造台！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "tconstruct:tooltables"
       },
-      "name:8": "Tooling Time!"
+      "name:8": "工具时间！"
     }
   },
   "questID:3": 1033,

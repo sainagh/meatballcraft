@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIt\u0027s not fast, but it\u0027s convenient!",
+      "desc:8": "§7§o不是很快，但胜在方便！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "randomthings:spectrecoil_number"
       },
-      "name:8": "Numbered Spectre Coil (Great)"
+      "name:8": "标号通灵线圈（优异）"
     }
   },
   "questID:3": 1765,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Produce RF using protein, which is made with a Protein Reactor.",
+      "desc:8": "消耗蛋白质产出RF，蛋白质可由蛋白质反应器产出。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:protein_generator"
       },
-      "name:8": "Protein Generator (OK)"
+      "name:8": "蛋白质发电机（一般）"
     }
   },
   "questID:3": 50158,

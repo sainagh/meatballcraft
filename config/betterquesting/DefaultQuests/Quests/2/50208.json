@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Supersized Dynamo, uses a combination of many Dynamo fuels.",
+      "desc:8": "超大型能源炉，消耗多种能源炉燃料混合而成的流体。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:blood_reprocessor"
         }
       },
-      "name:8": "Compression Engine (Great)"
+      "name:8": "压缩引擎（优异）"
     }
   },
   "questID:3": 50208,

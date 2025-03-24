@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe pattern is the base mechanic for Tinker\u0027s Construct. \n\nIn this pack each pattern is individually crafted in a crafting table! \n\nSo are easy to make, and some are hard, and some are very hard! \n\nMost patters, with the exception of laser gun pieces, will be craftable by chapter 2!",
+      "desc:8": "§7§o模具是匠魂模组的基本机制之一。\n\n在本整合包中，每种模具拥有不同的合成表！\n\n大部分模具都很容易合成，但有一些比较难制作，还有一些则无比困难！\n\n除镭射枪部件以外的大部分模具都可在第2章解锁！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:pattern"
       },
-      "name:8": "Patterning!"
+      "name:8": "模具！"
     }
   },
   "questID:3": 1035,

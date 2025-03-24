@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oJump into the omothol void...",
+      "desc:8": "§7§o跳入奥穆索的虚空之中……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:stone"
       },
-      "name:8": "Dark Realm"
+      "name:8": "黑暗领域"
     }
   },
   "questID:3": 20273,
@@ -18,7 +18,7 @@
       "dimension:3": 53,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Dark Realm",
+      "name:8": "黑暗领域",
       "taskID:8": "bq_standard:location"
     }
   }

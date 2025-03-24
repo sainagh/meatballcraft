@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "More solar panels!",
+      "desc:8": "更多太阳能板！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:solar_panel_basic"
       },
-      "name:8": "Basic Solar Panel (OK)"
+      "name:8": "基础太阳能板（一般）"
     }
   },
   "questID:3": 50186,

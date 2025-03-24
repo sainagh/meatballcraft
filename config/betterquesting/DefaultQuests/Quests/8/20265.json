@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDrop a fluix lens into a 2x2 pool of water surrounded by flowers\n\n§fThis strange planet dominated by the influence of thaumic magic is tidally locked, meaning that, in each region of the planet, the time of day is conserved.\nThe regions that are fully diurnal are too hot to allow for the presence of life, while the fully nocturnal regions are a barren, frozen wasteland.\nIn the regions in between though, called the Twilight Forest, life is abundant, and for some reason, those that master thaumic powers have decided to keep it as one of their strongholds.",
+      "desc:8": "§7§o将福鲁伊克斯透镜投入由花朵环绕的2x2水池中\n\n§f这颗受神秘魔法支配的奇特行星处于潮汐锁定状态，这意味着其表面每个区域的昼夜更替周期永恒凝固。\n永昼区域因极端高温而生机断绝，永夜区域则化作冰封死寂的荒原。\n唯有介于两极之间的暮色森林区域——在此诡谲的晨昏交界带中，生命异常繁盛。出于某种缘由，那些掌控神秘魔法的存在将此选定为重要据点。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "twilightforest:aurora_block"
       },
-      "name:8": "Twilight Forest"
+      "name:8": "暮色森林"
     }
   },
   "questID:3": 20265,
@@ -18,7 +18,7 @@
       "dimension:3": 7,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Twilight Forest",
+      "name:8": "暮色森林",
       "taskID:8": "bq_standard:location"
     }
   }

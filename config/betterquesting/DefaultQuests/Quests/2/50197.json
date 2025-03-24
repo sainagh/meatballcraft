@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "More compactness!",
+      "desc:8": "更加紧凑！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "techreborn:solar_panel"
       },
-      "name:8": "HV Solar Array (Good)"
+      "name:8": "高压太阳能阵列（良好）"
     }
   },
   "questID:3": 50197,

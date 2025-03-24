@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "More better solar panels!",
+      "desc:8": "更多更好的太阳能板！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:solar_panel_elite"
       },
-      "name:8": "Elite Solar Panel (OK)"
+      "name:8": "精英太阳能板（一般）"
     }
   },
   "questID:3": 50192,

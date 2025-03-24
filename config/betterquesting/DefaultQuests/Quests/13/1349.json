@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSearch \u0027trait description\u0027 in JEI to obtain descriptions for all tinker\u0027s traits available in the pack.\n\nEach individual trait can be searched individually, if you are curious to see what they do!",
+      "desc:8": "§7§o在JEI中搜索“属性描述”以查看本包中所有匠魂及其附属模组的可用属性。\n\n若好奇属性具体效果，每种属性都可单独查询！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "JEI Support"
+      "name:8": "JEI支持"
     }
   },
   "questID:3": 1349,

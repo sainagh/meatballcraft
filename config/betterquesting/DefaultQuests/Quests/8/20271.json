@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse Cha\u0027garoth r\u0027lyehian gateway key.",
+      "desc:8": "§7§o使用查伽洛斯的拉莱耶门钥匙。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 6,
         "id:8": "abyssalcraft:stone"
       },
-      "name:8": "Omothol"
+      "name:8": "奥穆索"
     }
   },
   "questID:3": 20271,
@@ -19,7 +19,7 @@
       "dimension:3": 52,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Omothol",
+      "name:8": "奥穆索",
       "taskID:8": "bq_standard:location"
     }
   }

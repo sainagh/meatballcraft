@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe smart output is an upgraded version of the casting table, it can be used for automation, and it can be upgraded for extra functionality!",
+      "desc:8": "§7§o智能输出端是升级版的浇铸台，可用于自动化，还可加装升级来获得额外功能！（本整合包中智能输出端速度已被增强）",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tinker_io:smart_output"
       },
-      "name:8": "So Smart, Such Output"
+      "name:8": "智能输出"
     }
   },
   "questID:3": 1052,

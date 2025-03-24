@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCraft the Dark Druid Altar and Swamp Talisman! They cannnot be found in world! \n\nThe dimension is very laggy, so its progression can be done in the overworld using the Spatial Diviners. Each quest in the betweenlands chain will show what diviner to use for each step!\n\n§fThe betweenlands, not unlike the Erebus caves, do not appear to exist within the three dimensions of space senses can feel.\nBecause of \u0027slices\u0027 that can be sometimes seen. It is evident that this place is located on terra, but it exists in higher dimensions, making it impossible to perceive for a three-dimensional being, unless the portal to this cursed swamp is used.",
+      "desc:8": "§7§o制作德鲁伊祭坛和沼泽魔符！主世界中不会自然生成！\n\n交错次元维度相当卡顿，因此你可以使用空间卜石在主世界生成必要的结构。交错次元任务线的每个任务都会显示对应的空间卜石！\n\n§f与混沌之地洞穴类似，交错次元的存在似乎超越了常规三维空间的感知范畴。\n由于偶尔可见的“维度切片”现象，可确证此处仍位于泰拉本体，却以高维形式存在，这使得三维生物除非借助通往这片受诅咒沼泽的传送门，否则根本无法感知其存在。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thebetweenlands:swamp_grass"
       },
-      "name:8": "The Betweenlands"
+      "name:8": "交错次元"
     }
   },
   "questID:3": 20268,
@@ -18,7 +18,7 @@
       "dimension:3": 20,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "The Betweenlands",
+      "name:8": "交错次元",
       "taskID:8": "bq_standard:location"
     }
   }

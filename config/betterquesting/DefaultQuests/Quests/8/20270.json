@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse asorah dreaded gateway key.",
+      "desc:8": "§7§o使用阿索拉的恐惧之门钥匙。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:dreadgrass"
       },
-      "name:8": "Dreadlands"
+      "name:8": "恐惧之地"
     }
   },
   "questID:3": 20270,
@@ -18,7 +18,7 @@
       "dimension:3": 51,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Dreadlands",
+      "name:8": "恐惧之地",
       "taskID:8": "bq_standard:location"
     }
   }

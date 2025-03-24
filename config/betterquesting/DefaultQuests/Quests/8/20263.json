@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse a deep dark portal",
+      "desc:8": "§7§o使用漆黑之门",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 7,
         "id:8": "extrautils2:compressedcobblestone"
       },
-      "name:8": "The Deep Dark"
+      "name:8": "漆黑世界"
     }
   },
   "questID:3": 20263,
@@ -19,7 +19,7 @@
       "dimension:3": -11325,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "The Deep Dark",
+      "name:8": "漆黑世界",
       "taskID:8": "bq_standard:location"
     }
   }

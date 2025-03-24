@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRight click a warper item",
+      "desc:8": "§7§o右击使用跃迁器物品",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:stone"
       },
-      "name:8": "Taerrapiatta Wormhole"
+      "name:8": "地平界虫洞"
     }
   },
   "questID:3": 20259,
@@ -18,7 +18,7 @@
       "dimension:3": 180,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Taerrapiatta Wormhole",
+      "name:8": "地平界虫洞",
       "taskID:8": "bq_standard:location"
     }
   }

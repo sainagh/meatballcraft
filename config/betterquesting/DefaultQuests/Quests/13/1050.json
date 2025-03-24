@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§6§7Some of the molten metals in the smeltery combine into alloys. JEI has a page listing what metal combinations will form alloys.\n\nThe first alloys used in the pack are bronze and aluminum brass.\n\nBronze is made by combining one part molten tin, and three parts molten copper!\n\nAluminum brass is made by combining one part molten copper and three parts molten aluminum!\n\n\n\n",
+      "desc:8": "§6§7一些熔融流体可在冶炼炉中结合为合金。JEI中专门有一页列出了所有可形成合金的金属。\n\n本整合包中用到的第一批合金是青铜和铝黄铜。\n\n青铜由一份熔融锡和三份熔融铜结合而成！\n\n铝黄铜由一份熔融铜和三份熔融铝结合而成！\n\n\n\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "tconstruct:metal"
       },
-      "name:8": "Alloys"
+      "name:8": "合金"
     }
   },
   "questID:3": 1050,

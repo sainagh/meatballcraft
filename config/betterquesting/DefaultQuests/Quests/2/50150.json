@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This generator consumes seeds and meats to generate RF.",
+      "desc:8": "这个发电机消耗种子和肉产出RF。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_bio_reactor"
       },
-      "name:8": "Bio Reactor (OK)"
+      "name:8": "生物反应器（一般）"
     }
   },
   "questID:3": 50150,

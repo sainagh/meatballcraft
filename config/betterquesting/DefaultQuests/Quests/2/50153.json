@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The compression dynamo accepts a variety of fluid inputs to produce RF. \nGenerally, the more steps it takes to obtain the fluid, the higher the energy output.",
+      "desc:8": "压缩能源炉可消耗多种流体产出RF。\n通常来讲，流体制作需要的步骤越多，能量产出就越高。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
@@ -16,7 +16,7 @@
           "RSControl:1": 0
         }
       },
-      "name:8": "Compression Dynamo (Great)"
+      "name:8": "压缩能源炉（优异）"
     }
   },
   "questID:3": 50153,

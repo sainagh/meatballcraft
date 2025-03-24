@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Produce RF using Biofuel, which is made using a Bioreactor.",
+      "desc:8": "消耗生物燃油产出RF，生物燃油可用生物质炉产出。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:biofuel_generator"
       },
-      "name:8": "Biofuel Generator (OK)"
+      "name:8": "生物燃油发电机（一般）"
     }
   },
   "questID:3": 50159,

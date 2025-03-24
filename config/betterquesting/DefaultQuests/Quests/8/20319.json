@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTravel using a warp core with the right artifact on a space station",
+      "desc:8": "§7§o在空间站中用对应的工件启动跃迁核心",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:recursion_darkness"
       },
-      "name:8": "Akathartos"
+      "name:8": "晦暗界"
     }
   },
   "questID:3": 20319,
@@ -18,7 +18,7 @@
       "dimension:3": 172,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Akathartos",
+      "name:8": "晦暗界",
       "taskID:8": "bq_standard:location"
     }
   }

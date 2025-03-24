@@ -10,7 +10,7 @@
         "Damage:2": 14,
         "id:8": "tconstruct:materials"
       },
-      "name:8": "Unbreaking (infinite durability with 5)"
+      "name:8": "耐久（5级时无法破坏）"
     }
   },
   "questID:3": 1125,

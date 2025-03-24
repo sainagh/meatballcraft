@@ -13,7 +13,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can complete this quest with any material!\n\nWorks like a hoe and shears!",
+      "desc:8": "§7§o使用任意材料制作均可完成本任务！\n\n功能与锄和剪刀一样！",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -87,7 +87,7 @@
           }
         }
       },
-      "name:8": "Kama"
+      "name:8": "园艺镰"
     }
   },
   "questID:3": 1063,

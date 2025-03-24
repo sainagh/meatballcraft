@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The enervation dynamo uses power-infused items (such as redstone) as fuel to produce RF.",
+      "desc:8": "弱化能源炉通过消耗能量灌注物品（例如红石）产出RF。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
@@ -16,7 +16,7 @@
           "RSControl:1": 0
         }
       },
-      "name:8": "Enervation Dynamo (Great)"
+      "name:8": "弱化能源炉（优异）"
     }
   },
   "questID:3": 50156,

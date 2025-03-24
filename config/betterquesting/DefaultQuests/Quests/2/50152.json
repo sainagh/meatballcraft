@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Generate RF by using a solid fuel and water.\nWater can be automated using an Aqueous Accumulator, or an Infinite Water Source.\nFuels can be automated using EMC, or through a variety of other methods...",
+      "desc:8": "通过消耗固体燃料和水产出RF。\n可使用蓄水器或无限水来产出水。\n燃料可通过EMC实现自动化，当然还有其他很多思路……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermalexpansion:dynamo",
@@ -15,7 +15,7 @@
           "RSControl:1": 0
         }
       },
-      "name:8": "Steam Dynamo (Great)"
+      "name:8": "蒸汽能源炉（优异）"
     }
   },
   "questID:3": 50152,

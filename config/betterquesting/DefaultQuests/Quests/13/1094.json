@@ -15,7 +15,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can complete this quest with any material!\n\nWorks like a bow that does not need to be charged up. It loads automatically, but it has a cooldown period between shots. It requires bolts to shoot!",
+      "desc:8": "§7§o使用任意材料制作均可完成本任务！\n\n与弓类似，但是不需要拉弓。会自动装填，但有射击间隔。需要弩箭才能射击！",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -94,7 +94,7 @@
           }
         }
       },
-      "name:8": "Crossbow"
+      "name:8": "十字弓"
     }
   },
   "questID:3": 1094,

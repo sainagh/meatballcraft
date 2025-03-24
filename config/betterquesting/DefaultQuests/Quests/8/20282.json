@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTravel using a warp core on a space station",
+      "desc:8": "§7§o在空间站使用跃迁核心",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:dry_earth"
       },
-      "name:8": "Oi"
+      "name:8": "奥伊"
     }
   },
   "questID:3": 20282,
@@ -18,7 +18,7 @@
       "dimension:3": 152,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Oi",
+      "name:8": "奥伊",
       "taskID:8": "bq_standard:location"
     }
   }

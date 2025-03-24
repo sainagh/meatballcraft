@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo make a cast, you want to start by making a part in the part builder. You should use a cheap material like cobblestone.\n\nPlace the part on the casting table, and pour a casting material by right clicking the faucet above the casting table.\n\nCasting materials can be molten gold or molten aluminum brass!\n\nAfter you have made a cast, you can place it in the table, and use it to make parts out of any metal you want!",
+      "desc:8": "§7§o制作铸模，首先需要在部件加工台中制作一个部件。推荐使用圆石之类的廉价材料。\n\n将部件放置在浇铸台上，对浇注口右击将浇铸材料倒在浇铸台中。\n\n浇铸材料可以使熔融金或熔融铝黄铜！\n\n制作出铸模后，便可用它在浇铸台中制作想要的金属部件！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:cast_custom"
       },
-      "name:8": "Cast me zaddy!"
+      "name:8": "浇给我！"
     }
   },
   "questID:3": 1049,

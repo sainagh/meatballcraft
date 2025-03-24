@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThese can be find in overworld structures, no need to craft them! Hostile books and pumpkin spawners hold the answer!\n\nThe blast furnace is formed with a 3x3x3 of blast bricks. Right click the structure with the engineer\u0027s hammer to form it!\n\nCoke is the best fuel, but charcoal can also be used!\n\n§fNice! The architecture on Terra has a lot of useful features. I should be able to use these materials to make a blast furnace, and study the properties of the metals found in this planet.",
+      "desc:8": "§7§o可发现于主世界自然生成的结构中，不需要自己合成！死灵书和南瓜蜘蛛那儿有答案！\n\n高炉需要3x3x3的高炉砖。使用右击搭好的结构来使其成形！\n\n焦煤是最好的燃料，但是也可使用煤炭！\n\n§f太好了！泰拉上的建筑里有不少有用的资源。我能用这些材料搭建一个高炉，用以研究这颗星球上金属的性质。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "immersiveengineering:stone_decoration"
       },
-      "name:8": "Bricked and Blasted"
+      "name:8": "高炉砖"
     }
   },
   "questID:3": 482221128,
