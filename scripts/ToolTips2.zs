@@ -182,7 +182,7 @@ import crafttweaker.item.IItemCondition;
 
 <abyssalcraft:shoggothflesh:0>.addTooltip(format.red("修格斯掉落，位于主世界的修格斯巢穴"));
 
-<contenttweaker:conductive_powder>.addTooltip(format.red("淤泥由工业先锋模组的植物收割机产出"));
+<contenttweaker:conductive_powder>.addTooltip(format.red("污泥由工业先锋模组的植物收割机产出"));
 
 <extratrees:food:7>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？） - 在JEI中查看跃迁器"));
 
