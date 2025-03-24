@@ -138,7 +138,7 @@ if(player.getDimension() == 0) {
     var blockposfurnace1 = posfurnace1.asBlockPos();
     var blockBelow1 = world.getBlockState(posfurnace1);
     if(blockBelow1 != <blockstate:minecraft:coal_block>) {
-        player.sendChat("在圆石周围放置四个煤块");
+        player.sendChat("在圆石周围放置四个煤炭块");
         return "FAIL";
     }
 	var posfurnace2 = player.position.asPosition3f();
@@ -147,7 +147,7 @@ if(player.getDimension() == 0) {
     var blockposfurnace2 = posfurnace2.asBlockPos();
     var blockBelow2 = world.getBlockState(posfurnace2);
     if(blockBelow2 != <blockstate:minecraft:coal_block>) {
-        player.sendChat("在圆石周围放置四个煤块");
+        player.sendChat("在圆石周围放置四个煤炭块");
         return "FAIL";
     }
 	var posfurnace3 = player.position.asPosition3f();
@@ -156,7 +156,7 @@ if(player.getDimension() == 0) {
     var blockposfurnace3 = posfurnace3.asBlockPos();
     var blockBelow3 = world.getBlockState(posfurnace3);
     if(blockBelow3 != <blockstate:minecraft:coal_block>) {
-        player.sendChat("在圆石周围放置四个煤块");
+        player.sendChat("在圆石周围放置四个煤炭块");
         return "FAIL";
     }
 	var posfurnace4 = player.position.asPosition3f();
@@ -165,7 +165,7 @@ if(player.getDimension() == 0) {
     var blockposfurnace4 = posfurnace3.asBlockPos();
     var blockBelow4 = world.getBlockState(posfurnace4);
     if(blockBelow4 != <blockstate:minecraft:coal_block>) {
-        player.sendChat("在圆石周围放置四个煤块");
+        player.sendChat("在圆石周围放置四个煤炭块");
         return "FAIL";
     }
 
