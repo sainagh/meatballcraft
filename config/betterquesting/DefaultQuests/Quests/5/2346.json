@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe JEI Bee Drop page has two rows.\n\nDrops in the first row will be produced by the corresponding species with no special requirements.\n\nDrops in the second row are specialty drops, and will only drop if a bee\u0027s EXACT temperature and humidy and temperature requirements are respected.\n\nThis process can be made easier with Gendustry, see the quest for best genes for specialty drops for the no tolerance genes.",
+      "desc:8": "§7§oJEI的养蜂产物页面有两行。\n\n第一行的产物由对应品种蜜蜂产出，没有特殊要求。\n\n第二行的产物为专长产物，只会在蜜蜂满足特定的温度、湿度以及生物群系时才会产出。\n\n使用基因工业模组可使该过程更容易，详情查看最佳基因任务区块的无耐性基因以方便产出专长产物。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:nether_star"
       },
-      "name:8": "Specialty Drops"
+      "name:8": "专长产物"
     }
   },
   "questID:3": 2346,

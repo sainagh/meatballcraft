@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Pristine \u003e Ignoble",
+      "desc:8": "始祖种 \u003e 卑贱种",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "hibeescus"
         }
       },
-      "name:8": "Hibeescus"
+      "name:8": "蜂木槿"
     }
   },
   "questID:3": 20494,

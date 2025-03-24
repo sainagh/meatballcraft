@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAdvanced rocketry gets buggy sometimes (often). These bees will let you craft new warpers that will let you get to these planets without havint to deal with buggy rockets.\nYou will still have to make at least one rocket, and a space station, as all of these warper items, with the exception of the first one, can only be used in space!",
+      "desc:8": "§7§o高级火箭模组有时（经常）会出bug。这些蜜蜂可用来制作可以无须使用充满bug的火箭，便可直接前往某些星球的新跃迁器。\n你还是得制作至少一艘火箭，以及太空站，因为除了第一个以外的跃迁器物品，都只能在空间站中使用！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:bee_stargate"
       },
-      "name:8": "Skip (some) Advanced Rocketry"
+      "name:8": "跳过（（部分）高级火箭模组"
     }
   },
   "questID:3": 2257,

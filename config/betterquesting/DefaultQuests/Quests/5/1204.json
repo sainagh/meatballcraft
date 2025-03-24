@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIf you want to make the best possible bees, these are the genes you should be going for!",
+      "desc:8": "§7§o如果想制造出最好的蜜蜂，这些是你应该获得的基因！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_queen_ge",
@@ -152,7 +152,7 @@
           "MaxH:3": 50
         }
       },
-      "name:8": "Eugenics Intensifies"
+      "name:8": "优生优育"
     }
   },
   "questID:3": 1204,

@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound on Haumea!",
+      "desc:8": "§7§o发现于哈乌美亚！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_princess_ge",
@@ -84,7 +84,7 @@
           "MaxH:3": 60
         }
       },
-      "name:8": "Demonic Bee"
+      "name:8": "恶魔蜜蜂"
     }
   },
   "questID:3": 1291,

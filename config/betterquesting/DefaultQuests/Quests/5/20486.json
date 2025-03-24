@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIf you get errors in the industrial apiary GUI, use these upgrades to change the biome or humidity!\n\n§7§fWrong humidity, well no problem!",
+      "desc:8": "§7§o如果在工业蜂箱GUI中看到了错误标识，用这些升级来改变生物群系或湿度！\n\n§7§f湿度错误，但是没问题！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "gendustry:apiary.upgrade"
       },
-      "name:8": "Temperance Upgrade"
+      "name:8": "温控升级"
     }
   },
   "questID:3": 20486,

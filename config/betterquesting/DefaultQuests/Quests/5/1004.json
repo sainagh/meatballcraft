@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIf you are still learning bees, make sure you understand the apiary before using the alveary!\n\nThe alveary is the upgraded version of the apiary, it\u0027s a multiblock where you can add upgrades and frame slots! \n\nA maxed alveary with automation is quite good for automations that require frames. For base bee automation an industrial apiary will be best.\n\n",
+      "desc:8": "§7§o如果你还在学习蜜蜂相关知识，确保在使用蜂箱组之前完全理解其原理！\n\n蜂箱组是升级版的蜂箱，你可以在这个多方块结构中添加升级部件和框架！\n\n满配的自动化蜂箱组非常适合用于需要框架的自动化。对于基础的蜜蜂自动化，工业蜂箱是最好的选择。\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:alveary.plain"
       },
-      "name:8": "Alveary (Advanced)"
+      "name:8": "蜂箱组（进阶）"
     }
   },
   "questID:3": 1004,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe acclimatiser lets you incerase the temperature and humidity tolerance of your bees.\n\nCombine with the following items for the following effects:\n\nBlaze powder or Lava \u003d higher temperature\n\nIce or snowball \u003d lower temperature\n\nWater \u003d higher humidity\n\nSand \u003d lower humidity",
+      "desc:8": "§7§o适应性调整器可以增加蜜蜂的温度和湿度耐性。\n\nC使用以下物品组合来获得对应效果：\n\n烈焰棒或熔岩 \u003d 更高温度\n\n冰或雪球 \u003d 更低温度\n\n水 \u003d 更高湿度\n\n沙子 \u003d 更低湿度",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "genetics:lab_machine"
       },
-      "name:8": "More Tolerance"
+      "name:8": "更多耐受性"
     }
   },
   "questID:3": 1643,

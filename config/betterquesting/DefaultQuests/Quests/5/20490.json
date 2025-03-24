@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWARNING: Bee genetics and breeding can get very complex, unless you know what you are doing, you should follow these three main rules to keep things simple:\n\n1. A princess and a drone, when combined, make a queen. If the drone and princess are the same species, the queen will be the same species. If you combine princess and drone from different species, you can create new ones (JEI will guide you with this). You should only use the advanced mutatron to create new bee species!\n\n2. A queen makes a princess and several drones, as well as combs, depending on the species (again JEI will guide you). You should only use the industrial apiary to run bees of the same species!\n\n3. Ignoble stock bees are bad, pristine bees are good! You should not use ignoble queens/princesses. There are ways to make ignobles work, but the methods are more advanced.\n\nIf you know what you are doing, bees follow the rules of Mendelian genetics. Every bee trait has a dominant and recessive gene, the portable analyzer will give you the genetic makeup of a given bee! Breeding bees to select specific traits can get you much faster and more efficient bees!\n\n§fBee genetics are surprisingly complex, not surprised they took over the universe!\nThe bee analyzer will help me to keep track of bee genes at the cost of a little honey.",
+      "desc:8": "§7§o警告：蜜蜂遗传学和繁殖非常复杂，除非你明白自己在做什么，不然最好遵守以下三条规则以方便推进：\n\n1. 一只公主蜂和一只雄蜂，在结合后，会变为一只蜂后。如果公主蜂和雄蜂为同一品种，蜂后也会是这种品种。如果将不同品种的公主蜂和雄蜂结合，会培育出新品种的蜂后（JEI中有路线引导）。你应当只使用高级诱变机进行新品种蜜蜂的制作！\n\n2. 蜂后会产出一只公主蜂和数只雄蜂，当然还有蜂窝，取决于蜜蜂种类（JEI中有产物信息）。你应当只使用工业蜂箱来养同品种的蜜蜂！\n\n3. 卑贱种不好，始祖种好！你应当避免使用卑贱种的蜂后/公主蜂。确实有方法使得卑贱种蜜蜂工作，但那算是进阶应用了。\n\n如果你清楚自己在做什么，也可遵循孟德尔遗传定律进行蜜蜂育种。每种蜜蜂性状都有显性隐形之分，便携式多用分析仪可显示你给出的蜜蜂的基因组成！通过育种筛选特定性状，可以得到更快速、更高效的蜜蜂！\n\n§f蜜蜂遗传学复杂得惊人，难怪它们曾统治宇宙！\n蜜蜂分析仪能消耗少量蜂蜜，帮助我记录蜜蜂基因。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:portable_alyzer"
       },
-      "name:8": "Portable Analyzer"
+      "name:8": "便携式多用分析仪"
     }
   },
   "questID:3": 20490,

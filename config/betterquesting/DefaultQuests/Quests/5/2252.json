@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWARNING: the assassin bee will cause crashes if placed in an apiary, it is meant to used in the bee-bee gun.\n\nThe assassin bee has the special effect of finishing off queens, making them drop the respective princess and drones.\nThe Bee-Bee gun lets you control the effects of a bee, if it is inserted in the gun\u0027s GUI (shift + right click). The Bee-Bee Gun needs honey to work!\nAftter placing a new queen into an apiary or industrial apiary, right click it with a loaded Assassin Queen Bee-Bee Gun to finish off the queen life cycle.\nThis makes it much faster to go through breeding chains, especially for the temporal bee!",
+      "desc:8": "§7§o警告：将刺客蜜蜂放置在蜂箱内可能会导致崩溃，所以最好将其放入蜜蜂嗡嗡枪使用。\n\n刺客蜜蜂的特殊效果可以直接终结蜂后，产出对应的公主蜂和雄蜂。\n蜜蜂嗡嗡枪能够控制放入其中的蜜蜂的特殊效果，按Shift+右键打开其GUI。蜜蜂嗡嗡枪需要消耗蜂蜜才能工作！\n将一只新的蜂后放入蜂箱或工业蜂箱后，使用装有刺客蜂后的蜜蜂嗡嗡枪来终结蜂后的生命循环。\n这样能让更快地度过杂交链，特别是在培育时间蜜蜂时！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "careerbees:beegun"
       },
-      "name:8": "Speed-Breeding"
+      "name:8": "快速育种"
     }
   },
   "questID:3": 2252,

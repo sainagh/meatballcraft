@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oObtained from the Soulsucking Callstone.",
+      "desc:8": "§7§o通过吸魂召唤石获得。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_queen_ge",
@@ -153,7 +153,7 @@
           "MaxH:3": 50
         }
       },
-      "name:8": "Soulsucking Bee"
+      "name:8": "吸魂蜜蜂"
     }
   },
   "questID:3": 2224,

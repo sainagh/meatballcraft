@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTolerance none from common bee.",
+      "desc:8": "§7§o无温度湿度耐性，通过普通蜜蜂获得。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_drone_ge",
@@ -152,7 +152,7 @@
           "MaxH:3": 20
         }
       },
-      "name:8": "No Tolerance - Good for Specialty Drops"
+      "name:8": "无耐性 - 用于获得专长产物"
     }
   },
   "questID:3": 2269,

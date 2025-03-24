@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAs you can see using a portable analyzer, bees have a variety of genes! Some are good, and some are, well, not great.\n\nThe genetic sampler is the first step in making your bees better! It takes bees, and has a chance of producing gene samples from a given bee.\n\nFor each bee species that has a desirable gene (the best ones are listed in the following quests), you can dump excess drones into the sampler, until you obtain the gene samples you desire!\n\nSee next quests for more info on how to transfer good genes to other bees!\n\n§fBy consuming drones, which can be endlessly bred, I can isolate specific gene traits. Some of them (but just some) are very useful!",
+      "desc:8": "§7§o正如你用便携式多用分析仪看到的那样，蜜蜂有非常多种基因！有些基因很好，另一些则不然。\n\n基因采样机是强化蜜蜂的第一步！它能消耗蜜蜂，概率产出所给蜜蜂的基因样本。\n\n每个品种的蜜蜂都有值得收集的基因（后续任务中列出了最佳基因），你可以将多余的雄蜂输入采样机中，直到获得想要的基因样本为止！\n\n查阅后续任务以获得更多关于如何将优良基因转移到其他蜜蜂上的信息！\n\n§f通过消耗雄蜂——反正能无限繁殖——我能将特定的基因摘取出来。有些（非常小一部分）基因十分有用！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "gendustry:sampler"
       },
-      "name:8": "Genetic Samples"
+      "name:8": "基因样本"
     }
   },
   "questID:3": 20489,
