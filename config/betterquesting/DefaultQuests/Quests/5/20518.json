@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe obsidian electron tube is used to configure these large farms to produce peat.\n\nA peat multiblock farm needs a steady supply of bog earth.",
+      "desc:8": "§7§o黑曜石电子管可将多方块农场设置为泥炭生产模式。\n\n需要为农场持续供应沼泽泥。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 6,
         "id:8": "forestry:thermionic_tubes"
       },
-      "name:8": "Obsidian Electron Tube"
+      "name:8": "黑曜石电子管"
     }
   },
   "questID:3": 20518,

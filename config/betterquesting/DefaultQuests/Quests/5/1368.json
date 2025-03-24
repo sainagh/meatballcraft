@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCrop sticks can be used as a means of plant automation, place a plant in crop sticks placed on tilled soil, and it will work as a better seed.\n\nTo harvest a grown plant without breaking the crop sticks, you can right click or use the following machines.\n\nSee the green revolution quest for info on how to use crops to make faster and better seeds!",
+      "desc:8": "§7§o作物架可用于实现植物自动化种植。将植物放入放置在耕地上的作物架中，它将成为更优质的种子。\n\n要在不破坏作物架的情况下收割成熟作物，可以使用右键点击或使用以下机器。\n\n关于如何培育出生长更快、品质更好的种子，请查阅“绿色革命”任务的相关说明！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "agricraft:crop_sticks"
       },
-      "name:8": "Crop Sticks"
+      "name:8": "作物架"
     }
   },
   "questID:3": 1368,

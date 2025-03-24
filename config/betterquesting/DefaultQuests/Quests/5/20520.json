@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe phytogenic insolator is a one-block plant farm that requires some sort of fertilizer to produce both crop and tree drops (if upgraded with an arboreal extractor).",
+      "desc:8": "§7§o有机灌注器是一种消耗某种肥料生产作物和树木（如果安装了树苗灌注基底升级）产物的单方块农场。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
@@ -25,7 +25,7 @@
           ]
         }
       },
-      "name:8": "Phytogenic Insolator"
+      "name:8": "有机灌注器"
     }
   },
   "questID:3": 20520,

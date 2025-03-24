@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oLets you craft specific enchanted books",
+      "desc:8": "§7§o可制作特定附魔书",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:block_enchanter"
       },
-      "name:8": "EnderIO Enchanter (Great)"
+      "name:8": "末影接口模组的附魔器（优异）"
     }
   },
   "questID:3": 2330,

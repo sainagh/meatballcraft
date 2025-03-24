@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oNot great for emerald, but it\u0027s used in some recipes!",
+      "desc:8": "§7§o用来制作绿宝石效率不是很高，但是在某些配方中很有用！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "agricraft:agri_seed",
@@ -16,7 +16,7 @@
           "agri_strength:1": 1
         }
       },
-      "name:8": "Emeryllis"
+      "name:8": "朱顶绿"
     }
   },
   "questID:3": 1471,

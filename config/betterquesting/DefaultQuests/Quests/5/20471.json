@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oA builder, programmed with a quarry card, is very good at ruining landscapes!\n\nIn this configuartion, this machine will automatically excavate large regions, collecting all blocks it escavates.\n\nPlace an inventory on top of the builder to collect drops.",
+      "desc:8": "§7§o搭配采掘卡的建造机非常适合将地标夷为平地！\n\n在这种配置下，这机器会自动挖掘大片区域，收集所有挖掘的方块。\n\n在建造机上方放置容器来收集掉落物。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftools:builder"
       },
-      "name:8": "Builder"
+      "name:8": "建造机"
     }
   },
   "questID:3": 20471,

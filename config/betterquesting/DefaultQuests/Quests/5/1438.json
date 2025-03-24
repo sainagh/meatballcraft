@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe seeds listed in the following quests will come in handy!\n\nNot all seeds are listed here, but the useful ones are here!\n\nThanks to shadow46x2 for helping with the list!",
+      "desc:8": "§7§o以下任务列出的种子会很有用！\n\n并非所有种子都被展示，但所有有用的都在这儿了！\n\n感谢Shadow46x2帮助列出的名单！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Notable Plants"
+      "name:8": "终点植物"
     }
   },
   "questID:3": 1438,

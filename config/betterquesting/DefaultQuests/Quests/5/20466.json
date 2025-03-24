@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oStone and nether essences can be used to create ores with Mythic properties.\n\nOne mineral makes one ore...\n\nOne ore makes multiple minerals, especially if you use an industrial grinder!\n\nThis process can be looped for exponential yield (granted that you have enough essence).\n\nWorks with Rupee, Arlemite, Realmite, Rosite, Limonite, Netherite, Bloodgem, Emberstone.",
+      "desc:8": "§7§o石精华和下界精华可用于制作拥有神话性质的矿物。\n\n一份矿物可制成一块矿石……\n\n一块矿石能产出多份矿物，特别是在工业磨粉机中！\n\n可循环进行这一过程以实现产量的指数增长（前提是有足量的精华）。\n\n适用矿物类型：卢比、阿勒石、现石、玫石、褐铁、炎岩、血宝石、余烬石。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "mysticalagriculture:stone_essence"
       },
-      "name:8": "Ore Duplication"
+      "name:8": "矿物复制"
     }
   },
   "questID:3": 20466,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBibliocraft allows to duplicate enchanted books! To use the Typesetting Table and Printing Press, make sure you a wearing a Monocle, otherwise you won\u0027t see XP costs!\n\nRight click the desired enchanted book in the Typesetting Table near left slot, and a Chase in the far slot. Shift right click the Typesetting Table with an empty hand to create an enchanted plate. This will consume XP based on the enchantment type and level.\n\nRight click the enchanted plate in the back slot of the Printing Press, together with a bunch of ink sacks. Right click normal vanilla Books on the near left slot, and they will be transformed into enchanted books of the desired type! A single enchanted press can make up to 3 enchanted books, as it has durability, but it can be repaired using various modded tools.",
+      "desc:8": "§7§o可通过收藏馆模组复制附魔书！使用排版台和拓印机前，确保佩戴有单片眼镜，否则无法查看经验消耗信息！\n\n将想要复制的附魔书右击放入排版台左下的栏位，上方栏位放入拓印槽。空手Shift右击排版台来制作附魔片。此操作会基于魔咒种类和等级消耗经验。\n\n将附魔片右击放入拓印机中间最深的槽中，靠后的斜板上放置一些墨囊。将书右击放入长板的左侧，随后就会被转换为想要复制的附魔书！一个附魔片最多能消耗耐久制作3本附魔书，可使用其他模组进行修复。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bibliocraft:typesettingtable"
       },
-      "name:8": "Bibliocraft Duplication"
+      "name:8": "收藏馆模组的魔咒复制"
     }
   },
   "questID:3": 2319,

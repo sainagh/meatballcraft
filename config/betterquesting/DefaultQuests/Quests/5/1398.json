@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe agricultural bee will let you make 10/10/10 seeds automatically!",
+      "desc:8": "§7§o农业蜜蜂能让你自动化制作10/10/10属性的种子！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 14012,
         "id:8": "gendustry:honey_comb"
       },
-      "name:8": "Bees are Good"
+      "name:8": "蜜蜂很棒"
     }
   },
   "questID:3": 1398,

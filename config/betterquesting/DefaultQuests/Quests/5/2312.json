@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests show the various methods available to deal with enchanting.",
+      "desc:8": "§7§o后续任务展示了多种处理附魔的方法。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Enchant Me!"
+      "name:8": "给我附魔！"
     }
   },
   "questID:3": 2312,

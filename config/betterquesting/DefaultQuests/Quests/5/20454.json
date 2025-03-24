@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The lamp of growth is a fairly inexpensive way of speeding up the growth of plants.",
+      "desc:8": "作为加速植物生长的手段，催生灯相当便宜。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:lamp_growth"
       },
-      "name:8": "Lamp of Growth (OK)"
+      "name:8": "催生灯（一般）"
     }
   },
   "questID:3": 20454,

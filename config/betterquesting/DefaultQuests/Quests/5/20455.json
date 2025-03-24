@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Sprinklers can increase a plant\u0027s growth speed by acting as automatic watering cans, when provided with water.",
+      "desc:8": "当有水供应时，洒水器可通过自动洒水，提高植物的生长速度。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "agricraft:sprinkler"
       },
-      "name:8": "Agricraft Sprinkers (OK)"
+      "name:8": "农业工艺模组的洒水器（一般）"
     }
   },
   "questID:3": 20455,

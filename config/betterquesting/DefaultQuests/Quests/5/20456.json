@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The powers of inferium can also allow for the speeding up of plant growth, nice!",
+      "desc:8": "下级精华的力量可加速植物生长，好耶！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "mysticalagriculture:growth_accelerator"
       },
-      "name:8": "Growth Accelerator (Good)"
+      "name:8": "生长加速器（良好）"
     }
   },
   "questID:3": 20456,

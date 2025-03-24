@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No refills needed!",
+      "desc:8": "不需要重新装填水！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "mysticalagriculture:watering_can"
       },
-      "name:8": "Inferium Watering Can"
+      "name:8": "下级精华洒水壶"
     }
   },
   "questID:3": 20460,

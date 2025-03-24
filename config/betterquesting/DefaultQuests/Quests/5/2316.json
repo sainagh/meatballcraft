@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe good old vanilla enchanting table.\n\nTo boos the max level (up to 30), the various available options are here.",
+      "desc:8": "§7§o经典附魔台。\n\n有很多方法可以到达最大附魔等级（30级）。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:enchanting_table"
       },
-      "name:8": "Enchanting Table"
+      "name:8": "附魔台"
     }
   },
   "questID:3": 2316,

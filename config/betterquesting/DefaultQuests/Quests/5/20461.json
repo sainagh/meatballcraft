@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Get water, put on plants, plants go *growing sound*",
+      "desc:8": "灌上水，浇一浇，植物就开始长长长长长",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermalcultivation:watering_can",
@@ -13,7 +13,7 @@
           "Water:3": 4000
         }
       },
-      "name:8": "Watering Can"
+      "name:8": "洒水壶"
     }
   },
   "questID:3": 20461,
