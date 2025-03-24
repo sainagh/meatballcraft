@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The glacial precipitator uses water to produce various ice-related items.",
+      "desc:8": "冷冻机消耗水产出多种与冰有关的物品。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 14,
@@ -24,7 +24,7 @@
           ]
         }
       },
-      "name:8": "Glacial Precipitator"
+      "name:8": "冷冻机"
     }
   },
   "questID:3": 20470,
