@@ -341,7 +341,7 @@ radiactivenachos.register();
 var yummyconcrete = VanillaFactory.createItemFood("yummy_concrete", 5);
 yummyconcrete.saturation = 1;
 yummyconcrete.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("来自r/feedthememes");
+	player.sendChat("灵感来自r/feedthememes");
 	player.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(3000, 20));
 };
 yummyconcrete.register();
