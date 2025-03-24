@@ -2173,7 +2173,7 @@ mods.jei.JEI.addDescription([<contenttweaker:farming_will>,
 
 mods.jei.JEI.addDescription([<contenttweaker:ritual_mass_enchanting>],
 [
-    "可通过以下方法突破原版附魔限制，魔咒等级最多可达15级。还可以使正常情况下不兼容的魔咒共存，例如火焰保护和爆炸保护。",
+    "可通过该方法突破原版附魔限制，魔咒等级最多可达15级。还可以使正常情况下不兼容的魔咒共存，例如火焰保护和爆炸保护。",
     "",
     "仪式需要基础的深渊国度仪式祭坛，可在任意维度使用深渊荒原死灵之书进行！消耗50000PE。",
     "",
@@ -4523,7 +4523,7 @@ mods.jei.JEI.addDescription([
     <rftools:dialing_device>,
     <rftools:matter_transmitter>],
 [
-    "要使用RFTools模组创建自定义维度，先要先从一张空白维度表开始。",
+    "要使用RFTools模组创建自定义维度，首先需要一个空白维度表。",
     "",
     "尽管只使用维度表就能创建自定义维度，但此种方法随机性太大，样子很酷，但经常没什么用（你可能还是想试个几次）。要创建随机维度，将维度表放入维度刻录器，然后点击“Store”按钮。",
     "",
