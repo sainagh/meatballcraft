@@ -184,15 +184,15 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:conductive_powder>.addTooltip(format.red("污泥由工业先锋模组的植物收割机产出"));
 
-<extratrees:food:7>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？） - 在JEI中查看跃迁器"));
+<extratrees:food:7>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？） - 在JEI中查看跃迁器"));
 
-<magicbees:resource:5>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？） - 在JEI中查看跃迁器"));
+<magicbees:resource:5>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？） - 在JEI中查看跃迁器"));
 
-<magicbees:beecomb:7>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？） - 在JEI中查看跃迁器"));
+<magicbees:beecomb:7>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？） - 在JEI中查看跃迁器"));
 
-<extrabees:honey_comb:27>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？） - 在JEI中查看跃迁器"));
+<extrabees:honey_comb:27>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？） - 在JEI中查看跃迁器"));
 
-<magicbees:beecomb:2>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？） - 在JEI中查看跃迁器"));
+<magicbees:beecomb:2>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？） - 在JEI中查看跃迁器"));
 
 <bloodmagic:blood_shard:0>.addTooltip(format.red("通过使用束缚之剑获得"));
 <bloodmagic:blood_shard:0>.addTooltip(format.red("束缚之剑需要消耗网络中的LP"));
@@ -699,29 +699,29 @@ import crafttweaker.item.IItemCondition;
 
 <extrautils2:bagofholding>.addTooltip(format.red("天哪，里面能装这么多潜影盒……"));
 
-<draconicevolution:tool_upgrade:0>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
+<draconicevolution:tool_upgrade:0>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？）"));
 
-<draconicevolution:tool_upgrade:1>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
+<draconicevolution:tool_upgrade:1>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？）"));
 
-<draconicevolution:tool_upgrade:2>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
+<draconicevolution:tool_upgrade:2>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？）"));
 
-<draconicevolution:tool_upgrade:3>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
+<draconicevolution:tool_upgrade:3>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？）"));
 
-<draconicevolution:tool_upgrade:4>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
+<draconicevolution:tool_upgrade:4>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？）"));
 
-<draconicevolution:tool_upgrade:5>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
+<draconicevolution:tool_upgrade:5>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？）"));
 
-<draconicevolution:tool_upgrade:6>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
+<draconicevolution:tool_upgrade:6>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？）"));
 
-<draconicevolution:tool_upgrade:7>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
+<draconicevolution:tool_upgrade:7>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？）"));
 
-<draconicevolution:tool_upgrade:8>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
+<draconicevolution:tool_upgrade:8>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？）"));
 
-<draconicevolution:tool_upgrade:9>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
+<draconicevolution:tool_upgrade:9>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？）"));
 
-<draconicevolution:tool_upgrade:10>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
+<draconicevolution:tool_upgrade:10>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？）"));
 
-<draconicevolution:tool_upgrade:11>.addTooltip(format.red("发现于某个跃迁器位面（所以是那个呢？？）"));
+<draconicevolution:tool_upgrade:11>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？）"));
 
 <contenttweaker:the_dark_star>.addTooltip(format.red("发现于高处"));
 
