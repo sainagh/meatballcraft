@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "A digital factory is the best way to make certain things, powerful things...",
+      "desc:8": "数字化工厂是制作某些特定强大物品的最佳方案……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:dragon_heart"
       },
-      "name:8": "No more Dragons"
+      "name:8": "不再有龙了"
     }
   },
   "questID:3": 20446,

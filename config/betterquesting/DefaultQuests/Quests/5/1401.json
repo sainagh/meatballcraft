@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests list all data models available, and their drops!\n\n",
+      "desc:8": "§7§o以下任务列出来所有可用的数据模型及其产物！\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "deepmoblearning:data_model_blank"
       },
-      "name:8": "The Deepest Learning "
+      "name:8": "最深度学习"
     }
   },
   "questID:3": 1401,

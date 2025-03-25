@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo breed chickens into new species, place two nesting pens facing each other!\n\nIn theory, just putting pens next to each other is enough, but come on, facing each other is so much cuter!",
+      "desc:8": "§7§o将两个组合鸡舍相邻放置，来杂交产生新品种！\n\n理论上，将鸡舍相邻放置就够了，但相对放置看起来不是更好吗！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "hatchery:pen"
       },
-      "name:8": "Breeding Chickens"
+      "name:8": "鸡的繁育"
     }
   },
   "questID:3": 1389,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests list all useful chickens in the pack.\n\nFor all of these, spawn eggs are craftable to be used in the mechanized coop.",
+      "desc:8": "§7§o以下任务列出了本整合包中所有有用的鸡。\n\n所有这些鸡的刷怪蛋都可合成，在机械鸡舍中使用。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Notable Chickens"
+      "name:8": "重点鸡"
     }
   },
   "questID:3": 1512,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oConsumes Coal, Iron, Lapis, Gold, Diamond from your inventory to generate XP\n\nShift Right Click it to activate it, and again to bind it",
+      "desc:8": "§7§o消耗玩家物品栏中的煤炭、铁、青金石、金、钻石来生成经验\n\n按住Shift右击来激活物品，右击将绑定物品",
       "icon:10": {
         "Count:3": 1,
         "id:8": "xreliquary:infernal_tear"
       },
-      "name:8": "Infernal Tear"
+      "name:8": "炼狱之泪"
     }
   },
   "questID:3": 1799610165,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests list good sources of XP for enchanting, and for cheeky last stand builds.",
+      "desc:8": "§7§o以下任务展示了一些可用于附魔、供屹立不倒魔咒消耗的经验获取方法。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "All of the Experience"
+      "name:8": "经验手册"
     }
   },
   "questID:3": 339187524,
