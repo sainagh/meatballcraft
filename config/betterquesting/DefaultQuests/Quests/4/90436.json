@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe extruder modules push mobs with a high force.",
+      "desc:8": "§7§o增加造桥模块 Mk1/2推动生物的力量。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 9,
         "id:8": "modularrouters:augment"
       },
-      "name:8": "Pushing Augment"
+      "name:8": "推动拓展"
     }
   },
   "questID:3": 90436,

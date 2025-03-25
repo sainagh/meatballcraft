@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWorks like an extruder MK1, but blocks or pattern of blocks can be specified from the module\u0027s GUI. It doesn\u0027t consume blocks from the modular router buffer.",
+      "desc:8": "§7§o与造桥模块 Mk1类似，但可按照模块GUI中模板设置放置模板方块。不消耗路由器缓存区的真实方块。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 11,
@@ -14,7 +14,7 @@
           "ModuleFilter:9": {}
         }
       },
-      "name:8": "Extruder Module Mk2"
+      "name:8": "造桥模块 Mk2"
     }
   },
   "questID:3": 90429,

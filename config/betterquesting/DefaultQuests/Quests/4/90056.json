@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe best storage option early game are crates!\n\nDanks and drawer walls can be used with storage buses to store large amounts of items!\n\nUse filing cabinets and junk storage units to store unstackable items!\n\nUse the ender library to store enchanted books!",
+      "desc:8": "§7§o游戏初期的最佳存储选项为板条箱！\n\nDank存储器和抽屉墙可与存储总线搭配以储存大批量物品！使用\n\n使用储物柜和杂物存储单元来储存不可堆叠物品！\n\n使用魔咒图书馆来储存附魔书！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Item Storage"
+      "name:8": "物品存储"
     }
   },
   "questID:3": 90056,

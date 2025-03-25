@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate works like the randomizer, but it will produce the same signal on all output sides, as opposed to different signals on all sides.",
+      "desc:8": "§7§o该逻辑门与随机信号发生器类似，但每次只会选择一个输出端输出红石信号，而不是分别选择所有输出端。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 33,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Dec Randomizer"
+      "name:8": "随机选择器"
     }
   },
   "questID:3": 90382,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDrawers are a cheap way of storing a lot of a single item. Upgrades can increase or decrease their capacity, and they allow for \u0027void excess\u0027 functionality.",
+      "desc:8": "§7§o抽屉是储存大量同种物品的廉价解决方案。可加装升级来增加或减少存储容量，还有具有“溢出销毁”功能的升级。",
       "icon:10": {
         "Count:3": 1,
         "OreDict:8": "drawerBasic",
@@ -13,7 +13,7 @@
           "material:8": "oak"
         }
       },
-      "name:8": "Any drawerBasic"
+      "name:8": "任意基础抽屉"
     }
   },
   "questID:3": 90058,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oA stack upgrade that works only on a specific module.",
+      "desc:8": "§7§o进对指定模块生效的堆叠升级。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 6,
         "id:8": "modularrouters:augment"
       },
-      "name:8": "Stack Augment"
+      "name:8": "堆叠拓展"
     }
   },
   "questID:3": 90433,

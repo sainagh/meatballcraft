@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate lets you control how a single output connects to two inputs.\n\nThe side with the taller torch is the output.\n\nThe side opposite to it is the control side.\n\nIf the control side is on, the gate will only trasfer signals from the side to the left of the control.\n\nIf the control side is off, the gate will only transfer signals from the side to the right of the control.\n\n",
+      "desc:8": "§7§o该逻辑门允许控制单个输出与两个输入的连接方式。\n\n带有较高火把的一侧是输出端。\n\n与输出端相对的一侧是控制端。\n\n当控制端激活时，仅会传递控制端左侧的信号。\n\n当控制端未激活时，仅会传递控制端右侧的信号。\n\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 8,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Multiplexer"
+      "name:8": "多路复用器"
     }
   },
   "questID:3": 90365,

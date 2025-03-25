@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe vacuum module can collect XP.",
+      "desc:8": "§7§o使虚空模块能收集经验。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 7,
         "id:8": "modularrouters:augment"
       },
-      "name:8": "XP Vacuum Augment"
+      "name:8": "经验吸收拓展"
     }
   },
   "questID:3": 90434,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse the laser wrench to link lasers together.\nUse a compass to change mode!",
+      "desc:8": "§7§o使用中继器扳手连接激光中继器。\n使用指南针改变模式！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_laser_relay_extreme"
       },
-      "name:8": "Extreme Energy Laser Relay"
+      "name:8": "超级能量激光中继器"
     }
   },
   "questID:3": 90274,

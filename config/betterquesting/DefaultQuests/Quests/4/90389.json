@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSenda random colored signals to a budled cable.",
+      "desc:8": "§7§o向集束线缆输出随机颜色信号。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 28,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Bus Randomizer"
+      "name:8": "总线随机发生器"
     }
   },
   "questID:3": 90389,

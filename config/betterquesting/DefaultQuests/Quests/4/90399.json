@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo filter lots of things at once.",
+      "desc:8": "§7§o大容量的过滤名单。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularrouters:filter"
       },
-      "name:8": "Bulk Item Filter"
+      "name:8": "批量物品过滤名单"
     }
   },
   "questID:3": 90399,

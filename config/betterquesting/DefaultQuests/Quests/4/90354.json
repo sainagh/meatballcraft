@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBundled cables let you transmit multiple colors of insulated wires in the same line, both in wire and framed wire version!\n\nIf you connect two or more colors of insulated wires to the same bundled cable, each color will be transmitted independently with no interference!\n",
+      "desc:8": "§7§o集束线缆可在同一线路中传输多种颜色的绝缘线缆，而且同样有框架版本！\n\n若将两种或两种以上颜色的绝缘线缆连接到同一集束线缆，每种颜色都可互不影响地独立传输！\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 17,
         "OreDict:8": "projredBundledCable",
         "id:8": "projectred-transmission:wire"
       },
-      "name:8": "Bundled Cable"
+      "name:8": "集束线缆"
     }
   },
   "questID:3": 90354,

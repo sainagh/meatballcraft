@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSaws from forge microblocks let you cut any solid blocks into smaller versions.\n\nStrips can be used to separate multiple lines of red alloy wire!",
+      "desc:8": "§7§oForge Microblocks模组的手锯可将任意固体方块切割为更小的版本。\n\n条状方块可用于分隔多条红色合金丝！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "microblockcbe:saw_stone"
       },
-      "name:8": "Strips"
+      "name:8": "手锯"
     }
   },
   "questID:3": 1392,

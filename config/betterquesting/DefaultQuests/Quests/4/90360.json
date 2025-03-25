@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRight click with a screwdriver to change what sides count as outputs.\n\none input \u003d one output\noff \u003d on\non \u003d off",
+      "desc:8": "§7§o使用螺丝刀右击改变输出端方向。\n\n一个输入 \u003d 一个输出\n0 \u003d 1\n1 \u003d 0",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "NOT Gate"
+      "name:8": "非门"
     }
   },
   "questID:3": 90360,

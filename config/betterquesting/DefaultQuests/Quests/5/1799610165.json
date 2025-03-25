@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o消耗玩家物品栏中的煤炭、铁、青金石、金、钻石来生成经验\n\n按住Shift右击来激活物品，右击将绑定物品",
+      "desc:8": "§7§o消耗玩家物品栏中的煤炭、铁、青金石、金、钻石来生成经验\n\nShift右击以激活物品，右击将绑定物品",
       "icon:10": {
         "Count:3": 1,
         "id:8": "xreliquary:infernal_tear"

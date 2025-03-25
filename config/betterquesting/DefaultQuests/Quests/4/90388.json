@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate lets you place down crossing redstone lines.\n\nYes, that\u0027s it!",
+      "desc:8": "§7§o该门电路可充当交叉且互不影响的红石线路。\n\n对， 就这！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 23,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Null Cell"
+      "name:8": "空单元"
     }
   },
   "questID:3": 90388,

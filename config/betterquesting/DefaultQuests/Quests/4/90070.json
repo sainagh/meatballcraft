@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oController slaves can be used to connect parts of a drawer network for additional inputs and outputs.",
+      "desc:8": "§7§o控制器传动方块可作为抽屉网络的额外输入输出端口。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "storagedrawers:controllerslave"
       },
-      "name:8": "Controller Slave"
+      "name:8": "控制器传动方块"
     }
   },
   "questID:3": 90070,

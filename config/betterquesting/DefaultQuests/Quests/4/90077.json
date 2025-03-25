@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Alchemical chests are a fairly cheap but powerful storage option.",
+      "desc:8": "炼金术箱子是一种廉价但强大的存储方案。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:alchemical_chest"
       },
-      "name:8": "Alchemical Chest"
+      "name:8": "炼金术箱子"
     }
   },
   "questID:3": 90077,

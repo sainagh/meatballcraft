@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCan be upgraded to increase its internal buffer. It can also accept holding.\n\nBase: 20 buckets\nHardened: 80 buckets\nReinforced: 180 buckets\nResonant: 500 buckets",
+      "desc:8": "§7§o可升级以扩大内部缓存。还可附加扩容魔咒。\n\n基础：20桶\n硬化：80桶\n强化：180桶\n信素：320桶\n谐振：500桶",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermalexpansion:tank",
@@ -13,7 +13,7 @@
           "RSControl:1": 0
         }
       },
-      "name:8": "Portable Tank"
+      "name:8": "便携储罐"
     }
   },
   "questID:3": 90082,

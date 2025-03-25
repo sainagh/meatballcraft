@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPrevents damage from bosses and explosions. ",
+      "desc:8": "§7§o阻挡来自Boss和爆炸的伤害。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 7,
         "id:8": "modularrouters:upgrade"
       },
-      "name:8": "Blast Upgrade"
+      "name:8": "爆炸升级"
     }
   },
   "questID:3": 90431,

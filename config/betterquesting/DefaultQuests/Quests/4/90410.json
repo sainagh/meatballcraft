@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAllows to send or receive fluids, if a fluid container module is present.",
+      "desc:8": "§7§o路由器缓存区中存在流体容器时，可传输或接收流体。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 14,
@@ -16,7 +16,7 @@
           "ModuleFilter:9": {}
         }
       },
-      "name:8": "Fluid Screen Module"
+      "name:8": "流体模块"
     }
   },
   "questID:3": 90410,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe timer will produce a pulse of redstone at configurable intervals, which can be configured by right clicking.\n\nTimers are tuned off with a redstone signal.\n\nTimers can get laggy if they run constantly, so make sure to incorporate some sort of control to turn them off!",
+      "desc:8": "§7§o计时器能以所配置的间隔发出红石脉冲，右击进行设置。\n\n计时器可由红石信号禁用。\n\n若长时间连续不断运行，计时器可能会变慢，所以确保使用某种控制机制来定时禁用！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 17,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Timer"
+      "name:8": "计时器"
     }
   },
   "questID:3": 90364,
