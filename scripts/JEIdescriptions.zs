@@ -2646,7 +2646,7 @@ mods.jei.JEI.addDescription([<deepmoblearning:simulation_chamber>, <deepmoblearn
     "",
     "模拟室需要配置为特定生物的数据模型才能工作。",
     "",
-    "要配置模型，需要在深度学习器种放入所需生物的数据模型。然后，将深度学习器放入快捷栏，击杀特定数量的对应生物来激活模型。",
+    "要配置模型，需要在深度学习器中放入所需生物的数据模型。然后，将深度学习器放入快捷栏，击杀特定数量的对应生物来激活模型。",
     "",
     "击杀的生物数量越多，模型等级越高。等级越高，工作效果越好。",
     "",
@@ -2655,7 +2655,7 @@ mods.jei.JEI.addDescription([<deepmoblearning:simulation_chamber>, <deepmoblearn
 
 mods.jei.JEI.addDescription([<deepmoblearningbm:digital_agonizer>,<deepmoblearningbm:altar_linker>],
 [
-    "数字化苦难之井是产出生命源质的有效手段。",
+    "数字化苦难之井是产出生命源质的高效手段。",
     "",
     "在血之祭坛旁放置数字化苦难之井，使用祭坛连接器将二者绑定。",
     "",
