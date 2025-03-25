@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWarning, these get way laggier if they transfer to more than one output!\n\nIf you want to transfer from one inventory to another at high speed, and the two are not directly next to each other, you should use these! \n\nPlace the transfer node on the inventory you want to pull from, and place transfer pipes to connect it to the inventory you want to push to.\n\nYou should not use filters, they make things laggier!",
+      "desc:8": "§7§o警告：若存在多个输出端口，会变得很卡！\n\n需要在非相邻的容器间高速传输物品时，应选用此方案！\n\n将传输节点放置在需要抽取物品的容器上，传输管道连接到物品传输的目标容器。\n\n不要使用过滤器，会导致延迟！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:grocket"
       },
-      "name:8": "Transfer Nodes"
+      "name:8": "传输节点"
     }
   },
   "questID:3": 1178,

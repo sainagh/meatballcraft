@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests explain ways to automatically place down larger combinations of blocks.\n\nSome automations will require these tools in some way.",
+      "desc:8": "§7§o以下任务将介绍如何自动放置大型方块组合。\n\n某些自动化可能会需要这些工具。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Placing Down Structures"
+      "name:8": "放置结构"
     }
   },
   "questID:3": 198005667,

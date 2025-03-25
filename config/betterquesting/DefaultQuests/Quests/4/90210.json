@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAutomatically places fluids from its internal buffer.",
+      "desc:8": "§7§o从内部缓存中自动放置流体。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_fluid_placer"
       },
-      "name:8": "Fluid Placer"
+      "name:8": "流体成型器"
     }
   },
   "questID:3": 90210,

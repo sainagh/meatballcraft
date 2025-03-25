@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThere are many fluid transfer systems. All options are shown here!\n\nEnderIO ender fluid conduits are the most versatile, and share blockpace with other conduits!\n\nFluiducts are good for performance!\n\nLasers have the fastest fluid transfer!\n\nEnder tanks let you transfer fluids wirelessly!\n\n",
+      "desc:8": "§7§o流体传输系统有很多。此处列出了所有可选方案！\n\n末影接口模组的末影流体导管泛用性最广，并且能和其他类型导管共用方块空间！\n\n热力模组的流体管道优化很好！\n\n流体激光中继器有最快的传输速度！\n\n末影蓄水槽可用于无线传输流体！\n\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Fluid Management"
+      "name:8": "流体管理"
     }
   },
   "questID:3": 90228,
@@ -33,7 +33,7 @@
                   "id:8": "actuallyadditions:block_laser_relay_fluids",
                   "tag:10": {
                     "display:10": {
-                      "Name:8": "Speed: Great, Performance: Good"
+                      "Name:8": "速度：优异；优化：良好"
                     }
                   }
                 },
@@ -44,7 +44,7 @@
                   "id:8": "thermaldynamics:duct_16",
                   "tag:10": {
                     "display:10": {
-                      "Name:8": "Speed: Good, Performance: Good"
+                      "Name:8": "速度：良好；优化：良好"
                     }
                   }
                 },
@@ -55,7 +55,7 @@
                   "id:8": "enderio:item_liquid_conduit",
                   "tag:10": {
                     "display:10": {
-                      "Name:8": "Speed: Good, Performance: OK"
+                      "Name:8": "速度：良好；优化：一般"
                     }
                   }
                 },
@@ -66,7 +66,7 @@
                   "id:8": "enderio:item_liquid_conduit",
                   "tag:10": {
                     "display:10": {
-                      "Name:8": "Speed: Good, Performance: Good"
+                      "Name:8": "速度：良好；优化：良好"
                     }
                   }
                 }

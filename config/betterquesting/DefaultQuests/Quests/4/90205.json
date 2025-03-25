@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCounts entities of the specified type (including specific items) within the specified range, outputs a redstone signal accordingly.",
+      "desc:8": "§7§o统计指定范围内指定类型的实体（包括特定物品），并输出对应的红石信号",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "draconicevolution:entity_detector"
       },
-      "name:8": "Advanced Entity Detector"
+      "name:8": "高级实体探测器"
     }
   },
   "questID:3": 90205,

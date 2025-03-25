@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCollects items at a distance.",
+      "desc:8": "§7§o范围收集物品。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_ranged_collector"
       },
-      "name:8": "Ranged Collector"
+      "name:8": "物品收集器"
     }
   },
   "questID:3": 90213,

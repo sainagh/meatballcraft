@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBind to a blockspace to receive redstone inputs at a distance.",
+      "desc:8": "§7§o与方块空间绑定以远程接收红石信号。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_phantom_redstoneface"
       },
-      "name:8": "Phantom Redstoneface"
+      "name:8": "幻灵红石接口"
     }
   },
   "questID:3": 90207,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBreaks blocks into a specific block space at a distance.",
+      "desc:8": "§7§o远距离破坏指定位置的方块。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_phantom_breaker"
       },
-      "name:8": "Phantom Breaker"
+      "name:8": "幻灵方块破坏器"
     }
   },
   "questID:3": 90202,

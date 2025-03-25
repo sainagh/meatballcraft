@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEnder fluid conduits can transport multiple fluids at once!\n\n不同种类的导管共用相同的方块空间，因此非常适用于紧密布局的自动化！\n\nTo configure a conduit, right click a connection with an empty hand, or shift left click using the crescent hammer!\n\nConduits have separate channels, corresponding to the 16 colors in vanilla minecraft! Channels with the same colors will be connected to each other. You can have multiple channels going through the same conduit lines!\n\nInputs and outputs can be configured using filters, and speed upgrades! All available filters will show up in JEI when searching for \u0027conduit\u0027!",
+      "desc:8": "§7§o末影流体导管可一次性传输多种流体！\n\n不同种类的导管共用相同的方块空间，因此非常适用于紧密布局的自动化！\n\n空手右击导管连接面，或使用新月锤Shift左击导管来进行配置！\n\n导管有对应原版16色的频道系统！相同颜色的频道会互相连接。同一条管线内可同时使用多种频道！\n\n输入和输出均可通过过滤器设置过滤选项，还可加装速度升级！可在JEI中搜索“导管”以查看所有过滤器！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "enderio:item_liquid_conduit"
       },
-      "name:8": "Ender Fluid Conduit"
+      "name:8": "末影流体导管"
     }
   },
   "questID:3": 90224,

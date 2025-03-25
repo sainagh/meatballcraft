@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThese can filter by damage vale, NBT, ore dictionary entry, and mod!\n\nFaster and bigger whitelist/blacklist!\n",
+      "desc:8": "§7§o可按耐久度、NBT、矿物词典以及模组过滤！\n\n速度更快，白名单/黑名单更大！\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "thermaldynamics:servo"
       },
-      "name:8": "Signalum Servo"
+      "name:8": "信素伺服器"
     }
   },
   "questID:3": 90255,

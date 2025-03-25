@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace two tesslocators in the same block space to transfer energy between them.\n\nOrange: output\nBlue: input\n\nAdd glowstone to incerase speed.\nAdd diamond to transfer fullstacks instead of items.\nWith max upgrades, tesslocators are one of the fastest item transfer in the pack!",
+      "desc:8": "§7§o在同一方块空间内放置两个超转运体来在二者间传输物品。\n\n橙色：输出\n蓝色：输入\n\n放入荧石来增加速度。\n放入钻石增加每次传输物品的数量。\n在满升级状态下，超转运体是本整合包中最快的物品传输手段之一！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tesslocator:basic_item_tesslocator"
       },
-      "name:8": "Basic Item Tesslocator"
+      "name:8": "基础物品超转运体"
     }
   },
   "questID:3": 90234,

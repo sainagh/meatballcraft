@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o你应当使用这些手段来管理能量网络，无线传输能量！\n\nYou should use flux networks to manage your base from chapter 2 onwards!",
+      "desc:8": "§7§o你应当使用这些手段来管理能量网络，无线传输能量！\n\n从第2章起，应当使用通量网络管理基地的能量！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:purple_blaze"

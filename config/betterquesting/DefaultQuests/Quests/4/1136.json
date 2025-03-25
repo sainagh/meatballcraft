@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBuildcraft pipes are an available option, but they are quite unoptimized, so they are discouraged.\n\nYou will have to use them in Vethea, though (chapter 7).",
+      "desc:8": "§7§o建筑（BC）模组的管道确实能用，但是优化很差，因此不推荐使用。\n\n不过在梦魇世界（第7章），你没得选。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:teaker_lump"
       },
-      "name:8": "Not Buildcraft"
+      "name:8": "别用BC"
     }
   },
   "questID:3": 1136,

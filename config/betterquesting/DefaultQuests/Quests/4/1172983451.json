@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAfter copying a given structure, the Copy-Paste gadget works with a Mechanical User.\n\nThis works with relatively small structures, and it cannot place some blocks because of a mod limitation.",
+      "desc:8": "§7§o复制选定结构后，复制-粘贴小帮手可与使用者搭配。\n\n这项组合使用放置相对较小的结构，而且有时模组限制，部分方块无法放置。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "buildinggadgets:exchangertool",
@@ -14,7 +14,7 @@
           }
         }
       },
-      "name:8": "Mechanical Copy-Pasting"
+      "name:8": "自动复制-粘贴"
     }
   },
   "questID:3": 1172983451,

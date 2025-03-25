@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThese are machines that can be used to iteract with the world!\n\nThe mechanical user is the most versatile and customizable clicker!\n\nThe ranged collector is the best vacuum hopper for performance!",
+      "desc:8": "§7§o这些机器可与世界交互！\n\n使用者是泛用性最广的自定义连点器！\n\n实用拓展模组的物品收集器是优化最好的真空漏斗！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Interaction Machines"
+      "name:8": "交互用机器"
     }
   },
   "questID:3": 90196,
