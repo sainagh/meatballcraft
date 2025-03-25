@@ -2125,7 +2125,7 @@
 
 <contenttweaker:fiery_pyrite>.addTooltip(format.red("也可通过使用对应维度的尖晶石作为祭品的坠星位标仪式获得，适用于#无EMC挑战"));
 
-<contenttweaker:helpful_tippy_hat>.addTooltip(format.red("本包的许多设计都与众不同……"));
+<contenttweaker:helpful_tippy_hat>.addTooltip(format.red("本整合包的许多设计都与众不同……"));
 <contenttweaker:helpful_tippy_hat>.addTooltip(format.red("请仔细阅读任务书和信息框中的内容！"));
 <contenttweaker:helpful_tippy_hat>.addTooltip(format.red("对，老手也不例外！"));
 
