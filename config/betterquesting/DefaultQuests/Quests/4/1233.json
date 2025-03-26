@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests show the tools used to automate recipes with fluids.\n\nIn general (with the exception of things like the ME mythic assembler multiblocks), you should not autocraft with fluids, it\u0027s bad for lag.\n\nIt\u0027s way better to set up fluids passively.\n\nYou can and will still use these tools, but try to limit yourself!",
+      "desc:8": "§7§o以下任务将展示用于流体自动化配方的工具。\n\n通常情况下（除了类似ME神话装配室这类多方块结构），不建议对流体进行自动合成操作，极易导致延迟问题。\n\n最好是被动生产流体。\n\n你当然可以继续使用这些工具，但尽量节制使用！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:water_bucket"
       },
-      "name:8": "Fluid Crafting"
+      "name:8": "流体合成"
     }
   },
   "questID:3": 1233,

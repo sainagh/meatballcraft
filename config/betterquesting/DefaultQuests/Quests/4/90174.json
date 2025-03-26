@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBig energy cell!",
+      "desc:8": "§7§o大型能源元件！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:dense_energy_cell",
         "tag:10": {}
       },
-      "name:8": "Dense Energy Cell"
+      "name:8": "致密能源元件"
     }
   },
   "questID:3": 90174,

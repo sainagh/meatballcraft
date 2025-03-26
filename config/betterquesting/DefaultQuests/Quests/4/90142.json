@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSmart cables can carry up to 8 channels, and they display how many are being used.",
+      "desc:8": "§7§o智能线缆至多可传输8个频道，并且能显示其传输的频道数。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 56,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "ME Smart Cable - Fluix"
+      "name:8": "ME智能线缆 - 福鲁伊克斯色"
     }
   },
   "questID:3": 90142,

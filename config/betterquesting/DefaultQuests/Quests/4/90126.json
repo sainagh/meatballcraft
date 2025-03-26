@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe fuzzy card adds the ability to move multiple variants of an item (EG different copper ingots) through a bus.",
+      "desc:8": "§7§o模糊卡可使总线忽略过滤物品的耐久/NBT。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 29,
         "id:8": "appliedenergistics2:material"
       },
-      "name:8": "Fuzzy Card"
+      "name:8": "模糊卡"
     }
   },
   "questID:3": 90126,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe interface terminal lets you access all of the interfaces in your ME network.\n\nYou can use this terminal to place patterns into interfaces!\n\nIf you name your interfaces, you can search them by name!",
+      "desc:8": "§7§oME接口终端可查看ME网络中的所有接口！\n\n可以从该终端中直接把样板放入接口！\n\n若为接口重命名，则可直接搜索其名称！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 480,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "ME Interface Terminal"
+      "name:8": "ME接口终端"
     }
   },
   "questID:3": 90178,

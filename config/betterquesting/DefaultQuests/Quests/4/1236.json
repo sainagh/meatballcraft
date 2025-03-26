@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests show the ways to store items/fluids in your AE2 network as a storage system.\n\nTo store general items, you can use the ME drive with storage cells.\n\nTo store items that are being automated passively, you should use storage buses on drawer walls or danks!",
+      "desc:8": "§7§o以下任务将展示在AE网络中存储物品/流体的方法。\n\n对于常规物品存储，可使用装有存储元件的ME驱动器。\n\n对于被动产线输出的物品存储，应当使用连接到抽屉墙或Dank存储器的存储总线！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extracells:storage.casing"
       },
-      "name:8": "Storage!"
+      "name:8": "存储！"
     }
   },
   "questID:3": 1236,

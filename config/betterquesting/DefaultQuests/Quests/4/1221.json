@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIn applied energistics, cables let you transfer channels and energy to the various buses and machines used by AE2.",
+      "desc:8": "§7§o线缆可为AE2的各种总线和设备传输频道和能量。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "techreborn:cable"
       },
-      "name:8": "Network Cables"
+      "name:8": "网络线缆"
     }
   },
   "questID:3": 1221,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe AE2 network requires an internal buffer to run smoothly, make sure you have enough energy cells in your network if it starts flickering!",
+      "desc:8": "§7§oAE2网络需要内部能量缓存以平稳运行，确保网络中有足够的能源元件以防止网络抖动！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "woot:cell"
       },
-      "name:8": "Energy Storage"
+      "name:8": "能量存储"
     }
   },
   "questID:3": 1222,

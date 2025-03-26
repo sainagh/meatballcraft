@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe automation interface is not recommended for autocrafting, but it is a cheap option.\n\nUsing package crafters is recommended!\n\nPlace the automation upgrade on top of any extended crafting table to encode a single recipe for automation.\n\nIf placed adjacent to an unpackager that has been configured with the same recipe (you will need a packager too), the recipe can be automated similarly.",
+      "desc:8": "§7§o不推荐使用自动化接口进行自动合成，但也算是个廉价的选项。\n\n推荐使用封包合成器！\n\n将自动化接口放置在任意合成拓展模组的工作台上，编码单个配方用于自动化。\n\n若与配置了相同配方的解包机相邻放置，配方就可实现类似的自动化流程。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extendedcrafting:interface"
       },
-      "name:8": "Automation Interface"
+      "name:8": "自动化接口"
     }
   },
   "questID:3": 90138,

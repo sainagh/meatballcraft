@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWorks like the crafting terminal, but it\u0027s an arcane workbench!",
+      "desc:8": "§7§o与合成终端类似，但使用的是奥术工作台！Works like the crafting terminal, but it\u0027s an arcane workbench!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicenergistics:arcane_terminal"
       },
-      "name:8": "Arcane Crafting Terminal"
+      "name:8": "奥术合成终端"
     }
   },
   "questID:3": 90179,

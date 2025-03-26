@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFluid version of the extended pattern terminal!",
+      "desc:8": "§7§o流体版本的增广样板终端！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ae2fc:part_fluid_pattern_ex_terminal"
       },
-      "name:8": "ME Extended Processing Fluid Pattern terminal"
+      "name:8": "ME增广流体样板终端"
     }
   },
   "questID:3": 1240,

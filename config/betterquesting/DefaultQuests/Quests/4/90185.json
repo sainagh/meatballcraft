@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe extended processing pattern terminal works like a pattern terminal, but has 16 inputs and 3 output slots!",
+      "desc:8": "§7§o增广样板终端与样板终端类似，但拥有16个输入槽和3个输出槽！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 341,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "ME Extended Processing Pattern Terminal"
+      "name:8": "ME增广样板终端"
     }
   },
   "questID:3": 90185,

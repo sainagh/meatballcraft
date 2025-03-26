@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oA crafting monitor can be placed in a crafting processing unit multiblock to display the task that\u0027s being performed.",
+      "desc:8": "§7§o合成监控器可作为合成处理单元的构成方块，以显示单元当前执行的自动合成任务。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:crafting_monitor"
       },
-      "name:8": "Crafting Monitor"
+      "name:8": "合成监控器"
     }
   },
   "questID:3": 1242,

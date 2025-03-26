@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDense cables that can fit in the same block space as other conduits.\n\nGood for compactness!",
+      "desc:8": "§7§o可与其他种类导管共用同一方块空间的致密线缆。\n\n非常适合紧凑型设计！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "enderio:item_me_conduit"
       },
-      "name:8": "Dense ME Conduit"
+      "name:8": "ME致密导管"
     }
   },
   "questID:3": 90146,

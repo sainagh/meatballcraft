@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oExposes the ENTIRETY of your AE2 network\u0027s contents to item or fluid transfer.\n\nIf not filtered, these can be quite laggy, but they can be used for subnetting.",
+      "desc:8": "§7§o将AE网络中的所有内容暴露出来用于物品或流体传输。\n\n若不进行过滤，会造成严重卡顿，但很适合用于子网构建。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nae2:exposer"
       },
-      "name:8": "ME Storage Exposer"
+      "name:8": "ME存储公开器"
     }
   },
   "questID:3": 775629365,

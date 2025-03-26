@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWorks like a molecular assembler, where inputs such as filled buckets will be treated directly as fluids.",
+      "desc:8": "§7§o与分子装配室类似，输入物品（如装填有流体的桶）将直接被视为流体进行处理。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extracells:fluidcrafter"
       },
-      "name:8": "ME Fluid Assembler"
+      "name:8": "ME流体装配室"
     }
   },
   "questID:3": 90151,

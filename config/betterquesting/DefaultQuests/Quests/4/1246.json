@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can place multiple packager extensions around a packager (up to eight) to parallelize recipes and faster processing.",
+      "desc:8": "§7§o可环绕封包机放置多个封包拓展器（最多26个）以并行处理配方，提高处理速度！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "packagedauto:packager_extension"
       },
-      "name:8": "Packager Extension"
+      "name:8": "封包拓展器"
     }
   },
   "questID:3": 1246,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe use of this bus is discouraged!\n\nThe level mantainer will keep a set amount of certain items and fluids in storage, acts as multiple crafting cards in one. ",
+      "desc:8": "§7§o不推荐使用该设备！\n\n缓存指令器可将网络中的指定物品和流体维持在指定数量，其功能相当于将多个制作卡片整合于一体。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "threng:machine"
       },
-      "name:8": "ME Level Mantainer"
+      "name:8": "ME缓存指令器"
     }
   },
   "questID:3": 856,
