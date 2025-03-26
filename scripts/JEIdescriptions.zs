@@ -1039,7 +1039,7 @@ mods.jei.JEI.addDescription(<appliedenergistics2:part:480>,
 [
     "ME接口终端可查看网络中的所有接口！",
     "",
-    "每个接口都可重命名，可以从该终端中直接把样板放入终端！"
+    "每个接口都可重命名，可以从该终端中直接把样板放入接口！"
 ]);
 
 mods.jei.JEI.addDescription(<appliedenergistics2:part:520>,
