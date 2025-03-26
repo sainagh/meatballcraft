@@ -3242,9 +3242,9 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:astral_animator>.addTooltip(format.red("发现于地方界"));
 
-<contenttweaker:astral_animator>.addTooltip(format.red("与正确的灵魂瓶（8个）结合，地平界将指引你！"));
+<contenttweaker:astral_animator>.addTooltip(format.red("与正确的灵魂瓶（4个）结合，地平界将指引你！"));
 
-<contenttweaker:mark_of_the_arbiter>.addTooltip(format.red("将星辉活化器与正确的灵魂瓶（8个）结合，地平界将指引你！"));
+<contenttweaker:mark_of_the_arbiter>.addTooltip(format.red("将星辉活化器与正确的灵魂瓶（4个）结合，地平界将指引你！"));
 
 <packagedauto:packager>.addTooltip(format.red("要设置自动合成，使用以下流程：ME线缆 > 封包机 > 解包机 > 封包合成器或其他机器，消耗2个频道"));
 <packagedauto:unpackager>.addTooltip(format.red("要设置自动合成，使用以下流程：ME线缆 > 封包机 > 解包机 > 封包合成器或其他机器，消耗2个频道"));
