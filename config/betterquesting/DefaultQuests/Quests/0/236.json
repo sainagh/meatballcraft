@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCraft the two parts of the altar of cha\u0027garoth and right click in dreadland mountains at y\u003d40.\n\n§f6 dimensions of space arent enough, in order to fully grasp these creatures I needed to gain access to more dimensions.\nLuckily, at the cheap cheap cost of feeling the most depressing nihilism in my entire existance, I can now delve deeper...\nI need to know more about my \u0027curse\u0027, and I finally have a lead!\nIn this dreaded lands, a creature of unspeakable evil whispered a word, that shook me like nothing ever had.\nA single word, Recursion...",
+      "desc:8": "§7§o在恐惧之地维度的恐惧之地山脉群系（Dreadland Mountains）Y\u003d40处放置查伽洛斯祭坛，右击激活。\n\n§f6个维度还不够，为了彻底理解这些生物，我必须前往更多维度。\n幸运的是，仅仅付出感受此生最强烈虚无主义的低廉代价，现在我能更深入探索了……\n我必须了解我身上这个“诅咒”的真相，而现在终于找到了突破口！\n在这片被诅咒之地，某个不可名状的邪恶存在低语着某个词，带给我远超任何事物的震撼。\n那个词就是——递归……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:dreadkey"
       },
-      "name:8": "Dread-plagued Gateway Key"
+      "name:8": "恐惧疫染的门钥匙"
     }
   },
   "questID:3": 236,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "abyssalcraft:dreadkey"
             },
-            "TrophyName:8": "Dreadful Slayer",
+            "TrophyName:8": "恐惧屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

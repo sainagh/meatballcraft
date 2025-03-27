@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThese are all of the available automatic crafters!\n\nThe best for performance is the sequential fabricator.\n\nThe fastest is the RFTools crafter. For extra speed, you can set each recipe slot with the same recipe!",
+      "desc:8": "§7§o此处列出了所有可用的自动合成器！\n\n循环装配台的优化最好。\n\nRFTools模组的自动合成机速度最快。可配置多个相同配方来进一步提高速度！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Automatic Crafter"
+      "name:8": "自动合成器"
     }
   },
   "questID:3": 90342,

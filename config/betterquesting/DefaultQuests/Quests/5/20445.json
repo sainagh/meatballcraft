@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Thanks to the power of entropy manipulation, I can build one-block mobfarms with extremely high rates!",
+      "desc:8": "感谢熵变操控的力量，我得以制作效率极高的单方块刷怪场！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tinymobfarm:ultimate_farm"
       },
-      "name:8": "ULTIMATE Mob Farm"
+      "name:8": "终极生物农场"
     }
   },
   "questID:3": 20445,
