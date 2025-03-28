@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o自动放置方块，并将其存入内部缓存。",
+      "desc:8": "§7§o自动破坏方块，并将其存入内部缓存。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_breaker"

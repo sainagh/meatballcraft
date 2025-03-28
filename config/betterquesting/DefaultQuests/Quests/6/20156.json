@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe mana pool transforms items that are dropped in it consuming some mana.\n\nIt is also the main way to store mana, which can be transferred using sparks or mana spreaders.\n\n",
+      "desc:8": "§7§o魔力池能消耗魔力转换丢入其中的物品。\n\n它是储存魔力的主要手段，可使用火花或魔力发射器传输魔力。\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:pool"
       },
-      "name:8": "Mana Pool"
+      "name:8": "魔力池"
     }
   },
   "questID:3": 20156,

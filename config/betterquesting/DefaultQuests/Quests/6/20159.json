@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMana spreaders are used to transfer mana between mana sources or containers.\n\nThe wand of the forest is used to bind generating flora to a spreader. Make sure the wand is in bind mode. Shift + right click on flower first, then shift + right click the spreader.\n\nThe wand of the forest is used to bind the spreader to a mana pool. Shift + right click on spreader first, then shift + right click the pool.\n\nIf a mana spreader is directly adjacent to a mana pool, there is no need to bind them. The adjacent mana pool will be emptied by the spreader if it has another target.",
+      "desc:8": "§7§o魔力发射器用于在魔力源或魔力容器间传输魔力。\n\n森林法杖可将产魔花与魔力发射器绑定。确保法杖处于绑定模式。先对产魔花Shift右击，然后对魔力发射器Shift右击。\n\n若魔力发射器与魔力池相邻，二者间不需要绑定。魔力发射器会使用相邻魔力池中的魔力发射魔力脉冲。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:spreader"
       },
-      "name:8": "Mana Spreader"
+      "name:8": "魔力发射器"
     }
   },
   "questID:3": 20159,

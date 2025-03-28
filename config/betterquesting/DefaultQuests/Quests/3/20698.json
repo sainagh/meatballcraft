@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThese speed up the growth of fluix seeds.\n\nYou can place up to six of these around a block of water.\n\nThese require energy from an AE2 network. Early on you can use an energy acceptor and a few cables.\n\nYou should upgrade to the crystal growth chamber as soon as you get your first pure fluix crystal!",
+      "desc:8": "§7§o提高福鲁伊克斯种子的生长速度。\n\n可环绕水源方块最多放置6个。\n\n需要来自AE网络的能量。初始可使用能源接收器和一些线缆。\n\n在获得高纯福鲁伊克斯水晶后，应尽快升级为晶体催生仓！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:quartz_growth_accelerator"
       },
-      "name:8": "Crystal Growth Accelerator"
+      "name:8": "晶体催生器"
     }
   },
   "questID:3": 20698,

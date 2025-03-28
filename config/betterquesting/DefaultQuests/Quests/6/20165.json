@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo assemble the terrestrial agglomeration plate, make a diagonal x of livingrock, with lapis in the edges, and place the plate on top of the middle livingrock!\n\nThe plate receives mana from a spark placed on it! Mana spreaders will work, but they will be really slow!\n\nMake terrasteel by dropping a manasteel ingot, a mana diamond, and a mana pearl on the plate.",
+      "desc:8": "§7§o放置在3x3的基座中心，其中以X形放置5块活石，4块青金石块填补空隙！\n\n通过放置其上的火花接收魔力！魔力发射器也行，但是太慢了！\n\n在中心丢入一个魔力钢锭，一个魔力珍珠，以及一个魔力钻石来制作泰拉钢。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:terraplate"
       },
-      "name:8": "Terrestrial Aggomeration Plate"
+      "name:8": "泰拉凝聚板"
     }
   },
   "questID:3": 20165,
