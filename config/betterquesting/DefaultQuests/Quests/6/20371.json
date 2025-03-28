@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRight click while in the Dreadlands to open a portal to Omothol.",
+      "desc:8": "§7§o在恐惧之地右击以打开通往奥穆索的传送门。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:gatewaykeyjzh"
       },
-      "name:8": "Cha\u0027Garoth\u0027s R\u0027lyehian Gateway Key"
+      "name:8": "查伽洛斯的拉莱耶门钥匙"
     }
   },
   "questID:3": 20371,

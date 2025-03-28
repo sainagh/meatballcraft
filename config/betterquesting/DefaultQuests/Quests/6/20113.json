@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Necronomicon is the \u0027magic wand\u0027 of Abyssalcraft that lets you perform rituals and activate mechanics.\n\nThere are 5 tiers of Necronomicon, corresponding to each dimension in the mod. Specific rituals require specific tiers, so you should upgrade as soon as you enter a new Abyssalcraft dimension.\n\nTo run a Necronomicon needs Potential Energy (PE). This can be obtained through: \n\nAbyssalcraft Statues: you can place these in-world, and they will passively charge a Necronomicon held by a player or placed on a Charging Pedestal nearby. Statues can be organized in Places of Power so that they do not produce bad effects from being placed in world. Check the multiblock previews for Statues to see Places of Power.\n\nSacrificial altar: kill mobs around the altar to charge a Necronomicon held by a player or  placed on a Charging Pedestal nearby.\n\nNecronomibee: make Necronomicombs to craft fully charged Necronomicons. Use the Nomnomnomicon to recycle empty books.\n\nTo perform rituals, you need 9 cobblestone of a particular type depending on the tier required by the ritual. See the multiblock preview to see how they are placed. Right click the middle cobblestone with a Necronomicon to form the ritual structure. These can bug out, if they don\u0027t work, make sure the ritual is not on a chunk boundary, and relog.\n\nRitual Tiers:\nOverworld uses Vanilla Cobblestone\nAbyssal Wasteland uses Abyssal Cobblestone\nDreadlands uses Dreadstone Cobblestone\nOmothol uses Ethaxium Bricks\nDarklands uses Dark Ethaxium Bricks",
+      "desc:8": "§7§o死灵之书是深渊国度版的“法杖”，可用来进行仪式，激活机器。\n\n一共有5个级别的死灵之书，与模组内的各个维度对应。特定仪式存在等级要求，所以尽快前往模组的新维度。\n\n死灵之书需要位能（PE）来工作。可通过以下方式获得：\n\n雕像：放置在世界中，可为附近玩家手中或能量基座上的死灵之书被动充能。雕像可构成权力之地，以避免产生负面效果。查看雕像的多方块预览以了解权力之地。\n\n献祭祭坛：在祭坛周围杀死生物可为附近玩家手中或能量基座上的死灵之书充能。\n\n死灵书蜜蜂：使用死灵书蜂窝来完全充能死灵之书。使用吧唧之书来回收零充能的书\n\n要进行仪式，需要按仪式要求放置特定种类的圆石。查看多方块预览以了解如何放置。使用死灵之书右击中心的圆石来使仪式结构成型。可能会出bug，若未成形，确保仪式结构在同一区块，然后重新登陆。\n\n仪式等级：\n主世界，使用原版圆石\n深渊荒原，使用深渊圆石\n恐惧之地，使用恐惧圆石\n奥穆索，使用伊塞斯砖块\n黑暗领域，使用暗色伊塞斯砖块",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:necronomicon",
@@ -12,7 +12,7 @@
           "PotEnergy:5": 0.0
         }
       },
-      "name:8": "Necronomicon"
+      "name:8": "死灵之书"
     }
   },
   "questID:3": 20113,

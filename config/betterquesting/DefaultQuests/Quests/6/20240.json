@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is a multiblock version of the arcane workbench, to be used for automation!",
+      "desc:8": "§7§o多方块版本的奥术工作台，用于自动化！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:arcane_autoworkbench"
         }
       },
-      "name:8": "Arcane Autoworkbench"
+      "name:8": "自动奥术工作台"
     }
   },
   "questID:3": 20240,

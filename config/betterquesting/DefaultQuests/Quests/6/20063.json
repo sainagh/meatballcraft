@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Tome of Alkahestry allows you to duplicate certain items by using its own charge.\n\nJEI will provide info on what items can be used to charge this book, and what items can be duplicated with it.\n\nA crafter from RFTools in extC mode is a great way to automate this resource generation method.",
+      "desc:8": "§7§o万能溶剂之经能消耗自身充能复制特定物品。\n\nJEI中列出了可用于充能和复制的物品。\n\n设置为ExtC模式的自动合成机是自动化这种资源再生的绝佳方案。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1001,
         "id:8": "xreliquary:alkahestry_tome"
       },
-      "name:8": "Tome of Alkahestry"
+      "name:8": "万能溶剂之经"
     }
   },
   "questID:3": 20063,

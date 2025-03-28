@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEssentia is a magical fluid that can be created, moved, and consumed as part of many thaumcraft mechanics. While the crucible can be used to create essentia, it can only be used within those constraints.\n\nTo create essentia, you need an essentia smeltery, which works like a furnace that \u0027smelts\u0027 items into their essentia component (which can be seen in JEI).\nPlace arcane alembics on top of the smeltery to collect the output. If no alembics are present, flux will be made.\nThe higher the tier, the better the yield out of each item, and the least flux will be made each operation. Mithrillium tier and above make no flux.\n\nEssentia can be stored using phials, or using jars. Phials are like buckets, which can be used to move essentia between containers. Jars are like tanks, which can be placed in world. Labels can be used to filter jars to store only one type of essentia.\n\nTo transport essentia, there are pipes, but you should not use those. Instead, the filling and emptying essentia transfusers can be used to move essentia wirelessly.\nThe filling essentia transfuser is used as a machine output, and it automatically pushes essentia into jars.\nThe emptying essentia transfuser is used as a machine input, and it automatically pulls essentia out of jars.\n",
+      "desc:8": "§7§o源质是一种魔法流体，可作为许多神秘时代机制的一部分进行创造、移动以及消耗。尽管坩埚可以用于制作源质，但其制作的源质只能用于坩埚合成。\n\n要创造源质，需要源质冶炼厂，可以像熔炉那样把物品“烧炼”为其包含的源质（在JEI中查看）。\n在冶炼厂上方放置蒸馏器以收集输出的源质。若没有蒸馏器，则会产生咒波。\n冶炼厂的等级越高，物品产生的源质越多，每次操作产生的咒波越少。秘银及以上等级的冶炼厂不会产生咒波。\n\n可用安瓿或罐子来存储源质。安瓿类似桶，可用于在容器间移动源质。罐子类似储罐，可放置在世界中。标签可用于过滤罐子，使其只存储指定种类的源质。\n\n要传输源质，源质析出和注入装置可用于无线传输源质。当然也有源质管道，但最好别用。\n源质析出装置可作为机械的输出，自动将源质输出到罐子里。\n源质注入装置可作为机械的输入，自动从罐子里抽取源质。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:filter"
       },
-      "name:8": "Using Essentia"
+      "name:8": "使用源质"
     }
   },
   "questID:3": 1748,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBrass: 275",
+      "desc:8": "§7§o黄铜源质罐子：275",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumadditions:jar_brass"
       },
-      "name:8": "Brass Warded Jar"
+      "name:8": "黄铜源质罐子"
     }
   },
   "questID:3": 20396,

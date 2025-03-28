@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Apothecary Mortar and Cauldron can be used to produce potions.\n\nVarious ingredients can be placed in the Apothecary Mortar and groud through right clicking with an empty hand to produce potion essences.\n\nTo make a potion, fill the cauldron with water, drop nether wart or other ingredients into it (JEI will tell you what for each different essence), drop the desired potion essence, and collect the resulting fluid using Condensed Potion Vials.\n\nNot all possible potions are shown in JEI, some are hidden but can be found through other methods.",
+      "desc:8": "§7§o药师研钵与药师坩埚可用于酿造药水。\n\n研钵中可放入多种材料，空手右击可将研磨为药水精华。\n\n要酿造药水，将坩埚灌满水，丢入地狱疣或其他材料（JEI中显示了不同药水精华对应的材料），再丢入对应的药水精华，使用浓缩药水瓶收集产物。\n\nJEI中并未列出所有药水，有些被隐藏了，但可通过其他方式发现。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "xreliquary:apothecary_mortar"
       },
-      "name:8": "Apothecary Potions"
+      "name:8": "药师药水"
     }
   },
   "questID:3": 2284,

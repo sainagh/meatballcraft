@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCelestial crystals can be duplicated using liquid starlight.\n\nIf a celestial crystal is at max size (900) it has a chance of being split in two different crystals when dropped in liquid starlight. This will consume the bucket of starlight.\n\nThis process can be automated by using an auto-placer to keep a block space full of starlight, and by using an entity detector from cyclic to send a redstone signal to a collector when two entities (aka two crystals) are present in the designated block space.\n\nThe system can be set up to pick up only one of the two crystals, or to pick up both, and drop one of them back into the starlight.\n\n",
+      "desc:8": "§7§o天辉水晶石可使用星能液进行复制。\n\n若一块天辉水晶石达到最大尺寸（900），丢入星能液后就有概率分裂为两个不同的天辉水晶石。此过程会消耗星能液。\n\n使用方块放置器使单格空间内始终存在星能液，使用循环模组的实体检测器，使其在上述空间内检测到两个实体（也就是两个水晶石）时，向收集器发出红石信号。\n\n该系统可被设置为只拾取一个水晶石，或两个都拾取然后将其中之一丢入星能液中。\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "astralsorcery.liquidstarlight"
         }
       },
-      "name:8": "Farming Celestial Crystals"
+      "name:8": "天辉水晶石自动化"
     }
   },
   "questID:3": 1355,

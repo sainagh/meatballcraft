@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is a rare underground ore. They are always found near bedrock.\n\nHolding a resonating wand at night on the surface will illuminate the regions where crystals are located with white particles.\n\n",
+      "desc:8": "§7§o这是一种稀有的地底矿物。总是在基岩层附近生成。\n\n夜晚手持共振星杖时，有水晶石矿石的区域，其地表会发出白色的粒子效果\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:itemrockcrystalsimple",
@@ -20,7 +20,7 @@
           }
         }
       },
-      "name:8": "Rock Crystal"
+      "name:8": "水晶石"
     }
   },
   "questID:3": 20060,

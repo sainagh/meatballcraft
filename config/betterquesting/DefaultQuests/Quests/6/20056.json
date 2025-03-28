@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDefeating a crimson portal, which can be found in the overworld, will let you get this.\n\nIf you are progressing through thaumcraft without using the really scary vishroom, you will need this to unlock the eldritch section of the thaumonomicon.",
+      "desc:8": "§7§o击败主世界中发现的血腥传送门，便可获得该物品。\n\n如果在不使用惊怖纤毛菇的情况下游玩神秘时代模组，将需要该物品来解锁魔导手册的邪术学章节。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 6,
         "id:8": "thaumcraft:curio"
       },
-      "name:8": "Crimson Rites"
+      "name:8": "血腥仪式"
     }
   },
   "questID:3": 20056,

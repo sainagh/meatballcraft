@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAfter making an initial batch, the void seedling can be used to safely automate void seeds.",
+      "desc:8": "§7§o获取最初一批虚空种子之后，可使用虚空芽自动化安全获得虚空种子。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumadditions:void_seed"
       },
-      "name:8": "Void Farming"
+      "name:8": "种植虚空"
     }
   },
   "questID:3": 20228,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oImperfect rituals are structures that consist of an imperfect ritual stone with a block on top.\n\nDepending on the block, they do different things when right clicked with an empty hand.",
+      "desc:8": "§7§o不完善仪式由一个不完善的仪式石及其上方块构成。\n\n根据上方方块种类，空手右击不完善仪式石会造成不同效果。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "bloodmagic:ritual_controller"
       },
-      "name:8": "Imperfect Ritual Stone"
+      "name:8": "不完善的仪式石"
     }
   },
   "questID:3": 20100,

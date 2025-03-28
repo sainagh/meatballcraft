@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is used to obtain your first aspected will crystals.\n\nPlace a crystallizer on top of the master ritual stone to collect raw demon will.\n\nAfter the will crystal is fully grown, the ritual will slowly split it into crystals of the other types.\n",
+      "desc:8": "§7§o用于获得第一块特殊意志晶体。\n\n在主仪式石上放置恶魔结晶坛来收集原生恶魔意志。\n\n意志晶簇生长完全后，仪式会将其分裂为其他种类的晶簇。\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "bloodmagic:blood_rune"
       },
-      "name:8": "Resonance of the Faceted Crystal (Useful)"
+      "name:8": "结晶共鸣（实用）"
     }
   },
   "questID:3": 852,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEssentia storage cells can be used to store essentia with AE2.\n\nAlternatively, you can also use essentia storage buses on jars!\n\nThe essentia terminal will let you see what you have stored in your network!",
+      "desc:8": "§7§o源质存储元件可用于在AE网络中存储源质。\n此外，也可对源质罐子使用源质存储总线！\n\n源质终端可用于查看网络中储存的所有源质！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicenergistics:essentia_component_1k"
       },
-      "name:8": "Essentia Storage"
+      "name:8": "源质存储"
     }
   },
   "questID:3": 20216,

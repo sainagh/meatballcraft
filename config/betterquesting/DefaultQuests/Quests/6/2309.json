@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFurther reach",
+      "desc:8": "§7§o更长的触及范围。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "tombstone:scroll_buff"
       },
-      "name:8": "Reach"
+      "name:8": "触及"
     }
   },
   "questID:3": 2309,

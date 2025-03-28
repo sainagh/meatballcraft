@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAura is one of the main mechanics in thaumcraft.\n\nAura is magical energy used to craft using some of the blocks and items in the mod.\n\nEach chunk has a different aura level. Once it is depleted, it will slowly go back up to a maximum value that depends on seed.\n\nRegardless of your world, magical forest biomes have much higher aura levels than all other biomes.",
+      "desc:8": "§7§o灵气（Aura）是神秘时代的主要机制之一。\n\n灵气是用于本模组某些物品和方块的魔法能量。\n\n每个区块都有不同的灵气值。区块内灵气耗尽后，会随时间缓慢恢复至世界种子决定的最大值。\n\n不论什么存档，魔法森林（Magical Forest）群系的灵气值都比其他群系要高得多。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:master_spell_auram"
       },
-      "name:8": "A Powerful Aura"
+      "name:8": "强大灵气"
     }
   },
   "questID:3": 1747,

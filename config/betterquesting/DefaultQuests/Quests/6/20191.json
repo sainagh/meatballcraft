@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Golemancy is a strange branch of thaumaturgy. While being very cool on paper (just like rats), it often fails at delivering its promises.",
+      "desc:8": "傀儡学是神秘学的一个奇特分支。尽管理论上非常酷（就像老鼠模组那样），但在执行任务时常常会出问题。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:golem_bell"
       },
-      "name:8": "Golemancer\u0027s Bell"
+      "name:8": "傀儡使铃铛"
     }
   },
   "questID:3": 20191,

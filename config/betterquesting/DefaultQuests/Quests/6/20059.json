@@ -5,14 +5,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oProjecte is a resource generation mod focused around alchemy and the principle of equivalent exchange.\nAnything with Energy Matter Currency (EMC) can be transmuted into each other.\n\nIt provides powerful tools for convenience, resource generation, and player upgrades.\n\nThese quests will explain the mechanics of the mod and its addon ProjectEX.\n\n§fAlchemy is so cool!\nA lot of matter present in the universe, including light, has an \u0027Energy Matter Covalence\u0027 value, which is conserved, and that can be manipulated to convert items into other items, and to convert light into matter.",
+      "desc:8": "§7§o等价交换重制版是专注于炼金术和等价交换法则的资源生成类模组。\n任意含有能量物质共价性（EMC）的物品均可互相转化。\n\n它为玩家提供了强大的工具，旨在提升便利性、资源生成效率以及升级玩家能力。\n\n以下任务阐释了该模组及其附属模组等价交换升级的机制。\n\n§f炼金术太酷了！\n宇宙中存在的许多物质（包括光）都具有“能量物质共价性”这一守恒属性，通过操纵该属性，可实现物品间的相互转化，甚至将光转化为实体物质。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Equivalency"
+      "name:8": "等效性"
     }
   },
   "questID:3": 20059,

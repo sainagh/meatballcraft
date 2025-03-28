@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFlux in one of the core thaumcraft mechanics. \n\nFlux is similar to radiation, where each chunk has a certain flux level. If flux is too high, bad things will happen.\n\nThe thaumometer lets you see the flux levels in a given chunk (the dark purple bar). You can sneak to see the numerical value.\n\nFlux is created when a few things in thaumcraft are done:\n1. A crucible has excess essentia\n2. An essentia smeltery is processing items (mithrillium tier and above don\u0027t make flux)\n3. You fail an infusion craft\n\nThe ritual of eldritch will from blood magic will eliminate some flux and turn it into will.\n\nEventually, you will unlock ways of clearing flux efficiently.",
+      "desc:8": "§7§o咒波是神秘时代的核心机制之一。\n\n咒波与辐射类似，每个区块有特定的咒波值。若咒波过高，会发生不好的事情。\n\n使用魔导透镜可查看当前区块的咒波值（深紫色的条）。潜行以查看具体数值。\n\n在神秘时代中，以下事情发生时会产生咒波：\n1. 坩埚的源质溢出（使用石英碎片来防止）\n2. 源质冶炼厂处理物品（秘银及更高等级不会产生咒波）\n3. 注魔合成失败\n\n血魔法模组的邪术意志仪式可减少咒波并将其转化为恶魔意志。\n\n最终，你将解锁能高效清理咒波的方法。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "bloodmagic:ritual_stone"
       },
-      "name:8": "Flux is Dangerous!"
+      "name:8": "咒波很危险！"
     }
   },
   "questID:3": 20218,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis ritual works as a crafting mechanic. Place a blood altar on top of the master ritual stone, and eight stasis plates over the fire runes forming a \u0027circle\u0027 around the master ritual stone.\n\nJEI will show recipes made by this ritual. This includes stasis tools.",
+      "desc:8": "§7§o该仪式类似一种合成机制。在主仪式石上放置一个血之祭坛，并在以“环形”环绕主仪式石的8个火之仪式石上放置8个瘀板。\n\nJEI将展示此仪式所能制作的所有配方，包括沉睡工具。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "bloodmagic:blood_rune"
       },
-      "name:8": "Infusion de Sanguine (Useful)"
+      "name:8": "灌注仪式（实用）"
     }
   },
   "questID:3": 812,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis ritual prevents mobs from jumping.\n\nIf raw will is present the ritual will work on players too.\n\nif steadfast will is present the ritual will work on bosses too.\n\nCorrosive will disables gravity.\n\nVengeful and corrosive will combined will turn the ritual into an aura of levitation.",
+      "desc:8": "§7§o该仪式可阻止生物跳跃。\n\n若存在原生意志，仪式将对玩家起效。\n\n若存在坚毅意志，仪式将对Boss起效。\n\n破坏意志会禁用重力。\n\n复仇与破坏意志组合，会将仪式效果变为范围施加飘浮效果。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Grounding"
+      "name:8": "接地仪式"
     }
   },
   "questID:3": 857,

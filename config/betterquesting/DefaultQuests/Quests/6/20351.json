@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "By investing a in more alchemicallly-infused materials, I can make the transmutation portable, and even use it as a work table on the go. Very useful!",
+      "desc:8": "通过深入研究通过使用更多注有炼金能量的材料，我可以将转化桌改造为便携形态，甚至能随身将其作为工作台使用。太实用了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_transmutation_tablet"
       },
-      "name:8": "Transmutation Tablet"
+      "name:8": "奥术转化桌"
     }
   },
   "questID:3": 20351,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe ritual will attract all ores located below the ritual in a 3x3 area.\n",
+      "desc:8": "§7§o该仪式会将仪式范围下方的所有矿石转移到仪式石上方3x3范围内。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Magnetism"
+      "name:8": "磁引仪式"
     }
   },
   "questID:3": 801,

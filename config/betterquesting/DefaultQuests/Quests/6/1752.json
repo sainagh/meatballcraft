@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe crucible can be transformed into the thaumatorium, an upgraded version that has a user interface, and can be automated.\n\nTo form the thaumatorium, place two alchemical contructs on top of a formed crucible, and right click them with salis mundus.\n\nThe thaumatorium can receive essentia from an emptying essentia transfuser placed on its side. It can collect from both nearby jars, and from an essentia infusion provider.\n\nTo select a recipe, place the desired input item, and click on the desired output to bind the thaumatorium to that recipe. If the input item is present, essentia will be automatically drained and the recipe output will be dropped in world in fron of the crucible. A hungry chest or a vacuum chest can be used to collect outputs.\n\n",
+      "desc:8": "§7§o坩埚可转化为神秘炼金塔，相当于升级版本的坩埚，拥有用户界面，可进行自动化。\n\n要构建神秘炼金塔，在成型的坩埚上方放置两个炼金构材，接着使用世界盐右击。\n\n神秘炼金塔可从放置在其侧面的源质注入装置处接收源质。可从附近的罐子或源质析出装置中收集源质。\n\n要选择配方，先放入所需物品，然后点击输出物以将神秘炼金塔与该配方绑定。输入所需物品，将自动抽取源质并将产物在坩埚前方（之前使用世界盐的方向）丢出。使用物品收集器来收集产物。\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:crucible"
       },
-      "name:8": "Crucible Automation"
+      "name:8": "坩埚自动化"
     }
   },
   "questID:3": 1752,

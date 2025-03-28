@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEssentia can be moved in and out of your AE2 network with these buses (or with the infusion provider).",
+      "desc:8": "§7§o可使用这些总线（或注魔供应器）实现源质在AE网络中的输入/输出。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicenergistics:essentia_terminal"
       },
-      "name:8": "Essentia Networking"
+      "name:8": "源质网络"
     }
   },
   "questID:3": 20229,

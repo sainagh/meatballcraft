@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRituals can be boosted to have increased range and effects!\n\nTo boost a ritual, place a collector crystal with the same attunement as the ritual nearby, and link it to the altar using a linking tool. \n\nThe better the crystal, the better the boost.\n\nThe effect of the collector crystal is maximized if a multiblock is built around it. Right click the crystal with a sextant to obtain a preview of the multiblock.\n\nClick the crystal in this quest to see a preview of the ritual upgrade multiblock.\n\nTo increase the ritual effects even more, you should add lenses around the ritual.\n\nA light beam coming out of the altar will tell you where to place the lens. After it\u0027s placed, use the linking tool to point it back at the crystal. This will tell you where to place the next lens.\n\nThe better the lens, the better the boost.\n\nIf a ritual is fully boosted (maxed crystals and maximum number of fully maxed lenses), it will produce a special particle effect.\n\n",
+      "desc:8": "§7§o仪式可被增强，以增加范围和效果！\n\n要增强仪式，在附近放置共鸣星座与仪式星座相同的聚能水晶，使用链接工具将其与祭坛链接。\n\n水晶属性越强，增强效果越强。\n\n在聚能水晶周围建造多方块结构后，其效果会最大化。\n\n使用六分仪右击聚能水晶以查看多方块预览。\n\n要进一步增强仪式效果，可在仪式周围放置透镜。\n\n祭坛中发出的光束会指示在何处放置透镜。使用链接工具棱镜与水晶链接。接着祭坛会再次发出光束指示在何处放置下一个透镜。\n\n透镜属性越强，增强效果越强。\n\n完全增强（满属性水晶和最大数量的满属性透镜）的仪式会产生特殊粒子效果。\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:blockcelestialcollectorcrystal",
@@ -22,7 +22,7 @@
           }
         }
       },
-      "name:8": "Ritual Upgrades"
+      "name:8": "仪式升级"
     }
   },
   "questID:3": 883,

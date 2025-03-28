@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oNight vision, and reduced fog",
+      "desc:8": "§7§o夜视，减少迷雾效果",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "tombstone:scroll_buff"
       },
-      "name:8": "True Sight"
+      "name:8": "真视"
     }
   },
   "questID:3": 2303,

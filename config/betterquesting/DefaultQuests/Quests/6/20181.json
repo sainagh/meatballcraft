@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis can be used to craft interesting, powerful, destructive, bizarre items!",
+      "desc:8": "§7§o可用于制作有趣、强大、具有破坏性、异乎寻常的物品！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:master_spell_focus"
       },
-      "name:8": "Master Spell Focus"
+      "name:8": "主宰法咒核心"
     }
   },
   "questID:3": 20181,

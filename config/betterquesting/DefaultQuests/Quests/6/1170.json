@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCorail Tombstone is a mod about death and the powers correlated to it.\n\nIt provides for some powerful player upgrades and convenience.",
+      "desc:8": "§7§oCorail的墓碑模组专注于死亡以及其相关力量。\n\n提供了一些实用的玩家升级和便利工具。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Tombstone"
+      "name:8": "墓碑"
     }
   },
   "questID:3": 1170,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Knowledge of the thaumic arts, as most other things, does not come for free.\nInteracting with specific beings, and exploring specific branches of knowledge, can cause a series of unwanted effects, called warp.\nThis meter will keep track of warp levels in the user. The higher the warp, the more bad stuff is going to happen.\nThat said, in some situations, having high warp may be beneficial, but that\u0027s up to you to decide.",
+      "desc:8": "与其他大部分事物一样，神秘魔法的知识，自有其代价。\n与特定的存在交互，探索某些领域的知识，会造成一系列被称为扭曲的负面效果。\n这个检测仪能标识用户的扭曲值。扭曲值越高，糟糕的事情发生得就更多。\n话又说回来，在一些情况下，高扭曲值也有好处，但这取决于你的选择。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:sanity_checker"
       },
-      "name:8": "Sanity Checker"
+      "name:8": "神志检测仪"
     }
   },
   "questID:3": 20187,

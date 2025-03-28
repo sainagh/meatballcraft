@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oVoid Reinforced: 500",
+      "desc:8": "§7§o邪术源质罐子：500",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumadditions:jar_eldritch"
       },
-      "name:8": "Void Foritified Jar"
+      "name:8": "邪术源质罐子"
     }
   },
   "questID:3": 20253,

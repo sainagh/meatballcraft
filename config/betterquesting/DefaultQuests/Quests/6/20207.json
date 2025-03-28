@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEnergy collectors use light (glowstone is the best source) to generate equivalence, and to upgrade fuels.\n\nThe fuel upgrade sequence is: Charcoal, Redstone, Coal, Gunpowder, Glowstone, Alchemical Coal, Block of Redstone, Blaze Powder, Coal Block, Glowstone Block, Mobius Fuel, Alchemical Coal Block, Aeternalis Fuel, Mobius Fuel Block, Aeternalis Fuel Block",
+      "desc:8": "§7§o能量收集器可从光照中（荧石是最佳光源）生成EMC，以及升级燃料。\n\n燃料升级次序为：木炭、红石、煤炭、火药、荧石粉、炼金煤炭、红石块、烈焰粉、煤炭块、荧石、莫比乌斯燃料、炼金煤炭块、永恒燃料、莫比乌斯燃料块、永恒燃料块",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:collector_mk1"
       },
-      "name:8": "Energy Collector MK1"
+      "name:8": "能量收集器 MK1"
     }
   },
   "questID:3": 20207,

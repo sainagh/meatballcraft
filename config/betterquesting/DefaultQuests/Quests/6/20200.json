@@ -5,14 +5,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBlood Magic is a mod based on sacrifices and demonic powers.\n\nIt provides many useful tools in the form of rituals and sigils. It interacts with Thaumcraft to provide a simple way to clear Flux.\n\nThe mod is quite friendly to automation, and a few custom multiblocks here will supply or upgrade some of its features.\n\nThe quests here will walk you through the mod and its addons Blood Arsenal and Animus.",
+      "desc:8": "§7§o血魔法是一款基于献祭与恶魔力量的模组。\n\n以仪式和印记形式提供了许多实用工具！与神秘时代模组的联动，提供了一种清除咒波的简单方法。\n\n本模组对自动化很友好，此外也添加了一些自定义的多方块结构用于升级或提供一些额外功能。\n\n此处的任务将带你探索该模组及其附属模组血液兵工厂和Animus。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Blood Magic"
+      "name:8": "血魔法"
     }
   },
   "questID:3": 20200,

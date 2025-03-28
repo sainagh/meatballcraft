@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis ritual will convert thaumcraft flux into raw will!\n\nThis is highly recommended to keep your base safe!",
+      "desc:8": "§7§o该仪式会将神秘时代的咒波转化为原生意志！\n\n强烈推荐在基地使用以确保安全！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "bloodmagic:blood_rune"
       },
-      "name:8": "Ritual of Eldritch Will (Useful)"
+      "name:8": "邪术意志仪式（实用）"
     }
   },
   "questID:3": 853,

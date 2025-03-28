@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oVoid: 250 + void excess (makes flux)",
+      "desc:8": "§7§o虚空罐子：250，附带溢出销毁（产生咒波）",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:jar_void"
       },
-      "name:8": "Void Jar"
+      "name:8": "虚空罐子"
     }
   },
   "questID:3": 20395,

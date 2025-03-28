@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWorld Thread is the base crafting item for Dimensional Doors, and it can be found in chests in the trippy warren worlds that can be accessed through doors found in many of the dimensions in the pack.\n",
+      "desc:8": "§7§o世界纤维是维度门模组的基础合成材料，可通过出现在本整合包许多维度中的维度门，前往疯狂的迷道世界，其中的箱子会有世界纤维。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "dimdoors:world_thread"
       },
-      "name:8": "World Thread"
+      "name:8": "世界纤维"
     }
   },
   "questID:3": 2280,

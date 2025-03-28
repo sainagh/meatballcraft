@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis can be crafted by placing a crafting table under one of the crystals located in the marble temples. Make sure the crystal has sky access!\n\nThis recipe may bug out, make sure you try both astral sorcery and chisel marble variants!",
+      "desc:8": "§7§o在大理石神庙中的浮动水晶下方放置工作台来制作该物品。确保水晶为露天状态！\n\nT配方可能会出bug，星辉和凿子的大理石都试试！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:itemwand",
@@ -12,7 +12,7 @@
           "astralsorcery:10": {}
         }
       },
-      "name:8": "Resonating Wand"
+      "name:8": "共振星杖"
     }
   },
   "questID:3": 20107,

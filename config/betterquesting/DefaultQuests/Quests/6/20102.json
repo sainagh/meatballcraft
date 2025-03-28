@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThere are all the rituals that can be performed with an upgraded ritual diviner and activation.\n\nThe notable ones are marked as (USEFUL).",
+      "desc:8": "§7§o此处列出了所有可用升级的仪式推测杖和激活水晶进行的仪式。\n\n值得注意的仪式会用（实用）标记。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "bloodmagic:activation_crystal"
       },
-      "name:8": "Greater Rituals"
+      "name:8": "更大的仪式"
     }
   },
   "questID:3": 20102,

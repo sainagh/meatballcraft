@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThaumcraft infusion is a crafting mechanic that uses altars to craft (see multiblock preview for infusion setup). Right click the matrix with salis mundus to form the structure.\n\nInfusion recipes require the right items to be placed in the altars, and essentia from nearby jars (or the infusion provider).\n\nTo start a recipe, after placing the correct items, right click the matrix with a casting gauntlet, the infusion will start with esselntia being automatically sucked out of the nearby sources.\n\nAll infusion recipes have a chance of going wrong and causing bad effects. If the runic matrix is stable (you can see stability while looking at it with goggles of revealing) those will not happen.\n\nTo stabilize thaumcraft infusions, you should place stabilizing blocks around the infusion matrix.\n\nAll stabilizing blocks should be placed following central symmetry with respect to the center pedestal!\n\nThe more variety of stabilizing blocks, the better! Different colors count as different blocks!\n\nIn addition, Stabilizers from Thaumcraft can be used to prevent some bad effects. Redstone Inlays should be used to connect the stabilizers to each pedestal. These should still follow central symmetry.\n\nThe following stabilizing blocks are listed in order of stability power (you should have at most 6 of each):\nCandelabra\nCandles\nMob heads",
+      "desc:8": "§7§o神秘时代的注魔是一种通过奥术基座进行的合成机制（查看多方块预览来了解如何搭建）。使用世界盐对符文矩阵右击来使结构成型。\n\n注魔配方需要在基座上放置正确的物品，使用附近的源质罐子（或注魔供应器）提供源质。\n\n要开始注魔，在放置好正确的物品之后，使用法师护手对矩阵右击。注魔将自动从附近的源质来源抽取源质以进行。\n\n所有注魔配方都有一定概率失败并造成负面效果。若符文矩阵处于稳定状态（佩戴揭示之护目镜可查看注魔稳定度），则不会出现上述后果。\n\n可通过在符文矩阵周围放置特定方块来增加注魔稳定性。\n\n所有稳定物都应相对于中心祭坛中心对称！\n\n稳定物种类越多，效果越好！颜色不同会被视为不同方块！\n\n此外，神秘时代的稳定器还可用来防止某些负面效果。使用红石镶嵌将稳定器与每个基座相连接。也应遵守中心对称规则。\n\n使用以下列出的稳定物来增加稳定性（每种最多可使用6个）：\n烛台\n蜡烛\n怪物头颅",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:infusion_matrix"
       },
-      "name:8": "Runic Matrix"
+      "name:8": "符文矩阵"
     }
   },
   "questID:3": 20194,

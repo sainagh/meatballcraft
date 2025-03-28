@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§\n§o§7§oEXPLOSION WARNING!\n\nThis ritual will call down meteors containing various (sometimes) useful ores.\n\nThe drops will depend on the item you drop on the master ritualstone before you activate the ritual (you still need to use the activation crystal first).\n\nIron Block: medium size, mostly crappy ores\n\nGold Block: large size, mostly crappy ores\n\nDiamond Block: small size, mostly good ores\n\nWeight of the Ancient Heart: surprise\n\nBaku Heart: another surprise",
+      "desc:8": "§7§\n§o§7§o爆炸警告！\n\n该仪式会召唤含有多种（偶尔）有用矿物的陨星。\n\n生成的矿物取决于激活仪式前，在主仪式石上丢出的物品（仍然需要先使用激活水晶激活一次仪式）。\n\n铁块：中等尺寸，大部分为低价值矿物\n\n金块：大型尺寸，大部分为低价值矿物\n\n钻石块：小型尺寸，大部分为有用矿物\n\n远古之心之重量：惊喜\n\n貘之心：另一个惊喜",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "bloodmagic:blood_rune"
       },
-      "name:8": "Mark of the Falling Tower (Useful)"
+      "name:8": "坠星标位（实用）"
     }
   },
   "questID:3": 824,
