@@ -2306,7 +2306,7 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_radiationsuit>,
     "将惰性诅咒宝石与以下盾牌结合：现石盾、骑士盾、源质钢盾牌、琥珀金盾牌。"
 ]);
 
-mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "rannucarpus"}),
+mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "rannuncarpus"}),
 [
     "在范围内自动放置方块。提供魔力可增加工作范围。要指定方块放置位置，在花所种植的方块下方放置一个过滤用方块，如此便只会在该种方块上放置提供的方块。"
 ]);
@@ -2448,7 +2448,7 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "loonium"}),
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "bergamute"}),
 [
-    "动物的噪声。"
+    "消除动物的噪声。"
 ]);
 
 mods.jei.JEI.addDescription([<botania:specialflower>.withTag({type: "enchantedorchid"}), <botania:enchantedsoil>],
@@ -2901,7 +2901,7 @@ mods.jei.JEI.addDescription([
 [
     "魔力发射器用于在魔力源或容器间传输魔力。",
     "",
-    "森林法杖可将产魔花与发射器绑定。确保森林法杖处于绑定模式。首先Shift右击花，然后右击发射器。",
+    "森林法杖可将产能花与发射器绑定。确保森林法杖处于绑定模式。首先Shift右击花，然后右击发射器。",
     "",
     "森林法杖可将发射器与魔力池绑定。首先Shift右击发射器，然后右击魔力池。",
     "",
