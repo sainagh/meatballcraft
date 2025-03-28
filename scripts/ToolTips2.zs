@@ -252,7 +252,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:wildwood_core>.addTooltip(format.red("使用特殊的伯莱恩新月小刀进行沧海桑田仪式来生成风暴之地（Stormland）群系"));
 
-<draconicevolution:chaos_shard:0>.addTooltip(format.red("第一份混沌碎片可在末地中坐标为10000整数的混沌之岛获得"));
+<draconicevolution:chaos_shard:0>.addTooltip(format.red("第一份混沌碎片可在末地中坐标为10000整数倍数的混沌之岛获得"));
 <draconicevolution:chaos_shard:0>.addTooltip(format.red("击败混沌守卫后方可收获"));
 <draconicevolution:chaos_shard:0>.addTooltip(format.red("有许多方法可获得该物品 - 查看JEI"));
 
@@ -1425,7 +1425,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:skeletal_callstone>.addTooltip(format.red("第一个召唤石！右击召唤一座地牢！"));
 
-<dimdoors:oak_dimensional_door>.addTooltip(format.red("传送！使用裂痕印记将两个地点绑定，接着在裂隙上放置维度门将其连接"));
+<dimdoors:oak_dimensional_door>.addTooltip(format.red("传送！使用裂痕印记将两个地点绑定，接着在裂痕上放置维度门将其连接"));
 
 <rftools:matter_transmitter>.addTooltip(format.red("传送！传送到指定地点"));
 
