@@ -66,7 +66,7 @@ mods.jei.JEI.addDescription(<materialpart:vityte:ingot>,["在探索过花园维�
 mods.jei.JEI.addDescription(<materialpart:candyte:ingot>,["在探索过糖果维度后，可通过等离子聚合器获得。"]);
 mods.jei.JEI.addDescription(<materialpart:polonium:ingot>,["在探索过未知维度后，可通过等离子聚合器获得。"]);
 mods.jei.JEI.addDescription(<materialpart:ogerite:ingot>,["在特殊的树中发现。"]);
-mods.jei.JEI.addDescription(<materialpart:lunastone:ingot>,["在探索过月球维度后，可通过等离子聚合器获得。"]);
+mods.jei.JEI.addDescription(<materialpart:lunastone:ingot>,["在探索过[虚无]月球维度后，可通过等离子聚合器获得。"]);
 mods.jei.JEI.addDescription(<materialpart:brightsteel:ingot>,["在探索过符境维度后，可通过等离子聚合器获得。"]);
 mods.jei.JEI.addDescription(<materialpart:chalcedony:ingot>,["在探索过暴风维度后，可通过等离子聚合器获得。"]);
 mods.jei.JEI.addDescription(<materialpart:caesium:ingot>,["在探索过远古神殿维度后，可通过等离子聚合器获得。"]);

@@ -15,7 +15,7 @@
 <contenttweaker:betweenlands_callstone_8>.addTooltip(format.red("需在指定维度使用：主世界"));
 <contenttweaker:key_of_flesh_dominion>.addTooltip(format.red("需在指定维度使用：深渊"));
 <contenttweaker:borean_callstone>.addTooltip(format.red("需在指定维度使用：暴风"));
-<contenttweaker:lunalus_callstone>.addTooltip(format.red("需在指定维度使用：月球（虚无世界）"));
+<contenttweaker:lunalus_callstone>.addTooltip(format.red("需在指定维度使用：[虚无]月球"));
 <contenttweaker:wildwood_callstone>.addTooltip(format.red("需在指定维度使用：原始森林"));
 <contenttweaker:skythern_callstone>.addTooltip(format.red("需在指定维度使用：空境"));
 <contenttweaker:immortallis_callstone>.addTooltip(format.red("需在指定维度使用：不朽之地"));
