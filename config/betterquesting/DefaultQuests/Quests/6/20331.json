@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou should farm these plants! They will be used quite a lot in bewitchment!",
+      "desc:8": "§7§o种植这些植物！在本模组中用量很大！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:mandrake_root"
       },
-      "name:8": "Witches Ingredients"
+      "name:8": "巫师材料"
     }
   },
   "questID:3": 20331,

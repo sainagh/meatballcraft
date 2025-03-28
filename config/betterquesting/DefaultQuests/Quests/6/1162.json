@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oStops rain.",
+      "desc:8": "§7§o停止下雨。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:white_sage"
       },
-      "name:8": "Ritual of the Parched Sands"
+      "name:8": "炽热之沙仪式"
     }
   },
   "questID:3": 1162,

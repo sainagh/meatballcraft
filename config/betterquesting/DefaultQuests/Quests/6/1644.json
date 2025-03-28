@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMakes a flying broom.\n\nDifferent woods give different buffs.\n\nElder: fast\n\nJuniper: doesn\u0027t need a grimoire magia to run\n\nDragon\u0027s Blood: broom accepts sigils\n\n",
+      "desc:8": "§7§o制作飞天扫帚。\n\n不同种类的木头会拥有不同的效果。\n\n接骨木：速度较快\n\n杜松木：不需要魔导书\n\n龙血木：可附加符文\n\n柏木：抗性提升 II",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:cypress_broom"
       },
-      "name:8": "Rite of the Rising Twigs (Useful)"
+      "name:8": "抽枝仪式（实用）"
     }
   },
   "questID:3": 1644,

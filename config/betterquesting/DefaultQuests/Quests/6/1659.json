@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSummons passive mobs.",
+      "desc:8": "§7§o召唤被动生物。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:grasshorn"
       },
-      "name:8": "Call of the Wild"
+      "name:8": "野性呼唤"
     }
   },
   "questID:3": 1659,
