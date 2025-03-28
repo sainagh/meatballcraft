@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGenerates mana from furnace fuels placed nearby",
+      "desc:8": "§7§o消耗附近掉落的熔炉燃料产生魔力",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "endoflame"
         }
       },
-      "name:8": "Endoflame (Good)"
+      "name:8": "火红莲（良好）"
     }
   },
   "questID:3": 769,

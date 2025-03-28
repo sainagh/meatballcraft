@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o可通过直接食用梦魇燃料，或将其丢入活石祭坛内获得精神燃料。",
+      "desc:8": "§7§o可通过直接食用梦魇燃料，或将其放入活石祭坛内获得精神燃料。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrabotany:spiritfuel",

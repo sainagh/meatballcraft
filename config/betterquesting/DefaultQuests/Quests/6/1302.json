@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oProduces fishing loot from nearby livingrock pedestals.\n\nDrop fried chickens legs to give it luck of the sea.",
+      "desc:8": "§7§o从附近的活石祭坛中产生钓鱼战利品。\n\n提供香香鸡可大幅提高工作效率，并有更高概率钓到稀有物品。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "annoyingflower"
         }
       },
-      "name:8": "Annoying Flower (Useful)"
+      "name:8": "A神烦花（实用）"
     }
   },
   "questID:3": 1302,

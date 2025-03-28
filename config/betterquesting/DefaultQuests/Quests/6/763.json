@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGenerates mana by consuming wool blocks of the right colors, dropped in the right order.\n\nThe wand of the forest can be used to check the desired order",
+      "desc:8": "§7§o以特定顺序消耗特定颜色的羊毛产生魔力\n\n可用森林法杖查看所需羊毛的颜色",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "spectrolus"
         }
       },
-      "name:8": "Spectrolus (Great)"
+      "name:8": "斑斓花（优异）"
     }
   },
   "questID:3": 763,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSpells of the matching type receive a 15% buff!",
+      "desc:8": "§7§o对应种类的法术获得15%增幅！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ebwizardry:novice_ice_wand"
       },
-      "name:8": "Wand of Frost"
+      "name:8": "冰霜魔杖"
     }
   },
   "questID:3": 20071,

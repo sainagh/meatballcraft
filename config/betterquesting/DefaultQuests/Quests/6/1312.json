@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGives slowness to nearby mobs.",
+      "desc:8": "§7§o消耗魔力抑制附近生物移动。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "medumone"
         }
       },
-      "name:8": "Medumone"
+      "name:8": "石化草"
     }
   },
   "questID:3": 1312,

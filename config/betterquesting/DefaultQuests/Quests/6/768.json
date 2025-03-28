@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGenerates mana at night.\nWill decay eventually.",
+      "desc:8": "§7§o在夜间产生魔力。\n会自然枯萎。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "moonbless"
         }
       },
-      "name:8": "Moonlight Lily (OK)"
+      "name:8": "月光百合（一般）"
     }
   },
   "questID:3": 768,

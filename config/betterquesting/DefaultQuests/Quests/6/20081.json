@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSpells of the matching type receive a 60% buff, but you cannot use spells of other types!",
+      "desc:8": "§7§o对应种类的法术获得60%增幅，但无法使用其他种类的法术！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "arcane_essentials:master_nature_sword"
       },
-      "name:8": "Master Earth Sword"
+      "name:8": "『大师』复息自然之剑"
     }
   },
   "questID:3": 20081,

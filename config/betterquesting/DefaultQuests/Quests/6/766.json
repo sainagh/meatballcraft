@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGives regeneration in a radius around it at the cost of mana.",
+      "desc:8": "§7§o消耗魔力在工作范围内给予生命恢复效果。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "fallenKanade"
         }
       },
-      "name:8": "Fallen Kanade"
+      "name:8": "天降之奏"
     }
   },
   "questID:3": 766,

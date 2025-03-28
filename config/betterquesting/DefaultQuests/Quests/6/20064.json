@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oElectroblob\u0027s Wizardry is a spellcasting magic mod centered around wands and spell books.\n\nIt makes for powerful weapon options.\n\nThe pack adds a multiblock that will allow you to eventually automate the materials in this mod.",
+      "desc:8": "§7§oElectroblob的巫术学是一个以魔杖和法术书为中心的施法模组。\n\n该模组提供了强大的武器。\n\n本整合包添加了一个多方块结构，最终将使你能够自动化生产该模组中的材料。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Wizardry"
+      "name:8": "巫术学"
     }
   },
   "questID:3": 20064,

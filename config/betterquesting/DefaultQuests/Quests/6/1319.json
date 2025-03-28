@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPrevents endermen from teleporting.",
+      "desc:8": "§7§o阻止末影人传送。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "vinculotus"
         }
       },
-      "name:8": "Vinculotus"
+      "name:8": "诱引莲"
     }
   },
   "questID:3": 1319,

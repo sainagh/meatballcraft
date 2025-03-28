@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oConsumes mana to spawn mobs with extra loot.\n\nAnything that can be found in vanilla dungeon chests can be obtained with this flower.",
+      "desc:8": "§7§o消耗魔力生成拥有额外掉落物池的怪物。\n\n任何原版地牢箱子中的物品都可通过这朵花获得。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "loonium"
         }
       },
-      "name:8": "Loonium (Useful)"
+      "name:8": "聚宝花（实用）"
     }
   },
   "questID:3": 1315,
