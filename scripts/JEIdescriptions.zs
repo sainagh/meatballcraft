@@ -2922,7 +2922,7 @@ mods.jei.JEI.addDescription([
     "聚集：从其他火花中抽取魔力直至魔力池满。",
     "弥散：向玩家传输魔力。",
     "扩散：向其他火花传输魔力。",
-    "隔绝：不向其他按普通火花传输魔力。"
+    "隔绝：不向其他普通火花传输魔力。"
 ]);
 
 mods.jei.JEI.addDescription([
@@ -4045,7 +4045,7 @@ mods.jei.JEI.addDescription([
 mods.jei.JEI.addDescription([
     <extrabotany:spiritfuel>],
 [
-    "可通过直接食用梦魇燃料，或将其植入活石祭坛内获得精神燃料。"
+    "可通过直接食用梦魇燃料，或将其放入活石祭坛内获得精神燃料。"
 ]);
 
 
