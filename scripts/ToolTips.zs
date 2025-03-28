@@ -118,7 +118,7 @@
 <contenttweaker:wing_of_worship>.addTooltip(format.red("查看仪式刀的用途以查看仪式配方"));
 <contenttweaker:wing_of_worship>.addTooltip(format.red("使用收税官蜜蜂获得掉落物"));
 
-<contenttweaker:imp_skin>.addTooltip(format.red("通过召唤仪式(小恶魔)获得首个该物品"));
+<contenttweaker:imp_skin>.addTooltip(format.red("通过召唤仪式（小恶魔）获得首个该物品"));
 <contenttweaker:imp_skin>.addTooltip(format.red("查看仪式刀的用途以查看仪式配方"));
 
 <bewitchment:adders_fork>.addTooltip(format.red("通过地狱之门仪式获得首个该物品"));
