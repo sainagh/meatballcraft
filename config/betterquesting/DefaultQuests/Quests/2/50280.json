@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The draconic reactor passively produces energy, at the cost of mantaining a forcefield around its core. If the core is stronger than the forcefield, expect a big (really big) boom.",
+      "desc:8": "神龙反应堆可被动产出能量，但需持续维持核心周围的力场。若核心能量超过力场强度，将引发剧烈（到超乎想象的）爆炸。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:reactor_core"
       },
-      "name:8": "Draconic Reactor (Good)"
+      "name:8": "神龙反应堆（良好）"
     }
   },
   "questID:3": 50280,

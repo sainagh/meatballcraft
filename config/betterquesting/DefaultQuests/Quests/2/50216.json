@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The token totem takes energy from from the outcome of mythic excavation. It starts off pretty bad, but a totem consuming all tokens is the third best energy source in the pack!",
+      "desc:8": "代币图腾从神话资源采掘机产出的代币中产出能量。初始产能很低，但消耗所有等级代币的图腾是本整合包中排名第三的产能手段！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:tier19_token"
       },
-      "name:8": "Token Totem (Great)"
+      "name:8": "代币图腾（优异）"
     }
   },
   "questID:3": 50216,

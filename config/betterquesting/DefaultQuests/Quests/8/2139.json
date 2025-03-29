@@ -9,7 +9,7 @@
         "Count:3": 1,
         "id:8": "advancedrocketry:charcoallog"
       },
-      "name:8": "Lyndenwyrm"
+      "name:8": "树龙界"
     }
   },
   "questID:3": 2139,
@@ -18,7 +18,7 @@
       "dimension:3": 162,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Lyndenwyrm",
+      "name:8": "树龙界",
       "taskID:8": "bq_standard:location"
     }
   }

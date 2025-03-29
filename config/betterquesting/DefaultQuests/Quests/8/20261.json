@@ -9,7 +9,7 @@
         "Count:3": 1,
         "id:8": "contenttweaker:resonating_stone"
       },
-      "name:8": "Apichisi Wormhole"
+      "name:8": "共鸣界虫洞"
     }
   },
   "questID:3": 20261,
@@ -18,7 +18,7 @@
       "dimension:3": 184,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Apichisi Wormhole",
+      "name:8": "共鸣界虫洞",
       "taskID:8": "bq_standard:location"
     }
   }

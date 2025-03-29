@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "A device that fills (empties) fluid containers.",
+      "desc:8": "用于为容器装填（排出）流体的设备。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bottler"
       },
-      "name:8": "Bottler"
+      "name:8": "装瓶机"
     }
   },
   "questID:3": 20557,

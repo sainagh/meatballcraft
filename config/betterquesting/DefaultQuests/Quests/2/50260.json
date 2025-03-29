@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Get some dragon\u0027s breath, make power!",
+      "desc:8": "消耗龙息发电！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:machine",
@@ -12,7 +12,7 @@
           "Type:8": "extrautils2:generator_dragonsbreath"
         }
       },
-      "name:8": "Halitosis Generator (OK)"
+      "name:8": "龙息发电机（一般）"
     }
   },
   "questID:3": 50260,

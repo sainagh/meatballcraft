@@ -8,12 +8,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Use the nightmare bed",
+      "desc:8": "使用梦魇床",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:dream_grass"
       },
-      "name:8": "Vethea Nightmare"
+      "name:8": "梦魇世界"
     }
   },
   "questID:3": 20315,
@@ -22,7 +22,7 @@
       "dimension:3": 427,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Vethea Nightmare",
+      "name:8": "梦魇世界",
       "taskID:8": "bq_standard:location"
     }
   }

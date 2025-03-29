@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCoolers lower heat to prevent things from exploding. Each cooler has a different rule (only works if next to block x).",
+      "desc:8": "§7§o冷却器可降低温度，放置反应堆爆炸。每种冷却器有不同的规则（例如只有在与XX方块相邻时才能工作）。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "nuclearcraft:cooler"
       },
-      "name:8": "Coolers"
+      "name:8": "冷却器"
     }
   },
   "questID:3": 50214,

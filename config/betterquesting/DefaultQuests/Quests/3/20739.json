@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No casting tables needed!",
+      "desc:8": "不在需要浇铸台了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:ingot_former_idle"
       },
-      "name:8": "Ingot Former"
+      "name:8": "金属成型机"
     }
   },
   "questID:3": 20739,

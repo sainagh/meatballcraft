@@ -9,7 +9,7 @@
         "Count:3": 1,
         "id:8": "contenttweaker:ender_dolomite"
       },
-      "name:8": "Finem Wormhole"
+      "name:8": "末结地虫洞"
     }
   },
   "questID:3": 20262,
@@ -18,7 +18,7 @@
       "dimension:3": 185,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Finem Wormhole",
+      "name:8": "末结地虫洞",
       "taskID:8": "bq_standard:location"
     }
   }

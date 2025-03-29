@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFuel cells are where your fuel goes. The more, the higher the energy and the higher the heat. If the heat is too high, things explode.",
+      "desc:8": "§7§o用于容纳裂变燃料的单元。数量越多，产能和产热越高。若热量过高，反应堆会爆炸。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:cell_block"
       },
-      "name:8": "Reactor Cell"
+      "name:8": "反应堆单元"
     }
   },
   "questID:3": 50212,

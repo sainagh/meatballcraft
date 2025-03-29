@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCoils are used to produce energy in a turbine.\n\nEnergy transfer methods can be connected directly to coils to extract energy.\n\n",
+      "desc:8": "§7§o涡轮机中的线圈用于产出能量。\n\n可将能量传输类方块直接与线圈相连以输出能量。\n\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "nuclearcraft:turbine_dynamo_coil"
       },
-      "name:8": "Turbine Bearing Setup"
+      "name:8": "涡轮轴承组"
     }
   },
   "questID:3": 458,

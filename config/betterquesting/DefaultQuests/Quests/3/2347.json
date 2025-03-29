@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Buildcraft Heat Exchanger is used to move fluids from various states, in order of temperature: Cool, Hot, Searing.\n\nTo heat up a fluid, it must be placed as a cold input in the Heat Exchanger multiblock (see preview for multiblock structure, inputs, outputs), using lava as a hot input.\n\nTo cool down a fluid, it must be placed as a hot input, with a fluid of a lower temperature as the cold input.",
+      "desc:8": "§7§oBC模组的热交换器可按温度顺序，改变流体的状态：冷、热、炽热。\n\n要加热流体，必须将其在热交换器中作为冷流体输入（查看预览以了解多方块结构、输入、输出），使用熔岩作为热流体输入。\n\n要冷却流体，必须将其在热交换器中作为热流体输入，使用更低温度的流体作为冷流体输入",
       "icon:10": {
         "Count:3": 1,
         "id:8": "buildcraftfactory:heat_exchange"
       },
-      "name:8": "Heat Exchanger"
+      "name:8": "热交换器"
     }
   },
   "questID:3": 2347,

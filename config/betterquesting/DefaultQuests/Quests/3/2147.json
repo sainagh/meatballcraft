@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe primordial accelerator is used to break Primordial Pearls into Primordial Grains.\n\nIt is a multiblock of variable length, see the JEI preview for the multiblock structure, the more Tunnels, the more Grains can be produced (with diminishing returns). The maximum length is 10.\n\nPrimordial pearls can be piped into the Accelerator.\n\nUse a redstone pulse to activate the machine, Primordial Grains will be dropped out around the Terminus.\n\nGrains can be turned back into full Pearls for an endless loop, with a bit of crucible automation.",
+      "desc:8": "§7§o元始加速器用于将元始珍珠变为元始晶粒。\n\n加速器是一个可自定义长度的多方块结构，在JEI中查看多方块预览，轨道越长，产出的晶粒就越多（收益递减）。最大长度为10格。\n\n可用管道将元始珍珠输入到加速器内。\n\n使用红石脉冲来激活该机器，元始晶粒会在终端附近掉落。\n\n晶粒可通过处理重新变为元始珍珠，需要一些坩埚自动化。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicwonders:primordial_accelerator"
       },
-      "name:8": "Primordial Accelerator"
+      "name:8": "元始加速器"
     }
   },
   "questID:3": 2147,

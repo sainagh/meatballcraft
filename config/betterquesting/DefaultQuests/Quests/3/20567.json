@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Pulverizes things producing chance drops.\nGrinding balls can be used to increase yield.",
+      "desc:8": "粉碎物品，有概率产出额外产物。\n磨珠可增加产量。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:block_sag_mill"
       },
-      "name:8": "SAG Mill"
+      "name:8": "SAG磨粉机"
     }
   },
   "questID:3": 20567,

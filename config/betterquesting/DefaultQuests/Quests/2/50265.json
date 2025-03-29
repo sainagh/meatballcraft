@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Energy from lava...",
+      "desc:8": "用熔岩发电……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:machine",
@@ -12,7 +12,7 @@
           "Type:8": "extrautils2:generator_lava"
         }
       },
-      "name:8": "Magmatic Generator (OK)"
+      "name:8": "熔岩发电机（一般）"
     }
   },
   "questID:3": 50265,

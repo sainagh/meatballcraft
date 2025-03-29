@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "A fission reactor is a cuboid of casings (edges \u0026 corners excluded) with at least one port for power output. For more info about the inside see attached quests.\n\nGiven a controller and casings around a cuboid, these reactors can be used for a variety of radioactive fuels.\nDepending on the fuels used, there are different heat requirements the reactor will need to fulfill to avoid meltdowns.\nThe website https://leu-235.com/ is the recommended way of building these reactors.\nDesign by Uchiwars also works well for power gen!\nhttps://imgur.com/gallery/vzBd16k",
+      "desc:8": "裂变反应堆是由外壳构成的立方体结构（不包括棱角），至少要有一个端口用于能量输出。更多内部构造信息请查看附加任务。\n\n对于一个带有控制器和立方体外壳的反应堆，可以适配多种放射性燃料。\n根据所使用的燃料不同，反应堆需要满足特定的散热要求以避免堆芯熔毁。\n推荐使用以下网站协助建造反应堆：https://leu-235.com/ 。\nUchiwars的设计也能提供不错的产能！\nhttps://imgur.com/gallery/vzBd16k",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:fission_controller_new_fixed"
       },
-      "name:8": "Nuclear Fission (Great)"
+      "name:8": "核裂变（优异）"
     }
   },
   "questID:3": 50211,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Smart molten metal output, can be upgraded to fulfill a variety of needs.",
+      "desc:8": "智能的熔融金属输出口，可使用升级以满足多种需求。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tinker_io:smart_output"
       },
-      "name:8": "Smart Output"
+      "name:8": "智能输出端"
     }
   },
   "questID:3": 20608,

@@ -10,7 +10,7 @@
         "Damage:2": 1,
         "id:8": "minecraft:sand"
       },
-      "name:8": "Gallifrey"
+      "name:8": "伽里弗雷"
     }
   },
   "questID:3": 1365,
@@ -19,7 +19,7 @@
       "dimension:3": 624,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Gallifrey",
+      "name:8": "伽里弗雷",
       "taskID:8": "bq_standard:location"
     }
   }

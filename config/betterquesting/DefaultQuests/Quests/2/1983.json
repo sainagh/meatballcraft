@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIt\u0027s very slow.",
+      "desc:8": "§7§o速度非常慢。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:water_bucket"
       },
-      "name:8": "Simplest Salt Reactor"
+      "name:8": "最简单的熔盐反应堆"
     }
   },
   "questID:3": 1983,

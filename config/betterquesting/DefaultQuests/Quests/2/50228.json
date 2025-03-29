@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Just a mix of random radioactive elements, will it work?",
+      "desc:8": "只是一些随机的放射性同位素混合物，会管用吗？",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "nuclearcraft:fuel_mixed_oxide"
       },
-      "name:8": "MOX-241 Fuel"
+      "name:8": "MOX-241燃料"
     }
   },
   "questID:3": 50228,

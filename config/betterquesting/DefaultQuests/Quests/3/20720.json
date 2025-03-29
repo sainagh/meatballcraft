@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "1. Place next to interface or unpackager.\n2. Add pedestals.\n3. Profit.",
+      "desc:8": "1. 与接口或解包机相邻放置。\n2. 放置标记基座。\n3. 享受。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "packagedexcrafting:combination_crafter"
       },
-      "name:8": "Combination Package Crafter"
+      "name:8": "组合封包合成器"
     }
   },
   "questID:3": 20720,

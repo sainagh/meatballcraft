@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Tier 3, now we\u0027re cooking with gas!",
+      "desc:8": "三级，效率飙升！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "draconicevolution:crafting_injector"
       },
-      "name:8": "Draconic Fusion Crafting Injector"
+      "name:8": "神龙注入合成装置"
     }
   },
   "questID:3": 20709,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The latex processing unit combines latex with RF and water to make tiny dry rubber.",
+      "desc:8": "胶乳加工机消耗RF将胶乳和水结合，产出小块干橡胶。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:latex_processing_unit"
       },
-      "name:8": "Latex Processing Unit"
+      "name:8": "胶乳加工机"
     }
   },
   "questID:3": 20564,

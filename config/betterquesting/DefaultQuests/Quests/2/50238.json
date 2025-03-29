@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Plutonium, on earth, is generally used to make more efficient nuclear plans.\nThe best fission reaction happens using uranium, but plutonium is a pain in the ass to dispose of, so instead, it\u0027s better to run it through fission again.\nWith good reinforced fission casings, though, it still makes some *not horrible power",
+      "desc:8": "在地球上，钚通常被用来制造更高效的核设施。\n最佳的裂变反应虽然由铀引发，但钚的废料处理麻烦得要命，因此更好的办法是对钚再次进行裂变处理。\n不过只要有了优质的强化裂变外壳，它仍能产出不算太糟的能量。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:depleted_fuel_plutonium"
       },
-      "name:8": "Depleted LEP-239 Fuel"
+      "name:8": "枯竭低密度钚-239燃料"
     }
   },
   "questID:3": 50238,

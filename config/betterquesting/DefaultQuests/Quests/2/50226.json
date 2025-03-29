@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Time to change that!",
+      "desc:8": "正是打破记录之时！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:fuel_neptunium"
       },
-      "name:8": "LEN-236"
+      "name:8": "低密度镎-236燃料"
     }
   },
   "questID:3": 50226,

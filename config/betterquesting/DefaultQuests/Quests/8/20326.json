@@ -7,12 +7,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+      "desc:8": "§7§o5x6的传送门结构，除了远古岩石外，构成方块还包括能量、方位、空间、现实和穿越雕符石各一个（使用纯宝石右击激活）",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:shyrelands_grass"
       },
-      "name:8": "The Shyrelands"
+      "name:8": "塞尔瑞维度"
     }
   },
   "questID:3": 20326,
@@ -21,7 +21,7 @@
       "dimension:3": 820,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "The Shyrelands",
+      "name:8": "塞尔瑞维度",
       "taskID:8": "bq_standard:location"
     }
   }

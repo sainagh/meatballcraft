@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Pure Daisy is used to transform the 8 blocks around it.\nThis can be easily automated using block placers and breakers, or by using formation and annihilation planes in a AE2 subnet.",
+      "desc:8": "白雏菊能转化环绕其放置的8个方块。\n可使用方块放置/破坏器实现自动化，也可使用作为AE子网的成型和破坏面板。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "puredaisy"
         }
       },
-      "name:8": "Pure Daisy"
+      "name:8": "白雏菊"
     }
   },
   "questID:3": 20621,

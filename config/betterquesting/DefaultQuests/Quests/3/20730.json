@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Yet another way to make hydrogen and oxygen...\nUse holo projector to see multiblock preview.",
+      "desc:8": "又一种产出氢和氧的机器……\n使用全息投影器查看多方块预览。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "advancedrocketry:electrolyser"
       },
-      "name:8": "Electrolyser"
+      "name:8": "电解器"
     }
   },
   "questID:3": 20730,

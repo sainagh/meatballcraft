@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Americium-Fermium fuel",
+      "desc:8": "镅镄燃料",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:amfm_fuel"
       },
-      "name:8": "AmFm Fuel"
+      "name:8": "镅镄燃料"
     }
   },
   "questID:3": 702,
