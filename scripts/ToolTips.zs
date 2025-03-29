@@ -394,9 +394,9 @@
 <openblocks:stencil:13>.addTooltip(format.green("可重复使用"));
 <openblocks:stencil:14>.addTooltip(format.green("可重复使用"));
 
-<contenttweaker:lunar_star>.addTooltip(format.red("发现于月球维度"));
+<contenttweaker:lunar_star>.addTooltip(format.red("发现于[虚无]月球维度"));
 
-<contenttweaker:pressed_spice>.addTooltip(format.red("将正确的香料与正确的开放式方块模组的模板结合，月球维度将指引你"));
+<contenttweaker:pressed_spice>.addTooltip(format.red("将正确的香料与正确的开放式方块模组的模板结合，[虚无]月球维度将指引你"));
 
 <contenttweaker:runic_ore>.addTooltip(format.red("在符境维度，使用斗轮式挖掘机开采Runic矿床"));
 <contenttweaker:runic_ore>.addTooltip(format.red("与正确的奇异矿簇（3个）结合，附魔山脉将指引你"));
@@ -1393,7 +1393,7 @@
 
 <astralsorcery:blockobservatory>.addTooltip(format.red("按住Shift锁定视角"));
 
-<mysticalagradditions:stuff:69>.addTooltip(format.red("发现于月球"));
+<mysticalagradditions:stuff:69>.addTooltip(format.red("发现于[高级火箭]月球"));
 
 <forestry:pollen_fertile>.addTooltip(format.red("使用花粉收集装备右击杂交种的树叶"));
 

@@ -124,7 +124,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:pixonia_infusion_key>.addTooltip(format.green("可重复使用"));
 
-<aoa3:lunar_greatblade>.addTooltip(format.red("发现于月球维度"));
+<aoa3:lunar_greatblade>.addTooltip(format.red("发现于[虚无]月球维度"));
 
 <contenttweaker:fluix_lens>.addTooltip(format.red("丢入水中来打开通往暮色森林的传送门"));
 
@@ -1520,7 +1520,7 @@ import crafttweaker.item.IItemCondition;
 
 <enderio:item_travel_staff>.addTooltip(format.red("传送！可穿过方块，或者传送到旅行锚"));
 
-<contenttweaker:fragment_of_the_arbiter>.addTooltip(format.red("发现于月球"));
+<contenttweaker:fragment_of_the_arbiter>.addTooltip(format.red("发现于[高级火箭]月球"));
 
 <contenttweaker:fragment_of_the_arbiter>.addTooltip(format.green("在月面土配方中可重复使用"));
 
@@ -2410,7 +2410,7 @@ import crafttweaker.item.IItemCondition;
 <aoa3:fungal_banner>.addTooltip(format.red("与秘境维度的亡灵使者交易获得"));
 <aoa3:haunted_banner>.addTooltip(format.red("与格瑞克维度的亡灵使者交易获得"));
 <aoa3:mecha_banner>.addTooltip(format.red("与黄金维度的亡灵使者交易获得"));
-<aoa3:lunar_banner>.addTooltip(format.red("与月球维度的亡灵使者交易获得"));
+<aoa3:lunar_banner>.addTooltip(format.red("与[虚无]月球维度的亡灵使者交易获得"));
 <aoa3:boreic_banner>.addTooltip(format.red("与暴风维度的亡灵使者交易获得"));
 <aoa3:rosidian_banner>.addTooltip(format.red("与花园维度的亡灵使者交易获得"));
 <aoa3:vox_banner>.addTooltip(format.red("与未知维度的亡灵使者交易获得"));
