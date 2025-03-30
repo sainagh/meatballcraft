@@ -4875,7 +4875,7 @@ meatballmancallstone.itemRightClick = function(stack, world, player, hand) {
     player.sendChat("站在以下方块上方：");
     player.sendChat("噩兆机壳（上）");
     player.sendChat("超越天显化法器（中）");
-    player.sendChat("神话开掘反应堆（下）");
+    player.sendChat("神话开掘反应器（下）");
 
     player.sendChat("检查玩家位置中");
     player.sendChat("==================================================");
@@ -4909,7 +4909,7 @@ meatballmancallstone.itemRightClick = function(stack, world, player, hand) {
     var blockPos3 = pos3.asBlockPos();
     var blockState3 = world.getBlock(blockPos3).definition.id as string;
     if(blockState3 != "contenttweaker:mythic_excavation_reactor") {
-        player.sendChat("缺少神话开掘反应堆");
+        player.sendChat("缺少神话开掘反应器");
         return "FAIL";
     }
 
