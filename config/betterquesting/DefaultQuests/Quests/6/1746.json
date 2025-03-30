@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o防止都奥术工作台上方，使其灵气使用范围扩展至周边3x3区块！",
+      "desc:8": "§7§o放置在奥术工作台上方，使其灵气使用范围扩展至周边3x3区块！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:arcane_workbench_charger"
