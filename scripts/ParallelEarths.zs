@@ -809,7 +809,7 @@ warrencreationfabrial.itemRightClick = function(stack, world, player, hand) {
     var blockPos11 = pos11.asBlockPos();
     var blockState11 = world.getBlock(blockPos11).definition.id as string;
     if(blockState11 != "contenttweaker:mythic_excavation_reactor") {
-        player.sendChat("缺少神话开掘反应堆 (2,2)");
+        player.sendChat("缺少神话开掘反应器 (2,2)");
         return "FAIL";
     }
 
@@ -820,7 +820,7 @@ warrencreationfabrial.itemRightClick = function(stack, world, player, hand) {
     var blockPos12 = pos12.asBlockPos();
     var blockState12 = world.getBlock(blockPos12).definition.id as string;
     if(blockState12 != "contenttweaker:mythic_excavation_reactor") {
-        player.sendChat("缺少神话开掘反应堆 (2,-2)");
+        player.sendChat("缺少神话开掘反应器 (2,-2)");
         return "FAIL";
     }
 
@@ -831,7 +831,7 @@ warrencreationfabrial.itemRightClick = function(stack, world, player, hand) {
     var blockPos13 = pos13.asBlockPos();
     var blockState13 = world.getBlock(blockPos13).definition.id as string;
     if(blockState13 != "contenttweaker:mythic_excavation_reactor") {
-        player.sendChat("缺少神话开掘反应堆 (-2,2)");
+        player.sendChat("缺少神话开掘反应器 (-2,2)");
         return "FAIL";
     }
 
@@ -842,7 +842,7 @@ warrencreationfabrial.itemRightClick = function(stack, world, player, hand) {
     var blockPos14 = pos14.asBlockPos();
     var blockState14 = world.getBlock(blockPos14).definition.id as string;
     if(blockState14 != "contenttweaker:mythic_excavation_reactor") {
-        player.sendChat("缺少神话开掘反应堆 (-2,-2)");
+        player.sendChat("缺少神话开掘反应器 (-2,-2)");
         return "FAIL";
     }
 
