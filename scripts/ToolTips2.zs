@@ -3131,7 +3131,7 @@ import crafttweaker.item.IItemCondition;
 <enderutilities:handybag:0>.addTooltip(format.red("警告：不要将背包放进额外物品栏，可能会造成内存泄漏"));
 <enderutilities:handybag:1>.addTooltip(format.red("警告：不要将背包放进额外物品栏，可能会造成内存泄漏"));
 
-<aoa3:hive_egg>.addTooltip(format.red("使用蜂巢块左击蜂巢卵！"));
+<aoa3:hive_egg>.addTooltip(format.red("使用蜂巢块左击变异蝙蝠！"));
 
 <ore:ayeracoStatue>.addTooltip(format.red("在末地使用部落号角！"));
 
