@@ -713,7 +713,7 @@
 
 <contenttweaker:recursive_powder>.addTooltip(format.red("感谢NerdySpider绘制的阿肯石处理线纹理！"));
 
-<contenttweaker:sideral_reflector>.addTooltip(format.red("感谢NerdySpider绘制的星系列纹理！"));
+<contenttweaker:sideral_reflector>.addTooltip(format.red("感谢NerdySpider绘制的定星系列纹理！"));
 
 <contenttweaker:nice_clean_salad>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:sacred_cinders_fruit>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
