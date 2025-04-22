@@ -101,7 +101,7 @@
 		{"key": "minecraft:frost_walker.desc", "value": "Freezes water around the player. (Level+2 block range.)"},
 		{"key": "minecraft:infinity.desc", "value": "Bows don't consume arrows."},
 		{"key": "minecraft:knockback.desc", "value": "Increases knockback."},
-		{"key": "minecraft:looting.desc", "value": "Chance of more loot. Increases max amount of common drops by level. Rare drop chance increased by 1%% per level. Also gives a (level/level+1) chance of rare drops if the first dosent succeed."},
+		{"key": "minecraft:looting.desc", "value": "Chance of more loot. Increases max amount of common drops by level. Rare drop chance increased by 1%% per level. Also gives a (level/level+1) chance of rare drops if the first doesn't succeed."},
 		{"key": "minecraft:luck_of_the_sea.desc", "value": "More treasure, less fish and junk. +2%% treasure chance, -2%% junk chance, and -0.15%% fish chance."},
 		{"key": "minecraft:lure.desc", "value": "Fish bite faster. ±1 second on the max and min bite times."},
 		{"key": "minecraft:mending.desc", "value": "Repairs the item using experience."},
