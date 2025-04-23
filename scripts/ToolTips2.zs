@@ -3327,7 +3327,7 @@ import crafttweaker.item.IItemCondition;
 <thaumcraft:scribing_tools>.addTooltip(format.red("右击木桌"));
 <thaumcraft:table_wood>.addTooltip(format.red("使用笔与墨右击"));
 
-<thaumcraft:arcane_workbench_charger>.addTooltip(format.red("放置在奥术工作台上方，使其灵力使用范围扩展至周边3x3区块！"));
+<thaumcraft:arcane_workbench_charger>.addTooltip(format.red("放置在奥术工作台上方，使其灵气使用范围扩展至周边3x3区块！"));
 
 <thaumcraft:everfull_urn>.addTooltip(format.red("自动向周围的坩埚加水"));
 
