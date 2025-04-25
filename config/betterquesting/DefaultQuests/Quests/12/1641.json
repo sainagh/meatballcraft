@@ -15,12 +15,12 @@
         "id:8": "thermalfoundation:armor.plate_lead",
         "tag:10": {
           "display:10": {
-            "Name:8": "Radiation-Absorbing Chestplate"
+            "Name:8": "辐射吸收胸甲"
           },
           "ncRadiationResistance:6": 100.0
         }
       },
-      "name:8": "Radiation-Absorbing"
+      "name:8": "辐射吸收"
     }
   },
   "questID:3": 1641,
@@ -33,7 +33,7 @@
           "id:8": "thermalfoundation:armor.helmet_lead",
           "tag:10": {
             "display:10": {
-              "Name:8": "Radiation-Absorbing Helmet"
+              "Name:8": "辐射吸收头盔"
             },
             "ncRadiationResistance:6": 100.0
           }
@@ -43,7 +43,7 @@
           "id:8": "thermalfoundation:armor.plate_lead",
           "tag:10": {
             "display:10": {
-              "Name:8": "Radiation-Absorbing Chestplate"
+              "Name:8": "辐射吸收"
             },
             "ncRadiationResistance:6": 100.0
           }
@@ -53,7 +53,7 @@
           "id:8": "thermalfoundation:armor.legs_lead",
           "tag:10": {
             "display:10": {
-              "Name:8": "Radiation-Absorbing Leggings"
+              "Name:8": "辐射吸收护腿"
             },
             "ncRadiationResistance:6": 100.0
           }
@@ -63,7 +63,7 @@
           "id:8": "thermalfoundation:armor.boots_lead",
           "tag:10": {
             "display:10": {
-              "Name:8": "Radiation-Absorbing Boots"
+              "Name:8": "辐射吸收靴子"
             },
             "ncRadiationResistance:6": 100.0
           }

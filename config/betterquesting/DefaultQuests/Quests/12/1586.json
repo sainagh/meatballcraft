@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§8§7§oThis quest tab lists all of the armor sets available in each chapter.\n\nThe enchantments on your armor are more important than the armor you wear, and it is possible to make good builds with pretty much any set!\n\nBonus points if you collect them all!",
+      "desc:8": "§8§7§o该任务标签页中列出了每章节中可用的所有盔甲。\n\n魔咒比盔甲本身更重要，实际上用任何套装都能搭配出强力构筑！\n\n如果你能收集全部盔甲，还能获得额外奖励！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:bedrock_chestplate"
       },
-      "name:8": "The Meatballcraft Armory"
+      "name:8": "肉丸工艺盔甲库"
     }
   },
   "questID:3": 1586,
