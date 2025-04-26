@@ -1,0 +1,22 @@
+{
+	x: 20.0d,
+	y: 12.0d,
+	text: [
+		"Found in the Deeplands Dimension by Advent of Ascension",
+		"Can be Dropped by 'Kror'",
+		"Can be Found in Deep Cases",
+		"Ore Can be Found Between Y=70 to Y=114 Wherever There is Deep Rock",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"4ed812bb"
+	],
+	tasks: [{
+		uid: "e1f57c76",
+		type: "item",
+		items: [{
+			item: "aoa3:charged_runium_chunk"
+		}]
+	}]
+}

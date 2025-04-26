@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: 7.0d,
+	dependencies: [
+		"4a91c2a6"
+	],
+	tasks: [{
+		uid: "b8006425",
+		type: "item",
+		items: [{
+			item: "projectex:stone_table"
+		}]
+	}]
+}

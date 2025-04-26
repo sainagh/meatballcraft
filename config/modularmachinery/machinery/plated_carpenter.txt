@@ -1,0 +1,566 @@
+
+{
+    "registryname": "plated_carpenter",
+    "localizedname": "Plated Carpenter",
+	"color": "8a7a57",
+    "modifiers": [
+        {
+            "elements": "divinerpg:eden_planks",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "Replace center block for faster recipes, 20X faster",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.05
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "forestry:resource_storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "forestry:bee_combs_0@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "forestry:resource_storage@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "forestry:resource_storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "forestry:resource_storage@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:planks"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "forestry:resource_storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "forestry:resource_storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "forestry:resource_storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "forestry:resource_storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "forestry:bee_combs_0@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "forestry:resource_storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "forestry:resource_storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "forestry:resource_storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "forestry:resource_storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "forestry:resource_storage@3"
+            ]
+        }
+    ]}

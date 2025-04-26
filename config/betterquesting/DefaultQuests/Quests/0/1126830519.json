@@ -4,14 +4,25 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "minecraft:nether_star"
+        "id:8": "contenttweaker:seal_of_the_arbiter_historian"
       },
-      "name:8": "New Quest"
+      "name:8": "Historian"
     }
   },
   "questID:3": 1126830519,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:seal_of_the_arbiter_historian"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

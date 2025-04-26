@@ -1,0 +1,1733 @@
+{
+    "registryname": "processor_clean_room",
+    "localizedname": "Processor Clean Room",
+	"color": "c4c4c4",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:ascended_fluix_etcher",
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "description": "Multiplies speed by 10",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.1
+            }]
+        }
+    ],
+    "parts": [
+        {
+            "x": -4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fluix_etcher@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "techreborn:storage2@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@2"
+            ]
+        }
+    ]}

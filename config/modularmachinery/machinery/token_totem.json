@@ -1,0 +1,534 @@
+{
+    "registryname": "token_totem",
+    "localizedname": "Token Totem",
+	"color": "363636",
+    "parts": [
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:master_rune_box@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thaumadditions:dawn_totem@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "token_totem_output"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "token_totem_output"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "token_totem_output"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "token_totem_output"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "token_totem_output"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "token_totem_output"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thaumadditions:dawn_totem@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thaumadditions:dawn_totem@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "token_totem_output"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "token_totem_output"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        }
+    ]}

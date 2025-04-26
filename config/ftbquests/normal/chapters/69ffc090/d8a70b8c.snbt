@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: -4.5d,
+	dependencies: [
+		"86e97a13"
+	],
+	tasks: [{
+		uid: "255895ab",
+		type: "item",
+		items: [{
+			item: "draconicevolution:celestial_manipulator"
+		}]
+	}]
+}

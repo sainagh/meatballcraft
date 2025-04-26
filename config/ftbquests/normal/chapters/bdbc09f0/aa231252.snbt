@@ -1,0 +1,17 @@
+{
+	x: 9.0d,
+	y: -3.0d,
+	dependencies: [
+		"39fac503"
+	],
+	tasks: [{
+		uid: "8dbbb603",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:advanced_compression_engine"
+			}
+		}]
+	}]
+}

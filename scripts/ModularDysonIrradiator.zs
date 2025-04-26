@@ -208,6 +208,16 @@ irradiationultimatechicktop.addItemOutput(<avaritia:resource:6>*12);
 irradiationultimatechicktop.addItemOutput(<extendedcrafting:singularity_ultimate>);
 irradiationultimatechicktop.build();
 
+val irradiationultimatekashtop = RecipeBuilder.newBuilder("irradiationultimatekashtop","dyson_irradiator_top",200);
+irradiationultimatekashtop.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationultimatekashtop.addItemInput(<contenttweaker:defined_ingot>);
+irradiationultimatekashtop.addItemInput(<contenttweaker:infinity_egg>);
+irradiationultimatekashtop.addItemInput(<contenttweaker:infinity_stone>);
+irradiationultimatekashtop.addItemInput(<avaritiaitem:self_actualizing_stone>);
+irradiationultimatekashtop.addItemOutput(<avaritia:resource:6>*27);
+irradiationultimatekashtop.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationultimatekashtop.build();
+
 val irradiationultimatechickbot = RecipeBuilder.newBuilder("irradiationultimatechickbot","dyson_irradiator_bottom",200);
 irradiationultimatechickbot.addFluidInput(<fluid:hyperdense_plasma>*100);
 irradiationultimatechickbot.addItemInput(<contenttweaker:defined_ingot>);
@@ -217,6 +227,16 @@ irradiationultimatechickbot.addItemInput(<appliedenergistics2:material:47>);
 irradiationultimatechickbot.addItemOutput(<avaritia:resource:6>*12);
 irradiationultimatechickbot.addItemOutput(<extendedcrafting:singularity_ultimate>);
 irradiationultimatechickbot.build();
+
+val irradiationultimatekashbot = RecipeBuilder.newBuilder("irradiationultimatekashbot","dyson_irradiator_bottom",200);
+irradiationultimatekashbot.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationultimatekashbot.addItemInput(<contenttweaker:defined_ingot>);
+irradiationultimatekashbot.addItemInput(<contenttweaker:infinity_egg>);
+irradiationultimatekashbot.addItemInput(<contenttweaker:infinity_stone>);
+irradiationultimatekashbot.addItemInput(<avaritiaitem:self_actualizing_stone>);
+irradiationultimatekashbot.addItemOutput(<avaritia:resource:6>*27);
+irradiationultimatekashbot.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationultimatekashbot.build();
 
 val irradiationrainbowtop = RecipeBuilder.newBuilder("irradiationrainbowtop","dyson_irradiator_top",200);
 irradiationrainbowtop.addFluidInput(<fluid:chaos>*1440);

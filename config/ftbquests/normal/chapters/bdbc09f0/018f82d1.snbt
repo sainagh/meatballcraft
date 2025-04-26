@@ -1,0 +1,42 @@
+{
+	x: 19.0d,
+	y: -2.0d,
+	text: [
+		"This reactor uses the fusion between gases to produce A TON of RF.",
+		"It is built with a controller in the middle. Out of each of the four 'arms' of the controller, at least one fusion connector should be placed.",
+		"Starting from the ends of the connectors, electromagnets (preferrably of the transparent variety) are placed in a square toroid (leaving the middle empty).",
+		"In order to properly function, the electromagnets require power (provided by RF) and cooling (using active fluid coolers).",
+		"In a fusion reactor, central symmetry around the controller should be mantained for optimal results!"
+	],
+	dependencies: [
+		"ff287def"
+	],
+	tasks: [{
+		uid: "b1514308",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_core"
+		}]
+	},
+	{
+		uid: "5b0a9dec",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_connector"
+		}]
+	},
+	{
+		uid: "c44c0b1a",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_electromagnet_idle"
+		}]
+	},
+	{
+		uid: "6da79e3b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:active_cooler"
+		}]
+	}]
+}

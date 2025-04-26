@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: -3.0d,
+	dependencies: [
+		"d954adc2"
+	],
+	tasks: [{
+		uid: "994ca285",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 892"
+		}]
+	},
+	{
+		uid: "95f82332",
+		type: "fluid",
+		fluid: "refined_fuel"
+	}]
+}

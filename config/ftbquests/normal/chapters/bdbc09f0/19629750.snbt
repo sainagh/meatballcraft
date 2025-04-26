@@ -1,0 +1,20 @@
+{
+	x: 19.0d,
+	y: 3.0d,
+	text: [
+		"Energy from lava..."
+	],
+	dependencies: [
+		"ff287def"
+	],
+	tasks: [{
+		uid: "6ae92655",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_lava"
+			}
+		}]
+	}]
+}

@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Dragnipur"
+      "name:8": "Nightblood"
     }
   },
   "questID:3": 2030,
@@ -50,7 +50,7 @@
               "Lore:9": {
                 "0:8": "§d§oSuper-Enchanted§r"
               },
-              "Name:8": "§6§oDragnipur§r"
+              "Name:8": "§6§oNightblood§r"
             },
             "ench:9": {
               "0:10": {
@@ -65,7 +65,8 @@
                 "id:3": 83,
                 "lvl:3": 50
               }
-            }
+            },
+            "hunger:3": 7
           }
         }
       },

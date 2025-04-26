@@ -1,0 +1,15 @@
+{
+	x: 8.0d,
+	y: -9.0d,
+	dependencies: [
+		"48bcfc54",
+		"cdd5920b"
+	],
+	tasks: [{
+		uid: "2062e283",
+		type: "item",
+		items: [{
+			item: "draconicevolution:particle_generator 1 2"
+		}]
+	}]
+}

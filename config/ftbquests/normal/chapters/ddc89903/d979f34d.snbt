@@ -1,0 +1,14 @@
+{
+	x: -11.0d,
+	y: 4.5d,
+	dependencies: [
+		"fc5d626a"
+	],
+	tasks: [{
+		uid: "4e37f60a",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:cable"
+		}]
+	}]
+}

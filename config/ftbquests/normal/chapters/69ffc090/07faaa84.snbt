@@ -1,0 +1,17 @@
+{
+	x: -6.5d,
+	y: -8.5d,
+	text: [
+		"Despite the relative lack of concrete uses in golemancy (given other, better options), seals have use in higher arts (you'll see when you get there.)"
+	],
+	dependencies: [
+		"cabb54e0"
+	],
+	tasks: [{
+		uid: "08af62fe",
+		type: "item",
+		items: [{
+			item: "thaumcraft:seal"
+		}]
+	}]
+}

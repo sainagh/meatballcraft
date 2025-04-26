@@ -1,0 +1,16 @@
+{
+	x: -12.5d,
+	y: -10.5d,
+	dependencies: [
+		"0b74a1e0"
+	],
+	tasks: [{
+		uid: "2d88f6ff",
+		type: "item",
+		items: [{
+			item: "supersoundmuffler:sound_muffler_bauble"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: 12.0d,
+	dependencies: [
+		"a4fb9338"
+	],
+	tasks: [{
+		uid: "1760035f",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:crystallizer"
+		}]
+	}]
+}

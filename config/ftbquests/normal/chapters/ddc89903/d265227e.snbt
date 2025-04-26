@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: -12.0d,
+	text: [
+		"The upgrades keep on coming!"
+	],
+	dependencies: [
+		"f71e6f3b"
+	],
+	tasks: [{
+		uid: "74f84465",
+		type: "item",
+		items: [{
+			id: "dankstorage:dank_7",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

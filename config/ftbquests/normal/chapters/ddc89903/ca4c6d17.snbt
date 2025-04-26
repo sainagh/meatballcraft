@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: -8.0d,
+	text: [
+		"The drawer controller can be used to connect a network of touching drawers to be seen as a single inventory. Great for storage busses!"
+	],
+	dependencies: [
+		"4a69e531"
+	],
+	tasks: [{
+		uid: "c2f0fbbb",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}]
+}

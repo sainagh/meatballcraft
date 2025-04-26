@@ -932,3 +932,26 @@ mythallo127.addItemInput(<minecraft:string>*4);
 mythallo127.addItemOutput(<enderio:item_dark_steel_upgrade:0>);
 mythallo127.build();
 
+
+val mythallo128 = RecipeBuilder.newBuilder("mythallo128","mythic_processor_alloy_furnace",2);
+mythallo128.addEnergyPerTickInput(80000);
+mythallo128.addItemInput(<contenttweaker:dimensionally_ascended_garnet>);
+mythallo128.addItemInput(<projecte:item.pe_matter>*64);
+mythallo128.addItemOutput(<contenttweaker:alchemically_hyperactive_crystal>*64);
+mythallo128.build();
+
+val mythallo129 = RecipeBuilder.newBuilder("mythallo129","mythic_processor_alloy_furnace",2);
+mythallo129.addEnergyPerTickInput(80000);
+mythallo129.addItemInput(<contenttweaker:dimensionally_ascended_garnet>);
+mythallo129.addItemInput(<contenttweaker:deep_dark_matter>*8);
+mythallo129.addItemOutput(<contenttweaker:alchemically_hyperactive_crystal>*64);
+mythallo129.build();
+
+val mythallo130 = RecipeBuilder.newBuilder("mythallo130","mythic_processor_alloy_furnace",2);
+mythallo130.addEnergyPerTickInput(80000);
+mythallo130.addItemInput(<contenttweaker:fractal_stone>);
+mythallo130.addItemInput(<extrabees:misc:16>*4);
+mythallo130.addItemInput(<extrabees:misc:15>*4);
+mythallo130.addItemInput(<extrabees:misc:9>*4);
+mythallo130.addItemOutput(<contenttweaker:fractal_metal_clump>);
+mythallo130.build();

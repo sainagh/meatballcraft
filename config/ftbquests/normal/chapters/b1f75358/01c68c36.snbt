@@ -1,0 +1,24 @@
+{
+	x: 1.5d,
+	y: -1.0d,
+	text: [
+		"Once again, I have recieved new Isotopes. Time to experiment for some new fuel"
+	],
+	dependencies: [
+		"1ad8e351"
+	],
+	tasks: [{
+		uid: "34dcaeab",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:californium"
+		}]
+	},
+	{
+		uid: "8af4e5b7",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:californium 1 12"
+		}]
+	}]
+}

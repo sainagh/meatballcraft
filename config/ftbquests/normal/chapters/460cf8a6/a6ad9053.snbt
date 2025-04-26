@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 7.0d,
+	text: [
+		"Found between Y = 16 and Y = 42"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "088bb161",
+		type: "item",
+		items: [{
+			item: "bewitchment:opal"
+		}]
+	}]
+}

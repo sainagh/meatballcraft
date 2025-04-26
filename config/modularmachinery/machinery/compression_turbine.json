@@ -1,0 +1,1158 @@
+{
+    "registryname": "compression_turbine",
+    "localizedname": "Extreme Pressure Turbine",
+	"color": 878787,
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_output_fluid"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "bigreactors:turbinerotorshaft@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyoutputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:turbine_rotor_blade_sic_sic_cmc@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:turbine_rotor_blade_sic_sic_cmc@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:turbine_rotor_blade_sic_sic_cmc@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:turbine_rotor_blade_sic_sic_cmc@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:turbine_rotor_blade_sic_sic_cmc@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:turbine_rotor_blade_sic_sic_cmc@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:turbine_rotor_blade_sic_sic_cmc@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "techreborn:fusion_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:highly_advanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "techreborn:machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "bigreactors:turbinerotorshaft@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "techreborn:machine_frame@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:turbine_rotor_blade_sic_sic_cmc@2"
+            ]
+        }
+    ]}

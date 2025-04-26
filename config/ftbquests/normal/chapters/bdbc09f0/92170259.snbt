@@ -1,0 +1,14 @@
+{
+	x: 12.0d,
+	y: -7.0d,
+	dependencies: [
+		"eba3d3d4"
+	],
+	tasks: [{
+		uid: "1087956d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:depleted_hefm_fuel"
+		}]
+	}]
+}

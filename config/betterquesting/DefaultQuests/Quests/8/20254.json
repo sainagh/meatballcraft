@@ -7,7 +7,7 @@
       "desc:8": "Terra is a really weird planet, and for more that one reason.\nDue to its size, it should definitely be a gas giant, yet, for some reason, it is solid, and it\u0027s atmosphere is mostly made out of light gases, making it breathable.\nAlthough it has a moon, Luna, orbiting it at a fairly large distance, Terra is also surrounded by a moltitude of island-like asteroids.\nThese asteroids, due to their proximity, lie within the planet\u0027s atmosphere, and act as sky islands where gravity is pretty much mantained.\nIn addition to this, many regions of the planet\u0027s interior are hollow, in the form of very large caves situated at about the same distance from the core.",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "minecraft:stone"
+        "id:8": "minecraft:grass"
       },
       "name:8": "Terra"
     }
@@ -46,6 +46,16 @@
       "index:3": 0,
       "name:8": "Overworld",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:grass"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

@@ -1,0 +1,64 @@
+{
+  "preRequisites:11": [
+    1281489751
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "frame:8": "JAGGED",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:astral_mastery_tome"
+      },
+      "name:8": "Mastery of Astral Sorcery"
+    }
+  },
+  "questID:3": 93362209,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:written_book",
+          "tag:10": {
+            "author:8": "Sainagh",
+            "pages:9": {
+              "0:8": "{\"text\":\"Congratulations! You made it!\\nWas it worth it? That is up to you to decide...\\nFor sure, it must have been a crazy journey, and it must have had its wins and losses. Well, let\\u0027s end with an win!\\n \"}",
+              "1:8": "{\"text\":\"You are here, which means you have gained eternal glory in the pantheon of the cosmos!\\nYour mark, your contribution to our universe will not be forgotten!\"}",
+              "2:8": "{\"text\":\"If you so wish, you will be immortalized, in the form of a tooltip, on one of the special ending items, after completing their respective quests.\\n \"}",
+              "3:8": "{\"text\":\"Note that this can only be done once, and once you have your tooltip, you will not be able to request another.\\n \"}",
+              "4:8": "{\"text\":\"Once you have obtained the item you wish to be your official ending, send me a message on Discord showing proof of your completion (base posts in the screenshot forums are encouraged). Link in main menu!\"}",
+              "5:8": "{\"text\":\"Here are the items of eternal glory!\\n-Cosmic Balance\\n-Sword of the Cosmos\\n-Astral Mastery Tome\\n-Sashimi of the Gate of Darkness\\n-Cleansed Cinnamon Apple\\n-Black Hole Juice\\n-Tardis Coral\"}"
+            },
+            "resolved:1": 1,
+            "title:8": "Eternal Glory"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:astral_mastery_tome"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:astral_insight_100"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

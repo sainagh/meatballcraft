@@ -1,0 +1,28 @@
+{
+	x: -11.0d,
+	y: 3.5d,
+	dependencies: [
+		"fc5d626a"
+	],
+	tasks: [{
+		uid: "2740dc3d",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:variablestore"
+		}]
+	},
+	{
+		uid: "77000aba",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:variable"
+		}]
+	},
+	{
+		uid: "3ce49df1",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:portable_logic_programmer"
+		}]
+	}]
+}

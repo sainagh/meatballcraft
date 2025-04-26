@@ -1,0 +1,17 @@
+{
+	title: "Mo Powa Bebeh!",
+	x: -5.0d,
+	y: 0.0d,
+	text: [
+		"Here is a list of all possible ways of producing RF.",
+		"Using all of them (but the endergenic) is encouraged!"
+	],
+	dependencies: [
+		"bc0ba902"
+	],
+	tasks: [{
+		uid: "aecdab97",
+		type: "checkmark",
+		title: "Mo Powa Bebeh"
+	}]
+}

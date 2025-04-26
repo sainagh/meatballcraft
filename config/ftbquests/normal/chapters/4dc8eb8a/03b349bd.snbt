@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	text: [
+		"At the cost of some radioactive material, and a bunch of power, bees can be easily bred into new species. Variance may still play a role, though..."
+	],
+	dependencies: [
+		"23f7241d"
+	],
+	tasks: [{
+		uid: "d55a72c7",
+		type: "item",
+		items: [{
+			item: "gendustry:mutatron"
+		}]
+	},
+	{
+		uid: "a3deccb4",
+		type: "item",
+		items: [{
+			item: "gendustry:mutagen_producer"
+		}]
+	}]
+}

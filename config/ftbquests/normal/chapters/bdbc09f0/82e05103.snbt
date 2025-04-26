@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: 3.0d,
+	text: [
+		"More better solar panels!"
+	],
+	dependencies: [
+		"a1a7e7fd"
+	],
+	tasks: [{
+		uid: "282b9669",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:solar_panel_advanced"
+		}]
+	}]
+}

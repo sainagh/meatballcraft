@@ -1,0 +1,413 @@
+{
+    "registryname": "pe_sterilizer",
+    "localizedname": "PE Sterilizer",
+	"color": "011112",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:omothol_containment_stone",
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "description": "Replace energy container for better output, 5X",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 5.0
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:abyssal_wasteland_containment_stone"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:decorativestatue@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:decorativestatue@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:decorativestatue@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:decorativestatue@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:decorativestatue@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "generalized_output_fluid"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:decorativestatue@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abybrick@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:decorativestatue@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abybrick@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abybrick@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:darkstone_brick@0"
+            ]
+        }
+    ]}

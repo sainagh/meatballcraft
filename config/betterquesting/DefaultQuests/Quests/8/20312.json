@@ -7,7 +7,8 @@
       "desc:8": "§7§o5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "aoa3:archaic_squares"
+        "Damage:2": 5,
+        "id:8": "chisel:gold"
       },
       "name:8": "Immortallis"
     }
@@ -20,6 +21,17 @@
       "index:3": 0,
       "name:8": "Immortallis",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "chisel:gold"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

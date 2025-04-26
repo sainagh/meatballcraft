@@ -1,0 +1,25 @@
+{
+	x: 14.0d,
+	y: -10.0d,
+	text: [
+		"...and what does berkelium break into?!?",
+		"Californium Baby!"
+	],
+	dependencies: [
+		"1ad8e351"
+	],
+	tasks: [{
+		uid: "34dcaeab",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:californium"
+		}]
+	},
+	{
+		uid: "8af4e5b7",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:californium 1 12"
+		}]
+	}]
+}

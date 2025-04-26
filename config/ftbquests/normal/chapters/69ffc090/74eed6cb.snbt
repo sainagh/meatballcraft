@@ -1,0 +1,25 @@
+{
+	x: -7.5d,
+	y: -6.5d,
+	text: [
+		"The thaumometer has three main uses.",
+		"It allowsto see the presence of the two main thaumic fields, vis (good) and flux (bad).",
+		"It can be used to scan items and blocks (both in world and from the inventory) to reveal the essentia they possess, and to gain knowledge about the thaumic arts.",
+		"It shows its user the presence of essentia in a given block or machine."
+	],
+	dependencies: [
+		"51229b7e"
+	],
+	tasks: [{
+		uid: "99ac45ea",
+		type: "item",
+		items: [{
+			id: "thaumcraft:thaumometer",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

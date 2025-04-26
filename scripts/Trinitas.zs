@@ -208,6 +208,13 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:trinity_ingo
 <contenttweaker:unleashed_triquetra>, <contenttweaker:cuendillar_catalyst_2>, <contenttweaker:freedomsteel_ingot>,
 <contenttweaker:unleashed_triquetra>, <contenttweaker:cuendillar_catalyst_3>, <contenttweaker:freedomsteel_ingot>]);
 
+recipes.addShapeless(<contenttweaker:trinity_nugget>*9,
+[<contenttweaker:trinity_ingot>]);
+
+recipes.addShaped(<contenttweaker:trinity_ingot>,
+[[<contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>],
+[<contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>],
+[<contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>]]);
 
 mods.avaritia.ExtremeCrafting.addShaped("makesupergemofthecosmosbb",
 <contenttweaker:perfected_gem_of_the_cosmos>*2, 
@@ -334,6 +341,33 @@ null, <ore:ingotFractalliteHalite>, null,
 null, null, null]]);  
 
 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:dimensionally_ascended_garnet>, 
+10000000, 
+<aoa3:ancient_rock>, [
+    <extendedcrafting:singularity_custom:1001>, 
+    <extendedcrafting:singularity_custom:1002>, 
+    <extendedcrafting:singularity_custom:1003>, 
+    <extendedcrafting:singularity_custom:1004>, 
+    <extendedcrafting:singularity_custom:1005>, 
+    <extendedcrafting:singularity_custom:1006>, 
+    <extendedcrafting:singularity_custom:1007>, 
+    <extendedcrafting:singularity_custom:1008>, 
+    <extendedcrafting:singularity_custom:1009>, 
+    <extendedcrafting:singularity_custom:1010>, 
+    <extendedcrafting:singularity_custom:1011>, 
+    <extendedcrafting:singularity_custom:1012>, 
+    <extendedcrafting:singularity_custom:1013>, 
+    <extendedcrafting:singularity_custom:1014>, 
+    <extendedcrafting:singularity_custom:1015>, 
+    <extendedcrafting:singularity_custom:1016>, 
+    <extendedcrafting:singularity_custom:1017>, 
+    <extendedcrafting:singularity_custom:1018>, 
+    <extendedcrafting:singularity_custom:1019>, 
+    <extendedcrafting:singularity_custom:1020>, 
+    <extendedcrafting:singularity_custom:1021>, 
+    <extendedcrafting:singularity_custom:1022>, 
+    <extendedcrafting:singularity_custom:1023>]);
+
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:seal_of_the_arbiter_gemcutter>, 
@@ -347,23 +381,23 @@ null, <avaritiaitem:fractallite_halite_catalyst>, null,
 <avaritiaitem:fractallite_halite_catalyst>, <avaritiaitem:fractallite_halite_catalyst>, null], 
 
 [null, <avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:rune_of_freedom>, 
-<avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:shyre_wormhole>, <avaritiaitem:fractallite_halite_catalyst>, 
+<avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:dimensionally_ascended_garnet>, <avaritiaitem:fractallite_halite_catalyst>, 
 <contenttweaker:rune_of_freedom>, <avaritiaitem:fractallite_halite_catalyst>, null], 
 
 [null, null, <avaritiaitem:fractallite_halite_catalyst>, 
 <contenttweaker:rune_of_freedom>, <contenttweaker:freedomsteel_ingot>, <contenttweaker:rune_of_freedom>, 
 <avaritiaitem:fractallite_halite_catalyst>, null, null], 
 
-[<avaritiaitem:fractallite_halite_catalyst>, <avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:shyre_wormhole>, 
+[<avaritiaitem:fractallite_halite_catalyst>, <avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:dimensionally_ascended_garnet>, 
 <contenttweaker:freedomsteel_ingot>, <contenttweaker:seal_of_freedom>, <contenttweaker:freedomsteel_ingot>, 
-<contenttweaker:shyre_wormhole>, <avaritiaitem:fractallite_halite_catalyst>, <avaritiaitem:fractallite_halite_catalyst>], 
+<contenttweaker:dimensionally_ascended_garnet>, <avaritiaitem:fractallite_halite_catalyst>, <avaritiaitem:fractallite_halite_catalyst>], 
 
 [null, null, <avaritiaitem:fractallite_halite_catalyst>, 
 <contenttweaker:rune_of_freedom>, <contenttweaker:freedomsteel_ingot>, <contenttweaker:rune_of_freedom>, 
 <avaritiaitem:fractallite_halite_catalyst>, null, null], 
 
 [null, <avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:rune_of_freedom>, 
-<avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:shyre_wormhole>, <avaritiaitem:fractallite_halite_catalyst>, 
+<avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:dimensionally_ascended_garnet>, <avaritiaitem:fractallite_halite_catalyst>, 
 <contenttweaker:rune_of_freedom>, <avaritiaitem:fractallite_halite_catalyst>, null], 
 
 [null, <avaritiaitem:fractallite_halite_catalyst>, <avaritiaitem:fractallite_halite_catalyst>, 
@@ -758,11 +792,6 @@ recipes.addShaped(<contenttweaker:token_of_forgiveness>,
 
 
 
-
-
-
-
-
 mods.avaritia.ExtremeCrafting.addShaped("canonendingdire",
 <avaritiaitem:cosmic_balance>, 
 [[null, null, null, <contenttweaker:bewitched_cord>, <contenttweaker:offer_of_restored_balance>, <contenttweaker:bewitched_cord>, null, null, null],
@@ -782,3 +811,5 @@ mods.avaritia.ExtremeCrafting.addShaped("canonendingdire",
 [null, null, null, <ore:blockInfinity>, <avaritiaitem:fractallite_halite_catalyst>, <ore:blockInfinity>, null, null, null],
 
 [null, null, <ore:blockInfinity>, <avaritiaitem:fractallite_halite_catalyst>, <avaritiaitem:fractallite_halite_catalyst>, <avaritiaitem:fractallite_halite_catalyst>, <ore:blockInfinity>, null, null]]);
+
+

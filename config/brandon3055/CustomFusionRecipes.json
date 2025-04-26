@@ -803,5 +803,74 @@
             "contenttweaker:unleashed_triquetra",
             "contenttweaker:unleashed_triquetra"
         ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:charm_of_the_falling_tower",
+        "catalyst": "twilightforest:charm_of_keeping_3",
+        "energy": 2000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:ichorium_void_stone",
+            "contenttweaker:ichorium_void_stone",
+            "contenttweaker:ichorium_void_stone",
+            "contenttweaker:ichorium_void_stone",
+            "contenttweaker:meteoric_draconic_stone",
+            "contenttweaker:meteoric_draconic_stone",
+            "contenttweaker:meteoric_draconic_stone",
+            "contenttweaker:meteoric_draconic_stone"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:fractallite_halite_stone",
+        "catalyst": "contenttweaker:fractal_stone",
+        "energy": 20000000000,
+        "tier": 3,
+        "ingredients": [
+            "avaritiaitem:fractallite_halite_catalyst",
+            "avaritiaitem:fractallite_halite_catalyst",
+            "avaritiaitem:fractallite_halite_catalyst",
+            "avaritiaitem:fractallite_halite_catalyst",
+            "contenttweaker:meteoric_draconic_stone",
+            "contenttweaker:meteoric_draconic_stone",
+            "contenttweaker:meteoric_draconic_stone",
+            "contenttweaker:meteoric_draconic_stone"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:catalyst_of_balance",
+        "catalyst": "contenttweaker:balanced_machine_casing",
+        "energy": 20000000000,
+        "tier": 3,
+        "ingredients": [
+            "avaritiaitem:cosmic_balance",
+            "avaritiaitem:cosmic_balance",
+            "avaritiaitem:cosmic_balance",
+            "avaritiaitem:cosmic_balance",
+            "avaritiaitem:cosmic_halite_cluster",
+            "avaritiaitem:cosmic_halite_cluster",
+            "avaritiaitem:cosmic_halite_cluster",
+            "avaritiaitem:cosmic_halite_cluster"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:cosmic_string_conduit",
+        "catalyst": "contenttweaker:cosmic_string",
+        "energy": 40000000000,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:chaotic_core",
+            "draconicevolution:chaotic_core",
+            "draconicevolution:chaotic_core",
+            "draconicevolution:chaotic_core",
+            "ore:ingotFractalliteHalite",
+            "ore:ingotFractalliteHalite",
+            "contenttweaker:cuendillar_plate",
+            "contenttweaker:cuendillar_plate"
+        ]
     }
+
 ]

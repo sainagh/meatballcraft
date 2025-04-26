@@ -1,0 +1,18 @@
+{
+	x: 7.0d,
+	y: 2.0d,
+	text: [
+		"Passive RF from the sun!",
+		"The more compact, the better!"
+	],
+	dependencies: [
+		"024052db"
+	],
+	tasks: [{
+		uid: "ecd04ba4",
+		type: "item",
+		items: [{
+			item: "techreborn:solar_panel"
+		}]
+	}]
+}

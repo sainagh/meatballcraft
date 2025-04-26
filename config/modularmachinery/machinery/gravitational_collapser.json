@@ -1,0 +1,566 @@
+{
+    "registryname": "gravitational_collapser",
+    "localizedname": "Gravity Inverter",
+	"color": "bababa",
+    "parts": [
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:gravity_inverter@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:collapser_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:collapser_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:gravity_inverter@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:gravity_inverter@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:collapser_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:collapser_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:collapser_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:collapser_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:collapser_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:collapser_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:collapser_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:collapser_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:gravity_inverter@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:white_hole@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:gravity_inverter@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:collapser_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:collapser_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:collapser_conduit@0"
+            ]
+        }
+    ]}

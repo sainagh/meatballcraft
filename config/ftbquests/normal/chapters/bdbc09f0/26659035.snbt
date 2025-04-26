@@ -1,0 +1,20 @@
+{
+	x: 21.0d,
+	y: 5.0d,
+	text: [
+		"Finally a use for rotten flesh (and other things)"
+	],
+	dependencies: [
+		"ff287def"
+	],
+	tasks: [{
+		uid: "94e0828d",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_death"
+			}
+		}]
+	}]
+}

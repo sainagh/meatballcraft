@@ -1,0 +1,23 @@
+{
+	x: 8.5d,
+	y: -3.0d,
+	text: [
+		"Elytra are used to glide from hights.",
+		"The manufacturing of these objects has long been forgotten, and the remaining ones are guarded in libraries that are considered sacred by Testificates."
+	],
+	dependencies: [
+		"1a9cfbb7"
+	],
+	tasks: [{
+		uid: "6d9b27f2",
+		type: "item",
+		items: [{
+			id: "minecraft:elytra",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

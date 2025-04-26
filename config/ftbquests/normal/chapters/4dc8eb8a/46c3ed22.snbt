@@ -1,0 +1,24 @@
+{
+	x: -5.5d,
+	y: -5.5d,
+	text: [
+		"The obsidian electron tube is used to configure these large farms to produce peat, which I have no other way to automatically produce..."
+	],
+	dependencies: [
+		"1ae929d9"
+	],
+	tasks: [{
+		uid: "0c0ee346",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 6"
+		}]
+	},
+	{
+		uid: "0d58191b",
+		type: "item",
+		items: [{
+			item: "forestry:bog_earth"
+		}]
+	}]
+}

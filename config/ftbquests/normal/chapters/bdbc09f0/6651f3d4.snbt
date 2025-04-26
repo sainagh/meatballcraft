@@ -1,0 +1,20 @@
+{
+	x: 17.0d,
+	y: 4.0d,
+	text: [
+		"You can use gunpowder, but TNT is better!"
+	],
+	dependencies: [
+		"ff287def"
+	],
+	tasks: [{
+		uid: "2fec7fde",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_tnt"
+			}
+		}]
+	}]
+}

@@ -540,3 +540,62 @@ darkmatter.addMaterialTrait("magical_modifier");
 darkmatter.itemLocalizer = function(thisMaterial, itemName){return "Dark Matter " + itemName;};
 darkmatter.localizedName = "Dark Matter";
 darkmatter.register();
+
+
+val cosmicbalance = mods.contenttweaker.tconstruct.MaterialBuilder.create("cosmic_balance");
+cosmicbalance.color = 0x577d91;
+cosmicbalance.craftable = true;
+// abyssalflesh.liquid = <fluid:molten_barathosynium>;
+cosmicbalance.castable = false;
+cosmicbalance.addItem(<item:avaritiaitem:cosmic_balance>,1,144);
+cosmicbalance.representativeItem = <item:avaritiaitem:cosmic_balance>;
+cosmicbalance.addHeadMaterialStats(1, 1.62f, 1.04f, 1);
+cosmicbalance.addHandleMaterialStats(1.03, 1);
+cosmicbalance.addExtraMaterialStats(1);
+cosmicbalance.addProjectileMaterialStats();
+cosmicbalance.addBowMaterialStats(0.53, 1.54, 1);
+cosmicbalance.addMaterialTrait("hailhydra");
+cosmicbalance.addMaterialTrait("vindictive");
+cosmicbalance.addMaterialTrait("holy");
+cosmicbalance.itemLocalizer = function(thisMaterial, itemName){return "Cosmically Balanced " + itemName;};
+cosmicbalance.localizedName = "Cosmically Balanced";
+cosmicbalance.register();
+
+
+val trinity = mods.contenttweaker.tconstruct.MaterialBuilder.create("trinity");
+trinity.color = 0xa8ffe6;
+trinity.craftable = false;
+trinity.liquid = <fluid:trinity_ingot>;
+trinity.castable = true;
+trinity.addItem(<item:contenttweaker:trinity_ingot>,1,144);
+trinity.representativeItem = <item:contenttweaker:trinity_ingot>;
+trinity.addHeadMaterialStats(10000, 100.62f, 100000.04f, 100);
+trinity.addHandleMaterialStats(10.03, 10000);
+trinity.addExtraMaterialStats(10);
+trinity.addProjectileMaterialStats();
+trinity.addBowMaterialStats(0.53, 1.54, 1);
+trinity.addMaterialTrait("lightboost");
+trinity.addMaterialTrait("thunder2");
+trinity.addMaterialTrait("holy");
+trinity.itemLocalizer = function(thisMaterial, itemName){return "Trinity " + itemName;};
+trinity.localizedName = "Trinity";
+trinity.register();
+
+
+val worthy = mods.contenttweaker.tconstruct.MaterialBuilder.create("worthy");
+worthy.color = 0x3f1266;
+worthy.craftable = true;
+// abyssalflesh.liquid = <fluid:molten_barathosynium>;
+worthy.castable = false;
+worthy.addItem(<item:contenttweaker:stone_of_worthiness>,1,144);
+worthy.representativeItem = <item:contenttweaker:stone_of_worthiness>;
+worthy.addHeadMaterialStats(100, 1.62f, 6000.04f, 1);
+worthy.addHandleMaterialStats(1.03, 100);
+worthy.addExtraMaterialStats(4);
+worthy.addProjectileMaterialStats();
+worthy.addBowMaterialStats(0.53, 1.54, 1);
+worthy.addMaterialTrait("overflow");
+worthy.addMaterialTrait("bloodymary");
+worthy.itemLocalizer = function(thisMaterial, itemName){return "Worthy " + itemName;};
+worthy.localizedName = "Worthy";
+worthy.register();

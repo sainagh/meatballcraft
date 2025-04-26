@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: 8.5d,
+	text: [
+		"Things get W I D E R!"
+	],
+	dependencies: [
+		"1a203a70"
+	],
+	tasks: [{
+		uid: "674e70eb",
+		type: "item",
+		items: [{
+			id: "mysticalagriculture:watering_can",
+			Damage: 3s,
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

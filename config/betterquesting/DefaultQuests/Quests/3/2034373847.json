@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    929
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularmachinery:itemblueprint",
+        "tag:10": {
+          "dynamicmachine:8": "modularmachinery:dyson_dynamizer"
+        }
+      },
+      "name:8": "TARDIS Multiblocks"
+    }
+  },
+  "questID:3": 2034373847,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:dyson_dynamizer"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:dyson_scatterer"
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:dyson_revolver"
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:dyson_abater"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

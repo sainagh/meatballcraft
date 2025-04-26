@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    627303045
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "avaritiaitem:bedrock_blaster"
+      },
+      "name:8": "Blasting Bedrock"
+    }
+  },
+  "questID:3": 1900648883,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "avaritiaitem:bedrock_blaster"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:bedrock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

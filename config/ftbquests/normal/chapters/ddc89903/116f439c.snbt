@@ -1,0 +1,35 @@
+{
+	x: -5.0d,
+	y: 6.5d,
+	dependencies: [
+		"e1ae6499"
+	],
+	tasks: [{
+		uid: "06b8d8c1",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxplug"
+		}]
+	},
+	{
+		uid: "08f5ae35",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxpoint"
+		}]
+	},
+	{
+		uid: "9a31fab5",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcontroller"
+		}]
+	},
+	{
+		uid: "4b29273a",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxstorage"
+		}]
+	}]
+}

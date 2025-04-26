@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: 7.0d,
+	text: [
+		"Found in the nether"
+	],
+	dependencies: [
+		"06049c7f"
+	],
+	tasks: [{
+		uid: "7f559624",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 5"
+		}]
+	}]
+}

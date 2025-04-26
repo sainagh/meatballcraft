@@ -1,0 +1,30 @@
+{
+	x: -4.5d,
+	y: -2.0d,
+	text: [
+		"Thaumic magic can be used to replicate monsters?!",
+		"No essence needed?!"
+	],
+	dependencies: [
+		"dea6e5e5"
+	],
+	tasks: [{
+		uid: "6d757668",
+		type: "item",
+		items: [{
+			item: "thaumadditions:entity_summoner"
+		}]
+	},
+	{
+		uid: "42d41b50",
+		type: "item",
+		items: [{
+			id: "thaumadditions:dna_sample",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

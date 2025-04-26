@@ -1,0 +1,14 @@
+{
+	x: 11.0d,
+	y: 12.5d,
+	dependencies: [
+		"87fda1d2"
+	],
+	tasks: [{
+		uid: "e6f4099d",
+		type: "item",
+		items: [{
+			item: "openblocks:vacuum_hopper"
+		}]
+	}]
+}

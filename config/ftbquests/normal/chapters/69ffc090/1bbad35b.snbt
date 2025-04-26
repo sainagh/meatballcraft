@@ -1,0 +1,17 @@
+{
+	x: -5.5d,
+	y: 6.0d,
+	text: [
+		"Alchemical coal can be obtained using equivalence conversion with a Philosopher Stone, or by infusing glowstone using a collector."
+	],
+	dependencies: [
+		"4a91c2a6"
+	],
+	tasks: [{
+		uid: "09c6bc68",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_fuel"
+		}]
+	}]
+}

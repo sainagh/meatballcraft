@@ -1,0 +1,21 @@
+{
+	x: 21.5d,
+	y: 12.0d,
+	text: [
+		"Obtained from the Mysterium Dimension",
+		"Can be Found when Opening a Shiny Box",
+		"Ore Can be Found Below Y=100",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"c85088a1"
+	],
+	tasks: [{
+		uid: "9663f95e",
+		type: "item",
+		items: [{
+			item: "aoa3:mystite_ingot"
+		}]
+	}]
+}

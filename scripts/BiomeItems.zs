@@ -1204,3 +1204,104 @@ sprensummonerarrogance.itemRightClick = function(stack, world, player, hand) {
 
 };
 sprensummonerarrogance.register();
+
+
+
+
+
+
+var oathoftheundeadlords = VanillaFactory.createItem("oath_of_the_seven_undead_lords");
+oathoftheundeadlords.maxStackSize = 16;
+oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 193) {
+        player.sendChat("You gotta be in Travixte");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val IromineBiomeLocations = [[0,0]] as int[][];
+    val BoreanBiomeLocations = [[0,0]] as int[][];
+    val CeleveBiomeLocations = [[0,0]] as int[][];
+    val RunandorBiomeLocations = [[0,0]] as int[][];
+    val BarathosBiomeLocations = [[0,0]] as int[][];
+    val MysteriumBiomeLocations = [[0,0]] as int[][];
+    val IcespikesBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val IromineBiomeName = "Iromine" as string;
+    val BoreanBiomeName = "L'Borean Ponds" as string;
+    val CeleveBiomeName = "Celeve" as string;
+    val RunandorBiomeName = "Runandor" as string;
+    val BarathosBiomeName = "Barathos" as string;
+    val MysteriumBiomeName = "Mysterium" as string;
+    val IcespikesBiomeName = "Ice Plains Spikes" as string;
+
+
+    // get number of matches
+    val IromineMatches = checkBiomesAtPositions(IromineBiomeName, playerpos, IromineBiomeLocations, world) as int;
+    val BoreanMatches = checkBiomesAtPositions(BoreanBiomeName, playerpos, BoreanBiomeLocations, world) as int;
+    val CeleveMatches = checkBiomesAtPositions(CeleveBiomeName, playerpos, CeleveBiomeLocations, world) as int;
+    val RunandorMatches = checkBiomesAtPositions(RunandorBiomeName, playerpos, RunandorBiomeLocations, world) as int;
+    val BarathosMatches = checkBiomesAtPositions(BarathosBiomeName, playerpos, BarathosBiomeLocations, world) as int;
+    val MysteriumMatches = checkBiomesAtPositions(MysteriumBiomeName, playerpos, MysteriumBiomeLocations, world) as int;
+    val IcespikesMatches = checkBiomesAtPositions(IcespikesBiomeName, playerpos, IcespikesBiomeLocations, world) as int;
+
+
+    if((IromineMatches) == 1) {
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"Lord of Lust\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_lust\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+    if((BoreanMatches) == 1) {
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"Lord of Pride\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_pride\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+    if((CeleveMatches) == 1) {
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"Lord of Envy\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_envy\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+    if((RunandorMatches) == 1) {
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"Lord of Wrath\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_wrath\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+    if((BarathosMatches) == 1) {
+		Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:oath_of_the_lord_of_gluttony\",Count:1b}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+    if((MysteriumMatches) == 1) {
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"Lord of Greed\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_greed\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+    if((IcespikesMatches) == 1) {
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"Lord of Sloth\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_sloth\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("Kind of impressed that you got this message, why did you change the biomes in Travixte?");
+	player.sendChat("Well, here is a goodie");
+	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:fading_wool\",Count:1b}}", player, world, false, true);
+	return "FAIL";
+
+
+};
+oathoftheundeadlords.register();

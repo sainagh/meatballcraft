@@ -1,0 +1,22 @@
+{
+	title: "Empowered Monolith",
+	x: 9.0d,
+	y: 2.0d,
+	text: [
+		"Produces RF by consuming advanced eldritch structures (check JEI recipes).",
+		"Tartarite Monoliths are an easily renewable source."
+	],
+	dependencies: [
+		"024052db"
+	],
+	tasks: [{
+		uid: "939cbb2f",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:empowered_monolith"
+			}
+		}]
+	}]
+}

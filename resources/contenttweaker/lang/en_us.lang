@@ -2872,6 +2872,9 @@ tile.contenttweaker.seal_of_the_arbiter_gemcutter.name=Seal of the Arbiter: Gemc
 tile.contenttweaker.seal_of_the_arbiter_experimentalist.name=Seal of the Arbiter: Experimentalist
 tile.contenttweaker.seal_of_the_arbiter_engineer.name=Seal of the Arbiter: Engineer
 tile.contenttweaker.seal_of_freedom.name=Seal of Freedom
+tile.contenttweaker.ichorium_void_stone.name=Ichorium Void Stone
+tile.contenttweaker.void_ichorium_rift_cap.name=Void Ichorium Rift Cap
+tile.contenttweaker.halite_bejewelled_ichorium_catalyst.name=Halite Bejewelled Ichorium Catalyst
 
 
 

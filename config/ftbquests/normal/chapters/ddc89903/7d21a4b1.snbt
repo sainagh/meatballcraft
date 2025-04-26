@@ -1,0 +1,28 @@
+{
+	x: 1.0d,
+	y: 11.5d,
+	dependencies: [
+		"c3902da2"
+	],
+	tasks: [{
+		uid: "7b618a5a",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:servo 1 1"
+		}]
+	},
+	{
+		uid: "40fca34c",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:filter 1 1"
+		}]
+	},
+	{
+		uid: "26e049a8",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:retriever 1 1"
+		}]
+	}]
+}

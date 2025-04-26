@@ -1,0 +1,26 @@
+{
+	x: 14.0d,
+	y: -8.0d,
+	text: [
+		"Here on Terra, though, those radioactive scraps can be used to breed higher energy fuels.",
+		"The materials found here allow me to build more stable reactor casings, so I shouldn't have to detonate any nukes just to make new elements.",
+		"(Which is what the US did during the cold war BTW)"
+	],
+	dependencies: [
+		"d703a9f9"
+	],
+	tasks: [{
+		uid: "0ba06822",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:curium"
+		}]
+	},
+	{
+		uid: "b48e8fb9",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:curium 1 8"
+		}]
+	}]
+}

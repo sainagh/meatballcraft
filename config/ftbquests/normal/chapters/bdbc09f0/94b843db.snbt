@@ -1,0 +1,17 @@
+{
+	x: 16.0d,
+	y: -7.0d,
+	text: [
+		"It will split!"
+	],
+	dependencies: [
+		"ce47f691"
+	],
+	tasks: [{
+		uid: "9fc0941d",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:depleted_fuel_americium 1 2"
+		}]
+	}]
+}

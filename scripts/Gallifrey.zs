@@ -454,6 +454,20 @@ bastionofflesh.addFluidInput(<fluid:hungering_flesh_catalyst>*100);
 bastionofflesh.addFluidOutput(<fluid:essence_of_betrayal>*100);
 bastionofflesh.build();
 
+val bastionoffleshbett = RecipeBuilder.newBuilder("bastionoffleshbett","bastion_of_flesh",100);
+bastionoffleshbett.addItemInput(<contenttweaker:echo_warren_alloy>);
+bastionoffleshbett.addItemOutput(<contenttweaker:hungering_flesh_ingot>*4);
+bastionoffleshbett.addFluidInput(<fluid:hungering_flesh_catalyst>*100);
+bastionoffleshbett.addFluidOutput(<fluid:essence_of_betrayal>*100);
+bastionoffleshbett.build();
+
+val bastionoffleshbetterer = RecipeBuilder.newBuilder("bastionoffleshbetterer","bastion_of_flesh",100);
+bastionoffleshbetterer.addItemInput(<contenttweaker:echo_warren_bar>);
+bastionoffleshbetterer.addItemOutput(<contenttweaker:hungering_flesh_ingot>*16);
+bastionoffleshbetterer.addFluidInput(<fluid:hungering_flesh_catalyst>*100);
+bastionoffleshbetterer.addFluidOutput(<fluid:essence_of_betrayal>*100);
+bastionoffleshbetterer.build();
+
 
 
 recipes.addShaped(<contenttweaker:withering_fabrial>,
@@ -504,6 +518,44 @@ nameofnamesingotup.addItemInput(<contenttweaker:defined_ingot>);
 nameofnamesingotup.addItemInput(<contenttweaker:recursion_of_clarity>*2);
 nameofnamesingotup.addItemOutput(<contenttweaker:hyperuranion_ingot>);
 nameofnamesingotup.build();
+
+
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:dust_of_infinite_wishes>, <fluid:hint_of_divinity>*4000, <fluid:infinite_divine_wish>*4000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:dust_of_infinite_wishes>, <fluid:hint_of_insanity>*4000, <fluid:infinite_insane_wish>*4000]);
+
+
+val nameofnamesingotupup = RecipeBuilder.newBuilder("nameofnamesingotupup","altar_to_the_name_of_names",10);
+nameofnamesingotupup.addEnergyPerTickInput(2000000000);
+nameofnamesingotupup.addFluidInput(<fluid:naquadah_alloy>*16000);
+nameofnamesingotupup.addFluidInput(<fluid:dragonsteel_fire>*16000);
+nameofnamesingotupup.addFluidInput(<fluid:dragonsteel_ice>*16000);
+nameofnamesingotupup.addFluidInput(<fluid:dragonsteel_lightning>*16000);
+nameofnamesingotupup.addFluidInput(<fluid:mildly_recursive_goo>*16000);
+nameofnamesingotupup.addFluidInput(<fluid:high_entropy_hyperdense_plasma>*16000);
+nameofnamesingotupup.addFluidInput(<fluid:infinite_divine_wish>*16000);
+nameofnamesingotupup.addFluidInput(<fluid:infinite_insane_wish>*16000);
+nameofnamesingotupup.addItemInput(<contenttweaker:defined_ingot>);
+nameofnamesingotupup.addItemInput(<contenttweaker:recursion_of_clarity>*2);
+nameofnamesingotupup.addItemOutput(<contenttweaker:hyperuranion_ingot>*4);
+nameofnamesingotupup.build();
+
+
+val nameofnamesingotbeegwarr = RecipeBuilder.newBuilder("nameofnamesingotbeegwarr","altar_to_the_name_of_names",5);
+nameofnamesingotbeegwarr.addEnergyPerTickInput(2000000000);
+nameofnamesingotbeegwarr.addFluidInput(<fluid:naquadah_alloy>*16000);
+nameofnamesingotbeegwarr.addFluidInput(<fluid:dragonsteel_fire>*16000);
+nameofnamesingotbeegwarr.addFluidInput(<fluid:dragonsteel_ice>*16000);
+nameofnamesingotbeegwarr.addFluidInput(<fluid:dragonsteel_lightning>*16000);
+nameofnamesingotbeegwarr.addFluidInput(<fluid:mildly_recursive_goo>*16000);
+nameofnamesingotbeegwarr.addFluidInput(<fluid:high_entropy_hyperdense_plasma>*16000);
+nameofnamesingotbeegwarr.addFluidInput(<fluid:infinite_divine_wish>*16000);
+nameofnamesingotbeegwarr.addFluidInput(<fluid:infinite_insane_wish>*16000);
+nameofnamesingotbeegwarr.addItemInput(<contenttweaker:defined_bar>);
+nameofnamesingotbeegwarr.addItemInput(<contenttweaker:recursion_of_clarity>*2);
+nameofnamesingotbeegwarr.addItemOutput(<contenttweaker:hyperuranion_ingot>*8);
+nameofnamesingotbeegwarr.build();
 
 
 mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/requemofthearbiter", <contenttweaker:requiem_of_the_arbiter>, 4500, 400, [
@@ -687,6 +739,16 @@ recipes.addShaped(<contenttweaker:ascended_fluix_crystal>*4,
 [<avaritia:resource:6>, <contenttweaker:sword_of_truth>.reuse(), <avaritia:resource:6>],
 [<contenttweaker:flawless_fluix_crystal>, <avaritia:resource:6>, <contenttweaker:flawless_fluix_crystal>]]);
 
+recipes.addShaped(<contenttweaker:ascended_fluix_crystal>*16,
+[[<contenttweaker:flawless_fluix_crystal>, <contenttweaker:echo_warren_alloy>, <contenttweaker:flawless_fluix_crystal>],
+[<contenttweaker:echo_warren_alloy>, <contenttweaker:sword_of_truth>.reuse(), <contenttweaker:echo_warren_alloy>],
+[<contenttweaker:flawless_fluix_crystal>, <contenttweaker:echo_warren_alloy>, <contenttweaker:flawless_fluix_crystal>]]);
+
+recipes.addShaped(<contenttweaker:ascended_fluix_crystal>*64,
+[[<contenttweaker:flawless_fluix_crystal>, <contenttweaker:echo_warren_bar>, <contenttweaker:flawless_fluix_crystal>],
+[<contenttweaker:echo_warren_bar>, <contenttweaker:sword_of_truth>.reuse(), <contenttweaker:echo_warren_bar>],
+[<contenttweaker:flawless_fluix_crystal>, <contenttweaker:echo_warren_bar>, <contenttweaker:flawless_fluix_crystal>]]);
+
 val swordoftruth = <contenttweaker:sword_of_truth>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 4000},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]});
 
 mods.extendedcrafting.TableCrafting.addShaped(swordoftruth, 
@@ -695,3 +757,41 @@ mods.extendedcrafting.TableCrafting.addShaped(swordoftruth,
 [null, <contenttweaker:recursium_ingot>, <contenttweaker:lower_fragment_cosmos>, <contenttweaker:recursium_ingot>, null], 
 [<contenttweaker:fifth_order_mythic_fractal>, <contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:freed_betrayed_soul>, <contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:fifth_order_mythic_fractal>], 
 [null, null, <tconstruct:tough_tool_rod>.withTag({Material: "infinity_avaritia_plustic"}), null, null]]);  
+
+
+recipes.addShaped(<contenttweaker:corrupted_divine_ore>*64,
+[[<contenttweaker:strange_stone_essence>, <divinerpg:corrupted_stone>, <contenttweaker:strange_stone_essence>]]);
+
+recipes.addShaped(<contenttweaker:ender_divine_ore>*64,
+[[<contenttweaker:strange_stone_essence>, <divinerpg:ender_stone>, <contenttweaker:strange_stone_essence>]]);
+
+recipes.addShaped(<contenttweaker:ice_divine_ore>*64,
+[[<contenttweaker:strange_stone_essence>, <divinerpg:ice_stone>, <contenttweaker:strange_stone_essence>]]);
+
+recipes.addShaped(<contenttweaker:jungle_divine_ore>*64,
+[[<contenttweaker:strange_stone_essence>, <divinerpg:jungle_stone>, <contenttweaker:strange_stone_essence>]]);
+
+recipes.addShaped(<contenttweaker:molten_divine_ore>*64,
+[[<contenttweaker:strange_stone_essence>, <divinerpg:molten_stone>, <contenttweaker:strange_stone_essence>]]);
+
+recipes.addShaped(<contenttweaker:shadow_divine_ore>*64,
+[[<contenttweaker:strange_stone_essence>, <divinerpg:shadow_stone>, <contenttweaker:strange_stone_essence>]]);
+
+recipes.addShaped(<contenttweaker:terran_divine_ore>*64,
+[[<contenttweaker:strange_stone_essence>, <divinerpg:terran_stone>, <contenttweaker:strange_stone_essence>]]);
+
+
+recipes.addShaped(<divinerpg:legendary_ender_eye>*2,
+[[<divinerpg:ender_stone>, <divinerpg:ender_stone>, <divinerpg:ender_stone>],
+[<divinerpg:ender_stone>, <contenttweaker:strange_stone_essence>, <divinerpg:ender_stone>],
+[<divinerpg:ender_stone>, <divinerpg:ender_stone>, <divinerpg:ender_stone>]]);
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:strange_stone_callstone>, 
+[[<contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:ender_divine_ore>, <contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:imperfect_gallifreyan_plate>], 
+[<contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:ender_divine_ore>, <contenttweaker:defined_ingot>, <contenttweaker:ender_divine_ore>, <contenttweaker:imperfect_gallifreyan_plate>], 
+[<contenttweaker:ender_divine_ore>, <contenttweaker:defined_ingot>, <contenttweaker:fifth_order_mythic_fractal>, <contenttweaker:defined_ingot>, <contenttweaker:ender_divine_ore>], 
+[<contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:ender_divine_ore>, <contenttweaker:defined_ingot>, <contenttweaker:ender_divine_ore>, <contenttweaker:imperfect_gallifreyan_plate>], 
+[<contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:ender_divine_ore>, <contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:imperfect_gallifreyan_plate>]]);  

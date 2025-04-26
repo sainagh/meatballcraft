@@ -1,0 +1,21 @@
+{
+	title: "Automatich Chickens",
+	x: -3.5d,
+	y: 4.5d,
+	text: [
+		"The mechanized coop automatically produces chicken drops from their spawn eggs."
+	],
+	dependencies: [
+		"d5d3a2a5"
+	],
+	tasks: [{
+		uid: "4d126b43",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:mechanized_coop"
+			}
+		}]
+	}]
+}

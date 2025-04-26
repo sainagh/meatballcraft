@@ -343,3 +343,11 @@ masterspellaversio.register();
 
 
 
+var masterspellinfernum = VanillaFactory.createItem("master_spell_infernum");
+masterspellinfernum.maxStackSize = 1;
+masterspellinfernum.glowing = true;
+masterspellinfernum.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:cursed_dragon_egg\",Count:1b}}", player, world, false, true);
+	return "Pass";
+};
+masterspellinfernum.register();

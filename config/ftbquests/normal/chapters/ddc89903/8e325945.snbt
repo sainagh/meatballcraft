@@ -1,0 +1,35 @@
+{
+	x: 19.0d,
+	y: -8.0d,
+	dependencies: [
+		"c886443f"
+	],
+	tasks: [{
+		uid: "be6211a9",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:basic_crafter"
+		}]
+	},
+	{
+		uid: "40f99468",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:advanced_crafter"
+		}]
+	},
+	{
+		uid: "43ba63c7",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:elite_crafter"
+		}]
+	},
+	{
+		uid: "3f93b8a2",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:ultimate_crafter"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Portable Battery?",
+	x: 0.0d,
+	y: -4.0d,
+	text: [
+		"It appears I can contain one of the isotopes generated when reprocessing this new fuel, into a single block that will produce me 400 rf/t. Although it is a small amount, It seems to make a decent portable battery of sorts for small machines."
+	],
+	dependencies: [
+		"d6c40044"
+	],
+	tasks: [{
+		uid: "d5dd4137",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:californium 1 4"
+		}]
+	},
+	{
+		uid: "d71e964c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rtg_californium"
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 17.0d,
+	y: -6.0d,
+	text: [
+		"Now, americium time!"
+	],
+	dependencies: [
+		"fe51a0d4"
+	],
+	tasks: [{
+		uid: "3d7dc5a7",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:americium 1 4"
+		}]
+	},
+	{
+		uid: "321d144a",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:americium 1 8"
+		}]
+	}]
+}

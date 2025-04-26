@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: -8.0d,
+	dependencies: [
+		"0a5a8f52"
+	],
+	tasks: [{
+		uid: "3a8cfcfb",
+		type: "item",
+		items: [{
+			item: "techreborn:high_voltage_su"
+		}]
+	}]
+}

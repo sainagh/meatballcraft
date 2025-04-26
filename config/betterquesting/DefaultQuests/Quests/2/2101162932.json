@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    645740418
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:depleted_innerved_fissile_alloy"
+      },
+      "name:8": "Depleted Innerved Fissile Alloy"
+    }
+  },
+  "questID:3": 2101162932,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:depleted_innerved_fissile_alloy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

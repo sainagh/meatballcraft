@@ -1,0 +1,17 @@
+{
+	x: 16.0d,
+	y: -8.0d,
+	text: [
+		"And now, time to shit on earth's nuclear industry, the curium I made is safely fissible!"
+	],
+	dependencies: [
+		"ab1a11ff"
+	],
+	tasks: [{
+		uid: "8ce291d7",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:depleted_fuel_curium"
+		}]
+	}]
+}

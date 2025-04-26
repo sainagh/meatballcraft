@@ -10,14 +10,25 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "minecraft:nether_star"
+        "id:8": "contenttweaker:key_of_restored_balance"
       },
-      "name:8": "New Quest"
+      "name:8": "Restored Balance"
     }
   },
   "questID:3": 191189457,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:key_of_restored_balance"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

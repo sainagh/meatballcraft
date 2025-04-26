@@ -1,0 +1,17 @@
+{
+	x: 17.0d,
+	y: -2.0d,
+	text: [
+		"The energy acceptor is used to input energy into a basic (8 channels) AE2 network. For larger numbers of channels, the ME controller should be used."
+	],
+	dependencies: [
+		"5d5d164d"
+	],
+	tasks: [{
+		uid: "d067660e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:energy_acceptor"
+		}]
+	}]
+}

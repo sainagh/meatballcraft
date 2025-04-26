@@ -1,0 +1,430 @@
+{
+    "registryname": "mythical_resource_miner_tier7",
+    "localizedname": "Precasia Mythical Void Resource Miner",
+	"color": "383836",
+    "parts": [
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "aoa3:skeletal_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:ingot_storage@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:precasian_cap@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:ingot_storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "mysticalagriculture:ingot_storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:ingot_storage@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "aoa3:skeletal_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "aoa3:skeletal_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:precasian_cap@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:ingot_storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mysticalagriculture:ingot_storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:precasian_cap@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mysticalagriculture:ingot_storage@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "aoa3:skeletal_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:ingot_storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:precasian_cap@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_4@0"
+            ]
+        }
+    ]}

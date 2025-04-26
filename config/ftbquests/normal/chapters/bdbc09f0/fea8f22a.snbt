@@ -1,0 +1,14 @@
+{
+	x: 11.0d,
+	y: -7.0d,
+	dependencies: [
+		"92170259"
+	],
+	tasks: [{
+		uid: "4567987a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fermium_260"
+		}]
+	}]
+}

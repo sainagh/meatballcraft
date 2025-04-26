@@ -954,3 +954,54 @@ warrenbindermercury.register();
 
 var warrenbindertin = VanillaFactory.createFluid("warren_binder_tin", Color.fromHex("5f9ea3"));
 warrenbindertin.register();
+
+var fractallitetaint = VanillaFactory.createFluid("fractallite_taint", Color.fromHex("663999"));
+fractallitetaint.register();
+
+var hungeringfleshessence = VanillaFactory.createFluid("hungering_flesh_essence", Color.fromHex("bf5a82"));
+hungeringfleshessence.register();
+
+var ascendedfluixessence = VanillaFactory.createFluid("ascended_fluix_essence", Color.fromHex("a08acf"));
+ascendedfluixessence.register();
+
+var masteryofundeath = VanillaFactory.createFluid("mastery_of_undeath", Color.fromHex("362f8f"));
+masteryofundeath.register();
+
+var infinitedivinewish = VanillaFactory.createFluid("infinite_divine_wish", Color.fromHex("e3df00"));
+infinitedivinewish.register();
+
+var infiniteinsanewish = VanillaFactory.createFluid("infinite_insane_wish", Color.fromHex("d90b00"));
+infiniteinsanewish.register();
+
+var dopedrecursion = VanillaFactory.createFluid("doped_recursion", Color.fromHex("d90b00"));
+dopedrecursion.register();
+
+var weakwarrenessence = VanillaFactory.createFluid("low_grade_space_time_fuel", Color.fromHex("8dc3c4"));
+weakwarrenessence.register();
+
+var quarkgluonplasma = VanillaFactory.createFluid("strange_quark_gluon_plasma", Color.fromHex("9dd194"));
+quarkgluonplasma.register();
+
+var cosmicrayparticlemix = VanillaFactory.createFluid("cosmic_ray_particle_mix", Color.fromHex("899bc4"));
+cosmicrayparticlemix.register();
+
+var mediumwarrenessence = VanillaFactory.createFluid("medium_grade_space_time_fuel", Color.fromHex("63a5a6"));
+mediumwarrenessence.register();
+
+var strngwarrenessence = VanillaFactory.createFluid("high_grade_space_time_fuel", Color.fromHex("63a5a6"));
+strngwarrenessence.register();
+
+var trinityingot = VanillaFactory.createFluid("trinity_ingot", Color.fromHex("a8ffe6"));
+trinityingot.register();
+
+var galacticplasma = VanillaFactory.createFluid("galactic_plasma", Color.fromHex("a8e6da"));
+galacticplasma.register();
+
+var coldplasma = VanillaFactory.createFluid("cold_plasma", Color.fromHex("9eb8a5"));
+coldplasma.register();
+
+var blackholejuice = VanillaFactory.createFluid("black_hole_juice", Color.fromHex("000000"));
+blackholejuice.register();
+
+
+

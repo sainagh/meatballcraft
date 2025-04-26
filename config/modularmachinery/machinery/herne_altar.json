@@ -1,0 +1,78 @@
+{
+    "registryname": "herne_altar",
+    "localizedname": "Herne Altar",
+	"color": "2b2b2b",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:darkethaxiumbrick@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:herne_altar_stone"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:darkethaxiumbrick@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:darkethaxiumbrick@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:darkethaxiumbrick@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:darkethaxiumbrick@1"
+            ]
+        }
+    ]}

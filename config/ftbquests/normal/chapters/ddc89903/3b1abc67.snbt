@@ -1,0 +1,15 @@
+{
+	x: 11.0d,
+	y: 4.5d,
+	dependencies: [
+		"96697d2c"
+	],
+	tasks: [{
+		uid: "3275973b",
+		type: "item",
+		items: [{
+			id: "computercraft:turtle_expanded",
+			tag: {}
+		}]
+	}]
+}

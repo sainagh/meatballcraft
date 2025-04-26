@@ -352,3 +352,32 @@ justjambalaya.onItemFoodEaten = function(stack, world, player) {
 	player.sendChat("Everyone goes through struggle, but we can help each other through it!");
 };
 justjambalaya.register();
+
+
+var blackholejuice = VanillaFactory.createItemFood("black_hole_juice", 5);
+blackholejuice.saturation = 1;
+blackholejuice.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Don't thing about it, enjoy the moment, you made it!");
+};
+blackholejuice.register();
+
+var gatedarknesssashimi = VanillaFactory.createItemFood("sashimi_of_the_gate_of_darkness", 5);
+gatedarknesssashimi.saturation = 1;
+gatedarknesssashimi.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Enjoy your meal, master of Dimensional Ascension!");
+};
+gatedarknesssashimi.register();
+
+var callandorappleslice = VanillaFactory.createItemFood("linked_apple_slice", 5);
+callandorappleslice.saturation = 1;
+callandorappleslice.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("A taste of greatness");
+};
+callandorappleslice.register();
+
+var cleansedcinnamonapple = VanillaFactory.createItemFood("cleansed_cinnamon_apple", 5);
+cleansedcinnamonapple.saturation = 1;
+cleansedcinnamonapple.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Here we are! At the pinnacle of power!");
+};
+cleansedcinnamonapple.register();

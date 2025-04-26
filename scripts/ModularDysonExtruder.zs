@@ -41,3 +41,11 @@ dysonextruderplasma.addFluidInput(<fluid:recursive_computing_matter>*10);
 dysonextruderplasma.addFluidInput(<fluid:pure_recursion>*10);
 dysonextruderplasma.addFluidOutput(<fluid:pre_baryonic_plasma>*100);
 dysonextruderplasma.build();
+
+
+val dysonextruderdoped = RecipeBuilder.newBuilder("dysonextruderdoped","dyson_extruder",40);
+dysonextruderdoped.addEnergyPerTickInput(5000000000);
+dysonextruderdoped.addFluidInput(<fluid:recursive_computing_matter>*10);
+dysonextruderdoped.addFluidInput(<fluid:doped_recursion>*10);
+dysonextruderdoped.addFluidOutput(<fluid:pre_baryonic_plasma>*1000);
+dysonextruderdoped.build();

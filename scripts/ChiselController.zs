@@ -155,6 +155,13 @@ mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:shrin
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:chaotic_striker_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_extruder_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:mythic_excavation_lattice_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:orb_of_infinite_wishes_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:catalyst_of_balance_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_dynamizer_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_scatterer_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_revolver_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_abater_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:black_hole_juicer_controller>);
 
 
 
@@ -206,11 +213,13 @@ mods.chisel.Carving.addGroup("bigresourcegeneratorscontroller");
 
 
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:nightmare_electrolyzer_controller>);
+mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:recurrent_nightmare_synthesizer_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_actualizing_stone_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_naquadah_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_dimensional_shards_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_dragonsteel_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_rhenia_controller>);
+mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_ichor_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:recursive_brain_in_a_vat_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:recursive_brain_in_a_vat_ahkrast_korvalain_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:recursive_brain_in_a_vat_donaeth_rusen_controller>);

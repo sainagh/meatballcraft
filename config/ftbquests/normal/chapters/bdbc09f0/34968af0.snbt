@@ -1,0 +1,20 @@
+{
+	x: 21.0d,
+	y: 3.0d,
+	text: [
+		"Good enchantments make for a lot of RF, but bad ones are easier to make..."
+	],
+	dependencies: [
+		"ff287def"
+	],
+	tasks: [{
+		uid: "e1d4edb0",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_enchant"
+			}
+		}]
+	}]
+}

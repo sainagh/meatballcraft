@@ -1,0 +1,14 @@
+{
+	x: -5.5d,
+	y: -8.5d,
+	dependencies: [
+		"dc8950c9"
+	],
+	tasks: [{
+		uid: "3403d429",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_seed"
+		}]
+	}]
+}

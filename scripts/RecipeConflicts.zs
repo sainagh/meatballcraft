@@ -2491,3 +2491,66 @@ recipes.addShaped(<natura:nether_bookshelves:3>,
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:ogerite_ore>, <fluid:ogerite>*360]);
 
 
+recipes.addShapeless(<contenttweaker:jade_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:arlemite_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:realmite_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:limonite_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:rosite_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:rupee_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:amethyst_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:sapphire_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:netherite_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<chickens:liquid_egg:0>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<chickens:liquid_egg:1>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+
+
+recipes.addShapeless(<forestry:fruits:2>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<forestry:fruits:5>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<forestry:fruits:1>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<forestry:fruits:6>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<forestry:fruits:3>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<forestry:fruits:4>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<forestry:fruits:0>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+
+recipes.addShapeless(<extratrees:food:55>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:1>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:3>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:11>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:13>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:14>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:15>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:16>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:17>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:18>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:21>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:38>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);

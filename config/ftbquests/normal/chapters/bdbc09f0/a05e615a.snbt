@@ -1,0 +1,29 @@
+{
+	x: 5.0d,
+	y: -2.0d,
+	description: "For those who are too cool for lag...",
+	text: [
+		"Endergeic generators receive 'endergenic' pearls from a Pearl Injector, or an adjacent generator.",
+		"Receiving a pearl produces a burst of energy, but keeping a pearl consumes energy, so timing is everything!",
+		"Each generator will pass the endergeic hot potato to the next in line when receiving a redstone pulse.",
+		"With the right redstone timing and the right generator train, a lot of RF can be made.",
+		"or you can be boring and go on youtube and look up a tutorial..."
+	],
+	dependencies: [
+		"024052db"
+	],
+	tasks: [{
+		uid: "e7ff77ce",
+		type: "item",
+		items: [{
+			item: "rftools:endergenic"
+		}]
+	},
+	{
+		uid: "53b8e031",
+		type: "item",
+		items: [{
+			item: "rftools:pearl_injector"
+		}]
+	}]
+}

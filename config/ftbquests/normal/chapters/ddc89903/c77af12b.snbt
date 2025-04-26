@@ -1,0 +1,14 @@
+{
+	x: -13.0d,
+	y: 9.5d,
+	dependencies: [
+		"fc5d626a"
+	],
+	tasks: [{
+		uid: "4fd6a61b",
+		type: "item",
+		items: [{
+			item: "integratedtunnels:part_exporter_fluid_item"
+		}]
+	}]
+}

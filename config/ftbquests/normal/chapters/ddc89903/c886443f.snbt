@@ -1,0 +1,19 @@
+{
+	x: 18.0d,
+	y: -2.0d,
+	text: [
+		"The ME controller is the heart of every AE2 system.",
+		"Each controller can output 8 (basic) to 32 (dense) channels from each side, depending on the tipe of ME cable used.",
+		"Only one controller is allowed for a given network. Multiple controllers can be combined to form multiblocks. The maximum size of a controller is a 7x7x7 cube where only the edges are blocks."
+	],
+	dependencies: [
+		"e421838d"
+	],
+	tasks: [{
+		uid: "4766179d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}]
+}

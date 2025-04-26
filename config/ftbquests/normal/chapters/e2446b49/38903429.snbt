@@ -1,0 +1,23 @@
+{
+	x: -11.0d,
+	y: 4.5d,
+	text: [
+		"The goggles of revealing are used to observe many Thaumic phenomena.",
+		"Many of the thaumic fields, which are naturally intangible and impossible to observe, become evident while wearing these goggles."
+	],
+	dependencies: [
+		"75e5d0b0"
+	],
+	tasks: [{
+		uid: "2d3f6018",
+		type: "item",
+		items: [{
+			id: "thaumcraft:goggles",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

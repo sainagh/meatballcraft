@@ -7,7 +7,7 @@
       "desc:8": "",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "avaritia:infinity_sword"
+        "id:8": "avaritia:infinity_bow"
       },
       "name:8": "Infinity Gear"
     }
@@ -19,25 +19,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "avaritia:infinity_sword"
+          "id:8": "avaritia:infinity_bow"
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "avaritia:infinity_bow"
+          "id:8": "avaritia:infinity_helmet"
         },
         "2:10": {
           "Count:3": 1,
-          "id:8": "avaritia:infinity_helmet"
+          "id:8": "avaritia:infinity_chestplate"
         },
         "3:10": {
           "Count:3": 1,
-          "id:8": "avaritia:infinity_chestplate"
-        },
-        "4:10": {
-          "Count:3": 1,
           "id:8": "avaritia:infinity_pants"
         },
-        "5:10": {
+        "4:10": {
           "Count:3": 1,
           "id:8": "avaritia:infinity_boots"
         }

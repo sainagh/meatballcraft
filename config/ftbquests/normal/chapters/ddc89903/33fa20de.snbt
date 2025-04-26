@@ -1,0 +1,14 @@
+{
+	x: 21.0d,
+	y: 3.0d,
+	dependencies: [
+		"c886443f"
+	],
+	tasks: [{
+		uid: "df4ed399",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:arcane_terminal"
+		}]
+	}]
+}

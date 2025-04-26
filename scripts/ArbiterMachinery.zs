@@ -188,6 +188,8 @@ val mith30 = RecipeBuilder.newBuilder("mythicaltier30","mythical_resource_miner_
 mith30.addEnergyPerTickInput(500000000);
 mith30.addFluidInput(<fluid:ultimate_fractallite_essence>*50);
 mith30.addFluidInput(<fluid:infinity>*72);
+mith30.addItemOutput(<contenttweaker:opalescent_matter>*64);
+mith30.setChance(0.5);
 mith30.addItemOutput(<contenttweaker:opalescent_matter>*32);
 mith30.setChance(0.5);
 mith30.addItemOutput(<projectex:final_star_shard>);
@@ -198,7 +200,7 @@ mith30.addItemOutput(<contenttweaker:unbound_recursium_fragment>*64);
 mith30.setChance(0.5);
 mith30.addItemOutput(<contenttweaker:light_of_shadesmar>*10);
 mith30.setChance(0.1);
-mith30.addItemOutput(<contenttweaker:white_hole>);
+mith30.addItemOutput(<contenttweaker:white_hole>*20);
 mith30.setChance(0.1);
 mith30.addItemOutput(<contenttweaker:cosmic_pot>);
 mith30.setChance(0.1);
@@ -316,10 +318,19 @@ recipes.addShaped(<contenttweaker:hyperuranion_actualizer_rhenia>,
 [<contenttweaker:recursion_fragment_terra>, <contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:recursion_fragment_terra>],
 [<extendedcrafting:singularity_custom:2042>, <contenttweaker:recursion_fragment_terra>, <extendedcrafting:singularity_custom:2042>]]);
 
+recipes.addShaped(<contenttweaker:hyperuranion_actualizer_ichor>,
+[[<extendedcrafting:singularity_custom:628>, <tconstruct:large_plate>.withTag({Material: "ichorium"}), <extendedcrafting:singularity_custom:628>],
+[<tconstruct:large_plate>.withTag({Material: "ichorium"}), <contenttweaker:hyperuranon_actualizing_fabrial>, <tconstruct:large_plate>.withTag({Material: "ichorium"})],
+[<extendedcrafting:singularity_custom:628>, <tconstruct:large_plate>.withTag({Material: "ichorium"}), <extendedcrafting:singularity_custom:628>]]);
+
 
 val infiniteactualizing = RecipeBuilder.newBuilder("infiniteactualizing","warren_extractor_actualizing_stone",2);
 infiniteactualizing.addItemOutput(<contenttweaker:actualizing_stone>*1024);
 infiniteactualizing.build();
+
+val infiniteactualizingichor = RecipeBuilder.newBuilder("infiniteactualizingichor","warren_extractor_ichor",2);
+infiniteactualizingichor.addItemOutput(<contenttweaker:ichor>*1024);
+infiniteactualizingichor.build();
 
 val infinitenaquadah = RecipeBuilder.newBuilder("infinitenaquadah","warren_extractor_naquadah",2);
 infinitenaquadah.addItemOutput(<contenttweaker:naquadah_ore>*1024);

@@ -1,0 +1,17 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	text: [
+		"No variance, no problem!"
+	],
+	dependencies: [
+		"03b349bd"
+	],
+	tasks: [{
+		uid: "821cd8ab",
+		type: "item",
+		items: [{
+			item: "gendustry:mutatron_advanced"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -4.5d,
+	y: -10.0d,
+	dependencies: [
+		"e3823ba7"
+	],
+	tasks: [{
+		uid: "487bb526",
+		type: "item",
+		items: [{
+			item: "modularrouters:upgrade 1 3"
+		}]
+	}]
+}

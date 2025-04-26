@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"Radioactive blocks placed next to this generator will yield RF until they are fully decayed."
+	],
+	dependencies: [
+		"0a0a6666"
+	],
+	tasks: [{
+		uid: "43430e72",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:decay_generator"
+		}]
+	}]
+}

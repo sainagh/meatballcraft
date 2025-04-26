@@ -1,0 +1,250 @@
+{
+    "registryname": "neutronium_cannon",
+    "localizedname": "Neutronium Cannon",
+	"color": "382e2d",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:gallifreyan_neutronium_casing",
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "description": "Multiplies speed by 5",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.2
+            }]
+        },
+        {
+            "elements": "contenttweaker:trinity_neutronium_casing",
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "description": "Multiplies speed by 20",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.05
+            }]
+        }
+    ],
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "generalized_output_fluid"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:neutronium_cannon@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neutronium_cannon@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:neutronium_casing@0"
+            ]
+        }
+    ]}

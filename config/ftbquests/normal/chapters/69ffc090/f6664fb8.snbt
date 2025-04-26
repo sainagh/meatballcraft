@@ -1,0 +1,21 @@
+{
+	x: -11.5d,
+	y: -9.5d,
+	dependencies: [
+		"d31f3b74"
+	],
+	tasks: [{
+		uid: "1ec0d4bc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	},
+	{
+		uid: "239e63fb",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}]
+	}]
+}

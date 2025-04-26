@@ -1,0 +1,20 @@
+{
+	x: -10.0d,
+	y: -1.0d,
+	dependencies: [
+		"c9b5fe8a"
+	],
+	tasks: [{
+		uid: "b6f74a4d",
+		type: "item",
+		items: [{
+			id: "botania:lexicon",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

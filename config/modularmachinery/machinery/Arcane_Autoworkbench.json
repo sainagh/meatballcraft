@@ -1,0 +1,562 @@
+{
+    "registryname": "arcane_autoworkbench",
+    "localizedname": "Arcane Autoworkbench",
+	"color": 582078,
+    "modifiers": [
+        {
+            "elements": "thaumadditions:mithminite_block@0",
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "description": "5X Speed",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.2
+            }
+        },
+        {
+            "elements": "contenttweaker:ichorium_catalyst@0",
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "description": "20X Speed",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.05
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thaumcraft:arcane_workbench@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumcraft:stone_arcane@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumcraft:stone_arcane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumcraft:stone_arcane@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumcraft:stone_arcane@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thaumcraft:stone_arcane@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thaumadditions:chiseled_amber_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:stone_arcane@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thaumcraft:stone_arcane@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thaumadditions:chiseled_amber_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:stone_arcane@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thaumcraft:stone_arcane@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thaumcraft:stone_arcane@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thaumcraft:stone_arcane@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thaumcraft:stone_arcane@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "thaumcraft:paving_stone_travel@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "thaumcraft:paving_stone_travel@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thaumcraft:paving_stone_travel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thaumadditions:chiseled_amber_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thaumadditions:adaminite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thaumadditions:chiseled_amber_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thaumcraft:paving_stone_travel@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        }
+    ]}

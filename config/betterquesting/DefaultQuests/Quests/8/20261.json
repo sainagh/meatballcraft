@@ -7,7 +7,7 @@
       "desc:8": "§7§oRight click a warper item",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "contenttweaker:resonating_stone"
+        "id:8": "minecraft:red_sandstone"
       },
       "name:8": "Apichisi Wormhole"
     }
@@ -20,6 +20,16 @@
       "index:3": 0,
       "name:8": "Apichisi Wormhole",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:red_sandstone"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

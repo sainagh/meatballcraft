@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: 13.5d,
+	dependencies: [
+		"af9c5b71"
+	],
+	tasks: [{
+		uid: "8b0e650e",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_void_item"
+		}]
+	}]
+}

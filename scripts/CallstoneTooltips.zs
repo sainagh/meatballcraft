@@ -90,3 +90,8 @@
 <contenttweaker:dread_cleansing_callstone>.addTooltip(format.red("Use in this dimension:  Bedrock Dimension"));
 <contenttweaker:guardians_of_shadesmar_callstone>.addTooltip(format.red("Use in this dimension:  Kashan"));
 <contenttweaker:trinitas_callstone>.addTooltip(format.red("Use in this dimension:  Trinitas"));
+<contenttweaker:tainted_prison_key>.addTooltip(format.red("Use in this dimension:  Fuhai"));
+<contenttweaker:mission_of_undeath_callstone>.addTooltip(format.red("Use in this dimension:  Travixte"));
+<contenttweaker:gun_devil_confrontation_callstone>.addTooltip(format.red("Use in this dimension:  Travixte"));
+<contenttweaker:universal_constellation_callstone>.addTooltip(format.red("Use in this dimension:  Fuhai"));
+<contenttweaker:ghost_of_annoyance_callstone>.addTooltip(format.red("Use in this dimension:  Gallifrey"));

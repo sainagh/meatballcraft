@@ -1,6 +1,8 @@
 import mods.recipestages.Recipes;
 mods.ItemStages.stageEnchant("draconicstage", <enchantment:cofhcore:vorpal>);
 
+mods.ItemStages.stageEnchant("draconicstage", <enchantment:thaumictinkerer:valiance>);
+
 mods.ItemStages.stageEnchant("divinestage", <enchantment:tombstone:magic_siphon>);
 
 mods.ItemStages.stageEnchant("divinestage", <enchantment:mod_lavacow:corrosive>);

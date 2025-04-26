@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: 6.5d,
+	dependencies: [
+		"e1ae6499"
+	],
+	tasks: [{
+		uid: "049ce086",
+		type: "item",
+		items: [{
+			item: "tesslocator:basic_energy_tesslocator"
+		}]
+	}]
+}

@@ -1,0 +1,686 @@
+{
+    "registryname": "illuminated_enchanter",
+    "localizedname": "Illuminated Enchanter",
+	"color": "e8e7e6",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockinfusedwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:sea_lantern@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockbore@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:sea_lantern@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "minecraft:sea_lantern@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockbore@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockbore@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmapdrawingtable@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockbore@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "minecraft:sea_lantern@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "generalized_input_item"
+            ]
+        }
+    ]}

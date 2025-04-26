@@ -1,0 +1,14 @@
+{
+	x: -8.5d,
+	y: -11.5d,
+	dependencies: [
+		"5268ce8f"
+	],
+	tasks: [{
+		uid: "44d11739",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:autocaster_placer"
+		}]
+	}]
+}

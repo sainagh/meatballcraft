@@ -4455,7 +4455,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos1.z = pos1.z;
     var blockPos1 = pos1.asBlockPos();
     var blockState1 = world.getBlock(blockPos1).definition.displayName as string;
-    if(blockState1 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState1 != "Hyperuranion Actualizing Fabrial") {
+    if(blockState1 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState1 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4466,7 +4466,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos2.z = pos2.z;
     var blockPos2 = pos2.asBlockPos();
     var blockState2 = world.getBlock(blockPos2).definition.displayName as string;
-    if(blockState2 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState2 != "Hyperuranion Actualizing Fabrial") {
+    if(blockState2 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState2 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4477,7 +4477,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos3.z = pos3.z;
     var blockPos3 = pos3.asBlockPos();
     var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
-    if(blockState3 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState3 != "Hyperuranion Actualizing Fabrial") {
+    if(blockState3 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState3 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4488,7 +4488,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos4.z = pos4.z + 1;
     var blockPos4 = pos4.asBlockPos();
     var blockState4 = world.getBlock(blockPos4).definition.displayName as string;
-    if(blockState4 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState4 != "Hyperuranion Actualizing Fabrial") {
+    if(blockState4 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState4 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4499,7 +4499,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos5.z = pos5.z - 1;
     var blockPos5 = pos5.asBlockPos();
     var blockState5 = world.getBlock(blockPos5).definition.displayName as string;
-    if(blockState5 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState5 != "Hyperuranion Actualizing Fabrial") {
+    if(blockState5 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState5 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4510,7 +4510,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos6.z = pos6.z + 1;
     var blockPos6 = pos6.asBlockPos();
     var blockState6 = world.getBlock(blockPos6).definition.displayName as string;
-    if(blockState6 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState6 != "Hyperuranion Actualizing Fabrial") {
+    if(blockState6 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState6 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4521,7 +4521,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos7.z = pos7.z - 1;
     var blockPos7 = pos7.asBlockPos();
     var blockState7 = world.getBlock(blockPos7).definition.displayName as string;
-    if(blockState7 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState7 != "Hyperuranion Actualizing Fabrial") {
+    if(blockState7 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState7 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4532,7 +4532,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos8.z = pos8.z + 1;
     var blockPos8 = pos8.asBlockPos();
     var blockState8 = world.getBlock(blockPos8).definition.displayName as string;
-    if(blockState8 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState8 != "Hyperuranion Actualizing Fabrial") {
+    if(blockState8 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState8 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -4543,7 +4543,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
     pos9.z = pos9.z - 1;
     var blockPos9 = pos9.asBlockPos();
     var blockState9 = world.getBlock(blockPos9).definition.displayName as string;
-    if(blockState9 != "tile.contenttweaker.Hyperuranion_actualizing_fabrial.name" && blockState8 != "Hyperuranion Actualizing Fabrial") {
+    if(blockState9 != "tile.contenttweaker.hyperuranon_actualizing_fabrial.name" && blockState8 != "Hyperuranion Actualizing Fabrial") {
         player.sendChat("Missing one beacon pyramid block");
         return "FAIL";
     }
@@ -5100,3 +5100,133 @@ trinitascallstone.itemRightClick = function(stack, world, player, hand) {
 trinitascallstone.register();
 
 
+
+var taintedprisonkey = VanillaFactory.createItem("tainted_prison_key");
+taintedprisonkey.maxStackSize = 1;
+taintedprisonkey.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 192) {
+        player.sendChat("You gotta be in Fuhai");
+        return "FAIL";
+    }
+
+
+    Commands.call("pillar-spawn fuhai_structure_oldgod", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+taintedprisonkey.register();
+
+
+var missionofdeathcallstone = VanillaFactory.createItem("mission_of_undeath_callstone");
+missionofdeathcallstone.maxStackSize = 1;
+missionofdeathcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 193) {
+        player.sendChat("You gotta be in Travixte");
+        return "FAIL";
+    }
+
+
+    Commands.call("pillar-spawn travixte_structure_deathboss", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+missionofdeathcallstone.register();
+
+
+
+var gundevilconfrontationcallstone = VanillaFactory.createItem("gun_devil_confrontation_callstone");
+gundevilconfrontationcallstone.maxStackSize = 1;
+gundevilconfrontationcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 193) {
+        player.sendChat("You gotta be in Travixte");
+        return "FAIL";
+    }
+
+
+    Commands.call("pillar-spawn callstone_gun_devil", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+gundevilconfrontationcallstone.register();
+
+
+var universalconstellationcallstone = VanillaFactory.createItem("universal_constellation_callstone");
+universalconstellationcallstone.maxStackSize = 1;
+universalconstellationcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 192) {
+        player.sendChat("You gotta be in Fuhai");
+        return "FAIL";
+    }
+
+
+    Commands.call("pillar-spawn callstone_astral_bee", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+universalconstellationcallstone.register();
+
+
+var ghostofannoyancecallstone = VanillaFactory.createItem("ghost_of_annoyance_callstone");
+ghostofannoyancecallstone.maxStackSize = 1;
+ghostofannoyancecallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 624) {
+        player.sendChat("You gotta be in Gallifrey");
+        return "FAIL";
+    }
+
+    Commands.call("summon aoa3:ghostly_bugeye ~3 ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:nightmare_of_annoyance\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Annoying Buggy Ghost\",Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:100000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~3 ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:nightmare_of_annoyance\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Annoying Buggy Ghost\",Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:100000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~3 ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:nightmare_of_annoyance\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Annoying Buggy Ghost\",Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:100000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~3 ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:nightmare_of_annoyance\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Annoying Buggy Ghost\",Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:100000.0}],Health:50000f}", player, world, false, true);
+
+    Commands.call("pillar-spawn annoying_ghost_callstone", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+ghostofannoyancecallstone.register();
+
+
+
+var strangestonecallstone = VanillaFactory.createItem("strange_stone_callstone");
+strangestonecallstone.maxStackSize = 1;
+strangestonecallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 624) {
+        player.sendChat("You gotta be in Gallifrey");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn callstone_strange_stone", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+strangestonecallstone.register();

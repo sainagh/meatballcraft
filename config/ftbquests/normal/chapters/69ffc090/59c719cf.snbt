@@ -1,0 +1,19 @@
+{
+	x: -14.5d,
+	y: -8.5d,
+	dependencies: [
+		"ef8fc3ab"
+	],
+	tasks: [{
+		uid: "5ffda8a4",
+		type: "item",
+		items: [{
+			id: "contenttweaker:abyssal_wasteland_warp_cleanser",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

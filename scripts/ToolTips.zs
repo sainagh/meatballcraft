@@ -134,6 +134,14 @@
 
 <divinerpg:corrupted_maul>.addTooltip(format.red("Can be super-enchanted"));
 
+<mod_lavacow:scarab_wand>.addTooltip(format.red("Can be super-enchanted"));
+<mod_lavacow:sludge_wand>.addTooltip(format.red("Can be super-enchanted"));
+<thaumcraft:crimson_blade>.addTooltip(format.red("Can be super-enchanted"));
+<aoa3:runic_sword>.addTooltip(format.red("Can be super-enchanted"));
+<aoa3:shadow_sword>.addTooltip(format.red("Can be super-enchanted"));
+<divinerpg:karos_rockmaul>.addTooltip(format.red("Can be super-enchanted"));
+<xreliquary:mercy_cross>.addTooltip(format.red("Can be super-enchanted"));
+
 <contenttweaker:anomaly_detector_stage_1>.addTooltip(format.red("Found in Pixonia"));
 
 <contenttweaker:anomaly_detector_stage_1>.addTooltip(format.red("Thanks to Josip for the texture!"));
@@ -376,7 +384,6 @@
 <aoa3:elecanium_ingot>.addTooltip(format.red("Fill an Openblocks tank with molten elecanium and surround with the right runes (8), Runandor will guide you"));
 <aoa3:elecanium_ore>.addTooltip(format.red("Fill an Openblocks tank with molten elecanium and surround with the right runes (8), Runandor will guide you"));
 
-<thaumicwonders:alienist_stone>.addTooltip(format.red("Should be enchanted with the highest level of unbreaking available for automating Eldritch Clusters"));
 
 <openblocks:stencil:0>.addTooltip(format.green("Reusable"));
 <openblocks:stencil:1>.addTooltip(format.green("Reusable"));
@@ -848,6 +855,14 @@
 <contenttweaker:leaves_of_life>.addTooltip(format.red("puddinpopper wanted to autobuild with these!"));
 
 <contenttweaker:pack_supporter_token>.addTooltip(format.red("Reclipse had an idea!"));
+
+<contenttweaker:corrupted_divine_ore>.addTooltip(format.red("Best yield in a Mythic Processor Arkencrusher"));
+<contenttweaker:ender_divine_ore>.addTooltip(format.red("Best yield in a Mythic Processor Arkencrusher"));
+<contenttweaker:ice_divine_ore>.addTooltip(format.red("Best yield in a Mythic Processor Arkencrusher"));
+<contenttweaker:jungle_divine_ore>.addTooltip(format.red("Best yield in a Mythic Processor Arkencrusher"));
+<contenttweaker:molten_divine_ore>.addTooltip(format.red("Best yield in a Mythic Processor Arkencrusher"));
+<contenttweaker:shadow_divine_ore>.addTooltip(format.red("Best yield in a Mythic Processor Arkencrusher"));
+<contenttweaker:terran_divine_ore>.addTooltip(format.red("Best yield in a Mythic Processor Arkencrusher"));
 
 <contenttweaker:corrupted_divine_ore>.addTooltip(format.red("Use the Ore Excavator in Gallifrey, Gallifreyan Stones Vein"));
 <contenttweaker:ender_divine_ore>.addTooltip(format.red("Use the Ore Excavator in Gallifrey, Gallifreyan Stones Vein"));
@@ -1709,7 +1724,7 @@
 
 <contenttweaker:skelebone_fragment>.addTooltip(format.red("Light likes even consumption of items!"));
 
-<testdummy2:dummy>.addTooltip(format.red("WARNING: do not put armor on the dummy, it can corrupt things"));
+<testdummy:dummy>.addTooltip(format.red("WARNING: do not put armor on the dummy, it can corrupt things"));
 
 <contenttweaker:star_of_betrayal>.addTooltip(format.red("Thanks to Vamael for figuring out the shielding attribute!"));
 
@@ -1779,6 +1794,7 @@
 <thaumadditions:mithminite_smelter>.addTooltip(format.red("Multiblock Upgrade, Dragonfire Forge: 8X output"));
 <contenttweaker:plated_photonium>.addTooltip(format.red("Multiblock Upgrade, Enchanted Greenhouse: 10X speed"));
 <contenttweaker:vibrating_stone>.addTooltip(format.red("Multiblock Upgrade, Essentia Crystallizer: 4X output"));
+<contenttweaker:echo_warren_stone>.addTooltip(format.red("Multiblock Upgrade, Essentia Crystallizer: 20X output"));
 <contenttweaker:plasma_wood>.addTooltip(format.red("Multiblock Upgrade, Gaia Altar: 6X speed"));
 <nuclearcraft:block_depleted_curium>.addTooltip(format.red("Multiblock Upgrade, Gravitite Enchanter: 95% fluid discount"));
 <contenttweaker:darkstar_collector>.addTooltip(format.red("Multiblock Upgrade, Gravitite Enchanter: 95% fluid discount, 20X speed"));
@@ -1805,6 +1821,12 @@
 <contenttweaker:gallifreyan_neutronium_casing>.addTooltip(format.red("Multiblock Upgrade, Neutronium Cannon & Bombarder: 5X speed"));
 <contenttweaker:quark_neutronium_module>.addTooltip(format.red("Multiblock Upgrade, Quark Decomposer and High Impulse Accelerator: 5X speed"));
 <contenttweaker:well_defined_machine_case>.addTooltip(format.red("Multiblock Upgrade, the CUBE: 5X speed"));
+<contenttweaker:ascended_fluix_etcher>.addTooltip(format.red("Multiblock Upgrade, Processor Clean Room: 10X speed"));
+<contenttweaker:naquadah_casing>.addTooltip(format.red("Multiblock Upgrade, Relativistic Collapser: 200X speed"));
+<contenttweaker:dyson_extruder>.addTooltip(format.red("Multiblock Upgrade, Particle Accelerator & Mythic Accelerator: 20X speed"));
+<contenttweaker:trinity_neutronium_casing>.addTooltip(format.red("Multiblock Upgrade, Neutronium Cannon & Bombarder: 20X speed"));
+<contenttweaker:quark_cosmic_module>.addTooltip(format.red("Multiblock Upgrade, Quark Decomposer & High Impulse Accelerator: 20X speed"));
+<contenttweaker:naquadah_casing>.addTooltip(format.red("Multiblock Upgrade, the CUBE: 20X speed"));
 
 
 <thebetweenlands:lurker_skin_pouch>.addTooltip(format.red("This will let you bring your items into Vethea (yippee)"));
@@ -2081,6 +2103,7 @@
 <buildcraftsilicon:laser>.addTooltip(format.red("Face towards the Assembly Table to power it"));
 <buildcraftsilicon:laser>.addTooltip(format.red("Connect to EnderIO conduits, fluxducts often disconnect!"));
 
+<contenttweaker:singular_gravity_honey>.addTooltip(format.red("Allows creative flight in all dimensions up to Sedna"));
 <contenttweaker:singular_gravity_honey>.addTooltip(format.red("Light wanted some inventory space!"));
 
 <aoa3:distorting_artifact>.addTooltip(format.red("Counteracts gravity in Lelyetia"));
@@ -2243,6 +2266,7 @@
 <contenttweaker:infinite_alchemical_plate>.addTooltip(format.red("Hammer Materials: Parafrosynium Tool Rod, Barathosynium Hammer, Adamantium left Plate, Wrought Iron right Plate"));
 <contenttweaker:infinite_recursive_plate>.addTooltip(format.red("Hammer Materials: Runandium Tool Rod, Orichalcum Hammer, kaiyu left Plate, Neutronium right Plate"));
 <contenttweaker:infinite_entropic_plate>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
+<contenttweaker:infinite_entropic_plate>.addTooltip(format.red("Hammer Materials: Silver Tool Rod, Thaumium Hammer, Blood Infused Glitch left Plate, Brass right Plate"));
 
 <contenttweaker:alchemical_deep_rock>.addTooltip(format.red("Break some Deep Cases"));
 
@@ -2377,29 +2401,100 @@
 
 <aoa3:immortal_banner>.addTooltip(format.red("Obtained from the Token Collector in the Immortallis entrance"));
 
+<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("Thanks to ChaosStrikez for the help implementing this!"));
+<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("Right click while in the overworld to summon a blood magic meteor"));
+<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("This can be automated with a mechanical user, some obsidian, and a bit of setup"));
+
 <contenttweaker:infinite_plate_stamp>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:infinite_alchemical_plate>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:infinite_entropic_plate>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:infinite_recursive_plate>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 
+<contenttweaker:multiblock_input_swapping>.addTooltip(format.red("Tips and tricks if you want to reduce (some) multiblock spam!"));
+
+<contenttweaker:cursed_dragon_egg>.addTooltip(format.red("For masters of spellcraft"));
+
+<contenttweaker:void_ichorium_rift>.addTooltip(format.red("Warper"));
+
+<contenttweaker:tainted_alchemic_catalyst>.addTooltip(format.red("Use a Flux Capacitor full with 10 Flux"));
+
+<thaumicwonders:flux_capacitor>.addTooltip(format.red("Place in world to absorb flux in the corresponding chunk"));
+<thaumicwonders:flux_capacitor>.addTooltip(format.red("It stores 10 at most"));
+
+<contenttweaker:void_ichorium_jewel>.addTooltip(format.red("Bring some (lots of) magic damage ;)"));
+
+<contenttweaker:tainted_prison_key>.addTooltip(format.red("Callstone"));
+
+<contenttweaker:undead_soil>.addTooltip(format.red("Craft the Staff of the Lord of Gluttony (does not get used) with the right (7) surface blocks"));
+<contenttweaker:undead_soil>.addTooltip(format.red("Travixte will guide you, make sure you use silk touch"));
+
+<contenttweaker:oath_of_the_seven_undead_lords>.addTooltip(format.red("Use this item in each of the biomes in Travixte"));
+<contenttweaker:oath_of_the_seven_undead_lords>.addTooltip(format.red("This item will get consumes, so make multiples"));
+
+<avaritia:matter_cluster>.addTooltip(format.red("Obtained from the right click functions of the Avaritia tools"));
+
+
+<aoa3:abyssal_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:ancient_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:apoco_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:clown_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:darkly_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:floro_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:golden_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:haunted_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:lelyetian_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:light_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:lunar_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:nether_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:precasian_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:predator_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:rocky_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:runic_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:seaside_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+<aoa3:smiley_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
+
+
+<contenttweaker:vow_to_death>.addTooltip(format.red("I am a big fan of gambling, of the Twilight Warrior variety"));
+
+<contenttweaker:gun_devil_limb>.addTooltip(format.red("I am a big fan of gambling, of the Shyre Warrior variety"));
+
+<avaritiaitem:bedrock_blaster>.addTooltip(format.red("Right click on Bedrock to break the bedrock around you"));
 
 
 
 
-<contenttweaker:addrefinedgemstocuendillar>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
 
-<contenttweaker:checkdimquestblocksforpuzzle>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
 
-<contenttweaker:phantomfacestupformechcoopandothers>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
 
-<contenttweaker:dragoneggomeletteredowithmasterspell>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
 
-<contenttweaker:experiencefarmingmultiblock>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
+<contenttweaker:lucky_box_aether_bronze>.addTooltip(format.red("This is a loot box containing some random goodies, the placing and breaking of these can be automated ;)"));
+<contenttweaker:lucky_box_aether_silver>.addTooltip(format.red("This is a loot box containing some random goodies, the placing and breaking of these can be automated ;)"));
+<contenttweaker:lucky_box_aether_gold>.addTooltip(format.red("This is a loot box containing some random goodies, the placing and breaking of these can be automated ;)"));
+<contenttweaker:lucky_box_twilight_books>.addTooltip(format.red("This is a loot box containing some random goodies, the placing and breaking of these can be automated ;)"));
+<contenttweaker:lucky_box_twilight_weapons>.addTooltip(format.red("This is a loot box containing some random goodies, the placing and breaking of these can be automated ;)"));
+<contenttweaker:lucky_box_advent_armor>.addTooltip(format.red("This is a loot box containing some random goodies, the placing and breaking of these can be automated ;)"));
 
-<contenttweaker:onemorehyperuranionupgradefortardis>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
+<contenttweaker:astral_mastery_tome>.addTooltip(format.red("Increases the astral level cap to 100"));
 
-<contenttweaker:convertchickenstospawneggsrecipes>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
+<thaumicwonders:alienist_stone>.addTooltip(format.red("It can be crafted into an unbreakable version, use this for automation"));
+
+<contenttweaker:quasar_core>.addTooltip(format.red("The Recurrent Nightmare Synthesizer and the Naquadah Casing are your friends"));
+
+<divinerpg:halite_phaser>.addTooltip(format.red("The Recurrent Nightmare Synthesizer and the Naquadah Casing are your friends"));
+
+<tardis:key>.addTooltip(format.red("Obtained from a fully grown TARDIS Coral"));
+
+<contenttweaker:nineteen_blocks>.addTooltip(format.red("The preview only shows 4 blocks, but there are 19"));
+
+
+
+
+
+
+
+
+
 
 
 

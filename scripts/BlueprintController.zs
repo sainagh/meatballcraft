@@ -379,6 +379,8 @@ addController(<modularmachinery:warren_extractor_dimensional_shards_controller>,
 
 addController(<modularmachinery:warren_extractor_dragonsteel_controller>, "modularmachinery:warren_extractor_dragonsteel");
 
+addController(<modularmachinery:warren_extractor_ichor_controller>, "modularmachinery:warren_extractor_ichor");
+
 addController(<modularmachinery:recursive_brain_in_a_vat_controller>, "modularmachinery:recursive_brain_in_a_vat");
 
 addController(<modularmachinery:recursive_brain_in_a_vat_ahkrast_korvalain_controller>, "modularmachinery:recursive_brain_in_a_vat_ahkrast_korvalain");
@@ -406,6 +408,22 @@ addController(<modularmachinery:warren_extractor_rhenia_controller>, "modularmac
 addController(<modularmachinery:dyson_extruder_controller>, "modularmachinery:dyson_extruder");
 
 addController(<modularmachinery:mythic_excavation_lattice_controller>, "modularmachinery:mythic_excavation_lattice");
+
+addController(<modularmachinery:orb_of_infinite_wishes_controller>, "modularmachinery:orb_of_infinite_wishes");
+
+addController(<modularmachinery:catalyst_of_balance_controller>, "modularmachinery:catalyst_of_balance");
+
+addController(<modularmachinery:dyson_dynamizer_controller>, "modularmachinery:dyson_dynamizer");
+
+addController(<modularmachinery:dyson_scatterer_controller>, "modularmachinery:dyson_scatterer");
+
+addController(<modularmachinery:dyson_revolver_controller>, "modularmachinery:dyson_revolver");
+
+addController(<modularmachinery:recurrent_nightmare_synthesizer_controller>, "modularmachinery:recurrent_nightmare_synthesizer");
+
+addController(<modularmachinery:dyson_abater_controller>, "modularmachinery:dyson_abater");
+
+addController(<modularmachinery:black_hole_juicer_controller>, "modularmachinery:black_hole_juicer");
 
 
 

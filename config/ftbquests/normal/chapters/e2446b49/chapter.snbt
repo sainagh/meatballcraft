@@ -1,0 +1,15 @@
+{
+	title: "Personal Augmentation",
+	icon: {
+		id: "projecte:item.pe_arcana_ring",
+		tag: {
+			Mode: 0b
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

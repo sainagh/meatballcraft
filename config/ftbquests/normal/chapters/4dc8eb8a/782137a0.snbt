@@ -1,0 +1,14 @@
+{
+	x: -5.5d,
+	y: 5.5d,
+	dependencies: [
+		"d5d3a2a5"
+	],
+	tasks: [{
+		uid: "c15d8600",
+		type: "item",
+		items: [{
+			item: "roost:roost"
+		}]
+	}]
+}

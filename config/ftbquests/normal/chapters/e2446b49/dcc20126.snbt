@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: 5.5d,
+	text: [
+		"The soul power of the so-called 'ender' machines can be used to make magnets that attract things to me. Sometimes this effect is a bit undesirable, but the pros outnumber the cons..."
+	],
+	dependencies: [
+		"75e5d0b0"
+	],
+	tasks: [{
+		uid: "16d86532",
+		type: "item",
+		items: [{
+			id: "enderio:item_magnet",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

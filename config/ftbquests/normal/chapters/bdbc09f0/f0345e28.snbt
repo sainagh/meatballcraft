@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	dependencies: [
+		"a407fb4d"
+	],
+	tasks: [{
+		uid: "fcbbbc48",
+		type: "item",
+		items: [{
+			item: "minecraft:ghast_tear"
+		}]
+	},
+	{
+		uid: "9a53d5dd",
+		type: "fluid",
+		fluid: "glowstone"
+	}]
+}

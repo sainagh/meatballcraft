@@ -1,0 +1,14 @@
+{
+	x: 26.5d,
+	y: 2.0d,
+	dependencies: [
+		"2e6d9937"
+	],
+	tasks: [{
+		uid: "9aa43eda",
+		type: "item",
+		items: [{
+			item: "techreborn:creative_solar_panel"
+		}]
+	}]
+}

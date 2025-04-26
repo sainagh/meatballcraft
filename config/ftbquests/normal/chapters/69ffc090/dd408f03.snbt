@@ -1,0 +1,25 @@
+{
+	x: -9.5d,
+	y: -6.5d,
+	text: [
+		"Knowledge of the thaumic arts, as most other things, does not come for free.",
+		"Interacting with specific beings, and exploring specific brances of knowledge, can cause a series of unwanted effects, called warp.",
+		"This meter will keep track of warp levels in the user. The higher the warp, the more bad stuff is going to happen.",
+		"That said, in some situations, having high warp may be beneficial, but that's up to you to decide."
+	],
+	dependencies: [
+		"74eed6cb"
+	],
+	tasks: [{
+		uid: "ef9b70f6",
+		type: "item",
+		items: [{
+			id: "thaumcraft:sanity_checker",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: -6.5d,
+	y: -4.5d,
+	dependencies: [
+		"644a72fc"
+	],
+	tasks: [{
+		uid: "c2ad275d",
+		type: "checkmark",
+		title: "Thaumcraft"
+	}]
+}

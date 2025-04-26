@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: 8.5d,
+	dependencies: [
+		"ba1d282f"
+	],
+	tasks: [{
+		uid: "aece7a77",
+		type: "item",
+		items: [{
+			item: "xreliquary:fortune_coin"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

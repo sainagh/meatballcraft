@@ -1,0 +1,26 @@
+{
+	x: -13.0d,
+	y: -2.5d,
+	dependencies: [
+		"5098f04b"
+	],
+	tasks: [{
+		uid: "2b0415ca",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any projredInsulatedWire"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "projredInsulatedWire"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

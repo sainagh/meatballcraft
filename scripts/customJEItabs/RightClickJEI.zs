@@ -254,6 +254,11 @@ rclickdimlet34.addInput(<contenttweaker:white_hole_core>);
 rclickdimlet34.setOutputs([<contenttweaker:miniature_white_hole>]);
 rclickdimlet34.build();
 
+val rclickdimlet35 = JEI.createJeiRecipe("right_click_meatball");
+rclickdimlet35.addInput(<contenttweaker:quasar_core>);
+rclickdimlet35.setOutputs([<contenttweaker:miniature_quasar>]);
+rclickdimlet35.build();
+
 
 
 

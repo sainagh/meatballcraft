@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"This device can be connected to a rotor of some sort to produce RF."
+	],
+	dependencies: [
+		"0a0a6666"
+	],
+	tasks: [{
+		uid: "d8800a9d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 2"
+		}]
+	}]
+}

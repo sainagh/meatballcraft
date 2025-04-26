@@ -1,0 +1,20 @@
+{
+	x: 17.0d,
+	y: 5.0d,
+	text: [
+		"Like the furnace generator, but faster!"
+	],
+	dependencies: [
+		"ff287def"
+	],
+	tasks: [{
+		uid: "88aeb0f7",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_overclock"
+			}
+		}]
+	}]
+}

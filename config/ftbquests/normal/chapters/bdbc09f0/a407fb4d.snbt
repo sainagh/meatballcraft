@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: -2.0d,
+	text: [
+		"The reactant dynamo uses a combination of a fluid and an item to produce RF."
+	],
+	dependencies: [
+		"0a0a6666"
+	],
+	tasks: [{
+		uid: "53d84878",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 3s,
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

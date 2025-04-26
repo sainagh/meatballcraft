@@ -1,0 +1,15 @@
+{
+	x: 11.5d,
+	y: -7.5d,
+	dependencies: [
+		"33924152"
+	],
+	tasks: [{
+		uid: "6e1093d6",
+		type: "item",
+		items: [{
+			item: "extrabotany:coregod"
+		}],
+		ignore_nbt: 1b
+	}]
+}

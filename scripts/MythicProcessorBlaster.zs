@@ -71,3 +71,11 @@ mythindblast10.addFluidInput(<fluid:dense_plasma>*200);
 mythindblast10.addItemInput(<contenttweaker:lightning_dragonsteel_ore>);
 mythindblast10.addItemOutput(<iceandfire:dragonsteel_lightning_ingot>*9);
 mythindblast10.build();
+
+val mythindblast11 = RecipeBuilder.newBuilder("mythindblast11","mythic_processor_blaster",2);
+mythindblast11.addEnergyPerTickInput(200000);
+mythindblast11.addFluidInput(<fluid:dense_plasma>*30000);
+mythindblast11.addItemInput(<contenttweaker:hyperuranion_ingot>);
+mythindblast11.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
+mythindblast11.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>);
+mythindblast11.build();

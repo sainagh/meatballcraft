@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    929
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularmachinery:itemblueprint",
+        "tag:10": {
+          "dynamicmachine:8": "modularmachinery:orb_of_infinite_wishes"
+        }
+      },
+      "name:8": "Orb of Infinite Wishes"
+    }
+  },
+  "questID:3": 596821559,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:orb_of_infinite_wishes"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

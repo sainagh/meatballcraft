@@ -1,0 +1,20 @@
+{
+	x: 18.0d,
+	y: 4.0d,
+	text: [
+		"Exactly as it sounds, energy from pink stuff!"
+	],
+	dependencies: [
+		"ff287def"
+	],
+	tasks: [{
+		uid: "b85ab41a",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_pink"
+			}
+		}]
+	}]
+}

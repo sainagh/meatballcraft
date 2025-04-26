@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 8.5d,
+	text: [
+		"the lamp of growth is a fairly inexpensive way of speeding up the growth of plants."
+	],
+	dependencies: [
+		"0400c016"
+	],
+	tasks: [{
+		uid: "4411ef1d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:lamp_growth"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 8.0d,
+	y: 5.0d,
+	text: [
+		"OOOOOOOHHHHHHHH! I see..."
+	],
+	dependencies: [
+		"52312c9f"
+	],
+	tasks: [{
+		uid: "86d6c997",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_4"
+		}]
+	}]
+}

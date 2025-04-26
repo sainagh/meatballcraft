@@ -1,0 +1,2930 @@
+{
+    "registryname": "definer_two",
+    "localizedname": "Definer 3.0",
+	"color": "000000",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:defined_block",
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "description": "Replace unidentified body for doubled output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 2.0
+            }
+        },
+        {
+            "elements": "contenttweaker:core_of_halite_definition",
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "description": "Replace unidentified body for 8x output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 8.0
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:defined_machine_case@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:order_wood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:order_wood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:defined_machine_case@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:order_wood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:order_wood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:defined_machine_case@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:chaos_wood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:chaos_wood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:chaos_wood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:unidentified_body@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:chaos_wood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:order_wood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:chaos_wood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:chaos_wood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:defined_machine_case@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:order_wood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        }
+    ]}

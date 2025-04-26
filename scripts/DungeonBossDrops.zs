@@ -46,6 +46,9 @@ recipes.addShapeless(<contenttweaker:ayeraco_scale>,
 recipes.addShapeless(<contenttweaker:soul_of_the_grand_wizard>,
 [<contenttweaker:boss_drop>, <iceandfire:dread_key>, <contenttweaker:staff_of_iceika>]);
 
+recipes.addShapeless(<contenttweaker:nightmare_of_annoyance>,
+[<contenttweaker:boss_drop>, <contenttweaker:ghost_of_annoyance_callstone>]);
+
 recipes.addShapeless(<mowziesmobs:ice_crystal>,
 [<contenttweaker:boss_drop>, <divinerpg:snow_globe>]);
 
@@ -856,6 +859,9 @@ recipes.addShapeless(<contenttweaker:starlight_sphere>,
 recipes.addShapeless(<contenttweaker:celestial_shield_fragment>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
 
+recipes.addShapeless(<contenttweaker:cursed_dragon_egg>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
 recipes.addShapeless(<avaritia:resource:0>, 
 [<contenttweaker:gamestage_recipe>, <contenttweaker:ancient_elven_knowledge>]);
 
@@ -1046,6 +1052,8 @@ recipes.addShapeless(<contenttweaker:recursive_paper_illager>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
 recipes.addShapeless(<contenttweaker:recursive_paper_abyssal>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<contenttweaker:recursive_paper_buggy>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
 
 recipes.addShapeless(<erebus:materials:0>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
@@ -1122,6 +1130,9 @@ recipes.addShapeless(<contenttweaker:rhenium_ore>,
 [<contenttweaker:custom_dimensions>]);
 
 recipes.addShapeless(<contenttweaker:holographic_ore>,
+[<contenttweaker:custom_dimensions>]);
+
+recipes.addShapeless(<contenttweaker:ichor>,
 [<contenttweaker:custom_dimensions>]);
 
 
@@ -1207,6 +1218,44 @@ recipes.addShapeless(<contenttweaker:cuendillar_catalyst_2>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:trinitas_callstone>]);
 recipes.addShapeless(<contenttweaker:cuendillar_catalyst_3>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:trinitas_callstone>]);
+
+
+recipes.addShapeless(<contenttweaker:tainted_claw>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:void_ichorium_rift>]);
+recipes.addShapeless(<contenttweaker:void_chains>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:void_ichorium_rift>]);
+recipes.addShapeless(<contenttweaker:void_ichorium_gem>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:void_ichorium_rift>]);
+
+
+recipes.addShapeless(<contenttweaker:gem_of_pure_taint>,
+[<contenttweaker:boss_drop>, <contenttweaker:void_ichorium_jewel>]);
+
+recipes.addShapeless(<contenttweaker:recursion_of_taint>,
+[<contenttweaker:boss_drop>, <contenttweaker:tainted_prison_key>]);
+
+recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_envy>,
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_pride>,
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_sloth>,
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_wrath>,
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_lust>,
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_greed>,
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+
+recipes.addShapeless(<contenttweaker:oath_of_the_lord_of_gluttony>,
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+
+recipes.addShapeless(<contenttweaker:respect_of_death>,
+[<contenttweaker:boss_drop>, <contenttweaker:mission_of_undeath_callstone>, <contenttweaker:vow_to_death>]);
+
+
+recipes.addShapeless(<contenttweaker:strange_stone_essence>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:strange_stone_callstone>]);
 
 
 

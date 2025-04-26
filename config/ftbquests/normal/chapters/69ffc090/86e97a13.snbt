@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: -4.5d,
+	dependencies: [
+		"644a72fc"
+	],
+	tasks: [{
+		uid: "9fb40158",
+		type: "checkmark",
+		title: "Blood magic"
+	}]
+}

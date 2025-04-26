@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -7.0d,
+	text: [
+		"Alchemical chests are a fairly cheap but powerful storage option."
+	],
+	dependencies: [
+		"3e43ff11"
+	],
+	tasks: [{
+		uid: "16536f53",
+		type: "item",
+		items: [{
+			item: "projecte:alchemical_chest"
+		}]
+	}]
+}

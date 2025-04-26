@@ -470,6 +470,15 @@ whiteholecore.itemRightClick = function(stack, world, player, hand) {
 whiteholecore.glowing = true;
 whiteholecore.register();
 
+var quasarcore = VanillaFactory.createItem("quasar_core");
+quasarcore.maxStackSize = 1;
+quasarcore.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("fill ~-1 ~-1 ~-1 ~1 ~1 ~1 contenttweaker:miniature_quasar 0 replace contenttweaker:sednanite_stabilizer", player, world, true, true);
+	return "Pass";
+};
+quasarcore.glowing = true;
+quasarcore.register();
+
 
 var condensedessence = VanillaFactory.createItem("condensed_essence");
 condensedessence.maxStackSize = 64;

@@ -1123,7 +1123,8 @@
       "industrialforegoing:plastic,32,0",
       "tconstruct:materials,4,9",
       "actuallyadditions:item_crystal,4,1",
-      "aoa3:graw_statue,1,0"
+      "aoa3:graw_statue,1,0",
+      "actuallyadditions:item_misc,30,20"
     ],
     "deepLearnerDisplay": {
       "hearts": 100,
@@ -1325,7 +1326,8 @@
       "bloodarsenal:blood_infused_wooden_planks,16,0",
       "extrautils2:ingredients,4,17",
       "contenttweaker:bloodmaster_block,2,0",
-      "aoa3:voxxulon_statue,1,0"
+      "aoa3:voxxulon_statue,1,0",
+      "xreliquary:mob_ingredient,10,6"
     ],
     "deepLearnerDisplay": {
       "hearts": 100,

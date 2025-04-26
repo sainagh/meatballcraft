@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    695054604
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWell, you decided to go down the rabbit hole, good for you.\n\nTo complete this crafting chain, you will have to upgrade large portions of your base. \nFor many things, there are going to be alternative recipes, use JEI to search for them; some may require to set up new automations.\nFor some things, there are going to be multiblock upgrades, which will be listed as optional retrieval objectives.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "whisper_of_thel"
+        }
+      },
+      "name:8": "New Quest"
+    }
+  },
+  "questID:3": 970927034,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forge:bucketfilled",
+          "tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "whisper_of_thel"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:focused_plasma_collider"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:superfocused_plasma_collider"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:hyperfocused_plasma_collider"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+	x: 9.0d,
+	y: -6.0d,
+	dependencies: [
+		"dfd12344",
+		"54bf8394",
+		"0f263909"
+	],
+	tasks: [{
+		uid: "0d846fd1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:herrr_fuel"
+		}]
+	}]
+}

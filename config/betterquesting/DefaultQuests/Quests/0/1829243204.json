@@ -1,0 +1,62 @@
+{
+  "preRequisites:11": [
+    352701878
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:summons_of_the_realmshifter_cherubim"
+      },
+      "name:8": "The Realmshifter Cherubims"
+    }
+  },
+  "questID:3": 1829243204,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:summons_of_the_realmshifter_cherubim"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:runes_of_the_lover"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:runes_of_the_loved"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:runes_of_the_love"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:call_of_the_lover"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:call_of_the_loved"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:call_of_the_love"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_cherubim"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

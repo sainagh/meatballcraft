@@ -1,0 +1,50 @@
+{
+	x: -2.5d,
+	y: -9.5d,
+	dependencies: [
+		"b150d084"
+	],
+	tasks: [{
+		uid: "43a6cb2c",
+		type: "item",
+		items: [{
+			id: "thaumicenergistics:essentia_cell_1k",
+			tag: {
+				filter: {}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b1fed1a7",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_terminal"
+		}]
+	},
+	{
+		uid: "6baa848d",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_import"
+		}]
+	},
+	{
+		uid: "10ac309d",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_export"
+		}]
+	},
+	{
+		uid: "feaea696",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_storage"
+		}]
+	}]
+}

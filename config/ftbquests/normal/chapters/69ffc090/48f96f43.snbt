@@ -1,0 +1,14 @@
+{
+	x: 9.5d,
+	y: 8.0d,
+	dependencies: [
+		"c75bcc51"
+	],
+	tasks: [{
+		uid: "31f0fff7",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:transmutator"
+		}]
+	}]
+}

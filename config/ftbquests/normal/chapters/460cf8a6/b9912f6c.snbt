@@ -1,0 +1,17 @@
+{
+	x: 14.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"83006eef"
+	],
+	tasks: [{
+		uid: "434eb5f8",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_ingot"
+		}]
+	}]
+}

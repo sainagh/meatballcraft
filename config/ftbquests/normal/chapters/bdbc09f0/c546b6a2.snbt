@@ -1,0 +1,17 @@
+{
+	x: 8.0d,
+	y: 3.0d,
+	text: [
+		"Really why do they need to be so complicated?!?"
+	],
+	dependencies: [
+		"37c43388"
+	],
+	tasks: [{
+		uid: "64f57023",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_2"
+		}]
+	}]
+}

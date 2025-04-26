@@ -13,7 +13,7 @@
       "desc:8": "§7§oTravel using a warp core with the right artifact on a space station",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "minecraft:obsidian"
+        "id:8": "projectred-exploration:stone"
       },
       "name:8": "Rhenia"
     }
@@ -26,6 +26,16 @@
       "index:3": 0,
       "name:8": "Rhenia",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "projectred-exploration:stone"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

@@ -1,0 +1,113 @@
+{
+	x: 12.0d,
+	y: -2.0d,
+	description: "Coolers lower heat to prevent things from exploding. Each cooler has a different rule (only works if next to block x).",
+	dependencies: [
+		"177d7078"
+	],
+	tasks: [{
+		uid: "821bc5f9",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 1"
+		}]
+	},
+	{
+		uid: "47870b6d",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 2"
+		}]
+	},
+	{
+		uid: "cb7b5f1a",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 3"
+		}]
+	},
+	{
+		uid: "eeb9191f",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 4"
+		}]
+	},
+	{
+		uid: "07c3d779",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 6"
+		}]
+	},
+	{
+		uid: "c710ac97",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 5"
+		}]
+	},
+	{
+		uid: "f96576b0",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 7"
+		}]
+	},
+	{
+		uid: "c9c66942",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 8"
+		}]
+	},
+	{
+		uid: "2ae05205",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 9"
+		}]
+	},
+	{
+		uid: "89908ec9",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 10"
+		}]
+	},
+	{
+		uid: "71d0131b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 11"
+		}]
+	},
+	{
+		uid: "7d0f576e",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 12"
+		}]
+	},
+	{
+		uid: "81d36001",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 13"
+		}]
+	},
+	{
+		uid: "4c60bde6",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 14"
+		}]
+	},
+	{
+		uid: "71d98df4",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 15"
+		}]
+	}]
+}

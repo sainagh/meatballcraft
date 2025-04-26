@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		"Well it seemed to last a little bit, and produce me more power. Unforunately it seems I'm back to the rabbit hole, trying to salvage what's left of this fuel."
+	],
+	dependencies: [
+		"7e8c82cd"
+	],
+	tasks: [{
+		uid: "a8aff475",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:depleted_fuel_berkelium"
+		}]
+	}]
+}

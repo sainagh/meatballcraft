@@ -1,0 +1,14 @@
+{
+	x: -13.0d,
+	y: 0.5d,
+	dependencies: [
+		"054263a6"
+	],
+	tasks: [{
+		uid: "cdc72d97",
+		type: "item",
+		items: [{
+			item: "extrautils2:analogcrafter"
+		}]
+	}]
+}

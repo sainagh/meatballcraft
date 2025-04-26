@@ -1,0 +1,33 @@
+{
+	title: "Dyson Sphere",
+	x: 32.5d,
+	y: 2.0d,
+	text: [
+		"The Dyson Discharger uses Charged Dyson Capacitors to produce RF.",
+		"A single Dyson Sphere can charge Dyson Capacitors very quickly, so a really large number of Dischargers can be used from a single sphere.",
+		"This is essentially a creative generator with extra steps."
+	],
+	dependencies: [
+		"024d70e2"
+	],
+	tasks: [{
+		uid: "c7cc9469",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:dyson_discharger"
+			}
+		}]
+	},
+	{
+		uid: "dd1b646c",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:dyson_sphere"
+			}
+		}]
+	}]
+}

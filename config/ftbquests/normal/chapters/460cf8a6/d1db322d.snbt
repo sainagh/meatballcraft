@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: 6.0d,
+	text: [
+		"Can be Dropped by a Runic Guardian",
+		"Can be Obtained by Deep Cases",
+		"The Ore Generates Between Y=5 to Y=132",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "4263a262",
+		type: "item",
+		items: [{
+			item: "aoa3:runium_chunk"
+		}]
+	}]
+}

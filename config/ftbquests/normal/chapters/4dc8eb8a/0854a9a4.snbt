@@ -1,0 +1,18 @@
+{
+	x: 4.5d,
+	y: 6.5d,
+	text: [
+		"Do I really need this many rocks?!",
+		"Well, I can make them from nothing..."
+	],
+	dependencies: [
+		"22246a67"
+	],
+	tasks: [{
+		uid: "4816789d",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_res_miner_cont_1"
+		}]
+	}]
+}

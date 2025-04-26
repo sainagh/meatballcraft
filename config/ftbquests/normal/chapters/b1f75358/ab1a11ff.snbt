@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	text: [
+		"Combining some of these new Isotopes have yielded a new Fuel once again. Hopefully this one lasts."
+	],
+	dependencies: [
+		"9fd77eb0"
+	],
+	tasks: [{
+		uid: "5920b89e",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_curium"
+		}]
+	}]
+}

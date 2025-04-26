@@ -7,11 +7,26 @@
       "desc:8": "",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "minecraft:nether_star"
+        "id:8": "contenttweaker:call_to_mission"
       },
       "name:8": "Trinitas"
     }
   },
   "questID:3": 352701878,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:call_to_mission"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:cuendillar_seal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

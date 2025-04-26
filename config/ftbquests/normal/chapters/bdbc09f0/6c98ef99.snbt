@@ -1,0 +1,17 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	text: [
+		"More compactness!"
+	],
+	dependencies: [
+		"237dde3a"
+	],
+	tasks: [{
+		uid: "4bf70073",
+		type: "item",
+		items: [{
+			item: "techreborn:solar_panel 1 1"
+		}]
+	}]
+}

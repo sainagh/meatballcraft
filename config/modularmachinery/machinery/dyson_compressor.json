@@ -1,0 +1,6742 @@
+{
+    "registryname": "dyson_compressor",
+    "localizedname": "Dyson Compressor",
+	"color": "590b7a",
+    "parts": [
+        {
+            "x": 5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": 22,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": 23,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": 20,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": 21,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 1,
+            "z": 25,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 1,
+            "z": 24,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 1,
+            "z": 23,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 25,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 27,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 26,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 1,
+            "z": 19,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 1,
+            "z": 20,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -1,
+            "z": 23,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -1,
+            "z": 24,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -1,
+            "z": 25,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 20,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 19,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 34,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 35,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 25,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 27,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 26,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 28,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 29,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 1,
+            "z": 29,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 1,
+            "z": 28,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 1,
+            "z": 27,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 21,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 20,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 35,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 1,
+            "z": 22,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 1,
+            "z": 23,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 1,
+            "z": 20,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 1,
+            "z": 21,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": -1,
+            "z": 20,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 20,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 34,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:miniature_black_hole@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 29,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": 29,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 19,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 19,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 1,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 20,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 1,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": 29,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 21,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 20,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 35,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 29,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 28,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 1,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 1,
+            "z": 29,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 20,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 28,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 29,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 20,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 19,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": 28,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": 27,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": 29,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 29,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 35,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 34,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -1,
+            "z": 25,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -1,
+            "z": 24,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -1,
+            "z": 23,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 1,
+            "z": 19,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 1,
+            "z": 20,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 1,
+            "z": 20,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 1,
+            "z": 21,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 1,
+            "z": 22,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 1,
+            "z": 23,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 19,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 20,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 21,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 22,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 23,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 20,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 19,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 19,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 34,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 35,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 35,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 34,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 29,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 28,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": -1,
+            "z": 20,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": 27,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": 26,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 1,
+            "z": 25,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 1,
+            "z": 23,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 1,
+            "z": 24,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": 25,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 1,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 1,
+            "z": 29,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 29,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 20,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 29,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 28,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 20,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 19,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 35,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 34,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 29,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 28,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 19,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 29,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 28,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 1,
+            "z": 25,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 1,
+            "z": 27,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 1,
+            "z": 26,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": 29,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": 29,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": 28,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": 27,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 20,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 34,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 35,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 1,
+            "z": 29,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 1,
+            "z": 28,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 1,
+            "z": 27,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 29,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 33,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 20,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 19,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 30,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:horizon_stabilizer@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 34,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "glassential:glass_redstone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 31,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "contenttweaker:dyson_compressor@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_dyson_conduit@0"
+            ]
+        }
+    ]}

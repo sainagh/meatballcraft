@@ -1,0 +1,25 @@
+{
+	x: 6.5d,
+	y: -6.5d,
+	dependencies: [
+		"a10c8603"
+	],
+	tasks: [{
+		uid: "2173df90",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any bewitchmentAltar"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "bewitchmentAltar"
+				}
+			}
+		}]
+	}]
+}

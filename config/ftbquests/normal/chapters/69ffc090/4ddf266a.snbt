@@ -1,0 +1,14 @@
+{
+	x: -9.5d,
+	y: -7.5d,
+	dependencies: [
+		"51229b7e"
+	],
+	tasks: [{
+		uid: "9c201dbf",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	}]
+}

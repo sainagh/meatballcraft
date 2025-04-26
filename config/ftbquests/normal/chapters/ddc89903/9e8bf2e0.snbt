@@ -1,0 +1,17 @@
+{
+	x: 18.0d,
+	y: -1.0d,
+	dependencies: [
+		"c886443f"
+	],
+	tasks: [{
+		uid: "d6ba07a2",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:memory_card",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

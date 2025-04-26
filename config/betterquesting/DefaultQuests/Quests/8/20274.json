@@ -7,7 +7,7 @@
       "desc:8": "§7§oPlace 12 arcana portals in a horizontal square frame (place while standing in center block)\n\n§fNot only magic is real, but so are deities. The Dungeon of arcane, as hard it is to believe, is a separate plane of existance, existing in higher dimensions, similar to the world of Alfheim, origin of many of the powers of natural magic.\nThis (literally) infinite fortress is the realm of two masters of the natural arts, who have used their great power to infinitely extend a three-dimensional space into another higher dimension.\nSimilarly, the power of these \u0027gods\u0027 has allowed for the infinite repetition of their being, meaning that, in this plane, they exist everywhere and nowhere.",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "divinerpg:arcanite_grass"
+        "id:8": "divinerpg:arcanium_block"
       },
       "name:8": "Dungeon of Arcana"
     }
@@ -20,6 +20,16 @@
       "index:3": 0,
       "name:8": "Dungeon of Arcana",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:arcanium_block"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

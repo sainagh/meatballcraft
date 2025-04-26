@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	text: [
+		"Inferium is the base of this plant-based mineral farming, and it naturally can be produced by enchanted plants.",
+		"The higher the tier, the higher the yield!"
+	],
+	dependencies: [
+		"0400c016"
+	],
+	tasks: [{
+		uid: "d1c0d303",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting"
+		}]
+	}]
+}

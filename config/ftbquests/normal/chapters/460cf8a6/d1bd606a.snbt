@@ -1,0 +1,22 @@
+{
+	x: 26.0d,
+	y: 3.0d,
+	text: [
+		"Found in the Shyrelands Dimension by Advent of Ascension",
+		"Can be Dropped by Xxeus and Stimulosus",
+		"Can be found in Loot Chests in 'Luxocron Dungeon', 'Ruined House', 'Shyre Mausoleum' and 'Shyre Shelter'",
+		"The Ore Generates Between Y=64 to Y=104 Wherever There is Shyre Rock",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"1d4d7860"
+	],
+	tasks: [{
+		uid: "5227a9aa",
+		type: "item",
+		items: [{
+			item: "aoa3:shyregem"
+		}]
+	}]
+}

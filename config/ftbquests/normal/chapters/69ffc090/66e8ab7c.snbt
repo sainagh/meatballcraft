@@ -1,0 +1,21 @@
+{
+	x: -10.5d,
+	y: -9.5d,
+	dependencies: [
+		"b3098e1e"
+	],
+	tasks: [{
+		uid: "3fe7e069",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stabilizer"
+		}]
+	},
+	{
+		uid: "2ca5f875",
+		type: "item",
+		items: [{
+			item: "thaumcraft:inlay"
+		}]
+	}]
+}

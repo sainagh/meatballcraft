@@ -1,0 +1,14 @@
+{
+	x: -10.5d,
+	y: -12.5d,
+	dependencies: [
+		"081be4be"
+	],
+	tasks: [{
+		uid: "2db2c27a",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:arcane_terraformer"
+		}]
+	}]
+}

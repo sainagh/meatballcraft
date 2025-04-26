@@ -1,0 +1,622 @@
+{
+    "registryname": "blood_god_altar_network",
+    "localizedname": "Enigmatic Blood God Altar",
+	"color": "781116",
+    "parts": [
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blocklifeessenceprovideroutput"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodarsenal:altare_aenigmatica"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:demon_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune@0"
+            ]
+        }
+    ]}

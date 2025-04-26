@@ -1,0 +1,17 @@
+{
+	x: 8.0d,
+	y: 7.0d,
+	text: [
+		"I REALLY get it!"
+	],
+	dependencies: [
+		"621ed4bf"
+	],
+	tasks: [{
+		uid: "d84f603e",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_6"
+		}]
+	}]
+}

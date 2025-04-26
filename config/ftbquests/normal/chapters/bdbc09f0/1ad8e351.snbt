@@ -1,0 +1,18 @@
+{
+	x: 14.0d,
+	y: -9.0d,
+	text: [
+		"Here is something that no man on earth ever did. Safe fission of berkelium, and even produced some energy from it!",
+		"(for the record, this fission reaction is possible IRL, but only with nukes)"
+	],
+	dependencies: [
+		"7e8c82cd"
+	],
+	tasks: [{
+		uid: "a8aff475",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:depleted_fuel_berkelium"
+		}]
+	}]
+}

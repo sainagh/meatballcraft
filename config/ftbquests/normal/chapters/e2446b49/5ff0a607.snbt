@@ -1,0 +1,24 @@
+{
+	x: -9.5d,
+	y: 5.5d,
+	text: [
+		"The type of coal found on Terra is great! I can use it to make devices that very efficiently store material. I'll call them Danks...",
+		"The stronger the trim used to make danks, the better these devices work.",
+		"To be completely honest, anything less than gold is kinda mediocre..."
+	],
+	dependencies: [
+		"75e5d0b0"
+	],
+	tasks: [{
+		uid: "1e4fb954",
+		type: "item",
+		items: [{
+			id: "danknull:dank_null_3",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

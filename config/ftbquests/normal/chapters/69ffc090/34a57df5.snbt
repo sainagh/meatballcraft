@@ -1,0 +1,14 @@
+{
+	x: 9.5d,
+	y: 7.0d,
+	dependencies: [
+		"c28370df"
+	],
+	tasks: [{
+		uid: "712b5e3c",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:essence"
+		}]
+	}]
+}

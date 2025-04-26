@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: 9.0d,
+	dependencies: [
+		"b05920ac"
+	],
+	tasks: [{
+		uid: "0c486444",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:psdl"
+		}]
+	}]
+}

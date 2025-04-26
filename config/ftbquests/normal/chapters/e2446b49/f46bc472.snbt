@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 7.0d,
+	text: [
+		"I asked for more!"
+	],
+	dependencies: [
+		"f5d35f87"
+	],
+	tasks: [{
+		uid: "4f06545f",
+		type: "item",
+		items: [{
+			id: "botania:supertravelbelt",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

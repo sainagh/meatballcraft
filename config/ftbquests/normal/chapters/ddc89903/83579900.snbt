@@ -1,0 +1,14 @@
+{
+	x: -8.0d,
+	y: 7.5d,
+	dependencies: [
+		"90f190f5"
+	],
+	tasks: [{
+		uid: "876e1799",
+		type: "item",
+		items: [{
+			item: "techreborn:cable 1 6"
+		}]
+	}]
+}

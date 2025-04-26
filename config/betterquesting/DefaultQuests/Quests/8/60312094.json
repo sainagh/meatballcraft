@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    1364
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftoolsdim:dimensional_blank_block"
+      },
+      "name:8": "Kashan"
+    }
+  },
+  "questID:3": 60312094,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 190,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "Kashan",
+      "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:dimensional_blank_block"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

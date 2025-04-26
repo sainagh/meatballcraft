@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"As the Title Says!",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"47707370"
+	],
+	tasks: [{
+		uid: "b62cd585",
+		type: "checkmark",
+		title: "Overworld Minerals"
+	}]
+}

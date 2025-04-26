@@ -1,0 +1,28 @@
+{
+	x: 4.5d,
+	y: 4.5d,
+	text: [
+		"A builder, programmed with a quarry card, is very good at ruining landscapes!"
+	],
+	dependencies: [
+		"9000a36b"
+	],
+	tasks: [{
+		uid: "32a627b9",
+		type: "item",
+		items: [{
+			item: "rftools:builder"
+		}]
+	}],
+	rewards: [{
+		uid: "28780849",
+		type: "item",
+		item: {
+			id: "rftools:shape_card",
+			Damage: 5s,
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	}]
+}

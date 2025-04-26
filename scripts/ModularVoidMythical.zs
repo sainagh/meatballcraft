@@ -184,6 +184,19 @@ mods.nuclearcraft.infuser.addRecipe([<ore:ingotLunastone>,
 <fluid:dimensional_essence>*100, 
 <contenttweaker:nethersky_steel_ingot>*4]);
 
+mods.nuclearcraft.infuser.addRecipe([<ore:ingotGhastly>, 
+<fluid:dimensional_essence>*100, 
+<contenttweaker:nethersky_steel_ingot>*5]);
+
+mods.nuclearcraft.infuser.addRecipe([<ore:ingotGhoulish>, 
+<fluid:dimensional_essence>*100, 
+<contenttweaker:nethersky_steel_ingot>*5]);
+
+mods.nuclearcraft.infuser.addRecipe([<ore:ingotShyrestone>, 
+<fluid:dimensional_essence>*100, 
+<contenttweaker:nethersky_steel_ingot>*6]);
+
+
 
 mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:nethersky_steel_ingot>, 
 <contenttweaker:nethersky_steel_dust>]);

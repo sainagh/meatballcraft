@@ -7,7 +7,7 @@
       "desc:8": "§7§oCraft the Dark Druid Altar and Swamp Talisman! They cannnot be found in world! \n\nThe dimension is very laggy, so its progression can be done in the overworld using the Spatial Diviners. Each quest in the betweenlands chain will show what diviner to use for each step!\n\n§fThe betweenlands, not unlike the Erebus caves, do not appear to exist within the three dimensions of space senses can feel.\nBecause of \u0027slices\u0027 that can be sometimes seen. It is evident that this place is located on terra, but it exists in higher dimensions, making it impossible to perceive for a three-dimensional being, unless the portal to this cursed swamp is used.",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "thebetweenlands:swamp_grass"
+        "id:8": "thebetweenlands:pitstone"
       },
       "name:8": "The Betweenlands"
     }
@@ -20,6 +20,16 @@
       "index:3": 0,
       "name:8": "The Betweenlands",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thebetweenlands:pitstone"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

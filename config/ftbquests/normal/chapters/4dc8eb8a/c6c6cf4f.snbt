@@ -1,0 +1,25 @@
+{
+	x: 5.5d,
+	y: 3.5d,
+	text: [
+		"The quantum quarry produces ground drops from a hypothetical dimension, thus limiting the environmental impact of quarrying.",
+		"Specific biomes can be configured in the multiblock to target particular minerals or ground materials."
+	],
+	dependencies: [
+		"afdc99f5"
+	],
+	tasks: [{
+		uid: "2446d6c5",
+		type: "item",
+		items: [{
+			item: "extrautils2:quarryproxy"
+		}]
+	},
+	{
+		uid: "3d780ed4",
+		type: "item",
+		items: [{
+			item: "extrautils2:quarry"
+		}]
+	}]
+}

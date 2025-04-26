@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    73452729
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "avaritia:infinity_pickaxe",
+        "tag:10": {
+          "ench:9": {
+            "0:10": {
+              "id:3": 35,
+              "lvl:2": 10
+            }
+          }
+        }
+      },
+      "name:8": "Tools of Infinity"
+    }
+  },
+  "questID:3": 619388708,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "avaritia:infinity_hoe"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "avaritia:infinity_axe"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "avaritia:infinity_shovel"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "avaritia:infinity_pickaxe",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:3": 35,
+                "lvl:2": 10
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

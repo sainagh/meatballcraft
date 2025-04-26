@@ -1,0 +1,26 @@
+{
+	x: -11.0d,
+	y: 0.0d,
+	text: [
+		"can accelerate things, but at the cost of time, what will you use this for?",
+		"Thanks to Tomato_Is_Life for the text!"
+	],
+	dependencies: [
+		"75e5d0b0"
+	],
+	tasks: [{
+		uid: "34e7282f",
+		type: "item",
+		items: [{
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

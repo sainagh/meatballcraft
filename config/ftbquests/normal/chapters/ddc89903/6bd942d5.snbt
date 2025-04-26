@@ -1,0 +1,14 @@
+{
+	x: -17.0d,
+	y: 8.5d,
+	dependencies: [
+		"fc5d626a"
+	],
+	tasks: [{
+		uid: "a08674cc",
+		type: "item",
+		items: [{
+			item: "integratedtunnels:part_importer_world_block_item"
+		}]
+	}]
+}

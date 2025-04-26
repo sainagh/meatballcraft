@@ -1,0 +1,422 @@
+{
+    "registryname": "quantum_condenser",
+    "localizedname": "Quantum Condenser",
+	"color": "000000",
+    "parts": [
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantum_condenser@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@3"
+            ]
+        }
+    ]}

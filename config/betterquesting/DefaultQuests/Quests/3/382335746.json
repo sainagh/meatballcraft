@@ -1,0 +1,104 @@
+{
+  "preRequisites:11": [
+    924
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularmachinery:itemblueprint",
+        "tag:10": {
+          "dynamicmachine:8": "modularmachinery:recursive_brain_in_a_vat_tellan"
+        }
+      },
+      "name:8": "Recursive Brain in a Vat"
+    }
+  },
+  "questID:3": 382335746,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:recursive_brain_in_a_vat_donaeth_rusen"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:recursive_brain_in_a_vat_verdith_anath"
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:recursive_brain_in_a_vat_kurald_galain"
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:recursive_brain_in_a_vat_kurald_thyrllan"
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:recursive_brain_in_a_vat_tellan"
+          }
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:recursive_brain_in_a_vat_kurald_emurlahn"
+          }
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:recursive_brain_in_a_vat_ahkrast_korvalain"
+          }
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:recursive_brain_in_a_vat_starvald_demelain"
+          }
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:recursive_brain_in_a_vat_thel"
+          }
+        },
+        "9:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:recursive_brain_in_a_vat"
+          }
+        },
+        "10:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:recursive_brain_in_a_vat_omtose_phellack"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

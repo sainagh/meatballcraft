@@ -1,0 +1,7 @@
+{
+	title: "The Book of Creation",
+	icon: "contenttweaker:botanic_alchemic_catalyst",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

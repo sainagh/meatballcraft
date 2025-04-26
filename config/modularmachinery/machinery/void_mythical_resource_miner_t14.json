@@ -1,0 +1,430 @@
+{
+    "registryname": "mythical_resource_miner_tier14",
+    "localizedname": "Celeve Mythical Void Resource Miner",
+	"color": "383836",
+    "parts": [
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:celian_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:celeve_cap@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:celian_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:celian_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:celeve_cap@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:celeve_cap@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:celian_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:celeve_cap@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_5@0"
+            ]
+        }
+    ]}

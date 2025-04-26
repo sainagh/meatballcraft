@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 22.0d,
+	text: [
+		"Found between Y=1 and Y=11"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "bd0310c1",
+		type: "item",
+		items: [{
+			item: "aoa3:sapphire"
+		}]
+	}]
+}

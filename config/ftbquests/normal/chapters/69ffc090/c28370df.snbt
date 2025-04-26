@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: 7.0d,
+	dependencies: [
+		"8d03d99d"
+	],
+	tasks: [{
+		uid: "9df9d2cb",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:gatewaykey",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

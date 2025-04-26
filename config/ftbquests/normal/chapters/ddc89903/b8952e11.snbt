@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: -7.0d,
+	dependencies: [
+		"54ee6739"
+	],
+	tasks: [{
+		uid: "879c4e53",
+		type: "item",
+		items: [{
+			item: "openblocks:tank"
+		}]
+	}]
+}

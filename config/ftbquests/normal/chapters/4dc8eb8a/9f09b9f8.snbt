@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 9.5d,
+	text: [
+		"Entropy manipulation is a powerful thing, and it works on plants too!"
+	],
+	dependencies: [
+		"0400c016"
+	],
+	tasks: [{
+		uid: "d68d326e",
+		type: "item",
+		items: [{
+			item: "torcherino:blocktorcherino"
+		}]
+	}]
+}

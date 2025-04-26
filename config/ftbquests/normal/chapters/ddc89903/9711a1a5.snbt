@@ -1,0 +1,14 @@
+{
+	x: -11.0d,
+	y: 8.5d,
+	dependencies: [
+		"fc5d626a"
+	],
+	tasks: [{
+		uid: "68c8c2c2",
+		type: "item",
+		items: [{
+			item: "integratedtunnels:part_importer_energy_item"
+		}]
+	}]
+}

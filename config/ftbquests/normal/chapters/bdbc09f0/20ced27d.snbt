@@ -1,0 +1,17 @@
+{
+	x: 15.0d,
+	y: -10.0d,
+	text: [
+		"It worked for berkelium, might as well try with californium..."
+	],
+	dependencies: [
+		"01c68c36"
+	],
+	tasks: [{
+		uid: "8c5e2c91",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_californium 1 2"
+		}]
+	}]
+}

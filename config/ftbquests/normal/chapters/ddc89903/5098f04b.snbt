@@ -1,0 +1,14 @@
+{
+	x: -11.0d,
+	y: -2.5d,
+	dependencies: [
+		"61f2c8ed"
+	],
+	tasks: [{
+		uid: "d715b450",
+		type: "item",
+		items: [{
+			item: "projectred-transmission:wire"
+		}]
+	}]
+}

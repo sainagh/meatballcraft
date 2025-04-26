@@ -1,0 +1,15 @@
+{
+	x: -12.0d,
+	y: -1.5d,
+	dependencies: [
+		"4bfe0fef"
+	],
+	tasks: [{
+		uid: "3aa14784",
+		type: "item",
+		items: [{
+			id: "buildcraftsilicon:plug_gate",
+			tag: {}
+		}]
+	}]
+}

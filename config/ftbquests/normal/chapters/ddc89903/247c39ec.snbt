@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: 7.5d,
+	dependencies: [
+		"7ff83a05"
+	],
+	tasks: [{
+		uid: "15a449e6",
+		type: "item",
+		items: [{
+			item: "enderio:item_extract_speed_upgrade"
+		}]
+	},
+	{
+		uid: "17a68d9e",
+		type: "item",
+		items: [{
+			item: "enderio:item_extract_speed_downgrade"
+		}]
+	}]
+}

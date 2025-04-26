@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: -1.0d,
+	text: [
+		"HaHa! I was successful in making a new fuel, Now I must run it through the fission chamber, hopefully it will last far longer than the previous fuels."
+	],
+	dependencies: [
+		"f002661b"
+	],
+	tasks: [{
+		uid: "8a6c7954",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_berkelium"
+		}]
+	}]
+}

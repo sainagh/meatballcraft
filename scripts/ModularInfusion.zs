@@ -565,3 +565,12 @@ reci54.addItemInput(<thaumadditions:adaminite_plate>*3);
 reci54.addItemOutput(<thaumadditions:adaminite_sword>);
 reci54.build();
 
+
+val reci55 = RecipeBuilder.newBuilder("inf55","arcane_autoinfuser",120);
+reci55.addEnergyPerTickInput(100);
+reci55.addItemInput(<contenttweaker:infernum_vis_condensate>);
+reci55.addItemInput(<draconicevolution:dragon_heart>);
+reci55.addItemInput(<contenttweaker:master_spell_focus>);
+reci55.addItemInput(<thaumadditions:mithminite_fabric>);
+reci55.addItemOutput(<contenttweaker:master_spell_infernum>);
+reci55.build();

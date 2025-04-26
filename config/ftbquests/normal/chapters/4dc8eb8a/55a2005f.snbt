@@ -1,0 +1,44 @@
+{
+	title: "MK1 Power Flower",
+	x: 1.0d,
+	y: -4.5d,
+	text: [
+		"In order to endlessly produce matter using EMC, the knowledge of three devices is needed.",
+		"Firsly, collectors generate EMC from light. Glowstone are the better source for these purposes. The more glowstone blocks surrounding a collector, the faster EMC will be produced.",
+		"Secondly, Relays act like like EMC batteries, and are able to transmit this type of power to/from adjacent blocks. This means that the energy from multiple collectors can be funnled into a single block using a Relay.",
+		"Finally, condensers can use EMC provided by adjacent relays and collectors to duplicate a given item.",
+		"A condenser, to remain accessible with maximum efficiency, still has five free faces, and so do relays...",
+		""
+	],
+	dependencies: [
+		"6e3475c4"
+	],
+	tasks: [{
+		uid: "00dee206",
+		type: "item",
+		items: [{
+			item: "projecte:collector_mk1"
+		}]
+	},
+	{
+		uid: "239dd99f",
+		type: "item",
+		items: [{
+			item: "projecte:relay_mk1"
+		}]
+	},
+	{
+		uid: "c7de9200",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk1"
+		}]
+	},
+	{
+		uid: "35126844",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone"
+		}]
+	}]
+}

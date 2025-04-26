@@ -1,0 +1,1582 @@
+{
+    "registryname": "chaotic_striker",
+    "localizedname": "Chaotic Striker",
+	"color": "1d0038",
+    "parts": [
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "plustic:plustic.molten_infinity@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hihi_irokane_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "plustic:plustic.molten_infinity@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:ichorium_catalyst@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hihi_irokane_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:hihi_irokane_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thaumadditions:void_anvil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hihi_irokane_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "plustic:plustic.molten_infinity@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "plustic:plustic.molten_infinity@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:white_hole@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:chaotic_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:ethaxiumbrickstairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:ethaxiumbrick@0"
+            ]
+        }
+    ]}

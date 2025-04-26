@@ -1,0 +1,20 @@
+{
+	x: 18.0d,
+	y: 2.0d,
+	text: [
+		"Any solid fuel will work in this bad boy!"
+	],
+	dependencies: [
+		"ff287def"
+	],
+	tasks: [{
+		uid: "3e2f6199",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 5.0d,
+	y: -7.0d,
+	dependencies: [
+		"54ee6739"
+	],
+	tasks: [{
+		uid: "d4c09582",
+		type: "item",
+		items: [{
+			id: "enderio:block_tank",
+			tag: {
+				"enderio:data": {
+					tank: {
+						Empty: "",
+						Capacity: 16000
+					}
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 14.0d,
+	y: -7.0d,
+	dependencies: [
+		"279d7e23"
+	],
+	tasks: [{
+		uid: "ea0af84d",
+		type: "item",
+		items: [{
+			item: "xnet:router"
+		}]
+	}]
+}

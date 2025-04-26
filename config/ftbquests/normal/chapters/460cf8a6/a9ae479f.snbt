@@ -1,0 +1,14 @@
+{
+	x: 20.0d,
+	y: 14.0d,
+	dependencies: [
+		"4ed812bb"
+	],
+	tasks: [{
+		uid: "fe2c8e3e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:recursive_powder"
+		}]
+	}]
+}

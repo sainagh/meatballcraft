@@ -1,0 +1,7 @@
+{
+	title: "On Magical Mastery",
+	icon: "thaumcraft:causality_collapser",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

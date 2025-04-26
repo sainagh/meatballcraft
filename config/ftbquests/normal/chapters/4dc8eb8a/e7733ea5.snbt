@@ -1,0 +1,18 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	text: [
+		"An apiary is used to get honey combs from bees (no really?!), but it's not a really good way of doing it.",
+		"You really should not use it!"
+	],
+	dependencies: [
+		"23f7241d"
+	],
+	tasks: [{
+		uid: "63922927",
+		type: "item",
+		items: [{
+			item: "forestry:apiary"
+		}]
+	}]
+}

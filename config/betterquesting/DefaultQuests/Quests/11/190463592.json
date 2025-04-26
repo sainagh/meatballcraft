@@ -1,0 +1,94 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    713881066,
+    995
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mod_lavacow:scarab_wand",
+        "tag:10": {
+          "Unbreakable:1": 1,
+          "display:10": {
+            "Lore:9": {
+              "0:8": "§d§oSuper-Enchanted§r"
+            },
+            "Name:8": "§6§oFemale Choedan Kal§r"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:3": 121,
+              "lvl:3": 20000
+            },
+            "1:10": {
+              "id:3": 115,
+              "lvl:3": 20000
+            }
+          }
+        }
+      },
+      "name:8": "Choedan Kal"
+    }
+  },
+  "questID:3": 190463592,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mod_lavacow:sludge_wand",
+          "tag:10": {
+            "Unbreakable:1": 1,
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oMale Choedan Kal§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 121,
+                "lvl:3": 20000
+              },
+              "1:10": {
+                "id:3": 115,
+                "lvl:3": 20000
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "mod_lavacow:scarab_wand",
+          "tag:10": {
+            "Unbreakable:1": 1,
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oFemale Choedan Kal§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 121,
+                "lvl:3": 20000
+              },
+              "1:10": {
+                "id:3": 115,
+                "lvl:3": 20000
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

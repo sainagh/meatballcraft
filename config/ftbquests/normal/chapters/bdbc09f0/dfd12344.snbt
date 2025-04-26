@@ -1,0 +1,21 @@
+{
+	x: 10.0d,
+	y: -7.0d,
+	dependencies: [
+		"f4c5b6db"
+	],
+	tasks: [{
+		uid: "c798028a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:nobelium_254"
+		}]
+	},
+	{
+		uid: "344ba3a2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:nobelium_255"
+		}]
+	}]
+}

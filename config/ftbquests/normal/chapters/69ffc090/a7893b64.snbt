@@ -1,0 +1,29 @@
+{
+	x: -5.5d,
+	y: -6.5d,
+	text: [
+		"The scribing tools, when used on two adjacent wooden tables, allow for the creation of a research table, which is used to unlock thaumic knowledge through inscription on pieces of paper."
+	],
+	dependencies: [
+		"51229b7e"
+	],
+	tasks: [{
+		uid: "145668f5",
+		type: "item",
+		items: [{
+			id: "thaumcraft:scribing_tools",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e64a3188",
+		type: "item",
+		items: [{
+			item: "thaumcraft:table_wood"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 16.0d,
+	y: -5.0d,
+	text: [
+		"Just a mix of random radioactive elements, will it work?"
+	],
+	dependencies: [
+		"285dab3c"
+	],
+	tasks: [{
+		uid: "f294468f",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_mixed_oxide 1 1"
+		}]
+	}]
+}

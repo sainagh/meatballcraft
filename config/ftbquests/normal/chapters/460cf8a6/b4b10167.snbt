@@ -1,0 +1,20 @@
+{
+	x: -1.0d,
+	y: 12.0d,
+	text: [
+		"Below Y=8 in the Overworld",
+		"Every Level in the End and Nether",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "479edea8",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_dust"
+		}]
+	}]
+}

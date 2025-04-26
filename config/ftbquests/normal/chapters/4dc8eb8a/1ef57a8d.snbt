@@ -1,0 +1,30 @@
+{
+	x: -8.5d,
+	y: 0.0d,
+	text: [
+		"Thanks to the power of entropy manipulation, I can build one-block mobfarms with extremely high rates!"
+	],
+	dependencies: [
+		"50a10582"
+	],
+	tasks: [{
+		uid: "35ba8dd5",
+		type: "item",
+		items: [{
+			item: "tinymobfarm:ultimate_farm"
+		}]
+	},
+	{
+		uid: "9d0b2111",
+		type: "item",
+		items: [{
+			id: "tinymobfarm:lasso",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: 10.5d,
+	y: 0.0d,
+	dependencies: [
+		"644a72fc"
+	],
+	tasks: [{
+		uid: "4b6d1b4e",
+		type: "checkmark",
+		title: "Wizardry"
+	}]
+}

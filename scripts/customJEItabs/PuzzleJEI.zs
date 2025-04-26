@@ -354,6 +354,11 @@ shieldtothearbiter.addInput(<contenttweaker:lyndenwyrm_warper>);
 shieldtothearbiter.setOutputs([<contenttweaker:shield_of_the_arbiter>]);
 shieldtothearbiter.build();
 
+val undeadsoil = JEI.createJeiRecipe("meatball_puzzle");
+undeadsoil.addInput(<contenttweaker:summons_to_the_meatball_man>);
+undeadsoil.setOutputs([<contenttweaker:undead_soil>]);
+undeadsoil.build();
+
 
 
 

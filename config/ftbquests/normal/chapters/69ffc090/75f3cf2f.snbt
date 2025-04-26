@@ -1,0 +1,63 @@
+{
+	x: 6.5d,
+	y: 7.0d,
+	dependencies: [
+		"8d03d99d",
+		"83b00847"
+	],
+	tasks: [{
+		uid: "141b8905",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:energypedestal",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6b0142ad",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:energycollector",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a94514e6",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:sacrificialaltar",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e2015c67",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:energyrelay",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "38dd1127",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:energycontainer",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

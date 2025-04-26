@@ -1,0 +1,17 @@
+{
+	x: 13.0d,
+	y: -6.0d,
+	text: [
+		"And here's the other fissible plutonium isotope!"
+	],
+	dependencies: [
+		"b660e689"
+	],
+	tasks: [{
+		uid: "19587701",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:depleted_fuel_uranium 1 2"
+		}]
+	}]
+}

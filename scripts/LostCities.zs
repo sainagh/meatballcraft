@@ -7,10 +7,16 @@ recipes.addShaped(<contenttweaker:stone_of_universal_balance>,
 [<contenttweaker:hungering_flesh_ingot>, <contenttweaker:actualizing_hyperuranion_ingot>, <contenttweaker:ascended_fluix_crystal>],
 [<contenttweaker:chaos_wood>, <careerbees:ingredients:11>, <contenttweaker:recursium_ingot>]]);
 
-recipes.addShaped(<contenttweaker:stone_of_universal_balance>*5,
+recipes.addShaped(<contenttweaker:stone_of_universal_balance>*4,
 [[<contenttweaker:recursium_ingot>, <careerbees:ingredients:12>, <contenttweaker:order_wood>],
-[<contenttweaker:hungering_flesh_ingot>, <contenttweaker:trinity_ingot>, <contenttweaker:ascended_fluix_crystal>],
+[<contenttweaker:hungering_flesh_ingot>, <contenttweaker:trinity_nugget>, <contenttweaker:ascended_fluix_crystal>],
 [<contenttweaker:chaos_wood>, <careerbees:ingredients:11>, <contenttweaker:recursium_ingot>]]);
+
+recipes.addShaped(<contenttweaker:stone_of_universal_balance>*16,
+[[<contenttweaker:recursium_ingot>, <contenttweaker:dust_of_infinite_wishes>, <contenttweaker:order_wood>],
+[<contenttweaker:hungering_flesh_ingot>, <contenttweaker:trinity_nugget>, <contenttweaker:ascended_fluix_crystal>],
+[<contenttweaker:chaos_wood>, <contenttweaker:dust_of_infinite_wishes>, <contenttweaker:recursium_ingot>]]);
+
 
 val hungeringfleshgear = RecipeBuilder.newBuilder("hungeringfleshgear","mythic_processor_gearworking_die",1);
 hungeringfleshgear.addEnergyPerTickInput(1000000);

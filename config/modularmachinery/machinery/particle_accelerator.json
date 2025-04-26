@@ -1,0 +1,1714 @@
+{
+    "registryname": "particle_accelerator",
+    "localizedname": "Particle Accelerator",
+	"color": "382e2d",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:plasma_accelerator_tube",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "Multiplies speed by 5",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.2
+            }]
+        },
+        {
+            "elements": "contenttweaker:dyson_extruder",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "Multiplies speed by 20",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.05
+            }]
+        }
+    ],
+    "parts": [
+        {
+            "x": -7,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:linear_accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:linear_accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:linear_accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:linear_accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:linear_accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:linear_accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "generalized_output_fluid"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "generalized_output_fluid"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:linear_accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:accelerator_tube@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:experiment_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:electromagnet_supercooler_idle@0"
+            ]
+        }
+    ]}

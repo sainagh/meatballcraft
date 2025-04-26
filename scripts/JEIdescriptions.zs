@@ -2556,7 +2556,9 @@ mods.jei.JEI.addDescription([<contenttweaker:dimension_ids>],
     "Earth (Lost Cities): 111",
     "Gallifrey: 624",
     "RFTools Dimensions: 900 (and consecutive numbers)",
-    "Kashan: 190"
+    "Kashan: 190",
+    "Trinitas: 191",
+    "Fuhai: 192"
 ]);
 
 
@@ -4638,6 +4640,44 @@ mods.jei.JEI.addDescription([
     "It is a good idea to use other energy transfer (Fluxducts, Conduits, Energy Lasers) to connect a single Point/Plug to multiple machines/generators. Just make sure your transfer rates are high enough to keep up."
 ]);
 
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_undeadsoil>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Travixte has 7 different biomes, with 7 different surface blocks...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft the Staff of the Lord of Gluttony with these blocks: Borean Grass, Iromine Grass, Celeve Grass, Runic Grass, Baron Ground, Mysterium Grass, Snow"
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_vowtodeath>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "The Dark Ethaxium Bricks are not right. Certain mobs may hold the answer on what to use to replace them. Weirdly enough, they do not drop, but I am sure there are ways to get them through other means...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Replace the Dark Ethaxium with the following blocks (marked by direction):",
+    "N: Block of Cobalt ()",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+]);
+
 
 mods.jei.JEI.addDescription([
     <contenttweaker:passive_crafting_subnets>],
@@ -4725,3 +4765,17 @@ mods.jei.JEI.addDescription([
     "",
     "After being emptied, the Reactor will not refill unless it is turned off and back on. Redstone circuitry can be used to periodically toggle the fusion reactor on and off to replenish it."
 ]);
+
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:multiblock_input_swapping>],
+[
+    "The pack uses quite a few multiblocks that do not consume inputs. The Enchanted Greenhouse and Mechanized Coop are examples of this.",
+    "",
+    "The multiblocks will only process a single recipe, even when multiple inputs are present. Items placed in Input Hatches from Modular Machinery cannot be extracted automatically.",
+    "",
+    "To automatically extract items from Item Inputs, though, Phantomfaces still work.",
+    "",
+    "By exploiting this principle, it is possible to build contraptions that automatically swap the inputs to these types of multiblocks, so that you can process multiple recipes without having to build multiple machines."
+]);
+

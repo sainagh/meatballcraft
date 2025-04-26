@@ -1,0 +1,19 @@
+{
+	x: 12.5d,
+	y: 2.0d,
+	text: [
+		"Can be Crafted by Combining a Iron Ingot and Firey Blood",
+		"",
+		"- Written by Bluecat"
+	],
+	dependencies: [
+		"c3ccab1b"
+	],
+	tasks: [{
+		uid: "650d00ba",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_ingot"
+		}]
+	}]
+}

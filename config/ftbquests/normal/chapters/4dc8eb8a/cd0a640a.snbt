@@ -1,0 +1,41 @@
+{
+	title: "Aevitas",
+	x: -1.0d,
+	y: 6.5d,
+	text: [
+		"The power of the Aevitas constellation makes plant growth really fast, may need to look into it..."
+	],
+	dependencies: [
+		"0400c016"
+	],
+	tasks: [{
+		uid: "47cd3d5d",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemtunedcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.aevitas",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6f0d052c",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockritualpedestal"
+		}]
+	}]
+}

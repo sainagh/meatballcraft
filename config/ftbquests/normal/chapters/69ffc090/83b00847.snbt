@@ -1,0 +1,14 @@
+{
+	x: 6.5d,
+	y: 6.0d,
+	dependencies: [
+		"c693a278"
+	],
+	tasks: [{
+		uid: "ab021f86",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:shoggothflesh"
+		}]
+	}]
+}
