@@ -3811,7 +3811,7 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_infuserfabrial>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "将宝石之心与以下魔力水晶碎片结合：Ventus、Vitreus、Aer、Aqua、Terra、Perditio、Motus。"
+    "将宝石之心与以下魔力水晶碎片结合：Luna、Ventus、Vitreus、Aer、Aqua、Terra、Perditio、Motus。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_apothecaryprisonkey>,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests list all methods available for plant and tree farming!\n\nSee the green revolution section for methods to make your plants faster and better!\n\n§fPlants and trees are extremely useful, so I will need lots of ways to ensure a steady supply of vegetarian goodies.",
+      "desc:8": "§7§o以下任务列出了所有可用的作物及树木种植方法！\n\n查看绿色革命板块任务以了解提高作物生长速度和产量的方法！\n\n§f作物和树木非常有用，我需要使用各种方法来确保长期素食供应。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "r/notjusttrees"
+      "name:8": "农业领域大神"
     }
   },
   "questID:3": 20421,
