@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    1501196473
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:guardians_of_shadesmar_callstone"
+      },
+      "name:8": "The Gate of Shadesmar"
+    }
+  },
+  "questID:3": 982745465,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:guardians_of_shadesmar_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:spren_summoner_hope"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:spren_summoner_balance"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:spren_summoner_glory"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:spren_summoner_knowledge"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:embodiment_of_glory"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:embodiment_of_knowledge"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:embodiment_of_hope"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:embodiment_of_balance"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

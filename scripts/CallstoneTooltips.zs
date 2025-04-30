@@ -18,7 +18,7 @@
 <contenttweaker:lunalus_callstone>.addTooltip(format.red("需在指定维度使用：[虚无]月球"));
 <contenttweaker:wildwood_callstone>.addTooltip(format.red("需在指定维度使用：原始森林"));
 <contenttweaker:skythern_callstone>.addTooltip(format.red("需在指定维度使用：空境"));
-<contenttweaker:immortallis_callstone>.addTooltip(format.red("需在指定维度使用：不朽之地"));
+<contenttweaker:immortallis_callstone>.addTooltip(format.red("需在指定维度使用：暮色森林"));
 <contenttweaker:horrific_callstone>.addTooltip(format.red("需在指定维度使用：哈托尔"));
 <contenttweaker:harbinger_callstone>.addTooltip(format.red("需在指定维度使用：暮色森林"));
 <contenttweaker:dream_callstone>.addTooltip(format.red("需在指定维度使用：梦魇世界"));
@@ -88,4 +88,10 @@
 <contenttweaker:lucky_box_twilight_books>.addTooltip(format.red("需在指定维度使用：主世界"));
 <contenttweaker:lucky_box_twilight_weapons>.addTooltip(format.red("需在指定维度使用：主世界"));
 <contenttweaker:dread_cleansing_callstone>.addTooltip(format.red("需在指定维度使用：基岩维度"));
-<contenttweaker:rites_of_liberation>.addTooltip(format.red("需在指定维度使用：主世界"));
+<contenttweaker:guardians_of_shadesmar_callstone>.addTooltip(format.red("需在指定维度使用：卡尚"));
+<contenttweaker:trinitas_callstone>.addTooltip(format.red("需在指定维度使用：叁壹界"));
+<contenttweaker:tainted_prison_key>.addTooltip(format.red("需在指定维度使用：衰腐界"));
+<contenttweaker:mission_of_undeath_callstone>.addTooltip(format.red("需在指定维度使用：争竞界"));
+<contenttweaker:gun_devil_confrontation_callstone>.addTooltip(format.red("需在指定维度使用：争竞界"));
+<contenttweaker:universal_constellation_callstone>.addTooltip(format.red("需在指定维度使用：衰腐界"));
+<contenttweaker:ghost_of_annoyance_callstone>.addTooltip(format.red("需在指定维度使用：伽里弗雷"));

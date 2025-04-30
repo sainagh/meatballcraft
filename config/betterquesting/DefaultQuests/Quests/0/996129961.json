@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    1386
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:actualizing_casing"
+      },
+      "name:8": "Pocket Warrens"
+    }
+  },
+  "questID:3": 996129961,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:actualizing_casing"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:hyperuranon_actualizing_fabrial"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:hyperuranion_actualizer_naquadah"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:hyperuranion_actualizer_dragonsteel"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:hyperuranion_actualizer_dimshard"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

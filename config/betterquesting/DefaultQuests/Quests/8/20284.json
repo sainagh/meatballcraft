@@ -7,7 +7,8 @@
       "desc:8": "§7§o在空间站使用跃迁核心",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "minecraft:obsidian"
+        "Damage:2": 3,
+        "id:8": "tconstruct:slime_congealed"
       },
       "name:8": "奥伽斯"
     }
@@ -20,6 +21,17 @@
       "index:3": 0,
       "name:8": "奥伽斯",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "tconstruct:slime_congealed"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

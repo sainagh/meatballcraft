@@ -81,6 +81,14 @@
     {
       "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
     }
   ],
   "183": [
@@ -329,6 +337,14 @@
     {
       "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
     }
   ],
   "814": [
@@ -383,6 +399,14 @@
     {
       "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
     }
   ],
   "53": [
@@ -412,6 +436,14 @@
     },
     {
       "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
       "damage": "*"
     }
   ],
@@ -527,6 +559,14 @@
     {
       "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
     }
   ],
   "171": [
@@ -580,6 +620,14 @@
     },
     {
       "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
       "damage": "*"
     }
   ],
@@ -635,6 +683,14 @@
     {
       "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
     }
   ],
   "173": [
@@ -688,6 +744,14 @@
     },
     {
       "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
       "damage": "*"
     }
   ],
@@ -752,6 +816,14 @@
     },
     {
       "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
       "damage": "*"
     }
   ],
@@ -1023,6 +1095,14 @@
     {
       "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
     }
   ],
   "51": [
@@ -1041,6 +1121,14 @@
     {
       "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
     }
   ],
   "52": [
@@ -1058,6 +1146,14 @@
     },
     {
       "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
       "damage": "*"
     }
   ],
@@ -1143,6 +1239,14 @@
     {
       "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
     }
   ],
   "164": [
@@ -1203,6 +1307,14 @@
     {
       "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
     }
   ],
   "424": [
@@ -1228,6 +1340,14 @@
     },
     {
       "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
       "damage": "*"
     }
   ],
@@ -1280,6 +1400,14 @@
     },
     {
       "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
       "damage": "*"
     }
   ],
@@ -1446,6 +1574,26 @@
     },
     {
       "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    }
+  ],
+  "815": [
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
+    }
+  ],
+  "817": [
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
       "damage": "*"
     }
   ]

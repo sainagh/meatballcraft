@@ -100,7 +100,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:ayeraco_heart>.addTooltip(format.red("发现于末地的潜影贝祭坛"));
 
-<minecraft:totem_of_undying>.addTooltip(format.red("唤魔者刷怪蛋存在配方"));
+<minecraft:totem_of_undying>.addTooltip(format.red("递归之卷会很有用"));
 
 <thaumcraft:curio:6>.addTooltip(format.red("血腥传送门可发现于主世界"));
 
@@ -230,7 +230,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:pure_warp>.addTooltip(format.red("使用恐灾右击获得"));
 
-<enderio:item_broken_spawner>.addTooltip(format.red("破损的僵尸刷怪箱存在配方"));
+<enderio:item_broken_spawner>.addTooltip(format.red("破损的僵丨尸刷怪箱存在配方"));
 
 <thaumcraft:void_seed>.addTooltip(format.red("通过坍缩大型咒波裂隙获得"));
 
@@ -574,6 +574,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:aeldunari>.addTooltip(format.green("在无序配方中可重复使用"));
 
+
 <techreborn:industrial_blast_furnace>.addTooltip(format.red("3x4x3的中空立方体，机器在最底层中间"));
 <techreborn:industrial_blast_furnace>.addTooltip(format.red("可进行以下操作以提升温度："));
 <techreborn:industrial_blast_furnace>.addTooltip(format.red("- 使用更高级别的机械外壳"));
@@ -601,6 +602,7 @@ import crafttweaker.item.IItemCondition;
 <aoa3:amphibiyte_lung>.addTooltip(format.red("发现于主世界沙滩（Beach）群系的安佛比亚洞穴"));
 
 <techreborn:fusion_control_computer>.addTooltip(format.red("可使用线圈右击控制器进行自动放置"));
+
 
 <nuclearcraft:part:2>.addTooltip(format.red("钚粉是不错的产铀来源，但是怎么获得呢？？"));
 
@@ -745,7 +747,7 @@ import crafttweaker.item.IItemCondition;
 
 <appliedenergistics2:crystal_seed:1200>.addTooltip(format.red("得等上好一会儿，或许该先去打点Boss，探索探索……"));
 
-<erebus:materials:38>.addTooltip(format.red("使用绿宝石、钻石以及黑曜石右击贡献祭坛"));
+<erebus:materials:38>.addTooltip(format.red("使用绿宝石、钻石以及黑曜石右击奉献祭坛"));
 
 <minecraft:chest>.addTooltip(format.red("感谢Sandman366在修复JEI搜索木板导致崩溃的问题方面的帮助 ;)"));
 
@@ -1112,6 +1114,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:mortum_star>.addTooltip(format.red("你解开神圣之地的秘密了吗？"));
 
 <contenttweaker:sacred_acorn>.addTooltip(format.red("与正确的树皮结合以分别获得两种神圣树苗"));
+<contenttweaker:sacred_acorn>.addTooltip(format.red("神圣召唤石将指引你"));
 
 <extrabotany:allforone>.addTooltip(format.red("很有可能不起作用（Forge的bug）"));
 
@@ -1469,7 +1472,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:matrix_ore>.addTooltip(format.red("在塞尔瑞维度，使用斗轮式挖掘机开采Matrix矿床"));
 
-<contenttweaker:everlasting_fusor>.addTooltip(format.red("制作4个即可"));
+<contenttweaker:everlasting_fusor>.addTooltip(format.red("正统结局需要制作5个"));
 
 <materialpart:abyssite:ingot>.addTooltip(format.red("可从聚变反应堆中泵出等离子体"));
 
@@ -1490,7 +1493,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:tennessine_gem>.addTooltip(format.red("等级越高，概率越大"));
 
-<contenttweaker:scale_of_the_ancient_heart>.addTooltip(format.red("使用仲裁者之唤"));
+<contenttweaker:scale_of_the_ancient_heart>.addTooltip(format.red("使用理序主之唤"));
 
 <contenttweaker:pure_egg>.addTooltip(format.red("发现于谐律界"));
 
@@ -1967,7 +1970,7 @@ import crafttweaker.item.IItemCondition;
 
 <astralsorcery:blockaltar:0>.addTooltip(format.red("配方可能会出bug，星辉和凿子的大理石都试试！"));
 
-<contenttweaker:europa_spinel>.addTooltip(format.red("通过和平誓言召唤石获得"));
+<contenttweaker:europa_spinel>.addTooltip(format.red("通过和平誓约召唤石获得"));
 
 <contenttweaker:hator_spinel>.addTooltip(format.red("通过三一召唤石获得"));
 
@@ -2016,6 +2019,7 @@ import crafttweaker.item.IItemCondition;
 <iceandfire:hydra_fang>.addTooltip(format.red("九头蛇生成于主世界的沼泽，或者下界的骨头结构"));
 
 <contenttweaker:myrmex_coolant_cell>.addTooltip(format.red("诅咒恐蚁金属流体桶存在配方"));
+
 
 <contenttweaker:black_hole_honey>.addTooltip(format.red("允许在所有维度使用创造飞行"));
 
@@ -2133,7 +2137,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:fluix_etcher>.addTooltip(format.red("Paronity和Kherune非常喜欢自动合成"));
 
 <tardis:tardis_coral>.addTooltip(format.red("警告：放置该物品将导致卡顿，离基地远点"));
-<tardis:tardis_coral>.addTooltip(format.red("推荐在第一次进入TARDIS之后，立即转用其他传送手段"));
+<tardis:tardis_coral>.addTooltip(format.red("推荐在第一次进入塔迪斯之后，立即转用其他传送手段"));
 
 <tardis:tardis_coral>.addTooltip(format.red("放置在草方块上，等待一些MC日以让其生长"));
 
@@ -3640,7 +3644,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("使用配方中的模块化控制器来自动搭建不同燃料反应堆的内部构造！"));
 <contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("感谢cry想出的这个点子！"));
 
-<modularmachinery:safe_fission_tbu_controller>.addTooltip(format.red("同样适用于许多其他燃料！"));
 
 <contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("使用核电工艺模组的液冷器替换该方块！"));
 <contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("用缓存器替换反应堆外墙的外壳，对其输送流体！"));
@@ -3650,6 +3653,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:stormlight_fragment>.addTooltip(format.red("通过飓风之子召唤石获得"));
 
 <divinerpg:storm_sword>.addTooltip(format.red("与秘界的梅里克首领交易获得"));
+
 
 
 

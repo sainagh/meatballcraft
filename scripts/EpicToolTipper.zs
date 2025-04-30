@@ -23,7 +23,7 @@ recipes.addShapeless(
         var updatedTag as IData = {
 		    display: {Lore: ["§d§o超限附魔§r"]}
 		};
-		return ins.mark.updateTag(inpuTag += updatedTag);
+		return ins.mark.updateTag(inpuTag += updatedTag).withAmount(1);
     },
     null
 );

@@ -7,7 +7,7 @@
       "desc:8": "§7§o按末地传送门形状，水平放置12个秘界传送门（站在中心朝外放置）\n\n§f魔法不仅真实存在，神明亦如是。尽管难以置信，秘界地牢作为一个独立位面存在于高维空间，其存在形态与诸多自然魔法之源的艾尔夫海姆相似。\n这座（字面意义上）的无尽堡垒是两位自然魔法大师的领域，他们以伟力将三维空间无限延展至另一高维层面。\n与此相应，“神明”的权能使其存在得以无限复现——在此位面中，他们既无处不在，又无处可寻。",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "divinerpg:arcanite_grass"
+        "id:8": "divinerpg:arcanium_block"
       },
       "name:8": "秘界地牢"
     }
@@ -20,6 +20,16 @@
       "index:3": 0,
       "name:8": "秘界地牢",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:arcanium_block"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

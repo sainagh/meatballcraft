@@ -46,6 +46,9 @@ recipes.addShapeless(<contenttweaker:ayeraco_scale>,
 recipes.addShapeless(<contenttweaker:soul_of_the_grand_wizard>,
 [<contenttweaker:boss_drop>, <iceandfire:dread_key>, <contenttweaker:staff_of_iceika>]);
 
+recipes.addShapeless(<contenttweaker:nightmare_of_annoyance>,
+[<contenttweaker:boss_drop>, <contenttweaker:ghost_of_annoyance_callstone>]);
+
 recipes.addShapeless(<mowziesmobs:ice_crystal>,
 [<contenttweaker:boss_drop>, <divinerpg:snow_globe>]);
 
@@ -89,8 +92,8 @@ true,
 <minecraft:structure_void>, 
 [<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>,
 <abyssalcraft:transmutationgem>,<minecraft:enchanting_table>,<forge:bucketfilled>.withTag({FluidName: "liquidcoralium", Amount: 1000}),<minecraft:structure_void>]);
-game.setLocalization("ac.ritual.ritiualsleeperwiki", "沉睡者仪式"); 
-game.setLocalization("ac.ritual.ritiualsleeperwiki.desc", "用以查看如何进行仪式");
+game.setLocalization("ac.ritual.ritiualsleeperwiki", "Ritual of the Sleeper"); 
+game.setLocalization("ac.ritual.ritiualsleeperwiki.desc", "To see how it's done");
 
 
 recipes.addShapeless(<abyssalcraft:dreadkey>,
@@ -856,6 +859,9 @@ recipes.addShapeless(<contenttweaker:starlight_sphere>,
 recipes.addShapeless(<contenttweaker:celestial_shield_fragment>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
 
+recipes.addShapeless(<contenttweaker:cursed_dragon_egg>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
 recipes.addShapeless(<avaritia:resource:0>, 
 [<contenttweaker:gamestage_recipe>, <contenttweaker:ancient_elven_knowledge>]);
 
@@ -1046,6 +1052,8 @@ recipes.addShapeless(<contenttweaker:recursive_paper_illager>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
 recipes.addShapeless(<contenttweaker:recursive_paper_abyssal>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<contenttweaker:recursive_paper_buggy>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
 
 recipes.addShapeless(<erebus:materials:0>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
@@ -1118,6 +1126,14 @@ recipes.addShapeless(<contenttweaker:lightning_dragonsteel_ore>,
 recipes.addShapeless(<contenttweaker:dense_dimensional_shard_ore>,
 [<contenttweaker:custom_dimensions>]);
 
+recipes.addShapeless(<contenttweaker:rhenium_ore>,
+[<contenttweaker:custom_dimensions>]);
+
+recipes.addShapeless(<contenttweaker:holographic_ore>,
+[<contenttweaker:custom_dimensions>]);
+
+recipes.addShapeless(<contenttweaker:ichor>,
+[<contenttweaker:custom_dimensions>]);
 
 
 
@@ -1155,3 +1171,92 @@ recipes.addShapeless(<mod_lavacow:foul_bristle>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
 recipes.addShapeless(<mod_lavacow:ectoplasm>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+
+
+recipes.addShapeless(<contenttweaker:embodiment_of_balance>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:guardians_of_shadesmar_callstone>, <contenttweaker:spren_summoner_balance>]);
+recipes.addShapeless(<contenttweaker:embodiment_of_hope>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:guardians_of_shadesmar_callstone>, <contenttweaker:spren_summoner_hope>]);
+recipes.addShapeless(<contenttweaker:embodiment_of_glory>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:guardians_of_shadesmar_callstone>, <contenttweaker:spren_summoner_glory>]);
+recipes.addShapeless(<contenttweaker:embodiment_of_knowledge>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:guardians_of_shadesmar_callstone>, <contenttweaker:spren_summoner_knowledge>]);
+
+
+recipes.addShapeless(<contenttweaker:shard_of_restored_faith>,
+[<contenttweaker:boss_drop>, <contenttweaker:spren_summoner_faith>]);
+recipes.addShapeless(<contenttweaker:shard_of_forgotten_fear_of_death>,
+[<contenttweaker:boss_drop>, <contenttweaker:spren_summoner_death>]);
+recipes.addShapeless(<contenttweaker:shard_of_forgiven_lost_time>,
+[<contenttweaker:boss_drop>, <contenttweaker:spren_summoner_haste>]);
+recipes.addShapeless(<contenttweaker:shard_of_rekindled_heritage>,
+[<contenttweaker:boss_drop>, <contenttweaker:spren_summoner_blasphemy>]);
+recipes.addShapeless(<contenttweaker:shard_of_no_hidden_intentions>,
+[<contenttweaker:boss_drop>, <contenttweaker:spren_summoner_plot>]);
+recipes.addShapeless(<contenttweaker:shard_of_physical_healing>,
+[<contenttweaker:boss_drop>, <contenttweaker:spren_summoner_injury>]);
+recipes.addShapeless(<contenttweaker:shard_of_realized_worth>,
+[<contenttweaker:boss_drop>, <contenttweaker:spren_summoner_inadequacy>]);
+recipes.addShapeless(<contenttweaker:shard_of_restored_relationship>,
+[<contenttweaker:boss_drop>, <contenttweaker:spren_summoner_loneliness>]);
+recipes.addShapeless(<contenttweaker:shard_of_surrender>,
+[<contenttweaker:boss_drop>, <contenttweaker:spren_summoner_control>]);
+recipes.addShapeless(<contenttweaker:shard_of_individual_freedom>,
+[<contenttweaker:boss_drop>, <contenttweaker:spren_summoner_prepotence>]);
+recipes.addShapeless(<contenttweaker:shard_of_controlled_gluttony>,
+[<contenttweaker:boss_drop>, <contenttweaker:spren_summoner_gluttony>]);
+recipes.addShapeless(<contenttweaker:shard_of_humble_education>,
+[<contenttweaker:boss_drop>, <contenttweaker:spren_summoner_arrogance>]);
+
+
+recipes.addShapeless(<contenttweaker:trinity_runes>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:call_to_mission>]);
+
+recipes.addShapeless(<contenttweaker:cuendillar_catalyst_1>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:trinitas_callstone>]);
+recipes.addShapeless(<contenttweaker:cuendillar_catalyst_2>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:trinitas_callstone>]);
+recipes.addShapeless(<contenttweaker:cuendillar_catalyst_3>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:trinitas_callstone>]);
+
+
+recipes.addShapeless(<contenttweaker:tainted_claw>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:void_ichorium_rift>]);
+recipes.addShapeless(<contenttweaker:void_chains>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:void_ichorium_rift>]);
+recipes.addShapeless(<contenttweaker:void_ichorium_gem>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:void_ichorium_rift>]);
+
+
+recipes.addShapeless(<contenttweaker:gem_of_pure_taint>,
+[<contenttweaker:boss_drop>, <contenttweaker:void_ichorium_jewel>]);
+
+recipes.addShapeless(<contenttweaker:recursion_of_taint>,
+[<contenttweaker:boss_drop>, <contenttweaker:tainted_prison_key>]);
+
+recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_envy>,
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_pride>,
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_sloth>,
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_wrath>,
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_lust>,
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_greed>,
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+
+recipes.addShapeless(<contenttweaker:oath_of_the_lord_of_gluttony>,
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+
+recipes.addShapeless(<contenttweaker:respect_of_death>,
+[<contenttweaker:boss_drop>, <contenttweaker:mission_of_undeath_callstone>, <contenttweaker:vow_to_death>]);
+
+
+recipes.addShapeless(<contenttweaker:strange_stone_essence>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:strange_stone_callstone>]);
+
+
+
+

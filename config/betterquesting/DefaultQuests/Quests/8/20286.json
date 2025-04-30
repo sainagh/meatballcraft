@@ -7,8 +7,7 @@
       "desc:8": "§7§o在空间站中用对应的工件启动跃迁核心",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 3,
-        "id:8": "randomthings:coloredgrass"
+        "id:8": "advancedrocketry:alienwood"
       },
       "name:8": "恐蚁界"
     }
@@ -21,6 +20,16 @@
       "index:3": 0,
       "name:8": "恐蚁界",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:alienwood"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

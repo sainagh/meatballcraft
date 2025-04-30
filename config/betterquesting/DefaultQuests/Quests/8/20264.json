@@ -7,8 +7,7 @@
       "desc:8": "§7§o对荧石传送门使用天根水桶\n\n§f天境群岛位于泰拉小行星带的底层区域。\n充足的大气环境滋养着茂盛的植被群系。\n受星辉魔法强烈浸染的特殊场域，催生出了由气态物质的固态形式形成的奇特地质构造。",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2,
-        "id:8": "aether_legacy:aercloud"
+        "id:8": "aether_legacy:aether_grass"
       },
       "name:8": "天境岛屿"
     }
@@ -21,6 +20,16 @@
       "index:3": 0,
       "name:8": "天境岛屿",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aether_legacy:aether_grass"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

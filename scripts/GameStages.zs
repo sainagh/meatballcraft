@@ -66,7 +66,7 @@ ancientelvenknowledge.register();
 
 
 var sednaartifact = VanillaFactory.createItem("sedna_artifact");
-sednaartifact.maxStackSize = 64;
+sednaartifact.maxStackSize = 1;
 sednaartifact.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("gamestage add @p sedna", player, world, true, true);
 	return "Pass";
@@ -74,7 +74,7 @@ sednaartifact.itemRightClick = function(stack, world, player, hand) {
 sednaartifact.register();
 
 var rheniaartifact = VanillaFactory.createItem("rhenia_artifact");
-rheniaartifact.maxStackSize = 64;
+rheniaartifact.maxStackSize = 1;
 rheniaartifact.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("gamestage add @p rhenia", player, world, true, true);
 	return "Pass";
@@ -82,7 +82,7 @@ rheniaartifact.itemRightClick = function(stack, world, player, hand) {
 rheniaartifact.register();
 
 var myrmexartifact = VanillaFactory.createItem("myrmex_artifact");
-myrmexartifact.maxStackSize = 64;
+myrmexartifact.maxStackSize = 1;
 myrmexartifact.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("gamestage add @p myrmex", player, world, true, true);
 	return "Pass";
@@ -90,7 +90,7 @@ myrmexartifact.itemRightClick = function(stack, world, player, hand) {
 myrmexartifact.register();
 
 var pixoniaartifact = VanillaFactory.createItem("pixonia_artifact");
-pixoniaartifact.maxStackSize = 64;
+pixoniaartifact.maxStackSize = 1;
 pixoniaartifact.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("gamestage add @p pixonia", player, world, true, true);
 	return "Pass";
@@ -98,7 +98,7 @@ pixoniaartifact.itemRightClick = function(stack, world, player, hand) {
 pixoniaartifact.register();
 
 var proximaartifact = VanillaFactory.createItem("proxima_artifact");
-proximaartifact.maxStackSize = 64;
+proximaartifact.maxStackSize = 1;
 proximaartifact.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("gamestage add @p proxima", player, world, true, true);
 	return "Pass";
@@ -106,7 +106,7 @@ proximaartifact.itemRightClick = function(stack, world, player, hand) {
 proximaartifact.register();
 
 var dynatosartifact = VanillaFactory.createItem("dynatos_artifact");
-dynatosartifact.maxStackSize = 64;
+dynatosartifact.maxStackSize = 1;
 dynatosartifact.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("gamestage add @p dynatos", player, world, true, true);
 	return "Pass";
@@ -114,7 +114,7 @@ dynatosartifact.itemRightClick = function(stack, world, player, hand) {
 dynatosartifact.register();
 
 var alkemiaartifact = VanillaFactory.createItem("alkemia_artifact");
-alkemiaartifact.maxStackSize = 64;
+alkemiaartifact.maxStackSize = 1;
 alkemiaartifact.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("gamestage add @p alkemia", player, world, true, true);
 	return "Pass";
@@ -122,7 +122,7 @@ alkemiaartifact.itemRightClick = function(stack, world, player, hand) {
 alkemiaartifact.register();
 
 var loreofthemeatballman = VanillaFactory.createItem("lore_of_the_meatball_man");
-loreofthemeatballman.maxStackSize = 64;
+loreofthemeatballman.maxStackSize = 1;
 loreofthemeatballman.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("gamestage add @p hardmode", player, world, true, true);
 	Commands.call("give @p contenttweaker:forgetful_serum", player, world, true, true);
@@ -131,7 +131,7 @@ loreofthemeatballman.itemRightClick = function(stack, world, player, hand) {
 loreofthemeatballman.register();
 
 var forgetfulserum = VanillaFactory.createItem("forgetful_serum");
-forgetfulserum.maxStackSize = 64;
+forgetfulserum.maxStackSize = 1;
 forgetfulserum.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("gamestage remove @p hardmode", player, world, true, true);
 	Commands.call("give @p contenttweaker:lore_of_the_meatball_man", player, world, true, true);
@@ -140,7 +140,7 @@ forgetfulserum.itemRightClick = function(stack, world, player, hand) {
 forgetfulserum.register();
 
 var shungiteprism = VanillaFactory.createItem("shungite_prism");
-shungiteprism.maxStackSize = 64;
+shungiteprism.maxStackSize = 1;
 shungiteprism.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("gamestage add @p radiationimmunity", player, world, true, true);
 	return "Pass";
@@ -148,7 +148,7 @@ shungiteprism.itemRightClick = function(stack, world, player, hand) {
 shungiteprism.register();
 
 var paparazzicamera = VanillaFactory.createItem("paparazzi_camera");
-paparazzicamera.maxStackSize = 64;
+paparazzicamera.maxStackSize = 1;
 paparazzicamera.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("gamestage add @p camerastage", player, world, true, true);
 	return "Pass";
@@ -156,9 +156,18 @@ paparazzicamera.itemRightClick = function(stack, world, player, hand) {
 paparazzicamera.register();
 
 var wardeclarationmeatballman = VanillaFactory.createItem("true_name_meatball_man");
-wardeclarationmeatballman.maxStackSize = 64;
+wardeclarationmeatballman.maxStackSize = 1;
 wardeclarationmeatballman.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("gamestage add @p lostcitiesstage", player, world, true, true);
 	return "Pass";
 };
 wardeclarationmeatballman.register();
+
+var astralmasterytome = VanillaFactory.createItem("astral_mastery_tome");
+astralmasterytome.maxStackSize = 1;
+astralmasterytome.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("gamestage add @p astralmastery", player, world, true, true);
+	return "Pass";
+};
+astralmasterytome.register();
+

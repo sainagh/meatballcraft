@@ -7,7 +7,7 @@
       "desc:8": "§7§o右击使用跃迁器物品",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "minecraft:stone"
+        "id:8": "enderio:block_reinforced_obsidian"
       },
       "name:8": "地平界虫洞"
     }
@@ -20,6 +20,16 @@
       "index:3": 0,
       "name:8": "地平界虫洞",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_reinforced_obsidian"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

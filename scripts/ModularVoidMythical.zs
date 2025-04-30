@@ -180,6 +180,24 @@ mods.nuclearcraft.infuser.addRecipe([<ore:ingotVityte>,
 <fluid:dimensional_essence>*100, 
 <contenttweaker:nethersky_steel_ingot>*3]);
 
+mods.nuclearcraft.infuser.addRecipe([<ore:ingotLunastone>, 
+<fluid:dimensional_essence>*100, 
+<contenttweaker:nethersky_steel_ingot>*4]);
+
+mods.nuclearcraft.infuser.addRecipe([<ore:ingotGhastly>, 
+<fluid:dimensional_essence>*100, 
+<contenttweaker:nethersky_steel_ingot>*5]);
+
+mods.nuclearcraft.infuser.addRecipe([<ore:ingotGhoulish>, 
+<fluid:dimensional_essence>*100, 
+<contenttweaker:nethersky_steel_ingot>*5]);
+
+mods.nuclearcraft.infuser.addRecipe([<ore:ingotShyrestone>, 
+<fluid:dimensional_essence>*100, 
+<contenttweaker:nethersky_steel_ingot>*6]);
+
+
+
 mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:nethersky_steel_ingot>, 
 <contenttweaker:nethersky_steel_dust>]);
 
@@ -383,7 +401,7 @@ mith5.setChance(0.05);
 mith5.addItemOutput(<aoa3:discharge_capsule>*10);
 mith5.setChance(0.05);
 mith5.addItemOutput(<divinerpg:fury_fire>*10);
-mith5.setChance(0.05);
+mith5.setChance(0.5);
 mith5.addItemOutput(<divinerpg:bluefire_stone>*10);
 mith5.setChance(0.05);
 mith5.addItemOutput(<divinerpg:divine_shards>);
@@ -736,6 +754,8 @@ mith11.addItemOutput(<aoa3:gold_coin>*10);
 mith11.setChance(0.02);
 mith11.addItemOutput(<contenttweaker:deeplands_garnet>);
 mith11.setChance(0.5);
+mith11.addItemOutput(<aoa3:deep_case>*8);
+mith11.setChance(0.5);
 mith11.addItemOutput(<materialpart:dreaded_steel:ingot>*2);
 mith11.setChance(0.1);
 mith11.addItemOutput(<projectex:matter:6>);
@@ -780,6 +800,10 @@ mith12.setChance(0.02);
 mith12.addItemOutput(<aoa3:magic_repair_dust>);
 mith12.setChance(0.1);
 mith12.addItemOutput(<contenttweaker:abyss_garnet>);
+mith12.setChance(0.5);
+mith12.addItemOutput(<contenttweaker:hellspot_chop>*12);
+mith12.setChance(0.5);
+mith12.addItemOutput(<divinerpg:fury_fire>*50);
 mith12.setChance(0.5);
 mith12.addItemOutput(<thaumadditions:jar_mithrillium>);
 mith12.setChance(0.1);
@@ -1309,6 +1333,8 @@ mith20.setChance(0.02);
 mith20.addItemOutput(<aoa3:gold_coin>*10);
 mith20.setChance(0.07);
 mith20.addItemOutput(<contenttweaker:vox_ponds_garnet>);
+mith20.setChance(0.5);
+mith20.addItemOutput(<iceandfire:stymphalian_bird_feather>*16);
 mith20.setChance(0.5);
 mith20.addItemOutput(<contenttweaker:tier20_token>);
 mith20.build();
@@ -2307,6 +2333,8 @@ mith26.addItemOutput(<aoa3:magic_repair_dust>);
 mith26.setChance(0.1);
 mith26.addItemOutput(<draconicevolution:chaos_shard:3>);
 mith26.setChance(0.05);
+mith26.addItemOutput(<divinerpg:fury_fire>*60);
+mith26.setChance(0.8);
 mith26.addItemOutput(<contenttweaker:greckon_garnet>);
 mith26.setChance(0.5);
 mith26.addItemOutput(<contenttweaker:tier26_token>);
@@ -2458,8 +2486,8 @@ true,
 <extendedcrafting:singularity:1>, 
 [<draconicevolution:chaos_shard:1>,<contenttweaker:eden_refined_gem>,<draconicevolution:chaos_shard:1>,<contenttweaker:wildwood_refined_gem>,
 <draconicevolution:chaos_shard:1>,<contenttweaker:apalachia_refined_gem>,<draconicevolution:chaos_shard:1>,<contenttweaker:skythern_refined_gem>]);
-game.setLocalization("ac.ritual.VetheaWhiteInfusion", "梦魇世界负性物体灌注"); 
-game.setLocalization("ac.ritual.VetheaWhiteInfusion.desc", "通过诡异的灌注仪式，令负质量物体成为现实！");
+game.setLocalization("ac.ritual.VetheaWhiteInfusion", "Vethea Negative Body Infusion"); 
+game.setLocalization("ac.ritual.VetheaWhiteInfusion.desc", "Bring a body with negative mass into existance through eldritch infusion!");
 
 val edendragonref = RecipeBuilder.newBuilder("edendragonref","dragonfire_crucible",100);
 edendragonref.addFluidInput(<fluid:twilight_fire>*1000);
@@ -2695,18 +2723,6 @@ hightiersingularity.add(<extendedcrafting:singularity:50>);
 hightiersingularity.add(<extendedcrafting:singularity:66>);
 
 
-val ultimatecompression = RecipeBuilder.newBuilder("ultimatesingularitybaby","gravitational_collapser",200);
-ultimatecompression.addEnergyPerTickInput(1111111);
-ultimatecompression.addItemInput(<extendedcrafting:singularity_custom:666>);
-ultimatecompression.addItemInput(<extendedcrafting:singularity_custom:656>);
-ultimatecompression.addItemInput(<extendedcrafting:singularity_custom:657>);
-ultimatecompression.addItemInput(<extendedcrafting:singularity_custom:658>);
-ultimatecompression.addItemInput(<extendedcrafting:singularity_custom:659>);
-ultimatecompression.addItemInput(<extendedcrafting:singularity_custom:660>);
-ultimatecompression.addItemInput(<extendedcrafting:singularity_custom:654>);
-ultimatecompression.addItemInput(<extendedcrafting:singularity_custom:652>);
-ultimatecompression.addItemOutput(<extendedcrafting:singularity_ultimate>);
-ultimatecompression.build();
 
 mods.abyssalcraft.InfusionRitual.addRitual("DynatosArtifactInf", 
 4, 0, 
@@ -2716,8 +2732,8 @@ true,
 <contenttweaker:perfected_gem_of_the_cosmos>, 
 [<draconicevolution:chaos_shard:0>,<divinerpg:mortum_block>,<divinerpg:arksiane_claw>,<divinerpg:mortum_block>,
 <divinerpg:arksiane_claw>,<divinerpg:mortum_block>,<draconicevolution:chaos_shard:0>,<divinerpg:mortum_block>]);
-game.setLocalization("ac.ritual.DynatosArtifactInf", "黑洞万岁"); 
-game.setLocalization("ac.ritual.DynatosArtifactInf.desc", "终于能探索黑洞了，真正的黑洞！");
+game.setLocalization("ac.ritual.DynatosArtifactInf", "Black Holes FTW"); 
+game.setLocalization("ac.ritual.DynatosArtifactInf.desc", "I can finally visit a black hole, a REAL one!");
 
 
 recipes.addShaped(<avaritia:resource:5>,
@@ -2758,8 +2774,8 @@ true,
 <contenttweaker:realmstone>, 
 [<aoa3:magic_mending_solution>,<aoa3:magic_mending_solution>,<draconicevolution:chaotic_core>,<draconicevolution:chaotic_core>,
 <contenttweaker:plasmatic_neutronium_ingot>,<contenttweaker:plasmatic_neutronium_ingot>,<contenttweaker:infinity_fragment>,<divinerpg:arksiane_lump>]);
-game.setLocalization("ac.ritual.ShyreWaystoneInf", "进入塞尔瑞"); 
-game.setLocalization("ac.ritual.ShyreWaystoneInf.desc", "进入塞尔瑞");
+game.setLocalization("ac.ritual.ShyreWaystoneInf", "Into the Shyre"); 
+game.setLocalization("ac.ritual.ShyreWaystoneInf.desc", "Into the Shyre");
 
 val shyreStatue = <ore:shyreStatue>;
 shyreStatue.add(<aoa3:craexxeus_statue>);
@@ -2912,8 +2928,14 @@ mith29.addItemOutput(<contenttweaker:shyrelands_garnet>);
 mith29.setChance(0.5);
 mith29.addItemOutput(<contenttweaker:mother_pixon_soul>*10);
 mith29.setChance(0.3);
+mith29.addItemOutput(<divinerpg:bluefire_stone>*40);
+mith29.setChance(0.8);
+mith29.addItemOutput(<divinerpg:divine_stone>*40);
+mith29.setChance(0.8);
 mith29.addItemOutput(<contenttweaker:tier29_token>);
 mith29.build();
+
+
 
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:xxeus_stone>, 
@@ -2938,11 +2960,6 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/alta
 "astralsorcery.constellation.armara");
 
 
-val infinitycompression = RecipeBuilder.newBuilder("simplerinfinity","gravitational_collapser",100);
-infinitycompression.addEnergyPerTickInput(50000);
-infinitycompression.addItemInput(<contenttweaker:bright_matter>);
-infinitycompression.addItemOutput(<avaritia:resource:5>);
-infinitycompression.build();
 
 val hassiumalloyinf = RecipeBuilder.newBuilder("hassiumalloyinf","dragonfire_crucible",300);
 hassiumalloyinf.addFluidInput(<fluid:eternal_dragon_fire>*500);
@@ -2976,6 +2993,15 @@ eternbrightalloy.addItemInput(<materialpart:lunastone:ingot>);
 eternbrightalloy.addItemInput(<materialpart:brightsteel:ingot>);
 eternbrightalloy.addItemOutput(<contenttweaker:brightsteel_alloy_ingot>*3);
 eternbrightalloy.build();
+
+val eternbrightalloybetter = RecipeBuilder.newBuilder("eternbrightalloybetter","dragonfire_crucible",150);
+eternbrightalloybetter.addFluidInput(<fluid:twilight_fire>*2000);
+eternbrightalloybetter.addItemInput(<materialpart:chalcedony:ingot>*8);
+eternbrightalloybetter.addItemInput(<materialpart:lunastone:ingot>*8);
+eternbrightalloybetter.addItemInput(<materialpart:brightsteel:ingot>*8);
+eternbrightalloybetter.addItemOutput(<contenttweaker:brightsteel_alloy_ingot>*24);
+eternbrightalloybetter.build();
+
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:defined_machine_case>*4, 
 [[<contenttweaker:twilight_alloy_ingot>, null, null, 
@@ -3049,10 +3075,6 @@ recipes.addShaped(<contenttweaker:primal_jewel>,
 [<nuclearcraft:alloy:12>, <forge:bucketfilled>.withTag({FluidName: "mana", Amount: 1000}), <nuclearcraft:alloy:12>]]);
 
 
-recipes.addShaped(<contenttweaker:mythic_excavation_engine>,
-[[<contenttweaker:fluix_microcontroller>, <contenttweaker:high_strength_transmission>, <contenttweaker:fluix_microcontroller>],
-[<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>],
-[<aoa3:elecanium_ingot>, <contenttweaker:primal_jewel>, <aoa3:elecanium_ingot>]]);
 
 recipes.addShaped(<contenttweaker:enhanced_chaos_shard>,
 [[null, <contenttweaker:chaotic_feather>, null],
@@ -3215,20 +3237,6 @@ scripts.PuzzleUtil.addPuzzleShapeless("rightsacredsaplingmystery",
 <careerbees:ingredients:1>.withTag({bark: {id: "biomesoplenty:log_0", Count: 1 as byte, Damage: 6 as short}}), <contenttweaker:sacred_acorn>, <careerbees:ingredients:1>.withTag({bark: {id: "forestry:logs.1", Count: 1 as byte, Damage: 2 as short}}),
 <careerbees:ingredients:1>.withTag({bark: {id: "natura:nether_logs", Count: 1 as byte, Damage: 1 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "extratrees:logs.7", Count: 1 as byte, Damage: 2 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "biomesoplenty:log_2", Count: 1 as byte, Damage: 7 as short}})]);
 
-recipes.addShaped(<contenttweaker:call_of_the_haunted>,
-[[<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>],
-[<techreborn:uumatter>, <aoa3:ghostly_powder>, <techreborn:uumatter>],
-[<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>]]);
-
-recipes.addShaped(<contenttweaker:recursive_feather>,
-[[<contenttweaker:ender_feather>, <contenttweaker:ender_feather>, <contenttweaker:ender_feather>],
-[<contenttweaker:ender_feather>, <contenttweaker:chaotic_feather>, <contenttweaker:ender_feather>],
-[<contenttweaker:ender_feather>, <contenttweaker:ender_feather>, <contenttweaker:ender_feather>]]);
-
-recipes.addShaped(<contenttweaker:sticky_callstone>,
-[[<contenttweaker:dimensional_ingot>, <avaritia:resource:7>, <contenttweaker:dimensional_ingot>],
-[<contenttweaker:forgotten_slime>, <contenttweaker:primordial_prism>, <contenttweaker:forgotten_slime>],
-[<contenttweaker:dimensional_ingot>, <avaritia:resource:7>, <contenttweaker:dimensional_ingot>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_log>, 
 [[<extratrees:misc:3>, <extratrees:misc:3>, null, <extratrees:misc:3>, <extratrees:misc:3>], 

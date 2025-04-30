@@ -2,6 +2,34 @@
     "registryname": "neutronium_bombarder",
     "localizedname": "Neutronium Bombarder",
 	"color": "382e2d",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:gallifreyan_neutronium_casing",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "速度x5",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.2
+            }]
+        },
+        {
+            "elements": "contenttweaker:trinity_neutronium_casing",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "速度x20",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.05
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -2,

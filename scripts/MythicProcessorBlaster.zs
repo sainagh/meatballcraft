@@ -50,3 +50,32 @@ mythindblast7.addItemInput(<contenttweaker:freed_betrayed_soul>*55);
 mythindblast7.addItemInput(<contenttweaker:will_ensnaring_fabrial>);
 mythindblast7.addItemOutput(<contenttweaker:construct_of_liberation>);
 mythindblast7.build();
+
+val mythindblast8 = RecipeBuilder.newBuilder("mythindblast8","mythic_processor_blaster",2);
+mythindblast8.addEnergyPerTickInput(200000);
+mythindblast8.addFluidInput(<fluid:dense_plasma>*200);
+mythindblast8.addItemInput(<contenttweaker:ice_dragonsteel_ore>);
+mythindblast8.addItemOutput(<iceandfire:dragonsteel_ice_ingot>*9);
+mythindblast8.build();
+
+val mythindblast9 = RecipeBuilder.newBuilder("mythindblast9","mythic_processor_blaster",2);
+mythindblast9.addEnergyPerTickInput(200000);
+mythindblast9.addFluidInput(<fluid:dense_plasma>*200);
+mythindblast9.addItemInput(<contenttweaker:fire_dragonsteel_ore>);
+mythindblast9.addItemOutput(<iceandfire:dragonsteel_fire_ingot>*9);
+mythindblast9.build();
+
+val mythindblast10 = RecipeBuilder.newBuilder("mythindblast10","mythic_processor_blaster",2);
+mythindblast10.addEnergyPerTickInput(200000);
+mythindblast10.addFluidInput(<fluid:dense_plasma>*200);
+mythindblast10.addItemInput(<contenttweaker:lightning_dragonsteel_ore>);
+mythindblast10.addItemOutput(<iceandfire:dragonsteel_lightning_ingot>*9);
+mythindblast10.build();
+
+val mythindblast11 = RecipeBuilder.newBuilder("mythindblast11","mythic_processor_blaster",2);
+mythindblast11.addEnergyPerTickInput(200000);
+mythindblast11.addFluidInput(<fluid:dense_plasma>*30000);
+mythindblast11.addItemInput(<contenttweaker:hyperuranion_ingot>);
+mythindblast11.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
+mythindblast11.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>);
+mythindblast11.build();

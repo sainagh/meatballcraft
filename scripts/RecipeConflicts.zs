@@ -2244,6 +2244,8 @@ brewing.addBrew(<minecraft:potion>.withTag({Potion: "mod_lavacow:corrosive"}), <
 
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "extrautils2:xu2.doom"}), <minecraft:gunpowder>);
 
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "extrautils2:xu2.gravity.long"}), <minecraft:redstone>);
+
 
 recipes.remove(<xtones:base>);
 recipes.addShaped(<xtones:base>*4,
@@ -2448,5 +2450,107 @@ recipes.addShapeless(<botania:rune:15>,
 [<contenttweaker:runic_altar_automation>, <botania:runealtar>, <botania:opencrate>, <minecraft:comparator>, <botania:twigwand>, <botania:livingrock>]);
 
 
+recipes.addShapeless(<contenttweaker:hiddenpowercallstone_loot>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:hidden_power_callstone>]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:hiddenpowercallstone_loot>, <fluid:water>, <fluid:recursive_life_essence>]);
+
+mods.nuclearcraft.dissolver.addRecipe([<immersivepetroleum:metal_multiblock:3>, <fluid:water>, <fluid:stormlight>]);
+
 
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:plasma_farm>, <fluid:water>, <fluid:plasma>]);
+
+mods.nuclearcraft.melter.addRecipe([<ore:ingotAlumite>, <fluid:alumite>*144]);
+
+
+recipes.remove(<natura:nether_bookshelves:0>);
+recipes.addShaped(<natura:nether_bookshelves:0>,
+[[<natura:nether_planks:0>, <minecraft:book>, <natura:nether_planks:0>],
+[<natura:nether_planks:0>, <minecraft:book>, <natura:nether_planks:0>],
+[<natura:nether_planks:0>, <minecraft:book>, <natura:nether_planks:0>]]);
+
+recipes.remove(<natura:nether_bookshelves:1>);
+recipes.addShaped(<natura:nether_bookshelves:1>,
+[[<natura:nether_planks:1>, <minecraft:book>, <natura:nether_planks:1>],
+[<natura:nether_planks:1>, <minecraft:book>, <natura:nether_planks:1>],
+[<natura:nether_planks:1>, <minecraft:book>, <natura:nether_planks:1>]]);
+
+recipes.remove(<natura:nether_bookshelves:2>);
+recipes.addShaped(<natura:nether_bookshelves:2>,
+[[<natura:nether_planks:2>, <minecraft:book>, <natura:nether_planks:2>],
+[<natura:nether_planks:2>, <minecraft:book>, <natura:nether_planks:2>],
+[<natura:nether_planks:2>, <minecraft:book>, <natura:nether_planks:2>]]);
+
+recipes.remove(<natura:nether_bookshelves:3>);
+recipes.addShaped(<natura:nether_bookshelves:3>,
+[[<natura:nether_planks:3>, <minecraft:book>, <natura:nether_planks:3>],
+[<natura:nether_planks:3>, <minecraft:book>, <natura:nether_planks:3>],
+[<natura:nether_planks:3>, <minecraft:book>, <natura:nether_planks:3>]]);
+
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:ogerite_ore>, <fluid:ogerite>*360]);
+
+
+recipes.addShapeless(<contenttweaker:jade_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:arlemite_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:realmite_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:limonite_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:rosite_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:rupee_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:amethyst_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:sapphire_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<contenttweaker:netherite_egg>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<chickens:liquid_egg:0>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<chickens:liquid_egg:1>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+
+
+recipes.addShapeless(<forestry:fruits:2>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<forestry:fruits:5>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<forestry:fruits:1>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<forestry:fruits:6>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<forestry:fruits:3>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<forestry:fruits:4>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<forestry:fruits:0>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+
+recipes.addShapeless(<extratrees:food:55>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:1>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:3>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:11>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:13>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:14>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:15>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:16>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:17>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:18>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:21>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<extratrees:food:38>,
+[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);

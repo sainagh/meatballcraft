@@ -22903,6 +22903,78 @@
     {
       "item": "glassential:glass_redstone|0",
       "emc": 0
+    },
+    {
+      "item": "glassential:glass_ghostly|0",
+      "emc": 0
+    },
+    {
+      "item": "glassential:glass_ethereal|0",
+      "emc": 0
+    },
+    {
+      "item": "divinerpg:dream_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:arcanite_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:skythern_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:apalachia_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:wildwood_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:eden_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:frozen_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:mortum_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "cyclicmagic:charm_water|0",
+      "emc": 0
+    },
+    {
+      "item": "cyclicmagic:charm_void|0",
+      "emc": 0
+    },
+    {
+      "item": "cyclicmagic:charm_boat|0",
+      "emc": 0
+    },
+    {
+      "item": "cyclicmagic:charm_fire|0",
+      "emc": 0
+    },
+    {
+      "item": "cyclicmagic:charm_speed|0",
+      "emc": 0
+    },
+    {
+      "item": "cyclicmagic:charm_wing|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:ichorium_void_stone|0",
+      "emc": 4096
+    },
+    {
+      "item": "glassential:glass_ethereal_reverse|0",
+      "emc": 0
     }
   ]
 }

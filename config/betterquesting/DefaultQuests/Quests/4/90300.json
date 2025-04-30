@@ -54,8 +54,9 @@
                   "Slot:1": 2,
                   "id:8": "enderio:item_power_conduit",
                   "tag:10": {
+                    "RepairCost:3": 0,
                     "display:10": {
-                      "Name:8": "性能：一般"
+                      "Name:8": "性能：良好"
                     }
                   }
                 },
@@ -94,17 +95,6 @@
                 },
                 "6:10": {
                   "Count:3": 1,
-                  "Damage:2": 5,
-                  "Slot:1": 6,
-                  "id:8": "thermaldynamics:duct_0",
-                  "tag:10": {
-                    "display:10": {
-                      "Name:8": "性能：良好"
-                    }
-                  }
-                },
-                "7:10": {
-                  "Count:3": 1,
                   "Damage:2": 0,
                   "Slot:1": 7,
                   "id:8": "fluxnetworks:fluxpoint",
@@ -114,11 +104,22 @@
                     }
                   }
                 },
-                "8:10": {
+                "7:10": {
                   "Count:3": 1,
                   "Damage:2": 11,
                   "Slot:1": 20,
                   "id:8": "enderio:item_endergy_conduit",
+                  "tag:10": {
+                    "display:10": {
+                      "Name:8": "性能：良好"
+                    }
+                  }
+                },
+                "8:10": {
+                  "Count:3": 1,
+                  "Damage:2": 5,
+                  "Slot:1": 21,
+                  "id:8": "thermaldynamics:duct_0",
                   "tag:10": {
                     "display:10": {
                       "Name:8": "性能：良好"

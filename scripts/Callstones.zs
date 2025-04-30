@@ -4972,3 +4972,261 @@ luckyboxadventarmor.itemRightClick = function(stack, world, player, hand) {
 
 };
 luckyboxadventarmor.register();
+
+
+var guardiansofshadesmarcallstone = VanillaFactory.createItem("guardians_of_shadesmar_callstone");
+guardiansofshadesmarcallstone.maxStackSize = 1;
+guardiansofshadesmarcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚维度");
+        return "FAIL";
+    }
+
+
+    Commands.call("pillar-spawn kashan_structure_fourspren", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+guardiansofshadesmarcallstone.register();
+
+
+var sprensummonerhope = VanillaFactory.createItem("spren_summoner_hope");
+sprensummonerhope.maxStackSize = 1;
+sprensummonerhope.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚维度");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon twilightforest:raven ~ ~5 ~ {PersistenceRequired:1,Tags:[\"sprenhope\"],CustomName:\"希望之灵\"}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+sprensummonerhope.register();
+
+
+var sprensummonerbalance = VanillaFactory.createItem("spren_summoner_balance");
+sprensummonerbalance.maxStackSize = 1;
+sprensummonerbalance.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚维度");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon ebwizardry:spirit_wolf ~ ~5 ~ {PersistenceRequired:1,Tags:[\"sprenbalance\"],CustomName:\"平衡之灵\"}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+sprensummonerbalance.register();
+
+
+var sprensummonerglory = VanillaFactory.createItem("spren_summoner_glory");
+sprensummonerglory.maxStackSize = 1;
+sprensummonerglory.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚维度");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon ebwizardry:spirit_horse ~ ~5 ~ {PersistenceRequired:1,Tags:[\"sprenglory\"],CustomName:\"荣耀之灵\"}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+sprensummonerglory.register();
+
+
+var sprensummonerknowledge = VanillaFactory.createItem("spren_summoner_knowledge");
+sprensummonerknowledge.maxStackSize = 1;
+sprensummonerknowledge.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚维度");
+        return "FAIL";
+    }
+
+
+    Commands.call("summon aether_legacy:sheepuff ~ ~5 ~ {PersistenceRequired:1,Tags:[\"sprenknowledge\"],CustomName:\"知识之灵\"}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+sprensummonerknowledge.register();
+
+
+var trinitascallstone = VanillaFactory.createItem("trinitas_callstone");
+trinitascallstone.maxStackSize = 1;
+trinitascallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 191) {
+        player.sendChat("需位于叁壹界");
+        return "FAIL";
+    }
+
+
+    Commands.call("pillar-spawn trinitas_structure_trinity", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+trinitascallstone.register();
+
+
+
+var taintedprisonkey = VanillaFactory.createItem("tainted_prison_key");
+taintedprisonkey.maxStackSize = 1;
+taintedprisonkey.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 192) {
+        player.sendChat("需位于衰腐界");
+        return "FAIL";
+    }
+
+
+    Commands.call("pillar-spawn fuhai_structure_oldgod", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+taintedprisonkey.register();
+
+
+var missionofdeathcallstone = VanillaFactory.createItem("mission_of_undeath_callstone");
+missionofdeathcallstone.maxStackSize = 1;
+missionofdeathcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 193) {
+        player.sendChat("需位于争竞界");
+        return "FAIL";
+    }
+
+
+    Commands.call("pillar-spawn travixte_structure_deathboss", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+missionofdeathcallstone.register();
+
+
+
+var gundevilconfrontationcallstone = VanillaFactory.createItem("gun_devil_confrontation_callstone");
+gundevilconfrontationcallstone.maxStackSize = 1;
+gundevilconfrontationcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 193) {
+        player.sendChat("需位于争竞界");
+        return "FAIL";
+    }
+
+
+    Commands.call("pillar-spawn callstone_gun_devil", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+gundevilconfrontationcallstone.register();
+
+
+var universalconstellationcallstone = VanillaFactory.createItem("universal_constellation_callstone");
+universalconstellationcallstone.maxStackSize = 1;
+universalconstellationcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 192) {
+        player.sendChat("需位于衰腐界");
+        return "FAIL";
+    }
+
+
+    Commands.call("pillar-spawn callstone_astral_bee", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+universalconstellationcallstone.register();
+
+
+var ghostofannoyancecallstone = VanillaFactory.createItem("ghost_of_annoyance_callstone");
+ghostofannoyancecallstone.maxStackSize = 1;
+ghostofannoyancecallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 624) {
+        player.sendChat("需位于伽里弗雷");
+        return "FAIL";
+    }
+
+    Commands.call("summon aoa3:ghostly_bugeye ~3 ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:nightmare_of_annoyance\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"恼人的幽灵虫\",Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:100000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~3 ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:nightmare_of_annoyance\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"恼人的幽灵虫\",Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:100000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~3 ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:nightmare_of_annoyance\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"恼人的幽灵虫\",Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:100000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~3 ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:nightmare_of_annoyance\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"恼人的幽灵虫\",Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:100000.0}],Health:50000f}", player, world, false, true);
+
+    Commands.call("pillar-spawn annoying_ghost_callstone", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+ghostofannoyancecallstone.register();
+
+
+
+var strangestonecallstone = VanillaFactory.createItem("strange_stone_callstone");
+strangestonecallstone.maxStackSize = 1;
+strangestonecallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 624) {
+        player.sendChat("需位于伽里弗雷");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn callstone_strange_stone", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+strangestonecallstone.register();

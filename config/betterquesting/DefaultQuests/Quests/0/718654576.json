@@ -1,0 +1,65 @@
+{
+  "preRequisites:11": [
+    651565677
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:miniature_white_hole"
+      },
+      "name:8": "Dyson Extruder"
+    }
+  },
+  "questID:3": 718654576,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:miniature_white_hole"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dyson_extruder"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:exotic_dyson_conduit"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:mythic_coil_t3"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:exotic_absorber"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "glassential:glass_redstone"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:horizon_sustainer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:dyson_extruder"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

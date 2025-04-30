@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o钥匙将指引你前往你的坟墓",
+      "desc:8": "§7§o钥匙将指引你前往你的坟墓\n\n若由于某些原因，坟墓没有生成，可使用该命令恢复物品栏物品：\n/ob_inventory restore [玩家名称] [物品栏备份]\n使用TAB键来选择最近一次死亡时的[物品栏备份]",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {

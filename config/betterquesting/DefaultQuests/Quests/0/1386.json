@@ -51,6 +51,26 @@
           "tag:10": {
             "block:8": "contenttweaker:fire_dragonsteel_ore"
           }
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:fire_dragonsteel_ore"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ice_dragonsteel_ore"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:lightning_dragonsteel_ore"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:naquadah_ore"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dense_dimensional_shard_ore"
         }
       },
       "taskID:8": "bq_standard:retrieval"

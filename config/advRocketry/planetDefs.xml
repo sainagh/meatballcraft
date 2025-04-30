@@ -485,4 +485,85 @@
             </planet>
 		</planet>
     </star>
+    <star name="Trinuum" temp="100" x="50" y="-50" size="4.0" numPlanets="0" numGasGiants="0" blackHole="false">
+        <star name="Trinuum A" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="Trinuum B" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="Trinuum C" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+		<planet name="Trinitas" DIMID="191" customIcon="WaterWorld">
+            <atmosphereDensity>100</atmosphereDensity>
+            <hasOxygen>true</hasOxygen>
+            <fogColor>0.68,0.67,0.06</fogColor>
+            <skyColor>0.68,0.67,0.06</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>200</orbitalDistance>
+            <hasRings>true</hasRings>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>00</orbitalPhi>
+            <rotationalPeriod>36000</rotationalPeriod>
+			<biomeIds>tardis:mountains</biomeIds>
+            <fillerBlock>divinerpg:arcanite_grass</fillerBlock>
+			<oceanBlock>biomesoplenty:hot_spring_water</oceanBlock>
+			<artifact>contenttweaker:unreachable</artifact>
+		</planet>
+    </star>
+    <star name="Kilida" temp="100" x="-50" y="50" size="4.0" numPlanets="0" numGasGiants="0" blackHole="true">
+        <star name="Kilida 0" temp="100" separation="5.0" size="1.0" blackHole="false"/>
+        <star name="Kilida 1" temp="100" separation="10.0" size="1.0" blackHole="false"/>
+        <star name="Kilida 2" temp="100" separation="15.0" size="1.0" blackHole="false"/>
+        <star name="Kilida 3" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="Kilida 4" temp="100" separation="25.0" size="1.0" blackHole="false"/>
+        <star name="Kilida 5" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="Kilida 6" temp="100" separation="35.0" size="1.0" blackHole="false"/>
+        <star name="Kilida 7" temp="100" separation="40.0" size="1.0" blackHole="false"/>
+        <star name="Kilida 8" temp="100" separation="45.0" size="1.0" blackHole="false"/>
+        <star name="Kilida 9" temp="100" separation="50.0" size="1.0" blackHole="false"/>
+        <star name="Kilida 10" temp="100" separation="55.0" size="1.0" blackHole="false"/>
+        <star name="Kilida 11" temp="100" separation="60.0" size="1.0" blackHole="false"/>
+		<planet name="Fuhai" DIMID="192" customIcon="WaterWorld">
+            <atmosphereDensity>100</atmosphereDensity>
+            <hasOxygen>true</hasOxygen>
+            <fogColor>0.35,0.23,0.57</fogColor>
+            <skyColor>0.35,0.23,0.57</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>200</orbitalDistance>
+            <hasRings>false</hasRings>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>00</orbitalPhi>
+            <rotationalPeriod>36000</rotationalPeriod>
+			<biomeIds>thaumcraft:eldritch</biomeIds>
+            <fillerBlock>thaumicaugmentation:stone</fillerBlock>
+			<oceanBlock>thaumcraft:liquid_death</oceanBlock>
+			<artifact>contenttweaker:unreachable</artifact>
+		</planet>
+    </star>    
+    <star name="Thanatos" temp="100" x="-100" y="100" size="3.0" numPlanets="0" numGasGiants="0" blackHole="false">
+        <star name="Thanatos 0" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="Thanatos 1" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="Thanatos 2" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="Thanatos 3" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="Thanatos 4" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="Thanatos 5" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="Thanatos 6" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="Thanatos 7" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="Thanatos 8" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="Thanatos 9" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="Thanatos 10" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="Thanatos 11" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="Thanatos 12" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="Thanatos 13" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+		<planet name="Travixte" DIMID="193" customIcon="WaterWorld">
+            <atmosphereDensity>100</atmosphereDensity>
+            <hasOxygen>true</hasOxygen>
+            <fogColor>0.64,1.0,0.9</fogColor>
+            <skyColor>0.64,1.0,0.9</skyColor>
+            <gravitationalMultiplier>200</gravitationalMultiplier>
+            <orbitalDistance>200</orbitalDistance>
+            <hasRings>true</hasRings>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>36000</rotationalPeriod>
+			<biomeIds>aoa3:celeve,aoa3:mysterium,aoa3:iromine,aoa3:barathos,aoa3:lborean,aoa3:runandor,minecraft:mutated_ice_flats</biomeIds>
+			<artifact>contenttweaker:unreachable</artifact>
+		</planet>
+    </star>    
 </galaxy>

@@ -1,0 +1,118 @@
+{
+    "name": "compactmachines3:dyson_abater_helper",
+    "target-item": "modularmachinery:dyson_abater_controller",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "modularmachinery:dyson_revolver_controller",
+        "meta": 0
+      },
+      "b": {
+        "id": "contenttweaker:galaxy_conduit",
+        "meta": 0
+      },
+      "c": {
+        "id": "contenttweaker:nineteen_blocks",
+        "meta": 0
+      },
+      "d": {
+        "id": "minecraft:wool",
+        "meta": 0
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{rotation:0b,owner:\"8c381e15-592d-4003-ae11-6367e203127b\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},casingColor:16730368,id:\"minecraft:tilemachinecontroller\",items:{inSlots:[I;],outSlots:[I;],miscSlots:[I;0],inventoryArray:[{holderId:0,holderEmpty:1b}],sides:[I;0,1,2,3,4,5]},parentMachine:\"modularmachinery:dyson_revolver\",statusTag:{type:0b,message:\"\"}}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "_"
+        ],
+        [
+          "b"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ]
+      ],
+      [
+        [
+          "a:A"
+        ],
+        [
+          "d"
+        ],
+        [
+          "c"
+        ],
+        [
+          "c"
+        ],
+        [
+          "c"
+        ],
+        [
+          "c"
+        ],
+        [
+          "b"
+        ],
+        [
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "b"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ]
+      ]
+    ]
+       
+}

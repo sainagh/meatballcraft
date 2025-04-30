@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    790616998
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oIf you actually want to go through with this, I strongly suggest to start leveling up your Inquiring Matter production, and to upgrade all the multiblocks and recipes that you can.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:echo_warren_stone"
+      },
+      "name:8": "Echo Warren Essentia"
+    }
+  },
+  "questID:3": 1338651064,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:echo_warren_stone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

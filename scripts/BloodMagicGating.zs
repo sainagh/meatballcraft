@@ -45,3 +45,58 @@ recipes.addShaped(<contenttweaker:golem_core>,
 mods.bloodmagic.TartaricForge.removeRecipe([<bloodarsenal:base_item:8>,<bloodmagic:decorative_brick:2>, <minecraft:golden_apple:1>, <minecraft:nether_star>]);
 mods.bloodmagic.TartaricForge.addRecipe(<bloodarsenal:base_item:9>,[<bloodarsenal:base_item:8>, <bloodmagic:decorative_brick:2>, <avaritia:block_resource:1>, <materialpart:fractallite_halite:ingot>], 16000,16000);
 
+
+
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "infusion"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "lava"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "water"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "cobblestone"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "felling"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "green_grove"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "interdiction"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "pump"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "ritualSteadfastHeart"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "speed"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "grounding"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "jumping"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "placer"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "ritualLuna"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "ritualNaturesLeech"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "ritualPeace"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "ritualSol"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "suppression"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "zephyr"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "portal"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "animal_growth"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "containment"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "crushing"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "magnetism"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "ritualEldritchWill"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "crystal_split"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "harvest"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "ritualLifeEssenceAltar"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "full_stomach"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "ritualLifeEssenceTank"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "ward_of_sacrosanctity"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "ellipsoid"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "ritualClonedSoul"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "ritualCulling"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "well_of_suffering"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "feathered_earth"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "feathered_knife"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "ritualUnmaking"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "crystal_harvest"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "forsaken_soul"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "regeneration"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "armour_evolve"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "expulsion"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "upgrade_remove"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "armour_downgrade"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "veil_of_evil"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "purification"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "eternal_soul"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "condor"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "altar_builder"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "meteor"}));
+mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "blood_burner"}));
+

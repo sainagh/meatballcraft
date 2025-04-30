@@ -807,3 +807,201 @@ fleshworldichor.register();
 var fractallitehalite = VanillaFactory.createFluid("fractallite_halite", Color.fromHex("17c414"));
 fractallitehalite.register();
 
+var actualizingfluid = VanillaFactory.createFluid("actualizing_fluid", Color.fromHex("78fffd"));
+actualizingfluid.register();
+
+var ultimatefractalliteessence = VanillaFactory.createFluid("ultimate_fractallite_essence", Color.fromHex("76b38e"));
+ultimatefractalliteessence.register();
+
+var actualizationbalance = VanillaFactory.createFluid("actualization_balance", Color.fromHex("7a7a7a"));
+actualizationbalance.register();
+
+var actualizationhope = VanillaFactory.createFluid("actualization_hope", Color.fromHex("00ff1e"));
+actualizationhope.register();
+
+var actualizationknowledge = VanillaFactory.createFluid("actualization_knowledge", Color.fromHex("30cfcf"));
+actualizationknowledge.register();
+
+var actualizationglory = VanillaFactory.createFluid("actualization_glory", Color.fromHex("ffff91"));
+actualizationglory.register();
+
+var recursivethinkingmatter = VanillaFactory.createFluid("recursive_computing_matter", Color.fromHex("4b6a6d"));
+recursivethinkingmatter.register();
+
+var hyperuranionbinderhydrogen = VanillaFactory.createFluid("hyperuranion_binder_hydrogen", Color.fromHex("dbfcff"));
+hyperuranionbinderhydrogen.register();
+
+var hyperuranionbinderoxygen = VanillaFactory.createFluid("hyperuranion_binder_oxygen", Color.fromHex("80d2d9"));
+hyperuranionbinderoxygen.register();
+
+var hyperuranionbinderdeuterium = VanillaFactory.createFluid("hyperuranion_binder_deuterium", Color.fromHex("bbe9ed"));
+hyperuranionbinderdeuterium.register();
+
+var hyperuranionbindertritium = VanillaFactory.createFluid("hyperuranion_binder_tritium", Color.fromHex("94d0d6"));
+hyperuranionbindertritium.register();
+
+var hyperuranionbinderiron = VanillaFactory.createFluid("hyperuranion_binder_iron", Color.fromHex("5ed9e6"));
+hyperuranionbinderiron.register();
+
+var hyperuranionbindernickel = VanillaFactory.createFluid("hyperuranion_binder_nickel", Color.fromHex("1d7780"));
+hyperuranionbindernickel.register();
+
+var hyperuranionbinderlead = VanillaFactory.createFluid("hyperuranion_binder_lead", Color.fromHex("2f9ea8"));
+hyperuranionbinderlead.register();
+
+var hyperuranionbindermercury = VanillaFactory.createFluid("hyperuranion_binder_mercury", Color.fromHex("387a80"));
+hyperuranionbindermercury.register();
+
+var hyperuranionbindertin = VanillaFactory.createFluid("hyperuranion_binder_tin", Color.fromHex("5f9ea3"));
+hyperuranionbindertin.register();
+
+var highentropyhyperdense = VanillaFactory.createFluid("high_entropy_hyperdense_plasma", Color.fromHex("120d06"));
+highentropyhyperdense.register();
+
+var naquadahfuel = VanillaFactory.createFluid("naquadah_alloy", Color.fromHex("163d15"));
+naquadahfuel.register();
+
+var essenceofsanethoughts = VanillaFactory.createFluid("essence_of_sane_thoughts", Color.fromHex("be8ebf"));
+essenceofsanethoughts.register();
+
+var recursiveicedcoffee = VanillaFactory.createFluid("recursive_iced_coffee", Color.fromHex("635447"));
+recursiveicedcoffee.register();
+
+var whisperofthel = VanillaFactory.createFluid("whisper_of_thel", Color.fromHex("289e47"));
+whisperofthel.register();
+
+var whisperofahkrasttorvalain = VanillaFactory.createFluid("whisper_of_ahkrast_korvalain", Color.fromHex("8a0000"));
+whisperofahkrasttorvalain.register();
+
+var whisperofverdithanath = VanillaFactory.createFluid("whisper_of_verdith_anath", Color.fromHex("26a679"));
+whisperofverdithanath.register();
+
+var whisperofomtosephellack = VanillaFactory.createFluid("whisper_of_omtose_phellack", Color.fromHex("007d7b"));
+whisperofomtosephellack.register();
+
+var whisperofdonaethrusen = VanillaFactory.createFluid("whisper_of_donaeth_rusen", Color.fromHex("002aff"));
+whisperofdonaethrusen.register();
+
+var whisperoftellan = VanillaFactory.createFluid("whisper_of_tellan", Color.fromHex("ff2b5d"));
+whisperoftellan.register();
+
+var whisperofkuraldthyrrlan = VanillaFactory.createFluid("whisper_of_kurald_thyrllan", Color.fromHex("ffffff"));
+whisperofkuraldthyrrlan.register();
+
+var whisperofkuraldemurlahn = VanillaFactory.createFluid("whisper_of_kurald_emurlahn", Color.fromHex("878787"));
+whisperofkuraldemurlahn.register();
+
+var whisperofkuraldgalain = VanillaFactory.createFluid("whisper_of_kurald_galain", Color.fromHex("000000"));
+whisperofkuraldgalain.register();
+
+var whisperofstarvalddemelain = VanillaFactory.createFluid("whisper_of_starvald_demelain", Color.fromHex("6a0e78"));
+whisperofstarvalddemelain.register();
+
+var gluttonousabyssite = VanillaFactory.createFluid("gluttonous_abyssite", Color.fromHex("7aad5a"));
+gluttonousabyssite.register();
+
+var arcanefissilematter = VanillaFactory.createFluid("arcane_fissile_matter", Color.fromHex("8d5ab8"));
+arcanefissilematter.register();
+
+var apothecaryfissilematter = VanillaFactory.createFluid("apothecary_fissile_matter", Color.fromHex("4ca66f"));
+apothecaryfissilematter.register();
+
+var purifiedtitanium = VanillaFactory.createFluid("purified_titanium", Color.fromHex("cfe6e6"));
+purifiedtitanium.register();
+
+var starmetalalloy = VanillaFactory.createFluid("starmetal_alloy", Color.fromHex("cfe6e6"));
+starmetalalloy.register();
+
+var silvanfissilematter = VanillaFactory.createFluid("silvan_fissile_matter", Color.fromHex("b03aaa"));
+silvanfissilematter.register();
+
+var innervedfissilematter = VanillaFactory.createFluid("innerved_fissile_matter", Color.fromHex("782b12"));
+innervedfissilematter.register();
+
+var radiantfissilematter = VanillaFactory.createFluid("radiant_fissile_matter", Color.fromHex("cfcfcf"));
+radiantfissilematter.register();
+
+var prebaryonicplasma = VanillaFactory.createFluid("pre_baryonic_plasma", Color.fromHex("ffffff"));
+prebaryonicplasma.register();
+
+var purerecursion = VanillaFactory.createFluid("pure_recursion", Color.fromHex("ffffff"));
+purerecursion.register();
+
+
+var warrenbinderhydrogen = VanillaFactory.createFluid("warren_binder_hydrogen", Color.fromHex("dbfcff"));
+warrenbinderhydrogen.register();
+
+var warrenbinderoxygen = VanillaFactory.createFluid("warren_binder_oxygen", Color.fromHex("80d2d9"));
+warrenbinderoxygen.register();
+
+var warrenbinderdeuterium = VanillaFactory.createFluid("warren_binder_deuterium", Color.fromHex("bbe9ed"));
+warrenbinderdeuterium.register();
+
+var warrenbindertritium = VanillaFactory.createFluid("warren_binder_tritium", Color.fromHex("94d0d6"));
+warrenbindertritium.register();
+
+var warrenbinderiron = VanillaFactory.createFluid("warren_binder_iron", Color.fromHex("5ed9e6"));
+warrenbinderiron.register();
+
+var warrenbindernickel = VanillaFactory.createFluid("warren_binder_nickel", Color.fromHex("1d7780"));
+warrenbindernickel.register();
+
+var warrenbinderlead = VanillaFactory.createFluid("warren_binder_lead", Color.fromHex("2f9ea8"));
+warrenbinderlead.register();
+
+var warrenbindermercury = VanillaFactory.createFluid("warren_binder_mercury", Color.fromHex("387a80"));
+warrenbindermercury.register();
+
+var warrenbindertin = VanillaFactory.createFluid("warren_binder_tin", Color.fromHex("5f9ea3"));
+warrenbindertin.register();
+
+var fractallitetaint = VanillaFactory.createFluid("fractallite_taint", Color.fromHex("663999"));
+fractallitetaint.register();
+
+var hungeringfleshessence = VanillaFactory.createFluid("hungering_flesh_essence", Color.fromHex("bf5a82"));
+hungeringfleshessence.register();
+
+var ascendedfluixessence = VanillaFactory.createFluid("ascended_fluix_essence", Color.fromHex("a08acf"));
+ascendedfluixessence.register();
+
+var masteryofundeath = VanillaFactory.createFluid("mastery_of_undeath", Color.fromHex("362f8f"));
+masteryofundeath.register();
+
+var infinitedivinewish = VanillaFactory.createFluid("infinite_divine_wish", Color.fromHex("e3df00"));
+infinitedivinewish.register();
+
+var infiniteinsanewish = VanillaFactory.createFluid("infinite_insane_wish", Color.fromHex("d90b00"));
+infiniteinsanewish.register();
+
+var dopedrecursion = VanillaFactory.createFluid("doped_recursion", Color.fromHex("d90b00"));
+dopedrecursion.register();
+
+var weakwarrenessence = VanillaFactory.createFluid("low_grade_space_time_fuel", Color.fromHex("8dc3c4"));
+weakwarrenessence.register();
+
+var quarkgluonplasma = VanillaFactory.createFluid("strange_quark_gluon_plasma", Color.fromHex("9dd194"));
+quarkgluonplasma.register();
+
+var cosmicrayparticlemix = VanillaFactory.createFluid("cosmic_ray_particle_mix", Color.fromHex("899bc4"));
+cosmicrayparticlemix.register();
+
+var mediumwarrenessence = VanillaFactory.createFluid("medium_grade_space_time_fuel", Color.fromHex("63a5a6"));
+mediumwarrenessence.register();
+
+var strngwarrenessence = VanillaFactory.createFluid("high_grade_space_time_fuel", Color.fromHex("63a5a6"));
+strngwarrenessence.register();
+
+var trinityingot = VanillaFactory.createFluid("trinity_ingot", Color.fromHex("a8ffe6"));
+trinityingot.register();
+
+var galacticplasma = VanillaFactory.createFluid("galactic_plasma", Color.fromHex("a8e6da"));
+galacticplasma.register();
+
+var coldplasma = VanillaFactory.createFluid("cold_plasma", Color.fromHex("9eb8a5"));
+coldplasma.register();
+
+var blackholejuice = VanillaFactory.createFluid("black_hole_juice", Color.fromHex("000000"));
+blackholejuice.register();
+
+
+

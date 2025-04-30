@@ -100,3 +100,48 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:greater_gaia
 <ore:ingotShadowium>, <ore:ingotShadowium>,
 <ore:ingotPhotonium>, <ore:ingotPhotonium>,
 <ore:ingotPhotonium>, <ore:ingotPhotonium>]);
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<avaritiaitem:cosmic_halite_cluster>, 
+
+[[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, null, <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_catalyzer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[null, <contenttweaker:fifth_order_ascended_fractal>, <avaritiaitem:cosmic_fractal_catalyzer>, null, <contenttweaker:halite_imbuement_fabrial>, null, <avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:fifth_order_ascended_fractal>, null], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_catalyzer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, null, <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<avaritiaitem:univocal_halite_cluster>, 
+
+[[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, null, <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[null, <contenttweaker:fifth_order_ascended_fractal>, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:halite_imbuement_fabrial>, null, <avaritiaitem:cosmic_fractal_harmonizer>, <contenttweaker:fifth_order_ascended_fractal>, null], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, null, <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>]]);  

@@ -7,7 +7,7 @@
       "desc:8": "泰拉是一颗非常奇怪的行星，这种异常体现在诸多方面。\n以它的体积而言本该成为气态巨行星，却不知为何保持着固态结构，其大气层主要由可供呼吸的轻质气体构成。\n虽然它拥有一颗名为月球（Luna）的卫星在较远距离轨道运行，行星同时还周围密布着无数岛屿状的小行星群。\n这些星体因距离极近而悬浮于行星大气层内，形成重力环境与地表相仿的空中浮岛。\n更奇特的是，行星内部存在多个中空区域，这些分布在距地核等距轨道上的巨型洞穴构成了地心世界的特殊地貌。",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "minecraft:stone"
+        "id:8": "minecraft:grass"
       },
       "name:8": "泰拉"
     }
@@ -27,7 +27,7 @@
               "0:8": "{\"text\":\"可使用本书，或在JEI中搜索“维度ID表”以查看所有维度对应ID。（书中不全，推荐在JEI中查找）\\n\\n若世界存档过大（路径：saves\\u003e世界名称），可通过删除DIMx文件夹来重置对应ID的维度。\\n例如：下界对应的文件夹为DIM-1\\n \"}",
               "1:8": "{\"text\":\"泰拉（主世界）【Overworld】：0\\n虚空世界【Void World】：43\\nWoot维度【Tartarus】：418\\n下界【Nether】：-1\\n末地【End】：1\\n熔炉世界（泰洛斯）【Telos】：623\\n暮色森林【Twilight Forest】：7\\n天境【Aether】：4\\n混沌之地【Erebus】：66\\n交错次元【Betweenlands】：20\\n冰晶雪原【Iceika】：425\\n秘界【Arcana】：426\\n \"}",
               "2:8": "{\"text\":\"深渊荒原【Abyssal wasteland】：50\\n恐惧之地【Dreadlands】：51\\n奥穆索【Omothol】：52\\n黑暗领域【Dark realm】：53\\n维度门【Dimensional Doors】：684（以及其后的连续数字）\\n虚域【Emptiness】：14676\\n漆黑世界【Deep Dark】：-11325\\n地平界【Taerrapiatta】：180\\n地方界【Diamerisma】：181\\n地盘界【Furatto】：182\\n律界【Vibe】：183\\n共鸣界【Apichisi】：184\"}",
-              "3:8": "{\"text\":\"末结地【Finem】：185\\n月球【Luna】：145\\n奥西里斯【Osiris】：148\\n普塔【Ptah】：149\\n哈托尔【Hator】：150\\n欧罗巴【Europa】：151\\n奥伊【Oi】：152\\n法拉瑟【Falacer】：160\\n奥迦斯【Orcus】：161\\n哈乌美亚【Haumea】：146\\n塞德娜【Sedna】：147\\n伊甸【Eden】：420\\n传说【Precasia】：818\"}",
+              "3:8": "{\"text\":\"末结地【Finem】：185\\n[高级火箭]月球【Luna】：145\\n奥西里斯【Osiris】：148\\n普塔【Ptah】：149\\n哈托尔【Hator】：150\\n欧罗巴【Europa】：151\\n奥伊【Oi】：152\\n法拉瑟【Falacer】：160\\n奥迦斯【Orcus】：161\\n哈乌美亚【Haumea】：146\\n塞德娜【Sedna】：147\\n伊甸【Eden】：420\\n传说【Precasia】：818\"}",
               "4:8": "{\"text\":\"爵士【Barathos】：802\\n赫尔维蒂【Lelyetia】：815\\n蠕变【Creeponia】：805\\n深层【Deeplands】：807\\n深渊【Abyss】：800\\n铼界【Rhenia】：163\\n恐蚁界【Myrmex】：164\\n原始森林【Wildwood】：421\\n糖果【Candyland】：803\\n花园【Gardencia】：809\\n玩具【Celeve】：804\\n晶体【Crystevia】：806\\n\"}",
               "5:8": "{\"text\":\"天堂【Haven】：811\\n黄金【Iromine】：813\\n秘境【Mysterium】：817\\n未知【Vox Ponds】：821\\n光精界【Pixonia】：165\\n封闭空间【Spatial Storage】：-26\\n附魔山脉【Apalachia】：422\\n树龙界【Lyndenwyrm】：162\\n暴风【L\\u0027Borean】：814\\n符境【Runandor】：819\\n[虚无]月球维度【Lunalus】：816\\n比邻星带【Proxima Belt】：166\\n空境【Skythern】：423\\n\"}",
               "6:8": "{\"text\":\"远古神殿【Ancient Cavern】：801\\n不朽之地【Immortallis】：812\\n格瑞克【Greckon】：810\\n异位【Dustopia】：808\\n梦魇世界【Vethea】：427\\n孤寂界【Zoi】：171\\n茕踽界【Nero】：170\\n晦暗界【Akathartos】：172\\n惧惮界【Pauram】：173\\n死域【Mortum】：424\\n塞尔瑞【Shyrelands】：820\\n炼金界【Alkemia】：174\\n\"}",
@@ -46,6 +46,16 @@
       "index:3": 0,
       "name:8": "主世界（Overworld）",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:grass"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

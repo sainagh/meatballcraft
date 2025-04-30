@@ -7,7 +7,8 @@
       "desc:8": "§7§o5x6的传送门结构，除了远古岩石外，构成方块还包括能量、方位、空间、现实和穿越雕符石各一个（使用纯宝石右击激活）",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "aoa3:archaic_squares"
+        "Damage:2": 5,
+        "id:8": "chisel:gold"
       },
       "name:8": "不朽之地"
     }
@@ -20,6 +21,17 @@
       "index:3": 0,
       "name:8": "不朽之地",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "chisel:gold"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

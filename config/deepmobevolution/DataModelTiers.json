@@ -1,7 +1,7 @@
 [
   {
     "tier": 0,
-    "displayName": "Faulty",
+    "displayName": "故障",
     "displayColor": "dark_gray",
     "killMultiplier": 1,
     "dataToNext": 6,
@@ -15,7 +15,7 @@
   },
   {
     "tier": 1,
-    "displayName": "Basic",
+    "displayName": "基础",
     "displayColor": "green",
     "killMultiplier": 4,
     "dataToNext": 48,
@@ -29,7 +29,7 @@
   },
   {
     "tier": 2,
-    "displayName": "Advanced",
+    "displayName": "高级",
     "displayColor": "blue",
     "killMultiplier": 10,
     "dataToNext": 300,
@@ -43,7 +43,7 @@
   },
   {
     "tier": 3,
-    "displayName": "Superior",
+    "displayName": "超级",
     "displayColor": "light_purple",
     "killMultiplier": 18,
     "dataToNext": 900,
@@ -57,7 +57,7 @@
   },
   {
     "tier": 4,
-    "displayName": "Self-Aware",
+    "displayName": "自我意识",
     "displayColor": "gold",
     "pristineChance": 42,
     "trial": {

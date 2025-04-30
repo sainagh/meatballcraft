@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    651565677
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oBig rabbit hole incoming! The quests following this one are not required to reach the end of the pack, but you may want to complete them for other reasons ;)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "recursive_computing_matter"
+        }
+      },
+      "name:8": "Big Brain Time"
+    }
+  },
+  "questID:3": 695054604,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:recursive_brain"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:recursive_brain_plug"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:hyperuranion_conduit"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:hyperuranion_casing"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "glassential:glass_ethereal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:recursive_brain_in_a_vat"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

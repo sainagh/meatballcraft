@@ -70,3 +70,12 @@ enc7.addItemInput(<aoa3:ice_crystal>);
 enc7.addItemInput(<contenttweaker:dreadful_ice>);
 enc7.addItemOutput(<divinerpg:snowflake>*24);
 enc7.build();
+
+val enc8 = RecipeBuilder.newBuilder("icearca8","corrupted_library",20);
+enc8.addEnergyPerTickInput(2000);
+enc8.addFluidInput(<fluid:lifeessence>*800);
+enc8.addFluidInput(<fluid:liquidcoralium>*800);
+enc8.addItemInput(<bloodmagic:blood_shard:0>);
+enc8.addItemInput(<contenttweaker:infinity_fragment>);
+enc8.addItemOutput(<divinerpg:collector_fragments>*8);
+enc8.build();

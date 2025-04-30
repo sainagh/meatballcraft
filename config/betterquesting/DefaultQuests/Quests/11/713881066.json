@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    999
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:written_book"
+      },
+      "name:8": "Chapter 10"
+    }
+  },
+  "questID:3": 713881066,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:staff_of_the_lord_of_gluttony"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

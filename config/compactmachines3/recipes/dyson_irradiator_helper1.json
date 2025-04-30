@@ -1,0 +1,194 @@
+{
+    "name": "compactmachines3:dyson_irradiator_helper_1",
+    "target-item": "modularmachinery:dyson_irradiator_top_controller",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+  
+
+
+    "input-types": {
+      "a": {
+        "id": "modularmachinery:dyson_irradiator_top_controller",
+        "meta": 2
+      },
+      "b": {
+        "id": "minecraft:wool",
+        "meta": 0
+      },
+      "c": {
+        "id": "minecraft:wool",
+        "meta": 7
+      },
+      "d": {
+        "id": "modularmachinery:dyson_irradiator_bottom_controller",
+        "meta": 2
+      },
+      "e": {
+        "id": "modularmachinery:dyson_irradiator_controller",
+        "meta": 2
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{rotation:2b,owner:\"8c381e15-592d-4003-ae11-6367e203127b\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},casingColor:16730368,id:\"minecraft:tilemachinecontroller\",items:{inSlots:[I;],outSlots:[I;],miscSlots:[I;0],inventoryArray:[{holderId:0,holderEmpty:1b}],sides:[I;0,1,2,3,4,5]},parentMachine:\"modularmachinery:dyson_irradiator_top\",statusTag:{type:0b,message:\"\"}}"
+      },
+      "d:A": {
+        "nbt": "{rotation:2b,owner:\"8c381e15-592d-4003-ae11-6367e203127b\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},casingColor:16730368,id:\"minecraft:tilemachinecontroller\",items:{inSlots:[I;],outSlots:[I;],miscSlots:[I;0],inventoryArray:[{holderId:0,holderEmpty:1b}],sides:[I;0,1,2,3,4,5]},parentMachine:\"modularmachinery:dyson_irradiator_bottom\",statusTag:{type:0b,message:\"\"}}"
+      },
+      "e:A": {
+        "nbt": "{rotation:2b,owner:\"8c381e15-592d-4003-ae11-6367e203127b\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},casingColor:16730368,id:\"minecraft:tilemachinecontroller\",items:{inSlots:[I;],outSlots:[I;],miscSlots:[I;0],inventoryArray:[{holderId:0,holderEmpty:1b}],sides:[I;0,1,2,3,4,5]},parentMachine:\"modularmachinery:dyson_irradiator\",statusTag:{type:0b,message:\"\"}}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "c"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "c"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "e:A"
+        ],
+        [
+          "b"
+        ],
+        [
+          "c"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "c"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "c"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "d:A"
+        ]
+      ]
+    ]
+   
+}

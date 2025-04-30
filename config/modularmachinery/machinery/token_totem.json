@@ -208,7 +208,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockenergyoutputhatch"
+                "token_totem_output"
             ]
         },
         {
@@ -216,7 +216,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockenergyoutputhatch"
+                "token_totem_output"
             ]
         },
         {
@@ -248,7 +248,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockenergyoutputhatch"
+                "token_totem_output"
             ]
         },
         {
@@ -256,7 +256,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "modularmachinery:blockenergyoutputhatch"
+                "token_totem_output"
             ]
         },
         {
@@ -264,7 +264,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "modularmachinery:blockenergyoutputhatch"
+                "token_totem_output"
             ]
         },
         {
@@ -296,7 +296,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "modularmachinery:blockenergyoutputhatch"
+                "token_totem_output"
             ]
         },
         {
@@ -448,7 +448,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockenergyoutputhatch"
+                "token_totem_output"
             ]
         },
         {
@@ -480,7 +480,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockenergyoutputhatch"
+                "token_totem_output"
             ]
         },
         {

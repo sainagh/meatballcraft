@@ -290,7 +290,7 @@ spatialphaser.itemRightClick = function(stack, world, player, hand) {
 
     player.sendChat("使用更多实用设备模组的地形转化仪将群系转化为正确群系，赫尔维蒂维度将告诉你是哪一个。");
     player.sendChat("你得转化很大一块区域！");
-	player.sendChat("站在改变后的群戏中使用该物品！");
+	player.sendChat("站在改变后的群系中使用该物品！");
 
 	player.sendChat(" - - - ");
 	player.sendChat("正在扫描周围区域");
@@ -345,7 +345,7 @@ gemvoracity.itemRightClick = function(stack, world, player, hand) {
 
     player.sendChat("使用更多实用设备模组的地形转化仪将群系转化为正确群系，未知维度将告诉你是哪一个。");
     player.sendChat("你得转化很大一块区域！");
-	player.sendChat("站在改变后的群戏中使用该物品！");
+	player.sendChat("站在改变后的群系中使用该物品！");
 
 	player.sendChat(" - - - ");
 	player.sendChat("正在扫描周围区域");
@@ -656,3 +656,652 @@ memoryrestorationritual.itemRightClick = function(stack, world, player, hand) {
 
 };
 memoryrestorationritual.register();
+
+
+
+
+
+
+var sprensummonerfaith = VanillaFactory.createItem("spren_summoner_faith");
+sprensummonerfaith.maxStackSize = 16;
+sprensummonerfaith.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Ancient Cavern" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("需位于远古神殿（Ancient Cavern）群系");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon ebwizardry:spectral_golem ~ ~2 ~ {CustomName:\"腐化信仰之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_restored_faith\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("需位于远古神殿（Ancient Cavern）群系");
+	return "FAIL";
+
+
+};
+sprensummonerfaith.register();
+
+
+var sprensummonerdeath = VanillaFactory.createItem("spren_summoner_death");
+sprensummonerdeath.maxStackSize = 16;
+sprensummonerdeath.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Immortallis" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("需位于不朽之地（Immortallis）群系");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon aoa3:ghostly_night_reaper ~ ~2 ~ {CustomName:\"信仰之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_forgotten_fear_of_death\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("需位于不朽之地（Immortallis）群系");
+	return "FAIL";
+
+
+};
+sprensummonerdeath.register();
+
+
+
+var sprensummonerhaste = VanillaFactory.createItem("spren_summoner_haste");
+sprensummonerhaste.maxStackSize = 16;
+sprensummonerhaste.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Greckon" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("需位于格瑞克（Greckon）群系");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon aoa3:ghostly_charger ~ ~2 ~ {CustomName:\"急迫之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_forgiven_lost_time\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("需位于格瑞克（Greckon）群系");
+	return "FAIL";
+
+
+};
+sprensummonerhaste.register();
+
+
+
+var sprensummonerblasphemy = VanillaFactory.createItem("spren_summoner_blasphemy");
+sprensummonerblasphemy.maxStackSize = 16;
+sprensummonerblasphemy.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Dustopian Forest" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("需位于异位森林（Dustopian Forest）群系");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon mod_lavacow:grave_robber_ghost ~ ~2 ~ {CustomName:\"亵渎之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_rekindled_heritage\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("需位于异位森林（Dustopian Forest）群系");
+	return "FAIL";
+
+
+};
+sprensummonerblasphemy.register();
+
+
+
+var sprensummonerdarkness = VanillaFactory.createItem("spren_summoner_plot");
+sprensummonerdarkness.maxStackSize = 16;
+sprensummonerdarkness.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Outer Lands" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("需位于外域（Outer Lands）群系");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon thaumcraft:eldritchguardian ~ ~2 ~ {CustomName:\"诡谋之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_no_hidden_intentions\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("需位于外域（Outer Lands）群系");
+	return "FAIL";
+
+
+};
+sprensummonerdarkness.register();
+
+
+
+var sprensummonerinjury = VanillaFactory.createItem("spren_summoner_injury");
+sprensummonerinjury.maxStackSize = 16;
+sprensummonerinjury.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Spooky Forest" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("需位于幽魂森林（Spooky Forest）群系");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon aoa3:ghostly_bugeye ~ ~2 ~ {CustomName:\"创痕之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_physical_healing\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("需位于幽魂森林（Spooky Forest）群系");
+	return "FAIL";
+
+
+};
+sprensummonerinjury.register();
+
+
+var sprensummonerhelplessness = VanillaFactory.createItem("spren_summoner_inadequacy");
+sprensummonerhelplessness.maxStackSize = 16;
+sprensummonerhelplessness.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Ocean Spires" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("需位于海上尖塔（Ocean Spires）群系");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon mod_lavacow:ghost_swarmer ~ ~2 ~ {CustomName:\"欠损之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_realized_worth\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("需位于海上尖塔（Ocean Spires）群系");
+	return "FAIL";
+
+
+};
+sprensummonerhelplessness.register();
+
+
+var sprensummonerloneliness = VanillaFactory.createItem("spren_summoner_loneliness");
+sprensummonerloneliness.maxStackSize = 16;
+sprensummonerloneliness.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Bog" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("需位于泥塘（Bog）群系");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon aoa3:ghostly_cyclops ~ ~2 ~ {CustomName:\"孤独之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_restored_relationship\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("需位于泥塘（Bog）群系");
+	return "FAIL";
+
+
+};
+sprensummonerloneliness.register();
+
+
+var sprensummonercontrol = VanillaFactory.createItem("spren_summoner_control");
+sprensummonercontrol.maxStackSize = 16;
+sprensummonercontrol.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Mortum" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("需位于死域（Mortum）群系");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon abyssalcraft:dragonminion ~ ~2 ~ {CustomName:\"支配之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_surrender\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("需位于死域（Mortum）群系");
+	return "FAIL";
+
+
+};
+sprensummonercontrol.register();
+
+
+var sprensummonerprepotence = VanillaFactory.createItem("spren_summoner_prepotence");
+sprensummonerprepotence.maxStackSize = 16;
+sprensummonerprepotence.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Shyrelands" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("需位于塞尔瑞（Shyrelands）群系");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon aoa3:spectral_wizard ~ ~2 ~ {CustomName:\"霸权之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_individual_freedom\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("需位于塞尔瑞（Shyrelands）群系");
+	return "FAIL";
+
+
+};
+sprensummonerprepotence.register();
+
+
+var sprensummonergluttony = VanillaFactory.createItem("spren_summoner_gluttony");
+sprensummonergluttony.maxStackSize = 16;
+sprensummonergluttony.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Nuclear Wasteland" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("需位于核泄漏之地（Nuclear Wasteland）群系");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon mod_lavacow:soulworm ~ ~2 ~ {CustomName:\"暴食之魂\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_individual_freedom\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:10000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("需位于核泄漏之地（Nuclear Wasteland）群系");
+	return "FAIL";
+
+
+};
+sprensummonergluttony.register();
+
+
+var sprensummonerarrogance = VanillaFactory.createItem("spren_summoner_arrogance");
+sprensummonerarrogance.maxStackSize = 16;
+sprensummonerarrogance.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val OceanBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val OceanBiomeName = "Storage Cell" as string;
+
+
+    // get number of matches
+    val OceanMatches = checkBiomesAtPositions(OceanBiomeName, playerpos, OceanBiomeLocations, world) as int;
+
+	if((OceanMatches) == 0) {
+		player.sendChat("需位于AE2（Storage Cell）群系");
+		return "FAIL";
+	} 
+
+    if((OceanMatches) == 1) {
+		Commands.call("summon divinerpg:rainbour ~ ~2 ~ {CustomName:\"矜狂之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_individual_freedom\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:10000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("需位于AE2（Storage Cell）群系");
+	return "FAIL";
+
+
+};
+sprensummonerarrogance.register();
+
+
+
+
+
+
+var oathoftheundeadlords = VanillaFactory.createItem("oath_of_the_seven_undead_lords");
+oathoftheundeadlords.maxStackSize = 16;
+oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // check if player is in right dimension
+    if(player.getDimension() != 193) {
+        player.sendChat("需位于争竞界");
+        return "FAIL";
+    }
+
+    // obtain position under player
+	var playerpos = player.position as crafttweaker.util.Position3f;
+
+    // locations to place biomes
+    val IromineBiomeLocations = [[0,0]] as int[][];
+    val BoreanBiomeLocations = [[0,0]] as int[][];
+    val CeleveBiomeLocations = [[0,0]] as int[][];
+    val RunandorBiomeLocations = [[0,0]] as int[][];
+    val BarathosBiomeLocations = [[0,0]] as int[][];
+    val MysteriumBiomeLocations = [[0,0]] as int[][];
+    val IcespikesBiomeLocations = [[0,0]] as int[][];
+
+    // biome to pattern
+    val IromineBiomeName = "Iromine" as string;
+    val BoreanBiomeName = "L'Borean Ponds" as string;
+    val CeleveBiomeName = "Celeve" as string;
+    val RunandorBiomeName = "Runandor" as string;
+    val BarathosBiomeName = "Barathos" as string;
+    val MysteriumBiomeName = "Mysterium" as string;
+    val IcespikesBiomeName = "Ice Plains Spikes" as string;
+
+
+    // get number of matches
+    val IromineMatches = checkBiomesAtPositions(IromineBiomeName, playerpos, IromineBiomeLocations, world) as int;
+    val BoreanMatches = checkBiomesAtPositions(BoreanBiomeName, playerpos, BoreanBiomeLocations, world) as int;
+    val CeleveMatches = checkBiomesAtPositions(CeleveBiomeName, playerpos, CeleveBiomeLocations, world) as int;
+    val RunandorMatches = checkBiomesAtPositions(RunandorBiomeName, playerpos, RunandorBiomeLocations, world) as int;
+    val BarathosMatches = checkBiomesAtPositions(BarathosBiomeName, playerpos, BarathosBiomeLocations, world) as int;
+    val MysteriumMatches = checkBiomesAtPositions(MysteriumBiomeName, playerpos, MysteriumBiomeLocations, world) as int;
+    val IcespikesMatches = checkBiomesAtPositions(IcespikesBiomeName, playerpos, IcespikesBiomeLocations, world) as int;
+
+
+    if((IromineMatches) == 1) {
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"色欲领主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_lust\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+    if((BoreanMatches) == 1) {
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"傲慢领主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_pride\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+    if((CeleveMatches) == 1) {
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"嫉妒领主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_envy\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+    if((RunandorMatches) == 1) {
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"暴怒领主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_wrath\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+    if((BarathosMatches) == 1) {
+		Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:oath_of_the_lord_of_gluttony\",Count:1b}}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+    if((MysteriumMatches) == 1) {
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"贪婪领主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_greed\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+    if((IcespikesMatches) == 1) {
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"懒惰领主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_sloth\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
+
+	player.sendChat("没想到你居然能收到这条消息，挺厉害的嘛，为什么会想着更改争竞界的生物群系？");
+	player.sendChat("嗯，这是给你的好东西");
+	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:fading_wool\",Count:1b}}", player, world, false, true);
+	return "FAIL";
+
+
+};
+oathoftheundeadlords.register();
