@@ -895,7 +895,7 @@ import crafttweaker.item.IItemCondition;
 
 <tconstruct:tooltables:1>.addTooltip(format.red("无法制作"));
 
-<bloodarsenal:base_item:9>.addTooltip(format.red("配方是骗人的"));
+<bloodarsenal:base_item:9>.addTooltip(format.red("配方是个谎言"));
 
 <dimdoors:fabric>.addTooltip(format.red("我爱精准采集"));
 
@@ -1059,19 +1059,19 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:strings_crystal>.addTooltip(format.red("可以下单合成从而省下一个加速器"));
 <contenttweaker:strings_crystal>.addTooltip(format.red("也可以被动合成，挂的数量更多"));
 
-<contenttweaker:serpentine>.addTooltip(format.red("发现于太阳系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现于铁块附近"));
+<contenttweaker:serpentine>.addTooltip(format.red("发现于索尔星系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现于铁块附近"));
 
-<contenttweaker:travertine>.addTooltip(format.red("发现于太阳系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现于蕴含珊瑚的石头附近"));
+<contenttweaker:travertine>.addTooltip(format.red("发现于索尔星系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现于蕴含珊瑚的石头附近"));
 
-<contenttweaker:pink_marble>.addTooltip(format.red("发现于太阳系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现于骨块附近"));
+<contenttweaker:pink_marble>.addTooltip(format.red("发现于索尔星系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现于骨块附近"));
 
-<contenttweaker:onyx>.addTooltip(format.red("发现于太阳系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现于卢比矿石附近"));
+<contenttweaker:onyx>.addTooltip(format.red("发现于索尔星系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现于卢比矿石附近"));
 
-<contenttweaker:agate>.addTooltip(format.red("发现于太阳系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现于蓝晶块附近"));
+<contenttweaker:agate>.addTooltip(format.red("发现于索尔星系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现于蓝晶块附近"));
 
-<contenttweaker:feldspar>.addTooltip(format.red("发现于太阳系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现于阿勒石矿石附近"));
+<contenttweaker:feldspar>.addTooltip(format.red("发现于索尔星系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现于阿勒石矿石附近"));
 
-<contenttweaker:metagabbro>.addTooltip(format.red("发现于太阳系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现与现石矿石附近"));
+<contenttweaker:metagabbro>.addTooltip(format.red("发现于索尔星系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现与现石矿石附近"));
 
 <contenttweaker:fiery_pyrite>.addTooltip(format.red("发现于熔岩星球地表 - 使用炎岩匠魂工具进行挖掘"));
 
@@ -1539,7 +1539,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:draconic_key>.addTooltip(format.red("将星能力等级上限提升至40"));
 
-<contenttweaker:draconic_key>.addTooltip(format.red("瓶中裂隙必须是通过特殊注魔配方合成的"));
+<contenttweaker:draconic_key>.addTooltip(format.red("缸中裂隙必须是通过特殊注魔配方合成的"));
 
 <contenttweaker:ancient_elven_knowledge>.addTooltip(format.red("将星能力等级上限提升至45"));
 
@@ -2280,7 +2280,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:dream_projector_gem>.addTooltip(format.red("将正确的匠魂部件（4个）与投影宝石结合，梦魇世界配方将指引你！"));
 
-<contenttweaker:dream_projector_gem>.addTooltip(format.red("递归生命精华可通过潜藏之力召唤石获得！"));
+<contenttweaker:dream_projector_gem>.addTooltip(format.red("蕴生递归精华可通过潜藏之力召唤石获得！"));
 
 <contenttweaker:tainted_heart>.addTooltip(format.red("发现于谐律界"));
 
@@ -2586,8 +2586,8 @@ import crafttweaker.item.IItemCondition;
 <bloodmagic:blood_rune:10>.addTooltip(format.red("改变祭坛机制：消耗LP积攒充能，可用来立即完成合成"));
 <bloodmagic:blood_rune:8>.addTooltip(format.red("增加LP网络的容量"));
 
-<divinerpg:divine_shickaxe>.addTooltip(format.red("感谢Lulu为武器添加的剧情！"));
-<botania:thundersword>.addTooltip(format.red("感谢Lulu为武器添加的剧情！"));
+<divinerpg:divine_shickaxe>.addTooltip(format.red("感谢Lulu为武器添加的背景设定！"));
+<botania:thundersword>.addTooltip(format.red("感谢Lulu为武器添加的背景设定！"));
 
 <ore:ingotColdIron>.addTooltip(format.red("将铁丢入瓶装霜火生成的火中"));
 
@@ -2695,7 +2695,7 @@ import crafttweaker.item.IItemCondition;
 
 <modularmachinery:itemblueprint>.addTooltip(format.red("使用多方块棒棒右击专用的控制器进行自动搭建！"));
 
-<contenttweaker:bloodmaster_metal_chest>.addTooltip(format.red("感谢WearyCat帮助撰写剧情！"));
+<contenttweaker:bloodmaster_metal_chest>.addTooltip(format.red("感谢WearyCat帮助撰写背景设定！"));
 
 <extrabotany:specialbag>.addTooltip(format.red("盖亚守护者 IV掉落"));
 
@@ -2909,7 +2909,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:furry_mass>.addTooltip(format.red("感谢CheesyWamBam做了这个"));
 
-<contenttweaker:nethengeic_mark>.addTooltip(format.red("让焰髓符文能够重复使用"));
+<contenttweaker:nethengeic_mark>.addTooltip(format.red("使焰髓符文能够重复使用"));
 
 <environmentaltech:laser_lens>.addTooltip(format.red("最好使用水晶透镜"));
 
@@ -3449,7 +3449,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:inert_spatial_phaser>.addTooltip(format.red("与正确的砖块（4个）结合，伊甸将指引你"));
 <contenttweaker:spatial_phaser>.addTooltip(format.red("将惰性空间移相器与正确的砖块（4个）结合，伊甸将指引你"));
 
-<extrabotany:allforone>.addTooltip(format.red("使饰品盒内的所有饰品均能起效"));
+<extrabotany:allforone>.addTooltip(format.red("使饰品盒子内的所有饰品均能起效"));
 
 <extrabotany:camera>.addTooltip(format.red("使用狗仔队相机后才能使用该物品"));
 <extrabotany:camera>.addTooltip(format.red("麻痹视野内的生物"));

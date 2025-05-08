@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oObtained from the aether and the gravitite enchanter!\n\n§fSame thing as the ring but in a larger form.",
+      "desc:8": "§7§o通过天境和重力晶附魔器获得！\n\n§f功能和戒指一样，只不过是挂坠。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aether_legacy:ice_pendant",
@@ -26,7 +26,7 @@
           }
         }
       },
-      "name:8": "Ice Pendant"
+      "name:8": "寒冰链坠"
     }
   },
   "questID:3": 950,
@@ -40,9 +40,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oIce Pendant§r"
+              "Name:8": "§6§o寒冰链坠§r"
             },
             "ench:9": {
               "0:10": {

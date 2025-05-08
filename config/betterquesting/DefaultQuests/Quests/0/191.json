@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This is not what I expected! At all!\nWhy are the bees friendly with the Meatball Man? Why do they share a society of undead nuclear scientists?\nI guess I shouldn\u0027t be surprised, the Meatball Man is powerful, so it would make sense that he would have control over some planets at least. But why work with the bees? And why collaborate with them to make nukes? \nOi is not a friendly place, but I think it will be a good idea to spend some time here. The meatball man has some interest in me, so I better try to gather intel on him.\nThe undead society of Oi is quite interesting too. Sunlight seems to be a general weakness to most of the undead, and their world is built around it. Roofs are readily available in an otherwise barren landscape, and they even use dark ineffable glass!",
+      "desc:8": "事情完全出乎我的意料！\n为何这里的蜜蜂会与肉丸人交好？为何他们共享一个由亡灵核科学家组成的社会？\n细想也不足为奇，肉丸人伟力无比，掌控若干星球也在情理之中。但为何会选择与蜜蜂合作？又为何联手研制核弹？\n奥伊绝非善地，却值得驻足探寻。既然肉丸人对我有所图谋，不如趁机收集情报。\n这里的亡灵生物社会颇有意思。阳光似乎是多数亡灵的弱点，因此整个世界的构造都围绕着遮光设计。荒原之上穹顶林立，甚至还用了黑色奇妙玻璃！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:agate"
       },
-      "name:8": "The Meatball Wasteland"
+      "name:8": "肉丸废土"
     }
   },
   "questID:3": 191,

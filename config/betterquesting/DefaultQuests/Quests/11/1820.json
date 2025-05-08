@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oComplete the phasing gem puzzles.",
+      "desc:8": "§7§o完成相位宝石谜题。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:item_stellar_alloy_chestplate",
@@ -58,7 +58,7 @@
           }
         }
       },
-      "name:8": "Stellar Armor"
+      "name:8": "恒星合金盔甲"
     }
   },
   "questID:3": 1820,
@@ -72,9 +72,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oStellar Helmet§r"
+              "Name:8": "§6§o恒星合金头盔§r"
             },
             "ench:9": {
               "0:10": {
@@ -126,9 +126,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oStellar Chestplate§r"
+              "Name:8": "§6§o恒星合金胸甲§r"
             },
             "ench:9": {
               "0:10": {
@@ -180,9 +180,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oStellar Leggings§r"
+              "Name:8": "§6§o恒星合金护腿§r"
             },
             "ench:9": {
               "0:10": {
@@ -234,9 +234,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oStellar Boots§r"
+              "Name:8": "§6§o恒星合金靴子§r"
             },
             "ench:9": {
               "0:10": {

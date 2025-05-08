@@ -211,8 +211,8 @@
 
 <astralsorcery:itemknowledgeshare>.addTooltip(format.red("用于和其他玩家分享知识。"));
 
-<contenttweaker:triple_nak_heat_exchanger>.addTooltip(format.red("点击查看比较好的热交换器设计"));
-<contenttweaker:quintuple_nak_heat_exchanger>.addTooltip(format.red("点击查看比较好的热交换器设计似"));
+<contenttweaker:triple_nak_heat_exchanger>.addTooltip(format.red("点击查看较好的热交换器设计"));
+<contenttweaker:quintuple_nak_heat_exchanger>.addTooltip(format.red("点击查看较好的热交换器设计似"));
 
 <contenttweaker:triple_nak_heat_exchanger>.addTooltip(format.red("切片越多，速度越快"));
 <contenttweaker:quintuple_nak_heat_exchanger>.addTooltip(format.red("切片越多，速度越快"));
@@ -1716,7 +1716,7 @@
 <contenttweaker:fiery_unguent_bottle>.addTooltip(format.red("感谢Foucs绘制的瓶装巫师之路材料纹理！"));
 <contenttweaker:stone_ichor_bottle>.addTooltip(format.red("感谢Foucs绘制的瓶装巫师之路材料纹理！"));
 
-<contenttweaker:abomination_of_true_power>.addTooltip(format.red("将精铸福鲁伊克斯水晶与理序主之触、龙之晶核、憎恶蛋，以及正确的Animus模组的生物灵魂（5个）结合"));
+<contenttweaker:abomination_of_true_power>.addTooltip(format.red("将精铸福鲁伊克斯水晶与理序主之触、暗龙之心、憎恶蛋，以及正确的Animus模组的生物灵魂（5个）结合"));
 <contenttweaker:abomination_of_true_power>.addTooltip(format.red("地方界的蜘蛛？为啥啊？在树桩那儿？"));
 
 
@@ -2426,7 +2426,7 @@
 
 <contenttweaker:tainted_prison_key>.addTooltip(format.red("召唤石"));
 
-<contenttweaker:undead_soil>.addTooltip(format.red("将（未使用过的）暴食领主之杖与正确的（7种）地表方块结合"));
+<contenttweaker:undead_soil>.addTooltip(format.red("将（未使用过的）暴食之主法杖与正确的（7种）地表方块结合"));
 <contenttweaker:undead_soil>.addTooltip(format.red("争竞界将指引你，记得用精准采集"));
 
 <contenttweaker:oath_of_the_seven_undead_lords>.addTooltip(format.red("在争竞界的每种生物群系中使用该物品"));
@@ -2479,9 +2479,9 @@
 
 <thaumicwonders:alienist_stone>.addTooltip(format.red("可合成为不毁版本，用其进行自动化"));
 
-<contenttweaker:quasar_core>.addTooltip(format.red("轮回噩梦合成器喝硅岩外壳能帮得上忙"));
+<contenttweaker:quasar_core>.addTooltip(format.red("轮回噩梦合成器和硅岩外壳能帮得上忙"));
 
-<divinerpg:halite_phaser>.addTooltip(format.red("轮回噩梦合成器喝硅岩外壳能帮得上忙"));
+<divinerpg:halite_phaser>.addTooltip(format.red("轮回噩梦合成器和硅岩外壳能帮得上忙"));
 
 <tardis:key>.addTooltip(format.red("通过完全生长的塔迪斯珊瑚获得"));
 

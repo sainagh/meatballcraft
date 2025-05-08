@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Fluix Historians are an old organization in Terra lore.\nTheir existence as a group of scholars started as the Arbiter came, bringing a new material that started raining on the planet inside meteorites, Fluix.\nThe group of erutites would collect the knowledge and crafts provided by the Arbiter, and regulated the use of these powers to ensure order.\nOnce war came, the order led the Testificates to retaliate, and this effort led to the campaign through the Warper Planes.\nThey are now a smaller, less powerful organization, dwindled to just a few faithfuls, and yet they still carry on their mission to mantain the history of the Arbiter alive.\nWhen I asked the historian what had happened to their guide, I got no answers...\nThe testificate seems to like me though, and he asked some questions about how I ended up in Terra. Very, very specific questions, now that I think of it...\nWhy would it be important that my wormhole opened next to a sky stone asteroid?\nAnyhow, I got my hands on some Arbiter tech, and it\u0027s quite awesome!",
+      "desc:8": "福鲁伊克斯史学家是泰拉传说中历史悠久的组织。\n这个学者团体的诞生始于理序主降临之时——祂带来了一种随陨石降临星球的新物质，福鲁伊克斯。\n学者们收集理序主传授的知识与技艺，并严格规范这些力量的使用以维系秩序。\n当战争爆发时，这种秩序引领泰斯提斐人发起反击，圣战贯穿了跃迁器位面。\n如今这个组织式微凋零，仅存少数忠诚信徒仍在坚守使命，竭力保存理序主的历史印记。\n但当我向史学家询问他们的引路人下落时，却只得到讳莫如深的沉默……\n不过这位泰斯提斐人似乎对我颇有好感，他详细询问了我降临泰拉的经过。现在想想，他的问题未免有点过于具体了……\n我的虫洞开在陨石旁真的有这么重要吗？\n无论如何，我意外获得了理序主的科技遗存，其精妙程度简直令人叹为观止！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:digital_matter_transmission_module"
       },
-      "name:8": "Arbiter Tech is the Best Tech"
+      "name:8": "理序主科技天下无双"
     }
   },
   "questID:3": 2171,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:digital_matter_transmission_module"
             },
-            "TrophyName:8": "Come to me, all ye items",
+            "TrophyName:8": "回来吧我的物品",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

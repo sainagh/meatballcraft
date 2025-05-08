@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The willingness of bees to bind to various natural elements and forces is incredible. While I definitely would not call individual bees intelligent, as a collective they are capable of complex decision-making, and it seems like they like me!\nWell, maybe they like everyone, but I am sure happy that they came up with useful ways to produce radioactive compounds just for me.\nThanks bees!",
+      "desc:8": "蜜蜂与各种自然元素、能量产生联结的倾向真是不可思议。虽然不认为单只蜜蜂能算得上聪明，但作为群体却能做出复杂决策，而且它们好像挺喜欢我的！\n好吧，可能它们对谁都这样，但我真的很高兴它们专门为我捣鼓出了生产放射性化合物的实用方法。\n谢啦，蜜蜂！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:radiating_callstone"
       },
-      "name:8": "Radiating Bees"
+      "name:8": "放射性蜜蜂"
     }
   },
   "questID:3": 178,

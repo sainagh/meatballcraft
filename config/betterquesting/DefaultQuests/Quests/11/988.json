@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFarm some EMC!\n\n§fPut a massive amount of EMC into an extra large graphite electrode and it becomes practicly unbreakable! I felt almost no echo of this ones creation, it must have been mass-produced or something. I dont have much use for this by itself but maybe i could use its unbreakable properties.",
+      "desc:8": "§7§o刷些EMC！\n\n§f将巨量EMC注入大块石墨电极后，它竟变得坚不可摧！几乎感知不到它的创造回响，想必是批量生产的产物。单就它本身而言用途有限，但或许能利用其超高的耐久。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "immersiveengineering:graphite_electrode",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Doped Electrode"
+            "Name:8": "掺杂电极"
           },
           "ench:9": {
             "0:10": {
@@ -26,7 +26,7 @@
           }
         }
       },
-      "name:8": "Doped Electrode"
+      "name:8": "掺杂电极"
     }
   },
   "questID:3": 988,
@@ -40,9 +40,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oDoped Electrode§r"
+              "Name:8": "§6§o掺杂电极§r"
             },
             "ench:9": {
               "0:10": {

@@ -177,7 +177,7 @@
 		{"key": "divinerpg:rive.desc", "value": "使工具可破坏3x3x魔咒等级的方块"},
 		{"key": "divinerpg:rive.descwarn", "value": "§c警告：不要用来破坏龙箱，会导致其丢失内容物"},
 		{"key": "draconicevolution:enchant_reaper.desc", "value": "增加怪物灵魂的掉落概率（每级增加0.1%%怪物灵魂掉落概率，0.125%%被动生物灵魂掉落概率）"},
-		{"key": "draconicevolution:enchant_reaper.desc2", "value": "飞龙武器自带I级附魔效果，觉醒龙武器自带II级附魔效果，神龙之力权杖自带III附魔效果，可与魔咒效果叠加"},
+		{"key": "draconicevolution:enchant_reaper.desc2", "value": "飞龙武器自带I级附魔效果，觉醒龙武器自带II级附魔效果，神龙之力权杖自带III级附魔效果，可与魔咒效果叠加"},
 		{"key": "ebwizardry:flaming_weapon.desc", "value": "暂时提供额外火焰伤害，点燃敌人。只能通过火焰灌注法术获得"},
 		{"key": "ebwizardry:freezing_weapon.desc", "value": "暂时提供额外冰霜伤害。只能通过冰霜灌注法术获得"},
 		{"key": "ebwizardry:frost_protection.desc", "value": "减少来源于冰系魔法的冻伤伤害"},

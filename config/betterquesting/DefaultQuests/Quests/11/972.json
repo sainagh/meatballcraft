@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oProgress through abyssalcraft.",
+      "desc:8": "§7§o发展深渊国度。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:soulreaper",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Vrangr"
+            "Name:8": "乌拉戈尔"
           },
           "ench:9": {
             "0:10": {
@@ -38,7 +38,7 @@
           }
         }
       },
-      "name:8": "Vrangr"
+      "name:8": "乌拉戈尔"
     }
   },
   "questID:3": 972,
@@ -52,9 +52,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oVrangr§r"
+              "Name:8": "§6§o乌拉戈尔§r"
             },
             "ench:9": {
               "0:10": {

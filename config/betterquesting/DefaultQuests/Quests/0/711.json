@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The alliance between the bees and the Realmshifters is incredible. Both people are extremely selfless, and this is quite moving. For them, the giving up of the self for the sake of what is good is a necessary sacrifice for a better future. They are weak by themselves, and yet, with selfless cooperation, they have been able to permeate the territories of the invaders of Terra.\nAfter having realized the ineffectiveness of the Polyphemus plan, of transforming their members into rage-filled, but comparatively weak, one-eyed berserkers, they started expanding their network of information.\nThe ability to travel anywhere is a useful one, and it has allowed this alliance to form a powerful network of spies, too weak to manipulate events at large, but also capable of remaining hidden from pretty much everyone else involved in this war.\nDue to their lack of power, they were awaiting for someone with eough military power to make use of their intel. After passing some sort of test, I guess I am that military power!",
+      "desc:8": "蜜蜂和维境跃迁者的联盟令人惊叹。这两个族群都将无私精神发挥到极致，其境界令人动容。对他们而言，为崇高理想牺牲小我，是通向美好未来的必由之路。尽管各自势单力薄，但凭借精诚合作，他们竟成功渗透进了侵略者的疆域。\n在意识到波吕斐摩斯计划（将成员改造成满腔狂怒却相对弱小的独眼狂战士）收效甚微后，他们开始全力拓展情报网络。\n空间穿梭能力成为了绝佳助力，使联盟得以建立起庞大的间谍体系，虽无力左右大局，却能在这场战争的各方势力间完美隐匿。\n正因缺乏力量，他们始终在等待能善用情报的强者。而通过了某种试炼的我，似乎正是他们期盼的强援！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:hator_spinel"
       },
-      "name:8": "Secrets of Hator"
+      "name:8": "哈托尔的秘密"
     }
   },
   "questID:3": 711,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:hator_spinel"
             },
-            "TrophyName:8": "The Path of Polyphemus",
+            "TrophyName:8": "波吕斐摩斯之路",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

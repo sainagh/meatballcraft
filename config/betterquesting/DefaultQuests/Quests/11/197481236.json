@@ -17,9 +17,9 @@
           "Unbreakable:1": 1,
           "display:10": {
             "Lore:9": {
-              "0:8": "§d§oSuper-Enchanted§r"
+              "0:8": "§d§o超限附魔§r"
             },
-            "Name:8": "§6§oDragnipur§r"
+            "Name:8": "§6§o噬灵者§r"
           },
           "ench:9": {
             "0:10": {
@@ -45,7 +45,7 @@
           }
         }
       },
-      "name:8": "Dragnipur"
+      "name:8": "噬灵者"
     }
   },
   "questID:3": 197481236,
@@ -60,9 +60,9 @@
             "Unbreakable:1": 1,
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oDragnipur§r"
+              "Name:8": "§6§o噬灵者§r"
             },
             "ench:9": {
               "0:10": {

@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSlay corallus.",
+      "desc:8": "§7§o击杀珊瑚守卫者。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:tidal_greatblade",
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Tidal Greatblade"
+      "name:8": "潮汐长刀"
     }
   },
   "questID:3": 969,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oTidal Greatblade§r"
+              "Name:8": "§6§o潮汐长刀§r"
             },
             "ench:9": {
               "0:10": {

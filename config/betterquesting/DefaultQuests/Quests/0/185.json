@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Rockets are cool and all, but for some more stable space experiments I feel like a space station would be more feasible.",
+      "desc:8": "火箭是很酷啦，但我觉得太空站更适合某些更稳定的太空实验。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "advancedrocketry:stationbuilder"
       },
-      "name:8": "Space Station Assembler"
+      "name:8": "太空站组装机"
     }
   },
   "questID:3": 185,
@@ -34,7 +34,7 @@
               "Damage:2": 0,
               "id:8": "advancedrocketry:warpcore"
             },
-            "TrophyName:8": "Warp Speed!",
+            "TrophyName:8": "跃迁极速！",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

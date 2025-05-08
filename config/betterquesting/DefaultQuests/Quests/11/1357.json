@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§o§7§oExplore myrmex. §7§oComplete the living myrmitite puzzle.",
+      "desc:8": "§o§7§o探索恐蚁界。§7§o完成活性恐蚁金属谜题。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:skeletal_sword",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "BONE STORM"
+            "Name:8": "白骨风暴"
           },
           "ench:9": {
             "0:10": {
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "BONE STORM"
+      "name:8": "白骨风暴"
     }
   },
   "questID:3": 1357,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oBONE STORM§r"
+              "Name:8": "§6§o白骨风暴§r"
             },
             "ench:9": {
               "0:10": {

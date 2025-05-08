@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oObtained from the aether and the gravitite enchanter!\n\n§fDespite being completely made out of ice, I don\u0027t think I can break this ring unless I purge all magic from it. doesn\u0027t seem to be getting any warmer either.",
+      "desc:8": "§7§o通过天境和重力晶附魔器获得！\n\n§f尽管这枚戒指完全由寒冰构成，但我觉得仅凭蛮力似乎无法破坏它——除非先将其中的魔力彻底驱散。更诡异的是，即便脱离魔法影响，它那彻骨寒意仍未消散分毫。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aether_legacy:ice_ring",
@@ -26,7 +26,7 @@
           }
         }
       },
-      "name:8": "Ice Ring"
+      "name:8": "寒冰戒指"
     }
   },
   "questID:3": 951,
@@ -40,9 +40,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oIce Ring§r"
+              "Name:8": "§6§o寒冰戒指§r"
             },
             "ench:9": {
               "0:10": {

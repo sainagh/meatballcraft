@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The type of coal found on Terra is great! I can use it to make devices that very efficiently store material. I\u0027ll call them Danks...\nThe stronger the trim used to make danks, the better these devices work.\nTo be completely honest, anything less than gold is kinda mediocre...",
+      "desc:8": "泰拉上的这种煤炭实在是太棒了！我能用它制作出高效的存储装置。我称之为Dank……\n构成Dank的边框越高级，存储效果越好。\n老实说，低于黄金级别的都不太行……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "danknull:dank_null_3"

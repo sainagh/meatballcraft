@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This is good news! Some of the testificated dared to explore more! \nThe coordinates for this wormhole will bring me to a second buffer world.\nThis world appears to be the place where the testificates learned of astral sorcery. Long ago, the now extinct people of Diamerisma travelled to Terra through gateways, and revealed their secrets to those that ended up becoming the cultist of the Aether sky islands. Interestingly enough, those same power that got the cult banned is now freely used on Terra to protect the remaining villagers using iron golems.\nAfter their more recnt retaliation, the forces of Terra ended up being defeated in Diamerisma, but they were able to get their hands on useful intelligence, the nature of this \u0027recursion\u0027 I have been hearing about.\nThis power allows for masters of this art to be essentially deities, having the ability to exist in multiple places at once, and to escape death.\nI do wonder if I will ever be able to escape my own Recursion prison and be able to unlock such powers...\n\n§7§oThanks to lulu for the Iron Golem lore!",
+      "desc:8": "真是个好消息！一些泰斯提斐人敢于深入探索！\n该虫洞的坐标将带我前往第二个缓冲世界。\n泰斯提斐人似乎是这个世界习得的星辉魔法。很久以前，现已灭绝的地方界人通过传送门来到泰拉，并向天境空岛邪教徒的前身传授了他们的奥秘。有趣的是，当年导致邪教遭禁的同种力量，如今在泰拉被自由运用以创造铁傀儡保护残余泰斯提斐人。\n在最近的复仇行动中，泰拉势力虽在地方界战败，却成功获取了关键情报——关于我听闻已久的“递归”本质。\n掌握这种技艺者近乎神明，能够同时存在于多处，并逃脱死亡。\n我不禁自问，何时才能挣脱自身的递归牢笼，解锁这等伟力……\n\n§7§o感谢lulu提供的铁傀儡背景设定！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:diamerisma_warper"
       },
-      "name:8": "Experiment #2"
+      "name:8": "实验 #2"
     }
   },
   "questID:3": 177,

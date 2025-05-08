@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBy the way, infinite AE2 range can be obtained placing a Quantum Link Card in a Quantum Ring.\n\n§fThe druids from the Betweenlands do have some advanced knowledge of alchemy and equivalency.\nDeep Blue Matter is a more powerful, and more expensive, version of red matter, a vessel of equivalency in large amounts.\nIt\u0027s nature seems to directly originate from the higher dimensions of the betweenlands.\nMy ability to open wormholes originates from the higher dimensions where the Betweenlands reside, so I guess it makes sense that I became aware of the methods of creating Deep Blue Matter after working on my own wormholes.\nThis is not the first time I have witnessed interactions between various types of magic, suggesting that the fields they revolve around may share some origins. \nIs this why I can perform so many different types? Not everyone can, though, so there may be something else going on...",
+      "desc:8": "§7§o顺带一提，可在量子环中放入量子链接卡来获得无限AE访问距离。\n\n§f交错次元的德鲁伊确实掌握着更高深的炼金术与等价交换知识。\n深蓝物质是红物质的强化版——一种能承载更多EMC的容器，但造价也更为昂贵。\n其本质似乎直接源自交错次元的更高维度。\n我开启虫洞的能力本就源自交错次元所在的维度，因此研究虫洞时领悟深蓝物质的制造方法倒也合乎逻辑。\n这已不是我第一次见证不同类型魔法间的共鸣，或许其本源存在共通之处。\n难道这就是我能驾驭诸多种类魔法的原因？不过并非人人皆可如此，或许另有隐情……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:blue_matter"
       },
-      "name:8": "Advanced Equivalency"
+      "name:8": "高级等价学"
     }
   },
   "questID:3": 75,

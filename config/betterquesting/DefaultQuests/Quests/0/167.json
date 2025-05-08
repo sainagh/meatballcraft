@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo make easier fission casings!\n\n§fJust whenever I thought things were starting to make sense, here is something I do not understand at all!\nWhat is going on with magic? My infinite rebirth, my recursion, can also be used to make radioactive compounds, ones that should be impossible to stabilize.\nAnd it all comes back to meatballs, this is just silly.\nA truth that disagrees with current understanding is a sign, though, a sign that it may be time to start looking at a bigger picture.\nString theory, the scientific studies that started all of this, were born out of a desire to unify, to connect things. So far I have treated the branches of magic as independent, and deemed their interactions as the exception. But what if these interactions instead point towards a unity.\nThis recursion, the power I was given without choice, is tied to atomic stability. The field of aura that generates water is a life source for botanical magic. The craziness of the abyssal realms permeates the Crimson Cult. The links are everywhere, a unified theory must exist.",
+      "desc:8": "§7§o更好的裂变外壳配方！\n\n§f就在我刚刚以为一切开始变得合理时，突然又出现了完全无法理解的事物！\n这魔法究竟是什么情况？我无限重生的能力，这种递归之力，居然能制作本不可能稳定存在的放射性化合物。\n而这一切的竟又与肉丸有关，简直荒谬绝伦。\n但悖逆常识的真相恰是启示，是时候用更宏大的视角审视万物了。\n引发这一切的弦理论，最初正是源于统一万物的渴望。长久以来，我都将各类魔法视为独立的分支，把它们的相互作用当作特例。但若这些交织现象恰恰指向某种统一性呢？\n这种强加于我的递归之力与原子稳定性相关。生成水的灵气场滋养着植物魔法。深渊领域的疯狂渗透进血腥教团。万物皆有关联，必然存在某种大一统理论。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:fission_block"
       },
-      "name:8": "Don\u0027t think about it too much..."
+      "name:8": "别想太多……"
     }
   },
   "questID:3": 167,

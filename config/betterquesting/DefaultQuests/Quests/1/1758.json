@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oShielding can be added to armor to gain radiation protection!",
+      "desc:8": "§7§o辐射屏蔽板可加装在盔甲上，以获得辐射抗性！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:part"
       },
-      "name:8": "Radiation Protection"
+      "name:8": "辐射抗性"
     }
   },
   "questID:3": 1758,

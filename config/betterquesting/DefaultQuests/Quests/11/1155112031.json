@@ -17,9 +17,9 @@
           "Unbreakable:1": 1,
           "display:10": {
             "Lore:9": {
-              "0:8": "§d§oSuper-Enchanted§r"
+              "0:8": "§d§o超限附魔§r"
             },
-            "Name:8": "§6§oCallandor§r"
+            "Name:8": "§6§o凯兰铎§r"
           },
           "ench:9": {
             "0:10": {
@@ -33,7 +33,7 @@
           }
         }
       },
-      "name:8": "Callandor"
+      "name:8": "凯兰铎"
     }
   },
   "questID:3": 1155112031,
@@ -48,9 +48,9 @@
             "Unbreakable:1": 1,
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oCallandor§r"
+              "Name:8": "§6§o凯兰铎§r"
             },
             "ench:9": {
               "0:10": {

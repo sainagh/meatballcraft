@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I was about to say, in a universe so full of weird magic, mighty powers, and great wars, I really haven\u0027t seen that many guns.\nAnd, of course, the first society of gun lovers I meet are the Bees of Falacer! I gotta say, I think I\u0027ll still take a magic wand over a gatling gun, but it\u0027s good to know that there are people (err, bees) that appreciate a good firearm.\nWell, appreciation is an understatement, they turned a whole planet into a gun market, and they really seem to be loving it. \nBees are amazing, I gotta say! They seem to be running this solar system, and yet they still manage to be friendly, and just straight up nice. I wonder what their relationship with the invaders of Terra may be. The bees I have met have been very friendly, but not necessarily prodigal of information. It would be good to know where they stand in this conflict.",
+      "desc:8": "我正想说，在一个充斥着怪异魔法、庞然伟力和宏大战争的宇宙里，我居然没怎么见过有人用枪。\n而自然，我遇到的首个枪械爱好者群体就是法拉瑟的蜜蜂！不得得承认，尽管我可能仍会选择魔杖而非加特林，但知道有人（呃，蜜蜂）能欣赏优质枪械还是令人欣慰的。\n不过用“欣赏”来形容都有点太轻了，它们把整颗星球变成了枪械市场，看起来乐在其中。\n不得不说，蜜蜂真是不可思议！它们似乎掌管着整个索尔星系，却依然保持着友善亲切的本性。我很好奇它们与侵略泰拉的入侵者之间有什么关系。目前为止，我遇到的蜜蜂都很友善，但未必会轻易透露情报。若能知晓它们在这场冲突中的立场，那将大有裨益。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:feldspar"
       },
-      "name:8": "Warmonger Bees"
+      "name:8": "蜜蜂战争贩子"
     }
   },
   "questID:3": 190,

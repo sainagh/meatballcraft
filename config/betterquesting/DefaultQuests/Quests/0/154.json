@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe quantum Condenser multiblock is a less laggy alternative to the Quantum Compressor single block machine.\n\n§fWell...now that I started playing with fission it is only natural that I\u0027d eventually get to fusion, which should be a good, yet expensive, way of generating matter according to my needs.",
+      "desc:8": "§7§o量子聚合机多方块结构相较于量子压缩机，更不会造成卡顿。\n\n§f嗯……既然我已经开始摆弄裂变，那自然而然就会转向聚变了。这确实是种能按需生成物质的不错方法，虽然成本高昂了点。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "techreborn:fusion_control_computer"
       },
-      "name:8": "Hot Fusion"
+      "name:8": "热核聚变"
     }
   },
   "questID:3": 154,

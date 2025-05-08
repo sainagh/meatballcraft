@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is a repeatable quest, to protect yourself in case of radiation accidents!",
+      "desc:8": "§7§o本任务可重复完成，用于处理意外突发的辐射事件！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:rad_x"
       },
-      "name:8": "Radiation Protection",
+      "name:8": "辐射保护",
       "repeattime:3": 1000
     }
   },

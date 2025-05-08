@@ -16,9 +16,9 @@
         "tag:10": {
           "display:10": {
             "Lore:9": {
-              "0:8": "§d§oSuper-Enchanted§r"
+              "0:8": "§d§o超限附魔§r"
             },
-            "Name:8": "§6§oAnduril§r"
+            "Name:8": "§6§o安督利尔§r"
           },
           "ench:9": {
             "0:10": {
@@ -32,7 +32,7 @@
           }
         }
       },
-      "name:8": "Anduril"
+      "name:8": "安督利尔"
     }
   },
   "questID:3": 1294633522,
@@ -46,9 +46,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oAnduril§r"
+              "Name:8": "§6§o安督利尔§r"
             },
             "ench:9": {
               "0:10": {

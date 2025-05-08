@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "If makinm matter that\u0027s infused with mythic magic requires lots of energy, it would make sense that I can make lots of energy from mythic matter. Right?\nI\u0027ll start with recycling the residies of mythic matter that my miners produce, that way I\u0027ll recover some of the lost energy.",
+      "desc:8": "既然用神话魔法灌注物质需要大量能量，那么从神话物质中获取能量似乎说得通。对吧？\n我将从回收采掘机生产的神话物质残留物开始，这样一来就能回收部分损失的能量。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:token_totem"
         }
       },
-      "name:8": "Token Totem"
+      "name:8": "代币图腾"
     }
   },
   "questID:3": 182,

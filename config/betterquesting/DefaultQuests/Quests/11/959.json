@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSlay tier 1 gaia guardian, farm gaia essence, and make the gaia altar.\n\n§fWhoever made this made a lot of it; I could barely figure out its full name, and that was the only information I could gleam from the echo. Judging by the materials used to make it, I\u0027d say that it was forged by the Asgardians to fight against the horde.",
+      "desc:8": "§7§o击杀1级盖亚守护者，获取盖亚之魂，并建造盖亚祭坛。\n\n§f此物的制造者显然进行了大批量生产；我几乎无法辨认它的完整名称，而这已是我能从残存回响中拼凑出的全部线索。从锻造材质判断，我推测其应是阿斯加德人为抗击部落所铸。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:thundersword",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Thunderfury, Blessed Blade of the Windseeker"
+            "Name:8": "雷霆之怒，逐风者的祝福之剑"
           },
           "ench:9": {
             "0:10": {
@@ -42,7 +42,7 @@
           }
         }
       },
-      "name:8": "Thunderfury, Blessed Blade of the Windseeker"
+      "name:8": "雷霆之怒，逐风者的祝福之剑"
     }
   },
   "questID:3": 959,
@@ -56,9 +56,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oThunderfury, Blessed Blade of the Windseeker§r"
+              "Name:8": "§6§o雷霆之怒，逐风者的祝福之剑§r"
             },
             "ench:9": {
               "0:10": {

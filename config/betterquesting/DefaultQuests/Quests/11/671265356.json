@@ -16,9 +16,9 @@
         "tag:10": {
           "display:10": {
             "Lore:9": {
-              "0:8": "§d§oSuper-Enchanted§r"
+              "0:8": "§d§o超限附魔§r"
             },
-            "Name:8": "§6§oLightbringer§r"
+            "Name:8": "§6§o光明使者§r"
           },
           "ench:9": {
             "0:10": {
@@ -28,7 +28,7 @@
           }
         }
       },
-      "name:8": "Lightbringer"
+      "name:8": "光明使者"
     }
   },
   "questID:3": 671265356,
@@ -42,9 +42,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oLightbringer§r"
+              "Name:8": "§6§o光明使者§r"
             },
             "ench:9": {
               "0:10": {

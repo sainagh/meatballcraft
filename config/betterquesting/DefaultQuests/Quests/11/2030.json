@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oComplete the anomaly detectors.",
+      "desc:8": "§7§o完成异常检测器谜题。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicwonders:primal_destroyer",

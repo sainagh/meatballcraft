@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGet your hands on some materials from the third mythic shell.",
+      "desc:8": "§7§o搞些第三神话叠壳的材料。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "arcane_essentials:master_necromancy_sword",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Necromancy Flamberg"
+            "Name:8": "死灵焰形剑"
           },
           "ench:9": {
             "0:10": {
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Necromancy Flamberg"
+      "name:8": "死灵焰形剑"
     }
   },
   "questID:3": 962,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oNecromancy Flamberg§r"
+              "Name:8": "§6§o死灵焰形剑§r"
             },
             "ench:9": {
               "0:10": {

@@ -17,9 +17,9 @@
           "Unbreakable:1": 1,
           "display:10": {
             "Lore:9": {
-              "0:8": "§d§oSuper-Enchanted§r"
+              "0:8": "§d§o超限附魔§r"
             },
-            "Name:8": "§6§oFemale Choedan Kal§r"
+            "Name:8": "§6§o女性珂丹卡§r"
           },
           "ench:9": {
             "0:10": {
@@ -33,7 +33,7 @@
           }
         }
       },
-      "name:8": "Choedan Kal"
+      "name:8": "珂丹卡"
     }
   },
   "questID:3": 190463592,
@@ -48,9 +48,9 @@
             "Unbreakable:1": 1,
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oMale Choedan Kal§r"
+              "Name:8": "§6§o男性珂丹卡§r"
             },
             "ench:9": {
               "0:10": {
@@ -71,9 +71,9 @@
             "Unbreakable:1": 1,
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oFemale Choedan Kal§r"
+              "Name:8": "§6§o女性珂丹卡§r"
             },
             "ench:9": {
               "0:10": {

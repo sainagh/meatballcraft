@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The power of Deep Blue matter allows for the use of alchemical items without the need of a user (I.E. me).\nOf course, this is pretty handy!\nThis points to the fact that even alchemy, which appeared to be directly bound to my person, originates from a field that exists in space, otherwise such a device could never work.\nThis makes me think, it probably means that all magic is encoded in space. Not just the fields that I have discovered so far, like aura or starlight. ",
+      "desc:8": "深蓝物质的力量能令炼金器具无需使用者（也就是我）即可自主运作。\n当然，这简直太方便了！\n这说明连看似与我个人绑定的炼金术，实则也源自某种存在于空间的场域，否则这类装置根本不可能运转。\n我不由深思，或许所有魔法都以编码形式存在于空间之中。不止是我已发现的灵气场、星能场。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:dm_pedestal"

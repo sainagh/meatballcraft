@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Well, First time seeing the extent of the effects of this \u0027recursion\u0027...\nIf whatever process that leads to recursion is not done correctly, the result is an extremely mighty \u0027berserk\u0027...\nAnd when the stakes are high, this can be used as a weapon...\nIn a ditch attempt to reclaim the territories of Furatto, the leaders of the now local testificate group unleashed the ender chicken. This drove the bulk of shyre forces away, but also made the planet nearly unlivable.\nTerra Chickens, thanks to the influence of dimensional shards, are able to \u0027absorb\u0027 matter.\nThis is similar to my attitude towards alchemy, which I am starting to believe to be a human-only trait. Within me, I can store matter as EMC.\nChickens are similar, but they \u0027become what they absorb\u0027.\nAre there dimensional shards on earth? At home? That would explain why I can do such things...\nOr maybe I\u0027m overthinking it...\nRegardless, I guess now I know why the conflict between the Twilight Horde and Shyre Empire hasn\u0027t escalated. Nobody wants to cause a chicken-level threat, or something even more destructive.",
+      "desc:8": "嗯，第一次见识到这种“递归”现象的波及范围……\n如果触发递归的过程稍有偏差，就会产生极其强大的“狂暴体”...\n在生死存亡之际，这甚至可以当作武器使用……\n为了夺回地盘界的领土，当地的泰斯提斐人领袖孤注一掷释放了末影鸡。虽然成功击退了塞尔瑞帝国的主力部队，但也让整个星球濒临崩溃。\n在维度碎片的影响下，泰拉的鸡能够“吸收”物质。\n这与我运用炼金术的方式类似——物质转化为EMC存储于体内——我起初怀疑这种能力是人类独有的天赋。\n但土灵鸡不同，它们会与吸收的物质“同化”。\n地球上是否也存在维度碎片？比如我的家乡？这或许能解释我为何拥有这种能力……\n也可能只是我多虑了……\n无论如何，现在我明白暮光部落与塞尔瑞帝国为何始终克制冲突了。没人想引发鸡级威胁，或更可怕的灾难。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:ender_feather"
       },
-      "name:8": "Ender Feather"
+      "name:8": "末影羽毛"
     }
   },
   "questID:3": 181,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:ender_feather"
             },
-            "TrophyName:8": "Ender Chicken Slayer",
+            "TrophyName:8": "末影鸡屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

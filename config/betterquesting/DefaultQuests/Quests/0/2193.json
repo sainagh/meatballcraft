@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Something should be noted about the God of the Realmshifters. A figure of Trinity that even the bees revere, starkly resembling the Christian God on Earth. This God seems to be at the base of the culture of selflessness that guides Realmshifter civilization.\nThey claim their alchemical powers, which allowed them to create fiery pyrite, come from this Trinity.\nI myself have asked myself where my affinity to magic comes from, especially with respect to alchemy, which I have seen nobody else perform outside of the Realmshifters.\nTestificates can be trained in all magical arts, but to them, alchemy, the principles of equivant exchange, are nothing but unreachable mysteries. To me it comes easy, to them, it is impossible. It is undeniable that it requires some sort of \u0027gift\u0027, but where does this gift come from?\nWhen I asked the Realmshifters about this, I did not get an answer. But they all smiled, and laughed with joy.",
+      "desc:8": "关于维境跃迁者信仰的神明，有个耐人寻味的现象值得深究。那个被奉为三一的存在——即便是蜜蜂也对其顶礼膜拜——竟与地球的基督教上帝惊人地相似。似乎正是这尊神明铸就了领域穿梭者文明中无私利他的基石。\n他们声称，那种能创造炽热黄铁矿的炼金之力，正是源自三一的恩赐。\n这让我不禁审视自身：为何我能轻易驾驭魔法，尤其是炼金术？毕竟除维境跃迁者外，我再未见过其他种族施展此技。\n泰斯提斐人虽可修习各类魔法，但等价交换的炼金法则于他们而言，始终是遥不可及的奥秘。于我却是信手拈来。这差异显然昭示着某种“天赋”的存在，只是这天赋源头何在？\n当我向维境跃迁者探寻答案时，他们只是相视而笑，欢欣之情溢于言表。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:sparkled_oak_planks"
       },
-      "name:8": "Sparkled"
+      "name:8": "闪光"
     }
   },
   "questID:3": 2193,

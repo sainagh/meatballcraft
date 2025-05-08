@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCollect the elder coins, they can all be found in the overworld.\n\n§fEngraving the sigls of the great old ones and the outer gods onto a divine shickaxe with pyrite grants it a fraction (of a fraction of a refection of a..) of their destructive might! \nThe echo of this one\u0027s creatiton is very faint, this power must have been used quite a few times. \nAll i can get out of it is that it was used by Terra to mine in the deep dark during a past war, when the testificates first became aware of dimensional shards.\nIt must have been a dire situation for Terra to use the might of the elder ones in their mining tools.",
+      "desc:8": "§7§o收集古神铸币，它们均可在主世界发现。\n\n§f将旧日支配者和外神的符印以黄铁矿篆刻于神圣镐上，可使其获得一丝（的一丝的一丝的……）祂们的毁灭伟力！\n此镐的创造回响已极其微弱，说明这股力量必然被多次使用过。\n我唯一能感知到的信息是——在远古战争中，泰拉曾用它在漆黑之地开采矿物，泰斯提斐人就是在那时首次察觉到了维度碎片的存在。\n连采矿工具都要动用旧日支配者的威能，泰拉当时的处境想必万分危急。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:divine_shickaxe",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Direpick"
+            "Name:8": "神速镐"
           },
           "ench:9": {
             "0:10": {
@@ -26,7 +26,7 @@
           }
         }
       },
-      "name:8": "Direpick"
+      "name:8": "神速镐"
     }
   },
   "questID:3": 987,
@@ -40,9 +40,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oDirepick§r"
+              "Name:8": "§6§o神速镐§r"
             },
             "ench:9": {
               "0:10": {

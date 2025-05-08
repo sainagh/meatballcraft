@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAutomating essentia is a good idea by now! The quest can be compelted using any pods!\n\nCheck out the explanation items for setup ideas!\n\n§fMagic, once so esotheric, is starting to make a bit more sense! The laws of Thaumaturgy, now that they are understandable, can be used in similar ways to other natural laws, to make machines.\nThe more machines I can make, the less manual labor I will have to deal with!",
+      "desc:8": "§7§o推荐从现在开始自动化源质！可使用任意魔力豆荚完成此任务！\n\n查看说明用物品以了解如何实现！\n\n§f魔法，曾经何等玄奥，如今终于显露出其逻辑脉络！理解神秘学法则后，便可像其他自然法则一样用以制造机器。\n制造的机器越多，需要亲力亲为的部分就越少！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumadditions:vis_pod",
@@ -12,7 +12,7 @@
           "Aspect:8": "aer"
         }
       },
-      "name:8": "Good to Automate Essentia"
+      "name:8": "源质自动化真好"
     }
   },
   "questID:3": 2265,

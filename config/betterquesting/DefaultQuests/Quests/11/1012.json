@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oComplete the europa puzzle, and the second mythic shell puzzle.",
+      "desc:8": "§7§o完成欧罗巴，以及第二神话叠壳谜题。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:icicle_bow",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Eurobeat Bow"
+            "Name:8": "欧陆节拍弓"
           },
           "ench:9": {
             "0:10": {
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Eurobeat Bow"
+      "name:8": "欧陆节拍弓"
     }
   },
   "questID:3": 1012,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oEurobeat Bow§r"
+              "Name:8": "§6§o欧陆节拍弓§r"
             },
             "ench:9": {
               "0:10": {

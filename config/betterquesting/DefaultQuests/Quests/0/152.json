@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Cuz rockets are cool!\n\nThe divine star was cool and all, but I cannot fully understand it.\nThe shyre empire\u0027s wormhole capabilities seem to be driven by gravity, which, to us humans, is still a great mystery. It emerges at some point from matter, but how? Why?\nI think it\u0027s time to understand more about it...\nAnd to do this, I believe it\u0027s important to discover how Terra\u0027s wacky gravity works by looking at it from a distance.\nIt\u0027s rocket time!\n§7§o\nThanks to Kdog0421 for the meme subtitles!",
+      "desc:8": "因为火箭很酷！\n\n神圣之星神异非凡，我始终无法完全理解其机理。\n塞尔瑞帝国的虫洞技术似乎由引力驱动，而引力对人类而言仍是未解之谜。它似乎源自物质本身，但究竟如何产生？为何存在？\n是时候深入探究了……\n为此，我决定从远距离观测，破解泰拉星球诡异引力现象的奥秘。\n火箭时间！\n§7§o\n感谢Kdog0421提供的梗标题！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "advancedrocketry:rocketbuilder"
       },
-      "name:8": "Searching for answers"
+      "name:8": "探求答案"
     }
   },
   "questID:3": 152,
@@ -38,7 +38,7 @@
               "Damage:2": 0,
               "id:8": "advancedrocketry:nuclearrocketmotor"
             },
-            "TrophyName:8": "First Rocket!",
+            "TrophyName:8": "第一支火箭！",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

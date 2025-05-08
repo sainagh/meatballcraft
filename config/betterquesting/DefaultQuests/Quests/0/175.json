@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Radiation bad, lets not make it!\nGoing forward, I forsee myself doing lots and lots of radioactive reactions, I better start building some preemptive infrastructure.",
+      "desc:8": "辐射有害，还是别碰为好！\n不过，我预见到自己在未来会进行大量放射性反应实验，得提前建造些防护设施了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:radiation_scrubber"
       },
-      "name:8": "Screw radiation!"
+      "name:8": "去他的辐射！"
     }
   },
   "questID:3": 175,

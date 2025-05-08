@@ -16,9 +16,9 @@
         "tag:10": {
           "display:10": {
             "Lore:9": {
-              "0:8": "§d§oSuper-Enchanted§r"
+              "0:8": "§d§o超限附魔§r"
             },
-            "Name:8": "§6§oBlade of the First King§r"
+            "Name:8": "§6§o初王之刃§r"
           },
           "ench:9": {
             "0:10": {
@@ -28,7 +28,7 @@
           }
         }
       },
-      "name:8": "Blade of the First King"
+      "name:8": "初王之刃"
     }
   },
   "questID:3": 1430858195,
@@ -42,9 +42,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oBlade of the First King§r"
+              "Name:8": "§6§o初王之刃§r"
             },
             "ench:9": {
               "0:10": {
