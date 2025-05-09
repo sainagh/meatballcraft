@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "whisper_of_omtose_phellack"
         }
       },
-      "name:8": "New Quest"
+      "name:8": "来自欧姆托斯・费拉克的明信片"
     }
   },
   "questID:3": 1342545885,

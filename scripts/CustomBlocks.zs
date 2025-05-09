@@ -2669,3 +2669,21 @@ twentyblocks.setToolClass("pickaxe");
 twentyblocks.setBeaconBase(true);
 twentyblocks.setToolLevel(3);
 twentyblocks.register();
+
+
+var wormholefieldmodule = VanillaFactory.createBlock("wormhole_field_module", <blockmaterial:iron>);
+wormholefieldmodule.setBlockHardness(1.0);
+wormholefieldmodule.setBlockResistance(2.5);
+wormholefieldmodule.setToolClass("pickaxe");
+wormholefieldmodule.setBeaconBase(true);
+wormholefieldmodule.setToolLevel(3);
+wormholefieldmodule.register();
+
+
+var fabricoftheorb = VanillaFactory.createBlock("fabric_of_the_orb", <blockmaterial:iron>);
+fabricoftheorb.setBlockHardness(1.0);
+fabricoftheorb.setBlockResistance(2.5);
+fabricoftheorb.setToolClass("pickaxe");
+fabricoftheorb.setBeaconBase(true);
+fabricoftheorb.setToolLevel(3);
+fabricoftheorb.register();

@@ -25,6 +25,8 @@ mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:soul_accumulator_controller>);
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:matter_reprocessor_controller>);
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:divine_combiner_controller>);
+mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:bee_stargate_controller>);
+mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:wormhole_field_generator_controller>);
 
 
 
@@ -70,6 +72,7 @@ mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:everburning_forge_controller>);
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:forge_of_the_wyvern_controller>);
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:eldritch_impetus_catalyzer_controller>);
+mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:xp_assimilator_controller>);
 
 
 

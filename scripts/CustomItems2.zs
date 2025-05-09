@@ -2878,4 +2878,35 @@ definedbar.maxStackSize = 64;
 definedbar.beaconPayment = false;
 definedbar.register();
 
+var saltofknowledge = VanillaFactory.createItem("salt_of_knowledge");
+saltofknowledge.maxStackSize = 64;
+saltofknowledge.beaconPayment = false;
+saltofknowledge.register();
+
+
+var clearingtaint = VanillaFactory.createItem("clearing_taint");
+clearingtaint.maxStackSize = 64;
+clearingtaint.beaconPayment = false;
+clearingtaint.register();
+
+var lostcitiesworldgen = VanillaFactory.createItem("lost_cities_worldgen");
+lostcitiesworldgen.maxStackSize = 64;
+lostcitiesworldgen.beaconPayment = false;
+lostcitiesworldgen.register();
+
+
+var experienceconfigurator = VanillaFactory.createItem("experience_configurator");
+experienceconfigurator.maxStackSize = 64;
+experienceconfigurator.beaconPayment = false;
+experienceconfigurator.register();
+
+var chargedsignalum = VanillaFactory.createItem("charged_signalum");
+chargedsignalum.maxStackSize = 64;
+chargedsignalum.beaconPayment = false;
+chargedsignalum.register();
+
+var superchargedsignalum = VanillaFactory.createItem("supercharged_signalum");
+superchargedsignalum.maxStackSize = 64;
+superchargedsignalum.beaconPayment = false;
+superchargedsignalum.register();
 

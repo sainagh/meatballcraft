@@ -572,6 +572,20 @@ fishinglootextrafeesh.addItemEntry(<aoa3:raw_sapphire_strider>, 15);
 fishinglootextrafeesh.addItemEntry(<aoa3:raw_dark_hatchetfish>, 15);
 fishinglootextrafeesh.addItemEntry(<aoa3:raw_sapphire_strider>, 15);
 fishinglootextrafeesh.addItemEntry(<aoa3:raw_fingerfish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_candlefish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_crimson_skipper>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_crimson_stripefish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_fingerfish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_golden_gullfish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_ironback>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_limefish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_pearl_stripefish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_rainbowfish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_razorfish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_rocketfish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_sailback>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_turquoise_stripefish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_violet_skipper>, 15);
 
 
 val hellspot = LootTweaker.getTable("aoa3:entities/mobs/nether/hellspot");
@@ -602,4 +616,3 @@ endertripletshard.addItemEntry(<thaumictinkerer:kamiresource:0>, 5);
 val lostcitiesloot = LootTweaker.getTable("lostcities:chests/lostcitychest");
 val lostcitieslootmeatball = lostcitiesloot.addPool("lostcitieslootmeatball", 2, 3, 0, 0);
 lostcitieslootmeatball.addItemEntry(<contenttweaker:sentient_meatball>, 5);
-

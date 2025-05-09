@@ -425,12 +425,17 @@ addController(<modularmachinery:dyson_abater_controller>, "modularmachinery:dyso
 
 addController(<modularmachinery:black_hole_juicer_controller>, "modularmachinery:black_hole_juicer");
 
+addController(<modularmachinery:xp_assimilator_controller>, "modularmachinery:xp_assimilator");
+
+addController(<modularmachinery:wormhole_field_generator_controller>, "modularmachinery:wormhole_field_generator");
+
+addController(<modularmachinery:bee_stargate_controller>, "modularmachinery:bee_stargate");
+
 
 
 
 // Leave this at the bottom of the file, as it depends on the oredict being filled
 furnace.addRecipe(<modularmachinery:blockcontroller>, anyBlockControllerDict);
-
 
 
 

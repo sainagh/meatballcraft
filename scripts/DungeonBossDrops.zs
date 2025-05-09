@@ -844,6 +844,9 @@ recipes.addShapeless(<contenttweaker:energy_hive>,
 recipes.addShapeless(<contenttweaker:ineffable_light>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
 
+recipes.addShapeless(<contenttweaker:salt_of_knowledge>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
 recipes.addShapeless(<contenttweaker:freed_sky_stone>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
 
@@ -1235,20 +1238,20 @@ recipes.addShapeless(<contenttweaker:recursion_of_taint>,
 [<contenttweaker:boss_drop>, <contenttweaker:tainted_prison_key>]);
 
 recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_envy>,
-[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_seven_undead_lords>]);
 recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_pride>,
-[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_seven_undead_lords>]);
 recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_sloth>,
-[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_seven_undead_lords>]);
 recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_wrath>,
-[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_seven_undead_lords>]);
 recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_lust>,
-[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_seven_undead_lords>]);
 recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_greed>,
-[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_seven_undead_lords>]);
 
 recipes.addShapeless(<contenttweaker:oath_of_the_lord_of_gluttony>,
-[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+[<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_seven_undead_lords>]);
 
 recipes.addShapeless(<contenttweaker:respect_of_death>,
 [<contenttweaker:boss_drop>, <contenttweaker:mission_of_undeath_callstone>, <contenttweaker:vow_to_death>]);
@@ -1256,7 +1259,6 @@ recipes.addShapeless(<contenttweaker:respect_of_death>,
 
 recipes.addShapeless(<contenttweaker:strange_stone_essence>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:strange_stone_callstone>]);
-
 
 
 

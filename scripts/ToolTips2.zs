@@ -110,15 +110,10 @@ import crafttweaker.item.IItemCondition;
 
 <thermalfoundation:ore:8>.addTooltip(format.red("发现于下界的元素室"));
 
-<contenttweaker:apichisi_warper>.addTooltip(format.red("打开一个临时虫洞，注意，无法使用该物品返回！"));
 
-<contenttweaker:vibe_warper>.addTooltip(format.red("打开一个临时虫洞，注意，无法使用该物品返回！"));
 
-<contenttweaker:furatto_warper>.addTooltip(format.red("打开一个临时虫洞，注意，无法使用该物品返回！"));
 
-<contenttweaker:taerrapiatta_warper>.addTooltip(format.red("打开一个临时虫洞，注意，无法使用该物品返回！"));
 
-<contenttweaker:diamerisma_warper>.addTooltip(format.red("打开一个临时虫洞，注意，无法使用该物品返回！"));
 
 <contenttweaker:pixonia_infusion_key>.addTooltip(format.red("发现于光精界的沼泽高塔"));
 
@@ -1418,13 +1413,13 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:dimensional_ingot>.addTooltip(format.red("发现于漆黑世界"));
 
-<techreborn:rebattery>.addTooltip(format.red("由于bug，无法使用AE2自动合成，需要的话请使用被动合成"));
+<techreborn:rebattery>.addTooltip(format.red("由于bug，无法使用AE2自动合成，请转用“更好的”版本"));
 
-<techreborn:energycrystal>.addTooltip(format.red("由于bug，无法使用AE2自动合成，需要的话请使用被动合成"));
+<techreborn:energycrystal>.addTooltip(format.red("由于bug，无法使用AE2自动合成，请转用“更好的”版本"));
 
-<techreborn:lapotroncrystal>.addTooltip(format.red("由于bug，无法使用AE2自动合成，需要的话请使用被动合成"));
+<techreborn:lapotroncrystal>.addTooltip(format.red("由于bug，无法使用AE2自动合成，请转用“更好的”版本"));
 
-<techreborn:lapotronicorb>.addTooltip(format.red("由于bug，无法使用AE2自动合成，需要的话请使用被动合成"));
+<techreborn:lapotronicorb>.addTooltip(format.red("由于bug，无法使用AE2自动合成，请转用“更好的”版本"));
 
 <contenttweaker:skeletal_callstone>.addTooltip(format.red("第一个召唤石！右击召唤一座地牢！"));
 
@@ -2066,6 +2061,7 @@ import crafttweaker.item.IItemCondition;
 
 <betterbuilderswands:wandunbreakable>.addTooltip(format.red("按Z键切换模式，Shift+Z切换流体模式"));
 <betterbuilderswands:wandunbreakable>.addTooltip(format.red("使用/wandOops命令来撤销上一步操作"));
+<betterbuilderswands:wandunbreakable>.addTooltip(format.red("警告：不要使用该物品放置带有物品栏的方块，以及其他方块实体"));
 
 <contenttweaker:bubbell_banner>.addTooltip(format.red("通过轨道召唤石获得"));
 <contenttweaker:bubbell_banner>.addTooltip(format.red("感谢Reclipse绘制的纹理！"));
@@ -2987,7 +2983,7 @@ import crafttweaker.item.IItemCondition;
 <thermaldynamics:duct_0:5>.addTooltip(format.red("警告：不要与辐射洗涤器连接，可能会坏档"));
 <enderio:item_endergy_conduit:11>.addTooltip(format.red("警告：不要与辐射洗涤器连接，可能会坏档"));
 
-<aether_legacy:life_shard>.addTooltip(format.red("最多增加20最大生命值，可在地牢箱子中找到（青铜地牢中更常见）"));
+<aether_legacy:life_shard>.addTooltip(format.red("最多增加20最大生命值，可在地牢箱子中找到（黄金地牢中更常见）"));
 
 
 <contenttweaker:crown_of_the_energy_queen>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));

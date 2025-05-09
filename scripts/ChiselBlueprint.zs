@@ -30,6 +30,8 @@ mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itembluep
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:soul_accumulator"}));
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:matter_reprocessor"}));
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:divine_combiner"}));
+mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:bee_stargate"}));
+mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:wormhole_field_generator"}));
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:arcane_autoworkbench"}),
 [[null,null,<modularmachinery:itemmodularium>],
@@ -76,6 +78,7 @@ mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itembluep
 mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:everburning_forge"}));
 mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:forge_of_the_wyvern"}));
 mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:eldritch_impetus_catalyzer"}));
+mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:xp_assimilator"}));
 
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:neutronium_cannon"}),

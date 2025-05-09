@@ -2554,3 +2554,15 @@ recipes.addShapeless(<extratrees:food:21>,
 [<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
 recipes.addShapeless(<extratrees:food:38>,
 [<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
+
+
+
+recipes.addShapeless(<thaumcraft:stone_porous>,
+[<contenttweaker:remove_flux>,
+<contenttweaker:clearing_taint>]);
+
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:lost_cities_worldgen>, <fluid:water>, <fluid:flesh_world_ichor>]);
+
+
+mods.thermalexpansion.Centrifuge.addRecipe([(<techreborn:part:31>) % 99, (<techreborn:part:31>) % 99], <forestry:propolis:0>, null, 2000);

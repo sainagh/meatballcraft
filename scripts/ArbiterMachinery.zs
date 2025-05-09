@@ -150,7 +150,7 @@ mythmeltactualizingfluid6.build();
 
 
 val divinecombineralltheshells = RecipeBuilder.newBuilder("divinecombineralltheshells","divine_combiner",2);
-divinecombineralltheshells.addEnergyPerTickInput(60000);
+divinecombineralltheshells.addFluidInput(<fluid:recursive_life_essence>*1000);
 divinecombineralltheshells.addItemInput(<contenttweaker:eden_star>);
 divinecombineralltheshells.addItemInput(<contenttweaker:eden_core>);
 divinecombineralltheshells.addItemInput(<contenttweaker:wildwood_star>);
@@ -200,13 +200,13 @@ mith30.addItemOutput(<contenttweaker:unbound_recursium_fragment>*64);
 mith30.setChance(0.5);
 mith30.addItemOutput(<contenttweaker:light_of_shadesmar>*10);
 mith30.setChance(0.1);
-mith30.addItemOutput(<contenttweaker:white_hole>*20);
+mith30.addItemOutput(<contenttweaker:white_hole>*50);
+mith30.setChance(0.6);
+mith30.addItemOutput(<contenttweaker:cosmic_pot>*4);
+mith30.setChance(0.8);
+mith30.addItemOutput(<contenttweaker:stormlight_stone>*64);
 mith30.setChance(0.1);
-mith30.addItemOutput(<contenttweaker:cosmic_pot>);
-mith30.setChance(0.1);
-mith30.addItemOutput(<contenttweaker:stormlight_stone>*8);
-mith30.setChance(0.1);
-mith30.addItemOutput(<contenttweaker:soul_of_kashan>*12);
+mith30.addItemOutput(<contenttweaker:soul_of_kashan>*32);
 mith30.setChance(0.1);
 mith30.addItemOutput(<contenttweaker:tier30_token>);
 mith30.build();
@@ -1771,7 +1771,6 @@ creatstarvald6.addItemInput(<divinerpg:moonbulb>*1024);
 creatstarvald6.addItemInput(<minecraft:diamond>*1024);
 creatstarvald6.addFluidOutput(<fluid:whisper_of_starvald_demelain>*100000);
 creatstarvald6.build();
-
 
 
 

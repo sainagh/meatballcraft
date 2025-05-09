@@ -694,7 +694,7 @@ sprensummonerfaith.itemRightClick = function(stack, world, player, hand) {
 	} 
 
     if((OceanMatches) == 1) {
-		Commands.call("summon ebwizardry:spectral_golem ~ ~2 ~ {CustomName:\"腐化信仰之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_restored_faith\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		Commands.call("summon divinerpg:skythern_golem ~ ~2 ~ {CustomName:\"腐化信仰之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_restored_faith\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
@@ -968,7 +968,7 @@ sprensummonerhelplessness.itemRightClick = function(stack, world, player, hand) 
 	} 
 
     if((OceanMatches) == 1) {
-		Commands.call("summon mod_lavacow:ghost_swarmer ~ ~2 ~ {CustomName:\"欠损之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_realized_worth\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		Commands.call("summon mod_lavacow:ghost_swarmer ~ ~2 ~ {CustomName:\"自轻之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_realized_worth\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
@@ -1148,7 +1148,7 @@ sprensummonergluttony.itemRightClick = function(stack, world, player, hand) {
 	} 
 
     if((OceanMatches) == 1) {
-		Commands.call("summon mod_lavacow:soulworm ~ ~2 ~ {CustomName:\"暴食之魂\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_individual_freedom\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:10000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		Commands.call("summon mod_lavacow:soulworm ~ ~2 ~ {CustomName:\"暴食之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_controlled_gluttony\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:10000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
@@ -1193,7 +1193,7 @@ sprensummonerarrogance.itemRightClick = function(stack, world, player, hand) {
 	} 
 
     if((OceanMatches) == 1) {
-		Commands.call("summon divinerpg:rainbour ~ ~2 ~ {CustomName:\"矜狂之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_individual_freedom\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:10000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		Commands.call("summon divinerpg:rainbour ~ ~2 ~ {CustomName:\"矜狂之灵\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_humble_education\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:10000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
@@ -1256,25 +1256,25 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
 
 
     if((IromineMatches) == 1) {
-		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"色欲领主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_lust\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"色欲之主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_lust\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
 
     if((BoreanMatches) == 1) {
-		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"傲慢领主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_pride\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"傲慢之主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_pride\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
 
     if((CeleveMatches) == 1) {
-		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"嫉妒领主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_envy\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"嫉妒之主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_envy\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
 
     if((RunandorMatches) == 1) {
-		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"暴怒领主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_wrath\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"暴怒之主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_wrath\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
@@ -1286,13 +1286,13 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
 	} 
 
     if((MysteriumMatches) == 1) {
-		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"贪婪领主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_greed\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"贪婪之主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_greed\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
 
     if((IcespikesMatches) == 1) {
-		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"懒惰领主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_sloth\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
+		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"怠惰之主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_sloth\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 

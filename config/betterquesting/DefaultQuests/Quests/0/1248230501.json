@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oRockets and space stations are cool, but unfortunately sometimes they bug out.\nFor those that do not want to deal with the possible issues from using Advanced Rocketry, there\u0027s the Bee Stargate!\n\n§fWow, of course Bees have developed extremely advanced Wormhole technology. I love the Bees!\nStepping through a Stargate, that feels quite cool, I will not deny it...\nIt seems like these structures play an important role in the history, tradition, and culture of Bees. Those that are capable of producing components for these Stargates appear to be highly regarded by the rest of the Bees. This reminds me of how priests and monks are treated by humans. I wonder if their religion has something to do with Stargates...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:bee_stargate"
+      },
+      "name:8": "The Bee Stargate"
+    }
+  },
+  "questID:3": 1248230501,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:stargate_sand"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:stargate_chevron_block"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:stargate_ring_block"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:stargate_controller_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:bee_stargate"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -517,12 +517,17 @@ quantumcondactual.addItemInput(<contenttweaker:actualizing_stone>*2048);
 quantumcondactual.addItemOutput(<avaritiaitem:self_actualizing_stone>);
 quantumcondactual.build();
 
+val quantumcondchargedsignslum = RecipeBuilder.newBuilder("quantumcondchargedsignslum", "quantum_condenser", 10);
+quantumcondchargedsignslum.addEnergyPerTickInput(500000);
+quantumcondchargedsignslum.addItemInput(<contenttweaker:charged_signalum>*1024);
+quantumcondchargedsignslum.addItemOutput(<contenttweaker:supercharged_signalum>);
+quantumcondchargedsignslum.build();
+
 
 val quantumcondinsanium = RecipeBuilder.newBuilder("quantumcondinsanium", "quantum_condenser", 2);
 quantumcondinsanium.addEnergyPerTickInput(500000);
 quantumcondinsanium.addItemInput(<mysticalagriculture:master_infusion_crystal>);
 quantumcondinsanium.setChance(0.0);
-quantumcondinsanium.addItemInput(<contenttweaker:actualizing_stone>*1024);
+quantumcondinsanium.addItemInput(<mysticalagriculture:crafting:0>*1024);
 quantumcondinsanium.addItemOutput(<mysticalagradditions:insanium:0>);
 quantumcondinsanium.build();
-

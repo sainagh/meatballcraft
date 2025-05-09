@@ -574,3 +574,21 @@ reci55.addItemInput(<contenttweaker:master_spell_focus>);
 reci55.addItemInput(<thaumadditions:mithminite_fabric>);
 reci55.addItemOutput(<contenttweaker:master_spell_infernum>);
 reci55.build();
+
+val reci56 = RecipeBuilder.newBuilder("inf56","arcane_autoinfuser",120);
+reci56.addEnergyPerTickInput(100);
+reci56.addItemInput(<contenttweaker:sonus_vis_condensate>);
+reci56.addItemInput(<iceandfire:ice_dragon_heart>);
+reci56.addItemInput(<contenttweaker:master_spell_focus>);
+reci56.addItemInput(<thaumadditions:mithminite_fabric>);
+reci56.addItemOutput(<contenttweaker:master_spell_sonus>);
+reci56.build();
+
+val reci57 = RecipeBuilder.newBuilder("inf57","arcane_autoinfuser",120);
+reci57.addEnergyPerTickInput(100);
+reci57.addItemInput(<contenttweaker:cognitio_vis_condensate>);
+reci57.addItemInput(<contenttweaker:demonic_manastone>);
+reci57.addItemInput(<contenttweaker:master_spell_focus>);
+reci57.addItemInput(<thaumadditions:mithminite_fabric>);
+reci57.addItemOutput(<contenttweaker:master_spell_cognitio>);
+reci57.build();

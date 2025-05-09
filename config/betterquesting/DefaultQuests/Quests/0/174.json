@@ -36,9 +36,26 @@
         "0:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:taerrapiatta_warper"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:wormhole_field_module"
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:wormhole_field_generator"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

@@ -46,19 +46,6 @@
           "tag:10": {
             "author:8": "Meatballcraft",
             "pages:9": {
-              "0:8": "{\"text\":\"为了优化游戏在不同硬件平台上的性能表现，部分游戏内动画（例如火焰）默认为关闭状态。\\n\\n查看下一页\"}",
-              "1:8": "{\"text\":\"我知道有些玩家很在乎视觉体验。\\n\\n要重新启用这些动画，将AlternativeConfigs目录下的loliasm.cfg文件复制到config目录下。\\n\\n查看下一页\"}",
-              "2:8": "{\"text\":\"警告：这样可能会影响性能表现，甚至可能完全玩不了。\"}"
-            },
-            "title:8": "没有动画"
-          }
-        },
-        "3:10": {
-          "Count:3": 1,
-          "id:8": "minecraft:written_book",
-          "tag:10": {
-            "author:8": "Meatballcraft",
-            "pages:9": {
               "0:8": "{\"text\":\"为什么鼠标悬浮在上面的时候，物品看起来很奇怪？？\\n\\n本整合包使用了Epic Tooltip模组。我们理解不是所有人都喜欢这个外观。\\n\\n若想换回原版预设，去看看AlternativeConfigs目录。\"}"
             },
             "title:8": "物品看起来有点怪"

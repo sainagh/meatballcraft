@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o空间站和跃迁引擎多方块结构用于航行至多个不同星球（查看后续任务）。\n\n高级火箭模组处理起来可能有一点麻烦，所以我提供了可选的跃迁器配方。这些跃迁器必须在空间站内使用，所以你还是得往轨道上拍一个空间站。",
+      "desc:8": "§7§o空间站和跃迁引擎多方块结构用于航行至多个不同星球（查看上方任务）。\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:infused_sol_stone"
@@ -23,16 +23,5 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "index:3": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "id:8": "contenttweaker:bee_stargate"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
-}

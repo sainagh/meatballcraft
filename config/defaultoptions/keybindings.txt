@@ -75,6 +75,7 @@ key_key.erebus.glide:0:NONE
 key_key.erebus.poweredglide:0:NONE
 key_key.erebus.beetleram:0:NONE
 key_key.erebus.beetlemine:56:NONE
+key_Open sound muffler screen:0:NONE
 key_keybind.hammercorerenderstack:77:NONE
 key_key.xu2.searchforitems:31:SHIFT
 key_key.findme.search:23:SHIFT
@@ -127,6 +128,11 @@ key_key.open_wireless_terminal.desc:20:CONTROL
 key_key.open_wireless_crafting_terminal.desc:18:CONTROL
 key_key.open_wireless_pattern_terminal.desc:19:CONTROL
 key_key.open_wireless_fluid_terminal.desc:33:CONTROL
+key_key.open_wireless_interface_terminal.desc:23:SHIFT
+key_key.open_basic_extended_wireless_crafting_terminal:0:NONE
+key_key.open_advanced_extended_wireless_crafting_terminal:0:NONE
+key_key.open_elite_extended_wireless_crafting_terminal:0:NONE
+key_key.open_ultimate_extended_wireless_crafting_terminal:0:NONE
 key_key.aether.accessory_menu:0:NONE
 key_key.keyExtraInvo:0:NONE
 key_key.keyWheel:0:NONE
@@ -175,7 +181,7 @@ key_key.porterNextDestination:27:NONE
 key_key.porterPrevDestination:26:NONE
 key_key.debugDumpNBTItem:0:NONE
 key_key.debugDumpNBTBlock:0:NONE
-key_invtweaks.key.sort:19:SHIFT
+key_invtweaks.key.sort:0:NONE
 key_key.jeiutilities.displayRecipe:29:NONE
 key_key.jeiutilities.pickBookmark:-98:NONE
 key_key.jeiutilities.transferRecipe:17:CONTROL

@@ -215,7 +215,7 @@ recipes.addShaped(<contenttweaker:astral_insight_100>,
 
 
 
-mods.thaumcraft.Infusion.registerRecipe("inftaintedprisonkey", "", 
+mods.thaumcraft.Infusion.registerRecipe("infastralmasterymax", "", 
 <contenttweaker:astral_mastery_tome>, 10,
 [<aspect:stellae>*10000], 
 <minecraft:book>, 

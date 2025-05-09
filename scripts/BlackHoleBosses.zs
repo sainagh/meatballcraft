@@ -18,8 +18,22 @@ sterilizedparafrosynium.addItemInput(<contenttweaker:dynatos_catalyst>);
 sterilizedparafrosynium.addItemInput(<materialpart:abyssite:ingot>*4);
 sterilizedparafrosynium.addItemInput(<ore:blockEthaxium>*64);
 sterilizedparafrosynium.addItemInput(<contenttweaker:eldritch_will_crystal>*16);
+sterilizedparafrosynium.addItemInput(<ore:ingotSednanite>);
 sterilizedparafrosynium.addItemOutput(<contenttweaker:parafrosynium>*2);
 sterilizedparafrosynium.build();
+
+val sterilizedparafrosynium2 = RecipeBuilder.newBuilder("sterilizedparafrosynium2","sterilized_altar",200);
+sterilizedparafrosynium2.addEnergyPerTickInput(10000000);
+sterilizedparafrosynium2.addFluidInput(<fluid:liquid_pe>*10000);
+sterilizedparafrosynium2.addFluidInput(<fluid:liquid_lp>*10000);
+sterilizedparafrosynium2.addItemInput(<contenttweaker:darkstar_compound>);
+sterilizedparafrosynium2.addItemInput(<contenttweaker:dynatos_catalyst>);
+sterilizedparafrosynium2.addItemInput(<materialpart:abyssite:ingot>*4);
+sterilizedparafrosynium2.addItemInput(<ore:blockEthaxium>*64);
+sterilizedparafrosynium2.addItemInput(<contenttweaker:eldritch_will_crystal>*16);
+sterilizedparafrosynium2.addItemInput(<extendedcrafting:singularity_custom:628>);
+sterilizedparafrosynium2.addItemOutput(<contenttweaker:parafrosynium>*6);
+sterilizedparafrosynium2.build();
 
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:dense_helpless_honey>, <gendustry:honey_comb:14014>, 200, <extendedcrafting:material:11>, 10000000);
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:dense_dark_honey>, <gendustry:honey_comb:14015>, 200, <extendedcrafting:material:11>, 10000000);
@@ -231,8 +245,29 @@ makeichorium.addItemInput(<thaumadditions:mithminite_block>*2);
 makeichorium.addItemInput(<thaumicaugmentation:material:5>*16);
 makeichorium.addItemInput(<thaumcraft:focus_3>);
 makeichorium.addItemInput(<thaumcraft:focus_3>);
+makeichorium.addItemInput(<ore:ingotSednanite>);
 makeichorium.addItemOutput(<materialpart:ichorium:ingot>);
 makeichorium.build();
+
+val makeichorium2 = RecipeBuilder.newBuilder("makeichorium2","arcane_autoinfuser",200);
+makeichorium2.addEnergyPerTickInput(150000000);
+makeichorium2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alkimia"}]})*300);
+makeichorium2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mythus"}]})*100);
+makeichorium2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]})*200);
+makeichorium2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]})*100);
+makeichorium2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]})*100);
+makeichorium2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]})*50);
+makeichorium2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aversio"}]})*50);
+makeichorium2.addItemInput(<contenttweaker:crimson_ichor>*8);
+makeichorium2.addItemInput(<thaumadditions:mithminite_block>*2);
+makeichorium2.addItemInput(<thaumicaugmentation:material:5>*16);
+makeichorium2.addItemInput(<thaumcraft:focus_3>);
+makeichorium2.addItemInput(<thaumcraft:focus_3>);
+makeichorium2.addItemInput(<extendedcrafting:singularity_custom:628>);
+makeichorium2.addItemOutput(<materialpart:ichorium:ingot>*3);
+makeichorium2.build();
+
+
 
 mods.thaumcraft.Infusion.registerRecipe("infusionichoriumcatalyst", "", 
 <contenttweaker:ichorium_catalyst>, 10,
@@ -510,8 +545,21 @@ dragonfireorichalcum.addFluidInput(<fluid:eternal_dragon_fire>*25000);
 dragonfireorichalcum.addItemInput(<contenttweaker:orichalcum_sliver>*8);
 dragonfireorichalcum.addItemInput(<extrabotany:material:1>*4);
 dragonfireorichalcum.addItemInput(<contenttweaker:infused_dread_shard>*12);
+dragonfireorichalcum.addItemInput(<ore:ingotSednanite>);
 dragonfireorichalcum.addItemOutput(<contenttweaker:orichalcum>);
 dragonfireorichalcum.build();
+
+val dragonfireorichalcum2 = RecipeBuilder.newBuilder("dragonfireorichalcum2","dragonfire_crucible",200);
+dragonfireorichalcum2.addFluidInput(<fluid:eternal_dragon_fire>*25000);
+dragonfireorichalcum2.addItemInput(<contenttweaker:orichalcum_sliver>*8);
+dragonfireorichalcum2.addItemInput(<extrabotany:material:1>*4);
+dragonfireorichalcum2.addItemInput(<contenttweaker:infused_dread_shard>*12);
+dragonfireorichalcum2.addItemInput(<extendedcrafting:singularity_custom:628>);
+dragonfireorichalcum2.addItemOutput(<contenttweaker:orichalcum>*3);
+dragonfireorichalcum2.build();
+
+
+
 
 
 // pauram
@@ -570,8 +618,22 @@ carminitehihiirokane.addItemInput(<bloodmagic:blood_shard:1>*12);
 carminitehihiirokane.addItemInput(<twilightforest:block_storage:4>*12);
 carminitehihiirokane.addItemInput(<bloodarsenal:base_item:4>*32);
 carminitehihiirokane.addItemInput(<contenttweaker:harbinger_crystal>*16);
+carminitehihiirokane.addItemInput(<ore:ingotSednanite>);
 carminitehihiirokane.addItemOutput(<contenttweaker:hihi_irokane>);
 carminitehihiirokane.build();
+
+val carminitehihiirokane2 = RecipeBuilder.newBuilder("carminitehihiirokane2","carminite_empowerer",200);
+carminitehihiirokane2.addEnergyPerTickInput(10000000);
+carminitehihiirokane2.addAspectInput("victus",50);
+carminitehihiirokane2.addItemInput(<contenttweaker:droplet_of_the_great_snake>*2);
+carminitehihiirokane2.addItemInput(<bloodmagic:blood_shard:1>*12);
+carminitehihiirokane2.addItemInput(<twilightforest:block_storage:4>*12);
+carminitehihiirokane2.addItemInput(<bloodarsenal:base_item:4>*32);
+carminitehihiirokane2.addItemInput(<contenttweaker:harbinger_crystal>*16);
+carminitehihiirokane2.addItemInput(<extendedcrafting:singularity_custom:628>);
+carminitehihiirokane2.addItemOutput(<contenttweaker:hihi_irokane>*3);
+carminitehihiirokane2.build();
+
 
 mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:hihi_irokane_block>, [<contenttweaker:hihi_irokane>, <contenttweaker:nethersky_amber>, <bloodmagic:decorative_brick:3>, <contenttweaker:slate_of_endless_hunger>], 10000.0, 1000.0);
 

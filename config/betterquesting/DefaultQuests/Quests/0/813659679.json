@@ -7,9 +7,9 @@
       "desc:8": "",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "contenttweaker:eleint_stone"
+        "id:8": "contenttweaker:power_wrought_brightsteel_alloy_plate"
       },
-      "name:8": "The Eleint"
+      "name:8": "The Power"
     }
   },
   "questID:3": 813659679,
@@ -19,7 +19,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "contenttweaker:eleint_stone"
+          "id:8": "contenttweaker:power_wrought_brightsteel_alloy_plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"

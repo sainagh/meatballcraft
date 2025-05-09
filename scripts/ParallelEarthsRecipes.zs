@@ -575,3 +575,10 @@ recipes.addShaped(<contenttweaker:alkemia_artifact>*2,
 [[<contenttweaker:stargate_hieroglyphs>, <contenttweaker:stargate_hieroglyphs>, <contenttweaker:stargate_hieroglyphs>],
 [<contenttweaker:stargate_hieroglyphs>, <contenttweaker:alkemia_artifact>, <contenttweaker:stargate_hieroglyphs>],
 [<contenttweaker:stargate_hieroglyphs>, <contenttweaker:stargate_hieroglyphs>, <contenttweaker:stargate_hieroglyphs>]]);
+
+
+
+recipes.addShaped(<contenttweaker:wormhole_field_module>,
+[[<rftools:infused_diamond>, <contenttweaker:deuterium_crystal>, <rftools:infused_diamond>],
+[<ore:crystalErodium>, <techreborn:machine_frame:2>, <ore:crystalErodium>],
+[<contenttweaker:better_lapotronic_orb>, <bigreactors:blockludicrite>, <contenttweaker:better_lapotronic_orb>]]);

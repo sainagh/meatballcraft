@@ -189,6 +189,7 @@ inffurncuendillar3.build();
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:singular_fractal>, <contenttweaker:singular_recursion>, 100, <extendedcrafting:material:11>, 100000);
 
 val compresssingularfractal = RecipeBuilder.newBuilder("compresssingularfractal","quantum_condenser",10);
+compresssingularfractal.addEnergyPerTickInput(500000);
 compresssingularfractal.addItemInput(<contenttweaker:singular_recursion>*100);
 compresssingularfractal.addItemOutput(<contenttweaker:singular_fractal>);
 compresssingularfractal.build();

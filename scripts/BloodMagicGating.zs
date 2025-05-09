@@ -100,3 +100,9 @@ mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_divine
 mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "meteor"}));
 mods.chisel.Carving.addVariation("ritualdivinermodes", <bloodmagic:ritual_diviner:1>.withTag({current_ritual: "blood_burner"}));
 
+
+
+recipes.addShaped(<contenttweaker:fabric_of_the_orb>,
+[[<aoa3:ancient_rock>, <dimdoors:world_thread>, <aoa3:ancient_rock>],
+[<dimdoors:world_thread>, <bloodmagic:blood_rune:8>, <dimdoors:world_thread>],
+[<aoa3:ancient_rock>, <dimdoors:world_thread>, <aoa3:ancient_rock>]]);

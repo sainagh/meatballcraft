@@ -603,7 +603,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_stem>,
 <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
 
 [<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:coralos_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
-<contenttweaker:everburning_seed>, <contenttweaker:tardis_casing>, <contenttweaker:everburning_seed>, 
+<contenttweaker:infinite_processor>, <contenttweaker:tardis_casing>, <contenttweaker:infinite_processor>, 
 <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:coralos_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
 
 [<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 

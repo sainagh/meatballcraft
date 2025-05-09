@@ -95,3 +95,6 @@
 <contenttweaker:gun_devil_confrontation_callstone>.addTooltip(format.red("需在指定维度使用：争竞界"));
 <contenttweaker:universal_constellation_callstone>.addTooltip(format.red("需在指定维度使用：衰腐界"));
 <contenttweaker:ghost_of_annoyance_callstone>.addTooltip(format.red("需在指定维度使用：伽里弗雷"));
+<contenttweaker:weaponsmith_callstone>.addTooltip(format.red("需在指定维度使用：末地"));
+<contenttweaker:lively_tree_callstone>.addTooltip(format.red("需在指定维度使用：主世界"));
+<contenttweaker:apothecary_prison_key>.addTooltip(format.red("需在指定维度使用：黄金"));
