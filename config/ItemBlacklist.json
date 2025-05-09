@@ -1705,10 +1705,6 @@
   ],
   "427": [
     {
-      "item": "ae2fc:wireless_fluid_pattern_terminal",
-      "damage": "*"
-    },
-    {
       "item": "appliedenergistics2:wireless_terminal",
       "damage": "*"
     },
@@ -1717,15 +1713,7 @@
       "damage": "*"
     },
     {
-      "item": "appliedenergistics2:wireless_pattern_terminal",
-      "damage": "*"
-    },
-    {
       "item": "appliedenergistics2:wireless_fluid_terminal",
-      "damage": "*"
-    },
-    {
-      "item": "appliedenergistics2:wireless_interface_terminal",
       "damage": "*"
     },
     {

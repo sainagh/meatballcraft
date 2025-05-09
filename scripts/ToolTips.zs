@@ -1528,11 +1528,12 @@
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Broomey2 (单人)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("The2ThatR1 (单人)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("mewmaister (单人)"));
-<ore:ingotFractalliteHalite>.addTooltip(format.red("BaneOfTrapezoids (单人)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("BaneOfTrapazoids (单人)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("brobot6565 (单人)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("legoman187 (单人)"));
-<ore:ingotFractalliteHalite>.addTooltip(format.red("Origami10004, _TheeOrangeJuice_, Blocktronix, SeeThinkWonder (团队)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("Origami10004, _TheeOrangeJuice_, Blocktronix, _DeOrangeJuice_ (团队)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("JustObsidian, canredback (团队)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("shiraori_gd (单人)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Sbmhawk (单人)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("amberacid (单人)"));
 
@@ -2667,6 +2668,10 @@
 
 <contenttweaker:order_wood>.addTooltip(format.red("初始可通过神圣树苗获得，蜜蜂通过生机之树召唤石获得"));
 <contenttweaker:chaos_wood>.addTooltip(format.red("初始可通过神圣树苗获得，蜜蜂通过生机之树召唤石获得"));
+
+
+<appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("注意：若你更新了整合包，任务书可能不会自动更新，使用以下命令来手动更新任务书"));
+<appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("/bq_admin default load"));
 
 
 
