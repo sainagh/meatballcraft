@@ -111,7 +111,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("aether_legacy:aether_grass", playerPos, [4,0,4], world) == 0 || "aether_legacy:aether_grass:3", playerPos, [4,0,4], world) == 0) {
+    if ((getBlockMatchAtPosition("aether_legacy:aether_grass", playerPos, [4,0,4], world) == 0) || (getBlockMatchAtPosition("aether_legacy:aether_grass:3", playerPos, [4,0,4], world) == 0)) {
         player.sendChat("在末地石的南侧，间隔一格放置一个空叶草方块 [4,0,4]");
         return "FAIL";
     }
