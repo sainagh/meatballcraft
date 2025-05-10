@@ -4873,7 +4873,7 @@ meatballmancallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     player.sendChat("站在以下方块上方：");
-    player.sendChat("噩兆机壳（上）");
+    player.sendChat("噩兆机械外壳（上）");
     player.sendChat("超越天显化法器（中）");
     player.sendChat("神话开掘反应器（下）");
 
@@ -4887,7 +4887,7 @@ meatballmancallstone.itemRightClick = function(stack, world, player, hand) {
     var blockPos1 = pos1.asBlockPos();
     var blockState1 = world.getBlock(blockPos1).definition.id as string;
     if(blockState1 != "contenttweaker:hungering_machine_case") {
-        player.sendChat("缺少噩兆机壳");
+        player.sendChat("缺少噩兆机械外壳");
         return "FAIL";
     }
 

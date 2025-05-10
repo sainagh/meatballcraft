@@ -721,7 +721,7 @@ warrencreationfabrial.itemRightClick = function(stack, world, player, hand) {
     var blockPos1 = pos1.asBlockPos();
     var blockState1 = world.getBlock(blockPos1).definition.id as string;
     if(blockState1 != "contenttweaker:hungering_machine_case") {
-        player.sendChat("缺少饥渴机壳");
+        player.sendChat("缺少饥渴机械外壳");
         return "FAIL";
     }
 
