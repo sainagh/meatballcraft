@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Liquid gases freak me out a little bit...",
+      "desc:8": "液态气体让我心里有点发毛……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:supercooler_idle"
       },
-      "name:8": "Supercooler"
+      "name:8": "超冷却器"
     }
   },
   "questID:3": 20725,

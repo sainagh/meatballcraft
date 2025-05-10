@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe import buses are used to input items from external inventories into your AE2 network.",
+      "desc:8": "§7§o输入总线可从外部容器中抽取物品/流体/源质输入到AE网络。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 240,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "ME Import Bus"
+      "name:8": "ME输入总线"
     }
   },
   "questID:3": 90158,

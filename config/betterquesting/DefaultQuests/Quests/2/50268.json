@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You can use gunpowder, but TNT is better!",
+      "desc:8": "火药也行，但是TNT更好！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:machine",
@@ -12,7 +12,7 @@
           "Type:8": "extrautils2:generator_tnt"
         }
       },
-      "name:8": "Explosive Generator (OK)"
+      "name:8": "TNT发电机（一般）"
     }
   },
   "questID:3": 50268,

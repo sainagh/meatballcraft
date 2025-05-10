@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oKeeps xp and buffs on death.",
+      "desc:8": "§7§o死后保留经验和正面状态效果。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tombstone:scroll_buff"
       },
-      "name:8": "Preservation"
+      "name:8": "保留"
     }
   },
   "questID:3": 2307,

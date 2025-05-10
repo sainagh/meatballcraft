@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSolar arrays are solar panel multiblocks that can be assembled using a variety of solar cell combinations.\n\nThe higher the tier of the controller, and the higher the tier of the cells, the better.\n\nFor Tier 2:\nLitherite: 3050 RF/t\nErodium: 4075 RF/t\nKyronite: 6125 RF/t\nPladium: 8175 RF/t\nIonite: 12275 RF/t\nAethium: 12800 RF/t\n\n§fReally why do they need to be so complicated?!?",
+      "desc:8": "§7§o太阳能阵列是可用多种太阳能板组成的多方块结构。\n\n控制器与太阳能板等级越高，发电量越大。\n\nFor Tier 2:\n莱泽尔：3050 RF/t\n艾洛蒂：4075 RF/t\n凯罗尼：6125 RF/t\n普雷蒂：8175 RF/t\n艾恩尼：12275 RF/t\n以太：12800 RF/t\n\n§f为什么要整这么复杂呢？！？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "environmentaltech:solar_cont_2"
       },
-      "name:8": "Solar Array Controller Tier 2 (Great)"
+      "name:8": "二级太阳能发电机控制器（优异）"
     }
   },
   "questID:3": 50199,

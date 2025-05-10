@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAn ME interface with faster transfer rate!",
+      "desc:8": "§7§o拥有更快传输速度的ME接口！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "threng:machine"
       },
-      "name:8": "Preemptive Assembly Unit"
+      "name:8": "优先装配单元"
     }
   },
   "questID:3": 854,

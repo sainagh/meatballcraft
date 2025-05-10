@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFarm withers with deep mob learning, and obtain an aeldunari by progressing abyssalcraft.",
+      "desc:8": "§7§o通过深度怪物学习获得凋灵物质，并通过发展深渊国度获得暗龙之心。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "soulshardsrespawn:vile_sword",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Soul Stealer"
+            "Name:8": "窃魂者"
           },
           "ench:9": {
             "0:10": {
@@ -30,7 +30,7 @@
           }
         }
       },
-      "name:8": "Soul Stealer"
+      "name:8": "窃魂者"
     }
   },
   "questID:3": 955,
@@ -44,9 +44,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oSoul Stealer§r"
+              "Name:8": "§6§o窃魂者§r"
             },
             "ench:9": {
               "0:10": {

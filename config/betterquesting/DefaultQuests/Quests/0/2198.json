@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Meatball Man has a mighty army, mostly composed of undead who, for some reason, have to follow his rule.\nThey definitely seem unwilling to submit to his rule, and yet they are unable to escape it.\nMany of them are nothing more than mere cannon fodder, and yet some serve higher purposes.\nOne of them is a botanist, how unexpected!",
+      "desc:8": "肉丸人麾下有着一支强大军队，其主力是由因某种缘由不得不臣服的亡灵生物。\n这些亡灵分明不甘屈从于他的统治，却始终无法挣脱桎梏。\n其中多数不过是战争傀儡，但亦有肩负更崇高使命者。\n其中竟然有一名植物学家，何等讽刺！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:vegetarian_sentient_meatball"
       },
-      "name:8": "Meatball Botanist"
+      "name:8": "肉丸植物学家"
     }
   },
   "questID:3": 2198,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:vegetarian_sentient_meatball"
             },
-            "TrophyName:8": "Vegetarian Meatballs FTW",
+            "TrophyName:8": "素食肉丸必胜",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

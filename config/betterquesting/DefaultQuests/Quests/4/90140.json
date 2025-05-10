@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace the ender package crafter next to a properly configured unpackager to autocraft with it!\n\nThe more ender alternators you place around the crafter (you need at least one), the faster it will craft!",
+      "desc:8": "§7§o将末影封包合成器放置在正确配置的解包机旁以实现自动化！\n\n合成器周围放置的末影发电机越多（至少一个），合成速度越快！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extendedcrafting:ender_crafter"
       },
-      "name:8": "Ender Package Crafter"
+      "name:8": "末影封包合成器"
     }
   },
   "questID:3": 90140,

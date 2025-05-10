@@ -188,8 +188,8 @@
 <extrabotany:wallrunning>.addTooltip(format.red("可以像蜘蛛一样爬墙"));
 <extrabotany:walljumping>.addTooltip(format.red("落地前最多可在贴墙跳5次"));
 <extrabotany:parkour>.addTooltip(format.red("墙行指环和墙跳指环的结合"));
-<extrabotany:allforone>.addTooltip(format.red("使饰品盒内的前3个饰品起效。对绝大部分饰品无效"));
-<extrabotany:elvenking>.addTooltip(format.red("使饰品盒内的所有饰品均能起效。对绝大部分饰品无效"));
+<extrabotany:elvenking>.addTooltip(format.red("使饰品盒子内的前3个饰品起效。对绝大部分饰品无效"));
+<extrabotany:allforone>.addTooltip(format.red("使饰品盒子内的所有饰品均能起效。对绝大部分饰品无效"));
 <extrabotany:foxear>.addTooltip(format.red("装饰性饰品"));
 <extrabotany:bottledflame>.addTooltip(format.red("亮度低于7时，自动在脚下放置火把"));
 <extrabotany:cosmetic>.addTooltip(format.red("装饰性饰品"));

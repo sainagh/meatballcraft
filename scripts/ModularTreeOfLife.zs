@@ -340,12 +340,21 @@ treeoflifthaumpods.build();
 
 
 
-val treeoflifecinders = RecipeBuilder.newBuilder("treeoflifecinders","tree_of_life",600);
+val treeoflifecinders = RecipeBuilder.newBuilder("treeoflifecinders","tree_of_life",200);
 treeoflifecinders.addEnergyPerTickInput(50000000);
 treeoflifecinders.addItemInput(<contenttweaker:sacred_cinders_seed>);
+treeoflifecinders.addItemInput(<forestry:fertilizer_compound>);
 treeoflifecinders.setChance(0.0);
 treeoflifecinders.addItemOutput(<contenttweaker:sacred_cinders_fruit>);
 treeoflifecinders.build();
+
+val treeoflifecindersbetter = RecipeBuilder.newBuilder("treeoflifecindersbetter","tree_of_life",2);
+treeoflifecindersbetter.addEnergyPerTickInput(50000000);
+treeoflifecindersbetter.addItemInput(<contenttweaker:sacred_cinders_seed>);
+treeoflifecindersbetter.addItemInput(<gendustry:honey_comb:14012>);
+treeoflifecindersbetter.setChance(0.0);
+treeoflifecindersbetter.addItemOutput(<contenttweaker:sacred_cinders_fruit>*16);
+treeoflifecindersbetter.build();
 
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:alchemical_particle>, <projectex:matter:11>, 100000, <extendedcrafting:material:11>, 100);
 

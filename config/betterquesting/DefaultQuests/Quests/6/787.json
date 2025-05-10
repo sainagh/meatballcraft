@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following flowers are used to generate mana!\n\nThey need to be bound to a mana spreader to send mana into pools!\n\nThe first one you should make is the endoflame. After that, you will be able to unlock more powerful ones!\n\nThe harder it is to automate a flower (generally), the more mana it will produce!",
+      "desc:8": "§7§o以下花可用于产魔！\n\n需要与魔力发射器绑定以将魔力传输到魔力池中！\n\n推荐从火红莲开始。随后，可解锁更强的产能花！\n\n（一般来说）越难实现自动化，产魔越多！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:pool"
       },
-      "name:8": "Generating Flora"
+      "name:8": "产能花"
     }
   },
   "questID:3": 787,

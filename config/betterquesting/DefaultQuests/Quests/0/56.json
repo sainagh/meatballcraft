@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGorgons are found in the large stone brick temples found on coasts near the sea!\n\nWear a blindfold to stay alive!\n\n§fHere\u0027s a good example of mythic magic. Gorgons, the ones from greek mythology, and they are here on this world!\nAlmost feels like someone wanted to bring in all sorts of creatures from all folklore in one place.\nAm I in an anime?",
+      "desc:8": "§7§o蛇发女妖可发现于海岸边由石砖建成的巨型神庙。\n\n记得戴上眼罩！\n\n§f这是神话魔法的绝佳范例。希腊神话中的蛇发女妖，竟然存在于这片大地上！\n简直像是有谁刻意把所有传说中的生物都聚到了同一个地方。\n我这是到二次元来了？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "iceandfire:gorgon_head"
       },
-      "name:8": "Gorgon Head"
+      "name:8": "蛇发女妖头颅"
     }
   },
   "questID:3": 56,

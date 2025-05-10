@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This upgrade can be used to modify the numismatic dynamo into accepting gems as inputs.",
+      "desc:8": "该项升级使通货能源炉能接受宝石作为输入。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 720,
         "id:8": "thermalexpansion:augment"
       },
-      "name:8": "Augment: Lapidary Calibration"
+      "name:8": "升级：宝石印刻校准"
     }
   },
   "questID:3": 50171,

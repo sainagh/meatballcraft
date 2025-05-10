@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The yellorite reactor uses yellorium to produce RF.\nThe reactor is a hollow cuboid made out of casings, including at least two access points (input \u0026 output), a power tap, and a controller.\nA transparent version of casings can also be used.\nIn the hollow of the cuboid, it is possible to insert any number of vertical columns of fuel rods, capped with a control rod on the casing\nCooling (both fluids and blocks) can be added in the remaining hollow spaces.",
+      "desc:8": "黄铀反应堆消耗黄铀产出RF。\n反应堆是由外壳构成的中空立方体，包含至少两个反应堆访问端口（输入与输出），一个能源接口，和一个控制器。\n也可使用透明版本的外壳，也就是反应堆玻璃。\n立方体内中空部分，可插入任意数量的纵向燃料棒，燃料棒顶部需放置控制杆，作为外壳的一部分。\n剩余空间可填充冷却剂（流体和方块均可）。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bigreactors:reactorcontroller"
       },
-      "name:8": "Yellorite Reactor (Good - Great with Extreme Turbine)"
+      "name:8": "黄铀反应堆（良好 - 优异【与极限涡轮机搭配时】）"
     }
   },
   "questID:3": 50204,

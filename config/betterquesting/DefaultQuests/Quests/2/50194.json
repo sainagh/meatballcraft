@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Most Bettah!",
+      "desc:8": "最强！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "enderio:block_solar_panel"
       },
-      "name:8": "Vibrant Photovoltaic Cell (OK)"
+      "name:8": "脉冲光伏电池（一般）"
     }
   },
   "questID:3": 50194,

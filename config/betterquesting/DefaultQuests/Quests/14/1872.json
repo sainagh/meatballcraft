@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe quests in this tab will list all tools that are useful for building and breaking things!\n\nMore will show up the more you progress, so make sure to come back here!",
+      "desc:8": "§7§o本板块任务会列出有关建造和破坏的所有实用工具！\n\n随着流程推进，将会显示更多内容，所以记得回来查看！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:stone"
       },
-      "name:8": "Making and Breaking"
+      "name:8": "建造与破坏"
     }
   },
   "questID:3": 1872,

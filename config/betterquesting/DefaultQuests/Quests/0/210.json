@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I do not understand why, but after becoming aware of botanical magic, things make more sense...\nI can feel new things, including traces, traces left by some of the creatures roaming Terra, they came here through wormholes, just like me...\nBut now I can sense the \u0027scars\u0027 into spacetime they left while travelling here...",
+      "desc:8": "我不明白缘由，但自从领悟植物魔法后，许多事情开始变得合理……\n我能感知到一些新事物，包括某些在泰拉游荡的生物留下的痕迹，它们与我一样通过虫洞来到此地……\n但现在，我能感知到它们穿越至此时，在时空中留下的“伤痕”……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:arcana_portal_frame"
       },
-      "name:8": "The Infinite Fortress"
+      "name:8": "无尽要塞"
     }
   },
   "questID:3": 210,

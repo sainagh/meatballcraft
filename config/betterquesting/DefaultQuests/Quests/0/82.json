@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Used to craft machines from enderIO (see manufacturing and fabrication)\n\nIt seems like my unwanted connection with death has some other uses besides immortality.\nThis death energy can be used to make machines!",
+      "desc:8": "§7§o用于制作末影接口模组的机器（可前往§c§o制作与加工§o§r§o§7§o查看）\n\n§r除了永生之外，我与死亡那诡异的联系似乎还有其他用处。\n这种死亡能量可以用来制作机器！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:item_material"
       },
-      "name:8": "Alien technology is cool!"
+      "name:8": "外星科技太酷了！"
     }
   },
   "questID:3": 82,

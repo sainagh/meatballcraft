@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Seems like the same digitalization of space that happens with fluix crystals can be exploited in other ways.\nShould make organization a bit easier.",
+      "desc:8": "福鲁伊克斯晶体的空间数字化似乎也能以其他方式加以利用。\n这样管理起来会更容易一些。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "compactmachines3:fieldprojector"
       },
-      "name:8": "Miniaturization Field Projector"
+      "name:8": "压缩空间机械制作器"
     }
   },
   "questID:3": 113,

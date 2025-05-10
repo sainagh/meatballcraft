@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe export buses are used to move items/fluids/essentia from the AE2 network to external inventories.\n\nAn export bus pointing into a chest will put items into the chest.",
+      "desc:8": "§7§o输出总线可将AE网络内的物品/流体/源质输出到外部容器。\n\n例如，面向箱子的输出总线会将物品输出到该箱子内。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 260,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "ME Export Bus"
+      "name:8": "ME输出总线"
     }
   },
   "questID:3": 90159,

@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oProgress through the twilight forest, and make a carminite empowerer.",
+      "desc:8": "§7§o发展暮色森林，并建造砷铅铁注能器。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "twilightforest:block_and_chain",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Morning Star"
+            "Name:8": "晨星"
           },
           "ench:9": {
             "0:10": {
@@ -38,7 +38,7 @@
           }
         }
       },
-      "name:8": "Morning Star"
+      "name:8": "晨星"
     }
   },
   "questID:3": 958,
@@ -52,9 +52,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oMorning Star§r"
+              "Name:8": "§6§o晨星§r"
             },
             "ench:9": {
               "0:10": {

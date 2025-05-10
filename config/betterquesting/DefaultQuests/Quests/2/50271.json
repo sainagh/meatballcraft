@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "RF from Nether Stars?!?",
+      "desc:8": "用下界之星发电？！？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:machine",
@@ -12,7 +12,7 @@
           "Type:8": "extrautils2:generator_netherstar"
         }
       },
-      "name:8": "Netherstar Generator (OK)"
+      "name:8": "下界之星发电机（一般）"
     }
   },
   "questID:3": 50271,

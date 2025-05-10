@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRitual Effect: gives regeneration to nearby entities, increases plant growth\n\nAlcara Corrupted Effect: nearby entities get weakness, hunger, bleeding, mining fatigue, and crops cannot be planted\n\nClick the pedestal to see a preview of the ritual multiblock.",
+      "desc:8": "§7§o仪式效果：附近实体获得生命再生效果，加快植物生长速度\n\n振变座效果：附近实体获得虚弱、饥饿、流血以及挖掘疲劳效果，破坏植物\n\n使用六分仪右击基座以查看仪式多方块预览。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:itemtunedcelestialcrystal",
@@ -21,7 +21,7 @@
           }
         }
       },
-      "name:8": "Aevitas"
+      "name:8": "生息座"
     }
   },
   "questID:3": 868,

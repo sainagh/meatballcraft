@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou need to set up the resonance of the faceted crystal ritual.\n\nIn a chunk with demonic will from a demon crucible or other methods, place a crystallizer above the master ritual stone, and let a raw will crystal grow.\n\nCrystals of the other types will eventually grow on the ritual as long as you have enough raw will in the chunk.",
+      "desc:8": "§7§o使用结晶共鸣仪式来获得第一份特殊意志晶体。\n\n通过恶魔坩埚或其他手段向区块中释放原生意志，然后在主仪式石上放置恶魔结晶坛，来让原生意志晶体生长。\n\n只要区块中的原生意志足够，其他种类的意志晶体最终会在仪式上长出。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bloodmagic:ritual_controller"
       },
-      "name:8": "Aspected Will"
+      "name:8": "特殊意志"
     }
   },
   "questID:3": 863,

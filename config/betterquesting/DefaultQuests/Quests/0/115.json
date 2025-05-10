@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This is very nice, obsidian and the bedrock found on Terra allow for a material that allows for loseless energy transfer in the form of waves that can travel through very long distances.",
+      "desc:8": "这非常奇妙，泰拉上的黑曜石与基岩可制成一种特殊材料，其能以波的形式实现超远距离的无损能量传输。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "fluxnetworks:fluxplug"
       },
-      "name:8": "Wireless Energy?!?"
+      "name:8": "无线能量？！？"
     }
   },
   "questID:3": 115,

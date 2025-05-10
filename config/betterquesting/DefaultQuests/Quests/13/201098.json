@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,500\nMining Level: Cobalt\nMining Speed: 7\nAttack: 17\nBlizzard II\n\nHandle\nModifier: 0.4\nDurability: 400\nSharp\n\nExtra\nDurability: 510\nSharp",
+      "desc:8": "顶端\n耐久：1,500\n挖掘等级：钴\n挖掘速度：7\n攻击力：17\n凛冰 II\n\n手柄\n手柄系数：0.4\n耐久：400\n锐利\n\n其它部件\n耐久：510\n锐利",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "dragonsteel_ice"
         }
       },
-      "name:8": "Ice Dragonsteel"
+      "name:8": "龙霜钢"
     }
   },
   "questID:3": 201098,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe void siphon is used to obtain void seeds from a flux rift. You can also use causality collapsers but they are not as reliable.\n\nTo make a flux rift, you need high levels of flux in a chunk. The best way of doing this is to go far far away from your base, and to drop a lot of compressed cobblestone into a crucible.\n\nPlace the siphon near the rift, and it will slowly suck it and drop void seeds nearby. You can collect those with a vacuum chest of some sort.\n\nIf you want to use the collapser, just click it on a rift, and it will explode with a chance of dropping void seeds.\n\nAfter making an initial batch, the void seedling can be used to safely automate void seeds.",
+      "desc:8": "§7§o虚空吸管可从咒波裂隙中获得虚空种子。也可使用悖论物质获得种子，但是不怎么可靠。\n\n要生成咒波裂隙，需要一个有高咒波值的区块。在远离基地的地方或者直接前往其他维度，向坩埚中丢入大量压缩圆石来达成要求。\n\n在裂隙附近放置虚空吸管，它会缓慢汲取虚空之力，在附近掉落虚空种子。使用物品收集器等方法收集种子。\n\n若想使用悖论物质，将其想雪球一样丢向裂隙，接触方块时产生爆炸。若爆炸范围内存在裂隙，裂隙将闭合并掉落随机数量的虚空种子。\n\n获取最初一批虚空种子之后，可使用虚空芽自动化安全获得虚空种子。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:void_seed"
       },
-      "name:8": "Void Seed"
+      "name:8": "虚空种子"
     }
   },
   "questID:3": 20219,

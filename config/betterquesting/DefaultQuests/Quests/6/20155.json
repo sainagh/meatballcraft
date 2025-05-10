@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe pire daisy converts the eight blocks that are placed around it!",
+      "desc:8": "§7§o白雏菊能转化环绕其放置的8个方块！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "puredaisy"
         }
       },
-      "name:8": "Pure Daisy"
+      "name:8": "白雏菊"
     }
   },
   "questID:3": 20155,

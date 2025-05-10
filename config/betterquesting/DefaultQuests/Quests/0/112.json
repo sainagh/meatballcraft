@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe assembly table is powered by lasers. Each laser needs line of sight to the table. The more lasers, the faster the recipes.\n\nYou can place chests nearby the assembly tables for the output.\n\n§fTime for some some lasers!\nThe assembly table should allow me to build some good logic processors and circuits.",
+      "desc:8": "§7§o装配台由镭射器供能。镭射器与装配台不能有阻碍。镭射器越多，合成速度越快。\n\n可在装配台附近放置箱子来收集产物。\n\n§f是时候来点激光了！\n通过装配台，我可以制作一些优质的逻辑处理器和芯片。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "buildcraftsilicon:assembly_table"
       },
-      "name:8": "Laser Fabrication"
+      "name:8": "激光合成"
     }
   },
   "questID:3": 112,

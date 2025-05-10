@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe chaos dragon is beatable in chapter 2, and astral sorcery has some tools that can be used to do that.\n\nChaos protection is a great armor trait, and it can only be obtained with astral, and so is the way of imprisoning mobs...\n\n§fThere are a lot of weapons that deal a lot of damage, and chaos protection is indeed available...\nIf only there were powerful spells and enchantments to help me...",
+      "desc:8": "§7§o混沌守卫在第2章就可尝试攻略，某些星辉魔法的工具会很有用处。\n\n混沌抗性是不错的盔甲属性，只可通过星辉魔法获得，同时，星辉魔法也能监禁生物……\n\n§f有很多武器能造成不错的伤害，而且混沌抗性确实能获得……\n再有些不错的法术和魔咒就更好了……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:chaos_shard"
       },
-      "name:8": "Chaos Shard??"
+      "name:8": "混沌碎片？？"
     }
   },
   "questID:3": 20108,

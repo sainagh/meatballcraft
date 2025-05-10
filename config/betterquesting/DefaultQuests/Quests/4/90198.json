@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAutomatically places blocks from its internal buffer.",
+      "desc:8": "§7§o从内部缓存中自动放置方块。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_placer"
       },
-      "name:8": "Auto-Placer"
+      "name:8": "方块放置器"
     }
   },
   "questID:3": 90198,

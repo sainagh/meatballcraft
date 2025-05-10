@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo store enchantments!",
+      "desc:8": "§7§o用于存储附魔书！（推荐使用魔咒图书馆）",
       "icon:10": {
         "Count:3": 1,
         "id:8": "cyclicmagic:block_library_ctrl"
       },
-      "name:8": "Ender Library"
+      "name:8": "末影图书馆"
     }
   },
   "questID:3": 1194,

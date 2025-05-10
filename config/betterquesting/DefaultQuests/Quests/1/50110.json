@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe ender book allows you to save locations, and to teleport at the cost of XP. It can be found in dungeons, or crafted!",
+      "desc:8": "§7§o末影之书可存储地点，并消耗XP传送。可在地牢中找到，也可自己合成！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "cyclicmagic:book_ender",
         "tag:10": {}
       },
-      "name:8": "Ender Book"
+      "name:8": "末影之书"
     }
   },
   "questID:3": 50110,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYes, automatich!\n\n§fThe mechanized coop automatically produces chicken drops from their spawn eggs.",
+      "desc:8": "§7§o对，全自动！\n\n§f机械鸡舍能自动从对应鸡的刷怪蛋中生成产物。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:mechanized_coop"
         }
       },
-      "name:8": "Automatich Chickens"
+      "name:8": "自动化养鸡"
     }
   },
   "questID:3": 20416,

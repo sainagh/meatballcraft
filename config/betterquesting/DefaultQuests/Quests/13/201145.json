@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 450\nMining Level: Obsidian\nMining Speed: 7.86\nAttack: 9.53\n\nHandle\nModifier: 1.23\nDurability: 140\n\nExtra\nDurability: 120\n\nBows\nDrawspeed: 1.79\nRange Multiplier: 1.45\nBonus Damage: 7",
+      "desc:8": "顶端\n耐久：450\n挖掘等级：黑曜石\n挖掘速度：7.86\n攻击力：9.53\n\n手柄\n手柄系数：1.23\n耐久：140\n\n其它部件\n耐久：120\n\n弓\n拉弓速度：1.79\n范围系数：1.45\n附加伤害：7",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "refinediron"
         }
       },
-      "name:8": "Refined Iron"
+      "name:8": "精炼铁"
     }
   },
   "questID:3": 201145,

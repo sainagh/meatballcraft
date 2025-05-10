@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe witches altar is how you generate magical energy (ME) in bewitchment!\n\nThe structure for the altar is a 3x2 table, and it can be made by any type of altar. Right click the structure with a vanilla carpet to form the altar!\n\nThe altar generates energy passively. Right clicking the altar with an empty hand will tell you the available energy, as well as the maximum energy for the altar. Most mechanics in bewitchment use ME to run!\n\nThe amount of diverse nature (crops, trees, flowers) will set the maximum ME. The more different plants you have, the higher the maximum energy in the altar!\n\nYou can place statues around the altar, or particular artifacts on the altar to add multipliers to ME rate and amount. These will show up when searching \u0027witches altar\u0027 in JEI.",
+      "desc:8": "§7§o在巫师之路模组中，需要使用女巫祭坛来产生魔力（ME）！\n\n祭坛结构是一个3x2的桌子，可以用任意种类祭坛方块组成。使用原版地毯右击来使祭坛成型！\n\n祭坛会被动产生魔力。空手右击祭坛会显示可用魔力及最大魔力。巫师之路的许多机制都需要魔力来运行！\n\n自然方块（作物、树、花）的种类关乎魔力上限。祭坛周围的植物种类越多，魔力上限越高！\n\n可以通过祭坛周围放置雕像，或在祭坛上摆放物品，来为ME上限和回复速度提供加成。在JEI中搜索“女巫祭坛”来显示相关物品。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:stone_witches_altar"
       },
-      "name:8": "Altar"
+      "name:8": "祭坛"
     }
   },
   "questID:3": 20336,

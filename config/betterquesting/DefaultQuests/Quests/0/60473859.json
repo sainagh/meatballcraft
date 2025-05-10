@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    283823173
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oYou don\u0027t want this, but if you wanted it...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:recurring_nightmare_block"
+      },
+      "name:8": "Recurring Nightmares"
+    }
+  },
+  "questID:3": 60473859,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:recurring_nightmare_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSlay tier 2 and 3 gaia guardians, and slay the bosses in the dungeon of arcana.",
+      "desc:8": "§7§o击杀2级和3级盖亚守护者，并击杀秘界地牢中的Boss。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:arcanite_blade",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Arcanium Blade"
+            "Name:8": "秘金之刃"
           },
           "ench:9": {
             "0:10": {
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Arcanium Blade"
+      "name:8": "秘金之刃"
     }
   },
   "questID:3": 990,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oArcanium Blade§r"
+              "Name:8": "§6§o秘金之刃§r"
             },
             "ench:9": {
               "0:10": {

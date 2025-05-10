@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Oil separation is truly a wonderful process!",
+      "desc:8": "油气分离过程真是美妙！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "buildcraftfactory:distiller"
       },
-      "name:8": "Distiller"
+      "name:8": "蒸馏器"
     }
   },
   "questID:3": 20559,

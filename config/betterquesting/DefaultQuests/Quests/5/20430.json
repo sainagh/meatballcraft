@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Want a synthetic source of flavorless food?\nThen this may be what you need...\nOh and there\u0027s pink slime!",
+      "desc:8": "想合成无味食物？\n你可能需要这个……\n哦，还有粉红粘液！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:mob_slaughter_factory"
       },
-      "name:8": "Mob Slaughter Factory"
+      "name:8": "生物屠宰厂"
     }
   },
   "questID:3": 20430,

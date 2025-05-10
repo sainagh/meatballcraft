@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDivineRPG has the best starting armor. Rupee is good for short term, and bedrock and elite realmite will be good for the nether!\n\n§rWOW! The creatures living here really do not like me!\nIt seems like evolution here happened in ways that are very different from Earth. There are so many different \u0027dominant species\u0027, which makes me wonder, is this what our planet looked like millions of years ago, before humanity started taking over?\nThis is crazy to believe, but some of these creatures are naturally able to travel through higher dimensions, it took us thousands of years just to open a single wormhole, and these things can do it naturally?!? ",
+      "desc:8": "§7§o神圣RPG模组有着最好的初始盔甲。卢比套适合短期使用，而基岩和精英现石套则适合在下界使用！\n\n§r哇哦！这儿的生物是真的不喜欢我！\n这里的进化方式似乎与地球截然不同。这里有这么多不同的“优势物种”，这让我不禁遐想，在数百万年前，人类统治世界之前，我们的星球是否也是这般模样？\n简直难以置信，但其中有些生物生来就能穿梭更高的维度，我们花了数千年才打开这么一个虫洞，这些东西就这么理所应当地做到了？！？",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -12,7 +12,7 @@
         },
         "id:8": "minecraft:iron_sword"
       },
-      "name:8": "Time to Fight!"
+      "name:8": "战斗时间！"
     }
   },
   "questID:3": 31,

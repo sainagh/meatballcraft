@@ -7,10 +7,9 @@
       "desc:8": "",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1,
-        "id:8": "minecraft:sand"
+        "id:8": "tardis:gallifreyan_grass"
       },
-      "name:8": "Gallifrey"
+      "name:8": "伽里弗雷"
     }
   },
   "questID:3": 1365,
@@ -19,8 +18,18 @@
       "dimension:3": 624,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Gallifrey",
+      "name:8": "伽里弗雷",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tardis:gallifreyan_grass"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

@@ -1,0 +1,63 @@
+{
+    "name": "compactmachines3:dyson_revolver_helper",
+    "target-item": "modularmachinery:dyson_revolver_controller",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+    "input-types": {
+      "a": {
+        "id": "modularmachinery:dyson_scatterer_controller",
+        "meta": 0
+      },
+      "b": {
+        "id": "contenttweaker:cosmic_balance_coil",
+        "meta": 0
+      },
+      "c": {
+        "id": "modularmachinery:dyson_revolver_controller",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "a"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ]
+      ],
+      [
+        [
+          "b"
+        ],
+        [
+          "b"
+        ],
+        [
+          "b"
+        ],
+        [
+          "b"
+        ],
+        [
+          "c"
+        ]
+      ]
+    ]
+     
+}

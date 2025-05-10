@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The simple flow of water can passively produce a small amount of RF from a water wheel connected to a dynamo.\nThe more flowing water, the higher the rate!\n\ntip: Up to three water wheels can be connected to a single dynamo.",
+      "desc:8": "只需要简单的水流，便可以从连接到发电机的水车中被动产出少量RF。\n接触的水流越多，产能越高！\n\n提示：单个动能发电机最多连接3个水车。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "immersiveengineering:wooden_device1"
       },
-      "name:8": "Water Wheel"
+      "name:8": "水车"
     }
   },
   "questID:3": 50166,

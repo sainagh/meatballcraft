@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Used to craft machines from nuclearcraft (see manufacturing and fabrication)",
+      "desc:8": "§7§o用于制作核电工艺模组的机器（可前往§c§o制作与加工§o§r§o§7§o查看）",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 10,
         "id:8": "nuclearcraft:part"
       },
-      "name:8": "Machine Chassis"
+      "name:8": "机器底盘"
     }
   },
   "questID:3": 108,

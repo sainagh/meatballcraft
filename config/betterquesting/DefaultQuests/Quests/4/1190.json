@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAll conduits share the same block space, making them very useful for compact automations!",
+      "desc:8": "§7§o不同种类的导管共用相同的方块空间，因此非常适用于紧密布局的自动化！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "enderio:item_endergy_conduit"
       },
-      "name:8": "Copper Energy Conduit"
+      "name:8": "铜能量导管"
     }
   },
   "questID:3": 1190,

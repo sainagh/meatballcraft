@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    718654576
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe quests following this one are not required to reach the end of the pack, but you may want to complete them for other reasons ;)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:void_ichorium_rift"
+      },
+      "name:8": "Fuhai"
+    }
+  },
+  "questID:3": 1843441452,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:void_ichorium_rift"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

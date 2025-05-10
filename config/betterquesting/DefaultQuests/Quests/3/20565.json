@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "At the cost of some grid powewr and some RF, this machine can harness the power of enchanting to create some pretty cool things.\nJust like an enchanting table, this requires some external boost (from bookshelves, magical wood, etc.)",
+      "desc:8": "通过使用GP，并消耗一些RF，这台机器能利用附魔之力来制作一些不错的物品。\n与附魔台类似，需要一些额外的附魔能力提升（书架、魔法木等）",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:machine",
@@ -12,7 +12,7 @@
           "Type:8": "extrautils2:enchanter"
         }
       },
-      "name:8": "Enchanter"
+      "name:8": "附魔器"
     }
   },
   "questID:3": 20565,

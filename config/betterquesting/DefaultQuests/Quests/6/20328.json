@@ -5,14 +5,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBewitchment is a mod focused on natural magic and demons.\n\nIt provides some player tools.\n\nThe mod has a basic support of automation, but it is not the best, so custom multiblocks will eventually replace many of its base machines.",
+      "desc:8": "§7§o巫师之路是一款专注于自然魔法与恶魔的模组。\n\n该模组提供了一些玩家实用工具。\n\n该模组本身支持基础的自动化，但效果并非最佳，之后可使用自定义多方块结构取代其基础机器。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Bewitchment"
+      "name:8": "巫师之路"
     }
   },
   "questID:3": 20328,

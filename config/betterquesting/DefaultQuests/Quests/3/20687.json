@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Just like wine makers in the middle ages.\nJump on it, and the juice will come out!",
+      "desc:8": "像是中世纪的酿酒器一样。\n在上面蹦蹦跳跳，就能榨出汁液来！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "integrateddynamics:squeezer"
       },
-      "name:8": "Squeezer"
+      "name:8": "挤压机"
     }
   },
   "questID:3": 20687,

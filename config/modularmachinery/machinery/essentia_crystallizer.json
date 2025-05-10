@@ -15,6 +15,19 @@
                 "operation": 1,
                 "multiplier": 4
             }
+        },
+        {
+            "elements": "contenttweaker:echo_warren_stone@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "替换中间方块以获得产出x20",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 20
+            }
         }
     ],
     "parts": [

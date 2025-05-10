@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§o§7§oHere are the best EMC farms for the modpack!\n\n§fAlchemy is a great science, and it allows for the replication and conversion of objects that possess EMC.\nThis is the easiest way of making matter, but unfortunately, not everything has EMC...",
+      "desc:8": "§o§7§o这里展示了本整合包中最佳的EMC刷取方法！\n\n§f炼金术是一门伟大的科学，它能实现具有EMC值物体的复制与转化。\n这是制造物质最便捷的方式，但遗憾的是，并非所有东西都有EMC……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Alchemical Brothers"
+      "name:8": "炼金兄弟"
     }
   },
   "questID:3": 20418,

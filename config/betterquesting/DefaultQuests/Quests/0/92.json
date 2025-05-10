@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMore info about woot is found on §cbook of creation §7§oand §cmanufacturing and fabrication.\n\n§fAt this point I have no doubt I\u0027m being manipulated in some way.\nThe same \u0027thing\u0027 that keeps me alive is driving me towards the making of stygian iron, which allows me to magically manipulate souls.\nI know this power is wrong, but I can\u0027t help it! I have to figure out what\u0027s going on with me!",
+      "desc:8": "§7§o更多关于Woot模组的信息可查看§c创造之书§7§o和§c制作与加工§7§o。\n\n§f此刻，我毫不怀疑自己正被某种力量操控着。\n那个维持我生命的“存在”，正驱使我去铸造地狱铁——这种金属竟能让我操纵灵魂。\n明知这种力量并非正道，我却无法抗拒！必须查明发生在我身上的真相！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "woot:anvil"
       },
-      "name:8": "This may be a little evil..."
+      "name:8": "可能会有点邪恶……"
     }
   },
   "questID:3": 92,

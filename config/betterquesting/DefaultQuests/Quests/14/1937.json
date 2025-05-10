@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oLets you copy and paste structures.\n\nYou can also load structures from the internet using the template manager and templates.",
+      "desc:8": "§7§o能复制、粘贴建筑。\n\n也可使用模板和模板管理器加载网上其他人分享的建筑。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "buildinggadgets:copypastetool",
@@ -13,7 +13,7 @@
           "mode:8": "Copy"
         }
       },
-      "name:8": "Copy-Paste Gadget"
+      "name:8": "复制-粘贴小帮手"
     }
   },
   "questID:3": 1937,

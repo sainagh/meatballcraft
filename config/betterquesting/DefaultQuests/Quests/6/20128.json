@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Staffs are used to make Abyssalcraft Essences.\n\nRight click a Staff on Abyssalcraft Mobs on a given dimension to drain some of their HP and absorb energy.\n\nAfter energy reaches a treshold, an essence will be made.",
+      "desc:8": "§7§o法杖用于制作深渊国度模组的精华。\n\n对深渊国度模组对应维度的怪物右击，消耗其生命来吸收能量。\n\n达到阈值后，会产出精华。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:drainstaff"
       },
-      "name:8": "Staff of Rending"
+      "name:8": "撕裂法杖"
     }
   },
   "questID:3": 20128,

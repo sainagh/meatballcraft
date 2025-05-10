@@ -13,7 +13,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can complete this quest with any material!\n\nWorks like a bow, it does more damage, and has more range, but it takes longer to load. It requires tinker\u0027s arrows to shoot!",
+      "desc:8": "§7§o使用任意材料制作均可完成本任务！\n\n与弓类似，伤害更高，范围更远，但拉弓时间更长。需要匠魂模组的箭矢才能射击！",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -92,7 +92,7 @@
           }
         }
       },
-      "name:8": "Longbow"
+      "name:8": "长弓"
     }
   },
   "questID:3": 1093,

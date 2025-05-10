@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Way better!",
+      "desc:8": "更好！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "thermalexpansion:reservoir",
         "tag:10": {}
       },
-      "name:8": "Reservoir (Hardened)"
+      "name:8": "贮液器 (硬化)"
     }
   },
   "questID:3": 50142,

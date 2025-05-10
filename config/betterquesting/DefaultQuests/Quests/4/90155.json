@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPatters are used to store crafting and processing recipes so that your AE2 network can autocraft!\n\nPatterns are encoded in the pattern terminal (any type).\n\nTo perform a recipe, place a pattern into an interface. If this is set up correctly, you will be able to requiest automatic crafting of items from your crafting terminal!\n\nIf the interface is touching a molecular assembler, it will perform a crafting recipe.\n\nIf the interface is next to a machine (furnace, pulverizer, chest, etc) it will perform a processing recipe.",
+      "desc:8": "§7§o样板可存储用于AE网络自动合成的合成或处理配方！\n\n样板可在（任意种类）样板终端内进行编码。\n\n要执行配方，需将样板放入接口内。若配置正确，便可通过终端请求自动合成物品！\n\n若接口与分子装配室相邻，将执行合成配方。\n\n若接口与机器（熔炉、磨粉机、箱子等）相邻，将执行处理配方。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 52,
         "id:8": "appliedenergistics2:material"
       },
-      "name:8": "Blank Pattern"
+      "name:8": "空白样板"
     }
   },
   "questID:3": 90155,

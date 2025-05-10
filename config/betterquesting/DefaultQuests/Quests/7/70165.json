@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Nether.",
+      "desc:8": "§7§o发现于下界。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 11,
         "id:8": "techreborn:dust"
       },
-      "name:8": "Cinnabar Dust"
+      "name:8": "朱砂粉"
     }
   },
   "questID:3": 70165,

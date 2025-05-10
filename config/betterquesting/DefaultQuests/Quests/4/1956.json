@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oChicken Bones edition of wireless redstone lets you send redstone at a distance!\n\nA transmitter will connect to a receiver if they have the same ID. \n\nIDs can be defined using numbers, an additional name, and an item icon, making it easy to identify your channels!",
+      "desc:8": "§7§oChicken Bones版本的无线红石模组可远程传输红石信号！\n\n相同ID的传达器和接收器会相互连接。\n\n可为每个ID分配数字编号、自定义名称及物品图标，以直观区分不同频道！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "wrcbe:wireless_logic"
       },
-      "name:8": "CBE Wireless"
+      "name:8": "无线红石鸡骨头版"
     }
   },
   "questID:3": 1956,

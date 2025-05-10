@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou gotta explore to unlock this! Multiple structures use blast bricks and coal coke!\n\nThe shickaxe is a versatile, unbreakable all-in-one tool, it should be very helpful!\n\n§rAfter spending some time here, I have really learned a lot, I think I can use this knowledge to improve my manufacturing capabilities.",
+      "desc:8": "§7§o你需要进行探索才能解锁该物品！高炉砖和焦煤在多种建筑中都有存在！\n\n锹镐斧是不仅是多功能工具，而且还有无限耐久，会很有用的！\n\n§r在这里度过了些时日之后，我着实学到了不少，我可以用这些知识来提高我的制作能力。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:alien_material_manual"
       },
-      "name:8": "Alien Materials"
+      "name:8": "异星材料"
     }
   },
   "questID:3": 48,
@@ -31,7 +31,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:alien_material_manual"
             },
-            "TrophyName:8": "Alien Materials Specialist",
+            "TrophyName:8": "异星材料专家",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

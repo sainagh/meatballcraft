@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in Darklands biomes.\nFound in dragon dens.",
+      "desc:8": "§7§o发现于黑暗之地（Darklands）群系。\n发现于龙巢。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:abyingot"
       },
-      "name:8": "Abyssalnite Ingot"
+      "name:8": "渊素锭"
     }
   },
   "questID:3": 70065,

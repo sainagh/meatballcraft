@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe witches oven uses ME to craft! Place it near the witches altar!\n\nJEI will tell you the recipes done by the witches oven!",
+      "desc:8": "§7§o女巫烤箱来制作物品！将其放置在女巫祭坛周围！\n\n可在JEI中查看女巫烤箱支持的配方！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:witches_oven"
       },
-      "name:8": "Witches Oven"
+      "name:8": "女巫烤箱"
     }
   },
   "questID:3": 20332,

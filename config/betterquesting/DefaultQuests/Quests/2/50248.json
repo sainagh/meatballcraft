@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "It will split!",
+      "desc:8": "它还能分裂！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "nuclearcraft:depleted_fuel_americium"
       },
-      "name:8": "Depleted HEA-242 Fuel"
+      "name:8": "枯竭高密度镅-242燃料"
     }
   },
   "questID:3": 50248,

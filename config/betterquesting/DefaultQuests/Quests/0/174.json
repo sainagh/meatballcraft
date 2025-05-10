@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Have I finally found allies? Well, sort of...\nBefore coming to Terra, the Shyre Empire appears to have taken over \u0027buffer worlds\u0027 to prevent retaliation from damaging their territories.\nA group of testificates was indeed able to fight back, and travelled through one of the wormholes left over by corallus.\nThese testificates, though, appear to have seen too much...\nThe world of Taerrapiatta is the original home of the pumpkin people, and is now home to others that have witnessed the might of the shyre empire. Just seeing what thay can do has scarred them for life...\nWell, I\u0027m already scarred for life, sooo...\nAnd, as an extra plus, those PTSD testificates, wanting to help the effort against the great powers of the universe, have started breeding bees that, they say, will be helpful later...",
+      "desc:8": "我终于找到盟友了吗？呃，算是吧……\n在降临泰拉之前，塞尔瑞帝国似乎占领了多个“缓冲世界”，来防止敌方反击波及本土。\n一群泰斯提斐人确实成功进行了反击，并穿越了珊瑚守卫者留下的其中一个虫洞。\n不过，这些泰斯提斐人似乎看到得太多了……\n地平界是南瓜人的故乡，如今也接纳了其他见证过塞尔瑞帝国威能的流亡者。仅仅是目睹其所作所为，就给他们留下了终生创伤……\n反正我的人生已经千疮百孔了，所以嘛……\n此外，为协助对抗宇宙中的各种强大力量，这些患有PTSD的泰斯提斐人开始培育蜜蜂，他们说日后能派上用场的……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:taerrapiatta_warper"
       },
-      "name:8": "Experiment #1"
+      "name:8": "实验 #1"
     }
   },
   "questID:3": 174,
@@ -36,9 +36,26 @@
         "0:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:taerrapiatta_warper"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:wormhole_field_module"
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:wormhole_field_generator"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

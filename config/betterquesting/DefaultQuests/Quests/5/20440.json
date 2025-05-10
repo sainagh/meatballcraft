@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWoot upgrades are placed on the upgrade casings.\n\nFor multiple levels of the same upgrade, you should stack them in order, with the lower tier at the bottom, and the higher at the top.\n\n§fDigital factories can be upgraded, weeeeeee!",
+      "desc:8": "§7§oWoot升级应放置在工厂升级基座上。\n\n对于同种类的各级升级，应当按顺序堆放，低等级在下面，高等级在上面。\n\n§f数字化工厂还能升级，好耶！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 9,
         "id:8": "woot:upgrade"
       },
-      "name:8": "Woot Upgrades"
+      "name:8": "Woot升级"
     }
   },
   "questID:3": 20440,

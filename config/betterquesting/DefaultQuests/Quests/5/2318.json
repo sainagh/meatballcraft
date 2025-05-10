@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEnchanting table that runs on liquid XP and energy.",
+      "desc:8": "§7§o使用液态经验和能量的附魔台。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "cyclicmagic:block_enchanter"
       },
-      "name:8": "Cyclic Enchanter"
+      "name:8": "循环模组的附魔器"
     }
   },
   "questID:3": 2318,

@@ -5,14 +5,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests will guide you through thaumcraft, a mod focused on thaumturgy and the energy that permeates every aspect of reality!\n\nNOTE: these quests are designed around using the really scary vishroom, which is the recommended way to progress through the mod. If you do not want to go this route, just follow the thaumonomicon!\n\nThe mod and its addons provide for powerful tools and player upgrades.\n\nThe magic energies in Thaumcraft consis of Vis, which exists in the world by itself, and will slowly replenish itself if used, Flux, a radiation-like mechanic that causes bad effects, Warp, a player-bound system that produces negative effects, and Essentia, consisting of custom resources that can be obtained from most of the items in the pack.\n\nThe quests here will walk you through Thaumcraft and its many addons, Thaumic Energistics, Thaumic Wonders, Thaumic Additions, Thaumic Augmentation, Thaumic Tinkerer.",
+      "desc:8": "§7§o以下任务将引导你探索神秘时模组，一个以神秘（Thaumaturgy）为核心，专注于研究渗透现实要素的能量的模组！\n\n注意：这些任务流程基于使用“惊怖纤毛菇”，这是推荐推进模组进度的方式。如果您不想选择此路线，请直接按照魔导手册进行！\n\n本模组及其附属模组提供了强大的工具和玩家升级系统。\n\n神秘时代的魔法能量体系包含：魔力（Vis）：自然存在于世界中的基础能量，使用后会缓慢恢复；咒波（Flux）：类似辐射的机制，会造成负面效果；扭曲（Warp）：与玩家绑定的特殊系统，会造成负面效果；以及要素（Essentia）：由本整合包内多数物品提炼而成的定制化资源。\n\n本系列任务将带你全面体验神秘时代及其多个附属模组：神秘能源、神秘奇境、神秘领域、神秘进阶、神秘工匠。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Thaumcraft"
+      "name:8": "神秘时代"
     }
   },
   "questID:3": 20196,

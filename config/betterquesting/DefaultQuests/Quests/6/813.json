@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis ritual will make power directly into a battery. You will need to place some blocks on the flat section of the ritual!\n\nPlace 16 blood tanks on the water stones on the outer layer, these are filled with life essence (refined works better).\n\nPlace 16 blood tanks on the fire stones in the middle layer, these are filled with lava.\n\nYou can use blood tanks of any size!\n\nPlace 16 stasis plates on all blocks in the inner layer. Place glowstone on the stasis plates.\n\nPlace a stasis plate on the master ritual stone. Place a flint and steel on the stasis plate.\n\nPlace eight netherracks around the fire stone below the ritual stone. Set these on fire.\n\nPlace any battery (capacitor bank, energy cell, etc.) on top of the stasis plate above the ritual stone.",
+      "desc:8": "§7§o该仪式可直接向电池注入能量。需要在仪式的平坦区域放置一些方块！\n\n在外层的水之仪式石上放置16个血法师的储罐，需装满生命源质（精炼生命精华效果更佳）。\n\n在中间层的火之仪式石上放置16个血法师的储罐，需装满熔岩。\n\n可使用任意容量的储罐！\n\n在内层所有方块上放置16个瘀板，并在瘀板内放上荧石。\n\n在主仪式石上放置一个瘀板，并在瘀板内放上打火石。\n\n在主仪式石下方的火之仪式石周围放置8个地狱岩，并将其点燃。\n\n最后在主仪式石上瘀板的顶部放置任意电池（电容库、能量单元等）。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Blood Burner Rites"
+      "name:8": "燃血仪式"
     }
   },
   "questID:3": 813,

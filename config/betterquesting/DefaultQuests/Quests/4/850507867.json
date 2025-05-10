@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe space chamber is the most versatile way to automatically place large structures.\n\nTo copy a shape to be automatically built, place Space Chamber Corner Blocks in 7 of the 8 corners of the structure you want built, and the Controller in the 8th and final corner.\n\nRight click the controller with a Wrench to set the structure.\n\nIf the structure is set correctly, right clicking the controller with a Space Chamber Card will program it for the desired structure.\n\nPlace the resulting card in a builder to auto-build your desired structure.",
+      "desc:8": "§7§o空间仓是自动放置大型结构的最通用方法。\n\n要复制进行自动搭建的结构，将7个空间角落方块放置在结构空间范围的8个角落里，最后一个角落放置空间控制方块。\n\n使用智能扳手右击控制方块来设置结构。\n\n若结构设置正确，使用空间仓卡右击控制方块，结构将加载到空间仓卡中。\n\n将得到的空间仓卡放入建造机中来自动搭建记录的结构。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftools:space_chamber_controller",
@@ -16,7 +16,7 @@
           "owner:8": "meatballcraft"
         }
       },
-      "name:8": "Space Chamber"
+      "name:8": "空间仓"
     }
   },
   "questID:3": 850507867,

@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "And californium works too!",
+      "desc:8": "锎也一样行得通！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 32767,
         "OreDict:8": "depletedFuelHECf249",
         "id:8": "nuclearcraft:depleted_fuel_californium"
       },
-      "name:8": "Depeled HECf-249 Fuel"
+      "name:8": "枯竭高密度锎-249燃料"
     }
   },
   "questID:3": 50245,

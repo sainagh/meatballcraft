@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRespiration and fast swimming.",
+      "desc:8": "§7§o水下呼吸，提高游泳速度。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 8,
         "id:8": "tombstone:scroll_buff"
       },
-      "name:8": "Aquatic Life"
+      "name:8": "水生生物"
     }
   },
   "questID:3": 2311,

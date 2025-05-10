@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is part of a multiblock.\n\nRight click the ritual altar with a sextant to see a preview of the multiblock.\n\nPlace an attuned celestial crystal on the formed altar to produce a special effect. Some are very powerful!\n\nThe quests for each attunement will list the ritual effects!",
+      "desc:8": "§7§o仪式基座是多方块结构的一部分。\n\n使用六分仪右击仪式基座可查看多方块预览。\n\n将未共鸣的天辉水晶石放置在成型的祭坛上以产生特殊效果。有些效果十分强力！\n\n以下任务列出了所有共鸣对应的仪式效果！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:blockritualpedestal"
       },
-      "name:8": "Ritual Pedestal"
+      "name:8": "仪式基座"
     }
   },
   "questID:3": 20354,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRight click a grave to give your key the abilty to teleport you.\n\n§rIt seems like I can gain some control over this \u0027undeath\u0027 power. \nBy infusing stone with this weird powder, I can fast travel back to my point of \u0027death\u0027.",
+      "desc:8": "§7§o右击坟墓让钥匙获得传送能力。\n\n§r我似乎能在某种程度上控制这种“不死”之力。\n通过用这种古怪的粉末灌注石头，我可以快速传送回之前的“死亡”点。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tombstone:decorative_grave_simple"
       },
-      "name:8": "Am I the Highlander?"
+      "name:8": "我是高地人？"
     }
   },
   "questID:3": 9,

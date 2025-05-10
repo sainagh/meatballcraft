@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Satellites are quite neat.\nI have the ability to bring forth natural resources from bees and plants, so sending objects in space doesn\u0027t feel as appealing, but who knows, maybe there\u0027s something out there I haven\u0027t seen yet.\nAfter all, everything is in space.",
+      "desc:8": "卫星的确巧妙。\n虽说我能从蜜蜂与植物中获取自然资源，发射物体到太空的吸引力似乎不大，不过谁知道呢，或许宇宙中还存在我未曾见识的奥秘呢？\n毕竟，万物皆在宇宙之中。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "advancedrocketry:satellitebuilder"
       },
-      "name:8": "Space Garbage"
+      "name:8": "太空垃圾"
     }
   },
   "questID:3": 184,
@@ -34,7 +34,7 @@
               "Damage:2": 0,
               "id:8": "advancedrocketry:satellite"
             },
-            "TrophyName:8": "Making Space Garbage 101",
+            "TrophyName:8": "太空垃圾制造入门",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

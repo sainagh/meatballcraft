@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Like the furnace generator, but faster!",
+      "desc:8": "类似熔炉发电机，但消耗速度更快！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:machine",
@@ -12,7 +12,7 @@
           "Type:8": "extrautils2:generator_overclock"
         }
       },
-      "name:8": "Overclocked Generator (OK)"
+      "name:8": "超频发电机（一般）"
     }
   },
   "questID:3": 50273,

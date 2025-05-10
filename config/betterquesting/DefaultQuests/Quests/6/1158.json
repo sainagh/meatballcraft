@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMakes the area around it blighted.",
+      "desc:8": "§7§o使当前区域枯萎贫瘠。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:salt"
       },
-      "name:8": "Rite of Blighted Lands"
+      "name:8": "枯萎之地仪式"
     }
   },
   "questID:3": 1158,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe ME terminal lets you see all items stored in your storage system, and it lets you access it as a searchable chest.\n\nYou should upgrade to the crafting terminal ASAP!",
+      "desc:8": "§7§oME终端可查看存储系统中储存的所有物品，类似与具有搜索功能的大箱子。\n\n应尽快将其升级为合成终端！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 380,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "ME Terminal"
+      "name:8": "ME终端"
     }
   },
   "questID:3": 1239,

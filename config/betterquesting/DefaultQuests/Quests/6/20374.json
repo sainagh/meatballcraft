@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound at coordinates 0,0 in Omothol.",
+      "desc:8": "§7§o发现于奥穆索(0,0)坐标。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:gatekeeperessence"
       },
-      "name:8": "Essence of The Gatekeeper"
+      "name:8": "守门者精华"
     }
   },
   "questID:3": 20374,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Barathos Dimension from Advent of Ascension.\nCan be found from opening Shiny Boxes.\nCan be found in chests from a Baron Castle.\nSpawns between Y\u003d23 and Y\u003d36.\n\n- Written by Bluecat",
+      "desc:8": "§7§o发现于虚无世界模组的爵士维度。\n可通过打开闪亮的盒子获得。\n可发现于爵士城堡的箱子内。\n生成于Y\u003d23与Y\u003d36之间。\n\n- Bluecat撰写",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:baronyte_ingot"
       },
-      "name:8": "Baronyte Ingot"
+      "name:8": "爵士锭"
     }
   },
   "questID:3": 70233,

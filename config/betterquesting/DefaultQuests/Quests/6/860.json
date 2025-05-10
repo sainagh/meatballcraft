@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is a teleportation system.\n\nTwo rituals that have the same combination of blocks touching the ritual stones will be linked together!",
+      "desc:8": "§7§o一种传送系统。\n\n仪式石接触的方块完全相同的两个仪式会相互连接！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Gate of the Fold"
+      "name:8": "折跃之门"
     }
   },
   "questID:3": 860,

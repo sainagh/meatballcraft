@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The second law of thermodynamics is an unbreakable rule of the \u0027normal\u0027 forces of nature humanity has studied so far, but it seems to apply much more loosely to magical principles.\nWho knows, if it is possible to loop diamonds and fire from the heart of a dragon, maybe the energy/matter cycle of mythic powers can be exploited for a net positive. Maybe...",
+      "desc:8": "热力学第二定律是人类迄今研究的“常规”自然力中不可撼动的铁律，但在魔法领域，这铁律似乎变得柔韧可塑。\n试想，既然能通过龙心实现钻石与烈焰棒的循环再生，或许神话力量的质能转换也能创造出正向增益的能量闭环。这一切仍只是猜想……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:tier1_token"
       },
-      "name:8": "Tier 1 Excavation Token"
+      "name:8": "T1 采掘代币"
     }
   },
   "questID:3": 183,

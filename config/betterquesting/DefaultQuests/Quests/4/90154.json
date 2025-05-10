@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo encode recipes that have more than 9 inputs at once, you cannot use the pattern terminal. Instead, you should use the package recipe encoder to set package recipe holders (these are your patterns).\n\nFor each set of recipes, you should encode TWO recipe holders. Each recipe holder can do up to 20 recipes, categorized as processing, and as each of the extended crafting mechanics.\n\nTo encode a recipe, you can do it similarly to how a pattern terminal works! The plus sign in JEI will work!\n\nYou should NOT encode multiple recipe types (processing, basic table, etc) on the same recipe holder pair!\n\nMake sure you save your recipe holders!\n",
+      "desc:8": "§7§o样板终端无法编码输入原料超过9种的配方。需要在封包配方编码器中使用封包配方存储器（就是样板）进行编码。\n\n每个配方需要编码到两个配方存储器中。每个配方存储器可存储最多20个配方，配方分为处理模式和合成拓展模组新增的所有合成机制。\n\n配方编码方式与样板终端类似！兼容JEI配方转移！\n\n不要在同一对存储器中编码多种类型（处理、基础工作台等）的配方！\n\n配置好配方后记得保存进存储器内！\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "packagedauto:recipe_holder"
       },
-      "name:8": "Package Recipes"
+      "name:8": "封包配方"
     }
   },
   "questID:3": 90154,

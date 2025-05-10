@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe impulse hopper only outputs items in specific batch sizes, but allows inputs of any size.\n\nIt can be used for some automation setups where you want to control item input or output rate.",
+      "desc:8": "§7§o推力漏斗只会在物品完全匹配时才会输出，但对输入没有限制。\n\n可用于某些需要控制输入或输出物比例的自动化。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:block_impulse_hopper"
       },
-      "name:8": "Impulse Hopper"
+      "name:8": "推力漏斗"
     }
   },
   "questID:3": 2349,

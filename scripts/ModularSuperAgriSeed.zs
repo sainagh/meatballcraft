@@ -712,7 +712,54 @@ hypergrowth96.build();
 
 
 
+val hypergrowth97 = RecipeBuilder.newBuilder("hypergrowth97","hypergrowth_insolator",10);
+hypergrowth97.addFluidInput(<fluid:hot_spring_water>*100);
+hypergrowth97.addItemInput(<aoa3:bubble_berry_seeds>);
+hypergrowth97.setChance(0.0);
+hypergrowth97.addItemOutput(<aoa3:bubble_berries>*64);
+hypergrowth97.build();
 
+val hypergrowth98 = RecipeBuilder.newBuilder("hypergrowth98","hypergrowth_insolator",10);
+hypergrowth98.addFluidInput(<fluid:hot_spring_water>*100);
+hypergrowth98.addItemInput(<aoa3:heart_fruit_seeds>);
+hypergrowth98.setChance(0.0);
+hypergrowth98.addItemOutput(<aoa3:heart_fruit>*64);
+hypergrowth98.build();
+
+val hypergrowth99 = RecipeBuilder.newBuilder("hypergrowth99","hypergrowth_insolator",10);
+hypergrowth99.addFluidInput(<fluid:hot_spring_water>*100);
+hypergrowth99.addItemInput(<aoa3:holly_top_seeds>);
+hypergrowth99.setChance(0.0);
+hypergrowth99.addItemOutput(<aoa3:holly_top_petals>*64);
+hypergrowth99.build();
+
+val hypergrowth100 = RecipeBuilder.newBuilder("hypergrowth100","hypergrowth_insolator",10);
+hypergrowth100.addFluidInput(<fluid:hot_spring_water>*100);
+hypergrowth100.addItemInput(<divinerpg:tomato_seeds>);
+hypergrowth100.setChance(0.0);
+hypergrowth100.addItemOutput(<divinerpg:tomato>*64);
+hypergrowth100.build();
+
+val hypergrowth101 = RecipeBuilder.newBuilder("hypergrowth101","hypergrowth_insolator",10);
+hypergrowth101.addFluidInput(<fluid:hot_spring_water>*100);
+hypergrowth101.addItemInput(<divinerpg:marsine_seeds>);
+hypergrowth101.setChance(0.0);
+hypergrowth101.addItemOutput(<divinerpg:marsine>*64);
+hypergrowth101.build();
+
+val hypergrowth102 = RecipeBuilder.newBuilder("hypergrowth102","hypergrowth_insolator",10);
+hypergrowth102.addFluidInput(<fluid:hot_spring_water>*100);
+hypergrowth102.addItemInput(<divinerpg:white_mushroom_seeds>);
+hypergrowth102.setChance(0.0);
+hypergrowth102.addItemOutput(<divinerpg:white_mushroom>*64);
+hypergrowth102.build();
+
+val hypergrowth103 = RecipeBuilder.newBuilder("hypergrowth103","hypergrowth_insolator",10);
+hypergrowth103.addFluidInput(<fluid:hot_spring_water>*100);
+hypergrowth103.addItemInput(<divinerpg:moonbulb_seeds>);
+hypergrowth103.setChance(0.0);
+hypergrowth103.addItemOutput(<divinerpg:moonbulb>*64);
+hypergrowth103.build();
 
 
 

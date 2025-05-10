@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Here is a list of all possible ways of producing RF.\n\nEach option is marked as Great, Good, or OK!",
+      "desc:8": "此处列出了所有产出RF的方法。\n\n分别被分级为优异、良好、一般！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:cobblestone"
       },
-      "name:8": "Moh Powah Bebeh"
+      "name:8": "抛瓦！"
     }
   },
   "questID:3": 50147,

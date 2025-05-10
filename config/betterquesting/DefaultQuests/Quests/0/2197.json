@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe ultimate furnace is incredibly fast.\n\n§fOk, there may be something more to it. I feel like I am getting carried away, my desires seem to have lost their guide.\nI crave the furnace world, and yet, once I am there, I do not feel satisfied. This feels like drugs, and nothing that feels like drugs can be good. I will have to find some tricks to prevent this obsession from taking control.\nIt sure is going to be hard to stay in control, especially when the furnace world has been able to give me these amazing gadgets!",
+      "desc:8": "§7§o终焉熔炉的速度异常的快。\n\n§f好吧，或许确实有些更深层的东西。我感觉自己正在迷失，内心的渴望仿佛失去了航标。\n我疯狂渴望着熔炉世界，可一旦置身其中，却又无法获得满足。这感觉就像吸毒成瘾，而所有类似毒品的东西都绝非善物。我必须找到方法阻止这种执念掌控自己。\n要保持自制力实在太难了，尤其是当熔炉世界还能赐予我这些神奇的装置时！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "mysticalagriculture:ultimate_furnace"
       },
-      "name:8": "Furnace Potential"
+      "name:8": "熔炉潜能"
     }
   },
   "questID:3": 2197,

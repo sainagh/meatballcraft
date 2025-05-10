@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGives nearby players immunity against some bad effects.\n\nWon\u0027t work against warp.§7§o",
+      "desc:8": "§7§o使附近玩家免疫某些负面效果。\n\n不能免疫扭曲。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "mirrowtunia"
         }
       },
-      "name:8": "Mirrortunia"
+      "name:8": "镜姬"
     }
   },
   "questID:3": 1311,

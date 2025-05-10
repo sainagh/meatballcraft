@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCrafted in Omothol.",
+      "desc:8": "§7§o在奥穆索制作。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:necronomicon_omt",
@@ -12,7 +12,7 @@
           "PotEnergy:5": 0.0
         }
       },
-      "name:8": "Omothol Necronomicon"
+      "name:8": "奥穆索死灵之书"
     }
   },
   "questID:3": 20125,

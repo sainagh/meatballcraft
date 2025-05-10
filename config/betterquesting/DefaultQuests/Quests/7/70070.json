@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCan be found between Y\u003d15 and Y\u003d49.\nCan be traded from a Metalloid for 20 Copper Coins.\nCan be harvested from lava at 40 Extraction, Stone at 85 Foraging, and Logs at 95 Logging.\nCan be found in Treasure Boxes and Shiny Boxes.\nLoot Chests from Structures may have these.\n\n- Written by Bluecat",
+      "desc:8": "§7§o发现于Y\u003d15与Y\u003d49之间。\n可与金属收藏家用20铜币交易获得。\n精炼达到40级可从熔岩中获得，采掘达到85级可从石头中获得，砍伐达到95级可从木头中获得。\n通过打开宝藏箱或闪亮的盒子获得。\n结构中的奖励箱可能会有一些。\n\n- Bluecat撰写",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:rosite_ingot"
       },
-      "name:8": "Rosite Ingot"
+      "name:8": "玫石锭"
     }
   },
   "questID:3": 70070,

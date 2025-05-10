@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGetting your dynamos and machines to resonant tier is best!\n\n§rResonant is much, much better than the prior tiers...",
+      "desc:8": "§7§o最好把能源炉和机器升级到谐振等级！\n\n§r谐振比之前几个级别要强，强得多……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "thermalfoundation:upgrade"
       },
-      "name:8": "Way better!"
+      "name:8": "性能更强！"
     }
   },
   "questID:3": 45,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Creeponia Dimension from Advent of Ascension, between Y\u003d2 and Y\u003d15.\n",
+      "desc:8": "§7§o发现于虚无世界模组的蠕变维度，位于Y\u003d2与Y\u003d15之间。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:ornamyte"
       },
-      "name:8": "Ornamyte"
+      "name:8": "奥姆宝石"
     }
   },
   "questID:3": 70239,

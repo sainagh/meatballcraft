@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 600\nMining Level: Stone\nMining Speed: 2.1\nAttack: 7\nSuperheat\n\nHandle\nModifier: 0.85\nDurability: -200\nFlammable\n\nExtra\nDurability: 150\nFlammable\n\nBows\nDrawspeed: 0.91\nRange Multiplier: 1.05\nBonus Damage: 1\nFlammable",
+      "desc:8": "顶端\n耐久：600\n挖掘等级：石头\n挖掘速度：2.1\n攻击力：7\n过热\n\n手柄\n手柄系数：0.85\n耐久：-200\n可燃\n\n其它部件\n耐久：150\n可燃\n\n弓\n拉弓速度：0.91\n范围系数：1.05\n附加伤害：1\n可燃",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "magmaslime"
         }
       },
-      "name:8": "Magma Slime"
+      "name:8": "熔岩史莱姆"
     }
   },
   "questID:3": 201042,

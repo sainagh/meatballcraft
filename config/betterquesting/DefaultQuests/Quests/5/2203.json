@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo breed trees, you need two things: pollen and saplings.\n\nTo collect pollen, you can right click forestry leaves using a pollen collection kit.\n\nThe grafter is a tool that breaks leaves with highly increased drop rates!\n\nWARNING: keeping forestry saplings placed for extended periods of time can cause lag due to the spawning of butterflies!\n\nThe portable analyzer can be used to check the stats and genes of your trees. These are not as important as bee genetics, since there is a custom multiblock that lets you farm trees in a lag-free environment!\n\n",
+      "desc:8": "§7§o培育树木需要两样东西：花粉和树苗。\n\n要收集花粉，使用花粉收集装备有机林业模组的树叶。\n\n用剪枝器破坏的树叶有极高概率掉落树苗！\n\n警告：长时间放置林业树苗可能导致因蝴蝶大量生成而产生的延迟问题！\n\n便携式多用分析仪可查看树木的属性和基因。由于存在能以低卡顿环境种植树木的自定义多方块结构，树木基因的重要性远低于蜜蜂！\n\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
@@ -13,7 +13,7 @@
           "charge:3": 100000
         }
       },
-      "name:8": "Basic Tree Tools"
+      "name:8": "基础林业工具"
     }
   },
   "questID:3": 2203,

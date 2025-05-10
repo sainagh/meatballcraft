@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYour first callstone! Callstones summon dungeons, so don\u0027t use them in your base!",
+      "desc:8": "§7§o第一个召唤石！召唤石能召唤地牢，所以不要在基地使用！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:skeletal_callstone"
       },
-      "name:8": "Skeletal Callstone"
+      "name:8": "骷髅召唤石"
     }
   },
   "questID:3": 103,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate has two inputs and four outputs.\n\nThe sides with torches are just outputs, while the sides with just redstone are both inputs and outputs.\n\nWhen one input receives a pulse, both itself and its corresponding output will tun on indefinitely.\n\nWhen the other input receives a pulse, the same will happen on the other side.\n\nYou can use buffer gates on the inputs to turn them into just inputs.\n",
+      "desc:8": "§7§o该逻辑门有两个输入端和四个输出端。\n\n有火把的两侧仅做为输出端，仅有红石线的两侧既是输入端也是输出端。\n\n当一个输入端接收到脉冲信号时，其自身及其相应的输出端都将无限期地保持开启。\n\n当其另一个输入端接收到脉冲信号时，会发生相同的情况。\n\n可在输入端处使用缓冲器，使其变为纯输入端。\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 12,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "RS Latch"
+      "name:8": "RS锁存器"
     }
   },
   "questID:3": 90369,

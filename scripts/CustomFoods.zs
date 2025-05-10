@@ -341,7 +341,7 @@ radiactivenachos.register();
 var yummyconcrete = VanillaFactory.createItemFood("yummy_concrete", 5);
 yummyconcrete.saturation = 1;
 yummyconcrete.onItemFoodEaten = function(stack, world, player) {
-	player.sendChat("来自r/feedthememes");
+	player.sendChat("灵感来自r/feedthememes");
 	player.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(3000, 20));
 };
 yummyconcrete.register();
@@ -352,3 +352,32 @@ justjambalaya.onItemFoodEaten = function(stack, world, player) {
 	player.sendChat("世事无常，困苦共担。");
 };
 justjambalaya.register();
+
+
+var blackholejuice = VanillaFactory.createItemFood("black_hole_juice", 5);
+blackholejuice.saturation = 1;
+blackholejuice.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("别想太多，尽享此刻，你已成功！");
+};
+blackholejuice.register();
+
+var gatedarknesssashimi = VanillaFactory.createItemFood("sashimi_of_the_gate_of_darkness", 5);
+gatedarknesssashimi.saturation = 1;
+gatedarknesssashimi.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("尽情享用吧，次元飞升大师！");
+};
+gatedarknesssashimi.register();
+
+var callandorappleslice = VanillaFactory.createItemFood("linked_apple_slice", 5);
+callandorappleslice.saturation = 1;
+callandorappleslice.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("伟大的一口");
+};
+callandorappleslice.register();
+
+var cleansedcinnamonapple = VanillaFactory.createItemFood("cleansed_cinnamon_apple", 5);
+cleansedcinnamonapple.saturation = 1;
+cleansedcinnamonapple.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("看哪！这就是力量之巅！");
+};
+cleansedcinnamonapple.register();

@@ -11,7 +11,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": " So this is the true story of the bees. This galaxy, in its entirety is theirs. Not just planets, not mere star systems. The universe is theirs. Well, it used to.\nEver since the first bees started to become aware, their drive was one, and it was one of creation and life. From their home world, they would learn how to survive without oxygen, and, in spite of extreme cold or heat, they started expanding, bringing new life into the surrounding worlds. They seldom would seek to dominate the life they brought, they were simply there to help, to serve, to let life originate new life.\nBecause of this, they slowly but surely kept growing, and their colonies eventually were present on every single planet, asteroid, or comet, spreading the light of life.\nHow did they do it? Well, this was the secret held by the Bubbell Alliance, until I came along. What made it possible for bees to climb through the Kardashev scale is energy. Not lots of it, not a gargantuan amount of it. Infinite energy, freely originating from one bee, capable of powering an entire universe.\nDuring their mission to spread life, though, the bees met what we now call the Twilight Horde, and the Shyre Empire. The two were never allies, and would never be after that moment, but for once, after learning of the power of the bees, the two worked together, and exploited the good nature of bees to steal their power, and imprison the true queen of bees.\nSince then, bee civilization has had one mission, and one mission only; to help those in need, no matter who, but to never reveal their story to anyone ever again, until someone would pass their test.\nNeedless to say, I passed the test, I reassembled the spinel ring, and as the champion of bees, I will bring their queen back to them!",
+      "desc:8": "这便是蜜蜂一族真实的故事。整个星系，乃至整个宇宙，都曾属于它们。\n自从第一只蜜蜂觉醒意识以来，它们的目标始终如一：创造与延续生命。从母星启程，它们学会了在无氧环境中生存，适应了极寒与酷热，将生机播撒向万千世界。它们从不试图主宰新生文明，只是默默守护，以服务者的姿态，让生命孕育新的生命。\n正因如此，虽然缓慢，但它们的步伐从未停止。最终它们的蜂群遍布每一颗行星、小行星乃至彗星，让生命之光普照宇宙。\n它们如何做到这一切？这个秘密一直由气泡铃联盟守护，直到我的到来。蜜蜂文明得以突破卡尔达舍夫等级的关键，在于能量。并非规模意义上的庞大能量。而是源自单只蜜蜂体内的无限能量——这股自由流转的力量，足以驱动整个宇宙。\n然而在传播生命的旅途中，蜜蜂遭遇了如今被称为暮光部落与塞尔瑞帝国的存在。二者素来敌对，也永无结盟可能。但当得知蜜蜂的力量后，这对宿敌首次也是唯一一次联手，利用蜜蜂善良的天性窃取其力量，并囚禁了真正的蜂后。\n自那日起，蜜蜂文明只剩下唯一使命：帮助所有需要帮助的生灵，无论对方是谁；但绝不再向任何人透露过往历史，直到有人通过它们的试炼。\n无需多言，我通过了试炼。我重组了尖晶石指环，作为蜜蜂选中的冠军，我必将让它们的蜂后重归蜂群！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_drone_ge",
@@ -159,7 +159,7 @@
           "MaxH:3": 50
         }
       },
-      "name:8": "The Queen of the Bees"
+      "name:8": "蜂后"
     }
   },
   "questID:3": 724,
@@ -180,7 +180,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:spinel_ring"
             },
-            "TrophyName:8": "Ice on my pinky",
+            "TrophyName:8": "尾指寒芒",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

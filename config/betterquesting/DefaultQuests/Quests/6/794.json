@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace lava and water on opposite corners to generate mana passively.\n\nWill decay eventually.",
+      "desc:8": "§7§o在斜对角放置熔岩和水来被动产生魔力。\n\n会自然枯萎。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "geminiorchid"
         }
       },
-      "name:8": "Gemini Orchid (OK)"
+      "name:8": "双子兰（一般）"
     }
   },
   "questID:3": 794,

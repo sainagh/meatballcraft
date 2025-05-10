@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe essentia terminal lets you see all the thaumcraft essentia stored in your AE2 storage system.\n\nUse phials to extract essentia from the terminal!",
+      "desc:8": "§7§o源质终端可查看AE网络中储存的所有神秘时代模组源质。\n\n使用安瓿从终端提取源质！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicenergistics:essentia_terminal"
       },
-      "name:8": "ME Essentia Terminal"
+      "name:8": "ME源质终端"
     }
   },
   "questID:3": 90180,

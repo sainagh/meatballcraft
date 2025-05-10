@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIf you need a hand with organization, the storage scanner can help you!",
+      "desc:8": "§7§o如果在物品管理方面需要帮助，存储检测器可以帮到你！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftools:storage_scanner"
       },
-      "name:8": "Good Logistics"
+      "name:8": "优质物流"
     }
   },
   "questID:3": 678,

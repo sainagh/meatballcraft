@@ -3,6 +3,34 @@
     "registryname": "the_cube",
     "localizedname": "The CUBE",
 	"color": "787878",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:well_defined_machine_case",
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "description": "速度x5",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.2
+            }]
+        },
+        {
+            "elements": "contenttweaker:naquadah_casing",
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "description": "速度x20",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.05
+            }]
+        }
+    ],
     "parts": [
         {
             "x": 1,

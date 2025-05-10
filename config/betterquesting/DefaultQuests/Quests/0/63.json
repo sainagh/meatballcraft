@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDon\u0027t know how a machine or a recipe works? Info will be found in the manufacturing and fabrication tab!\n\nThe crescent hammer is the preferred wrench in this pack! It can rotate blocks, break pipes and cables, and it should work with all other tech mods!\n\n§fYES! I can now build a better workbench, which should allow me to put together some machines to make my life easier!",
+      "desc:8": "§7§o不知道机器或合成配方如何运作？相关信息可在制作与加工标签页中查阅！\n\n新月锤是本整合包的首选扳手！它能旋转方块、拆除管道与线缆，并且应该兼容所有其他科技类模组！\n\n§f太好了！现在我能制作更好的工作台了，我能用它组装一些机器来让日子更轻松些！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extendedcrafting:table_basic"
       },
-      "name:8": "Better Fabrication"
+      "name:8": "更好的合成"
     }
   },
   "questID:3": 63,

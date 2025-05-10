@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound near lava in mountains.\n\nObtained as a byproduct of pulverizing many nether materials.",
+      "desc:8": "§7§o发现于地下熔岩池附近。\n\n可作为许多下界材料磨粉的副产物获得。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 771,
         "id:8": "thermalfoundation:material"
       },
-      "name:8": "Sulfur"
+      "name:8": "硫磺"
     }
   },
   "questID:3": 70104,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis section explains how to set up logistics using crafting recipes.\n\n",
+      "desc:8": "§7§o本板块将说明如何通过合成配方配置物流系统。\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "immersiveengineering:tool"
       },
-      "name:8": "Crafting Recipes"
+      "name:8": "合成配方"
     }
   },
   "questID:3": 1232,

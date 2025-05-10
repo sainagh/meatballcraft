@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 12\nMining Level: Stone\nMining Speed: 0.51\nAttack: 0.05\nWritable\n\nHandle\nModifier: 0.1\nDurability: 5\nWritable\n\nExtra\nDurability: 15\nWritable\n\nBows\nDrawspeed: 0.67\nRange Multiplier: 0.4\nBonus Damage: -2\nWritable",
+      "desc:8": "顶端\n耐久：12\n挖掘等级：石头\n挖掘速度：0.51\n攻击力：0.05\n铭刻\n\n手柄\n手柄系数：0.1\n耐久：5\n铭刻\n\n其它部件\n耐久：15\n铭刻\n\n弓\n拉弓速度：0.67\n范围系数：0.4\n附加伤害：-2\n铭刻",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "paper"
         }
       },
-      "name:8": "Paper"
+      "name:8": "纸"
     }
   },
   "questID:3": 201034,

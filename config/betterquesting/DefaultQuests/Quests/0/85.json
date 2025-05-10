@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUsing compact machines can reduce TPS lag from farms and machines!",
+      "desc:8": "§7§o使用压缩空间机械可减少农场和机器造成的TPS卡顿！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "compactmachines3:machine"
       },
-      "name:8": "Compact is better!"
+      "name:8": "压缩更好！"
     }
   },
   "questID:3": 85,

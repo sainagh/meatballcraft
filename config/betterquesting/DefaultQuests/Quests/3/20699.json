@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "For when the radioactive materials I need are not readily available from reactors...",
+      "desc:8": "当反应堆无法直接获取所需放射性材料时……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:decay_hastener_idle"
       },
-      "name:8": "Decay Hastener"
+      "name:8": "衰变加速器"
     }
   },
   "questID:3": 20699,

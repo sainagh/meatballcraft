@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIncreases the speed of the router at performing its actions in order.",
+      "desc:8": "§7§o提高路由器的工作速度。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "modularrouters:upgrade"
       },
-      "name:8": "Speed Upgrade"
+      "name:8": "速度升级"
     }
   },
   "questID:3": 90403,

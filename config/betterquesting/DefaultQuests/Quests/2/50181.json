@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Passive RF from the sun!\nThe more compact, the better!",
+      "desc:8": "通过太阳被动产出RF！\n越紧凑越好！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "techreborn:solar_panel"
       },
-      "name:8": "Solar Panel (Good)"
+      "name:8": "太阳能电池板（良好）"
     }
   },
   "questID:3": 50181,

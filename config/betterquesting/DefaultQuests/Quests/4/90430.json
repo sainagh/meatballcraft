@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMakes routers silent and particle-free.",
+      "desc:8": "§7§o能消除路由器产生的声音和粒子效果。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 6,
         "id:8": "modularrouters:upgrade"
       },
-      "name:8": "Muffler Upgrade"
+      "name:8": "消声器升级"
     }
   },
   "questID:3": 90430,

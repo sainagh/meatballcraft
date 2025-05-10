@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSends items to inventories directly in line to a modular router.",
+      "desc:8": "§7§o将缓存内物品沿直线传输到容器中，中间不能有遮挡。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
@@ -14,7 +14,7 @@
           "ModuleFilter:9": {}
         }
       },
-      "name:8": "Sender Module MK1"
+      "name:8": "发送模块 Mk1"
     }
   },
   "questID:3": 90397,

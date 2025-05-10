@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Eureka! Now it\u0027s finally time for some serious breeding!",
+      "desc:8": "尤里卡！现在终于能开始正儿八经的增殖了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:fuel_plutonium"
       },
-      "name:8": "Down the Rabbit hole we go Alice!"
+      "name:8": "要深入兔子洞了，爱丽丝！"
     }
   },
   "questID:3": 50235,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDie in a dimensional door, or use the call to limbo!\n\nWhile for many creatures it is impossible to perceive, nor travel through, higher dimensions, it is possible to explore them thanks to doors left all over the surface of Terra.\nThe key behind these \u0027rifts\u0027 appears to be blood magic. Apparently, if enough life essence is sacrificed, higher dimensions can be \u0027connected to each other\u0027.\nSome of the great secrets of blood arts are hidden in higher-dimensional fortresses that can only be reached through these doors.",
+      "desc:8": "§7§o在维度门中死亡，或使用灵薄狱之唤！\n\n尽管绝大多数生物无法感知或穿越高维空间，但得益于泰拉地表各处散布的“门”，探索这些维度成为可能。\n这些“裂痕”背后的核心机制似乎与血魔法有关。当献祭足够多的生命源质时，不同维度之间可以“相互连接”。\n血魔法的某些终极奥秘，就深藏在那些唯有通过这些门才能抵达的高维堡垒之中。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 15,
         "id:8": "dimdoors:fabric"
       },
-      "name:8": "Dimensional Doors"
+      "name:8": "维度门"
     }
   },
   "questID:3": 20272,
@@ -19,8 +19,19 @@
       "dimension:3": 684,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Dimensional Doors",
+      "name:8": "维度门",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "id:8": "dimdoors:fabric"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

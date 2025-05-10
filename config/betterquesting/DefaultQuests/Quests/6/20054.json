@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "There are many branches of the magic arts, and each of them has its own set of rules and powers.\nAll the knowledge required to succeed (and complete this pack) is available here.",
+      "desc:8": "魔法有许多分支，每一种都有独特的规则和能力。\n此处列出了所有发展魔法（以及通关本整合包）所需的知识。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:causality_collapser"
       },
-      "name:8": "Magic is Real"
+      "name:8": "魔法真实存在"
     }
   },
   "questID:3": 20054,

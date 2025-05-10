@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Iron Dimensional Door leads to a pocket dimension that can be used to store things.\n\nEach door will lead to a different pocket dimension.",
+      "desc:8": "§7§o铁质维度门通往可用于存储东西的口袋维度。\n\n每扇门都会通往不同的口袋维度。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "dimdoors:iron_dimensional_door"
       },
-      "name:8": "Basic Pocket Dimension"
+      "name:8": "基础口袋维度"
     }
   },
   "questID:3": 2281,

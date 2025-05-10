@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMutes animals.",
+      "desc:8": "§7§o消除动物的噪声。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "bergamute"
         }
       },
-      "name:8": "Bergamute"
+      "name:8": "消音柑"
     }
   },
   "questID:3": 1316,

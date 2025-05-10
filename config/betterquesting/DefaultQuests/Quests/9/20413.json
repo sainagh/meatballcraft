@@ -9,7 +9,7 @@
         "id:8": "botania:cosmetic"
       },
       "ismain:1": 1,
-      "name:8": "Welcome to Chapter 8"
+      "name:8": "欢迎来到第8章"
     }
   },
   "questID:3": 20413,
@@ -30,7 +30,7 @@
               "Damage:2": 5,
               "id:8": "avaritia:resource"
             },
-            "TrophyName:8": "Welcome to Chapter 8",
+            "TrophyName:8": "欢迎来到第8章",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "gold"
           }

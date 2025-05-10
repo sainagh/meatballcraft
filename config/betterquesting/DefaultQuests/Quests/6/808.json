@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBlock placer in a 5x5 area, will place any blocks from adjacent chests.",
+      "desc:8": "§7§o将相邻箱子内的方块放置在5x5区域。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Laying of the Filler"
+      "name:8": "铺设仪式"
     }
   },
   "questID:3": 808,

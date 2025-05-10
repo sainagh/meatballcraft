@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following sections show the various machines to do logistics and autocrafting using AE2!\n\nMake sure you build at least one crafting processing unit before doing any autocarfting!",
+      "desc:8": "§7§o以下板块将展示多种利用AE2实现物流与自动合成的机器！\n\n在进行自动合成操作前，确保至少建造一个合成处理单元！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:crafting_table"
       },
-      "name:8": "Auto-Crafting"
+      "name:8": "自动合成"
     }
   },
   "questID:3": 1230,

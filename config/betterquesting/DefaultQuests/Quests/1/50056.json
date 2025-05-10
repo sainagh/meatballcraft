@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe body stone uses EMC from a klein star to keep your hunger bar full!",
+      "desc:8": "§7§o身之宝石可消耗卡莱恩能量之星中储存的EMC，恢复你的饥饿值！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_body_stone"
       },
-      "name:8": "Body Stone"
+      "name:8": "身之宝石"
     }
   },
   "questID:3": 50056,

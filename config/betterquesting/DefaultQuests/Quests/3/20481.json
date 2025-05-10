@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis modpack has a lot of different machines and crafting mechanics, here you can see explanations and tutorials for each!\n\n§fThere are a lot of machines and processes to automate, I will leave this space to write down some info on each of them...",
+      "desc:8": "§7§o本整合包有成吨的不同机器以及合成机制，在这儿你能查看每种对应的解释和教程！\n\n§f有太多的机器和处理需要自动化，我准备在这里记录一些相关信息……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Machines, Machines, Machines"
+      "name:8": "机器，机器，机器"
     }
   },
   "questID:3": 20481,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWireless versions of the Extended Crafting Terminals",
+      "desc:8": "§7§o无线版本的扩展合成终端",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ae2exttable:wireless_ultimate_crafting_terminal",
         "tag:10": {}
       },
-      "name:8": "Extended Crafting Wireless Terminals"
+      "name:8": "无线拓展合成终端"
     }
   },
   "questID:3": 719022264,

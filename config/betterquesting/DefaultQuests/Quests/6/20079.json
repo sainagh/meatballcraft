@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe progression for all wizardry wands will follow this sequence!\n\nYou start from a novice level level wand, and the more you use it the more experience it will gain. When you max out the wand, you will be able to upgrade it to apprentice level.\n\nTomes of Arcana can be found in chests in wizard towers, or can be traded with friendly wizards!",
+      "desc:8": "§7§o所有巫术学魔杖的进阶都将遵循以下流程！\n\n你将从一根新手级魔杖开始，使用得越频繁，它所积累的熟练度就越多。当熟练度到达所需值时，你便能将其升级至学徒级。\n\n奥法宝典可在巫师塔的宝箱中找到，或通过和友善的巫师交易获取！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "ebwizardry:arcane_tome"
       },
-      "name:8": "Apprentice"
+      "name:8": "学徒"
     }
   },
   "questID:3": 20079,

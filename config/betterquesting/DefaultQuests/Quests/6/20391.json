@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDoes not produce any flux, and has a 120% yield",
+      "desc:8": "§7§o不产生咒波，产量为120%",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumadditions:adaminite_smelter"
       },
-      "name:8": "Adaminite Smeltery"
+      "name:8": "精金源质冶炼厂"
     }
   },
   "questID:3": 20391,

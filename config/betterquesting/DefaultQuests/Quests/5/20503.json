@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe alchemical catalyst is a valuable EMC item. It can be farmed using a botanic condenser, or with the EMBee!",
+      "desc:8": "§7§o炼金催化剂是高价值的EMC物品。可使用植物聚合器，或EMC蜜蜂制作！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:botanic_alchemic_catalyst"
       },
-      "name:8": "Botanic-Alchemic Catalyst"
+      "name:8": "植物炼金催化剂"
     }
   },
   "questID:3": 20503,

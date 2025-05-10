@@ -11,22 +11,22 @@ mods.extendedcrafting.TableCrafting.addShaped(<botania:altar:0>,
 mods.botania.RuneAltar.removeRecipe(<botania:rune:0>);
 
 mods.botania.RuneAltar.addRecipe(<botania:rune:0>*3, 
-[<botania:manaresource:0>, <botania:manaresource:23>, <divinerpg:whale_fin>, <divinerpg:crab_claw>, <minecraft:fish:3>], 25);
+[<botania:manaresource:0>, <botania:manaresource:23>, <divinerpg:whale_fin>, <divinerpg:crab_claw>, <minecraft:fish:3>], 150);
 
 mods.botania.RuneAltar.removeRecipe(<botania:rune:1>);
 
 mods.botania.RuneAltar.addRecipe(<botania:rune:1>*3, 
-[<botania:manaresource:0>, <botania:manaresource:23>, <divinerpg:purple_blaze>, <erebus:materials:21>, <tconstruct:ingots:2>], 25);
+[<botania:manaresource:0>, <botania:manaresource:23>, <divinerpg:purple_blaze>, <erebus:materials:21>, <tconstruct:ingots:2>], 150);
 
 mods.botania.RuneAltar.removeRecipe(<botania:rune:2>);
 
 mods.botania.RuneAltar.addRecipe(<botania:rune:2>*3, 
-[<botania:manaresource:0>, <botania:manaresource:23>, <thaumcraft:vishroom>, <nuclearcraft:dry_earth>, <cyclicmagic:crystallized_obsidian>], 25);
+[<botania:manaresource:0>, <botania:manaresource:23>, <thaumcraft:vishroom>, <nuclearcraft:dry_earth>, <cyclicmagic:crystallized_obsidian>], 150);
 
 mods.botania.RuneAltar.removeRecipe(<botania:rune:3>);
 
 mods.botania.RuneAltar.addRecipe(<botania:rune:3>*3, 
-[<botania:manaresource:0>, <botania:manaresource:23>, <actuallyadditions:block_smiley_cloud>, <iceandfire:stymphalian_bird_feather>, <tconstruct:edible:4>], 25);
+[<botania:manaresource:0>, <botania:manaresource:23>, <actuallyadditions:block_smiley_cloud>, <iceandfire:stymphalian_bird_feather>, <tconstruct:edible:4>], 150);
 
 recipes.addShaped(<extrabotany:gildedmashedpotato>,
 [[null, <minecraft:gold_nugget>, null],
@@ -77,3 +77,13 @@ recipes.addShaped(<extrabotany:puredaisypendant>,
 
 recipes.addShapeless(<botania:flighttiara:9>,
 [<botania:flighttiara:*>, <avaritia:cosmic_meatballs>]);
+
+
+mods.botania.PureDaisy.addRecipe(<divinerpg:mortum_dirt>, <contenttweaker:mortum_livingrock>);
+
+mods.botania.PureDaisy.addRecipe(<divinerpg:mortum_leaves>, <contenttweaker:mortum_livingwood>);
+
+
+mods.nuclearcraft.rock_crusher.addRecipe([<contenttweaker:mortum_livingrock>, <botania:livingrock:0>*8, <botania:livingrock:0>*4, <botania:livingrock:0>*2]);
+
+mods.nuclearcraft.rock_crusher.addRecipe([<contenttweaker:mortum_livingwood>, <botania:livingwood:0>*8, <botania:livingwood:0>*4, <botania:livingwood:0>*2]);

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The wizardry Combiner uses the powers of wizardry to make powerful magical artifacts...\n...and some other things as well...",
+      "desc:8": "巫术组合台使用巫术的力量来制作强大的魔法神器……\n……以及一些其他东西……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:wizardry_combiner"
         }
       },
-      "name:8": "Wizardry Combiner"
+      "name:8": "巫术组合台"
     }
   },
   "questID:3": 20627,

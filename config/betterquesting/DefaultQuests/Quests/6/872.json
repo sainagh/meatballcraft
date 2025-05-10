@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRitual Effect: breaks solid blocks around the altar\n\nAlcara Corrupted Effect: fills a large area with stone\n\nClick the pedestal to see a preview of the ritual multiblock.",
+      "desc:8": "§7§o仪式效果：破坏祭坛周围的固体方块\n\n振变座效果：用石头填满一大块区域\n\n使用六分仪右击基座以查看仪式多方块预览。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:itemtunedcelestialcrystal",
@@ -21,7 +21,7 @@
           }
         }
       },
-      "name:8": "Evorsio"
+      "name:8": "解离座"
     }
   },
   "questID:3": 872,

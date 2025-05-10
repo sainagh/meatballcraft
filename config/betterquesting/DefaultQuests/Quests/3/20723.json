@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "For all your fluid infusion needs, and a great way to make treated wood.",
+      "desc:8": "满足你所有的流体灌注需求，同时还是制作防腐木的优质方案。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:infuser_idle"
       },
-      "name:8": "Fluid Infuser"
+      "name:8": "流体注入器"
     }
   },
   "questID:3": 20723,

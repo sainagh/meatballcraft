@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBecause of a bug with Binnie\u0027s Mods, it is possible that trees from forestry and its addons will spawn large amounts of butterflies that will lag your game.\n\nIf that happens, use this quest reward.\n\nThis quest is repeatable so you can come back if you run into issues.",
+      "desc:8": "§7§o由于Binnie\u0027s Mods的bug，林业及其附属模组的树可能会生成大量的蝴蝶，造成卡顿。\n\n若发生此类情况，使用本任务的奖励。\n\n本任务可重复完成，遇到问题直接来领取奖励即可。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:butterfly_bloom"
       },
-      "name:8": "Butterfly Invasion",
+      "name:8": "蝴蝶入侵",
       "repeattime:3": 10000
     }
   },

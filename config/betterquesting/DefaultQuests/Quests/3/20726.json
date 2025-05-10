@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Fluid chemistry? Fluid chemistry!\nGood to have on autocraft, I will need a decent amount of these.",
+      "desc:8": "流体化学？流体化学！\n最好做成被动产线，需求量会很大。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:electrolyser_idle"
       },
-      "name:8": "Electrolyzer"
+      "name:8": "电解机"
     }
   },
   "questID:3": 20726,

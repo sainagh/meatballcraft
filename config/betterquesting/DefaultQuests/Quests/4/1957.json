@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe RFTools redstone transmitter and receiver transfer redstone signal to each other if they have the same frequency.\n\nThey work like the Chicken Bones wireless gates, but they are not as configurable, and a bit more laggy.",
+      "desc:8": "§7§oRFTools模组中，相同频率的红石信号发信器和接收器可彼此传输红石信号。\n\n与无线红石CBE模组类似，但可配置性较低，且略微卡顿。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftools:redstone_receiver_block"
       },
-      "name:8": "RFT Wireless"
+      "name:8": "无线红石RFTools版"
     }
   },
   "questID:3": 1957,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the pyramid in the deep dark.\n\n§fA couple of these Testificate secret research organizations seem to be based in the deep dark undergroud caves of Terra. And wow, one of them deals with Dimensional Shards! Finally a clue about what they do!\nIn small quantities, much smaller than what I initially expected, they can be used to embed intelligence into inhanimate matter. Intellingence, not consciousness, but this is quite incredible! No need for neural networks, or even computers! Creating robots with minimal effort! WOW!\nAt some point in the past, a Testificate scholar came up with a way to create an automaton capable of refining Shards into ingots, which are in turn used to build the golems that guard all the towers found all around Terra. These golems can create more ingots, which are used to make more golems, leading to a divergent recursive loop, all under the control of this Testificate group.\nThis appears to be one of the main ways of Testificate warfare, where golems are allowed to spread into enemy territories very quickly. The downsides, the golems themselves are not particularly strong or apt fighters, they are fairly easy to defeat, and they are not easily programmed to recognize froend from foe.\nAnd I am sure that this is not the sole application of Dimensional Shards, if small amounts can do this, what about the massive quantities the invaders of Terra are trying to secure?",
+      "desc:8": "§7§o发现于漆黑世界的金字塔内。\n\n§f看来有几个泰斯提斐人的秘密研究组织驻扎在泰拉深处的黑暗洞穴中。天啊，其中一个组织竟然在研究维度碎片！终于找到碎片作用的线索了！\n即使数量远比我最初预期的要少得多，这些碎片仍能将智能注入无机物质。智能而非意识，但这已经足够惊人了！无需神经网络，甚至无需计算机！就能轻松创造机器人！太神奇了！\n历史上曾有泰斯提斐人发明了能将碎片精炼为锭的自动机构，而这些锭又用于建造守护泰拉各处高塔的傀儡。这些傀儡能生产更多金属锭，进而制造更多傀儡，形成无限增殖的循环,这一切都受控于该泰斯提斐人组织。\n这似乎是泰斯提斐人战争的主要手段之一，傀儡军团借此能迅速入侵敌方领地。但缺陷在于，傀儡本身战斗力薄弱，容易被击败，且敌我识别系统存在严重漏洞。\n我确信维度碎片绝非仅此用途，若微量即可实现这般奇迹，那些入侵地球势力竭力争夺的大量碎片又将引发何等灾变？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:dimensional_ingot"
       },
-      "name:8": "Dimensional Ingot"
+      "name:8": "维度锭"
     }
   },
   "questID:3": 219,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:dimensional_ingot"
             },
-            "TrophyName:8": "Dimensional Golem Slayer",
+            "TrophyName:8": "维度傀儡屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

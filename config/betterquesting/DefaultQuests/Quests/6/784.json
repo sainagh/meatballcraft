@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oConsumes mana to power nearby furnaces without the need for fuel. ",
+      "desc:8": "§7§o消耗魔力驱动附近熔炉。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "exoflame"
         }
       },
-      "name:8": "Exoflame"
+      "name:8": "冶炼火"
     }
   },
   "questID:3": 784,

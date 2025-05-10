@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWorks like the pattern terminal, but can encode recipes with fluids as well!\n\nYou should have both a fluid pattern terminal and a pattern terminal!",
+      "desc:8": "§7§o与样板终端类似，但可编码包含流体的配方！\n\n流体样板终端和样板终端都很重要！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ae2fc:part_fluid_pattern_terminal"
       },
-      "name:8": "ME Fluid Pattern Terminal"
+      "name:8": "ME流体样板终端"
     }
   },
   "questID:3": 90183,

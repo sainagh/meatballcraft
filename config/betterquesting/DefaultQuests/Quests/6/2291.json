@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oScrolls are one use items that grant temporary buffs to the player.\n\nAfter being crafted, they need to be enchanted by right clicking on a charged tombstone to function.",
+      "desc:8": "§7§o卷轴是可令玩家获得临时性状态效果的一次性物品。\n\n制作后，需要对有灵魂的墓碑右击以为其附魔。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tombstone:crafting_ingredient"
       },
-      "name:8": "Scrolls"
+      "name:8": "卷轴"
     }
   },
   "questID:3": 2291,

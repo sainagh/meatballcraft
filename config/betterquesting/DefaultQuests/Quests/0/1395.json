@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "After my encounter with the meatball man, a singular testificate scholar decided to approach me with some help.\nThey did not reveal any details, but it is evident they know of my newly gained enemy (wow, the list of enemies is getting long).",
+      "desc:8": "在遭遇肉丸人后，一个奇怪的泰斯提斐人学者带着援手找上了我。\n他们未透露任何细节，但显然知晓我新增的敌对势力（好家伙，敌对名单越来越长了）。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:grand_magician_callstone"
       },
-      "name:8": "So Grand"
+      "name:8": "如此堂皇"
     }
   },
   "questID:3": 1395,

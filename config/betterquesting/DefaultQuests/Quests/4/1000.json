@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHere are all the available options for making water passively!\n\nTo get started, the aqueous accumulator is quite cheap.\n\nThe dense infinite water source is the fastest option available! Good for extreme reactor setups!",
+      "desc:8": "§7§o此处列出了所有可以被动产出水的可选方案！\n\n蓄水器作为初始设备十分廉价。\n\n致密无限水是最快的方案！可用于极限反应堆供水！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Making Water"
+      "name:8": "产水"
     }
   },
   "questID:3": 1000,

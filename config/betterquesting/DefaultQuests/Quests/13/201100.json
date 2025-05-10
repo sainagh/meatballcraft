@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 310\nMining Level: Iron\nMining Speed: 6.35\nAttack: 4.6\nChunky\n\nHandle\nModifier: 0.8\nDurability: 55\n\nExtra\nDurability: 48\n\nBows\nDrawspeed: 2\nRange Multiplier: 1.5\nBonus Damage: 3.1",
+      "desc:8": "顶端\n耐久：310\n挖掘等级：铁\n挖掘速度：6.35\n攻击力：4.6\n灵魂\n\n手柄\n手柄系数：0.8\n耐久：55\n\n其它部件\n耐久：48\n\n弓\n拉弓速度：2\n范围系数：1.5\n附加伤害：3.1",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "ma.soulium"
         }
       },
-      "name:8": "Soulium"
+      "name:8": "灵魂"
     }
   },
   "questID:3": 201100,

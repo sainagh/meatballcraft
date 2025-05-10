@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSpawns in the Nether and the End.\nIn RFTools Dimensions, it can be found below Y\u003d40.",
+      "desc:8": "§7§o生成于下界和末地。\nRFTools Dimensions模组生成的维度中，可发现于Y\u003d40以下。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftools:dimensional_shard"
       },
-      "name:8": "Dimensional Shard"
+      "name:8": "维度碎片"
     }
   },
   "questID:3": 70178,

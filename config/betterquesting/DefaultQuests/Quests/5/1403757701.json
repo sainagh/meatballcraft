@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDimlets are used to control the properties of the custom dimensions created using RFTools Dimensions.\n\nDimlets are either found as loot in particular RFTools Dimensions, or are crafted in a Dimlet Workbench using materials dropped by Dimlet Parcels.\n\nThere are many types of Dimlets, that allow to control biomes, liquids, materials, mobs, sky properies, structure generation, terrain type, features, time cycles, effects, weather in your custom Dimensions.\n\nIn order to progress, some specific liquids and materials are made exclusive to these dimensions.\n\nTo craft some (most) Dimlets in the Workbench, Absorbers are required. While the absorbers part of progression have their own custom recipes, the \u0027normal\u0027 ones require in-world crafting to be configured.\n\nMaterial Absorber: place 128 blocks adjacent, they will be consumed\n\nLiquid Absorber: place 128 buckets adjacent, they will be consumed\n\nBiome Absorber: place in the desired biome\n\nTerrain Absorber: place in the dimension with the desired tarrain type (end islands, nether, etc)\n\nFeature Absorber: place in the dimension with the desired feature type (ore veins, caves, etc); some features are exclusive to some custom RFTools Dimensions, so you may want to generate random ones\n\nTime Absorber: trigger with a redstone pulse at the desired time for 10 consecutive days (can be cheated with a timer and time in a bottle)",
+      "desc:8": "§7§o维度卡用于控制用于控制RFTools Dimensions模组创建的自定义维度的属性。\n\n维度卡可作为战利品发现于部分RFTools维度，也可在维度卡工作台中使用维度卡包裹掉落的材料合成得来。\n\n维度卡有很多种类型，可用来控制自定义维度中的生物群系、流体、材料、生物、天空属性、结构生成、地形类型、特征、时间循环、效果以及天气。\n\n为了规划进度，某些特定的流体和材料被设置为这些维度的专属资源。\n\n在工作台中制作某些（绝大部分）维度卡都需要吸收器。尽管与流程进度相关的吸收器都有自己的特定配方，但“普通”的吸收器仍需要在世界中配置。\n\n材料吸收器：相邻放置总计128个方块，方块会被消耗\n\n流体吸收器：相邻放置128桶流体，流体将被消耗\n\n生物群系吸收器：放置在对应的生物群系\n\n地形吸收器：放置在拥有所需地形的维度（末地岛屿、下界等）\n\n特征吸收器：放置在拥有所需特征的维度（矿脉、洞穴等）；部分特征为某些RFTools维度专属，因此需要生成一些随机维度\n\n时间吸收器：在所需时间点使用红石脉冲激发，需重复此操作十次才能完全吸收（可使用计时器和时间之瓶作弊）",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftoolsdim:dimlet_workbench"
       },
-      "name:8": "Customizing Dimensions"
+      "name:8": "自定义维度"
     }
   },
   "questID:3": 1403757701,

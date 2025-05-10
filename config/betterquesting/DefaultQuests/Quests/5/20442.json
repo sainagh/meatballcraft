@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo farm mob drops with Deep Mob Learning (Evolution), you need a simulation chamber, a loot fabricator, and a steady supply of polymer clay (which has EMC), as well as a data model.\n\nTo function, a simulation chamber needs a data model that has been configured to a mob.\n\nTo configure a model, you need to place one for the mob you want to farm into the deep learner. Then you want to slay a certain number that mob to activate the model, while holding the learner into your hotbar.\n\nThe more mobs you slay, the higher the tier of the model. The higher the tier, the better.\n\nPlacing a model in the simulation chamber will produce pristine matter, which is consumed in loot fabricators to farm specific mob drops.\n\n§fA simulation chamber that has been programmed with a data model consumes polymer clay to produce mob matter.\nThe loot fabricator uses pristine matter to produce mob drops.",
+      "desc:8": "§7§o要使用深度怪物学习（进化）模组获得生物掉落物，需要一台模拟室，一台战利品生成器，以及稳定供应的聚合粘土（有EMC），当然还有数据模型。\n\n模拟室需要放置配置为特定生物的数据模型才能工作。\n\n要配置模型，需要在深度学习器中放入所需生物的数据模型。然后，将深度学习器放入快捷栏，击杀特定数量的对应生物来激活模型。\n\n击杀的生物数量越多，模型等级越高。等级越高，工作效果越好。\n\n放入模型后，模拟室会产出原始物质，可在战利品制造器中消耗原始物质来获取特定掉落物。\n\n§f可使用数据模型编码模拟室，消耗聚合粘土产出生物物质。\n战利品制造器能消耗原始物质产出生物掉落物。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "deepmoblearning:simulation_chamber"
       },
-      "name:8": "Deep Mob learning"
+      "name:8": "深度怪物学习"
     }
   },
   "questID:3": 20442,

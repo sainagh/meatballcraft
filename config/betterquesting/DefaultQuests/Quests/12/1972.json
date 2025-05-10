@@ -9,12 +9,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGives underwater vision.",
+      "desc:8": "§7§o获得水下视觉。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:achelos_helmet"
       },
-      "name:8": "Achelos"
+      "name:8": "河神"
     }
   },
   "questID:3": 1972,

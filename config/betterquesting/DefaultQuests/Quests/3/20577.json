@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The enchantment extractor can split a book with multiple enchants into separate ones, and extract single enchants from an enchanted item.\n",
+      "desc:8": "魔咒提取机可将带有多种魔咒的附魔书分离为单种附魔书，还能将魔咒从附魔物品中提取出来。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:enchantment_extractor"
       },
-      "name:8": "Enchantment Extractor"
+      "name:8": "魔咒提取机"
     }
   },
   "questID:3": 20577,

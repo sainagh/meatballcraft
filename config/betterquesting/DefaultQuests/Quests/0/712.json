@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Something in the past of bee civilization went wrong, really really wrong. This may be the reason behind all the subterfuge, and all the secrets.\nThe helpful bees, so full of nivety and ever-willing to help, helped the wrong people, and to this day they are suffering the consequences. I am not sure what went down exactly, but I know it has to do with the Twilight Horde, and with the Shyre Empire. The two of them had a dealing with the bees, at some point in the past, and they were able to take something from them.\nThose that were involved in this deal are still around, hidden in Europa as a form of self-exile. When I met them, their shame was evident. They still don\u0027t trust me enough to tell me what went wrong, but they think I can help them, so I will!",
+      "desc:8": "蜜蜂文明的某个历史节点出现了重大偏差，极其严重的偏差。这或许能解释这层层的伪装与秘密。\n这些古道热肠的蜜蜂，怀揣着天真无邪的善意四处施以援手，却在某个时刻将善意错付于人。直至今日，蜜蜂仍在吞咽着苦果。尽管具体细节仍然不明，但我确信这场悲剧与暮光部落，以及塞尔瑞帝国脱不了干系。在某个历史时刻，两大势力曾与蜜蜂达成某项交易，并从中攫取了某些至关重要的东西。\n当年参与交易的个体至今仍在，自我放逐于欧罗巴。当我终于寻得这些活见证者时，它们的羞愧难以掩盖。虽然尚未对我全然敞开心扉，但它们认为我能带来救赎，我必将全力以赴！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:europa_spinel"
       },
-      "name:8": "Secrets of Europa"
+      "name:8": "欧罗巴的秘密"
     }
   },
   "questID:3": 712,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:europa_spinel"
             },
-            "TrophyName:8": "The Betrayal of Bees",
+            "TrophyName:8": "蜜蜂的背叛",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

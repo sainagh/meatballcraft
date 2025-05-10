@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe ME controller is the heart of every AE2 system.\nEach controller can output 8 (basic) to 32 (dense) channels from each side, depending on the tipe of ME cable used.\nOnly one controller is allowed for a given network. Multiple controllers can be combined to form multiblocks. ",
+      "desc:8": "§7§oME控制器是AE2网络的心脏。\n视使用的线缆而定，控制器每个面可传出8（基础线缆）到32（致密线缆）个频道。\n一个网络只能存在一个控制器结构。多个控制器方块可构成控制器多方块结构。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:controller"
       },
-      "name:8": "ME Controller"
+      "name:8": "ME控制器"
     }
   },
   "questID:3": 90131,

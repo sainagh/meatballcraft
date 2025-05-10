@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Here\u0027s another table to build stuff!\nI think it\u0027s gonna be the last one...",
+      "desc:8": "另一个用来合成物品的工作台！\n这总得是最后一个了吧……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extendedcrafting:table_ultimate"
       },
-      "name:8": "Ultimate fabrication (I think...)"
+      "name:8": "终极合成（应该是吧……）"
     }
   },
   "questID:3": 107,

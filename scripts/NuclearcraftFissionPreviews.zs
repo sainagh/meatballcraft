@@ -30,6 +30,7 @@ mods.chisel.Carving.addVariation("safencfission", <modularmachinery:itemblueprin
 mods.chisel.Carving.addVariation("safencfission", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:active_cooled_hea242"}));
 mods.chisel.Carving.addVariation("safencfission", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:active_cooled_hecm245"}));
 mods.chisel.Carving.addVariation("safencfission", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:active_cooled_hecf249"}));
+mods.chisel.Carving.addVariation("safencfission", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:cryolattice_tbu"}));
 
 recipes.addShapeless(<modularmachinery:safe_fission_leu235_controller>,[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:safe_fission_leu235"}).reuse(),<modularmachinery:blockcontroller>]);
 recipes.addShapeless(<modularmachinery:safe_fission_tbu_controller>,[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:safe_fission_tbu"}).reuse(),<modularmachinery:blockcontroller>]);
@@ -57,6 +58,7 @@ recipes.addShapeless(<modularmachinery:active_cooled_heu233_controller>,[<modula
 recipes.addShapeless(<modularmachinery:active_cooled_hea242_controller>,[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:active_cooled_hea242"}).reuse(),<modularmachinery:blockcontroller>]);
 recipes.addShapeless(<modularmachinery:active_cooled_hecm245_controller>,[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:active_cooled_hecm245"}).reuse(),<modularmachinery:blockcontroller>]);
 recipes.addShapeless(<modularmachinery:active_cooled_hecf249_controller>,[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:active_cooled_hecf249"}).reuse(),<modularmachinery:blockcontroller>]);
+recipes.addShapeless(<modularmachinery:cryolattice_tbu_controller>,[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:cryolattice_tbu"}).reuse(),<modularmachinery:blockcontroller>]);
 
 mods.chisel.Carving.addGroup("safencfissioncont");
 mods.chisel.Carving.addVariation("safencfissioncont", <modularmachinery:safe_fission_leu235_controller>);
@@ -85,6 +87,7 @@ mods.chisel.Carving.addVariation("safencfissioncont", <modularmachinery:active_c
 mods.chisel.Carving.addVariation("safencfissioncont", <modularmachinery:active_cooled_hea242_controller>);
 mods.chisel.Carving.addVariation("safencfissioncont", <modularmachinery:active_cooled_hecm245_controller>);
 mods.chisel.Carving.addVariation("safencfissioncont", <modularmachinery:active_cooled_hecf249_controller>);
+mods.chisel.Carving.addVariation("safencfissioncont", <modularmachinery:cryolattice_tbu_controller>);
 
 
 recipes.addShapeless(<nuclearcraft:depleted_fuel_uranium:4>,
@@ -226,3 +229,8 @@ recipes.addShapeless(<nuclearcraft:depleted_fuel_californium:2>,
 [<contenttweaker:nuclearcraft_fission_interior>,
 <modularmachinery:active_cooled_hecf249_controller>,
 <nuclearcraft:fuel_californium:2>]);
+
+recipes.addShapeless(<nuclearcraft:depleted_fuel_thorium:0>,
+[<contenttweaker:nuclearcraft_fission_interior>,
+<modularmachinery:cryolattice_tbu_controller>,
+<nuclearcraft:fuel_thorium:0>]);

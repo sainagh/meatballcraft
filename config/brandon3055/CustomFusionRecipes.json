@@ -728,10 +728,10 @@
             "contenttweaker:possessed_fluix",
             "contenttweaker:possessed_fluix",
             "contenttweaker:possessed_fluix",
-            "draconicevolution:draconic_block,1,1",
-            "draconicevolution:draconic_block,1,1",
-            "draconicevolution:draconic_block,1,1",
-            "draconicevolution:draconic_block,1,1",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
             "draconicevolution:chaotic_core",
             "draconicevolution:chaotic_core"
         ]
@@ -750,5 +750,127 @@
             "contenttweaker:neodymium_magnetic_alloy",
             "contenttweaker:neodymium_magnetic_alloy"
         ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:chaotic_core,4,0",
+        "catalyst": "draconicevolution:chaos_shard,1,0",
+        "energy": 800000000,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "avaritiaitem:self_actualizing_stone"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:cuendillar_seal,1,0",
+        "catalyst": "aoa3:rune_shrine,1,0",
+        "energy": 800000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:stone_of_universal_balance",
+            "contenttweaker:cuendillar_plate",
+            "contenttweaker:stone_of_universal_balance",
+            "contenttweaker:cuendillar_plate",
+            "contenttweaker:stone_of_universal_balance",
+            "contenttweaker:cuendillar_plate"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:key_of_restored_balance",
+        "catalyst": "contenttweaker:cuendillar_seal",
+        "energy": 64000000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:true_tongue_oath",
+            "contenttweaker:true_tongue_oath",
+            "contenttweaker:true_tongue_oath",
+            "contenttweaker:true_tongue_oath",
+            "contenttweaker:ascended_fluix_crystal",
+            "contenttweaker:ascended_fluix_crystal",
+            "contenttweaker:ascended_fluix_crystal",
+            "contenttweaker:ascended_fluix_crystal",
+            "contenttweaker:unleashed_triquetra",
+            "contenttweaker:unleashed_triquetra",
+            "contenttweaker:unleashed_triquetra",
+            "contenttweaker:unleashed_triquetra"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:charm_of_the_falling_tower",
+        "catalyst": "twilightforest:charm_of_keeping_3",
+        "energy": 2000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:ichorium_void_stone",
+            "contenttweaker:ichorium_void_stone",
+            "contenttweaker:ichorium_void_stone",
+            "contenttweaker:ichorium_void_stone",
+            "contenttweaker:meteoric_draconic_stone",
+            "contenttweaker:meteoric_draconic_stone",
+            "contenttweaker:meteoric_draconic_stone",
+            "contenttweaker:meteoric_draconic_stone"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:fractallite_halite_stone",
+        "catalyst": "contenttweaker:fractal_stone",
+        "energy": 20000000000,
+        "tier": 3,
+        "ingredients": [
+            "avaritiaitem:fractallite_halite_catalyst",
+            "avaritiaitem:fractallite_halite_catalyst",
+            "avaritiaitem:fractallite_halite_catalyst",
+            "avaritiaitem:fractallite_halite_catalyst",
+            "contenttweaker:meteoric_draconic_stone",
+            "contenttweaker:meteoric_draconic_stone",
+            "contenttweaker:meteoric_draconic_stone",
+            "contenttweaker:meteoric_draconic_stone"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:catalyst_of_balance",
+        "catalyst": "contenttweaker:balanced_machine_casing",
+        "energy": 20000000000,
+        "tier": 3,
+        "ingredients": [
+            "avaritiaitem:cosmic_balance",
+            "avaritiaitem:cosmic_balance",
+            "avaritiaitem:cosmic_balance",
+            "avaritiaitem:cosmic_balance",
+            "avaritiaitem:cosmic_halite_cluster",
+            "avaritiaitem:cosmic_halite_cluster",
+            "avaritiaitem:cosmic_halite_cluster",
+            "avaritiaitem:cosmic_halite_cluster"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:cosmic_string_conduit",
+        "catalyst": "contenttweaker:cosmic_string",
+        "energy": 40000000000,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:chaotic_core",
+            "draconicevolution:chaotic_core",
+            "draconicevolution:chaotic_core",
+            "draconicevolution:chaotic_core",
+            "ore:ingotFractalliteHalite",
+            "ore:ingotFractalliteHalite",
+            "contenttweaker:cuendillar_plate",
+            "contenttweaker:cuendillar_plate"
+        ]
     }
+
 ]

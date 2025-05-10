@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 250\nMining Level: Iron\nMining Speed: 5\nAttack: 5\nHoly\n\nHandle\nModifier: 0.95\nDurability: 50\nHoly\n\nExtra\nDurability: 150\nHoly\n\nBows\nDrawspeed: 0.83\nRange Multiplier: 0.8\nBonus Damage: 2\nHoly",
+      "desc:8": "顶端\n耐久：250\n挖掘等级：铁\n挖掘速度：5\n攻击力：5\n神圣\n\n手柄\n手柄系数：0.95\n耐久：50\n神圣\n\n其它部件\n耐久：150\n神圣\n\n弓\n拉弓速度：0.83\n范围系数：0.8\n附加伤害：2\n神圣",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "silver"
         }
       },
-      "name:8": "Silver"
+      "name:8": "银"
     }
   },
   "questID:3": 201050,

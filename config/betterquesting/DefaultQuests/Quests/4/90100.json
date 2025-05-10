@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe draconic energy core is part of a multiblock that stores energy.\n\nYou can activate a multiblock preview after placing down the energy core.\n\nAll tiers but the max are craftable (with some effort) in chapter 2!",
+      "desc:8": "§7§o神龙能量核心是多方块储能结构的一部分。\n\n放置能量核心后可激活多方块预览。\n\n除最高等级外，其他可在第2章都可建造！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "draconicevolution:particle_generator"
       },
-      "name:8": "Draconic Energy Core "
+      "name:8": "神龙能量核心 "
     }
   },
   "questID:3": 90100,

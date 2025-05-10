@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThrow it on the ground!\n\n§fI really feel bad about the state of Terra...\nI have gained some power, so I\u0027m going to use it to fight back oppressors!\nI hate bullies, and the king of Trolls is definitely one of them!",
+      "desc:8": "§7§o扔在地上！\n\n§f泰拉的现状实在令我痛心...\n既已获得这份力量，自当用以抗击暴君！\n欺凌者最是可憎，巨魔之王当属此列！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:troll_idol"
       },
-      "name:8": "Time for some beatings!"
+      "name:8": "以暴制暴之时！"
     }
   },
   "questID:3": 101,

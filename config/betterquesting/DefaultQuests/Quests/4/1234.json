@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou need a fluid discretizer (just one is enough) in your network to perform fluid crafting!\n\nIf a discretizer is present, fluids will show up as drop items in your crafting terminal.",
+      "desc:8": "§7§oME网络中需要存在一个流体离散器以处理流体合成！\n\n若网络中存在流体离散器，流体将以物品形式（液滴）显示在终端中。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ae2fc:fluid_discretizer"
       },
-      "name:8": "ME Fluid Discretizer"
+      "name:8": "ME流体离散器"
     }
   },
   "questID:3": 1234,

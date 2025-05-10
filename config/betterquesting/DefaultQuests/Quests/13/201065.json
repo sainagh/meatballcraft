@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 660\nMining Level: 6\nMining Speed: 3.8\nAttack: 2\nCounterweight II\n\nHandle\nModifier: 0.9\nDurability: 90\nCounterweight\n\nExtra\nDurability: 130\nCounterweight\n\nBows\nDrawspeed: 1.67\nRange Multiplier: 1.15\nBonus Damage: 3.4\nCounterweight",
+      "desc:8": "顶端\n耐久：660\n挖掘等级：6\n挖掘速度：3.8\n攻击力：2\n配重 II\n\n手柄\n手柄系数：0.9\n耐久：90\n配重\n\n其它部件\n耐久：130\n配重\n\n弓\n拉弓速度：1.67\n范围系数：1.15\n附加伤害：3.4\n配重",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "lunar"
         }
       },
-      "name:8": "Lunar"
+      "name:8": "月"
     }
   },
   "questID:3": 201065,

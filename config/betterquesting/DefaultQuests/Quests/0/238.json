@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGet to coordinates 0,0 in omothol!\n\nWARNING: minions of the gatekeeper may bug out and have absurd amounts of HP.\n\n§fI\u0027ve finally met the master of my power, I think...\nDelving even deeper, I found, well, a monster, a really powerful moster.\nBut this is my undeath that we are talking about, so I kicked its butt!\nI feel, \u0027free\u0027, I think? The overwhelming feeling of imprisonment is gone, but what remains is a deep sense of a lack of meaning in my life.\nThis Cthulhu crap really messed with my mind!\nOh yeah, and I\u0027m still immortal, which, you know, its nice...\nI think I found a purpose for my now apparently eternal life, at least for the foreseeable future.\nThe Testificates of Terra deserve so much better than living under the feet of beings that treat them like insects that can be killed with no remorse.\nThis is a declaration of war to those that treat Terra as their resource-mining playground!",
+      "desc:8": "§7§o前往奥穆索的(0,0)坐标！\n\n警告：守门者仆从可能会有bug，血量可能会异常的多。\n\n§f我终于见到了身上这种力量的主人，我想……\n在更深入的探索中，我遇到了，呃，一个怪物，无比强大的怪物。\n但还记得吗，我是不死的，所以我痛揍了它一顿！\n我感觉自己“自由”了？那种令人窒息的囚禁感消失了，但取而代之的是对生命意义的深度虚无。\n这该死的克苏鲁玩意彻底扭曲了我的精神！\n哦对了，我依然永生不死，这感觉嘛……你懂得，还算不赖……\n我认为自己似乎为这看似永恒的生命找到了目标，至少在可预见的未来有了方向。\n泰拉上的泰斯提斐人值得更好的生活，而不是像蝼蚁般被肆意践踏、毫无怜悯地被屠戮。\n此乃宣战，向肆意在泰拉攫取资源之人的宣战！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:gatekeeperessence"
       },
-      "name:8": "Essence of The Gatekeeper"
+      "name:8": "守门者精华"
     }
   },
   "questID:3": 238,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "abyssalcraft:gatekeeperessence"
             },
-            "TrophyName:8": "Gatekeeper Slayer",
+            "TrophyName:8": "守门者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

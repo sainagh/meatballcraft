@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGenerates mana from books or written books (better).\n\nCan be boosted by bookshelves like an enchanting table.",
+      "desc:8": "§7§o消耗书或成书（更好）产生魔力。\n\n类似附魔台，可用书架增强产魔能力。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "omniviolet"
         }
       },
-      "name:8": "Omniviolet (Great)"
+      "name:8": "全知瑾（优异）"
     }
   },
   "questID:3": 764,

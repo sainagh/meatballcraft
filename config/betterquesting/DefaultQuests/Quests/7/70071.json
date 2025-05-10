@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCan be found between Y\u003d5 and Y\u003d132.\nCan be dropped by a Runic Guardian.\nCan be obtained by Deep Cases.\n\n- Written by Bluecat",
+      "desc:8": "§7§o发现于Y\u003d5与Y\u003d132之间。\n可由符文守护者掉落。\n通过沉睡之石获得。\n\n- Bluecat撰写",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:runium_chunk"
       },
-      "name:8": "Runium Chunk"
+      "name:8": "符文块"
     }
   },
   "questID:3": 70071,

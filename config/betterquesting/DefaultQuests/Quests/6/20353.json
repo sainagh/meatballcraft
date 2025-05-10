@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace above a ritual altar (4 blocks between altar and linker) to move the effects of a ritual elsewhere.\n\nPlace another anchor where you want your ritual to be active, and link the two anchors with a linking tool.",
+      "desc:8": "§7§o放置在仪式祭坛上方（二者间隔4格）以将仪式效果移动到其他地方。\n\n将另一个仪式锚放置在想要仪式生效的地方，使用链接器链接两个仪式锚。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:blockrituallink"
       },
-      "name:8": "Ritual Anchor"
+      "name:8": "仪式锚"
     }
   },
   "questID:3": 20353,

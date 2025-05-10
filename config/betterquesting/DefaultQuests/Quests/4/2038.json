@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFlux Networks are used to transfer energy wirelessly, and are the preferred energy transfer method in the pack.\n\nTo create your own Flux Network, you need a Controller. You can specify the name of teh network and a color in the Controller GUI. Each Flux Networks machine will have to be bound to a network to function.\n\nFlux Plugs are used to move energy from a source to a network.\n\nFlux Points are used to move energy from a network to a set of machines.\n\nFlux Storage is used to include a buffer of energy in a network. If you have to transfer large amounts of RF/t, Storage is required to prevent energy cutouts.\n\nIt is recommended to still use other energy transfer methods to limit the use of Flux Plugs, as using too many can cause lag. If you want to power a machine wall, for example, use a single Flux Point, and Energy Conduits of the appropriate size to power the machines.\n\nYour base should have two Flux Networks, one to move energy from your generators to a centralized energy storage (eventually the Draconic Energy Orb), one to move energy from storage to all of your machines.",
+      "desc:8": "§7§o通量网络模组可无限传输能量，是本整合包中首选的能量传输方案。\n\n要创建自己的通量网络，首先需要任意一台通量网络设备。可在设备GUI中自定义网络名称和颜色。每种通量网络设备都需要与网络绑定才能工作。\n\n通量接入点可以从能量源向网络中添加能量。\n\n通量接出点可以从网络中向机器输出能量。\n\n通量存储器可作为网络的能量缓存。如果必须传输大量RF/t，则需要存储器以防止能量中断。\n\n由于接入接出点过多会引起卡顿，所以推荐与其他能量传输手段配合以减少接入接出点的使用。例如，使用单个通量接出点和能量管道为大片机器供能。\n\n基地应该至少有两个通量网络，一个用于将能量从发电机传输到储能设备（比如神龙能量核心），另一个用来将能量从储能设备传输到所有机器。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "fluxnetworks:fluxcontroller"
       },
-      "name:8": "Flux Networks are your Friend!"
+      "name:8": "通量网络是好帮手！"
     }
   },
   "questID:3": 2038,

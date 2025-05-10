@@ -66,224 +66,224 @@ val array86 as IEnchantmentDefinition[] = [<enchantment:minecraft:infinity>];
 
 var map3 as IData = {};
 for ench in array3 {
-	map3 += ench.makeEnchantment(1).makeTag();
+	map3 += ench.makeEnchantment(1).makeBookTag();
 }
 var map4 as IData = {};
 for ench in array4 {
-	map4 += ench.makeEnchantment(5).makeTag();
+	map4 += ench.makeEnchantment(5).makeBookTag();
 }
 var map5 as IData = {};
 for ench in array5 {
-	map5 += ench.makeEnchantment(8).makeTag();
+	map5 += ench.makeEnchantment(8).makeBookTag();
 }
 var map6 as IData = {};
 for ench in array6 {
-	map6 += ench.makeEnchantment(8).makeTag();
+	map6 += ench.makeEnchantment(8).makeBookTag();
 }
 var map7 as IData = {};
 for ench in array7 {
-	map7 += ench.makeEnchantment(5).makeTag();
+	map7 += ench.makeEnchantment(5).makeBookTag();
 }
 var map8 as IData = {};
 for ench in array8 {
-	map8 += ench.makeEnchantment(5).makeTag();
+	map8 += ench.makeEnchantment(5).makeBookTag();
 }
 var map9 as IData = {};
 for ench in array9 {
-	map9 += ench.makeEnchantment(4).makeTag();
+	map9 += ench.makeEnchantment(4).makeBookTag();
 }
 var map10 as IData = {};
 for ench in array10 {
-	map10 += ench.makeEnchantment(4).makeTag();
+	map10 += ench.makeEnchantment(4).makeBookTag();
 }
 var map11 as IData = {};
 for ench in array11 {
-	map11 += ench.makeEnchantment(4).makeTag();
+	map11 += ench.makeEnchantment(4).makeBookTag();
 }
 var map12 as IData = {};
 for ench in array12 {
-	map12 += ench.makeEnchantment(4).makeTag();
+	map12 += ench.makeEnchantment(4).makeBookTag();
 }
 var map13 as IData = {};
 for ench in array13 {
-	map13 += ench.makeEnchantment(5).makeTag();
+	map13 += ench.makeEnchantment(5).makeBookTag();
 }
 var map14 as IData = {};
 for ench in array14 {
-	map14 += ench.makeEnchantment(2).makeTag();
+	map14 += ench.makeEnchantment(2).makeBookTag();
 }
 var map15 as IData = {};
 for ench in array15 {
-	map15 += ench.makeEnchantment(4).makeTag();
+	map15 += ench.makeEnchantment(4).makeBookTag();
 }
 var map16 as IData = {};
 for ench in array16 {
-	map16 += ench.makeEnchantment(5).makeTag();
+	map16 += ench.makeEnchantment(5).makeBookTag();
 }
 var map17 as IData = {};
 for ench in array17 {
-	map17 += ench.makeEnchantment(1).makeTag();
+	map17 += ench.makeEnchantment(1).makeBookTag();
 }
 var map18 as IData = {};
 for ench in array18 {
-	map18 += ench.makeEnchantment(5).makeTag();
+	map18 += ench.makeEnchantment(5).makeBookTag();
 }
 var map31 as IData = {};
 for ench in array31 {
-	map31 += ench.makeEnchantment(1).makeTag();
+	map31 += ench.makeEnchantment(1).makeBookTag();
 }
 var map32 as IData = {};
 for ench in array32 {
-	map32 += ench.makeEnchantment(2).makeTag();
+	map32 += ench.makeEnchantment(2).makeBookTag();
 }
 
 var map50 as IData = {};
 for ench in array50 {
-	map50 += ench.makeEnchantment(4).makeTag();
+	map50 += ench.makeEnchantment(4).makeBookTag();
 }
 var map51 as IData = {};
 for ench in array51 {
-	map51 += ench.makeEnchantment(1).makeTag();
+	map51 += ench.makeEnchantment(1).makeBookTag();
 }
 var map52 as IData = {};
 for ench in array52 {
-	map52 += ench.makeEnchantment(4).makeTag();
+	map52 += ench.makeEnchantment(4).makeBookTag();
 }
 var map53 as IData = {};
 for ench in array53 {
-	map53 += ench.makeEnchantment(4).makeTag();
+	map53 += ench.makeEnchantment(4).makeBookTag();
 }
 var map54 as IData = {};
 for ench in array54 {
-	map54 += ench.makeEnchantment(3).makeTag();
+	map54 += ench.makeEnchantment(3).makeBookTag();
 }
 var map55 as IData = {};
 for ench in array55 {
-	map55 += ench.makeEnchantment(1).makeTag();
+	map55 += ench.makeEnchantment(1).makeBookTag();
 }
 var map56 as IData = {};
 for ench in array56 {
-	map56 += ench.makeEnchantment(3).makeTag();
+	map56 += ench.makeEnchantment(3).makeBookTag();
 }
 var map57 as IData = {};
 for ench in array57 {
-	map57 += ench.makeEnchantment(4).makeTag();
+	map57 += ench.makeEnchantment(4).makeBookTag();
 }
 var map58 as IData = {};
 for ench in array58 {
-	map58 += ench.makeEnchantment(1).makeTag();
+	map58 += ench.makeEnchantment(1).makeBookTag();
 }
 var map59 as IData = {};
 for ench in array59 {
-	map59 += ench.makeEnchantment(5).makeTag();
+	map59 += ench.makeEnchantment(5).makeBookTag();
 }
 var map60 as IData = {};
 for ench in array60 {
-	map60 += ench.makeEnchantment(5).makeTag();
+	map60 += ench.makeEnchantment(5).makeBookTag();
 }
 var map61 as IData = {};
 for ench in array61 {
-	map61 += ench.makeEnchantment(5).makeTag();
+	map61 += ench.makeEnchantment(5).makeBookTag();
 }
 var map62 as IData = {};
 for ench in array62 {
-	map62 += ench.makeEnchantment(5).makeTag();
+	map62 += ench.makeEnchantment(5).makeBookTag();
 }
 var map63 as IData = {};
 for ench in array63 {
-	map63 += ench.makeEnchantment(2).makeTag();
+	map63 += ench.makeEnchantment(2).makeBookTag();
 }
 var map64 as IData = {};
 for ench in array64 {
-	map64 += ench.makeEnchantment(1).makeTag();
+	map64 += ench.makeEnchantment(1).makeBookTag();
 }
 var map65 as IData = {};
 for ench in array65 {
-	map65 += ench.makeEnchantment(5).makeTag();
+	map65 += ench.makeEnchantment(5).makeBookTag();
 }
 var map66 as IData = {};
 for ench in array66 {
-	map66 += ench.makeEnchantment(5).makeTag();
+	map66 += ench.makeEnchantment(5).makeBookTag();
 }
 var map67 as IData = {};
 for ench in array67 {
-	map67 += ench.makeEnchantment(3).makeTag();
+	map67 += ench.makeEnchantment(3).makeBookTag();
 }
 var map68 as IData = {};
 for ench in array68 {
-	map68 += ench.makeEnchantment(3).makeTag();
+	map68 += ench.makeEnchantment(3).makeBookTag();
 }
 var map69 as IData = {};
 for ench in array69 {
-	map69 += ench.makeEnchantment(5).makeTag();
+	map69 += ench.makeEnchantment(5).makeBookTag();
 }
 var map70 as IData = {};
 for ench in array70 {
-	map70 += ench.makeEnchantment(2).makeTag();
+	map70 += ench.makeEnchantment(2).makeBookTag();
 }
 var map71 as IData = {};
 for ench in array71 {
-	map71 += ench.makeEnchantment(5).makeTag();
+	map71 += ench.makeEnchantment(5).makeBookTag();
 }
 var map72 as IData = {};
 for ench in array72 {
-	map72 += ench.makeEnchantment(4).makeTag();
+	map72 += ench.makeEnchantment(4).makeBookTag();
 }
 var map73 as IData = {};
 for ench in array73 {
-	map73 += ench.makeEnchantment(2).makeTag();
+	map73 += ench.makeEnchantment(2).makeBookTag();
 }
 var map74 as IData = {};
 for ench in array74 {
-	map74 += ench.makeEnchantment(5).makeTag();
+	map74 += ench.makeEnchantment(5).makeBookTag();
 }
 var map75 as IData = {};
 for ench in array75 {
-	map75 += ench.makeEnchantment(5).makeTag();
+	map75 += ench.makeEnchantment(5).makeBookTag();
 }
 var map76 as IData = {};
 for ench in array76 {
-	map76 += ench.makeEnchantment(2).makeTag();
+	map76 += ench.makeEnchantment(2).makeBookTag();
 }
 var map77 as IData = {};
 for ench in array77 {
-	map77 += ench.makeEnchantment(1).makeTag();
+	map77 += ench.makeEnchantment(1).makeBookTag();
 }
 var map78 as IData = {};
 for ench in array78 {
-	map78 += ench.makeEnchantment(5).makeTag();
+	map78 += ench.makeEnchantment(5).makeBookTag();
 }
 var map79 as IData = {};
 for ench in array79 {
-	map79 += ench.makeEnchantment(5).makeTag();
+	map79 += ench.makeEnchantment(5).makeBookTag();
 }
 var map80 as IData = {};
 for ench in array80 {
-	map80 += ench.makeEnchantment(4).makeTag();
+	map80 += ench.makeEnchantment(4).makeBookTag();
 }
 var map81 as IData = {};
 for ench in array81 {
-	map81 += ench.makeEnchantment(3).makeTag();
+	map81 += ench.makeEnchantment(3).makeBookTag();
 }
 // var map82 as IData = {};
 // for ench in array82 {
-// 	map82 += ench.makeEnchantment(1).makeTag();
+// 	map82 += ench.makeEnchantment(1).makeBookTag();
 // }
 var map83 as IData = {};
 for ench in array83 {
-	map83 += ench.makeEnchantment(4).makeTag();
+	map83 += ench.makeEnchantment(4).makeBookTag();
 }
 var map84 as IData = {};
 for ench in array84 {
-	map84 += ench.makeEnchantment(1).makeTag();
+	map84 += ench.makeEnchantment(1).makeBookTag();
 }
 var map85 as IData = {};
 for ench in array85 {
-	map85 += ench.makeEnchantment(5).makeTag();
+	map85 += ench.makeEnchantment(5).makeBookTag();
 }
 var map86 as IData = {};
 for ench in array86 {
-	map86 += ench.makeEnchantment(1).makeTag();
+	map86 += ench.makeEnchantment(1).makeBookTag();
 }
 
 

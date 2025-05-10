@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCan craft some processors used to make the mass assembler components!",
+      "desc:8": "§7§o可合成用于制作大型分子装配室部件的处理器！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "threng:machine"
       },
-      "name:8": "ME Circuit Etcher"
+      "name:8": "ME电路板蚀刻器"
     }
   },
   "questID:3": 1248,

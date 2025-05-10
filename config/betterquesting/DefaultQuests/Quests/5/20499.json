@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Tome of Alkahestry, in most situations, is a worse version of the philosopher stone, but its ability to replicate nether stars makes it very useful.\n\nThe tome is charged when shapelessly crafted with redstone.\n\nIf the tome has enough charge, it will duplicate nether stars when shapelessly crafted with them.\n\nA crafter in ExtC mode will let you make a very cheap and effective nether star farm, provided with a steady supply of redstone!",
+      "desc:8": "§7§o在大部分情况下，万能溶剂之经基本就是劣化版的贤者之石，但它复制下界之星的能力十分有用。\n\n可使用红石通过无序配方充能该物品。\n\n如果充能足够，可通过与下界之星无序合成实现对下界之星的复制。\n\n一台设置为ExtC模式的自动合成机能非常廉价且高效地产出下界之星，只需提供红石即可！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1001,
         "id:8": "xreliquary:alkahestry_tome"
       },
-      "name:8": "Tome of Alkahestry"
+      "name:8": "万能溶剂之经"
     }
   },
   "questID:3": 20499,

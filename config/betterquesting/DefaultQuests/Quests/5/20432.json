@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Boys! The plan is simple!\nUse a lot of energy...make lots of mobs!\"",
+      "desc:8": "小伙子们！计划很简单！\n消耗大量能量……制造大量生物！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:block_powered_spawner"
       },
-      "name:8": "Powered Spawner"
+      "name:8": "电动刷怪箱"
     }
   },
   "questID:3": 20432,

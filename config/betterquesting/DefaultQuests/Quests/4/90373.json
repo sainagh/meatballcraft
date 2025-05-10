@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate can act as a one-input-one-output redstone connection if signal is coming in from one of the sides with the vertical wire.\n\nIt acts as a one-input-three-outputs connection if signal is coming in from the other two sides.",
+      "desc:8": "§7§o当信号从垂直线缆的两侧输入时，该门电路可视为单进单出的红石连接。\n\n当信号从另外两侧输入时，可视为单进三出的红石连接。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 25,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Buffer Cell"
+      "name:8": "缓冲单元"
     }
   },
   "questID:3": 90373,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCan do level 30 enchants without boosts.",
+      "desc:8": "§7§o无须额外增幅便可进行30级附魔。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:altar_of_corruption"
       },
-      "name:8": "Altar of Corruption (Great)"
+      "name:8": "腐化祭坛（优异）"
     }
   },
   "questID:3": 2317,

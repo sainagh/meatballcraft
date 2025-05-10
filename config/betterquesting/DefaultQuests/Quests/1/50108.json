@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe harvest goddess band drastically speeds up plant growth around the player! \n\nIf placed on a pedestal, this will make things much faster than several lilypads of fertility!",
+      "desc:8": "§7§o丰收女神戒指可大幅提升玩家周围植物的生长速度！\n\n放置在台座上时，其加速效果比多个富饶莲叶还要强！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_harvest_god"
       },
-      "name:8": "Harvest Goddess Band"
+      "name:8": "丰收女神戒指"
     }
   },
   "questID:3": 50108,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis block is part of a multiblock.\n\nRight click with a sextant to see a multiblock preview.\n\nRight click the infuser with a resonating wand to activate the recipe.\n\nThe infuser will only work if all 12 of the spaces in the multiblock are filled with liquid starlight.\n\nEvery time the infuser crafts, liquid starlight has a chance of disappearing. \n\nThe containment chalice will provide liquid starlight instead of consuming it from the multiblock. You can pipe it in from the bottom using any fluid pipe!\n\n\n",
+      "desc:8": "§7§o多方块结构的一部分。\n\n使用六分仪右击以查看多方块预览。\n\n使用共振星杖右击注入器以激活配方。\n\n仅在周围12格空槽均填满星能液时，注入器才会工作。\n\n每次合成时，有概率消耗星能液。\n\n纳星圣杯可提供星能液，以避免放置的星能液被消耗。可使用任意流体管道从圣杯底部输入星能液！\n\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:blockstarlightinfuser"
       },
-      "name:8": "Starlight Infuser"
+      "name:8": "星能注入器"
     }
   },
   "questID:3": 20358,

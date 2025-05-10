@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "ascended_fluix_essence"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Farming stations are a relatively expensive, but very versatile, way to automatically farm both crops and trees.",
+      "desc:8": "种植站相对较贵，但胜在泛用性，作物和树木都能自动种植。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:block_farm_station"
       },
-      "name:8": "Farming Station"
+      "name:8": "种植站"
     }
   },
   "questID:3": 20519,

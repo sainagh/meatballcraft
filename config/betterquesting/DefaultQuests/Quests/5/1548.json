@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound on Vibe!",
+      "desc:8": "§7§o发现于谐律界！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "chickens:spawn_egg",
@@ -14,7 +14,7 @@
           }
         }
       },
-      "name:8": "Pure"
+      "name:8": "纯净"
     }
   },
   "questID:3": 1548,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate counts redstone pulses, and lets you do arithmetic!\n\nRight click the gate to change its settings.\n\nThe side with a redstone channel and a plus sign will add a configurable amount to the block state.\n\nThe side with a redstone channel and a minus sign will subtract a configurable amount to the block state.\n\nWhen the state is zero, the gate will output a redstone signal from the zero side, the side with a redstone torch and a minus sign.\n\nWhen the state reaches a maximum, the gate will output a redstone signal from the max side, the side with a redstone torch and a plus sign.\n\n",
+      "desc:8": "§7§o该逻辑门可统计脉冲次数并执行算术运算！\n\n右击可更改设置。\n\n带红石通道和加号的一侧，会向计数值增加预设值。\n\n带红石通道和减号的一侧，会从计数值减少预设值。\n\n当计数值归零时，会从有红石火把和减号的“零值”侧输出红石信号。\n\n当计数值达上限时，会从有红石火把和加号的“满值”侧输出红石信号。\n\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 19,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Counter"
+      "name:8": "计数器"
     }
   },
   "questID:3": 90384,

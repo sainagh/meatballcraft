@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHolds 16 buckets.",
+      "desc:8": "§7§o可存储16桶流体。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:block_tank",
@@ -17,7 +17,7 @@
           }
         }
       },
-      "name:8": "Fluid Tank"
+      "name:8": "流体储罐"
     }
   },
   "questID:3": 90091,

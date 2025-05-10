@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    60312094
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "abyssalcraft:ethaxiumbrick"
+      },
+      "name:8": "争竞界"
+    }
+  },
+  "questID:3": 859970114,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 193,
+      "index:3": 0,
+      "name:8": "争竞界",
+      "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "abyssalcraft:ethaxiumbrick"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

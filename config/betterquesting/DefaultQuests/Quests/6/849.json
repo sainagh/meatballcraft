@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHarvests crops and replants them at the cost of LP.",
+      "desc:8": "§7§o消耗LP收获并重种作物。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Reap of the Harvest Moon"
+      "name:8": "丰收之月"
     }
   },
   "questID:3": 849,

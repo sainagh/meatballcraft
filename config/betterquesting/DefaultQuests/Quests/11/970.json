@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDefeat the watcher, and progress through the twilight forest.",
+      "desc:8": "§7§o击败监视者，并发展暮色森林。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:rosidian_greatblade",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Vorpal Sword"
+            "Name:8": "神锋剑"
           },
           "ench:9": {
             "0:10": {
@@ -38,7 +38,7 @@
           }
         }
       },
-      "name:8": "Vorpal Sword"
+      "name:8": "神锋剑"
     }
   },
   "questID:3": 970,
@@ -52,9 +52,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oVorpal Sword§r"
+              "Name:8": "§6§o神锋剑§r"
             },
             "ench:9": {
               "0:10": {

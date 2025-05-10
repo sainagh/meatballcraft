@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests list all things you may need in your agricultural journey!",
+      "desc:8": "§7§o以下任务列出了所有在农业之旅中需要注意的事项！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "All Things Agriculture!"
+      "name:8": "所有农业相关事物！"
     }
   },
   "questID:3": 1437,

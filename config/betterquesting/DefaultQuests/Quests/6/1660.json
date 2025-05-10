@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oClear curses (often).",
+      "desc:8": "§7§o（极大概率）移除诅咒。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:cursed_rock"
       },
-      "name:8": "Rite of Greater Curse Celansing"
+      "name:8": "高级诅咒净化仪式"
     }
   },
   "questID:3": 1660,

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/oath_of_the_lord_of_gluttony"
+  }
+}

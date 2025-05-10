@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe level emitter can be configured to output a signal whenever the quantity of a given item is above or below a threshold. \nCrafting cards can be added to make the level emitter produce a redstone signal whenever an item is being crafted.",
+      "desc:8": "§7§o通过配置，标准发信器可在给定物品数量高于/低于阈值时发出红石信号。\n加装合成卡时，发信器可在物品合成被调用时发出红石信号。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 280,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "ME Level Emitter"
+      "name:8": "ME标准发信器"
     }
   },
   "questID:3": 90128,

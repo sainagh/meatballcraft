@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSpells of the matching type receive a 45% buff!",
+      "desc:8": "§7§o对应种类的法术获得45%增幅！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ebwizardry:advanced_lightning_wand",
         "tag:10": {}
       },
-      "name:8": "Storm Mage"
+      "name:8": "风暴巫师"
     }
   },
   "questID:3": 727,

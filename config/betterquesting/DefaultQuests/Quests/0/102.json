@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The improved means of fabrications I have developed seem to be working well with one of the metals found in the Terra underground.",
+      "desc:8": "经我改进后的制作工艺，似乎与泰拉地底发现的某种金属相性极佳。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:crystalized_emberstone"
       },
-      "name:8": "Custom Crystals"
+      "name:8": "自定义晶体"
     }
   },
   "questID:3": 102,

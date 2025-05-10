@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAdds more pattern slots to ME interfaces!",
+      "desc:8": "§7§o增加ME接口的样板槽位！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 58,
         "id:8": "appliedenergistics2:material"
       },
-      "name:8": "Pattern Expansion Card"
+      "name:8": "样板扩展卡"
     }
   },
   "questID:3": 90124,

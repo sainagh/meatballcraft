@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis table requires starlight to work. It needs sky access. The closer it is to midnight, the higher the starlight.\n\nThis table works best at high y level, the higher you are, the higher the starlight. There are special chunks where starlight is higher, the resonator will lets you find them at night.\n\nIf a recipe does not have enough starlight, it will not show up as craftable in the table.\n\nRight click the table with a resonating wand to start the recipe.",
+      "desc:8": "§7§o需要星能才能工作。需要露天环境。越临近午夜，星能越强。\n\n在高处效果最好，Y值越高，星能越强。某些特定区块的星能更强，使用共振器在夜晚寻找这些区块。\n\n若星能不足，合成台内不会显示配方产物。\n\n使用共振星杖右击合成台来进行合成。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:blockaltar"
       },
-      "name:8": "Luminous Crafting Table"
+      "name:8": "星辉合成台"
     }
   },
   "questID:3": 20109,

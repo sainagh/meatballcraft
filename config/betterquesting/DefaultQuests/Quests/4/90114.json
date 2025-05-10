@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRouting cables and connectors are used to link routers to each other, if for some reason you need even more channels to interact between each other.\n\nRouters connected by routing cables and connectors will work the same way, but using the right side of the GUI as well.\n\nBoth local (left) and remote (right) channels can interact with each other, and be unified, as long as they have the same label in the router GUI.",
+      "desc:8": "§7§o路由网络线缆和路由连接器用于路由器的彼此连接，以使用更多频道进行交互。\n\n使用路由网络线缆和路由连接器连接的路由器工作方式不变，同样共享GUI右侧的频道。\n\n本地（左侧）和远程（右侧）频道只要具有相同的标签名，就可以互相连接并相互交互。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
@@ -15,7 +15,7 @@
           }
         }
       },
-      "name:8": "Routing Network Cable"
+      "name:8": "路由网络线缆"
     }
   },
   "questID:3": 90114,

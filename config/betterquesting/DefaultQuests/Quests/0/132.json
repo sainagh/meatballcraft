@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFount at multiples of 10,000 in the end.\n\n§fWell...This is probably a bit too much for now, but I found out the reason for why nobody has truly gained control over the asteroids of Terra...\nThere are more dragons, and they really are unlikable...",
+      "desc:8": "§7§o发现于末地10,000格之外……\n\n§f看来...现阶段接触这等存在还为时过早，但我终于明白为何无人能真正掌控泰拉星环……\n群龙盘踞，尽皆凶顽异常……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:chaos_shard"
       },
-      "name:8": "Immense Power"
+      "name:8": "浩瀚伟力"
     }
   },
   "questID:3": 132,

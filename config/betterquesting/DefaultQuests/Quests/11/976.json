@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oProgress through abyssalcraft, and make the valonite gateway.",
+      "desc:8": "§7§o发展深渊国度，并建造英玫之门。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thebetweenlands:shockwave_sword",
@@ -17,7 +17,7 @@
           "RepairCost:3": 1,
           "cooldown:3": 0,
           "display:10": {
-            "Name:8": "Sword of the Swamps"
+            "Name:8": "沼泽之剑"
           },
           "ench:9": {
             "0:10": {
@@ -44,7 +44,7 @@
           "uses:3": 0
         }
       },
-      "name:8": "Sword of the Swamps"
+      "name:8": "沼泽之剑"
     }
   },
   "questID:3": 976,
@@ -59,9 +59,9 @@
             "cooldown:3": 0,
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oSword of the Swamps§r"
+              "Name:8": "§6§o沼泽之剑§r"
             },
             "ench:9": {
               "0:10": {

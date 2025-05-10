@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTurns the whitelist in export and import buses into a blacklist.",
+      "desc:8": "§7§o将输入、输出总线的白名单反相为黑名单。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "appliedenergistics2:material"
       },
-      "name:8": "Inverter Card"
+      "name:8": "反相卡"
     }
   },
   "questID:3": 90125,

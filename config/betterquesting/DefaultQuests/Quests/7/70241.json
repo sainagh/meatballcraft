@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Abyss Dimension from Advent of Ascension.\nDropped by Jawe.\nOre generates below Y\u003d64.\n",
+      "desc:8": "§7§o发现于虚无世界模组的深渊维度。\n可由深渊蹒跚者掉落。\n矿物生成于Y\u003d64以下。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:bloodstone"
       },
-      "name:8": "Bloodstone"
+      "name:8": "血之石"
     }
   },
   "questID:3": 70241,

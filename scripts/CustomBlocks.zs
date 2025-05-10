@@ -2126,3 +2126,564 @@ terrestrialcauldron.setToolClass("pickaxe");
 terrestrialcauldron.setBeaconBase(true);
 terrestrialcauldron.setToolLevel(3);
 terrestrialcauldron.register();
+
+var ascendedspatialchassis = VanillaFactory.createBlock("ascended_spatial_chassis", <blockmaterial:iron>);
+ascendedspatialchassis.setBlockHardness(1.0);
+ascendedspatialchassis.setBlockResistance(2.5);
+ascendedspatialchassis.setToolClass("pickaxe");
+ascendedspatialchassis.setBeaconBase(true);
+ascendedspatialchassis.setToolLevel(3);
+ascendedspatialchassis.register();
+
+var actualizingcasing = VanillaFactory.createBlock("actualizing_casing", <blockmaterial:iron>);
+actualizingcasing.setBlockHardness(1.0);
+actualizingcasing.setBlockResistance(2.5);
+actualizingcasing.setToolClass("pickaxe");
+actualizingcasing.setBeaconBase(true);
+actualizingcasing.setToolLevel(3);
+actualizingcasing.register();
+
+var hyperuranionactnaq = VanillaFactory.createBlock("hyperuranion_actualizer_naquadah", <blockmaterial:iron>);
+hyperuranionactnaq.setBlockHardness(1.0);
+hyperuranionactnaq.setBlockResistance(2.5);
+hyperuranionactnaq.setToolClass("pickaxe");
+hyperuranionactnaq.setBeaconBase(true);
+hyperuranionactnaq.setToolLevel(3);
+hyperuranionactnaq.register();
+
+var hyperuranionactdrag = VanillaFactory.createBlock("hyperuranion_actualizer_dragonsteel", <blockmaterial:iron>);
+hyperuranionactdrag.setBlockHardness(1.0);
+hyperuranionactdrag.setBlockResistance(2.5);
+hyperuranionactdrag.setToolClass("pickaxe");
+hyperuranionactdrag.setBeaconBase(true);
+hyperuranionactdrag.setToolLevel(3);
+hyperuranionactdrag.register();
+
+var hyperuranionactdimshard = VanillaFactory.createBlock("hyperuranion_actualizer_dimshard", <blockmaterial:iron>);
+hyperuranionactdimshard.setBlockHardness(1.0);
+hyperuranionactdimshard.setBlockResistance(2.5);
+hyperuranionactdimshard.setToolClass("pickaxe");
+hyperuranionactdimshard.setBeaconBase(true);
+hyperuranionactdimshard.setToolLevel(3);
+hyperuranionactdimshard.register();
+
+var hyperuranionactrhenia = VanillaFactory.createBlock("hyperuranion_actualizer_rhenia", <blockmaterial:iron>);
+hyperuranionactrhenia.setBlockHardness(1.0);
+hyperuranionactrhenia.setBlockResistance(2.5);
+hyperuranionactrhenia.setToolClass("pickaxe");
+hyperuranionactrhenia.setBeaconBase(true);
+hyperuranionactrhenia.setToolLevel(3);
+hyperuranionactrhenia.register();
+
+
+var recursivebrain = VanillaFactory.createBlock("recursive_brain", <blockmaterial:iron>);
+recursivebrain.setBlockHardness(1.0);
+recursivebrain.setBlockResistance(2.5);
+recursivebrain.setToolClass("pickaxe");
+recursivebrain.setBeaconBase(true);
+recursivebrain.setToolLevel(3);
+recursivebrain.register();
+
+var recursivebrainplug = VanillaFactory.createBlock("recursive_brain_plug", <blockmaterial:iron>);
+recursivebrainplug.setBlockHardness(1.0);
+recursivebrainplug.setBlockResistance(2.5);
+recursivebrainplug.setToolClass("pickaxe");
+recursivebrainplug.setBeaconBase(true);
+recursivebrainplug.setToolLevel(3);
+recursivebrainplug.register();
+
+var hyperuranionconduit = VanillaFactory.createBlock("hyperuranion_conduit", <blockmaterial:iron>);
+hyperuranionconduit.setBlockHardness(1.0);
+hyperuranionconduit.setBlockResistance(2.5);
+hyperuranionconduit.setToolClass("pickaxe");
+hyperuranionconduit.setBeaconBase(true);
+hyperuranionconduit.setToolLevel(3);
+hyperuranionconduit.register();
+
+var hyperuranioncasing = VanillaFactory.createBlock("hyperuranion_casing", <blockmaterial:iron>);
+hyperuranioncasing.setBlockHardness(1.0);
+hyperuranioncasing.setBlockResistance(2.5);
+hyperuranioncasing.setToolClass("pickaxe");
+hyperuranioncasing.setBeaconBase(true);
+hyperuranioncasing.setToolLevel(3);
+hyperuranioncasing.register();
+
+var horizonsustainer = VanillaFactory.createBlock("horizon_sustainer", <blockmaterial:iron>);
+horizonsustainer.setBlockHardness(1.0);
+horizonsustainer.setBlockResistance(2.5);
+horizonsustainer.setToolClass("pickaxe");
+horizonsustainer.setBeaconBase(true);
+horizonsustainer.setToolLevel(3);
+horizonsustainer.register();
+
+var dysonextruder = VanillaFactory.createBlock("dyson_extruder", <blockmaterial:iron>);
+dysonextruder.setBlockHardness(1.0);
+dysonextruder.setBlockResistance(2.5);
+dysonextruder.setToolClass("pickaxe");
+dysonextruder.setBeaconBase(true);
+dysonextruder.setToolLevel(3);
+dysonextruder.register();
+
+var relativisticabsorber = VanillaFactory.createBlock("exotic_absorber", <blockmaterial:iron>);
+relativisticabsorber.setBlockHardness(1.0);
+relativisticabsorber.setBlockResistance(2.5);
+relativisticabsorber.setToolClass("pickaxe");
+relativisticabsorber.setBeaconBase(true);
+relativisticabsorber.setToolLevel(3);
+relativisticabsorber.register();
+
+var exoticdysonconduit = VanillaFactory.createBlock("exotic_dyson_conduit", <blockmaterial:iron>);
+exoticdysonconduit.setBlockHardness(1.0);
+exoticdysonconduit.setBlockResistance(2.5);
+exoticdysonconduit.setToolClass("pickaxe");
+exoticdysonconduit.setBeaconBase(true);
+exoticdysonconduit.setToolLevel(3);
+exoticdysonconduit.register();
+
+var mortumlivingrock = VanillaFactory.createBlock("mortum_livingrock", <blockmaterial:iron>);
+mortumlivingrock.setBlockHardness(1.0);
+mortumlivingrock.setBlockResistance(2.5);
+mortumlivingrock.setToolClass("pickaxe");
+mortumlivingrock.setBeaconBase(true);
+mortumlivingrock.setToolLevel(3);
+mortumlivingrock.register();
+
+var mortumlivingwood = VanillaFactory.createBlock("mortum_livingwood", <blockmaterial:iron>);
+mortumlivingwood.setBlockHardness(1.0);
+mortumlivingwood.setBlockResistance(2.5);
+mortumlivingwood.setToolClass("pickaxe");
+mortumlivingwood.setBeaconBase(true);
+mortumlivingwood.setToolLevel(3);
+mortumlivingwood.register();
+
+var focusedplasmacollider = VanillaFactory.createBlock("focused_plasma_collider", <blockmaterial:iron>);
+focusedplasmacollider.setBlockHardness(1.0);
+focusedplasmacollider.setBlockResistance(2.5);
+focusedplasmacollider.setToolClass("pickaxe");
+focusedplasmacollider.setBeaconBase(true);
+focusedplasmacollider.setToolLevel(3);
+focusedplasmacollider.register();
+
+var superfocusedplasmacollider = VanillaFactory.createBlock("superfocused_plasma_collider", <blockmaterial:iron>);
+superfocusedplasmacollider.setBlockHardness(1.0);
+superfocusedplasmacollider.setBlockResistance(2.5);
+superfocusedplasmacollider.setToolClass("pickaxe");
+superfocusedplasmacollider.setBeaconBase(true);
+superfocusedplasmacollider.setToolLevel(3);
+superfocusedplasmacollider.register();
+
+var hyperfocusedplasmacollider = VanillaFactory.createBlock("hyperfocused_plasma_collider", <blockmaterial:iron>);
+hyperfocusedplasmacollider.setBlockHardness(1.0);
+hyperfocusedplasmacollider.setBlockResistance(2.5);
+hyperfocusedplasmacollider.setToolClass("pickaxe");
+hyperfocusedplasmacollider.setBeaconBase(true);
+hyperfocusedplasmacollider.setToolLevel(3);
+hyperfocusedplasmacollider.register();
+
+var stormlightstone = VanillaFactory.createBlock("stormlight_stone", <blockmaterial:iron>);
+stormlightstone.setBlockHardness(1.0);
+stormlightstone.setBlockResistance(2.5);
+stormlightstone.setToolClass("pickaxe");
+stormlightstone.setBeaconBase(true);
+stormlightstone.setToolLevel(3);
+stormlightstone.register();
+
+var stoneofshadesmar = VanillaFactory.createBlock("stone_of_shadesmar", <blockmaterial:iron>);
+stoneofshadesmar.setBlockHardness(1.0);
+stoneofshadesmar.setBlockResistance(2.5);
+stoneofshadesmar.setToolClass("pickaxe");
+stoneofshadesmar.setBeaconBase(true);
+stoneofshadesmar.setToolLevel(3);
+stoneofshadesmar.register();
+
+
+var halitecatalyst = VanillaFactory.createBlock("halite_bejewelled_ichorium_catalyst", <blockmaterial:iron>);
+halitecatalyst.setBlockHardness(1.0);
+halitecatalyst.setBlockResistance(2.5);
+halitecatalyst.setToolClass("pickaxe");
+halitecatalyst.setBeaconBase(true);
+halitecatalyst.setToolLevel(3);
+halitecatalyst.register();
+
+
+var catalystofthewarrens = VanillaFactory.createBlock("catalyst_of_the_warrens", <blockmaterial:iron>);
+catalystofthewarrens.setBlockHardness(1.0);
+catalystofthewarrens.setBlockResistance(2.5);
+catalystofthewarrens.setToolClass("pickaxe");
+catalystofthewarrens.setBeaconBase(true);
+catalystofthewarrens.setToolLevel(3);
+catalystofthewarrens.register();
+
+var verytruerainbowgen = VanillaFactory.createBlock("absolutely_autentic_rainbowgen", <blockmaterial:iron>);
+verytruerainbowgen.setBlockHardness(1.0);
+verytruerainbowgen.setBlockResistance(2.5);
+verytruerainbowgen.setToolClass("pickaxe");
+verytruerainbowgen.setBeaconBase(true);
+verytruerainbowgen.setToolLevel(3);
+verytruerainbowgen.register();
+
+var cuendillarseal = VanillaFactory.createBlock("cuendillar_seal", <blockmaterial:iron>);
+cuendillarseal.setBlockHardness(1.0);
+cuendillarseal.setBlockResistance(2.5);
+cuendillarseal.setToolClass("pickaxe");
+cuendillarseal.setBeaconBase(true);
+cuendillarseal.setToolLevel(3);
+cuendillarseal.register();
+
+var fractallitestoneoflove = VanillaFactory.createBlock("fractallite_stone_of_love", <blockmaterial:iron>);
+fractallitestoneoflove.setBlockHardness(1.0);
+fractallitestoneoflove.setBlockResistance(2.5);
+fractallitestoneoflove.setToolClass("pickaxe");
+fractallitestoneoflove.setBeaconBase(true);
+fractallitestoneoflove.setToolLevel(3);
+fractallitestoneoflove.register();
+
+var sealofthearbiterblacksmith = VanillaFactory.createBlock("seal_of_the_arbiter_blacksmith", <blockmaterial:iron>);
+sealofthearbiterblacksmith.setBlockHardness(1.0);
+sealofthearbiterblacksmith.setBlockResistance(2.5);
+sealofthearbiterblacksmith.setToolClass("pickaxe");
+sealofthearbiterblacksmith.setBeaconBase(true);
+sealofthearbiterblacksmith.setToolLevel(3);
+sealofthearbiterblacksmith.register();
+
+var sealofthearbitergemcutter = VanillaFactory.createBlock("seal_of_the_arbiter_gemcutter", <blockmaterial:iron>);
+sealofthearbitergemcutter.setBlockHardness(1.0);
+sealofthearbitergemcutter.setBlockResistance(2.5);
+sealofthearbitergemcutter.setToolClass("pickaxe");
+sealofthearbitergemcutter.setBeaconBase(true);
+sealofthearbitergemcutter.setToolLevel(3);
+sealofthearbitergemcutter.register();
+
+var sealofthearbiterhistorian = VanillaFactory.createBlock("seal_of_the_arbiter_historian", <blockmaterial:iron>);
+sealofthearbiterhistorian.setBlockHardness(1.0);
+sealofthearbiterhistorian.setBlockResistance(2.5);
+sealofthearbiterhistorian.setToolClass("pickaxe");
+sealofthearbiterhistorian.setBeaconBase(true);
+sealofthearbiterhistorian.setToolLevel(3);
+sealofthearbiterhistorian.register();
+
+var sealofthearbiterphysicist = VanillaFactory.createBlock("seal_of_the_arbiter_theorist", <blockmaterial:iron>);
+sealofthearbiterphysicist.setBlockHardness(1.0);
+sealofthearbiterphysicist.setBlockResistance(2.5);
+sealofthearbiterphysicist.setToolClass("pickaxe");
+sealofthearbiterphysicist.setBeaconBase(true);
+sealofthearbiterphysicist.setToolLevel(3);
+sealofthearbiterphysicist.register();
+
+var sealofthearbiterexperimentalist = VanillaFactory.createBlock("seal_of_the_arbiter_experimentalist", <blockmaterial:iron>);
+sealofthearbiterexperimentalist.setBlockHardness(1.0);
+sealofthearbiterexperimentalist.setBlockResistance(2.5);
+sealofthearbiterexperimentalist.setToolClass("pickaxe");
+sealofthearbiterexperimentalist.setBeaconBase(true);
+sealofthearbiterexperimentalist.setToolLevel(3);
+sealofthearbiterexperimentalist.register();
+
+var sealofthearbiterengineer = VanillaFactory.createBlock("seal_of_the_arbiter_engineer", <blockmaterial:iron>);
+sealofthearbiterengineer.setBlockHardness(1.0);
+sealofthearbiterengineer.setBlockResistance(2.5);
+sealofthearbiterengineer.setToolClass("pickaxe");
+sealofthearbiterengineer.setBeaconBase(true);
+sealofthearbiterengineer.setToolLevel(3);
+sealofthearbiterengineer.register();
+
+var sealofthearbiterdefender = VanillaFactory.createBlock("seal_of_the_arbiter_defender", <blockmaterial:iron>);
+sealofthearbiterdefender.setBlockHardness(1.0);
+sealofthearbiterdefender.setBlockResistance(2.5);
+sealofthearbiterdefender.setToolClass("pickaxe");
+sealofthearbiterdefender.setBeaconBase(true);
+sealofthearbiterdefender.setToolLevel(3);
+sealofthearbiterdefender.register();
+
+var sealoffreedom = VanillaFactory.createBlock("seal_of_freedom", <blockmaterial:iron>);
+sealoffreedom.setBlockHardness(1.0);
+sealoffreedom.setBlockResistance(2.5);
+sealoffreedom.setToolClass("pickaxe");
+sealoffreedom.setBeaconBase(true);
+sealoffreedom.setToolLevel(3);
+sealoffreedom.register();
+
+var balancedmachinecasing = VanillaFactory.createBlock("balanced_machine_casing", <blockmaterial:iron>);
+balancedmachinecasing.setBlockHardness(1.0);
+balancedmachinecasing.setBlockResistance(2.5);
+balancedmachinecasing.setToolClass("pickaxe");
+balancedmachinecasing.setBeaconBase(true);
+balancedmachinecasing.setToolLevel(3);
+balancedmachinecasing.register();
+
+var gallifreyanneutroniumcasing = VanillaFactory.createBlock("gallifreyan_neutronium_casing", <blockmaterial:iron>);
+gallifreyanneutroniumcasing.setBlockHardness(1.0);
+gallifreyanneutroniumcasing.setBlockResistance(2.5);
+gallifreyanneutroniumcasing.setToolClass("pickaxe");
+gallifreyanneutroniumcasing.setBeaconBase(true);
+gallifreyanneutroniumcasing.setToolLevel(3);
+gallifreyanneutroniumcasing.register();
+
+var quarkneutroniummodule = VanillaFactory.createBlock("quark_neutronium_module", <blockmaterial:iron>);
+quarkneutroniummodule.setBlockHardness(1.0);
+quarkneutroniummodule.setBlockResistance(2.5);
+quarkneutroniummodule.setToolClass("pickaxe");
+quarkneutroniummodule.setBeaconBase(true);
+quarkneutroniummodule.setToolLevel(3);
+quarkneutroniummodule.register();
+
+var ichoriumvoidstone = VanillaFactory.createBlock("ichorium_void_stone", <blockmaterial:iron>);
+ichoriumvoidstone.setBlockHardness(1.0);
+ichoriumvoidstone.setBlockResistance(2.5);
+ichoriumvoidstone.setToolClass("pickaxe");
+ichoriumvoidstone.setBeaconBase(true);
+ichoriumvoidstone.setToolLevel(3);
+ichoriumvoidstone.register();
+
+
+var voidichoriumriftcap = VanillaFactory.createBlock("void_ichorium_rift_cap", <blockmaterial:iron>);
+voidichoriumriftcap.setBlockHardness(1.0);
+voidichoriumriftcap.setBlockResistance(2.5);
+voidichoriumriftcap.setToolClass("pickaxe");
+voidichoriumriftcap.setBeaconBase(true);
+voidichoriumriftcap.setToolLevel(3);
+voidichoriumriftcap.register();
+
+var hyperuranionactualizerichor = VanillaFactory.createBlock("hyperuranion_actualizer_ichor", <blockmaterial:iron>);
+hyperuranionactualizerichor.setBlockHardness(1.0);
+hyperuranionactualizerichor.setBlockResistance(2.5);
+hyperuranionactualizerichor.setToolClass("pickaxe");
+hyperuranionactualizerichor.setBeaconBase(true);
+hyperuranionactualizerichor.setToolLevel(3);
+hyperuranionactualizerichor.register();
+
+var undeadsoil = VanillaFactory.createBlock("undead_soil", <blockmaterial:iron>);
+undeadsoil.setBlockHardness(1.0);
+undeadsoil.setBlockResistance(2.5);
+undeadsoil.setToolClass("pickaxe");
+undeadsoil.setBeaconBase(true);
+undeadsoil.setToolLevel(3);
+undeadsoil.register();
+
+var fractallitehalitestone = VanillaFactory.createBlock("fractallite_halite_stone", <blockmaterial:iron>);
+fractallitehalitestone.setBlockHardness(1.0);
+fractallitehalitestone.setBlockResistance(2.5);
+fractallitehalitestone.setToolClass("pickaxe");
+fractallitehalitestone.setBeaconBase(true);
+fractallitehalitestone.setToolLevel(3);
+fractallitehalitestone.register();
+
+var catalystofbalance = VanillaFactory.createBlock("catalyst_of_balance", <blockmaterial:iron>);
+catalystofbalance.setBlockHardness(1.0);
+catalystofbalance.setBlockResistance(2.5);
+catalystofbalance.setToolClass("pickaxe");
+catalystofbalance.setBeaconBase(true);
+catalystofbalance.setToolLevel(3);
+catalystofbalance.register();
+
+
+var spacetimebeam = VanillaFactory.createBlock("space_time_beam", <blockmaterial:iron>);
+spacetimebeam.setBlockHardness(1.0);
+spacetimebeam.setBlockResistance(2.5);
+spacetimebeam.setToolClass("pickaxe");
+spacetimebeam.setBeaconBase(true);
+spacetimebeam.setToolLevel(3);
+spacetimebeam.register();
+
+
+var quasarcasing = VanillaFactory.createBlock("quasar_stabilizer", <blockmaterial:iron>);
+quasarcasing.setBlockHardness(1.0);
+quasarcasing.setBlockResistance(2.5);
+quasarcasing.setToolClass("pickaxe");
+quasarcasing.setBeaconBase(true);
+quasarcasing.setToolLevel(3);
+quasarcasing.register();
+
+
+var quasarabsorber = VanillaFactory.createBlock("quasar_screen", <blockmaterial:iron>);
+quasarabsorber.setBlockHardness(1.0);
+quasarabsorber.setBlockResistance(2.5);
+quasarabsorber.setToolClass("pickaxe");
+quasarabsorber.setBeaconBase(true);
+quasarabsorber.setToolLevel(3);
+quasarabsorber.register();
+
+
+var galaxyconduit = VanillaFactory.createBlock("galaxy_conduit", <blockmaterial:iron>);
+galaxyconduit.setBlockHardness(1.0);
+galaxyconduit.setBlockResistance(2.5);
+galaxyconduit.setToolClass("pickaxe");
+galaxyconduit.setBeaconBase(true);
+galaxyconduit.setToolLevel(3);
+galaxyconduit.register();
+
+var echowarrenstone = VanillaFactory.createBlock("echo_warren_stone", <blockmaterial:iron>);
+echowarrenstone.setBlockHardness(1.0);
+echowarrenstone.setBlockResistance(2.5);
+echowarrenstone.setToolClass("pickaxe");
+echowarrenstone.setBeaconBase(true);
+echowarrenstone.setToolLevel(3);
+echowarrenstone.register();
+
+
+var galaxyaccelerator = VanillaFactory.createBlock("galaxy_accelerator", <blockmaterial:iron>);
+galaxyaccelerator.setBlockHardness(1.0);
+galaxyaccelerator.setBlockResistance(2.5);
+galaxyaccelerator.setToolClass("pickaxe");
+galaxyaccelerator.setBeaconBase(true);
+galaxyaccelerator.setToolLevel(3);
+galaxyaccelerator.register();
+
+
+var miniaturequasar = VanillaFactory.createBlock("miniature_quasar", <blockmaterial:iron>);
+miniaturequasar.setBlockHardness(1.0);
+miniaturequasar.setBlockResistance(2.5);
+miniaturequasar.setToolClass("pickaxe");
+miniaturequasar.setBeaconBase(true);
+miniaturequasar.setToolLevel(3);
+miniaturequasar.register();
+
+
+
+
+var ascendedfluixetcher = VanillaFactory.createBlock("ascended_fluix_etcher", <blockmaterial:iron>);
+ascendedfluixetcher.setBlockHardness(1.0);
+ascendedfluixetcher.setBlockResistance(2.5);
+ascendedfluixetcher.setToolClass("pickaxe");
+ascendedfluixetcher.setBeaconBase(true);
+ascendedfluixetcher.setToolLevel(3);
+ascendedfluixetcher.register();
+
+
+var naquadahcasing = VanillaFactory.createBlock("naquadah_casing", <blockmaterial:iron>);
+naquadahcasing.setBlockHardness(1.0);
+naquadahcasing.setBlockResistance(2.5);
+naquadahcasing.setToolClass("pickaxe");
+naquadahcasing.setBeaconBase(true);
+naquadahcasing.setToolLevel(3);
+naquadahcasing.register();
+
+
+var darkmatternode = VanillaFactory.createBlock("dark_matter_node", <blockmaterial:iron>);
+darkmatternode.setBlockHardness(1.0);
+darkmatternode.setBlockResistance(2.5);
+darkmatternode.setToolClass("pickaxe");
+darkmatternode.setBeaconBase(true);
+darkmatternode.setToolLevel(3);
+darkmatternode.register();
+
+var cosmicbalancecoil = VanillaFactory.createBlock("cosmic_balance_coil", <blockmaterial:iron>);
+cosmicbalancecoil.setBlockHardness(1.0);
+cosmicbalancecoil.setBlockResistance(2.5);
+cosmicbalancecoil.setToolClass("pickaxe");
+cosmicbalancecoil.setBeaconBase(true);
+cosmicbalancecoil.setToolLevel(3);
+cosmicbalancecoil.register();
+
+
+var galaxytube = VanillaFactory.createBlock("toroid_galaxy_tube", <blockmaterial:iron>);
+galaxytube.setBlockHardness(1.0);
+galaxytube.setBlockResistance(2.5);
+galaxytube.setToolClass("pickaxe");
+galaxytube.setBeaconBase(true);
+galaxytube.setToolLevel(3);
+galaxytube.register();
+
+
+var stoneofworthiness = VanillaFactory.createBlock("stone_of_worthiness", <blockmaterial:iron>);
+stoneofworthiness.setBlockHardness(1.0);
+stoneofworthiness.setBlockResistance(2.5);
+stoneofworthiness.setToolClass("pickaxe");
+stoneofworthiness.setBeaconBase(true);
+stoneofworthiness.setToolLevel(3);
+stoneofworthiness.register();
+
+
+var recurringnighmareblock = VanillaFactory.createBlock("recurring_nightmare_block", <blockmaterial:iron>);
+recurringnighmareblock.setBlockHardness(1.0);
+recurringnighmareblock.setBlockResistance(2.5);
+recurringnighmareblock.setToolClass("pickaxe");
+recurringnighmareblock.setBeaconBase(true);
+recurringnighmareblock.setToolLevel(3);
+recurringnighmareblock.register();
+
+var trinityneutroniumcasing = VanillaFactory.createBlock("trinity_neutronium_casing", <blockmaterial:iron>);
+trinityneutroniumcasing.setBlockHardness(1.0);
+trinityneutroniumcasing.setBlockResistance(2.5);
+trinityneutroniumcasing.setToolClass("pickaxe");
+trinityneutroniumcasing.setBeaconBase(true);
+trinityneutroniumcasing.setToolLevel(3);
+trinityneutroniumcasing.register();
+
+var quarkcosmicmodule = VanillaFactory.createBlock("quark_cosmic_module", <blockmaterial:iron>);
+quarkcosmicmodule.setBlockHardness(1.0);
+quarkcosmicmodule.setBlockResistance(2.5);
+quarkcosmicmodule.setToolClass("pickaxe");
+quarkcosmicmodule.setBeaconBase(true);
+quarkcosmicmodule.setToolLevel(3);
+quarkcosmicmodule.register();
+
+
+var cosmicstringmodule = VanillaFactory.createBlock("cosmic_string_module", <blockmaterial:iron>);
+cosmicstringmodule.setBlockHardness(1.0);
+cosmicstringmodule.setBlockResistance(2.5);
+cosmicstringmodule.setToolClass("pickaxe");
+cosmicstringmodule.setBeaconBase(true);
+cosmicstringmodule.setToolLevel(3);
+cosmicstringmodule.register();
+
+var tardiscasing = VanillaFactory.createBlock("tardis_casing", <blockmaterial:iron>);
+tardiscasing.setBlockHardness(1.0);
+tardiscasing.setBlockResistance(2.5);
+tardiscasing.setToolClass("pickaxe");
+tardiscasing.setBeaconBase(true);
+tardiscasing.setToolLevel(3);
+tardiscasing.register();
+
+
+var tardisstem = VanillaFactory.createBlock("tardis_stem", <blockmaterial:iron>);
+tardisstem.setBlockHardness(1.0);
+tardisstem.setBlockResistance(2.5);
+tardisstem.setToolClass("pickaxe");
+tardisstem.setBeaconBase(true);
+tardisstem.setToolLevel(3);
+tardisstem.register();
+
+
+var tardisbranch = VanillaFactory.createBlock("tardis_branch", <blockmaterial:iron>);
+tardisbranch.setBlockHardness(1.0);
+tardisbranch.setBlockResistance(2.5);
+tardisbranch.setToolClass("pickaxe");
+tardisbranch.setBeaconBase(true);
+tardisbranch.setToolLevel(3);
+tardisbranch.register();
+
+
+var tardispolyp = VanillaFactory.createBlock("tardis_polyp", <blockmaterial:iron>);
+tardispolyp.setBlockHardness(1.0);
+tardispolyp.setBlockResistance(2.5);
+tardispolyp.setToolClass("pickaxe");
+tardispolyp.setBeaconBase(true);
+tardispolyp.setToolLevel(3);
+tardispolyp.register();
+
+
+var twentyblocks = VanillaFactory.createBlock("nineteen_blocks", <blockmaterial:iron>);
+twentyblocks.setBlockHardness(1.0);
+twentyblocks.setBlockResistance(2.5);
+twentyblocks.setToolClass("pickaxe");
+twentyblocks.setBeaconBase(true);
+twentyblocks.setToolLevel(3);
+twentyblocks.register();
+
+
+var wormholefieldmodule = VanillaFactory.createBlock("wormhole_field_module", <blockmaterial:iron>);
+wormholefieldmodule.setBlockHardness(1.0);
+wormholefieldmodule.setBlockResistance(2.5);
+wormholefieldmodule.setToolClass("pickaxe");
+wormholefieldmodule.setBeaconBase(true);
+wormholefieldmodule.setToolLevel(3);
+wormholefieldmodule.register();
+
+
+var fabricoftheorb = VanillaFactory.createBlock("fabric_of_the_orb", <blockmaterial:iron>);
+fabricoftheorb.setBlockHardness(1.0);
+fabricoftheorb.setBlockResistance(2.5);
+fabricoftheorb.setToolClass("pickaxe");
+fabricoftheorb.setBeaconBase(true);
+fabricoftheorb.setToolLevel(3);
+fabricoftheorb.register();

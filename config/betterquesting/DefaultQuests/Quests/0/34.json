@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEnchanting is important, and so are bedrock chunks!\n\n§rThere is so much about the universe humanity is not aware of.\nWe have spent so many years trying to reject things such as magic and superstition in the name of \u0027science\u0027.\nBut it appears that magic and science are just two faces of the same medals, and the existance of other dimensions seems to be the catalyst behind what I\u0027d normally call \u0027miracles\u0027.\nDiamonds and obsidian seem to be catalysts for magic energy, which is going to allow me to enhance my tools.\nI don\u0027t really know what prompted me to study this phenomenon, but, for some reason, paper has something to do with it...",
+      "desc:8": "§7§o附魔很重要，基岩块也很重要！\n\n§r宇宙中还存在太多人类尚未了解的事物。\n我们以“科学”之名耗费多年试图否定魔法和迷信的存在。\n但看起来魔法与科学不过是同一枚奖章的两个侧面，而其他维度的存在似乎就是我通常称为“奇迹”现象背后的催化剂。\n钻石和黑曜石似乎是魔法能量的催化剂，我可以用它们来强化工具。\n虽然不太确定是什么促使我研究这种现象，但不知为何，纸张似乎与之存在某种关联……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:enchanting_table"
       },
-      "name:8": "Magic is Real!"
+      "name:8": "魔法是真的！"
     }
   },
   "questID:3": 34,

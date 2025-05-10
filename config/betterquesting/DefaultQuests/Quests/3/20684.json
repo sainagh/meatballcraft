@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This multiblock is used to fabricate circuits and machine parts.\nUse holo projector to see multiblock preview.",
+      "desc:8": "该多方块用于制作电路和机器部件。\n使用全息投影器查看多方块预览。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "advancedrocketry:precisionassemblingmachine"
       },
-      "name:8": "Precision Assembler"
+      "name:8": "精密组装机"
     }
   },
   "questID:3": 20684,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo access your AE2 network wirelessly, you will first need a security terminal and a wireless access point.\n\nThe security terminal is for linking your wireless terminal to a network. Simply insert your wireless terminal and take it right back out. The wireless access point is for extending the range of your wireless terminal. \n\nBy default, there is a 16 block range, but this can be increased by giving the wireless access point booster cards. This will exponentially increase both the range and the power consumption of the device. The maximum is 64 booster cards for a range of 544 blocks and 8.21 kRF per tick.",
+      "desc:8": "§7§o要无线访问AE网络，首先需要安全终端和无线访问点\n\n安全终端可将无线终端与网络连接。直接把无线终端放入然后取出即可。无线访问点用于扩展无线终端的访问范围。\n\n默认情况下，无线访问点能提供16格的覆盖范围，但可通过加装无线信号增幅器来扩大范围。增幅器会以指数级提升翻盖范围和能耗。最大可安装64个增幅器，此时覆盖范围可达544格，能耗为8.21 kRF/t。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:wireless_access_point"
       },
-      "name:8": "ME Wireless Access Point"
+      "name:8": "ME无线访问点"
     }
   },
   "questID:3": 90171,

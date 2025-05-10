@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Terrasteel\n\nHead\nDurability: 960\nMining Level: Cobalt\nMining Speed: 9.53\nAttack: 12.03\nMana Eater\n\nHandle\nModifier: 1.45\nDurability: 200\nMana Eater\n\nExtra\nDurability: 136\nMana Eater\n\nBows\nDrawspeed: 1.32\nRange Multiplier: 0.97\nBonus Damage: 7\nMana Eater",
+      "desc:8": "顶端\n耐久：960\n挖掘等级：钴\n挖掘速度：9.53\n攻击力：12.03\n魔力吞噬\n\n手柄\n手柄系数：1.45\n耐久：200\n魔力吞噬\n\n其它部件\n耐久：136\n魔力吞噬\n\n弓\n拉弓速度：1.32\n范围系数：0.97\n附加伤害：7\n魔力吞噬",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "terrasteel"
         }
       },
-      "name:8": "Terrasteel"
+      "name:8": "泰拉钢"
     }
   },
   "questID:3": 201131,

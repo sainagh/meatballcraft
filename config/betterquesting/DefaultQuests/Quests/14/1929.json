@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis wand lets you autoplace blocks, but it has a (fairly small) maximum range.\n\nThe unbreakable wand is better in most ways, but this one is cheap!",
+      "desc:8": "§7§o该物品可自动放置方块，但范围很小。\n\n不毁手杖要强得多，但这个更便宜！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:itembuilderswand"
       },
-      "name:8": "Builders Wand"
+      "name:8": "建筑之杖"
     }
   },
   "questID:3": 1929,

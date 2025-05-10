@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe livingrock pedestal lets you craft eating tasks such as turning nightmare fuel into spirit fuel.\n\nTo perform some crafts (those will be shown in JEI) you have to right click the livingrock pedestal with a hammer.\n\nAfter crafting the ultimate hammer, you will be able to automate these tasks using a crafting table.",
+      "desc:8": "§7§o活石祭坛能进行进食任务，例如将梦魇燃料转化为精神燃料。\n\n部分合成（JEI显示的那些）需要使用锤右击活石祭坛。\n\n拥有镀金究极锤后，可在工作台中自动化这些任务。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrabotany:pedestal",
         "tag:10": {}
       },
-      "name:8": "Livingrock Pedestal"
+      "name:8": "活石祭坛"
     }
   },
   "questID:3": 1295,

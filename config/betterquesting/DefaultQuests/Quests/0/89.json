@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "These alternative means of storing energy allow me to \u0027empower\u0027 things, this should be useful for manufacturing.",
+      "desc:8": "这些替代的能量存储方法让我能够为物品充能，对合成可能会有用。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_empowerer"
       },
-      "name:8": "Empower me!"
+      "name:8": "为我充能！"
     }
   },
   "questID:3": 89,

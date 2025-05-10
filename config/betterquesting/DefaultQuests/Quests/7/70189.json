@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe ore spawns in the Aether.",
+      "desc:8": "§7§o该矿物生成于天境。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aether_legacy:enchanted_gravitite"
       },
-      "name:8": "Enchanted Gravitite"
+      "name:8": "附魔重力晶"
     }
   },
   "questID:3": 70189,

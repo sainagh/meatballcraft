@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThese terminals are used to construct the control panel for your AE2 network!\n\nThey will let you see what your storage system is storing, and they will let you program autocrafting functionalities!",
+      "desc:8": "§7§o这些终端用于构建AE2网络的控制面板！\n\n可使用它们查看网络中存储的内容，并编辑自动合成功能！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 180,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "Access Terminals"
+      "name:8": "访问终端"
     }
   },
   "questID:3": 1226,

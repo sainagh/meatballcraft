@@ -38,9 +38,25 @@ recipes.addShaped(<contenttweaker:bloodmaster_tome>,
 [<bloodmagic:slate:0>, <soulshardsrespawn:soul_shard>.withTag({binding: {kills: 1024, bound: "minecraft:blaze"}}), <bloodmagic:slate:0>]]);
 
 
-mods.recipestages.Recipes.setRecipeStage("divinestage", <contenttweaker:realmstone>);
+mods.recipestages.Recipes.addShaped("addrealmstoneaoa", "divinestage", <contenttweaker:realmstone>, [
+    [<dimdoors:world_thread>, <contenttweaker:divine_flake>, <contenttweaker:aether_rock>],
+    [<contenttweaker:organic_jade_plate>, <minecraft:book>, <contenttweaker:twilight_essence>],
+    [<aoa3:storm_rune>, <contenttweaker:rift_essence>, <contenttweaker:collecting_stone>]
+]);
+
+
+
+recipes.removeShaped(<divinerpg:twilight_clock>);
 
 mods.recipestages.Recipes.setRecipeStage("divinestage", <divinerpg:twilight_clock>);
+
+mods.recipestages.Recipes.addShaped("addtwilightclock", "divinestage", <divinerpg:twilight_clock>, [
+    [<dimdoors:world_thread>, <contenttweaker:divine_flake>, <contenttweaker:aether_rock>],
+    [<contenttweaker:organic_jade_plate>, <minecraft:clock>, <contenttweaker:twilight_essence>],
+    [<aoa3:kinetic_rune>, <contenttweaker:rift_essence>, <contenttweaker:collecting_stone>]
+]);
+
+
 
 mods.thaumcraft.Infusion.registerRecipe("infusionsolstone", "", 
 <contenttweaker:infused_sol_stone>, 3, 

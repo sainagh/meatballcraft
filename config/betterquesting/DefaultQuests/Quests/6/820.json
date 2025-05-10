@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSucks HP from players to fill a blood altar nearby.",
+      "desc:8": "§7§o吸取玩家的生命值以填充附近的血之祭坛。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Feathered Knife"
+      "name:8": "羽刀仪式"
     }
   },
   "questID:3": 820,

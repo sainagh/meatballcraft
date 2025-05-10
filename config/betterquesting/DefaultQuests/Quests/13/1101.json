@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTinker\u0027s tools and armor do no accept enchantments.\n\nInstead, they can be upgraded in the tool/armor forge! Place the tool in the middle, and the modifiers around!\n\nEach tool has a maximum amout of modifiers, but it unlocks more modifiers the more you use it!\n\n§7§oThe following items can be used to upgrade tinker\u0027s tools and armor!",
+      "desc:8": "§7§o匠魂模组的工具不能被附魔。但是，可使用工具锻造台为其升级！将工具放在工具锻造台的中间槽位，强化材料放置在周围的槽位！\n\n工具的强化槽数量有限，但随着使用次数的增加，会获得更多的强化槽！\n\n§7§o以下物品可用作匠魂工具的强化材料！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 16,
         "id:8": "extrautils2:ingredients"
       },
-      "name:8": "Modifiers"
+      "name:8": "强化"
     }
   },
   "questID:3": 1101,

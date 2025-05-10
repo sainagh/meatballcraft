@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oModular Routers are blocks capable of performing logistics actions (similar to AE2) for small-scale, short-distance automations.\n\nA router performs actions based on the modules placed in its slots, following a cyclical left-to-right order. Modules prform simple actions like pulling and pushing blocks, or more complex ones like breaking, placing, or launching items.\n\nThe target locations for each module can be specified by shift + right clicking them on the desired block space.\n\nOnce modules are installed, they can be configured by middle clicking them. This allows to set filters and add augments.\n\nUpgrades can be placed in the corresponding slots in a Modular Router.\n",
+      "desc:8": "§7§o模块化路由器可以进行物流操作（类似于AE2），适用于小规模、短距离的自动化。\n\n路由器按照从左到右的循环顺序，根据模块放置区中的模块执行操作。模块可以执行简单的操作，如推拉方块，也可执行更复杂的操作，如破坏、放置或发射物品。\n\n每个模块的目标位置可通过Shift右击对应位置来指定。\n\n安装好模块后，可通过中键点击来配置模块。可设置过滤器或添加拓展。\n\n升级可放置在路由器对应的区域。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularrouters:item_router"
       },
-      "name:8": "Item Router"
+      "name:8": "物品路由器"
     }
   },
   "questID:3": 90401,

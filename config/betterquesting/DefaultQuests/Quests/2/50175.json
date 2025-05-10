@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The elemental catalyzer allows for increased output from the reactant dynamo.\nThis limits the types of inputs the dynamo can accept.",
+      "desc:8": "基础反应催化升级能提高反应能源炉的输出。\n但会限制能源炉接收的输入原料。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 688,
         "id:8": "thermalexpansion:augment"
       },
-      "name:8": "Augment: Elemental Catalyzer"
+      "name:8": "升级：基础反应催化"
     }
   },
   "questID:3": 50175,

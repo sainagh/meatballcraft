@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEvery Xnet system requires a controller, a connector for each inventory you want to interact with, and network cables to connect them.\n\nCables can be colored if you want to have different Xnet setups next to each other.",
+      "desc:8": "§7§o每个Xnet网络都需要一个控制器，与想要进行交互的容器相连的若干连接器，以及连通连接器的网络线缆。\n\n线缆可以染色，以避免相邻网络互相连接。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "xnet:netcable",
@@ -14,7 +14,7 @@
           }
         }
       },
-      "name:8": "Network Cable"
+      "name:8": "网络线缆"
     }
   },
   "questID:3": 90113,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This feels strange. Why have such a powerful meatball being to guard some trees?\nThe importance of things is often not obvious, are trees somehow involved in this \u0027supreme power\u0027 struggle I became part of?\nAfter finding out the importance of seemingly stupid things like meatballs, I\u0027d better hold on to these saplings!",
+      "desc:8": "真是古怪。为什么要派这么强大的肉丸来守护这些树？\n事物的重要性往往并不明显，树是否以某种方式参与了我所参与的这场“至高之力”的斗争？\n在发现了肉丸等看似愚蠢的东西的重要性之后，我最好拿走这些树苗！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:forbidden_garden_callstone"
       },
-      "name:8": "AllTheTrees"
+      "name:8": "所有的树"
     }
   },
   "questID:3": 2199,

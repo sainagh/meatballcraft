@@ -1,5 +1,10 @@
 
 import mods.modularmachinery.RecipeBuilder;
+import crafttweaker.data.IData;
+import scripts.enchantwrapper.EnchantUtil.EnchantMap;
+import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
+import crafttweaker.enchantments.IEnchantmentDefinition;
+
 
 recipes.addShaped(<contenttweaker:triple_compressed_realgar>,
 [[<contenttweaker:double_compressed_realgar>, <contenttweaker:double_compressed_realgar>, <contenttweaker:double_compressed_realgar>],
@@ -165,6 +170,18 @@ haliteingotcompression.addItemInput(<contenttweaker:pure_halite_cluster>);
 haliteingotcompression.addItemOutput(<materialpart:fractallite_halite:ingot>);
 haliteingotcompression.build();
 
+val haliteingotcompression4 = RecipeBuilder.newBuilder("haliteingotcompression4","dyson_compressor",100);
+haliteingotcompression4.addEnergyPerTickInput(2000000000);
+haliteingotcompression4.addItemInput(<avaritiaitem:cosmic_halite_cluster>);
+haliteingotcompression4.addItemOutput(<materialpart:fractallite_halite:ingot>*4);
+haliteingotcompression4.build();
+
+val haliteingotcompression8 = RecipeBuilder.newBuilder("haliteingotcompression8","dyson_compressor",100);
+haliteingotcompression8.addEnergyPerTickInput(2000000000);
+haliteingotcompression8.addItemInput(<avaritiaitem:univocal_halite_cluster>);
+haliteingotcompression8.addItemOutput(<materialpart:fractallite_halite:ingot>*8);
+haliteingotcompression8.build();
+
 val makehorcrux = RecipeBuilder.newBuilder("makehorcrux","herne_altar",80);
 makehorcrux.addFluidInput(<fluid:lifeessence>*12000);
 makehorcrux.addFluidInput(<fluid:liquid_lp>*12000);
@@ -180,3 +197,51 @@ mods.extendedcrafting.TableCrafting.addShaped(<glassential:glass_redstone>*32,
 [<thermalfoundation:glass_alloy:5>, <contenttweaker:neutronium_casing>, <contenttweaker:brightsteel_conduit>, <contenttweaker:mythic_machine_case>, <contenttweaker:brightsteel_conduit>, <contenttweaker:neutronium_casing>, <thermalfoundation:glass_alloy:5>], 
 [<thermalfoundation:glass_alloy:5>, <contenttweaker:recursium_ingot>, <contenttweaker:neutronium_casing>, <avaritia:resource:6>, <contenttweaker:neutronium_casing>, <contenttweaker:recursium_ingot>, <thermalfoundation:glass_alloy:5>], 
 [<thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>]]);  
+
+
+recipes.addShapeless(<avaritiaitem:cosmic_fractal_catalyzer>*4,
+[<avaritia:infinity_sword>.reuse(),
+<contenttweaker:fractallite_halite_stone>]);
+
+
+var mapCallandor as IData = {};
+val enchlistCallandor as IEnchantmentDefinition[] = [<enchantment:cofhcore:vorpal>, <enchantment:minecraft:sharpness>];
+mapCallandor += enchlistCallandor[0].makeEnchantment(20000).makeTag();
+mapCallandor += enchlistCallandor[1].makeEnchantment(20000).makeTag();
+
+
+recipes.addShapeless(<avaritiaitem:cosmic_fractal_catalyzer>*12,
+[<twilightforest:glass_sword>.withTag(mapCallandor).reuse(),
+<contenttweaker:fractallite_halite_stone>]);
+
+recipes.addShapeless(<avaritiaitem:cosmic_fractal_harmonizer>,
+[<twilightforest:glass_sword>.withTag(mapCallandor).reuse(),
+<avaritiaitem:cosmic_fractal_catalyzer>]);
+
+recipes.addShapeless(<contenttweaker:linked_apple_slice>,
+[<twilightforest:glass_sword>.withTag(mapCallandor).reuse(),
+<minecraft:apple>]);
+
+
+recipes.addShaped(<contenttweaker:power_wrought_brightsteel_alloy_plate>*3,
+[[<contenttweaker:brightseel_alloy_plate>, <contenttweaker:spiritus_vis_condensate>, <contenttweaker:brightseel_alloy_plate>],
+[<contenttweaker:terra_vis_condensate>, <twilightforest:glass_sword>.withTag(mapCallandor).reuse(), <contenttweaker:aqua_vis_condensate>],
+[<contenttweaker:ignis_vis_condensate>, <contenttweaker:brightseel_alloy_plate>, <contenttweaker:aer_vis_condensate>]]);
+
+
+var mapChoedanKal as IData = {};
+val enchlistChoedanKal as IEnchantmentDefinition[] = [<enchantment:thaumictinkerer:finalstrike>, <enchantment:thaumictinkerer:valiance>];
+mapChoedanKal += enchlistChoedanKal[0].makeEnchantment(20000).makeTag();
+mapChoedanKal += enchlistChoedanKal[1].makeEnchantment(20000).makeTag();
+
+
+recipes.addShaped(<contenttweaker:cleansed_brightsteel_alloy_plate>*3,
+[[<careerbees:ingredients:11>, <contenttweaker:power_wrought_brightsteel_alloy_plate>, <careerbees:ingredients:12>],
+[<mod_lavacow:scarab_wand>.withTag(mapChoedanKal).reuse(), <contenttweaker:power_wrought_brightsteel_alloy_plate>, <mod_lavacow:sludge_wand>.withTag(mapChoedanKal).reuse()],
+[<careerbees:ingredients:12>, <contenttweaker:power_wrought_brightsteel_alloy_plate>, <careerbees:ingredients:11>]]);
+
+
+recipes.addShaped(<contenttweaker:cleansed_cinnamon_apple>,
+[[<careerbees:ingredients:1>.withTag({bark: {id: "extratrees:logs.9", Count: 1, Damage: 3 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "extratrees:logs.9", Count: 1, Damage: 3 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "extratrees:logs.9", Count: 1, Damage: 3 as short}})],
+[<mod_lavacow:scarab_wand>.withTag(mapChoedanKal).reuse(), <contenttweaker:linked_apple_slice>, <mod_lavacow:sludge_wand>.withTag(mapChoedanKal).reuse()],
+[<careerbees:ingredients:1>.withTag({bark: {id: "extratrees:logs.9", Count: 1, Damage: 3 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "extratrees:logs.9", Count: 1, Damage: 3 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "extratrees:logs.9", Count: 1, Damage: 3 as short}})]]);

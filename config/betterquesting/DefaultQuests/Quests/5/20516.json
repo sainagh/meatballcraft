@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is not the best option, but it is an option!\n\nSome plants don\u0027t need to be broken and replaced to produce drops, and this device takes advantage of this to harvest crops without the need for replanting.",
+      "desc:8": "§7§o不是最优选项，但能用！\n\n某些植物无需破坏并重新种植即可产出产物。该装置利用这一特性，实现无需重新播种的作物收割。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:plant_interactor"
       },
-      "name:8": "Plant Interactor"
+      "name:8": "植物交互器"
     }
   },
   "questID:3": 20516,

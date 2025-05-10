@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPreserved curiosities let you unlock any research at random!\n\n§fThe inscription table is quite tedious to use, so having access to a lot of mother void walkers may be a good idea...",
+      "desc:8": "§7§o传世珍品可随机解锁研究！\n\n§f研究台用起来有点无聊，也许可以刷一大批虚空步行者之母……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "thaumcraft:curio"
       },
-      "name:8": "Preserved Curiosity"
+      "name:8": "传世珍品"
     }
   },
   "questID:3": 20184,

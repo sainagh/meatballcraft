@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe interface has two functions, see the section on autocrafting for an explanation on the other functionality.\n\nThe slots at the top of an interface GUI can be configured so that the network will keep a certain amount of items in the interface.\n\nConduits and other pipes can be used to extract and insert things from the interface.\n\nThis is more lag friendly than using export buses.",
+      "desc:8": "§7§o接口具有两个功能，查看自动合成板块以了解关于另一功能的信息。\n\n可通过配置接口GUI顶部的槽位，使网络将接口内的物品维持在特定数量。\n\n导管可其他管道可对接口进行输入或输出操作。\n\n比使用输出总线更不容易导致卡顿。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:interface"
       },
-      "name:8": "ME Interface"
+      "name:8": "ME接口"
     }
   },
   "questID:3": 1244,

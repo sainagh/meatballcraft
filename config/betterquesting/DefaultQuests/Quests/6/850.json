@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis ritual will suck in liquids from below the ritual and place them in a tank on top of the master ritual stone.",
+      "desc:8": "§7§o该仪式会吸取下方的流体，输入主仪式石上方的储罐内。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Hymn of Siphoning"
+      "name:8": "虹吸圣曲"
     }
   },
   "questID:3": 850,

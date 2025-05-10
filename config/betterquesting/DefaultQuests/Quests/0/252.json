@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Many artifacts from Testificate lore still seem to be somehow accessible to those seeking for them. This one is quite peculiar, though. I was told of a powerful shield artifact developed to fight against stronger magical opponents, and I was even given blueprints for it.\nThese seem way too complicated for what this artifact can do. There has to be something wrong...",
+      "desc:8": "即便时过境迁，泰斯提斐人文明遗留的诸多神器似乎仍在等待有缘人。但这件护盾遗物颇为蹊跷，据说它专为对抗强大魔法敌手而研发，甚至有人直接将设计蓝图交予我手。\n如此复杂的结构与其实际效用严重不符。总觉得哪里不对劲……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:shield_of_terra"
       },
-      "name:8": "An Artifact of Defense"
+      "name:8": "防御神器"
     }
   },
   "questID:3": 252,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:shield_of_terra"
             },
-            "TrophyName:8": "Absorbant Shieldmaster",
+            "TrophyName:8": "吸收护盾大师",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

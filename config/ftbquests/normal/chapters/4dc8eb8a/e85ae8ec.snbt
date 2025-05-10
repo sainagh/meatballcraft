@@ -2,7 +2,7 @@
 	x: 7.5d,
 	y: 7.5d,
 	text: [
-		"Better virtual minerals, better yield!"
+		"更好的虚拟矿物，更大的范围！"
 	],
 	dependencies: [
 		"d399de73"

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Dimlet Parcel is used to obtain the various crafting materials for creating Custom Dimensions.",
+      "desc:8": "§7§o可通过维度卡包裹获得多种用于构建自定义维度的合成材料。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftoolsdim:dimlet_parcel"
       },
-      "name:8": "Dimensional Crafting Materials"
+      "name:8": "维度合成材料"
     }
   },
   "questID:3": 1596066184,

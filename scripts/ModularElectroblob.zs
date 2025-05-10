@@ -292,7 +292,7 @@ reci27.addItemInput(<ebwizardry:magic_crystal:1>*16);
 reci27.addItemInput(<ebwizardry:arcane_tome:3>*8);
 reci27.addItemInput(<materialpart:sednanite:ingot>*2);
 reci27.addItemInput(<materialpart:dreaded_steel:ingot>*2);
-reci27.addItemOutput(SuperEnchantedItem(<arcane_essentials:master_fire_sword>.withTag({display: {Name:"§6§o冰霜焰形剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistSuperFlamberg).getItem());
+reci27.addItemOutput(SuperEnchantedItem(<arcane_essentials:master_fire_sword>.withTag({display: {Name:"§6§o火焰焰形剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistSuperFlamberg).getItem());
 reci27.build();
 
 val reci28 = RecipeBuilder.newBuilder("electroblob28","wizardry_combiner",4000);
@@ -303,7 +303,7 @@ reci28.addItemInput(<ebwizardry:magic_crystal:2>*16);
 reci28.addItemInput(<ebwizardry:arcane_tome:3>*8);
 reci28.addItemInput(<materialpart:sednanite:ingot>*2);
 reci28.addItemInput(<materialpart:dreaded_steel:ingot>*2);
-reci28.addItemOutput(SuperEnchantedItem(<arcane_essentials:master_ice_sword>.withTag({display: {Name:"§6§o火焰焰形剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistSuperFlamberg).getItem());
+reci28.addItemOutput(SuperEnchantedItem(<arcane_essentials:master_ice_sword>.withTag({display: {Name:"§6§o冰霜焰形剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistSuperFlamberg).getItem());
 reci28.build();
 
 val reci29 = RecipeBuilder.newBuilder("electroblob29","wizardry_combiner",100);

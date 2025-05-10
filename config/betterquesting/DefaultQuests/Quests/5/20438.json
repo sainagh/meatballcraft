@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Just gonna leave this here!",
+      "desc:8": "放在这儿就行！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tinymobfarm:gold_farm"
       },
-      "name:8": "For the sake of your world, you should do this!"
+      "name:8": "为避免卡顿，应当使用这款！"
     }
   },
   "questID:3": 20438,

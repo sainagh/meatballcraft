@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe ME capability adapter allows to interface between AE2 and compact machines.\n\nPlace a capability adapter adjacent to a compact machine. Inside the machine, connect another capability adapter adjacent to a tunnel set to the appropriate side (if you place the outside adapter on the west side, the interior tunnel needs to be set to WEST).\n\nThe block form transfers 32 channels.\n\nThe panel form transfers 8 channels. ",
+      "desc:8": "§7§oME功能适配器可将频道传输到压缩空间中。\n\n将功能适配器与压缩空间机械相邻放置。在压缩空间内，将另一个功能适配器与配置到合适面（若外部的功能适配器在压缩空间机械的西侧，接口同样也需要设置为西）。\n\n方块形式的功能适配器可传输32个频道。\n\n面板形式的功能适配器可传输8个频道。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rf-capability-adapter:aecapabilityadapter"
       },
-      "name:8": "ME Capability Adapter"
+      "name:8": "ME功能适配器"
     }
   },
   "questID:3": 705,

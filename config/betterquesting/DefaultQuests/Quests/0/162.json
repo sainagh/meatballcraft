@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYour first multiblock! Maybe!\n\n§fBeing able to bring in a steady supply of energy will be pivotal for my progress in understanding the powers I am against, and to provide a steady supply of materials, especially when automating magic processes takes up so much energy.\nInfusing fuel with magic can make it much more caloric! Sure, being hable to handle it requires some exotic materials, but it\u0027s going to be worth it, at least for now.\nI will likely have to start processing fissile fuels in the future, but I will cross that bridge when I get there!",
+      "desc:8": "§7§o第一个多方块结构！大概吧！\n\n§f确保能源的稳定供应，对深入了解我所对抗的力量至关重要。尤其在自动化魔法流程消耗巨大能量的情况下，持续的材料供给更是必要的基础。\n用魔法灌注燃料能显著提升其热值！虽然操作过程需要特殊材料作为载体，但就现阶段而言，这样的投入完全值得。\n未来或许不得处理裂变燃料，不过待时机成熟再考虑也不迟！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:compression_engine"
         }
       },
-      "name:8": "Magic Fuels"
+      "name:8": "魔法燃料"
     }
   },
   "questID:3": 162,

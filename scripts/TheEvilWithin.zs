@@ -68,11 +68,24 @@ recipes.addShaped(<draconicevolution:draconic_spawner>.withTag({BCTileData: {BCM
 [<botania:rune:9>, <extrautils2:simpledecorative:2>, <botania:rune:9>]]);
 
 
+
 val spatcrucinsanity = RecipeBuilder.newBuilder("spatcrucinsanity","spatial_crucible",20);
 spatcrucinsanity.addEnergyPerTickInput(100000);
 spatcrucinsanity.addItemInput(<contenttweaker:clausurae>);
 spatcrucinsanity.addFluidOutput(<fluid:hint_of_insanity>*4000);
 spatcrucinsanity.build();
+
+recipes.addShaped(<contenttweaker:finis>*4,
+[[<contenttweaker:clausurae>, <contenttweaker:sentient_meatball>, <contenttweaker:clausurae>],
+[<contenttweaker:sentient_meatball>, <contenttweaker:staff_of_the_lord_of_gluttony>.reuse(), <contenttweaker:sentient_meatball>],
+[<contenttweaker:clausurae>, <contenttweaker:sentient_meatball>, <contenttweaker:clausurae>]]);
+
+val spatcrucinsanitybetter = RecipeBuilder.newBuilder("spatcrucinsanitybetter","spatial_crucible",10);
+spatcrucinsanitybetter.addEnergyPerTickInput(100000);
+spatcrucinsanitybetter.addItemInput(<contenttweaker:finis>);
+spatcrucinsanitybetter.addFluidOutput(<fluid:hint_of_insanity>*16000);
+spatcrucinsanitybetter.build();
+
 
 val twilightdivineiron = RecipeBuilder.newBuilder("twilightdivineiron","carminite_empowerer",20);
 twilightdivineiron.addEnergyPerTickInput(15000);
@@ -90,6 +103,19 @@ spatcrucdivinity.addItemInput(<aoa3:silver_coin>*8);
 spatcrucdivinity.addItemInput(<contenttweaker:divine_ironwood_ingot>);
 spatcrucdivinity.addFluidOutput(<fluid:hint_of_divinity>*4000);
 spatcrucdivinity.build();
+
+recipes.addShaped(<contenttweaker:token_of_the_meatball_man>,
+[[<aoa3:gold_coin>, <contenttweaker:sentient_meatball>, <aoa3:gold_coin>],
+[<contenttweaker:sentient_meatball>, <contenttweaker:staff_of_the_lord_of_gluttony>.reuse(), <contenttweaker:sentient_meatball>],
+[<aoa3:gold_coin>, <contenttweaker:sentient_meatball>, <aoa3:gold_coin>]]);
+
+val spatcrucdivinitybetter = RecipeBuilder.newBuilder("spatcrucdivinitybetter","spatial_crucible",10);
+spatcrucdivinitybetter.addEnergyPerTickInput(500000000);
+spatcrucdivinitybetter.addItemInput(<divinerpg:divine_stone>);
+spatcrucdivinitybetter.addItemInput(<contenttweaker:token_of_the_meatball_man>*8);
+spatcrucdivinitybetter.addItemInput(<contenttweaker:divine_ironwood_ingot>);
+spatcrucdivinitybetter.addFluidOutput(<fluid:hint_of_divinity>*16000);
+spatcrucdivinitybetter.build();
 
 
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:polonium_encrusted_egg>, <contenttweaker:vox_ponds_garnet>, <contenttweaker:polonium_egg>, 1000, 1, false);

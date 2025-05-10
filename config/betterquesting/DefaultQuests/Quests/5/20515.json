@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe emerald electron tube allows for the farming of crop sticks!",
+      "desc:8": "§7§o绿宝石电子管能使多方块农场处理作物架！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 9,
         "id:8": "forestry:thermionic_tubes"
       },
-      "name:8": "Crops and Forestry??"
+      "name:8": "作物和林业？？"
     }
   },
   "questID:3": 20515,

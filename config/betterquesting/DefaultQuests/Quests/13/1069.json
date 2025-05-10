@@ -15,7 +15,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can complete this quest with any material!\n\nWorks like an axe that cuts down entire trees!",
+      "desc:8": "§7§o使用任意材料制作均可完成本任务！\n\n与斧类似，可一次性砍到整棵树！",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -89,7 +89,7 @@
           }
         }
       },
-      "name:8": "Lumberaxe"
+      "name:8": "伐木斧"
     }
   },
   "questID:3": 1069,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWorks like the arcane autoworkbench, but connects to AE2!",
+      "desc:8": "§7§o与奥术工作台类似，但接入了AE网络！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicenergistics:arcane_terminal"
       },
-      "name:8": "Applied Arcane Workbench"
+      "name:8": "AE版奥术工作台"
     }
   },
   "questID:3": 1754,

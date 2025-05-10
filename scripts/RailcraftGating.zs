@@ -47,3 +47,20 @@ mods.extendedcrafting.TableCrafting.addShaped(<railcraft:coke_oven_red:0>,
 [[<minecraft:sand:1>, <tconstruct:materials:2>, <minecraft:sand:1>], 
 [<tconstruct:materials:2>, <immersiveengineering:treated_wood>, <tconstruct:materials:2>], 
 [<minecraft:sand:1>, <tconstruct:materials:2>, <minecraft:sand:1>]]); 
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<railcraft:abyssal_stone>, 
+[[<ore:stone>, <ore:stone>, <ore:stone>], 
+[<ore:stone>, <ore:ingotAbyssalnite>, <ore:stone>], 
+[<ore:stone>, <ore:stone>, <ore:stone>]]); 
+
+mods.extendedcrafting.TableCrafting.addShaped(<railcraft:jaded_stone>, 
+[[<ore:stone>, <ore:gemAscendedJade>, <ore:stone>], 
+[<ore:gemAscendedJade>, <minecraft:ender_pearl>, <ore:gemAscendedJade>], 
+[<ore:stone>, <ore:gemAscendedJade>, <ore:stone>]]); 
+
+mods.extendedcrafting.TableCrafting.addShaped(<railcraft:quarried_stone>, 
+[[<ore:stone>, <ore:stone>, <ore:stone>], 
+[<ore:stone>, <minecraft:clay>, <ore:stone>], 
+[<ore:stone>, <ore:stone>, <ore:stone>]]); 

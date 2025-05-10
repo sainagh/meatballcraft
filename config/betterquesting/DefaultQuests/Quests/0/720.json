@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe typesetting table uses an enchanted book and a chase to create an enchanted plate at the cost of xp.\n\nThe printing press uses a plate, some ink, and books to create multiple copies of the enchantment on the plate.\n\n§fEnchants possess some type of signature, which is a very useful property. This signature is conserved between transitions, and it can even be replicated by using some of my own essence.",
+      "desc:8": "§7§o排版台可消耗经验，使用附魔书和拓印槽来制作附魔片。\n\n拓印机可使用附魔片、一些墨囊和书来制作附魔片上魔咒的复本。\n\n§f魔咒拥有某种十分有用的特征。这种特征在转换过程中保持不变，甚至可以通过使用我自己的一些精华来复制。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bibliocraft:printingpress"
       },
-      "name:8": "Moar Enchants"
+      "name:8": "更多魔咒"
     }
   },
   "questID:3": 720,

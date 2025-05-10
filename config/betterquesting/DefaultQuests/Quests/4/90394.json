@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRedstone conduits let you transmit redstone through conduits.\n\nRedstone lines have 16 different channels, corresponding to 16 colors. \n\nEach channel transmits redstone independently.",
+      "desc:8": "§7§o红石导管可以导管形式传输红石信号。\n\n红石导管一共有16种不同的频道，对应16种颜色。\n\n每个频道可独立传输红石信号。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:item_redstone_conduit"
       },
-      "name:8": "Redstone Conduit"
+      "name:8": "红石导管"
     }
   },
   "questID:3": 90394,

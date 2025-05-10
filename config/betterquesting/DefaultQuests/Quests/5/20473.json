@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The igneous extruder passively produces rocks by using water and lava.\nUpgrades can be used to reduce fluid usage.",
+      "desc:8": "造石机可使用水喝熔岩被动生产岩石。\n升级可用于减少流体消耗。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 15,
@@ -24,7 +24,7 @@
           ]
         }
       },
-      "name:8": "Igneous Extruder"
+      "name:8": "造石机"
     }
   },
   "questID:3": 20473,

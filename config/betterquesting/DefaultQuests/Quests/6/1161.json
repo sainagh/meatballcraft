@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTeleports you to a location indicated by a waystone.",
+      "desc:8": "§7§o传送到道标石标记的地点。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:waystone"
       },
-      "name:8": "Rite of the Open Way"
+      "name:8": "传送仪式"
     }
   },
   "questID:3": 1161,

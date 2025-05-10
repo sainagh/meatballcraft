@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§fWhith a good heat exchanging loop, the caloric power of this super combustion juice can be used to make large quantities of steam, in case I may need lots of it.",
+      "desc:8": "§f借助高效的热交换循环系统，这种超级液态燃料的热值可转化为大量蒸汽，以备不时之需。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:advanced_compression_engine"
         }
       },
-      "name:8": "More Magic Fueling"
+      "name:8": "更多魔法燃料"
     }
   },
   "questID:3": 159,

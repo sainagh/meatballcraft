@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe pattern chest lets you store patterns and casts!",
+      "desc:8": "§7§o模具箱可用于存储模具和铸模！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "tconstruct:tooltables"
       },
-      "name:8": "Pattern Storage"
+      "name:8": "模具存储"
     }
   },
   "questID:3": 1030,

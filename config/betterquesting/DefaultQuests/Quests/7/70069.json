@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound between Y\u003d9 and Y\u003d70.\nCan be found in a Treasure Box or a Shiny Box.\nCan be found in Loot Chests from Structures.\nCan be traded from a Metalloid for 15 Copper Coins.\nCan be dropped by Chimeras.\n\n- Most written by Bluecat",
+      "desc:8": "§7§o发现于Y\u003d9与Y\u003d70之间。\n可通过打开宝藏箱或闪亮的盒子获得。\n可生成于结构中的奖励箱。\n与金属收藏家用15铜币交易获得。\n可由奇美拉掉落。\n\n- 大部分由Bluecat撰写",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:limonite_ingot"
       },
-      "name:8": "Limonite Ingot"
+      "name:8": "褐铁锭"
     }
   },
   "questID:3": 70069,

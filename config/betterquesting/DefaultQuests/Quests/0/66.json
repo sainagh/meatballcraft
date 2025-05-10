@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMana infused metal can be found in a special structure in the nether!\n\nSearch for blue stuff!",
+      "desc:8": "§7§o秘银可于下界的特殊建筑中发现。\n\n找找蓝色的玩意！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_philosophers_stone",
         "tag:10": {}
       },
-      "name:8": "For Philosopher\u0027s Only"
+      "name:8": "贤者专用"
     }
   },
   "questID:3": 66,
@@ -36,7 +36,7 @@
               "Damage:2": 0,
               "id:8": "projecte:item.pe_philosophers_stone"
             },
-            "TrophyName:8": "A true philosopher",
+            "TrophyName:8": "真正的贤者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

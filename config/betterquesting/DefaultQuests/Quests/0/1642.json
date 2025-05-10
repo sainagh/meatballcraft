@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Dragons are both fascinating and scary, but I was able to slay one!\n\nLightning dragons dwell in jungles, savannahs, and badlands.",
+      "desc:8": "龙既迷人又可怕，但我成功斩杀了一条！\n\n电龙盘踞于丛林、热带和恶地。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "iceandfire:dragon_skull"
       },
-      "name:8": "Lightning Dragons"
+      "name:8": "电龙"
     }
   },
   "questID:3": 1642,
@@ -31,7 +31,7 @@
               "Damage:2": 0,
               "id:8": "iceandfire:lightning_dragon_heart"
             },
-            "TrophyName:8": "Lightning Dragon Slayer",
+            "TrophyName:8": "屠龙者・电",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

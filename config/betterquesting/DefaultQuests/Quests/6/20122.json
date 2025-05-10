@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe linking tool is used to connect lenses and collector crystals.",
+      "desc:8": "§7§o连接器可将透镜与聚能水晶链接。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:itemlinkingtool"
       },
-      "name:8": "Linking Tool"
+      "name:8": "链接器"
     }
   },
   "questID:3": 20122,

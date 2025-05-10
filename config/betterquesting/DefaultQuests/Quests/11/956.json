@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oProgress through bewitchment.\n\nTo complete this quest, the bow needs to be empty.\n\n§fThe flux-infused bow is already quite powerful, but demonic influence really make it shine! Enchanting a uncharged bow with demon parts, sigils, and dragon blood plastic turns it into Brave. a really good bow with life-stealing capablities.\n\nThe echo is a bit fuzzy but this bow was used by the nether inhabitants of Terra to defend aganist the interdimensional invaders. It wasn\u0027t enough to defeat them but its enough to help me now.",
+      "desc:8": "§7§o发展巫师之路。\n\n要完成该任务，弓的能量需要是空的。\n\n§f这把通量灌注之弓本就威力非凡，但恶魔之力的浸染才真正令其锋芒毕露！将未充能的弓与恶魔心脏、符文及龙血塑料结合为其附魔，便可铸成“勇气”。一张拥有生命窃取之能的绝佳战弓。\n\n其回响略显模糊，但依稀可辨泰拉的下界住民曾持此弓抵御外维度入侵者。当时虽未能克敌制胜，但这张弓也足够我现在用了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "redstonearsenal:tool.bow_flux",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Brave"
+            "Name:8": "勇气"
           },
           "ench:9": {
             "0:10": {
@@ -38,7 +38,7 @@
           }
         }
       },
-      "name:8": "Brave"
+      "name:8": "勇气"
     }
   },
   "questID:3": 956,
@@ -52,9 +52,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oBrave§r"
+              "Name:8": "§6§o勇气§r"
             },
             "ench:9": {
               "0:10": {

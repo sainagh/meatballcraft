@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAbsorbs TNT explosions to generate mana, but it only works if it has no mana in its buffer",
+      "desc:8": "§7§o吸收TNT爆炸产生魔力，但仅在内部魔力缓存为空时工作",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "entropinnyum"
         }
       },
-      "name:8": "Entropinnyum (Good)"
+      "name:8": "热爆花（良好）"
     }
   },
   "questID:3": 781,

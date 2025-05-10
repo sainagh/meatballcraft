@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe ore spawns in the Aether.",
+      "desc:8": "§7§o该矿物生成于天境。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aether_legacy:zanite_gemstone"
       },
-      "name:8": "Zanite Gemstone"
+      "name:8": "紫晶石"
     }
   },
   "questID:3": 70188,

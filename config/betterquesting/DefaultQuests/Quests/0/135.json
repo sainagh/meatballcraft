@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "These creatures seem to have ties with the Twilight Horde, but, with regards to how operations are carried on the outer Terra sky islands, they appeared to be operating independently of the main force.\nOther Twilight Horde independent agents were conscious beings, like humans, but the Ayeracos were still quite animalistic. There is definitely much I still need to learn about the power structure of our invaders.\n\u0027Our\u0027 invaders. I guess I started to feel like Terra is becoming my home.",
+      "desc:8": "这些生物虽与暮光部落存在关联，但其在泰拉外层浮岛上的行动却表现出高度自主性。\n暮光部落其他独立单位尚有类人智慧，而空影兽仍保留野兽习性。对于我们面对的这些入侵者，我还有太多需要了解。\n“我们”，看来我已将泰拉视作家园了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:ayeraco_scale"
       },
-      "name:8": "The sky is free (sort of...)"
+      "name:8": "解放天际（大概……）"
     }
   },
   "questID:3": 135,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:ayeraco_scale"
             },
-            "TrophyName:8": "Meeting the Ayeracos",
+            "TrophyName:8": "初遇空影兽",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

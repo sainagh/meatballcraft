@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGo to the end!\n\n§fAt some point during their history, the Testificates were able to travel all the way to the asteroids surrounding Terra.\nThere, though, they met something that they could not handle, and decided to seal the portals they had created to prevent more disasters.\nThere is a 100% chance I will reopen one of these portals...",
+      "desc:8": "§7§o前往末地！\n\n§f在历史长河中，泰斯提斐人曾成功抵达环绕泰拉的小行星带。\n然而他们遭遇了无法抗衡的存在，最终选择封印传送门以防灾祸蔓延。\n而我，百分百会重启其中一座传送门……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:ender_eye"
       },
-      "name:8": "A Relic of Past Glory"
+      "name:8": "往日荣光"
     }
   },
   "questID:3": 124,

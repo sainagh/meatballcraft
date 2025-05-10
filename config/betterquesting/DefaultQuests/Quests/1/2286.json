@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following options are tools that will let you store your own XP points for oter uses or safekeeping.",
+      "desc:8": "§7§o以下工具可让你存储自己的经验，用于安全保管或其他用途。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:item_solidified_experience"
       },
-      "name:8": "Store Experience"
+      "name:8": "储存经验"
     }
   },
   "questID:3": 2286,

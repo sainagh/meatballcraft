@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSlay the elder spider in apichisi.",
+      "desc:8": "§7§o击杀共鸣界的远古蜘蛛。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:boomerang",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Superoomerang"
+            "Name:8": "超级回旋镖"
           },
           "ench:9": {
             "0:10": {
@@ -42,7 +42,7 @@
           }
         }
       },
-      "name:8": "Superoomerang"
+      "name:8": "超级回旋镖"
     }
   },
   "questID:3": 980,
@@ -56,9 +56,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oSuperoomerang§r"
+              "Name:8": "§6§o超级回旋镖§r"
             },
             "ench:9": {
               "0:10": {

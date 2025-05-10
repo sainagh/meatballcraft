@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBoth wires and framed wires have insulated counterparts.\n\nInsulated wires of the same color will connect to each other.\n\nInsulated wires of different colors will not connect, letting you run multiple redstone lines in compact spaces.\n\nInsulated wires cannot receive redstone directly, you will need a regular red alloy wire to attach to machines or levers.\n\nFor even more compactness, use bundled wires!",
+      "desc:8": "§7§o红色合金丝和框架红色合金丝都有对应的绝缘形态。\n\n相同颜色的绝缘线缆可互相连接。\n\n不同颜色的绝缘线缆不会连接，可凭此在有限空间内铺设多条红石线路。\n\n绝缘线缆无法直接接收红石信号，需要常规的红色合金丝作为中介连接机器或拉杆。\n\n还可使用集束线缆进一步压缩空间！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "OreDict:8": "projredInsulatedWire",
         "id:8": "projectred-transmission:wire"
       },
-      "name:8": "Insulated Wire"
+      "name:8": "绝缘线缆"
     }
   },
   "questID:3": 90355,

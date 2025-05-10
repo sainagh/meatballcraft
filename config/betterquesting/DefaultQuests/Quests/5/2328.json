@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Mana Enchanter lets you apply enchants on a tool without consuming the books.\n\nForm the structure as shown in the preview, and click the Lapis Block with a Wand of the Forest.\n\nPlace a fully unenchanted item on the Enchanter, and drop the desired enchanted books around it.\n\nTo power it, you can use sparks. The cost of each enchant grows exponentially with level, but it can accept enchants above the anvil limit.",
+      "desc:8": "§7§o魔力附魔台可以不消耗附魔书为工具附魔。\n\n按照预览搭建结构，使用森林法杖右击青金石块来成型。\n\n将未附魔的物品放入附魔台中，在黑曜石圈内丢入附魔书。\n\n使用火花为附魔台提供魔力。每个魔咒的魔力消耗随等级呈指数增长，但可以接受超过铁砧上限的魔咒。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:enchanter"
       },
-      "name:8": "Mana Enchanter"
+      "name:8": "魔力附魔台"
     }
   },
   "questID:3": 2328,

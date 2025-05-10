@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Nether.\nCan be dropped from \"The Watcher\", which spawns from Wildfires or in the Nether.\nThe Ore looks like a full block but it requires being smelted.\nDestroys items coming in contact of it.",
+      "desc:8": "§7§o发现于下界。\n可由监视者，或生成于下界的狱火射手掉落。\n矿石纹理看起来像宝石块，但是需要烧炼。\n销毁与之接触的物品。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:netherite_ingot"
       },
-      "name:8": "Netherite Ingot"
+      "name:8": "炎岩锭"
     }
   },
   "questID:3": 70163,

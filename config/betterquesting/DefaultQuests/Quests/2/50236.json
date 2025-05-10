@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Yup! More unstable radiocative atoms go brrr, and no particle accelerators needed!\n(The first atom of Curium was made in an accelerator)",
+      "desc:8": "没错！更多不稳定的放射性原子哔哔作响，连粒子加速器都省了！\n（世界上第一颗锔原子就是用加速器制造的）",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:fuel_curium"
       },
-      "name:8": "LECm-243 Fuel"
+      "name:8": "低密度锔-243燃料"
     }
   },
   "questID:3": 50236,

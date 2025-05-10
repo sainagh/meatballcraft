@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWhile there are other, more compact ways of farming plants and trees, large material-based farms can be used for more than trees, and they have really good yield.\n\nMultiblock farms can be programmed for a variety of purposes. The best use is to make peat, which is used in a lot of recipes later on.\n\nTo program a multiblock farm, you need a circuit, which is programmed using a soldering iron!\n\nThe higher the circuit tier, the more things at the same time can be farmed (up to 4).",
+      "desc:8": "§7§o虽然存在其他更紧凑的植物和树木种植方式，但基于材料的大型农场不仅能种植树木，还能实现更多功能，并且产量非常可观。\n\n多方块农场可以通过编程实现多种用途。最佳用途是生产泥炭，在后期的许多配方中都会用到。\n\n要为多方块农场编程，需要先使用电烙铁焊接电路板！\n\n电路板等级越高，农场可同时种植的作物种类就越多（最多4种）。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:ffarm",
@@ -12,7 +12,7 @@
           "FarmBlock:3": 0
         }
       },
-      "name:8": "Farm Block"
+      "name:8": "农场方块"
     }
   },
   "questID:3": 20513,

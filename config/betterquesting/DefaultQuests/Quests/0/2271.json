@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I am not the only one that is seeking more furnaces!\nThe fiends I have been fighting were all like me, drawn by the awesomeness of furnaces!\nThis awesomeness, though, comes with a price, and a heavy one, for those who are not worthy of handling it. The furnaces can take control over you, and turn you into a mindless husk, enslaved to their will, whatever that may be.\nPower and greatness being a source of corruption I understand, and I can definitely say I felt it (who wouldn\u0027t?!?); what I do not understand, is how does one escape this call?\nPower from other sources seems to be pointless; the Hellfire being I just faces has a might like no other I have seen, and yet it seemed like nothing in comparison to the call of the furnace dimension. \nI am definitely facing something I am not ready to best, I think it will be good to leave the furnace dimension be until I can understand what is going on...",
+      "desc:8": "并非只有我在渴求更多熔炉！\n与我交战的熔炉魔都和我一样，被熔炉的宏伟力量所吸引！\n然而这种伟力需要代价，对那些无力驾驭者而言尤为沉重。熔炉会掌控你的心智，将你化作无意识的躯壳，沦为它们意志的奴仆，无论那意志究竟为何。\n力量与伟大滋生腐化，这点我深有体会（谁能幸免呢？！）；我不明白的是，该如何抵御这种呼唤？\n其他力量似乎毫无意义；刚刚遭遇的地狱火生物虽拥有前所未见的威能，但与熔炉维度的召唤相比根本不值一提。\n显然我尚未具备征服此等存在的实力，在洞悉真相之前，或许最好先暂离熔炉维度……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:infernal_furnace_callstone"
       },
-      "name:8": "Dangerous Furnaces are Dangerous"
+      "name:8": "熔炉属实危险"
     }
   },
   "questID:3": 2271,

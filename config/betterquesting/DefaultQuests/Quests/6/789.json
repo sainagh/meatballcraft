@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGenerates mana by eating cakes placed nearby",
+      "desc:8": "§7§o通过吃附近的蛋糕来产生魔力",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "kekimurus"
         }
       },
-      "name:8": "Kekimurus (Great)"
+      "name:8": "贪食花（优异）"
     }
   },
   "questID:3": 789,

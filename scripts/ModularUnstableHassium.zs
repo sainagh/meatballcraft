@@ -26,7 +26,7 @@ mods.techreborn.fusionReactor.addRecipe(<thermalfoundation:material:130>,
 <materialpart:promethium:ingot>, 
 <contenttweaker:unstable_hassium_chunk>, 
 100000, 
-3000, 
+15000, 
 1000);
 
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:unstable_hassium_chunk>, <fluid:unstable_hassium>*144]);

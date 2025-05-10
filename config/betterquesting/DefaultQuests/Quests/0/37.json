@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGo out and explore! The overworld is full of good stuff both above and below ground!\n\nInk sacs are going to be very useful! They can be found in worldgen structures in every biome! Look for prismarine!\n\nThe nature compass can help you find biomes if you need/want to get your hands on particular resources!\n\n§rDespite the abundance of monsters and other weird creatures, it seems like intelligent beings also live on this planet.\nThere are a lot of buildings randomly scattered around this land, so someone must have built them...\nI need to find other intelligent beings, maybe they are like some of the other creatures I\u0027ve seen, and can open a wormhole to get me out of here.",
+      "desc:8": "§7§o出去探索探索吧！不论是地表还是地下，主世界里满是好东西！\n\n墨囊将会非常有用！它们生成于所有生物群系的自然建筑结构中！找海晶石就行了！\n\n自然指南针可定位特定生物群系，便于获取专属资源！\n\n§r尽管遍布怪物与奇异生物，这颗星球似乎也存在智慧生命体。\n大量建筑随机散布在大陆各处，显然出自某种文明之手……\n我需寻找其他智慧存在，或许他们与我见过的某些生物类似，能够开启虫洞助我脱离此地。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:compass"
       },
-      "name:8": "Exploration"
+      "name:8": "探索"
     }
   },
   "questID:3": 37,
@@ -28,7 +28,7 @@
           "id:8": "minecraft:paper",
           "tag:10": {
             "display:10": {
-              "Name:8": "Stay away from nuclear wastelands"
+              "Name:8": "远离核泄漏之地（Nuclear Wastelands）"
             }
           }
         },
@@ -37,7 +37,7 @@
           "id:8": "minecraft:paper",
           "tag:10": {
             "display:10": {
-              "Name:8": "Screenshots Get Copied to Clipboard"
+              "Name:8": "截图会自动复制到剪贴板"
             }
           }
         }

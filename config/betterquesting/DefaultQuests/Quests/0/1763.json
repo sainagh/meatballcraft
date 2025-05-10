@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound natually in Iceika.\n\n§fThe extents of the magic powers of this master wizard are incredible. Not only the land has been affected, but life too.\nMy abilities can bring forth new life, but nothing that comes even close to the Frostmaws of Iceika.\nI don\u0027t feel like I am built for wizardry, but I sure want to improve my capabilities. Maybe technology can help with that!",
+      "desc:8": "§7§o自然生成于冰晶雪原。\n\n§f这位大巫师的巫术造诣着实令人惊叹。不仅大地为之改变，就连生命也深受其影响。\n我的能力虽可创造新生命，但与冰晶雪原的冰霜巨口相比实在相形见绌。\n我自觉并非研习魔法的料，但提升实力的渴望从未消退，或许科技能助我一臂之力！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "mowziesmobs:ice_crystal"
       },
-      "name:8": "The Ice Beast"
+      "name:8": "冰霜巨兽"
     }
   },
   "questID:3": 1763,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "mowziesmobs:ice_crystal"
             },
-            "TrophyName:8": "Frostmaw Slayer",
+            "TrophyName:8": "冰霜巨口屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

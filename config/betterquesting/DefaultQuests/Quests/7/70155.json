@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Elemental Chamber dungeon in the Nether.",
+      "desc:8": "§7§o发现于下界的元素室。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 136,
         "id:8": "thermalfoundation:material"
       },
-      "name:8": "Mana Infused Ingot"
+      "name:8": "秘银锭"
     }
   },
   "questID:3": 70155,

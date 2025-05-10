@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "RF from ender pearls \u0026 ender eyes!",
+      "desc:8": "使用末影珍珠和末影之眼发电！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:machine",
@@ -12,7 +12,7 @@
           "Type:8": "extrautils2:generator_ender"
         }
       },
-      "name:8": "Ender Generator (OK)"
+      "name:8": "末影发电机（一般）"
     }
   },
   "questID:3": 50258,

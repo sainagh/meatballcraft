@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 840\nMining Level: 6\nMining Speed: 6.2\nAttack: 4\nMagnetic II\n\nHandle\nModifier: 1.05\nDurability: 55\nMagnetic\n\nExtra\nDurability: 380\nMagnetic\n\nBows\nDrawspeed: 2\nRange Multiplier: 1.5\nBonus Damage: 3.75\nMagnetic",
+      "desc:8": "顶端\n耐久：840\n挖掘等级：6\n挖掘速度：6.2\n攻击力：4\n磁力 II\n\n手柄\n手柄系数：1.05\n耐久：55\n磁力\n\n其它部件\n耐久：380\n磁力\n\n弓\n拉弓速度：2\n范围系数：1.5\n附加伤害：3.75\n磁力",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "lyon"
         }
       },
-      "name:8": "Lyon"
+      "name:8": "焦铁"
     }
   },
   "questID:3": 201066,

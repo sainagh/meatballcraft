@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPrevents the ring of magnetization from working in a radius around it.",
+      "desc:8": "§7§o在工作范围内阻止磁化指环生效。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "solegnolia"
         }
       },
-      "name:8": "Solegnolia (Useful)"
+      "name:8": "弱磁兰（实用）"
     }
   },
   "questID:3": 1301,

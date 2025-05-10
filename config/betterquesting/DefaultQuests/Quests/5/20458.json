@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Things get W I D E R!",
+      "desc:8": "范 围 更 宽 ！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "mysticalagriculture:watering_can"
       },
-      "name:8": "Intermedium Watering Can"
+      "name:8": "中级精华洒水壶"
     }
   },
   "questID:3": 20458,

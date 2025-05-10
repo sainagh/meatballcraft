@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "HaHa! I was successful in making a new fuel, Now I must run it through the fission chamber, hopefully it will last far longer than the previous fuels.",
+      "desc:8": "哈哈！我成功制作出了一种新燃料，现在必须把它塞进裂变测试舱里跑一遍，但愿这玩意能比之前那些燃料撑得久一点！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:fuel_berkelium"
       },
-      "name:8": "LEB-248 Fuel"
+      "name:8": "低密度锫-248燃料"
     }
   },
   "questID:3": 50243,

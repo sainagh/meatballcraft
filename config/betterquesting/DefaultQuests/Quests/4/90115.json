@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oA router can be used to share functionality between different Xnet setups.\n\nIf multiple different Xnet setups are connected to the same router, individual channels can be unified between them.\n\nThe left side of the router GUI lists all channels in all Xnet setups attached to the router. If two channels are given the same label in the router, they will start acting as the same channel, split between different Xnet controllers.",
+      "desc:8": "§7§o路由器可在不同的Xnet网络中共享功能。\n\n使用同一路由器连接多个不同Xnet网络时，可在其间合并指定频道。\n\n路由器GUI左侧会列出所有相连接的Xnet网络的频道。两个在路由器中拥有相同标签名的频道，会作为同一频道工作，在不同控制器中分配。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "xnet:router"
       },
-      "name:8": "Router"
+      "name:8": "路由器"
     }
   },
   "questID:3": 90115,

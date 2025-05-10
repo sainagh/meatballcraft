@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo unlock pages in the thaumonomicon, you need to perform research.\n\nThere are eight types of research, and each type can be an obervation or a theory!\n\nObservation research is performed by scanning things using the thaumometer. In this pack there is an addon that lets you scan items directly in chests. Just mouse over them while holding the thaumometer!\n\nTheory research is performed in the reserach table, obtained by right clicking scribing tools on a wood table. To unlock research, place paper in the scribing table, and click pages until completing a theory. This task must be reepated till the desired research is obtained.\n\nIn addition to this, preserved curiosities let you unlock any research at random!",
+      "desc:8": "§7§o需要进行研究才能解锁魔导手册中的隐藏内容。\n\n一共有8种研究，每种都对应一种观测或理论！\n\n使用魔导透镜来进行观测研究。本整合包中的附属模组可以令你直接扫描箱子中的物品。用鼠标拖动魔导透镜直接从物品上滑过即可！\n\n理论研究需在研究台中进行，使用笔与墨右击木桌来获得研究台。要解锁研究，在研究同中放置纸，点击选项直至完成一个理论。重复此操作直至所需获得研究。\n\n除此之外，传世珍品可随机解锁研究！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:scribing_tools"
       },
-      "name:8": "Thaumic Research"
+      "name:8": "神秘研究"
     }
   },
   "questID:3": 20189,

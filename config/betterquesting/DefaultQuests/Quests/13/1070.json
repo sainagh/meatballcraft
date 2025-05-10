@@ -15,7 +15,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can complete this quest with any material!\n\nWorks like a shovel, but mines in a 3x3 area!",
+      "desc:8": "§7§o使用任意材料制作均可完成本任务！\n\n与锹类似，但是可以3x3的范围挖掘！",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -89,7 +89,7 @@
           }
         }
       },
-      "name:8": "Excavator"
+      "name:8": "开掘铲"
     }
   },
   "questID:3": 1070,

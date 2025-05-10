@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oQuests are here to tell you what CAN be done, but the order is up to you!\n\nTiny coal is great for saving on furnace fuel!\n\n§rIt seems like the soil here is abundant in coal, good to know, because now I can cook, and even smelt metal ore!",
+      "desc:8": "§7§o任务会告诉你可以做什么，但顺序由你决定！\n\n小块煤炭非常适合用来节省燃料！\n\n§r看来这里的土壤富含煤炭，太好了，这样我就能做个饭，甚至熔炼金属矿石！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:furnace"
       },
-      "name:8": "Cooking!"
+      "name:8": "烹饪！"
     }
   },
   "questID:3": 13,

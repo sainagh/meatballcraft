@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis quest can be completed using any hammer.\n\nHammers will let you break stone and ores in a 3x3 area, making it quite convenient for early game mining sessions.\n\nYou should switch to the destruction catalyst and the catalytic lens later on.",
+      "desc:8": "§7§o可使用任意材料制作均可完成本任务。\n\n匠魂锤能以3x3的范围破坏石头和矿物，在前期非常方便。\n\n随后可以转用毁灭燧石和催化水晶。",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -77,7 +77,7 @@
           }
         }
       },
-      "name:8": "Tinker\u0027s Hammers"
+      "name:8": "匠魂锤"
     }
   },
   "questID:3": 1885,

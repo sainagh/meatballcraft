@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,900\nMining Level: Cobalt\nMining Speed: 16.74\nAttack: 15.07\nWeeee!\n\nHandle\nModifier: 3.86\nDurability: 500\n\nExtra\nDurability: 500\n\nBows\nDrawspeed: 0.34\nRange Multiplier: 5.06\nBonus Damage: 16",
+      "desc:8": "顶端\n耐久：1,900\n挖掘等级：钴\n挖掘速度：16.74\n攻击力：15.07\nWeeee!\n\n手柄\n手柄系数：3.86\n耐久：500\n\n其它部件\n耐久：500\n\n弓\n拉弓速度：0.34\n范围系数：5.06\n附加伤害：16",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "redmatter"
         }
       },
-      "name:8": "Red Matter"
+      "name:8": "红物质"
     }
   },
   "questID:3": 201143,

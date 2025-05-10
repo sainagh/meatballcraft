@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§G§7§oGeneral and specific mob farms are good to do at this point. Doing a cursed earth farm at y\u003d2 is recommended for better drops! The §cBook of Creation §7§ohas a section dedicated to farming mob drops in better and better ways.\n\nThe scoop will break bee hives found all around. This would bee a good time to start collecting bees! Bee-related tips and tricks can also be found in the  §cBook of Creation§f§7.\n\n§fThe caves located in Terra\u0027s nether region are truly stunning, and truly dangerous!\nThe stone that illuminates these magma-filled caves appears to have magical properties way superior to obsidian",
+      "desc:8": "§7§o目前阶段适合建造通用及特定生物刷怪场。推荐在Y\u003d2处建造诅咒之土刷怪场来获得更好的掉落物！§c创造之书§7§o中专门有一章用于介绍如何更高效地获取生物掉落物。\n\n捕虫网可破坏世界各处发现的蜂巢。此时正是开始收集蜜蜂的好时机！蜜蜂相关的提示技巧可在§c创造之书§f§7中找到。\n\n§f泰拉下界地区的洞穴实在是瑰丽非凡，同时也危机四伏！\n照亮这些满是熔岩的洞穴的发光石头，似乎蕴含着远超黑曜石的魔法特性。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:glowstone"
       },
-      "name:8": "Luminous Underground"
+      "name:8": "辉光四起的地下"
     }
   },
   "questID:3": 65,

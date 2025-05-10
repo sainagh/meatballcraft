@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAn upgraded version of solidified experience, obtained from a bee that becomes available in chapter 3.",
+      "desc:8": "§7§o升级版本的固化经验，可通过第3章解锁的蜜蜂获得。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:condensed_essence"
       },
-      "name:8": "Condensed Essence"
+      "name:8": "浓缩精华"
     }
   },
   "questID:3": 795857967,

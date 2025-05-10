@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIf you get errors in the industrial apiary GUI, use these upgrades to change the biome or humidity!\n\n§IInstead of moving my bees around, I can just emulate biomes from the comfort of my §fhome!",
+      "desc:8": "§7§o如果在工业蜂箱GUI中看到了错误标识，用这些升级来改变生物群系或湿度！§r\n\n§f与其带着蜜蜂到处转，我选择直接在我温暖的§l家§r里模拟生物群系！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 17,
         "id:8": "gendustry:apiary.upgrade"
       },
-      "name:8": "Biome Upgrades"
+      "name:8": "生物群系升级"
     }
   },
   "questID:3": 20487,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 900\nMining Level: Obsidian\nMining Speed: 9.43\nAttack: 8.88\nPower of the Sun\n\nHandle\nModifier: 0.84\nDurability: 140\nPower of the sun\n\nExtra\nDurability: 100\nPower of the sun\n\nBows\nDrawspeed: 0.43\nRange Multiplier: 1.99\nBonus Damage: 8\nPower of the sun",
+      "desc:8": "顶端\n耐久：900\n挖掘等级：黑曜石\n挖掘速度：9.43\n攻击力：8.88\n太阳能\n\n手柄\n手柄系数：0.84\n耐久：140\n太阳能\n\n其它部件\n耐久：100\n太阳能\n\n弓\n拉弓速度：0.43\n范围系数：1.99\n附加伤害：8\n太阳能",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "refinedglowstone"
         }
       },
-      "name:8": "Refined Glowstone (WIP)"
+      "name:8": "强化荧石（未完成）"
     }
   },
   "questID:3": 201206,

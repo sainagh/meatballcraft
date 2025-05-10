@@ -13,7 +13,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can complete this quest with any material!\n\nWorks like a hoe in a 3x3 area. Damages mobs in a 3x3 area!",
+      "desc:8": "§7§o使用任意材料制作均可完成本任务！\n\n类似锄，但是可以以3x3范围耕地。也可攻击3x3范围的生物！",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -88,7 +88,7 @@
           }
         }
       },
-      "name:8": "Scythe"
+      "name:8": "镰刀"
     }
   },
   "questID:3": 1068,

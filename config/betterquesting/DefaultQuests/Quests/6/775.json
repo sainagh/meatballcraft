@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oVacuums items and puts them into nearby chests.\n\nYou can whitelist specific chests by placing item frames on them. ",
+      "desc:8": "§7§o捡拾附近物品并存入相邻容器。\n\n可在容器上放置物品展示框来设置白名单。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "hopperhock"
         }
       },
-      "name:8": "Hopperhock"
+      "name:8": "漏斗花"
     }
   },
   "questID:3": 775,

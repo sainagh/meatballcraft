@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the winter forest biome.\n\n§fI know it is silly to complain about one\u0027s condition in life, as the things of the universe rarely bend to our own will, but man, why is it that I have already seen two magical ice incidents, and I have yet to see a magical lighting incident?\nThis part of the forest is perennially covered in snow. It would make sense that the effects of the powder resonated with the magic powers of those affected by it, so different magical attitudes led to different transformations. Some colder than others.\nThis does raise a question, though, I have seen other mythological creatures on Terra too. My senses tell me they are not from the Twilight Forest, but it would be safe to assume that the same powder, the same virus, may have been used in other places and other times.\nWho knows what many of the enemies I have encountered so far looked like in the past?",
+      "desc:8": "§7§o发现于积雪森林群系。\n\n§f我明白抱怨命运实属幼稚，毕竟宇宙万物鲜少屈从人意，但老天，为什么我已遭遇两次魔法寒冰事件，却至今未见一次魔法雷电异象？\n这片森林区域终年积雪。那种粉末的效应很可能与受感染者自身的魔法力量产生共鸣，不同的魔法倾向导致了不同的转变，某些存在显然比其他更为冰冷。\n这不禁引出一个疑问：我在泰拉也见过其他神话生物。直觉告诉我它们并非源自暮色森林，但或许可以推测，同样的粉末、同样的病毒，曾在不同时空被运用过。\n谁能知晓，我至今遭遇的诸多敌人，往昔究竟是何模样？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "twilightforest:alpha_fur"
       },
-      "name:8": "Icy Rage"
+      "name:8": "凛冬之怒"
     }
   },
   "questID:3": 257,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "twilightforest:alpha_fur"
             },
-            "TrophyName:8": "Alpha Yeti Slayer",
+            "TrophyName:8": "雪怪首领屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

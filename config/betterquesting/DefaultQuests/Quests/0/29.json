@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o1.2.5 dupes were the best!§r\n\nThe circle within 1200 blocks of spawn is safe(r).\nNo dragons here!",
+      "desc:8": "§7§o1.2.5复制是最棒的！§r\n\n出生点1200格范围内更加安全。\n这儿没龙！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "iceandfire:fire_dragon_heart"
       },
-      "name:8": "We love our safe space!"
+      "name:8": "我爱安全空间！"
     }
   },
   "questID:3": 29,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCheck uses for these items for the ritual preview.\n\nThis will summon Leonard!  ",
+      "desc:8": "§7§o检查材料的用途以查看仪式预览。\n\n会召唤伦纳德！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:hand_of_dominion"
       },
-      "name:8": "Leonard\u0027s Sabbath (Useful)"
+      "name:8": "伦纳德之祭（实用）"
     }
   },
   "questID:3": 1145,

@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Evertide Amulet uses EMC to produce endless water.",
+      "desc:8": "潮汐护符能提供无限水。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_evertide_amulet"
       },
-      "name:8": "Evertide Amulet"
+      "name:8": "潮汐护符"
     }
   },
   "questID:3": 50057,

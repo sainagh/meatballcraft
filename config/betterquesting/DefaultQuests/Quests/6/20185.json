@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe thaumometer has three main uses.\nIt allows you to see the presence of the two main thaumic fields, vis (good) and flux (bad).\nIt can be used to scan items and blocks (both in world and from the inventory) to reveal the essentia they possess, and to gain knowledge about the thaumic arts.\nIt shows its user the presence of essentia in a given block or machine.",
+      "desc:8": "§7§o魔导透镜主要有三种用途。\n显示所在区块的灵气场信息：灵气量，咒波量和灵气容量。\n扫描物品和方块（世界中和物品栏中均可）以揭示其含有的源质，并获得相关的神秘学知识。\n显示方块或机器中的源质含量。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:thaumometer"
       },
-      "name:8": "Thaumometer"
+      "name:8": "魔导透镜"
     }
   },
   "questID:3": 20185,

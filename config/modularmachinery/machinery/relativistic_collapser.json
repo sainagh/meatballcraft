@@ -2,6 +2,21 @@
     "registryname": "relativistic_collapser",
     "localizedname": "Relativistic Collapser",
 	"color": "707d7d",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:naquadah_casing",
+            "x": 0,
+            "y": 9,
+            "z": 5,
+            "description": "速度x200",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.005
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -4,

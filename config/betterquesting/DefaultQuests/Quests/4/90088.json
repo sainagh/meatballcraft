@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Holds max int millibuckets.",
+      "desc:8": "可存储整型上限mB的流体。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:black_hole_tank"
       },
-      "name:8": "Black Hole Tank"
+      "name:8": "黑洞储液罐"
     }
   },
   "questID:3": 90088,

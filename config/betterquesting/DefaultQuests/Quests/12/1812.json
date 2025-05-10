@@ -9,12 +9,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis set can be used to reduce the vis cost of thaumcraft recipes in the arcane workbench.",
+      "desc:8": "§7§o该套装可减少奥数工作台中神秘时代模组合成配方的魔力消耗。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:cloth_chest"
       },
-      "name:8": "Thaumaturge"
+      "name:8": "神秘使"
     }
   },
   "questID:3": 1812,

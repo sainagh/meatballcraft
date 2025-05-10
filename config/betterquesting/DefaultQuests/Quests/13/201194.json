@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 10,000\nMining Level: 12\nMining Speed: 12\nAttack: 48\nHail Hydra\nVindictive\n\nHandle\nModifier: 2.3\nDurability: 700\nDark Traveler\n\nExtra\nDurability: 800\nDark Traveler\n\nBows\nDrawspeed: 0.43\nRange Multiplier: 4\nBonus Damage: 24\nDark Traveler",
+      "desc:8": "顶端\n耐久：10,000\n挖掘等级：12\n挖掘速度：12\n攻击力：48\n九头蛇万岁\n报复\n\n手柄\n手柄系数：2.3\n耐久：700\n暗黑行者\n\n其它部件\n耐久：800\n暗黑行者\n\n弓\n拉弓速度：0.43\n范围系数：4\n附加伤害：24\n暗黑行者",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "chaotic_plustic"
         }
       },
-      "name:8": "Chaotic"
+      "name:8": "混沌"
     }
   },
   "questID:3": 201194,

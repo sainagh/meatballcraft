@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The primordial malevolence words now make sense! Well, sort of...\nI know who the \u0027He\u0027 it was referring to is...\nHis name is the Meatball Man! \nHow stupid! You are a god around mortals, and the name you choose is Meatball man? Why?\nFor some reason, he really wanted to give me recursion, and he even made pacts with a bunch of other gods to bring me to Terra. It seems like he expected me to be enslaved to their will, like the monsters from the swamp in between. \nAnd yet I am here, ready to kick ass! Those puny abyssal ones were not enough to hold me back!\nIf you wanted to escape with your head on your shoulders, you should not have asked all your cthulhu friends to make me immortal! I am free! And I am coming for you!",
+      "desc:8": "原始恶意的话语终于能解读了！呃，算是吧……\n我知道所谓的“祂”是谁……\n祂的名字叫肉丸人！\n太蠢了吧！身为凌驾凡人之上的神明，居然取名肉丸人？为什么？\n不知为何，祂执意要赐予我递归之力，甚至还联合其他神明立下契约将我带到泰拉。看起来祂指望我像那些交错沼泽的怪物一样臣服于神谕。\n但我可不会被束缚！那些弱小的深渊存在根本拦不住我！\n若想全身而退，就不该让你那些克苏鲁同党赐我不死之身！我自由了！我来取你狗命了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:sentient_meatball"
       },
-      "name:8": "The Meatball Man"
+      "name:8": "肉丸人"
     }
   },
   "questID:3": 137,

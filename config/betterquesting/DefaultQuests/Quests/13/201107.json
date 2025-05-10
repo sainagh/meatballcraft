@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 437\nMining Level: Diamond\nMining Speed: 8\nAttack: 4.5\nDense\nStiff\n\nHandle\nModifier: 0.85\nDurability: 136\nStiff\n\nExtra\nDurability: 24\nStiff\n\nBows\nDrawspeed: 2.35\nRange Multiplier: 1.7\nBonus Damage: 4.5\nDense\nStiff",
+      "desc:8": "顶端\n耐久：437\n挖掘等级：钻石\n挖掘速度：8\n攻击力：4.5\n致密\n坚忍\n\n手柄\n手柄系数：0.85\n耐久：136\n坚忍\n\n其它部件\n耐久：24\n坚忍\n\n弓\n拉弓速度：2.35\n范围系数：1.7\n附加伤害：4.5\n致密\n坚忍",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "boron"
         }
       },
-      "name:8": "Boron"
+      "name:8": "硼"
     }
   },
   "questID:3": 201107,

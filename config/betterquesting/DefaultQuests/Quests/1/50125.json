@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe time in a bottle can increase the speed of machines at the cost of time. Time is accumulated in the bottle by having it in your inventory. You can only have one time in a bottle!\n\n§fCan accelerate things, but at the cost of time, what will you use this for?\nThanks to Tomato_Is_Life for the text!",
+      "desc:8": "§7§o时间之瓶可消耗时间加速机器。将其放在物品栏可在瓶中积累时间。同一时间只能持有一个时间之瓶！\n\n§f可加速事物，但要消耗时间，你会用它干什么呢？\n感谢Tomato_Is_Life撰写的文本！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "randomthings:timeinabottle",
@@ -13,7 +13,7 @@
           "timeData:10": {}
         }
       },
-      "name:8": "Time in a bottle"
+      "name:8": "时间之瓶"
     }
   },
   "questID:3": 50125,

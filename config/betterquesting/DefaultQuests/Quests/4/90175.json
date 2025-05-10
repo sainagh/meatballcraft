@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oProvides infinite energy to your AE2 network.\n\nIf you have this, you won\u0027t need to give power to your controllers and energy acceptors!",
+      "desc:8": "§7§o为AE网络提供无限能量！\n\n使用该方块，便无需为控制器和能源接收器提供能量！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:creative_energy_cell"
       },
-      "name:8": "Creative Energy Cell"
+      "name:8": "创造能源元件"
     }
   },
   "questID:3": 90175,

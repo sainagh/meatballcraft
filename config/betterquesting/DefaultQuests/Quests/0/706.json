@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe lamps from torchmaster are very good at illuminating areas and preventing mob spawns!",
+      "desc:8": "§7§o火炬大师模组的照明工具非常适合照亮大片区域，阻止生物生成！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "torchmaster:feral_flare_lantern"
       },
-      "name:8": "Safe Space"
+      "name:8": "安全空间"
     }
   },
   "questID:3": 706,

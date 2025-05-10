@@ -1,7 +1,6 @@
 import mods.thaumcraft.Infusion;
 import mods.modularmachinery.RecipeBuilder;
 
-recipes.removeShaped(<divinerpg:twilight_clock>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:aether_rock>, 
 [[<aether_legacy:dungeon_block:0>, <aether_legacy:dungeon_block:2>, <aether_legacy:dungeon_block:4>], 
@@ -21,15 +20,7 @@ mods.techreborn.rollingMachine.addShaped(<contenttweaker:organic_jade_plate>,
 [<erebus:materials:1>, <erebus:materials:1>, <erebus:materials:1>],
 [<erebus:materials:48>, <erebus:antlion_egg>, <erebus:materials:48>]]);
 
-recipes.addShaped(<divinerpg:twilight_clock>,
-[[<dimdoors:world_thread>, <contenttweaker:divine_flake>, <contenttweaker:aether_rock>],
-[<contenttweaker:organic_jade_plate>, <minecraft:clock>, <contenttweaker:twilight_essence>],
-[<aoa3:kinetic_rune>, <contenttweaker:rift_essence>, <contenttweaker:collecting_stone>]]);
 
-recipes.addShaped(<contenttweaker:realmstone>,
-[[<dimdoors:world_thread>, <contenttweaker:divine_flake>, <contenttweaker:aether_rock>],
-[<contenttweaker:organic_jade_plate>, <minecraft:book>, <contenttweaker:twilight_essence>],
-[<aoa3:storm_rune>, <contenttweaker:rift_essence>, <contenttweaker:collecting_stone>]]);
 
 mods.thaumcraft.Infusion.registerRecipe("precasiainfusion", "", 
 <aoa3:precasia_realmstone>, 

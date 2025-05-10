@@ -13,7 +13,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can complete this quest with any material!\n\nCombination of shovel, axe, and hoe!",
+      "desc:8": "§7§o使用任意材料制作均可完成本任务！\n\n锹、斧和锄的结合体！",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -90,7 +90,7 @@
           }
         }
       },
-      "name:8": "Mattock"
+      "name:8": "鹤嘴锄"
     }
   },
   "questID:3": 1062,

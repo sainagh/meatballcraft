@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Set a location, and teleport there.",
+      "desc:8": "设置一个地点，传送回来。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tombstone:tablet_of_recall",
         "tag:10": {}
       },
-      "name:8": "Recall"
+      "name:8": "传送"
     }
   },
   "questID:3": 2298,

@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCraft it, duh!",
+      "desc:8": "§7§o直接造就完事儿了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "mod_lavacow:bonesword",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Oathbringer"
+            "Name:8": "渡誓"
           },
           "ench:9": {
             "0:10": {
@@ -30,7 +30,7 @@
           }
         }
       },
-      "name:8": "Oathbringer"
+      "name:8": "渡誓"
     }
   },
   "questID:3": 522,
@@ -44,9 +44,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oOathbringer§r"
+              "Name:8": "§6§o渡誓§r"
             },
             "ench:9": {
               "0:10": {

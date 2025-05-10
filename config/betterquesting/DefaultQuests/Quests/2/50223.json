@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Sweet, some unstable uranium isotope! Time to make this baby burn!",
+      "desc:8": "很好，一些不稳定的铀同位素！是时候让这些宝贝燃起来了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:uranium"
       },
-      "name:8": "Uranium-233"
+      "name:8": "铀-233"
     }
   },
   "questID:3": 50223,

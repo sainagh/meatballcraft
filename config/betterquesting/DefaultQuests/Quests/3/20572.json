@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Dries things, and accepts pipe inputs and outputs.",
+      "desc:8": "晾干物品，可使用管道输入输出。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
@@ -17,7 +17,7 @@
           }
         }
       },
-      "name:8": "Drying Rack"
+      "name:8": "晾干架"
     }
   },
   "questID:3": 20572,

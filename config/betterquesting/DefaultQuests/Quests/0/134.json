@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse in the end!\n\n§fWhile the testificates did not dare messing with the dragons living in the asteroids around Terra, someone else definitely did!\nThese monsters seem to have gained control over some of the regions in the asteroid belt, that said, there are places not even they dare to explore...\n",
+      "desc:8": "§7§o在末地使用！\n\n§f泰斯提斐人不敢惊动泰拉小行星带上的龙种，但有人有这个胆子！\n这些怪物虽占据部分星环区域，但某些禁区连它们都望而却步……\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:horde_horn"
       },
-      "name:8": "Battle for the Skies!"
+      "name:8": "苍穹之战！"
     }
   },
   "questID:3": 134,

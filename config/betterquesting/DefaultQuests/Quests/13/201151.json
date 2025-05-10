@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 600\nMining Level: Obsidian\nMining Speed: 10.12\nAttack: 6.84\nLaunch\n\nHandle\nModifier: 0.74\nDurability: 100\n\nExtra\nDurability: 80\n\nBows\nDrawspeed: 0.51\nRange Multiplier: 2.26\nBonus Damage: 6",
+      "desc:8": "顶端\n耐久：600\n挖掘等级：黑曜石\n挖掘速度：10.12\n攻击力：6.84\n发射\n\n手柄\n手柄系数：0.74\n耐久：100\n\n其它部件\n耐久：80\n\n弓\n拉弓速度：0.51\n范围系数：2.26\n附加伤害：6",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "sapphire"
         }
       },
-      "name:8": "Sapphire"
+      "name:8": "蓝宝石"
     }
   },
   "questID:3": 201151,

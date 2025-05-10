@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSpeed robotic, obtained from robot drones!\n\nSecond best, speed fastest, obtained from blizzy drones!",
+      "desc:8": "§7§o速度：机器般的，通过机械雄蜂获得！\n\n次佳，速度：最快，通过暴雪人雄蜂获得！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_drone_ge",
@@ -152,7 +152,7 @@
           "MaxH:3": 50
         }
       },
-      "name:8": "Best Speed"
+      "name:8": "最佳速度"
     }
   },
   "questID:3": 1210,

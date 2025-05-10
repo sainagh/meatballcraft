@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "One of these placed around each of the 16 running generators will make A TON of RF.",
+      "desc:8": "将其放置在其他16种正在运行的发电机周围，即可产出海量能量。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:rainbowgenerator"
       },
-      "name:8": "Rainbow Generator! (Great)"
+      "name:8": "彩虹发电机！（优异）"
     }
   },
   "questID:3": 50277,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Wildwood dimension from DivineRPG.\nCan be crafted from Wildwood souls from Wildwood native mobs.",
+      "desc:8": "§7§o发现于神圣RPG模组的原始森林维度。\n可使用原始森林本土怪物掉落的原始森林之魂制作。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:wildwood_fragments"
       },
-      "name:8": "Wildwood Fragments"
+      "name:8": "原始森林碎片"
     }
   },
   "questID:3": 70215,

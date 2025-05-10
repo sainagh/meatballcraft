@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The reactant dynamo uses a combination of a fluid and an item to produce RF.",
+      "desc:8": "反应能源炉通过将流体与物品结合产出RF。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
@@ -16,7 +16,7 @@
           "RSControl:1": 0
         }
       },
-      "name:8": "Reactant Dynamo (Great)"
+      "name:8": "反应能源炉（优异）"
     }
   },
   "questID:3": 50157,

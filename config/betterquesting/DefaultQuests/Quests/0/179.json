@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Nesting pens are cool and all, but they are kinda slow...\nErebus materials make for very good (lag friendly) coops!",
+      "desc:8": "组合鸡舍是不错啦，但是有点太慢了……\n混沌之地的材料可以用来制作更好（同时不那么卡顿）的鸡舍！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:mechanized_coop"
         }
       },
-      "name:8": "Life REALLY finds a way!"
+      "name:8": "生命真的自会找到出路！"
     }
   },
   "questID:3": 179,

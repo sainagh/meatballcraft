@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEvery Xnet system requires a controller, a connector for each inventory you want to interact with, and network cables to connect them.\n\nThe controller requires power, which should come from an external source (flux point my beloved). Do not power your Xnet controller with an Xnet connector, it will cause lag.\n\nFor conduits and ducts, each individual connection is handled independently. For Xnet, each connection to other inventories in handled by the controller GUI. \n\nAll inventories that have connectors and valid network cable connections will show up on the controller. You can double click an inventory to see its location in-world.\n\nA single Xnet setup can do up to 8 functions at the same time, described by 8 channels, corresponding to the columns in the GUI.\n\nEach channel can be configured to do:\n\nEnergy transfer: set individual inventories as energy inputs or outputs, useful for powering single-block machines that also need item automation.\n\nItem transfer: set individual inventories as inputs or outputs of specific filtered or general items; you can specify what sides to interact with for sided machines like furnaces.\n\nLogic (redstone): you can add sensors (produce redstone if chest has over X amount of item A); additionally, both item and energy channels can receive logic signals to turn on/off their function (move item B if receiving redstone signal); logic (redstone) channels can be colored as well to operate independently.\n\nFluid transfer: it\u0027s bugged, don\u0027t use it\n\nRFTools: combined with the storage interface from RFTools, you can make mini AE2 networks.\n\nComputerCraft Plethora: you can interact with computers.\n\n\n\n",
+      "desc:8": "§7§o每个Xnet网络都需要一个控制器，与想要进行交互的容器相连的若干连接器，以及连通连接器的网络线缆。\n\n控制器需要能量，可使用外部能量源供应（个人最喜欢通量接出点）。不要用控制器给控制器供能，会造成卡顿。\n\n对导管和管道而言，每个连接均为独立处理。对Xnet而言，每个连接至容器的连接都在控制器GUI中处理。\n\n所有与连接器连接，并且具备有效网络线缆连接的容器，都会在控制器中显示。双击界面中的容器以在世界中显示其位置。\n\n单个Xnet网络最多可有8种功能，或者说8个频道，对应控制器界面中的8列。\n\n每个频道都可配置为以下模式：\n\n能量传输（xnet.energy）：分别将每个容器设为能量输入或输出端，可用于为需要物品自动化的单方块机器供能。\n\n物品传输（xnet.item）：分别将每个容器设置为物品输入或输出端，可配置过滤选项；可指定互动的具体方向（仅限高级连接器），对像熔炉这样的机器十分有用。\n\n逻辑（红石）（xnet.logic）：可添加传感器（Sensor，箱子中A物品超过X数量时发出红石信号）；此外，物品和能量频道都可接收逻辑信号来控制功能开关（接收到红石信号时移动B物品）；逻辑（红石）频道可配置颜色来独立工作。\n\n流体传输（xnet.fluid）：有bug，不要使用\n\nRFTools（rftools.storage）：: 与RFTools的存储接口类方块（例如存储检测器）组合来制作青春版AE2网络。\n\n电脑外设（plethora.cc）：可与电脑交互。\n\n\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "xnet:controller"
       },
-      "name:8": "Controller"
+      "name:8": "控制器"
     }
   },
   "questID:3": 90110,

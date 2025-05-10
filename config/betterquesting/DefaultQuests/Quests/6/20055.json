@@ -5,14 +5,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Reliquary mod is focused on magic originating from dead creatures.\n\nIt provides useful resource generation, and a potion-making system.",
+      "desc:8": "§7§o圣遗物模组专注于源自亡灵生物的魔法。\n\n提供了实用的资源再生和药水酿造系统。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Reliquary"
+      "name:8": "圣遗物"
     }
   },
   "questID:3": 20055,

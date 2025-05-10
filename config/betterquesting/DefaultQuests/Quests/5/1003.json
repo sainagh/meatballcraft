@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThese are all of the hive blocks that can be found in-world. From these, you will be able to obtain all other bees!\n\nClicking on each hive will tell you where to find them, and what bees they will drop!",
+      "desc:8": "§7§o这里列出了所有可在世界中发现的蜂巢方块。以这些为起点，你将能够获得所有其他蜜蜂！\n\n点击这些蜂巢，可从JEI中得知该在哪里寻找它们，以及会有什么掉落物！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "forestry:beehives"
       },
-      "name:8": "Starter Bees"
+      "name:8": "初始蜜蜂"
     }
   },
   "questID:3": 1003,

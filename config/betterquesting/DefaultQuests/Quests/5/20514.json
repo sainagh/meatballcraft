@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe plant sower is used to plant up to 9 different types of plants.\nThe gatherer can automatically harvest plants, producing sludge as a byproduct.",
+      "desc:8": "§7§o植物播种机可种植至多9种不同种类的植物。\n植物收割机可自动收获植物，并产出副产物污泥。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:crop_sower"
       },
-      "name:8": "Industrial Farming"
+      "name:8": "工业种植"
     }
   },
   "questID:3": 20514,

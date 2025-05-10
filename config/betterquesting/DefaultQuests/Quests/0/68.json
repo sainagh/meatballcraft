@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWelcome to chapter 2!\n\n§7§oThe magical mastery tab will provide info on how to progress through each magic mod!\n\n§fYES! Mana was indeed the key to more power! Now I can build even better and more powerful machines.",
+      "desc:8": "§7§o欢迎来到第2章！\n\n§7§o魔法精通标签页中提供了每种魔法模组的流程信息！\n\n§f果然！魔力确实是提升力量的关键！现在我能制作更强力的机器了！",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extendedcrafting:table_elite"
       },
       "ismain:1": 1,
-      "name:8": "Breakthrough"
+      "name:8": "突破"
     }
   },
   "questID:3": 68,
@@ -30,11 +30,11 @@
           "tag:10": {
             "author:8": "Meatballcraft",
             "pages:9": {
-              "0:8": "{\"text\":\"Because of the amount of exploration in this modpack, the file size of world files can get quite large.\\nTo make you backups smaller and faster, you can use the AromaBackup config (found in config \\u003e aroma1997 \\u003e aromabackup.cfg).\\nIf you set\\nuseWhitelist \\u003d true\\nyou can specify a list of dimensions that will be backed up, and the rest will be ignored, keeping files smaller, and faster to generate.\\nSEE NEXT PAGE\"}",
-              "1:8": "{\"text\":\"The whitelist field will let you select the list of dimensions to backup.\\nIf no changes are made, and the useWhitelist flag is toggled, the backup will include the Overworld, the Nether, the End, and the Void (0, -1, 1, 43).\"}"
+              "0:8": "{\"text\":\"由于本整合包中大量的探索内容，存档文件可能会变得非常大。\\n要使备份更快，体积更小，可使用AromaBackup的配置文件（路径：config\\u003earoma1997\\u003earomabackup.cfg）。\\n若将useWhitelist设置为true，可指定仅备份特定维度，其余的维度将被忽略，从而让备份文件更小，备份生成速度更快。\\n查看下一页\"}",
+              "1:8": "{\"text\":\"可在whitelist中选择备份特定维度。\\n若仅启用useWhitelist，不对whitelist做修改，备份会默认包括主世界、下界、末地和虚空世界（维度ID为0、-1、1、43）。\"}"
             },
             "resolved:1": 1,
-            "title:8": "Smart Backups"
+            "title:8": "智能备份"
           }
         }
       }

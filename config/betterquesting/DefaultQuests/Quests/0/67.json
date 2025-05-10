@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe §cMagical Mastery §7§otab has info on how to use projectE!\n\n§fMana appears to have a \u0027memory\u0027 for alchemical power, meaning that I can use it to create all remembered items at will.",
+      "desc:8": "§7§o§c魔法精通§7§o标签页中有如何使用等价交换模组的相关信息！\n\n§f魔力似乎对炼金能量存在某种“记忆”，这意味着我能够随心所欲地复现所有已记录的物品。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectex:stone_table"
       },
-      "name:8": "On the Medieval vibes"
+      "name:8": "中世纪氛围"
     }
   },
   "questID:3": 67,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oConsumes snow golems to make mana",
+      "desc:8": "§7§o消耗雪傀儡产生魔力",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "edelweiss"
         }
       },
-      "name:8": "Edelweiss (OK)"
+      "name:8": "雪绒花（一般）"
     }
   },
   "questID:3": 790,

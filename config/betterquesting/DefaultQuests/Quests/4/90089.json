@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRequires ajacent blocks to be water to work faster!",
+      "desc:8": "§7§o需要与水源方块相邻放置以提升速度！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermalexpansion:device",
@@ -22,7 +22,7 @@
           ]
         }
       },
-      "name:8": "Aqueous Accumulator"
+      "name:8": "蓄水器"
     }
   },
   "questID:3": 90089,

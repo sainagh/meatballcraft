@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Above water water wheel?",
+      "desc:8": "不用水的水车？",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "immersiveengineering:wooden_device1"
       },
-      "name:8": "Windmill"
+      "name:8": "风车"
     }
   },
   "questID:3": 50167,

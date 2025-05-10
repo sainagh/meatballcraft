@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 157\nMining Level: Iron\nMining Speed: 11\nAttack: 3.5\nHoly\nLightweight\n\nHandle\nModifier: 1\nDurability: 49\nLightweight\n\nExtra\nDurability: 7\nLightweight\n\nBows\nDrawspeed: 2\nRange Multiplier: 2\nBonus Damage: 3.5\nHoly\nLightweight",
+      "desc:8": "顶端\n耐久：157\n挖掘等级：铁\n挖掘速度：11\n攻击力：3.5\n神圣\n轻便\n\n手柄\n手柄系数：1\n耐久：49\n轻便\n\n其它部件\n耐久：7\n轻便\n\n弓\n拉弓速度：2\n范围系数：2\n附加伤害：3.5\n神圣\n轻便",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "magnesium"
         }
       },
-      "name:8": "Magnesium"
+      "name:8": "镁"
     }
   },
   "questID:3": 201113,

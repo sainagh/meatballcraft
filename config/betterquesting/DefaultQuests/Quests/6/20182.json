@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oObtained by using a salis mundus on a crafting table, this is the workbench of thaumic arts.",
+      "desc:8": "§7§o对工作台使用世界盐获得，它是神秘魔法的工作台。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:arcane_workbench"
       },
-      "name:8": "Arcane Workbench"
+      "name:8": "奥术工作台"
     }
   },
   "questID:3": 20182,

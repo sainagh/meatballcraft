@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace the crystal ball near a witch\u0027s altar.\n\nRight clicking it will consume 500 ME from the altar, and give you buffs!",
+      "desc:8": "§7§o将水晶球放置在女巫祭坛周围。\n\n右击将会从祭坛处消耗500ME，给予玩家正面状态效果！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:crystal_ball"
       },
-      "name:8": "Crystal Ball"
+      "name:8": "水晶球"
     }
   },
   "questID:3": 20343,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis multiblock produces flux, so make sure you have ways to clear it up if you automate it!\n\nRight click the structure with salis mundus to form the furnace from the multiblock preview!\n\nDrop items from the top to smelt them, meats have a chance of producing meat nuggets.",
+      "desc:8": "§7§o该多方块会产出咒波，想自动化的话请确保有清除咒波的手段！\n\n使用世界盐右击结构来使熔炉成型，在JEI中查看结构预览！\n\n从上方丢入物品来进行烧炼，肉有概率产出额外肉粒。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:infernal_furnace"
       },
-      "name:8": "Infernal Furnace"
+      "name:8": "炼狱熔炉"
     }
   },
   "questID:3": 20655,

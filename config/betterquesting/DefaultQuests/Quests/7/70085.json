@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound below Y\u003d32 in Forest Biomes, and as a chance drop from Advent of Ascension ores.\n\nAll ore is found below Y\u003d32. Specific gemstones are found in their own biome.",
+      "desc:8": "§7§o发现于森林类群系Y\u003d32以下，虚无世界模组矿物有概率掉落。\n\n所有这类矿物均发现于Y\u003d32以下。特定宝石矿可发现于对应的生物群系中。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 7,
         "id:8": "biomesoplenty:gem"
       },
-      "name:8": "Amber"
+      "name:8": "琥珀"
     }
   },
   "questID:3": 70085,

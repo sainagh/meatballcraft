@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can use the scanner modules in the rewards to locate the dungeons more easily.\n§f\nAstral magic is so cool, yet, many of its users do not share my intents for liberation...\nA group of testificates, long ago, has taken over some sky islands within Terra\u0027s atmosphere to experiment with artificial life.\nBecause of their crimes, Testificate history has decided to forget about them...\nUnfortunately, the product of their work is still very much alive and dangerous.",
+      "desc:8": "§7§o可使用奖励中的扫描模块来更方便地定位地牢。\n§f\n星辉魔法真是玄妙，可惜其研习者多与我的解放理想背道而驰……\n远古时期，有一伙泰斯提斐人曾占据泰拉大气内的空岛，进行人工生命实验。\n因其罪行，泰斯提斐人的历史将其刻意遗忘……\n不幸的是，他们的造物至今仍活跃于世且极度危险。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aether_legacy:skyroot_bucket"
       },
-      "name:8": "Warriors of the lower sky!"
+      "name:8": "低空勇士！"
     }
   },
   "questID:3": 199,

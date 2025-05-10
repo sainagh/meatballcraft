@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Four display stands, placed around the empowerer two blocks away.",
+      "desc:8": "需要4个物品展示台，与充能台间隔两格距离放置。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_empowerer"
       },
-      "name:8": "Empowerer"
+      "name:8": "充能台"
     }
   },
   "questID:3": 20574,

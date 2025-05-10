@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSpectral relays can be used to boost the starlight if placed around an altar. \n\nYou need to build a 3x3 structure with sooty marble in the middle, chiseled marble in the corners, marble arches in the edges. Place the relay on the sooty marble.\n\nIf multiple of these structures are too close together, they will actually lower the starlight level.",
+      "desc:8": "§7§o若放置在祭坛周围，星辉转继器可增强星能。\n\n你需要搭建一个 3x3结构：中央为炭黑大理石，四角为錾制大理石，边缘为大理石横梁。将星辉转继器放在炭黑大理石上。\n\n若多个此类结构距离过近，反而会削弱星能强度。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:blockattunementrelay"
       },
-      "name:8": "Spectral Relay"
+      "name:8": "星辉转继器"
     }
   },
   "questID:3": 20110,

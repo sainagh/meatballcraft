@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDo this at your own risk...\n\n§fThe realization that magic is real changes everything, and it seems like I can use it to serve my manufacturing needs.\nThis will require some experimentation...\nAfter extensive observation on mythic remains, and thanks to the branches of magic I am now adept to, I was able to \u0027understand\u0027 mythic powers.\nWell \u0027understanding\u0027 is a strong word, but it \u0027makes sense\u0027.\nThe power of \u0027gods\u0027, beings that are able to subject reality itself to their control, those that can originate magic that I would define as mythic, seems to be \u0027guiding\u0027 the Horde and the Empire.\nThis power has no bounds, I cannot imagine what beings able to wield it may look like.\nI am still a long ways away from that, but I have all the time in the world, and enough natural adeptness to magic (am I being too cocky?) to delve deeper into these phenomena.",
+      "desc:8": "§7§o风险自负……\n\n§f意识到魔法真实存在后，一切都被颠覆了。看来我也可以利用魔法来满足制造需求。\n不过这需要一些实验和探索……\n经过对神话残留物的长期观察，加上如今掌握的魔法分支体系，我终于得以“理解”神话力量的本质。\n说是“理解”虽然有点夸张，但是多少“说得通”。\n“神明”这种能操控现实本身、缔造所谓神话魔法的存在，其力量似乎正在暗中“引导”着部落与帝国。\n这种力量没有边界，我根本无法想象掌控它的生灵会是何等存在。\n虽然离那个境界还差得远，但我拥有无限的时间，以及对魔法足够的天赋（是不是太自大了？），足以继续深入探究这些现象。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:controller_manual"
       },
-      "name:8": "Connecting the dots"
+      "name:8": "串联线索"
     }
   },
   "questID:3": 71,

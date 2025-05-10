@@ -9,12 +9,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oReduces mana cost, and is repaired at the cost of mana.",
+      "desc:8": "§7§o降低魔力消耗，可消耗魔力修复耐久。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrabotany:cosmeticmaidchest"
       },
-      "name:8": "Starry Idol"
+      "name:8": "星空歌姬"
     }
   },
   "questID:3": 1821,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUsing a quantum quarry is optional, but it may be good depending on your situation!\n\nThe quantum quarry produces ground drops from a hypothetical dimension, thus limiting the environmental impact of quarrying.\nSpecific biomes can be configured in the multiblock to target particular minerals or ground materials.",
+      "desc:8": "§7§o量子采石场是可选项，根据情况也可能挺好用！\n\n量子采石场通过从假设维度提取地表矿产物，从而减少对现实环境生态的影响。\n通过配置特定生物群系，可定向采集目标矿物或地表材料。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:quarry"
       },
-      "name:8": "Quantum Quarry"
+      "name:8": "量子采石场"
     }
   },
   "questID:3": 20472,

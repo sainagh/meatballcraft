@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe powerstone trackers work like eyes of ender, and will lead you to the dreadlands powerstone.\n\nThe powerstone is quite hard to find, use the scanner to help yourself out!",
+      "desc:8": "§7§o蕴能石追踪器与末影之眼类似，可引导你寻找恐惧之地蕴能石。\n\n蕴能石不容易找到，使用任务书中的扫描模块帮助寻找！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:powerstonetracker"
       },
-      "name:8": "Powerstone Tracker"
+      "name:8": "蕴能石追踪器"
     }
   },
   "questID:3": 20140,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Gold Dimensional Door works like its iron counterpart, but the pocket resulting dimension will remain chunkloaded.",
+      "desc:8": "§7§o金质维度门与铁质的类似，但是其创建的口袋维度会保持区块加载。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "dimdoors:gold_dimensional_door"
       },
-      "name:8": "Loaded Pocket Dimension"
+      "name:8": "常加载的口袋维度"
     }
   },
   "questID:3": 2282,

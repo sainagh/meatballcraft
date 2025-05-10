@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oOut of the infinite energy cables, these are the best for preventing lag!",
+      "desc:8": "§7§在无限传输线缆中，这种管道最能避免卡顿！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "thermaldynamics:duct_0"
       },
-      "name:8": "Cryo-Stabilized Fluxduct"
+      "name:8": "凛冰固化能量管道"
     }
   },
   "questID:3": 90290,

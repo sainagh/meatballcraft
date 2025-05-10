@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "For the sake of organization, I started building \u0027drawers\u0027 that can hold a lot of a single item. I don\u0027t know what it is, but I have a feeling I will need these eventually...",
+      "desc:8": "为了便于管理，我开始建造能够存储大量同种物品的“抽屉”。尽管不知道这是什么，但我总感觉会需要它的……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "storagedrawers:basicdrawers",
@@ -12,7 +12,7 @@
           "material:8": "oak"
         }
       },
-      "name:8": "Compact Storage"
+      "name:8": "致密存储"
     }
   },
   "questID:3": 44,

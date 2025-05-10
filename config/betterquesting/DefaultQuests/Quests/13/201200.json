@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 450\nMining Level: Obsidian\nMining Speed: 9.04\nAttack: 8.01\nPsi Repair\n\nHandle\nModifier: 1.12\nDurability: 140\nPsi Repair\n\nExtra\nDurability: 80\nPsi Repair\n\nBows\nDrawspeed: 0.69\nRange Multiplier: 1.26\nBonus Damage: 5\nPsi Repair",
+      "desc:8": "顶端\n耐久：450\n挖掘等级：黑曜石\n挖掘速度：9.04\n攻击力：8.01\nPsi修复\n\n手柄\n手柄系数：1.12\n耐久：140\nPsi修复\n\n其它部件\n耐久：80\nPsi修复\n\n弓\n拉弓速度：0.69\n范围系数：1.26\n附加伤害：5\nPsi修复",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "psi"
         }
       },
-      "name:8": "Psimetal "
+      "name:8": "Psi金属"
     }
   },
   "questID:3": 201200,

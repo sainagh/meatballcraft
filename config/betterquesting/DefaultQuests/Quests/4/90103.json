@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFor long term, the draconic energy orb is the best option, and it is craftable in chapter 2.\n\nUntil then, large stacks of vibrant capacitor banks will do the trick!",
+      "desc:8": "§7§o长远来看，神龙能量核心是最佳方案，并且在第2章便可制作。\n\n在那之前，大量脉冲电容库也很不错！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Energy Storage"
+      "name:8": "能量存储"
     }
   },
   "questID:3": 90103,

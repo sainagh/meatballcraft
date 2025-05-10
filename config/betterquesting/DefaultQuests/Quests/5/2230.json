@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe excavator is used to produce infinite amounts of ores from Immersive Engineering veins. These are not like normal ore veins, and they do not exist in-world. Each chunk has one vein.\n\nTo identify a vein, place a core sample drill into a chunk, give it power, and right click it to start it. It will produce a core sample, with the name of the ore vein and fluid vein in that chunk.\n\nTo mine the ore vein vein, build the Excavator multiblocks in the corresponding chunk. \n\nSome ores can only be mined using excavators, and cannot be found in-world.\n\n",
+      "desc:8": "§7§o斗轮式挖掘机可从沉浸工程模组的矿床中无限产出矿物。与正常矿脉不同，矿床并不实际存在于世界中。每个区块有20%概率生成矿脉。\n\n要鉴别矿床，在区块中放置岩芯钻井，输入能量后右击启动。钻井会生成岩芯样本，能显示该区块内的矿床和油藏名称。\n\n在对应区块内建造斗轮式挖掘机多方块来开采矿床。\n\n部分矿物不在世界中生成，只能通过斗轮式挖掘机获取。\n\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 7,
         "id:8": "immersiveengineering:metal_device1"
       },
-      "name:8": "Excavation"
+      "name:8": "挖掘"
     }
   },
   "questID:3": 2230,

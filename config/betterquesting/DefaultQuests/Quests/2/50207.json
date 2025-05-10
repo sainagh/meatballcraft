@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "All dynamos can be upgraded into steam, which in return can be used on extreme turbines...",
+      "desc:8": "该升级适用于所有能源炉以产出蒸汽，用于极限涡轮机……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 576,
         "id:8": "thermalexpansion:augment"
       },
-      "name:8": "Augment: Boiler Conversion (Good)"
+      "name:8": "升级：蒸汽锅炉转化（良好）"
     }
   },
   "questID:3": 50207,

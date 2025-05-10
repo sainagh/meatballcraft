@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace below a blood altar and above a woot farm to fill the blood altar using the woot kills.",
+      "desc:8": "§7§o放置在血之祭坛下方，Woot刷怪场上方，通过Woot击杀的生物来为血之祭坛填充LP！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Mechanical Altar"
+      "name:8": "机械祭坛"
     }
   },
   "questID:3": 843,

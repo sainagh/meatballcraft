@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMore info about deep mob learning is found on §cbook of creation\n\n§fI may have a problem, the ability to manipulate souls is so freaking useful!\nI have no remorse for what I am doing, but I feel like I should...",
+      "desc:8": "§7§o更多关于深度怪物学习模组的信息可在§c创造之书§r中查看\n\n§f我遇到了个问题：这种操纵灵魂的能力太他*的好用了！\n我对自己的所作所为毫无悔意，虽然我觉得我该有……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "deepmoblearning:simulation_chamber"
       },
-      "name:8": "Digital Dismemberment"
+      "name:8": "数字化肢解"
     }
   },
   "questID:3": 91,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Wow, literally nobody living on Terra is actually from Terra.\nDimensional shards are desired by everything that becomes aware of them, it seems...\nAnd apparently, bugs with mastery of witchery used it to create wormholes and fight for a piece of the pie.\nAnd now I think I know how they did it, and I may be able to travel back to their world...",
+      "desc:8": "哇哦，看来泰拉上根本没有真正的原住民。\n维度碎片似乎会被所有知晓其存在的存在觊觎……\n显然，掌握巫术的虫子曾制造虫洞，为分一杯羹而战。\n现在我想我知晓了它们的做法，或许能借此重返它们的世界……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "erebus:gaean_keystone"
       },
-      "name:8": "Arthropods are here too!"
+      "name:8": "节肢动物也干了！"
     }
   },
   "questID:3": 197,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Having access to a universe-spanning civilization sure has its perks. At some point in their history, the bees had worked with the Arbiter, the guardian deity of Terra, on a magic tree, capable of partially harnessing the power of infinite energy.\nThe catalyst to activate it? A chicken!",
+      "desc:8": "与横跨宇宙的文明合作确实有益处。在过去，蜜蜂曾与理序主——泰拉的守护神——共同培育了一颗能有限利用无限能量的魔法树。\n而激活它的催化剂？竟然是一只鸡！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:innerved_sky_stone"
       },
-      "name:8": "The Tree of Life"
+      "name:8": "生命之树"
     }
   },
   "questID:3": 214,

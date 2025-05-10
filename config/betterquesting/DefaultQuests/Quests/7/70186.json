@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCreated from a Tier 4 Void Ore Miner.",
+      "desc:8": "§7§o4级虚空矿物采掘机产出。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "environmentaltech:ionite_crystal"
       },
-      "name:8": "Ionite Crystal"
+      "name:8": "爱恩尼水晶"
     }
   },
   "questID:3": 70186,

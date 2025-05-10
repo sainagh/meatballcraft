@@ -92,3 +92,63 @@ forgewyvhal1.setChance(0.0);
 forgewyvhal1.addItemInput(<ore:ingotFractalliteHalite>);
 forgewyvhal1.addFluidOutput(<fluid:fractallite_halite>*144);
 forgewyvhal1.build();
+
+
+val forgewyvactual1 = RecipeBuilder.newBuilder("forgewyvactual1","forge_of_the_wyvern",2);
+forgewyvactual1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvactual1.setChance(0.0);
+forgewyvactual1.addItemInput(<contenttweaker:actualization_of_balance>);
+forgewyvactual1.addFluidOutput(<fluid:actualization_balance>*10);
+forgewyvactual1.build();
+
+val forgewyvactual2 = RecipeBuilder.newBuilder("forgewyvactual2","forge_of_the_wyvern",2);
+forgewyvactual2.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvactual2.setChance(0.0);
+forgewyvactual2.addItemInput(<contenttweaker:actualization_of_hope>);
+forgewyvactual2.addFluidOutput(<fluid:actualization_hope>*10);
+forgewyvactual2.build();
+
+val forgewyvactual3 = RecipeBuilder.newBuilder("forgewyvactual3","forge_of_the_wyvern",2);
+forgewyvactual3.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvactual3.setChance(0.0);
+forgewyvactual3.addItemInput(<contenttweaker:actualization_of_knowledge>);
+forgewyvactual3.addFluidOutput(<fluid:actualization_knowledge>*10);
+forgewyvactual3.build();
+
+val forgewyvactual4 = RecipeBuilder.newBuilder("forgewyvactual4","forge_of_the_wyvern",2);
+forgewyvactual4.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvactual4.setChance(0.0);
+forgewyvactual4.addItemInput(<contenttweaker:actualization_of_glory>);
+forgewyvactual4.addFluidOutput(<fluid:actualization_glory>*10);
+forgewyvactual4.build();
+
+
+val forgewyvparafrosy = RecipeBuilder.newBuilder("forgewyvparafrosy","forge_of_the_wyvern",2);
+forgewyvparafrosy.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvparafrosy.setChance(0.0);
+forgewyvparafrosy.addItemInput(<contenttweaker:parafrosynium>);
+forgewyvparafrosy.addFluidOutput(<fluid:parafrosynium>*144);
+forgewyvparafrosy.build();
+
+val forgewyvhihiiro = RecipeBuilder.newBuilder("forgewyvhihiiro","forge_of_the_wyvern",2);
+forgewyvhihiiro.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvhihiiro.setChance(0.0);
+forgewyvhihiiro.addItemInput(<contenttweaker:hihi_irokane>);
+forgewyvhihiiro.addFluidOutput(<fluid:hihi_irokane>*144);
+forgewyvhihiiro.build();
+
+val forgewyvichor = RecipeBuilder.newBuilder("forgewyvichor","forge_of_the_wyvern",2);
+forgewyvichor.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvichor.setChance(0.0);
+forgewyvichor.addItemInput(<contenttweaker:ichorium_gem>);
+forgewyvichor.addFluidOutput(<fluid:crystalline_ichorium>*144);
+forgewyvichor.build();
+
+val forgewyvorichalc = RecipeBuilder.newBuilder("forgewyvorichalc","forge_of_the_wyvern",2);
+forgewyvorichalc.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvorichalc.setChance(0.0);
+forgewyvorichalc.addItemInput(<contenttweaker:orichalcum>);
+forgewyvorichalc.addFluidOutput(<fluid:orichalcum>*144);
+forgewyvorichalc.build();
+
+

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound between Y\u003d5 and Y\u003d21",
+      "desc:8": "§7§o发现于Y\u003d5与Y\u003d21之间",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:jade"
       },
-      "name:8": "Ascended Jade"
+      "name:8": "[飞升]翡翠"
     }
   },
   "questID:3": 70068,

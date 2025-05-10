@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is the best way of automating a blood altar before deep mob evolution.\n\nPlace below the blood altar.\n\nMobs below the ritual will be killed to fill the blood altar.\n\nAny mob farms can be used to have an endless supply of LP.\n\nMax tier soul cages can be controlled with redstone, and are the fastest way to fuel this ritual.",
+      "desc:8": "§7§o深度怪物学习之前，血之祭坛的最佳自动化方案。\n\n放置在血之祭坛下方。\n\n会杀死仪式下方的生物来填充血之祭坛。\n\n可用任意刷怪场来无限供应LP。\n\n满级的灵魂笼可用红石控制，是为仪式供应生物的最快手段。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "bloodmagic:blood_rune"
       },
-      "name:8": "Ritual of Culling (Useful)"
+      "name:8": "剔除仪式（实用）"
     }
   },
   "questID:3": 842,

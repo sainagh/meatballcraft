@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While most of the materials are availible from the start, some of the following may need more effort and or luck to find then others.",
+      "desc:8": "虽然大部分材料一开始就能获得，但部分材料可能需要付出更多努力，或需要一些运气才能找到。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Materials (Chapter 1)"
+      "name:8": "材料（第1章）"
     }
   },
   "questID:3": 201127,

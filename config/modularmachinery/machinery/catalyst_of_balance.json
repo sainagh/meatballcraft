@@ -1,0 +1,294 @@
+{
+    "registryname": "catalyst_of_balance",
+    "localizedname": "Catalyst of Balance",
+	"color": "ffffff",
+    "parts": [
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_item"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:cuendillar_seal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:cuendillar_seal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:cuendillar_seal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:catalyst_of_balance@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:cuendillar_seal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:cuendillar_seal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:balanced_machine_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:cuendillar_seal@0"
+            ]
+        }
+    ]}

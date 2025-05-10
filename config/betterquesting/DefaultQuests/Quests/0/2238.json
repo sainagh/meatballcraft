@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe seared furnace uses lava to run, and can process multiple items in parallel.\n\nIt can be built out of any cubic shape, as long as the interior is empty, and the seared tank is located on a corner. The bigger, the more parallel recipes it can perform.\n\n§fHaving good bricks to build a furnace is also great for more mundane smelting tasks!",
+      "desc:8": "§7§o焦黑熔炉消耗熔岩进行工作，可并行处理多个物品。\n\n熔炉可以是任意尺寸的立方体，只要内部为空，控制器在侧面，储罐在边框即可。结构越大，可并行处理的配方就越多。\n\n§f这种用于建造冶炼炉的优质砖块，在日常烧炼方面也大有用途！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:seared_furnace_controller"
       },
-      "name:8": "Good Good Smelting (for now)"
+      "name:8": "好好炼（暂时）"
     }
   },
   "questID:3": 2238,

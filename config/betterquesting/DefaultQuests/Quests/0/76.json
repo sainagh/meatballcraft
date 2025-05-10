@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIf you haven\u0027t started already, you should start working on erodium!\n\n§fYellorium is great and all, but I need some more proper fission sources!\nAnd something tells me that using fission to generate compounds that are not as easy to find should make things better in the long run.",
+      "desc:8": "§7§o如果还没开始发展环境科技，现在就应该获取艾洛蒂水晶！\n\n§f黄铀固然好，但我急需更专业的裂变原料！\n直觉告诉我，通过裂变生成那些难以自然获取的化合物，从长远来看更有利。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:fission_controller_new_idle"
       },
-      "name:8": "Proper Fission"
+      "name:8": "专业裂变"
     }
   },
   "questID:3": 76,

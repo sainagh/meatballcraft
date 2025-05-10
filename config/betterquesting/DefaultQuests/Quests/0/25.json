@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe more you run around, the higher the chance of speeding up!\n\nIf this is annoying, press the AoA keybing (DELETE by default) to open up the skill GUI, and click on theexpedition icon. This will change the speed bonus to either hunger replenishment, or anima replenishment.",
+      "desc:8": "§7§o跑得越多，获得加速的概率越高！\n\n如果觉得加速效果很烦人，按下虚无世界窗口按键（默认为DELETE键）打开技能GUI，点击远征技能图标。如此便可将速度提升奖励切换为饥饿值回复，或水下呼吸。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:opteryx_feather"
       },
-      "name:8": "Expedition Skill"
+      "name:8": "技能：远征"
     }
   },
   "questID:3": 25,

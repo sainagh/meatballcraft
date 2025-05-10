@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCrafted in the Dark Realm.",
+      "desc:8": "§7§o在黑暗领域制作。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:abyssalnomicon",
@@ -12,7 +12,7 @@
           "PotEnergy:5": 0.0
         }
       },
-      "name:8": "Abyssalnomicon"
+      "name:8": "深渊之书"
     }
   },
   "questID:3": 20126,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou should definitely do this!\n\nIf the wireless access point wasn\u0027t satisfying enough, try this. When inserted into a quantum link bridge, this will provide your wireless terminal with infinite range including across dimensions! \n\nThe wireless access point is no longer needed if you set this up.\n\nThanks to Fox for the help!",
+      "desc:8": "§7§o真得做这个！\n\n如果感觉无线访问节点的范围还是不够，试试这个。当放入量子网桥中时，可为无线终端提供跨维度的无限访问距离！\n\n有了这个就不需要无线访问节点了。\n\n感谢Fox提供的帮助！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 59,
         "id:8": "appliedenergistics2:material"
       },
-      "name:8": "Infinite Wireless Range"
+      "name:8": "无限无线范围"
     }
   },
   "questID:3": 673,

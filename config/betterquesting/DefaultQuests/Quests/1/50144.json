@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Just stop, it\u0027ll be BETTER for everyone!",
+      "desc:8": "打住吧，这对所有人都更好！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "thermalexpansion:reservoir",
         "tag:10": {}
       },
-      "name:8": "Reservoir (Resonant)"
+      "name:8": "贮液器 (谐振)"
     }
   },
   "questID:3": 50144,

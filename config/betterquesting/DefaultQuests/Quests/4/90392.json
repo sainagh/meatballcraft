@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oA better daylight sensor. Outputs signal during the day.",
+      "desc:8": "§7§o高级版的阳光传感器。输出信号随光照等级改变。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 15,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Light Sensor"
+      "name:8": "光照传感器"
     }
   },
   "questID:3": 90392,

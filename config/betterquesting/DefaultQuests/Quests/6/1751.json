@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWarp is a mechanic used in both thaumcraft and abyssalcraft.\n\nWarp is something that is directly connected to your player, and it is gained in a varity of ways:\n1. Eating brains\n2. Unlocking thaumcraft research\n3. Fighting mobs from abyssalcraft\n4. Exploring abyssalcraft dimensions\n\nWarp is checked using a sanity checker!\n\nIf your warp level is high, you will gain debuffs, and special mobs will start spawning around you.\n\nThere are three types of warp, temporary, sticky, and permanent.\nTemporary warp goes down over time, and is bright pink in the sanity checker.\nSticky warp needs sanityzing soap or warp cleansers to be removed, and is purple in the sanity checker.\nPermanent warp is only removed using the dreadlands and omothol warp cleansers, and is dark purple in the sanity checker.\n",
+      "desc:8": "§7§o扭曲是神秘时代和深渊国度的一种机制。\n\n扭曲与玩家直接相关，其来源有很多：\n1. 食用僵尸之脑\n2. 解锁特定神秘时代研究\n3. 与深渊国度的怪物战斗\n4. 探索深渊国度的维度\n\n可使用神志检测仪来查看扭曲值！\n\n若扭曲值过高，玩家会偶尔获得负面效果，周围有时会生成特定怪物。\n\n扭曲分为三种类型：临时、粘性和永久。\n临时扭曲会随时间自然减少，在神志检测仪中显示为亮粉红色。\n粘性扭曲需要用祛邪肥皂或扭曲净化符咒移除，在神志检测仪中显示为紫色。\n永久扭曲只能使用恐惧之地和奥穆索扭曲净化符咒移除，在神志检测仪中显示为深紫色。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:pure_warp"
       },
-      "name:8": "Warp Me!"
+      "name:8": "扭曲我！"
     }
   },
   "questID:3": 1751,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Labyrinth, Hollow Hill, and Dark Tower chests in the Twilight Forest.",
+      "desc:8": "§7§o发现于暮色森林牛头人迷宫、空心矿山和黑暗高塔的箱子内。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "twilightforest:steeleaf_ingot"
       },
-      "name:8": "Steeleaf"
+      "name:8": "钢叶"
     }
   },
   "questID:3": 70191,

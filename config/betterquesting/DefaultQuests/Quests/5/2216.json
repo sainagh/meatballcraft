@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAll these trees can be found in-world, or in loot chests.\n\nI won\u0027t tell you how, but there\u0027s an easy way to obtain all of these in chapter 2 ;)",
+      "desc:8": "§7§o所有这些树都可在世界或战利品箱中找到。\n\n我不会告诉你具体方法，但在第2章中，有方法能轻松获得所有这些树  ;)",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:sapling",
@@ -66,7 +66,7 @@
           "IsAnalyzed:1": 0
         }
       },
-      "name:8": "Basic Trees"
+      "name:8": "基础树木"
     }
   },
   "questID:3": 2216,

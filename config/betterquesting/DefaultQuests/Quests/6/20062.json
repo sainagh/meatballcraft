@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDrop the lexica botania in an elven gateway to unlock pages.",
+      "desc:8": "§7§o将植物魔法辞典丢入精灵门以解锁更多内容。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:lexicon",
@@ -15,7 +15,7 @@
           "knowledge.relic:1": 1
         }
       },
-      "name:8": "Elven Knowledge"
+      "name:8": "精灵知识"
     }
   },
   "questID:3": 20062,

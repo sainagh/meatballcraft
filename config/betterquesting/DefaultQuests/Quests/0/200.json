@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is the start of Thaumcraft, see more in §cMagical Mastery§7§o.\n\n§fJust like magnetism and gravity, the laws of nature allow for the existence of other \u0027fields\u0027, and some of them, vis and flux, hold magical properties.\nMany of the beings I have met on Terra seem to be able to use either of the two. I\u0027ve yet to fully figure out the nature of these fields, but they can be used for a variety of purposes, both constructive and destructive.",
+      "desc:8": "§7§o这是神秘时代模组的起点，，更多信息请查看§c魔法精通§7§o\n\n§f正如磁力与引力，自然法则允许其他“场域”的存在，其中魔力场（vis）与咒波场（flux）蕴含着魔法特性。\n我在泰拉遇见的诸多存在似乎都能驾驭这两种能量。虽未完全参透其本质，但它们既能用于创造，亦可带来毁灭。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:arcane_workbench"
       },
-      "name:8": "Good or Evil?"
+      "name:8": "善或恶？"
     }
   },
   "questID:3": 200,

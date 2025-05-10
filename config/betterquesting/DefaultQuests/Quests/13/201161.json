@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 690\nMining Level: Obsidian\nMining Speed: 6\nAttack: 6\nNature\u0027s Power\n\nHandle\nModifier: 0.8\nDurability: 70\nNature\u0027s Power\n\nExtra\nDurability: 65\nNature\u0027s Power\n\nBows\nDrawspeed: 2.5\nRange Multiplier: 1.4\nBonus Damage: 7\nNature\u0027s Power",
+      "desc:8": "顶端\n耐久：690\n挖掘等级：黑曜石\n挖掘速度：6\n攻击力：6\n自然之力\n\n手柄\n手柄系数：0.8\n耐久：70\n自然之力\n\n其它部件\n耐久：65\n自然之力\n\n弓\n拉弓速度：2.5\n范围系数：1.4\n附加伤害：7\n自然之力",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "topaz"
         }
       },
-      "name:8": "Topaz"
+      "name:8": "黄玉"
     }
   },
   "questID:3": 201161,

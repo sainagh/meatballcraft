@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Some of my previous experiments have allowed me to use now partially-known shyre powers to generate organic matter from weak shyre creatures, but the powers from advanced blood magic should greatly boost my abilities.\nThis form of magic, that I like to call mythic, holds a power of creation similar to alchemy, but it\u0027s more tricky to manage.\nAgain, another link, another interaction, the creation of mythic magic directly interacts with the powers of blood alchemy.\nIf I theory of fields is possible for atomic forces, why not do the same for magic?",
+      "desc:8": "先前的实验让我得以运用如今略窥门径的塞尔瑞之力，生成低级夏尔生物体内的有机物质，但高阶血魔法蕴含的能量必将使这项能力突飞猛进。\n这种我称之为“神话”的技艺，虽具有与炼金术相似的创造之力，但运作机理更为诡谲。\n又一个关联，神话魔法的创造竟能与血之炼金术产生直接共鸣。\n既然原子力可用场论诠释，为何不能以同等范式解构魔法？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier4"
         }
       },
-      "name:8": "Terragenic Mythical Resources"
+      "name:8": "泰拉种神话资源"
     }
   },
   "questID:3": 151,

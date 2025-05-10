@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou should not need this, the mutatron is better!",
+      "desc:8": "§7§o你大概不需要这个，诱变机更好！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "magicbees:frames.metabolic"
       },
-      "name:8": "Easier to Breed Bees"
+      "name:8": "育种更便利"
     }
   },
   "questID:3": 1224,

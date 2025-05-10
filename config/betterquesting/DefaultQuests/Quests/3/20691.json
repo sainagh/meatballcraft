@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFor some of your processor-making needs.\n\nIt can only make one at a time. Consider upgrading to the advanced inscriber, and to the processor clean room!\n\nRequires energy from an AE network. Early on, you can use an energy acceptor with a few cables!",
+      "desc:8": "§7§o用于制作处理器。\n\n一次只能接收一个输入原料。后续应升级为高级压印器，然后是超净间加工机！\n\n需要来自AE网络的能量。初始可使用能源接收器和一些线缆！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:inscriber"
       },
-      "name:8": "Inscriber"
+      "name:8": "压印器"
     }
   },
   "questID:3": 20691,

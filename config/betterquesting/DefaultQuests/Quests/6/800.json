@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFeeds players at the cost of LP.",
+      "desc:8": "§7§o消耗LP喂食玩家。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Satiated Stomach"
+      "name:8": "盛宴之歌"
     }
   },
   "questID:3": 800,

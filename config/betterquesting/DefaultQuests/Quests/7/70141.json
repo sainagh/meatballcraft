@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMay be dropped by The Sunstorm.\nBunnies and Eden Cadillion drop Eden Souls which can be used to make these fragments.\nFound in the Eden Dimension from DivineRPG.\nFound anywhere with stone.\nAlthough the ore is rainbow, the gem is red.\n\n- Written by Bluecat",
+      "desc:8": "§7§o太阳风暴可能会掉落。\n可使用兔子和伊甸独角兽掉落的伊甸之魂制作碎片。\n发现于神圣RPG模组的伊甸维度。\n有石头的地方就会生成。\n虽然矿石是彩色，但碎片却是红色的。\n\n- Bluecat撰写",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:eden_fragments"

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse an extraction device to obtain drops from lava!\n\n§fSome magic pertains to life, some with interaction, and this one pertains to using a tool. Still, all of these seem to share a common factor, creation.",
+      "desc:8": "§7§o使用萃取装置来从熔岩中获得物品！\n\n§f有些魔法与生命相关，有些则与交互相关，而这种魔法则与某种工具的使用有关。不过，所有这些似乎都有一个共同因素：创造。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:lava_bucket"
       },
-      "name:8": "Extraction Skill"
+      "name:8": "技能：精炼"
     }
   },
   "questID:3": 24,

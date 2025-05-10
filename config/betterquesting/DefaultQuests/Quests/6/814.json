@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSlowly drains LP to grant creative flight around the ritual.",
+      "desc:8": "§7§o缓慢消耗LP在仪式周围获得创造飞行能力。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Reverence of the Condor"
+      "name:8": "崇敬之鹰"
     }
   },
   "questID:3": 814,

@@ -47,7 +47,7 @@
         "mods":
         {
             "text" : "fml.menu.mods",
-            "hoverText" : "Powered by AoA",
+            "hoverText" : "AoA为主框架",
             "posX" : -100,
             "posY" : 96,
             "width" : 200,
@@ -62,7 +62,7 @@
         "options":
         {
             "text" : "menu.options",
-            "hoverText" : "Check keybinds!",
+            "hoverText" : "查看按键绑定！",
             "posX" : -100,
             "posY" : 144,
             "width" : 98,
@@ -76,8 +76,8 @@
         
         "performance":
         {
-            "text" : "Improve Performance",
-            "hoverText" : "Faster load times!",
+            "text" : "改进性能",
+            "hoverText" : "加载速度更快！",
             "posX" : -100,
             "posY" : 192,
             "width" : 200,
@@ -85,14 +85,14 @@
             "action" : 
             {
                 "type": "openLink",
-                "link": "https://github.com/sainagh/meatballcraft/wiki/%5B0.17.0%5D-Improving-Performance"
+                "link": "https://github.com/sainagh/meatballcraft/wiki/%5B0.18%5D-Improving-Performance"
             }
         },
         
         "quit":
         {
             "text" : "menu.quit",
-            "hoverText" : "See ya!",
+            "hoverText" : "再见！",
             "posX" : 2,
             "posY" : 144,
             "width" : 98,
@@ -136,7 +136,7 @@
         "discord":
         {
             "text" : "Discord",
-            "hoverText" : "Join the meatballs!",
+            "hoverText" : "加入肉丸！",
             "posX" : -100,
             "posY" : 120,
             "width" : 200,
@@ -152,8 +152,8 @@
     {
         "mojang":
         {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "�nCopyright Mojang AB. Do not distribute!",
+            "text" : "© Mojang AB 请勿二次分发！",
+            "hoverText" : "�n© Mojang AB 请勿二次分发！",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -166,8 +166,8 @@
         },
         "soundtrack":
         {
-            "text" : "Soundtrack:\n It's not over - Darren Curtis Music",
-            "hoverText" : "Soundtrack:\n AhAhAhAHAHH",
+            "text" : "配乐：\n It's not over - Darren Curtis Music",
+            "hoverText" : "配乐：\n AhAhAhAHAHH",
             "posX" : -197,
             "posY" : -30,
             "color" : -1,

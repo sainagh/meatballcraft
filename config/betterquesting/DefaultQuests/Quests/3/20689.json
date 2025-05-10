@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This bad boy can turn extended crafting tables into one-recipe crafters.\nUseful for passive automation, just in case...",
+      "desc:8": "这机器可将拓展工作台变为为单一配方的合成器。\n适用于被动自动化生产，以防万一……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extendedcrafting:interface"
       },
-      "name:8": "Automation Interface"
+      "name:8": "自动化接口"
     }
   },
   "questID:3": 20689,

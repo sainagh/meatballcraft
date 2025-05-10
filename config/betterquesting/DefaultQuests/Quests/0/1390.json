@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis version of minecraft has a weird bug where your player may experience an endless death animation.\n\nTo fix it, use this quest reward.\n\nThis quest is repeatable, so you can get the reward every time you get stuck!",
+      "desc:8": "§7§o该版本的Minecraft有个奇怪的bug，玩家死亡时可能会进入无止境的死亡动画。\n\n使用本任务奖励来摆脱这个bug。\n\n本任务可重复完成，所以每次卡住的时候直接来拿奖励就行！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:deathloop"
       },
-      "name:8": "Stuck in a Deathloop",
+      "name:8": "困于死亡循环",
       "repeattime:3": 10000
     }
   },

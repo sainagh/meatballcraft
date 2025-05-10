@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can right click these to discover spells without having to try them out.\n\nAfter using, it will discover the spell closest to it in your inventory.\n\nCan be automated with the Loonium, or using the Wizardry Combiner.",
+      "desc:8": "§7§o使用该物品右击，便可无需试验法术验明其效果。\n\n使用后，会鉴定物品栏中距离该卷轴最近的法术。\n\n可通过聚宝花或巫术组合台自动化。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ebwizardry:identification_scroll"
       },
-      "name:8": "Scroll of Identification"
+      "name:8": "鉴定卷轴"
     }
   },
   "questID:3": 2348,

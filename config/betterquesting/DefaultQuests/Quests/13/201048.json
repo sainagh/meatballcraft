@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 430\nMining Level: Diamond\nMining Speed: 6.8\nAttack: 3.5\nDense\n\nHandle\nModifier: 1.1\nDurability: 70\nDense\n\nExtra\nDurability: 80\nDense\n\nBows\nDrawspeed: 1.82\nRange Multiplier: 1.5\nBonus Damage: 6\nDense",
+      "desc:8": "顶端\n耐久：430\n挖掘等级：钻石\n挖掘速度：6.8\n攻击力：3.5\n致密\n\n手柄\n手柄系数：1.1\n耐久：70\n致密\n\n其它部件\n耐久：80\n致密\n\n弓\n拉弓速度：1.82\n范围系数：1.5\n附加伤害：6\n致密",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "bronze"
         }
       },
-      "name:8": "Bronze"
+      "name:8": "青铜"
     }
   },
   "questID:3": 201048,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oActs like an anvil without maximum enchantement level limits!",
+      "desc:8": "§7§o可像原版铁砧一样为物品附魔，但是没有最大魔咒等级限制！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:enchantment_aplicator"
       },
-      "name:8": "Enchantment Applicator"
+      "name:8": "魔咒施加机"
     }
   },
   "questID:3": 2326,

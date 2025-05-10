@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 36\nMining Level: Stone\nMining Speed: 0.83\nAttack: 0.1\nWritable\n\nHandle\nModifier: 0.23\nDurability: 8\nWritable\n\nExtra\nDurability: 20\nWritable\n\nBows\nDrawspeed: 0.71\nRange Multiplier: 0.63\nBonus Damage: - 1.2\nWritable",
+      "desc:8": "顶端\n耐久：36\n挖掘等级：石头\n挖掘速度：0.83\n攻击力：0.1\n铭刻\n\n手柄\n手柄系数：0.23\n耐久：8\n铭刻\n\n其它部件\n耐久：20\n铭刻\n\n弓\n拉弓速度：0.71\n范围系数：0.63\n附加伤害：- 1.2\n铭刻",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "ma.prosperity"
         }
       },
-      "name:8": "Prosperity Shard"
+      "name:8": "活化水晶碎片"
     }
   },
   "questID:3": 201099,

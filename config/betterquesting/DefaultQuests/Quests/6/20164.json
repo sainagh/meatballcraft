@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCreates potions and infusion sticks using mana from a spreader.\n\nJEI shows the various recipes made.",
+      "desc:8": "§7§o使用魔力发射器的魔力制作药水和熏香。\n\nJEI中显示了多种配方。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:brewery"
       },
-      "name:8": "Botanical Brewery"
+      "name:8": "植物酿造台"
     }
   },
   "questID:3": 20164,

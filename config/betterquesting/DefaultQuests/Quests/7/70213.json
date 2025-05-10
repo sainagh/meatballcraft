@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in Myrmex nests.",
+      "desc:8": "§7§o发现于恐蚁界的鸟巢。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 82,
         "id:8": "contenttweaker:material_part"
       },
-      "name:8": "Myrmitite Ingot"
+      "name:8": "恐蚁金属锭"
     }
   },
   "questID:3": 70213,

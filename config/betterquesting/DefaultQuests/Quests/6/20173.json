@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRunes can be used to upgrade the performance of the altar!\n\nSee the tooltips on each for what they do!",
+      "desc:8": "§7§o符文可升级祭坛的性能！\n\n每种符文的提示文本中都介绍了对应功能！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "bloodmagic:blood_rune"
       },
-      "name:8": "Better Runes"
+      "name:8": "更好的符文"
     }
   },
   "questID:3": 20173,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 680\nMining Level: Cobalt\nMining Speed: 8.42\nAttack: 11.52\n\nHandle\nModifier: 1.73\nDurability: 220\n\nExtra\nDurability: 115\n\nBows\nDrawspeed: 1.02\nRange Multiplier: 5.17\nBonus Damage: 9.5",
+      "desc:8": "顶端\n耐久：680\n挖掘等级：钴\n挖掘速度：8.42\n攻击力：11.52\n\n手柄\n手柄系数：1.73\n耐久：220\n\n其它部件\n耐久：115\n\n弓\n拉弓速度：1.02\n范围系数：5.17\n附加伤害：9.5",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "tungsten"
         }
       },
-      "name:8": "Tungsten"
+      "name:8": "钨"
     }
   },
   "questID:3": 201146,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace on top of fire, lava, or a magma block, and near a witches altar.\n\nTo start every recipe in the cauldron, place a water bucket inside. If the water stays in the cauldron too long, it will evaporate!\n\nJEI will show the required ingredients for recipes and brews! \n\nTo craft using the cauldron, drop in the required items after the water starts boiling! If a recipe was done correctly, the output will pop out automatically! Make sure you drop each ingredient quickly, otherwise the recipe won\u0027t complete.\n\nTo make brews, drop a mandrake root, and drop a combination of the desired brew items (JEI will show). You can add gunpowder at the end to make it splashable! Right click the cauldron with empty bottles to collect the potions! ",
+      "desc:8": "§7§o放置在火、熔岩或岩浆块上方，靠近女巫祭坛。\n\n釜锅的所有配方都需要水。釜锅中的水若放置时间过长，会被蒸发！\n\n待水烧滚之后，向釜锅中丢入物品来开始合成！若配方正确，产物将自动从中弹出！确保丢入原料的速度够快，否则配方不会完成。\n\n要酿造药剂，先丢入曼陀罗根，接着丢入药剂所需的物品组合（JEI中有显示）。使用玻璃瓶右击釜锅来收集药剂！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:witches_cauldron"
       },
-      "name:8": "Witches Cauldron"
+      "name:8": "女巫釜锅"
     }
   },
   "questID:3": 20335,

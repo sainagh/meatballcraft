@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHere you can find all available options for storing fluids!\n\nAll options are good and viable, but some may be better suited for specific tasks.\n\nFor accessibility and convenience, fluid drawers are great!\n\nFor large amouts of fluids, black hole tanks are the best!\n\nFor early game high-capacity options, drums are awesome!",
+      "desc:8": "§7§o此处列出了所有可用于储存流体的方案！\n\n所有选项都很不错，但某些方法更适合铁锭任务。\n\n在可访问性和便捷性方面，流体抽屉表现十分出色！\n\n在大批量流体存储方面，黑洞储液罐表现最佳！\n\n对于游戏初期的大容量存储，推荐使用更多实用设备模组的桶！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Fluid Storage"
+      "name:8": "流体存储"
     }
   },
   "questID:3": 90085,

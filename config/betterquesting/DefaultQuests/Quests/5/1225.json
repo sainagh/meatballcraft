@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYin and Yang essences can be farmed from the balanced bee!",
+      "desc:8": "§7§o阴华和阳华可通过平衡蜜蜂获得！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "careerbees:eternalframe"
       },
-      "name:8": "Immortality"
+      "name:8": "永恒"
     }
   },
   "questID:3": 1225,

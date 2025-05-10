@@ -193,42 +193,42 @@ recipes.removeShaped(<rftoolsdim:material_absorber>);
 recipes.addShaped(<rftoolsdim:material_absorber>,
 [[<contenttweaker:defined_redstone_chipset>, <tconstruct:seared>, <contenttweaker:defined_redstone_chipset>],
 [<contenttweaker:infinity_core>, <contenttweaker:hungering_machine_case>, <contenttweaker:infinity_core>],
-[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§oPlanetary Artifact§r"]}}).reuse(), <avaritia:resource:6>]]);
+[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§o行星圣物§r"]}}).reuse(), <avaritia:resource:6>]]);
 
 recipes.removeShaped(<rftoolsdim:liquid_absorber>);
 
 recipes.addShaped(<rftoolsdim:liquid_absorber>,
 [[<contenttweaker:defined_redstone_chipset>, <tconstruct:seared_glass>, <contenttweaker:defined_redstone_chipset>],
 [<contenttweaker:infinity_core>, <contenttweaker:hungering_machine_case>, <contenttweaker:infinity_core>],
-[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§oPlanetary Artifact§r"]}}).reuse(), <avaritia:resource:6>]]);
+[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§o行星圣物§r"]}}).reuse(), <avaritia:resource:6>]]);
 
 recipes.removeShaped(<rftoolsdim:biome_absorber>);
 
 recipes.addShaped(<rftoolsdim:biome_absorber>,
 [[<contenttweaker:defined_redstone_chipset>, <biomesoplenty:terrestrial_artifact>, <contenttweaker:defined_redstone_chipset>],
 [<contenttweaker:infinity_core>, <contenttweaker:hungering_machine_case>, <contenttweaker:infinity_core>],
-[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§oPlanetary Artifact§r"]}}).reuse(), <avaritia:resource:6>]]);
+[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§o行星圣物§r"]}}).reuse(), <avaritia:resource:6>]]);
 
 recipes.removeShaped(<rftoolsdim:terrain_absorber>);
 
 recipes.addShaped(<rftoolsdim:terrain_absorber>,
 [[<contenttweaker:defined_redstone_chipset>, <thaumcraft:metal_void>, <contenttweaker:defined_redstone_chipset>],
 [<contenttweaker:infinity_core>, <contenttweaker:hungering_machine_case>, <contenttweaker:infinity_core>],
-[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§oPlanetary Artifact§r"]}}).reuse(), <avaritia:resource:6>]]);
+[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§o行星圣物§r"]}}).reuse(), <avaritia:resource:6>]]);
 
 recipes.removeShaped(<rftoolsdim:feature_absorber>);
 
 recipes.addShaped(<rftoolsdim:feature_absorber>,
 [[<contenttweaker:defined_redstone_chipset>, <minecraft:elytra>, <contenttweaker:defined_redstone_chipset>],
 [<contenttweaker:infinity_core>, <contenttweaker:hungering_machine_case>, <contenttweaker:infinity_core>],
-[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§oPlanetary Artifact§r"]}}).reuse(), <avaritia:resource:6>]]);
+[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§o行星圣物§r"]}}).reuse(), <avaritia:resource:6>]]);
 
 recipes.removeShaped(<rftoolsdim:time_absorber>);
 
 recipes.addShaped(<rftoolsdim:time_absorber>,
 [[<contenttweaker:defined_redstone_chipset>, <minecraft:clock>, <contenttweaker:defined_redstone_chipset>],
 [<contenttweaker:infinity_core>, <contenttweaker:hungering_machine_case>, <contenttweaker:infinity_core>],
-[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§oPlanetary Artifact§r"]}}).reuse(), <avaritia:resource:6>]]);
+[<avaritia:resource:6>, <draconicevolution:celestial_manipulator>.withTag({display: {Lore: ["§d§o行星圣物§r"]}}).reuse(), <avaritia:resource:6>]]);
 
 
 

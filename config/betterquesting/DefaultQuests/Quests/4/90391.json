@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oOutputs signal if it\u0027s raining.",
+      "desc:8": "§7§o降雨/下雪时输出红石信号。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 16,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Rain Sensor"
+      "name:8": "雨雪传感器"
     }
   },
   "questID:3": 90391,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Dragonfire Crucible uses the extreme heat of eternal dragon fire and twilight fire to fuse materials together.\nFire can be passively supplied using fluid transport methods.",
+      "desc:8": "龙炎坩埚使用温度极高的永恒龙炎和暮光火焰将材料融合。\n应使用流体传输手段被动供应所需流体。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:dragonfire_crucible"
         }
       },
-      "name:8": "Dragonfire Crucible"
+      "name:8": "龙炎坩埚"
     }
   },
   "questID:3": 20628,

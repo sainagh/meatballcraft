@@ -1,0 +1,990 @@
+{
+    "registryname": "warren_extractor_naquadah",
+    "localizedname": "Warren Extractor: Naquadah",
+	"color": "7d807e",
+    "parts": [
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:actualizing_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hyperuranion_actualizer_naquadah@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockmeitemoutputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:actualizing_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:actualizing_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:actualizing_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:actualizing_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:actualizing_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:actualizing_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:actualizing_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:actualizing_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:actualizing_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:actualizing_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:actualizing_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ghostly@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "dimdoors:fabric@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        }
+    ]}

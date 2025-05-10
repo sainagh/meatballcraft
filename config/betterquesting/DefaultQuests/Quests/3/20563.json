@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Laser go *zzzz\nCrystal go *whooosh\nRight click with a redstone torch to swap between deactivation and pulse mode.\nPlace next to a pressure plate in pulse mode to zap whatever is placed on the plate for simple automation.",
+      "desc:8": "激光滋滋滋\n水晶嗡嗡嗡\n使用红石火把右击以在接收红石信号停止工作和接收红石脉冲工作两种模式之间切换。\n可在前方放置压力板，机器设置为脉冲模式，以实现简单的自动化。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_atomic_reconstructor"
       },
-      "name:8": "Atomic Reconstructor"
+      "name:8": "原子再构机"
     }
   },
   "questID:3": 20563,

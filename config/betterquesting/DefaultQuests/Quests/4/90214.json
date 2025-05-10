@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCollects items at a distance. Can accept upgrades and filters.",
+      "desc:8": "§7§o范围收集物品。可使用过滤器。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:block_vacuum_chest"
       },
-      "name:8": "Vacuum Chest"
+      "name:8": "虚空箱子"
     }
   },
   "questID:3": 90214,

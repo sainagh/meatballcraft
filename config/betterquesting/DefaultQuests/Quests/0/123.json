@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "As powerful he seemed to me, Smash had somebody way stronger backing him up, I guess this was a declaration of war to someone I don\u0027t even know!",
+      "desc:8": "粉碎虽实力强悍，但其背后还有更强大的存在，我恐怕在不知情的情况下向某种未知存在宣战了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:limonite_sword"
       },
-      "name:8": "This is war"
+      "name:8": "战争序幕"
     }
   },
   "questID:3": 123,
@@ -34,7 +34,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:smash_jaw"
             },
-            "TrophyName:8": "Smasher",
+            "TrophyName:8": "粉碎粉碎者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

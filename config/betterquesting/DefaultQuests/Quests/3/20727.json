@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Used to process silicon boules.\nMay be a good one to put on passive...\nUse holo projector to see multiblock preview.",
+      "desc:8": "用于制作硅球。\n也许该做成被动产线……\n使用全息投影器查看多方块预览。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "advancedrocketry:crystallizer"
       },
-      "name:8": "Crystallizer"
+      "name:8": "结晶器"
     }
   },
   "questID:3": 20727,

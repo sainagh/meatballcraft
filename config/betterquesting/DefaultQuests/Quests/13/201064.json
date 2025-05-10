@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 250\nMining Level: Diamond\nMining Speed: 3\nAttack: 2.8\nDiscounted\n\nHandle\nModifier: 0.6\nDurability: 70\nDiscounted\n\nExtra\nDurability: 75\nDiscounted\n\nBows\nDrawspeed: 2.5\nRange Multiplier: 0.6\nBonus Damage: 0\nDiscounted",
+      "desc:8": "顶端\n耐久：250\n挖掘等级：钻石\n挖掘速度：3\n攻击力：2.8\n折扣\n\n手柄\n手柄系数：0.6\n耐久：70\n折扣\n\n其它部件\n耐久：75\n折扣\n\n弓\n拉弓速度：2.5\n范围系数：0.6\n附加伤害：0\n折扣",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "limonite"
         }
       },
-      "name:8": "Limonite"
+      "name:8": "褐铁"
     }
   },
   "questID:3": 201064,

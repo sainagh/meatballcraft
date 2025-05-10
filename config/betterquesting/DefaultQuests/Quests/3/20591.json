@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Bro you want to see my $700 juicer?",
+      "desc:8": "Bro想看看我那台七百美刀的榨汁机吗？",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "extratrees:machine"
       },
-      "name:8": "Fruit Press"
+      "name:8": "水果压榨机"
     }
   },
   "questID:3": 20591,

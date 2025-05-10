@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is the start of Botania, see more in §cMagical Mastery§7§o.\n\n§fFlowers are awesome! And, of course, they can be used for magic!\nMana, the same \u0027thing\u0027 I found in the nether region of Terra, can also be produced and used by plants, this can definitely be used for my purposes!",
+      "desc:8": "§7§o这是植物魔法模组的起始，更多信息请查看§c魔法精通§7§o。\n\n§f花很棒！而且，它们也能用来施展魔法！\n魔力，这种我在泰拉地底发现的“存在”，植物竟也能生成并运用这种能量，这绝对能为我所用！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:altar"
       },
-      "name:8": "Natural Energy"
+      "name:8": "自然能量"
     }
   },
   "questID:3": 209,

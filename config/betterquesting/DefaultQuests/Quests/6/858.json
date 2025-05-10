@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBreaks blocks in a 3x3x3 area below the master ritual stone.\n\nPlace a chest on top of the master ritual stone to collect drops.",
+      "desc:8": "§7§o破坏主仪式石下方3x3x3区域的方块。\n\n在主仪式石上方放置箱子来收集掉落物。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Ritual of the Crusher"
+      "name:8": "挖掘仪式"
     }
   },
   "questID:3": 858,

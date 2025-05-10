@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oXP cost is discounted by bookshelves like the Vanilla Enchanting Table.",
+      "desc:8": "§7§o可通过原版方式放置书架，以获得经验消耗减免。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:diss_enchanter"
       },
-      "name:8": "Draconic Disenchanter"
+      "name:8": "龙之祛魔台"
     }
   },
   "questID:3": 2324,

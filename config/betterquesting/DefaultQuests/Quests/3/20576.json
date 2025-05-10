@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Trading is an act between two living things, but it doesn\u0027t have to be like that thanks to this device, which allows to automate this process.\nA villager captured using a Mob Imprisonment Tool can be mercilessly forced to spend the rest of its life as an emerald farm!",
+      "desc:8": "交易本是两个生命体之间的行为，但有了这台设备，情况就截然不同了，它能将交易过程完全自动化！\n使用生物捕捉工具捕捉村民，可无情地迫使其耗尽余生，沦为一个绿宝石农场！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:villager_trade_exchanger"
       },
-      "name:8": "Villager Trade Exchanger"
+      "name:8": "村民贸易交换机"
     }
   },
   "questID:3": 20576,

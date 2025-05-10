@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    1829243204
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:prayer_to_the_trinity_of_love"
+      },
+      "name:8": "Three and One"
+    }
+  },
+  "questID:3": 1660051088,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:trinitas_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:prayer_to_the_trinity_of_love"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:true_tongue_oath"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:cuendillar_catalyst_1"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:cuendillar_catalyst_2"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:cuendillar_catalyst_3"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

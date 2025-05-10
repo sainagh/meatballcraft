@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWARNING: If this is the first time you do forestry, you should follow the instructions in the §cbook of creation§7§o!\nFollow those carefully, and things will be easy!\n\n§fBees are very abundant on Terra, and they seem to be similar to chickens, having the ability to be \u0027bound\u0027 to elements, I should experiment on them!",
+      "desc:8": "§7§o警告：如果这是你初次游玩林业模组，务必遵循§c创造之书§7§o的说明！\n仔细遵循指引，不会很难的！\n\n§f泰拉上有很多蜜蜂，与鸡类似，它们同样能和元素“结合”，我该对它们做些实验！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "forestry:bee_combs"
       },
-      "name:8": "BUZZwords"
+      "name:8": "嗡嗡嗡"
     }
   },
   "questID:3": 99,

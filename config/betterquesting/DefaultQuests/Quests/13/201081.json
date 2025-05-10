@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 5,000\nMining Level: Obsidian\nMining Speed: 60\nAttack: 30.12\nSOS!\n\nHandle\nModifier: 6\nDurability: 5,000\nSOS!\n\nExtra\nDurability: 5,000\nSOS!\n\nBows\nDrawspeed: 5\nRange Multiplier: 20\nBonus Damage: 182\nSOS!",
+      "desc:8": "顶端\n耐久：5,000\n挖掘等级：黑曜石\n挖掘速度：60\n攻击力：30.12\n救命！\n\n手柄\n手柄系数：6\n耐久：5,000\n救命！\n\n其它部件\n耐久：5,000\n救命！\n\n弓\n拉弓速度：5\n范围系数：20\n附加伤害：182\n救命！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "vibranium"
         }
       },
-      "name:8": "Vibranium"
+      "name:8": "振金"
     }
   },
   "questID:3": 201081,

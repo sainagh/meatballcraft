@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The resorfulness of bees is incredible, but sometimes, their naivety really surprises me. They are collaborating with the Meatball Man, the evil god of pleasure, and they are doing it because he ASKED NICELY?! I really don\u0027t get it, but it\u0027s clear that, even though it may not seem like it, the bees must have thought a lot about this.\nThis could have to do with how powerful the Meatball Man is. He is clearly someone you don\u0027t want to mess with. And who knows, he may even be stronger than what I make him to be, that\u0027s how little I know about this creature. Well, to be fair, I know even less about the invaders of Terra, the Twilight Horde, and the Shyre Empire. And the Crimson Cult, even less.\nAnyhow, exploring the secrets of Oi was a good idea. I have learned something about the Meatball Man. His powers, which I still find terrifying, make a bit more sense. Those that die under certain conditions, which I still don\u0027t fully know, fall under his influence, and become his undead slaves till the end of time.\nApparently, natural death is not enough for this monster. So how does he get more undead slaves? Well, he nukes planets. Magic allows for many tools of mass destruction, but it seems like they do not cause death in the \u0027right way\u0027 that will produce more undead. Oi is just one of many planets like this, a once prosperous world, now completely erased.",
+      "desc:8": "蜜蜂的智慧令人难以置信，但有时它们的天真确实让我震惊。它们正在与享乐的邪神肉丸人合作，而理由只是因为对方“态度很好”？我实在无法理解，但显然看似荒谬的决定背后，蜜蜂必定经过了深思熟虑。\n这或许与肉丸人深不可测的力量有关。这个存在明显是不可招惹的对象。谁知道呢，祂可能比我想象得更加强大，我对其了解太少了。事实上，我对泰拉世界面临的入侵者：暮光部落和塞尔瑞帝国都知之甚少，更遑论深红教团了。\n无论如何，探索奥伊的秘密确实是明智之举。我窥见了一些关于肉丸人的真相。我得以对祂的力量——尽管仍让我恐惧——有了更深入的理解。那些在特定条件下死亡的生命——虽然我仍未完全掌握具体机制——会落入祂的掌控，成为永恒的亡灵奴仆。\n显然，自然死亡无法满足这个怪物。那么祂选择怎么获得更多奴仆呢？摧毁行星。虽然魔法能制造各种大规模杀伤手段，但似乎只有“正确方式”的死亡才能催生亡灵。奥伊不过是众多被选中的星球之一，曾经的繁荣文明就这样被彻底抹去。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:oi_spinel"
       },
-      "name:8": "Secrets of Oi"
+      "name:8": "奥伊的秘密"
     }
   },
   "questID:3": 715,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:oi_spinel"
             },
-            "TrophyName:8": "Meatball Artillery",
+            "TrophyName:8": "肉丸巨炮",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

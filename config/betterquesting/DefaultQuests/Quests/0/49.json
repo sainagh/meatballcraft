@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUsed to craft machines from Thermal Expansion and Industrial Foregoing (see §c§oManufacturing and Fabrication§o§r§o§7§o)\n\n§rI was able to put together a device that handles the internal thermal energy of matter fairly well, this should allow for a lot of cool machines!",
+      "desc:8": "§7§o用于制作热力膨胀和工业先锋模组的机器（可前往§c§o制作与加工§o§r§o§7§o查看）\n\n§r我组装了一个能很好地处理物质内部热力能量的装置，这应该能制造出很多很酷的机器！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermalexpansion:frame"
       },
-      "name:8": "Thermal Energy"
+      "name:8": "热力能量"
     }
   },
   "questID:3": 49,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§8§7§oThe arcane workbench can be found in wizard towers in the overworld. Careful, they may not be friendly!\n\nAll magic wands can be traded with friendly wizards!\n\nThis is the main block to add spells to your wand, to add mana, and to upgrade it!",
+      "desc:8": "§8§7§o奥术工作台可在主世界的巫师塔中发现。小心，高塔主人可能不是很友好！\n\n所有魔杖都可通过与友善的巫师交易获得！\n\n该方块可为魔杖添加法术、给魔杖充能，以及升级魔杖！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ebwizardry:arcane_workbench"
       },
-      "name:8": "Arcane Workbench"
+      "name:8": "奥术工作台"
     }
   },
   "questID:3": 20066,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis ritual creates refined life essence.\n\nPlace four stasis plates on top of the fire runes.\n\nPlace two blood tanks above the master ritual stone, leaving a one block gap. Top is input, bottom is output.\n\nYou can use blood tanks of any size!\n\nRecipe: \n     ender pearl\n     blaze powder\n     redstone\n     blood infused glowstone dust\n     life essence\n",
+      "desc:8": "§7§o该仪式可制作精炼生命精华。\n\n在火之仪式石上放置4个瘀板。\n\n在主仪式石上放置2个血法师的储罐，两个储罐上下留有一格空间。上方的储罐为输入，下方为输出。\n\n可使用任意尺寸的储罐！\n\n配方：\n     末影珍珠\n     烈焰粉\n     红石\n     注血荧石粉\n     生命源质\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Purification"
+      "name:8": "净化仪式"
     }
   },
   "questID:3": 825,

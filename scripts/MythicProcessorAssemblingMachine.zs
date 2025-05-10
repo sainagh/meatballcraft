@@ -52,7 +52,7 @@ mythassmac7.build();
 val mythassmac8 = RecipeBuilder.newBuilder("mythassmac8","mythic_processor_assembling_machine",2);
 mythassmac8.addEnergyPerTickInput(40000);
 mythassmac8.addItemInput(<techreborn:part:41>);
-mythassmac8.addItemInput(<techreborn:part:42>);
+mythassmac8.addItemInput(<techreborn:part:42>*2);
 mythassmac8.addItemOutput(<techreborn:part:30>);
 mythassmac8.build();
 

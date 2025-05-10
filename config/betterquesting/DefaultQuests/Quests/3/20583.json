@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Dissolves solid items into fluids to make other fluids! (did you really need quest text to figure that out?!?)",
+      "desc:8": "将固体物质溶解成流体，以制造其他流体！（你真的需要任务才能弄明白吗？！？）",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:block_vat"
       },
-      "name:8": "The Vat"
+      "name:8": "酿液桶"
     }
   },
   "questID:3": 20583,

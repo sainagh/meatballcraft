@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following items and blocks let you set up some AE2 functionalities wirelessly!",
+      "desc:8": "§7§o以下物品和方块可实现AE2的一些无线功能！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 41,
         "id:8": "appliedenergistics2:material"
       },
-      "name:8": "Wireless AE2"
+      "name:8": "无线AE"
     }
   },
   "questID:3": 1228,

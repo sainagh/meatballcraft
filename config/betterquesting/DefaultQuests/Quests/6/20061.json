@@ -5,14 +5,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAbyssalcraft id a dangerous mod focust on the eldritch horrors from the Lovecraft mythos.\n\nThe mod provides some player upgrades, a powerful enchanting tool, and many bosses and exploration elements.\n\nThe mod\u0027s systems revolve around the Necronomicon book, and the Potential Energy (PE) magic system. Abyssalcraft also interacts with Warp from Thaumcraft, producing it at most interactions with the enemies and dimensions you will encounter in this progression (see more info in the Thaumcraft quests or in the Warp Basics JEI info box).\n\nThe mod does not have many automation tools, but custom multiblocks become available relatively early on to allow for automation.",
+      "desc:8": "§7§o深渊国度是一款专注于洛氏神话中不可名状恐怖的危险模组。\n\n模组提供了一些玩家升级，一种强力的附魔手段，以及许多Boss与冒险元素。\n\n模组内容围绕死灵之书与位能（PE）系统展开。深渊国度还与神秘时代的扭曲机制存在联动：在模组流程中，与敌人及维度的多数交互中均会提高扭曲值（更多信息可参考神秘时代相关任务或“扭曲基础知识”的JEI说明框）。\n\n该模组没有任何自动化工具，但自定义多方块结构在较早使时期便可实现自动化。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Abyssalcraft"
+      "name:8": "深渊国度"
     }
   },
   "questID:3": 20061,

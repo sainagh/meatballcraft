@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe flux controller can be configured to charge specific slots in the player\u0027s inventory.",
+      "desc:8": "§7§o通量控制器可通过配置，为玩家物品栏中特定槽位的物品充能。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "fluxnetworks:fluxcontroller"
       },
-      "name:8": "Flux Controller"
+      "name:8": "通量控制器"
     }
   },
   "questID:3": 710,

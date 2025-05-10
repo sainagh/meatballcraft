@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe use of this bus is discouraged!\n\nThe crafting card can be added to interfaces and export buses to force craft an item if it\u0027s not present in storage.",
+      "desc:8": "§7§o不推荐使用该物品！\n\n合成卡可安装到接口和输出总线中，当网络中没有足够给定物品时，强制调用自动合成。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 53,
         "id:8": "appliedenergistics2:material"
       },
-      "name:8": "Crafting Card"
+      "name:8": "合成卡"
     }
   },
   "questID:3": 90133,

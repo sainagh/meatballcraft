@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Want some neutrons in your soup? I\u0027d love some neutrons in my soup!",
+      "desc:8": "想不想在汤里加点中子？反正我喜欢！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:irradiator_idle"
       },
-      "name:8": "Neutron Irradiator"
+      "name:8": "中子辐照器"
     }
   },
   "questID:3": 20738,

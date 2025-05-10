@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The thaumonomicon is the magical guide to thaumic arts, and it holds all of its knowledge.\nEach tab in the book refers to a different branch of the art.\nMost of the knowledge in the book is hidden, and research needs to be performed to unlock such knowledge.\nThe requirements for each page are listed whenever they become available for discovery.\nThis knowledge can also be obtained through the chemicals held in Really Scary Vishrooms. They are indeed really scary, though, so be careful!",
+      "desc:8": "魔导手册是神秘魔法的魔法指导书，其中记载了所有神秘时代相关知识。\n书中的每个章节都对应该魔法的不同分支。\n书中的大部分知识默认都是隐藏的，需要进行研究来解锁。\n每项研究页面的解锁条件将在其可探索时列出。\n也可通过使用惊怖纤毛菇来解锁这些知识。但这种蘑菇真的很吓人，要小心！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:thaumonomicon"
       },
-      "name:8": "Thaumonomicon"
+      "name:8": "魔导手册"
     }
   },
   "questID:3": 20197,

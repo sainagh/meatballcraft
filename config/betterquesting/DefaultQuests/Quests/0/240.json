@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe boss can be summoned in three different ways.\n\nDetonate an oblivion death bomb (do it a universe away from your base).\n\nCraft the spawn egg.\n\nPerform the ritual of shadows in the abyssal wastelands.\n\n§fWhile I\u0027m at it, it\u0027s time to investigate the phenomenon of \u0027recursion\u0027, which apparently is the ability to \u0027perennially exist\u0027.\nThis is what allows me to come back every time after I \u0027die\u0027.\nMany of the creatures I am encountering have this power, but, unlike me, they have control over it, while I am still bound to the will of whoever decided to give me recursion.\nIf I were able to learn this power, I may be able to gain the ability to split my being into multiple places as one, just like the ancient Entity...\nNow at least I understand why there\u0027s so many withers; apparently there are only 6 but they are able to exist \u0027everywhere they are summoned\u0027 thanks to the power of recursion.\nThe cause for why they are able to do so is the Draconium that was used to originate the six original withers, or so testificate lore says.\nDraconium may be the key to mastering recursion, and free myself!",
+      "desc:8": "§7§o该Boss可用不同方式召唤。\n\n引爆一颗湮灭弹（离基地远点）。\n\n制作刷怪蛋。\n\n在深渊荒原进行阴影仪式。\n\n§f既然说到这儿，也是时候研究下所谓的“递归”现象了。这种能让人“永久存续”的能力，正是我每次“死亡”后都能归来的奥秘。\n我遇到的许多生物都拥有这种力量，但与我不同的是，它们能自主掌控递归，而我仍受制于赋予我这种能力者的意志。若能掌握这种力量，或许我就能像上古实体那样，将自身分裂到多个空间……\n现在至少能明白为何凋灵如此泛滥了；显然凋灵总共只有6只，但借助递归之力，它们能在“所有被召唤之处同时存在”。\n根据泰斯提斐人的传说，这种能力的源头是创造原始6只凋灵时使用的龙尘。\n看来龙尘可能就是掌握递归、挣脱束缚的关键！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:odb"
       },
-      "name:8": "Ritual of Shadows"
+      "name:8": "阴影仪式"
     }
   },
   "questID:3": 240,
@@ -30,7 +30,7 @@
               "Damage:2": 3,
               "id:8": "abyssalcraft:scroll"
             },
-            "TrophyName:8": "Slayer of Shadows",
+            "TrophyName:8": "阴影屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

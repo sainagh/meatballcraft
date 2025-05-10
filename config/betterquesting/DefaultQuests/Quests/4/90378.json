@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§otwo inputs \u003d one output\non + on \u003d off\non + off \u003d off\noff + on \u003d off\noff + off \u003d on",
+      "desc:8": "§7§o两个输入 \u003d 一个输出\n1 + 1 \u003d 0\n1 + 0 \u003d 0\n0 + 1 \u003d 0\n0 + 0 \u003d 1",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "NOR Gate"
+      "name:8": "或非门"
     }
   },
   "questID:3": 90378,

@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMake the dragonfire crucible. ",
+      "desc:8": "§7§o制作龙炎坩埚。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "iceandfire:stymphalian_bird_dagger",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Dagger of the Skies"
+            "Name:8": "天空之匕"
           },
           "ench:9": {
             "0:10": {
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Dagger of the Skies"
+      "name:8": "天空之匕"
     }
   },
   "questID:3": 992,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oDagger of the Skies§r"
+              "Name:8": "§6§o天空之匕§r"
             },
             "ench:9": {
               "0:10": {

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Latex can be extracted from a wood log placing a tree fluid extractor next to it.\nMultiple extractors can be placed around a single log.\nSome sort of automatic placer can be used to replenish consumed logs once they are depleted by the extractors.",
+      "desc:8": "树液提取器可缓慢破坏前方木头来产出胶乳。\n多个提取器可同时对同一块木头工作。\n可使用某种方块自动放置手段在木头被破坏后自动补充。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:tree_fluid_extractor"
       },
-      "name:8": "Tree Fluid Extractor"
+      "name:8": "树液提取器"
     }
   },
   "questID:3": 20553,

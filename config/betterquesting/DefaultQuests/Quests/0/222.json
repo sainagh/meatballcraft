@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe sapling dropped by the large mask can be used to make fruits in a phytogenic insolator.\n\n§fThere are many outsiders that seem to be interested in dominion over Terra. These dark druids are very particular, very strange...\nThe evil masters of the book of the dead have agreed to some sort of pact, and allowed the druids to bind their world to terra.\nI\u0027m not really sure how something like this may be possible, but this connection is not a simple wormhole. \nBy being able to connect and reshape the dimensions of space, the swamp world the druids inhabit is now \u0027in between\u0027 the space we live in.\nHow do I know this? I don\u0027t know, but the tree for some reason seemed to recognize me...\n",
+      "desc:8": "§7§o大型灵魂树脸掉落的树苗可在有机灌注器中产出果实。\n\n§f许多外来者似乎都渴望掌控泰拉世界。这些黑暗德鲁伊非常特别，极其诡异……\n死者之书的邪恶主宰们达成了某种契约，允许德鲁伊将他们的世界与泰拉绑定。\n我实在不明白这种连接如何实现，但这种联系绝非简单的虫洞。\n通过连接并重塑空间维度，德鲁伊栖息的沼泽世界如今“交错”我们生存的空间之间。\n为何我会知晓这些？我也不清楚，但这棵树似乎莫名认得我……\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thebetweenlands:sapling_spirit_tree"
       },
-      "name:8": "Evil Trees"
+      "name:8": "邪木参天"
     }
   },
   "questID:3": 222,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "thebetweenlands:sapling_spirit_tree"
             },
-            "TrophyName:8": "Spirit Tree Slayer",
+            "TrophyName:8": "灵魂树屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

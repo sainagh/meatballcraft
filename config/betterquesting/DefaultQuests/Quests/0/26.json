@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe creation forge allows you to summon minions!\n\n§fYup, this definitely feels like essence, but, unlike the scientific, mechanical process that guides the replication of life on earth, this one is more \u0027personal\u0027, and more general in power.\nEssence tech has its limits, and beings created using this method are not much more sentient than computers.\nThe creatures I create with this magic, though, are very much alive, and very much connected to me in some way.",
+      "desc:8": "§7§o可使用召唤祭坛来召唤仆从！\n\n§f嗯，这个感觉绝对是精华，但是与导引地球上生命复制的那种科学的、机械化的过程不同，这个过程更加“个人化”，能量形态也更为泛用。\n精华技术有其局限性，用它创造的生物智能水平不会比一台计算机更高。\n而用这种魔法创造的生物，则更有活物感，而且与我存在着某种方式上的紧密联系。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:penguin_slab"
       },
-      "name:8": "Creation Skill"
+      "name:8": "技能：召唤"
     }
   },
   "questID:3": 26,

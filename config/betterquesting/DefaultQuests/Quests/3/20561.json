@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The smeltery is built out of seared bricks placed in a cuboid shell, with no roof and no edges.\nThe controller is where the interface is accessible, and acts as an item input (for automation).\nThe tank is the smeltery\u0027s lava (or other hot fluid) input.\nDrains act as fluid output ports. Faucets and fluid pipes connect to drains.\nTables and basins are placed under faucets to accept molten fluids. Basins turn them into blocks, tables can be used with a variety of casts (gold is better).\nFaucets output fluids when clicked, or with a redstone signal.\nRedstone clocks and timers are good for automating faucet extraction, if you don\u0027t want to use pipes.",
+      "desc:8": "冶炼厂由焦黑砖块搭建的立方体框架构成，顶部无盖且四边无边框。\n控制器是冶炼炉的访问接口，同时作为物品输入口（用于自动化）。\n储罐是冶炼厂的熔岩（或其他高温流体）的输入口。\n排液口作为流体输出端口，浇注口和流体管道需连接至此。\n浇铸台和铸造盆需放置在浇注口下方以接收熔融流体。铸造盆可将流体凝固为方块，浇铸台需配合各类铸模使用（金铸模效果更佳）。\n点击浇注口或给予红石信号可激活流体输出。\n若不使用管道，红石时与计时器是实现浇注口自动排液的有效方案。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:smeltery_controller"
       },
-      "name:8": "Smeltery"
+      "name:8": "冶炼炉"
     }
   },
   "questID:3": 20561,

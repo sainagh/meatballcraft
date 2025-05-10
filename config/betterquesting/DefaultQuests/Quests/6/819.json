@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSpeeds up will crystal growth in demon crystallizers by damaging mobs nearby. The more different mobs, the better!\n\nCombine with crack of the fractured crystal to make a will crystal farm!",
+      "desc:8": "§7§o通过伤害附近生物，加速恶魔结晶坛内恶魔晶体的生长速度。生物种类越多，效果越好！\n\n与碎晶裂纹仪式组合可实现意志晶体自动化！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "bloodmagic:blood_rune"
       },
-      "name:8": "Gathering of the Forsaken Souls (Useful)"
+      "name:8": "孤魂集会（实用）"
     }
   },
   "questID:3": 819,

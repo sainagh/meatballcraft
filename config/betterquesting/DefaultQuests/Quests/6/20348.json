@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oClick the bottled frostfire on a block to start a cold fire! This will not go out.\n\nDrop iron into the cold fire to make cold iron!",
+      "desc:8": "§7§o使用瓶装霜火右击方块顶部以放置一团蓝色的霜火！霜火不会蔓延。\n\n将铁粉/铁矿石丢入霜火来制作寒铁！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:cold_iron_ingot"
       },
-      "name:8": "Cold Iron"
+      "name:8": "寒铁"
     }
   },
   "questID:3": 20348,

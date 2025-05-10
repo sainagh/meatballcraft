@@ -9,7 +9,7 @@
         "id:8": "botania:cosmetic"
       },
       "ismain:1": 1,
-      "name:8": "Welcome to Chapter 1"
+      "name:8": "欢迎来到第1章"
     }
   },
   "questID:3": 20317,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "biomesoplenty:earth"
             },
-            "TrophyName:8": "Welcome to Chapter 1",
+            "TrophyName:8": "欢迎来到第1章",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "gold"
           }

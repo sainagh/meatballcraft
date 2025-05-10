@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in floating crystal clusters on Sedna.",
+      "desc:8": "§7§o通过塞德娜中漂浮在空中的水晶簇获得。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 54,
         "id:8": "contenttweaker:material_part"
       },
-      "name:8": "Sednanite Ingot"
+      "name:8": "塞德娜金属锭"
     }
   },
   "questID:3": 70211,

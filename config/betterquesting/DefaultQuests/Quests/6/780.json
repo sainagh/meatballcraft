@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGenerates mana from Conway\u0027s Game of Life in a 25x25 area centered around the flower.\n\nBest flower, but hardest to set up!",
+      "desc:8": "§7§o在以启命英为中心25x25的范围内，遵循康威生命游戏的规则产生魔力\n\n最佳产能花，但是最难使用！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "dandelifeon"
         }
       },
-      "name:8": "Dandelifeon (Great)"
+      "name:8": "启命英（优异）"
     }
   },
   "questID:3": 780,

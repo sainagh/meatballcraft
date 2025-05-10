@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCrafted in the Dreadlands.",
+      "desc:8": "§7§o在恐惧之地制作。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:necronomicon_dre",
@@ -12,7 +12,7 @@
           "PotEnergy:5": 0.0
         }
       },
-      "name:8": "Dreadlands Necronomicon"
+      "name:8": "恐惧之地死灵之书"
     }
   },
   "questID:3": 20124,

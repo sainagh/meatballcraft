@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Neat! I\u0027m now in the position to build some very efficient storage units!",
+      "desc:8": "不错！我现在可以做一些非常高效的存储单元了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "dankstorage:dank_1"
       },
-      "name:8": "Really Compact Storage"
+      "name:8": "极致致密存储"
     }
   },
   "questID:3": 109,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe controller is the main block for all of the pack\u0027s custom multiblocks. \n\nCAREFUL: you should not place multiblocks on chunk boundaries!\n\n§fMy experiments paid off! The rules of technology apply to science. These higher dimensional \u0027mythic fields\u0027 that guide the flow of magic can be harnessed by anything that follows their rules. And this includes machines that will allow me to bring magic to the fires of industrialization!\nAnd so much more...",
+      "desc:8": "§7§o控制器是本整合包中所有自定义多方块结构的核心方块。\n\n注意：不要跨区块放置多方块结构！\n\n§f实验成功了！科技的法则同样适用于魔法领域。只要遵循其运作规律，任何事物都能驾驭这些引导魔法流动的高维“神话场域”。包括将魔法注入工业化烈火的机械装置！\n无数可能等待发掘……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:blockcontroller"
       },
-      "name:8": "Technomancy"
+      "name:8": "科技魔法"
     }
   },
   "questID:3": 72,

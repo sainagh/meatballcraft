@@ -1,7 +1,8 @@
 {
   "betterquesting:10": {
     "editmode:1": 0,
-    "home_image:8": "meatballcraft:textures/gui/title_card.png",
+    "home_image:8": "meatballcraft:textures/gui/default_title.png",
+    "home_offset_y:3": 155,
     "pack_name:8": "Meatballcraft"
   },
   "format:8": "2.1.0"

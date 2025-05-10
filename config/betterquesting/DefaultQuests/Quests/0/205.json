@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I\u0027m not the first one to discover fluix, and it seems like its power was used to hit even more profound depths within Terra.\nBy using fluix as a catalyst, I can reopen the portal that was opened by the one that came before me...\nAnd it brought up an interesting aspect of Testificate society. As a whole, they seem to be fairly ok with the concept of \u0027cancelling history\u0027 with regards to discoveries and technologies that may have caused conflict in the past. \nThis willingness to conveniently forget about uncomfortable history felt quite dangerous, until I discovered more about Testificate secret societies. \nInstead of leaving the knowledge of potentially dangerous discoveries open to the public, the Testificate way is to incorporate those that make these discoveries into specific \u0027secret\u0027 groups in charge of studying said discoveries, and to find responsible applications for them before releasing them to the public. I am still a bit uncomfortable about this way of dealing with science, but I appreciate how Testificate society found a way to deal with dangerous tech that\u0027s not giving nukes to power-hungry governments.",
+      "desc:8": "我并非福鲁伊克斯的首位发现者，这股力量似乎曾被用于探索泰拉更为深邃的底层。\n以福鲁伊克斯为媒介，我能重启前人遗留的传送门……\n此举意外揭示了泰斯提斐人社会的特殊机制。他们对“封存历史”的坦然令我惊异。面对可能引发纷争的旧日科技，整个文明竟达成共识，将相关记忆从公共叙事中剥离。\n起初，这种对禁忌知识的选择性遗忘让我危险异常，直至我更深入了解其隐秘结社的运作真相。\n泰斯提斐人不会将有潜在危险的知识直接公之于众，而是将发现者纳入特定“隐秘”结社。这些结社负责解析禁忌技术，待确保可控后才逐步解禁。我仍对这种处置科学的方式感到有些不适，但比起向嗜权政权递上核按钮的愚行，我更欣赏他们这种处理危险科技的方法。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "extrautils2:teleporter"
       },
-      "name:8": "Even Deeper"
+      "name:8": "至深之处"
     }
   },
   "questID:3": 205,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oKyronite will soon become necessary! You should have a tier 2 void ore miner up and running!\n\n§fIt is now evident that the great powers of the universe see me as some sort of threat. The enemies that are stalking me are definitely getting better equipment, so I think it\u0027s time for some upgrades.\nBlood Magic is a tricky art, but the knowledge of a blood master could grant me some of the power I am looking for!\nBeing absolutely and totally mentally scarred from all of this elder gods stuff, I at least know of recursion.\nThe machines I built using material impregnated with mythic energy, the miners, now make more sense.\nThe power of recursion, which keeps me immortal, is a mythic art, and I am slowly starting to understand it.",
+      "desc:8": "§7§o凯罗尼水晶很快就要用到！你应当建造并运行一台二级虚空矿物采掘机！\n\n§f显然，宇宙中的强大存在已将我视为某种威胁。那些追杀我的敌人显然获得了更精良的装备，是时候该搞些升级了。\n血魔法是门艰深的技艺，但若能掌握血主的奥秘，或许能获得我渴求的力量！\n在经历了这些古神之事后，我的精神已千疮百孔，但也对递归有所领悟。\n先前那些由浸染神话能量的材料建造的采掘机，其运作原理已被我进一步洞悉。\n维系我不朽之躯的递归之力，本身就是一种神话技艺，而我对它的理解正在逐步加深。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:bloodmaster_tome"
       },
-      "name:8": "I may be losing it..."
+      "name:8": "我可能正在逐渐失控……"
     }
   },
   "questID:3": 150,

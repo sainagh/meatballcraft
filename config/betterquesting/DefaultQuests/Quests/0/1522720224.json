@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    1724085619
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis and the following multiblocks all share the same central Quasar, check the compact machines previews for each controller for build guides",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:dark_matter_node"
+      },
+      "name:8": "Quasar Gang - Scattered Edition"
+    }
+  },
+  "questID:3": 1522720224,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:cosmic_balance_coil"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dark_matter_node"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:dyson_scatterer"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

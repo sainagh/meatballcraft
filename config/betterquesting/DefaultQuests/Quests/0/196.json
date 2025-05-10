@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Osiris, is hot, very very hot... but that\u0027s not necessarily a downside, according to the bees that live there.\nThe scorching atmosphere of this planet has been turned into a massive industrial metal-smelting facility, used to produce, armor? For who?\nWhy are there millions of bees forging armor? And since we are asking questions, why are bees, which are evidently quite powerful and well-organized, engaging in all these sorts of activities to begin with? Why don\u0027t they have a unified front? Why are the bees on each planet not working together?",
+      "desc:8": "奥西里斯，这里气候炎热，非常非常热……但这也不算是缺点，这里的蜜蜂似乎很适应这种环境。\n这颗行星的焦灼大气层已被改造为熔炼金属的巨型工业设施，用以锻造，盔甲？为谁而铸？\n为何有数以百万计的蜜蜂在此铸造盔甲？更进一步，为何这些实力强大、组织严明的蜜蜂会各行其是？它们为何不组成统一战线？各个行星上的蜜蜂为何不共同协作？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:serpentine"
       },
-      "name:8": "The Forge World"
+      "name:8": "铸造世界"
     }
   },
   "questID:3": 196,

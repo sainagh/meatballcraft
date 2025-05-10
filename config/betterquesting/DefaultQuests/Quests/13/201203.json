@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,210\nMining Level: Cobalt\nMining Speed: 11.76\nAttack: 14.06\nDarkness\n\nHandle\nModifier: 1.98\nDurability: 400\nPsi Eater\n\nExtra\nDurability: 290\nPsi Eater\n\nBows\nDrawspeed: 0.61\nRange Multiplier: 2.56\nBonus Damage: 10\nPsi Eater",
+      "desc:8": "顶端\n耐久：1,210\n挖掘等级：钴\n挖掘速度：11.76\n攻击力：14.06\n黑暗\n\n手柄\n手柄系数：1.98\n耐久：400\nPsi吞噬\n\n其它部件\n耐久：290\nPsi吞噬\n\n弓\n拉弓速度：0.61\n范围系数：2.56\n附加伤害：10\nPsi吞噬",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "ebonypsi"
         }
       },
-      "name:8": "Ebony Psimetal"
+      "name:8": "乳白色Psi金属"
     }
   },
   "questID:3": 201203,

@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSlay the guardians of the sleeping city in L\u0027Borean.",
+      "desc:8": "§7§o击杀暴风维度中长眠之城里的守卫。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:cleaver_sword",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "The Flim-Flammer"
+            "Name:8": "欺诈者"
           },
           "ench:9": {
             "0:10": {
@@ -26,7 +26,7 @@
           }
         }
       },
-      "name:8": "The Flim-Flammer"
+      "name:8": "欺诈者"
     }
   },
   "questID:3": 1008,
@@ -40,9 +40,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oThe Flim-Flammer§r"
+              "Name:8": "§6§o欺诈者§r"
             },
             "ench:9": {
               "0:10": {

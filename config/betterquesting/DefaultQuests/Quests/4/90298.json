@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oOut of the infinite energy cables, these are the worst for lag!",
+      "desc:8": "§7§o在无限传输线缆中，这种导线最卡！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 8,
         "id:8": "techreborn:cable"
       },
-      "name:8": "Superconductor Cable"
+      "name:8": "超导体导线"
     }
   },
   "questID:3": 90298,

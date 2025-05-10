@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWorks with a filter. Produces a redstone signal if the filter is satisfied.",
+      "desc:8": "§7§o与过滤名单搭配使用。若符合过滤名单条件，发出红石信号。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 12,
@@ -16,7 +16,7 @@
           "StrongSignal:1": 0
         }
       },
-      "name:8": "Detector Module"
+      "name:8": "检测模块"
     }
   },
   "questID:3": 90396,

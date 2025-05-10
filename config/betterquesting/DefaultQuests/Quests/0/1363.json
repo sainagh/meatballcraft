@@ -9,7 +9,7 @@
         "Count:3": 1,
         "id:8": "contenttweaker:furnace_callstone"
       },
-      "name:8": "What is up with Furnaces?"
+      "name:8": "熔炉怎么了？"
     }
   },
   "questID:3": 1363,
@@ -34,7 +34,7 @@
               "Damage:2": 0,
               "id:8": "minecraft:furnace"
             },
-            "TrophyName:8": "Fearless Furnace Fighter",
+            "TrophyName:8": "燃熔锐戎",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

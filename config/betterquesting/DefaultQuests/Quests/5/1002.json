@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oForestry bees can be a bit overwhelming, but these quests should tell you all that you need to breed and automate bees!\n\nFirst step! Get a scoop! This is used to harvest hives that are found all around the universe!\n",
+      "desc:8": "§7§o林业模组的蜜蜂内容有点繁多，但是这些任务应该能帮你搞明白如何繁殖和自动化蜜蜂！\n\n第一步！做一个捕虫网！该物品可用于破坏世界中生成的蜂巢！\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:scoop"
       },
-      "name:8": "How do bees work?!?"
+      "name:8": "蜜蜂的运作机制？！？"
     }
   },
   "questID:3": 1002,

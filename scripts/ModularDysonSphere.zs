@@ -63,20 +63,14 @@ recipes.addShaped(<contenttweaker:dyson_capacitor>,
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hypercapacitor_discharger_x1>, 
 [[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>], 
 [<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
-[<contenttweaker:strings_crystal>, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), <contenttweaker:interdimensional_energy_orb>, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), <contenttweaker:strings_crystal>], 
+[<contenttweaker:strings_crystal>, <contenttweaker:supercharged_signalum>, <contenttweaker:interdimensional_energy_orb>, <contenttweaker:supercharged_signalum>, <contenttweaker:strings_crystal>], 
 [<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
 [<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>]]);  
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hypercapacitor_discharger_x1>, 
-[[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>], 
-[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
-[<contenttweaker:strings_crystal>, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000, "enderio:data": {"faceModes-": 1 as byte, maxOutput: -1, faceDisplayTypes: [3, 0, 1024] as int[], inputControlMode: 0, maxInput: -1, outputControlMode: 0}}), <contenttweaker:interdimensional_energy_orb>, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000, "enderio:data": {"faceModes-": 1 as byte, maxOutput: -1, faceDisplayTypes: [3, 0, 1024] as int[], inputControlMode: 0, maxInput: -1, outputControlMode: 0}}), <contenttweaker:strings_crystal>], 
-[<contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>], 
-[<modularmachinery:itemmodularium>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <contenttweaker:strings_crystal>, <modularmachinery:itemmodularium>]]);  
 
 // recipes.addShaped(<contenttweaker:hypercapacitor_discharger_x1>,
 // [[<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>],
-// [<enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), <contenttweaker:strings_crystal>, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000})],
+// [<contenttweaker:supercharged_signalum>, <contenttweaker:strings_crystal>, <contenttweaker:supercharged_signalum>],
 // [<modularmachinery:itemmodularium>, <contenttweaker:gem_of_recursion>, <modularmachinery:itemmodularium>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hypercapacitor_discharger_x4>, 

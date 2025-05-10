@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "A cutter for all your circuit needs!\nUse holo projector to see multiblock preview.",
+      "desc:8": "满足你所有芯片需求的切割机！\n使用全息投影器查看多方块预览。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "advancedrocketry:cuttingmachine"
       },
-      "name:8": "Cutting Machine"
+      "name:8": "切割机"
     }
   },
   "questID:3": 20728,

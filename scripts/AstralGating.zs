@@ -100,3 +100,9 @@ mods.astralsorcery.Altar.addAttunementAltarRecipe("MeatballCraft:shaped/internal
 // 	//Outer Items, indices 25+
 // 	
 // ]);
+
+
+recipes.addShaped(<contenttweaker:actualized_starlight_sphere>*8, 
+[[<contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>], 
+[<contenttweaker:starlight_sphere>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:starlight_sphere>], 
+[<contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>]]); 

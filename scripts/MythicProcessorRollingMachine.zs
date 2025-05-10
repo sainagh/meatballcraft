@@ -127,3 +127,14 @@ mythroll17.addEnergyPerTickInput(60000);
 mythroll17.addItemInput(<ore:plateTitaniumIridium>*4);
 mythroll17.addItemOutput(<ore:sheetTitaniumIridium>*4);
 mythroll17.build();
+
+val mythroll18 = RecipeBuilder.newBuilder("mythroll18","mythic_processor_rolling_machine",2);
+mythroll18.addEnergyPerTickInput(60000);
+mythroll18.addItemInput(<contenttweaker:divine_ironwood_ingot>);
+mythroll18.addItemInput(<contenttweaker:myrminiobite_ingot>);
+mythroll18.addItemInput(<contenttweaker:barathosynium_ingot>);
+mythroll18.addItemInput(<contenttweaker:deeply_etched_adamantium>);
+mythroll18.addItemInput(<contenttweaker:everburning_recursion_fragment>);
+mythroll18.addItemInput(<contenttweaker:infinity_plate>*4);
+mythroll18.addItemOutput(<contenttweaker:everburning_plating>);
+mythroll18.build();

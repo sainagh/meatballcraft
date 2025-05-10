@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse a wand of the forest in bind mode to bind it to a specific block.\n\nItems dropped on this flower will be teleported there.",
+      "desc:8": "§7§o使用绑定模式下的森林法杖与特定方块绑定。\n\n掉落在这朵花工作范围内的物品将会被传送到绑定地点。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "spectranthemum"
         }
       },
-      "name:8": "Spectranthemum"
+      "name:8": "凌空蓟"
     }
   },
   "questID:3": 1304,

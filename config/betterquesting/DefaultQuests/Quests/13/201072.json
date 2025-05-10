@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 110\nMining Level: Stone\nMining Speed: 2.4\nAttack: 2.5\nTweeting\n\nHandle\nModifier: 0.5\nDurability: 0\nTweeting\n\nExtra\nDurability: 18\nTweeting",
+      "desc:8": "顶端\n耐久：110\n挖掘等级：石头\n挖掘速度：2.4\n攻击力：2.5\n啾啾\n\n手柄\n手柄系数：0.5\n耐久：0\n啾啾\n\n其它部件\n耐久：18\n啾啾",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "charger"
         }
       },
-      "name:8": "Charger"
+      "name:8": "袭击者"
     }
   },
   "questID:3": 201072,

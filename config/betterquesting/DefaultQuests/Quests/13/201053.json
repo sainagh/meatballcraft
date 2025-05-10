@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 630\nMining Level: Cobalt\nMining Speed: 10\nAttack: 6\nPurified\n\nHandle\nModifier: 0.9\nDurability: 60\nPurified\n\nExtra\nDurability: 100\nPurified",
+      "desc:8": "顶端\n耐久：630\n挖掘等级：钴\n挖掘速度：10\n攻击力：6\n净化\n\n手柄\n手柄系数：0.9\n耐久：60\n净化\n\n其它部件\n耐久：100\n净化",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "abyssalnite"
         }
       },
-      "name:8": "Abyssalnite"
+      "name:8": "渊素锭"
     }
   },
   "questID:3": 201053,

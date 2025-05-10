@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Salis Mundus is a strange powder used to activate many thaumic devices. Use on specific blocks to change them into magic tools.",
+      "desc:8": "世界盐是一种可以激活许多神秘设备的奇特粉末。对特定方块使用以将其转变为魔法物品。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:salis_mundus"
       },
-      "name:8": "Salis Mundus"
+      "name:8": "世界盐"
     }
   },
   "questID:3": 20183,

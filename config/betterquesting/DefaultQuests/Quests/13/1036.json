@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTinker\u0027s construct is a tool and armor making mod! \n\nIt is recommended to start off with this mod to make tools in early game!\nLater on, other mods add good tools as well!\n\nFor armor, tinker\u0027s construct is OK, but from chapter 2 onwards it\u0027s probably better to go for other armor sets (although you can make it work).",
+      "desc:8": "§7§o匠魂是一个专攻于工具制作的模组。！\n\n推荐在前期使用该模组的工具！\n之后的流程，也可使用其他模组添加的强力工具！",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -92,7 +92,7 @@
           }
         }
       },
-      "name:8": "All of the Tinkering"
+      "name:8": "匠魂大全"
     }
   },
   "questID:3": 1036,

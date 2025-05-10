@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Volcanite Amulet converts EMC into endless lava.",
+      "desc:8": "熔焰护符可将EMC转换为熔岩。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_volcanite_amulet"
       },
-      "name:8": "Volcanite Amulet"
+      "name:8": "熔焰护符"
     }
   },
   "questID:3": 50058,

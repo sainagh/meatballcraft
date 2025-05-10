@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oStruggling at finding ores? You can use this!\n\n§fThe land of the bugs, Erebus, is a beautiful place, full of amazing natural resources; and yet, the bugs seeked for more, thrudging forward to Terra.",
+      "desc:8": "§7§o苦于寻找矿石？试试这个！\n\n§f节肢之地，混沌之地，是资源丰饶的美丽之地；但虫子仍渴望更多，跋涉来到了泰拉。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:umberstone_callstone"
       },
-      "name:8": "A wee bit of help"
+      "name:8": "小小助力"
     }
   },
   "questID:3": 1252,

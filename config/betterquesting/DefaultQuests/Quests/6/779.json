@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGenerates mana passively, the higher the y leve the better.\n\nWill decay eventually.",
+      "desc:8": "§7§o被动产生魔力，高度越高产魔越高。\n\n会自然枯萎。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "bellflower"
         }
       },
-      "name:8": "Bell Flower (OK)"
+      "name:8": "风铃花（一般）"
     }
   },
   "questID:3": 779,

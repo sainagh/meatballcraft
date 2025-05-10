@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Mortum dimension from DivineRPG.\nThe ore spawns wherever Twilight Stone is.\nCan be crafted from Mortum souls, which drop from Mortum Cadillions, Basilisks, Demons of Darkness, Soul Stealers, and Twilight Archers.\n",
+      "desc:8": "§7§o发现于神圣RPG模组的死域维度。\n有暮光石的地方就会生成。\n可使用死域之魂制作，死域之魂可由死域独角兽、蛇蜥兽、黑暗恶魔、窃魂者以及暮光射手掉落。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:mortum_fragments"
       },
-      "name:8": "Mortum Fragments"
+      "name:8": "死域碎片"
     }
   },
   "questID:3": 70218,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate has twom inputs and two outputs.\n\nThe sides with redstone lines are the inputs, and they can be used interchangeably.\n\nOne of the outputs will be always on, and one will be always off. Receiving a pulse from one of the inputs will invert the two outputs.",
+      "desc:8": "§7§o该逻辑门有两个输入、输出端。\n\n有红石线相连的两侧为输入端，可以互换使用。\n\n其中一个输出端始终输出信号，另一个则始终关闭。当任意一个输入端接收到脉冲信号时，两个输出端的状态会发生反转。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 13,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Toggle Latch"
+      "name:8": "T锁存器"
     }
   },
   "questID:3": 90370,

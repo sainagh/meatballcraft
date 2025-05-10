@@ -5,14 +5,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAstral Sorcery is a mod focused on the power of stars and constellations.\n\nIt provides many powerful player upgrades, as well as rituals that allow for convenience and resource generation.\n\nStarlight is the magic energy that powers this mod; it exists naturally in locations with sky access, but it can be boosted using mod tools.\n\nThe mod has a couple of automatable base mechanics, but custom multiblocks will consist of the bulk of Astral Sorcery automation in the pack.",
+      "desc:8": "§7§o星辉魔法模组专注于星辰与星座之力。\n\n提供了多种强力玩家升级，以及各种便利的仪式。\n\n该模组使用的魔法能量为星能；该能量自然存在于露天环境中，可使用该模组提供的工具进一步增幅。\n\n该模组本身具备一些基础的自动化机制，但本整合包中星辉魔法的大部分自动化都由自定义多方块结构实现。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Astral Sorcery"
+      "name:8": "星辉魔法"
     }
   },
   "questID:3": 20198,

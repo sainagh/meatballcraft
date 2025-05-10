@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSparks can be used to transfer mana between mana pools and other botania items. Right click a spark on the pool to place it.\n\nBy default, all blocks with a spark will share mana equally, but spark augments can be used to change priorities.\n\nDominant: will take mana from other pools until it\u0027s full.\n\nDispersive: will send mana to players.\n\nRecessive: will send mana to other pools if they can take it.\n\nIsolated: will not send mana to other normal sparks.",
+      "desc:8": "§7§o火花用于在魔力池和其他植物魔法物品间传输魔力。使用火花右击魔力池来放置。\n\n默认状态下，所有放有火花的方块将平等分享魔力，但可使用火花升级来改变优先级。\n\n聚集：从其他火花中抽取魔力直至魔力池满。\n\n弥散：向玩家传输魔力。\n\n扩散：向其他火花传输魔力。\n\n隔绝：不向其他普通火花传输魔力。",
       "icon:10": {
         "Count:3": 64,
         "id:8": "botania:spark"
       },
-      "name:8": "I see sparks!"
+      "name:8": "我看见火花了！"
     }
   },
   "questID:3": 762,

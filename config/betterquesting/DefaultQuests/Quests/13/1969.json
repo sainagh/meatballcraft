@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 4000\nMining Level: Stone\nMining Speed: 45.2\nAttack: 44.2\nReflect\nCritikill\nPortly Gentleman\n\nHandle\nModifier: 1\nDurability: 4000\nReflect\nCritikill\nPortly Gentleman\n\nExtra\nDurability: 4000\nReflect\nCritikill\nPortly Gentleman\n",
+      "desc:8": "顶端\n耐久：4000\n挖掘等级：石头\n挖掘速度：45.2\n攻击力：44.2\n反射\n暴击伤害\n憨厚的绅士\n\n手柄\n手柄系数：1\n耐久：4000\n反射\n暴击伤害\n憨厚的绅士\n\n其它部件\n耐久：4000\n反射\n暴击伤害\n憨厚的绅士\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "phasing_alloy"
         }
       },
-      "name:8": "Phasing Alloy"
+      "name:8": "相位合金"
     }
   },
   "questID:3": 1969,

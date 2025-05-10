@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCheck uses for these items for the ritual preview.\n\nThis will summon an imp! ",
+      "desc:8": "§7§o检查材料的用途以查看仪式预览。\n\n会召唤小恶魔！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:hellhound_horn"
       },
-      "name:8": "Conjure Imp (Useful)"
+      "name:8": "召唤仪式（小恶魔）（实用）"
     }
   },
   "questID:3": 1143,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo create custom dimensions with RFTools, you start with an Empty Dimension Tab.\n\nWhile the tab alone can create custom dimensions, it will do so at random, with cool-looking, but often useless results (you may still want to do it a few times). To start a random Dimension, place the Tab in the Dimension Enscriber, and press \u0027Store\u0027.\n\nTo control the contents of these Dimensions, you can use a Dimension Enscriber to add Dimlets to a Dimension. For more info on Dimlets, check their respective JEI info box (search \u0027custom dimlets\u0027 in JEI).\n\nTo activate the Custom Dimension, place it in a Dimension Builder. It will consume the displayed amount of energy to remain active. As long as the dimension has energy, it is accessible. You do not want to be in a dimension if it runs out of energy. Bad things will happen.\n\nTo teleport to your custom Dimension, you can use a Dialing Device to link a Matter Transmitter nearby to the desired dimension.",
+      "desc:8": "§7§o要使用RFTools模组构建自定义维度，首先需要一个空白维度表。\n\n尽管只使用维度表就能创建自定义维度，但此种方法随机性太大，样子很酷，但经常没什么用（你可能还是想试个几次）。要创建随机维度，将维度表放入维度刻录器，然后点击“Store”按钮。\n\n要控制维度的内容，需要使用维度刻录器为维度添加维度卡。查看对应的JEI信息框（在JEI中搜索“自定义维度卡”）来查看更多维度卡相关信息。\n\n要激活自定义维度，需要将其放入维度构建器。构建器会消耗能量以维持维度激活。只要维度还有能量，就能够进入。你不会想待在能量耗尽的维度的。会有坏事发生。\n\n要传送到自定义维度中，可以使用传送控制器将附近的物质传输器连接到目标维度。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftoolsdim:dimension_builder"
       },
-      "name:8": "Creating Dimensions"
+      "name:8": "构建维度"
     }
   },
   "questID:3": 1430343507,

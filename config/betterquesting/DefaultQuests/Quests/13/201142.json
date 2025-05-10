@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,200\nMining Level: Cobalt\nMining Speed: 13.62\nAttack: 9.04\n\nHandle\nModifier: 2.03\nDurability: 350\nDarkness\n\nExtra\nDurability: 200\nDarkness\n\nBows\nDrawspeed: 0.53\nRange Multiplier: 3.54\nBonus Damage: 8\nDarkness",
+      "desc:8": "顶端\n耐久：1,200\n挖掘等级：钴\n挖掘速度：13.62\n攻击力：9.04\n\n手柄\n手柄系数：2.03\n耐久：350\n黑暗\n\n其它部件\n耐久：200\n黑暗\n\n弓\n拉弓速度：0.53\n范围系数：3.54\n附加伤害：8\n黑暗",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "rebalanced_dark_matter"
         }
       },
-      "name:8": "Dark Matter"
+      "name:8": "暗物质"
     }
   },
   "questID:3": 201142,

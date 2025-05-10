@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis ritual nerfs the augments present on living armor to increase the number of upgrade points.",
+      "desc:8": "§7§o该仪式会降级束灵盔甲的强化以增加可用的强化点数。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Penance of the Leadened Soul"
+      "name:8": "沉重灵魂的忏悔"
     }
   },
   "questID:3": 816,

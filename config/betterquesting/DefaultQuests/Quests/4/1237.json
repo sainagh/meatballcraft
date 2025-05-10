@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPackagers and unpackagers are used to autocraft with extended tables, and all recipes that have more than 9 different inputs!",
+      "desc:8": "§7§o封包机和解包机可用于实现合成拓展模组工作台的自动化，以及处理拥有超过9种不同输入材料的配方！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extendedcrafting:table_basic"
       },
-      "name:8": "Extended Auto-Crafting"
+      "name:8": "拓展自动合成"
     }
   },
   "questID:3": 1237,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGiven a template from the genetic transposer, you can use the imprinter to modify a bee\u0027s genes.\n\nIf you want to imprint a queen, you will have to imprint both a princess and a drone, and the resulting queen will be guaranteed to have the desired genes.\n\nWARNING: bees have a (low) chance of being turned into genetic waste, so be careful about imprinting princesses. If you want to avoid losing a princess, imprint a lot of drones, and reiteratively combine them into queens until you have all the desired genes.\n\n§fCan I make my bees Harder, Better, Faster, Stronger? Heck yeah I can!",
+      "desc:8": "§7§o使用处理好的基因模板，你可通过基因压印机来编辑蜜蜂的基因。\n\n如果想将模板应用与蜂后，你需要同时压印公主蜂和雄蜂，这样产出的蜂后才能确保有模板中的基因。\n\n警告：蜜蜂有（小）概率变为垃圾基因，所以在压印公主蜂时要小心。如果想要避免损失公主蜂，可以压印大量的雄蜂，然后反复将其与公主蜂结合变为蜂后，直到所有基因都变为目标基因。\n\n§f我能让自己变得更高更快更强吗？去他喵的我当然可以！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "gendustry:imprinter"
       },
-      "name:8": "Genetic Imprinter"
+      "name:8": "基因压印机"
     }
   },
   "questID:3": 20493,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "In order to endlessly produce matter using EMC, the knowledge of three devices is needed.\nFirsly, collectors generate EMC from light. Glowstone are the better source for these purposes. The more glowstone blocks surrounding a collector, the faster EMC will be produced.\nSecondly, Relays act like like EMC batteries, and are able to transmit this type of power to/from adjacent blocks. This means that the energy from multiple collectors can be funnled into a single block using a Relay.\nFinally, condensers can use EMC provided by adjacent relays and collectors to duplicate a given item.\nA condenser, to remain accessible with maximum efficiency, still has five free faces, and so do relays...",
+      "desc:8": "为了使用EMC来无限产出物质，需要掌握以下三种设备的相关知识。\n首先，能量收集器可从光照中生成EMC。荧石是实现此目标的更好光源。收集器环绕的荧石越多，EMC的产出速度越快。\n其次，反物质继电器就像是EMC电池，可将此类能量与相邻方块进行双向传输。这意味着多个收集器可通过继电器将EMC汇聚到单个方块内。\n最后，凝聚器可使用相邻收集器提供的EMC复制指定物品。\n为了保持最高效率，凝聚器应当保留五个空余面，继电器也是如此……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:collector_mk1"
       },
-      "name:8": "MK1 Power Flower"
+      "name:8": "力量花MK1"
     }
   },
   "questID:3": 20500,

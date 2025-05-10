@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe transmutation table lets learn and reproduce all items that have EMC values!\nPlace an item in the table, or burn it in the fire, to learn it!\nBurnt items add to your personal EMC network, shared between all tables.\nAll items that have been learned can be extracted if your network has enough EMC to sustain them!\nThe klein star can be used to take EMC from your network to be used for other purposes. This can only be done with ProjectE tables, not the ProjectEX ones!\n\n§fThis table is quite full of alchemical powers!\nMany of the objects and materials existing in this universe have a certain amount of alchemical energy embedded in their nature.\nBy exploiting the nature of this energy, the transmutation table allows to convert and transform things, by the law of equivalent exchange.\nThe table can learn objects, and by using this \u0027energy-matter currency\u0027 (EMC) I can have a steady and near-endless supply of many useful things.\nGranted, I would need to set up some way to farm objects with high EMC.",
+      "desc:8": "§7§o转化桌可学习并重现所有拥有EMC值的物品！\n将物品放入转化桌，或放入火焰图标槽位来学习！\n烧掉物品可增加私人EMC网络的EMC值，所有转化桌共享该系统。\n若网络有足够的EMC，所有学习过的物品都可被提取出来！\n卡莱恩能量之星可从网络中提取EMC用于其他用途。\n\n§f这张桌子蕴含着强大的炼金术力量！\n宇宙中的许多物体和材料，其本质中都蕴藏着一定量的炼金能量。\n通过利用这种能量的特性，转化桌能够遵循等价交换法则，将物质进行转换与重构。\n桌子可以学习物品属性，并利用这种“能量-物质共价性”（EMC），让我几乎无限地获取各种实用物资。\n当然，前提是我能建立某种自动化手段，来持续生产高EMC值的物品。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:transmutation_table"
       },
-      "name:8": "Transmutation Table"
+      "name:8": "转化桌"
     }
   },
   "questID:3": 20209,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oLeft click the pickaxe on the bedrock at the bottom of the overworld to create a portal to the bedrock dimension.\n\nThe bedrock here can only be broken using the Kamium pickaxe.\n\n§fOut of all the strange artifacts I have encountered in my journey of Thaumaturgy, a pickaxe capable of generating wormholes is the last thing I imagined.\nKamium, this strange and powerful material, rather than being permeated with vis or aura, seems to possess a different type of force, something that sounds familiar, and yet I have no idea what it is.\nThe wormhole opened by this artifact is fairly mundane, it is solely composed of hard bedrock, with large veins of minerals. I guess it could be useful for someone that is more resource-starved than I am.",
+      "desc:8": "§7§o使用这把镐子左键点击主世界底部的基岩以生成前往基岩维度的传送门。\n\n那里的基岩只能用神灵素镐破坏。\n\n§f在探索神秘学的旅程中，这把能生成虫洞的镐子完全出乎我的想象。\n神灵素这种奇特强大的材质，既非充盈魔力也非浸透灵气，似乎蕴含着另一种力量，这种力量听起来耳熟，却又完全陌生。\n由它开启的虫洞相当单调，仅由坚硬基岩构成并蕴含丰富矿脉。我想对于那些比我更需要资源的人来说，或许能派上用场。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumictinkerer:ichorium_pick_adv",
@@ -12,7 +12,7 @@
           "awaken:3": 0
         }
       },
-      "name:8": "The World of Bedrock"
+      "name:8": "基岩世界"
     }
   },
   "questID:3": 2044693951,
@@ -28,13 +28,12 @@
             "TrophyColorBlue:3": 0,
             "TrophyColorGreen:3": 0,
             "TrophyColorRed:3": 0,
-            "TrophyEarnedAt:4": 1727129438,
             "TrophyItem:10": {
               "Count:1": 1,
               "Damage:2": 0,
               "id:8": "thaumictinkerer:ichorium_pick_adv"
             },
-            "TrophyName:8": "Kamium Miners Inc.",
+            "TrophyName:8": "神灵素矿业公司",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

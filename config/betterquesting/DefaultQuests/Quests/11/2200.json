@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUnlock hard mode!",
+      "desc:8": "§7§o解锁困难模式！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrabotany:combatmaidchestdarkened",
@@ -23,7 +23,7 @@
           "isnight:1": 0
         }
       },
-      "name:8": "Combat Maid"
+      "name:8": "战斗女仆"
     }
   },
   "questID:3": 2200,
@@ -37,9 +37,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oHelm of Gluttony§r"
+              "Name:8": "§6§o暴食头盔§r"
             },
             "ench:9": {
               "0:10": {
@@ -55,9 +55,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oChest of Gluttony§r"
+              "Name:8": "§6§o暴食胸甲§r"
             },
             "ench:9": {
               "0:10": {
@@ -74,9 +74,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oLegs of Gluttony§r"
+              "Name:8": "§6§o暴食护腿§r"
             },
             "ench:9": {
               "0:10": {
@@ -92,9 +92,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oBoots of Gluttony§r"
+              "Name:8": "§6§o暴食靴子§r"
             },
             "ench:9": {
               "0:10": {

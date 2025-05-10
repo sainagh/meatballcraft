@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound between Y\u003d5 and Y\u003d17.\nCan be dropped by Cave Crawlers and Caveclops.\n",
+      "desc:8": "§7§o发现于Y\u003d5与Y\u003d17之间。\n可由洞穴爬行者和洞穴独眼巨人掉落。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:realmite_ingot"
       },
-      "name:8": "Realmite Ingot"
+      "name:8": "现石锭"
     }
   },
   "questID:3": 70087,

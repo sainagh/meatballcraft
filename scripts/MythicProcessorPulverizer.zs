@@ -1290,3 +1290,24 @@ mythpulv206.addItemInput(<ore:itemClay> * 16);
 mythpulv206.addItemOutput(<techreborn:dust:12>*16);
 mythpulv206.build();
 
+
+val mythpulv207 = RecipeBuilder.newBuilder("mythpulv207","mythic_processor_pulverizer",2);
+mythpulv207.addEnergyPerTickInput(60000);
+mythpulv207.addItemInput(<contenttweaker:everburning_seed>);
+mythpulv207.addItemOutput(<contenttweaker:everburning_dust>*32);
+mythpulv207.build();
+
+
+val mythpulv208 = RecipeBuilder.newBuilder("mythpulv208","mythic_processor_pulverizer",2);
+mythpulv208.addEnergyPerTickInput(60000);
+mythpulv208.addItemInput(<contenttweaker:quasar_charged_gem>);
+mythpulv208.addItemOutput(<contenttweaker:quasar_charged_dust>*8);
+mythpulv208.build();
+
+
+val mythpulv209 = RecipeBuilder.newBuilder("mythpulv209","mythic_processor_pulverizer",2);
+mythpulv209.addEnergyPerTickInput(60000);
+mythpulv209.addItemInput(<contenttweaker:neutronium_pearl>);
+mythpulv209.addItemOutput(<avaritia:resource:2>*10000);
+mythpulv209.build();
+

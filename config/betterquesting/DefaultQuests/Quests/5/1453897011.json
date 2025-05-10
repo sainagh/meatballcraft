@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Taxcollector bee will produce the drops of nearby mobs. This will be used in some specific farms.\n\nTo reduce the entity lag from the mobs used in these farms, a boat and a passifier syringe can be used to reduce mob AI.",
+      "desc:8": "§7§o收税官蜜蜂能产出附近生物的掉落物。可用于制作特殊的“刷怪场”。\n\n为减少其使用的生物造成的实体卡顿，可使用船和镇静剂注射器来移除生物AI。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_queen_ge",
@@ -152,7 +152,7 @@
           "MaxH:3": 50
         }
       },
-      "name:8": "Taxcollector Farm"
+      "name:8": "收税官刷怪场"
     }
   },
   "questID:3": 1453897011,

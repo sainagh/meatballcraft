@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUncover the mystery of rhenia.",
+      "desc:8": "§7§o揭开铼界的秘密。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:dreadiumsamuraihelmet",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Stinger Samurai Helm"
+            "Name:8": "尖刺武士头盔"
           },
           "ench:9": {
             "0:10": {
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Stinger Samurai Helm"
+      "name:8": "尖刺武士头盔"
     }
   },
   "questID:3": 973,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oStinger Samurai Helm§r"
+              "Name:8": "§6§o尖刺武士头盔§r"
             },
             "ench:9": {
               "0:10": {

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in hard-to-see meteors.",
+      "desc:8": "§7§o发现于很难看到的陨石。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 76,
         "id:8": "contenttweaker:material_part"
       },
-      "name:8": "Rhenium Ingot"
+      "name:8": "铼锭"
     }
   },
   "questID:3": 70212,

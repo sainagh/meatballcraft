@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate works like an AND gate that saves state over time.\n\nThe output side is the one with a torch. The side opposite to it is the reset, and the two sides with the square lamps are the inputs.\n\nIf one of the inputs receives a signal, the corresponding light will turn on.\n\nThe output will produce a pulse after both lights are turned on.\n\nIf a redstone signal is applied to the reset side, it will turn off both lights.",
+      "desc:8": "§7§o该逻辑门和与门类似，但能保存其输入状态。\n\n有火把的一侧是输出端，其对面为重置端，有方形小灯的两侧为输入端。\n\n一旦输入端接收到信号，其对应的灯就会亮起。\n\n当两个输入端的灯都点亮后，输出端会产生脉冲信号。\n\n若重置端接收到红石信号，两盏灯都会熄灭。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 21,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Synchronizer"
+      "name:8": "同步器"
     }
   },
   "questID:3": 90385,

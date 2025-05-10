@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oComes from the Runandor Dimension from Advent of Ascension.\nCan be found in Shiny Boxes.\nCan be found between Y\u003d1 to Y\u003d34 wherever there is Runic Bricks.\n",
+      "desc:8": "§7§o来自虚无世界模组的符境维度。\n可通过打开闪亮的盒子获得。\n可发现于Y\u003d1与Y\u003d34之间有符文块砖的地方。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:elecanium_ingot"
       },
-      "name:8": "Elecanium Ingot"
+      "name:8": "荧银锭"
     }
   },
   "questID:3": 70221,

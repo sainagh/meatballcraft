@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests highlight misc resource-making sources for later on.\n",
+      "desc:8": "§7§o下列任务列举了后续可用的杂项资源获取途径。\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Misc Resources"
+      "name:8": "杂项资源"
     }
   },
   "questID:3": 1570,

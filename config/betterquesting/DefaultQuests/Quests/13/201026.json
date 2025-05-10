@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 900\nMining Level: Cobalt\nMining Speed: 7\nAttack: 6\nTwilit\nStalwart\n\nHandle\nModifier: 1.25\nDurability: 100\nTwilit\nStalwart\n\nExtra\nDurability: 400\nTwilit\nStalwart",
+      "desc:8": "顶端\n耐久：900\n挖掘等级：钴\n挖掘速度：7\n攻击力：6\n暮光\n坚毅\n\n手柄\n手柄系数：1.25\n耐久：100\n暮光\n坚毅\n\n其它部件\n耐久：400\n暮光\n坚毅",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "knightmetal"
         }
       },
-      "name:8": "Knightmetal"
+      "name:8": "骑士金属"
     }
   },
   "questID:3": 201026,

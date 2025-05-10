@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWhile reciving a redstone signal from its input side, this gate produces random redstone pulses §7§ofrom all other sides.\n\nRight click with a screwdriver to activate or deactivate each output.",
+      "desc:8": "§7§o从输入端接收到红石信号时，该逻辑门会向其他侧面输出随机红石信号。\n\n使用螺丝刀右击可设置每个输出端的启用状态。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 11,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Randomizer"
+      "name:8": "随机信号发生器"
     }
   },
   "questID:3": 90383,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 5,520\nMining Level: Cobalt\nMining Speed: 22.25\nAttack: 15.03\nProsperous\nDuritae\n\nHandle\nModifier: 1.35\nDurability: 200\nProsperous\n\nExtra\nDurability: 300\nProsperous\n\nBows\nDrawspeed: 0.75\nRange Multiplier: 2.35\nBonus Damage: 7.32\nProsperous",
+      "desc:8": "顶端\n耐久：5,520\n挖掘等级：钴\n挖掘速度：22.25\n攻击力：15.03\n活化\n持久\n\n手柄\n手柄系数：1.35\n耐久：200\n活化\n\n其它部件\n耐久：300\n活化\n\n弓\n拉弓速度：0.75\n范围系数：2.35\n附加伤害：7.32\n活化",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "ma.supremium"
         }
       },
-      "name:8": "Supremium"
+      "name:8": "终极精华"
     }
   },
   "questID:3": 201106,

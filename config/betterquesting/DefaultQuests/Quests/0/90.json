@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo charge items and armor with RF. There are other options available in the logistics and organization tab!",
+      "desc:8": "§7§o用来为物品和盔甲充能。物流与管理标签页中有更多其他可选方法！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 9,
@@ -24,7 +24,7 @@
           ]
         }
       },
-      "name:8": "Energetic Infuser"
+      "name:8": "能量灌注机"
     }
   },
   "questID:3": 90,

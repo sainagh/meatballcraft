@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I still gotta figure out all the details, but it seems like meatballs have a role in the power struggle in Terra. This sounds crazy, but the sentient meatballs are an actual thing, and they have a goal.\n\nFollowing their traces, I stumbled into a monument that seems to be tied to the struggle against the meatballs\u0027 leader. \u0027The arbiter must stop him\u0027, but who is the arbiter, and when was this message sent?",
+      "desc:8": "尽管尚未完全理清脉络，但肉丸似乎在泰拉的权力博弈中扮演着关键角色。听来荒诞，但具备自我意识的觉识肉丸真实存在，且怀有明确目标。\n\n追寻其踪迹，我误入了一座一座与对抗肉丸首领相关的古老遗迹。“理序主必须阻止祂”，但理序主是谁？这条讯息又源自何年？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:fluix_callstone"
       },
-      "name:8": "Who is this Arbiter?"
+      "name:8": "理序主是谁？"
     }
   },
   "questID:3": 1139,

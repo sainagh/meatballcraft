@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe smeltery is made out of seared bricks (or other seared blocks). \nIt needs a smeltery controller, and at least a seared tank (or other fuel sources), and they can be placed anywhere in the structure.\nThe multiblock consists of a hollow cuboid without edges, and an open top.\nSeared drains with faucets are used to output molten metals to casting tables and basins.\n\n§fFinally at the bronze age! By building a smeltery, I can extract metal from ore more efficiently, and I can start making alloys!",
+      "desc:8": "§7§o冶炼炉由焦黑石砖（或其他焦黑方块）构成。\n\n冶炼炉需要一个冶炼炉控制器，至少一个焦黑储罐（或者其他燃料源），两者可放置在结构的任意面。\n\n该多方块结构为不封顶的无棱中空立方体框架。\n\n配备浇注口的焦黑排液口可将熔融金属输送至浇铸台与铸造盆。\n\n§f终于迈入青铜时代！冶炼炉不仅能提升矿石提炼效率，还能让我开始冶炼合金！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:smeltery_controller"
       },
-      "name:8": "Alloys"
+      "name:8": "合金"
     }
   },
   "questID:3": 43,

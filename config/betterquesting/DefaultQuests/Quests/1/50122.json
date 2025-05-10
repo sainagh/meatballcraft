@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The goggles of revealing are used to observe many Thaumic phenomena.\nMany of the thaumic fields, which are naturally intangible and impossible to observe, become evident while wearing these goggles.",
+      "desc:8": "揭示之护目镜可用于观测多种神秘学现象。\n许多原本无形且无法观测的神秘学场域，在佩戴这种护目镜时都会变得清晰可见。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:goggles"
       },
-      "name:8": "Goggles of Revealing"
+      "name:8": "揭示之护目镜"
     }
   },
   "questID:3": 50122,

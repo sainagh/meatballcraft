@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "3x3 crafting, and glass",
+      "desc:8": "3x3合成配方，需要玻璃",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:fabricator"
       },
-      "name:8": "Thermionic Fabricator"
+      "name:8": "热电子加工台"
     }
   },
   "questID:3": 20590,

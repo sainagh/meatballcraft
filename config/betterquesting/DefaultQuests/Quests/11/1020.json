@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAssemble the cold iron forge, slay some beetles!",
+      "desc:8": "§7§o组装寒铁锻台，杀一些甲虫！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "erebus:war_hammer",
@@ -17,7 +17,7 @@
           "RepairCost:3": 1,
           "charge:3": 0,
           "display:10": {
-            "Name:8": "Mjolnir"
+            "Name:8": "妙尔尼尔"
           },
           "ench:9": {
             "0:10": {
@@ -39,7 +39,7 @@
           }
         }
       },
-      "name:8": "Mjolnir"
+      "name:8": "妙尔尼尔"
     }
   },
   "questID:3": 1020,
@@ -54,9 +54,9 @@
             "charge:3": 0,
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oMjolnir§r"
+              "Name:8": "§6§o妙尔尼尔§r"
             },
             "ench:9": {
               "0:10": {

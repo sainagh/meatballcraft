@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPrevents other players from entering an area within 12 blocks of the ritual.",
+      "desc:8": "§7§o阻止其他玩家进入12格半径内的仪式范围。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Aura of Expulsion"
+      "name:8": "驱逐氛场"
     }
   },
   "questID:3": 826,

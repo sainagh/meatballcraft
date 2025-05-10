@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Thermoelectric generators are the best way to get started",
+      "desc:8": "热传导发电机最适合用来起步",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:stone"
       },
-      "name:8": "Chapter 1 Sources"
+      "name:8": "第1章能量来源"
     }
   },
   "questID:3": 50148,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThese will allow you to move items extremely fast, but be careful, fast item transfer is very laggy!",
+      "desc:8": "§7§o可以极快的速度传输物品，但是小心，速度过快会很卡！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:redstone"
       },
-      "name:8": "Fast Item Transfer"
+      "name:8": "高速物品传输"
     }
   },
   "questID:3": 1183,

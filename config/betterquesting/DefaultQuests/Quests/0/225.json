@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in a giant tree in the ulterior outback.\n\n§fWhile bugs on Terra seem to be fairly friendly to each other, things on the other side of the wormhole, in Erebus, are a bit more complex.\nArthropods are not universally peaceful towards each other, but the threat of a possible bigger harm, in the form of a giant tarantula witch, was enough to force an unwanted peace.\nMultiple factions still engage in skirmishes, but the threat of the Brood Mother seems enough to allow for a united front with regards to the invasion of Terra.",
+      "desc:8": "§7§o发现于隐秘之地（Ulterior Outback）群系的巨大树木中。\n\n§f尽管泰拉上的虫子看似和谐相处，但在虫洞的另一端，混沌之地的情况则更为复杂。\n节肢动物间并非全然和平，但巨型狼蛛女巫带来的威胁迫使它们维持着脆弱的统一。\n各派系仍有摩擦，不过在入侵泰拉时，育母狼蛛的威慑足以让它们组成联合阵线。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "erebus:tarantula_egg"
       },
-      "name:8": "Queen of Spiders"
+      "name:8": "蜘蛛女王"
     }
   },
   "questID:3": 225,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "erebus:tarantula_egg"
             },
-            "TrophyName:8": "Tarantula Slayer",
+            "TrophyName:8": "狼蛛屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

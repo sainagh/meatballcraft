@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe MK2 extruder can place fake blocks with configurable properties.",
+      "desc:8": "§7§o使造桥模块 Mk2能放置自定义属性的虚拟方块。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 8,
         "id:8": "modularrouters:augment"
       },
-      "name:8": "Mimic Augment"
+      "name:8": "模仿拓展"
     }
   },
   "questID:3": 90435,

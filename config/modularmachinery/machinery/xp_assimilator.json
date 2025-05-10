@@ -1,0 +1,3254 @@
+{
+    "registryname": "xp_assimilator",
+    "localizedname": "Experience Bath",
+	"color": "dbcba0",
+    "parts": [
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "bewitchment:coquina_brick_stairs@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:bewitched_essence_salts"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bewitchment:coquina_smooth@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:ironpane@11"
+            ]
+        }
+    ]}

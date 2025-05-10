@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlaces blocks into a specific block space at a distance.",
+      "desc:8": "§7§o远距离放置方块到特定位置。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_phantom_placer"
       },
-      "name:8": "Phantom Placer"
+      "name:8": "幻灵方块放置器"
     }
   },
   "questID:3": 90199,

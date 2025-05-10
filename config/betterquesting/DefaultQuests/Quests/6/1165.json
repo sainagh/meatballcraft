@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMakes it night.",
+      "desc:8": "§7§o时间变为黑夜。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:red_flower"
       },
-      "name:8": "Rite of the High Moon"
+      "name:8": "皎月高悬仪式"
     }
   },
   "questID:3": 1165,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGo to any Darklands biome at night, and kill Shadow Monsters, Shadow Creatures, or Shadow Beasts (best ones).",
+      "desc:8": "§7§o在夜晚前往黑暗之地（Darklands）群系，在哪里击杀阴影怪物、阴影活物、阴影野兽（野兽最好）。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:shadowgem"
       },
-      "name:8": "Shadow Gem"
+      "name:8": "阴影宝石"
     }
   },
   "questID:3": 20127,

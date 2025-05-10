@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIf you break a Dimensional Door inside a pocket dimension by mistake, you can use this to get out.",
+      "desc:8": "§7§o如果不小心在口袋维度里破坏了维度门，可使用该物品脱出。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "dimdoors:oak_dimensional_door"
       },
-      "name:8": "I\u0027m Stuck"
+      "name:8": "我卡住了"
     }
   },
   "questID:3": 2283,

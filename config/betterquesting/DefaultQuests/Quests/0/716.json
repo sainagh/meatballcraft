@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Everyone keeps secrets, that\u0027s just part of being a person. Sometimes it is shame that drives us to hide things, but sometimes we just hide things for absolutely no reason.\nAnd sometimes, we hide things from ourselves, afraid of what may happen.\nThis seems to be the main motivation behind the hidden Pharos powers of the bees of Ptah. \nBees are nice and helpful, really nice and helpful, so it is easy to take them as just that, but it is clear now that even they have their own politics, and most importantly, a bigger overarching goal, that goes beyond just helping everyone around them.\nI\u0027m not really sure how, but I seem to have passed some sort of test, and the bees now trust me. Something big is in the works.",
+      "desc:8": "人人都有秘密，人性如此。有时是羞耻驱使着我们隐藏秘密，但有时，则根本是毫无缘由。\n还有一些情况，我们会向自己隐瞒真相，只因恐惧可能得后果。\n普塔蜜蜂们深藏星炬之力的主要动机，似乎正是如此。\n蜜蜂温顺又乐于助人，如此纯粹的特质容易让人产生单一认知，但如今真相渐明：即便是蜜蜂，也有其独特的政治生态，更重要的是，它们怀揣着超越单纯助人的、更为宏大的目标。\n不知何故，我似乎通过了某种考验，赢得了蜜蜂的信任。大的要来了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:ptah_spinel"
       },
-      "name:8": "Secrets of Ptah"
+      "name:8": "普塔的秘密"
     }
   },
   "questID:3": 716,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:ptah_spinel"
             },
-            "TrophyName:8": "Powerful Radiance",
+            "TrophyName:8": "光辉伟力",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

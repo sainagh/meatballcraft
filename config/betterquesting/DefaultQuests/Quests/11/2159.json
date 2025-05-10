@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oComplete the runic ore puzzle.",
+      "desc:8": "§7§o完成符文矿石谜题。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:starsword",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Caliburn"
+            "Name:8": "石中剑"
           },
           "ench:9": {
             "0:10": {
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Caliburn"
+      "name:8": "石中剑"
     }
   },
   "questID:3": 2159,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oCaliburn§r"
+              "Name:8": "§6§o石中剑§r"
             },
             "ench:9": {
               "0:10": {

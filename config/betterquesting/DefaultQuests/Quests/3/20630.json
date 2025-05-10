@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The corrupted library uses artifacts from Iceika and Arcana to fabricate things magically.",
+      "desc:8": "腐化图书馆使用来自冰晶雪原和秘界的古代遗物，以魔法之力合成物品。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:corrupted_library"
         }
       },
-      "name:8": "Corrupted Library"
+      "name:8": "腐化图书馆"
     }
   },
   "questID:3": 20630,

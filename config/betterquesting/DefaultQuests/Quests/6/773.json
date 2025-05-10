@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPushes items in a given direction at a small cost of mana.\n\nRight clicking with a wand of the forest changes the pushing direction. ",
+      "desc:8": "§7§o消耗少许魔力，将物品向设定的水平方向推动。\n\n使用工作模式下的森林法杖潜行右击来更改方向。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "daffomill"
         }
       },
-      "name:8": "Daffomill"
+      "name:8": "扇水仙"
     }
   },
   "questID:3": 773,

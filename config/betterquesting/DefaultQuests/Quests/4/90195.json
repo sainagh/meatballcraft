@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oScans the blockspace adjacent to the red circle.\n\nProduces a redstone signal if the block type in that space matches the target one.\n\nThe target is set by clicking \u0027set to current block\u0027.",
+      "desc:8": "§7§o扫描红圈所对的方块空间。\n\n若空间内方块与目标方块相匹配，发出红石信号。\n\n目标方块可通过点击界面中的“设置为当前方块”按钮来设置。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:scanner"
       },
-      "name:8": "Scanner"
+      "name:8": "扫描仪"
     }
   },
   "questID:3": 90195,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAdds a 10 tick delay for the dropper and flinger modules.",
+      "desc:8": "§7§o为投掷器和发射器模块丢出的物品增加10 tick延迟。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "modularrouters:augment"
       },
-      "name:8": "Pickup Delay Augment"
+      "name:8": "拾取延迟拓展"
     }
   },
   "questID:3": 90408,

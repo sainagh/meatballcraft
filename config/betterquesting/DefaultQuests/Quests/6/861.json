@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following contellations can be used to add a second attunement to a crystal, to modify its ritual effects.\n\nAlcara: corrupts the ritual, and gives an opposite effect.\n\nGelu: increases range, but lowers speed.\n\nUlteria: increases speed, but lowers range.\n\nVorux: increases range and speed, but the crystal has a chance of breaking.",
+      "desc:8": "§7§o以下星座可用于为水晶添加第二种共鸣，改变仪式效果。\n\n振变座：破坏仪式，造成反向效果。\n\n寒冰座：增加范围，但降低速度。\n\n避役座：提高速度，但减少范围。\n\n贪狼座：增加范围，提高速度，但水晶有概率断裂。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:itemcelestialcrystal",
@@ -20,7 +20,7 @@
           }
         }
       },
-      "name:8": "Secondary Attunmenet"
+      "name:8": "第二共鸣"
     }
   },
   "questID:3": 861,

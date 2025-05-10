@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Coralium Infested Swamps, and at the bottom of oceans!\nCoralium Ore is craftable.\nFound in Nether Fortress chests.",
+      "desc:8": "§7§o发现于珊瑚侵染沼泽（Coralium Infested Wwamp）以及海洋（Ocean）群系之下！\n珊瑚矿石存在配方。\n发现于下界要塞箱子。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:coralium"
       },
-      "name:8": "Coralium Gem"
+      "name:8": "珊瑚宝石"
     }
   },
   "questID:3": 70064,

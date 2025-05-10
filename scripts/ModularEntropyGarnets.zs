@@ -231,3 +231,37 @@ mythasstrulyallofthem.build();
 
 
 
+val mythassevenmoreofthem = RecipeBuilder.newBuilder("mythassevenmoreofthem","me_mythic_assembler",10);
+mythassevenmoreofthem.addEnergyPerTickInput(5000000);
+mythassevenmoreofthem.addFluidInput(<fluid:resonating_matter>*200);
+mythassevenmoreofthem.addFluidInput(<fluid:recursive_life_essence>*200);
+mythassevenmoreofthem.addItemInput(<contenttweaker:recursion_fragment_terra>);
+mythassevenmoreofthem.addItemInput(<contenttweaker:quasar_charged_dust>);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:precasia_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:abyss_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:lelyetia_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:barathos_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:creeponia_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:deeplands_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:vox_ponds_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:mysterium_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:iromine_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:haven_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:candyland_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:crystevia_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:gardencia_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:celeve_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:borean_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:lunalus_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:runandor_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:ancient_cavern_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:immortallis_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:greckon_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:dustopia_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:vethea_garnet>*256);
+mythassevenmoreofthem.addItemOutput(<contenttweaker:shyrelands_garnet>*256);
+mythassevenmoreofthem.build();
+
+
+
+

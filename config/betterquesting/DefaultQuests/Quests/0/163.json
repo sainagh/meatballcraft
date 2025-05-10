@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDo this ASAP\n\n§fMore Mythic minerals, more Shyre matter!\nThis mythic magic, while it is still mostly unknown to me, definitely has rules.\nFirst, energy; it requires lots and lots of energy.\nSecond, power is directly tied to energy expenditure; the more energy is given, the higher the nature of what is produced.\n",
+      "desc:8": "§7§o尽早做出来\n\n§f神话矿物愈多，塞尔瑞物质愈多！\n虽然尚未完全参透这种神话魔法的奥秘，但其确实自有规则：\n第一点，能量；需要很多很多的能量。\n第二点，威能与能量供给直接相关；给予的能量越多，产物的本质位阶越高。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier2"
         }
       },
-      "name:8": "Nether Mythical Resources"
+      "name:8": "下界神话资源"
     }
   },
   "questID:3": 163,

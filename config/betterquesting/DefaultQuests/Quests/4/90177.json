@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe fluid terminal lets you access all fluids stored in your AE2 storage system.\n\nUse buckets and other fluid storage to extract fluids from the terminal!\n\nWARNING: if you plan to manage fluids with AE2, you should use a subnet to store and move fluids, and prevent access from the main network. This will reduce lag by a lot!",
+      "desc:8": "§7§o流体终端可查看AE网络中的所有流体！\n\n使用桶和其他流体容器从终端中提取流体！\n\n警告：若计划使用AE2来管理流体，应当用单独的子网来存储、传输流体，避免通过主网访问。这样可减少很多卡顿！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 520,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "ME Fluid Terminal"
+      "name:8": "ME流体终端"
     }
   },
   "questID:3": 90177,

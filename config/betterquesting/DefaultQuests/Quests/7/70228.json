@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Shyrelands Dimension by Advent of Ascension.\nCan be dropped by Xxeus and Stimulosus.\nCan be found in Loot Chests in the Luxocron Dungeon, Ruined House, Shyre Mausoleum, and Shyre Shelter.\nCan be found between Y\u003d64 to Y\u003d104 wherever there is Shyre Rock.\n",
+      "desc:8": "§7§o发现于虚无世界模组的赛尔瑞维度。\n可在洛梵地牢、遗迹小屋、塞尔瑞陵墓以及塞尔瑞庇护所中的奖励箱内发现。\n可发现于Y\u003d64与Y\u003d104之间有塞尔瑞岩石的地方。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:shyrestone_ingot"
       },
-      "name:8": "Shyrestone Ingot"
+      "name:8": "塞尔瑞石锭"
     }
   },
   "questID:3": 70228,

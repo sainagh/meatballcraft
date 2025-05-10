@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDrops items vertically in an exact straight line.",
+      "desc:8": "§7§o以精确的直线垂直投掷物品。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_dropper"
       },
-      "name:8": "Automatic Precision Dropper"
+      "name:8": "自动精准投掷器"
     }
   },
   "questID:3": 90203,

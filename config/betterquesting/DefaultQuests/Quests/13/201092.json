@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 100\nMining Level: Iron\nMining Speed: 8\nAttack: 6\nFamine\nCold-Blooded\n\nHandle\nModifier: 0.5\nDurability: 0\nCold-Blooded\n\nExtra\nDurability: 50\nCold-Blooded\n\nBows\nDrawspeed: 0.5\nRange Multiplier: 1\nBonus Damage: -1\nCold-Blooded",
+      "desc:8": "顶端\n耐久：100\n挖掘等级：铁\n挖掘速度：8\n攻击力：6\n饥荒\n冷血\n\n手柄\n手柄系数：0.5\n耐久：0\n冷血\n\n其它部件\n耐久：50\n冷血\n\n弓\n拉弓速度：0.5\n范围系数：1\n附加伤害：-1\n冷血",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "mod_lavacow.scythe_claw"
         }
       },
-      "name:8": "Scythe Claw"
+      "name:8": "镰刀爪"
     }
   },
   "questID:3": 201092,

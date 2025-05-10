@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe key will guide you to your grave",
+      "desc:8": "§7§o钥匙将指引你前往你的坟墓\n\n若由于某些原因，坟墓没有生成，可使用该命令恢复物品栏物品：\n/ob_inventory restore [玩家名称] [物品栏备份]\n使用TAB键来选择最近一次死亡时的[物品栏备份]",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -13,7 +13,7 @@
         "id:8": "tombstone:grave_key",
         "tag:10": {}
       },
-      "name:8": "First Death"
+      "name:8": "第一次死亡"
     }
   },
   "questID:3": 7,
@@ -39,7 +39,7 @@
               "Damage:2": 3,
               "id:8": "tombstone:crafting_ingredient"
             },
-            "TrophyName:8": "First Death EZ",
+            "TrophyName:8": "轻取初次阵亡",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

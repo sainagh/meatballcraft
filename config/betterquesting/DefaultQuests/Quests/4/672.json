@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": " §7§oWireless version of the fluid terminal.",
+      "desc:8": " §7§o无线版本的流体终端。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:wireless_fluid_terminal",
         "tag:10": {}
       },
-      "name:8": "Wireless Fluid Terminal"
+      "name:8": "无线流体终端"
     }
   },
   "questID:3": 672,

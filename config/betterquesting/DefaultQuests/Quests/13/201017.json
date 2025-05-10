@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 106\nMining Level: Diamond\nMining Speed: 6.75\nAttack: 1.25\nCrude II\n\nHandle\nModifier: 1.25\nDurability: 100\nLightweight\n\nExtra\nDurability: 250\nLightweight\n\nBows\nDrawspeed: 0.67\nRange Multiplier: 0.9\nBonus Damage: 1.25\nLightweight",
+      "desc:8": "顶端\n耐久：106\n挖掘等级：钻石\n挖掘速度：6.75\n攻击力：1.25\n粗暴 II\n\n手柄\n手柄系数：1.25\n耐久：100\n轻便\n\n其它部件\n耐久：250\n轻便\n\n弓\n拉弓速度：0.67\n范围系数：0.9\n附加伤害：1.25\n轻便",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "conductive_iron"
         }
       },
-      "name:8": "Conductive Iron"
+      "name:8": "导电铁"
     }
   },
   "questID:3": 201017,

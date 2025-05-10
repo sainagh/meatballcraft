@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oConstantly consumes LP to speed up plant growth.\n\nIf there is will in the chunk, the ritual can be upgraded:\n\nRaw: increased speed\n\nCorrosive: entities are damaged for extra plant speed\n\nDestructive: the more will, the faster\n\nVengeful: increases frequency of growth ticks\n\nSteadfast: replants crops, and hydrates soil with no water",
+      "desc:8": "§7§o持续消耗LP以加速植物生长。\n\n若区块内存在意志，仪式可被升级：\n\n原生：提高速度\n\n腐蚀：伤害实体以额外提高速度\n\n破坏：意志越多，速度越快\n\n复仇：提高生长随机刻频率\n\n坚毅：补种作物，湿润耕地",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Green Grove"
+      "name:8": "绿丛仪式"
     }
   },
   "questID:3": 834,

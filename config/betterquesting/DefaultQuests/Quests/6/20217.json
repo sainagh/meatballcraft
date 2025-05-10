@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo enter the emptiness, you need to use the fracture locator to find fractures. The nether roof is a good place to look for them. The locator will glow if you are nearby a fracture.\n\nTo open the fracture you need to use a fully charged thaumium or voidseer casting gauntlet augmented with the impetus conductor. To charge the augmented gauntlet, stand nearby a flux rift, and it will slowly consume it.\n\nOnce the gauntlet is charged, you can right click a fracture to open it!",
+      "desc:8": "§7§o要进入虚域，需要使用裂缝定位器寻找裂缝。下界天花板是寻找裂缝的好地方。靠近裂缝时，定位器会发光。\n\n要打开裂缝，需要使用安装有元动能量电池的满充能神秘或虚空预言者法师护手。靠近咒波裂缝吸收其能量来为护手充能。\n\n护手充能完毕之后，右击裂缝将其打开！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicaugmentation:fracture_locator"
       },
-      "name:8": "Enter the Emptiness"
+      "name:8": "进入虚域"
     }
   },
   "questID:3": 20217,

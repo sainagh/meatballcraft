@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "5x5 on autocraft?!?\nPlaced next to an unpackager for autocrafting.\nA packager is required somewhere in the AE network, but it doesn\u0027t need to be close.",
+      "desc:8": "5x5自动合成？！？\n放置在解包机旁以进行自动合成。\n封包机需要位于AE网络中，不必与解包机相邻。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "packagedexcrafting:advanced_crafter"
       },
-      "name:8": "Advanced Package Crafter"
+      "name:8": "高级封包合成器"
     }
   },
   "questID:3": 20711,

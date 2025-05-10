@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 430\nMining Level: Cobalt\nMining Speed: 6\nAttack: 4\nDemocratic People\u0027s Republic of Korea\nEcological\n\nHandle\nModifier: 1\nDurability: -20\nDemocratic People\u0027s Republic of Korea\nEcological\n\nExtra\nDurability: 50\nDemocratic People\u0027s Republic of Korea\nEcological\n\nBows\nDrawspeed: 1.43\nRange Multiplier: 2\nBonus Damage: 7\nDemocratic People\u0027s Republic of Korea\nEcological",
+      "desc:8": "顶端\n耐久：430\n挖掘等级：钴\n挖掘速度：6\n攻击力：4\n意志坚定\n生态\n\n手柄\n手柄系数：1\n耐久：-20\n意志坚定\n生态\n\n其它部件\n耐久：50\n意志坚定\n生态\n\n弓\n拉弓速度：1.43\n范围系数：2\n附加伤害：7\n意志坚定\n生态",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "fusewood_plustic"
         }
       },
-      "name:8": "Fusewood"
+      "name:8": "熔融木"
     }
   },
   "questID:3": 201188,

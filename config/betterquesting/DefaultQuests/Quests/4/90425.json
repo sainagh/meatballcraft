@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAllows multiple routers to work at the same speed/order. To sync two routers, set two modules to the same value, and give each router the same number of speed upgrades.",
+      "desc:8": "§7§o使多个路由器以同样的速度/顺序工作。将模块设置为相同调整值来同步路由器，路由器还需要装有相同数量的速度升级。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "modularrouters:upgrade"
       },
-      "name:8": "Sync Upgrade"
+      "name:8": "同步升级"
     }
   },
   "questID:3": 90425,

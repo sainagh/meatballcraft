@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oChannels are the main mechanic in applied energistics!\n\nThere are things that give channels, things that transport channels, and things that use channels.\n\nThis is done to efficiently manage your base with as little lag as possible!\n\nEvery machine in the mod (interfaces, buses, etc) uses channels.\n\nThe controller and the nergy acceptor produce channels.\n\nCables from the mod trasfer channels. Some transfer 8, and some transfer 32 channels.\n\nIf you connect a cable to too many machines (1 smart cable line connecting to over 8 machines) the entwork will error out, and it will not connect to machines.\n",
+      "desc:8": "§7§o频道是AE的核心机制！\n\n有些设备可以提供频道，有些能传输频道，还有些需要使用频道。\n\n这种设计旨在以最低延迟高效管理基地！\n\n模组中所有设备（接口、总线等）都会占用频道。\n\n控制器与能源接收器可提供频道。\n\n模组中的线缆负责传输频道，有些能传输8个频道，还有的能传输32个频道。\n\n若单条线缆连接了过多设备（例如1条智能线缆管线连接了超过8台设备），网络将会报错并断开设备连接。\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 60,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "What are Channels?"
+      "name:8": "什么是频道？"
     }
   },
   "questID:3": 1241,

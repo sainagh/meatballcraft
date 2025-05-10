@@ -8,18 +8,37 @@
             "x": 0,
             "y": 3,
             "z": 1,
-            "description": "处理数量x4",
+            "description": "处理数量x8",
             "modifiers": [{
                 "io": "output",
                 "target": "modularmachinery:item",
                 "operation": 1,
-                "multiplier": 4
+                "multiplier": 8
             },
             {
                 "io": "input",
                 "target": "modularmachinery:item",
                 "operation": 1,
-                "multiplier": 4
+                "multiplier": 8
+            }]
+        },
+        {
+            "elements": "contenttweaker:mythic_coil_t3@0",
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "description": "处理数量x64",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64
             }]
         }
     ],

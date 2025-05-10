@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The elder wizards of Furatto agreed to meet up with me!\nThey thanked me for reopening connections back to Terra, allowing them to re-enstablish some of their lost order.\nBefore the invaders of Terra came, these wizards used to be part of one of the main governing bodies of the land, regulating the use of magic, and promoting collaboration between the various magical septs that used to hold power.\nThis governing body has been part of the politics of Terra for quite a long time, and it has to do with many of the magic artifact and creatures that originated there, and for banishing the crazed wizards of the Aether islands.\nTheir symbol is quite peculiar, it mentions a particular figure, the Arbiter, as a mark of order and creation. \nIs this Arbiter their deity? Or just simply a powerful wizard of the past? Maybe the founder of the order of wizards?\nAnyhow, this Arbiter clearly played a role in the struggle against the meatballs, but this figure not around anymore. At least, I don\u0027t think so?\n\n",
+      "desc:8": "地盘界的资深巫师终于同意接见我了！\n他们感谢我重连泰拉通道，使其得以重建部分失落的秩序。\n在侵略者到来前，这些巫师曾是当地主要管理机构的成员，负责监管魔法使用，并协调昔日掌权的各大魔法派系合作。\n该机构涉足泰拉政局已久，与诸多本土魔法器物、生物的起源息息相关，还曾参与放逐天境空岛的疯狂巫师。\n其徽记颇为奇特，以“理序主”形象作为秩序与创造的象征。\n这位理序主是他们的神明？还是古代某位大巫师？亦或巫师团的创立者？\n无论如何，理序主显然在对抗肉丸的斗争中发挥过作用，但如今已销声匿迹。至少，我是这么认为的？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:rulers_of_terra_callstone"
       },
-      "name:8": "Those who fought back"
+      "name:8": "反抗者"
     }
   },
   "questID:3": 1396,
@@ -34,7 +34,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:mark_of_the_arbiter"
             },
-            "TrophyName:8": "Master Wand EZ",
+            "TrophyName:8": "大师法杖，洒洒水啦",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "In search of some fluid to put into an ender combustion generator?\nPlant scraps would work pretty well here!",
+      "desc:8": "在找可作为末影接口模组中燃烧发电机燃料的流体？\n多余的植物废料在此处效果极佳！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:bioreactor"
       },
-      "name:8": "Bioreactor"
+      "name:8": "生物质炉"
     }
   },
   "questID:3": 20578,

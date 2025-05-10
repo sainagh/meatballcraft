@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCrafting storage lets you store the information for a given autocrafting task, the bigger the crafting storage, the bigger the craft.\n\nMultiple storages can be stacked in a crafting processing unit.",
+      "desc:8": "§7§o合成存储器可存储给定自动合成任务的信息，合成存储器越大，能进行的合成量越大。\n\n合成处理单元中可存在多个合成存储器。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:crafting_storage_1k"
       },
-      "name:8": "1k Crafting Storage"
+      "name:8": "1k合成存储器"
     }
   },
   "questID:3": 90161,

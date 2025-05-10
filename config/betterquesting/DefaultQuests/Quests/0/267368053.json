@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1703495878,
+    2074294565
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:shard_of_controlled_gluttony"
+      },
+      "name:8": "Wanting it All"
+    }
+  },
+  "questID:3": 267368053,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:spren_summoner_gluttony"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:shard_of_controlled_gluttony"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

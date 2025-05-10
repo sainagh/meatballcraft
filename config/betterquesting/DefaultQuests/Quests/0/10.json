@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o§oGoing right makes you progress through the pack, quests up and down are about what can be done (if you want to finish you\u0027ll have to do these eventually)\n\nStone sticks are great for torches!\n\n§rI guess the stone that makes up the soil in this planet makes for decent tools...\nI\u0027ve always thought what it would be like to live like a caveman, I guess now I know...\nThis sucks!",
+      "desc:8": "§7§o§o遵循任务线往右会推进整合包流程，上下分布的任务则告诉你现在可以做什么（想要通关本整合包，最终必须完成这些任务）\n\n石棍很适合用来制作火把！\n\n§r我想，构成这颗星球土壤的石头可以制作出不错的工具……\n我以前总想着，像穴居人一样生活会是什么样子，我想我现在知道了……\n糟透了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:cobblestone"
       },
-      "name:8": "Stone Age"
+      "name:8": "石器时代"
     }
   },
   "questID:3": 10,

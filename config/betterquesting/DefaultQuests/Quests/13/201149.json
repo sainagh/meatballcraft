@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,600\nMining Level: Cobalt\nMining Speed: 13.63\nAttack: 13.23\n\nHandle\nModifier: 1.85\nDurability: 400\n\nExtra\nDurability: 500\n\nBows\nDrawspeed: 1.33\nRange Multiplier: 0.98\nBonus Damage: 16",
+      "desc:8": "顶端\n耐久：1,600\n挖掘等级：钴\n挖掘速度：13.63\n攻击力：13.23\n\n手柄\n手柄系数：1.85\n耐久：400\n\n其它部件\n耐久：500\n\n弓\n拉弓速度：1.33\n范围系数：0.98\n附加伤害：16",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "advancedalloy"
         }
       },
-      "name:8": "Advanced Alloy"
+      "name:8": "高级合金"
     }
   },
   "questID:3": 201149,

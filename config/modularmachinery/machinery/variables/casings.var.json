@@ -61,6 +61,14 @@
         "modularmachinery:blockfluidinputhatch",
         "modularmachinery:blockmefluidinputbus"
     ],
+    "excavation_matrix_hatches": [
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockmefluidinputbus",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockmeitemoutputbus",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockmeiteminputbus"
+    ],
     "generalized_rainbow_leaves": [
         "twilightforest:twilight_leaves@7",
         "twilightforest:twilight_leaves@3",
@@ -87,6 +95,11 @@
         "modularmachinery:blockoutputbus",
         "modularmachinery:blockmefluidoutputbus",
         "modularmachinery:blockmeitemoutputbus"
+    ],
+    "token_totem_output": [
+        "modularmachinery:blockfluidoutputhatch",
+        "modularmachinery:blockenergyoutputhatch",
+        "modularmachinery:blockmefluidoutputbus"
     ],
     "apiary_decoration_soil": [
         "minecraft:grass",

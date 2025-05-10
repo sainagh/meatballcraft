@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCan be found between Y\u003d13 and Y\u003d31.\nCan spawn in Loot Chests from Structures.\nCan be found in a Gem Bag.\nCan be traded from a Metalloid for 40 Copper Coins.\nCan be dropped by a Bane.\nMobs killed by a Crystaneer have a chance of dropping it.\n\n- Written by Bluecat",
+      "desc:8": "§7§o发现于Y\u003d13与Y\u003d31之间。\n可生成于结构中的奖励箱。\n可于宝石袋中发现。\n可与金属收藏家用40铜币交易获得。\n可由幽魂掉落。\n使用水晶狙击击杀生物有概率掉落该物品。\n\n- Bluecat撰写",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:amethyst"
       },
-      "name:8": "Ascended Amethyst"
+      "name:8": "[飞升]紫晶"
     }
   },
   "questID:3": 70073,

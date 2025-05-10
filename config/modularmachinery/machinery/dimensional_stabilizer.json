@@ -4,7 +4,7 @@
 	"color": "000000",
     "modifiers": [
         {
-            "elements": "bloodmagic:blood_rune@8",
+            "elements": "contenttweaker:fabric_of_the_orb",
             "x": 0,
             "y": 1,
             "z": 0,

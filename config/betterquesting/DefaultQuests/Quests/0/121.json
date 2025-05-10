@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the overworld\n\n§fThe local fauna is interesting.\nNow I know what happens after a pact with the (a) devil...\nTestificates, lured in by the whispers of the forest, were promised great riches and power, but, as it always happen when talking to trees, it did not end well for them.\nThey are now transformed into merciless monsters, which is quite sad...\nThe appeal of power is hard to resist, I won\u0027t lie...",
+      "desc:8": "§7§o发现于主世界\n\n§f当地的生态非常有趣。\n现在我终于明白与（某种）恶魔签订契约的后果了……\n一些泰斯提斐人被森林中的低语引诱，许以财富与力量的承诺，但就像所有与树木对话的故事结局一样，他们最终付出了惨痛代价。\n如今这些生物已蜕变成无情的怪物，着实令人唏嘘……\n不得不承认，力量的诱惑确实难以抗拒……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:haunted_log"
       },
-      "name:8": "Sp00ky"
+      "name:8": "幽林诡事"
     }
   },
   "questID:3": 121,

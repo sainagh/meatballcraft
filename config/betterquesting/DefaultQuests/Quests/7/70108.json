@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCan be dropped from Furious Zombies.\nThe ore can be found wherever there is stone, but is more common at higher elevations.\n",
+      "desc:8": "§7§o可由红眼僵尸巨人掉落。\n有石头的地方就能生成，但是高海拔区域更常见。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:amber"
       },
-      "name:8": "Amber (Thaumcraft)"
+      "name:8": "琥珀（神秘时代）"
     }
   },
   "questID:3": 70108,

@@ -222,3 +222,11 @@ mythindgrind28.addFluidInput(<fluid:essence>*1000);
 mythindgrind28.addItemInput(<contenttweaker:naquadah_ore>);
 mythindgrind28.addItemOutput(<contenttweaker:naquadah_chunk>);
 mythindgrind28.build();
+
+
+val mythindgrind29 = RecipeBuilder.newBuilder("mythindgrind29","mythic_processor_grinder",2);
+mythindgrind29.addEnergyPerTickInput(2000000);
+mythindgrind29.addFluidInput(<fluid:sideral_life_essence>*1000);
+mythindgrind29.addItemInput(<contenttweaker:ingot_of_infinite_wishes>);
+mythindgrind29.addItemOutput(<contenttweaker:dust_of_infinite_wishes>*64);
+mythindgrind29.build();

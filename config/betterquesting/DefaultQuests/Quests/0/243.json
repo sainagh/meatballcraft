@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the large branching towers in the twilight forest.\n\n§fSome inhabited architecture! Well, inhabited is a strong word, but an undead lich sitting at the top of a tower is useful intel about this world.\nIt can be assumed that this creature used to be one of the original inhabitants of the Twilight Forest. The iconography inside the tower reflects the aesthetics of the outfits worn by the lich and the other undead.\nI have seen enough magic (look at me, talking as if I were an expert) to safely guess that I may have stumbled into a \u0027magic gone wild\u0027 situation. I have seen it happen, and the testificates have warned me of it, power corrupts.\nThis still doesn\u0027t give any information about the crimson cult, and what they are doing here. They are completely uninterested in the local struggles, and they just sit in their floating castles in the sky. Why are they here to begin with?",
+      "desc:8": "§7§o发现于暮色森林的巨型塔楼。\n\n§f一些有人居住的建筑！呃，或许称不上有人居住，但是塔顶不死巫妖的存在揭示着这个世界的重要信息。\n可以推测，这生物曾经是暮色森林的原住民之一。塔内的肖像体现着巫妖和其他亡灵所穿服装的美学。\n我已经看到了太多的魔法（看看，我简直就像专家一样），因此可以大胆推测，这里曾发生过某种“魔法暴走”事件。正如泰斯提斐人警告的那样，力量滋生腐化。\n但这仍无法解释血腥教团的动机。他们对本土纷争毫无兴趣，只是盘踞空中城堡，究竟所图为何？",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "twilightforest:trophy"
       },
-      "name:8": "Master of the Tower"
+      "name:8": "高塔之主"
     }
   },
   "questID:3": 243,
@@ -31,7 +31,7 @@
               "Damage:2": 0,
               "id:8": "twilightforest:shield_scepter"
             },
-            "TrophyName:8": "Lich Slayer",
+            "TrophyName:8": "巫妖屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

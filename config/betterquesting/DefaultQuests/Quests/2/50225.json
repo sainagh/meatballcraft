@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Time to get theoretical! It IS possible to make a nuclear fuel out of neptunium, but nobody ever succeeded...",
+      "desc:8": "是时候来点理论探讨了！用镎制造核燃料确实有可能，但至今无人成功……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "nuclearcraft:neptunium"
       },
-      "name:8": "Neptunium-237"
+      "name:8": "镎-237"
     }
   },
   "questID:3": 50225,

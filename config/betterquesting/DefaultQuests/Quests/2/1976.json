@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFast enough for the long term!",
+      "desc:8": "§7§o产速够快，可长期供应！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "lymph_of_pixonia"
         }
       },
-      "name:8": "Lymph of Pixonia"
+      "name:8": "光精界淋巴液"
     }
   },
   "questID:3": 1976,

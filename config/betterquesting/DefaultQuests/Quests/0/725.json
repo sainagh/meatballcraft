@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oA huge thanks to Birch8101, Gizyz, Mathias, Staffix, Tictak3, Tom for porting the questbook to BQ!",
+      "desc:8": "§7§o非常感谢Birch8101、Gizyz、Mathias、Staffix、Tictak3以及Tom将任务书移植到了BQ上！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "betterquesting:placeholder"
       },
-      "name:8": "The Great Questers"
+      "name:8": "伟大的任务撰写者"
     }
   },
   "questID:3": 725,

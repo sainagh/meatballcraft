@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Dragonfire Forge is used to produce fluids using the power of dragon fire.\nMultiple of these should be built to passively automate high-heat fluids.",
+      "desc:8": "龙炎锻炉可使用龙炎之力产出流体。\n应当建造多台来被动产出这些高温流体。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:dragonfire_forge"
         }
       },
-      "name:8": "Dragonfire Forge"
+      "name:8": "龙炎锻炉"
     }
   },
   "questID:3": 20629,

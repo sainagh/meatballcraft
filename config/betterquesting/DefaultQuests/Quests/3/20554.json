@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The resonator uses grid power to infuse some materials with grid power, which can be passively produced from a wide array of sources.",
+      "desc:8": "共振仪使用GP来将GP注入某些材料，GP可使用多种方式被动生产。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:resonator"
       },
-      "name:8": "Resonator"
+      "name:8": "共振仪"
     }
   },
   "questID:3": 20554,

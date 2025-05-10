@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate produces a redstone pulse every time it receives a redstone signal of any length.\n\nAny time the input redstone goes from off to on, the output will pulse.",
+      "desc:8": "§7§o该逻辑门会在每次接收到红石信号（不论强度）时产生红石脉冲。\n\n只有在红石信号的上升沿才会输出红石脉冲。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 9,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Pulse Former"
+      "name:8": "脉冲发生器"
     }
   },
   "questID:3": 90363,

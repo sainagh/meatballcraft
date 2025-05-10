@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I guess I\u0027m going down the mythic rabbithole...nothing wrong with that...yet...\nAnd the links keep forming! Nice! The more interactions between the branches of magic I can isolate, the more info I can gather to construct a hierarchy of magical forces.\nIt seems natural that some powers depend on others, same as gravity being an emergen property of sufficiently complex matter.\n",
+      "desc:8": "看来我正在深入神话魔法的兔子洞……倒也无妨……暂时……\n这些魔法分支之间的关联还在持续形成！不错！越是能分离出魔法分支间的相互作用，就越能收集更多信息来构建魔法力量的层级体系。\n某些力量似乎天然依存于其他存在，正如引力是高度复杂物质的涌现效应。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier5"
         }
       },
-      "name:8": "Nethengeic Mythical Resources"
+      "name:8": "下界种神话资源"
     }
   },
   "questID:3": 77,

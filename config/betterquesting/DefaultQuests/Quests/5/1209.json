@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTerritory largest, obtained from vindictive drones!",
+      "desc:8": "§7§o活动范围：最大，通过记恨雄蜂获得！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_drone_ge",
@@ -152,7 +152,7 @@
           "MaxH:3": 40
         }
       },
-      "name:8": "Largest Territory"
+      "name:8": "最大活动范围"
     }
   },
   "questID:3": 1209,

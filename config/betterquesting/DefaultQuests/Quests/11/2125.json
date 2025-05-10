@@ -16,7 +16,7 @@
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Dragon Slayer"
+            "Name:8": "斩龙剑"
           },
           "ench:9": {
             "0:10": {
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Dragon Slayer"
+      "name:8": "斩龙剑"
     }
   },
   "questID:3": 2125,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oDragon Slayer§r"
+              "Name:8": "§6§o斩龙剑§r"
             },
             "ench:9": {
               "0:10": {

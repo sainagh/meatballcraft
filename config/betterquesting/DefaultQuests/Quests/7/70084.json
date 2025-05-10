@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound below Y\u003d32 in Swamps and Cold Biomes, and as a chance drop from Advent of Ascension ores.",
+      "desc:8": "§7§o发现于沼泽和寒冷类群系Y\u003d32以下，虚无世界模组矿物有概率掉落。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "biomesoplenty:gem"
       },
-      "name:8": "Malachite"
+      "name:8": "孔雀石"
     }
   },
   "questID:3": 70084,

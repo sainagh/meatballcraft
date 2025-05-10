@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUseful for long breeding chains!\n\n§7§oSoul combs can be farmed from multiple bees!\n\n",
+      "desc:8": "§7§o在长程杂交链中非常实用！\n\n§7§o灵魂蜂窝可通过多种蜜蜂获得！\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "magicbees:frames.oblivion"
       },
-      "name:8": "Bees are Instant!"
+      "name:8": "蜜蜂转瞬即逝啊！"
     }
   },
   "questID:3": 1223,

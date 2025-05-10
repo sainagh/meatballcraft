@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oComplete the Infusion Fabrial puzzle.",
+      "desc:8": "§7§o完成注魔法器谜题。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumadditions:mithminite_robe",
@@ -46,7 +46,7 @@
           }
         }
       },
-      "name:8": "Mithminite"
+      "name:8": "秘金神秘使"
     }
   },
   "questID:3": 2069,
@@ -60,9 +60,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oMithminite Hood§r"
+              "Name:8": "§6§o秘金神秘使兜帽§r"
             },
             "ench:9": {
               "0:10": {
@@ -102,9 +102,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oMithminite Robe§r"
+              "Name:8": "§6§o秘金神秘使法袍§r"
             },
             "ench:9": {
               "0:10": {
@@ -144,9 +144,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oMithminite Belt§r"
+              "Name:8": "§6§o秘金神秘使腰带§r"
             },
             "ench:9": {
               "0:10": {
@@ -186,9 +186,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oMithminite Boots§r"
+              "Name:8": "§6§o秘金神秘使腰带§r"
             },
             "ench:9": {
               "0:10": {

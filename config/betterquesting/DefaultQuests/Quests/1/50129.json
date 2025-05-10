@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Better than buckets, trust me!",
+      "desc:8": "比桶更好，信我！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermalexpansion:reservoir",
         "tag:10": {}
       },
-      "name:8": "Reservoir (Basic)"
+      "name:8": "贮液器 (基础)"
     }
   },
   "questID:3": 50129,

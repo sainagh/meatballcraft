@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The solid-state fusion reactor consumes energy for almost all recipes, but promethium fusion will produce a lot of energy. The bigger the reactor, the higher the energy output!",
+      "desc:8": "固态聚变反应堆几乎所有的配方都会消耗能量，但进行钷聚变时会产出巨大能量。反应堆越大，能量产出越高！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "techreborn:fusion_control_computer"
       },
-      "name:8": "Solid-State Fusion Reactor"
+      "name:8": "固态聚变反应堆"
     }
   },
   "questID:3": 50252,

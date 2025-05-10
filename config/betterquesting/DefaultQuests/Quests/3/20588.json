@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Infuses water into items.\nBasically a worse fluid transposer (but don\u0027t tell him that).",
+      "desc:8": "用水灌注物品。\n基本上就是劣化版的流体转置机（别告诉他）。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:moistener"
       },
-      "name:8": "Moistener"
+      "name:8": "加湿器"
     }
   },
   "questID:3": 20588,

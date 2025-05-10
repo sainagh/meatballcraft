@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCollects items and XP at a distance.",
+      "desc:8": "§7§o范围收集物品和经验。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "openblocks:vacuum_hopper"
       },
-      "name:8": "Vacuum Hopper"
+      "name:8": "虚空漏斗"
     }
   },
   "questID:3": 90212,

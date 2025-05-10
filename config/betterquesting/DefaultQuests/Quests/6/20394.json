@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oJars are used to store essentia similarly to how tanks are used to store fluids.\n\nTo fill a jar, you can use phials, or you can directly click them on essentia containers.\n\nRight clicking a jar with a label will whitelist the essentia it\u0027s currently storing so that no other essentia can enter, even after the jar has been emptied. This can be used for essentia storage systems.\n\nThere are multiple tiers of jars, each with a different capacity:\n\nWarded: 250",
+      "desc:8": "§7§o罐子可用于存储源质，和存储流体的储罐差不多。\n\n可使用安瓿来装填罐子，或直接使用罐子右击源质容器。\n\n使用标签右击罐子可以将罐子当前存储的源质设为白名单，阻止其他源质进入，即便罐子空了。可用于组建源质存储系统。\n\n罐子有多个等级，每级的容量不同：\n\n源质罐子：250",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:jar_normal"
       },
-      "name:8": "Warded Jar"
+      "name:8": "源质罐子"
     }
   },
   "questID:3": 20394,

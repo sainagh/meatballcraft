@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse the staff of iceika to reach to top of the castle of the grand wizard. Stand of the block of bedrock to open the gateway!\n\nYou will need a gravemaster\u0027s key to enter the castle!\n\n§fThe power of wizardry is, well, seemingly unlimited.\nJust like knowledge, an infinite process that tries to approximate reality in increasingly accurate ways, with this type of magic, the sky is the limit.\nThat said, the grand wizard that \u0027created\u0027 the land of Iceika may have flown too close to the sun, and paid the price for risking too much with their experiments.\nIf this is what supreme ice power looks like, I am curious to see what \u0027awakened\u0027 versions of the other branches of wizardry look like.\nDefinitely would be nice to learn how to change the climate of a planet..",
+      "desc:8": "§7§o使用冰晶雪原之杖以到达大巫师城堡的顶端。站在基岩上打开大门！\n\n需要陵主之钥来进入城堡！\n\n§f巫术的力量似乎没有极限。\n就像知识一样，它是一种通过日益精确的方式不断趋近现实的无限进程，在这种魔法的领域里，天空才是极限。\n话虽如此，那位“创造”了冰晶雪原大陆的大巫师或许太过接近太阳，最终为自己的大胆实验付出了代价。\n如果这就是冰霜之力的终极形态，我很好奇其他魔法分支“觉醒”后的形态会是何等模样。\n要是能学会如何改变一个星球的气候就好了……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:soul_of_the_grand_wizard"
       },
-      "name:8": "Soul of the Grand Wizard"
+      "name:8": "大巫师之魂"
     }
   },
   "questID:3": 233,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:soul_of_the_grand_wizard"
             },
-            "TrophyName:8": "Slayer of the Grand Wizard",
+            "TrophyName:8": "大巫师屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

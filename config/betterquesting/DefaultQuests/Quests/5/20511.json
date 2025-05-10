@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBonsai pots let you passively generate EMC for your personal EMC network.\n\nPlace a bonsai pot in a loaded chunk, and it will automatically add EMC at a constant rate.\n\nThe higher the tier, the faster EMC will be added!",
+      "desc:8": "§7§o盆栽罐可为你的个人EMC网络被动生成EMC。\n\n在加载的区块里放置盆栽罐，它会以固定速率为网络提供EMC。\n\n盆栽罐的等级越高，EMC增加的速度也就越快！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectex:power_flower"
       },
-      "name:8": "Power Flower Bonsai"
+      "name:8": "力量花盆栽"
     }
   },
   "questID:3": 20511,

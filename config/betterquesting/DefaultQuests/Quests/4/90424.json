@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSimulates a player action (specified in the module settings) on the target block (shift + right click).",
+      "desc:8": "§7§o模拟玩家对目标方块（Shift右击选定）执行指定操作（可在模块设置中配置）。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 16,
@@ -14,7 +14,7 @@
           "ModuleFilter:9": {}
         }
       },
-      "name:8": "Activator Module"
+      "name:8": "执行模块"
     }
   },
   "questID:3": 90424,

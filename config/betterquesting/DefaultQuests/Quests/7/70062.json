@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound between Y\u003d0 and Y\u003d18",
+      "desc:8": "§7§o发现于Y\u003d0与Y\u003d18之间",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:redstone"
       },
-      "name:8": "Redstone"
+      "name:8": "红石"
     }
   },
   "questID:3": 70062,

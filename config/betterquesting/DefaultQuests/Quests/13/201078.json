@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 200\nMining Level: 15\nMining Speed: 2.4\nAttack: 2.4\nBlazing\n\nHandle\nModifier: 0.6\nDurability: 100\nBlazing\n\nBows\nDrawspeed: 0.5\nRange Multiplier: 8.4\nBonus Damage: 0\nBlazing",
+      "desc:8": "顶端\n耐久：200\n挖掘等级：15\n挖掘速度：2.4\n攻击力：2.4\n炽热\n\n手柄\n手柄系数：0.6\n耐久：100\n炽热\n\n弓\n拉弓速度：0.5\n范围系数：8.4\n附加伤害：0\n炽热",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "netherite"
         }
       },
-      "name:8": "Netherite"
+      "name:8": "炎岩"
     }
   },
   "questID:3": 201078,

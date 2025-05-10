@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is how you can combine enchantments over the vanilla anvil limit, up to level 15. It can combine normally-incompatible enchants, like fire protection and blast protection, as well.\n\nThe ritual requires the base Abyssalcraft setup, using the Abyssalnomicon, and can be performed in any dimension! It costs 50000 PE.\n\nPlace 8 enchanted books of any type (has to be eight) on the outer pedestals. Place a compatible enchantable item in the center.\n\nIf multiple enchants of the same type are present, they will be added together up to level 15.",
+      "desc:8": "§7§oT可通过该方法突破原版附魔限制，魔咒等级最多可达15级。还可以使正常情况下不兼容的魔咒共存，例如火焰保护和爆炸保护。\n\n仪式需要基础的深渊国度仪式祭坛，可在任意维度使用深渊荒原死灵之书进行！消耗50000PE。\n\n在仪式基座上放置8本任意种类的附魔书（必须是8本）。在祭坛上放置可附魔物品（物品本身必须无附魔）。\n\n相同种类魔咒的等级在这一过程中会叠加，最大上限为15级。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:abyssalnomicon",
@@ -12,7 +12,7 @@
           "PotEnergy:5": 0.0
         }
       },
-      "name:8": "Mass Enchanting"
+      "name:8": "汇聚附魔"
     }
   },
   "questID:3": 2331,

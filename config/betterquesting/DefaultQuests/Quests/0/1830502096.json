@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I hate to say it, but as bad as it is, the gambling magic of the Meatball Man has its own advantages.\n",
+      "desc:8": "我不想这么说，但虽然糟糕透顶，肉丸人的赌博魔法也有可取之处。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:gambling_sentient_meatball"
       },
-      "name:8": "Gambling Addiction"
+      "name:8": "赌瘾"
     }
   },
   "questID:3": 1830502096,

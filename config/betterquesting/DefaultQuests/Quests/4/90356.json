@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFramed red alloy works like red alloy wire, but it occupies block spaces, making it possible to be in air, with no need for pillar blocks.\n\nTo connect a red alloy wire to a framed red alloy wire, they need to be placed in the same block space.",
+      "desc:8": "§7§o框架红色合金丝与红色合金丝类似，但是会占用一整个方块空间，这使得其能不依附方块放置。\n\n红色合金丝需要与框架红色合金丝放置在同一方块空间内才能连接。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectred-transmission:framed_wire"
       },
-      "name:8": "Framed Red Alloy Wire"
+      "name:8": "框架红色合金丝"
     }
   },
   "questID:3": 90356,

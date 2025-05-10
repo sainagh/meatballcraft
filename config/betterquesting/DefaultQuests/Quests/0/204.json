@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§o§7§oAround the overworld, you can find wizards towers. There you can find friendly wizards willing to trade wands and other goodies, as well as arcane workbenches to add spells and upgrade your wands!\n\nMore info in §cMagical Mastery.\n\n§fSome of the creatures I\u0027ve slayed seemed to be holding books that appear to have magical properties.\nBy building a table to analyze them, I stumbled into the art of Wizardry, a spellcasting technique based on knowledge. It seems like I can discover new aspects of this art by trial and error.\nTry to cast spells until they make sense?! What could go wrong?\nAround Terra, some testificates also appear to hold knowledge of this art. Some of them use it to help, others to destroy...",
+      "desc:8": "§o§7你可以在主世界各处找到巫师塔。塔内有愿意交易魔杖和其他商品的友善巫师，还有可升级魔杖、为魔杖绑定法术的奥术工作台！\n\n更多信息请查看§c魔法精通§o§7。\n\n§f我杀死的部分生物似乎携带着蕴含魔法力量的书卷。\n通过搭建工作台研究这些书籍，我偶然窥见了巫术的奥秘——一种基于知识的施法技艺。通过反复尝试和试错，我似乎能逐步发掘出这门艺术的全新维度。\n不断施法直至领悟其真谛？！这方法能有什么差错呢？\n在这片泰拉世界中，某些泰斯提斐人也掌握着这门技艺。他们中有人以此助人，亦有人借其行毁灭之事……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ebwizardry:arcane_workbench"
       },
-      "name:8": "Playing with Wizardry"
+      "name:8": "玩转巫术"
     }
   },
   "questID:3": 204,

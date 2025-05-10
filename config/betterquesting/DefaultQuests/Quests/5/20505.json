@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEMC loops exploit recipes where the output of a given recipe has a higher value than the sum of the inputs!\n\nMeatballcraft shall have only one EMC loop, so if you discover more, please report it!\n\nFour blaze rods have a combined EMC value of 6144, a diamond has a value of 8192!\nThe crafter from RFTools can be used to automate making diamonds from blaze rods! Make sure you set it to ExtC mode to keep the dragon heart!\nThe diamonds can be piped into a condenser MK2 to make more blaze rods than you started with!\nPipe the blaze rods from the condenser back into the crafter, to complete the loop!\nYou can dump the excess blaze rods into another condenser to farm any EMC item you want!\n\n\n§fWhile basic Condensers are very good when connected to Relays or Collectors, if items are fed into this baseline version, things get a bit awkward...\nThe upgraded Condenser is designed for item duplication from outside inputs (E.G. cobble gen, crop farms).\nThere are some very good farms that passively produce items with high EMC values",
+      "desc:8": "§7§o在EMC循环增殖配方中，产物的EMC值高于原料总和！\n\n在肉丸工艺中，应该只有一种这样的配方，如果你发现了其他这种配方，请汇报给我！\n\n4根烈焰棒的EMC总和为6144，1个钻石的EMC值为8192！\nRFTools模组的自动合成机可以自动用烈焰棒制作钻石！确保选择ExtC模式来将龙心保持在输入栏！\n钻石可以运输到能量凝聚器 MK2，从而制作更多烈焰棒！\n将凝聚器里的烈焰棒运输回自动合成机，从而实现循环！\n将多余的烈焰棒运输到另一个能量凝聚器中来制作设定好的EMC物品！\n\n\n§f尽管基础的能量凝聚起在连接继电器或收集器时表现良好，但在直接向其输入物品时，速度就显得有点尴尬……\n升级版的凝聚器专为接收输入物品用以物品复制而设计（例如造石机、农场）。\n某些自动化农场能被动产出高EMC值的物品",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:condenser_mk2"
       },
-      "name:8": "External Condensing"
+      "name:8": "外置能量凝聚"
     }
   },
   "questID:3": 20505,

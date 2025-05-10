@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the large tower at the center of the dark forest.\n\n§fAfter seeing the ctatacombs of the fallen strongholds, I had a good guess about what happened to the people of the Twilight Forest, and now, after navigating the madness of the large tower nearby, I think I know why.\nMaterial wealth, and its pursuit, are yet again to be blamed. The power of alchemy, the ability I was so easily able to obtain (well not so easily but I did it ok!), was the main topic of research of the erudites living in this place that was once a library. \nAn ancient scholar-king wanted to achieve the ability of transforming matter. Their attempts were, well not great, and prone to lots of explosions. I know it is not good to compare the deeds of people of the past to ours, but c\u0027mon making a philosopher\u0027s stone was not that hard. Well, I guess I may be different, maybe being human gave me abilities they do not possess.\nAnyhow, despite their failings at turning stone into gold, they achieved something I could not dream to conceive. The ability to transform flesh. A powder, volatile and stable enough to convert the matter around it into more of itself. A virus of some sort.\nThe spread of this powder was slow at the start, so some tried to prepare for it, but it steadily took over the entire world.\nNot the entirety of it, actually; the Crimson Cult, in their castles in the sky, seem to be immune to it, or maybe they are already mythical beings so nothing happens to them.\nAnd what about me? Do I fell more magical? More mythical?",
+      "desc:8": "§7§o发现于黑暗森林中心的巨型高塔中。\n\n§f在目睹了沦陷要塞的地下墓穴后，我对暮色森林居民的遭遇已有大致推测。如今穿越附近这座疯狂高塔后，我想我知晓了根源所在。\n对物质财富的追逐再次成为了罪魁祸首。炼金术的力量——这种被我轻易掌握的能力（好吧其实没那么容易，但我成功了！）——曾是这座图书馆旧址中博学者们的主要研究课题。\n某位古代学者君王企图获得物质转换的能力。他们的尝试嘛……实在不算高明，还引发了多次爆炸。我知道不该妄议古人，但拜托，炼制贤者之石哪有那么难？或许因为我是人类，具备他们不曾拥有的天赋。\n尽管点石成金屡屡失败，他们却实现了令我难以想象的壮举：肉体转化技术。一种既能保持稳定又具备挥发性的粉末，能将周围物质同化为自身。简直就像是某种病毒。\n这种粉末起初传播缓慢，有人试图提前防范，但它最终蚕食了整个世界。\n确切地说并非全部：高踞天空城堡的血腥教团似乎对其免疫，或许他们早已是神话存在，故不受影响。\n至于我？是否感觉更具魔力？更神话？",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "twilightforest:trophy"
       },
-      "name:8": "More Fire!"
+      "name:8": "更多火焰！"
     }
   },
   "questID:3": 256,
@@ -31,7 +31,7 @@
               "Damage:2": 0,
               "id:8": "twilightforest:fiery_tears"
             },
-            "TrophyName:8": "Ur-Ghast Slayer",
+            "TrophyName:8": "暮色恶魂屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

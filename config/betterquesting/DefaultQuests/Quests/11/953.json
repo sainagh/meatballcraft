@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oObtained from the aether and the gravitite enchanter!\n\n§fA longsword from the aether skies, this weapon kinda hurts your eyes to look at for long periods of time. along with a whole slew of other enchantments, its blade seems to constucted in such a way that the sun\u0027s light is absorbed by it, bouncing around inside it until it strikes something. any foe hit by this will be burned by the heat of the star while any undead will fall apart under its holy light.\n\nThis sword was first made on Diamerisma and was passed down as a heirloom to the Aether inhabitants. it was later made recursive as part of the aethers recursion experiments. They made a LOT of recursive objects most of them completely mundane or useless like zanite scupltures, paintings, iron cubes, and dirt houses, though there are a few useful trinkets which I may want to obtain for my collection.",
+      "desc:8": "§7§o通过天境和重力晶附魔器获得！\n\n§f一柄来自天境空域的长剑，长时间注视其剑身甚至会刺伤眼睛。除了拥有大量强力魔咒之外，其剑刃似乎经过特殊锻造工艺处理，能将照射到其上的阳光吸收，并在内部不断折射。任何被此剑击中的敌人都会如同被星辰烈焰灼烧般痛苦不堪，而亡灵生物则会在神圣之光的照耀下彻底瓦解。\n\n此剑最初于地方界铸造，是天境住民的世代相传之物。后来它被选中参与以太递归实验，成为首批被递归复制的物品之一。他们在实验中制造了大量递归物品，其中绝大多数都平凡无奇，甚至毫无用处——比如紫晶雕塑、画作、铁立方乃至泥土房屋。不过据说也有少数实用的小饰品，或许值得我前去收集一番。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aether_legacy:holy_sword",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Dragnipur"
+            "Name:8": "杜兰达尔"
           },
           "ench:9": {
             "0:10": {
@@ -50,7 +50,7 @@
           }
         }
       },
-      "name:8": "Durandal"
+      "name:8": "杜兰达尔"
     }
   },
   "questID:3": 953,
@@ -64,9 +64,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oDurandal§r"
+              "Name:8": "§6§o杜兰达尔§r"
             },
             "ench:9": {
               "0:10": {

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGraves, when placed down, will eventually charge with a soul.\n\nSouls are used for many mod mechanics, but they can also Enchant Grave keys.\n\nWhen you die and get your Grave Key, you can right click it on a charged Gravestone to enchant it, and it will let you teleport to your death point!",
+      "desc:8": "§7§o放置装饰性墓碑后，会随时间生成灵魂\n\n灵魂可用于本模组中的多种机制，也可为坟墓之钥附魔。\n\n死亡后会获得坟墓之钥，使用其对有灵魂的墓碑右击，可为钥匙附魔，此时长按右键便可传送回死亡地点！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tombstone:decorative_grave_simple"
       },
-      "name:8": "Return after Death"
+      "name:8": "死而复归"
     }
   },
   "questID:3": 2306,

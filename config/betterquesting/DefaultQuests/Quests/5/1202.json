@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEmeralds have a fairly high EMC value, and they can be farmed from chickens and evokers!\n\nEmerald chickens can be found in the overworld roaming around certain structures. Look for bewitchment silver blocks!\n\nBattle Towers are your friend :)\n\nLater, you can use crops, although by then you probably have a better EMC farm!",
+      "desc:8": "§7§o绿宝石具有相当高的EMC值，并且可通过鸡和唤魔者来获取！\n\n可在主世界发现游荡在特定结构中的绿宝石鸡。找找巫师之路模组的银块！\n\n战斗高塔会是好帮手  :)\n\n后面还能用作物产出绿宝石，不过那时你应该已经有更好的EMC获取手段了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "chickens:spawn_egg",
@@ -14,7 +14,7 @@
           }
         }
       },
-      "name:8": "Emeralds!"
+      "name:8": "绿宝石！"
     }
   },
   "questID:3": 1202,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRitual Effect: turns stone into ores at random, with a custom loot table (great source for mana infused metal and runium)\n\nIt is recommended to boost this ritual for optimal effects\n\nAlcara Corrupted Effect: places stone under mobs\n\nClick the pedestal to see a preview of the ritual multiblock.",
+      "desc:8": "§7§o仪式效果：随机将石头变为矿石，拥有自定义的生成表（秘银和符文块的优质来源）\n\n推荐增强次仪式以获得最佳效果\n\n振变座效果：在生物下方放置石头\n\n使用六分仪右击基座以查看仪式多方块预览。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:itemtunedcelestialcrystal",
@@ -21,7 +21,7 @@
           }
         }
       },
-      "name:8": "Mineralis (Useful)"
+      "name:8": "晶金座（实用）"
     }
   },
   "questID:3": 878,

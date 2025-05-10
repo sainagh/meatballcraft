@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oNerdySpider负责了第10章的绝大部分纹理！非常感谢！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:warren_creation_fabrial"
       },
-      "name:8": "Kashan, the Warren of Actualization"
+      "name:8": "卡尚，显化之迷道"
     }
   },
   "questID:3": 1727374336,

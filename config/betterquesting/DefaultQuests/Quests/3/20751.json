@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "For all your centrifuging needs.\nDefinitely the better centrifuge, between you and me...",
+      "desc:8": "满足你的所有离心需求。\n咱俩私下说，这才是更好的离心机……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:centrifuge_idle"
       },
-      "name:8": "Centrifuge"
+      "name:8": "离心机"
     }
   },
   "questID:3": 20751,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,542\nMining Level: Cobalt\nMining Speed: 12\nAttack: 5.5\nJagged\nSplintering\n\nHandle\nModifier: 0.75\nDurability: 192\nSplintering\n\nExtra\nDurability: 160\nSplintering\n\nBows\nDrawspeed: 2.67\nRange Multiplier: 1.5\nBonus Damage: 5.5\nJagged\nSplintering",
+      "desc:8": "顶端\n耐久：1,542\n挖掘等级：钴\n挖掘速度：12\n攻击力：5.5\n锯齿\n碎裂\n\n手柄\n手柄系数：0.75\n耐久：192\n碎裂\n\n其它部件\n耐久：160\n碎裂\n\n弓\n拉弓速度：2.67\n范围系数：1.5\n附加伤害：5.5\n锯齿\n碎裂",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "boron_nitride"
         }
       },
-      "name:8": "Boron Nitride"
+      "name:8": "氮化硼"
     }
   },
   "questID:3": 201110,

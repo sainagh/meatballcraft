@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    60312094
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:stone"
+      },
+      "name:8": "衰腐界"
+    }
+  },
+  "questID:3": 436974842,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 192,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "name:8": "衰腐界",
+      "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:stone"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

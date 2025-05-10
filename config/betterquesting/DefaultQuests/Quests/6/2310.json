@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oReduced damage from lightning",
+      "desc:8": "§7§o减少来自闪电的伤害。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 6,
         "id:8": "tombstone:scroll_buff"
       },
-      "name:8": "Lightning Resistance"
+      "name:8": "雷抗"
     }
   },
   "questID:3": 2310,

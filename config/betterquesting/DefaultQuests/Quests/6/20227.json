@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace down to slowly remove flux in that chunk. There are no drawbacks!",
+      "desc:8": "§7§o放置后便可缓慢吸收所在区块的咒波。没有缺点！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumadditions:puriflower"
       },
-      "name:8": "Puriflower"
+      "name:8": "纯净之花"
     }
   },
   "questID:3": 20227,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPrevents creeper explosions, and makes creepers run away from players. ",
+      "desc:8": "§7§o阻止爬行者爆炸，并使爬行者远离玩家。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "tigerseye"
         }
       },
-      "name:8": "Tigerseye"
+      "name:8": "虎之眼"
     }
   },
   "questID:3": 785,

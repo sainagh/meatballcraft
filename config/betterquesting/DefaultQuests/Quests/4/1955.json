@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests show available options for wireless redstone interactions.",
+      "desc:8": "§7§o后续任务将展示可无线传输红石信号的方法。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "wrcbe:material"
       },
-      "name:8": "Wireless Redstone"
+      "name:8": "无线红石"
     }
   },
   "questID:3": 1955,

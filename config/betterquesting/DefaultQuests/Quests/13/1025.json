@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe tool forge is the preferred way of making tools!",
+      "desc:8": "§7§o工具锻造台是制作工具的首选方式！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:toolforge",
@@ -16,7 +16,7 @@
           }
         }
       },
-      "name:8": "Better Tools!"
+      "name:8": "更好的工具！"
     }
   },
   "questID:3": 1025,

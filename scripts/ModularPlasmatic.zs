@@ -13,8 +13,21 @@ plasmasedna.addItemInput(<advancedrocketry:crystal:2>*2);
 plasmasedna.addItemInput(<advancedrocketry:crystal:3>*2);
 plasmasedna.addItemInput(<advancedrocketry:crystal:4>*2);
 plasmasedna.addItemInput(<advancedrocketry:crystal:5>*2);
+plasmasedna.addItemInput(<minecraft:iron_ingot>);
 plasmasedna.addItemOutput(<contenttweaker:sednanite_ore>*5);
 plasmasedna.build();
+
+val plasmasednasuperduper = RecipeBuilder.newBuilder("plasmasednasuperduper","plasmatic_condenser",20);
+plasmasednasuperduper.addFluidInput(<fluid:dense_plasma>*160000);
+plasmasednasuperduper.addItemInput(<advancedrocketry:crystal:0>*2);
+plasmasednasuperduper.addItemInput(<advancedrocketry:crystal:1>*2);
+plasmasednasuperduper.addItemInput(<advancedrocketry:crystal:2>*2);
+plasmasednasuperduper.addItemInput(<advancedrocketry:crystal:3>*2);
+plasmasednasuperduper.addItemInput(<advancedrocketry:crystal:4>*2);
+plasmasednasuperduper.addItemInput(<advancedrocketry:crystal:5>*2);
+plasmasednasuperduper.addItemInput(<contenttweaker:opalescent_matter>);
+plasmasednasuperduper.addItemOutput(<contenttweaker:sednanite_ore>*1024);
+plasmasednasuperduper.build();
 
 val plasmaeden = RecipeBuilder.newBuilder("plasmaeden","plasmatic_condenser",20);
 plasmaeden.addFluidInput(<fluid:dense_plasma>*160000);
@@ -121,6 +134,14 @@ plasmamyrmex.addItemInput(<aoa3:chitin>*16);
 plasmamyrmex.addItemInput(<contenttweaker:blue_matter>*24);
 plasmamyrmex.addItemOutput(<contenttweaker:myrmitite_ore>*10);
 plasmamyrmex.build();
+
+val plasmamyrmexsuperduper = RecipeBuilder.newBuilder("plasmamyrmexsuperduper","plasmatic_condenser",20);
+plasmamyrmexsuperduper.addFluidInput(<fluid:dense_plasma>*160000);
+plasmamyrmexsuperduper.addItemInput(<advancedrocketry:aliensapling>*64);
+plasmamyrmexsuperduper.addItemInput(<aoa3:chitin>*16);
+plasmamyrmexsuperduper.addItemInput(<contenttweaker:opalescent_matter>);
+plasmamyrmexsuperduper.addItemOutput(<contenttweaker:myrmitite_ore>*1024);
+plasmamyrmexsuperduper.build();
 
 val plasmacandyland1 = RecipeBuilder.newBuilder("plasmacandyland1","plasmatic_condenser",20);
 plasmacandyland1.addFluidInput(<fluid:dense_plasma>*160000);
@@ -243,6 +264,14 @@ plasmapixonia.addItemInput(<contenttweaker:fragment_madness>);
 plasmapixonia.addItemInput(<contenttweaker:universal_booster>);
 plasmapixonia.addItemOutput(<contenttweaker:ogerite_ore>*10);
 plasmapixonia.build();
+
+val plasmapixoniasuperduper = RecipeBuilder.newBuilder("plasmapixoniasuperduper","plasmatic_condenser",20);
+plasmapixoniasuperduper.addFluidInput(<fluid:dense_plasma>*160000);
+plasmapixoniasuperduper.addItemInput(<contenttweaker:opalescent_matter>);
+plasmapixoniasuperduper.addItemInput(<contenttweaker:fragment_madness>);
+plasmapixoniasuperduper.addItemInput(<contenttweaker:universal_booster>);
+plasmapixoniasuperduper.addItemOutput(<contenttweaker:ogerite_ore>*1024);
+plasmapixoniasuperduper.build();
 
 val plasmaapalachia = RecipeBuilder.newBuilder("plasmaapalachia","plasmatic_condenser",20);
 plasmaapalachia.addFluidInput(<fluid:dense_plasma>*160000);

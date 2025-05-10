@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate lets you invert signals, while still mantaining the input signal.\n\nThe top line inverts the signal of the bottom line.",
+      "desc:8": "§7§o该门电路能使信号反相，同时保持输入信号。\n\n顶部线缆信号与底部线缆信号反相。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 24,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Invert Cell"
+      "name:8": "反相单元"
     }
   },
   "questID:3": 90387,

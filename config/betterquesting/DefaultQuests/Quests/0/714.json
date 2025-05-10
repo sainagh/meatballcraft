@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While I was focused on the invaders of Terra, their armies, and their flamboyancy, I should\u0027ve spent more time looking at politics. If the knowledge of a single leap in destructive power, the atom bomb, was enough to throw earth into a crazed period of cold war, with all of its subterfuge and spying, one could assume that similar things may happen if much larger powers were to be discovered, or encountered in others\u0027 hands.\nThe \u0027big players\u0027 like the Shyre Empire know they are the strongest, so they showcase their powers, knowing that very few can match it. This doesn\u0027t necessarily explain what\u0027s going on with their campaign on Terra, and I am sure they too are playing some sort of political game, but that\u0027s another discussion. What interests me are the \u0027medium players\u0027, those that don\u0027t show their hand right away. The Crimson Cult and J\u0027zahar are good examples of that. How powerful are they? Could they rival the Twilight Horde? Are they actually powerful? Or are they just influential?\nKeeping an aura of mystery appears to be the way the game of power is played in this universe. You want to let your enemies know you are powerful, to avoid direct confrontation, but your exact reach and capabilities should remain hidden, in case your enemy is indeed stronger than you.\nThe Gun Devil, the hand that rules over Falacer, is good at playing this game, so much so that the bees have complied with him, not knowing what this creature would be capable of.\nAnd what about the Meatball Man? He has been open during all of our interactions, and yet, I can\u0027t shake off the feeling there\u0027s something more. He too is playing this game, which may be a good sign.",
+      "desc:8": "当我专注于泰拉的入侵者、他们的军队与浮华做派时，本应更深入观察政治博弈。试想，仅仅是原子弹这种飞跃式破坏性武器的出现，就足以让地球陷入充满阴谋与间谍活动的冷战时期。若在这个宇宙中发现更强大的力量——尤其是当它们落入他人之手时，类似的猜疑链恐怕会以百倍规模重演。\n像塞尔瑞帝国这样的“顶级玩家”深谙自身实力，他们炫耀武力正是因为罕逢敌手。这虽无法完全解释他们在泰拉的军事行动，我确信其中必有政治算计。但更让我感兴趣的是那些未亮出底牌的“中等玩家”。血腥教团与扎哈尔便是典型代表。这些组织究竟实力如何？能与暮光部落抗衡吗？他们拥有的是真正的力量，还是仅仅具备影响力？\n在这个宇宙的权力游戏中，“保持神秘”似乎是不成文的法则。既要让敌人感知到威胁以避免正面冲突，又必须隐藏真正的实力，毕竟你永远不知道对手是否藏得更深。\n统治法拉瑟的枪之恶魔深谙此道，以至于连蜜蜂都对其俯首称臣，却无人知晓这个存在究竟有多大能耐。\n至于肉丸人？尽管在我们的所有接触中，祂都表现得坦率直白，但我始终感觉还有什么秘密。祂会参与这场游戏，本身或许就是个利好信号。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:falacer_spinel"
       },
-      "name:8": "Secrets of Falacer"
+      "name:8": "法拉瑟的秘密"
     }
   },
   "questID:3": 714,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:falacer_spinel"
             },
-            "TrophyName:8": "Queen of the Gun Devil",
+            "TrophyName:8": "枪之恶魔女皇",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

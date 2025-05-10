@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis pack may need you to set up some elaborate automations. Here are some useful redstone gadgets you may need!",
+      "desc:8": "§7§o本整合包可能需要你设置一些复杂的自动化。这有些可能用得上的实用红石装置！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Redstone Gadgetry"
+      "name:8": "红石小装置"
     }
   },
   "questID:3": 90349,

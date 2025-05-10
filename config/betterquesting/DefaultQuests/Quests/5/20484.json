@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIf you are just getting started with forestry, you should not use the apiary! Use the industrial apiary instead!\n\nThe apiary will produce bee offspring following mendelian genetics. Given a dominant gene A, and a recessive gene a, if the queen is AA and the drone is aa, the offspring will have a 25% chance of being AA (expressing A), 50% chance of being Aa (expressing A), 25% chance of being aa (expressing a).\n\n§fAn apiary is used to get honey combs from bees (no really?!), but it\u0027s not a really good way of doing it.",
+      "desc:8": "§7§o如果刚开始发展林业，不应该使用该蜂箱！转用工业蜂箱！\n\n该蜂箱会根据孟德尔遗传定律产生蜜蜂子代。当显性基因为A，隐性基因为a时，若公主蜂为AA而雄蜂为aa，子代将有25%概率为AA（性状表现为A，即显性形状），50%概率为Aa（性状表现为A，即显性形状），25%概率为aa（性状表现为a，即隐性性状）。\n\n§f蜂箱可用来通过蜂蜜获得蜂窝，但它并非最好的方式。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:apiary"
       },
-      "name:8": "Apiary (Advanced)"
+      "name:8": "蜂箱（进阶）"
     }
   },
   "questID:3": 20484,

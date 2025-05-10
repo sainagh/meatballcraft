@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUsed to transport salt fluids. If the reactor design is correct, the reactor will output the processed byproduct of the fuel.",
+      "desc:8": "§7§o用于传输钠钾流体。若反应堆设计正确，会输出处理后的燃料副产物，",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:salt_fission_vessel"
       },
-      "name:8": "Salt Vessel"
+      "name:8": "熔盐容器"
     }
   },
   "questID:3": 1975,

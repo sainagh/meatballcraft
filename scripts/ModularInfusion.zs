@@ -520,5 +520,75 @@ reci50.addItemInput(<thaumcraft:baubles:4>);
 reci50.addItemOutput(<thaumcraft:voidseer_charm>);
 reci50.build();
 
+val reci51 = RecipeBuilder.newBuilder("inf51","arcane_autoinfuser",120);
+reci51.addEnergyPerTickInput(100);
+reci51.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aversio"}]})*150);
+reci51.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "instrumentum"}]})*150);
+reci51.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]})*100);
+reci51.addItemInput(<contenttweaker:primordial_sliver>);
+reci51.addItemInput(<thaumadditions:mithminite_plate>*2);
+reci51.addItemInput(<thaumadditions:mithminite_handle>);
+reci51.addItemInput(<thaumadditions:mithminite_blade>);
+reci51.addItemOutput(<thaumadditions:mithminite_scythe>);
+reci51.build();
+
+val reci52 = RecipeBuilder.newBuilder("inf52","arcane_autoinfuser",120);
+reci52.addEnergyPerTickInput(100);
+reci52.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]})*150);
+reci52.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "instrumentum"}]})*100);
+reci52.addItemInput(<thaumadditions:mithminite_ingot>*2);
+reci52.addItemInput(<thaumadditions:mithminite_nugget>);
+reci52.addItemInput(<thaumadditions:mithminite_plate>);
+reci52.addItemOutput(<thaumadditions:mithminite_handle>);
+reci52.build();
+
+val reci53 = RecipeBuilder.newBuilder("inf53","arcane_autoinfuser",120);
+reci53.addEnergyPerTickInput(100);
+reci53.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aversio"}]})*250);
+reci53.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]})*150);
+reci53.addItemInput(<thaumadditions:adaminite_sword>);
+reci53.addItemInput(<thaumadditions:mithrillium_resonator>);
+reci53.addItemInput(<thaumadditions:mithminite_plate>*3);
+reci53.addItemOutput(<thaumadditions:mithminite_blade>);
+reci53.build();
+
+val reci54 = RecipeBuilder.newBuilder("inf54","arcane_autoinfuser",120);
+reci54.addEnergyPerTickInput(100);
+reci54.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aversio"}]})*150);
+reci54.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]})*90);
+reci54.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]})*70);
+reci54.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "metallum"}]})*60);
+reci54.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "draco"}]})*40);
+reci54.addItemInput(<thaumcraft:void_sword>);
+reci54.addItemInput(<contenttweaker:primordial_sliver>);
+reci54.addItemInput(<thaumadditions:adaminite_plate>*3);
+reci54.addItemOutput(<thaumadditions:adaminite_sword>);
+reci54.build();
 
 
+val reci55 = RecipeBuilder.newBuilder("inf55","arcane_autoinfuser",120);
+reci55.addEnergyPerTickInput(100);
+reci55.addItemInput(<contenttweaker:infernum_vis_condensate>);
+reci55.addItemInput(<draconicevolution:dragon_heart>);
+reci55.addItemInput(<contenttweaker:master_spell_focus>);
+reci55.addItemInput(<thaumadditions:mithminite_fabric>);
+reci55.addItemOutput(<contenttweaker:master_spell_infernum>);
+reci55.build();
+
+val reci56 = RecipeBuilder.newBuilder("inf56","arcane_autoinfuser",120);
+reci56.addEnergyPerTickInput(100);
+reci56.addItemInput(<contenttweaker:sonus_vis_condensate>);
+reci56.addItemInput(<iceandfire:ice_dragon_heart>);
+reci56.addItemInput(<contenttweaker:master_spell_focus>);
+reci56.addItemInput(<thaumadditions:mithminite_fabric>);
+reci56.addItemOutput(<contenttweaker:master_spell_sonus>);
+reci56.build();
+
+val reci57 = RecipeBuilder.newBuilder("inf57","arcane_autoinfuser",120);
+reci57.addEnergyPerTickInput(100);
+reci57.addItemInput(<contenttweaker:cognitio_vis_condensate>);
+reci57.addItemInput(<contenttweaker:demonic_manastone>);
+reci57.addItemInput(<contenttweaker:master_spell_focus>);
+reci57.addItemInput(<thaumadditions:mithminite_fabric>);
+reci57.addItemOutput(<contenttweaker:master_spell_cognitio>);
+reci57.build();

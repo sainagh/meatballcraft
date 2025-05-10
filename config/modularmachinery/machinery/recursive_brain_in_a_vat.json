@@ -1,0 +1,3511 @@
+
+{
+    "registryname": "recursive_brain_in_a_vat",
+    "localizedname": "Recursive Brain in a Vat",
+	"color": "4b6a6d",
+    "parts": [
+        {
+            "x": -4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain_plug@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hyperuranion_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:hyperuranion_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:hyperuranion_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "modularmachinery:blockmefluidoutputbus"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_conduit@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain_plug@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "contenttweaker:actualizing_fluid"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 11,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_conduit@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_conduit@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:recursive_brain@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:hyperuranion_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:heat_exchanger_frame@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal@0"
+            ]
+        }
+    ]}

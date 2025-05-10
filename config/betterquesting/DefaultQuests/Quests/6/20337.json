@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe distillery uses ME to craft! Place it near the witches altar!\n\nJEI will tell you the recipes done by the distillery!",
+      "desc:8": "§7§o蒸馏塔使用ME来制作物品！将其放置在女巫祭坛周围！\n\n可在JEI中查看蒸馏塔支持的配方！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:distillery"
       },
-      "name:8": "Distillery"
+      "name:8": "蒸馏塔"
     }
   },
   "questID:3": 20337,

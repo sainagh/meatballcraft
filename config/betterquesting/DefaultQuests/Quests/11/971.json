@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSlay smash.",
+      "desc:8": "§7§o击杀粉碎。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:limonite_sword",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Biggus Yeetus"
+            "Name:8": "大抛抛"
           },
           "ench:9": {
             "0:10": {
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Biggus Yeetus"
+      "name:8": "大抛抛"
     }
   },
   "questID:3": 971,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oBiggus Yeetus§r"
+              "Name:8": "§6§o大抛抛§r"
             },
             "ench:9": {
               "0:10": {

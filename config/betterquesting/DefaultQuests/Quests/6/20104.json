@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou get more quests for the price of one! \n\nThe blood orb is how you start an LP network. Right click the orb to bind it to your player.\n\nThe LP network is used to fuel all rituals.\n\nPlace a blood orb in the blood altar to add LP to your LP network.\n\nThe higher the blood orb tier, the higher the capacity of your LP network.\n\n",
+      "desc:8": "§7§o完成一个任务，解锁更多任务！\n\n使用气血宝珠来创建LP网络。使用宝珠右击将其与玩家绑定。\n\nLP网络可为所有仪式供能。\n\n在血之祭坛上放置气血宝珠来为LP网络提供LP。\n\n气血宝珠等级越高，LP网络的容量越大。\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bloodmagic:blood_orb",
@@ -12,7 +12,7 @@
           "orb:8": "bloodmagic:weak"
         }
       },
-      "name:8": "Tier 1 Blood Altar"
+      "name:8": "血之祭坛T1"
     }
   },
   "questID:3": 20104,

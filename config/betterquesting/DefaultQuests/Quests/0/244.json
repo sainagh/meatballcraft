@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the crimson portal towers in the overworld.\n\n§f A strange group of thaumaturgists has taken over various locations around Terra. They call themselves the Crimson Cult, and while they are unaffiliated with any of the factions involved in this conflict, they are hardly friendly.\nThey have direct access to portals that deploy troops directly where needed, and they have magical abilities far above many other opponents.\nIt is clear they have a deep network of information, they avoid large scale confrontations, and they focus on territorial control over low-interest areas. I know making more and more enmies will not serve me well in the long run, but fighting them is guaranteed to give me some insight about the stakes of this conflict.\nIf this was solely a war about resources, why so many other factions, including the Cult, don\u0027t seem to be interested in collecting said resources, and are instead waiting for something to happen?",
+      "desc:8": "§7§o发现于主世界中的血腥传送门高塔。\n\n§f一伙奇怪的神秘使已占领泰拉各处地点。他们自称血腥教团，虽未卷入当前纷争，却绝非善类。\n该教团掌握着精准投放兵力的传送门技艺，其魔法造诣远超寻常敌手。\n显然，他们掌握着庞大的情报网络，总是避免大规模正面冲突，专注于在各方势力兴趣较低的区域建立据点。我深知树敌过多绝非长久之计，但与之交锋必将让我更清晰地看清这场冲突背后的利害关系。\n倘若这仅仅是围绕资源的战争，为何包括教团在内的诸多势力都对攫取资源兴趣缺缺，反而像是在等待某种变数的降临？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:crimson_gem"
       },
-      "name:8": "Crimson Cult Towers"
+      "name:8": "血腥邪教高塔"
     }
   },
   "questID:3": 244,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:crimson_gem"
             },
-            "TrophyName:8": "Robbing the Crimson Cult",
+            "TrophyName:8": "劫掠血腥邪教",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

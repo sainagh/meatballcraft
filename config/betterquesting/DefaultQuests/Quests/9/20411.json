@@ -9,7 +9,7 @@
         "id:8": "botania:cosmetic"
       },
       "ismain:1": 1,
-      "name:8": "Welcome to Chapter 6"
+      "name:8": "欢迎来到第6章"
     }
   },
   "questID:3": 20411,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:muon_crystal"
             },
-            "TrophyName:8": "Welcome to Chapter 6",
+            "TrophyName:8": "欢迎来到第6章",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "gold"
           }

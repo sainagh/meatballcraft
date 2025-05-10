@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 260\nMining Level: Iron\nMining Speed: 2.98\nAttack: 1.76\n\nHandle\nModifier: 1.11\nDurability: 10\n\nExtra\nDurability: 4\n\nBows\nDrawspeed: 0.76\nRange Multiplier: 1.63\nBonus Damage: 3",
+      "desc:8": "顶端\n耐久：260\n挖掘等级：铁\n挖掘速度：2.98\n攻击力：1.76\n\n手柄\n手柄系数：1.11\n耐久：10\n\n其它部件\n耐久：4\n\n弓\n拉弓速度：0.76\n范围系数：1.63\n附加伤害：3",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "brass"
         }
       },
-      "name:8": "Brass"
+      "name:8": "黄铜"
     }
   },
   "questID:3": 201124,

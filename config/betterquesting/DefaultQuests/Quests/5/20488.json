@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe genetic transposer has two main functions.\n\nFirst, it can be used to duplicate gene samples, combine a blank one with an imprinted one to duplicate it! This is how you can farm the ingredients to craft the torcherino!\n\nSecond, you can combine genetic samples into templates, these will be used to customize your bees!\n\nNOTE: templates do not need to have all 12 genes! You can make templates with even one chromosome!",
+      "desc:8": "§7§o基因转换机有两项主要功能。\n\n第一，可用于复制基因样本，将一个空白基因样本与记录有信息的基因样本结合来复制后者！可通过该方法获得制作加速火把的材料！\n\n第二，你可以在合成网格中将基因样本添加到基因模板中，可用该方法来自定义蜜蜂！\n\n注意：基因模板不需要拥有所有12种基因！只有一条染色体也是可以的！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "gendustry:sampler"
       },
-      "name:8": "Genetic Transposer"
+      "name:8": "基因转换机"
     }
   },
   "questID:3": 20488,

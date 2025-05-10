@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Here on Terra, though, those radioactive scraps can be used to breed higher energy fuels.\nThe materials found here allow me to build more stable reactor casings, so I shouldn\u0027t have to detonate any nukes just to make new elements.\n(Which is what the US did during the cold war BTW)",
+      "desc:8": "不过在泰拉，这些放射性废料却能增殖出更高能的燃料。\n得益于这里的特殊材料，我能造出更稳定的反应堆外壳，因此无需靠引爆核弹来合成新元素。\n（顺带一提，冷战时期美国真这么干过）",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:curium"
       },
-      "name:8": "Curium-243"
+      "name:8": "锔-243"
     }
   },
   "questID:3": 50237,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Uses a hefty amount of energy to draconically infuse items from surrounding injectors.\nEach injector consumes power.\nThe higher the tier of the injectors, the faster parts will craft.\nMany items require a minimum tier for the injectors.",
+      "desc:8": "通过周围的注入装置消耗大量能量，对物品进行龙化灌注。\n每个注入装置均需消耗能量。\n注入装置的等级越高，合成速度越快。\n许多物品都有注入装置最低等级要求。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:fusion_crafting_core"
       },
-      "name:8": "Fusion Crafting Core"
+      "name:8": "聚合核心"
     }
   },
   "questID:3": 20690,

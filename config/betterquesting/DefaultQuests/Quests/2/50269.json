@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Exactly as it sounds, energy from pink stuff!",
+      "desc:8": "和名字一样，用粉红色的东西发电！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:machine",
@@ -12,7 +12,7 @@
           "Type:8": "extrautils2:generator_pink"
         }
       },
-      "name:8": "Pink Generator (OK)"
+      "name:8": "粉红发电机（一般）"
     }
   },
   "questID:3": 50269,

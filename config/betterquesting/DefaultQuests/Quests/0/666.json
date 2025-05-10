@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oLord Vatticus will trade the wizard book, used to summon two bosses.\nIt can be tricky to find, so the optional item can be used to summon him!\n\n§fWell this is peculiar! On one hand, I think I have a good idea on the power level of the Twilight Horde, on the other hand, this power level feels a bit too high to make sense.\nOne of the slaves kept writing this place\u0027s history, and shared it with me.\nThe Dungeon of Arcana, in its weirdness, used to be a much different place; this used to be Asgard, home of the Aesirs, the deities in the Norse pantheon. Looking at the properities of Arcanium the only remaining trace of what this place used to be, I can assume they were some sort of order of magicians, and a very powerful one. \nThis place has its own gravitational field, independent of any planet, with perfectly parallel field lines. How is this possible? I don\u0027t know!\nAnd yet, in a matter of mere seconds, the entirety of this place was taken over. Not by troops, not by weapons of mass destruction. No, they were taken over by an actual infinite fortress. A building, a set of rooms, stairs, and doors that, in the time it takes to drink a cup of water, replaced itself with the home of teh Aesirs, killing everything that tried to oppose it.\nThis should be impossible by all physiscs humans have discovered, but here it is. I had to measure everything so many times, and all data points to this fact. I am not on the surface of a planet; I am inside a flat, infinite, pancake-looking fortress sitting somewhere in a space-time anomaly!?",
+      "desc:8": "§7§o瓦提库斯领主会出售巫师之书，可用于召唤两种Boss。\n可能会难以找到，所以可使用可选物品召唤他！\n\n§f真是诡异非常！一方面，我自认对暮光部族的实力有清晰认知；但另一方面，这种力量层级似乎高到有悖常理。\n某位奴隶持续记录着此地的历史，并将之与我分享。\n秘界地牢虽然怪异，昔日却大不相同——这里曾是阿斯加德，北欧诸神阿萨神族的家园。从秘金这种此地仅存的遗迹特性推断，他们应是某种极其强大的魔法师团体。\n此地拥有独立于任何星球的引力场，场力线完美平行。这怎么可能？我无从知晓！\n然而仅在顷刻之间，整个领域便易主沦陷。非军队所致，也非毁天灭地的武器。取而代之的，是一座真正意义上的无尽要塞。就一杯水的工夫，这座由房间、阶梯与门扉构筑的建筑，竟将阿萨神族的家园彻底置换，杀死了所有反抗者。\n按人类已知物理法则，这绝无可能，但它却真实存在。我反复测量了所有数据，结论都指向同一事实。我并非身处某颗行星表面，而是置身于时空异常中的扁平、无限、形似薄饼的堡垒内部！？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:wizards_book"
       },
-      "name:8": "Dungeon Invaders"
+      "name:8": "地牢入侵者"
     }
   },
   "questID:3": 666,

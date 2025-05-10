@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace above a woot farm to produce will.",
+      "desc:8": "§7§o在上方放置Woot刷怪场以产出意志。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Cloned Soul"
+      "name:8": "克隆之魂"
     }
   },
   "questID:3": 822,

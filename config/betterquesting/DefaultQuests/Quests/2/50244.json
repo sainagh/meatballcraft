@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Here is something that no man on earth ever did. Safe fission of berkelium, and even produced some energy from it!\n(for the record, this fission reaction is possible IRL, but only with nukes)",
+      "desc:8": "地球上从未有人做到过。锫元素的安全裂变，甚至还能产生点能量！\n（顺带一提，现实中的锫裂变反应只能通过核武器实现）",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:depleted_fuel_berkelium"
       },
-      "name:8": "Depleted LEB-248 Fuel"
+      "name:8": "枯竭低密度锫-248燃料"
     }
   },
   "questID:3": 50244,

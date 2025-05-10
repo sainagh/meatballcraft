@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Produces RF by consuming advanced eldritch structures (check JEI recipes).\nTartarite Monoliths are an easily renewable source.",
+      "desc:8": "消耗高级邪术材料（查看JEI配方）产出RF。\n魂石巨石块是相当便捷的可再生能量源。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:empowered_monolith"
         }
       },
-      "name:8": "Empowered Monolith (Good)"
+      "name:8": "注能巨石（良好）"
     }
   },
   "questID:3": 50188,

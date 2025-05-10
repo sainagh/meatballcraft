@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oME storage busses use one channel to connect to an inventory. Any items contained in the inventory will become part of the network, and can be seen in the terminals.\n\nExtract only mode makes it so you can see the storage in your terminal, but the network will not store new items into the storage.\n\nInsert only mode makes it so you will not be able to see the storage in your terminal, but it will force the network to move items into the storage.",
+      "desc:8": "§7§oME存储总线占用一个频道，将连接容器接入网络。所连接容器内的所有物品都将成为网络的一部分，可通过终端查看。\n\n“仅取出”模式下，可在终端内查看容器内物品，但网络不会将新物品存入该容器。\n\n“仅存入”模式下，无法在终端中查看容器内物品，但网络可以将物品存入该容器。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 220,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "ME Storage Bus"
+      "name:8": "ME存储总线"
     }
   },
   "questID:3": 90132,

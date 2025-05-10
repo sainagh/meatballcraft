@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThese energy cells are not great, but they can be used for wireless energy at a low transfer rate!",
+      "desc:8": "§7§o这些能量单元性能不算太好，但能以较低传输速率无限传输能量！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftools:powercell_advanced"
       },
-      "name:8": "Advanced Powercell"
+      "name:8": "高级能量单元"
     }
   },
   "questID:3": 723,

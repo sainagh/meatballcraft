@@ -13,7 +13,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can complete this quest with any material!\n\nWorks like a pickaxe, but mines a 3x3 area, very good for mining!\n\nEarly on this is the best mining tool, and a rupee head gives you haste while you mine!",
+      "desc:8": "§7§o使用任意材料制作均可完成本任务！\n\n类似于镐，但是可以3x3范围挖掘，非常适合用来挖矿！\n\n是游戏初期最好的挖掘工具，使用卢比锤头可在挖掘时获得急迫效果！",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -88,7 +88,7 @@
           }
         }
       },
-      "name:8": "Hammer"
+      "name:8": "锤"
     }
   },
   "questID:3": 1064,

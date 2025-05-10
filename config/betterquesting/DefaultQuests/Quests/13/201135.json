@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 800\nMining Level: Cobalt\nMining Speed: 8.09\nAttack: 6.23\nRadioactive III\n\nHandle\nModifier: 1.06\nDurability: 90\nRadioactive III\n\nExtra\nDurability: 50\nRadioactive III\n\nBows\nDrawspeed: 0.8\nRange Multiplier: 1.02\nBonus Damage: 12\nRadioactive III",
+      "desc:8": "顶端\n耐久：800\n挖掘等级：钴\n挖掘速度：8.09\n攻击力：6.23\n辐射 III\n\n手柄\n手柄系数：1.06\n耐久：90\n辐射 III\n\n其它部件\n耐久：50\n辐射 III\n\n弓\n拉弓速度：0.8\n范围系数：1.02\n附加伤害：12\n辐射 III",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "blutonium"
         }
       },
-      "name:8": "Blutonium"
+      "name:8": "蓝钚"
     }
   },
   "questID:3": 201135,

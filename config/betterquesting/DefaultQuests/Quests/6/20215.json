@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Energy relays are equivalency betteries that can be used to transfer EMC to condensers, or to recharge Klein Stars.",
+      "desc:8": "继电器相当于能将EMC传输到凝聚器，或为卡莱恩能量之星充能的EMC电池。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:relay_mk1"
       },
-      "name:8": "Anti-Matter Relay MK1"
+      "name:8": "反物质继电器 MK1"
     }
   },
   "questID:3": 20215,

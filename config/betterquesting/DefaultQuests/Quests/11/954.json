@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oProgress through thaumcraft, botania, abyssalcraft, woot, and deep mob learning.",
+      "desc:8": "§7§o发展神秘时代、植物魔法、深渊国度、Woot以及深度怪物学习。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicaugmentation:primal_cutter",
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Primal Cutter"
+      "name:8": "元始刃"
     }
   },
   "questID:3": 954,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oPrimal Cutter§r"
+              "Name:8": "§6§o元始刃§r"
             },
             "ench:9": {
               "0:10": {

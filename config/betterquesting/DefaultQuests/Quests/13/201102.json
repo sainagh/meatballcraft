@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 345\nMining Level: Diamond\nMining Speed: 7.02\nAttack: 4.5\nProsperous\n\nHandle\nModifier: 0.63\nDurability: 50\nProsnerous\n\nExtra\nDurability: 75\nProsperous\n\nBows\nDrawspeed: 1.72\nRange Multiplier: 0.99\nBonus Damage: 1.91\nProsperous",
+      "desc:8": "顶端\n耐久：345\n挖掘等级：钻石\n挖掘速度：7.02\n攻击力：4.5\n活化\n\n手柄\n手柄系数：0.63\n耐久：50\n活化\n\n其它部件\n耐久：75\n活化\n\n弓\n拉弓速度：1.72\n范围系数：0.99\n附加伤害：1.91\n活化",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "ma.inferium"
         }
       },
-      "name:8": "Inferium"
+      "name:8": "下级精华"
     }
   },
   "questID:3": 201102,

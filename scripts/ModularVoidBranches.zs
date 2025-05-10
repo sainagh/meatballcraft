@@ -135,7 +135,7 @@ betterrecursivegoo.addItemInput(<contenttweaker:nethengeic_rune>);
 betterrecursivegoo.addItemInput(<contenttweaker:everwatching_eye>);
 betterrecursivegoo.addItemInput(<contenttweaker:ender_dolomite>*4);
 betterrecursivegoo.addItemInput(<ore:blockPlatinum>*8);
-betterrecursivegoo.addFluidOutput(<fluid:mildly_recursive_goo>*1000);
+betterrecursivegoo.addFluidOutput(<fluid:mildly_recursive_goo>*10000);
 betterrecursivegoo.build();
 
 mods.nuclearcraft.centrifuge.addRecipe([<fluid:mildly_recursive_goo>*100, <fluid:dimensional_essence>*1000, <fluid:liquid_void>*1000, <fluid:overworldian_fluid>*1000, <fluid:nethengeic_fluid>*1000]);
@@ -342,3 +342,25 @@ recipes.addShaped(<bewitchment:blessed_stone>*2,
 mods.thermalexpansion.Crucible.addRecipe(<fluid:essence>*10000, <contenttweaker:condensed_essence>, 2000);
 
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:condensed_essence>, <fluid:essence>*10000]);
+
+
+
+recipes.addShaped(<contenttweaker:call_of_the_haunted>,
+[[<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>],
+[<techreborn:uumatter>, <aoa3:ghostly_powder>, <techreborn:uumatter>],
+[<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>]]);
+
+recipes.addShaped(<contenttweaker:recursive_feather>,
+[[<contenttweaker:ender_feather>, <contenttweaker:ender_feather>, <contenttweaker:ender_feather>],
+[<contenttweaker:ender_feather>, <contenttweaker:chaotic_feather>, <contenttweaker:ender_feather>],
+[<contenttweaker:ender_feather>, <contenttweaker:ender_feather>, <contenttweaker:ender_feather>]]);
+
+recipes.addShaped(<contenttweaker:sticky_callstone>,
+[[<contenttweaker:dimensional_ingot>, <avaritia:resource:7>, <contenttweaker:dimensional_ingot>],
+[<contenttweaker:forgotten_slime>, <contenttweaker:primordial_prism>, <contenttweaker:forgotten_slime>],
+[<contenttweaker:dimensional_ingot>, <avaritia:resource:7>, <contenttweaker:dimensional_ingot>]]);
+
+recipes.addShaped(<contenttweaker:mythic_excavation_engine>,
+[[<contenttweaker:fluix_microcontroller>, <contenttweaker:high_strength_transmission>, <contenttweaker:fluix_microcontroller>],
+[<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>],
+[<aoa3:elecanium_ingot>, <contenttweaker:primal_jewel>, <aoa3:elecanium_ingot>]]);

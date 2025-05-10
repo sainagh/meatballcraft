@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 700\nMining Level: Diamond\nMining Speed: 7.22\nAttack: 6.22\nMagnetic II\n\nHandle\nModifier: 0.64\nDurability: 220\nMagnetic\n\nExtra\nDurability: 32\nMagnetic\n\nBows\nDrawspeed: 1.09\nRange Multiplier: 0.76\nBonus Damage: 7\nMagnetic",
+      "desc:8": "顶端\n耐久：700\n挖掘等级：钻石\n挖掘速度：7.22\n攻击力：6.22\n磁力 II\n\n手柄\n手柄系数：0.64\n耐久：220\n磁力\n\n其它部件\n耐久：32\n磁力\n\n弓\n拉弓速度：1.09\n范围系数：0.76\n附加伤害：7\n磁力",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "invar"
         }
       },
-      "name:8": "Invar"
+      "name:8": "殷钢"
     }
   },
   "questID:3": 201121,

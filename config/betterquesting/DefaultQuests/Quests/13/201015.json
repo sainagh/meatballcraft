@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 220\nMining Level: Cobalt\nMining Speed: 3.5\nAttack: 9\nVanishing II\n\nHandle\nModifier: 0.5\nDurability: -50\nDirect\n\nExtra\nDurability: 60\nDirect\n\nBows\nDrawspeed: 1.33\nRange Multiplier: 1\nBonus Damage: 5\nDirect\n",
+      "desc:8": "顶端\n耐久：220\n挖掘等级：钴\n挖掘速度：3.5\n攻击力：9\n传送 II\n\n手柄\n手柄系数：0.5\n耐久：-50\n存入\n\n其它部件\n耐久：60\n存入\n\n弓\n拉弓速度：1.33\n范围系数：1\n附加伤害：5\n存入\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "vibrant_alloy"
         }
       },
-      "name:8": "Vibrant Alloy"
+      "name:8": "脉冲合金"
     }
   },
   "questID:3": 201015,

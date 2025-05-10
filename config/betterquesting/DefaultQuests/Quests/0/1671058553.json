@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    319
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oSolar panels may become a prized possession in the future, good thing that the Shyrelands mythic miner makes them a bit easier to obtain",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "techreborn:solar_panel"
+      },
+      "name:8": "Solar Frienzy"
+    }
+  },
+  "questID:3": 1671058553,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:arcbulb"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 31,
+          "id:8": "techreborn:part"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 32,
+          "id:8": "techreborn:part"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 29,
+          "id:8": "techreborn:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

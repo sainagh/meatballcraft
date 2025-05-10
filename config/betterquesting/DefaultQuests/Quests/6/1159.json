@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oReverts the blighted lands.",
+      "desc:8": "§7§o恢复枯萎之地。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:cleansing_balm"
       },
-      "name:8": "Nature\u0027s Blessing"
+      "name:8": "自然祝福仪式"
     }
   },
   "questID:3": 1159,

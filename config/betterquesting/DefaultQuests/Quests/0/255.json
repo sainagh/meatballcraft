@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis can be used to craft interesting, powerful, destructive, bizarre items!\n\n§fHere is something both interesting and amusing. A scholar from a past moment of prosperity on Terra has compiled a list of the effects of essentia aspects, the \u0027quanta\u0027 of the thaumic fields, when sufficiently concentrated. Some are very powerful, some are convenient, some are dangerous.\nI want to try them all!",
+      "desc:8": "§7§o可用于制作有趣、强大、具有破坏性、异乎寻常的物品！\n\n§f有件既有趣又令人莞尔的事。一位来自地球过去某个繁荣时期的学者编纂了一份清单，上面记录了当源质要素（即神秘场域的“量子”）浓度足够高时所产生的种种效应。这些效应有的威力非凡，有的便捷实用，有的则危机四伏。\n我都想试试看！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:master_spell_focus"
       },
-      "name:8": "Master Spell Focus"
+      "name:8": "主宰法咒核心"
     }
   },
   "questID:3": 255,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:master_spell_focus"
             },
-            "TrophyName:8": "Apprentice Master Spellcaster",
+            "TrophyName:8": "学徒级咒法主宰",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 5,000\nMining Level: 10\nMining Speed: 9\nAttack: 35\nRude Awakening\nBrown Magic\n\nHandle\nModifier: 1.8\nDurability: 500\nBlind Bandit\nApocalypse\nGlobal Traveler\n\nExtra\nDurability: 500\nBlind Bandit\nApocalypse\nGlobal Traveler\n\nBows\nDrawspeed: 0.53\nRange Multiplier: 2.8\nBonus Damage: 20\nBlind Bandit\nApocalypse\nGlobal Traveler",
+      "desc:8": "顶端\n耐久：5,000\n挖掘等级：10\n挖掘速度：9\n攻击力：35\n惊醒\n布朗魔术\n\n手柄\n手柄系数：1.8\n耐久：500\n盲匪\n启示录\n环球旅行者\n\n其它部件\n耐久：500\n盲匪\n启示录\n环球旅行者\n\n弓\n拉弓速度：0.53\n范围系数：2.8\n附加伤害：20\n盲匪\n启示录\n环球旅行者",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "awakened_plustic"
         }
       },
-      "name:8": "Awakened"
+      "name:8": "觉醒"
     }
   },
   "questID:3": 201193,

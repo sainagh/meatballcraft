@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMolecular assemblers are used to perform crafting recipes.\n\nThe more molecular assemblers are touching an interface, the faster it will craft.\n\nAcceleration cards can be used on molecular assemblers!",
+      "desc:8": "§7§o分子装配室可执行合成配方！\n\n接口相连的分子装配室越多，合成速度越快。\n\n分子装配室可加装加速卡！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:molecular_assembler"
       },
-      "name:8": "Molecular Assembler"
+      "name:8": "分子装配室"
     }
   },
   "questID:3": 90156,

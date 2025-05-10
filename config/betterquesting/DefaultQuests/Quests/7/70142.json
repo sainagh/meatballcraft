@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Precasia Dimension from Advent of Ascension, below Y\u003d42.",
+      "desc:8": "§7§o发现于虚无世界模组的传说维度，位于Y\u003d42以下。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:footbone_fragment"
       },
-      "name:8": "Footbone Fragment"
+      "name:8": "足骨碎片"
     }
   },
   "questID:3": 70142,

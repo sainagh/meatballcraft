@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Use a twilight clock on a frame of eden block",
+      "desc:8": "对伊甸块构成的传送门使用暮光之钟",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:wildwood_grass"
       },
-      "name:8": "Wildwood Islands"
+      "name:8": "原始森林岛屿"
     }
   },
   "questID:3": 20294,
@@ -18,8 +18,18 @@
       "dimension:3": 421,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Wildwood Islands",
+      "name:8": "原始森林岛屿",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:wildwood_grass"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

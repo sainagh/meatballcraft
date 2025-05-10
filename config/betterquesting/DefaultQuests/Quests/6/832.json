@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMakes it thunder!",
+      "desc:8": "§7§o天气设为雷雨天！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:water_bucket"
       },
-      "name:8": "Imperfect Thunder Ritual"
+      "name:8": "不完善的雷雨仪式"
     }
   },
   "questID:3": 832,

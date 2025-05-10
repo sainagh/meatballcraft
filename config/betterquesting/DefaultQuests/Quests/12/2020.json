@@ -9,12 +9,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oProtects you from the Vox Ponds.",
+      "desc:8": "§7§o保护你免受未知维度的毒气伤害。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:face_mask"
       },
-      "name:8": "Face Mask"
+      "name:8": "面罩"
     }
   },
   "questID:3": 2020,

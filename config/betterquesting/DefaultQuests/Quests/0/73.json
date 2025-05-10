@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "My experiments are really using a lot of power, and I think it\u0027s time to upgrade my generation infrastructure.\nYellorium, a mineral native to Terra, has some very interesting radioactive properties that I should be able to use to produce basic fission reactions.",
+      "desc:8": "实验需要大量的能量，是时候升级我的产能设施了。\n泰拉原生的黄铀矿展现出了惊人的裂变性质，应该能用来建造基础的裂变反应堆。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bigreactors:reactorcontroller"
       },
-      "name:8": "Basic Fission"
+      "name:8": "基础裂变"
     }
   },
   "questID:3": 73,

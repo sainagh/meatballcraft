@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "To make all of the chipsets.\nAnd a dope laser show!\nRecipes are encoded by the assembly table, powered by surrounding lasers, the more the better!",
+      "desc:8": "制作所有的芯片！\n还有激光秀！\n配方可在装配台中设置，使用镭射器环绕进行供能，越多越好！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "buildcraftsilicon:assembly_table"
       },
-      "name:8": "Assembly Table"
+      "name:8": "装配台"
     }
   },
   "questID:3": 20570,

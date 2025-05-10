@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is how you automate will crystals.\n\nYou will need a fair amount of each will crystal type to start this process (10 or 20 to be safe), but it will run passively after that.\n\nYou will need two rituals, both located in the same chunk. The crack of the fractured crystal should be at the top, and the gathering of the forsaken souls should be at the bottom. You can place both ritual stones on top of each other (see multiblock preview).\n\nSet up a passive mob farm below the rituals. The higher the variety of different animals, the faster this farm will work.\n\nPlace the five will crystal clusters somewhere above the rituals, in the same chunk.\n\nPlace five crucibles nearby the crystals, and pipe will crystals of each type into each.\n\nThe crystal clusters will start growing, and they will drop will crystals on the ground. Use some sort of ranged collector to collect them, and pipe them into the crucibles.\n\nThis setup will produce a surplus of will crystals. They will be made faster than the demon crucibles consume them. Profit!\n\n\n",
+      "desc:8": "§7§o可通过以下方法实现意志晶体自动化。\n\n需要一定数量（10个，20个更安全）的每种意志晶体来启动该过程，启动后不需要消耗晶体运行。\n\n需要在同区块内运行两个仪式。碎晶裂纹仪式在顶部，孤魂集会仪式在底部。两种仪式的主仪式石可垂直相邻放置（查看多方块预览）。\n\n在仪式下发建立被动生物刷怪场。动物种类越多，晶体产量越多。\n\n在仪式同区块上方放置5种意志晶簇。\n\n在晶簇附近放置5个恶魔坩埚，分别输入5种不同的意志晶体。\n\n意志晶簇将开始生长，掉落意志晶体。使用物品收集器收集晶体，并输送到坩埚内。\n\n该设计会产出多余的意志晶体，因为产生的速度比消耗速度快！\n\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bloodmagic:demon_crystal"
       },
-      "name:8": "Farming Will Crystals"
+      "name:8": "自动化意志晶体"
     }
   },
   "questID:3": 864,

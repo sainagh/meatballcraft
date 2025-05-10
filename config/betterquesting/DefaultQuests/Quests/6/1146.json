@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCheck uses for these items for the ritual preview.\n\nThis will summon Baphomet!  ",
+      "desc:8": "§7§o检查材料的用途以查看仪式预览。\n\n会召唤巴弗灭！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:wing_of_worship"
       },
-      "name:8": "Baphomet\u0027s Sabbath (Useful)"
+      "name:8": "巴弗灭之祭（实用）"
     }
   },
   "questID:3": 1146,

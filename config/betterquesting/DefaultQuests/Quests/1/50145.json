@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Gosh I love repeating myself, BETTER!",
+      "desc:8": "天哪我太喜欢复读了，更好！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "thermalexpansion:reservoir",
         "tag:10": {}
       },
-      "name:8": "Reservoir (Signalum)"
+      "name:8": "贮液器 (信素)"
     }
   },
   "questID:3": 50145,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests show how to deal with and farm chickens!\n\n§fGenetically modified chickens, because why the f..k not...",
+      "desc:8": "§7§o以下任务展示了处理和饲养鸡的方法！\n\n§f基因编辑鸡，因为我想干什么就他*干什么……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Eggscellent"
+      "name:8": "无以卵比"
     }
   },
   "questID:3": 20424,

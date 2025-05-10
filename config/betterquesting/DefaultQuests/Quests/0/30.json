@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThese commands are considered to be cheats, but some players cannot live without them.\nUse the chat command /sethome to set your home. Use /home to teleport there.\nUse /spawn to teleport to world spawn.",
+      "desc:8": "§7§o这些命令通常被视为作弊，但有些玩家离不了它们。\n使用聊天栏命令/sethome来设置家。使用/home来传送到设置的家坐标。\n使用/spawn来传送到世界出生点。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 14,
         "id:8": "minecraft:bed"
       },
-      "name:8": "Home"
+      "name:8": "家"
     }
   },
   "questID:3": 30,

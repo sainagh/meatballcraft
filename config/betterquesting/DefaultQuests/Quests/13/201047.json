@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 210\nMining Level: Iron\nMining Speed: 5.3\nAttack: 3\nWell-Established\n\nHandle\nModifier: 1.05\nDurability: 30\nWell-Established\n\nExtra\nDurability: 100\nWell-Established\n\nBows\nDrawspeed: 1.67\nRange Multiplier: 1.45\nBonus Damage: 5\nWell-Established",
+      "desc:8": "顶端\n耐久：210\n挖掘等级：铁\n挖掘速度：5.3\n攻击力：3\n老成\n\n手柄\n手柄系数：1.05\n耐久：30\n老成\n\n其它部件\n耐久：100\n老成\n\n弓\n拉弓速度：1.67\n范围系数：1.45\n附加伤害：5\n老成",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "copper"
         }
       },
-      "name:8": "Copper"
+      "name:8": "铜"
     }
   },
   "questID:3": 201047,

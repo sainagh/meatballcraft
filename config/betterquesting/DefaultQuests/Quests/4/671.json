@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWireless version of the ME terminal. ",
+      "desc:8": "§7§o无线版本的ME终端。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:wireless_terminal",
         "tag:10": {}
       },
-      "name:8": "Wireless Terminal"
+      "name:8": "无线终端"
     }
   },
   "questID:3": 671,

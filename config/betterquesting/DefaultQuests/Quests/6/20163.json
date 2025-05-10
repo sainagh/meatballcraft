@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe rune altar can only accept mana from mana spreaders.\n\nDrop the required materials for a recipe on the altar.\n\nIf the recipe is successful, the spreader will start shooting mana, until the altar is full.\n\nOnce the altar is full, you have to drop a livingrock on it, and right click with a wand of the forest to complete the craft.\n\nRunes in rune altar recipes are not consumed.",
+      "desc:8": "§7§o符文祭坛只能从魔力发射器中接收魔力。\n\n将配方所需材料丢到祭坛顶部。\n\n若配方正确，发射器将开始发射魔力脉冲，直至祭坛充满。\n\n一旦祭坛充满魔力，向祭坛上丢出一个活石，使用森林法杖右击祭坛来完成合成。\n\n在符文祭坛配方中，符文不会消耗。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:runealtar"
       },
-      "name:8": "Runic Altar"
+      "name:8": "符文祭坛"
     }
   },
   "questID:3": 20163,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": " §7§oCannot charge all RF items, but can charge certus and some AE2 tools.",
+      "desc:8": " §7§o不兼容RF物品，但可充能赛特斯石英水晶和一些AE2的工具。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:charger"
       },
-      "name:8": "Charger"
+      "name:8": "充能器"
     }
   },
   "questID:3": 709,

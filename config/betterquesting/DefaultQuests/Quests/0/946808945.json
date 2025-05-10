@@ -1,0 +1,95 @@
+{
+  "preRequisites:11": [
+    2035349863
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:cosmic_string_module"
+      },
+      "name:8": "Quasar Gang - Abating Edition"
+    }
+  },
+  "questID:3": 946808945,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildinggadgets:template",
+          "tag:10": {
+            "TemplateName:8": "TARDIS Coral",
+            "UUID:8": "9c9245ff-b969-411d-b7de-6fcefb341a1f",
+            "copycounter:3": 5,
+            "endPos:10": {
+              "X:3": -96,
+              "Y:3": 98,
+              "Z:3": 35
+            },
+            "itemcountmap:9": {
+              "0:10": {
+                "count:3": 76,
+                "item:3": 22965,
+                "meta:3": 0
+              },
+              "1:10": {
+                "count:3": 20,
+                "item:3": 22968,
+                "meta:3": 0
+              },
+              "2:10": {
+                "count:3": 2,
+                "item:3": 4,
+                "meta:3": 0
+              },
+              "3:10": {
+                "count:3": 28,
+                "item:3": 22961,
+                "meta:3": 0
+              },
+              "4:10": {
+                "count:3": 105,
+                "item:3": 22963,
+                "meta:3": 0
+              }
+            },
+            "startPos:10": {
+              "X:3": -88,
+              "Y:3": 108,
+              "Z:3": 27
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:cosmic_string_module"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:dyson_abater"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

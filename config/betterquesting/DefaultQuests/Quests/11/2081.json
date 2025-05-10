@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDefeat the Mother Host in Creeponia!",
+      "desc:8": "§7§o击败蠕变维度的宿主爬行者之母！",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -20,7 +20,7 @@
         },
         "id:8": "immersiveengineering:revolver"
       },
-      "name:8": "Revolver"
+      "name:8": "左轮手枪"
     }
   },
   "questID:3": 2081,

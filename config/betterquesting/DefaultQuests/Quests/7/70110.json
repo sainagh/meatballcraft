@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound at all heights in the Overworld.",
+      "desc:8": "§7§o可在主世界的任何高度发现。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:quartz"
       },
-      "name:8": "Nether Quartz"
+      "name:8": "下界石英"
     }
   },
   "questID:3": 70110,

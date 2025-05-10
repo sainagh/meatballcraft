@@ -439,3 +439,14 @@ recipes.addShapeless(<appliedenergistics2:part:467>,
 recipes.addShapeless(<appliedenergistics2:part:469>,
 [<appliedenergistics2:part:460>, <appliedenergistics2:energy_cell>.reuse()]);
 
+
+
+recipes.addShaped(<appliedenergistics2:material:35>*18,
+[[<minecraft:redstone>, <contenttweaker:fractal_stone>, <minecraft:redstone>],
+[<contenttweaker:fractal_stone>, <appliedenergistics2:material:22>, <contenttweaker:fractal_stone>],
+[<minecraft:redstone>, <contenttweaker:fractal_stone>, <minecraft:redstone>]]);
+
+recipes.addShaped(<appliedenergistics2:material:54>*18,
+[[<minecraft:dye:4>, <contenttweaker:fractal_stone>, <minecraft:dye:4>],
+[<contenttweaker:fractal_stone>, <appliedenergistics2:material:22>, <contenttweaker:fractal_stone>],
+[<minecraft:dye:4>, <contenttweaker:fractal_stone>, <minecraft:dye:4>]]);

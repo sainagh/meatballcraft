@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRadiation is a thing! \n\nOres like Uranium, Thorium, Yellorium will poison you! \n\nThere are tooltips for things that are radioactive!\n\nThe nuclear wasteland biome is also radioactive, stay away!\n\n§7§oIf you are experiencing effects like weakness, hunger, poison, it means you have radiation poisoning.\n\nRadiation poisoning can be cured by eating golden carrots, golden apples, enchanted golden apples, and RadAway!",
+      "desc:8": "§7§o辐射是个问题！\n\n像铀、钍、黄铀这类的矿石会让你中毒！\n\n具有辐射性的物品会有提示文本说明！\n\n核泄漏之地（Nuclear Wasteland）生态群系也有辐射，离那儿远点！\n\n§7§o如果你身上出现像虚弱、饥饿、中毒这类状态效果 ，那就说明你辐射中毒了。\n\n可通过食用金胡萝卜、金苹果、附魔金苹果以及辐射宁来治愈辐射中毒！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:radaway"
       },
-      "name:8": "That\u0027s Rad!"
+      "name:8": "是辐射！"
     }
   },
   "questID:3": 11,

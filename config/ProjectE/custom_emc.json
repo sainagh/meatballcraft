@@ -22903,6 +22903,186 @@
     {
       "item": "glassential:glass_redstone|0",
       "emc": 0
+    },
+    {
+      "item": "glassential:glass_ghostly|0",
+      "emc": 0
+    },
+    {
+      "item": "glassential:glass_ethereal|0",
+      "emc": 0
+    },
+    {
+      "item": "divinerpg:dream_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:arcanite_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:skythern_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:apalachia_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:wildwood_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:eden_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:frozen_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:mortum_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "cyclicmagic:charm_water|0",
+      "emc": 0
+    },
+    {
+      "item": "cyclicmagic:charm_void|0",
+      "emc": 0
+    },
+    {
+      "item": "cyclicmagic:charm_boat|0",
+      "emc": 0
+    },
+    {
+      "item": "cyclicmagic:charm_fire|0",
+      "emc": 0
+    },
+    {
+      "item": "cyclicmagic:charm_speed|0",
+      "emc": 0
+    },
+    {
+      "item": "cyclicmagic:charm_wing|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:ichorium_void_stone|0",
+      "emc": 4096
+    },
+    {
+      "item": "glassential:glass_ethereal_reverse|0",
+      "emc": 0
+    },
+    {
+      "item": "twilightforest:root|0",
+      "emc": 32
+    },
+    {
+      "item": "thebetweenlands:swamp_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "thebetweenlands:swamp_grass|0",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:gray_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "minecraft:white_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "minecraft:orange_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "minecraft:magenta_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "minecraft:light_blue_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "minecraft:yellow_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "minecraft:lime_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "minecraft:pink_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "minecraft:silver_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "minecraft:cyan_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "minecraft:blue_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "minecraft:brown_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "minecraft:green_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "minecraft:red_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "minecraft:black_shulker_box|0",
+      "emc": 4132
+    },
+    {
+      "item": "ironchest:diamond_crystal_shulker_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "ironchest:iron_gold_shulker_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "ironchest:gold_diamond_shulker_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "ironchest:copper_silver_shulker_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "ironchest:silver_gold_shulker_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "ironchest:copper_iron_shulker_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "ironchest:vanilla_iron_shulker_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "ironchest:vanilla_copper_shulker_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "ironchest:diamond_obsidian_shulker_upgrade|0",
+      "emc": 0
     }
   ]
 }

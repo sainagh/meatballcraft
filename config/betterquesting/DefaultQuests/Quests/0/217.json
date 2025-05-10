@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§o§7Found in dungeons in the underground of iceika!\n\n§fNot only somebody was able to use wizardry to open wormholes, but this \u0027master of frost\u0027 seemingly subjugated an entire planet to their power, turning it into a desolate icy land.",
+      "desc:8": "§o§7发现于冰晶雪原地下的地牢！\n\n§f不仅有人能使用巫术开启虫洞，这位“冰霜主宰”甚至能以伟力征服整颗行星，将其化作永恒的冰封冻土。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:snowflake"
       },
-      "name:8": "Snowy Powers"
+      "name:8": "冰雪之力"
     }
   },
   "questID:3": 217,
@@ -35,7 +35,7 @@
               "Damage:2": 0,
               "id:8": "divinerpg:snowflake"
             },
-            "TrophyName:8": "Archer Slayer",
+            "TrophyName:8": "射手屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

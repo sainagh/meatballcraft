@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 10\nMining Level: Iron\nMining Speed: 4.2\nAttack: 250\n\nHandle\nModifier: 5\nDurability: 10\n\nExtra\nDurability: 10\n",
+      "desc:8": "顶端\n耐久：10\n挖掘等级：铁\n挖掘速度：4.2\n攻击力：250\n\n手柄\n手柄系数：5\n耐久：10\n\n其它部件\n耐久：10\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "demonc_ember"
         }
       },
-      "name:8": "Demonic Ember"
+      "name:8": "恶魔余烬"
     }
   },
   "questID:3": 2272,

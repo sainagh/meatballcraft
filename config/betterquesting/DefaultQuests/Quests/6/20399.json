@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEssentia transfusers are the best way to move essentia around!\n\nPlace them on essentia machines, and they automatically move essentia to/from jars nearby.\n\nFilling \u003d from machines to jars\n\nEmptying \u003d from jars to machines\n\n",
+      "desc:8": "§7§o源质析出和注入装置是传输源质的最佳手段！\n\n将其放置在源质机械上，可以从附近的罐子里自动输入\n\n析出 \u003d 从机械到罐子\n\n注入 \u003d 从罐子到机械\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:essentia_input"
       },
-      "name:8": "Tubeless Essentia"
+      "name:8": "无线源质"
     }
   },
   "questID:3": 20399,

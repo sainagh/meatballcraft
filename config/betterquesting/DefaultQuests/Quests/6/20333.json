@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe spinning wheel uses ME to craft! Place it near the witches altar!\n\nJEI will tell you the recipes done by the spinning wheel!",
+      "desc:8": "§7§o纺车使用ME来制作物品！将其放置在女巫祭坛周围！\n\n可在JEI中查看纺车支持的配方！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:spinning_wheel"
       },
-      "name:8": "Spinning Wheel"
+      "name:8": "纺车"
     }
   },
   "questID:3": 20333,

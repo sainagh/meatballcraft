@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,150\nMining Level: 6\nMining Speed: 14\nAttack: 8\nDread-Plagued\n\nHandle\nModifier: 0.9\nDurability: 60\nDread-Plagued\n\nExtra\nDurability: 100\nDread-Plagued",
+      "desc:8": "顶端\n耐久：1,150\n挖掘等级：6\n挖掘速度：14\n攻击力：8\n恐惧疫染\n\n手柄\n手柄系数：0.9\n耐久：60\n恐惧疫染\n\n其它部件\n耐久：100\n恐惧疫染",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "dreadium"
         }
       },
-      "name:8": "Dreadium"
+      "name:8": "惧质"
     }
   },
   "questID:3": 201055,

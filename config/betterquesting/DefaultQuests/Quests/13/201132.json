@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,600\nMining Level: Cobalt\nMining Speed: 14.52\nAttack: 19.62\nAlien\nPayback\n\nHandle\nModifier: 1.63\nDurability: 260\nAlien\nPayback\n\nExtra\nDurability: 180\nAlien\nPayback\n\nBows\nDrawspeed: 0.65\nRange Multiplier: 6.45\nBonus Damage: 15\nAlien\nPayback",
+      "desc:8": "顶端\n耐久：1,600\n挖掘等级：钴\n挖掘速度：14.52\n攻击力：19.62\n异形\n以牙还牙\n\n手柄\n手柄系数：1.63\n耐久：260\n异形\n以牙还牙\n\n其它部件\n耐久：180\n异形\n以牙还牙\n\n弓\n拉弓速度：0.65\n范围系数：6.45\n附加伤害：15\n异形\n以牙还牙",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "gaia"
         }
       },
-      "name:8": "Gaia Spirit"
+      "name:8": "盖亚魂"
     }
   },
   "questID:3": 201132,

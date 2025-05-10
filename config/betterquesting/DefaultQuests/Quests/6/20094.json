@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo draw a magic circle, right click the Ashes on a block, and right click the required reagents (as shown in JEI) to start a craft.",
+      "desc:8": "§7§o使用奥术粉灰右击方块绘制炼金矩阵，使用所需催化剂（显示在JEI中）右击矩阵以开始合成。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bloodmagic:arcane_ashes"
       },
-      "name:8": "Arcane Ashes"
+      "name:8": "奥术粉灰"
     }
   },
   "questID:3": 20094,

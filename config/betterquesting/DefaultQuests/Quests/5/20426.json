@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "A henhouse provided with hay can collect chicken drops in a radius around it.",
+      "desc:8": "提供干草块时，鸡舍能收集一定范围内的鸡的产物。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "chickens:henhouse"
       },
-      "name:8": "Henhouse"
+      "name:8": "鸡舍"
     }
   },
   "questID:3": 20426,

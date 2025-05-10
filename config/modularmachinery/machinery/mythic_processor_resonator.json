@@ -2,6 +2,27 @@
     "registryname": "mythic_processor_resonator",
     "localizedname": "Mythic Processor: Resonator",
 	"color": "464f47",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:mythic_coil_t2@0",
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "description": "处理数量x32",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 32
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 32
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -1,

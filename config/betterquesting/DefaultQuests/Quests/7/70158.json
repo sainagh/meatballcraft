@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Nether on Netherack roofs and cliffs.",
+      "desc:8": "§7§o现于下界天花板的底部。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:glowstone_dust"
       },
-      "name:8": "Glowstone Dust"
+      "name:8": "荧石粉"
     }
   },
   "questID:3": 70158,

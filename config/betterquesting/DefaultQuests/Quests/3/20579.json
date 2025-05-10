@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Protein as an energy source?\nSure, just take some animal meat!",
+      "desc:8": "蛋白质也能作为能量来源？\n当然，只需消耗一些动物肉！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:protein_reactor"
       },
-      "name:8": "Protein Reactor"
+      "name:8": "蛋白质反应器"
     }
   },
   "questID:3": 20579,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGenerates mana from lightning strikes",
+      "desc:8": "§7§o从雷击中产生魔力",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "reikarlily"
         }
       },
-      "name:8": "Reikar Lily (Good)"
+      "name:8": "雷卡兰（良好）"
     }
   },
   "questID:3": 778,

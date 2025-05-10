@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo make your first celestial crystal, you need liquid starlight, stardust, and a rock crystal.\n\nPlace down a bucket of liquid starlight, with sky access, and preferably nearby a collector crystal.\n\nDrop the stardust and rock crystal into the liquid starlight, and a celestial crystal cluster will form.\n\nThe cluster will drop a celestial crystal when fully grown. Using a linking tool to bind a collector crystal with the cluster will speed up its growth!",
+      "desc:8": "§7§o需要星能液、星尘以及水晶石来制作第一块天辉水晶石。\n\n露天放置一桶星能液，最近最好有聚能水晶。\n\n将星尘和水晶石丢入星能液中，等待一段时间即可产生天辉水晶簇。\n\n完全生长后，水晶簇会掉落天辉水晶石。使用链接工具将水晶簇与聚能水晶绑定来加速生长！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:itemcelestialcrystal",
@@ -20,7 +20,7 @@
           }
         }
       },
-      "name:8": "Celestial Crystal"
+      "name:8": "天辉水晶石"
     }
   },
   "questID:3": 1354,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Arc Reactor passively produces RF, as well as Arc Residue.",
+      "desc:8": "电弧反应堆可被动产出能量，还有电弧残渣。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:gravitite_enchanter"
         }
       },
-      "name:8": "Arc Reactor (Good)"
+      "name:8": "电弧反应堆（良好）"
     }
   },
   "questID:3": 50274,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCrop sticks can be used to duplicate or improve crops.\n\nOnly plants placed on crop sticks can be improved. Crops have three stats: growth, gain and strength. All stats have a level ranging from 1 to 10.\n\nAll planted crops start at level 1/1/1, and become much better when levelled to 10/10/10. \n\nIf you right click crop sticks with crop sticks, you make crossing crop sticks.\n\nIf crossing crop sticks are placed next to planted crop sticks, the plant will spread, sharing its stats.\n\nIf two or more planted crops are placed around double crop sticks, the resulting plant may come out with better stats.\n\nThe seed analyzer can be used to look at a given plant\u0027s stats. \n\nIf you want to challenge yourself with some boolean logic, integrated dynamics can be used to automate the process of making 10/10/10 seeds.",
+      "desc:8": "§7§o作物架可用于复制或提升作物属性。\n\n只有放置在作物架上的植物才能提升属性。作物有三种属性：生长速度、产量以及抗性。所有属性的数值范围都为从1到10。\n\n所有种植的作物，初始属性都为1/1/1，升级到10/10/10时，表现会强很多。\n\n若使用作物架右击作物架，会将其变为杂交架。\n\n若杂交架旁边有种植有作物的作物架，作物会传播到杂交架上，拥有相同的数据。\n\n若杂交架旁有两个或两个以上种植有作物的作物架，杂交架上出现的作物可能会有更好的属性。\n\n种子分析仪可用于查看所给作物的属性。\n\n若你想用一些布尔逻辑来挑战自己，可以使用集成动力模组来自动化制作10/10/10种子。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "agricraft:crop_sticks"
       },
-      "name:8": "The Best Plants"
+      "name:8": "最好的植物"
     }
   },
   "questID:3": 20465,

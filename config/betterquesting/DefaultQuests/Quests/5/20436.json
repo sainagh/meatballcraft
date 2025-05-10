@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "For some reason, draconic powers can be used to massively replicate a select set of powerful monsters...\nThis will come in handy later...",
+      "desc:8": "出于某种原因，龙的力量可以大规模复制某些特定的强力生物……\n后面会派上用场的……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:draconic_spawner"
       },
-      "name:8": "Stabilized Mob Spawner"
+      "name:8": "稳定刷怪箱"
     }
   },
   "questID:3": 20436,

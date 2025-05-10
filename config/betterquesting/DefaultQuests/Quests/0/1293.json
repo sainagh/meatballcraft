@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMany of the recipes in this pack are recursive, meaning that once you have crafted an item for the first time, you can use these special recipes to duplicate it.\nSome recursive recipes will consume the item, some won\u0027t.\n\nIf this is the first time you encounter recursive recipes (some other modpacks use them), you should read this example on how to deal with them.\n\nThe normal basic table recipe can only be performed in a vanilla crafting table, and it will not work with any smart crafting system like applied energistics.\n\nTo craft your next basic table, you should use the recursive recipe (the one that contains a basic table as an ingredient) instead of the basic one.\n\n1. Make a crafter from RFTools (others can work but this is the easiest). This table will require energy to run.\n\n2. Set the recursive recipe in the crafter using the + button from JEI. Or set the recipe manually I guess I\u0027m not your boss...\n\n3. Set the recipe to \u0027All\u0027 and \u0027ExtC\u0027. This will make it so the input table will always be in the input.\n\n4. Place your basic table in the input, and click the R button to remember the input slot for the table.\n",
+      "desc:8": "§7§o本整合包中存在许多递归配方，这意味着当首次合成某个物品后，便可通过这些特殊配方进行复制。\n部分递归配方会消耗原物品，而另一些则不会。\n\n若你是初次接触递归合成配方（部分其他整合包也有类似机制），建议仔细阅读以下示例说明以掌握其使用方法。\n\n普通的基础工作台配方只能在原版工作台中进行，不兼容类似AE的智能合成系统。\n\n当需要合成后续的基础工作台时，请使用递归配方（即配方中包含基础工作台作为材料），而非基础配方。\n\n1. 制作一个RFTools模组的自动合成机（其他模组的合成机也可以，但这个最简单）。这个合成机需要消耗能量运行。\n\n2. 通过JEI的“+”按钮在合成机中设置递归配方。当然，你也可以手动配置配方——毕竟我又不是你领导……\n\n3. 将合成模式设置为“All”和“ExtC”。这将确保作为原料的工作台始终保留在输入栏中。\n\n4. 将基础工作台放入输入栏，点击“R”键记忆该物品的输入槽位。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extendedcrafting:table_basic"
       },
-      "name:8": "Recursive Recipes"
+      "name:8": "递归配方"
     }
   },
   "questID:3": 1293,

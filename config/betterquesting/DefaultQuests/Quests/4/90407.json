@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo filter based on mods.",
+      "desc:8": "§7§o基于模组过滤。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "modularrouters:filter"
       },
-      "name:8": "Mod Filter"
+      "name:8": "按mod分拣过滤名单"
     }
   },
   "questID:3": 90407,

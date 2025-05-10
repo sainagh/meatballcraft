@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Really Scary Vishroom is really scary. It unlocks all Thaumcraft knowledge, at the cost of a lot of permanent warp!\n\nHaving access to at least the Dreading Warp Cleanser is a decent idea, having access to the Omothol Warp Cleanser is a very good idea.\n\nTo craft this item, though, you will still need to do a little bit of research by yourself. The following steps are the bare minimum required to unlock this item.\n1. Fundamentals: first steps \u003e discovering alchemy \u003e discovering infusion \u003e discovering auromancy\n2. Alchemy: basic alchemy \u003e alumentum \u003e alchemical metalurgy \u003e essentia smelting \u003e warded jars and labels \n3. Arcane Infusion: basic infusion \u003e infusion \u003e (optional) infusion stablizer",
+      "desc:8": "§7§o惊怖纤毛菇真的很吓人。它能解锁所有知识，代价是巨量的永久扭曲！\n\n获取恐惧之地扭曲精华符咒是个好主意，如果是奥穆索扭曲精华符咒就更好了。\n\n要制作该物品，你还得先自己进行一些研究。以下步骤是解锁该物品的最短路径。\n1. 基础学：最初的摸索 \u003e 发现：炼金术 \u003e 发现：注魔 \u003e 发现：神秘学\n2. 炼金术：基础炼金术 \u003e 源动之焰 \u003e 金属炼成 \u003e 源质冶炼 \u003e 要素罐子和标签 \n3. 奥术注魔：基础注魔 \u003e 注魔 \u003e （可选）注魔稳定性",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:magic_mushroom_dark"
       },
-      "name:8": "Unlock ALL Research"
+      "name:8": "解锁全部知识"
     }
   },
   "questID:3": 20179,

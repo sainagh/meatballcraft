@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This device can be connected to a rotor of some sort to produce RF.",
+      "desc:8": "该设备可通过连接的某种转子产出RF。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "immersiveengineering:metal_device1"
       },
-      "name:8": "Kinetic Dynamo (Good)"
+      "name:8": "动能发电机（良好）"
     }
   },
   "questID:3": 50162,

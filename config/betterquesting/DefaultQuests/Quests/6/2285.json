@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is one of the earliest means of in-game teleportation.\n\nRight clicking the Rift SIgnature on two different locations creates two rifts. The base version can get unstable, while the stabilized version will allow for safer use.\n\nPlacing Iron Dimensional Doors on these rifts will link them to each other.",
+      "desc:8": "§7§o游戏前期的可用传送方案之一。\n\n使用裂痕印记右击将两个地点绑定以创建裂痕。基础版本创建的裂痕不稳定，使用稳定裂痕印记更为安全。\n\n在创建的裂痕上放置铁质维度门可将其连接。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "dimdoors:rift_signature"
       },
-      "name:8": "Cool Teleportation"
+      "name:8": "酷炫传送"
     }
   },
   "questID:3": 2285,

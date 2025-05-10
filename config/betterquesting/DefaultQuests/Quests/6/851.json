@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTeleports entities in the direction of the dusk stone.\n\nIf vengeful will is present, the ritual only works on baby mobs.\n\nIf destructive will is present the ritual only works on adult mobs.",
+      "desc:8": "§7§o将实体向薄暮仪式石的方向传送。\n\n若存在复仇意志，仪式仅对幼年生物起效。\n\n若存在破坏意志，仪式仅对成年生物起效。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Speed"
+      "name:8": "速移仪式"
     }
   },
   "questID:3": 851,

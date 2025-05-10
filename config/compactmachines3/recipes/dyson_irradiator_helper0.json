@@ -1,0 +1,183 @@
+{
+    "name": "compactmachines3:dyson_irradiator_helper_0",
+    "target-item": "modularmachinery:dyson_irradiator_bottom_controller",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+  
+
+
+    "input-types": {
+      "a": {
+        "id": "modularmachinery:dyson_irradiator_top_controller",
+        "meta": 2
+      },
+      "b": {
+        "id": "minecraft:wool",
+        "meta": 0
+      },
+      "c": {
+        "id": "minecraft:wool",
+        "meta": 7
+      },
+      "d": {
+        "id": "modularmachinery:dyson_irradiator_bottom_controller",
+        "meta": 2
+      },
+      "e": {
+        "id": "modularmachinery:dyson_irradiator_controller",
+        "meta": 2
+      }
+    },
+    "shape": [
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "a"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "c"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "c"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "e"
+        ],
+        [
+          "b"
+        ],
+        [
+          "c"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "c"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "c"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "b"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "d"
+        ]
+      ]
+    ]
+   
+}

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCreated from a Void Ore Miner.",
+      "desc:8": "§7§o虚空矿物采掘机产出。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "environmentaltech:lonsdaleite_crystal"
       },
-      "name:8": "Lonsdaleite Crystal"
+      "name:8": "蓝丝黛尔水晶"
     }
   },
   "questID:3": 70181,

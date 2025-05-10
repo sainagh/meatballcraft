@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Exponential scaling!!!",
+      "desc:8": "指数规模！！！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectex:colossal_star_omega",
         "tag:10": {}
       },
-      "name:8": "Colossal Star Omega"
+      "name:8": "六级终焉能量之星"
     }
   },
   "questID:3": 50133,

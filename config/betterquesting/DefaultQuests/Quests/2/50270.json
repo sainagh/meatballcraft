@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Milk and slime? Gross...",
+      "desc:8": "牛奶喝粘液球？呕……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:machine",
@@ -12,7 +12,7 @@
           "Type:8": "extrautils2:generator_slime"
         }
       },
-      "name:8": "Slimey Generator (OK)"
+      "name:8": "史莱姆发电机（一般）"
     }
   },
   "questID:3": 50270,

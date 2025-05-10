@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe philosopher stone is used to convert objects with the same equivalence value by converting between them in a crafting table or by using it on blocks.\n\nPress V to increase the conversion range, sift + V to reduce it!\n\nIt can act as a portable crafting table, press C to use it!\n\n",
+      "desc:8": "§7§o贤者之石可通过合成网格或直接对方块使用，对目标进行等价转化。\n\n按V键增加转化范围，Shift+V键减少范围！\n\n可充当便携工作台，按C键使用！\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_philosophers_stone",
         "tag:10": {}
       },
-      "name:8": "Philosopher\u0027s Stone"
+      "name:8": "贤者之石"
     }
   },
   "questID:3": 20205,

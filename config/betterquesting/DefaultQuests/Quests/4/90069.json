@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe drawer controller can be used to connect a network of touching drawers to be seen as a single inventory. Great for storage busses!",
+      "desc:8": "§7§o抽屉控制器可将相邻的抽屉连接到同一个存储网络，网络整体可视为同一个容器。与存储总线搭配更佳！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "storagedrawers:controller"
       },
-      "name:8": "Drawer Controller"
+      "name:8": "抽屉控制器"
     }
   },
   "questID:3": 90069,

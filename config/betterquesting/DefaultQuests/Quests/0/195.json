@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAutomate essences ASAP!\n\n§fThe world of hator holds an interesting secret. A weird pyrite metal, infused with alchemical magic, that is capable of transmuting stone into complex metal alloys.\nMy alchemy wasn\u0027t able to do that, so I better take advantage of this new tool!",
+      "desc:8": "§7§o尽早自动化精华！\n\n§f哈托尔世界藏着一个有趣的秘密。一种奇异的黄铁矿金属，经炼金魔法灌注后，竟能将普通岩石转化为复杂合金！\n这完全超越了我的炼金术水平，必须好好利用这件新发现的工具！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:fiery_pyrite"
       },
-      "name:8": "Fiery Pyrite"
+      "name:8": "炽热黄铁矿"
     }
   },
   "questID:3": 195,

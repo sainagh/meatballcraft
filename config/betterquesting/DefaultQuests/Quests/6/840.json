@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIncreases the number of upgrade points on living armor! Pretty good!",
+      "desc:8": "§7§o增加束灵盔甲的升级点数！太好了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Ritual of the Living Evolution"
+      "name:8": "束灵进化"
     }
   },
   "questID:3": 840,

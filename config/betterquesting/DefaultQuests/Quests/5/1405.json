@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo produce chaos shards, the factory needs to receive a constant supply of awakened cores.",
+      "desc:8": "§7§o工厂需要稳定的觉醒核心供应才能产出混沌碎片。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:chaos_shard"
       },
-      "name:8": "Chaos Shards"
+      "name:8": "混沌碎片"
     }
   },
   "questID:3": 1405,

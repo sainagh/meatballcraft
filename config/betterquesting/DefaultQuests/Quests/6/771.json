@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§r§7§oConsumes mana to teleport animals.\n\nRight click with a position reader set to a location to set where the entities will be teleported.\n\nDrop a paper on the flower to activate it. \n\nIf done correctly, a particle effect will show up.",
+      "desc:8": "§7§r§7§o消耗魔力传送动物。\n\n使用存有坐标的坐标读取器右击来设置实体将被传送到的地点。\n\n在花上丢一张纸将其激活。\n\n操作正确时会出现粒子效果。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "stardustlotus"
         }
       },
-      "name:8": "Stardust Lotus"
+      "name:8": "星移莲"
     }
   },
   "questID:3": 771,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oObtained by smelting Cinnabar Ore.\nFound at every level.\n",
+      "desc:8": "§7§o通过烧炼朱砂矿石获得。\n所有高度均可发现。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:quicksilver"
       },
-      "name:8": "Quicksilver"
+      "name:8": "水银"
     }
   },
   "questID:3": 70109,

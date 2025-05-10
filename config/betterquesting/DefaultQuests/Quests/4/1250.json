@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTunnels let you connect your compact machine to the outside world.\n\nPlace one on a wall on the inside of a compact machine to link it to the outside.\n\nRight click a tunnel to set what side of the outside machine you want to interact with.\n\nTunnels connect to ducts, conduits, and other transfer, for energy, items, and fluids.",
+      "desc:8": "§7§o接口可以将压缩空间机械内部与外部世界连接。\n\n在压缩空间机械内部墙壁上放置接口，以将其与外部连接。\n\n右击接口可设置其在外部压缩空间机械的互动面。\n\n接口可与热力管道、末影接口的导管以及其他物流方案连接，来传输能量、物品和流体。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "compactmachines3:tunneltool"
       },
-      "name:8": "Tunnel"
+      "name:8": "接口"
     }
   },
   "questID:3": 1250,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe thermal energy cell is the basic energy storage block. It can be upgraded into stronger versions using upgrade and conversion kits.",
+      "desc:8": "§7§o热力模组的能量单元是基础的能量存储方块。可使用升级和转换套件升级为更强大的版本。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermalexpansion:cell",
@@ -25,7 +25,7 @@
           ]
         }
       },
-      "name:8": "Energy Cell"
+      "name:8": "能量单元"
     }
   },
   "questID:3": 90096,

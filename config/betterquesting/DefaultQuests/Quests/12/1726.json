@@ -9,12 +9,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oImmune to sirens!",
+      "desc:8": "§7§o免疫塞壬的歌声诱惑！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "iceandfire:earplugs"
       },
-      "name:8": "Earplugs"
+      "name:8": "耳塞"
     }
   },
   "questID:3": 1726,

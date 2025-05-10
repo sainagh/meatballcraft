@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDense cables carry up to 32 channels, and they display how many are in use.",
+      "desc:8": "§7§o致密线缆最多可传输32个频道，并且可显示其传输的频道数。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 76,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "ME Dense Smart Cable - Fluix"
+      "name:8": "ME致密线缆 - 福鲁伊克斯色"
     }
   },
   "questID:3": 90144,

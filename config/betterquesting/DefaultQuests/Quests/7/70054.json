@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "There are a ton of different minerals and metals to be found, here is how to get them all!",
+      "desc:8": "有大量不同的矿物和金属可供发现，以下是获得它们的方法！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:diamond_ore"
       },
-      "name:8": "All of the minerals!"
+      "name:8": "所有矿物！"
     }
   },
   "questID:3": 70054,

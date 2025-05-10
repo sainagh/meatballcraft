@@ -17,7 +17,7 @@
           "HideFlags:1": 2,
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Gun Devil Tribute"
+            "Name:8": "枪之恶魔的礼物"
           },
           "ench:9": {
             "0:10": {
@@ -39,7 +39,7 @@
           }
         }
       },
-      "name:8": "Gun Devil Tribute"
+      "name:8": "枪之恶魔的礼物"
     }
   },
   "questID:3": 994,
@@ -54,9 +54,9 @@
             "HideFlags:1": 2,
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oGun Devil Tribute§r"
+              "Name:8": "§6§o枪之恶魔的礼物§r"
             },
             "ench:9": {
               "0:10": {

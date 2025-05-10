@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEMC links are a way to extract and insert EMC into your personal network (your transmutation tablet).\n\nThe basic energy EMC link is used to add EMC to your network, you can only input items into it, but cannot pull them out!\n\nThe personal EMC link is like a condenser that takes EMC from your own network. See next quests for upgrades on the personal link!\n\nWARNING: DO not attach EMC links directly to AE2 buses, this will cause a lot of lag!\n\n",
+      "desc:8": "§7§oEMC接口可与你个人的EMC网络（也就是你的转化桌）进行交互。\n\n基础能量EMC接口可用于增加网络的EMC，只能向其中输入物品，不能输出物品！\n\n个人EMC接口类似于凝聚器，可以消耗你网络内的EMC产出物品。查看后续任务来升级个人接口！\n\n警告：不要将EMC接口与AE2的总线直接相连，会造成大量卡顿！\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectex:personal_link"
       },
-      "name:8": "Personal EMC Link"
+      "name:8": "个人EMC接口"
     }
   },
   "questID:3": 20509,

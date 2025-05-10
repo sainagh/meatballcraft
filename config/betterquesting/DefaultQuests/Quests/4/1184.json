@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou should eventually upgrade to these for most power transfer!",
+      "desc:8": "§7§o最终应升级到此类方案，以进行绝大部分的能量传输！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:redstone"
       },
-      "name:8": "Infinite Energy Transfer"
+      "name:8": "无限能量传输"
     }
   },
   "questID:3": 1184,

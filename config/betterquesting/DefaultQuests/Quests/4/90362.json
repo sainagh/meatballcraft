@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe sequencer produces redstone signals at a constant interval from each of its sides, in a clockwise and counterclockwise fashion.\n\nRight click the gate to set the time interval between each side.\n\nRight click with a screwdriver to flip the direction of the loop (counterclockwise to clockwise and vice versa).\n\n",
+      "desc:8": "§7§o序列发生器会按顺时针或逆时针模式，从各个面以固定间隔输出红石信号。\n\n右击该逻辑门可设置间隔。\n\n使用螺丝刀右击可切换循环方向（逆时针、顺时针）\n\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 18,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Sequencer"
+      "name:8": "序列发生器"
     }
   },
   "questID:3": 90362,

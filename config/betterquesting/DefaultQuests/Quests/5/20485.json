@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWant more drones? More flowers? These upgrades can help!\n\n§fMore useful apiary stuff!",
+      "desc:8": "§7§o想要更多雄蜂？更多鲜花？这些升级能派上用场！\n\n§f更多实用的蜂箱升级！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "gendustry:apiary.upgrade"
       },
-      "name:8": "Misc Upgrades"
+      "name:8": "杂项升级"
     }
   },
   "questID:3": 20485,

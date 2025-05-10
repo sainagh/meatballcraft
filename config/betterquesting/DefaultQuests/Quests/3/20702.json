@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The crafting core holds a single item to be infused with the objects located on the surrounding pedestals.\nOnly the core requires energy.",
+      "desc:8": "合成核心使用周围基座中的物品灌注其中的物品。\n只有合成核心需要能量。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extendedcrafting:crafting_core"
       },
-      "name:8": "Crafting Core"
+      "name:8": "合成核心"
     }
   },
   "questID:3": 20702,

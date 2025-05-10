@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe mortar and pestle can be used to produce a variety of ground items. Their properties are different from every player. You can test their effects on a gecko that has been put in a cage using a net. \nTo make armaniis, you should use the ground powder that makes the gecko feel calm, and look at you with loving eyes.\nTo make a potion out of the right ground item, fill the infuser with swamp water from a weedwood or syrmorite bucket, add the right ingredients, and stir (right click with empty hand) for a couple of minutes. \nIf the ingredient is correct, the liquid in the infuser will become darker. Once it\u0027s done, use a weedwood or syrmorite bucket to trasfer it to an alembic (shift right click). Use a dentrothyst vial to collect the aspect from the alembic.\n\n§fThe druids are capable of manipulating the souls of the beings around them, and twisting the inhabitants of the swamp in between into their unknowing servants.\nPotion-making has to do with this control, but the source appears to be the abyssal creatures that live in the higher dimensions.",
+      "desc:8": "§7§o研磨器与石杵可用于制作多种磨碎的物品。每个存档中物品含有的要素都各不相同。可以使用壁虎笼子来测试磨碎物品的效果。\n要制作Armaniis，使用能让壁虎镇静下来，用可爱的眼神看着你的磨碎物品。\n要使用正确的磨碎物品来酿造药水，用杂草木或赛摩桶给炼药器加满沼泽水，放入正确的原料，然后搅拌（空手右击）数分钟。\n原料正确，炼药器内流体的颜色将变深。酿造成功后，使用杂草木或赛摩桶将流体放入蒸馏器中（Shift右击）。使用木晶药瓶从蒸馏器中收集要素。\n\n§f德鲁伊能操控生物灵魂，将沼泽的住民扭曲为无知仆从。\n炼药学与其控制手段相关，但力量源头似乎来自高维深渊存在。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thebetweenlands:aspect_vial",
@@ -25,7 +25,7 @@
           }
         }
       },
-      "name:8": "Spirit Domination"
+      "name:8": "灵魂统御"
     }
   },
   "questID:3": 659,
@@ -46,7 +46,7 @@
               "Damage:2": 0,
               "id:8": "thebetweenlands:elixir"
             },
-            "TrophyName:8": "Alchemical Annoyance Slayer",
+            "TrophyName:8": "炼金烦恼屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

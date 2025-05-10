@@ -9,12 +9,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oImmune to gorgons!",
+      "desc:8": "§7§o免疫蛇发女妖的石化！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "iceandfire:blindfold"
       },
-      "name:8": "Blindfold"
+      "name:8": "眼罩"
     }
   },
   "questID:3": 1727,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe buses in the following quests are used to move things in and out of your AE2 network!\n\nThe buses can be upgraded using cards!",
+      "desc:8": "§7§o以下任务中提到的总线用于实现AE2网络的物品传输！\n\n总线可用卡片升级！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermaldynamics:servo"
       },
-      "name:8": "Network I/O"
+      "name:8": "网络I/O"
     }
   },
   "questID:3": 1227,

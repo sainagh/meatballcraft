@@ -29,3 +29,10 @@ miniatureblackhole.setToolClass("pickaxe");
 miniatureblackhole.setToolLevel(3);
 miniatureblackhole.register();
 
+
+var miniaturewhitehole = VanillaFactory.createBlock("miniature_white_hole", <blockmaterial:iron>);
+miniaturewhitehole.setBlockHardness(0.7);
+miniaturewhitehole.setBlockResistance(2.5);
+miniaturewhitehole.setToolClass("pickaxe");
+miniaturewhitehole.setToolLevel(3);
+miniaturewhitehole.register();

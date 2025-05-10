@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace two tesslocators in the same block space to transfer energy between them.\n\nOrange: output\nBlue: input",
+      "desc:8": "§7§o在同一方块空间内放置两个超转运体来在二者间传输流体。\n\n橙色：输出\n蓝色：输入",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tesslocator:basic_fluid_tesslocator"
       },
-      "name:8": "Basic Fluid Tesslocator"
+      "name:8": "基础流体超转运体"
     }
   },
   "questID:3": 90218,

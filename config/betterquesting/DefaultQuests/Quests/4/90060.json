@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDanks can be upgraded into storage units that can be plugged into digital storage systems.\n\nA good and compact alternative to drawer walls!",
+      "desc:8": "§7§oDank可升级为能并入数字存储系统的Dank存储器。\n\n相当于替代版本的抽屉墙！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "dankstorage:dank_1"
       },
-      "name:8": "Dank 1"
+      "name:8": "小型Dank存储器"
     }
   },
   "questID:3": 90060,

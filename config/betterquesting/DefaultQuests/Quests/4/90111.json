@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEvery Xnet system requires a controller, a connector for each inventory you want to interact with, and network cables to connect them.\n\nLike cables, connectors can be dyed to allow for different setups next to each other.\n\nConnectors are placed on a side of inventories and machines, but they can interact with any side. So you can extract from the bottom while the connector is on the top (if you have to work with sided machines). This can be specified in the controller GUI.",
+      "desc:8": "§7§o每个Xnet网络都需要一个控制器，与想要进行交互的容器相连的若干连接器，以及连通连接器的网络线缆。\n\n与线缆类似，连接器也可染色，以避免相邻网络互相连接。\n\n连接器应放置在容器与机器旁，可与连接方块的每个面互动（仅限高级连接器）。例如，放置在底部的连接器可以从顶部提取物品（如果机器有侧面IO差异）。可在控制器GUI中指定互动面。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "xnet:connector"
       },
-      "name:8": "Connector"
+      "name:8": "连接器"
     }
   },
   "questID:3": 90111,

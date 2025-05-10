@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIncreases the spawn rate of peaceful mobs.\n\nVery useful for will crystal automation!",
+      "desc:8": "§7§o增加和平生物的生成率。\n\n对意志晶体自动化非常有用！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "bloodmagic:blood_rune"
       },
-      "name:8": "Peaceful Souls (Useful)"
+      "name:8": "和平灵魂（实用）"
     }
   },
   "questID:3": 807,

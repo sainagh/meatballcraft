@@ -2,6 +2,27 @@
     "registryname": "mythic_processor_melter",
     "localizedname": "Mythic Processor: Melter",
 	"color": "464f47",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:mythic_coil_t2@0",
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "description": "处理数量x8",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 8
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 8
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -1,

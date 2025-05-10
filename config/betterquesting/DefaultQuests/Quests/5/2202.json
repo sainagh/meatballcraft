@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can use any Forestry Sapling to complete this quest!\n\nThe following quests will guide you through tree breeding!\n\nThis is easier if you already have a good knowledge of bees!",
+      "desc:8": "§7§o可使用任意林业模组树苗完成该任务！\n\n以下任务会指引你进行树木培育！\n\n事先了解蜜蜂相关知识能够帮助理解！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "r/trees"
+      "name:8": "树吧老哥"
     }
   },
   "questID:3": 2202,

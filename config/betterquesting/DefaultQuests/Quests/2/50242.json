@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "...and what does berkelium break into?!?\nCalifornium Baby!",
+      "desc:8": "……那锫会裂变成什么？！？\n锎啊宝贝！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:californium"
       },
-      "name:8": "Californium-249"
+      "name:8": "锎-249"
     }
   },
   "questID:3": 50242,

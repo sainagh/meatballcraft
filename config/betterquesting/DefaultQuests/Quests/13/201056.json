@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 25\nMining Level: Stone\nMining Speed: 2\nAttack: 2\nEcological\n\nHandle\nModifier: 1\nDurability: 35\nEcological\n\nExtra\nDurability: 20\nEcological",
+      "desc:8": "顶端\n耐久：25\n挖掘等级：石头\n挖掘速度：2\n攻击力：2\n生态\n\n手柄\n手柄系数：1\n耐久：35\n生态\n\n其它部件\n耐久：20\n生态",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "treatedwood"
         }
       },
-      "name:8": "Treated Wood"
+      "name:8": "防腐木"
     }
   },
   "questID:3": 201056,

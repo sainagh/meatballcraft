@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1724085619
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:quasar_charged_dust"
+      },
+      "name:8": "Quasar-Charged Garnets"
+    }
+  },
+  "questID:3": 71844051,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:quasar_charged_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

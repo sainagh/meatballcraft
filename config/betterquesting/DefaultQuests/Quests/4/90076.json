@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Black Hole Unit is a very efficient storage method that only accounts for one item. Is it better than a drawer tho?!",
+      "desc:8": "黑洞存储器是存储同种物品的有效方案。但它有没有抽屉好呢？！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:black_hole_unit"
       },
-      "name:8": "Black Hole Unit"
+      "name:8": "黑洞存储器"
     }
   },
   "questID:3": 90076,

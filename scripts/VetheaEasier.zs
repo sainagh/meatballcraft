@@ -780,11 +780,16 @@ recipes.addShapeless(<divinerpg:tormented_boots>,
 <divinerpg:tormented_template>,
 <divinerpg:pardimal_lump>]);
 
+mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:charged_signalum>, <thermalfoundation:material:165>, 100000);
+
+mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:supercharged_signalum>, 
+<contenttweaker:charged_signalum>, 1024, <extendedcrafting:material:11>, 100000);
+
 
 recipes.addShaped(<contenttweaker:crown_of_the_energy_queen>,
-[[null, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), null],
-[<enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), <contenttweaker:crown_of_the_energy_queen>.reuse(), <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000})],
-[null, <enderio:block_cap_bank:3>.withTag({"enderio:energy": 500000000}), null]]);
+[[<contenttweaker:supercharged_signalum>, <contenttweaker:supercharged_signalum>, <contenttweaker:supercharged_signalum>],
+[<contenttweaker:supercharged_signalum>, <contenttweaker:crown_of_the_energy_queen>.reuse(), <contenttweaker:supercharged_signalum>],
+[<contenttweaker:supercharged_signalum>, <contenttweaker:supercharged_signalum>, <contenttweaker:supercharged_signalum>]]);
 
 recipes.removeShaped(<thebetweenlands:lurker_skin_pouch>,
 [[<thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>],

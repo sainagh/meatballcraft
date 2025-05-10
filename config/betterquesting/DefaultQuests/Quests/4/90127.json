@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oToggle busses can be used to connect or disconnect a section of a AE2 network using redstone.",
+      "desc:8": "§7§o触发总线可通过红石信号，连接或断开AE2网络的一部分。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 80,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "ME Toggle Bus"
+      "name:8": "ME触发总线"
     }
   },
   "questID:3": 90127,

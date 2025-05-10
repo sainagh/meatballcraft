@@ -9,12 +9,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRun through the swamp!",
+      "desc:8": "§7§o横行沼泽！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thebetweenlands:marsh_runner_boots"
       },
-      "name:8": "Marsh Runner"
+      "name:8": "湿地旅者"
     }
   },
   "questID:3": 1884,

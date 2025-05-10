@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound between Y\u003d39 and Y\u003d40.",
+      "desc:8": "§7§o发现于Y\u003d39与Y\u003d40之间。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 23,
         "id:8": "techreborn:dust"
       },
-      "name:8": "Galena Dust"
+      "name:8": "方铅矿粉"
     }
   },
   "questID:3": 70106,

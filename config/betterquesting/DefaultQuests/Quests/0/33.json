@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGood way to test how much damage you do",
+      "desc:8": "§7§o测试伤害的好法子",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "testdummy2:dummy"
+        "id:8": "testdummy:dummy"
       },
-      "name:8": "Test Dummy"
+      "name:8": "测试假人"
     }
   },
   "questID:3": 33,
@@ -31,7 +31,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "testdummy2:dummy"
+          "id:8": "testdummy:dummy"
         }
       },
       "taskID:8": "bq_standard:retrieval"
