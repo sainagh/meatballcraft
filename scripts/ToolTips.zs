@@ -964,7 +964,7 @@
 <contenttweaker:defined_ingot>.addTooltip(format.red("ChaosStrikez (单人)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("Ikea Bear (单人)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("Sandman366 (单人)"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("Paronity & Kherune (团队) (自动化挑战)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Paronity & Kherune (团队) (下单合成挑战)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("Nullity UwU (单人)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("Raziel (单人)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("okay (单人)"));
@@ -1411,7 +1411,7 @@
 
 <bloodmagic:arcane_ashes>.addTooltip(format.red("使用奥术粉灰右击方块创建炼金矩阵，使用所需催化剂（详细查看JEI）右击矩阵来进行合成"));
 
-<twilightforest:charm_of_life_2>.addTooltip(format.red("取消死亡，消耗品"));
+<twilightforest:charm_of_life_2>.addTooltip(format.red("阻止死亡，消耗品"));
 
 <rf-capability-adapter:aecapabilityadapter_part>.addTooltip(format.red("警告：相邻放置多个可能会导致卡顿"));
 

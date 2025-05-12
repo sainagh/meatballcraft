@@ -201,7 +201,7 @@
 		{"key": "mod_lavacow:lifesteal.desc", "value": "造成伤害时回复生命值，公式为：5%%*魔咒等级*伤害"},
 		{"key": "mod_lavacow:poisonous.desc", "value": "攻击造成8秒中毒效果，效果等级与魔咒等级一致"},
 		{"key": "openblocks:flim_flam.desc", "value": "无作用"},
-		{"key": "openblocks:last_stand.desc", "value": "消耗经验取消死亡（消耗经验为50/全身魔咒等级总和）"},
+		{"key": "openblocks:last_stand.desc", "value": "消耗经验阻止死亡（消耗经验为50/全身魔咒等级总和）"},
 		{"key": "openblocks:explosive.desc", "value": "附在靴子上时，免疫摔落伤害并消耗火药造成爆炸"},
 		{"key": "projectred-expansion:electric_efficiency.desc", "value": "降低红石计划模组喷气发动机组件的能量消耗（最低1/16）"},
 		{"key": "railcraft:destruction.desc", "value": "使撬棍可以范围破坏方块"},

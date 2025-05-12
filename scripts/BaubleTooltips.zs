@@ -257,8 +257,8 @@
 <thaumicwonders:night_vision_goggles>.addTooltip(format.red("拥有揭示之护目镜的所有效果，并且有夜视效果"));
 <thaumicwonders:cleansing_charm>.addTooltip(format.red("将扭曲转变为咒波，消耗魔力"));
 <theoneprobe:probe_goggles>.addTooltip(format.red("根据配置启用检测器"));
-<twilightforest:charm_of_life_1>.addTooltip(format.red("取消死亡，恢复4颗心，获得5秒的生命恢复 I效果"));
-<twilightforest:charm_of_life_2>.addTooltip(format.red("取消死亡，恢复10颗心，获得30秒的抗性提升、生命恢复 IV和防火效果"));
+<twilightforest:charm_of_life_1>.addTooltip(format.red("阻止死亡，恢复4颗心，获得5秒的生命恢复 I效果"));
+<twilightforest:charm_of_life_2>.addTooltip(format.red("阻止死亡，恢复10颗心，获得30秒的抗性提升、生命恢复 IV和防火效果"));
 <twilightforest:charm_of_keeping_1>.addTooltip(format.red("死亡时保留身上的盔甲和手持物品"));
 <twilightforest:charm_of_keeping_2>.addTooltip(format.red("死亡时保留身上的盔甲和快捷栏物品"));
 <twilightforest:charm_of_keeping_3>.addTooltip(format.red("死亡时保留所有物品"));
